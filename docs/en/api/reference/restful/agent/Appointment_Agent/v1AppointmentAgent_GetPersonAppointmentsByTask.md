@@ -44,21 +44,20 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| IncludeProjectAppointments | bool |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TaskId | int32 |  |
+| PersonId | Integer |  |
+| IncludeProjectAppointments | Boolean |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TaskId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -119,7 +118,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -128,16 +127,16 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 154,
+  "PersonId": 507,
   "IncludeProjectAppointments": false,
-  "StartTime": "2011-06-20T02:49:43.1992469+02:00",
-  "EndTime": "2007-10-31T02:49:43.1992469+01:00",
-  "Count": 689,
-  "TaskId": 7
+  "StartTime": "1999-07-09T17:37:16.2142421+02:00",
+  "EndTime": "2008-11-24T17:37:16.2142421+01:00",
+  "Count": 449,
+  "TaskId": 379
 }
 ```
 
@@ -149,61 +148,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 34,
-    "StartDate": "2007-08-30T02:49:43.1992469+02:00",
-    "EndDate": "2011-12-27T02:49:43.1992469+01:00",
+    "AppointmentId": 358,
+    "StartDate": "2017-02-01T17:37:16.2152419+01:00",
+    "EndDate": "2013-03-11T17:37:16.2152419+01:00",
     "Type": "BookingForChecklist",
-    "Task": "iusto",
-    "AssociateFullName": "Mr. Zella Adrianna Hilll V",
-    "ContactName": "Cole LLC",
-    "Description": "Enhanced bifurcated attitude",
-    "PersonFullName": "Delia Ernser",
-    "PersonId": 316,
-    "ContactId": 36,
-    "ProjectId": 778,
-    "ProjectName": "Kemmer-O'Reilly",
+    "Task": "pariatur",
+    "AssociateFullName": "Kendra White",
+    "ContactName": "Mills-Bailey",
+    "Description": "Reduced exuding internet solution",
+    "PersonFullName": "Brice Prohaska",
+    "PersonId": 998,
+    "ContactId": 657,
+    "ProjectId": 554,
+    "ProjectName": "Breitenberg Group",
     "IsPublished": false,
-    "AssociateId": 322,
-    "ColorIndex": 853,
-    "IsFree": false,
+    "AssociateId": 268,
+    "ColorIndex": 328,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 439,
-    "PriorityName": "Haag, Haag and Jacobson",
+    "PriorityId": 527,
+    "PriorityName": "Pagac-Hartmann",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1997-12-17T02:49:43.1992469+01:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2005-03-27T17:37:16.2162417+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-09-08T02:49:43.1992469+02:00",
-    "RecurringEndDate": "2018-06-10T02:49:43.1992469+02:00",
-    "MotherId": 944,
-    "AssignedBy": 859,
-    "AssignedByFullName": "Marisol Conroy",
+    "RecurringStartDate": "2005-11-29T17:37:16.2162417+01:00",
+    "RecurringEndDate": "2002-06-02T17:37:16.2162417+02:00",
+    "MotherId": 649,
+    "AssignedBy": 846,
+    "AssignedByFullName": "Shany Lind",
     "RejectReason": "",
-    "Location": "voluptatem",
-    "AlarmLeadTime": "ab",
-    "SaleId": 285,
-    "SaleName": "Wisozk-Labadie",
-    "AssociateName": "Baumbach Inc and Sons",
-    "CreatedDate": "2010-12-14T02:49:43.1992469+01:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Dr. Isac Dallas Davis",
-    "CreatedByAssociateId": 598,
+    "Location": "repudiandae",
+    "AlarmLeadTime": "molestiae",
+    "SaleId": 459,
+    "SaleName": "Dickens, Klein and Fahey",
+    "AssociateName": "Lueilwitz, Walker and Kutch",
+    "CreatedDate": "1998-01-23T17:37:16.2162417+01:00",
+    "CreatedBy": "sapiente",
+    "CreatedByFullName": "Robb Carroll",
+    "CreatedByAssociateId": 34,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 588
+        "FieldType": "System.Int32",
+        "FieldLength": 423
       }
     }
   }

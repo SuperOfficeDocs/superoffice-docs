@@ -42,16 +42,15 @@ POST /api/v1/Agents/ViewState/GetHistoriesByName?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 HistoryName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HistoryName | string |  |
+| HistoryName | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body: array
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Eichmann, Jast and Mitchell"
+  "HistoryName": "Champlin, Little and Kihn"
 }
 ```
 
@@ -95,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 401,
-    "Id": 588,
-    "HistoryName": "Koelpin, Gleichner and Olson",
-    "HistoryId": 274,
-    "AssociateId": 456,
-    "Name": "Lang Group",
-    "ItemInfo": "similique",
+    "Rank": 478,
+    "Id": 527,
+    "HistoryName": "Kulas, Jenkins and Armstrong",
+    "HistoryId": 485,
+    "AssociateId": 80,
+    "Name": "Champlin, Lebsack and Schneider",
+    "ItemInfo": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldLength": 889
       }
     }
   }

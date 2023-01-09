@@ -42,16 +42,15 @@ POST /api/v1/Agents/Ticket/GetTicketSummaries?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TicketIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketIds | array |  |
+| TicketIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,13 +74,13 @@ Response body: array
 POST /api/v1/Agents/Ticket/GetTicketSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    420,
-    200
+    316,
+    29
   ]
 }
 ```
@@ -94,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 123,
-    "TicketStatus": 476,
-    "Title": "nemo",
-    "Registered": "2001-11-18T02:49:45.5934707+01:00",
-    "IconHint": "natus"
+    "TicketId": 166,
+    "TicketStatus": 97,
+    "Title": "odit",
+    "Registered": "2008-04-10T17:37:19.4869761+02:00",
+    "IconHint": "ipsam"
   },
   {
-    "TicketId": 123,
-    "TicketStatus": 476,
-    "Title": "nemo",
-    "Registered": "2001-11-18T02:49:45.5934707+01:00",
-    "IconHint": "natus"
+    "TicketId": 166,
+    "TicketStatus": 97,
+    "Title": "odit",
+    "Registered": "2008-04-10T17:37:19.4869761+02:00",
+    "IconHint": "ipsam"
   }
 ]
 ```

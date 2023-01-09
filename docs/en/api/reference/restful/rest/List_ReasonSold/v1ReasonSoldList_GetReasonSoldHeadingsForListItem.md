@@ -48,7 +48,7 @@ GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 508,
-    "Name": "Dach Group",
-    "ToolTip": "Cum repellendus sapiente iusto et enim.",
+    "Id": 738,
+    "Name": "Schaden Group",
+    "ToolTip": "Eum nemo nesciunt corrupti aspernatur non illo.",
     "Deleted": false,
-    "Rank": 322,
-    "Type": "ullam",
-    "ColorBlock": 199,
-    "IconHint": "eos",
+    "Rank": 113,
+    "Type": "non",
+    "ColorBlock": 931,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2019-11-21T02:49:52.4846993+01:00",
+    "LastChanged": "2006-09-25T17:37:40.304504+02:00",
     "ChildItems": [
       {
-        "Id": 381,
-        "Name": "Swaniawski LLC",
-        "ToolTip": "Laborum officiis id dignissimos.",
+        "Id": 853,
+        "Name": "Klocko, Schamberger and Cormier",
+        "ToolTip": "Unde mollitia dicta ipsa.",
         "Deleted": false,
-        "Rank": 529,
-        "Type": "rerum",
-        "ColorBlock": 231,
-        "IconHint": "veniam",
+        "Rank": 938,
+        "Type": "corrupti",
+        "ColorBlock": 968,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2021-11-04T02:49:52.4846993+01:00",
+        "LastChanged": "2007-06-28T17:37:40.304504+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "et",
+        "ExtraInfo": "optio",
+        "StyleHint": "omnis",
         "Hidden": true,
-        "FullName": "Davin Wilhelmine Johnson MD",
+        "FullName": "Lukas Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 162
+            "FieldLength": 710
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Kristin Bode",
+    "FullName": "Carlee Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 348
+        "FieldLength": 226
       }
     }
   }

@@ -42,19 +42,18 @@ POST /api/v1/Agents/Document/CheckinDocument?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId, AllowedReturnTypes, VersionDescription, VersionExtraFields 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
-| AllowedReturnTypes | array |  |
-| VersionDescription | string |  |
-| VersionExtraFields | array |  |
+| DocumentId | Integer |  |
+| AllowedReturnTypes | Array |  |
+| VersionDescription | String |  |
+| VersionExtraFields | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,19 +78,19 @@ Response body:
 POST /api/v1/Agents/Document/CheckinDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 357,
+  "DocumentId": 629,
   "AllowedReturnTypes": [
-    "officia",
-    "amet"
+    "et",
+    "magni"
   ],
-  "VersionDescription": "Triple-buffered logistical open architecture",
+  "VersionDescription": "Reactive global algorithm",
   "VersionExtraFields": [
-    "rem",
-    "porro"
+    "sit",
+    "qui"
   ]
 }
 ```
@@ -103,11 +102,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "est",
-  "VersionId": "occaecati",
+  "ExternalReference": "ipsam",
+  "VersionId": "fugit",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "sit",
-  "AdditionalInfo": "et"
+  "Value": "omnis",
+  "AdditionalInfo": "quia"
 }
 ```

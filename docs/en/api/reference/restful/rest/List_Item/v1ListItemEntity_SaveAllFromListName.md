@@ -36,21 +36,20 @@ Save all list items for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: items  
+## Request Body: items 
 
 The list items 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The identity of the list item |
-| Name | string | The name of the list item |
-| Tooltip | string | The tooltip of the list item |
-| Deleted | bool | True if the list item is marked as deleted |
-| UdListDefinitionId | int32 | The id of the list which this list item belongs to |
-| Rank | int32 | The rank of the list item |
+| Id | Integer | The identity of the list item |
+| Name | String | The name of the list item |
+| Tooltip | String | The tooltip of the list item |
+| Deleted | Boolean | True if the list item is marked as deleted |
+| UdListDefinitionId | Integer | The id of the list which this list item belongs to |
+| Rank | Integer | The rank of the list item |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -58,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body: array
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,25 +76,25 @@ Response body: array
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 148,
-    "Name": "Bayer Group",
-    "Tooltip": "alias",
+    "Id": 860,
+    "Name": "Cummings, Stoltenberg and Gottlieb",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "UdListDefinitionId": 237,
-    "Rank": 323
+    "UdListDefinitionId": 500,
+    "Rank": 847
   },
   {
-    "Id": 148,
-    "Name": "Bayer Group",
-    "Tooltip": "alias",
+    "Id": 860,
+    "Name": "Cummings, Stoltenberg and Gottlieb",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "UdListDefinitionId": 237,
-    "Rank": 323
+    "UdListDefinitionId": 500,
+    "Rank": 847
   }
 ]
 ```
@@ -108,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Kassulke Inc and Sons",
-    "Tooltip": "doloribus",
+    "Id": 972,
+    "Name": "Armstrong-Gottlieb",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 461,
-    "Rank": 558,
+    "UdListDefinitionId": 397,
+    "Rank": 104,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldType": "System.String",
+        "FieldLength": 480
       }
     }
   }

@@ -42,25 +42,24 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariables?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Source, GeneratorEncoding, ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CultureName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Source | string |  |
-| GeneratorEncoding | string |  |
-| ContactId | int32 |  |
-| PersonId | int32 |  |
-| AppointmentId | int32 |  |
-| DocumentId | int32 |  |
-| SaleId | int32 |  |
-| SelectionId | int32 |  |
-| ProjectId | int32 |  |
-| CultureName | string |  |
+| Source | String |  |
+| GeneratorEncoding | String |  |
+| ContactId | Integer |  |
+| PersonId | Integer |  |
+| AppointmentId | Integer |  |
+| DocumentId | Integer |  |
+| SaleId | Integer |  |
+| SelectionId | Integer |  |
+| ProjectId | Integer |  |
+| CultureName | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -68,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -77,20 +76,20 @@ Response body: string
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "dignissimos",
+  "Source": "repudiandae",
   "GeneratorEncoding": "Html",
-  "ContactId": 727,
-  "PersonId": 217,
-  "AppointmentId": 348,
-  "DocumentId": 451,
-  "SaleId": 858,
-  "SelectionId": 771,
-  "ProjectId": 259,
-  "CultureName": "sv"
+  "ContactId": 180,
+  "PersonId": 10,
+  "AppointmentId": 431,
+  "DocumentId": 719,
+  "SaleId": 310,
+  "SelectionId": 829,
+  "ProjectId": 28,
+  "CultureName": "en"
 }
 ```
 
@@ -100,5 +99,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"velit"
+"ea"
 ```

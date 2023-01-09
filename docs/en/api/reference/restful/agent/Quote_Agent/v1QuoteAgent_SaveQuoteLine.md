@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/SaveQuoteLine?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteLine 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLine |  | Information about a connection to the ERP system. <para /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteLine | QuoteLine | Information about a connection to the ERP system. <para /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteLine
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -112,7 +111,7 @@ Response body:
 | ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -121,7 +120,7 @@ Response body:
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +135,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 990,
-  "ERPQuoteLineKey": "accusantium",
-  "QuoteAlternativeId": 116,
-  "ERPProductKey": "saepe",
+  "QuoteLineId": 280,
+  "ERPQuoteLineKey": "sunt",
+  "QuoteAlternativeId": 867,
+  "ERPProductKey": "rerum",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 21370.746,
-  "DeliveredQuantity": 25545.234,
-  "Rank": 14,
-  "Name": "Hane-Fadel",
-  "Description": "Customizable needs-based attitude",
-  "Code": "consequatur",
-  "QuantityUnit": "itaque",
-  "PriceUnit": "ut",
-  "ItemNumber": "1531072",
+  "Quantity": 13379.046,
+  "DeliveredQuantity": 12128.58,
+  "Rank": 696,
+  "Name": "Bogisich, Hane and Lesch",
+  "Description": "Customizable uniform support",
+  "Code": "odit",
+  "QuantityUnit": "fugit",
+  "PriceUnit": "quis",
+  "ItemNumber": "1098359",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nesciunt",
-  "ProductTypeKey": "a",
-  "Supplier": "accusantium",
-  "SupplierCode": "voluptas",
-  "Thumbnail": "dicta",
-  "VATInfo": "velit",
-  "VAT": 27757.838,
-  "UnitCost": 13118.923999999999,
-  "UnitMinimumPrice": 31286.721999999998,
-  "UnitListPrice": 25745.809999999998,
+  "ProductFamilyKey": "eaque",
+  "ProductTypeKey": "autem",
+  "Supplier": "qui",
+  "SupplierCode": "quasi",
+  "Thumbnail": "sit",
+  "VATInfo": "eaque",
+  "VAT": 24717.858,
+  "UnitCost": 10583.518,
+  "UnitMinimumPrice": 4152.55,
+  "UnitListPrice": 8032.442,
   "ExtraInfo": [
     {
-      "Name": "Christiansen-Morissette",
+      "Name": "Jaskolski LLC",
       "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 244
+          "FieldType": "System.Int32",
+          "FieldLength": 110
         }
       }
     },
     {
-      "Name": "Christiansen-Morissette",
+      "Name": "Jaskolski LLC",
       "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 244
+          "FieldType": "System.Int32",
+          "FieldLength": 110
         }
       }
     }
   ],
-  "RawExtraInfo": "quo",
-  "IsSubscription": true,
-  "SubscriptionUnit": "culpa",
-  "SubscriptionQuantity": 25783.417999999998,
-  "SubscriptionStart": "2005-12-18T02:49:45.0465904+01:00",
-  "ERPDiscountPercent": 22586.737999999998,
-  "ERPDiscountAmount": 22241.998,
-  "DiscountPercent": 21615.198,
-  "DiscountAmount": 18756.989999999998,
+  "RawExtraInfo": "debitis",
+  "IsSubscription": false,
+  "SubscriptionUnit": "quo",
+  "SubscriptionQuantity": 13432.323999999999,
+  "SubscriptionStart": "2010-02-12T17:37:18.7692404+01:00",
+  "ERPDiscountPercent": 3801.542,
+  "ERPDiscountAmount": 7819.33,
+  "DiscountPercent": 27093.43,
+  "DiscountAmount": 8894.292,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 18236.746,
-  "EarningAmount": 23260.548,
-  "SubTotal": 14485.348,
-  "TotalPrice": 15632.392,
-  "Rights": "modi",
-  "Rule": "et",
-  "ExtraField1": "est",
-  "ExtraField2": "odit",
-  "ExtraField3": "dolor",
-  "ExtraField4": "nihil",
-  "ExtraField5": "natus",
+  "EarningPercent": 9248.434,
+  "EarningAmount": 6957.48,
+  "SubTotal": 18249.282,
+  "TotalPrice": 15911.318,
+  "Rights": "hic",
+  "Rule": "vero",
+  "ExtraField1": "sunt",
+  "ExtraField2": "praesentium",
+  "ExtraField3": "corporis",
+  "ExtraField4": "iure",
+  "ExtraField5": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 311
+      "FieldLength": 805
     }
   }
 }

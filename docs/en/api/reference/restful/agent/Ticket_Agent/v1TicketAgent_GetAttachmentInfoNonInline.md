@@ -42,16 +42,15 @@ POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TicketMessageEntityId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketMessageEntityId | int32 |  |
+| TicketMessageEntityId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body: array
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 842
+  "TicketMessageEntityId": 78
 }
 ```
 
@@ -94,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 260,
-    "Name": "Quitzon, Heller and Schmidt",
-    "ContentType": "pariatur",
-    "AttSize": 796,
-    "InlineImage": true,
-    "ContentId": "voluptas",
+    "AttachmentId": 997,
+    "Name": "Langosh-Bergnaum",
+    "ContentType": "consequatur",
+    "AttSize": 635,
+    "InlineImage": false,
+    "ContentId": "laborum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldLength": 499
       }
     }
   }

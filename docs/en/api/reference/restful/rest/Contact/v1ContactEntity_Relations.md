@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,14 +73,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Relations?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Relations?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Relations?$orderBy=name asc
-GET /api/v1/Contact/{id}/Relations?$entities=sequi
-GET /api/v1/Contact/{id}/Relations?$top=155
-GET /api/v1/Contact/{id}/Relations?$skip=920
+GET /api/v1/Contact/{id}/Relations?$entities=necessitatibus
+GET /api/v1/Contact/{id}/Relations?$top=702
+GET /api/v1/Contact/{id}/Relations?$skip=106
 GET /api/v1/Contact/{id}/Relations?$mode=Full
 GET /api/v1/Contact/{id}/Relations?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Relations?$context=numquam
+GET /api/v1/Contact/{id}/Relations?$context=voluptatibus
 GET /api/v1/Contact/{id}/Relations?$format=JSON
-GET /api/v1/Contact/{id}/Relations?$jsonSafe=True
+GET /api/v1/Contact/{id}/Relations?$jsonSafe=False
 GET /api/v1/Contact/{id}/Relations?$output=Display
 ```
 
@@ -100,7 +99,7 @@ GET /api/v1/Contact/{id}/Relations?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Contact/{id}/Relations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quisquam",
+  "odata.nextLink": "quam",
   "value": [
     {
-      "PrimaryKey": 7954,
-      "EntityName": "person",
-      "personId": 7954,
-      "fullName": "Mr. Jasen Hegmann"
+      "PrimaryKey": 6704,
+      "EntityName": "sale",
+      "saleId": 6704,
+      "contactId": 2492,
+      "name": "Murphy-White"
     },
     {
-      "PrimaryKey": 5802,
-      "EntityName": "person",
-      "personId": 5802,
-      "fullName": "Adolphus Reichel"
+      "PrimaryKey": 5633,
+      "EntityName": "sale",
+      "saleId": 5633,
+      "contactId": 1756,
+      "name": "Pagac Group"
     }
   ]
 }

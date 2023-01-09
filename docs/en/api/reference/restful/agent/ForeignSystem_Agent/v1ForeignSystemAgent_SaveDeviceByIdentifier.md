@@ -42,19 +42,18 @@ POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, DeviceIdentifier, ForeignDevice 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
-| ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <para /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
+| ForeignDevice | ForeignDevice | Saves a foreign device belonging to the ForeignDevice and application name specified. <para /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignDevice
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body:
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,13 +83,13 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "O'Kon-Runte",
-  "DeviceName": "Strosin, Hegmann and Mills",
-  "DeviceIdentifier": "tenetur",
+  "ApplicationName": "Orn-Witting",
+  "DeviceName": "Bernier Group",
+  "DeviceIdentifier": "quis",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 373,
-  "Name": "Windler, Von and Crist",
-  "CreatedDate": "1997-12-31T02:49:44.5454229+01:00",
-  "UpdatedDate": "1997-06-05T02:49:44.5454229+02:00",
-  "AssociateFullName": "Alanis Koepp",
-  "CreatedBy": "quibusdam",
-  "UpdatedBy": "dolores",
-  "DeviceIdentifier": "natus",
-  "ForeignAppId": 862,
+  "ForeignDeviceId": 52,
+  "Name": "Kirlin Inc and Sons",
+  "CreatedDate": "2021-06-15T17:37:18.1032433+02:00",
+  "UpdatedDate": "2003-04-19T17:37:18.1032433+02:00",
+  "AssociateFullName": "Mateo Hackett",
+  "CreatedBy": "repellat",
+  "UpdatedBy": "voluptatum",
+  "DeviceIdentifier": "numquam",
+  "ForeignAppId": 651,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 235
+      "FieldType": "System.Int32",
+      "FieldLength": 502
     }
   }
 }

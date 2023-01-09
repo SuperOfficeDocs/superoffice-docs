@@ -44,16 +44,15 @@ POST /api/v1/Agents/Quote/SaveQuoteEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteEntity |  | Quote methods <para /> Carrier object for QuoteEntity. Services for the QuoteEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteEntity | QuoteEntity | Quote methods <para /> Carrier object for QuoteEntity. Services for the QuoteEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body:
 | OrderComment | string | A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing |
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
 | QuoteVersions | array | Array og QuoteVersions connected to the quote. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,58 +101,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 437,
-  "SaleId": 897,
-  "QuoteConnectionId": 47,
-  "ERPQuoteKey": "amet",
-  "ERPOrderKey": "pariatur",
-  "ActiveQuoteVersionId": 318,
-  "AcceptedQuoteAlternativeId": 362,
-  "UseValuesFromQuote": 449,
-  "DocumentId": 913,
-  "PoNumber": "954988",
-  "OrderComment": "ea",
-  "PreferredEmailCulture": "sid@kutch.com",
+  "QuoteId": 626,
+  "SaleId": 193,
+  "QuoteConnectionId": 283,
+  "ERPQuoteKey": "quae",
+  "ERPOrderKey": "sunt",
+  "ActiveQuoteVersionId": 593,
+  "AcceptedQuoteAlternativeId": 114,
+  "UseValuesFromQuote": 854,
+  "DocumentId": 520,
+  "PoNumber": "1100572",
+  "OrderComment": "quibusdam",
+  "PreferredEmailCulture": "elisabeth_hackett@stehrpowlowski.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 802,
-      "ERPQuoteVersionKey": "qui",
-      "QuoteId": 994,
-      "Description": "Implemented fault-tolerant moratorium",
-      "Number": "1628892",
+      "QuoteVersionId": 313,
+      "ERPQuoteVersionKey": "dolor",
+      "QuoteId": 201,
+      "Description": "Realigned bifurcated Graphical User Interface",
+      "Number": "849431",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 790,
-      "SentDate": "2013-09-27T02:49:45.0465904+02:00",
-      "FollowupId": 810,
-      "ExpirationDate": "2001-06-22T02:49:45.0465904+02:00",
-      "DeliveryCountryId": 508,
+      "LikelyQuoteAlternativeId": 360,
+      "SentDate": "2019-01-25T17:37:18.7592421+01:00",
+      "FollowupId": 402,
+      "ExpirationDate": "2010-06-30T17:37:18.7592421+02:00",
+      "DeliveryCountryId": 912,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 645,
+      "InvoiceCountryId": 857,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "iste",
-      "ERPPaymentTypeKey": "ducimus",
-      "ERPDeliveryTermsKey": "dolores",
-      "ERPDeliveryTypeKey": "id",
-      "Rank": 775,
-      "ApprovedBy": 209,
-      "ApprovedText": "ipsa",
-      "ApprovedRegisteredBy": 711,
-      "ApprovedRegisteredDate": "2021-09-03T02:49:45.0465904+02:00",
-      "ExtraField1": "aliquid",
-      "ExtraField2": "et",
-      "ExtraField3": "esse",
-      "ExtraField4": "sequi",
-      "ExtraField5": "officia",
-      "LastRecalculated": "2010-10-19T02:49:45.0465904+02:00",
-      "Updated": "2016-03-02T02:49:45.0465904+01:00",
-      "UpdatedAssociateId": 107,
-      "Registered": "2003-03-05T02:49:45.0465904+01:00",
-      "RegisteredAssociateId": 705,
-      "RequestAssociateId": 889,
-      "RequestComment": "corrupti",
+      "ERPPaymentTermsKey": "aperiam",
+      "ERPPaymentTypeKey": "officiis",
+      "ERPDeliveryTermsKey": "ut",
+      "ERPDeliveryTypeKey": "rerum",
+      "Rank": 254,
+      "ApprovedBy": 156,
+      "ApprovedText": "occaecati",
+      "ApprovedRegisteredBy": 379,
+      "ApprovedRegisteredDate": "2008-10-06T17:37:18.7592421+02:00",
+      "ExtraField1": "repellendus",
+      "ExtraField2": "exercitationem",
+      "ExtraField3": "rerum",
+      "ExtraField4": "nulla",
+      "ExtraField5": "ab",
+      "LastRecalculated": "2017-08-31T17:37:18.7592421+02:00",
+      "Updated": "2022-10-05T17:37:18.7592421+02:00",
+      "UpdatedAssociateId": 486,
+      "Registered": "2003-10-14T17:37:18.7592421+02:00",
+      "RegisteredAssociateId": 78,
+      "RequestAssociateId": 652,
+      "RequestComment": "nesciunt",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 132
+          "FieldLength": 270
         }
       }
     }
@@ -173,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 797
     }
   }
 }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/TestConnectionByConfig
 Tests to see if the given connection has a valid connection to its connector
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/ErpSync/TestConnectionByConfig?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpConnectionId, ConfigFields 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpConnectionId | int32 |  |
-| ConfigFields | object |  |
+| ErpConnectionId | Integer |  |
+| ConfigFields | PersonEntity |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -77,10 +74,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 638,
+  "ErpConnectionId": 190,
   "ConfigFields": {
-    "ConfigFields1": "sed",
-    "ConfigFields2": "dignissimos"
+    "ConfigFields1": "saepe",
+    "ConfigFields2": "consequatur"
   }
 }
 ```

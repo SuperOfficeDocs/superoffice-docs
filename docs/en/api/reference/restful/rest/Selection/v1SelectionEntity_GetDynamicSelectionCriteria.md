@@ -36,7 +36,7 @@ Get the criteria for this dynamic selection.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +52,7 @@ Response body: array
 | Operator | string |  |
 | Values | array |  |
 | DisplayValues | array |  |
-| ColumnInfo |  |  |
+| ColumnInfo | RecurrenceInfo |  |
 | IsActive | bool |  |
 | SubRestrictions | array |  |
 | InterParenthesis | int32 |  |
@@ -65,7 +65,7 @@ Response body: array
 GET /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,29 +76,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Leannon Inc and Sons",
-    "Operator": "nulla",
+    "Name": "Conroy-Corkery",
+    "Operator": "reiciendis",
     "Values": [
-      "ut",
-      "sit"
+      "harum",
+      "adipisci"
     ],
     "DisplayValues": [
-      "aliquid",
-      "animi"
+      "voluptates",
+      "quis"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Blick LLC",
-        "Operator": "eius",
+        "Name": "Langosh-Satterfield",
+        "Operator": "mollitia",
         "Values": [
-          "vero",
-          "dolores"
+          "vel",
+          "amet"
         ],
         "DisplayValues": [
-          "eaque",
-          "provident"
+          "beatae",
+          "deleniti"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -106,14 +106,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 826,
+        "InterParenthesis": 10,
         "InterOperator": "And",
-        "UniqueHash": 348
+        "UniqueHash": 99
       }
     ],
-    "InterParenthesis": 573,
+    "InterParenthesis": 56,
     "InterOperator": "And",
-    "UniqueHash": 335
+    "UniqueHash": 109
   }
 ]
 ```

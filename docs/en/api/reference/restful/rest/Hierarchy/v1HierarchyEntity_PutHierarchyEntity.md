@@ -46,25 +46,24 @@ PUT /api/v1/Hierarchy/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The HierarchyEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HierarchyId | int32 | The primary key (auto-incremented) |
-| Domain | string | Domain seperating the different hierarchy |
-| Name | string | Name of this hierarchy folder. |
-| Fullname | string | The full name of this category, i.e. Foo/bar/test. |
-| ParentId | int32 | Parent table |
-| Children | array | Sub-items, if any. |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
+| HierarchyId | Integer | The primary key (auto-incremented) |
+| Domain | String | Domain seperating the different hierarchy |
+| Name | String | Name of this hierarchy folder. |
+| Fullname | String | The full name of this category, i.e. Foo/bar/test. |
+| ParentId | Integer | Parent table |
+| Children | Array | Sub-items, if any. |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
 
-
-## Response: 
+## Response:
 
 HierarchyEntity updated.
 
@@ -73,7 +72,7 @@ HierarchyEntity updated.
 | 200 | HierarchyEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: HierarchyEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,7 +86,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -97,36 +96,36 @@ Response body:
 PUT /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 27,
+  "HierarchyId": 849,
   "Domain": "Dashboards",
-  "Name": "Towne-Hintz",
-  "Fullname": "laboriosam",
-  "ParentId": 107,
+  "Name": "Gulgowski, Hahn and Hammes",
+  "Fullname": "ut",
+  "ParentId": 235,
   "Children": [
     {
-      "HierarchyId": 273,
+      "HierarchyId": 589,
       "Domain": "Dashboards",
-      "Name": "Gibson, Weissnat and Wintheiser",
-      "Fullname": "aliquid",
-      "ParentId": 602,
+      "Name": "Kuhic, Gutkowski and Baumbach",
+      "Fullname": "quo",
+      "ParentId": 718,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-04-05T02:49:50.9952888+02:00",
-      "RegisteredAssociateId": 683,
-      "Updated": "2016-01-07T02:49:50.9952888+01:00",
-      "UpdatedAssociateId": 182
+      "Registered": "2015-09-13T17:37:38.8268636+02:00",
+      "RegisteredAssociateId": 914,
+      "Updated": "2018-03-30T17:37:38.8268636+02:00",
+      "UpdatedAssociateId": 530
     }
   ],
-  "Registered": "2001-12-23T02:49:50.9952888+01:00",
-  "RegisteredAssociateId": 971,
-  "Updated": "1996-03-03T02:49:50.9952888+01:00",
-  "UpdatedAssociateId": 373
+  "Registered": "2004-04-07T17:37:38.8268636+02:00",
+  "RegisteredAssociateId": 914,
+  "Updated": "2013-12-12T17:37:38.8268636+01:00",
+  "UpdatedAssociateId": 681
 }
 ```
 
@@ -137,51 +136,51 @@ HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 431,
+  "HierarchyId": 249,
   "Domain": "Dashboards",
-  "Name": "Keebler Group",
-  "Fullname": "autem",
-  "ParentId": 986,
+  "Name": "Feil-Kirlin",
+  "Fullname": "id",
+  "ParentId": 661,
   "Children": [
     {
-      "HierarchyId": 959,
+      "HierarchyId": 999,
       "Domain": "Dashboards",
-      "Name": "Keebler-Lynch",
-      "Fullname": "qui",
-      "ParentId": 469,
+      "Name": "Goodwin Inc and Sons",
+      "Fullname": "autem",
+      "ParentId": 391,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-09-12T02:49:50.9952888+02:00",
-      "RegisteredAssociateId": 520,
-      "Updated": "2003-10-16T02:49:50.9952888+02:00",
-      "UpdatedAssociateId": 588,
+      "Registered": "1996-06-16T17:37:38.8268636+02:00",
+      "RegisteredAssociateId": 253,
+      "Updated": "2001-12-06T17:37:38.8268636+01:00",
+      "UpdatedAssociateId": 397,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldLength": 57
         }
       }
     }
   ],
-  "Registered": "2000-06-06T02:49:50.9952888+02:00",
-  "RegisteredAssociateId": 407,
-  "Updated": "2017-10-09T02:49:50.9952888+02:00",
-  "UpdatedAssociateId": 8,
+  "Registered": "2010-07-21T17:37:38.8268636+02:00",
+  "RegisteredAssociateId": 599,
+  "Updated": "2004-04-03T17:37:38.8268636+02:00",
+  "UpdatedAssociateId": 544,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldType": "System.String",
+      "FieldLength": 823
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

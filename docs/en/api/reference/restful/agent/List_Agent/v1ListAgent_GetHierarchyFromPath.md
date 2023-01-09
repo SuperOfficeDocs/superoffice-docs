@@ -42,18 +42,17 @@ POST /api/v1/Agents/List/GetHierarchyFromPath?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Domain, Path, Children 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Domain | string |  |
-| Path | string |  |
-| Children | bool |  |
+| Domain | String |  |
+| Path | String |  |
+| Children | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: HierarchyEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,12 +83,12 @@ Response body:
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "minima",
+  "Path": "dolor",
   "Children": true
 }
 ```
@@ -101,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 473,
+  "HierarchyId": 320,
   "Domain": "Dashboards",
-  "Name": "Hudson, Schultz and Treutel",
-  "Fullname": "facilis",
-  "ParentId": 770,
+  "Name": "Friesen Group",
+  "Fullname": "in",
+  "ParentId": 381,
   "Children": [
     {
-      "HierarchyId": 556,
+      "HierarchyId": 477,
       "Domain": "Dashboards",
-      "Name": "Gislason, Erdman and Schimmel",
-      "Fullname": "molestiae",
-      "ParentId": 673,
+      "Name": "Dicki-Waters",
+      "Fullname": "quia",
+      "ParentId": 622,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-07-03T02:49:44.6704246+02:00",
-      "RegisteredAssociateId": 443,
-      "Updated": "2021-06-06T02:49:44.6704246+02:00",
-      "UpdatedAssociateId": 812,
+      "Registered": "2009-11-17T17:37:18.2592416+01:00",
+      "RegisteredAssociateId": 101,
+      "Updated": "2021-02-12T17:37:18.2592416+01:00",
+      "UpdatedAssociateId": 542,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldType": "System.String",
+          "FieldLength": 408
         }
       }
     }
   ],
-  "Registered": "2013-05-25T02:49:44.6704246+02:00",
-  "RegisteredAssociateId": 684,
-  "Updated": "2004-08-20T02:49:44.6704246+02:00",
-  "UpdatedAssociateId": 443,
+  "Registered": "2016-02-09T17:37:18.2592416+01:00",
+  "RegisteredAssociateId": 45,
+  "Updated": "2002-04-11T17:37:18.2592416+02:00",
+  "UpdatedAssociateId": 939,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 357
     }
   }
 }

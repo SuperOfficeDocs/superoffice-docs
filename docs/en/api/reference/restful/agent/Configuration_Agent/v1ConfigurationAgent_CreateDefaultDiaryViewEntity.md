@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +54,7 @@ Response body:
 | AssocId | int32 |  |
 | AssociateList | array |  |
 | TzLocationId | int32 |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -63,7 +63,7 @@ Response body:
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,49 +73,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 125,
-  "Name": "Bayer, Stamm and Greenfelder",
-  "Tooltip": "autem",
-  "VisibleColumns": 654,
-  "Rank": 111,
-  "AssocId": 785,
+  "DiaryViewId": 841,
+  "Name": "Torp LLC",
+  "Tooltip": "magnam",
+  "VisibleColumns": 715,
+  "Rank": 942,
+  "AssocId": 173,
   "AssociateList": [
     {
-      "Id": 57,
-      "Name": "Brown Inc and Sons",
-      "ToolTip": "Ea repellendus at eos nihil tenetur saepe.",
+      "Id": 764,
+      "Name": "Stoltenberg Group",
+      "ToolTip": "Voluptas aut et sed magni facilis molestiae eveniet.",
       "Deleted": false,
-      "Rank": 986,
-      "Type": "eum",
-      "ColorBlock": 683,
-      "IconHint": "voluptate",
+      "Rank": 31,
+      "Type": "quia",
+      "ColorBlock": 454,
+      "IconHint": "aliquam",
       "Selected": false,
-      "LastChanged": "2005-06-23T02:49:43.8566571+02:00",
+      "LastChanged": "2014-12-05T17:37:17.1162404+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quae",
-      "StyleHint": "repellendus",
+      "ExtraInfo": "ducimus",
+      "StyleHint": "fugit",
       "Hidden": true,
-      "FullName": "Mr. Lucas Dach Jr.",
+      "FullName": "Ms. Sonny Mertz I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldLength": 360
         }
       }
     }
   ],
-  "TzLocationId": 292,
+  "TzLocationId": 636,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 233
     }
   }
 }

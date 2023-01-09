@@ -32,7 +32,7 @@ Currently published ProjectEntity user-defined field layout.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +78,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 183,
-    "ColumnId": 36,
-    "FieldDefault": "voluptatem",
-    "FieldHeight": 660,
-    "FieldLabel": "pariatur",
-    "FieldLeft": 334,
-    "FieldTop": 568,
+    "UDefFieldId": 198,
+    "ColumnId": 773,
+    "FieldDefault": "rem",
+    "FieldHeight": 991,
+    "FieldLabel": "labore",
+    "FieldLeft": 463,
+    "FieldTop": 299,
     "FieldType": "Checkbox",
-    "FieldWidth": 200,
-    "FormatMask": "fuga",
-    "HideLabel": true,
+    "FieldWidth": 493,
+    "FormatMask": "error",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 511,
-    "LabelLeft": 395,
-    "LabelTop": 623,
-    "LabelWidth": 915,
-    "LastVersionId": 641,
-    "ListTableId": 138,
-    "IsMandatory": false,
+    "LabelHeight": 230,
+    "LabelLeft": 226,
+    "LabelTop": 614,
+    "LabelWidth": 899,
+    "LastVersionId": 595,
+    "ListTableId": 593,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 792,
-    "ProgId": "quisquam",
+    "Page1LineNo": 490,
+    "ProgId": "commodi",
     "IsReadOnly": true,
-    "ShortLabel": "ut",
-    "TabOrder": 707,
-    "TextLength": 180,
-    "Tooltip": "provident",
-    "UdefIdentity": 308,
-    "UDListDefinitionId": 49,
+    "ShortLabel": "velit",
+    "TabOrder": 495,
+    "TextLength": 101,
+    "Tooltip": "in",
+    "UdefIdentity": 495,
+    "UDListDefinitionId": 994,
     "Justification": "Center",
-    "Version": 978,
-    "TemplateVariableName": "Rosenbaum, Kilback and Ryan",
+    "Version": 250,
+    "TemplateVariableName": "Christiansen, Hirthe and Koss",
     "HasBeenPublished": true,
-    "MdoListName": "Fisher LLC",
+    "MdoListName": "Crona, Lang and Roob",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldLength": 174
       }
     }
   }

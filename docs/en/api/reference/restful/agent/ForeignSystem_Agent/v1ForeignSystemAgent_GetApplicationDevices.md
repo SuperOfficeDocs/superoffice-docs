@@ -42,16 +42,15 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationDevices?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
+| ApplicationName | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body: array
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Balistreri LLC"
+  "ApplicationName": "Klocko LLC"
 }
 ```
 
@@ -97,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 237,
-    "Name": "Kuvalis LLC",
-    "CreatedDate": "2011-08-06T02:49:44.5454229+02:00",
-    "UpdatedDate": "2008-10-04T02:49:44.5454229+02:00",
-    "AssociateFullName": "Alison Witting",
-    "CreatedBy": "quis",
-    "UpdatedBy": "labore",
-    "DeviceIdentifier": "dolor",
-    "ForeignAppId": 565,
+    "ForeignDeviceId": 712,
+    "Name": "Lubowitz, Christiansen and Fahey",
+    "CreatedDate": "2004-06-02T17:37:18.099243+02:00",
+    "UpdatedDate": "2011-07-07T17:37:18.099243+02:00",
+    "AssociateFullName": "Juvenal Schimmel",
+    "CreatedBy": "aut",
+    "UpdatedBy": "mollitia",
+    "DeviceIdentifier": "praesentium",
+    "ForeignAppId": 544,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 67
+        "FieldLength": 617
       }
     }
   }

@@ -44,27 +44,26 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Source, GeneratorEncoding, CustomTags, CustomValues, ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CultureName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Source | string |  |
-| GeneratorEncoding | string |  |
-| CustomTags | array |  |
-| CustomValues | array |  |
-| ContactId | int32 |  |
-| PersonId | int32 |  |
-| AppointmentId | int32 |  |
-| DocumentId | int32 |  |
-| SaleId | int32 |  |
-| SelectionId | int32 |  |
-| ProjectId | int32 |  |
-| CultureName | string |  |
+| Source | String |  |
+| GeneratorEncoding | String |  |
+| CustomTags | Array |  |
+| CustomValues | Array |  |
+| ContactId | Integer |  |
+| PersonId | Integer |  |
+| AppointmentId | Integer |  |
+| DocumentId | Integer |  |
+| SaleId | Integer |  |
+| SelectionId | Integer |  |
+| ProjectId | Integer |  |
+| CultureName | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -72,7 +71,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -85,24 +84,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "dicta",
+  "Source": "et",
   "GeneratorEncoding": "Html",
   "CustomTags": [
-    "odit",
-    "deleniti"
+    "quia",
+    "rerum"
   ],
   "CustomValues": [
-    "quo",
-    "aut"
+    "voluptatem",
+    "similique"
   ],
-  "ContactId": 139,
-  "PersonId": 35,
-  "AppointmentId": 132,
-  "DocumentId": 276,
-  "SaleId": 5,
-  "SelectionId": 4,
-  "ProjectId": 536,
-  "CultureName": "sv"
+  "ContactId": 263,
+  "PersonId": 257,
+  "AppointmentId": 830,
+  "DocumentId": 847,
+  "SaleId": 106,
+  "SelectionId": 816,
+  "ProjectId": 14,
+  "CultureName": "en"
 }
 ```
 
@@ -112,5 +111,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"a"
+"qui"
 ```

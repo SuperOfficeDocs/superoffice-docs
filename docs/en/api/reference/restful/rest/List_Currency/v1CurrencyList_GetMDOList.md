@@ -25,8 +25,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=esse
+GET /api/v1/List/Currency/MDOItems?flat=False
+GET /api/v1/List/Currency/MDOItems?query=sed
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/Currency/MDOItems?query=esse
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1001,
-    "Name": "Streich, Lueilwitz and Tremblay",
-    "ToolTip": "Reiciendis voluptatum doloremque minima ad.",
+    "Id": 506,
+    "Name": "Lemke-Fay",
+    "ToolTip": "Dolorum quo sint et quidem blanditiis sunt aut.",
     "Deleted": false,
-    "Rank": 160,
-    "Type": "distinctio",
+    "Rank": 418,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 962,
-        "Name": "Kreiger Group",
-        "ToolTip": "Alias perspiciatis voluptates accusamus iure eius ipsa natus.",
-        "Deleted": true,
-        "Rank": 514,
-        "Type": "repellendus",
+        "Id": 292,
+        "Name": "Lubowitz LLC",
+        "ToolTip": "Rem qui eos illo et molestiae.",
+        "Deleted": false,
+        "Rank": 785,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 235,
-        "ExtraInfo": "natus",
-        "StyleHint": "magni",
-        "FullName": "Jaylan Emmett Homenick Jr.",
+        "IconHint": "sapiente",
+        "ColorBlock": 611,
+        "ExtraInfo": "rerum",
+        "StyleHint": "aut",
+        "FullName": "Fabiola Friesen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 948
+            "FieldType": "System.String",
+            "FieldLength": 506
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 243,
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "sit",
-    "FullName": "Prof. Deborah Keyon Gulgowski",
+    "IconHint": "fugiat",
+    "ColorBlock": 716,
+    "ExtraInfo": "non",
+    "StyleHint": "aut",
+    "FullName": "Ms. Emilia Hills I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldLength": 297
       }
     }
   }

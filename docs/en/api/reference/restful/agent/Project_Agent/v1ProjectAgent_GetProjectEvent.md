@@ -25,7 +25,7 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=693
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=669
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectEvent
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +78,7 @@ Response body:
 | SignOnTriggersAssign | bool | If true, the sign on task should be created as an Assigned task, triggering the invitation dialog |
 | SignOnPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
 | SignOffPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +87,7 @@ Response body:
 POST /api/v1/Agents/Project/GetProjectEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Ulises Feeney",
-  "Description": "Synchronised attitude-oriented installation",
-  "ProjectId": 792,
-  "EventName": "Franecki-Dickens",
-  "AssociateId": 832,
-  "IsSignedOn": false,
-  "SignOffConfirmationText": "voluptatem",
-  "SignOffText": "laudantium",
-  "SignOnConfirmationText": "voluptas",
-  "SignOnText": "quasi",
-  "EventDate": "2016-04-17T02:49:44.952838+02:00",
+  "AssociateFullName": "Khalil Reilly",
+  "Description": "Total even-keeled projection",
+  "ProjectId": 10,
+  "EventName": "Carroll Inc and Sons",
+  "AssociateId": 847,
+  "IsSignedOn": true,
+  "SignOffConfirmationText": "laudantium",
+  "SignOffText": "qui",
+  "SignOnConfirmationText": "sunt",
+  "SignOnText": "ea",
+  "EventDate": "2003-12-24T17:37:18.6442445+01:00",
   "Enabled": false,
   "SignOff": false,
   "SignOffTaskEnable": false,
   "SignOnTaskEnable": true,
   "SignOn": false,
-  "SignOffTaskId": 850,
-  "SignOnTaskId": 766,
+  "SignOffTaskId": 641,
+  "SignOnTaskId": 118,
   "SignOffTriggersAssign": false,
-  "SignOnTriggersAssign": false,
-  "SignOnPersonId": 21,
-  "SignOffPersonId": 347,
+  "SignOnTriggersAssign": true,
+  "SignOnPersonId": 699,
+  "SignOffPersonId": 314,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 958
     }
   }
 }

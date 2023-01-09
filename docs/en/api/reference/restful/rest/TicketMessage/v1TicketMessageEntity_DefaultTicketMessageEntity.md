@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,14 +42,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketMessageEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EjMessageId | int32 | The primary key (auto-incremented) |
-| Ticket |  | The connected ticket |
+| Ticket | Ticket | The connected ticket |
 | CreatedAt | date-time | When the message was posted. |
-| CreatedBy |  | The associate who created this ticket message |
+| CreatedBy | Associate | The associate who created this ticket message |
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
@@ -61,16 +61,17 @@ Response body:
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person |  | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,7 +80,7 @@ Response body:
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,28 +90,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 810,
+  "EjMessageId": 320,
   "Ticket": null,
-  "CreatedAt": "2015-11-07T02:49:51.6387017+01:00",
+  "CreatedAt": "2022-08-23T17:37:39.34434+02:00",
   "CreatedBy": null,
-  "Author": "mollitia",
+  "Author": "ab",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 147,
-  "Body": "odit",
-  "HtmlBody": "quas",
-  "EmailHeader": "douglas.schimmel@watsica.name",
-  "DebugInfo": "delectus",
-  "MailSorter": "error",
+  "MessageId": "dicta",
+  "TimeSpent": 277,
+  "Body": "at",
+  "HtmlBody": "ullam",
+  "EmailHeader": "koby_damore@carterturcotte.us",
+  "DebugInfo": "et",
+  "MailSorter": "ducimus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "error",
+  "SearchTitle": "aut",
   "MessageHeaders": [
     {
-      "Id": 799,
-      "Name": "Schuster Group",
-      "Value": "autem",
+      "Id": 567,
+      "Name": "Kshlerin Inc and Sons",
+      "Value": "nihil",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -118,29 +119,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldLength": 287
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "harum",
-  "Sentiment": 182,
-  "SentimentConfidence": 563,
+  "Important": false,
+  "Language": "fuga",
+  "Sentiment": 692,
+  "SentimentConfidence": 95,
+  "AttachmentsInfo": [
+    {
+      "AttachmentId": 630,
+      "Name": "Howe Inc and Sons",
+      "ContentType": "sint",
+      "AttSize": 715,
+      "InlineImage": false,
+      "ContentId": "officiis",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 977
+        }
+      }
+    }
+  ],
   "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "odit"
+    "ExtraFields1": "est",
+    "ExtraFields2": "atque"
   },
   "CustomFields": {
-    "CustomFields1": "error",
-    "CustomFields2": "voluptates"
+    "CustomFields1": "qui",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 218
     }
   }
 }

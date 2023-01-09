@@ -25,8 +25,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=ut
+GET /api/v1/List/Competitor/MDOItems?flat=False
+GET /api/v1/List/Competitor/MDOItems?query=omnis
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/Competitor/MDOItems?query=ut
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "Grant, Weimann and Keebler",
-    "ToolTip": "Quis cum nesciunt.",
+    "Id": 4,
+    "Name": "Kunde-Olson",
+    "ToolTip": "Numquam laboriosam iure quis numquam eum omnis.",
     "Deleted": true,
-    "Rank": 765,
-    "Type": "natus",
+    "Rank": 484,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 928,
-        "Name": "Schmeler, Predovic and Zieme",
-        "ToolTip": "Consequuntur non quidem.",
+        "Id": 757,
+        "Name": "Rempel, O'Reilly and Hoeger",
+        "ToolTip": "Unde veritatis soluta non dolor ipsa est.",
         "Deleted": false,
-        "Rank": 934,
-        "Type": "cupiditate",
+        "Rank": 815,
+        "Type": "doloribus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "expedita",
-        "ColorBlock": 809,
-        "ExtraInfo": "omnis",
-        "StyleHint": "non",
-        "FullName": "Delfina Zoey Haley IV",
+        "IconHint": "optio",
+        "ColorBlock": 527,
+        "ExtraInfo": "nulla",
+        "StyleHint": "iste",
+        "FullName": "Miss Abdiel Chesley O'Connell IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 140
+            "FieldLength": 391
           }
         }
       }
     ],
-    "IconHint": "similique",
-    "ColorBlock": 541,
-    "ExtraInfo": "quo",
-    "StyleHint": "voluptate",
-    "FullName": "Dr. Leonor VonRueden",
+    "IconHint": "eligendi",
+    "ColorBlock": 453,
+    "ExtraInfo": "modi",
+    "StyleHint": "similique",
+    "FullName": "Miss Thomas Fabiola Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 635
+        "FieldType": "System.Int32",
+        "FieldLength": 54
       }
     }
   }

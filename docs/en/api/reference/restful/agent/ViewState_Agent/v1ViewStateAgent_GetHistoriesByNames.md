@@ -42,16 +42,15 @@ POST /api/v1/Agents/ViewState/GetHistoriesByNames?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 HistoryNames 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HistoryNames | array |  |
+| HistoryNames | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body: array
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,13 +78,13 @@ Response body: array
 POST /api/v1/Agents/ViewState/GetHistoriesByNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Wolf Group",
-    "Hartmann-Goldner"
+    "D'Amore LLC",
+    "Schmeler, Larkin and Quigley"
   ]
 }
 ```
@@ -98,19 +97,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 944,
-    "Id": 531,
-    "HistoryName": "Gleichner LLC",
-    "HistoryId": 342,
-    "AssociateId": 950,
-    "Name": "Bogan, Conn and Wiegand",
-    "ItemInfo": "sed",
+    "Rank": 182,
+    "Id": 25,
+    "HistoryName": "Becker-Dach",
+    "HistoryId": 488,
+    "AssociateId": 398,
+    "Name": "Yundt Inc and Sons",
+    "ItemInfo": "ad",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 773
+        "FieldLength": 954
       }
     }
   }

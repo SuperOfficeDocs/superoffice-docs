@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/Send
 Send the provided e-mails
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/EMail/Send?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Emails 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Emails | array |  |
+| Emails | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +69,7 @@ Response body: array
 | Bcc | array | Bcc recipient of e-mail |
 | Subject | string | Subject of the e-mail |
 | HTMLBody | string | Body formatted in HTML |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | Sent | date-time | When was the e-mail sent |
 | Size | int32 | Total size of the e-mail |
 | Priority | string | Importance of the e-mail |
@@ -80,7 +77,7 @@ Response body: array
 | MessageID | string | Unique id of e-mails |
 | PlainBody | string | Body formatted in plain text |
 | IsSent | bool | Is this a sent e-mail (not new) |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
 | ServerId | int32 | Unique id for the e-mail on the server |
 | Attachments | array |  |
 | CustomHeaderList | array | Non standard e-mail headers |
@@ -88,12 +85,12 @@ Response body: array
 | EmailItemId | int32 | Primary key |
 | AccountId | int32 | Account Id |
 | ReceivedAt | date-time | Received date time |
-| InReplyTo |  | The envelope of the email this email is a reply to, if it exists |
+| InReplyTo | EMailEnvelope | The envelope of the email this email is a reply to, if it exists |
 | RepliedAt | date-time | When this email was replied at |
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,7 +99,7 @@ Response body: array
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -120,18 +117,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "magnam",
-      "HTMLBody": "autem",
+      "Subject": "placeat",
+      "HTMLBody": "dolores",
       "From": null,
-      "Sent": "2018-06-01T02:49:44.3566372+02:00",
-      "Size": 459,
+      "Sent": "2000-07-14T17:37:17.8562447+02:00",
+      "Size": 591,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "dolores",
-      "PlainBody": "ipsum",
+      "MessageID": "tempore",
+      "PlainBody": "ipsam",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 764,
+      "ServerId": 949,
       "Attachments": [
         {},
         {}
@@ -140,12 +137,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Erdman, McDermott and Walter",
-      "EmailItemId": 405,
-      "AccountId": 228,
-      "ReceivedAt": "2001-09-26T02:49:44.3566372+02:00",
+      "FolderName": "Heaney Inc and Sons",
+      "EmailItemId": 224,
+      "AccountId": 588,
+      "ReceivedAt": "2001-04-25T17:37:17.8562447+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2009-11-20T02:49:44.3566372+01:00",
+      "RepliedAt": "2001-03-11T17:37:17.8562447+01:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -164,146 +161,146 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 586,
-        "ContactName": "Robel-Bayer",
-        "PersonId": 941,
-        "PersonName": "Abshire Inc and Sons",
-        "AssociateId": 897,
-        "Address": "ut",
-        "EmailId": 203,
+        "ContactId": 626,
+        "ContactName": "Gusikowski-Kulas",
+        "PersonId": 593,
+        "PersonName": "Heathcote-Hamill",
+        "AssociateId": 934,
+        "Address": "delectus",
+        "EmailId": 814,
         "DuplicatePersonIds": [
-          346,
-          704
+          709,
+          649
         ],
-        "Name": "Purdy-Schaden",
+        "Name": "Walker, Lindgren and Towne",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 337
+            "FieldLength": 806
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 155,
-        "ContactName": "Larkin-Kertzmann",
-        "PersonId": 385,
-        "PersonName": "Thompson-Mann",
-        "AssociateId": 555,
-        "Address": "aut",
-        "EmailId": 798,
+        "ContactId": 250,
+        "ContactName": "Kunde, Kuphal and Hoppe",
+        "PersonId": 13,
+        "PersonName": "Legros LLC",
+        "AssociateId": 306,
+        "Address": "cumque",
+        "EmailId": 195,
         "DuplicatePersonIds": [
-          244,
-          721
+          45,
+          532
         ],
-        "Name": "Murphy, Kiehn and Corkery",
+        "Name": "Johnston Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 675
+            "FieldLength": 500
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 847,
-        "ContactName": "Jones-Cronin",
-        "PersonId": 511,
-        "PersonName": "Terry-Cartwright",
-        "AssociateId": 239,
-        "Address": "exercitationem",
-        "EmailId": 658,
+        "ContactId": 273,
+        "ContactName": "Hansen, Trantow and Hoeger",
+        "PersonId": 752,
+        "PersonName": "Bernier-Goodwin",
+        "AssociateId": 320,
+        "Address": "atque",
+        "EmailId": 892,
         "DuplicatePersonIds": [
-          397,
-          529
+          378,
+          955
         ],
-        "Name": "Haag, Murazik and Osinski",
+        "Name": "Hegmann-Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 914
+            "FieldLength": 902
           }
         }
       }
     ],
-    "Subject": "a",
-    "HTMLBody": "eos",
+    "Subject": "alias",
+    "HTMLBody": "earum",
     "From": null,
-    "Sent": "2000-06-15T02:49:44.3722628+02:00",
-    "Size": 682,
+    "Sent": "1999-09-19T17:37:17.8582446+02:00",
+    "Size": 429,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "eligendi",
-    "PlainBody": "neque",
-    "IsSent": true,
+    "MessageID": "unde",
+    "PlainBody": "laudantium",
+    "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 825,
+    "ServerId": 609,
     "Attachments": [
       {
-        "Description": "Secured fault-tolerant array",
-        "Filename": "ut",
-        "Size": 326,
-        "Type": "labore",
+        "Description": "Decentralized interactive product",
+        "Filename": "reprehenderit",
+        "Size": 519,
+        "Type": "dolor",
         "Encoding": "et",
-        "Id": "nulla",
-        "Disposition": "voluptate",
+        "Id": "vel",
+        "Disposition": "excepturi",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 666
+            "FieldLength": 609
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Bins-Adams",
+        "Name": "Brekke LLC",
         "Values": [
-          "dolorem",
-          "sint"
+          "ut",
+          "aspernatur"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 720
+            "FieldLength": 537
           }
         }
       },
       {
-        "Name": "Bins-Adams",
+        "Name": "Brekke LLC",
         "Values": [
-          "dolorem",
-          "sint"
+          "ut",
+          "aspernatur"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 720
+            "FieldLength": 537
           }
         }
       }
     ],
-    "FolderName": "Turcotte, Konopelski and Gulgowski",
-    "EmailItemId": 84,
-    "AccountId": 178,
-    "ReceivedAt": "2004-12-17T02:49:44.3722628+01:00",
+    "FolderName": "Vandervort LLC",
+    "EmailItemId": 548,
+    "AccountId": 168,
+    "ReceivedAt": "2021-02-17T17:37:17.8592428+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2022-01-28T02:49:44.3722628+01:00",
+    "RepliedAt": "2020-03-28T17:37:17.8592428+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -311,8 +308,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 927
+        "FieldType": "System.Int32",
+        "FieldLength": 124
       }
     }
   }

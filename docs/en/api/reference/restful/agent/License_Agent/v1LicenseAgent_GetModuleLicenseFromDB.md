@@ -42,17 +42,16 @@ POST /api/v1/Agents/License/GetModuleLicenseFromDB?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 OwnerName, ModuleName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OwnerName | string |  |
-| ModuleName | string |  |
+| OwnerName | String |  |
+| ModuleName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,12 +85,12 @@ Response body:
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Lowe, Boyer and Ryan",
-  "ModuleName": "Lockman LLC"
+  "OwnerName": "Feil Group",
+  "ModuleName": "Osinski LLC"
 }
 ```
 
@@ -102,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Hansen, Crooks and Collier",
-  "ModuleName": "Crist-Ryan",
-  "ModuleDescription": "Universal disintermediate internet solution",
-  "ModuleTooltip": "enim",
-  "ModuleVersion": "eius",
+  "OwnerName": "Glover-Cormier",
+  "ModuleName": "Glover-Walsh",
+  "ModuleDescription": "Exclusive maximized methodology",
+  "ModuleTooltip": "ad",
+  "ModuleVersion": "rerum",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 192,
-  "ExtraFlags": 925,
-  "ExtraInfo": "suscipit",
-  "SortOrder": 314,
+  "NumberOfLicenses": 263,
+  "ExtraFlags": 554,
+  "ExtraInfo": "ut",
+  "SortOrder": 402,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Rogahn, Crist and Schuppe",
-  "Signature": "vel"
+  "PrerequisiteModuleName": "Zemlak-Carroll",
+  "Signature": "distinctio"
 }
 ```

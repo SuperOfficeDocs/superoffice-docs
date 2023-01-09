@@ -42,18 +42,17 @@ POST /api/v1/Agents/List/GetHeadings?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionId, ListItemId, ShowDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionId | int32 |  |
-| ListItemId | int32 |  |
-| ShowDeleted | bool |  |
+| UdListDefinitionId | Integer |  |
+| ListItemId | Integer |  |
+| ShowDeleted | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,9 +92,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 893,
-  "ListItemId": 785,
-  "ShowDeleted": false
+  "UdListDefinitionId": 672,
+  "ListItemId": 233,
+  "ShowDeleted": true
 }
 ```
 
@@ -107,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 547,
-    "Name": "Gislason Group",
-    "ToolTip": "Facilis facere blanditiis sit voluptate soluta accusamus.",
+    "Id": 364,
+    "Name": "Anderson, Walker and Blick",
+    "ToolTip": "Consectetur corrupti officia mollitia asperiores.",
     "Deleted": false,
-    "Rank": 161,
-    "Type": "fugit",
-    "ColorBlock": 534,
-    "IconHint": "recusandae",
+    "Rank": 617,
+    "Type": "rerum",
+    "ColorBlock": 87,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2018-12-16T02:49:44.6235457+01:00",
+    "LastChanged": "2012-02-24T17:37:18.2052447+01:00",
     "ChildItems": [
       {
-        "Id": 720,
-        "Name": "Sauer, Batz and Robel",
-        "ToolTip": "Cumque odio quam eveniet labore et quo.",
+        "Id": 85,
+        "Name": "Oberbrunner-Vandervort",
+        "ToolTip": "Cumque exercitationem quibusdam nulla.",
         "Deleted": false,
-        "Rank": 568,
-        "Type": "eius",
-        "ColorBlock": 904,
-        "IconHint": "minima",
-        "Selected": false,
-        "LastChanged": "2016-04-21T02:49:44.6235457+02:00",
+        "Rank": 237,
+        "Type": "expedita",
+        "ColorBlock": 47,
+        "IconHint": "enim",
+        "Selected": true,
+        "LastChanged": "2002-05-22T17:37:18.2052447+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "rerum",
+        "ExtraInfo": "eum",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Orland Okuneva I",
+        "FullName": "Kirsten Howell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 393
+            "FieldLength": 9
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Quentin Johns PhD",
+    "ExtraInfo": "qui",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Estell Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 893
+        "FieldLength": 790
       }
     }
   }

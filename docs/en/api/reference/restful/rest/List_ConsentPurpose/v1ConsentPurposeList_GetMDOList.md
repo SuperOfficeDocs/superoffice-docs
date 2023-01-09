@@ -26,7 +26,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=enim
+GET /api/v1/List/ConsentPurpose/MDOItems?query=error
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/ConsentPurpose/MDOItems?query=enim
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Cartwright, Crona and Runolfsdottir",
-    "ToolTip": "Necessitatibus cumque assumenda cupiditate cumque voluptas non.",
+    "Id": 316,
+    "Name": "Wyman, Durgan and Trantow",
+    "ToolTip": "Tenetur sit veniam.",
     "Deleted": false,
-    "Rank": 20,
-    "Type": "vitae",
+    "Rank": 766,
+    "Type": "animi",
     "ChildItems": [
       {
-        "Id": 127,
-        "Name": "Mayer-Bosco",
-        "ToolTip": "Aliquid suscipit nam pariatur.",
-        "Deleted": false,
-        "Rank": 278,
-        "Type": "atque",
+        "Id": 576,
+        "Name": "Brakus, Ernser and Dare",
+        "ToolTip": "Architecto provident et.",
+        "Deleted": true,
+        "Rank": 598,
+        "Type": "numquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 548,
-        "ExtraInfo": "qui",
-        "StyleHint": "cupiditate",
-        "FullName": "Camden Adalberto Ortiz Jr.",
+        "IconHint": "consequatur",
+        "ColorBlock": 501,
+        "ExtraInfo": "aut",
+        "StyleHint": "rerum",
+        "FullName": "Cortney Stamm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 630
+            "FieldType": "System.Int32",
+            "FieldLength": 537
           }
         }
       }
     ],
-    "IconHint": "harum",
-    "ColorBlock": 822,
-    "ExtraInfo": "iure",
-    "StyleHint": "aut",
-    "FullName": "Afton D'Amore",
+    "IconHint": "qui",
+    "ColorBlock": 2,
+    "ExtraInfo": "beatae",
+    "StyleHint": "reprehenderit",
+    "FullName": "Ms. Leanna Kole Torp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 35
       }
     }
   }

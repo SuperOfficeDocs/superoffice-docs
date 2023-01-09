@@ -34,7 +34,7 @@ Calls the List agent service GetAllConsentSource.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +53,7 @@ Response body: array
 | Key | string | The key used to uniquely identify this consent source |
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,19 +73,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 802,
-    "Name": "Cassin Group",
-    "Tooltip": "illo",
-    "Rank": 252,
-    "Key": "eaque",
-    "MailTemplateId": 811,
+    "ConsentSourceId": 797,
+    "Name": "Armstrong Inc and Sons",
+    "Tooltip": "aut",
+    "Rank": 517,
+    "Key": "et",
+    "MailTemplateId": 846,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldLength": 350
       }
     }
   }

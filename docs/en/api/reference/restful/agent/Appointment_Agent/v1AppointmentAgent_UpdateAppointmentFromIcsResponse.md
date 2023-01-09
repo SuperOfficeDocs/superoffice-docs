@@ -42,17 +42,16 @@ POST /api/v1/Agents/Appointment/UpdateAppointmentFromIcsResponse?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EmailAddress, IcsData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EmailAddress | string |  |
-| IcsData | byte |  |
+| EmailAddress | String |  |
+| IcsData | String |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -73,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "justus_ohara@fritschprice.ca",
+  "EmailAddress": "nasir@hoppe.uk",
   "IcsData": "GIF89....File contents as raw bytes..."
 }
 ```

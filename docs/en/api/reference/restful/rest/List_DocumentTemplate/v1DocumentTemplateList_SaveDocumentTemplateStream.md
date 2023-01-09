@@ -29,7 +29,7 @@ Writes content in stream to document template file
 | pluginId | int32 |  Plugin to use for storing document content. 0 = SOARC. Use -1 to use the plugin specified in the template. |
 
 ```http
-PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=319
+PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=121
 ```
 
 
@@ -47,13 +47,12 @@ PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCo
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: content  
+## Request Body: content 
 
 Stream containing content to be saved to document template file 
 
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +76,7 @@ Response body:
 PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,10 +86,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bartoletti, Cassin and Fadel",
-  "Description": "Optional context-sensitive frame",
-  "ExternalReference": "ipsam",
-  "MimeType": "ut",
-  "PluginId": 939
+  "Name": "Fadel, Gibson and VonRueden",
+  "Description": "User-centric interactive flexibility",
+  "ExternalReference": "incidunt",
+  "MimeType": "omnis",
+  "PluginId": 885
 }
 ```

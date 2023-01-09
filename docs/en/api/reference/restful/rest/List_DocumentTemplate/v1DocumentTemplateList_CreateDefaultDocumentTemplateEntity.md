@@ -32,7 +32,7 @@ Gets a default DocumentTemplateEntity list item.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentTemplateEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Response body:
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,37 +88,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 244,
-  "Name": "Bradtke Group",
-  "Tooltip": "magnam",
-  "SaveInDb": 633,
-  "Filename": "quas",
-  "DefaultOref": "officiis",
+  "DocumentTemplateId": 55,
+  "Name": "Rippin, Donnelly and Torphy",
+  "Tooltip": "enim",
+  "SaveInDb": 983,
+  "Filename": "amet",
+  "DefaultOref": "omnis",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 46,
-  "IntentId": 998,
+  "AutoeventId": 479,
+  "IntentId": 181,
   "IsDefaultPublished": true,
-  "Rank": 338,
-  "LoadTemplateFromPlugin": 376,
-  "MimeType": "voluptatum",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 984,
+  "Rank": 703,
+  "LoadTemplateFromPlugin": 764,
+  "MimeType": "rerum",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 750,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "vern@fayvandervort.name",
+  "EmailSubject": "marcelina@sporer.biz",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "winston_russel@bernhard.name",
+  "SenderEmailAddress": "dangelo.mckenzie@oconnellschmidt.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldLength": 922
     }
   }
 }

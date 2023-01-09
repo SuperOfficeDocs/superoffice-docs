@@ -42,18 +42,17 @@ POST /api/v1/Agents/Dashboard/GetDataWithSelection?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DashboardTileId, SelectionId, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardTileId | int32 |  |
-| SelectionId | int32 |  |
-| Restrictions | string |  |
+| DashboardTileId | Integer |  |
+| SelectionId | Integer |  |
+| Restrictions | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,12 +60,12 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Columns | array | Column information |
-| Result |  | The result set |
+| Result | ArchiveListResult | The result set |
 
 ## Sample request
 
@@ -78,9 +77,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 935,
+  "DashboardTileId": 338,
   "SelectionId": 113,
-  "Restrictions": "deleniti"
+  "Restrictions": "voluptas"
 }
 ```
 
@@ -94,19 +93,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Koelpin, Howe and Pagac",
-        "DisplayTooltip": "similique",
-        "DisplayType": "aut",
+        "DisplayName": "Bayer-Simonis",
+        "DisplayTooltip": "tempora",
+        "DisplayType": "nobis",
         "CanOrderBy": false,
-        "Name": "Baumbach Inc and Sons",
+        "Name": "Graham Group",
         "CanRestrictBy": true,
-        "RestrictionType": "quidem",
-        "RestrictionListName": "Larson, Ratke and Hahn",
-        "IsVisible": true,
-        "ExtraInfo": "quod",
-        "Width": "saepe",
-        "IconHint": "voluptate",
-        "HeadingIconHint": "officiis"
+        "RestrictionType": "sed",
+        "RestrictionListName": "Hauck, Reichel and Hauck",
+        "IsVisible": false,
+        "ExtraInfo": "rerum",
+        "Width": "ad",
+        "IconHint": "maiores",
+        "HeadingIconHint": "et"
       }
     ],
     "Result": null
@@ -114,19 +113,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Koelpin, Howe and Pagac",
-        "DisplayTooltip": "similique",
-        "DisplayType": "aut",
+        "DisplayName": "Bayer-Simonis",
+        "DisplayTooltip": "tempora",
+        "DisplayType": "nobis",
         "CanOrderBy": false,
-        "Name": "Baumbach Inc and Sons",
+        "Name": "Graham Group",
         "CanRestrictBy": true,
-        "RestrictionType": "quidem",
-        "RestrictionListName": "Larson, Ratke and Hahn",
-        "IsVisible": true,
-        "ExtraInfo": "quod",
-        "Width": "saepe",
-        "IconHint": "voluptate",
-        "HeadingIconHint": "officiis"
+        "RestrictionType": "sed",
+        "RestrictionListName": "Hauck, Reichel and Hauck",
+        "IsVisible": false,
+        "ExtraInfo": "rerum",
+        "Width": "ad",
+        "IconHint": "maiores",
+        "HeadingIconHint": "et"
       }
     ],
     "Result": null

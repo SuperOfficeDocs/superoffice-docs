@@ -44,17 +44,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProgId, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProgId | string |  |
-| OwnerType | string |  |
+| ProgId | String |  |
+| OwnerType | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,7 +99,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -109,11 +108,11 @@ Response body:
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "dolore",
+  "ProgId": "unde",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 566,
-  "ColumnId": 416,
-  "FieldDefault": "at",
-  "FieldHeight": 186,
-  "FieldLabel": "officia",
-  "FieldLeft": 846,
-  "FieldTop": 241,
+  "UDefFieldId": 306,
+  "ColumnId": 711,
+  "FieldDefault": "sed",
+  "FieldHeight": 268,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 272,
+  "FieldTop": 433,
   "FieldType": "Checkbox",
-  "FieldWidth": 779,
-  "FormatMask": "sunt",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 460,
-  "LabelLeft": 238,
-  "LabelTop": 106,
-  "LabelWidth": 22,
-  "LastVersionId": 153,
-  "ListTableId": 925,
-  "IsMandatory": true,
+  "FieldWidth": 300,
+  "FormatMask": "quis",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 358,
+  "LabelLeft": 953,
+  "LabelTop": 137,
+  "LabelWidth": 322,
+  "LastVersionId": 950,
+  "ListTableId": 632,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 65,
-  "ProgId": "cum",
+  "Page1LineNo": 234,
+  "ProgId": "pariatur",
   "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 723,
-  "TextLength": 507,
-  "Tooltip": "eos",
-  "UdefIdentity": 591,
-  "UDListDefinitionId": 875,
+  "ShortLabel": "nobis",
+  "TabOrder": 813,
+  "TextLength": 789,
+  "Tooltip": "in",
+  "UdefIdentity": 927,
+  "UDListDefinitionId": 787,
   "Justification": "Center",
-  "Version": 663,
-  "TemplateVariableName": "Bosco-Klein",
+  "Version": 442,
+  "TemplateVariableName": "Gislason-Carter",
   "HasBeenPublished": false,
-  "MdoListName": "Powlowski-Gerlach",
+  "MdoListName": "Kiehn-Wolff",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 32
+      "FieldType": "System.Int32",
+      "FieldLength": 58
     }
   }
 }

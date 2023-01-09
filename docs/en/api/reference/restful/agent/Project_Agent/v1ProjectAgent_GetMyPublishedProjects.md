@@ -42,7 +42,7 @@ POST /api/v1/Agents/Project/GetMyPublishedProjects?$select=name,department,categ
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +72,7 @@ Response body: array
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 216,
-    "Name": "Pollich-Bailey",
-    "Description": "Enterprise-wide bifurcated database",
+    "ProjectId": 728,
+    "Name": "Hane-Fritsch",
+    "Description": "Extended value-added hardware",
     "URL": "http://www.example.com/",
-    "Type": "quibusdam",
-    "AssociateId": 850,
-    "AssociateFullName": "Ms. Mara Leannon",
-    "TypeId": 717,
-    "Updated": "2004-07-13T02:49:44.9684639+02:00",
-    "StatusId": 643,
-    "Status": "aliquam",
-    "TextId": 390,
-    "PublishTo": "2021-08-28T02:49:44.9684639+02:00",
-    "PublishFrom": "1996-05-11T02:49:44.9684639+02:00",
+    "Type": "et",
+    "AssociateId": 430,
+    "AssociateFullName": "Mr. Brittany Wuckert Jr.",
+    "TypeId": 233,
+    "Updated": "2004-08-10T17:37:18.663243+02:00",
+    "StatusId": 73,
+    "Status": "dolorem",
+    "TextId": 598,
+    "PublishTo": "2015-06-12T17:37:18.663243+02:00",
+    "PublishFrom": "2022-02-14T17:37:18.663243+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1954409",
-    "ActiveErpLinks": 7,
+    "ProjectNumber": "1130241",
+    "ActiveErpLinks": 913,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 45
+        "FieldType": "System.Int32",
+        "FieldLength": 982
       }
     }
   }

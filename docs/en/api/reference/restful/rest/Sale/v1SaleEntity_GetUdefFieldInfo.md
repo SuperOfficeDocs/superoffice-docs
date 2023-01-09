@@ -36,7 +36,7 @@ Get a SaleEntity user-defined field's details based on the prog-id or label.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 SaleEntity found.
 
@@ -45,7 +45,7 @@ SaleEntity found.
 | 200 | SaleEntity found. |
 | 404 | SaleEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +83,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,7 +92,7 @@ Response body:
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 59,
-  "ColumnId": 229,
-  "FieldDefault": "amet",
-  "FieldHeight": 715,
-  "FieldLabel": "eum",
-  "FieldLeft": 361,
-  "FieldTop": 343,
+  "UDefFieldId": 433,
+  "ColumnId": 145,
+  "FieldDefault": "est",
+  "FieldHeight": 565,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 479,
+  "FieldTop": 345,
   "FieldType": "Checkbox",
-  "FieldWidth": 426,
-  "FormatMask": "nostrum",
+  "FieldWidth": 440,
+  "FormatMask": "eos",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 246,
-  "LabelLeft": 454,
-  "LabelTop": 904,
-  "LabelWidth": 514,
-  "LastVersionId": 676,
-  "ListTableId": 863,
+  "IsIndexed": true,
+  "LabelHeight": 8,
+  "LabelLeft": 968,
+  "LabelTop": 282,
+  "LabelWidth": 755,
+  "LastVersionId": 280,
+  "ListTableId": 797,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 252,
-  "ProgId": "similique",
+  "Page1LineNo": 894,
+  "ProgId": "voluptatem",
   "IsReadOnly": true,
-  "ShortLabel": "fuga",
-  "TabOrder": 289,
-  "TextLength": 781,
-  "Tooltip": "voluptatem",
-  "UdefIdentity": 249,
-  "UDListDefinitionId": 521,
+  "ShortLabel": "nam",
+  "TabOrder": 900,
+  "TextLength": 317,
+  "Tooltip": "numquam",
+  "UdefIdentity": 481,
+  "UDListDefinitionId": 610,
   "Justification": "Center",
-  "Version": 738,
-  "TemplateVariableName": "Turner, Ryan and Effertz",
+  "Version": 992,
+  "TemplateVariableName": "Fritsch, McClure and Abbott",
   "HasBeenPublished": false,
-  "MdoListName": "Friesen Group",
+  "MdoListName": "Monahan, Zboncak and Hammes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldLength": 601
     }
   }
 }

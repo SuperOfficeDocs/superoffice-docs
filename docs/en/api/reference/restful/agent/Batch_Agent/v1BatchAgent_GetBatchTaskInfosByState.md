@@ -42,16 +42,15 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByState?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 State 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| State | string |  |
+| State | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +83,7 @@ Response body: array
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,7 +92,7 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 795,
-    "Name": "Christiansen, Hane and Grant",
-    "AssociateId": 198,
-    "DetailsTable": 169,
-    "DetailsRecord": 82,
+    "Id": 26,
+    "Name": "Roob, Crist and Stanton",
+    "AssociateId": 419,
+    "DetailsTable": 924,
+    "DetailsRecord": 812,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "nihil",
-      "ParameterObject2": "at"
+      "ParameterObject1": "similique",
+      "ParameterObject2": "pariatur"
     },
-    "LastStarted": "2014-10-29T02:49:43.7004017+01:00",
-    "Created": "1996-01-16T02:49:43.7004017+01:00",
-    "StartCount": 796,
-    "DatabaseSerialNumber": "821767",
-    "Context": "deleniti",
-    "Result": "est",
+    "LastStarted": "1998-09-16T17:37:16.8992424+02:00",
+    "Created": "2002-10-15T17:37:16.8992424+02:00",
+    "StartCount": 706,
+    "DatabaseSerialNumber": "572416",
+    "Context": "soluta",
+    "Result": "eos",
     "State": "All",
-    "Description": "Synergized bottom-line Graphic Interface",
-    "Response": "maxime",
-    "Request": "molestiae",
-    "ProgressDescription": "Operative bifurcated forecast",
-    "ProgressPercent": 18,
-    "FileName": "Bernier-Shanahan",
+    "Description": "Synergistic neutral methodology",
+    "Response": "velit",
+    "Request": "adipisci",
+    "ProgressDescription": "Business-focused web-enabled hierarchy",
+    "ProgressPercent": 675,
+    "FileName": "Ortiz, Graham and Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldLength": 288
       }
     }
   }

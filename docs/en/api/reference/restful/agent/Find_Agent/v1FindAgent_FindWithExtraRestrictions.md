@@ -44,23 +44,22 @@ POST /api/v1/Agents/Find/FindWithExtraRestrictions?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumns, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| ExtraRestrictions | array |  |
-| OrderBy | array |  |
-| DesiredColumns | array |  |
-| PageSize | int32 |  |
-| PageNumber | int32 |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| ExtraRestrictions | Array |  |
+| OrderBy | Array |  |
+| DesiredColumns | Array |  |
+| PageSize | Integer |  |
+| PageNumber | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -68,14 +67,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FindResults
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,20 +87,20 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "rem",
-  "ProviderName": "Bernhard LLC",
-  "StorageKey": "aut",
+  "StorageType": "assumenda",
+  "ProviderName": "Bins, Schaden and Dooley",
+  "StorageKey": "autem",
   "ExtraRestrictions": [
     {
-      "Name": "Witting Group",
-      "Operator": "sit",
+      "Name": "Hickle Inc and Sons",
+      "Operator": "reprehenderit",
       "Values": [
-        "inventore",
-        "accusantium"
+        "ex",
+        "consequatur"
       ],
       "DisplayValues": [
-        "delectus",
-        "facere"
+        "cum",
+        "repellat"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,27 +108,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 35,
+      "InterParenthesis": 687,
       "InterOperator": "And",
-      "UniqueHash": 550
+      "UniqueHash": 49
     }
   ],
   "OrderBy": [
     {
-      "Name": "Carter, Nitzsche and Leuschke",
+      "Name": "Emmerich-Boyle",
       "Direction": "ASC"
     },
     {
-      "Name": "Carter, Nitzsche and Leuschke",
+      "Name": "Emmerich-Boyle",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "repellendus",
-    "est"
+    "nisi",
+    "sequi"
   ],
-  "PageSize": 116,
-  "PageNumber": 903
+  "PageSize": 49,
+  "PageNumber": 816
 }
 ```
 
@@ -142,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Heidenreich LLC",
-      "DisplayTooltip": "magnam",
-      "DisplayType": "eligendi",
+      "DisplayName": "Ritchie, Bayer and Runolfsdottir",
+      "DisplayTooltip": "ut",
+      "DisplayType": "qui",
       "CanOrderBy": false,
-      "Name": "Rogahn Group",
+      "Name": "Kirlin, Mueller and Olson",
       "CanRestrictBy": false,
-      "RestrictionType": "id",
-      "RestrictionListName": "Flatley-Gerhold",
+      "RestrictionType": "vel",
+      "RestrictionListName": "Hudson-Mayert",
       "IsVisible": false,
-      "ExtraInfo": "doloremque",
-      "Width": "suscipit",
+      "ExtraInfo": "et",
+      "Width": "voluptate",
       "IconHint": "et",
-      "HeadingIconHint": "quos"
+      "HeadingIconHint": "quo"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Rodriguez, Shields and Jenkins",
-      "PrimaryKey": 91,
+      "EntityName": "Kunde-Kerluke",
+      "PrimaryKey": 459,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quo",
-          "TooltipHint": "tempora",
-          "LinkHint": "et"
+          "DisplayValue": "quia",
+          "TooltipHint": "tenetur",
+          "LinkHint": "perspiciatis"
         }
       },
-      "LinkHint": "veniam",
-      "StyleHint": "asperiores",
+      "LinkHint": "eaque",
+      "StyleHint": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 266
+          "FieldLength": 721
         }
       }
     }
   ],
-  "RowCount": 833,
+  "RowCount": 144,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldLength": 813
     }
   }
 }

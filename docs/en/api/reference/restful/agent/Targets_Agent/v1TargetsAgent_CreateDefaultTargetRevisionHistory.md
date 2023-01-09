@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,14 +42,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TargetRevisionHistory
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TargetGroupId | int32 | The group id - but it may not still exist |
 | Year | int32 | The year this set of targets are associated with (2020, 2021...) |
 | Revisions | array | Collection of revisions (with changes) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -58,7 +58,7 @@ Response body:
 POST /api/v1/Agents/Targets/CreateDefaultTargetRevisionHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -68,13 +68,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 80,
-  "Year": 762,
+  "TargetGroupId": 260,
+  "Year": 165,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2018-08-28T02:49:45.4215877+02:00",
+      "When": "2018-02-18T17:37:19.2252424+01:00",
       "Changes": [
         {},
         {}
@@ -84,14 +84,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 535
+          "FieldLength": 107
         }
       }
     },
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2018-08-28T02:49:45.4215877+02:00",
+      "When": "2018-02-18T17:37:19.2252424+01:00",
       "Changes": [
         {},
         {}
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 535
+          "FieldLength": 107
         }
       }
     }
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldType": "System.Int32",
+      "FieldLength": 47
     }
   }
 }

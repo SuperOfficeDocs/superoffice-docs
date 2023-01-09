@@ -44,18 +44,17 @@ POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId, ViewState, FromDate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
-| ViewState | string |  |
-| FromDate | date-time |  |
+| AssociateId | Integer |  |
+| ViewState | String |  |
+| FromDate | String |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -72,13 +71,13 @@ Response body: bool
 POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 212,
-  "ViewState": "quia",
-  "FromDate": "2005-12-26T02:49:44.0753838+01:00"
+  "AssociateId": 493,
+  "ViewState": "sed",
+  "FromDate": "2014-06-03T17:37:17.4112416+02:00"
 }
 ```
 

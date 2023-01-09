@@ -32,7 +32,7 @@ Get the chat presence status for all chat users
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +49,7 @@ Response body: array
 | OngoingChats | int32 | The number of ongoing chats this users has now |
 | Present | bool | Indicates if the user has the chat presence turned on or off |
 | ChatTopics | array | An array of ids with chat topics that this user is a member of |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -58,7 +58,7 @@ Response body: array
 GET /api/v1/Presence/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,20 +69,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 311,
-    "DisplayName": "Harvey, Stamm and Littel",
-    "OngoingChats": 82,
+    "UserId": 73,
+    "DisplayName": "Lubowitz Group",
+    "OngoingChats": 801,
     "Present": true,
     "ChatTopics": [
-      184,
-      589
+      578,
+      787
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldType": "System.String",
+        "FieldLength": 168
       }
     }
   }

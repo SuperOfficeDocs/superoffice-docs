@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 30,
-    "Name": "Franecki-Kunde",
-    "ToolTip": "Porro impedit.",
+    "Id": 94,
+    "Name": "Jerde, Hessel and Greenholt",
+    "ToolTip": "Consequatur eveniet exercitationem aliquid perferendis exercitationem aut tempore.",
     "Deleted": false,
-    "Rank": 928,
-    "Type": "ipsam",
-    "ColorBlock": 437,
-    "IconHint": "iste",
+    "Rank": 480,
+    "Type": "molestias",
+    "ColorBlock": 440,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2013-07-23T02:49:52.1878148+02:00",
+    "LastChanged": "1999-11-27T17:37:39.9485073+01:00",
     "ChildItems": [
       {
-        "Id": 227,
-        "Name": "Zemlak-Runte",
-        "ToolTip": "Impedit repellendus sint fuga accusamus.",
+        "Id": 341,
+        "Name": "Mayer-Berge",
+        "ToolTip": "Et accusamus laboriosam veritatis.",
         "Deleted": false,
-        "Rank": 592,
-        "Type": "et",
-        "ColorBlock": 538,
-        "IconHint": "et",
+        "Rank": 825,
+        "Type": "assumenda",
+        "ColorBlock": 826,
+        "IconHint": "dicta",
         "Selected": true,
-        "LastChanged": "2020-05-20T02:49:52.1878148+02:00",
+        "LastChanged": "2004-12-18T17:37:39.9485073+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "autem",
+        "ExtraInfo": "at",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Nestor Veum"
+        "FullName": "Mr. Marley Nigel Goyette II"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "ratione",
-    "Hidden": false,
-    "FullName": "Berry Rolfson"
+    "ExtraInfo": "quasi",
+    "StyleHint": "adipisci",
+    "Hidden": true,
+    "FullName": "Mr. Henriette Barbara Fadel MD"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Lehner-Johnston",
-    "ToolTip": "Velit cupiditate impedit.",
-    "Deleted": true,
-    "Rank": 703,
-    "Type": "et",
-    "ColorBlock": 347,
-    "IconHint": "iusto",
-    "Selected": false,
-    "LastChanged": "2007-06-12T02:49:52.1878148+02:00",
+    "Id": 625,
+    "Name": "Muller, Hackett and Kutch",
+    "ToolTip": "Voluptas ad nam qui autem ut provident.",
+    "Deleted": false,
+    "Rank": 192,
+    "Type": "veritatis",
+    "ColorBlock": 953,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2015-05-17T17:37:39.9515055+02:00",
     "ChildItems": [
       {
-        "Id": 58,
-        "Name": "Kub-Marvin",
-        "ToolTip": "Eveniet quidem impedit voluptatum.",
+        "Id": 781,
+        "Name": "Bergstrom-Kutch",
+        "ToolTip": "Dolorem et tenetur.",
         "Deleted": false,
-        "Rank": 894,
-        "Type": "similique",
-        "ColorBlock": 60,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2010-05-31T02:49:52.1878148+02:00",
+        "Rank": 905,
+        "Type": "impedit",
+        "ColorBlock": 91,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2000-02-15T17:37:39.9515055+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Mr. Shanna Grady",
+        "FullName": "Candice Fahey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 728
+            "FieldType": "System.String",
+            "FieldLength": 617
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "corporis",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Virginia Nitzsche",
+    "FullName": "Macie Huels Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldLength": 433
       }
     }
   }

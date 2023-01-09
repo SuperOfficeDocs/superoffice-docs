@@ -32,7 +32,7 @@ Save the description of Priority list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listEntity  
+## Request Body: listEntity 
 
 The list entity contains information about a specific list
 <para />
@@ -41,19 +41,18 @@ Services for the ListEntity Carrier is available from the <see cref="T:SuperOffi
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The identity of the list |
-| Name | string | The name of the list |
-| Tooltip | string | The tooltip of the list |
-| Deleted | bool | True if the list item is marked as deleted |
-| Rank | int32 | The rank of the list |
-| IsCustomList | bool | Indicates if this is a custom list or a standard list |
-| IsMDOList | bool | Indicates if this is a MDO list |
-| UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
-| ListType | string | The type of this list, often indicated by the database name, but not necessarily |
-| InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
+| Id | Integer | The identity of the list |
+| Name | String | The name of the list |
+| Tooltip | String | The tooltip of the list |
+| Deleted | Boolean | True if the list item is marked as deleted |
+| Rank | Integer | The rank of the list |
+| IsCustomList | Boolean | Indicates if this is a custom list or a standard list |
+| IsMDOList | Boolean | Indicates if this is a MDO list |
+| UseGroupsAndHeadings | Boolean | Indicates if this list should use groups and headings |
+| ListType | String | The type of this list, often indicated by the database name, but not necessarily |
+| InUseByUserDefinedFields | Boolean | True if this in use by one or more udfields |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ListEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body:
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,19 +83,19 @@ Response body:
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 200,
-  "Name": "Stark, Grady and Herman",
-  "Tooltip": "earum",
-  "Deleted": false,
-  "Rank": 285,
+  "Id": 149,
+  "Name": "Christiansen Group",
+  "Tooltip": "odio",
+  "Deleted": true,
+  "Rank": 880,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "asperiores",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 994,
-  "Name": "Fahey-Beahan",
-  "Tooltip": "molestias",
+  "Id": 441,
+  "Name": "Davis, Paucek and Ratke",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 25,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 77,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": true,
+  "ListType": "a",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldType": "System.String",
+      "FieldLength": 166
     }
   }
 }

@@ -44,18 +44,17 @@ POST /api/v1/Agents/Find/GetDefaultDesiredColumns?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,9 +90,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Schaefer Group",
-  "StorageKey": "enim"
+  "StorageType": "officia",
+  "ProviderName": "Rempel LLC",
+  "StorageKey": "placeat"
 }
 ```
 
@@ -105,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Willms Group",
-    "DisplayTooltip": "nemo",
-    "DisplayType": "corrupti",
+    "DisplayName": "Runolfsson-Fisher",
+    "DisplayTooltip": "dignissimos",
+    "DisplayType": "tempore",
     "CanOrderBy": false,
-    "Name": "Aufderhar Group",
+    "Name": "Reynolds Group",
     "CanRestrictBy": false,
-    "RestrictionType": "voluptas",
-    "RestrictionListName": "Reichel-Trantow",
-    "IsVisible": false,
-    "ExtraInfo": "aut",
-    "Width": "at",
-    "IconHint": "cupiditate",
-    "HeadingIconHint": "qui"
+    "RestrictionType": "et",
+    "RestrictionListName": "Balistreri-Grimes",
+    "IsVisible": true,
+    "ExtraInfo": "et",
+    "Width": "ipsa",
+    "IconHint": "quas",
+    "HeadingIconHint": "fuga"
   }
 ]
 ```

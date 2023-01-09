@@ -42,13 +42,12 @@ POST /api/v1/Agents/Project/GetProjectList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: projectIds  
+## Request Body: projectIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body: array
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +86,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 469,
-    "Name": "Homenick-Pfannerstill",
-    "Description": "Persevering intangible encryption",
+    "ProjectId": 867,
+    "Name": "Towne-Treutel",
+    "Description": "Public-key fault-tolerant extranet",
     "URL": "http://www.example.com/",
-    "Type": "omnis",
-    "AssociateId": 963,
-    "AssociateFullName": "Delbert Wuckert",
-    "TypeId": 58,
-    "Updated": "2021-01-04T02:49:44.9684639+01:00",
-    "StatusId": 80,
-    "Status": "assumenda",
-    "TextId": 816,
-    "PublishTo": "2002-07-18T02:49:44.9684639+02:00",
-    "PublishFrom": "2015-07-11T02:49:44.9684639+02:00",
-    "IsPublished": true,
+    "Type": "consequatur",
+    "AssociateId": 825,
+    "AssociateFullName": "Judy Altenwerth",
+    "TypeId": 314,
+    "Updated": "1999-08-04T17:37:18.6572447+02:00",
+    "StatusId": 868,
+    "Status": "pariatur",
+    "TextId": 318,
+    "PublishTo": "2008-06-16T17:37:18.6572447+02:00",
+    "PublishFrom": "2006-08-01T17:37:18.6572447+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "983756",
-    "ActiveErpLinks": 63,
+    "ProjectNumber": "994748",
+    "ActiveErpLinks": 73,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldType": "System.String",
+        "FieldLength": 485
       }
     }
   }

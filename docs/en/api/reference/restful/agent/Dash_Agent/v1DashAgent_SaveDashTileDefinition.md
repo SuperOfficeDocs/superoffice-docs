@@ -32,34 +32,33 @@ Updates the existing DashTileDefinition or creates a new DashTileDefinition if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The DashTileDefinition to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardTileDefinitionId | int32 | Primary key |
-| Name | string | The name of the tile |
-| Description | string | Detailed description |
-| DefaultHeight | int32 | Default height when added to a dashboard |
-| DefaultWidth | int32 | Default width when added to a dashboard |
-| TileType | string | Dashboard tile type |
-| EntityType | string | Dashboard entity type |
-| EntityName | string | The entity measured by this tile, defines what provider to use |
-| SelectionId | int32 | Selection holding the criterias for the tile definition |
-| CurrencyMode | string | Dashboard currency mode |
-| CurrencyCode | string | Currency code |
-| Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
-| MeasureField | string | Field to be measured |
-| SortBy | string | Sort by field |
-| LayoutConfig | string | The JSON formatted layout config |
-| SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
-| MeasureByField | string | Field to group by |
-| Usage | string | Where this tile can be used |
-| ProviderName | string | Name of provider to use with this entity type - read only property |
+| DashboardTileDefinitionId | Integer | Primary key |
+| Name | String | The name of the tile |
+| Description | String | Detailed description |
+| DefaultHeight | Integer | Default height when added to a dashboard |
+| DefaultWidth | Integer | Default width when added to a dashboard |
+| TileType | String | Dashboard tile type |
+| EntityType | String | Dashboard entity type |
+| EntityName | String | The entity measured by this tile, defines what provider to use |
+| SelectionId | Integer | Selection holding the criterias for the tile definition |
+| CurrencyMode | String | Dashboard currency mode |
+| CurrencyCode | String | Currency code |
+| Measure | String | Dashboard measure type (Count, Sum, Avg, etc.) |
+| MeasureField | String | Field to be measured |
+| SortBy | String | Sort by field |
+| LayoutConfig | String | The JSON formatted layout config |
+| SecondarySelectionId | Integer | Selection holding the replaced or changed criterias (period comparisons etc) |
+| MeasureByField | String | Field to group by |
+| Usage | String | Where this tile can be used |
+| ProviderName | String | Name of provider to use with this entity type - read only property |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -67,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTileDefinition
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,7 +89,7 @@ Response body:
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -99,29 +98,29 @@ Response body:
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 844,
-  "Name": "Hintz, Gibson and Lueilwitz",
-  "Description": "Down-sized multimedia hierarchy",
-  "DefaultHeight": 761,
-  "DefaultWidth": 370,
+  "DashboardTileDefinitionId": 859,
+  "Name": "Becker, Bode and Kling",
+  "Description": "Customer-focused bi-directional architecture",
+  "DefaultHeight": 677,
+  "DefaultWidth": 536,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "O'Keefe, Zieme and Gusikowski",
-  "SelectionId": 788,
+  "EntityName": "Stark Group",
+  "SelectionId": 663,
   "CurrencyMode": "Base",
-  "CurrencyCode": "debitis",
+  "CurrencyCode": "magni",
   "Measure": "Average",
-  "MeasureField": "sit",
-  "SortBy": "quis",
-  "LayoutConfig": "qui",
-  "SecondarySelectionId": 786,
-  "MeasureByField": "earum",
+  "MeasureField": "eos",
+  "SortBy": "laboriosam",
+  "LayoutConfig": "necessitatibus",
+  "SecondarySelectionId": 726,
+  "MeasureByField": "ducimus",
   "Usage": "Dashboard",
-  "ProviderName": "Schulist-Schneider"
+  "ProviderName": "Wilderman-Mertz"
 }
 ```
 
@@ -132,31 +131,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 44,
-  "Name": "Abbott, Schoen and Schiller",
-  "Description": "Switchable static challenge",
-  "DefaultHeight": 967,
-  "DefaultWidth": 876,
+  "DashboardTileDefinitionId": 355,
+  "Name": "Morar-Prohaska",
+  "Description": "Total context-sensitive interface",
+  "DefaultHeight": 788,
+  "DefaultWidth": 531,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Blanda-Cartwright",
-  "SelectionId": 151,
+  "EntityName": "Quitzon-Thompson",
+  "SelectionId": 732,
   "CurrencyMode": "Base",
-  "CurrencyCode": "aut",
+  "CurrencyCode": "omnis",
   "Measure": "Average",
-  "MeasureField": "porro",
-  "SortBy": "voluptatem",
-  "LayoutConfig": "aliquid",
-  "SecondarySelectionId": 464,
-  "MeasureByField": "temporibus",
+  "MeasureField": "ea",
+  "SortBy": "enim",
+  "LayoutConfig": "nisi",
+  "SecondarySelectionId": 632,
+  "MeasureByField": "sit",
   "Usage": "Dashboard",
-  "ProviderName": "Johnson, Rice and Lehner",
+  "ProviderName": "Thompson Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldLength": 47
     }
   }
 }

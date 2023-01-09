@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/SaveEMailAccount
 Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is empty
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -36,25 +34,24 @@ Updates the existing EMailAccount or creates a new EMailAccount if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The EMailAccount to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EMailAccountId | int32 | The account primary key |
-| EMailAddress | string | The account (from) address |
-| AssociateId | int32 | Id of the associate who owns this account |
-| IncomingCredentials |  | Account credentials for imap |
-| OutgoingCredentials |  | Account credentials for smtp |
-| AccountStatus | int32 | The account status (Disabled or...) Readonly field |
-| ErrorCount | int32 | Count of concurring errors of fetching email. Readonly field |
-| ErrorReason | string | Reason/Error message. Readonly field |
-| InboxFolder | string | Inbox folder name if available in the db |
-| SentFolder | string | Sent email folder name if available in the db |
+| EMailAccountId | Integer | The account primary key |
+| EMailAddress | String | The account (from) address |
+| AssociateId | Integer | Id of the associate who owns this account |
+| IncomingCredentials | ServiceAuth | Account credentials for imap |
+| OutgoingCredentials | ServiceAuth | Account credentials for smtp |
+| AccountStatus | Integer | The account status (Disabled or...) Readonly field |
+| ErrorCount | Integer | Count of concurring errors of fetching email. Readonly field |
+| ErrorReason | String | Reason/Error message. Readonly field |
+| InboxFolder | String | Inbox folder name if available in the db |
+| SentFolder | String | Sent email folder name if available in the db |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,21 +59,21 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailAccount
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EMailAccountId | int32 | The account primary key |
 | EMailAddress | string | The account (from) address |
 | AssociateId | int32 | Id of the associate who owns this account |
-| IncomingCredentials |  | Account credentials for imap |
-| OutgoingCredentials |  | Account credentials for smtp |
+| IncomingCredentials | ServiceAuth | Account credentials for imap |
+| OutgoingCredentials | ServiceAuth | Account credentials for smtp |
 | AccountStatus | int32 | The account status (Disabled or...) Readonly field |
 | ErrorCount | int32 | Count of concurring errors of fetching email. Readonly field |
 | ErrorReason | string | Reason/Error message. Readonly field |
 | InboxFolder | string | Inbox folder name if available in the db |
 | SentFolder | string | Sent email folder name if available in the db |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 370,
-  "EMailAddress": "corporis",
-  "AssociateId": 688,
+  "EMailAccountId": 21,
+  "EMailAddress": "eius",
+  "AssociateId": 129,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 821,
-  "ErrorCount": 388,
+  "AccountStatus": 212,
+  "ErrorCount": 506,
   "ErrorReason": "",
-  "InboxFolder": "nesciunt",
-  "SentFolder": "ab"
+  "InboxFolder": "ab",
+  "SentFolder": "dolorem"
 }
 ```
 
@@ -109,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 169,
-  "EMailAddress": "nam",
-  "AssociateId": 860,
+  "EMailAccountId": 24,
+  "EMailAddress": "unde",
+  "AssociateId": 229,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 315,
-  "ErrorCount": 537,
+  "AccountStatus": 6,
+  "ErrorCount": 352,
   "ErrorReason": "",
-  "InboxFolder": "quia",
-  "SentFolder": "illum",
+  "InboxFolder": "quae",
+  "SentFolder": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 751
+      "FieldLength": 603
     }
   }
 }

@@ -44,20 +44,19 @@ POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, Restrictions, StaticColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| Restrictions | string |  |
-| StaticColumns | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| Restrictions | String |  |
+| StaticColumns | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CriteriaInformation
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body:
 | CriteriaArchiveColumns | array | Array of ColumnInfo column specifications |
 | CriteriaArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows. |
 | RestrictionGroups | array | Array of restrictiongroups, including the default first group of restrictions |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,11 +85,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "error",
-  "ProviderName": "Lakin, Kutch and Ledner",
-  "StorageKey": "dolor",
-  "Restrictions": "voluptas",
-  "StaticColumns": "qui"
+  "StorageType": "necessitatibus",
+  "ProviderName": "Wilderman, Maggio and Moen",
+  "StorageKey": "est",
+  "Restrictions": "consectetur",
+  "StaticColumns": "et"
 }
 ```
 
@@ -103,81 +102,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Labadie-McCullough",
+      "Name": "Weissnat LLC",
       "Operator": "voluptatem",
       "Values": [
-        "dolor",
-        "sunt"
+        "consequatur",
+        "porro"
       ],
       "DisplayValues": [
-        "perferendis",
-        "sunt"
+        "ratione",
+        "ea"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 506,
+      "InterParenthesis": 347,
       "InterOperator": "And",
-      "UniqueHash": 637
+      "UniqueHash": 443
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Heathcote-Kub",
-      "DisplayTooltip": "quaerat",
-      "DisplayType": "voluptatibus",
+      "DisplayName": "Funk Inc and Sons",
+      "DisplayTooltip": "libero",
+      "DisplayType": "odio",
       "CanOrderBy": true,
-      "Name": "Stanton-Hilpert",
-      "CanRestrictBy": true,
-      "RestrictionType": "reiciendis",
-      "RestrictionListName": "Green LLC",
-      "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "eos",
-      "IconHint": "et",
-      "HeadingIconHint": "laborum"
+      "Name": "Brekke-Schuppe",
+      "CanRestrictBy": false,
+      "RestrictionType": "delectus",
+      "RestrictionListName": "Jast-Jerde",
+      "IsVisible": true,
+      "ExtraInfo": "culpa",
+      "Width": "tempora",
+      "IconHint": "architecto",
+      "HeadingIconHint": "asperiores"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Nolan-Turcotte",
-      "PrimaryKey": 549,
+      "EntityName": "Kertzmann-Quigley",
+      "PrimaryKey": 142,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "pariatur",
-          "TooltipHint": "quae",
-          "LinkHint": "enim"
+          "DisplayValue": "praesentium",
+          "TooltipHint": "a",
+          "LinkHint": "libero"
         }
       },
-      "LinkHint": "dolor",
-      "StyleHint": "est",
+      "LinkHint": "voluptatem",
+      "StyleHint": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldLength": 214
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Koch, Kris and Rempel",
-      "Description": "Intuitive disintermediate array",
-      "Rank": 73,
+      "Name": "Nienow Group",
+      "Description": "Robust transitional circuit",
+      "Rank": 377,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Koch, Kris and Rempel",
-      "Description": "Intuitive disintermediate array",
-      "Rank": 73,
+      "Name": "Nienow Group",
+      "Description": "Robust transitional circuit",
+      "Rank": 377,
       "Restrictions": [
         {},
         {}
@@ -188,8 +187,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 843
+      "FieldType": "System.Int32",
+      "FieldLength": 312
     }
   }
 }

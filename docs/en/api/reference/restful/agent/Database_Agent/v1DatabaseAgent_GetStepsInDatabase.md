@@ -42,7 +42,7 @@ POST /api/v1/Agents/Database/GetStepsInDatabase?$select=name,department,category
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,13 +50,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string | The name of the dictionary step (from attribute, not class name) |
 | StepNumber | int32 | Generation number of step |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,26 +76,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ebert-Jones",
-    "StepNumber": 439,
+    "Name": "Gutmann, Mayer and Reichert",
+    "StepNumber": 876,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldType": "System.String",
+        "FieldLength": 277
       }
     }
   },
   {
-    "Name": "Ebert-Jones",
-    "StepNumber": 439,
+    "Name": "Gutmann, Mayer and Reichert",
+    "StepNumber": 876,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldType": "System.String",
+        "FieldLength": 277
       }
     }
   }

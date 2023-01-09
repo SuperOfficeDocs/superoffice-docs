@@ -42,16 +42,15 @@ POST /api/v1/Agents/License/GetLicenseFromLicenseServer?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 OwnerName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OwnerName | string |  |
+| OwnerName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,14 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Reason | string |  |
 | CanBeActivated | bool |  |
-| New |  |  |
-| Current |  |  |
+| New | TableRight |  |
+| Current | TableRight |  |
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
@@ -76,11 +75,11 @@ Response body:
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Wuckert, Cassin and Goyette"
+  "OwnerName": "Wolff-Wilkinson"
 }
 ```
 
@@ -92,21 +91,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 68,
-      "NumberOfLicensesFree": 962,
-      "NumberOfLicensesAdded": 57,
-      "NumberOfLicensesNewTotal": 981,
-      "NumberOfLicensesNewFree": 612,
-      "NumberOfLicensesTotal": 956
+      "NumberOfLicensesInUse": 144,
+      "NumberOfLicensesFree": 185,
+      "NumberOfLicensesAdded": 972,
+      "NumberOfLicensesNewTotal": 445,
+      "NumberOfLicensesNewFree": 421,
+      "NumberOfLicensesTotal": 652
     }
   ],
-  "AccumulatedNextCheckDate": "1997-11-30T02:49:44.576671+01:00"
+  "AccumulatedNextCheckDate": "2004-02-20T17:37:18.1252414+01:00"
 }
 ```

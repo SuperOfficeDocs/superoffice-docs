@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Reilly Inc and Sons",
-    "ToolTip": "Aperiam modi consequatur.",
+    "Id": 722,
+    "Name": "Hahn-Lynch",
+    "ToolTip": "Inventore et.",
     "Deleted": true,
-    "Rank": 100,
-    "Type": "sed",
-    "ColorBlock": 982,
-    "IconHint": "voluptatem",
+    "Rank": 950,
+    "Type": "perspiciatis",
+    "ColorBlock": 560,
+    "IconHint": "ipsam",
     "Selected": false,
-    "LastChanged": "2020-05-06T02:49:52.2815666+02:00",
+    "LastChanged": "1996-07-25T17:37:40.0575016+02:00",
     "ChildItems": [
       {
-        "Id": 338,
-        "Name": "DuBuque-Kulas",
-        "ToolTip": "Dolorum quod.",
+        "Id": 331,
+        "Name": "O'Kon-Little",
+        "ToolTip": "Veniam qui vel et perferendis porro voluptatem libero.",
         "Deleted": false,
-        "Rank": 977,
-        "Type": "recusandae",
-        "ColorBlock": 313,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2000-09-06T02:49:52.2815666+02:00",
+        "Rank": 280,
+        "Type": "repellendus",
+        "ColorBlock": 197,
+        "IconHint": "deserunt",
+        "Selected": true,
+        "LastChanged": "1997-06-30T17:37:40.0584727+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "excepturi",
-        "Hidden": false,
-        "FullName": "Prof. Alda Lilyan Crona"
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Laurence Kiara VonRueden MD"
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "ut",
+    "ExtraInfo": "et",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Bertrand Braun"
+    "FullName": "Liam Hermann"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 248,
-    "Name": "Farrell LLC",
-    "ToolTip": "Autem aut eos.",
+    "Id": 372,
+    "Name": "Mertz, Volkman and Wolf",
+    "ToolTip": "Eos qui earum corporis.",
     "Deleted": true,
-    "Rank": 232,
-    "Type": "sint",
-    "ColorBlock": 354,
-    "IconHint": "itaque",
-    "Selected": true,
-    "LastChanged": "1998-07-26T02:49:52.2815666+02:00",
+    "Rank": 372,
+    "Type": "rerum",
+    "ColorBlock": 972,
+    "IconHint": "minus",
+    "Selected": false,
+    "LastChanged": "2004-01-13T17:37:40.0595038+01:00",
     "ChildItems": [
       {
-        "Id": 633,
-        "Name": "Schultz, D'Amore and Schaefer",
-        "ToolTip": "Nulla est qui quia rerum rerum.",
-        "Deleted": false,
-        "Rank": 188,
-        "Type": "deleniti",
-        "ColorBlock": 636,
-        "IconHint": "natus",
+        "Id": 162,
+        "Name": "Dach-Johnson",
+        "ToolTip": "Vel labore.",
+        "Deleted": true,
+        "Rank": 372,
+        "Type": "saepe",
+        "ColorBlock": 451,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "2004-03-16T02:49:52.2815666+01:00",
+        "LastChanged": "2013-07-07T17:37:40.0595038+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "rem",
+        "ExtraInfo": "totam",
+        "StyleHint": "excepturi",
         "Hidden": false,
-        "FullName": "Prof. Lyla Ethel Maggio II",
+        "FullName": "Kendra Lakin Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 982
+            "FieldLength": 30
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "explicabo",
-    "Hidden": false,
-    "FullName": "Ottis Huel",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "temporibus",
+    "Hidden": true,
+    "FullName": "Malinda Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 788
+        "FieldLength": 172
       }
     }
   }

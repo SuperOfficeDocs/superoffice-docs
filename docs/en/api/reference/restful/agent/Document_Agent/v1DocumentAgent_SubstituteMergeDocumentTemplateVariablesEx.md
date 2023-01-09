@@ -44,25 +44,24 @@ POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MergeDocumentId, ContactId, PersonId, ProjectId, SelectionId, AppointmentId, DocumentId, SaleId, CustomTags, CustomValues 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MergeDocumentId | int32 |  |
-| ContactId | int32 |  |
-| PersonId | int32 |  |
-| ProjectId | int32 |  |
-| SelectionId | int32 |  |
-| AppointmentId | int32 |  |
-| DocumentId | int32 |  |
-| SaleId | int32 |  |
-| CustomTags | array |  |
-| CustomValues | array |  |
+| MergeDocumentId | Integer |  |
+| ContactId | Integer |  |
+| PersonId | Integer |  |
+| ProjectId | Integer |  |
+| SelectionId | Integer |  |
+| AppointmentId | Integer |  |
+| DocumentId | Integer |  |
+| SaleId | Integer |  |
+| CustomTags | Array |  |
+| CustomValues | Array |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -70,7 +69,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -83,21 +82,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MergeDocumentId": 597,
-  "ContactId": 784,
-  "PersonId": 764,
-  "ProjectId": 988,
-  "SelectionId": 658,
-  "AppointmentId": 526,
-  "DocumentId": 620,
-  "SaleId": 359,
+  "MergeDocumentId": 75,
+  "ContactId": 35,
+  "PersonId": 269,
+  "ProjectId": 75,
+  "SelectionId": 476,
+  "AppointmentId": 782,
+  "DocumentId": 832,
+  "SaleId": 580,
   "CustomTags": [
-    "quis",
-    "quo"
+    "magnam",
+    "ut"
   ],
   "CustomValues": [
-    "omnis",
-    "ut"
+    "odio",
+    "molestias"
   ]
 }
 ```

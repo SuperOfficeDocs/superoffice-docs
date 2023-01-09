@@ -44,16 +44,15 @@ POST /api/v1/Agents/PhoneList/GetDepartmentPhones?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DepartmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DepartmentId | int32 |  |
+| DepartmentId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body: array
 | Name | string | The contact or person's name |
 | Tooltip | string |  |
 | UniqueId | string | Property setting a unique id indicating if this is a person or contact |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,7 +87,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 543
+  "DepartmentId": 310
 }
 ```
 
@@ -100,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-393-026-0526",
-    "PersonCellPhone": "1-772-985-6494 x287",
-    "PersonPrivatePhone": "(771)570-5867 x95724",
-    "PersonFaxNumber": "1232274",
-    "PersonPagerNumber": "620115",
-    "PersonEmail": "reva_stehr@pfannerstill.com",
-    "Id": 678,
-    "Name": "Terry, Mertz and Kub",
-    "Tooltip": "alias",
-    "UniqueId": "totam",
+    "PersonDirectPhone": "(973)550-6000",
+    "PersonCellPhone": "205.108.3853 x1272",
+    "PersonPrivatePhone": "(679)273-9159 x4586",
+    "PersonFaxNumber": "943283",
+    "PersonPagerNumber": "1219666",
+    "PersonEmail": "moshe@ferryrowe.uk",
+    "Id": 307,
+    "Name": "Ryan Group",
+    "Tooltip": "quaerat",
+    "UniqueId": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldLength": 190
       }
     }
   }

@@ -102,9 +102,6 @@ Use backslash to escape single quotes in strings
 
 
 
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -130,24 +127,23 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2?$selec
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Columns | string |  |
-| SortOrder | string |  |
-| Restriction | string |  |
-| Entities | string |  |
-| Page | int32 |  |
-| PageSize | int32 |  |
-| Options | string |  |
-| Context | string |  |
+| ProviderName | String |  |
+| Columns | String |  |
+| SortOrder | String |  |
+| Restriction | String |  |
+| Entities | String |  |
+| Page | Integer |  |
+| PageSize | Integer |  |
+| Options | String |  |
+| Context | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -155,13 +151,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ArchiveListResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
 | Rows | array | The actual rows, according to the paging info, of the result. See RowCount for a paging-independent count estimate |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -170,19 +166,19 @@ Response body:
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Auer-Mayert",
-  "Columns": "qui",
-  "SortOrder": "rerum",
-  "Restriction": "dolorem",
-  "Entities": "aut",
-  "Page": 944,
-  "PageSize": 892,
-  "Options": "est",
-  "Context": "possimus"
+  "ProviderName": "Ferry-Lang",
+  "Columns": "nostrum",
+  "SortOrder": "dolore",
+  "Restriction": "ipsa",
+  "Entities": "dolores",
+  "Page": 877,
+  "PageSize": 457,
+  "Options": "at",
+  "Context": "quasi"
 }
 ```
 
@@ -193,26 +189,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 35,
+  "RowCount": 259,
   "Rows": [
     {
-      "EntityName": "Abernathy Inc and Sons",
-      "PrimaryKey": 80,
+      "EntityName": "Wuckert Inc and Sons",
+      "PrimaryKey": 608,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "unde",
-          "TooltipHint": "ipsam",
-          "LinkHint": "recusandae"
+          "DisplayValue": "aspernatur",
+          "TooltipHint": "nemo",
+          "LinkHint": "provident"
         }
       },
-      "LinkHint": "dolores",
-      "StyleHint": "eos",
+      "LinkHint": "architecto",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 322
+          "FieldLength": 683
         }
       }
     }
@@ -222,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldLength": 199
     }
   }
 }

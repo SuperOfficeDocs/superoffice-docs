@@ -42,7 +42,7 @@ POST /api/v1/Agents/Document/GetMyPublishedDocuments?$select=name,department,cat
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +74,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +83,7 @@ Response body: array
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,32 +94,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 636,
-    "Attention": "veritatis",
-    "Header": "sequi",
-    "Name": "Gerlach-Conn",
-    "OurRef": "et",
-    "YourRef": "modi",
-    "Description": "Open-architected scalable time-frame",
-    "DocumentTemplate": "animi",
-    "IsPublished": false,
-    "PersonId": 112,
-    "PersonFullName": "Sincere Stark",
-    "AssociateFullName": "Mr. Elijah Marietta Kilback III",
-    "ContactId": 437,
-    "ContactName": "Leuschke Inc and Sons",
-    "ProjectId": 338,
-    "ProjectName": "Luettgen Inc and Sons",
-    "AssociateId": 176,
-    "Snum": 819,
-    "SaleId": 688,
-    "SaleName": "Miller, Hills and McClure",
+    "DocumentId": 231,
+    "Attention": "ut",
+    "Header": "ut",
+    "Name": "Zieme-Terry",
+    "OurRef": "harum",
+    "YourRef": "facere",
+    "Description": "Inverse executive process improvement",
+    "DocumentTemplate": "et",
+    "IsPublished": true,
+    "PersonId": 653,
+    "PersonFullName": "Breana Botsford I",
+    "AssociateFullName": "Nayeli Parker",
+    "ContactId": 984,
+    "ContactName": "Stoltenberg-Rowe",
+    "ProjectId": 883,
+    "ProjectName": "Shields-Lockman",
+    "AssociateId": 184,
+    "Snum": 295,
+    "SaleId": 546,
+    "SaleName": "Hills, Cole and Schimmel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldType": "System.String",
+        "FieldLength": 243
       }
     }
   }

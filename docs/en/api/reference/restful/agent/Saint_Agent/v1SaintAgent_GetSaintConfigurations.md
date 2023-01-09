@@ -42,7 +42,7 @@ POST /api/v1/Agents/Saint/GetSaintConfigurations?$select=name,department,categor
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +62,7 @@ Response body: array
 | GenerationStart | date-time | When was the last regeneration started |
 | GenerationEnd | date-time | When was the last regeneration finished |
 | RowsGenerated | int32 | Number of CounterValue rows generated for this entity |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +71,7 @@ Response body: array
 POST /api/v1/Agents/Saint/GetSaintConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 198,
-    "Enabled": false,
-    "Period1": 344,
-    "Period2": 740,
-    "Period3": 330,
-    "GenerationStart": "2015-04-14T02:49:45.0934673+02:00",
-    "GenerationEnd": "2011-10-13T02:49:45.0934673+02:00",
-    "RowsGenerated": 504,
+    "OwnerTable": 9,
+    "Enabled": true,
+    "Period1": 20,
+    "Period2": 708,
+    "Period3": 351,
+    "GenerationStart": "2015-07-29T17:37:18.8142417+02:00",
+    "GenerationEnd": "2013-07-29T17:37:18.8142417+02:00",
+    "RowsGenerated": 343,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 740
+        "FieldLength": 912
       }
     }
   }

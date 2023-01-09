@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailAttachment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +57,7 @@ Response body:
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Devolved multimedia focus group",
-  "Filename": "iste",
-  "Size": 167,
-  "Type": "possimus",
-  "Encoding": "quis",
-  "Id": "repellendus",
-  "Disposition": "provident",
+  "Description": "Front-line systematic workforce",
+  "Filename": "recusandae",
+  "Size": 499,
+  "Type": "dignissimos",
+  "Encoding": "commodi",
+  "Id": "velit",
+  "Disposition": "quia",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldType": "System.Int32",
+      "FieldLength": 130
     }
   }
 }

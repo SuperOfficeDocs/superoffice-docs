@@ -47,16 +47,15 @@ POST /api/v1/Agents/CRMScript/ValidateScriptByIncludeId?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 CRMScriptIncludeId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CRMScriptIncludeId | string |  |
+| CRMScriptIncludeId | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,13 +63,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CRMScriptResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Valid | bool | True if the CRMScript was successfully validated. If false, see the error message for details |
 | ErrorMessage | string | Contains the error message for a non-valide CRMScript |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "nulla"
+  "CRMScriptIncludeId": "ea"
 }
 ```
 
@@ -95,13 +94,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "sed",
+  "ErrorMessage": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 899
+      "FieldType": "System.Int32",
+      "FieldLength": 772
     }
   }
 }

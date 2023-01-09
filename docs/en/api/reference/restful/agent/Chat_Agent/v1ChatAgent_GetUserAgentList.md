@@ -44,17 +44,16 @@ POST /api/v1/Agents/Chat/GetUserAgentList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Flat, OnlyPresent 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Flat | bool |  |
-| OnlyPresent | bool |  |
+| Flat | Boolean |  |
+| OnlyPresent | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,12 +86,12 @@ Response body: array
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Flat": false,
-  "OnlyPresent": true
+  "OnlyPresent": false
 }
 ```
 
@@ -104,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 72,
-    "Name": "Johns Inc and Sons",
-    "ToolTip": "Ut et eveniet doloribus aspernatur.",
-    "Deleted": false,
-    "Rank": 963,
-    "Type": "nihil",
+    "Id": 987,
+    "Name": "Dicki-Kuvalis",
+    "ToolTip": "Omnis earum velit debitis non tempora tenetur harum.",
+    "Deleted": true,
+    "Rank": 533,
+    "Type": "tenetur",
     "ChildItems": [
       {
-        "Id": 155,
-        "Name": "Bechtelar-Pollich",
-        "ToolTip": "Quas reprehenderit.",
-        "Deleted": false,
-        "Rank": 386,
-        "Type": "aspernatur",
+        "Id": 496,
+        "Name": "Ebert LLC",
+        "ToolTip": "Voluptatem deserunt.",
+        "Deleted": true,
+        "Rank": 267,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magni",
-        "ColorBlock": 330,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "eaque",
-        "FullName": "Shawn Considine",
+        "IconHint": "autem",
+        "ColorBlock": 722,
+        "ExtraInfo": "commodi",
+        "StyleHint": "nam",
+        "FullName": "Anissa Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 58
+            "FieldLength": 721
           }
         }
       }
     ],
-    "IconHint": "animi",
-    "ColorBlock": 126,
-    "ExtraInfo": "est",
-    "StyleHint": "ipsum",
-    "FullName": "Lauren Kulas III",
+    "IconHint": "sed",
+    "ColorBlock": 771,
+    "ExtraInfo": "nemo",
+    "StyleHint": "ratione",
+    "FullName": "Anika Lehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 940
+        "FieldType": "System.Int32",
+        "FieldLength": 969
       }
     }
   }

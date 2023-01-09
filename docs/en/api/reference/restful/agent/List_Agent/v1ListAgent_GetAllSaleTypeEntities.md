@@ -42,16 +42,15 @@ POST /api/v1/Agents/List/GetAllSaleTypeEntities?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IncludeDeleted | bool |  |
+| IncludeDeleted | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +84,7 @@ Response body: array
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,7 +93,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,53 +109,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 890,
-    "Name": "Mraz Inc and Sons",
-    "Tooltip": "consequatur",
-    "Rank": 649,
+    "SaleTypeId": 106,
+    "Name": "Lindgren-Kunde",
+    "Tooltip": "atque",
+    "Rank": 990,
     "DurationUnit": "Century",
-    "SaleDuration": 171,
-    "SaleTypeCatId": 449,
+    "SaleDuration": 470,
+    "SaleTypeCatId": 464,
     "Deleted": false,
-    "HasGuide": false,
+    "HasGuide": true,
     "HasStakeholders": true,
-    "IsAutoAdvance": false,
+    "IsAutoAdvance": true,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 499,
-    "QuoteLinesTemplate": 1002,
-    "ConfirmationLinesTemplate": 274,
+    "DefaultQuoteValidity": 305,
+    "QuoteLinesTemplate": 633,
+    "ConfirmationLinesTemplate": 698,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 571,
-    "MinEarningPercent": 929,
-    "GroupQuoteLinesBy": 112,
-    "SortGroupLinesBy": 790,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 807,
+    "MinEarningPercent": 807,
+    "GroupQuoteLinesBy": 633,
+    "SortGroupLinesBy": 750,
     "Stages": [
       {
-        "Id": 804,
-        "Name": "Bernhard-Brekke",
-        "ToolTip": "Pariatur ea officiis illum.",
+        "Id": 663,
+        "Name": "Schowalter, Rolfson and Considine",
+        "ToolTip": "Commodi fugit.",
         "Deleted": false,
-        "Rank": 942,
-        "Type": "qui",
-        "ColorBlock": 282,
-        "IconHint": "unde",
+        "Rank": 579,
+        "Type": "placeat",
+        "ColorBlock": 187,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2007-05-12T02:49:44.6079219+02:00",
+        "LastChanged": "2014-11-04T17:37:18.1822417+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "error",
+        "ExtraInfo": "ea",
+        "StyleHint": "ab",
         "Hidden": true,
-        "FullName": "Edward Tillman",
+        "FullName": "Berta Jacobs",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 852
+            "FieldLength": 620
           }
         }
       }
@@ -166,7 +165,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 542
       }
     }
   }

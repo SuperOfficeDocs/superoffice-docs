@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,12 +73,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Documents?$select=name,department,category/id
 GET /api/v1/Person/{id}/Documents?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Documents?$orderBy=name asc
-GET /api/v1/Person/{id}/Documents?$entities=fugiat
-GET /api/v1/Person/{id}/Documents?$top=963
-GET /api/v1/Person/{id}/Documents?$skip=356
+GET /api/v1/Person/{id}/Documents?$entities=error
+GET /api/v1/Person/{id}/Documents?$top=457
+GET /api/v1/Person/{id}/Documents?$skip=556
 GET /api/v1/Person/{id}/Documents?$mode=Full
 GET /api/v1/Person/{id}/Documents?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Documents?$context=cupiditate
+GET /api/v1/Person/{id}/Documents?$context=consectetur
 GET /api/v1/Person/{id}/Documents?$format=JSON
 GET /api/v1/Person/{id}/Documents?$jsonSafe=False
 GET /api/v1/Person/{id}/Documents?$output=Display
@@ -100,7 +99,7 @@ GET /api/v1/Person/{id}/Documents?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Person/{id}/Documents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "repudiandae",
+  "odata.nextLink": "magnam",
   "value": [
     {
-      "PrimaryKey": 4226,
-      "EntityName": "person",
-      "personId": 4226,
-      "fullName": "Shana Ullrich"
+      "PrimaryKey": 9257,
+      "EntityName": "sale",
+      "saleId": 9257,
+      "contactId": 8220,
+      "name": "Johnson Group"
     },
     {
-      "PrimaryKey": 3606,
-      "EntityName": "person",
-      "personId": 3606,
-      "fullName": "Jude Bogan"
+      "PrimaryKey": 2646,
+      "EntityName": "sale",
+      "saleId": 2646,
+      "contactId": 9035,
+      "name": "Gleason LLC"
     }
   ]
 }

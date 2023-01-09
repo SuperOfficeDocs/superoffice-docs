@@ -46,25 +46,24 @@ PUT /api/v1/Pricelist/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The PriceList to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PriceListId | int32 | Primary key |
-| ERPPriceListKey | string | The key that uniquely identifies this pricelist in the ERP system |
-| QuoteConnectionId | int32 | (Reserved for future use) The connection to the ERP system used for this pricelist |
-| Name | string | Name of this pricelist to use in the user interface. |
-| Description | string | Description of this pricelist , will be used as tool-tip in the user interface. |
-| Currency | string | The iso currency code, like 'USD' or 'NOK'. |
-| CurrencyName | string | The name to use in the user interface, like perhaps 'US dollar' or '$' |
-| ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
-| ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
-| IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
+| PriceListId | Integer | Primary key |
+| ERPPriceListKey | String | The key that uniquely identifies this pricelist in the ERP system |
+| QuoteConnectionId | Integer | (Reserved for future use) The connection to the ERP system used for this pricelist |
+| Name | String | Name of this pricelist to use in the user interface. |
+| Description | String | Description of this pricelist , will be used as tool-tip in the user interface. |
+| Currency | String | The iso currency code, like 'USD' or 'NOK'. |
+| CurrencyName | String | The name to use in the user interface, like perhaps 'US dollar' or '$' |
+| ValidFrom | String | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
+| ValidTo | String | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
+| IsActive | Boolean | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
 
-
-## Response: 
+## Response:
 
 PriceList updated.
 
@@ -73,7 +72,7 @@ PriceList updated.
 | 200 | PriceList updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: PriceListWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,7 +86,7 @@ Response body:
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -97,20 +96,20 @@ Response body:
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 523,
-  "ERPPriceListKey": "ratione",
-  "QuoteConnectionId": 387,
-  "Name": "Wiegand Group",
-  "Description": "Future-proofed methodical pricing structure",
-  "Currency": "sed",
-  "CurrencyName": "Aufderhar-Walsh",
-  "ValidFrom": "2022-07-15T02:49:52.3284476+02:00",
-  "ValidTo": "1996-07-12T02:49:52.3284476+02:00",
-  "IsActive": false
+  "PriceListId": 119,
+  "ERPPriceListKey": "maxime",
+  "QuoteConnectionId": 781,
+  "Name": "D'Amore LLC",
+  "Description": "Triple-buffered static orchestration",
+  "Currency": "delectus",
+  "CurrencyName": "Nitzsche Group",
+  "ValidFrom": "2017-04-08T17:37:40.1185003+02:00",
+  "ValidTo": "2007-01-24T17:37:40.1185003+01:00",
+  "IsActive": true
 }
 ```
 
@@ -121,27 +120,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 808,
+  "PriceListId": 345,
   "ERPPriceListKey": "debitis",
-  "QuoteConnectionId": 867,
-  "Name": "Hagenes-Grimes",
-  "Description": "Synergized intangible concept",
-  "Currency": "est",
-  "CurrencyName": "Quigley-Sauer",
-  "ValidFrom": "2011-07-27T02:49:52.3284476+02:00",
-  "ValidTo": "2004-05-19T02:49:52.3284476+02:00",
-  "IsActive": true,
+  "QuoteConnectionId": 360,
+  "Name": "Gaylord, Kuphal and Klein",
+  "Description": "Re-contextualized intangible alliance",
+  "Currency": "placeat",
+  "CurrencyName": "Weber-Schuppe",
+  "ValidFrom": "1995-11-27T17:37:40.1185003+01:00",
+  "ValidTo": "2002-10-07T17:37:40.1185003+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 417
+      "FieldType": "System.Int32",
+      "FieldLength": 137
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

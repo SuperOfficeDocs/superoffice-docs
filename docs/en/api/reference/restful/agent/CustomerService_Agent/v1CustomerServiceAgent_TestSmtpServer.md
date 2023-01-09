@@ -44,18 +44,17 @@ POST /api/v1/Agents/CustomerService/TestSmtpServer?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SmtpUri, From, UseStoredPassword 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SmtpUri | string |  |
-| From | string |  |
-| UseStoredPassword | bool |  |
+| SmtpUri | String |  |
+| From | String |  |
+| UseStoredPassword | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,13 +62,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SmtpTestResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Success | bool | True if the test went ok. False if it failed. See the error message for details |
 | ErrorMessage | string | If an error occured, this member will contain a description of the error |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,12 +77,12 @@ Response body:
 POST /api/v1/Agents/CustomerService/TestSmtpServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "maiores",
-  "From": "dolores",
+  "SmtpUri": "quidem",
+  "From": "maxime",
   "UseStoredPassword": false
 }
 ```
@@ -95,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "ErrorMessage": "aut",
+  "Success": false,
+  "ErrorMessage": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldType": "System.String",
+      "FieldLength": 576
     }
   }
 }

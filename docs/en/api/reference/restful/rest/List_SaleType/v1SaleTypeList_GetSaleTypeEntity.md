@@ -38,7 +38,7 @@ Calls the List agent service GetSaleTypeEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -47,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: SaleTypeEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +73,7 @@ Response body:
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,53 +92,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 360,
-  "Name": "King Inc and Sons",
-  "Tooltip": "nobis",
-  "Rank": 543,
+  "SaleTypeId": 169,
+  "Name": "Kunde Group",
+  "Tooltip": "quae",
+  "Rank": 873,
   "DurationUnit": "Century",
-  "SaleDuration": 572,
-  "SaleTypeCatId": 197,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 703,
+  "SaleTypeCatId": 417,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 209,
-  "QuoteLinesTemplate": 362,
-  "ConfirmationLinesTemplate": 745,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 422,
+  "QuoteLinesTemplate": 637,
+  "ConfirmationLinesTemplate": 356,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 711,
-  "MinEarningPercent": 175,
-  "GroupQuoteLinesBy": 887,
-  "SortGroupLinesBy": 847,
+  "MaxDiscountPercent": 759,
+  "MinEarningPercent": 134,
+  "GroupQuoteLinesBy": 475,
+  "SortGroupLinesBy": 576,
   "Stages": [
     {
-      "Id": 58,
-      "Name": "Miller-Tillman",
-      "ToolTip": "Exercitationem autem.",
-      "Deleted": true,
-      "Rank": 523,
-      "Type": "commodi",
-      "ColorBlock": 627,
-      "IconHint": "ipsa",
-      "Selected": true,
-      "LastChanged": "2015-09-15T02:49:52.5003264+02:00",
+      "Id": 452,
+      "Name": "Swaniawski, Ryan and Rutherford",
+      "ToolTip": "Sit itaque asperiores consequuntur ut quo voluptatibus.",
+      "Deleted": false,
+      "Rank": 551,
+      "Type": "necessitatibus",
+      "ColorBlock": 952,
+      "IconHint": "temporibus",
+      "Selected": false,
+      "LastChanged": "2015-06-05T17:37:40.334505+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "exercitationem",
-      "StyleHint": "aliquid",
+      "ExtraInfo": "dolorem",
+      "StyleHint": "cum",
       "Hidden": false,
-      "FullName": "Joshua Hermann",
+      "FullName": "Kirsten Misty Schiller II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 583
         }
       }
     }
@@ -147,8 +147,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldType": "System.String",
+      "FieldLength": 205
     }
   }
 }

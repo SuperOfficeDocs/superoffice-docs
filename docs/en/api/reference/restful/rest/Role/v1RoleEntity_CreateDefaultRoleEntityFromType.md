@@ -41,7 +41,7 @@ The role type cannot be changed after the entity is created.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -49,7 +49,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RoleEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,11 +61,11 @@ Response body:
 | Rank | int32 | Sorting rank of this role in lists |
 | Created | date-time | Registered when  in UTC. |
 | UseCategories | int32 | Apply role category membership to users |
-| CreatedBy |  | Created by user |
+| CreatedBy | Associate | Created by user |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Last updated by user |
-| DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight |  |  |
+| UpdatedBy | Associate | Last updated by user |
+| DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body:
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,16 +84,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 885,
-  "Name": "Doyle Group",
-  "Tooltip": "cupiditate",
+  "RoleId": 119,
+  "Name": "Beahan, Braun and Pollich",
+  "Tooltip": "enim",
   "RoleType": "Anonymous",
-  "Deleted": 807,
-  "Rank": 507,
-  "Created": "2014-09-14T02:49:51.4015667+02:00",
-  "UseCategories": 285,
+  "Deleted": 874,
+  "Rank": 8,
+  "Created": "2006-09-24T17:37:39.064304+02:00",
+  "UseCategories": 150,
   "CreatedBy": null,
-  "Updated": "2011-02-27T02:49:51.4015667+01:00",
+  "Updated": "2002-05-31T17:37:39.064304+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldLength": 817
     }
   }
 }

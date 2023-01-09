@@ -25,7 +25,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=381
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=389
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,categ
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentTemplateEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +81,7 @@ Response body:
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -100,37 +100,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 822,
-  "Name": "Weissnat Group",
-  "Tooltip": "nulla",
-  "SaveInDb": 642,
-  "Filename": "minus",
-  "DefaultOref": "consequatur",
+  "DocumentTemplateId": 936,
+  "Name": "Eichmann Group",
+  "Tooltip": "odit",
+  "SaveInDb": 27,
+  "Filename": "voluptatem",
+  "DefaultOref": "molestiae",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 612,
-  "IntentId": 425,
-  "IsDefaultPublished": false,
-  "Rank": 160,
-  "LoadTemplateFromPlugin": 47,
-  "MimeType": "eos",
+  "AutoeventId": 800,
+  "IntentId": 724,
+  "IsDefaultPublished": true,
+  "Rank": 76,
+  "LoadTemplateFromPlugin": 234,
+  "MimeType": "aliquam",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 144,
+  "DocumentTypeKey": 110,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "anissa@heidenreich.biz",
+  "EmailSubject": "rodolfo.kautzer@kleindaugherty.ca",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "meagan@kertzmann.uk",
+  "SenderEmailAddress": "darlene@mitchell.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldLength": 793
     }
   }
 }

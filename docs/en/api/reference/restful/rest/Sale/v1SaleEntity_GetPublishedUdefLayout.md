@@ -32,7 +32,7 @@ Currently published SaleEntity user-defined field layout.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +78,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 272,
-    "ColumnId": 508,
-    "FieldDefault": "voluptates",
-    "FieldHeight": 503,
-    "FieldLabel": "ad",
-    "FieldLeft": 400,
-    "FieldTop": 931,
+    "UDefFieldId": 831,
+    "ColumnId": 717,
+    "FieldDefault": "id",
+    "FieldHeight": 598,
+    "FieldLabel": "aut",
+    "FieldLeft": 372,
+    "FieldTop": 420,
     "FieldType": "Checkbox",
-    "FieldWidth": 465,
-    "FormatMask": "ea",
+    "FieldWidth": 961,
+    "FormatMask": "iure",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 944,
-    "LabelLeft": 1001,
-    "LabelTop": 51,
-    "LabelWidth": 975,
-    "LastVersionId": 132,
-    "ListTableId": 160,
-    "IsMandatory": true,
+    "LabelHeight": 480,
+    "LabelLeft": 625,
+    "LabelTop": 617,
+    "LabelWidth": 426,
+    "LastVersionId": 504,
+    "ListTableId": 704,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 525,
-    "ProgId": "officiis",
-    "IsReadOnly": false,
-    "ShortLabel": "error",
-    "TabOrder": 888,
-    "TextLength": 193,
-    "Tooltip": "saepe",
-    "UdefIdentity": 780,
-    "UDListDefinitionId": 25,
+    "Page1LineNo": 80,
+    "ProgId": "iusto",
+    "IsReadOnly": true,
+    "ShortLabel": "dolores",
+    "TabOrder": 11,
+    "TextLength": 367,
+    "Tooltip": "voluptatibus",
+    "UdefIdentity": 186,
+    "UDListDefinitionId": 627,
     "Justification": "Center",
-    "Version": 945,
-    "TemplateVariableName": "Sporer-Kiehn",
-    "HasBeenPublished": true,
-    "MdoListName": "Gerlach Inc and Sons",
+    "Version": 706,
+    "TemplateVariableName": "Runolfsdottir-Berge",
+    "HasBeenPublished": false,
+    "MdoListName": "Senger Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 264
+        "FieldType": "System.String",
+        "FieldLength": 251
       }
     }
   }

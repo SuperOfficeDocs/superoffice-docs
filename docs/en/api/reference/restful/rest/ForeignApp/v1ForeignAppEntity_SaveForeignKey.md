@@ -38,23 +38,22 @@ Saves a key belonging to the ForeignApp and ForeignDevice specified.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: foreignKey  
+## Request Body: foreignKey 
 
 Foreign key to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Key | string | Subkey (optional) |
-| Value | string | Key value |
-| RecordId | int32 | Record in the referenced table |
-| CreatedDate | date-time | Registered when  in UTC. |
-| UpdatedDate | date-time | Last updated when  in UTC. |
-| UpdatedBy | string | Name of the person that last updated the foreign key |
-| CreatedBy | string | Name of the person that created the foreign key |
-| TableName | string | Table name, transformed to and from numeric table id by the service layer |
+| Key | String | Subkey (optional) |
+| Value | String | Key value |
+| RecordId | Integer | Record in the referenced table |
+| CreatedDate | String | Registered when  in UTC. |
+| UpdatedDate | String | Last updated when  in UTC. |
+| UpdatedBy | String | Name of the person that last updated the foreign key |
+| CreatedBy | String | Name of the person that created the foreign key |
+| TableName | String | Table name, transformed to and from numeric table id by the service layer |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,18 +82,18 @@ Response body:
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "rerum",
-  "Value": "omnis",
-  "RecordId": 963,
-  "CreatedDate": "2004-11-25T02:49:50.9952888+01:00",
-  "UpdatedDate": "2003-08-27T02:49:50.9952888+02:00",
-  "UpdatedBy": "nihil",
-  "CreatedBy": "excepturi",
-  "TableName": "Morar-Harris"
+  "Key": "dolor",
+  "Value": "dignissimos",
+  "RecordId": 987,
+  "CreatedDate": "2016-03-31T17:37:38.8208594+02:00",
+  "UpdatedDate": "1996-04-26T17:37:38.8208594+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "reiciendis",
+  "TableName": "Effertz Inc and Sons"
 }
 ```
 
@@ -105,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sed",
-  "Value": "voluptatem",
-  "RecordId": 910,
-  "CreatedDate": "2002-06-27T02:49:50.9952888+02:00",
-  "UpdatedDate": "2012-09-08T02:49:50.9952888+02:00",
-  "UpdatedBy": "voluptatem",
-  "CreatedBy": "a",
-  "TableName": "McDermott Inc and Sons",
+  "Key": "quaerat",
+  "Value": "aliquid",
+  "RecordId": 953,
+  "CreatedDate": "2005-09-06T17:37:38.8208594+02:00",
+  "UpdatedDate": "2022-08-16T17:37:38.8208594+02:00",
+  "UpdatedBy": "at",
+  "CreatedBy": "quia",
+  "TableName": "Turner Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 65
     }
   }
 }

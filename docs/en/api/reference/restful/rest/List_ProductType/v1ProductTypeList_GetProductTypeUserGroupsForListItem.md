@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Emard Group",
-    "ToolTip": "Dolorem accusantium quaerat laudantium distinctio velit.",
+    "Id": 295,
+    "Name": "Huel Inc and Sons",
+    "ToolTip": "Temporibus ut similique.",
     "Deleted": false,
-    "Rank": 16,
-    "Type": "ducimus",
-    "ColorBlock": 953,
-    "IconHint": "perferendis",
-    "Selected": true,
-    "LastChanged": "2004-12-12T02:49:52.3753234+01:00",
+    "Rank": 641,
+    "Type": "vel",
+    "ColorBlock": 166,
+    "IconHint": "iure",
+    "Selected": false,
+    "LastChanged": "2016-09-13T17:37:40.1804851+02:00",
     "ChildItems": [
       {
-        "Id": 123,
-        "Name": "Stanton LLC",
-        "ToolTip": "Consequatur in consequuntur.",
+        "Id": 36,
+        "Name": "Okuneva, Cartwright and DuBuque",
+        "ToolTip": "Et sunt.",
         "Deleted": true,
-        "Rank": 426,
-        "Type": "et",
-        "ColorBlock": 886,
-        "IconHint": "voluptatem",
+        "Rank": 411,
+        "Type": "quae",
+        "ColorBlock": 147,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1995-07-27T02:49:52.3753234+02:00",
+        "LastChanged": "1998-01-28T17:37:40.1804851+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "ducimus",
-        "Hidden": true,
-        "FullName": "Agustina Renner DDS",
+        "ExtraInfo": "eaque",
+        "StyleHint": "at",
+        "Hidden": false,
+        "FullName": "Mrs. Sarah Michelle Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 356
+            "FieldType": "System.Int32",
+            "FieldLength": 372
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "harum",
-    "Hidden": false,
-    "FullName": "Miss Mariana Pouros PhD",
+    "ExtraInfo": "odit",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Peter Michaela Schamberger IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldType": "System.String",
+        "FieldLength": 165
       }
     }
   }

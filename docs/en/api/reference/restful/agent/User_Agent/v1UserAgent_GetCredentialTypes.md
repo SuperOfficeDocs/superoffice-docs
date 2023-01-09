@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetCredentialTypes
 Get available credential types that can be used for authentication
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,7 +44,7 @@ POST /api/v1/Agents/User/GetCredentialTypes?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -54,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +62,7 @@ Response body: array
 | ValueControl | string | Type of control used to display the value. |
 | CanCreatePerson | bool |  |
 | IsUserNameSupported | bool |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,9 +82,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "ullam",
-    "Type": "in",
-    "Description": "Multi-lateral bottom-line hub",
+    "DisplayType": "non",
+    "Type": "aut",
+    "Description": "Extended even-keeled framework",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
     "IsUserNameSupported": false,
@@ -94,8 +92,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 72
+        "FieldType": "System.Int32",
+        "FieldLength": 788
       }
     }
   }

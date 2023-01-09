@@ -44,18 +44,17 @@ POST /api/v1/Agents/Document/GetSanitizedTemplateStream?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TemplateName, AllowPersonal, UiCulture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TemplateName | string |  |
-| AllowPersonal | bool |  |
-| UiCulture | string |  |
+| TemplateName | String |  |
+| AllowPersonal | Boolean |  |
+| UiCulture | String |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -76,9 +75,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Crist, Hartmann and Olson",
+  "TemplateName": "Ledner LLC",
   "AllowPersonal": false,
-  "UiCulture": "corporis"
+  "UiCulture": "placeat"
 }
 ```
 

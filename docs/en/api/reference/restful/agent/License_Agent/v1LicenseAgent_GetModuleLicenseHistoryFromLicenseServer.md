@@ -42,17 +42,16 @@ POST /api/v1/Agents/License/GetModuleLicenseHistoryFromLicenseServer?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 LicenseInfo, ModuleLicense 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| LicenseInfo |  |  |
-| ModuleLicense |  |  |
+| LicenseInfo | TableRight |  |
+| ModuleLicense | TableRight |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -84,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"adipisci"
+"voluptatibus"
 ```

@@ -48,7 +48,7 @@ GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 946,
-    "Name": "Pfeffer-Bauch",
-    "ToolTip": "Et et tempore ut atque voluptatum.",
-    "Deleted": true,
-    "Rank": 545,
-    "Type": "ut",
-    "ColorBlock": 858,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "1998-05-05T02:49:52.2815666+02:00",
+    "Id": 787,
+    "Name": "Wehner LLC",
+    "ToolTip": "Vel dolorem officiis molestias.",
+    "Deleted": false,
+    "Rank": 493,
+    "Type": "odit",
+    "ColorBlock": 209,
+    "IconHint": "debitis",
+    "Selected": true,
+    "LastChanged": "2000-12-03T17:37:40.0615078+01:00",
     "ChildItems": [
       {
-        "Id": 36,
-        "Name": "Gislason, Kertzmann and Hamill",
-        "ToolTip": "Nesciunt impedit blanditiis illo.",
+        "Id": 793,
+        "Name": "Weissnat-Harvey",
+        "ToolTip": "Natus similique iure exercitationem magni eligendi.",
         "Deleted": false,
-        "Rank": 701,
-        "Type": "ducimus",
-        "ColorBlock": 672,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "2003-11-08T02:49:52.2815666+01:00",
+        "Rank": 7,
+        "Type": "distinctio",
+        "ColorBlock": 21,
+        "IconHint": "ducimus",
+        "Selected": true,
+        "LastChanged": "2005-09-24T17:37:40.0615078+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "fugit",
-        "Hidden": false,
-        "FullName": "Ms. Emmett Katrina Kilback",
+        "ExtraInfo": "ut",
+        "StyleHint": "totam",
+        "Hidden": true,
+        "FullName": "Frederick Schulist III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 624
+            "FieldType": "System.String",
+            "FieldLength": 470
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ut",
+    "ExtraInfo": "totam",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Dr. Felipa Hintz",
+    "FullName": "Prof. Donavon Mathew Dare",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldLength": 831
       }
     }
   }

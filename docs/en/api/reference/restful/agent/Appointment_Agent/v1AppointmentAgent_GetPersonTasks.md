@@ -44,17 +44,16 @@ POST /api/v1/Agents/Appointment/GetPersonTasks?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| Count | int32 |  |
+| PersonId | Integer |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -115,7 +114,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -124,12 +123,12 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 542,
-  "Count": 585
+  "PersonId": 120,
+  "Count": 661
 }
 ```
 
@@ -141,53 +140,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 730,
-    "StartDate": "2021-01-23T02:49:43.5129081+01:00",
-    "EndDate": "2000-09-08T02:49:43.5129081+02:00",
+    "AppointmentId": 532,
+    "StartDate": "2009-05-02T17:37:16.5942442+02:00",
+    "EndDate": "2020-02-02T17:37:16.5942442+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Johanna Kreiger",
-    "ContactName": "Hauck LLC",
-    "Description": "Optimized uniform customer loyalty",
-    "PersonFullName": "Miss Micaela Norma Price Sr.",
-    "PersonId": 293,
-    "ContactId": 611,
-    "ProjectId": 773,
-    "ProjectName": "Hettinger Inc and Sons",
+    "Task": "ut",
+    "AssociateFullName": "Murphy Bayer",
+    "ContactName": "Orn Inc and Sons",
+    "Description": "Enterprise-wide didactic methodology",
+    "PersonFullName": "Fanny Darrin Schumm V",
+    "PersonId": 72,
+    "ContactId": 501,
+    "ProjectId": 679,
+    "ProjectName": "Eichmann-Murazik",
     "IsPublished": false,
-    "AssociateId": 651,
-    "ColorIndex": 182,
+    "AssociateId": 609,
+    "ColorIndex": 566,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 998,
-    "PriorityName": "Ondricka Inc and Sons",
+    "PriorityId": 599,
+    "PriorityName": "Glover-Krajcik",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2009-11-28T02:49:43.5129081+01:00",
+    "ActiveDate": "1997-10-12T17:37:16.5952448+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-07-12T02:49:43.5129081+02:00",
-    "RecurringEndDate": "2020-01-01T02:49:43.5129081+01:00",
-    "MotherId": 941,
-    "AssignedBy": 326,
-    "AssignedByFullName": "Prof. Larissa Kemmer",
+    "RecurringStartDate": "2014-03-18T17:37:16.5952448+01:00",
+    "RecurringEndDate": "2016-05-13T17:37:16.5952448+02:00",
+    "MotherId": 882,
+    "AssignedBy": 624,
+    "AssignedByFullName": "Eden Bayer",
     "RejectReason": "",
-    "Location": "qui",
-    "AlarmLeadTime": "minima",
-    "SaleId": 910,
-    "SaleName": "DuBuque LLC",
-    "AssociateName": "Runte Group",
-    "CreatedDate": "2009-09-26T02:49:43.5129081+02:00",
-    "CreatedBy": "non",
-    "CreatedByFullName": "Taryn Walter",
-    "CreatedByAssociateId": 794,
+    "Location": "corporis",
+    "AlarmLeadTime": "placeat",
+    "SaleId": 256,
+    "SaleName": "Schmitt-Kutch",
+    "AssociateName": "Pouros Group",
+    "CreatedDate": "2020-09-09T17:37:16.5952448+02:00",
+    "CreatedBy": "voluptas",
+    "CreatedByFullName": "Cullen Block",
+    "CreatedByAssociateId": 544,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -195,7 +194,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldLength": 561
       }
     }
   }

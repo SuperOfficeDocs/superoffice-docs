@@ -42,16 +42,15 @@ POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TaskName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TaskName | string |  |
+| TaskName | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +83,7 @@ Response body: array
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,7 +96,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Weimann, Kassulke and Kuhic"
+  "TaskName": "O'Connell Group"
 }
 ```
 
@@ -109,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 159,
-    "Name": "Wilderman Group",
-    "AssociateId": 959,
-    "DetailsTable": 583,
-    "DetailsRecord": 902,
+    "Id": 173,
+    "Name": "Nicolas Inc and Sons",
+    "AssociateId": 470,
+    "DetailsTable": 692,
+    "DetailsRecord": 33,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "et"
+      "ParameterObject1": "eum",
+      "ParameterObject2": "ut"
     },
-    "LastStarted": "2021-07-24T02:49:43.7004017+02:00",
-    "Created": "2014-09-08T02:49:43.7004017+02:00",
-    "StartCount": 164,
-    "DatabaseSerialNumber": "857087",
-    "Context": "voluptas",
-    "Result": "laudantium",
+    "LastStarted": "2002-10-28T17:37:16.9052417+01:00",
+    "Created": "2018-03-07T17:37:16.9052417+01:00",
+    "StartCount": 383,
+    "DatabaseSerialNumber": "1633458",
+    "Context": "voluptatibus",
+    "Result": "esse",
     "State": "All",
-    "Description": "Visionary impactful concept",
-    "Response": "aut",
-    "Request": "assumenda",
-    "ProgressDescription": "Ergonomic client-server initiative",
-    "ProgressPercent": 91,
-    "FileName": "Hoeger-Langosh",
+    "Description": "Inverse context-sensitive Graphical User Interface",
+    "Response": "iste",
+    "Request": "omnis",
+    "ProgressDescription": "Ameliorated motivating capability",
+    "ProgressPercent": 796,
+    "FileName": "Paucek LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldType": "System.String",
+        "FieldLength": 118
       }
     }
   }

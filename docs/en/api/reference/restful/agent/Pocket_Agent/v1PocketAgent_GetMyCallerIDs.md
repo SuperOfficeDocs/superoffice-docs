@@ -42,18 +42,17 @@ POST /api/v1/Agents/Pocket/GetMyCallerIDs?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 LastHash, MinDate, MaxDate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| LastHash | string |  |
-| MinDate | date-time |  |
-| MaxDate | date-time |  |
+| LastHash | String |  |
+| MinDate | String |  |
+| MaxDate | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CallerIDCollection
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,13 +73,13 @@ Response body:
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "voluptatibus",
-  "MinDate": "2001-11-18T02:49:44.9059621+01:00",
-  "MaxDate": "2019-10-12T02:49:44.9059621+02:00"
+  "LastHash": "ex",
+  "MinDate": "1997-06-25T17:37:18.5662419+02:00",
+  "MaxDate": "2014-03-15T17:37:18.5662419+01:00"
 }
 ```
 
@@ -91,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "officia",
+  "CallerIDHash": "soluta",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 382,
-      "PersonId": 305,
-      "PersonName": "Murray LLC",
-      "Mrmrs": "natus",
-      "ContactId": 38,
-      "ContactName": "White, Weissnat and Hilll"
+      "DialInPrefix": 401,
+      "PersonId": 910,
+      "PersonName": "Abernathy, Walsh and Nitzsche",
+      "Mrmrs": "animi",
+      "ContactId": 938,
+      "ContactName": "Mann Inc and Sons"
     }
   ]
 }

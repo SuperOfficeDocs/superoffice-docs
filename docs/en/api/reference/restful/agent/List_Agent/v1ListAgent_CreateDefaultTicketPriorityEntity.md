@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketPriorityEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +74,7 @@ Response body:
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +83,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 902,
-  "Name": "Halvorson-Beatty",
+  "TicketPriorityId": 243,
+  "Name": "Moen, Kunde and Vandervort",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 250,
+  "SortOrder": 488,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 995,
-  "MonStart": "2008-09-06T02:49:44.6860468+02:00",
-  "MonStop": "2010-05-14T02:49:44.6860468+02:00",
-  "TueStart": "1995-12-25T02:49:44.6860468+01:00",
-  "TueStop": "2008-08-03T02:49:44.6860468+02:00",
-  "WedStart": "2017-01-21T02:49:44.6860468+01:00",
-  "WedStop": "1999-01-28T02:49:44.6860468+01:00",
-  "ThuStart": "2002-10-04T02:49:44.6860468+02:00",
-  "ThuStop": "2021-01-31T02:49:44.6860468+01:00",
-  "FriStart": "2011-07-08T02:49:44.6860468+02:00",
-  "FriStop": "2007-06-13T02:49:44.6860468+02:00",
-  "SatStart": "2015-07-13T02:49:44.6860468+02:00",
-  "SatStop": "2012-03-18T02:49:44.6860468+01:00",
-  "SunStart": "2018-03-12T02:49:44.6860468+01:00",
-  "SunStop": "2011-10-18T02:49:44.6860468+02:00",
+  "Deadline": 982,
+  "MonStart": "2012-12-24T17:37:18.2932417+01:00",
+  "MonStop": "2000-07-03T17:37:18.2932417+02:00",
+  "TueStart": "2003-03-07T17:37:18.2932417+01:00",
+  "TueStop": "2003-03-15T17:37:18.2932417+01:00",
+  "WedStart": "2016-01-30T17:37:18.2932417+01:00",
+  "WedStop": "2018-02-12T17:37:18.2932417+01:00",
+  "ThuStart": "2015-10-03T17:37:18.2932417+02:00",
+  "ThuStop": "2006-04-24T17:37:18.2932417+02:00",
+  "FriStart": "2014-11-27T17:37:18.2932417+01:00",
+  "FriStop": "2006-08-06T17:37:18.2932417+02:00",
+  "SatStart": "1995-12-28T17:37:18.2932417+01:00",
+  "SatStop": "2002-12-03T17:37:18.2932417+01:00",
+  "SunStart": "2008-01-28T17:37:18.2932417+01:00",
+  "SunStop": "2007-12-26T17:37:18.2932417+01:00",
   "NonDates": [
-    "ullam",
-    "repellat"
+    "numquam",
+    "laboriosam"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 539,
-      "AlertLevel": 919,
-      "AlertTimeout": 191,
-      "Action": 30,
-      "DelegateTo": 230,
-      "ScriptId": 258,
-      "EmailTo": "ricardo.kozey@prohaska.biz",
-      "SmsTo": "esse",
-      "ReplyTemplateIdCustomer": 583,
-      "ReplyTemplateIdUser": 286,
-      "ReplyTemplateIdCatmast": 705,
-      "ReplyTemplateIdEmail": 362,
-      "RtiCustomerSms": 251,
-      "ReplyTemplateIdUserSms": 882,
-      "ReplyTemplateIdCatmastSms": 153,
-      "ReplyTemplateIdSms": 109,
+      "TicketAlertId": 857,
+      "AlertLevel": 414,
+      "AlertTimeout": 127,
+      "Action": 199,
+      "DelegateTo": 258,
+      "ScriptId": 217,
+      "EmailTo": "emely@gorczany.co.uk",
+      "SmsTo": "quia",
+      "ReplyTemplateIdCustomer": 997,
+      "ReplyTemplateIdUser": 935,
+      "ReplyTemplateIdCatmast": 83,
+      "ReplyTemplateIdEmail": 411,
+      "RtiCustomerSms": 47,
+      "ReplyTemplateIdUserSms": 736,
+      "ReplyTemplateIdCatmastSms": 529,
+      "ReplyTemplateIdSms": 415,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 775
+          "FieldLength": 233
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldType": "System.String",
+      "FieldLength": 453
     }
   }
 }

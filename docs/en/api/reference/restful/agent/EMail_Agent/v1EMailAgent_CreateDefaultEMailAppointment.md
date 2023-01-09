@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,11 +45,11 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailAppointment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Appointment |  | Appointment information |
+| Appointment | Appointment | Appointment information |
 | CalMethod | string | Method field stored in ICS file. |
 | Participants | array | List of participants in the iCal file - first one being the organizer |
 | Comment | string | Comment attached to the calendar event (accept / reject reason etc.) |
@@ -57,7 +57,7 @@ Response body:
 | DtStart | date-time | Start date/time in ICS file. |
 | DtEnd | date-time | End date/time in ICS file. |
 | Superseded | bool | A newer invitation exists |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -66,7 +66,7 @@ Response body:
 POST /api/v1/Agents/EMail/CreateDefaultEMailAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "consequatur",
-    "quis"
+    "error",
+    "nisi"
   ],
-  "Comment": "libero",
-  "Sequence": 263,
-  "DtStart": "2002-03-04T02:49:44.403542+01:00",
-  "DtEnd": "2006-11-27T02:49:44.403542+01:00",
-  "Superseded": true,
+  "Comment": "fugiat",
+  "Sequence": 900,
+  "DtStart": "1996-03-03T17:37:17.9122416+01:00",
+  "DtEnd": "1997-06-25T17:37:17.9122416+02:00",
+  "Superseded": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 443
+      "FieldType": "System.Int32",
+      "FieldLength": 603
     }
   }
 }

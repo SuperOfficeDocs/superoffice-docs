@@ -44,20 +44,19 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, StartTime, EndTime, Count, TaskId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TaskId | int32 |  |
+| PersonId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TaskId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -127,15 +126,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 700,
-  "StartTime": "2017-06-08T02:49:43.2148724+02:00",
-  "EndTime": "2021-11-12T02:49:43.2148724+01:00",
-  "Count": 592,
-  "TaskId": 240
+  "PersonId": 617,
+  "StartTime": "2016-01-31T17:37:16.2342424+01:00",
+  "EndTime": "1996-11-28T17:37:16.2342424+01:00",
+  "Count": 942,
+  "TaskId": 887
 }
 ```
 
@@ -147,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 6,
-    "StartDate": "2020-06-08T02:49:43.2304992+02:00",
-    "EndDate": "2003-02-19T02:49:43.2304992+01:00",
+    "AppointmentId": 620,
+    "StartDate": "2014-04-22T17:37:16.2352425+02:00",
+    "EndDate": "2000-01-11T17:37:16.2352425+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quisquam",
-    "AssociateFullName": "Terry Schaden",
-    "ContactName": "Kemmer-Champlin",
-    "Description": "Cross-group leading edge challenge",
-    "PersonFullName": "Willy Hamill",
-    "PersonId": 308,
-    "ContactId": 251,
-    "ProjectId": 269,
-    "ProjectName": "Corkery-Lind",
+    "Task": "non",
+    "AssociateFullName": "Dr. Henriette Durgan I",
+    "ContactName": "Osinski Inc and Sons",
+    "Description": "Self-enabling full-range success",
+    "PersonFullName": "Ellie Lueilwitz PhD",
+    "PersonId": 767,
+    "ContactId": 704,
+    "ProjectId": 541,
+    "ProjectName": "Koelpin-Ziemann",
     "IsPublished": false,
-    "AssociateId": 378,
-    "ColorIndex": 124,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 743,
+    "ColorIndex": 861,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 401,
-    "PriorityName": "Hickle Inc and Sons",
+    "PriorityId": 781,
+    "PriorityName": "Crist-Funk",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2010-05-19T02:49:43.2304992+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2002-02-18T17:37:16.2352425+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-06-17T02:49:43.2304992+02:00",
-    "RecurringEndDate": "2022-06-04T02:49:43.2304992+02:00",
-    "MotherId": 552,
-    "AssignedBy": 895,
-    "AssignedByFullName": "Marta Walter",
+    "RecurringStartDate": "2007-03-22T17:37:16.2352425+01:00",
+    "RecurringEndDate": "2010-03-05T17:37:16.2352425+01:00",
+    "MotherId": 416,
+    "AssignedBy": 865,
+    "AssignedByFullName": "Ernestine Brown IV",
     "RejectReason": "",
-    "Location": "natus",
-    "AlarmLeadTime": "tempora",
-    "SaleId": 431,
-    "SaleName": "Feeney Inc and Sons",
-    "AssociateName": "Grant, Vandervort and VonRueden",
-    "CreatedDate": "2006-01-19T02:49:43.2304992+01:00",
-    "CreatedBy": "est",
-    "CreatedByFullName": "Angeline Bruen",
-    "CreatedByAssociateId": 659,
+    "Location": "consequatur",
+    "AlarmLeadTime": "minus",
+    "SaleId": 213,
+    "SaleName": "Armstrong Group",
+    "AssociateName": "Lesch Inc and Sons",
+    "CreatedDate": "1998-02-19T17:37:16.2362421+01:00",
+    "CreatedBy": "iste",
+    "CreatedByFullName": "Ms. Adelbert Donnie Bartell",
+    "CreatedByAssociateId": 521,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldType": "System.Int32",
+        "FieldLength": 727
       }
     }
   }

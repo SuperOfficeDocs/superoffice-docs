@@ -44,18 +44,17 @@ POST /api/v1/Agents/Appointment/GetMyDiary?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -116,7 +115,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -125,13 +124,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMyDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2009-12-27T02:49:43.4972799+01:00",
-  "EndTime": "1999-09-19T02:49:43.4972799+02:00",
-  "Count": 368
+  "StartTime": "2016-07-03T17:37:16.5832441+02:00",
+  "EndTime": "2010-07-13T17:37:16.5832441+02:00",
+  "Count": 235
 }
 ```
 
@@ -143,53 +142,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 966,
-    "StartDate": "1996-02-26T02:49:43.4972799+01:00",
-    "EndDate": "2019-10-01T02:49:43.4972799+02:00",
+    "AppointmentId": 185,
+    "StartDate": "2006-01-20T17:37:16.5842448+01:00",
+    "EndDate": "2003-08-16T17:37:16.5842448+02:00",
     "Type": "BookingForChecklist",
-    "Task": "qui",
-    "AssociateFullName": "Hiram Mertz",
-    "ContactName": "Tromp-Brakus",
-    "Description": "Cloned static open architecture",
-    "PersonFullName": "Dr. Marvin Helga Leffler",
-    "PersonId": 447,
-    "ContactId": 446,
-    "ProjectId": 789,
-    "ProjectName": "Stehr Group",
+    "Task": "aut",
+    "AssociateFullName": "Osbaldo Cormier IV",
+    "ContactName": "Kutch, Pfeffer and Kuphal",
+    "Description": "Synergized hybrid local area network",
+    "PersonFullName": "Nadia Adams",
+    "PersonId": 274,
+    "ContactId": 852,
+    "ProjectId": 669,
+    "ProjectName": "Blanda, Bradtke and Mohr",
     "IsPublished": false,
-    "AssociateId": 332,
-    "ColorIndex": 188,
-    "IsFree": true,
+    "AssociateId": 522,
+    "ColorIndex": 560,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 178,
-    "PriorityName": "Heidenreich Inc and Sons",
+    "PriorityId": 676,
+    "PriorityName": "Jast, Lesch and Johns",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2022-02-17T02:49:43.4972799+01:00",
+    "ActiveDate": "2017-09-14T17:37:16.5852442+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1996-06-04T02:49:43.4972799+02:00",
-    "RecurringEndDate": "1997-04-09T02:49:43.4972799+02:00",
-    "MotherId": 41,
-    "AssignedBy": 54,
-    "AssignedByFullName": "Mrs. Thurman Dandre Cronin I",
+    "RecurringStartDate": "2002-06-01T17:37:16.5852442+02:00",
+    "RecurringEndDate": "2009-06-02T17:37:16.5852442+02:00",
+    "MotherId": 848,
+    "AssignedBy": 734,
+    "AssignedByFullName": "Connie Blick",
     "RejectReason": "",
-    "Location": "ipsa",
-    "AlarmLeadTime": "quae",
-    "SaleId": 995,
-    "SaleName": "Jacobs-Schuppe",
-    "AssociateName": "Stroman-Fisher",
-    "CreatedDate": "2019-11-07T02:49:43.4972799+01:00",
-    "CreatedBy": "dicta",
-    "CreatedByFullName": "Miss Estell Lera Reilly IV",
-    "CreatedByAssociateId": 587,
+    "Location": "tempore",
+    "AlarmLeadTime": "cupiditate",
+    "SaleId": 554,
+    "SaleName": "Auer LLC",
+    "AssociateName": "Fahey, Erdman and Bailey",
+    "CreatedDate": "2009-11-15T17:37:16.5852442+01:00",
+    "CreatedBy": "porro",
+    "CreatedByFullName": "Trey Hintz",
+    "CreatedByAssociateId": 985,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -197,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldLength": 557
       }
     }
   }

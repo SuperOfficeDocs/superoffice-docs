@@ -42,16 +42,15 @@ POST /api/v1/Agents/Ticket/Html2Text?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Content 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Content | string |  |
+| Content | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -68,11 +67,11 @@ Response body: string
 POST /api/v1/Agents/Ticket/Html2Text
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Content": "nisi"
+  "Content": "et"
 }
 ```
 
@@ -82,5 +81,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"autem"
+"rem"
 ```

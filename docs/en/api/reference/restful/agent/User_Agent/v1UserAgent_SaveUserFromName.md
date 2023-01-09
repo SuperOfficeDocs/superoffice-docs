@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/SaveUserFromName
 Save a user, with lookup based on the user name.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/User/SaveUserFromName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UserName, User 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UserName | string |  |
-| User |  | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| UserName | String |  |
+| User | User | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: User
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,10 +70,10 @@ Response body:
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
 | OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -93,7 +90,7 @@ Response body:
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,11 +99,11 @@ Response body:
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Mraz-Stiedemann",
+  "UserName": "Mosciski LLC",
   "User": null
 }
 ```
@@ -118,14 +115,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 60,
-  "Name": "Leuschke-Lemke",
-  "Rank": 748,
-  "Tooltip": "est",
+  "AssociateId": 496,
+  "Name": "Bins-Rodriguez",
+  "Rank": 223,
+  "Tooltip": "repellendus",
   "LicenseOwners": [
     {
-      "Name": "Kshlerin-Denesik",
-      "Description": "Focused actuating complexity",
+      "Name": "Carter Inc and Sons",
+      "Description": "Open-source intangible neural-net",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -139,13 +136,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 926
         }
       }
     },
     {
-      "Name": "Kshlerin-Denesik",
-      "Description": "Focused actuating complexity",
+      "Name": "Carter Inc and Sons",
+      "Description": "Open-source intangible neural-net",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -159,7 +156,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 926
         }
       }
     }
@@ -168,110 +165,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "nostrum",
-      "Tooltip": "quam",
-      "Id": 945,
-      "Rank": 916,
-      "Deleted": false,
+      "Value": "eaque",
+      "Tooltip": "architecto",
+      "Id": 277,
+      "Rank": 259,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldLength": 393
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2001-10-01T02:49:45.6715962+02:00",
-  "Lastlogout": "1996-06-05T02:49:45.6715962+02:00",
-  "EjUserId": 318,
-  "RequestSignature": "nisi",
+  "Lastlogin": "2005-07-30T17:37:19.5809766+02:00",
+  "Lastlogout": "2003-04-05T17:37:19.5809766+02:00",
+  "EjUserId": 716,
+  "RequestSignature": "reprehenderit",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "in",
-      "DisplayValue": "nobis",
+      "Value": "aut",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 953
+          "FieldLength": 784
         }
       }
     },
     {
       "Type": null,
-      "Value": "in",
-      "DisplayValue": "nobis",
+      "Value": "aut",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 953
+          "FieldLength": 784
         }
       }
     }
   ],
-  "UserName": "Yost Inc and Sons",
+  "UserName": "D'Amore, Gibson and Kertzmann",
   "TicketCategories": [
     {
-      "Id": 27,
-      "Name": "Hettinger LLC",
-      "ToolTip": "Nemo animi.",
+      "Id": 123,
+      "Name": "Baumbach Group",
+      "ToolTip": "Minima fugit ea maiores veniam repellat distinctio.",
       "Deleted": false,
-      "Rank": 348,
-      "Type": "est",
+      "Rank": 578,
+      "Type": "corrupti",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "architecto",
-      "ColorBlock": 120,
-      "ExtraInfo": "quis",
-      "StyleHint": "distinctio",
-      "FullName": "Prof. Korey Gus Spinka",
+      "IconHint": "dolorum",
+      "ColorBlock": 870,
+      "ExtraInfo": "quod",
+      "StyleHint": "impedit",
+      "FullName": "Xavier Nolan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldLength": 409
         }
       }
     }
   ],
-  "NickName": "McKenzie, McCullough and Koepp",
-  "WaitingForApproval": true,
+  "NickName": "Parker-Purdy",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "aliquid",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "neque"
+    "CustomFields1": "nesciunt",
+    "CustomFields2": "ratione"
   },
   "PostSaveCommands": [
     {
-      "Name": "Schulist LLC",
-      "DisplayName": "Waelchi-Barton",
-      "Description": "Mandatory human-resource middleware",
-      "ToolTip": "Molestiae tempore officia veritatis qui voluptatum architecto cumque.",
+      "Name": "Hyatt Inc and Sons",
+      "DisplayName": "Ondricka, Ullrich and Price",
+      "Description": "Innovative system-worthy project",
+      "ToolTip": "Quia sit iusto.",
       "Actions": "Implicit",
-      "ActionData": "omnis",
+      "ActionData": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 726
+          "FieldType": "System.String",
+          "FieldLength": 134
         }
       }
     }
@@ -280,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldType": "System.String",
+      "FieldLength": 360
     }
   }
 }

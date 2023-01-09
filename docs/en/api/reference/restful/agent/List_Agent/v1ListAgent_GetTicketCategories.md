@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/GetTicketCategories?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,12 +67,12 @@ Response body: array
 | AssignmentLag | int32 | Number of minutes we shall override the assignment if a customer sends consecutive messages to this category |
 | ReplyTemplate | int32 | Reply template to merge with messages posted in this category |
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
-| DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
-| DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| DefaultTicketStatus | TicketStatusEntity | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
+| DefaultMessageStatus | TicketStatusEntity | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,7 +81,7 @@ Response body: array
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,36 +92,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 749,
-    "ParentId": 50,
-    "Name": "Hagenes-Swaniawski",
-    "Fullname": "et",
-    "CategoryMaster": 790,
+    "TicketCategoryId": 735,
+    "ParentId": 576,
+    "Name": "Christiansen Inc and Sons",
+    "Fullname": "nihil",
+    "CategoryMaster": 808,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Dare, Witting and Bode",
+    "ExternalName": "Cassin, Rutherford and Schoen",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 628,
-    "ReplyTemplate": 638,
-    "NotificationEmail": "gail@kemmer.co.uk",
+    "AssignmentLag": 463,
+    "ReplyTemplate": 632,
+    "NotificationEmail": "carmel@effertz.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 219,
+    "EffectiveReplyTemplateId": 606,
     "ExtraFields": {
-      "ExtraFields1": "labore",
-      "ExtraFields2": "debitis"
+      "ExtraFields1": "sunt",
+      "ExtraFields2": "exercitationem"
     },
     "CustomFields": {
-      "CustomFields1": "quidem",
-      "CustomFields2": "modi"
+      "CustomFields1": "tempore",
+      "CustomFields2": "rerum"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldLength": 378
       }
     }
   }

@@ -71,18 +71,17 @@ PATCH /api/v1/SystemEvent/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 SystemEventEntity  updated.
 
@@ -93,7 +92,7 @@ SystemEventEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because SystemEventEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: SystemEventEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -106,8 +105,8 @@ Response body:
 | Owner | int32 | 0, 0, group_id, assoc id (see over) |
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
-| ActivatedBy |  | The associate that first created the SystemEvent. |
-| TableRight |  |  |
+| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -123,12 +122,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sapiente",
+    "path": "exercitationem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sapiente",
+    "path": "exercitationem",
     "value": {}
   }
 ]
@@ -141,22 +140,22 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 821,
+  "SystemEventId": 696,
   "Scope": "Database",
-  "Eta": "2006-12-18T02:49:51.551935+01:00",
-  "Eventkey": "distinctio",
-  "Eventmess": "saepe",
-  "ExtraInfo": 452,
-  "Owner": 298,
-  "UpdatedCount": 938,
-  "Registered": "2004-09-08T02:49:51.551935+02:00",
+  "Eta": "2008-08-19T17:37:39.2363034+02:00",
+  "Eventkey": "veritatis",
+  "Eventmess": "quae",
+  "ExtraInfo": 156,
+  "Owner": 370,
+  "UpdatedCount": 638,
+  "Registered": "2007-10-24T17:37:39.2363034+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 33
+      "FieldType": "System.Int32",
+      "FieldLength": 142
     }
   },
   "_Links": {

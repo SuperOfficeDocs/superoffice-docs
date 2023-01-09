@@ -42,16 +42,15 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointments?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AppointmentIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AppointmentIds | array |  |
+| AppointmentIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -112,7 +111,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -126,8 +125,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    43,
-    136
+    998,
+    221
   ]
 }
 ```
@@ -140,61 +139,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 673,
-    "StartDate": "2012-01-06T02:49:43.2304992+01:00",
-    "EndDate": "2005-10-02T02:49:43.2304992+02:00",
+    "AppointmentId": 426,
+    "StartDate": "2013-12-06T17:37:16.2532441+01:00",
+    "EndDate": "2004-06-08T17:37:16.2532441+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatum",
-    "AssociateFullName": "Jack O'Reilly II",
-    "ContactName": "Brown Inc and Sons",
-    "Description": "Distributed contextually-based pricing structure",
-    "PersonFullName": "Miss Christine Farrell IV",
-    "PersonId": 771,
-    "ContactId": 31,
-    "ProjectId": 871,
-    "ProjectName": "Greenfelder, Monahan and Larkin",
-    "IsPublished": false,
-    "AssociateId": 85,
-    "ColorIndex": 666,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "Task": "officiis",
+    "AssociateFullName": "Zander Shields",
+    "ContactName": "Gulgowski-Waelchi",
+    "Description": "Optional fresh-thinking architecture",
+    "PersonFullName": "Reggie Blick",
+    "PersonId": 844,
+    "ContactId": 845,
+    "ProjectId": 436,
+    "ProjectName": "Kovacek Inc and Sons",
+    "IsPublished": true,
+    "AssociateId": 1000,
+    "ColorIndex": 425,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 463,
-    "PriorityName": "Glover, Fahey and Hagenes",
+    "PriorityId": 781,
+    "PriorityName": "Koepp, Collins and Gerhold",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2000-04-22T02:49:43.2461231+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2005-04-07T17:37:16.2532441+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-03-23T02:49:43.2461231+01:00",
-    "RecurringEndDate": "2013-09-14T02:49:43.2461231+02:00",
-    "MotherId": 47,
-    "AssignedBy": 919,
-    "AssignedByFullName": "Sasha Mosciski",
+    "RecurringStartDate": "2009-02-21T17:37:16.2542421+01:00",
+    "RecurringEndDate": "1999-06-28T17:37:16.2542421+02:00",
+    "MotherId": 877,
+    "AssignedBy": 754,
+    "AssignedByFullName": "Dr. Okey Jeramy Prosacco V",
     "RejectReason": "",
-    "Location": "beatae",
-    "AlarmLeadTime": "possimus",
-    "SaleId": 406,
-    "SaleName": "Romaguera, Ward and Macejkovic",
-    "AssociateName": "Blick, Hills and Goodwin",
-    "CreatedDate": "2003-03-20T02:49:43.2461231+01:00",
-    "CreatedBy": "ex",
-    "CreatedByFullName": "Mrs. Constance Krajcik",
-    "CreatedByAssociateId": 574,
+    "Location": "voluptatum",
+    "AlarmLeadTime": "ipsum",
+    "SaleId": 337,
+    "SaleName": "Beier, Batz and Green",
+    "AssociateName": "Hane, Moore and Torp",
+    "CreatedDate": "2016-09-25T17:37:16.2542421+02:00",
+    "CreatedBy": "eos",
+    "CreatedByFullName": "Dr. Christiana Jast III",
+    "CreatedByAssociateId": 44,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 471
+        "FieldType": "System.Int32",
+        "FieldLength": 35
       }
     }
   }

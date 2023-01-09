@@ -38,13 +38,6 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 
 
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,20 +63,19 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumns?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Restrictions, ProviderName, DesiredColumns, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Restrictions | array |  |
-| ProviderName | string |  |
-| DesiredColumns | array |  |
-| PageSize | int32 |  |
-| PageNumber | int32 |  |
+| Restrictions | Array |  |
+| ProviderName | String |  |
+| DesiredColumns | Array |  |
+| PageSize | Integer |  |
+| PageNumber | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -91,14 +83,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FindResults
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -107,40 +99,40 @@ Response body:
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Kulas-Turner",
-      "Operator": "magni",
+      "Name": "Considine-McDermott",
+      "Operator": "quis",
       "Values": [
-        "cupiditate",
-        "ut"
+        "odit",
+        "iure"
       ],
       "DisplayValues": [
-        "totam",
-        "voluptatem"
+        "vel",
+        "provident"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 373,
+      "InterParenthesis": 955,
       "InterOperator": "And",
-      "UniqueHash": 205
+      "UniqueHash": 937
     }
   ],
-  "ProviderName": "Macejkovic, Volkman and Rowe",
+  "ProviderName": "Goldner LLC",
   "DesiredColumns": [
-    "dolore",
-    "quis"
+    "repellat",
+    "aperiam"
   ],
-  "PageSize": 947,
-  "PageNumber": 135
+  "PageSize": 803,
+  "PageNumber": 695
 }
 ```
 
@@ -153,51 +145,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schaden Group",
-      "DisplayTooltip": "illum",
-      "DisplayType": "a",
-      "CanOrderBy": false,
-      "Name": "Aufderhar, Kling and Fritsch",
-      "CanRestrictBy": true,
-      "RestrictionType": "voluptas",
-      "RestrictionListName": "Doyle-Von",
-      "IsVisible": true,
-      "ExtraInfo": "officia",
-      "Width": "maxime",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "vel"
+      "DisplayName": "Reynolds, Friesen and Gaylord",
+      "DisplayTooltip": "dicta",
+      "DisplayType": "repudiandae",
+      "CanOrderBy": true,
+      "Name": "Friesen-McGlynn",
+      "CanRestrictBy": false,
+      "RestrictionType": "quas",
+      "RestrictionListName": "McKenzie Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "doloremque",
+      "Width": "qui",
+      "IconHint": "architecto",
+      "HeadingIconHint": "odit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schmitt Group",
-      "PrimaryKey": 902,
+      "EntityName": "Lang Inc and Sons",
+      "PrimaryKey": 309,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "laborum",
-          "TooltipHint": "quasi",
-          "LinkHint": "quisquam"
+          "DisplayValue": "beatae",
+          "TooltipHint": "velit",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "facere",
-      "StyleHint": "qui",
+      "LinkHint": "quo",
+      "StyleHint": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 44
+          "FieldLength": 320
         }
       }
     }
   ],
-  "RowCount": 579,
+  "RowCount": 128,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 96
     }
   }
 }

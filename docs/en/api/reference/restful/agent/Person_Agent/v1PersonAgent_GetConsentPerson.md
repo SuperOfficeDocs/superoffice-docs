@@ -25,7 +25,7 @@ Gets a ConsentPerson object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetConsentPerson?consentPersonId=814
+POST /api/v1/Agents/Person/GetConsentPerson?consentPersonId=281
 POST /api/v1/Agents/Person/GetConsentPerson?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Person/GetConsentPerson?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,17 +52,17 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ConsentPerson
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConsentPersonId | int32 | ConsentPerson ID |
-| ConsentSource |  | The consent source |
-| LegalBase |  | The legal base |
+| ConsentSource | ConsentSource | The consent source |
+| LegalBase | LegalBase | The legal base |
 | PersonId | int32 | Person ID |
-| ConsentPurpose |  | The consent purpose |
+| ConsentPurpose | ConsentPurpose | The consent purpose |
 | Comment | string | Comment regarding this specific consent |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +71,7 @@ Response body:
 POST /api/v1/Agents/Person/GetConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 810,
+  "ConsentPersonId": 881,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 859,
+  "PersonId": 156,
   "ConsentPurpose": null,
-  "Comment": "maxime",
+  "Comment": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 672
     }
   }
 }

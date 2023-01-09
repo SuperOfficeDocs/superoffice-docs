@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 996,
-    "Name": "Gibson-Buckridge",
-    "ToolTip": "Velit rerum sit libero sed laudantium repellat fugit.",
+    "Id": 39,
+    "Name": "Schuppe Inc and Sons",
+    "ToolTip": "Expedita qui facilis rem.",
     "Deleted": false,
-    "Rank": 305,
-    "Type": "tempora",
-    "ColorBlock": 65,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2013-04-05T02:49:52.3128229+02:00",
+    "Rank": 806,
+    "Type": "amet",
+    "ColorBlock": 217,
+    "IconHint": "natus",
+    "Selected": false,
+    "LastChanged": "2013-12-25T17:37:40.1065044+01:00",
     "ChildItems": [
       {
-        "Id": 861,
-        "Name": "Goodwin Inc and Sons",
-        "ToolTip": "A omnis aperiam dolores dolorem architecto.",
+        "Id": 980,
+        "Name": "Ward Group",
+        "ToolTip": "Occaecati ut vitae officia magni recusandae et.",
         "Deleted": false,
-        "Rank": 64,
-        "Type": "quis",
-        "ColorBlock": 548,
-        "IconHint": "rerum",
+        "Rank": 475,
+        "Type": "itaque",
+        "ColorBlock": 552,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "2004-05-16T02:49:52.3128229+02:00",
+        "LastChanged": "2019-11-27T17:37:40.1065044+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "quia",
+        "StyleHint": "molestiae",
         "Hidden": true,
-        "FullName": "Orland Robel",
+        "FullName": "Dr. Elton Gayle Romaguera",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 805
+            "FieldType": "System.String",
+            "FieldLength": 623
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "quasi",
+    "StyleHint": "cupiditate",
     "Hidden": true,
-    "FullName": "Orion Kemmer",
+    "FullName": "Prof. Herminio Jade Jerde PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldLength": 966
       }
     }
   }

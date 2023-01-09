@@ -42,7 +42,7 @@ POST /api/v1/Agents/TimeZone/InitializeTimeZoneData?$select=name,department,cate
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,31 +79,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 841,
-    "Name": "Ziemann-O'Reilly",
-    "TZLocationCode": "exercitationem",
-    "TZLocationCities": "veniam",
-    "IsoNumber": 137,
+    "TZLocationID": 757,
+    "Name": "Padberg, Murazik and Hilll",
+    "TZLocationCode": "aspernatur",
+    "TZLocationCities": "hic",
+    "IsoNumber": 166,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 350,
-        "StartMonth": 165,
-        "EndDay": 783,
-        "EndMonth": 140,
-        "TZOffset": 135,
-        "StartRulePattern": "porro",
-        "EndRulePattern": "est"
+        "StartDay": 378,
+        "StartMonth": 909,
+        "EndDay": 906,
+        "EndMonth": 971,
+        "TZOffset": 495,
+        "StartRulePattern": "sit",
+        "EndRulePattern": "itaque"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 801,
-        "StartMonth": 789,
-        "EndDay": 927,
-        "EndMonth": 433,
-        "TZOffset": 47,
-        "StartRulePattern": "reiciendis",
-        "EndRulePattern": "quod"
+        "StartDay": 477,
+        "StartMonth": 689,
+        "EndDay": 826,
+        "EndMonth": 189,
+        "TZOffset": 206,
+        "StartRulePattern": "magnam",
+        "EndRulePattern": "esse"
       }
     }
   }

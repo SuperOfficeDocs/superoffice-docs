@@ -42,16 +42,15 @@ POST /api/v1/Agents/Sale/GetMyOpportunities?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Count | int32 |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -101,7 +100,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 857
+  "Count": 819
 }
 ```
 
@@ -113,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Johnson, Kassulke and Powlowski",
-    "SaleDate": "2012-05-18T02:49:45.1403412+02:00",
-    "SaleId": 794,
-    "Probability": 922,
-    "Title": "ut",
-    "Amount": 13479.333999999999,
-    "Currency": "quos",
-    "ProjectName": "Blick-Murphy",
-    "AssociateFullName": "Wilbert Murphy",
-    "Description": "Innovative foreground hierarchy",
+    "ContactName": "Bergnaum Inc and Sons",
+    "SaleDate": "2020-11-14T17:37:18.8852419+01:00",
+    "SaleId": 386,
+    "Probability": 821,
+    "Title": "aperiam",
+    "Amount": 13961.97,
+    "Currency": "et",
+    "ProjectName": "Vandervort Group",
+    "AssociateFullName": "Cecile Bartoletti",
+    "Description": "Grass-roots zero defect data-warehouse",
     "Status": "Lost",
-    "WeightedAmount": 12918.348,
-    "ProjectId": 56,
-    "EarningPercent": 11962.478,
-    "Earning": 2673.302,
-    "ContactId": 377,
-    "AssociateId": 388,
-    "PersonId": 17,
-    "SaleTypeId": 542,
-    "SaleTypeName": "Krajcik Inc and Sons",
-    "PersonFullName": "Edwin Hyatt",
+    "WeightedAmount": 22533.46,
+    "ProjectId": 657,
+    "EarningPercent": 27641.879999999997,
+    "Earning": 11157.039999999999,
+    "ContactId": 739,
+    "AssociateId": 134,
+    "PersonId": 519,
+    "SaleTypeId": 76,
+    "SaleTypeName": "Weissnat LLC",
+    "PersonFullName": "Mrs. Bailee Cristobal Rodriguez",
     "Completed": "Completed",
-    "ActiveErpLinks": 754,
-    "NextDueDate": "2004-05-20T02:49:45.1403412+02:00",
-    "Number": "1450715",
+    "ActiveErpLinks": 872,
+    "NextDueDate": "2015-02-02T17:37:18.8852419+01:00",
+    "Number": "590807",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldType": "System.String",
+        "FieldLength": 659
       }
     }
   }

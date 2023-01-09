@@ -42,17 +42,16 @@ POST /api/v1/Agents/Document/CheckoutDocument?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId, AllowedReturnTypes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
-| AllowedReturnTypes | array |  |
+| DocumentId | Integer |  |
+| AllowedReturnTypes | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,10 +80,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 94,
+  "DocumentId": 238,
   "AllowedReturnTypes": [
-    "nostrum",
-    "fuga"
+    "earum",
+    "nostrum"
   ]
 }
 ```
@@ -96,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "consequatur",
-  "VersionId": "doloremque",
-  "Success": true,
+  "ExternalReference": "nemo",
+  "VersionId": "voluptatibus",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "aliquam",
-  "AdditionalInfo": "dicta"
+  "Value": "expedita",
+  "AdditionalInfo": "est"
 }
 ```

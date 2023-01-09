@@ -33,13 +33,12 @@ Unassign (remove) third party licenses
 | Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: moduleLicenseNames  
+## Request Body: moduleLicenseNames 
 
 Name of module licenses to unassign (remove) 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -47,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +64,7 @@ Response body: array
 | PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
 | SortOrder | int32 | Sort order of licenses. |
 | ExtraFlags | int32 | License flags. 1 = user plan |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 276,
-    "Tooltip": "et",
-    "CanAssign": false,
-    "Free": 177,
-    "InUse": 432,
+    "Unrestricted": false,
+    "Total": 347,
+    "Tooltip": "dolores",
+    "CanAssign": true,
+    "Free": 582,
+    "InUse": 888,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 660,
-    "Name": "Littel, Schumm and Sporer",
-    "Description": "Distributed motivating installation",
-    "PrerequisiteModuleName": "Muller-Hagenes",
-    "SortOrder": 466,
-    "ExtraFlags": 824,
+    "ModuleLicenseId": 585,
+    "Name": "Runolfsdottir-Nolan",
+    "Description": "Digitized national complexity",
+    "PrerequisiteModuleName": "DuBuque-Block",
+    "SortOrder": 244,
+    "ExtraFlags": 966,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 67
+        "FieldLength": 923
       }
     }
   }

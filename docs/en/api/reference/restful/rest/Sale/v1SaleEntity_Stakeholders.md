@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,12 +73,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Stakeholders?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Stakeholders?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Stakeholders?$orderBy=name asc
-GET /api/v1/Sale/{id}/Stakeholders?$entities=et
-GET /api/v1/Sale/{id}/Stakeholders?$top=62
-GET /api/v1/Sale/{id}/Stakeholders?$skip=579
+GET /api/v1/Sale/{id}/Stakeholders?$entities=facere
+GET /api/v1/Sale/{id}/Stakeholders?$top=687
+GET /api/v1/Sale/{id}/Stakeholders?$skip=976
 GET /api/v1/Sale/{id}/Stakeholders?$mode=Full
 GET /api/v1/Sale/{id}/Stakeholders?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Stakeholders?$context=impedit
+GET /api/v1/Sale/{id}/Stakeholders?$context=voluptas
 GET /api/v1/Sale/{id}/Stakeholders?$format=JSON
 GET /api/v1/Sale/{id}/Stakeholders?$jsonSafe=False
 GET /api/v1/Sale/{id}/Stakeholders?$output=Display
@@ -100,7 +99,7 @@ GET /api/v1/Sale/{id}/Stakeholders?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Sale/{id}/Stakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptates",
+  "odata.nextLink": "quibusdam",
   "value": [
     {
-      "PrimaryKey": 6020,
-      "EntityName": "person",
-      "personId": 6020,
-      "fullName": "Nyasia Langworth"
+      "PrimaryKey": 7918,
+      "EntityName": "sale",
+      "saleId": 7918,
+      "contactId": 412,
+      "name": "Little-Jacobi"
     },
     {
-      "PrimaryKey": 9694,
-      "EntityName": "person",
-      "personId": 9694,
-      "fullName": "Mrs. Crystal Moen"
+      "PrimaryKey": 5648,
+      "EntityName": "sale",
+      "saleId": 5648,
+      "contactId": 1277,
+      "name": "Moen-Reynolds"
     }
   ]
 }

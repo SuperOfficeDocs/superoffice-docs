@@ -42,16 +42,15 @@ POST /api/v1/Agents/Dash/CreateDefaultTileForEntity?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EntityName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EntityName | string |  |
+| EntityName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTile
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,8 +67,8 @@ Response body:
 | Height | int32 | Height used by this tile in the dashboard |
 | Width | int32 | Width used by this tile in the dashboard |
 | Rank | int32 | Rank order |
-| DashTileDefinition |  | The tile definition entity |
-| TableRight |  |  |
+| DashTileDefinition | DashTileDefinition | The tile definition entity |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,7 +81,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Dibbert, Towne and Hand"
+  "EntityName": "Yundt-Hamill"
 }
 ```
 
@@ -93,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 468,
-  "DashboardId": 781,
-  "Height": 436,
-  "Width": 323,
-  "Rank": 74,
+  "DashboardTileId": 115,
+  "DashboardId": 670,
+  "Height": 708,
+  "Width": 967,
+  "Rank": 948,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldType": "System.String",
+      "FieldLength": 86
     }
   }
 }

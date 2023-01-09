@@ -44,17 +44,16 @@ POST /api/v1/Agents/CustomerService/GetUnparsedTemplate?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ReplyTemplateId, LanguageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ReplyTemplateId | int32 |  |
-| LanguageId | int32 |  |
+| ReplyTemplateId | Integer |  |
+| LanguageId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ReplyTemplateParsed
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body:
 | HtmlParsed | string | The HTML version of the reply template, and if applicable parsed with customer and ticket data |
 | Attachments | array | Meta data for the connected attachments |
 | Subject | string | The subject for this reply template |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,12 +79,12 @@ Response body:
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 624,
-  "LanguageId": 564
+  "ReplyTemplateId": 710,
+  "LanguageId": 437
 }
 ```
 
@@ -96,34 +95,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 624,
-  "PlainParsed": "enim",
-  "HtmlParsed": "repellat",
+  "ReplyTemplateId": 533,
+  "PlainParsed": "et",
+  "HtmlParsed": "vel",
   "Attachments": [
     {
-      "AttachmentId": 781,
-      "Name": "Kautzer-Braun",
-      "ContentType": "consequatur",
-      "AttSize": 366,
+      "AttachmentId": 6,
+      "Name": "Ruecker LLC",
+      "ContentType": "nihil",
+      "AttSize": 669,
       "InlineImage": false,
-      "ContentId": "aut",
+      "ContentId": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 426
         }
       }
     }
   ],
-  "Subject": "blanditiis",
+  "Subject": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 273
+      "FieldType": "System.String",
+      "FieldLength": 369
     }
   }
 }

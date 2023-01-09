@@ -42,7 +42,7 @@ POST /api/v1/Sale/UdefLayout?udefFieldType=Checkbox
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +88,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,7 +97,7 @@ Response body:
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 366,
-  "ColumnId": 238,
-  "FieldDefault": "exercitationem",
-  "FieldHeight": 465,
-  "FieldLabel": "autem",
-  "FieldLeft": 284,
-  "FieldTop": 481,
+  "UDefFieldId": 696,
+  "ColumnId": 229,
+  "FieldDefault": "ea",
+  "FieldHeight": 469,
+  "FieldLabel": "nihil",
+  "FieldLeft": 605,
+  "FieldTop": 976,
   "FieldType": "Checkbox",
-  "FieldWidth": 867,
-  "FormatMask": "deleniti",
+  "FieldWidth": 392,
+  "FormatMask": "dolorum",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 927,
-  "LabelLeft": 427,
-  "LabelTop": 808,
-  "LabelWidth": 435,
-  "LastVersionId": 135,
-  "ListTableId": 781,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 167,
+  "LabelLeft": 190,
+  "LabelTop": 403,
+  "LabelWidth": 761,
+  "LastVersionId": 915,
+  "ListTableId": 188,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 745,
-  "ProgId": "dolorum",
-  "IsReadOnly": false,
-  "ShortLabel": "eligendi",
-  "TabOrder": 971,
-  "TextLength": 217,
-  "Tooltip": "similique",
-  "UdefIdentity": 886,
-  "UDListDefinitionId": 188,
+  "Page1LineNo": 8,
+  "ProgId": "quae",
+  "IsReadOnly": true,
+  "ShortLabel": "consequatur",
+  "TabOrder": 976,
+  "TextLength": 910,
+  "Tooltip": "facere",
+  "UdefIdentity": 757,
+  "UDListDefinitionId": 429,
   "Justification": "Center",
-  "Version": 491,
-  "TemplateVariableName": "Huel Group",
+  "Version": 821,
+  "TemplateVariableName": "Stark Group",
   "HasBeenPublished": false,
-  "MdoListName": "Padberg Inc and Sons",
+  "MdoListName": "Gulgowski LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 507
     }
   }
 }

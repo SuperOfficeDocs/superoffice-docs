@@ -36,7 +36,7 @@ Get a published SaleEntity user-defined field's details based on the prog-id or 
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 SaleEntity found.
 
@@ -45,7 +45,7 @@ SaleEntity found.
 | 200 | SaleEntity found. |
 | 404 | SaleEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +83,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,46 +102,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 869,
-  "ColumnId": 612,
-  "FieldDefault": "quam",
-  "FieldHeight": 249,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 999,
-  "FieldTop": 501,
+  "UDefFieldId": 863,
+  "ColumnId": 588,
+  "FieldDefault": "facilis",
+  "FieldHeight": 484,
+  "FieldLabel": "perferendis",
+  "FieldLeft": 222,
+  "FieldTop": 645,
   "FieldType": "Checkbox",
-  "FieldWidth": 744,
-  "FormatMask": "iusto",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 915,
-  "LabelLeft": 807,
-  "LabelTop": 2,
-  "LabelWidth": 754,
-  "LastVersionId": 384,
-  "ListTableId": 944,
-  "IsMandatory": true,
+  "FieldWidth": 396,
+  "FormatMask": "nostrum",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 717,
+  "LabelLeft": 56,
+  "LabelTop": 651,
+  "LabelWidth": 830,
+  "LastVersionId": 263,
+  "ListTableId": 34,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 418,
-  "ProgId": "omnis",
+  "Page1LineNo": 64,
+  "ProgId": "excepturi",
   "IsReadOnly": false,
-  "ShortLabel": "dolores",
-  "TabOrder": 857,
-  "TextLength": 432,
-  "Tooltip": "ipsam",
-  "UdefIdentity": 413,
-  "UDListDefinitionId": 33,
+  "ShortLabel": "dicta",
+  "TabOrder": 80,
+  "TextLength": 424,
+  "Tooltip": "quia",
+  "UdefIdentity": 980,
+  "UDListDefinitionId": 416,
   "Justification": "Center",
-  "Version": 83,
-  "TemplateVariableName": "Abshire-Von",
+  "Version": 542,
+  "TemplateVariableName": "Grady, Greenholt and Cartwright",
   "HasBeenPublished": false,
-  "MdoListName": "Herzog Group",
+  "MdoListName": "Heller, Botsford and Kemmer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 486
+      "FieldType": "System.Int32",
+      "FieldLength": 50
     }
   }
 }

@@ -44,17 +44,16 @@ POST /api/v1/Agents/ViewState/SaveHistories?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 HistoryName, History 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HistoryName | string |  |
-| History | array |  |
+| HistoryName | String |  |
+| History | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body: array
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,20 +81,20 @@ Response body: array
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Paucek, Hyatt and Bergstrom",
+  "HistoryName": "Hahn-Schultz",
   "History": [
     {
-      "Rank": 920,
-      "Id": 724,
-      "HistoryName": "Lind Inc and Sons",
-      "HistoryId": 637,
-      "AssociateId": 154,
-      "Name": "McDermott-Jakubowski",
-      "ItemInfo": "ut"
+      "Rank": 836,
+      "Id": 661,
+      "HistoryName": "Bartell LLC",
+      "HistoryId": 934,
+      "AssociateId": 703,
+      "Name": "Upton Inc and Sons",
+      "ItemInfo": "maxime"
     }
   ]
 }
@@ -109,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 814,
-    "Id": 910,
-    "HistoryName": "Stroman Group",
-    "HistoryId": 622,
-    "AssociateId": 519,
-    "Name": "Luettgen-Stracke",
-    "ItemInfo": "nam",
+    "Rank": 871,
+    "Id": 382,
+    "HistoryName": "Koelpin-Grimes",
+    "HistoryId": 330,
+    "AssociateId": 974,
+    "Name": "Wuckert Inc and Sons",
+    "ItemInfo": "laboriosam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 924
+        "FieldType": "System.Int32",
+        "FieldLength": 652
       }
     }
   }

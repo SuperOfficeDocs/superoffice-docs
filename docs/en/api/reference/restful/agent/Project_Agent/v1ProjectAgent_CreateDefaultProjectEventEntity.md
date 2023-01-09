@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectEventEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,8 +62,8 @@ Response body:
 | SignOnTaskId | int32 | If not 0, sign on should cause an Activity of this type to be registered |
 | SignOnTriggersAssign | bool | If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the projectevent |
-| UpdatedBy |  | The person that last updated the projectevent |
+| CreatedBy | Associate | The person that created the projectevent |
+| UpdatedBy | Associate | The person that last updated the projectevent |
 | ProjectId | int32 | The projectId for the project this projectEvent belongs to |
 | Id | int32 | Id of the external event |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -76,7 +76,7 @@ Response body:
 | IsVisibleForCategories | bool |  |
 | IsVisibleForPersonInterests | bool |  |
 | ProjectEventId | int32 | Primary key |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,7 +85,7 @@ Response body:
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,94 +95,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "animi",
-  "SignOffText": "vel",
-  "SignOnConfirmationText": "aut",
-  "SignOnText": "ab",
-  "EventDate": "2012-07-27T02:49:44.9372128+02:00",
-  "Enabled": false,
-  "CreatedDate": "2001-03-31T02:49:44.9372128+02:00",
+  "SignOffConfirmationText": "voluptatum",
+  "SignOffText": "et",
+  "SignOnConfirmationText": "neque",
+  "SignOnText": "sed",
+  "EventDate": "2009-12-25T17:37:18.6152415+01:00",
+  "Enabled": true,
+  "CreatedDate": "2012-01-02T17:37:18.6152415+01:00",
   "SignOff": true,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 823,
-  "SignOffTriggersAssign": false,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 545,
+  "SignOffTriggersAssign": true,
   "SignOn": true,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 265,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2000-09-24T02:49:44.9372128+02:00",
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 989,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "1998-07-08T17:37:18.6152415+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 348,
-  "Id": 701,
-  "PublishFrom": "1997-03-23T02:49:44.9372128+01:00",
+  "ProjectId": 375,
+  "Id": 997,
+  "PublishFrom": "1998-07-03T17:37:18.6162445+02:00",
   "PublishType": "External",
-  "PublishTo": "2019-07-28T02:49:44.9372128+02:00",
+  "PublishTo": "1995-11-24T17:37:18.6162445+01:00",
   "VisibleForCategories": [
     {
-      "Id": 900,
-      "Name": "Mosciski-Batz",
-      "ToolTip": "Consequatur laudantium.",
+      "Id": 337,
+      "Name": "Stark-Towne",
+      "ToolTip": "Nulla at delectus earum dicta qui.",
       "Deleted": false,
-      "Rank": 160,
-      "Type": "tempora",
+      "Rank": 331,
+      "Type": "corrupti",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "veritatis",
-      "ColorBlock": 929,
-      "ExtraInfo": "est",
-      "StyleHint": "laudantium",
-      "FullName": "Mrs. Kiara Breitenberg I",
+      "IconHint": "quis",
+      "ColorBlock": 457,
+      "ExtraInfo": "earum",
+      "StyleHint": "et",
+      "FullName": "Prof. Maddison Lindgren",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldType": "System.String",
+          "FieldLength": 806
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 258,
-      "Name": "Bashirian, Bernhard and Ryan",
-      "ToolTip": "Velit est sed soluta et animi perferendis.",
+      "Id": 156,
+      "Name": "Kiehn Group",
+      "ToolTip": "Provident esse quasi quod asperiores dignissimos quod earum.",
       "Deleted": false,
-      "Rank": 522,
-      "Type": "suscipit",
+      "Rank": 645,
+      "Type": "dignissimos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatem",
-      "ColorBlock": 229,
-      "ExtraInfo": "aut",
-      "StyleHint": "numquam",
-      "FullName": "Ida Schiller",
+      "IconHint": "vitae",
+      "ColorBlock": 504,
+      "ExtraInfo": "ipsam",
+      "StyleHint": "odio",
+      "FullName": "Rashawn Hegmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 377
+          "FieldLength": 275
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 950,
+  "ProjectEventId": 172,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldLength": 140
     }
   }
 }

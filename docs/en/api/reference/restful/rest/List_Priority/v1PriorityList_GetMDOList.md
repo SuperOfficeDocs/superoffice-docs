@@ -26,7 +26,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=rerum
+GET /api/v1/List/Priority/MDOItems?query=sunt
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/Priority/MDOItems?query=rerum
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 813,
-    "Name": "Torphy-Hahn",
-    "ToolTip": "Et quia est id ut.",
-    "Deleted": false,
-    "Rank": 764,
-    "Type": "velit",
+    "Id": 730,
+    "Name": "Keebler, Collins and Rogahn",
+    "ToolTip": "Eum repellendus delectus.",
+    "Deleted": true,
+    "Rank": 742,
+    "Type": "officia",
     "ChildItems": [
       {
-        "Id": 645,
-        "Name": "Shields, Kiehn and Stiedemann",
-        "ToolTip": "Culpa sint alias mollitia.",
+        "Id": 879,
+        "Name": "Smitham, Walsh and Price",
+        "ToolTip": "Nulla magni quis vitae.",
         "Deleted": false,
-        "Rank": 203,
-        "Type": "maiores",
+        "Rank": 590,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quis",
-        "ColorBlock": 422,
+        "IconHint": "ea",
+        "ColorBlock": 869,
         "ExtraInfo": "voluptatem",
-        "StyleHint": "sit",
-        "FullName": "Everette Hilpert",
+        "StyleHint": "earum",
+        "FullName": "Mathilde Clementina Daniel DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 898
+            "FieldLength": 689
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 930,
-    "ExtraInfo": "quia",
-    "StyleHint": "magni",
-    "FullName": "Sanford Gulgowski",
+    "IconHint": "incidunt",
+    "ColorBlock": 529,
+    "ExtraInfo": "aut",
+    "StyleHint": "sunt",
+    "FullName": "Carlotta Smitham DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 780
+        "FieldLength": 340
       }
     }
   }

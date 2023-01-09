@@ -36,13 +36,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=381
-POST /api/v1/Document/{documentId}/Content?personId=586
-POST /api/v1/Document/{documentId}/Content?appointmentId=477
-POST /api/v1/Document/{documentId}/Content?saleId=462
-POST /api/v1/Document/{documentId}/Content?selectionId=928
-POST /api/v1/Document/{documentId}/Content?projectId=699
-POST /api/v1/Document/{documentId}/Content?uiCulture=vel
+POST /api/v1/Document/{documentId}/Content?contactId=987
+POST /api/v1/Document/{documentId}/Content?personId=611
+POST /api/v1/Document/{documentId}/Content?appointmentId=466
+POST /api/v1/Document/{documentId}/Content?saleId=653
+POST /api/v1/Document/{documentId}/Content?selectionId=563
+POST /api/v1/Document/{documentId}/Content?projectId=395
+POST /api/v1/Document/{documentId}/Content?uiCulture=rerum
 ```
 
 
@@ -60,13 +60,12 @@ POST /api/v1/Document/{documentId}/Content?uiCulture=vel
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: customTags  
+## Request Body: customTags 
 
 Dictionary of custom tag names and values. Each name should have exactly four characters. There should be exactly one value for each tag. 
 
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -74,13 +73,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 | Primary key |
-| UpdatedBy |  | The person that last updated the appointment. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | Attention | string | Attention/salutation |
 | Header | string | Visible document name |
 | Name | string | File name |
@@ -89,11 +88,11 @@ Response body:
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| DocumentTemplate |  | The template type of the document.  <para>Use MDO List name "doctmpl" to get list items.</para> |
-| Person |  | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
-| Associate |  | The owner of the document - the associate whose checklist the document is in.  <para>Use MDO List name "associate" to get list items.</para> |
-| Contact |  | The contact associated with the document. It may also be null if no contact is associated with the document.  <para>Use MDO List name "contact" to get list items.</para> |
-| Project |  | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| DocumentTemplate | DocumentTemplate | The template type of the document.  <para>Use MDO List name "doctmpl" to get list items.</para> |
+| Person | Person | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
+| Associate | Associate | The owner of the document - the associate whose checklist the document is in.  <para>Use MDO List name "associate" to get list items.</para> |
+| Contact | Contact | The contact associated with the document. It may also be null if no contact is associated with the document.  <para>Use MDO List name "contact" to get list items.</para> |
+| Project | Project | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
 | Date | date-time | date + start time planned |
 | ExternalRef | string | External reference for document plugin to resolve document identity (Notes ID, e-mail message ID, whatever) |
 | Completed | string | Document Completed state. This is the part of the Status property. |
@@ -101,7 +100,7 @@ Response body:
 | Type | string | Is this a normal document or a mail-merge or report? |
 | Links | array | List of all elements linked to the document. |
 | LockSemantics | string |  |
-| Sale |  | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <para>Use MDO List name "sale" to get list items.</para> |
+| Sale | Sale | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedDocumentId | int32 | Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link) |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.DocumentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -112,7 +111,7 @@ Response body:
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -131,88 +130,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 773,
+  "DocumentId": 505,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "id",
-  "Header": "qui",
-  "Name": "Schulist, Bechtelar and Witting",
-  "OurRef": "asperiores",
-  "YourRef": "in",
-  "CreatedDate": "2020-07-23T02:49:50.9484136+02:00",
-  "UpdatedDate": "2002-10-06T02:49:50.9484136+02:00",
-  "Description": "Upgradable transitional capability",
+  "Attention": "modi",
+  "Header": "mollitia",
+  "Name": "Bins Inc and Sons",
+  "OurRef": "voluptas",
+  "YourRef": "quisquam",
+  "CreatedDate": "2008-05-16T17:37:38.5838301+02:00",
+  "UpdatedDate": "2019-03-26T17:37:38.5838301+01:00",
+  "Description": "Implemented contextually-based frame",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-04-17T02:49:50.9484136+02:00",
-  "ExternalRef": "sunt",
+  "Date": "2020-06-08T17:37:38.5868623+02:00",
+  "ExternalRef": "perferendis",
   "Completed": "Completed",
-  "ActiveLinks": 187,
+  "ActiveLinks": 707,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hammes Inc and Sons",
-      "Id": 185,
-      "Description": "Self-enabling mobile data-warehouse",
-      "ExtraInfo": "iste",
-      "LinkId": 274,
+      "EntityName": "Kihn, Blanda and Aufderhar",
+      "Id": 222,
+      "Description": "Devolved secondary strategy",
+      "ExtraInfo": "cum",
+      "LinkId": 597,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 515
+          "FieldType": "System.String",
+          "FieldLength": 854
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 824,
-  "Snum": 969,
+  "SuggestedDocumentId": 511,
+  "Snum": 294,
   "UserDefinedFields": {
-    "SuperOffice:1": "1516191037",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "869007175",
+    "SuperOffice:2": "1458844064"
   },
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "odio",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "ex"
+    "CustomFields1": "minus",
+    "CustomFields2": "id"
   },
-  "PublishEventDate": "2021-04-13T02:49:50.9484136+02:00",
-  "PublishTo": "2017-12-18T02:49:50.9484136+01:00",
-  "PublishFrom": "2008-01-04T02:49:50.9484136+01:00",
+  "PublishEventDate": "2017-03-20T17:37:38.5878595+01:00",
+  "PublishTo": "2008-10-04T17:37:38.5878595+02:00",
+  "PublishFrom": "2008-12-13T17:37:38.5878595+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 326,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 62
+          "FieldLength": 373
         }
       }
     },
     {
-      "VisibleId": 326,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 62
+          "FieldLength": 373
         }
       }
     }
@@ -221,8 +220,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldType": "System.String",
+      "FieldLength": 776
     }
   }
 }

@@ -38,16 +38,15 @@ POST /api/v1/Agents/Preference/DeletePreference?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 |  |
+| Id | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -55,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -64,11 +63,11 @@ Response body:
 POST /api/v1/Agents/Preference/DeletePreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 241
+  "Id": 581
 }
 ```
 

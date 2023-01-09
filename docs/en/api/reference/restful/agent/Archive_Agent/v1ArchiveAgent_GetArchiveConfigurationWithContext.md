@@ -44,18 +44,17 @@ POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 GuiName, ProviderName, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| GuiName | string |  |
-| ProviderName | string |  |
-| Context | string |  |
+| GuiName | String |  |
+| ProviderName | String |  |
+| Context | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ArchiveConfiguration
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body:
 | ArchiveEntityInfo | array |  |
 | ArchiveOrderByInfo | array |  |
 | OwnerKeys | string | The actual ownership information for the configuration that was retrieved |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,13 +79,13 @@ Response body:
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Maggio, Goldner and Krajcik",
-  "ProviderName": "Wiza, Block and Ryan",
-  "Context": "cum"
+  "GuiName": "Friesen Inc and Sons",
+  "ProviderName": "Connelly, Heathcote and Koss",
+  "Context": "est"
 }
 ```
 
@@ -99,68 +98,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Graham-Schroeder",
-      "DisplayTooltip": "velit",
-      "DisplayType": "ut",
-      "CanOrderBy": false,
-      "Name": "Kuphal, Toy and Rodriguez",
+      "DisplayName": "Effertz-Metz",
+      "DisplayTooltip": "animi",
+      "DisplayType": "quo",
+      "CanOrderBy": true,
+      "Name": "Glover, Lemke and Predovic",
       "CanRestrictBy": false,
-      "RestrictionType": "corporis",
-      "RestrictionListName": "Hermann LLC",
+      "RestrictionType": "aut",
+      "RestrictionListName": "Greenfelder LLC",
       "IsVisible": false,
-      "ExtraInfo": "inventore",
-      "Width": "commodi",
-      "IconHint": "iure",
-      "HeadingIconHint": "blanditiis"
+      "ExtraInfo": "ipsum",
+      "Width": "incidunt",
+      "IconHint": "corporis",
+      "HeadingIconHint": "nihil"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 494,
-      "Name": "Koch Inc and Sons",
-      "ToolTip": "Eaque iure sit amet quia.",
+      "Id": 644,
+      "Name": "Shanahan, Marvin and Lesch",
+      "ToolTip": "Eos aut ipsum architecto et voluptate.",
       "Deleted": false,
-      "Rank": 836,
-      "Type": "ut",
-      "ColorBlock": 746,
-      "IconHint": "ducimus",
-      "Selected": false,
-      "LastChanged": "2008-03-09T02:49:43.6535327+01:00",
+      "Rank": 273,
+      "Type": "cumque",
+      "ColorBlock": 339,
+      "IconHint": "quis",
+      "Selected": true,
+      "LastChanged": "1996-10-14T17:37:16.6172444+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquam",
-      "StyleHint": "consequatur",
+      "ExtraInfo": "quis",
+      "StyleHint": "sapiente",
       "Hidden": true,
-      "FullName": "Nina Yundt",
+      "FullName": "Jaron Willms",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldType": "System.Int32",
+          "FieldLength": 100
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Ratke, DuBuque and O'Keefe",
+      "Name": "Gutkowski LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Ratke, DuBuque and O'Keefe",
+      "Name": "Gutkowski LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "dolor",
+  "OwnerKeys": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldLength": 573
     }
   }
 }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/DocumentMigration/MigrateTemplateToNewDocPlugin
 Migrates the template with the provided id to the specified document-plugin.
 
 
-
-
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -42,17 +40,16 @@ POST /api/v1/Agents/DocumentMigration/MigrateTemplateToNewDocPlugin?$select=name
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentTemplateId, TargetDocumentPluginId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentTemplateId | int32 |  |
-| TargetDocumentPluginId | int32 |  |
+| DocumentTemplateId | Integer |  |
+| TargetDocumentPluginId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -60,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -69,12 +66,12 @@ Response body:
 POST /api/v1/Agents/DocumentMigration/MigrateTemplateToNewDocPlugin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 75,
-  "TargetDocumentPluginId": 26
+  "DocumentTemplateId": 624,
+  "TargetDocumentPluginId": 632
 }
 ```
 

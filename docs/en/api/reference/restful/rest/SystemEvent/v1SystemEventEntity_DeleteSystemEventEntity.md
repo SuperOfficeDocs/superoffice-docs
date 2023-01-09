@@ -34,7 +34,7 @@ Calls the Configuration agent service DeleteSystemEventEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 SystemEventEntity deleted.
 
@@ -42,7 +42,7 @@ SystemEventEntity deleted.
 |----------------|-------------|
 | 204 | SystemEventEntity deleted. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request

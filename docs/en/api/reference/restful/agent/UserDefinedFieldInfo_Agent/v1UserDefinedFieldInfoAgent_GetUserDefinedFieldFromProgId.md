@@ -44,17 +44,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProgId, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProgId | string |  |
-| OwnerType | string |  |
+| ProgId | String |  |
+| OwnerType | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,7 +99,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -113,7 +112,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "vero",
+  "ProgId": "ut",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 193,
-  "ColumnId": 748,
-  "FieldDefault": "et",
-  "FieldHeight": 350,
-  "FieldLabel": "non",
-  "FieldLeft": 643,
-  "FieldTop": 146,
+  "UDefFieldId": 166,
+  "ColumnId": 191,
+  "FieldDefault": "eos",
+  "FieldHeight": 745,
+  "FieldLabel": "repellat",
+  "FieldLeft": 111,
+  "FieldTop": 473,
   "FieldType": "Checkbox",
-  "FieldWidth": 595,
-  "FormatMask": "asperiores",
-  "HideLabel": false,
+  "FieldWidth": 787,
+  "FormatMask": "ut",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 101,
-  "LabelLeft": 592,
-  "LabelTop": 707,
-  "LabelWidth": 447,
-  "LastVersionId": 856,
-  "ListTableId": 991,
+  "LabelHeight": 614,
+  "LabelLeft": 930,
+  "LabelTop": 401,
+  "LabelWidth": 20,
+  "LastVersionId": 305,
+  "ListTableId": 247,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 531,
-  "ProgId": "doloremque",
+  "Page1LineNo": 856,
+  "ProgId": "ut",
   "IsReadOnly": false,
-  "ShortLabel": "sit",
-  "TabOrder": 111,
-  "TextLength": 49,
-  "Tooltip": "quidem",
-  "UdefIdentity": 982,
-  "UDListDefinitionId": 638,
+  "ShortLabel": "itaque",
+  "TabOrder": 902,
+  "TextLength": 197,
+  "Tooltip": "vel",
+  "UdefIdentity": 578,
+  "UDListDefinitionId": 244,
   "Justification": "Center",
-  "Version": 906,
-  "TemplateVariableName": "Glover LLC",
+  "Version": 984,
+  "TemplateVariableName": "Romaguera, Beatty and Kerluke",
   "HasBeenPublished": true,
-  "MdoListName": "Hoppe, Leannon and DuBuque",
+  "MdoListName": "Collins Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldLength": 285
     }
   }
 }

@@ -38,19 +38,18 @@ POST /api/v1/Agents/List/UpdateCategoryMemberships?$select=name,department,categ
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TicketCategoryId, MembershipsToAdd, MembershipsToUpdate, MembershipsToDelete 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketCategoryId | int32 |  |
-| MembershipsToAdd | array |  |
-| MembershipsToUpdate | array |  |
-| MembershipsToDelete | array |  |
+| TicketCategoryId | Integer |  |
+| MembershipsToAdd | Array |  |
+| MembershipsToUpdate | Array |  |
+| MembershipsToDelete | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -58,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -67,39 +66,39 @@ Response body:
 POST /api/v1/Agents/List/UpdateCategoryMemberships
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 386,
+  "TicketCategoryId": 142,
   "MembershipsToAdd": [
     {
       "User": null,
-      "Weight": 317
+      "Weight": 415
     },
     {
       "User": null,
-      "Weight": 317
+      "Weight": 415
     }
   ],
   "MembershipsToUpdate": [
     {
       "User": null,
-      "Weight": 77
+      "Weight": 309
     },
     {
       "User": null,
-      "Weight": 77
+      "Weight": 309
     }
   ],
   "MembershipsToDelete": [
     {
       "User": null,
-      "Weight": 858
+      "Weight": 100
     },
     {
       "User": null,
-      "Weight": 858
+      "Weight": 100
     }
   ]
 }

@@ -25,8 +25,8 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/LegalBase/MDOItems?flat=True
-GET /api/v1/List/LegalBase/MDOItems?query=excepturi
+GET /api/v1/List/LegalBase/MDOItems?flat=False
+GET /api/v1/List/LegalBase/MDOItems?query=eius
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/LegalBase/MDOItems?query=excepturi
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 783,
-    "Name": "Wyman, Parker and Vandervort",
-    "ToolTip": "Et corporis quia et fugiat.",
+    "Id": 924,
+    "Name": "Hahn, Smith and Langosh",
+    "ToolTip": "Culpa dignissimos alias repudiandae quia.",
     "Deleted": false,
-    "Rank": 544,
-    "Type": "et",
+    "Rank": 546,
+    "Type": "voluptatibus",
     "ChildItems": [
       {
-        "Id": 901,
-        "Name": "Bergstrom-Luettgen",
-        "ToolTip": "Alias repudiandae voluptatem facilis aliquam.",
-        "Deleted": true,
-        "Rank": 753,
-        "Type": "laboriosam",
+        "Id": 731,
+        "Name": "Skiles-Stark",
+        "ToolTip": "Explicabo est est aut qui est officia molestiae.",
+        "Deleted": false,
+        "Rank": 171,
+        "Type": "vitae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "atque",
-        "ColorBlock": 810,
-        "ExtraInfo": "illo",
-        "StyleHint": "dignissimos",
-        "FullName": "Jasen Mraz",
+        "IconHint": "nemo",
+        "ColorBlock": 409,
+        "ExtraInfo": "sapiente",
+        "StyleHint": "natus",
+        "FullName": "Amelie Pfeffer II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 392
+            "FieldType": "System.Int32",
+            "FieldLength": 601
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 113,
-    "ExtraInfo": "est",
-    "StyleHint": "vitae",
-    "FullName": "Michael Rempel",
+    "IconHint": "aut",
+    "ColorBlock": 37,
+    "ExtraInfo": "delectus",
+    "StyleHint": "esse",
+    "FullName": "Sigmund Schaefer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 761
+        "FieldType": "System.Int32",
+        "FieldLength": 569
       }
     }
   }

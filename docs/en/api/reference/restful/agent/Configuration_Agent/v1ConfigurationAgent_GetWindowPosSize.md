@@ -25,7 +25,7 @@ Gets a WindowPosSize object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=543
+POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=879
 POST /api/v1/Agents/Configuration/GetWindowPosSize?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Configuration/GetWindowPosSize?$select=name,department,categ
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +67,7 @@ Response body:
 | UpperY | int32 |  |
 | Width | int32 |  |
 | WindowPosSizeId | int32 |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,7 +76,7 @@ Response body:
 POST /api/v1/Agents/Configuration/GetWindowPosSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "fuga",
-  "PersonId": 728,
-  "AssociateId": 772,
-  "ExtraId": 175,
-  "ExtraInfo": "quibusdam",
-  "Height": 251,
-  "LeftX": 267,
+  "OwnerWindow": "officiis",
+  "PersonId": 434,
+  "AssociateId": 732,
+  "ExtraId": 862,
+  "ExtraInfo": "magni",
+  "Height": 837,
+  "LeftX": 746,
   "State": "Maximized",
-  "UpperY": 329,
-  "Width": 104,
-  "WindowPosSizeId": 121,
+  "UpperY": 900,
+  "Width": 578,
+  "WindowPosSizeId": 141,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldType": "System.String",
+      "FieldLength": 536
     }
   }
 }

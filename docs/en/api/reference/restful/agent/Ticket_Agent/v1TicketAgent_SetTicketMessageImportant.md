@@ -38,17 +38,16 @@ POST /api/v1/Agents/Ticket/SetTicketMessageImportant?$select=name,department,cat
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TicketMessageId, Important 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketMessageId | int32 |  |
-| Important | bool |  |
+| TicketMessageId | Integer |  |
+| Important | Boolean |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,12 +64,12 @@ Response body:
 POST /api/v1/Agents/Ticket/SetTicketMessageImportant
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 923,
-  "Important": true
+  "TicketMessageId": 257,
+  "Important": false
 }
 ```
 

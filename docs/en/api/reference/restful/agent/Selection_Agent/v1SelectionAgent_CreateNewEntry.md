@@ -42,16 +42,15 @@ POST /api/v1/Agents/Selection/CreateNewEntry?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Duplicate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Duplicate |  | A duplicate entry <para /> Carrier object for DuplicateEntry. |
+| Duplicate | DuplicateEntry | A duplicate entry <para /> Carrier object for DuplicateEntry. |
 
-
-## Response: int32
+## Response:int32
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -82,5 +81,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-293
+413
 ```

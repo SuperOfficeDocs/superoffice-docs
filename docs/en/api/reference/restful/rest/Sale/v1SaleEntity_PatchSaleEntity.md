@@ -71,18 +71,17 @@ PATCH /api/v1/Sale/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 SaleEntity  updated.
 
@@ -93,24 +92,24 @@ SaleEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because SaleEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: SaleEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Appointment |  | Simple read-only appointment data. <para /> Carrier object for Appointment. Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>. |
-| Associate |  | The sale owner  <para>Use MDO List name "associate" to get list items.</para> |
-| UpdatedBy |  | Who updated the sale |
-| CreatedBy |  | Who created to sale |
-| Contact |  | The contact associated with the sale. It may also be 0 if no contact is associated with the sale.  <para>Use MDO List name "contact" to get list items.</para> |
-| Project |  | A sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| Appointment | Appointment | Simple read-only appointment data. <para /> Carrier object for Appointment. Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>. |
+| Associate | Associate | The sale owner  <para>Use MDO List name "associate" to get list items.</para> |
+| UpdatedBy | Associate | Who updated the sale |
+| CreatedBy | Associate | Who created to sale |
+| Contact | Contact | The contact associated with the sale. It may also be 0 if no contact is associated with the sale.  <para>Use MDO List name "contact" to get list items.</para> |
+| Project | Project | A sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
 | SaleText | string | Text describing the sale |
-| Person |  | A sale may also be connected to a person - this must be a contact person registered on the current contact. This does not mean that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
-| Currency |  | The currency the sale object was sold in  <para>Use MDO List name "currency" to get list items.</para> |
-| Competitor |  | List of all possible competitors.   <para>Use MDO List name "comptr" to get list items.</para> |
-| Credited |  | List of who is to be credited for the sale.  <para>Use MDO List name "credited" to get list items.</para> |
-| Rating |  | The sale rating  <para>Use MDO List name "prob" to get list items.</para> |
-| Reason |  | The sale reason  <para>Use MDO List name "reason" to get list items.</para> |
-| Source |  | The sale source  <para>Use MDO List name "source" to get list items.</para> |
+| Person | Person | A sale may also be connected to a person - this must be a contact person registered on the current contact. This does not mean that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
+| Currency | Currency | The currency the sale object was sold in  <para>Use MDO List name "currency" to get list items.</para> |
+| Competitor | Competitor | List of all possible competitors.   <para>Use MDO List name "comptr" to get list items.</para> |
+| Credited | Credited | List of who is to be credited for the sale.  <para>Use MDO List name "credited" to get list items.</para> |
+| Rating | Rating | The sale rating  <para>Use MDO List name "prob" to get list items.</para> |
+| Reason | Reason | The sale reason  <para>Use MDO List name "reason" to get list items.</para> |
+| Source | Source | The sale source  <para>Use MDO List name "source" to get list items.</para> |
 | Status | string | The state of the Sale: Open / Sold / Lost / Stalled |
 | Saledate | date-time | (expected / lost / won) sales date |
 | Amount | double | Total sale amount |
@@ -127,9 +126,9 @@ Response body:
 | Links | array | List of all elements linked to the sale. |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| SaleType |  | <para>Use MDO List name "saletype" to get list items.</para> |
-| ReasonSold |  | <para>Use MDO List name "reasonsold" to get list items.</para> |
-| ReasonStalled |  | <para>Use MDO List name "reasonstalled" to get list items.</para> |
+| SaleType | SaleType | <para>Use MDO List name "saletype" to get list items.</para> |
+| ReasonSold | ReasonSold | <para>Use MDO List name "reasonsold" to get list items.</para> |
+| ReasonStalled | ReasonStalled | <para>Use MDO List name "reasonstalled" to get list items.</para> |
 | ReopenDate | date-time | Date the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate. |
 | SaleStakeholders | array |  |
 | ActiveErpLinks | int32 | The number of active erp links |
@@ -141,7 +140,7 @@ Response body:
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -151,18 +150,18 @@ Response body:
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sunt",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sunt",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -181,7 +180,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "at",
+  "SaleText": "atque",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +189,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2019-01-05T02:49:51.4738091+01:00",
-  "Amount": 22386.162,
-  "SaleId": 829,
-  "Earning": 29537.95,
-  "EarningPercent": 28453.586,
-  "Heading": "ad",
-  "Number": "429585",
-  "Probability": 7,
-  "CreatedDate": "2017-03-28T02:49:51.4738091+02:00",
-  "UpdatedDate": "2002-01-08T02:49:51.4738091+01:00",
+  "Saledate": "2015-05-29T17:37:39.1533142+02:00",
+  "Amount": 18449.858,
+  "SaleId": 255,
+  "Earning": 8226.75,
+  "EarningPercent": 6239.794,
+  "Heading": "expedita",
+  "Number": "1096140",
+  "Probability": 542,
+  "CreatedDate": "2018-09-09T17:37:39.1533142+02:00",
+  "UpdatedDate": "2010-07-11T17:37:39.1533142+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 472,
+  "ActiveLinks": 264,
   "Links": [
     {
-      "EntityName": "Funk-Veum",
-      "Id": 676,
-      "Description": "Persistent coherent application",
-      "ExtraInfo": "consequatur",
-      "LinkId": 539,
+      "EntityName": "Fritsch-Kris",
+      "Id": 265,
+      "Description": "Fully-configurable 4th generation budgetary management",
+      "ExtraInfo": "ut",
+      "LinkId": 819,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 836
+          "FieldLength": 155
         }
       }
     }
   ],
-  "NextDueDate": "1995-08-31T02:49:51.4738091+02:00",
-  "Postit": "quos",
+  "NextDueDate": "2006-08-21T17:37:39.1533142+02:00",
+  "Postit": "et",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2016-03-09T02:49:51.4738091+01:00",
+  "ReopenDate": "2008-03-08T17:37:39.1533142+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Brekke LLC",
-      "Comment": "similique",
-      "StakeholderRoleId": 97,
-      "CountryId": 973,
-      "PersonId": 328,
-      "EmailDescription": "erick.stiedemann@schuppeweber.com",
-      "EmailId": 276,
-      "EmailAddress": "joanie_yost@schultzkuphal.uk",
-      "PhoneId": 280,
-      "ContactName": "Von, Bayer and Larson",
-      "ContactId": 693,
-      "SaleId": 307,
-      "Mrmrs": "reiciendis",
-      "Firstname": "Shanel",
-      "MiddleName": "Pollich, Welch and Keebler",
-      "Lastname": "Luettgen",
-      "SaleStakeholderId": 681,
-      "Rank": 93,
-      "Phone": "538-875-3938",
+      "StakeholderRoleName": "Berge Inc and Sons",
+      "Comment": "nostrum",
+      "StakeholderRoleId": 500,
+      "CountryId": 656,
+      "PersonId": 281,
+      "EmailDescription": "drew@spinkamcglynn.co.uk",
+      "EmailId": 3,
+      "EmailAddress": "aryanna.heathcote@davis.uk",
+      "PhoneId": 860,
+      "ContactName": "O'Kon LLC",
+      "ContactId": 968,
+      "SaleId": 639,
+      "Mrmrs": "assumenda",
+      "Firstname": "Jessie",
+      "MiddleName": "Stanton, Lesch and Blanda",
+      "Lastname": "Crona",
+      "SaleStakeholderId": 465,
+      "Rank": 982,
+      "Phone": "(925)723-5390 x9711",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldLength": 852
         }
       }
     }
   ],
-  "ActiveErpLinks": 559,
+  "ActiveErpLinks": 443,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Miss Vladimir Toy I"
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "corrupti",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "eveniet",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "architecto",
-    "CustomFields2": "dolor"
+    "CustomFields1": "deleniti",
+    "CustomFields2": "iste"
   },
-  "PublishEventDate": "2004-06-18T02:49:51.4738091+02:00",
-  "PublishTo": "2005-03-09T02:49:51.4738091+01:00",
-  "PublishFrom": "1995-07-26T02:49:51.4738091+02:00",
+  "PublishEventDate": "2000-04-16T17:37:39.1553069+02:00",
+  "PublishTo": "2018-05-30T17:37:39.1553069+02:00",
+  "PublishFrom": "1998-12-26T17:37:39.1553069+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 947,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldLength": 874
         }
       }
     },
     {
-      "VisibleId": 947,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldLength": 874
         }
       }
     }
@@ -305,8 +304,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldType": "System.String",
+      "FieldLength": 823
     }
   },
   "_Links": {

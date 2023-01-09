@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetRoleEntity
 Gets a RoleEntity object.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -29,7 +27,7 @@ Gets a RoleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=810
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=979
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
 
@@ -48,7 +46,7 @@ POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RoleEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,11 +66,11 @@ Response body:
 | Rank | int32 | Sorting rank of this role in lists |
 | Created | date-time | Registered when  in UTC. |
 | UseCategories | int32 | Apply role category membership to users |
-| CreatedBy |  | Created by user |
+| CreatedBy | Associate | Created by user |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Last updated by user |
-| DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight |  |  |
+| UpdatedBy | Associate | Last updated by user |
+| DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,7 +79,7 @@ Response body:
 POST /api/v1/Agents/User/GetRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,16 +89,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 843,
-  "Name": "Dickinson, Runolfsson and Funk",
-  "Tooltip": "quos",
+  "RoleId": 267,
+  "Name": "Botsford-Price",
+  "Tooltip": "rerum",
   "RoleType": "Anonymous",
-  "Deleted": 266,
-  "Rank": 959,
-  "Created": "2012-09-09T02:49:45.6403441+02:00",
-  "UseCategories": 96,
+  "Deleted": 555,
+  "Rank": 798,
+  "Created": "2021-05-28T17:37:19.5449766+02:00",
+  "UseCategories": 619,
   "CreatedBy": null,
-  "Updated": "2010-03-29T02:49:45.6403441+02:00",
+  "Updated": "2018-07-05T17:37:19.5449766+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -108,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 274
+      "FieldLength": 485
     }
   }
 }

@@ -48,7 +48,7 @@ GET /api/v1/ChatTopic/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ChatTopicEntity found.
 
@@ -57,7 +57,7 @@ ChatTopicEntity found.
 | 200 | ChatTopicEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ChatTopicEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,11 +65,11 @@ Response body:
 | Name | string | The name of this chat topic |
 | Description | string | The descriptiong for this topic. |
 | WelcomeMessage | string | The welcome message sent to the customer when the chat session starts. |
-| Language |  | Customer language used in this topic. Optional. |
+| Language | CustomerLanguage | Customer language used in this topic. Optional. |
 | LastAccept | date-time | The last time a session was accepted from the inside for this topic. |
 | SecondsPrAccept | int32 | The average number of seconds per accept for this topic. |
 | AlertRecipient | string | The recipient(s) for the alert template |
-| AlertTemplate |  | Template to use for alerts. |
+| AlertTemplate | ReplyTemplate | Template to use for alerts. |
 | CollectConsent | bool | Collect consent to store from user |
 | BadgeHeader | string | The badge header of the chat topic |
 | CustomQueueTextEnabled | bool | Use the custom queue message text |
@@ -77,13 +77,13 @@ Response body:
 | WarnNewChatMinutes | int32 | Contains the user notify time in minutes |
 | WarnManagerNewChatMinutes | int32 | Contains the manager notify time in minutes |
 | TicketEnabled | bool | Enable ticket submission in offline mode |
-| TicketCategory |  | Category on ticket created from off-line request |
-| TicketPriority |  | Priority on ticket created from off-line request |
+| TicketCategory | TicketCategory | Category on ticket created from off-line request |
+| TicketPriority | TicketPriority | Priority on ticket created from off-line request |
 | OpeningHoursEnabled | bool | Whether to use opening hours or not. |
-| OpeningHours |  | Opening hours settings |
-| Widget |  | Settings for the chat widget |
+| OpeningHours | ChatOpeningHours | Opening hours settings |
+| Widget | ChatWidgetSettings | Settings for the chat widget |
 | BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
-| BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
+| BotSettings | ChatBotSettings | Settings for chatbot: trigger script ids to run on bot events |
 | OfflineCollectConsent | bool | Collect offline consent to store from user |
 | WarnChatMessageMinutes | int32 | Contains the user notify time in minutes for new chat messages |
 | WarnManagerChatMessageMinutes | int32 | Contains the manager notify time in minutes for new chat messages |
@@ -92,7 +92,7 @@ Response body:
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -102,7 +102,7 @@ Response body:
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -112,43 +112,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 809,
-  "Name": "Crooks, Stokes and Mraz",
-  "Description": "Streamlined transitional methodology",
-  "WelcomeMessage": "consequatur",
+  "ChatTopicId": 588,
+  "Name": "Rodriguez Group",
+  "Description": "Programmable dedicated project",
+  "WelcomeMessage": "velit",
   "Language": null,
-  "LastAccept": "2005-01-30T02:49:50.6984105+01:00",
-  "SecondsPrAccept": 596,
-  "AlertRecipient": "ullam",
+  "LastAccept": "2010-09-21T17:37:38.2998602+02:00",
+  "SecondsPrAccept": 606,
+  "AlertRecipient": "unde",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "eligendi",
+  "BadgeHeader": "quidem",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "rerum",
-  "WarnNewChatMinutes": 933,
-  "WarnManagerNewChatMinutes": 740,
-  "TicketEnabled": false,
+  "CustomQueueText": "possimus",
+  "WarnNewChatMinutes": 952,
+  "WarnManagerNewChatMinutes": 643,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 627,
-  "WarnManagerChatMessageMinutes": 735,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 439,
-  "OfflineFormQueueLength": 506,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 57,
+  "WarnManagerChatMessageMinutes": 94,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 771,
+  "OfflineFormQueueLength": 438,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "unde",
+  "WidgetRatingText": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 209
     }
   },
   "_Links": {

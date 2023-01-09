@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/GetAppWebPanels?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,33 +95,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 692,
-    "Name": "O'Hara, Franecki and Reichel",
+    "WebPanelId": 823,
+    "Name": "McCullough Inc and Sons",
     "Tooltip": "et",
     "Deleted": false,
-    "Rank": 125,
+    "Rank": 869,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": false,
+    "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "O'Connell-Blanda",
+    "ShowInToolBar": false,
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": true,
+    "WindowName": "Tillman Group",
     "Url": "http://www.example.com/",
-    "ProgId": "quae",
-    "Icon": 833,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "mollitia",
+    "Icon": 64,
+    "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 679
       }
     }
   }

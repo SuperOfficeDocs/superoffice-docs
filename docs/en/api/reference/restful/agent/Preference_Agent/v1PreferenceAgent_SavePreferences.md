@@ -40,16 +40,15 @@ POST /api/v1/Agents/Preference/SavePreferences?$select=name,department,category/
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Preferences 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Preferences | array |  |
+| Preferences | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -57,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -66,23 +65,23 @@ Response body:
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "at",
+      "RawValue": "et",
       "Specification": null,
-      "DisplayValue": "tempora",
-      "DisplayTooltip": "enim",
+      "DisplayValue": "aut",
+      "DisplayTooltip": "dolorem",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 169,
-      "PrefDescId": 876,
-      "TableName": "Ward Group",
-      "UserPreferenceId": 211
+      "TargetId": 295,
+      "PrefDescId": 525,
+      "TableName": "Bergstrom Group",
+      "UserPreferenceId": 748
     }
   ]
 }

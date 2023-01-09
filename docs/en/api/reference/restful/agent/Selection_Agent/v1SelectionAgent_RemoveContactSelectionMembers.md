@@ -38,17 +38,16 @@ POST /api/v1/Agents/Selection/RemoveContactSelectionMembers?$select=name,departm
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, ContactPersonIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| ContactPersonIds | array |  |
+| SelectionId | Integer |  |
+| ContactPersonIds | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -69,15 +68,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 938,
+  "SelectionId": 768,
   "ContactPersonIds": [
     {
-      "PersonId": 266,
-      "ContactId": 138
+      "PersonId": 470,
+      "ContactId": 13
     },
     {
-      "PersonId": 266,
-      "ContactId": 138
+      "PersonId": 470,
+      "ContactId": 13
     }
   ]
 }

@@ -34,21 +34,20 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HeadingId | int32 | Primary key |
-| Name | string | The visible heading |
-| Tooltip | string | Tooltip or other description |
-| Deleted | bool | True if the heading is marked as deleted |
-| Rank | int32 | Rank order |
-| UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+| HeadingId | Integer | Primary key |
+| Name | String | The visible heading |
+| Tooltip | String | Tooltip or other description |
+| Deleted | Boolean | True if the heading is marked as deleted |
+| Rank | Integer | Rank order |
+| UdListDefinitionId | Integer | The id of the list which this heading belongs to |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body: array
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,25 +74,25 @@ Response body: array
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 997,
-    "Name": "Cummings LLC",
-    "Tooltip": "harum",
+    "HeadingId": 27,
+    "Name": "Gutmann, Weber and Zboncak",
+    "Tooltip": "perspiciatis",
     "Deleted": false,
-    "Rank": 644,
-    "UdListDefinitionId": 904
+    "Rank": 629,
+    "UdListDefinitionId": 891
   },
   {
-    "HeadingId": 997,
-    "Name": "Cummings LLC",
-    "Tooltip": "harum",
+    "HeadingId": 27,
+    "Name": "Gutmann, Weber and Zboncak",
+    "Tooltip": "perspiciatis",
     "Deleted": false,
-    "Rank": 644,
-    "UdListDefinitionId": 904
+    "Rank": 629,
+    "UdListDefinitionId": 891
   }
 ]
 ```
@@ -106,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 149,
-    "Name": "Zulauf, Emmerich and Kunze",
-    "Tooltip": "voluptatem",
+    "HeadingId": 979,
+    "Name": "Hirthe-Kshlerin",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 310,
-    "UdListDefinitionId": 551,
+    "Rank": 857,
+    "UdListDefinitionId": 869,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldLength": 595
       }
     }
   }

@@ -48,7 +48,7 @@ GET /api/v1/Relation/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ContactRelationEntity found.
 
@@ -58,7 +58,7 @@ ContactRelationEntity found.
 | 304 | ContactRelationEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ContactRelationEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,15 +72,15 @@ Response body:
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -90,7 +90,7 @@ Response body:
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,33 +98,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 29 Nov 2014 02:49:50 G11T
+Last-Modified: Sun, 22 Oct 2000 17:37:38 G10T
 
 {
-  "SourceContactId": 589,
-  "SourcePersonId": 21,
-  "DestinationContactId": 685,
-  "DestinationPersonId": 484,
-  "RelationId": 207,
-  "Comment": "quaerat",
-  "RelationDefinitionId": 776,
-  "Reversed": 230,
-  "UpdatedDate": "2014-11-29T02:49:50.8546634+01:00",
-  "CreatedDate": "2011-03-20T02:49:50.8546634+01:00",
+  "SourceContactId": 281,
+  "SourcePersonId": 539,
+  "DestinationContactId": 664,
+  "DestinationPersonId": 863,
+  "RelationId": 975,
+  "Comment": "ut",
+  "RelationDefinitionId": 659,
+  "Reversed": 238,
+  "UpdatedDate": "2000-10-22T17:37:38.47386+02:00",
+  "CreatedDate": "1997-10-16T17:37:38.47386+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Ledner-Rath",
-  "SourcePersonName": "Hane-Rolfson",
-  "DestinationContactName": "Runolfsdottir-Walker",
-  "DestinationPersonName": "Runolfsson-Fisher",
-  "ActiveText": "nemo",
-  "PassiveText": "et",
+  "SourceContactName": "Kris, Morar and Kiehn",
+  "SourcePersonName": "Mayert-Anderson",
+  "DestinationContactName": "Larson LLC",
+  "DestinationPersonName": "Kunze, Simonis and Champlin",
+  "ActiveText": "voluptatibus",
+  "PassiveText": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 204
+      "FieldLength": 889
     }
   },
   "_Links": {

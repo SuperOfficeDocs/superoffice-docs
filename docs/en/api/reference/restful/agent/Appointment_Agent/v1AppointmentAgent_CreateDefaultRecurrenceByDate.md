@@ -44,16 +44,15 @@ POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StartDate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StartDate | date-time |  |
+| StartDate | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,10 +70,10 @@ Response body:
 | RecurrenceCounter | int32 |  |
 | RecurrenceEndType | string |  |
 | Pattern | string |  |
-| DayPattern |  |  |
-| WeekPattern |  |  |
-| MonthPattern |  |  |
-| YearPattern |  |  |
+| DayPattern | TableRight |  |
+| WeekPattern | TableRight |  |
+| MonthPattern | TableRight |  |
+| YearPattern | TableRight |  |
 | Dates | array |  |
 | IsRecurrence | bool |  |
 
@@ -84,11 +83,11 @@ Response body:
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2018-12-20T02:49:43.419154+01:00"
+  "StartDate": "2022-03-30T17:37:16.4682407+02:00"
 }
 ```
 
@@ -99,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 363,
-  "StartDate": "2011-12-29T02:49:43.419154+01:00",
-  "EndDate": "1995-12-24T02:49:43.419154+01:00",
-  "RecurrenceCounter": 315,
+  "RecurrenceId": 777,
+  "StartDate": "2013-10-05T17:37:16.4682407+02:00",
+  "EndDate": "2010-03-28T17:37:16.4682407+02:00",
+  "RecurrenceCounter": 246,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +110,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2002-10-14T02:49:43.419154+02:00",
+      "Date": "2019-10-17T17:37:16.4682407+02:00",
       "IsConflict": false,
-      "Description": "Decentralized maximized architecture",
-      "DescriptionStyleHint": "Right-sized neutral approach",
-      "Tooltip": "ullam"
+      "Description": "Sharable web-enabled portal",
+      "DescriptionStyleHint": "Public-key national orchestration",
+      "Tooltip": "ipsam"
     },
     {
-      "Date": "2002-10-14T02:49:43.419154+02:00",
+      "Date": "2019-10-17T17:37:16.4682407+02:00",
       "IsConflict": false,
-      "Description": "Decentralized maximized architecture",
-      "DescriptionStyleHint": "Right-sized neutral approach",
-      "Tooltip": "ullam"
+      "Description": "Sharable web-enabled portal",
+      "DescriptionStyleHint": "Public-key national orchestration",
+      "Tooltip": "ipsam"
     }
   ],
   "IsRecurrence": false

@@ -12,8 +12,6 @@ POST /api/v1/Agents/Webhook/SaveWebhook
 Updates the existing Webhook or creates a new Webhook if the id parameter is empty
 
 
-
-
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -36,28 +34,27 @@ Updates the existing Webhook or creates a new Webhook if the id parameter is emp
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The Webhook to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| WebhookId | int32 | Primary Key. Unique id for this webhook. |
-| Name | string | Name to identify this webhook. Does not have to be unique. |
-| Events | array | Array of event names that trigger this webhook: ['contact.created', 'sale.changed'] |
-| TargetUrl | string | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
-| Secret | string | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
-| State | string | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
-| Type | string | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
-| Headers | object | Custom HTTP Headers to add to webhook requests. |
-| Properties | object | Custom values to inject into JSON body of webhook call. |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociate |  | The user that created the webhook. |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociate |  | The user that last updated the webhook. |
+| WebhookId | Integer | Primary Key. Unique id for this webhook. |
+| Name | String | Name to identify this webhook. Does not have to be unique. |
+| Events | Array | Array of event names that trigger this webhook: ['contact.created', 'sale.changed'] |
+| TargetUrl | String | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
+| Secret | String | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
+| State | String | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
+| Type | String | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
+| Headers | Object | Custom HTTP Headers to add to webhook requests. |
+| Properties | Object | Custom values to inject into JSON body of webhook call. |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociate | Associate | The user that created the webhook. |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociate | Associate | The user that last updated the webhook. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Webhook
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,9 +76,9 @@ Response body:
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociate |  | The user that created the webhook. |
+| RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociate |  | The user that last updated the webhook. |
+| UpdatedAssociate | Associate | The user that last updated the webhook. |
 
 ## Sample request
 
@@ -93,26 +90,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 588,
-  "Name": "Smitham Group",
+  "WebhookId": 717,
+  "Name": "Veum-Rice",
   "Events": [
-    "omnis",
-    "non"
+    "est",
+    "quos"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "qui",
+  "Secret": "iste",
   "State": "Active",
-  "Type": "alias",
+  "Type": "molestiae",
   "Headers": {
-    "Headers1": "ex",
-    "Headers2": "earum"
+    "Headers1": "dignissimos",
+    "Headers2": "illo"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2004-05-26T02:49:45.7184704+02:00",
+  "Registered": "2016-10-25T17:37:19.6439772+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-02-20T02:49:45.7184704+01:00",
+  "Updated": "2004-12-19T17:37:19.6459756+01:00",
   "UpdatedAssociate": null
 }
 ```
@@ -124,26 +121,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 399,
-  "Name": "Jerde LLC",
+  "WebhookId": 578,
+  "Name": "Kuhn, Pagac and Rice",
   "Events": [
-    "sit",
-    "eum"
+    "id",
+    "dolorum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "a",
+  "Secret": "excepturi",
   "State": "Active",
-  "Type": "sunt",
+  "Type": "voluptatem",
   "Headers": {
-    "Headers1": "quaerat",
-    "Headers2": "quis"
+    "Headers1": "modi",
+    "Headers2": "neque"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2011-10-09T02:49:45.7340964+02:00",
+  "Registered": "2008-05-09T17:37:19.6469776+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2019-03-09T02:49:45.7340964+01:00",
+  "Updated": "1999-12-24T17:37:19.6469776+01:00",
   "UpdatedAssociate": null
 }
 ```

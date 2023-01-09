@@ -42,19 +42,18 @@ POST /api/v1/Agents/Find/CreateRestrictionGroup?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| Context | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| Context | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,14 +76,14 @@ Response body:
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptas",
-  "ProviderName": "Wuckert-Yost",
-  "StorageKey": "sapiente",
-  "Context": "voluptate"
+  "StorageType": "doloribus",
+  "ProviderName": "Morissette, O'Keefe and Zieme",
+  "StorageKey": "autem",
+  "Context": "doloremque"
 }
 ```
 
@@ -95,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jacobs-Reynolds",
-  "Description": "Down-sized upward-trending instruction set",
-  "Rank": 316,
+  "Name": "Lehner, Morar and Fahey",
+  "Description": "Fully-configurable cohesive model",
+  "Rank": 913,
   "Restrictions": [
     {
-      "Name": "Lowe-Reichel",
-      "Operator": "eius",
+      "Name": "Kling, Dicki and Upton",
+      "Operator": "autem",
       "Values": [
-        "optio",
-        "quibusdam"
+        "voluptatem",
+        "est"
       ],
       "DisplayValues": [
-        "debitis",
-        "minus"
+        "est",
+        "ducimus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 313,
+      "InterParenthesis": 867,
       "InterOperator": "And",
-      "UniqueHash": 170
+      "UniqueHash": 131
     }
   ]
 }

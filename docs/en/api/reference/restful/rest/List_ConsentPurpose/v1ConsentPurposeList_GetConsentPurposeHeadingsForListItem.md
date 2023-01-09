@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 106,
-    "Name": "Bruen LLC",
-    "ToolTip": "Et maiores laudantium.",
+    "Id": 848,
+    "Name": "Wyman Group",
+    "ToolTip": "Autem earum quod.",
     "Deleted": false,
-    "Rank": 687,
-    "Type": "eum",
-    "ColorBlock": 265,
-    "IconHint": "earum",
+    "Rank": 878,
+    "Type": "et",
+    "ColorBlock": 773,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2016-02-24T02:49:51.9378192+01:00",
+    "LastChanged": "2001-01-17T17:37:39.9015035+01:00",
     "ChildItems": [
       {
-        "Id": 927,
-        "Name": "Lemke, Feil and Gibson",
-        "ToolTip": "Qui ad quibusdam recusandae.",
+        "Id": 622,
+        "Name": "Cummings-Nikolaus",
+        "ToolTip": "Ipsa quod sint sint.",
         "Deleted": true,
-        "Rank": 758,
-        "Type": "unde",
-        "ColorBlock": 824,
-        "IconHint": "accusantium",
-        "Selected": false,
-        "LastChanged": "1995-10-22T02:49:51.9378192+02:00",
+        "Rank": 706,
+        "Type": "aliquid",
+        "ColorBlock": 398,
+        "IconHint": "corrupti",
+        "Selected": true,
+        "LastChanged": "1997-07-11T17:37:39.9015035+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "eum",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "corporis",
         "Hidden": true,
-        "FullName": "Dr. Monica Leannon",
+        "FullName": "Martina Grady",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 708
+            "FieldType": "System.String",
+            "FieldLength": 968
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "assumenda",
-    "Hidden": false,
-    "FullName": "Elna Feest",
+    "ExtraInfo": "sint",
+    "StyleHint": "asperiores",
+    "Hidden": true,
+    "FullName": "Zachary Stiedemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldType": "System.Int32",
+        "FieldLength": 588
       }
     }
   }

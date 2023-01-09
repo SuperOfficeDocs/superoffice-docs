@@ -42,13 +42,12 @@ POST /api/v1/Agents/Associate/GetAssociateList?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: associateIds  
+## Request Body: associateIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body: array
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
 | UserName | string | User name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,7 +80,7 @@ Response body: array
 POST /api/v1/Agents/Associate/GetAssociateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,24 +91,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 577,
-    "Name": "Jacobi, Rohan and Hane",
-    "PersonId": 323,
-    "Rank": 757,
-    "Tooltip": "delectus",
+    "AssociateId": 539,
+    "Name": "Aufderhar LLC",
+    "PersonId": 256,
+    "Rank": 646,
+    "Tooltip": "dolor",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 727,
-    "FullName": "Elfrieda Heathcote",
-    "FormalName": "Fadel, Pouros and Carroll",
+    "GroupIdx": 378,
+    "FullName": "Mr. Bart Gabriella Pfeffer",
+    "FormalName": "Bayer, Reinger and King",
     "Deleted": false,
-    "EjUserId": 834,
-    "UserName": "Casper Group",
+    "EjUserId": 380,
+    "UserName": "Ziemann-Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldLength": 886
       }
     }
   }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetAttachment
 Retrieve an attachment from an e-mail
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,18 +44,17 @@ POST /api/v1/Agents/EMail/GetAttachment?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConnectionInfo, MessageServerId, AttachmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-| MessageServerId | int32 |  |
-| AttachmentId | string |  |
+| ConnectionInfo | EMailConnectionInfo | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| MessageServerId | Integer |  |
+| AttachmentId | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailAttachment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +74,7 @@ Response body:
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 989,
-  "AttachmentId": "nemo"
+  "MessageServerId": 309,
+  "AttachmentId": "dolores"
 }
 ```
 
@@ -103,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Expanded 5th generation encryption",
-  "Filename": "quaerat",
-  "Size": 933,
-  "Type": "earum",
-  "Encoding": "quidem",
-  "Id": "aut",
-  "Disposition": "occaecati",
+  "Description": "Enterprise-wide scalable approach",
+  "Filename": "aut",
+  "Size": 715,
+  "Type": "est",
+  "Encoding": "non",
+  "Id": "quidem",
+  "Disposition": "voluptatum",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 540
     }
   }
 }

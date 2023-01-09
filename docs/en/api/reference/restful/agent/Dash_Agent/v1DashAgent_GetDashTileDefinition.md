@@ -25,7 +25,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=724
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=107
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTileDefinition
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body:
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,31 +94,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 25,
-  "Name": "Muller-Dickens",
-  "Description": "Versatile 24/7 access",
-  "DefaultHeight": 742,
-  "DefaultWidth": 181,
+  "DashboardTileDefinitionId": 526,
+  "Name": "Heaney, Auer and Medhurst",
+  "Description": "Diverse zero administration contingency",
+  "DefaultHeight": 687,
+  "DefaultWidth": 633,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Strosin-Roberts",
-  "SelectionId": 738,
+  "EntityName": "DuBuque-Howell",
+  "SelectionId": 126,
   "CurrencyMode": "Base",
-  "CurrencyCode": "qui",
+  "CurrencyCode": "fugit",
   "Measure": "Average",
-  "MeasureField": "ad",
-  "SortBy": "tempore",
-  "LayoutConfig": "voluptas",
-  "SecondarySelectionId": 359,
-  "MeasureByField": "natus",
+  "MeasureField": "molestiae",
+  "SortBy": "sapiente",
+  "LayoutConfig": "aliquid",
+  "SecondarySelectionId": 934,
+  "MeasureByField": "corrupti",
   "Usage": "Dashboard",
-  "ProviderName": "Dare-Wintheiser",
+  "ProviderName": "O'Kon-Beer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldLength": 403
     }
   }
 }

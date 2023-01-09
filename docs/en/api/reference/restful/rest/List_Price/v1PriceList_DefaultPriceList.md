@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PriceList
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +56,7 @@ Response body:
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -65,7 +65,7 @@ Response body:
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 774,
-  "ERPPriceListKey": "sunt",
-  "QuoteConnectionId": 188,
-  "Name": "Ryan-Franecki",
-  "Description": "Team-oriented bi-directional application",
-  "Currency": "incidunt",
-  "CurrencyName": "Lesch LLC",
-  "ValidFrom": "1998-03-23T02:49:52.3284476+01:00",
-  "ValidTo": "2021-03-21T02:49:52.3284476+01:00",
-  "IsActive": false,
+  "PriceListId": 890,
+  "ERPPriceListKey": "vel",
+  "QuoteConnectionId": 586,
+  "Name": "Lindgren LLC",
+  "Description": "Public-key bifurcated task-force",
+  "Currency": "unde",
+  "CurrencyName": "Franecki LLC",
+  "ValidFrom": "1996-11-15T17:37:40.1165093+01:00",
+  "ValidTo": "2003-11-16T17:37:40.1165093+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldLength": 446
     }
   }
 }

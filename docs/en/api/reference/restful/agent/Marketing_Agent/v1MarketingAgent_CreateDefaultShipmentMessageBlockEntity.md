@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ShipmentMessageBlockEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +54,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -63,7 +63,7 @@ Response body:
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 784,
-  "AssociateId": 281,
-  "Block": "voluptatibus",
-  "Registered": "2001-12-17T02:49:44.7172985+01:00",
-  "RegisteredAssociateId": 19,
-  "Updated": "2020-11-07T02:49:44.7172985+01:00",
-  "UpdatedAssociateId": 392,
-  "UpdatedCount": 831,
+  "ShipmentMessageBlockId": 102,
+  "AssociateId": 273,
+  "Block": "voluptatem",
+  "Registered": "2008-01-23T17:37:18.3182412+01:00",
+  "RegisteredAssociateId": 166,
+  "Updated": "2012-07-25T17:37:18.3182412+02:00",
+  "UpdatedAssociateId": 70,
+  "UpdatedCount": 917,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldLength": 646
     }
   }
 }

@@ -42,17 +42,16 @@ POST /api/v1/Agents/MDO/GetListItem?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ListName, Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ListName | string |  |
-| Id | int32 |  |
+| ListName | String |  |
+| Id | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: MDOListItem
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body:
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,8 +88,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Altenwerth-Cremin",
-  "Id": 511
+  "ListName": "Ebert, Koss and Grant",
+  "Id": 68
 }
 ```
 
@@ -101,50 +100,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 701,
-  "Name": "Leuschke LLC",
-  "ToolTip": "Eum tempora sit et impedit.",
-  "Deleted": true,
-  "Rank": 923,
-  "Type": "impedit",
+  "Id": 730,
+  "Name": "Hane-Cassin",
+  "ToolTip": "Maiores veritatis vel ducimus reprehenderit facilis.",
+  "Deleted": false,
+  "Rank": 343,
+  "Type": "id",
   "ChildItems": [
     {
-      "Id": 125,
-      "Name": "Stanton, Carter and Cole",
-      "ToolTip": "Sit id repellendus.",
-      "Deleted": false,
-      "Rank": 424,
-      "Type": "quia",
+      "Id": 156,
+      "Name": "Miller-Leannon",
+      "ToolTip": "Ducimus voluptatem nulla doloribus corrupti ut facere dolore.",
+      "Deleted": true,
+      "Rank": 605,
+      "Type": "consequatur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "veritatis",
-      "ColorBlock": 804,
-      "ExtraInfo": "consectetur",
-      "StyleHint": "esse",
-      "FullName": "Prof. Gudrun Gerry Kunde I",
+      "IconHint": "ea",
+      "ColorBlock": 76,
+      "ExtraInfo": "expedita",
+      "StyleHint": "eos",
+      "FullName": "Mr. Lafayette Klocko Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 503
+          "FieldType": "System.Int32",
+          "FieldLength": 298
         }
       }
     }
   ],
-  "IconHint": "ut",
-  "ColorBlock": 520,
-  "ExtraInfo": "sed",
-  "StyleHint": "ullam",
-  "FullName": "Benedict Bogan",
+  "IconHint": "eius",
+  "ColorBlock": 62,
+  "ExtraInfo": "ex",
+  "StyleHint": "qui",
+  "FullName": "Gregory Weber",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 905
     }
   }
 }

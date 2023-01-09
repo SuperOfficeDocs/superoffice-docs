@@ -32,21 +32,20 @@ Update the Credited list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems  
+## Request Body: listItems 
 
 All the updated Credited. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The identity of the list item |
-| Name | string | The name of the list item |
-| Tooltip | string | The tooltip of the list item |
-| Deleted | bool | True if the list item is marked as deleted |
-| UdListDefinitionId | int32 | The id of the list which this list item belongs to |
-| Rank | int32 | The rank of the list item |
+| Id | Integer | The identity of the list item |
+| Name | String | The name of the list item |
+| Tooltip | String | The tooltip of the list item |
+| Deleted | Boolean | True if the list item is marked as deleted |
+| UdListDefinitionId | Integer | The id of the list which this list item belongs to |
+| Rank | Integer | The rank of the list item |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -54,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +63,7 @@ Response body: array
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 325,
-    "Name": "Krajcik-Jast",
-    "Tooltip": "sunt",
+    "Id": 42,
+    "Name": "Conn, Jacobi and Brakus",
+    "Tooltip": "deleniti",
     "Deleted": true,
-    "UdListDefinitionId": 641,
-    "Rank": 50
+    "UdListDefinitionId": 45,
+    "Rank": 721
   },
   {
-    "Id": 325,
-    "Name": "Krajcik-Jast",
-    "Tooltip": "sunt",
+    "Id": 42,
+    "Name": "Conn, Jacobi and Brakus",
+    "Tooltip": "deleniti",
     "Deleted": true,
-    "UdListDefinitionId": 641,
-    "Rank": 50
+    "UdListDefinitionId": 45,
+    "Rank": 721
   }
 ]
 ```
@@ -104,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 955,
-    "Name": "Schneider-Pacocha",
-    "Tooltip": "asperiores",
+    "Id": 857,
+    "Name": "Nader-Windler",
+    "Tooltip": "placeat",
     "Deleted": false,
-    "UdListDefinitionId": 389,
-    "Rank": 603,
+    "UdListDefinitionId": 964,
+    "Rank": 81,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 915
+        "FieldType": "System.Int32",
+        "FieldLength": 928
       }
     }
   }

@@ -40,19 +40,18 @@ POST /api/v1/Agents/EMail/RelayMessage?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConnectionInfoExtended, Rfc822, From, Recipients 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfoExtended |  | Carrier object for EMailConnectionInfoExtended. Services for the EMailConnectionInfoExtended Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-| Rfc822 | string |  |
-| From | string |  |
-| Recipients | array |  |
+| ConnectionInfoExtended | EMailConnectionInfoExtended | Carrier object for EMailConnectionInfoExtended. Services for the EMailConnectionInfoExtended Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| Rfc822 | String |  |
+| From | String |  |
+| Recipients | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -60,7 +59,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -69,16 +68,16 @@ Response body:
 POST /api/v1/Agents/EMail/RelayMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": null,
-  "Rfc822": "neque",
-  "From": "explicabo",
+  "Rfc822": "quia",
+  "From": "eum",
   "Recipients": [
-    "corporis",
-    "debitis"
+    "nihil",
+    "fuga"
   ]
 }
 ```

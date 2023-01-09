@@ -36,7 +36,7 @@ Gets the ForeignApp with the given name.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignAppEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,10 +52,10 @@ Response body:
 | Name | string | Name of foreign application |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the foreign application. |
-| UpdatedBy |  | The person that last updated this foreign application. |
+| CreatedBy | Associate | The person that created the foreign application. |
+| UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -64,7 +64,7 @@ Response body:
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,32 +72,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 27 Jun 2015 02:49:50 G6T
+Last-Modified: Tue, 15 Mar 2016 17:37:38 G3T
 
 {
-  "ForeignAppId": 505,
-  "Name": "Mohr-Morar",
-  "CreatedDate": "2017-03-01T02:49:50.979663+01:00",
-  "UpdatedDate": "2015-06-27T02:49:50.979663+02:00",
+  "ForeignAppId": 298,
+  "Name": "Hudson-Hills",
+  "CreatedDate": "2001-11-18T17:37:38.8128674+01:00",
+  "UpdatedDate": "2016-03-15T17:37:38.8128674+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 729,
-      "Name": "Bartell LLC",
-      "CreatedDate": "2014-08-13T02:49:50.979663+02:00",
-      "UpdatedDate": "1996-06-28T02:49:50.979663+02:00",
-      "AssociateFullName": "Omari McKenzie",
-      "CreatedBy": "dolor",
-      "UpdatedBy": "qui",
-      "DeviceIdentifier": "veniam",
-      "ForeignAppId": 664,
+      "ForeignDeviceId": 677,
+      "Name": "Mitchell, Windler and Bartell",
+      "CreatedDate": "2013-10-25T17:37:38.8138603+02:00",
+      "UpdatedDate": "2008-10-06T17:37:38.8138603+02:00",
+      "AssociateFullName": "Lester Barton",
+      "CreatedBy": "ut",
+      "UpdatedBy": "facilis",
+      "DeviceIdentifier": "delectus",
+      "ForeignAppId": 971,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldType": "System.String",
+          "FieldLength": 223
         }
       }
     }
@@ -107,7 +107,7 @@ Last-Modified: Sat, 27 Jun 2015 02:49:50 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldLength": 529
     }
   }
 }

@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectMember
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +67,7 @@ Response body:
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,7 +76,7 @@ Response body:
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 609,
-  "ContactId": 1001,
-  "ProjectId": 289,
-  "ContactName": "Tremblay Group",
+  "ProjectmemberId": 621,
+  "ContactId": 628,
+  "ProjectId": 593,
+  "ContactName": "Kris Inc and Sons",
   "ContactDepartment": "",
-  "ProjectName": "Hettinger, Russel and Morissette",
-  "EmailId": 348,
-  "EmailAddress": "leonor_miller@hermiston.co.uk",
-  "CountryId": 302,
-  "Firstname": "Wilburn",
-  "MiddleName": "Leannon Group",
-  "Lastname": "Jenkins",
-  "PersonId": 187,
-  "Mrmrs": "nam",
-  "ProjectMemberTypeName": "Corkery-Prosacco",
-  "Phone": "1-721-463-2444 x751",
-  "PhoneId": 227,
-  "ProjectMemberTypeId": 349,
-  "EmailAddressName": "nayeli@kilback.ca",
-  "Comment": "quo",
-  "FullName": "Saul Mosciski",
+  "ProjectName": "Ryan LLC",
+  "EmailId": 175,
+  "EmailAddress": "cydney@schiller.com",
+  "CountryId": 622,
+  "Firstname": "Bailee",
+  "MiddleName": "Carroll-Maggio",
+  "Lastname": "Keebler",
+  "PersonId": 264,
+  "Mrmrs": "minima",
+  "ProjectMemberTypeName": "Cartwright Inc and Sons",
+  "Phone": "(133)978-0099",
+  "PhoneId": 574,
+  "ProjectMemberTypeId": 14,
+  "EmailAddressName": "sherwood.lesch@dietrichhickle.com",
+  "Comment": "illo",
+  "FullName": "Erwin Mosciski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldLength": 370
     }
   }
 }

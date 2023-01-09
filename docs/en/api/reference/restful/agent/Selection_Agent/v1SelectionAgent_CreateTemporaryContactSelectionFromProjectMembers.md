@@ -42,16 +42,15 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
+| ProjectId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,16 +58,16 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SelectionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| Associate |  | Owner of the selection |
-| CreatedBy |  | Who created the selection |
-| UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| Associate | Associate | Owner of the selection |
+| CreatedBy | Associate | Who created the selection |
+| UpdatedBy | Associate | Who last modified the selection |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -95,16 +94,16 @@ Response body:
 | ChartKey | string | ID/key of the last-used chart tile on this selection |
 | LastLoaded | date-time | The date/time this selection was last loaded (selectionentity fetched) |
 | LastLoadedBy | int32 | Who last loaded this selection |
-| LastLoadedByAssociate |  | Associate that last looked at the selection members; only date (not time) is valid |
+| LastLoadedByAssociate | Associate | Associate that last looked at the selection members; only date (not time) is valid |
 | LastMembershipChange | date-time | The date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm |
 | LastMembershipChangeBy | int32 | Who last changed the membership |
-| LastMembershipChangeByAssociate |  | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
+| LastMembershipChangeByAssociate | Associate | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
 | MainHeading | string | 'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references |
 | MemberTabHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references |
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -113,11 +112,11 @@ Response body:
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 761
+  "ProjectId": 148
 }
 ```
 
@@ -128,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-contextualized fresh-thinking superstructure",
-  "Postit": "voluptatem",
+  "Description": "Versatile content-based frame",
+  "Postit": "perspiciatis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 377,
-  "IncludePerson": 30,
-  "MemberCount": 775,
-  "Name": "Cronin-Okuneva",
-  "PostitTextId": 523,
-  "CreatedDate": "2006-12-23T02:49:45.3903386+01:00",
-  "SelectionId": 965,
-  "SoundEx": "nobis",
-  "Source": 444,
-  "TextId": 193,
-  "UpdatedDate": "2019-03-12T02:49:45.3903386+01:00",
-  "UpdatedCount": 37,
-  "Visibility": 328,
+  "GroupIdx": 799,
+  "IncludePerson": 667,
+  "MemberCount": 9,
+  "Name": "Runolfsdottir LLC",
+  "PostitTextId": 401,
+  "CreatedDate": "2004-07-03T17:37:19.166241+02:00",
+  "SelectionId": 753,
+  "SoundEx": "recusandae",
+  "Source": 1001,
+  "TextId": 45,
+  "UpdatedDate": "2009-06-18T17:37:19.166241+02:00",
+  "UpdatedCount": 827,
+  "Visibility": 43,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 720,
-  "TargetTableName": "Stamm-Reynolds",
-  "Completed": true,
-  "LeftSelectionId": 261,
-  "RightSelectionId": 221,
+  "TargetTableNumber": 1001,
+  "TargetTableName": "Windler-Zboncak",
+  "Completed": false,
+  "LeftSelectionId": 989,
+  "RightSelectionId": 472,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Swift Inc and Sons",
-  "ShadowProviderName": "Hermiston-Streich",
-  "ChartKey": "voluptates",
-  "LastLoaded": "2020-08-25T02:49:45.3903386+02:00",
-  "LastLoadedBy": 331,
+  "MainProviderName": "Kuhlman-Mills",
+  "ShadowProviderName": "Schuppe-Hirthe",
+  "ChartKey": "voluptatem",
+  "LastLoaded": "2004-11-24T17:37:19.1672417+01:00",
+  "LastLoadedBy": 956,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-08-07T02:49:45.3903386+02:00",
-  "LastMembershipChangeBy": 613,
+  "LastMembershipChange": "2010-12-07T17:37:19.1672417+01:00",
+  "LastMembershipChangeBy": 437,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatem",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Murphy-Smitham",
-  "DashboardTileDefinitionId": 277,
+  "MainHeading": "et",
+  "MemberTabHeading": "voluptate",
+  "MailingsProviderName": "VonRueden-Hills",
+  "DashboardTileDefinitionId": 816,
   "VisibleFor": [
     {
-      "VisibleId": 357,
+      "VisibleId": 704,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldType": "System.String",
+          "FieldLength": 564
         }
       }
     },
     {
-      "VisibleId": 357,
+      "VisibleId": 704,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldType": "System.String",
+          "FieldLength": 564
         }
       }
     }
@@ -201,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldLength": 152
     }
   }
 }

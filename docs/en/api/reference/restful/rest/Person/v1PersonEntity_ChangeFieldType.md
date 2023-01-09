@@ -47,7 +47,7 @@ POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=Tr
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 PersonEntity found.
 
@@ -56,7 +56,7 @@ PersonEntity found.
 | 200 | PersonEntity found. |
 | 404 | PersonEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +94,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -113,46 +113,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 989,
-  "ColumnId": 643,
-  "FieldDefault": "quia",
-  "FieldHeight": 848,
-  "FieldLabel": "quae",
-  "FieldLeft": 36,
-  "FieldTop": 208,
+  "UDefFieldId": 21,
+  "ColumnId": 404,
+  "FieldDefault": "veritatis",
+  "FieldHeight": 810,
+  "FieldLabel": "mollitia",
+  "FieldLeft": 726,
+  "FieldTop": 448,
   "FieldType": "Checkbox",
-  "FieldWidth": 289,
-  "FormatMask": "molestiae",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 967,
-  "LabelLeft": 741,
-  "LabelTop": 670,
-  "LabelWidth": 556,
-  "LastVersionId": 982,
-  "ListTableId": 312,
+  "FieldWidth": 997,
+  "FormatMask": "nesciunt",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 576,
+  "LabelLeft": 328,
+  "LabelTop": 846,
+  "LabelWidth": 668,
+  "LastVersionId": 124,
+  "ListTableId": 734,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 656,
-  "ProgId": "aut",
+  "Page1LineNo": 194,
+  "ProgId": "est",
   "IsReadOnly": true,
-  "ShortLabel": "ad",
-  "TabOrder": 852,
-  "TextLength": 495,
-  "Tooltip": "maxime",
-  "UdefIdentity": 636,
-  "UDListDefinitionId": 405,
+  "ShortLabel": "et",
+  "TabOrder": 854,
+  "TextLength": 783,
+  "Tooltip": "perspiciatis",
+  "UdefIdentity": 517,
+  "UDListDefinitionId": 398,
   "Justification": "Center",
-  "Version": 947,
-  "TemplateVariableName": "Wisoky, Reinger and Lynch",
+  "Version": 168,
+  "TemplateVariableName": "Kuhlman-Nolan",
   "HasBeenPublished": false,
-  "MdoListName": "Volkman, Mohr and Hauck",
+  "MdoListName": "Lesch, Jakubowski and Jacobson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldType": "System.String",
+      "FieldLength": 31
     }
   }
 }

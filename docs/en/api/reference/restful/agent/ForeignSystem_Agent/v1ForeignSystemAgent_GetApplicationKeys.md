@@ -42,16 +42,15 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationKeys?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
+| ApplicationName | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body: array
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +83,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Grant-Heller"
+  "ApplicationName": "Kuvalis LLC"
 }
 ```
 
@@ -96,20 +95,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "omnis",
-    "Value": "commodi",
-    "RecordId": 866,
-    "CreatedDate": "2007-03-24T02:49:44.561046+01:00",
-    "UpdatedDate": "1999-06-27T02:49:44.561046+02:00",
-    "UpdatedBy": "accusantium",
-    "CreatedBy": "eius",
-    "TableName": "Parker, Mraz and Robel",
+    "Key": "tempore",
+    "Value": "et",
+    "RecordId": 178,
+    "CreatedDate": "2012-09-17T17:37:18.1142411+02:00",
+    "UpdatedDate": "2008-04-14T17:37:18.1142411+02:00",
+    "UpdatedBy": "optio",
+    "CreatedBy": "suscipit",
+    "TableName": "Feil-Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 120
+        "FieldType": "System.Int32",
+        "FieldLength": 508
       }
     }
   }

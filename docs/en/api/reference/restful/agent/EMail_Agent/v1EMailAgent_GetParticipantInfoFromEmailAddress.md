@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetParticipantInfoFromEmailAddress
 Get participant data associated with the participant in the emails iCal attachment
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/EMail/GetParticipantInfoFromEmailAddress?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EmailAddress, AppointmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EmailAddress | string |  |
-| AppointmentId | int32 |  |
+| EmailAddress | String |  |
+| AppointmentId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Person
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -108,7 +105,7 @@ Response body:
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -117,12 +114,12 @@ Response body:
 POST /api/v1/Agents/EMail/GetParticipantInfoFromEmailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "jed_wisozk@legros.com",
-  "AppointmentId": 353
+  "EmailAddress": "donald_feeney@armstrong.co.uk",
+  "AppointmentId": 764
 }
 ```
 
@@ -133,52 +130,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "laboriosam",
-  "PersonId": 994,
-  "Mrmrs": "numquam",
-  "Firstname": "Jaylon",
-  "Lastname": "Graham",
-  "MiddleName": "Fahey, Tromp and Fritsch",
-  "Title": "voluptates",
-  "Description": "Cross-group interactive software",
-  "Email": "anissa_osinski@hamilllittel.us",
-  "FullName": "Anderson Gerlach",
-  "DirectPhone": "1-061-960-1444",
-  "FormalName": "Gleichner, Wisoky and Turcotte",
-  "CountryId": 484,
-  "ContactId": 35,
-  "ContactName": "Jast-Murphy",
-  "Retired": 408,
-  "Rank": 516,
-  "ActiveInterests": 10,
+  "Position": "molestiae",
+  "PersonId": 334,
+  "Mrmrs": "ipsum",
+  "Firstname": "Ben",
+  "Lastname": "Hyatt",
+  "MiddleName": "Bogisich-Kuvalis",
+  "Title": "aspernatur",
+  "Description": "Vision-oriented object-oriented hub",
+  "Email": "diamond_zulauf@considine.com",
+  "FullName": "Mr. Emmett Mayer",
+  "DirectPhone": "1-254-095-1820",
+  "FormalName": "Stokes Group",
+  "CountryId": 929,
+  "ContactId": 272,
+  "ContactName": "Howell, Hirthe and Pollich",
+  "Retired": 782,
+  "Rank": 419,
+  "ActiveInterests": 659,
   "ContactDepartment": "",
-  "ContactCountryId": 146,
-  "ContactOrgNr": "1873596",
-  "FaxPhone": "359-151-3457 x9326",
-  "MobilePhone": "1-837-301-7751",
-  "ContactPhone": "1-935-932-7670",
-  "AssociateName": "Langworth-Hickle",
-  "AssociateId": 856,
+  "ContactCountryId": 131,
+  "ContactOrgNr": "1648894",
+  "FaxPhone": "438-724-3003",
+  "MobilePhone": "837-309-1305",
+  "ContactPhone": "520-833-0765 x12057",
+  "AssociateName": "Becker, Little and Oberbrunner",
+  "AssociateId": 109,
   "UsePersonAddress": false,
-  "ContactFax": "aut",
-  "Kanafname": "in",
-  "Kanalname": "eligendi",
-  "Post1": "ab",
-  "Post2": "ab",
-  "Post3": "eius",
-  "EmailName": "justine_kessler@mcglynn.uk",
-  "ContactFullName": "Francis Yundt",
-  "ActiveErpLinks": 744,
-  "TicketPriorityId": 572,
-  "SupportLanguageId": 383,
-  "SupportAssociateId": 345,
+  "ContactFax": "reiciendis",
+  "Kanafname": "ut",
+  "Kanalname": "necessitatibus",
+  "Post1": "praesentium",
+  "Post2": "id",
+  "Post3": "expedita",
+  "EmailName": "vada@damore.us",
+  "ContactFullName": "Jacey Yost",
+  "ActiveErpLinks": 680,
+  "TicketPriorityId": 523,
+  "SupportLanguageId": 869,
+  "SupportAssociateId": 68,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 538
+      "FieldLength": 658
     }
   }
 }

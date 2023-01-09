@@ -42,7 +42,7 @@ POST /api/v1/Agents/Contact/GetMyContacts?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,12 +71,14 @@ Response body: array
 | BusinessName | string | The business list item name |
 | CategoryName | string | The category list item name |
 | CountryName | string | Name of country in installed language |
-| Address |  | Contact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
+| Address | Address | Contact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
 | FormattedAddress | string | The contact's address, formatted with linebreaks and spaces into a single string. |
 | FullName | string |  |
 | IsOwnerContact | bool | Is the contact an owner contact.  This means that all persons on this contact can on only be internal users and not external users. |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| Number1 | string | Alphanumeric user field |
+| Number2 | string | Alphanumeric user field |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,7 +87,7 @@ Response body: array
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,34 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 775,
-    "Name": "Wehner Group",
-    "OrgNr": "260923",
+    "ContactId": 927,
+    "Name": "DuBuque Inc and Sons",
+    "OrgNr": "223058",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "quis",
-    "DirectPhone": "143-536-8382 x9080",
-    "AssociateId": 911,
-    "CountryId": 505,
-    "EmailAddress": "lenny.huels@jastkemmer.com",
-    "Kananame": "minima",
-    "EmailAddressName": "katelynn.cummings@konopelski.ca",
+    "City": "eligendi",
+    "DirectPhone": "469.742.8756",
+    "AssociateId": 366,
+    "CountryId": 367,
+    "EmailAddress": "wayne@binsbreitenberg.us",
+    "Kananame": "doloremque",
+    "EmailAddressName": "lawrence_ward@gaylord.us",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Abigail Hoeger III",
+    "AssociateFullName": "Cathrine Denesik",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "quia",
-    "FullName": "Alexandrea Hettinger V",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 759,
+    "FormattedAddress": "rem",
+    "FullName": "Santino Milton Wunsch III",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 213,
+    "Number1": "1858878",
+    "Number2": "1182038",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldLength": 6
       }
     }
   }

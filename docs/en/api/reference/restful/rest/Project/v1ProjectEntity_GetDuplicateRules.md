@@ -32,7 +32,7 @@ Retrieve all available duplicate rules for project
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +48,7 @@ Response body: array
 | DisplayName | string | Short name of rule to display to user |
 | DisplayTooltip | string | Description of the rule |
 | IsActive | bool | Indicating if a rule is current active, and should included in the duplicate detection |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -57,7 +57,7 @@ Response body: array
 GET /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -68,30 +68,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Osinski LLC",
-    "DisplayName": "Farrell LLC",
-    "DisplayTooltip": "doloremque",
+    "Name": "Weimann LLC",
+    "DisplayName": "Dare-Douglas",
+    "DisplayTooltip": "quia",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldType": "System.String",
+        "FieldLength": 606
       }
     }
   },
   {
-    "Name": "Osinski LLC",
-    "DisplayName": "Farrell LLC",
-    "DisplayTooltip": "doloremque",
+    "Name": "Weimann LLC",
+    "DisplayName": "Dare-Douglas",
+    "DisplayTooltip": "quia",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldType": "System.String",
+        "FieldLength": 606
       }
     }
   }

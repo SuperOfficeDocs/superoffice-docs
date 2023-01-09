@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 943,
-    "Name": "Dooley-Rosenbaum",
-    "ToolTip": "Rerum quaerat qui laborum voluptatum dolorum.",
+    "Id": 325,
+    "Name": "Cartwright LLC",
+    "ToolTip": "Omnis sit eum.",
     "Deleted": false,
-    "Rank": 115,
-    "Type": "iusto",
-    "ColorBlock": 819,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2004-05-07T02:49:52.1878148+02:00",
+    "Rank": 50,
+    "Type": "maiores",
+    "ColorBlock": 893,
+    "IconHint": "facilis",
+    "Selected": true,
+    "LastChanged": "2007-08-12T17:37:39.9445007+02:00",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Schmeler LLC",
-        "ToolTip": "Officia sapiente eum quas molestiae quam nulla dolorem.",
-        "Deleted": true,
-        "Rank": 293,
-        "Type": "dolor",
-        "ColorBlock": 366,
-        "IconHint": "neque",
-        "Selected": true,
-        "LastChanged": "2002-07-09T02:49:52.1878148+02:00",
+        "Id": 1001,
+        "Name": "Feil Inc and Sons",
+        "ToolTip": "Enim illum autem eum soluta.",
+        "Deleted": false,
+        "Rank": 257,
+        "Type": "voluptatibus",
+        "ColorBlock": 116,
+        "IconHint": "maxime",
+        "Selected": false,
+        "LastChanged": "2002-09-17T17:37:39.9445007+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "saepe",
-        "Hidden": true,
-        "FullName": "Marley Israel Boyer I"
+        "ExtraInfo": "iste",
+        "StyleHint": "quas",
+        "Hidden": false,
+        "FullName": "Dr. Leila Karen Reinger II"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "culpa",
+    "ExtraInfo": "non",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Clark Hamill"
+    "FullName": "Brycen Lucio Carroll IV"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 898,
-    "Name": "Simonis-Roberts",
-    "ToolTip": "Quam at.",
-    "Deleted": false,
-    "Rank": 486,
-    "Type": "dignissimos",
-    "ColorBlock": 358,
-    "IconHint": "id",
+    "Id": 438,
+    "Name": "Schimmel LLC",
+    "ToolTip": "Quis quia quo sit repellat.",
+    "Deleted": true,
+    "Rank": 22,
+    "Type": "sit",
+    "ColorBlock": 306,
+    "IconHint": "ullam",
     "Selected": true,
-    "LastChanged": "2019-06-23T02:49:52.1878148+02:00",
+    "LastChanged": "2002-10-24T17:37:39.9465003+02:00",
     "ChildItems": [
       {
-        "Id": 579,
-        "Name": "Reichel-Cassin",
-        "ToolTip": "Numquam magni similique harum eius voluptas voluptate enim.",
+        "Id": 214,
+        "Name": "Jacobs-Stroman",
+        "ToolTip": "Dolores eveniet est exercitationem.",
         "Deleted": false,
-        "Rank": 482,
-        "Type": "illo",
-        "ColorBlock": 983,
-        "IconHint": "architecto",
+        "Rank": 524,
+        "Type": "praesentium",
+        "ColorBlock": 5,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2012-06-30T02:49:52.1878148+02:00",
+        "LastChanged": "2011-06-09T17:37:39.9465003+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "autem",
+        "ExtraInfo": "modi",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Dayton Schamberger",
+        "FullName": "Ryder Ron Gorczany V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 330
+            "FieldType": "System.Int32",
+            "FieldLength": 820
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "perferendis",
+    "ExtraInfo": "unde",
+    "StyleHint": "dignissimos",
     "Hidden": true,
-    "FullName": "Dr. Corene Weissnat DDS",
+    "FullName": "Germaine Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldLength": 432
       }
     }
   }

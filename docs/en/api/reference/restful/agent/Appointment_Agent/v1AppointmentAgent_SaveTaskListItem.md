@@ -32,28 +32,27 @@ Updates the existing TaskListItem or creates a new TaskListItem if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The TaskListItem to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TaskListItemId | int32 | Primary key |
-| Value | string | The list item |
-| Direction | string | 1 = incoming, 2 = outgoing, see EAppntDirection |
-| Type | string | 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes |
-| Tooltip | string | Tooltip or other description |
-| Deleted | bool | If true, the Task list item is deleted |
-| IntentId | int32 | Link to the intention of this kind of task (used by SAINT) |
-| Rank | int32 | Rank order |
-| IsDefaultAlldayEvent | bool | True if all day event |
-| IsDefaultFree | bool | True if free, false if busy |
-| IsDefaultPublished | bool | Published to external persons |
-| ColorIndex | string | JAP |
-| DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
+| TaskListItemId | Integer | Primary key |
+| Value | String | The list item |
+| Direction | String | 1 = incoming, 2 = outgoing, see EAppntDirection |
+| Type | String | 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes |
+| Tooltip | String | Tooltip or other description |
+| Deleted | Boolean | If true, the Task list item is deleted |
+| IntentId | Integer | Link to the intention of this kind of task (used by SAINT) |
+| Rank | Integer | Rank order |
+| IsDefaultAlldayEvent | Boolean | True if all day event |
+| IsDefaultFree | Boolean | True if free, false if busy |
+| IsDefaultPublished | Boolean | Published to external persons |
+| ColorIndex | String | JAP |
+| DefaultVideomeetingStatus | String | Default video-meeting status for meetings created in SuperOffice CRM. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TaskListItem
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body:
 | IsDefaultPublished | bool | Published to external persons |
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,18 +86,18 @@ Response body:
 POST /api/v1/Agents/Appointment/SaveTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 944,
-  "Value": "soluta",
+  "TaskListItemId": 679,
+  "Value": "ea",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "voluptatem",
+  "Tooltip": "porro",
   "Deleted": false,
-  "IntentId": 626,
-  "Rank": 766,
+  "IntentId": 378,
+  "Rank": 151,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": true,
   "IsDefaultPublished": false,
@@ -114,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 104,
-  "Value": "consequatur",
+  "TaskListItemId": 680,
+  "Value": "deleniti",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "sit",
+  "Tooltip": "est",
   "Deleted": false,
-  "IntentId": 274,
-  "Rank": 879,
+  "IntentId": 72,
+  "Rank": 292,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
+  "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -132,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 496
     }
   }
 }

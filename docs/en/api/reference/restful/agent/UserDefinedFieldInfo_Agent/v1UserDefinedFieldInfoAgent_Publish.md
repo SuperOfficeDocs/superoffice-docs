@@ -42,16 +42,15 @@ POST /api/v1/Agents/UserDefinedFieldInfo/Publish?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OwnerType | string |  |
+| OwnerType | String |  |
 
-
-## Response: int32
+## Response:int32
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -68,7 +67,7 @@ Response body: int32
 POST /api/v1/Agents/UserDefinedFieldInfo/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -82,5 +81,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-455
+438
 ```

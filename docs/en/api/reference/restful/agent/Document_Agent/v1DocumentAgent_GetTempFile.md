@@ -42,16 +42,15 @@ POST /api/v1/Agents/Document/GetTempFile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Filename 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Filename | string |  |
+| Filename | String |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -68,11 +67,11 @@ Response body: byte
 POST /api/v1/Agents/Document/GetTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "dolorum"
+  "Filename": "qui"
 }
 ```
 

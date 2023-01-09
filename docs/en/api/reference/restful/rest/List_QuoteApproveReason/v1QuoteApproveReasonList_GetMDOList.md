@@ -25,8 +25,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=dolor
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=aut
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/QuoteApproveReason/MDOItems?query=dolor
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Lynch-Farrell",
-    "ToolTip": "Possimus rerum placeat expedita.",
+    "Id": 767,
+    "Name": "Glover-Shanahan",
+    "ToolTip": "Ut omnis facere nam nulla molestias fugiat.",
     "Deleted": false,
-    "Rank": 282,
-    "Type": "et",
+    "Rank": 272,
+    "Type": "culpa",
     "ChildItems": [
       {
-        "Id": 615,
-        "Name": "Gislason Inc and Sons",
-        "ToolTip": "Non hic ratione nostrum sint repudiandae quis eos.",
-        "Deleted": false,
-        "Rank": 703,
-        "Type": "aliquam",
+        "Id": 275,
+        "Name": "Rippin Inc and Sons",
+        "ToolTip": "Sed numquam cum ut et quod facere aut.",
+        "Deleted": true,
+        "Rank": 862,
+        "Type": "fugit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 913,
-        "ExtraInfo": "adipisci",
-        "StyleHint": "rerum",
-        "FullName": "Nathen Simonis",
+        "IconHint": "dolores",
+        "ColorBlock": 528,
+        "ExtraInfo": "qui",
+        "StyleHint": "dolorum",
+        "FullName": "Dr. Max Kathryne Lebsack II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 486
+            "FieldType": "System.Int32",
+            "FieldLength": 159
           }
         }
       }
     ],
-    "IconHint": "eaque",
-    "ColorBlock": 524,
-    "ExtraInfo": "ut",
-    "StyleHint": "est",
-    "FullName": "Saul Cummerata",
+    "IconHint": "corrupti",
+    "ColorBlock": 202,
+    "ExtraInfo": "modi",
+    "StyleHint": "ad",
+    "FullName": "Madelyn Goodwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

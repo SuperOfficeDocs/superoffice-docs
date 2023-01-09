@@ -25,7 +25,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=438
+POST /api/v1/Agents/Associate/GetAssociate?associateId=41
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Associate
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body:
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
 | UserName | string | User name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body:
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,24 +87,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 750,
-  "Name": "Reichel Group",
-  "PersonId": 813,
-  "Rank": 759,
-  "Tooltip": "vero",
+  "AssociateId": 654,
+  "Name": "Toy Group",
+  "PersonId": 61,
+  "Rank": 509,
+  "Tooltip": "accusantium",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 284,
-  "FullName": "Jarod Bashirian III",
-  "FormalName": "Hickle Group",
+  "GroupIdx": 187,
+  "FullName": "Jonathon Monahan",
+  "FormalName": "Hodkiewicz-Howe",
   "Deleted": false,
-  "EjUserId": 686,
-  "UserName": "Torp, Witting and Strosin",
+  "EjUserId": 766,
+  "UserName": "Lemke-Kerluke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 966
+      "FieldType": "System.Int32",
+      "FieldLength": 523
     }
   }
 }

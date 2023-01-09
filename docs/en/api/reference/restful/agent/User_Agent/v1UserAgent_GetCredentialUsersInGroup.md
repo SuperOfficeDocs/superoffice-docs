@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Get credential users within a user group
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/User/GetCredentialUsersInGroup?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Type, GroupName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Type | string |  |
-| GroupName | string |  |
+| Type | String |  |
+| GroupName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,13 +61,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CredentialsGroupUsers
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Headings | array | Headings in which to list the different users. |
 | Users | array | The list of actual users that can be selected |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,12 +76,12 @@ Response body:
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "soluta",
-  "GroupName": "Lemke-Weissnat"
+  "Type": "quidem",
+  "GroupName": "Kirlin-Quigley"
 }
 ```
 
@@ -96,41 +93,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "pariatur",
-    "consequatur"
+    "voluptas",
+    "ut"
   ],
   "Users": [
     {
-      "Value": "quis",
-      "DisplayValue": "recusandae",
+      "Value": "quam",
+      "DisplayValue": "iste",
       "Columns": [
-        "qui",
-        "autem"
+        "nostrum",
+        "fugiat"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 534
+          "FieldType": "System.String",
+          "FieldLength": 925
         }
       }
     },
     {
-      "Value": "quis",
-      "DisplayValue": "recusandae",
+      "Value": "quam",
+      "DisplayValue": "iste",
       "Columns": [
-        "qui",
-        "autem"
+        "nostrum",
+        "fugiat"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 534
+          "FieldType": "System.String",
+          "FieldLength": 925
         }
       }
     }
@@ -139,8 +136,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 178
+      "FieldType": "System.Int32",
+      "FieldLength": 171
     }
   }
 }

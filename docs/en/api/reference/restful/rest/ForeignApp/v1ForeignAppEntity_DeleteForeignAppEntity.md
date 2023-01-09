@@ -34,7 +34,7 @@ Calls the ForeignSystem agent service DeleteForeignAppEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ForeignAppEntity deleted.
 
@@ -43,7 +43,7 @@ ForeignAppEntity deleted.
 | 204 | ForeignAppEntity deleted. |
 | 412 | Delete aborted because ForeignAppEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -52,7 +52,7 @@ Response body:
 DELETE /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

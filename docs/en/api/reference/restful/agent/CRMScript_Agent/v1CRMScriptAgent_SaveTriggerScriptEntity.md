@@ -12,8 +12,6 @@ POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is empty
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -36,25 +34,24 @@ Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The TriggerScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ScreenChooserId | int32 | Primary key |
-| Name | string | Optional description of what this script is used for. |
-| ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
-| Enabled | bool | Whether this screen chooser is enabled or not |
-| UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMscript code for this event handler |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
+| ScreenChooserId | Integer | Primary key |
+| Name | String | Optional description of what this script is used for. |
+| ScreenType | String | Event id that triggers script.  See EventHandlerType enum. |
+| Enabled | Boolean | Whether this screen chooser is enabled or not |
+| UniqueIdentifier | String | Global unique identifier, accross customers/tenants |
+| Source | String | The CRMscript code for this event handler |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TriggerScriptEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +73,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,20 +82,20 @@ Response body:
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 511,
-  "Name": "Satterfield-Bednar",
+  "ScreenChooserId": 200,
+  "Name": "Schneider Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "aut",
-  "Source": "veniam",
-  "Registered": "2000-09-29T02:49:44.0129044+02:00",
-  "RegisteredAssociateId": 833,
-  "Updated": "2000-10-25T02:49:44.0129044+02:00",
-  "UpdatedAssociateId": 50
+  "Enabled": false,
+  "UniqueIdentifier": "ut",
+  "Source": "blanditiis",
+  "Registered": "1998-07-01T17:37:17.3262452+02:00",
+  "RegisteredAssociateId": 834,
+  "Updated": "2010-08-14T17:37:17.3262452+02:00",
+  "UpdatedAssociateId": 465
 }
 ```
 
@@ -109,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 685,
-  "Name": "Lang, McGlynn and Paucek",
+  "ScreenChooserId": 596,
+  "Name": "Walter Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "molestiae",
-  "Source": "sint",
-  "Registered": "2021-02-07T02:49:44.0129044+01:00",
-  "RegisteredAssociateId": 391,
-  "Updated": "2012-11-30T02:49:44.0129044+01:00",
-  "UpdatedAssociateId": 22,
+  "Enabled": false,
+  "UniqueIdentifier": "quam",
+  "Source": "ea",
+  "Registered": "1997-05-04T17:37:17.3272446+02:00",
+  "RegisteredAssociateId": 308,
+  "Updated": "2012-12-18T17:37:17.3272446+01:00",
+  "UpdatedAssociateId": 128,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldLength": 655
     }
   }
 }

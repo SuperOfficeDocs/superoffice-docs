@@ -38,17 +38,16 @@ POST /api/v1/Agents/Pocket/SetPushNotificationTagsForDevice?$select=name,departm
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DeviceIdentifier, Tags 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DeviceIdentifier | string |  |
-| Tags | string |  |
+| DeviceIdentifier | String |  |
+| Tags | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -69,8 +68,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "placeat",
-  "Tags": "enim"
+  "DeviceIdentifier": "eius",
+  "Tags": "illo"
 }
 ```
 

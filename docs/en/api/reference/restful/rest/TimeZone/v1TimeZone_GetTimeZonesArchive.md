@@ -38,12 +38,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=repellat
-GET /api/v1/TimeZone?$top=994
-GET /api/v1/TimeZone?$skip=789
+GET /api/v1/TimeZone?$entities=corporis
+GET /api/v1/TimeZone?$top=793
+GET /api/v1/TimeZone?$skip=299
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=voluptas
+GET /api/v1/TimeZone?$context=quas
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -62,7 +62,7 @@ GET /api/v1/TimeZone?$format=JSON
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -70,7 +70,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +84,7 @@ Response body:
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,19 +95,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "autem",
+  "odata.nextLink": "non",
   "value": [
     {
-      "PrimaryKey": 9790,
-      "EntityName": "person",
-      "personId": 9790,
-      "fullName": "Werner Senger"
+      "PrimaryKey": 9889,
+      "EntityName": "sale",
+      "saleId": 9889,
+      "contactId": 3591,
+      "name": "Brakus LLC"
     },
     {
-      "PrimaryKey": 1704,
-      "EntityName": "person",
-      "personId": 1704,
-      "fullName": "Taurean Lindsey Kirlin Sr."
+      "PrimaryKey": 9418,
+      "EntityName": "sale",
+      "saleId": 9418,
+      "contactId": 3561,
+      "name": "Fahey, Rowe and Vandervort"
     }
   ]
 }

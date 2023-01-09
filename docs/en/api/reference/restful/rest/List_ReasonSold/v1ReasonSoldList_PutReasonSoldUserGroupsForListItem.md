@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 14,
-    "Name": "Bins Inc and Sons",
-    "ToolTip": "Totam itaque velit qui.",
-    "Deleted": true,
-    "Rank": 492,
-    "Type": "facere",
-    "ColorBlock": 352,
-    "IconHint": "distinctio",
-    "Selected": false,
-    "LastChanged": "2022-11-26T02:49:52.4846993+01:00",
+    "Id": 694,
+    "Name": "Braun-Lindgren",
+    "ToolTip": "Et aspernatur non exercitationem quia fugiat.",
+    "Deleted": false,
+    "Rank": 24,
+    "Type": "sint",
+    "ColorBlock": 282,
+    "IconHint": "inventore",
+    "Selected": true,
+    "LastChanged": "2012-10-12T17:37:40.3005002+02:00",
     "ChildItems": [
       {
-        "Id": 794,
-        "Name": "Bosco, Kling and Erdman",
-        "ToolTip": "Id odit sapiente placeat autem rem qui quia.",
-        "Deleted": true,
-        "Rank": 50,
-        "Type": "ut",
-        "ColorBlock": 658,
-        "IconHint": "sed",
+        "Id": 274,
+        "Name": "Moen Group",
+        "ToolTip": "Vel est tenetur consequatur sed eos voluptatibus ut.",
+        "Deleted": false,
+        "Rank": 825,
+        "Type": "praesentium",
+        "ColorBlock": 501,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2017-12-12T02:49:52.4846993+01:00",
+        "LastChanged": "2020-08-08T17:37:40.3005002+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "consequuntur",
+        "ExtraInfo": "amet",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Miss Ford Jazmin Trantow Jr."
+        "FullName": "Brooklyn Jacobi"
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "id",
+    "StyleHint": "quis",
     "Hidden": true,
-    "FullName": "Ryley Oberbrunner"
+    "FullName": "Reuben Kuphal"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 440,
-    "Name": "Jaskolski Inc and Sons",
-    "ToolTip": "Sit iste quia aut.",
-    "Deleted": false,
-    "Rank": 889,
-    "Type": "perspiciatis",
-    "ColorBlock": 262,
-    "IconHint": "dolorum",
-    "Selected": false,
-    "LastChanged": "1998-11-03T02:49:52.4846993+01:00",
+    "Id": 561,
+    "Name": "Lind Group",
+    "ToolTip": "Totam omnis rem quos quia quia adipisci quam.",
+    "Deleted": true,
+    "Rank": 332,
+    "Type": "quia",
+    "ColorBlock": 248,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2021-01-03T17:37:40.301503+01:00",
     "ChildItems": [
       {
-        "Id": 140,
-        "Name": "Champlin, Labadie and Hudson",
-        "ToolTip": "Quia qui quasi nulla ipsa asperiores.",
+        "Id": 676,
+        "Name": "Hettinger, Grimes and Jacobs",
+        "ToolTip": "Perspiciatis sed aspernatur deserunt sed maiores dolore quia.",
         "Deleted": true,
-        "Rank": 196,
-        "Type": "qui",
-        "ColorBlock": 156,
-        "IconHint": "sit",
+        "Rank": 533,
+        "Type": "iusto",
+        "ColorBlock": 633,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2005-04-14T02:49:52.4846993+02:00",
+        "LastChanged": "2019-07-18T17:37:40.3025003+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "occaecati",
-        "Hidden": false,
-        "FullName": "Miss Earnest Brock Herman",
+        "ExtraInfo": "ut",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Susanna Cesar Brown V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 930
+            "FieldType": "System.String",
+            "FieldLength": 961
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Seth Kautzer",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Trevion Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldType": "System.String",
+        "FieldLength": 750
       }
     }
   }

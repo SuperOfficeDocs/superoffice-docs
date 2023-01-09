@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts
 Gets the list of SyncUserAccounts that should be synced.
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,7 +44,7 @@ POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts?$select=name,department,cate
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -54,14 +52,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AccountId | int32 | The account primary key |
 | AssociateName | string | The username of the associate owning the account |
 | AssociateId | int32 | Id of the associate who owns this account |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 946,
-    "AssociateName": "Little-Funk",
-    "AssociateId": 314,
+    "AccountId": 237,
+    "AssociateName": "Leffler, Gerhold and Ferry",
+    "AssociateId": 79,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 559
       }
     }
   },
   {
-    "AccountId": 946,
-    "AssociateName": "Little-Funk",
-    "AssociateId": 314,
+    "AccountId": 237,
+    "AssociateName": "Leffler, Gerhold and Ferry",
+    "AssociateId": 79,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 559
       }
     }
   }

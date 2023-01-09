@@ -42,16 +42,15 @@ POST /api/v1/Agents/List/GetAllDocumentTemplates?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IncludeDeleted | bool |  |
+| IncludeDeleted | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,7 +96,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 458,
-    "Name": "Bernier-Mante",
-    "Tooltip": "saepe",
-    "SaveInDb": 460,
-    "Filename": "quia",
-    "DefaultOref": "et",
+    "DocumentTemplateId": 620,
+    "Name": "Fisher, Gibson and Jones",
+    "Tooltip": "earum",
+    "SaveInDb": 115,
+    "Filename": "aut",
+    "DefaultOref": "eos",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 450,
-    "IntentId": 146,
+    "AutoeventId": 220,
+    "IntentId": 795,
     "IsDefaultPublished": true,
-    "Rank": 182,
-    "LoadTemplateFromPlugin": 896,
-    "MimeType": "qui",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 860,
+    "Rank": 26,
+    "LoadTemplateFromPlugin": 803,
+    "MimeType": "facilis",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 558,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "forest@weimann.us",
+    "EmailSubject": "jovani@homenickgorczany.uk",
     "IncludeSignature": false,
-    "ShowCurrents": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "elsie@crona.com",
+    "SenderEmailAddress": "douglas.fay@morissettebartoletti.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldLength": 435
       }
     }
   }

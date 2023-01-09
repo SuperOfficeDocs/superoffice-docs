@@ -42,7 +42,7 @@ POST /api/v1/Agents/Audience/GetMyAudienceLayout?$select=name,department,categor
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AudienceLayoutEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,9 +59,9 @@ Response body:
 | InstanceName | string | Name of the layout instance |
 | CreatedDate | date-time | The date and time the Audience layout was created  in UTC. |
 | UpdatedDate | date-time | The date and time the Audience layout was last updated  in UTC. |
-| CreatedBy |  | Name of the person that created the Audience layout |
-| UpdatedBy |  | Name of the person that last updated the Audience layout |
-| TableRight |  |  |
+| CreatedBy | Associate | Name of the person that created the Audience layout |
+| UpdatedBy | Associate | Name of the person that last updated the Audience layout |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -70,7 +70,7 @@ Response body:
 POST /api/v1/Agents/Audience/GetMyAudienceLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,11 +80,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 615,
-  "InstanceLayout": "dolore",
-  "InstanceName": "Sauer-Bogan",
-  "CreatedDate": "2003-07-06T02:49:43.6847821+02:00",
-  "UpdatedDate": "2003-12-27T02:49:43.6847821+01:00",
+  "AudienceLayoutId": 136,
+  "InstanceLayout": "rerum",
+  "InstanceName": "Pfannerstill-Reynolds",
+  "CreatedDate": "2017-11-08T17:37:16.8912435+01:00",
+  "UpdatedDate": "2017-01-12T17:37:16.8912435+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 997
     }
   }
 }

@@ -48,7 +48,7 @@ GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "Kuphal, Vandervort and Beahan",
-    "ToolTip": "Atque ex officia dolorem molestiae exercitationem.",
+    "Id": 127,
+    "Name": "Kassulke LLC",
+    "ToolTip": "Earum id est doloribus quis unde optio quo.",
     "Deleted": true,
-    "Rank": 232,
-    "Type": "asperiores",
-    "ColorBlock": 580,
-    "IconHint": "saepe",
+    "Rank": 816,
+    "Type": "unde",
+    "ColorBlock": 886,
+    "IconHint": "asperiores",
     "Selected": false,
-    "LastChanged": "2008-01-07T02:49:52.5003264+01:00",
+    "LastChanged": "2011-06-23T17:37:40.3215019+02:00",
     "ChildItems": [
       {
-        "Id": 964,
-        "Name": "Crooks, Volkman and Weimann",
-        "ToolTip": "Molestiae ipsa.",
+        "Id": 388,
+        "Name": "Walker, Turcotte and Wisozk",
+        "ToolTip": "Sapiente veniam doloremque placeat repellat iure sit quis.",
         "Deleted": false,
-        "Rank": 638,
-        "Type": "doloribus",
-        "ColorBlock": 411,
-        "IconHint": "cumque",
+        "Rank": 795,
+        "Type": "veritatis",
+        "ColorBlock": 279,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2011-10-20T02:49:52.5003264+02:00",
+        "LastChanged": "2021-04-28T17:37:40.3215019+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "deserunt",
-        "Hidden": true,
-        "FullName": "Kiara Konopelski",
+        "ExtraInfo": "et",
+        "StyleHint": "iusto",
+        "Hidden": false,
+        "FullName": "Quinton Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 504
+            "FieldLength": 993
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "dicta",
+    "ExtraInfo": "tempora",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Greg Walter",
+    "FullName": "Johnnie Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldType": "System.Int32",
+        "FieldLength": 629
       }
     }
   }

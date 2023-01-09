@@ -38,20 +38,19 @@ POST /api/v1/Agents/Person/SetConsent?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, Purpose, Source, LegalBase, Comment 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| Purpose | string |  |
-| Source | string |  |
-| LegalBase | string |  |
-| Comment | string |  |
+| PersonId | Integer |  |
+| Purpose | String |  |
+| Source | String |  |
+| LegalBase | String |  |
+| Comment | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -59,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -68,15 +67,15 @@ Response body:
 POST /api/v1/Agents/Person/SetConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 333,
-  "Purpose": "ut",
-  "Source": "qui",
-  "LegalBase": "vitae",
-  "Comment": "sapiente"
+  "PersonId": 43,
+  "Purpose": "nihil",
+  "Source": "illum",
+  "LegalBase": "tempore",
+  "Comment": "et"
 }
 ```
 

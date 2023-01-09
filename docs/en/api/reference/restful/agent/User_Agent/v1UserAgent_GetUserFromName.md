@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetUserFromName
 Get a user, with lookup based on user name.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/User/GetUserFromName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UserName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UserName | string |  |
+| UserName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: User
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,10 +69,10 @@ Response body:
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
 | OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -92,7 +89,7 @@ Response body:
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -105,7 +102,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Moen-Deckow"
+  "UserName": "Denesik, Murphy and Hilll"
 }
 ```
 
@@ -116,14 +113,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 421,
-  "Name": "McCullough Group",
-  "Rank": 690,
-  "Tooltip": "quas",
+  "AssociateId": 183,
+  "Name": "Murray-Johns",
+  "Rank": 121,
+  "Tooltip": "doloribus",
   "LicenseOwners": [
     {
-      "Name": "Hills-Kessler",
-      "Description": "Vision-oriented transitional task-force",
+      "Name": "Beer-Eichmann",
+      "Description": "Horizontal tangible matrices",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +133,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 111
+          "FieldType": "System.String",
+          "FieldLength": 266
         }
       }
     },
     {
-      "Name": "Hills-Kessler",
-      "Description": "Vision-oriented transitional task-force",
+      "Name": "Beer-Eichmann",
+      "Description": "Horizontal tangible matrices",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +153,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 111
+          "FieldType": "System.String",
+          "FieldLength": 266
         }
       }
     }
@@ -166,110 +163,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "reprehenderit",
-      "Tooltip": "nesciunt",
-      "Id": 138,
-      "Rank": 481,
-      "Deleted": true,
+      "Value": "debitis",
+      "Tooltip": "accusamus",
+      "Id": 851,
+      "Rank": 143,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldType": "System.String",
+          "FieldLength": 87
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2009-05-12T02:49:45.6715962+02:00",
-  "Lastlogout": "2016-05-29T02:49:45.6715962+02:00",
-  "EjUserId": 566,
-  "RequestSignature": "vero",
+  "Deleted": false,
+  "Lastlogin": "2013-05-17T17:37:19.5729775+02:00",
+  "Lastlogout": "2019-02-04T17:37:19.5729775+01:00",
+  "EjUserId": 84,
+  "RequestSignature": "dolor",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nesciunt",
-      "DisplayValue": "aliquam",
+      "Value": "et",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 949
         }
       }
     },
     {
       "Type": null,
-      "Value": "nesciunt",
-      "DisplayValue": "aliquam",
+      "Value": "et",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 949
         }
       }
     }
   ],
-  "UserName": "Reilly-Kunze",
+  "UserName": "Koelpin, Mosciski and Mueller",
   "TicketCategories": [
     {
-      "Id": 972,
-      "Name": "Little-Toy",
-      "ToolTip": "Ab veniam id sint et.",
+      "Id": 976,
+      "Name": "Brekke LLC",
+      "ToolTip": "Illum et est temporibus.",
       "Deleted": false,
-      "Rank": 24,
-      "Type": "cupiditate",
+      "Rank": 149,
+      "Type": "consequatur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "accusantium",
-      "ColorBlock": 100,
-      "ExtraInfo": "aut",
-      "StyleHint": "ipsum",
-      "FullName": "Kieran Berge",
+      "IconHint": "ullam",
+      "ColorBlock": 804,
+      "ExtraInfo": "est",
+      "StyleHint": "assumenda",
+      "FullName": "Dr. Clay Dimitri Gleichner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 259
+          "FieldLength": 692
         }
       }
     }
   ],
-  "NickName": "Kessler, Baumbach and Crona",
-  "WaitingForApproval": false,
+  "NickName": "Ortiz LLC",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "facilis",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "est"
+    "CustomFields1": "omnis",
+    "CustomFields2": "repellendus"
   },
   "PostSaveCommands": [
     {
-      "Name": "Bergstrom Group",
-      "DisplayName": "Emard Inc and Sons",
-      "Description": "Innovative real-time strategy",
-      "ToolTip": "Cum error similique.",
+      "Name": "Padberg, Gislason and Aufderhar",
+      "DisplayName": "Schultz, Graham and Brekke",
+      "Description": "Customizable user-facing initiative",
+      "ToolTip": "Omnis repudiandae recusandae consequatur consequatur doloribus.",
       "Actions": "Implicit",
-      "ActionData": "eveniet",
+      "ActionData": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 616
+          "FieldLength": 560
         }
       }
     }
@@ -279,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldLength": 325
     }
   }
 }

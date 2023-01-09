@@ -32,45 +32,44 @@ Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ProjectEventEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SignOffConfirmationText | string | Text shown as confirmation text before accepting sign off. |
-| SignOffText | string | Default text for the activity created when signing off. |
-| SignOnConfirmationText | string | Text shown as confirmation text before accepting sign on. |
-| SignOnText | string | Default text for the activity created when signing on. |
-| EventDate | date-time | Dateof the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility |
-| Enabled | bool | Is the event enabled |
-| CreatedDate | date-time | Registered when  in UTC. |
-| SignOff | bool | Is Sign Off functionality enabled? |
-| SignOffTaskEnable | bool | If not 0, a task should be created when the external user Signs Off an event |
-| SignOffTaskId | int32 | If not 0, sign off should cause an Activity of this type to be registered |
-| SignOffTriggersAssign | bool | If 1, the SignOff task should be created as an Assigned task, triggering the invitation dialog |
-| SignOn | bool | Is Sign On functionality enabled |
-| SignOnTaskEnable | bool | If not 0, a task should be created when the external user Signs On to an event |
-| SignOnTaskId | int32 | If not 0, sign on should cause an Activity of this type to be registered |
-| SignOnTriggersAssign | bool | If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog |
-| UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the projectevent |
-| UpdatedBy |  | The person that last updated the projectevent |
-| ProjectId | int32 | The projectId for the project this projectEvent belongs to |
-| Id | int32 | Id of the external event |
-| PublishFrom | date-time | Publication valid from (inclusive) |
-| PublishType | string | Type of publishing action, 0 = Unknown, 1 = to external persons |
-| PublishTo | date-time | Publication valid to (inclusive) |
-| VisibleForCategories | array | Array of categories that the event is visible for. MDO Table "category". |
-| VisibleForPersonInterests | array | Array of person interests (MDO table "persint") that this event is visible for. |
-| IsPublished | bool | Publish to external users? When true, the event/project information is visible to external users through the Audience portal. You can control the publish duration using the PublishFrom/PublishTo properties. |
-| IsVisibleForMembers | bool |  |
-| IsVisibleForCategories | bool |  |
-| IsVisibleForPersonInterests | bool |  |
-| ProjectEventId | int32 | Primary key |
+| SignOffConfirmationText | String | Text shown as confirmation text before accepting sign off. |
+| SignOffText | String | Default text for the activity created when signing off. |
+| SignOnConfirmationText | String | Text shown as confirmation text before accepting sign on. |
+| SignOnText | String | Default text for the activity created when signing on. |
+| EventDate | String | Dateof the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility |
+| Enabled | Boolean | Is the event enabled |
+| CreatedDate | String | Registered when  in UTC. |
+| SignOff | Boolean | Is Sign Off functionality enabled? |
+| SignOffTaskEnable | Boolean | If not 0, a task should be created when the external user Signs Off an event |
+| SignOffTaskId | Integer | If not 0, sign off should cause an Activity of this type to be registered |
+| SignOffTriggersAssign | Boolean | If 1, the SignOff task should be created as an Assigned task, triggering the invitation dialog |
+| SignOn | Boolean | Is Sign On functionality enabled |
+| SignOnTaskEnable | Boolean | If not 0, a task should be created when the external user Signs On to an event |
+| SignOnTaskId | Integer | If not 0, sign on should cause an Activity of this type to be registered |
+| SignOnTriggersAssign | Boolean | If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog |
+| UpdatedDate | String | Last updated when  in UTC. |
+| CreatedBy | Associate | The person that created the projectevent |
+| UpdatedBy | Associate | The person that last updated the projectevent |
+| ProjectId | Integer | The projectId for the project this projectEvent belongs to |
+| Id | Integer | Id of the external event |
+| PublishFrom | String | Publication valid from (inclusive) |
+| PublishType | String | Type of publishing action, 0 = Unknown, 1 = to external persons |
+| PublishTo | String | Publication valid to (inclusive) |
+| VisibleForCategories | Array | Array of categories that the event is visible for. MDO Table "category". |
+| VisibleForPersonInterests | Array | Array of person interests (MDO table "persint") that this event is visible for. |
+| IsPublished | Boolean | Publish to external users? When true, the event/project information is visible to external users through the Audience portal. You can control the publish duration using the PublishFrom/PublishTo properties. |
+| IsVisibleForMembers | Boolean |  |
+| IsVisibleForCategories | Boolean |  |
+| IsVisibleForPersonInterests | Boolean |  |
+| ProjectEventId | Integer | Primary key |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -78,7 +77,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectEventEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,8 +97,8 @@ Response body:
 | SignOnTaskId | int32 | If not 0, sign on should cause an Activity of this type to be registered |
 | SignOnTriggersAssign | bool | If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the projectevent |
-| UpdatedBy |  | The person that last updated the projectevent |
+| CreatedBy | Associate | The person that created the projectevent |
+| UpdatedBy | Associate | The person that last updated the projectevent |
 | ProjectId | int32 | The projectId for the project this projectEvent belongs to |
 | Id | int32 | Id of the external event |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -112,7 +111,7 @@ Response body:
 | IsVisibleForCategories | bool |  |
 | IsVisibleForPersonInterests | bool |  |
 | ProjectEventId | int32 | Primary key |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -121,76 +120,76 @@ Response body:
 POST /api/v1/Agents/Project/SaveProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "possimus",
-  "SignOffText": "numquam",
-  "SignOnConfirmationText": "ducimus",
-  "SignOnText": "repellendus",
-  "EventDate": "2018-09-05T02:49:44.9372128+02:00",
+  "SignOffConfirmationText": "cumque",
+  "SignOffText": "ipsa",
+  "SignOnConfirmationText": "qui",
+  "SignOnText": "omnis",
+  "EventDate": "2013-02-03T17:37:18.6172446+01:00",
   "Enabled": false,
-  "CreatedDate": "2014-12-07T02:49:44.9372128+01:00",
+  "CreatedDate": "2019-11-10T17:37:18.6172446+01:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 33,
-  "SignOffTriggersAssign": false,
-  "SignOn": true,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 73,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2014-03-20T02:49:44.9372128+01:00",
+  "SignOffTaskId": 670,
+  "SignOffTriggersAssign": true,
+  "SignOn": false,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 233,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "2021-01-16T17:37:18.6172446+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 458,
-  "Id": 575,
-  "PublishFrom": "2001-04-20T02:49:44.9372128+02:00",
+  "ProjectId": 447,
+  "Id": 651,
+  "PublishFrom": "1996-09-21T17:37:18.6182452+02:00",
   "PublishType": "External",
-  "PublishTo": "2014-06-30T02:49:44.9372128+02:00",
+  "PublishTo": "2022-11-21T17:37:18.6182452+01:00",
   "VisibleForCategories": [
     {
-      "Id": 400,
-      "Name": "Haag, Howe and Herman",
-      "ToolTip": "Officiis et et iusto fuga quis.",
-      "Deleted": true,
-      "Rank": 26,
-      "Type": "eligendi",
+      "Id": 171,
+      "Name": "Gorczany-Volkman",
+      "ToolTip": "Quam ut perferendis magnam velit magnam tempore.",
+      "Deleted": false,
+      "Rank": 400,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ratione",
-      "ColorBlock": 305,
-      "ExtraInfo": "voluptatem",
+      "IconHint": "non",
+      "ColorBlock": 85,
+      "ExtraInfo": "officia",
       "StyleHint": "et",
-      "FullName": "Idella McLaughlin IV"
+      "FullName": "Dr. Emilie Hermiston"
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 375,
-      "Name": "Ankunding, Buckridge and Ortiz",
-      "ToolTip": "Incidunt quia quibusdam quos.",
+      "Id": 253,
+      "Name": "Schinner, Sipes and Bashirian",
+      "ToolTip": "Velit voluptates qui.",
       "Deleted": false,
-      "Rank": 775,
-      "Type": "nihil",
+      "Rank": 39,
+      "Type": "doloremque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "repudiandae",
-      "ColorBlock": 957,
-      "ExtraInfo": "deserunt",
-      "StyleHint": "enim",
-      "FullName": "Verner Windler"
+      "IconHint": "numquam",
+      "ColorBlock": 499,
+      "ExtraInfo": "consequatur",
+      "StyleHint": "quo",
+      "FullName": "Otto Koch"
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 768
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 166
 }
 ```
 
@@ -201,94 +200,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "nemo",
-  "SignOffText": "soluta",
-  "SignOnConfirmationText": "autem",
-  "SignOnText": "et",
-  "EventDate": "2002-01-21T02:49:44.9372128+01:00",
-  "Enabled": false,
-  "CreatedDate": "2005-03-25T02:49:44.9372128+01:00",
-  "SignOff": true,
+  "SignOffConfirmationText": "illum",
+  "SignOffText": "beatae",
+  "SignOnConfirmationText": "aspernatur",
+  "SignOnText": "magni",
+  "EventDate": "2002-07-09T17:37:18.6202473+02:00",
+  "Enabled": true,
+  "CreatedDate": "2017-02-10T17:37:18.6202473+01:00",
+  "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 303,
+  "SignOffTaskId": 503,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 164,
+  "SignOnTaskId": 496,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2007-03-15T02:49:44.9372128+01:00",
+  "UpdatedDate": "2000-08-03T17:37:18.6202473+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 953,
-  "Id": 94,
-  "PublishFrom": "2005-11-24T02:49:44.9372128+01:00",
+  "ProjectId": 271,
+  "Id": 679,
+  "PublishFrom": "2019-03-18T17:37:18.6212454+01:00",
   "PublishType": "External",
-  "PublishTo": "2018-05-07T02:49:44.9372128+02:00",
+  "PublishTo": "2002-06-28T17:37:18.6212454+02:00",
   "VisibleForCategories": [
     {
-      "Id": 436,
-      "Name": "Hudson-Littel",
-      "ToolTip": "Rerum voluptatum deleniti.",
-      "Deleted": true,
-      "Rank": 8,
-      "Type": "error",
+      "Id": 740,
+      "Name": "Rodriguez LLC",
+      "ToolTip": "Veniam eligendi.",
+      "Deleted": false,
+      "Rank": 719,
+      "Type": "ea",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "beatae",
-      "ColorBlock": 763,
-      "ExtraInfo": "commodi",
+      "IconHint": "sed",
+      "ColorBlock": 153,
+      "ExtraInfo": "eos",
       "StyleHint": "aut",
-      "FullName": "Phoebe Altenwerth",
+      "FullName": "Ms. Lincoln Weissnat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 731
+          "FieldType": "System.Int32",
+          "FieldLength": 305
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 319,
-      "Name": "Osinski, Pfannerstill and Morissette",
-      "ToolTip": "Omnis quibusdam quia cupiditate blanditiis quo.",
-      "Deleted": false,
-      "Rank": 913,
-      "Type": "ut",
+      "Id": 987,
+      "Name": "Gleason Inc and Sons",
+      "ToolTip": "Qui ratione odio dolor enim voluptas.",
+      "Deleted": true,
+      "Rank": 58,
+      "Type": "quo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolore",
-      "ColorBlock": 381,
-      "ExtraInfo": "libero",
-      "StyleHint": "officia",
-      "FullName": "Mrs. Bradford Gottlieb",
+      "IconHint": "hic",
+      "ColorBlock": 339,
+      "ExtraInfo": "aut",
+      "StyleHint": "error",
+      "FullName": "Duane Herzog",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldLength": 312
         }
       }
     }
   ],
-  "IsPublished": false,
-  "IsVisibleForMembers": false,
+  "IsPublished": true,
+  "IsVisibleForMembers": true,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 6,
+  "ProjectEventId": 811,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldLength": 42
     }
   }
 }

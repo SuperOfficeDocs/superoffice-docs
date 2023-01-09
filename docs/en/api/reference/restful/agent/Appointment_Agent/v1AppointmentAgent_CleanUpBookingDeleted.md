@@ -42,16 +42,15 @@ POST /api/v1/Agents/Appointment/CleanUpBookingDeleted?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AppointmentIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AppointmentIds | array |  |
+| AppointmentIds | Array |  |
 
-
-## Response: int32
+## Response:int32
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -68,13 +67,13 @@ Response body: int32
 POST /api/v1/Agents/Appointment/CleanUpBookingDeleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    708,
-    353
+    339,
+    441
   ]
 }
 ```
@@ -85,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-569
+512
 ```

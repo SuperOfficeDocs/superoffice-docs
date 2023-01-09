@@ -25,7 +25,7 @@ Gets a DocumentTemplate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=220
+POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=506
 POST /api/v1/Agents/List/GetDocumentTemplate?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetDocumentTemplate?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentTemplate
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +67,7 @@ Response body:
 | Direction | string | 1 = incoming, 2 = outgoing, see EAppntDirection |
 | AutoeventId | int32 | Which document plugin is responsible for the documents generated from this template |
 | QuoteDocType | string | What type of quote document is this. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,7 +76,7 @@ Response body:
 POST /api/v1/Agents/List/GetDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 24,
-  "Name": "Nitzsche, Denesik and Dietrich",
-  "Tooltip": "et",
-  "SaveInDb": 389,
-  "Filename": "eveniet",
-  "DefaultOref": "explicabo",
+  "DocumentTemplateId": 654,
+  "Name": "Gislason Inc and Sons",
+  "Tooltip": "iure",
+  "SaveInDb": 529,
+  "Filename": "architecto",
+  "DefaultOref": "non",
   "RecordType": "Appointment",
-  "Deleted": 612,
+  "Deleted": 418,
   "Direction": "Incoming",
-  "AutoeventId": 945,
+  "AutoeventId": 511,
   "QuoteDocType": "ConfirmationLines",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldLength": 657
     }
   }
 }

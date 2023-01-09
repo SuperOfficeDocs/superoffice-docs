@@ -36,7 +36,7 @@ Get a published AppointmentEntity user-defined field's details based on the prog
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 AppointmentEntity found.
 
@@ -45,7 +45,7 @@ AppointmentEntity found.
 | 200 | AppointmentEntity found. |
 | 404 | AppointmentEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +83,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,7 +92,7 @@ Response body:
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 631,
-  "ColumnId": 487,
-  "FieldDefault": "rerum",
-  "FieldHeight": 280,
-  "FieldLabel": "iure",
-  "FieldLeft": 146,
-  "FieldTop": 709,
+  "UDefFieldId": 525,
+  "ColumnId": 837,
+  "FieldDefault": "sequi",
+  "FieldHeight": 779,
+  "FieldLabel": "et",
+  "FieldLeft": 412,
+  "FieldTop": 951,
   "FieldType": "Checkbox",
-  "FieldWidth": 461,
-  "FormatMask": "repudiandae",
+  "FieldWidth": 680,
+  "FormatMask": "accusantium",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 449,
-  "LabelLeft": 597,
-  "LabelTop": 871,
-  "LabelWidth": 312,
-  "LastVersionId": 481,
-  "ListTableId": 414,
+  "IsIndexed": false,
+  "LabelHeight": 231,
+  "LabelLeft": 967,
+  "LabelTop": 323,
+  "LabelWidth": 722,
+  "LastVersionId": 460,
+  "ListTableId": 801,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 393,
-  "ProgId": "doloribus",
+  "Page1LineNo": 578,
+  "ProgId": "et",
   "IsReadOnly": false,
-  "ShortLabel": "amet",
-  "TabOrder": 964,
-  "TextLength": 233,
-  "Tooltip": "odio",
-  "UdefIdentity": 982,
-  "UDListDefinitionId": 14,
+  "ShortLabel": "recusandae",
+  "TabOrder": 577,
+  "TextLength": 800,
+  "Tooltip": "sunt",
+  "UdefIdentity": 145,
+  "UDListDefinitionId": 950,
   "Justification": "Center",
-  "Version": 43,
-  "TemplateVariableName": "Kris, Ondricka and Deckow",
+  "Version": 590,
+  "TemplateVariableName": "Hagenes Group",
   "HasBeenPublished": false,
-  "MdoListName": "Spinka-Farrell",
+  "MdoListName": "McCullough, Corwin and Hettinger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldType": "System.String",
+      "FieldLength": 430
     }
   }
 }

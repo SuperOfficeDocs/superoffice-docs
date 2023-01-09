@@ -44,20 +44,19 @@ POST /api/v1/Agents/Find/Find?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| PageSize | int32 |  |
-| PageNumber | int32 |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| PageSize | Integer |  |
+| PageNumber | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,14 +64,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FindResults
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,15 +80,15 @@ Response body:
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "iste",
-  "ProviderName": "Boyer-Stehr",
-  "StorageKey": "alias",
-  "PageSize": 38,
-  "PageNumber": 218
+  "StorageType": "molestias",
+  "ProviderName": "Balistreri-Sauer",
+  "StorageKey": "qui",
+  "PageSize": 475,
+  "PageNumber": 728
 }
 ```
 
@@ -102,51 +101,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Goldner Inc and Sons",
-      "DisplayTooltip": "maiores",
-      "DisplayType": "autem",
-      "CanOrderBy": false,
-      "Name": "Altenwerth-Koelpin",
+      "DisplayName": "Stroman, Spinka and Volkman",
+      "DisplayTooltip": "incidunt",
+      "DisplayType": "a",
+      "CanOrderBy": true,
+      "Name": "Hudson Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "hic",
-      "RestrictionListName": "Gottlieb-Funk",
-      "IsVisible": false,
-      "ExtraInfo": "saepe",
-      "Width": "nihil",
-      "IconHint": "ea",
-      "HeadingIconHint": "numquam"
+      "RestrictionType": "temporibus",
+      "RestrictionListName": "Runte, Bergstrom and Little",
+      "IsVisible": true,
+      "ExtraInfo": "eum",
+      "Width": "perferendis",
+      "IconHint": "minus",
+      "HeadingIconHint": "rem"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "O'Keefe-Vandervort",
-      "PrimaryKey": 760,
+      "EntityName": "Stracke, Vandervort and Volkman",
+      "PrimaryKey": 26,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "mollitia",
-          "TooltipHint": "tempore",
-          "LinkHint": "atque"
+          "DisplayValue": "incidunt",
+          "TooltipHint": "qui",
+          "LinkHint": "vel"
         }
       },
-      "LinkHint": "id",
-      "StyleHint": "illo",
+      "LinkHint": "voluptatem",
+      "StyleHint": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldLength": 239
         }
       }
     }
   ],
-  "RowCount": 443,
+  "RowCount": 213,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 737
+      "FieldType": "System.Int32",
+      "FieldLength": 428
     }
   }
 }

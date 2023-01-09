@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/GetConnection
 Returns the specified connection.
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/ErpSync/GetConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpConnectionId | int32 |  |
+| ErpConnectionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ErpConnection
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +76,7 @@ Response body:
 | AllAccess | bool | Is this connection accessible to everyone?  If not, then the ErpConnectionAccess table tells us who can access it |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 132
+  "ErpConnectionId": 973
 }
 ```
 
@@ -103,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 636,
-  "ErpConnectorId": 97,
-  "DisplayName": "Ullrich Group",
-  "DisplayDescription": "Inverse context-sensitive frame",
+  "ErpConnectionId": 952,
+  "ErpConnectorId": 784,
+  "DisplayName": "O'Connell Group",
+  "DisplayDescription": "Compatible tertiary task-force",
   "Active": false,
-  "ConnectionId": "voluptatibus",
+  "ConnectionId": "eveniet",
   "MostRecentTimestamp": "mollitia",
   "ConfigFields": {
-    "ConfigFields1": "debitis",
-    "ConfigFields2": "odio"
+    "ConfigFields1": "dolor",
+    "ConfigFields2": "corrupti"
   },
   "Deleted": false,
-  "AllAccess": false,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    857,
-    45
+    937,
+    480
   ],
   "AssociateAccessIds": [
-    550,
-    175
+    275,
+    976
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 996
+      "FieldLength": 765
     }
   }
 }

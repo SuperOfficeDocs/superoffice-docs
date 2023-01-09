@@ -42,16 +42,15 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
+| AssociateId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body: array
 | UpperY | int32 |  |
 | Width | int32 |  |
 | WindowPosSizeId | int32 |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,11 +82,11 @@ Response body: array
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 920
+  "AssociateId": 525
 }
 ```
 
@@ -99,23 +98,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "est",
-    "PersonId": 187,
-    "AssociateId": 758,
-    "ExtraId": 396,
-    "ExtraInfo": "omnis",
-    "Height": 940,
-    "LeftX": 375,
+    "OwnerWindow": "odit",
+    "PersonId": 283,
+    "AssociateId": 203,
+    "ExtraId": 218,
+    "ExtraInfo": "quia",
+    "Height": 869,
+    "LeftX": 349,
     "State": "Maximized",
-    "UpperY": 913,
-    "Width": 20,
-    "WindowPosSizeId": 998,
+    "UpperY": 734,
+    "Width": 645,
+    "WindowPosSizeId": 45,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldLength": 613
       }
     }
   }

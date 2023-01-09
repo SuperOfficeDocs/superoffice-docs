@@ -42,17 +42,16 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId, QuoteAlternativeId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
-| QuoteAlternativeId | int32 |  |
+| QuoteVersionId | Integer |  |
+| QuoteAlternativeId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,15 +59,15 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteVersionWorkflowState
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ActionButtons | array | Array of visible buttons with defined actions in the quote verson dialog. |
-| StateImage |  | Information about the state image for the current quote version. |
-| UpdatePricesButton |  | Information about the action for the update prices button. |
-| Status |  | Status information for the Quote Version. |
-| TableRight |  |  |
+| StateImage | QuoteVersionButtonState | Information about the state image for the current quote version. |
+| UpdatePricesButton | QuoteVersionButtonState | Information about the action for the update prices button. |
+| Status | QuoteVersionStatusInformation | Status information for the Quote Version. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,12 +76,12 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 365,
-  "QuoteAlternativeId": 41
+  "QuoteVersionId": 431,
+  "QuoteAlternativeId": 625
 }
 ```
 
@@ -96,16 +95,16 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "praesentium",
-      "DisplayText": "qui",
-      "TooltipText": "expedita",
+      "ImageHint": "quas",
+      "DisplayText": "aspernatur",
+      "TooltipText": "ut",
       "Enabled": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 564
+          "FieldLength": 237
         }
       }
     }
@@ -118,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 93
     }
   }
 }

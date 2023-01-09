@@ -38,17 +38,16 @@ POST /api/v1/Agents/List/SetRankOnSaleDocument?$select=name,department,category/
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SaleTypeStageLinkId, ItemsIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SaleTypeStageLinkId | int32 |  |
-| ItemsIds | array |  |
+| SaleTypeStageLinkId | Integer |  |
+| ItemsIds | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,14 +64,14 @@ Response body:
 POST /api/v1/Agents/List/SetRankOnSaleDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeStageLinkId": 854,
+  "SaleTypeStageLinkId": 136,
   "ItemsIds": [
-    278,
-    572
+    409,
+    537
   ]
 }
 ```

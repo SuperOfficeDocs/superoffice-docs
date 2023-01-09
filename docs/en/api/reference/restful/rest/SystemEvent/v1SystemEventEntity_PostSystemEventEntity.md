@@ -44,25 +44,24 @@ POST /api/v1/SystemEvent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The SystemEventEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SystemEventId | int32 | Primary key |
-| Scope | string | 1 = system-wide, 2= database, 3 = group, 4 = user |
-| Eta | date-time | Estimated Time of Arrival, i.e., when will this event finish? |
-| Eventkey | string | Event key, predefined in code |
-| Eventmess | string | Message to be shown, entered by administrator |
-| ExtraInfo | int32 | Extra information (area id for prototype rebuild, etc) |
-| Owner | int32 | 0, 0, group_id, assoc id (see over) |
-| UpdatedCount | int32 | Number of updates made to this record |
-| Registered | date-time | Registered when  in UTC. |
-| ActivatedBy |  | The associate that first created the SystemEvent. |
+| SystemEventId | Integer | Primary key |
+| Scope | String | 1 = system-wide, 2= database, 3 = group, 4 = user |
+| Eta | String | Estimated Time of Arrival, i.e., when will this event finish? |
+| Eventkey | String | Event key, predefined in code |
+| Eventmess | String | Message to be shown, entered by administrator |
+| ExtraInfo | Integer | Extra information (area id for prototype rebuild, etc) |
+| Owner | Integer | 0, 0, group_id, assoc id (see over) |
+| UpdatedCount | Integer | Number of updates made to this record |
+| Registered | String | Registered when  in UTC. |
+| ActivatedBy | Associate | The associate that first created the SystemEvent. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -70,7 +69,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SystemEventEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,8 +82,8 @@ Response body:
 | Owner | int32 | 0, 0, group_id, assoc id (see over) |
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
-| ActivatedBy |  | The associate that first created the SystemEvent. |
-| TableRight |  |  |
+| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -94,19 +93,19 @@ Response body:
 POST /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 649,
+  "SystemEventId": 297,
   "Scope": "Database",
-  "Eta": "2000-05-14T02:49:51.551935+02:00",
-  "Eventkey": "sequi",
-  "Eventmess": "est",
-  "ExtraInfo": 352,
-  "Owner": 879,
-  "UpdatedCount": 596,
-  "Registered": "2010-09-22T02:49:51.551935+02:00",
+  "Eta": "2002-07-02T17:37:39.231307+02:00",
+  "Eventkey": "qui",
+  "Eventmess": "consequuntur",
+  "ExtraInfo": 71,
+  "Owner": 585,
+  "UpdatedCount": 998,
+  "Registered": "1997-01-23T17:37:39.2323034+01:00",
   "ActivatedBy": null
 }
 ```
@@ -118,22 +117,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 166,
+  "SystemEventId": 848,
   "Scope": "Database",
-  "Eta": "2013-12-04T02:49:51.551935+01:00",
-  "Eventkey": "veritatis",
-  "Eventmess": "aut",
-  "ExtraInfo": 146,
-  "Owner": 439,
-  "UpdatedCount": 157,
-  "Registered": "2012-08-23T02:49:51.551935+02:00",
+  "Eta": "1999-09-26T17:37:39.2323034+02:00",
+  "Eventkey": "cupiditate",
+  "Eventmess": "velit",
+  "ExtraInfo": 841,
+  "Owner": 214,
+  "UpdatedCount": 147,
+  "Registered": "2019-09-19T17:37:39.2323034+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 209
+      "FieldType": "System.Int32",
+      "FieldLength": 432
     }
   },
   "_Links": {

@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ExtAppEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body:
 | WaitToFinish | bool | True if the application shall wait for fininsh event |
 | ExecuteOnEvent | string | Events that cause automatic execution of this app |
 | Path | string | Path where the programfile is located; if empty, PATH is used |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,14 +87,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 756,
-  "Name": "Cronin, Roberts and Hegmann",
-  "Tooltip": "aliquam",
+  "ExtAppId": 24,
+  "Name": "Crona Inc and Sons",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 298,
-  "Filename": "consequuntur",
-  "Parameters": "ex",
-  "Workdir": "doloribus",
+  "Rank": 28,
+  "Filename": "nostrum",
+  "Parameters": "minima",
+  "Workdir": "sint",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -104,17 +104,17 @@ Content-Type: application/json; charset=utf-8
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 58,
-  "WaitToFinish": false,
+  "ShowInStatusBar": true,
+  "Icon": 775,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "rerum",
+  "Path": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldType": "System.String",
+      "FieldLength": 878
     }
   }
 }

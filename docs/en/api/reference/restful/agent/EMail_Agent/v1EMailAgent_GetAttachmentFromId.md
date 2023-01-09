@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetAttachmentFromId
 Retrieve an attachment from an e-mail
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/EMail/GetAttachmentFromId?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MailItemId, AttachmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MailItemId | int32 |  |
-| AttachmentId | string |  |
+| MailItemId | Integer |  |
+| AttachmentId | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailAttachment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +73,7 @@ Response body:
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,12 +82,12 @@ Response body:
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 93,
-  "AttachmentId": "reiciendis"
+  "MailItemId": 521,
+  "AttachmentId": "et"
 }
 ```
 
@@ -101,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Expanded transitional capability",
-  "Filename": "facere",
-  "Size": 523,
-  "Type": "qui",
-  "Encoding": "tempora",
-  "Id": "voluptatibus",
-  "Disposition": "fuga",
+  "Description": "Universal asynchronous initiative",
+  "Filename": "dolor",
+  "Size": 858,
+  "Type": "deleniti",
+  "Encoding": "sit",
+  "Id": "exercitationem",
+  "Disposition": "ratione",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 497
     }
   }
 }

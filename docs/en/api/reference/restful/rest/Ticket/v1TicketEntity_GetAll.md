@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=dolores
-GET /api/v1/Ticket?$top=403
-GET /api/v1/Ticket?$skip=456
+GET /api/v1/Ticket?$entities=et
+GET /api/v1/Ticket?$top=706
+GET /api/v1/Ticket?$skip=572
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=error
+GET /api/v1/Ticket?$context=architecto
 GET /api/v1/Ticket?$format=JSON
-GET /api/v1/Ticket?$jsonSafe=False
+GET /api/v1/Ticket?$jsonSafe=True
 GET /api/v1/Ticket?$output=Display
 ```
 
@@ -96,7 +95,7 @@ GET /api/v1/Ticket?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body:
 GET /api/v1/Ticket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "possimus",
+  "odata.nextLink": "accusantium",
   "value": [
     {
-      "PrimaryKey": 1111,
-      "EntityName": "person",
-      "personId": 1111,
-      "fullName": "Miss Delores Brekke DVM"
+      "PrimaryKey": 1274,
+      "EntityName": "sale",
+      "saleId": 1274,
+      "contactId": 4793,
+      "name": "Swift LLC"
     },
     {
-      "PrimaryKey": 5070,
-      "EntityName": "person",
-      "personId": 5070,
-      "fullName": "Charlotte Wisoky"
+      "PrimaryKey": 656,
+      "EntityName": "sale",
+      "saleId": 656,
+      "contactId": 3824,
+      "name": "Heidenreich Group"
     }
   ]
 }

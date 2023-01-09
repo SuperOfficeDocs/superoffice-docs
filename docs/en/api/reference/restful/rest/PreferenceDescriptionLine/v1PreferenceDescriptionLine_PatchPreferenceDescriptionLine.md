@@ -71,18 +71,17 @@ PATCH /api/v1/PreferenceDescriptionLine/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 PreferenceDescriptionLine  updated.
 
@@ -93,7 +92,7 @@ PreferenceDescriptionLine  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because PreferenceDescriptionLine has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: PreferenceDescriptionLineWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,7 +102,7 @@ Response body:
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -119,12 +118,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "porro",
+    "path": "consectetur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "porro",
+    "path": "consectetur",
     "value": {}
   }
 ]
@@ -137,18 +136,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 750,
-  "PrefDescId": 182,
-  "PrefValue": "occaecati",
-  "PrefShowValue": "alias",
-  "Description": "Automated tertiary functionalities",
+  "PrefDescLineId": 73,
+  "PrefDescId": 370,
+  "PrefValue": "veritatis",
+  "PrefShowValue": "est",
+  "Description": "Fully-configurable encompassing support",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 634
     }
   },
   "_Links": {

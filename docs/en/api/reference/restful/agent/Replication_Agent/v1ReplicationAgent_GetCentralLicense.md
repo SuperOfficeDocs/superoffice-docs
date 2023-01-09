@@ -44,7 +44,7 @@ POST /api/v1/Agents/Replication/GetCentralLicense?$select=name,department,catego
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +60,7 @@ Response body: array
 | Description | string |  |
 | RestrictedModuleLicenses | array |  |
 | UnrestrictedModuleLicenses | array | The unrestricted module licenses that this license owner |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -69,7 +69,7 @@ Response body: array
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Herzog, Gleason and Zulauf",
-    "Description": "Object-based multimedia contingency",
+    "Name": "Weber, Bechtelar and Corkery",
+    "Description": "Function-based bandwidth-monitored function",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 877,
-        "Tooltip": "debitis",
+        "Total": 993,
+        "Tooltip": "qui",
         "CanAssign": true,
-        "Free": 899,
-        "InUse": 395,
+        "Free": 667,
+        "InUse": 699,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 516,
-        "Name": "Swaniawski LLC",
-        "Description": "Organic mission-critical function",
-        "PrerequisiteModuleName": "Dare, Hahn and Heller",
-        "SortOrder": 489,
-        "ExtraFlags": 605,
+        "Assigned": true,
+        "ModuleLicenseId": 241,
+        "Name": "Marquardt Group",
+        "Description": "Future-proofed system-worthy protocol",
+        "PrerequisiteModuleName": "Zboncak, McGlynn and Lockman",
+        "SortOrder": 779,
+        "ExtraFlags": 836,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 899
+            "FieldType": "System.Int32",
+            "FieldLength": 714
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 34,
-        "Tooltip": "sit",
+        "Unrestricted": false,
+        "Total": 72,
+        "Tooltip": "veniam",
         "CanAssign": false,
-        "Free": 695,
-        "InUse": 158,
+        "Free": 991,
+        "InUse": 823,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 488,
-        "Name": "Borer, Feil and Bauch",
-        "Description": "Secured interactive help-desk",
-        "PrerequisiteModuleName": "Champlin-Larson",
-        "SortOrder": 552,
-        "ExtraFlags": 917,
+        "Assigned": false,
+        "ModuleLicenseId": 281,
+        "Name": "Stanton LLC",
+        "Description": "Persevering leading edge task-force",
+        "PrerequisiteModuleName": "Bayer LLC",
+        "SortOrder": 206,
+        "ExtraFlags": 39,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 961
+            "FieldType": "System.String",
+            "FieldLength": 750
           }
         }
       }
@@ -139,61 +139,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldLength": 238
       }
     }
   },
   {
-    "Name": "Herzog, Gleason and Zulauf",
-    "Description": "Object-based multimedia contingency",
+    "Name": "Weber, Bechtelar and Corkery",
+    "Description": "Function-based bandwidth-monitored function",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 877,
-        "Tooltip": "debitis",
+        "Total": 993,
+        "Tooltip": "qui",
         "CanAssign": true,
-        "Free": 899,
-        "InUse": 395,
+        "Free": 667,
+        "InUse": 699,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 516,
-        "Name": "Swaniawski LLC",
-        "Description": "Organic mission-critical function",
-        "PrerequisiteModuleName": "Dare, Hahn and Heller",
-        "SortOrder": 489,
-        "ExtraFlags": 605,
+        "Assigned": true,
+        "ModuleLicenseId": 241,
+        "Name": "Marquardt Group",
+        "Description": "Future-proofed system-worthy protocol",
+        "PrerequisiteModuleName": "Zboncak, McGlynn and Lockman",
+        "SortOrder": 779,
+        "ExtraFlags": 836,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 899
+            "FieldType": "System.Int32",
+            "FieldLength": 714
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 34,
-        "Tooltip": "sit",
+        "Unrestricted": false,
+        "Total": 72,
+        "Tooltip": "veniam",
         "CanAssign": false,
-        "Free": 695,
-        "InUse": 158,
+        "Free": 991,
+        "InUse": 823,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 488,
-        "Name": "Borer, Feil and Bauch",
-        "Description": "Secured interactive help-desk",
-        "PrerequisiteModuleName": "Champlin-Larson",
-        "SortOrder": 552,
-        "ExtraFlags": 917,
+        "Assigned": false,
+        "ModuleLicenseId": 281,
+        "Name": "Stanton LLC",
+        "Description": "Persevering leading edge task-force",
+        "PrerequisiteModuleName": "Bayer LLC",
+        "SortOrder": 206,
+        "ExtraFlags": 39,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 961
+            "FieldType": "System.String",
+            "FieldLength": 750
           }
         }
       }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldLength": 238
       }
     }
   }

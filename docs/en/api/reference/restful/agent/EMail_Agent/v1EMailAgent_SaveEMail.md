@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/SaveEMail
 Save the passed e-mail back to the server
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/EMail/SaveEMail?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConnectionInfo, Email 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-| Email |  | All information about an e-mail <para /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| ConnectionInfo | EMailConnectionInfo | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| Email | EMailEntity | All information about an e-mail <para /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +70,7 @@ Response body:
 | Bcc | array | Bcc recipient of e-mail |
 | Subject | string | Subject of the e-mail |
 | HTMLBody | string | Body formatted in HTML |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | Sent | date-time | When was the e-mail sent |
 | Size | int32 | Total size of the e-mail |
 | Priority | string | Importance of the e-mail |
@@ -81,7 +78,7 @@ Response body:
 | MessageID | string | Unique id of e-mails |
 | PlainBody | string | Body formatted in plain text |
 | IsSent | bool | Is this a sent e-mail (not new) |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
 | ServerId | int32 | Unique id for the e-mail on the server |
 | Attachments | array |  |
 | CustomHeaderList | array | Non standard e-mail headers |
@@ -89,12 +86,12 @@ Response body:
 | EmailItemId | int32 | Primary key |
 | AccountId | int32 | Account Id |
 | ReceivedAt | date-time | Received date time |
-| InReplyTo |  | The envelope of the email this email is a reply to, if it exists |
+| InReplyTo | EMailEnvelope | The envelope of the email this email is a reply to, if it exists |
 | RepliedAt | date-time | When this email was replied at |
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -103,7 +100,7 @@ Response body:
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,146 +118,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 113,
-      "ContactName": "Crooks Group",
-      "PersonId": 725,
-      "PersonName": "Satterfield Inc and Sons",
-      "AssociateId": 987,
-      "Address": "omnis",
-      "EmailId": 413,
+      "ContactId": 138,
+      "ContactName": "O'Kon Inc and Sons",
+      "PersonId": 1002,
+      "PersonName": "Hettinger-Runolfsson",
+      "AssociateId": 235,
+      "Address": "ea",
+      "EmailId": 955,
       "DuplicatePersonIds": [
-        404,
-        959
+        922,
+        763
       ],
-      "Name": "Moore-Parker",
+      "Name": "Bartell Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 649
+          "FieldType": "System.Int32",
+          "FieldLength": 449
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 813,
-      "ContactName": "Mueller-Moore",
-      "PersonId": 965,
-      "PersonName": "Reynolds, Watsica and Paucek",
-      "AssociateId": 298,
-      "Address": "facere",
-      "EmailId": 12,
+      "ContactId": 151,
+      "ContactName": "Hirthe-Fay",
+      "PersonId": 811,
+      "PersonName": "Hackett, Casper and Kuphal",
+      "AssociateId": 631,
+      "Address": "nemo",
+      "EmailId": 737,
       "DuplicatePersonIds": [
-        845,
-        257
+        973,
+        949
       ],
-      "Name": "Stiedemann-Rath",
+      "Name": "Bogisich Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 612
+          "FieldType": "System.Int32",
+          "FieldLength": 254
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 289,
-      "ContactName": "Brown, Stehr and Jenkins",
-      "PersonId": 987,
-      "PersonName": "Reynolds Group",
-      "AssociateId": 371,
-      "Address": "voluptatem",
-      "EmailId": 498,
+      "ContactId": 549,
+      "ContactName": "Gislason, Spencer and Raynor",
+      "PersonId": 203,
+      "PersonName": "Altenwerth-Jenkins",
+      "AssociateId": 758,
+      "Address": "amet",
+      "EmailId": 509,
       "DuplicatePersonIds": [
-        642,
-        26
+        674,
+        974
       ],
-      "Name": "Veum, Turner and Johns",
+      "Name": "Koss, Thompson and Waters",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 882
+          "FieldLength": 529
         }
       }
     }
   ],
-  "Subject": "sint",
-  "HTMLBody": "enim",
+  "Subject": "perspiciatis",
+  "HTMLBody": "quibusdam",
   "From": null,
-  "Sent": "2007-06-11T02:49:44.4347885+02:00",
-  "Size": 833,
+  "Sent": "2018-04-18T17:37:17.9532415+02:00",
+  "Size": 951,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "rem",
-  "PlainBody": "mollitia",
+  "MessageID": "tenetur",
+  "PlainBody": "aut",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 970,
+  "ServerId": 813,
   "Attachments": [
     {
-      "Description": "Automated reciprocal website",
-      "Filename": "aut",
-      "Size": 918,
-      "Type": "reiciendis",
-      "Encoding": "ipsam",
-      "Id": "expedita",
-      "Disposition": "occaecati",
+      "Description": "Optimized bandwidth-monitored throughput",
+      "Filename": "quo",
+      "Size": 594,
+      "Type": "omnis",
+      "Encoding": "in",
+      "Id": "commodi",
+      "Disposition": "illum",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldType": "System.String",
+          "FieldLength": 125
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Farrell-Ortiz",
+      "Name": "Cruickshank-D'Amore",
       "Values": [
-        "dignissimos",
-        "tenetur"
+        "sunt",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 703
         }
       }
     },
     {
-      "Name": "Farrell-Ortiz",
+      "Name": "Cruickshank-D'Amore",
       "Values": [
-        "dignissimos",
-        "tenetur"
+        "sunt",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 703
         }
       }
     }
   ],
-  "FolderName": "Davis-Kertzmann",
-  "EmailItemId": 406,
-  "AccountId": 102,
-  "ReceivedAt": "2000-09-05T02:49:44.4347885+02:00",
+  "FolderName": "Hammes-Rodriguez",
+  "EmailItemId": 82,
+  "AccountId": 683,
+  "ReceivedAt": "2009-04-13T17:37:17.9542425+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-04-11T02:49:44.4347885+02:00",
+  "RepliedAt": "2003-11-30T17:37:17.9542425+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -269,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 568
+      "FieldLength": 61
     }
   }
 }

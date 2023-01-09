@@ -32,7 +32,7 @@ Gets a default TicketPriorityEntity list item.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketPriorityEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +72,7 @@ Response body:
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,60 +91,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 709,
-  "Name": "Blick Inc and Sons",
+  "TicketPriorityId": 741,
+  "Name": "Heller LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 432,
+  "SortOrder": 627,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 983,
-  "MonStart": "2013-05-02T02:49:52.5784525+02:00",
-  "MonStop": "1996-01-11T02:49:52.5784525+01:00",
-  "TueStart": "2010-10-26T02:49:52.5784525+02:00",
-  "TueStop": "2008-04-22T02:49:52.5784525+02:00",
-  "WedStart": "2020-04-01T02:49:52.5784525+02:00",
-  "WedStop": "2014-01-30T02:49:52.5784525+01:00",
-  "ThuStart": "2008-09-02T02:49:52.5784525+02:00",
-  "ThuStop": "1999-06-17T02:49:52.5784525+02:00",
-  "FriStart": "1997-05-14T02:49:52.5784525+02:00",
-  "FriStop": "2021-02-08T02:49:52.5784525+01:00",
-  "SatStart": "2016-08-22T02:49:52.5784525+02:00",
-  "SatStop": "2019-01-08T02:49:52.5784525+01:00",
-  "SunStart": "2020-09-14T02:49:52.5784525+02:00",
-  "SunStop": "2008-06-05T02:49:52.5784525+02:00",
+  "Deadline": 681,
+  "MonStart": "2018-08-10T17:37:40.4175007+02:00",
+  "MonStop": "2003-06-25T17:37:40.4175007+02:00",
+  "TueStart": "2011-03-22T17:37:40.4175007+01:00",
+  "TueStop": "2004-07-08T17:37:40.4175007+02:00",
+  "WedStart": "2003-07-31T17:37:40.4175007+02:00",
+  "WedStop": "2017-12-30T17:37:40.4175007+01:00",
+  "ThuStart": "2000-06-01T17:37:40.4175007+02:00",
+  "ThuStop": "2000-12-13T17:37:40.4175007+01:00",
+  "FriStart": "2014-02-27T17:37:40.4175007+01:00",
+  "FriStop": "2018-07-05T17:37:40.4175007+02:00",
+  "SatStart": "2007-11-19T17:37:40.4175007+01:00",
+  "SatStop": "2004-07-08T17:37:40.4175007+02:00",
+  "SunStart": "2010-04-09T17:37:40.4175007+02:00",
+  "SunStop": "1997-10-16T17:37:40.4175007+02:00",
   "NonDates": [
-    "ipsum",
-    "impedit"
+    "et",
+    "ipsam"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 478,
-      "AlertLevel": 195,
-      "AlertTimeout": 427,
-      "Action": 901,
-      "DelegateTo": 3,
-      "ScriptId": 961,
-      "EmailTo": "brenden_weissnat@harberwehner.info",
-      "SmsTo": "facilis",
-      "ReplyTemplateIdCustomer": 617,
-      "ReplyTemplateIdUser": 433,
-      "ReplyTemplateIdCatmast": 131,
-      "ReplyTemplateIdEmail": 820,
-      "RtiCustomerSms": 970,
-      "ReplyTemplateIdUserSms": 659,
-      "ReplyTemplateIdCatmastSms": 680,
-      "ReplyTemplateIdSms": 303,
+      "TicketAlertId": 794,
+      "AlertLevel": 829,
+      "AlertTimeout": 138,
+      "Action": 298,
+      "DelegateTo": 447,
+      "ScriptId": 700,
+      "EmailTo": "amie@will.ca",
+      "SmsTo": "non",
+      "ReplyTemplateIdCustomer": 483,
+      "ReplyTemplateIdUser": 632,
+      "ReplyTemplateIdCatmast": 405,
+      "ReplyTemplateIdEmail": 651,
+      "RtiCustomerSms": 484,
+      "ReplyTemplateIdUserSms": 986,
+      "ReplyTemplateIdCatmastSms": 195,
+      "ReplyTemplateIdSms": 142,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 939
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 875
+      "FieldLength": 347
     }
   }
 }

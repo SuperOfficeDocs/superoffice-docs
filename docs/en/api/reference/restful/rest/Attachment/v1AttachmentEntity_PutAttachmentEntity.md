@@ -46,21 +46,20 @@ PUT /api/v1/Attachment/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The AttachmentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AttachmentId | int32 | The primary key (auto-incremented) |
-| Name | string | The filename for the attachment. |
-| ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
-| AttSize | int32 | The size (in bytes) for the attachment. |
-| InlineImage | bool | True if this attachment is inlined in the html_body. |
-| ContentId | string | The content_id of this attachment, used for inline images |
+| AttachmentId | Integer | The primary key (auto-incremented) |
+| Name | String | The filename for the attachment. |
+| ContentType | String | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
+| AttSize | Integer | The size (in bytes) for the attachment. |
+| InlineImage | Boolean | True if this attachment is inlined in the html_body. |
+| ContentId | String | The content_id of this attachment, used for inline images |
 
-
-## Response: 
+## Response:
 
 AttachmentEntity updated.
 
@@ -69,7 +68,7 @@ AttachmentEntity updated.
 | 200 | AttachmentEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: AttachmentEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body:
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -89,16 +88,16 @@ Response body:
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 211,
-  "Name": "Bogisich LLC",
-  "ContentType": "dolores",
-  "AttSize": 828,
+  "AttachmentId": 470,
+  "Name": "Larkin, Hand and Blanda",
+  "ContentType": "dicta",
+  "AttSize": 771,
   "InlineImage": false,
-  "ContentId": "deleniti"
+  "ContentId": "consectetur"
 }
 ```
 
@@ -109,18 +108,18 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 746,
-  "Name": "Crooks Inc and Sons",
-  "ContentType": "a",
-  "AttSize": 704,
+  "AttachmentId": 20,
+  "Name": "Bailey Group",
+  "ContentType": "at",
+  "AttSize": 770,
   "InlineImage": false,
-  "ContentId": "ut",
+  "ContentId": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 665
+      "FieldType": "System.Int32",
+      "FieldLength": 220
     }
   },
   "_Links": {

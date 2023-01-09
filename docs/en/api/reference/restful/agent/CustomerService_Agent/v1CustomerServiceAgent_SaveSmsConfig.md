@@ -32,19 +32,18 @@ Updates the existing SmsConfig or creates a new SmsConfig if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The SmsConfig to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DefaultSmsCountry | string | Phone prefix, will default to the current users HomeCountryId. |
-| NetServerSmsProvider | string | Name of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, PSWinCom SMS, SMS Teknik or TXTLocal. |
-| NsPluginSender | string | The sender of the SMS messages. This text will appear on the recipient's mobile phone. |
-| NsPluginConfig | object | Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password. |
+| DefaultSmsCountry | String | Phone prefix, will default to the current users HomeCountryId. |
+| NetServerSmsProvider | String | Name of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, PSWinCom SMS, SMS Teknik or TXTLocal. |
+| NsPluginSender | String | The sender of the SMS messages. This text will appear on the recipient's mobile phone. |
+| NsPluginConfig | Object | Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +51,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SmsConfig
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +59,7 @@ Response body:
 | NetServerSmsProvider | string | Name of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, PSWinCom SMS, SMS Teknik or TXTLocal. |
 | NsPluginSender | string | The sender of the SMS messages. This text will appear on the recipient's mobile phone. |
 | NsPluginConfig | object | Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -69,16 +68,16 @@ Response body:
 POST /api/v1/Agents/CustomerService/SaveSmsConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "possimus",
-  "NsPluginSender": "maxime",
+  "NetServerSmsProvider": "debitis",
+  "NsPluginSender": "consequuntur",
   "NsPluginConfig": {
-    "NsPluginConfig1": "ea",
-    "NsPluginConfig2": "nemo"
+    "NsPluginConfig1": "quisquam",
+    "NsPluginConfig2": "non"
   }
 }
 ```
@@ -91,18 +90,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "consequatur",
-  "NsPluginSender": "nostrum",
+  "NetServerSmsProvider": "fugit",
+  "NsPluginSender": "unde",
   "NsPluginConfig": {
-    "NsPluginConfig1": "iste",
-    "NsPluginConfig2": "et"
+    "NsPluginConfig1": "esse",
+    "NsPluginConfig2": "dolores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 41
     }
   }
 }

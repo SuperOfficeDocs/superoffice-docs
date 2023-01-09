@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=neque
-GET /api/v1/Pricelist?$top=171
-GET /api/v1/Pricelist?$skip=82
+GET /api/v1/Pricelist?$entities=rerum
+GET /api/v1/Pricelist?$top=245
+GET /api/v1/Pricelist?$skip=147
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=odit
+GET /api/v1/Pricelist?$context=aut
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=True
 GET /api/v1/Pricelist?$output=Display
@@ -96,7 +95,7 @@ GET /api/v1/Pricelist?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body:
 GET /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quo",
+  "odata.nextLink": "tempora",
   "value": [
     {
-      "PrimaryKey": 5592,
-      "EntityName": "person",
-      "personId": 5592,
-      "fullName": "Pietro Jakubowski I"
+      "PrimaryKey": 9160,
+      "EntityName": "sale",
+      "saleId": 9160,
+      "contactId": 5321,
+      "name": "Gislason Inc and Sons"
     },
     {
-      "PrimaryKey": 9066,
-      "EntityName": "person",
-      "personId": 9066,
-      "fullName": "Isom Gleason"
+      "PrimaryKey": 618,
+      "EntityName": "sale",
+      "saleId": 618,
+      "contactId": 1123,
+      "name": "Tromp-Berge"
     }
   ]
 }

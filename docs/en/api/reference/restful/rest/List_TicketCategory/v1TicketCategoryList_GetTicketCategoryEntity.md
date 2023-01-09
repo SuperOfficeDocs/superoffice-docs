@@ -38,7 +38,7 @@ Calls the List agent service GetTicketCategoryEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -47,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: TicketCategoryEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,12 +64,12 @@ Response body:
 | AssignmentLag | int32 | Number of minutes we shall override the assignment if a customer sends consecutive messages to this category |
 | ReplyTemplate | int32 | Reply template to merge with messages posted in this category |
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
-| DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
-| DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| DefaultTicketStatus | TicketStatusEntity | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
+| DefaultMessageStatus | TicketStatusEntity | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,7 +78,7 @@ Response body:
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,36 +88,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 395,
-  "ParentId": 363,
-  "Name": "Blick, Gerlach and Grant",
-  "Fullname": "consequatur",
-  "CategoryMaster": 922,
+  "TicketCategoryId": 218,
+  "ParentId": 410,
+  "Name": "Spencer Group",
+  "Fullname": "voluptates",
+  "CategoryMaster": 465,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Ryan-Boyle",
+  "ExternalName": "Hamill, Kohler and Terry",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 450,
-  "ReplyTemplate": 687,
-  "NotificationEmail": "fredrick.schoen@wilkinsonherzog.name",
+  "AssignmentLag": 914,
+  "ReplyTemplate": 462,
+  "NotificationEmail": "llewellyn_rau@reynolds.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 300,
+  "EffectiveReplyTemplateId": 690,
   "ExtraFields": {
-    "ExtraFields1": "eaque",
-    "ExtraFields2": "repellendus"
+    "ExtraFields1": "est",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "earum"
+    "CustomFields1": "et",
+    "CustomFields2": "ab"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldLength": 623
     }
   }
 }

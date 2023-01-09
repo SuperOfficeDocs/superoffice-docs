@@ -32,7 +32,7 @@ Gets a default SaleTypeEntity list item.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaleTypeEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +66,7 @@ Response body:
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,53 +85,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 784,
-  "Name": "Raynor-Roob",
-  "Tooltip": "et",
-  "Rank": 487,
+  "SaleTypeId": 689,
+  "Name": "Bartoletti LLC",
+  "Tooltip": "vero",
+  "Rank": 587,
   "DurationUnit": "Century",
-  "SaleDuration": 610,
-  "SaleTypeCatId": 179,
-  "Deleted": true,
+  "SaleDuration": 405,
+  "SaleTypeCatId": 119,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 847,
-  "QuoteLinesTemplate": 211,
-  "ConfirmationLinesTemplate": 819,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 644,
+  "QuoteLinesTemplate": 914,
+  "ConfirmationLinesTemplate": 925,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 9,
-  "MinEarningPercent": 305,
-  "GroupQuoteLinesBy": 664,
-  "SortGroupLinesBy": 192,
+  "MaxDiscountPercent": 742,
+  "MinEarningPercent": 513,
+  "GroupQuoteLinesBy": 482,
+  "SortGroupLinesBy": 835,
   "Stages": [
     {
-      "Id": 697,
-      "Name": "Leannon-Padberg",
-      "ToolTip": "Quia error eum.",
+      "Id": 79,
+      "Name": "Konopelski, Gorczany and Wiegand",
+      "ToolTip": "Placeat nihil explicabo delectus temporibus enim placeat ex.",
       "Deleted": false,
-      "Rank": 281,
-      "Type": "amet",
-      "ColorBlock": 845,
-      "IconHint": "similique",
-      "Selected": true,
-      "LastChanged": "2000-11-06T02:49:52.5003264+01:00",
+      "Rank": 358,
+      "Type": "quia",
+      "ColorBlock": 335,
+      "IconHint": "tempore",
+      "Selected": false,
+      "LastChanged": "2020-02-11T17:37:40.3335033+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nam",
-      "StyleHint": "consequatur",
+      "ExtraInfo": "laboriosam",
+      "StyleHint": "optio",
       "Hidden": false,
-      "FullName": "Braxton Dare",
+      "FullName": "Meagan Terrell Skiles III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 610
+          "FieldType": "System.String",
+          "FieldLength": 789
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 133
+      "FieldLength": 50
     }
   }
 }

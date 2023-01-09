@@ -42,16 +42,15 @@ POST /api/v1/Agents/Targets/GetTargetRevisionHistory?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TargetAssignmentInfoId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TargetAssignmentInfoId | int32 |  |
+| TargetAssignmentInfoId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,14 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TargetRevisionHistory
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TargetGroupId | int32 | The group id - but it may not still exist |
 | Year | int32 | The year this set of targets are associated with (2020, 2021...) |
 | Revisions | array | Collection of revisions (with changes) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,11 +74,11 @@ Response body:
 POST /api/v1/Agents/Targets/GetTargetRevisionHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 68
+  "TargetAssignmentInfoId": 460
 }
 ```
 
@@ -90,13 +89,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 323,
-  "Year": 526,
+  "TargetGroupId": 894,
+  "Year": 378,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2007-05-30T02:49:45.4528435+02:00",
+      "When": "2016-07-09T17:37:19.2632421+02:00",
       "Changes": [
         {},
         {}
@@ -106,14 +105,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldLength": 509
         }
       }
     },
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2007-05-30T02:49:45.4528435+02:00",
+      "When": "2016-07-09T17:37:19.2632421+02:00",
       "Changes": [
         {},
         {}
@@ -123,7 +122,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldLength": 509
         }
       }
     }
@@ -133,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldLength": 30
     }
   }
 }

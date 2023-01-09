@@ -51,7 +51,7 @@ GET /api/v1/TriggerScript/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 TriggerScriptEntity found.
 
@@ -60,7 +60,7 @@ TriggerScriptEntity found.
 | 200 | TriggerScriptEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: TriggerScriptEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +74,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -84,7 +84,7 @@ Response body:
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,22 +94,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 570,
-  "Name": "Cole LLC",
+  "ScreenChooserId": 792,
+  "Name": "Luettgen-Cartwright",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "est",
+  "UniqueIdentifier": "accusamus",
   "Source": "et",
-  "Registered": "1999-05-25T02:49:51.6710218+02:00",
-  "RegisteredAssociateId": 507,
-  "Updated": "2021-08-06T02:49:51.6710218+02:00",
-  "UpdatedAssociateId": 441,
+  "Registered": "2001-12-06T17:37:39.3914264+01:00",
+  "RegisteredAssociateId": 117,
+  "Updated": "2014-11-05T17:37:39.3914264+01:00",
+  "UpdatedAssociateId": 447,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldType": "System.Int32",
+      "FieldLength": 796
     }
   },
   "_Links": {

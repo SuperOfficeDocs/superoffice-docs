@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=expedita
-GET /api/v1/BatchTask?$top=306
-GET /api/v1/BatchTask?$skip=616
+GET /api/v1/BatchTask?$entities=et
+GET /api/v1/BatchTask?$top=363
+GET /api/v1/BatchTask?$skip=915
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=nihil
+GET /api/v1/BatchTask?$context=exercitationem
 GET /api/v1/BatchTask?$format=JSON
 GET /api/v1/BatchTask?$jsonSafe=True
 GET /api/v1/BatchTask?$output=Display
@@ -96,7 +95,7 @@ GET /api/v1/BatchTask?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aliquam",
+  "odata.nextLink": "sint",
   "value": [
     {
-      "PrimaryKey": 7318,
-      "EntityName": "person",
-      "personId": 7318,
-      "fullName": "Estelle Gleichner"
+      "PrimaryKey": 2262,
+      "EntityName": "sale",
+      "saleId": 2262,
+      "contactId": 5057,
+      "name": "Schimmel, Cormier and Bogisich"
     },
     {
-      "PrimaryKey": 7750,
-      "EntityName": "person",
-      "personId": 7750,
-      "fullName": "Allison Ernser"
+      "PrimaryKey": 2079,
+      "EntityName": "sale",
+      "saleId": 2079,
+      "contactId": 2653,
+      "name": "Smitham LLC"
     }
   ]
 }

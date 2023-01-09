@@ -42,17 +42,16 @@ POST /api/v1/Agents/Quote/CanConnectorProvideCapability?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteConnectionId, CapabilityName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteConnectionId | int32 |  |
-| CapabilityName | string |  |
+| QuoteConnectionId | Integer |  |
+| CapabilityName | String |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -69,12 +68,12 @@ Response body: bool
 POST /api/v1/Agents/Quote/CanConnectorProvideCapability
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 818,
-  "CapabilityName": "Adams Group"
+  "QuoteConnectionId": 907,
+  "CapabilityName": "Funk Inc and Sons"
 }
 ```
 
@@ -84,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

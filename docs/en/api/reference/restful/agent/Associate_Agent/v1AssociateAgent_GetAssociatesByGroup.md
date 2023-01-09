@@ -44,17 +44,16 @@ POST /api/v1/Agents/Associate/GetAssociatesByGroup?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 GroupId, Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| GroupId | int32 |  |
-| Type | int32 |  |
+| GroupId | Integer |  |
+| Type | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body: array
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
 | UserName | string | User name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,8 +90,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 824,
-  "Type": 932
+  "GroupId": 130,
+  "Type": 128
 }
 ```
 
@@ -104,24 +103,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 738,
-    "Name": "Crist LLC",
-    "PersonId": 935,
-    "Rank": 379,
-    "Tooltip": "molestiae",
+    "AssociateId": 984,
+    "Name": "Bergnaum Group",
+    "PersonId": 882,
+    "Rank": 865,
+    "Tooltip": "aut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 840,
-    "FullName": "Miss Ryleigh Larkin Jr.",
-    "FormalName": "Sawayn LLC",
+    "GroupIdx": 525,
+    "FullName": "Kaela Willms",
+    "FormalName": "Lehner LLC",
     "Deleted": false,
-    "EjUserId": 131,
-    "UserName": "Haag LLC",
+    "EjUserId": 251,
+    "UserName": "Boyer, Bashirian and Pouros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 904
+        "FieldType": "System.String",
+        "FieldLength": 698
       }
     }
   }

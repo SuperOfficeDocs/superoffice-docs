@@ -42,17 +42,16 @@ POST /api/v1/Agents/Contact/GetAddressByCountry?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, CountryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| CountryId | int32 |  |
+| ContactId | Integer |  |
+| CountryId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,17 +59,17 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Address
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Wgs84Latitude | double | Latitude (that's north/south), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 59.91892. This value needs no further grid reference or other qualifying information. |
 | Wgs84Longitude | double | Longitude (that's East/west), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 10.73159. This value needs no further grid reference or other qualifying information. |
 | LocalizedAddress | array | LocalizedFieldArray is a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. |
-| Street |  | Street address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
-| Postal |  | Postal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
+| Street | StructuredAddress | Street address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
+| Postal | StructuredAddress | Postal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Formatted | string | Read-only formatted address multi-line string. Combines street and postal into one string. e.g.: &lt;c&gt;"Postboks 123,\nBrugata 123,\n1234 OSLO\n"&lt;/c&gt; or &lt;c&gt;"Postbox 123,\nBridgelane 123,\nWest Tooting,\nEast Shire ES2 W31\n"&lt;/c&gt;. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,12 +78,12 @@ Response body:
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 174,
-  "CountryId": 25
+  "ContactId": 805,
+  "CountryId": 153
 }
 ```
 
@@ -95,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 13971.372,
-  "Wgs84Longitude": 19593.768,
+  "Wgs84Latitude": 5681.942,
+  "Wgs84Longitude": 2353.634,
   "LocalizedAddress": [
     [
       {
-        "Name": "Renner Group",
-        "Value": "architecto",
-        "Tooltip": "id",
-        "Label": "eos",
-        "ValueLength": 747,
-        "AddressType": "vero",
+        "Name": "Hansen-Kris",
+        "Value": "repudiandae",
+        "Tooltip": "recusandae",
+        "Label": "neque",
+        "ValueLength": 234,
+        "AddressType": "quia",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 492
+            "FieldLength": 235
           }
         }
       }
     ],
     [
       {
-        "Name": "Mueller LLC",
-        "Value": "excepturi",
-        "Tooltip": "autem",
-        "Label": "libero",
-        "ValueLength": 524,
-        "AddressType": "officiis",
+        "Name": "O'Keefe Group",
+        "Value": "debitis",
+        "Tooltip": "sed",
+        "Label": "beatae",
+        "ValueLength": 178,
+        "AddressType": "voluptatibus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 68
+            "FieldLength": 862
           }
         }
       }
@@ -137,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "rerum",
+  "Formatted": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 26
+      "FieldLength": 351
     }
   }
 }

@@ -44,20 +44,19 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, StartTime, EndTime, Count, TaskIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TaskIds | array |  |
+| PersonId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TaskIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -127,17 +126,17 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 550,
-  "StartTime": "2010-03-31T02:49:43.2304992+02:00",
-  "EndTime": "1996-05-08T02:49:43.2304992+02:00",
-  "Count": 178,
+  "PersonId": 981,
+  "StartTime": "2001-08-13T17:37:16.2362421+02:00",
+  "EndTime": "2007-04-21T17:37:16.2362421+02:00",
+  "Count": 896,
   "TaskIds": [
-    804,
-    195
+    469,
+    189
   ]
 }
 ```
@@ -150,61 +149,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 210,
-    "StartDate": "2003-11-13T02:49:43.2304992+01:00",
-    "EndDate": "2003-08-04T02:49:43.2304992+02:00",
+    "AppointmentId": 330,
+    "StartDate": "2017-08-29T17:37:16.2382426+02:00",
+    "EndDate": "2007-01-03T17:37:16.2382426+01:00",
     "Type": "BookingForChecklist",
-    "Task": "eius",
-    "AssociateFullName": "Blaze Moen",
-    "ContactName": "Buckridge, Wolf and Larson",
-    "Description": "Balanced leading edge open architecture",
-    "PersonFullName": "Audrey Deckow",
-    "PersonId": 135,
-    "ContactId": 442,
-    "ProjectId": 870,
-    "ProjectName": "Nicolas-Jacobi",
+    "Task": "aliquam",
+    "AssociateFullName": "Faye Wisozk",
+    "ContactName": "Braun, Hilpert and O'Reilly",
+    "Description": "Profound cohesive capability",
+    "PersonFullName": "Miss Morris Wolff DDS",
+    "PersonId": 319,
+    "ContactId": 413,
+    "ProjectId": 730,
+    "ProjectName": "Hagenes, Jenkins and Ondricka",
     "IsPublished": false,
-    "AssociateId": 430,
-    "ColorIndex": 659,
+    "AssociateId": 804,
+    "ColorIndex": 181,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 693,
-    "PriorityName": "Breitenberg-Leannon",
+    "PriorityId": 877,
+    "PriorityName": "Ryan Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2006-12-31T02:49:43.2304992+01:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2001-01-14T17:37:16.2382426+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-08-06T02:49:43.2304992+02:00",
-    "RecurringEndDate": "2012-10-22T02:49:43.2304992+02:00",
-    "MotherId": 382,
-    "AssignedBy": 930,
-    "AssignedByFullName": "Ulices Ullrich",
-    "RejectReason": "",
-    "Location": "laudantium",
-    "AlarmLeadTime": "pariatur",
-    "SaleId": 951,
-    "SaleName": "Bins, Jewess and O'Keefe",
-    "AssociateName": "Schultz Group",
-    "CreatedDate": "1999-01-15T02:49:43.2304992+01:00",
-    "CreatedBy": "nostrum",
-    "CreatedByFullName": "Lucinda Ferry",
-    "CreatedByAssociateId": 347,
+    "RecurringStartDate": "2021-10-24T17:37:16.2382426+02:00",
+    "RecurringEndDate": "2003-04-04T17:37:16.2382426+02:00",
+    "MotherId": 84,
+    "AssignedBy": 661,
+    "AssignedByFullName": "Shany Bruen",
+    "RejectReason": "leverage front-end systems",
+    "Location": "et",
+    "AlarmLeadTime": "ut",
+    "SaleId": 361,
+    "SaleName": "Hintz Inc and Sons",
+    "AssociateName": "Jacobi Group",
+    "CreatedDate": "2022-02-27T17:37:16.2382426+01:00",
+    "CreatedBy": "quisquam",
+    "CreatedByFullName": "Dr. Brody Mittie Greenfelder II",
+    "CreatedByAssociateId": 199,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldType": "System.String",
+        "FieldLength": 899
       }
     }
   }

@@ -32,36 +32,35 @@ Start a batch job based on BatchTaskInfo.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: batchTaskInfo  
+## Request Body: batchTaskInfo 
 
 Use BatchTaskInfo to describe the new batch job. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | Id of the task. |
-| Name | string | Name of the task. |
-| AssociateId | int32 | Task owner. If it is a System task, AssociateId = 0. |
-| DetailsTable | int32 | Id of table with more information about the task. |
-| DetailsRecord | int32 | Record Id of a row in the DetailsTable containing more info about the task. |
-| IsSystemTask | bool | If IsSystemTask is true, the task is not initiated by an associate. |
-| IsInternalTask | bool | If IsInternalTask is true, this task will not add a trace to the database. |
-| ParameterObject | object | ParameterObject will be serialized to a binary blob and saved in the BinaryObject table. The link to the BinaryObject will be set using DetailsTable and DetailsRecord. |
-| LastStarted | date-time | When was the task last started. |
-| Created | date-time | Task creation time. |
-| StartCount | int32 | Maps to the startcount field in the batchtask table. |
-| DatabaseSerialNumber | string | Serial number of the database the task is to run on. |
-| Context | string | Context for the executing task. |
-| Result | string | Maps to the result field in the batchtask table. |
-| State | string | BatchTaskState of the task. |
-| Description | string | Description of the task. |
-| Response | string | Maps to the response field in the batchtask table. |
-| Request | string | Maps to the request field in the batchtask table. |
-| ProgressDescription | string | Descriptive text for the current stage |
-| ProgressPercent | int32 | Task progress, in percent of estimated total |
-| FileName | string | The filename related to the batchtask. |
+| Id | Integer | Id of the task. |
+| Name | String | Name of the task. |
+| AssociateId | Integer | Task owner. If it is a System task, AssociateId = 0. |
+| DetailsTable | Integer | Id of table with more information about the task. |
+| DetailsRecord | Integer | Record Id of a row in the DetailsTable containing more info about the task. |
+| IsSystemTask | Boolean | If IsSystemTask is true, the task is not initiated by an associate. |
+| IsInternalTask | Boolean | If IsInternalTask is true, this task will not add a trace to the database. |
+| ParameterObject | Object | ParameterObject will be serialized to a binary blob and saved in the BinaryObject table. The link to the BinaryObject will be set using DetailsTable and DetailsRecord. |
+| LastStarted | String | When was the task last started. |
+| Created | String | Task creation time. |
+| StartCount | Integer | Maps to the startcount field in the batchtask table. |
+| DatabaseSerialNumber | String | Serial number of the database the task is to run on. |
+| Context | String | Context for the executing task. |
+| Result | String | Maps to the result field in the batchtask table. |
+| State | String | BatchTaskState of the task. |
+| Description | String | Description of the task. |
+| Response | String | Maps to the response field in the batchtask table. |
+| Request | String | Maps to the request field in the batchtask table. |
+| ProgressDescription | String | Descriptive text for the current stage |
+| ProgressPercent | Integer | Task progress, in percent of estimated total |
+| FileName | String | The filename related to the batchtask. |
 
-
-## Response: int32
+## Response:int32
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -78,34 +77,34 @@ Response body: int32
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 674,
-  "Name": "Gerhold Inc and Sons",
-  "AssociateId": 920,
-  "DetailsTable": 98,
-  "DetailsRecord": 303,
-  "IsSystemTask": false,
+  "Id": 399,
+  "Name": "Nader Inc and Sons",
+  "AssociateId": 372,
+  "DetailsTable": 956,
+  "DetailsRecord": 653,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "aperiam",
-    "ParameterObject2": "corporis"
+    "ParameterObject1": "voluptates",
+    "ParameterObject2": "dignissimos"
   },
-  "LastStarted": "1999-01-09T02:49:51.6710218+01:00",
-  "Created": "1998-03-31T02:49:51.6710218+02:00",
-  "StartCount": 619,
-  "DatabaseSerialNumber": "690319",
-  "Context": "occaecati",
-  "Result": "molestiae",
+  "LastStarted": "1997-07-25T17:37:39.4004322+02:00",
+  "Created": "2004-12-01T17:37:39.4004322+01:00",
+  "StartCount": 326,
+  "DatabaseSerialNumber": "131217",
+  "Context": "voluptas",
+  "Result": "consequuntur",
   "State": "All",
-  "Description": "Synergized incremental focus group",
-  "Response": "cumque",
-  "Request": "odio",
-  "ProgressDescription": "Cross-platform responsive policy",
-  "ProgressPercent": 587,
-  "FileName": "Hackett Group"
+  "Description": "Enterprise-wide user-facing throughput",
+  "Response": "et",
+  "Request": "qui",
+  "ProgressDescription": "User-friendly human-resource productivity",
+  "ProgressPercent": 621,
+  "FileName": "Turner LLC"
 }
 ```
 
@@ -115,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-111
+243
 ```

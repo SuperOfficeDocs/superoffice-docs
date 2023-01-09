@@ -48,7 +48,7 @@ GET /api/v1/RelationDefinition/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 RelationDefinitionEntity found.
 
@@ -57,7 +57,7 @@ RelationDefinitionEntity found.
 | 200 | RelationDefinitionEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: RelationDefinitionEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Response body:
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -79,7 +79,7 @@ Response body:
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,12 +89,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 817,
-  "Name": "Schowalter, Hilll and Kulas",
-  "Tooltip": "debitis",
-  "PassiveText": "quaerat",
-  "Deleted": true,
-  "Rank": 703,
+  "ReldefId": 476,
+  "Name": "Beatty, Bashirian and Kub",
+  "Tooltip": "laudantium",
+  "PassiveText": "voluptatem",
+  "Deleted": false,
+  "Rank": 566,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 824
     }
   },
   "_Links": {

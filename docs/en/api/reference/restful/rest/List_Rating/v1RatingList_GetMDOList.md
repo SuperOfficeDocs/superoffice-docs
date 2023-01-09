@@ -25,8 +25,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=ea
+GET /api/v1/List/Rating/MDOItems?flat=True
+GET /api/v1/List/Rating/MDOItems?query=et
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/Rating/MDOItems?query=ea
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Weimann Group",
-    "ToolTip": "Modi porro nihil nesciunt qui est nihil enim.",
+    "Id": 597,
+    "Name": "Considine, Blick and Hamill",
+    "ToolTip": "Consequuntur sint culpa sit culpa omnis omnis.",
     "Deleted": false,
-    "Rank": 459,
-    "Type": "eum",
+    "Rank": 381,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 455,
-        "Name": "Romaguera, Fadel and Lebsack",
-        "ToolTip": "Doloremque aperiam qui vitae voluptas recusandae pariatur.",
-        "Deleted": true,
-        "Rank": 591,
-        "Type": "fugiat",
+        "Id": 460,
+        "Name": "Collier, Ondricka and Moen",
+        "ToolTip": "Fuga ut blanditiis nesciunt et accusamus incidunt repudiandae.",
+        "Deleted": false,
+        "Rank": 549,
+        "Type": "corporis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "corporis",
-        "ColorBlock": 412,
-        "ExtraInfo": "aliquam",
-        "StyleHint": "autem",
-        "FullName": "Ms. Leta Osinski DDS",
+        "IconHint": "sunt",
+        "ColorBlock": 910,
+        "ExtraInfo": "minima",
+        "StyleHint": "enim",
+        "FullName": "Madie DuBuque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 813
+            "FieldType": "System.Int32",
+            "FieldLength": 513
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 861,
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "illo",
-    "FullName": "Jeffery Sporer",
+    "IconHint": "deserunt",
+    "ColorBlock": 129,
+    "ExtraInfo": "omnis",
+    "StyleHint": "ut",
+    "FullName": "Patience Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldLength": 140
       }
     }
   }

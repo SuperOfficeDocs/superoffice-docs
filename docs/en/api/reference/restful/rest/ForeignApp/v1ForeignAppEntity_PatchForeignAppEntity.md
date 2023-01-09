@@ -71,18 +71,17 @@ PATCH /api/v1/ForeignApp/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 ForeignAppEntity  updated.
 
@@ -93,7 +92,7 @@ ForeignAppEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ForeignAppEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: ForeignAppEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,10 +100,10 @@ Response body:
 | Name | string | Name of foreign application |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the foreign application. |
-| UpdatedBy |  | The person that last updated this foreign application. |
+| CreatedBy | Associate | The person that created the foreign application. |
+| UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -114,18 +113,18 @@ Response body:
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "odit",
+    "path": "enim",
     "value": {}
   },
   {
     "op": "add",
-    "path": "odit",
+    "path": "enim",
     "value": {}
   }
 ]
@@ -138,29 +137,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 785,
-  "Name": "Okuneva-Howell",
-  "CreatedDate": "2021-08-01T02:49:50.979663+02:00",
-  "UpdatedDate": "2018-03-10T02:49:50.979663+01:00",
+  "ForeignAppId": 270,
+  "Name": "Okuneva Inc and Sons",
+  "CreatedDate": "2022-10-21T17:37:38.8088669+02:00",
+  "UpdatedDate": "2005-03-02T17:37:38.8088669+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 314,
-      "Name": "Zulauf LLC",
-      "CreatedDate": "2004-06-26T02:49:50.979663+02:00",
-      "UpdatedDate": "2020-03-04T02:49:50.979663+01:00",
-      "AssociateFullName": "Grover Moore",
-      "CreatedBy": "distinctio",
-      "UpdatedBy": "quia",
-      "DeviceIdentifier": "exercitationem",
-      "ForeignAppId": 732,
+      "ForeignDeviceId": 260,
+      "Name": "Schimmel-Langosh",
+      "CreatedDate": "2010-11-20T17:37:38.8098675+01:00",
+      "UpdatedDate": "2006-01-27T17:37:38.8098675+01:00",
+      "AssociateFullName": "Monte Luettgen",
+      "CreatedBy": "tempora",
+      "UpdatedBy": "neque",
+      "DeviceIdentifier": "laborum",
+      "ForeignAppId": 804,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 219
         }
       }
     }
@@ -169,13 +168,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldType": "System.String",
+      "FieldLength": 314
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetUserInfoList
 Gets an array of UserInfo objects.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,13 +44,12 @@ POST /api/v1/Agents/User/GetUserInfoList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: userInfoIds  
+## Request Body: userInfoIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +76,7 @@ Response body: array
 | RoleTooltip | string |  |
 | UserGroupName | string |  |
 | UserGroupTooltip | string |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,7 +85,7 @@ Response body: array
 POST /api/v1/Agents/User/GetUserInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,29 +97,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 97,
-    "UserName": "Hegmann Group",
-    "PersonId": 647,
-    "Rank": 329,
-    "Tooltip": "ab",
-    "UserGroupId": 702,
-    "EjUserId": 364,
+    "UserInfoId": 328,
+    "UserName": "Hilpert, Herzog and Dicki",
+    "PersonId": 900,
+    "Rank": 297,
+    "Tooltip": "saepe",
+    "UserGroupId": 504,
+    "EjUserId": 513,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "est",
-      "ratione"
+      "dolor",
+      "officiis"
     ],
     "CanLogon": false,
-    "RoleName": "Marks Group",
-    "RoleTooltip": "non",
-    "UserGroupName": "Will, Streich and Ebert",
-    "UserGroupTooltip": "alias",
+    "RoleName": "Schulist, Mosciski and Nikolaus",
+    "RoleTooltip": "molestiae",
+    "UserGroupName": "Osinski LLC",
+    "UserGroupTooltip": "vero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 710
+        "FieldType": "System.Int32",
+        "FieldLength": 478
       }
     }
   }

@@ -38,19 +38,18 @@ POST /api/v1/Agents/Favourite/AddFavourite?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, RecordId, AssociateId, ExtraInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| RecordId | int32 |  |
-| AssociateId | int32 |  |
-| ExtraInfo | string |  |
+| TableName | String |  |
+| RecordId | Integer |  |
+| AssociateId | Integer |  |
+| ExtraInfo | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -58,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -71,10 +70,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kohler, Walsh and Rolfson",
-  "RecordId": 222,
-  "AssociateId": 1001,
-  "ExtraInfo": "saepe"
+  "TableName": "Lubowitz-Heaney",
+  "RecordId": 506,
+  "AssociateId": 774,
+  "ExtraInfo": "velit"
 }
 ```
 

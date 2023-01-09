@@ -12,8 +12,6 @@ DELETE /api/v1/Webhook/{id}
 Deletes the Webhook
 
 
-
-
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the Webhook agent service DeleteWebhook.
 
 
@@ -36,7 +34,7 @@ Deletes the Webhook
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 Webhook deleted.
 
@@ -44,7 +42,7 @@ Webhook deleted.
 |----------------|-------------|
 | 204 | Webhook deleted. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -53,7 +51,7 @@ Response body:
 DELETE /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

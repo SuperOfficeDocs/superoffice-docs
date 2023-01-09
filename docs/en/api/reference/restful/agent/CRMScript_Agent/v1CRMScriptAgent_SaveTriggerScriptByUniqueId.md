@@ -47,17 +47,16 @@ POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TriggerScriptUniqueId, Entity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TriggerScriptUniqueId | string |  |
-| Entity |  | CRM Trigger Script - The script runs when a given event fires. <para /> Carrier object for TriggerScriptEntity. Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
+| TriggerScriptUniqueId | String |  |
+| Entity | TriggerScriptEntity | CRM Trigger Script - The script runs when a given event fires. <para /> Carrier object for TriggerScriptEntity. Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TriggerScriptEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,7 +91,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "eveniet",
+  "TriggerScriptUniqueId": "eius",
   "Entity": null
 }
 ```
@@ -104,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 145,
-  "Name": "Swift-Jast",
+  "ScreenChooserId": 38,
+  "Name": "Gleason-Bradtke",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "qui",
-  "Source": "ad",
-  "Registered": "2015-10-23T02:49:44.0285283+02:00",
-  "RegisteredAssociateId": 575,
-  "Updated": "1997-06-23T02:49:44.0285283+02:00",
-  "UpdatedAssociateId": 803,
+  "Enabled": false,
+  "UniqueIdentifier": "blanditiis",
+  "Source": "animi",
+  "Registered": "2021-07-03T17:37:17.3382449+02:00",
+  "RegisteredAssociateId": 754,
+  "Updated": "2022-02-20T17:37:17.3382449+01:00",
+  "UpdatedAssociateId": 932,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 442
+      "FieldType": "System.Int32",
+      "FieldLength": 894
     }
   }
 }

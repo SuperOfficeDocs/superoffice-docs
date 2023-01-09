@@ -42,7 +42,7 @@ POST /api/v1/Agents/Person/GetColleagues?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +94,7 @@ Response body: array
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -103,7 +103,7 @@ Response body: array
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quia",
-    "PersonId": 391,
-    "Mrmrs": "doloribus",
-    "Firstname": "Bridgette",
-    "Lastname": "Roob",
-    "MiddleName": "Boyle-Beatty",
-    "Title": "praesentium",
-    "Description": "Distributed holistic data-warehouse",
-    "Email": "oscar@wilkinson.ca",
-    "FullName": "Jarrell Braun",
-    "DirectPhone": "402.556.7758",
-    "FormalName": "Larkin, Friesen and Smitham",
-    "CountryId": 108,
-    "ContactId": 763,
-    "ContactName": "VonRueden-Ward",
-    "Retired": 850,
-    "Rank": 498,
-    "ActiveInterests": 247,
+    "Position": "similique",
+    "PersonId": 396,
+    "Mrmrs": "exercitationem",
+    "Firstname": "Reggie",
+    "Lastname": "Mueller",
+    "MiddleName": "Walsh-Brakus",
+    "Title": "animi",
+    "Description": "Pre-emptive contextually-based frame",
+    "Email": "earnest@leffler.info",
+    "FullName": "Gilda Ritchie",
+    "DirectPhone": "213.326.7471 x042",
+    "FormalName": "Beer, Corwin and Rutherford",
+    "CountryId": 572,
+    "ContactId": 585,
+    "ContactName": "Harvey LLC",
+    "Retired": 430,
+    "Rank": 621,
+    "ActiveInterests": 682,
     "ContactDepartment": "",
-    "ContactCountryId": 538,
-    "ContactOrgNr": "1386471",
-    "FaxPhone": "414.538.3708 x21846",
-    "MobilePhone": "997.543.8084 x043",
-    "ContactPhone": "1-278-767-2174 x1476",
-    "AssociateName": "O'Keefe Inc and Sons",
-    "AssociateId": 179,
-    "UsePersonAddress": false,
+    "ContactCountryId": 696,
+    "ContactOrgNr": "100304",
+    "FaxPhone": "1-967-277-2651 x760",
+    "MobilePhone": "(649)743-6224 x8632",
+    "ContactPhone": "980-739-2152",
+    "AssociateName": "Kohler, Kemmer and Wuckert",
+    "AssociateId": 644,
+    "UsePersonAddress": true,
     "ContactFax": "temporibus",
-    "Kanafname": "quidem",
-    "Kanalname": "praesentium",
-    "Post1": "aut",
-    "Post2": "incidunt",
-    "Post3": "perspiciatis",
-    "EmailName": "corbin_sanford@brekke.com",
-    "ContactFullName": "Imelda Schmidt",
-    "ActiveErpLinks": 663,
-    "TicketPriorityId": 960,
-    "SupportLanguageId": 373,
-    "SupportAssociateId": 569,
+    "Kanafname": "ullam",
+    "Kanalname": "dolores",
+    "Post1": "excepturi",
+    "Post2": "quo",
+    "Post3": "neque",
+    "EmailName": "tyree@mayert.ca",
+    "ContactFullName": "Mitchel Kayli Volkman Jr.",
+    "ActiveErpLinks": 921,
+    "TicketPriorityId": 29,
+    "SupportLanguageId": 370,
+    "SupportAssociateId": 374,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 399
+        "FieldLength": 134
       }
     }
   }

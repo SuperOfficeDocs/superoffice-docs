@@ -48,7 +48,7 @@ GET /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 SaleStakeholder found.
 
@@ -57,7 +57,7 @@ SaleStakeholder found.
 | 200 | SaleStakeholder found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: SaleStakeholderWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +80,7 @@ Response body:
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -100,36 +100,36 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Goyette, Ortiz and Macejkovic",
-  "Comment": "consequuntur",
-  "StakeholderRoleId": 280,
-  "CountryId": 249,
-  "PersonId": 881,
-  "EmailDescription": "maureen.friesen@bahringer.ca",
-  "EmailId": 441,
-  "EmailAddress": "teagan@bergnaum.info",
-  "PhoneId": 256,
-  "ContactName": "Gerlach-Hettinger",
-  "ContactId": 130,
-  "SaleId": 461,
-  "Mrmrs": "doloribus",
-  "Firstname": "Nakia",
-  "MiddleName": "Fay Inc and Sons",
-  "Lastname": "Stracke",
-  "SaleStakeholderId": 251,
-  "Rank": 23,
-  "Phone": "1-946-552-8897 x8369",
+  "StakeholderRoleName": "Herzog-Lehner",
+  "Comment": "alias",
+  "StakeholderRoleId": 507,
+  "CountryId": 68,
+  "PersonId": 174,
+  "EmailDescription": "garret.muller@ritchie.us",
+  "EmailId": 617,
+  "EmailAddress": "ciara@damoreryan.co.uk",
+  "PhoneId": 754,
+  "ContactName": "Schowalter LLC",
+  "ContactId": 919,
+  "SaleId": 408,
+  "Mrmrs": "eius",
+  "Firstname": "Enid",
+  "MiddleName": "Rodriguez-Douglas",
+  "Lastname": "Hansen",
+  "SaleStakeholderId": 917,
+  "Rank": 460,
+  "Phone": "1-513-799-4788 x488",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 603
+      "FieldLength": 969
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

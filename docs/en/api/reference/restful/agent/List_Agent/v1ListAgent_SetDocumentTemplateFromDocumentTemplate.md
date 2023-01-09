@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SourceDocumentTemplateId, DocumentTemplateEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SourceDocumentTemplateId | int32 |  |
-| DocumentTemplateEntity |  | The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on. <para /> Carrier object for DocumentTemplateEntity. Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| SourceDocumentTemplateId | Integer |  |
+| DocumentTemplateEntity | DocumentTemplateEntity | The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on. <para /> Carrier object for DocumentTemplateEntity. Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentTemplateEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body:
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 183,
+  "SourceDocumentTemplateId": 247,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +113,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 972,
-  "Name": "Kshlerin, Heathcote and Murphy",
-  "Tooltip": "aut",
-  "SaveInDb": 391,
-  "Filename": "officiis",
-  "DefaultOref": "culpa",
+  "DocumentTemplateId": 596,
+  "Name": "Hartmann, Anderson and Prohaska",
+  "Tooltip": "dolorum",
+  "SaveInDb": 884,
+  "Filename": "sint",
+  "DefaultOref": "totam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 516,
-  "IntentId": 788,
+  "AutoeventId": 24,
+  "IntentId": 491,
   "IsDefaultPublished": false,
-  "Rank": 387,
-  "LoadTemplateFromPlugin": 896,
-  "MimeType": "voluptatem",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 474,
+  "Rank": 318,
+  "LoadTemplateFromPlugin": 200,
+  "MimeType": "autem",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 606,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "garry@hodkiewiczschoen.com",
+  "EmailSubject": "cathryn@sawayn.co.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "missouri@stroman.us",
+  "SenderEmailAddress": "vanessa.abbott@krismarks.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 838
     }
   }
 }

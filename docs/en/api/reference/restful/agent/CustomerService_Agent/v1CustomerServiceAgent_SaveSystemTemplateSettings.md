@@ -44,16 +44,15 @@ POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SystemTemplateSettings 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SystemTemplateSettings |  | System template settings item <para /> Carrier object for SystemTemplateSettings. Services for the SystemTemplateSettings Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
+| SystemTemplateSettings | SystemTemplateSettings | System template settings item <para /> Carrier object for SystemTemplateSettings. Services for the SystemTemplateSettings Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SystemTemplateSettings
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,7 +85,7 @@ Response body:
 | WeekStatTemplateId | int32 | Template for weekly statistics |
 | TicketAlarmHotlistTemplateId | int32 | Template for notification of an escalated request in the favourites list |
 | EmailAddresses | string | One or more e-mail addresses (comma-separated) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,7 +94,7 @@ Response body:
 POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,33 +109,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 68,
-  "CustomerCustomerReplyTemplateId": 742,
-  "CustomerPasswordTemplateId": 125,
-  "CustomerConfirmEmailTemplateId": 781,
-  "CustomerChatLogTemplateId": 574,
-  "NewLinkTemplateId": 769,
-  "HotlistNewMessageTemplateId": 861,
-  "HotlistTicketActivatedTemplateId": 518,
-  "UserTicketAlarmTemplateId": 355,
-  "HotlistTicketTakenOverTemplateId": 558,
-  "UserActiveTicketsTemplateId": 166,
-  "UserNewMessageTemplateId": 216,
-  "UserTicketActivatedTemplateId": 940,
-  "UserNewTicketTemplateId": 493,
-  "PublishKbQuestionTemplateId": 418,
-  "PublishKbAnswerTemplateId": 296,
-  "UserTicketTakenOverTemplateId": 973,
-  "PrintTicketTemplateId": 916,
-  "WeekStatTemplateId": 201,
-  "TicketAlarmHotlistTemplateId": 896,
-  "EmailAddresses": "tristian_kohler@treutel.ca",
+  "CustomerNewCustomerTemplateId": 934,
+  "CustomerCustomerReplyTemplateId": 941,
+  "CustomerPasswordTemplateId": 236,
+  "CustomerConfirmEmailTemplateId": 441,
+  "CustomerChatLogTemplateId": 390,
+  "NewLinkTemplateId": 418,
+  "HotlistNewMessageTemplateId": 13,
+  "HotlistTicketActivatedTemplateId": 126,
+  "UserTicketAlarmTemplateId": 908,
+  "HotlistTicketTakenOverTemplateId": 584,
+  "UserActiveTicketsTemplateId": 367,
+  "UserNewMessageTemplateId": 116,
+  "UserTicketActivatedTemplateId": 745,
+  "UserNewTicketTemplateId": 446,
+  "PublishKbQuestionTemplateId": 942,
+  "PublishKbAnswerTemplateId": 21,
+  "UserTicketTakenOverTemplateId": 760,
+  "PrintTicketTemplateId": 347,
+  "WeekStatTemplateId": 10,
+  "TicketAlarmHotlistTemplateId": 169,
+  "EmailAddresses": "frankie.harber@ebertokon.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 177
+      "FieldLength": 21
     }
   }
 }

@@ -46,7 +46,7 @@ GET /api/v1/Hierarchy/{domain}?children=True
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -54,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,46 +88,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 507,
+    "HierarchyId": 251,
     "Domain": "Dashboards",
-    "Name": "Lang-Batz",
-    "Fullname": "et",
-    "ParentId": 444,
+    "Name": "Schaefer, Bins and Purdy",
+    "Fullname": "enim",
+    "ParentId": 596,
     "Children": [
       {
-        "HierarchyId": 838,
+        "HierarchyId": 814,
         "Domain": "Dashboards",
-        "Name": "Hudson Group",
-        "Fullname": "et",
-        "ParentId": 745,
+        "Name": "Kunde Inc and Sons",
+        "Fullname": "voluptatem",
+        "ParentId": 274,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2010-12-15T02:49:50.9952888+01:00",
-        "RegisteredAssociateId": 734,
-        "Updated": "2008-04-17T02:49:50.9952888+02:00",
-        "UpdatedAssociateId": 984,
+        "Registered": "2005-01-16T17:37:38.8288556+01:00",
+        "RegisteredAssociateId": 868,
+        "Updated": "2019-04-05T17:37:38.8288556+02:00",
+        "UpdatedAssociateId": 440,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 856
+            "FieldLength": 409
           }
         }
       }
     ],
-    "Registered": "2014-06-06T02:49:50.9952888+02:00",
-    "RegisteredAssociateId": 913,
-    "Updated": "2006-08-18T02:49:50.9952888+02:00",
-    "UpdatedAssociateId": 468,
+    "Registered": "2006-12-04T17:37:38.8288556+01:00",
+    "RegisteredAssociateId": 717,
+    "Updated": "2010-08-03T17:37:38.8288556+02:00",
+    "UpdatedAssociateId": 620,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 767
+        "FieldType": "System.Int32",
+        "FieldLength": 620
       }
     }
   }

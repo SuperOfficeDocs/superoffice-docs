@@ -28,7 +28,7 @@ Get length of the document content in bytes.
 | versionId | string |  Version ID if applicable; a blank value implies "latest" version and is always acceptable. |
 
 ```http
-GET /api/v1/Document/{documentId}/Length?versionId=a
+GET /api/v1/Document/{documentId}/Length?versionId=voluptatem
 ```
 
 
@@ -46,7 +46,7 @@ GET /api/v1/Document/{documentId}/Length?versionId=a
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: int64
+## Response:int64
 
 OK
 
@@ -54,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int64
+### Response body: int64
 
 
 ## Sample request
@@ -63,7 +63,7 @@ Response body: int64
 GET /api/v1/Document/{documentId}/Length
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

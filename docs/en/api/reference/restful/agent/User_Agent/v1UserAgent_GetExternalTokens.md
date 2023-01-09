@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetExternalTokens
 Retrieve the tokens from the DB based on the given key
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/User/GetExternalTokens?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Key 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Key | string |  |
+| Key | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,14 +60,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TokenManagementInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Provider | string | The provider these tokens belong to |
 | AccessToken | string | Access token |
 | RefreshToken | string | Refresh token |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,11 +76,11 @@ Response body:
 POST /api/v1/Agents/User/GetExternalTokens
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "inventore"
+  "Key": "vitae"
 }
 ```
 
@@ -94,15 +91,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "tempore",
-  "AccessToken": "esse",
-  "RefreshToken": "sint",
+  "Provider": "numquam",
+  "AccessToken": "non",
+  "RefreshToken": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 291
     }
   }
 }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 KbEntryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| KbEntryId | int32 |  |
+| KbEntryId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreviewFaqEntry
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body:
 | Updated | date-time | Date/time this faq entry was last updated. |
 | Question | string | The question for this entry. |
 | Answer | string | The answer for this entry. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,11 +76,11 @@ Response body:
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 160
+  "KbEntryId": 318
 }
 ```
 
@@ -92,17 +91,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "veniam",
-  "RegisteredByFullName": "Ms. Sofia Jackeline Casper DDS",
-  "Updated": "2002-03-27T02:49:44.0285283+01:00",
-  "Question": "nam",
-  "Answer": "minus",
+  "Title": "numquam",
+  "RegisteredByFullName": "Danielle Welch",
+  "Updated": "2022-07-05T17:37:17.3502415+02:00",
+  "Question": "temporibus",
+  "Answer": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 848
+      "FieldLength": 477
     }
   }
 }

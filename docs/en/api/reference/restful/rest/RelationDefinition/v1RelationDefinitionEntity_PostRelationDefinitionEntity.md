@@ -44,23 +44,22 @@ POST /api/v1/RelationDefinition?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The RelationDefinitionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ReldefId | int32 | Primary key |
-| Name | string | Active text |
-| Tooltip | string | Tooltip or other description |
-| PassiveText | string | Text used in passive direction |
-| Deleted | bool | True if deleted |
-| Rank | int32 | Rank order |
-| Source | string | The source of the relation |
-| Destination | string | The destination of the relation |
+| ReldefId | Integer | Primary key |
+| Name | String | Active text |
+| Tooltip | String | Tooltip or other description |
+| PassiveText | String | Text used in passive direction |
+| Deleted | Boolean | True if deleted |
+| Rank | Integer | Rank order |
+| Source | String | The source of the relation |
+| Destination | String | The destination of the relation |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -68,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RelationDefinitionEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body:
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -90,16 +89,16 @@ Response body:
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 668,
-  "Name": "Kessler, Brekke and Ankunding",
-  "Tooltip": "aspernatur",
-  "PassiveText": "quis",
-  "Deleted": true,
-  "Rank": 897,
+  "ReldefId": 265,
+  "Name": "McDermott, Mayer and Ratke",
+  "Tooltip": "sint",
+  "PassiveText": "blanditiis",
+  "Deleted": false,
+  "Rank": 974,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,25 +111,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 670,
-  "Name": "Waters Group",
-  "Tooltip": "sunt",
-  "PassiveText": "eum",
+  "ReldefId": 437,
+  "Name": "Ullrich-Lindgren",
+  "Tooltip": "voluptas",
+  "PassiveText": "molestiae",
   "Deleted": false,
-  "Rank": 739,
+  "Rank": 14,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 596
+      "FieldType": "System.Int32",
+      "FieldLength": 453
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

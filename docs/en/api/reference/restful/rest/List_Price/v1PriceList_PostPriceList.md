@@ -44,25 +44,24 @@ POST /api/v1/Pricelist?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The PriceList to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PriceListId | int32 | Primary key |
-| ERPPriceListKey | string | The key that uniquely identifies this pricelist in the ERP system |
-| QuoteConnectionId | int32 | (Reserved for future use) The connection to the ERP system used for this pricelist |
-| Name | string | Name of this pricelist to use in the user interface. |
-| Description | string | Description of this pricelist , will be used as tool-tip in the user interface. |
-| Currency | string | The iso currency code, like 'USD' or 'NOK'. |
-| CurrencyName | string | The name to use in the user interface, like perhaps 'US dollar' or '$' |
-| ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
-| ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
-| IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
+| PriceListId | Integer | Primary key |
+| ERPPriceListKey | String | The key that uniquely identifies this pricelist in the ERP system |
+| QuoteConnectionId | Integer | (Reserved for future use) The connection to the ERP system used for this pricelist |
+| Name | String | Name of this pricelist to use in the user interface. |
+| Description | String | Description of this pricelist , will be used as tool-tip in the user interface. |
+| Currency | String | The iso currency code, like 'USD' or 'NOK'. |
+| CurrencyName | String | The name to use in the user interface, like perhaps 'US dollar' or '$' |
+| ValidFrom | String | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
+| ValidTo | String | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
+| IsActive | Boolean | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -70,7 +69,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PriceListWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +83,7 @@ Response body:
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -94,20 +93,20 @@ Response body:
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 249,
-  "ERPPriceListKey": "voluptas",
-  "QuoteConnectionId": 379,
-  "Name": "Larkin-Abshire",
-  "Description": "Synchronised tertiary migration",
-  "Currency": "eos",
-  "CurrencyName": "Schaefer, Parker and Halvorson",
-  "ValidFrom": "2011-01-18T02:49:52.3284476+01:00",
-  "ValidTo": "1999-02-10T02:49:52.3284476+01:00",
-  "IsActive": true
+  "PriceListId": 822,
+  "ERPPriceListKey": "eligendi",
+  "QuoteConnectionId": 76,
+  "Name": "Fay, Koepp and Goyette",
+  "Description": "Extended fault-tolerant system engine",
+  "Currency": "et",
+  "CurrencyName": "Frami-Gottlieb",
+  "ValidFrom": "2017-06-11T17:37:40.1175006+02:00",
+  "ValidTo": "2006-08-16T17:37:40.1175006+02:00",
+  "IsActive": false
 }
 ```
 
@@ -118,22 +117,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 688,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 768,
-  "Name": "Robel-Erdman",
-  "Description": "Profound multi-state flexibility",
-  "Currency": "suscipit",
-  "CurrencyName": "Langosh, Reilly and Mills",
-  "ValidFrom": "2001-07-18T02:49:52.3284476+02:00",
-  "ValidTo": "2011-04-11T02:49:52.3284476+02:00",
-  "IsActive": false,
+  "PriceListId": 699,
+  "ERPPriceListKey": "consectetur",
+  "QuoteConnectionId": 127,
+  "Name": "Kuphal, Lesch and Fadel",
+  "Description": "Secured directional superstructure",
+  "Currency": "sint",
+  "CurrencyName": "Kutch Inc and Sons",
+  "ValidFrom": "2011-03-16T17:37:40.1175006+01:00",
+  "ValidTo": "2009-03-04T17:37:40.1175006+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldLength": 239
     }
   },
   "_Links": {

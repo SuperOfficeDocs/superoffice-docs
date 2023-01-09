@@ -28,7 +28,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=99
+GET /api/v1/Contact/{contactId}/Summary?limit=779
 ```
 
 
@@ -46,7 +46,7 @@ GET /api/v1/Contact/{contactId}/Summary?limit=99
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -54,11 +54,11 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ContactSummary
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Contact |  | Simple Contact data. |
+| Contact | Contact | Simple Contact data. |
 | Tickets | array | Recent tickets on contact |
 | Followups | array | Recent follow-ups on contact |
 | Documents | array | Recent documents on contact |
@@ -71,7 +71,7 @@ Response body:
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,79 +84,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 725,
-      "TicketStatus": 580,
-      "Title": "enim",
-      "Registered": "2015-09-13T02:49:50.8234127+02:00",
-      "IconHint": "quos"
+      "TicketId": 449,
+      "TicketStatus": 866,
+      "Title": "ducimus",
+      "Registered": "2007-11-05T17:37:38.4428597+01:00",
+      "IconHint": "iure"
     },
     {
-      "TicketId": 725,
-      "TicketStatus": 580,
-      "Title": "enim",
-      "Registered": "2015-09-13T02:49:50.8234127+02:00",
-      "IconHint": "quos"
+      "TicketId": 449,
+      "TicketStatus": 866,
+      "Title": "ducimus",
+      "Registered": "2007-11-05T17:37:38.4428597+01:00",
+      "IconHint": "iure"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 623,
-      "DocumentId": 92,
-      "Date": "2013-06-14T02:49:50.8234127+02:00",
-      "Description": "Enhanced zero administration array",
+      "AppointmentId": 861,
+      "DocumentId": 709,
+      "Date": "2019-02-16T17:37:38.4438605+01:00",
+      "Description": "Devolved 5th generation encryption",
       "Completed": "Completed",
-      "Registered": "2020-02-19T02:49:50.8234127+01:00"
+      "Registered": "2011-03-20T17:37:38.4438605+01:00"
     },
     {
-      "AppointmentId": 623,
-      "DocumentId": 92,
-      "Date": "2013-06-14T02:49:50.8234127+02:00",
-      "Description": "Enhanced zero administration array",
+      "AppointmentId": 861,
+      "DocumentId": 709,
+      "Date": "2019-02-16T17:37:38.4438605+01:00",
+      "Description": "Devolved 5th generation encryption",
       "Completed": "Completed",
-      "Registered": "2020-02-19T02:49:50.8234127+01:00"
+      "Registered": "2011-03-20T17:37:38.4438605+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 251,
-      "DocumentId": 557,
-      "Date": "2003-11-22T02:49:50.8234127+01:00",
-      "Description": "Fundamental content-based paradigm",
+      "AppointmentId": 686,
+      "DocumentId": 198,
+      "Date": "2003-07-03T17:37:38.4438605+02:00",
+      "Description": "Optional context-sensitive policy",
       "Completed": "Completed",
-      "Registered": "2022-07-13T02:49:50.8234127+02:00"
+      "Registered": "2017-06-13T17:37:38.4438605+02:00"
     },
     {
-      "AppointmentId": 251,
-      "DocumentId": 557,
-      "Date": "2003-11-22T02:49:50.8234127+01:00",
-      "Description": "Fundamental content-based paradigm",
+      "AppointmentId": 686,
+      "DocumentId": 198,
+      "Date": "2003-07-03T17:37:38.4438605+02:00",
+      "Description": "Optional context-sensitive policy",
       "Completed": "Completed",
-      "Registered": "2022-07-13T02:49:50.8234127+02:00"
+      "Registered": "2017-06-13T17:37:38.4438605+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 402,
-      "SaleDate": "2022-07-09T02:49:50.8234127+02:00",
-      "Probability": 845,
-      "Heading": "quos",
-      "Amount": 5396.748,
-      "Currency": "sunt",
-      "AmountInBaseCurrency": 9637.05,
+      "SaleId": 397,
+      "SaleDate": "2011-01-20T17:37:38.4438605+01:00",
+      "Probability": 264,
+      "Heading": "quibusdam",
+      "Amount": 15428.681999999999,
+      "Currency": "iste",
+      "AmountInBaseCurrency": 5932.6619999999994,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2007-01-23T02:49:50.8234127+01:00"
+      "Registered": "2005-03-06T17:37:38.4438605+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 386,
-      "Name": "Eichmann-Hessel",
-      "CompanyName": "Halvorson Group",
-      "FirstMessage": "ea",
-      "LastMessage": "eum",
-      "WhenRequested": "2007-11-26T02:49:50.8234127+01:00",
-      "WhenEnded": "2018-08-20T02:49:50.8234127+02:00"
+      "ChatSessionId": 442,
+      "Name": "Weimann, Gusikowski and Sawayn",
+      "CompanyName": "Mayer-Jenkins",
+      "FirstMessage": "voluptatem",
+      "LastMessage": "impedit",
+      "WhenRequested": "2010-05-24T17:37:38.4438605+02:00",
+      "WhenEnded": "2007-04-14T17:37:38.4438605+02:00"
     }
   ]
 }

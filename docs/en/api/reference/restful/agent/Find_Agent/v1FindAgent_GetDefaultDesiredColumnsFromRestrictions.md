@@ -44,17 +44,16 @@ POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Restrictions | array |  |
+| ProviderName | String |  |
+| Restrictions | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,18 +89,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Beer-Turner",
+  "ProviderName": "Schaefer-Swaniawski",
   "Restrictions": [
     {
-      "Name": "Harber Inc and Sons",
-      "Operator": "repellat",
+      "Name": "White, Huels and Cronin",
+      "Operator": "ab",
       "Values": [
-        "rerum",
-        "omnis"
+        "veniam",
+        "vel"
       ],
       "DisplayValues": [
-        "qui",
-        "voluptatem"
+        "in",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,9 +108,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 92,
+      "InterParenthesis": 375,
       "InterOperator": "And",
-      "UniqueHash": 99
+      "UniqueHash": 476
     }
   ]
 }
@@ -125,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Kreiger-Crooks",
+    "DisplayName": "Mann, Jones and D'Amore",
     "DisplayTooltip": "rerum",
-    "DisplayType": "cum",
-    "CanOrderBy": true,
-    "Name": "Mueller Inc and Sons",
+    "DisplayType": "officia",
+    "CanOrderBy": false,
+    "Name": "Metz, Christiansen and Dare",
     "CanRestrictBy": true,
-    "RestrictionType": "dignissimos",
-    "RestrictionListName": "Green-Cummerata",
+    "RestrictionType": "voluptatem",
+    "RestrictionListName": "Hodkiewicz, Walker and Yost",
     "IsVisible": true,
-    "ExtraInfo": "ut",
-    "Width": "omnis",
-    "IconHint": "iure",
-    "HeadingIconHint": "minus"
+    "ExtraInfo": "delectus",
+    "Width": "autem",
+    "IconHint": "sapiente",
+    "HeadingIconHint": "harum"
   }
 ]
 ```

@@ -38,17 +38,16 @@ POST /api/v1/Agents/Sale/AddSaleStakeholders?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SaleId, SaleStakeholders 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SaleId | int32 |  |
-| SaleStakeholders | array |  |
+| SaleId | Integer |  |
+| SaleStakeholders | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -69,28 +68,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 635,
+  "SaleId": 358,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Huels Group",
-      "Comment": "cumque",
-      "StakeholderRoleId": 121,
-      "CountryId": 586,
-      "PersonId": 993,
-      "EmailDescription": "laurine@rathoberbrunner.us",
-      "EmailId": 646,
-      "EmailAddress": "rico_gleichner@schmeler.info",
-      "PhoneId": 925,
-      "ContactName": "Gerhold, Ernser and Toy",
-      "ContactId": 211,
-      "SaleId": 642,
-      "Mrmrs": "fugiat",
-      "Firstname": "Kirk",
-      "MiddleName": "Bogisich, Stamm and Fritsch",
-      "Lastname": "Fay",
-      "SaleStakeholderId": 108,
-      "Rank": 883,
-      "Phone": "1-249-687-1623 x566"
+      "StakeholderRoleName": "Nikolaus-Rempel",
+      "Comment": "facilis",
+      "StakeholderRoleId": 825,
+      "CountryId": 500,
+      "PersonId": 999,
+      "EmailDescription": "ransom@gleichnerdickinson.info",
+      "EmailId": 551,
+      "EmailAddress": "vicky.zulauf@schimmel.biz",
+      "PhoneId": 265,
+      "ContactName": "Schimmel Inc and Sons",
+      "ContactId": 608,
+      "SaleId": 915,
+      "Mrmrs": "non",
+      "Firstname": "Gerhard",
+      "MiddleName": "Huel LLC",
+      "Lastname": "Okuneva",
+      "SaleStakeholderId": 330,
+      "Rank": 344,
+      "Phone": "760-051-8930 x7039"
     }
   ]
 }

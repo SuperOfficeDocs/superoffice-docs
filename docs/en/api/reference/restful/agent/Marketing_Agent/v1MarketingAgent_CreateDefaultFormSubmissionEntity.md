@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FormSubmissionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +56,7 @@ Response body:
 | Response | string | The JSON-formatted response from this form |
 | Status | string | What is the status of this submission |
 | ProcessingLog | string | A log of what happened during processing |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -65,7 +65,7 @@ Response body:
 POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 117,
-  "FormId": 956,
-  "WhenSubmitted": "1996-08-21T02:49:44.7172985+02:00",
-  "ContactId": 26,
-  "PersonId": 418,
-  "EmailAddress": "cassandra_lueilwitz@gorczany.ca",
-  "ResponseShipmentAddrId": 805,
-  "Response": "incidunt",
+  "FormSubmissionId": 275,
+  "FormId": 674,
+  "WhenSubmitted": "2019-09-10T17:37:18.3162418+02:00",
+  "ContactId": 301,
+  "PersonId": 500,
+  "EmailAddress": "okey_white@kutch.uk",
+  "ResponseShipmentAddrId": 974,
+  "Response": "deleniti",
   "Status": "EmailVerification",
-  "ProcessingLog": "voluptatum",
+  "ProcessingLog": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 921
+      "FieldType": "System.Int32",
+      "FieldLength": 318
     }
   }
 }

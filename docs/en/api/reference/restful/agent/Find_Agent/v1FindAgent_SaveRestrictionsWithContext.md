@@ -38,20 +38,19 @@ POST /api/v1/Agents/Find/SaveRestrictionsWithContext?$select=name,department,cat
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, Restrictions, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| Restrictions | array |  |
-| Context | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| Restrictions | Array |  |
+| Context | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -59,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -68,37 +67,37 @@ Response body:
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "excepturi",
-  "ProviderName": "Schiller, Schamberger and Reilly",
-  "StorageKey": "sed",
+  "StorageType": "et",
+  "ProviderName": "Schroeder, Emmerich and Boehm",
+  "StorageKey": "dignissimos",
   "Restrictions": [
     {
-      "Name": "Bernier Inc and Sons",
-      "Operator": "necessitatibus",
+      "Name": "Bradtke-Schulist",
+      "Operator": "qui",
       "Values": [
-        "natus",
-        "facere"
+        "nulla",
+        "rem"
       ],
       "DisplayValues": [
-        "quos",
-        "est"
+        "eum",
+        "hic"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 954,
+      "InterParenthesis": 11,
       "InterOperator": "And",
       "UniqueHash": 384
     }
   ],
-  "Context": "voluptatem"
+  "Context": "accusamus"
 }
 ```
 

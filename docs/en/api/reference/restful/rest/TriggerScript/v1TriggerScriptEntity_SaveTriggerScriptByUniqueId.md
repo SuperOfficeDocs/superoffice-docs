@@ -41,25 +41,24 @@ This will check that the syntax is correct
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 Trigger script details and source code 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ScreenChooserId | int32 | Primary key |
-| Name | string | Optional description of what this script is used for. |
-| ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
-| Enabled | bool | Whether this screen chooser is enabled or not |
-| UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMscript code for this event handler |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
+| ScreenChooserId | Integer | Primary key |
+| Name | String | Optional description of what this script is used for. |
+| ScreenType | String | Event id that triggers script.  See EventHandlerType enum. |
+| Enabled | Boolean | Whether this screen chooser is enabled or not |
+| UniqueIdentifier | String | Global unique identifier, accross customers/tenants |
+| Source | String | The CRMscript code for this event handler |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -67,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TriggerScriptEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +80,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,20 +89,20 @@ Response body:
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 108,
-  "Name": "Schaden-Waelchi",
+  "ScreenChooserId": 436,
+  "Name": "Hagenes-Sporer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "iure",
-  "Source": "et",
-  "Registered": "1998-04-17T02:49:51.6710218+02:00",
-  "RegisteredAssociateId": 756,
-  "Updated": "2018-09-12T02:49:51.6710218+02:00",
-  "UpdatedAssociateId": 455
+  "Enabled": true,
+  "UniqueIdentifier": "dolor",
+  "Source": "est",
+  "Registered": "2016-11-02T17:37:39.3954275+01:00",
+  "RegisteredAssociateId": 555,
+  "Updated": "2017-02-12T17:37:39.3954275+01:00",
+  "UpdatedAssociateId": 489
 }
 ```
 
@@ -114,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 958,
-  "Name": "Hermiston LLC",
+  "ScreenChooserId": 306,
+  "Name": "Ernser-Langosh",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "rerum",
-  "Source": "et",
-  "Registered": "2017-07-18T02:49:51.6710218+02:00",
-  "RegisteredAssociateId": 920,
-  "Updated": "2018-08-21T02:49:51.6710218+02:00",
-  "UpdatedAssociateId": 354,
+  "Enabled": true,
+  "UniqueIdentifier": "illo",
+  "Source": "ducimus",
+  "Registered": "2002-04-11T17:37:39.3964303+02:00",
+  "RegisteredAssociateId": 965,
+  "Updated": "2002-03-30T17:37:39.3964303+01:00",
+  "UpdatedAssociateId": 818,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 439
     }
   }
 }

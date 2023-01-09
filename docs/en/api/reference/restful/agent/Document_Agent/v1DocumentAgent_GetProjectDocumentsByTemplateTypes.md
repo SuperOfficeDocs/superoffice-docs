@@ -44,20 +44,19 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId, StartTime, EndTime, Count, DocumentTemplateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| DocumentTemplateIds | array |  |
+| ProjectId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| DocumentTemplateIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -98,17 +97,17 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 368,
-  "StartTime": "2011-05-14T02:49:44.0910111+02:00",
-  "EndTime": "2021-07-26T02:49:44.0910111+02:00",
-  "Count": 443,
+  "ProjectId": 572,
+  "StartTime": "2009-01-18T17:37:17.4302438+01:00",
+  "EndTime": "2005-07-06T17:37:17.4302438+02:00",
+  "Count": 473,
   "DocumentTemplateIds": [
-    822,
-    279
+    499,
+    119
   ]
 }
 ```
@@ -121,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 177,
-    "Attention": "qui",
-    "Header": "atque",
-    "Name": "Johnston LLC",
-    "OurRef": "ut",
-    "YourRef": "vitae",
-    "Description": "Innovative mission-critical approach",
-    "DocumentTemplate": "rem",
+    "DocumentId": 265,
+    "Attention": "aut",
+    "Header": "eaque",
+    "Name": "Bode-Jakubowski",
+    "OurRef": "dolorem",
+    "YourRef": "odio",
+    "Description": "Secured coherent help-desk",
+    "DocumentTemplate": "ad",
     "IsPublished": false,
-    "PersonId": 298,
-    "PersonFullName": "Ulises Rice DVM",
-    "AssociateFullName": "Dr. Darrell Merritt Stamm",
-    "ContactId": 152,
-    "ContactName": "Corkery, Hoppe and Miller",
-    "ProjectId": 427,
-    "ProjectName": "Bruen Group",
-    "AssociateId": 403,
-    "Snum": 522,
-    "SaleId": 466,
-    "SaleName": "Windler-Feeney",
+    "PersonId": 403,
+    "PersonFullName": "Corrine Mueller IV",
+    "AssociateFullName": "Neva Senger",
+    "ContactId": 492,
+    "ContactName": "Gutkowski-Bosco",
+    "ProjectId": 845,
+    "ProjectName": "Hayes, Hoppe and Raynor",
+    "AssociateId": 58,
+    "Snum": 120,
+    "SaleId": 508,
+    "SaleName": "Jacobi, Abernathy and Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldLength": 228
       }
     }
   }

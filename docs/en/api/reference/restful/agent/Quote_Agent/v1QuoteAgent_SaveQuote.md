@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/SaveQuote?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Quote 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Quote |  | Quote carrier with the active quote version and favorite alternative. <para /> Carrier object for Quote. Services for the Quote Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| Quote | Quote | Quote carrier with the active quote version and favorite alternative. <para /> Carrier object for Quote. Services for the Quote Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Quote
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,9 +74,9 @@ Response body:
 | PoNumber | string | Customer's Purchase order number |
 | OrderComment | string | A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing |
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
-| ActiveQuoteVersion |  | The active quote version for the quote |
-| FavoriteQuoteAlternative |  | The favorite quote alternative for the quote and active quote version. |
-| TableRight |  |  |
+| ActiveQuoteVersion | QuoteVersion | The active quote version for the quote |
+| FavoriteQuoteAlternative | QuoteAlternative | The favorite quote alternative for the quote and active quote version. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,7 +85,7 @@ Response body:
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 527,
+  "QuoteId": 345,
   "SaleId": 624,
-  "QuoteConnectionId": 676,
-  "ERPQuoteKey": "sed",
-  "ERPOrderKey": "dolorum",
-  "ActiveQuoteVersionId": 84,
-  "AcceptedQuoteAlternativeId": 489,
-  "UseValuesFromQuote": 729,
-  "DocumentId": 570,
-  "PoNumber": "1112569",
-  "OrderComment": "suscipit",
-  "PreferredEmailCulture": "marina@lubowitz.us",
+  "QuoteConnectionId": 848,
+  "ERPQuoteKey": "repellat",
+  "ERPOrderKey": "neque",
+  "ActiveQuoteVersionId": 877,
+  "AcceptedQuoteAlternativeId": 858,
+  "UseValuesFromQuote": 817,
+  "DocumentId": 809,
+  "PoNumber": "1075164",
+  "OrderComment": "eum",
+  "PreferredEmailCulture": "bernardo.medhurst@mcculloughtorphy.ca",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 551
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=185
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=747
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ChatTopicEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,11 +60,11 @@ Response body:
 | Name | string | The name of this chat topic |
 | Description | string | The descriptiong for this topic. |
 | WelcomeMessage | string | The welcome message sent to the customer when the chat session starts. |
-| Language |  | Customer language used in this topic. Optional. |
+| Language | CustomerLanguage | Customer language used in this topic. Optional. |
 | LastAccept | date-time | The last time a session was accepted from the inside for this topic. |
 | SecondsPrAccept | int32 | The average number of seconds per accept for this topic. |
 | AlertRecipient | string | The recipient(s) for the alert template |
-| AlertTemplate |  | Template to use for alerts. |
+| AlertTemplate | ReplyTemplate | Template to use for alerts. |
 | CollectConsent | bool | Collect consent to store from user |
 | BadgeHeader | string | The badge header of the chat topic |
 | CustomQueueTextEnabled | bool | Use the custom queue message text |
@@ -72,13 +72,13 @@ Response body:
 | WarnNewChatMinutes | int32 | Contains the user notify time in minutes |
 | WarnManagerNewChatMinutes | int32 | Contains the manager notify time in minutes |
 | TicketEnabled | bool | Enable ticket submission in offline mode |
-| TicketCategory |  | Category on ticket created from off-line request |
-| TicketPriority |  | Priority on ticket created from off-line request |
+| TicketCategory | TicketCategory | Category on ticket created from off-line request |
+| TicketPriority | TicketPriority | Priority on ticket created from off-line request |
 | OpeningHoursEnabled | bool | Whether to use opening hours or not. |
-| OpeningHours |  | Opening hours settings |
-| Widget |  | Settings for the chat widget |
+| OpeningHours | ChatOpeningHours | Opening hours settings |
+| Widget | ChatWidgetSettings | Settings for the chat widget |
 | BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
-| BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
+| BotSettings | ChatBotSettings | Settings for chatbot: trigger script ids to run on bot events |
 | OfflineCollectConsent | bool | Collect offline consent to store from user |
 | WarnChatMessageMinutes | int32 | Contains the user notify time in minutes for new chat messages |
 | WarnManagerChatMessageMinutes | int32 | Contains the manager notify time in minutes for new chat messages |
@@ -87,7 +87,7 @@ Response body:
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -96,7 +96,7 @@ Response body:
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -106,43 +106,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 925,
-  "Name": "Walker-Ward",
-  "Description": "Monitored empowering moderator",
-  "WelcomeMessage": "dolorem",
+  "ChatTopicId": 175,
+  "Name": "O'Keefe-Schmitt",
+  "Description": "Configurable logistical forecast",
+  "WelcomeMessage": "totam",
   "Language": null,
-  "LastAccept": "2004-07-05T02:49:43.8254085+02:00",
-  "SecondsPrAccept": 880,
-  "AlertRecipient": "consequatur",
+  "LastAccept": "2011-12-03T17:37:17.0812447+01:00",
+  "SecondsPrAccept": 582,
+  "AlertRecipient": "omnis",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "autem",
+  "BadgeHeader": "dolor",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "rerum",
-  "WarnNewChatMinutes": 228,
-  "WarnManagerNewChatMinutes": 199,
-  "TicketEnabled": false,
+  "CustomQueueText": "odio",
+  "WarnNewChatMinutes": 800,
+  "WarnManagerNewChatMinutes": 993,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 36,
-  "WarnManagerChatMessageMinutes": 831,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 690,
-  "OfflineFormQueueLength": 194,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 489,
+  "WarnManagerChatMessageMinutes": 584,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 922,
+  "OfflineFormQueueLength": 689,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "atque",
+  "WidgetRatingText": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 102
+      "FieldType": "System.Int32",
+      "FieldLength": 720
     }
   }
 }

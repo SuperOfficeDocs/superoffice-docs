@@ -42,16 +42,15 @@ POST /api/v1/Agents/Sale/GetSaleStakeholderById?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SaleStakeholderIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SaleStakeholderIds | array |  |
+| SaleStakeholderIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +81,7 @@ Response body: array
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,13 +90,13 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    529,
-    478
+    982,
+    13
   ]
 }
 ```
@@ -110,31 +109,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Prohaska LLC",
-    "Comment": "laborum",
-    "StakeholderRoleId": 366,
-    "CountryId": 32,
-    "PersonId": 136,
-    "EmailDescription": "francisca.fritsch@ledner.name",
-    "EmailId": 840,
-    "EmailAddress": "alexandrea.douglas@ernserberge.biz",
-    "PhoneId": 580,
-    "ContactName": "Ondricka Inc and Sons",
-    "ContactId": 594,
-    "SaleId": 326,
-    "Mrmrs": "sed",
-    "Firstname": "Torrey",
-    "MiddleName": "Bergnaum, Stark and Barton",
-    "Lastname": "Larson",
-    "SaleStakeholderId": 203,
-    "Rank": 546,
-    "Phone": "441-507-8214 x1230",
+    "StakeholderRoleName": "Ryan, Olson and Von",
+    "Comment": "nulla",
+    "StakeholderRoleId": 742,
+    "CountryId": 304,
+    "PersonId": 943,
+    "EmailDescription": "olin@hammes.ca",
+    "EmailId": 4,
+    "EmailAddress": "kaley_terry@west.uk",
+    "PhoneId": 875,
+    "ContactName": "Streich-Feeney",
+    "ContactId": 458,
+    "SaleId": 774,
+    "Mrmrs": "sunt",
+    "Firstname": "Veda",
+    "MiddleName": "Mitchell, Dickens and Rodriguez",
+    "Lastname": "Strosin",
+    "SaleStakeholderId": 972,
+    "Rank": 765,
+    "Phone": "417-355-3897 x17187",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldType": "System.Int32",
+        "FieldLength": 30
       }
     }
   }

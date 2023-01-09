@@ -44,21 +44,20 @@ POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
-| KeyName | string |  |
-| TableName | string |  |
-| RecordId | int32 |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
+| KeyName | String |  |
+| TableName | String |  |
+| RecordId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body:
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,16 +86,16 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Vandervort, Oberbrunner and Tremblay",
-  "DeviceName": "Koepp Group",
-  "DeviceIdentifier": "tempore",
-  "KeyName": "Halvorson-Fay",
-  "TableName": "Hahn-Yundt",
-  "RecordId": 298
+  "ApplicationName": "Treutel, Stokes and Feeney",
+  "DeviceName": "Kuhlman Inc and Sons",
+  "DeviceIdentifier": "id",
+  "KeyName": "O'Keefe, Hegmann and D'Amore",
+  "TableName": "Strosin Inc and Sons",
+  "RecordId": 262
 }
 ```
 
@@ -107,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "iure",
-  "Value": "rerum",
-  "RecordId": 693,
-  "CreatedDate": "2018-02-20T02:49:44.561046+01:00",
-  "UpdatedDate": "2012-02-18T02:49:44.561046+01:00",
-  "UpdatedBy": "ullam",
-  "CreatedBy": "sint",
-  "TableName": "Gorczany Inc and Sons",
+  "Key": "omnis",
+  "Value": "quis",
+  "RecordId": 39,
+  "CreatedDate": "1996-02-15T17:37:18.1062445+01:00",
+  "UpdatedDate": "1999-03-16T17:37:18.1062445+01:00",
+  "UpdatedBy": "id",
+  "CreatedBy": "assumenda",
+  "TableName": "Hegmann, Cassin and Casper",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldType": "System.String",
+      "FieldLength": 69
     }
   }
 }

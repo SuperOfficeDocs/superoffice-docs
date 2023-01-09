@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: MailMergeTask
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,12 +52,12 @@ Response body:
 | Duration | int32 | Duration of task |
 | Description | string | Text describing task |
 | PriorityId | int32 | Priority of task |
-| VisibleFor |  | Who the task should be visible for |
+| VisibleFor | VisibleFor | Who the task should be visible for |
 | Completed | string | Completed status for task |
 | OwnerAssociateId | int32 | Associate identity of who should be set as owner of the task.  If value is 0, the recipient owner(our contact) will be used. |
 | SingleEntryOnEachCompany | bool | Should we only create one task on each company? If false, separate tasks will be created for all persons from the same company. |
 | SaleId | int32 | Sale identity to set on task |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -66,7 +66,7 @@ Response body:
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,23 +76,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 141,
-  "TypeId": 185,
-  "StartDate": "2019-07-23T02:49:45.155965+02:00",
-  "Duration": 315,
-  "Description": "Operative full-range standardization",
-  "PriorityId": 891,
+  "ProjectId": 603,
+  "TypeId": 931,
+  "StartDate": "2006-12-26T17:37:18.9092418+01:00",
+  "Duration": 449,
+  "Description": "Fully-configurable discrete product",
+  "PriorityId": 850,
   "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 939,
+  "OwnerAssociateId": 137,
   "SingleEntryOnEachCompany": false,
-  "SaleId": 145,
+  "SaleId": 265,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldLength": 232
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=308
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=599
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Dashboard
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +61,7 @@ Response body:
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -70,7 +70,7 @@ Response body:
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 363,
-  "AssociateId": 89,
-  "Caption": "sit",
+  "DashboardId": 48,
+  "AssociateId": 216,
+  "Caption": "esse",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 814,
-      "Caption": "qui",
-      "Description": "Reactive grid-enabled analyzer",
-      "ChartName": "Beatty LLC",
-      "ChartId": "harum",
+      "DashboardTileId": 242,
+      "Caption": "odio",
+      "Description": "Optional upward-trending synergy",
+      "ChartName": "Renner-Anderson",
+      "ChartId": "placeat",
       "IsDefault": true,
-      "AssociateId": 562,
-      "GroupId": 369,
-      "SelectionId": 281,
-      "Config": "sunt",
+      "AssociateId": 341,
+      "GroupId": 411,
+      "SelectionId": 117,
+      "Config": "veniam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldLength": 42
         }
       }
     }
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 132
     }
   }
 }

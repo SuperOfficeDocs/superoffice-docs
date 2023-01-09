@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AudienceLayoutEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,9 +51,9 @@ Response body:
 | InstanceName | string | Name of the layout instance |
 | CreatedDate | date-time | The date and time the Audience layout was created  in UTC. |
 | UpdatedDate | date-time | The date and time the Audience layout was last updated  in UTC. |
-| CreatedBy |  | Name of the person that created the Audience layout |
-| UpdatedBy |  | Name of the person that last updated the Audience layout |
-| TableRight |  |  |
+| CreatedBy | Associate | Name of the person that created the Audience layout |
+| UpdatedBy | Associate | Name of the person that last updated the Audience layout |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -62,7 +62,7 @@ Response body:
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 909,
-  "InstanceLayout": "ut",
-  "InstanceName": "Reilly-Ondricka",
-  "CreatedDate": "2005-12-13T02:49:43.6847821+01:00",
-  "UpdatedDate": "2003-08-07T02:49:43.6847821+02:00",
+  "AudienceLayoutId": 886,
+  "InstanceLayout": "nesciunt",
+  "InstanceName": "Fay Group",
+  "CreatedDate": "2018-12-06T17:37:16.8763912+01:00",
+  "UpdatedDate": "2017-05-06T17:37:16.8763912+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldType": "System.String",
+      "FieldLength": 35
     }
   }
 }

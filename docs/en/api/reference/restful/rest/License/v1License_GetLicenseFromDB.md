@@ -36,7 +36,7 @@ Get license, with usage, as it is stored in the database for one particular modu
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -44,14 +44,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Reason | string |  |
 | CanBeActivated | bool |  |
-| New |  |  |
-| Current |  |  |
+| New | RecurrenceInfo |  |
+| Current | RecurrenceInfo |  |
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
@@ -61,7 +61,7 @@ Response body:
 GET /api/v1/License/{ownerName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,21 +72,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 868,
-      "NumberOfLicensesFree": 294,
-      "NumberOfLicensesAdded": 635,
-      "NumberOfLicensesNewTotal": 118,
-      "NumberOfLicensesNewFree": 788,
-      "NumberOfLicensesTotal": 218
+      "NumberOfLicensesInUse": 592,
+      "NumberOfLicensesFree": 685,
+      "NumberOfLicensesAdded": 639,
+      "NumberOfLicensesNewTotal": 693,
+      "NumberOfLicensesNewFree": 615,
+      "NumberOfLicensesTotal": 862
     }
   ],
-  "AccumulatedNextCheckDate": "2010-01-02T02:49:51.7179026+01:00"
+  "AccumulatedNextCheckDate": "2010-02-28T17:37:39.4444363+01:00"
 }
 ```

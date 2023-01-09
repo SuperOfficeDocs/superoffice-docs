@@ -47,17 +47,16 @@ POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocId, AttachmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocId | int32 |  |
-| AttachmentId | string |  |
+| DocId | Integer |  |
+| AttachmentId | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailAttachment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +76,7 @@ Response body:
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 505,
-  "AttachmentId": "vero"
+  "DocId": 655,
+  "AttachmentId": "blanditiis"
 }
 ```
 
@@ -102,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended bi-directional implementation",
-  "Filename": "et",
-  "Size": 902,
-  "Type": "amet",
-  "Encoding": "sunt",
-  "Id": "debitis",
-  "Disposition": "labore",
+  "Description": "Devolved assymetric utilisation",
+  "Filename": "alias",
+  "Size": 422,
+  "Type": "veritatis",
+  "Encoding": "est",
+  "Id": "sunt",
+  "Disposition": "architecto",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldType": "System.String",
+      "FieldLength": 318
     }
   }
 }

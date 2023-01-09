@@ -26,7 +26,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=quos
+GET /api/v1/List/Category/MDOItems?query=iste
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/Category/MDOItems?query=quos
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 341,
-    "Name": "Berge-Schamberger",
-    "ToolTip": "Fugit totam iusto nihil quas.",
+    "Id": 741,
+    "Name": "Lebsack, Blick and Crist",
+    "ToolTip": "Iusto repellendus.",
     "Deleted": false,
-    "Rank": 563,
-    "Type": "nemo",
+    "Rank": 327,
+    "Type": "dolorem",
     "ChildItems": [
       {
-        "Id": 897,
-        "Name": "Heidenreich Group",
-        "ToolTip": "Qui id enim eligendi est molestias.",
+        "Id": 417,
+        "Name": "King Group",
+        "ToolTip": "Itaque quae doloremque quibusdam voluptate nostrum.",
         "Deleted": false,
-        "Rank": 751,
-        "Type": "nesciunt",
+        "Rank": 854,
+        "Type": "fugiat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "culpa",
-        "ColorBlock": 68,
-        "ExtraInfo": "at",
-        "StyleHint": "sit",
-        "FullName": "Kathryne Clovis Stehr DVM",
+        "IconHint": "praesentium",
+        "ColorBlock": 268,
+        "ExtraInfo": "quo",
+        "StyleHint": "non",
+        "FullName": "Elsie Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 119
+            "FieldLength": 527
           }
         }
       }
     ],
-    "IconHint": "facere",
-    "ColorBlock": 445,
-    "ExtraInfo": "autem",
-    "StyleHint": "consequatur",
-    "FullName": "Waldo Mitchell",
+    "IconHint": "minima",
+    "ColorBlock": 819,
+    "ExtraInfo": "dolorum",
+    "StyleHint": "tempora",
+    "FullName": "Dr. Micaela Herman MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 811
+        "FieldType": "System.Int32",
+        "FieldLength": 482
       }
     }
   }

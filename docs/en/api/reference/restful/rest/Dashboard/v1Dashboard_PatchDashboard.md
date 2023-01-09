@@ -71,18 +71,17 @@ PATCH /api/v1/Dashboard/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 Dashboard  updated.
 
@@ -93,7 +92,7 @@ Dashboard  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because Dashboard has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: DashboardWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,7 +101,7 @@ Response body:
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -112,18 +111,18 @@ Response body:
 PATCH /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "explicabo",
+    "path": "vel",
     "value": {}
   },
   {
     "op": "add",
-    "path": "explicabo",
+    "path": "vel",
     "value": {}
   }
 ]
@@ -136,22 +135,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 187,
-  "AssociateId": 175,
-  "Caption": "rerum",
+  "DashboardId": 958,
+  "AssociateId": 552,
+  "Caption": "autem",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 307,
-      "Caption": "culpa",
-      "Description": "Adaptive reciprocal encryption",
-      "ChartName": "Torphy, Wyman and Robel",
-      "ChartId": "occaecati",
+      "DashboardTileId": 299,
+      "Caption": "doloremque",
+      "Description": "Persistent attitude-oriented emulation",
+      "ChartName": "Nitzsche, Runte and Hane",
+      "ChartId": "repellendus",
       "IsDefault": false,
-      "AssociateId": 284,
-      "GroupId": 702,
-      "SelectionId": 842,
-      "Config": "saepe",
+      "AssociateId": 58,
+      "GroupId": 779,
+      "SelectionId": 460,
+      "Config": "dolores",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -167,7 +166,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 603
+          "FieldLength": 132
         }
       }
     }
@@ -176,13 +175,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 319
+      "FieldType": "System.Int32",
+      "FieldLength": 410
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

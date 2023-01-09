@@ -42,16 +42,15 @@ POST /api/v1/Agents/Saint/RegenerateCounters?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 RunAsBatch 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RunAsBatch | bool |  |
+| RunAsBatch | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BatchTaskInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +83,7 @@ Response body:
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,11 +92,11 @@ Response body:
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -108,36 +107,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 270,
-  "Name": "Swift, Frami and Kunde",
-  "AssociateId": 972,
-  "DetailsTable": 16,
-  "DetailsRecord": 288,
+  "Id": 518,
+  "Name": "Hagenes, Nikolaus and Smitham",
+  "AssociateId": 959,
+  "DetailsTable": 392,
+  "DetailsRecord": 762,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "recusandae",
-    "ParameterObject2": "vel"
+    "ParameterObject1": "delectus",
+    "ParameterObject2": "architecto"
   },
-  "LastStarted": "2014-03-28T02:49:45.0934673+01:00",
-  "Created": "2021-05-24T02:49:45.0934673+02:00",
-  "StartCount": 799,
-  "DatabaseSerialNumber": "588722",
-  "Context": "dolore",
-  "Result": "architecto",
+  "LastStarted": "2021-12-09T17:37:18.8172428+01:00",
+  "Created": "2019-09-24T17:37:18.8172428+02:00",
+  "StartCount": 122,
+  "DatabaseSerialNumber": "1187121",
+  "Context": "labore",
+  "Result": "dicta",
   "State": "All",
-  "Description": "Function-based 4th generation solution",
-  "Response": "voluptatem",
-  "Request": "rerum",
-  "ProgressDescription": "Stand-alone non-volatile alliance",
-  "ProgressPercent": 19,
-  "FileName": "Ward, Pfannerstill and Hudson",
+  "Description": "Monitored 24/7 archive",
+  "Response": "ullam",
+  "Request": "porro",
+  "ProgressDescription": "Multi-lateral methodical hub",
+  "ProgressPercent": 54,
+  "FileName": "Pfeffer Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 832
     }
   }
 }

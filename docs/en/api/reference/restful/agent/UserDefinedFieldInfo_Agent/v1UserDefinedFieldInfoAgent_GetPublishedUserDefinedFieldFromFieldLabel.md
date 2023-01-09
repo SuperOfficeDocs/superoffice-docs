@@ -44,17 +44,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 FieldLabel, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| FieldLabel | string |  |
-| OwnerType | string |  |
+| FieldLabel | String |  |
+| OwnerType | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,7 +99,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -109,11 +108,11 @@ Response body:
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "dolor",
+  "FieldLabel": "vero",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 493,
-  "ColumnId": 134,
-  "FieldDefault": "ratione",
-  "FieldHeight": 922,
-  "FieldLabel": "numquam",
-  "FieldLeft": 648,
-  "FieldTop": 790,
+  "UDefFieldId": 149,
+  "ColumnId": 501,
+  "FieldDefault": "assumenda",
+  "FieldHeight": 106,
+  "FieldLabel": "et",
+  "FieldLeft": 184,
+  "FieldTop": 472,
   "FieldType": "Checkbox",
-  "FieldWidth": 532,
-  "FormatMask": "quo",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 884,
-  "LabelLeft": 478,
-  "LabelTop": 759,
-  "LabelWidth": 848,
-  "LastVersionId": 546,
-  "ListTableId": 485,
+  "FieldWidth": 471,
+  "FormatMask": "rem",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 413,
+  "LabelLeft": 59,
+  "LabelTop": 363,
+  "LabelWidth": 117,
+  "LastVersionId": 301,
+  "ListTableId": 64,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 542,
+  "Page1LineNo": 705,
   "ProgId": "ut",
-  "IsReadOnly": true,
-  "ShortLabel": "qui",
-  "TabOrder": 113,
-  "TextLength": 904,
-  "Tooltip": "totam",
-  "UdefIdentity": 471,
-  "UDListDefinitionId": 306,
+  "IsReadOnly": false,
+  "ShortLabel": "harum",
+  "TabOrder": 217,
+  "TextLength": 165,
+  "Tooltip": "beatae",
+  "UdefIdentity": 135,
+  "UDListDefinitionId": 896,
   "Justification": "Center",
-  "Version": 146,
-  "TemplateVariableName": "Blick, Watsica and Schneider",
-  "HasBeenPublished": true,
-  "MdoListName": "Cormier-Hansen",
+  "Version": 205,
+  "TemplateVariableName": "Champlin Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Jacobson-Hilll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldType": "System.String",
+      "FieldLength": 517
     }
   }
 }

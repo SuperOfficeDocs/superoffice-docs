@@ -42,17 +42,16 @@ POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| Context | string |  |
+| TableName | String |  |
+| Context | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,12 +87,12 @@ Response body: array
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kuhic-Nikolaus",
-  "Context": "ducimus"
+  "TableName": "DuBuque LLC",
+  "Context": "non"
 }
 ```
 
@@ -109,72 +108,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": true,
-    "Key": "eius",
-    "ValueType": "odio",
-    "Mandatory": true,
-    "EncodedDisplayName": "Considine LLC",
-    "EncodedDisplayDescription": "Cross-group multimedia success",
-    "IconHint": "earum",
+    "Key": "possimus",
+    "ValueType": "expedita",
+    "Mandatory": false,
+    "EncodedDisplayName": "Daugherty, Brown and Fadel",
+    "EncodedDisplayDescription": "Assimilated 24 hour workforce",
+    "IconHint": "eaque",
     "ControlInfos": [
       {
-        "Type": "vel",
-        "Label": "architecto",
-        "Dimension": 355,
-        "ListProviderName": "Rice, Simonis and Prosacco",
-        "ListProviderExtraInfo": "mollitia",
-        "ListProviderPrimaryKeyName": "Pagac, Russel and Aufderhar",
-        "ListLeadText": "architecto",
+        "Type": "aliquid",
+        "Label": "recusandae",
+        "Dimension": 553,
+        "ListProviderName": "Hodkiewicz LLC",
+        "ListProviderExtraInfo": "animi",
+        "ListProviderPrimaryKeyName": "Rippin, Homenick and Becker",
+        "ListLeadText": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 46
+            "FieldLength": 321
           }
         }
       }
     ],
     "EncodedDataCaption": "et",
-    "EncodedDataCaptionDescription": "Optional encompassing collaboration",
-    "CurrentOperationType": "rerum",
+    "EncodedDataCaptionDescription": "Right-sized scalable system engine",
+    "CurrentOperationType": "consectetur",
     "Values": [
-      "illum",
-      "aut"
+      "eveniet",
+      "fuga"
     ],
     "DisplayValues": [
-      "eveniet",
-      "est"
+      "amet",
+      "saepe"
     ],
     "OperationInfos": [
       {
-        "Key": "quas",
-        "EncodedDisplayName": "Maggio Group",
+        "Key": "ad",
+        "EncodedDisplayName": "O'Kon-Johnston",
         "EncodedLeadTexts": [
           "aut",
-          "ut"
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 930
+            "FieldLength": 122
           }
         }
       },
       {
-        "Key": "quas",
-        "EncodedDisplayName": "Maggio Group",
+        "Key": "ad",
+        "EncodedDisplayName": "O'Kon-Johnston",
         "EncodedLeadTexts": [
           "aut",
-          "ut"
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 930
+            "FieldLength": 122
           }
         }
       }

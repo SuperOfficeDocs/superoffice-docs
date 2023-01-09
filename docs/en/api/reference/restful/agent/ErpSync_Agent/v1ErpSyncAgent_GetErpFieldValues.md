@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/GetErpFieldValues
 Get the values for the specified fields from the ERP connection
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,19 +44,18 @@ POST /api/v1/Agents/ErpSync/GetErpFieldValues?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpConnectionId, CrmActorType, EntityId, FieldKeys 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpConnectionId | int32 |  |
-| CrmActorType | string |  |
-| EntityId | int32 |  |
-| FieldKeys | array |  |
+| ErpConnectionId | Integer |  |
+| CrmActorType | String |  |
+| EntityId | Integer |  |
+| FieldKeys | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -66,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 
 ## Sample request
@@ -79,12 +76,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 389,
+  "ErpConnectionId": 106,
   "CrmActorType": "Contact",
-  "EntityId": 386,
+  "EntityId": 176,
   "FieldKeys": [
-    "quod",
-    "architecto"
+    "eos",
+    "molestiae"
   ]
 }
 ```
@@ -96,7 +93,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "assumenda",
-  "est"
+  "omnis",
+  "omnis"
 ]
 ```

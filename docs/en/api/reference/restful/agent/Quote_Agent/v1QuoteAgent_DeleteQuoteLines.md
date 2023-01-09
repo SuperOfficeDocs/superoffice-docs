@@ -38,16 +38,15 @@ POST /api/v1/Agents/Quote/DeleteQuoteLines?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteLineIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLineIds | array |  |
+| QuoteLineIds | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -55,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -69,8 +68,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineIds": [
-    341,
-    346
+    11,
+    751
   ]
 }
 ```

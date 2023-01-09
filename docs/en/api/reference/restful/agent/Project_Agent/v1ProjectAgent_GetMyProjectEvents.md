@@ -44,7 +44,7 @@ POST /api/v1/Agents/Project/GetMyProjectEvents?$select=name,department,category/
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +78,7 @@ Response body: array
 | SignOnTriggersAssign | bool | If true, the sign on task should be created as an Assigned task, triggering the invitation dialog |
 | SignOnPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
 | SignOffPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +87,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Addie Harber",
-    "Description": "Total web-enabled data-warehouse",
-    "ProjectId": 606,
-    "EventName": "Batz Inc and Sons",
-    "AssociateId": 514,
-    "IsSignedOn": true,
-    "SignOffConfirmationText": "ea",
-    "SignOffText": "molestiae",
-    "SignOnConfirmationText": "voluptate",
-    "SignOnText": "cum",
-    "EventDate": "1997-12-03T02:49:44.9684639+01:00",
+    "AssociateFullName": "Dell Jerde",
+    "Description": "Mandatory mobile service-desk",
+    "ProjectId": 166,
+    "EventName": "Dooley Group",
+    "AssociateId": 954,
+    "IsSignedOn": false,
+    "SignOffConfirmationText": "libero",
+    "SignOffText": "expedita",
+    "SignOnConfirmationText": "laborum",
+    "SignOnText": "unde",
+    "EventDate": "2013-04-05T17:37:18.6552447+02:00",
     "Enabled": false,
-    "SignOff": true,
+    "SignOff": false,
     "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
-    "SignOn": true,
-    "SignOffTaskId": 430,
-    "SignOnTaskId": 467,
+    "SignOn": false,
+    "SignOffTaskId": 580,
+    "SignOnTaskId": 580,
     "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": true,
-    "SignOnPersonId": 492,
-    "SignOffPersonId": 429,
+    "SignOnTriggersAssign": false,
+    "SignOnPersonId": 370,
+    "SignOffPersonId": 704,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldLength": 459
       }
     }
   }

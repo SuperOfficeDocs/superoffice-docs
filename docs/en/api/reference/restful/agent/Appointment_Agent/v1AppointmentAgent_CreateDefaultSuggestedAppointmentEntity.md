@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SuggestedAppointmentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,10 +57,10 @@ Response body:
 | IsMilestone | bool | Is this a milestone activity |
 | AssignToMember | bool | Should this appointment be assigned to project member |
 | Text | string | The suggested text of the new appointment |
-| ProjectTypeStatusLink |  | Project type and project status link info |
-| SaleTypeStageLink |  | Sale type and stage link info |
-| Type |  | Type of the suggested appointment |
-| TableRight |  |  |
+| ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
+| SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info |
+| Type | Task | Type of the suggested appointment |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,17 +79,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 577,
-  "Name": "Parisian, Lynch and Bogisich",
-  "Tooltip": "qui",
-  "Rank": 245,
+  "SuggestedAppointmentId": 923,
+  "Name": "Kirlin LLC",
+  "Tooltip": "non",
+  "Rank": 781,
   "Deleted": false,
-  "DaysFuture": 867,
-  "Duration": "est",
-  "AutoSuggest": true,
+  "DaysFuture": 24,
+  "Duration": "qui",
+  "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "ut",
+  "Text": "facere",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldType": "System.String",
+      "FieldLength": 205
     }
   }
 }

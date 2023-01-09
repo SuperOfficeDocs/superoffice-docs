@@ -42,16 +42,15 @@ POST /api/v1/Agents/License/GetSatelliteLicenses?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SatelliteId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SatelliteId | int32 |  |
+| SatelliteId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +66,7 @@ Response body: array
 | Description | string |  |
 | RestrictedModuleLicenses | array |  |
 | UnrestrictedModuleLicenses | array | The unrestricted module licenses that this license owner |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,11 +75,11 @@ Response body: array
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 778
+  "SatelliteId": 970
 }
 ```
 
@@ -92,56 +91,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ward, Roberts and Connelly",
-    "Description": "Fundamental contextually-based policy",
+    "Name": "Lowe Group",
+    "Description": "Managed mission-critical productivity",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 778,
-        "Tooltip": "nam",
+        "Unrestricted": true,
+        "Total": 342,
+        "Tooltip": "accusamus",
         "CanAssign": false,
-        "Free": 803,
-        "InUse": 199,
-        "IsHidden": false,
+        "Free": 739,
+        "InUse": 923,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 43,
-        "Name": "Kuhlman, Price and McGlynn",
-        "Description": "Persistent dynamic challenge",
-        "PrerequisiteModuleName": "Beatty-Crist",
-        "SortOrder": 992,
-        "ExtraFlags": 288,
+        "ModuleLicenseId": 188,
+        "Name": "Littel, Bernhard and Howe",
+        "Description": "De-engineered fresh-thinking encoding",
+        "PrerequisiteModuleName": "Kilback-Kunze",
+        "SortOrder": 877,
+        "ExtraFlags": 311,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 508
+            "FieldType": "System.String",
+            "FieldLength": 532
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 494,
-        "Tooltip": "officiis",
-        "CanAssign": true,
-        "Free": 988,
-        "InUse": 479,
+        "Unrestricted": true,
+        "Total": 701,
+        "Tooltip": "repellendus",
+        "CanAssign": false,
+        "Free": 453,
+        "InUse": 475,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 724,
-        "Name": "Raynor Group",
-        "Description": "Persevering system-worthy attitude",
-        "PrerequisiteModuleName": "Kunde-Berge",
-        "SortOrder": 354,
-        "ExtraFlags": 602,
+        "ModuleLicenseId": 787,
+        "Name": "Koelpin, Davis and Heller",
+        "Description": "Future-proofed real-time encryption",
+        "PrerequisiteModuleName": "Welch, Walter and Rempel",
+        "SortOrder": 368,
+        "ExtraFlags": 868,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 515
+            "FieldType": "System.String",
+            "FieldLength": 354
           }
         }
       }
@@ -151,61 +150,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldLength": 406
       }
     }
   },
   {
-    "Name": "Ward, Roberts and Connelly",
-    "Description": "Fundamental contextually-based policy",
+    "Name": "Lowe Group",
+    "Description": "Managed mission-critical productivity",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 778,
-        "Tooltip": "nam",
+        "Unrestricted": true,
+        "Total": 342,
+        "Tooltip": "accusamus",
         "CanAssign": false,
-        "Free": 803,
-        "InUse": 199,
-        "IsHidden": false,
+        "Free": 739,
+        "InUse": 923,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 43,
-        "Name": "Kuhlman, Price and McGlynn",
-        "Description": "Persistent dynamic challenge",
-        "PrerequisiteModuleName": "Beatty-Crist",
-        "SortOrder": 992,
-        "ExtraFlags": 288,
+        "ModuleLicenseId": 188,
+        "Name": "Littel, Bernhard and Howe",
+        "Description": "De-engineered fresh-thinking encoding",
+        "PrerequisiteModuleName": "Kilback-Kunze",
+        "SortOrder": 877,
+        "ExtraFlags": 311,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 508
+            "FieldType": "System.String",
+            "FieldLength": 532
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 494,
-        "Tooltip": "officiis",
-        "CanAssign": true,
-        "Free": 988,
-        "InUse": 479,
+        "Unrestricted": true,
+        "Total": 701,
+        "Tooltip": "repellendus",
+        "CanAssign": false,
+        "Free": 453,
+        "InUse": 475,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 724,
-        "Name": "Raynor Group",
-        "Description": "Persevering system-worthy attitude",
-        "PrerequisiteModuleName": "Kunde-Berge",
-        "SortOrder": 354,
-        "ExtraFlags": 602,
+        "ModuleLicenseId": 787,
+        "Name": "Koelpin, Davis and Heller",
+        "Description": "Future-proofed real-time encryption",
+        "PrerequisiteModuleName": "Welch, Walter and Rempel",
+        "SortOrder": 368,
+        "ExtraFlags": 868,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 515
+            "FieldType": "System.String",
+            "FieldLength": 354
           }
         }
       }
@@ -215,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldLength": 406
       }
     }
   }

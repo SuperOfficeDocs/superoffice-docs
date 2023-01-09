@@ -37,30 +37,29 @@ Saves the active headings for the list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: headings  
+## Request Body: headings 
 
 The headings to save. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -68,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,7 +86,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -101,42 +100,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 786,
-    "Name": "Cormier-Denesik",
-    "ToolTip": "Similique maxime.",
+    "Id": 652,
+    "Name": "Hirthe, Leuschke and Cormier",
+    "ToolTip": "Ea placeat et nulla.",
     "Deleted": false,
-    "Rank": 245,
-    "Type": "vel",
-    "ColorBlock": 818,
-    "IconHint": "quia",
+    "Rank": 682,
+    "Type": "aut",
+    "ColorBlock": 261,
+    "IconHint": "eveniet",
     "Selected": true,
-    "LastChanged": "2015-07-17T02:49:51.8753193+02:00",
+    "LastChanged": "2005-11-13T17:37:39.630436+01:00",
     "ChildItems": [
       {
-        "Id": 538,
-        "Name": "Fahey LLC",
-        "ToolTip": "Dolore voluptate eius ab aut.",
-        "Deleted": false,
-        "Rank": 801,
-        "Type": "quidem",
-        "ColorBlock": 701,
-        "IconHint": "esse",
-        "Selected": false,
-        "LastChanged": "2019-03-13T02:49:51.8753193+01:00",
+        "Id": 232,
+        "Name": "Mueller, Abernathy and Fritsch",
+        "ToolTip": "Quo labore ipsa ut corporis eum et beatae.",
+        "Deleted": true,
+        "Rank": 456,
+        "Type": "quibusdam",
+        "ColorBlock": 478,
+        "IconHint": "saepe",
+        "Selected": true,
+        "LastChanged": "2009-04-07T17:37:39.630436+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "est",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Israel Collins"
+        "FullName": "Marcella Tillman"
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "aspernatur",
-    "Hidden": true,
-    "FullName": "Ms. Adrienne Ricardo Brakus"
+    "ExtraInfo": "ipsum",
+    "StyleHint": "veniam",
+    "Hidden": false,
+    "FullName": "Hipolito Dickinson"
   }
 ]
 ```
@@ -149,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Bernier Group",
-    "ToolTip": "Eos facilis.",
+    "Id": 872,
+    "Name": "Murray Inc and Sons",
+    "ToolTip": "Tenetur omnis ab eaque hic tenetur.",
     "Deleted": false,
-    "Rank": 28,
-    "Type": "quas",
-    "ColorBlock": 509,
-    "IconHint": "deserunt",
-    "Selected": true,
-    "LastChanged": "2019-03-15T02:49:51.8753193+01:00",
+    "Rank": 294,
+    "Type": "exercitationem",
+    "ColorBlock": 243,
+    "IconHint": "quod",
+    "Selected": false,
+    "LastChanged": "2021-06-18T17:37:39.6324007+02:00",
     "ChildItems": [
       {
-        "Id": 738,
-        "Name": "Homenick, Gutkowski and Jakubowski",
-        "ToolTip": "Dolores et et sunt.",
-        "Deleted": false,
-        "Rank": 713,
-        "Type": "eum",
-        "ColorBlock": 503,
-        "IconHint": "est",
+        "Id": 770,
+        "Name": "Swift LLC",
+        "ToolTip": "Enim ratione qui maxime hic et.",
+        "Deleted": true,
+        "Rank": 580,
+        "Type": "est",
+        "ColorBlock": 450,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2001-06-06T02:49:51.8753193+02:00",
+        "LastChanged": "2008-03-05T17:37:39.6324007+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Norbert Spinka",
+        "FullName": "Gene Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 380
+            "FieldLength": 993
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "vitae",
+    "ExtraInfo": "sit",
+    "StyleHint": "corporis",
     "Hidden": true,
-    "FullName": "Miss Velda VonRueden PhD",
+    "FullName": "Seamus Rutherford I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 688
       }
     }
   }

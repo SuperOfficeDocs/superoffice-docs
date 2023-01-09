@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,9 +69,9 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=consequatur
-GET /api/v1/User?$top=829
-GET /api/v1/User?$skip=606
+GET /api/v1/User?$entities=maxime
+GET /api/v1/User?$top=288
+GET /api/v1/User?$skip=28
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
 GET /api/v1/User?$context=sed
@@ -96,7 +95,7 @@ GET /api/v1/User?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body:
 GET /api/v1/User
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aut",
+  "odata.nextLink": "ea",
   "value": [
     {
-      "PrimaryKey": 894,
-      "EntityName": "person",
-      "personId": 894,
-      "fullName": "Marian Bergnaum MD"
+      "PrimaryKey": 3858,
+      "EntityName": "sale",
+      "saleId": 3858,
+      "contactId": 4259,
+      "name": "Wilkinson Group"
     },
     {
-      "PrimaryKey": 4121,
-      "EntityName": "person",
-      "personId": 4121,
-      "fullName": "Brock Botsford"
+      "PrimaryKey": 8828,
+      "EntityName": "sale",
+      "saleId": 8828,
+      "contactId": 3898,
+      "name": "Satterfield-Glover"
     }
   ]
 }

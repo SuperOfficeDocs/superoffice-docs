@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TriggerScriptEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +59,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 612,
-  "Name": "Beatty, Kemmer and Cole",
+  "ScreenChooserId": 579,
+  "Name": "Kirlin-Schuster",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "eveniet",
-  "Source": "voluptatem",
-  "Registered": "2012-04-25T02:49:44.0129044+02:00",
-  "RegisteredAssociateId": 482,
-  "Updated": "2020-07-07T02:49:44.0129044+02:00",
-  "UpdatedAssociateId": 698,
+  "UniqueIdentifier": "et",
+  "Source": "veritatis",
+  "Registered": "2003-11-07T17:37:17.3252455+01:00",
+  "RegisteredAssociateId": 63,
+  "Updated": "2007-02-24T17:37:17.3252455+01:00",
+  "UpdatedAssociateId": 347,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldType": "System.String",
+      "FieldLength": 544
     }
   }
 }

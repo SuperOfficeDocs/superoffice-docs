@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/GetQuote?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteId | int32 |  |
+| QuoteId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Quote
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,9 +74,9 @@ Response body:
 | PoNumber | string | Customer's Purchase order number |
 | OrderComment | string | A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing |
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
-| ActiveQuoteVersion |  | The active quote version for the quote |
-| FavoriteQuoteAlternative |  | The favorite quote alternative for the quote and active quote version. |
-| TableRight |  |  |
+| ActiveQuoteVersion | QuoteVersion | The active quote version for the quote |
+| FavoriteQuoteAlternative | QuoteAlternative | The favorite quote alternative for the quote and active quote version. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 418
+  "QuoteId": 197
 }
 ```
 
@@ -101,26 +100,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 22,
-  "SaleId": 309,
-  "QuoteConnectionId": 570,
-  "ERPQuoteKey": "aut",
-  "ERPOrderKey": "in",
-  "ActiveQuoteVersionId": 846,
-  "AcceptedQuoteAlternativeId": 593,
-  "UseValuesFromQuote": 183,
-  "DocumentId": 369,
-  "PoNumber": "1605882",
-  "OrderComment": "nam",
-  "PreferredEmailCulture": "george_durgan@hamill.name",
+  "QuoteId": 785,
+  "SaleId": 92,
+  "QuoteConnectionId": 345,
+  "ERPQuoteKey": "quo",
+  "ERPOrderKey": "aut",
+  "ActiveQuoteVersionId": 64,
+  "AcceptedQuoteAlternativeId": 16,
+  "UseValuesFromQuote": 618,
+  "DocumentId": 177,
+  "PoNumber": "1128688",
+  "OrderComment": "provident",
+  "PreferredEmailCulture": "luna@brakus.ca",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldType": "System.String",
+      "FieldLength": 789
     }
   }
 }

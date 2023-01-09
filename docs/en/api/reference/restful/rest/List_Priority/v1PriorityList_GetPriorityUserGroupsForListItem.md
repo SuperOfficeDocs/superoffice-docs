@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 974,
-    "Name": "Davis, Conn and Borer",
-    "ToolTip": "Nihil velit voluptatem qui.",
+    "Id": 491,
+    "Name": "Rice-Harber",
+    "ToolTip": "Ut quia repellendus sint et architecto nisi.",
     "Deleted": false,
-    "Rank": 250,
-    "Type": "deleniti",
-    "ColorBlock": 616,
-    "IconHint": "unde",
+    "Rank": 284,
+    "Type": "omnis",
+    "ColorBlock": 830,
+    "IconHint": "iusto",
     "Selected": false,
-    "LastChanged": "2022-11-29T02:49:52.3440724+01:00",
+    "LastChanged": "2016-05-16T17:37:40.1274951+02:00",
     "ChildItems": [
       {
-        "Id": 958,
-        "Name": "McKenzie, Treutel and Senger",
-        "ToolTip": "Et provident numquam aut laborum.",
+        "Id": 292,
+        "Name": "Blick-Ortiz",
+        "ToolTip": "Quae quo nulla eius quo facilis eos.",
         "Deleted": false,
-        "Rank": 433,
-        "Type": "voluptatem",
-        "ColorBlock": 664,
-        "IconHint": "minus",
+        "Rank": 130,
+        "Type": "commodi",
+        "ColorBlock": 862,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2005-01-09T02:49:52.3440724+01:00",
+        "LastChanged": "2000-11-11T17:37:40.1274951+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "aut",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Georgianna Grimes",
+        "FullName": "Prof. Hilario Ondricka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 483
+            "FieldType": "System.String",
+            "FieldLength": 941
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "qui",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "esse",
     "Hidden": false,
-    "FullName": "Mr. Koby Ray Hirthe",
+    "FullName": "Wendell Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldLength": 280
       }
     }
   }

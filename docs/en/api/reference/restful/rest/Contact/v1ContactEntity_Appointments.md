@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,14 +73,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Appointments?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Appointments?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Appointments?$orderBy=name asc
-GET /api/v1/Contact/{id}/Appointments?$entities=perferendis
-GET /api/v1/Contact/{id}/Appointments?$top=400
-GET /api/v1/Contact/{id}/Appointments?$skip=682
+GET /api/v1/Contact/{id}/Appointments?$entities=provident
+GET /api/v1/Contact/{id}/Appointments?$top=811
+GET /api/v1/Contact/{id}/Appointments?$skip=616
 GET /api/v1/Contact/{id}/Appointments?$mode=Full
 GET /api/v1/Contact/{id}/Appointments?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Appointments?$context=quae
+GET /api/v1/Contact/{id}/Appointments?$context=alias
 GET /api/v1/Contact/{id}/Appointments?$format=JSON
-GET /api/v1/Contact/{id}/Appointments?$jsonSafe=False
+GET /api/v1/Contact/{id}/Appointments?$jsonSafe=True
 GET /api/v1/Contact/{id}/Appointments?$output=Display
 ```
 
@@ -100,7 +99,7 @@ GET /api/v1/Contact/{id}/Appointments?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Contact/{id}/Appointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "accusamus",
+  "odata.nextLink": "qui",
   "value": [
     {
-      "PrimaryKey": 523,
-      "EntityName": "person",
-      "personId": 523,
-      "fullName": "Prof. Jaunita Belle Huels"
+      "PrimaryKey": 1762,
+      "EntityName": "sale",
+      "saleId": 1762,
+      "contactId": 1224,
+      "name": "Hamill Group"
     },
     {
-      "PrimaryKey": 3881,
-      "EntityName": "person",
-      "personId": 3881,
-      "fullName": "Rodrick Kemmer"
+      "PrimaryKey": 6650,
+      "EntityName": "sale",
+      "saleId": 6650,
+      "contactId": 1070,
+      "name": "Rau LLC"
     }
   ]
 }

@@ -32,23 +32,22 @@ Updates the existing RelationDefinitionEntity or creates a new RelationDefinitio
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The RelationDefinitionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ReldefId | int32 | Primary key |
-| Name | string | Active text |
-| Tooltip | string | Tooltip or other description |
-| PassiveText | string | Text used in passive direction |
-| Deleted | bool | True if deleted |
-| Rank | int32 | Rank order |
-| Source | string | The source of the relation |
-| Destination | string | The destination of the relation |
+| ReldefId | Integer | Primary key |
+| Name | String | Active text |
+| Tooltip | String | Tooltip or other description |
+| PassiveText | String | Text used in passive direction |
+| Deleted | Boolean | True if deleted |
+| Rank | Integer | Rank order |
+| Source | String | The source of the relation |
+| Destination | String | The destination of the relation |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RelationDefinitionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body:
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,16 +76,16 @@ Response body:
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 926,
-  "Name": "Halvorson-Larkin",
-  "Tooltip": "porro",
-  "PassiveText": "dicta",
+  "ReldefId": 550,
+  "Name": "Ullrich Group",
+  "Tooltip": "adipisci",
+  "PassiveText": "molestiae",
   "Deleted": true,
-  "Rank": 79,
+  "Rank": 49,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -99,12 +98,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 516,
-  "Name": "Swaniawski-Rogahn",
-  "Tooltip": "nobis",
-  "PassiveText": "et",
+  "ReldefId": 779,
+  "Name": "Mante-Cummings",
+  "Tooltip": "ut",
+  "PassiveText": "ex",
   "Deleted": false,
-  "Rank": 498,
+  "Rank": 583,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -112,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 633
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=401
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=799
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,catego
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectEventEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,8 +72,8 @@ Response body:
 | SignOnTaskId | int32 | If not 0, sign on should cause an Activity of this type to be registered |
 | SignOnTriggersAssign | bool | If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the projectevent |
-| UpdatedBy |  | The person that last updated the projectevent |
+| CreatedBy | Associate | The person that created the projectevent |
+| UpdatedBy | Associate | The person that last updated the projectevent |
 | ProjectId | int32 | The projectId for the project this projectEvent belongs to |
 | Id | int32 | Id of the external event |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -86,7 +86,7 @@ Response body:
 | IsVisibleForCategories | bool |  |
 | IsVisibleForPersonInterests | bool |  |
 | ProjectEventId | int32 | Primary key |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,7 +95,7 @@ Response body:
 POST /api/v1/Agents/Project/GetProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,79 +105,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "cumque",
-  "SignOffText": "veniam",
-  "SignOnConfirmationText": "sapiente",
-  "SignOnText": "quisquam",
-  "EventDate": "2010-02-13T02:49:44.9684639+01:00",
-  "Enabled": true,
-  "CreatedDate": "1995-12-26T02:49:44.9684639+01:00",
+  "SignOffConfirmationText": "illum",
+  "SignOffText": "ab",
+  "SignOnConfirmationText": "possimus",
+  "SignOnText": "exercitationem",
+  "EventDate": "2008-06-28T17:37:18.6482449+02:00",
+  "Enabled": false,
+  "CreatedDate": "2012-04-11T17:37:18.6482449+02:00",
   "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 911,
-  "SignOffTriggersAssign": false,
-  "SignOn": true,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 360,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2007-08-24T02:49:44.9684639+02:00",
+  "SignOffTaskId": 745,
+  "SignOffTriggersAssign": true,
+  "SignOn": false,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 631,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "1999-08-14T17:37:18.6482449+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 595,
-  "Id": 746,
-  "PublishFrom": "2004-06-21T02:49:44.9684639+02:00",
+  "ProjectId": 438,
+  "Id": 472,
+  "PublishFrom": "2020-07-29T17:37:18.6492444+02:00",
   "PublishType": "External",
-  "PublishTo": "2002-08-01T02:49:44.9684639+02:00",
+  "PublishTo": "1995-09-20T17:37:18.6492444+02:00",
   "VisibleForCategories": [
     {
-      "Id": 95,
-      "Name": "Nienow, Cremin and Strosin",
-      "ToolTip": "Voluptatem distinctio incidunt nostrum.",
+      "Id": 610,
+      "Name": "Torp Inc and Sons",
+      "ToolTip": "Porro odit aliquid nisi voluptatem.",
       "Deleted": false,
-      "Rank": 950,
-      "Type": "rerum",
+      "Rank": 483,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quis",
-      "ColorBlock": 720,
-      "ExtraInfo": "aut",
-      "StyleHint": "repellat",
-      "FullName": "Dr. Jack Fadel",
+      "IconHint": "aut",
+      "ColorBlock": 514,
+      "ExtraInfo": "quam",
+      "StyleHint": "dicta",
+      "FullName": "Dr. Hulda Rebeka Kuhlman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 169
+          "FieldType": "System.Int32",
+          "FieldLength": 984
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 126,
-      "Name": "Olson-Mitchell",
-      "ToolTip": "Et voluptatum.",
+      "Id": 797,
+      "Name": "Turner, Feeney and Konopelski",
+      "ToolTip": "Et in repellendus iure odit explicabo.",
       "Deleted": false,
-      "Rank": 950,
-      "Type": "debitis",
+      "Rank": 108,
+      "Type": "voluptas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vitae",
-      "ColorBlock": 941,
-      "ExtraInfo": "aperiam",
-      "StyleHint": "labore",
-      "FullName": "Krystina Abshire",
+      "IconHint": "quis",
+      "ColorBlock": 278,
+      "ExtraInfo": "placeat",
+      "StyleHint": "natus",
+      "FullName": "Virgie Bashirian",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 612
+          "FieldLength": 518
         }
       }
     }
@@ -186,13 +186,13 @@ Content-Type: application/json; charset=utf-8
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 123,
+  "ProjectEventId": 784,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 337
     }
   }
 }

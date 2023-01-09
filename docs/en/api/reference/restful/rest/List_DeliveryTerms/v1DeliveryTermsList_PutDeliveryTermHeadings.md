@@ -34,21 +34,20 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HeadingId | int32 | Primary key |
-| Name | string | The visible heading |
-| Tooltip | string | Tooltip or other description |
-| Deleted | bool | True if the heading is marked as deleted |
-| Rank | int32 | Rank order |
-| UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+| HeadingId | Integer | Primary key |
+| Name | String | The visible heading |
+| Tooltip | String | Tooltip or other description |
+| Deleted | Boolean | True if the heading is marked as deleted |
+| Rank | Integer | Rank order |
+| UdListDefinitionId | Integer | The id of the list which this heading belongs to |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body: array
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 656,
-    "Name": "Koelpin LLC",
-    "Tooltip": "exercitationem",
-    "Deleted": true,
-    "Rank": 116,
-    "UdListDefinitionId": 690
+    "HeadingId": 748,
+    "Name": "Marvin Inc and Sons",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 419,
+    "UdListDefinitionId": 617
   },
   {
-    "HeadingId": 656,
-    "Name": "Koelpin LLC",
-    "Tooltip": "exercitationem",
-    "Deleted": true,
-    "Rank": 116,
-    "UdListDefinitionId": 690
+    "HeadingId": 748,
+    "Name": "Marvin Inc and Sons",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 419,
+    "UdListDefinitionId": 617
   }
 ]
 ```
@@ -106,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 991,
-    "Name": "Rempel, Hettinger and Mann",
-    "Tooltip": "veniam",
+    "HeadingId": 330,
+    "Name": "Prosacco, Borer and Hartmann",
+    "Tooltip": "aut",
     "Deleted": true,
     "Rank": 423,
-    "UdListDefinitionId": 485,
+    "UdListDefinitionId": 880,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 412
+        "FieldType": "System.Int32",
+        "FieldLength": 176
       }
     }
   }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup?$select=na
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UserGroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UserGroupId | int32 |  |
+| UserGroupId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,20 +58,20 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TargetAssignmentInfoId | int32 | Primary key |
 | Values | array | Values of the target; all periods; in ascending order. |
 | Locked | bool | Locked, should not be editable |
-| TargetAssociate |  | The associate this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
-| TargetContact |  | The contact this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
-| TargetUserGroup |  | The usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
-| Currency |  | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
+| TargetAssociate | Associate | The associate this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
+| TargetContact | Contact | The contact this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
+| TargetUserGroup | UserGroup | The usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
+| Currency | Currency | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
 | DimensionListItem | int32 | Id of the dimension list item this assignement is for |
 | DimensionListItemDisplayName | string | Display name of the dimension list item this assignement is for. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,11 +80,11 @@ Response body: array
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 412
+  "UserGroupId": 632
 }
 ```
 
@@ -97,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 682,
+    "TargetAssignmentInfoId": 126,
     "Values": [
-      653,
-      594
+      754,
+      631
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 49,
-    "DimensionListItemDisplayName": "Mraz, Weimann and Mertz",
+    "DimensionListItem": 778,
+    "DimensionListItemDisplayName": "Lockman-Stamm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldLength": 984
       }
     }
   }

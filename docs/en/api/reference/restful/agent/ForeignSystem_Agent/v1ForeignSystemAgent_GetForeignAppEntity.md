@@ -25,7 +25,7 @@ Gets a ForeignAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=414
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=108
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,ca
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignAppEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,10 +60,10 @@ Response body:
 | Name | string | Name of foreign application |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the foreign application. |
-| UpdatedBy |  | The person that last updated this foreign application. |
+| CreatedBy | Associate | The person that created the foreign application. |
+| UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -72,7 +72,7 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,29 +82,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 652,
-  "Name": "Smith, Miller and Kertzmann",
-  "CreatedDate": "2009-02-27T02:49:44.5454229+01:00",
-  "UpdatedDate": "2004-07-29T02:49:44.5454229+02:00",
+  "ForeignAppId": 190,
+  "Name": "Upton Inc and Sons",
+  "CreatedDate": "2021-01-22T17:37:18.095244+01:00",
+  "UpdatedDate": "2009-10-05T17:37:18.095244+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 253,
-      "Name": "McKenzie-Lehner",
-      "CreatedDate": "2012-08-09T02:49:44.5454229+02:00",
-      "UpdatedDate": "2004-05-03T02:49:44.5454229+02:00",
-      "AssociateFullName": "Houston Lue Bayer DVM",
-      "CreatedBy": "rerum",
-      "UpdatedBy": "ducimus",
-      "DeviceIdentifier": "consequatur",
-      "ForeignAppId": 512,
+      "ForeignDeviceId": 919,
+      "Name": "Strosin-Strosin",
+      "CreatedDate": "2009-11-23T17:37:18.0962431+01:00",
+      "UpdatedDate": "2017-02-06T17:37:18.0962431+01:00",
+      "AssociateFullName": "Tevin Kreiger",
+      "CreatedBy": "totam",
+      "UpdatedBy": "autem",
+      "DeviceIdentifier": "incidunt",
+      "ForeignAppId": 462,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldLength": 559
         }
       }
     }
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
+      "FieldType": "System.Int32",
       "FieldLength": 865
     }
   }

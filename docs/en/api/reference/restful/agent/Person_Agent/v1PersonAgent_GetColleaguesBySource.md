@@ -44,17 +44,16 @@ POST /api/v1/Agents/Person/GetColleaguesBySource?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SourceType, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SourceType | string |  |
-| Count | int32 |  |
+| SourceType | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -106,7 +105,7 @@ Response body: array
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -115,12 +114,12 @@ Response body: array
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 169
+  "Count": 192
 }
 ```
 
@@ -132,52 +131,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "hic",
-    "PersonId": 847,
-    "Mrmrs": "voluptate",
-    "Firstname": "Fae",
-    "Lastname": "Spinka",
-    "MiddleName": "Fritsch-Cummings",
-    "Title": "officiis",
-    "Description": "Object-based global capability",
-    "Email": "allene@davislehner.com",
-    "FullName": "Garfield Smith",
-    "DirectPhone": "076-596-2276",
-    "FormalName": "Breitenberg, Breitenberg and Upton",
-    "CountryId": 875,
-    "ContactId": 40,
-    "ContactName": "Bauch Inc and Sons",
-    "Retired": 329,
-    "Rank": 84,
-    "ActiveInterests": 343,
-    "ContactDepartment": "",
-    "ContactCountryId": 812,
-    "ContactOrgNr": "1435489",
-    "FaxPhone": "1-935-165-2107",
-    "MobilePhone": "696.257.9755",
-    "ContactPhone": "1-961-966-2528",
-    "AssociateName": "O'Kon, Kunze and Keebler",
-    "AssociateId": 118,
-    "UsePersonAddress": false,
-    "ContactFax": "iure",
-    "Kanafname": "et",
-    "Kanalname": "fuga",
-    "Post1": "vel",
-    "Post2": "sunt",
-    "Post3": "minima",
-    "EmailName": "loyce@bernhard.uk",
-    "ContactFullName": "Prof. Sofia Ebert III",
-    "ActiveErpLinks": 698,
-    "TicketPriorityId": 862,
-    "SupportLanguageId": 935,
-    "SupportAssociateId": 964,
+    "Position": "laudantium",
+    "PersonId": 407,
+    "Mrmrs": "eos",
+    "Firstname": "Samantha",
+    "Lastname": "Kessler",
+    "MiddleName": "Rau, Terry and Schmeler",
+    "Title": "voluptates",
+    "Description": "Networked background portal",
+    "Email": "betty@koepp.ca",
+    "FullName": "Monica McCullough",
+    "DirectPhone": "028-817-4032 x3192",
+    "FormalName": "Wilderman LLC",
+    "CountryId": 29,
+    "ContactId": 843,
+    "ContactName": "Cummerata-Bartoletti",
+    "Retired": 350,
+    "Rank": 775,
+    "ActiveInterests": 878,
+    "ContactDepartment": "synthesize plug-and-play vortals",
+    "ContactCountryId": 69,
+    "ContactOrgNr": "1335979",
+    "FaxPhone": "525-202-5683 x0794",
+    "MobilePhone": "860-594-1187",
+    "ContactPhone": "947.876.3132 x80127",
+    "AssociateName": "Wisoky, Roob and Ziemann",
+    "AssociateId": 381,
+    "UsePersonAddress": true,
+    "ContactFax": "et",
+    "Kanafname": "placeat",
+    "Kanalname": "id",
+    "Post1": "qui",
+    "Post2": "reprehenderit",
+    "Post3": "quas",
+    "EmailName": "veda.lebsack@quitzon.ca",
+    "ContactFullName": "Rosanna Langworth",
+    "ActiveErpLinks": 997,
+    "TicketPriorityId": 107,
+    "SupportLanguageId": 949,
+    "SupportAssociateId": 993,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 721
       }
     }
   }

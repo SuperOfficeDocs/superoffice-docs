@@ -25,7 +25,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=519
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=387
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,ca
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ReportLabelLayoutEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body:
 | BottomMargin | int32 | Bottom margin in twips |
 | CountColumns | int32 | Number og columns |
 | CountRows | int32 | Number of rows |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body:
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,24 +87,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 946,
-  "Name": "Moen, Wisoky and Medhurst",
-  "Description": "Cloned context-sensitive neural-net",
+  "ReportLabelLayoutId": 689,
+  "Name": "Kutch, Funk and Bogisich",
+  "Description": "Polarised 4th generation data-warehouse",
   "Orientation": "Landscape",
-  "PaperWidth": 918,
-  "PaperHeight": 252,
-  "LeftMargin": 6,
-  "RightMargin": 688,
-  "TopMargin": 165,
-  "BottomMargin": 898,
-  "CountColumns": 241,
-  "CountRows": 237,
+  "PaperWidth": 650,
+  "PaperHeight": 980,
+  "LeftMargin": 56,
+  "RightMargin": 325,
+  "TopMargin": 854,
+  "BottomMargin": 402,
+  "CountColumns": 251,
+  "CountRows": 531,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldLength": 591
     }
   }
 }

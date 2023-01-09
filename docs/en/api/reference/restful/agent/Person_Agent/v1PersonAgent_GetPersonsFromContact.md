@@ -42,16 +42,15 @@ POST /api/v1/Agents/Person/GetPersonsFromContact?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
+| ContactId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,7 +102,7 @@ Response body: array
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -112,11 +111,11 @@ Response body: array
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 887
+  "ContactId": 139
 }
 ```
 
@@ -128,52 +127,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "incidunt",
-    "PersonId": 1002,
-    "Mrmrs": "id",
-    "Firstname": "Josiah",
-    "Lastname": "Abshire",
-    "MiddleName": "Greenfelder, Swift and Ratke",
-    "Title": "sunt",
-    "Description": "Enterprise-wide background groupware",
-    "Email": "clementina_mann@feil.info",
-    "FullName": "Dr. Tess Carmel Rolfson",
-    "DirectPhone": "(199)596-8131 x201",
-    "FormalName": "Jenkins Group",
-    "CountryId": 378,
-    "ContactId": 838,
-    "ContactName": "Schmitt-Quigley",
+    "Position": "nesciunt",
+    "PersonId": 441,
+    "Mrmrs": "rerum",
+    "Firstname": "Bud",
+    "Lastname": "Stracke",
+    "MiddleName": "Olson-Rohan",
+    "Title": "ut",
+    "Description": "Cloned maximized matrix",
+    "Email": "heloise.huel@croninschultz.com",
+    "FullName": "Verda Bins",
+    "DirectPhone": "(971)581-8223",
+    "FormalName": "Walter, DuBuque and Stokes",
+    "CountryId": 401,
+    "ContactId": 743,
+    "ContactName": "Gorczany-Ziemann",
     "Retired": 383,
-    "Rank": 539,
-    "ActiveInterests": 883,
+    "Rank": 570,
+    "ActiveInterests": 535,
     "ContactDepartment": "",
-    "ContactCountryId": 225,
-    "ContactOrgNr": "1373440",
-    "FaxPhone": "641-054-4443 x299",
-    "MobilePhone": "972.566.4496 x3161",
-    "ContactPhone": "377.611.5723 x4974",
-    "AssociateName": "Schuppe, Gleason and Beier",
-    "AssociateId": 1001,
+    "ContactCountryId": 261,
+    "ContactOrgNr": "1228975",
+    "FaxPhone": "(687)520-9123 x89890",
+    "MobilePhone": "1-272-439-3639 x94207",
+    "ContactPhone": "1-266-733-9196 x992",
+    "AssociateName": "Murphy, Mertz and Goldner",
+    "AssociateId": 747,
     "UsePersonAddress": false,
-    "ContactFax": "et",
-    "Kanafname": "repudiandae",
-    "Kanalname": "dicta",
-    "Post1": "natus",
-    "Post2": "dolorem",
-    "Post3": "accusamus",
-    "EmailName": "daryl_lindgren@cartwright.co.uk",
-    "ContactFullName": "Ms. Josiah Reichert V",
-    "ActiveErpLinks": 667,
-    "TicketPriorityId": 129,
-    "SupportLanguageId": 50,
-    "SupportAssociateId": 187,
+    "ContactFax": "quo",
+    "Kanafname": "asperiores",
+    "Kanalname": "occaecati",
+    "Post1": "alias",
+    "Post2": "ut",
+    "Post3": "et",
+    "EmailName": "dewayne@paucek.uk",
+    "ContactFullName": "Arjun White",
+    "ActiveErpLinks": 320,
+    "TicketPriorityId": 774,
+    "SupportLanguageId": 197,
+    "SupportAssociateId": 548,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldLength": 470
       }
     }
   }

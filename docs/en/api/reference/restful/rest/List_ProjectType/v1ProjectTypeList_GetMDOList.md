@@ -25,8 +25,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=ullam
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=rerum
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/ProjectType/MDOItems?query=ullam
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Satterfield, Collier and Jerde",
-    "ToolTip": "Aliquid debitis eaque et.",
+    "Id": 22,
+    "Name": "Mayer-Bahringer",
+    "ToolTip": "Ipsam aut quis.",
     "Deleted": true,
-    "Rank": 581,
-    "Type": "in",
+    "Rank": 200,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 257,
-        "Name": "Heathcote, Bosco and Heathcote",
-        "ToolTip": "Esse maiores possimus quibusdam enim.",
-        "Deleted": false,
-        "Rank": 752,
-        "Type": "aut",
+        "Id": 710,
+        "Name": "Hermiston LLC",
+        "ToolTip": "Ut quidem ullam non voluptatem.",
+        "Deleted": true,
+        "Rank": 276,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellendus",
-        "ColorBlock": 618,
-        "ExtraInfo": "qui",
-        "StyleHint": "sed",
-        "FullName": "Prof. Colt Ola Predovic",
+        "IconHint": "et",
+        "ColorBlock": 67,
+        "ExtraInfo": "modi",
+        "StyleHint": "rem",
+        "FullName": "Mrs. Adeline Dario Sipes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 855
+            "FieldLength": 913
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 835,
-    "ExtraInfo": "iure",
-    "StyleHint": "nulla",
-    "FullName": "Gerda Little",
+    "IconHint": "occaecati",
+    "ColorBlock": 559,
+    "ExtraInfo": "occaecati",
+    "StyleHint": "rerum",
+    "FullName": "Prof. Claudine Brennon Mraz II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 14
+        "FieldType": "System.Int32",
+        "FieldLength": 860
       }
     }
   }

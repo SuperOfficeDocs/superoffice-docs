@@ -42,19 +42,18 @@ POST /api/v1/Agents/Quote/RejectQuoteVersion?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId, RejectedByText, RejectedByAssociateId, RejectionText 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
-| RejectedByText | string |  |
-| RejectedByAssociateId | int32 |  |
-| RejectionText | string |  |
+| QuoteVersionId | Integer |  |
+| RejectedByText | String |  |
+| RejectedByAssociateId | Integer |  |
+| RejectionText | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,13 +61,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ApproveRejectResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PluginResponse |  | The response from the operation. |
+| PluginResponse | PluginResponse | The response from the operation. |
 | CreatedAppointmentId | int32 | Id of the created follow up. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,14 +76,14 @@ Response body:
 POST /api/v1/Agents/Quote/RejectQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 640,
-  "RejectedByText": "maxime",
-  "RejectedByAssociateId": 683,
-  "RejectionText": "id"
+  "QuoteVersionId": 474,
+  "RejectedByText": "quas",
+  "RejectedByAssociateId": 420,
+  "RejectionText": "delectus"
 }
 ```
 
@@ -96,13 +95,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 370,
+  "CreatedAppointmentId": 747,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldLength": 460
     }
   }
 }

@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 192,
-    "Name": "Howell, Herzog and Kub",
-    "ToolTip": "Et excepturi necessitatibus aut aut numquam sit id.",
+    "Id": 804,
+    "Name": "Gerhold Group",
+    "ToolTip": "Provident esse et sapiente consequuntur.",
     "Deleted": true,
-    "Rank": 501,
-    "Type": "vel",
-    "ColorBlock": 204,
-    "IconHint": "et",
+    "Rank": 71,
+    "Type": "laborum",
+    "ColorBlock": 504,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2005-08-21T02:49:52.3597004+02:00",
+    "LastChanged": "1999-07-31T17:37:40.1605004+02:00",
     "ChildItems": [
       {
-        "Id": 804,
-        "Name": "Runolfsson LLC",
-        "ToolTip": "Ipsum suscipit.",
+        "Id": 823,
+        "Name": "Kuvalis Inc and Sons",
+        "ToolTip": "Enim dolor esse numquam.",
         "Deleted": false,
-        "Rank": 982,
-        "Type": "recusandae",
-        "ColorBlock": 568,
-        "IconHint": "ea",
+        "Rank": 326,
+        "Type": "fugit",
+        "ColorBlock": 301,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2004-04-24T02:49:52.3597004+02:00",
+        "LastChanged": "2018-04-09T17:37:40.1605004+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Miss Ross Efrain Heathcote PhD",
+        "ExtraInfo": "nobis",
+        "StyleHint": "suscipit",
+        "Hidden": true,
+        "FullName": "Wilber Marks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 369
+            "FieldType": "System.String",
+            "FieldLength": 902
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "nisi",
+    "ExtraInfo": "neque",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Jonathan Mante",
+    "FullName": "Mrs. Rahsaan Max Ernser IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 213
+        "FieldType": "System.Int32",
+        "FieldLength": 916
       }
     }
   }

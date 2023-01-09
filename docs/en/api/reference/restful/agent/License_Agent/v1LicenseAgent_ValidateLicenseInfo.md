@@ -42,16 +42,15 @@ POST /api/v1/Agents/License/ValidateLicenseInfo?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 LicenseInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| LicenseInfo |  |  |
+| LicenseInfo | TableRight |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,13 +58,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: LicenseResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Succeeded | bool |  |
 | Reason | string |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +73,7 @@ Response body:
 POST /api/v1/Agents/License/ValidateLicenseInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,7 +95,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldLength": 33
     }
   }
 }

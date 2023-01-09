@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ContactRelationEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,15 +56,15 @@ Response body:
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,33 +81,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 16 Nov 2011 02:49:50 G11T
+Last-Modified: Sun, 20 Oct 1996 17:37:38 G10T
 
 {
-  "SourceContactId": 469,
-  "SourcePersonId": 36,
-  "DestinationContactId": 192,
-  "DestinationPersonId": 789,
-  "RelationId": 12,
-  "Comment": "est",
-  "RelationDefinitionId": 904,
-  "Reversed": 42,
-  "UpdatedDate": "2011-11-16T02:49:50.8390391+01:00",
-  "CreatedDate": "2021-12-25T02:49:50.8390391+01:00",
+  "SourceContactId": 37,
+  "SourcePersonId": 745,
+  "DestinationContactId": 371,
+  "DestinationPersonId": 419,
+  "RelationId": 713,
+  "Comment": "laboriosam",
+  "RelationDefinitionId": 482,
+  "Reversed": 396,
+  "UpdatedDate": "1996-10-20T17:37:38.46686+02:00",
+  "CreatedDate": "2018-07-01T17:37:38.46686+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hessel, Hansen and Green",
-  "SourcePersonName": "Pacocha, Wunsch and Schroeder",
-  "DestinationContactName": "Kunde LLC",
-  "DestinationPersonName": "Steuber Group",
-  "ActiveText": "blanditiis",
-  "PassiveText": "facere",
+  "SourceContactName": "Anderson-Emmerich",
+  "SourcePersonName": "Bartoletti Inc and Sons",
+  "DestinationContactName": "Schaden-Sauer",
+  "DestinationPersonName": "Hane-Beahan",
+  "ActiveText": "necessitatibus",
+  "PassiveText": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldType": "System.String",
+      "FieldLength": 430
     }
   }
 }

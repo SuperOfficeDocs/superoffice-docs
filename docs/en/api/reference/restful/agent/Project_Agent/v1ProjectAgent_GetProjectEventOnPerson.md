@@ -42,17 +42,16 @@ POST /api/v1/Agents/Project/GetProjectEventOnPerson?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId, PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
-| PersonId | int32 |  |
+| ProjectId | Integer |  |
+| PersonId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectEvent
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,7 +85,7 @@ Response body:
 | SignOnTriggersAssign | bool | If true, the sign on task should be created as an Assigned task, triggering the invitation dialog |
 | SignOnPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
 | SignOffPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -99,8 +98,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 67,
-  "PersonId": 573
+  "ProjectId": 857,
+  "PersonId": 416
 }
 ```
 
@@ -111,34 +110,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Amina Thiel",
-  "Description": "Multi-tiered dynamic protocol",
-  "ProjectId": 302,
-  "EventName": "Runolfsson, Hudson and Murazik",
-  "AssociateId": 2,
+  "AssociateFullName": "Jairo Bernier",
+  "Description": "Inverse actuating support",
+  "ProjectId": 465,
+  "EventName": "Kohler, Flatley and Feil",
+  "AssociateId": 147,
   "IsSignedOn": true,
-  "SignOffConfirmationText": "iste",
-  "SignOffText": "sint",
-  "SignOnConfirmationText": "fugiat",
-  "SignOnText": "eius",
-  "EventDate": "2014-10-05T02:49:44.952838+02:00",
+  "SignOffConfirmationText": "repudiandae",
+  "SignOffText": "sed",
+  "SignOnConfirmationText": "quaerat",
+  "SignOnText": "accusantium",
+  "EventDate": "2021-07-23T17:37:18.6452448+02:00",
   "Enabled": false,
-  "SignOff": true,
-  "SignOffTaskEnable": true,
+  "SignOff": false,
+  "SignOffTaskEnable": false,
   "SignOnTaskEnable": false,
   "SignOn": false,
-  "SignOffTaskId": 658,
-  "SignOnTaskId": 180,
+  "SignOffTaskId": 772,
+  "SignOnTaskId": 213,
   "SignOffTriggersAssign": false,
-  "SignOnTriggersAssign": false,
-  "SignOnPersonId": 542,
-  "SignOffPersonId": 758,
+  "SignOnTriggersAssign": true,
+  "SignOnPersonId": 288,
+  "SignOffPersonId": 380,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 399
     }
   }
 }

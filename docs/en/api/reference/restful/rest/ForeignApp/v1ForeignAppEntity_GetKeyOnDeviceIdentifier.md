@@ -43,7 +43,7 @@ A table name and record ID can also be specified.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -51,7 +51,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +63,7 @@ Response body:
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 20 Jul 2009 02:49:50 G7T
+Last-Modified: Thu, 23 Aug 2001 17:37:38 G8T
 
 {
-  "Key": "et",
-  "Value": "excepturi",
-  "RecordId": 335,
-  "CreatedDate": "2018-04-01T02:49:50.9952888+02:00",
-  "UpdatedDate": "2009-07-20T02:49:50.9952888+02:00",
-  "UpdatedBy": "natus",
-  "CreatedBy": "iusto",
-  "TableName": "Herzog-Champlin",
+  "Key": "velit",
+  "Value": "reiciendis",
+  "RecordId": 298,
+  "CreatedDate": "2018-03-16T17:37:38.8198595+01:00",
+  "UpdatedDate": "2001-08-23T17:37:38.8198595+02:00",
+  "UpdatedBy": "id",
+  "CreatedBy": "optio",
+  "TableName": "Lueilwitz Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 896
     }
   }
 }

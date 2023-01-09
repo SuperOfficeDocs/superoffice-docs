@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaleStakeholder
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body:
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body:
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hoeger Group",
-  "Comment": "natus",
-  "StakeholderRoleId": 829,
-  "CountryId": 681,
-  "PersonId": 502,
-  "EmailDescription": "davonte@johns.us",
-  "EmailId": 772,
-  "EmailAddress": "daphne@larson.uk",
-  "PhoneId": 550,
-  "ContactName": "Kovacek, Hirthe and Schulist",
-  "ContactId": 535,
-  "SaleId": 596,
-  "Mrmrs": "totam",
-  "Firstname": "Ismael",
-  "MiddleName": "Towne, Kub and Rogahn",
-  "Lastname": "Wiegand",
-  "SaleStakeholderId": 210,
-  "Rank": 182,
-  "Phone": "713-160-5430 x940",
+  "StakeholderRoleName": "Jewess, Satterfield and Fay",
+  "Comment": "similique",
+  "StakeholderRoleId": 511,
+  "CountryId": 888,
+  "PersonId": 596,
+  "EmailDescription": "roel.mertz@veum.name",
+  "EmailId": 567,
+  "EmailAddress": "georgianna@gulgowskisauer.biz",
+  "PhoneId": 915,
+  "ContactName": "Rau Group",
+  "ContactId": 793,
+  "SaleId": 27,
+  "Mrmrs": "voluptas",
+  "Firstname": "Samanta",
+  "MiddleName": "Dibbert LLC",
+  "Lastname": "Herman",
+  "SaleStakeholderId": 336,
+  "Rank": 833,
+  "Phone": "(429)897-9465 x0381",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 237
     }
   }
 }

@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailConnectionInfoExtended
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +56,7 @@ Response body:
 | Password | string | Password for the username |
 | UseSSL | bool | Use a secure connection with the server |
 | Folder | string | Optional folder to set as current after logging in |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,19 +75,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 290,
-  "ServerName": "Walter, Collier and Jast",
-  "Protocol": "quisquam",
-  "UserName": "Swaniawski-Yost",
-  "Password": "sed",
-  "UseSSL": true,
-  "Folder": "in",
+  "Port": 560,
+  "ServerName": "Cummerata-Smith",
+  "Protocol": "tempora",
+  "UserName": "Baumbach, Auer and Kreiger",
+  "Password": "omnis",
+  "UseSSL": false,
+  "Folder": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 230
+      "FieldType": "System.Int32",
+      "FieldLength": 415
     }
   }
 }

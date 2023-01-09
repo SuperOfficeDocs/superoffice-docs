@@ -44,21 +44,20 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| IncludeProjectDocuments | bool |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| DocumentTemplateIds | array |  |
+| PersonId | Integer |  |
+| IncludeProjectDocuments | Boolean |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| DocumentTemplateIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,7 +89,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -99,18 +98,18 @@ Response body: array
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 916,
+  "PersonId": 716,
   "IncludeProjectDocuments": true,
-  "StartTime": "2017-02-25T02:49:44.0910111+01:00",
-  "EndTime": "2008-04-04T02:49:44.0910111+02:00",
-  "Count": 91,
+  "StartTime": "2011-08-27T17:37:17.4372425+02:00",
+  "EndTime": "2009-08-19T17:37:17.4372425+02:00",
+  "Count": 333,
   "DocumentTemplateIds": [
-    5,
-    593
+    444,
+    977
   ]
 }
 ```
@@ -123,32 +122,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 796,
-    "Attention": "sunt",
-    "Header": "facere",
-    "Name": "Stoltenberg-Kerluke",
-    "OurRef": "hic",
-    "YourRef": "veniam",
-    "Description": "Operative composite service-desk",
-    "DocumentTemplate": "voluptas",
-    "IsPublished": false,
-    "PersonId": 677,
-    "PersonFullName": "Norberto Davis",
-    "AssociateFullName": "Alfonso Lynch",
-    "ContactId": 946,
-    "ContactName": "Schoen Inc and Sons",
-    "ProjectId": 783,
-    "ProjectName": "Davis Group",
-    "AssociateId": 984,
-    "Snum": 283,
-    "SaleId": 482,
-    "SaleName": "Pagac, Will and Runolfsdottir",
+    "DocumentId": 146,
+    "Attention": "rerum",
+    "Header": "est",
+    "Name": "Willms-Runolfsson",
+    "OurRef": "et",
+    "YourRef": "hic",
+    "Description": "Multi-layered encompassing migration",
+    "DocumentTemplate": "fuga",
+    "IsPublished": true,
+    "PersonId": 770,
+    "PersonFullName": "Mrs. Vicky Niko Bechtelar",
+    "AssociateFullName": "Laura Harvey III",
+    "ContactId": 170,
+    "ContactName": "Herman, Smitham and Veum",
+    "ProjectId": 966,
+    "ProjectName": "Parisian, Raynor and Mayert",
+    "AssociateId": 28,
+    "Snum": 118,
+    "SaleId": 270,
+    "SaleName": "Fay LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 937
       }
     }
   }

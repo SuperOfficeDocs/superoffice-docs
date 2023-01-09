@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,14 +73,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Activities?$select=name,department,category/id
 GET /api/v1/Person/{id}/Activities?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Activities?$orderBy=name asc
-GET /api/v1/Person/{id}/Activities?$entities=quae
-GET /api/v1/Person/{id}/Activities?$top=78
-GET /api/v1/Person/{id}/Activities?$skip=41
+GET /api/v1/Person/{id}/Activities?$entities=ut
+GET /api/v1/Person/{id}/Activities?$top=54
+GET /api/v1/Person/{id}/Activities?$skip=802
 GET /api/v1/Person/{id}/Activities?$mode=Full
 GET /api/v1/Person/{id}/Activities?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Activities?$context=repellat
+GET /api/v1/Person/{id}/Activities?$context=exercitationem
 GET /api/v1/Person/{id}/Activities?$format=JSON
-GET /api/v1/Person/{id}/Activities?$jsonSafe=False
+GET /api/v1/Person/{id}/Activities?$jsonSafe=True
 GET /api/v1/Person/{id}/Activities?$output=Display
 ```
 
@@ -100,7 +99,7 @@ GET /api/v1/Person/{id}/Activities?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Person/{id}/Activities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "modi",
+  "odata.nextLink": "officiis",
   "value": [
     {
-      "PrimaryKey": 3106,
-      "EntityName": "person",
-      "personId": 3106,
-      "fullName": "Mr. Ashton Narciso Hamill"
+      "PrimaryKey": 9429,
+      "EntityName": "sale",
+      "saleId": 9429,
+      "contactId": 8814,
+      "name": "Pfannerstill, Frami and Huel"
     },
     {
-      "PrimaryKey": 9940,
-      "EntityName": "person",
-      "personId": 9940,
-      "fullName": "Elenor Pouros"
+      "PrimaryKey": 7313,
+      "EntityName": "sale",
+      "saleId": 7313,
+      "contactId": 5977,
+      "name": "Daugherty-Osinski"
     }
   ]
 }

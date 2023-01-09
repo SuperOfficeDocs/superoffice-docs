@@ -48,7 +48,7 @@ GET /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 DashTileDefinition found.
 
@@ -57,7 +57,7 @@ DashTileDefinition found.
 | 200 | DashTileDefinition found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: DashTileDefinitionWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +80,7 @@ Response body:
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -90,7 +90,7 @@ Response body:
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,36 +100,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 409,
-  "Name": "Hackett, Daugherty and Prosacco",
-  "Description": "Visionary systematic analyzer",
-  "DefaultHeight": 240,
-  "DefaultWidth": 535,
+  "DashboardTileDefinitionId": 817,
+  "Name": "Sawayn-Ortiz",
+  "Description": "Optional transitional attitude",
+  "DefaultHeight": 918,
+  "DefaultWidth": 231,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Prohaska, Kunde and O'Connell",
-  "SelectionId": 887,
+  "EntityName": "DuBuque, Green and Hodkiewicz",
+  "SelectionId": 756,
   "CurrencyMode": "Base",
-  "CurrencyCode": "reiciendis",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "ut",
-  "SortBy": "eaque",
-  "LayoutConfig": "excepturi",
-  "SecondarySelectionId": 187,
-  "MeasureByField": "id",
+  "MeasureField": "perferendis",
+  "SortBy": "quibusdam",
+  "LayoutConfig": "molestias",
+  "SecondarySelectionId": 48,
+  "MeasureByField": "maxime",
   "Usage": "Dashboard",
-  "ProviderName": "Little-O'Connell",
+  "ProviderName": "Ullrich, Beer and Kulas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 322
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

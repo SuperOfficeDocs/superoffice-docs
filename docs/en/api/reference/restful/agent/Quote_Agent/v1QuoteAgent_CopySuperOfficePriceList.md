@@ -42,21 +42,20 @@ POST /api/v1/Agents/Quote/CopySuperOfficePriceList?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 OriginalPriceListId, NewName, ValidFrom, ValidTo, NewCurrencyId, ConvertCurrency 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OriginalPriceListId | int32 |  |
-| NewName | string |  |
-| ValidFrom | date-time |  |
-| ValidTo | date-time |  |
-| NewCurrencyId | int32 |  |
-| ConvertCurrency | bool |  |
+| OriginalPriceListId | Integer |  |
+| NewName | String |  |
+| ValidFrom | String |  |
+| ValidTo | String |  |
+| NewCurrencyId | Integer |  |
+| ConvertCurrency | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PriceList
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body:
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,15 +86,15 @@ Response body:
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 644,
-  "NewName": "Von-Bergstrom",
-  "ValidFrom": "2019-08-27T02:49:45.0153392+02:00",
-  "ValidTo": "2013-09-16T02:49:45.0153392+02:00",
-  "NewCurrencyId": 318,
+  "OriginalPriceListId": 84,
+  "NewName": "Schumm, Sauer and Kris",
+  "ValidFrom": "2001-02-19T17:37:18.7172411+01:00",
+  "ValidTo": "2013-06-21T17:37:18.7172411+02:00",
+  "NewCurrencyId": 688,
   "ConvertCurrency": true
 }
 ```
@@ -107,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 48,
-  "ERPPriceListKey": "officia",
-  "QuoteConnectionId": 893,
-  "Name": "Ryan, Hammes and Howe",
-  "Description": "Vision-oriented grid-enabled alliance",
-  "Currency": "odio",
-  "CurrencyName": "Weimann, Reinger and Weber",
-  "ValidFrom": "2020-10-14T02:49:45.0153392+02:00",
-  "ValidTo": "2009-11-09T02:49:45.0153392+01:00",
-  "IsActive": true,
+  "PriceListId": 3,
+  "ERPPriceListKey": "eaque",
+  "QuoteConnectionId": 757,
+  "Name": "Bashirian Group",
+  "Description": "Universal multimedia artificial intelligence",
+  "Currency": "quasi",
+  "CurrencyName": "Ziemann-Runolfsdottir",
+  "ValidFrom": "2015-02-10T17:37:18.7172411+01:00",
+  "ValidTo": "1999-12-06T17:37:18.7172411+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   }
 }

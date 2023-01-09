@@ -44,24 +44,23 @@ POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MergeDocumentId, ContactId, PersonId, ProjectId, SelectionId, AppointmentId, DocumentId, SaleId, CustomTags 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MergeDocumentId | int32 |  |
-| ContactId | int32 |  |
-| PersonId | int32 |  |
-| ProjectId | int32 |  |
-| SelectionId | int32 |  |
-| AppointmentId | int32 |  |
-| DocumentId | int32 |  |
-| SaleId | int32 |  |
-| CustomTags | object |  |
+| MergeDocumentId | Integer |  |
+| ContactId | Integer |  |
+| PersonId | Integer |  |
+| ProjectId | Integer |  |
+| SelectionId | Integer |  |
+| AppointmentId | Integer |  |
+| DocumentId | Integer |  |
+| SaleId | Integer |  |
+| CustomTags | PersonEntity |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -78,21 +77,21 @@ Response body: byte
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MergeDocumentId": 606,
-  "ContactId": 804,
-  "PersonId": 915,
-  "ProjectId": 64,
-  "SelectionId": 974,
-  "AppointmentId": 898,
-  "DocumentId": 570,
-  "SaleId": 518,
+  "MergeDocumentId": 592,
+  "ContactId": 84,
+  "PersonId": 24,
+  "ProjectId": 700,
+  "SelectionId": 891,
+  "AppointmentId": 383,
+  "DocumentId": 375,
+  "SaleId": 296,
   "CustomTags": {
-    "CustomTags1": "cum",
-    "CustomTags2": "omnis"
+    "CustomTags1": "aliquam",
+    "CustomTags2": "iure"
   }
 }
 ```

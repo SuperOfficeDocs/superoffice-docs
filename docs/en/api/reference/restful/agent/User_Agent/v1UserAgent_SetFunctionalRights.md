@@ -43,17 +43,16 @@ POST /api/v1/Agents/User/SetFunctionalRights?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 RoleId, FunctionalRightIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RoleId | int32 |  |
-| FunctionalRightIds | array |  |
+| RoleId | Integer |  |
+| FunctionalRightIds | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -61,7 +60,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -70,14 +69,14 @@ Response body:
 POST /api/v1/Agents/User/SetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 288,
+  "RoleId": 41,
   "FunctionalRightIds": [
-    195,
-    489
+    179,
+    422
   ]
 }
 ```

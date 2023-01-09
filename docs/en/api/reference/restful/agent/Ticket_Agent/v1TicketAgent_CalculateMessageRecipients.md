@@ -42,18 +42,17 @@ POST /api/v1/Agents/Ticket/CalculateMessageRecipients?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TicketId, ActionType, MessageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketId | int32 |  |
-| ActionType | string |  |
-| MessageId | int32 |  |
+| TicketId | Integer |  |
+| ActionType | String |  |
+| MessageId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,13 +74,13 @@ Response body: array
 POST /api/v1/Agents/Ticket/CalculateMessageRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 831,
+  "TicketId": 193,
   "ActionType": "Forward",
-  "MessageId": 498
+  "MessageId": 845
 }
 ```
 
@@ -94,13 +93,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Type": "BCC",
-    "Value": "dolores",
-    "DisplayValue": "aperiam"
+    "Value": "incidunt",
+    "DisplayValue": "earum"
   },
   {
     "Type": "BCC",
-    "Value": "dolores",
-    "DisplayValue": "aperiam"
+    "Value": "incidunt",
+    "DisplayValue": "earum"
   }
 ]
 ```

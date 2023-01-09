@@ -46,25 +46,24 @@ PUT /api/v1/SystemEvent/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The SystemEventEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SystemEventId | int32 | Primary key |
-| Scope | string | 1 = system-wide, 2= database, 3 = group, 4 = user |
-| Eta | date-time | Estimated Time of Arrival, i.e., when will this event finish? |
-| Eventkey | string | Event key, predefined in code |
-| Eventmess | string | Message to be shown, entered by administrator |
-| ExtraInfo | int32 | Extra information (area id for prototype rebuild, etc) |
-| Owner | int32 | 0, 0, group_id, assoc id (see over) |
-| UpdatedCount | int32 | Number of updates made to this record |
-| Registered | date-time | Registered when  in UTC. |
-| ActivatedBy |  | The associate that first created the SystemEvent. |
+| SystemEventId | Integer | Primary key |
+| Scope | String | 1 = system-wide, 2= database, 3 = group, 4 = user |
+| Eta | String | Estimated Time of Arrival, i.e., when will this event finish? |
+| Eventkey | String | Event key, predefined in code |
+| Eventmess | String | Message to be shown, entered by administrator |
+| ExtraInfo | Integer | Extra information (area id for prototype rebuild, etc) |
+| Owner | Integer | 0, 0, group_id, assoc id (see over) |
+| UpdatedCount | Integer | Number of updates made to this record |
+| Registered | String | Registered when  in UTC. |
+| ActivatedBy | Associate | The associate that first created the SystemEvent. |
 
-
-## Response: 
+## Response:
 
 SystemEventEntity updated.
 
@@ -73,7 +72,7 @@ SystemEventEntity updated.
 | 200 | SystemEventEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: SystemEventEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,8 +85,8 @@ Response body:
 | Owner | int32 | 0, 0, group_id, assoc id (see over) |
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
-| ActivatedBy |  | The associate that first created the SystemEvent. |
-| TableRight |  |  |
+| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -101,15 +100,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 288,
+  "SystemEventId": 601,
   "Scope": "Database",
-  "Eta": "2003-02-27T02:49:51.551935+01:00",
-  "Eventkey": "aliquid",
-  "Eventmess": "omnis",
-  "ExtraInfo": 624,
-  "Owner": 716,
-  "UpdatedCount": 575,
-  "Registered": "2021-01-21T02:49:51.551935+01:00",
+  "Eta": "2008-12-30T17:37:39.2343038+01:00",
+  "Eventkey": "quisquam",
+  "Eventmess": "eum",
+  "ExtraInfo": 568,
+  "Owner": 10,
+  "UpdatedCount": 174,
+  "Registered": "2020-01-03T17:37:39.2343038+01:00",
   "ActivatedBy": null
 }
 ```
@@ -121,22 +120,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 869,
+  "SystemEventId": 996,
   "Scope": "Database",
-  "Eta": "1996-01-08T02:49:51.551935+01:00",
-  "Eventkey": "nesciunt",
-  "Eventmess": "non",
-  "ExtraInfo": 634,
-  "Owner": 854,
-  "UpdatedCount": 884,
-  "Registered": "2022-01-02T02:49:51.551935+01:00",
+  "Eta": "1997-05-02T17:37:39.2353034+02:00",
+  "Eventkey": "eligendi",
+  "Eventmess": "mollitia",
+  "ExtraInfo": 445,
+  "Owner": 993,
+  "UpdatedCount": 254,
+  "Registered": "2004-03-07T17:37:39.2353034+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldType": "System.String",
+      "FieldLength": 770
     }
   },
   "_Links": {

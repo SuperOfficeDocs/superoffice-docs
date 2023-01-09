@@ -38,20 +38,19 @@ POST /api/v1/Agents/Selection/GenerateFollowUps?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, AppointmentEntity, AssociateId, SaveOnContactOwner, UniqueContact 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| AppointmentEntity |  | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
-| AssociateId | int32 |  |
-| SaveOnContactOwner | bool |  |
-| UniqueContact | bool |  |
+| SelectionId | Integer |  |
+| AppointmentEntity | AppointmentEntity | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
+| AssociateId | Integer |  |
+| SaveOnContactOwner | Boolean |  |
+| UniqueContact | Boolean |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -59,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -72,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 297,
+  "SelectionId": 16,
   "AppointmentEntity": null,
-  "AssociateId": 718,
-  "SaveOnContactOwner": false,
+  "AssociateId": 351,
+  "SaveOnContactOwner": true,
   "UniqueContact": true
 }
 ```

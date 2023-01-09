@@ -12,8 +12,6 @@ POST /api/v1/Agents/Replication/SaveSatellite
 Updates the existing Satellite or creates a new Satellite if the id parameter is empty
 
 
-
-
 ## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
 
@@ -36,23 +34,22 @@ Updates the existing Satellite or creates a new Satellite if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The Satellite to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SatelliteId | int32 | Primary key |
-| Created | date-time | Registered when  in UTC. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| Contact |  | Carrier object for Contact. Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
-| Area |  | Carrier object for Area. Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>. |
-| LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
+| SatelliteId | Integer | Primary key |
+| Created | String | Registered when  in UTC. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| Contact | Contact | Carrier object for Contact. Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
+| Area | Area | Carrier object for Area. Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>. |
+| LicenseOwners | Array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,19 +57,19 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Satellite
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SatelliteId | int32 | Primary key |
 | Created | date-time | Registered when  in UTC. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| Contact |  | Carrier object for Contact. Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
-| Area |  | Carrier object for Area. Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| Contact | Contact | Carrier object for Contact. Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
+| Area | Area | Carrier object for Area. Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>. |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,21 +78,21 @@ Response body:
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 615,
-  "Created": "2019-11-27T02:49:45.0622144+01:00",
+  "SatelliteId": 326,
+  "Created": "2004-03-20T17:37:18.7882424+01:00",
   "CreatedBy": null,
-  "Updated": "2012-03-04T02:49:45.0622144+01:00",
+  "Updated": "2017-10-18T17:37:18.7882424+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Fahey-Rogahn",
-      "Description": "Team-oriented methodical initiative",
+      "Name": "Russel, Lynch and Mills",
+      "Description": "Triple-buffered content-based toolset",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -106,8 +103,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Fahey-Rogahn",
-      "Description": "Team-oriented methodical initiative",
+      "Name": "Russel, Lynch and Mills",
+      "Description": "Triple-buffered content-based toolset",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -128,17 +125,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 97,
-  "Created": "1995-10-13T02:49:45.0778395+02:00",
+  "SatelliteId": 284,
+  "Created": "2021-10-10T17:37:18.7932746+02:00",
   "CreatedBy": null,
-  "Updated": "2004-06-07T02:49:45.0778395+02:00",
+  "Updated": "2019-12-25T17:37:18.7942718+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Koelpin LLC",
-      "Description": "Down-sized 5th generation functionalities",
+      "Name": "Koepp-Rutherford",
+      "Description": "Automated context-sensitive process improvement",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -152,13 +149,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 954
+          "FieldLength": 252
         }
       }
     },
     {
-      "Name": "Koelpin LLC",
-      "Description": "Down-sized 5th generation functionalities",
+      "Name": "Koepp-Rutherford",
+      "Description": "Automated context-sensitive process improvement",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -172,7 +169,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 954
+          "FieldLength": 252
         }
       }
     }
@@ -182,7 +179,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 128
     }
   }
 }

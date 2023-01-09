@@ -38,17 +38,16 @@ POST /api/v1/Agents/Project/AddProjectMembers?$select=name,department,category/i
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectEntityId, ProjectMembers 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectEntityId | int32 |  |
-| ProjectMembers | array |  |
+| ProjectEntityId | Integer |  |
+| ProjectMembers | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,34 +64,34 @@ Response body:
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 352,
+  "ProjectEntityId": 922,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 151,
-      "ContactId": 71,
-      "ProjectId": 158,
-      "ContactName": "Russel-Kutch",
+      "ProjectmemberId": 574,
+      "ContactId": 421,
+      "ProjectId": 108,
+      "ContactName": "Davis Inc and Sons",
       "ContactDepartment": "",
-      "ProjectName": "Vandervort, Kemmer and Tremblay",
-      "EmailId": 7,
-      "EmailAddress": "elza.fritsch@crona.ca",
-      "CountryId": 944,
-      "Firstname": "Reina",
-      "MiddleName": "Blanda-Ruecker",
-      "Lastname": "Daniel",
-      "PersonId": 446,
-      "Mrmrs": "aperiam",
-      "ProjectMemberTypeName": "Ward-Herman",
-      "Phone": "(240)510-3251",
-      "PhoneId": 622,
-      "ProjectMemberTypeId": 915,
-      "EmailAddressName": "alexie.kuhn@tromp.ca",
-      "Comment": "pariatur",
-      "FullName": "Lisandro Hyatt"
+      "ProjectName": "Hackett-Larkin",
+      "EmailId": 839,
+      "EmailAddress": "eloise.hartmann@toy.ca",
+      "CountryId": 600,
+      "Firstname": "Elsie",
+      "MiddleName": "Schmitt, Bauch and Labadie",
+      "Lastname": "Mante",
+      "PersonId": 761,
+      "Mrmrs": "vitae",
+      "ProjectMemberTypeName": "Kuhic-Ondricka",
+      "Phone": "900-541-7614",
+      "PhoneId": 523,
+      "ProjectMemberTypeId": 149,
+      "EmailAddressName": "jordyn@torp.com",
+      "Comment": "accusantium",
+      "FullName": "Mrs. Alana Moen II"
     }
   ]
 }

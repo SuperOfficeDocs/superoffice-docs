@@ -42,17 +42,16 @@ POST /api/v1/Agents/Audience/GetConfigParameterValue?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 LayoutName, ParameterName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| LayoutName | string |  |
-| ParameterName | string |  |
+| LayoutName | String |  |
+| ParameterName | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -73,8 +72,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Blanda, Larkin and Herzog",
-  "ParameterName": "Pagac-McKenzie"
+  "LayoutName": "Funk-O'Kon",
+  "ParameterName": "Hackett Inc and Sons"
 }
 ```
 
@@ -84,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quia"
+"dolorem"
 ```

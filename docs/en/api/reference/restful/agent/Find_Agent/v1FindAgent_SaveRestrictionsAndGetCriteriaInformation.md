@@ -44,20 +44,19 @@ POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, Restrictions, StaticColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| Restrictions | array |  |
-| StaticColumns | array |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| Restrictions | Array |  |
+| StaticColumns | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CriteriaInformation
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body:
 | CriteriaArchiveColumns | array | Array of ColumnInfo column specifications |
 | CriteriaArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows. |
 | RestrictionGroups | array | Array of restrictiongroups, including the default first group of restrictions |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,20 +85,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestias",
-  "ProviderName": "Kris-Romaguera",
-  "StorageKey": "ex",
+  "StorageType": "eius",
+  "ProviderName": "Nolan-Shields",
+  "StorageKey": "corrupti",
   "Restrictions": [
     {
-      "Name": "Tromp, Gusikowski and Heathcote",
-      "Operator": "blanditiis",
+      "Name": "Lueilwitz, Blanda and Murazik",
+      "Operator": "nulla",
       "Values": [
-        "aperiam",
-        "esse"
+        "sint",
+        "facilis"
       ],
       "DisplayValues": [
-        "ut",
-        "esse"
+        "amet",
+        "ut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,14 +106,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 266,
+      "InterParenthesis": 388,
       "InterOperator": "And",
-      "UniqueHash": 517
+      "UniqueHash": 165
     }
   ],
   "StaticColumns": [
-    "itaque",
-    "et"
+    "est",
+    "earum"
   ]
 }
 ```
@@ -128,81 +127,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "McLaughlin, Wiza and Terry",
-      "Operator": "id",
+      "Name": "Skiles LLC",
+      "Operator": "maiores",
       "Values": [
-        "aut",
-        "repudiandae"
+        "ex",
+        "quod"
       ],
       "DisplayValues": [
-        "et",
-        "consectetur"
+        "nam",
+        "expedita"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 438,
+      "InterParenthesis": 353,
       "InterOperator": "And",
-      "UniqueHash": 911
+      "UniqueHash": 488
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Cummerata, Herzog and Lynch",
-      "DisplayTooltip": "sequi",
-      "DisplayType": "mollitia",
+      "DisplayName": "Schowalter Inc and Sons",
+      "DisplayTooltip": "et",
+      "DisplayType": "placeat",
       "CanOrderBy": false,
-      "Name": "Luettgen-Davis",
-      "CanRestrictBy": true,
-      "RestrictionType": "corrupti",
-      "RestrictionListName": "Bernhard-Greenfelder",
+      "Name": "Gibson LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "maxime",
+      "RestrictionListName": "Barrows-Ferry",
       "IsVisible": false,
-      "ExtraInfo": "quo",
-      "Width": "consequatur",
-      "IconHint": "non",
-      "HeadingIconHint": "eum"
+      "ExtraInfo": "qui",
+      "Width": "consectetur",
+      "IconHint": "magni",
+      "HeadingIconHint": "perferendis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Anderson Inc and Sons",
-      "PrimaryKey": 176,
+      "EntityName": "McClure-Pfannerstill",
+      "PrimaryKey": 412,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "atque",
-          "TooltipHint": "voluptas",
-          "LinkHint": "neque"
+          "DisplayValue": "esse",
+          "TooltipHint": "itaque",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "commodi",
-      "StyleHint": "dolores",
+      "LinkHint": "omnis",
+      "StyleHint": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 70
+          "FieldType": "System.String",
+          "FieldLength": 463
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Green-Schoen",
-      "Description": "Open-source optimal application",
-      "Rank": 130,
+      "Name": "Kshlerin, Goodwin and Greenfelder",
+      "Description": "Synergistic systemic encoding",
+      "Rank": 661,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Green-Schoen",
-      "Description": "Open-source optimal application",
-      "Rank": 130,
+      "Name": "Kshlerin, Goodwin and Greenfelder",
+      "Description": "Synergistic systemic encoding",
+      "Rank": 661,
       "Restrictions": [
         {},
         {}
@@ -213,8 +212,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldType": "System.Int32",
+      "FieldLength": 427
     }
   }
 }

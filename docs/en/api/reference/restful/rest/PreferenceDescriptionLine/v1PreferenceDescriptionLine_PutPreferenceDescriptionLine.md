@@ -46,21 +46,20 @@ PUT /api/v1/PreferenceDescriptionLine/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The PreferenceDescriptionLine to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PrefDescLineId | int32 | Primary key |
-| PrefDescId | int32 | Preference description (parent) |
-| PrefValue | string | Possible value |
-| PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
-| Description | string | Description of preference value, multi-language parsed |
-| IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
+| PrefDescLineId | Integer | Primary key |
+| PrefDescId | Integer | Preference description (parent) |
+| PrefValue | String | Possible value |
+| PrefShowValue | String | Descriptive value, multilang-parsed, to put in list |
+| Description | String | Description of preference value, multi-language parsed |
+| IsBuiltin | Boolean | 1 = This row populated and maintained by SuperOffice |
 
-
-## Response: 
+## Response:
 
 PreferenceDescriptionLine updated.
 
@@ -69,7 +68,7 @@ PreferenceDescriptionLine updated.
 | 200 | PreferenceDescriptionLine updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: PreferenceDescriptionLineWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body:
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -89,16 +88,16 @@ Response body:
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 958,
-  "PrefDescId": 889,
-  "PrefValue": "qui",
-  "PrefShowValue": "ab",
-  "Description": "Organized multi-tasking adapter",
-  "IsBuiltin": true
+  "PrefDescLineId": 221,
+  "PrefDescId": 135,
+  "PrefValue": "voluptatem",
+  "PrefShowValue": "quo",
+  "Description": "Pre-emptive fresh-thinking internet solution",
+  "IsBuiltin": false
 }
 ```
 
@@ -109,18 +108,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 955,
-  "PrefDescId": 616,
-  "PrefValue": "placeat",
-  "PrefShowValue": "recusandae",
-  "Description": "Intuitive non-volatile website",
+  "PrefDescLineId": 515,
+  "PrefDescId": 150,
+  "PrefValue": "dolore",
+  "PrefShowValue": "minus",
+  "Description": "Face to face impactful concept",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 126
+      "FieldLength": 429
     }
   },
   "_Links": {

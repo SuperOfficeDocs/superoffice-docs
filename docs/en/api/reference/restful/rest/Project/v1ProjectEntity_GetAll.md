@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project?$select=name,department,category/id
 GET /api/v1/Project?$filter=name begins 'S'
 GET /api/v1/Project?$orderBy=name asc
-GET /api/v1/Project?$entities=harum
-GET /api/v1/Project?$top=69
-GET /api/v1/Project?$skip=304
+GET /api/v1/Project?$entities=quia
+GET /api/v1/Project?$top=822
+GET /api/v1/Project?$skip=493
 GET /api/v1/Project?$mode=Full
 GET /api/v1/Project?$options=GrandTotal=true
-GET /api/v1/Project?$context=earum
+GET /api/v1/Project?$context=voluptas
 GET /api/v1/Project?$format=JSON
 GET /api/v1/Project?$jsonSafe=False
 GET /api/v1/Project?$output=Display
@@ -96,7 +95,7 @@ GET /api/v1/Project?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body:
 GET /api/v1/Project
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quibusdam",
+  "odata.nextLink": "odio",
   "value": [
     {
-      "PrimaryKey": 9511,
-      "EntityName": "person",
-      "personId": 9511,
-      "fullName": "Thea Feest"
+      "PrimaryKey": 6479,
+      "EntityName": "sale",
+      "saleId": 6479,
+      "contactId": 4787,
+      "name": "Cole-Dickens"
     },
     {
-      "PrimaryKey": 1489,
-      "EntityName": "person",
-      "personId": 1489,
-      "fullName": "Dr. Carleton Alexandre Jakubowski III"
+      "PrimaryKey": 8975,
+      "EntityName": "sale",
+      "saleId": 8975,
+      "contactId": 1504,
+      "name": "Murray-Gerlach"
     }
   ]
 }

@@ -42,7 +42,7 @@ POST /api/v1/Agents/PhoneList/GetPreferences?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PhoneListPreferences
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +62,7 @@ Response body:
 | SearchModeDepartment | string | The Department search type, e.g. BeginsWith, Contains, Endswith, Matches |
 | SearchModeFirstname | string | The firstname search type, e.g. BeginsWith, Contains, Endswith, Matches |
 | SearchModeLastname | string | The lastname search type, e.g. BeginsWith, Contains, Endswith, Matches |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +71,7 @@ Response body:
 POST /api/v1/Agents/PhoneList/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,9 +81,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchCompany": true,
-  "SearchFirstname": false,
-  "SearchLastname": false,
+  "SearchCompany": false,
+  "SearchFirstname": true,
+  "SearchLastname": true,
   "SearchDepartment": false,
   "SearchModeCompany": "BeginsWith",
   "SearchModeDepartment": "BeginsWith",
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 107
     }
   }
 }

@@ -44,7 +44,7 @@ GET /api/v1/List/TicketPriority/Items?includeDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +84,7 @@ Response body: array
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,7 +93,7 @@ Response body: array
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,60 +104,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 265,
-    "Name": "Thompson, O'Conner and Champlin",
+    "TicketPriorityId": 479,
+    "Name": "Becker, Howe and Heaney",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 240,
+    "SortOrder": 691,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 628,
-    "MonStart": "2006-06-22T02:49:52.5784525+02:00",
-    "MonStop": "2018-10-17T02:49:52.5784525+02:00",
-    "TueStart": "2002-07-17T02:49:52.5784525+02:00",
-    "TueStop": "2001-04-22T02:49:52.5784525+02:00",
-    "WedStart": "2020-07-21T02:49:52.5784525+02:00",
-    "WedStop": "2002-11-26T02:49:52.5784525+01:00",
-    "ThuStart": "2011-04-02T02:49:52.5784525+02:00",
-    "ThuStop": "2017-03-18T02:49:52.5784525+01:00",
-    "FriStart": "2001-12-20T02:49:52.5784525+01:00",
-    "FriStop": "2010-04-17T02:49:52.5784525+02:00",
-    "SatStart": "2020-09-28T02:49:52.5784525+02:00",
-    "SatStop": "2006-06-15T02:49:52.5784525+02:00",
-    "SunStart": "2019-08-05T02:49:52.5784525+02:00",
-    "SunStop": "2010-02-23T02:49:52.5784525+01:00",
+    "Deadline": 913,
+    "MonStart": "2019-08-24T17:37:40.4145006+02:00",
+    "MonStop": "1996-09-30T17:37:40.4145006+02:00",
+    "TueStart": "2002-03-19T17:37:40.4145006+01:00",
+    "TueStop": "2006-07-31T17:37:40.4145006+02:00",
+    "WedStart": "2009-07-14T17:37:40.4145006+02:00",
+    "WedStop": "1996-11-27T17:37:40.4145006+01:00",
+    "ThuStart": "2004-12-31T17:37:40.4145006+01:00",
+    "ThuStop": "1996-10-01T17:37:40.4155002+02:00",
+    "FriStart": "2014-07-20T17:37:40.4155002+02:00",
+    "FriStop": "2021-08-11T17:37:40.4155002+02:00",
+    "SatStart": "2013-06-17T17:37:40.4155002+02:00",
+    "SatStop": "1996-12-10T17:37:40.4155002+01:00",
+    "SunStart": "2020-06-10T17:37:40.4155002+02:00",
+    "SunStop": "1998-04-06T17:37:40.4155002+02:00",
     "NonDates": [
-      "nulla",
-      "magnam"
+      "sed",
+      "ea"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 871,
-        "AlertLevel": 891,
-        "AlertTimeout": 56,
-        "Action": 544,
-        "DelegateTo": 805,
-        "ScriptId": 308,
-        "EmailTo": "kamille_bergstrom@schinner.name",
-        "SmsTo": "iusto",
-        "ReplyTemplateIdCustomer": 766,
-        "ReplyTemplateIdUser": 234,
-        "ReplyTemplateIdCatmast": 203,
-        "ReplyTemplateIdEmail": 775,
-        "RtiCustomerSms": 641,
-        "ReplyTemplateIdUserSms": 71,
-        "ReplyTemplateIdCatmastSms": 839,
-        "ReplyTemplateIdSms": 518,
+        "TicketAlertId": 271,
+        "AlertLevel": 713,
+        "AlertTimeout": 339,
+        "Action": 889,
+        "DelegateTo": 995,
+        "ScriptId": 568,
+        "EmailTo": "mathew@roobjones.ca",
+        "SmsTo": "ex",
+        "ReplyTemplateIdCustomer": 621,
+        "ReplyTemplateIdUser": 402,
+        "ReplyTemplateIdCatmast": 661,
+        "ReplyTemplateIdEmail": 445,
+        "RtiCustomerSms": 792,
+        "ReplyTemplateIdUserSms": 324,
+        "ReplyTemplateIdCatmastSms": 858,
+        "ReplyTemplateIdSms": 88,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 916
+            "FieldLength": 312
           }
         }
       }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 355
       }
     }
   }

@@ -38,17 +38,16 @@ POST /api/v1/Agents/Selection/CopySelectionMembers?$select=name,department,categ
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 FromSelectionId, ToSelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| FromSelectionId | int32 |  |
-| ToSelectionId | int32 |  |
+| FromSelectionId | Integer |  |
+| ToSelectionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,12 +64,12 @@ Response body:
 POST /api/v1/Agents/Selection/CopySelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromSelectionId": 627,
-  "ToSelectionId": 271
+  "FromSelectionId": 609,
+  "ToSelectionId": 548
 }
 ```
 

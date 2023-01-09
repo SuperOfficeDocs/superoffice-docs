@@ -47,16 +47,15 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStre
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
+| DocumentId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body:
 | Bcc | array | Bcc recipient of e-mail |
 | Subject | string | Subject of the e-mail |
 | HTMLBody | string | Body formatted in HTML |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | Sent | date-time | When was the e-mail sent |
 | Size | int32 | Total size of the e-mail |
 | Priority | string | Importance of the e-mail |
@@ -81,7 +80,7 @@ Response body:
 | MessageID | string | Unique id of e-mails |
 | PlainBody | string | Body formatted in plain text |
 | IsSent | bool | Is this a sent e-mail (not new) |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
 | ServerId | int32 | Unique id for the e-mail on the server |
 | Attachments | array |  |
 | CustomHeaderList | array | Non standard e-mail headers |
@@ -89,12 +88,12 @@ Response body:
 | EmailItemId | int32 | Primary key |
 | AccountId | int32 | Account Id |
 | ReceivedAt | date-time | Received date time |
-| InReplyTo |  | The envelope of the email this email is a reply to, if it exists |
+| InReplyTo | EMailEnvelope | The envelope of the email this email is a reply to, if it exists |
 | RepliedAt | date-time | When this email was replied at |
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -107,7 +106,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 544
+  "DocumentId": 433
 }
 ```
 
@@ -120,155 +119,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 347,
-      "ContactName": "Daniel Inc and Sons",
-      "PersonId": 531,
-      "PersonName": "McCullough, Mayer and Blanda",
-      "AssociateId": 641,
-      "Address": "eum",
-      "EmailId": 689,
+      "ContactId": 82,
+      "ContactName": "Cruickshank, Brekke and Lubowitz",
+      "PersonId": 216,
+      "PersonName": "Wiza, Anderson and Bauch",
+      "AssociateId": 875,
+      "Address": "sunt",
+      "EmailId": 161,
       "DuplicatePersonIds": [
-        639,
-        224
+        440,
+        770
       ],
-      "Name": "DuBuque, Mitchell and Mayert",
+      "Name": "Pollich LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 137
+          "FieldLength": 488
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 335,
-      "ContactName": "Gutkowski-Ruecker",
-      "PersonId": 232,
-      "PersonName": "Schowalter, Parker and Feest",
-      "AssociateId": 402,
-      "Address": "modi",
-      "EmailId": 667,
+      "ContactId": 597,
+      "ContactName": "Green Group",
+      "PersonId": 142,
+      "PersonName": "Predovic LLC",
+      "AssociateId": 393,
+      "Address": "alias",
+      "EmailId": 931,
       "DuplicatePersonIds": [
-        776,
-        559
+        853,
+        516
       ],
-      "Name": "Sawayn, Greenholt and Morissette",
+      "Name": "Feeney LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 487
+          "FieldType": "System.String",
+          "FieldLength": 544
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 303,
-      "ContactName": "King LLC",
-      "PersonId": 923,
-      "PersonName": "Von LLC",
-      "AssociateId": 67,
-      "Address": "maxime",
-      "EmailId": 499,
+      "ContactId": 948,
+      "ContactName": "Beier-Schinner",
+      "PersonId": 72,
+      "PersonName": "Hartmann Group",
+      "AssociateId": 515,
+      "Address": "rerum",
+      "EmailId": 259,
       "DuplicatePersonIds": [
-        190,
-        402
+        296,
+        951
       ],
-      "Name": "Quigley, Gottlieb and Mitchell",
+      "Name": "Kessler, Homenick and Lubowitz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldLength": 524
         }
       }
     }
   ],
-  "Subject": "quasi",
-  "HTMLBody": "est",
+  "Subject": "corrupti",
+  "HTMLBody": "itaque",
   "From": null,
-  "Sent": "2019-12-13T02:49:44.3878864+01:00",
-  "Size": 818,
+  "Sent": "2019-02-18T17:37:17.8892443+01:00",
+  "Size": 171,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "enim",
-  "PlainBody": "consequuntur",
+  "MessageID": "eveniet",
+  "PlainBody": "pariatur",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 347,
+  "ServerId": 938,
   "Attachments": [
     {
-      "Description": "Optional hybrid architecture",
-      "Filename": "maxime",
-      "Size": 307,
-      "Type": "est",
-      "Encoding": "non",
-      "Id": "recusandae",
-      "Disposition": "ullam",
+      "Description": "Synergized maximized local area network",
+      "Filename": "non",
+      "Size": 85,
+      "Type": "aliquam",
+      "Encoding": "voluptatem",
+      "Id": "qui",
+      "Disposition": "veniam",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 732
+          "FieldType": "System.String",
+          "FieldLength": 902
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Turcotte LLC",
+      "Name": "Gusikowski Group",
       "Values": [
-        "deleniti",
-        "velit"
+        "ea",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 416
+          "FieldType": "System.String",
+          "FieldLength": 893
         }
       }
     },
     {
-      "Name": "Turcotte LLC",
+      "Name": "Gusikowski Group",
       "Values": [
-        "deleniti",
-        "velit"
+        "ea",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 416
+          "FieldType": "System.String",
+          "FieldLength": 893
         }
       }
     }
   ],
-  "FolderName": "Nienow-Prohaska",
-  "EmailItemId": 321,
-  "AccountId": 157,
-  "ReceivedAt": "2000-12-03T02:49:44.3878864+01:00",
+  "FolderName": "Ruecker, Connelly and Weber",
+  "EmailItemId": 773,
+  "AccountId": 25,
+  "ReceivedAt": "2005-10-11T17:37:17.8892443+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-03-04T02:49:44.3878864+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2016-01-13T17:37:17.8892443+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldType": "System.Int32",
+      "FieldLength": 52
     }
   }
 }

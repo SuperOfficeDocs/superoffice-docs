@@ -42,16 +42,15 @@ POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TaskName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TaskName | string |  |
+| TaskName | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +83,7 @@ Response body: array
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Douglas, Harvey and Dietrich"
+  "TaskName": "Krajcik, Gulgowski and Hilpert"
 }
 ```
 
@@ -109,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 241,
-    "Name": "Upton, Stokes and Bashirian",
-    "AssociateId": 27,
-    "DetailsTable": 871,
-    "DetailsRecord": 957,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 220,
+    "Name": "Ryan, Schumm and Bergnaum",
+    "AssociateId": 197,
+    "DetailsTable": 683,
+    "DetailsRecord": 995,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "autem",
-      "ParameterObject2": "et"
+      "ParameterObject1": "dolorem",
+      "ParameterObject2": "ex"
     },
-    "LastStarted": "2009-07-25T02:49:43.7004017+02:00",
-    "Created": "2008-10-14T02:49:43.7004017+02:00",
-    "StartCount": 788,
-    "DatabaseSerialNumber": "711986",
-    "Context": "voluptatem",
-    "Result": "consequatur",
+    "LastStarted": "2012-03-12T17:37:16.9072418+01:00",
+    "Created": "1996-03-25T17:37:16.9072418+01:00",
+    "StartCount": 479,
+    "DatabaseSerialNumber": "1070732",
+    "Context": "dolores",
+    "Result": "doloremque",
     "State": "All",
-    "Description": "Secured coherent support",
-    "Response": "pariatur",
-    "Request": "omnis",
-    "ProgressDescription": "Organic eco-centric framework",
-    "ProgressPercent": 240,
-    "FileName": "Baumbach Inc and Sons",
+    "Description": "Persistent mobile instruction set",
+    "Response": "et",
+    "Request": "ea",
+    "ProgressDescription": "Synchronised value-added time-frame",
+    "ProgressPercent": 136,
+    "FileName": "Hoeger-Klein",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 611
       }
     }
   }

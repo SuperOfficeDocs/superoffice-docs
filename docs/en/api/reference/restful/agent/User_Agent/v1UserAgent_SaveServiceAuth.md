@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/SaveServiceAuth
 Updates the existing ServiceAuth or creates a new ServiceAuth if the id parameter is empty
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -36,21 +34,20 @@ Updates the existing ServiceAuth or creates a new ServiceAuth if the id paramete
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ServiceAuth to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ServiceAuthId | int32 | The primary key |
-| Server | string | The mail server |
-| Port | int32 | The server port |
-| AuthType | string | The type of authentication, plain-text, OAuth... |
-| Username | string | The username |
-| Password | string | The (decrypted) password or token |
+| ServiceAuthId | Integer | The primary key |
+| Server | String | The mail server |
+| Port | Integer | The server port |
+| AuthType | String | The type of authentication, plain-text, OAuth... |
+| Username | String | The username |
+| Password | String | The (decrypted) password or token |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -58,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ServiceAuth
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +65,7 @@ Response body:
 | AuthType | string | The type of authentication, plain-text, OAuth... |
 | Username | string | The username |
 | Password | string | The (decrypted) password or token |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 111,
-  "Server": "architecto",
-  "Port": 923,
-  "AuthType": "voluptatem",
-  "Username": "illo",
-  "Password": "error"
+  "ServiceAuthId": 984,
+  "Server": "reiciendis",
+  "Port": 824,
+  "AuthType": "voluptate",
+  "Username": "quisquam",
+  "Password": "ut"
 }
 ```
 
@@ -97,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 50,
-  "Server": "reiciendis",
-  "Port": 386,
-  "AuthType": "autem",
-  "Username": "tenetur",
-  "Password": "pariatur",
+  "ServiceAuthId": 955,
+  "Server": "qui",
+  "Port": 646,
+  "AuthType": "non",
+  "Username": "consequatur",
+  "Password": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldLength": 268
     }
   }
 }

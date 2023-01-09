@@ -38,7 +38,7 @@ If the session is not being transferred, nothing happens.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,14 +46,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ChatSessionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 | The primary key (auto-incremented) |
 | TopicId | int32 | The reference to the associated chat topic. |
-| User |  | User agent handling this session |
-| Person |  | Customer person in this session - could be empty if we don't know exactly. |
+| User | Associate | User agent handling this session |
+| Person | Person | Customer person in this session - could be empty if we don't know exactly. |
 | CustomerAlias | string | The alias for the customer. |
 | CustomerHost | string | The hostname or IP address for the customer. |
 | CustomerName | string | The name of customer, if provided |
@@ -74,14 +74,14 @@ Response body:
 | AlertLevel | int32 | The alert level for this chat session. |
 | Rank | int32 | Lowest possible unique number for active sessions for user. User for color index. Starting at 1. |
 | Flags | string | Various flags for the chat session |
-| Contact |  | Contact this session is connected to - could be empty if we don't know exactly. |
-| Project |  | Project the session is connectedto - could be empty if we don't know exactly. |
-| Sale |  | Sale the session is connected to - could be empty if we don't know exactly. |
-| Ticket |  | Ticket the session is connected to - could be empty if we don't know exactly. |
-| TransferTo |  | User agent that has a pending transfer of the chat session |
+| Contact | Contact | Contact this session is connected to - could be empty if we don't know exactly. |
+| Project | Project | Project the session is connectedto - could be empty if we don't know exactly. |
+| Sale | Sale | Sale the session is connected to - could be empty if we don't know exactly. |
+| Ticket | Ticket | Ticket the session is connected to - could be empty if we don't know exactly. |
+| TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,7 +90,7 @@ Response body:
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,43 +100,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 581,
-  "TopicId": 500,
+  "ChatSessionId": 176,
+  "TopicId": 412,
   "User": null,
   "Person": null,
-  "CustomerAlias": "porro",
-  "CustomerHost": "ullam",
-  "CustomerName": "Kshlerin-Kunde",
-  "CustomerEmail": "juliet@mayertbradtke.info",
-  "CustomerPhone": "(358)230-9057 x6380",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Wilderman-Wintheiser",
+  "CustomerAlias": "aut",
+  "CustomerHost": "est",
+  "CustomerName": "Blanda-Cruickshank",
+  "CustomerEmail": "carlotta@volkman.co.uk",
+  "CustomerPhone": "(899)660-0857 x14215",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Hintz, Quitzon and Marks",
   "Status": "Closed",
-  "FirstMessage": "voluptas",
-  "LastMessage": "non",
-  "WhenRequested": "2018-12-26T02:49:50.651535+01:00",
-  "WhenStarted": "2005-12-05T02:49:50.651535+01:00",
-  "WhenEnded": "2003-07-02T02:49:50.651535+02:00",
-  "WhenIdle": "1999-05-29T02:49:50.651535+02:00",
-  "WhenFetched": "2005-11-21T02:49:50.651535+01:00",
-  "SessionKey": "iste",
-  "InitialQueuePos": 94,
-  "AlertLevel": 876,
-  "Rank": 757,
+  "FirstMessage": "reiciendis",
+  "LastMessage": "adipisci",
+  "WhenRequested": "2002-10-27T17:37:38.2428467+01:00",
+  "WhenStarted": "2020-04-15T17:37:38.2428467+02:00",
+  "WhenEnded": "2002-05-12T17:37:38.2428467+02:00",
+  "WhenIdle": "2014-07-14T17:37:38.2428467+02:00",
+  "WhenFetched": "2001-02-03T17:37:38.2428467+01:00",
+  "SessionKey": "facere",
+  "InitialQueuePos": 596,
+  "AlertLevel": 583,
+  "Rank": 204,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 1002,
+  "ChatbotIsActive": true,
+  "Rating": 491,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 854
+      "FieldType": "System.Int32",
+      "FieldLength": 766
     }
   }
 }

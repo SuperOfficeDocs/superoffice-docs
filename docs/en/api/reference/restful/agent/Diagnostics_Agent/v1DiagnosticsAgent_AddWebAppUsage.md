@@ -38,16 +38,15 @@ POST /api/v1/Agents/Diagnostics/AddWebAppUsage?$select=name,department,category/
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 WebAppUsages 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| WebAppUsages | array |  |
+| WebAppUsages | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -55,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -70,13 +69,13 @@ Content-Type: application/json; charset=utf-8
 {
   "WebAppUsages": [
     {
-      "WebAppUsageId": 34,
-      "AssocId": 254,
-      "Timestamp": "2009-05-06T02:49:44.0753838+02:00",
-      "ViewState": "culpa",
-      "AggregateCount": 217,
-      "AggregateBin": 944,
-      "Version": 37
+      "WebAppUsageId": 588,
+      "AssocId": 751,
+      "Timestamp": "2005-08-12T17:37:17.4102405+02:00",
+      "ViewState": "itaque",
+      "AggregateCount": 133,
+      "AggregateBin": 769,
+      "Version": 181
     }
   ]
 }

@@ -47,16 +47,15 @@ POST /api/v1/Agents/User/CreateDefaultUserFromUserType?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UserType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UserType | string |  |
+| UserType | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: User
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,10 +72,10 @@ Response body:
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
 | OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -93,7 +92,7 @@ Response body:
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,7 +101,7 @@ Response body:
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 6,
-  "Name": "Dare Inc and Sons",
-  "Rank": 120,
-  "Tooltip": "et",
+  "AssociateId": 492,
+  "Name": "Cartwright-Cartwright",
+  "Rank": 619,
+  "Tooltip": "quisquam",
   "LicenseOwners": [
     {
-      "Name": "Auer-Bauch",
-      "Description": "Organic client-server application",
+      "Name": "Gerhold LLC",
+      "Description": "Realigned executive neural-net",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 261
         }
       }
     },
     {
-      "Name": "Auer-Bauch",
-      "Description": "Organic client-server application",
+      "Name": "Gerhold LLC",
+      "Description": "Realigned executive neural-net",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 261
         }
       }
     }
@@ -167,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "unde",
-      "Tooltip": "et",
-      "Id": 663,
-      "Rank": 37,
-      "Deleted": true,
+      "Value": "velit",
+      "Tooltip": "fugit",
+      "Id": 453,
+      "Rank": 190,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldType": "System.String",
+          "FieldLength": 456
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2018-10-24T02:49:45.7028474+02:00",
-  "Lastlogout": "2009-05-30T02:49:45.7028474+02:00",
-  "EjUserId": 512,
-  "RequestSignature": "aliquam",
+  "Lastlogin": "2022-07-05T17:37:19.6059784+02:00",
+  "Lastlogout": "2005-06-04T17:37:19.6059784+02:00",
+  "EjUserId": 536,
+  "RequestSignature": "quae",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "est",
-      "DisplayValue": "sed",
+      "Value": "nihil",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 771
+          "FieldLength": 393
         }
       }
     },
     {
       "Type": null,
-      "Value": "est",
-      "DisplayValue": "sed",
+      "Value": "nihil",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 771
+          "FieldLength": 393
         }
       }
     }
   ],
-  "UserName": "Roberts, Block and Dare",
+  "UserName": "Weber-O'Connell",
   "TicketCategories": [
     {
-      "Id": 655,
-      "Name": "Altenwerth, Tillman and Tillman",
-      "ToolTip": "Eligendi officia minus amet ducimus.",
+      "Id": 977,
+      "Name": "Nikolaus-Reinger",
+      "ToolTip": "Dignissimos tenetur eum voluptatibus quia aperiam accusantium.",
       "Deleted": true,
-      "Rank": 301,
-      "Type": "unde",
+      "Rank": 907,
+      "Type": "nostrum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "est",
-      "ColorBlock": 413,
-      "ExtraInfo": "harum",
-      "StyleHint": "in",
-      "FullName": "Rico Harvey",
+      "IconHint": "nisi",
+      "ColorBlock": 3,
+      "ExtraInfo": "molestias",
+      "StyleHint": "molestiae",
+      "FullName": "Ansel Karson Bartoletti Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 715
+          "FieldType": "System.Int32",
+          "FieldLength": 170
         }
       }
     }
   ],
-  "NickName": "Mayert, Kub and Jones",
+  "NickName": "Borer, White and Parisian",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "debitis",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "doloremque"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "error"
+    "CustomFields1": "enim",
+    "CustomFields2": "amet"
   },
   "PostSaveCommands": [
     {
-      "Name": "Cole, Kuvalis and Oberbrunner",
-      "DisplayName": "Runolfsdottir, Streich and Rodriguez",
-      "Description": "User-friendly transitional system engine",
-      "ToolTip": "Id impedit optio.",
+      "Name": "O'Hara-Cruickshank",
+      "DisplayName": "Cummings Group",
+      "Description": "Ameliorated value-added alliance",
+      "ToolTip": "Adipisci sint tempora error atque nulla.",
       "Actions": "Implicit",
-      "ActionData": "consequatur",
+      "ActionData": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 532
+          "FieldType": "System.Int32",
+          "FieldLength": 246
         }
       }
     }
@@ -280,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 118
+      "FieldLength": 545
     }
   }
 }

@@ -47,16 +47,15 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
+| DocumentId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body:
 | Bcc | array | Bcc recipient of e-mail |
 | Subject | string | Subject of the e-mail |
 | HTMLBody | string | Body formatted in HTML |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | Sent | date-time | When was the e-mail sent |
 | Size | int32 | Total size of the e-mail |
 | Priority | string | Importance of the e-mail |
@@ -81,7 +80,7 @@ Response body:
 | MessageID | string | Unique id of e-mails |
 | PlainBody | string | Body formatted in plain text |
 | IsSent | bool | Is this a sent e-mail (not new) |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
 | ServerId | int32 | Unique id for the e-mail on the server |
 | Attachments | array |  |
 | CustomHeaderList | array | Non standard e-mail headers |
@@ -89,12 +88,12 @@ Response body:
 | EmailItemId | int32 | Primary key |
 | AccountId | int32 | Account Id |
 | ReceivedAt | date-time | Received date time |
-| InReplyTo |  | The envelope of the email this email is a reply to, if it exists |
+| InReplyTo | EMailEnvelope | The envelope of the email this email is a reply to, if it exists |
 | RepliedAt | date-time | When this email was replied at |
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -103,11 +102,11 @@ Response body:
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 920
+  "DocumentId": 494
 }
 ```
 
@@ -120,146 +119,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 389,
-      "ContactName": "Labadie Group",
-      "PersonId": 389,
-      "PersonName": "Padberg, Ondricka and Hayes",
-      "AssociateId": 362,
-      "Address": "qui",
-      "EmailId": 882,
+      "ContactId": 451,
+      "ContactName": "Paucek, Koelpin and Dibbert",
+      "PersonId": 714,
+      "PersonName": "Wilderman, Donnelly and Heidenreich",
+      "AssociateId": 207,
+      "Address": "in",
+      "EmailId": 478,
       "DuplicatePersonIds": [
-        903,
-        887
+        814,
+        7
       ],
-      "Name": "Kuhn Group",
+      "Name": "Zulauf, Gleason and Considine",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 334
+          "FieldType": "System.String",
+          "FieldLength": 513
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 694,
-      "ContactName": "Durgan, Wisozk and Jacobs",
-      "PersonId": 987,
-      "PersonName": "Rippin LLC",
-      "AssociateId": 271,
-      "Address": "itaque",
-      "EmailId": 880,
+      "ContactId": 638,
+      "ContactName": "Koch-Ratke",
+      "PersonId": 699,
+      "PersonName": "Ortiz Group",
+      "AssociateId": 861,
+      "Address": "eos",
+      "EmailId": 396,
       "DuplicatePersonIds": [
-        936,
-        91
+        404,
+        438
       ],
-      "Name": "Shanahan Group",
+      "Name": "Howell-Bartell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 631
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 758,
-      "ContactName": "Reichert-Kuvalis",
-      "PersonId": 817,
-      "PersonName": "Hauck, Marquardt and McCullough",
-      "AssociateId": 881,
-      "Address": "natus",
-      "EmailId": 246,
+      "ContactId": 839,
+      "ContactName": "Schmeler-Kohler",
+      "PersonId": 217,
+      "PersonName": "Connelly Inc and Sons",
+      "AssociateId": 473,
+      "Address": "reprehenderit",
+      "EmailId": 923,
       "DuplicatePersonIds": [
-        815,
-        160
+        347,
+        596
       ],
-      "Name": "Doyle, Bogisich and Wintheiser",
+      "Name": "O'Connell-Gleason",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 185
+          "FieldLength": 110
         }
       }
     }
   ],
-  "Subject": "aut",
-  "HTMLBody": "aut",
+  "Subject": "dolores",
+  "HTMLBody": "expedita",
   "From": null,
-  "Sent": "2014-10-31T02:49:44.4504155+01:00",
-  "Size": 866,
+  "Sent": "2002-02-12T17:37:17.9652426+01:00",
+  "Size": 877,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sunt",
-  "PlainBody": "recusandae",
+  "MessageID": "pariatur",
+  "PlainBody": "rerum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 486,
+  "ServerId": 21,
   "Attachments": [
     {
-      "Description": "Upgradable directional functionalities",
-      "Filename": "dolores",
-      "Size": 773,
-      "Type": "rerum",
-      "Encoding": "quas",
-      "Id": "sunt",
-      "Disposition": "voluptas",
+      "Description": "Versatile executive throughput",
+      "Filename": "impedit",
+      "Size": 269,
+      "Type": "aut",
+      "Encoding": "dolores",
+      "Id": "ea",
+      "Disposition": "asperiores",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldLength": 143
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Haag-Bauch",
+      "Name": "Rodriguez Group",
       "Values": [
-        "illum",
-        "velit"
+        "impedit",
+        "officiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldLength": 735
         }
       }
     },
     {
-      "Name": "Haag-Bauch",
+      "Name": "Rodriguez Group",
       "Values": [
-        "illum",
-        "velit"
+        "impedit",
+        "officiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldLength": 735
         }
       }
     }
   ],
-  "FolderName": "Cartwright-Blanda",
-  "EmailItemId": 232,
-  "AccountId": 769,
-  "ReceivedAt": "2019-01-08T02:49:44.4504155+01:00",
+  "FolderName": "Smith-Deckow",
+  "EmailItemId": 206,
+  "AccountId": 610,
+  "ReceivedAt": "2013-03-02T17:37:17.9662435+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2010-06-26T02:49:44.4504155+02:00",
+  "RepliedAt": "2009-03-15T17:37:17.9662435+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,8 +266,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldType": "System.String",
+      "FieldLength": 810
     }
   }
 }

@@ -38,19 +38,18 @@ POST /api/v1/Agents/List/SetListItemsForHeading?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionId, HeadingId, ListItemIds, Enable 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionId | int32 |  |
-| HeadingId | int32 |  |
-| ListItemIds | array |  |
-| Enable | bool |  |
+| UdListDefinitionId | Integer |  |
+| HeadingId | Integer |  |
+| ListItemIds | Array |  |
+| Enable | Boolean |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -58,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -67,17 +66,17 @@ Response body:
 POST /api/v1/Agents/List/SetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 44,
-  "HeadingId": 993,
+  "UdListDefinitionId": 427,
+  "HeadingId": 155,
   "ListItemIds": [
-    206,
-    429
+    486,
+    930
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

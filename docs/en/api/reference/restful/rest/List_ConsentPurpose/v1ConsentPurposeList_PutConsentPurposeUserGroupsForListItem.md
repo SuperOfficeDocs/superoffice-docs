@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Quitzon, Treutel and Yost",
-    "ToolTip": "Corrupti qui et deserunt praesentium tempore vel.",
+    "Id": 70,
+    "Name": "Mann, Larkin and Howe",
+    "ToolTip": "Autem laboriosam.",
     "Deleted": false,
-    "Rank": 939,
-    "Type": "eaque",
-    "ColorBlock": 802,
-    "IconHint": "nulla",
+    "Rank": 50,
+    "Type": "eveniet",
+    "ColorBlock": 857,
+    "IconHint": "ratione",
     "Selected": false,
-    "LastChanged": "1998-11-04T02:49:51.9378192+01:00",
+    "LastChanged": "2020-09-29T17:37:39.8975059+02:00",
     "ChildItems": [
       {
-        "Id": 814,
-        "Name": "Bernier, Wolf and Ortiz",
-        "ToolTip": "Iste similique.",
-        "Deleted": true,
-        "Rank": 854,
-        "Type": "quo",
-        "ColorBlock": 59,
-        "IconHint": "adipisci",
-        "Selected": true,
-        "LastChanged": "1998-06-07T02:49:51.9378192+02:00",
+        "Id": 984,
+        "Name": "Gaylord-Osinski",
+        "ToolTip": "Voluptatem iure occaecati neque iure porro.",
+        "Deleted": false,
+        "Rank": 685,
+        "Type": "repellendus",
+        "ColorBlock": 549,
+        "IconHint": "ex",
+        "Selected": false,
+        "LastChanged": "2017-07-08T17:37:39.8975059+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "nobis",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Prof. Nasir Felicia Breitenberg"
+        "FullName": "Enoch Quigley III"
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "eaque",
+    "ExtraInfo": "possimus",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Mr. Krista Torp II"
+    "FullName": "Linda Sipes"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Grant-Gleason",
-    "ToolTip": "Quam at quisquam nihil rem beatae ratione.",
-    "Deleted": true,
-    "Rank": 547,
-    "Type": "adipisci",
-    "ColorBlock": 293,
-    "IconHint": "quia",
+    "Id": 482,
+    "Name": "McClure-Graham",
+    "ToolTip": "Dolor illum nihil eos voluptas adipisci non quisquam.",
+    "Deleted": false,
+    "Rank": 741,
+    "Type": "explicabo",
+    "ColorBlock": 450,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2018-10-19T02:49:51.9378192+02:00",
+    "LastChanged": "2010-11-24T17:37:39.8995055+01:00",
     "ChildItems": [
       {
-        "Id": 275,
-        "Name": "Ward LLC",
-        "ToolTip": "Harum quidem et ipsum alias facere.",
+        "Id": 18,
+        "Name": "Powlowski, Eichmann and Mills",
+        "ToolTip": "Soluta dolore culpa eos nihil.",
         "Deleted": false,
-        "Rank": 607,
-        "Type": "ipsa",
-        "ColorBlock": 566,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2011-02-24T02:49:51.9378192+01:00",
+        "Rank": 6,
+        "Type": "est",
+        "ColorBlock": 48,
+        "IconHint": "quae",
+        "Selected": false,
+        "LastChanged": "2009-04-06T17:37:39.8995055+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "veritatis",
-        "Hidden": true,
-        "FullName": "Ms. Albert Katelyn Willms",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Ms. Nya Pinkie Ryan PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldLength": 786
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "odit",
+    "ExtraInfo": "aut",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Miss Alysha Price V",
+    "FullName": "Thora Collier III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 709
       }
     }
   }

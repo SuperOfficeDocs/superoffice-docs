@@ -38,19 +38,18 @@ POST /api/v1/Agents/List/SetListItemsForHeadingFromListName?$select=name,departm
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionName, HeadingId, ListItemIds, Enable 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionName | string |  |
-| HeadingId | int32 |  |
-| ListItemIds | array |  |
-| Enable | bool |  |
+| UdListDefinitionName | String |  |
+| HeadingId | Integer |  |
+| ListItemIds | Array |  |
+| Enable | Boolean |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -58,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -71,13 +70,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bartoletti Group",
-  "HeadingId": 365,
+  "UdListDefinitionName": "Robel, Bins and Dickinson",
+  "HeadingId": 145,
   "ListItemIds": [
-    400,
-    625
+    416,
+    47
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

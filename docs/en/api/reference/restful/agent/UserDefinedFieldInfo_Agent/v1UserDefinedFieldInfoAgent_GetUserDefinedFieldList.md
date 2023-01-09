@@ -44,16 +44,15 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OwnerType | string |  |
+| OwnerType | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,7 +98,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -108,7 +107,7 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 170,
-    "ColumnId": 856,
-    "FieldDefault": "ex",
-    "FieldHeight": 344,
-    "FieldLabel": "quis",
-    "FieldLeft": 135,
-    "FieldTop": 758,
+    "UDefFieldId": 735,
+    "ColumnId": 191,
+    "FieldDefault": "delectus",
+    "FieldHeight": 676,
+    "FieldLabel": "ut",
+    "FieldLeft": 43,
+    "FieldTop": 229,
     "FieldType": "Checkbox",
-    "FieldWidth": 104,
-    "FormatMask": "voluptas",
+    "FieldWidth": 435,
+    "FormatMask": "ut",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 779,
-    "LabelLeft": 986,
-    "LabelTop": 547,
-    "LabelWidth": 863,
-    "LastVersionId": 769,
-    "ListTableId": 626,
-    "IsMandatory": false,
+    "LabelHeight": 8,
+    "LabelLeft": 867,
+    "LabelTop": 937,
+    "LabelWidth": 31,
+    "LastVersionId": 727,
+    "ListTableId": 60,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 669,
-    "ProgId": "quia",
-    "IsReadOnly": true,
-    "ShortLabel": "deserunt",
-    "TabOrder": 474,
-    "TextLength": 177,
-    "Tooltip": "ea",
-    "UdefIdentity": 646,
-    "UDListDefinitionId": 305,
+    "Page1LineNo": 687,
+    "ProgId": "perspiciatis",
+    "IsReadOnly": false,
+    "ShortLabel": "inventore",
+    "TabOrder": 167,
+    "TextLength": 200,
+    "Tooltip": "aut",
+    "UdefIdentity": 220,
+    "UDListDefinitionId": 688,
     "Justification": "Center",
-    "Version": 517,
-    "TemplateVariableName": "Altenwerth, Feeney and Ondricka",
+    "Version": 124,
+    "TemplateVariableName": "Satterfield Group",
     "HasBeenPublished": false,
-    "MdoListName": "Stroman Group",
+    "MdoListName": "Hackett-Jaskolski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 977
+        "FieldLength": 410
       }
     }
   }

@@ -38,7 +38,7 @@ The actual bitmap is accessible via /api/v1/contact/123/image.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BlobEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,10 +60,10 @@ Response body:
 | OriginalSize | int32 | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,28 +80,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 29 May 2007 02:49:50 G5T
+Last-Modified: Fri, 31 May 2002 17:37:38 G5T
 
 {
-  "BlobId": 798,
-  "BlobSize": 989,
-  "Description": "Virtual scalable application",
-  "ExtraInfo": "voluptatem",
+  "BlobId": 581,
+  "BlobSize": 406,
+  "Description": "Stand-alone client-driven complexity",
+  "ExtraInfo": "officia",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "fugiat",
-  "OriginalSize": 849,
-  "CreatedDate": "2022-11-22T02:49:50.7296616+01:00",
-  "UpdatedDate": "2007-05-29T02:49:50.7296616+02:00",
+  "MimeType": "iste",
+  "OriginalSize": 798,
+  "CreatedDate": "2007-12-26T17:37:38.3378327+01:00",
+  "UpdatedDate": "2002-05-31T17:37:38.3378327+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldType": "System.String",
+      "FieldLength": 527
     }
   }
 }

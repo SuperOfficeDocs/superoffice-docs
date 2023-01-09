@@ -44,36 +44,35 @@ POST /api/v1/ProjectMember?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The ProjectMember to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectmemberId | int32 | Primary key |
-| ContactId | int32 | Contact ID of person who is the project member |
-| ProjectId | int32 | Parent project - the project this project member belongs to. |
-| ContactName | string | Contact name |
-| ContactDepartment | string | Contact department |
-| ProjectName | string | Name of the project this project member belongs to. |
-| EmailId | int32 | The person's email address id |
-| EmailAddress | string | The e-mail address |
-| CountryId | int32 | Country |
-| Firstname | string | First name |
-| MiddleName | string | Middle name or 'van' etc. |
-| Lastname | string | Last name |
-| PersonId | int32 | The person's id - primary key |
-| Mrmrs | string | e.g. Mrs, Dr, Ms. |
-| ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
-| Phone | string | Phone number |
-| PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
-| EmailAddressName | string | The e-mail address description |
-| Comment | string | Comment text on the project membership |
-| FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| ProjectmemberId | Integer | Primary key |
+| ContactId | Integer | Contact ID of person who is the project member |
+| ProjectId | Integer | Parent project - the project this project member belongs to. |
+| ContactName | String | Contact name |
+| ContactDepartment | String | Contact department |
+| ProjectName | String | Name of the project this project member belongs to. |
+| EmailId | Integer | The person's email address id |
+| EmailAddress | String | The e-mail address |
+| CountryId | Integer | Country |
+| Firstname | String | First name |
+| MiddleName | String | Middle name or 'van' etc. |
+| Lastname | String | Last name |
+| PersonId | Integer | The person's id - primary key |
+| Mrmrs | String | e.g. Mrs, Dr, Ms. |
+| ProjectMemberTypeName | String | The projectmembers type name: 'secretary', 'member', etc. |
+| Phone | String | Phone number |
+| PhoneId | Integer | The phone id |
+| ProjectMemberTypeId | Integer | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
+| EmailAddressName | String | The e-mail address description |
+| Comment | String | Comment text on the project membership |
+| FullName | String | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -81,7 +80,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectMemberWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -106,7 +105,7 @@ Response body:
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -120,27 +119,27 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 192,
-  "ContactId": 846,
-  "ProjectId": 709,
-  "ContactName": "Abbott Inc and Sons",
+  "ProjectmemberId": 124,
+  "ContactId": 441,
+  "ProjectId": 165,
+  "ContactName": "Willms LLC",
   "ContactDepartment": "",
-  "ProjectName": "Nader-Orn",
-  "EmailId": 853,
-  "EmailAddress": "lauretta.swaniawski@hammes.name",
-  "CountryId": 668,
-  "Firstname": "Dejon",
-  "MiddleName": "Ortiz LLC",
-  "Lastname": "Bechtelar",
-  "PersonId": 473,
-  "Mrmrs": "laboriosam",
-  "ProjectMemberTypeName": "Ward Group",
-  "Phone": "1-806-771-7137 x97728",
-  "PhoneId": 738,
-  "ProjectMemberTypeId": 741,
-  "EmailAddressName": "sarah_bartell@faykeebler.uk",
-  "Comment": "eos",
-  "FullName": "Kyler Bogisich V"
+  "ProjectName": "McGlynn, Miller and Daniel",
+  "EmailId": 380,
+  "EmailAddress": "nico@heaney.co.uk",
+  "CountryId": 778,
+  "Firstname": "Madyson",
+  "MiddleName": "Homenick LLC",
+  "Lastname": "Kerluke",
+  "PersonId": 569,
+  "Mrmrs": "amet",
+  "ProjectMemberTypeName": "Keeling LLC",
+  "Phone": "472-019-2946 x314",
+  "PhoneId": 310,
+  "ProjectMemberTypeId": 39,
+  "EmailAddressName": "jany@nader.name",
+  "Comment": "ad",
+  "FullName": "Jennings Heller"
 }
 ```
 
@@ -151,33 +150,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 149,
-  "ContactId": 323,
-  "ProjectId": 403,
-  "ContactName": "Hansen-Corwin",
+  "ProjectmemberId": 357,
+  "ContactId": 107,
+  "ProjectId": 404,
+  "ContactName": "Feeney, Yundt and Schaefer",
   "ContactDepartment": "",
-  "ProjectName": "Lind-Beier",
-  "EmailId": 648,
-  "EmailAddress": "jany.bayer@langratke.us",
-  "CountryId": 901,
-  "Firstname": "Erika",
-  "MiddleName": "Wisoky, Hilpert and Champlin",
-  "Lastname": "Morissette",
-  "PersonId": 791,
-  "Mrmrs": "nisi",
-  "ProjectMemberTypeName": "Cummerata LLC",
-  "Phone": "(898)642-4701",
-  "PhoneId": 142,
-  "ProjectMemberTypeId": 285,
-  "EmailAddressName": "taya_gutkowski@johnson.com",
-  "Comment": "est",
-  "FullName": "Horace Daugherty",
+  "ProjectName": "Breitenberg Inc and Sons",
+  "EmailId": 489,
+  "EmailAddress": "anibal_cormier@lang.co.uk",
+  "CountryId": 951,
+  "Firstname": "Hiram",
+  "MiddleName": "Kreiger, Buckridge and Satterfield",
+  "Lastname": "Carter",
+  "PersonId": 83,
+  "Mrmrs": "doloremque",
+  "ProjectMemberTypeName": "Larkin LLC",
+  "Phone": "1-560-213-8401",
+  "PhoneId": 344,
+  "ProjectMemberTypeId": 184,
+  "EmailAddressName": "markus@russelhuels.us",
+  "Comment": "sunt",
+  "FullName": "Brian Ada Aufderhar MD",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldType": "System.String",
+      "FieldLength": 286
     }
   },
   "_Links": {

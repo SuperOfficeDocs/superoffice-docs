@@ -44,16 +44,15 @@ POST /api/v1/Agents/Project/GetMyProjects?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 IncludeMemberProjects 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IncludeMemberProjects | bool |  |
+| IncludeMemberProjects | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +82,7 @@ Response body: array
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,11 +91,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -108,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 415,
-    "Name": "Williamson, Little and Schowalter",
-    "Description": "Horizontal reciprocal toolset",
+    "ProjectId": 606,
+    "Name": "Carroll, Torphy and Bogisich",
+    "Description": "Managed secondary task-force",
     "URL": "http://www.example.com/",
-    "Type": "ex",
-    "AssociateId": 271,
-    "AssociateFullName": "Dr. Felicity Eichmann",
-    "TypeId": 151,
-    "Updated": "2005-03-30T02:49:44.9684639+02:00",
-    "StatusId": 898,
-    "Status": "voluptatem",
-    "TextId": 235,
-    "PublishTo": "2022-10-03T02:49:44.9684639+02:00",
-    "PublishFrom": "2003-03-25T02:49:44.9684639+01:00",
-    "IsPublished": false,
+    "Type": "repellat",
+    "AssociateId": 477,
+    "AssociateFullName": "Aurelia Bailey",
+    "TypeId": 229,
+    "Updated": "2022-04-04T17:37:18.658245+02:00",
+    "StatusId": 414,
+    "Status": "doloribus",
+    "TextId": 127,
+    "PublishTo": "2017-02-06T17:37:18.658245+01:00",
+    "PublishFrom": "2021-05-13T17:37:18.658245+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "912353",
-    "ActiveErpLinks": 411,
+    "ProjectNumber": "964004",
+    "ActiveErpLinks": 308,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 464
+        "FieldType": "System.Int32",
+        "FieldLength": 818
       }
     }
   }

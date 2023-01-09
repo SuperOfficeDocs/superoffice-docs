@@ -42,20 +42,19 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId?$
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, DeviceIdentifier, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
-| TableName | string |  |
-| RecordId | int32 |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
+| TableName | String |  |
+| RecordId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body: array
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,11 +87,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Zieme LLC",
-  "DeviceName": "Mohr Group",
-  "DeviceIdentifier": "nobis",
-  "TableName": "Stark, Toy and Barrows",
-  "RecordId": 95
+  "ApplicationName": "Roberts Group",
+  "DeviceName": "Medhurst-Baumbach",
+  "DeviceIdentifier": "voluptatem",
+  "TableName": "Luettgen LLC",
+  "RecordId": 843
 }
 ```
 
@@ -104,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ut",
-    "Value": "et",
-    "RecordId": 660,
-    "CreatedDate": "2005-12-01T02:49:44.561046+01:00",
-    "UpdatedDate": "2017-08-09T02:49:44.561046+02:00",
-    "UpdatedBy": "molestias",
-    "CreatedBy": "et",
-    "TableName": "Connelly-Funk",
+    "Key": "saepe",
+    "Value": "maiores",
+    "RecordId": 780,
+    "CreatedDate": "2013-03-31T17:37:18.1162414+02:00",
+    "UpdatedDate": "2015-11-01T17:37:18.1162414+01:00",
+    "UpdatedBy": "nisi",
+    "CreatedBy": "inventore",
+    "TableName": "Hartmann Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldLength": 324
       }
     }
   }

@@ -42,17 +42,16 @@ POST /api/v1/Agents/DatabaseTable/Delete?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, IDs 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| IDs | array |  |
+| TableName | String |  |
+| IDs | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: MassOperationResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body:
 | Updates | int32 | Number of rows updated |
 | Deletes | int32 | Number of rows deleted / zeroed |
 | RowStatus | array | Array of statuses and primary keys for all rows that were specified. Populated if the 'ReturnRowStatus' parameter of 'Upsert' is set, otherwise null |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,14 +78,14 @@ Response body:
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Haag, Orn and Considine",
+  "TableName": "Abernathy, Hettinger and Conroy",
   "IDs": [
-    844,
-    380
+    27,
+    774
   ]
 }
 ```
@@ -98,41 +97,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "est",
-  "Inserts": 593,
-  "Updates": 423,
-  "Deletes": 709,
+  "Success": false,
+  "Message": "ut",
+  "Inserts": 535,
+  "Updates": 406,
+  "Deletes": 669,
   "RowStatus": [
     {
-      "PrimaryKey": 508,
+      "PrimaryKey": 412,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quisquam",
-        "reprehenderit"
+        "qui",
+        "delectus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 536
         }
       }
     },
     {
-      "PrimaryKey": 508,
+      "PrimaryKey": 412,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quisquam",
-        "reprehenderit"
+        "qui",
+        "delectus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 536
         }
       }
     }
@@ -142,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 264
     }
   }
 }

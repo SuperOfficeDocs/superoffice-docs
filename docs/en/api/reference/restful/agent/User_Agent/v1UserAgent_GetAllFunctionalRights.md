@@ -47,16 +47,15 @@ POST /api/v1/Agents/User/GetAllFunctionalRights?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 RoleType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RoleType | string |  |
+| RoleType | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +82,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,7 +91,7 @@ Response body: array
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 354,
-    "Name": "Little-Cartwright",
-    "ToolTip": "Fugiat tempore.",
-    "Deleted": true,
-    "Rank": 38,
-    "Type": "nisi",
-    "ColorBlock": 617,
-    "IconHint": "libero",
-    "Selected": false,
-    "LastChanged": "2014-08-22T02:49:45.6559717+02:00",
+    "Id": 765,
+    "Name": "Schumm Group",
+    "ToolTip": "Est error eos corporis.",
+    "Deleted": false,
+    "Rank": 727,
+    "Type": "laborum",
+    "ColorBlock": 466,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2004-02-06T17:37:19.5479753+01:00",
     "ChildItems": [
       {
-        "Id": 414,
-        "Name": "Green Group",
-        "ToolTip": "Suscipit placeat quis voluptas.",
-        "Deleted": true,
-        "Rank": 792,
-        "Type": "provident",
-        "ColorBlock": 684,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "1998-09-01T02:49:45.6559717+02:00",
+        "Id": 23,
+        "Name": "Grady, Sauer and Cole",
+        "ToolTip": "Quae quaerat similique a hic fuga assumenda provident.",
+        "Deleted": false,
+        "Rank": 42,
+        "Type": "quos",
+        "ColorBlock": 339,
+        "IconHint": "quas",
+        "Selected": false,
+        "LastChanged": "2012-06-11T17:37:19.5479753+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "placeat",
         "Hidden": true,
-        "FullName": "Mr. Kurt Javon Kris III",
+        "FullName": "Easter Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 603
+            "FieldType": "System.String",
+            "FieldLength": 8
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Doug Lorenz Dickens V",
+    "ExtraInfo": "eum",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Pat Strosin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldType": "System.String",
+        "FieldLength": 174
       }
     }
   }

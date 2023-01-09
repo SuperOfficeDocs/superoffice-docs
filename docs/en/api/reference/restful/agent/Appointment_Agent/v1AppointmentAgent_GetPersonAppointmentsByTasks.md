@@ -44,21 +44,20 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| IncludeProjectAppointments | bool |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TaskIds | array |  |
+| PersonId | Integer |  |
+| IncludeProjectAppointments | Boolean |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TaskIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -119,7 +118,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -132,14 +131,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 549,
+  "PersonId": 162,
   "IncludeProjectAppointments": true,
-  "StartTime": "2017-03-08T02:49:43.1992469+01:00",
-  "EndTime": "2022-01-04T02:49:43.1992469+01:00",
-  "Count": 4,
+  "StartTime": "2007-05-25T17:37:16.2172417+02:00",
+  "EndTime": "2012-06-03T17:37:16.2172417+02:00",
+  "Count": 592,
   "TaskIds": [
-    123,
-    102
+    942,
+    812
   ]
 }
 ```
@@ -152,53 +151,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 459,
-    "StartDate": "2010-04-23T02:49:43.2148724+02:00",
-    "EndDate": "2007-08-04T02:49:43.2148724+02:00",
+    "AppointmentId": 312,
+    "StartDate": "2006-08-14T17:37:16.2222413+02:00",
+    "EndDate": "2020-10-29T17:37:16.2222413+01:00",
     "Type": "BookingForChecklist",
-    "Task": "eius",
-    "AssociateFullName": "Houston Greenfelder",
-    "ContactName": "Bode, Larkin and Zieme",
-    "Description": "Quality-focused mission-critical protocol",
-    "PersonFullName": "Rhiannon Quinton Crooks II",
-    "PersonId": 677,
-    "ContactId": 716,
-    "ProjectId": 111,
-    "ProjectName": "Padberg LLC",
-    "IsPublished": true,
-    "AssociateId": 641,
-    "ColorIndex": 856,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "Task": "facere",
+    "AssociateFullName": "Adrianna Gottlieb",
+    "ContactName": "Feeney Group",
+    "Description": "Function-based leading edge throughput",
+    "PersonFullName": "Rudy Corwin",
+    "PersonId": 449,
+    "ContactId": 60,
+    "ProjectId": 456,
+    "ProjectName": "Ratke Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 139,
+    "ColorIndex": 41,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 81,
-    "PriorityName": "O'Keefe-Gutkowski",
+    "PriorityId": 802,
+    "PriorityName": "Terry Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2001-10-26T02:49:43.2148724+02:00",
+    "ActiveDate": "2006-08-30T17:37:16.2222413+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-06-01T02:49:43.2148724+02:00",
-    "RecurringEndDate": "2017-02-01T02:49:43.2148724+01:00",
-    "MotherId": 790,
-    "AssignedBy": 333,
-    "AssignedByFullName": "Dr. Maritza Purdy MD",
+    "RecurringStartDate": "2008-03-09T17:37:16.2222413+01:00",
+    "RecurringEndDate": "2001-02-07T17:37:16.2222413+01:00",
+    "MotherId": 87,
+    "AssignedBy": 880,
+    "AssignedByFullName": "Emmet Lakin IV",
     "RejectReason": "",
-    "Location": "dolor",
-    "AlarmLeadTime": "vero",
-    "SaleId": 362,
-    "SaleName": "Lehner LLC",
-    "AssociateName": "Schinner-Carter",
-    "CreatedDate": "2007-05-07T02:49:43.2148724+02:00",
-    "CreatedBy": "fuga",
-    "CreatedByFullName": "Haley Kerluke",
-    "CreatedByAssociateId": 590,
+    "Location": "aut",
+    "AlarmLeadTime": "vel",
+    "SaleId": 316,
+    "SaleName": "Sawayn LLC",
+    "AssociateName": "Flatley, Pacocha and Lesch",
+    "CreatedDate": "2002-11-20T17:37:16.2232407+01:00",
+    "CreatedBy": "esse",
+    "CreatedByFullName": "Rebekah Stehr",
+    "CreatedByAssociateId": 752,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -206,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 143
+        "FieldLength": 197
       }
     }
   }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Gets a migration summary for documents in the provided date-rage
 
 
-
-
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -46,19 +44,18 @@ POST /api/v1/Agents/DocumentMigration/GetForDateRange?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentPluginId, MinDate, MaxDate, IncludeEmails 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentPluginId | int32 |  |
-| MinDate | date-time |  |
-| MaxDate | date-time |  |
-| IncludeEmails | bool |  |
+| DocumentPluginId | Integer |  |
+| MinDate | String |  |
+| MaxDate | String |  |
+| IncludeEmails | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentMigrationItemList
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,14 +78,14 @@ Response body:
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 788,
-  "MinDate": "2020-12-15T02:49:44.3566372+01:00",
-  "MaxDate": "2007-05-25T02:49:44.3566372+02:00",
-  "IncludeEmails": true
+  "DocumentPluginId": 923,
+  "MinDate": "2009-06-09T17:37:17.8462448+02:00",
+  "MaxDate": "2001-01-16T17:37:17.8462448+01:00",
+  "IncludeEmails": false
 }
 ```
 
@@ -99,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 266,
-  "NumDocumentsAlreadyMigrated": 606,
+  "NumDocumentsOmitted": 795,
+  "NumDocumentsAlreadyMigrated": 346,
   "Documents": [
     {
-      "DocumentId": 988,
-      "ContactId": 257,
-      "PersonId": 668,
-      "SaleId": 788,
-      "ProjectId": 285,
-      "DocTmplId": 401,
-      "AssociateId": 400,
-      "UserGroupId": 738,
-      "VisibleForId": 198
+      "DocumentId": 347,
+      "ContactId": 689,
+      "PersonId": 771,
+      "SaleId": 111,
+      "ProjectId": 813,
+      "DocTmplId": 793,
+      "AssociateId": 990,
+      "UserGroupId": 386,
+      "VisibleForId": 781
     }
   ],
   "Associates": [
     {
-      "AssociateId": 437,
-      "EmailAddress": "isai@kovacek.com"
+      "AssociateId": 586,
+      "EmailAddress": "bertrand.rowe@luettgen.ca"
     },
     {
-      "AssociateId": 437,
-      "EmailAddress": "isai@kovacek.com"
+      "AssociateId": 586,
+      "EmailAddress": "bertrand.rowe@luettgen.ca"
     }
   ]
 }

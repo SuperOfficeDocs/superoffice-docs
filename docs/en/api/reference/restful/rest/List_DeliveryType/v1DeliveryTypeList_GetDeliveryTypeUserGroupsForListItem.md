@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Kulas Inc and Sons",
-    "ToolTip": "Molestias voluptate repellat ut ipsam.",
+    "Id": 888,
+    "Name": "Hirthe LLC",
+    "ToolTip": "Quasi autem distinctio debitis enim est aut eius.",
     "Deleted": false,
-    "Rank": 109,
-    "Type": "et",
-    "ColorBlock": 555,
-    "IconHint": "atque",
+    "Rank": 122,
+    "Type": "veniam",
+    "ColorBlock": 191,
+    "IconHint": "eaque",
     "Selected": true,
-    "LastChanged": "2022-07-17T02:49:52.2190678+02:00",
+    "LastChanged": "2020-03-13T17:37:39.9985084+01:00",
     "ChildItems": [
       {
-        "Id": 743,
-        "Name": "Kiehn LLC",
-        "ToolTip": "Unde rerum incidunt animi.",
+        "Id": 911,
+        "Name": "Becker, Lind and Krajcik",
+        "ToolTip": "Et quasi debitis sed.",
         "Deleted": false,
-        "Rank": 372,
-        "Type": "eligendi",
-        "ColorBlock": 216,
-        "IconHint": "voluptatem",
+        "Rank": 157,
+        "Type": "voluptatem",
+        "ColorBlock": 706,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2008-03-31T02:49:52.2190678+02:00",
+        "LastChanged": "2018-11-08T17:37:39.9985084+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "odio",
+        "ExtraInfo": "rerum",
+        "StyleHint": "voluptatum",
         "Hidden": true,
-        "FullName": "Mr. Garret Janet Hand Jr.",
+        "FullName": "Keyon Barney Cummerata IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 384
+            "FieldLength": 318
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "officiis",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Gaylord Bayer",
+    "FullName": "Kacie Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldType": "System.String",
+        "FieldLength": 237
       }
     }
   }

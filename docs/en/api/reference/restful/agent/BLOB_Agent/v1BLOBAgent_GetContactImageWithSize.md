@@ -42,18 +42,17 @@ POST /api/v1/Agents/BLOB/GetContactImageWithSize?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, Width, Height 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| Width | int32 |  |
-| Height | int32 |  |
+| ContactId | Integer |  |
+| Width | Integer |  |
+| Height | Integer |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -70,13 +69,13 @@ Response body: byte
 POST /api/v1/Agents/BLOB/GetContactImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 347,
-  "Width": 473,
-  "Height": 501
+  "ContactId": 742,
+  "Width": 424,
+  "Height": 135
 }
 ```
 

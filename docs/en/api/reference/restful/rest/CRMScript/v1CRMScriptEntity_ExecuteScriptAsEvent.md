@@ -41,24 +41,23 @@ Returns event data with output variable values.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: eventData  
+## Request Body: eventData 
 
 The EventData instance sent to the crmscript with input values 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Type | string | The type of event we are triggered by |
-| InputValues | object | Environment values sent to the event handler |
-| BlockExecution | bool | Whether the context should stop what it is doing, e.g. saving a sale |
-| NavigateTo | string | Where the context should naviate afterwards |
-| Message | string | A message to be presented to the user |
-| ShowDialog | string | JSON structure of dialog to show |
-| OutputValues | object | Values sent back to the environment from the event handler |
-| StateValues | object | Values kept between event handlers |
-| Exception | string | String containing error message from handler system if it failed |
+| Type | String | The type of event we are triggered by |
+| InputValues | Object | Environment values sent to the event handler |
+| BlockExecution | Boolean | Whether the context should stop what it is doing, e.g. saving a sale |
+| NavigateTo | String | Where the context should naviate afterwards |
+| Message | String | A message to be presented to the user |
+| ShowDialog | String | JSON structure of dialog to show |
+| OutputValues | Object | Values sent back to the environment from the event handler |
+| StateValues | Object | Values kept between event handlers |
+| Exception | String | String containing error message from handler system if it failed |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EventData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body:
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,28 +87,28 @@ Response body:
 POST /api/v1/CRMScript/{cRMScriptId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quae",
-    "InputValues2": "assumenda"
+    "InputValues1": "rerum",
+    "InputValues2": "itaque"
   },
-  "BlockExecution": false,
-  "NavigateTo": "nobis",
-  "Message": "quia",
-  "ShowDialog": "commodi",
+  "BlockExecution": true,
+  "NavigateTo": "eos",
+  "Message": "rerum",
+  "ShowDialog": "quibusdam",
   "OutputValues": {
-    "OutputValues1": "voluptates",
-    "OutputValues2": "et"
+    "OutputValues1": "sed",
+    "OutputValues2": "mollitia"
   },
   "StateValues": {
-    "StateValues1": "dolor",
-    "StateValues2": "molestiae"
+    "StateValues1": "non",
+    "StateValues2": "ut"
   },
-  "Exception": "quaerat"
+  "Exception": "quam"
 }
 ```
 
@@ -122,28 +121,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "consequatur",
-    "InputValues2": "dolorum"
+    "InputValues1": "et",
+    "InputValues2": "corporis"
   },
-  "BlockExecution": false,
-  "NavigateTo": "distinctio",
-  "Message": "unde",
-  "ShowDialog": "aut",
+  "BlockExecution": true,
+  "NavigateTo": "dolor",
+  "Message": "doloremque",
+  "ShowDialog": "fugit",
   "OutputValues": {
-    "OutputValues1": "maiores",
-    "OutputValues2": "inventore"
+    "OutputValues1": "est",
+    "OutputValues2": "nobis"
   },
   "StateValues": {
-    "StateValues1": "reiciendis",
-    "StateValues2": "iusto"
+    "StateValues1": "id",
+    "StateValues2": "qui"
   },
-  "Exception": "autem",
+  "Exception": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldLength": 786
     }
   }
 }

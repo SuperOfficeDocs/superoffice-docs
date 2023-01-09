@@ -44,7 +44,7 @@ POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists?$select=
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,13 +65,13 @@ Response body: array
 | ErpConnectionId | int32 | The ERP Connection that this Quote connection is an extension of |
 | ExtraData | string | Optional extra data, in XML format, for configuring the connector. Connector-specific! |
 | IsAvailable | bool | Whether or not the specified connection is available. Typically, without network access the availability is false. |
-| InitializeResponse |  | Status and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet. |
+| InitializeResponse | PluginResponse | Status and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet. |
 | PriceLists | array | The PriceLists that this connection offers. |
 | AllAccess | bool | Is this connection accessible to everyone?  If not, then the QuoteConnectionAccess table tells us who can access it. |
 | Deleted | bool | If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster. |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,7 +80,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,54 +91,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 512,
-    "ERPName": "King Group",
-    "DisplayName": "Altenwerth-Trantow",
-    "DisplayDescription": "Persistent regional knowledge user",
-    "Rank": 99,
-    "ConnectorName": "Berge, Mills and Greenfelder",
-    "ErpConnectionId": 529,
-    "ExtraData": "et",
+    "QuoteConnectionId": 921,
+    "ERPName": "Hahn Inc and Sons",
+    "DisplayName": "Murphy-Kilback",
+    "DisplayDescription": "Virtual solution-oriented time-frame",
+    "Rank": 497,
+    "ConnectorName": "Welch-Buckridge",
+    "ErpConnectionId": 904,
+    "ExtraData": "ipsa",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 93,
-        "ERPPriceListKey": "molestiae",
-        "QuoteConnectionId": 739,
-        "Name": "Schmeler Inc and Sons",
-        "Description": "Customer-focused cohesive budgetary management",
-        "Currency": "nesciunt",
-        "CurrencyName": "Kessler Inc and Sons",
-        "ValidFrom": "2005-08-02T02:49:45.0309645+02:00",
-        "ValidTo": "2006-06-18T02:49:45.0309645+02:00",
-        "IsActive": true,
+        "PriceListId": 408,
+        "ERPPriceListKey": "a",
+        "QuoteConnectionId": 458,
+        "Name": "Morissette Inc and Sons",
+        "Description": "Innovative reciprocal open architecture",
+        "Currency": "nihil",
+        "CurrencyName": "Ebert, Bruen and Lemke",
+        "ValidFrom": "2000-09-25T17:37:18.7392416+02:00",
+        "ValidTo": "2000-05-08T17:37:18.7392416+02:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 717
+            "FieldType": "System.String",
+            "FieldLength": 689
           }
         }
       }
     ],
-    "AllAccess": false,
+    "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      572,
-      305
+      583,
+      147
     ],
     "AssociateAccessIds": [
-      948,
-      681
+      154,
+      904
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 766
+        "FieldLength": 388
       }
     }
   }

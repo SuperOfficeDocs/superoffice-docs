@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 624,
-    "Name": "Koss Group",
-    "ToolTip": "Officia sed ut recusandae facere ut.",
-    "Deleted": false,
-    "Rank": 912,
-    "Type": "voluptate",
-    "ColorBlock": 848,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "2013-08-24T02:49:52.4065764+02:00",
+    "Id": 925,
+    "Name": "Bergnaum-Greenholt",
+    "ToolTip": "Numquam iste qui odio odit nemo dolore.",
+    "Deleted": true,
+    "Rank": 381,
+    "Type": "delectus",
+    "ColorBlock": 639,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2017-01-29T17:37:40.2124714+01:00",
     "ChildItems": [
       {
-        "Id": 450,
-        "Name": "Morissette, Cassin and Schmidt",
-        "ToolTip": "Molestiae illo eos qui delectus quia.",
-        "Deleted": false,
-        "Rank": 48,
-        "Type": "aperiam",
-        "ColorBlock": 933,
-        "IconHint": "velit",
-        "Selected": false,
-        "LastChanged": "2015-04-06T02:49:52.4065764+02:00",
+        "Id": 483,
+        "Name": "Prohaska Inc and Sons",
+        "ToolTip": "Non aut dolor quos praesentium.",
+        "Deleted": true,
+        "Rank": 820,
+        "Type": "eius",
+        "ColorBlock": 833,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2000-06-23T17:37:40.2124714+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "tempore",
+        "ExtraInfo": "harum",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Concepcion Oberbrunner",
+        "FullName": "Ms. Kale Euna Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 518
+            "FieldType": "System.Int32",
+            "FieldLength": 913
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "eius",
+    "ExtraInfo": "numquam",
+    "StyleHint": "quos",
     "Hidden": false,
-    "FullName": "Rodolfo Jon Little MD",
+    "FullName": "Jakob Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 122
       }
     }
   }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/Person/GetPhones?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
+| PersonId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,14 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Value | string | The Element FullName.  This is a value that is intended to be shown to the user. |
 | StrippedValue | string | The Element FullName.  This is a value that can be parsed and used by systems. |
 | Description | string | The Element Description |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,7 +78,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 186
+  "PersonId": 804
 }
 ```
 
@@ -91,28 +90,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "animi",
-    "StrippedValue": "qui",
-    "Description": "Phased systemic encoding",
+    "Value": "corrupti",
+    "StrippedValue": "dolor",
+    "Description": "Centralized executive structure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldType": "System.String",
+        "FieldLength": 15
       }
     }
   },
   {
-    "Value": "animi",
-    "StrippedValue": "qui",
-    "Description": "Phased systemic encoding",
+    "Value": "corrupti",
+    "StrippedValue": "dolor",
+    "Description": "Centralized executive structure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldType": "System.String",
+        "FieldLength": 15
       }
     }
   }

@@ -38,7 +38,7 @@ The actual bitmap is accessible via /api/Services80/pricelist/1/product/123/imag
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BlobEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,10 +60,10 @@ Response body:
 | OriginalSize | int32 | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -72,7 +72,7 @@ Response body:
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 14 Mar 2019 02:49:51 G3T
+Last-Modified: Mon, 26 Jul 2010 17:37:39 G7T
 
 {
-  "BlobId": 466,
-  "BlobSize": 174,
-  "Description": "Cross-group national knowledge base",
-  "ExtraInfo": "error",
+  "BlobId": 422,
+  "BlobSize": 272,
+  "Description": "Re-engineered solution-oriented function",
+  "ExtraInfo": "omnis",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "eum",
-  "OriginalSize": 688,
-  "CreatedDate": "2019-03-17T02:49:51.7491471+01:00",
-  "UpdatedDate": "2019-03-14T02:49:51.7491471+01:00",
+  "MimeType": "facere",
+  "OriginalSize": 315,
+  "CreatedDate": "2007-09-09T17:37:39.4784004+02:00",
+  "UpdatedDate": "2010-07-26T17:37:39.4784004+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 850
     }
   }
 }

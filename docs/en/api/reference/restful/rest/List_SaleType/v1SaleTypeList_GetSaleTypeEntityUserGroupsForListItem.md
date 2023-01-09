@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 785,
-    "Name": "Kuphal, Schmeler and Mayer",
-    "ToolTip": "Dolores nihil qui a animi quae.",
-    "Deleted": false,
-    "Rank": 904,
-    "Type": "voluptas",
-    "ColorBlock": 821,
-    "IconHint": "consequatur",
+    "Id": 911,
+    "Name": "Fahey, Franecki and Parisian",
+    "ToolTip": "Quo sapiente sit perferendis vel.",
+    "Deleted": true,
+    "Rank": 593,
+    "Type": "a",
+    "ColorBlock": 398,
+    "IconHint": "accusantium",
     "Selected": false,
-    "LastChanged": "2000-11-28T02:49:52.5159497+01:00",
+    "LastChanged": "2002-02-11T17:37:40.3395012+01:00",
     "ChildItems": [
       {
-        "Id": 930,
-        "Name": "Stoltenberg, Gleason and Shanahan",
-        "ToolTip": "Assumenda commodi qui eos qui eius.",
-        "Deleted": true,
-        "Rank": 6,
-        "Type": "eum",
-        "ColorBlock": 926,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2017-12-08T02:49:52.5159497+01:00",
+        "Id": 810,
+        "Name": "Haley, Runolfsson and Kozey",
+        "ToolTip": "Cumque et et blanditiis placeat dicta cupiditate officia.",
+        "Deleted": false,
+        "Rank": 581,
+        "Type": "ea",
+        "ColorBlock": 10,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2011-03-28T17:37:40.3395012+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "ut",
+        "StyleHint": "accusantium",
         "Hidden": true,
-        "FullName": "Opal Emerson Brakus IV",
+        "FullName": "Oda Donnelly V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 709
+            "FieldLength": 263
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Bethel Bartoletti",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Dr. Alfonzo Anderson V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 62
+        "FieldType": "System.Int32",
+        "FieldLength": 921
       }
     }
   }

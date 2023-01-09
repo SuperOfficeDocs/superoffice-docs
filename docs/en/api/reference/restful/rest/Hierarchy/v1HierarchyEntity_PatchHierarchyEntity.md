@@ -71,18 +71,17 @@ PATCH /api/v1/Hierarchy/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 HierarchyEntity  updated.
 
@@ -93,7 +92,7 @@ HierarchyEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because HierarchyEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: HierarchyEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -107,7 +106,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -117,18 +116,18 @@ Response body:
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -141,46 +140,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 518,
+  "HierarchyId": 82,
   "Domain": "Dashboards",
-  "Name": "Rice-McKenzie",
-  "Fullname": "est",
-  "ParentId": 816,
+  "Name": "Bartoletti LLC",
+  "Fullname": "quasi",
+  "ParentId": 960,
   "Children": [
     {
-      "HierarchyId": 70,
+      "HierarchyId": 511,
       "Domain": "Dashboards",
-      "Name": "Kessler-Davis",
-      "Fullname": "excepturi",
-      "ParentId": 891,
+      "Name": "Grady-Carroll",
+      "Fullname": "optio",
+      "ParentId": 783,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-01-17T02:49:50.9952888+01:00",
-      "RegisteredAssociateId": 806,
-      "Updated": "2012-08-05T02:49:50.9952888+02:00",
-      "UpdatedAssociateId": 19,
+      "Registered": "2006-12-28T17:37:38.8278311+01:00",
+      "RegisteredAssociateId": 132,
+      "Updated": "2006-02-12T17:37:38.8278311+01:00",
+      "UpdatedAssociateId": 904,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 527
+          "FieldType": "System.Int32",
+          "FieldLength": 30
         }
       }
     }
   ],
-  "Registered": "2005-01-02T02:49:50.9952888+01:00",
-  "RegisteredAssociateId": 717,
-  "Updated": "2000-04-28T02:49:50.9952888+02:00",
-  "UpdatedAssociateId": 89,
+  "Registered": "1995-09-22T17:37:38.8278311+02:00",
+  "RegisteredAssociateId": 84,
+  "Updated": "1997-07-05T17:37:38.8278311+02:00",
+  "UpdatedAssociateId": 72,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 724
+      "FieldType": "System.Int32",
+      "FieldLength": 248
     }
   },
   "_Links": {

@@ -38,18 +38,17 @@ POST /api/v1/Agents/Appointment/Reject?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AppointmentId, RejectReason, UpdateMode 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AppointmentId | int32 |  |
-| RejectReason | string |  |
-| UpdateMode | string |  |
+| AppointmentId | Integer |  |
+| RejectReason | String |  |
+| UpdateMode | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -57,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -70,7 +69,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 279,
+  "AppointmentId": 580,
   "RejectReason": "",
   "UpdateMode": "OnlyThis"
 }

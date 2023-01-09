@@ -42,20 +42,19 @@ POST /api/v1/Agents/Import/SaveImport?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ImportLines, ColumnDefinition, CreateSelection, Culture, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ImportLines | array |  |
-| ColumnDefinition | array |  |
-| CreateSelection | bool |  |
-| Culture | string |  |
-| Context | string |  |
+| ImportLines | Array |  |
+| ColumnDefinition | Array |  |
+| CreateSelection | Boolean |  |
+| Culture | String |  |
+| Context | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 
 ## Sample request
@@ -72,39 +71,39 @@ Response body: array
 POST /api/v1/Agents/Import/SaveImport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ImportLines": [
     {
       "Values": [
-        "officia",
-        "aperiam"
+        "velit",
+        "vel"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "et"
+      "ExternalKey": "aut"
     },
     {
       "Values": [
-        "officia",
-        "aperiam"
+        "velit",
+        "vel"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "et"
+      "ExternalKey": "aut"
     }
   ],
   "ColumnDefinition": [
-    "at",
-    "et"
+    "velit",
+    "qui"
   ],
-  "CreateSelection": false,
-  "Culture": "pariatur",
-  "Context": "doloribus"
+  "CreateSelection": true,
+  "Culture": "veritatis",
+  "Context": "laudantium"
 }
 ```
 
@@ -115,7 +114,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  424,
-  617
+  377,
+  871
 ]
 ```

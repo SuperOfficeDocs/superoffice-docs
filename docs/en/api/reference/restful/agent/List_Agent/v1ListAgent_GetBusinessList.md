@@ -42,13 +42,12 @@ POST /api/v1/Agents/List/GetBusinessList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: businessIds  
+## Request Body: businessIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,14 +55,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 | The List Item Id |
 | Value | string | The List Item Value |
 | Tooltip | string | The List Item Tooltip |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Value": "voluptas",
-    "Tooltip": "saepe",
+    "Id": 343,
+    "Value": "ut",
+    "Tooltip": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 316
+        "FieldType": "System.Int32",
+        "FieldLength": 41
       }
     }
   },
   {
-    "Id": 615,
-    "Value": "voluptas",
-    "Tooltip": "saepe",
+    "Id": 343,
+    "Value": "ut",
+    "Tooltip": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 316
+        "FieldType": "System.Int32",
+        "FieldLength": 41
       }
     }
   }

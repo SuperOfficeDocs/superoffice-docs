@@ -44,18 +44,17 @@ POST /api/v1/Agents/DatabaseTable/Insert?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, Columns, Data 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| Columns | array |  |
-| Data | array |  |
+| TableName | String |  |
+| Columns | Array |  |
+| Data | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: MassOperationResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body:
 | Updates | int32 | Number of rows updated |
 | Deletes | int32 | Number of rows deleted / zeroed |
 | RowStatus | array | Array of statuses and primary keys for all rows that were specified. Populated if the 'ReturnRowStatus' parameter of 'Upsert' is set, otherwise null |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Muller Inc and Sons",
+  "TableName": "Herzog-Reynolds",
   "Columns": [
-    "corrupti",
-    "quisquam"
+    "veritatis",
+    "nisi"
   ],
   "Data": [
     [
@@ -109,41 +108,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "esse",
-  "Inserts": 425,
-  "Updates": 49,
-  "Deletes": 357,
+  "Success": false,
+  "Message": "officiis",
+  "Inserts": 999,
+  "Updates": 763,
+  "Deletes": 882,
   "RowStatus": [
     {
-      "PrimaryKey": 649,
+      "PrimaryKey": 958,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "velit",
-        "et"
+        "enim",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 399
+          "FieldLength": 411
         }
       }
     },
     {
-      "PrimaryKey": 649,
+      "PrimaryKey": 958,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "velit",
-        "et"
+        "enim",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 399
+          "FieldLength": 411
         }
       }
     }
@@ -153,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldLength": 796
     }
   }
 }

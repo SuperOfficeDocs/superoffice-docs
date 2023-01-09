@@ -44,21 +44,20 @@ POST /api/v1/Agents/Quote/GenerateQuoteDocuments?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId, EmailBodyTemplateId, AttachMainDocument, QuotedProductsTemplateId, IncludeAttachments, RawMailSubject 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
-| EmailBodyTemplateId | int32 |  |
-| AttachMainDocument | bool |  |
-| QuotedProductsTemplateId | int32 |  |
-| IncludeAttachments | bool |  |
-| RawMailSubject | string |  |
+| QuoteVersionId | Integer |  |
+| EmailBodyTemplateId | Integer |  |
+| AttachMainDocument | Boolean |  |
+| QuotedProductsTemplateId | Integer |  |
+| IncludeAttachments | Boolean |  |
+| RawMailSubject | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuotePublishDocuments
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body:
 | ToEmail | string | The email address of the recipient, taken from the sale's person |
 | ToFullName | string | The full name of the recipient, taken from the sale's person |
 | ErrorMessage | string | If something went wrong, show this message and do not continue |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,12 +90,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 250,
-  "EmailBodyTemplateId": 211,
+  "QuoteVersionId": 477,
+  "EmailBodyTemplateId": 162,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 2,
-  "IncludeAttachments": true,
-  "RawMailSubject": "blanditiis"
+  "QuotedProductsTemplateId": 699,
+  "IncludeAttachments": false,
+  "RawMailSubject": "consequatur"
 }
 ```
 
@@ -107,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 884,
-  "QuotedProductsId": 840,
+  "QuoteDocumentId": 415,
+  "QuotedProductsId": 68,
   "QuoteAttachmentIds": [
-    807,
-    766
+    172,
+    685
   ],
-  "MailBody": "harum",
-  "MailSubject": "aut",
-  "ToEmail": "noah_douglas@dare.info",
-  "ToFullName": "Shyanne Gutmann",
-  "ErrorMessage": "atque",
+  "MailBody": "quo",
+  "MailSubject": "error",
+  "ToEmail": "maggie@hoppe.info",
+  "ToFullName": "Miss Destiny Johns",
+  "ErrorMessage": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldType": "System.Int32",
+      "FieldLength": 590
     }
   }
 }

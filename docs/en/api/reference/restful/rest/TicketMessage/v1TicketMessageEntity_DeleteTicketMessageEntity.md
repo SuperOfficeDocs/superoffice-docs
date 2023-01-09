@@ -34,7 +34,7 @@ Calls the Ticket agent service DeleteTicketMessageEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 TicketMessageEntity deleted.
 
@@ -42,7 +42,7 @@ TicketMessageEntity deleted.
 |----------------|-------------|
 | 204 | TicketMessageEntity deleted. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -51,7 +51,7 @@ Response body:
 DELETE /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

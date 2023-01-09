@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConnectorName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectorName | string |  |
+| ConnectorName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteConnection
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,13 +71,13 @@ Response body:
 | ErpConnectionId | int32 | The ERP Connection that this Quote connection is an extension of |
 | ExtraData | string | Optional extra data, in XML format, for configuring the connector. Connector-specific! |
 | IsAvailable | bool | Whether or not the specified connection is available. Typically, without network access the availability is false. |
-| InitializeResponse |  | Status and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet. |
+| InitializeResponse | PluginResponse | Status and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet. |
 | PriceLists | array | The PriceLists that this connection offers. |
 | AllAccess | bool | Is this connection accessible to everyone?  If not, then the QuoteConnectionAccess table tells us who can access it. |
 | Deleted | bool | If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster. |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,11 +86,11 @@ Response body:
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Kunde Inc and Sons"
+  "ConnectorName": "Langosh Group"
 }
 ```
 
@@ -102,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 833,
-  "ERPName": "Grant Inc and Sons",
-  "DisplayName": "Cormier, Langosh and Langosh",
-  "DisplayDescription": "Phased exuding firmware",
-  "Rank": 705,
-  "ConnectorName": "Emard-Gutkowski",
-  "ErpConnectionId": 524,
-  "ExtraData": "mollitia",
-  "IsAvailable": true,
+  "QuoteConnectionId": 57,
+  "ERPName": "Jerde-Parisian",
+  "DisplayName": "Ortiz-Osinski",
+  "DisplayDescription": "Team-oriented uniform Graphic Interface",
+  "Rank": 484,
+  "ConnectorName": "Kerluke Group",
+  "ErpConnectionId": 174,
+  "ExtraData": "eligendi",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 555,
-      "ERPPriceListKey": "amet",
-      "QuoteConnectionId": 513,
-      "Name": "Casper-Brown",
-      "Description": "Enhanced logistical access",
-      "Currency": "amet",
-      "CurrencyName": "Rolfson, Zemlak and Mohr",
-      "ValidFrom": "2007-05-10T02:49:45.0309645+02:00",
-      "ValidTo": "2009-04-15T02:49:45.0309645+02:00",
+      "PriceListId": 766,
+      "ERPPriceListKey": "ut",
+      "QuoteConnectionId": 507,
+      "Name": "Roob, VonRueden and Torphy",
+      "Description": "Upgradable actuating task-force",
+      "Currency": "voluptas",
+      "CurrencyName": "Bechtelar Inc and Sons",
+      "ValidFrom": "1996-04-20T17:37:18.7402422+02:00",
+      "ValidTo": "2009-10-25T17:37:18.7402422+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 363
+          "FieldType": "System.Int32",
+          "FieldLength": 652
         }
       }
     }
   ],
   "AllAccess": true,
-  "Deleted": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    578,
-    832
+    547,
+    753
   ],
   "AssociateAccessIds": [
-    550,
-    216
+    659,
+    4
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 660
+      "FieldLength": 825
     }
   }
 }

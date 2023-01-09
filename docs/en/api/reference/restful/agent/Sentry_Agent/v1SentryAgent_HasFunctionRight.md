@@ -42,16 +42,15 @@ POST /api/v1/Agents/Sentry/HasFunctionRight?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 FunctionRight 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| FunctionRight | string |  |
+| FunctionRight | String |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -68,11 +67,11 @@ Response body: bool
 POST /api/v1/Agents/Sentry/HasFunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionRight": "sed"
+  "FunctionRight": "neque"
 }
 ```
 

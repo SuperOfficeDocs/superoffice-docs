@@ -71,18 +71,17 @@ PATCH /api/v1/TicketMessage/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 TicketMessageEntity  updated.
 
@@ -93,14 +92,14 @@ TicketMessageEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because TicketMessageEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: TicketMessageEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EjMessageId | int32 | The primary key (auto-incremented) |
-| Ticket |  | The connected ticket |
+| Ticket | Ticket | The connected ticket |
 | CreatedAt | date-time | When the message was posted. |
-| CreatedBy |  | The associate who created this ticket message |
+| CreatedBy | Associate | The associate who created this ticket message |
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
@@ -112,16 +111,17 @@ Response body:
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person |  | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -137,12 +137,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quis",
+    "path": "magni",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quis",
+    "path": "magni",
     "value": {}
   }
 ]
@@ -155,58 +155,76 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 880,
+  "EjMessageId": 217,
   "Ticket": null,
-  "CreatedAt": "2010-03-01T02:49:51.6553976+01:00",
+  "CreatedAt": "2019-07-17T17:37:39.3804253+02:00",
   "CreatedBy": null,
-  "Author": "asperiores",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "commodi",
-  "TimeSpent": 431,
-  "Body": "rem",
-  "HtmlBody": "odio",
-  "EmailHeader": "patience@gaylord.biz",
-  "DebugInfo": "tempora",
-  "MailSorter": "id",
+  "MessageId": "suscipit",
+  "TimeSpent": 561,
+  "Body": "aut",
+  "HtmlBody": "quia",
+  "EmailHeader": "uriel_hodkiewicz@armstrong.info",
+  "DebugInfo": "in",
+  "MailSorter": "consequuntur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aperiam",
+  "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 442,
-      "Name": "Rath Inc and Sons",
-      "Value": "enim",
+      "Id": 226,
+      "Name": "Schuppe Inc and Sons",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 367
+          "FieldType": "System.Int32",
+          "FieldLength": 318
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "voluptatem",
-  "Sentiment": 530,
-  "SentimentConfidence": 850,
+  "Important": false,
+  "Language": "et",
+  "Sentiment": 769,
+  "SentimentConfidence": 107,
+  "AttachmentsInfo": [
+    {
+      "AttachmentId": 310,
+      "Name": "Lockman Inc and Sons",
+      "ContentType": "quas",
+      "AttSize": 224,
+      "InlineImage": false,
+      "ContentId": "aut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 967
+        }
+      }
+    }
+  ],
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "veniam"
+    "CustomFields1": "nihil",
+    "CustomFields2": "incidunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldLength": 289
     }
   },
   "_Links": {

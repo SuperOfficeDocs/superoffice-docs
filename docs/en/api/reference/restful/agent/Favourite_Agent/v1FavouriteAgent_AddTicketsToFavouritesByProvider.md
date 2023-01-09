@@ -38,19 +38,18 @@ POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider?$select=name,depa
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Restrictions, AssociateId, ExtraInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Restrictions | array |  |
-| AssociateId | int32 |  |
-| ExtraInfo | string |  |
+| ProviderName | String |  |
+| Restrictions | Array |  |
+| AssociateId | Integer |  |
+| ExtraInfo | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -58,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -67,22 +66,22 @@ Response body:
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Nienow-Adams",
+  "ProviderName": "Stoltenberg-Weissnat",
   "Restrictions": [
     {
-      "Name": "Heaney LLC",
-      "Operator": "reiciendis",
+      "Name": "Ernser-Reilly",
+      "Operator": "sunt",
       "Values": [
-        "animi",
-        "quos"
+        "provident",
+        "dolorum"
       ],
       "DisplayValues": [
-        "laudantium",
-        "ea"
+        "ipsa",
+        "natus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +89,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 541,
+      "InterParenthesis": 584,
       "InterOperator": "And",
-      "UniqueHash": 588
+      "UniqueHash": 475
     }
   ],
-  "AssociateId": 950,
-  "ExtraInfo": "dolorum"
+  "AssociateId": 18,
+  "ExtraInfo": "sint"
 }
 ```
 

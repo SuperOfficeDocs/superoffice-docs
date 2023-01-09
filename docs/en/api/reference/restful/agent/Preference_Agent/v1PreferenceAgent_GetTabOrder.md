@@ -42,16 +42,15 @@ POST /api/v1/Agents/Preference/GetTabOrder?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TabName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TabName | string |  |
+| TabName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TabOrder
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +66,7 @@ Response body:
 | TabName | string | Name of tab control |
 | Order | string | The actual tab order |
 | AssociateId | int32 | Associate who owns this tab order |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,11 +75,11 @@ Response body:
 POST /api/v1/Agents/Preference/GetTabOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Bradtke Group"
+  "TabName": "Windler-Mertz"
 }
 ```
 
@@ -91,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 349,
-  "TabName": "Brown-Jaskolski",
-  "Order": "ea",
-  "AssociateId": 12,
+  "TabOrderId": 679,
+  "TabName": "Dare-Ritchie",
+  "Order": "quia",
+  "AssociateId": 236,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 442
     }
   }
 }

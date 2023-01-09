@@ -71,18 +71,17 @@ PATCH /api/v1/Dash/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 Dash  updated.
 
@@ -93,7 +92,7 @@ Dash  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because Dash has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: DashWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,14 +102,14 @@ Response body:
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
 | Columns | int32 | How many columns there will be in the dashboard. |
-| Theme |  | The theme for this dashboard |
+| Theme | DashTheme | The theme for this dashboard |
 | VisibleForAll | int32 | True if visible for all |
 | VisibleForAssociates | array | Array of references to the visible for associates |
 | VisibleForGroups | array | Array of references to the visible for groups |
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -120,18 +119,18 @@ Response body:
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "nulla",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "nulla",
     "value": {}
   }
 ]
@@ -144,37 +143,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 326,
-  "UniqueId": "ut",
-  "Name": "Vandervort, Rutherford and Murray",
-  "Description": "Versatile systematic ability",
-  "AssociateId": 335,
-  "Columns": 854,
+  "DashboardId": 596,
+  "UniqueId": "voluptas",
+  "Name": "Morar-Mann",
+  "Description": "Seamless system-worthy productivity",
+  "AssociateId": 506,
+  "Columns": 189,
   "Theme": null,
-  "VisibleForAll": 794,
+  "VisibleForAll": 159,
   "VisibleForAssociates": [
-    622,
-    858
+    743,
+    756
   ],
   "VisibleForGroups": [
-    291,
-    766
+    681,
+    525
   ],
-  "PinForAll": 483,
+  "PinForAll": 723,
   "PinForAssociates": [
-    276,
-    994
+    149,
+    58
   ],
   "PinForGroups": [
-    145,
-    72
+    79,
+    418
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 753
     }
   },
   "_Links": {

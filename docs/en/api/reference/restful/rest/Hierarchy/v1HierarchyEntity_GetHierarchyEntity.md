@@ -48,7 +48,7 @@ GET /api/v1/Hierarchy/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 HierarchyEntity found.
 
@@ -57,7 +57,7 @@ HierarchyEntity found.
 | 200 | HierarchyEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: HierarchyEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +71,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -81,7 +81,7 @@ Response body:
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,51 +91,51 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 212,
+  "HierarchyId": 965,
   "Domain": "Dashboards",
-  "Name": "Schuppe, Hammes and Haley",
-  "Fullname": "ut",
-  "ParentId": 665,
+  "Name": "Kohler Group",
+  "Fullname": "alias",
+  "ParentId": 800,
   "Children": [
     {
-      "HierarchyId": 600,
+      "HierarchyId": 882,
       "Domain": "Dashboards",
-      "Name": "Aufderhar, Smitham and Senger",
-      "Fullname": "tempora",
-      "ParentId": 468,
+      "Name": "Kessler, Shanahan and Jerde",
+      "Fullname": "distinctio",
+      "ParentId": 486,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-10-13T02:49:50.9952888+02:00",
-      "RegisteredAssociateId": 940,
-      "Updated": "2020-09-21T02:49:50.9952888+02:00",
-      "UpdatedAssociateId": 31,
+      "Registered": "1999-08-14T17:37:38.8258599+02:00",
+      "RegisteredAssociateId": 338,
+      "Updated": "2009-08-18T17:37:38.8258599+02:00",
+      "UpdatedAssociateId": 915,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 718
+          "FieldLength": 8
         }
       }
     }
   ],
-  "Registered": "2015-10-28T02:49:50.9952888+01:00",
-  "RegisteredAssociateId": 25,
-  "Updated": "1996-08-11T02:49:50.9952888+02:00",
-  "UpdatedAssociateId": 445,
+  "Registered": "2003-06-16T17:37:38.8268636+02:00",
+  "RegisteredAssociateId": 957,
+  "Updated": "2011-10-06T17:37:38.8268636+02:00",
+  "UpdatedAssociateId": 887,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 965
+      "FieldType": "System.Int32",
+      "FieldLength": 443
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

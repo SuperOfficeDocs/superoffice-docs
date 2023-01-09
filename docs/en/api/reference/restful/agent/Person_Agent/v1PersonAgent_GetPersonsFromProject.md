@@ -42,16 +42,15 @@ POST /api/v1/Agents/Person/GetPersonsFromProject?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
+| ProjectId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,7 +102,7 @@ Response body: array
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -112,11 +111,11 @@ Response body: array
 POST /api/v1/Agents/Person/GetPersonsFromProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 508
+  "ProjectId": 887
 }
 ```
 
@@ -128,52 +127,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "officia",
-    "PersonId": 270,
-    "Mrmrs": "ut",
-    "Firstname": "Derek",
-    "Lastname": "Oberbrunner",
-    "MiddleName": "Stroman Group",
-    "Title": "eaque",
-    "Description": "Enhanced eco-centric core",
-    "Email": "velva@keelingbins.com",
-    "FullName": "Ms. Cesar Jacobi IV",
-    "DirectPhone": "521.583.1837",
-    "FormalName": "Oberbrunner, Bechtelar and O'Kon",
-    "CountryId": 938,
-    "ContactId": 218,
-    "ContactName": "Murazik, Mohr and Hills",
-    "Retired": 655,
-    "Rank": 171,
-    "ActiveInterests": 226,
+    "Position": "deleniti",
+    "PersonId": 831,
+    "Mrmrs": "dolorum",
+    "Firstname": "Wellington",
+    "Lastname": "Gibson",
+    "MiddleName": "Cummerata-Daugherty",
+    "Title": "aut",
+    "Description": "Versatile 24 hour website",
+    "Email": "raleigh_langosh@lynchbrown.us",
+    "FullName": "Mozelle Walter",
+    "DirectPhone": "(837)129-5721",
+    "FormalName": "Krajcik, Kreiger and Gleichner",
+    "CountryId": 300,
+    "ContactId": 926,
+    "ContactName": "Bogisich Group",
+    "Retired": 930,
+    "Rank": 68,
+    "ActiveInterests": 924,
     "ContactDepartment": "",
-    "ContactCountryId": 360,
-    "ContactOrgNr": "534103",
-    "FaxPhone": "(959)499-9855",
-    "MobilePhone": "(786)446-7581 x76228",
-    "ContactPhone": "782.844.8638",
-    "AssociateName": "Herman, Johnston and Pacocha",
-    "AssociateId": 883,
-    "UsePersonAddress": false,
-    "ContactFax": "aut",
-    "Kanafname": "repellendus",
-    "Kanalname": "libero",
-    "Post1": "autem",
-    "Post2": "nemo",
-    "Post3": "voluptatum",
-    "EmailName": "syble@upton.biz",
-    "ContactFullName": "Ms. Mallory Morissette",
-    "ActiveErpLinks": 471,
-    "TicketPriorityId": 886,
-    "SupportLanguageId": 356,
-    "SupportAssociateId": 562,
+    "ContactCountryId": 688,
+    "ContactOrgNr": "1330937",
+    "FaxPhone": "870-981-4179",
+    "MobilePhone": "(051)879-5813",
+    "ContactPhone": "067.953.5601",
+    "AssociateName": "Lockman Inc and Sons",
+    "AssociateId": 531,
+    "UsePersonAddress": true,
+    "ContactFax": "qui",
+    "Kanafname": "consequatur",
+    "Kanalname": "sint",
+    "Post1": "rerum",
+    "Post2": "tempora",
+    "Post3": "voluptatibus",
+    "EmailName": "dolly_bartoletti@wehner.name",
+    "ContactFullName": "Cyrus Denesik",
+    "ActiveErpLinks": 935,
+    "TicketPriorityId": 598,
+    "SupportLanguageId": 795,
+    "SupportAssociateId": 319,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldType": "System.String",
+        "FieldLength": 967
       }
     }
   }

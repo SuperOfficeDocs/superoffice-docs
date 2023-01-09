@@ -12,8 +12,6 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is empty
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -36,26 +34,25 @@ Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The CRMScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EjscriptId | int32 | Primary key |
-| UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Name | string | A description of this script |
-| Description | string | Optional description of what this script is used for. |
-| IncludeId | string | A unique name used for including this script in another |
-| HierarchyId | int32 | The script is inside this hierarchy folder |
-| Source | string | The script |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
+| EjscriptId | Integer | Primary key |
+| UniqueIdentifier | String | Global unique identifier, accross customers/tenants |
+| Name | String | A description of this script |
+| Description | String | Optional description of what this script is used for. |
+| IncludeId | String | A unique name used for including this script in another |
+| HierarchyId | Integer | The script is inside this hierarchy folder |
+| Source | String | The script |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CRMScriptEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +75,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,21 +84,21 @@ Response body:
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 842,
-  "UniqueIdentifier": "esse",
-  "Name": "Zemlak-Breitenberg",
-  "Description": "Progressive real-time database",
-  "IncludeId": "soluta",
-  "HierarchyId": 662,
-  "Source": "amet",
-  "Registered": "1999-03-27T02:49:44.0129044+01:00",
-  "RegisteredAssociateId": 873,
-  "Updated": "2008-08-24T02:49:44.0129044+02:00",
-  "UpdatedAssociateId": 426
+  "EjscriptId": 835,
+  "UniqueIdentifier": "aut",
+  "Name": "Deckow, Mosciski and Koelpin",
+  "Description": "Multi-tiered regional knowledge base",
+  "IncludeId": "ut",
+  "HierarchyId": 577,
+  "Source": "qui",
+  "Registered": "2001-10-17T17:37:17.3242459+02:00",
+  "RegisteredAssociateId": 251,
+  "Updated": "2007-07-29T17:37:17.3242459+02:00",
+  "UpdatedAssociateId": 832
 }
 ```
 
@@ -112,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 68,
-  "UniqueIdentifier": "voluptatem",
-  "Name": "Boehm Inc and Sons",
-  "Description": "Horizontal static core",
-  "IncludeId": "sit",
-  "HierarchyId": 191,
-  "Source": "excepturi",
-  "Registered": "2006-02-22T02:49:44.0129044+01:00",
-  "RegisteredAssociateId": 786,
-  "Updated": "2014-11-04T02:49:44.0129044+01:00",
-  "UpdatedAssociateId": 112,
+  "EjscriptId": 540,
+  "UniqueIdentifier": "a",
+  "Name": "Gusikowski-Sanford",
+  "Description": "Digitized leading edge extranet",
+  "IncludeId": "earum",
+  "HierarchyId": 515,
+  "Source": "ad",
+  "Registered": "2015-12-24T17:37:17.3242459+01:00",
+  "RegisteredAssociateId": 151,
+  "Updated": "2003-04-11T17:37:17.3242459+02:00",
+  "UpdatedAssociateId": 483,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 798
+      "FieldType": "System.Int32",
+      "FieldLength": 737
     }
   }
 }

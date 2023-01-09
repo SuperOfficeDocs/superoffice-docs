@@ -44,17 +44,16 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, Criteria 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| Criteria | array |  |
+| SelectionId | Integer |  |
+| Criteria | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body: array
 | Operator | string |  |
 | Values | array |  |
 | DisplayValues | array |  |
-| ColumnInfo |  |  |
+| ColumnInfo | TableRight |  |
 | IsActive | bool |  |
 | SubRestrictions | array |  |
 | InterParenthesis | int32 |  |
@@ -83,32 +82,32 @@ Response body: array
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 412,
+  "SelectionId": 65,
   "Criteria": [
     {
-      "Name": "Toy Group",
-      "Operator": "suscipit",
+      "Name": "Gibson Inc and Sons",
+      "Operator": "dolores",
       "Values": [
-        "modi",
-        "quia"
+        "veritatis",
+        "ullam"
       ],
       "DisplayValues": [
-        "placeat",
-        "autem"
+        "voluptatum",
+        "officiis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 16,
+      "InterParenthesis": 840,
       "InterOperator": "And",
-      "UniqueHash": 149
+      "UniqueHash": 812
     }
   ]
 }
@@ -122,29 +121,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Prosacco-Herzog",
-    "Operator": "explicabo",
+    "Name": "Huels-Stamm",
+    "Operator": "occaecati",
     "Values": [
-      "ut",
-      "non"
+      "repudiandae",
+      "ea"
     ],
     "DisplayValues": [
-      "voluptas",
-      "et"
+      "et",
+      "dolor"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Rath-Bogan",
-        "Operator": "laborum",
+        "Name": "Breitenberg-Goodwin",
+        "Operator": "totam",
         "Values": [
-          "saepe",
-          "ut"
+          "repellendus",
+          "libero"
         ],
         "DisplayValues": [
-          "ea",
-          "aspernatur"
+          "commodi",
+          "ratione"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +151,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 134,
+        "InterParenthesis": 16,
         "InterOperator": "And",
-        "UniqueHash": 560
+        "UniqueHash": 712
       }
     ],
-    "InterParenthesis": 63,
+    "InterParenthesis": 45,
     "InterOperator": "And",
-    "UniqueHash": 244
+    "UniqueHash": 648
   }
 ]
 ```

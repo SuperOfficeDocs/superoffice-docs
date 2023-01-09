@@ -25,7 +25,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=651
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=385
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketMessage
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +74,7 @@ Response body:
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
 | CreatedBy | int32 | The id of the user who posted the message. The value 1 (system user) for externally posted messages. |
 | ChangedAt | date-time | When the message was changed. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 695,
-  "CreatedAt": "2000-10-04T02:49:45.5778449+02:00",
+  "TicketMessageId": 573,
+  "CreatedAt": "2021-04-03T17:37:19.4429765+02:00",
   "Slevel": "External",
-  "Important": false,
-  "Author": "est",
-  "PersonId": 612,
-  "PersonFullName": "Hershel Ledner",
-  "ContactId": 682,
-  "ContactName": "O'Kon, Farrell and Heathcote",
+  "Important": true,
+  "Author": "sapiente",
+  "PersonId": 262,
+  "PersonFullName": "Miss Lowell Casey Murphy",
+  "ContactId": 881,
+  "ContactName": "Keeling Inc and Sons",
   "ContactDepartment": "",
-  "NumAttachments": 909,
-  "EmailHeader": "idella@auer.com",
+  "NumAttachments": 745,
+  "EmailHeader": "lauretta@okuneva.us",
   "MessageHeaders": [
     {
-      "Id": 554,
-      "Name": "Walsh-Schmidt",
-      "Value": "autem",
+      "Id": 677,
+      "Name": "Hackett-Gleason",
+      "Value": "dolorum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -117,22 +117,22 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 551
         }
       }
     }
   ],
-  "Language": "id",
-  "Sentiment": 937,
-  "SentimentConfidence": 472,
-  "CreatedBy": 493,
-  "ChangedAt": "2012-10-03T02:49:45.5778449+02:00",
+  "Language": "voluptate",
+  "Sentiment": 747,
+  "SentimentConfidence": 133,
+  "CreatedBy": 903,
+  "ChangedAt": "2009-08-13T17:37:19.4429765+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldType": "System.String",
+      "FieldLength": 730
     }
   }
 }

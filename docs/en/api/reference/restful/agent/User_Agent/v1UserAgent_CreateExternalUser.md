@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/CreateExternalUser
 Creates an associate of type external user.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,20 +44,19 @@ POST /api/v1/Agents/User/CreateExternalUser?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, UserName, Password, RoleId, IsActive 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| UserName | string |  |
-| Password | string |  |
-| RoleId | int32 |  |
-| IsActive | bool |  |
+| PersonId | Integer |  |
+| UserName | String |  |
+| Password | String |  |
+| RoleId | Integer |  |
+| IsActive | Boolean |  |
 
-
-## Response: int32
+## Response:int32
 
 OK
 
@@ -67,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -80,11 +77,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 526,
-  "UserName": "Fahey Inc and Sons",
-  "Password": "quia",
-  "RoleId": 161,
-  "IsActive": true
+  "PersonId": 475,
+  "UserName": "Bruen Group",
+  "Password": "facilis",
+  "RoleId": 26,
+  "IsActive": false
 }
 ```
 
@@ -94,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-929
+910
 ```

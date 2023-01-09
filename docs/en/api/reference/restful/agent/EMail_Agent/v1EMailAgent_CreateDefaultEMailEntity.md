@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +54,7 @@ Response body:
 | Bcc | array | Bcc recipient of e-mail |
 | Subject | string | Subject of the e-mail |
 | HTMLBody | string | Body formatted in HTML |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | Sent | date-time | When was the e-mail sent |
 | Size | int32 | Total size of the e-mail |
 | Priority | string | Importance of the e-mail |
@@ -62,7 +62,7 @@ Response body:
 | MessageID | string | Unique id of e-mails |
 | PlainBody | string | Body formatted in plain text |
 | IsSent | bool | Is this a sent e-mail (not new) |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
 | ServerId | int32 | Unique id for the e-mail on the server |
 | Attachments | array |  |
 | CustomHeaderList | array | Non standard e-mail headers |
@@ -70,12 +70,12 @@ Response body:
 | EmailItemId | int32 | Primary key |
 | AccountId | int32 | Account Id |
 | ReceivedAt | date-time | Received date time |
-| InReplyTo |  | The envelope of the email this email is a reply to, if it exists |
+| InReplyTo | EMailEnvelope | The envelope of the email this email is a reply to, if it exists |
 | RepliedAt | date-time | When this email was replied at |
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body:
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,155 +96,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 367,
-      "ContactName": "Nader-Abshire",
-      "PersonId": 810,
-      "PersonName": "Sipes Inc and Sons",
-      "AssociateId": 340,
-      "Address": "esse",
-      "EmailId": 184,
+      "ContactId": 795,
+      "ContactName": "Sauer-Sawayn",
+      "PersonId": 627,
+      "PersonName": "Hansen-Grant",
+      "AssociateId": 439,
+      "Address": "rerum",
+      "EmailId": 981,
       "DuplicatePersonIds": [
-        621,
-        834
+        247,
+        765
       ],
-      "Name": "Homenick, Hermiston and Goyette",
+      "Name": "Russel, Price and Oberbrunner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldLength": 188
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 64,
-      "ContactName": "Farrell-Nicolas",
-      "PersonId": 153,
-      "PersonName": "Lind-Koelpin",
-      "AssociateId": 817,
-      "Address": "tempora",
-      "EmailId": 854,
+      "ContactId": 223,
+      "ContactName": "Dach Group",
+      "PersonId": 453,
+      "PersonName": "Macejkovic, Schmeler and Brown",
+      "AssociateId": 477,
+      "Address": "id",
+      "EmailId": 316,
       "DuplicatePersonIds": [
-        25,
-        606
+        927,
+        166
       ],
-      "Name": "Bergstrom LLC",
+      "Name": "Pfeffer, Nikolaus and Stanton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 310
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 560,
-      "ContactName": "Lubowitz Group",
-      "PersonId": 102,
-      "PersonName": "Thiel-Gislason",
-      "AssociateId": 315,
-      "Address": "laboriosam",
-      "EmailId": 228,
+      "ContactId": 236,
+      "ContactName": "Langworth-McClure",
+      "PersonId": 990,
+      "PersonName": "Smith LLC",
+      "AssociateId": 14,
+      "Address": "saepe",
+      "EmailId": 591,
       "DuplicatePersonIds": [
-        738,
-        445
+        310,
+        750
       ],
-      "Name": "Stracke, Quigley and Stehr",
+      "Name": "Oberbrunner, Walker and Mayer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldType": "System.String",
+          "FieldLength": 642
         }
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "qui",
+  "Subject": "maxime",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2006-10-26T02:49:44.403542+02:00",
-  "Size": 678,
+  "Sent": "2000-04-26T17:37:17.9172416+02:00",
+  "Size": 583,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "qui",
-  "PlainBody": "voluptas",
+  "MessageID": "non",
+  "PlainBody": "dolor",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 340,
+  "ServerId": 996,
   "Attachments": [
     {
-      "Description": "Function-based even-keeled ability",
-      "Filename": "veniam",
-      "Size": 544,
-      "Type": "deleniti",
-      "Encoding": "perspiciatis",
-      "Id": "saepe",
-      "Disposition": "dolores",
+      "Description": "Enterprise-wide disintermediate initiative",
+      "Filename": "dignissimos",
+      "Size": 730,
+      "Type": "dolor",
+      "Encoding": "dicta",
+      "Id": "odit",
+      "Disposition": "quia",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 798
+          "FieldType": "System.String",
+          "FieldLength": 524
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Cronin-Pagac",
+      "Name": "Veum, DuBuque and Bernhard",
       "Values": [
-        "magni",
-        "incidunt"
+        "ad",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 602
         }
       }
     },
     {
-      "Name": "Cronin-Pagac",
+      "Name": "Veum, DuBuque and Bernhard",
       "Values": [
-        "magni",
-        "incidunt"
+        "ad",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 602
         }
       }
     }
   ],
-  "FolderName": "Fadel-Jewess",
-  "EmailItemId": 897,
-  "AccountId": 743,
-  "ReceivedAt": "2004-11-27T02:49:44.403542+01:00",
+  "FolderName": "Bradtke Inc and Sons",
+  "EmailItemId": 501,
+  "AccountId": 675,
+  "ReceivedAt": "2017-10-05T17:37:17.9172416+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-01-22T02:49:44.403542+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "1998-03-25T17:37:17.9172416+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldType": "System.String",
+      "FieldLength": 195
     }
   }
 }

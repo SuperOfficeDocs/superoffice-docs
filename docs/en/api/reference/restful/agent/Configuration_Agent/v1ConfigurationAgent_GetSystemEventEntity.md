@@ -25,7 +25,7 @@ Gets a SystemEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=487
+POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=343
 POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,c
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SystemEventEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,8 +65,8 @@ Response body:
 | Owner | int32 | 0, 0, group_id, assoc id (see over) |
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
-| ActivatedBy |  | The associate that first created the SystemEvent. |
-| TableRight |  |  |
+| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 778,
+  "SystemEventId": 924,
   "Scope": "Database",
-  "Eta": "2009-02-11T02:49:43.8722795+01:00",
-  "Eventkey": "nisi",
-  "Eventmess": "velit",
-  "ExtraInfo": 288,
-  "Owner": 483,
-  "UpdatedCount": 74,
-  "Registered": "2009-02-11T02:49:43.8722795+01:00",
+  "Eta": "1998-11-25T17:37:17.1362431+01:00",
+  "Eventkey": "aut",
+  "Eventmess": "asperiores",
+  "ExtraInfo": 732,
+  "Owner": 619,
+  "UpdatedCount": 657,
+  "Registered": "2008-08-02T17:37:17.1362431+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldType": "System.String",
+      "FieldLength": 721
     }
   }
 }

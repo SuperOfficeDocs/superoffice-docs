@@ -47,7 +47,7 @@ GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -55,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +74,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Ritchie-Kirlin",
-    "ToolTip": "Iusto dolore eligendi sapiente.",
+    "Id": 246,
+    "Name": "Bogisich, Paucek and Ratke",
+    "ToolTip": "Assumenda voluptatem similique neque at.",
     "Deleted": false,
-    "Rank": 209,
-    "Type": "mollitia",
-    "ColorBlock": 521,
-    "IconHint": "alias",
+    "Rank": 302,
+    "Type": "et",
+    "ColorBlock": 195,
+    "IconHint": "optio",
     "Selected": false,
-    "LastChanged": "2005-08-22T02:49:51.8753193+02:00",
+    "LastChanged": "1995-11-03T17:37:39.6334317+01:00",
     "ChildItems": [
       {
-        "Id": 466,
-        "Name": "Keebler LLC",
-        "ToolTip": "Ut sint qui ipsum repellat veniam maxime.",
+        "Id": 128,
+        "Name": "Muller-Howell",
+        "ToolTip": "Sed sit rerum.",
         "Deleted": false,
-        "Rank": 785,
-        "Type": "soluta",
-        "ColorBlock": 492,
-        "IconHint": "reiciendis",
-        "Selected": false,
-        "LastChanged": "2001-11-14T02:49:51.8753193+01:00",
+        "Rank": 940,
+        "Type": "modi",
+        "ColorBlock": 900,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2012-04-23T17:37:39.6334317+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "quia",
+        "ExtraInfo": "rem",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Jayden Fay",
+        "FullName": "Mr. Randal Cedrick Kilback III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 788
+            "FieldLength": 919
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "doloremque",
-    "Hidden": true,
-    "FullName": "Laila Elfrieda Pouros MD",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "nisi",
+    "Hidden": false,
+    "FullName": "Mr. Kristin Catalina Hudson V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 364
+        "FieldType": "System.Int32",
+        "FieldLength": 769
       }
     }
   }

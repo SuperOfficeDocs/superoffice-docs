@@ -42,16 +42,15 @@ POST /api/v1/Agents/Marketing/GetPreviewMailing?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ShipmentAddrId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ShipmentAddrId | int32 |  |
+| ShipmentAddrId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreviewMailing
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body:
 | DocumentMessageId | int32 | If a document was used as the message this is the document ID. |
 | Opened | date-time | Date/time the customer read the mailing. |
 | LinkClicks | int32 | The number of links clicked in the mailing. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,11 +86,11 @@ Response body:
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 139
+  "ShipmentAddrId": 265
 }
 ```
 
@@ -102,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "1997-11-11T02:49:44.7172985+01:00",
+  "SendingTime": "2009-02-18T17:37:18.3232419+01:00",
   "Status": "Blocked",
-  "ShipmentId": 448,
-  "ShipmentDescription": "Upgradable national budgetary management",
-  "FromAddress": "nihil",
-  "ContactId": 860,
-  "ContactName": "Considine Group",
-  "PersonId": 978,
-  "PersonFullName": "Diego Werner Von PhD",
-  "ShipmentType": "illo",
-  "MessageId": 40,
-  "MessageSubject": "perspiciatis",
-  "DocumentMessageId": 195,
-  "Opened": "2020-02-27T02:49:44.7172985+01:00",
-  "LinkClicks": 841,
+  "ShipmentId": 635,
+  "ShipmentDescription": "Centralized 6th generation data-warehouse",
+  "FromAddress": "maxime",
+  "ContactId": 418,
+  "ContactName": "Kris, Hermann and Towne",
+  "PersonId": 959,
+  "PersonFullName": "Jamar Jenkins MD",
+  "ShipmentType": "optio",
+  "MessageId": 490,
+  "MessageSubject": "aut",
+  "DocumentMessageId": 836,
+  "Opened": "2000-12-17T17:37:18.3242416+01:00",
+  "LinkClicks": 516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 339
     }
   }
 }

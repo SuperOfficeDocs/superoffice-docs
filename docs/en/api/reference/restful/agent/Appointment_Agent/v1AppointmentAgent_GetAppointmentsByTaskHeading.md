@@ -44,16 +44,15 @@ POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TaskHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TaskHeadingId | int32 |  |
+| TaskHeadingId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -114,7 +113,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -127,7 +126,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskHeadingId": 679
+  "TaskHeadingId": 946
 }
 ```
 
@@ -139,53 +138,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 39,
-    "StartDate": "2018-01-14T02:49:43.2461231+01:00",
-    "EndDate": "2016-06-14T02:49:43.2461231+02:00",
+    "AppointmentId": 347,
+    "StartDate": "1999-11-03T17:37:16.261241+01:00",
+    "EndDate": "2019-10-11T17:37:16.261241+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quibusdam",
-    "AssociateFullName": "Mr. Larue Langosh",
-    "ContactName": "Reichert, Lynch and Keebler",
-    "Description": "Cross-group bi-directional structure",
-    "PersonFullName": "Annamae Stanton",
-    "PersonId": 969,
-    "ContactId": 176,
-    "ProjectId": 3,
-    "ProjectName": "Jacobi, Aufderhar and Schmidt",
-    "IsPublished": true,
-    "AssociateId": 394,
-    "ColorIndex": 392,
+    "Task": "nihil",
+    "AssociateFullName": "Alexandrine Schumm",
+    "ContactName": "Dach, Hodkiewicz and Veum",
+    "Description": "User-centric context-sensitive infrastructure",
+    "PersonFullName": "Prof. Claud Glover",
+    "PersonId": 964,
+    "ContactId": 5,
+    "ProjectId": 142,
+    "ProjectName": "Gleason, Hansen and Schmeler",
+    "IsPublished": false,
+    "AssociateId": 521,
+    "ColorIndex": 990,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 896,
-    "PriorityName": "Bogisich-Jerde",
+    "PriorityId": 86,
+    "PriorityName": "Purdy LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2022-04-21T02:49:43.2461231+02:00",
+    "ActiveDate": "1998-10-05T17:37:16.261241+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-09-18T02:49:43.2461231+02:00",
-    "RecurringEndDate": "2018-02-11T02:49:43.2461231+01:00",
-    "MotherId": 123,
-    "AssignedBy": 27,
-    "AssignedByFullName": "Dameon Kemmer",
-    "RejectReason": "extend e-business infomediaries",
-    "Location": "et",
-    "AlarmLeadTime": "ab",
-    "SaleId": 49,
-    "SaleName": "Mayer-Marvin",
-    "AssociateName": "Spinka, Klein and Koelpin",
-    "CreatedDate": "2019-01-19T02:49:43.2461231+01:00",
-    "CreatedBy": "iste",
-    "CreatedByFullName": "Sonny Bogisich",
-    "CreatedByAssociateId": 10,
+    "RecurringStartDate": "2009-04-08T17:37:16.261241+02:00",
+    "RecurringEndDate": "2021-03-08T17:37:16.261241+01:00",
+    "MotherId": 756,
+    "AssignedBy": 604,
+    "AssignedByFullName": "Amparo Mante",
+    "RejectReason": "",
+    "Location": "voluptatem",
+    "AlarmLeadTime": "vel",
+    "SaleId": 713,
+    "SaleName": "Nader, McKenzie and Kling",
+    "AssociateName": "Senger, Brakus and Pfannerstill",
+    "CreatedDate": "2012-12-15T17:37:16.261241+01:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Dr. Virgie Gleason Jr.",
+    "CreatedByAssociateId": 57,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -193,7 +192,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldLength": 234
       }
     }
   }

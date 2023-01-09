@@ -32,18 +32,17 @@ Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The StatusMonitorPeriods to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Period1 | int32 | Days in the first period |
-| Period2 | int32 | Days in the second period |
-| Period3 | int32 | Days in the third period |
+| Period1 | Integer | Days in the first period |
+| Period2 | Integer | Days in the second period |
+| Period3 | Integer | Days in the third period |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -51,14 +50,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: StatusMonitorPeriods
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Period1 | int32 | Days in the first period |
 | Period2 | int32 | Days in the second period |
 | Period3 | int32 | Days in the third period |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -67,13 +66,13 @@ Response body:
 POST /api/v1/Agents/Saint/SaveStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 125,
-  "Period2": 881,
-  "Period3": 857
+  "Period1": 523,
+  "Period2": 512,
+  "Period3": 200
 }
 ```
 
@@ -84,15 +83,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 83,
-  "Period2": 586,
-  "Period3": 593,
+  "Period1": 686,
+  "Period2": 578,
+  "Period3": 286,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldLength": 873
     }
   }
 }

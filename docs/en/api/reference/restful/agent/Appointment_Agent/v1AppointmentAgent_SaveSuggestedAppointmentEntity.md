@@ -32,29 +32,28 @@ Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppoin
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The SuggestedAppointmentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SuggestedAppointmentId | int32 | Primary key |
-| Name | string | Item name, visible in Guide |
-| Tooltip | string | Tooltip / description |
-| Rank | int32 | Rank, controls rank of non-instantiated items in Guide |
-| Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| DaysFuture | int32 | How many days into the future the appointment should be scheduled |
-| Duration | string | Duration in minutes of suggested appointment |
-| AutoSuggest | bool | Should this appointment be auto-suggested |
-| IsMilestone | bool | Is this a milestone activity |
-| AssignToMember | bool | Should this appointment be assigned to project member |
-| Text | string | The suggested text of the new appointment |
-| ProjectTypeStatusLink |  | Project type and project status link info |
-| SaleTypeStageLink |  | Sale type and stage link info |
-| Type |  | Type of the suggested appointment |
+| SuggestedAppointmentId | Integer | Primary key |
+| Name | String | Item name, visible in Guide |
+| Tooltip | String | Tooltip / description |
+| Rank | Integer | Rank, controls rank of non-instantiated items in Guide |
+| Deleted | Boolean | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
+| DaysFuture | Integer | How many days into the future the appointment should be scheduled |
+| Duration | String | Duration in minutes of suggested appointment |
+| AutoSuggest | Boolean | Should this appointment be auto-suggested |
+| IsMilestone | Boolean | Is this a milestone activity |
+| AssignToMember | Boolean | Should this appointment be assigned to project member |
+| Text | String | The suggested text of the new appointment |
+| ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
+| SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info |
+| Type | Task | Type of the suggested appointment |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SuggestedAppointmentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,10 +76,10 @@ Response body:
 | IsMilestone | bool | Is this a milestone activity |
 | AssignToMember | bool | Should this appointment be assigned to project member |
 | Text | string | The suggested text of the new appointment |
-| ProjectTypeStatusLink |  | Project type and project status link info |
-| SaleTypeStageLink |  | Sale type and stage link info |
-| Type |  | Type of the suggested appointment |
-| TableRight |  |  |
+| ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
+| SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info |
+| Type | Task | Type of the suggested appointment |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,21 +88,21 @@ Response body:
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 936,
-  "Name": "Jerde-Cole",
-  "Tooltip": "qui",
-  "Rank": 199,
+  "SuggestedAppointmentId": 735,
+  "Name": "Hackett, McDermott and Corkery",
+  "Tooltip": "non",
+  "Rank": 118,
   "Deleted": false,
-  "DaysFuture": 898,
-  "Duration": "ex",
+  "DaysFuture": 263,
+  "Duration": "harum",
   "AutoSuggest": true,
   "IsMilestone": false,
   "AssignToMember": true,
-  "Text": "quasi",
+  "Text": "ut",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +116,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 567,
-  "Name": "Little, Cummerata and Leuschke",
-  "Tooltip": "est",
-  "Rank": 753,
-  "Deleted": true,
-  "DaysFuture": 918,
-  "Duration": "odit",
-  "AutoSuggest": false,
-  "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "corporis",
+  "SuggestedAppointmentId": 901,
+  "Name": "Donnelly, Dicki and Kris",
+  "Tooltip": "facilis",
+  "Rank": 678,
+  "Deleted": false,
+  "DaysFuture": 819,
+  "Duration": "rerum",
+  "AutoSuggest": true,
+  "IsMilestone": true,
+  "AssignToMember": false,
+  "Text": "harum",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldType": "System.String",
+      "FieldLength": 851
     }
   }
 }

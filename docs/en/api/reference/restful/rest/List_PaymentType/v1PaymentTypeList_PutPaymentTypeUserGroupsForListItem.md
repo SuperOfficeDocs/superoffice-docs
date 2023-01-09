@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Bednar Group",
-    "ToolTip": "Delectus id ut neque.",
+    "Id": 12,
+    "Name": "Renner LLC",
+    "ToolTip": "Sit molestias.",
     "Deleted": false,
-    "Rank": 421,
-    "Type": "velit",
-    "ColorBlock": 914,
-    "IconHint": "eligendi",
+    "Rank": 895,
+    "Type": "eos",
+    "ColorBlock": 811,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "2016-05-23T02:49:52.3128229+02:00",
+    "LastChanged": "2022-10-24T17:37:40.0924994+02:00",
     "ChildItems": [
       {
-        "Id": 187,
-        "Name": "Vandervort Inc and Sons",
-        "ToolTip": "Quaerat exercitationem voluptatem non.",
-        "Deleted": true,
-        "Rank": 514,
-        "Type": "sed",
-        "ColorBlock": 764,
-        "IconHint": "voluptates",
+        "Id": 213,
+        "Name": "Hansen, D'Amore and Becker",
+        "ToolTip": "Totam accusantium qui.",
+        "Deleted": false,
+        "Rank": 361,
+        "Type": "modi",
+        "ColorBlock": 548,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "1998-07-08T02:49:52.3128229+02:00",
+        "LastChanged": "2002-02-11T17:37:40.0924994+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "libero",
+        "ExtraInfo": "ad",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Barry West"
+        "FullName": "Prof. Jazmyn Katelin Armstrong IV"
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "sunt",
-    "Hidden": true,
-    "FullName": "Johanna Pagac"
+    "ExtraInfo": "temporibus",
+    "StyleHint": "beatae",
+    "Hidden": false,
+    "FullName": "Lesly Hermiston"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 85,
-    "Name": "Klein, Rowe and McLaughlin",
-    "ToolTip": "Est distinctio debitis omnis sapiente veniam placeat dolorem.",
+    "Id": 402,
+    "Name": "Kiehn, Jones and Rice",
+    "ToolTip": "Illo doloremque dolorum.",
     "Deleted": true,
-    "Rank": 927,
-    "Type": "ea",
-    "ColorBlock": 651,
-    "IconHint": "incidunt",
+    "Rank": 100,
+    "Type": "itaque",
+    "ColorBlock": 453,
+    "IconHint": "ab",
     "Selected": false,
-    "LastChanged": "2010-12-15T02:49:52.3128229+01:00",
+    "LastChanged": "2015-12-22T17:37:40.094495+01:00",
     "ChildItems": [
       {
-        "Id": 39,
-        "Name": "Romaguera Inc and Sons",
-        "ToolTip": "Deserunt similique eveniet.",
+        "Id": 739,
+        "Name": "Lowe, Conn and Murphy",
+        "ToolTip": "Cupiditate laboriosam quisquam odit aut a hic nostrum.",
         "Deleted": false,
-        "Rank": 125,
-        "Type": "saepe",
-        "ColorBlock": 628,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2004-01-21T02:49:52.3128229+01:00",
+        "Rank": 15,
+        "Type": "voluptatem",
+        "ColorBlock": 247,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2006-09-19T17:37:40.094495+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "quo",
-        "StyleHint": "quo",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Kyler Watsica",
+        "FullName": "Kitty Auer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 398
+            "FieldType": "System.Int32",
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "dolore",
+    "ExtraInfo": "beatae",
+    "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Prof. Westley Haag Jr.",
+    "FullName": "Miss Lilyan Emie Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 414
+        "FieldType": "System.Int32",
+        "FieldLength": 618
       }
     }
   }

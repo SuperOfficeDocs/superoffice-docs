@@ -48,7 +48,7 @@ GET /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ShipmentMessageEntity found.
 
@@ -57,7 +57,7 @@ ShipmentMessageEntity found.
 | 200 | ShipmentMessageEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ShipmentMessageEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +82,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -92,7 +92,7 @@ Response body:
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,38 +102,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 166,
-  "PlainMessage": "dolore",
-  "HtmlMessage": "dolor",
-  "SmsMessage": "sequi",
-  "Description": "Pre-emptive well-modulated utilisation",
-  "Subject": "et",
-  "FolderId": 577,
-  "HeaderField": "excepturi",
-  "Design": "cumque",
+  "ShipmentMessageId": 790,
+  "PlainMessage": "est",
+  "HtmlMessage": "impedit",
+  "SmsMessage": "ut",
+  "Description": "Assimilated optimizing firmware",
+  "Subject": "voluptatibus",
+  "FolderId": 89,
+  "HeaderField": "exercitationem",
+  "Design": "nam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Persistent neutral success",
-  "AccessKey": "molestiae",
-  "DocumentMessage": 99,
-  "Registered": "1997-12-26T02:49:51.536309+01:00",
-  "RegisteredAssociateId": 110,
-  "Updated": "2006-08-17T02:49:51.536309+02:00",
-  "UpdatedAssociateId": 394,
-  "UpdatedCount": 401,
+  "InlineImages": true,
+  "LongDescription": "Persevering explicit algorithm",
+  "AccessKey": "deleniti",
+  "DocumentMessage": 579,
+  "Registered": "2001-03-13T17:37:39.2273036+01:00",
+  "RegisteredAssociateId": 566,
+  "Updated": "2003-04-14T17:37:39.2273036+02:00",
+  "UpdatedAssociateId": 348,
+  "UpdatedCount": 734,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldLength": 111
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

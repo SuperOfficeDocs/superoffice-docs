@@ -42,16 +42,15 @@ POST /api/v1/Agents/Contact/GetDuplicates?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
+| Name | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body: array
 | EntryName | string | Name of duplicate entry |
 | EntryIdentifier | string | String identifier for entry. Typically used to identify an entry in an external system. |
 | RuleDisplayName | string | Short name of rule to display to user |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Paucek, Hansen and Wilkinson"
+  "Name": "Schulist Group"
 }
 ```
 
@@ -93,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Batz, Brakus and Kertzmann",
-    "SoPrimaryKey": 938,
-    "EntryName": "Halvorson Group",
-    "EntryIdentifier": "saepe",
-    "RuleDisplayName": "Pouros, Bernhard and Kessler",
+    "RuleName": "Harris Group",
+    "SoPrimaryKey": 637,
+    "EntryName": "Feeney, Bogisich and Ratke",
+    "EntryIdentifier": "est",
+    "RuleDisplayName": "Kshlerin-Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldLength": 632
       }
     }
   }

@@ -46,34 +46,33 @@ PUT /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The DashTileDefinition to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardTileDefinitionId | int32 | Primary key |
-| Name | string | The name of the tile |
-| Description | string | Detailed description |
-| DefaultHeight | int32 | Default height when added to a dashboard |
-| DefaultWidth | int32 | Default width when added to a dashboard |
-| TileType | string | Dashboard tile type |
-| EntityType | string | Dashboard entity type |
-| EntityName | string | The entity measured by this tile, defines what provider to use |
-| SelectionId | int32 | Selection holding the criterias for the tile definition |
-| CurrencyMode | string | Dashboard currency mode |
-| CurrencyCode | string | Currency code |
-| Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
-| MeasureField | string | Field to be measured |
-| SortBy | string | Sort by field |
-| LayoutConfig | string | The JSON formatted layout config |
-| SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
-| MeasureByField | string | Field to group by |
-| Usage | string | Where this tile can be used |
-| ProviderName | string | Name of provider to use with this entity type - read only property |
+| DashboardTileDefinitionId | Integer | Primary key |
+| Name | String | The name of the tile |
+| Description | String | Detailed description |
+| DefaultHeight | Integer | Default height when added to a dashboard |
+| DefaultWidth | Integer | Default width when added to a dashboard |
+| TileType | String | Dashboard tile type |
+| EntityType | String | Dashboard entity type |
+| EntityName | String | The entity measured by this tile, defines what provider to use |
+| SelectionId | Integer | Selection holding the criterias for the tile definition |
+| CurrencyMode | String | Dashboard currency mode |
+| CurrencyCode | String | Currency code |
+| Measure | String | Dashboard measure type (Count, Sum, Avg, etc.) |
+| MeasureField | String | Field to be measured |
+| SortBy | String | Sort by field |
+| LayoutConfig | String | The JSON formatted layout config |
+| SecondarySelectionId | Integer | Selection holding the replaced or changed criterias (period comparisons etc) |
+| MeasureByField | String | Field to group by |
+| Usage | String | Where this tile can be used |
+| ProviderName | String | Name of provider to use with this entity type - read only property |
 
-
-## Response: 
+## Response:
 
 DashTileDefinition updated.
 
@@ -82,7 +81,7 @@ DashTileDefinition updated.
 | 200 | DashTileDefinition updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: DashTileDefinitionWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,7 +104,7 @@ Response body:
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -115,29 +114,29 @@ Response body:
 PUT /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 877,
-  "Name": "Feeney Inc and Sons",
-  "Description": "Cross-platform homogeneous time-frame",
-  "DefaultHeight": 772,
-  "DefaultWidth": 525,
+  "DashboardTileDefinitionId": 286,
+  "Name": "Lemke Group",
+  "Description": "Multi-channelled mission-critical system engine",
+  "DefaultHeight": 324,
+  "DefaultWidth": 720,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Thiel-Kutch",
-  "SelectionId": 534,
+  "EntityName": "Harber-Pouros",
+  "SelectionId": 561,
   "CurrencyMode": "Base",
-  "CurrencyCode": "aut",
+  "CurrencyCode": "quis",
   "Measure": "Average",
-  "MeasureField": "voluptatibus",
-  "SortBy": "nulla",
-  "LayoutConfig": "quod",
-  "SecondarySelectionId": 211,
-  "MeasureByField": "et",
+  "MeasureField": "distinctio",
+  "SortBy": "aut",
+  "LayoutConfig": "ut",
+  "SecondarySelectionId": 838,
+  "MeasureByField": "ducimus",
   "Usage": "Dashboard",
-  "ProviderName": "Padberg-Zulauf"
+  "ProviderName": "O'Hara Group"
 }
 ```
 
@@ -148,31 +147,31 @@ HTTP/1.1 200 DashTileDefinition updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 227,
-  "Name": "Turner-Dare",
-  "Description": "Multi-lateral tangible parallelism",
-  "DefaultHeight": 473,
-  "DefaultWidth": 809,
+  "DashboardTileDefinitionId": 209,
+  "Name": "Abernathy Inc and Sons",
+  "Description": "Integrated human-resource time-frame",
+  "DefaultHeight": 706,
+  "DefaultWidth": 899,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Botsford-Kub",
-  "SelectionId": 98,
+  "EntityName": "Bartell, Von and Beer",
+  "SelectionId": 709,
   "CurrencyMode": "Base",
-  "CurrencyCode": "laborum",
+  "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "asperiores",
-  "SortBy": "reprehenderit",
-  "LayoutConfig": "nam",
-  "SecondarySelectionId": 255,
-  "MeasureByField": "deleniti",
+  "MeasureField": "iste",
+  "SortBy": "est",
+  "LayoutConfig": "est",
+  "SecondarySelectionId": 470,
+  "MeasureByField": "voluptates",
   "Usage": "Dashboard",
-  "ProviderName": "Beier-Spinka",
+  "ProviderName": "Sanford Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 595
+      "FieldType": "System.Int32",
+      "FieldLength": 613
     }
   },
   "_Links": {

@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignAppEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,10 +50,10 @@ Response body:
 | Name | string | Name of foreign application |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the foreign application. |
-| UpdatedBy |  | The person that last updated this foreign application. |
+| CreatedBy | Associate | The person that created the foreign application. |
+| UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -62,7 +62,7 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 157,
-  "Name": "Corwin, Harvey and Pollich",
-  "CreatedDate": "2004-01-28T02:49:44.5454229+01:00",
-  "UpdatedDate": "2022-02-07T02:49:44.5454229+01:00",
+  "ForeignAppId": 970,
+  "Name": "Frami, Feest and Koelpin",
+  "CreatedDate": "2005-02-25T17:37:18.0893365+01:00",
+  "UpdatedDate": "2000-01-27T17:37:18.0893365+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 900,
-      "Name": "Bartoletti, Pagac and Sanford",
-      "CreatedDate": "2020-08-11T02:49:44.5454229+02:00",
-      "UpdatedDate": "2014-08-20T02:49:44.5454229+02:00",
-      "AssociateFullName": "Miss Howell Dangelo Schinner DDS",
-      "CreatedBy": "consequatur",
-      "UpdatedBy": "fugit",
-      "DeviceIdentifier": "veritatis",
-      "ForeignAppId": 952,
+      "ForeignDeviceId": 749,
+      "Name": "Doyle-Graham",
+      "CreatedDate": "2000-03-11T17:37:18.0902432+01:00",
+      "UpdatedDate": "2018-09-07T17:37:18.0902432+02:00",
+      "AssociateFullName": "Lucile Morissette",
+      "CreatedBy": "qui",
+      "UpdatedBy": "rem",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 237,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 619
+          "FieldLength": 152
         }
       }
     }
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 776
     }
   }
 }

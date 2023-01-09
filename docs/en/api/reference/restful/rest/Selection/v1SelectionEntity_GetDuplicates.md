@@ -36,7 +36,7 @@ Get duplicates(exact or similar in the database) based on the name
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +53,7 @@ Response body: array
 | EntryName | string | Name of duplicate entry |
 | EntryIdentifier | string | String identifier for entry. Typically used to identify an entry in an external system. |
 | RuleDisplayName | string | Short name of rule to display to user |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -62,7 +62,7 @@ Response body: array
 GET /api/v1/Selection/Duplicates/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,17 +73,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Prohaska Inc and Sons",
-    "SoPrimaryKey": 599,
-    "EntryName": "Kertzmann, Gusikowski and Rutherford",
-    "EntryIdentifier": "placeat",
-    "RuleDisplayName": "Lindgren, Lueilwitz and Harber",
+    "RuleName": "Wilkinson, Gutkowski and Bartell",
+    "SoPrimaryKey": 848,
+    "EntryName": "Kuphal-Marvin",
+    "EntryIdentifier": "totam",
+    "RuleDisplayName": "Rosenbaum-Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldLength": 998
       }
     }
   }

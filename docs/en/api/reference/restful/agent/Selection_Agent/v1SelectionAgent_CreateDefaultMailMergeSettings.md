@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: MailMergeSettings
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +53,7 @@ Response body:
 | AlwaysUseCustomAttention | bool | Should custom attention always be used? If false, only use custom attention where there is no default. |
 | SaveDocument | bool | Should we save a reference to the merge document on each recipient. |
 | CustomMailBody | string | If specified, use this value as default mail body. |
-| TaskEntity |  | If specified, register a task on recipients using properties from this object. |
+| TaskEntity | MailMergeTask | If specified, register a task on recipients using properties from this object. |
 | AddCompanyInterest | int32 | Add this company interest to each company recipient. |
 | AddPersonInterest | int32 | Add this person interest to each person recipient. |
 | RemoveCompanyInterest | int32 | Remove this company interest on each company recipient. |
@@ -67,7 +67,7 @@ Response body:
 | ExtraInfo | string | Used to store additional information for the delivery systems. |
 | Synchronous | bool |  |
 | IsTemporarySelection | bool | If true, the selection is a temporary selection that can be deleted later. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,7 +76,7 @@ Response body:
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 292,
-  "DocumentId": 192,
+  "SelectionId": 870,
+  "DocumentId": 734,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "cumque",
+  "CustomAttention": "rerum",
   "AlwaysUseCustomAttention": false,
   "SaveDocument": true,
-  "CustomMailBody": "iusto",
+  "CustomMailBody": "sint",
   "TaskEntity": null,
-  "AddCompanyInterest": 796,
+  "AddCompanyInterest": 140,
   "AddPersonInterest": 960,
-  "RemoveCompanyInterest": 758,
-  "RemovePersonInterest": 204,
+  "RemoveCompanyInterest": 324,
+  "RemovePersonInterest": 67,
   "IncludeNoMailingsRecipient": false,
-  "TestOnly": false,
-  "ProjectId": 700,
+  "TestOnly": true,
+  "ProjectId": 743,
   "IncludeRetiredRecipients": true,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "magnam",
-  "ExtraInfo": "non",
-  "Synchronous": true,
+  "CustomMailSubject": "et",
+  "ExtraInfo": "ex",
+  "Synchronous": false,
   "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 624
     }
   }
 }

@@ -34,21 +34,20 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HeadingId | int32 | Primary key |
-| Name | string | The visible heading |
-| Tooltip | string | Tooltip or other description |
-| Deleted | bool | True if the heading is marked as deleted |
-| Rank | int32 | Rank order |
-| UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+| HeadingId | Integer | Primary key |
+| Name | String | The visible heading |
+| Tooltip | String | Tooltip or other description |
+| Deleted | Boolean | True if the heading is marked as deleted |
+| Rank | Integer | Rank order |
+| UdListDefinitionId | Integer | The id of the list which this heading belongs to |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body: array
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,25 +74,25 @@ Response body: array
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 471,
-    "Name": "Zieme, Baumbach and Senger",
+    "HeadingId": 577,
+    "Name": "Wuckert-D'Amore",
     "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 234,
-    "UdListDefinitionId": 265
+    "Rank": 331,
+    "UdListDefinitionId": 745
   },
   {
-    "HeadingId": 471,
-    "Name": "Zieme, Baumbach and Senger",
+    "HeadingId": 577,
+    "Name": "Wuckert-D'Amore",
     "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 234,
-    "UdListDefinitionId": 265
+    "Rank": 331,
+    "UdListDefinitionId": 745
   }
 ]
 ```
@@ -106,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 507,
-    "Name": "Hammes, White and Schmitt",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 757,
-    "UdListDefinitionId": 328,
+    "HeadingId": 524,
+    "Name": "Macejkovic Group",
+    "Tooltip": "non",
+    "Deleted": false,
+    "Rank": 734,
+    "UdListDefinitionId": 194,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldLength": 508
       }
     }
   }

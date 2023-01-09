@@ -42,13 +42,12 @@ POST /api/v1/Agents/Navigator/GetNavigatorCompanyList?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: navigatorCompanyIds  
+## Request Body: navigatorCompanyIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,14 +55,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | Value | string |  |
 | Tooltip | string |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -72,7 +71,7 @@ Response body: array
 POST /api/v1/Agents/Navigator/GetNavigatorCompanyList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Value": "asperiores",
-    "Tooltip": "autem",
+    "Id": 136,
+    "Value": "dolores",
+    "Tooltip": "ab",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldType": "System.String",
+        "FieldLength": 310
       }
     }
   },
   {
-    "Id": 665,
-    "Value": "asperiores",
-    "Tooltip": "autem",
+    "Id": 136,
+    "Value": "dolores",
+    "Tooltip": "ab",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldType": "System.String",
+        "FieldLength": 310
       }
     }
   }

@@ -44,16 +44,15 @@ POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Requests 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Requests | array |  |
+| Requests | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body: array
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,19 +80,19 @@ Response body: array
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Casper-Johnston",
-      "EntityOrParentId": 834,
+      "EntityName": "Bauch-Aufderhar",
+      "EntityOrParentId": 411,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Casper-Johnston",
-      "EntityOrParentId": 834,
+      "EntityName": "Bauch-Aufderhar",
+      "EntityOrParentId": 411,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 942,
-    "Id": 198,
-    "HistoryName": "Emmerich LLC",
-    "HistoryId": 743,
-    "AssociateId": 559,
-    "Name": "Rice, Brown and Doyle",
-    "ItemInfo": "autem",
+    "Rank": 953,
+    "Id": 605,
+    "HistoryName": "Fay Group",
+    "HistoryId": 526,
+    "AssociateId": 340,
+    "Name": "Botsford-Witting",
+    "ItemInfo": "blanditiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldType": "System.String",
+        "FieldLength": 653
       }
     }
   }

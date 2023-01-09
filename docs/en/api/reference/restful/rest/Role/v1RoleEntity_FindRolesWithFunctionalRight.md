@@ -41,7 +41,7 @@ The roles matched must contain the specified functional right.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -49,7 +49,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,50 +85,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Senger LLC",
-    "ToolTip": "Architecto ea vel inventore eos beatae alias beatae.",
+    "Id": 977,
+    "Name": "McClure-McDermott",
+    "ToolTip": "Corrupti nisi ut dolorum sint.",
     "Deleted": false,
     "Rank": 594,
-    "Type": "dolorem",
+    "Type": "itaque",
     "ChildItems": [
       {
-        "Id": 630,
-        "Name": "Wehner Inc and Sons",
-        "ToolTip": "Porro et modi dolorem tempora perferendis consequatur architecto.",
-        "Deleted": false,
-        "Rank": 622,
-        "Type": "nostrum",
+        "Id": 946,
+        "Name": "Zulauf-Raynor",
+        "ToolTip": "Rerum aut iste sit.",
+        "Deleted": true,
+        "Rank": 352,
+        "Type": "enim",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tempore",
-        "ColorBlock": 496,
-        "ExtraInfo": "architecto",
-        "StyleHint": "eos",
-        "FullName": "Gladys McDermott",
+        "IconHint": "ipsam",
+        "ColorBlock": 688,
+        "ExtraInfo": "rerum",
+        "StyleHint": "aliquid",
+        "FullName": "Alisha Laila Schaden V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 562
+            "FieldType": "System.String",
+            "FieldLength": 101
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 44,
-    "ExtraInfo": "saepe",
-    "StyleHint": "molestiae",
-    "FullName": "Dr. Joaquin Sawayn",
+    "IconHint": "quia",
+    "ColorBlock": 204,
+    "ExtraInfo": "facilis",
+    "StyleHint": "vitae",
+    "FullName": "Cathrine Brakus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 475
+        "FieldType": "System.Int32",
+        "FieldLength": 469
       }
     }
   }

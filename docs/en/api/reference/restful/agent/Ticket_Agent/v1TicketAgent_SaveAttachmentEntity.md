@@ -32,21 +32,20 @@ Updates the existing AttachmentEntity or creates a new AttachmentEntity if the i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The AttachmentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AttachmentId | int32 | The primary key (auto-incremented) |
-| Name | string | The filename for the attachment. |
-| ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
-| AttSize | int32 | The size (in bytes) for the attachment. |
-| InlineImage | bool | True if this attachment is inlined in the html_body. |
-| ContentId | string | The content_id of this attachment, used for inline images |
+| AttachmentId | Integer | The primary key (auto-incremented) |
+| Name | String | The filename for the attachment. |
+| ContentType | String | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
+| AttSize | Integer | The size (in bytes) for the attachment. |
+| InlineImage | Boolean | True if this attachment is inlined in the html_body. |
+| ContentId | String | The content_id of this attachment, used for inline images |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -54,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AttachmentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +63,7 @@ Response body:
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,16 +72,16 @@ Response body:
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 656,
-  "Name": "Wuckert, Hoeger and Nicolas",
-  "ContentType": "deserunt",
-  "AttSize": 669,
+  "AttachmentId": 367,
+  "Name": "Beatty LLC",
+  "ContentType": "unde",
+  "AttSize": 865,
   "InlineImage": false,
-  "ContentId": "aut"
+  "ContentId": "similique"
 }
 ```
 
@@ -93,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 41,
-  "Name": "Rohan Group",
-  "ContentType": "consectetur",
-  "AttSize": 711,
-  "InlineImage": false,
-  "ContentId": "numquam",
+  "AttachmentId": 582,
+  "Name": "Grimes LLC",
+  "ContentType": "voluptatem",
+  "AttSize": 828,
+  "InlineImage": true,
+  "ContentId": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 730
     }
   }
 }

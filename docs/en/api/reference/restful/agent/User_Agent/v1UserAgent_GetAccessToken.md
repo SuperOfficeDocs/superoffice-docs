@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetAccessToken
 Get an access token based on the current user's session.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/User/GetAccessToken?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AppToken, IncludeCsSession 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AppToken | string |  |
-| IncludeCsSession | bool |  |
+| AppToken | String |  |
+| IncludeCsSession | Boolean |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -73,12 +70,12 @@ Response body: string
 POST /api/v1/Agents/User/GetAccessToken
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppToken": "aut",
-  "IncludeCsSession": false
+  "AppToken": "voluptatem",
+  "IncludeCsSession": true
 }
 ```
 
@@ -88,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"libero"
+"earum"
 ```

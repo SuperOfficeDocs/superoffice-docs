@@ -42,17 +42,16 @@ POST /api/v1/Agents/Document/DeletePhysicalDocument?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId, AllowedReturnType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
-| AllowedReturnType | array |  |
+| DocumentId | Integer |  |
+| AllowedReturnType | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,14 +76,14 @@ Response body:
 POST /api/v1/Agents/Document/DeletePhysicalDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 418,
+  "DocumentId": 915,
   "AllowedReturnType": [
-    "voluptas",
-    "omnis"
+    "dignissimos",
+    "placeat"
   ]
 }
 ```
@@ -96,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "vitae",
-  "VersionId": "quis",
+  "ExternalReference": "possimus",
+  "VersionId": "id",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "sint",
-  "AdditionalInfo": "sequi"
+  "Value": "repellat",
+  "AdditionalInfo": "rem"
 }
 ```

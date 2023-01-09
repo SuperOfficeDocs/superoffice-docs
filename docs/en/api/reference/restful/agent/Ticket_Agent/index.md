@@ -43,6 +43,8 @@ title: Ticket_Agent
 
 * [POST Agents/Ticket/GetTicketAttachments](v1TicketAgent_GetTicketAttachments.md)
 
+* [POST Agents/Ticket/ValidateAttachments](v1TicketAgent_ValidateAttachments.md)
+
 * [POST Agents/Ticket/SetTicketReadByOwner](v1TicketAgent_SetTicketReadByOwner.md)
 
 * [POST Agents/Ticket/SaveTicketEntityWithNotify](v1TicketAgent_SaveTicketEntityWithNotify.md)
@@ -62,6 +64,8 @@ title: Ticket_Agent
 * [POST Agents/Ticket/SetDeletedStatusByIds](v1TicketAgent_SetDeletedStatusByIds.md)
 
 * [POST Agents/Ticket/SetDeletedStatusByProvider](v1TicketAgent_SetDeletedStatusByProvider.md)
+
+* [POST Agents/Ticket/UndeleteByIds](v1TicketAgent_UndeleteByIds.md)
 
 * [POST Agents/Ticket/ResolveTicketId](v1TicketAgent_ResolveTicketId.md)
 
@@ -108,5 +112,7 @@ title: Ticket_Agent
 * [POST Agents/Ticket/GetTicketMessageWithEmbeddedData](v1TicketAgent_GetTicketMessageWithEmbeddedData.md)
 
 * [POST Agents/Ticket/DeleteMessageHeaders](v1TicketAgent_DeleteMessageHeaders.md)
+
+* [POST Agents/Ticket/GetTicketMessageWithOptions](v1TicketAgent_GetTicketMessageWithOptions.md)
 
 * [POST Agents/Ticket/GetTicketSummaries](v1TicketAgent_GetTicketSummaries.md)

@@ -46,23 +46,22 @@ PUT /api/v1/RelationDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The RelationDefinitionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ReldefId | int32 | Primary key |
-| Name | string | Active text |
-| Tooltip | string | Tooltip or other description |
-| PassiveText | string | Text used in passive direction |
-| Deleted | bool | True if deleted |
-| Rank | int32 | Rank order |
-| Source | string | The source of the relation |
-| Destination | string | The destination of the relation |
+| ReldefId | Integer | Primary key |
+| Name | String | Active text |
+| Tooltip | String | Tooltip or other description |
+| PassiveText | String | Text used in passive direction |
+| Deleted | Boolean | True if deleted |
+| Rank | Integer | Rank order |
+| Source | String | The source of the relation |
+| Destination | String | The destination of the relation |
 
-
-## Response: 
+## Response:
 
 RelationDefinitionEntity updated.
 
@@ -71,7 +70,7 @@ RelationDefinitionEntity updated.
 | 200 | RelationDefinitionEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: RelationDefinitionEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +82,7 @@ Response body:
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -93,16 +92,16 @@ Response body:
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 862,
-  "Name": "Emard Group",
-  "Tooltip": "aliquam",
-  "PassiveText": "est",
+  "ReldefId": 314,
+  "Name": "Franecki-Reilly",
+  "Tooltip": "dolorum",
+  "PassiveText": "eius",
   "Deleted": false,
-  "Rank": 352,
+  "Rank": 559,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,20 +114,20 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 449,
-  "Name": "Heller, Harris and Lindgren",
-  "Tooltip": "tempora",
-  "PassiveText": "natus",
-  "Deleted": false,
-  "Rank": 392,
+  "ReldefId": 951,
+  "Name": "Toy-Welch",
+  "Tooltip": "molestiae",
+  "PassiveText": "voluptas",
+  "Deleted": true,
+  "Rank": 602,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 359
+      "FieldType": "System.Int32",
+      "FieldLength": 349
     }
   },
   "_Links": {

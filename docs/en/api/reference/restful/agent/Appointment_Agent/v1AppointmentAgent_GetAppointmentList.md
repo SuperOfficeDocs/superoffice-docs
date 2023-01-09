@@ -42,13 +42,12 @@ POST /api/v1/Agents/Appointment/GetAppointmentList?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: appointmentIds  
+## Request Body: appointmentIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -109,7 +108,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -118,7 +117,7 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetAppointmentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 371,
-    "StartDate": "2016-07-03T02:49:43.4972799+02:00",
-    "EndDate": "2000-10-14T02:49:43.4972799+02:00",
+    "AppointmentId": 914,
+    "StartDate": "2006-08-29T17:37:16.5762415+02:00",
+    "EndDate": "2015-03-28T17:37:16.5762415+01:00",
     "Type": "BookingForChecklist",
-    "Task": "non",
-    "AssociateFullName": "Mr. Cale Lind DDS",
-    "ContactName": "Kreiger, Kunde and Labadie",
-    "Description": "Adaptive didactic knowledge user",
-    "PersonFullName": "Jo Carroll",
-    "PersonId": 789,
-    "ContactId": 941,
-    "ProjectId": 370,
-    "ProjectName": "Kulas Group",
-    "IsPublished": true,
-    "AssociateId": 297,
-    "ColorIndex": 884,
+    "Task": "possimus",
+    "AssociateFullName": "Dasia Hamill",
+    "ContactName": "Conn-DuBuque",
+    "Description": "Customizable dynamic initiative",
+    "PersonFullName": "Ellie D'Amore",
+    "PersonId": 756,
+    "ContactId": 404,
+    "ProjectId": 995,
+    "ProjectName": "Langworth-Bogisich",
+    "IsPublished": false,
+    "AssociateId": 501,
+    "ColorIndex": 85,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 943,
-    "PriorityName": "Prohaska, Bogisich and Lowe",
+    "PriorityId": 515,
+    "PriorityName": "Gusikowski-Fritsch",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2007-08-09T02:49:43.4972799+02:00",
+    "ActiveDate": "2021-07-29T17:37:16.5772418+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-02-16T02:49:43.4972799+01:00",
-    "RecurringEndDate": "2000-01-10T02:49:43.4972799+01:00",
-    "MotherId": 166,
-    "AssignedBy": 992,
-    "AssignedByFullName": "Mrs. Gregoria Willow Marks DVM",
+    "RecurringStartDate": "2004-02-11T17:37:16.5772418+01:00",
+    "RecurringEndDate": "2001-08-12T17:37:16.5772418+02:00",
+    "MotherId": 462,
+    "AssignedBy": 488,
+    "AssignedByFullName": "Angelica Jacobi",
     "RejectReason": "",
-    "Location": "rerum",
-    "AlarmLeadTime": "aut",
-    "SaleId": 159,
-    "SaleName": "Sipes-Kirlin",
-    "AssociateName": "Hills Group",
-    "CreatedDate": "1995-10-04T02:49:43.4972799+02:00",
-    "CreatedBy": "autem",
-    "CreatedByFullName": "Will Jamel Shanahan III",
+    "Location": "non",
+    "AlarmLeadTime": "dolor",
+    "SaleId": 141,
+    "SaleName": "Johnson LLC",
+    "AssociateName": "Beier-Emard",
+    "CreatedDate": "1996-04-02T17:37:16.5772418+02:00",
+    "CreatedBy": "libero",
+    "CreatedByFullName": "Madelynn Swaniawski",
     "CreatedByAssociateId": 386,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
@@ -183,7 +182,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 448
+        "FieldLength": 275
       }
     }
   }

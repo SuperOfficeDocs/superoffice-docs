@@ -42,18 +42,17 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignDevice
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,13 +82,13 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Feeney-Vandervort",
-  "DeviceName": "Marvin Inc and Sons",
-  "DeviceIdentifier": "numquam"
+  "ApplicationName": "Jacobson Group",
+  "DeviceName": "Lakin Group",
+  "DeviceIdentifier": "similique"
 }
 ```
 
@@ -100,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 435,
-  "Name": "Carroll, Schaden and Weimann",
-  "CreatedDate": "2020-02-24T02:49:44.5454229+01:00",
-  "UpdatedDate": "2001-01-14T02:49:44.5454229+01:00",
-  "AssociateFullName": "Ms. Conner Hyatt",
-  "CreatedBy": "dolor",
-  "UpdatedBy": "optio",
-  "DeviceIdentifier": "alias",
-  "ForeignAppId": 727,
+  "ForeignDeviceId": 994,
+  "Name": "Harber, Hilll and Smith",
+  "CreatedDate": "1999-11-13T17:37:18.1012434+01:00",
+  "UpdatedDate": "2018-08-24T17:37:18.1012434+02:00",
+  "AssociateFullName": "Micheal Okuneva",
+  "CreatedBy": "quis",
+  "UpdatedBy": "ad",
+  "DeviceIdentifier": "sunt",
+  "ForeignAppId": 730,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 871
+      "FieldType": "System.String",
+      "FieldLength": 330
     }
   }
 }

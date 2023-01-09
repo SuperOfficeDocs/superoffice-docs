@@ -44,17 +44,16 @@ POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteConnectionId, CurrencyId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteConnectionId | int32 |  |
-| CurrencyId | int32 |  |
+| QuoteConnectionId | Integer |  |
+| CurrencyId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body: array
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,12 +84,12 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 749,
-  "CurrencyId": 900
+  "QuoteConnectionId": 207,
+  "CurrencyId": 164
 }
 ```
 
@@ -102,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 913,
-    "ERPPriceListKey": "aspernatur",
-    "QuoteConnectionId": 671,
-    "Name": "Quigley-Spinka",
-    "Description": "Synergistic tertiary forecast",
-    "Currency": "nostrum",
-    "CurrencyName": "Davis-Gleichner",
-    "ValidFrom": "2017-06-08T02:49:45.0465904+02:00",
-    "ValidTo": "2000-01-28T02:49:45.0465904+01:00",
+    "PriceListId": 34,
+    "ERPPriceListKey": "quia",
+    "QuoteConnectionId": 293,
+    "Name": "Upton, Ledner and McClure",
+    "Description": "Ameliorated tangible infrastructure",
+    "Currency": "saepe",
+    "CurrencyName": "West, Stiedemann and Hessel",
+    "ValidFrom": "1996-05-27T17:37:18.7482421+02:00",
+    "ValidTo": "2003-08-07T17:37:18.7482421+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 334
+        "FieldType": "System.String",
+        "FieldLength": 813
       }
     }
   }

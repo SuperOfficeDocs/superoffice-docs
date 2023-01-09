@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 607,
-    "Name": "Yundt Inc and Sons",
-    "ToolTip": "Voluptas facere tenetur rerum aut.",
+    "Id": 686,
+    "Name": "Conroy Group",
+    "ToolTip": "Rerum et nisi provident in est.",
     "Deleted": false,
-    "Rank": 948,
-    "Type": "odio",
-    "ColorBlock": 3,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "2008-02-18T02:49:52.3597004+01:00",
+    "Rank": 779,
+    "Type": "molestiae",
+    "ColorBlock": 74,
+    "IconHint": "dicta",
+    "Selected": false,
+    "LastChanged": "2003-01-10T17:37:40.1435006+01:00",
     "ChildItems": [
       {
-        "Id": 343,
-        "Name": "Witting, Kozey and Ritchie",
-        "ToolTip": "Libero dolorem repellat voluptas sed fugit sit.",
+        "Id": 987,
+        "Name": "Johns, Lowe and Cronin",
+        "ToolTip": "Tempore et.",
         "Deleted": false,
-        "Rank": 808,
-        "Type": "nam",
-        "ColorBlock": 246,
-        "IconHint": "saepe",
-        "Selected": true,
-        "LastChanged": "2010-01-29T02:49:52.3597004+01:00",
+        "Rank": 572,
+        "Type": "vel",
+        "ColorBlock": 71,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "2000-01-20T17:37:40.1435006+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "nemo",
+        "ExtraInfo": "et",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Shayna Shields",
+        "FullName": "Noemie Hayes V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 478
+            "FieldLength": 479
           }
         }
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "voluptatum",
+    "StyleHint": "blanditiis",
     "Hidden": false,
-    "FullName": "Judah Bosco",
+    "FullName": "Mrs. Jackie Jacobi III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 67
+        "FieldLength": 769
       }
     }
   }

@@ -42,18 +42,17 @@ POST /api/v1/Agents/Resource/GetResourceSubstitutions?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ResourceNames, Culture, ActiveOnly 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ResourceNames | array |  |
-| Culture | string |  |
-| ActiveOnly | bool |  |
+| ResourceNames | Array |  |
+| Culture | String |  |
+| ActiveOnly | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body: array
 | ResourceValue | string | The value of the resource in the given culture |
 | Culture | string | .NET-style culture code, such as NB-NO or EN-UK |
 | IsActive | bool | Is this override active |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,16 +77,16 @@ Response body: array
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Nienow Group",
-    "Ratke-Breitenberg"
+    "Botsford-Hand",
+    "Haag, Hoppe and Kuphal"
   ],
-  "Culture": "similique",
-  "ActiveOnly": true
+  "Culture": "recusandae",
+  "ActiveOnly": false
 }
 ```
 
@@ -99,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Altenwerth-Wolff",
-    "ResourceValue": "quibusdam",
-    "Culture": "eos",
+    "ResourceName": "Herman LLC",
+    "ResourceValue": "perspiciatis",
+    "Culture": "qui",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 191
       }
     }
   },
   {
-    "ResourceName": "Altenwerth-Wolff",
-    "ResourceValue": "quibusdam",
-    "Culture": "eos",
+    "ResourceName": "Herman LLC",
+    "ResourceValue": "perspiciatis",
+    "Culture": "qui",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 191
       }
     }
   }

@@ -26,7 +26,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=repellat
+GET /api/v1/List/Credited/MDOItems?query=minus
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/Credited/MDOItems?query=repellat
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Rowe, Daniel and Hegmann",
-    "ToolTip": "Quo aut sapiente sit mollitia.",
-    "Deleted": false,
-    "Rank": 801,
-    "Type": "ad",
+    "Id": 624,
+    "Name": "Price, Mayert and Hintz",
+    "ToolTip": "Veniam officia ut.",
+    "Deleted": true,
+    "Rank": 504,
+    "Type": "nemo",
     "ChildItems": [
       {
-        "Id": 624,
-        "Name": "Pfeffer-Kertzmann",
-        "ToolTip": "Fuga autem doloremque quo.",
+        "Id": 148,
+        "Name": "Batz-Jacobson",
+        "ToolTip": "Vel quia libero aut.",
         "Deleted": false,
-        "Rank": 684,
-        "Type": "et",
+        "Rank": 169,
+        "Type": "quaerat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iusto",
-        "ColorBlock": 848,
-        "ExtraInfo": "non",
-        "StyleHint": "voluptas",
-        "FullName": "Tianna Osinski MD",
+        "IconHint": "consequatur",
+        "ColorBlock": 116,
+        "ExtraInfo": "asperiores",
+        "StyleHint": "rerum",
+        "FullName": "Janice Nicolas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 412
+            "FieldLength": 429
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 445,
-    "ExtraInfo": "asperiores",
-    "StyleHint": "unde",
-    "FullName": "Ms. Geraldine Yundt",
+    "IconHint": "ducimus",
+    "ColorBlock": 999,
+    "ExtraInfo": "omnis",
+    "StyleHint": "rerum",
+    "FullName": "Matt Quitzon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldType": "System.String",
+        "FieldLength": 246
       }
     }
   }

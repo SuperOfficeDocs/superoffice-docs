@@ -71,18 +71,17 @@ PATCH /api/v1/Selection/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 SelectionEntity  updated.
 
@@ -93,16 +92,16 @@ SelectionEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because SelectionEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: SelectionEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| Associate |  | Owner of the selection |
-| CreatedBy |  | Who created the selection |
-| UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| Associate | Associate | Owner of the selection |
+| CreatedBy | Associate | Who created the selection |
+| UpdatedBy | Associate | Who last modified the selection |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -129,16 +128,16 @@ Response body:
 | ChartKey | string | ID/key of the last-used chart tile on this selection |
 | LastLoaded | date-time | The date/time this selection was last loaded (selectionentity fetched) |
 | LastLoadedBy | int32 | Who last loaded this selection |
-| LastLoadedByAssociate |  | Associate that last looked at the selection members; only date (not time) is valid |
+| LastLoadedByAssociate | Associate | Associate that last looked at the selection members; only date (not time) is valid |
 | LastMembershipChange | date-time | The date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm |
 | LastMembershipChangeBy | int32 | Who last changed the membership |
-| LastMembershipChangeByAssociate |  | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
+| LastMembershipChangeByAssociate | Associate | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
 | MainHeading | string | 'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references |
 | MemberTabHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references |
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -148,18 +147,18 @@ Response body:
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "in",
+    "path": "provident",
     "value": {}
   },
   {
     "op": "add",
-    "path": "in",
+    "path": "provident",
     "value": {}
   }
 ]
@@ -172,70 +171,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Upgradable full-range protocol",
-  "Postit": "provident",
+  "Description": "Mandatory optimizing moderator",
+  "Postit": "nulla",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 163,
-  "IncludePerson": 708,
-  "MemberCount": 718,
-  "Name": "Buckridge Inc and Sons",
-  "PostitTextId": 219,
-  "CreatedDate": "2019-04-29T02:49:51.536309+02:00",
-  "SelectionId": 69,
-  "SoundEx": "et",
-  "Source": 623,
-  "TextId": 545,
-  "UpdatedDate": "1999-01-12T02:49:51.536309+01:00",
-  "UpdatedCount": 811,
-  "Visibility": 297,
+  "GroupIdx": 45,
+  "IncludePerson": 957,
+  "MemberCount": 315,
+  "Name": "Smith-Romaguera",
+  "PostitTextId": 399,
+  "CreatedDate": "2013-05-30T17:37:39.2123036+02:00",
+  "SelectionId": 332,
+  "SoundEx": "magnam",
+  "Source": 584,
+  "TextId": 197,
+  "UpdatedDate": "2020-06-23T17:37:39.2123036+02:00",
+  "UpdatedCount": 601,
+  "Visibility": 702,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 624,
-  "TargetTableName": "Hackett-Green",
-  "Completed": false,
-  "LeftSelectionId": 898,
-  "RightSelectionId": 272,
+  "TargetTableNumber": 775,
+  "TargetTableName": "Purdy Group",
+  "Completed": true,
+  "LeftSelectionId": 431,
+  "RightSelectionId": 708,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Armstrong, Marvin and Boyer",
-  "ShadowProviderName": "Ward, Emard and Brakus",
-  "ChartKey": "rerum",
-  "LastLoaded": "2012-05-07T02:49:51.536309+02:00",
-  "LastLoadedBy": 648,
+  "MainProviderName": "Osinski-White",
+  "ShadowProviderName": "Pagac, O'Kon and Koch",
+  "ChartKey": "distinctio",
+  "LastLoaded": "2020-09-25T17:37:39.2123036+02:00",
+  "LastLoadedBy": 799,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-11-23T02:49:51.536309+01:00",
-  "LastMembershipChangeBy": 216,
+  "LastMembershipChange": "2011-09-04T17:37:39.2133034+02:00",
+  "LastMembershipChangeBy": 703,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptas",
-  "MemberTabHeading": "facilis",
-  "MailingsProviderName": "Mohr, Okuneva and Nicolas",
-  "DashboardTileDefinitionId": 883,
+  "MainHeading": "sequi",
+  "MemberTabHeading": "natus",
+  "MailingsProviderName": "Runte Inc and Sons",
+  "DashboardTileDefinitionId": 141,
   "VisibleFor": [
     {
-      "VisibleId": 848,
+      "VisibleId": 341,
       "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 195
+          "FieldLength": 147
         }
       }
     },
     {
-      "VisibleId": 848,
+      "VisibleId": 341,
       "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 195
+          "FieldLength": 147
         }
       }
     }
@@ -245,7 +244,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldLength": 105
     }
   },
   "_Links": {

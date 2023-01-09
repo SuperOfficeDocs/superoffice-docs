@@ -42,7 +42,7 @@ POST /api/v1/Agents/License/GetUserLicensesMDOList?$select=name,department,categ
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,7 +78,7 @@ Response body: array
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Fritsch-Durgan",
-    "ToolTip": "Vel ex voluptas unde cum dolorum non occaecati.",
-    "Deleted": false,
-    "Rank": 156,
-    "Type": "ratione",
-    "ColorBlock": 354,
-    "IconHint": "sunt",
-    "Selected": true,
-    "LastChanged": "2009-10-24T02:49:44.576671+02:00",
+    "Id": 670,
+    "Name": "Hudson, Feil and Bernhard",
+    "ToolTip": "Aspernatur et et omnis.",
+    "Deleted": true,
+    "Rank": 329,
+    "Type": "distinctio",
+    "ColorBlock": 368,
+    "IconHint": "necessitatibus",
+    "Selected": false,
+    "LastChanged": "2003-06-14T17:37:18.1332417+02:00",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Pacocha Group",
-        "ToolTip": "Qui id quis sunt molestiae tempore dolor.",
+        "Id": 544,
+        "Name": "Konopelski-Stoltenberg",
+        "ToolTip": "Aperiam dignissimos dolor libero aut provident enim.",
         "Deleted": true,
-        "Rank": 155,
-        "Type": "nihil",
-        "ColorBlock": 330,
-        "IconHint": "voluptates",
+        "Rank": 718,
+        "Type": "sit",
+        "ColorBlock": 277,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2019-02-10T02:49:44.576671+01:00",
+        "LastChanged": "2003-10-25T17:37:18.1332417+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "deserunt",
-        "Hidden": false,
-        "FullName": "Dr. Ladarius Murazik",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "iste",
+        "Hidden": true,
+        "FullName": "Gerry McCullough PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 281
+            "FieldType": "System.Int32",
+            "FieldLength": 630
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "id",
+    "ExtraInfo": "vitae",
+    "StyleHint": "dicta",
     "Hidden": false,
-    "FullName": "Miss Louie Watsica",
+    "FullName": "Madaline Schuster",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 899
       }
     }
   }

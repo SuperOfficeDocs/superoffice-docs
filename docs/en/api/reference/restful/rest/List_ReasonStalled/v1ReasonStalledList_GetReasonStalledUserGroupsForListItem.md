@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 107,
-    "Name": "Bins, Hilll and Bechtelar",
-    "ToolTip": "Voluptatem recusandae qui tenetur quia deserunt et voluptatibus.",
-    "Deleted": true,
-    "Rank": 632,
-    "Type": "itaque",
-    "ColorBlock": 542,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2015-04-28T02:49:52.4846993+02:00",
+    "Id": 231,
+    "Name": "Fisher Inc and Sons",
+    "ToolTip": "Cum id.",
+    "Deleted": false,
+    "Rank": 177,
+    "Type": "velit",
+    "ColorBlock": 106,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2008-12-16T17:37:40.3164956+01:00",
     "ChildItems": [
       {
-        "Id": 217,
-        "Name": "Larkin, McKenzie and Boyle",
-        "ToolTip": "Officia et omnis neque est numquam.",
+        "Id": 152,
+        "Name": "Rippin-Schuster",
+        "ToolTip": "Nesciunt ipsum perferendis ipsa.",
         "Deleted": false,
-        "Rank": 629,
-        "Type": "et",
-        "ColorBlock": 11,
-        "IconHint": "quasi",
+        "Rank": 749,
+        "Type": "adipisci",
+        "ColorBlock": 395,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2007-09-13T02:49:52.4846993+02:00",
+        "LastChanged": "2016-07-10T17:37:40.3164956+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "sapiente",
-        "Hidden": true,
-        "FullName": "Barry Antonietta Hudson MD",
+        "ExtraInfo": "error",
+        "StyleHint": "asperiores",
+        "Hidden": false,
+        "FullName": "Alexa Mraz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 283
+            "FieldType": "System.Int32",
+            "FieldLength": 333
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Kale Hane",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Robbie Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 491
+        "FieldLength": 905
       }
     }
   }

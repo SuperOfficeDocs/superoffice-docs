@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreviewContact
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +57,7 @@ Response body:
 | BusinessName | string | The business list item name |
 | CategoryName | string | The category list item name |
 | AssociateFullName | string | The associate's culture formatted fullname (firstname, middleName and lastname) |
-| Address |  | Contact address as a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
+| Address | Address | Contact address as a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
 
 ## Sample request
 
@@ -75,17 +75,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 563,
-  "Name": "Wiza, Grady and Ryan",
+  "ContactId": 569,
+  "Name": "Wiegand-Botsford",
   "Department": "",
-  "CountryId": 215,
-  "Number2": "843048",
-  "DirectPhone": "1-754-513-4736 x91593",
+  "CountryId": 450,
+  "Number2": "568635",
+  "DirectPhone": "389-965-2833 x6733",
   "URL": "http://www.example.com/",
-  "EmailAddress": "isabella.smith@klein.info",
+  "EmailAddress": "jeremy.crona@hirtheborer.uk",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Dr. Calista Langworth DDS",
+  "AssociateFullName": "Prof. Estella Hoppe",
   "Address": null
 }
 ```

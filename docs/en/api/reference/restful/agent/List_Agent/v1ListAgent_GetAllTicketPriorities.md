@@ -42,16 +42,15 @@ POST /api/v1/Agents/List/GetAllTicketPriorities?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IncludeDeleted | bool |  |
+| IncludeDeleted | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,7 +90,7 @@ Response body: array
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -100,7 +99,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,60 +115,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 902,
-    "Name": "Borer Group",
+    "TicketPriorityId": 110,
+    "Name": "Feeney Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 768,
+    "SortOrder": 119,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 681,
-    "MonStart": "2004-02-03T02:49:44.5922969+01:00",
-    "MonStop": "2002-05-24T02:49:44.5922969+02:00",
-    "TueStart": "2008-06-22T02:49:44.5922969+02:00",
-    "TueStop": "2014-09-26T02:49:44.5922969+02:00",
-    "WedStart": "1997-06-25T02:49:44.5922969+02:00",
-    "WedStop": "2007-11-04T02:49:44.5922969+01:00",
-    "ThuStart": "2016-08-10T02:49:44.5922969+02:00",
-    "ThuStop": "2011-02-27T02:49:44.5922969+01:00",
-    "FriStart": "2016-04-21T02:49:44.5922969+02:00",
-    "FriStop": "2021-10-02T02:49:44.5922969+02:00",
-    "SatStart": "2013-08-16T02:49:44.5922969+02:00",
-    "SatStop": "2001-08-12T02:49:44.5922969+02:00",
-    "SunStart": "2002-05-26T02:49:44.5922969+02:00",
-    "SunStop": "2001-03-01T02:49:44.5922969+01:00",
+    "Deadline": 404,
+    "MonStart": "2005-02-23T17:37:18.1512425+01:00",
+    "MonStop": "1995-09-04T17:37:18.1512425+02:00",
+    "TueStart": "2000-05-03T17:37:18.1512425+02:00",
+    "TueStop": "2002-08-21T17:37:18.1512425+02:00",
+    "WedStart": "1995-09-12T17:37:18.1512425+02:00",
+    "WedStop": "2022-10-08T17:37:18.1512425+02:00",
+    "ThuStart": "1996-01-06T17:37:18.1512425+01:00",
+    "ThuStop": "2005-03-18T17:37:18.1512425+01:00",
+    "FriStart": "2013-10-28T17:37:18.1512425+01:00",
+    "FriStop": "2010-12-16T17:37:18.1512425+01:00",
+    "SatStart": "2001-08-29T17:37:18.1512425+02:00",
+    "SatStop": "1996-10-30T17:37:18.1512425+01:00",
+    "SunStart": "2015-05-06T17:37:18.1512425+02:00",
+    "SunStop": "2006-07-27T17:37:18.1512425+02:00",
     "NonDates": [
-      "voluptates",
-      "iure"
+      "aliquid",
+      "cumque"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 108,
-        "AlertLevel": 569,
-        "AlertTimeout": 967,
-        "Action": 619,
-        "DelegateTo": 500,
-        "ScriptId": 593,
-        "EmailTo": "lavern_schulist@bayer.ca",
-        "SmsTo": "placeat",
-        "ReplyTemplateIdCustomer": 502,
-        "ReplyTemplateIdUser": 217,
-        "ReplyTemplateIdCatmast": 101,
-        "ReplyTemplateIdEmail": 698,
-        "RtiCustomerSms": 538,
-        "ReplyTemplateIdUserSms": 417,
-        "ReplyTemplateIdCatmastSms": 583,
-        "ReplyTemplateIdSms": 192,
+        "TicketAlertId": 548,
+        "AlertLevel": 21,
+        "AlertTimeout": 133,
+        "Action": 962,
+        "DelegateTo": 232,
+        "ScriptId": 236,
+        "EmailTo": "myriam_murazik@barton.biz",
+        "SmsTo": "quia",
+        "ReplyTemplateIdCustomer": 248,
+        "ReplyTemplateIdUser": 773,
+        "ReplyTemplateIdCatmast": 450,
+        "ReplyTemplateIdEmail": 456,
+        "RtiCustomerSms": 564,
+        "ReplyTemplateIdUserSms": 155,
+        "ReplyTemplateIdCatmastSms": 463,
+        "ReplyTemplateIdSms": 100,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 697
+            "FieldLength": 173
           }
         }
       }
@@ -178,8 +177,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 473
+        "FieldType": "System.Int32",
+        "FieldLength": 302
       }
     }
   }

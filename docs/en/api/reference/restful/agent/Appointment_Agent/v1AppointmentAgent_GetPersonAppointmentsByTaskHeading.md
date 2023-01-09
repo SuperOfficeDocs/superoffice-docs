@@ -44,21 +44,20 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTaskHeading?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| IncludeProjectAppointments | bool |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TaskHeadingId | int32 |  |
+| PersonId | Integer |  |
+| IncludeProjectAppointments | Boolean |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TaskHeadingId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -119,7 +118,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -128,16 +127,16 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 747,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2013-10-06T02:49:43.2148724+02:00",
-  "EndTime": "2002-08-23T02:49:43.2148724+02:00",
-  "Count": 158,
-  "TaskHeadingId": 603
+  "PersonId": 462,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2018-07-10T17:37:16.2232407+02:00",
+  "EndTime": "2008-09-18T17:37:16.2232407+02:00",
+  "Count": 672,
+  "TaskHeadingId": 787
 }
 ```
 
@@ -149,61 +148,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 534,
-    "StartDate": "2018-11-01T02:49:43.2148724+01:00",
-    "EndDate": "2009-01-11T02:49:43.2148724+01:00",
+    "AppointmentId": 402,
+    "StartDate": "2018-06-14T17:37:16.2242419+02:00",
+    "EndDate": "2005-11-18T17:37:16.2242419+01:00",
     "Type": "BookingForChecklist",
-    "Task": "tempora",
-    "AssociateFullName": "Haleigh O'Hara",
-    "ContactName": "McCullough-Donnelly",
-    "Description": "Polarised analyzing structure",
-    "PersonFullName": "Juanita Rau",
-    "PersonId": 512,
-    "ContactId": 119,
-    "ProjectId": 556,
-    "ProjectName": "Grady-Rosenbaum",
+    "Task": "culpa",
+    "AssociateFullName": "Emery Purdy",
+    "ContactName": "Hessel, Bashirian and Beatty",
+    "Description": "Fully-configurable heuristic support",
+    "PersonFullName": "Rosario Kling",
+    "PersonId": 825,
+    "ContactId": 886,
+    "ProjectId": 604,
+    "ProjectName": "Mertz-Monahan",
     "IsPublished": false,
-    "AssociateId": 861,
-    "ColorIndex": 547,
-    "IsFree": true,
+    "AssociateId": 388,
+    "ColorIndex": 420,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 374,
-    "PriorityName": "Heaney-Kutch",
+    "PriorityId": 51,
+    "PriorityName": "Hand-Abshire",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2008-02-25T02:49:43.2148724+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2019-04-26T17:37:16.2252416+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-09-29T02:49:43.2148724+02:00",
-    "RecurringEndDate": "2021-09-15T02:49:43.2148724+02:00",
-    "MotherId": 302,
-    "AssignedBy": 323,
-    "AssignedByFullName": "Alana Purdy",
+    "RecurringStartDate": "2007-07-22T17:37:16.2252416+02:00",
+    "RecurringEndDate": "2005-06-16T17:37:16.2252416+02:00",
+    "MotherId": 741,
+    "AssignedBy": 146,
+    "AssignedByFullName": "Keyon Hauck",
     "RejectReason": "",
-    "Location": "blanditiis",
-    "AlarmLeadTime": "autem",
-    "SaleId": 884,
-    "SaleName": "Reichel-Prosacco",
-    "AssociateName": "Nicolas-Hills",
-    "CreatedDate": "2022-04-03T02:49:43.2148724+02:00",
-    "CreatedBy": "sit",
-    "CreatedByFullName": "Bertram Hettie Turner V",
-    "CreatedByAssociateId": 331,
+    "Location": "iste",
+    "AlarmLeadTime": "nulla",
+    "SaleId": 900,
+    "SaleName": "Wolf Inc and Sons",
+    "AssociateName": "Abshire-Barton",
+    "CreatedDate": "2020-03-27T17:37:16.2252416+01:00",
+    "CreatedBy": "optio",
+    "CreatedByFullName": "Brian Scarlett Hackett Sr.",
+    "CreatedByAssociateId": 178,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 928
+        "FieldType": "System.Int32",
+        "FieldLength": 670
       }
     }
   }

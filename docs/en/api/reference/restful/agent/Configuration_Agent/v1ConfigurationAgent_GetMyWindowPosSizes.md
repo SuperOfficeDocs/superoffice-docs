@@ -42,7 +42,7 @@ POST /api/v1/Agents/Configuration/GetMyWindowPosSizes?$select=name,department,ca
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | UpperY | int32 |  |
 | Width | int32 |  |
 | WindowPosSizeId | int32 |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,23 +85,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "sit",
-    "PersonId": 798,
-    "AssociateId": 422,
-    "ExtraId": 116,
+    "OwnerWindow": "velit",
+    "PersonId": 356,
+    "AssociateId": 103,
+    "ExtraId": 3,
     "ExtraInfo": "dolor",
-    "Height": 424,
-    "LeftX": 174,
+    "Height": 313,
+    "LeftX": 216,
     "State": "Maximized",
-    "UpperY": 473,
-    "Width": 805,
-    "WindowPosSizeId": 119,
+    "UpperY": 182,
+    "Width": 566,
+    "WindowPosSizeId": 973,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 79
+        "FieldLength": 61
       }
     }
   }

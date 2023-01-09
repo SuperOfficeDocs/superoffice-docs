@@ -42,17 +42,16 @@ POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TitleOrId, MaxRows 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TitleOrId | string |  |
-| MaxRows | int32 |  |
+| TitleOrId | String |  |
+| MaxRows | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body: array
 | TicketUrl | string | A URL leading directly to the created request. This is a URL ment to be used by a Service user |
 | PersonName | string | The name of the person/customer connected to the ticket |
 | ContactName | string | The name of the contact/company connected to the ticket |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,12 +80,12 @@ Response body: array
 POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TitleOrId": "officia",
-  "MaxRows": 203
+  "TitleOrId": "temporibus",
+  "MaxRows": 89
 }
 ```
 
@@ -98,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 474,
-    "Title": "assumenda",
-    "OwnerName": "Fahey, Waters and Raynor",
+    "TicketId": 24,
+    "Title": "esse",
+    "OwnerName": "Emmerich-Welch",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Stracke, Ernser and Miller",
+    "PriorityName": "Kuphal LLC",
     "TicketUrl": "http://www.example.com/",
-    "PersonName": "Hettinger-Gleichner",
-    "ContactName": "Friesen, Shanahan and Stanton",
+    "PersonName": "Cummings-Trantow",
+    "ContactName": "Price, Smith and Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldType": "System.String",
+        "FieldLength": 658
       }
     }
   }

@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/GetVisibleForUserGroups?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionId, ListItemId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionId | int32 |  |
-| ListItemId | int32 |  |
+| UdListDefinitionId | Integer |  |
+| ListItemId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,12 +87,12 @@ Response body: array
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 137,
-  "ListItemId": 943
+  "UdListDefinitionId": 274,
+  "ListItemId": 650
 }
 ```
 
@@ -105,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Roberts Inc and Sons",
-    "ToolTip": "Excepturi minima vitae nulla sed voluptatum ex.",
-    "Deleted": true,
-    "Rank": 929,
-    "Type": "quod",
-    "ColorBlock": 260,
-    "IconHint": "cum",
-    "Selected": false,
-    "LastChanged": "2006-01-23T02:49:44.6079219+01:00",
+    "Id": 333,
+    "Name": "Bogan-Johnson",
+    "ToolTip": "Molestiae perferendis.",
+    "Deleted": false,
+    "Rank": 301,
+    "Type": "vel",
+    "ColorBlock": 125,
+    "IconHint": "id",
+    "Selected": true,
+    "LastChanged": "2005-09-22T17:37:18.1922449+02:00",
     "ChildItems": [
       {
-        "Id": 309,
-        "Name": "Brown-Hermann",
-        "ToolTip": "Quasi quaerat velit est consectetur et.",
-        "Deleted": false,
-        "Rank": 68,
-        "Type": "itaque",
-        "ColorBlock": 573,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2012-09-11T02:49:44.6079219+02:00",
+        "Id": 424,
+        "Name": "Heller, Auer and Buckridge",
+        "ToolTip": "Magnam est.",
+        "Deleted": true,
+        "Rank": 926,
+        "Type": "natus",
+        "ColorBlock": 686,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2019-03-02T17:37:18.1932444+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "assumenda",
-        "Hidden": false,
-        "FullName": "Kimberly Oda Cruickshank Sr.",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "aspernatur",
+        "Hidden": true,
+        "FullName": "Cody Hartmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 89
+            "FieldType": "System.String",
+            "FieldLength": 639
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "et",
+    "ExtraInfo": "libero",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Nasir Satterfield",
+    "FullName": "Haleigh Mary Harber Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 19
+        "FieldType": "System.Int32",
+        "FieldLength": 238
       }
     }
   }

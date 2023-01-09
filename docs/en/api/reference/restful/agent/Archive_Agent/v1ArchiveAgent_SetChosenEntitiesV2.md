@@ -40,20 +40,19 @@ POST /api/v1/Agents/Archive/SetChosenEntitiesV2?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 GuiName, ProviderName, Context, OwnerKeys, Entities 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| GuiName | string |  |
-| ProviderName | string |  |
-| Context | string |  |
-| OwnerKeys | string |  |
-| Entities | array |  |
+| GuiName | String |  |
+| ProviderName | String |  |
+| Context | String |  |
+| OwnerKeys | String |  |
+| Entities | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -61,7 +60,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -70,17 +69,17 @@ Response body:
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Spencer LLC",
-  "ProviderName": "Willms LLC",
-  "Context": "nobis",
-  "OwnerKeys": "amet",
+  "GuiName": "Wintheiser Inc and Sons",
+  "ProviderName": "Welch, Bartell and Tillman",
+  "Context": "eius",
+  "OwnerKeys": "officiis",
   "Entities": [
-    "cupiditate",
-    "sed"
+    "esse",
+    "qui"
   ]
 }
 ```

@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Heaney, Stamm and Deckow",
-    "ToolTip": "Cumque quidem consequatur.",
-    "Deleted": true,
-    "Rank": 367,
-    "Type": "corrupti",
-    "ColorBlock": 41,
-    "IconHint": "nemo",
+    "Id": 399,
+    "Name": "Glover-Bashirian",
+    "ToolTip": "Velit porro aut et corrupti debitis magni et.",
+    "Deleted": false,
+    "Rank": 939,
+    "Type": "voluptas",
+    "ColorBlock": 696,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2002-05-07T02:49:52.4690756+02:00",
+    "LastChanged": "2000-10-11T17:37:40.2835003+02:00",
     "ChildItems": [
       {
-        "Id": 396,
-        "Name": "Grant-VonRueden",
-        "ToolTip": "Quod ea pariatur tempore praesentium nostrum harum.",
+        "Id": 601,
+        "Name": "Waelchi, Deckow and Sporer",
+        "ToolTip": "Voluptatibus dolore.",
         "Deleted": true,
-        "Rank": 348,
-        "Type": "ex",
-        "ColorBlock": 920,
-        "IconHint": "sapiente",
+        "Rank": 844,
+        "Type": "hic",
+        "ColorBlock": 332,
+        "IconHint": "eius",
         "Selected": false,
-        "LastChanged": "2014-10-28T02:49:52.4690756+01:00",
+        "LastChanged": "2022-08-03T17:37:40.2835003+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "labore",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Ms. Moriah Kelton McClure I",
+        "FullName": "Dimitri Vladimir Pfeffer II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 601
+            "FieldType": "System.Int32",
+            "FieldLength": 800
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "iure",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "consectetur",
     "Hidden": false,
-    "FullName": "Carmen Schaefer",
+    "FullName": "Zackery Crooks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldLength": 398
       }
     }
   }

@@ -36,7 +36,7 @@ Obtain information about satellite module licenses
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +52,7 @@ Response body: array
 | Description | string |  |
 | RestrictedModuleLicenses | array |  |
 | UnrestrictedModuleLicenses | array | The unrestricted module licenses that this license owner |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -72,30 +72,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walsh LLC",
-    "Description": "Proactive heuristic help-desk",
+    "Name": "Hagenes, Boyle and McDermott",
+    "Description": "Quality-focused 4th generation Graphical User Interface",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 324,
-        "Tooltip": "ut",
-        "CanAssign": true,
-        "Free": 492,
-        "InUse": 739,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 41,
-        "Name": "Lehner, Harvey and Dickinson",
-        "Description": "Stand-alone stable definition",
-        "PrerequisiteModuleName": "Orn Group",
-        "SortOrder": 831,
-        "ExtraFlags": 38,
+        "Total": 907,
+        "Tooltip": "qui",
+        "CanAssign": false,
+        "Free": 27,
+        "InUse": 978,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 792,
+        "Name": "Pollich LLC",
+        "Description": "Switchable executive infrastructure",
+        "PrerequisiteModuleName": "Pouros, Crist and Gleason",
+        "SortOrder": 204,
+        "ExtraFlags": 188,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 63
+            "FieldLength": 748
           }
         }
       }
@@ -103,25 +103,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 749,
-        "Tooltip": "libero",
+        "Total": 189,
+        "Tooltip": "itaque",
         "CanAssign": false,
-        "Free": 515,
-        "InUse": 126,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 773,
-        "Name": "Heaney, Harvey and Cummings",
-        "Description": "Ameliorated client-driven internet solution",
-        "PrerequisiteModuleName": "Schaden Group",
-        "SortOrder": 770,
-        "ExtraFlags": 590,
+        "Free": 424,
+        "InUse": 858,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 331,
+        "Name": "Treutel, Friesen and Barton",
+        "Description": "Balanced zero defect open system",
+        "PrerequisiteModuleName": "Batz LLC",
+        "SortOrder": 188,
+        "ExtraFlags": 730,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldType": "System.Int32",
+            "FieldLength": 950
           }
         }
       }
@@ -131,35 +131,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 4
+        "FieldLength": 91
       }
     }
   },
   {
-    "Name": "Walsh LLC",
-    "Description": "Proactive heuristic help-desk",
+    "Name": "Hagenes, Boyle and McDermott",
+    "Description": "Quality-focused 4th generation Graphical User Interface",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 324,
-        "Tooltip": "ut",
-        "CanAssign": true,
-        "Free": 492,
-        "InUse": 739,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 41,
-        "Name": "Lehner, Harvey and Dickinson",
-        "Description": "Stand-alone stable definition",
-        "PrerequisiteModuleName": "Orn Group",
-        "SortOrder": 831,
-        "ExtraFlags": 38,
+        "Total": 907,
+        "Tooltip": "qui",
+        "CanAssign": false,
+        "Free": 27,
+        "InUse": 978,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 792,
+        "Name": "Pollich LLC",
+        "Description": "Switchable executive infrastructure",
+        "PrerequisiteModuleName": "Pouros, Crist and Gleason",
+        "SortOrder": 204,
+        "ExtraFlags": 188,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 63
+            "FieldLength": 748
           }
         }
       }
@@ -167,25 +167,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 749,
-        "Tooltip": "libero",
+        "Total": 189,
+        "Tooltip": "itaque",
         "CanAssign": false,
-        "Free": 515,
-        "InUse": 126,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 773,
-        "Name": "Heaney, Harvey and Cummings",
-        "Description": "Ameliorated client-driven internet solution",
-        "PrerequisiteModuleName": "Schaden Group",
-        "SortOrder": 770,
-        "ExtraFlags": 590,
+        "Free": 424,
+        "InUse": 858,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 331,
+        "Name": "Treutel, Friesen and Barton",
+        "Description": "Balanced zero defect open system",
+        "PrerequisiteModuleName": "Batz LLC",
+        "SortOrder": 188,
+        "ExtraFlags": 730,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldType": "System.Int32",
+            "FieldLength": 950
           }
         }
       }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 4
+        "FieldLength": 91
       }
     }
   }

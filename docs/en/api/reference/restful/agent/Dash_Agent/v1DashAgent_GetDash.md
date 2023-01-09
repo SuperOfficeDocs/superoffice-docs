@@ -25,7 +25,7 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=878
+POST /api/v1/Agents/Dash/GetDash?dashId=658
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Dash
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,14 +62,14 @@ Response body:
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
 | Columns | int32 | How many columns there will be in the dashboard. |
-| Theme |  | The theme for this dashboard |
+| Theme | DashTheme | The theme for this dashboard |
 | VisibleForAll | int32 | True if visible for all |
 | VisibleForAssociates | array | Array of references to the visible for associates |
 | VisibleForGroups | array | Array of references to the visible for groups |
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,7 +78,7 @@ Response body:
 POST /api/v1/Agents/Dash/GetDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,37 +88,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 511,
-  "UniqueId": "ex",
-  "Name": "Bartell, Fadel and Hegmann",
-  "Description": "Customizable motivating matrix",
-  "AssociateId": 921,
-  "Columns": 624,
+  "DashboardId": 491,
+  "UniqueId": "veniam",
+  "Name": "Block Inc and Sons",
+  "Description": "Polarised executive data-warehouse",
+  "AssociateId": 734,
+  "Columns": 613,
   "Theme": null,
-  "VisibleForAll": 879,
+  "VisibleForAll": 137,
   "VisibleForAssociates": [
-    820,
-    369
+    386,
+    517
   ],
   "VisibleForGroups": [
-    495,
-    98
+    179,
+    729
   ],
-  "PinForAll": 176,
+  "PinForAll": 996,
   "PinForAssociates": [
-    205,
-    626
+    864,
+    918
   ],
   "PinForGroups": [
-    228,
-    31
+    6,
+    479
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 645
     }
   }
 }

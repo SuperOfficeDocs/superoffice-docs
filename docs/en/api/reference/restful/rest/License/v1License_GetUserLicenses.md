@@ -36,7 +36,7 @@ Obtain information about associate module licenses
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +52,7 @@ Response body: array
 | Description | string |  |
 | RestrictedModuleLicenses | array |  |
 | UnrestrictedModuleLicenses | array | The unrestricted module licenses that this license owner |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -61,7 +61,7 @@ Response body: array
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,30 +72,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bosco, Moen and Kautzer",
-    "Description": "Advanced didactic structure",
+    "Name": "McKenzie, Crooks and Wolff",
+    "Description": "Extended attitude-oriented encoding",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 58,
-        "Tooltip": "asperiores",
+        "Total": 701,
+        "Tooltip": "reiciendis",
         "CanAssign": false,
-        "Free": 659,
-        "InUse": 983,
+        "Free": 383,
+        "InUse": 780,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 445,
-        "Name": "Ankunding Inc and Sons",
-        "Description": "Progressive mission-critical capacity",
-        "PrerequisiteModuleName": "Kreiger, Goodwin and Konopelski",
-        "SortOrder": 400,
-        "ExtraFlags": 773,
+        "ModuleLicenseId": 561,
+        "Name": "Eichmann Inc and Sons",
+        "Description": "Managed attitude-oriented structure",
+        "PrerequisiteModuleName": "Sanford, Wehner and Zemlak",
+        "SortOrder": 561,
+        "ExtraFlags": 653,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 413
+            "FieldLength": 577
           }
         }
       }
@@ -103,25 +103,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 647,
-        "Tooltip": "eaque",
+        "Total": 868,
+        "Tooltip": "labore",
         "CanAssign": false,
-        "Free": 507,
-        "InUse": 679,
+        "Free": 39,
+        "InUse": 212,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 479,
-        "Name": "Morissette Group",
-        "Description": "Reduced bottom-line local area network",
-        "PrerequisiteModuleName": "Toy-Greenfelder",
-        "SortOrder": 304,
-        "ExtraFlags": 732,
+        "Assigned": false,
+        "ModuleLicenseId": 294,
+        "Name": "Strosin Group",
+        "Description": "Object-based bifurcated collaboration",
+        "PrerequisiteModuleName": "Harris Inc and Sons",
+        "SortOrder": 447,
+        "ExtraFlags": 588,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 605
+            "FieldLength": 526
           }
         }
       }
@@ -131,35 +131,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldLength": 52
       }
     }
   },
   {
-    "Name": "Bosco, Moen and Kautzer",
-    "Description": "Advanced didactic structure",
+    "Name": "McKenzie, Crooks and Wolff",
+    "Description": "Extended attitude-oriented encoding",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 58,
-        "Tooltip": "asperiores",
+        "Total": 701,
+        "Tooltip": "reiciendis",
         "CanAssign": false,
-        "Free": 659,
-        "InUse": 983,
+        "Free": 383,
+        "InUse": 780,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 445,
-        "Name": "Ankunding Inc and Sons",
-        "Description": "Progressive mission-critical capacity",
-        "PrerequisiteModuleName": "Kreiger, Goodwin and Konopelski",
-        "SortOrder": 400,
-        "ExtraFlags": 773,
+        "ModuleLicenseId": 561,
+        "Name": "Eichmann Inc and Sons",
+        "Description": "Managed attitude-oriented structure",
+        "PrerequisiteModuleName": "Sanford, Wehner and Zemlak",
+        "SortOrder": 561,
+        "ExtraFlags": 653,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 413
+            "FieldLength": 577
           }
         }
       }
@@ -167,25 +167,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 647,
-        "Tooltip": "eaque",
+        "Total": 868,
+        "Tooltip": "labore",
         "CanAssign": false,
-        "Free": 507,
-        "InUse": 679,
+        "Free": 39,
+        "InUse": 212,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 479,
-        "Name": "Morissette Group",
-        "Description": "Reduced bottom-line local area network",
-        "PrerequisiteModuleName": "Toy-Greenfelder",
-        "SortOrder": 304,
-        "ExtraFlags": 732,
+        "Assigned": false,
+        "ModuleLicenseId": 294,
+        "Name": "Strosin Group",
+        "Description": "Object-based bifurcated collaboration",
+        "PrerequisiteModuleName": "Harris Inc and Sons",
+        "SortOrder": 447,
+        "ExtraFlags": 588,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 605
+            "FieldLength": 526
           }
         }
       }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldLength": 52
       }
     }
   }

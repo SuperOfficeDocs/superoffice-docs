@@ -42,17 +42,16 @@ POST /api/v1/Agents/Sale/GetSalesFromPerson?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, OnlyOpenSales 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| OnlyOpenSales | bool |  |
+| PersonId | Integer |  |
+| OnlyOpenSales | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body: array
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -98,12 +97,12 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 865,
-  "OnlyOpenSales": false
+  "PersonId": 394,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Mitchell Group",
-    "SaleDate": "2013-02-20T02:49:45.155965+01:00",
-    "SaleId": 308,
-    "Probability": 609,
-    "Title": "quo",
-    "Amount": 9138.744,
-    "Currency": "ad",
-    "ProjectName": "Zulauf, Wolf and Lang",
-    "AssociateFullName": "Yvonne Lindgren",
-    "Description": "Reverse-engineered scalable emulation",
+    "ContactName": "Stoltenberg-Fahey",
+    "SaleDate": "1998-10-10T17:37:18.8942448+02:00",
+    "SaleId": 107,
+    "Probability": 966,
+    "Title": "iusto",
+    "Amount": 16212.181999999999,
+    "Currency": "cumque",
+    "ProjectName": "Powlowski-Altenwerth",
+    "AssociateFullName": "Pete Kendall O'Connell Sr.",
+    "Description": "Synergized optimal emulation",
     "Status": "Lost",
-    "WeightedAmount": 5033.204,
-    "ProjectId": 915,
-    "EarningPercent": 14961.716,
-    "Earning": 17609.946,
-    "ContactId": 972,
-    "AssociateId": 894,
-    "PersonId": 443,
-    "SaleTypeId": 467,
-    "SaleTypeName": "Bradtke Inc and Sons",
-    "PersonFullName": "Jeff Tremblay",
+    "WeightedAmount": 8916.23,
+    "ProjectId": 879,
+    "EarningPercent": 10204.304,
+    "Earning": 3375.3179999999998,
+    "ContactId": 46,
+    "AssociateId": 826,
+    "PersonId": 306,
+    "SaleTypeId": 796,
+    "SaleTypeName": "Crona, O'Reilly and McKenzie",
+    "PersonFullName": "Wilton Monahan",
     "Completed": "Completed",
-    "ActiveErpLinks": 303,
-    "NextDueDate": "2001-11-15T02:49:45.155965+01:00",
-    "Number": "651748",
+    "ActiveErpLinks": 186,
+    "NextDueDate": "2006-09-23T17:37:18.8952428+02:00",
+    "Number": "621786",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 812
+        "FieldType": "System.Int32",
+        "FieldLength": 476
       }
     }
   }

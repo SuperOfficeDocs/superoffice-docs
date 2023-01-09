@@ -42,16 +42,15 @@ POST /api/v1/Agents/Sale/GetSaleStakeholders?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SaleId | int32 |  |
+| SaleId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +81,7 @@ Response body: array
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 363
+  "SaleId": 262
 }
 ```
 
@@ -107,31 +106,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "McCullough Group",
-    "Comment": "quia",
-    "StakeholderRoleId": 584,
-    "CountryId": 808,
-    "PersonId": 461,
-    "EmailDescription": "peter@pfannerstillhansen.uk",
-    "EmailId": 628,
-    "EmailAddress": "ara.runolfsdottir@windler.name",
-    "PhoneId": 758,
-    "ContactName": "Ferry, Nitzsche and Spinka",
-    "ContactId": 501,
-    "SaleId": 902,
-    "Mrmrs": "aut",
-    "Firstname": "Elna",
-    "MiddleName": "Bernhard LLC",
-    "Lastname": "Gorczany",
-    "SaleStakeholderId": 185,
-    "Rank": 217,
-    "Phone": "1-245-302-5142",
+    "StakeholderRoleName": "Yost Inc and Sons",
+    "Comment": "voluptas",
+    "StakeholderRoleId": 288,
+    "CountryId": 38,
+    "PersonId": 318,
+    "EmailDescription": "arjun.kreiger@gottlieb.ca",
+    "EmailId": 242,
+    "EmailAddress": "nicolette.batz@roberts.co.uk",
+    "PhoneId": 579,
+    "ContactName": "Schmidt-Thiel",
+    "ContactId": 292,
+    "SaleId": 103,
+    "Mrmrs": "aliquam",
+    "Firstname": "Brycen",
+    "MiddleName": "Jacobi-Boehm",
+    "Lastname": "Willms",
+    "SaleStakeholderId": 29,
+    "Rank": 41,
+    "Phone": "565.902.7667 x509",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 44
+        "FieldType": "System.Int32",
+        "FieldLength": 736
       }
     }
   }

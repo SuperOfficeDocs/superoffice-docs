@@ -44,17 +44,16 @@ POST /api/v1/Agents/Configuration/GetApplicationConfiguration?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Application, Instance 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Application | string |  |
-| Instance | string |  |
+| Application | String |  |
+| Instance | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -71,12 +70,12 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetApplicationConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "hic",
-  "Instance": "veritatis"
+  "Application": "minima",
+  "Instance": "qui"
 }
 ```
 
@@ -86,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"odit"
+"ea"
 ```

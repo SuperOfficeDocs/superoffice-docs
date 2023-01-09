@@ -12,8 +12,6 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Get a page of results for an archive list with context parameter, explicitly specifying the restrictions as a string, orderby and chosen columns.
 
 
-
-
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
 
@@ -102,9 +100,6 @@ Use backslash to escape single quotes in strings
 
 
 
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -130,23 +125,22 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Columns | string |  |
-| SortOrder | string |  |
-| Restriction | string |  |
-| Entities | string |  |
-| Page | int32 |  |
-| PageSize | int32 |  |
-| Context | string |  |
+| ProviderName | String |  |
+| Columns | String |  |
+| SortOrder | String |  |
+| Restriction | String |  |
+| Entities | String |  |
+| Page | Integer |  |
+| PageSize | Integer |  |
+| Context | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -154,7 +148,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -163,7 +157,7 @@ Response body: array
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -172,18 +166,18 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Prohaska-Wolf",
-  "Columns": "est",
-  "SortOrder": "blanditiis",
-  "Restriction": "aut",
-  "Entities": "sequi",
-  "Page": 735,
-  "PageSize": 848,
-  "Context": "expedita"
+  "ProviderName": "Hegmann LLC",
+  "Columns": "quisquam",
+  "SortOrder": "nam",
+  "Restriction": "cum",
+  "Entities": "recusandae",
+  "Page": 428,
+  "PageSize": 429,
+  "Context": "iure"
 }
 ```
 
@@ -195,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Sawayn Inc and Sons",
-    "PrimaryKey": 167,
+    "EntityName": "Reichert-Prosacco",
+    "PrimaryKey": 784,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "non",
-        "TooltipHint": "nesciunt",
-        "LinkHint": "et"
+        "DisplayValue": "temporibus",
+        "TooltipHint": "eius",
+        "LinkHint": "animi"
       }
     },
-    "LinkHint": "veritatis",
-    "StyleHint": "non",
+    "LinkHint": "ullam",
+    "StyleHint": "recusandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 840
       }
     }
   }

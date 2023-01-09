@@ -44,20 +44,19 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTaskHeading?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId, StartTime, EndTime, Count, TaskHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TaskHeadingId | int32 |  |
+| ProjectId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TaskHeadingId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -127,15 +126,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 533,
-  "StartTime": "2017-05-20T02:49:43.2148724+02:00",
-  "EndTime": "2009-02-21T02:49:43.2148724+01:00",
-  "Count": 374,
-  "TaskHeadingId": 761
+  "ProjectId": 612,
+  "StartTime": "2001-08-28T17:37:16.2312416+02:00",
+  "EndTime": "2014-08-31T17:37:16.2312416+02:00",
+  "Count": 321,
+  "TaskHeadingId": 475
 }
 ```
 
@@ -147,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 556,
-    "StartDate": "1999-04-22T02:49:43.2148724+02:00",
-    "EndDate": "2012-05-07T02:49:43.2148724+02:00",
+    "AppointmentId": 31,
+    "StartDate": "2003-10-01T17:37:16.2322415+02:00",
+    "EndDate": "2012-02-14T17:37:16.2322415+01:00",
     "Type": "BookingForChecklist",
-    "Task": "facilis",
-    "AssociateFullName": "Lolita Beatty",
-    "ContactName": "Cremin Group",
-    "Description": "Synergistic reciprocal data-warehouse",
-    "PersonFullName": "Patsy Gaylord",
-    "PersonId": 570,
-    "ContactId": 633,
-    "ProjectId": 764,
-    "ProjectName": "Konopelski, Thompson and Lebsack",
+    "Task": "voluptas",
+    "AssociateFullName": "Irma Ward",
+    "ContactName": "Kuphal-Beer",
+    "Description": "Multi-layered attitude-oriented collaboration",
+    "PersonFullName": "Alec Bosco V",
+    "PersonId": 690,
+    "ContactId": 669,
+    "ProjectId": 569,
+    "ProjectName": "Kovacek, Howe and Huel",
     "IsPublished": true,
-    "AssociateId": 342,
-    "ColorIndex": 304,
+    "AssociateId": 251,
+    "ColorIndex": 921,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 854,
-    "PriorityName": "Fay, Larkin and Hettinger",
+    "PriorityId": 620,
+    "PriorityName": "Carroll Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2013-10-02T02:49:43.2148724+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2011-06-08T17:37:16.2332416+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1995-12-29T02:49:43.2148724+01:00",
-    "RecurringEndDate": "1996-04-19T02:49:43.2148724+02:00",
-    "MotherId": 940,
-    "AssignedBy": 422,
-    "AssignedByFullName": "Keegan Kassulke",
+    "RecurringStartDate": "2002-04-30T17:37:16.2332416+02:00",
+    "RecurringEndDate": "2007-11-04T17:37:16.2332416+01:00",
+    "MotherId": 547,
+    "AssignedBy": 990,
+    "AssignedByFullName": "Miss Elfrieda McGlynn II",
     "RejectReason": "",
-    "Location": "eos",
-    "AlarmLeadTime": "totam",
-    "SaleId": 871,
-    "SaleName": "O'Keefe, Leffler and Heaney",
-    "AssociateName": "Zieme-Runolfsson",
-    "CreatedDate": "2007-04-19T02:49:43.2148724+02:00",
-    "CreatedBy": "debitis",
-    "CreatedByFullName": "Prof. Nicholaus Brody Zulauf",
-    "CreatedByAssociateId": 330,
+    "Location": "est",
+    "AlarmLeadTime": "qui",
+    "SaleId": 806,
+    "SaleName": "Blanda LLC",
+    "AssociateName": "Schaefer, Lehner and Stamm",
+    "CreatedDate": "2008-10-19T17:37:16.2332416+02:00",
+    "CreatedBy": "sint",
+    "CreatedByFullName": "Ms. Caleb Parker III",
+    "CreatedByAssociateId": 674,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 292
+        "FieldType": "System.String",
+        "FieldLength": 829
       }
     }
   }

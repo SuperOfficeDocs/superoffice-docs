@@ -37,7 +37,7 @@ List of User groups that this list item is visible for
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +64,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "McGlynn-Bechtelar",
-    "ToolTip": "Sapiente excepturi rerum.",
+    "Id": 238,
+    "Name": "Trantow Group",
+    "ToolTip": "Sit tempora.",
     "Deleted": false,
-    "Rank": 548,
-    "Type": "dolores",
-    "ColorBlock": 574,
-    "IconHint": "exercitationem",
-    "Selected": true,
-    "LastChanged": "1998-08-20T02:49:51.8596935+02:00",
+    "Rank": 357,
+    "Type": "maiores",
+    "ColorBlock": 404,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "1996-05-04T17:37:39.6184313+02:00",
     "ChildItems": [
       {
-        "Id": 59,
-        "Name": "Bogisich-Kunde",
-        "ToolTip": "Repellendus sunt dolores aut doloribus aut.",
+        "Id": 130,
+        "Name": "Anderson-Green",
+        "ToolTip": "Repellendus sit in non necessitatibus.",
         "Deleted": false,
-        "Rank": 677,
-        "Type": "ullam",
-        "ColorBlock": 963,
-        "IconHint": "magni",
+        "Rank": 447,
+        "Type": "assumenda",
+        "ColorBlock": 313,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "1996-05-16T02:49:51.8596935+02:00",
+        "LastChanged": "2002-11-10T17:37:39.6184313+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "officia",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "repellendus",
         "Hidden": false,
-        "FullName": "Prof. Constance Kaci Roob",
+        "FullName": "Wava Penelope Buckridge DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 407
+            "FieldType": "System.Int32",
+            "FieldLength": 403
           }
         }
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "sit",
+    "ExtraInfo": "saepe",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Prof. Jonas Bosco Jr.",
+    "FullName": "Annabel Katlynn Zieme Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 909
+        "FieldType": "System.Int32",
+        "FieldLength": 638
       }
     }
   }

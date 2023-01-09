@@ -32,26 +32,25 @@ Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentE
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The SuggestedDocumentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SuggestedDocumentId | int32 | Primary key |
-| Name | string | Item name, visible in Guide |
-| Tooltip | string | Tooltip / description |
-| Rank | int32 | Rank, controls rank of non-instantiated items in Guide |
-| DoctmplId | int32 | Type of the suggested document |
-| Header | string | Suggested 'header' |
-| OurRef | string | Suggested 'our reference' |
-| Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| DocTmpl |  | Document template |
-| ProjectTypeStatusLink |  | Project type and project status link info |
-| SaleTypeStageLink |  | Sale type and stage link info. |
+| SuggestedDocumentId | Integer | Primary key |
+| Name | String | Item name, visible in Guide |
+| Tooltip | String | Tooltip / description |
+| Rank | Integer | Rank, controls rank of non-instantiated items in Guide |
+| DoctmplId | Integer | Type of the suggested document |
+| Header | String | Suggested 'header' |
+| OurRef | String | Suggested 'our reference' |
+| Deleted | Boolean | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
+| DocTmpl | DocumentTemplate | Document template |
+| ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
+| SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SuggestedDocumentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,10 +70,10 @@ Response body:
 | Header | string | Suggested 'header' |
 | OurRef | string | Suggested 'our reference' |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| DocTmpl |  | Document template |
-| ProjectTypeStatusLink |  | Project type and project status link info |
-| SaleTypeStageLink |  | Sale type and stage link info. |
-| TableRight |  |  |
+| DocTmpl | DocumentTemplate | Document template |
+| ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
+| SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,18 +82,18 @@ Response body:
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 914,
-  "Name": "Stark Inc and Sons",
-  "Tooltip": "in",
-  "Rank": 425,
-  "DoctmplId": 472,
-  "Header": "aperiam",
-  "OurRef": "consequuntur",
-  "Deleted": true,
+  "SuggestedDocumentId": 513,
+  "Name": "Barton, Klocko and Pfeffer",
+  "Tooltip": "fugit",
+  "Rank": 394,
+  "DoctmplId": 830,
+  "Header": "voluptates",
+  "OurRef": "quos",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,14 +107,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 187,
-  "Name": "Kozey Group",
-  "Tooltip": "eum",
-  "Rank": 10,
-  "DoctmplId": 199,
-  "Header": "possimus",
-  "OurRef": "earum",
-  "Deleted": true,
+  "SuggestedDocumentId": 45,
+  "Name": "Tremblay, Prohaska and Larkin",
+  "Tooltip": "sit",
+  "Rank": 340,
+  "DoctmplId": 344,
+  "Header": "quia",
+  "OurRef": "a",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -124,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 11
+      "FieldLength": 799
     }
   }
 }

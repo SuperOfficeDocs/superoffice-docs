@@ -47,28 +47,27 @@ POST /api/v1/Webhook?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The Webhook to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| WebhookId | int32 | Primary Key. Unique id for this webhook. |
-| Name | string | Name to identify this webhook. Does not have to be unique. |
-| Events | array | Array of event names that trigger this webhook: ['contact.created', 'sale.changed'] |
-| TargetUrl | string | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
-| Secret | string | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
-| State | string | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
-| Type | string | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
-| Headers | object | Custom HTTP Headers to add to webhook requests. |
-| Properties | object | Custom values to inject into JSON body of webhook call. |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociate |  | The user that created the webhook. |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociate |  | The user that last updated the webhook. |
+| WebhookId | Integer | Primary Key. Unique id for this webhook. |
+| Name | String | Name to identify this webhook. Does not have to be unique. |
+| Events | Array | Array of event names that trigger this webhook: ['contact.created', 'sale.changed'] |
+| TargetUrl | String | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
+| Secret | String | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
+| State | String | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
+| Type | String | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
+| Headers | Object | Custom HTTP Headers to add to webhook requests. |
+| Properties | Object | Custom values to inject into JSON body of webhook call. |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociate | Associate | The user that created the webhook. |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociate | Associate | The user that last updated the webhook. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -76,7 +75,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: WebhookWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,9 +89,9 @@ Response body:
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociate |  | The user that created the webhook. |
+| RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociate |  | The user that last updated the webhook. |
+| UpdatedAssociate | Associate | The user that last updated the webhook. |
 | _Links | object |  |
 
 ## Sample request
@@ -101,30 +100,30 @@ Response body:
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 32,
-  "Name": "Renner-Daniel",
+  "WebhookId": 137,
+  "Name": "Stanton, Gulgowski and Hagenes",
   "Events": [
-    "nobis",
-    "impedit"
+    "eos",
+    "architecto"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptas",
+  "Secret": "similique",
   "State": "Active",
-  "Type": "eum",
+  "Type": "est",
   "Headers": {
-    "Headers1": "eum",
-    "Headers2": "nobis"
+    "Headers1": "quisquam",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1997-08-20T02:49:51.844034+02:00",
+  "Registered": "2011-11-01T17:37:39.5984306+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2007-10-05T02:49:51.844034+02:00",
+  "Updated": "2015-07-08T17:37:39.5984306+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -136,26 +135,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 574,
-  "Name": "Mueller, Emard and Cole",
+  "WebhookId": 64,
+  "Name": "Toy Group",
   "Events": [
-    "autem",
-    "et"
+    "iste",
+    "laborum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "rem",
+  "Secret": "vel",
   "State": "Active",
-  "Type": "ut",
+  "Type": "velit",
   "Headers": {
-    "Headers1": "quod",
-    "Headers2": "nostrum"
+    "Headers1": "similique",
+    "Headers2": "ut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2002-12-09T02:49:51.844034+01:00",
+  "Registered": "2005-01-11T17:37:39.6004304+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2009-04-06T02:49:51.844034+02:00",
+  "Updated": "1998-10-16T17:37:39.6004304+02:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",

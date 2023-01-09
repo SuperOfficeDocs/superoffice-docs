@@ -42,16 +42,15 @@ POST /api/v1/Agents/Import/CreateDefaultImportLine?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 CountColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CountColumns | int32 |  |
+| CountColumns | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ImportLine
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body:
 | Operation | string | Which operation will be used? This is a read-only property |
 | Type | string | Which entity type will be created? This is a read-only property |
 | ExternalKey | string | Optional external primary key for the row |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 426
+  "CountColumns": 604
 }
 ```
 
@@ -93,19 +92,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "est",
-    "molestiae"
+    "illo",
+    "veniam"
   ],
-  "Selected": true,
+  "Selected": false,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "placeat",
+  "ExternalKey": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldLength": 405
     }
   }
 }

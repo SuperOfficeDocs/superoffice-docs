@@ -48,7 +48,7 @@ GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Herman LLC",
-    "ToolTip": "Vero voluptas eum aut.",
+    "Id": 660,
+    "Name": "Morissette LLC",
+    "ToolTip": "Aperiam est esse dolorum.",
     "Deleted": false,
-    "Rank": 42,
-    "Type": "assumenda",
-    "ColorBlock": 310,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2001-10-26T02:49:52.2503161+02:00",
+    "Rank": 489,
+    "Type": "itaque",
+    "ColorBlock": 104,
+    "IconHint": "beatae",
+    "Selected": false,
+    "LastChanged": "1999-11-25T17:37:40.0234703+01:00",
     "ChildItems": [
       {
-        "Id": 436,
-        "Name": "Williamson, Hessel and Schroeder",
-        "ToolTip": "Distinctio quia.",
-        "Deleted": false,
-        "Rank": 97,
-        "Type": "similique",
-        "ColorBlock": 84,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2008-01-23T02:49:52.2503161+01:00",
+        "Id": 624,
+        "Name": "Stehr, Rogahn and Walter",
+        "ToolTip": "Earum doloremque sunt illo sint aut.",
+        "Deleted": true,
+        "Rank": 875,
+        "Type": "perferendis",
+        "ColorBlock": 193,
+        "IconHint": "natus",
+        "Selected": true,
+        "LastChanged": "2007-08-18T17:37:40.0234703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "rerum",
+        "ExtraInfo": "omnis",
+        "StyleHint": "voluptatum",
         "Hidden": true,
-        "FullName": "Darren Ratke",
+        "FullName": "Ms. Tevin Desiree Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 320
+            "FieldType": "System.String",
+            "FieldLength": 706
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "ut",
+    "ExtraInfo": "ut",
+    "StyleHint": "perspiciatis",
     "Hidden": false,
-    "FullName": "Dalton Nikolaus",
+    "FullName": "Letitia Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldType": "System.String",
+        "FieldLength": 584
       }
     }
   }

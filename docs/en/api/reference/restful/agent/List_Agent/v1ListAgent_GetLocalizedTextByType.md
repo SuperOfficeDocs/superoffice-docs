@@ -42,18 +42,17 @@ POST /api/v1/Agents/List/GetLocalizedTextByType?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TextType, ResourceId, LanguageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TextType | string |  |
-| ResourceId | int32 |  |
-| LanguageId | int32 |  |
+| TextType | String |  |
+| ResourceId | Integer |  |
+| LanguageId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: LocalizedText
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body:
 | Type | string | The type of the text string, e.g. Field label, Udef label, etc. |
 | LocalizedTextId | int32 | Primary key |
 | IsBuiltIn | bool | 1 = this row is populated and maintained by SuperOffice |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,13 +79,13 @@ Response body:
 POST /api/v1/Agents/List/GetLocalizedTextByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TextType": "Column",
-  "ResourceId": 227,
-  "LanguageId": 177
+  "ResourceId": 670,
+  "LanguageId": 485
 }
 ```
 
@@ -97,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 66,
-  "ResourceId": 492,
-  "Text": "deleniti",
+  "LanguageId": 546,
+  "ResourceId": 628,
+  "Text": "asperiores",
   "Type": "Column",
-  "LocalizedTextId": 90,
-  "IsBuiltIn": true,
+  "LocalizedTextId": 89,
+  "IsBuiltIn": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldType": "System.Int32",
+      "FieldLength": 201
     }
   }
 }

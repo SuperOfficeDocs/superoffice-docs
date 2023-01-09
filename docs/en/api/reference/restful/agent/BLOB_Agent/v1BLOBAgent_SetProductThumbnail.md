@@ -40,17 +40,16 @@ POST /api/v1/Agents/BLOB/SetProductThumbnail?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProductId, Image 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProductId | int32 |  |
-| Image | byte |  |
+| ProductId | Integer |  |
+| Image | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -58,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -67,11 +66,11 @@ Response body:
 POST /api/v1/Agents/BLOB/SetProductThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 338,
+  "ProductId": 401,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

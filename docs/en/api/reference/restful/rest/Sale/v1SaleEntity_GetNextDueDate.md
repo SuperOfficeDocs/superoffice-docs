@@ -38,7 +38,7 @@ The next due date is the next future appointment that is not completed.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: date-time
+## Response:date-time
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: date-time
+### Response body: date-time
 
 
 ## Sample request
@@ -55,7 +55,7 @@ Response body: date-time
 GET /api/v1/Sale/{saleId}/NextDueDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -64,5 +64,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2008-03-12T02:49:51.4894333+01:00"
+"2010-10-30T17:37:39.1602764+02:00"
 ```

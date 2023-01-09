@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Returns all fields needed to connect to the given connector
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/ErpSync/GetConfigurationFields?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpConnectorId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpConnectorId | int32 |  |
+| ErpConnectorId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +74,7 @@ Response body: array
 | MaxLength | int32 | Maximum length for strings, if set. 0 means no restriction. (Though sooner or later something will no doubt overflow if you pile on the gigabytes.) |
 | Access | string | Access restrictions on the field |
 | ShowInSearch | bool | True if this field is displayed in search result |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,11 +83,11 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 96
+  "ErpConnectorId": 805
 }
 ```
 
@@ -102,14 +99,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "magni",
-    "Rank": 169,
-    "DisplayName": "Rau, Kuhn and Yost",
-    "DisplayDescription": "Synchronised discrete algorithm",
+    "FieldKey": "occaecati",
+    "Rank": 99,
+    "DisplayName": "Armstrong-Johns",
+    "DisplayDescription": "Decentralized tertiary knowledge base",
     "FieldType": "Checkbox",
-    "ListName": "Bayer-Spencer",
-    "DefaultValue": "omnis",
-    "MaxLength": 451,
+    "ListName": "Paucek Group",
+    "DefaultValue": "molestiae",
+    "MaxLength": 664,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +114,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 349
+        "FieldLength": 810
       }
     }
   }

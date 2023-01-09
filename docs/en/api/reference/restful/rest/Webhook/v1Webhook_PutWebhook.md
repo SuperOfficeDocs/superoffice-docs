@@ -12,8 +12,6 @@ PUT /api/v1/Webhook/{id}
 Updates the existing Webhook
 
 
-
-
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -50,28 +48,27 @@ PUT /api/v1/Webhook/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The Webhook to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| WebhookId | int32 | Primary Key. Unique id for this webhook. |
-| Name | string | Name to identify this webhook. Does not have to be unique. |
-| Events | array | Array of event names that trigger this webhook: ['contact.created', 'sale.changed'] |
-| TargetUrl | string | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
-| Secret | string | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
-| State | string | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
-| Type | string | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
-| Headers | object | Custom HTTP Headers to add to webhook requests. |
-| Properties | object | Custom values to inject into JSON body of webhook call. |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociate |  | The user that created the webhook. |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociate |  | The user that last updated the webhook. |
+| WebhookId | Integer | Primary Key. Unique id for this webhook. |
+| Name | String | Name to identify this webhook. Does not have to be unique. |
+| Events | Array | Array of event names that trigger this webhook: ['contact.created', 'sale.changed'] |
+| TargetUrl | String | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
+| Secret | String | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
+| State | String | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
+| Type | String | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
+| Headers | Object | Custom HTTP Headers to add to webhook requests. |
+| Properties | Object | Custom values to inject into JSON body of webhook call. |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociate | Associate | The user that created the webhook. |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociate | Associate | The user that last updated the webhook. |
 
-
-## Response: 
+## Response:
 
 Webhook updated.
 
@@ -80,7 +77,7 @@ Webhook updated.
 | 200 | Webhook updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: WebhookWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,9 +91,9 @@ Response body:
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociate |  | The user that created the webhook. |
+| RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociate |  | The user that last updated the webhook. |
+| UpdatedAssociate | Associate | The user that last updated the webhook. |
 | _Links | object |  |
 
 ## Sample request
@@ -109,26 +106,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 759,
-  "Name": "Strosin LLC",
+  "WebhookId": 41,
+  "Name": "Funk, Abernathy and Kulas",
   "Events": [
-    "necessitatibus",
-    "non"
+    "molestiae",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quisquam",
+  "Secret": "corrupti",
   "State": "Active",
-  "Type": "quia",
+  "Type": "aspernatur",
   "Headers": {
-    "Headers1": "ipsam",
-    "Headers2": "quos"
+    "Headers1": "nesciunt",
+    "Headers2": "corrupti"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1998-01-08T02:49:51.844034+01:00",
+  "Registered": "2013-01-04T17:37:39.6044312+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2009-01-21T02:49:51.844034+01:00",
+  "Updated": "2022-10-07T17:37:39.6044312+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -140,30 +137,30 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 110,
-  "Name": "Murphy, Dare and Pouros",
+  "WebhookId": 986,
+  "Name": "Rau, Sporer and Friesen",
   "Events": [
-    "praesentium",
-    "omnis"
+    "et",
+    "beatae"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "fugiat",
+  "Secret": "voluptas",
   "State": "Active",
-  "Type": "nihil",
+  "Type": "rerum",
   "Headers": {
-    "Headers1": "perferendis",
-    "Headers2": "repudiandae"
+    "Headers1": "libero",
+    "Headers2": "fugit"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2007-09-01T02:49:51.844034+02:00",
+  "Registered": "1999-05-29T17:37:39.6064311+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-03-16T02:49:51.8596935+01:00",
+  "Updated": "2010-07-25T17:37:39.6064311+02:00",
   "UpdatedAssociate": null,
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -44,16 +44,15 @@ POST /api/v1/Agents/PhoneList/Search?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SearchString 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SearchString | string |  |
+| SearchString | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body: array
 | Name | string | The contact or person's name |
 | Tooltip | string |  |
 | UniqueId | string | Property setting a unique id indicating if this is a person or contact |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,7 +87,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "non"
+  "SearchString": "tempore"
 }
 ```
 
@@ -100,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-924-380-5333 x245",
-    "PersonCellPhone": "(168)620-4195",
-    "PersonPrivatePhone": "(942)804-5924 x45809",
-    "PersonFaxNumber": "1554266",
-    "PersonPagerNumber": "699279",
-    "PersonEmail": "jordy@medhurstokon.biz",
-    "Id": 602,
-    "Name": "Wehner-Quigley",
-    "Tooltip": "tempore",
-    "UniqueId": "expedita",
+    "PersonDirectPhone": "893-848-1571 x57795",
+    "PersonCellPhone": "1-949-666-6468 x50173",
+    "PersonPrivatePhone": "893-045-5189 x35718",
+    "PersonFaxNumber": "1528527",
+    "PersonPagerNumber": "472246",
+    "PersonEmail": "marcella@hermanveum.co.uk",
+    "Id": 897,
+    "Name": "Kerluke Group",
+    "Tooltip": "voluptas",
+    "UniqueId": "saepe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldLength": 714
       }
     }
   }

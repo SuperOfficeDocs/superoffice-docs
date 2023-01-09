@@ -29,8 +29,8 @@ Get a url to the document template
 | languageCode | string |  The language code ('en-US', 'nb-NO', etc). Use empty string if not supported or used. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=True
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=et
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=False
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=nihil
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=et
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: string
+## Response:string
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -65,7 +65,7 @@ Response body: string
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

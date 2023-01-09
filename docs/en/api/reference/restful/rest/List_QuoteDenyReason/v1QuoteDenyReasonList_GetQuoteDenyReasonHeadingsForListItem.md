@@ -48,7 +48,7 @@ GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 811,
-    "Name": "Johns Inc and Sons",
-    "ToolTip": "Recusandae harum quas eveniet assumenda debitis eos.",
-    "Deleted": true,
-    "Rank": 352,
-    "Type": "voluptas",
-    "ColorBlock": 867,
-    "IconHint": "soluta",
+    "Id": 189,
+    "Name": "Rippin-Walker",
+    "ToolTip": "Voluptatem qui qui quo sint consectetur cumque perspiciatis.",
+    "Deleted": false,
+    "Rank": 913,
+    "Type": "pariatur",
+    "ColorBlock": 791,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "2002-10-16T02:49:52.4378265+02:00",
+    "LastChanged": "2008-07-28T17:37:40.2535001+02:00",
     "ChildItems": [
       {
-        "Id": 983,
-        "Name": "Gorczany Inc and Sons",
-        "ToolTip": "Accusantium sint consectetur libero eum.",
+        "Id": 308,
+        "Name": "Koss Group",
+        "ToolTip": "Placeat vero voluptas.",
         "Deleted": false,
-        "Rank": 60,
-        "Type": "eos",
-        "ColorBlock": 170,
-        "IconHint": "expedita",
+        "Rank": 733,
+        "Type": "voluptate",
+        "ColorBlock": 440,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2005-10-31T02:49:52.4378265+01:00",
+        "LastChanged": "2014-03-22T17:37:40.2535001+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "enim",
-        "Hidden": false,
-        "FullName": "Sallie Luettgen",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "magnam",
+        "Hidden": true,
+        "FullName": "Marquise Collier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 218
+            "FieldLength": 723
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "voluptates",
-    "Hidden": false,
-    "FullName": "Prof. Electa Mariano Balistreri",
+    "ExtraInfo": "id",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Miss Laurence Loma O'Connell Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldLength": 453
       }
     }
   }

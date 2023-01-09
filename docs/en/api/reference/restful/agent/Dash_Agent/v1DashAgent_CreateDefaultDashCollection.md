@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,14 +42,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashCollection
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Pinned | array | Dashboards pinned to the associate |
 | Favourites | array | The assocates favourite dashboards |
 | Other | array | Other dashboards |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -70,111 +70,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 162,
-      "UniqueId": "perspiciatis",
-      "Name": "Hilll-Kirlin",
-      "Description": "Self-enabling real-time framework",
-      "AssociateId": 955,
-      "Columns": 240,
+      "DashboardId": 660,
+      "UniqueId": "quia",
+      "Name": "Swift, Gerhold and Raynor",
+      "Description": "Triple-buffered incremental function",
+      "AssociateId": 984,
+      "Columns": 460,
       "Theme": null,
-      "VisibleForAll": 989,
+      "VisibleForAll": 365,
       "VisibleForAssociates": [
-        513,
-        70
+        758,
+        456
       ],
       "VisibleForGroups": [
-        225,
-        379
+        414,
+        510
       ],
-      "PinForAll": 921,
+      "PinForAll": 940,
       "PinForAssociates": [
-        381,
-        504
+        707,
+        608
       ],
       "PinForGroups": [
-        27,
-        72
+        638,
+        94
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 248
+          "FieldLength": 161
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 952,
-      "UniqueId": "ea",
-      "Name": "Schumm-Padberg",
-      "Description": "Synergistic bottom-line leverage",
-      "AssociateId": 603,
-      "Columns": 133,
+      "DashboardId": 32,
+      "UniqueId": "quis",
+      "Name": "Bode, O'Hara and Ledner",
+      "Description": "Persevering clear-thinking throughput",
+      "AssociateId": 180,
+      "Columns": 982,
       "Theme": null,
-      "VisibleForAll": 292,
+      "VisibleForAll": 4,
       "VisibleForAssociates": [
-        625,
-        894
+        239,
+        743
       ],
       "VisibleForGroups": [
-        808,
-        154
+        180,
+        87
       ],
-      "PinForAll": 532,
+      "PinForAll": 451,
       "PinForAssociates": [
-        107,
-        661
+        252,
+        451
       ],
       "PinForGroups": [
-        600,
-        267
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 761
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 549,
-      "UniqueId": "pariatur",
-      "Name": "Jerde, Jast and Armstrong",
-      "Description": "Fully-configurable dynamic secured line",
-      "AssociateId": 682,
-      "Columns": 495,
-      "Theme": null,
-      "VisibleForAll": 784,
-      "VisibleForAssociates": [
-        357,
-        248
-      ],
-      "VisibleForGroups": [
-        472,
-        57
-      ],
-      "PinForAll": 215,
-      "PinForAssociates": [
-        511,
-        369
-      ],
-      "PinForGroups": [
-        751,
-        475
+        220,
+        506
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 33
+          "FieldLength": 569
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 556,
+      "UniqueId": "et",
+      "Name": "Pagac Inc and Sons",
+      "Description": "De-engineered content-based application",
+      "AssociateId": 986,
+      "Columns": 930,
+      "Theme": null,
+      "VisibleForAll": 238,
+      "VisibleForAssociates": [
+        330,
+        545
+      ],
+      "VisibleForGroups": [
+        259,
+        602
+      ],
+      "PinForAll": 439,
+      "PinForAssociates": [
+        246,
+        33
+      ],
+      "PinForGroups": [
+        969,
+        119
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 243
         }
       }
     }
@@ -184,7 +184,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 881
     }
   }
 }

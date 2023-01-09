@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Nader LLC",
-    "ToolTip": "Et ex.",
+    "Id": 531,
+    "Name": "Parker-Daugherty",
+    "ToolTip": "Qui deserunt voluptas rerum optio.",
     "Deleted": true,
-    "Rank": 478,
-    "Type": "qui",
-    "ColorBlock": 690,
-    "IconHint": "repudiandae",
-    "Selected": true,
-    "LastChanged": "2003-10-15T02:49:52.5003264+02:00",
+    "Rank": 412,
+    "Type": "magnam",
+    "ColorBlock": 45,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2014-07-15T17:37:40.3225033+02:00",
     "ChildItems": [
       {
-        "Id": 14,
-        "Name": "Yundt, Johns and Mraz",
-        "ToolTip": "Perspiciatis vel delectus ad est nisi.",
+        "Id": 864,
+        "Name": "Mann, Lindgren and Witting",
+        "ToolTip": "Neque aliquid et iure maiores voluptatem omnis.",
         "Deleted": false,
-        "Rank": 689,
-        "Type": "iste",
-        "ColorBlock": 902,
-        "IconHint": "ab",
-        "Selected": true,
-        "LastChanged": "2012-06-25T02:49:52.5003264+02:00",
+        "Rank": 895,
+        "Type": "ipsa",
+        "ColorBlock": 235,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2022-06-21T17:37:40.3225033+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "provident",
+        "ExtraInfo": "quasi",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Margarete Lubowitz"
+        "FullName": "Wayne Schaden"
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "sunt",
+    "ExtraInfo": "numquam",
+    "StyleHint": "natus",
     "Hidden": false,
-    "FullName": "Darrick Hane V"
+    "FullName": "Mrs. Kyra Ruecker Jr."
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Doyle, Parisian and Wiegand",
-    "ToolTip": "Voluptas odit aperiam molestiae fugit natus laborum maxime.",
-    "Deleted": true,
-    "Rank": 31,
-    "Type": "nemo",
-    "ColorBlock": 296,
-    "IconHint": "doloremque",
-    "Selected": false,
-    "LastChanged": "2007-07-30T02:49:52.5003264+02:00",
+    "Id": 978,
+    "Name": "Gerlach-O'Conner",
+    "ToolTip": "Atque molestiae ullam et voluptas est dolorum.",
+    "Deleted": false,
+    "Rank": 923,
+    "Type": "et",
+    "ColorBlock": 788,
+    "IconHint": "provident",
+    "Selected": true,
+    "LastChanged": "2013-09-01T17:37:40.3255006+02:00",
     "ChildItems": [
       {
-        "Id": 226,
-        "Name": "Larson-Sauer",
-        "ToolTip": "Aut at nihil reiciendis autem eius mollitia.",
+        "Id": 760,
+        "Name": "Brown-Dooley",
+        "ToolTip": "Et necessitatibus ea dolorum doloremque nulla quia est.",
         "Deleted": false,
-        "Rank": 858,
-        "Type": "eveniet",
-        "ColorBlock": 681,
-        "IconHint": "voluptate",
+        "Rank": 405,
+        "Type": "debitis",
+        "ColorBlock": 458,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2014-09-16T02:49:52.5003264+02:00",
+        "LastChanged": "2009-11-16T17:37:40.3255006+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "officia",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Eulalia Becker",
+        "FullName": "Prof. Mellie Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 644
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Zoie Jast",
+    "ExtraInfo": "ut",
+    "StyleHint": "recusandae",
+    "Hidden": true,
+    "FullName": "Lyric Stamm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldType": "System.String",
+        "FieldLength": 102
       }
     }
   }

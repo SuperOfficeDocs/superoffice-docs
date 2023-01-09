@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,14 +73,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist/{id}/Products?$select=name,department,category/id
 GET /api/v1/Pricelist/{id}/Products?$filter=name begins 'S'
 GET /api/v1/Pricelist/{id}/Products?$orderBy=name asc
-GET /api/v1/Pricelist/{id}/Products?$entities=vero
-GET /api/v1/Pricelist/{id}/Products?$top=847
-GET /api/v1/Pricelist/{id}/Products?$skip=727
+GET /api/v1/Pricelist/{id}/Products?$entities=ipsam
+GET /api/v1/Pricelist/{id}/Products?$top=531
+GET /api/v1/Pricelist/{id}/Products?$skip=145
 GET /api/v1/Pricelist/{id}/Products?$mode=Full
 GET /api/v1/Pricelist/{id}/Products?$options=GrandTotal=true
-GET /api/v1/Pricelist/{id}/Products?$context=consequatur
+GET /api/v1/Pricelist/{id}/Products?$context=veniam
 GET /api/v1/Pricelist/{id}/Products?$format=JSON
-GET /api/v1/Pricelist/{id}/Products?$jsonSafe=True
+GET /api/v1/Pricelist/{id}/Products?$jsonSafe=False
 GET /api/v1/Pricelist/{id}/Products?$output=Display
 ```
 
@@ -100,7 +99,7 @@ GET /api/v1/Pricelist/{id}/Products?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Pricelist/{id}/Products
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sit",
+  "odata.nextLink": "beatae",
   "value": [
     {
-      "PrimaryKey": 6342,
-      "EntityName": "person",
-      "personId": 6342,
-      "fullName": "Rashad Stoltenberg"
+      "PrimaryKey": 3629,
+      "EntityName": "sale",
+      "saleId": 3629,
+      "contactId": 330,
+      "name": "Abbott, Wilderman and Abbott"
     },
     {
-      "PrimaryKey": 3447,
-      "EntityName": "person",
-      "personId": 3447,
-      "fullName": "Gregoria Halvorson"
+      "PrimaryKey": 7345,
+      "EntityName": "sale",
+      "saleId": 7345,
+      "contactId": 8830,
+      "name": "Lubowitz-Rath"
     }
   ]
 }

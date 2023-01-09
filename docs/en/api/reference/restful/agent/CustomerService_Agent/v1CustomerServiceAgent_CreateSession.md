@@ -42,16 +42,15 @@ POST /api/v1/Agents/CustomerService/CreateSession?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 RemoteIp 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RemoteIp | string |  |
+| RemoteIp | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,14 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CsSessionKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Key | string | The session key created in the login table |
 | LoginId | int32 | The id of the login row |
 | UserId | int32 | The ejuser id owning this session key |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,11 +74,11 @@ Response body:
 POST /api/v1/Agents/CustomerService/CreateSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "ullam"
+  "RemoteIp": "iste"
 }
 ```
 
@@ -90,15 +89,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quas",
-  "LoginId": 478,
-  "UserId": 715,
+  "Key": "ut",
+  "LoginId": 934,
+  "UserId": 87,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldLength": 25
     }
   }
 }

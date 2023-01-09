@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Kunze LLC",
-    "ToolTip": "Voluptas non asperiores dolor quia voluptatem.",
+    "Id": 943,
+    "Name": "Ankunding LLC",
+    "ToolTip": "Iure consequatur laborum qui et id autem.",
     "Deleted": false,
-    "Rank": 987,
-    "Type": "iure",
-    "ColorBlock": 81,
-    "IconHint": "aperiam",
-    "Selected": true,
-    "LastChanged": "2017-03-21T02:49:52.4378265+01:00",
+    "Rank": 515,
+    "Type": "cumque",
+    "ColorBlock": 154,
+    "IconHint": "provident",
+    "Selected": false,
+    "LastChanged": "1996-08-27T17:37:40.2484729+02:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Reichel Inc and Sons",
-        "ToolTip": "Sequi magni velit quo laborum tempore officiis officia.",
+        "Id": 808,
+        "Name": "Muller-Berge",
+        "ToolTip": "Aut voluptatum minima dolore.",
         "Deleted": false,
-        "Rank": 864,
-        "Type": "sequi",
-        "ColorBlock": 23,
-        "IconHint": "molestiae",
+        "Rank": 555,
+        "Type": "et",
+        "ColorBlock": 126,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2008-04-23T02:49:52.4378265+02:00",
+        "LastChanged": "2008-01-06T17:37:40.2484729+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "dolor",
+        "ExtraInfo": "sit",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Dr. Malika Buddy Zieme III",
+        "FullName": "Zechariah Micheal Gleason V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 993
+            "FieldType": "System.Int32",
+            "FieldLength": 255
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "rem",
-    "Hidden": true,
-    "FullName": "Jettie McKenzie",
+    "ExtraInfo": "aut",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Rachel Labadie III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldType": "System.String",
+        "FieldLength": 926
       }
     }
   }

@@ -71,18 +71,17 @@ PATCH /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 PreferenceDescription  updated.
 
@@ -93,7 +92,7 @@ PreferenceDescription  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because PreferenceDescription has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: PreferenceDescriptionWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -115,7 +114,7 @@ Response body:
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -131,12 +130,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "provident",
+    "path": "deserunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "provident",
+    "path": "deserunt",
     "value": {}
   }
 ]
@@ -149,30 +148,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 269,
-  "Section": "nulla",
-  "Key": "ex",
-  "Name": "Little-Homenick",
+  "PrefDescId": 328,
+  "Section": "sequi",
+  "Key": "ea",
+  "Name": "Wiegand LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Vision-oriented real-time ability",
+  "Description": "Fundamental national utilisation",
   "IsBuiltin": false,
-  "TableName": "Schmidt, Runolfsdottir and Mante",
-  "UserDefinedListId": 607,
-  "Rank": 245,
+  "TableName": "Hoeger Inc and Sons",
+  "UserDefinedListId": 462,
+  "Rank": 23,
   "SubGroup": "et",
-  "MinLevel": 341,
-  "MaxValue": 239,
-  "MinValue": 754,
-  "RequiredLicense": "sit",
+  "MinLevel": 720,
+  "MaxValue": 411,
+  "MinValue": 496,
+  "RequiredLicense": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldType": "System.String",
+      "FieldLength": 861
     }
   },
   "_Links": {

@@ -48,7 +48,7 @@ GET /api/v1/Attachment/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 AttachmentEntity found.
 
@@ -57,7 +57,7 @@ AttachmentEntity found.
 | 200 | AttachmentEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: AttachmentEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +67,7 @@ Response body:
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -87,23 +87,23 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 727,
-  "Name": "Yundt-Wilkinson",
-  "ContentType": "nesciunt",
-  "AttSize": 695,
-  "InlineImage": false,
-  "ContentId": "dolorem",
+  "AttachmentId": 26,
+  "Name": "Gorczany-Marks",
+  "ContentType": "molestiae",
+  "AttSize": 810,
+  "InlineImage": true,
+  "ContentId": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 55
+      "FieldType": "System.Int32",
+      "FieldLength": 688
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

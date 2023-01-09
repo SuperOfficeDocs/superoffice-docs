@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetEMailAccount
 Gets a EMailAccount object.
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -29,7 +27,7 @@ Gets a EMailAccount object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=245
+POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=380
 POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 ```
 
@@ -48,7 +46,7 @@ POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -56,21 +54,21 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailAccount
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EMailAccountId | int32 | The account primary key |
 | EMailAddress | string | The account (from) address |
 | AssociateId | int32 | Id of the associate who owns this account |
-| IncomingCredentials |  | Account credentials for imap |
-| OutgoingCredentials |  | Account credentials for smtp |
+| IncomingCredentials | ServiceAuth | Account credentials for imap |
+| OutgoingCredentials | ServiceAuth | Account credentials for smtp |
 | AccountStatus | int32 | The account status (Disabled or...) Readonly field |
 | ErrorCount | int32 | Count of concurring errors of fetching email. Readonly field |
 | ErrorReason | string | Reason/Error message. Readonly field |
 | InboxFolder | string | Inbox folder name if available in the db |
 | SentFolder | string | Sent email folder name if available in the db |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,7 +77,7 @@ Response body:
 POST /api/v1/Agents/EMail/GetEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,22 +87,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 502,
-  "EMailAddress": "quibusdam",
-  "AssociateId": 121,
+  "EMailAccountId": 307,
+  "EMailAddress": "iure",
+  "AssociateId": 590,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 285,
-  "ErrorCount": 1000,
+  "AccountStatus": 849,
+  "ErrorCount": 808,
   "ErrorReason": "",
-  "InboxFolder": "consequatur",
-  "SentFolder": "expedita",
+  "InboxFolder": "voluptas",
+  "SentFolder": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldLength": 262
     }
   }
 }

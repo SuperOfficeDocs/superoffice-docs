@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Shields, Lindgren and Larson",
-    "ToolTip": "Temporibus labore velit a asperiores asperiores ex omnis.",
-    "Deleted": false,
-    "Rank": 662,
-    "Type": "assumenda",
-    "ColorBlock": 760,
-    "IconHint": "maxime",
-    "Selected": false,
-    "LastChanged": "2020-12-29T02:49:52.2346937+01:00",
+    "Id": 694,
+    "Name": "Rolfson Inc and Sons",
+    "ToolTip": "Laborum nobis molestiae dolorem.",
+    "Deleted": true,
+    "Rank": 394,
+    "Type": "harum",
+    "ColorBlock": 516,
+    "IconHint": "dicta",
+    "Selected": true,
+    "LastChanged": "2004-10-07T17:37:39.9995003+02:00",
     "ChildItems": [
       {
-        "Id": 236,
-        "Name": "Champlin-Schowalter",
-        "ToolTip": "Ipsum aut porro quod recusandae.",
+        "Id": 409,
+        "Name": "Miller, Macejkovic and Corwin",
+        "ToolTip": "Aliquid occaecati dolores ratione alias consectetur quod culpa.",
         "Deleted": false,
-        "Rank": 779,
-        "Type": "aut",
-        "ColorBlock": 403,
-        "IconHint": "rerum",
+        "Rank": 872,
+        "Type": "tempore",
+        "ColorBlock": 335,
+        "IconHint": "ratione",
         "Selected": true,
-        "LastChanged": "1997-05-04T02:49:52.2346937+02:00",
+        "LastChanged": "2017-06-18T17:37:39.9995003+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "ratione",
+        "ExtraInfo": "quo",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Olin Koch"
+        "FullName": "Dante Dicki"
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Sterling Luettgen"
+    "ExtraInfo": "sed",
+    "StyleHint": "hic",
+    "Hidden": true,
+    "FullName": "Nicklaus Schaefer III"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Abshire-Hermiston",
-    "ToolTip": "Illum voluptatem ut recusandae rerum nemo sed nihil.",
-    "Deleted": false,
-    "Rank": 68,
-    "Type": "ipsam",
-    "ColorBlock": 177,
-    "IconHint": "tempora",
+    "Id": 810,
+    "Name": "Schinner LLC",
+    "ToolTip": "Veritatis id pariatur libero eaque id.",
+    "Deleted": true,
+    "Rank": 278,
+    "Type": "itaque",
+    "ColorBlock": 840,
+    "IconHint": "nam",
     "Selected": true,
-    "LastChanged": "2003-05-22T02:49:52.2346937+02:00",
+    "LastChanged": "2019-10-16T17:37:40.0015007+02:00",
     "ChildItems": [
       {
-        "Id": 20,
-        "Name": "Mayert LLC",
-        "ToolTip": "Non velit quia.",
+        "Id": 935,
+        "Name": "Greenholt Group",
+        "ToolTip": "Corporis perspiciatis.",
         "Deleted": false,
-        "Rank": 551,
-        "Type": "autem",
-        "ColorBlock": 144,
-        "IconHint": "quae",
-        "Selected": false,
-        "LastChanged": "2008-10-10T02:49:52.2346937+02:00",
+        "Rank": 684,
+        "Type": "ipsam",
+        "ColorBlock": 314,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "2020-10-13T17:37:40.0015007+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "rerum",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Brad Abbott",
+        "FullName": "Hyman Monahan II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 402
+            "FieldType": "System.Int32",
+            "FieldLength": 79
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Miss Elian Keagan Witting",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "fugit",
+    "Hidden": false,
+    "FullName": "Christopher Ratke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldLength": 952
       }
     }
   }

@@ -42,19 +42,18 @@ POST /api/v1/Agents/List/SaveDocumentTemplateStream?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentTemplateId, Content, LanguageCode, PluginId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentTemplateId | int32 |  |
-| Content | byte |  |
-| LanguageCode | string |  |
-| PluginId | int32 |  |
+| DocumentTemplateId | Integer |  |
+| Content | String |  |
+| LanguageCode | String |  |
+| PluginId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 672,
+  "DocumentTemplateId": 635,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "minus",
-  "PluginId": 142
+  "LanguageCode": "dolorum",
+  "PluginId": 438
 }
 ```
 
@@ -96,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Leffler-Dickens",
-  "Description": "Progressive reciprocal superstructure",
-  "ExternalReference": "qui",
-  "MimeType": "iure",
-  "PluginId": 418
+  "Name": "Stamm Inc and Sons",
+  "Description": "Networked system-worthy complexity",
+  "ExternalReference": "quis",
+  "MimeType": "nihil",
+  "PluginId": 405
 }
 ```

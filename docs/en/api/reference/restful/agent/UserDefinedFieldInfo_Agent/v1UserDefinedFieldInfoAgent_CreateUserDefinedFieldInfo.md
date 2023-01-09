@@ -42,17 +42,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 OwnerType, FieldType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OwnerType | string |  |
-| FieldType | string |  |
+| OwnerType | String |  |
+| FieldType | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,7 +97,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -107,7 +106,7 @@ Response body:
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 919,
-  "ColumnId": 362,
-  "FieldDefault": "enim",
-  "FieldHeight": 460,
-  "FieldLabel": "aut",
-  "FieldLeft": 855,
-  "FieldTop": 813,
+  "UDefFieldId": 587,
+  "ColumnId": 719,
+  "FieldDefault": "est",
+  "FieldHeight": 802,
+  "FieldLabel": "ducimus",
+  "FieldLeft": 227,
+  "FieldTop": 944,
   "FieldType": "Checkbox",
-  "FieldWidth": 640,
-  "FormatMask": "occaecati",
-  "HideLabel": true,
+  "FieldWidth": 260,
+  "FormatMask": "veritatis",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 654,
-  "LabelLeft": 788,
-  "LabelTop": 653,
-  "LabelWidth": 430,
-  "LastVersionId": 184,
-  "ListTableId": 202,
+  "LabelHeight": 631,
+  "LabelLeft": 374,
+  "LabelTop": 473,
+  "LabelWidth": 794,
+  "LastVersionId": 710,
+  "ListTableId": 828,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 979,
-  "ProgId": "perferendis",
-  "IsReadOnly": false,
-  "ShortLabel": "sapiente",
-  "TabOrder": 611,
-  "TextLength": 953,
-  "Tooltip": "eaque",
-  "UdefIdentity": 851,
-  "UDListDefinitionId": 181,
+  "Page1LineNo": 101,
+  "ProgId": "facilis",
+  "IsReadOnly": true,
+  "ShortLabel": "eveniet",
+  "TabOrder": 768,
+  "TextLength": 843,
+  "Tooltip": "maiores",
+  "UdefIdentity": 5,
+  "UDListDefinitionId": 285,
   "Justification": "Center",
-  "Version": 898,
-  "TemplateVariableName": "Nienow, O'Kon and Labadie",
-  "HasBeenPublished": false,
-  "MdoListName": "Reynolds, Walter and Nicolas",
+  "Version": 36,
+  "TemplateVariableName": "Jacobson-Parker",
+  "HasBeenPublished": true,
+  "MdoListName": "Douglas Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldType": "System.String",
+      "FieldLength": 799
     }
   }
 }

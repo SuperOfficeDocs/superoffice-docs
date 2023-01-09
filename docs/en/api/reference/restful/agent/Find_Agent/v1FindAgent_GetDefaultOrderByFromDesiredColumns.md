@@ -44,17 +44,16 @@ POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, DesiredColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| DesiredColumns | array |  |
+| ProviderName | String |  |
+| DesiredColumns | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,14 +74,14 @@ Response body: array
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Erdman-Heaney",
+  "ProviderName": "Schneider-Thiel",
   "DesiredColumns": [
-    "incidunt",
-    "atque"
+    "consequuntur",
+    "assumenda"
   ]
 }
 ```
@@ -95,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Skiles, Smitham and Cronin",
+    "Name": "Nader, Frami and Auer",
     "Direction": "ASC"
   },
   {
-    "Name": "Skiles, Smitham and Cronin",
+    "Name": "Nader, Frami and Auer",
     "Direction": "ASC"
   }
 ]

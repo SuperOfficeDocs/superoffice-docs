@@ -44,34 +44,33 @@ POST /api/v1/SaleStakeholder?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The SaleStakeholder to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StakeholderRoleName | string | Stakeholder role name |
-| Comment | string | Optional comment text |
-| StakeholderRoleId | int32 | Stakeholde role list id - Primary key |
-| CountryId | int32 | Country id - primary key |
-| PersonId | int32 | Person id - Primary key |
-| EmailDescription | string | E-mail description |
-| EmailId | int32 | E-mail address id - Primary key |
-| EmailAddress | string | E-mail address |
-| PhoneId | int32 | Primary key |
-| ContactName | string | Contact name |
-| ContactId | int32 | Contact ID of person or contact who is the sale stakeholder |
-| SaleId | int32 | Parent sale |
-| Mrmrs | string | e.g. Mrs, Mr, Ms, Dr. |
-| Firstname | string | First name |
-| MiddleName | string | Middle name or 'van' etc. |
-| Lastname | string | Last name |
-| SaleStakeholderId | int32 | Primary key |
-| Rank | int32 | Rank in list of stakeholders |
-| Phone | string | Phone number |
+| StakeholderRoleName | String | Stakeholder role name |
+| Comment | String | Optional comment text |
+| StakeholderRoleId | Integer | Stakeholde role list id - Primary key |
+| CountryId | Integer | Country id - primary key |
+| PersonId | Integer | Person id - Primary key |
+| EmailDescription | String | E-mail description |
+| EmailId | Integer | E-mail address id - Primary key |
+| EmailAddress | String | E-mail address |
+| PhoneId | Integer | Primary key |
+| ContactName | String | Contact name |
+| ContactId | Integer | Contact ID of person or contact who is the sale stakeholder |
+| SaleId | Integer | Parent sale |
+| Mrmrs | String | e.g. Mrs, Mr, Ms, Dr. |
+| Firstname | String | First name |
+| MiddleName | String | Middle name or 'van' etc. |
+| Lastname | String | Last name |
+| SaleStakeholderId | Integer | Primary key |
+| Rank | Integer | Rank in list of stakeholders |
+| Phone | String | Phone number |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -79,7 +78,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaleStakeholderWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,7 +101,7 @@ Response body:
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -112,29 +111,29 @@ Response body:
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Gutmann Inc and Sons",
-  "Comment": "libero",
-  "StakeholderRoleId": 40,
-  "CountryId": 909,
-  "PersonId": 521,
-  "EmailDescription": "mylene@yundt.com",
-  "EmailId": 139,
-  "EmailAddress": "chaim@ebertschultz.uk",
-  "PhoneId": 178,
-  "ContactName": "Emard, Cronin and Towne",
-  "ContactId": 803,
-  "SaleId": 197,
-  "Mrmrs": "enim",
-  "Firstname": "Kaelyn",
-  "MiddleName": "Hettinger, Tromp and Boyer",
-  "Lastname": "Macejkovic",
-  "SaleStakeholderId": 354,
-  "Rank": 384,
-  "Phone": "1-525-991-3505"
+  "StakeholderRoleName": "Jenkins, Trantow and Nikolaus",
+  "Comment": "non",
+  "StakeholderRoleId": 419,
+  "CountryId": 169,
+  "PersonId": 752,
+  "EmailDescription": "dock_gutmann@predovic.biz",
+  "EmailId": 934,
+  "EmailAddress": "petra@durganleannon.uk",
+  "PhoneId": 716,
+  "ContactName": "Walsh Group",
+  "ContactId": 201,
+  "SaleId": 664,
+  "Mrmrs": "perspiciatis",
+  "Firstname": "Blake",
+  "MiddleName": "Ledner, Labadie and Gaylord",
+  "Lastname": "Christiansen",
+  "SaleStakeholderId": 725,
+  "Rank": 206,
+  "Phone": "832-858-8912 x86954"
 }
 ```
 
@@ -145,36 +144,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Wehner LLC",
-  "Comment": "inventore",
-  "StakeholderRoleId": 471,
-  "CountryId": 668,
-  "PersonId": 529,
-  "EmailDescription": "lessie.rempel@stammwest.uk",
-  "EmailId": 133,
-  "EmailAddress": "adrian@raynortreutel.ca",
-  "PhoneId": 297,
-  "ContactName": "Metz-Von",
-  "ContactId": 124,
-  "SaleId": 968,
-  "Mrmrs": "architecto",
-  "Firstname": "Elfrieda",
-  "MiddleName": "Schmeler, Bartoletti and Kiehn",
-  "Lastname": "Spencer",
-  "SaleStakeholderId": 904,
-  "Rank": 386,
-  "Phone": "119.235.9445 x1820",
+  "StakeholderRoleName": "Koch-Jerde",
+  "Comment": "expedita",
+  "StakeholderRoleId": 724,
+  "CountryId": 669,
+  "PersonId": 958,
+  "EmailDescription": "shyann_volkman@sipes.biz",
+  "EmailId": 856,
+  "EmailAddress": "mireille@sanfordsenger.com",
+  "PhoneId": 125,
+  "ContactName": "Walter Inc and Sons",
+  "ContactId": 730,
+  "SaleId": 867,
+  "Mrmrs": "esse",
+  "Firstname": "Rosemarie",
+  "MiddleName": "Tillman Inc and Sons",
+  "Lastname": "Von",
+  "SaleStakeholderId": 544,
+  "Rank": 441,
+  "Phone": "(470)540-9172 x36902",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldLength": 463
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

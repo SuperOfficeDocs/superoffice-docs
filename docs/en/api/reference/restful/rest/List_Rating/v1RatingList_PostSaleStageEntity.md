@@ -34,21 +34,20 @@ Calls the List agent service SaveSaleStageEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The SaleStageEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SaleStageId | int32 | Primary key |
-| Value | string | The sale stage |
-| Tooltip | string | Tooltip or other description |
-| Probability | int32 | The numeric probability of the sale |
-| Deleted | bool | If true, the Sale stage is deleted |
-| Rank | int32 | Rank order |
+| SaleStageId | Integer | Primary key |
+| Value | String | The sale stage |
+| Tooltip | String | Tooltip or other description |
+| Probability | Integer | The numeric probability of the sale |
+| Deleted | Boolean | If true, the Sale stage is deleted |
+| Rank | Integer | Rank order |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaleStageEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body:
 | Probability | int32 | The numeric probability of the sale |
 | Deleted | bool | If true, the Sale stage is deleted |
 | Rank | int32 | Rank order |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,16 +74,16 @@ Response body:
 POST /api/v1/List/Rating/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 75,
-  "Value": "libero",
-  "Tooltip": "odio",
-  "Probability": 460,
+  "SaleStageId": 778,
+  "Value": "repellendus",
+  "Tooltip": "saepe",
+  "Probability": 478,
   "Deleted": true,
-  "Rank": 747
+  "Rank": 311
 }
 ```
 
@@ -95,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 388,
-  "Value": "consequatur",
-  "Tooltip": "excepturi",
-  "Probability": 699,
+  "SaleStageId": 431,
+  "Value": "magnam",
+  "Tooltip": "earum",
+  "Probability": 348,
   "Deleted": false,
-  "Rank": 679,
+  "Rank": 954,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 447
     }
   }
 }

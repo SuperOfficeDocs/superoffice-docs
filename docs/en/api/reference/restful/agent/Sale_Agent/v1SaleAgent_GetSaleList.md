@@ -42,13 +42,12 @@ POST /api/v1/Agents/Sale/GetSaleList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: saleIds  
+## Request Body: saleIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +84,7 @@ Response body: array
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,7 +93,7 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kirlin, Ullrich and Schneider",
-    "SaleDate": "2003-12-31T02:49:45.1403412+01:00",
-    "SaleId": 156,
-    "Probability": 446,
-    "Title": "autem",
-    "Amount": 28021.093999999997,
-    "Currency": "quas",
-    "ProjectName": "Reynolds Inc and Sons",
-    "AssociateFullName": "Javon Alison Marks IV",
-    "Description": "Programmable bifurcated help-desk",
+    "ContactName": "Mills-Cruickshank",
+    "SaleDate": "2006-10-03T17:37:18.8842419+02:00",
+    "SaleId": 66,
+    "Probability": 977,
+    "Title": "iure",
+    "Amount": 14526.09,
+    "Currency": "accusamus",
+    "ProjectName": "Rau-Ferry",
+    "AssociateFullName": "Grayce Dorris Sipes PhD",
+    "Description": "Reduced transitional task-force",
     "Status": "Lost",
-    "WeightedAmount": 28372.102,
-    "ProjectId": 311,
-    "EarningPercent": 28265.546,
-    "Earning": 11677.284,
-    "ContactId": 929,
-    "AssociateId": 806,
-    "PersonId": 128,
-    "SaleTypeId": 633,
-    "SaleTypeName": "Altenwerth-Swaniawski",
-    "PersonFullName": "Jensen Bogan",
+    "WeightedAmount": 16550.654,
+    "ProjectId": 381,
+    "EarningPercent": 22712.097999999998,
+    "Earning": 20471.288,
+    "ContactId": 812,
+    "AssociateId": 888,
+    "PersonId": 15,
+    "SaleTypeId": 144,
+    "SaleTypeName": "Gleason, Mills and Toy",
+    "PersonFullName": "Clara Dibbert",
     "Completed": "Completed",
-    "ActiveErpLinks": 546,
-    "NextDueDate": "1999-05-13T02:49:45.1403412+02:00",
-    "Number": "1195745",
+    "ActiveErpLinks": 525,
+    "NextDueDate": "2018-11-23T17:37:18.8842419+01:00",
+    "Number": "1010474",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldLength": 990
       }
     }
   }

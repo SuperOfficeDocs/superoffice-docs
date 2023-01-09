@@ -52,7 +52,7 @@ GET /api/v1/Selection/{selectionId}/Members?$format=JSON
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +74,7 @@ Response body:
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,19 +85,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "amet",
+  "odata.nextLink": "rem",
   "value": [
     {
-      "PrimaryKey": 6112,
-      "EntityName": "person",
-      "personId": 6112,
-      "fullName": "Miss Rusty Lavonne Fisher Jr."
+      "PrimaryKey": 5947,
+      "EntityName": "sale",
+      "saleId": 5947,
+      "contactId": 9807,
+      "name": "McClure Inc and Sons"
     },
     {
-      "PrimaryKey": 9483,
-      "EntityName": "person",
-      "personId": 9483,
-      "fullName": "Melody Howe V"
+      "PrimaryKey": 4445,
+      "EntityName": "sale",
+      "saleId": 4445,
+      "contactId": 3667,
+      "name": "Sanford-Parker"
     }
   ]
 }

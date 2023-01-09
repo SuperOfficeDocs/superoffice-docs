@@ -25,7 +25,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=811
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=614
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,c
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ShipmentMessageEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +77,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,7 +86,7 @@ Response body:
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 200,
-  "PlainMessage": "placeat",
-  "HtmlMessage": "aspernatur",
-  "SmsMessage": "optio",
-  "Description": "Expanded eco-centric secured line",
-  "Subject": "ipsum",
-  "FolderId": 768,
-  "HeaderField": "modi",
-  "Design": "recusandae",
+  "ShipmentMessageId": 344,
+  "PlainMessage": "eaque",
+  "HtmlMessage": "sit",
+  "SmsMessage": "et",
+  "Description": "Persistent demand-driven implementation",
+  "Subject": "est",
+  "FolderId": 499,
+  "HeaderField": "fugit",
+  "Design": "soluta",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Adaptive transitional moratorium",
-  "AccessKey": "esse",
-  "DocumentMessage": 557,
-  "Registered": "2018-11-30T02:49:44.7172985+01:00",
-  "RegisteredAssociateId": 831,
-  "Updated": "2008-04-03T02:49:44.7172985+02:00",
-  "UpdatedAssociateId": 629,
-  "UpdatedCount": 639,
+  "LongDescription": "Centralized regional emulation",
+  "AccessKey": "cupiditate",
+  "DocumentMessage": 426,
+  "Registered": "2014-04-22T17:37:18.3262413+02:00",
+  "RegisteredAssociateId": 316,
+  "Updated": "2018-09-05T17:37:18.3262413+02:00",
+  "UpdatedAssociateId": 418,
+  "UpdatedCount": 600,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldType": "System.String",
+      "FieldLength": 177
     }
   }
 }

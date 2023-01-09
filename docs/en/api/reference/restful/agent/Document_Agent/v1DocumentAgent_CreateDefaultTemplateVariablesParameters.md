@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TemplateVariablesParameters
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,8 +61,8 @@ Response body:
 | ProductKey | string | Product key |
 | CustomTags | array | Array with custom tags and values. Array may be of unlimited height, but need to be exactly 2 in width. |
 | TicketId | int32 | Identifier for ticket |
-| DocumentEntity |  | Custom document entity to use for data retrieval. Useful for unsaved data.  DocumentEntity.DocumentId need to match the DocumentId specified in separate property. |
-| TableRight |  |  |
+| DocumentEntity | DocumentEntity | Custom document entity to use for data retrieval. Useful for unsaved data.  DocumentEntity.DocumentId need to match the DocumentId specified in separate property. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +71,7 @@ Response body:
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "asperiores",
+  "SourceInput": "et",
   "Encoding": "Html",
-  "CultureName": "sv",
-  "ContactId": 160,
-  "PersonId": 544,
-  "ProjectId": 556,
-  "SelectionId": 663,
-  "AppointmentId": 506,
-  "DocumentId": 283,
-  "SaleId": 632,
-  "QuoteLineId": 383,
-  "QuoteAlternativeId": 363,
-  "ProductKey": "aperiam",
+  "CultureName": "en",
+  "ContactId": 779,
+  "PersonId": 194,
+  "ProjectId": 539,
+  "SelectionId": 862,
+  "AppointmentId": 834,
+  "DocumentId": 743,
+  "SaleId": 15,
+  "QuoteLineId": 583,
+  "QuoteAlternativeId": 622,
+  "ProductKey": "sequi",
   "CustomTags": [
     [
       {}
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
       {}
     ]
   ],
-  "TicketId": 591,
+  "TicketId": 949,
   "DocumentEntity": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldLength": 443
     }
   }
 }

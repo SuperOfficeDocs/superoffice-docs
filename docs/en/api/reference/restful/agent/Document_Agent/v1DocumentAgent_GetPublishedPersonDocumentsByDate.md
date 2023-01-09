@@ -44,20 +44,19 @@ POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, IncludeProjectDocuments, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| IncludeProjectDocuments | bool |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| PersonId | Integer |  |
+| IncludeProjectDocuments | Boolean |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,11 +101,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 73,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2007-03-05T02:49:44.0753838+01:00",
-  "EndTime": "2015-08-03T02:49:44.0753838+02:00",
-  "Count": 248
+  "PersonId": 673,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2017-07-07T17:37:17.4212441+02:00",
+  "EndTime": "1999-12-01T17:37:17.4212441+01:00",
+  "Count": 731
 }
 ```
 
@@ -118,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 38,
-    "Attention": "laudantium",
-    "Header": "error",
-    "Name": "Anderson LLC",
-    "OurRef": "eius",
-    "YourRef": "minima",
-    "Description": "Re-contextualized mobile task-force",
-    "DocumentTemplate": "sed",
+    "DocumentId": 404,
+    "Attention": "dolor",
+    "Header": "maiores",
+    "Name": "Mertz, McDermott and Stokes",
+    "OurRef": "esse",
+    "YourRef": "consequatur",
+    "Description": "Profound upward-trending attitude",
+    "DocumentTemplate": "ut",
     "IsPublished": true,
-    "PersonId": 110,
-    "PersonFullName": "Alayna Bins",
-    "AssociateFullName": "Bessie Tevin Lang Jr.",
-    "ContactId": 529,
-    "ContactName": "Kiehn-Walter",
-    "ProjectId": 293,
-    "ProjectName": "Prohaska-Heller",
-    "AssociateId": 194,
-    "Snum": 598,
-    "SaleId": 892,
-    "SaleName": "Pfannerstill, Schulist and Schumm",
+    "PersonId": 399,
+    "PersonFullName": "Ms. Watson Courtney Connelly",
+    "AssociateFullName": "Jamir Mayer Sr.",
+    "ContactId": 821,
+    "ContactName": "Herzog, Lesch and Bogan",
+    "ProjectId": 128,
+    "ProjectName": "Kovacek Group",
+    "AssociateId": 499,
+    "Snum": 883,
+    "SaleId": 882,
+    "SaleName": "Wuckert-Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldLength": 879
       }
     }
   }

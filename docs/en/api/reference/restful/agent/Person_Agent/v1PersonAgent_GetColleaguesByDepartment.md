@@ -44,16 +44,15 @@ POST /api/v1/Agents/Person/GetColleaguesByDepartment?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DepartmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DepartmentId | int32 |  |
+| DepartmentId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,7 +104,7 @@ Response body: array
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -118,7 +117,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 401
+  "DepartmentId": 573
 }
 ```
 
@@ -130,52 +129,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quis",
-    "PersonId": 857,
-    "Mrmrs": "et",
-    "Firstname": "Tania",
-    "Lastname": "Kilback",
-    "MiddleName": "Windler Inc and Sons",
-    "Title": "magni",
-    "Description": "Synergized optimizing middleware",
-    "Email": "myrtie.glover@flatleyziemann.name",
-    "FullName": "Sallie Steuber",
-    "DirectPhone": "131.412.5682 x228",
-    "FormalName": "Farrell Group",
-    "CountryId": 228,
-    "ContactId": 603,
-    "ContactName": "Sanford-Williamson",
-    "Retired": 857,
-    "Rank": 933,
-    "ActiveInterests": 3,
+    "Position": "provident",
+    "PersonId": 766,
+    "Mrmrs": "repellat",
+    "Firstname": "Veronica",
+    "Lastname": "VonRueden",
+    "MiddleName": "Lueilwitz LLC",
+    "Title": "est",
+    "Description": "Public-key analyzing budgetary management",
+    "Email": "joshuah@quigleybecker.biz",
+    "FullName": "Lulu Rau",
+    "DirectPhone": "(157)349-1672 x124",
+    "FormalName": "Kovacek, Littel and Romaguera",
+    "CountryId": 276,
+    "ContactId": 143,
+    "ContactName": "Ziemann Group",
+    "Retired": 48,
+    "Rank": 571,
+    "ActiveInterests": 574,
     "ContactDepartment": "",
-    "ContactCountryId": 712,
-    "ContactOrgNr": "1426022",
-    "FaxPhone": "413-464-0758 x758",
-    "MobilePhone": "370-802-0020",
-    "ContactPhone": "467.405.9708 x0661",
-    "AssociateName": "Goodwin, Quigley and Erdman",
-    "AssociateId": 733,
+    "ContactCountryId": 179,
+    "ContactOrgNr": "1147629",
+    "FaxPhone": "725-448-8814 x283",
+    "MobilePhone": "474.383.5930",
+    "ContactPhone": "1-949-799-1777 x386",
+    "AssociateName": "Halvorson, Upton and Heaney",
+    "AssociateId": 144,
     "UsePersonAddress": false,
-    "ContactFax": "similique",
-    "Kanafname": "optio",
-    "Kanalname": "corrupti",
-    "Post1": "reprehenderit",
-    "Post2": "provident",
-    "Post3": "qui",
-    "EmailName": "isidro.kerluke@corwin.com",
-    "ContactFullName": "Ervin Sanford",
-    "ActiveErpLinks": 707,
-    "TicketPriorityId": 940,
-    "SupportLanguageId": 294,
-    "SupportAssociateId": 907,
+    "ContactFax": "sunt",
+    "Kanafname": "cupiditate",
+    "Kanalname": "eum",
+    "Post1": "non",
+    "Post2": "ea",
+    "Post3": "ullam",
+    "EmailName": "zoe@corkery.info",
+    "ContactFullName": "Pearlie Torphy",
+    "ActiveErpLinks": 535,
+    "TicketPriorityId": 797,
+    "SupportLanguageId": 765,
+    "SupportAssociateId": 989,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 231
+        "FieldLength": 790
       }
     }
   }

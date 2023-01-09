@@ -36,7 +36,7 @@ Get a published ProjectEntity user-defined field's details based on the prog-id 
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ProjectEntity found.
 
@@ -45,7 +45,7 @@ ProjectEntity found.
 | 200 | ProjectEntity found. |
 | 404 | ProjectEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +83,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 3,
-  "ColumnId": 957,
-  "FieldDefault": "et",
-  "FieldHeight": 922,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 385,
-  "FieldTop": 457,
+  "UDefFieldId": 422,
+  "ColumnId": 871,
+  "FieldDefault": "aut",
+  "FieldHeight": 731,
+  "FieldLabel": "vitae",
+  "FieldLeft": 824,
+  "FieldTop": 694,
   "FieldType": "Checkbox",
-  "FieldWidth": 117,
-  "FormatMask": "voluptatibus",
+  "FieldWidth": 983,
+  "FormatMask": "incidunt",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 763,
-  "LabelLeft": 549,
-  "LabelTop": 652,
-  "LabelWidth": 270,
-  "LastVersionId": 370,
-  "ListTableId": 45,
-  "IsMandatory": true,
+  "LabelHeight": 148,
+  "LabelLeft": 664,
+  "LabelTop": 142,
+  "LabelWidth": 974,
+  "LastVersionId": 555,
+  "ListTableId": 178,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 4,
-  "ProgId": "ab",
+  "Page1LineNo": 730,
+  "ProgId": "voluptas",
   "IsReadOnly": true,
-  "ShortLabel": "voluptas",
-  "TabOrder": 109,
-  "TextLength": 222,
-  "Tooltip": "magnam",
-  "UdefIdentity": 73,
-  "UDListDefinitionId": 6,
+  "ShortLabel": "quod",
+  "TabOrder": 890,
+  "TextLength": 782,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 835,
+  "UDListDefinitionId": 540,
   "Justification": "Center",
-  "Version": 362,
-  "TemplateVariableName": "Kautzer, Parker and Eichmann",
-  "HasBeenPublished": true,
-  "MdoListName": "Klocko Group",
+  "Version": 418,
+  "TemplateVariableName": "Greenfelder Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Hoppe-Hane",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 881
     }
   }
 }

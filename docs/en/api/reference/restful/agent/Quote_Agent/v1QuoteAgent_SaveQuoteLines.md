@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/SaveQuoteLines?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteLines 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLines | array |  |
+| QuoteLines | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -112,7 +111,7 @@ Response body: array
 | ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -121,64 +120,64 @@ Response body: array
 POST /api/v1/Agents/Quote/SaveQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLines": [
     {
-      "QuoteLineId": 520,
-      "ERPQuoteLineKey": "maiores",
-      "QuoteAlternativeId": 574,
-      "ERPProductKey": "tenetur",
+      "QuoteLineId": 991,
+      "ERPQuoteLineKey": "veniam",
+      "QuoteAlternativeId": 641,
+      "ERPProductKey": "officiis",
       "Status": "Error",
       "Reason": "",
-      "Quantity": 11454.77,
-      "DeliveredQuantity": 22975.354,
-      "Rank": 654,
-      "Name": "Bruen, Douglas and Dach",
-      "Description": "Devolved non-volatile emulation",
-      "Code": "nam",
-      "QuantityUnit": "sint",
-      "PriceUnit": "voluptate",
-      "ItemNumber": "1201799",
+      "Quantity": 26131.291999999998,
+      "DeliveredQuantity": 3240.556,
+      "Rank": 808,
+      "Name": "Hilll-Moore",
+      "Description": "Future-proofed content-based collaboration",
+      "Code": "vitae",
+      "QuantityUnit": "facilis",
+      "PriceUnit": "tempora",
+      "ItemNumber": "738080",
       "Url": "http://www.example.com/",
       "ProductCategoryKey": "VIP Customer",
-      "ProductFamilyKey": "aut",
-      "ProductTypeKey": "sit",
-      "Supplier": "necessitatibus",
-      "SupplierCode": "illo",
-      "Thumbnail": "ea",
-      "VATInfo": "placeat",
-      "VAT": 17030.156,
-      "UnitCost": 12000.086,
-      "UnitMinimumPrice": 29233.951999999997,
-      "UnitListPrice": 22777.912,
+      "ProductFamilyKey": "non",
+      "ProductTypeKey": "aspernatur",
+      "Supplier": "itaque",
+      "SupplierCode": "doloribus",
+      "Thumbnail": "voluptatem",
+      "VATInfo": "at",
+      "VAT": 7352.364,
+      "UnitCost": 31274.185999999998,
+      "UnitMinimumPrice": 15995.936,
+      "UnitListPrice": 5719.55,
       "ExtraInfo": [
         {},
         {}
       ],
-      "RawExtraInfo": "qui",
-      "IsSubscription": false,
-      "SubscriptionUnit": "dolores",
-      "SubscriptionQuantity": 4146.282,
-      "SubscriptionStart": "2004-06-22T02:49:45.0622144+02:00",
-      "ERPDiscountPercent": 7308.4879999999994,
-      "ERPDiscountAmount": 31114.352,
-      "DiscountPercent": 1501.186,
-      "DiscountAmount": 25341.523999999998,
+      "RawExtraInfo": "dolor",
+      "IsSubscription": true,
+      "SubscriptionUnit": "qui",
+      "SubscriptionQuantity": 4606.98,
+      "SubscriptionStart": "2020-07-06T17:37:18.7702416+02:00",
+      "ERPDiscountPercent": 22752.84,
+      "ERPDiscountAmount": 13852.279999999999,
+      "DiscountPercent": 26855.246,
+      "DiscountAmount": 7794.258,
       "UserValueOverride": "DiscountAmount",
-      "EarningPercent": 21063.613999999998,
-      "EarningAmount": 10574.116,
-      "SubTotal": 2504.066,
-      "TotalPrice": 3409.792,
-      "Rights": "non",
-      "Rule": "in",
-      "ExtraField1": "quo",
-      "ExtraField2": "iure",
-      "ExtraField3": "cumque",
-      "ExtraField4": "voluptatem",
-      "ExtraField5": "necessitatibus"
+      "EarningPercent": 27253.264,
+      "EarningAmount": 14124.938,
+      "SubTotal": 15864.307999999999,
+      "TotalPrice": 21956.804,
+      "Rights": "omnis",
+      "Rule": "quasi",
+      "ExtraField1": "qui",
+      "ExtraField2": "vel",
+      "ExtraField3": "aliquam",
+      "ExtraField4": "sed",
+      "ExtraField5": "atque"
     }
   ]
 }
@@ -192,88 +191,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 773,
-    "ERPQuoteLineKey": "nihil",
-    "QuoteAlternativeId": 665,
-    "ERPProductKey": "culpa",
+    "QuoteLineId": 468,
+    "ERPQuoteLineKey": "sint",
+    "QuoteAlternativeId": 178,
+    "ERPProductKey": "dicta",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 23953.162,
-    "DeliveredQuantity": 3732.594,
-    "Rank": 509,
-    "Name": "Kessler Inc and Sons",
-    "Description": "Extended systematic orchestration",
-    "Code": "maiores",
-    "QuantityUnit": "reiciendis",
-    "PriceUnit": "ex",
-    "ItemNumber": "1662783",
+    "Quantity": 17628.75,
+    "DeliveredQuantity": 17249.536,
+    "Rank": 183,
+    "Name": "Kassulke, Blick and Windler",
+    "Description": "Advanced stable hierarchy",
+    "Code": "sequi",
+    "QuantityUnit": "ex",
+    "PriceUnit": "laudantium",
+    "ItemNumber": "1092807",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "atque",
-    "ProductTypeKey": "ea",
-    "Supplier": "vero",
-    "SupplierCode": "nulla",
-    "Thumbnail": "ratione",
-    "VATInfo": "quidem",
-    "VAT": 12106.642,
-    "UnitCost": 15528.97,
-    "UnitMinimumPrice": 16237.253999999999,
-    "UnitListPrice": 1748.772,
+    "ProductFamilyKey": "voluptatem",
+    "ProductTypeKey": "maxime",
+    "Supplier": "non",
+    "SupplierCode": "temporibus",
+    "Thumbnail": "neque",
+    "VATInfo": "inventore",
+    "VAT": 13040.573999999999,
+    "UnitCost": 12924.616,
+    "UnitMinimumPrice": 26256.652,
+    "UnitListPrice": 18120.788,
     "ExtraInfo": [
       {
-        "Name": "Heathcote Inc and Sons",
-        "Value": "laborum",
+        "Name": "Leuschke LLC",
+        "Value": "placeat",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 410
+            "FieldLength": 561
           }
         }
       },
       {
-        "Name": "Heathcote Inc and Sons",
-        "Value": "laborum",
+        "Name": "Leuschke LLC",
+        "Value": "placeat",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 410
+            "FieldLength": 561
           }
         }
       }
     ],
-    "RawExtraInfo": "iusto",
+    "RawExtraInfo": "quam",
     "IsSubscription": false,
-    "SubscriptionUnit": "debitis",
-    "SubscriptionQuantity": 2723.446,
-    "SubscriptionStart": "2017-06-28T02:49:45.0622144+02:00",
-    "ERPDiscountPercent": 9430.206,
-    "ERPDiscountAmount": 17945.284,
-    "DiscountPercent": 12510.928,
-    "DiscountAmount": 15453.753999999999,
+    "SubscriptionUnit": "cum",
+    "SubscriptionQuantity": 21928.597999999998,
+    "SubscriptionStart": "2018-10-11T17:37:18.7722417+02:00",
+    "ERPDiscountPercent": 25150.35,
+    "ERPDiscountAmount": 20135.95,
+    "DiscountPercent": 19060.987999999998,
+    "DiscountAmount": 13946.3,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 11072.422,
-    "EarningAmount": 21235.984,
-    "SubTotal": 9919.11,
-    "TotalPrice": 28500.595999999998,
-    "Rights": "consequuntur",
-    "Rule": "soluta",
-    "ExtraField1": "veritatis",
-    "ExtraField2": "quo",
-    "ExtraField3": "similique",
-    "ExtraField4": "deleniti",
-    "ExtraField5": "voluptas",
+    "EarningPercent": 21173.304,
+    "EarningAmount": 21618.332,
+    "SubTotal": 27817.384,
+    "TotalPrice": 10094.614,
+    "Rights": "error",
+    "Rule": "ex",
+    "ExtraField1": "et",
+    "ExtraField2": "iure",
+    "ExtraField3": "eveniet",
+    "ExtraField4": "magni",
+    "ExtraField5": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldType": "System.String",
+        "FieldLength": 229
       }
     }
   }

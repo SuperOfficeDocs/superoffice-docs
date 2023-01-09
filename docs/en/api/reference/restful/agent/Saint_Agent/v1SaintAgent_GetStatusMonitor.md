@@ -42,16 +42,15 @@ POST /api/v1/Agents/Saint/GetStatusMonitor?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 |  |
+| Id | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: StatusMonitor
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body:
 | NumMatches | int32 | Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1 |
 | NumNeedUpdate | int32 | Number of targets that had this status, but have their needsUpdate bit set due to some change |
 | GenerationStart | date-time | When was the last regeneration started |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,11 +86,11 @@ Response body:
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 85
+  "Id": 352
 }
 ```
 
@@ -102,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 538,
-  "Rank": 79,
-  "DefaultTask": 20,
-  "DefaultTaskText": "blanditiis",
+  "OwnerTable": 142,
+  "Rank": 119,
+  "DefaultTask": 343,
+  "DefaultTaskText": "inventore",
   "IsVisual": false,
-  "LastGenerated": "2020-05-13T02:49:45.0934673+02:00",
-  "Description": "Decentralized background toolset",
-  "Name": "Swift Inc and Sons",
-  "StatusMonitorId": 941,
-  "PictureId": 644,
+  "LastGenerated": "2000-07-16T17:37:18.8152413+02:00",
+  "Description": "Fully-configurable logistical portal",
+  "Name": "Ratke LLC",
+  "StatusMonitorId": 548,
+  "PictureId": 533,
   "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 830,
-  "NumNeedUpdate": 59,
-  "GenerationStart": "2006-12-24T02:49:45.0934673+01:00",
+  "Deleted": false,
+  "NumMatches": 755,
+  "NumNeedUpdate": 386,
+  "GenerationStart": "2014-12-24T17:37:18.8152413+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldType": "System.Int32",
+      "FieldLength": 15
     }
   }
 }

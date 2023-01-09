@@ -42,18 +42,17 @@ POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SaleId, CurrentAppointmentId, SkipCompleteCheck 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SaleId | int32 |  |
-| CurrentAppointmentId | int32 |  |
-| SkipCompleteCheck | bool |  |
+| SaleId | Integer |  |
+| CurrentAppointmentId | Integer |  |
+| SkipCompleteCheck | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SuggestedAppointment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,8 +77,8 @@ Response body:
 | ProjectTypeStatusLinkId | int32 | Link to projectTypeStatusLink, the anchor for project guide items. Either this OR saleAnchorId should be set, not both at the same time. |
 | Name | string | Item name, visible in Guide |
 | Duration | int32 | Duration in minutes of suggested appointment |
-| Associate |  | The owner of the suggested activity. Always the same as the sales owner. |
-| TableRight |  |  |
+| Associate | Associate | The owner of the suggested activity. Always the same as the sales owner. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,12 +87,12 @@ Response body:
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 199,
-  "CurrentAppointmentId": 946,
+  "SaleId": 714,
+  "CurrentAppointmentId": 588,
   "SkipCompleteCheck": false
 }
 ```
@@ -105,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 15,
-  "Deleted": 570,
-  "DaysFuture": 445,
-  "Tooltip": "unde",
-  "Text": "voluptatem",
-  "TaskId": 81,
-  "SuggestedAppointmentId": 498,
-  "SaleTypeStageLinkId": 154,
-  "RegisteredAssociateId": 867,
-  "Rank": 29,
-  "ProjectTypeStatusLinkId": 239,
-  "Name": "Schmitt-Gibson",
-  "Duration": 237,
+  "AutoSuggest": 328,
+  "Deleted": 407,
+  "DaysFuture": 751,
+  "Tooltip": "ut",
+  "Text": "consequatur",
+  "TaskId": 218,
+  "SuggestedAppointmentId": 490,
+  "SaleTypeStageLinkId": 660,
+  "RegisteredAssociateId": 735,
+  "Rank": 960,
+  "ProjectTypeStatusLinkId": 562,
+  "Name": "Ledner, Hane and Christiansen",
+  "Duration": 488,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldType": "System.String",
+      "FieldLength": 79
     }
   }
 }

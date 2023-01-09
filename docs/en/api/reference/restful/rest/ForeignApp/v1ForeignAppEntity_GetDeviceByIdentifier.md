@@ -38,7 +38,7 @@ Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the ap
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignDevice
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +59,7 @@ Response body:
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,24 +76,24 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 11 Jan 2019 02:49:50 G1T
+Last-Modified: Wed, 04 Sep 2002 17:37:38 G9T
 
 {
-  "ForeignDeviceId": 296,
-  "Name": "Goodwin LLC",
-  "CreatedDate": "2008-08-09T02:49:50.9952888+02:00",
-  "UpdatedDate": "2019-01-11T02:49:50.9952888+01:00",
-  "AssociateFullName": "Walter Cummings III",
-  "CreatedBy": "accusamus",
-  "UpdatedBy": "voluptas",
-  "DeviceIdentifier": "laudantium",
-  "ForeignAppId": 178,
+  "ForeignDeviceId": 631,
+  "Name": "McClure Group",
+  "CreatedDate": "2001-07-03T17:37:38.8148598+02:00",
+  "UpdatedDate": "2002-09-04T17:37:38.8148598+02:00",
+  "AssociateFullName": "Prof. Sonia Travon Price Jr.",
+  "CreatedBy": "odio",
+  "UpdatedBy": "distinctio",
+  "DeviceIdentifier": "dolorem",
+  "ForeignAppId": 577,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 7
     }
   }
 }

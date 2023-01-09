@@ -42,16 +42,15 @@ POST /api/v1/Agents/Saint/RegenerateStatusMonitors?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 RunAsBatch 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RunAsBatch | bool |  |
+| RunAsBatch | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BatchTaskInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +83,7 @@ Response body:
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,7 +92,7 @@ Response body:
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,36 +107,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 843,
-  "Name": "Kuhic Inc and Sons",
-  "AssociateId": 211,
-  "DetailsTable": 249,
-  "DetailsRecord": 713,
-  "IsSystemTask": true,
+  "Id": 443,
+  "Name": "Denesik Group",
+  "AssociateId": 378,
+  "DetailsTable": 936,
+  "DetailsRecord": 359,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "occaecati",
-    "ParameterObject2": "accusantium"
+    "ParameterObject1": "quia",
+    "ParameterObject2": "quia"
   },
-  "LastStarted": "2001-01-14T02:49:45.0934673+01:00",
-  "Created": "2015-01-03T02:49:45.0934673+01:00",
-  "StartCount": 44,
-  "DatabaseSerialNumber": "468601",
-  "Context": "ex",
-  "Result": "sit",
+  "LastStarted": "2011-04-24T17:37:18.8152413+02:00",
+  "Created": "2006-08-31T17:37:18.8152413+02:00",
+  "StartCount": 217,
+  "DatabaseSerialNumber": "122572",
+  "Context": "architecto",
+  "Result": "vero",
   "State": "All",
-  "Description": "Optional zero administration methodology",
-  "Response": "quis",
-  "Request": "sit",
-  "ProgressDescription": "Triple-buffered analyzing contingency",
-  "ProgressPercent": 603,
-  "FileName": "Wolff Inc and Sons",
+  "Description": "Pre-emptive asynchronous product",
+  "Response": "nihil",
+  "Request": "optio",
+  "ProgressDescription": "Streamlined fresh-thinking utilisation",
+  "ProgressPercent": 630,
+  "FileName": "Emmerich LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldType": "System.String",
+      "FieldLength": 716
     }
   }
 }

@@ -44,18 +44,17 @@ POST /api/v1/Agents/Find/GetDefaultOrderBy?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,13 +75,13 @@ Response body: array
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "id",
-  "ProviderName": "DuBuque, Hickle and Conroy",
-  "StorageKey": "qui"
+  "StorageType": "cum",
+  "ProviderName": "Kohler-Schaden",
+  "StorageKey": "voluptatem"
 }
 ```
 
@@ -94,11 +93,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Keebler LLC",
+    "Name": "Vandervort-Breitenberg",
     "Direction": "ASC"
   },
   {
-    "Name": "Keebler LLC",
+    "Name": "Vandervort-Breitenberg",
     "Direction": "ASC"
   }
 ]

@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: HierarchyEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +56,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,46 +75,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 777,
+  "HierarchyId": 297,
   "Domain": "Dashboards",
-  "Name": "Kiehn, Greenholt and Tillman",
-  "Fullname": "laborum",
-  "ParentId": 545,
+  "Name": "Ferry-Purdy",
+  "Fullname": "quia",
+  "ParentId": 720,
   "Children": [
     {
-      "HierarchyId": 14,
+      "HierarchyId": 690,
       "Domain": "Dashboards",
-      "Name": "Hilpert, Barton and Walsh",
-      "Fullname": "aut",
-      "ParentId": 185,
+      "Name": "Hilpert, O'Kon and Kemmer",
+      "Fullname": "totam",
+      "ParentId": 622,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-03-31T02:49:50.9952888+02:00",
-      "RegisteredAssociateId": 224,
-      "Updated": "2018-02-09T02:49:50.9952888+01:00",
-      "UpdatedAssociateId": 730,
+      "Registered": "1998-02-19T17:37:38.8248598+01:00",
+      "RegisteredAssociateId": 111,
+      "Updated": "2011-03-23T17:37:38.8248598+01:00",
+      "UpdatedAssociateId": 543,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 997
+          "FieldType": "System.Int32",
+          "FieldLength": 49
         }
       }
     }
   ],
-  "Registered": "2002-02-05T02:49:50.9952888+01:00",
-  "RegisteredAssociateId": 650,
-  "Updated": "2009-07-10T02:49:50.9952888+02:00",
-  "UpdatedAssociateId": 541,
+  "Registered": "2020-03-27T17:37:38.8248598+01:00",
+  "RegisteredAssociateId": 552,
+  "Updated": "1997-12-27T17:37:38.8248598+01:00",
+  "UpdatedAssociateId": 743,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 844
+      "FieldLength": 999
     }
   }
 }

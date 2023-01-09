@@ -42,17 +42,16 @@ POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TargetYear, DimensionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TargetYear | int32 |  |
-| DimensionId | int32 |  |
+| TargetYear | Integer |  |
+| DimensionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TargetGroup
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,8 +68,8 @@ Response body:
 | EntityType | string | Entity type for this set of targets (Sale, Project, Selection, Appointment...) |
 | PeriodType | string | Period type for editing this set of targets (Year, Quarter...) |
 | TargetAssignments | array | Collection of target values |
-| TargetDimension |  | Info about the target dimensions |
-| TableRight |  |  |
+| TargetDimension | TargetDimension | Info about the target dimensions |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,12 +78,12 @@ Response body:
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 83,
-  "DimensionId": 485
+  "TargetYear": 844,
+  "DimensionId": 257
 }
 ```
 
@@ -95,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 427,
-  "Year": 580,
+  "TargetGroupId": 199,
+  "Year": 8,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 598,
+      "TargetAssignmentInfoId": 77,
       "Values": [
-        395,
-        52
+        13,
+        547
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 391,
-      "DimensionListItemDisplayName": "Bailey, Howe and Waelchi",
+      "DimensionListItem": 530,
+      "DimensionListItemDisplayName": "Dach-Hoeger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldType": "System.String",
+          "FieldLength": 587
         }
       }
     }
@@ -129,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldLength": 185
     }
   }
 }

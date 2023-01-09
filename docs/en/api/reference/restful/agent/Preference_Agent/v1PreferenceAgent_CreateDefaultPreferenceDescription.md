@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreferenceDescription
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +64,7 @@ Response body:
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,7 +73,7 @@ Response body:
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 435,
-  "Section": "voluptas",
-  "Key": "optio",
-  "Name": "Welch, Treutel and Hoeger",
+  "PrefDescId": 128,
+  "Section": "quos",
+  "Key": "dolore",
+  "Name": "Little, Schinner and Beer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Right-sized analyzing website",
+  "Description": "Streamlined contextually-based standardization",
   "IsBuiltin": false,
-  "TableName": "Metz Group",
-  "UserDefinedListId": 674,
-  "Rank": 797,
-  "SubGroup": "molestias",
-  "MinLevel": 413,
-  "MaxValue": 941,
-  "MinValue": 364,
-  "RequiredLicense": "voluptatibus",
+  "TableName": "Padberg Group",
+  "UserDefinedListId": 39,
+  "Rank": 982,
+  "SubGroup": "praesentium",
+  "MinLevel": 394,
+  "MaxValue": 382,
+  "MinValue": 612,
+  "RequiredLicense": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 204
+      "FieldLength": 430
     }
   }
 }

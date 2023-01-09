@@ -38,23 +38,22 @@ Add a new key belonging to the ForeignApp and ForeignDevice specified.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: foreignKey  
+## Request Body: foreignKey 
 
 Foreign key to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Key | string | Subkey (optional) |
-| Value | string | Key value |
-| RecordId | int32 | Record in the referenced table |
-| CreatedDate | date-time | Registered when  in UTC. |
-| UpdatedDate | date-time | Last updated when  in UTC. |
-| UpdatedBy | string | Name of the person that last updated the foreign key |
-| CreatedBy | string | Name of the person that created the foreign key |
-| TableName | string | Table name, transformed to and from numeric table id by the service layer |
+| Key | String | Subkey (optional) |
+| Value | String | Key value |
+| RecordId | Integer | Record in the referenced table |
+| CreatedDate | String | Registered when  in UTC. |
+| UpdatedDate | String | Last updated when  in UTC. |
+| UpdatedBy | String | Name of the person that last updated the foreign key |
+| CreatedBy | String | Name of the person that created the foreign key |
+| TableName | String | Table name, transformed to and from numeric table id by the service layer |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,18 +82,18 @@ Response body:
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "neque",
-  "Value": "laudantium",
-  "RecordId": 445,
-  "CreatedDate": "2009-01-27T02:49:50.9952888+01:00",
-  "UpdatedDate": "2011-11-19T02:49:50.9952888+01:00",
-  "UpdatedBy": "nisi",
-  "CreatedBy": "sapiente",
-  "TableName": "Lubowitz Inc and Sons"
+  "Key": "impedit",
+  "Value": "facilis",
+  "RecordId": 52,
+  "CreatedDate": "2007-09-04T17:37:38.8208594+02:00",
+  "UpdatedDate": "2002-01-02T17:37:38.8208594+01:00",
+  "UpdatedBy": "vero",
+  "CreatedBy": "voluptatum",
+  "TableName": "Murphy, Sawayn and Bogisich"
 }
 ```
 
@@ -105,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quia",
-  "Value": "quod",
-  "RecordId": 8,
-  "CreatedDate": "2014-08-14T02:49:50.9952888+02:00",
-  "UpdatedDate": "1998-11-22T02:49:50.9952888+01:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "fugiat",
-  "TableName": "Bergnaum-Barton",
+  "Key": "repellat",
+  "Value": "dolor",
+  "RecordId": 35,
+  "CreatedDate": "2013-03-25T17:37:38.8218608+01:00",
+  "UpdatedDate": "1996-07-14T17:37:38.8218608+02:00",
+  "UpdatedBy": "ipsum",
+  "CreatedBy": "quia",
+  "TableName": "Conn LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldType": "System.String",
+      "FieldLength": 137
     }
   }
 }

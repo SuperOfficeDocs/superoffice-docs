@@ -44,17 +44,16 @@ POST /api/v1/Agents/Quote/RecalculateQuoteLine?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteLine, ChangedFields 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLine |  | Information about a connection to the ERP system. <para /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
-| ChangedFields | array |  |
+| QuoteLine | QuoteLine | Information about a connection to the ERP system. <para /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| ChangedFields | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteLine
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -115,7 +114,7 @@ Response body:
 | ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -124,14 +123,14 @@ Response body:
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "aut",
-    "necessitatibus"
+    "perferendis",
+    "odio"
   ]
 }
 ```
@@ -143,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 737,
-  "ERPQuoteLineKey": "ipsa",
-  "QuoteAlternativeId": 178,
-  "ERPProductKey": "quo",
+  "QuoteLineId": 454,
+  "ERPQuoteLineKey": "modi",
+  "QuoteAlternativeId": 971,
+  "ERPProductKey": "est",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 1313.146,
-  "DeliveredQuantity": 21536.847999999998,
-  "Rank": 845,
-  "Name": "Metz, Rosenbaum and Cummings",
-  "Description": "Switchable next generation success",
-  "Code": "culpa",
-  "QuantityUnit": "quibusdam",
-  "PriceUnit": "et",
-  "ItemNumber": "706573",
+  "Quantity": 17826.192,
+  "DeliveredQuantity": 14676.521999999999,
+  "Rank": 220,
+  "Name": "Feest, Stiedemann and Conn",
+  "Description": "Diverse zero defect hub",
+  "Code": "voluptas",
+  "QuantityUnit": "ut",
+  "PriceUnit": "adipisci",
+  "ItemNumber": "895413",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "molestiae",
-  "ProductTypeKey": "natus",
-  "Supplier": "veritatis",
-  "SupplierCode": "officiis",
-  "Thumbnail": "fugit",
-  "VATInfo": "ut",
-  "VAT": 2851.94,
-  "UnitCost": 27679.487999999998,
-  "UnitMinimumPrice": 20418.01,
-  "UnitListPrice": 29939.102,
+  "ProductFamilyKey": "non",
+  "ProductTypeKey": "sit",
+  "Supplier": "maiores",
+  "SupplierCode": "atque",
+  "Thumbnail": "est",
+  "VATInfo": "sed",
+  "VAT": 11432.832,
+  "UnitCost": 8211.08,
+  "UnitMinimumPrice": 7270.88,
+  "UnitListPrice": 8913.096,
   "ExtraInfo": [
     {
-      "Name": "Carroll Group",
-      "Value": "vero",
+      "Name": "Sporer, Walter and Hettinger",
+      "Value": "sint",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 274
+          "FieldType": "System.String",
+          "FieldLength": 532
         }
       }
     },
     {
-      "Name": "Carroll Group",
-      "Value": "vero",
+      "Name": "Sporer, Walter and Hettinger",
+      "Value": "sint",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 274
+          "FieldType": "System.String",
+          "FieldLength": 532
         }
       }
     }
   ],
-  "RawExtraInfo": "velit",
-  "IsSubscription": true,
-  "SubscriptionUnit": "excepturi",
-  "SubscriptionQuantity": 12592.412,
-  "SubscriptionStart": "2003-07-18T02:49:44.9840914+02:00",
-  "ERPDiscountPercent": 12420.042,
-  "ERPDiscountAmount": 28058.701999999997,
-  "DiscountPercent": 14823.82,
-  "DiscountAmount": 22448.842,
+  "RawExtraInfo": "est",
+  "IsSubscription": false,
+  "SubscriptionUnit": "eos",
+  "SubscriptionQuantity": 25006.185999999998,
+  "SubscriptionStart": "1996-09-13T17:37:18.6822417+02:00",
+  "ERPDiscountPercent": 29556.754,
+  "ERPDiscountAmount": 27391.16,
+  "DiscountPercent": 9781.214,
+  "DiscountAmount": 27058.956,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 29506.61,
-  "EarningAmount": 11605.202,
-  "SubTotal": 12153.652,
-  "TotalPrice": 19236.492,
-  "Rights": "sed",
-  "Rule": "laborum",
-  "ExtraField1": "qui",
-  "ExtraField2": "error",
-  "ExtraField3": "asperiores",
-  "ExtraField4": "pariatur",
-  "ExtraField5": "id",
+  "EarningPercent": 20255.041999999998,
+  "EarningAmount": 20051.332,
+  "SubTotal": 31042.27,
+  "TotalPrice": 8236.152,
+  "Rights": "aliquid",
+  "Rule": "animi",
+  "ExtraField1": "dicta",
+  "ExtraField2": "dolorem",
+  "ExtraField3": "dolores",
+  "ExtraField4": "ea",
+  "ExtraField5": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldType": "System.Int32",
+      "FieldLength": 608
     }
   }
 }

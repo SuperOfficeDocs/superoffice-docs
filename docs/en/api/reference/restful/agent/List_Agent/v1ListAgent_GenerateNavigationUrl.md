@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/GenerateNavigationUrl?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 VisibleIn, WindowName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| VisibleIn | string |  |
-| WindowName | string |  |
+| VisibleIn | String |  |
+| WindowName | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -74,7 +73,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Mills Inc and Sons"
+  "WindowName": "Heller Inc and Sons"
 }
 ```
 

@@ -42,16 +42,15 @@ POST /api/v1/Agents/Dash/CreateDashTileSelectionFromEntity?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EntityName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EntityName | string |  |
+| EntityName | String |  |
 
-
-## Response: int32
+## Response:int32
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -68,11 +67,11 @@ Response body: int32
 POST /api/v1/Agents/Dash/CreateDashTileSelectionFromEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Will-Hoeger"
+  "EntityName": "Eichmann-Boyle"
 }
 ```
 
@@ -82,5 +81,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-599
+999
 ```

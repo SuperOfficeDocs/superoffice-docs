@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Product
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +80,7 @@ Response body:
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,7 +89,7 @@ Response body:
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 257,
-  "ERPProductKey": "eligendi",
-  "ERPPriceListKey": "quia",
-  "Name": "Thompson Group",
-  "Description": "Cross-platform actuating paradigm",
-  "Code": "laborum",
-  "PriceUnit": "placeat",
-  "QuantityUnit": "qui",
+  "ProductId": 631,
+  "ERPProductKey": "sit",
+  "ERPPriceListKey": "sunt",
+  "Name": "Bogisich LLC",
+  "Description": "Right-sized homogeneous budgetary management",
+  "Code": "error",
+  "PriceUnit": "dolorem",
+  "QuantityUnit": "est",
   "IsSubscription": false,
-  "SubscriptionUnit": "minima",
-  "DefaultSubscriptionQuantity": 11395.224,
-  "ItemNumber": "920447",
+  "SubscriptionUnit": "sed",
+  "DefaultSubscriptionQuantity": 12169.322,
+  "ItemNumber": "1648075",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "velit",
-  "ProductTypeKey": "voluptas",
-  "VAT": 17356.092,
-  "VATInfo": "aperiam",
-  "UnitCost": 16168.305999999999,
-  "UnitMinimumPrice": 11902.931999999999,
-  "UnitListPrice": 29754.196,
+  "ProductFamilyKey": "voluptatem",
+  "ProductTypeKey": "ut",
+  "VAT": 22965.951999999997,
+  "VATInfo": "ab",
+  "UnitCost": 11332.544,
+  "UnitMinimumPrice": 617.398,
+  "UnitListPrice": 22871.932,
   "InAssortment": false,
-  "Supplier": "illum",
-  "SupplierCode": "nobis",
-  "Rights": "nemo",
-  "Rule": "quia",
+  "Supplier": "omnis",
+  "SupplierCode": "animi",
+  "Rights": "iure",
+  "Rule": "dolorem",
   "ExtraInfo": [
     {
-      "Name": "Hessel, Stokes and Mohr",
-      "Value": "officiis",
+      "Name": "Kozey Inc and Sons",
+      "Value": "maxime",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 562
+          "FieldLength": 21
         }
       }
     },
     {
-      "Name": "Hessel, Stokes and Mohr",
-      "Value": "officiis",
+      "Name": "Kozey Inc and Sons",
+      "Value": "maxime",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 562
+          "FieldLength": 21
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
-  "ExtraField1": "veritatis",
-  "ExtraField2": "hic",
-  "ExtraField3": "similique",
-  "ExtraField4": "esse",
-  "ExtraField5": "iure",
-  "InStock": 5518.974,
+  "RawExtraInfo": "cum",
+  "ExtraField1": "labore",
+  "ExtraField2": "pariatur",
+  "ExtraField3": "dignissimos",
+  "ExtraField4": "cumque",
+  "ExtraField5": "nesciunt",
+  "InStock": 11564.46,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldLength": 820
     }
   }
 }

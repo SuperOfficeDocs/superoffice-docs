@@ -42,18 +42,17 @@ POST /api/v1/Agents/List/GetHeadingsForListItemFromListName?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionName, ListItemId, ShowDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionName | string |  |
-| ListItemId | int32 |  |
-| ShowDeleted | bool |  |
+| UdListDefinitionName | String |  |
+| ListItemId | Integer |  |
+| ShowDeleted | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Shields-Kautzer",
-  "ListItemId": 335,
+  "UdListDefinitionName": "Kertzmann Inc and Sons",
+  "ListItemId": 330,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Waters Inc and Sons",
-    "ToolTip": "Qui et animi est quo unde.",
+    "Id": 942,
+    "Name": "Parker, McGlynn and Kuhic",
+    "ToolTip": "Est numquam aut impedit vitae.",
     "Deleted": false,
-    "Rank": 297,
-    "Type": "amet",
-    "ColorBlock": 927,
-    "IconHint": "aut",
+    "Rank": 657,
+    "Type": "qui",
+    "ColorBlock": 111,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2010-12-31T02:49:44.6235457+01:00",
+    "LastChanged": "2021-04-28T17:37:18.2072449+02:00",
     "ChildItems": [
       {
-        "Id": 952,
-        "Name": "Feil LLC",
-        "ToolTip": "Minus distinctio voluptatibus consequuntur.",
-        "Deleted": true,
-        "Rank": 851,
-        "Type": "consequatur",
-        "ColorBlock": 242,
-        "IconHint": "atque",
+        "Id": 71,
+        "Name": "Romaguera-Ward",
+        "ToolTip": "Facere incidunt illo.",
+        "Deleted": false,
+        "Rank": 504,
+        "Type": "beatae",
+        "ColorBlock": 921,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2009-04-23T02:49:44.6235457+02:00",
+        "LastChanged": "2002-10-21T17:37:18.2072449+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "velit",
-        "Hidden": true,
-        "FullName": "Reid Jewess",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "rem",
+        "Hidden": false,
+        "FullName": "Mr. Hortense Nienow III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 756
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "nihil",
+    "ExtraInfo": "ab",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Mustafa Demarco Collins II",
+    "FullName": "Kattie Lavinia Nader III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldLength": 850
       }
     }
   }

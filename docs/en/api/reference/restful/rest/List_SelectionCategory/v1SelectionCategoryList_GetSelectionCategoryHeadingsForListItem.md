@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Leffler Inc and Sons",
-    "ToolTip": "Odit voluptatem adipisci enim.",
-    "Deleted": false,
-    "Rank": 536,
-    "Type": "necessitatibus",
-    "ColorBlock": 921,
-    "IconHint": "quas",
+    "Id": 479,
+    "Name": "Stracke-Sauer",
+    "ToolTip": "Quisquam sit.",
+    "Deleted": true,
+    "Rank": 54,
+    "Type": "quod",
+    "ColorBlock": 970,
+    "IconHint": "vitae",
     "Selected": true,
-    "LastChanged": "2008-11-12T02:49:52.5315748+01:00",
+    "LastChanged": "2007-04-25T17:37:40.3614962+02:00",
     "ChildItems": [
       {
-        "Id": 44,
-        "Name": "Collins, Jakubowski and Barrows",
-        "ToolTip": "Ratione est est animi reprehenderit ab.",
-        "Deleted": false,
-        "Rank": 119,
-        "Type": "ut",
-        "ColorBlock": 989,
-        "IconHint": "alias",
+        "Id": 347,
+        "Name": "Tromp Group",
+        "ToolTip": "Omnis eos et eum eius fugiat.",
+        "Deleted": true,
+        "Rank": 52,
+        "Type": "nam",
+        "ColorBlock": 150,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "1999-11-20T02:49:52.5315748+01:00",
+        "LastChanged": "2011-05-26T17:37:40.3624952+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Mertie Bednar",
+        "ExtraInfo": "est",
+        "StyleHint": "soluta",
+        "Hidden": true,
+        "FullName": "Mia Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 405
+            "FieldLength": 207
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "dolores",
+    "ExtraInfo": "dicta",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Kristofer Effertz",
+    "FullName": "Mr. Melvina Haley II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 9
+        "FieldType": "System.String",
+        "FieldLength": 675
       }
     }
   }

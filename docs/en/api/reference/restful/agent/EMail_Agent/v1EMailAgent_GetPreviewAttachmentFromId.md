@@ -47,19 +47,18 @@ POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MailItemId, AttachmentId, AttachmentType, AttachmentFilename 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MailItemId | int32 |  |
-| AttachmentId | string |  |
-| AttachmentType | string |  |
-| AttachmentFilename | string |  |
+| MailItemId | Integer |  |
+| AttachmentId | String |  |
+| AttachmentType | String |  |
+| AttachmentFilename | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -67,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailAttachment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body:
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,14 +87,14 @@ Response body:
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 667,
-  "AttachmentId": "libero",
-  "AttachmentType": "quia",
-  "AttachmentFilename": "enim"
+  "MailItemId": 896,
+  "AttachmentId": "repellendus",
+  "AttachmentType": "placeat",
+  "AttachmentFilename": "corrupti"
 }
 ```
 
@@ -106,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ergonomic eco-centric collaboration",
-  "Filename": "officia",
-  "Size": 459,
-  "Type": "quis",
-  "Encoding": "est",
-  "Id": "reprehenderit",
-  "Disposition": "ducimus",
+  "Description": "Distributed zero defect approach",
+  "Filename": "sed",
+  "Size": 262,
+  "Type": "consequuntur",
+  "Encoding": "eos",
+  "Id": "debitis",
+  "Disposition": "enim",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldLength": 509
     }
   }
 }

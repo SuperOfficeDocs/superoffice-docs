@@ -32,25 +32,24 @@ Updates the existing SystemEventEntity or creates a new SystemEventEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The SystemEventEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SystemEventId | int32 | Primary key |
-| Scope | string | 1 = system-wide, 2= database, 3 = group, 4 = user |
-| Eta | date-time | Estimated Time of Arrival, i.e., when will this event finish? |
-| Eventkey | string | Event key, predefined in code |
-| Eventmess | string | Message to be shown, entered by administrator |
-| ExtraInfo | int32 | Extra information (area id for prototype rebuild, etc) |
-| Owner | int32 | 0, 0, group_id, assoc id (see over) |
-| UpdatedCount | int32 | Number of updates made to this record |
-| Registered | date-time | Registered when  in UTC. |
-| ActivatedBy |  | The associate that first created the SystemEvent. |
+| SystemEventId | Integer | Primary key |
+| Scope | String | 1 = system-wide, 2= database, 3 = group, 4 = user |
+| Eta | String | Estimated Time of Arrival, i.e., when will this event finish? |
+| Eventkey | String | Event key, predefined in code |
+| Eventmess | String | Message to be shown, entered by administrator |
+| ExtraInfo | Integer | Extra information (area id for prototype rebuild, etc) |
+| Owner | Integer | 0, 0, group_id, assoc id (see over) |
+| UpdatedCount | Integer | Number of updates made to this record |
+| Registered | String | Registered when  in UTC. |
+| ActivatedBy | Associate | The associate that first created the SystemEvent. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -58,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SystemEventEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,8 +70,8 @@ Response body:
 | Owner | int32 | 0, 0, group_id, assoc id (see over) |
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
-| ActivatedBy |  | The associate that first created the SystemEvent. |
-| TableRight |  |  |
+| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,19 +80,19 @@ Response body:
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 62,
+  "SystemEventId": 571,
   "Scope": "Database",
-  "Eta": "2001-06-19T02:49:43.8566571+02:00",
-  "Eventkey": "quos",
-  "Eventmess": "est",
-  "ExtraInfo": 473,
-  "Owner": 588,
-  "UpdatedCount": 146,
-  "Registered": "2010-08-13T02:49:43.8566571+02:00",
+  "Eta": "2009-09-17T17:37:17.1192724+02:00",
+  "Eventkey": "et",
+  "Eventmess": "earum",
+  "ExtraInfo": 167,
+  "Owner": 626,
+  "UpdatedCount": 999,
+  "Registered": "2009-10-18T17:37:17.1192724+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 93,
+  "SystemEventId": 382,
   "Scope": "Database",
-  "Eta": "2019-10-10T02:49:43.8566571+02:00",
-  "Eventkey": "dolorum",
-  "Eventmess": "sed",
-  "ExtraInfo": 156,
-  "Owner": 241,
-  "UpdatedCount": 59,
-  "Registered": "2020-01-25T02:49:43.8566571+01:00",
+  "Eta": "2001-08-22T17:37:17.1192724+02:00",
+  "Eventkey": "harum",
+  "Eventmess": "accusantium",
+  "ExtraInfo": 792,
+  "Owner": 497,
+  "UpdatedCount": 199,
+  "Registered": "2012-05-26T17:37:17.1192724+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldLength": 509
     }
   }
 }

@@ -48,7 +48,7 @@ GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 358,
-    "Name": "Nikolaus, Altenwerth and Koepp",
-    "ToolTip": "Ut et sit laudantium dolorem.",
+    "Id": 943,
+    "Name": "Luettgen-Langosh",
+    "ToolTip": "Magnam fuga molestiae.",
     "Deleted": false,
-    "Rank": 521,
-    "Type": "ea",
-    "ColorBlock": 160,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2019-10-28T02:49:52.2971911+01:00",
+    "Rank": 865,
+    "Type": "tempore",
+    "ColorBlock": 519,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2004-12-29T17:37:40.0795003+01:00",
     "ChildItems": [
       {
-        "Id": 811,
-        "Name": "Quitzon Group",
-        "ToolTip": "Alias doloremque odio temporibus nobis adipisci voluptate ut.",
+        "Id": 779,
+        "Name": "Brekke Group",
+        "ToolTip": "Non itaque quibusdam est.",
         "Deleted": false,
-        "Rank": 815,
-        "Type": "earum",
-        "ColorBlock": 96,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "2012-10-26T02:49:52.2971911+02:00",
+        "Rank": 750,
+        "Type": "velit",
+        "ColorBlock": 210,
+        "IconHint": "amet",
+        "Selected": true,
+        "LastChanged": "2007-08-14T17:37:40.0795003+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "ab",
+        "ExtraInfo": "sunt",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Floyd Buckridge III",
+        "FullName": "Eliezer Tremblay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 248
+            "FieldLength": 110
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "veniam",
+    "ExtraInfo": "quas",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Anna Alva Wehner I",
+    "FullName": "Prof. Kiley Alfred Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldLength": 146
       }
     }
   }

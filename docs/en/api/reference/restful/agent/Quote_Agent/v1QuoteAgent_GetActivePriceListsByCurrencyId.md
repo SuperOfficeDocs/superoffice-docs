@@ -44,17 +44,16 @@ POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteConnectionId, CurrencyId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteConnectionId | int32 |  |
-| CurrencyId | int32 |  |
+| QuoteConnectionId | Integer |  |
+| CurrencyId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body: array
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,8 +88,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 772,
-  "CurrencyId": 27
+  "QuoteConnectionId": 673,
+  "CurrencyId": 564
 }
 ```
 
@@ -102,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 880,
-    "ERPPriceListKey": "vitae",
-    "QuoteConnectionId": 611,
-    "Name": "Larkin Inc and Sons",
-    "Description": "Seamless optimizing throughput",
-    "Currency": "cupiditate",
-    "CurrencyName": "Herman, Prosacco and Gulgowski",
-    "ValidFrom": "2000-10-24T02:49:45.0309645+02:00",
-    "ValidTo": "2003-01-16T02:49:45.0309645+01:00",
+    "PriceListId": 380,
+    "ERPPriceListKey": "deserunt",
+    "QuoteConnectionId": 332,
+    "Name": "Little-Schiller",
+    "Description": "Seamless systemic standardization",
+    "Currency": "qui",
+    "CurrencyName": "Rau Inc and Sons",
+    "ValidFrom": "2020-11-01T17:37:18.7462416+01:00",
+    "ValidTo": "1998-03-06T17:37:18.7462416+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 138
+        "FieldLength": 212
       }
     }
   }

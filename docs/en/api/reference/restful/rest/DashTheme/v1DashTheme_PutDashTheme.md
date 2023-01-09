@@ -46,21 +46,20 @@ PUT /api/v1/DashTheme/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The DashTheme to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardThemeId | int32 | Primary key |
-| Name | string | The name of this theme |
-| Config | string | The JSON clob-formatted config |
-| Rank | int32 | Rank order |
-| Client | string | Name of client(s) this theme is available to |
-| Style | string | Style value - for example 'light' or 'dark' |
+| DashboardThemeId | Integer | Primary key |
+| Name | String | The name of this theme |
+| Config | String | The JSON clob-formatted config |
+| Rank | Integer | Rank order |
+| Client | String | Name of client(s) this theme is available to |
+| Style | String | Style value - for example 'light' or 'dark' |
 
-
-## Response: 
+## Response:
 
 DashTheme updated.
 
@@ -69,7 +68,7 @@ DashTheme updated.
 | 200 | DashTheme updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: DashThemeWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body:
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -89,16 +88,16 @@ Response body:
 PUT /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 121,
-  "Name": "Jacobi, Roob and Hagenes",
-  "Config": "eum",
-  "Rank": 452,
-  "Client": "omnis",
-  "Style": "perferendis"
+  "DashboardThemeId": 617,
+  "Name": "Huels Group",
+  "Config": "consequatur",
+  "Rank": 879,
+  "Client": "ipsa",
+  "Style": "dolores"
 }
 ```
 
@@ -109,18 +108,18 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 428,
-  "Name": "Wyman-Krajcik",
-  "Config": "labore",
-  "Rank": 121,
-  "Client": "unde",
-  "Style": "enim",
+  "DashboardThemeId": 501,
+  "Name": "Jones Inc and Sons",
+  "Config": "nostrum",
+  "Rank": 125,
+  "Client": "nemo",
+  "Style": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 672
+      "FieldLength": 474
     }
   },
   "_Links": {

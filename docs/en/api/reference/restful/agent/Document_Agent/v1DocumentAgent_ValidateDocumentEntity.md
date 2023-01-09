@@ -42,16 +42,15 @@ POST /api/v1/Agents/Document/ValidateDocumentEntity?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentEntity |  | Partial DocumentEntity class associating the generated DocumentEntity with an interface. |
+| DocumentEntity | DocumentEntity | Partial DocumentEntity class associating the generated DocumentEntity with an interface. |
 
-
-## Response: object
+## Response:object
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -83,7 +82,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "harum",
-  "2": "rem"
+  "1": "explicabo",
+  "2": "delectus"
 }
 ```

@@ -38,17 +38,16 @@ POST /api/v1/Agents/BLOB/SaveProjectImage?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Description, Image 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Description | string |  |
-| Image | byte |  |
+| Description | String |  |
+| Image | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,11 +64,11 @@ Response body:
 POST /api/v1/Agents/BLOB/SaveProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended responsive groupware",
+  "Description": "Realigned web-enabled array",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

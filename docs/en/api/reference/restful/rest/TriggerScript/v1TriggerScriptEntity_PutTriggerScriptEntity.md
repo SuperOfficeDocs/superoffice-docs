@@ -12,8 +12,6 @@ PUT /api/v1/TriggerScript/{id}
 Updates the existing TriggerScriptEntity
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -50,25 +48,24 @@ PUT /api/v1/TriggerScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The TriggerScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ScreenChooserId | int32 | Primary key |
-| Name | string | Optional description of what this script is used for. |
-| ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
-| Enabled | bool | Whether this screen chooser is enabled or not |
-| UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMscript code for this event handler |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
+| ScreenChooserId | Integer | Primary key |
+| Name | String | Optional description of what this script is used for. |
+| ScreenType | String | Event id that triggers script.  See EventHandlerType enum. |
+| Enabled | Boolean | Whether this screen chooser is enabled or not |
+| UniqueIdentifier | String | Global unique identifier, accross customers/tenants |
+| Source | String | The CRMscript code for this event handler |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
 
-
-## Response: 
+## Response:
 
 TriggerScriptEntity updated.
 
@@ -77,7 +74,7 @@ TriggerScriptEntity updated.
 | 200 | TriggerScriptEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: TriggerScriptEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,7 +88,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -101,20 +98,20 @@ Response body:
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 86,
-  "Name": "Prohaska, Bahringer and Terry",
+  "ScreenChooserId": 1001,
+  "Name": "Thompson, Purdy and Harris",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "culpa",
-  "Source": "dolor",
-  "Registered": "2015-07-16T02:49:51.6710218+02:00",
-  "RegisteredAssociateId": 813,
-  "Updated": "2003-02-19T02:49:51.6710218+01:00",
-  "UpdatedAssociateId": 296
+  "Enabled": false,
+  "UniqueIdentifier": "et",
+  "Source": "libero",
+  "Registered": "2022-09-11T17:37:39.3914264+02:00",
+  "RegisteredAssociateId": 555,
+  "Updated": "2017-08-15T17:37:39.3914264+02:00",
+  "UpdatedAssociateId": 510
 }
 ```
 
@@ -125,22 +122,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 361,
-  "Name": "Dickens LLC",
+  "ScreenChooserId": 868,
+  "Name": "Doyle-Glover",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "dolores",
-  "Source": "vel",
-  "Registered": "2022-06-30T02:49:51.6710218+02:00",
-  "RegisteredAssociateId": 837,
-  "Updated": "2010-12-10T02:49:51.6710218+01:00",
-  "UpdatedAssociateId": 865,
+  "Enabled": false,
+  "UniqueIdentifier": "itaque",
+  "Source": "at",
+  "Registered": "2010-11-02T17:37:39.3924251+01:00",
+  "RegisteredAssociateId": 266,
+  "Updated": "2011-03-28T17:37:39.3924251+02:00",
+  "UpdatedAssociateId": 280,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldType": "System.String",
+      "FieldLength": 827
     }
   },
   "_Links": {

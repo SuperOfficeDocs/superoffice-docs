@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Get the current mappings for one connection/actor; connection+actor type = unique key
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/ErpSync/GetActorTypeMapping?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpConnectionId, ActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpConnectionId | int32 |  |
-| ActorType | string |  |
+| ErpConnectionId | Integer |  |
+| ActorType | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ErpSyncActorTypeMapping
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +70,7 @@ Response body:
 | FieldMappings | array | Array of individual field mappings; explicitly map to empty CrmFieldKey to indicate non-sync |
 | ActorTypeErp | string | The actor type (ERP side) |
 | ActorTypeCrm | string | The actor type (CRM side) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,11 +79,11 @@ Response body:
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 829,
+  "ErpConnectionId": 759,
   "ActorType": "Customer"
 }
 ```
@@ -98,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 215,
+  "ErpConnectionId": 708,
   "IsActive": false,
   "FieldMappings": [
     {
       "ErpFieldId": 172,
-      "CrmFieldKey": "modi",
-      "CrmDisplayName": "McGlynn, Schinner and Simonis",
-      "CrmDisplayTooltip": "aut",
-      "ErpFieldKey": "natus",
+      "CrmFieldKey": "ullam",
+      "CrmDisplayName": "Jast, Tremblay and Zemlak",
+      "CrmDisplayTooltip": "et",
+      "ErpFieldKey": "necessitatibus",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Aufderhar, Leannon and Lynch",
-      "ErpDisplayTooltip": "adipisci",
+      "ErpDisplayName": "Renner, Moore and Champlin",
+      "ErpDisplayTooltip": "libero",
       "SyncToCrm": true,
-      "SyncToErp": false,
+      "SyncToErp": true,
       "ShowInGui": true,
       "ShowInSearch": false,
-      "AlreadyMapped": true,
-      "MissingInERP": false,
-      "MissingInCRM": false,
+      "AlreadyMapped": false,
+      "MissingInERP": true,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "repellat",
+      "ListReference": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 557
+          "FieldLength": 568
         }
       }
     }
@@ -136,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 731
     }
   }
 }

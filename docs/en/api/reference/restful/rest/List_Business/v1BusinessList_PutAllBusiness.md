@@ -32,21 +32,20 @@ Update the Business list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems  
+## Request Body: listItems 
 
 All the updated Business. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The identity of the list item |
-| Name | string | The name of the list item |
-| Tooltip | string | The tooltip of the list item |
-| Deleted | bool | True if the list item is marked as deleted |
-| UdListDefinitionId | int32 | The id of the list which this list item belongs to |
-| Rank | int32 | The rank of the list item |
+| Id | Integer | The identity of the list item |
+| Name | String | The name of the list item |
+| Tooltip | String | The tooltip of the list item |
+| Deleted | Boolean | True if the list item is marked as deleted |
+| UdListDefinitionId | Integer | The id of the list which this list item belongs to |
+| Rank | Integer | The rank of the list item |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -54,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +63,7 @@ Response body: array
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 537,
-    "Name": "Renner, Morar and Batz",
-    "Tooltip": "et",
+    "Id": 9,
+    "Name": "Abbott LLC",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 692,
-    "Rank": 289
+    "UdListDefinitionId": 369,
+    "Rank": 912
   },
   {
-    "Id": 537,
-    "Name": "Renner, Morar and Batz",
-    "Tooltip": "et",
+    "Id": 9,
+    "Name": "Abbott LLC",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 692,
-    "Rank": 289
+    "UdListDefinitionId": 369,
+    "Rank": 912
   }
 ]
 ```
@@ -104,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 400,
-    "Name": "Jerde-Lang",
-    "Tooltip": "repudiandae",
-    "Deleted": false,
-    "UdListDefinitionId": 659,
-    "Rank": 86,
+    "Id": 494,
+    "Name": "Schoen LLC",
+    "Tooltip": "mollitia",
+    "Deleted": true,
+    "UdListDefinitionId": 35,
+    "Rank": 733,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldLength": 481
       }
     }
   }

@@ -44,20 +44,19 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, StartTime, EndTime, Count, DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| DocumentTemplateId | int32 |  |
+| ContactId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| DocumentTemplateId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -98,15 +97,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 109,
-  "StartTime": "2002-11-22T02:49:44.0753838+01:00",
-  "EndTime": "2000-10-30T02:49:44.0753838+01:00",
-  "Count": 743,
-  "DocumentTemplateId": 338
+  "ContactId": 905,
+  "StartTime": "2009-12-05T17:37:17.4152439+01:00",
+  "EndTime": "2016-10-21T17:37:17.4152439+02:00",
+  "Count": 491,
+  "DocumentTemplateId": 13
 }
 ```
 
@@ -118,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 580,
-    "Attention": "est",
-    "Header": "vero",
-    "Name": "Champlin, D'Amore and Robel",
-    "OurRef": "repellat",
-    "YourRef": "explicabo",
-    "Description": "Self-enabling systematic frame",
-    "DocumentTemplate": "commodi",
-    "IsPublished": true,
-    "PersonId": 239,
-    "PersonFullName": "Quinton Raul Mitchell Sr.",
-    "AssociateFullName": "Tavares Sanford",
-    "ContactId": 44,
-    "ContactName": "Monahan, Pollich and Olson",
-    "ProjectId": 348,
-    "ProjectName": "Roberts LLC",
-    "AssociateId": 713,
-    "Snum": 16,
-    "SaleId": 528,
-    "SaleName": "Trantow Group",
+    "DocumentId": 572,
+    "Attention": "impedit",
+    "Header": "et",
+    "Name": "Shanahan-Sipes",
+    "OurRef": "doloremque",
+    "YourRef": "sed",
+    "Description": "Organic attitude-oriented frame",
+    "DocumentTemplate": "eius",
+    "IsPublished": false,
+    "PersonId": 354,
+    "PersonFullName": "Kamryn Sauer",
+    "AssociateFullName": "Cesar Krajcik",
+    "ContactId": 829,
+    "ContactName": "Feest-Schumm",
+    "ProjectId": 226,
+    "ProjectName": "Spencer Inc and Sons",
+    "AssociateId": 669,
+    "Snum": 708,
+    "SaleId": 522,
+    "SaleName": "Mitchell Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldLength": 377
       }
     }
   }

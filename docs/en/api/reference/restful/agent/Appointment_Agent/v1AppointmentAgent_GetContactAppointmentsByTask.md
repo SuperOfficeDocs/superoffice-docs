@@ -44,20 +44,19 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, StartTime, EndTime, Count, TaskId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TaskId | int32 |  |
+| ContactId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TaskId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -131,11 +130,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 903,
-  "StartTime": "2019-03-02T02:49:43.2304992+01:00",
-  "EndTime": "2011-09-11T02:49:43.2304992+02:00",
-  "Count": 783,
-  "TaskId": 780
+  "ContactId": 112,
+  "StartTime": "2000-08-30T17:37:16.2422409+02:00",
+  "EndTime": "2000-04-08T17:37:16.2422409+02:00",
+  "Count": 271,
+  "TaskId": 319
 }
 ```
 
@@ -147,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 115,
-    "StartDate": "2008-11-09T02:49:43.2304992+01:00",
-    "EndDate": "2011-06-15T02:49:43.2304992+02:00",
+    "AppointmentId": 150,
+    "StartDate": "2005-05-12T17:37:16.2432408+02:00",
+    "EndDate": "1999-12-05T17:37:16.2432408+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Dr. Mohammed Welch Jr.",
-    "ContactName": "Gulgowski-O'Reilly",
-    "Description": "Upgradable attitude-oriented knowledge base",
-    "PersonFullName": "Aurelio Kessler",
-    "PersonId": 383,
-    "ContactId": 791,
-    "ProjectId": 163,
-    "ProjectName": "Runte-Tromp",
-    "IsPublished": true,
-    "AssociateId": 581,
-    "ColorIndex": 252,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "ut",
+    "AssociateFullName": "Mrs. Mustafa Beatty",
+    "ContactName": "O'Kon Group",
+    "Description": "Cross-group upward-trending ability",
+    "PersonFullName": "Chloe Little",
+    "PersonId": 105,
+    "ContactId": 556,
+    "ProjectId": 268,
+    "ProjectName": "Huel Group",
+    "IsPublished": false,
+    "AssociateId": 145,
+    "ColorIndex": 138,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 28,
-    "PriorityName": "Kuphal, Rowe and Beer",
+    "PriorityId": 101,
+    "PriorityName": "Hickle, Schaefer and Breitenberg",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2017-03-09T02:49:43.2304992+01:00",
+    "ActiveDate": "2016-02-18T17:37:16.2432408+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-04-11T02:49:43.2304992+02:00",
-    "RecurringEndDate": "2000-06-26T02:49:43.2304992+02:00",
-    "MotherId": 112,
-    "AssignedBy": 116,
-    "AssignedByFullName": "Clint Leffler",
+    "RecurringStartDate": "2019-08-21T17:37:16.2432408+02:00",
+    "RecurringEndDate": "2006-03-01T17:37:16.2432408+01:00",
+    "MotherId": 800,
+    "AssignedBy": 36,
+    "AssignedByFullName": "Maggie Heller",
     "RejectReason": "",
-    "Location": "provident",
-    "AlarmLeadTime": "sed",
-    "SaleId": 948,
-    "SaleName": "Johnson-Toy",
-    "AssociateName": "Parker, Yundt and Shanahan",
-    "CreatedDate": "2001-01-01T02:49:43.2304992+01:00",
-    "CreatedBy": "quia",
-    "CreatedByFullName": "Rosina Kiehn",
-    "CreatedByAssociateId": 451,
+    "Location": "facilis",
+    "AlarmLeadTime": "quia",
+    "SaleId": 485,
+    "SaleName": "Treutel, Hilpert and Tillman",
+    "AssociateName": "Pollich, Koelpin and Rosenbaum",
+    "CreatedDate": "2014-09-07T17:37:16.2432408+02:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Mr. Joshua Addison Roberts DVM",
+    "CreatedByAssociateId": 772,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldType": "System.String",
+        "FieldLength": 212
       }
     }
   }

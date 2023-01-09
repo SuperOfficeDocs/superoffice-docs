@@ -48,7 +48,7 @@ GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 466,
-    "Name": "Wisozk LLC",
-    "ToolTip": "Nam sint ratione et facere eligendi debitis.",
+    "Id": 48,
+    "Name": "Hilpert, Shanahan and Blick",
+    "ToolTip": "Soluta et totam sed ut est odit omnis.",
     "Deleted": false,
-    "Rank": 331,
-    "Type": "laborum",
-    "ColorBlock": 318,
-    "IconHint": "reprehenderit",
-    "Selected": false,
-    "LastChanged": "1997-05-15T02:49:52.4690756+02:00",
+    "Rank": 872,
+    "Type": "et",
+    "ColorBlock": 783,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2022-03-09T17:37:40.2875004+01:00",
     "ChildItems": [
       {
-        "Id": 809,
-        "Name": "O'Keefe, King and Kuhn",
-        "ToolTip": "Qui quibusdam ut accusamus aut quia debitis beatae.",
+        "Id": 712,
+        "Name": "Haley, Grady and Auer",
+        "ToolTip": "Modi facilis temporibus earum molestiae et distinctio.",
         "Deleted": true,
-        "Rank": 105,
-        "Type": "a",
-        "ColorBlock": 458,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2004-04-01T02:49:52.4690756+02:00",
+        "Rank": 973,
+        "Type": "amet",
+        "ColorBlock": 879,
+        "IconHint": "illo",
+        "Selected": false,
+        "LastChanged": "2022-06-15T17:37:40.2885002+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "ut",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Eldridge Farrell",
+        "FullName": "Dr. Justina Ramon Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 739
+            "FieldLength": 779
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "similique",
-    "Hidden": true,
-    "FullName": "Bennett Eleanora Steuber DVM",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "fugiat",
+    "Hidden": false,
+    "FullName": "Itzel Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldType": "System.Int32",
+        "FieldLength": 227
       }
     }
   }

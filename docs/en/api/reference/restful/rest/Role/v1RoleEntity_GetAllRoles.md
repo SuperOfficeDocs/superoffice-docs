@@ -41,7 +41,7 @@ MDO List name = 'Roles', extra='0' (roleType)
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -49,7 +49,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Smitham, Veum and D'Amore",
-    "ToolTip": "In ipsum.",
-    "Deleted": true,
-    "Rank": 181,
-    "Type": "rerum",
-    "ColorBlock": 480,
-    "IconHint": "laboriosam",
-    "Selected": false,
-    "LastChanged": "1998-02-23T02:49:51.4015667+01:00",
+    "Id": 882,
+    "Name": "Wisozk LLC",
+    "ToolTip": "Ipsam totam deserunt animi atque sequi unde ducimus.",
+    "Deleted": false,
+    "Rank": 561,
+    "Type": "nihil",
+    "ColorBlock": 303,
+    "IconHint": "pariatur",
+    "Selected": true,
+    "LastChanged": "2009-05-07T17:37:39.0563038+02:00",
     "ChildItems": [
       {
-        "Id": 399,
-        "Name": "DuBuque Inc and Sons",
-        "ToolTip": "Quaerat consectetur earum aut.",
+        "Id": 281,
+        "Name": "Champlin-Sawayn",
+        "ToolTip": "Voluptatem nam ea.",
         "Deleted": false,
-        "Rank": 152,
-        "Type": "nemo",
-        "ColorBlock": 468,
-        "IconHint": "in",
+        "Rank": 388,
+        "Type": "cupiditate",
+        "ColorBlock": 972,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2010-04-19T02:49:51.4015667+02:00",
+        "LastChanged": "2008-10-24T17:37:39.0563038+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "impedit",
-        "Hidden": false,
-        "FullName": "Percy Kelvin Green IV",
+        "ExtraInfo": "neque",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Ms. Leopoldo Imani Halvorson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 148
+            "FieldLength": 953
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "quam",
-    "Hidden": false,
-    "FullName": "Austyn Beahan II",
+    "ExtraInfo": "id",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Brayan Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 42
+        "FieldType": "System.Int32",
+        "FieldLength": 46
       }
     }
   }

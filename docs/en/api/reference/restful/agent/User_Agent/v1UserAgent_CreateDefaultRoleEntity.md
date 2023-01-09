@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RoleEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,11 +57,11 @@ Response body:
 | Rank | int32 | Sorting rank of this role in lists |
 | Created | date-time | Registered when  in UTC. |
 | UseCategories | int32 | Apply role category membership to users |
-| CreatedBy |  | Created by user |
+| CreatedBy | Associate | Created by user |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Last updated by user |
-| DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight |  |  |
+| UpdatedBy | Associate | Last updated by user |
+| DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -70,7 +70,7 @@ Response body:
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,24 +80,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 843,
-  "Name": "Skiles LLC",
-  "Tooltip": "modi",
+  "RoleId": 178,
+  "Name": "Schaefer, Stracke and Barrows",
+  "Tooltip": "voluptatem",
   "RoleType": "Anonymous",
-  "Deleted": 806,
-  "Rank": 900,
-  "Created": "2002-07-08T02:49:45.6247201+02:00",
-  "UseCategories": 188,
+  "Deleted": 776,
+  "Rank": 90,
+  "Created": "2007-03-21T17:37:19.5149767+01:00",
+  "UseCategories": 769,
   "CreatedBy": null,
-  "Updated": "1996-12-21T02:49:45.6247201+01:00",
+  "Updated": "2002-08-30T17:37:19.5159769+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 956
+      "FieldType": "System.Int32",
+      "FieldLength": 432
     }
   }
 }

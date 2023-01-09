@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Save information about a default value for an ERP field
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpSyncDefaultValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpSyncDefaultValue |  | Contains default value information for one ERP field <para /> Carrier object for ErpSyncDefaultValue. Services for the ErpSyncDefaultValue Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
+| ErpSyncDefaultValue | ErpSyncDefaultValue | Contains default value information for one ERP field <para /> Carrier object for ErpSyncDefaultValue. Services for the ErpSyncDefaultValue Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ErpSyncDefaultValue
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +74,7 @@ Response body:
 | FieldType | string | Field type |
 | ListName | string | The ERP list name, if the field has a list of values supplied by the ERP Connector |
 | Access | string | Access restrictions for the field |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,7 +83,7 @@ Response body:
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 988,
-  "DefaultValue": "est",
-  "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "numquam",
-  "PromptUser": true,
+  "ErpFieldId": 82,
+  "DefaultValue": "qui",
+  "HasFirstSyncDefaultValue": true,
+  "FirstSyncDefaultValue": "eveniet",
+  "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "sequi",
+  "ErpFieldKey": "omnis",
   "FieldType": "Checkbox",
-  "ListName": "Stiedemann, Hauck and Nikolaus",
+  "ListName": "Schmitt-Spencer",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldType": "System.String",
+      "FieldLength": 572
     }
   }
 }

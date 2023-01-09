@@ -38,22 +38,21 @@ POST /api/v1/Agents/Ticket/SendTicketMessage?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TicketMessageEntityId, To, Cc, Bcc, Subject, ReplyTemplateId, GdprSource 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketMessageEntityId | int32 |  |
-| To | array |  |
-| Cc | array |  |
-| Bcc | array |  |
-| Subject | string |  |
-| ReplyTemplateId | int32 |  |
-| GdprSource | string |  |
+| TicketMessageEntityId | Integer |  |
+| To | Array |  |
+| Cc | Array |  |
+| Bcc | Array |  |
+| Subject | String |  |
+| ReplyTemplateId | Integer |  |
+| GdprSource | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -61,7 +60,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -70,26 +69,26 @@ Response body:
 POST /api/v1/Agents/Ticket/SendTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 780,
+  "TicketMessageEntityId": 291,
   "To": [
-    "illum",
-    "autem"
+    "dolores",
+    "sed"
   ],
   "Cc": [
-    "maiores",
-    "aut"
+    "officia",
+    "ut"
   ],
   "Bcc": [
-    "similique",
-    "et"
+    "corrupti",
+    "ad"
   ],
-  "Subject": "rerum",
-  "ReplyTemplateId": 421,
-  "GdprSource": "enim"
+  "Subject": "error",
+  "ReplyTemplateId": 926,
+  "GdprSource": "optio"
 }
 ```
 

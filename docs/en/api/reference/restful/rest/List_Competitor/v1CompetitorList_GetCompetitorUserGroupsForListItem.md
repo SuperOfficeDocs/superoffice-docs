@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 121,
-    "Name": "Grant LLC",
-    "ToolTip": "Incidunt voluptatum.",
+    "Id": 560,
+    "Name": "Parisian-Rempel",
+    "ToolTip": "Earum pariatur ea.",
     "Deleted": false,
-    "Rank": 411,
-    "Type": "eaque",
-    "ColorBlock": 142,
-    "IconHint": "assumenda",
-    "Selected": true,
-    "LastChanged": "1996-04-04T02:49:51.9221933+02:00",
+    "Rank": 219,
+    "Type": "placeat",
+    "ColorBlock": 106,
+    "IconHint": "earum",
+    "Selected": false,
+    "LastChanged": "2022-01-31T17:37:39.8755003+01:00",
     "ChildItems": [
       {
-        "Id": 745,
-        "Name": "Boyer, Bartoletti and Sawayn",
-        "ToolTip": "Deleniti quidem nesciunt repudiandae fugit.",
-        "Deleted": false,
-        "Rank": 435,
-        "Type": "dolores",
-        "ColorBlock": 265,
-        "IconHint": "voluptas",
+        "Id": 216,
+        "Name": "Stanton-Daniel",
+        "ToolTip": "Aut voluptatum nisi repellendus.",
+        "Deleted": true,
+        "Rank": 701,
+        "Type": "cupiditate",
+        "ColorBlock": 520,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2018-01-30T02:49:51.9221933+01:00",
+        "LastChanged": "2014-04-17T17:37:39.8755003+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "minus",
+        "ExtraInfo": "et",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Dr. Mustafa Hills",
+        "FullName": "Griffin McClure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldType": "System.String",
+            "FieldLength": 830
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "ut",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Penelope Sauer DVM",
+    "FullName": "Freddie Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldType": "System.String",
+        "FieldLength": 21
       }
     }
   }

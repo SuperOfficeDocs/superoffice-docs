@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Nolan, Kling and Torphy",
-    "ToolTip": "Odio distinctio ut sit et molestiae facere nobis.",
+    "Id": 388,
+    "Name": "Reichert Inc and Sons",
+    "ToolTip": "Est cumque omnis iste laudantium dolor magnam eligendi.",
     "Deleted": false,
-    "Rank": 490,
-    "Type": "totam",
-    "ColorBlock": 274,
-    "IconHint": "vero",
+    "Rank": 627,
+    "Type": "minima",
+    "ColorBlock": 362,
+    "IconHint": "numquam",
     "Selected": false,
-    "LastChanged": "2009-06-03T02:49:51.9534435+02:00",
+    "LastChanged": "2015-03-08T17:37:39.9115006+01:00",
     "ChildItems": [
       {
-        "Id": 6,
-        "Name": "Gerhold LLC",
-        "ToolTip": "Non ipsum voluptas inventore.",
-        "Deleted": false,
-        "Rank": 839,
-        "Type": "eos",
-        "ColorBlock": 540,
-        "IconHint": "tenetur",
+        "Id": 601,
+        "Name": "Murazik, Harber and West",
+        "ToolTip": "Inventore dolor.",
+        "Deleted": true,
+        "Rank": 530,
+        "Type": "cumque",
+        "ColorBlock": 593,
+        "IconHint": "ducimus",
         "Selected": true,
-        "LastChanged": "2013-08-20T02:49:51.9534435+02:00",
+        "LastChanged": "2001-02-03T17:37:39.9115006+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "odio",
+        "StyleHint": "magnam",
         "Hidden": false,
-        "FullName": "Durward Rau",
+        "FullName": "Jeffrey Runte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 824
+            "FieldType": "System.Int32",
+            "FieldLength": 574
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "non",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Anabel Maxime Batz V",
+    "FullName": "Quinton Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldType": "System.String",
+        "FieldLength": 471
       }
     }
   }

@@ -38,7 +38,7 @@ The actual bitmap is accessible via /api/Services80/person/123/image/content.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BlobEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,10 +60,10 @@ Response body:
 | OriginalSize | int32 | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -72,7 +72,7 @@ Response body:
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 14 Sep 2021 02:49:51 G9T
+Last-Modified: Sat, 26 Oct 2002 17:37:38 G10T
 
 {
-  "BlobId": 790,
-  "BlobSize": 472,
-  "Description": "Phased executive application",
-  "ExtraInfo": "cum",
+  "BlobId": 502,
+  "BlobSize": 363,
+  "Description": "Networked bottom-line hierarchy",
+  "ExtraInfo": "corporis",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "aut",
-  "OriginalSize": 18,
-  "CreatedDate": "2017-03-22T02:49:51.3078143+01:00",
-  "UpdatedDate": "2021-09-14T02:49:51.3078143+02:00",
+  "MimeType": "et",
+  "OriginalSize": 782,
+  "CreatedDate": "2001-07-27T17:37:38.9642753+02:00",
+  "UpdatedDate": "2002-10-26T17:37:38.9642753+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "id",
+  "ConceptualType": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 304
+      "FieldType": "System.Int32",
+      "FieldLength": 712
     }
   }
 }

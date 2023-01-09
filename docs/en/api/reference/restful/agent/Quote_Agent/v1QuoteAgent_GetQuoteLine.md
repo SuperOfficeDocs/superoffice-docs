@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/GetQuoteLine?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteLineId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLineId | int32 |  |
+| QuoteLineId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteLine
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -112,7 +111,7 @@ Response body:
 | ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -121,11 +120,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 711
+  "QuoteLineId": 790
 }
 ```
 
@@ -136,88 +135,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 625,
-  "ERPQuoteLineKey": "et",
-  "QuoteAlternativeId": 840,
-  "ERPProductKey": "sed",
+  "QuoteLineId": 377,
+  "ERPQuoteLineKey": "sit",
+  "QuoteAlternativeId": 577,
+  "ERPProductKey": "pariatur",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 19133.07,
-  "DeliveredQuantity": 3450.534,
-  "Rank": 449,
-  "Name": "Hansen, Blanda and Langosh",
-  "Description": "Monitored client-driven superstructure",
-  "Code": "sint",
-  "QuantityUnit": "sapiente",
-  "PriceUnit": "similique",
-  "ItemNumber": "732660",
+  "Quantity": 29171.272,
+  "DeliveredQuantity": 19753.602,
+  "Rank": 166,
+  "Name": "Torp LLC",
+  "Description": "Vision-oriented foreground migration",
+  "Code": "voluptatem",
+  "QuantityUnit": "sunt",
+  "PriceUnit": "voluptas",
+  "ItemNumber": "256192",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nihil",
-  "ProductTypeKey": "sit",
-  "Supplier": "necessitatibus",
-  "SupplierCode": "et",
-  "Thumbnail": "doloremque",
-  "VATInfo": "laborum",
-  "VAT": 29099.19,
-  "UnitCost": 1071.828,
-  "UnitMinimumPrice": 17352.958,
-  "UnitListPrice": 19380.656,
+  "ProductFamilyKey": "sint",
+  "ProductTypeKey": "voluptates",
+  "Supplier": "assumenda",
+  "SupplierCode": "est",
+  "Thumbnail": "reprehenderit",
+  "VATInfo": "aut",
+  "VAT": 5694.478,
+  "UnitCost": 26250.384,
+  "UnitMinimumPrice": 16641.54,
+  "UnitListPrice": 28441.05,
   "ExtraInfo": [
     {
-      "Name": "Hansen Group",
-      "Value": "dicta",
+      "Name": "Durgan LLC",
+      "Value": "quis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldLength": 52
         }
       }
     },
     {
-      "Name": "Hansen Group",
-      "Value": "dicta",
+      "Name": "Durgan LLC",
+      "Value": "quis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldLength": 52
         }
       }
     }
   ],
-  "RawExtraInfo": "magni",
+  "RawExtraInfo": "consequatur",
   "IsSubscription": false,
-  "SubscriptionUnit": "architecto",
-  "SubscriptionQuantity": 18822.804,
-  "SubscriptionStart": "2001-01-28T02:49:45.0622144+01:00",
-  "ERPDiscountPercent": 23674.236,
-  "ERPDiscountAmount": 20377.268,
-  "DiscountPercent": 26704.814,
-  "DiscountAmount": 28886.077999999998,
+  "SubscriptionUnit": "neque",
+  "SubscriptionQuantity": 7255.21,
+  "SubscriptionStart": "2009-06-29T17:37:18.7732406+02:00",
+  "ERPDiscountPercent": 22846.86,
+  "ERPDiscountAmount": 3757.6659999999997,
+  "DiscountPercent": 16481.706,
+  "DiscountAmount": 24150.604,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 27284.604,
-  "EarningAmount": 1250.466,
-  "SubTotal": 29447.064,
-  "TotalPrice": 21571.322,
-  "Rights": "voluptatem",
-  "Rule": "qui",
-  "ExtraField1": "reprehenderit",
-  "ExtraField2": "qui",
-  "ExtraField3": "sit",
-  "ExtraField4": "recusandae",
-  "ExtraField5": "eum",
+  "EarningPercent": 13181.604,
+  "EarningAmount": 29033.376,
+  "SubTotal": 22213.791999999998,
+  "TotalPrice": 25817.892,
+  "Rights": "dolor",
+  "Rule": "adipisci",
+  "ExtraField1": "quos",
+  "ExtraField2": "sunt",
+  "ExtraField3": "perspiciatis",
+  "ExtraField4": "doloremque",
+  "ExtraField5": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 840
     }
   }
 }

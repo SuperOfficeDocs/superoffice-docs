@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=nulla
-GET /api/v1/ForeignApp?$top=464
-GET /api/v1/ForeignApp?$skip=167
+GET /api/v1/ForeignApp?$entities=maiores
+GET /api/v1/ForeignApp?$top=247
+GET /api/v1/ForeignApp?$skip=397
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=illum
+GET /api/v1/ForeignApp?$context=aspernatur
 GET /api/v1/ForeignApp?$format=JSON
 GET /api/v1/ForeignApp?$jsonSafe=False
 GET /api/v1/ForeignApp?$output=Display
@@ -96,7 +95,7 @@ GET /api/v1/ForeignApp?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body:
 GET /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quia",
+  "odata.nextLink": "iure",
   "value": [
     {
-      "PrimaryKey": 9735,
-      "EntityName": "person",
-      "personId": 9735,
-      "fullName": "Sister Marco Hodkiewicz PhD"
+      "PrimaryKey": 1124,
+      "EntityName": "sale",
+      "saleId": 1124,
+      "contactId": 145,
+      "name": "Hettinger LLC"
     },
     {
-      "PrimaryKey": 6600,
-      "EntityName": "person",
-      "personId": 6600,
-      "fullName": "Mr. Chaz Stephany Larkin"
+      "PrimaryKey": 1959,
+      "EntityName": "sale",
+      "saleId": 1959,
+      "contactId": 467,
+      "name": "Grant, Simonis and Quitzon"
     }
   ]
 }

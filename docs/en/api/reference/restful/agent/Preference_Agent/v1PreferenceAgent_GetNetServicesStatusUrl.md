@@ -44,7 +44,7 @@ POST /api/v1/Agents/Preference/GetNetServicesStatusUrl?$select=name,department,c
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: string
+## Response:string
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -61,7 +61,7 @@ Response body: string
 POST /api/v1/Agents/Preference/GetNetServicesStatusUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response

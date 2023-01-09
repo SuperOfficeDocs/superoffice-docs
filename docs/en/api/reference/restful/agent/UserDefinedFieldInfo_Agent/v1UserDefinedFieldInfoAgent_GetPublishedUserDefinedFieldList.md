@@ -42,16 +42,15 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList?$selec
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OwnerType | string |  |
+| OwnerType | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,7 +96,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -106,7 +105,7 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +121,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 385,
-    "ColumnId": 853,
-    "FieldDefault": "facere",
-    "FieldHeight": 72,
-    "FieldLabel": "corrupti",
-    "FieldLeft": 397,
-    "FieldTop": 152,
+    "UDefFieldId": 206,
+    "ColumnId": 52,
+    "FieldDefault": "fuga",
+    "FieldHeight": 188,
+    "FieldLabel": "culpa",
+    "FieldLeft": 745,
+    "FieldTop": 192,
     "FieldType": "Checkbox",
-    "FieldWidth": 212,
-    "FormatMask": "numquam",
-    "HideLabel": true,
+    "FieldWidth": 565,
+    "FormatMask": "ut",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 574,
-    "LabelLeft": 695,
-    "LabelTop": 527,
-    "LabelWidth": 715,
-    "LastVersionId": 806,
-    "ListTableId": 440,
-    "IsMandatory": true,
+    "LabelHeight": 36,
+    "LabelLeft": 1002,
+    "LabelTop": 216,
+    "LabelWidth": 700,
+    "LastVersionId": 165,
+    "ListTableId": 620,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 45,
-    "ProgId": "fugiat",
+    "Page1LineNo": 430,
+    "ProgId": "dolores",
     "IsReadOnly": false,
-    "ShortLabel": "qui",
-    "TabOrder": 707,
-    "TextLength": 199,
-    "Tooltip": "commodi",
-    "UdefIdentity": 188,
-    "UDListDefinitionId": 824,
+    "ShortLabel": "enim",
+    "TabOrder": 660,
+    "TextLength": 293,
+    "Tooltip": "voluptatem",
+    "UdefIdentity": 443,
+    "UDListDefinitionId": 224,
     "Justification": "Center",
-    "Version": 803,
-    "TemplateVariableName": "Swift, Lakin and Stracke",
-    "HasBeenPublished": true,
-    "MdoListName": "Glover, Bruen and Oberbrunner",
+    "Version": 355,
+    "TemplateVariableName": "Hermann Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Legros Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldLength": 611
       }
     }
   }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/License/AddLicenseFromFile?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 FileContent 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| FileContent | string |  |
+| FileContent | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,14 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Reason | string |  |
 | CanBeActivated | bool |  |
-| New |  |  |
-| Current |  |  |
+| New | TableRight |  |
+| Current | TableRight |  |
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
@@ -80,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "blanditiis"
+  "FileContent": "reiciendis"
 }
 ```
 
@@ -99,14 +98,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 19,
-      "NumberOfLicensesFree": 279,
-      "NumberOfLicensesAdded": 639,
-      "NumberOfLicensesNewTotal": 912,
-      "NumberOfLicensesNewFree": 688,
-      "NumberOfLicensesTotal": 502
+      "NumberOfLicensesInUse": 655,
+      "NumberOfLicensesFree": 651,
+      "NumberOfLicensesAdded": 175,
+      "NumberOfLicensesNewTotal": 581,
+      "NumberOfLicensesNewFree": 452,
+      "NumberOfLicensesTotal": 156
     }
   ],
-  "AccumulatedNextCheckDate": "2017-07-04T02:49:44.576671+02:00"
+  "AccumulatedNextCheckDate": "1997-08-13T17:37:18.1362418+02:00"
 }
 ```

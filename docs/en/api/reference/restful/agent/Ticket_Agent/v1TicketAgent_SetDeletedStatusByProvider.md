@@ -44,17 +44,16 @@ POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Restrictions | array |  |
+| ProviderName | String |  |
+| Restrictions | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 
 ## Sample request
@@ -71,32 +70,32 @@ Response body: array
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Russel-Roob",
+  "ProviderName": "Little-Schiller",
   "Restrictions": [
     {
-      "Name": "Goodwin-Gorczany",
-      "Operator": "doloremque",
+      "Name": "Wehner, Wiza and Barton",
+      "Operator": "aspernatur",
       "Values": [
-        "atque",
-        "error"
+        "fugiat",
+        "vel"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "recusandae"
+        "cupiditate",
+        "sequi"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 183,
+      "InterParenthesis": 953,
       "InterOperator": "And",
-      "UniqueHash": 923
+      "UniqueHash": 258
     }
   ]
 }
@@ -109,7 +108,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  292,
-  438
+  796,
+  5
 ]
 ```

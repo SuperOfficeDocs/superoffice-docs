@@ -42,19 +42,18 @@ POST /api/v1/Agents/MDO/GetList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name, ForceFlatList, AdditionalInfo, OnlyHistory 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| ForceFlatList | bool |  |
-| AdditionalInfo | string |  |
-| OnlyHistory | bool |  |
+| Name | String |  |
+| ForceFlatList | Boolean |  |
+| AdditionalInfo | String |  |
+| OnlyHistory | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,9 +90,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cartwright Group",
+  "Name": "Kiehn, Hills and Medhurst",
   "ForceFlatList": false,
-  "AdditionalInfo": "non",
+  "AdditionalInfo": "dolor",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Turner Inc and Sons",
-    "ToolTip": "Et voluptatem nihil nulla impedit porro.",
+    "Id": 677,
+    "Name": "Waters-Kunde",
+    "ToolTip": "Placeat optio neque nostrum.",
     "Deleted": false,
-    "Rank": 14,
-    "Type": "nihil",
+    "Rank": 905,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Beier-Ondricka",
-        "ToolTip": "Perferendis sit sit.",
-        "Deleted": false,
-        "Rank": 642,
-        "Type": "nesciunt",
+        "Id": 687,
+        "Name": "Ankunding-Turner",
+        "ToolTip": "Nisi praesentium at ipsum.",
+        "Deleted": true,
+        "Rank": 536,
+        "Type": "cum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quaerat",
-        "ColorBlock": 342,
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "rerum",
-        "FullName": "Karlie Sanford",
+        "IconHint": "tempora",
+        "ColorBlock": 46,
+        "ExtraInfo": "tempore",
+        "StyleHint": "quo",
+        "FullName": "Dr. Lorenza Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 678
+            "FieldLength": 79
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 349,
-    "ExtraInfo": "ex",
-    "StyleHint": "reiciendis",
-    "FullName": "Joana Robel V",
+    "IconHint": "voluptas",
+    "ColorBlock": 393,
+    "ExtraInfo": "temporibus",
+    "StyleHint": "blanditiis",
+    "FullName": "Alexa Herman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldType": "System.String",
+        "FieldLength": 982
       }
     }
   }

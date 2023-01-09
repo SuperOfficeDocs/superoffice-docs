@@ -42,7 +42,7 @@ POST /api/v1/Agents/ViewState/GetHistories?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +61,7 @@ Response body: array
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -70,7 +70,7 @@ Response body: array
 POST /api/v1/Agents/ViewState/GetHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 872,
-    "Id": 768,
-    "HistoryName": "Orn Group",
-    "HistoryId": 265,
-    "AssociateId": 958,
-    "Name": "Lynch, Rippin and Robel",
-    "ItemInfo": "ullam",
+    "Rank": 382,
+    "Id": 191,
+    "HistoryName": "Zboncak Inc and Sons",
+    "HistoryId": 240,
+    "AssociateId": 469,
+    "Name": "Marks, Jenkins and Trantow",
+    "ItemInfo": "officiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 46
+        "FieldLength": 253
       }
     }
   }

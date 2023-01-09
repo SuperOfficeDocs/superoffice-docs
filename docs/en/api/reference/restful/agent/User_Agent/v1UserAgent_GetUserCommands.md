@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetUserCommands
 Get registered custom commands for User
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -36,16 +34,15 @@ Get registered custom commands for User
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 The User entity. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| User |  | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| User | User | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -53,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +60,7 @@ Response body: array
 | ToolTip | string | Tooltip to be used in the GUI |
 | Actions | string | The actions to call when invoked |
 | ActionData | string | The data to be used when the command is invoked |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bruen-O'Conner",
-    "DisplayName": "Daugherty-Lockman",
-    "Description": "Fundamental non-volatile definition",
-    "ToolTip": "Repellendus fugiat magnam ullam explicabo.",
+    "Name": "Lakin, Volkman and Ferry",
+    "DisplayName": "Lubowitz Inc and Sons",
+    "Description": "Extended human-resource adapter",
+    "ToolTip": "Voluptas autem.",
     "Actions": "Implicit",
-    "ActionData": "iure",
+    "ActionData": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 920
       }
     }
   }

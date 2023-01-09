@@ -25,7 +25,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=453
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=513
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,13 +52,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 | Primary key |
-| UpdatedBy |  | The person that last updated the appointment. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | Attention | string | Attention/salutation |
 | Header | string | Visible document name |
 | Name | string | File name |
@@ -67,11 +67,11 @@ Response body:
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| DocumentTemplate |  | The template type of the document.  <para>Use MDO List name "doctmpl" to get list items.</para> |
-| Person |  | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
-| Associate |  | The owner of the document - the associate whose checklist the document is in.  <para>Use MDO List name "associate" to get list items.</para> |
-| Contact |  | The contact associated with the document. It may also be null if no contact is associated with the document.  <para>Use MDO List name "contact" to get list items.</para> |
-| Project |  | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| DocumentTemplate | DocumentTemplate | The template type of the document.  <para>Use MDO List name "doctmpl" to get list items.</para> |
+| Person | Person | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
+| Associate | Associate | The owner of the document - the associate whose checklist the document is in.  <para>Use MDO List name "associate" to get list items.</para> |
+| Contact | Contact | The contact associated with the document. It may also be null if no contact is associated with the document.  <para>Use MDO List name "contact" to get list items.</para> |
+| Project | Project | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
 | Date | date-time | date + start time planned |
 | ExternalRef | string | External reference for document plugin to resolve document identity (Notes ID, e-mail message ID, whatever) |
 | Completed | string | Document Completed state. This is the part of the Status property. |
@@ -79,7 +79,7 @@ Response body:
 | Type | string | Is this a normal document or a mail-merge or report? |
 | Links | array | List of all elements linked to the document. |
 | LockSemantics | string |  |
-| Sale |  | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <para>Use MDO List name "sale" to get list items.</para> |
+| Sale | Sale | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedDocumentId | int32 | Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link) |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.DocumentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -90,7 +90,7 @@ Response body:
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -99,7 +99,7 @@ Response body:
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 947,
+  "DocumentId": 963,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dolores",
-  "Header": "consequatur",
-  "Name": "Larson-Gerhold",
-  "OurRef": "voluptas",
-  "YourRef": "labore",
-  "CreatedDate": "2017-08-18T02:49:44.1378852+02:00",
-  "UpdatedDate": "2021-06-04T02:49:44.1378852+02:00",
-  "Description": "Secured dynamic knowledge user",
+  "Attention": "praesentium",
+  "Header": "quia",
+  "Name": "Corkery, Trantow and Dooley",
+  "OurRef": "quod",
+  "YourRef": "fuga",
+  "CreatedDate": "2022-05-07T17:37:17.4955106+02:00",
+  "UpdatedDate": "2017-09-27T17:37:17.4955106+02:00",
+  "Description": "User-centric scalable benchmark",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-07-26T02:49:44.1378852+02:00",
-  "ExternalRef": "doloribus",
+  "Date": "2019-01-23T17:37:17.4982407+01:00",
+  "ExternalRef": "quo",
   "Completed": "Completed",
-  "ActiveLinks": 465,
+  "ActiveLinks": 654,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Metz LLC",
-      "Id": 752,
-      "Description": "Profound impactful interface",
-      "ExtraInfo": "nobis",
-      "LinkId": 162,
+      "EntityName": "Brekke-Lesch",
+      "Id": 388,
+      "Description": "Ameliorated zero tolerance hub",
+      "ExtraInfo": "aut",
+      "LinkId": 387,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 269
+          "FieldType": "System.String",
+          "FieldLength": 442
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 27,
-  "Snum": 573,
+  "SuggestedDocumentId": 365,
+  "Snum": 683,
   "UserDefinedFields": {
-    "SuperOffice:1": "374686550",
-    "SuperOffice:2": "548635522"
+    "SuperOffice:1": "Ms. Pink Jerde",
+    "SuperOffice:2": "1779580188"
   },
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "doloribus"
+    "ExtraFields1": "nemo",
+    "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "quia",
+    "CustomFields2": "laudantium"
   },
-  "PublishEventDate": "2016-10-04T02:49:44.1378852+02:00",
-  "PublishTo": "2021-10-03T02:49:44.1378852+02:00",
-  "PublishFrom": "2018-07-09T02:49:44.1378852+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-04-24T17:37:17.4992432+02:00",
+  "PublishTo": "2020-07-25T17:37:17.4992432+02:00",
+  "PublishFrom": "2001-01-02T17:37:17.4992432+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 521,
+      "VisibleId": 663,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 370
+          "FieldLength": 90
         }
       }
     },
     {
-      "VisibleId": 521,
+      "VisibleId": 663,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 370
+          "FieldLength": 90
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 136
     }
   }
 }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/Replication/GetArea
 Gets a Area object.
 
 
-
-
 ## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
 
@@ -29,7 +27,7 @@ Gets a Area object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetArea?areaId=136
+POST /api/v1/Agents/Replication/GetArea?areaId=332
 POST /api/v1/Agents/Replication/GetArea?$select=name,department,category/id
 ```
 
@@ -48,7 +46,7 @@ POST /api/v1/Agents/Replication/GetArea?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Area
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +64,7 @@ Response body:
 | NumberOfUsers | int32 |  |
 | NumberOfLogins | int32 |  |
 | FreetextEnabeled | bool |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,7 +73,7 @@ Response body:
 POST /api/v1/Agents/Replication/GetArea
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,18 +83,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AreaId": 544,
-  "Name": "Collier, Bergnaum and Kertzmann",
-  "MaxDataAge": 829,
-  "NumberOfUsers": 598,
-  "NumberOfLogins": 394,
-  "FreetextEnabeled": false,
+  "AreaId": 142,
+  "Name": "Herman LLC",
+  "MaxDataAge": 129,
+  "NumberOfUsers": 728,
+  "NumberOfLogins": 998,
+  "FreetextEnabeled": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldType": "System.String",
+      "FieldLength": 129
     }
   }
 }

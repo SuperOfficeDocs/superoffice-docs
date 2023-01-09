@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetCurrentAccountId
 Get current accountId (last logged into should normally be current) for logged in associate
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,7 +44,7 @@ POST /api/v1/Agents/EMail/GetCurrentAccountId?$select=name,department,category/i
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: int32
+## Response:int32
 
 OK
 
@@ -54,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -63,7 +61,7 @@ Response body: int32
 POST /api/v1/Agents/EMail/GetCurrentAccountId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,5 +70,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-562
+347
 ```

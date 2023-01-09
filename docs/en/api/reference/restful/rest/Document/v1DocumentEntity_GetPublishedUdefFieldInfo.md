@@ -36,7 +36,7 @@ Get a published DocumentEntity user-defined field's details based on the prog-id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 DocumentEntity found.
 
@@ -45,7 +45,7 @@ DocumentEntity found.
 | 200 | DocumentEntity found. |
 | 404 | DocumentEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +83,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,46 +102,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 250,
-  "ColumnId": 73,
-  "FieldDefault": "distinctio",
-  "FieldHeight": 809,
-  "FieldLabel": "ut",
-  "FieldLeft": 378,
-  "FieldTop": 730,
+  "UDefFieldId": 676,
+  "ColumnId": 165,
+  "FieldDefault": "tenetur",
+  "FieldHeight": 276,
+  "FieldLabel": "cumque",
+  "FieldLeft": 632,
+  "FieldTop": 879,
   "FieldType": "Checkbox",
-  "FieldWidth": 934,
-  "FormatMask": "laboriosam",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 519,
-  "LabelLeft": 737,
-  "LabelTop": 873,
-  "LabelWidth": 209,
-  "LastVersionId": 747,
-  "ListTableId": 837,
-  "IsMandatory": true,
+  "FieldWidth": 473,
+  "FormatMask": "provident",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 121,
+  "LabelLeft": 453,
+  "LabelTop": 894,
+  "LabelWidth": 849,
+  "LastVersionId": 653,
+  "ListTableId": 691,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 533,
-  "ProgId": "magnam",
+  "Page1LineNo": 739,
+  "ProgId": "atque",
   "IsReadOnly": false,
-  "ShortLabel": "maxime",
-  "TabOrder": 304,
-  "TextLength": 63,
-  "Tooltip": "pariatur",
-  "UdefIdentity": 776,
-  "UDListDefinitionId": 664,
+  "ShortLabel": "accusantium",
+  "TabOrder": 857,
+  "TextLength": 652,
+  "Tooltip": "ut",
+  "UdefIdentity": 472,
+  "UDListDefinitionId": 750,
   "Justification": "Center",
-  "Version": 56,
-  "TemplateVariableName": "Denesik LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Sawayn Group",
+  "Version": 805,
+  "TemplateVariableName": "Lemke, Jerde and Ratke",
+  "HasBeenPublished": false,
+  "MdoListName": "Heathcote Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldLength": 668
     }
   }
 }

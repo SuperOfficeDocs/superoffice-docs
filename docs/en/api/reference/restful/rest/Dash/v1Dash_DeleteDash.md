@@ -34,7 +34,7 @@ Calls the Dash agent service DeleteDash.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 Dash deleted.
 
@@ -42,7 +42,7 @@ Dash deleted.
 |----------------|-------------|
 | 204 | Dash deleted. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request

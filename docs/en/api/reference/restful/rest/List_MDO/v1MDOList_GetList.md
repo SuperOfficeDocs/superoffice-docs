@@ -31,8 +31,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=debitis
-GET /api/v1/MDOList/{listname}?query=explicabo
+GET /api/v1/MDOList/{listname}?additional=quo
+GET /api/v1/MDOList/{listname}?query=non
 ```
 
 
@@ -50,7 +50,7 @@ GET /api/v1/MDOList/{listname}?query=explicabo
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -58,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +74,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +83,7 @@ Response body: array
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,50 +94,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Franecki, Simonis and Vandervort",
-    "ToolTip": "Voluptatem fuga corporis minus dolores dolores quod culpa.",
+    "Id": 102,
+    "Name": "Gerlach-Leannon",
+    "ToolTip": "Sed vero officia fugit voluptatem temporibus.",
     "Deleted": true,
-    "Rank": 7,
-    "Type": "consequatur",
+    "Rank": 178,
+    "Type": "ipsa",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "Beahan Inc and Sons",
-        "ToolTip": "At eum odio consequuntur minima at.",
+        "Id": 571,
+        "Name": "King Group",
+        "ToolTip": "At dolorum ut ut dolorem.",
         "Deleted": true,
-        "Rank": 345,
+        "Rank": 313,
         "Type": "amet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 887,
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "voluptatem",
-        "FullName": "Alexandria Lang",
+        "IconHint": "aliquam",
+        "ColorBlock": 970,
+        "ExtraInfo": "cum",
+        "StyleHint": "laboriosam",
+        "FullName": "Ross Paucek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 450
+            "FieldLength": 478
           }
         }
       }
     ],
-    "IconHint": "corporis",
-    "ColorBlock": 627,
-    "ExtraInfo": "enim",
-    "StyleHint": "eos",
-    "FullName": "Hester Cristopher Adams V",
+    "IconHint": "cupiditate",
+    "ColorBlock": 525,
+    "ExtraInfo": "quis",
+    "StyleHint": "fugit",
+    "FullName": "Kenny Mayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldType": "System.String",
+        "FieldLength": 888
       }
     }
   }

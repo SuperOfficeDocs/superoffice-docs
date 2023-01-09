@@ -46,7 +46,7 @@ GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -54,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +70,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,7 +79,7 @@ Response body: array
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 601,
-    "Name": "Ledner, Bahringer and Sipes",
-    "ToolTip": "Delectus et odio sit.",
+    "Id": 8,
+    "Name": "Carter Inc and Sons",
+    "ToolTip": "Qui sed sunt harum aliquid.",
     "Deleted": false,
-    "Rank": 562,
-    "Type": "magni",
+    "Rank": 626,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 979,
-        "Name": "Gorczany-Vandervort",
-        "ToolTip": "Provident harum.",
-        "Deleted": true,
-        "Rank": 219,
-        "Type": "voluptates",
+        "Id": 635,
+        "Name": "Labadie-Macejkovic",
+        "ToolTip": "Sit saepe minus ea alias mollitia maxime.",
+        "Deleted": false,
+        "Rank": 372,
+        "Type": "ex",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 223,
-        "ExtraInfo": "repellat",
-        "StyleHint": "rerum",
-        "FullName": "Lorenz Fay",
+        "IconHint": "aut",
+        "ColorBlock": 884,
+        "ExtraInfo": "sed",
+        "StyleHint": "omnis",
+        "FullName": "Mr. Rebekah Gislason",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 699
+            "FieldType": "System.Int32",
+            "FieldLength": 809
           }
         }
       }
     ],
-    "IconHint": "incidunt",
-    "ColorBlock": 11,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "aut",
-    "FullName": "Mrs. Chelsie Clare Howell Jr.",
+    "IconHint": "adipisci",
+    "ColorBlock": 992,
+    "ExtraInfo": "ea",
+    "StyleHint": "aperiam",
+    "FullName": "Kallie Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 237
       }
     }
   }

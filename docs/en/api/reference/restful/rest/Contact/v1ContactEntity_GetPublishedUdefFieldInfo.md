@@ -36,7 +36,7 @@ Get a published ContactEntity user-defined field's details based on the prog-id 
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ContactEntity found.
 
@@ -45,7 +45,7 @@ ContactEntity found.
 | 200 | ContactEntity found. |
 | 404 | ContactEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +83,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,46 +102,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 674,
-  "ColumnId": 821,
-  "FieldDefault": "voluptate",
-  "FieldHeight": 853,
-  "FieldLabel": "optio",
-  "FieldLeft": 753,
-  "FieldTop": 843,
+  "UDefFieldId": 5,
+  "ColumnId": 815,
+  "FieldDefault": "quod",
+  "FieldHeight": 622,
+  "FieldLabel": "eos",
+  "FieldLeft": 65,
+  "FieldTop": 525,
   "FieldType": "Checkbox",
-  "FieldWidth": 506,
-  "FormatMask": "modi",
+  "FieldWidth": 12,
+  "FormatMask": "distinctio",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 481,
-  "LabelLeft": 901,
-  "LabelTop": 561,
-  "LabelWidth": 613,
-  "LastVersionId": 920,
-  "ListTableId": 136,
+  "LabelHeight": 812,
+  "LabelLeft": 701,
+  "LabelTop": 8,
+  "LabelWidth": 918,
+  "LastVersionId": 578,
+  "ListTableId": 209,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 669,
-  "ProgId": "atque",
-  "IsReadOnly": false,
-  "ShortLabel": "perferendis",
-  "TabOrder": 21,
-  "TextLength": 878,
-  "Tooltip": "expedita",
-  "UdefIdentity": 278,
-  "UDListDefinitionId": 928,
+  "Page1LineNo": 756,
+  "ProgId": "reiciendis",
+  "IsReadOnly": true,
+  "ShortLabel": "suscipit",
+  "TabOrder": 253,
+  "TextLength": 417,
+  "Tooltip": "enim",
+  "UdefIdentity": 916,
+  "UDListDefinitionId": 467,
   "Justification": "Center",
-  "Version": 822,
-  "TemplateVariableName": "Waters-Moore",
-  "HasBeenPublished": true,
-  "MdoListName": "Pollich-Mertz",
+  "Version": 512,
+  "TemplateVariableName": "Langosh, West and Beier",
+  "HasBeenPublished": false,
+  "MdoListName": "Macejkovic, Cummerata and Senger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 44
+      "FieldLength": 256
     }
   }
 }

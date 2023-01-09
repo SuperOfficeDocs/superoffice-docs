@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,14 +73,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Activities?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Activities?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Activities?$orderBy=name asc
-GET /api/v1/Contact/{id}/Activities?$entities=dolorem
-GET /api/v1/Contact/{id}/Activities?$top=685
-GET /api/v1/Contact/{id}/Activities?$skip=851
+GET /api/v1/Contact/{id}/Activities?$entities=aspernatur
+GET /api/v1/Contact/{id}/Activities?$top=732
+GET /api/v1/Contact/{id}/Activities?$skip=436
 GET /api/v1/Contact/{id}/Activities?$mode=Full
 GET /api/v1/Contact/{id}/Activities?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Activities?$context=dolorum
+GET /api/v1/Contact/{id}/Activities?$context=voluptatem
 GET /api/v1/Contact/{id}/Activities?$format=JSON
-GET /api/v1/Contact/{id}/Activities?$jsonSafe=False
+GET /api/v1/Contact/{id}/Activities?$jsonSafe=True
 GET /api/v1/Contact/{id}/Activities?$output=Display
 ```
 
@@ -100,7 +99,7 @@ GET /api/v1/Contact/{id}/Activities?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "cupiditate",
+  "odata.nextLink": "eos",
   "value": [
     {
-      "PrimaryKey": 414,
-      "EntityName": "person",
-      "personId": 414,
-      "fullName": "Hans Lindgren"
+      "PrimaryKey": 248,
+      "EntityName": "sale",
+      "saleId": 248,
+      "contactId": 2993,
+      "name": "Bode-Hahn"
     },
     {
-      "PrimaryKey": 6290,
-      "EntityName": "person",
-      "personId": 6290,
-      "fullName": "Helmer Harvey"
+      "PrimaryKey": 6905,
+      "EntityName": "sale",
+      "saleId": 6905,
+      "contactId": 7369,
+      "name": "Powlowski-Rohan"
     }
   ]
 }

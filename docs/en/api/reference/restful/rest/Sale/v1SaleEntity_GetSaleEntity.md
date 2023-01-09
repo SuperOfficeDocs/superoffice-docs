@@ -32,7 +32,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=False
+GET /api/v1/Sale/{id}?fk=True
 ```
 
 
@@ -50,7 +50,7 @@ GET /api/v1/Sale/{id}?fk=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 SaleEntity found.
 
@@ -60,24 +60,24 @@ SaleEntity found.
 | 304 | SaleEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: SaleEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Appointment |  | Simple read-only appointment data. <para /> Carrier object for Appointment. Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>. |
-| Associate |  | The sale owner  <para>Use MDO List name "associate" to get list items.</para> |
-| UpdatedBy |  | Who updated the sale |
-| CreatedBy |  | Who created to sale |
-| Contact |  | The contact associated with the sale. It may also be 0 if no contact is associated with the sale.  <para>Use MDO List name "contact" to get list items.</para> |
-| Project |  | A sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| Appointment | Appointment | Simple read-only appointment data. <para /> Carrier object for Appointment. Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>. |
+| Associate | Associate | The sale owner  <para>Use MDO List name "associate" to get list items.</para> |
+| UpdatedBy | Associate | Who updated the sale |
+| CreatedBy | Associate | Who created to sale |
+| Contact | Contact | The contact associated with the sale. It may also be 0 if no contact is associated with the sale.  <para>Use MDO List name "contact" to get list items.</para> |
+| Project | Project | A sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
 | SaleText | string | Text describing the sale |
-| Person |  | A sale may also be connected to a person - this must be a contact person registered on the current contact. This does not mean that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
-| Currency |  | The currency the sale object was sold in  <para>Use MDO List name "currency" to get list items.</para> |
-| Competitor |  | List of all possible competitors.   <para>Use MDO List name "comptr" to get list items.</para> |
-| Credited |  | List of who is to be credited for the sale.  <para>Use MDO List name "credited" to get list items.</para> |
-| Rating |  | The sale rating  <para>Use MDO List name "prob" to get list items.</para> |
-| Reason |  | The sale reason  <para>Use MDO List name "reason" to get list items.</para> |
-| Source |  | The sale source  <para>Use MDO List name "source" to get list items.</para> |
+| Person | Person | A sale may also be connected to a person - this must be a contact person registered on the current contact. This does not mean that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
+| Currency | Currency | The currency the sale object was sold in  <para>Use MDO List name "currency" to get list items.</para> |
+| Competitor | Competitor | List of all possible competitors.   <para>Use MDO List name "comptr" to get list items.</para> |
+| Credited | Credited | List of who is to be credited for the sale.  <para>Use MDO List name "credited" to get list items.</para> |
+| Rating | Rating | The sale rating  <para>Use MDO List name "prob" to get list items.</para> |
+| Reason | Reason | The sale reason  <para>Use MDO List name "reason" to get list items.</para> |
+| Source | Source | The sale source  <para>Use MDO List name "source" to get list items.</para> |
 | Status | string | The state of the Sale: Open / Sold / Lost / Stalled |
 | Saledate | date-time | (expected / lost / won) sales date |
 | Amount | double | Total sale amount |
@@ -94,9 +94,9 @@ Response body:
 | Links | array | List of all elements linked to the sale. |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| SaleType |  | <para>Use MDO List name "saletype" to get list items.</para> |
-| ReasonSold |  | <para>Use MDO List name "reasonsold" to get list items.</para> |
-| ReasonStalled |  | <para>Use MDO List name "reasonstalled" to get list items.</para> |
+| SaleType | SaleType | <para>Use MDO List name "saletype" to get list items.</para> |
+| ReasonSold | ReasonSold | <para>Use MDO List name "reasonsold" to get list items.</para> |
+| ReasonStalled | ReasonStalled | <para>Use MDO List name "reasonstalled" to get list items.</para> |
 | ReopenDate | date-time | Date the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate. |
 | SaleStakeholders | array |  |
 | ActiveErpLinks | int32 | The number of active erp links |
@@ -108,7 +108,7 @@ Response body:
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -118,7 +118,7 @@ Response body:
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 17 Dec 2020 02:49:51 G12T
+Last-Modified: Tue, 18 Jan 2022 17:37:39 G1T
 
 {
   "Appointment": null,
@@ -135,7 +135,7 @@ Last-Modified: Thu, 17 Dec 2020 02:49:51 G12T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "harum",
+  "SaleText": "temporibus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -144,113 +144,113 @@ Last-Modified: Thu, 17 Dec 2020 02:49:51 G12T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2003-11-06T02:49:51.4425592+01:00",
-  "Amount": 19969.847999999998,
-  "SaleId": 827,
-  "Earning": 17829.326,
-  "EarningPercent": 3694.986,
-  "Heading": "eos",
-  "Number": "1078057",
-  "Probability": 646,
-  "CreatedDate": "1997-05-30T02:49:51.4425592+02:00",
-  "UpdatedDate": "2020-12-17T02:49:51.4425592+01:00",
+  "Saledate": "2013-12-03T17:37:39.1163033+01:00",
+  "Amount": 13256.82,
+  "SaleId": 726,
+  "Earning": 13545.148,
+  "EarningPercent": 30402.933999999997,
+  "Heading": "facere",
+  "Number": "1084771",
+  "Probability": 950,
+  "CreatedDate": "2015-01-26T17:37:39.1163033+01:00",
+  "UpdatedDate": "2022-01-18T17:37:39.1163033+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 994,
+  "ActiveLinks": 839,
   "Links": [
     {
-      "EntityName": "Hoeger Inc and Sons",
-      "Id": 915,
-      "Description": "Visionary scalable architecture",
-      "ExtraInfo": "autem",
-      "LinkId": 843,
+      "EntityName": "Metz-Langworth",
+      "Id": 576,
+      "Description": "Ergonomic holistic array",
+      "ExtraInfo": "officia",
+      "LinkId": 125,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 754
+          "FieldLength": 500
         }
       }
     }
   ],
-  "NextDueDate": "2021-02-11T02:49:51.4425592+01:00",
-  "Postit": "suscipit",
+  "NextDueDate": "1998-09-26T17:37:39.1163033+02:00",
+  "Postit": "qui",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2009-04-16T02:49:51.4425592+02:00",
+  "ReopenDate": "1996-11-21T17:37:39.117304+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schroeder-Ruecker",
-      "Comment": "id",
-      "StakeholderRoleId": 745,
-      "CountryId": 708,
-      "PersonId": 88,
-      "EmailDescription": "syble_schultz@huels.name",
-      "EmailId": 336,
-      "EmailAddress": "johnpaul.spencer@boyer.co.uk",
-      "PhoneId": 679,
-      "ContactName": "Cremin, Botsford and Stamm",
-      "ContactId": 852,
-      "SaleId": 767,
-      "Mrmrs": "natus",
-      "Firstname": "Oran",
-      "MiddleName": "Wilderman, West and Pollich",
-      "Lastname": "Marvin",
-      "SaleStakeholderId": 707,
-      "Rank": 882,
-      "Phone": "(246)707-6523 x44565",
+      "StakeholderRoleName": "Emmerich, Bruen and Vandervort",
+      "Comment": "quasi",
+      "StakeholderRoleId": 823,
+      "CountryId": 450,
+      "PersonId": 886,
+      "EmailDescription": "demetris@schamberger.ca",
+      "EmailId": 86,
+      "EmailAddress": "queenie@trompabbott.biz",
+      "PhoneId": 941,
+      "ContactName": "Walsh, Hickle and Corkery",
+      "ContactId": 559,
+      "SaleId": 581,
+      "Mrmrs": "provident",
+      "Firstname": "Claudine",
+      "MiddleName": "Quitzon Group",
+      "Lastname": "Schuppe",
+      "SaleStakeholderId": 21,
+      "Rank": 727,
+      "Phone": "1-966-273-1302",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldLength": 940
         }
       }
     }
   ],
-  "ActiveErpLinks": 26,
+  "ActiveErpLinks": 988,
   "UserDefinedFields": {
-    "SuperOffice:1": "Vicente Lesley Kautzer Sr.",
-    "SuperOffice:2": "Mr. Eloy Lubowitz Sr."
+    "SuperOffice:1": "Layne Quigley",
+    "SuperOffice:2": "Mrs. Una Alessandra Kovacek III"
   },
   "ExtraFields": {
-    "ExtraFields1": "facere",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "earum",
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "itaque"
+    "CustomFields1": "deleniti",
+    "CustomFields2": "quasi"
   },
-  "PublishEventDate": "2003-02-27T02:49:51.4581845+01:00",
-  "PublishTo": "1997-06-12T02:49:51.4581845+02:00",
-  "PublishFrom": "2014-09-02T02:49:51.4581845+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-10-13T17:37:39.1183032+02:00",
+  "PublishTo": "2017-07-19T17:37:39.1183032+02:00",
+  "PublishFrom": "2004-10-04T17:37:39.1183032+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 811,
+      "VisibleId": 561,
       "Visibility": "All",
-      "DisplayValue": "cumque",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldType": "System.String",
+          "FieldLength": 770
         }
       }
     },
     {
-      "VisibleId": 811,
+      "VisibleId": 561,
       "Visibility": "All",
-      "DisplayValue": "cumque",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldType": "System.String",
+          "FieldLength": 770
         }
       }
     }
@@ -260,12 +260,12 @@ Last-Modified: Thu, 17 Dec 2020 02:49:51 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldLength": 983
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

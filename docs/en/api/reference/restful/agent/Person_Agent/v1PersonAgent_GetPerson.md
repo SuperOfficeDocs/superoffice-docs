@@ -25,7 +25,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=507
+POST /api/v1/Agents/Person/GetPerson?personId=503
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Person
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,7 +96,7 @@ Response body:
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -105,7 +105,7 @@ Response body:
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "magnam",
-  "PersonId": 902,
-  "Mrmrs": "omnis",
-  "Firstname": "Janis",
-  "Lastname": "Weimann",
-  "MiddleName": "Mosciski, Cummings and Frami",
-  "Title": "sit",
-  "Description": "Fundamental assymetric capacity",
-  "Email": "ernestina@donnelly.co.uk",
-  "FullName": "Era Sawayn",
-  "DirectPhone": "970.511.5997",
-  "FormalName": "Kutch, Hagenes and Russel",
-  "CountryId": 317,
-  "ContactId": 94,
-  "ContactName": "West LLC",
-  "Retired": 91,
-  "Rank": 118,
-  "ActiveInterests": 868,
-  "ContactDepartment": "",
-  "ContactCountryId": 781,
-  "ContactOrgNr": "728566",
-  "FaxPhone": "890.003.1617 x480",
-  "MobilePhone": "715.063.8576",
-  "ContactPhone": "1-028-808-4185",
-  "AssociateName": "Toy Inc and Sons",
-  "AssociateId": 470,
+  "Position": "eum",
+  "PersonId": 756,
+  "Mrmrs": "pariatur",
+  "Firstname": "Christopher",
+  "Lastname": "Ryan",
+  "MiddleName": "Donnelly Inc and Sons",
+  "Title": "ea",
+  "Description": "Integrated regional support",
+  "Email": "ignatius.moen@orncronin.co.uk",
+  "FullName": "Dianna Crona V",
+  "DirectPhone": "634.100.2206",
+  "FormalName": "Hessel Group",
+  "CountryId": 689,
+  "ContactId": 281,
+  "ContactName": "Connelly, Marquardt and Weimann",
+  "Retired": 583,
+  "Rank": 966,
+  "ActiveInterests": 446,
+  "ContactDepartment": "enhance one-to-one e-commerce",
+  "ContactCountryId": 712,
+  "ContactOrgNr": "1326157",
+  "FaxPhone": "(613)195-9697 x2374",
+  "MobilePhone": "1-937-674-4039 x6177",
+  "ContactPhone": "742-023-9886 x6460",
+  "AssociateName": "Breitenberg, Stroman and Howell",
+  "AssociateId": 757,
   "UsePersonAddress": false,
-  "ContactFax": "excepturi",
-  "Kanafname": "nihil",
-  "Kanalname": "illum",
-  "Post1": "doloremque",
-  "Post2": "quo",
-  "Post3": "nisi",
-  "EmailName": "harley.lowe@weberwaelchi.ca",
-  "ContactFullName": "Aric Kling",
-  "ActiveErpLinks": 212,
-  "TicketPriorityId": 1000,
-  "SupportLanguageId": 654,
-  "SupportAssociateId": 209,
+  "ContactFax": "labore",
+  "Kanafname": "explicabo",
+  "Kanalname": "ad",
+  "Post1": "in",
+  "Post2": "molestias",
+  "Post3": "cupiditate",
+  "EmailName": "trace@mann.name",
+  "ContactFullName": "Savannah Bradtke",
+  "ActiveErpLinks": 429,
+  "TicketPriorityId": 199,
+  "SupportLanguageId": 598,
+  "SupportAssociateId": 225,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 134
     }
   }
 }

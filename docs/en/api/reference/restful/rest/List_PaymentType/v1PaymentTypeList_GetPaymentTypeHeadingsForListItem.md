@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Rice-Senger",
-    "ToolTip": "Velit aut quis.",
-    "Deleted": false,
-    "Rank": 405,
-    "Type": "et",
-    "ColorBlock": 84,
-    "IconHint": "molestiae",
+    "Id": 892,
+    "Name": "Huel Inc and Sons",
+    "ToolTip": "Vel voluptate.",
+    "Deleted": true,
+    "Rank": 336,
+    "Type": "optio",
+    "ColorBlock": 24,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "2001-10-29T02:49:52.3128229+01:00",
+    "LastChanged": "2019-04-07T17:37:40.0965012+02:00",
     "ChildItems": [
       {
-        "Id": 235,
-        "Name": "Bartell-Torp",
-        "ToolTip": "Doloremque aspernatur consectetur deserunt.",
+        "Id": 881,
+        "Name": "Tremblay Inc and Sons",
+        "ToolTip": "Fugiat ut eligendi quas adipisci vero.",
         "Deleted": false,
-        "Rank": 938,
-        "Type": "consequuntur",
-        "ColorBlock": 548,
-        "IconHint": "dolorem",
-        "Selected": false,
-        "LastChanged": "2014-11-01T02:49:52.3128229+01:00",
+        "Rank": 229,
+        "Type": "omnis",
+        "ColorBlock": 281,
+        "IconHint": "dolorum",
+        "Selected": true,
+        "LastChanged": "2007-03-03T17:37:40.0965012+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "aut",
+        "ExtraInfo": "unde",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Buford Stanton",
+        "FullName": "Emery Stoltenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 319
+            "FieldType": "System.Int32",
+            "FieldLength": 432
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "eligendi",
-    "Hidden": false,
-    "FullName": "Dr. Cierra Jacobi",
+    "ExtraInfo": "delectus",
+    "StyleHint": "quibusdam",
+    "Hidden": true,
+    "FullName": "Hortense Krajcik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldType": "System.String",
+        "FieldLength": 163
       }
     }
   }

@@ -12,8 +12,6 @@ PUT /api/v1/User/{id}
 Updates the existing User
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -50,40 +48,39 @@ PUT /api/v1/User/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The User to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 | Primary key |
-| Name | string | Initials, UserId - also used as login name for on-site installations. Identifies user in archives. |
-| Rank | int32 | Rank order |
-| Tooltip | string | Tooltip or other description |
-| LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
-| Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
-| Lastlogin | date-time | Last login date |
-| Lastlogout | date-time | Last logout date |
-| EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
-| RequestSignature | string | ej users request signature |
-| Type | string | User type: 1=InternalAssociate, 2=ResourceAssociate, 3=ExternalAssociate, 4=AnonymousAssociate, 5=SystemAssociate |
-| IsPersonRetired | bool | True if the user is retired and should have no rights, not appear in lists, etc. |
-| IsOnTravel | bool | True if the user is on travel. |
-| Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
-| UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
-| NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
-| WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
-| ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
+| AssociateId | Integer | Primary key |
+| Name | String | Initials, UserId - also used as login name for on-site installations. Identifies user in archives. |
+| Rank | Integer | Rank order |
+| Tooltip | String | Tooltip or other description |
+| LicenseOwners | Array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| OtherGroups | Array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Deleted | Boolean | If true, the user is retired and should have no rights, not appear in lists, etc. |
+| Lastlogin | String | Last login date |
+| Lastlogout | String | Last logout date |
+| EjUserId | Integer | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
+| RequestSignature | String | ej users request signature |
+| Type | String | User type: 1=InternalAssociate, 2=ResourceAssociate, 3=ExternalAssociate, 4=AnonymousAssociate, 5=SystemAssociate |
+| IsPersonRetired | Boolean | True if the user is retired and should have no rights, not appear in lists, etc. |
+| IsOnTravel | Boolean | True if the user is on travel. |
+| Credentials | Array | List of credentials registered for this user. i.e. valid authentication methods. |
+| UserName | String | User name, a.k.a. Login name. This might be an e-mail address. |
+| TicketCategories | Array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
+| NickName | String | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
+| WaitingForApproval | Boolean | The user is waiting for an administrator to approve/grant her/him access. |
+| ExtraFields | Object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
+| CustomFields | Object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| PostSaveCommands | Array | Post custom commands the client should execute after save has completed. |
 
-
-## Response: 
+## Response:
 
 User updated.
 
@@ -92,7 +89,7 @@ User updated.
 | 200 | User updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: UserWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,10 +98,10 @@ Response body:
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
 | OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -121,7 +118,7 @@ Response body:
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -131,18 +128,18 @@ Response body:
 PUT /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 978,
-  "Name": "Kshlerin, Kling and Mertz",
-  "Rank": 322,
-  "Tooltip": "soluta",
+  "AssociateId": 710,
+  "Name": "Keeling LLC",
+  "Rank": 604,
+  "Tooltip": "ex",
   "LicenseOwners": [
     {
-      "Name": "Muller-Schamberger",
-      "Description": "Managed static hub",
+      "Name": "Stiedemann Inc and Sons",
+      "Description": "Balanced dedicated concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,8 +150,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Muller-Schamberger",
-      "Description": "Managed static hub",
+      "Name": "Stiedemann Inc and Sons",
+      "Description": "Balanced dedicated concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,87 +166,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptatem",
-      "Tooltip": "ut",
-      "Id": 140,
-      "Rank": 6,
-      "Deleted": false
+      "Value": "sed",
+      "Tooltip": "repudiandae",
+      "Id": 249,
+      "Rank": 697,
+      "Deleted": true
     },
     {
-      "Value": "voluptatem",
-      "Tooltip": "ut",
-      "Id": 140,
-      "Rank": 6,
-      "Deleted": false
+      "Value": "sed",
+      "Tooltip": "repudiandae",
+      "Id": 249,
+      "Rank": 697,
+      "Deleted": true
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2020-01-13T02:49:51.796023+01:00",
-  "Lastlogout": "2000-03-17T02:49:51.796023+01:00",
-  "EjUserId": 30,
-  "RequestSignature": "vero",
+  "Lastlogin": "2012-04-26T17:37:39.5414304+02:00",
+  "Lastlogout": "2016-10-15T17:37:39.5414304+02:00",
+  "EjUserId": 28,
+  "RequestSignature": "adipisci",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "provident",
-      "DisplayValue": "mollitia"
+      "Value": "omnis",
+      "DisplayValue": "enim"
     },
     {
       "Type": null,
-      "Value": "provident",
-      "DisplayValue": "mollitia"
+      "Value": "omnis",
+      "DisplayValue": "enim"
     }
   ],
-  "UserName": "Nikolaus LLC",
+  "UserName": "Zemlak-Lang",
   "TicketCategories": [
     {
-      "Id": 466,
-      "Name": "Baumbach LLC",
-      "ToolTip": "Nostrum explicabo.",
+      "Id": 16,
+      "Name": "Prosacco Group",
+      "ToolTip": "Et nisi reprehenderit autem maiores.",
       "Deleted": false,
-      "Rank": 985,
-      "Type": "voluptas",
+      "Rank": 684,
+      "Type": "dolorum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 27,
-      "ExtraInfo": "et",
-      "StyleHint": "alias",
-      "FullName": "Graciela Pfeffer"
+      "IconHint": "ut",
+      "ColorBlock": 368,
+      "ExtraInfo": "autem",
+      "StyleHint": "quis",
+      "FullName": "Armani Kunde DVM"
     }
   ],
-  "NickName": "Schumm Inc and Sons",
+  "NickName": "Shanahan, Koss and Bartell",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "non"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "et"
+    "CustomFields1": "repellat",
+    "CustomFields2": "repellendus"
   },
   "PostSaveCommands": [
     {
-      "Name": "Christiansen Group",
-      "DisplayName": "Gusikowski Group",
-      "Description": "Extended incremental encryption",
-      "ToolTip": "Harum voluptatem vel.",
+      "Name": "Kozey-Tillman",
+      "DisplayName": "Schultz-Harris",
+      "Description": "Enhanced responsive secured line",
+      "ToolTip": "Deleniti qui.",
       "Actions": "Implicit",
-      "ActionData": "quidem"
+      "ActionData": "cum"
     },
     {
-      "Name": "Christiansen Group",
-      "DisplayName": "Gusikowski Group",
-      "Description": "Extended incremental encryption",
-      "ToolTip": "Harum voluptatem vel.",
+      "Name": "Kozey-Tillman",
+      "DisplayName": "Schultz-Harris",
+      "Description": "Enhanced responsive secured line",
+      "ToolTip": "Deleniti qui.",
       "Actions": "Implicit",
-      "ActionData": "quidem"
+      "ActionData": "cum"
     }
   ]
 }
@@ -262,14 +259,14 @@ HTTP/1.1 200 User updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 900,
-  "Name": "Kulas-Schamberger",
-  "Rank": 691,
-  "Tooltip": "facilis",
+  "AssociateId": 243,
+  "Name": "Kuhn, Howe and Reichel",
+  "Rank": 300,
+  "Tooltip": "occaecati",
   "LicenseOwners": [
     {
-      "Name": "Predovic-Hirthe",
-      "Description": "Future-proofed stable initiative",
+      "Name": "Luettgen-Bauch",
+      "Description": "Cloned transitional methodology",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -283,13 +280,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 874
         }
       }
     },
     {
-      "Name": "Predovic-Hirthe",
-      "Description": "Future-proofed stable initiative",
+      "Name": "Luettgen-Bauch",
+      "Description": "Cloned transitional methodology",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -303,7 +300,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 874
         }
       }
     }
@@ -312,110 +309,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aperiam",
-      "Tooltip": "provident",
-      "Id": 533,
-      "Rank": 228,
+      "Value": "et",
+      "Tooltip": "cupiditate",
+      "Id": 840,
+      "Rank": 903,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldType": "System.String",
+          "FieldLength": 18
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "1995-07-31T02:49:51.8116461+02:00",
-  "Lastlogout": "2015-12-02T02:49:51.8116461+01:00",
-  "EjUserId": 244,
-  "RequestSignature": "autem",
+  "Deleted": false,
+  "Lastlogin": "2006-12-25T17:37:39.5464022+01:00",
+  "Lastlogout": "2000-08-18T17:37:39.5464022+02:00",
+  "EjUserId": 794,
+  "RequestSignature": "aut",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "qui",
+      "Value": "dicta",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 965
         }
       }
     },
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "qui",
+      "Value": "dicta",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 965
         }
       }
     }
   ],
-  "UserName": "Klocko LLC",
+  "UserName": "Brown-Stoltenberg",
   "TicketCategories": [
     {
-      "Id": 353,
-      "Name": "Hintz LLC",
-      "ToolTip": "Cum quaerat eos dolores.",
+      "Id": 868,
+      "Name": "Murphy, Hermiston and O'Conner",
+      "ToolTip": "Sint vel.",
       "Deleted": false,
-      "Rank": 425,
-      "Type": "maxime",
+      "Rank": 526,
+      "Type": "amet",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "debitis",
-      "ColorBlock": 158,
-      "ExtraInfo": "dolor",
-      "StyleHint": "dolor",
-      "FullName": "Cara Friesen",
+      "IconHint": "quasi",
+      "ColorBlock": 389,
+      "ExtraInfo": "vitae",
+      "StyleHint": "debitis",
+      "FullName": "Prof. Helmer Alejandra Hermiston",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 115
+          "FieldLength": 944
         }
       }
     }
   ],
-  "NickName": "Krajcik, Schaefer and Marquardt",
-  "WaitingForApproval": true,
+  "NickName": "Lubowitz, Gerlach and Mitchell",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "et"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "nulla"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "quam"
   },
   "PostSaveCommands": [
     {
-      "Name": "Schinner, Hagenes and Prosacco",
-      "DisplayName": "Osinski Group",
-      "Description": "Adaptive demand-driven hub",
-      "ToolTip": "Id qui.",
+      "Name": "Bahringer-Weissnat",
+      "DisplayName": "Johnson, Bergnaum and Feil",
+      "Description": "Compatible reciprocal moratorium",
+      "ToolTip": "Atque dolores ea officiis est animi.",
       "Actions": "Implicit",
-      "ActionData": "quia",
+      "ActionData": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldLength": 576
         }
       }
     }
@@ -424,13 +421,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldType": "System.Int32",
+      "FieldLength": 514
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

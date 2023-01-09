@@ -38,7 +38,7 @@ This is a simpler, smaller variation of the full ContactEntity. Calls the Contac
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ContactEntity found.
 
@@ -47,7 +47,7 @@ ContactEntity found.
 | 200 | ContactEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: Contact
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,12 +68,14 @@ Response body:
 | BusinessName | string | The business list item name |
 | CategoryName | string | The category list item name |
 | CountryName | string | Name of country in installed language |
-| Address |  | Contact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
+| Address | Address | Contact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
 | FormattedAddress | string | The contact's address, formatted with linebreaks and spaces into a single string. |
 | FullName | string |  |
 | IsOwnerContact | bool | Is the contact an owner contact.  This means that all persons on this contact can on only be internal users and not external users. |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| Number1 | string | Alphanumeric user field |
+| Number2 | string | Alphanumeric user field |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,34 +94,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 281,
-  "Name": "Strosin-Wisoky",
-  "OrgNr": "1055701",
+  "ContactId": 452,
+  "Name": "Mohr LLC",
+  "OrgNr": "716539",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "recusandae",
-  "DirectPhone": "(452)413-1404 x01347",
-  "AssociateId": 23,
-  "CountryId": 695,
-  "EmailAddress": "saige_mckenzie@kunzebailey.name",
-  "Kananame": "vel",
-  "EmailAddressName": "terrell_braun@dicki.ca",
+  "City": "quas",
+  "DirectPhone": "(545)924-5590",
+  "AssociateId": 880,
+  "CountryId": 692,
+  "EmailAddress": "tessie@jast.co.uk",
+  "Kananame": "facere",
+  "EmailAddressName": "sonny@mcculloughgrady.name",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Mrs. Kody Mohammad Schroeder",
+  "AssociateFullName": "Adelia Streich",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "debitis",
-  "FullName": "Prof. Lavina Lubowitz III",
-  "IsOwnerContact": true,
-  "ActiveErpLinks": 875,
+  "FormattedAddress": "sed",
+  "FullName": "Alexis Beier",
+  "IsOwnerContact": false,
+  "ActiveErpLinks": 775,
+  "Number1": "1584455",
+  "Number2": "855698",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 944
     }
   }
 }

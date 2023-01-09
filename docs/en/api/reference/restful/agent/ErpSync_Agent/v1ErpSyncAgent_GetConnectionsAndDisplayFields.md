@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Get all connection statuses and fields for a given entity
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 CrmActorType, EntityId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CrmActorType | string |  |
-| EntityId | int32 |  |
+| CrmActorType | String |  |
+| EntityId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +72,7 @@ Response body: array
 | CrmActorType | string | The crm actor type which these fields belongs to |
 | ErpActorType | string | The erp actor type which these fields belongs to |
 | ErpActorTypes | array | Contains all mapped ErpActorType for this CrmActorType |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,7 +86,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 249
+  "EntityId": 127
 }
 ```
 
@@ -101,27 +98,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 202,
-    "ConnectionName": "D'Amore Inc and Sons",
+    "ErpConnectionId": 35,
+    "ConnectionName": "Kulas, Adams and Farrell",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "recusandae",
-        "Rank": 962,
-        "DisplayName": "Ritchie, Bradtke and Romaguera",
-        "DisplayDescription": "Automated tertiary middleware",
+        "FieldKey": "voluptate",
+        "Rank": 54,
+        "DisplayName": "Kris-McLaughlin",
+        "DisplayDescription": "Team-oriented solution-oriented structure",
         "FieldType": "Checkbox",
-        "ListName": "Muller, Lakin and Mann",
-        "DefaultValue": "explicabo",
-        "MaxLength": 933,
+        "ListName": "Kemmer, Sporer and Treutel",
+        "DefaultValue": "ab",
+        "MaxLength": 911,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 232
+            "FieldType": "System.Int32",
+            "FieldLength": 391
           }
         }
       }
@@ -129,15 +126,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "aut",
-      "molestiae"
+      "molestias",
+      "at"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 917
       }
     }
   }

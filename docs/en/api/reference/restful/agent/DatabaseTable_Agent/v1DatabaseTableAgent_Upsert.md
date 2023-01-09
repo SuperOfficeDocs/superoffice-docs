@@ -44,21 +44,20 @@ POST /api/v1/Agents/DatabaseTable/Upsert?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, Columns, Keys, Data, NomatchAction, ReturnRowStatus 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| Columns | array |  |
-| Keys | array |  |
-| Data | array |  |
-| NomatchAction | string |  |
-| ReturnRowStatus | bool |  |
+| TableName | String |  |
+| Columns | Array |  |
+| Keys | Array |  |
+| Data | Array |  |
+| NomatchAction | String |  |
+| ReturnRowStatus | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: MassOperationResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body:
 | Updates | int32 | Number of rows updated |
 | Deletes | int32 | Number of rows deleted / zeroed |
 | RowStatus | array | Array of statuses and primary keys for all rows that were specified. Populated if the 'ReturnRowStatus' parameter of 'Upsert' is set, otherwise null |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,18 +84,18 @@ Response body:
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Terry-Emmerich",
+  "TableName": "Luettgen-Upton",
   "Columns": [
-    "odit",
-    "dolorem"
+    "omnis",
+    "quia"
   ],
   "Keys": [
-    "hic",
-    "corrupti"
+    "consequatur",
+    "ipsam"
   ],
   "Data": [
     [
@@ -107,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": true
+  "ReturnRowStatus": false
 }
 ```
 
@@ -119,40 +118,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "a",
-  "Inserts": 130,
-  "Updates": 519,
-  "Deletes": 384,
+  "Message": "adipisci",
+  "Inserts": 198,
+  "Updates": 126,
+  "Deletes": 833,
   "RowStatus": [
     {
-      "PrimaryKey": 25,
+      "PrimaryKey": 892,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "rerum",
-        "quas"
+        "et",
+        "error"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldType": "System.String",
+          "FieldLength": 643
         }
       }
     },
     {
-      "PrimaryKey": 25,
+      "PrimaryKey": 892,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "rerum",
-        "quas"
+        "et",
+        "error"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldType": "System.String",
+          "FieldLength": 643
         }
       }
     }
@@ -162,7 +161,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldLength": 978
     }
   }
 }

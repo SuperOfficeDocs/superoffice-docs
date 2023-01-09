@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,14 +73,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Appointments?$select=name,department,category/id
 GET /api/v1/Person/{id}/Appointments?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Appointments?$orderBy=name asc
-GET /api/v1/Person/{id}/Appointments?$entities=saepe
-GET /api/v1/Person/{id}/Appointments?$top=613
-GET /api/v1/Person/{id}/Appointments?$skip=833
+GET /api/v1/Person/{id}/Appointments?$entities=distinctio
+GET /api/v1/Person/{id}/Appointments?$top=770
+GET /api/v1/Person/{id}/Appointments?$skip=591
 GET /api/v1/Person/{id}/Appointments?$mode=Full
 GET /api/v1/Person/{id}/Appointments?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Appointments?$context=rerum
+GET /api/v1/Person/{id}/Appointments?$context=dolores
 GET /api/v1/Person/{id}/Appointments?$format=JSON
-GET /api/v1/Person/{id}/Appointments?$jsonSafe=False
+GET /api/v1/Person/{id}/Appointments?$jsonSafe=True
 GET /api/v1/Person/{id}/Appointments?$output=Display
 ```
 
@@ -100,7 +99,7 @@ GET /api/v1/Person/{id}/Appointments?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Person/{id}/Appointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "molestias",
+  "odata.nextLink": "quidem",
   "value": [
     {
-      "PrimaryKey": 3959,
-      "EntityName": "person",
-      "personId": 3959,
-      "fullName": "Gunnar Fritsch"
+      "PrimaryKey": 3399,
+      "EntityName": "sale",
+      "saleId": 3399,
+      "contactId": 8530,
+      "name": "Mayer LLC"
     },
     {
-      "PrimaryKey": 9210,
-      "EntityName": "person",
-      "personId": 9210,
-      "fullName": "Avis Kirlin"
+      "PrimaryKey": 7778,
+      "EntityName": "sale",
+      "saleId": 7778,
+      "contactId": 5728,
+      "name": "Mertz, Roberts and Fadel"
     }
   ]
 }

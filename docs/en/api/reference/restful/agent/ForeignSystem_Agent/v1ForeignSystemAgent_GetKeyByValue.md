@@ -42,20 +42,19 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValue?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, KeyName, KeyValue, TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| KeyName | string |  |
-| KeyValue | string |  |
-| TableName | string |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| KeyName | String |  |
+| KeyValue | String |  |
+| TableName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body:
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,11 +87,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Carter-Bins",
-  "DeviceName": "Greenholt, O'Connell and Beer",
-  "KeyName": "Konopelski-Rau",
-  "KeyValue": "vel",
-  "TableName": "Lang, Dibbert and Donnelly"
+  "ApplicationName": "Hackett-Effertz",
+  "DeviceName": "Turner-Osinski",
+  "KeyName": "Carroll-Durgan",
+  "KeyValue": "ut",
+  "TableName": "Jaskolski Group"
 }
 ```
 
@@ -103,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quibusdam",
-  "Value": "maiores",
-  "RecordId": 609,
-  "CreatedDate": "2014-04-27T02:49:44.561046+02:00",
-  "UpdatedDate": "2018-08-24T02:49:44.561046+02:00",
-  "UpdatedBy": "porro",
-  "CreatedBy": "consequatur",
-  "TableName": "Botsford-Eichmann",
+  "Key": "unde",
+  "Value": "porro",
+  "RecordId": 735,
+  "CreatedDate": "2012-04-08T17:37:18.1092417+02:00",
+  "UpdatedDate": "2007-02-20T17:37:18.1092417+01:00",
+  "UpdatedBy": "laborum",
+  "CreatedBy": "iste",
+  "TableName": "Witting, Cartwright and Kulas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 200
+      "FieldType": "System.Int32",
+      "FieldLength": 959
     }
   }
 }

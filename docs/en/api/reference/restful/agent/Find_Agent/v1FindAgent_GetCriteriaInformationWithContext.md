@@ -44,20 +44,19 @@ POST /api/v1/Agents/Find/GetCriteriaInformationWithContext?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, StaticColumns, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| StaticColumns | array |  |
-| Context | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| StaticColumns | Array |  |
+| Context | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CriteriaInformation
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body:
 | CriteriaArchiveColumns | array | Array of ColumnInfo column specifications |
 | CriteriaArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows. |
 | RestrictionGroups | array | Array of restrictiongroups, including the default first group of restrictions |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,18 +81,18 @@ Response body:
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptas",
-  "ProviderName": "Rath-Lowe",
-  "StorageKey": "modi",
+  "StorageType": "eos",
+  "ProviderName": "Lemke-Stanton",
+  "StorageKey": "eveniet",
   "StaticColumns": [
-    "et",
-    "assumenda"
+    "sit",
+    "in"
   ],
-  "Context": "voluptatem"
+  "Context": "dolor"
 }
 ```
 
@@ -106,81 +105,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Huel LLC",
-      "Operator": "assumenda",
+      "Name": "Prohaska-Nader",
+      "Operator": "perspiciatis",
       "Values": [
-        "labore",
-        "tempore"
+        "nihil",
+        "nesciunt"
       ],
       "DisplayValues": [
-        "accusantium",
-        "voluptate"
+        "sed",
+        "enim"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 41,
+      "InterParenthesis": 863,
       "InterOperator": "And",
-      "UniqueHash": 12
+      "UniqueHash": 655
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Hills-Gerlach",
-      "DisplayTooltip": "ex",
-      "DisplayType": "dignissimos",
-      "CanOrderBy": false,
-      "Name": "Hermiston, Jones and Murphy",
+      "DisplayName": "Bailey, Conn and Ankunding",
+      "DisplayTooltip": "labore",
+      "DisplayType": "minus",
+      "CanOrderBy": true,
+      "Name": "Goyette Group",
       "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Torp-Wiza",
-      "IsVisible": true,
-      "ExtraInfo": "voluptates",
-      "Width": "deserunt",
-      "IconHint": "vel",
-      "HeadingIconHint": "quia"
+      "RestrictionType": "incidunt",
+      "RestrictionListName": "Hegmann Group",
+      "IsVisible": false,
+      "ExtraInfo": "amet",
+      "Width": "dolorem",
+      "IconHint": "veritatis",
+      "HeadingIconHint": "rerum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Satterfield, Bergstrom and Schuster",
-      "PrimaryKey": 149,
+      "EntityName": "Christiansen Group",
+      "PrimaryKey": 444,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestiae",
-          "TooltipHint": "est",
-          "LinkHint": "mollitia"
+          "DisplayValue": "occaecati",
+          "TooltipHint": "ipsam",
+          "LinkHint": "enim"
         }
       },
-      "LinkHint": "corporis",
-      "StyleHint": "sed",
+      "LinkHint": "est",
+      "StyleHint": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 848
+          "FieldType": "System.Int32",
+          "FieldLength": 11
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Turner Group",
-      "Description": "Optional clear-thinking interface",
-      "Rank": 364,
+      "Name": "Johns, Borer and Parker",
+      "Description": "Integrated intermediate analyzer",
+      "Rank": 64,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Turner Group",
-      "Description": "Optional clear-thinking interface",
-      "Rank": 364,
+      "Name": "Johns, Borer and Parker",
+      "Description": "Integrated intermediate analyzer",
+      "Rank": 64,
       "Restrictions": [
         {},
         {}
@@ -192,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 174
+      "FieldLength": 533
     }
   }
 }

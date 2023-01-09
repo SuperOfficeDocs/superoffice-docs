@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SuggestedDocumentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,10 +54,10 @@ Response body:
 | Header | string | Suggested 'header' |
 | OurRef | string | Suggested 'our reference' |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| DocTmpl |  | Document template |
-| ProjectTypeStatusLink |  | Project type and project status link info |
-| SaleTypeStageLink |  | Sale type and stage link info. |
-| TableRight |  |  |
+| DocTmpl | DocumentTemplate | Document template |
+| ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
+| SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -66,7 +66,7 @@ Response body:
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,13 +76,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 233,
-  "Name": "Lueilwitz LLC",
-  "Tooltip": "necessitatibus",
-  "Rank": 779,
-  "DoctmplId": 885,
-  "Header": "voluptas",
-  "OurRef": "qui",
+  "SuggestedDocumentId": 89,
+  "Name": "Ratke-Kemmer",
+  "Tooltip": "incidunt",
+  "Rank": 908,
+  "DoctmplId": 100,
+  "Header": "minus",
+  "OurRef": "culpa",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldType": "System.String",
+      "FieldLength": 967
     }
   }
 }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/Document/GetDocumentStreamFromEntity?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentEntity |  | Partial DocumentEntity class associating the generated DocumentEntity with an interface. |
+| DocumentEntity | DocumentEntity | Partial DocumentEntity class associating the generated DocumentEntity with an interface. |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request

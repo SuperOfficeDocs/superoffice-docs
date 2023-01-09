@@ -34,7 +34,7 @@ Calls the Document agent service DeleteDocumentEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 DocumentEntity deleted.
 
@@ -43,7 +43,7 @@ DocumentEntity deleted.
 | 204 | DocumentEntity deleted. |
 | 412 | Delete aborted because DocumentEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request

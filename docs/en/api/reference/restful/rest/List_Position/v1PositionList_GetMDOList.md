@@ -26,7 +26,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=sint
+GET /api/v1/List/Position/MDOItems?query=provident
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/Position/MDOItems?query=sint
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Kuhn-Abbott",
-    "ToolTip": "Libero enim voluptas provident doloribus suscipit.",
+    "Id": 650,
+    "Name": "Howell-O'Conner",
+    "ToolTip": "Earum optio ratione.",
     "Deleted": false,
-    "Rank": 145,
-    "Type": "blanditiis",
+    "Rank": 542,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 138,
-        "Name": "Kuhic-Hessel",
-        "ToolTip": "Ad aut.",
+        "Id": 500,
+        "Name": "Lindgren-Mertz",
+        "ToolTip": "Omnis consequatur aut quibusdam qui.",
         "Deleted": true,
-        "Rank": 640,
-        "Type": "sed",
+        "Rank": 416,
+        "Type": "vero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laboriosam",
-        "ColorBlock": 343,
-        "ExtraInfo": "iure",
-        "StyleHint": "velit",
-        "FullName": "Erika Murazik",
+        "IconHint": "mollitia",
+        "ColorBlock": 305,
+        "ExtraInfo": "quasi",
+        "StyleHint": "magnam",
+        "FullName": "Mr. Nicholas Botsford MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldType": "System.String",
+            "FieldLength": 744
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 891,
-    "ExtraInfo": "corporis",
-    "StyleHint": "voluptatem",
-    "FullName": "Keith Wunsch",
+    "IconHint": "voluptates",
+    "ColorBlock": 733,
+    "ExtraInfo": "incidunt",
+    "StyleHint": "quisquam",
+    "FullName": "Adele Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldLength": 878
       }
     }
   }

@@ -46,7 +46,7 @@ GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Property?requestedP
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: object
+## Response:object
 
 OK
 
@@ -54,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -63,7 +63,7 @@ Response body: object
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Property
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,7 +73,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "earum",
-  "2": "asperiores"
+  "1": "tenetur",
+  "2": "voluptatum"
 }
 ```

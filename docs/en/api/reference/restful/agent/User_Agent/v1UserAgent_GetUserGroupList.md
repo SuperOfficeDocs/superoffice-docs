@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetUserGroupList
 Gets an array of UserGroup objects.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,13 +44,12 @@ POST /api/v1/Agents/User/GetUserGroupList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: userGroupIds  
+## Request Body: userGroupIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +66,7 @@ Response body: array
 | Id | int32 | Primary key |
 | Rank | int32 | Rank order |
 | Deleted | bool | Deleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,17 +86,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "et",
-    "Tooltip": "nesciunt",
-    "Id": 879,
-    "Rank": 644,
-    "Deleted": false,
+    "Value": "placeat",
+    "Tooltip": "qui",
+    "Id": 31,
+    "Rank": 377,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 511
+        "FieldLength": 555
       }
     }
   }

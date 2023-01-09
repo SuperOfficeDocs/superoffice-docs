@@ -44,19 +44,18 @@ POST /api/v1/Agents/Document/GetContactDocuments?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| ContactId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -101,10 +100,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 626,
-  "StartTime": "2008-10-28T02:49:44.0753838+01:00",
-  "EndTime": "2002-07-04T02:49:44.0753838+02:00",
-  "Count": 562
+  "ContactId": 710,
+  "StartTime": "2017-11-21T17:37:17.4192455+01:00",
+  "EndTime": "2010-06-14T17:37:17.4192455+02:00",
+  "Count": 28
 }
 ```
 
@@ -116,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 188,
-    "Attention": "in",
-    "Header": "qui",
-    "Name": "Kuhic-Dickinson",
-    "OurRef": "occaecati",
-    "YourRef": "et",
-    "Description": "Inverse mission-critical hardware",
-    "DocumentTemplate": "pariatur",
-    "IsPublished": true,
-    "PersonId": 371,
-    "PersonFullName": "Ms. Jerry Marcus Gottlieb",
-    "AssociateFullName": "Cruz Zemlak",
-    "ContactId": 645,
-    "ContactName": "Will-Goldner",
-    "ProjectId": 824,
-    "ProjectName": "Lindgren, Goodwin and Champlin",
-    "AssociateId": 141,
-    "Snum": 959,
-    "SaleId": 124,
-    "SaleName": "O'Reilly, Collier and Dooley",
+    "DocumentId": 628,
+    "Attention": "dolorum",
+    "Header": "nihil",
+    "Name": "Gutmann LLC",
+    "OurRef": "ab",
+    "YourRef": "voluptatibus",
+    "Description": "Advanced 3rd generation solution",
+    "DocumentTemplate": "harum",
+    "IsPublished": false,
+    "PersonId": 263,
+    "PersonFullName": "Bethany Lincoln Rau III",
+    "AssociateFullName": "Lenna Bahringer",
+    "ContactId": 336,
+    "ContactName": "Sauer Group",
+    "ProjectId": 146,
+    "ProjectName": "Schaden-Schmeler",
+    "AssociateId": 543,
+    "Snum": 236,
+    "SaleId": 646,
+    "SaleName": "Ebert LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 759
       }
     }
   }

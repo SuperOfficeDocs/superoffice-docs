@@ -32,23 +32,22 @@ Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The DiaryViewEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DiaryViewId | int32 |  |
-| Name | string |  |
-| Tooltip | string |  |
-| VisibleColumns | int32 |  |
-| Rank | int32 |  |
-| AssocId | int32 |  |
-| AssociateList | array |  |
-| TzLocationId | int32 |  |
+| DiaryViewId | Integer |  |
+| Name | String |  |
+| Tooltip | String |  |
+| VisibleColumns | Integer |  |
+| Rank | Integer |  |
+| AssocId | Integer |  |
+| AssociateList | Array |  |
+| TzLocationId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body:
 | AssocId | int32 |  |
 | AssociateList | array |  |
 | TzLocationId | int32 |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,39 +76,39 @@ Response body:
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 522,
-  "Name": "Bailey, Walker and Emard",
-  "Tooltip": "voluptatem",
-  "VisibleColumns": 606,
-  "Rank": 913,
-  "AssocId": 931,
+  "DiaryViewId": 551,
+  "Name": "Larkin, Skiles and Mayer",
+  "Tooltip": "qui",
+  "VisibleColumns": 134,
+  "Rank": 345,
+  "AssocId": 837,
   "AssociateList": [
     {
-      "Id": 761,
-      "Name": "Schroeder, Feest and Ondricka",
-      "ToolTip": "Ipsa sed tenetur quo incidunt.",
-      "Deleted": false,
-      "Rank": 861,
-      "Type": "optio",
-      "ColorBlock": 781,
-      "IconHint": "magni",
+      "Id": 326,
+      "Name": "Kulas-Towne",
+      "ToolTip": "Voluptatibus dolores laudantium dolorum.",
+      "Deleted": true,
+      "Rank": 28,
+      "Type": "corrupti",
+      "ColorBlock": 143,
+      "IconHint": "aspernatur",
       "Selected": true,
-      "LastChanged": "2010-05-28T02:49:43.8566571+02:00",
+      "LastChanged": "2016-02-28T17:37:17.1162404+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tenetur",
-      "StyleHint": "aut",
+      "ExtraInfo": "expedita",
+      "StyleHint": "quo",
       "Hidden": true,
-      "FullName": "Aaron Mosciski"
+      "FullName": "Prof. Russ Christopher Conn"
     }
   ],
-  "TzLocationId": 224
+  "TzLocationId": 644
 }
 ```
 
@@ -120,49 +119,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 169,
-  "Name": "Rempel-Dickens",
-  "Tooltip": "occaecati",
-  "VisibleColumns": 602,
-  "Rank": 312,
-  "AssocId": 974,
+  "DiaryViewId": 413,
+  "Name": "Pollich, Daugherty and Boehm",
+  "Tooltip": "ea",
+  "VisibleColumns": 70,
+  "Rank": 178,
+  "AssocId": 650,
   "AssociateList": [
     {
-      "Id": 135,
-      "Name": "Harris-Gutkowski",
-      "ToolTip": "Maiores assumenda sint cumque est.",
-      "Deleted": false,
-      "Rank": 865,
-      "Type": "molestias",
-      "ColorBlock": 883,
-      "IconHint": "laudantium",
+      "Id": 613,
+      "Name": "Gutkowski-Tromp",
+      "ToolTip": "Omnis suscipit.",
+      "Deleted": true,
+      "Rank": 730,
+      "Type": "et",
+      "ColorBlock": 94,
+      "IconHint": "ducimus",
       "Selected": false,
-      "LastChanged": "2000-05-06T02:49:43.8566571+02:00",
+      "LastChanged": "2005-02-05T17:37:17.1172801+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veniam",
-      "StyleHint": "illo",
+      "ExtraInfo": "enim",
+      "StyleHint": "eius",
       "Hidden": false,
-      "FullName": "Marcelle Hettinger",
+      "FullName": "Prof. Graham Sauer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 274
+          "FieldLength": 444
         }
       }
     }
   ],
-  "TzLocationId": 750,
+  "TzLocationId": 930,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 901
+      "FieldType": "System.Int32",
+      "FieldLength": 192
     }
   }
 }

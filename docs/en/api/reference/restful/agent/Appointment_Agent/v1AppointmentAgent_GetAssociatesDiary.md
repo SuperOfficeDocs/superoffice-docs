@@ -42,18 +42,17 @@ POST /api/v1/Agents/Appointment/GetAssociatesDiary?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateIds, StartTime, EndTime 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateIds | array |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
+| AssociateIds | Array |  |
+| StartTime | String |  |
+| EndTime | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -114,7 +113,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -128,11 +127,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    923,
-    621
+    833,
+    760
   ],
-  "StartTime": "2009-02-17T02:49:43.2461231+01:00",
-  "EndTime": "2010-08-18T02:49:43.2461231+02:00"
+  "StartTime": "2016-03-10T17:37:16.270242+01:00",
+  "EndTime": "2001-07-09T17:37:16.270242+02:00"
 }
 ```
 
@@ -144,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 977,
-    "StartDate": "2003-03-09T02:49:43.2461231+01:00",
-    "EndDate": "2006-08-19T02:49:43.2461231+02:00",
+    "AppointmentId": 445,
+    "StartDate": "2018-02-15T17:37:16.2712416+01:00",
+    "EndDate": "2021-07-09T17:37:16.2712416+02:00",
     "Type": "BookingForChecklist",
-    "Task": "iste",
-    "AssociateFullName": "Leopoldo Margarita Kuhlman I",
-    "ContactName": "Volkman-Kiehn",
-    "Description": "Fundamental reciprocal focus group",
-    "PersonFullName": "Donny Dibbert",
-    "PersonId": 576,
-    "ContactId": 274,
-    "ProjectId": 686,
-    "ProjectName": "Tromp Inc and Sons",
+    "Task": "in",
+    "AssociateFullName": "Americo Rempel",
+    "ContactName": "Littel, Leffler and Okuneva",
+    "Description": "Polarised bottom-line complexity",
+    "PersonFullName": "Ellie Grimes",
+    "PersonId": 731,
+    "ContactId": 33,
+    "ProjectId": 117,
+    "ProjectName": "Raynor, Dicki and Koch",
     "IsPublished": true,
-    "AssociateId": 324,
-    "ColorIndex": 876,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "AssociateId": 564,
+    "ColorIndex": 985,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 299,
-    "PriorityName": "Toy Inc and Sons",
+    "PriorityId": 305,
+    "PriorityName": "Rutherford-Toy",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2004-08-31T02:49:43.2461231+02:00",
+    "ActiveDate": "2019-03-26T17:37:16.2722415+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-03-19T02:49:43.2461231+01:00",
-    "RecurringEndDate": "2017-04-23T02:49:43.2461231+02:00",
-    "MotherId": 253,
-    "AssignedBy": 26,
-    "AssignedByFullName": "Mr. Mayra Goodwin",
+    "RecurringStartDate": "2019-06-05T17:37:16.2722415+02:00",
+    "RecurringEndDate": "2006-07-23T17:37:16.2722415+02:00",
+    "MotherId": 228,
+    "AssignedBy": 860,
+    "AssignedByFullName": "Osborne Beatty",
     "RejectReason": "",
-    "Location": "molestiae",
-    "AlarmLeadTime": "eaque",
-    "SaleId": 932,
-    "SaleName": "Stroman-Daniel",
-    "AssociateName": "Stracke, Moore and Bernhard",
-    "CreatedDate": "2002-03-02T02:49:43.261747+01:00",
-    "CreatedBy": "nemo",
-    "CreatedByFullName": "Jalen Hansen",
-    "CreatedByAssociateId": 777,
+    "Location": "tempore",
+    "AlarmLeadTime": "reprehenderit",
+    "SaleId": 83,
+    "SaleName": "Nienow-Casper",
+    "AssociateName": "Lowe, Senger and Jenkins",
+    "CreatedDate": "2012-09-07T17:37:16.2722415+02:00",
+    "CreatedBy": "voluptatem",
+    "CreatedByFullName": "Ally Robel",
+    "CreatedByAssociateId": 737,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -198,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 327
+        "FieldLength": 228
       }
     }
   }

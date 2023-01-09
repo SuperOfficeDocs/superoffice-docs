@@ -42,17 +42,16 @@ POST /api/v1/Agents/DatabaseTable/ReadRow?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| Id | int32 |  |
+| TableName | String |  |
+| Id | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,12 +59,12 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRecord
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Values | object | Values for the row, where the first string is the column name (e.g. x_number), and the second string is the value formatted as a DB-value, e.g. [I:42] |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,8 +77,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ledner-Morar",
-  "Id": 976
+  "TableName": "Sporer Group",
+  "Id": 193
 }
 ```
 
@@ -91,15 +90,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "voluptas",
-    "Values2": "eos"
+    "Values1": "est",
+    "Values2": "assumenda"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldLength": 733
     }
   }
 }

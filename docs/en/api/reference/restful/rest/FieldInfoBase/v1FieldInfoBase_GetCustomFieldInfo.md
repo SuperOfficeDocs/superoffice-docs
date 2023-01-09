@@ -37,7 +37,7 @@ Return information about a particular custom field (user-defined + extra) on a p
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FieldInfoBase
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Response body:
 GET /api/v1/Schema/{tableName}/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,17 +80,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Mayert-Sanford",
-  "DisplayName": "Crooks Inc and Sons",
-  "Description": "Object-based holistic hierarchy",
-  "ShortLabel": "fuga",
+  "FieldName": "Satterfield-Brakus",
+  "DisplayName": "Shields-Gutkowski",
+  "Description": "Triple-buffered radical installation",
+  "ShortLabel": "officia",
   "HideLabel": false,
   "HideField": true,
   "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": false,
+  "IsMandatory": false,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 114,
-  "TemplateVariableName": "Boyer-McDermott"
+  "Rank": 303,
+  "TemplateVariableName": "Kutch, Nienow and Dickens"
 }
 ```

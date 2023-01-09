@@ -12,8 +12,6 @@ GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Get a trigger CRMScript.
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -40,7 +38,7 @@ Get a trigger CRMScript.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -48,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TriggerScriptEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +60,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +69,7 @@ Response body:
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 309,
-  "Name": "Windler-Wintheiser",
+  "ScreenChooserId": 573,
+  "Name": "Johnston, Wintheiser and Raynor",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "asperiores",
-  "Source": "asperiores",
-  "Registered": "2019-02-28T02:49:51.6710218+01:00",
-  "RegisteredAssociateId": 424,
-  "Updated": "2021-12-10T02:49:51.6710218+01:00",
-  "UpdatedAssociateId": 438,
+  "Enabled": false,
+  "UniqueIdentifier": "voluptas",
+  "Source": "aliquid",
+  "Registered": "2019-07-26T17:37:39.3944306+02:00",
+  "RegisteredAssociateId": 984,
+  "Updated": "1996-03-09T17:37:39.3944306+01:00",
+  "UpdatedAssociateId": 63,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldType": "System.String",
+      "FieldLength": 979
     }
   }
 }

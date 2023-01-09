@@ -42,7 +42,7 @@ POST /api/v1/Contact/UdefLayout?udefFieldType=Checkbox
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +88,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,7 +97,7 @@ Response body:
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 27,
-  "ColumnId": 63,
-  "FieldDefault": "animi",
-  "FieldHeight": 188,
-  "FieldLabel": "ex",
-  "FieldLeft": 377,
-  "FieldTop": 529,
+  "UDefFieldId": 45,
+  "ColumnId": 302,
+  "FieldDefault": "harum",
+  "FieldHeight": 464,
+  "FieldLabel": "nisi",
+  "FieldLeft": 771,
+  "FieldTop": 921,
   "FieldType": "Checkbox",
-  "FieldWidth": 613,
-  "FormatMask": "qui",
+  "FieldWidth": 171,
+  "FormatMask": "assumenda",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 72,
-  "LabelLeft": 230,
-  "LabelTop": 681,
-  "LabelWidth": 410,
-  "LastVersionId": 554,
-  "ListTableId": 404,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 443,
+  "LabelLeft": 594,
+  "LabelTop": 838,
+  "LabelWidth": 472,
+  "LastVersionId": 221,
+  "ListTableId": 664,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 814,
-  "ProgId": "repellat",
+  "Page1LineNo": 191,
+  "ProgId": "voluptatibus",
   "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 593,
-  "TextLength": 54,
-  "Tooltip": "autem",
-  "UdefIdentity": 633,
-  "UDListDefinitionId": 953,
+  "ShortLabel": "neque",
+  "TabOrder": 83,
+  "TextLength": 565,
+  "Tooltip": "molestias",
+  "UdefIdentity": 253,
+  "UDListDefinitionId": 991,
   "Justification": "Center",
-  "Version": 392,
-  "TemplateVariableName": "Gislason-VonRueden",
+  "Version": 603,
+  "TemplateVariableName": "Greenfelder-Murray",
   "HasBeenPublished": true,
-  "MdoListName": "Hammes Group",
+  "MdoListName": "Casper Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 172
+      "FieldType": "System.Int32",
+      "FieldLength": 696
     }
   }
 }

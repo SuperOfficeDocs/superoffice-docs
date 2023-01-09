@@ -44,17 +44,16 @@ POST /api/v1/Agents/CustomerService/CreateTicketFromMailData?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MailboxId, Data 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MailboxId | int32 |  |
-| Data | string |  |
+| MailboxId | Integer |  |
+| Data | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | TicketUrl | string | A URL leading directly to the created request. This is a URL ment to be used by a Service user |
 | PersonName | string | The name of the person/customer connected to the ticket |
 | ContactName | string | The name of the contact/company connected to the ticket |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,12 +82,12 @@ Response body:
 POST /api/v1/Agents/CustomerService/CreateTicketFromMailData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailboxId": 758,
-  "Data": "quia"
+  "MailboxId": 877,
+  "Data": "doloribus"
 }
 ```
 
@@ -99,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 330,
-  "Title": "dolores",
-  "OwnerName": "Wilderman, Zulauf and Roberts",
+  "TicketId": 608,
+  "Title": "eos",
+  "OwnerName": "Konopelski, Konopelski and Lang",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Rosenbaum, Jones and Williamson",
+  "PriorityName": "Wilderman, Wyman and Abbott",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Dooley, Shields and Dicki",
-  "ContactName": "Gutmann, Donnelly and Strosin",
+  "PersonName": "Dietrich-Strosin",
+  "ContactName": "Lakin-Kilback",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldType": "System.String",
+      "FieldLength": 999
     }
   }
 }

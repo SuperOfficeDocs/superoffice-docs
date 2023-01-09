@@ -44,16 +44,15 @@ POST /api/v1/Agents/Appointment/GetMyTasks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Count | int32 |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -114,7 +113,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -123,11 +122,11 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 179
+  "Count": 979
 }
 ```
 
@@ -139,61 +138,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 927,
-    "StartDate": "2003-12-18T02:49:43.5129081+01:00",
-    "EndDate": "2019-01-21T02:49:43.5129081+01:00",
+    "AppointmentId": 134,
+    "StartDate": "2004-03-12T17:37:16.5882447+01:00",
+    "EndDate": "2014-12-04T17:37:16.5882447+01:00",
     "Type": "BookingForChecklist",
-    "Task": "incidunt",
-    "AssociateFullName": "Jedidiah Kutch",
-    "ContactName": "Ward, Hermiston and Bartell",
-    "Description": "Devolved needs-based task-force",
-    "PersonFullName": "Malcolm Turner DDS",
-    "PersonId": 678,
-    "ContactId": 565,
-    "ProjectId": 845,
-    "ProjectName": "Dibbert Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 436,
-    "ColorIndex": 452,
+    "Task": "odio",
+    "AssociateFullName": "Obie Amely Wunsch V",
+    "ContactName": "Jacobson Group",
+    "Description": "Multi-channelled foreground migration",
+    "PersonFullName": "Sandrine Hyatt I",
+    "PersonId": 576,
+    "ContactId": 513,
+    "ProjectId": 244,
+    "ProjectName": "Bauch, Jakubowski and Hayes",
+    "IsPublished": true,
+    "AssociateId": 642,
+    "ColorIndex": 490,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 7,
-    "PriorityName": "Osinski-Hoeger",
+    "PriorityId": 451,
+    "PriorityName": "Becker LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1997-10-03T02:49:43.5129081+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2003-11-28T17:37:16.5882447+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-11-15T02:49:43.5129081+01:00",
-    "RecurringEndDate": "1995-10-08T02:49:43.5129081+02:00",
-    "MotherId": 599,
-    "AssignedBy": 933,
-    "AssignedByFullName": "Maria Miller",
-    "RejectReason": "brand dot-com models",
-    "Location": "itaque",
-    "AlarmLeadTime": "fugiat",
-    "SaleId": 481,
-    "SaleName": "Cartwright-Ortiz",
-    "AssociateName": "Will, Schowalter and Zieme",
-    "CreatedDate": "1996-07-14T02:49:43.5129081+02:00",
-    "CreatedBy": "eaque",
-    "CreatedByFullName": "Brennan Beer",
-    "CreatedByAssociateId": 771,
+    "RecurringStartDate": "1997-03-27T17:37:16.5892446+01:00",
+    "RecurringEndDate": "2016-05-05T17:37:16.5892446+02:00",
+    "MotherId": 112,
+    "AssignedBy": 495,
+    "AssignedByFullName": "Dr. Kevon Jacobs",
+    "RejectReason": "",
+    "Location": "est",
+    "AlarmLeadTime": "vel",
+    "SaleId": 692,
+    "SaleName": "Nader Inc and Sons",
+    "AssociateName": "Adams, Adams and Jacobson",
+    "CreatedDate": "2006-04-10T17:37:16.5892446+02:00",
+    "CreatedBy": "quam",
+    "CreatedByFullName": "Dr. Eliezer Price",
+    "CreatedByAssociateId": 849,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 934
+        "FieldType": "System.Int32",
+        "FieldLength": 990
       }
     }
   }

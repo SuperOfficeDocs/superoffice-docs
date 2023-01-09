@@ -26,7 +26,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=in
+GET /api/v1/List/Business/MDOItems?query=facere
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/Business/MDOItems?query=in
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "Stamm, Raynor and Hettinger",
-    "ToolTip": "Ipsum voluptatibus explicabo et sed aut.",
-    "Deleted": false,
-    "Rank": 814,
-    "Type": "quia",
+    "Id": 263,
+    "Name": "Daniel-Runolfsdottir",
+    "ToolTip": "Voluptatem aut magnam provident voluptates.",
+    "Deleted": true,
+    "Rank": 767,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 167,
-        "Name": "Bergstrom-Hagenes",
-        "ToolTip": "Saepe pariatur excepturi.",
+        "Id": 545,
+        "Name": "Anderson Inc and Sons",
+        "ToolTip": "Enim et.",
         "Deleted": false,
-        "Rank": 971,
-        "Type": "eaque",
+        "Rank": 150,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 273,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "laborum",
-        "FullName": "Earl Muller Sr.",
+        "IconHint": "ut",
+        "ColorBlock": 106,
+        "ExtraInfo": "facere",
+        "StyleHint": "eaque",
+        "FullName": "Ms. Eduardo Balistreri PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 930
+            "FieldType": "System.Int32",
+            "FieldLength": 156
           }
         }
       }
     ],
-    "IconHint": "iste",
-    "ColorBlock": 776,
-    "ExtraInfo": "tempore",
-    "StyleHint": "delectus",
-    "FullName": "Bartholome Dare",
+    "IconHint": "maiores",
+    "ColorBlock": 429,
+    "ExtraInfo": "molestias",
+    "StyleHint": "consectetur",
+    "FullName": "Adela Botsford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 681
+        "FieldLength": 197
       }
     }
   }

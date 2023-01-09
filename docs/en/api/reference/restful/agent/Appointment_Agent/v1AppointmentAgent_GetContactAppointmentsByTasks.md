@@ -44,20 +44,19 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, StartTime, EndTime, Count, TaskIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TaskIds | array |  |
+| ContactId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TaskIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -131,13 +130,13 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 227,
-  "StartTime": "2017-09-23T02:49:43.2304992+02:00",
-  "EndTime": "2021-04-27T02:49:43.2304992+02:00",
-  "Count": 739,
+  "ContactId": 861,
+  "StartTime": "2016-02-09T17:37:16.2442419+01:00",
+  "EndTime": "2004-03-18T17:37:16.2442419+01:00",
+  "Count": 701,
   "TaskIds": [
-    258,
-    326
+    164,
+    25
   ]
 }
 ```
@@ -150,53 +149,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 378,
-    "StartDate": "1996-07-18T02:49:43.2304992+02:00",
-    "EndDate": "2009-06-27T02:49:43.2304992+02:00",
+    "AppointmentId": 518,
+    "StartDate": "2008-01-02T17:37:16.2452417+01:00",
+    "EndDate": "2014-12-31T17:37:16.2452417+01:00",
     "Type": "BookingForChecklist",
-    "Task": "necessitatibus",
-    "AssociateFullName": "Elijah Hartmann",
-    "ContactName": "Cartwright, Fritsch and Mohr",
-    "Description": "Automated dynamic forecast",
-    "PersonFullName": "Mrs. Eusebio Kirlin PhD",
-    "PersonId": 423,
-    "ContactId": 397,
-    "ProjectId": 655,
-    "ProjectName": "Block-Wunsch",
-    "IsPublished": true,
-    "AssociateId": 315,
-    "ColorIndex": 902,
+    "Task": "officia",
+    "AssociateFullName": "Willy Breanne Mraz PhD",
+    "ContactName": "Russel-Braun",
+    "Description": "Object-based impactful task-force",
+    "PersonFullName": "Jade Pfeffer",
+    "PersonId": 871,
+    "ContactId": 869,
+    "ProjectId": 771,
+    "ProjectName": "Ortiz-Grant",
+    "IsPublished": false,
+    "AssociateId": 713,
+    "ColorIndex": 595,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 182,
-    "PriorityName": "Cruickshank, Blanda and Goodwin",
+    "PriorityId": 358,
+    "PriorityName": "Bernier, Ledner and Quigley",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1996-09-05T02:49:43.2304992+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2021-09-15T17:37:16.2462423+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-10-03T02:49:43.2304992+02:00",
-    "RecurringEndDate": "2001-08-12T02:49:43.2304992+02:00",
-    "MotherId": 312,
-    "AssignedBy": 699,
-    "AssignedByFullName": "Devon Schmitt",
-    "RejectReason": "repurpose viral ROI",
-    "Location": "ut",
-    "AlarmLeadTime": "beatae",
-    "SaleId": 89,
-    "SaleName": "Lowe-Schulist",
-    "AssociateName": "Kuhic LLC",
-    "CreatedDate": "1996-11-19T02:49:43.2304992+01:00",
-    "CreatedBy": "libero",
-    "CreatedByFullName": "Prof. Kamille Bryce Cremin IV",
-    "CreatedByAssociateId": 51,
+    "RecurringStartDate": "1997-07-23T17:37:16.2462423+02:00",
+    "RecurringEndDate": "2007-06-06T17:37:16.2462423+02:00",
+    "MotherId": 484,
+    "AssignedBy": 364,
+    "AssignedByFullName": "Miss Hector Bradtke",
+    "RejectReason": "",
+    "Location": "quidem",
+    "AlarmLeadTime": "et",
+    "SaleId": 999,
+    "SaleName": "Bradtke, Turner and Beahan",
+    "AssociateName": "Orn LLC",
+    "CreatedDate": "2015-01-12T17:37:16.2462423+01:00",
+    "CreatedBy": "nihil",
+    "CreatedByFullName": "Mossie Blanda",
+    "CreatedByAssociateId": 857,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -204,7 +203,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldLength": 442
       }
     }
   }

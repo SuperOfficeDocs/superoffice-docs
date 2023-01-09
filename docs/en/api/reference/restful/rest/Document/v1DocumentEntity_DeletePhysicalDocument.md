@@ -42,7 +42,7 @@ DELETE /api/v1/Document/{documentId}/Content?allowedReturnType=Message
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,11 +77,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "incidunt",
-  "VersionId": "culpa",
+  "ExternalReference": "neque",
+  "VersionId": "voluptatum",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "amet",
-  "AdditionalInfo": "tenetur"
+  "Value": "et",
+  "AdditionalInfo": "voluptates"
 }
 ```

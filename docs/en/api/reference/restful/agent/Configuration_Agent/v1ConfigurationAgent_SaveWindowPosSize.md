@@ -42,16 +42,15 @@ POST /api/v1/Agents/Configuration/SaveWindowPosSize?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 WindowPosSize 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| WindowPosSize |  |  |
+| WindowPosSize | TableRight |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | UpperY | int32 |  |
 | Width | int32 |  |
 | WindowPosSizeId | int32 |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +82,7 @@ Response body:
 POST /api/v1/Agents/Configuration/SaveWindowPosSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,23 +97,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "dolorem",
-  "PersonId": 850,
-  "AssociateId": 738,
-  "ExtraId": 77,
-  "ExtraInfo": "ducimus",
-  "Height": 887,
-  "LeftX": 386,
+  "OwnerWindow": "qui",
+  "PersonId": 772,
+  "AssociateId": 574,
+  "ExtraId": 370,
+  "ExtraInfo": "nihil",
+  "Height": 925,
+  "LeftX": 246,
   "State": "Maximized",
-  "UpperY": 783,
-  "Width": 455,
-  "WindowPosSizeId": 346,
+  "UpperY": 370,
+  "Width": 944,
+  "WindowPosSizeId": 574,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 997
+      "FieldLength": 428
     }
   }
 }

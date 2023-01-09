@@ -38,13 +38,6 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 
 
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,23 +63,22 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Columns | array |  |
-| SortOrder | array |  |
-| Restriction | array |  |
-| Entities | array |  |
-| Page | int32 |  |
-| PageSize | int32 |  |
-| Options | string |  |
+| ProviderName | String |  |
+| Columns | Array |  |
+| SortOrder | Array |  |
+| Restriction | Array |  |
+| Entities | Array |  |
+| Page | Integer |  |
+| PageSize | Integer |  |
+| Options | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -94,13 +86,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ArchiveListResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
 | Rows | array | The actual rows, according to the paging info, of the result. See RowCount for a paging-independent count estimate |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -109,55 +101,55 @@ Response body:
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Sawayn, Padberg and Wolff",
+  "ProviderName": "Hessel, Gulgowski and Boehm",
   "Columns": [
-    "labore",
-    "quibusdam"
+    "et",
+    "earum"
   ],
   "SortOrder": [
     {
-      "Name": "Bergstrom Group",
+      "Name": "Koch-Heathcote",
       "Direction": "ASC"
     },
     {
-      "Name": "Bergstrom Group",
+      "Name": "Koch-Heathcote",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Bernhard LLC",
-      "Operator": "sunt",
+      "Name": "Johnston LLC",
+      "Operator": "ea",
       "Values": [
-        "officia",
-        "corrupti"
+        "id",
+        "placeat"
       ],
       "DisplayValues": [
-        "quasi",
-        "illo"
+        "molestias",
+        "ratione"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 49,
+      "InterParenthesis": 956,
       "InterOperator": "And",
-      "UniqueHash": 833
+      "UniqueHash": 412
     }
   ],
   "Entities": [
-    "eum",
-    "blanditiis"
+    "consectetur",
+    "sit"
   ],
-  "Page": 763,
-  "PageSize": 284,
-  "Options": "accusamus"
+  "Page": 557,
+  "PageSize": 749,
+  "Options": "voluptatem"
 }
 ```
 
@@ -168,26 +160,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 254,
+  "RowCount": 701,
   "Rows": [
     {
-      "EntityName": "Cummings, Mayer and Gleichner",
-      "PrimaryKey": 575,
+      "EntityName": "Schoen LLC",
+      "PrimaryKey": 583,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "itaque",
-          "TooltipHint": "repellendus",
-          "LinkHint": "omnis"
+          "DisplayValue": "ut",
+          "TooltipHint": "blanditiis",
+          "LinkHint": "sed"
         }
       },
-      "LinkHint": "explicabo",
-      "StyleHint": "in",
+      "LinkHint": "vero",
+      "StyleHint": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 928
+          "FieldType": "System.String",
+          "FieldLength": 601
         }
       }
     }
@@ -197,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 715
     }
   }
 }

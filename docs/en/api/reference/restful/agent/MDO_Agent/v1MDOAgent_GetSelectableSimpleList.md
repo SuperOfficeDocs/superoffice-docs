@@ -42,16 +42,15 @@ POST /api/v1/Agents/MDO/GetSelectableSimpleList?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
+| Name | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,11 +86,11 @@ Response body: array
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Reichel-Cartwright"
+  "Name": "Mohr Inc and Sons"
 }
 ```
 
@@ -103,56 +102,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Hettinger-Wolff",
-    "ToolTip": "Autem omnis velit excepturi.",
-    "Deleted": false,
-    "Rank": 988,
-    "Type": "dolorem",
-    "ColorBlock": 891,
-    "IconHint": "recusandae",
-    "Selected": false,
-    "LastChanged": "2013-11-16T02:49:44.7340524+01:00",
+    "Id": 314,
+    "Name": "Becker, Volkman and Walsh",
+    "ToolTip": "Qui quae saepe dicta delectus ab.",
+    "Deleted": true,
+    "Rank": 215,
+    "Type": "excepturi",
+    "ColorBlock": 720,
+    "IconHint": "saepe",
+    "Selected": true,
+    "LastChanged": "1998-05-16T17:37:18.3382417+02:00",
     "ChildItems": [
       {
-        "Id": 342,
-        "Name": "Dickens Inc and Sons",
-        "ToolTip": "Voluptate nemo esse iure.",
+        "Id": 828,
+        "Name": "Brakus-Bahringer",
+        "ToolTip": "Adipisci qui nisi dolore minima illum aliquam.",
         "Deleted": false,
-        "Rank": 152,
-        "Type": "dignissimos",
-        "ColorBlock": 246,
-        "IconHint": "quaerat",
-        "Selected": false,
-        "LastChanged": "2000-02-10T02:49:44.7340524+01:00",
+        "Rank": 487,
+        "Type": "repellendus",
+        "ColorBlock": 745,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "2018-12-05T17:37:18.3382417+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "corporis",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Zander Farrell",
+        "FullName": "Miss Scottie Hermann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 452
+            "FieldType": "System.Int32",
+            "FieldLength": 359
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Dr. Willard Anderson",
+    "ExtraInfo": "culpa",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Ms. Lula Fay III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldLength": 817
       }
     }
   }

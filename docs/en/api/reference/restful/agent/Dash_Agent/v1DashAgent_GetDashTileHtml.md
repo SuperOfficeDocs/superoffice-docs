@@ -42,17 +42,16 @@ POST /api/v1/Agents/Dash/GetDashTileHtml?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DashboardTileDefinitionId, LanguageCode 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardTileDefinitionId | int32 |  |
-| LanguageCode | string |  |
+| DashboardTileDefinitionId | Integer |  |
+| LanguageCode | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,13 +59,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTileHtml
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LanguageCode | string | Content language |
 | Html | string | HTML data |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 400,
-  "LanguageCode": "tenetur"
+  "DashboardTileDefinitionId": 39,
+  "LanguageCode": "rerum"
 }
 ```
 
@@ -91,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "et",
-  "Html": "ut",
+  "LanguageCode": "quis",
+  "Html": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 938
+      "FieldType": "System.Int32",
+      "FieldLength": 187
     }
   }
 }

@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Bogan, Parisian and Erdman",
-    "ToolTip": "Vitae voluptatem consequuntur assumenda sunt.",
-    "Deleted": false,
-    "Rank": 217,
-    "Type": "id",
-    "ColorBlock": 104,
+    "Id": 520,
+    "Name": "Marks Inc and Sons",
+    "ToolTip": "Facilis et repudiandae nam dolores.",
+    "Deleted": true,
+    "Rank": 465,
+    "Type": "reprehenderit",
+    "ColorBlock": 797,
     "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2015-03-11T02:49:52.3909486+01:00",
+    "LastChanged": "1997-02-18T17:37:40.2004719+01:00",
     "ChildItems": [
       {
-        "Id": 715,
-        "Name": "Feest, Fritsch and Ferry",
-        "ToolTip": "Nesciunt architecto magnam laboriosam qui.",
-        "Deleted": false,
-        "Rank": 268,
-        "Type": "ut",
-        "ColorBlock": 89,
-        "IconHint": "hic",
+        "Id": 458,
+        "Name": "Volkman, Johnston and Kris",
+        "ToolTip": "Nobis ipsa consectetur eos omnis explicabo nostrum.",
+        "Deleted": true,
+        "Rank": 945,
+        "Type": "voluptates",
+        "ColorBlock": 65,
+        "IconHint": "quisquam",
         "Selected": true,
-        "LastChanged": "2017-12-04T02:49:52.3909486+01:00",
+        "LastChanged": "2008-02-03T17:37:40.2004719+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "quisquam",
-        "Hidden": false,
-        "FullName": "Kamren Crist",
+        "ExtraInfo": "eum",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Fabiola Emmerich Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 851
+            "FieldType": "System.String",
+            "FieldLength": 895
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "minima",
+    "ExtraInfo": "rerum",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Laisha Hermiston",
+    "FullName": "Carley Predovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldLength": 204
       }
     }
   }

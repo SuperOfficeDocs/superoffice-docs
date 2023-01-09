@@ -34,7 +34,7 @@ Calls the List agent service GetAllConsentPurpose.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,12 +54,12 @@ Response body: array
 | Tooltip | string | List item tooltip |
 | Active | int32 | Is the consent purpose active or not |
 | UpdatedDate | date-time | The date the consent purpose was last updated  in UTC. |
-| UpdatedBy |  | The associate that last updated the consent purpose |
+| UpdatedBy | Associate | The associate that last updated the consent purpose |
 | Deleted | bool | true if the ConsentPurpose is deleted |
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -68,7 +68,7 @@ Response body: array
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,25 +79,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 58,
-    "Name": "O'Kon-Crist",
-    "ConsentText": "delectus",
-    "FormText": "aliquid",
-    "Key": "ea",
-    "Tooltip": "occaecati",
-    "Active": 73,
-    "UpdatedDate": "2010-03-24T02:49:51.9378192+01:00",
+    "ConsentPurposeId": 520,
+    "Name": "Gorczany Group",
+    "ConsentText": "nobis",
+    "FormText": "voluptas",
+    "Key": "animi",
+    "Tooltip": "totam",
+    "Active": 657,
+    "UpdatedDate": "2013-10-26T17:37:39.8895009+02:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 848,
-    "PrivacyStatementDesc": "dolor",
+    "Rank": 208,
+    "PrivacyStatementDesc": "distinctio",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldLength": 130
       }
     }
   }

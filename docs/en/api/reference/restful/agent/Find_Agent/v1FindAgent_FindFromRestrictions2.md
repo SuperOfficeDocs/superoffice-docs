@@ -102,9 +102,6 @@ Use backslash to escape single quotes in strings
 
 
 
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -130,19 +127,18 @@ POST /api/v1/Agents/Find/FindFromRestrictions2?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Restrictions, ProviderName, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Restrictions | string |  |
-| ProviderName | string |  |
-| PageSize | int32 |  |
-| PageNumber | int32 |  |
+| Restrictions | String |  |
+| ProviderName | String |  |
+| PageSize | Integer |  |
+| PageNumber | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -150,14 +146,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FindResults
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -166,14 +162,14 @@ Response body:
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "iure",
-  "ProviderName": "Jast, Bechtelar and Schiller",
-  "PageSize": 635,
-  "PageNumber": 70
+  "Restrictions": "in",
+  "ProviderName": "Tremblay, Huels and Fahey",
+  "PageSize": 119,
+  "PageNumber": 296
 }
 ```
 
@@ -186,51 +182,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hartmann, Grant and Goodwin",
-      "DisplayTooltip": "et",
-      "DisplayType": "optio",
+      "DisplayName": "Witting, Dickinson and Langosh",
+      "DisplayTooltip": "voluptates",
+      "DisplayType": "quae",
       "CanOrderBy": false,
-      "Name": "Stark-Dicki",
+      "Name": "Huels-Hermann",
       "CanRestrictBy": false,
-      "RestrictionType": "harum",
-      "RestrictionListName": "Crona-Waelchi",
-      "IsVisible": false,
-      "ExtraInfo": "in",
-      "Width": "quod",
-      "IconHint": "id",
-      "HeadingIconHint": "rerum"
+      "RestrictionType": "delectus",
+      "RestrictionListName": "Goyette-Rath",
+      "IsVisible": true,
+      "ExtraInfo": "error",
+      "Width": "ut",
+      "IconHint": "autem",
+      "HeadingIconHint": "impedit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kautzer, Gutmann and Torp",
-      "PrimaryKey": 823,
+      "EntityName": "Stanton-Crist",
+      "PrimaryKey": 728,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "doloremque",
-          "TooltipHint": "enim",
-          "LinkHint": "ex"
+          "DisplayValue": "sed",
+          "TooltipHint": "autem",
+          "LinkHint": "sint"
         }
       },
-      "LinkHint": "a",
-      "StyleHint": "consequuntur",
+      "LinkHint": "expedita",
+      "StyleHint": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 392
+          "FieldType": "System.Int32",
+          "FieldLength": 486
         }
       }
     }
   ],
-  "RowCount": 903,
+  "RowCount": 193,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldType": "System.String",
+      "FieldLength": 900
     }
   }
 }

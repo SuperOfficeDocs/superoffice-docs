@@ -26,7 +26,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=natus
+GET /api/v1/List/ProductCategory/MDOItems?query=aut
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/ProductCategory/MDOItems?query=natus
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 934,
-    "Name": "Bahringer Group",
-    "ToolTip": "Sed sit quis nostrum.",
-    "Deleted": true,
-    "Rank": 953,
-    "Type": "sint",
+    "Id": 760,
+    "Name": "Klein LLC",
+    "ToolTip": "Qui hic consectetur culpa.",
+    "Deleted": false,
+    "Rank": 406,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 282,
-        "Name": "Renner, Padberg and Doyle",
-        "ToolTip": "Ut minima porro vel qui.",
-        "Deleted": false,
-        "Rank": 463,
-        "Type": "facere",
+        "Id": 505,
+        "Name": "Deckow-Blanda",
+        "ToolTip": "Impedit deserunt consequatur est et.",
+        "Deleted": true,
+        "Rank": 40,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 421,
-        "ExtraInfo": "provident",
-        "StyleHint": "et",
-        "FullName": "Annabell Simonis",
+        "IconHint": "officia",
+        "ColorBlock": 842,
+        "ExtraInfo": "quasi",
+        "StyleHint": "esse",
+        "FullName": "Randi Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 686
+            "FieldType": "System.String",
+            "FieldLength": 15
           }
         }
       }
     ],
-    "IconHint": "odit",
-    "ColorBlock": 688,
-    "ExtraInfo": "illum",
-    "StyleHint": "laborum",
-    "FullName": "Dr. Corene Windler II",
+    "IconHint": "quia",
+    "ColorBlock": 358,
+    "ExtraInfo": "sit",
+    "StyleHint": "temporibus",
+    "FullName": "Brandyn Labadie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 719
+        "FieldLength": 849
       }
     }
   }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
+| QuoteVersionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteVersionButtonState
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body:
 | DisplayText | string | Text to be displayed on the button |
 | TooltipText | string | The tooltip for the button |
 | Enabled | bool | Indicate if the button should be enabled or disabled |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,11 +76,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 647
+  "QuoteVersionId": 937
 }
 ```
 
@@ -94,15 +93,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Action": "Approve",
   "ImageHint": "ipsa",
-  "DisplayText": "magnam",
-  "TooltipText": "quis",
+  "DisplayText": "temporibus",
+  "TooltipText": "omnis",
   "Enabled": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 975
     }
   }
 }

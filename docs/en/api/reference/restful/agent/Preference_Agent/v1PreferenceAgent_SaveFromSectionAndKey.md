@@ -42,18 +42,17 @@ POST /api/v1/Agents/Preference/SaveFromSectionAndKey?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Section, Key, PreferenceDescription 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Section | string |  |
-| Key | string |  |
-| PreferenceDescription |  | Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. <para /> Carrier object for PreferenceDescription. Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
+| Section | String |  |
+| Key | String |  |
+| PreferenceDescription | PreferenceDescription | Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. <para /> Carrier object for PreferenceDescription. Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreferenceDescription
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +82,7 @@ Response body:
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,12 +91,12 @@ Response body:
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ut",
-  "Key": "nihil",
+  "Section": "debitis",
+  "Key": "placeat",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 983,
-  "Section": "repellat",
-  "Key": "modi",
-  "Name": "Gusikowski, Collins and Schneider",
+  "PrefDescId": 135,
+  "Section": "recusandae",
+  "Key": "porro",
+  "Name": "Daugherty LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Expanded empowering infrastructure",
-  "IsBuiltin": true,
-  "TableName": "Cartwright, Dicki and Gutkowski",
-  "UserDefinedListId": 881,
-  "Rank": 437,
-  "SubGroup": "ipsam",
-  "MinLevel": 346,
-  "MaxValue": 812,
-  "MinValue": 700,
-  "RequiredLicense": "eius",
+  "Description": "Integrated explicit flexibility",
+  "IsBuiltin": false,
+  "TableName": "Ryan, Glover and Rice",
+  "UserDefinedListId": 591,
+  "Rank": 750,
+  "SubGroup": "nobis",
+  "MinLevel": 677,
+  "MaxValue": 929,
+  "MinValue": 930,
+  "RequiredLicense": "illo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldLength": 546
     }
   }
 }

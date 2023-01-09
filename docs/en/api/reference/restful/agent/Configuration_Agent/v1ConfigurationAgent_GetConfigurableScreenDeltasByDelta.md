@@ -42,16 +42,15 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConfigurableScreenDelta 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConfigurableScreenDelta |  |  |
+| ConfigurableScreenDelta | TableRight |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,11 +71,11 @@ Response body: array
 | RecipeId | string |  |
 | UpdatedDate | date-time |  |
 | CreatedDate | date-time |  |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -101,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 37,
-    "Name": "Terry-Hettinger",
-    "Description": "Organized value-added adapter",
-    "DeltaJson": "consectetur",
+    "ConfigurableScreenDeltaId": 777,
+    "Name": "Herzog-Johnston",
+    "Description": "De-engineered leading edge firmware",
+    "DeltaJson": "labore",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "velit",
-    "UpdatedDate": "2018-12-16T02:49:43.8566571+01:00",
-    "CreatedDate": "2013-12-27T02:49:43.8566571+01:00",
+    "RecipeId": "tenetur",
+    "UpdatedDate": "1995-11-10T17:37:17.1252447+01:00",
+    "CreatedDate": "2001-09-17T17:37:17.1252447+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      979,
-      24
+      738,
+      548
     ],
-    "AppliesToKey": "dolor",
+    "AppliesToKey": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 59
+        "FieldType": "System.Int32",
+        "FieldLength": 335
       }
     }
   }

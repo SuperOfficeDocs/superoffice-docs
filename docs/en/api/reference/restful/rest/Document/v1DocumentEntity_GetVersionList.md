@@ -36,7 +36,7 @@ Get a list of existing, committed  versions for a given document
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "et",
-    "DocumentId": 948,
-    "VersionId": "voluptatibus",
-    "CheckedInDate": "2015-05-15T02:49:50.9484136+02:00",
-    "CheckedInByName": "Hand LLC",
-    "CheckedInByAssociateId": 114,
-    "Description": "Realigned solution-oriented encoding",
-    "DisplayText": "itaque",
+    "ExternalReference": "saepe",
+    "DocumentId": 391,
+    "VersionId": "accusamus",
+    "CheckedInDate": "2004-10-25T17:37:38.5908308+02:00",
+    "CheckedInByName": "Kunze-Hagenes",
+    "CheckedInByAssociateId": 907,
+    "Description": "Optional uniform info-mediaries",
+    "DisplayText": "qui",
     "ExtraFields": [
-      "quia",
-      "expedita"
+      "perspiciatis",
+      "possimus"
     ]
   }
 ]

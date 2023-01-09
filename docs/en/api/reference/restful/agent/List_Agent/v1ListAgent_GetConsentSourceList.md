@@ -42,13 +42,12 @@ POST /api/v1/Agents/List/GetConsentSourceList?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: consentSourceIds  
+## Request Body: consentSourceIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +66,7 @@ Response body: array
 | Key | string | The key used to uniquely identify this consent source |
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,7 +75,7 @@ Response body: array
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,19 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 972,
-    "Name": "Hartmann Group",
-    "Tooltip": "eos",
-    "Rank": 729,
-    "Key": "nihil",
-    "MailTemplateId": 703,
-    "Deleted": false,
+    "ConsentSourceId": 451,
+    "Name": "Hegmann-Lueilwitz",
+    "Tooltip": "quis",
+    "Rank": 632,
+    "Key": "consequatur",
+    "MailTemplateId": 275,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 564
+        "FieldType": "System.String",
+        "FieldLength": 170
       }
     }
   }

@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CRMScriptEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +60,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 411,
-  "UniqueIdentifier": "nam",
-  "Name": "Nader-Cummings",
-  "Description": "Visionary coherent software",
-  "IncludeId": "molestiae",
-  "HierarchyId": 168,
-  "Source": "voluptatem",
-  "Registered": "2009-01-27T02:49:50.8546634+01:00",
-  "RegisteredAssociateId": 218,
-  "Updated": "2001-02-08T02:49:50.8546634+01:00",
-  "UpdatedAssociateId": 929,
+  "EjscriptId": 757,
+  "UniqueIdentifier": "ex",
+  "Name": "Predovic Inc and Sons",
+  "Description": "Devolved attitude-oriented knowledge base",
+  "IncludeId": "voluptas",
+  "HierarchyId": 558,
+  "Source": "voluptas",
+  "Registered": "2016-04-01T17:37:38.4818626+02:00",
+  "RegisteredAssociateId": 655,
+  "Updated": "2003-09-14T17:37:38.4818626+02:00",
+  "UpdatedAssociateId": 918,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldLength": 995
     }
   }
 }

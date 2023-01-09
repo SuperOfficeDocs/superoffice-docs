@@ -71,18 +71,17 @@ PATCH /api/v1/ChatTopic/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 ChatTopicEntity  updated.
 
@@ -93,7 +92,7 @@ ChatTopicEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ChatTopicEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: ChatTopicEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,11 +100,11 @@ Response body:
 | Name | string | The name of this chat topic |
 | Description | string | The descriptiong for this topic. |
 | WelcomeMessage | string | The welcome message sent to the customer when the chat session starts. |
-| Language |  | Customer language used in this topic. Optional. |
+| Language | CustomerLanguage | Customer language used in this topic. Optional. |
 | LastAccept | date-time | The last time a session was accepted from the inside for this topic. |
 | SecondsPrAccept | int32 | The average number of seconds per accept for this topic. |
 | AlertRecipient | string | The recipient(s) for the alert template |
-| AlertTemplate |  | Template to use for alerts. |
+| AlertTemplate | ReplyTemplate | Template to use for alerts. |
 | CollectConsent | bool | Collect consent to store from user |
 | BadgeHeader | string | The badge header of the chat topic |
 | CustomQueueTextEnabled | bool | Use the custom queue message text |
@@ -113,13 +112,13 @@ Response body:
 | WarnNewChatMinutes | int32 | Contains the user notify time in minutes |
 | WarnManagerNewChatMinutes | int32 | Contains the manager notify time in minutes |
 | TicketEnabled | bool | Enable ticket submission in offline mode |
-| TicketCategory |  | Category on ticket created from off-line request |
-| TicketPriority |  | Priority on ticket created from off-line request |
+| TicketCategory | TicketCategory | Category on ticket created from off-line request |
+| TicketPriority | TicketPriority | Priority on ticket created from off-line request |
 | OpeningHoursEnabled | bool | Whether to use opening hours or not. |
-| OpeningHours |  | Opening hours settings |
-| Widget |  | Settings for the chat widget |
+| OpeningHours | ChatOpeningHours | Opening hours settings |
+| Widget | ChatWidgetSettings | Settings for the chat widget |
 | BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
-| BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
+| BotSettings | ChatBotSettings | Settings for chatbot: trigger script ids to run on bot events |
 | OfflineCollectConsent | bool | Collect offline consent to store from user |
 | WarnChatMessageMinutes | int32 | Contains the user notify time in minutes for new chat messages |
 | WarnManagerChatMessageMinutes | int32 | Contains the manager notify time in minutes for new chat messages |
@@ -128,7 +127,7 @@ Response body:
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -144,12 +143,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ipsum",
+    "path": "numquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ipsum",
+    "path": "numquam",
     "value": {}
   }
 ]
@@ -162,21 +161,21 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 749,
-  "Name": "Pollich, Haley and Fritsch",
-  "Description": "Operative interactive secured line",
-  "WelcomeMessage": "quo",
+  "ChatTopicId": 477,
+  "Name": "Towne LLC",
+  "Description": "Secured composite groupware",
+  "WelcomeMessage": "dolorum",
   "Language": null,
-  "LastAccept": "2019-12-14T02:49:50.6984105+01:00",
-  "SecondsPrAccept": 214,
-  "AlertRecipient": "qui",
+  "LastAccept": "2019-01-06T17:37:38.3068598+01:00",
+  "SecondsPrAccept": 621,
+  "AlertRecipient": "voluptas",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "laudantium",
+  "BadgeHeader": "voluptatem",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "maiores",
-  "WarnNewChatMinutes": 503,
-  "WarnManagerNewChatMinutes": 437,
+  "CustomQueueText": "inventore",
+  "WarnNewChatMinutes": 378,
+  "WarnManagerNewChatMinutes": 67,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -185,20 +184,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 525,
-  "WarnManagerChatMessageMinutes": 852,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 771,
-  "OfflineFormQueueLength": 22,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 297,
+  "WarnManagerChatMessageMinutes": 948,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 602,
+  "OfflineFormQueueLength": 476,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "vel",
+  "WidgetRatingText": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 931
+      "FieldType": "System.Int32",
+      "FieldLength": 569
     }
   },
   "_Links": {

@@ -34,7 +34,7 @@ Calls the Person agent service DeletePersonEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 PersonEntity deleted.
 
@@ -43,7 +43,7 @@ PersonEntity deleted.
 | 204 | PersonEntity deleted. |
 | 412 | Delete aborted because PersonEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request

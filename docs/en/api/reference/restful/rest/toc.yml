@@ -2802,6 +2802,8 @@ items:
     href: User/v1User_GetUserCommands.md
   - name: GET User/{id}/ForeignKey
     href: User/v1User_GetAllForeignKeysOnEntity.md
+  - name: GET User/{id}/UserPresenceStatus
+    href: User/v1User_GetUserPresenceStatus.md
   - name: GET User/{userName}
     href: User/v1User_GetUserFromName.md
   - name: GET User/CredentialTypes
@@ -2830,6 +2832,8 @@ items:
     href: User/v1User_ValidateUser.md
   - name: PUT User/{id}
     href: User/v1User_PutUser.md
+  - name: PUT User/{id}/UserPresenceStatus
+    href: User/v1User_SetUserPresenceStatus.md
   - name: PUT User/{userName}
     href: User/v1User_SaveUserFromName.md
 - name: Webhook

@@ -264,6 +264,10 @@ items:
     href: Archive_Agent/v1ArchiveAgent_GetGroupAssociateIds.md
   - name: GetProviderNames
     href: Archive_Agent/v1ArchiveAgent_GetProviderNames.md
+  - name: GetRelatedData
+    href: Archive_Agent/v1ArchiveAgent_GetRelatedData.md
+  - name: GetRelatedData2
+    href: Archive_Agent/v1ArchiveAgent_GetRelatedData2.md
   - name: SetActivityFilter
     href: Archive_Agent/v1ArchiveAgent_SetActivityFilter.md
   - name: SetChosenColumns
@@ -1354,6 +1358,8 @@ items:
     href: EMail_Agent/v1EMailAgent_HasMXRecord.md
   - name: HasNewMail
     href: EMail_Agent/v1EMailAgent_HasNewMail.md
+  - name: HasSPFRecord
+    href: EMail_Agent/v1EMailAgent_HasSPFRecord.md
   - name: LatestItemIdByFolder
     href: EMail_Agent/v1EMailAgent_LatestItemIdByFolder.md
   - name: MarkAsRead
@@ -1786,6 +1792,8 @@ items:
     href: List_Agent/v1ListAgent_CreateDefaultSaleStageEntity.md
   - name: CreateDefaultSaleTypeEntity
     href: List_Agent/v1ListAgent_CreateDefaultSaleTypeEntity.md
+  - name: CreateDefaultTaskMenu
+    href: List_Agent/v1ListAgent_CreateDefaultTaskMenu.md
   - name: CreateDefaultTicketCategoryEntity
     href: List_Agent/v1ListAgent_CreateDefaultTicketCategoryEntity.md
   - name: CreateDefaultTicketPriorityEntity
@@ -1822,6 +1830,8 @@ items:
     href: List_Agent/v1ListAgent_DeleteProjectStatus.md
   - name: DeleteResourceEntity
     href: List_Agent/v1ListAgent_DeleteResourceEntity.md
+  - name: DeleteTaskMenu
+    href: List_Agent/v1ListAgent_DeleteTaskMenu.md
   - name: DeleteTicketCategoryEntity
     href: List_Agent/v1ListAgent_DeleteTicketCategoryEntity.md
   - name: DeleteTicketPriorityEntity
@@ -2144,6 +2154,8 @@ items:
     href: List_Agent/v1ListAgent_GetTask.md
   - name: GetTaskList
     href: List_Agent/v1ListAgent_GetTaskList.md
+  - name: GetTaskMenu
+    href: List_Agent/v1ListAgent_GetTaskMenu.md
   - name: GetTasks
     href: List_Agent/v1ListAgent_GetTasks.md
   - name: GetTicketCategories
@@ -2248,6 +2260,8 @@ items:
     href: List_Agent/v1ListAgent_SaveSaleStageEntity.md
   - name: SaveSaleTypeEntity
     href: List_Agent/v1ListAgent_SaveSaleTypeEntity.md
+  - name: SaveTaskMenu
+    href: List_Agent/v1ListAgent_SaveTaskMenu.md
   - name: SaveTicketCategoryEntity
     href: List_Agent/v1ListAgent_SaveTicketCategoryEntity.md
   - name: SaveTicketPriorityEntity
@@ -3361,6 +3375,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_GetTicketMessageEntity.md
   - name: GetTicketMessageWithEmbeddedData
     href: Ticket_Agent/v1TicketAgent_GetTicketMessageWithEmbeddedData.md
+  - name: GetTicketMessageWithOptions
+    href: Ticket_Agent/v1TicketAgent_GetTicketMessageWithOptions.md
   - name: GetTickets
     href: Ticket_Agent/v1TicketAgent_GetTickets.md
   - name: GetTicketSummaries
@@ -3411,12 +3427,16 @@ items:
     href: Ticket_Agent/v1TicketAgent_SplitTicket.md
   - name: SplitTicketMessage
     href: Ticket_Agent/v1TicketAgent_SplitTicketMessage.md
+  - name: UndeleteByIds
+    href: Ticket_Agent/v1TicketAgent_UndeleteByIds.md
   - name: UpdateTicketsReadStatus
     href: Ticket_Agent/v1TicketAgent_UpdateTicketsReadStatus.md
   - name: UpdateTicketsReadStatusByProvider
     href: Ticket_Agent/v1TicketAgent_UpdateTicketsReadStatusByProvider.md
   - name: UploadAttachment
     href: Ticket_Agent/v1TicketAgent_UploadAttachment.md
+  - name: ValidateAttachments
+    href: Ticket_Agent/v1TicketAgent_ValidateAttachments.md
 - name: TimeZone
   href: TimeZone_Agent/index.md
   items:
@@ -3574,6 +3594,8 @@ items:
     href: User_Agent/v1UserAgent_GetUserInfo.md
   - name: GetUserInfoList
     href: User_Agent/v1UserAgent_GetUserInfoList.md
+  - name: GetUserPresenceStatus
+    href: User_Agent/v1UserAgent_GetUserPresenceStatus.md
   - name: GetValidUserName
     href: User_Agent/v1UserAgent_GetValidUserName.md
   - name: GetValidUserNameForNewUser
@@ -3636,6 +3658,8 @@ items:
     href: User_Agent/v1UserAgent_SetPassword.md
   - name: SetPasswordFromName
     href: User_Agent/v1UserAgent_SetPasswordFromName.md
+  - name: SetUserPresenceStatus
+    href: User_Agent/v1UserAgent_SetUserPresenceStatus.md
   - name: ValidateUser
     href: User_Agent/v1UserAgent_ValidateUser.md
 - name: UserDefinedFieldInfo

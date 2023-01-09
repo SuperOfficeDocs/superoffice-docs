@@ -34,7 +34,7 @@ This is the time zone used internally for storing data.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 340,
-  "Name": "Erdman Group",
-  "TZLocationCode": "esse",
+  "TZLocationID": 5,
+  "Name": "Rutherford-Schneider",
+  "TZLocationCode": "ut",
   "TZLocationCities": "et",
-  "IsoNumber": 53,
+  "IsoNumber": 271,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 481,
-      "StartMonth": 991,
-      "EndDay": 683,
-      "EndMonth": 867,
-      "TZOffset": 743,
-      "StartRulePattern": "et",
-      "EndRulePattern": "numquam"
+      "StartDay": 470,
+      "StartMonth": 752,
+      "EndDay": 738,
+      "EndMonth": 740,
+      "TZOffset": 92,
+      "StartRulePattern": "ex",
+      "EndRulePattern": "enim"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 541,
-      "StartMonth": 836,
-      "EndDay": 641,
-      "EndMonth": 887,
-      "TZOffset": 750,
-      "StartRulePattern": "velit",
-      "EndRulePattern": "suscipit"
+      "StartDay": 321,
+      "StartMonth": 618,
+      "EndDay": 924,
+      "EndMonth": 737,
+      "TZOffset": 322,
+      "StartRulePattern": "quas",
+      "EndRulePattern": "sunt"
     }
   }
 }

@@ -44,21 +44,20 @@ POST /api/v1/Attachment?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The AttachmentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AttachmentId | int32 | The primary key (auto-incremented) |
-| Name | string | The filename for the attachment. |
-| ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
-| AttSize | int32 | The size (in bytes) for the attachment. |
-| InlineImage | bool | True if this attachment is inlined in the html_body. |
-| ContentId | string | The content_id of this attachment, used for inline images |
+| AttachmentId | Integer | The primary key (auto-incremented) |
+| Name | String | The filename for the attachment. |
+| ContentType | String | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
+| AttSize | Integer | The size (in bytes) for the attachment. |
+| InlineImage | Boolean | True if this attachment is inlined in the html_body. |
+| ContentId | String | The content_id of this attachment, used for inline images |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AttachmentEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body:
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -86,16 +85,16 @@ Response body:
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 251,
-  "Name": "Larkin-Bernhard",
-  "ContentType": "veniam",
-  "AttSize": 997,
-  "InlineImage": false,
-  "ContentId": "a"
+  "AttachmentId": 774,
+  "Name": "Friesen, Hand and Miller",
+  "ContentType": "sapiente",
+  "AttSize": 584,
+  "InlineImage": true,
+  "ContentId": "ab"
 }
 ```
 
@@ -106,23 +105,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 840,
-  "Name": "Hirthe Group",
-  "ContentType": "commodi",
-  "AttSize": 247,
+  "AttachmentId": 612,
+  "Name": "Gibson Group",
+  "ContentType": "fugit",
+  "AttSize": 288,
   "InlineImage": false,
-  "ContentId": "nostrum",
+  "ContentId": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldType": "System.String",
+      "FieldLength": 558
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

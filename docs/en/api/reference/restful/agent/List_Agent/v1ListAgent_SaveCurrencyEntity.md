@@ -32,22 +32,21 @@ Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The CurrencyEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CurrencyId | int32 | Primary key |
-| Name | string | The list item |
-| Tooltip | string | Tooltip or other description |
-| Rank | int32 | Rank order |
-| Rate | double | Exchange rate |
-| Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
-| Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
+| CurrencyId | Integer | Primary key |
+| Name | String | The list item |
+| Tooltip | String | Tooltip or other description |
+| Rank | Integer | Rank order |
+| Rate | Number | Exchange rate |
+| Units | Number | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
+| Deleted | Boolean | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -55,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CurrencyEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body:
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,17 +74,17 @@ Response body:
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 644,
-  "Name": "Becker, Schaden and Stark",
-  "Tooltip": "amet",
-  "Rank": 357,
-  "Rate": 26563.784,
-  "Units": 22270.203999999998,
-  "Deleted": true
+  "CurrencyId": 249,
+  "Name": "Walsh, Cruickshank and Marvin",
+  "Tooltip": "nobis",
+  "Rank": 498,
+  "Rate": 22846.86,
+  "Units": 11272.998,
+  "Deleted": false
 }
 ```
 
@@ -96,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 274,
-  "Name": "Parker, Hane and Nader",
-  "Tooltip": "perferendis",
-  "Rank": 483,
-  "Rate": 11796.376,
-  "Units": 4418.94,
+  "CurrencyId": 148,
+  "Name": "Weber LLC",
+  "Tooltip": "hic",
+  "Rank": 807,
+  "Rate": 27159.244,
+  "Units": 27729.631999999998,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldLength": 107
     }
   }
 }

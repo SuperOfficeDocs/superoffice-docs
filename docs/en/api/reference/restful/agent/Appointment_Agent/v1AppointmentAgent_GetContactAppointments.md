@@ -44,19 +44,18 @@ POST /api/v1/Agents/Appointment/GetContactAppointments?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| ContactId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -117,7 +116,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -126,14 +125,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 149,
-  "StartTime": "2006-06-22T02:49:43.637906+02:00",
-  "EndTime": "1998-02-10T02:49:43.637906+01:00",
-  "Count": 799
+  "ContactId": 806,
+  "StartTime": "1999-10-17T17:37:16.6032447+02:00",
+  "EndTime": "2000-11-18T17:37:16.6032447+01:00",
+  "Count": 62
 }
 ```
 
@@ -145,61 +144,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 637,
-    "StartDate": "2002-03-16T02:49:43.637906+01:00",
-    "EndDate": "2022-04-16T02:49:43.637906+02:00",
+    "AppointmentId": 811,
+    "StartDate": "2012-01-01T17:37:16.6042446+01:00",
+    "EndDate": "1999-01-30T17:37:16.6042446+01:00",
     "Type": "BookingForChecklist",
-    "Task": "error",
-    "AssociateFullName": "Loraine Marks",
-    "ContactName": "Huels-Mann",
-    "Description": "Integrated actuating groupware",
-    "PersonFullName": "Leola Wehner",
-    "PersonId": 201,
-    "ContactId": 41,
-    "ProjectId": 207,
-    "ProjectName": "Oberbrunner, Reynolds and Hickle",
-    "IsPublished": false,
-    "AssociateId": 977,
-    "ColorIndex": 516,
+    "Task": "blanditiis",
+    "AssociateFullName": "Eve Kertzmann",
+    "ContactName": "Rau-King",
+    "Description": "User-friendly high-level Graphic Interface",
+    "PersonFullName": "Mr. Quinton Gus Baumbach MD",
+    "PersonId": 516,
+    "ContactId": 154,
+    "ProjectId": 293,
+    "ProjectName": "Nolan Group",
+    "IsPublished": true,
+    "AssociateId": 751,
+    "ColorIndex": 805,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 421,
-    "PriorityName": "Herman-Purdy",
+    "PriorityId": 796,
+    "PriorityName": "Conn Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1996-09-21T02:49:43.637906+02:00",
+    "ActiveDate": "2002-10-10T17:37:16.6052443+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-10-07T02:49:43.637906+02:00",
-    "RecurringEndDate": "2018-12-12T02:49:43.637906+01:00",
-    "MotherId": 857,
-    "AssignedBy": 129,
-    "AssignedByFullName": "Lurline Howe",
+    "RecurringStartDate": "2001-11-06T17:37:16.6052443+01:00",
+    "RecurringEndDate": "2007-04-08T17:37:16.6052443+02:00",
+    "MotherId": 838,
+    "AssignedBy": 255,
+    "AssignedByFullName": "Prof. Leonard Jerome Luettgen",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "ipsum",
-    "SaleId": 745,
-    "SaleName": "Harber-Nikolaus",
-    "AssociateName": "Huel, Mayer and Kassulke",
-    "CreatedDate": "2008-09-13T02:49:43.637906+02:00",
-    "CreatedBy": "vel",
-    "CreatedByFullName": "Dr. Petra Marquise Hartmann I",
-    "CreatedByAssociateId": 476,
+    "Location": "fuga",
+    "AlarmLeadTime": "quae",
+    "SaleId": 408,
+    "SaleName": "Heathcote, Howell and Huel",
+    "AssociateName": "Konopelski Inc and Sons",
+    "CreatedDate": "2021-10-14T17:37:16.6052443+02:00",
+    "CreatedBy": "cupiditate",
+    "CreatedByFullName": "Tessie Kunde",
+    "CreatedByAssociateId": 449,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldType": "System.String",
+        "FieldLength": 976
       }
     }
   }

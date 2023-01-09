@@ -44,21 +44,20 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateHeading?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, TemplateHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| IncludeProjectDocuments | bool |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TemplateHeadingId | int32 |  |
+| PersonId | Integer |  |
+| IncludeProjectDocuments | Boolean |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TemplateHeadingId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,7 +89,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -103,12 +102,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 146,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2005-05-11T02:49:44.0910111+02:00",
-  "EndTime": "2006-03-03T02:49:44.0910111+01:00",
-  "Count": 188,
-  "TemplateHeadingId": 885
+  "PersonId": 548,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2006-01-13T17:37:17.4412433+01:00",
+  "EndTime": "2010-02-28T17:37:17.4412433+01:00",
+  "Count": 393,
+  "TemplateHeadingId": 452
 }
 ```
 
@@ -120,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 261,
-    "Attention": "veritatis",
-    "Header": "qui",
-    "Name": "Quigley-Hegmann",
-    "OurRef": "quas",
-    "YourRef": "nostrum",
-    "Description": "Switchable regional capacity",
-    "DocumentTemplate": "ullam",
+    "DocumentId": 130,
+    "Attention": "temporibus",
+    "Header": "omnis",
+    "Name": "Lang, Schulist and Welch",
+    "OurRef": "vel",
+    "YourRef": "est",
+    "Description": "Focused 6th generation ability",
+    "DocumentTemplate": "totam",
     "IsPublished": false,
-    "PersonId": 78,
-    "PersonFullName": "Scarlett Kiehn DDS",
-    "AssociateFullName": "Mr. Leanna Maria Cassin",
-    "ContactId": 771,
-    "ContactName": "Eichmann, Gutmann and Tillman",
-    "ProjectId": 525,
-    "ProjectName": "Harvey-Dickinson",
-    "AssociateId": 249,
-    "Snum": 271,
-    "SaleId": 859,
-    "SaleName": "Gusikowski, Kertzmann and Jast",
+    "PersonId": 764,
+    "PersonFullName": "Orie Kelley Heller II",
+    "AssociateFullName": "Samara Aubree Green III",
+    "ContactId": 993,
+    "ContactName": "Homenick, Bradtke and Crist",
+    "ProjectId": 55,
+    "ProjectName": "Collier-Ziemann",
+    "AssociateId": 760,
+    "Snum": 634,
+    "SaleId": 295,
+    "SaleName": "Brekke-Kiehn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldType": "System.String",
+        "FieldLength": 639
       }
     }
   }

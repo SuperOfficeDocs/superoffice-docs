@@ -36,7 +36,7 @@ Gets all PreferenceDescription-items in the specified section
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +66,7 @@ Response body: array
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,7 +75,7 @@ Response body: array
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,30 +86,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 295,
-    "Section": "aut",
-    "Key": "itaque",
-    "Name": "Mertz-Johnston",
+    "PrefDescId": 748,
+    "Section": "cumque",
+    "Key": "facere",
+    "Name": "Rolfson Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Cloned cohesive workforce",
-    "IsBuiltin": true,
-    "TableName": "Considine Group",
-    "UserDefinedListId": 753,
-    "Rank": 667,
-    "SubGroup": "quisquam",
-    "MinLevel": 313,
-    "MaxValue": 86,
-    "MinValue": 617,
-    "RequiredLicense": "et",
+    "Description": "Function-based heuristic approach",
+    "IsBuiltin": false,
+    "TableName": "Koss Inc and Sons",
+    "UserDefinedListId": 185,
+    "Rank": 124,
+    "SubGroup": "animi",
+    "MinLevel": 466,
+    "MaxValue": 490,
+    "MinValue": 786,
+    "RequiredLicense": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 262
       }
     }
   }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Gets a CRMScriptEntity object.
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -29,7 +27,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=921
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=594
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -48,7 +46,7 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,categor
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CRMScriptEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +69,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,23 +88,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 88,
-  "UniqueIdentifier": "est",
-  "Name": "Beahan, Sawayn and Goldner",
-  "Description": "Customizable directional instruction set",
-  "IncludeId": "vero",
-  "HierarchyId": 900,
-  "Source": "ex",
-  "Registered": "2004-05-17T02:49:44.0129044+02:00",
-  "RegisteredAssociateId": 886,
-  "Updated": "2010-04-03T02:49:44.0129044+02:00",
-  "UpdatedAssociateId": 347,
+  "EjscriptId": 187,
+  "UniqueIdentifier": "harum",
+  "Name": "Miller, Berge and Krajcik",
+  "Description": "Cloned assymetric synergy",
+  "IncludeId": "veniam",
+  "HierarchyId": 830,
+  "Source": "quo",
+  "Registered": "1996-09-21T17:37:17.3302452+02:00",
+  "RegisteredAssociateId": 557,
+  "Updated": "2010-09-12T17:37:17.3302452+02:00",
+  "UpdatedAssociateId": 543,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 327
     }
   }
 }

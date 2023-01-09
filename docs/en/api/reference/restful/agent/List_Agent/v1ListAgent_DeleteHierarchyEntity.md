@@ -24,7 +24,7 @@ Deletes the HierarchyEntity
 | HierarchyEntityId | int32 | **Required** The id of the HierarchyEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/List/DeleteHierarchyEntity?HierarchyEntityId=294
+POST /api/v1/Agents/List/DeleteHierarchyEntity?HierarchyEntityId=178
 ```
 
 
@@ -38,7 +38,7 @@ POST /api/v1/Agents/List/DeleteHierarchyEntity?HierarchyEntityId=294
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 No Content
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -55,7 +55,7 @@ Response body:
 POST /api/v1/Agents/List/DeleteHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

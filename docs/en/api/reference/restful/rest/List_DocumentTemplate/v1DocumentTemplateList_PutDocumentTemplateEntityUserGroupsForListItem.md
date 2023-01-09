@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 209,
-    "Name": "Schaden-Huel",
-    "ToolTip": "Molestiae rerum sit enim.",
-    "Deleted": true,
-    "Rank": 542,
-    "Type": "atque",
-    "ColorBlock": 886,
-    "IconHint": "numquam",
-    "Selected": true,
-    "LastChanged": "2012-10-17T02:49:52.2503161+02:00",
+    "Id": 69,
+    "Name": "Rodriguez, Pagac and Kuphal",
+    "ToolTip": "Veritatis earum.",
+    "Deleted": false,
+    "Rank": 240,
+    "Type": "fuga",
+    "ColorBlock": 397,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2008-07-18T17:37:40.0204701+02:00",
     "ChildItems": [
       {
-        "Id": 8,
-        "Name": "Moore-Homenick",
-        "ToolTip": "Dolore nam ad.",
-        "Deleted": true,
-        "Rank": 287,
-        "Type": "explicabo",
-        "ColorBlock": 723,
-        "IconHint": "soluta",
+        "Id": 816,
+        "Name": "McLaughlin-Mraz",
+        "ToolTip": "Ullam reprehenderit.",
+        "Deleted": false,
+        "Rank": 969,
+        "Type": "deleniti",
+        "ColorBlock": 772,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2005-11-09T02:49:52.2503161+01:00",
+        "LastChanged": "2008-07-25T17:37:40.0204701+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "facilis",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "ratione",
         "Hidden": false,
-        "FullName": "Donny Gottlieb"
+        "FullName": "Mr. Ahmad Medhurst DDS"
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "quod",
-    "Hidden": false,
-    "FullName": "Wilbert Grady"
+    "ExtraInfo": "excepturi",
+    "StyleHint": "eligendi",
+    "Hidden": true,
+    "FullName": "Carolina Rice"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 627,
-    "Name": "Roberts Inc and Sons",
-    "ToolTip": "Odit ratione eveniet.",
+    "Id": 996,
+    "Name": "Weissnat-Predovic",
+    "ToolTip": "Quia rerum placeat distinctio.",
     "Deleted": false,
-    "Rank": 755,
-    "Type": "harum",
-    "ColorBlock": 877,
-    "IconHint": "est",
+    "Rank": 129,
+    "Type": "dolorem",
+    "ColorBlock": 956,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "2012-06-28T02:49:52.2503161+02:00",
+    "LastChanged": "2002-10-15T17:37:40.0214701+02:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Swaniawski-Dooley",
-        "ToolTip": "Cumque eligendi ea a.",
-        "Deleted": false,
-        "Rank": 22,
-        "Type": "voluptates",
-        "ColorBlock": 996,
-        "IconHint": "quia",
+        "Id": 939,
+        "Name": "Daniel, Ortiz and Kovacek",
+        "ToolTip": "Officia ipsum dolores.",
+        "Deleted": true,
+        "Rank": 825,
+        "Type": "reprehenderit",
+        "ColorBlock": 487,
+        "IconHint": "consectetur",
         "Selected": true,
-        "LastChanged": "2021-11-19T02:49:52.2503161+01:00",
+        "LastChanged": "2006-05-12T17:37:40.0214701+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "eum",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Carey Wintheiser",
+        "FullName": "Avery Lang",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 609
+            "FieldType": "System.String",
+            "FieldLength": 682
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "sequi",
+    "StyleHint": "mollitia",
     "Hidden": false,
-    "FullName": "Dr. Dameon Emard II",
+    "FullName": "Mr. Deven Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 511
+        "FieldType": "System.String",
+        "FieldLength": 931
       }
     }
   }

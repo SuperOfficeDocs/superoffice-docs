@@ -44,16 +44,15 @@ POST /api/v1/Agents/Person/GetConsentInfos?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
+| PersonId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body: array
 | ConsentSourceId | int32 | Primary key for the ConsentSource associated with this consent |
 | ConsentSourceKey | string | Key of the ConsentSource associated with this consent |
 | ConsentSourceName | string | Name of the ConsentSource associated with this consent |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,11 +88,11 @@ Response body: array
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 489
+  "PersonId": 124
 }
 ```
 
@@ -105,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 162,
-    "Comment": "eius",
-    "Registered": "2016-10-24T02:49:44.8590895+02:00",
-    "RegisteredAssociateId": 821,
-    "Updated": "2014-08-13T02:49:44.8590895+02:00",
-    "UpdatedAssociateId": 782,
-    "LegalBaseId": 176,
-    "LegalBaseKey": "libero",
-    "LegalBaseName": "Mohr Group",
-    "ConsentPurposeId": 831,
-    "ConsentPurposeKey": "eos",
-    "ConsentPurposeName": "Labadie, Murray and Beier",
-    "ConsentSourceId": 348,
-    "ConsentSourceKey": "nulla",
-    "ConsentSourceName": "Rath, Kshlerin and Douglas",
+    "ConsentPersonId": 349,
+    "Comment": "accusantium",
+    "Registered": "2002-05-01T17:37:18.5162419+02:00",
+    "RegisteredAssociateId": 890,
+    "Updated": "2005-05-01T17:37:18.5162419+02:00",
+    "UpdatedAssociateId": 598,
+    "LegalBaseId": 818,
+    "LegalBaseKey": "deleniti",
+    "LegalBaseName": "Wiegand-Wilderman",
+    "ConsentPurposeId": 703,
+    "ConsentPurposeKey": "nisi",
+    "ConsentPurposeName": "Oberbrunner-Sporer",
+    "ConsentSourceId": 993,
+    "ConsentSourceKey": "quae",
+    "ConsentSourceName": "Lehner-Spencer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldType": "System.String",
+        "FieldLength": 777
       }
     }
   }

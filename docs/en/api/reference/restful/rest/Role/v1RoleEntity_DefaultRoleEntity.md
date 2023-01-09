@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RoleEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,11 +57,11 @@ Response body:
 | Rank | int32 | Sorting rank of this role in lists |
 | Created | date-time | Registered when  in UTC. |
 | UseCategories | int32 | Apply role category membership to users |
-| CreatedBy |  | Created by user |
+| CreatedBy | Associate | Created by user |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Last updated by user |
-| DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight |  |  |
+| UpdatedBy | Associate | Last updated by user |
+| DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,24 +80,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 16,
-  "Name": "Crooks, Hamill and Morar",
-  "Tooltip": "temporibus",
+  "RoleId": 984,
+  "Name": "Kuhlman, Romaguera and Muller",
+  "Tooltip": "excepturi",
   "RoleType": "Anonymous",
-  "Deleted": 691,
-  "Rank": 254,
-  "Created": "2004-09-11T02:49:51.3859386+02:00",
-  "UseCategories": 98,
+  "Deleted": 231,
+  "Rank": 711,
+  "Created": "2008-05-29T17:37:39.0403041+02:00",
+  "UseCategories": 744,
   "CreatedBy": null,
-  "Updated": "2015-01-14T02:49:51.3859386+01:00",
+  "Updated": "2018-06-10T17:37:39.0403041+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldType": "System.String",
+      "FieldLength": 701
     }
   }
 }

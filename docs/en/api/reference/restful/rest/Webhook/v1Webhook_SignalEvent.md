@@ -38,13 +38,12 @@ All webhooks listening for the event will be notified.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: data  
+## Request Body: data 
 
 Event data. Not all the data values may be posted to the webhook, depending in webhook type: { 'windowName': 'foo', 'widgets': 123 } 
 
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -52,7 +51,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request

@@ -42,17 +42,16 @@ POST /api/v1/Agents/Favourite/GetFavourites?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| AssociateId | int32 |  |
+| TableName | String |  |
+| AssociateId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body: array
 | AssociateId | int32 | Id of the associate this favourite belongs to. |
 | ExtraInfo | string | Extra information for this favourite. |
 | Rank | int32 | Rank order |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,12 +77,12 @@ Response body: array
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Walter-Schinner",
-  "AssociateId": 870
+  "TableName": "Hilll, Steuber and Larson",
+  "AssociateId": 1002
 }
 ```
 
@@ -95,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Armstrong-Spinka",
-    "RecordId": 967,
-    "AssociateId": 635,
-    "ExtraInfo": "minus",
-    "Rank": 731,
+    "TableName": "Weber, Bechtelar and Beier",
+    "RecordId": 858,
+    "AssociateId": 596,
+    "ExtraInfo": "eligendi",
+    "Rank": 167,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 306
+        "FieldType": "System.Int32",
+        "FieldLength": 864
       }
     }
   }

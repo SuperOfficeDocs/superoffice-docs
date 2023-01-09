@@ -42,17 +42,16 @@ POST /api/v1/Agents/Chat/AddChatMessage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ChatSessionId, Message 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ChatSessionId | int32 |  |
-| Message |  | A message in a chat session <para /> Carrier object for ChatMessage. Services for the ChatMessage Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>. |
+| ChatSessionId | Integer |  |
+| Message | ChatMessage | A message in a chat session <para /> Carrier object for ChatMessage. Services for the ChatMessage Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ChatMessage
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,11 +79,11 @@ Response body:
 POST /api/v1/Agents/Chat/AddChatMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 181,
+  "ChatSessionId": 627,
   "Message": null
 }
 ```
@@ -96,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 917,
-  "ChatSessionId": 5,
+  "ChatMessageId": 806,
+  "ChatSessionId": 419,
   "Type": "Invalid",
-  "Message": "dolorum",
-  "Author": "id",
-  "ReadByCustomer": 768,
+  "Message": "a",
+  "Author": "qui",
+  "ReadByCustomer": 241,
   "SpecialType": "Block",
-  "SpecialParam": "quasi",
-  "WhenPosted": "2003-05-27T02:49:43.8254085+02:00"
+  "SpecialParam": "et",
+  "WhenPosted": "2001-10-01T17:37:17.0782439+02:00"
 }
 ```

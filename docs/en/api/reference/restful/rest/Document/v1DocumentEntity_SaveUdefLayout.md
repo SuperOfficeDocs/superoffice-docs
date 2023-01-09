@@ -32,49 +32,48 @@ Save DocumentEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: fields  
+## Request Body: fields 
 
  
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UDefFieldId | int32 | Primary key |
-| ColumnId | int32 | The ID of the database column this field corresponds to |
-| FieldDefault | string | Optional default value for String fields |
-| FieldHeight | int32 | field height in pixels, 0 = 'enough' (from font) |
-| FieldLabel | string | The label (lead text) |
-| FieldLeft | int32 | X pixel coordinate of field |
-| FieldTop | int32 | Y pixel coordinate of field |
-| FieldType | string | Field type: 0 = leadtext only, 1 = Edit, 2 = CheckBox, 3 = dropdown, 4 = listbox |
-| FieldWidth | int32 | field width in pixels, 0 = 'enough' (from font) |
-| FormatMask | string | Formatting mask, can be whatever the controls understand (currently nothing :-)) |
-| HideLabel | bool | Hide the label if 1 |
-| IsIndexed | bool | Is this field indexed? 0 if no, index no. if yes |
-| LabelHeight | int32 | label height in pixels, 0 = 'enough' (from font) |
-| LabelLeft | int32 | X pixel coordinate of label |
-| LabelTop | int32 | Y pixel coordinate of label |
-| LabelWidth | int32 | label width in pixels, 0 = 'enough' (from font) |
-| LastVersionId | int32 | UDefFieldId this field had in the previous version, 0 = field is new in this version |
-| ListTableId | int32 | The table ID of the source table for lists: kTableAssoc, kTableContInt or whatever |
-| IsMandatory | bool | 0 = no, 1 = yes (field must be filled out) |
-| Type | string | ID of owning table (contact, person, project) - this is not the actual tableNumber, rather it's an enum |
-| Page1LineNo | int32 | Line no on View Page 1, used if MDO flags are OFF. 0 = this field is not visible on page 1 |
-| ProgId | string | Programmatic ID, for use by software that needs to find a particular field. Carried over like udefIdentity across generations. Use a Company.Product.Field format to avoid naming conflicts; the Company name SuperOffice is reserved. |
-| IsReadOnly | bool | 0 = read/write, 1 = readonly (don't combine with mandatory  8-) ) |
-| ShortLabel | string | Short name to be used in Archive headings and on page 1. If blank, the fieldLabel will be used everywhere. |
-| TabOrder | int32 | Tab order value, sets the field processing sequence |
-| TextLength | int32 | Length (in characters) of a text field, 0 for other types |
-| Tooltip | string | Optional tooltip text for this field |
-| UdefIdentity | int32 | Unique number used to track field identity across layout changes |
-| UDListDefinitionId | int32 | List to use for populating dropdown or listbox |
-| Justification | string | Justification - 0 = default, left, right, center |
-| Version | int32 | Definition version number; ALL fields get new version whenever layout is updated. |
-| TemplateVariableName | string | Template variable name |
-| HasBeenPublished | bool | Has the udef field been published? |
-| MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
+| UDefFieldId | Integer | Primary key |
+| ColumnId | Integer | The ID of the database column this field corresponds to |
+| FieldDefault | String | Optional default value for String fields |
+| FieldHeight | Integer | field height in pixels, 0 = 'enough' (from font) |
+| FieldLabel | String | The label (lead text) |
+| FieldLeft | Integer | X pixel coordinate of field |
+| FieldTop | Integer | Y pixel coordinate of field |
+| FieldType | String | Field type: 0 = leadtext only, 1 = Edit, 2 = CheckBox, 3 = dropdown, 4 = listbox |
+| FieldWidth | Integer | field width in pixels, 0 = 'enough' (from font) |
+| FormatMask | String | Formatting mask, can be whatever the controls understand (currently nothing :-)) |
+| HideLabel | Boolean | Hide the label if 1 |
+| IsIndexed | Boolean | Is this field indexed? 0 if no, index no. if yes |
+| LabelHeight | Integer | label height in pixels, 0 = 'enough' (from font) |
+| LabelLeft | Integer | X pixel coordinate of label |
+| LabelTop | Integer | Y pixel coordinate of label |
+| LabelWidth | Integer | label width in pixels, 0 = 'enough' (from font) |
+| LastVersionId | Integer | UDefFieldId this field had in the previous version, 0 = field is new in this version |
+| ListTableId | Integer | The table ID of the source table for lists: kTableAssoc, kTableContInt or whatever |
+| IsMandatory | Boolean | 0 = no, 1 = yes (field must be filled out) |
+| Type | String | ID of owning table (contact, person, project) - this is not the actual tableNumber, rather it's an enum |
+| Page1LineNo | Integer | Line no on View Page 1, used if MDO flags are OFF. 0 = this field is not visible on page 1 |
+| ProgId | String | Programmatic ID, for use by software that needs to find a particular field. Carried over like udefIdentity across generations. Use a Company.Product.Field format to avoid naming conflicts; the Company name SuperOffice is reserved. |
+| IsReadOnly | Boolean | 0 = read/write, 1 = readonly (don't combine with mandatory  8-) ) |
+| ShortLabel | String | Short name to be used in Archive headings and on page 1. If blank, the fieldLabel will be used everywhere. |
+| TabOrder | Integer | Tab order value, sets the field processing sequence |
+| TextLength | Integer | Length (in characters) of a text field, 0 for other types |
+| Tooltip | String | Optional tooltip text for this field |
+| UdefIdentity | Integer | Unique number used to track field identity across layout changes |
+| UDListDefinitionId | Integer | List to use for populating dropdown or listbox |
+| Justification | String | Justification - 0 = default, left, right, center |
+| Version | Integer | Definition version number; ALL fields get new version whenever layout is updated. |
+| TemplateVariableName | String | Template variable name |
+| HasBeenPublished | Boolean | Has the udef field been published? |
+| MdoListName | String | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -82,7 +81,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -120,7 +119,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -129,45 +128,45 @@ Response body: array
 PUT /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 953,
-    "ColumnId": 51,
-    "FieldDefault": "quia",
-    "FieldHeight": 289,
-    "FieldLabel": "delectus",
-    "FieldLeft": 756,
-    "FieldTop": 993,
+    "UDefFieldId": 152,
+    "ColumnId": 768,
+    "FieldDefault": "incidunt",
+    "FieldHeight": 931,
+    "FieldLabel": "sed",
+    "FieldLeft": 285,
+    "FieldTop": 815,
     "FieldType": "Checkbox",
-    "FieldWidth": 417,
-    "FormatMask": "ut",
+    "FieldWidth": 524,
+    "FormatMask": "qui",
     "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 476,
-    "LabelLeft": 912,
-    "LabelTop": 474,
-    "LabelWidth": 478,
-    "LastVersionId": 352,
-    "ListTableId": 843,
+    "IsIndexed": true,
+    "LabelHeight": 514,
+    "LabelLeft": 580,
+    "LabelTop": 966,
+    "LabelWidth": 198,
+    "LastVersionId": 477,
+    "ListTableId": 755,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 152,
-    "ProgId": "iure",
+    "Page1LineNo": 403,
+    "ProgId": "sed",
     "IsReadOnly": false,
-    "ShortLabel": "nulla",
-    "TabOrder": 549,
-    "TextLength": 705,
-    "Tooltip": "officia",
-    "UdefIdentity": 229,
-    "UDListDefinitionId": 701,
+    "ShortLabel": "in",
+    "TabOrder": 83,
+    "TextLength": 691,
+    "Tooltip": "sed",
+    "UdefIdentity": 882,
+    "UDListDefinitionId": 582,
     "Justification": "Center",
-    "Version": 969,
-    "TemplateVariableName": "Welch, Yost and Simonis",
+    "Version": 58,
+    "TemplateVariableName": "Gleichner-Hessel",
     "HasBeenPublished": false,
-    "MdoListName": "Gorczany, Medhurst and Beahan"
+    "MdoListName": "Jacobi-Nienow"
   }
 ]
 ```
@@ -180,46 +179,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 627,
-    "ColumnId": 923,
-    "FieldDefault": "libero",
-    "FieldHeight": 837,
-    "FieldLabel": "atque",
-    "FieldLeft": 725,
-    "FieldTop": 110,
+    "UDefFieldId": 876,
+    "ColumnId": 837,
+    "FieldDefault": "necessitatibus",
+    "FieldHeight": 952,
+    "FieldLabel": "placeat",
+    "FieldLeft": 445,
+    "FieldTop": 26,
     "FieldType": "Checkbox",
-    "FieldWidth": 455,
-    "FormatMask": "consequatur",
+    "FieldWidth": 635,
+    "FormatMask": "sed",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 681,
-    "LabelLeft": 870,
-    "LabelTop": 195,
-    "LabelWidth": 530,
-    "LastVersionId": 48,
-    "ListTableId": 797,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "LabelHeight": 231,
+    "LabelLeft": 96,
+    "LabelTop": 727,
+    "LabelWidth": 189,
+    "LastVersionId": 86,
+    "ListTableId": 690,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 82,
-    "ProgId": "molestiae",
-    "IsReadOnly": true,
-    "ShortLabel": "fugit",
-    "TabOrder": 197,
-    "TextLength": 677,
-    "Tooltip": "laboriosam",
-    "UdefIdentity": 6,
-    "UDListDefinitionId": 480,
+    "Page1LineNo": 746,
+    "ProgId": "fugit",
+    "IsReadOnly": false,
+    "ShortLabel": "cumque",
+    "TabOrder": 745,
+    "TextLength": 947,
+    "Tooltip": "reiciendis",
+    "UdefIdentity": 253,
+    "UDListDefinitionId": 843,
     "Justification": "Center",
-    "Version": 850,
-    "TemplateVariableName": "Beer-Smith",
-    "HasBeenPublished": false,
-    "MdoListName": "Eichmann Group",
+    "Version": 783,
+    "TemplateVariableName": "Wyman, Kuphal and Kilback",
+    "HasBeenPublished": true,
+    "MdoListName": "Hartmann-Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldLength": 486
       }
     }
   }

@@ -44,17 +44,16 @@ POST /api/v1/Agents/PhoneList/SearchWithPreferences?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SearchString, Preferences 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SearchString | string |  |
-| Preferences |  | Search preferences for a phone list search <para /> Carrier object for PhoneListPreferences. Services for the PhoneListPreferences Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPhoneListAgent">PhoneList Agent</see>. |
+| SearchString | String |  |
+| Preferences | PhoneListPreferences | Search preferences for a phone list search <para /> Carrier object for PhoneListPreferences. Services for the PhoneListPreferences Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPhoneListAgent">PhoneList Agent</see>. |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body: array
 | Name | string | The contact or person's name |
 | Tooltip | string |  |
 | UniqueId | string | Property setting a unique id indicating if this is a person or contact |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,11 +84,11 @@ Response body: array
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "ipsa",
+  "SearchString": "repellat",
   "Preferences": null
 }
 ```
@@ -102,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "323-453-9351 x72815",
-    "PersonCellPhone": "432-027-4165 x650",
-    "PersonPrivatePhone": "(674)240-2738 x21393",
-    "PersonFaxNumber": "1008475",
-    "PersonPagerNumber": "923447",
-    "PersonEmail": "sylvester_windler@pacochagoyette.com",
-    "Id": 206,
-    "Name": "Ferry, Kunze and White",
-    "Tooltip": "quis",
-    "UniqueId": "ullam",
+    "PersonDirectPhone": "106.642.3877 x279",
+    "PersonCellPhone": "1-028-463-5345",
+    "PersonPrivatePhone": "330-300-1379",
+    "PersonFaxNumber": "864281",
+    "PersonPagerNumber": "908713",
+    "PersonEmail": "benton_jenkins@stracke.co.uk",
+    "Id": 93,
+    "Name": "Weimann, Gorczany and Bailey",
+    "Tooltip": "aliquam",
+    "UniqueId": "voluptate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 814
+        "FieldType": "System.Int32",
+        "FieldLength": 27
       }
     }
   }

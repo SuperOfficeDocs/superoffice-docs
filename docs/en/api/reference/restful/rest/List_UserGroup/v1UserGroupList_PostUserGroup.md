@@ -34,20 +34,19 @@ Calls the User agent service SaveUserGroup.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The UserGroup to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Value | string | UserGroup name |
-| Tooltip | string | Tooltip or other description |
-| Id | int32 | Primary key |
-| Rank | int32 | Rank order |
-| Deleted | bool | Deleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup. |
+| Value | String | UserGroup name |
+| Tooltip | String | Tooltip or other description |
+| Id | Integer | Primary key |
+| Rank | Integer | Rank order |
+| Deleted | Boolean | Deleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -55,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserGroup
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +63,7 @@ Response body:
 | Id | int32 | Primary key |
 | Rank | int32 | Rank order |
 | Deleted | bool | Deleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "blanditiis",
-  "Tooltip": "vel",
-  "Id": 167,
-  "Rank": 672,
+  "Value": "voluptates",
+  "Tooltip": "assumenda",
+  "Id": 595,
+  "Rank": 167,
   "Deleted": false
 }
 ```
@@ -92,17 +91,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "exercitationem",
-  "Tooltip": "ipsam",
-  "Id": 743,
-  "Rank": 159,
+  "Value": "quod",
+  "Tooltip": "non",
+  "Id": 121,
+  "Rank": 57,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldType": "System.String",
+      "FieldLength": 462
     }
   }
 }

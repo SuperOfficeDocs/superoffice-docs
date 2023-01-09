@@ -42,7 +42,7 @@ POST /api/v1/Agents/Preference/GetTabOrders?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +58,7 @@ Response body: array
 | TabName | string | Name of tab control |
 | Order | string | The actual tab order |
 | AssociateId | int32 | Associate who owns this tab order |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -67,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/Preference/GetTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TabOrderId": 927,
-    "TabName": "Feest Inc and Sons",
-    "Order": "aut",
-    "AssociateId": 996,
+    "TabOrderId": 913,
+    "TabName": "Lynch-Schultz",
+    "Order": "sed",
+    "AssociateId": 737,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 325
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   },
   {
-    "TabOrderId": 927,
-    "TabName": "Feest Inc and Sons",
-    "Order": "aut",
-    "AssociateId": 996,
+    "TabOrderId": 913,
+    "TabName": "Lynch-Schultz",
+    "Order": "sed",
+    "AssociateId": 737,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 325
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

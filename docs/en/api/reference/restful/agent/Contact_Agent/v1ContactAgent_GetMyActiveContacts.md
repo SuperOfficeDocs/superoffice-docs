@@ -44,18 +44,17 @@ POST /api/v1/Agents/Contact/GetMyActiveContacts?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ActivityStartTime, ContactCategories, ActionType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ActivityStartTime | date-time |  |
-| ContactCategories | array |  |
-| ActionType | string |  |
+| ActivityStartTime | String |  |
+| ContactCategories | Array |  |
+| ActionType | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +80,7 @@ Response body: array
 | PersonId | int32 | The person id |
 | ActivityPersonId | int32 | Id of the person causing the activity. |
 | AssociateId | int32 | Our contact |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,14 +89,14 @@ Response body: array
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2015-08-04T02:49:43.9035284+02:00",
+  "ActivityStartTime": "2013-04-14T17:37:17.186242+02:00",
   "ContactCategories": [
-    912,
-    482
+    877,
+    177
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +110,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 67,
+    "ContactId": 790,
     "Department": "",
-    "OrgNr": "1373856",
-    "Name": "Rolfson LLC",
+    "OrgNr": "839902",
+    "Name": "Lemke LLC",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Adolf Barton",
+    "AssociateFullName": "Miss Magali Keebler II",
     "Action": "ActivityCompleted",
-    "ActionTime": "2013-04-19T02:49:43.9035284+02:00",
+    "ActionTime": "2018-08-28T17:37:17.186242+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Schamberger, Mayert and Willms",
-    "ActionId": 925,
-    "PersonId": 993,
-    "ActivityPersonId": 418,
-    "AssociateId": 682,
+    "ActivityPersonName": "Cummerata Inc and Sons",
+    "ActionId": 695,
+    "PersonId": 774,
+    "ActivityPersonId": 975,
+    "AssociateId": 766,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldLength": 821
       }
     }
   }

@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Jacobs, Watsica and Fahey",
-    "ToolTip": "Aut quas odit officia consequatur.",
+    "Id": 205,
+    "Name": "Lowe LLC",
+    "ToolTip": "Et maiores necessitatibus quisquam doloremque rem omnis.",
     "Deleted": true,
-    "Rank": 868,
-    "Type": "dolores",
-    "ColorBlock": 54,
-    "IconHint": "voluptatibus",
+    "Rank": 466,
+    "Type": "magnam",
+    "ColorBlock": 28,
+    "IconHint": "veniam",
     "Selected": true,
-    "LastChanged": "2021-11-18T02:49:52.4534506+01:00",
+    "LastChanged": "2007-07-06T17:37:40.2675007+02:00",
     "ChildItems": [
       {
-        "Id": 417,
-        "Name": "Heller LLC",
-        "ToolTip": "Reprehenderit laborum impedit ducimus qui voluptatem.",
+        "Id": 892,
+        "Name": "Kohler Inc and Sons",
+        "ToolTip": "Magni sunt debitis dolorem nemo non amet.",
         "Deleted": true,
-        "Rank": 849,
-        "Type": "sit",
-        "ColorBlock": 401,
-        "IconHint": "ullam",
+        "Rank": 545,
+        "Type": "quidem",
+        "ColorBlock": 431,
+        "IconHint": "ab",
         "Selected": true,
-        "LastChanged": "2017-08-30T02:49:52.4534506+02:00",
+        "LastChanged": "2015-12-12T17:37:40.2675007+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "labore",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "iusto",
         "Hidden": false,
-        "FullName": "Moriah Reilly",
+        "FullName": "Prof. Jackson Erdman Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 328
+            "FieldLength": 484
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Rosemary Douglas",
+    "ExtraInfo": "neque",
+    "StyleHint": "porro",
+    "Hidden": true,
+    "FullName": "Mrs. Trace Ryan Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 810
+        "FieldType": "System.String",
+        "FieldLength": 761
       }
     }
   }

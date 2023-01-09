@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/CreateDefaultCountry?$select=name,department,category/i
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Country
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +72,7 @@ Response body:
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,30 +91,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 78,
-  "Name": "Douglas-Mayert",
-  "CurrencyId": 528,
-  "EnglishName": "Runolfsdottir Inc and Sons",
+  "CountryId": 970,
+  "Name": "Kuhn Inc and Sons",
+  "CurrencyId": 142,
+  "EnglishName": "Lemke-Feil",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Monitored context-sensitive product",
-  "OrgNrText": "399468",
-  "InterAreaPrefix": "facilis",
-  "DialInPrefix": "nihil",
-  "ZipPrefix": "qui",
-  "DomainName": "Welch-McGlynn",
-  "AddressLayoutId": 5,
-  "DomesticAddressLayoutId": 298,
-  "ForeignAddressLayoutId": 957,
-  "Rank": 458,
-  "Tooltip": "quam",
-  "Deleted": false,
+  "ImageDescription": "Organized solution-oriented workforce",
+  "OrgNrText": "662285",
+  "InterAreaPrefix": "qui",
+  "DialInPrefix": "ullam",
+  "ZipPrefix": "mollitia",
+  "DomainName": "Conroy-Hansen",
+  "AddressLayoutId": 969,
+  "DomesticAddressLayoutId": 238,
+  "ForeignAddressLayoutId": 548,
+  "Rank": 322,
+  "Tooltip": "quia",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldType": "System.String",
+      "FieldLength": 974
     }
   }
 }

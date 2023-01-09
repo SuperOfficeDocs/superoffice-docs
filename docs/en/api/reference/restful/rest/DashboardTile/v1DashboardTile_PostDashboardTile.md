@@ -44,29 +44,28 @@ POST /api/v1/DashboardTile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The DashboardTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardTileId | int32 | The tile id |
-| Caption | string | The tile caption |
-| Description | string | The tile description |
-| ChartName | string | The original chart name |
-| ChartId | string | The original chart Id |
-| IsDefault | bool | True if this is one of the default tiles |
-| AssociateId | int32 | Id of the associate who owns this tile |
-| GroupId | int32 | Id of the associates primary group at storage time |
-| SelectionId | int32 | The selection that defines the data filter/restrictions |
-| Config | string | The tile config |
-| Type | string | The tile type, what kind of tile this is |
-| EntityType | string | The tile entity type |
-| Options | array | The tile options |
-| VisibleFor | array | The set of users or groups the record is visible for |
+| DashboardTileId | Integer | The tile id |
+| Caption | String | The tile caption |
+| Description | String | The tile description |
+| ChartName | String | The original chart name |
+| ChartId | String | The original chart Id |
+| IsDefault | Boolean | True if this is one of the default tiles |
+| AssociateId | Integer | Id of the associate who owns this tile |
+| GroupId | Integer | Id of the associates primary group at storage time |
+| SelectionId | Integer | The selection that defines the data filter/restrictions |
+| Config | String | The tile config |
+| Type | String | The tile type, what kind of tile this is |
+| EntityType | String | The tile entity type |
+| Options | Array | The tile options |
+| VisibleFor | Array | The set of users or groups the record is visible for |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -74,7 +73,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashboardTileWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,7 +91,7 @@ Response body:
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -102,46 +101,46 @@ Response body:
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 148,
-  "Caption": "odio",
-  "Description": "Pre-emptive assymetric superstructure",
-  "ChartName": "Dietrich, Leannon and Hills",
-  "ChartId": "ex",
+  "DashboardTileId": 425,
+  "Caption": "qui",
+  "Description": "Seamless stable open system",
+  "ChartName": "Beier-Wolf",
+  "ChartId": "alias",
   "IsDefault": false,
-  "AssociateId": 427,
-  "GroupId": 711,
-  "SelectionId": 740,
-  "Config": "distinctio",
+  "AssociateId": 769,
+  "GroupId": 759,
+  "SelectionId": 192,
+  "Config": "et",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Koch, Rohan and Gottlieb",
-      "Description": "Profound mobile hub",
+      "Name": "Fadel LLC",
+      "Description": "Decentralized heuristic support",
       "Type": "Boolean",
-      "ListName": "Ortiz LLC",
+      "ListName": "Ward-Lubowitz",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "amet",
-      "DefaultDataOption": false
+      "Value": "dolores",
+      "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 820,
+      "VisibleId": 594,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "qui"
     },
     {
-      "VisibleId": 820,
+      "VisibleId": 594,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "qui"
     }
   ]
 }
@@ -154,64 +153,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 206,
-  "Caption": "voluptatem",
-  "Description": "Phased scalable policy",
-  "ChartName": "Kuphal, Roob and Bernhard",
-  "ChartId": "nihil",
+  "DashboardTileId": 811,
+  "Caption": "laboriosam",
+  "Description": "User-centric 4th generation structure",
+  "ChartName": "Lubowitz Group",
+  "ChartId": "odit",
   "IsDefault": false,
-  "AssociateId": 373,
-  "GroupId": 686,
-  "SelectionId": 578,
-  "Config": "qui",
+  "AssociateId": 182,
+  "GroupId": 371,
+  "SelectionId": 718,
+  "Config": "aliquam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Connelly-Terry",
-      "Description": "Implemented 3rd generation system engine",
+      "Name": "Kuhic, Schuppe and Sauer",
+      "Description": "Profound static model",
       "Type": "Boolean",
-      "ListName": "Mann Group",
+      "ListName": "Hyatt-Waters",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "dolor",
+      "Value": "aut",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 789
+          "FieldType": "System.Int32",
+          "FieldLength": 480
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 578,
+      "VisibleId": 615,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldType": "System.String",
+          "FieldLength": 19
         }
       }
     },
     {
-      "VisibleId": 578,
+      "VisibleId": 615,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldType": "System.String",
+          "FieldLength": 19
         }
       }
     }
@@ -221,12 +220,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldLength": 2
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

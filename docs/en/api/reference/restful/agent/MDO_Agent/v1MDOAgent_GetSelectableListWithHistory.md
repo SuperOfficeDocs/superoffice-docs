@@ -42,20 +42,19 @@ POST /api/v1/Agents/MDO/GetSelectableListWithHistory?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| ForceFlatList | bool |  |
-| AdditionalInfo | string |  |
-| HistoryItems | array |  |
-| OnlyHistory | bool |  |
+| Name | String |  |
+| ForceFlatList | Boolean |  |
+| AdditionalInfo | String |  |
+| HistoryItems | Array |  |
+| OnlyHistory | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +81,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,16 +90,16 @@ Response body: array
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Collins Group",
-  "ForceFlatList": false,
-  "AdditionalInfo": "occaecati",
+  "Name": "Kunde Group",
+  "ForceFlatList": true,
+  "AdditionalInfo": "velit",
   "HistoryItems": [
-    571,
-    448
+    714,
+    633
   ],
   "OnlyHistory": false
 }
@@ -114,56 +113,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Toy Inc and Sons",
-    "ToolTip": "Veritatis impedit consequatur autem et ut consequatur rerum.",
+    "Id": 505,
+    "Name": "Cummings-Aufderhar",
+    "ToolTip": "Itaque et quia recusandae et.",
     "Deleted": true,
-    "Rank": 286,
-    "Type": "doloremque",
-    "ColorBlock": 574,
-    "IconHint": "vero",
-    "Selected": true,
-    "LastChanged": "2019-03-18T02:49:44.7340524+01:00",
+    "Rank": 899,
+    "Type": "et",
+    "ColorBlock": 946,
+    "IconHint": "ipsam",
+    "Selected": false,
+    "LastChanged": "1997-02-12T17:37:18.3422426+01:00",
     "ChildItems": [
       {
-        "Id": 957,
-        "Name": "Hayes, Simonis and O'Kon",
-        "ToolTip": "Officia autem aut ea odit.",
+        "Id": 353,
+        "Name": "Lehner, Dietrich and Johnston",
+        "ToolTip": "Amet possimus odit.",
         "Deleted": false,
-        "Rank": 181,
-        "Type": "est",
+        "Rank": 52,
+        "Type": "architecto",
         "ColorBlock": 572,
-        "IconHint": "nostrum",
-        "Selected": true,
-        "LastChanged": "2001-05-30T02:49:44.7340524+02:00",
+        "IconHint": "sunt",
+        "Selected": false,
+        "LastChanged": "2012-05-05T17:37:18.3442413+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "similique",
+        "ExtraInfo": "soluta",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Henriette Williamson",
+        "FullName": "Ezra Hermiston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldType": "System.String",
+            "FieldLength": 891
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "quia",
+    "ExtraInfo": "qui",
+    "StyleHint": "deleniti",
     "Hidden": false,
-    "FullName": "Dr. Edgardo Jean Steuber",
+    "FullName": "Mr. Omari Gleichner Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 842
+        "FieldLength": 13
       }
     }
   }

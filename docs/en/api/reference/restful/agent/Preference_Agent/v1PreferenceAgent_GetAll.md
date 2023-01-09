@@ -42,7 +42,7 @@ POST /api/v1/Agents/Preference/GetAll?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +72,7 @@ Response body: array
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,7 +81,7 @@ Response body: array
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 619,
-    "Section": "dolorem",
-    "Key": "enim",
-    "Name": "Gleichner, Hirthe and Larkin",
+    "PrefDescId": 62,
+    "Section": "expedita",
+    "Key": "vel",
+    "Name": "Marvin-Wisozk",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Organic next generation infrastructure",
+    "Description": "Future-proofed multimedia budgetary management",
     "IsBuiltin": true,
-    "TableName": "Feest-Fisher",
-    "UserDefinedListId": 413,
-    "Rank": 859,
-    "SubGroup": "recusandae",
-    "MinLevel": 943,
-    "MaxValue": 652,
-    "MinValue": 55,
+    "TableName": "Bauch-Upton",
+    "UserDefinedListId": 163,
+    "Rank": 939,
+    "SubGroup": "neque",
+    "MinLevel": 136,
+    "MaxValue": 681,
+    "MinValue": 712,
     "RequiredLicense": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 718
+        "FieldLength": 562
       }
     }
   }

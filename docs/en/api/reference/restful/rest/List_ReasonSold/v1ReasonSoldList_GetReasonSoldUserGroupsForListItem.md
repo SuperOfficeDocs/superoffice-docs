@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Armstrong-Erdman",
-    "ToolTip": "Earum excepturi quia eos sit dolor.",
-    "Deleted": false,
-    "Rank": 713,
-    "Type": "quas",
-    "ColorBlock": 438,
-    "IconHint": "asperiores",
+    "Id": 305,
+    "Name": "Prosacco-Ondricka",
+    "ToolTip": "Quia facilis vitae neque dolore consequatur doloribus.",
+    "Deleted": true,
+    "Rank": 160,
+    "Type": "eaque",
+    "ColorBlock": 881,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2018-02-24T02:49:52.4846993+01:00",
+    "LastChanged": "2001-09-13T17:37:40.299506+02:00",
     "ChildItems": [
       {
-        "Id": 996,
-        "Name": "Kiehn LLC",
-        "ToolTip": "Quis quia ut voluptas.",
+        "Id": 884,
+        "Name": "Kassulke LLC",
+        "ToolTip": "Velit hic dolor sint.",
         "Deleted": false,
-        "Rank": 515,
-        "Type": "est",
-        "ColorBlock": 476,
-        "IconHint": "exercitationem",
+        "Rank": 398,
+        "Type": "cupiditate",
+        "ColorBlock": 953,
+        "IconHint": "doloribus",
         "Selected": true,
-        "LastChanged": "2003-03-30T02:49:52.4846993+01:00",
+        "LastChanged": "2018-05-17T17:37:40.299506+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "hic",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Mr. Dandre Toy Legros",
+        "FullName": "Miss Idella Friesen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 228
+            "FieldLength": 319
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "iste",
+    "ExtraInfo": "animi",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Lilla Cremin",
+    "FullName": "Prof. Celia Ines Swaniawski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldLength": 38
       }
     }
   }

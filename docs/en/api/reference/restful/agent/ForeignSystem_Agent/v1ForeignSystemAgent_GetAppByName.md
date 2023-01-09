@@ -42,16 +42,15 @@ POST /api/v1/Agents/ForeignSystem/GetAppByName?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
+| ApplicationName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignAppEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,10 +66,10 @@ Response body:
 | Name | string | Name of foreign application |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the foreign application. |
-| UpdatedBy |  | The person that last updated this foreign application. |
+| CreatedBy | Associate | The person that created the foreign application. |
+| UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,11 +78,11 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kuhn Inc and Sons"
+  "ApplicationName": "Grant-Kemmer"
 }
 ```
 
@@ -94,29 +93,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 892,
-  "Name": "Zieme Inc and Sons",
-  "CreatedDate": "2000-05-17T02:49:44.5454229+02:00",
-  "UpdatedDate": "2018-03-11T02:49:44.5454229+01:00",
+  "ForeignAppId": 795,
+  "Name": "Yost-Funk",
+  "CreatedDate": "1999-03-07T17:37:18.0982433+01:00",
+  "UpdatedDate": "2019-06-01T17:37:18.0982433+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
       "ForeignDeviceId": 933,
-      "Name": "Beier LLC",
-      "CreatedDate": "2000-06-22T02:49:44.5454229+02:00",
-      "UpdatedDate": "1998-06-30T02:49:44.5454229+02:00",
-      "AssociateFullName": "Stanley Halvorson",
-      "CreatedBy": "similique",
-      "UpdatedBy": "amet",
-      "DeviceIdentifier": "nihil",
-      "ForeignAppId": 419,
+      "Name": "Streich-Cormier",
+      "CreatedDate": "2020-02-23T17:37:18.0982433+01:00",
+      "UpdatedDate": "2012-08-26T17:37:18.0982433+02:00",
+      "AssociateFullName": "Deshawn McClure",
+      "CreatedBy": "exercitationem",
+      "UpdatedBy": "delectus",
+      "DeviceIdentifier": "cupiditate",
+      "ForeignAppId": 618,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 460
+          "FieldLength": 240
         }
       }
     }
@@ -125,8 +124,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 564
+      "FieldType": "System.Int32",
+      "FieldLength": 885
     }
   }
 }

@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,14 +73,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project/{id}/Guide?$select=name,department,category/id
 GET /api/v1/Project/{id}/Guide?$filter=name begins 'S'
 GET /api/v1/Project/{id}/Guide?$orderBy=name asc
-GET /api/v1/Project/{id}/Guide?$entities=non
-GET /api/v1/Project/{id}/Guide?$top=164
-GET /api/v1/Project/{id}/Guide?$skip=535
+GET /api/v1/Project/{id}/Guide?$entities=eum
+GET /api/v1/Project/{id}/Guide?$top=510
+GET /api/v1/Project/{id}/Guide?$skip=5
 GET /api/v1/Project/{id}/Guide?$mode=Full
 GET /api/v1/Project/{id}/Guide?$options=GrandTotal=true
-GET /api/v1/Project/{id}/Guide?$context=qui
+GET /api/v1/Project/{id}/Guide?$context=eaque
 GET /api/v1/Project/{id}/Guide?$format=JSON
-GET /api/v1/Project/{id}/Guide?$jsonSafe=False
+GET /api/v1/Project/{id}/Guide?$jsonSafe=True
 GET /api/v1/Project/{id}/Guide?$output=Display
 ```
 
@@ -100,7 +99,7 @@ GET /api/v1/Project/{id}/Guide?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Project/{id}/Guide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "iste",
+  "odata.nextLink": "qui",
   "value": [
     {
-      "PrimaryKey": 8973,
-      "EntityName": "person",
-      "personId": 8973,
-      "fullName": "Mr. Gloria Willms"
+      "PrimaryKey": 7830,
+      "EntityName": "sale",
+      "saleId": 7830,
+      "contactId": 7962,
+      "name": "Blick-Runte"
     },
     {
-      "PrimaryKey": 9014,
-      "EntityName": "person",
-      "personId": 9014,
-      "fullName": "Boyd Franecki"
+      "PrimaryKey": 4503,
+      "EntityName": "sale",
+      "saleId": 4503,
+      "contactId": 9719,
+      "name": "Gaylord-Emard"
     }
   ]
 }

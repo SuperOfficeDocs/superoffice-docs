@@ -47,7 +47,7 @@ POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 DocumentEntity found.
 
@@ -56,7 +56,7 @@ DocumentEntity found.
 | 200 | DocumentEntity found. |
 | 404 | DocumentEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +94,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -103,7 +103,7 @@ Response body:
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 879,
-  "ColumnId": 626,
-  "FieldDefault": "omnis",
-  "FieldHeight": 228,
-  "FieldLabel": "reprehenderit",
-  "FieldLeft": 230,
-  "FieldTop": 144,
+  "UDefFieldId": 859,
+  "ColumnId": 373,
+  "FieldDefault": "ut",
+  "FieldHeight": 192,
+  "FieldLabel": "eos",
+  "FieldLeft": 752,
+  "FieldTop": 44,
   "FieldType": "Checkbox",
-  "FieldWidth": 164,
-  "FormatMask": "quaerat",
+  "FieldWidth": 307,
+  "FormatMask": "ipsum",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 611,
-  "LabelLeft": 443,
-  "LabelTop": 586,
-  "LabelWidth": 450,
-  "LastVersionId": 818,
-  "ListTableId": 284,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 15,
+  "LabelLeft": 918,
+  "LabelTop": 974,
+  "LabelWidth": 290,
+  "LastVersionId": 326,
+  "ListTableId": 766,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 968,
-  "ProgId": "sapiente",
+  "Page1LineNo": 820,
+  "ProgId": "dicta",
   "IsReadOnly": true,
-  "ShortLabel": "nihil",
-  "TabOrder": 580,
-  "TextLength": 618,
-  "Tooltip": "doloremque",
-  "UdefIdentity": 615,
-  "UDListDefinitionId": 850,
+  "ShortLabel": "corrupti",
+  "TabOrder": 30,
+  "TextLength": 662,
+  "Tooltip": "maiores",
+  "UdefIdentity": 103,
+  "UDListDefinitionId": 330,
   "Justification": "Center",
-  "Version": 392,
-  "TemplateVariableName": "Mraz LLC",
+  "Version": 914,
+  "TemplateVariableName": "Rippin-Hoeger",
   "HasBeenPublished": false,
-  "MdoListName": "O'Reilly Inc and Sons",
+  "MdoListName": "Harber, O'Keefe and Hagenes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldType": "System.String",
+      "FieldLength": 485
     }
   }
 }

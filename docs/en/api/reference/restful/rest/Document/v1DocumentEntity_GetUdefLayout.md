@@ -34,7 +34,7 @@ May be different from the published version.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +80,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,7 +89,7 @@ Response body: array
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 233,
-    "ColumnId": 103,
-    "FieldDefault": "in",
-    "FieldHeight": 557,
-    "FieldLabel": "laudantium",
-    "FieldLeft": 608,
-    "FieldTop": 299,
+    "UDefFieldId": 618,
+    "ColumnId": 195,
+    "FieldDefault": "a",
+    "FieldHeight": 486,
+    "FieldLabel": "nam",
+    "FieldLeft": 429,
+    "FieldTop": 742,
     "FieldType": "Checkbox",
-    "FieldWidth": 87,
-    "FormatMask": "dolorem",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 939,
-    "LabelLeft": 521,
-    "LabelTop": 598,
-    "LabelWidth": 377,
-    "LastVersionId": 557,
-    "ListTableId": 897,
+    "FieldWidth": 996,
+    "FormatMask": "et",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 332,
+    "LabelLeft": 587,
+    "LabelTop": 675,
+    "LabelWidth": 18,
+    "LastVersionId": 549,
+    "ListTableId": 680,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 309,
-    "ProgId": "accusantium",
+    "Page1LineNo": 551,
+    "ProgId": "ducimus",
     "IsReadOnly": false,
-    "ShortLabel": "minus",
-    "TabOrder": 992,
-    "TextLength": 730,
-    "Tooltip": "officia",
-    "UdefIdentity": 803,
-    "UDListDefinitionId": 462,
+    "ShortLabel": "debitis",
+    "TabOrder": 960,
+    "TextLength": 797,
+    "Tooltip": "facere",
+    "UdefIdentity": 525,
+    "UDListDefinitionId": 782,
     "Justification": "Center",
-    "Version": 249,
-    "TemplateVariableName": "Blanda, Rau and Will",
+    "Version": 554,
+    "TemplateVariableName": "Cormier-McClure",
     "HasBeenPublished": false,
-    "MdoListName": "Nicolas, Grady and Funk",
+    "MdoListName": "Towne, Wyman and Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 27
+        "FieldType": "System.Int32",
+        "FieldLength": 150
       }
     }
   }

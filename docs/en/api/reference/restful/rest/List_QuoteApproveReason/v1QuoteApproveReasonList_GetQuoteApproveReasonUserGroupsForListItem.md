@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Name": "Cronin, Harvey and Kihn",
-    "ToolTip": "Magni odio.",
+    "Id": 357,
+    "Name": "Schultz LLC",
+    "ToolTip": "Et error.",
     "Deleted": true,
-    "Rank": 633,
-    "Type": "ea",
-    "ColorBlock": 78,
-    "IconHint": "optio",
-    "Selected": true,
-    "LastChanged": "2007-09-16T02:49:52.422202+02:00",
+    "Rank": 109,
+    "Type": "cumque",
+    "ColorBlock": 860,
+    "IconHint": "quidem",
+    "Selected": false,
+    "LastChanged": "2001-09-15T17:37:40.2294702+02:00",
     "ChildItems": [
       {
-        "Id": 991,
-        "Name": "Dickinson Group",
-        "ToolTip": "Recusandae cumque mollitia aut.",
+        "Id": 841,
+        "Name": "Rosenbaum Inc and Sons",
+        "ToolTip": "Optio error laborum.",
         "Deleted": false,
-        "Rank": 193,
-        "Type": "minima",
-        "ColorBlock": 58,
-        "IconHint": "neque",
+        "Rank": 125,
+        "Type": "est",
+        "ColorBlock": 647,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2020-04-10T02:49:52.422202+02:00",
+        "LastChanged": "2014-01-12T17:37:40.2294702+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "velit",
-        "Hidden": false,
-        "FullName": "Mrs. Bernard Brenda Bradtke III",
+        "ExtraInfo": "nulla",
+        "StyleHint": "nemo",
+        "Hidden": true,
+        "FullName": "Mr. Itzel O'Hara",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 818
+            "FieldLength": 753
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "delectus",
-    "Hidden": false,
-    "FullName": "Meghan Sipes",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Kamille McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldLength": 999
       }
     }
   }

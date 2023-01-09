@@ -42,16 +42,15 @@ POST /api/v1/Agents/Pocket/GetRegisteredDevices?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
+| AssociateId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 223
+  "AssociateId": 858
 }
 ```
 
@@ -94,14 +93,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Okuneva, Ferry and Schmitt",
-    "DeviceIdentifier": "cumque",
-    "PocketVersion": "nesciunt",
-    "Language": "voluptatum",
-    "PNSHandle": "voluptate",
+    "DeviceName": "Feest LLC",
+    "DeviceIdentifier": "molestiae",
+    "PocketVersion": "tempora",
+    "Language": "et",
+    "PNSHandle": "ea",
     "Platform": "Apple",
-    "OSVersion": "quibusdam",
-    "TimeZoneId": 161
+    "OSVersion": "quidem",
+    "TimeZoneId": 922
   }
 ]
 ```

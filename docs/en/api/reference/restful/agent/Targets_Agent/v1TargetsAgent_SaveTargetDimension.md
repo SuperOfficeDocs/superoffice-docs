@@ -32,24 +32,23 @@ Updates the existing TargetDimension or creates a new TargetDimension if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The TargetDimension to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TargetDimensionId | int32 | Primary key |
-| AssignmentLevel | string | What level this dimension can be assigned to (Company, Group, Associate) |
-| EntityType | string | Entity type for this set of targets (Sale, Project, Selection, Appointment...) |
-| MeasurementUnit | string | What to measure (Amount, Count, Profit... |
-| DimensionListField | string | List that defines the dimensions for this target matrix (ex: Sale type, source, partner, business, udef or extrafield lists...) |
-| DimensionListName | string | List name (can be used by list provider system to get list items) |
-| DimensionListId | int32 | List id (can be used by list provider system to get list items) |
-| DimensionListLabel | string | list label (list column name) |
-| SelectedDimensions | array | id's of the selected/wanted dimensions (what sale types or udef list lines that should be target dimensions) |
+| TargetDimensionId | Integer | Primary key |
+| AssignmentLevel | String | What level this dimension can be assigned to (Company, Group, Associate) |
+| EntityType | String | Entity type for this set of targets (Sale, Project, Selection, Appointment...) |
+| MeasurementUnit | String | What to measure (Amount, Count, Profit... |
+| DimensionListField | String | List that defines the dimensions for this target matrix (ex: Sale type, source, partner, business, udef or extrafield lists...) |
+| DimensionListName | String | List name (can be used by list provider system to get list items) |
+| DimensionListId | Integer | List id (can be used by list provider system to get list items) |
+| DimensionListLabel | String | list label (list column name) |
+| SelectedDimensions | Array | id's of the selected/wanted dimensions (what sale types or udef list lines that should be target dimensions) |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -57,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TargetDimension
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body:
 | DimensionListId | int32 | List id (can be used by list provider system to get list items) |
 | DimensionListLabel | string | list label (list column name) |
 | SelectedDimensions | array | id's of the selected/wanted dimensions (what sale types or udef list lines that should be target dimensions) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,17 +82,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 938,
+  "TargetDimensionId": 798,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "molestiae",
-  "DimensionListName": "Altenwerth-Ebert",
-  "DimensionListId": 225,
-  "DimensionListLabel": "consequatur",
+  "DimensionListField": "eveniet",
+  "DimensionListName": "Yundt, McClure and Hermiston",
+  "DimensionListId": 538,
+  "DimensionListLabel": "omnis",
   "SelectedDimensions": [
-    839,
-    576
+    768,
+    49
   ]
 }
 ```
@@ -105,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 478,
+  "TargetDimensionId": 594,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "itaque",
-  "DimensionListName": "Olson-Turner",
-  "DimensionListId": 853,
-  "DimensionListLabel": "est",
+  "DimensionListField": "autem",
+  "DimensionListName": "Will Group",
+  "DimensionListId": 157,
+  "DimensionListLabel": "voluptatem",
   "SelectedDimensions": [
-    160,
-    893
+    545,
+    949
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldType": "System.String",
+      "FieldLength": 552
     }
   }
 }

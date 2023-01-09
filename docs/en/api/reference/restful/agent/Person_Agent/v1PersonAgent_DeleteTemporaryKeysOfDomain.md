@@ -38,17 +38,16 @@ POST /api/v1/Agents/Person/DeleteTemporaryKeysOfDomain?$select=name,department,c
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Domain, PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Domain | string |  |
-| PersonId | int32 |  |
+| Domain | String |  |
+| PersonId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,12 +64,12 @@ Response body:
 POST /api/v1/Agents/Person/DeleteTemporaryKeysOfDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "PersonId": 756
+  "PersonId": 219
 }
 ```
 

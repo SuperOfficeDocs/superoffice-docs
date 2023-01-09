@@ -25,8 +25,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=nihil
+GET /api/v1/List/ProductType/MDOItems?flat=False
+GET /api/v1/List/ProductType/MDOItems?query=velit
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/ProductType/MDOItems?query=nihil
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 215,
-    "Name": "Daugherty Inc and Sons",
-    "ToolTip": "Aut eos.",
-    "Deleted": true,
-    "Rank": 712,
-    "Type": "ut",
+    "Id": 789,
+    "Name": "Mraz Group",
+    "ToolTip": "Autem et.",
+    "Deleted": false,
+    "Rank": 207,
+    "Type": "ad",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Stehr LLC",
-        "ToolTip": "Voluptas nobis eum iste.",
+        "Id": 1001,
+        "Name": "Littel-Dare",
+        "ToolTip": "Quia et ad est.",
         "Deleted": false,
-        "Rank": 890,
-        "Type": "voluptas",
+        "Rank": 622,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 834,
-        "ExtraInfo": "assumenda",
-        "StyleHint": "fugit",
-        "FullName": "Prof. Amina Neva Cartwright",
+        "IconHint": "et",
+        "ColorBlock": 329,
+        "ExtraInfo": "aut",
+        "StyleHint": "voluptas",
+        "FullName": "Dr. Brannon Cynthia Wolf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 478
+            "FieldLength": 523
           }
         }
       }
     ],
-    "IconHint": "fuga",
-    "ColorBlock": 892,
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "illo",
-    "FullName": "Miss Adolf Gerlach",
+    "IconHint": "eum",
+    "ColorBlock": 798,
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatibus",
+    "FullName": "Prof. Marianna Kelley Emard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 402
+        "FieldLength": 288
       }
     }
   }

@@ -44,21 +44,20 @@ POST /api/v1/Agents/Find/FindOrderBy2?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, PageSize, PageNumber, OrderBy 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| PageSize | int32 |  |
-| PageNumber | int32 |  |
-| OrderBy | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| PageSize | Integer |  |
+| PageNumber | Integer |  |
+| OrderBy | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,14 +65,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FindResults
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,16 +81,16 @@ Response body:
 POST /api/v1/Agents/Find/FindOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nam",
-  "ProviderName": "Spinka, Mills and Waters",
-  "StorageKey": "dolorum",
-  "PageSize": 808,
-  "PageNumber": 726,
-  "OrderBy": "incidunt"
+  "StorageType": "amet",
+  "ProviderName": "Murphy Group",
+  "StorageKey": "et",
+  "PageSize": 103,
+  "PageNumber": 980,
+  "OrderBy": "at"
 }
 ```
 
@@ -104,51 +103,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kulas Group",
-      "DisplayTooltip": "qui",
-      "DisplayType": "est",
+      "DisplayName": "Blanda LLC",
+      "DisplayTooltip": "quisquam",
+      "DisplayType": "sunt",
       "CanOrderBy": false,
-      "Name": "Fritsch Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Fisher, Hilll and Reilly",
-      "IsVisible": false,
-      "ExtraInfo": "quae",
-      "Width": "quaerat",
-      "IconHint": "totam",
-      "HeadingIconHint": "quaerat"
+      "Name": "Ryan, Wuckert and Hahn",
+      "CanRestrictBy": false,
+      "RestrictionType": "maiores",
+      "RestrictionListName": "Luettgen LLC",
+      "IsVisible": true,
+      "ExtraInfo": "quia",
+      "Width": "earum",
+      "IconHint": "eum",
+      "HeadingIconHint": "quibusdam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Farrell-Schuppe",
-      "PrimaryKey": 271,
+      "EntityName": "Morissette-Schuppe",
+      "PrimaryKey": 379,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "eveniet",
-          "LinkHint": "consectetur"
+          "DisplayValue": "veniam",
+          "TooltipHint": "tempore",
+          "LinkHint": "ea"
         }
       },
-      "LinkHint": "minima",
-      "StyleHint": "doloremque",
+      "LinkHint": "rem",
+      "StyleHint": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldType": "System.String",
+          "FieldLength": 273
         }
       }
     }
   ],
-  "RowCount": 775,
+  "RowCount": 273,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldLength": 711
     }
   }
 }

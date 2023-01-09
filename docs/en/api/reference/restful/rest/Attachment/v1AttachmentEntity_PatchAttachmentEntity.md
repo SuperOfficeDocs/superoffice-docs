@@ -71,18 +71,17 @@ PATCH /api/v1/Attachment/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 AttachmentEntity  updated.
 
@@ -93,7 +92,7 @@ AttachmentEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because AttachmentEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: AttachmentEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,7 +102,7 @@ Response body:
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -113,18 +112,18 @@ Response body:
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "culpa",
+    "path": "molestiae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "culpa",
+    "path": "molestiae",
     "value": {}
   }
 ]
@@ -137,18 +136,18 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 234,
-  "Name": "Collier LLC",
-  "ContentType": "nemo",
-  "AttSize": 680,
-  "InlineImage": true,
-  "ContentId": "enim",
+  "AttachmentId": 729,
+  "Name": "Quigley Inc and Sons",
+  "ContentType": "molestiae",
+  "AttSize": 880,
+  "InlineImage": false,
+  "ContentId": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 936
+      "FieldType": "System.Int32",
+      "FieldLength": 351
     }
   },
   "_Links": {

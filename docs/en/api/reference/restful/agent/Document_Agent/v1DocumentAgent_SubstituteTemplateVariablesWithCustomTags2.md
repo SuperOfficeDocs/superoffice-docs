@@ -44,26 +44,25 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags2?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Source, GeneratorEncoding, CustomTags, ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CultureName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Source | string |  |
-| GeneratorEncoding | string |  |
-| CustomTags | object |  |
-| ContactId | int32 |  |
-| PersonId | int32 |  |
-| AppointmentId | int32 |  |
-| DocumentId | int32 |  |
-| SaleId | int32 |  |
-| SelectionId | int32 |  |
-| ProjectId | int32 |  |
-| CultureName | string |  |
+| Source | String |  |
+| GeneratorEncoding | String |  |
+| CustomTags | PersonEntity |  |
+| ContactId | Integer |  |
+| PersonId | Integer |  |
+| AppointmentId | Integer |  |
+| DocumentId | Integer |  |
+| SaleId | Integer |  |
+| SelectionId | Integer |  |
+| ProjectId | Integer |  |
+| CultureName | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -71,7 +70,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -84,20 +83,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "ratione",
+  "Source": "soluta",
   "GeneratorEncoding": "Html",
   "CustomTags": {
-    "CustomTags1": "sint",
-    "CustomTags2": "omnis"
+    "CustomTags1": "aut",
+    "CustomTags2": "temporibus"
   },
-  "ContactId": 137,
-  "PersonId": 749,
-  "AppointmentId": 770,
-  "DocumentId": 599,
-  "SaleId": 321,
-  "SelectionId": 465,
-  "ProjectId": 796,
-  "CultureName": "sv"
+  "ContactId": 617,
+  "PersonId": 231,
+  "AppointmentId": 81,
+  "DocumentId": 287,
+  "SaleId": 884,
+  "SelectionId": 4,
+  "ProjectId": 528,
+  "CultureName": "en"
 }
 ```
 
@@ -107,5 +106,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ex"
+"consequuntur"
 ```

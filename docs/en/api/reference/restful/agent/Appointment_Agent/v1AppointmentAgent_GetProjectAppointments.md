@@ -44,19 +44,18 @@ POST /api/v1/Agents/Appointment/GetProjectAppointments?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| ProjectId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -117,7 +116,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -126,14 +125,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 285,
-  "StartTime": "2012-12-12T02:49:43.5129081+01:00",
-  "EndTime": "1997-04-02T02:49:43.5129081+02:00",
-  "Count": 880
+  "ProjectId": 474,
+  "StartTime": "1997-07-20T17:37:16.5972442+02:00",
+  "EndTime": "2015-11-08T17:37:16.5972442+01:00",
+  "Count": 384
 }
 ```
 
@@ -145,53 +144,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 159,
-    "StartDate": "2007-07-19T02:49:43.5129081+02:00",
-    "EndDate": "2003-05-01T02:49:43.5129081+02:00",
+    "AppointmentId": 157,
+    "StartDate": "2008-08-17T17:37:16.5982447+02:00",
+    "EndDate": "2008-12-20T17:37:16.5982447+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dolores",
-    "AssociateFullName": "Mavis Langosh",
-    "ContactName": "Erdman-Welch",
-    "Description": "Focused dynamic hub",
-    "PersonFullName": "Mrs. Kathryn Alexandrine Bechtelar Sr.",
-    "PersonId": 780,
-    "ContactId": 120,
-    "ProjectId": 668,
-    "ProjectName": "Jakubowski-Cassin",
+    "Task": "id",
+    "AssociateFullName": "Hadley Beahan Jr.",
+    "ContactName": "Zboncak, Leuschke and Robel",
+    "Description": "Pre-emptive exuding algorithm",
+    "PersonFullName": "Antonette Alvina Halvorson V",
+    "PersonId": 474,
+    "ContactId": 610,
+    "ProjectId": 830,
+    "ProjectName": "Legros-Bechtelar",
     "IsPublished": false,
-    "AssociateId": 568,
-    "ColorIndex": 76,
+    "AssociateId": 323,
+    "ColorIndex": 569,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 491,
-    "PriorityName": "Rippin, Okuneva and Adams",
+    "PriorityId": 790,
+    "PriorityName": "Tremblay-Friesen",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2005-03-24T02:49:43.5129081+01:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2017-07-11T17:37:16.6002446+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1997-04-18T02:49:43.5129081+02:00",
-    "RecurringEndDate": "2008-03-15T02:49:43.5129081+01:00",
-    "MotherId": 753,
-    "AssignedBy": 633,
-    "AssignedByFullName": "Milo Legros",
-    "RejectReason": "",
-    "Location": "similique",
-    "AlarmLeadTime": "quia",
-    "SaleId": 35,
-    "SaleName": "Champlin, Anderson and Brekke",
-    "AssociateName": "O'Reilly Inc and Sons",
-    "CreatedDate": "2006-01-13T02:49:43.5129081+01:00",
-    "CreatedBy": "exercitationem",
-    "CreatedByFullName": "Mr. Reilly Yvette O'Reilly III",
-    "CreatedByAssociateId": 750,
+    "RecurringStartDate": "2011-08-03T17:37:16.6002446+02:00",
+    "RecurringEndDate": "1998-06-04T17:37:16.6002446+02:00",
+    "MotherId": 279,
+    "AssignedBy": 733,
+    "AssignedByFullName": "Margarett Kohler",
+    "RejectReason": "brand cross-media e-business",
+    "Location": "eligendi",
+    "AlarmLeadTime": "voluptatem",
+    "SaleId": 356,
+    "SaleName": "Ritchie Group",
+    "AssociateName": "Bahringer-Ferry",
+    "CreatedDate": "2013-10-14T17:37:16.6002446+02:00",
+    "CreatedBy": "nisi",
+    "CreatedByFullName": "Mrs. Mackenzie Lolita Douglas Jr.",
+    "CreatedByAssociateId": 298,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -199,7 +198,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 434
+        "FieldLength": 366
       }
     }
   }

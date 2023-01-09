@@ -42,16 +42,15 @@ POST /api/v1/Agents/Marketing/GetPreviewMailingHeader?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ShipmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ShipmentId | int32 |  |
+| ShipmentId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreviewMailingHeader
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body:
 | NumOpened | int32 | Number of recipients that opened the email. |
 | NumBounced | int32 | Number of recipients that resulted in a bounce. |
 | NumClicks | int32 | Number of recipients that clicked at least 1 link in the mailing. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,11 +86,11 @@ Response body:
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 35
+  "ShipmentId": 46
 }
 ```
 
@@ -102,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2010-12-20T02:49:44.7172985+01:00",
+  "StartDate": "1997-03-01T17:37:18.3242416+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 848,
-  "ShipmentDescription": "User-friendly neutral toolset",
-  "FromAddress": "quaerat",
-  "PersonId": 730,
-  "PersonFullName": "Maddison Davis",
-  "ShipmentType": "officiis",
-  "MessageId": 839,
-  "MessageSubject": "quisquam",
-  "DocumentMessageId": 991,
-  "NumSent": 705,
-  "NumOpened": 637,
-  "NumBounced": 980,
-  "NumClicks": 8,
+  "ShipmentId": 426,
+  "ShipmentDescription": "Pre-emptive disintermediate migration",
+  "FromAddress": "placeat",
+  "PersonId": 17,
+  "PersonFullName": "Eden Kuhic",
+  "ShipmentType": "earum",
+  "MessageId": 635,
+  "MessageSubject": "nihil",
+  "DocumentMessageId": 796,
+  "NumSent": 969,
+  "NumOpened": 130,
+  "NumBounced": 24,
+  "NumClicks": 887,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldLength": 110
     }
   }
 }

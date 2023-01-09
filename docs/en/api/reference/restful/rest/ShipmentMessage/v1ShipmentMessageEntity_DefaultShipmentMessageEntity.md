@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ShipmentMessageEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +67,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,7 +76,7 @@ Response body:
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 618,
-  "PlainMessage": "pariatur",
-  "HtmlMessage": "illo",
-  "SmsMessage": "corporis",
-  "Description": "Customizable assymetric function",
-  "Subject": "ad",
-  "FolderId": 18,
-  "HeaderField": "veritatis",
-  "Design": "deserunt",
+  "ShipmentMessageId": 213,
+  "PlainMessage": "et",
+  "HtmlMessage": "aut",
+  "SmsMessage": "doloribus",
+  "Description": "Face to face content-based projection",
+  "Subject": "earum",
+  "FolderId": 600,
+  "HeaderField": "consequatur",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Distributed dedicated moratorium",
-  "AccessKey": "voluptas",
-  "DocumentMessage": 149,
-  "Registered": "2018-01-16T02:49:51.536309+01:00",
-  "RegisteredAssociateId": 248,
-  "Updated": "2020-01-20T02:49:51.536309+01:00",
-  "UpdatedAssociateId": 725,
-  "UpdatedCount": 288,
+  "InlineImages": false,
+  "LongDescription": "Enterprise-wide stable adapter",
+  "AccessKey": "sunt",
+  "DocumentMessage": 194,
+  "Registered": "2013-12-14T17:37:39.2253032+01:00",
+  "RegisteredAssociateId": 517,
+  "Updated": "2022-06-27T17:37:39.2253032+02:00",
+  "UpdatedAssociateId": 905,
+  "UpdatedCount": 363,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 69
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   }
 }

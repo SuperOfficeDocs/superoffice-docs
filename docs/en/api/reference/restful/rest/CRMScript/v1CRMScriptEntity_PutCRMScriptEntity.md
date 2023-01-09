@@ -12,8 +12,6 @@ PUT /api/v1/CRMScript/{id}
 Updates the existing CRMScriptEntity
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -50,26 +48,25 @@ PUT /api/v1/CRMScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The CRMScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EjscriptId | int32 | Primary key |
-| UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Name | string | A description of this script |
-| Description | string | Optional description of what this script is used for. |
-| IncludeId | string | A unique name used for including this script in another |
-| HierarchyId | int32 | The script is inside this hierarchy folder |
-| Source | string | The script |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
+| EjscriptId | Integer | Primary key |
+| UniqueIdentifier | String | Global unique identifier, accross customers/tenants |
+| Name | String | A description of this script |
+| Description | String | Optional description of what this script is used for. |
+| IncludeId | String | A unique name used for including this script in another |
+| HierarchyId | Integer | The script is inside this hierarchy folder |
+| Source | String | The script |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
 
-
-## Response: 
+## Response:
 
 CRMScriptEntity updated.
 
@@ -78,7 +75,7 @@ CRMScriptEntity updated.
 | 200 | CRMScriptEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: CRMScriptEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,7 +90,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -107,17 +104,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 545,
-  "UniqueIdentifier": "ducimus",
-  "Name": "Strosin, Moore and Veum",
-  "Description": "Networked global product",
-  "IncludeId": "perferendis",
-  "HierarchyId": 645,
-  "Source": "rerum",
-  "Registered": "2008-03-25T02:49:50.8546634+01:00",
-  "RegisteredAssociateId": 126,
-  "Updated": "2008-08-29T02:49:50.8546634+02:00",
-  "UpdatedAssociateId": 279
+  "EjscriptId": 997,
+  "UniqueIdentifier": "et",
+  "Name": "Howe LLC",
+  "Description": "Customizable bi-directional service-desk",
+  "IncludeId": "natus",
+  "HierarchyId": 934,
+  "Source": "in",
+  "Registered": "2022-04-09T17:37:38.4848626+02:00",
+  "RegisteredAssociateId": 450,
+  "Updated": "2014-10-06T17:37:38.4848626+02:00",
+  "UpdatedAssociateId": 136
 }
 ```
 
@@ -128,23 +125,23 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 727,
-  "UniqueIdentifier": "saepe",
-  "Name": "Pfannerstill LLC",
-  "Description": "Ergonomic holistic help-desk",
-  "IncludeId": "laboriosam",
-  "HierarchyId": 828,
-  "Source": "accusantium",
-  "Registered": "2016-11-09T02:49:50.8546634+01:00",
-  "RegisteredAssociateId": 282,
-  "Updated": "2009-04-24T02:49:50.8546634+02:00",
-  "UpdatedAssociateId": 871,
+  "EjscriptId": 7,
+  "UniqueIdentifier": "hic",
+  "Name": "Kerluke, Smitham and Franecki",
+  "Description": "Multi-lateral cohesive capacity",
+  "IncludeId": "est",
+  "HierarchyId": 368,
+  "Source": "ut",
+  "Registered": "2017-05-31T17:37:38.4848626+02:00",
+  "RegisteredAssociateId": 430,
+  "Updated": "2015-08-19T17:37:38.4848626+02:00",
+  "UpdatedAssociateId": 488,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 898
     }
   },
   "_Links": {

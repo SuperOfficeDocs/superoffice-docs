@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=ea
-GET /api/v1/Contact?$top=737
-GET /api/v1/Contact?$skip=896
+GET /api/v1/Contact?$entities=esse
+GET /api/v1/Contact?$top=614
+GET /api/v1/Contact?$skip=99
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=voluptas
+GET /api/v1/Contact?$context=expedita
 GET /api/v1/Contact?$format=JSON
-GET /api/v1/Contact?$jsonSafe=False
+GET /api/v1/Contact?$jsonSafe=True
 GET /api/v1/Contact?$output=Display
 ```
 
@@ -96,7 +95,7 @@ GET /api/v1/Contact?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aut",
+  "odata.nextLink": "laudantium",
   "value": [
     {
-      "PrimaryKey": 1468,
-      "EntityName": "person",
-      "personId": 1468,
-      "fullName": "Mrs. Finn Stoltenberg"
+      "PrimaryKey": 1289,
+      "EntityName": "sale",
+      "saleId": 1289,
+      "contactId": 4294,
+      "name": "Kris, Labadie and Runte"
     },
     {
-      "PrimaryKey": 4839,
-      "EntityName": "person",
-      "personId": 4839,
-      "fullName": "Everette Gaylord"
+      "PrimaryKey": 2481,
+      "EntityName": "sale",
+      "saleId": 2481,
+      "contactId": 1475,
+      "name": "Cremin, Herzog and Metz"
     }
   ]
 }

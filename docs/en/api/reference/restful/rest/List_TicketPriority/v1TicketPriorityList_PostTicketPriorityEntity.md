@@ -34,43 +34,42 @@ Calls the List agent service SaveTicketPriorityEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The TicketPriorityEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketPriorityId | int32 | The primary key (auto-incremented) |
-| Name | string | The name of the priority. |
-| Status | string | The status (normal/deleted) of the priority. |
-| Flags | string | A bitmask of flags. |
-| SortOrder | int32 | Indicates the sort order for this priority. 1 is first, 100 is last |
-| TicketRead | string | This field indicates what to do with the escalation chain when the request is read |
-| ChangedOwner | string | This field indicates what to do with the escalation chain when the request changes owner (manually) |
-| TicketNewinfo | string | This field indicates what to do with the escalation chain when the request gets new info |
-| TicketClosed | string | This field indicates what to do with the escalation chain when the request is closed |
-| TicketChangedPriority | string | This field indicates what to do with the escalation chain when the request is changed into this priority |
-| TicketNew | string | This field indicates what to do with the escalation chain when a new request is registered |
-| Deadline | int32 | Deadline to add if escalated (minutes) |
-| MonStart | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
-| MonStop | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
-| TueStart | date-time | The work hour start for Tuesdays. Note that only the time part of the DateTime is used |
-| TueStop | date-time | The work hour stop for Tuesdays. Note that only the time part of the DateTime is used |
-| WedStart | date-time | The work hour start for Wednesdays. Note that only the time part of the DateTime is used |
-| WedStop | date-time | The work hour stop for Wednesdays. Note that only the time part of the DateTime is used |
-| ThuStart | date-time | The work hour start for Thursdays. Note that only the time part of the DateTime is used |
-| ThuStop | date-time | The work hour stop for Thursdays. Note that only the time part of the DateTime is used |
-| FriStart | date-time | The work hour start for Fridays. Note that only the time part of the DateTime is used |
-| FriStop | date-time | The work hour stop for Fridays. Note that only the time part of the DateTime is used |
-| SatStart | date-time | The work hour start for Saturdays. Note that only the time part of the DateTime is used |
-| SatStop | date-time | The work hour stop for Saturdays. Note that only the time part of the DateTime is used |
-| SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
-| SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
-| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
-| EscalationLevels | array | Escalation levels bound to the parent priority |
+| TicketPriorityId | Integer | The primary key (auto-incremented) |
+| Name | String | The name of the priority. |
+| Status | String | The status (normal/deleted) of the priority. |
+| Flags | String | A bitmask of flags. |
+| SortOrder | Integer | Indicates the sort order for this priority. 1 is first, 100 is last |
+| TicketRead | String | This field indicates what to do with the escalation chain when the request is read |
+| ChangedOwner | String | This field indicates what to do with the escalation chain when the request changes owner (manually) |
+| TicketNewinfo | String | This field indicates what to do with the escalation chain when the request gets new info |
+| TicketClosed | String | This field indicates what to do with the escalation chain when the request is closed |
+| TicketChangedPriority | String | This field indicates what to do with the escalation chain when the request is changed into this priority |
+| TicketNew | String | This field indicates what to do with the escalation chain when a new request is registered |
+| Deadline | Integer | Deadline to add if escalated (minutes) |
+| MonStart | String | The work hour start for Mondays. Note that only the time part of the DateTime is used |
+| MonStop | String | The work hour start for Mondays. Note that only the time part of the DateTime is used |
+| TueStart | String | The work hour start for Tuesdays. Note that only the time part of the DateTime is used |
+| TueStop | String | The work hour stop for Tuesdays. Note that only the time part of the DateTime is used |
+| WedStart | String | The work hour start for Wednesdays. Note that only the time part of the DateTime is used |
+| WedStop | String | The work hour stop for Wednesdays. Note that only the time part of the DateTime is used |
+| ThuStart | String | The work hour start for Thursdays. Note that only the time part of the DateTime is used |
+| ThuStop | String | The work hour stop for Thursdays. Note that only the time part of the DateTime is used |
+| FriStart | String | The work hour start for Fridays. Note that only the time part of the DateTime is used |
+| FriStop | String | The work hour stop for Fridays. Note that only the time part of the DateTime is used |
+| SatStart | String | The work hour start for Saturdays. Note that only the time part of the DateTime is used |
+| SatStop | String | The work hour stop for Saturdays. Note that only the time part of the DateTime is used |
+| SunStart | String | The work hour start for Sundays. Note that only the time part of the DateTime is used |
+| SunStop | String | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
+| NonDates | Array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
+| EscalationLevels | Array | Escalation levels bound to the parent priority |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -78,7 +77,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketPriorityEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -110,7 +109,7 @@ Response body:
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -123,54 +122,54 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 155,
-  "Name": "McDermott-Weimann",
+  "TicketPriorityId": 933,
+  "Name": "Schowalter, Powlowski and Volkman",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 191,
+  "SortOrder": 387,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 414,
-  "MonStart": "2006-10-18T02:49:52.5784525+02:00",
-  "MonStop": "2016-09-19T02:49:52.5784525+02:00",
-  "TueStart": "2022-04-21T02:49:52.5784525+02:00",
-  "TueStop": "2004-09-13T02:49:52.5784525+02:00",
-  "WedStart": "1998-10-29T02:49:52.5784525+01:00",
-  "WedStop": "2019-08-19T02:49:52.5784525+02:00",
-  "ThuStart": "2013-10-01T02:49:52.5784525+02:00",
-  "ThuStop": "2022-10-13T02:49:52.5784525+02:00",
-  "FriStart": "2003-07-09T02:49:52.5784525+02:00",
-  "FriStop": "2005-04-25T02:49:52.5784525+02:00",
-  "SatStart": "1996-03-02T02:49:52.5784525+01:00",
-  "SatStop": "2012-12-11T02:49:52.5784525+01:00",
-  "SunStart": "2015-05-23T02:49:52.5784525+02:00",
-  "SunStop": "2006-02-08T02:49:52.5784525+01:00",
+  "Deadline": 395,
+  "MonStart": "2018-06-12T17:37:40.4155002+02:00",
+  "MonStop": "2012-05-18T17:37:40.4155002+02:00",
+  "TueStart": "2013-04-11T17:37:40.4155002+02:00",
+  "TueStop": "2002-04-04T17:37:40.4155002+02:00",
+  "WedStart": "2002-02-28T17:37:40.4155002+01:00",
+  "WedStop": "2008-09-02T17:37:40.4155002+02:00",
+  "ThuStart": "2012-08-05T17:37:40.4155002+02:00",
+  "ThuStop": "2014-10-24T17:37:40.4155002+02:00",
+  "FriStart": "2004-03-19T17:37:40.4155002+01:00",
+  "FriStop": "2011-03-23T17:37:40.4155002+01:00",
+  "SatStart": "2005-09-10T17:37:40.4155002+02:00",
+  "SatStop": "2020-07-26T17:37:40.4155002+02:00",
+  "SunStart": "2022-03-14T17:37:40.4155002+01:00",
+  "SunStop": "2022-11-27T17:37:40.4155002+01:00",
   "NonDates": [
-    "qui",
-    "quam"
+    "neque",
+    "quia"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 1001,
-      "AlertLevel": 776,
-      "AlertTimeout": 819,
-      "Action": 212,
-      "DelegateTo": 149,
-      "ScriptId": 972,
-      "EmailTo": "isabell_romaguera@mann.ca",
-      "SmsTo": "soluta",
-      "ReplyTemplateIdCustomer": 196,
-      "ReplyTemplateIdUser": 878,
-      "ReplyTemplateIdCatmast": 662,
-      "ReplyTemplateIdEmail": 523,
-      "RtiCustomerSms": 452,
-      "ReplyTemplateIdUserSms": 447,
-      "ReplyTemplateIdCatmastSms": 471,
-      "ReplyTemplateIdSms": 294
+      "TicketAlertId": 891,
+      "AlertLevel": 914,
+      "AlertTimeout": 678,
+      "Action": 250,
+      "DelegateTo": 527,
+      "ScriptId": 1001,
+      "EmailTo": "kaylee@jerde.name",
+      "SmsTo": "est",
+      "ReplyTemplateIdCustomer": 495,
+      "ReplyTemplateIdUser": 441,
+      "ReplyTemplateIdCatmast": 267,
+      "ReplyTemplateIdEmail": 41,
+      "RtiCustomerSms": 268,
+      "ReplyTemplateIdUserSms": 986,
+      "ReplyTemplateIdCatmastSms": 922,
+      "ReplyTemplateIdSms": 240
     }
   ]
 }
@@ -183,60 +182,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 857,
-  "Name": "Adams, Ryan and Cummings",
+  "TicketPriorityId": 905,
+  "Name": "Powlowski Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 879,
+  "SortOrder": 515,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 253,
-  "MonStart": "2004-03-31T02:49:52.5784525+02:00",
-  "MonStop": "2011-06-21T02:49:52.5784525+02:00",
-  "TueStart": "2011-07-15T02:49:52.5784525+02:00",
-  "TueStop": "2004-07-20T02:49:52.5784525+02:00",
-  "WedStart": "2020-09-28T02:49:52.5784525+02:00",
-  "WedStop": "2004-09-20T02:49:52.5784525+02:00",
-  "ThuStart": "2021-02-18T02:49:52.5784525+01:00",
-  "ThuStop": "2004-06-10T02:49:52.5784525+02:00",
-  "FriStart": "2017-05-14T02:49:52.5784525+02:00",
-  "FriStop": "2014-02-16T02:49:52.5784525+01:00",
-  "SatStart": "2018-08-18T02:49:52.5784525+02:00",
-  "SatStop": "2001-11-02T02:49:52.5784525+01:00",
-  "SunStart": "1998-03-16T02:49:52.5784525+01:00",
-  "SunStop": "1997-09-29T02:49:52.5784525+02:00",
+  "Deadline": 327,
+  "MonStart": "2002-10-29T17:37:40.4165009+01:00",
+  "MonStop": "2007-10-26T17:37:40.4165009+02:00",
+  "TueStart": "2013-04-18T17:37:40.4165009+02:00",
+  "TueStop": "2022-10-05T17:37:40.4165009+02:00",
+  "WedStart": "2007-10-17T17:37:40.4165009+02:00",
+  "WedStop": "2003-08-24T17:37:40.4165009+02:00",
+  "ThuStart": "2003-06-03T17:37:40.4165009+02:00",
+  "ThuStop": "2015-01-31T17:37:40.4165009+01:00",
+  "FriStart": "2017-09-14T17:37:40.4165009+02:00",
+  "FriStop": "2013-11-08T17:37:40.4165009+01:00",
+  "SatStart": "1996-06-30T17:37:40.4165009+02:00",
+  "SatStop": "2017-12-25T17:37:40.4165009+01:00",
+  "SunStart": "2001-12-17T17:37:40.4165009+01:00",
+  "SunStop": "2000-07-05T17:37:40.4165009+02:00",
   "NonDates": [
-    "quaerat",
-    "voluptatem"
+    "sit",
+    "ex"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 669,
-      "AlertLevel": 199,
-      "AlertTimeout": 56,
-      "Action": 135,
-      "DelegateTo": 928,
-      "ScriptId": 34,
-      "EmailTo": "angie_nader@kerluke.com",
-      "SmsTo": "ipsum",
-      "ReplyTemplateIdCustomer": 246,
-      "ReplyTemplateIdUser": 153,
-      "ReplyTemplateIdCatmast": 896,
-      "ReplyTemplateIdEmail": 491,
-      "RtiCustomerSms": 225,
-      "ReplyTemplateIdUserSms": 930,
-      "ReplyTemplateIdCatmastSms": 870,
-      "ReplyTemplateIdSms": 28,
+      "TicketAlertId": 921,
+      "AlertLevel": 267,
+      "AlertTimeout": 975,
+      "Action": 88,
+      "DelegateTo": 213,
+      "ScriptId": 54,
+      "EmailTo": "turner_schoen@ondricka.com",
+      "SmsTo": "enim",
+      "ReplyTemplateIdCustomer": 358,
+      "ReplyTemplateIdUser": 673,
+      "ReplyTemplateIdCatmast": 258,
+      "ReplyTemplateIdEmail": 888,
+      "RtiCustomerSms": 814,
+      "ReplyTemplateIdUserSms": 347,
+      "ReplyTemplateIdCatmastSms": 260,
+      "ReplyTemplateIdSms": 702,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 315
+          "FieldType": "System.Int32",
+          "FieldLength": 340
         }
       }
     }
@@ -246,7 +245,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 514
+      "FieldLength": 868
     }
   }
 }

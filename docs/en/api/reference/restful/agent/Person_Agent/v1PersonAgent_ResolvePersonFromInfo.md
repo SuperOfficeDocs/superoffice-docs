@@ -44,19 +44,18 @@ POST /api/v1/Agents/Person/ResolvePersonFromInfo?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, PersonName, PhoneNumbers, Emails 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| PersonName | string |  |
-| PhoneNumbers | array |  |
-| Emails | array |  |
+| ContactId | Integer |  |
+| PersonName | String |  |
+| PhoneNumbers | Array |  |
+| Emails | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,13 +63,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ResolvedPerson
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Person |  | The resolved PersonEntity instance. |
+| Person | PersonEntity | The resolved PersonEntity instance. |
 | PersonCreated | bool | Indicates if the resolved person was created or not. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,15 +82,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 977,
-  "PersonName": "Gutmann-Schultz",
+  "ContactId": 497,
+  "PersonName": "Weissnat-Baumbach",
   "PhoneNumbers": [
-    "1412271",
-    "1229338"
+    "818983",
+    "302687"
   ],
   "Emails": [
-    "wendell@schumm.info",
-    "ryder_weber@gibsonboyle.info"
+    "joaquin_turner@wildermanschmidt.uk",
+    "mae@roberts.info"
   ]
 }
 ```
@@ -110,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 666
     }
   }
 }

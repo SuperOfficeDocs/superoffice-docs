@@ -36,7 +36,7 @@ Next upcoming milestone appointment
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Appointment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,7 +97,7 @@ Response body:
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -116,53 +116,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 866,
-  "StartDate": "2021-08-03T02:49:51.3546907+02:00",
-  "EndDate": "2014-04-03T02:49:51.3546907+02:00",
+  "AppointmentId": 256,
+  "StartDate": "2021-07-08T17:37:39.0183066+02:00",
+  "EndDate": "2010-03-16T17:37:39.0183066+01:00",
   "Type": "BookingForChecklist",
-  "Task": "voluptatem",
-  "AssociateFullName": "Prof. Alexandra Langosh",
-  "ContactName": "Schaefer Group",
-  "Description": "Fundamental 5th generation frame",
-  "PersonFullName": "Wilfrid Metz",
-  "PersonId": 286,
-  "ContactId": 584,
-  "ProjectId": 648,
-  "ProjectName": "Mills, Prohaska and McKenzie",
-  "IsPublished": false,
-  "AssociateId": 532,
-  "ColorIndex": 86,
-  "IsFree": true,
+  "Task": "magnam",
+  "AssociateFullName": "Prof. Sid Theron Rohan",
+  "ContactName": "Jacobs, Larkin and Schuppe",
+  "Description": "Secured transitional local area network",
+  "PersonFullName": "Prof. Catalina Shields MD",
+  "PersonId": 63,
+  "ContactId": 313,
+  "ProjectId": 30,
+  "ProjectName": "Schulist, Moore and Maggio",
+  "IsPublished": true,
+  "AssociateId": 157,
+  "ColorIndex": 597,
+  "IsFree": false,
   "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 165,
-  "PriorityName": "West-Rempel",
+  "PriorityId": 248,
+  "PriorityName": "Brakus LLC",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2018-09-15T02:49:51.3546907+02:00",
+  "IsBooking": false,
+  "ActiveDate": "2009-10-30T17:37:39.0193036+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2010-07-30T02:49:51.3546907+02:00",
-  "RecurringEndDate": "2016-05-25T02:49:51.3546907+02:00",
-  "MotherId": 273,
-  "AssignedBy": 100,
-  "AssignedByFullName": "Anissa Koch",
+  "RecurringStartDate": "1996-04-13T17:37:39.0193036+02:00",
+  "RecurringEndDate": "2005-07-12T17:37:39.0193036+02:00",
+  "MotherId": 3,
+  "AssignedBy": 965,
+  "AssignedByFullName": "Eusebio Carroll",
   "RejectReason": "",
-  "Location": "facilis",
-  "AlarmLeadTime": "velit",
-  "SaleId": 960,
-  "SaleName": "Welch-Konopelski",
-  "AssociateName": "Volkman, Ledner and Borer",
-  "CreatedDate": "2008-11-18T02:49:51.3546907+01:00",
-  "CreatedBy": "assumenda",
-  "CreatedByFullName": "Marc Bode PhD",
-  "CreatedByAssociateId": 573,
+  "Location": "et",
+  "AlarmLeadTime": "debitis",
+  "SaleId": 148,
+  "SaleName": "Upton Inc and Sons",
+  "AssociateName": "Donnelly-Collier",
+  "CreatedDate": "2015-04-24T17:37:39.0193036+02:00",
+  "CreatedBy": "minima",
+  "CreatedByFullName": "Kavon Barton III",
+  "CreatedByAssociateId": 165,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldLength": 654
     }
   }
 }

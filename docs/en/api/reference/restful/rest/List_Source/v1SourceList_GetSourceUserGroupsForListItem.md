@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 222,
-    "Name": "Shields-Willms",
-    "ToolTip": "Blanditiis corrupti necessitatibus aut sint qui illum.",
-    "Deleted": false,
-    "Rank": 542,
-    "Type": "molestiae",
-    "ColorBlock": 595,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "1997-08-13T02:49:52.5315748+02:00",
+    "Id": 212,
+    "Name": "Olson Group",
+    "ToolTip": "Deserunt voluptatem.",
+    "Deleted": true,
+    "Rank": 444,
+    "Type": "quia",
+    "ColorBlock": 52,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2013-06-03T17:37:40.3725026+02:00",
     "ChildItems": [
       {
-        "Id": 516,
-        "Name": "Hermiston LLC",
-        "ToolTip": "Cupiditate quae quia explicabo velit molestiae.",
-        "Deleted": false,
-        "Rank": 670,
-        "Type": "odio",
-        "ColorBlock": 244,
-        "IconHint": "soluta",
-        "Selected": false,
-        "LastChanged": "2002-09-24T02:49:52.5315748+02:00",
+        "Id": 217,
+        "Name": "Will Group",
+        "ToolTip": "Dolor fugit mollitia dolore id beatae.",
+        "Deleted": true,
+        "Rank": 926,
+        "Type": "aut",
+        "ColorBlock": 801,
+        "IconHint": "fuga",
+        "Selected": true,
+        "LastChanged": "2021-06-25T17:37:40.3725026+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Estel Bradtke",
+        "ExtraInfo": "modi",
+        "StyleHint": "sunt",
+        "Hidden": true,
+        "FullName": "Mr. Ahmed Kuphal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 599
+            "FieldType": "System.String",
+            "FieldLength": 221
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "magni",
+    "ExtraInfo": "quis",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Tremayne Nienow",
+    "FullName": "Giovani Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldType": "System.String",
+        "FieldLength": 243
       }
     }
   }

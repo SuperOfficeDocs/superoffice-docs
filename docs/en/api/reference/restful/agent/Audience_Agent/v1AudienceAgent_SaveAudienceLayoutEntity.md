@@ -32,22 +32,21 @@ Updates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The AudienceLayoutEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AudienceLayoutId | int32 | The Id of the Audience layout |
-| InstanceLayout | string | The web part layout as a serialized string |
-| InstanceName | string | Name of the layout instance |
-| CreatedDate | date-time | The date and time the Audience layout was created  in UTC. |
-| UpdatedDate | date-time | The date and time the Audience layout was last updated  in UTC. |
-| CreatedBy |  | Name of the person that created the Audience layout |
-| UpdatedBy |  | Name of the person that last updated the Audience layout |
+| AudienceLayoutId | Integer | The Id of the Audience layout |
+| InstanceLayout | String | The web part layout as a serialized string |
+| InstanceName | String | Name of the layout instance |
+| CreatedDate | String | The date and time the Audience layout was created  in UTC. |
+| UpdatedDate | String | The date and time the Audience layout was last updated  in UTC. |
+| CreatedBy | Associate | Name of the person that created the Audience layout |
+| UpdatedBy | Associate | Name of the person that last updated the Audience layout |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -55,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AudienceLayoutEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,9 +63,9 @@ Response body:
 | InstanceName | string | Name of the layout instance |
 | CreatedDate | date-time | The date and time the Audience layout was created  in UTC. |
 | UpdatedDate | date-time | The date and time the Audience layout was last updated  in UTC. |
-| CreatedBy |  | Name of the person that created the Audience layout |
-| UpdatedBy |  | Name of the person that last updated the Audience layout |
-| TableRight |  |  |
+| CreatedBy | Associate | Name of the person that created the Audience layout |
+| UpdatedBy | Associate | Name of the person that last updated the Audience layout |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,11 +78,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 27,
-  "InstanceLayout": "aspernatur",
-  "InstanceName": "Walker-Jacobi",
-  "CreatedDate": "2008-06-19T02:49:43.6847821+02:00",
-  "UpdatedDate": "2006-05-14T02:49:43.6847821+02:00",
+  "AudienceLayoutId": 475,
+  "InstanceLayout": "architecto",
+  "InstanceName": "Lemke, Mayer and Huels",
+  "CreatedDate": "2018-09-24T17:37:16.8772416+02:00",
+  "UpdatedDate": "2021-12-02T17:37:16.8772416+01:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 151,
-  "InstanceLayout": "et",
-  "InstanceName": "Stroman Inc and Sons",
-  "CreatedDate": "2019-01-19T02:49:43.6847821+01:00",
-  "UpdatedDate": "2006-06-10T02:49:43.6847821+02:00",
+  "AudienceLayoutId": 39,
+  "InstanceLayout": "nihil",
+  "InstanceName": "Pfeffer, Wilkinson and Wisoky",
+  "CreatedDate": "1996-11-20T17:37:16.8802418+01:00",
+  "UpdatedDate": "1997-04-19T17:37:16.8802418+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 6
+      "FieldType": "System.Int32",
+      "FieldLength": 75
     }
   }
 }

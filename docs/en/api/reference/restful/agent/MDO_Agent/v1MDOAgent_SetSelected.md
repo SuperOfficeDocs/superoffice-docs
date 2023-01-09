@@ -42,18 +42,17 @@ POST /api/v1/Agents/MDO/SetSelected?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name, AdditionalInfo, SelectableMDOList 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| AdditionalInfo | string |  |
-| SelectableMDOList | array |  |
+| Name | String |  |
+| AdditionalInfo | String |  |
+| SelectableMDOList | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,28 +92,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bartell-Purdy",
-  "AdditionalInfo": "iste",
+  "Name": "Rippin Group",
+  "AdditionalInfo": "nesciunt",
   "SelectableMDOList": [
     {
-      "Id": 258,
-      "Name": "Sipes, Boyer and Weimann",
-      "ToolTip": "Voluptatibus ipsa accusamus magnam esse explicabo est et.",
+      "Id": 21,
+      "Name": "Hauck, Rowe and Treutel",
+      "ToolTip": "Sint sint.",
       "Deleted": false,
-      "Rank": 655,
-      "Type": "dolor",
-      "ColorBlock": 338,
-      "IconHint": "accusantium",
+      "Rank": 891,
+      "Type": "placeat",
+      "ColorBlock": 871,
+      "IconHint": "quaerat",
       "Selected": false,
-      "LastChanged": "2003-12-15T02:49:44.7340524+01:00",
+      "LastChanged": "2020-08-28T17:37:18.3472409+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "illum",
-      "StyleHint": "molestias",
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "eligendi",
       "Hidden": false,
-      "FullName": "Lester Mraz"
+      "FullName": "Omari Daniel"
     }
   ]
 }
@@ -128,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 671,
-    "Name": "Gusikowski-Bode",
-    "ToolTip": "Voluptas eaque reiciendis qui.",
+    "Id": 676,
+    "Name": "O'Kon-Langworth",
+    "ToolTip": "Asperiores minus repudiandae voluptatem.",
     "Deleted": false,
-    "Rank": 164,
-    "Type": "dolorem",
-    "ColorBlock": 172,
-    "IconHint": "voluptatem",
+    "Rank": 613,
+    "Type": "eveniet",
+    "ColorBlock": 972,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "1998-05-13T02:49:44.7340524+02:00",
+    "LastChanged": "2009-12-25T17:37:18.3482411+01:00",
     "ChildItems": [
       {
-        "Id": 140,
-        "Name": "Runolfsdottir-D'Amore",
-        "ToolTip": "Eum sed numquam hic fuga.",
+        "Id": 381,
+        "Name": "Eichmann, Grant and Sawayn",
+        "ToolTip": "Et molestias perspiciatis delectus rerum est ut.",
         "Deleted": true,
-        "Rank": 269,
-        "Type": "qui",
-        "ColorBlock": 474,
-        "IconHint": "exercitationem",
-        "Selected": true,
-        "LastChanged": "2005-12-26T02:49:44.7340524+01:00",
+        "Rank": 862,
+        "Type": "cupiditate",
+        "ColorBlock": 217,
+        "IconHint": "expedita",
+        "Selected": false,
+        "LastChanged": "2015-12-16T17:37:18.3482411+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "culpa",
-        "Hidden": true,
-        "FullName": "Kadin Legros",
+        "ExtraInfo": "architecto",
+        "StyleHint": "at",
+        "Hidden": false,
+        "FullName": "Miss Alexandria Nettie Dibbert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 664
+            "FieldLength": 423
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "est",
+    "ExtraInfo": "dolor",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Libby Roob MD",
+    "FullName": "Isaiah Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 966
+        "FieldType": "System.String",
+        "FieldLength": 978
       }
     }
   }

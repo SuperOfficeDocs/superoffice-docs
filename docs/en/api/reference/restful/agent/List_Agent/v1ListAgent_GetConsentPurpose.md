@@ -25,7 +25,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=467
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=580
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ConsentPurpose
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,12 +64,12 @@ Response body:
 | Tooltip | string | List item tooltip |
 | Active | int32 | Is the consent purpose active or not |
 | UpdatedDate | date-time | The date the consent purpose was last updated  in UTC. |
-| UpdatedBy |  | The associate that last updated the consent purpose |
+| UpdatedBy | Associate | The associate that last updated the consent purpose |
 | Deleted | bool | true if the ConsentPurpose is deleted |
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,7 +78,7 @@ Response body:
 POST /api/v1/Agents/List/GetConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 392,
-  "Name": "Reichel LLC",
-  "ConsentText": "voluptatem",
-  "FormText": "qui",
-  "Key": "provident",
-  "Tooltip": "voluptatem",
-  "Active": 957,
-  "UpdatedDate": "1999-02-25T02:49:44.7016713+01:00",
+  "ConsentPurposeId": 471,
+  "Name": "Roob Inc and Sons",
+  "ConsentText": "nobis",
+  "FormText": "sit",
+  "Key": "non",
+  "Tooltip": "ut",
+  "Active": 265,
+  "UpdatedDate": "2000-10-11T17:37:18.3042414+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 126,
-  "PrivacyStatementDesc": "eveniet",
+  "Deleted": false,
+  "Rank": 527,
+  "PrivacyStatementDesc": "sunt",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 888
     }
   }
 }

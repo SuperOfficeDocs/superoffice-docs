@@ -44,19 +44,18 @@ POST /api/v1/Agents/Sale/GetSalesByDate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 FromDate, ToDate, AmountLimit, Status 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| FromDate | date-time |  |
-| ToDate | date-time |  |
-| AmountLimit | int32 |  |
-| Status | string |  |
+| FromDate | String |  |
+| ToDate | String |  |
+| AmountLimit | Integer |  |
+| Status | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,7 +92,7 @@ Response body: array
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,13 +101,13 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2002-05-30T02:49:45.1403412+02:00",
-  "ToDate": "2012-12-01T02:49:45.1403412+01:00",
-  "AmountLimit": 489,
+  "FromDate": "2016-07-25T17:37:18.8882422+02:00",
+  "ToDate": "1997-06-04T17:37:18.8892423+02:00",
+  "AmountLimit": 484,
   "Status": "Lost"
 }
 ```
@@ -121,37 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lang-Jast",
-    "SaleDate": "2018-05-09T02:49:45.1403412+02:00",
-    "SaleId": 676,
-    "Probability": 203,
-    "Title": "molestiae",
-    "Amount": 29810.608,
-    "Currency": "unde",
-    "ProjectName": "Parisian-Aufderhar",
-    "AssociateFullName": "Ross Mann",
-    "Description": "Function-based client-server challenge",
+    "ContactName": "Tremblay-Ritchie",
+    "SaleDate": "2004-08-01T17:37:18.8892423+02:00",
+    "SaleId": 81,
+    "Probability": 307,
+    "Title": "et",
+    "Amount": 25150.35,
+    "Currency": "aperiam",
+    "ProjectName": "Senger LLC",
+    "AssociateFullName": "Mr. Gayle Terence Ziemann",
+    "Description": "Re-contextualized content-based hardware",
     "Status": "Lost",
-    "WeightedAmount": 24871.424,
-    "ProjectId": 211,
-    "EarningPercent": 23106.982,
-    "Earning": 17794.852,
-    "ContactId": 892,
-    "AssociateId": 626,
-    "PersonId": 2,
-    "SaleTypeId": 991,
-    "SaleTypeName": "Doyle-Sawayn",
-    "PersonFullName": "Rupert Theron Ruecker DDS",
+    "WeightedAmount": 5973.4039999999995,
+    "ProjectId": 776,
+    "EarningPercent": 10787.228,
+    "Earning": 9264.104,
+    "ContactId": 126,
+    "AssociateId": 113,
+    "PersonId": 73,
+    "SaleTypeId": 106,
+    "SaleTypeName": "Schuster-Bailey",
+    "PersonFullName": "Ms. Adeline Schultz",
     "Completed": "Completed",
-    "ActiveErpLinks": 811,
-    "NextDueDate": "2018-06-19T02:49:45.1403412+02:00",
-    "Number": "1655645",
+    "ActiveErpLinks": 352,
+    "NextDueDate": "2011-07-28T17:37:18.8902423+02:00",
+    "Number": "1626015",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldType": "System.String",
+        "FieldLength": 362
       }
     }
   }

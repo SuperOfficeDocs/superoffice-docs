@@ -31,9 +31,9 @@ Set a specified type of consent on the person.
 | comment | string |  A comment regarding this consent. May be null or empty. |
 
 ```http
-PUT /api/v1/Person/{personId}/Consent/{purpose}?source=magnam
-PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=odio
-PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=facilis
+PUT /api/v1/Person/{personId}/Consent/{purpose}?source=fugit
+PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=sit
+PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=dolores
 ```
 
 
@@ -47,7 +47,7 @@ PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=facilis
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 No Content
 
@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request

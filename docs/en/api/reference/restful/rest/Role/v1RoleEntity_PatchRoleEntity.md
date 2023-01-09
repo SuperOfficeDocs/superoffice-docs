@@ -74,18 +74,17 @@ PATCH /api/v1/Role/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 RoleEntity  updated.
 
@@ -96,7 +95,7 @@ RoleEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because RoleEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: RoleEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -108,11 +107,11 @@ Response body:
 | Rank | int32 | Sorting rank of this role in lists |
 | Created | date-time | Registered when  in UTC. |
 | UseCategories | int32 | Apply role category membership to users |
-| CreatedBy |  | Created by user |
+| CreatedBy | Associate | Created by user |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Last updated by user |
-| DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight |  |  |
+| UpdatedBy | Associate | Last updated by user |
+| DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -128,12 +127,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ex",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ex",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -146,16 +145,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 75,
-  "Name": "Dickens-Keebler",
-  "Tooltip": "sunt",
+  "RoleId": 453,
+  "Name": "Roberts Group",
+  "Tooltip": "dolorem",
   "RoleType": "Anonymous",
-  "Deleted": 194,
-  "Rank": 433,
-  "Created": "2018-08-22T02:49:51.3859386+02:00",
-  "UseCategories": 363,
+  "Deleted": 665,
+  "Rank": 965,
+  "Created": "2000-01-29T17:37:39.0533032+01:00",
+  "UseCategories": 525,
   "CreatedBy": null,
-  "Updated": "2012-07-21T02:49:51.3859386+02:00",
+  "Updated": "2010-03-29T17:37:39.0533032+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldLength": 704
     }
   },
   "_Links": {

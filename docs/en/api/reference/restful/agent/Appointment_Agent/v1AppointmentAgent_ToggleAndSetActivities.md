@@ -44,16 +44,15 @@ POST /api/v1/Agents/Appointment/ToggleAndSetActivities?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ActivityIdentifiers 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ActivityIdentifiers | array |  |
+| ActivityIdentifiers | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 
 ## Sample request
@@ -70,13 +69,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/ToggleAndSetActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifiers": [
-    "et",
-    "dolores"
+    "nemo",
+    "reprehenderit"
   ]
 }
 ```
@@ -88,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "molestias",
+  "ipsa",
   "et"
 ]
 ```

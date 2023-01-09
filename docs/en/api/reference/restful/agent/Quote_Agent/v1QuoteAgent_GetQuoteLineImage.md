@@ -42,17 +42,16 @@ POST /api/v1/Agents/Quote/GetQuoteLineImage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteLineId, Rank 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLineId | int32 |  |
-| Rank | int32 |  |
+| QuoteLineId | Integer |  |
+| Rank | Integer |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -73,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 965,
-  "Rank": 693
+  "QuoteLineId": 209,
+  "Rank": 388
 }
 ```
 

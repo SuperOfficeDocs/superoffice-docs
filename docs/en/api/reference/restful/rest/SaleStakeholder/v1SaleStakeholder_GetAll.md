@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SaleStakeholder?$select=name,department,category/id
 GET /api/v1/SaleStakeholder?$filter=name begins 'S'
 GET /api/v1/SaleStakeholder?$orderBy=name asc
-GET /api/v1/SaleStakeholder?$entities=id
-GET /api/v1/SaleStakeholder?$top=60
-GET /api/v1/SaleStakeholder?$skip=668
+GET /api/v1/SaleStakeholder?$entities=natus
+GET /api/v1/SaleStakeholder?$top=362
+GET /api/v1/SaleStakeholder?$skip=12
 GET /api/v1/SaleStakeholder?$mode=Full
 GET /api/v1/SaleStakeholder?$options=GrandTotal=true
-GET /api/v1/SaleStakeholder?$context=amet
+GET /api/v1/SaleStakeholder?$context=id
 GET /api/v1/SaleStakeholder?$format=JSON
-GET /api/v1/SaleStakeholder?$jsonSafe=False
+GET /api/v1/SaleStakeholder?$jsonSafe=True
 GET /api/v1/SaleStakeholder?$output=Display
 ```
 
@@ -96,7 +95,7 @@ GET /api/v1/SaleStakeholder?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "illo",
+  "odata.nextLink": "beatae",
   "value": [
     {
-      "PrimaryKey": 7144,
-      "EntityName": "person",
-      "personId": 7144,
-      "fullName": "Mr. Veda Wilkinson"
+      "PrimaryKey": 63,
+      "EntityName": "sale",
+      "saleId": 63,
+      "contactId": 571,
+      "name": "Tremblay-Leuschke"
     },
     {
-      "PrimaryKey": 3227,
-      "EntityName": "person",
-      "personId": 3227,
-      "fullName": "Samantha Murazik"
+      "PrimaryKey": 2996,
+      "EntityName": "sale",
+      "saleId": 2996,
+      "contactId": 4005,
+      "name": "O'Reilly-Ebert"
     }
   ]
 }

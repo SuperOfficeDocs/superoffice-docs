@@ -42,17 +42,16 @@ POST /api/v1/Agents/Document/GetTemplateStreamFromId?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TemplateId, UiCulture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TemplateId | int32 |  |
-| UiCulture | string |  |
+| TemplateId | Integer |  |
+| UiCulture | String |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -69,12 +68,12 @@ Response body: byte
 POST /api/v1/Agents/Document/GetTemplateStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 583,
-  "UiCulture": "molestiae"
+  "TemplateId": 768,
+  "UiCulture": "voluptatem"
 }
 ```
 

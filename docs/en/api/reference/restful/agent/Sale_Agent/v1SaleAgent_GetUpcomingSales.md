@@ -44,17 +44,16 @@ POST /api/v1/Agents/Sale/GetUpcomingSales?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 WeightedAmountLimit, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| WeightedAmountLimit | int32 |  |
-| Count | int32 |  |
+| WeightedAmountLimit | Integer |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,7 +90,7 @@ Response body: array
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -100,12 +99,12 @@ Response body: array
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 369,
-  "Count": 349
+  "WeightedAmountLimit": 737,
+  "Count": 601
 }
 ```
 
@@ -117,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ziemann LLC",
-    "SaleDate": "2011-08-23T02:49:45.1403412+02:00",
-    "SaleId": 967,
-    "Probability": 875,
-    "Title": "similique",
-    "Amount": 26472.897999999997,
-    "Currency": "odio",
-    "ProjectName": "Rempel Inc and Sons",
-    "AssociateFullName": "Mr. Darren Cayla Glover Jr.",
-    "Description": "Enhanced reciprocal concept",
+    "ContactName": "Rath, Bernier and McKenzie",
+    "SaleDate": "2000-01-29T17:37:18.8882422+01:00",
+    "SaleId": 565,
+    "Probability": 89,
+    "Title": "iusto",
+    "Amount": 18669.238,
+    "Currency": "dolore",
+    "ProjectName": "Veum-Schumm",
+    "AssociateFullName": "Aurelio Turcotte",
+    "Description": "Synergistic attitude-oriented orchestration",
     "Status": "Lost",
-    "WeightedAmount": 2792.394,
-    "ProjectId": 467,
-    "EarningPercent": 22295.275999999998,
-    "Earning": 15033.797999999999,
-    "ContactId": 363,
-    "AssociateId": 240,
-    "PersonId": 90,
-    "SaleTypeId": 173,
-    "SaleTypeName": "Lockman, Sipes and Lehner",
-    "PersonFullName": "Providenci Hammes Jr.",
+    "WeightedAmount": 10361.003999999999,
+    "ProjectId": 814,
+    "EarningPercent": 12852.534,
+    "Earning": 18901.154,
+    "ContactId": 295,
+    "AssociateId": 573,
+    "PersonId": 489,
+    "SaleTypeId": 886,
+    "SaleTypeName": "Breitenberg-Reilly",
+    "PersonFullName": "Prof. Julia O'Hara I",
     "Completed": "Completed",
-    "ActiveErpLinks": 962,
-    "NextDueDate": "2007-12-26T02:49:45.1403412+01:00",
-    "Number": "1349925",
+    "ActiveErpLinks": 364,
+    "NextDueDate": "2003-07-12T17:37:18.8882422+02:00",
+    "Number": "407218",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldType": "System.String",
+        "FieldLength": 678
       }
     }
   }

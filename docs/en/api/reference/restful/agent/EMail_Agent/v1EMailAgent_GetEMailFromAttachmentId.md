@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Get an e-mail based on an email and attachment id
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,18 +44,17 @@ POST /api/v1/Agents/EMail/GetEMailFromAttachmentId?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EmailId, AttachmentIds, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EmailId | int32 |  |
-| AttachmentIds | array |  |
-| IncludeAttachments | bool |  |
+| EmailId | Integer |  |
+| AttachmentIds | Array |  |
+| IncludeAttachments | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +71,7 @@ Response body:
 | Bcc | array | Bcc recipient of e-mail |
 | Subject | string | Subject of the e-mail |
 | HTMLBody | string | Body formatted in HTML |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | Sent | date-time | When was the e-mail sent |
 | Size | int32 | Total size of the e-mail |
 | Priority | string | Importance of the e-mail |
@@ -82,7 +79,7 @@ Response body:
 | MessageID | string | Unique id of e-mails |
 | PlainBody | string | Body formatted in plain text |
 | IsSent | bool | Is this a sent e-mail (not new) |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
 | ServerId | int32 | Unique id for the e-mail on the server |
 | Attachments | array |  |
 | CustomHeaderList | array | Non standard e-mail headers |
@@ -90,12 +87,12 @@ Response body:
 | EmailItemId | int32 | Primary key |
 | AccountId | int32 | Account Id |
 | ReceivedAt | date-time | Received date time |
-| InReplyTo |  | The envelope of the email this email is a reply to, if it exists |
+| InReplyTo | EMailEnvelope | The envelope of the email this email is a reply to, if it exists |
 | RepliedAt | date-time | When this email was replied at |
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -108,12 +105,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 867,
+  "EmailId": 49,
   "AttachmentIds": [
-    "qui",
-    "adipisci"
+    "ad",
+    "qui"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -126,146 +123,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 780,
-      "ContactName": "Herman Inc and Sons",
-      "PersonId": 268,
-      "PersonName": "Doyle Group",
-      "AssociateId": 103,
-      "Address": "sit",
-      "EmailId": 222,
+      "ContactId": 557,
+      "ContactName": "Russel Inc and Sons",
+      "PersonId": 151,
+      "PersonName": "Kovacek, Murazik and Strosin",
+      "AssociateId": 407,
+      "Address": "quod",
+      "EmailId": 845,
       "DuplicatePersonIds": [
-        321,
-        968
+        703,
+        891
       ],
-      "Name": "Carter-Bode",
+      "Name": "Eichmann, Torp and Nikolaus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 787
+          "FieldType": "System.String",
+          "FieldLength": 187
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 564,
-      "ContactName": "Tillman Group",
-      "PersonId": 806,
-      "PersonName": "Howell Group",
-      "AssociateId": 689,
-      "Address": "eos",
-      "EmailId": 782,
+      "ContactId": 713,
+      "ContactName": "Steuber, Feest and Boyle",
+      "PersonId": 775,
+      "PersonName": "Littel Group",
+      "AssociateId": 205,
+      "Address": "non",
+      "EmailId": 312,
       "DuplicatePersonIds": [
-        307,
-        233
+        565,
+        336
       ],
-      "Name": "Hauck Inc and Sons",
+      "Name": "Ortiz-Mitchell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 811
+          "FieldLength": 635
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 177,
-      "ContactName": "Davis Inc and Sons",
-      "PersonId": 510,
-      "PersonName": "McLaughlin, Blick and Tillman",
-      "AssociateId": 905,
-      "Address": "rem",
-      "EmailId": 908,
+      "ContactId": 886,
+      "ContactName": "Spencer Group",
+      "PersonId": 71,
+      "PersonName": "Schultz Group",
+      "AssociateId": 873,
+      "Address": "possimus",
+      "EmailId": 258,
       "DuplicatePersonIds": [
-        998,
-        126
+        747,
+        281
       ],
-      "Name": "Mayert Inc and Sons",
+      "Name": "Nienow LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldLength": 677
         }
       }
     }
   ],
-  "Subject": "odio",
-  "HTMLBody": "illum",
+  "Subject": "numquam",
+  "HTMLBody": "dolorum",
   "From": null,
-  "Sent": "2005-05-12T02:49:44.4504155+02:00",
-  "Size": 723,
+  "Sent": "2015-01-12T17:37:17.9692408+01:00",
+  "Size": 358,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptas",
-  "PlainBody": "quis",
-  "IsSent": false,
+  "MessageID": "repellendus",
+  "PlainBody": "adipisci",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 194,
+  "ServerId": 36,
   "Attachments": [
     {
-      "Description": "Business-focused directional data-warehouse",
-      "Filename": "assumenda",
-      "Size": 310,
-      "Type": "aut",
-      "Encoding": "corporis",
-      "Id": "consequuntur",
-      "Disposition": "et",
+      "Description": "Reactive static intranet",
+      "Filename": "cupiditate",
+      "Size": 849,
+      "Type": "exercitationem",
+      "Encoding": "incidunt",
+      "Id": "saepe",
+      "Disposition": "facilis",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 124
+          "FieldType": "System.Int32",
+          "FieldLength": 439
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "O'Hara-Volkman",
+      "Name": "Smitham, Klein and Moore",
       "Values": [
-        "sint",
-        "molestiae"
+        "voluptatem",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldLength": 884
         }
       }
     },
     {
-      "Name": "O'Hara-Volkman",
+      "Name": "Smitham, Klein and Moore",
       "Values": [
-        "sint",
-        "molestiae"
+        "voluptatem",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldLength": 884
         }
       }
     }
   ],
-  "FolderName": "Kunze-Reinger",
-  "EmailItemId": 997,
-  "AccountId": 69,
-  "ReceivedAt": "2000-06-26T02:49:44.4504155+02:00",
+  "FolderName": "McLaughlin, Gerhold and Lebsack",
+  "EmailItemId": 943,
+  "AccountId": 75,
+  "ReceivedAt": "2008-11-18T17:37:17.9702406+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-10-22T02:49:44.4504155+02:00",
+  "RepliedAt": "2017-10-25T17:37:17.9702406+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +270,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldType": "System.String",
+      "FieldLength": 751
     }
   }
 }

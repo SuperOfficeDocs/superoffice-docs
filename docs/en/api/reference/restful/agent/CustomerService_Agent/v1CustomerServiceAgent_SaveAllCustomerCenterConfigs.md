@@ -38,16 +38,15 @@ POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs?$select=name,de
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 CustConfigs 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CustConfigs | array |  |
+| CustConfigs | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -55,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -70,14 +69,14 @@ Content-Type: application/json; charset=utf-8
 {
   "CustConfigs": [
     {
-      "CustConfigId": 817,
+      "CustConfigId": 808,
       "Type": "Options",
-      "Config": "unde",
-      "CustLangId": 124,
-      "Registered": "2017-11-05T02:49:44.0285283+01:00",
-      "RegisteredAssociateId": 165,
-      "Updated": "2022-03-01T02:49:44.0285283+01:00",
-      "UpdatedAssociateId": 814
+      "Config": "omnis",
+      "CustLangId": 151,
+      "Registered": "2015-12-13T17:37:17.345245+01:00",
+      "RegisteredAssociateId": 610,
+      "Updated": "2017-08-03T17:37:17.345245+02:00",
+      "UpdatedAssociateId": 55
     }
   ]
 }

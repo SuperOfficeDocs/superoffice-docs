@@ -32,21 +32,20 @@ Updates the existing SaleStageEntity or creates a new SaleStageEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The SaleStageEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SaleStageId | int32 | Primary key |
-| Value | string | The sale stage |
-| Tooltip | string | Tooltip or other description |
-| Probability | int32 | The numeric probability of the sale |
-| Deleted | bool | If true, the Sale stage is deleted |
-| Rank | int32 | Rank order |
+| SaleStageId | Integer | Primary key |
+| Value | String | The sale stage |
+| Tooltip | String | Tooltip or other description |
+| Probability | Integer | The numeric probability of the sale |
+| Deleted | Boolean | If true, the Sale stage is deleted |
+| Rank | Integer | Rank order |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -54,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaleStageEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +63,7 @@ Response body:
 | Probability | int32 | The numeric probability of the sale |
 | Deleted | bool | If true, the Sale stage is deleted |
 | Rank | int32 | Rank order |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,16 +72,16 @@ Response body:
 POST /api/v1/Agents/List/SaveSaleStageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 879,
-  "Value": "sed",
-  "Tooltip": "et",
-  "Probability": 416,
+  "SaleStageId": 734,
+  "Value": "voluptates",
+  "Tooltip": "eum",
+  "Probability": 888,
   "Deleted": false,
-  "Rank": 137
+  "Rank": 60
 }
 ```
 
@@ -93,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 189,
-  "Value": "repudiandae",
-  "Tooltip": "sed",
-  "Probability": 891,
-  "Deleted": false,
-  "Rank": 750,
+  "SaleStageId": 240,
+  "Value": "quia",
+  "Tooltip": "vel",
+  "Probability": 684,
+  "Deleted": true,
+  "Rank": 533,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldLength": 694
     }
   }
 }

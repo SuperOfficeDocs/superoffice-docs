@@ -37,25 +37,24 @@ Update a hierarchy item from a path
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The hierarchy node to update. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HierarchyId | int32 | The primary key (auto-incremented) |
-| Domain | string | Domain seperating the different hierarchy |
-| Name | string | Name of this hierarchy folder. |
-| Fullname | string | The full name of this category, i.e. Foo/bar/test. |
-| ParentId | int32 | Parent table |
-| Children | array | Sub-items, if any. |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
+| HierarchyId | Integer | The primary key (auto-incremented) |
+| Domain | String | Domain seperating the different hierarchy |
+| Name | String | Name of this hierarchy folder. |
+| Fullname | String | The full name of this category, i.e. Foo/bar/test. |
+| ParentId | Integer | Parent table |
+| Children | Array | Sub-items, if any. |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: HierarchyEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +76,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,36 +85,36 @@ Response body:
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 767,
+  "HierarchyId": 164,
   "Domain": "Dashboards",
-  "Name": "McClure-Lueilwitz",
-  "Fullname": "repellendus",
-  "ParentId": 520,
+  "Name": "Waelchi Inc and Sons",
+  "Fullname": "aut",
+  "ParentId": 69,
   "Children": [
     {
-      "HierarchyId": 930,
+      "HierarchyId": 879,
       "Domain": "Dashboards",
-      "Name": "Kreiger-Reynolds",
-      "Fullname": "est",
-      "ParentId": 95,
+      "Name": "Towne LLC",
+      "Fullname": "voluptas",
+      "ParentId": 128,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-11-28T02:49:50.9952888+01:00",
-      "RegisteredAssociateId": 422,
-      "Updated": "2014-01-24T02:49:50.9952888+01:00",
-      "UpdatedAssociateId": 438
+      "Registered": "2018-03-28T17:37:38.8298601+02:00",
+      "RegisteredAssociateId": 445,
+      "Updated": "2004-07-26T17:37:38.8298601+02:00",
+      "UpdatedAssociateId": 767
     }
   ],
-  "Registered": "2008-02-26T02:49:50.9952888+01:00",
-  "RegisteredAssociateId": 981,
-  "Updated": "2011-06-12T02:49:50.9952888+02:00",
-  "UpdatedAssociateId": 308
+  "Registered": "2018-06-07T17:37:38.8298601+02:00",
+  "RegisteredAssociateId": 601,
+  "Updated": "2000-11-06T17:37:38.8298601+01:00",
+  "UpdatedAssociateId": 988
 }
 ```
 
@@ -126,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 14,
+  "HierarchyId": 769,
   "Domain": "Dashboards",
-  "Name": "Mitchell-Prohaska",
-  "Fullname": "vel",
-  "ParentId": 673,
+  "Name": "Hessel-Little",
+  "Fullname": "facere",
+  "ParentId": 228,
   "Children": [
     {
-      "HierarchyId": 678,
+      "HierarchyId": 201,
       "Domain": "Dashboards",
-      "Name": "Paucek, Wilderman and Willms",
-      "Fullname": "iusto",
-      "ParentId": 778,
+      "Name": "Schamberger-Pfeffer",
+      "Fullname": "doloremque",
+      "ParentId": 7,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-02-14T02:49:50.9952888+01:00",
-      "RegisteredAssociateId": 591,
-      "Updated": "2002-05-01T02:49:50.9952888+02:00",
-      "UpdatedAssociateId": 972,
+      "Registered": "2019-10-22T17:37:38.8298601+02:00",
+      "RegisteredAssociateId": 754,
+      "Updated": "2016-07-27T17:37:38.8298601+02:00",
+      "UpdatedAssociateId": 983,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 351
+          "FieldLength": 746
         }
       }
     }
   ],
-  "Registered": "2009-01-19T02:49:50.9952888+01:00",
-  "RegisteredAssociateId": 18,
-  "Updated": "2001-06-11T02:49:50.9952888+02:00",
-  "UpdatedAssociateId": 415,
+  "Registered": "2020-05-09T17:37:38.8298601+02:00",
+  "RegisteredAssociateId": 398,
+  "Updated": "2018-06-25T17:37:38.8298601+02:00",
+  "UpdatedAssociateId": 702,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 851
+      "FieldType": "System.Int32",
+      "FieldLength": 511
     }
   }
 }

@@ -44,16 +44,15 @@ POST /api/v1/Agents/DatabaseTable/Truncate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
+| TableName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: MassOperationResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body:
 | Updates | int32 | Number of rows updated |
 | Deletes | int32 | Number of rows deleted / zeroed |
 | RowStatus | array | Array of statuses and primary keys for all rows that were specified. Populated if the 'ReturnRowStatus' parameter of 'Upsert' is set, otherwise null |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,11 +79,11 @@ Response body:
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lockman, Hoppe and Rau"
+  "TableName": "Ryan, Satterfield and Glover"
 }
 ```
 
@@ -95,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "aliquid",
-  "Inserts": 596,
-  "Updates": 502,
-  "Deletes": 414,
+  "Success": false,
+  "Message": "est",
+  "Inserts": 313,
+  "Updates": 467,
+  "Deletes": 377,
   "RowStatus": [
     {
-      "PrimaryKey": 216,
+      "PrimaryKey": 681,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ratione",
-        "eum"
+        "eum",
+        "quisquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 904
+          "FieldType": "System.Int32",
+          "FieldLength": 106
         }
       }
     },
     {
-      "PrimaryKey": 216,
+      "PrimaryKey": 681,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ratione",
-        "eum"
+        "eum",
+        "quisquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 904
+          "FieldType": "System.Int32",
+          "FieldLength": 106
         }
       }
     }
@@ -139,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldLength": 95
     }
   }
 }

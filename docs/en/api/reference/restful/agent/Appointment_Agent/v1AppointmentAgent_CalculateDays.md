@@ -44,16 +44,15 @@ POST /api/v1/Agents/Appointment/CalculateDays?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AppointmentEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AppointmentEntity |  | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
+| AppointmentEntity | AppointmentEntity | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,10 +70,10 @@ Response body:
 | RecurrenceCounter | int32 |  |
 | RecurrenceEndType | string |  |
 | Pattern | string |  |
-| DayPattern |  |  |
-| WeekPattern |  |  |
-| MonthPattern |  |  |
-| YearPattern |  |  |
+| DayPattern | TableRight |  |
+| WeekPattern | TableRight |  |
+| MonthPattern | TableRight |  |
+| YearPattern | TableRight |  |
 | Dates | array |  |
 | IsRecurrence | bool |  |
 
@@ -84,7 +83,7 @@ Response body:
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 141,
-  "StartDate": "1998-07-28T02:49:43.372278+02:00",
-  "EndDate": "2016-12-28T02:49:43.372278+01:00",
-  "RecurrenceCounter": 407,
+  "RecurrenceId": 904,
+  "StartDate": "2020-11-28T17:37:16.4162407+01:00",
+  "EndDate": "2021-10-12T17:37:16.4162407+02:00",
+  "RecurrenceCounter": 805,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +110,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2013-04-11T02:49:43.372278+02:00",
-      "IsConflict": false,
-      "Description": "Multi-channelled intermediate project",
-      "DescriptionStyleHint": "Synchronised mission-critical neural-net",
-      "Tooltip": "aut"
+      "Date": "1996-07-17T17:37:16.4162407+02:00",
+      "IsConflict": true,
+      "Description": "Centralized assymetric benchmark",
+      "DescriptionStyleHint": "Exclusive optimizing process improvement",
+      "Tooltip": "reprehenderit"
     },
     {
-      "Date": "2013-04-11T02:49:43.372278+02:00",
-      "IsConflict": false,
-      "Description": "Multi-channelled intermediate project",
-      "DescriptionStyleHint": "Synchronised mission-critical neural-net",
-      "Tooltip": "aut"
+      "Date": "1996-07-17T17:37:16.4162407+02:00",
+      "IsConflict": true,
+      "Description": "Centralized assymetric benchmark",
+      "DescriptionStyleHint": "Exclusive optimizing process improvement",
+      "Tooltip": "reprehenderit"
     }
   ],
   "IsRecurrence": false

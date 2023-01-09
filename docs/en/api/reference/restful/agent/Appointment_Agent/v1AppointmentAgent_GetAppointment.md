@@ -25,7 +25,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=128
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=634
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Appointment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,7 +105,7 @@ Response body:
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -114,7 +114,7 @@ Response body:
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -124,53 +124,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 84,
-  "StartDate": "2000-04-18T02:49:43.3253689+02:00",
-  "EndDate": "2022-05-07T02:49:43.3253689+02:00",
+  "AppointmentId": 632,
+  "StartDate": "2020-12-22T17:37:16.3592418+01:00",
+  "EndDate": "2006-03-17T17:37:16.3592418+01:00",
   "Type": "BookingForChecklist",
-  "Task": "enim",
-  "AssociateFullName": "Garfield Heaney",
-  "ContactName": "Hartmann, Wilderman and Pfeffer",
-  "Description": "Progressive didactic concept",
-  "PersonFullName": "Velma Halvorson",
-  "PersonId": 570,
-  "ContactId": 272,
-  "ProjectId": 282,
-  "ProjectName": "Runolfsdottir-Ward",
+  "Task": "sed",
+  "AssociateFullName": "Isaiah Ernser",
+  "ContactName": "Ankunding-Breitenberg",
+  "Description": "Fully-configurable contextually-based model",
+  "PersonFullName": "Wilfredo Dietrich",
+  "PersonId": 632,
+  "ContactId": 605,
+  "ProjectId": 805,
+  "ProjectName": "Koepp Group",
   "IsPublished": false,
-  "AssociateId": 202,
-  "ColorIndex": 976,
+  "AssociateId": 104,
+  "ColorIndex": 146,
   "IsFree": false,
-  "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "HasAlarm": true,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 944,
-  "PriorityName": "Howe-Mayert",
+  "PriorityId": 163,
+  "PriorityName": "Abernathy Group",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2009-03-11T02:49:43.3253689+01:00",
+  "ActiveDate": "2009-01-12T17:37:16.3592418+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2004-01-23T02:49:43.3253689+01:00",
-  "RecurringEndDate": "2014-11-19T02:49:43.3253689+01:00",
-  "MotherId": 340,
-  "AssignedBy": 478,
-  "AssignedByFullName": "Aurore Dicki",
+  "RecurringStartDate": "2020-01-07T17:37:16.3592418+01:00",
+  "RecurringEndDate": "2016-10-29T17:37:16.3592418+02:00",
+  "MotherId": 803,
+  "AssignedBy": 921,
+  "AssignedByFullName": "Leann Kunze DVM",
   "RejectReason": "",
-  "Location": "repellat",
-  "AlarmLeadTime": "ullam",
-  "SaleId": 184,
-  "SaleName": "Lehner-Hamill",
-  "AssociateName": "Hettinger-Blick",
-  "CreatedDate": "2006-03-13T02:49:43.3253689+01:00",
-  "CreatedBy": "sunt",
-  "CreatedByFullName": "Mrs. Myrl Bergstrom II",
-  "CreatedByAssociateId": 861,
+  "Location": "rerum",
+  "AlarmLeadTime": "sit",
+  "SaleId": 655,
+  "SaleName": "Hansen, Grant and Green",
+  "AssociateName": "Runte-Steuber",
+  "CreatedDate": "2012-02-02T17:37:16.3592418+01:00",
+  "CreatedBy": "quisquam",
+  "CreatedByFullName": "Dr. Chesley Gideon Purdy DDS",
+  "CreatedByAssociateId": 43,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -178,7 +178,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 995
+      "FieldLength": 791
     }
   }
 }

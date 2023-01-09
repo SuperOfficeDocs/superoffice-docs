@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetMailFromMessageId
 Get email from db based on Message Id
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/EMail/GetMailFromMessageId?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MessageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MessageId | string |  |
+| MessageId | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +69,7 @@ Response body:
 | Bcc | array | Bcc recipient of e-mail |
 | Subject | string | Subject of the e-mail |
 | HTMLBody | string | Body formatted in HTML |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | Sent | date-time | When was the e-mail sent |
 | Size | int32 | Total size of the e-mail |
 | Priority | string | Importance of the e-mail |
@@ -80,7 +77,7 @@ Response body:
 | MessageID | string | Unique id of e-mails |
 | PlainBody | string | Body formatted in plain text |
 | IsSent | bool | Is this a sent e-mail (not new) |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
 | ServerId | int32 | Unique id for the e-mail on the server |
 | Attachments | array |  |
 | CustomHeaderList | array | Non standard e-mail headers |
@@ -88,12 +85,12 @@ Response body:
 | EmailItemId | int32 | Primary key |
 | AccountId | int32 | Account Id |
 | ReceivedAt | date-time | Received date time |
-| InReplyTo |  | The envelope of the email this email is a reply to, if it exists |
+| InReplyTo | EMailEnvelope | The envelope of the email this email is a reply to, if it exists |
 | RepliedAt | date-time | When this email was replied at |
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -106,7 +103,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "autem"
+  "MessageId": "nostrum"
 }
 ```
 
@@ -119,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 589,
-      "ContactName": "Reichel, Stamm and Dach",
-      "PersonId": 207,
-      "PersonName": "Renner, Thiel and Jewess",
-      "AssociateId": 630,
-      "Address": "mollitia",
-      "EmailId": 32,
+      "ContactId": 935,
+      "ContactName": "Von-Bednar",
+      "PersonId": 786,
+      "PersonName": "Schaden-Hamill",
+      "AssociateId": 804,
+      "Address": "laborum",
+      "EmailId": 11,
       "DuplicatePersonIds": [
-        973,
-        429
+        130,
+        172
       ],
-      "Name": "Osinski LLC",
+      "Name": "Berge-Okuneva",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 74
+          "FieldLength": 470
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 524,
-      "ContactName": "Monahan LLC",
-      "PersonId": 348,
-      "PersonName": "Brakus Group",
-      "AssociateId": 979,
-      "Address": "deserunt",
-      "EmailId": 901,
+      "ContactId": 644,
+      "ContactName": "Abernathy-Jast",
+      "PersonId": 863,
+      "PersonName": "Bergstrom, D'Amore and Metz",
+      "AssociateId": 150,
+      "Address": "necessitatibus",
+      "EmailId": 223,
       "DuplicatePersonIds": [
-        947,
-        513
+        27,
+        320
       ],
-      "Name": "Satterfield-Kilback",
+      "Name": "Goyette LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldLength": 82
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 746,
-      "ContactName": "Baumbach, Abshire and Schaefer",
-      "PersonId": 854,
-      "PersonName": "Daniel-Stokes",
-      "AssociateId": 64,
+      "ContactId": 862,
+      "ContactName": "Kozey LLC",
+      "PersonId": 191,
+      "PersonName": "Veum, Heathcote and Boyle",
+      "AssociateId": 815,
       "Address": "est",
-      "EmailId": 841,
+      "EmailId": 14,
       "DuplicatePersonIds": [
-        307,
-        440
+        443,
+        764
       ],
-      "Name": "Schowalter Group",
+      "Name": "Cremin Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 256
+          "FieldLength": 729
         }
       }
     }
   ],
-  "Subject": "inventore",
-  "HTMLBody": "non",
+  "Subject": "nam",
+  "HTMLBody": "amet",
   "From": null,
-  "Sent": "1999-05-31T02:49:44.3722628+02:00",
-  "Size": 676,
+  "Sent": "2002-02-18T17:37:17.8712429+01:00",
+  "Size": 834,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolorem",
-  "PlainBody": "quisquam",
+  "MessageID": "occaecati",
+  "PlainBody": "doloremque",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 907,
+  "ServerId": 829,
   "Attachments": [
     {
-      "Description": "Persistent value-added standardization",
-      "Filename": "est",
-      "Size": 986,
-      "Type": "maxime",
-      "Encoding": "et",
-      "Id": "aut",
-      "Disposition": "accusamus",
+      "Description": "Cross-group national access",
+      "Filename": "illum",
+      "Size": 426,
+      "Type": "et",
+      "Encoding": "iure",
+      "Id": "reiciendis",
+      "Disposition": "molestias",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldLength": 971
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Balistreri LLC",
+      "Name": "Hauck Group",
       "Values": [
-        "laudantium",
-        "quia"
+        "sunt",
+        "quisquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 290
+          "FieldType": "System.Int32",
+          "FieldLength": 457
         }
       }
     },
     {
-      "Name": "Balistreri LLC",
+      "Name": "Hauck Group",
       "Values": [
-        "laudantium",
-        "quia"
+        "sunt",
+        "quisquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 290
+          "FieldType": "System.Int32",
+          "FieldLength": 457
         }
       }
     }
   ],
-  "FolderName": "Leannon, Emmerich and Carter",
-  "EmailItemId": 811,
-  "AccountId": 628,
-  "ReceivedAt": "2018-06-16T02:49:44.3722628+02:00",
+  "FolderName": "Gaylord Inc and Sons",
+  "EmailItemId": 31,
+  "AccountId": 417,
+  "ReceivedAt": "2022-03-20T17:37:17.8722416+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-02-21T02:49:44.3722628+01:00",
+  "RepliedAt": "2008-01-30T17:37:17.8722416+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 925
     }
   }
 }

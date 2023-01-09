@@ -1,33 +1,34 @@
 ---
-title: GET TicketMessage/{id}
-uid: v1TicketMessageEntity_GetTicketMessageEntity
+title: POST Agents/User/GetUserPresenceStatus
+uid: v1UserAgent_GetUserPresenceStatus
 ---
 
-# GET TicketMessage/{id}
+# POST Agents/User/GetUserPresenceStatus
 
 ```http
-GET /api/v1/TicketMessage/{id}
+POST /api/v1/Agents/User/GetUserPresenceStatus
 ```
 
-Gets a TicketMessageEntity object.
+Get user presence status
 
-Calls the Ticket agent service GetTicketMessageEntity.
 
-| Path Part | Type | Description |
-|-----------|------|-------------|
-| id | int32 | The id of the TicketMessageEntity to return. **Required** |
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category" Default = show all fields. |
-| fk | bool |  Load foreign keys on this entity into the ExtraFields property as 'app.device.keyname'='123' pairs. |
+| $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-GET /api/v1/TicketMessage/{id}?$select=name,department,category/id
-GET /api/v1/TicketMessage/{id}?fk=False
+POST /api/v1/Agents/User/GetUserPresenceStatus?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,6 +36,7 @@ GET /api/v1/TicketMessage/{id}?fk=False
 |----------------|-------------|
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
+| Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
 | Accept-Language | Convert string references and multi-language values into a specified language (iso2) code. |
 | SO-Language | Convert string references and multi-language values into a specified language (iso2) code. Overrides Accept-Language value. |
@@ -42,31 +44,51 @@ GET /api/v1/TicketMessage/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+## Request Body: request 
 
-TicketMessageEntity found.
+AssociateId 
+
+| Property Name | Type |  Description |
+|----------------|------|--------------|
+| AssociateId | Integer |  |
+
+## Response:
+
+OK
 
 | Response | Description |
 |----------------|-------------|
-| 200 | TicketMessageEntity found. |
-| 404 | Not Found. |
+| 200 | OK |
 
-Response body:
+### Response body: UserPresenceStatus
+
+| Property Name | Type |  Description |
+|----------------|------|--------------|
+| Status | string | The status (enum) for this user. |
+| Message | string | Comment to add for user when status is not present. |
 
 ## Sample request
 
 ```http!
-GET /api/v1/TicketMessage/{id}
+POST /api/v1/Agents/User/GetUserPresenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
+Content-Type: application/json; charset=utf-8
+
+{
+  "AssociateId": 963
+}
 ```
 
 ## Sample response
 
 ```http_
-HTTP/1.1 200 TicketMessageEntity found.
+HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ipsa"
+{
+  "Status": "StatusDeleted",
+  "Message": "ut"
+}
 ```

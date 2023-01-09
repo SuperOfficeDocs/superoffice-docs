@@ -26,7 +26,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +81,7 @@ Response body: array
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,7 +90,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 44,
-    "Name": "Corwin, McDermott and Thiel",
-    "Tooltip": "et",
-    "SaveInDb": 40,
-    "Filename": "impedit",
-    "DefaultOref": "atque",
+    "DocumentTemplateId": 134,
+    "Name": "Jaskolski, Murazik and Schamberger",
+    "Tooltip": "est",
+    "SaveInDb": 363,
+    "Filename": "animi",
+    "DefaultOref": "natus",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 829,
-    "IntentId": 504,
-    "IsDefaultPublished": true,
-    "Rank": 571,
-    "LoadTemplateFromPlugin": 660,
-    "MimeType": "placeat",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 474,
+    "AutoeventId": 287,
+    "IntentId": 831,
+    "IsDefaultPublished": false,
+    "Rank": 17,
+    "LoadTemplateFromPlugin": 271,
+    "MimeType": "qui",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 202,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "danika@eichmann.us",
+    "EmailSubject": "doris@hermantillman.co.uk",
     "IncludeSignature": false,
     "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "santina.dickinson@wintheiser.name",
+    "SenderEmailAddress": "derrick.beier@herman.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 740
+        "FieldLength": 789
       }
     }
   }

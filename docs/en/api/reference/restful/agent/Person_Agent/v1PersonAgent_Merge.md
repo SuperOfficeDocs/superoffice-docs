@@ -40,20 +40,19 @@ POST /api/v1/Agents/Person/Merge?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SourcePersonId, DestinationPersonId, MoveAfterDate, DeleteSource, ReplaceEmptyFieldsOnDestination 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SourcePersonId | int32 |  |
-| DestinationPersonId | int32 |  |
-| MoveAfterDate | date-time |  |
-| DeleteSource | bool |  |
-| ReplaceEmptyFieldsOnDestination | bool |  |
+| SourcePersonId | Integer |  |
+| DestinationPersonId | Integer |  |
+| MoveAfterDate | String |  |
+| DeleteSource | Boolean |  |
+| ReplaceEmptyFieldsOnDestination | Boolean |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -61,7 +60,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -70,15 +69,15 @@ Response body:
 POST /api/v1/Agents/Person/Merge
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourcePersonId": 518,
-  "DestinationPersonId": 966,
-  "MoveAfterDate": "2007-11-02T02:49:44.8434647+01:00",
-  "DeleteSource": true,
-  "ReplaceEmptyFieldsOnDestination": true
+  "SourcePersonId": 252,
+  "DestinationPersonId": 470,
+  "MoveAfterDate": "2017-09-13T17:37:18.4982429+02:00",
+  "DeleteSource": false,
+  "ReplaceEmptyFieldsOnDestination": false
 }
 ```
 

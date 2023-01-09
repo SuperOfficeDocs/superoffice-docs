@@ -44,20 +44,19 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId, StartTime, EndTime, Count, TaskIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TaskIds | array |  |
+| ProjectId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TaskIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -127,17 +126,17 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 737,
-  "StartTime": "2005-01-07T02:49:43.2148724+01:00",
-  "EndTime": "2002-12-27T02:49:43.2148724+01:00",
-  "Count": 792,
+  "ProjectId": 858,
+  "StartTime": "1998-09-29T17:37:16.2292422+02:00",
+  "EndTime": "2021-06-17T17:37:16.2292422+02:00",
+  "Count": 816,
   "TaskIds": [
-    579,
-    247
+    408,
+    742
   ]
 }
 ```
@@ -150,61 +149,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 687,
-    "StartDate": "2016-01-15T02:49:43.2148724+01:00",
-    "EndDate": "1999-08-06T02:49:43.2148724+02:00",
+    "AppointmentId": 184,
+    "StartDate": "2022-11-16T17:37:16.2302417+01:00",
+    "EndDate": "2003-03-15T17:37:16.2302417+01:00",
     "Type": "BookingForChecklist",
-    "Task": "soluta",
-    "AssociateFullName": "Mavis Kutch",
-    "ContactName": "Bernier Inc and Sons",
-    "Description": "Total heuristic contingency",
-    "PersonFullName": "Armand Pacocha",
-    "PersonId": 860,
-    "ContactId": 493,
-    "ProjectId": 298,
-    "ProjectName": "Reynolds-Schaden",
+    "Task": "id",
+    "AssociateFullName": "Miss Gaston Thompson Sr.",
+    "ContactName": "Ward, Klocko and Gorczany",
+    "Description": "Open-architected holistic challenge",
+    "PersonFullName": "Clovis Sanford",
+    "PersonId": 220,
+    "ContactId": 840,
+    "ProjectId": 43,
+    "ProjectName": "Gerlach-Abbott",
     "IsPublished": false,
-    "AssociateId": 878,
-    "ColorIndex": 891,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 488,
+    "ColorIndex": 880,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 857,
-    "PriorityName": "Streich, DuBuque and Lesch",
+    "PriorityId": 577,
+    "PriorityName": "Sawayn-Koelpin",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2019-05-19T02:49:43.2148724+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2015-08-09T17:37:16.2302417+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-01-13T02:49:43.2148724+01:00",
-    "RecurringEndDate": "2015-04-22T02:49:43.2148724+02:00",
-    "MotherId": 163,
-    "AssignedBy": 358,
-    "AssignedByFullName": "Marco Weber",
+    "RecurringStartDate": "2010-10-30T17:37:16.2302417+02:00",
+    "RecurringEndDate": "1998-11-27T17:37:16.2302417+01:00",
+    "MotherId": 136,
+    "AssignedBy": 938,
+    "AssignedByFullName": "Murl Roberts",
     "RejectReason": "",
-    "Location": "hic",
-    "AlarmLeadTime": "at",
-    "SaleId": 413,
-    "SaleName": "Nienow-Boyer",
-    "AssociateName": "Weber Inc and Sons",
-    "CreatedDate": "2000-12-01T02:49:43.2148724+01:00",
-    "CreatedBy": "omnis",
-    "CreatedByFullName": "Dr. Ismael Wyman",
-    "CreatedByAssociateId": 15,
+    "Location": "harum",
+    "AlarmLeadTime": "itaque",
+    "SaleId": 138,
+    "SaleName": "Gleason, Kirlin and Cummerata",
+    "AssociateName": "Lind LLC",
+    "CreatedDate": "2011-10-28T17:37:16.2302417+02:00",
+    "CreatedBy": "sit",
+    "CreatedByFullName": "Milan Johns",
+    "CreatedByAssociateId": 375,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 959
+        "FieldType": "System.Int32",
+        "FieldLength": 259
       }
     }
   }

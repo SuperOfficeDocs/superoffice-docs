@@ -42,17 +42,16 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name, AssociateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| AssociateIds | array |  |
+| Name | String |  |
+| AssociateIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +84,7 @@ Response body: array
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -98,10 +97,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Hara, Beer and Lueilwitz",
+  "Name": "Jakubowski, Hoeger and Herman",
   "AssociateIds": [
-    777,
-    354
+    528,
+    931
   ]
 }
 ```
@@ -114,36 +113,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 52,
-    "Name": "Veum-Emmerich",
-    "AssociateId": 72,
-    "DetailsTable": 904,
-    "DetailsRecord": 157,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 563,
+    "Name": "Schmidt-Labadie",
+    "AssociateId": 861,
+    "DetailsTable": 401,
+    "DetailsRecord": 864,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "quod",
-      "ParameterObject2": "provident"
+      "ParameterObject1": "totam",
+      "ParameterObject2": "illo"
     },
-    "LastStarted": "2001-01-31T02:49:43.7004017+01:00",
-    "Created": "2007-05-06T02:49:43.7004017+02:00",
-    "StartCount": 374,
-    "DatabaseSerialNumber": "1047895",
-    "Context": "culpa",
-    "Result": "a",
+    "LastStarted": "2017-12-21T17:37:16.9022429+01:00",
+    "Created": "2022-02-28T17:37:16.9022429+01:00",
+    "StartCount": 267,
+    "DatabaseSerialNumber": "890156",
+    "Context": "eum",
+    "Result": "modi",
     "State": "All",
-    "Description": "Versatile neutral software",
-    "Response": "beatae",
-    "Request": "explicabo",
-    "ProgressDescription": "Exclusive 3rd generation framework",
-    "ProgressPercent": 779,
-    "FileName": "Ziemann Group",
+    "Description": "Streamlined national framework",
+    "Response": "error",
+    "Request": "repellat",
+    "ProgressDescription": "Multi-tiered systemic ability",
+    "ProgressPercent": 658,
+    "FileName": "Gaylord, Jones and Crona",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 727
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

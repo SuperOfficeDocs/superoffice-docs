@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/MoveEmailsToFolder
 Move one or more emails to the specified folder in the DB, and on the server
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -42,17 +40,16 @@ POST /api/v1/Agents/EMail/MoveEmailsToFolder?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 FolderId, EmailItemIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| FolderId | int32 |  |
-| EmailItemIds | array |  |
+| FolderId | Integer |  |
+| EmailItemIds | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -60,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -73,10 +70,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 365,
+  "FolderId": 518,
   "EmailItemIds": [
-    68,
-    631
+    109,
+    186
   ]
 }
 ```

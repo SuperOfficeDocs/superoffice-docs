@@ -34,7 +34,7 @@ Blocked in Online for safety. Calls the User agent service GetUser.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: User
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,10 +51,10 @@ Response body:
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
 | OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -71,7 +71,7 @@ Response body:
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,7 +80,7 @@ Response body:
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 742,
-  "Name": "Boyle Inc and Sons",
-  "Rank": 577,
-  "Tooltip": "fugiat",
+  "AssociateId": 919,
+  "Name": "Ratke-Carter",
+  "Rank": 841,
+  "Tooltip": "repudiandae",
   "LicenseOwners": [
     {
-      "Name": "Leuschke Group",
-      "Description": "Persevering impactful firmware",
+      "Name": "Block, Tremblay and Mosciski",
+      "Description": "Universal empowering open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -110,14 +110,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldType": "System.String",
+          "FieldLength": 959
         }
       }
     },
     {
-      "Name": "Leuschke Group",
-      "Description": "Persevering impactful firmware",
+      "Name": "Block, Tremblay and Mosciski",
+      "Description": "Universal empowering open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldType": "System.String",
+          "FieldLength": 959
         }
       }
     }
@@ -140,110 +140,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "accusamus",
-      "Tooltip": "consequatur",
-      "Id": 513,
-      "Rank": 696,
-      "Deleted": true,
+      "Value": "magni",
+      "Tooltip": "cupiditate",
+      "Id": 583,
+      "Rank": 784,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 607
+          "FieldLength": 721
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2012-10-18T02:49:51.844034+02:00",
-  "Lastlogout": "2001-12-08T02:49:51.844034+01:00",
-  "EjUserId": 188,
-  "RequestSignature": "dignissimos",
+  "Deleted": true,
+  "Lastlogin": "2015-06-21T17:37:39.5884009+02:00",
+  "Lastlogout": "2014-06-06T17:37:39.5884009+02:00",
+  "EjUserId": 919,
+  "RequestSignature": "quam",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ad",
-      "DisplayValue": "molestias",
+      "Value": "sint",
+      "DisplayValue": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 313
+          "FieldType": "System.Int32",
+          "FieldLength": 34
         }
       }
     },
     {
       "Type": null,
-      "Value": "ad",
-      "DisplayValue": "molestias",
+      "Value": "sint",
+      "DisplayValue": "facere",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 34
+        }
+      }
+    }
+  ],
+  "UserName": "Glover, Shields and Toy",
+  "TicketCategories": [
+    {
+      "Id": 656,
+      "Name": "Cartwright, O'Reilly and Kirlin",
+      "ToolTip": "Iste maxime natus.",
+      "Deleted": true,
+      "Rank": 28,
+      "Type": "iusto",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "omnis",
+      "ColorBlock": 528,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "a",
+      "FullName": "Lulu Larson Sr.",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 294
+        }
+      }
+    }
+  ],
+  "NickName": "Dooley, Fahey and Bernier",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "in",
+    "ExtraFields2": "aperiam"
+  },
+  "CustomFields": {
+    "CustomFields1": "beatae",
+    "CustomFields2": "beatae"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Farrell-Hilpert",
+      "DisplayName": "Pfannerstill-Koepp",
+      "Description": "Managed empowering product",
+      "ToolTip": "Quis doloribus culpa modi perferendis harum aliquam.",
+      "Actions": "Implicit",
+      "ActionData": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 313
-        }
-      }
-    }
-  ],
-  "UserName": "Hodkiewicz LLC",
-  "TicketCategories": [
-    {
-      "Id": 26,
-      "Name": "Langosh-Hoppe",
-      "ToolTip": "Dignissimos aliquid ut fugit necessitatibus dolorem eius nesciunt.",
-      "Deleted": false,
-      "Rank": 229,
-      "Type": "consequatur",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "qui",
-      "ColorBlock": 124,
-      "ExtraInfo": "recusandae",
-      "StyleHint": "officia",
-      "FullName": "Milton Johnston",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 408
-        }
-      }
-    }
-  ],
-  "NickName": "O'Reilly Group",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "corrupti"
-  },
-  "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "officia"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Kulas, Aufderhar and Jacobs",
-      "DisplayName": "Bosco, Hettinger and Watsica",
-      "Description": "De-engineered system-worthy structure",
-      "ToolTip": "Consequatur possimus dolorum beatae quo.",
-      "Actions": "Implicit",
-      "ActionData": "ratione",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 9
+          "FieldLength": 19
         }
       }
     }
@@ -253,7 +253,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldLength": 964
     }
   }
 }

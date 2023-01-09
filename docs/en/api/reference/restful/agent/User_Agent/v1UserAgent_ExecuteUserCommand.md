@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/ExecuteUserCommand
 Executes the custom command for User
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -36,18 +34,17 @@ Executes the custom command for User
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 The name of the command to execute. Result of an UI operation. The User to execute commands on. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CommandName | string |  |
-| ActionResult | string |  |
-| User |  | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| CommandName | String |  |
+| ActionResult | String |  |
+| User | User | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -55,14 +52,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CommandResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Success | bool | The command was successfully executed. |
 | Message | string | Message which should be displayed in GUI. |
 | Result | string | The result used in this action. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,11 +68,11 @@ Response body:
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Russel-Kohler",
+  "CommandName": "Smith Group",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -88,15 +85,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "deserunt",
+  "Success": false,
+  "Message": "enim",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 707
+      "FieldLength": 396
     }
   }
 }

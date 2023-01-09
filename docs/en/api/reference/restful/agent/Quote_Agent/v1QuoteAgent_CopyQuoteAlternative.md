@@ -42,18 +42,17 @@ POST /api/v1/Agents/Quote/CopyQuoteAlternative?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId, QuoteAlternativeId, QuoteAlternativeName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
-| QuoteAlternativeId | int32 |  |
-| QuoteAlternativeName | string |  |
+| QuoteVersionId | Integer |  |
+| QuoteAlternativeId | Integer |  |
+| QuoteAlternativeName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteAlternative
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body:
 | ExtraField3 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,13 +96,13 @@ Response body:
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 690,
-  "QuoteAlternativeId": 160,
-  "QuoteAlternativeName": "Monahan-Russel"
+  "QuoteVersionId": 448,
+  "QuoteAlternativeId": 981,
+  "QuoteAlternativeName": "Bahringer, Armstrong and Rau"
 }
 ```
 
@@ -114,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 320,
-  "ERPQuoteAlternativeKey": "eum",
-  "QuoteVersionId": 870,
-  "Name": "Gutmann, Brakus and Fay",
-  "Description": "Enhanced stable knowledge base",
+  "QuoteAlternativeId": 415,
+  "ERPQuoteAlternativeKey": "laborum",
+  "QuoteVersionId": 667,
+  "Name": "Kreiger LLC",
+  "Description": "De-engineered bandwidth-monitored customer loyalty",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 26660.938,
-  "ERPDiscountAmount": 28607.152,
-  "DiscountPercent": 5377.9439999999995,
-  "DiscountAmount": 21254.788,
+  "ERPDiscountPercent": 27798.579999999998,
+  "ERPDiscountAmount": 20361.597999999998,
+  "DiscountPercent": 1062.426,
+  "DiscountAmount": 6095.63,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ratione",
-  "VAT": 20283.248,
-  "EarningPercent": 1899.204,
-  "EarningAmount": 2106.048,
-  "SubTotal": 783.5,
-  "TotalPrice": 16691.684,
-  "ExtraField1": "consequatur",
-  "ExtraField2": "consequuntur",
-  "ExtraField3": "quis",
-  "ExtraField4": "maxime",
-  "ExtraField5": "nobis",
+  "VATInfo": "dolor",
+  "VAT": 21555.652,
+  "EarningPercent": 24442.066,
+  "EarningAmount": 6844.656,
+  "SubTotal": 5061.41,
+  "TotalPrice": 20856.77,
+  "ExtraField1": "impedit",
+  "ExtraField2": "quibusdam",
+  "ExtraField3": "cupiditate",
+  "ExtraField4": "voluptatum",
+  "ExtraField5": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 214
     }
   }
 }

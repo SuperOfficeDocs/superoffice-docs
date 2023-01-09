@@ -25,7 +25,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=844
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=876
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectMember
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +77,7 @@ Response body:
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 804,
-  "ContactId": 56,
-  "ProjectId": 921,
-  "ContactName": "Lesch, Turner and Green",
+  "ProjectmemberId": 362,
+  "ContactId": 463,
+  "ProjectId": 350,
+  "ContactName": "Breitenberg, Jerde and Hills",
   "ContactDepartment": "",
-  "ProjectName": "Klocko, Schneider and Swaniawski",
-  "EmailId": 370,
-  "EmailAddress": "fernando_medhurst@haag.com",
-  "CountryId": 131,
-  "Firstname": "Gussie",
-  "MiddleName": "Mayert-McKenzie",
-  "Lastname": "Mertz",
-  "PersonId": 961,
-  "Mrmrs": "sed",
-  "ProjectMemberTypeName": "Bailey, Hackett and Hermiston",
-  "Phone": "1-177-938-7605 x23083",
-  "PhoneId": 290,
-  "ProjectMemberTypeId": 76,
-  "EmailAddressName": "maeve.kub@nitzsche.com",
-  "Comment": "dolores",
-  "FullName": "Halie Lueilwitz",
+  "ProjectName": "Hessel Group",
+  "EmailId": 515,
+  "EmailAddress": "hyman_daugherty@effertz.ca",
+  "CountryId": 277,
+  "Firstname": "Mariane",
+  "MiddleName": "Yundt, Hettinger and Hickle",
+  "Lastname": "Tillman",
+  "PersonId": 584,
+  "Mrmrs": "deserunt",
+  "ProjectMemberTypeName": "Mante-Lind",
+  "Phone": "1-414-728-5085",
+  "PhoneId": 548,
+  "ProjectMemberTypeId": 160,
+  "EmailAddressName": "derick_botsford@kiehn.uk",
+  "Comment": "fuga",
+  "FullName": "Dahlia Klocko",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 449
     }
   }
 }

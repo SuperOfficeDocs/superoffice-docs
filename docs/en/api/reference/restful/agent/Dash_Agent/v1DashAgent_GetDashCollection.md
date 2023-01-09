@@ -42,7 +42,7 @@ POST /api/v1/Agents/Dash/GetDashCollection?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,14 +50,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashCollection
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Pinned | array | Dashboards pinned to the associate |
 | Favourites | array | The assocates favourite dashboards |
 | Other | array | Other dashboards |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -66,7 +66,7 @@ Response body:
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,111 +78,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 626,
-      "UniqueId": "dignissimos",
-      "Name": "Douglas, Lebsack and Hirthe",
-      "Description": "Stand-alone multimedia data-warehouse",
-      "AssociateId": 141,
-      "Columns": 974,
+      "DashboardId": 290,
+      "UniqueId": "adipisci",
+      "Name": "Waters, Gerlach and Russel",
+      "Description": "Integrated user-facing initiative",
+      "AssociateId": 557,
+      "Columns": 185,
       "Theme": null,
-      "VisibleForAll": 119,
+      "VisibleForAll": 199,
       "VisibleForAssociates": [
-        721,
-        187
+        72,
+        296
       ],
       "VisibleForGroups": [
-        844,
-        868
+        415,
+        520
       ],
-      "PinForAll": 791,
+      "PinForAll": 92,
       "PinForAssociates": [
-        378,
-        671
+        925,
+        699
       ],
       "PinForGroups": [
-        830,
-        950
+        162,
+        678
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldLength": 815
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 79,
-      "UniqueId": "est",
-      "Name": "Runolfsson, Buckridge and Greenfelder",
-      "Description": "Implemented optimal ability",
-      "AssociateId": 371,
-      "Columns": 871,
+      "DashboardId": 599,
+      "UniqueId": "quos",
+      "Name": "Lowe, Daniel and Fay",
+      "Description": "Digitized interactive firmware",
+      "AssociateId": 965,
+      "Columns": 496,
       "Theme": null,
-      "VisibleForAll": 554,
+      "VisibleForAll": 220,
       "VisibleForAssociates": [
-        80,
-        744
+        495,
+        126
       ],
       "VisibleForGroups": [
-        711,
-        477
+        362,
+        264
       ],
-      "PinForAll": 403,
+      "PinForAll": 828,
       "PinForAssociates": [
-        250,
-        132
+        367,
+        403
       ],
       "PinForGroups": [
-        142,
-        167
+        879,
+        753
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 827
+          "FieldLength": 862
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 833,
-      "UniqueId": "et",
-      "Name": "Kessler LLC",
-      "Description": "User-centric actuating implementation",
-      "AssociateId": 865,
-      "Columns": 704,
+      "DashboardId": 691,
+      "UniqueId": "voluptates",
+      "Name": "Pollich-Schroeder",
+      "Description": "Assimilated systemic Graphical User Interface",
+      "AssociateId": 781,
+      "Columns": 476,
       "Theme": null,
-      "VisibleForAll": 816,
+      "VisibleForAll": 725,
       "VisibleForAssociates": [
-        203,
-        608
+        323,
+        985
       ],
       "VisibleForGroups": [
-        633,
-        922
+        473,
+        978
       ],
-      "PinForAll": 17,
+      "PinForAll": 634,
       "PinForAssociates": [
-        613,
-        275
+        35,
+        982
       ],
       "PinForGroups": [
-        575,
-        489
+        637,
+        452
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 774
+          "FieldType": "System.Int32",
+          "FieldLength": 332
         }
       }
     }
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 618
+      "FieldLength": 20
     }
   }
 }

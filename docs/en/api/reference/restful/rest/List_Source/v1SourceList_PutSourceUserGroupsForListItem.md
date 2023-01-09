@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 171,
-    "Name": "Eichmann-Hirthe",
-    "ToolTip": "Magni voluptas et aut excepturi.",
+    "Id": 576,
+    "Name": "Marks Group",
+    "ToolTip": "Dicta laborum voluptate voluptatem sunt magnam.",
     "Deleted": false,
-    "Rank": 261,
-    "Type": "et",
-    "ColorBlock": 340,
-    "IconHint": "ut",
+    "Rank": 893,
+    "Type": "quia",
+    "ColorBlock": 484,
+    "IconHint": "voluptatibus",
     "Selected": true,
-    "LastChanged": "2018-03-31T02:49:52.5315748+02:00",
+    "LastChanged": "1997-05-15T17:37:40.3735009+02:00",
     "ChildItems": [
       {
-        "Id": 515,
-        "Name": "Price Inc and Sons",
-        "ToolTip": "Est veniam alias error.",
+        "Id": 35,
+        "Name": "Welch, Rippin and Beer",
+        "ToolTip": "Nihil voluptatibus quia omnis.",
         "Deleted": false,
-        "Rank": 539,
-        "Type": "nam",
-        "ColorBlock": 577,
-        "IconHint": "cupiditate",
+        "Rank": 111,
+        "Type": "esse",
+        "ColorBlock": 557,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "1997-07-08T02:49:52.5315748+02:00",
+        "LastChanged": "2003-04-01T17:37:40.3735009+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "tempora",
+        "ExtraInfo": "earum",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Dr. Francis Will DDS"
+        "FullName": "Dr. Cassidy Wuckert I"
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "omnis",
+    "ExtraInfo": "omnis",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Marlee Beier"
+    "FullName": "Timothy Schuppe"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "O'Connell, Hammes and Grant",
-    "ToolTip": "Voluptatem itaque quia similique.",
-    "Deleted": true,
-    "Rank": 225,
-    "Type": "dolorem",
-    "ColorBlock": 281,
-    "IconHint": "dolorum",
+    "Id": 153,
+    "Name": "Heathcote, Jast and Willms",
+    "ToolTip": "Natus delectus commodi tenetur sed provident sequi voluptas.",
+    "Deleted": false,
+    "Rank": 889,
+    "Type": "qui",
+    "ColorBlock": 529,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2001-03-30T02:49:52.5315748+02:00",
+    "LastChanged": "2012-01-13T17:37:40.3745007+01:00",
     "ChildItems": [
       {
-        "Id": 527,
-        "Name": "Bruen, Beer and Runte",
-        "ToolTip": "Consequatur incidunt porro magni.",
+        "Id": 213,
+        "Name": "Sawayn, Ward and Ferry",
+        "ToolTip": "Id illo ea.",
         "Deleted": false,
-        "Rank": 718,
-        "Type": "architecto",
-        "ColorBlock": 819,
-        "IconHint": "sequi",
-        "Selected": true,
-        "LastChanged": "2011-10-09T02:49:52.5315748+02:00",
+        "Rank": 166,
+        "Type": "ipsam",
+        "ColorBlock": 765,
+        "IconHint": "ipsam",
+        "Selected": false,
+        "LastChanged": "2021-08-03T17:37:40.3755002+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "aut",
+        "StyleHint": "porro",
         "Hidden": false,
-        "FullName": "Prof. Pierce Jazlyn Wiza II",
+        "FullName": "Katheryn Felton Gutkowski Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 974
+            "FieldLength": 552
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "dolore",
+    "ExtraInfo": "minima",
+    "StyleHint": "debitis",
     "Hidden": true,
-    "FullName": "Mrs. Dina Giles Strosin Jr.",
+    "FullName": "Brandon Adrain McDermott MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 625
       }
     }
   }

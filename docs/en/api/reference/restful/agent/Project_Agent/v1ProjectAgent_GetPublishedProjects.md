@@ -42,16 +42,15 @@ POST /api/v1/Agents/Project/GetPublishedProjects?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectIds | array |  |
+| ProjectIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +80,7 @@ Response body: array
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,13 +89,13 @@ Response body: array
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    211,
-    743
+    495,
+    142
   ]
 }
 ```
@@ -109,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 753,
-    "Name": "Pagac-Collins",
-    "Description": "Distributed 5th generation knowledge user",
+    "ProjectId": 741,
+    "Name": "Douglas Group",
+    "Description": "Multi-tiered attitude-oriented internet solution",
     "URL": "http://www.example.com/",
-    "Type": "illo",
-    "AssociateId": 381,
-    "AssociateFullName": "Tony Weissnat",
-    "TypeId": 658,
-    "Updated": "2020-02-27T02:49:44.9684639+01:00",
-    "StatusId": 597,
-    "Status": "culpa",
-    "TextId": 138,
-    "PublishTo": "2016-05-31T02:49:44.9684639+02:00",
-    "PublishFrom": "2004-02-10T02:49:44.9684639+01:00",
-    "IsPublished": true,
+    "Type": "nulla",
+    "AssociateId": 243,
+    "AssociateFullName": "Miss Marie Dicki",
+    "TypeId": 366,
+    "Updated": "2018-10-31T17:37:18.663243+01:00",
+    "StatusId": 214,
+    "Status": "hic",
+    "TextId": 120,
+    "PublishTo": "2013-06-20T17:37:18.663243+02:00",
+    "PublishFrom": "2019-08-02T17:37:18.663243+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "43226",
-    "ActiveErpLinks": 941,
+    "ProjectNumber": "1423428",
+    "ActiveErpLinks": 382,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 205
       }
     }
   }

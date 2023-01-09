@@ -32,7 +32,7 @@ Currently published PersonEntity user-defined field layout.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +78,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 610,
-    "ColumnId": 1001,
-    "FieldDefault": "ratione",
-    "FieldHeight": 422,
-    "FieldLabel": "vero",
-    "FieldLeft": 841,
-    "FieldTop": 996,
+    "UDefFieldId": 211,
+    "ColumnId": 583,
+    "FieldDefault": "cumque",
+    "FieldHeight": 144,
+    "FieldLabel": "ea",
+    "FieldLeft": 799,
+    "FieldTop": 369,
     "FieldType": "Checkbox",
-    "FieldWidth": 394,
-    "FormatMask": "inventore",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 902,
-    "LabelLeft": 408,
-    "LabelTop": 360,
-    "LabelWidth": 285,
-    "LastVersionId": 945,
-    "ListTableId": 791,
+    "FieldWidth": 788,
+    "FormatMask": "recusandae",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 166,
+    "LabelLeft": 134,
+    "LabelTop": 674,
+    "LabelWidth": 642,
+    "LastVersionId": 73,
+    "ListTableId": 997,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 119,
-    "ProgId": "voluptatem",
-    "IsReadOnly": true,
-    "ShortLabel": "velit",
-    "TabOrder": 562,
-    "TextLength": 246,
-    "Tooltip": "dolorum",
-    "UdefIdentity": 787,
-    "UDListDefinitionId": 718,
+    "Page1LineNo": 963,
+    "ProgId": "nihil",
+    "IsReadOnly": false,
+    "ShortLabel": "dolores",
+    "TabOrder": 267,
+    "TextLength": 436,
+    "Tooltip": "consequatur",
+    "UdefIdentity": 300,
+    "UDListDefinitionId": 436,
     "Justification": "Center",
-    "Version": 828,
-    "TemplateVariableName": "Monahan-Sanford",
+    "Version": 949,
+    "TemplateVariableName": "Gutmann-Aufderhar",
     "HasBeenPublished": false,
-    "MdoListName": "Hodkiewicz, Doyle and Metz",
+    "MdoListName": "Lebsack, Willms and Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 790
+        "FieldType": "System.Int32",
+        "FieldLength": 992
       }
     }
   }

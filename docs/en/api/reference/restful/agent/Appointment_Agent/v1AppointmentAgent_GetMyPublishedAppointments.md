@@ -42,7 +42,7 @@ POST /api/v1/Agents/Appointment/GetMyPublishedAppointments?$select=name,departme
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,7 +103,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -123,53 +123,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 479,
-    "StartDate": "2009-05-05T02:49:43.2461231+02:00",
-    "EndDate": "2022-07-09T02:49:43.2461231+02:00",
+    "AppointmentId": 783,
+    "StartDate": "2011-10-18T17:37:16.2552425+02:00",
+    "EndDate": "2000-12-31T17:37:16.2552425+01:00",
     "Type": "BookingForChecklist",
-    "Task": "labore",
-    "AssociateFullName": "Jamison Ryan",
-    "ContactName": "Rath, Paucek and Kunze",
-    "Description": "Persevering assymetric encoding",
-    "PersonFullName": "Adrian Hauck",
-    "PersonId": 235,
-    "ContactId": 773,
-    "ProjectId": 557,
-    "ProjectName": "Schulist, Bogisich and Block",
+    "Task": "quibusdam",
+    "AssociateFullName": "Harmony Waters",
+    "ContactName": "Little LLC",
+    "Description": "Switchable tangible throughput",
+    "PersonFullName": "Davin Otilia Grant Jr.",
+    "PersonId": 920,
+    "ContactId": 888,
+    "ProjectId": 627,
+    "ProjectName": "Auer Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 511,
-    "ColorIndex": 292,
+    "AssociateId": 299,
+    "ColorIndex": 107,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 267,
-    "PriorityName": "Hand Inc and Sons",
+    "PriorityId": 867,
+    "PriorityName": "Schultz-Kreiger",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1996-10-04T02:49:43.2461231+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2015-10-16T17:37:16.2562428+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-06-18T02:49:43.2461231+02:00",
-    "RecurringEndDate": "2009-08-31T02:49:43.2461231+02:00",
-    "MotherId": 253,
-    "AssignedBy": 953,
-    "AssignedByFullName": "Burley Morar",
-    "RejectReason": "utilize holistic experiences",
-    "Location": "natus",
-    "AlarmLeadTime": "eveniet",
-    "SaleId": 425,
-    "SaleName": "Pagac Inc and Sons",
-    "AssociateName": "Smitham Inc and Sons",
-    "CreatedDate": "2020-02-29T02:49:43.2461231+01:00",
-    "CreatedBy": "ex",
-    "CreatedByFullName": "Lynn Corwin",
-    "CreatedByAssociateId": 897,
+    "RecurringStartDate": "2013-07-01T17:37:16.2562428+02:00",
+    "RecurringEndDate": "2001-03-26T17:37:16.2562428+02:00",
+    "MotherId": 90,
+    "AssignedBy": 898,
+    "AssignedByFullName": "Waylon Jerde",
+    "RejectReason": "",
+    "Location": "distinctio",
+    "AlarmLeadTime": "voluptas",
+    "SaleId": 83,
+    "SaleName": "Emard-Gorczany",
+    "AssociateName": "Nienow, Ryan and Carroll",
+    "CreatedDate": "2002-10-03T17:37:16.2572423+02:00",
+    "CreatedBy": "eum",
+    "CreatedByFullName": "Americo Predovic",
+    "CreatedByAssociateId": 688,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -177,7 +177,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldLength": 413
       }
     }
   }

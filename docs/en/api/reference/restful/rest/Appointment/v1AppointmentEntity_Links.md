@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,14 +73,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Appointment/{id}/Links?$select=name,department,category/id
 GET /api/v1/Appointment/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Appointment/{id}/Links?$orderBy=name asc
-GET /api/v1/Appointment/{id}/Links?$entities=ut
-GET /api/v1/Appointment/{id}/Links?$top=747
-GET /api/v1/Appointment/{id}/Links?$skip=871
+GET /api/v1/Appointment/{id}/Links?$entities=iste
+GET /api/v1/Appointment/{id}/Links?$top=179
+GET /api/v1/Appointment/{id}/Links?$skip=834
 GET /api/v1/Appointment/{id}/Links?$mode=Full
 GET /api/v1/Appointment/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Appointment/{id}/Links?$context=dolorum
+GET /api/v1/Appointment/{id}/Links?$context=eius
 GET /api/v1/Appointment/{id}/Links?$format=JSON
-GET /api/v1/Appointment/{id}/Links?$jsonSafe=True
+GET /api/v1/Appointment/{id}/Links?$jsonSafe=False
 GET /api/v1/Appointment/{id}/Links?$output=Display
 ```
 
@@ -100,7 +99,7 @@ GET /api/v1/Appointment/{id}/Links?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Appointment/{id}/Links
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sunt",
+  "odata.nextLink": "nisi",
   "value": [
     {
-      "PrimaryKey": 2450,
-      "EntityName": "person",
-      "personId": 2450,
-      "fullName": "Francesco Orn"
+      "PrimaryKey": 9944,
+      "EntityName": "sale",
+      "saleId": 9944,
+      "contactId": 2695,
+      "name": "West Group"
     },
     {
-      "PrimaryKey": 5101,
-      "EntityName": "person",
-      "personId": 5101,
-      "fullName": "Junior Franecki"
+      "PrimaryKey": 3700,
+      "EntityName": "sale",
+      "saleId": 3700,
+      "contactId": 4625,
+      "name": "Leffler-Goldner"
     }
   ]
 }

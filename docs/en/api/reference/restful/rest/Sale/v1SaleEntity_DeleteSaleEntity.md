@@ -34,7 +34,7 @@ Calls the Sale agent service DeleteSaleEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 SaleEntity deleted.
 
@@ -43,7 +43,7 @@ SaleEntity deleted.
 | 204 | SaleEntity deleted. |
 | 412 | Delete aborted because SaleEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -52,7 +52,7 @@ Response body:
 DELETE /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

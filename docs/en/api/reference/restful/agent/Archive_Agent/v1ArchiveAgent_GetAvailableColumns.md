@@ -44,17 +44,16 @@ POST /api/v1/Agents/Archive/GetAvailableColumns?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Context | string |  |
+| ProviderName | String |  |
+| Context | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,12 +85,12 @@ Response body: array
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Tromp-White",
-  "Context": "sed"
+  "ProviderName": "Kemmer, Macejkovic and Collins",
+  "Context": "rem"
 }
 ```
 
@@ -103,19 +102,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Mosciski-Watsica",
-    "DisplayTooltip": "perferendis",
-    "DisplayType": "nihil",
+    "DisplayName": "Moen-Nikolaus",
+    "DisplayTooltip": "eaque",
+    "DisplayType": "voluptate",
     "CanOrderBy": true,
-    "Name": "Schaefer Inc and Sons",
+    "Name": "Davis, Ferry and McClure",
     "CanRestrictBy": false,
-    "RestrictionType": "saepe",
-    "RestrictionListName": "Carroll LLC",
-    "IsVisible": true,
-    "ExtraInfo": "vitae",
-    "Width": "cumque",
-    "IconHint": "consequuntur",
-    "HeadingIconHint": "omnis"
+    "RestrictionType": "et",
+    "RestrictionListName": "Hoeger-Kiehn",
+    "IsVisible": false,
+    "ExtraInfo": "itaque",
+    "Width": "distinctio",
+    "IconHint": "et",
+    "HeadingIconHint": "et"
   }
 ]
 ```

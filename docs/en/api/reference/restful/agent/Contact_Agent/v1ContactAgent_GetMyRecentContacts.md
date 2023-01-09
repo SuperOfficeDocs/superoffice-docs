@@ -44,16 +44,15 @@ POST /api/v1/Agents/Contact/GetMyRecentContacts?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SourceType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SourceType | string |  |
+| SourceType | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,12 +81,14 @@ Response body: array
 | BusinessName | string | The business list item name |
 | CategoryName | string | The category list item name |
 | CountryName | string | Name of country in installed language |
-| Address |  | Contact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
+| Address | Address | Contact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
 | FormattedAddress | string | The contact's address, formatted with linebreaks and spaces into a single string. |
 | FullName | string |  |
 | IsOwnerContact | bool | Is the contact an owner contact.  This means that all persons on this contact can on only be internal users and not external users. |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| Number1 | string | Alphanumeric user field |
+| Number2 | string | Alphanumeric user field |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -96,7 +97,7 @@ Response body: array
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -112,34 +113,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 906,
-    "Name": "Funk, Von and Boehm",
-    "OrgNr": "1148957",
+    "ContactId": 854,
+    "Name": "Schiller LLC",
+    "OrgNr": "957173",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "sunt",
-    "DirectPhone": "1-184-771-9025 x1772",
-    "AssociateId": 159,
-    "CountryId": 198,
-    "EmailAddress": "arlo@cronincasper.us",
-    "Kananame": "modi",
-    "EmailAddressName": "rod@armstronggusikowski.uk",
+    "City": "ut",
+    "DirectPhone": "631-540-5637",
+    "AssociateId": 494,
+    "CountryId": 485,
+    "EmailAddress": "letitia@kutch.name",
+    "Kananame": "dicta",
+    "EmailAddressName": "genesis@collierokeefe.info",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Tabitha Pouros",
+    "AssociateFullName": "Dr. Vladimir Jerrold Fay Jr.",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "facilis",
-    "FullName": "Kellen Bartell",
+    "FormattedAddress": "magni",
+    "FullName": "Mackenzie Dudley Schaefer PhD",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 196,
+    "ActiveErpLinks": 952,
+    "Number1": "1021367",
+    "Number2": "1587601",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldType": "System.String",
+        "FieldLength": 378
       }
     }
   }

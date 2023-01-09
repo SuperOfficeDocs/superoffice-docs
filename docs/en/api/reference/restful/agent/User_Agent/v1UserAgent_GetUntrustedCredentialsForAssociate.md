@@ -47,17 +47,16 @@ POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId, Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
-| Type | string |  |
+| AssociateId | Integer |  |
+| Type | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body: array
 | SecretValue | string | Data stored encrypted in the db. Typically a password. Max 70 characters. |
 | PublicValue | string | Data stored unencrypted in the db.  Typically server and or username. Max 238 characters. |
 | IsActive | bool | Is this credentials currently active. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,12 +83,12 @@ Response body: array
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 373,
-  "Type": "qui"
+  "AssociateId": 72,
+  "Type": "nesciunt"
 }
 ```
 
@@ -101,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2004-03-20T02:49:45.6715962+01:00",
-    "ValidTo": "2013-09-13T02:49:45.6715962+02:00",
-    "Comment": "voluptas",
-    "SecretValue": "deleniti",
-    "PublicValue": "enim",
+    "ValidFrom": "2002-11-12T17:37:19.5839762+01:00",
+    "ValidTo": "2005-11-17T17:37:19.5839762+01:00",
+    "Comment": "quo",
+    "SecretValue": "ipsa",
+    "PublicValue": "quia",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldLength": 34
       }
     }
   }

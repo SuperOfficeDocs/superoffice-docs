@@ -36,7 +36,7 @@ Gets all devices that belong to a foreign application.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +57,7 @@ Response body: array
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -66,7 +66,7 @@ Response body: array
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,25 +74,25 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 06 Aug 2013 02:49:50 G8T
+Last-Modified: Mon, 05 Feb 2007 17:37:38 G2T
 
 [
   {
-    "ForeignDeviceId": 14,
-    "Name": "Gusikowski LLC",
-    "CreatedDate": "1997-03-05T02:49:50.9952888+01:00",
-    "UpdatedDate": "2013-08-06T02:49:50.9952888+02:00",
-    "AssociateFullName": "Janessa Rippin",
-    "CreatedBy": "quibusdam",
-    "UpdatedBy": "in",
-    "DeviceIdentifier": "id",
-    "ForeignAppId": 748,
+    "ForeignDeviceId": 294,
+    "Name": "Rowe Inc and Sons",
+    "CreatedDate": "2016-09-24T17:37:38.8148598+02:00",
+    "UpdatedDate": "2007-02-05T17:37:38.8148598+01:00",
+    "AssociateFullName": "Johnny Robel",
+    "CreatedBy": "modi",
+    "UpdatedBy": "et",
+    "DeviceIdentifier": "asperiores",
+    "ForeignAppId": 366,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 835
+        "FieldType": "System.Int32",
+        "FieldLength": 237
       }
     }
   }

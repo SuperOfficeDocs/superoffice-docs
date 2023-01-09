@@ -25,7 +25,7 @@ Gets a ShipmentMessageBlockEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=616
+POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=612
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,departm
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ShipmentMessageBlockEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +64,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 713,
-  "AssociateId": 802,
-  "Block": "ducimus",
-  "Registered": "2005-06-07T02:49:44.7172985+02:00",
-  "RegisteredAssociateId": 854,
-  "Updated": "2019-03-04T02:49:44.7172985+01:00",
-  "UpdatedAssociateId": 804,
-  "UpdatedCount": 386,
+  "ShipmentMessageBlockId": 496,
+  "AssociateId": 667,
+  "Block": "ex",
+  "Registered": "2009-06-28T17:37:18.3252415+02:00",
+  "RegisteredAssociateId": 946,
+  "Updated": "2001-04-03T17:37:18.3252415+02:00",
+  "UpdatedAssociateId": 110,
+  "UpdatedCount": 120,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 734
+      "FieldLength": 382
     }
   }
 }

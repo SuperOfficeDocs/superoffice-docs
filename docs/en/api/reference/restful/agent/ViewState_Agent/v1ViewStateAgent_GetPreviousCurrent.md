@@ -44,17 +44,16 @@ POST /api/v1/Agents/ViewState/GetPreviousCurrent?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 HistoryName, Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HistoryName | string |  |
-| Id | int32 |  |
+| HistoryName | String |  |
+| Id | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: History
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body:
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,12 +81,12 @@ Response body:
 POST /api/v1/Agents/ViewState/GetPreviousCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Fahey-Denesik",
-  "Id": 180
+  "HistoryName": "Schiller Group",
+  "Id": 170
 }
 ```
 
@@ -98,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 786,
-  "Id": 310,
-  "HistoryName": "Douglas-Glover",
-  "HistoryId": 457,
-  "AssociateId": 786,
-  "Name": "Lindgren, Pollich and Kris",
+  "Rank": 420,
+  "Id": 943,
+  "HistoryName": "Sporer Group",
+  "HistoryId": 71,
+  "AssociateId": 632,
+  "Name": "Heathcote-Berge",
   "ItemInfo": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 620
     }
   }
 }

@@ -33,12 +33,12 @@ Send a message to recipients by email
 | gdprSource | string |  Obsolete |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=quae,omnis
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=fugiat,fugiat
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=sit,corrupti
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=ullam
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=345
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=dolores
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=beatae,dolores
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=quos,consectetur
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=ut,sed
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=quisquam
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=614
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=cupiditate
 ```
 
 
@@ -52,7 +52,7 @@ POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=dolores
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 No Content
 
@@ -60,7 +60,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -69,7 +69,7 @@ Response body:
 POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

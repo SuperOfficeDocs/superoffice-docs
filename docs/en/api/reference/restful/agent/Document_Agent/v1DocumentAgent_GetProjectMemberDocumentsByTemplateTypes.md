@@ -44,20 +44,19 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes?$select=na
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, StartTime, EndTime, Count, DocumentTemplateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| DocumentTemplateIds | array |  |
+| PersonId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| DocumentTemplateIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -98,17 +97,17 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 808,
-  "StartTime": "2017-05-02T02:49:44.0753838+02:00",
-  "EndTime": "1998-11-28T02:49:44.0753838+01:00",
-  "Count": 896,
+  "PersonId": 874,
+  "StartTime": "2021-10-03T17:37:17.4242446+02:00",
+  "EndTime": "2013-02-20T17:37:17.4242446+01:00",
+  "Count": 268,
   "DocumentTemplateIds": [
-    577,
-    213
+    812,
+    994
   ]
 }
 ```
@@ -121,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 202,
-    "Attention": "rem",
-    "Header": "est",
-    "Name": "Kutch-Kohler",
-    "OurRef": "voluptatem",
-    "YourRef": "qui",
-    "Description": "Synchronised explicit knowledge user",
-    "DocumentTemplate": "et",
-    "IsPublished": false,
-    "PersonId": 492,
-    "PersonFullName": "Mrs. Dina Russel III",
-    "AssociateFullName": "Katarina Marks",
-    "ContactId": 171,
-    "ContactName": "Gleichner, Wehner and Mertz",
-    "ProjectId": 654,
-    "ProjectName": "Deckow-Hessel",
-    "AssociateId": 616,
-    "Snum": 248,
-    "SaleId": 390,
-    "SaleName": "Gleichner Inc and Sons",
+    "DocumentId": 829,
+    "Attention": "doloribus",
+    "Header": "corrupti",
+    "Name": "Kerluke, Koch and Carroll",
+    "OurRef": "rem",
+    "YourRef": "aspernatur",
+    "Description": "Business-focused foreground secured line",
+    "DocumentTemplate": "laborum",
+    "IsPublished": true,
+    "PersonId": 493,
+    "PersonFullName": "Finn Neoma Osinski Jr.",
+    "AssociateFullName": "Prof. Brittany Russel",
+    "ContactId": 969,
+    "ContactName": "Rosenbaum, Feil and Barrows",
+    "ProjectId": 509,
+    "ProjectName": "Lynch-Larson",
+    "AssociateId": 929,
+    "Snum": 142,
+    "SaleId": 715,
+    "SaleName": "Hoeger, Kunde and Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 369
+        "FieldType": "System.String",
+        "FieldLength": 551
       }
     }
   }

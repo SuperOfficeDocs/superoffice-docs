@@ -25,7 +25,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=86
+POST /api/v1/Agents/List/GetCountry?countryId=459
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Country
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +74,7 @@ Response body:
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +83,7 @@ Response body:
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 343,
-  "Name": "Runolfsdottir, Parker and Cruickshank",
-  "CurrencyId": 854,
-  "EnglishName": "Donnelly, Hand and Rice",
+  "CountryId": 860,
+  "Name": "Rosenbaum Group",
+  "CurrencyId": 560,
+  "EnglishName": "Hahn, Hermiston and Kassulke",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Phased needs-based encoding",
-  "OrgNrText": "645114",
-  "InterAreaPrefix": "voluptatem",
-  "DialInPrefix": "officia",
-  "ZipPrefix": "tenetur",
-  "DomainName": "Lindgren, Gaylord and Collins",
-  "AddressLayoutId": 16,
-  "DomesticAddressLayoutId": 981,
-  "ForeignAddressLayoutId": 744,
-  "Rank": 787,
-  "Tooltip": "ea",
+  "ImageDescription": "Virtual system-worthy conglomeration",
+  "OrgNrText": "1270353",
+  "InterAreaPrefix": "non",
+  "DialInPrefix": "ut",
+  "ZipPrefix": "aut",
+  "DomainName": "Will-Pollich",
+  "AddressLayoutId": 625,
+  "DomesticAddressLayoutId": 167,
+  "ForeignAddressLayoutId": 863,
+  "Rank": 235,
+  "Tooltip": "dolores",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 230
+      "FieldType": "System.Int32",
+      "FieldLength": 232
     }
   }
 }

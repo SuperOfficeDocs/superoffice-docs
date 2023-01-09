@@ -26,7 +26,7 @@ Get the MDO list items for "ReasonStalled" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ReasonStalled/MDOItems?flat=False
-GET /api/v1/List/ReasonStalled/MDOItems?query=rerum
+GET /api/v1/List/ReasonStalled/MDOItems?query=inventore
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/ReasonStalled/MDOItems?query=rerum
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ReasonStalled/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Hoppe Group",
-    "ToolTip": "Ea delectus natus quia saepe qui molestias adipisci.",
-    "Deleted": false,
-    "Rank": 734,
-    "Type": "aut",
+    "Id": 950,
+    "Name": "Spencer LLC",
+    "ToolTip": "Corrupti cum.",
+    "Deleted": true,
+    "Rank": 228,
+    "Type": "corrupti",
     "ChildItems": [
       {
-        "Id": 252,
-        "Name": "Boehm Inc and Sons",
-        "ToolTip": "Eum amet officia deleniti est.",
+        "Id": 706,
+        "Name": "Hoppe, Jast and Willms",
+        "ToolTip": "Ut facilis corrupti.",
         "Deleted": true,
-        "Rank": 270,
-        "Type": "expedita",
+        "Rank": 551,
+        "Type": "architecto",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsa",
-        "ColorBlock": 716,
-        "ExtraInfo": "quis",
-        "StyleHint": "voluptatem",
-        "FullName": "Kaya Cremin",
+        "IconHint": "cumque",
+        "ColorBlock": 876,
+        "ExtraInfo": "et",
+        "StyleHint": "qui",
+        "FullName": "Prof. Jade Buford Conroy III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 381
+            "FieldLength": 773
           }
         }
       }
     ],
-    "IconHint": "assumenda",
-    "ColorBlock": 551,
-    "ExtraInfo": "ullam",
-    "StyleHint": "dignissimos",
-    "FullName": "Tess Mraz",
+    "IconHint": "qui",
+    "ColorBlock": 245,
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "sit",
+    "FullName": "Ms. Anastasia Mauricio Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldLength": 552
       }
     }
   }

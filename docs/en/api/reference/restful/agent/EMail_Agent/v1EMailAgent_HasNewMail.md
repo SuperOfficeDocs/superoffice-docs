@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/HasNewMail
 Fast check for new mail in the database
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/EMail/HasNewMail?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MailItemId, FolderId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MailItemId | int32 |  |
-| FolderId | int32 |  |
+| MailItemId | Integer |  |
+| FolderId | Integer |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -77,8 +74,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 7,
-  "FolderId": 148
+  "MailItemId": 835,
+  "FolderId": 107
 }
 ```
 

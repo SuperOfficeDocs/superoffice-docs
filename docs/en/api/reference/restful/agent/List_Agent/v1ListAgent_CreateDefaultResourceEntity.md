@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ResourceEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +53,7 @@ Response body:
 | Deleted | bool | If true, the resource is deleted. |
 | IsLocation | bool | If true the resource is a location |
 | LocationAddress | string | Address of location, if this is a resource that is a location |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 593,
-  "Name": "Mitchell, Wisoky and Gutmann",
-  "Rank": 953,
-  "Tooltip": "ut",
+  "ResourceId": 821,
+  "Name": "Murazik LLC",
+  "Rank": 559,
+  "Tooltip": "consequatur",
   "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "eaque",
+  "LocationAddress": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldType": "System.Int32",
+      "FieldLength": 250
     }
   }
 }

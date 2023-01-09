@@ -34,22 +34,21 @@ Calls the List agent service SaveConsentSource.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The ConsentSource to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConsentSourceId | int32 | Primary key |
-| Name | string | Name of consent source |
-| Tooltip | string | Tooltip for this consent source |
-| Rank | int32 | Rank of this consent source |
-| Key | string | The key used to uniquely identify this consent source |
-| MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
-| Deleted | bool | true if the ConsentSource is deleted |
+| ConsentSourceId | Integer | Primary key |
+| Name | String | Name of consent source |
+| Tooltip | String | Tooltip for this consent source |
+| Rank | Integer | Rank of this consent source |
+| Key | String | The key used to uniquely identify this consent source |
+| MailTemplateId | Integer | The mail template to use when automatically sending emails to new persons created with this consent source. |
+| Deleted | Boolean | true if the ConsentSource is deleted |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -57,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ConsentSource
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body:
 | Key | string | The key used to uniquely identify this consent source |
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,17 +76,17 @@ Response body:
 POST /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 687,
-  "Name": "Volkman-Watsica",
-  "Tooltip": "aliquid",
-  "Rank": 476,
-  "Key": "est",
-  "MailTemplateId": 69,
-  "Deleted": false
+  "ConsentSourceId": 916,
+  "Name": "Auer-Bernier",
+  "Tooltip": "dolore",
+  "Rank": 208,
+  "Key": "aspernatur",
+  "MailTemplateId": 171,
+  "Deleted": true
 }
 ```
 
@@ -98,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 679,
-  "Name": "Trantow, Rowe and Fahey",
-  "Tooltip": "quasi",
-  "Rank": 656,
-  "Key": "maxime",
-  "MailTemplateId": 47,
+  "ConsentSourceId": 106,
+  "Name": "Cronin LLC",
+  "Tooltip": "delectus",
+  "Rank": 261,
+  "Key": "reiciendis",
+  "MailTemplateId": 994,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 772
+      "FieldType": "System.Int32",
+      "FieldLength": 336
     }
   }
 }

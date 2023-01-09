@@ -37,7 +37,7 @@ Read a row from a table
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,12 +46,12 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: TableRecord
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Values | object | Values for the row, where the first string is the column name (e.g. x_number), and the second string is the value formatted as a DB-value, e.g. [I:42] |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,15 +71,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "quam",
-    "Values2": "ullam"
+    "Values1": "nulla",
+    "Values2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 254
     }
   }
 }

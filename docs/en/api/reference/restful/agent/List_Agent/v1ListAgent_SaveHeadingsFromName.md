@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/SaveHeadingsFromName?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name, Entities 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Entities | array |  |
+| Name | String |  |
+| Entities | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body: array
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,23 +82,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Herman, Jaskolski and Hand",
+  "Name": "Renner, Nolan and Cronin",
   "Entities": [
     {
-      "HeadingId": 722,
-      "Name": "Upton-Block",
-      "Tooltip": "blanditiis",
+      "HeadingId": 452,
+      "Name": "Kris, Cremin and Borer",
+      "Tooltip": "sunt",
       "Deleted": false,
-      "Rank": 793,
-      "UdListDefinitionId": 871
+      "Rank": 388,
+      "UdListDefinitionId": 377
     },
     {
-      "HeadingId": 722,
-      "Name": "Upton-Block",
-      "Tooltip": "blanditiis",
+      "HeadingId": 452,
+      "Name": "Kris, Cremin and Borer",
+      "Tooltip": "sunt",
       "Deleted": false,
-      "Rank": 793,
-      "UdListDefinitionId": 871
+      "Rank": 388,
+      "UdListDefinitionId": 377
     }
   ]
 }
@@ -113,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 288,
-    "Name": "Dach, Jacobson and Sauer",
-    "Tooltip": "porro",
+    "HeadingId": 48,
+    "Name": "Lockman-Marks",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "Rank": 740,
-    "UdListDefinitionId": 154,
+    "Rank": 807,
+    "UdListDefinitionId": 223,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldLength": 643
       }
     }
   }

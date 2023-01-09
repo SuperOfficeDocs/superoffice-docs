@@ -25,7 +25,7 @@ Gets a SuggestedAppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=824
+POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=804
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,depar
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SuggestedAppointmentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,10 +67,10 @@ Response body:
 | IsMilestone | bool | Is this a milestone activity |
 | AssignToMember | bool | Should this appointment be assigned to project member |
 | Text | string | The suggested text of the new appointment |
-| ProjectTypeStatusLink |  | Project type and project status link info |
-| SaleTypeStageLink |  | Sale type and stage link info |
-| Type |  | Type of the suggested appointment |
-| TableRight |  |  |
+| ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
+| SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info |
+| Type | Task | Type of the suggested appointment |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,17 +89,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 695,
-  "Name": "Fay, Pollich and Strosin",
-  "Tooltip": "itaque",
-  "Rank": 935,
+  "SuggestedAppointmentId": 580,
+  "Name": "Schaden-Hauck",
+  "Tooltip": "qui",
+  "Rank": 480,
   "Deleted": false,
-  "DaysFuture": 718,
-  "Duration": "quod",
-  "AutoSuggest": false,
+  "DaysFuture": 170,
+  "Duration": "laborum",
+  "AutoSuggest": true,
   "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "totam",
+  "Text": "saepe",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 530
     }
   }
 }

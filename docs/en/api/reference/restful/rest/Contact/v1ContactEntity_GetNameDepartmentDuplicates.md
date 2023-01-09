@@ -28,7 +28,7 @@ Get duplicates based on the contact name and department
 | department | string |  Department used for lookup (if any) |
 
 ```http
-GET /api/v1/Contact/Duplicates/{name}?department=quis
+GET /api/v1/Contact/Duplicates/{name}?department=eveniet
 ```
 
 
@@ -46,7 +46,7 @@ GET /api/v1/Contact/Duplicates/{name}?department=quis
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -54,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +63,7 @@ Response body: array
 | EntryName | string | Name of duplicate entry |
 | EntryIdentifier | string | String identifier for entry. Typically used to identify an entry in an external system. |
 | RuleDisplayName | string | Short name of rule to display to user |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Cummerata LLC",
-    "SoPrimaryKey": 648,
-    "EntryName": "Nitzsche-Kub",
-    "EntryIdentifier": "porro",
-    "RuleDisplayName": "Gibson, West and Kiehn",
+    "RuleName": "Satterfield LLC",
+    "SoPrimaryKey": 957,
+    "EntryName": "Stiedemann, Beier and Jones",
+    "EntryIdentifier": "voluptate",
+    "RuleDisplayName": "Goldner Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldType": "System.String",
+        "FieldLength": 315
       }
     }
   }

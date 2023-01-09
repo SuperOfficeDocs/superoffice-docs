@@ -42,13 +42,12 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizeList?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: windowPosSizeIds  
+## Request Body: windowPosSizeIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body: array
 | UpperY | int32 |  |
 | Width | int32 |  |
 | WindowPosSizeId | int32 |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,23 +90,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "nobis",
-    "PersonId": 805,
-    "AssociateId": 614,
-    "ExtraId": 436,
-    "ExtraInfo": "cumque",
-    "Height": 346,
-    "LeftX": 764,
+    "OwnerWindow": "est",
+    "PersonId": 726,
+    "AssociateId": 3,
+    "ExtraId": 139,
+    "ExtraInfo": "perferendis",
+    "Height": 994,
+    "LeftX": 439,
     "State": "Maximized",
-    "UpperY": 314,
-    "Width": 355,
-    "WindowPosSizeId": 542,
+    "UpperY": 363,
+    "Width": 298,
+    "WindowPosSizeId": 479,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 123
+        "FieldType": "System.Int32",
+        "FieldLength": 364
       }
     }
   }

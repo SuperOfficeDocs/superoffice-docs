@@ -48,7 +48,7 @@ GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Reichert-Dietrich",
-    "ToolTip": "Mollitia vel et non et quibusdam et.",
-    "Deleted": false,
-    "Rank": 109,
-    "Type": "dolorem",
-    "ColorBlock": 798,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2020-08-03T02:49:51.9534435+02:00",
+    "Id": 626,
+    "Name": "Bednar-Barrows",
+    "ToolTip": "Possimus dolor tempora doloremque dolores voluptas unde.",
+    "Deleted": true,
+    "Rank": 26,
+    "Type": "voluptatem",
+    "ColorBlock": 312,
+    "IconHint": "facere",
+    "Selected": true,
+    "LastChanged": "2019-09-25T17:37:39.9145014+02:00",
     "ChildItems": [
       {
-        "Id": 638,
-        "Name": "Quitzon LLC",
-        "ToolTip": "Modi quidem.",
+        "Id": 769,
+        "Name": "Rippin Inc and Sons",
+        "ToolTip": "Ullam qui doloribus.",
         "Deleted": false,
-        "Rank": 701,
-        "Type": "excepturi",
-        "ColorBlock": 55,
-        "IconHint": "autem",
+        "Rank": 459,
+        "Type": "autem",
+        "ColorBlock": 259,
+        "IconHint": "optio",
         "Selected": false,
-        "LastChanged": "2003-10-19T02:49:51.9534435+02:00",
+        "LastChanged": "1996-04-03T17:37:39.9145014+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "at",
+        "ExtraInfo": "sunt",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Ron Wuckert",
+        "FullName": "Mrs. Elaina Bahringer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 23
+            "FieldType": "System.Int32",
+            "FieldLength": 520
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "cupiditate",
-    "Hidden": true,
-    "FullName": "Concepcion Kuphal",
+    "ExtraInfo": "quo",
+    "StyleHint": "totam",
+    "Hidden": false,
+    "FullName": "Madie Stokes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 403
+        "FieldType": "System.Int32",
+        "FieldLength": 262
       }
     }
   }

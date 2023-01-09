@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Get the fields that must be filled out when creating a new ERP actor
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpConnectionId, ErpActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpConnectionId | int32 |  |
-| ErpActorType | string |  |
+| ErpConnectionId | Integer |  |
+| ErpActorType | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +75,7 @@ Response body: array
 | MaxLength | int32 | Maximum length for strings, if set. 0 means no restriction. (Though sooner or later something will no doubt overflow if you pile on the gigabytes.) |
 | Access | string | Access restrictions on the field |
 | ShowInSearch | bool | True if this field is displayed in search result |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,11 +84,11 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 561,
+  "ErpConnectionId": 270,
   "ErpActorType": "Customer"
 }
 ```
@@ -104,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "ut",
-    "Rank": 2,
-    "DisplayName": "Jenkins Group",
-    "DisplayDescription": "Optimized multi-state challenge",
+    "FieldKey": "doloremque",
+    "Rank": 563,
+    "DisplayName": "Schoen, Miller and Gerhold",
+    "DisplayDescription": "Profit-focused fresh-thinking open architecture",
     "FieldType": "Checkbox",
-    "ListName": "Fritsch Group",
-    "DefaultValue": "accusantium",
-    "MaxLength": 24,
+    "ListName": "Sauer, Hudson and Krajcik",
+    "DefaultValue": "sunt",
+    "MaxLength": 78,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 574
+        "FieldType": "System.Int32",
+        "FieldLength": 858
       }
     }
   }

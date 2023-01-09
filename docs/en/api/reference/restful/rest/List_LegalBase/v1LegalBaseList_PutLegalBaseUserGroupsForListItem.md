@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Schiller, Ledner and Heaney",
-    "ToolTip": "Debitis tempore facilis.",
-    "Deleted": true,
-    "Rank": 792,
-    "Type": "sed",
-    "ColorBlock": 887,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2010-05-27T02:49:52.2659433+02:00",
+    "Id": 957,
+    "Name": "Stanton-Botsford",
+    "ToolTip": "Eius omnis similique esse impedit aliquam.",
+    "Deleted": false,
+    "Rank": 580,
+    "Type": "ipsam",
+    "ColorBlock": 404,
+    "IconHint": "iste",
+    "Selected": true,
+    "LastChanged": "2021-11-10T17:37:40.0375003+01:00",
     "ChildItems": [
       {
-        "Id": 707,
-        "Name": "Bogan-Mann",
-        "ToolTip": "Quasi eos velit ipsa incidunt autem quae in.",
+        "Id": 956,
+        "Name": "Vandervort Inc and Sons",
+        "ToolTip": "Maiores quia ea magni ipsam.",
         "Deleted": true,
-        "Rank": 230,
-        "Type": "itaque",
-        "ColorBlock": 120,
-        "IconHint": "quae",
-        "Selected": true,
-        "LastChanged": "1997-05-22T02:49:52.2659433+02:00",
+        "Rank": 168,
+        "Type": "et",
+        "ColorBlock": 995,
+        "IconHint": "mollitia",
+        "Selected": false,
+        "LastChanged": "1997-02-07T17:37:40.0375003+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "quos",
-        "Hidden": true,
-        "FullName": "Piper Kohler"
+        "ExtraInfo": "fuga",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Mr. Curtis Buckridge IV"
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "est",
+    "ExtraInfo": "illum",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Burnice Parker"
+    "FullName": "Yasmine Hessel"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Gottlieb, Schulist and Koch",
-    "ToolTip": "Minus adipisci a totam dolore.",
-    "Deleted": false,
-    "Rank": 219,
-    "Type": "exercitationem",
-    "ColorBlock": 691,
-    "IconHint": "nulla",
-    "Selected": true,
-    "LastChanged": "2012-10-17T02:49:52.2659433+02:00",
+    "Id": 180,
+    "Name": "Jacobi-Leuschke",
+    "ToolTip": "Et quos.",
+    "Deleted": true,
+    "Rank": 474,
+    "Type": "ea",
+    "ColorBlock": 1001,
+    "IconHint": "odit",
+    "Selected": false,
+    "LastChanged": "2021-11-23T17:37:40.0385033+01:00",
     "ChildItems": [
       {
-        "Id": 558,
-        "Name": "Fahey Inc and Sons",
-        "ToolTip": "Suscipit vitae numquam.",
+        "Id": 222,
+        "Name": "Pollich Inc and Sons",
+        "ToolTip": "Enim enim et exercitationem delectus eos.",
         "Deleted": false,
-        "Rank": 792,
-        "Type": "voluptatum",
-        "ColorBlock": 400,
-        "IconHint": "blanditiis",
+        "Rank": 871,
+        "Type": "cum",
+        "ColorBlock": 368,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2020-06-09T02:49:52.2659433+02:00",
+        "LastChanged": "2011-05-23T17:37:40.0395012+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "laboriosam",
-        "Hidden": false,
-        "FullName": "Ms. Marley Bruen",
+        "ExtraInfo": "est",
+        "StyleHint": "vitae",
+        "Hidden": true,
+        "FullName": "Prof. Alayna Maybelle Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 783
+            "FieldLength": 416
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "eaque",
+    "ExtraInfo": "iste",
+    "StyleHint": "fuga",
     "Hidden": false,
-    "FullName": "Mr. Twila Kody Farrell Sr.",
+    "FullName": "Mrs. Jeramy Doyle Kessler V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 318
+        "FieldType": "System.Int32",
+        "FieldLength": 961
       }
     }
   }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/Person/CheckTemporaryKey?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TemporaryKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TemporaryKey | string |  |
+| TemporaryKey | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TemporaryKeyInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +66,7 @@ Response body:
 | TargetId | int32 | The primary key of the entity this temporary key is for, dependent of dmain |
 | PersonId | int32 | The person id this key is related to. May be null. |
 | IsExpired | bool | Whether the key is expired or not. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,11 +75,11 @@ Response body:
 POST /api/v1/Agents/Person/CheckTemporaryKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemporaryKey": "rerum"
+  "TemporaryKey": "facilis"
 }
 ```
 
@@ -92,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 470,
-  "PersonId": 148,
+  "TargetId": 254,
+  "PersonId": 198,
   "IsExpired": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldLength": 792
     }
   }
 }

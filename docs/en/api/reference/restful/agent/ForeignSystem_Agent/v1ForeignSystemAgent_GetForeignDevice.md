@@ -25,7 +25,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=570
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=121
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,categ
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignDevice
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body:
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,21 +84,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 862,
-  "Name": "Ankunding Group",
-  "CreatedDate": "2011-01-14T02:49:44.561046+01:00",
-  "UpdatedDate": "2017-12-01T02:49:44.561046+01:00",
-  "AssociateFullName": "Julio Kulas",
-  "CreatedBy": "dicta",
-  "UpdatedBy": "temporibus",
-  "DeviceIdentifier": "facilis",
-  "ForeignAppId": 26,
+  "ForeignDeviceId": 71,
+  "Name": "Hills Inc and Sons",
+  "CreatedDate": "2008-08-07T17:37:18.1102411+02:00",
+  "UpdatedDate": "2013-08-08T17:37:18.1102411+02:00",
+  "AssociateFullName": "Aron Wuckert",
+  "CreatedBy": "et",
+  "UpdatedBy": "possimus",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 337,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 258
+      "FieldLength": 913
     }
   }
 }

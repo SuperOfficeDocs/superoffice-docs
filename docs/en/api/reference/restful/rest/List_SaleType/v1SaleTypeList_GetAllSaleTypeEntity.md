@@ -44,7 +44,7 @@ GET /api/v1/List/SaleType/Items?includeDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +78,7 @@ Response body: array
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 750,
-    "Name": "Cartwright LLC",
-    "Tooltip": "quia",
-    "Rank": 840,
+    "SaleTypeId": 724,
+    "Name": "Legros LLC",
+    "Tooltip": "labore",
+    "Rank": 239,
     "DurationUnit": "Century",
-    "SaleDuration": 138,
-    "SaleTypeCatId": 292,
-    "Deleted": false,
+    "SaleDuration": 529,
+    "SaleTypeCatId": 318,
+    "Deleted": true,
     "HasGuide": false,
-    "HasStakeholders": false,
+    "HasStakeholders": true,
     "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 301,
-    "QuoteLinesTemplate": 417,
-    "ConfirmationLinesTemplate": 187,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 136,
+    "QuoteLinesTemplate": 892,
+    "ConfirmationLinesTemplate": 624,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 803,
-    "MinEarningPercent": 14,
-    "GroupQuoteLinesBy": 869,
-    "SortGroupLinesBy": 439,
+    "MaxDiscountPercent": 420,
+    "MinEarningPercent": 546,
+    "GroupQuoteLinesBy": 484,
+    "SortGroupLinesBy": 612,
     "Stages": [
       {
-        "Id": 417,
-        "Name": "Pfannerstill-Ruecker",
-        "ToolTip": "Sint porro ut.",
+        "Id": 176,
+        "Name": "Bahringer-Waelchi",
+        "ToolTip": "Inventore est aut ipsa similique facilis aspernatur.",
         "Deleted": false,
-        "Rank": 670,
-        "Type": "perferendis",
-        "ColorBlock": 956,
-        "IconHint": "facilis",
+        "Rank": 663,
+        "Type": "reiciendis",
+        "ColorBlock": 284,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "2009-03-22T02:49:52.5003264+01:00",
+        "LastChanged": "2009-05-26T17:37:40.3295006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "ullam",
+        "ExtraInfo": "in",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Idella Schumm Jr.",
+        "FullName": "Shaina Osinski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 163
+            "FieldLength": 992
           }
         }
       }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldLength": 799
       }
     }
   }

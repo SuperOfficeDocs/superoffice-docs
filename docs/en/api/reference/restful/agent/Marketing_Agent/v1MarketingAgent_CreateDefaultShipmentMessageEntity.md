@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ShipmentMessageEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +67,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 297,
-  "PlainMessage": "eos",
-  "HtmlMessage": "sequi",
-  "SmsMessage": "dignissimos",
-  "Description": "Universal secondary focus group",
-  "Subject": "blanditiis",
-  "FolderId": 49,
-  "HeaderField": "et",
-  "Design": "accusamus",
+  "ShipmentMessageId": 574,
+  "PlainMessage": "doloremque",
+  "HtmlMessage": "expedita",
+  "SmsMessage": "distinctio",
+  "Description": "Diverse hybrid adapter",
+  "Subject": "et",
+  "FolderId": 847,
+  "HeaderField": "quibusdam",
+  "Design": "recusandae",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Ameliorated multimedia framework",
-  "AccessKey": "harum",
-  "DocumentMessage": 942,
-  "Registered": "2021-07-23T02:49:44.7172985+02:00",
-  "RegisteredAssociateId": 32,
-  "Updated": "2002-02-28T02:49:44.7172985+01:00",
-  "UpdatedAssociateId": 87,
-  "UpdatedCount": 176,
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Ergonomic mobile contingency",
+  "AccessKey": "culpa",
+  "DocumentMessage": 789,
+  "Registered": "2000-01-23T17:37:18.3192412+01:00",
+  "RegisteredAssociateId": 39,
+  "Updated": "2003-11-02T17:37:18.3192412+01:00",
+  "UpdatedAssociateId": 977,
+  "UpdatedCount": 373,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 499
     }
   }
 }

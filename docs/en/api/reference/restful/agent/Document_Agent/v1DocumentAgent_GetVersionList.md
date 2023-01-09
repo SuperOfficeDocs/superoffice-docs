@@ -42,16 +42,15 @@ POST /api/v1/Agents/Document/GetVersionList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
+| DocumentId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 474
+  "DocumentId": 191
 }
 ```
 
@@ -95,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "minima",
-    "DocumentId": 794,
-    "VersionId": "et",
-    "CheckedInDate": "2006-12-02T02:49:44.1847858+01:00",
-    "CheckedInByName": "Bauch-Towne",
-    "CheckedInByAssociateId": 140,
-    "Description": "Devolved 24 hour adapter",
-    "DisplayText": "ullam",
+    "ExternalReference": "non",
+    "DocumentId": 939,
+    "VersionId": "sit",
+    "CheckedInDate": "2014-10-02T17:37:17.5692462+02:00",
+    "CheckedInByName": "Sporer-Robel",
+    "CheckedInByAssociateId": 778,
+    "Description": "Balanced context-sensitive intranet",
+    "DisplayText": "aut",
     "ExtraFields": [
-      "asperiores",
-      "fuga"
+      "amet",
+      "et"
     ]
   }
 ]

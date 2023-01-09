@@ -44,17 +44,16 @@ POST /api/v1/Agents/Archive/GetArchiveConfiguration?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 GuiName, ProviderName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| GuiName | string |  |
-| ProviderName | string |  |
+| GuiName | String |  |
+| ProviderName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ArchiveConfiguration
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body:
 | ArchiveEntityInfo | array |  |
 | ArchiveOrderByInfo | array |  |
 | OwnerKeys | string | The actual ownership information for the configuration that was retrieved |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,12 +78,12 @@ Response body:
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kling-Hills",
-  "ProviderName": "Trantow Group"
+  "GuiName": "Brekke-Dach",
+  "ProviderName": "Altenwerth-Denesik"
 }
 ```
 
@@ -97,68 +96,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Hammes-Goyette",
-      "DisplayTooltip": "eum",
-      "DisplayType": "amet",
-      "CanOrderBy": true,
-      "Name": "Herman LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "nisi",
-      "RestrictionListName": "Langosh LLC",
-      "IsVisible": false,
-      "ExtraInfo": "rerum",
-      "Width": "nulla",
-      "IconHint": "quis",
-      "HeadingIconHint": "fuga"
+      "DisplayName": "Donnelly Inc and Sons",
+      "DisplayTooltip": "dolores",
+      "DisplayType": "voluptatibus",
+      "CanOrderBy": false,
+      "Name": "Gerlach, Crona and Flatley",
+      "CanRestrictBy": false,
+      "RestrictionType": "magni",
+      "RestrictionListName": "Schiller-Littel",
+      "IsVisible": true,
+      "ExtraInfo": "occaecati",
+      "Width": "quis",
+      "IconHint": "minima",
+      "HeadingIconHint": "consequuntur"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 158,
-      "Name": "Kemmer Inc and Sons",
-      "ToolTip": "Laboriosam consectetur dolore optio aliquid.",
+      "Id": 721,
+      "Name": "Prosacco-Kshlerin",
+      "ToolTip": "Rerum cumque.",
       "Deleted": false,
-      "Rank": 156,
-      "Type": "sunt",
-      "ColorBlock": 24,
-      "IconHint": "vel",
-      "Selected": false,
-      "LastChanged": "2014-03-18T02:49:43.6535327+01:00",
+      "Rank": 873,
+      "Type": "dolor",
+      "ColorBlock": 654,
+      "IconHint": "consequuntur",
+      "Selected": true,
+      "LastChanged": "1999-02-16T17:37:16.6152449+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolor",
-      "StyleHint": "voluptatum",
-      "Hidden": true,
-      "FullName": "Joelle Daniel",
+      "ExtraInfo": "ab",
+      "StyleHint": "aliquam",
+      "Hidden": false,
+      "FullName": "Ryder Rutherford",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldLength": 324
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Bruen-Ryan",
+      "Name": "Mante-Muller",
       "Direction": "ASC"
     },
     {
-      "Name": "Bruen-Ryan",
+      "Name": "Mante-Muller",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "omnis",
+  "OwnerKeys": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldLength": 16
     }
   }
 }

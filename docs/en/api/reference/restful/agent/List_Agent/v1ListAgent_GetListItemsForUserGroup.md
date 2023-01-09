@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/GetListItemsForUserGroup?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionId, GroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionId | int32 |  |
-| GroupId | int32 |  |
+| UdListDefinitionId | Integer |  |
+| GroupId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,12 +87,12 @@ Response body: array
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 132,
-  "GroupId": 927
+  "UdListDefinitionId": 193,
+  "GroupId": 529
 }
 ```
 
@@ -105,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 629,
-    "Name": "Gusikowski Inc and Sons",
-    "ToolTip": "Qui delectus.",
-    "Deleted": false,
-    "Rank": 680,
-    "Type": "suscipit",
-    "ColorBlock": 928,
-    "IconHint": "fuga",
-    "Selected": true,
-    "LastChanged": "2020-04-01T02:49:44.6235457+02:00",
+    "Id": 842,
+    "Name": "Kunde Inc and Sons",
+    "ToolTip": "Maxime doloremque eum.",
+    "Deleted": true,
+    "Rank": 818,
+    "Type": "natus",
+    "ColorBlock": 930,
+    "IconHint": "sequi",
+    "Selected": false,
+    "LastChanged": "2000-04-11T17:37:18.2012465+02:00",
     "ChildItems": [
       {
-        "Id": 545,
-        "Name": "Walsh Group",
-        "ToolTip": "Ipsum at et aut asperiores nesciunt dolores aut.",
+        "Id": 725,
+        "Name": "Wunsch, Heller and Toy",
+        "ToolTip": "Et cupiditate vel nisi dolor impedit.",
         "Deleted": false,
-        "Rank": 724,
-        "Type": "temporibus",
-        "ColorBlock": 502,
-        "IconHint": "qui",
+        "Rank": 161,
+        "Type": "necessitatibus",
+        "ColorBlock": 149,
+        "IconHint": "consequuntur",
         "Selected": true,
-        "LastChanged": "2007-10-06T02:49:44.6235457+02:00",
+        "LastChanged": "2003-03-13T17:37:18.2012465+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "totam",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Nicholaus Orn",
+        "FullName": "Damaris Strosin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 745
+            "FieldType": "System.Int32",
+            "FieldLength": 227
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "harum",
-    "Hidden": false,
-    "FullName": "Mrs. Napoleon Hyatt II",
+    "ExtraInfo": "quidem",
+    "StyleHint": "odit",
+    "Hidden": true,
+    "FullName": "Prof. Freddie Rodriguez DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 574
+        "FieldLength": 602
       }
     }
   }

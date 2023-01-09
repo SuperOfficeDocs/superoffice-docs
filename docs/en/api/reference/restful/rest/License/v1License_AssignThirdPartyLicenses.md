@@ -37,13 +37,12 @@ Assign third party licenses
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: moduleLicenseNames  
+## Request Body: moduleLicenseNames 
 
 Name of module licenses to assign 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -51,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body: array
 | PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
 | SortOrder | int32 | Sort order of licenses. |
 | ExtraFlags | int32 | License flags. 1 = user plan |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,26 +88,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 728,
-    "Tooltip": "commodi",
+    "Unrestricted": false,
+    "Total": 8,
+    "Tooltip": "voluptas",
     "CanAssign": false,
-    "Free": 887,
-    "InUse": 972,
+    "Free": 571,
+    "InUse": 865,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 212,
-    "Name": "Pollich Group",
-    "Description": "Multi-layered static function",
-    "PrerequisiteModuleName": "Metz Inc and Sons",
-    "SortOrder": 928,
-    "ExtraFlags": 261,
+    "ModuleLicenseId": 489,
+    "Name": "Murazik LLC",
+    "Description": "De-engineered demand-driven contingency",
+    "PrerequisiteModuleName": "Kulas Group",
+    "SortOrder": 389,
+    "ExtraFlags": 647,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldType": "System.String",
+        "FieldLength": 128
       }
     }
   }

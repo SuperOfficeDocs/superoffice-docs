@@ -25,8 +25,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=et
+GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?query=dolore
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/DeliveryType/MDOItems?query=et
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "Vandervort Group",
-    "ToolTip": "Molestias eius est ipsa nam ut explicabo magnam.",
+    "Id": 589,
+    "Name": "Rohan-Heaney",
+    "ToolTip": "Sed sint enim fuga vel quis sed dolore.",
     "Deleted": false,
-    "Rank": 682,
-    "Type": "ut",
+    "Rank": 464,
+    "Type": "odio",
     "ChildItems": [
       {
-        "Id": 34,
-        "Name": "Towne, Bradtke and Cummerata",
-        "ToolTip": "Voluptates nisi.",
-        "Deleted": false,
-        "Rank": 881,
-        "Type": "reprehenderit",
+        "Id": 442,
+        "Name": "Labadie LLC",
+        "ToolTip": "Consequuntur magni debitis voluptates sint quidem tenetur blanditiis.",
+        "Deleted": true,
+        "Rank": 328,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aspernatur",
-        "ColorBlock": 76,
-        "ExtraInfo": "nemo",
-        "StyleHint": "quo",
-        "FullName": "Miss Elisha Elyssa Hauck",
+        "IconHint": "officia",
+        "ColorBlock": 99,
+        "ExtraInfo": "adipisci",
+        "StyleHint": "earum",
+        "FullName": "Brandyn Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 896
+            "FieldType": "System.Int32",
+            "FieldLength": 934
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 923,
-    "ExtraInfo": "omnis",
-    "StyleHint": "est",
-    "FullName": "Kurtis Feil",
+    "IconHint": "natus",
+    "ColorBlock": 527,
+    "ExtraInfo": "qui",
+    "StyleHint": "vero",
+    "FullName": "Oleta Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldLength": 162
       }
     }
   }

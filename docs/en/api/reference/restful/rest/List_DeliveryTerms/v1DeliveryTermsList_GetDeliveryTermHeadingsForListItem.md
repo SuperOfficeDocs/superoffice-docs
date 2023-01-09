@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 280,
-    "Name": "Mertz LLC",
-    "ToolTip": "Aut reprehenderit omnis harum.",
-    "Deleted": false,
-    "Rank": 102,
-    "Type": "et",
-    "ColorBlock": 218,
-    "IconHint": "repellendus",
+    "Id": 204,
+    "Name": "Corkery, Blick and Jaskolski",
+    "ToolTip": "Fugit quae ullam praesentium corrupti nihil.",
+    "Deleted": true,
+    "Rank": 693,
+    "Type": "corrupti",
+    "ColorBlock": 135,
+    "IconHint": "maiores",
     "Selected": false,
-    "LastChanged": "2015-12-02T02:49:52.2190678+01:00",
+    "LastChanged": "1996-05-03T17:37:39.9844712+02:00",
     "ChildItems": [
       {
-        "Id": 964,
-        "Name": "Schoen, Barton and Halvorson",
-        "ToolTip": "Quam ea atque atque rerum.",
+        "Id": 131,
+        "Name": "Berge-Hudson",
+        "ToolTip": "Animi laboriosam laborum.",
         "Deleted": true,
-        "Rank": 807,
-        "Type": "mollitia",
-        "ColorBlock": 512,
-        "IconHint": "placeat",
-        "Selected": false,
-        "LastChanged": "2003-10-01T02:49:52.2190678+02:00",
+        "Rank": 511,
+        "Type": "architecto",
+        "ColorBlock": 740,
+        "IconHint": "culpa",
+        "Selected": true,
+        "LastChanged": "1998-07-24T17:37:39.9854698+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "tempore",
+        "StyleHint": "nulla",
         "Hidden": false,
-        "FullName": "Anastasia Marquardt",
+        "FullName": "Mrs. Russ Dax Schaden DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 737
+            "FieldType": "System.Int32",
+            "FieldLength": 202
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "eaque",
-    "Hidden": false,
-    "FullName": "Aisha Maureen Orn III",
+    "ExtraInfo": "non",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Pearl Rogahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 5
+        "FieldType": "System.Int32",
+        "FieldLength": 562
       }
     }
   }

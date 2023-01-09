@@ -42,18 +42,17 @@ POST /api/v1/Agents/Sale/GetSummaryByContact?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, FromDate, ToDate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| FromDate | date-time |  |
-| ToDate | date-time |  |
+| ContactId | Integer |  |
+| FromDate | String |  |
+| ToDate | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaleSummary
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,7 +92,7 @@ Response body:
 | FutureOpenTotalOwnCurrency | double | Summed amount for all Future Pipe/All open sales with date after the period in default currency for the current user |
 | FutureOpenWeightedBaseCurrency | double | Weighted sum for all Future Pipe/All open sales with date after the period in default currency for the installation |
 | FutureOpenWeightedOwnCurrency | double | Weighted sum for all Future Pipe/All open sales with date after the period in default currency for the current user |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,13 +101,13 @@ Response body:
 POST /api/v1/Agents/Sale/GetSummaryByContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 112,
-  "FromDate": "2002-10-05T02:49:45.155965+02:00",
-  "ToDate": "2010-02-11T02:49:45.155965+01:00"
+  "ContactId": 894,
+  "FromDate": "2003-08-30T17:37:18.9082419+02:00",
+  "ToDate": "2006-03-05T17:37:18.9082419+01:00"
 }
 ```
 
@@ -119,40 +118,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BaseCurrency": "aut",
-  "OwnCurrency": "nihil",
-  "SoldTotalBaseCurrency": 7618.754,
-  "Sold": 889,
-  "SoldTotalOwnCurrency": 12981.028,
-  "Lost": 514,
-  "LostTotalBaseCurrency": 19001.442,
-  "LostTotalOwnCurrency": 26645.268,
-  "Open": 425,
-  "OpenTotalBaseCurrency": 17540.998,
-  "OpenTotalOwnCurrency": 19675.252,
-  "OpenWeightedBaseCurrency": 1845.926,
-  "OpenWeightedOwnCurrency": 22032.02,
-  "PreviousOverdue": 586,
-  "PreviousOverdueTotalBaseCurrency": 22232.595999999998,
-  "PreviousOverdueTotalOwnCurrency": 24464.004,
-  "PreviousOverdueWeightedBaseCurrency": 13112.655999999999,
-  "PreviousOverdueWeightedOwnCurrency": 128.494,
-  "CurrentOverdue": 592,
-  "CurrentOverdueTotalBaseCurrency": 9364.392,
-  "CurrentOverdueTotalOwnCurrency": 8587.16,
-  "CurrentOverdueWeightedBaseCurrency": 25858.634,
-  "CurrentOverdueWeightedOwnCurrency": 12291.547999999999,
-  "FutureOpen": 92,
-  "FutureOpenTotalBaseCurrency": 24909.032,
-  "FutureOpenTotalOwnCurrency": 5788.498,
-  "FutureOpenWeightedBaseCurrency": 18775.793999999998,
-  "FutureOpenWeightedOwnCurrency": 9354.99,
+  "BaseCurrency": "suscipit",
+  "OwnCurrency": "officia",
+  "SoldTotalBaseCurrency": 24564.291999999998,
+  "Sold": 722,
+  "SoldTotalOwnCurrency": 10812.3,
+  "Lost": 166,
+  "LostTotalBaseCurrency": 10038.202,
+  "LostTotalOwnCurrency": 13510.673999999999,
+  "Open": 269,
+  "OpenTotalBaseCurrency": 26350.672,
+  "OpenTotalOwnCurrency": 9433.34,
+  "OpenWeightedBaseCurrency": 17757.244,
+  "OpenWeightedOwnCurrency": 24404.458,
+  "PreviousOverdue": 561,
+  "PreviousOverdueTotalBaseCurrency": 24282.232,
+  "PreviousOverdueTotalOwnCurrency": 11667.882,
+  "PreviousOverdueWeightedBaseCurrency": 26400.816,
+  "PreviousOverdueWeightedOwnCurrency": 21630.868,
+  "CurrentOverdue": 179,
+  "CurrentOverdueTotalBaseCurrency": 15297.054,
+  "CurrentOverdueTotalOwnCurrency": 6224.124,
+  "CurrentOverdueWeightedBaseCurrency": 19292.904,
+  "CurrentOverdueWeightedOwnCurrency": 14068.526,
+  "FutureOpen": 622,
+  "FutureOpenTotalBaseCurrency": 29168.138,
+  "FutureOpenTotalOwnCurrency": 13654.838,
+  "FutureOpenWeightedBaseCurrency": 9439.608,
+  "FutureOpenWeightedOwnCurrency": 17475.184,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldType": "System.Int32",
+      "FieldLength": 657
     }
   }
 }

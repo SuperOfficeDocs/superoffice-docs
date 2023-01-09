@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetEMailSOInfo
 Gets a EMailSOInfo object.
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -29,7 +27,7 @@ Gets a EMailSOInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=617
+POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=395
 POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 ```
 
@@ -48,7 +46,7 @@ POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailSOInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +66,7 @@ Response body:
 | ArchivedAt | date-time | The datetime when this email was archived |
 | ArchivedBy | int32 | The associate who archived this email |
 | ArchivedDisplayName | string | The full name of the associate who archived this email |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,20 +85,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 991,
-  "AppointmentId": 587,
-  "ProjectId": 292,
-  "SaleId": 127,
-  "Archived": true,
-  "ArchivedAt": "2014-03-29T02:49:44.403542+01:00",
-  "ArchivedBy": 885,
-  "ArchivedDisplayName": "Stamm-Morar",
+  "DocumentId": 630,
+  "AppointmentId": 926,
+  "ProjectId": 403,
+  "SaleId": 644,
+  "Archived": false,
+  "ArchivedAt": "2019-07-20T17:37:17.9032443+02:00",
+  "ArchivedBy": 543,
+  "ArchivedDisplayName": "Gaylord Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 997
+      "FieldLength": 568
     }
   }
 }

@@ -42,7 +42,7 @@ POST /api/v1/Agents/Contact/GetDuplicateRules?$select=name,department,category/i
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +58,7 @@ Response body: array
 | DisplayName | string | Short name of rule to display to user |
 | DisplayTooltip | string | Description of the rule |
 | IsActive | bool | Indicating if a rule is current active, and should included in the duplicate detection |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -67,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/Contact/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Leannon Inc and Sons",
-    "DisplayName": "Dickinson, Witting and Hilpert",
-    "DisplayTooltip": "atque",
-    "IsActive": false,
+    "Name": "Rohan LLC",
+    "DisplayName": "Ernser-Leuschke",
+    "DisplayTooltip": "maxime",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 281
       }
     }
   },
   {
-    "Name": "Leannon Inc and Sons",
-    "DisplayName": "Dickinson, Witting and Hilpert",
-    "DisplayTooltip": "atque",
-    "IsActive": false,
+    "Name": "Rohan LLC",
+    "DisplayName": "Ernser-Leuschke",
+    "DisplayTooltip": "maxime",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 281
       }
     }
   }

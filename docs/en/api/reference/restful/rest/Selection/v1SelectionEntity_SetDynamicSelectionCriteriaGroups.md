@@ -38,19 +38,18 @@ Replaces existing criteria with the new values. This call supports multiple crit
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: criteria  
+## Request Body: criteria 
 
 Criteria groups defining the selection result. Empty array is legal, simply means no criteria have been set 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Description | string |  |
-| Rank | int32 |  |
-| Restrictions | array |  |
+| Name | String |  |
+| Description | String |  |
+| Rank | Integer |  |
+| Restrictions | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -58,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,25 +72,25 @@ Response body: array
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Russel, Mann and Farrell",
-    "Description": "Cloned encompassing forecast",
-    "Rank": 290,
+    "Name": "Mills LLC",
+    "Description": "Enhanced client-server open architecture",
+    "Rank": 504,
     "Restrictions": [
       {
-        "Name": "Gleason-Hills",
-        "Operator": "at",
+        "Name": "Turner LLC",
+        "Operator": "nesciunt",
         "Values": [
-          "dolor",
-          "possimus"
+          "sed",
+          "sit"
         ],
         "DisplayValues": [
-          "magnam",
-          "odio"
+          "quo",
+          "explicabo"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -99,27 +98,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 723,
+        "InterParenthesis": 147,
         "InterOperator": "And",
-        "UniqueHash": 869
+        "UniqueHash": 30
       }
     ]
   },
   {
-    "Name": "Russel, Mann and Farrell",
-    "Description": "Cloned encompassing forecast",
-    "Rank": 290,
+    "Name": "Mills LLC",
+    "Description": "Enhanced client-server open architecture",
+    "Rank": 504,
     "Restrictions": [
       {
-        "Name": "Gleason-Hills",
-        "Operator": "at",
+        "Name": "Turner LLC",
+        "Operator": "nesciunt",
         "Values": [
-          "dolor",
-          "possimus"
+          "sed",
+          "sit"
         ],
         "DisplayValues": [
-          "magnam",
-          "odio"
+          "quo",
+          "explicabo"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -127,9 +126,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 723,
+        "InterParenthesis": 147,
         "InterOperator": "And",
-        "UniqueHash": 869
+        "UniqueHash": 30
       }
     ]
   }
@@ -144,20 +143,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Corwin, Goodwin and Wisozk",
-    "Description": "Stand-alone transitional throughput",
-    "Rank": 543,
+    "Name": "Johns, Stanton and Carroll",
+    "Description": "Optimized empowering benchmark",
+    "Rank": 827,
     "Restrictions": [
       {
-        "Name": "Pacocha, Jenkins and Harvey",
-        "Operator": "vitae",
+        "Name": "Keeling-Dietrich",
+        "Operator": "sint",
         "Values": [
-          "sint",
-          "qui"
+          "et",
+          "enim"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "qui"
+          "ut",
+          "neque"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -165,27 +164,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 381,
+        "InterParenthesis": 995,
         "InterOperator": "And",
-        "UniqueHash": 687
+        "UniqueHash": 410
       }
     ]
   },
   {
-    "Name": "Corwin, Goodwin and Wisozk",
-    "Description": "Stand-alone transitional throughput",
-    "Rank": 543,
+    "Name": "Johns, Stanton and Carroll",
+    "Description": "Optimized empowering benchmark",
+    "Rank": 827,
     "Restrictions": [
       {
-        "Name": "Pacocha, Jenkins and Harvey",
-        "Operator": "vitae",
+        "Name": "Keeling-Dietrich",
+        "Operator": "sint",
         "Values": [
-          "sint",
-          "qui"
+          "et",
+          "enim"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "qui"
+          "ut",
+          "neque"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -193,9 +192,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 381,
+        "InterParenthesis": 995,
         "InterOperator": "And",
-        "UniqueHash": 687
+        "UniqueHash": 410
       }
     ]
   }

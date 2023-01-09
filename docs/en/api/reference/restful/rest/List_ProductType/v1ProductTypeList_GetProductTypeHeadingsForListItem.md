@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 720,
-    "Name": "Nicolas-Breitenberg",
-    "ToolTip": "Qui et fugiat autem nobis fugiat.",
+    "Id": 813,
+    "Name": "Rowe, Marvin and Emard",
+    "ToolTip": "Minus quisquam ratione veritatis omnis blanditiis ea qui.",
     "Deleted": false,
-    "Rank": 288,
-    "Type": "natus",
-    "ColorBlock": 850,
-    "IconHint": "voluptate",
-    "Selected": false,
-    "LastChanged": "2013-07-22T02:49:52.3753234+02:00",
+    "Rank": 903,
+    "Type": "sunt",
+    "ColorBlock": 219,
+    "IconHint": "fugiat",
+    "Selected": true,
+    "LastChanged": "2014-10-01T17:37:40.1844706+02:00",
     "ChildItems": [
       {
-        "Id": 216,
-        "Name": "Welch LLC",
-        "ToolTip": "Praesentium est sed vitae.",
-        "Deleted": false,
-        "Rank": 730,
-        "Type": "consectetur",
-        "ColorBlock": 257,
-        "IconHint": "ut",
+        "Id": 791,
+        "Name": "Brekke, Russel and Fadel",
+        "ToolTip": "Tenetur ut.",
+        "Deleted": true,
+        "Rank": 313,
+        "Type": "nesciunt",
+        "ColorBlock": 752,
+        "IconHint": "iste",
         "Selected": true,
-        "LastChanged": "2001-06-13T02:49:52.3753234+02:00",
+        "LastChanged": "2015-11-01T17:37:40.1844706+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "repellat",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Nikita Funk",
+        "FullName": "Bruce Armstrong",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 153
+            "FieldLength": 936
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "velit",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Mrs. Wiley Stevie Bechtelar",
+    "FullName": "Mrs. Hugh Brandyn Jones",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldLength": 621
       }
     }
   }

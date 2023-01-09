@@ -38,17 +38,16 @@ POST /api/v1/Agents/Saint/SetRankOnStatusMonitors?$select=name,department,catego
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Type, ItemsIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Type | string |  |
-| ItemsIds | array |  |
+| Type | String |  |
+| ItemsIds | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,14 +64,14 @@ Response body:
 POST /api/v1/Agents/Saint/SetRankOnStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "et",
+  "Type": "praesentium",
   "ItemsIds": [
-    30,
-    773
+    364,
+    309
   ]
 }
 ```

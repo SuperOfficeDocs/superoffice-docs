@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Get recurrence data contained in the email iCal attachment
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MailItemId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MailItemId | int32 |  |
+| MailItemId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,10 +70,10 @@ Response body:
 | RecurrenceCounter | int32 |  |
 | RecurrenceEndType | string |  |
 | Pattern | string |  |
-| DayPattern |  |  |
-| WeekPattern |  |  |
-| MonthPattern |  |  |
-| YearPattern |  |  |
+| DayPattern | TableRight |  |
+| WeekPattern | TableRight |  |
+| MonthPattern | TableRight |  |
+| YearPattern | TableRight |  |
 | Dates | array |  |
 | IsRecurrence | bool |  |
 
@@ -86,11 +83,11 @@ Response body:
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 968
+  "MailItemId": 164
 }
 ```
 
@@ -101,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 115,
-  "StartDate": "2017-07-28T02:49:44.3878864+02:00",
-  "EndDate": "2013-10-10T02:49:44.3878864+02:00",
-  "RecurrenceCounter": 510,
+  "RecurrenceId": 720,
+  "StartDate": "2013-07-30T17:37:17.8972444+02:00",
+  "EndDate": "2006-02-20T17:37:17.8972444+01:00",
+  "RecurrenceCounter": 159,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -113,20 +110,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2007-02-23T02:49:44.3878864+01:00",
-      "IsConflict": false,
-      "Description": "Virtual 24/7 middleware",
-      "DescriptionStyleHint": "Multi-channelled modular complexity",
-      "Tooltip": "autem"
+      "Date": "2006-02-21T17:37:17.8972444+01:00",
+      "IsConflict": true,
+      "Description": "Upgradable radical product",
+      "DescriptionStyleHint": "Managed fresh-thinking local area network",
+      "Tooltip": "aut"
     },
     {
-      "Date": "2007-02-23T02:49:44.3878864+01:00",
-      "IsConflict": false,
-      "Description": "Virtual 24/7 middleware",
-      "DescriptionStyleHint": "Multi-channelled modular complexity",
-      "Tooltip": "autem"
+      "Date": "2006-02-21T17:37:17.8972444+01:00",
+      "IsConflict": true,
+      "Description": "Upgradable radical product",
+      "DescriptionStyleHint": "Managed fresh-thinking local area network",
+      "Tooltip": "aut"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 48,
-    "Name": "Kris-Runolfsson",
-    "ToolTip": "Sint et veniam tenetur quo facere cumque est.",
-    "Deleted": true,
-    "Rank": 407,
-    "Type": "minus",
-    "ColorBlock": 392,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "1999-05-20T02:49:52.2034402+02:00",
+    "Id": 786,
+    "Name": "Stroman-Hirthe",
+    "ToolTip": "Hic atque deserunt voluptatem velit.",
+    "Deleted": false,
+    "Rank": 747,
+    "Type": "et",
+    "ColorBlock": 265,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2000-01-23T17:37:39.9595063+01:00",
     "ChildItems": [
       {
-        "Id": 363,
-        "Name": "Reichel-Berge",
-        "ToolTip": "Quos sunt pariatur cupiditate ex laboriosam neque ea.",
+        "Id": 1001,
+        "Name": "Reichert, McKenzie and Roob",
+        "ToolTip": "Repellendus veniam repudiandae quae.",
         "Deleted": false,
-        "Rank": 521,
-        "Type": "ipsa",
-        "ColorBlock": 439,
-        "IconHint": "atque",
+        "Rank": 553,
+        "Type": "esse",
+        "ColorBlock": 709,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2020-10-23T02:49:52.2034402+02:00",
+        "LastChanged": "2000-11-26T17:37:39.9595063+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "eum",
+        "ExtraInfo": "in",
+        "StyleHint": "nostrum",
         "Hidden": true,
-        "FullName": "Mr. Trinity Evans Daniel",
+        "FullName": "Xavier Gaylord",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 225
+            "FieldLength": 983
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "cupiditate",
+    "ExtraInfo": "maxime",
+    "StyleHint": "possimus",
     "Hidden": true,
-    "FullName": "Shea Rodriguez",
+    "FullName": "Annamae Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 208
+        "FieldType": "System.Int32",
+        "FieldLength": 984
       }
     }
   }

@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailAddress
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +58,7 @@ Response body:
 | EmailId | int32 | Primary key |
 | DuplicatePersonIds | array | All persons with this EmailAddress stored in db is listed here |
 | Name | string | The name on the email address |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -67,7 +67,7 @@ Response body:
 POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 612,
-  "ContactName": "Aufderhar Inc and Sons",
-  "PersonId": 704,
-  "PersonName": "Nader, Herman and Block",
-  "AssociateId": 210,
-  "Address": "molestias",
-  "EmailId": 43,
+  "ContactId": 965,
+  "ContactName": "Bradtke, Kshlerin and Okuneva",
+  "PersonId": 187,
+  "PersonName": "Davis Inc and Sons",
+  "AssociateId": 971,
+  "Address": "aliquid",
+  "EmailId": 406,
   "DuplicatePersonIds": [
-    913,
-    940
+    911,
+    616
   ],
-  "Name": "Fisher, Hauck and Murray",
+  "Name": "Dicki Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 329
     }
   }
 }

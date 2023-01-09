@@ -42,16 +42,15 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DeltaQuery 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DeltaQuery |  |  |
+| DeltaQuery | TableRight |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,11 +71,11 @@ Response body: array
 | RecipeId | string |  |
 | UpdatedDate | date-time |  |
 | CreatedDate | date-time |  |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,7 +84,7 @@ Response body: array
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 80,
-    "Name": "Connelly Group",
-    "Description": "Inverse high-level framework",
-    "DeltaJson": "voluptates",
+    "ConfigurableScreenDeltaId": 846,
+    "Name": "Eichmann-Bradtke",
+    "Description": "Open-architected modular methodology",
+    "DeltaJson": "ut",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "est",
-    "UpdatedDate": "2013-03-16T02:49:43.8566571+01:00",
-    "CreatedDate": "2011-10-28T02:49:43.8566571+02:00",
+    "RecipeId": "officiis",
+    "UpdatedDate": "2010-07-23T17:37:17.1272438+02:00",
+    "CreatedDate": "1996-07-16T17:37:17.1272438+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      817,
-      348
+      432,
+      247
     ],
-    "AppliesToKey": "in",
+    "AppliesToKey": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldType": "System.String",
+        "FieldLength": 810
       }
     }
   }

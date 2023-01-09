@@ -44,19 +44,18 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointments?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| PersonId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -117,7 +116,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -126,14 +125,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 448,
-  "StartTime": "2015-09-20T02:49:43.1836168+02:00",
-  "EndTime": "2008-01-23T02:49:43.1836168+01:00",
-  "Count": 311
+  "PersonId": 536,
+  "StartTime": "2011-07-25T17:37:16.1982427+02:00",
+  "EndTime": "2014-10-15T17:37:16.1982427+02:00",
+  "Count": 629
 }
 ```
 
@@ -145,61 +144,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 334,
-    "StartDate": "2008-07-04T02:49:43.1992469+02:00",
-    "EndDate": "2012-04-04T02:49:43.1992469+02:00",
+    "AppointmentId": 993,
+    "StartDate": "2016-11-30T17:37:16.2102419+01:00",
+    "EndDate": "2016-10-24T17:37:16.2102419+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sed",
-    "AssociateFullName": "Damon Shanahan",
-    "ContactName": "Runolfsdottir, Block and Grant",
-    "Description": "Switchable neutral software",
-    "PersonFullName": "Abbie Ziemann",
-    "PersonId": 804,
-    "ContactId": 201,
-    "ProjectId": 739,
-    "ProjectName": "Pouros Group",
-    "IsPublished": false,
-    "AssociateId": 43,
-    "ColorIndex": 725,
+    "Task": "ullam",
+    "AssociateFullName": "Maiya McClure",
+    "ContactName": "Pfeffer-Cartwright",
+    "Description": "Right-sized content-based adapter",
+    "PersonFullName": "Dandre Wyman",
+    "PersonId": 475,
+    "ContactId": 277,
+    "ProjectId": 758,
+    "ProjectName": "Kertzmann LLC",
+    "IsPublished": true,
+    "AssociateId": 448,
+    "ColorIndex": 278,
     "IsFree": true,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 26,
-    "PriorityName": "Littel, Eichmann and Bahringer",
+    "PriorityId": 897,
+    "PriorityName": "Bauch, Haag and Lebsack",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2014-06-17T02:49:43.1992469+02:00",
+    "ActiveDate": "2017-10-14T17:37:16.2112418+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-06-28T02:49:43.1992469+02:00",
-    "RecurringEndDate": "1997-11-12T02:49:43.1992469+01:00",
-    "MotherId": 890,
-    "AssignedBy": 512,
-    "AssignedByFullName": "Raoul Anderson",
-    "RejectReason": "",
-    "Location": "vero",
-    "AlarmLeadTime": "alias",
-    "SaleId": 116,
-    "SaleName": "Schaden-Schaden",
-    "AssociateName": "Johnston Inc and Sons",
-    "CreatedDate": "2000-05-22T02:49:43.1992469+02:00",
-    "CreatedBy": "distinctio",
-    "CreatedByFullName": "Ms. Garfield Patricia Cronin",
-    "CreatedByAssociateId": 502,
+    "RecurringStartDate": "2019-03-19T17:37:16.2112418+01:00",
+    "RecurringEndDate": "2010-03-16T17:37:16.2112418+01:00",
+    "MotherId": 41,
+    "AssignedBy": 497,
+    "AssignedByFullName": "Gay Parisian",
+    "RejectReason": "deploy user-centric relationships",
+    "Location": "nobis",
+    "AlarmLeadTime": "nesciunt",
+    "SaleId": 953,
+    "SaleName": "Carter LLC",
+    "AssociateName": "Roberts, Kiehn and Pollich",
+    "CreatedDate": "2010-08-03T17:37:16.2112418+02:00",
+    "CreatedBy": "odio",
+    "CreatedByFullName": "Deon Miller",
+    "CreatedByAssociateId": 223,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 152
+        "FieldType": "System.Int32",
+        "FieldLength": 117
       }
     }
   }

@@ -44,16 +44,15 @@ POST /api/v1/Agents/List/GetPluginCapabilities?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PluginId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PluginId | int32 |  |
+| PluginId | Integer |  |
 
-
-## Response: object
+## Response:object
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -70,11 +69,11 @@ Response body: object
 POST /api/v1/Agents/List/GetPluginCapabilities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 732
+  "PluginId": 380
 }
 ```
 
@@ -85,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "explicabo",
-  "2": "ut"
+  "1": "voluptatem",
+  "2": "autem"
 }
 ```

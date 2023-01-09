@@ -25,7 +25,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=906
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=367
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreferenceDescription
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +74,7 @@ Response body:
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +83,7 @@ Response body:
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 539,
-  "Section": "tempora",
-  "Key": "explicabo",
-  "Name": "Farrell Inc and Sons",
+  "PrefDescId": 134,
+  "Section": "rerum",
+  "Key": "ut",
+  "Name": "Langosh Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profound background strategy",
+  "Description": "Fundamental scalable infrastructure",
   "IsBuiltin": false,
-  "TableName": "Grady Inc and Sons",
-  "UserDefinedListId": 291,
-  "Rank": 950,
-  "SubGroup": "est",
-  "MinLevel": 935,
-  "MaxValue": 244,
-  "MinValue": 65,
-  "RequiredLicense": "repellat",
+  "TableName": "Ebert Group",
+  "UserDefinedListId": 75,
+  "Rank": 741,
+  "SubGroup": "ut",
+  "MinLevel": 278,
+  "MaxValue": 412,
+  "MinValue": 464,
+  "RequiredLicense": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 441
     }
   }
 }

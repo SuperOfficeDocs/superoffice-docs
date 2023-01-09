@@ -28,7 +28,7 @@ Get summary of person and recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Person/{personId}/Summary?limit=773
+GET /api/v1/Person/{personId}/Summary?limit=536
 ```
 
 
@@ -46,7 +46,7 @@ GET /api/v1/Person/{personId}/Summary?limit=773
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -54,11 +54,11 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PersonSummary
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Person |  | Simple Person data. |
+| Person | Person | Simple Person data. |
 | Tickets | array | Recent tickets on person |
 | Followups | array | Recent follow-ups on person |
 | Documents | array | Recent documents on person |
@@ -84,79 +84,79 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "Tickets": [
     {
-      "TicketId": 541,
-      "TicketStatus": 530,
-      "Title": "dolores",
-      "Registered": "2019-03-29T02:49:51.2921904+01:00",
-      "IconHint": "ea"
+      "TicketId": 895,
+      "TicketStatus": 420,
+      "Title": "voluptatibus",
+      "Registered": "1995-08-31T17:37:38.9388599+02:00",
+      "IconHint": "vitae"
     },
     {
-      "TicketId": 541,
-      "TicketStatus": 530,
-      "Title": "dolores",
-      "Registered": "2019-03-29T02:49:51.2921904+01:00",
-      "IconHint": "ea"
+      "TicketId": 895,
+      "TicketStatus": 420,
+      "Title": "voluptatibus",
+      "Registered": "1995-08-31T17:37:38.9388599+02:00",
+      "IconHint": "vitae"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 66,
-      "DocumentId": 835,
-      "Date": "2002-07-16T02:49:51.2921904+02:00",
-      "Description": "Re-contextualized value-added matrices",
+      "AppointmentId": 160,
+      "DocumentId": 514,
+      "Date": "1995-10-08T17:37:38.9388599+02:00",
+      "Description": "Robust multi-tasking time-frame",
       "Completed": "Completed",
-      "Registered": "2003-10-03T02:49:51.2921904+02:00"
+      "Registered": "2003-08-15T17:37:38.9388599+02:00"
     },
     {
-      "AppointmentId": 66,
-      "DocumentId": 835,
-      "Date": "2002-07-16T02:49:51.2921904+02:00",
-      "Description": "Re-contextualized value-added matrices",
+      "AppointmentId": 160,
+      "DocumentId": 514,
+      "Date": "1995-10-08T17:37:38.9388599+02:00",
+      "Description": "Robust multi-tasking time-frame",
       "Completed": "Completed",
-      "Registered": "2003-10-03T02:49:51.2921904+02:00"
+      "Registered": "2003-08-15T17:37:38.9388599+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 321,
-      "DocumentId": 421,
-      "Date": "2000-04-07T02:49:51.2921904+02:00",
-      "Description": "Quality-focused scalable superstructure",
+      "AppointmentId": 518,
+      "DocumentId": 3,
+      "Date": "2020-04-21T17:37:38.9388599+02:00",
+      "Description": "Monitored homogeneous info-mediaries",
       "Completed": "Completed",
-      "Registered": "2002-04-26T02:49:51.2921904+02:00"
+      "Registered": "2001-06-03T17:37:38.9388599+02:00"
     },
     {
-      "AppointmentId": 321,
-      "DocumentId": 421,
-      "Date": "2000-04-07T02:49:51.2921904+02:00",
-      "Description": "Quality-focused scalable superstructure",
+      "AppointmentId": 518,
+      "DocumentId": 3,
+      "Date": "2020-04-21T17:37:38.9388599+02:00",
+      "Description": "Monitored homogeneous info-mediaries",
       "Completed": "Completed",
-      "Registered": "2002-04-26T02:49:51.2921904+02:00"
+      "Registered": "2001-06-03T17:37:38.9388599+02:00"
     }
   ],
   "Sales": [
     {
       "SaleId": 23,
-      "SaleDate": "2002-12-18T02:49:51.2921904+01:00",
-      "Probability": 187,
-      "Heading": "dolore",
-      "Amount": 10361.003999999999,
-      "Currency": "alias",
-      "AmountInBaseCurrency": 24940.372,
+      "SaleDate": "2001-10-15T17:37:38.9388599+02:00",
+      "Probability": 811,
+      "Heading": "temporibus",
+      "Amount": 12119.178,
+      "Currency": "ex",
+      "AmountInBaseCurrency": 17832.46,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "1998-01-27T02:49:51.2921904+01:00"
+      "Registered": "2006-04-20T17:37:38.9388599+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 991,
-      "Name": "Wuckert, Bashirian and Harris",
-      "CompanyName": "Armstrong, Roob and Goyette",
-      "FirstMessage": "explicabo",
-      "LastMessage": "ducimus",
-      "WhenRequested": "2000-06-27T02:49:51.2921904+02:00",
-      "WhenEnded": "1999-02-05T02:49:51.2921904+01:00"
+      "ChatSessionId": 590,
+      "Name": "Veum-McLaughlin",
+      "CompanyName": "Prohaska-Fritsch",
+      "FirstMessage": "illum",
+      "LastMessage": "aut",
+      "WhenRequested": "2009-11-09T17:37:38.9388599+01:00",
+      "WhenEnded": "2006-07-10T17:37:38.9388599+02:00"
     }
   ]
 }

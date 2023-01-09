@@ -44,16 +44,15 @@ POST /api/v1/Agents/Project/GetProjectEventsOnPerson?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
+| PersonId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,7 +86,7 @@ Response body: array
 | SignOnTriggersAssign | bool | If true, the sign on task should be created as an Assigned task, triggering the invitation dialog |
 | SignOnPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
 | SignOffPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -96,11 +95,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectEventsOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 465
+  "PersonId": 692
 }
 ```
 
@@ -112,34 +111,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Lyda Wolf DDS",
-    "Description": "User-centric bi-directional benchmark",
-    "ProjectId": 468,
-    "EventName": "Greenfelder Group",
-    "AssociateId": 692,
+    "AssociateFullName": "Mrs. Baylee Heaven Prosacco DVM",
+    "Description": "Face to face client-server standardization",
+    "ProjectId": 101,
+    "EventName": "Wuckert Inc and Sons",
+    "AssociateId": 847,
     "IsSignedOn": false,
     "SignOffConfirmationText": "ut",
-    "SignOffText": "consequatur",
-    "SignOnConfirmationText": "mollitia",
-    "SignOnText": "est",
-    "EventDate": "2015-04-03T02:49:44.9684639+02:00",
+    "SignOffText": "cupiditate",
+    "SignOnConfirmationText": "ipsa",
+    "SignOnText": "earum",
+    "EventDate": "1998-01-22T17:37:18.6562449+01:00",
     "Enabled": false,
-    "SignOff": false,
+    "SignOff": true,
     "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
     "SignOn": true,
-    "SignOffTaskId": 274,
-    "SignOnTaskId": 19,
-    "SignOffTriggersAssign": true,
-    "SignOnTriggersAssign": true,
-    "SignOnPersonId": 942,
-    "SignOffPersonId": 509,
+    "SignOffTaskId": 379,
+    "SignOnTaskId": 305,
+    "SignOffTriggersAssign": false,
+    "SignOnTriggersAssign": false,
+    "SignOnPersonId": 932,
+    "SignOffPersonId": 708,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldLength": 168
       }
     }
   }

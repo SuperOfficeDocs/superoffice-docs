@@ -44,16 +44,15 @@ POST /api/v1/Agents/Document/GetAppointmentDocuments?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AppointmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AppointmentId | int32 |  |
+| AppointmentId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +84,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -98,7 +97,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 825
+  "AppointmentId": 709
 }
 ```
 
@@ -110,32 +109,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 849,
-    "Attention": "quia",
-    "Header": "doloremque",
-    "Name": "Langosh LLC",
-    "OurRef": "aut",
-    "YourRef": "hic",
-    "Description": "Ergonomic transitional customer loyalty",
-    "DocumentTemplate": "distinctio",
+    "DocumentId": 595,
+    "Attention": "tempore",
+    "Header": "nisi",
+    "Name": "Hartmann LLC",
+    "OurRef": "non",
+    "YourRef": "ad",
+    "Description": "Innovative responsive infrastructure",
+    "DocumentTemplate": "rem",
     "IsPublished": false,
-    "PersonId": 857,
-    "PersonFullName": "Reta Heller",
-    "AssociateFullName": "Hope Robel",
-    "ContactId": 994,
-    "ContactName": "Murray, Keeling and Schowalter",
-    "ProjectId": 886,
-    "ProjectName": "Bruen Group",
-    "AssociateId": 834,
-    "Snum": 911,
-    "SaleId": 547,
-    "SaleName": "Roob Group",
+    "PersonId": 521,
+    "PersonFullName": "Audra Keebler",
+    "AssociateFullName": "Maryjane Hammes",
+    "ContactId": 712,
+    "ContactName": "Stanton-Mante",
+    "ProjectId": 405,
+    "ProjectName": "Howell-Hackett",
+    "AssociateId": 850,
+    "Snum": 859,
+    "SaleId": 778,
+    "SaleName": "Daniel-Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 561
+        "FieldType": "System.Int32",
+        "FieldLength": 780
       }
     }
   }

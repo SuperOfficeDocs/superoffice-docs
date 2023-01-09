@@ -38,17 +38,16 @@ POST /api/v1/Agents/Appointment/CreateAndAccept?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EmailItemId, UpdateMode 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EmailItemId | int32 |  |
-| UpdateMode | string |  |
+| EmailItemId | Integer |  |
+| UpdateMode | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -69,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailItemId": 905,
+  "EmailItemId": 965,
   "UpdateMode": "OnlyThis"
 }
 ```

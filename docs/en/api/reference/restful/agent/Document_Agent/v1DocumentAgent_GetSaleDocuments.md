@@ -44,16 +44,15 @@ POST /api/v1/Agents/Document/GetSaleDocuments?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SaleId | int32 |  |
+| SaleId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +84,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,11 +93,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 181
+  "SaleId": 84
 }
 ```
 
@@ -110,32 +109,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 492,
-    "Attention": "ea",
+    "DocumentId": 627,
+    "Attention": "aperiam",
     "Header": "omnis",
-    "Name": "Yundt, Kozey and Mohr",
-    "OurRef": "placeat",
-    "YourRef": "odit",
-    "Description": "Vision-oriented fault-tolerant product",
-    "DocumentTemplate": "non",
-    "IsPublished": true,
-    "PersonId": 854,
-    "PersonFullName": "Miss Jamey Hudson Kris",
-    "AssociateFullName": "Mr. Jamarcus Makenzie Carter V",
-    "ContactId": 79,
-    "ContactName": "Ankunding-Streich",
-    "ProjectId": 439,
-    "ProjectName": "Runte Inc and Sons",
-    "AssociateId": 432,
-    "Snum": 657,
-    "SaleId": 362,
-    "SaleName": "Schowalter Group",
+    "Name": "Kihn, Windler and Jacobson",
+    "OurRef": "ratione",
+    "YourRef": "sint",
+    "Description": "Stand-alone responsive capacity",
+    "DocumentTemplate": "quaerat",
+    "IsPublished": false,
+    "PersonId": 412,
+    "PersonFullName": "Dr. Eleonore Von",
+    "AssociateFullName": "Ms. Webster Tillman PhD",
+    "ContactId": 737,
+    "ContactName": "Jerde-Medhurst",
+    "ProjectId": 471,
+    "ProjectName": "Johnson Group",
+    "AssociateId": 273,
+    "Snum": 966,
+    "SaleId": 423,
+    "SaleName": "Stamm-Stamm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldLength": 125
       }
     }
   }

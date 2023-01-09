@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TicketMessage?$select=name,department,category/id
 GET /api/v1/TicketMessage?$filter=name begins 'S'
 GET /api/v1/TicketMessage?$orderBy=name asc
-GET /api/v1/TicketMessage?$entities=voluptatibus
-GET /api/v1/TicketMessage?$top=808
-GET /api/v1/TicketMessage?$skip=264
+GET /api/v1/TicketMessage?$entities=distinctio
+GET /api/v1/TicketMessage?$top=582
+GET /api/v1/TicketMessage?$skip=615
 GET /api/v1/TicketMessage?$mode=Full
 GET /api/v1/TicketMessage?$options=GrandTotal=true
-GET /api/v1/TicketMessage?$context=quod
+GET /api/v1/TicketMessage?$context=nostrum
 GET /api/v1/TicketMessage?$format=JSON
 GET /api/v1/TicketMessage?$jsonSafe=False
 GET /api/v1/TicketMessage?$output=Display
@@ -96,7 +95,7 @@ GET /api/v1/TicketMessage?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body:
 GET /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "error",
+  "odata.nextLink": "veritatis",
   "value": [
     {
-      "PrimaryKey": 2382,
-      "EntityName": "person",
-      "personId": 2382,
-      "fullName": "Mr. Elva Odessa Kiehn"
+      "PrimaryKey": 7800,
+      "EntityName": "sale",
+      "saleId": 7800,
+      "contactId": 9631,
+      "name": "Dietrich, Murphy and Smitham"
     },
     {
-      "PrimaryKey": 6320,
-      "EntityName": "person",
-      "personId": 6320,
-      "fullName": "Prof. Birdie Fritsch"
+      "PrimaryKey": 6000,
+      "EntityName": "sale",
+      "saleId": 6000,
+      "contactId": 2109,
+      "name": "McClure-Kutch"
     }
   ]
 }

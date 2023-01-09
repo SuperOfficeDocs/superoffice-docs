@@ -47,17 +47,16 @@ POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 CRMScriptId, EventData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CRMScriptId | int32 |  |
-| EventData |  | EventData containing data related to event handlers <para /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
+| CRMScriptId | Integer |  |
+| EventData | EventData | EventData containing data related to event handlers <para /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EventData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body:
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,11 +86,11 @@ Response body:
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 433,
+  "CRMScriptId": 214,
   "EventData": null
 }
 ```
@@ -105,28 +104,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "mollitia",
-    "InputValues2": "voluptatibus"
+    "InputValues1": "officia",
+    "InputValues2": "qui"
   },
   "BlockExecution": false,
-  "NavigateTo": "nesciunt",
-  "Message": "consequuntur",
-  "ShowDialog": "necessitatibus",
+  "NavigateTo": "ad",
+  "Message": "non",
+  "ShowDialog": "eius",
   "OutputValues": {
-    "OutputValues1": "occaecati",
-    "OutputValues2": "eos"
+    "OutputValues1": "nobis",
+    "OutputValues2": "vel"
   },
   "StateValues": {
-    "StateValues1": "nostrum",
-    "StateValues2": "quibusdam"
+    "StateValues1": "commodi",
+    "StateValues2": "cumque"
   },
-  "Exception": "eaque",
+  "Exception": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldLength": 772
     }
   }
 }

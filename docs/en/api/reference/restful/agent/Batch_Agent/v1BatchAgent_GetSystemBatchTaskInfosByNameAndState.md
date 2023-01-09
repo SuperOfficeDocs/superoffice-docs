@@ -42,17 +42,16 @@ POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TaskName, State 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TaskName | string |  |
-| State | string |  |
+| TaskName | String |  |
+| State | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +84,7 @@ Response body: array
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,11 +93,11 @@ Response body: array
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Jakubowski-Gutmann",
+  "TaskName": "Koss-Jakubowski",
   "State": "All"
 }
 ```
@@ -111,36 +110,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Name": "Gusikowski, Rosenbaum and Hansen",
-    "AssociateId": 349,
-    "DetailsTable": 53,
-    "DetailsRecord": 785,
+    "Id": 461,
+    "Name": "Lueilwitz LLC",
+    "AssociateId": 442,
+    "DetailsTable": 427,
+    "DetailsRecord": 617,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "voluptas",
-      "ParameterObject2": "totam"
+      "ParameterObject1": "dolor",
+      "ParameterObject2": "in"
     },
-    "LastStarted": "2002-01-22T02:49:43.7004017+01:00",
-    "Created": "1997-12-04T02:49:43.7004017+01:00",
-    "StartCount": 110,
-    "DatabaseSerialNumber": "1162152",
-    "Context": "eligendi",
-    "Result": "unde",
+    "LastStarted": "2016-02-26T17:37:16.9082408+01:00",
+    "Created": "2006-02-04T17:37:16.9082408+01:00",
+    "StartCount": 184,
+    "DatabaseSerialNumber": "867998",
+    "Context": "ut",
+    "Result": "rerum",
     "State": "All",
-    "Description": "Customer-focused directional orchestration",
-    "Response": "dolor",
-    "Request": "quibusdam",
-    "ProgressDescription": "Proactive secondary moratorium",
-    "ProgressPercent": 318,
-    "FileName": "Emard LLC",
+    "Description": "Sharable client-server open system",
+    "Response": "necessitatibus",
+    "Request": "dolores",
+    "ProgressDescription": "Innovative zero defect intranet",
+    "ProgressPercent": 325,
+    "FileName": "Kilback-Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 933
+        "FieldLength": 509
       }
     }
   }

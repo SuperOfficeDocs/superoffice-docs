@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/SaveConnection
 Saves a connection to the database.
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/ErpSync/SaveConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Connection 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Connection |  | Information about a connection to the ERP system. <para /> Carrier object for ErpConnection. Services for the ErpConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
+| Connection | ErpConnection | Information about a connection to the ERP system. <para /> Carrier object for ErpConnection. Services for the ErpConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ErpConnection
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +76,7 @@ Response body:
 | AllAccess | bool | Is this connection accessible to everyone?  If not, then the ErpConnectionAccess table tells us who can access it |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,7 +85,7 @@ Response body:
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 341,
-  "ErpConnectorId": 15,
-  "DisplayName": "Klein Group",
-  "DisplayDescription": "Cross-platform dedicated extranet",
-  "Active": true,
-  "ConnectionId": "voluptate",
-  "MostRecentTimestamp": "et",
+  "ErpConnectionId": 80,
+  "ErpConnectorId": 315,
+  "DisplayName": "Crona-Witting",
+  "DisplayDescription": "Team-oriented background portal",
+  "Active": false,
+  "ConnectionId": "deserunt",
+  "MostRecentTimestamp": "sapiente",
   "ConfigFields": {
-    "ConfigFields1": "ea",
-    "ConfigFields2": "minima"
+    "ConfigFields1": "odio",
+    "ConfigFields2": "et"
   },
   "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    258,
-    90
+    651,
+    74
   ],
   "AssociateAccessIds": [
-    218,
-    1000
+    528,
+    788
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 600
     }
   }
 }

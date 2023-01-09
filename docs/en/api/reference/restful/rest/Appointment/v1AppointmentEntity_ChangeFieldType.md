@@ -29,7 +29,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -47,7 +47,7 @@ POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndex
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 AppointmentEntity found.
 
@@ -56,7 +56,7 @@ AppointmentEntity found.
 | 200 | AppointmentEntity found. |
 | 404 | AppointmentEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +94,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -103,7 +103,7 @@ Response body:
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 367,
-  "ColumnId": 79,
-  "FieldDefault": "doloremque",
-  "FieldHeight": 656,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 938,
-  "FieldTop": 360,
+  "UDefFieldId": 778,
+  "ColumnId": 477,
+  "FieldDefault": "quia",
+  "FieldHeight": 67,
+  "FieldLabel": "delectus",
+  "FieldLeft": 158,
+  "FieldTop": 707,
   "FieldType": "Checkbox",
-  "FieldWidth": 81,
-  "FormatMask": "et",
+  "FieldWidth": 472,
+  "FormatMask": "recusandae",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 804,
-  "LabelLeft": 359,
-  "LabelTop": 731,
-  "LabelWidth": 301,
-  "LastVersionId": 713,
-  "ListTableId": 281,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 770,
+  "LabelLeft": 206,
+  "LabelTop": 670,
+  "LabelWidth": 506,
+  "LastVersionId": 602,
+  "ListTableId": 384,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 518,
-  "ProgId": "quasi",
-  "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 101,
-  "TextLength": 999,
-  "Tooltip": "vel",
-  "UdefIdentity": 500,
-  "UDListDefinitionId": 433,
+  "Page1LineNo": 827,
+  "ProgId": "nihil",
+  "IsReadOnly": true,
+  "ShortLabel": "incidunt",
+  "TabOrder": 227,
+  "TextLength": 803,
+  "Tooltip": "illo",
+  "UdefIdentity": 579,
+  "UDListDefinitionId": 409,
   "Justification": "Center",
-  "Version": 975,
-  "TemplateVariableName": "Rosenbaum Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Veum-Wilkinson",
+  "Version": 931,
+  "TemplateVariableName": "Fay Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Beatty-Pfeffer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldType": "System.Int32",
+      "FieldLength": 866
     }
   }
 }

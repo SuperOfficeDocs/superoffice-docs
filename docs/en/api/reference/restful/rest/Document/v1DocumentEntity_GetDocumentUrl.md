@@ -31,7 +31,7 @@ Get a URL referring to the given document content.
 | writeableUrl | bool |  If true, then a URL that supports saving is requested. Som edocument plugins may not support read-only URLs, so there is no guarantee that a False value will actually yield a read-only URL, and vice versa. |
 
 ```http
-GET /api/v1/Document/{documentId}/Url?versionId=nam
+GET /api/v1/Document/{documentId}/Url?versionId=recusandae
 GET /api/v1/Document/{documentId}/Url?writeableUrl=False
 ```
 
@@ -50,7 +50,7 @@ GET /api/v1/Document/{documentId}/Url?writeableUrl=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: string
+## Response:string
 
 OK
 
@@ -58,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request

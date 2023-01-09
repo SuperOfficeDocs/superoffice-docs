@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,22 +42,22 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Preference
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Level | string | Preference level, using the standard enumerated type. Undefined is returned for preferences that do not have a current setting. |
 | RawValue | string | Preference value |
-| Specification |  | Preference specification, consisting of the section name and key name |
+| Specification | PreferenceSpec | Preference specification, consisting of the section name and key name |
 | DisplayValue | string | Display value, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter. |
 | DisplayTooltip | string | Display tooltip, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter. |
 | DisplayType | string | Display type, populated when asked for. |
-| TabOrder |  | Carrier object for TabOrder. Services for the TabOrder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
+| TabOrder | TabOrder | Carrier object for TabOrder. Services for the TabOrder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
 | TargetId | int32 | The id of the target row. The table it points at is specified by the preference type. |
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
 | UserPreferenceId | int32 | The id of the user preference |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -66,7 +66,7 @@ Response body:
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,22 +77,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quis",
+  "RawValue": "sint",
   "Specification": null,
-  "DisplayValue": "doloribus",
-  "DisplayTooltip": "at",
+  "DisplayValue": "doloremque",
+  "DisplayTooltip": "nisi",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 924,
-  "PrefDescId": 627,
-  "TableName": "Jacobi Inc and Sons",
-  "UserPreferenceId": 399,
+  "TargetId": 325,
+  "PrefDescId": 58,
+  "TableName": "Toy, O'Kon and Wehner",
+  "UserPreferenceId": 892,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldLength": 812
     }
   }
 }

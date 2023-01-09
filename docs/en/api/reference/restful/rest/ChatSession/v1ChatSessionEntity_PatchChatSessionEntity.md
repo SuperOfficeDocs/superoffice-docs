@@ -71,18 +71,17 @@ PATCH /api/v1/ChatSession/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 ChatSessionEntity  updated.
 
@@ -93,14 +92,14 @@ ChatSessionEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ChatSessionEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: ChatSessionEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 | The primary key (auto-incremented) |
 | TopicId | int32 | The reference to the associated chat topic. |
-| User |  | User agent handling this session |
-| Person |  | Customer person in this session - could be empty if we don't know exactly. |
+| User | Associate | User agent handling this session |
+| Person | Person | Customer person in this session - could be empty if we don't know exactly. |
 | CustomerAlias | string | The alias for the customer. |
 | CustomerHost | string | The hostname or IP address for the customer. |
 | CustomerName | string | The name of customer, if provided |
@@ -121,14 +120,14 @@ Response body:
 | AlertLevel | int32 | The alert level for this chat session. |
 | Rank | int32 | Lowest possible unique number for active sessions for user. User for color index. Starting at 1. |
 | Flags | string | Various flags for the chat session |
-| Contact |  | Contact this session is connected to - could be empty if we don't know exactly. |
-| Project |  | Project the session is connectedto - could be empty if we don't know exactly. |
-| Sale |  | Sale the session is connected to - could be empty if we don't know exactly. |
-| Ticket |  | Ticket the session is connected to - could be empty if we don't know exactly. |
-| TransferTo |  | User agent that has a pending transfer of the chat session |
+| Contact | Contact | Contact this session is connected to - could be empty if we don't know exactly. |
+| Project | Project | Project the session is connectedto - could be empty if we don't know exactly. |
+| Sale | Sale | Sale the session is connected to - could be empty if we don't know exactly. |
+| Ticket | Ticket | Ticket the session is connected to - could be empty if we don't know exactly. |
+| TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -144,12 +143,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quos",
+    "path": "eum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quos",
+    "path": "eum",
     "value": {}
   }
 ]
@@ -162,43 +161,43 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 198,
-  "TopicId": 900,
+  "ChatSessionId": 190,
+  "TopicId": 973,
   "User": null,
   "Person": null,
-  "CustomerAlias": "in",
-  "CustomerHost": "iste",
-  "CustomerName": "Bailey, Vandervort and Green",
-  "CustomerEmail": "armando@cremin.uk",
-  "CustomerPhone": "299.923.0737 x675",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Brakus, Ankunding and Herman",
+  "CustomerAlias": "autem",
+  "CustomerHost": "sed",
+  "CustomerName": "Schoen, Schinner and Deckow",
+  "CustomerEmail": "davion_green@kozeygreen.ca",
+  "CustomerPhone": "(157)723-5215",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Metz, Baumbach and Bailey",
   "Status": "Closed",
-  "FirstMessage": "omnis",
-  "LastMessage": "et",
-  "WhenRequested": "2001-02-23T02:49:50.6202849+01:00",
-  "WhenStarted": "1999-10-05T02:49:50.6202849+02:00",
-  "WhenEnded": "2021-03-01T02:49:50.6202849+01:00",
-  "WhenIdle": "2008-04-12T02:49:50.6202849+02:00",
-  "WhenFetched": "2022-01-28T02:49:50.6202849+01:00",
-  "SessionKey": "tenetur",
-  "InitialQueuePos": 723,
-  "AlertLevel": 921,
-  "Rank": 72,
+  "FirstMessage": "aliquid",
+  "LastMessage": "alias",
+  "WhenRequested": "2013-05-12T17:37:38.2078597+02:00",
+  "WhenStarted": "2012-11-27T17:37:38.2078597+01:00",
+  "WhenEnded": "2021-11-07T17:37:38.2078597+01:00",
+  "WhenIdle": "1997-11-18T17:37:38.2078597+01:00",
+  "WhenFetched": "2014-02-19T17:37:38.2078597+01:00",
+  "SessionKey": "tempora",
+  "InitialQueuePos": 324,
+  "AlertLevel": 752,
+  "Rank": 809,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 655,
+  "ChatbotIsActive": false,
+  "Rating": 799,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 850
+      "FieldType": "System.Int32",
+      "FieldLength": 323
     }
   },
   "_Links": {

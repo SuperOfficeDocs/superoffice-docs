@@ -42,16 +42,15 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnContact?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
+| ContactId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BlobEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,10 +72,10 @@ Response body:
 | OriginalSize | int32 | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 983
+  "ContactId": 891
 }
 ```
 
@@ -100,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 865,
-  "BlobSize": 711,
-  "Description": "Right-sized grid-enabled alliance",
-  "ExtraInfo": "sed",
+  "BlobId": 856,
+  "BlobSize": 116,
+  "Description": "Configurable context-sensitive service-desk",
+  "ExtraInfo": "distinctio",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "qui",
-  "OriginalSize": 907,
-  "CreatedDate": "2005-11-22T02:49:43.7160326+01:00",
-  "UpdatedDate": "2004-08-30T02:49:43.7160326+02:00",
+  "IsZipped": false,
+  "MimeType": "consequatur",
+  "OriginalSize": 17,
+  "CreatedDate": "2018-09-20T17:37:16.9292433+02:00",
+  "UpdatedDate": "2007-12-31T17:37:16.9292433+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dignissimos",
+  "ConceptualType": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 11
+      "FieldLength": 801
     }
   }
 }

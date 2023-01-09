@@ -42,17 +42,16 @@ POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId, ModuleOwner 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
-| ModuleOwner | string |  |
+| AssociateId | Integer |  |
+| ModuleOwner | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body: array
 | PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
 | SortOrder | int32 | Sort order of licenses. |
 | ExtraFlags | int32 | License flags. 1 = user plan |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,12 +86,12 @@ Response body: array
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 621,
-  "ModuleOwner": "alias"
+  "AssociateId": 963,
+  "ModuleOwner": "animi"
 }
 ```
 
@@ -105,25 +104,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 957,
-    "Tooltip": "maiores",
-    "CanAssign": true,
-    "Free": 600,
-    "InUse": 439,
-    "IsHidden": false,
+    "Total": 384,
+    "Tooltip": "in",
+    "CanAssign": false,
+    "Free": 921,
+    "InUse": 945,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 208,
-    "Name": "Hauck, Pacocha and Goodwin",
-    "Description": "Compatible hybrid framework",
-    "PrerequisiteModuleName": "Reichert LLC",
-    "SortOrder": 77,
-    "ExtraFlags": 1002,
+    "ModuleLicenseId": 709,
+    "Name": "Schroeder-Haley",
+    "Description": "Synchronised homogeneous success",
+    "PrerequisiteModuleName": "Ebert-Corwin",
+    "SortOrder": 857,
+    "ExtraFlags": 275,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 81
+        "FieldType": "System.Int32",
+        "FieldLength": 802
       }
     }
   }

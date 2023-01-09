@@ -42,16 +42,15 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizesOnPersonId?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
+| PersonId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body: array
 | UpperY | int32 |  |
 | Width | int32 |  |
 | WindowPosSizeId | int32 |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,11 +82,11 @@ Response body: array
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 652
+  "PersonId": 136
 }
 ```
 
@@ -99,23 +98,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "vel",
-    "PersonId": 988,
-    "AssociateId": 23,
-    "ExtraId": 317,
-    "ExtraInfo": "est",
-    "Height": 403,
-    "LeftX": 250,
+    "OwnerWindow": "voluptatem",
+    "PersonId": 790,
+    "AssociateId": 651,
+    "ExtraId": 192,
+    "ExtraInfo": "debitis",
+    "Height": 217,
+    "LeftX": 696,
     "State": "Maximized",
-    "UpperY": 392,
-    "Width": 794,
-    "WindowPosSizeId": 305,
+    "UpperY": 655,
+    "Width": 775,
+    "WindowPosSizeId": 585,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldLength": 832
       }
     }
   }

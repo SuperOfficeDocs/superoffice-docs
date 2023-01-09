@@ -46,7 +46,7 @@ POST /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -54,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +71,7 @@ Response body:
 POST /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "qui",
-  "VersionId": "inventore",
-  "Success": false,
+  "ExternalReference": "ipsam",
+  "VersionId": "sequi",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "consequatur",
-  "AdditionalInfo": "nihil"
+  "Value": "mollitia",
+  "AdditionalInfo": "minus"
 }
 ```

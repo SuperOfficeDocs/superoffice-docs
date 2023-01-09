@@ -44,16 +44,15 @@ POST /api/v1/Agents/Sale/GetNextDueDate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SaleId | int32 |  |
+| SaleId | Integer |  |
 
-
-## Response: date-time
+## Response:date-time
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: date-time
+### Response body: date-time
 
 
 ## Sample request
@@ -70,11 +69,11 @@ Response body: date-time
 POST /api/v1/Agents/Sale/GetNextDueDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 492
+  "SaleId": 784
 }
 ```
 
@@ -84,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"1999-02-07T02:49:45.1403412+01:00"
+"2008-08-01T17:37:18.8802409+02:00"
 ```

@@ -48,7 +48,7 @@ GET /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 PreferenceDescription found.
 
@@ -57,7 +57,7 @@ PreferenceDescription found.
 | 200 | PreferenceDescription found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: PreferenceDescriptionWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +79,7 @@ Response body:
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -89,7 +89,7 @@ Response body:
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,30 +99,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 339,
-  "Section": "consequatur",
-  "Key": "non",
-  "Name": "Marquardt Inc and Sons",
+  "PrefDescId": 814,
+  "Section": "quibusdam",
+  "Key": "sapiente",
+  "Name": "Roob Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fully-configurable stable productivity",
-  "IsBuiltin": true,
-  "TableName": "Murphy-Abernathy",
-  "UserDefinedListId": 791,
-  "Rank": 460,
-  "SubGroup": "quaerat",
-  "MinLevel": 278,
-  "MaxValue": 865,
-  "MinValue": 532,
-  "RequiredLicense": "sapiente",
+  "Description": "Diverse mission-critical approach",
+  "IsBuiltin": false,
+  "TableName": "Schumm LLC",
+  "UserDefinedListId": 614,
+  "Rank": 596,
+  "SubGroup": "provident",
+  "MinLevel": 428,
+  "MaxValue": 6,
+  "MinValue": 246,
+  "RequiredLicense": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   },
   "_Links": {

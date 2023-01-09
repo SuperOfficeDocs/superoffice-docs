@@ -44,17 +44,16 @@ POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, Select 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| Select | string |  |
+| SelectionId | Integer |  |
+| Select | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body: array
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,12 +79,12 @@ Response body: array
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 847,
-  "Select": "quaerat"
+  "SelectionId": 691,
+  "Select": "rerum"
 }
 ```
 
@@ -97,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Yundt, Schmitt and Nicolas",
-    "PrimaryKey": 105,
+    "EntityName": "Gorczany-Hane",
+    "PrimaryKey": 839,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "incidunt",
-        "TooltipHint": "alias",
-        "LinkHint": "deleniti"
+        "DisplayValue": "est",
+        "TooltipHint": "a",
+        "LinkHint": "odio"
       }
     },
-    "LinkHint": "omnis",
-    "StyleHint": "nemo",
+    "LinkHint": "distinctio",
+    "StyleHint": "perferendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 733
+        "FieldType": "System.Int32",
+        "FieldLength": 252
       }
     }
   }

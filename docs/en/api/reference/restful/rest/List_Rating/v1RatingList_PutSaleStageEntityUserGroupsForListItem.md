@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 983,
-    "Name": "Prohaska-Keeling",
-    "ToolTip": "Maiores illo architecto aliquid in eligendi.",
+    "Id": 28,
+    "Name": "Block-Hegmann",
+    "ToolTip": "Quo molestiae soluta sit et aliquid error voluptate.",
     "Deleted": false,
-    "Rank": 314,
-    "Type": "quas",
-    "ColorBlock": 346,
-    "IconHint": "alias",
-    "Selected": false,
-    "LastChanged": "2010-01-12T02:49:52.4534506+01:00",
+    "Rank": 564,
+    "Type": "eos",
+    "ColorBlock": 653,
+    "IconHint": "ipsam",
+    "Selected": true,
+    "LastChanged": "2021-04-06T17:37:40.2685151+02:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Pfeffer, Rice and Grimes",
-        "ToolTip": "Eos voluptas facere vitae.",
-        "Deleted": true,
-        "Rank": 412,
-        "Type": "qui",
-        "ColorBlock": 871,
-        "IconHint": "atque",
-        "Selected": false,
-        "LastChanged": "2002-08-14T02:49:52.4534506+02:00",
+        "Id": 715,
+        "Name": "Rice, Corwin and Legros",
+        "ToolTip": "Laudantium adipisci reiciendis.",
+        "Deleted": false,
+        "Rank": 552,
+        "Type": "vero",
+        "ColorBlock": 966,
+        "IconHint": "esse",
+        "Selected": true,
+        "LastChanged": "2000-11-09T17:37:40.2685151+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "ipsam",
-        "Hidden": false,
-        "FullName": "Brittany Nelson Koss Sr."
+        "ExtraInfo": "debitis",
+        "StyleHint": "aperiam",
+        "Hidden": true,
+        "FullName": "Lina Lueilwitz"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "dicta",
+    "ExtraInfo": "iure",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Felicia Wilderman PhD"
+    "FullName": "Mr. Sasha Crooks"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Smitham, Walsh and Hills",
-    "ToolTip": "Cupiditate quae ut cum iusto.",
+    "Id": 989,
+    "Name": "Spencer Inc and Sons",
+    "ToolTip": "Quisquam fugiat repudiandae.",
     "Deleted": true,
-    "Rank": 728,
-    "Type": "dignissimos",
-    "ColorBlock": 612,
-    "IconHint": "similique",
+    "Rank": 1000,
+    "Type": "asperiores",
+    "ColorBlock": 159,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2018-04-04T02:49:52.4534506+02:00",
+    "LastChanged": "1999-12-18T17:37:40.270512+01:00",
     "ChildItems": [
       {
-        "Id": 580,
-        "Name": "Bins, Erdman and Auer",
-        "ToolTip": "Sint molestias.",
-        "Deleted": true,
-        "Rank": 125,
-        "Type": "reprehenderit",
-        "ColorBlock": 392,
-        "IconHint": "repellendus",
-        "Selected": false,
-        "LastChanged": "2016-12-03T02:49:52.4534506+01:00",
+        "Id": 488,
+        "Name": "Bergstrom Inc and Sons",
+        "ToolTip": "Alias perferendis.",
+        "Deleted": false,
+        "Rank": 288,
+        "Type": "consequatur",
+        "ColorBlock": 763,
+        "IconHint": "esse",
+        "Selected": true,
+        "LastChanged": "2015-09-15T17:37:40.270512+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "est",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Prof. Elvis Breana Weissnat",
+        "FullName": "Taylor Berge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 35
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "quis",
-    "Hidden": false,
-    "FullName": "Bennett Jeffery Oberbrunner PhD",
+    "ExtraInfo": "sed",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Clotilde Cartwright IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldType": "System.String",
+        "FieldLength": 726
       }
     }
   }

@@ -44,17 +44,16 @@ POST /api/v1/Agents/Appointment/GetAppointmentRecords?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MotherId, RecurrenceRuleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MotherId | int32 |  |
-| RecurrenceRuleId | int32 |  |
+| MotherId | Integer |  |
+| RecurrenceRuleId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -115,7 +114,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -124,12 +123,12 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 515,
-  "RecurrenceRuleId": 234
+  "MotherId": 259,
+  "RecurrenceRuleId": 33
 }
 ```
 
@@ -141,53 +140,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 269,
-    "StartDate": "2006-01-18T02:49:43.261747+01:00",
-    "EndDate": "1996-07-09T02:49:43.261747+02:00",
+    "AppointmentId": 788,
+    "StartDate": "2020-06-30T17:37:16.2732416+02:00",
+    "EndDate": "2011-02-26T17:37:16.2732416+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quo",
-    "AssociateFullName": "Ms. Freida Fahey IV",
-    "ContactName": "Funk, Fisher and Bailey",
-    "Description": "Managed zero administration utilisation",
-    "PersonFullName": "Manley Pagac PhD",
-    "PersonId": 975,
-    "ContactId": 805,
-    "ProjectId": 373,
-    "ProjectName": "Schultz Inc and Sons",
+    "Task": "voluptas",
+    "AssociateFullName": "Casey Anderson",
+    "ContactName": "Jast-Roob",
+    "Description": "Realigned client-server contingency",
+    "PersonFullName": "Cassandre Kessler",
+    "PersonId": 352,
+    "ContactId": 166,
+    "ProjectId": 75,
+    "ProjectName": "Kemmer-Gaylord",
     "IsPublished": false,
-    "AssociateId": 339,
-    "ColorIndex": 245,
+    "AssociateId": 529,
+    "ColorIndex": 587,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 873,
-    "PriorityName": "Crist-Weissnat",
+    "PriorityId": 725,
+    "PriorityName": "Olson-Johns",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2018-06-04T02:49:43.261747+02:00",
+    "ActiveDate": "2016-01-13T17:37:16.2752421+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-06-20T02:49:43.261747+02:00",
-    "RecurringEndDate": "2003-03-07T02:49:43.261747+01:00",
-    "MotherId": 274,
-    "AssignedBy": 65,
-    "AssignedByFullName": "Dorian D'angelo Schroeder DDS",
+    "RecurringStartDate": "2000-04-18T17:37:16.2752421+02:00",
+    "RecurringEndDate": "2022-03-14T17:37:16.2752421+01:00",
+    "MotherId": 385,
+    "AssignedBy": 291,
+    "AssignedByFullName": "Queen Gerhold",
     "RejectReason": "",
-    "Location": "aliquam",
+    "Location": "est",
     "AlarmLeadTime": "aut",
-    "SaleId": 159,
-    "SaleName": "Orn-Mayert",
-    "AssociateName": "Krajcik, Robel and Mertz",
-    "CreatedDate": "2008-03-15T02:49:43.261747+01:00",
-    "CreatedBy": "amet",
-    "CreatedByFullName": "Martin Friesen",
-    "CreatedByAssociateId": 73,
+    "SaleId": 454,
+    "SaleName": "Padberg, Satterfield and Stracke",
+    "AssociateName": "Okuneva Inc and Sons",
+    "CreatedDate": "2003-08-05T17:37:16.2752421+02:00",
+    "CreatedBy": "quos",
+    "CreatedByFullName": "Tanner Conn IV",
+    "CreatedByAssociateId": 61,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -195,7 +194,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldLength": 422
       }
     }
   }

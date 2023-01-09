@@ -41,7 +41,7 @@ MDO List name = 'FunctionRights', extra='roleType=0'
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -49,7 +49,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 301,
-    "Name": "Klocko, Mraz and Toy",
-    "ToolTip": "Saepe illo repellat qui earum itaque ut illum.",
+    "Id": 786,
+    "Name": "Wisozk LLC",
+    "ToolTip": "Reprehenderit quia officia doloribus voluptate odit et inventore.",
     "Deleted": false,
-    "Rank": 375,
-    "Type": "ipsam",
-    "ColorBlock": 719,
-    "IconHint": "ex",
+    "Rank": 398,
+    "Type": "facere",
+    "ColorBlock": 831,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "1998-05-27T02:49:51.4015667+02:00",
+    "LastChanged": "1996-01-05T17:37:39.0583035+01:00",
     "ChildItems": [
       {
-        "Id": 618,
-        "Name": "Langosh Group",
-        "ToolTip": "Architecto quisquam.",
-        "Deleted": false,
-        "Rank": 431,
-        "Type": "excepturi",
-        "ColorBlock": 827,
-        "IconHint": "eveniet",
+        "Id": 507,
+        "Name": "Lakin-Cormier",
+        "ToolTip": "Veniam corrupti autem.",
+        "Deleted": true,
+        "Rank": 861,
+        "Type": "alias",
+        "ColorBlock": 973,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2019-08-29T02:49:51.4015667+02:00",
+        "LastChanged": "2015-04-12T17:37:39.0583035+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sint",
+        "ExtraInfo": "minima",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Norene Monahan",
+        "FullName": "Rasheed Wilderman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 595
+            "FieldLength": 260
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "ea",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Jamie Mann",
+    "FullName": "Isabell Heber Heller III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 95
+        "FieldType": "System.Int32",
+        "FieldLength": 104
       }
     }
   }

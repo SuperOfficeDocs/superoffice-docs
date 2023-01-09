@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaleTypeEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body:
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 195,
-  "Name": "Haley-Osinski",
-  "Tooltip": "qui",
-  "Rank": 290,
+  "SaleTypeId": 135,
+  "Name": "Willms-Jewess",
+  "Tooltip": "eos",
+  "Rank": 438,
   "DurationUnit": "Century",
-  "SaleDuration": 272,
-  "SaleTypeCatId": 708,
-  "Deleted": false,
-  "HasGuide": false,
+  "SaleDuration": 409,
+  "SaleTypeCatId": 485,
+  "Deleted": true,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 293,
-  "QuoteLinesTemplate": 163,
-  "ConfirmationLinesTemplate": 131,
+  "DefaultQuoteValidity": 140,
+  "QuoteLinesTemplate": 539,
+  "ConfirmationLinesTemplate": 562,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 482,
-  "MinEarningPercent": 728,
-  "GroupQuoteLinesBy": 838,
-  "SortGroupLinesBy": 883,
+  "MaxDiscountPercent": 457,
+  "MinEarningPercent": 518,
+  "GroupQuoteLinesBy": 642,
+  "SortGroupLinesBy": 146,
   "Stages": [
     {
-      "Id": 864,
-      "Name": "Wintheiser-Wilderman",
-      "ToolTip": "Veniam quae.",
-      "Deleted": false,
-      "Rank": 902,
-      "Type": "inventore",
-      "ColorBlock": 813,
-      "IconHint": "ea",
-      "Selected": true,
-      "LastChanged": "2015-06-16T02:49:44.6860468+02:00",
+      "Id": 425,
+      "Name": "Schuppe, Stark and Carroll",
+      "ToolTip": "Et eaque.",
+      "Deleted": true,
+      "Rank": 853,
+      "Type": "sunt",
+      "ColorBlock": 415,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "2008-03-09T17:37:18.2862416+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "qui",
-      "Hidden": false,
-      "FullName": "Mr. Ona Flatley",
+      "ExtraInfo": "cumque",
+      "StyleHint": "omnis",
+      "Hidden": true,
+      "FullName": "Judah Wiegand",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldType": "System.Int32",
+          "FieldLength": 81
         }
       }
     }
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldType": "System.Int32",
+      "FieldLength": 762
     }
   }
 }

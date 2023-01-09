@@ -12,8 +12,6 @@ GET /api/v1/User/{userName}
 Get a user, with lookup based on user name.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -40,7 +38,7 @@ Get a user, with lookup based on user name.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -48,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: User
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,10 +55,10 @@ Response body:
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
 | OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -77,7 +75,7 @@ Response body:
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,7 +84,7 @@ Response body:
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 805,
-  "Name": "Kreiger, Homenick and Gerlach",
-  "Rank": 419,
-  "Tooltip": "explicabo",
+  "AssociateId": 784,
+  "Name": "Gerhold, Bosco and Hickle",
+  "Rank": 655,
+  "Tooltip": "odio",
   "LicenseOwners": [
     {
-      "Name": "Jones, Abshire and Rippin",
-      "Description": "Streamlined optimizing attitude",
+      "Name": "Schimmel-Abernathy",
+      "Description": "Seamless national throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -117,13 +115,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 772
+          "FieldLength": 888
         }
       }
     },
     {
-      "Name": "Jones, Abshire and Rippin",
-      "Description": "Streamlined optimizing attitude",
+      "Name": "Schimmel-Abernathy",
+      "Description": "Seamless national throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 772
+          "FieldLength": 888
         }
       }
     }
@@ -146,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ea",
-      "Tooltip": "rerum",
-      "Id": 920,
-      "Rank": 706,
+      "Value": "quibusdam",
+      "Tooltip": "reiciendis",
+      "Id": 431,
+      "Rank": 784,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 925
+          "FieldType": "System.String",
+          "FieldLength": 105
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2021-01-28T02:49:51.8116461+01:00",
-  "Lastlogout": "2002-05-28T02:49:51.8116461+02:00",
-  "EjUserId": 158,
-  "RequestSignature": "dolorum",
+  "Deleted": true,
+  "Lastlogin": "1995-10-29T17:37:39.5594303+01:00",
+  "Lastlogout": "2016-05-21T17:37:39.5594303+02:00",
+  "EjUserId": 26,
+  "RequestSignature": "corrupti",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "unde",
-      "DisplayValue": "possimus",
+      "Value": "est",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldLength": 441
         }
       }
     },
     {
       "Type": null,
-      "Value": "unde",
-      "DisplayValue": "possimus",
+      "Value": "est",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldLength": 441
         }
       }
     }
   ],
-  "UserName": "Hettinger, Huels and Schaefer",
+  "UserName": "Harris-Leannon",
   "TicketCategories": [
     {
-      "Id": 52,
-      "Name": "Russel Inc and Sons",
-      "ToolTip": "Nemo sit perspiciatis minus qui autem tempore.",
-      "Deleted": true,
-      "Rank": 54,
-      "Type": "tenetur",
+      "Id": 328,
+      "Name": "Padberg Group",
+      "ToolTip": "Illum velit animi exercitationem exercitationem.",
+      "Deleted": false,
+      "Rank": 382,
+      "Type": "omnis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "veniam",
-      "ColorBlock": 360,
-      "ExtraInfo": "explicabo",
-      "StyleHint": "velit",
-      "FullName": "Antone Strosin",
+      "IconHint": "impedit",
+      "ColorBlock": 720,
+      "ExtraInfo": "dolorum",
+      "StyleHint": "aut",
+      "FullName": "Donna Reichert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 687
+          "FieldType": "System.String",
+          "FieldLength": 341
         }
       }
     }
   ],
-  "NickName": "Bogan Inc and Sons",
+  "NickName": "Kihn-Connelly",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "doloribus",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "iste",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "in"
+    "CustomFields1": "laborum",
+    "CustomFields2": "incidunt"
   },
   "PostSaveCommands": [
     {
-      "Name": "Waters, Jast and Hermann",
-      "DisplayName": "Quitzon LLC",
-      "Description": "Optional executive leverage",
-      "ToolTip": "Et ut est et quia ex totam.",
+      "Name": "Bode Inc and Sons",
+      "DisplayName": "Wiza, Rau and Berge",
+      "Description": "Synchronised holistic protocol",
+      "ToolTip": "Consequatur accusantium sequi laboriosam consequatur sit.",
       "Actions": "Implicit",
-      "ActionData": "saepe",
+      "ActionData": "dignissimos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 402
+          "FieldType": "System.String",
+          "FieldLength": 542
         }
       }
     }
@@ -258,8 +256,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldType": "System.String",
+      "FieldLength": 53
     }
   }
 }

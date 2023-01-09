@@ -25,7 +25,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=430
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=375
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,ca
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FormSubmissionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +66,7 @@ Response body:
 | Response | string | The JSON-formatted response from this form |
 | Status | string | What is the status of this submission |
 | ProcessingLog | string | A log of what happened during processing |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,7 +75,7 @@ Response body:
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 405,
-  "FormId": 623,
-  "WhenSubmitted": "2013-04-01T02:49:44.7172985+02:00",
-  "ContactId": 1001,
-  "PersonId": 565,
-  "EmailAddress": "holly@bergstrom.us",
-  "ResponseShipmentAddrId": 788,
-  "Response": "autem",
+  "FormSubmissionId": 328,
+  "FormId": 589,
+  "WhenSubmitted": "1999-11-26T17:37:18.3212412+01:00",
+  "ContactId": 122,
+  "PersonId": 924,
+  "EmailAddress": "clarabelle_braun@schmeler.com",
+  "ResponseShipmentAddrId": 34,
+  "Response": "architecto",
   "Status": "EmailVerification",
-  "ProcessingLog": "molestiae",
+  "ProcessingLog": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 345
     }
   }
 }

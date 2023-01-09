@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/GetDocumentTemplateProperties?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentTemplateId, RequestedProperties 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentTemplateId | int32 |  |
-| RequestedProperties | array |  |
+| DocumentTemplateId | Integer |  |
+| RequestedProperties | Array |  |
 
-
-## Response: object
+## Response:object
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -69,14 +68,14 @@ Response body: object
 POST /api/v1/Agents/List/GetDocumentTemplateProperties
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 600,
+  "DocumentTemplateId": 583,
   "RequestedProperties": [
-    "delectus",
-    "quos"
+    "ut",
+    "ab"
   ]
 }
 ```
@@ -88,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "explicabo",
-  "2": "vel"
+  "1": "nulla",
+  "2": "nulla"
 }
 ```

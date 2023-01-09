@@ -44,22 +44,21 @@ POST /api/v1/Agents/Find/FindWithColumns?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, DesiredColumns, PageSize, PageNumber, OrderBy 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| DesiredColumns | array |  |
-| PageSize | int32 |  |
-| PageNumber | int32 |  |
-| OrderBy | array |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| DesiredColumns | Array |  |
+| PageSize | Integer |  |
+| PageNumber | Integer |  |
+| OrderBy | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -67,14 +66,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FindResults
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,22 +86,22 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "neque",
-  "ProviderName": "Bechtelar Inc and Sons",
-  "StorageKey": "pariatur",
+  "StorageType": "praesentium",
+  "ProviderName": "Friesen, Sauer and Labadie",
+  "StorageKey": "numquam",
   "DesiredColumns": [
-    "blanditiis",
-    "ullam"
+    "architecto",
+    "ut"
   ],
-  "PageSize": 181,
-  "PageNumber": 7,
+  "PageSize": 140,
+  "PageNumber": 745,
   "OrderBy": [
     {
-      "Name": "Boyer Inc and Sons",
+      "Name": "Steuber-Sipes",
       "Direction": "ASC"
     },
     {
-      "Name": "Boyer Inc and Sons",
+      "Name": "Steuber-Sipes",
       "Direction": "ASC"
     }
   ]
@@ -118,51 +117,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bailey-Leffler",
-      "DisplayTooltip": "dicta",
-      "DisplayType": "est",
+      "DisplayName": "Stark, Crona and Funk",
+      "DisplayTooltip": "et",
+      "DisplayType": "perspiciatis",
       "CanOrderBy": false,
-      "Name": "Bartell Inc and Sons",
+      "Name": "Kling-Toy",
       "CanRestrictBy": false,
-      "RestrictionType": "itaque",
-      "RestrictionListName": "Gorczany Group",
+      "RestrictionType": "voluptatibus",
+      "RestrictionListName": "Skiles LLC",
       "IsVisible": false,
-      "ExtraInfo": "iste",
-      "Width": "corporis",
-      "IconHint": "rerum",
-      "HeadingIconHint": "praesentium"
+      "ExtraInfo": "molestias",
+      "Width": "non",
+      "IconHint": "a",
+      "HeadingIconHint": "iusto"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Cummings, Brown and Roob",
-      "PrimaryKey": 79,
+      "EntityName": "Armstrong Group",
+      "PrimaryKey": 736,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sit",
-          "TooltipHint": "assumenda",
-          "LinkHint": "sequi"
+          "DisplayValue": "veniam",
+          "TooltipHint": "non",
+          "LinkHint": "inventore"
         }
       },
-      "LinkHint": "nostrum",
-      "StyleHint": "nemo",
+      "LinkHint": "officiis",
+      "StyleHint": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 71
+          "FieldLength": 395
         }
       }
     }
   ],
-  "RowCount": 493,
+  "RowCount": 973,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldLength": 124
     }
   }
 }

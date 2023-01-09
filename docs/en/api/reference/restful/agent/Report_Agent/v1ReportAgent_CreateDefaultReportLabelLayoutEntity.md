@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ReportLabelLayoutEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +58,7 @@ Response body:
 | BottomMargin | int32 | Bottom margin in twips |
 | CountColumns | int32 | Number og columns |
 | CountRows | int32 | Number of rows |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 474,
-  "Name": "Schultz-Gleason",
-  "Description": "Fully-configurable empowering hardware",
+  "ReportLabelLayoutId": 736,
+  "Name": "Berge-Kuhic",
+  "Description": "Ameliorated exuding moratorium",
   "Orientation": "Landscape",
-  "PaperWidth": 502,
-  "PaperHeight": 911,
-  "LeftMargin": 151,
-  "RightMargin": 576,
-  "TopMargin": 566,
-  "BottomMargin": 808,
-  "CountColumns": 313,
-  "CountRows": 559,
+  "PaperWidth": 947,
+  "PaperHeight": 788,
+  "LeftMargin": 90,
+  "RightMargin": 36,
+  "TopMargin": 697,
+  "BottomMargin": 899,
+  "CountColumns": 579,
+  "CountRows": 742,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 293
     }
   }
 }

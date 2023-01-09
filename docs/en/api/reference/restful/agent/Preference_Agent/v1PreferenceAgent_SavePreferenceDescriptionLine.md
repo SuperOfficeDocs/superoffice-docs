@@ -32,21 +32,20 @@ Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescri
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The PreferenceDescriptionLine to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PrefDescLineId | int32 | Primary key |
-| PrefDescId | int32 | Preference description (parent) |
-| PrefValue | string | Possible value |
-| PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
-| Description | string | Description of preference value, multi-language parsed |
-| IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
+| PrefDescLineId | Integer | Primary key |
+| PrefDescId | Integer | Preference description (parent) |
+| PrefValue | String | Possible value |
+| PrefShowValue | String | Descriptive value, multilang-parsed, to put in list |
+| Description | String | Description of preference value, multi-language parsed |
+| IsBuiltin | Boolean | 1 = This row populated and maintained by SuperOffice |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -54,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreferenceDescriptionLine
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +63,7 @@ Response body:
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,15 +72,15 @@ Response body:
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 728,
-  "PrefDescId": 417,
-  "PrefValue": "sequi",
-  "PrefShowValue": "harum",
-  "Description": "Fundamental dedicated open system",
+  "PrefDescLineId": 416,
+  "PrefDescId": 944,
+  "PrefValue": "consequatur",
+  "PrefShowValue": "id",
+  "Description": "Re-contextualized multimedia adapter",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 71,
-  "PrefDescId": 677,
-  "PrefValue": "iure",
-  "PrefShowValue": "non",
-  "Description": "Right-sized uniform firmware",
+  "PrefDescLineId": 899,
+  "PrefDescId": 289,
+  "PrefValue": "magni",
+  "PrefShowValue": "sit",
+  "Description": "Fundamental even-keeled synergy",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 882
     }
   }
 }

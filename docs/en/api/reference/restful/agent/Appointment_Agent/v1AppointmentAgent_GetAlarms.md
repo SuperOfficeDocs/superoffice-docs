@@ -42,18 +42,17 @@ POST /api/v1/Agents/Appointment/GetAlarms?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 IncludeInvitations, IncludeAllAppointments, DefaultAlarmLeadTimeInMinutes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IncludeInvitations | bool |  |
-| IncludeAllAppointments | bool |  |
-| DefaultAlarmLeadTimeInMinutes | int32 |  |
+| IncludeInvitations | Boolean |  |
+| IncludeAllAppointments | Boolean |  |
+| DefaultAlarmLeadTimeInMinutes | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,14 +60,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: MultiAlarmData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Alarms | array |  |
 | PollingInterval | int32 |  |
 | SilentAfter | int32 |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,13 +76,13 @@ Response body:
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
   "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 881
+  "DefaultAlarmLeadTimeInMinutes": 492
 }
 ```
 
@@ -96,47 +95,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 58,
-      "StartTime": "2022-01-30T02:49:43.261747+01:00",
-      "EndDate": "2000-01-19T02:49:43.261747+01:00",
-      "AlarmTime": "2004-11-28T02:49:43.261747+01:00",
-      "PersonId": 665,
-      "PersonFullName": "Shania Jaskolski",
-      "ContactName": "Rogahn LLC",
-      "ProjectId": 138,
-      "ProjectName": "Zulauf Group",
-      "AppointmentText": "impedit",
-      "SaleId": 587,
-      "SaleName": "Ortiz Inc and Sons",
-      "Location": "ullam",
+      "AppointmentId": 738,
+      "StartTime": "1995-11-14T17:37:16.282241+01:00",
+      "EndDate": "2011-04-29T17:37:16.282241+02:00",
+      "AlarmTime": "2004-06-25T17:37:16.282241+02:00",
+      "PersonId": 407,
+      "PersonFullName": "Kale Carroll",
+      "ContactName": "Kerluke, Wyman and Klein",
+      "ProjectId": 611,
+      "ProjectName": "Emmerich, Spinka and Bartell",
+      "AppointmentText": "et",
+      "SaleId": 552,
+      "SaleName": "Waters-Welch",
+      "Location": "quod",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 543,
+      "ContactId": 338,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Volkman-Ferry",
-      "TaskName": "Watsica-Kuphal",
-      "ContactDepartment": "utilize value-added architectures",
-      "ContactFullName": "Alexandro Miller",
+      "FormalName": "Monahan Group",
+      "TaskName": "Barton Group",
+      "ContactDepartment": "",
+      "ContactFullName": "Elisabeth Baumbach",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 907
+          "FieldLength": 293
         }
       }
     }
   ],
-  "PollingInterval": 40,
-  "SilentAfter": 536,
+  "PollingInterval": 834,
+  "SilentAfter": 768,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldType": "System.String",
+      "FieldLength": 174
     }
   }
 }

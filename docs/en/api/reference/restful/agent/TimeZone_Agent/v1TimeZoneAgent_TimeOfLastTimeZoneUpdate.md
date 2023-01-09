@@ -42,7 +42,7 @@ POST /api/v1/Agents/TimeZone/TimeOfLastTimeZoneUpdate?$select=name,department,ca
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: date-time
+## Response:date-time
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: date-time
+### Response body: date-time
 
 
 ## Sample request
@@ -59,7 +59,7 @@ Response body: date-time
 POST /api/v1/Agents/TimeZone/TimeOfLastTimeZoneUpdate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -68,5 +68,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2000-08-02T02:49:45.6090971+02:00"
+"1998-10-15T17:37:19.4879762+02:00"
 ```

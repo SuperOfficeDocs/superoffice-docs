@@ -38,7 +38,7 @@ This call supports multiple criteria groups.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,20 +72,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Oberbrunner-Sipes",
-    "Description": "Re-engineered analyzing database",
-    "Rank": 692,
+    "Name": "Rosenbaum-Runolfsdottir",
+    "Description": "Stand-alone 5th generation intranet",
+    "Rank": 568,
     "Restrictions": [
       {
-        "Name": "Satterfield, Smith and Deckow",
+        "Name": "Mraz, Streich and Parker",
         "Operator": "et",
         "Values": [
-          "sint",
-          "sapiente"
+          "dolor",
+          "quae"
         ],
         "DisplayValues": [
-          "sapiente",
-          "ea"
+          "assumenda",
+          "similique"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -93,27 +93,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 492,
+        "InterParenthesis": 800,
         "InterOperator": "And",
-        "UniqueHash": 987
+        "UniqueHash": 340
       }
     ]
   },
   {
-    "Name": "Oberbrunner-Sipes",
-    "Description": "Re-engineered analyzing database",
-    "Rank": 692,
+    "Name": "Rosenbaum-Runolfsdottir",
+    "Description": "Stand-alone 5th generation intranet",
+    "Rank": 568,
     "Restrictions": [
       {
-        "Name": "Satterfield, Smith and Deckow",
+        "Name": "Mraz, Streich and Parker",
         "Operator": "et",
         "Values": [
-          "sint",
-          "sapiente"
+          "dolor",
+          "quae"
         ],
         "DisplayValues": [
-          "sapiente",
-          "ea"
+          "assumenda",
+          "similique"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -121,9 +121,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 492,
+        "InterParenthesis": 800,
         "InterOperator": "And",
-        "UniqueHash": 987
+        "UniqueHash": 340
       }
     ]
   }

@@ -48,7 +48,7 @@ GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 668,
-    "Name": "Crona, Mertz and Greenfelder",
-    "ToolTip": "Aut id debitis.",
-    "Deleted": false,
-    "Rank": 513,
-    "Type": "praesentium",
-    "ColorBlock": 770,
-    "IconHint": "pariatur",
+    "Id": 302,
+    "Name": "Waelchi, Becker and Schaefer",
+    "ToolTip": "Dignissimos sint sunt numquam fugit.",
+    "Deleted": true,
+    "Rank": 946,
+    "Type": "est",
+    "ColorBlock": 539,
+    "IconHint": "nihil",
     "Selected": true,
-    "LastChanged": "2014-11-20T02:49:52.4534506+01:00",
+    "LastChanged": "2000-04-19T17:37:40.2715095+02:00",
     "ChildItems": [
       {
-        "Id": 998,
-        "Name": "Lebsack, Altenwerth and Dickens",
-        "ToolTip": "Consequatur voluptatem et necessitatibus.",
+        "Id": 641,
+        "Name": "Lueilwitz Group",
+        "ToolTip": "Rerum delectus autem omnis inventore delectus omnis.",
         "Deleted": false,
-        "Rank": 779,
-        "Type": "eaque",
-        "ColorBlock": 617,
-        "IconHint": "ex",
+        "Rank": 514,
+        "Type": "et",
+        "ColorBlock": 451,
+        "IconHint": "officiis",
         "Selected": false,
-        "LastChanged": "2001-07-26T02:49:52.4534506+02:00",
+        "LastChanged": "2011-05-05T17:37:40.2715095+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "fugiat",
-        "Hidden": true,
-        "FullName": "Sally Kessler",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "repudiandae",
+        "Hidden": false,
+        "FullName": "Eloy Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 227
+            "FieldLength": 95
           }
         }
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "placeat",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Mrs. Gisselle Schultz",
+    "FullName": "Ms. Kristopher Myles Gulgowski V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 372
+        "FieldType": "System.String",
+        "FieldLength": 945
       }
     }
   }

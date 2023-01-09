@@ -42,17 +42,16 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 CopyFromSaleId, CopyToSaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CopyFromSaleId | int32 |  |
-| CopyToSaleId | int32 |  |
+| CopyFromSaleId | Integer |  |
+| CopyToSaleId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +76,7 @@ Response body:
 | OrderComment | string | A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing |
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
 | QuoteVersions | array | Array og QuoteVersions connected to the quote. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 7,
-  "CopyToSaleId": 944
+  "CopyFromSaleId": 419,
+  "CopyToSaleId": 831
 }
 ```
 
@@ -102,58 +101,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 824,
-  "SaleId": 855,
-  "QuoteConnectionId": 154,
-  "ERPQuoteKey": "minus",
-  "ERPOrderKey": "aut",
-  "ActiveQuoteVersionId": 75,
-  "AcceptedQuoteAlternativeId": 529,
-  "UseValuesFromQuote": 170,
-  "DocumentId": 855,
-  "PoNumber": "1209794",
-  "OrderComment": "rerum",
-  "PreferredEmailCulture": "marjorie_schimmel@bednar.ca",
+  "QuoteId": 799,
+  "SaleId": 421,
+  "QuoteConnectionId": 97,
+  "ERPQuoteKey": "architecto",
+  "ERPOrderKey": "blanditiis",
+  "ActiveQuoteVersionId": 364,
+  "AcceptedQuoteAlternativeId": 854,
+  "UseValuesFromQuote": 884,
+  "DocumentId": 27,
+  "PoNumber": "1256822",
+  "OrderComment": "incidunt",
+  "PreferredEmailCulture": "ethyl@bruen.name",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 341,
-      "ERPQuoteVersionKey": "aut",
-      "QuoteId": 235,
-      "Description": "Customer-focused logistical project",
-      "Number": "1184897",
+      "QuoteVersionId": 658,
+      "ERPQuoteVersionKey": "consequuntur",
+      "QuoteId": 271,
+      "Description": "Synchronised 24 hour infrastructure",
+      "Number": "303013",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 569,
-      "SentDate": "2013-11-29T02:49:45.0465904+01:00",
-      "FollowupId": 243,
-      "ExpirationDate": "2002-09-28T02:49:45.0465904+02:00",
-      "DeliveryCountryId": 915,
+      "LikelyQuoteAlternativeId": 490,
+      "SentDate": "2010-08-10T17:37:18.7602417+02:00",
+      "FollowupId": 540,
+      "ExpirationDate": "2003-04-07T17:37:18.7602417+02:00",
+      "DeliveryCountryId": 616,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 428,
+      "InvoiceCountryId": 508,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "aut",
-      "ERPPaymentTypeKey": "quam",
-      "ERPDeliveryTermsKey": "dolor",
-      "ERPDeliveryTypeKey": "quo",
-      "Rank": 497,
-      "ApprovedBy": 717,
-      "ApprovedText": "laborum",
-      "ApprovedRegisteredBy": 138,
-      "ApprovedRegisteredDate": "2021-12-11T02:49:45.0465904+01:00",
-      "ExtraField1": "reiciendis",
-      "ExtraField2": "vel",
-      "ExtraField3": "non",
-      "ExtraField4": "ullam",
-      "ExtraField5": "quia",
-      "LastRecalculated": "2015-01-01T02:49:45.0465904+01:00",
-      "Updated": "2003-11-29T02:49:45.0465904+01:00",
-      "UpdatedAssociateId": 684,
-      "Registered": "2000-02-06T02:49:45.0465904+01:00",
-      "RegisteredAssociateId": 981,
-      "RequestAssociateId": 990,
-      "RequestComment": "nisi",
+      "ERPPaymentTermsKey": "est",
+      "ERPPaymentTypeKey": "ullam",
+      "ERPDeliveryTermsKey": "ipsum",
+      "ERPDeliveryTypeKey": "repudiandae",
+      "Rank": 12,
+      "ApprovedBy": 64,
+      "ApprovedText": "sed",
+      "ApprovedRegisteredBy": 607,
+      "ApprovedRegisteredDate": "2000-01-29T17:37:18.7602417+01:00",
+      "ExtraField1": "officia",
+      "ExtraField2": "architecto",
+      "ExtraField3": "reprehenderit",
+      "ExtraField4": "distinctio",
+      "ExtraField5": "eius",
+      "LastRecalculated": "2005-12-26T17:37:18.7612417+01:00",
+      "Updated": "2005-05-02T17:37:18.7612417+02:00",
+      "UpdatedAssociateId": 312,
+      "Registered": "2010-06-30T17:37:18.7612417+02:00",
+      "RegisteredAssociateId": 539,
+      "RequestAssociateId": 186,
+      "RequestComment": "unde",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 568
         }
       }
     }
@@ -173,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 708
     }
   }
 }

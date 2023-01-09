@@ -37,6 +37,10 @@ title: User
 
 * [POST User/Validate](v1User_ValidateUser.md)
 
+* [GET User/{id}/UserPresenceStatus](v1User_GetUserPresenceStatus.md)
+
+* [PUT User/{id}/UserPresenceStatus](v1User_SetUserPresenceStatus.md)
+
 * [GET User/CustomField](v1User_GetCustomFieldInfoList.md)
 
 * [GET User/CustomField/{fieldName}](v1User_GetCustomFieldInfo.md)

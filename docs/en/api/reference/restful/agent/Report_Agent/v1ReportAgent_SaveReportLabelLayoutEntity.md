@@ -32,27 +32,26 @@ Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutE
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ReportLabelLayoutEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ReportLabelLayoutId | int32 | Primary key |
-| Name | string | Name of the label layout |
-| Description | string | Description |
-| Orientation | string | Paper orientation: 1=portrait, 2=landscape |
-| PaperWidth | int32 | Paper width in twips |
-| PaperHeight | int32 | Paper height in twips |
-| LeftMargin | int32 | Left margin in twips |
-| RightMargin | int32 | Right margin in twips |
-| TopMargin | int32 | Top margin in twips |
-| BottomMargin | int32 | Bottom margin in twips |
-| CountColumns | int32 | Number og columns |
-| CountRows | int32 | Number of rows |
+| ReportLabelLayoutId | Integer | Primary key |
+| Name | String | Name of the label layout |
+| Description | String | Description |
+| Orientation | String | Paper orientation: 1=portrait, 2=landscape |
+| PaperWidth | Integer | Paper width in twips |
+| PaperHeight | Integer | Paper height in twips |
+| LeftMargin | Integer | Left margin in twips |
+| RightMargin | Integer | Right margin in twips |
+| TopMargin | Integer | Top margin in twips |
+| BottomMargin | Integer | Bottom margin in twips |
+| CountColumns | Integer | Number og columns |
+| CountRows | Integer | Number of rows |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ReportLabelLayoutEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body:
 | BottomMargin | int32 | Bottom margin in twips |
 | CountColumns | int32 | Number og columns |
 | CountRows | int32 | Number of rows |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,22 +84,22 @@ Response body:
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 848,
-  "Name": "Schamberger-Koch",
-  "Description": "Future-proofed client-driven algorithm",
+  "ReportLabelLayoutId": 208,
+  "Name": "McClure-Ryan",
+  "Description": "Grass-roots interactive interface",
   "Orientation": "Landscape",
-  "PaperWidth": 925,
-  "PaperHeight": 601,
-  "LeftMargin": 175,
-  "RightMargin": 555,
-  "TopMargin": 666,
-  "BottomMargin": 388,
-  "CountColumns": 288,
-  "CountRows": 771
+  "PaperWidth": 953,
+  "PaperHeight": 989,
+  "LeftMargin": 162,
+  "RightMargin": 862,
+  "TopMargin": 681,
+  "BottomMargin": 31,
+  "CountColumns": 28,
+  "CountRows": 951
 }
 ```
 
@@ -111,24 +110,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 425,
-  "Name": "Rolfson Inc and Sons",
-  "Description": "Ergonomic 6th generation Graphic Interface",
+  "ReportLabelLayoutId": 263,
+  "Name": "Abernathy-Jacobi",
+  "Description": "Reverse-engineered client-server capability",
   "Orientation": "Landscape",
-  "PaperWidth": 941,
-  "PaperHeight": 153,
-  "LeftMargin": 651,
-  "RightMargin": 200,
-  "TopMargin": 638,
-  "BottomMargin": 837,
-  "CountColumns": 276,
-  "CountRows": 150,
+  "PaperWidth": 618,
+  "PaperHeight": 402,
+  "LeftMargin": 154,
+  "RightMargin": 96,
+  "TopMargin": 887,
+  "BottomMargin": 693,
+  "CountColumns": 209,
+  "CountRows": 223,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldLength": 759
     }
   }
 }

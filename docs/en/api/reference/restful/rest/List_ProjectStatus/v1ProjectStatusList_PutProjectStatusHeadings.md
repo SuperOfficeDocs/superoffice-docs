@@ -34,21 +34,20 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HeadingId | int32 | Primary key |
-| Name | string | The visible heading |
-| Tooltip | string | Tooltip or other description |
-| Deleted | bool | True if the heading is marked as deleted |
-| Rank | int32 | Rank order |
-| UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+| HeadingId | Integer | Primary key |
+| Name | String | The visible heading |
+| Tooltip | String | Tooltip or other description |
+| Deleted | Boolean | True if the heading is marked as deleted |
+| Rank | Integer | Rank order |
+| UdListDefinitionId | Integer | The id of the list which this heading belongs to |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body: array
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 277,
-    "Name": "Armstrong, Spinka and Reilly",
-    "Tooltip": "non",
+    "HeadingId": 278,
+    "Name": "Hilpert Inc and Sons",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "Rank": 625,
-    "UdListDefinitionId": 87
+    "Rank": 155,
+    "UdListDefinitionId": 762
   },
   {
-    "HeadingId": 277,
-    "Name": "Armstrong, Spinka and Reilly",
-    "Tooltip": "non",
+    "HeadingId": 278,
+    "Name": "Hilpert Inc and Sons",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "Rank": 625,
-    "UdListDefinitionId": 87
+    "Rank": 155,
+    "UdListDefinitionId": 762
   }
 ]
 ```
@@ -106,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 776,
-    "Name": "Brakus, Howell and Stehr",
-    "Tooltip": "amet",
-    "Deleted": false,
-    "Rank": 422,
-    "UdListDefinitionId": 505,
+    "HeadingId": 821,
+    "Name": "Leffler-Tromp",
+    "Tooltip": "placeat",
+    "Deleted": true,
+    "Rank": 356,
+    "UdListDefinitionId": 983,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 744
+        "FieldType": "System.Int32",
+        "FieldLength": 114
       }
     }
   }

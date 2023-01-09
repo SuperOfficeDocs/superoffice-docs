@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=porro
-GET /api/v1/Selection?$top=550
-GET /api/v1/Selection?$skip=39
+GET /api/v1/Selection?$entities=animi
+GET /api/v1/Selection?$top=598
+GET /api/v1/Selection?$skip=345
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=ducimus
+GET /api/v1/Selection?$context=quo
 GET /api/v1/Selection?$format=JSON
-GET /api/v1/Selection?$jsonSafe=True
+GET /api/v1/Selection?$jsonSafe=False
 GET /api/v1/Selection?$output=Display
 ```
 
@@ -96,7 +95,7 @@ GET /api/v1/Selection?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body:
 GET /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "pariatur",
+  "odata.nextLink": "repudiandae",
   "value": [
     {
-      "PrimaryKey": 5222,
-      "EntityName": "person",
-      "personId": 5222,
-      "fullName": "Randal Kirlin III"
+      "PrimaryKey": 3528,
+      "EntityName": "sale",
+      "saleId": 3528,
+      "contactId": 5452,
+      "name": "Jenkins, Schuster and Herman"
     },
     {
-      "PrimaryKey": 2488,
-      "EntityName": "person",
-      "personId": 2488,
-      "fullName": "Erich Conn II"
+      "PrimaryKey": 9802,
+      "EntityName": "sale",
+      "saleId": 9802,
+      "contactId": 5011,
+      "name": "Langosh LLC"
     }
   ]
 }

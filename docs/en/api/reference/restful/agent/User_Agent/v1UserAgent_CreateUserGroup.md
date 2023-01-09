@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/CreateUserGroup
 Create UserGroup (Rank is assigned to the highest rank)
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,7 +44,7 @@ POST /api/v1/Agents/User/CreateUserGroup?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -54,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserGroup
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +61,7 @@ Response body:
 | Id | int32 | Primary key |
 | Rank | int32 | Rank order |
 | Deleted | bool | Deleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -72,7 +70,7 @@ Response body:
 POST /api/v1/Agents/User/CreateUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "cupiditate",
-  "Tooltip": "non",
-  "Id": 350,
-  "Rank": 637,
-  "Deleted": true,
+  "Value": "ducimus",
+  "Tooltip": "dolorem",
+  "Id": 818,
+  "Rank": 989,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldType": "System.String",
+      "FieldLength": 973
     }
   }
 }

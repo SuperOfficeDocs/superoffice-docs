@@ -44,16 +44,15 @@ POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
+| SelectionId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,11 +75,11 @@ Response body: array
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 345
+  "SelectionId": 574
 }
 ```
 
@@ -92,58 +91,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Effertz-Koelpin",
-    "Description": "Cloned actuating collaboration",
-    "Rank": 177,
+    "Name": "Zemlak Group",
+    "Description": "Mandatory mission-critical moderator",
+    "Rank": 735,
     "Restrictions": [
       {
-        "Name": "Hahn-Kovacek",
-        "Operator": "aut",
+        "Name": "Pollich, Bartoletti and Ledner",
+        "Operator": "sapiente",
         "Values": [
-          "iure",
-          "quisquam"
+          "dolorem",
+          "praesentium"
         ],
         "DisplayValues": [
-          "minima",
-          "cumque"
+          "voluptatem",
+          "ab"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 240,
+        "InterParenthesis": 763,
         "InterOperator": "And",
-        "UniqueHash": 138
+        "UniqueHash": 972
       }
     ]
   },
   {
-    "Name": "Effertz-Koelpin",
-    "Description": "Cloned actuating collaboration",
-    "Rank": 177,
+    "Name": "Zemlak Group",
+    "Description": "Mandatory mission-critical moderator",
+    "Rank": 735,
     "Restrictions": [
       {
-        "Name": "Hahn-Kovacek",
-        "Operator": "aut",
+        "Name": "Pollich, Bartoletti and Ledner",
+        "Operator": "sapiente",
         "Values": [
-          "iure",
-          "quisquam"
+          "dolorem",
+          "praesentium"
         ],
         "DisplayValues": [
-          "minima",
-          "cumque"
+          "voluptatem",
+          "ab"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 240,
+        "InterParenthesis": 763,
         "InterOperator": "And",
-        "UniqueHash": 138
+        "UniqueHash": 972
       }
     ]
   }

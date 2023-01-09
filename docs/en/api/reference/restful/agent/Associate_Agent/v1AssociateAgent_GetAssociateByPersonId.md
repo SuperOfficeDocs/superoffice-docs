@@ -42,16 +42,15 @@ POST /api/v1/Agents/Associate/GetAssociateByPersonId?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
+| PersonId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Associate
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body:
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
 | UserName | string | User name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,11 +83,11 @@ Response body:
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 644
+  "PersonId": 319
 }
 ```
 
@@ -99,24 +98,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 643,
-  "Name": "Morissette, Stoltenberg and Dickens",
-  "PersonId": 3,
-  "Rank": 692,
-  "Tooltip": "qui",
+  "AssociateId": 129,
+  "Name": "Hilpert-Langworth",
+  "PersonId": 798,
+  "Rank": 214,
+  "Tooltip": "laudantium",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 121,
-  "FullName": "Mrs. Jaime Blanda",
-  "FormalName": "Rolfson LLC",
+  "GroupIdx": 820,
+  "FullName": "Dereck Kessler",
+  "FormalName": "Heller, Price and Lang",
   "Deleted": false,
-  "EjUserId": 285,
-  "UserName": "Ankunding Inc and Sons",
+  "EjUserId": 388,
+  "UserName": "Labadie, Strosin and Ryan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldType": "System.String",
+      "FieldLength": 991
     }
   }
 }

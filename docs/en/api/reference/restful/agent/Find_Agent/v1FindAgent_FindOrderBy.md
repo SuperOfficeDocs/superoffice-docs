@@ -44,21 +44,20 @@ POST /api/v1/Agents/Find/FindOrderBy?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, PageSize, PageNumber, OrderBy 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| PageSize | int32 |  |
-| PageNumber | int32 |  |
-| OrderBy | array |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| PageSize | Integer |  |
+| PageNumber | Integer |  |
+| OrderBy | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,14 +65,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FindResults
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,18 +85,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "est",
-  "ProviderName": "Fritsch, Nienow and Sporer",
-  "StorageKey": "aperiam",
-  "PageSize": 63,
-  "PageNumber": 742,
+  "StorageType": "quae",
+  "ProviderName": "Dickens-Shields",
+  "StorageKey": "omnis",
+  "PageSize": 135,
+  "PageNumber": 785,
   "OrderBy": [
     {
-      "Name": "Turner Group",
+      "Name": "Hand, Stracke and Mosciski",
       "Direction": "ASC"
     },
     {
-      "Name": "Turner Group",
+      "Name": "Hand, Stracke and Mosciski",
       "Direction": "ASC"
     }
   ]
@@ -113,51 +112,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gibson LLC",
-      "DisplayTooltip": "hic",
-      "DisplayType": "fuga",
-      "CanOrderBy": false,
-      "Name": "Powlowski-Mante",
+      "DisplayName": "Koelpin, Mann and Osinski",
+      "DisplayTooltip": "natus",
+      "DisplayType": "nobis",
+      "CanOrderBy": true,
+      "Name": "Torp-Brown",
       "CanRestrictBy": false,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Wolf LLC",
-      "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "cupiditate",
-      "IconHint": "qui",
-      "HeadingIconHint": "soluta"
+      "RestrictionType": "cumque",
+      "RestrictionListName": "Koss LLC",
+      "IsVisible": false,
+      "ExtraInfo": "praesentium",
+      "Width": "quis",
+      "IconHint": "vel",
+      "HeadingIconHint": "inventore"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Doyle-Blick",
-      "PrimaryKey": 59,
+      "EntityName": "Grimes Group",
+      "PrimaryKey": 153,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nostrum",
-          "TooltipHint": "omnis",
+          "DisplayValue": "eos",
+          "TooltipHint": "molestiae",
           "LinkHint": "nostrum"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "et",
+      "LinkHint": "ea",
+      "StyleHint": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 822
+          "FieldType": "System.Int32",
+          "FieldLength": 298
         }
       }
     }
   ],
-  "RowCount": 844,
+  "RowCount": 281,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldType": "System.String",
+      "FieldLength": 409
     }
   }
 }

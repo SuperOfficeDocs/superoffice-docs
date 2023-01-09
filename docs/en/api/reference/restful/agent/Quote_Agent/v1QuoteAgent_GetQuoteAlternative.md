@@ -25,7 +25,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=707
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=387
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/i
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteAlternative
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +79,7 @@ Response body:
 | ExtraField3 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,7 +88,7 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 795,
-  "ERPQuoteAlternativeKey": "soluta",
-  "QuoteVersionId": 997,
-  "Name": "Grimes LLC",
-  "Description": "Multi-layered systematic local area network",
+  "QuoteAlternativeId": 620,
+  "ERPQuoteAlternativeKey": "rerum",
+  "QuoteVersionId": 98,
+  "Name": "Russel-Lakin",
+  "Description": "Horizontal upward-trending strategy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 18797.732,
-  "ERPDiscountAmount": 15387.939999999999,
-  "DiscountPercent": 2748.518,
-  "DiscountAmount": 17086.568,
+  "ERPDiscountPercent": 13169.068,
+  "ERPDiscountAmount": 30315.182,
+  "DiscountPercent": 12332.289999999999,
+  "DiscountAmount": 1125.106,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "sint",
-  "VAT": 3425.462,
-  "EarningPercent": 31177.032,
-  "EarningAmount": 12467.052,
-  "SubTotal": 10950.196,
-  "TotalPrice": 23012.962,
-  "ExtraField1": "aut",
-  "ExtraField2": "a",
-  "ExtraField3": "nostrum",
-  "ExtraField4": "modi",
-  "ExtraField5": "omnis",
+  "VATInfo": "natus",
+  "VAT": 626.8,
+  "EarningPercent": 23260.548,
+  "EarningAmount": 24059.718,
+  "SubTotal": 382.348,
+  "TotalPrice": 17682.028,
+  "ExtraField1": "perferendis",
+  "ExtraField2": "similique",
+  "ExtraField3": "ut",
+  "ExtraField4": "quam",
+  "ExtraField5": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldLength": 383
     }
   }
 }

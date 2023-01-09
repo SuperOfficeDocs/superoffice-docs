@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,14 +73,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document/{id}/Links?$select=name,department,category/id
 GET /api/v1/Document/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Document/{id}/Links?$orderBy=name asc
-GET /api/v1/Document/{id}/Links?$entities=nemo
-GET /api/v1/Document/{id}/Links?$top=220
-GET /api/v1/Document/{id}/Links?$skip=68
+GET /api/v1/Document/{id}/Links?$entities=aut
+GET /api/v1/Document/{id}/Links?$top=325
+GET /api/v1/Document/{id}/Links?$skip=618
 GET /api/v1/Document/{id}/Links?$mode=Full
 GET /api/v1/Document/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Document/{id}/Links?$context=earum
+GET /api/v1/Document/{id}/Links?$context=quod
 GET /api/v1/Document/{id}/Links?$format=JSON
-GET /api/v1/Document/{id}/Links?$jsonSafe=True
+GET /api/v1/Document/{id}/Links?$jsonSafe=False
 GET /api/v1/Document/{id}/Links?$output=Display
 ```
 
@@ -100,7 +99,7 @@ GET /api/v1/Document/{id}/Links?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Document/{id}/Links
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nisi",
+  "odata.nextLink": "sit",
   "value": [
     {
-      "PrimaryKey": 7947,
-      "EntityName": "person",
-      "personId": 7947,
-      "fullName": "Ollie Borer"
+      "PrimaryKey": 4368,
+      "EntityName": "sale",
+      "saleId": 4368,
+      "contactId": 4953,
+      "name": "Williamson Inc and Sons"
     },
     {
-      "PrimaryKey": 508,
-      "EntityName": "person",
-      "personId": 508,
-      "fullName": "Greta Legros III"
+      "PrimaryKey": 1620,
+      "EntityName": "sale",
+      "saleId": 1620,
+      "contactId": 5493,
+      "name": "Brown Group"
     }
   ]
 }

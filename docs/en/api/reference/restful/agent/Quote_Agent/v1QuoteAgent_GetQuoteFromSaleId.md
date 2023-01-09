@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/GetQuoteFromSaleId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SaleId | int32 |  |
+| SaleId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Quote
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,9 +74,9 @@ Response body:
 | PoNumber | string | Customer's Purchase order number |
 | OrderComment | string | A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing |
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
-| ActiveQuoteVersion |  | The active quote version for the quote |
-| FavoriteQuoteAlternative |  | The favorite quote alternative for the quote and active quote version. |
-| TableRight |  |  |
+| ActiveQuoteVersion | QuoteVersion | The active quote version for the quote |
+| FavoriteQuoteAlternative | QuoteAlternative | The favorite quote alternative for the quote and active quote version. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,11 +85,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 380
+  "SaleId": 50
 }
 ```
 
@@ -101,26 +100,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 976,
-  "SaleId": 349,
-  "QuoteConnectionId": 438,
-  "ERPQuoteKey": "corrupti",
-  "ERPOrderKey": "id",
-  "ActiveQuoteVersionId": 524,
-  "AcceptedQuoteAlternativeId": 989,
-  "UseValuesFromQuote": 254,
-  "DocumentId": 228,
-  "PoNumber": "1138276",
-  "OrderComment": "aut",
-  "PreferredEmailCulture": "erich_haag@huels.com",
+  "QuoteId": 758,
+  "SaleId": 261,
+  "QuoteConnectionId": 395,
+  "ERPQuoteKey": "adipisci",
+  "ERPOrderKey": "nam",
+  "ActiveQuoteVersionId": 192,
+  "AcceptedQuoteAlternativeId": 213,
+  "UseValuesFromQuote": 944,
+  "DocumentId": 699,
+  "PoNumber": "431941",
+  "OrderComment": "dicta",
+  "PreferredEmailCulture": "kaelyn.haag@rutherford.biz",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 273
+      "FieldType": "System.Int32",
+      "FieldLength": 317
     }
   }
 }

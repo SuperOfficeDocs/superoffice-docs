@@ -42,16 +42,15 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonId
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactPersonIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactPersonIds | array |  |
+| ContactPersonIds | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,16 +58,16 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SelectionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| Associate |  | Owner of the selection |
-| CreatedBy |  | Who created the selection |
-| UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| Associate | Associate | Owner of the selection |
+| CreatedBy | Associate | Who created the selection |
+| UpdatedBy | Associate | Who last modified the selection |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -95,16 +94,16 @@ Response body:
 | ChartKey | string | ID/key of the last-used chart tile on this selection |
 | LastLoaded | date-time | The date/time this selection was last loaded (selectionentity fetched) |
 | LastLoadedBy | int32 | Who last loaded this selection |
-| LastLoadedByAssociate |  | Associate that last looked at the selection members; only date (not time) is valid |
+| LastLoadedByAssociate | Associate | Associate that last looked at the selection members; only date (not time) is valid |
 | LastMembershipChange | date-time | The date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm |
 | LastMembershipChangeBy | int32 | Who last changed the membership |
-| LastMembershipChangeByAssociate |  | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
+| LastMembershipChangeByAssociate | Associate | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
 | MainHeading | string | 'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references |
 | MemberTabHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references |
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -113,18 +112,18 @@ Response body:
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 98,
-      "ContactId": 744
+      "PersonId": 366,
+      "ContactId": 52
     },
     {
-      "PersonId": 98,
-      "ContactId": 744
+      "PersonId": 366,
+      "ContactId": 52
     }
   ]
 }
@@ -137,70 +136,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured even-keeled help-desk",
-  "Postit": "distinctio",
+  "Description": "Object-based modular local area network",
+  "Postit": "molestiae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 292,
-  "IncludePerson": 751,
-  "MemberCount": 801,
-  "Name": "Marquardt Group",
-  "PostitTextId": 314,
-  "CreatedDate": "2013-06-17T02:49:45.3747116+02:00",
-  "SelectionId": 564,
-  "SoundEx": "doloremque",
-  "Source": 286,
-  "TextId": 338,
-  "UpdatedDate": "1996-08-12T02:49:45.3747116+02:00",
-  "UpdatedCount": 157,
-  "Visibility": 705,
+  "GroupIdx": 985,
+  "IncludePerson": 377,
+  "MemberCount": 121,
+  "Name": "Williamson, Dach and Reinger",
+  "PostitTextId": 326,
+  "CreatedDate": "2012-08-16T17:37:19.1612417+02:00",
+  "SelectionId": 724,
+  "SoundEx": "excepturi",
+  "Source": 969,
+  "TextId": 561,
+  "UpdatedDate": "1998-08-07T17:37:19.1612417+02:00",
+  "UpdatedCount": 839,
+  "Visibility": 305,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 327,
-  "TargetTableName": "Spinka, Johnson and Koepp",
-  "Completed": true,
-  "LeftSelectionId": 136,
-  "RightSelectionId": 883,
+  "CompanyUnique": false,
+  "TargetTableNumber": 946,
+  "TargetTableName": "Hickle, O'Kon and Schultz",
+  "Completed": false,
+  "LeftSelectionId": 344,
+  "RightSelectionId": 718,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kemmer, Brakus and Rice",
-  "ShadowProviderName": "Morissette-Wiza",
-  "ChartKey": "nihil",
-  "LastLoaded": "2005-06-20T02:49:45.3747116+02:00",
-  "LastLoadedBy": 13,
+  "MainProviderName": "Hessel-Marks",
+  "ShadowProviderName": "Schinner, Mayer and Luettgen",
+  "ChartKey": "dolorem",
+  "LastLoaded": "2019-04-08T17:37:19.1622424+02:00",
+  "LastLoadedBy": 889,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-06-02T02:49:45.3747116+02:00",
-  "LastMembershipChangeBy": 408,
+  "LastMembershipChange": "2002-09-26T17:37:19.1622424+02:00",
+  "LastMembershipChangeBy": 934,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "voluptatem",
-  "MailingsProviderName": "Bogan Inc and Sons",
-  "DashboardTileDefinitionId": 230,
+  "MainHeading": "est",
+  "MemberTabHeading": "voluptates",
+  "MailingsProviderName": "Mraz Group",
+  "DashboardTileDefinitionId": 2,
   "VisibleFor": [
     {
-      "VisibleId": 249,
+      "VisibleId": 91,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 384
+          "FieldLength": 431
         }
       }
     },
     {
-      "VisibleId": 249,
+      "VisibleId": 91,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 384
+          "FieldLength": 431
         }
       }
     }
@@ -210,7 +209,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldLength": 451
     }
   }
 }

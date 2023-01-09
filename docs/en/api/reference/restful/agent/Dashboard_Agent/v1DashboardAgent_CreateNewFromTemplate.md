@@ -42,20 +42,19 @@ POST /api/v1/Agents/Dashboard/CreateNewFromTemplate?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DashboardTileId, Caption, Description, SelectionId, VisibleFor 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardTileId | int32 |  |
-| Caption | string |  |
-| Description | string |  |
-| SelectionId | int32 |  |
-| VisibleFor | array |  |
+| DashboardTileId | Integer |  |
+| Caption | String |  |
+| Description | String |  |
+| SelectionId | Integer |  |
+| VisibleFor | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashboardTile
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +80,7 @@ Response body:
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,24 +89,24 @@ Response body:
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 244,
-  "Caption": "aliquid",
-  "Description": "Phased zero defect support",
-  "SelectionId": 389,
+  "DashboardTileId": 939,
+  "Caption": "quia",
+  "Description": "Customer-focused foreground encryption",
+  "SelectionId": 950,
   "VisibleFor": [
     {
-      "VisibleId": 553,
+      "VisibleId": 317,
       "Visibility": "All",
-      "DisplayValue": "nesciunt"
+      "DisplayValue": "qui"
     },
     {
-      "VisibleId": 553,
+      "VisibleId": 317,
       "Visibility": "All",
-      "DisplayValue": "nesciunt"
+      "DisplayValue": "qui"
     }
   ]
 }
@@ -120,64 +119,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 283,
-  "Caption": "voluptatem",
-  "Description": "Expanded eco-centric artificial intelligence",
-  "ChartName": "Morissette LLC",
-  "ChartId": "sequi",
-  "IsDefault": false,
-  "AssociateId": 26,
-  "GroupId": 410,
-  "SelectionId": 37,
-  "Config": "et",
+  "DashboardTileId": 846,
+  "Caption": "perspiciatis",
+  "Description": "Vision-oriented value-added flexibility",
+  "ChartName": "Prohaska, Walter and Boyer",
+  "ChartId": "maxime",
+  "IsDefault": true,
+  "AssociateId": 119,
+  "GroupId": 505,
+  "SelectionId": 425,
+  "Config": "labore",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Rohan Group",
-      "Description": "Organic impactful emulation",
+      "Name": "Crona, Terry and Koelpin",
+      "Description": "Organic needs-based open architecture",
       "Type": "Boolean",
-      "ListName": "Pollich, Streich and Predovic",
+      "ListName": "Gottlieb, Heaney and Feeney",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sapiente",
-      "DefaultDataOption": true,
+      "Value": "perspiciatis",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 520
+          "FieldType": "System.Int32",
+          "FieldLength": 444
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 408,
+      "VisibleId": 312,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 37
+          "FieldType": "System.Int32",
+          "FieldLength": 416
         }
       }
     },
     {
-      "VisibleId": 408,
+      "VisibleId": 312,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 37
+          "FieldType": "System.Int32",
+          "FieldLength": 416
         }
       }
     }
@@ -186,8 +185,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldType": "System.String",
+      "FieldLength": 839
     }
   }
 }

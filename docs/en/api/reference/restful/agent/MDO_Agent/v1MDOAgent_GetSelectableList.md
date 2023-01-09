@@ -42,19 +42,18 @@ POST /api/v1/Agents/MDO/GetSelectableList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name, ForceFlatList, AdditionalInfo, OnlyHistory 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| ForceFlatList | bool |  |
-| AdditionalInfo | string |  |
-| OnlyHistory | bool |  |
+| Name | String |  |
+| ForceFlatList | Boolean |  |
+| AdditionalInfo | String |  |
+| OnlyHistory | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +80,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,9 +93,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Anderson, Ratke and Daugherty",
-  "ForceFlatList": true,
-  "AdditionalInfo": "deserunt",
+  "Name": "Marvin Inc and Sons",
+  "ForceFlatList": false,
+  "AdditionalInfo": "occaecati",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Simonis Group",
-    "ToolTip": "Enim est praesentium aut corporis alias pariatur.",
-    "Deleted": true,
-    "Rank": 774,
-    "Type": "quos",
-    "ColorBlock": 432,
-    "IconHint": "voluptas",
+    "Id": 544,
+    "Name": "Rohan-Walter",
+    "ToolTip": "Exercitationem necessitatibus quia cum itaque ad.",
+    "Deleted": false,
+    "Rank": 347,
+    "Type": "nostrum",
+    "ColorBlock": 492,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2017-11-08T02:49:44.7340524+01:00",
+    "LastChanged": "2019-08-20T17:37:18.3462409+02:00",
     "ChildItems": [
       {
-        "Id": 18,
-        "Name": "Cole, Wolff and Renner",
-        "ToolTip": "Velit in dolorum ut pariatur nihil nesciunt.",
+        "Id": 865,
+        "Name": "Nolan, Collier and Baumbach",
+        "ToolTip": "Ut provident.",
         "Deleted": false,
-        "Rank": 896,
-        "Type": "doloremque",
-        "ColorBlock": 333,
+        "Rank": 181,
+        "Type": "tenetur",
+        "ColorBlock": 968,
         "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2004-07-24T02:49:44.7340524+02:00",
+        "LastChanged": "2016-12-28T17:37:18.3462409+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Eusebio Quitzon",
+        "ExtraInfo": "culpa",
+        "StyleHint": "vel",
+        "Hidden": true,
+        "FullName": "Mateo Stephon Dach I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 152
+            "FieldType": "System.String",
+            "FieldLength": 573
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Dakota Nader",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Grace Cummerata",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldType": "System.Int32",
+        "FieldLength": 312
       }
     }
   }

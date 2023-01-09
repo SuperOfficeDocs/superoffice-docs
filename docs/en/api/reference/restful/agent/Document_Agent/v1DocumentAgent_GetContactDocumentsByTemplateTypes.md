@@ -44,20 +44,19 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, StartTime, EndTime, Count, DocumentTemplateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| DocumentTemplateIds | array |  |
+| ContactId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| DocumentTemplateIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,13 +101,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 445,
-  "StartTime": "2021-05-27T02:49:44.0753838+02:00",
-  "EndTime": "2014-02-28T02:49:44.0753838+01:00",
-  "Count": 448,
+  "ContactId": 387,
+  "StartTime": "2021-04-04T17:37:17.4132417+02:00",
+  "EndTime": "1996-08-31T17:37:17.4132417+02:00",
+  "Count": 159,
   "DocumentTemplateIds": [
-    200,
-    810
+    312,
+    250
   ]
 }
 ```
@@ -121,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 751,
-    "Attention": "voluptas",
-    "Header": "rerum",
-    "Name": "Rogahn-Koss",
-    "OurRef": "cumque",
-    "YourRef": "qui",
-    "Description": "Team-oriented scalable instruction set",
-    "DocumentTemplate": "incidunt",
+    "DocumentId": 283,
+    "Attention": "excepturi",
+    "Header": "sint",
+    "Name": "Miller, Larkin and Carter",
+    "OurRef": "natus",
+    "YourRef": "enim",
+    "Description": "Distributed bifurcated hierarchy",
+    "DocumentTemplate": "numquam",
     "IsPublished": true,
-    "PersonId": 99,
-    "PersonFullName": "Carlo Spencer",
-    "AssociateFullName": "Esperanza Wuckert",
-    "ContactId": 104,
-    "ContactName": "Funk-Buckridge",
-    "ProjectId": 159,
-    "ProjectName": "Durgan-Leannon",
-    "AssociateId": 506,
-    "Snum": 872,
-    "SaleId": 974,
-    "SaleName": "Weissnat Group",
+    "PersonId": 490,
+    "PersonFullName": "Dr. Mariam Reynolds",
+    "AssociateFullName": "Angie Malika Upton Jr.",
+    "ContactId": 827,
+    "ContactName": "Leuschke-Cronin",
+    "ProjectId": 334,
+    "ProjectName": "Cummerata-Barton",
+    "AssociateId": 233,
+    "Snum": 681,
+    "SaleId": 981,
+    "SaleName": "Mohr LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldType": "System.String",
+        "FieldLength": 295
       }
     }
   }

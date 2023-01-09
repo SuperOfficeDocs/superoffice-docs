@@ -42,20 +42,19 @@ POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 FieldValueInfos, TableName, Context, SelectionId, IsShadow 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| FieldValueInfos | array |  |
-| TableName | string |  |
-| Context | string |  |
-| SelectionId | int32 |  |
-| IsShadow | bool |  |
+| FieldValueInfos | Array |  |
+| TableName | String |  |
+| Context | String |  |
+| SelectionId | Integer |  |
+| IsShadow | Boolean |  |
 
-
-## Response: int32
+## Response:int32
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -80,28 +79,28 @@ Content-Type: application/json; charset=utf-8
     {
       "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": true,
+      "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "consequatur",
-      "ValueType": "tempora",
+      "Key": "impedit",
+      "ValueType": "quaerat",
       "Mandatory": false,
-      "EncodedDisplayName": "Rath-Beier",
-      "EncodedDisplayDescription": "Inverse composite orchestration",
-      "IconHint": "cumque",
+      "EncodedDisplayName": "Pacocha Inc and Sons",
+      "EncodedDisplayDescription": "Quality-focused modular parallelism",
+      "IconHint": "omnis",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "ipsa",
-      "EncodedDataCaptionDescription": "Inverse foreground emulation",
-      "CurrentOperationType": "voluptate",
+      "EncodedDataCaption": "veniam",
+      "EncodedDataCaptionDescription": "Expanded exuding parallelism",
+      "CurrentOperationType": "et",
       "Values": [
-        "delectus",
-        "id"
+        "maxime",
+        "similique"
       ],
       "DisplayValues": [
-        "expedita",
-        "provident"
+        "in",
+        "et"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Kreiger, Jenkins and Morar",
-  "Context": "aliquid",
-  "SelectionId": 58,
+  "TableName": "Cummerata, Bradtke and Kerluke",
+  "Context": "odio",
+  "SelectionId": 920,
   "IsShadow": false
 }
 ```
@@ -122,5 +121,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-674
+599
 ```

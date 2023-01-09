@@ -48,7 +48,7 @@ GET /api/v1/ProjectMember/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ProjectMember found.
 
@@ -57,7 +57,7 @@ ProjectMember found.
 | 200 | ProjectMember found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ProjectMemberWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +82,7 @@ Response body:
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -92,7 +92,7 @@ Response body:
 GET /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,38 +102,38 @@ HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 408,
-  "ContactId": 217,
-  "ProjectId": 724,
-  "ContactName": "Schumm, Tremblay and Raynor",
+  "ProjectmemberId": 201,
+  "ContactId": 371,
+  "ProjectId": 968,
+  "ContactName": "Halvorson LLC",
   "ContactDepartment": "",
-  "ProjectName": "Hammes-Cronin",
-  "EmailId": 763,
-  "EmailAddress": "taryn.ledner@raujakubowski.ca",
-  "CountryId": 679,
-  "Firstname": "Garett",
-  "MiddleName": "Collier, Mraz and Jaskolski",
-  "Lastname": "Green",
-  "PersonId": 90,
-  "Mrmrs": "pariatur",
-  "ProjectMemberTypeName": "Leffler-O'Keefe",
-  "Phone": "046.469.1911 x423",
-  "PhoneId": 633,
-  "ProjectMemberTypeId": 887,
-  "EmailAddressName": "dejon@reilly.com",
-  "Comment": "praesentium",
-  "FullName": "Dr. Susana Walsh",
+  "ProjectName": "Crooks-Koch",
+  "EmailId": 269,
+  "EmailAddress": "astrid@walsh.biz",
+  "CountryId": 525,
+  "Firstname": "Jovan",
+  "MiddleName": "Feil, Hand and Skiles",
+  "Lastname": "Kemmer",
+  "PersonId": 701,
+  "Mrmrs": "dolores",
+  "ProjectMemberTypeName": "Parisian Group",
+  "Phone": "(381)504-4835 x16862",
+  "PhoneId": 13,
+  "ProjectMemberTypeId": 508,
+  "EmailAddressName": "jayne.moen@wilkinsonlangosh.com",
+  "Comment": "perferendis",
+  "FullName": "Mertie Kraig Hoppe MD",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 938
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

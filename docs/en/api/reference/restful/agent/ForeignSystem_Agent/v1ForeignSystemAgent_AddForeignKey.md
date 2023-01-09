@@ -42,19 +42,18 @@ POST /api/v1/Agents/ForeignSystem/AddForeignKey?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ForeignKey, ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ForeignKey |  | Carrier object for ForeignKey. Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
+| ForeignKey | ForeignKey | Carrier object for ForeignKey. Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,14 +82,14 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Trantow-Buckridge",
-  "DeviceName": "Bartoletti-Mitchell",
-  "DeviceIdentifier": "non"
+  "ApplicationName": "Paucek, Rodriguez and Rodriguez",
+  "DeviceName": "Gusikowski-Baumbach",
+  "DeviceIdentifier": "sit"
 }
 ```
 
@@ -101,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "laboriosam",
-  "Value": "architecto",
-  "RecordId": 152,
-  "CreatedDate": "2022-05-12T02:49:44.561046+02:00",
-  "UpdatedDate": "1996-08-01T02:49:44.561046+02:00",
-  "UpdatedBy": "doloremque",
-  "CreatedBy": "sequi",
-  "TableName": "Anderson Inc and Sons",
+  "Key": "rerum",
+  "Value": "cum",
+  "RecordId": 701,
+  "CreatedDate": "2019-10-21T17:37:18.1072435+02:00",
+  "UpdatedDate": "2017-01-22T17:37:18.1072435+01:00",
+  "UpdatedBy": "nihil",
+  "CreatedBy": "ut",
+  "TableName": "Kris LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 218
     }
   }
 }

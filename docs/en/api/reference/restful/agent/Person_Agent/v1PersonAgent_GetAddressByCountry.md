@@ -42,17 +42,16 @@ POST /api/v1/Agents/Person/GetAddressByCountry?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, CountryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| CountryId | int32 |  |
+| PersonId | Integer |  |
+| CountryId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,17 +59,17 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Address
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Wgs84Latitude | double | Latitude (that's north/south), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 59.91892. This value needs no further grid reference or other qualifying information. |
 | Wgs84Longitude | double | Longitude (that's East/west), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 10.73159. This value needs no further grid reference or other qualifying information. |
 | LocalizedAddress | array | LocalizedFieldArray is a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. |
-| Street |  | Street address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
-| Postal |  | Postal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
+| Street | StructuredAddress | Street address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
+| Postal | StructuredAddress | Postal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Formatted | string | Read-only formatted address multi-line string. Combines street and postal into one string. e.g.: &lt;c&gt;"Postboks 123,\nBrugata 123,\n1234 OSLO\n"&lt;/c&gt; or &lt;c&gt;"Postbox 123,\nBridgelane 123,\nWest Tooting,\nEast Shire ES2 W31\n"&lt;/c&gt;. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,12 +78,12 @@ Response body:
 POST /api/v1/Agents/Person/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 927,
-  "CountryId": 456
+  "PersonId": 279,
+  "CountryId": 375
 }
 ```
 
@@ -95,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 2826.868,
-  "Wgs84Longitude": 27450.706,
+  "Wgs84Latitude": 27892.6,
+  "Wgs84Longitude": 16205.913999999999,
   "LocalizedAddress": [
     [
       {
-        "Name": "Schoen Inc and Sons",
-        "Value": "eveniet",
-        "Tooltip": "totam",
-        "Label": "dolorem",
-        "ValueLength": 1000,
-        "AddressType": "recusandae",
+        "Name": "Lubowitz-Rohan",
+        "Value": "est",
+        "Tooltip": "aliquid",
+        "Label": "laboriosam",
+        "ValueLength": 505,
+        "AddressType": "dolor",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 18
+            "FieldType": "System.Int32",
+            "FieldLength": 923
           }
         }
       }
     ],
     [
       {
-        "Name": "Wyman, Bergstrom and Adams",
-        "Value": "hic",
-        "Tooltip": "necessitatibus",
-        "Label": "id",
-        "ValueLength": 573,
-        "AddressType": "omnis",
+        "Name": "Pollich, Klocko and Schamberger",
+        "Value": "ut",
+        "Tooltip": "incidunt",
+        "Label": "vero",
+        "ValueLength": 279,
+        "AddressType": "pariatur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 341
+            "FieldLength": 3
           }
         }
       }
@@ -137,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "magni",
+  "Formatted": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 506
+      "FieldType": "System.Int32",
+      "FieldLength": 652
     }
   }
 }

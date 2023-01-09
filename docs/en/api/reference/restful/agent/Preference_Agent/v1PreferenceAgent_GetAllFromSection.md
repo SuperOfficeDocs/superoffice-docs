@@ -42,16 +42,15 @@ POST /api/v1/Agents/Preference/GetAllFromSection?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Section 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Section | string |  |
+| Section | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +80,7 @@ Response body: array
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,11 +89,11 @@ Response body: array
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "a"
+  "Section": "perferendis"
 }
 ```
 
@@ -106,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 854,
-    "Section": "iure",
-    "Key": "iure",
-    "Name": "Howe, Krajcik and Jacobi",
+    "PrefDescId": 659,
+    "Section": "quia",
+    "Key": "voluptas",
+    "Name": "Crist-Dickens",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Diverse optimal moratorium",
+    "Description": "Reverse-engineered global budgetary management",
     "IsBuiltin": true,
-    "TableName": "Shields LLC",
-    "UserDefinedListId": 446,
-    "Rank": 733,
-    "SubGroup": "in",
-    "MinLevel": 676,
-    "MaxValue": 371,
-    "MinValue": 752,
-    "RequiredLicense": "accusamus",
+    "TableName": "Donnelly, Ondricka and Rosenbaum",
+    "UserDefinedListId": 901,
+    "Rank": 386,
+    "SubGroup": "quos",
+    "MinLevel": 824,
+    "MaxValue": 70,
+    "MinValue": 581,
+    "RequiredLicense": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 264
+        "FieldLength": 719
       }
     }
   }

@@ -24,7 +24,7 @@ Deletes the DashboardTile
 | DashboardTileId | int32 | **Required** The id of the DashboardTile to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dashboard/DeleteDashboardTile?DashboardTileId=952
+POST /api/v1/Agents/Dashboard/DeleteDashboardTile?DashboardTileId=585
 ```
 
 
@@ -38,7 +38,7 @@ POST /api/v1/Agents/Dashboard/DeleteDashboardTile?DashboardTileId=952
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 No Content
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request

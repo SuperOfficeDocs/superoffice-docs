@@ -44,20 +44,19 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId, StartTime, EndTime, Count, TemplateHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TemplateHeadingId | int32 |  |
+| ProjectId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TemplateHeadingId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -98,15 +97,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 916,
-  "StartTime": "2021-03-30T02:49:44.0910111+02:00",
-  "EndTime": "2012-09-08T02:49:44.0910111+02:00",
-  "Count": 225,
-  "TemplateHeadingId": 554
+  "ProjectId": 372,
+  "StartTime": "2008-12-17T17:37:17.4342414+01:00",
+  "EndTime": "2000-07-26T17:37:17.4342414+02:00",
+  "Count": 81,
+  "TemplateHeadingId": 938
 }
 ```
 
@@ -118,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 789,
-    "Attention": "enim",
-    "Header": "ab",
-    "Name": "Murray Inc and Sons",
-    "OurRef": "illo",
-    "YourRef": "rerum",
-    "Description": "Distributed context-sensitive knowledge base",
-    "DocumentTemplate": "sit",
+    "DocumentId": 589,
+    "Attention": "consequatur",
+    "Header": "aut",
+    "Name": "Durgan, Buckridge and Howell",
+    "OurRef": "facere",
+    "YourRef": "atque",
+    "Description": "Triple-buffered systematic pricing structure",
+    "DocumentTemplate": "explicabo",
     "IsPublished": false,
-    "PersonId": 696,
-    "PersonFullName": "Abigail Hudson",
-    "AssociateFullName": "Cristobal Christiansen",
-    "ContactId": 71,
-    "ContactName": "Lubowitz, Schmidt and Bailey",
-    "ProjectId": 774,
-    "ProjectName": "Gerlach-Bartoletti",
-    "AssociateId": 790,
-    "Snum": 492,
-    "SaleId": 173,
-    "SaleName": "Veum Group",
+    "PersonId": 794,
+    "PersonFullName": "Yasmin Koch",
+    "AssociateFullName": "Gwen Price",
+    "ContactId": 421,
+    "ContactName": "Weissnat-Bailey",
+    "ProjectId": 274,
+    "ProjectName": "Kiehn Inc and Sons",
+    "AssociateId": 964,
+    "Snum": 438,
+    "SaleId": 493,
+    "SaleName": "Sanford, Runte and Gulgowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldType": "System.String",
+        "FieldLength": 185
       }
     }
   }

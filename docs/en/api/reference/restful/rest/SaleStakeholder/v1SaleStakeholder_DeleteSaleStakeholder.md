@@ -34,7 +34,7 @@ Calls the Sale agent service DeleteSaleStakeholder.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 SaleStakeholder deleted.
 
@@ -42,7 +42,7 @@ SaleStakeholder deleted.
 |----------------|-------------|
 | 204 | SaleStakeholder deleted. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -51,7 +51,7 @@ Response body:
 DELETE /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

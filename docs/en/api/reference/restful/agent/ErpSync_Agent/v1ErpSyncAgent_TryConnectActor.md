@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/TryConnectActor
 Create a link between Erp and Crm and set default values
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,21 +44,20 @@ POST /api/v1/Agents/ErpSync/TryConnectActor?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType, FieldValues 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpConnectionId | int32 |  |
-| CrmRecordId | int32 |  |
-| CrmActorType | string |  |
-| ErpKey | string |  |
-| ErpActorType | string |  |
-| FieldValues | array |  |
+| ErpConnectionId | Integer |  |
+| CrmRecordId | Integer |  |
+| CrmActorType | String |  |
+| ErpKey | String |  |
+| ErpActorType | String |  |
+| FieldValues | Array |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -68,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -77,29 +74,29 @@ Response body: bool
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 932,
-  "CrmRecordId": 124,
+  "ErpConnectionId": 62,
+  "CrmRecordId": 366,
   "CrmActorType": "Contact",
-  "ErpKey": "quibusdam",
+  "ErpKey": "voluptatem",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Schaden LLC",
-      "CrmFieldKey": "inventore",
-      "Value": "neque",
-      "DisplayValue": "nihil",
+      "DisplayName": "Zboncak, Kuhlman and Corwin",
+      "CrmFieldKey": "esse",
+      "Value": "explicabo",
+      "DisplayValue": "culpa",
       "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Schaden LLC",
-      "CrmFieldKey": "inventore",
-      "Value": "neque",
-      "DisplayValue": "nihil",
+      "DisplayName": "Zboncak, Kuhlman and Corwin",
+      "CrmFieldKey": "esse",
+      "Value": "explicabo",
+      "DisplayValue": "culpa",
       "SyncToCrm": false,
       "SyncToErp": false
     }
@@ -113,5 +110,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

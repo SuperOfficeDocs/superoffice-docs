@@ -44,17 +44,16 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId, QuoteAlternativeId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
-| QuoteAlternativeId | int32 |  |
+| QuoteVersionId | Integer |  |
+| QuoteAlternativeId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,15 +61,15 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteVersionWorkflowState
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ActionButtons | array | Array of visible buttons with defined actions in the quote verson dialog. |
-| StateImage |  | Information about the state image for the current quote version. |
-| UpdatePricesButton |  | Information about the action for the update prices button. |
-| Status |  | Status information for the Quote Version. |
-| TableRight |  |  |
+| StateImage | QuoteVersionButtonState | Information about the state image for the current quote version. |
+| UpdatePricesButton | QuoteVersionButtonState | Information about the action for the update prices button. |
+| Status | QuoteVersionStatusInformation | Status information for the Quote Version. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,8 +82,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 983,
-  "QuoteAlternativeId": 415
+  "QuoteVersionId": 286,
+  "QuoteAlternativeId": 883
 }
 ```
 
@@ -98,16 +97,16 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "ut",
-      "DisplayText": "aperiam",
-      "TooltipText": "id",
+      "ImageHint": "rerum",
+      "DisplayText": "rerum",
+      "TooltipText": "quam",
       "Enabled": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 960
+          "FieldLength": 182
         }
       }
     }
@@ -120,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldLength": 92
     }
   }
 }

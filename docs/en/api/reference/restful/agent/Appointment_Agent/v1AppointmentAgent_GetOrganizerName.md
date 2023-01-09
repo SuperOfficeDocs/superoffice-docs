@@ -42,16 +42,15 @@ POST /api/v1/Agents/Appointment/GetOrganizerName?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MotherAppointmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MotherAppointmentId | int32 |  |
+| MotherAppointmentId | Integer |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -68,11 +67,11 @@ Response body: string
 POST /api/v1/Agents/Appointment/GetOrganizerName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherAppointmentId": 284
+  "MotherAppointmentId": 628
 }
 ```
 
@@ -82,5 +81,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Keebler-Muller"
+"Rath, Harris and Herzog"
 ```

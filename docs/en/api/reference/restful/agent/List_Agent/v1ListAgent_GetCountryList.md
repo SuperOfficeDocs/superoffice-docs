@@ -42,13 +42,12 @@ POST /api/v1/Agents/List/GetCountryList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: countryIds  
+## Request Body: countryIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body: array
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +86,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 929,
-    "Name": "Kessler-Schoen",
-    "CurrencyId": 812,
-    "EnglishName": "Pacocha-Connelly",
+    "CountryId": 117,
+    "Name": "Padberg, Jenkins and Wisoky",
+    "CurrencyId": 191,
+    "EnglishName": "Johnston LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Enhanced 5th generation hardware",
-    "OrgNrText": "1667971",
-    "InterAreaPrefix": "minima",
-    "DialInPrefix": "tempore",
-    "ZipPrefix": "deleniti",
-    "DomainName": "Fahey Inc and Sons",
-    "AddressLayoutId": 164,
-    "DomesticAddressLayoutId": 647,
-    "ForeignAddressLayoutId": 185,
-    "Rank": 273,
-    "Tooltip": "qui",
-    "Deleted": false,
+    "ImageDescription": "Down-sized demand-driven monitoring",
+    "OrgNrText": "753863",
+    "InterAreaPrefix": "esse",
+    "DialInPrefix": "omnis",
+    "ZipPrefix": "hic",
+    "DomainName": "Schowalter, Langworth and Boyer",
+    "AddressLayoutId": 846,
+    "DomesticAddressLayoutId": 989,
+    "ForeignAddressLayoutId": 179,
+    "Rank": 189,
+    "Tooltip": "provident",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 43
+        "FieldType": "System.Int32",
+        "FieldLength": 607
       }
     }
   }

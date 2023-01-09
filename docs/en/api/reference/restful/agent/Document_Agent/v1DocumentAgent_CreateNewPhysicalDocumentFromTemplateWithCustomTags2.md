@@ -44,24 +44,23 @@ POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CustomTags, UiCulture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| PersonId | int32 |  |
-| AppointmentId | int32 |  |
-| DocumentId | int32 |  |
-| SaleId | int32 |  |
-| SelectionId | int32 |  |
-| ProjectId | int32 |  |
-| CustomTags | object |  |
-| UiCulture | string |  |
+| ContactId | Integer |  |
+| PersonId | Integer |  |
+| AppointmentId | Integer |  |
+| DocumentId | Integer |  |
+| SaleId | Integer |  |
+| SelectionId | Integer |  |
+| ProjectId | Integer |  |
+| CustomTags | PersonEntity |  |
+| UiCulture | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -69,13 +68,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 | Primary key |
-| UpdatedBy |  | The person that last updated the appointment. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | Attention | string | Attention/salutation |
 | Header | string | Visible document name |
 | Name | string | File name |
@@ -84,11 +83,11 @@ Response body:
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| DocumentTemplate |  | The template type of the document.  <para>Use MDO List name "doctmpl" to get list items.</para> |
-| Person |  | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
-| Associate |  | The owner of the document - the associate whose checklist the document is in.  <para>Use MDO List name "associate" to get list items.</para> |
-| Contact |  | The contact associated with the document. It may also be null if no contact is associated with the document.  <para>Use MDO List name "contact" to get list items.</para> |
-| Project |  | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| DocumentTemplate | DocumentTemplate | The template type of the document.  <para>Use MDO List name "doctmpl" to get list items.</para> |
+| Person | Person | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
+| Associate | Associate | The owner of the document - the associate whose checklist the document is in.  <para>Use MDO List name "associate" to get list items.</para> |
+| Contact | Contact | The contact associated with the document. It may also be null if no contact is associated with the document.  <para>Use MDO List name "contact" to get list items.</para> |
+| Project | Project | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
 | Date | date-time | date + start time planned |
 | ExternalRef | string | External reference for document plugin to resolve document identity (Notes ID, e-mail message ID, whatever) |
 | Completed | string | Document Completed state. This is the part of the Status property. |
@@ -96,7 +95,7 @@ Response body:
 | Type | string | Is this a normal document or a mail-merge or report? |
 | Links | array | List of all elements linked to the document. |
 | LockSemantics | string |  |
-| Sale |  | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <para>Use MDO List name "sale" to get list items.</para> |
+| Sale | Sale | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedDocumentId | int32 | Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link) |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.DocumentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -107,7 +106,7 @@ Response body:
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -116,22 +115,22 @@ Response body:
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 213,
-  "PersonId": 471,
-  "AppointmentId": 481,
-  "DocumentId": 74,
-  "SaleId": 181,
-  "SelectionId": 241,
-  "ProjectId": 497,
+  "ContactId": 622,
+  "PersonId": 660,
+  "AppointmentId": 919,
+  "DocumentId": 663,
+  "SaleId": 678,
+  "SelectionId": 975,
+  "ProjectId": 479,
   "CustomTags": {
-    "CustomTags1": "dolores",
-    "CustomTags2": "dolorum"
+    "CustomTags1": "iusto",
+    "CustomTags2": "beatae"
   },
-  "UiCulture": "ad"
+  "UiCulture": "eius"
 }
 ```
 
@@ -142,88 +141,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 296,
+  "DocumentId": 932,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "doloribus",
-  "Header": "qui",
-  "Name": "Hettinger LLC",
-  "OurRef": "accusantium",
-  "YourRef": "sit",
-  "CreatedDate": "2006-09-23T02:49:44.1691628+02:00",
-  "UpdatedDate": "2012-11-21T02:49:44.1691628+01:00",
-  "Description": "Persistent dedicated parallelism",
+  "Attention": "illo",
+  "Header": "et",
+  "Name": "Ledner Inc and Sons",
+  "OurRef": "sapiente",
+  "YourRef": "voluptas",
+  "CreatedDate": "2016-11-06T17:37:17.5482439+01:00",
+  "UpdatedDate": "2001-07-09T17:37:17.5482439+02:00",
+  "Description": "Future-proofed leading edge task-force",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2016-10-07T02:49:44.1691628+02:00",
-  "ExternalRef": "nulla",
+  "Date": "2010-01-30T17:37:17.5512412+01:00",
+  "ExternalRef": "vel",
   "Completed": "Completed",
-  "ActiveLinks": 34,
+  "ActiveLinks": 565,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Abshire-Langworth",
-      "Id": 80,
-      "Description": "Advanced fresh-thinking paradigm",
-      "ExtraInfo": "eos",
-      "LinkId": 17,
+      "EntityName": "Murphy LLC",
+      "Id": 692,
+      "Description": "Proactive background hub",
+      "ExtraInfo": "omnis",
+      "LinkId": 402,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 335
+          "FieldType": "System.Int32",
+          "FieldLength": 264
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 201,
-  "Snum": 37,
+  "SuggestedDocumentId": 17,
+  "Snum": 865,
   "UserDefinedFields": {
-    "SuperOffice:1": "Margarette Steuber",
-    "SuperOffice:2": "43472672"
+    "SuperOffice:1": "Hayley Dietrich",
+    "SuperOffice:2": "Rowland Cartwright"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "vero"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "nisi"
+    "CustomFields1": "tempore",
+    "CustomFields2": "nesciunt"
   },
-  "PublishEventDate": "2018-07-10T02:49:44.1847858+02:00",
-  "PublishTo": "1995-12-19T02:49:44.1847858+01:00",
-  "PublishFrom": "1998-01-06T02:49:44.1847858+01:00",
+  "PublishEventDate": "2022-12-16T17:37:17.5532437+01:00",
+  "PublishTo": "2010-04-10T17:37:17.5532437+02:00",
+  "PublishFrom": "2003-05-07T17:37:17.5532437+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 937,
+      "VisibleId": 896,
       "Visibility": "All",
-      "DisplayValue": "at",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldLength": 709
         }
       }
     },
     {
-      "VisibleId": 937,
+      "VisibleId": 896,
       "Visibility": "All",
-      "DisplayValue": "at",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldLength": 709
         }
       }
     }
@@ -233,7 +232,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 60
+      "FieldLength": 990
     }
   }
 }

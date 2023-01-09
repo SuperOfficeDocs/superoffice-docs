@@ -36,7 +36,7 @@ Get a AppointmentEntity user-defined field's details based on the prog-id or lab
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 AppointmentEntity found.
 
@@ -45,7 +45,7 @@ AppointmentEntity found.
 | 200 | AppointmentEntity found. |
 | 404 | AppointmentEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +83,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,46 +102,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 350,
-  "ColumnId": 465,
-  "FieldDefault": "necessitatibus",
-  "FieldHeight": 795,
-  "FieldLabel": "quae",
-  "FieldLeft": 386,
-  "FieldTop": 202,
+  "UDefFieldId": 97,
+  "ColumnId": 273,
+  "FieldDefault": "molestiae",
+  "FieldHeight": 16,
+  "FieldLabel": "exercitationem",
+  "FieldLeft": 123,
+  "FieldTop": 92,
   "FieldType": "Checkbox",
-  "FieldWidth": 534,
-  "FormatMask": "deserunt",
+  "FieldWidth": 646,
+  "FormatMask": "error",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 1002,
-  "LabelLeft": 869,
-  "LabelTop": 907,
-  "LabelWidth": 820,
-  "LastVersionId": 991,
-  "ListTableId": 209,
+  "IsIndexed": true,
+  "LabelHeight": 215,
+  "LabelLeft": 667,
+  "LabelTop": 18,
+  "LabelWidth": 847,
+  "LastVersionId": 796,
+  "ListTableId": 782,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 195,
-  "ProgId": "nisi",
+  "Page1LineNo": 72,
+  "ProgId": "voluptatem",
   "IsReadOnly": false,
-  "ShortLabel": "esse",
-  "TabOrder": 815,
-  "TextLength": 271,
-  "Tooltip": "quasi",
-  "UdefIdentity": 357,
-  "UDListDefinitionId": 881,
+  "ShortLabel": "est",
+  "TabOrder": 302,
+  "TextLength": 810,
+  "Tooltip": "laudantium",
+  "UdefIdentity": 396,
+  "UDListDefinitionId": 580,
   "Justification": "Center",
-  "Version": 627,
-  "TemplateVariableName": "Durgan-Schuppe",
+  "Version": 924,
+  "TemplateVariableName": "Wolff-Bradtke",
   "HasBeenPublished": false,
-  "MdoListName": "Aufderhar-Mraz",
+  "MdoListName": "Ebert-Marvin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldType": "System.String",
+      "FieldLength": 105
     }
   }
 }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/MoveToFolder
 Moved specified items from current folder to targetFolder
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -42,18 +40,17 @@ POST /api/v1/Agents/EMail/MoveToFolder?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConnectionInfo, MessageServerIds, TargetFolder 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-| MessageServerIds | array |  |
-| TargetFolder | string |  |
+| ConnectionInfo | EMailConnectionInfo | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| MessageServerIds | Array |  |
+| TargetFolder | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -61,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -76,10 +73,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    225,
-    751
+    755,
+    687
   ],
-  "TargetFolder": "et"
+  "TargetFolder": "blanditiis"
 }
 ```
 

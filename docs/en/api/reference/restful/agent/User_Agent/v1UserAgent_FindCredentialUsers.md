@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/FindCredentialUsers
 Find users matching the partial name.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/User/FindCredentialUsers?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Type, SearchString 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Type | string |  |
-| SearchString | string |  |
+| Type | String |  |
+| SearchString | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,13 +61,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CredentialsGroupUsers
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Headings | array | Headings in which to list the different users. |
 | Users | array | The list of actual users that can be selected |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,8 +80,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "quisquam",
-  "SearchString": "aut"
+  "Type": "hic",
+  "SearchString": "sapiente"
 }
 ```
 
@@ -96,41 +93,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "et",
-    "delectus"
+    "vitae",
+    "animi"
   ],
   "Users": [
     {
-      "Value": "qui",
-      "DisplayValue": "est",
+      "Value": "deleniti",
+      "DisplayValue": "voluptatum",
       "Columns": [
-        "consequatur",
-        "voluptatem"
+        "eveniet",
+        "molestias"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 352
+          "FieldLength": 793
         }
       }
     },
     {
-      "Value": "qui",
-      "DisplayValue": "est",
+      "Value": "deleniti",
+      "DisplayValue": "voluptatum",
       "Columns": [
-        "consequatur",
-        "voluptatem"
+        "eveniet",
+        "molestias"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 352
+          "FieldLength": 793
         }
       }
     }
@@ -139,8 +136,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 967
+      "FieldType": "System.Int32",
+      "FieldLength": 87
     }
   }
 }

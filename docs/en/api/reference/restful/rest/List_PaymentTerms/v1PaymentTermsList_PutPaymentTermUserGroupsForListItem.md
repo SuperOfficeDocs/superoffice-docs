@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Wisozk, Sawayn and Kunde",
-    "ToolTip": "Excepturi aut earum facere est vel.",
+    "Id": 538,
+    "Name": "Franecki LLC",
+    "ToolTip": "Ad debitis.",
     "Deleted": false,
-    "Rank": 59,
-    "Type": "earum",
-    "ColorBlock": 778,
-    "IconHint": "ea",
+    "Rank": 808,
+    "Type": "minus",
+    "ColorBlock": 405,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2017-03-03T02:49:52.2971911+01:00",
+    "LastChanged": "2013-08-14T17:37:40.0744708+02:00",
     "ChildItems": [
       {
-        "Id": 450,
-        "Name": "Schinner-Smitham",
-        "ToolTip": "Earum molestias.",
-        "Deleted": false,
-        "Rank": 221,
-        "Type": "error",
-        "ColorBlock": 256,
-        "IconHint": "ipsa",
+        "Id": 708,
+        "Name": "Pfannerstill-Dietrich",
+        "ToolTip": "Soluta ut commodi quo ipsum et molestias commodi.",
+        "Deleted": true,
+        "Rank": 513,
+        "Type": "dolor",
+        "ColorBlock": 993,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2005-08-07T02:49:52.2971911+02:00",
+        "LastChanged": "2014-06-25T17:37:40.0765017+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Prof. Mollie Adah Connelly Jr."
+        "ExtraInfo": "distinctio",
+        "StyleHint": "autem",
+        "Hidden": false,
+        "FullName": "Everett Feest"
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "omnis",
+    "ExtraInfo": "nobis",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Nels Murazik"
+    "FullName": "Ashleigh Shanahan"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 474,
-    "Name": "Hauck-Beahan",
-    "ToolTip": "Tenetur et iste qui similique labore architecto nobis.",
+    "Id": 312,
+    "Name": "Kilback-Beier",
+    "ToolTip": "Pariatur numquam maiores recusandae velit molestiae dicta.",
     "Deleted": false,
-    "Rank": 743,
-    "Type": "voluptatem",
-    "ColorBlock": 372,
-    "IconHint": "beatae",
-    "Selected": false,
-    "LastChanged": "2019-09-12T02:49:52.2971911+02:00",
+    "Rank": 322,
+    "Type": "enim",
+    "ColorBlock": 969,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2021-08-04T17:37:40.0775032+02:00",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Homenick-Zemlak",
-        "ToolTip": "Voluptatem quaerat possimus consequatur.",
+        "Id": 327,
+        "Name": "Schultz LLC",
+        "ToolTip": "Ad incidunt odit dolores eos.",
         "Deleted": false,
-        "Rank": 907,
-        "Type": "enim",
-        "ColorBlock": 21,
-        "IconHint": "soluta",
-        "Selected": true,
-        "LastChanged": "1996-08-11T02:49:52.2971911+02:00",
+        "Rank": 692,
+        "Type": "eius",
+        "ColorBlock": 644,
+        "IconHint": "reiciendis",
+        "Selected": false,
+        "LastChanged": "2004-11-21T17:37:40.0775032+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
+        "ExtraInfo": "rerum",
         "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Dr. Nikko Rowe IV",
+        "Hidden": false,
+        "FullName": "Marcelino Eichmann DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 514
+            "FieldType": "System.Int32",
+            "FieldLength": 120
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "inventore",
+    "ExtraInfo": "in",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Rudolph Powlowski",
+    "FullName": "Jaiden Carleton Mueller IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldLength": 522
       }
     }
   }

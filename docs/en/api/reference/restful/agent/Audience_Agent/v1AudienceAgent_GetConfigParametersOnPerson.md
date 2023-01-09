@@ -42,16 +42,15 @@ POST /api/v1/Agents/Audience/GetConfigParametersOnPerson?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
+| PersonId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body: array
 | UpdatedDate | date-time | The date and time the configuration parameter was last updated  in UTC. |
 | CreatedBy | string | Name of the person that created the configuration parameter |
 | UpdatedBy | string | Name of the person that last updated the configuration parameter |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 371
+  "PersonId": 662
 }
 ```
 
@@ -95,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 812,
-    "Name": "Bechtelar-Legros",
-    "Value": "in",
-    "CreatedDate": "2018-01-01T02:49:43.6847821+01:00",
-    "UpdatedDate": "2011-09-06T02:49:43.6847821+02:00",
-    "CreatedBy": "fugiat",
-    "UpdatedBy": "et",
+    "AudienceLayoutId": 808,
+    "Name": "Pagac-Rohan",
+    "Value": "autem",
+    "CreatedDate": "2016-10-15T17:37:16.8852414+02:00",
+    "UpdatedDate": "2020-04-16T17:37:16.8852414+02:00",
+    "CreatedBy": "impedit",
+    "UpdatedBy": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldLength": 313
       }
     }
   }

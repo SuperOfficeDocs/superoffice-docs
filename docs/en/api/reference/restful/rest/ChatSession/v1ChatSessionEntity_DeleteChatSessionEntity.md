@@ -34,7 +34,7 @@ Calls the Chat agent service DeleteChatSessionEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ChatSessionEntity deleted.
 
@@ -42,7 +42,7 @@ ChatSessionEntity deleted.
 |----------------|-------------|
 | 204 | ChatSessionEntity deleted. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request

@@ -36,7 +36,7 @@ Get a ProjectEntity user-defined field's details based on the prog-id or label.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ProjectEntity found.
 
@@ -45,7 +45,7 @@ ProjectEntity found.
 | 200 | ProjectEntity found. |
 | 404 | ProjectEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +83,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,7 +92,7 @@ Response body:
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 758,
-  "ColumnId": 755,
-  "FieldDefault": "recusandae",
-  "FieldHeight": 12,
-  "FieldLabel": "sunt",
-  "FieldLeft": 511,
-  "FieldTop": 534,
+  "UDefFieldId": 337,
+  "ColumnId": 640,
+  "FieldDefault": "rem",
+  "FieldHeight": 215,
+  "FieldLabel": "nobis",
+  "FieldLeft": 395,
+  "FieldTop": 799,
   "FieldType": "Checkbox",
-  "FieldWidth": 800,
-  "FormatMask": "repellat",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 77,
-  "LabelLeft": 153,
-  "LabelTop": 340,
-  "LabelWidth": 653,
-  "LastVersionId": 257,
-  "ListTableId": 89,
+  "FieldWidth": 264,
+  "FormatMask": "deleniti",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 218,
+  "LabelLeft": 273,
+  "LabelTop": 465,
+  "LabelWidth": 26,
+  "LastVersionId": 849,
+  "ListTableId": 326,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 898,
-  "ProgId": "mollitia",
+  "Page1LineNo": 569,
+  "ProgId": "atque",
   "IsReadOnly": false,
-  "ShortLabel": "sit",
-  "TabOrder": 833,
-  "TextLength": 645,
-  "Tooltip": "magnam",
-  "UdefIdentity": 306,
-  "UDListDefinitionId": 784,
+  "ShortLabel": "ut",
+  "TabOrder": 928,
+  "TextLength": 336,
+  "Tooltip": "aut",
+  "UdefIdentity": 398,
+  "UDListDefinitionId": 33,
   "Justification": "Center",
-  "Version": 338,
-  "TemplateVariableName": "Fay-Harvey",
+  "Version": 512,
+  "TemplateVariableName": "Metz, Volkman and Lemke",
   "HasBeenPublished": true,
-  "MdoListName": "Price-Will",
+  "MdoListName": "Satterfield-Tillman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 512
     }
   }
 }

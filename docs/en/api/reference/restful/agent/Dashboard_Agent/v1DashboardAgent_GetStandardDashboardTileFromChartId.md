@@ -42,16 +42,15 @@ POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ChartId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ChartId | string |  |
+| ChartId | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashboardTile
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +76,7 @@ Response body:
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,11 +85,11 @@ Response body:
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "eum"
+  "ChartId": "nihil"
 }
 ```
 
@@ -101,64 +100,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 342,
-  "Caption": "id",
-  "Description": "Assimilated fault-tolerant implementation",
-  "ChartName": "Skiles-Mohr",
-  "ChartId": "quidem",
-  "IsDefault": true,
-  "AssociateId": 867,
-  "GroupId": 355,
-  "SelectionId": 146,
-  "Config": "qui",
+  "DashboardTileId": 748,
+  "Caption": "omnis",
+  "Description": "Up-sized non-volatile instruction set",
+  "ChartName": "Lubowitz LLC",
+  "ChartId": "deleniti",
+  "IsDefault": false,
+  "AssociateId": 454,
+  "GroupId": 208,
+  "SelectionId": 506,
+  "Config": "iste",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "McDermott-Kilback",
-      "Description": "Digitized discrete standardization",
+      "Name": "Crooks, Schimmel and Nader",
+      "Description": "Business-focused contextually-based monitoring",
       "Type": "Boolean",
-      "ListName": "Altenwerth Inc and Sons",
+      "ListName": "Brakus Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "fugiat",
+      "Value": "error",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 316
+          "FieldType": "System.Int32",
+          "FieldLength": 236
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 223,
+      "VisibleId": 272,
       "Visibility": "All",
-      "DisplayValue": "nostrum",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 97
+          "FieldType": "System.String",
+          "FieldLength": 770
         }
       }
     },
     {
-      "VisibleId": 223,
+      "VisibleId": 272,
       "Visibility": "All",
-      "DisplayValue": "nostrum",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 97
+          "FieldType": "System.String",
+          "FieldLength": 770
         }
       }
     }
@@ -168,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldLength": 621
     }
   }
 }

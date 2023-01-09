@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Get information about default value for an ERP field
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/ErpSync/GetDefaultValueInfo?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpFieldId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpFieldId | int32 |  |
+| ErpFieldId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ErpSyncDefaultValue
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +74,7 @@ Response body:
 | FieldType | string | Field type |
 | ListName | string | The ERP list name, if the field has a list of values supplied by the ERP Connector |
 | Access | string | Access restrictions for the field |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,11 +83,11 @@ Response body:
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 89
+  "ErpFieldId": 559
 }
 ```
 
@@ -101,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 524,
-  "DefaultValue": "explicabo",
-  "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "quo",
-  "PromptUser": true,
-  "Mandatory": true,
-  "ErpFieldKey": "eaque",
+  "ErpFieldId": 194,
+  "DefaultValue": "sapiente",
+  "HasFirstSyncDefaultValue": true,
+  "FirstSyncDefaultValue": "placeat",
+  "PromptUser": false,
+  "Mandatory": false,
+  "ErpFieldKey": "qui",
   "FieldType": "Checkbox",
-  "ListName": "Stehr LLC",
+  "ListName": "Howe, Breitenberg and Hartmann",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 49
     }
   }
 }

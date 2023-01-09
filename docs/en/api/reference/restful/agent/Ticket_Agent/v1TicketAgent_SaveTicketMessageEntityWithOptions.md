@@ -42,18 +42,17 @@ POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Entity, Notify, AttachmentIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Entity |  | The ticket messages are e-mails, SMS or other messages attached to a ticket (aka request). <para /> Carrier object for TicketMessageEntity. Services for the TicketMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>. |
-| Notify | bool |  |
-| AttachmentIds | array |  |
+| Entity | TicketMessageEntity | The ticket messages are e-mails, SMS or other messages attached to a ticket (aka request). <para /> Carrier object for TicketMessageEntity. Services for the TicketMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>. |
+| Notify | Boolean |  |
+| AttachmentIds | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,14 +60,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketMessageEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EjMessageId | int32 | The primary key (auto-incremented) |
-| Ticket |  | The connected ticket |
+| Ticket | Ticket | The connected ticket |
 | CreatedAt | date-time | When the message was posted. |
-| CreatedBy |  | The associate who created this ticket message |
+| CreatedBy | Associate | The associate who created this ticket message |
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
@@ -80,16 +79,17 @@ Response body:
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person |  | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -103,10 +103,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": true,
+  "Notify": false,
   "AttachmentIds": [
-    914,
-    943
+    782,
+    574
   ]
 }
 ```
@@ -118,58 +118,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 497,
+  "EjMessageId": 975,
   "Ticket": null,
-  "CreatedAt": "1995-10-31T02:49:45.5934707+01:00",
+  "CreatedAt": "2000-12-10T17:37:19.4669794+01:00",
   "CreatedBy": null,
-  "Author": "ad",
+  "Author": "minima",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 8,
-  "Body": "ex",
-  "HtmlBody": "sapiente",
-  "EmailHeader": "rosalind.homenick@robel.info",
-  "DebugInfo": "illum",
-  "MailSorter": "laboriosam",
+  "MessageId": "eaque",
+  "TimeSpent": 705,
+  "Body": "reprehenderit",
+  "HtmlBody": "ut",
+  "EmailHeader": "theresia@boylerowe.ca",
+  "DebugInfo": "rerum",
+  "MailSorter": "saepe",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "est",
+  "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 903,
-      "Name": "Stanton-Nolan",
-      "Value": "architecto",
+      "Id": 378,
+      "Name": "Kilback Inc and Sons",
+      "Value": "omnis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 963
+          "FieldType": "System.String",
+          "FieldLength": 388
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "quidem",
-  "Sentiment": 600,
-  "SentimentConfidence": 749,
+  "Important": true,
+  "Language": "dolor",
+  "Sentiment": 381,
+  "SentimentConfidence": 880,
+  "AttachmentsInfo": [
+    {
+      "AttachmentId": 705,
+      "Name": "Kshlerin-Kemmer",
+      "ContentType": "corrupti",
+      "AttSize": 492,
+      "InlineImage": true,
+      "ContentId": "qui",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 110
+        }
+      }
+    }
+  ],
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "voluptatum"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "sit"
+    "CustomFields1": "quas",
+    "CustomFields2": "quibusdam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 195
     }
   }
 }

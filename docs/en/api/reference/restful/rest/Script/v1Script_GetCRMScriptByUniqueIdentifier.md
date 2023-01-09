@@ -12,8 +12,6 @@ GET /api/v1/Script/{uniqueIdentifier}
 Get information about a script from a unique identifier
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -40,7 +38,7 @@ Get information about a script from a unique identifier
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -48,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Script
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +60,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +69,7 @@ Response body:
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "dolores",
-  "Name": "Marquardt, Lockman and Grant",
-  "Description": "Front-line tertiary protocol",
-  "IncludeId": "quos",
-  "Source": "laudantium",
-  "Registered": "2000-12-31T02:49:51.7803982+01:00",
-  "RegisteredBy": "nisi",
-  "Updated": "2018-09-04T02:49:51.7803982+02:00",
-  "UpdatedBy": "sequi",
-  "Path": "in",
+  "UniqueIdentifier": "quis",
+  "Name": "Pfannerstill-Rowe",
+  "Description": "Object-based transitional concept",
+  "IncludeId": "quo",
+  "Source": "voluptatem",
+  "Registered": "2020-03-21T17:37:39.5144326+01:00",
+  "RegisteredBy": "doloribus",
+  "Updated": "1996-02-24T17:37:39.5144326+01:00",
+  "UpdatedBy": "odit",
+  "Path": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 519
+      "FieldLength": 784
     }
   }
 }

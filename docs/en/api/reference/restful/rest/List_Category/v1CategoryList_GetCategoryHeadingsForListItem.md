@@ -48,7 +48,7 @@ GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 419,
-    "Name": "Moore Inc and Sons",
-    "ToolTip": "Doloremque ea vitae et.",
+    "Id": 781,
+    "Name": "Swaniawski-Ernser",
+    "ToolTip": "Cumque et ut qui et.",
     "Deleted": false,
-    "Rank": 407,
-    "Type": "qui",
-    "ColorBlock": 590,
-    "IconHint": "vitae",
-    "Selected": true,
-    "LastChanged": "2022-01-02T02:49:51.9065706+01:00",
+    "Rank": 83,
+    "Type": "accusantium",
+    "ColorBlock": 963,
+    "IconHint": "culpa",
+    "Selected": false,
+    "LastChanged": "2000-12-10T17:37:39.6804312+01:00",
     "ChildItems": [
       {
-        "Id": 415,
-        "Name": "Dibbert LLC",
-        "ToolTip": "Natus est est.",
+        "Id": 82,
+        "Name": "Cassin Inc and Sons",
+        "ToolTip": "Enim accusamus libero qui blanditiis aut porro.",
         "Deleted": false,
-        "Rank": 785,
-        "Type": "accusantium",
-        "ColorBlock": 91,
-        "IconHint": "non",
+        "Rank": 964,
+        "Type": "omnis",
+        "ColorBlock": 981,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2005-01-20T02:49:51.9065706+01:00",
+        "LastChanged": "2009-08-24T17:37:39.6804312+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "rem",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Mr. Elody Michael Koepp DDS",
+        "FullName": "Sofia Gay Windler Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 322
+            "FieldType": "System.String",
+            "FieldLength": 382
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Mrs. Noel Kasey Kub III",
+    "FullName": "Raquel Okuneva II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 166
+        "FieldLength": 369
       }
     }
   }

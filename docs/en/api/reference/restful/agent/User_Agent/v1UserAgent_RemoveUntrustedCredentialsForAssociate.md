@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/RemoveUntrustedCredentialsForAssociate
 Remove a credentials entry for a specified user.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -42,18 +40,17 @@ POST /api/v1/Agents/User/RemoveUntrustedCredentialsForAssociate?$select=name,dep
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId, Type, PublicValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
-| Type | string |  |
-| PublicValue | string |  |
+| AssociateId | Integer |  |
+| Type | String |  |
+| PublicValue | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -61,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -70,13 +67,13 @@ Response body:
 POST /api/v1/Agents/User/RemoveUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 944,
-  "Type": "ab",
-  "PublicValue": "non"
+  "AssociateId": 319,
+  "Type": "quis",
+  "PublicValue": "provident"
 }
 ```
 

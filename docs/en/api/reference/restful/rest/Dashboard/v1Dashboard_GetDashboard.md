@@ -48,7 +48,7 @@ GET /api/v1/Dashboard/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 Dashboard found.
 
@@ -57,7 +57,7 @@ Dashboard found.
 | 200 | Dashboard found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: DashboardWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +66,7 @@ Response body:
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -76,7 +76,7 @@ Response body:
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 752,
-  "AssociateId": 135,
-  "Caption": "odit",
+  "DashboardId": 75,
+  "AssociateId": 98,
+  "Caption": "ut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 990,
-      "Caption": "quia",
-      "Description": "Distributed human-resource paradigm",
-      "ChartName": "Senger-Heidenreich",
-      "ChartId": "laudantium",
+      "DashboardTileId": 774,
+      "Caption": "inventore",
+      "Description": "Reactive multi-state customer loyalty",
+      "ChartName": "Pagac-Rolfson",
+      "ChartId": "quia",
       "IsDefault": false,
-      "AssociateId": 209,
-      "GroupId": 705,
-      "SelectionId": 591,
-      "Config": "provident",
+      "AssociateId": 955,
+      "GroupId": 173,
+      "SelectionId": 886,
+      "Config": "quas",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 881
+          "FieldLength": 311
         }
       }
     }
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldLength": 607
     }
   },
   "_Links": {

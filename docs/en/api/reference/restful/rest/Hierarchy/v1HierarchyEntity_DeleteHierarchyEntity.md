@@ -34,7 +34,7 @@ Calls the List agent service DeleteHierarchyEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 HierarchyEntity deleted.
 
@@ -42,7 +42,7 @@ HierarchyEntity deleted.
 |----------------|-------------|
 | 204 | HierarchyEntity deleted. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -51,7 +51,7 @@ Response body:
 DELETE /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

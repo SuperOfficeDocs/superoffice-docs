@@ -32,21 +32,20 @@ Update the ProjectStatus list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems  
+## Request Body: listItems 
 
 All the updated ProjectStatus. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The identity of the list item |
-| Name | string | The name of the list item |
-| Tooltip | string | The tooltip of the list item |
-| Deleted | bool | True if the list item is marked as deleted |
-| UdListDefinitionId | int32 | The id of the list which this list item belongs to |
-| Rank | int32 | The rank of the list item |
+| Id | Integer | The identity of the list item |
+| Name | String | The name of the list item |
+| Tooltip | String | The tooltip of the list item |
+| Deleted | Boolean | True if the list item is marked as deleted |
+| UdListDefinitionId | Integer | The id of the list which this list item belongs to |
+| Rank | Integer | The rank of the list item |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -54,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +63,7 @@ Response body: array
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,25 +72,25 @@ Response body: array
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 183,
-    "Name": "Sporer, Jewess and Dietrich",
-    "Tooltip": "sit",
+    "Id": 909,
+    "Name": "Denesik-Cassin",
+    "Tooltip": "quam",
     "Deleted": false,
-    "UdListDefinitionId": 98,
-    "Rank": 479
+    "UdListDefinitionId": 515,
+    "Rank": 798
   },
   {
-    "Id": 183,
-    "Name": "Sporer, Jewess and Dietrich",
-    "Tooltip": "sit",
+    "Id": 909,
+    "Name": "Denesik-Cassin",
+    "Tooltip": "quam",
     "Deleted": false,
-    "UdListDefinitionId": 98,
-    "Rank": 479
+    "UdListDefinitionId": 515,
+    "Rank": 798
   }
 ]
 ```
@@ -104,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "Turner Inc and Sons",
-    "Tooltip": "doloremque",
+    "Id": 599,
+    "Name": "Heathcote-Flatley",
+    "Tooltip": "quae",
     "Deleted": true,
-    "UdListDefinitionId": 941,
-    "Rank": 71,
+    "UdListDefinitionId": 871,
+    "Rank": 380,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldLength": 413
       }
     }
   }

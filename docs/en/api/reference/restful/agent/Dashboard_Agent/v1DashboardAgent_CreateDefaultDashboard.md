@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Dashboard
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +51,7 @@ Response body:
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -60,7 +60,7 @@ Response body:
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 447,
-  "AssociateId": 999,
-  "Caption": "incidunt",
+  "DashboardId": 851,
+  "AssociateId": 525,
+  "Caption": "qui",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 604,
-      "Caption": "natus",
-      "Description": "Horizontal well-modulated support",
-      "ChartName": "Altenwerth, Huels and Crona",
-      "ChartId": "voluptatibus",
-      "IsDefault": false,
-      "AssociateId": 611,
-      "GroupId": 642,
-      "SelectionId": 531,
-      "Config": "quo",
+      "DashboardTileId": 988,
+      "Caption": "nemo",
+      "Description": "Exclusive reciprocal support",
+      "ChartName": "Hessel, Barrows and White",
+      "ChartId": "est",
+      "IsDefault": true,
+      "AssociateId": 852,
+      "GroupId": 4,
+      "SelectionId": 529,
+      "Config": "doloremque",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 945
+          "FieldLength": 377
         }
       }
     }
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 424
+      "FieldLength": 598
     }
   }
 }

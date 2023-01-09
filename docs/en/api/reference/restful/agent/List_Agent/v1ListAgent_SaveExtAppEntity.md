@@ -32,37 +32,36 @@ Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ExtAppEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ExtAppId | int32 | The identity of the external app |
-| Name | string | The name of the web panel |
-| Tooltip | string | The tooltip of the web panel |
-| Deleted | bool | True if the application is marked as deleted |
-| Rank | int32 | The rank of the application |
-| Filename | string | Filename of the programfile |
-| Parameters | string | &lt;template variable&gt; &lt;other template variable&gt; |
-| Workdir | string | Directory set to current when loading the application, if different from application's own |
-| ShowState | string | The application is shown in which state Minimized, Maximized or Restored |
-| VisibleIn | string | The application is visible in |
-| OnCentral | bool | Is the application visible when user is on central database |
-| OnSatellite | bool | Is the application visible when user is on a satellite |
-| OnTravel | bool | Is the application visible when user is on travel |
-| OnSalesMarketingPocket | bool | Is the webpanel visible when user is on pocket client |
-| ShowInMenuBar | bool | Does the application have a menu bar |
-| ShowInToolBar | bool | Does the webpanel have a toolbar |
-| ShowInAddressBar | bool | Does the webpanel have an address bar |
-| ShowInStatusBar | bool | Does the webpanel have a status bar |
-| Icon | int32 | The id of the icon of the external app |
-| WaitToFinish | bool | True if the application shall wait for fininsh event |
-| ExecuteOnEvent | string | Events that cause automatic execution of this app |
-| Path | string | Path where the programfile is located; if empty, PATH is used |
+| ExtAppId | Integer | The identity of the external app |
+| Name | String | The name of the web panel |
+| Tooltip | String | The tooltip of the web panel |
+| Deleted | Boolean | True if the application is marked as deleted |
+| Rank | Integer | The rank of the application |
+| Filename | String | Filename of the programfile |
+| Parameters | String | &lt;template variable&gt; &lt;other template variable&gt; |
+| Workdir | String | Directory set to current when loading the application, if different from application's own |
+| ShowState | String | The application is shown in which state Minimized, Maximized or Restored |
+| VisibleIn | String | The application is visible in |
+| OnCentral | Boolean | Is the application visible when user is on central database |
+| OnSatellite | Boolean | Is the application visible when user is on a satellite |
+| OnTravel | Boolean | Is the application visible when user is on travel |
+| OnSalesMarketingPocket | Boolean | Is the webpanel visible when user is on pocket client |
+| ShowInMenuBar | Boolean | Does the application have a menu bar |
+| ShowInToolBar | Boolean | Does the webpanel have a toolbar |
+| ShowInAddressBar | Boolean | Does the webpanel have an address bar |
+| ShowInStatusBar | Boolean | Does the webpanel have a status bar |
+| Icon | Integer | The id of the icon of the external app |
+| WaitToFinish | Boolean | True if the application shall wait for fininsh event |
+| ExecuteOnEvent | String | Events that cause automatic execution of this app |
+| Path | String | Path where the programfile is located; if empty, PATH is used |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -70,7 +69,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ExtAppEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,7 +95,7 @@ Response body:
 | WaitToFinish | bool | True if the application shall wait for fininsh event |
 | ExecuteOnEvent | string | Events that cause automatic execution of this app |
 | Path | string | Path where the programfile is located; if empty, PATH is used |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -105,32 +104,32 @@ Response body:
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 460,
-  "Name": "Satterfield-Armstrong",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 982,
-  "Filename": "qui",
-  "Parameters": "itaque",
-  "Workdir": "atque",
+  "ExtAppId": 540,
+  "Name": "Stark-Yundt",
+  "Tooltip": "officiis",
+  "Deleted": false,
+  "Rank": 633,
+  "Filename": "numquam",
+  "Parameters": "dolorem",
+  "Workdir": "quae",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 90,
-  "WaitToFinish": false,
+  "Icon": 869,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "explicabo"
+  "Path": "aliquam"
 }
 ```
 
@@ -141,34 +140,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 894,
-  "Name": "Lehner, Gutkowski and Berge",
-  "Tooltip": "repudiandae",
+  "ExtAppId": 702,
+  "Name": "Kemmer LLC",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "Rank": 182,
-  "Filename": "recusandae",
-  "Parameters": "iste",
-  "Workdir": "modi",
+  "Rank": 749,
+  "Filename": "in",
+  "Parameters": "amet",
+  "Workdir": "et",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "Icon": 684,
+  "Icon": 853,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "tenetur",
+  "Path": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 898
     }
   }
 }

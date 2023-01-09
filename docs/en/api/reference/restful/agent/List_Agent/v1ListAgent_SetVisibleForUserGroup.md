@@ -38,19 +38,18 @@ POST /api/v1/Agents/List/SetVisibleForUserGroup?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionId, ListItemId, UserGroupId, Enable 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionId | int32 |  |
-| ListItemId | int32 |  |
-| UserGroupId | array |  |
-| Enable | bool |  |
+| UdListDefinitionId | Integer |  |
+| ListItemId | Integer |  |
+| UserGroupId | Array |  |
+| Enable | Boolean |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -58,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -67,15 +66,15 @@ Response body:
 POST /api/v1/Agents/List/SetVisibleForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 389,
-  "ListItemId": 751,
+  "UdListDefinitionId": 174,
+  "ListItemId": 699,
   "UserGroupId": [
-    748,
-    289
+    335,
+    17
   ],
   "Enable": false
 }

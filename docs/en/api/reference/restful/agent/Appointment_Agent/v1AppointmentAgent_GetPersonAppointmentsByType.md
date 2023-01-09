@@ -44,21 +44,20 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, AppointmentType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| IncludeProjectAppointments | bool |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| AppointmentType | string |  |
+| PersonId | Integer |  |
+| IncludeProjectAppointments | Boolean |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| AppointmentType | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -119,7 +118,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -128,15 +127,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 600,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2022-07-11T02:49:43.5129081+02:00",
-  "EndTime": "2015-01-10T02:49:43.5129081+01:00",
-  "Count": 362,
+  "PersonId": 949,
+  "IncludeProjectAppointments": true,
+  "StartTime": "1999-01-04T17:37:16.5952448+01:00",
+  "EndTime": "2016-05-03T17:37:16.5952448+02:00",
+  "Count": 834,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -149,53 +148,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 195,
-    "StartDate": "2003-01-14T02:49:43.5129081+01:00",
-    "EndDate": "2005-01-23T02:49:43.5129081+01:00",
+    "AppointmentId": 720,
+    "StartDate": "2006-11-25T17:37:16.5962447+01:00",
+    "EndDate": "2006-04-05T17:37:16.5962447+02:00",
     "Type": "BookingForChecklist",
-    "Task": "architecto",
-    "AssociateFullName": "Miss Felicita Elyse Bernhard Sr.",
-    "ContactName": "Turcotte-Torp",
-    "Description": "Distributed composite moderator",
-    "PersonFullName": "Miss Mustafa Herbert Ratke",
-    "PersonId": 105,
-    "ContactId": 596,
-    "ProjectId": 741,
-    "ProjectName": "Willms-Glover",
-    "IsPublished": true,
-    "AssociateId": 805,
-    "ColorIndex": 445,
+    "Task": "et",
+    "AssociateFullName": "Madie Ryan",
+    "ContactName": "Luettgen, Pollich and Torp",
+    "Description": "Re-engineered maximized structure",
+    "PersonFullName": "Braxton Brakus",
+    "PersonId": 899,
+    "ContactId": 117,
+    "ProjectId": 7,
+    "ProjectName": "Strosin LLC",
+    "IsPublished": false,
+    "AssociateId": 859,
+    "ColorIndex": 711,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 685,
-    "PriorityName": "Carter, Macejkovic and Hodkiewicz",
+    "PriorityId": 83,
+    "PriorityName": "Rodriguez, McGlynn and Kshlerin",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "1996-10-14T02:49:43.5129081+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2021-12-10T17:37:16.5972442+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-01-11T02:49:43.5129081+01:00",
-    "RecurringEndDate": "1997-08-15T02:49:43.5129081+02:00",
-    "MotherId": 493,
-    "AssignedBy": 76,
-    "AssignedByFullName": "Casper Bernier",
+    "RecurringStartDate": "2020-01-05T17:37:16.5972442+01:00",
+    "RecurringEndDate": "2014-05-05T17:37:16.5972442+02:00",
+    "MotherId": 520,
+    "AssignedBy": 368,
+    "AssignedByFullName": "Brianne Gorczany",
     "RejectReason": "",
-    "Location": "non",
-    "AlarmLeadTime": "quisquam",
-    "SaleId": 291,
-    "SaleName": "Gleichner, Reichert and Gorczany",
-    "AssociateName": "Koelpin Group",
-    "CreatedDate": "2011-01-24T02:49:43.5129081+01:00",
-    "CreatedBy": "non",
-    "CreatedByFullName": "Shane Osinski",
-    "CreatedByAssociateId": 958,
+    "Location": "nostrum",
+    "AlarmLeadTime": "molestias",
+    "SaleId": 795,
+    "SaleName": "Schimmel, Schowalter and Rath",
+    "AssociateName": "Feeney Inc and Sons",
+    "CreatedDate": "2006-09-12T17:37:16.5972442+02:00",
+    "CreatedBy": "enim",
+    "CreatedByFullName": "Jimmy Schmidt",
+    "CreatedByAssociateId": 310,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -203,7 +202,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 329
+        "FieldLength": 995
       }
     }
   }

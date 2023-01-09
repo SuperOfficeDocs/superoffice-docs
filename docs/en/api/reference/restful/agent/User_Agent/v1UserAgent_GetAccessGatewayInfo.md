@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetAccessGatewayInfo
 Returns accessgateway registration info
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,7 +44,7 @@ POST /api/v1/Agents/User/GetAccessGatewayInfo?$select=name,department,category/i
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -54,13 +52,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AccessGatewayInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ClientId | string | This is the registered client_id for AccessGateway OIDC |
 | RedirectUri | string | This is the registered redirect_uri for AccessGateway OIDC. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -69,7 +67,7 @@ Response body:
 POST /api/v1/Agents/User/GetAccessGatewayInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,14 +77,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "et",
-  "RedirectUri": "eligendi",
+  "ClientId": "quasi",
+  "RedirectUri": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 774
     }
   }
 }

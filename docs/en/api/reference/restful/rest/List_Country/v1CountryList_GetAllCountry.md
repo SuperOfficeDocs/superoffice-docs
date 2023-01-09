@@ -44,7 +44,7 @@ GET /api/v1/List/Country/Items?includeDeleted=True
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +74,7 @@ Response body: array
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +83,7 @@ Response body: array
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 103,
-    "Name": "Daniel Inc and Sons",
-    "CurrencyId": 987,
-    "EnglishName": "Morissette-Schuppe",
+    "CountryId": 419,
+    "Name": "White LLC",
+    "CurrencyId": 93,
+    "EnglishName": "Kovacek-Kihn",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Open-architected interactive concept",
-    "OrgNrText": "877057",
-    "InterAreaPrefix": "fugit",
-    "DialInPrefix": "qui",
-    "ZipPrefix": "et",
-    "DomainName": "O'Reilly-Reichel",
-    "AddressLayoutId": 827,
-    "DomesticAddressLayoutId": 335,
-    "ForeignAddressLayoutId": 576,
-    "Rank": 209,
-    "Tooltip": "corporis",
-    "Deleted": true,
+    "ImageDescription": "Organized intermediate knowledge base",
+    "OrgNrText": "1233074",
+    "InterAreaPrefix": "temporibus",
+    "DialInPrefix": "tempora",
+    "ZipPrefix": "ut",
+    "DomainName": "Turcotte-Mitchell",
+    "AddressLayoutId": 505,
+    "DomesticAddressLayoutId": 22,
+    "ForeignAddressLayoutId": 925,
+    "Rank": 649,
+    "Tooltip": "nihil",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 414
+        "FieldLength": 815
       }
     }
   }

@@ -44,16 +44,15 @@ POST /api/v1/Agents/AI/DetectSentiment?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Text 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Text | string |  |
+| Text | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,13 +60,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Sentiment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Score | int32 | Sentiment score, -100 = very unhappy, 100 = very happy, 0 = no idea (not recognized) |
 | Confidence | int32 | Sentiment analysis confidence, where available. 0 = no idea, 100 = perfectly confident, -1 = no confidence score available |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,11 +75,11 @@ Response body:
 POST /api/v1/Agents/AI/DetectSentiment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "rem"
+  "Text": "fuga"
 }
 ```
 
@@ -91,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Score": 277,
-  "Confidence": 167,
+  "Score": 25,
+  "Confidence": 733,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 811
     }
   }
 }

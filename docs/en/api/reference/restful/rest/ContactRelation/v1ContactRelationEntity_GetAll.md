@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=accusantium
-GET /api/v1/Relation?$top=138
-GET /api/v1/Relation?$skip=798
+GET /api/v1/Relation?$entities=culpa
+GET /api/v1/Relation?$top=724
+GET /api/v1/Relation?$skip=617
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=consequatur
+GET /api/v1/Relation?$context=unde
 GET /api/v1/Relation?$format=JSON
 GET /api/v1/Relation?$jsonSafe=True
 GET /api/v1/Relation?$output=Display
@@ -96,7 +95,7 @@ GET /api/v1/Relation?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aperiam",
+  "odata.nextLink": "dolor",
   "value": [
     {
-      "PrimaryKey": 4067,
-      "EntityName": "person",
-      "personId": 4067,
-      "fullName": "Diego Raynor"
+      "PrimaryKey": 1054,
+      "EntityName": "sale",
+      "saleId": 1054,
+      "contactId": 9759,
+      "name": "Herman Inc and Sons"
     },
     {
-      "PrimaryKey": 6802,
-      "EntityName": "person",
-      "personId": 6802,
-      "fullName": "Jackeline Lang"
+      "PrimaryKey": 7876,
+      "EntityName": "sale",
+      "saleId": 7876,
+      "contactId": 8831,
+      "name": "Cummerata Group"
     }
   ]
 }
