@@ -33,7 +33,7 @@ Read more about SPF in [How to set up SPF?][1]
 
 ## DKIM
 
-DKIM (Domain Keys Identified Mail) should be considered a method to verify that the messages' content is trustworthy, meaning that they were not changed from the moment the message left the initial mail server. This additional layer of trustability is achieved by an implementation of the standard public/private key signing process. The owners of the domain add a DNS entry with the public DKIM key, which will be used by receivers to verify that the message DKIM signature is correct, while on the sender side the server will sign the entitled mail messages with the corresponding private key. Receiving email servers look up your public key and verify that nothing has changed in the email.
+DKIM (Domain Keys Identified Mail) should be considered a method to verify that the messages' content is trustworthy, meaning that they were not changed from the moment the message left the initial mail server. This additional layer of trustability is achieved by an implementation of the standard public/private key signing process. The owners of the domain adds a DNS entry with the public DKIM key, which will be used by receivers to verify that the message DKIM signature is correct, while on the sender side the server will sign the entitled mail messages with the corresponding private key. Receiving email servers look up your public key and verify that nothing has changed in the email.
 
 Not all receiving mail servers support the DKIM standard.
 
@@ -41,15 +41,15 @@ Read more about DKIM in [How to order a DKIM key from SuperOffice, and how to s
 
 ## DMARC
 
-Domain-based Message Authentication, Reporting & Conformance is an email authentication protocol. it builds on the widely deployed SPF and DKIM protocols, adding a reporting function that allows senders and receivers to improve and monitor the protection of the domain from fraudulent email. DMARC acts as a policy statement that declares what to do with emails that fail on SPF, DKIM, or both.
+Domain-based Message Authentication, Reporting & Conformance is an email authentication protocol. It builds on the widely deployed SPF and DKIM protocols, adding a reporting function that allows senders and receivers to improve and monitor the protection of the domain from fraudulent email. DMARC acts as a policy statement that declares what to do with emails that fail on SPF, DKIM, or both.
 
 There are a few different modes that you can use with DMARC, but the most basic one is to receive reports from receiving email servers on 'pass' or 'fail' status, and receivers are given a simple way to check the legitimacy of the email.
 
 Monitoring on DMARC:
 
-Mailgun is not able to act upon the DMARC reports out of the box (?) but the reports can be used with a 3.party DMARC aggregation service:
+Mailgun is not able to act upon the DMARC reports out of the box but the reports can be used with a 3.party DMARC aggregation service.
 
-Postmark runs a [free DMARC aggregation service][3], which will aggregate all of the reports from DMARC-supporting services and send you a report every Monday morning with details. The first step in implementing DMARC is to sign up with Postmark's service, set up the DMARC record that they give you in your DNS, and wait a week. You'll probably have to go through this cycle every week for at least a few weeks, to catch all of the services that send email as you
+Postmark runs a [free DMARC aggregation service][3], which will aggregate all of the reports from DMARC-supporting services and send you a report every Monday morning with details. The first step in implementing DMARC is to sign up with Postmark's service, set up the DMARC record that they give you in your DNS, and wait a week. You'll probably have to go through this cycle every week for at least a few weeks, to catch all of the services that send email as you.
 
 Upon reception, the receiving mail server checks if there is any existing DMARC policy published in the domain used by the SPF and/or DKIM checks. If one or both the SPF and DKIM checks succeed while still being aligned with the policy set by DMARC, then the check is considered successful, otherwise, it's set as failed. If the check fails, based on the action published by the DMARC policy, different actions are taken:
 
