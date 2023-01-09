@@ -46,11 +46,11 @@ You can include links (URLs) in an email mailing or form response and track them
 ## What do you want to do now?
 
 * [Edit the link][2] (Click the **Edit** button.)
-* [Work with the recipient list][7]
+* [Work with the recipient list][1]
 
 <!-- Referenced links -->
+[1]: ../../mailing/learn/follow-up/look-at-recipient-list.md
 [2]: create-links.md
 [4]: define-link-actions.md
-[7]: ../../mailing/learn/follow-up/look-at-recipient-list.md
 
 <!-- Referenced images -->

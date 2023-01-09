@@ -11,6 +11,10 @@ language: en
 
 # Look at recipient list after the mailing
 
+After the mailing has been sent, SuperOffice Marketing collects data about the status of each sent e-mail. In the Recipients tab, you can view the status for each recipient of the mailing. You can also filter the list and export the results to selections and projects in SuperOffice CRM for further processing.
+
+In order to do this:
+
 1. Click the mailing in the **Mailings** tab.
 
 2. In the **View mailing** screen, click the **Recipients** tab.
@@ -34,7 +38,7 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 
 ## Filters
 
- ***Sent**: Activate this filter to show all recipients the mailing was sent to.
+* **Sent**: Activate this filter to show all recipients the mailing was sent to.
 
 * **Bounced**: Activate this filter to show all recipients for whom the [mailing was returned undelivered][3]. This may be due to email address errors, spam filters, Internet problems or inboxes being full.
 
@@ -62,15 +66,20 @@ Using the ![icon][img2] menu button you can add recipients and clickers to a sel
 > [!NOTE]
 > Only contacts already registered in the SuperOffice database will be added to the selection or project. A contact icon ![icon][img3] in the **Type** column indicates that a contact is registered in the SuperOffice database. Recipients imported from external lists will typically not be registered.
 
-## Add clickers to a new selection or project
+### Add clickers to a new selection or project
 
 [!include[How to](../../../learn/includes/howto-add-person-to-selection-new.md)]
 
-## Add clickers to an existing selection or project
+### Add clickers to an existing selection or project
 
 [!include[How to](../../../learn/includes/howto-add-person-to-selection-existing.md)]
 
+## Related topics
+
+* [Work with tracked links after the mailing][1]
+
 <!-- Referenced links -->
+[1]: ../../../tracked-links/learn/explore-clicks.md
 [3]: manage-bounces.md
 
 <!-- Referenced images -->
