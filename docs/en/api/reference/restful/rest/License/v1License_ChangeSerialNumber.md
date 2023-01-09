@@ -27,8 +27,8 @@ Requests a new license from SuperLicense, checks if change is authorized.
 | newSerialNumber | string | **Required** New serial number to change to. |
 
 ```http
-POST /api/v1/License/ChangeSerialNumber?newCompanyName=Stokes Inc and Sons
-POST /api/v1/License/ChangeSerialNumber?newSerialNumber=1008544
+POST /api/v1/License/ChangeSerialNumber?newCompanyName=Lind-Kihn
+POST /api/v1/License/ChangeSerialNumber?newSerialNumber=1465783
 ```
 
 
@@ -46,7 +46,7 @@ POST /api/v1/License/ChangeSerialNumber?newSerialNumber=1008544
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -54,13 +54,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: LicenseResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Succeeded | bool |  |
 | Reason | string |  |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -69,7 +69,7 @@ Response body:
 POST /api/v1/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,14 +79,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": false,
+  "Succeeded": true,
   "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 485
+      "FieldLength": 366
     }
   }
 }

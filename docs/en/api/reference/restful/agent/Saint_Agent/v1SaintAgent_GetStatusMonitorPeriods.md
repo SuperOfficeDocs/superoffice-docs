@@ -42,7 +42,7 @@ POST /api/v1/Agents/Saint/GetStatusMonitorPeriods?$select=name,department,catego
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,14 +50,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: StatusMonitorPeriods
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Period1 | int32 | Days in the first period |
 | Period2 | int32 | Days in the second period |
 | Period3 | int32 | Days in the third period |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -66,7 +66,7 @@ Response body:
 POST /api/v1/Agents/Saint/GetStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 145,
-  "Period2": 845,
-  "Period3": 194,
+  "Period1": 523,
+  "Period2": 97,
+  "Period3": 3,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldLength": 977
     }
   }
 }

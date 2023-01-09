@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/SaveErpSyncConnectorEntity
 Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is empty
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -36,19 +34,18 @@ Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEnt
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ErpSyncConnectorEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpConnectorId | int32 | Primary key |
-| DisplayName | string | Name shown in the list |
-| URL | string | The URL where the connector is located and can be called |
-| Deleted | bool | True if the connector is deleted |
+| ErpConnectorId | Integer | Primary key |
+| DisplayName | String | Name shown in the list |
+| URL | String | The URL where the connector is located and can be called |
+| Deleted | Boolean | True if the connector is deleted |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ErpSyncConnectorEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +61,7 @@ Response body:
 | DisplayName | string | Name shown in the list |
 | URL | string | The URL where the connector is located and can be called |
 | Deleted | bool | True if the connector is deleted |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,14 +70,14 @@ Response body:
 POST /api/v1/Agents/ErpSync/SaveErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 420,
-  "DisplayName": "Daniel Inc and Sons",
+  "ErpConnectorId": 878,
+  "DisplayName": "Steuber Group",
   "URL": "http://www.example.com/",
-  "Deleted": false
+  "Deleted": true
 }
 ```
 
@@ -91,16 +88,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 969,
-  "DisplayName": "Stanton-Hegmann",
+  "ErpConnectorId": 957,
+  "DisplayName": "Jones, Schroeder and Jenkins",
   "URL": "http://www.example.com/",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldType": "System.Int32",
+      "FieldLength": 926
     }
   }
 }

@@ -44,49 +44,48 @@ POST /api/v1/Product?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The Product to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProductId | int32 | Primary key |
-| ERPProductKey | string | Reference/foreign key to the product in the given pricelist in the product supplier system, if it exists there. |
-| ERPPriceListKey | string | Foreign key to the price list that this product is a part of, or the primary key of the pricelist if this is a built-in pricelist. |
-| Name | string | The name to use in the user interface. |
-| Description | string | The description to use, with potentially several lines. Will be used as tool-tip to use in the list user interface too. |
-| Code | string | The product code / article number in the product supplier system. |
-| PriceUnit | string | What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products |
-| QuantityUnit | string | What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different |
-| IsSubscription | bool | Is this a subscription product, sold in repeating intervals/amounts? |
-| SubscriptionUnit | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual subscription unit. |
-| DefaultSubscriptionQuantity | double | The default number of SubscriptionUnits to suggest when creating quote lines from this product |
-| ItemNumber | string | Line item number, NOR: «Postnummer». Specific numbers from some hierarchy, for instance “1.4.3.2P”. Typically used to sort the items in the quote by some standard way. |
-| Url | string | URL to product information web page. |
-| ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
-| ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
-| ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
-| VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
-| UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
-| UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
-| UnitListPrice | double | (Basic Price, normal price, standard price.) This is the basic price from which the discount is computed from. The ListPrice will stay the same even when a larger amount is ordered. |
-| InAssortment | bool | True for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results. |
-| Supplier | string | In SuperOffice, an id from the contact table, when saved as an ERP cache, the name of the supplier |
-| SupplierCode | string | Suppliers part code/number or other key-like field |
-| Rights | string | Field1=right&amp;Field2=right, etc. of any fields that have non-standard field access rights. Rights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory). The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on. Will be used by SuperOffice to control the user interface when showing the record. |
-| Rule | string | The names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive. Will NOT be used by SuperOffice. |
-| ExtraInfo | array | Extra information, supplied by QuoteConnector, used by a future dynamic GUI extension |
-| RawExtraInfo | string | Read-only extra information in plain text, supplied by QuoteConnector, used by a future dynamic GUI extension |
-| ExtraField1 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| ExtraField2 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
+| ProductId | Integer | Primary key |
+| ERPProductKey | String | Reference/foreign key to the product in the given pricelist in the product supplier system, if it exists there. |
+| ERPPriceListKey | String | Foreign key to the price list that this product is a part of, or the primary key of the pricelist if this is a built-in pricelist. |
+| Name | String | The name to use in the user interface. |
+| Description | String | The description to use, with potentially several lines. Will be used as tool-tip to use in the list user interface too. |
+| Code | String | The product code / article number in the product supplier system. |
+| PriceUnit | String | What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products |
+| QuantityUnit | String | What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different |
+| IsSubscription | Boolean | Is this a subscription product, sold in repeating intervals/amounts? |
+| SubscriptionUnit | String | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual subscription unit. |
+| DefaultSubscriptionQuantity | Number | The default number of SubscriptionUnits to suggest when creating quote lines from this product |
+| ItemNumber | String | Line item number, NOR: «Postnummer». Specific numbers from some hierarchy, for instance “1.4.3.2P”. Typically used to sort the items in the quote by some standard way. |
+| Url | String | URL to product information web page. |
+| ProductCategoryKey | String | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
+| ProductFamilyKey | String | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
+| ProductTypeKey | String | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
+| VAT | Number | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
+| VATInfo | String | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
+| UnitCost | Number | The cost price. Might not be given, use Decimal.MinValue to signal this. |
+| UnitMinimumPrice | Number | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
+| UnitListPrice | Number | (Basic Price, normal price, standard price.) This is the basic price from which the discount is computed from. The ListPrice will stay the same even when a larger amount is ordered. |
+| InAssortment | Boolean | True for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results. |
+| Supplier | String | In SuperOffice, an id from the contact table, when saved as an ERP cache, the name of the supplier |
+| SupplierCode | String | Suppliers part code/number or other key-like field |
+| Rights | String | Field1=right&amp;Field2=right, etc. of any fields that have non-standard field access rights. Rights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory). The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on. Will be used by SuperOffice to control the user interface when showing the record. |
+| Rule | String | The names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive. Will NOT be used by SuperOffice. |
+| ExtraInfo | Array | Extra information, supplied by QuoteConnector, used by a future dynamic GUI extension |
+| RawExtraInfo | String | Read-only extra information in plain text, supplied by QuoteConnector, used by a future dynamic GUI extension |
+| ExtraField1 | String | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
+| ExtraField2 | String | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
+| ExtraField3 | String | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
+| ExtraField4 | String | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
+| ExtraField5 | String | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
+| InStock | Number | Negative numbers will be interpreted as how many is ordered. Might not be available. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -94,7 +93,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Product
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -132,7 +131,7 @@ Response body:
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -141,55 +140,55 @@ Response body:
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 698,
-  "ERPProductKey": "a",
-  "ERPPriceListKey": "et",
-  "Name": "Cremin-Rempel",
-  "Description": "Virtual coherent challenge",
-  "Code": "odio",
-  "PriceUnit": "est",
-  "QuantityUnit": "tenetur",
+  "ProductId": 626,
+  "ERPProductKey": "dolorem",
+  "ERPPriceListKey": "sint",
+  "Name": "Weber LLC",
+  "Description": "Multi-channelled analyzing migration",
+  "Code": "fugiat",
+  "PriceUnit": "totam",
+  "QuantityUnit": "vel",
   "IsSubscription": false,
-  "SubscriptionUnit": "hic",
-  "DefaultSubscriptionQuantity": 7402.508,
-  "ItemNumber": "334870",
+  "SubscriptionUnit": "vero",
+  "DefaultSubscriptionQuantity": 30221.162,
+  "ItemNumber": "1389936",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "placeat",
-  "ProductTypeKey": "aliquam",
-  "VAT": 29597.496,
-  "VATInfo": "est",
-  "UnitCost": 28090.041999999998,
-  "UnitMinimumPrice": 21809.505999999998,
-  "UnitListPrice": 4939.184,
+  "ProductFamilyKey": "quia",
+  "ProductTypeKey": "culpa",
+  "VAT": 2049.636,
+  "VATInfo": "molestiae",
+  "UnitCost": 13987.042,
+  "UnitMinimumPrice": 24363.716,
+  "UnitListPrice": 7458.92,
   "InAssortment": false,
-  "Supplier": "repellat",
-  "SupplierCode": "quaerat",
-  "Rights": "vel",
-  "Rule": "non",
+  "Supplier": "hic",
+  "SupplierCode": "molestiae",
+  "Rights": "est",
+  "Rule": "sunt",
   "ExtraInfo": [
     {
-      "Name": "Schamberger LLC",
-      "Value": "nulla",
+      "Name": "Gerlach-Beier",
+      "Value": "id",
       "Type": "Image"
     },
     {
-      "Name": "Schamberger LLC",
-      "Value": "nulla",
+      "Name": "Gerlach-Beier",
+      "Value": "id",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "sed",
-  "ExtraField1": "cumque",
-  "ExtraField2": "iure",
-  "ExtraField3": "ipsa",
-  "ExtraField4": "cumque",
-  "ExtraField5": "dolorem",
-  "InStock": 24348.046
+  "RawExtraInfo": "nam",
+  "ExtraField1": "officiis",
+  "ExtraField2": "similique",
+  "ExtraField3": "aut",
+  "ExtraField4": "at",
+  "ExtraField5": "consequatur",
+  "InStock": 2701.508
 }
 ```
 
@@ -200,73 +199,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 835,
-  "ERPProductKey": "maxime",
-  "ERPPriceListKey": "quam",
-  "Name": "Schuppe-Prohaska",
-  "Description": "Intuitive fault-tolerant knowledge base",
-  "Code": "est",
-  "PriceUnit": "non",
-  "QuantityUnit": "ea",
-  "IsSubscription": false,
-  "SubscriptionUnit": "pariatur",
-  "DefaultSubscriptionQuantity": 16393.953999999998,
-  "ItemNumber": "987167",
+  "ProductId": 106,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "neque",
+  "Name": "Prohaska, Heller and Hodkiewicz",
+  "Description": "Decentralized reciprocal artificial intelligence",
+  "Code": "et",
+  "PriceUnit": "a",
+  "QuantityUnit": "deserunt",
+  "IsSubscription": true,
+  "SubscriptionUnit": "sint",
+  "DefaultSubscriptionQuantity": 31.34,
+  "ItemNumber": "680672",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "beatae",
-  "ProductTypeKey": "nulla",
-  "VAT": 27174.914,
-  "VATInfo": "ipsa",
-  "UnitCost": 25385.399999999998,
-  "UnitMinimumPrice": 16462.902,
-  "UnitListPrice": 11420.296,
+  "ProductFamilyKey": "voluptas",
+  "ProductTypeKey": "molestias",
+  "VAT": 16162.037999999999,
+  "VATInfo": "vitae",
+  "UnitCost": 29763.597999999998,
+  "UnitMinimumPrice": 11620.872,
+  "UnitListPrice": 11279.266,
   "InAssortment": false,
-  "Supplier": "excepturi",
-  "SupplierCode": "officiis",
-  "Rights": "ad",
-  "Rule": "ex",
+  "Supplier": "quia",
+  "SupplierCode": "ex",
+  "Rights": "fuga",
+  "Rule": "minus",
   "ExtraInfo": [
     {
-      "Name": "Lindgren LLC",
-      "Value": "neque",
+      "Name": "Schowalter-Little",
+      "Value": "iste",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 85
         }
       }
     },
     {
-      "Name": "Lindgren LLC",
-      "Value": "neque",
+      "Name": "Schowalter-Little",
+      "Value": "iste",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 85
         }
       }
     }
   ],
-  "RawExtraInfo": "debitis",
-  "ExtraField1": "sed",
-  "ExtraField2": "provident",
-  "ExtraField3": "cupiditate",
-  "ExtraField4": "aliquid",
-  "ExtraField5": "inventore",
-  "InStock": 27598.004,
+  "RawExtraInfo": "eius",
+  "ExtraField1": "eum",
+  "ExtraField2": "natus",
+  "ExtraField3": "ea",
+  "ExtraField4": "blanditiis",
+  "ExtraField5": "officiis",
+  "InStock": 22915.808,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 450
     }
   }
 }

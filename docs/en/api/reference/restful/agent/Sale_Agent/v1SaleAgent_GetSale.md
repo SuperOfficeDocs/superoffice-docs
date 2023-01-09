@@ -25,7 +25,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=912
+POST /api/v1/Agents/Sale/GetSale?saleId=68
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Sale
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +81,7 @@ Response body:
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,7 +90,7 @@ Response body:
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,37 +100,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Bartoletti-Koss",
-  "SaleDate": "2019-02-19T02:49:45.1247147+01:00",
-  "SaleId": 666,
-  "Probability": 685,
-  "Title": "sed",
-  "Amount": 15243.776,
-  "Currency": "rem",
-  "ProjectName": "Emmerich, Bauch and Von",
-  "AssociateFullName": "Mr. Una Carmine Wyman DVM",
-  "Description": "Re-engineered optimizing matrices",
+  "ContactName": "Tremblay-Quigley",
+  "SaleDate": "2000-05-19T17:37:18.8642421+02:00",
+  "SaleId": 339,
+  "Probability": 911,
+  "Title": "similique",
+  "Amount": 4343.724,
+  "Currency": "quasi",
+  "ProjectName": "Mayer, Roob and Jones",
+  "AssociateFullName": "Rocky Cummerata",
+  "Description": "Monitored maximized functionalities",
   "Status": "Lost",
-  "WeightedAmount": 510.842,
-  "ProjectId": 620,
-  "EarningPercent": 17848.13,
-  "Earning": 18769.525999999998,
-  "ContactId": 789,
-  "AssociateId": 865,
-  "PersonId": 919,
-  "SaleTypeId": 48,
-  "SaleTypeName": "Kulas-Hoppe",
-  "PersonFullName": "Otis Brandon Wintheiser DDS",
+  "WeightedAmount": 21201.51,
+  "ProjectId": 171,
+  "EarningPercent": 29246.487999999998,
+  "Earning": 990.34399999999994,
+  "ContactId": 771,
+  "AssociateId": 562,
+  "PersonId": 377,
+  "SaleTypeId": 887,
+  "SaleTypeName": "Keeling-Toy",
+  "PersonFullName": "Sammie Leffler",
   "Completed": "Completed",
-  "ActiveErpLinks": 372,
-  "NextDueDate": "2008-01-25T02:49:45.1247147+01:00",
-  "Number": "1879793",
+  "ActiveErpLinks": 370,
+  "NextDueDate": "2006-06-04T17:37:18.8642421+02:00",
+  "Number": "174035",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 229
     }
   }
 }

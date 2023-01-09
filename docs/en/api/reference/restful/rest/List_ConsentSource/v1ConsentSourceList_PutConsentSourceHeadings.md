@@ -34,21 +34,20 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HeadingId | int32 | Primary key |
-| Name | string | The visible heading |
-| Tooltip | string | Tooltip or other description |
-| Deleted | bool | True if the heading is marked as deleted |
-| Rank | int32 | Rank order |
-| UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+| HeadingId | Integer | Primary key |
+| Name | String | The visible heading |
+| Tooltip | String | Tooltip or other description |
+| Deleted | Boolean | True if the heading is marked as deleted |
+| Rank | Integer | Rank order |
+| UdListDefinitionId | Integer | The id of the list which this heading belongs to |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body: array
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,25 +74,25 @@ Response body: array
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 334,
-    "Name": "Kuhlman Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 778,
+    "Name": "Maggio LLC",
+    "Tooltip": "fuga",
     "Deleted": false,
-    "Rank": 874,
-    "UdListDefinitionId": 941
+    "Rank": 816,
+    "UdListDefinitionId": 261
   },
   {
-    "HeadingId": 334,
-    "Name": "Kuhlman Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 778,
+    "Name": "Maggio LLC",
+    "Tooltip": "fuga",
     "Deleted": false,
-    "Rank": 874,
-    "UdListDefinitionId": 941
+    "Rank": 816,
+    "UdListDefinitionId": 261
   }
 ]
 ```
@@ -106,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 228,
-    "Name": "McDermott Group",
-    "Tooltip": "nulla",
-    "Deleted": false,
-    "Rank": 313,
-    "UdListDefinitionId": 330,
+    "HeadingId": 186,
+    "Name": "Wuckert, Ondricka and Brekke",
+    "Tooltip": "occaecati",
+    "Deleted": true,
+    "Rank": 717,
+    "UdListDefinitionId": 796,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldLength": 107
       }
     }
   }

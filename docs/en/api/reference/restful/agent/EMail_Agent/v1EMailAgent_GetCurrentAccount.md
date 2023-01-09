@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetCurrentAccount
 Get current account (last logged into should normally be current) for logged in associate
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,7 +44,7 @@ POST /api/v1/Agents/EMail/GetCurrentAccount?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -54,21 +52,21 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailAccount
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EMailAccountId | int32 | The account primary key |
 | EMailAddress | string | The account (from) address |
 | AssociateId | int32 | Id of the associate who owns this account |
-| IncomingCredentials |  | Account credentials for imap |
-| OutgoingCredentials |  | Account credentials for smtp |
+| IncomingCredentials | ServiceAuth | Account credentials for imap |
+| OutgoingCredentials | ServiceAuth | Account credentials for smtp |
 | AccountStatus | int32 | The account status (Disabled or...) Readonly field |
 | ErrorCount | int32 | Count of concurring errors of fetching email. Readonly field |
 | ErrorReason | string | Reason/Error message. Readonly field |
 | InboxFolder | string | Inbox folder name if available in the db |
 | SentFolder | string | Sent email folder name if available in the db |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +75,7 @@ Response body:
 POST /api/v1/Agents/EMail/GetCurrentAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 803,
-  "EMailAddress": "itaque",
-  "AssociateId": 537,
+  "EMailAccountId": 873,
+  "EMailAddress": "id",
+  "AssociateId": 368,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 416,
-  "ErrorCount": 842,
+  "AccountStatus": 364,
+  "ErrorCount": 243,
   "ErrorReason": "",
-  "InboxFolder": "vero",
-  "SentFolder": "iste",
+  "InboxFolder": "beatae",
+  "SentFolder": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldLength": 46
     }
   }
 }

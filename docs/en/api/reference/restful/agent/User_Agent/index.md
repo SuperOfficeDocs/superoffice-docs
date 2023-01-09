@@ -53,6 +53,10 @@ title: User_Agent
 
 * [POST Agents/User/ValidateUser](v1UserAgent_ValidateUser.md)
 
+* [POST Agents/User/GetUserPresenceStatus](v1UserAgent_GetUserPresenceStatus.md)
+
+* [POST Agents/User/SetUserPresenceStatus](v1UserAgent_SetUserPresenceStatus.md)
+
 * [POST Agents/User/GetUserGroup](v1UserAgent_GetUserGroup.md)
 
 * [POST Agents/User/SaveUserGroup](v1UserAgent_SaveUserGroup.md)

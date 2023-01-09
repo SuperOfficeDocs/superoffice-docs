@@ -25,7 +25,7 @@ Gets a SuggestedDocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=377
+POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=841
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SuggestedDocumentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,10 +64,10 @@ Response body:
 | Header | string | Suggested 'header' |
 | OurRef | string | Suggested 'our reference' |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| DocTmpl |  | Document template |
-| ProjectTypeStatusLink |  | Project type and project status link info |
-| SaleTypeStageLink |  | Sale type and stage link info. |
-| TableRight |  |  |
+| DocTmpl | DocumentTemplate | Document template |
+| ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
+| SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,13 +86,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 875,
-  "Name": "Cassin LLC",
-  "Tooltip": "at",
-  "Rank": 237,
-  "DoctmplId": 115,
-  "Header": "delectus",
-  "OurRef": "et",
+  "SuggestedDocumentId": 448,
+  "Name": "Price Group",
+  "Tooltip": "sapiente",
+  "Rank": 891,
+  "DoctmplId": 409,
+  "Header": "sit",
+  "OurRef": "dolores",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldLength": 118
     }
   }
 }

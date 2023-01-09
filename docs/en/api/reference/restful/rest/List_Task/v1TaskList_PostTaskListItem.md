@@ -34,28 +34,27 @@ Calls the Appointment agent service SaveTaskListItem.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The TaskListItem to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TaskListItemId | int32 | Primary key |
-| Value | string | The list item |
-| Direction | string | 1 = incoming, 2 = outgoing, see EAppntDirection |
-| Type | string | 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes |
-| Tooltip | string | Tooltip or other description |
-| Deleted | bool | If true, the Task list item is deleted |
-| IntentId | int32 | Link to the intention of this kind of task (used by SAINT) |
-| Rank | int32 | Rank order |
-| IsDefaultAlldayEvent | bool | True if all day event |
-| IsDefaultFree | bool | True if free, false if busy |
-| IsDefaultPublished | bool | Published to external persons |
-| ColorIndex | string | JAP |
-| DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
+| TaskListItemId | Integer | Primary key |
+| Value | String | The list item |
+| Direction | String | 1 = incoming, 2 = outgoing, see EAppntDirection |
+| Type | String | 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes |
+| Tooltip | String | Tooltip or other description |
+| Deleted | Boolean | If true, the Task list item is deleted |
+| IntentId | Integer | Link to the intention of this kind of task (used by SAINT) |
+| Rank | Integer | Rank order |
+| IsDefaultAlldayEvent | Boolean | True if all day event |
+| IsDefaultFree | Boolean | True if free, false if busy |
+| IsDefaultPublished | Boolean | Published to external persons |
+| ColorIndex | String | JAP |
+| DefaultVideomeetingStatus | String | Default video-meeting status for meetings created in SuperOffice CRM. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TaskListItem
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body:
 | IsDefaultPublished | bool | Published to external persons |
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,21 +88,21 @@ Response body:
 POST /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 409,
-  "Value": "et",
+  "TaskListItemId": 798,
+  "Value": "dolores",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "nemo",
+  "Tooltip": "quod",
   "Deleted": true,
-  "IntentId": 303,
-  "Rank": 209,
+  "IntentId": 412,
+  "Rank": 1001,
   "IsDefaultAlldayEvent": true,
   "IsDefaultFree": false,
-  "IsDefaultPublished": true,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
 }
@@ -116,16 +115,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 725,
-  "Value": "aut",
+  "TaskListItemId": 834,
+  "Value": "voluptas",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
-  "IntentId": 471,
-  "Rank": 172,
-  "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": true,
+  "Tooltip": "reprehenderit",
+  "Deleted": false,
+  "IntentId": 88,
+  "Rank": 284,
+  "IsDefaultAlldayEvent": false,
+  "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -133,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldType": "System.String",
+      "FieldLength": 576
     }
   }
 }

@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Dashboard
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +51,7 @@ Response body:
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -70,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 10,
-  "AssociateId": 181,
-  "Caption": "mollitia",
+  "DashboardId": 74,
+  "AssociateId": 641,
+  "Caption": "fugiat",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 694,
-      "Caption": "omnis",
-      "Description": "Re-contextualized bifurcated Graphic Interface",
-      "ChartName": "Welch, Towne and Schroeder",
-      "ChartId": "quas",
+      "DashboardTileId": 577,
+      "Caption": "reiciendis",
+      "Description": "Open-architected maximized attitude",
+      "ChartName": "Bartoletti-Dibbert",
+      "ChartId": "ut",
       "IsDefault": true,
-      "AssociateId": 91,
-      "GroupId": 768,
-      "SelectionId": 568,
-      "Config": "alias",
+      "AssociateId": 577,
+      "GroupId": 756,
+      "SelectionId": 619,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldType": "System.String",
+          "FieldLength": 613
         }
       }
     }
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldType": "System.String",
+      "FieldLength": 557
     }
   }
 }

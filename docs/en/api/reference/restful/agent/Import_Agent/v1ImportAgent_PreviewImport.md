@@ -42,19 +42,18 @@ POST /api/v1/Agents/Import/PreviewImport?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ImportLines, ColumnDefinition, Culture, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ImportLines | array |  |
-| ColumnDefinition | array |  |
-| Culture | string |  |
-| Context | string |  |
+| ImportLines | Array |  |
+| ColumnDefinition | Array |  |
+| Culture | String |  |
+| Context | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body: array
 | Operation | string | Which operation will be used? This is a read-only property |
 | Type | string | Which entity type will be created? This is a read-only property |
 | ExternalKey | string | Optional external primary key for the row |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,31 +86,31 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "fugit",
-        "quisquam"
+        "deserunt",
+        "commodi"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "illum"
+      "ExternalKey": "minima"
     },
     {
       "Values": [
-        "fugit",
-        "quisquam"
+        "deserunt",
+        "commodi"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "illum"
+      "ExternalKey": "minima"
     }
   ],
   "ColumnDefinition": [
-    "blanditiis",
-    "labore"
+    "omnis",
+    "atque"
   ],
-  "Culture": "atque",
-  "Context": "ea"
+  "Culture": "voluptas",
+  "Context": "sint"
 }
 ```
 
@@ -124,19 +123,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "mollitia",
-      "ipsa"
+      "est",
+      "iure"
     ],
     "Selected": false,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "quaerat",
+    "ExternalKey": "ab",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldType": "System.String",
+        "FieldLength": 523
       }
     }
   }

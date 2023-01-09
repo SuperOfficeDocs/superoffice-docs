@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/ChangeEngineStatus
 Change the current running/stopped status of the Sync engine
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/ErpSync/ChangeEngineStatus?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Run 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Run | bool |  |
+| Run | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,14 +60,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ErpSyncEngineStatus
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IsRunning | bool | Is the engine currently running |
 | StatusMessage | string | Current status message from the engine |
 | Interval | string | The interval for each iteration of the sync engine |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,7 +76,7 @@ Response body:
 POST /api/v1/Agents/ErpSync/ChangeEngineStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,14 +92,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": true,
-  "StatusMessage": "ducimus",
-  "Interval": "voluptatum",
+  "StatusMessage": "sunt",
+  "Interval": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldType": "System.String",
+      "FieldLength": 547
     }
   }
 }

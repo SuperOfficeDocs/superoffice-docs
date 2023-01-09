@@ -32,20 +32,19 @@ Updates the existing Dashboard or creates a new Dashboard if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The Dashboard to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardId | int32 | The dashboard id |
-| AssociateId | int32 | Id of the associate who owns this dashboard |
-| Caption | string | The caption for this dashboard |
-| Layout | string | The dashboard layout, how the tiles are organized on the screen |
-| Tiles | array | The tiles associated with this dashboard |
+| DashboardId | Integer | The dashboard id |
+| AssociateId | Integer | Id of the associate who owns this dashboard |
+| Caption | String | The caption for this dashboard |
+| Layout | String | The dashboard layout, how the tiles are organized on the screen |
+| Tiles | Array | The tiles associated with this dashboard |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -53,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Dashboard
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +61,7 @@ Response body:
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,22 +74,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 255,
-  "AssociateId": 68,
-  "Caption": "natus",
+  "DashboardId": 409,
+  "AssociateId": 180,
+  "Caption": "assumenda",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 655,
-      "Caption": "nesciunt",
-      "Description": "Fundamental multi-tasking Graphical User Interface",
-      "ChartName": "Tillman Group",
-      "ChartId": "cum",
-      "IsDefault": true,
-      "AssociateId": 479,
-      "GroupId": 816,
-      "SelectionId": 943,
-      "Config": "pariatur",
+      "DashboardTileId": 687,
+      "Caption": "cupiditate",
+      "Description": "Centralized actuating functionalities",
+      "ChartName": "Hudson-Nitzsche",
+      "ChartId": "eius",
+      "IsDefault": false,
+      "AssociateId": 394,
+      "GroupId": 663,
+      "SelectionId": 89,
+      "Config": "sit",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +112,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 548,
-  "AssociateId": 216,
-  "Caption": "occaecati",
+  "DashboardId": 772,
+  "AssociateId": 235,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 679,
-      "Caption": "dicta",
-      "Description": "Universal demand-driven productivity",
-      "ChartName": "Schmidt, Hand and Lindgren",
-      "ChartId": "id",
-      "IsDefault": true,
-      "AssociateId": 506,
-      "GroupId": 867,
-      "SelectionId": 465,
-      "Config": "voluptatum",
+      "DashboardTileId": 235,
+      "Caption": "voluptas",
+      "Description": "Virtual bottom-line service-desk",
+      "ChartName": "Prosacco-Pollich",
+      "ChartId": "et",
+      "IsDefault": false,
+      "AssociateId": 556,
+      "GroupId": 733,
+      "SelectionId": 634,
+      "Config": "sed",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -144,7 +143,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 614
+          "FieldLength": 555
         }
       }
     }
@@ -153,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 209
+      "FieldType": "System.Int32",
+      "FieldLength": 10
     }
   }
 }

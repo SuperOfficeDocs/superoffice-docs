@@ -71,18 +71,17 @@ PATCH /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 ShipmentMessageEntity  updated.
 
@@ -93,7 +92,7 @@ ShipmentMessageEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ShipmentMessageEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: ShipmentMessageEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -134,12 +133,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "a",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "a",
     "value": {}
   }
 ]
@@ -152,33 +151,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 463,
-  "PlainMessage": "repellat",
-  "HtmlMessage": "nesciunt",
-  "SmsMessage": "quidem",
-  "Description": "Function-based high-level throughput",
-  "Subject": "et",
-  "FolderId": 302,
-  "HeaderField": "cupiditate",
-  "Design": "id",
+  "ShipmentMessageId": 44,
+  "PlainMessage": "ut",
+  "HtmlMessage": "quo",
+  "SmsMessage": "vitae",
+  "Description": "Cross-platform reciprocal hub",
+  "Subject": "soluta",
+  "FolderId": 859,
+  "HeaderField": "odio",
+  "Design": "maxime",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Realigned executive encoding",
-  "AccessKey": "et",
-  "DocumentMessage": 794,
-  "Registered": "2010-03-07T02:49:51.536309+01:00",
-  "RegisteredAssociateId": 467,
-  "Updated": "2015-12-30T02:49:51.536309+01:00",
-  "UpdatedAssociateId": 570,
-  "UpdatedCount": 65,
+  "LongDescription": "Pre-emptive 5th generation challenge",
+  "AccessKey": "ab",
+  "DocumentMessage": 669,
+  "Registered": "2017-11-21T17:37:39.2283033+01:00",
+  "RegisteredAssociateId": 118,
+  "Updated": "2003-02-23T17:37:39.2283033+01:00",
+  "UpdatedAssociateId": 416,
+  "UpdatedCount": 289,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 359
     }
   },
   "_Links": {

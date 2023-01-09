@@ -12,8 +12,6 @@ POST /api/v1/User/{id}/CustomCommand/{commandName}
 Executes a custom command for User
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -51,7 +49,7 @@ POST /api/v1/User/{id}/CustomCommand/{commandName}?actionResult=Cancel
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 User with given id does not exist in the db.
 
@@ -60,7 +58,7 @@ User with given id does not exist in the db.
 | 404 | User with given id does not exist in the db. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -69,7 +67,7 @@ Response body:
 POST /api/v1/User/{id}/CustomCommand/{commandName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

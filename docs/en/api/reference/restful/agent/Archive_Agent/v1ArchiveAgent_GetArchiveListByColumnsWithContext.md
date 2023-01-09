@@ -12,7 +12,6 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Get a page of results for an archive list with context parameter, explicitly specifying the restrictions, orderby and chosen columns.
 
 
-
 Archive Restriction Info objects represent search terms.
 
 
@@ -32,13 +31,6 @@ Default string encodings should be handled ok, but beware of non-invariant cultu
 var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
-
-
-
-
-
-
-
 
 
 
@@ -70,23 +62,22 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Columns | array |  |
-| SortOrder | array |  |
-| Restriction | array |  |
-| Entities | array |  |
-| Page | int32 |  |
-| PageSize | int32 |  |
-| Context | string |  |
+| ProviderName | String |  |
+| Columns | Array |  |
+| SortOrder | Array |  |
+| Restriction | Array |  |
+| Entities | Array |  |
+| Page | Integer |  |
+| PageSize | Integer |  |
+| Context | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -94,7 +85,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,7 +94,7 @@ Response body: array
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -112,55 +103,55 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Reichert-Hettinger",
+  "ProviderName": "Windler, Borer and Volkman",
   "Columns": [
-    "sunt",
-    "rerum"
+    "voluptas",
+    "et"
   ],
   "SortOrder": [
     {
-      "Name": "Nikolaus, Dickinson and Bins",
+      "Name": "King-Anderson",
       "Direction": "ASC"
     },
     {
-      "Name": "Nikolaus, Dickinson and Bins",
+      "Name": "King-Anderson",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Hills Inc and Sons",
-      "Operator": "cumque",
+      "Name": "Will-Berge",
+      "Operator": "libero",
       "Values": [
-        "recusandae",
-        "maxime"
+        "necessitatibus",
+        "architecto"
       ],
       "DisplayValues": [
-        "cupiditate",
-        "odit"
+        "porro",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 689,
+      "InterParenthesis": 774,
       "InterOperator": "And",
-      "UniqueHash": 48
+      "UniqueHash": 842
     }
   ],
   "Entities": [
-    "ut",
-    "numquam"
+    "eligendi",
+    "at"
   ],
-  "Page": 486,
-  "PageSize": 646,
-  "Context": "dolores"
+  "Page": 596,
+  "PageSize": 968,
+  "Context": "neque"
 }
 ```
 
@@ -172,23 +163,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Stanton, Wisoky and Gibson",
-    "PrimaryKey": 11,
+    "EntityName": "Reinger, Kunze and McClure",
+    "PrimaryKey": 117,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "minus",
-        "TooltipHint": "exercitationem",
-        "LinkHint": "sunt"
+        "DisplayValue": "amet",
+        "TooltipHint": "earum",
+        "LinkHint": "voluptates"
       }
     },
-    "LinkHint": "aperiam",
-    "StyleHint": "ea",
+    "LinkHint": "cum",
+    "StyleHint": "facilis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 229
+        "FieldLength": 746
       }
     }
   }

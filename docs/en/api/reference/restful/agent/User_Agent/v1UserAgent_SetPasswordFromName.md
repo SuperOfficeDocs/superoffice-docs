@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/SetPasswordFromName
 Change password for a user.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/User/SetPasswordFromName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateName, Password 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateName | string |  |
-| Password | string |  |
+| AssociateName | String |  |
+| Password | String |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -73,12 +70,12 @@ Response body: bool
 POST /api/v1/Agents/User/SetPasswordFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Parisian, Ryan and Howe",
-  "Password": "laboriosam"
+  "AssociateName": "Pouros-Rippin",
+  "Password": "molestiae"
 }
 ```
 

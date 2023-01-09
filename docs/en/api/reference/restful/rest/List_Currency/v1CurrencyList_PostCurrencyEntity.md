@@ -34,22 +34,21 @@ Calls the List agent service SaveCurrencyEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The CurrencyEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CurrencyId | int32 | Primary key |
-| Name | string | The list item |
-| Tooltip | string | Tooltip or other description |
-| Rank | int32 | Rank order |
-| Rate | double | Exchange rate |
-| Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
-| Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
+| CurrencyId | Integer | Primary key |
+| Name | String | The list item |
+| Tooltip | String | Tooltip or other description |
+| Rank | Integer | Rank order |
+| Rate | Number | Exchange rate |
+| Units | Number | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
+| Deleted | Boolean | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -57,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CurrencyEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body:
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,16 +76,16 @@ Response body:
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 699,
-  "Name": "Upton, Hagenes and Morar",
-  "Tooltip": "ea",
-  "Rank": 835,
-  "Rate": 15002.457999999999,
-  "Units": 29976.71,
+  "CurrencyId": 176,
+  "Name": "Kessler-Bednar",
+  "Tooltip": "quidem",
+  "Rank": 711,
+  "Rate": 29255.89,
+  "Units": 13062.511999999999,
   "Deleted": true
 }
 ```
@@ -98,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 353,
-  "Name": "Gorczany, Hahn and Treutel",
-  "Tooltip": "distinctio",
-  "Rank": 617,
-  "Rate": 17321.618,
-  "Units": 24811.878,
+  "CurrencyId": 11,
+  "Name": "Gislason LLC",
+  "Tooltip": "sed",
+  "Rank": 216,
+  "Rate": 7405.642,
+  "Units": 22527.192,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 26
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   }
 }

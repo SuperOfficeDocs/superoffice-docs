@@ -25,7 +25,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=824
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=84
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ExtAppEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +78,7 @@ Response body:
 | WaitToFinish | bool | True if the application shall wait for fininsh event |
 | ExecuteOnEvent | string | Events that cause automatic execution of this app |
 | Path | string | Path where the programfile is located; if empty, PATH is used |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 294,
-  "Name": "Hilll-Yundt",
-  "Tooltip": "pariatur",
+  "ExtAppId": 689,
+  "Name": "Wunsch-O'Connell",
+  "Tooltip": "repellat",
   "Deleted": true,
-  "Rank": 707,
-  "Filename": "reprehenderit",
-  "Parameters": "cupiditate",
-  "Workdir": "et",
+  "Rank": 30,
+  "Filename": "dicta",
+  "Parameters": "eligendi",
+  "Workdir": "eos",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 4,
-  "WaitToFinish": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 815,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "dolores",
+  "Path": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldLength": 957
     }
   }
 }

@@ -47,26 +47,25 @@ POST /api/v1/CRMScript?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The CRMScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EjscriptId | int32 | Primary key |
-| UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Name | string | A description of this script |
-| Description | string | Optional description of what this script is used for. |
-| IncludeId | string | A unique name used for including this script in another |
-| HierarchyId | int32 | The script is inside this hierarchy folder |
-| Source | string | The script |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
+| EjscriptId | Integer | Primary key |
+| UniqueIdentifier | String | Global unique identifier, accross customers/tenants |
+| Name | String | A description of this script |
+| Description | String | Optional description of what this script is used for. |
+| IncludeId | String | A unique name used for including this script in another |
+| HierarchyId | Integer | The script is inside this hierarchy folder |
+| Source | String | The script |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -74,7 +73,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CRMScriptEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -99,21 +98,21 @@ Response body:
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "EjscriptId": 46,
-  "UniqueIdentifier": "sint",
-  "Name": "Price, Langosh and Lubowitz",
-  "Description": "Team-oriented eco-centric budgetary management",
-  "IncludeId": "quia",
-  "HierarchyId": 745,
-  "Source": "repudiandae",
-  "Registered": "2016-08-16T02:49:50.8546634+02:00",
-  "RegisteredAssociateId": 935,
-  "Updated": "2007-11-05T02:49:50.8546634+01:00",
-  "UpdatedAssociateId": 546
+  "UniqueIdentifier": "dicta",
+  "Name": "Haley-Greenfelder",
+  "Description": "Sharable context-sensitive ability",
+  "IncludeId": "nulla",
+  "HierarchyId": 419,
+  "Source": "perferendis",
+  "Registered": "1997-10-01T17:37:38.4828612+02:00",
+  "RegisteredAssociateId": 778,
+  "Updated": "2011-11-16T17:37:38.4828612+01:00",
+  "UpdatedAssociateId": 16
 }
 ```
 
@@ -124,23 +123,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 66,
-  "UniqueIdentifier": "quia",
-  "Name": "Doyle Group",
-  "Description": "Cross-group neutral secured line",
-  "IncludeId": "consequatur",
-  "HierarchyId": 507,
-  "Source": "perspiciatis",
-  "Registered": "1998-04-29T02:49:50.8546634+02:00",
-  "RegisteredAssociateId": 375,
-  "Updated": "2004-06-03T02:49:50.8546634+02:00",
-  "UpdatedAssociateId": 428,
+  "EjscriptId": 310,
+  "UniqueIdentifier": "id",
+  "Name": "Bechtelar Inc and Sons",
+  "Description": "Visionary optimizing installation",
+  "IncludeId": "vero",
+  "HierarchyId": 305,
+  "Source": "vel",
+  "Registered": "2008-10-11T17:37:38.4828612+02:00",
+  "RegisteredAssociateId": 1000,
+  "Updated": "2003-02-08T17:37:38.4828612+01:00",
+  "UpdatedAssociateId": 44,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldLength": 311
     }
   },
   "_Links": {

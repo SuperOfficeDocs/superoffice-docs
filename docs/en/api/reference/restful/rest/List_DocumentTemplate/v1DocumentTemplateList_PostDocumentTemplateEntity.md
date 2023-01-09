@@ -34,40 +34,39 @@ Calls the List agent service SaveDocumentTemplateEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The DocumentTemplateEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentTemplateId | int32 | Primary key |
-| Name | string | The template list item |
-| Tooltip | string | Tooltip or other description |
-| SaveInDb | int32 | 1 = save document records in DB; otherwise not. |
-| Filename | string | Relative to TemplatePath, or extref for other document plugins. i.e URL or full path. |
-| DefaultOref | string | Processed via tag substitution to give document reference |
-| RecordType | string | 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes |
-| Deleted | bool | True if deleted |
-| Direction | string | 1 = incoming, 2 = outgoing, see EAppntDirection |
-| AutoeventId | int32 | Which document plugin is responsible for the documents generated from this template |
-| IntentId | int32 | What is the intention of this document (used by SAINT) |
-| IsDefaultPublished | bool | Published to external persons |
-| Rank | int32 | Rank order |
-| LoadTemplateFromPlugin | int32 | Which document plugin is responsible for this template's contents |
-| MimeType | string | The mime type |
-| IsInUseInGuides | bool | True if the template is in use in a project or sales guide |
-| DocumentTypeKey | int32 | The document type to use when creating a blank document. Plugin-specific. Used when not creating template from a local file. |
-| QuoteDocType | string | The role this document plays in the Quote system, if any |
-| PrivacyDocType | string | Indicator that this document template has a functional role, related to privacy/GDPR |
-| EmailSubject | string | Subject to use if document template is an email. |
-| IncludeSignature | bool | True if the email signature should be added in bottom of mail if this an email template |
-| ShowCurrents | bool | True if when using this template there should be shown a place for editing current choices of person, compant, sale, project etc |
-| SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
-| SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
-| InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
+| DocumentTemplateId | Integer | Primary key |
+| Name | String | The template list item |
+| Tooltip | String | Tooltip or other description |
+| SaveInDb | Integer | 1 = save document records in DB; otherwise not. |
+| Filename | String | Relative to TemplatePath, or extref for other document plugins. i.e URL or full path. |
+| DefaultOref | String | Processed via tag substitution to give document reference |
+| RecordType | String | 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes |
+| Deleted | Boolean | True if deleted |
+| Direction | String | 1 = incoming, 2 = outgoing, see EAppntDirection |
+| AutoeventId | Integer | Which document plugin is responsible for the documents generated from this template |
+| IntentId | Integer | What is the intention of this document (used by SAINT) |
+| IsDefaultPublished | Boolean | Published to external persons |
+| Rank | Integer | Rank order |
+| LoadTemplateFromPlugin | Integer | Which document plugin is responsible for this template's contents |
+| MimeType | String | The mime type |
+| IsInUseInGuides | Boolean | True if the template is in use in a project or sales guide |
+| DocumentTypeKey | Integer | The document type to use when creating a blank document. Plugin-specific. Used when not creating template from a local file. |
+| QuoteDocType | String | The role this document plays in the Quote system, if any |
+| PrivacyDocType | String | Indicator that this document template has a functional role, related to privacy/GDPR |
+| EmailSubject | String | Subject to use if document template is an email. |
+| IncludeSignature | Boolean | True if the email signature should be added in bottom of mail if this an email template |
+| ShowCurrents | Boolean | True if when using this template there should be shown a place for editing current choices of person, compant, sale, project etc |
+| SenderEmailMode | String | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
+| SenderEmailAddress | String | If email template, default senderaddress when template is of type quote email or privacy email. |
+| InvitationDocType | String | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -75,7 +74,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentTemplateEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -104,7 +103,7 @@ Response body:
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -113,34 +112,34 @@ Response body:
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 937,
-  "Name": "Murray, Strosin and Zulauf",
-  "Tooltip": "molestiae",
-  "SaveInDb": 576,
-  "Filename": "qui",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 682,
+  "Name": "Jaskolski-Hagenes",
+  "Tooltip": "vel",
+  "SaveInDb": 932,
+  "Filename": "facere",
+  "DefaultOref": "fugiat",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 716,
-  "IntentId": 502,
+  "AutoeventId": 807,
+  "IntentId": 987,
   "IsDefaultPublished": false,
-  "Rank": 75,
-  "LoadTemplateFromPlugin": 338,
-  "MimeType": "consequuntur",
+  "Rank": 888,
+  "LoadTemplateFromPlugin": 871,
+  "MimeType": "dolor",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 93,
+  "DocumentTypeKey": 333,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cruz.cassin@kuhlmancrona.uk",
-  "IncludeSignature": false,
+  "EmailSubject": "kelli_stokes@beatty.biz",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "viva@jast.uk",
+  "SenderEmailAddress": "kayli@schuppe.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +151,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 333,
-  "Name": "Ward-Emmerich",
-  "Tooltip": "cumque",
-  "SaveInDb": 448,
-  "Filename": "qui",
-  "DefaultOref": "sed",
+  "DocumentTemplateId": 343,
+  "Name": "Stokes, Armstrong and O'Kon",
+  "Tooltip": "tenetur",
+  "SaveInDb": 33,
+  "Filename": "sed",
+  "DefaultOref": "repudiandae",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 394,
-  "IntentId": 187,
-  "IsDefaultPublished": true,
-  "Rank": 375,
-  "LoadTemplateFromPlugin": 952,
-  "MimeType": "fugiat",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 542,
+  "AutoeventId": 516,
+  "IntentId": 60,
+  "IsDefaultPublished": false,
+  "Rank": 267,
+  "LoadTemplateFromPlugin": 156,
+  "MimeType": "et",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 613,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "caitlyn_ferry@abernathyschuppe.ca",
+  "EmailSubject": "coy@shanahan.biz",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "elroy@morissette.co.uk",
+  "SenderEmailAddress": "ayla@steuberdooley.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 116
+      "FieldType": "System.Int32",
+      "FieldLength": 480
     }
   }
 }

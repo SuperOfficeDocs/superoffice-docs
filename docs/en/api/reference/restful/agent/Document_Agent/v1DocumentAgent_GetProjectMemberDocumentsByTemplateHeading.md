@@ -44,20 +44,19 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateHeading?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, StartTime, EndTime, Count, TemplateHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TemplateHeadingId | int32 |  |
+| PersonId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TemplateHeadingId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,11 +101,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 340,
-  "StartTime": "2005-06-25T02:49:44.0910111+02:00",
-  "EndTime": "2021-01-16T02:49:44.0910111+01:00",
-  "Count": 418,
-  "TemplateHeadingId": 165
+  "PersonId": 965,
+  "StartTime": "1997-06-13T17:37:17.4272444+02:00",
+  "EndTime": "1999-10-17T17:37:17.4272444+02:00",
+  "Count": 335,
+  "TemplateHeadingId": 98
 }
 ```
 
@@ -118,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 51,
-    "Attention": "quibusdam",
-    "Header": "dignissimos",
-    "Name": "Lesch Inc and Sons",
-    "OurRef": "ad",
-    "YourRef": "eos",
-    "Description": "Switchable neutral pricing structure",
-    "DocumentTemplate": "ratione",
+    "DocumentId": 696,
+    "Attention": "vel",
+    "Header": "temporibus",
+    "Name": "Terry-Lind",
+    "OurRef": "dolores",
+    "YourRef": "quae",
+    "Description": "Enterprise-wide impactful implementation",
+    "DocumentTemplate": "cupiditate",
     "IsPublished": false,
-    "PersonId": 738,
-    "PersonFullName": "Agnes Fahey",
-    "AssociateFullName": "Prof. Kody Hahn DVM",
-    "ContactId": 306,
-    "ContactName": "Schumm, Pollich and Denesik",
-    "ProjectId": 517,
-    "ProjectName": "Hettinger Inc and Sons",
-    "AssociateId": 216,
-    "Snum": 830,
-    "SaleId": 149,
-    "SaleName": "Price, Howe and Morar",
+    "PersonId": 754,
+    "PersonFullName": "Ubaldo Cole",
+    "AssociateFullName": "Mrs. Selena Hamill III",
+    "ContactId": 526,
+    "ContactName": "Erdman, Abshire and VonRueden",
+    "ProjectId": 561,
+    "ProjectName": "Fadel-Gleason",
+    "AssociateId": 729,
+    "Snum": 124,
+    "SaleId": 790,
+    "SaleName": "Kirlin, Schneider and Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldType": "System.String",
+        "FieldLength": 526
       }
     }
   }

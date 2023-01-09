@@ -38,28 +38,27 @@ Calls the Appointment agent service SaveTaskListItem.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The details of TaskListItem to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TaskListItemId | int32 | Primary key |
-| Value | string | The list item |
-| Direction | string | 1 = incoming, 2 = outgoing, see EAppntDirection |
-| Type | string | 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes |
-| Tooltip | string | Tooltip or other description |
-| Deleted | bool | If true, the Task list item is deleted |
-| IntentId | int32 | Link to the intention of this kind of task (used by SAINT) |
-| Rank | int32 | Rank order |
-| IsDefaultAlldayEvent | bool | True if all day event |
-| IsDefaultFree | bool | True if free, false if busy |
-| IsDefaultPublished | bool | Published to external persons |
-| ColorIndex | string | JAP |
-| DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
+| TaskListItemId | Integer | Primary key |
+| Value | String | The list item |
+| Direction | String | 1 = incoming, 2 = outgoing, see EAppntDirection |
+| Type | String | 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes |
+| Tooltip | String | Tooltip or other description |
+| Deleted | Boolean | If true, the Task list item is deleted |
+| IntentId | Integer | Link to the intention of this kind of task (used by SAINT) |
+| Rank | Integer | Rank order |
+| IsDefaultAlldayEvent | Boolean | True if all day event |
+| IsDefaultFree | Boolean | True if free, false if busy |
+| IsDefaultPublished | Boolean | Published to external persons |
+| ColorIndex | String | JAP |
+| DefaultVideomeetingStatus | String | Default video-meeting status for meetings created in SuperOffice CRM. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -68,7 +67,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: TaskListItem
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +84,7 @@ Response body:
 | IsDefaultPublished | bool | Published to external persons |
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,18 +93,18 @@ Response body:
 PUT /api/v1/List/Task/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 614,
-  "Value": "occaecati",
+  "TaskListItemId": 747,
+  "Value": "doloribus",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "sed",
+  "Tooltip": "totam",
   "Deleted": false,
-  "IntentId": 922,
-  "Rank": 23,
+  "IntentId": 650,
+  "Rank": 759,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
@@ -121,16 +120,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 890,
-  "Value": "assumenda",
+  "TaskListItemId": 877,
+  "Value": "et",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "IntentId": 825,
-  "Rank": 658,
-  "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": false,
+  "Tooltip": "sequi",
+  "Deleted": false,
+  "IntentId": 783,
+  "Rank": 718,
+  "IsDefaultAlldayEvent": false,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -138,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldType": "System.String",
+      "FieldLength": 206
     }
   }
 }

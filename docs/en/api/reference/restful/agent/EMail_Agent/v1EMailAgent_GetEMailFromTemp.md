@@ -44,16 +44,15 @@ POST /api/v1/Agents/EMail/GetEMailFromTemp?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 FileName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| FileName | string |  |
+| FileName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body:
 | Bcc | array | Bcc recipient of e-mail |
 | Subject | string | Subject of the e-mail |
 | HTMLBody | string | Body formatted in HTML |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | Sent | date-time | When was the e-mail sent |
 | Size | int32 | Total size of the e-mail |
 | Priority | string | Importance of the e-mail |
@@ -78,7 +77,7 @@ Response body:
 | MessageID | string | Unique id of e-mails |
 | PlainBody | string | Body formatted in plain text |
 | IsSent | bool | Is this a sent e-mail (not new) |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
 | ServerId | int32 | Unique id for the e-mail on the server |
 | Attachments | array |  |
 | CustomHeaderList | array | Non standard e-mail headers |
@@ -86,12 +85,12 @@ Response body:
 | EmailItemId | int32 | Primary key |
 | AccountId | int32 | Account Id |
 | ReceivedAt | date-time | Received date time |
-| InReplyTo |  | The envelope of the email this email is a reply to, if it exists |
+| InReplyTo | EMailEnvelope | The envelope of the email this email is a reply to, if it exists |
 | RepliedAt | date-time | When this email was replied at |
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -100,11 +99,11 @@ Response body:
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Schoen-Wehner"
+  "FileName": "Hirthe Group"
 }
 ```
 
@@ -117,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 922,
-      "ContactName": "Herman Group",
-      "PersonId": 889,
-      "PersonName": "Berge-Ebert",
-      "AssociateId": 828,
-      "Address": "nulla",
-      "EmailId": 103,
+      "ContactId": 134,
+      "ContactName": "Cummerata, Kreiger and Swaniawski",
+      "PersonId": 6,
+      "PersonName": "O'Kon, Pfannerstill and Weimann",
+      "AssociateId": 372,
+      "Address": "magni",
+      "EmailId": 518,
       "DuplicatePersonIds": [
-        814,
-        708
+        77,
+        202
       ],
-      "Name": "Hermann, Collier and Simonis",
+      "Name": "Pfannerstill LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 823
+          "FieldType": "System.String",
+          "FieldLength": 620
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 946,
-      "ContactName": "Senger Inc and Sons",
-      "PersonId": 999,
-      "PersonName": "Feeney-McLaughlin",
-      "AssociateId": 167,
-      "Address": "dignissimos",
-      "EmailId": 179,
+      "ContactId": 819,
+      "ContactName": "Rippin Group",
+      "PersonId": 437,
+      "PersonName": "Aufderhar Group",
+      "AssociateId": 92,
+      "Address": "voluptas",
+      "EmailId": 302,
       "DuplicatePersonIds": [
-        611,
-        995
+        674,
+        327
       ],
-      "Name": "Konopelski LLC",
+      "Name": "McKenzie, Hodkiewicz and Lehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 538
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 776,
-      "ContactName": "Kautzer, Fritsch and Herzog",
-      "PersonId": 87,
-      "PersonName": "Ondricka-Kirlin",
-      "AssociateId": 316,
-      "Address": "vero",
-      "EmailId": 560,
+      "ContactId": 890,
+      "ContactName": "Emmerich, Bruen and Carroll",
+      "PersonId": 250,
+      "PersonName": "Berge, Cremin and Kuhic",
+      "AssociateId": 92,
+      "Address": "vel",
+      "EmailId": 83,
       "DuplicatePersonIds": [
-        790,
-        618
+        635,
+        871
       ],
-      "Name": "Hane, Goldner and Schmitt",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 574
-        }
-      }
-    }
-  ],
-  "Subject": "animi",
-  "HTMLBody": "et",
-  "From": null,
-  "Sent": "2006-07-18T02:49:44.4660393+02:00",
-  "Size": 352,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "quidem",
-  "PlainBody": "et",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 616,
-  "Attachments": [
-    {
-      "Description": "Advanced non-volatile Graphic Interface",
-      "Filename": "non",
-      "Size": 653,
-      "Type": "sit",
-      "Encoding": "ut",
-      "Id": "consequuntur",
-      "Disposition": "tempora",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Kuhn LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 116
+          "FieldLength": 157
+        }
+      }
+    }
+  ],
+  "Subject": "provident",
+  "HTMLBody": "amet",
+  "From": null,
+  "Sent": "2022-06-08T17:37:18.0002448+02:00",
+  "Size": 547,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "ipsum",
+  "PlainBody": "consequuntur",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 911,
+  "Attachments": [
+    {
+      "Description": "Realigned zero administration budgetary management",
+      "Filename": "quia",
+      "Size": 855,
+      "Type": "molestias",
+      "Encoding": "fugiat",
+      "Id": "similique",
+      "Disposition": "fugiat",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 902
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kozey, Keeling and Moen",
+      "Name": "Greenholt Group",
       "Values": [
-        "tenetur",
-        "cupiditate"
+        "et",
+        "nam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 266
+          "FieldType": "System.Int32",
+          "FieldLength": 34
         }
       }
     },
     {
-      "Name": "Kozey, Keeling and Moen",
+      "Name": "Greenholt Group",
       "Values": [
-        "tenetur",
-        "cupiditate"
+        "et",
+        "nam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 266
+          "FieldType": "System.Int32",
+          "FieldLength": 34
         }
       }
     }
   ],
-  "FolderName": "Nikolaus-Rempel",
-  "EmailItemId": 862,
-  "AccountId": 564,
-  "ReceivedAt": "2003-07-02T02:49:44.4660393+02:00",
+  "FolderName": "Mante-Fisher",
+  "EmailItemId": 250,
+  "AccountId": 950,
+  "ReceivedAt": "2009-10-24T17:37:18.0012444+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-06-12T02:49:44.4660393+02:00",
+  "RepliedAt": "2011-10-10T17:37:18.0012444+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 934
     }
   }
 }

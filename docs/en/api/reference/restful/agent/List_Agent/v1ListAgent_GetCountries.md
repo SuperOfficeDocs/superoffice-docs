@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/GetCountries?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +72,7 @@ Response body: array
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,7 +81,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 831,
-    "Name": "Simonis, Emard and Walter",
-    "CurrencyId": 119,
-    "EnglishName": "Swaniawski, Hodkiewicz and Armstrong",
+    "CountryId": 63,
+    "Name": "Parisian, Bahringer and D'Amore",
+    "CurrencyId": 280,
+    "EnglishName": "Hane, Willms and Nitzsche",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Enhanced system-worthy help-desk",
-    "OrgNrText": "1045906",
-    "InterAreaPrefix": "unde",
-    "DialInPrefix": "qui",
-    "ZipPrefix": "qui",
-    "DomainName": "Watsica, Bednar and Rau",
-    "AddressLayoutId": 465,
-    "DomesticAddressLayoutId": 762,
-    "ForeignAddressLayoutId": 528,
-    "Rank": 413,
-    "Tooltip": "id",
+    "ImageDescription": "Networked human-resource synergy",
+    "OrgNrText": "1650281",
+    "InterAreaPrefix": "omnis",
+    "DialInPrefix": "ad",
+    "ZipPrefix": "labore",
+    "DomainName": "Considine, Dooley and Jacobson",
+    "AddressLayoutId": 552,
+    "DomesticAddressLayoutId": 241,
+    "ForeignAddressLayoutId": 348,
+    "Rank": 954,
+    "Tooltip": "accusamus",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 253
+        "FieldType": "System.Int32",
+        "FieldLength": 24
       }
     }
   }

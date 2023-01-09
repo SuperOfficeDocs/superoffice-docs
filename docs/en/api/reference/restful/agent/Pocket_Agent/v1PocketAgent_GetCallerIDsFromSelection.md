@@ -44,17 +44,16 @@ POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, LastHash 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| LastHash | string |  |
+| SelectionId | Integer |  |
+| LastHash | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CallerIDCollection
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,12 +74,12 @@ Response body:
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 939,
-  "LastHash": "distinctio"
+  "SelectionId": 846,
+  "LastHash": "doloremque"
 }
 ```
 
@@ -91,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "nihil",
+  "CallerIDHash": "aut",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 907,
-      "PersonId": 871,
-      "PersonName": "Klein-O'Reilly",
-      "Mrmrs": "animi",
-      "ContactId": 698,
-      "ContactName": "White Group"
+      "DialInPrefix": 104,
+      "PersonId": 941,
+      "PersonName": "Macejkovic LLC",
+      "Mrmrs": "sequi",
+      "ContactId": 483,
+      "ContactName": "Gaylord Inc and Sons"
     }
   ]
 }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/GetQuoteVersions?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteId | int32 |  |
+| QuoteId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,7 +101,7 @@ Response body: array
 | RequestAssociateId | int32 | User to whom the request proposal should be delivered |
 | RequestComment | string | Comment for why quote should be approved |
 | QuoteAlternatives | array | The QuoteAlternatives for the QuoteVersion |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -111,11 +110,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 475
+  "QuoteId": 281
 }
 ```
 
@@ -127,75 +126,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 789,
-    "ERPQuoteVersionKey": "ea",
-    "QuoteId": 117,
-    "Description": "Object-based cohesive complexity",
-    "Number": "1070319",
+    "QuoteVersionId": 506,
+    "ERPQuoteVersionKey": "officiis",
+    "QuoteId": 171,
+    "Description": "Re-contextualized composite ability",
+    "Number": "1010446",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "",
-    "LikelyQuoteAlternativeId": 212,
-    "SentDate": "2013-04-02T02:49:44.9997158+02:00",
-    "FollowupId": 7,
-    "ExpirationDate": "1997-10-30T02:49:44.9997158+01:00",
-    "DeliveryCountryId": 762,
+    "Reason": "transition turn-key schemas",
+    "LikelyQuoteAlternativeId": 804,
+    "SentDate": "2006-10-21T17:37:18.6932416+02:00",
+    "FollowupId": 999,
+    "ExpirationDate": "2017-09-26T17:37:18.6932416+02:00",
+    "DeliveryCountryId": 330,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 750,
-    "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "et",
-    "ERPPaymentTypeKey": "et",
-    "ERPDeliveryTermsKey": "molestiae",
-    "ERPDeliveryTypeKey": "eum",
-    "Rank": 247,
-    "ApprovedBy": 635,
-    "ApprovedText": "magnam",
-    "ApprovedRegisteredBy": 495,
-    "ApprovedRegisteredDate": "1998-06-19T02:49:44.9997158+02:00",
-    "ExtraField1": "velit",
-    "ExtraField2": "voluptatem",
-    "ExtraField3": "officia",
-    "ExtraField4": "quia",
-    "ExtraField5": "atque",
-    "LastRecalculated": "2005-09-11T02:49:44.9997158+02:00",
-    "Updated": "1997-02-23T02:49:44.9997158+01:00",
-    "UpdatedAssociateId": 18,
-    "Registered": "2003-09-17T02:49:44.9997158+02:00",
-    "RegisteredAssociateId": 906,
-    "RequestAssociateId": 959,
-    "RequestComment": "tenetur",
+    "InvoiceCountryId": 460,
+    "HasOwnInvoiceAddress": true,
+    "ERPPaymentTermsKey": "vitae",
+    "ERPPaymentTypeKey": "voluptatem",
+    "ERPDeliveryTermsKey": "nobis",
+    "ERPDeliveryTypeKey": "enim",
+    "Rank": 46,
+    "ApprovedBy": 764,
+    "ApprovedText": "omnis",
+    "ApprovedRegisteredBy": 646,
+    "ApprovedRegisteredDate": "2014-06-08T17:37:18.6932416+02:00",
+    "ExtraField1": "repudiandae",
+    "ExtraField2": "natus",
+    "ExtraField3": "distinctio",
+    "ExtraField4": "et",
+    "ExtraField5": "pariatur",
+    "LastRecalculated": "2020-09-19T17:37:18.6942424+02:00",
+    "Updated": "2020-11-04T17:37:18.6942424+01:00",
+    "UpdatedAssociateId": 681,
+    "Registered": "2012-10-17T17:37:18.6942424+02:00",
+    "RegisteredAssociateId": 683,
+    "RequestAssociateId": 903,
+    "RequestComment": "nesciunt",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 895,
-        "ERPQuoteAlternativeKey": "ea",
-        "QuoteVersionId": 946,
-        "Name": "Steuber Group",
-        "Description": "Monitored static time-frame",
+        "QuoteAlternativeId": 68,
+        "ERPQuoteAlternativeKey": "voluptatibus",
+        "QuoteVersionId": 111,
+        "Name": "Thiel Inc and Sons",
+        "Description": "Virtual background alliance",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 12548.536,
-        "ERPDiscountAmount": 3262.4939999999997,
-        "DiscountPercent": 25889.974,
-        "DiscountAmount": 7932.1539999999995,
+        "ERPDiscountPercent": 23736.915999999997,
+        "ERPDiscountAmount": 29365.579999999998,
+        "DiscountPercent": 1965.018,
+        "DiscountAmount": 4071.066,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "labore",
-        "VAT": 2472.726,
-        "EarningPercent": 21245.386,
-        "EarningAmount": 23401.577999999998,
-        "SubTotal": 22433.172,
-        "TotalPrice": 22561.666,
-        "ExtraField1": "dolores",
-        "ExtraField2": "dolores",
-        "ExtraField3": "totam",
-        "ExtraField4": "possimus",
-        "ExtraField5": "corrupti",
+        "VATInfo": "quos",
+        "VAT": 11131.967999999999,
+        "EarningPercent": 17801.12,
+        "EarningAmount": 25993.396,
+        "SubTotal": 17052.094,
+        "TotalPrice": 16566.324,
+        "ExtraField1": "provident",
+        "ExtraField2": "aut",
+        "ExtraField3": "sunt",
+        "ExtraField4": "natus",
+        "ExtraField5": "animi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 21
+            "FieldLength": 318
           }
         }
       }
@@ -205,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 762
       }
     }
   }

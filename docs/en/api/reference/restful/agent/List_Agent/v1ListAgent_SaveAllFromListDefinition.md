@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/SaveAllFromListDefinition?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionId, Items 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionId | int32 |  |
-| Items | array |  |
+| UdListDefinitionId | Integer |  |
+| Items | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body: array
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,23 +82,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 759,
+  "UdListDefinitionId": 370,
   "Items": [
     {
-      "Id": 60,
-      "Name": "Rohan-Reynolds",
-      "Tooltip": "aut",
+      "Id": 656,
+      "Name": "Moore LLC",
+      "Tooltip": "qui",
       "Deleted": false,
-      "UdListDefinitionId": 787,
-      "Rank": 818
+      "UdListDefinitionId": 718,
+      "Rank": 364
     },
     {
-      "Id": 60,
-      "Name": "Rohan-Reynolds",
-      "Tooltip": "aut",
+      "Id": 656,
+      "Name": "Moore LLC",
+      "Tooltip": "qui",
       "Deleted": false,
-      "UdListDefinitionId": 787,
-      "Rank": 818
+      "UdListDefinitionId": 718,
+      "Rank": 364
     }
   ]
 }
@@ -113,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Wolff Inc and Sons",
-    "Tooltip": "dolorum",
+    "Id": 708,
+    "Name": "Marquardt, Gerlach and Mraz",
+    "Tooltip": "in",
     "Deleted": false,
-    "UdListDefinitionId": 629,
-    "Rank": 442,
+    "UdListDefinitionId": 764,
+    "Rank": 698,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldLength": 47
       }
     }
   }

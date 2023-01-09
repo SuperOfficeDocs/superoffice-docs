@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/GetListItemsForHeading?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionId, HeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionId | int32 |  |
-| HeadingId | int32 |  |
+| UdListDefinitionId | Integer |  |
+| HeadingId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,12 +87,12 @@ Response body: array
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 414,
-  "HeadingId": 348
+  "UdListDefinitionId": 883,
+  "HeadingId": 340
 }
 ```
 
@@ -105,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 487,
-    "Name": "Lemke, Streich and Davis",
-    "ToolTip": "Quibusdam enim tempora id delectus.",
+    "Id": 989,
+    "Name": "Okuneva, Goodwin and Wyman",
+    "ToolTip": "Iste voluptatum rerum asperiores excepturi eos eum laudantium.",
     "Deleted": false,
-    "Rank": 940,
-    "Type": "et",
-    "ColorBlock": 294,
-    "IconHint": "incidunt",
-    "Selected": false,
-    "LastChanged": "2021-06-15T02:49:44.639171+02:00",
+    "Rank": 260,
+    "Type": "voluptatem",
+    "ColorBlock": 957,
+    "IconHint": "facere",
+    "Selected": true,
+    "LastChanged": "2005-06-24T17:37:18.2132455+02:00",
     "ChildItems": [
       {
-        "Id": 621,
-        "Name": "Beatty LLC",
-        "ToolTip": "Molestiae vel deserunt facilis vel.",
+        "Id": 213,
+        "Name": "Stokes LLC",
+        "ToolTip": "Repudiandae consectetur voluptates sequi ex labore.",
         "Deleted": false,
-        "Rank": 788,
-        "Type": "eum",
-        "ColorBlock": 861,
-        "IconHint": "porro",
-        "Selected": true,
-        "LastChanged": "1999-11-23T02:49:44.639171+01:00",
+        "Rank": 612,
+        "Type": "atque",
+        "ColorBlock": 454,
+        "IconHint": "sunt",
+        "Selected": false,
+        "LastChanged": "2006-06-27T17:37:18.2132455+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "libero",
-        "Hidden": false,
-        "FullName": "Shania Reynolds",
+        "ExtraInfo": "et",
+        "StyleHint": "excepturi",
+        "Hidden": true,
+        "FullName": "Prof. Cathy Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 8
+            "FieldType": "System.String",
+            "FieldLength": 800
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "harum",
+    "ExtraInfo": "dolores",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Camron Kuhn",
+    "FullName": "Dr. Dean Jewell Waelchi I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 408
+        "FieldLength": 192
       }
     }
   }

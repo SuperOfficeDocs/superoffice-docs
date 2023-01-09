@@ -44,7 +44,7 @@ POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections?$select=name,departmen
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,13 +65,13 @@ Response body: array
 | ErpConnectionId | int32 | The ERP Connection that this Quote connection is an extension of |
 | ExtraData | string | Optional extra data, in XML format, for configuring the connector. Connector-specific! |
 | IsAvailable | bool | Whether or not the specified connection is available. Typically, without network access the availability is false. |
-| InitializeResponse |  | Status and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet. |
+| InitializeResponse | PluginResponse | Status and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet. |
 | PriceLists | array | The PriceLists that this connection offers. |
 | AllAccess | bool | Is this connection accessible to everyone?  If not, then the QuoteConnectionAccess table tells us who can access it. |
 | Deleted | bool | If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster. |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,54 +91,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 654,
-    "ERPName": "Brown-Shields",
-    "DisplayName": "Vandervort, Schuppe and Jaskolski",
-    "DisplayDescription": "Function-based dynamic synergy",
-    "Rank": 157,
-    "ConnectorName": "Tromp-Pfeffer",
-    "ErpConnectionId": 590,
-    "ExtraData": "laborum",
-    "IsAvailable": false,
+    "QuoteConnectionId": 943,
+    "ERPName": "Morissette-Krajcik",
+    "DisplayName": "Koch-O'Reilly",
+    "DisplayDescription": "Diverse systematic algorithm",
+    "Rank": 687,
+    "ConnectorName": "Hansen Inc and Sons",
+    "ErpConnectionId": 122,
+    "ExtraData": "consequatur",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 817,
-        "ERPPriceListKey": "et",
-        "QuoteConnectionId": 861,
-        "Name": "Jaskolski-Roob",
-        "Description": "Networked background complexity",
-        "Currency": "fugit",
-        "CurrencyName": "O'Keefe-Gerhold",
-        "ValidFrom": "2011-03-29T02:49:45.0309645+02:00",
-        "ValidTo": "2007-09-07T02:49:45.0309645+02:00",
+        "PriceListId": 66,
+        "ERPPriceListKey": "earum",
+        "QuoteConnectionId": 346,
+        "Name": "Wuckert, Medhurst and Gutkowski",
+        "Description": "Networked fault-tolerant alliance",
+        "Currency": "temporibus",
+        "CurrencyName": "Roob LLC",
+        "ValidFrom": "2009-03-29T17:37:18.7362417+02:00",
+        "ValidTo": "2015-12-30T17:37:18.7362417+01:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 321
+            "FieldLength": 71
           }
         }
       }
     ],
-    "AllAccess": false,
-    "Deleted": false,
+    "AllAccess": true,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      780,
-      246
+      559,
+      410
     ],
     "AssociateAccessIds": [
-      833,
-      787
+      371,
+      942
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldLength": 48
       }
     }
   }

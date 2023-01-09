@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TaskListItem
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +59,7 @@ Response body:
 | IsDefaultPublished | bool | Published to external persons |
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -68,7 +68,7 @@ Response body:
 POST /api/v1/Agents/Appointment/CreateDefaultTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,14 +78,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 575,
-  "Value": "ratione",
+  "TaskListItemId": 1002,
+  "Value": "nobis",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "fugiat",
+  "Tooltip": "ex",
   "Deleted": true,
-  "IntentId": 486,
-  "Rank": 375,
+  "IntentId": 112,
+  "Rank": 426,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 806
+      "FieldType": "System.Int32",
+      "FieldLength": 408
     }
   }
 }

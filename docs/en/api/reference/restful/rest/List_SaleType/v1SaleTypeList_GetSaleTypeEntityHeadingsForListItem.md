@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 993,
-    "Name": "Mann, Haley and Anderson",
-    "ToolTip": "Quisquam et illo nesciunt nihil laborum dicta atque.",
+    "Id": 712,
+    "Name": "Boehm LLC",
+    "ToolTip": "Eum corrupti aut.",
     "Deleted": true,
-    "Rank": 78,
-    "Type": "non",
-    "ColorBlock": 888,
-    "IconHint": "consectetur",
+    "Rank": 817,
+    "Type": "eius",
+    "ColorBlock": 141,
+    "IconHint": "hic",
     "Selected": true,
-    "LastChanged": "2009-12-01T02:49:52.5159497+01:00",
+    "LastChanged": "2005-10-18T17:37:40.3455086+02:00",
     "ChildItems": [
       {
-        "Id": 77,
-        "Name": "Christiansen-Kerluke",
-        "ToolTip": "Ex ea vel libero sed.",
-        "Deleted": true,
-        "Rank": 794,
-        "Type": "et",
-        "ColorBlock": 121,
-        "IconHint": "inventore",
-        "Selected": true,
-        "LastChanged": "2021-04-10T02:49:52.5159497+02:00",
+        "Id": 2,
+        "Name": "Kessler Inc and Sons",
+        "ToolTip": "Odit ipsa dolor.",
+        "Deleted": false,
+        "Rank": 653,
+        "Type": "nemo",
+        "ColorBlock": 71,
+        "IconHint": "repellendus",
+        "Selected": false,
+        "LastChanged": "2004-11-24T17:37:40.3465061+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "inventore",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Clifton Emmy Weissnat II",
+        "FullName": "Maryse Murphy DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 145
+            "FieldLength": 956
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "vero",
+    "ExtraInfo": "quo",
+    "StyleHint": "dolorem",
     "Hidden": true,
-    "FullName": "Laverne Beahan DDS",
+    "FullName": "Mrs. Chelsea Hackett III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldType": "System.String",
+        "FieldLength": 821
       }
     }
   }

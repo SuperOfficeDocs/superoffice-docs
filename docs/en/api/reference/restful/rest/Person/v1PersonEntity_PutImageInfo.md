@@ -38,28 +38,27 @@ The actual bitmap is accessible via /api/Services80/person/123/image/content.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: imageInfo  
+## Request Body: imageInfo 
 
 New or Updated information about the person image. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| BlobId | int32 | Primary key |
-| BlobSize | int32 | The length, in bytes, of the binary data AS STORED after any encryption and/or zipping. Important to get right, since some databases will not tell us just based on the blob itself! |
-| Description | string | A description that is entered by the user, and visible to the user |
-| ExtraInfo | string | Extra information, spare field, can be used for anything that makes sense. Should not refer to any particular context, that is something for the BinaryObjectLInk |
-| IsEncrypted | bool | Has the data been encrypted. |
-| IsZipped | bool | Has the data been zipped. |
-| MimeType | string | Mime type, describing the technical type (image/jpeg) of the data |
-| OriginalSize | int32 | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
-| CreatedDate | date-time | Registered when  in UTC. |
-| UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
-| ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
+| BlobId | Integer | Primary key |
+| BlobSize | Integer | The length, in bytes, of the binary data AS STORED after any encryption and/or zipping. Important to get right, since some databases will not tell us just based on the blob itself! |
+| Description | String | A description that is entered by the user, and visible to the user |
+| ExtraInfo | String | Extra information, spare field, can be used for anything that makes sense. Should not refer to any particular context, that is something for the BinaryObjectLInk |
+| IsEncrypted | Boolean | Has the data been encrypted. |
+| IsZipped | Boolean | Has the data been zipped. |
+| MimeType | String | Mime type, describing the technical type (image/jpeg) of the data |
+| OriginalSize | Integer | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
+| CreatedDate | String | Registered when  in UTC. |
+| UpdatedDate | String | Last updated when  in UTC. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
+| ConceptualType | String | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -67,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BlobEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,10 +80,10 @@ Response body:
 | OriginalSize | int32 | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,19 +96,19 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 605,
-  "BlobSize": 432,
-  "Description": "Synchronised zero administration protocol",
-  "ExtraInfo": "fuga",
-  "IsEncrypted": true,
+  "BlobId": 649,
+  "BlobSize": 776,
+  "Description": "Inverse systematic methodology",
+  "ExtraInfo": "accusamus",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "non",
-  "OriginalSize": 244,
-  "CreatedDate": "2003-12-07T02:49:51.3078143+01:00",
-  "UpdatedDate": "2005-09-08T02:49:51.3078143+02:00",
+  "MimeType": "exercitationem",
+  "OriginalSize": 424,
+  "CreatedDate": "2013-03-09T17:37:38.9652748+01:00",
+  "UpdatedDate": "2014-04-13T17:37:38.9652748+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sunt"
+  "ConceptualType": "fuga"
 }
 ```
 
@@ -120,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 551,
-  "BlobSize": 130,
-  "Description": "Ergonomic dynamic hardware",
-  "ExtraInfo": "delectus",
-  "IsEncrypted": false,
+  "BlobId": 449,
+  "BlobSize": 431,
+  "Description": "Object-based needs-based parallelism",
+  "ExtraInfo": "laborum",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "sint",
-  "OriginalSize": 150,
-  "CreatedDate": "2011-05-30T02:49:51.3234448+02:00",
-  "UpdatedDate": "2002-04-20T02:49:51.3234448+02:00",
+  "MimeType": "unde",
+  "OriginalSize": 50,
+  "CreatedDate": "2006-07-09T17:37:38.9662739+02:00",
+  "UpdatedDate": "2013-08-02T17:37:38.9662739+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "minus",
+  "ConceptualType": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldLength": 561
     }
   }
 }

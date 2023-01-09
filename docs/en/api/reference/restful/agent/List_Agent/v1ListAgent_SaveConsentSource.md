@@ -42,16 +42,15 @@ POST /api/v1/Agents/List/SaveConsentSource?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConsentSource 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConsentSource |  | Carrier object for ConsentSource. Services for the ConsentSource Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| ConsentSource | ConsentSource | Carrier object for ConsentSource. Services for the ConsentSource Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ConsentSource
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body:
 | Key | string | The key used to uniquely identify this consent source |
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,7 +78,7 @@ Response body:
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 128,
-  "Name": "Stiedemann-Kutch",
-  "Tooltip": "neque",
-  "Rank": 323,
-  "Key": "praesentium",
-  "MailTemplateId": 351,
+  "ConsentSourceId": 324,
+  "Name": "Walker-Gerlach",
+  "Tooltip": "consequatur",
+  "Rank": 509,
+  "Key": "est",
+  "MailTemplateId": 730,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldType": "System.String",
+      "FieldLength": 486
     }
   }
 }

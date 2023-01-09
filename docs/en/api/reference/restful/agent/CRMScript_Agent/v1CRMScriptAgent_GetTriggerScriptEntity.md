@@ -12,8 +12,6 @@ POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Gets a TriggerScriptEntity object.
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -29,7 +27,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=711
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=898
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -48,7 +46,7 @@ POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,cat
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TriggerScriptEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +68,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,7 +77,7 @@ Response body:
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,22 +87,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 183,
-  "Name": "Lindgren-Labadie",
+  "ScreenChooserId": 370,
+  "Name": "Bruen, Goodwin and McLaughlin",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "officiis",
-  "Source": "veritatis",
-  "Registered": "1999-02-04T02:49:44.0129044+01:00",
-  "RegisteredAssociateId": 69,
-  "Updated": "2011-01-07T02:49:44.0129044+01:00",
-  "UpdatedAssociateId": 725,
+  "UniqueIdentifier": "ea",
+  "Source": "consequatur",
+  "Registered": "2018-11-28T17:37:17.3362439+01:00",
+  "RegisteredAssociateId": 663,
+  "Updated": "1995-10-25T17:37:17.3362439+02:00",
+  "UpdatedAssociateId": 323,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldLength": 960
     }
   }
 }

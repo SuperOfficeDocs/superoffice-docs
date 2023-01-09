@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Product
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +80,7 @@ Response body:
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,7 +89,7 @@ Response body:
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 269,
-  "ERPProductKey": "nesciunt",
-  "ERPPriceListKey": "nemo",
-  "Name": "Walter Inc and Sons",
-  "Description": "Open-source neutral projection",
-  "Code": "ipsam",
-  "PriceUnit": "vel",
-  "QuantityUnit": "ipsam",
+  "ProductId": 598,
+  "ERPProductKey": "officiis",
+  "ERPPriceListKey": "ex",
+  "Name": "Mann, Armstrong and Monahan",
+  "Description": "Re-engineered context-sensitive installation",
+  "Code": "provident",
+  "PriceUnit": "reprehenderit",
+  "QuantityUnit": "voluptatum",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 30283.842,
-  "ItemNumber": "628182",
+  "SubscriptionUnit": "vel",
+  "DefaultSubscriptionQuantity": 8120.1939999999995,
+  "ItemNumber": "651445",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "similique",
-  "ProductTypeKey": "corrupti",
-  "VAT": 21909.793999999998,
-  "VATInfo": "omnis",
-  "UnitCost": 1980.6879999999999,
-  "UnitMinimumPrice": 24087.924,
-  "UnitListPrice": 9323.65,
-  "InAssortment": false,
-  "Supplier": "saepe",
-  "SupplierCode": "deserunt",
-  "Rights": "voluptatem",
-  "Rule": "odio",
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "assumenda",
+  "VAT": 11912.333999999999,
+  "VATInfo": "atque",
+  "UnitCost": 1946.214,
+  "UnitMinimumPrice": 5428.088,
+  "UnitListPrice": 22461.378,
+  "InAssortment": true,
+  "Supplier": "et",
+  "SupplierCode": "consequuntur",
+  "Rights": "quaerat",
+  "Rule": "nostrum",
   "ExtraInfo": [
     {
-      "Name": "Williamson, Walter and Ledner",
-      "Value": "ut",
+      "Name": "O'Reilly Group",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldLength": 323
         }
       }
     },
     {
-      "Name": "Williamson, Walter and Ledner",
-      "Value": "ut",
+      "Name": "O'Reilly Group",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldLength": 323
         }
       }
     }
   ],
-  "RawExtraInfo": "officiis",
-  "ExtraField1": "autem",
-  "ExtraField2": "tenetur",
+  "RawExtraInfo": "dolores",
+  "ExtraField1": "occaecati",
+  "ExtraField2": "ut",
   "ExtraField3": "tempore",
-  "ExtraField4": "ut",
-  "ExtraField5": "et",
-  "InStock": 17892.006,
+  "ExtraField4": "laborum",
+  "ExtraField5": "expedita",
+  "InStock": 26501.104,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldType": "System.String",
+      "FieldLength": 785
     }
   }
 }

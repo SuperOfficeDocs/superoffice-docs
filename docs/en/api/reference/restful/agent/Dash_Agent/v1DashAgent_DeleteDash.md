@@ -24,7 +24,7 @@ Deletes the Dash
 | DashId | int32 | **Required** The id of the Dash to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDash?DashId=791
+POST /api/v1/Agents/Dash/DeleteDash?DashId=443
 ```
 
 
@@ -38,7 +38,7 @@ POST /api/v1/Agents/Dash/DeleteDash?DashId=791
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 No Content
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request

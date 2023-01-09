@@ -42,16 +42,15 @@ POST /api/v1/Agents/Project/GetProjectsFromPerson?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
+| PersonId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +80,7 @@ Response body: array
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,11 +89,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 827
+  "PersonId": 988
 }
 ```
 
@@ -106,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 223,
-    "Name": "Hoppe-Schmidt",
-    "Description": "Managed dedicated solution",
+    "ProjectId": 654,
+    "Name": "Kihn, Macejkovic and Gorczany",
+    "Description": "Synergized solution-oriented help-desk",
     "URL": "http://www.example.com/",
-    "Type": "blanditiis",
-    "AssociateId": 930,
-    "AssociateFullName": "Aiden Deckow",
-    "TypeId": 726,
-    "Updated": "2009-02-21T02:49:44.9684639+01:00",
-    "StatusId": 924,
-    "Status": "sint",
-    "TextId": 875,
-    "PublishTo": "2004-03-19T02:49:44.9684639+01:00",
-    "PublishFrom": "2013-10-21T02:49:44.9684639+02:00",
-    "IsPublished": false,
+    "Type": "earum",
+    "AssociateId": 883,
+    "AssociateFullName": "Ms. Harley Coty Rau IV",
+    "TypeId": 382,
+    "Updated": "2016-05-07T17:37:18.660245+02:00",
+    "StatusId": 662,
+    "Status": "quisquam",
+    "TextId": 663,
+    "PublishTo": "1997-06-21T17:37:18.660245+02:00",
+    "PublishFrom": "2017-04-10T17:37:18.660245+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "274290",
-    "ActiveErpLinks": 74,
+    "ProjectNumber": "1072634",
+    "ActiveErpLinks": 872,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 893
+        "FieldLength": 318
       }
     }
   }

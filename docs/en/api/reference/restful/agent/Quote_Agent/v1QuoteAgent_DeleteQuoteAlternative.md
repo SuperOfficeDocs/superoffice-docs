@@ -38,16 +38,15 @@ POST /api/v1/Agents/Quote/DeleteQuoteAlternative?$select=name,department,categor
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteAlternativeId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteAlternativeId | int32 |  |
+| QuoteAlternativeId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -55,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -64,11 +63,11 @@ Response body:
 POST /api/v1/Agents/Quote/DeleteQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 488
+  "QuoteAlternativeId": 916
 }
 ```
 

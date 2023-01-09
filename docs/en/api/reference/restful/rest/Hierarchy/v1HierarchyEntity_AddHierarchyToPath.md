@@ -37,13 +37,12 @@ Add a hierarchy item to a path
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: name  
+## Request Body: name 
 
 Name of node to add 
 
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -51,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: HierarchyEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +64,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,46 +83,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 285,
+  "HierarchyId": 791,
   "Domain": "Dashboards",
-  "Name": "Purdy Inc and Sons",
-  "Fullname": "et",
-  "ParentId": 840,
+  "Name": "Cormier Inc and Sons",
+  "Fullname": "est",
+  "ParentId": 1002,
   "Children": [
     {
-      "HierarchyId": 868,
+      "HierarchyId": 921,
       "Domain": "Dashboards",
-      "Name": "Collins, Bogisich and Hyatt",
-      "Fullname": "consequatur",
-      "ParentId": 632,
+      "Name": "Hoeger Inc and Sons",
+      "Fullname": "et",
+      "ParentId": 564,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-04-16T02:49:50.9952888+02:00",
-      "RegisteredAssociateId": 883,
-      "Updated": "2017-01-31T02:49:50.9952888+01:00",
-      "UpdatedAssociateId": 817,
+      "Registered": "2014-12-06T17:37:38.8318593+01:00",
+      "RegisteredAssociateId": 824,
+      "Updated": "2000-05-12T17:37:38.8318593+02:00",
+      "UpdatedAssociateId": 731,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 902
+          "FieldType": "System.Int32",
+          "FieldLength": 854
         }
       }
     }
   ],
-  "Registered": "2022-06-25T02:49:50.9952888+02:00",
-  "RegisteredAssociateId": 632,
-  "Updated": "1999-11-21T02:49:50.9952888+01:00",
-  "UpdatedAssociateId": 270,
+  "Registered": "2019-01-29T17:37:38.8318593+01:00",
+  "RegisteredAssociateId": 289,
+  "Updated": "1999-05-16T17:37:38.8318593+02:00",
+  "UpdatedAssociateId": 866,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 848
     }
   }
 }

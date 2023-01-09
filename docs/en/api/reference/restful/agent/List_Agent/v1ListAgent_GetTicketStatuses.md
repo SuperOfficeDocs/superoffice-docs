@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/GetTicketStatuses?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +61,7 @@ Response body: array
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
 | IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
 | UsedInQueue | bool | If set, status is used in GetNext calculations |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -70,7 +70,7 @@ Response body: array
 POST /api/v1/Agents/List/GetTicketStatuses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,11 +81,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 86,
-    "Name": "Raynor, Swaniawski and Jacobson",
+    "TicketStatusId": 58,
+    "Name": "Wisozk Group",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
+    "NoEmailReopen": true,
     "IsDefault": false,
     "UsedInQueue": false,
     "TableRight": null,
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 669
+        "FieldLength": 534
       }
     }
   }

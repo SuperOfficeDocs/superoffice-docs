@@ -42,16 +42,15 @@ POST /api/v1/Agents/Audience/GetAudienceLayoutByName?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 LayoutName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| LayoutName | string |  |
+| LayoutName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AudienceLayoutEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,9 +67,9 @@ Response body:
 | InstanceName | string | Name of the layout instance |
 | CreatedDate | date-time | The date and time the Audience layout was created  in UTC. |
 | UpdatedDate | date-time | The date and time the Audience layout was last updated  in UTC. |
-| CreatedBy |  | Name of the person that created the Audience layout |
-| UpdatedBy |  | Name of the person that last updated the Audience layout |
-| TableRight |  |  |
+| CreatedBy | Associate | Name of the person that created the Audience layout |
+| UpdatedBy | Associate | Name of the person that last updated the Audience layout |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,11 +78,11 @@ Response body:
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Monahan Inc and Sons"
+  "LayoutName": "Feil Group"
 }
 ```
 
@@ -94,11 +93,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 341,
-  "InstanceLayout": "veniam",
-  "InstanceName": "Okuneva, Schultz and Predovic",
-  "CreatedDate": "2002-04-21T02:49:43.6847821+02:00",
-  "UpdatedDate": "2021-12-28T02:49:43.6847821+01:00",
+  "AudienceLayoutId": 902,
+  "InstanceLayout": "nemo",
+  "InstanceName": "Koss-Lockman",
+  "CreatedDate": "2011-01-19T17:37:16.8892417+01:00",
+  "UpdatedDate": "2022-02-14T17:37:16.8892417+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 394
     }
   }
 }

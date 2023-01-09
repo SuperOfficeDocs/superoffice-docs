@@ -48,7 +48,7 @@ GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 748,
-    "Name": "DuBuque-Keebler",
-    "ToolTip": "Neque nostrum ut asperiores a voluptatibus esse minima.",
+    "Id": 641,
+    "Name": "Cremin-Cormier",
+    "ToolTip": "Amet qui.",
     "Deleted": true,
-    "Rank": 733,
-    "Type": "sunt",
-    "ColorBlock": 853,
-    "IconHint": "aperiam",
+    "Rank": 324,
+    "Type": "non",
+    "ColorBlock": 378,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "2013-05-08T02:49:52.3597004+02:00",
+    "LastChanged": "1996-07-20T17:37:40.1485016+02:00",
     "ChildItems": [
       {
-        "Id": 549,
-        "Name": "Borer-Walsh",
-        "ToolTip": "Temporibus modi provident et et et eum.",
-        "Deleted": true,
-        "Rank": 4,
-        "Type": "neque",
-        "ColorBlock": 527,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2010-10-08T02:49:52.3597004+02:00",
+        "Id": 742,
+        "Name": "Hayes-Gorczany",
+        "ToolTip": "Qui possimus.",
+        "Deleted": false,
+        "Rank": 7,
+        "Type": "numquam",
+        "ColorBlock": 920,
+        "IconHint": "laboriosam",
+        "Selected": false,
+        "LastChanged": "2007-08-21T17:37:40.1485016+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "aut",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "ipsa",
         "Hidden": true,
-        "FullName": "Eudora Hyatt",
+        "FullName": "Emil Fritsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 332
+            "FieldType": "System.Int32",
+            "FieldLength": 497
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Hallie Durgan",
+    "ExtraInfo": "molestias",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Prof. Devante Gabriel McKenzie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldType": "System.String",
+        "FieldLength": 586
       }
     }
   }

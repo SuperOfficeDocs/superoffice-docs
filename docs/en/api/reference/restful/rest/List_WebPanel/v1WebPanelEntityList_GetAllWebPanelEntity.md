@@ -34,7 +34,7 @@ Calls the List agent service GetAllWebPanelEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +67,7 @@ Response body: array
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,33 +87,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 57,
-    "Name": "Doyle LLC",
-    "Tooltip": "labore",
+    "WebPanelId": 562,
+    "Name": "Kiehn Group",
+    "Tooltip": "explicabo",
     "Deleted": false,
-    "Rank": 36,
+    "Rank": 690,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": false,
+    "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
-    "ShowInToolBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": true,
-    "ShowInStatusBar": true,
-    "WindowName": "Runte-Abernathy",
+    "ShowInStatusBar": false,
+    "WindowName": "Gislason-Bosco",
     "Url": "http://www.example.com/",
-    "ProgId": "quis",
-    "Icon": 734,
+    "ProgId": "nemo",
+    "Icon": 380,
     "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 105
+        "FieldType": "System.Int32",
+        "FieldLength": 53
       }
     }
   }

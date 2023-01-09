@@ -44,19 +44,18 @@ POST /api/v1/Agents/User/IsUserNameValidWithReason?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId, Type, PersonId, UserName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
-| Type | string |  |
-| PersonId | int32 |  |
-| UserName | string |  |
+| AssociateId | Integer |  |
+| Type | String |  |
+| PersonId | Integer |  |
+| UserName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,13 +63,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserValidationResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Reason | string |  |
 | Result | bool |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,14 +78,14 @@ Response body:
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 976,
+  "AssociateId": 926,
   "Type": "AnonymousAssociate",
-  "PersonId": 61,
-  "UserName": "Hahn Inc and Sons"
+  "PersonId": 898,
+  "UserName": "Keebler, Schuppe and Howell"
 }
 ```
 
@@ -98,13 +97,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "Result": false,
+  "Result": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 965
+      "FieldLength": 544
     }
   }
 }

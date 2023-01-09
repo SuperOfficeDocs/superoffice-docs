@@ -44,19 +44,18 @@ POST /api/v1/Agents/Find/GetCriteriaInformation?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, StaticColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| StaticColumns | array |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| StaticColumns | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CriteriaInformation
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body:
 | CriteriaArchiveColumns | array | Array of ColumnInfo column specifications |
 | CriteriaArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows. |
 | RestrictionGroups | array | Array of restrictiongroups, including the default first group of restrictions |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,16 +80,16 @@ Response body:
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "architecto",
-  "ProviderName": "Rippin, Halvorson and Koch",
-  "StorageKey": "eveniet",
+  "StorageType": "eos",
+  "ProviderName": "Hintz Group",
+  "StorageKey": "dicta",
   "StaticColumns": [
-    "ab",
-    "inventore"
+    "facere",
+    "voluptatibus"
   ]
 }
 ```
@@ -104,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Huels, Dickens and Bernhard",
-      "Operator": "rerum",
+      "Name": "Jenkins Group",
+      "Operator": "temporibus",
       "Values": [
-        "eveniet",
-        "exercitationem"
+        "incidunt",
+        "unde"
       ],
       "DisplayValues": [
-        "voluptates",
-        "ut"
+        "fugiat",
+        "qui"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 233,
+      "InterParenthesis": 54,
       "InterOperator": "And",
-      "UniqueHash": 290
+      "UniqueHash": 506
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Denesik LLC",
-      "DisplayTooltip": "corrupti",
-      "DisplayType": "qui",
+      "DisplayName": "Strosin LLC",
+      "DisplayTooltip": "perspiciatis",
+      "DisplayType": "pariatur",
       "CanOrderBy": false,
-      "Name": "O'Hara-Bogisich",
-      "CanRestrictBy": true,
-      "RestrictionType": "fugiat",
-      "RestrictionListName": "Klocko, Kutch and Champlin",
+      "Name": "Kovacek, Schaden and Kerluke",
+      "CanRestrictBy": false,
+      "RestrictionType": "eaque",
+      "RestrictionListName": "Prosacco Group",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "aspernatur",
-      "IconHint": "voluptas",
-      "HeadingIconHint": "enim"
+      "ExtraInfo": "eligendi",
+      "Width": "omnis",
+      "IconHint": "eaque",
+      "HeadingIconHint": "consequuntur"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Crona-Mraz",
-      "PrimaryKey": 332,
+      "EntityName": "Bins LLC",
+      "PrimaryKey": 879,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "ipsa",
-          "LinkHint": "fugit"
+          "DisplayValue": "quia",
+          "TooltipHint": "assumenda",
+          "LinkHint": "ullam"
         }
       },
-      "LinkHint": "fuga",
-      "StyleHint": "est",
+      "LinkHint": "dolorem",
+      "StyleHint": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 365
+          "FieldLength": 563
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hane-Ferry",
-      "Description": "Virtual asynchronous local area network",
-      "Rank": 45,
+      "Name": "Blanda-Waters",
+      "Description": "Organized 6th generation protocol",
+      "Rank": 686,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hane-Ferry",
-      "Description": "Virtual asynchronous local area network",
-      "Rank": 45,
+      "Name": "Blanda-Waters",
+      "Description": "Organized 6th generation protocol",
+      "Rank": 686,
       "Restrictions": [
         {},
         {}
@@ -189,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldType": "System.String",
+      "FieldLength": 70
     }
   }
 }

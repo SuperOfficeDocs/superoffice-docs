@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,14 +73,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Documents?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Documents?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Documents?$orderBy=name asc
-GET /api/v1/Contact/{id}/Documents?$entities=facilis
-GET /api/v1/Contact/{id}/Documents?$top=314
-GET /api/v1/Contact/{id}/Documents?$skip=71
+GET /api/v1/Contact/{id}/Documents?$entities=nemo
+GET /api/v1/Contact/{id}/Documents?$top=707
+GET /api/v1/Contact/{id}/Documents?$skip=810
 GET /api/v1/Contact/{id}/Documents?$mode=Full
 GET /api/v1/Contact/{id}/Documents?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Documents?$context=dolores
+GET /api/v1/Contact/{id}/Documents?$context=expedita
 GET /api/v1/Contact/{id}/Documents?$format=JSON
-GET /api/v1/Contact/{id}/Documents?$jsonSafe=False
+GET /api/v1/Contact/{id}/Documents?$jsonSafe=True
 GET /api/v1/Contact/{id}/Documents?$output=Display
 ```
 
@@ -100,7 +99,7 @@ GET /api/v1/Contact/{id}/Documents?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Contact/{id}/Documents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nesciunt",
+  "odata.nextLink": "corrupti",
   "value": [
     {
-      "PrimaryKey": 3884,
-      "EntityName": "person",
-      "personId": 3884,
-      "fullName": "Patience Tina Hermann DDS"
+      "PrimaryKey": 6011,
+      "EntityName": "sale",
+      "saleId": 6011,
+      "contactId": 4999,
+      "name": "Lynch-Emmerich"
     },
     {
-      "PrimaryKey": 5593,
-      "EntityName": "person",
-      "personId": 5593,
-      "fullName": "Darron Rau"
+      "PrimaryKey": 6914,
+      "EntityName": "sale",
+      "saleId": 6914,
+      "contactId": 9905,
+      "name": "Thiel-Wintheiser"
     }
   ]
 }

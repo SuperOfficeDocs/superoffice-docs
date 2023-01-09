@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FormEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body:
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 | FolderName | string | The name of the folder for this form |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 414,
-  "FormKey": "at",
-  "Name": "Kshlerin, Pfannerstill and Jaskolski",
-  "Description": "Proactive zero tolerance alliance",
-  "Config": "officia",
-  "FolderId": 381,
-  "ScriptId": 167,
-  "ResponseShipmentId": 390,
+  "FormId": 16,
+  "FormKey": "quisquam",
+  "Name": "Murray LLC",
+  "Description": "Self-enabling fresh-thinking analyzer",
+  "Config": "magnam",
+  "FolderId": 265,
+  "ScriptId": 437,
+  "ResponseShipmentId": 546,
   "Active": true,
-  "Expires": "2011-01-24T02:49:44.7016713+01:00",
-  "MaxSubmits": 559,
+  "Expires": "2020-09-22T17:37:18.3122419+02:00",
+  "MaxSubmits": 957,
   "Type": "Normal",
-  "Recipe": "corrupti",
-  "GroupId": 355,
+  "Recipe": "fuga",
+  "GroupId": 787,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2022-09-02T02:49:44.7016713+02:00",
-  "RegisteredAssociateId": 421,
-  "Updated": "2005-11-05T02:49:44.7016713+01:00",
-  "UpdatedAssociateId": 79,
-  "UpdatedCount": 137,
-  "FolderName": "Sanford-Berge",
+  "Registered": "2005-07-08T17:37:18.3122419+02:00",
+  "RegisteredAssociateId": 592,
+  "Updated": "1999-08-27T17:37:18.3122419+02:00",
+  "UpdatedAssociateId": 762,
+  "UpdatedCount": 180,
+  "FolderName": "Graham, Barrows and Hagenes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 425
+      "FieldType": "System.Int32",
+      "FieldLength": 697
     }
   }
 }

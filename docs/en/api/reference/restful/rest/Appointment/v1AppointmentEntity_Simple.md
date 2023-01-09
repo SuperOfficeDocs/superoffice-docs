@@ -38,7 +38,7 @@ This is a simpler, smaller variation of the full AppointmentEntity. Calls the Ap
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 AppointmentEntity found.
 
@@ -47,7 +47,7 @@ AppointmentEntity found.
 | 200 | AppointmentEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: Appointment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,7 +100,7 @@ Response body:
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -109,7 +109,7 @@ Response body:
 GET /api/v1/Appointment/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -119,53 +119,53 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 12,
-  "StartDate": "2007-12-18T02:49:50.5577842+01:00",
-  "EndDate": "2021-05-14T02:49:50.5577842+02:00",
+  "AppointmentId": 805,
+  "StartDate": "2005-05-15T17:37:38.1258454+02:00",
+  "EndDate": "2019-10-28T17:37:38.1258454+01:00",
   "Type": "BookingForChecklist",
-  "Task": "eius",
-  "AssociateFullName": "Hyman Hoeger",
-  "ContactName": "Ebert LLC",
-  "Description": "Synergistic fault-tolerant data-warehouse",
-  "PersonFullName": "Arlo Marquardt",
-  "PersonId": 57,
-  "ContactId": 907,
-  "ProjectId": 121,
-  "ProjectName": "Crooks Inc and Sons",
+  "Task": "recusandae",
+  "AssociateFullName": "Dr. Caroline Wyman Lakin",
+  "ContactName": "Hahn Group",
+  "Description": "Front-line disintermediate open architecture",
+  "PersonFullName": "Loraine Schmitt",
+  "PersonId": 956,
+  "ContactId": 592,
+  "ProjectId": 430,
+  "ProjectName": "Dibbert, Dicki and Johnson",
   "IsPublished": false,
-  "AssociateId": 580,
-  "ColorIndex": 216,
-  "IsFree": true,
-  "HasAlarm": true,
+  "AssociateId": 749,
+  "ColorIndex": 397,
+  "IsFree": false,
+  "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 696,
-  "PriorityName": "Prosacco-Monahan",
+  "PriorityId": 475,
+  "PriorityName": "Sipes, Sawayn and Kihn",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
-  "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "2011-10-22T02:49:50.5577842+02:00",
+  "IsBookingMain": false,
+  "IsRecurrence": true,
+  "IsBooking": true,
+  "ActiveDate": "2014-09-06T17:37:38.1268428+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2005-04-01T02:49:50.5577842+02:00",
-  "RecurringEndDate": "2001-12-06T02:49:50.5577842+01:00",
-  "MotherId": 212,
-  "AssignedBy": 507,
-  "AssignedByFullName": "Jazmin Grimes",
+  "RecurringStartDate": "1998-02-22T17:37:38.1268428+01:00",
+  "RecurringEndDate": "2011-12-18T17:37:38.1268428+01:00",
+  "MotherId": 79,
+  "AssignedBy": 667,
+  "AssignedByFullName": "Roberta Glover",
   "RejectReason": "",
-  "Location": "autem",
-  "AlarmLeadTime": "qui",
-  "SaleId": 175,
-  "SaleName": "Considine-Botsford",
-  "AssociateName": "Quigley, Toy and Turcotte",
-  "CreatedDate": "2011-09-04T02:49:50.5577842+02:00",
-  "CreatedBy": "reiciendis",
-  "CreatedByFullName": "Ms. Forest Tyrique Halvorson II",
-  "CreatedByAssociateId": 257,
+  "Location": "voluptatum",
+  "AlarmLeadTime": "cupiditate",
+  "SaleId": 16,
+  "SaleName": "Smith-Stanton",
+  "AssociateName": "Conn-Schuppe",
+  "CreatedDate": "1996-03-27T17:37:38.1268428+01:00",
+  "CreatedBy": "voluptatem",
+  "CreatedByFullName": "Kristian Bruen",
+  "CreatedByAssociateId": 125,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 180
+      "FieldLength": 497
     }
   }
 }

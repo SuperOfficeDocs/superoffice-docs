@@ -38,7 +38,7 @@ Used by bots to hand off a session to human
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,14 +46,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ChatSessionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 | The primary key (auto-incremented) |
 | TopicId | int32 | The reference to the associated chat topic. |
-| User |  | User agent handling this session |
-| Person |  | Customer person in this session - could be empty if we don't know exactly. |
+| User | Associate | User agent handling this session |
+| Person | Person | Customer person in this session - could be empty if we don't know exactly. |
 | CustomerAlias | string | The alias for the customer. |
 | CustomerHost | string | The hostname or IP address for the customer. |
 | CustomerName | string | The name of customer, if provided |
@@ -74,14 +74,14 @@ Response body:
 | AlertLevel | int32 | The alert level for this chat session. |
 | Rank | int32 | Lowest possible unique number for active sessions for user. User for color index. Starting at 1. |
 | Flags | string | Various flags for the chat session |
-| Contact |  | Contact this session is connected to - could be empty if we don't know exactly. |
-| Project |  | Project the session is connectedto - could be empty if we don't know exactly. |
-| Sale |  | Sale the session is connected to - could be empty if we don't know exactly. |
-| Ticket |  | Ticket the session is connected to - could be empty if we don't know exactly. |
-| TransferTo |  | User agent that has a pending transfer of the chat session |
+| Contact | Contact | Contact this session is connected to - could be empty if we don't know exactly. |
+| Project | Project | Project the session is connectedto - could be empty if we don't know exactly. |
+| Sale | Sale | Sale the session is connected to - could be empty if we don't know exactly. |
+| Ticket | Ticket | Ticket the session is connected to - could be empty if we don't know exactly. |
+| TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,7 +90,7 @@ Response body:
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,29 +100,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 450,
-  "TopicId": 591,
+  "ChatSessionId": 464,
+  "TopicId": 371,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatem",
-  "CustomerHost": "fugiat",
-  "CustomerName": "Dickinson-Braun",
-  "CustomerEmail": "willis.schoen@moen.us",
-  "CustomerPhone": "167.874.3801",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Grimes-Lowe",
+  "CustomerAlias": "minus",
+  "CustomerHost": "dolorem",
+  "CustomerName": "Feest, Marquardt and Langworth",
+  "CustomerEmail": "reid@bechtelar.co.uk",
+  "CustomerPhone": "614-611-7222 x1107",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Becker, Sporer and Thiel",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "natus",
-  "WhenRequested": "2022-01-16T02:49:50.682786+01:00",
-  "WhenStarted": "2009-06-04T02:49:50.682786+02:00",
-  "WhenEnded": "2013-06-26T02:49:50.682786+02:00",
-  "WhenIdle": "2000-04-09T02:49:50.682786+02:00",
-  "WhenFetched": "1998-10-09T02:49:50.682786+02:00",
-  "SessionKey": "cum",
-  "InitialQueuePos": 130,
-  "AlertLevel": 373,
-  "Rank": 352,
+  "FirstMessage": "molestiae",
+  "LastMessage": "ut",
+  "WhenRequested": "2015-06-16T17:37:38.2868649+02:00",
+  "WhenStarted": "1996-08-03T17:37:38.2868649+02:00",
+  "WhenEnded": "1999-03-15T17:37:38.2868649+01:00",
+  "WhenIdle": "2009-11-11T17:37:38.2868649+01:00",
+  "WhenFetched": "2021-12-17T17:37:38.2868649+01:00",
+  "SessionKey": "asperiores",
+  "InitialQueuePos": 27,
+  "AlertLevel": 443,
+  "Rank": 365,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -130,13 +130,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 572,
+  "Rating": 131,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 944
+      "FieldType": "System.Int32",
+      "FieldLength": 343
     }
   }
 }

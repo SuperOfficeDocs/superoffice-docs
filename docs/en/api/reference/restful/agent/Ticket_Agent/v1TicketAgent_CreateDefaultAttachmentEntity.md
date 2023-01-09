@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AttachmentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +52,7 @@ Response body:
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 264,
-  "Name": "Eichmann-Pfannerstill",
-  "ContentType": "deleniti",
-  "AttSize": 752,
-  "InlineImage": false,
-  "ContentId": "sunt",
+  "AttachmentId": 115,
+  "Name": "Steuber, Kub and Block",
+  "ContentType": "natus",
+  "AttSize": 498,
+  "InlineImage": true,
+  "ContentId": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldType": "System.String",
+      "FieldLength": 758
     }
   }
 }

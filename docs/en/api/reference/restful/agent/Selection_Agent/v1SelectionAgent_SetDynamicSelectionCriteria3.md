@@ -44,18 +44,17 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, Criteria, Filter 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| Criteria | array |  |
-| Filter | string |  |
+| SelectionId | Integer |  |
+| Criteria | Array |  |
+| Filter | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body: array
 | Operator | string |  |
 | Values | array |  |
 | DisplayValues | array |  |
-| ColumnInfo |  |  |
+| ColumnInfo | TableRight |  |
 | IsActive | bool |  |
 | SubRestrictions | array |  |
 | InterParenthesis | int32 |  |
@@ -88,18 +87,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 539,
+  "SelectionId": 76,
   "Criteria": [
     {
-      "Name": "Hahn LLC",
-      "Operator": "aut",
+      "Name": "Homenick-Bailey",
+      "Operator": "dicta",
       "Values": [
-        "illo",
+        "ducimus",
         "rerum"
       ],
       "DisplayValues": [
-        "debitis",
-        "assumenda"
+        "eos",
+        "rerum"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -107,12 +106,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 420,
+      "InterParenthesis": 179,
       "InterOperator": "And",
-      "UniqueHash": 345
+      "UniqueHash": 683
     }
   ],
-  "Filter": "dicta"
+  "Filter": "impedit"
 }
 ```
 
@@ -124,29 +123,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Farrell, Walsh and Bruen",
-    "Operator": "et",
+    "Name": "Hettinger Group",
+    "Operator": "ea",
     "Values": [
-      "tempora",
-      "atque"
+      "quos",
+      "magnam"
     ],
     "DisplayValues": [
-      "in",
-      "molestiae"
+      "ipsam",
+      "quidem"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Hyatt Group",
-        "Operator": "nihil",
+        "Name": "Schinner LLC",
+        "Operator": "nobis",
         "Values": [
-          "fuga",
-          "accusantium"
+          "dolor",
+          "consequatur"
         ],
         "DisplayValues": [
-          "veritatis",
-          "id"
+          "assumenda",
+          "repudiandae"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -154,14 +153,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 919,
+        "InterParenthesis": 187,
         "InterOperator": "And",
-        "UniqueHash": 71
+        "UniqueHash": 425
       }
     ],
-    "InterParenthesis": 630,
+    "InterParenthesis": 614,
     "InterOperator": "And",
-    "UniqueHash": 193
+    "UniqueHash": 629
   }
 ]
 ```

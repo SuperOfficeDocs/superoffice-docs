@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: User
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,10 +54,10 @@ Response body:
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
 | OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -74,7 +74,7 @@ Response body:
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +83,7 @@ Response body:
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 203,
-  "Name": "Trantow-Predovic",
-  "Rank": 82,
-  "Tooltip": "et",
+  "AssociateId": 775,
+  "Name": "Lesch Inc and Sons",
+  "Rank": 470,
+  "Tooltip": "ducimus",
   "LicenseOwners": [
     {
-      "Name": "McLaughlin LLC",
-      "Description": "De-engineered needs-based solution",
+      "Name": "Leannon LLC",
+      "Description": "Adaptive optimizing collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -114,13 +114,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 209
         }
       }
     },
     {
-      "Name": "McLaughlin LLC",
-      "Description": "De-engineered needs-based solution",
+      "Name": "Leannon LLC",
+      "Description": "Adaptive optimizing collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 209
         }
       }
     }
@@ -143,110 +143,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "expedita",
-      "Tooltip": "expedita",
-      "Id": 528,
-      "Rank": 381,
+      "Value": "et",
+      "Tooltip": "excepturi",
+      "Id": 421,
+      "Rank": 882,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldLength": 158
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2005-04-14T02:49:45.6247201+02:00",
-  "Lastlogout": "2013-07-08T02:49:45.6247201+02:00",
-  "EjUserId": 947,
-  "RequestSignature": "atque",
+  "Lastlogin": "2009-10-09T17:37:19.5269763+02:00",
+  "Lastlogout": "2021-09-14T17:37:19.5269763+02:00",
+  "EjUserId": 400,
+  "RequestSignature": "perspiciatis",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "voluptas",
-      "DisplayValue": "ipsum",
+      "Value": "laborum",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 642
+          "FieldType": "System.Int32",
+          "FieldLength": 86
         }
       }
     },
     {
       "Type": null,
-      "Value": "voluptas",
-      "DisplayValue": "ipsum",
+      "Value": "laborum",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 642
+          "FieldType": "System.Int32",
+          "FieldLength": 86
         }
       }
     }
   ],
-  "UserName": "Tremblay, Kub and Lemke",
+  "UserName": "Gutmann Group",
   "TicketCategories": [
     {
-      "Id": 479,
-      "Name": "Hessel-Yundt",
-      "ToolTip": "Voluptas totam natus consequuntur qui dolores ea.",
-      "Deleted": false,
-      "Rank": 19,
-      "Type": "pariatur",
+      "Id": 787,
+      "Name": "Thiel-O'Conner",
+      "ToolTip": "Ullam repudiandae soluta et minus qui.",
+      "Deleted": true,
+      "Rank": 308,
+      "Type": "vel",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 99,
-      "ExtraInfo": "eaque",
-      "StyleHint": "nesciunt",
-      "FullName": "Vern Leannon",
+      "IconHint": "dolore",
+      "ColorBlock": 794,
+      "ExtraInfo": "alias",
+      "StyleHint": "autem",
+      "FullName": "Mrs. Nella Felton Ward",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 581
         }
       }
     }
   ],
-  "NickName": "Boyle Inc and Sons",
+  "NickName": "Fritsch, Ritchie and Borer",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "inventore"
+    "ExtraFields1": "aperiam",
+    "ExtraFields2": "eveniet"
   },
   "CustomFields": {
-    "CustomFields1": "temporibus",
-    "CustomFields2": "aut"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "ratione"
   },
   "PostSaveCommands": [
     {
-      "Name": "Ebert Inc and Sons",
-      "DisplayName": "Kerluke-Gulgowski",
-      "Description": "Cross-platform local pricing structure",
-      "ToolTip": "Libero sint eos possimus voluptas ducimus odio.",
+      "Name": "Keeling-Rolfson",
+      "DisplayName": "Hoeger, Goodwin and Hoeger",
+      "Description": "Networked local ability",
+      "ToolTip": "Sint vel molestiae culpa voluptatem quasi.",
       "Actions": "Implicit",
-      "ActionData": "quisquam",
+      "ActionData": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 79
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 43
     }
   }
 }

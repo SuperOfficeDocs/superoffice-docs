@@ -42,16 +42,15 @@ POST /api/v1/Agents/Project/GetPublishedProject?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
+| ProjectId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Project
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +80,7 @@ Response body:
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,11 +89,11 @@ Response body:
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 93
+  "ProjectId": 34
 }
 ```
 
@@ -105,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 149,
-  "Name": "Stehr LLC",
-  "Description": "Synergistic systemic support",
+  "ProjectId": 756,
+  "Name": "Pagac-Kling",
+  "Description": "Monitored grid-enabled framework",
   "URL": "http://www.example.com/",
-  "Type": "qui",
-  "AssociateId": 18,
-  "AssociateFullName": "Dr. Freddy Wilkinson",
-  "TypeId": 598,
-  "Updated": "2012-02-20T02:49:44.9684639+01:00",
-  "StatusId": 569,
-  "Status": "eos",
-  "TextId": 418,
-  "PublishTo": "2009-01-10T02:49:44.9684639+01:00",
-  "PublishFrom": "2021-02-20T02:49:44.9684639+01:00",
+  "Type": "aut",
+  "AssociateId": 744,
+  "AssociateFullName": "Trey O'Kon",
+  "TypeId": 516,
+  "Updated": "2021-07-08T17:37:18.6622448+02:00",
+  "StatusId": 642,
+  "Status": "magni",
+  "TextId": 556,
+  "PublishTo": "2019-10-05T17:37:18.6622448+02:00",
+  "PublishFrom": "2014-01-26T17:37:18.6622448+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "250047",
-  "ActiveErpLinks": 348,
+  "ProjectNumber": "1450999",
+  "ActiveErpLinks": 99,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 104
+      "FieldType": "System.Int32",
+      "FieldLength": 440
     }
   }
 }

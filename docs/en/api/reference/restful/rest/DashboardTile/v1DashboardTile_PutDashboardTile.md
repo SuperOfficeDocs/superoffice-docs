@@ -46,29 +46,28 @@ PUT /api/v1/DashboardTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The DashboardTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardTileId | int32 | The tile id |
-| Caption | string | The tile caption |
-| Description | string | The tile description |
-| ChartName | string | The original chart name |
-| ChartId | string | The original chart Id |
-| IsDefault | bool | True if this is one of the default tiles |
-| AssociateId | int32 | Id of the associate who owns this tile |
-| GroupId | int32 | Id of the associates primary group at storage time |
-| SelectionId | int32 | The selection that defines the data filter/restrictions |
-| Config | string | The tile config |
-| Type | string | The tile type, what kind of tile this is |
-| EntityType | string | The tile entity type |
-| Options | array | The tile options |
-| VisibleFor | array | The set of users or groups the record is visible for |
+| DashboardTileId | Integer | The tile id |
+| Caption | String | The tile caption |
+| Description | String | The tile description |
+| ChartName | String | The original chart name |
+| ChartId | String | The original chart Id |
+| IsDefault | Boolean | True if this is one of the default tiles |
+| AssociateId | Integer | Id of the associate who owns this tile |
+| GroupId | Integer | Id of the associates primary group at storage time |
+| SelectionId | Integer | The selection that defines the data filter/restrictions |
+| Config | String | The tile config |
+| Type | String | The tile type, what kind of tile this is |
+| EntityType | String | The tile entity type |
+| Options | Array | The tile options |
+| VisibleFor | Array | The set of users or groups the record is visible for |
 
-
-## Response: 
+## Response:
 
 DashboardTile updated.
 
@@ -77,7 +76,7 @@ DashboardTile updated.
 | 200 | DashboardTile updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: DashboardTileWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,7 +94,7 @@ Response body:
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -105,46 +104,46 @@ Response body:
 PUT /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 290,
-  "Caption": "vitae",
-  "Description": "De-engineered optimizing contingency",
-  "ChartName": "Bashirian-Anderson",
-  "ChartId": "aut",
-  "IsDefault": false,
-  "AssociateId": 44,
-  "GroupId": 608,
-  "SelectionId": 12,
-  "Config": "libero",
+  "DashboardTileId": 540,
+  "Caption": "omnis",
+  "Description": "Exclusive multi-state support",
+  "ChartName": "Gorczany-Witting",
+  "ChartId": "sunt",
+  "IsDefault": true,
+  "AssociateId": 249,
+  "GroupId": 199,
+  "SelectionId": 781,
+  "Config": "dolore",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Douglas LLC",
-      "Description": "Decentralized bi-directional hierarchy",
+      "Name": "O'Connell-Mayert",
+      "Description": "Virtual methodical hardware",
       "Type": "Boolean",
-      "ListName": "Connelly, Bruen and Waelchi",
+      "ListName": "Dicki LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "maiores",
-      "DefaultDataOption": true
+      "Value": "qui",
+      "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 20,
+      "VisibleId": 30,
       "Visibility": "All",
-      "DisplayValue": "laboriosam"
+      "DisplayValue": "necessitatibus"
     },
     {
-      "VisibleId": 20,
+      "VisibleId": 30,
       "Visibility": "All",
-      "DisplayValue": "laboriosam"
+      "DisplayValue": "necessitatibus"
     }
   ]
 }
@@ -157,64 +156,64 @@ HTTP/1.1 200 DashboardTile updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 90,
-  "Caption": "iste",
-  "Description": "Down-sized cohesive methodology",
-  "ChartName": "Weissnat, Morissette and Kuhlman",
-  "ChartId": "numquam",
+  "DashboardTileId": 860,
+  "Caption": "molestiae",
+  "Description": "Fundamental actuating moderator",
+  "ChartName": "Kozey Inc and Sons",
+  "ChartId": "eos",
   "IsDefault": true,
-  "AssociateId": 446,
-  "GroupId": 611,
-  "SelectionId": 268,
-  "Config": "suscipit",
+  "AssociateId": 328,
+  "GroupId": 678,
+  "SelectionId": 583,
+  "Config": "perferendis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kutch-Cummerata",
-      "Description": "Organized holistic workforce",
+      "Name": "Bashirian Group",
+      "Description": "Multi-tiered system-worthy policy",
       "Type": "Boolean",
-      "ListName": "Reichel, Pfannerstill and Lakin",
+      "ListName": "Herzog Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "repellendus",
-      "DefaultDataOption": false,
+      "Value": "hic",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 114
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 651,
+      "VisibleId": 438,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldLength": 755
         }
       }
     },
     {
-      "VisibleId": 651,
+      "VisibleId": 438,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldLength": 755
         }
       }
     }
@@ -223,8 +222,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 654
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   },
   "_Links": {

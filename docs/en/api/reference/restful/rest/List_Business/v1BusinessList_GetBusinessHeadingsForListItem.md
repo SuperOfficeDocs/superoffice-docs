@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "Lueilwitz, Marvin and Torphy",
-    "ToolTip": "Voluptas ad sint et beatae non quisquam.",
-    "Deleted": true,
-    "Rank": 702,
-    "Type": "sed",
-    "ColorBlock": 984,
-    "IconHint": "exercitationem",
-    "Selected": true,
-    "LastChanged": "2005-03-23T02:49:51.8909437+01:00",
+    "Id": 575,
+    "Name": "Lueilwitz, Nicolas and Wilderman",
+    "ToolTip": "Earum fuga.",
+    "Deleted": false,
+    "Rank": 924,
+    "Type": "commodi",
+    "ColorBlock": 299,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2020-08-09T17:37:39.6644005+02:00",
     "ChildItems": [
       {
-        "Id": 156,
-        "Name": "Oberbrunner-Von",
-        "ToolTip": "Et error.",
-        "Deleted": false,
-        "Rank": 813,
-        "Type": "dignissimos",
-        "ColorBlock": 959,
-        "IconHint": "corporis",
+        "Id": 556,
+        "Name": "Carter, Jaskolski and Gleason",
+        "ToolTip": "Rerum laborum ex expedita explicabo maiores et inventore.",
+        "Deleted": true,
+        "Rank": 290,
+        "Type": "nulla",
+        "ColorBlock": 650,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2012-01-04T02:49:51.8909437+01:00",
+        "LastChanged": "1999-02-10T17:37:39.6644005+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "illo",
+        "ExtraInfo": "dolores",
+        "StyleHint": "quo",
         "Hidden": true,
-        "FullName": "Mekhi Schaden",
+        "FullName": "Zula Schroeder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 275
+            "FieldLength": 744
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "dolorem",
-    "Hidden": true,
-    "FullName": "Karolann Ebert",
+    "ExtraInfo": "soluta",
+    "StyleHint": "cupiditate",
+    "Hidden": false,
+    "FullName": "Wilfredo O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 351
+        "FieldType": "System.String",
+        "FieldLength": 720
       }
     }
   }

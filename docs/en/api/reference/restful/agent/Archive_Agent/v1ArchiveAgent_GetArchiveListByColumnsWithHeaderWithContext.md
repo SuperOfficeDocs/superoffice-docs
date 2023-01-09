@@ -38,13 +38,6 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 
 
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,24 +63,23 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Columns | array |  |
-| SortOrder | array |  |
-| Restriction | array |  |
-| Entities | array |  |
-| Page | int32 |  |
-| PageSize | int32 |  |
-| Options | string |  |
-| Context | string |  |
+| ProviderName | String |  |
+| Columns | Array |  |
+| SortOrder | Array |  |
+| Restriction | Array |  |
+| Entities | Array |  |
+| Page | Integer |  |
+| PageSize | Integer |  |
+| Options | String |  |
+| Context | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -95,13 +87,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ArchiveListResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
 | Rows | array | The actual rows, according to the paging info, of the result. See RowCount for a paging-independent count estimate |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -114,32 +106,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Rosenbaum Inc and Sons",
+  "ProviderName": "Barton, Kutch and Paucek",
   "Columns": [
-    "velit",
-    "enim"
+    "qui",
+    "eveniet"
   ],
   "SortOrder": [
     {
-      "Name": "Legros Group",
+      "Name": "White LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Legros Group",
+      "Name": "White LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Kuvalis, Mann and Sporer",
-      "Operator": "quis",
+      "Name": "Senger, Witting and Rice",
+      "Operator": "voluptatem",
       "Values": [
-        "aliquid",
-        "temporibus"
+        "placeat",
+        "sunt"
       ],
       "DisplayValues": [
-        "molestiae",
-        "cumque"
+        "veritatis",
+        "beatae"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -147,19 +139,19 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 936,
+      "InterParenthesis": 882,
       "InterOperator": "And",
       "UniqueHash": 492
     }
   ],
   "Entities": [
-    "minus",
-    "voluptatem"
+    "debitis",
+    "saepe"
   ],
-  "Page": 240,
-  "PageSize": 516,
-  "Options": "commodi",
-  "Context": "repellat"
+  "Page": 429,
+  "PageSize": 815,
+  "Options": "expedita",
+  "Context": "voluptate"
 }
 ```
 
@@ -170,26 +162,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 959,
+  "RowCount": 656,
   "Rows": [
     {
-      "EntityName": "Nader, Kunde and Funk",
-      "PrimaryKey": 101,
+      "EntityName": "Gorczany, Ward and Klein",
+      "PrimaryKey": 370,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "excepturi",
-          "TooltipHint": "laudantium",
-          "LinkHint": "alias"
+          "DisplayValue": "eos",
+          "TooltipHint": "laboriosam",
+          "LinkHint": "earum"
         }
       },
-      "LinkHint": "doloremque",
-      "StyleHint": "tempore",
+      "LinkHint": "culpa",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 513
+          "FieldType": "System.Int32",
+          "FieldLength": 48
         }
       }
     }
@@ -199,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 421
     }
   }
 }

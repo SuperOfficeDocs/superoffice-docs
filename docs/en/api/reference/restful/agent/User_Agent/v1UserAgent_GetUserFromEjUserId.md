@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetUserFromEjUserId
 Get user from ejUserId - used for eJournal Legacy Support.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/User/GetUserFromEjUserId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EjUserId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EjUserId | int32 |  |
+| EjUserId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,10 +69,10 @@ Response body: array
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
 | OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -92,7 +89,7 @@ Response body: array
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -105,7 +102,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 877
+  "EjUserId": 950
 }
 ```
 
@@ -117,14 +114,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 554,
-    "Name": "Pouros-Turner",
-    "Rank": 676,
-    "Tooltip": "laborum",
+    "AssociateId": 354,
+    "Name": "Koelpin Group",
+    "Rank": 159,
+    "Tooltip": "aliquam",
     "LicenseOwners": [
       {
-        "Name": "Hammes-Cole",
-        "Description": "Realigned zero defect software",
+        "Name": "Hansen, Gorczany and Emard",
+        "Description": "Right-sized composite toolset",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -138,13 +135,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 721
+            "FieldLength": 265
           }
         }
       },
       {
-        "Name": "Hammes-Cole",
-        "Description": "Realigned zero defect software",
+        "Name": "Hansen, Gorczany and Emard",
+        "Description": "Right-sized composite toolset",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -158,7 +155,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 721
+            "FieldLength": 265
           }
         }
       }
@@ -167,110 +164,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "quia",
-        "Tooltip": "culpa",
-        "Id": 781,
-        "Rank": 626,
+        "Value": "omnis",
+        "Tooltip": "numquam",
+        "Id": 287,
+        "Rank": 682,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 407
+            "FieldType": "System.String",
+            "FieldLength": 807
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2010-11-17T02:49:45.7028474+01:00",
-    "Lastlogout": "2014-06-09T02:49:45.7028474+02:00",
-    "EjUserId": 102,
-    "RequestSignature": "molestias",
+    "Lastlogin": "2008-04-03T17:37:19.6129779+02:00",
+    "Lastlogout": "2001-04-23T17:37:19.6129779+02:00",
+    "EjUserId": 680,
+    "RequestSignature": "aut",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
-    "IsOnTravel": false,
+    "IsOnTravel": true,
     "Credentials": [
       {
         "Type": null,
-        "Value": "velit",
-        "DisplayValue": "quia",
+        "Value": "ipsum",
+        "DisplayValue": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 167
+            "FieldLength": 870
           }
         }
       },
       {
         "Type": null,
-        "Value": "velit",
-        "DisplayValue": "quia",
+        "Value": "ipsum",
+        "DisplayValue": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 167
+            "FieldLength": 870
           }
         }
       }
     ],
-    "UserName": "Greenfelder LLC",
+    "UserName": "Strosin Inc and Sons",
     "TicketCategories": [
       {
-        "Id": 439,
-        "Name": "Muller, Boyer and Cummerata",
-        "ToolTip": "Ex omnis vero et ratione.",
-        "Deleted": true,
-        "Rank": 744,
-        "Type": "quis",
+        "Id": 412,
+        "Name": "Kuhlman Group",
+        "ToolTip": "Sunt molestiae omnis accusantium voluptatem natus odit.",
+        "Deleted": false,
+        "Rank": 811,
+        "Type": "omnis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aspernatur",
-        "ColorBlock": 169,
-        "ExtraInfo": "ipsam",
-        "StyleHint": "nihil",
-        "FullName": "Mr. Peggie Alexandrine Langworth Sr.",
+        "IconHint": "ex",
+        "ColorBlock": 735,
+        "ExtraInfo": "totam",
+        "StyleHint": "error",
+        "FullName": "Mr. Gina Ziemann IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 1001
+            "FieldLength": 153
           }
         }
       }
     ],
-    "NickName": "Jacobson-Wehner",
-    "WaitingForApproval": true,
+    "NickName": "Mitchell LLC",
+    "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "sapiente",
-      "ExtraFields2": "consectetur"
+      "ExtraFields1": "doloremque",
+      "ExtraFields2": "debitis"
     },
     "CustomFields": {
-      "CustomFields1": "rerum",
-      "CustomFields2": "ea"
+      "CustomFields1": "tenetur",
+      "CustomFields2": "dignissimos"
     },
     "PostSaveCommands": [
       {
-        "Name": "Harris-Greenholt",
-        "DisplayName": "Pouros Group",
-        "Description": "Extended demand-driven framework",
-        "ToolTip": "Quis ut quas officiis quia reprehenderit aut ut.",
+        "Name": "Gulgowski-Tillman",
+        "DisplayName": "Pagac Group",
+        "Description": "User-friendly systemic support",
+        "ToolTip": "Facilis earum voluptatibus molestiae repellat possimus.",
         "Actions": "Implicit",
-        "ActionData": "consequatur",
+        "ActionData": "enim",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 802
+            "FieldLength": 799
           }
         }
       }
@@ -280,7 +277,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldLength": 467
       }
     }
   }

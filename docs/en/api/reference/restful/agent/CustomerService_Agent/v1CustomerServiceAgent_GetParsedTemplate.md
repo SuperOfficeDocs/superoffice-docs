@@ -42,19 +42,18 @@ POST /api/v1/Agents/CustomerService/GetParsedTemplate?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ReplyTemplateId, LanguageId, PersonId, TicketId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ReplyTemplateId | int32 |  |
-| LanguageId | int32 |  |
-| PersonId | int32 |  |
-| TicketId | int32 |  |
+| ReplyTemplateId | Integer |  |
+| LanguageId | Integer |  |
+| PersonId | Integer |  |
+| TicketId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ReplyTemplateParsed
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body:
 | HtmlParsed | string | The HTML version of the reply template, and if applicable parsed with customer and ticket data |
 | Attachments | array | Meta data for the connected attachments |
 | Subject | string | The subject for this reply template |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,14 +79,14 @@ Response body:
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 860,
-  "LanguageId": 228,
-  "PersonId": 465,
-  "TicketId": 314
+  "ReplyTemplateId": 789,
+  "LanguageId": 970,
+  "PersonId": 165,
+  "TicketId": 491
 }
 ```
 
@@ -98,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 851,
-  "PlainParsed": "dolorum",
-  "HtmlParsed": "laborum",
+  "ReplyTemplateId": 990,
+  "PlainParsed": "molestiae",
+  "HtmlParsed": "vel",
   "Attachments": [
     {
-      "AttachmentId": 60,
-      "Name": "McGlynn, DuBuque and Hegmann",
-      "ContentType": "sed",
-      "AttSize": 604,
-      "InlineImage": false,
-      "ContentId": "veniam",
+      "AttachmentId": 12,
+      "Name": "Ritchie, Schuster and Wolf",
+      "ContentType": "delectus",
+      "AttSize": 876,
+      "InlineImage": true,
+      "ContentId": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 24
+          "FieldType": "System.String",
+          "FieldLength": 41
         }
       }
     }
   ],
-  "Subject": "et",
+  "Subject": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 115
+      "FieldType": "System.Int32",
+      "FieldLength": 947
     }
   }
 }

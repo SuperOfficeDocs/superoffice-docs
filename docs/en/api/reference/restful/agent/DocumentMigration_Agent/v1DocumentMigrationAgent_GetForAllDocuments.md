@@ -47,17 +47,16 @@ POST /api/v1/Agents/DocumentMigration/GetForAllDocuments?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentPluginId, IncludeEmails 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentPluginId | int32 |  |
-| IncludeEmails | bool |  |
+| DocumentPluginId | Integer |  |
+| IncludeEmails | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentMigrationItemList
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,12 +79,12 @@ Response body:
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 194,
-  "IncludeEmails": true
+  "DocumentPluginId": 68,
+  "IncludeEmails": false
 }
 ```
 
@@ -96,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 279,
-  "NumDocumentsAlreadyMigrated": 192,
+  "NumDocumentsOmitted": 352,
+  "NumDocumentsAlreadyMigrated": 154,
   "Documents": [
     {
-      "DocumentId": 816,
-      "ContactId": 437,
-      "PersonId": 29,
-      "SaleId": 614,
-      "ProjectId": 282,
-      "DocTmplId": 918,
-      "AssociateId": 942,
-      "UserGroupId": 350,
-      "VisibleForId": 338
+      "DocumentId": 778,
+      "ContactId": 513,
+      "PersonId": 738,
+      "SaleId": 657,
+      "ProjectId": 110,
+      "DocTmplId": 351,
+      "AssociateId": 165,
+      "UserGroupId": 756,
+      "VisibleForId": 226
     }
   ],
   "Associates": [
     {
-      "AssociateId": 938,
-      "EmailAddress": "elwin.kreiger@hermandare.name"
+      "AssociateId": 841,
+      "EmailAddress": "ivah@rippindaniel.uk"
     },
     {
-      "AssociateId": 938,
-      "EmailAddress": "elwin.kreiger@hermandare.name"
+      "AssociateId": 841,
+      "EmailAddress": "ivah@rippindaniel.uk"
     }
   ]
 }

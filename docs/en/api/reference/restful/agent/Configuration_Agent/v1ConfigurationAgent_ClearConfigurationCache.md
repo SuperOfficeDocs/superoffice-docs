@@ -40,18 +40,17 @@ POST /api/v1/Agents/Configuration/ClearConfigurationCache?$select=name,departmen
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Application, Instance, ForAllAssociates 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Application | string |  |
-| Instance | string |  |
-| ForAllAssociates | bool |  |
+| Application | String |  |
+| Instance | String |  |
+| ForAllAssociates | Boolean |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -59,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -68,12 +67,12 @@ Response body:
 POST /api/v1/Agents/Configuration/ClearConfigurationCache
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "ut",
-  "Instance": "et",
+  "Application": "aut",
+  "Instance": "molestias",
   "ForAllAssociates": false
 }
 ```

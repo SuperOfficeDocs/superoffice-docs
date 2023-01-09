@@ -38,17 +38,16 @@ POST /api/v1/Agents/Dash/SaveDashTiles?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DashboardId, DashTiles 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardId | int32 |  |
-| DashTiles | array |  |
+| DashboardId | Integer |  |
+| DashTiles | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,26 +64,26 @@ Response body:
 POST /api/v1/Agents/Dash/SaveDashTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 810,
+  "DashboardId": 355,
   "DashTiles": [
     {
-      "DashboardTileId": 215,
-      "DashboardId": 413,
-      "Height": 772,
-      "Width": 644,
-      "Rank": 386,
+      "DashboardTileId": 680,
+      "DashboardId": 941,
+      "Height": 774,
+      "Width": 523,
+      "Rank": 924,
       "DashTileDefinition": null
     },
     {
-      "DashboardTileId": 215,
-      "DashboardId": 413,
-      "Height": 772,
-      "Width": 644,
-      "Rank": 386,
+      "DashboardTileId": 680,
+      "DashboardId": 941,
+      "Height": 774,
+      "Width": 523,
+      "Rank": 924,
       "DashTileDefinition": null
     }
   ]

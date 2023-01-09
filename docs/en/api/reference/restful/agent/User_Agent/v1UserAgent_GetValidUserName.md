@@ -44,19 +44,18 @@ POST /api/v1/Agents/User/GetValidUserName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId, Type, PersonId, UserName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
-| Type | string |  |
-| PersonId | int32 |  |
-| UserName | string |  |
+| AssociateId | Integer |  |
+| Type | String |  |
+| PersonId | Integer |  |
+| UserName | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -73,14 +72,14 @@ Response body: string
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 938,
+  "AssociateId": 880,
   "Type": "AnonymousAssociate",
-  "PersonId": 990,
-  "UserName": "Block-Green"
+  "PersonId": 775,
+  "UserName": "Langworth Group"
 }
 ```
 
@@ -90,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Parker-Hane"
+"Hettinger LLC"
 ```

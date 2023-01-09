@@ -34,7 +34,7 @@ Calls the Dashboard agent service DeleteDashboardTile.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 DashboardTile deleted.
 
@@ -42,7 +42,7 @@ DashboardTile deleted.
 |----------------|-------------|
 | 204 | DashboardTile deleted. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request

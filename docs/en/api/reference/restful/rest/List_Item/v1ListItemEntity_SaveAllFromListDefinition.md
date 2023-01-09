@@ -36,21 +36,20 @@ Save all list items for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: items  
+## Request Body: items 
 
 The list items 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The identity of the list item |
-| Name | string | The name of the list item |
-| Tooltip | string | The tooltip of the list item |
-| Deleted | bool | True if the list item is marked as deleted |
-| UdListDefinitionId | int32 | The id of the list which this list item belongs to |
-| Rank | int32 | The rank of the list item |
+| Id | Integer | The identity of the list item |
+| Name | String | The name of the list item |
+| Tooltip | String | The tooltip of the list item |
+| Deleted | Boolean | True if the list item is marked as deleted |
+| UdListDefinitionId | Integer | The id of the list which this list item belongs to |
+| Rank | Integer | The rank of the list item |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -58,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body: array
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 250,
-    "Name": "Keebler-Graham",
-    "Tooltip": "sequi",
-    "Deleted": false,
-    "UdListDefinitionId": 310,
-    "Rank": 272
+    "Id": 293,
+    "Name": "Lesch-McClure",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 654,
+    "Rank": 465
   },
   {
-    "Id": 250,
-    "Name": "Keebler-Graham",
-    "Tooltip": "sequi",
-    "Deleted": false,
-    "UdListDefinitionId": 310,
-    "Rank": 272
+    "Id": 293,
+    "Name": "Lesch-McClure",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 654,
+    "Rank": 465
   }
 ]
 ```
@@ -108,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Rath Inc and Sons",
-    "Tooltip": "consectetur",
-    "Deleted": true,
-    "UdListDefinitionId": 357,
-    "Rank": 436,
+    "Id": 253,
+    "Name": "Bergstrom Group",
+    "Tooltip": "asperiores",
+    "Deleted": false,
+    "UdListDefinitionId": 829,
+    "Rank": 847,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldLength": 289
       }
     }
   }

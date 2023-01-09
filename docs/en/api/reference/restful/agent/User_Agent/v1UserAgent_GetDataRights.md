@@ -47,17 +47,16 @@ POST /api/v1/Agents/User/GetDataRights?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 RoleId, TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RoleId | int32 |  |
-| TableName | string |  |
+| RoleId | Integer |  |
+| TableName | String |  |
 
-
-## Response: object
+## Response:object
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -74,12 +73,12 @@ Response body: object
 POST /api/v1/Agents/User/GetDataRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 278,
-  "TableName": "Bahringer LLC"
+  "RoleId": 248,
+  "TableName": "Kulas-Streich"
 }
 ```
 
@@ -90,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "veniam",
-  "2": "accusantium"
+  "1": "ducimus",
+  "2": "aliquam"
 }
 ```

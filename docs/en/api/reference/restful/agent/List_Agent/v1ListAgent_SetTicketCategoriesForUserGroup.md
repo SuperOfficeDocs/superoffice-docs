@@ -38,17 +38,16 @@ POST /api/v1/Agents/List/SetTicketCategoriesForUserGroup?$select=name,department
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UserGroupId, CategoryIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UserGroupId | int32 |  |
-| CategoryIds | array |  |
+| UserGroupId | Integer |  |
+| CategoryIds | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,14 +64,14 @@ Response body:
 POST /api/v1/Agents/List/SetTicketCategoriesForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 152,
+  "UserGroupId": 563,
   "CategoryIds": [
-    602,
-    31
+    208,
+    962
   ]
 }
 ```

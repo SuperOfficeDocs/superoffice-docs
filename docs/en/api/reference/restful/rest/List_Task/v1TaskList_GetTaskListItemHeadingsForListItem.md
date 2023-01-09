@@ -48,7 +48,7 @@ GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 555,
-    "Name": "Altenwerth-Torphy",
-    "ToolTip": "Voluptatem qui voluptas ut neque.",
+    "Id": 169,
+    "Name": "Ullrich-Yost",
+    "ToolTip": "Qui esse possimus qui accusantium placeat.",
     "Deleted": false,
-    "Rank": 773,
-    "Type": "voluptatem",
-    "ColorBlock": 696,
-    "IconHint": "cum",
+    "Rank": 36,
+    "Type": "voluptatibus",
+    "ColorBlock": 532,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2011-07-26T02:49:52.5628301+02:00",
+    "LastChanged": "2015-09-16T17:37:40.3944705+02:00",
     "ChildItems": [
       {
-        "Id": 59,
-        "Name": "Gerlach-Paucek",
-        "ToolTip": "Necessitatibus fugiat odio sunt sit.",
-        "Deleted": false,
-        "Rank": 20,
-        "Type": "ipsum",
-        "ColorBlock": 949,
-        "IconHint": "aut",
+        "Id": 302,
+        "Name": "Hermiston-Hirthe",
+        "ToolTip": "Temporibus expedita.",
+        "Deleted": true,
+        "Rank": 390,
+        "Type": "reprehenderit",
+        "ColorBlock": 453,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2009-02-26T02:49:52.5628301+01:00",
+        "LastChanged": "2008-01-11T17:37:40.3944705+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "accusantium",
-        "Hidden": true,
-        "FullName": "Nathanael Delphia Reichert IV",
+        "ExtraInfo": "at",
+        "StyleHint": "fugiat",
+        "Hidden": false,
+        "FullName": "Maximilian White",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldLength": 367
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "repudiandae",
-    "Hidden": true,
-    "FullName": "Darwin Stoltenberg",
+    "ExtraInfo": "sint",
+    "StyleHint": "expedita",
+    "Hidden": false,
+    "FullName": "Josiane Dietrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldType": "System.String",
+        "FieldLength": 492
       }
     }
   }

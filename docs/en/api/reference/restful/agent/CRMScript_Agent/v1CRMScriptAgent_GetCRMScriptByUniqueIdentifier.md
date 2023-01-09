@@ -12,8 +12,6 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Get information about a script from a unique identifier
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UniqueIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UniqueIdentifier | string |  |
+| UniqueIdentifier | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Script
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +74,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,11 +83,11 @@ Response body:
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "dicta"
+  "UniqueIdentifier": "optio"
 }
 ```
 
@@ -101,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "enim",
-  "Name": "Harber Inc and Sons",
-  "Description": "Public-key 4th generation product",
-  "IncludeId": "consequatur",
-  "Source": "voluptas",
-  "Registered": "2017-05-22T02:49:44.0129044+02:00",
-  "RegisteredBy": "dolor",
-  "Updated": "2013-01-20T02:49:44.0129044+01:00",
-  "UpdatedBy": "perspiciatis",
-  "Path": "harum",
+  "UniqueIdentifier": "numquam",
+  "Name": "Monahan, Herzog and Erdman",
+  "Description": "Integrated zero tolerance infrastructure",
+  "IncludeId": "iusto",
+  "Source": "minus",
+  "Registered": "2009-09-08T17:37:17.3272446+02:00",
+  "RegisteredBy": "voluptatum",
+  "Updated": "2001-07-20T17:37:17.3272446+02:00",
+  "UpdatedBy": "veritatis",
+  "Path": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldLength": 173
     }
   }
 }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Get a trigger CRMScript.
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TriggerScriptUniqueId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TriggerScriptUniqueId | string |  |
+| TriggerScriptUniqueId | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TriggerScriptEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +74,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,11 +83,11 @@ Response body:
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "facilis"
+  "TriggerScriptUniqueId": "perspiciatis"
 }
 ```
 
@@ -101,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 291,
-  "Name": "Metz-Herzog",
+  "ScreenChooserId": 847,
+  "Name": "Hodkiewicz LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "dolorem",
+  "Enabled": true,
+  "UniqueIdentifier": "ad",
   "Source": "et",
-  "Registered": "2006-10-27T02:49:44.0129044+02:00",
-  "RegisteredAssociateId": 1001,
-  "Updated": "2010-10-16T02:49:44.0129044+02:00",
-  "UpdatedAssociateId": 145,
+  "Registered": "2002-03-27T17:37:17.3372453+01:00",
+  "RegisteredAssociateId": 709,
+  "Updated": "2004-01-13T17:37:17.3372453+01:00",
+  "UpdatedAssociateId": 858,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldType": "System.String",
+      "FieldLength": 526
     }
   }
 }

@@ -44,19 +44,18 @@ POST /api/v1/Agents/User/IsPasswordValid?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId, Type, PersonId, Password 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
-| Type | string |  |
-| PersonId | int32 |  |
-| Password | string |  |
+| AssociateId | Integer |  |
+| Type | String |  |
+| PersonId | Integer |  |
+| Password | String |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -73,14 +72,14 @@ Response body: bool
 POST /api/v1/Agents/User/IsPasswordValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 902,
+  "AssociateId": 401,
   "Type": "AnonymousAssociate",
-  "PersonId": 715,
-  "Password": "voluptas"
+  "PersonId": 260,
+  "Password": "dolores"
 }
 ```
 
@@ -90,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetUntrustedCredentials
 Get a set of credentials of a specified type for authenticated user.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/User/GetUntrustedCredentials?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Type | string |  |
+| Type | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +70,7 @@ Response body: array
 | SecretValue | string | Data stored encrypted in the db. Typically a password. Max 70 characters. |
 | PublicValue | string | Data stored unencrypted in the db.  Typically server and or username. Max 238 characters. |
 | IsActive | bool | Is this credentials currently active. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/User/GetUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "et"
+  "Type": "nemo"
 }
 ```
 
@@ -98,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2019-09-20T02:49:45.6715962+02:00",
-    "ValidTo": "2002-07-25T02:49:45.6715962+02:00",
-    "Comment": "dolor",
-    "SecretValue": "consequatur",
-    "PublicValue": "esse",
-    "IsActive": true,
+    "ValidFrom": "2012-07-29T17:37:19.5829762+02:00",
+    "ValidTo": "1996-01-10T17:37:19.5829762+01:00",
+    "Comment": "occaecati",
+    "SecretValue": "architecto",
+    "PublicValue": "qui",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 863
+        "FieldLength": 384
       }
     }
   }

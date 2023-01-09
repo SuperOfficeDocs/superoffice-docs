@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,13 +42,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreviewDashTile
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string | The name of the tile |
 | TileType | string | Dashboard tile type |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -57,7 +57,7 @@ Response body:
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -67,14 +67,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Muller, Dooley and Schmidt",
+  "Name": "McLaughlin, Bailey and Lindgren",
   "TileType": "Area",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 541
     }
   }
 }

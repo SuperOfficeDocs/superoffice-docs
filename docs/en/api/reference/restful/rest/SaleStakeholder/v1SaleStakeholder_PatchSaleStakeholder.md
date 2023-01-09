@@ -71,18 +71,17 @@ PATCH /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 SaleStakeholder  updated.
 
@@ -93,7 +92,7 @@ SaleStakeholder  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because SaleStakeholder has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: SaleStakeholderWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -116,7 +115,7 @@ Response body:
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -126,18 +125,18 @@ Response body:
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "accusamus",
+    "path": "ad",
     "value": {}
   },
   {
     "op": "add",
-    "path": "accusamus",
+    "path": "ad",
     "value": {}
   }
 ]
@@ -150,31 +149,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Ziemann LLC",
-  "Comment": "voluptate",
-  "StakeholderRoleId": 203,
-  "CountryId": 763,
-  "PersonId": 924,
-  "EmailDescription": "rosetta@baileywhite.us",
-  "EmailId": 335,
-  "EmailAddress": "shannon_shanahan@powlowski.ca",
-  "PhoneId": 874,
-  "ContactName": "Brakus Inc and Sons",
-  "ContactId": 614,
-  "SaleId": 558,
-  "Mrmrs": "occaecati",
-  "Firstname": "Marina",
-  "MiddleName": "Stracke, Wiza and West",
-  "Lastname": "Koss",
-  "SaleStakeholderId": 719,
-  "Rank": 140,
-  "Phone": "552.496.5773 x874",
+  "StakeholderRoleName": "Fahey LLC",
+  "Comment": "voluptatem",
+  "StakeholderRoleId": 409,
+  "CountryId": 26,
+  "PersonId": 502,
+  "EmailDescription": "chanel.rice@reichel.info",
+  "EmailId": 223,
+  "EmailAddress": "taurean_friesen@ledner.info",
+  "PhoneId": 135,
+  "ContactName": "Mayert, Considine and Heathcote",
+  "ContactId": 180,
+  "SaleId": 974,
+  "Mrmrs": "et",
+  "Firstname": "Johnson",
+  "MiddleName": "Funk-Koch",
+  "Lastname": "Carroll",
+  "SaleStakeholderId": 878,
+  "Rank": 920,
+  "Phone": "750-525-9002",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 247
     }
   },
   "_Links": {

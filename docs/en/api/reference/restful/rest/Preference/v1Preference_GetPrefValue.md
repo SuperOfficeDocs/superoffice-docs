@@ -39,7 +39,7 @@ Returns the value defined closest to the user. Calls the Preference agent servic
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -47,22 +47,22 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Preference
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Level | string | Preference level, using the standard enumerated type. Undefined is returned for preferences that do not have a current setting. |
 | RawValue | string | Preference value |
-| Specification |  | Preference specification, consisting of the section name and key name |
+| Specification | PreferenceSpec | Preference specification, consisting of the section name and key name |
 | DisplayValue | string | Display value, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter. |
 | DisplayTooltip | string | Display tooltip, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter. |
 | DisplayType | string | Display type, populated when asked for. |
-| TabOrder |  | Carrier object for TabOrder. Services for the TabOrder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
+| TabOrder | TabOrder | Carrier object for TabOrder. Services for the TabOrder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
 | TargetId | int32 | The id of the target row. The table it points at is specified by the preference type. |
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
 | UserPreferenceId | int32 | The id of the user preference |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +71,7 @@ Response body:
 GET /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,22 +82,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sapiente",
+  "RawValue": "reprehenderit",
   "Specification": null,
-  "DisplayValue": "ut",
-  "DisplayTooltip": "dicta",
+  "DisplayValue": "perspiciatis",
+  "DisplayTooltip": "est",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 458,
-  "PrefDescId": 817,
-  "TableName": "Christiansen, Vandervort and Prohaska",
-  "UserPreferenceId": 181,
+  "TargetId": 463,
+  "PrefDescId": 755,
+  "TableName": "Jast Group",
+  "UserPreferenceId": 423,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 458
+      "FieldType": "System.Int32",
+      "FieldLength": 373
     }
   }
 }

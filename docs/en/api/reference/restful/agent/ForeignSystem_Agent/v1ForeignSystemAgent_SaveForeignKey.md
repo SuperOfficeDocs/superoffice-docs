@@ -42,19 +42,18 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignKey?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ForeignKey, ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ForeignKey |  | Carrier object for ForeignKey. Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
+| ForeignKey | ForeignKey | Carrier object for ForeignKey. Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,9 +87,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "White LLC",
-  "DeviceName": "Wiza LLC",
-  "DeviceIdentifier": "voluptas"
+  "ApplicationName": "Kertzmann-Fadel",
+  "DeviceName": "Boehm LLC",
+  "DeviceIdentifier": "eligendi"
 }
 ```
 
@@ -101,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "itaque",
-  "Value": "voluptas",
-  "RecordId": 656,
-  "CreatedDate": "2017-08-09T02:49:44.561046+02:00",
-  "UpdatedDate": "2022-06-09T02:49:44.561046+02:00",
-  "UpdatedBy": "iure",
-  "CreatedBy": "minus",
-  "TableName": "Bogan Group",
+  "Key": "quia",
+  "Value": "porro",
+  "RecordId": 462,
+  "CreatedDate": "2002-02-04T17:37:18.1082417+01:00",
+  "UpdatedDate": "2016-04-09T17:37:18.1082417+02:00",
+  "UpdatedBy": "vitae",
+  "CreatedBy": "illum",
+  "TableName": "Wilderman, McCullough and Mitchell",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldType": "System.String",
+      "FieldLength": 736
     }
   }
 }

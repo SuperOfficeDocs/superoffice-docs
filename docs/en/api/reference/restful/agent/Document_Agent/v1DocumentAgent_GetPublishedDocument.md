@@ -42,16 +42,15 @@ POST /api/v1/Agents/Document/GetPublishedDocument?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
+| DocumentId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Document
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +82,7 @@ Response body:
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -96,7 +95,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 276
+  "DocumentId": 877
 }
 ```
 
@@ -107,32 +106,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 369,
-  "Attention": "dolores",
-  "Header": "temporibus",
-  "Name": "Hettinger-Leffler",
-  "OurRef": "maxime",
-  "YourRef": "ipsa",
-  "Description": "Triple-buffered foreground focus group",
-  "DocumentTemplate": "sed",
+  "DocumentId": 234,
+  "Attention": "consequatur",
+  "Header": "suscipit",
+  "Name": "Bosco-Schuster",
+  "OurRef": "qui",
+  "YourRef": "qui",
+  "Description": "Compatible didactic algorithm",
+  "DocumentTemplate": "adipisci",
   "IsPublished": false,
-  "PersonId": 634,
-  "PersonFullName": "Bobbie Schaefer",
-  "AssociateFullName": "Roberta Howe IV",
-  "ContactId": 455,
-  "ContactName": "Corwin, Greenfelder and Oberbrunner",
-  "ProjectId": 845,
-  "ProjectName": "Miller-Strosin",
-  "AssociateId": 11,
-  "Snum": 327,
-  "SaleId": 470,
-  "SaleName": "Bechtelar Inc and Sons",
+  "PersonId": 855,
+  "PersonFullName": "Miss Carissa Swift DDS",
+  "AssociateFullName": "Dr. Merlin Krajcik",
+  "ContactId": 497,
+  "ContactName": "Grady-Klein",
+  "ProjectId": 569,
+  "ProjectName": "Kuhn-Hansen",
+  "AssociateId": 389,
+  "Snum": 474,
+  "SaleId": 29,
+  "SaleName": "Skiles, Smitham and Bogan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldType": "System.String",
+      "FieldLength": 752
     }
   }
 }

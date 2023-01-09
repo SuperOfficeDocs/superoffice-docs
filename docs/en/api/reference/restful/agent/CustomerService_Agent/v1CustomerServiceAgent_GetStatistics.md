@@ -42,16 +42,15 @@ POST /api/v1/Agents/CustomerService/GetStatistics?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Functions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Functions | array |  |
+| Functions | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,14 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Label | string | The label for the data set |
 | Values | array | Values in this set |
 | Description | string | Tooltip for data value |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,8 +79,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "facilis",
-    "minus"
+    "consequatur",
+    "animi"
   ]
 }
 ```
@@ -94,82 +93,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "autem",
+    "Label": "et",
     "Values": [
       {
-        "Label": "facilis",
-        "Value": 28036.764,
-        "Description": "Reverse-engineered bottom-line solution",
+        "Label": "libero",
+        "Value": 17152.381999999998,
+        "Description": "Polarised demand-driven groupware",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 965
+            "FieldLength": 844
           }
         }
       },
       {
-        "Label": "facilis",
-        "Value": 28036.764,
-        "Description": "Reverse-engineered bottom-line solution",
+        "Label": "libero",
+        "Value": 17152.381999999998,
+        "Description": "Polarised demand-driven groupware",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 965
+            "FieldLength": 844
           }
         }
       }
     ],
-    "Description": "Front-line foreground groupware",
+    "Description": "Focused holistic utilisation",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldLength": 720
       }
     }
   },
   {
-    "Label": "autem",
+    "Label": "et",
     "Values": [
       {
-        "Label": "facilis",
-        "Value": 28036.764,
-        "Description": "Reverse-engineered bottom-line solution",
+        "Label": "libero",
+        "Value": 17152.381999999998,
+        "Description": "Polarised demand-driven groupware",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 965
+            "FieldLength": 844
           }
         }
       },
       {
-        "Label": "facilis",
-        "Value": 28036.764,
-        "Description": "Reverse-engineered bottom-line solution",
+        "Label": "libero",
+        "Value": 17152.381999999998,
+        "Description": "Polarised demand-driven groupware",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 965
+            "FieldLength": 844
           }
         }
       }
     ],
-    "Description": "Front-line foreground groupware",
+    "Description": "Focused holistic utilisation",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldLength": 720
       }
     }
   }

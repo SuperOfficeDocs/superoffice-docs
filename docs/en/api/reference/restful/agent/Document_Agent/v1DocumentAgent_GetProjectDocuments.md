@@ -44,19 +44,18 @@ POST /api/v1/Agents/Document/GetProjectDocuments?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| ProjectId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,14 +96,14 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 39,
-  "StartTime": "1999-12-25T02:49:44.0910111+01:00",
-  "EndTime": "2001-10-02T02:49:44.0910111+02:00",
-  "Count": 275
+  "ProjectId": 782,
+  "StartTime": "1998-03-22T17:37:17.4352422+01:00",
+  "EndTime": "2011-08-29T17:37:17.4352422+02:00",
+  "Count": 352
 }
 ```
 
@@ -116,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 544,
-    "Attention": "fugit",
-    "Header": "illo",
-    "Name": "Zemlak, Willms and Rogahn",
-    "OurRef": "officiis",
-    "YourRef": "aspernatur",
-    "Description": "Cross-group cohesive archive",
-    "DocumentTemplate": "aliquam",
+    "DocumentId": 151,
+    "Attention": "sed",
+    "Header": "iusto",
+    "Name": "Gerhold-Wintheiser",
+    "OurRef": "a",
+    "YourRef": "eum",
+    "Description": "Ergonomic incremental help-desk",
+    "DocumentTemplate": "et",
     "IsPublished": false,
-    "PersonId": 251,
-    "PersonFullName": "Johnathan Schimmel",
-    "AssociateFullName": "Myrtis Steuber",
-    "ContactId": 500,
-    "ContactName": "Marquardt-Daugherty",
-    "ProjectId": 661,
-    "ProjectName": "Goodwin, Hilpert and DuBuque",
-    "AssociateId": 998,
-    "Snum": 687,
-    "SaleId": 898,
-    "SaleName": "Weissnat, Legros and Beier",
+    "PersonId": 954,
+    "PersonFullName": "Mrs. Giuseppe Margot Spinka DVM",
+    "AssociateFullName": "Tavares Hand",
+    "ContactId": 608,
+    "ContactName": "Dooley Group",
+    "ProjectId": 826,
+    "ProjectName": "Klein Group",
+    "AssociateId": 167,
+    "Snum": 619,
+    "SaleId": 976,
+    "SaleName": "Ebert Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldLength": 884
       }
     }
   }

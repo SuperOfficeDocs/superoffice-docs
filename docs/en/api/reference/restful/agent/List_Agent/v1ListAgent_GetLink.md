@@ -25,7 +25,7 @@ Gets a Link object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLink?linkId=262
+POST /api/v1/Agents/List/GetLink?linkId=194
 POST /api/v1/Agents/List/GetLink?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetLink?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Link
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +61,7 @@ Response body:
 | Description | string | Link description. |
 | ExtraInfo | string | Extrainfo for link. Use for information that does not have a primary key |
 | LinkId | int32 | Primary key |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -70,7 +70,7 @@ Response body:
 POST /api/v1/Agents/List/GetLink
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Hoeger, Daniel and Dicki",
-  "Id": 560,
-  "Description": "Persistent neutral software",
-  "ExtraInfo": "neque",
-  "LinkId": 140,
+  "EntityName": "Berge, Kuhlman and Sipes",
+  "Id": 130,
+  "Description": "Networked hybrid framework",
+  "ExtraInfo": "fugiat",
+  "LinkId": 305,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldType": "System.String",
+      "FieldLength": 26
     }
   }
 }

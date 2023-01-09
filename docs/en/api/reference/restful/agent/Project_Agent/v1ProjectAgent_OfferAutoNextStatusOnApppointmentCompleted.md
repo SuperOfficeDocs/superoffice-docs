@@ -42,16 +42,15 @@ POST /api/v1/Agents/Project/OfferAutoNextStatusOnApppointmentCompleted?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AppointmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AppointmentId | int32 |  |
+| AppointmentId | Integer |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -68,11 +67,11 @@ Response body: bool
 POST /api/v1/Agents/Project/OfferAutoNextStatusOnApppointmentCompleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 205
+  "AppointmentId": 852
 }
 ```
 

@@ -48,7 +48,7 @@ GET /api/v1/Pricelist/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 PriceList found.
 
@@ -57,7 +57,7 @@ PriceList found.
 | 200 | PriceList found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: PriceListWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +71,7 @@ Response body:
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -81,7 +81,7 @@ Response body:
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,22 +91,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 189,
-  "ERPPriceListKey": "pariatur",
-  "QuoteConnectionId": 940,
-  "Name": "Oberbrunner, Wuckert and Haag",
-  "Description": "Optional assymetric budgetary management",
-  "Currency": "molestias",
-  "CurrencyName": "Lehner, Hodkiewicz and Bruen",
-  "ValidFrom": "1997-05-11T02:49:52.3284476+02:00",
-  "ValidTo": "1997-09-13T02:49:52.3284476+02:00",
+  "PriceListId": 314,
+  "ERPPriceListKey": "provident",
+  "QuoteConnectionId": 192,
+  "Name": "Schroeder, Konopelski and Kuhlman",
+  "Description": "Organic local service-desk",
+  "Currency": "ducimus",
+  "CurrencyName": "Hessel Inc and Sons",
+  "ValidFrom": "2003-07-25T17:37:40.1185003+02:00",
+  "ValidTo": "2002-04-02T17:37:40.1185003+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldType": "System.String",
+      "FieldLength": 90
     }
   },
   "_Links": {

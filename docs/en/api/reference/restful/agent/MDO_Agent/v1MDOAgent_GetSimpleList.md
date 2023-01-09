@@ -42,16 +42,15 @@ POST /api/v1/Agents/MDO/GetSimpleList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
+| Name | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,11 +83,11 @@ Response body: array
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Anderson Group"
+  "Name": "Bode LLC"
 }
 ```
 
@@ -100,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 915,
-    "Name": "Gutmann-Rosenbaum",
-    "ToolTip": "Sed sed id quibusdam.",
-    "Deleted": true,
-    "Rank": 467,
-    "Type": "mollitia",
+    "Id": 713,
+    "Name": "Wiza, Gorczany and Schinner",
+    "ToolTip": "Vel esse minima amet et.",
+    "Deleted": false,
+    "Rank": 596,
+    "Type": "recusandae",
     "ChildItems": [
       {
-        "Id": 523,
-        "Name": "Kassulke LLC",
-        "ToolTip": "Atque natus quaerat.",
-        "Deleted": true,
-        "Rank": 916,
-        "Type": "ab",
+        "Id": 417,
+        "Name": "Ebert, Lynch and Mills",
+        "ToolTip": "Cumque aut ut ad quis modi inventore aliquam.",
+        "Deleted": false,
+        "Rank": 547,
+        "Type": "eum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repudiandae",
-        "ColorBlock": 603,
-        "ExtraInfo": "quo",
-        "StyleHint": "pariatur",
-        "FullName": "Stephon Halvorson",
+        "IconHint": "consequuntur",
+        "ColorBlock": 77,
+        "ExtraInfo": "vel",
+        "StyleHint": "soluta",
+        "FullName": "Asia Robel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 2
+            "FieldType": "System.Int32",
+            "FieldLength": 828
           }
         }
       }
     ],
-    "IconHint": "eligendi",
-    "ColorBlock": 182,
-    "ExtraInfo": "libero",
-    "StyleHint": "iusto",
-    "FullName": "Lelah Morar IV",
+    "IconHint": "rerum",
+    "ColorBlock": 344,
+    "ExtraInfo": "earum",
+    "StyleHint": "adipisci",
+    "FullName": "Dr. Fritz Miller Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldType": "System.String",
+        "FieldLength": 835
       }
     }
   }

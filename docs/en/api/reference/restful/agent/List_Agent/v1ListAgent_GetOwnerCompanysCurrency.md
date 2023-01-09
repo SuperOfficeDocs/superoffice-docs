@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/GetOwnerCompanysCurrency?$select=name,department,catego
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,14 +50,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Currency
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 | The List Item Id |
 | Value | string | The List Item Value |
 | Tooltip | string | The List Item Tooltip |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 776,
-  "Value": "blanditiis",
-  "Tooltip": "consequatur",
+  "Id": 660,
+  "Value": "est",
+  "Tooltip": "modi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 514
+      "FieldType": "System.Int32",
+      "FieldLength": 898
     }
   }
 }

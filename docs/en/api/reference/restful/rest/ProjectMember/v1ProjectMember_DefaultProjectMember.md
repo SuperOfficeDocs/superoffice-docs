@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectMember
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +67,7 @@ Response body:
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 747,
-  "ContactId": 831,
-  "ProjectId": 144,
-  "ContactName": "Bruen-Hartmann",
+  "ProjectmemberId": 571,
+  "ContactId": 595,
+  "ProjectId": 862,
+  "ContactName": "Terry, Sipes and Raynor",
   "ContactDepartment": "",
-  "ProjectName": "Pollich-O'Kon",
-  "EmailId": 316,
-  "EmailAddress": "lewis@zulaufgoldner.uk",
-  "CountryId": 268,
-  "Firstname": "Elmira",
-  "MiddleName": "Steuber-Crist",
-  "Lastname": "Blick",
-  "PersonId": 878,
-  "Mrmrs": "beatae",
-  "ProjectMemberTypeName": "Wuckert-Spencer",
-  "Phone": "(282)379-6428",
-  "PhoneId": 354,
-  "ProjectMemberTypeId": 366,
-  "EmailAddressName": "meaghan.bergnaum@deckowgoldner.com",
-  "Comment": "quia",
-  "FullName": "Zola O'Conner",
+  "ProjectName": "Vandervort-Schneider",
+  "EmailId": 83,
+  "EmailAddress": "nils@ullrich.name",
+  "CountryId": 420,
+  "Firstname": "Evert",
+  "MiddleName": "Spinka, Oberbrunner and Padberg",
+  "Lastname": "Jacobson",
+  "PersonId": 81,
+  "Mrmrs": "maiores",
+  "ProjectMemberTypeName": "Metz, Hudson and Block",
+  "Phone": "(250)045-8601 x107",
+  "PhoneId": 260,
+  "ProjectMemberTypeId": 46,
+  "EmailAddressName": "arely@wisozkrath.biz",
+  "Comment": "illum",
+  "FullName": "Henriette Dickinson MD",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldType": "System.String",
+      "FieldLength": 189
     }
   }
 }

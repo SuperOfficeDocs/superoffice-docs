@@ -42,17 +42,16 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue?$selec
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PrefDescId, PrefValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PrefDescId | int32 |  |
-| PrefValue | string |  |
+| PrefDescId | Integer |  |
+| PrefValue | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreferenceDescriptionLine
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body:
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,12 +78,12 @@ Response body:
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 588,
-  "PrefValue": "aliquam"
+  "PrefDescId": 572,
+  "PrefValue": "asperiores"
 }
 ```
 
@@ -95,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 861,
-  "PrefDescId": 450,
-  "PrefValue": "esse",
-  "PrefShowValue": "a",
-  "Description": "Extended empowering frame",
+  "PrefDescLineId": 680,
+  "PrefDescId": 659,
+  "PrefValue": "laborum",
+  "PrefShowValue": "nisi",
+  "Description": "Up-sized zero tolerance productivity",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldType": "System.String",
+      "FieldLength": 976
     }
   }
 }

@@ -32,25 +32,24 @@ Updates the existing HierarchyEntity or creates a new HierarchyEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The HierarchyEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HierarchyId | int32 | The primary key (auto-incremented) |
-| Domain | string | Domain seperating the different hierarchy |
-| Name | string | Name of this hierarchy folder. |
-| Fullname | string | The full name of this category, i.e. Foo/bar/test. |
-| ParentId | int32 | Parent table |
-| Children | array | Sub-items, if any. |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
+| HierarchyId | Integer | The primary key (auto-incremented) |
+| Domain | String | Domain seperating the different hierarchy |
+| Name | String | Name of this hierarchy folder. |
+| Fullname | String | The full name of this category, i.e. Foo/bar/test. |
+| ParentId | Integer | Parent table |
+| Children | Array | Sub-items, if any. |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -58,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: HierarchyEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,36 +80,36 @@ Response body:
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 489,
+  "HierarchyId": 138,
   "Domain": "Dashboards",
-  "Name": "Kiehn, Friesen and Kirlin",
-  "Fullname": "molestiae",
-  "ParentId": 137,
+  "Name": "Nicolas LLC",
+  "Fullname": "veritatis",
+  "ParentId": 944,
   "Children": [
     {
-      "HierarchyId": 902,
+      "HierarchyId": 363,
       "Domain": "Dashboards",
-      "Name": "Zulauf, Friesen and Bauch",
-      "Fullname": "blanditiis",
-      "ParentId": 315,
+      "Name": "Schaefer-Hartmann",
+      "Fullname": "fuga",
+      "ParentId": 854,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-07-21T02:49:44.6860468+02:00",
-      "RegisteredAssociateId": 619,
-      "Updated": "1998-12-20T02:49:44.6860468+01:00",
-      "UpdatedAssociateId": 561
+      "Registered": "2004-08-24T17:37:18.276242+02:00",
+      "RegisteredAssociateId": 965,
+      "Updated": "2009-08-17T17:37:18.276242+02:00",
+      "UpdatedAssociateId": 716
     }
   ],
-  "Registered": "2011-09-06T02:49:44.6860468+02:00",
-  "RegisteredAssociateId": 542,
-  "Updated": "2018-03-18T02:49:44.6860468+01:00",
-  "UpdatedAssociateId": 281
+  "Registered": "2014-03-17T17:37:18.276242+01:00",
+  "RegisteredAssociateId": 402,
+  "Updated": "2019-04-13T17:37:18.276242+02:00",
+  "UpdatedAssociateId": 625
 }
 ```
 
@@ -121,46 +120,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 536,
+  "HierarchyId": 467,
   "Domain": "Dashboards",
-  "Name": "Bailey LLC",
-  "Fullname": "quia",
-  "ParentId": 24,
+  "Name": "Friesen, Keeling and Collins",
+  "Fullname": "expedita",
+  "ParentId": 415,
   "Children": [
     {
-      "HierarchyId": 139,
+      "HierarchyId": 788,
       "Domain": "Dashboards",
-      "Name": "Bartell Group",
-      "Fullname": "nemo",
-      "ParentId": 883,
+      "Name": "Pouros LLC",
+      "Fullname": "corrupti",
+      "ParentId": 644,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-09-20T02:49:44.6860468+02:00",
-      "RegisteredAssociateId": 293,
-      "Updated": "1998-07-15T02:49:44.6860468+02:00",
-      "UpdatedAssociateId": 469,
+      "Registered": "2012-02-12T17:37:18.2772429+01:00",
+      "RegisteredAssociateId": 447,
+      "Updated": "2007-06-08T17:37:18.2772429+02:00",
+      "UpdatedAssociateId": 574,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 807
+          "FieldType": "System.String",
+          "FieldLength": 505
         }
       }
     }
   ],
-  "Registered": "1998-12-15T02:49:44.6860468+01:00",
-  "RegisteredAssociateId": 475,
-  "Updated": "2022-02-27T02:49:44.6860468+01:00",
-  "UpdatedAssociateId": 603,
+  "Registered": "2013-12-07T17:37:18.2772429+01:00",
+  "RegisteredAssociateId": 337,
+  "Updated": "2000-09-15T17:37:18.2772429+02:00",
+  "UpdatedAssociateId": 197,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 72
     }
   }
 }

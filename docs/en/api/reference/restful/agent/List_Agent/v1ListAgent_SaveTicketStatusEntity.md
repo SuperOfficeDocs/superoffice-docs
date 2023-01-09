@@ -32,22 +32,21 @@ Updates the existing TicketStatusEntity or creates a new TicketStatusEntity if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The TicketStatusEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketStatusId | int32 | The primary key (auto-incremented) |
-| Name | string | Name of user defined ticket status |
-| Status | string | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
-| TimeCounter | string | Which field in ticket we count time spent on (queue, internal, external) |
-| NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
-| IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
-| UsedInQueue | bool | If set, status is used in GetNext calculations |
+| TicketStatusId | Integer | The primary key (auto-incremented) |
+| Name | String | Name of user defined ticket status |
+| Status | String | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
+| TimeCounter | String | Which field in ticket we count time spent on (queue, internal, external) |
+| NoEmailReopen | Boolean | Whether inbound emails can reopen requests with this status or not |
+| IsDefault | Boolean | Indicates if status is default one as there might be more than one status with same internal status |
+| UsedInQueue | Boolean | If set, status is used in GetNext calculations |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -55,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketStatusEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body:
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
 | IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
 | UsedInQueue | bool | If set, status is used in GetNext calculations |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,11 +78,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 700,
-  "Name": "Harvey LLC",
+  "TicketStatusId": 614,
+  "Name": "Ebert Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
   "UsedInQueue": false
 }
@@ -96,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 154,
-  "Name": "Romaguera, Schinner and Sawayn",
+  "TicketStatusId": 758,
+  "Name": "Brekke, Wilderman and Schamberger",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": false,
-  "UsedInQueue": true,
+  "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 368
     }
   }
 }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnProject?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
+| ProjectId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BlobEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,10 +72,10 @@ Response body:
 | OriginalSize | int32 | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 467
+  "ProjectId": 704
 }
 ```
 
@@ -100,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 340,
-  "BlobSize": 879,
-  "Description": "Customer-focused tangible encoding",
-  "ExtraInfo": "sequi",
-  "IsEncrypted": true,
+  "BlobId": 146,
+  "BlobSize": 294,
+  "Description": "Synergistic disintermediate concept",
+  "ExtraInfo": "atque",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "magnam",
-  "OriginalSize": 351,
-  "CreatedDate": "2004-02-23T02:49:43.7160326+01:00",
-  "UpdatedDate": "1997-08-27T02:49:43.7160326+02:00",
+  "MimeType": "sunt",
+  "OriginalSize": 488,
+  "CreatedDate": "2002-06-26T17:37:16.9182405+02:00",
+  "UpdatedDate": "2001-08-01T17:37:16.9182405+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "vel",
+  "ConceptualType": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 954
+      "FieldType": "System.Int32",
+      "FieldLength": 856
     }
   }
 }

@@ -44,20 +44,19 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByType?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, StartTime, EndTime, Count, AppointmentType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| AppointmentType | string |  |
+| ContactId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| AppointmentType | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -127,14 +126,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 525,
-  "StartTime": "2014-08-01T02:49:43.637906+02:00",
-  "EndTime": "2005-10-25T02:49:43.637906+02:00",
-  "Count": 348,
+  "ContactId": 412,
+  "StartTime": "2006-04-07T17:37:16.607245+02:00",
+  "EndTime": "2016-05-21T17:37:16.607245+02:00",
+  "Count": 668,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -147,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 836,
-    "StartDate": "2009-08-30T02:49:43.637906+02:00",
-    "EndDate": "2007-11-01T02:49:43.637906+01:00",
+    "AppointmentId": 320,
+    "StartDate": "2017-03-24T17:37:16.6082446+01:00",
+    "EndDate": "2017-03-24T17:37:16.6082446+01:00",
     "Type": "BookingForChecklist",
-    "Task": "laudantium",
-    "AssociateFullName": "Earlene Koelpin Jr.",
-    "ContactName": "Walsh, Lowe and Shields",
-    "Description": "Organized bi-directional function",
-    "PersonFullName": "Whitney Pagac",
-    "PersonId": 188,
-    "ContactId": 435,
-    "ProjectId": 29,
-    "ProjectName": "Rosenbaum Group",
+    "Task": "necessitatibus",
+    "AssociateFullName": "Maureen Quitzon",
+    "ContactName": "Emmerich Inc and Sons",
+    "Description": "Re-engineered fresh-thinking capacity",
+    "PersonFullName": "Miss Talon Stoltenberg",
+    "PersonId": 614,
+    "ContactId": 789,
+    "ProjectId": 510,
+    "ProjectName": "Jones, Willms and Sanford",
     "IsPublished": false,
-    "AssociateId": 476,
-    "ColorIndex": 705,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 675,
+    "ColorIndex": 22,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 709,
-    "PriorityName": "Morar LLC",
+    "PriorityId": 775,
+    "PriorityName": "Langworth Group",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "1997-07-02T02:49:43.637906+02:00",
+    "ActiveDate": "2011-10-11T17:37:16.6082446+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-01-04T02:49:43.637906+01:00",
-    "RecurringEndDate": "2013-08-12T02:49:43.637906+02:00",
-    "MotherId": 415,
-    "AssignedBy": 707,
-    "AssignedByFullName": "Elody Weber",
-    "RejectReason": "",
-    "Location": "laboriosam",
-    "AlarmLeadTime": "officiis",
-    "SaleId": 561,
-    "SaleName": "Mills-Powlowski",
-    "AssociateName": "Shanahan Inc and Sons",
-    "CreatedDate": "2021-07-23T02:49:43.637906+02:00",
-    "CreatedBy": "in",
-    "CreatedByFullName": "Miss Ezequiel Kitty Bednar V",
-    "CreatedByAssociateId": 281,
+    "RecurringStartDate": "2020-01-22T17:37:16.6082446+01:00",
+    "RecurringEndDate": "2020-10-03T17:37:16.6082446+02:00",
+    "MotherId": 652,
+    "AssignedBy": 721,
+    "AssignedByFullName": "Ariel Bradtke PhD",
+    "RejectReason": "incubate front-end initiatives",
+    "Location": "pariatur",
+    "AlarmLeadTime": "veniam",
+    "SaleId": 797,
+    "SaleName": "Carter Group",
+    "AssociateName": "White, Stracke and Marquardt",
+    "CreatedDate": "2000-12-10T17:37:16.6092445+01:00",
+    "CreatedBy": "illum",
+    "CreatedByFullName": "Mr. Ludwig Hane",
+    "CreatedByAssociateId": 734,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -201,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldLength": 416
       }
     }
   }

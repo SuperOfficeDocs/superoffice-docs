@@ -42,16 +42,15 @@ POST /api/v1/Agents/Targets/GetTargetGroupIds?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TargetDimensionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TargetDimensionId | int32 |  |
+| TargetDimensionId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 
 ## Sample request
@@ -72,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 332
+  "TargetDimensionId": 988
 }
 ```
 
@@ -83,7 +82,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  178,
-  112
+  644,
+  416
 ]
 ```

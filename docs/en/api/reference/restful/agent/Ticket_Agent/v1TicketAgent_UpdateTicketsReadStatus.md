@@ -42,17 +42,16 @@ POST /api/v1/Agents/Ticket/UpdateTicketsReadStatus?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TicketIds, NewStatus 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketIds | array |  |
-| NewStatus | string |  |
+| TicketIds | Array |  |
+| NewStatus | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 
 ## Sample request
@@ -69,13 +68,13 @@ Response body: array
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    106,
-    428
+    632,
+    935
   ],
   "NewStatus": "Green"
 }
@@ -88,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  816,
-  320
+  779,
+  453
 ]
 ```

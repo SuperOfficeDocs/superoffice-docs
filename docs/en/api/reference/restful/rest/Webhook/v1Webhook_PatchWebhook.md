@@ -74,18 +74,17 @@ PATCH /api/v1/Webhook/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 Webhook  updated.
 
@@ -96,7 +95,7 @@ Webhook  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because Webhook has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: WebhookWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -110,9 +109,9 @@ Response body:
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociate |  | The user that created the webhook. |
+| RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociate |  | The user that last updated the webhook. |
+| UpdatedAssociate | Associate | The user that last updated the webhook. |
 | _Links | object |  |
 
 ## Sample request
@@ -121,18 +120,18 @@ Response body:
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "repellat",
+    "path": "aspernatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "repellat",
+    "path": "aspernatur",
     "value": {}
   }
 ]
@@ -145,26 +144,26 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 532,
-  "Name": "Will, Nitzsche and Ratke",
+  "WebhookId": 833,
+  "Name": "McGlynn-Hettinger",
   "Events": [
-    "dolorum",
-    "et"
+    "repellendus",
+    "dicta"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dolorem",
+  "Secret": "voluptatem",
   "State": "Active",
-  "Type": "quia",
+  "Type": "et",
   "Headers": {
-    "Headers1": "exercitationem",
-    "Headers2": "rerum"
+    "Headers1": "optio",
+    "Headers2": "rem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1995-07-26T02:49:51.8596935+02:00",
+  "Registered": "2020-07-05T17:37:39.6084366+02:00",
   "RegisteredAssociate": null,
-  "Updated": "1998-08-01T02:49:51.8596935+02:00",
+  "Updated": "2006-03-09T17:37:39.6094309+01:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",

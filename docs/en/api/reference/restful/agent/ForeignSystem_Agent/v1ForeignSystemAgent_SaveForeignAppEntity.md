@@ -32,22 +32,21 @@ Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ForeignAppEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ForeignAppId | int32 | Primary key |
-| Name | string | Name of foreign application |
-| CreatedDate | date-time | Registered when  in UTC. |
-| UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the foreign application. |
-| UpdatedBy |  | The person that last updated this foreign application. |
-| Devices | array | The devices that belong to this foreign app. |
+| ForeignAppId | Integer | Primary key |
+| Name | String | Name of foreign application |
+| CreatedDate | String | Registered when  in UTC. |
+| UpdatedDate | String | Last updated when  in UTC. |
+| CreatedBy | Associate | The person that created the foreign application. |
+| UpdatedBy | Associate | The person that last updated this foreign application. |
+| Devices | Array | The devices that belong to this foreign app. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -55,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignAppEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,10 +62,10 @@ Response body:
 | Name | string | Name of foreign application |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the foreign application. |
-| UpdatedBy |  | The person that last updated this foreign application. |
+| CreatedBy | Associate | The person that created the foreign application. |
+| UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,27 +74,27 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 620,
-  "Name": "Ernser LLC",
-  "CreatedDate": "2006-06-16T02:49:44.5454229+02:00",
-  "UpdatedDate": "2011-01-25T02:49:44.5454229+01:00",
+  "ForeignAppId": 22,
+  "Name": "Stiedemann Group",
+  "CreatedDate": "2005-01-14T17:37:18.0902432+01:00",
+  "UpdatedDate": "2009-10-07T17:37:18.0902432+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 409,
-      "Name": "Bruen-Tillman",
-      "CreatedDate": "2000-06-14T02:49:44.5454229+02:00",
-      "UpdatedDate": "2012-07-09T02:49:44.5454229+02:00",
-      "AssociateFullName": "Marvin Macejkovic",
-      "CreatedBy": "et",
-      "UpdatedBy": "dolores",
-      "DeviceIdentifier": "culpa",
-      "ForeignAppId": 611
+      "ForeignDeviceId": 81,
+      "Name": "Yundt-Dach",
+      "CreatedDate": "2000-10-18T17:37:18.0912425+02:00",
+      "UpdatedDate": "2017-06-01T17:37:18.0912425+02:00",
+      "AssociateFullName": "Holden Weissnat",
+      "CreatedBy": "quasi",
+      "UpdatedBy": "ab",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 225
     }
   ]
 }
@@ -108,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 593,
-  "Name": "Gleichner-Hintz",
-  "CreatedDate": "2019-07-19T02:49:44.5454229+02:00",
-  "UpdatedDate": "2012-06-28T02:49:44.5454229+02:00",
+  "ForeignAppId": 228,
+  "Name": "Cronin, Jacobi and Bartoletti",
+  "CreatedDate": "2007-11-22T17:37:18.0922443+01:00",
+  "UpdatedDate": "2009-09-19T17:37:18.0922443+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 798,
-      "Name": "Simonis-Rutherford",
-      "CreatedDate": "2013-04-04T02:49:44.5454229+02:00",
-      "UpdatedDate": "2000-02-20T02:49:44.5454229+01:00",
-      "AssociateFullName": "Ms. Lamont Tyra Rosenbaum",
-      "CreatedBy": "officia",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "quisquam",
-      "ForeignAppId": 614,
+      "ForeignDeviceId": 728,
+      "Name": "Ruecker-Ward",
+      "CreatedDate": "2004-01-31T17:37:18.0932444+01:00",
+      "UpdatedDate": "2013-04-24T17:37:18.0932444+02:00",
+      "AssociateFullName": "Turner Kutch",
+      "CreatedBy": "quae",
+      "UpdatedBy": "cumque",
+      "DeviceIdentifier": "nisi",
+      "ForeignAppId": 964,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 961
+          "FieldLength": 795
         }
       }
     }
@@ -140,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 299
     }
   }
 }

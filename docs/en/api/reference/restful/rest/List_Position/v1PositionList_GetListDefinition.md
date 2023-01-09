@@ -32,7 +32,7 @@ Gets description of Position list
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ListEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +54,7 @@ Response body:
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -64,7 +64,7 @@ Response body:
 GET /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 775,
-  "Name": "Bahringer, Jakubowski and Kozey",
-  "Tooltip": "ut",
+  "Id": 481,
+  "Name": "Kilback-Champlin",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 342,
-  "IsCustomList": false,
+  "Rank": 119,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "tempora",
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldLength": 951
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

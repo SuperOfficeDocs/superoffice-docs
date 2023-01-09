@@ -34,7 +34,7 @@ Excludes standard fields.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Gerlach Inc and Sons",
-    "DisplayName": "Wolf, Waelchi and Bins",
-    "Description": "Cloned dynamic initiative",
-    "ShortLabel": "sapiente",
+    "FieldName": "Schultz, Hoeger and Cronin",
+    "DisplayName": "Muller-Braun",
+    "Description": "Business-focused even-keeled challenge",
+    "ShortLabel": "omnis",
     "HideLabel": false,
     "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 437,
-    "TemplateVariableName": "Kessler, Johns and Lang"
+    "Rank": 138,
+    "TemplateVariableName": "Moore Group"
   }
 ]
 ```

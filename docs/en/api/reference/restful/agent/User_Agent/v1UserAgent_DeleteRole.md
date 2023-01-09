@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/DeleteRole
 Delete the specified role and move all users associated with the role to the replacingRoleId
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -42,17 +40,16 @@ POST /api/v1/Agents/User/DeleteRole?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 RoleIdToDelete, ReplacingRoleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RoleIdToDelete | int32 |  |
-| ReplacingRoleId | int32 |  |
+| RoleIdToDelete | Integer |  |
+| ReplacingRoleId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -60,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -73,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleIdToDelete": 856,
-  "ReplacingRoleId": 618
+  "RoleIdToDelete": 223,
+  "ReplacingRoleId": 35
 }
 ```
 

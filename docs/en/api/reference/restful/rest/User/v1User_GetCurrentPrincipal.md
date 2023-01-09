@@ -34,7 +34,7 @@ Does not call an agent - just returns the current session info.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +80,7 @@ Response body:
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,76 +91,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "saepe",
-  "AssociateId": 996,
+  "Associate": "quam",
+  "AssociateId": 600,
   "IsPerson": false,
-  "PersonId": 441,
-  "CountryId": 976,
-  "HomeCountryId": 116,
-  "ContactId": 532,
-  "GroupId": 687,
-  "BusinessId": 566,
-  "CategoryId": 837,
-  "ContactOwner": 272,
-  "RoleId": 755,
-  "RoleName": "Schroeder, Kuhic and Botsford",
-  "RoleDescription": "Grass-roots real-time portal",
+  "PersonId": 792,
+  "CountryId": 678,
+  "HomeCountryId": 538,
+  "ContactId": 844,
+  "GroupId": 333,
+  "BusinessId": 802,
+  "CategoryId": 109,
+  "ContactOwner": 208,
+  "RoleId": 831,
+  "RoleName": "Pollich, Spinka and Walker",
+  "RoleDescription": "Devolved assymetric matrix",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 162,
-      "OwnerName": "Jewess, Kub and Bailey",
-      "OwnerDescription": "Universal coherent synergy",
-      "ModuleId": 65,
-      "Name": "Willms, McGlynn and Schmidt",
-      "Description": "Vision-oriented executive initiative",
-      "Version": "reprehenderit",
+      "OwnerId": 378,
+      "OwnerName": "Wehner-Vandervort",
+      "OwnerDescription": "Devolved intangible parallelism",
+      "ModuleId": 515,
+      "Name": "Prosacco, Conroy and Fadel",
+      "Description": "Function-based cohesive knowledge user",
+      "Version": "culpa",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 654,
-      "ExtraInfo": "nihil",
-      "SortOrder": 691,
-      "LicenseNumber": 579,
+      "ExtraFlags": 648,
+      "ExtraInfo": "voluptatem",
+      "SortOrder": 93,
+      "LicenseNumber": 70,
       "IsHidden": false,
-      "IsUnrestricted": true,
-      "ExpiryDate": "1999-10-26T02:49:51.844034+02:00",
+      "IsUnrestricted": false,
+      "ExpiryDate": "2021-11-28T17:37:39.5924394+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldType": "System.String",
+          "FieldLength": 486
         }
       }
     }
   ],
-  "FullName": "Clemmie Collier",
-  "EMailAddress": "dolores",
+  "FullName": "Abbey Franecki",
+  "EMailAddress": "est",
   "FunctionRights": [
-    "quo",
-    "soluta"
+    "aut",
+    "adipisci"
   ],
-  "EjUserId": 952,
-  "EjAccessLevel": 195,
+  "EjUserId": 236,
+  "EjAccessLevel": 814,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "non",
-      "SearchName": "Lowe Inc and Sons",
-      "DisplayName": "Wyman, Considine and Hilpert",
-      "CredentialId": 922
+      "Type": "delectus",
+      "SearchName": "Becker, Swaniawski and Reichel",
+      "DisplayName": "Collins, Lindgren and Labadie",
+      "CredentialId": 243
     },
     {
-      "Type": "non",
-      "SearchName": "Lowe Inc and Sons",
-      "DisplayName": "Wyman, Considine and Hilpert",
-      "CredentialId": 922
+      "Type": "delectus",
+      "SearchName": "Becker, Swaniawski and Reichel",
+      "DisplayName": "Collins, Lindgren and Labadie",
+      "CredentialId": 243
     }
   ],
   "SecondaryGroups": [
-    873,
-    818
+    125,
+    176
   ],
-  "DatabaseContextIdentifier": "soluta",
-  "UserName": "Hagenes-Wunsch"
+  "DatabaseContextIdentifier": "in",
+  "UserName": "White Inc and Sons"
 }
 ```

@@ -44,18 +44,17 @@ POST /api/v1/Agents/Appointment/GetMyAppointments?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -116,7 +115,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -125,13 +124,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2000-06-03T02:49:43.4972799+02:00",
-  "EndTime": "1999-08-12T02:49:43.4972799+02:00",
-  "Count": 602
+  "StartTime": "2004-06-23T17:37:16.578245+02:00",
+  "EndTime": "1998-05-13T17:37:16.578245+02:00",
+  "Count": 68
 }
 ```
 
@@ -143,61 +142,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 733,
-    "StartDate": "2018-03-07T02:49:43.4972799+01:00",
-    "EndDate": "2017-09-30T02:49:43.4972799+02:00",
+    "AppointmentId": 634,
+    "StartDate": "2011-12-20T17:37:16.5792446+01:00",
+    "EndDate": "2004-02-09T17:37:16.5792446+01:00",
     "Type": "BookingForChecklist",
-    "Task": "repudiandae",
-    "AssociateFullName": "Pierre Ritchie",
-    "ContactName": "Schumm, Kessler and McLaughlin",
-    "Description": "Fully-configurable bandwidth-monitored analyzer",
-    "PersonFullName": "Kelli Gislason III",
-    "PersonId": 279,
-    "ContactId": 29,
-    "ProjectId": 415,
-    "ProjectName": "Leuschke Group",
-    "IsPublished": true,
-    "AssociateId": 411,
-    "ColorIndex": 914,
+    "Task": "dolore",
+    "AssociateFullName": "Rickie Fritsch",
+    "ContactName": "Braun, Hoeger and Christiansen",
+    "Description": "Optimized systematic local area network",
+    "PersonFullName": "Ivah O'Keefe",
+    "PersonId": 253,
+    "ContactId": 112,
+    "ProjectId": 92,
+    "ProjectName": "Nikolaus, Hoeger and Shields",
+    "IsPublished": false,
+    "AssociateId": 316,
+    "ColorIndex": 816,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 996,
-    "PriorityName": "Rowe, Fadel and Kreiger",
+    "PriorityId": 755,
+    "PriorityName": "Schuster Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2022-05-01T02:49:43.4972799+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "1999-11-17T17:37:16.5792446+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1996-07-07T02:49:43.4972799+02:00",
-    "RecurringEndDate": "2020-02-19T02:49:43.4972799+01:00",
-    "MotherId": 678,
-    "AssignedBy": 713,
-    "AssignedByFullName": "Odessa Emmerich",
+    "RecurringStartDate": "2015-04-10T17:37:16.5792446+02:00",
+    "RecurringEndDate": "2017-11-12T17:37:16.5792446+01:00",
+    "MotherId": 455,
+    "AssignedBy": 219,
+    "AssignedByFullName": "Mr. Francisco Leonardo Renner DDS",
     "RejectReason": "",
-    "Location": "amet",
-    "AlarmLeadTime": "corporis",
-    "SaleId": 814,
-    "SaleName": "Marvin Group",
-    "AssociateName": "Orn LLC",
-    "CreatedDate": "2001-09-16T02:49:43.4972799+02:00",
-    "CreatedBy": "voluptatibus",
-    "CreatedByFullName": "Ms. Wyatt Ritchie",
-    "CreatedByAssociateId": 975,
+    "Location": "perferendis",
+    "AlarmLeadTime": "dolores",
+    "SaleId": 364,
+    "SaleName": "Bogan LLC",
+    "AssociateName": "Olson, Roob and Rempel",
+    "CreatedDate": "2010-09-02T17:37:16.5802452+02:00",
+    "CreatedBy": "quidem",
+    "CreatedByFullName": "Dr. Darrin Hipolito Olson",
+    "CreatedByAssociateId": 23,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 740
+        "FieldType": "System.String",
+        "FieldLength": 153
       }
     }
   }

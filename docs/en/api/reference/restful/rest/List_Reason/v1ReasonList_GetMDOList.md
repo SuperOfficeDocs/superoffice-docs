@@ -25,8 +25,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=True
-GET /api/v1/List/Reason/MDOItems?query=delectus
+GET /api/v1/List/Reason/MDOItems?flat=False
+GET /api/v1/List/Reason/MDOItems?query=omnis
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/Reason/MDOItems?query=delectus
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 757,
-    "Name": "Mitchell, Lowe and Botsford",
-    "ToolTip": "Recusandae doloremque et sed.",
-    "Deleted": true,
-    "Rank": 20,
-    "Type": "exercitationem",
+    "Id": 803,
+    "Name": "Collier Inc and Sons",
+    "ToolTip": "Qui pariatur illum et quasi animi.",
+    "Deleted": false,
+    "Rank": 181,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 462,
-        "Name": "Dare Inc and Sons",
-        "ToolTip": "Consectetur rerum quisquam assumenda sed ea qui id.",
-        "Deleted": false,
-        "Rank": 955,
-        "Type": "unde",
+        "Id": 438,
+        "Name": "Vandervort-Bailey",
+        "ToolTip": "Qui ea reiciendis sint.",
+        "Deleted": true,
+        "Rank": 899,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
+        "IconHint": "sunt",
         "ColorBlock": 786,
-        "ExtraInfo": "aut",
-        "StyleHint": "totam",
-        "FullName": "Zoey Trantow",
+        "ExtraInfo": "id",
+        "StyleHint": "quo",
+        "FullName": "Dortha Kuphal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 241
+            "FieldLength": 967
           }
         }
       }
     ],
-    "IconHint": "illo",
-    "ColorBlock": 966,
-    "ExtraInfo": "aut",
-    "StyleHint": "repellendus",
-    "FullName": "Presley Bartell",
+    "IconHint": "dolorem",
+    "ColorBlock": 3,
+    "ExtraInfo": "id",
+    "StyleHint": "incidunt",
+    "FullName": "Miss Jarvis Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 550
+        "FieldType": "System.Int32",
+        "FieldLength": 827
       }
     }
   }

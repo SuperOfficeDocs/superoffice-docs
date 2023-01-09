@@ -42,13 +42,12 @@ POST /api/v1/Agents/Sale/GetSaleStakeholderList?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: saleStakeholderIds  
+## Request Body: saleStakeholderIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body: array
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,7 +87,7 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,31 +98,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "O'Connell-Runolfsdottir",
-    "Comment": "ullam",
-    "StakeholderRoleId": 915,
-    "CountryId": 907,
-    "PersonId": 954,
-    "EmailDescription": "maximillia@bayer.us",
-    "EmailId": 286,
-    "EmailAddress": "jamaal.bergnaum@boyle.co.uk",
-    "PhoneId": 871,
-    "ContactName": "Heller LLC",
-    "ContactId": 198,
-    "SaleId": 201,
-    "Mrmrs": "culpa",
-    "Firstname": "Rosalinda",
-    "MiddleName": "Conroy, Stracke and Hauck",
-    "Lastname": "Buckridge",
-    "SaleStakeholderId": 846,
-    "Rank": 64,
-    "Phone": "073.363.0848",
+    "StakeholderRoleName": "Douglas-Mitchell",
+    "Comment": "voluptatem",
+    "StakeholderRoleId": 483,
+    "CountryId": 611,
+    "PersonId": 805,
+    "EmailDescription": "selmer_weber@jenkins.com",
+    "EmailId": 981,
+    "EmailAddress": "salma.purdy@hammeslockman.ca",
+    "PhoneId": 953,
+    "ContactName": "Price LLC",
+    "ContactId": 837,
+    "SaleId": 791,
+    "Mrmrs": "fugit",
+    "Firstname": "Alvena",
+    "MiddleName": "Walter-Funk",
+    "Lastname": "Armstrong",
+    "SaleStakeholderId": 708,
+    "Rank": 470,
+    "Phone": "(550)387-5131",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldLength": 407
       }
     }
   }

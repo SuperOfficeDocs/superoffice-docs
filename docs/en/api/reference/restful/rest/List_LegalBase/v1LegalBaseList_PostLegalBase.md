@@ -34,21 +34,20 @@ Calls the List agent service SaveLegalBase.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The LegalBase to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| LegalBaseId | int32 | Primary key |
-| Name | string | Name of legal base |
-| Tooltip | string | Tooltip for this consent source |
-| Rank | int32 | Rank of this consent source |
-| Key | string | The key used to uniquely identify this legal base |
-| Deleted | bool | true if the LegalBase is deleted |
+| LegalBaseId | Integer | Primary key |
+| Name | String | Name of legal base |
+| Tooltip | String | Tooltip for this consent source |
+| Rank | Integer | Rank of this consent source |
+| Key | String | The key used to uniquely identify this legal base |
+| Deleted | Boolean | true if the LegalBase is deleted |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: LegalBase
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body:
 | Rank | int32 | Rank of this consent source |
 | Key | string | The key used to uniquely identify this legal base |
 | Deleted | bool | true if the LegalBase is deleted |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,15 +74,15 @@ Response body:
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 565,
-  "Name": "Botsford, Gulgowski and Grimes",
-  "Tooltip": "reprehenderit",
-  "Rank": 540,
-  "Key": "quia",
+  "LegalBaseId": 502,
+  "Name": "Nader Inc and Sons",
+  "Tooltip": "quisquam",
+  "Rank": 250,
+  "Key": "sapiente",
   "Deleted": true
 }
 ```
@@ -95,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 894,
-  "Name": "Bergnaum-Jewess",
-  "Tooltip": "veritatis",
-  "Rank": 177,
-  "Key": "accusamus",
-  "Deleted": true,
+  "LegalBaseId": 505,
+  "Name": "Murazik-Skiles",
+  "Tooltip": "ipsa",
+  "Rank": 580,
+  "Key": "perferendis",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 43
     }
   }
 }

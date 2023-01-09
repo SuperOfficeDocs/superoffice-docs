@@ -25,7 +25,7 @@ Gets a History object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ViewState/GetHistory?historyId=272
+POST /api/v1/Agents/ViewState/GetHistory?historyId=860
 POST /api/v1/Agents/ViewState/GetHistory?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/ViewState/GetHistory?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: History
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +63,7 @@ Response body:
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 648,
-  "Id": 559,
-  "HistoryName": "Shanahan Inc and Sons",
-  "HistoryId": 394,
-  "AssociateId": 354,
-  "Name": "Bradtke, Zboncak and Ledner",
-  "ItemInfo": "ex",
+  "Rank": 149,
+  "Id": 752,
+  "HistoryName": "Runolfsson-Braun",
+  "HistoryId": 697,
+  "AssociateId": 219,
+  "Name": "Wuckert Inc and Sons",
+  "ItemInfo": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldLength": 777
     }
   }
 }

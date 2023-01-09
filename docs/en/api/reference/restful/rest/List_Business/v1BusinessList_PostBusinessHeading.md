@@ -34,21 +34,20 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HeadingId | int32 | Primary key |
-| Name | string | The visible heading |
-| Tooltip | string | Tooltip or other description |
-| Deleted | bool | True if the heading is marked as deleted |
-| Rank | int32 | Rank order |
-| UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+| HeadingId | Integer | Primary key |
+| Name | String | The visible heading |
+| Tooltip | String | Tooltip or other description |
+| Deleted | Boolean | True if the heading is marked as deleted |
+| Rank | Integer | Rank order |
+| UdListDefinitionId | Integer | The id of the list which this heading belongs to |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: HeadingEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body:
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,16 +74,16 @@ Response body:
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 131,
-  "Name": "McDermott, Rau and White",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 201,
-  "UdListDefinitionId": 884
+  "HeadingId": 304,
+  "Name": "Legros-Turner",
+  "Tooltip": "perferendis",
+  "Deleted": false,
+  "Rank": 203,
+  "UdListDefinitionId": 794
 }
 ```
 
@@ -95,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 670,
-  "Name": "Barrows Group",
-  "Tooltip": "doloribus",
+  "HeadingId": 675,
+  "Name": "Franecki-Doyle",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 809,
-  "UdListDefinitionId": 320,
+  "Rank": 299,
+  "UdListDefinitionId": 532,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldType": "System.String",
+      "FieldLength": 567
     }
   }
 }

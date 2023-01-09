@@ -32,7 +32,7 @@ Currently published AppointmentEntity user-defined field layout.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +78,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 880,
-    "ColumnId": 368,
-    "FieldDefault": "velit",
-    "FieldHeight": 423,
-    "FieldLabel": "incidunt",
-    "FieldLeft": 545,
-    "FieldTop": 823,
+    "UDefFieldId": 26,
+    "ColumnId": 498,
+    "FieldDefault": "est",
+    "FieldHeight": 989,
+    "FieldLabel": "voluptatum",
+    "FieldLeft": 173,
+    "FieldTop": 644,
     "FieldType": "Checkbox",
-    "FieldWidth": 970,
-    "FormatMask": "modi",
+    "FieldWidth": 296,
+    "FormatMask": "autem",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 586,
-    "LabelLeft": 47,
-    "LabelTop": 71,
-    "LabelWidth": 914,
-    "LastVersionId": 546,
-    "ListTableId": 505,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 729,
+    "LabelLeft": 305,
+    "LabelTop": 267,
+    "LabelWidth": 448,
+    "LastVersionId": 979,
+    "ListTableId": 685,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 292,
-    "ProgId": "enim",
+    "Page1LineNo": 721,
+    "ProgId": "perferendis",
     "IsReadOnly": false,
-    "ShortLabel": "voluptates",
-    "TabOrder": 62,
-    "TextLength": 356,
-    "Tooltip": "eius",
-    "UdefIdentity": 604,
-    "UDListDefinitionId": 417,
+    "ShortLabel": "temporibus",
+    "TabOrder": 7,
+    "TextLength": 81,
+    "Tooltip": "voluptatum",
+    "UdefIdentity": 291,
+    "UDListDefinitionId": 72,
     "Justification": "Center",
-    "Version": 642,
-    "TemplateVariableName": "Schinner, Rippin and Nader",
+    "Version": 169,
+    "TemplateVariableName": "Hyatt Group",
     "HasBeenPublished": false,
-    "MdoListName": "Jacobi, Heller and Morissette",
+    "MdoListName": "Schmidt, Gislason and Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldType": "System.String",
+        "FieldLength": 96
       }
     }
   }

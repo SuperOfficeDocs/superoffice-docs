@@ -42,16 +42,15 @@ POST /api/v1/Agents/Ticket/SanitizeMailContent?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Content 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Content | string |  |
+| Content | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -72,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Content": "cumque"
+  "Content": "quaerat"
 }
 ```
 
@@ -82,5 +81,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"tenetur"
+"ut"
 ```

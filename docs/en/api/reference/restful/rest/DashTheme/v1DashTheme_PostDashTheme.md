@@ -44,21 +44,20 @@ POST /api/v1/DashTheme?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The DashTheme to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardThemeId | int32 | Primary key |
-| Name | string | The name of this theme |
-| Config | string | The JSON clob-formatted config |
-| Rank | int32 | Rank order |
-| Client | string | Name of client(s) this theme is available to |
-| Style | string | Style value - for example 'light' or 'dark' |
+| DashboardThemeId | Integer | Primary key |
+| Name | String | The name of this theme |
+| Config | String | The JSON clob-formatted config |
+| Rank | Integer | Rank order |
+| Client | String | Name of client(s) this theme is available to |
+| Style | String | Style value - for example 'light' or 'dark' |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashThemeWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body:
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -90,12 +89,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 902,
-  "Name": "Boehm Group",
-  "Config": "et",
-  "Rank": 52,
-  "Client": "illum",
-  "Style": "eum"
+  "DashboardThemeId": 371,
+  "Name": "Medhurst, Davis and Weimann",
+  "Config": "aperiam",
+  "Rank": 878,
+  "Client": "alias",
+  "Style": "perferendis"
 }
 ```
 
@@ -106,23 +105,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 392,
-  "Name": "Von, Jacobi and Roberts",
-  "Config": "commodi",
-  "Rank": 499,
-  "Client": "est",
-  "Style": "recusandae",
+  "DashboardThemeId": 875,
+  "Name": "Turner Inc and Sons",
+  "Config": "est",
+  "Rank": 623,
+  "Client": "error",
+  "Style": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldType": "System.String",
+      "FieldLength": 453
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

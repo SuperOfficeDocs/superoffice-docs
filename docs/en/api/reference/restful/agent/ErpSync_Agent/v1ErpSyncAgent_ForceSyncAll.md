@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/ForceSyncAll
 Sync all active connections even when automatic sync is off
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,7 +44,7 @@ POST /api/v1/Agents/ErpSync/ForceSyncAll?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -54,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PluginResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,9 +60,9 @@ Response body:
 | UserExplanation | string | A localized explanation to the answer. Text here is displayed to the user. |
 | TechExplanation | string | Always in English |
 | ErrorCode | string | An error code, if available. |
-| Changes |  | Tablename/recordid of data changed by this method, that the client may need to reload |
+| Changes | ChangedData | Tablename/recordid of data changed by this method, that the client may need to reload |
 | Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,7 +71,7 @@ Response body:
 POST /api/v1/Agents/ErpSync/ForceSyncAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "sint",
-  "TechExplanation": "nulla",
-  "ErrorCode": "voluptas",
+  "UserExplanation": "cum",
+  "TechExplanation": "sunt",
+  "ErrorCode": "dolores",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 415
+      "FieldType": "System.Int32",
+      "FieldLength": 880
     }
   }
 }

@@ -42,17 +42,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, IncludeStandard 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| IncludeStandard | bool |  |
+| TableName | String |  |
+| IncludeStandard | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,11 +83,11 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stanton, Von and Sporer",
+  "TableName": "Botsford Inc and Sons",
   "IncludeStandard": false
 }
 ```
@@ -102,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Beatty, Waelchi and Morar",
-    "DisplayName": "Green-Howe",
-    "Description": "Secured scalable task-force",
-    "ShortLabel": "quas",
-    "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": false,
+    "FieldName": "Schuster-Powlowski",
+    "DisplayName": "Reichel, Cassin and Senger",
+    "Description": "Re-engineered interactive leverage",
+    "ShortLabel": "ab",
+    "HideLabel": true,
+    "HideField": false,
+    "IsIndexed": true,
+    "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 479,
-    "TemplateVariableName": "Padberg, Hettinger and Pfeffer"
+    "Rank": 86,
+    "TemplateVariableName": "Cole-VonRueden"
   }
 ]
 ```

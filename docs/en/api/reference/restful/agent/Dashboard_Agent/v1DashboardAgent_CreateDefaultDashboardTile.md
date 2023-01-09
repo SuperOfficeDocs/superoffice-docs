@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashboardTile
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +60,7 @@ Response body:
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -69,7 +69,7 @@ Response body:
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,64 +79,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 761,
-  "Caption": "adipisci",
-  "Description": "Monitored grid-enabled matrix",
-  "ChartName": "Rogahn, Hudson and Franecki",
-  "ChartId": "repellendus",
-  "IsDefault": false,
-  "AssociateId": 752,
-  "GroupId": 665,
-  "SelectionId": 855,
-  "Config": "perferendis",
+  "DashboardTileId": 293,
+  "Caption": "accusamus",
+  "Description": "User-centric dynamic info-mediaries",
+  "ChartName": "Crona, Wunsch and Kris",
+  "ChartId": "voluptas",
+  "IsDefault": true,
+  "AssociateId": 248,
+  "GroupId": 350,
+  "SelectionId": 119,
+  "Config": "eius",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Fahey-Boyle",
-      "Description": "Integrated value-added local area network",
+      "Name": "Goldner-Paucek",
+      "Description": "Cloned next generation implementation",
       "Type": "Boolean",
-      "ListName": "Keebler LLC",
+      "ListName": "Dibbert Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "et",
-      "DefaultDataOption": false,
+      "Value": "soluta",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 464
+          "FieldLength": 81
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 96,
+      "VisibleId": 395,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 287
+          "FieldLength": 720
         }
       }
     },
     {
-      "VisibleId": 96,
+      "VisibleId": 395,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 287
+          "FieldLength": 720
         }
       }
     }
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 617
+      "FieldType": "System.Int32",
+      "FieldLength": 152
     }
   }
 }

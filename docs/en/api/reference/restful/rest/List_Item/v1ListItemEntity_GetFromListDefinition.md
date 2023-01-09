@@ -37,7 +37,7 @@ Get a list item for the specified list defintion
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,7 +46,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ListItemEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +56,7 @@ Response body:
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -65,7 +65,7 @@ Response body:
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 272,
-  "Name": "Will LLC",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 439,
-  "Rank": 295,
+  "Id": 35,
+  "Name": "Wilkinson, Bergnaum and Blick",
+  "Tooltip": "earum",
+  "Deleted": true,
+  "UdListDefinitionId": 358,
+  "Rank": 647,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldType": "System.String",
+      "FieldLength": 849
     }
   }
 }

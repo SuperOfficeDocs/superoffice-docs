@@ -44,17 +44,16 @@ POST /api/v1/Agents/Quote/GetConfigurationFields?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConnectionId, ConnectorName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionId | int32 |  |
-| ConnectorName | string |  |
+| ConnectionId | Integer |  |
+| ConnectorName | String |  |
 
-
-## Response: object
+## Response:object
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+### Response body: object
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body: object
 | MaxLength | int32 | Maximum length for strings, if set. 0 means no restriction. (Though sooner or later something will no doubt overflow if you pile on the gigabytes.) |
 | Access | string | Access restrictions on the field |
 | ShowInSearch | bool | True if this field is displayed in search result |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,12 +84,12 @@ Response body: object
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 923,
-  "ConnectorName": "Crooks-Willms"
+  "ConnectionId": 768,
+  "ConnectorName": "Wintheiser, Kuhic and Dicki"
 }
 ```
 
@@ -102,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "perspiciatis",
-    "Rank": 57,
-    "DisplayName": "Terry-Lind",
-    "DisplayDescription": "User-centric demand-driven database",
+    "FieldKey": "sunt",
+    "Rank": 394,
+    "DisplayName": "Hodkiewicz, McGlynn and Schaefer",
+    "DisplayDescription": "Versatile content-based success",
     "FieldType": "Checkbox",
-    "ListName": "Adams, Bartell and Beier",
-    "DefaultValue": "ducimus",
-    "MaxLength": 193,
+    "ListName": "Jakubowski LLC",
+    "DefaultValue": "est",
+    "MaxLength": 47,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 289
+        "FieldType": "System.Int32",
+        "FieldLength": 280
       }
     }
   }

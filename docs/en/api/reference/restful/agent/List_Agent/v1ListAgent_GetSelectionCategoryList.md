@@ -42,13 +42,12 @@ POST /api/v1/Agents/List/GetSelectionCategoryList?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: selectionCategoryIds  
+## Request Body: selectionCategoryIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,14 +55,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 | The List Item Id |
 | Value | string | The List Item Value |
 | Tooltip | string | The List Item Tooltip |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 929,
-    "Value": "libero",
-    "Tooltip": "temporibus",
+    "Id": 51,
+    "Value": "velit",
+    "Tooltip": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 989
+        "FieldLength": 362
       }
     }
   },
   {
-    "Id": 929,
-    "Value": "libero",
-    "Tooltip": "temporibus",
+    "Id": 51,
+    "Value": "velit",
+    "Tooltip": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 989
+        "FieldLength": 362
       }
     }
   }

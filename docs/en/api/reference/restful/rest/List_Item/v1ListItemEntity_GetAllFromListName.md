@@ -28,7 +28,7 @@ Get all list items for the specified list defintion
 | includeDeleted | bool |  Include deleted items in result? |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=True
 ```
 
 
@@ -46,7 +46,7 @@ GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -54,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +64,7 @@ Response body: array
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,7 +73,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Rau, Bogisich and Sauer",
-    "Tooltip": "voluptatem",
+    "Id": 214,
+    "Name": "Friesen-Hermiston",
+    "Tooltip": "aliquid",
     "Deleted": true,
-    "UdListDefinitionId": 910,
-    "Rank": 251,
+    "UdListDefinitionId": 689,
+    "Rank": 1001,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 478
+        "FieldType": "System.Int32",
+        "FieldLength": 538
       }
     }
   }

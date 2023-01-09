@@ -42,16 +42,15 @@ POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UserGroupIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UserGroupIds | array |  |
+| UserGroupIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    855,
-    71
+    404,
+    139
   ]
 }
 ```
@@ -103,50 +102,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Rowe-Gusikowski",
-    "ToolTip": "Et et ea tempore amet impedit praesentium autem.",
+    "Id": 76,
+    "Name": "Powlowski-Rowe",
+    "ToolTip": "Enim id enim.",
     "Deleted": false,
-    "Rank": 82,
-    "Type": "distinctio",
+    "Rank": 477,
+    "Type": "culpa",
     "ChildItems": [
       {
-        "Id": 404,
-        "Name": "Littel LLC",
-        "ToolTip": "Architecto dolore quia necessitatibus tenetur at quisquam debitis.",
-        "Deleted": true,
-        "Rank": 416,
-        "Type": "quibusdam",
+        "Id": 500,
+        "Name": "Blanda Inc and Sons",
+        "ToolTip": "Ad quam pariatur.",
+        "Deleted": false,
+        "Rank": 192,
+        "Type": "sapiente",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugit",
-        "ColorBlock": 500,
-        "ExtraInfo": "similique",
-        "StyleHint": "qui",
-        "FullName": "Kraig Thaddeus Beier MD",
+        "IconHint": "iure",
+        "ColorBlock": 6,
+        "ExtraInfo": "iure",
+        "StyleHint": "iste",
+        "FullName": "Miller Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 990
+            "FieldType": "System.Int32",
+            "FieldLength": 896
           }
         }
       }
     ],
-    "IconHint": "ea",
-    "ColorBlock": 69,
-    "ExtraInfo": "et",
-    "StyleHint": "nobis",
-    "FullName": "Bernita Bayer",
+    "IconHint": "qui",
+    "ColorBlock": 478,
+    "ExtraInfo": "sit",
+    "StyleHint": "atque",
+    "FullName": "Luna Jeanette Klein II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 352
+        "FieldType": "System.Int32",
+        "FieldLength": 191
       }
     }
   }

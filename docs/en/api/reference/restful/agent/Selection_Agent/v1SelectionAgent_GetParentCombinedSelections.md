@@ -42,16 +42,15 @@ POST /api/v1/Agents/Selection/GetParentCombinedSelections?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
+| SelectionId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 
 ## Sample request
@@ -68,11 +67,11 @@ Response body: array
 POST /api/v1/Agents/Selection/GetParentCombinedSelections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 792
+  "SelectionId": 856
 }
 ```
 
@@ -83,7 +82,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  836,
-  862
+  794,
+  578
 ]
 ```

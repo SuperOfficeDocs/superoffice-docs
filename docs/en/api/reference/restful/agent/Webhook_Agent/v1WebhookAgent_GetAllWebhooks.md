@@ -12,8 +12,6 @@ POST /api/v1/Agents/Webhook/GetAllWebhooks
 Returns all webhooks, according to filter criteria
 
 
-
-
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,18 +44,17 @@ POST /api/v1/Agents/Webhook/GetAllWebhooks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 NameFilter, EventFilter, StatusFilter 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| NameFilter | string |  |
-| EventFilter | string |  |
-| StatusFilter | string |  |
+| NameFilter | String |  |
+| EventFilter | String |  |
+| StatusFilter | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,9 +76,9 @@ Response body: array
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociate |  | The user that created the webhook. |
+| RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociate |  | The user that last updated the webhook. |
+| UpdatedAssociate | Associate | The user that last updated the webhook. |
 
 ## Sample request
 
@@ -89,12 +86,12 @@ Response body: array
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Windler Group",
-  "EventFilter": "voluptas",
+  "NameFilter": "Sauer, Goldner and Jacobi",
+  "EventFilter": "omnis",
   "StatusFilter": "Active"
 }
 ```
@@ -107,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 399,
-    "Name": "Heaney-Blick",
+    "WebhookId": 702,
+    "Name": "Ondricka-McClure",
     "Events": [
-      "nostrum",
-      "distinctio"
+      "fugit",
+      "possimus"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "quisquam",
+    "Secret": "aut",
     "State": "Active",
-    "Type": "laborum",
+    "Type": "similique",
     "Headers": {
-      "Headers1": "ut",
-      "Headers2": "modi"
+      "Headers1": "occaecati",
+      "Headers2": "occaecati"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2017-02-21T02:49:45.7340964+01:00",
+    "Registered": "2013-01-26T17:37:19.6519782+01:00",
     "RegisteredAssociate": null,
-    "Updated": "2006-01-25T02:49:45.7340964+01:00",
+    "Updated": "2019-02-20T17:37:19.6529774+01:00",
     "UpdatedAssociate": null
   }
 ]

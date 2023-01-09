@@ -42,16 +42,15 @@ POST /api/v1/Agents/BLOB/GetOutputFromBatch?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 BatchTaskId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| BatchTaskId | int32 |  |
+| BatchTaskId | Integer |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -68,11 +67,11 @@ Response body: byte
 POST /api/v1/Agents/BLOB/GetOutputFromBatch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 775
+  "BatchTaskId": 698
 }
 ```
 

@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Save mappings for a connection/actor
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/ErpSync/SaveActorTypeMapping?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Mapping 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Mapping |  | Mapping information for one Actor, contains array of field mappings (ERP &lt;-&gt; SuperOffice) <para /> Carrier object for ErpSyncActorTypeMapping. Services for the ErpSyncActorTypeMapping Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
+| Mapping | ErpSyncActorTypeMapping | Mapping information for one Actor, contains array of field mappings (ERP &lt;-&gt; SuperOffice) <para /> Carrier object for ErpSyncActorTypeMapping. Services for the ErpSyncActorTypeMapping Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ErpSyncActorTypeMapping
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +69,7 @@ Response body:
 | FieldMappings | array | Array of individual field mappings; explicitly map to empty CrmFieldKey to indicate non-sync |
 | ActorTypeErp | string | The actor type (ERP side) |
 | ActorTypeCrm | string | The actor type (CRM side) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -96,20 +93,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 352,
-  "IsActive": false,
+  "ErpConnectionId": 488,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 888,
-      "CrmFieldKey": "ab",
-      "CrmDisplayName": "Feil Inc and Sons",
-      "CrmDisplayTooltip": "vel",
+      "ErpFieldId": 503,
+      "CrmFieldKey": "et",
+      "CrmDisplayName": "Beahan, Bahringer and Larson",
+      "CrmDisplayTooltip": "voluptas",
       "ErpFieldKey": "aut",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Wilderman, McDermott and Jacobson",
-      "ErpDisplayTooltip": "eveniet",
-      "SyncToCrm": true,
-      "SyncToErp": false,
+      "ErpDisplayName": "Weissnat, Sauer and Greenfelder",
+      "ErpDisplayTooltip": "dignissimos",
+      "SyncToCrm": false,
+      "SyncToErp": true,
       "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
@@ -121,8 +118,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldType": "System.String",
+          "FieldLength": 1000
         }
       }
     }
@@ -133,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldType": "System.Int32",
+      "FieldLength": 72
     }
   }
 }

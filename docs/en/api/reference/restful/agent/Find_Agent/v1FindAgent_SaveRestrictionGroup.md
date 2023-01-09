@@ -38,20 +38,19 @@ POST /api/v1/Agents/Find/SaveRestrictionGroup?$select=name,department,category/i
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, RestrictionGroup, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| RestrictionGroup |  |  |
-| Context | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| RestrictionGroup | TableRight |  |
+| Context | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -59,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -68,15 +67,15 @@ Response body:
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vero",
-  "ProviderName": "Treutel-Grimes",
-  "StorageKey": "eligendi",
+  "StorageType": "omnis",
+  "ProviderName": "Blick-Rath",
+  "StorageKey": "minus",
   "RestrictionGroup": null,
-  "Context": "veniam"
+  "Context": "explicabo"
 }
 ```
 

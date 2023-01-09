@@ -44,17 +44,16 @@ POST /api/v1/Agents/AI/Translate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Text, TargetLanguage 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Text | string |  |
-| TargetLanguage | string |  |
+| Text | String |  |
+| TargetLanguage | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -75,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "praesentium",
-  "TargetLanguage": "et"
+  "Text": "repudiandae",
+  "TargetLanguage": "deserunt"
 }
 ```
 
@@ -86,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"in"
+"consequuntur"
 ```

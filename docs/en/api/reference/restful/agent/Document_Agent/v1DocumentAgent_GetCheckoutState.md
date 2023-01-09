@@ -42,16 +42,15 @@ POST /api/v1/Agents/Document/GetCheckoutState?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
+| DocumentId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,11 +72,11 @@ Response body:
 POST /api/v1/Agents/Document/GetCheckoutState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 484
+  "DocumentId": 257
 }
 ```
 
@@ -89,7 +88,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 83,
-  "Name": "Homenick-Flatley"
+  "AssociateId": 409,
+  "Name": "Hegmann-Barton"
 }
 ```

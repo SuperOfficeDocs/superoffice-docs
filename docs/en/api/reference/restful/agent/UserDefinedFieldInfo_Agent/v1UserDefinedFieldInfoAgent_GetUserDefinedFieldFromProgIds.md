@@ -44,17 +44,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProgIds, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProgIds | array |  |
-| OwnerType | string |  |
+| ProgIds | Array |  |
+| OwnerType | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,7 +99,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -109,13 +108,13 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "quia",
-    "quis"
+    "aut",
+    "ratione"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +128,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 891,
-    "ColumnId": 984,
-    "FieldDefault": "est",
-    "FieldHeight": 965,
-    "FieldLabel": "unde",
-    "FieldLeft": 842,
-    "FieldTop": 773,
+    "UDefFieldId": 781,
+    "ColumnId": 214,
+    "FieldDefault": "impedit",
+    "FieldHeight": 457,
+    "FieldLabel": "quasi",
+    "FieldLeft": 55,
+    "FieldTop": 154,
     "FieldType": "Checkbox",
-    "FieldWidth": 898,
-    "FormatMask": "quasi",
-    "HideLabel": false,
+    "FieldWidth": 947,
+    "FormatMask": "minima",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 614,
-    "LabelLeft": 567,
-    "LabelTop": 408,
-    "LabelWidth": 425,
-    "LastVersionId": 510,
-    "ListTableId": 603,
-    "IsMandatory": true,
+    "LabelHeight": 976,
+    "LabelLeft": 388,
+    "LabelTop": 277,
+    "LabelWidth": 276,
+    "LastVersionId": 185,
+    "ListTableId": 558,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 970,
-    "ProgId": "voluptatibus",
+    "Page1LineNo": 808,
+    "ProgId": "autem",
     "IsReadOnly": true,
-    "ShortLabel": "dicta",
-    "TabOrder": 971,
-    "TextLength": 796,
-    "Tooltip": "harum",
-    "UdefIdentity": 573,
-    "UDListDefinitionId": 24,
+    "ShortLabel": "praesentium",
+    "TabOrder": 164,
+    "TextLength": 589,
+    "Tooltip": "rem",
+    "UdefIdentity": 202,
+    "UDListDefinitionId": 198,
     "Justification": "Center",
-    "Version": 12,
-    "TemplateVariableName": "Denesik Group",
-    "HasBeenPublished": false,
-    "MdoListName": "Pagac, Stracke and Okuneva",
+    "Version": 201,
+    "TemplateVariableName": "Schowalter, Koepp and Metz",
+    "HasBeenPublished": true,
+    "MdoListName": "Harvey, Macejkovic and Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldLength": 323
       }
     }
   }

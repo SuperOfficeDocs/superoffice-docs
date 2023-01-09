@@ -31,8 +31,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=De-engineered value-added protocol
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=vel,laboriosam
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Persevering grid-enabled knowledge base
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=nobis,est
 ```
 
 
@@ -50,7 +50,7 @@ PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=vel,laboriosam
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -58,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,11 +85,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "quia",
-  "VersionId": "iure",
+  "ExternalReference": "debitis",
+  "VersionId": "esse",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "qui",
-  "AdditionalInfo": "voluptas"
+  "Value": "sit",
+  "AdditionalInfo": "temporibus"
 }
 ```

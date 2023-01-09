@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Douglas-Beatty",
-    "ToolTip": "Quod natus qui voluptatem neque ea voluptates ad.",
+    "Id": 362,
+    "Name": "Haag Group",
+    "ToolTip": "Ut architecto numquam voluptatem.",
     "Deleted": false,
-    "Rank": 924,
-    "Type": "facere",
-    "ColorBlock": 829,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "1998-03-11T02:49:52.422202+01:00",
+    "Rank": 54,
+    "Type": "dolor",
+    "ColorBlock": 943,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "1997-09-13T17:37:40.2304701+02:00",
     "ChildItems": [
       {
-        "Id": 997,
-        "Name": "Bruen Inc and Sons",
-        "ToolTip": "Ratione laboriosam laudantium voluptates sint.",
+        "Id": 647,
+        "Name": "Hessel Group",
+        "ToolTip": "Voluptatibus qui qui repellendus esse laborum voluptatem voluptates.",
         "Deleted": false,
-        "Rank": 960,
-        "Type": "assumenda",
-        "ColorBlock": 461,
-        "IconHint": "saepe",
-        "Selected": true,
-        "LastChanged": "2001-11-14T02:49:52.422202+01:00",
+        "Rank": 646,
+        "Type": "facere",
+        "ColorBlock": 100,
+        "IconHint": "dolor",
+        "Selected": false,
+        "LastChanged": "2008-11-01T17:37:40.2304701+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "aut",
+        "ExtraInfo": "et",
+        "StyleHint": "sed",
         "Hidden": true,
-        "FullName": "Ms. Karlee Hannah Rath Sr."
+        "FullName": "Kennedi Dante Keeling I"
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "vel",
+    "ExtraInfo": "qui",
+    "StyleHint": "corrupti",
     "Hidden": false,
-    "FullName": "Etha King"
+    "FullName": "Zion Roob"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 32,
-    "Name": "Carter LLC",
-    "ToolTip": "Ex assumenda hic.",
+    "Id": 459,
+    "Name": "Stokes-Hessel",
+    "ToolTip": "Hic aut cupiditate tempora.",
     "Deleted": false,
-    "Rank": 791,
-    "Type": "placeat",
-    "ColorBlock": 305,
-    "IconHint": "reiciendis",
-    "Selected": false,
-    "LastChanged": "2011-06-25T02:49:52.422202+02:00",
+    "Rank": 783,
+    "Type": "distinctio",
+    "ColorBlock": 455,
+    "IconHint": "ea",
+    "Selected": true,
+    "LastChanged": "2012-09-14T17:37:40.2324741+02:00",
     "ChildItems": [
       {
-        "Id": 597,
-        "Name": "Lockman Inc and Sons",
-        "ToolTip": "Eligendi beatae quia qui.",
+        "Id": 723,
+        "Name": "Ritchie, Watsica and Becker",
+        "ToolTip": "Recusandae et quia quas totam laborum.",
         "Deleted": false,
-        "Rank": 358,
-        "Type": "et",
-        "ColorBlock": 487,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "1995-12-14T02:49:52.422202+01:00",
+        "Rank": 346,
+        "Type": "repellat",
+        "ColorBlock": 10,
+        "IconHint": "dicta",
+        "Selected": false,
+        "LastChanged": "1998-04-26T17:37:40.2324741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Taurean Labadie",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "repudiandae",
+        "Hidden": true,
+        "FullName": "Miss Violette Juston Feeney Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 80
+            "FieldLength": 720
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "nulla",
-    "Hidden": true,
-    "FullName": "Rahul Gerlach",
+    "ExtraInfo": "hic",
+    "StyleHint": "laudantium",
+    "Hidden": false,
+    "FullName": "Miss Lorna Bruen Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 200
+        "FieldLength": 70
       }
     }
   }

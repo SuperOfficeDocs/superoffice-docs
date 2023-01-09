@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,24 +42,24 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaleEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Appointment |  | Simple read-only appointment data. <para /> Carrier object for Appointment. Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>. |
-| Associate |  | The sale owner  <para>Use MDO List name "associate" to get list items.</para> |
-| UpdatedBy |  | Who updated the sale |
-| CreatedBy |  | Who created to sale |
-| Contact |  | The contact associated with the sale. It may also be 0 if no contact is associated with the sale.  <para>Use MDO List name "contact" to get list items.</para> |
-| Project |  | A sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| Appointment | Appointment | Simple read-only appointment data. <para /> Carrier object for Appointment. Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>. |
+| Associate | Associate | The sale owner  <para>Use MDO List name "associate" to get list items.</para> |
+| UpdatedBy | Associate | Who updated the sale |
+| CreatedBy | Associate | Who created to sale |
+| Contact | Contact | The contact associated with the sale. It may also be 0 if no contact is associated with the sale.  <para>Use MDO List name "contact" to get list items.</para> |
+| Project | Project | A sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
 | SaleText | string | Text describing the sale |
-| Person |  | A sale may also be connected to a person - this must be a contact person registered on the current contact. This does not mean that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
-| Currency |  | The currency the sale object was sold in  <para>Use MDO List name "currency" to get list items.</para> |
-| Competitor |  | List of all possible competitors.   <para>Use MDO List name "comptr" to get list items.</para> |
-| Credited |  | List of who is to be credited for the sale.  <para>Use MDO List name "credited" to get list items.</para> |
-| Rating |  | The sale rating  <para>Use MDO List name "prob" to get list items.</para> |
-| Reason |  | The sale reason  <para>Use MDO List name "reason" to get list items.</para> |
-| Source |  | The sale source  <para>Use MDO List name "source" to get list items.</para> |
+| Person | Person | A sale may also be connected to a person - this must be a contact person registered on the current contact. This does not mean that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
+| Currency | Currency | The currency the sale object was sold in  <para>Use MDO List name "currency" to get list items.</para> |
+| Competitor | Competitor | List of all possible competitors.   <para>Use MDO List name "comptr" to get list items.</para> |
+| Credited | Credited | List of who is to be credited for the sale.  <para>Use MDO List name "credited" to get list items.</para> |
+| Rating | Rating | The sale rating  <para>Use MDO List name "prob" to get list items.</para> |
+| Reason | Reason | The sale reason  <para>Use MDO List name "reason" to get list items.</para> |
+| Source | Source | The sale source  <para>Use MDO List name "source" to get list items.</para> |
 | Status | string | The state of the Sale: Open / Sold / Lost / Stalled |
 | Saledate | date-time | (expected / lost / won) sales date |
 | Amount | double | Total sale amount |
@@ -76,9 +76,9 @@ Response body:
 | Links | array | List of all elements linked to the sale. |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| SaleType |  | <para>Use MDO List name "saletype" to get list items.</para> |
-| ReasonSold |  | <para>Use MDO List name "reasonsold" to get list items.</para> |
-| ReasonStalled |  | <para>Use MDO List name "reasonstalled" to get list items.</para> |
+| SaleType | SaleType | <para>Use MDO List name "saletype" to get list items.</para> |
+| ReasonSold | ReasonSold | <para>Use MDO List name "reasonsold" to get list items.</para> |
+| ReasonStalled | ReasonStalled | <para>Use MDO List name "reasonstalled" to get list items.</para> |
 | ReopenDate | date-time | Date the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate. |
 | SaleStakeholders | array |  |
 | ActiveErpLinks | int32 | The number of active erp links |
@@ -90,7 +90,7 @@ Response body:
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -99,7 +99,7 @@ Response body:
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "vero",
+  "SaleText": "repudiandae",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -124,113 +124,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2016-07-15T02:49:45.0934673+02:00",
-  "Amount": 18268.086,
-  "SaleId": 33,
-  "Earning": 7806.794,
-  "EarningPercent": 29700.917999999998,
-  "Heading": "qui",
-  "Number": "1237668",
-  "Probability": 469,
-  "CreatedDate": "2007-11-29T02:49:45.0934673+01:00",
-  "UpdatedDate": "2010-12-13T02:49:45.0934673+01:00",
+  "Saledate": "1998-04-23T17:37:18.8332416+02:00",
+  "Amount": 19333.646,
+  "SaleId": 612,
+  "Earning": 4719.804,
+  "EarningPercent": 24395.056,
+  "Heading": "ex",
+  "Number": "904528",
+  "Probability": 376,
+  "CreatedDate": "2001-02-13T17:37:18.8332416+01:00",
+  "UpdatedDate": "2010-03-10T17:37:18.8332416+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 83,
+  "ActiveLinks": 214,
   "Links": [
     {
-      "EntityName": "Von, Smitham and Harris",
-      "Id": 470,
-      "Description": "Programmable multimedia function",
-      "ExtraInfo": "est",
-      "LinkId": 903,
+      "EntityName": "Fay, Johnston and Dibbert",
+      "Id": 875,
+      "Description": "Future-proofed zero defect project",
+      "ExtraInfo": "aut",
+      "LinkId": 83,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 149
+          "FieldLength": 144
         }
       }
     }
   ],
-  "NextDueDate": "1995-07-21T02:49:45.0934673+02:00",
-  "Postit": "mollitia",
+  "NextDueDate": "2007-01-15T17:37:18.8332416+01:00",
+  "Postit": "ea",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-01-08T02:49:45.0934673+01:00",
+  "ReopenDate": "2020-06-28T17:37:18.8332416+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Walter, Gleason and Gerhold",
-      "Comment": "et",
-      "StakeholderRoleId": 323,
-      "CountryId": 477,
-      "PersonId": 792,
-      "EmailDescription": "charles@dickens.ca",
-      "EmailId": 729,
-      "EmailAddress": "garland_bauch@harris.info",
-      "PhoneId": 431,
-      "ContactName": "Denesik, Schmidt and Prosacco",
-      "ContactId": 491,
-      "SaleId": 981,
-      "Mrmrs": "accusamus",
-      "Firstname": "Martina",
-      "MiddleName": "Deckow-West",
-      "Lastname": "Jaskolski",
-      "SaleStakeholderId": 790,
-      "Rank": 230,
-      "Phone": "317-725-9710",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 968
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 659,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Marjorie Wiza",
-    "SuperOffice:2": "Austyn Price"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "quae",
-    "ExtraFields2": "non"
-  },
-  "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "fuga"
-  },
-  "PublishEventDate": "2009-04-19T02:49:45.1090952+02:00",
-  "PublishTo": "2010-03-29T02:49:45.1090952+02:00",
-  "PublishFrom": "2002-09-20T02:49:45.1090952+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 883,
-      "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "StakeholderRoleName": "Wunsch-Rutherford",
+      "Comment": "veniam",
+      "StakeholderRoleId": 363,
+      "CountryId": 619,
+      "PersonId": 954,
+      "EmailDescription": "hank@markstoy.us",
+      "EmailId": 27,
+      "EmailAddress": "darlene.borer@kilback.info",
+      "PhoneId": 53,
+      "ContactName": "Bailey-O'Keefe",
+      "ContactId": 211,
+      "SaleId": 878,
+      "Mrmrs": "aliquid",
+      "Firstname": "Clinton",
+      "MiddleName": "Langworth, Sipes and Jakubowski",
+      "Lastname": "Auer",
+      "SaleStakeholderId": 584,
+      "Rank": 298,
+      "Phone": "930.690.4389 x3190",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 554
+          "FieldLength": 193
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 27,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Jaydon Waelchi",
+    "SuperOffice:2": "Prof. Margarita Elenora Hudson V"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "atque"
+  },
+  "CustomFields": {
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "magni"
+  },
+  "PublishEventDate": "1999-07-10T17:37:18.834242+02:00",
+  "PublishTo": "1999-01-30T17:37:18.834242+01:00",
+  "PublishFrom": "2015-12-03T17:37:18.834242+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 954,
+      "Visibility": "All",
+      "DisplayValue": "mollitia",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 926
         }
       }
     },
     {
-      "VisibleId": 883,
+      "VisibleId": 954,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 554
+          "FieldLength": 926
         }
       }
     }
@@ -240,7 +240,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 102
     }
   }
 }

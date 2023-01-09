@@ -32,7 +32,7 @@ Gets a default PaymentType list item.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ListItemEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +50,7 @@ Response body:
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 998,
-  "Name": "Kuhic LLC",
-  "Tooltip": "itaque",
-  "Deleted": false,
-  "UdListDefinitionId": 240,
-  "Rank": 73,
+  "Id": 558,
+  "Name": "Goldner Inc and Sons",
+  "Tooltip": "quod",
+  "Deleted": true,
+  "UdListDefinitionId": 76,
+  "Rank": 792,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldType": "System.String",
+      "FieldLength": 808
     }
   }
 }

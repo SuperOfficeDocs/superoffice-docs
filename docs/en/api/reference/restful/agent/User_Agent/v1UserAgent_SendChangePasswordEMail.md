@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/SendChangePasswordEMail
 Send a change password email to this users registered address.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/User/SendChangePasswordEMail?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
+| AssociateId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: OperationResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,11 +73,11 @@ Response body:
 POST /api/v1/Agents/User/SendChangePasswordEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 827
+  "AssociateId": 873
 }
 ```
 
@@ -92,6 +89,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "animi"
+  "Message": "corporis"
 }
 ```

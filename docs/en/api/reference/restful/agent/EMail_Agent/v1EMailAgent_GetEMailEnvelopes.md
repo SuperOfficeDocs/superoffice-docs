@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Retrieve a set of e-mail envelopes
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/EMail/GetEMailEnvelopes?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConnectionInfo, MessageServerIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-| MessageServerIds | array |  |
+| ConnectionInfo | EMailConnectionInfo | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| MessageServerIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,21 +61,21 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ServerId | int32 | Unique id for the e-mail on the server |
 | MessageId | string | Unique id of e-mails |
 | Subject | string | Subject of the e-mail |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | To | array | To recipients of e-mail |
 | Sent | date-time | When was the e-mail sent |
 | Priority | string | Importance of the e-mail |
 | Flags | string | Flag status of this mail (unread, replied, deleted ) |
 | Size | int32 | Total size of the e-mail |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
-| TableRight |  |  |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,14 +84,14 @@ Response body: array
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    514,
-    74
+    611,
+    828
   ]
 }
 ```
@@ -107,45 +104,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 661,
-    "MessageId": "voluptatem",
-    "Subject": "illum",
+    "ServerId": 67,
+    "MessageId": "id",
+    "Subject": "commodi",
     "From": null,
     "To": [
       {
-        "ContactId": 77,
-        "ContactName": "Larson-Marks",
-        "PersonId": 497,
-        "PersonName": "Quigley, Rempel and Kris",
-        "AssociateId": 446,
-        "Address": "aperiam",
-        "EmailId": 328,
+        "ContactId": 596,
+        "ContactName": "Hane, Roob and Sporer",
+        "PersonId": 277,
+        "PersonName": "Conn Inc and Sons",
+        "AssociateId": 965,
+        "Address": "inventore",
+        "EmailId": 688,
         "DuplicatePersonIds": [
-          464,
-          900
+          82,
+          190
         ],
-        "Name": "Dach LLC",
+        "Name": "Russel, Blick and Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 863
+            "FieldLength": 397
           }
         }
       }
     ],
-    "Sent": "2010-04-28T02:49:44.4504155+02:00",
+    "Sent": "1999-04-11T17:37:17.9852431+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 307,
+    "Size": 658,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 663
+        "FieldLength": 216
       }
     }
   }

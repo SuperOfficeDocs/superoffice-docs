@@ -42,17 +42,16 @@ POST /api/v1/Agents/Ticket/MergeTickets?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MergedTicketEntity, SecondaryTicketIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MergedTicketEntity |  | The ticket entity is used for representing a service ticket <para /> Carrier object for TicketEntity. Services for the TicketEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>. |
-| SecondaryTicketIds | array |  |
+| MergedTicketEntity | TicketEntity | The ticket entity is used for representing a service ticket <para /> Carrier object for TicketEntity. Services for the TicketEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>. |
+| SecondaryTicketIds | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,16 +76,16 @@ Response body:
 | RepliedAt | date-time | The datetime for when the ticket was replied to. I.e. the first external message added to the ticket. |
 | AlertTimeout | date-time | The datetime for when the ticket should jump to the next alert_level. |
 | Deadline | date-time | Deadline for ticket. |
-| CreatedBy |  | The associate who created this ticket |
+| CreatedBy | Associate | The associate who created this ticket |
 | Author | string | A string representing the author of the ticket (same as author of first message). |
-| OwnedBy |  | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <para>Use MDO List name "associate" to get list items.</para> |
-| Category |  | The ticket category entity which this ticket is connected to  <para>Use MDO List name "ejcategory" to get list items.</para> |
+| OwnedBy | Associate | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <para>Use MDO List name "associate" to get list items.</para> |
+| Category | TicketCategoryEntity | The ticket category entity which this ticket is connected to  <para>Use MDO List name "ejcategory" to get list items.</para> |
 | Slevel | string | The securitylevel of the ticket. |
-| Priority |  | The ticket priority entity which this ticket is connected to  <para>Use MDO List name "ticketpriority" to get list items.</para> |
+| Priority | TicketPriorityEntity | The ticket priority entity which this ticket is connected to  <para>Use MDO List name "ticketpriority" to get list items.</para> |
 | BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  <para>Use MDO List name "ticketstatus" to get list items.</para> |
-| Status |  | The ticket status entity which this ticket is connected to  <para>Use MDO List name "ticketstatus" to get list items.</para> |
+| Status | TicketStatusEntity | The ticket status entity which this ticket is connected to  <para>Use MDO List name "ticketstatus" to get list items.</para> |
 | Origin | string | What is the origin of this ticket |
-| Person |  | The primary person that this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The primary person that this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
 | SecondaryPersons | array | The secondary persons this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
 | AlertLevel | int32 | The alert level for the ticket. Matches the level value of the ticket_alert table. |
 | ConnectId | int32 | If a ticket is connected to another ticket, this field is set to the id of the &amp;apos;master&amp;apos; ticket. |
@@ -114,9 +113,11 @@ Response body:
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
+| Sale | Sale | The sale that this ticket connected to  <para>Use MDO List name "sale" to get list items.</para> |
+| Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -125,14 +126,14 @@ Response body:
 POST /api/v1/Agents/Ticket/MergeTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "MergedTicketEntity": null,
   "SecondaryTicketIds": [
-    159,
-    915
+    323,
+    230
   ]
 }
 ```
@@ -144,21 +145,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 993,
-  "Title": "quis",
-  "CreatedAt": "1996-07-06T02:49:45.5622206+02:00",
-  "LastChanged": "2008-05-02T02:49:45.5622206+02:00",
-  "ReadByOwner": "2008-12-01T02:49:45.5622206+01:00",
-  "ReadByCustomer": "2002-01-29T02:49:45.5622206+01:00",
-  "FirstReadByOwner": "2018-04-24T02:49:45.5622206+02:00",
-  "FirstReadByUser": "2006-05-05T02:49:45.5622206+02:00",
-  "Activate": "1997-05-01T02:49:45.5622206+02:00",
-  "ClosedAt": "2012-05-14T02:49:45.5622206+02:00",
-  "RepliedAt": "1998-06-28T02:49:45.5622206+02:00",
-  "AlertTimeout": "2001-05-14T02:49:45.5622206+02:00",
-  "Deadline": "1998-09-11T02:49:45.5622206+02:00",
+  "TicketId": 790,
+  "Title": "ratione",
+  "CreatedAt": "1999-05-16T17:37:19.4349762+02:00",
+  "LastChanged": "2016-09-11T17:37:19.4349762+02:00",
+  "ReadByOwner": "2008-07-09T17:37:19.4349762+02:00",
+  "ReadByCustomer": "2009-11-10T17:37:19.4349762+01:00",
+  "FirstReadByOwner": "2006-05-22T17:37:19.4349762+02:00",
+  "FirstReadByUser": "2009-07-01T17:37:19.4349762+02:00",
+  "Activate": "2021-02-04T17:37:19.4349762+01:00",
+  "ClosedAt": "1996-10-14T17:37:19.4349762+02:00",
+  "RepliedAt": "1997-09-19T17:37:19.4349762+02:00",
+  "AlertTimeout": "2009-09-13T17:37:19.4349762+02:00",
+  "Deadline": "2019-02-14T17:37:19.4349762+01:00",
   "CreatedBy": null,
-  "Author": "est",
+  "Author": "ut",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -169,155 +170,157 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "totam",
-      "PersonId": 399,
-      "Mrmrs": "enim",
-      "Firstname": "Elisabeth",
-      "Lastname": "Keeling",
-      "MiddleName": "Daniel-Paucek",
-      "Title": "explicabo",
-      "Description": "Synergized homogeneous internet solution",
-      "Email": "keeley.zulauf@framibaumbach.name",
-      "FullName": "Pattie Kuhlman",
-      "DirectPhone": "1-621-510-7530",
-      "FormalName": "Abshire, Krajcik and Batz",
-      "CountryId": 123,
-      "ContactId": 146,
-      "ContactName": "Mosciski Inc and Sons",
-      "Retired": 836,
-      "Rank": 902,
-      "ActiveInterests": 714,
+      "Position": "vitae",
+      "PersonId": 756,
+      "Mrmrs": "ipsam",
+      "Firstname": "Mellie",
+      "Lastname": "Kunde",
+      "MiddleName": "Ebert-Kessler",
+      "Title": "minus",
+      "Description": "Fundamental web-enabled strategy",
+      "Email": "maiya_crooks@nader.biz",
+      "FullName": "Prof. Neoma Ullrich I",
+      "DirectPhone": "361-867-1835",
+      "FormalName": "Haley, Crona and Ernser",
+      "CountryId": 504,
+      "ContactId": 547,
+      "ContactName": "Kessler Group",
+      "Retired": 322,
+      "Rank": 585,
+      "ActiveInterests": 177,
       "ContactDepartment": "",
-      "ContactCountryId": 162,
-      "ContactOrgNr": "546895",
-      "FaxPhone": "1-585-668-8761 x365",
-      "MobilePhone": "055-568-2635",
-      "ContactPhone": "(377)400-6804",
-      "AssociateName": "Bosco Group",
-      "AssociateId": 773,
-      "UsePersonAddress": false,
-      "ContactFax": "modi",
-      "Kanafname": "omnis",
-      "Kanalname": "aut",
-      "Post1": "id",
-      "Post2": "error",
-      "Post3": "voluptas",
-      "EmailName": "adolf_russel@schneiderbartell.biz",
-      "ContactFullName": "Hassie Pfeffer",
-      "ActiveErpLinks": 32,
-      "TicketPriorityId": 685,
-      "SupportLanguageId": 36,
-      "SupportAssociateId": 838,
+      "ContactCountryId": 148,
+      "ContactOrgNr": "1154112",
+      "FaxPhone": "(312)970-6314",
+      "MobilePhone": "1-246-633-4702 x564",
+      "ContactPhone": "1-916-256-9417 x909",
+      "AssociateName": "Crist-Mertz",
+      "AssociateId": 972,
+      "UsePersonAddress": true,
+      "ContactFax": "corporis",
+      "Kanafname": "eum",
+      "Kanalname": "culpa",
+      "Post1": "voluptas",
+      "Post2": "ratione",
+      "Post3": "aliquam",
+      "EmailName": "hettie@ziemanndietrich.ca",
+      "ContactFullName": "Eldora O'Conner",
+      "ActiveErpLinks": 339,
+      "TicketPriorityId": 735,
+      "SupportLanguageId": 360,
+      "SupportAssociateId": 358,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 322
+          "FieldType": "System.String",
+          "FieldLength": 847
         }
       }
     }
   ],
-  "AlertLevel": 675,
-  "ConnectId": 241,
+  "AlertLevel": 140,
+  "ConnectId": 706,
   "ReadStatus": "Green",
-  "TimeToReply": 394,
-  "RealTimeToReply": 441,
-  "TimeToClose": 738,
-  "RealTimeToClose": 792,
-  "TimeSpentInternally": 67,
-  "TimeSpentExternally": 282,
-  "TimeSpentQueue": 629,
-  "RealTimeSpentInternally": 618,
-  "RealTimeSpentExternally": 14,
-  "RealTimeSpentQueue": 401,
-  "HasAttachment": false,
-  "NumReplies": 376,
-  "NumMessages": 660,
-  "FromAddress": "laboriosam",
+  "TimeToReply": 235,
+  "RealTimeToReply": 886,
+  "TimeToClose": 163,
+  "RealTimeToClose": 285,
+  "TimeSpentInternally": 666,
+  "TimeSpentExternally": 200,
+  "TimeSpentQueue": 101,
+  "RealTimeSpentInternally": 266,
+  "RealTimeSpentExternally": 57,
+  "RealTimeSpentQueue": 263,
+  "HasAttachment": true,
+  "NumReplies": 353,
+  "NumMessages": 916,
+  "FromAddress": "suscipit",
   "Messages": [
     {
-      "TicketMessageId": 518,
-      "CreatedAt": "2009-09-03T02:49:45.5778449+02:00",
+      "TicketMessageId": 671,
+      "CreatedAt": "2011-11-05T17:37:19.4389763+01:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "repellendus",
-      "PersonId": 977,
-      "PersonFullName": "Ms. Jeramy Jerrell Kohler",
-      "ContactId": 509,
-      "ContactName": "Bradtke Inc and Sons",
+      "Important": false,
+      "Author": "aliquam",
+      "PersonId": 728,
+      "PersonFullName": "Salvador Rath",
+      "ContactId": 182,
+      "ContactName": "Purdy LLC",
       "ContactDepartment": "",
-      "NumAttachments": 682,
-      "EmailHeader": "alyson_walsh@cormierroberts.us",
+      "NumAttachments": 726,
+      "EmailHeader": "wendell@feil.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "voluptatum",
-      "Sentiment": 400,
-      "SentimentConfidence": 148,
-      "CreatedBy": 319,
-      "ChangedAt": "2016-08-31T02:49:45.5778449+02:00",
+      "Language": "omnis",
+      "Sentiment": 600,
+      "SentimentConfidence": 423,
+      "CreatedBy": 635,
+      "ChangedAt": "1995-11-15T17:37:19.4389763+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 939
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 318,
-      "Name": "Dach LLC",
-      "ToolTip": "Neque consectetur quod et quia necessitatibus.",
+      "Id": 587,
+      "Name": "Miller-Weber",
+      "ToolTip": "Et et aut repellendus vitae quae voluptas.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 169
+          "FieldLength": 619
         }
       }
     },
     {
-      "Id": 318,
-      "Name": "Dach LLC",
-      "ToolTip": "Neque consectetur quod et quia necessitatibus.",
+      "Id": 587,
+      "Name": "Miller-Weber",
+      "ToolTip": "Et et aut repellendus vitae quae voluptas.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 169
+          "FieldLength": 619
         }
       }
     }
   ],
-  "Language": "quaerat",
-  "Sentiment": 791,
-  "SentimentConfidence": 645,
-  "SuggestedCategoryId": 503,
+  "Language": "ut",
+  "Sentiment": 961,
+  "SentimentConfidence": 817,
+  "SuggestedCategoryId": 958,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 585,
-  "IconHint": "et",
+  "OrigHumanCategoryId": 582,
+  "IconHint": "soluta",
+  "Sale": null,
+  "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "accusamus",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "quia"
+    "CustomFields1": "repellendus",
+    "CustomFields2": "nulla"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 139
+      "FieldType": "System.Int32",
+      "FieldLength": 716
     }
   }
 }

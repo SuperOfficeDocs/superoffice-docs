@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: StatusMonitor
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +61,7 @@ Response body:
 | NumMatches | int32 | Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1 |
 | NumNeedUpdate | int32 | Number of targets that had this status, but have their needsUpdate bit set due to some change |
 | GenerationStart | date-time | When was the last regeneration started |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -70,7 +70,7 @@ Response body:
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,27 +80,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 911,
-  "Rank": 889,
-  "DefaultTask": 678,
-  "DefaultTaskText": "est",
-  "IsVisual": true,
-  "LastGenerated": "2007-02-15T02:49:45.0934673+01:00",
-  "Description": "Versatile secondary orchestration",
-  "Name": "Pagac, Hand and Haag",
-  "StatusMonitorId": 797,
-  "PictureId": 391,
+  "OwnerTable": 15,
+  "Rank": 968,
+  "DefaultTask": 94,
+  "DefaultTaskText": "unde",
+  "IsVisual": false,
+  "LastGenerated": "2017-08-27T17:37:18.8132409+02:00",
+  "Description": "Enhanced attitude-oriented Graphical User Interface",
+  "Name": "Yost, Balistreri and Hand",
+  "StatusMonitorId": 354,
+  "PictureId": 732,
   "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 821,
-  "NumNeedUpdate": 668,
-  "GenerationStart": "2017-10-18T02:49:45.0934673+02:00",
+  "Deleted": false,
+  "NumMatches": 117,
+  "NumNeedUpdate": 326,
+  "GenerationStart": "2016-07-11T17:37:18.8132409+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 674
+      "FieldType": "System.Int32",
+      "FieldLength": 672
     }
   }
 }

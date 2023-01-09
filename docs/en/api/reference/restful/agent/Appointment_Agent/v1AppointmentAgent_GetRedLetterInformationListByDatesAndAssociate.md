@@ -44,18 +44,17 @@ POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate?$
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StartDate, EndDate, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StartDate | date-time |  |
-| EndDate | date-time |  |
-| AssociateId | int32 |  |
+| StartDate | String |  |
+| EndDate | String |  |
+| AssociateId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,14 +62,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Date | date-time | Date that this item is valid for; there is exactly one item per date, ordered by date. |
-| RedLetterInformation |  | Summary of redletter day information - holiday in own country, and in other countries known to the system. |
-| RedLetterDetails |  | Red letter day text details, all the texts related to the given day. |
-| TableRight |  |  |
+| RedLetterInformation | RedLetterSummary | Summary of redletter day information - holiday in own country, and in other countries known to the system. |
+| RedLetterDetails | RedLetterDetails | Red letter day text details, all the texts related to the given day. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2016-06-12T02:49:43.261747+02:00",
-  "EndDate": "2011-07-06T02:49:43.261747+02:00",
-  "AssociateId": 74
+  "StartDate": "2004-11-03T17:37:16.2812423+01:00",
+  "EndDate": "1999-10-17T17:37:16.2812423+02:00",
+  "AssociateId": 5
 }
 ```
 
@@ -97,28 +96,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2004-06-04T02:49:43.261747+02:00",
+    "Date": "2015-07-22T17:37:16.2812423+02:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldType": "System.String",
+        "FieldLength": 676
       }
     }
   },
   {
-    "Date": "2004-06-04T02:49:43.261747+02:00",
+    "Date": "2015-07-22T17:37:16.2812423+02:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldType": "System.String",
+        "FieldLength": 676
       }
     }
   }

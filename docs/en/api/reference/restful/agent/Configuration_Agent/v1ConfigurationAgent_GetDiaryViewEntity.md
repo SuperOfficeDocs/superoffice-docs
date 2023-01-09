@@ -25,7 +25,7 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=378
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=695
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,cat
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +64,7 @@ Response body:
 | AssocId | int32 |  |
 | AssociateList | array |  |
 | TzLocationId | int32 |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,7 +73,7 @@ Response body:
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,49 +83,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 606,
-  "Name": "Pouros-Balistreri",
-  "Tooltip": "quidem",
-  "VisibleColumns": 237,
-  "Rank": 238,
-  "AssocId": 485,
+  "DiaryViewId": 851,
+  "Name": "Grimes-West",
+  "Tooltip": "occaecati",
+  "VisibleColumns": 345,
+  "Rank": 996,
+  "AssocId": 633,
   "AssociateList": [
     {
-      "Id": 312,
-      "Name": "Nitzsche, Schumm and Schumm",
-      "ToolTip": "Quod nesciunt harum repellendus odit architecto corrupti nihil.",
-      "Deleted": true,
-      "Rank": 332,
-      "Type": "modi",
-      "ColorBlock": 190,
-      "IconHint": "laborum",
-      "Selected": true,
-      "LastChanged": "2005-05-28T02:49:43.8722795+02:00",
+      "Id": 603,
+      "Name": "Bechtelar Inc and Sons",
+      "ToolTip": "Beatae eos earum esse explicabo deleniti.",
+      "Deleted": false,
+      "Rank": 261,
+      "Type": "qui",
+      "ColorBlock": 504,
+      "IconHint": "dolorem",
+      "Selected": false,
+      "LastChanged": "2001-04-27T17:37:17.1352426+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "molestias",
-      "StyleHint": "culpa",
-      "Hidden": false,
-      "FullName": "Sterling Crooks DVM",
+      "ExtraInfo": "nam",
+      "StyleHint": "voluptatem",
+      "Hidden": true,
+      "FullName": "Pansy Becker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldType": "System.String",
+          "FieldLength": 914
         }
       }
     }
   ],
-  "TzLocationId": 419,
+  "TzLocationId": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldType": "System.String",
+      "FieldLength": 748
     }
   }
 }

@@ -26,7 +26,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=omnis
+GET /api/v1/List/DocumentTemplate/MDOItems?query=est
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/DocumentTemplate/MDOItems?query=omnis
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Name": "Strosin-Weimann",
-    "ToolTip": "Illum sapiente aut.",
+    "Id": 252,
+    "Name": "Kohler LLC",
+    "ToolTip": "Cumque rem.",
     "Deleted": false,
-    "Rank": 806,
-    "Type": "inventore",
+    "Rank": 566,
+    "Type": "sunt",
     "ChildItems": [
       {
-        "Id": 626,
-        "Name": "Bashirian LLC",
-        "ToolTip": "Nisi itaque.",
-        "Deleted": false,
-        "Rank": 17,
-        "Type": "autem",
+        "Id": 770,
+        "Name": "Trantow Group",
+        "ToolTip": "Adipisci mollitia est aspernatur autem labore.",
+        "Deleted": true,
+        "Rank": 711,
+        "Type": "ipsum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 367,
-        "ExtraInfo": "ratione",
-        "StyleHint": "consectetur",
-        "FullName": "Alvah Hyatt DDS",
+        "IconHint": "magni",
+        "ColorBlock": 694,
+        "ExtraInfo": "sint",
+        "StyleHint": "nihil",
+        "FullName": "Miss Kelli Ondricka Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 265
+            "FieldLength": 828
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 832,
-    "ExtraInfo": "accusantium",
-    "StyleHint": "quis",
-    "FullName": "Mr. Gia Berneice Nicolas",
+    "IconHint": "est",
+    "ColorBlock": 26,
+    "ExtraInfo": "perferendis",
+    "StyleHint": "velit",
+    "FullName": "Miss Calista Reichel I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 547
+        "FieldType": "System.Int32",
+        "FieldLength": 33
       }
     }
   }

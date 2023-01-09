@@ -25,7 +25,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=165
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=712
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FormEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +78,7 @@ Response body:
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 | FolderName | string | The name of the folder for this form |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +87,7 @@ Response body:
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 189,
-  "FormKey": "sit",
-  "Name": "Heller Group",
-  "Description": "Polarised coherent knowledge base",
-  "Config": "fugit",
-  "FolderId": 697,
-  "ScriptId": 257,
-  "ResponseShipmentId": 570,
-  "Active": true,
-  "Expires": "2008-08-01T02:49:44.7172985+02:00",
-  "MaxSubmits": 71,
+  "FormId": 543,
+  "FormKey": "deleniti",
+  "Name": "Abshire Group",
+  "Description": "Business-focused value-added groupware",
+  "Config": "sit",
+  "FolderId": 794,
+  "ScriptId": 718,
+  "ResponseShipmentId": 29,
+  "Active": false,
+  "Expires": "2021-08-06T17:37:18.3202415+02:00",
+  "MaxSubmits": 499,
   "Type": "Normal",
-  "Recipe": "tenetur",
-  "GroupId": 326,
+  "Recipe": "et",
+  "GroupId": 901,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2007-03-07T02:49:44.7172985+01:00",
-  "RegisteredAssociateId": 999,
-  "Updated": "1998-03-02T02:49:44.7172985+01:00",
-  "UpdatedAssociateId": 767,
-  "UpdatedCount": 746,
-  "FolderName": "Rau-Ebert",
+  "Registered": "2012-09-28T17:37:18.3202415+02:00",
+  "RegisteredAssociateId": 391,
+  "Updated": "1998-01-10T17:37:18.3202415+01:00",
+  "UpdatedAssociateId": 679,
+  "UpdatedCount": 910,
+  "FolderName": "Ziemann, Konopelski and Schimmel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldLength": 394
     }
   }
 }

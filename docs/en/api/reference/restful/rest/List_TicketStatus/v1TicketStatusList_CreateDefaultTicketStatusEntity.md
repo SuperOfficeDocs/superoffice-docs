@@ -32,7 +32,7 @@ Gets a default TicketStatusEntity list item.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketStatusEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +51,7 @@ Response body:
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
 | IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
 | UsedInQueue | bool | If set, status is used in GetNext calculations |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -60,7 +60,7 @@ Response body:
 GET /api/v1/List/TicketStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,19 +70,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 588,
-  "Name": "Hessel, Bauch and Little",
+  "TicketStatusId": 466,
+  "Name": "Abshire-Hickle",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": false,
-  "UsedInQueue": true,
+  "IsDefault": true,
+  "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 528
+      "FieldType": "System.Int32",
+      "FieldLength": 711
     }
   }
 }

@@ -42,19 +42,18 @@ POST /api/v1/Agents/Import/CreateErpImportData?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Restriction, Columns, ConnectionId, ErpActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Restriction | array |  |
-| Columns | array |  |
-| ConnectionId | int32 |  |
-| ErpActorType | string |  |
+| Restriction | Array |  |
+| Columns | Array |  |
+| ConnectionId | Integer |  |
+| ErpActorType | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,13 +61,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ImportErpData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ImportLines | array | An array of Import lines |
 | ColumnInfos | array | Array of column definitions |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,38 +76,38 @@ Response body:
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Block, Keeling and Grant",
-      "Operator": "aliquid",
+      "Name": "Rutherford-Cassin",
+      "Operator": "quisquam",
       "Values": [
-        "magnam",
-        "et"
+        "quam",
+        "nulla"
       ],
       "DisplayValues": [
-        "occaecati",
-        "in"
+        "aut",
+        "laboriosam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 832,
+      "InterParenthesis": 972,
       "InterOperator": "And",
-      "UniqueHash": 105
+      "UniqueHash": 265
     }
   ],
   "Columns": [
-    "architecto",
-    "ut"
+    "numquam",
+    "et"
   ],
-  "ConnectionId": 234,
+  "ConnectionId": 969,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +122,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "nobis",
-        "alias"
+        "ea",
+        "quibusdam"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "voluptatibus",
+      "ExternalKey": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 52
+          "FieldType": "System.Int32",
+          "FieldLength": 350
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Emmerich Inc and Sons",
-      "DisplayName": "Emmerich Inc and Sons",
-      "Locked": true,
+      "Name": "Krajcik Inc and Sons",
+      "DisplayName": "Keeling LLC",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 206
+          "FieldType": "System.Int32",
+          "FieldLength": 711
         }
       }
     },
     {
-      "Name": "Emmerich Inc and Sons",
-      "DisplayName": "Emmerich Inc and Sons",
-      "Locked": true,
+      "Name": "Krajcik Inc and Sons",
+      "DisplayName": "Keeling LLC",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 206
+          "FieldType": "System.Int32",
+          "FieldLength": 711
         }
       }
     }
@@ -173,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 557
     }
   }
 }

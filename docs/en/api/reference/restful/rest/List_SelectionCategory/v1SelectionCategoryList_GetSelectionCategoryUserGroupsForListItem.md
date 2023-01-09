@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 638,
-    "Name": "Pfannerstill, Lockman and Hermann",
-    "ToolTip": "Totam et esse et ullam.",
+    "Id": 734,
+    "Name": "Kirlin, Christiansen and Kiehn",
+    "ToolTip": "Aut reiciendis ducimus rerum.",
     "Deleted": true,
-    "Rank": 838,
-    "Type": "labore",
-    "ColorBlock": 919,
-    "IconHint": "hic",
+    "Rank": 896,
+    "Type": "dolore",
+    "ColorBlock": 445,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2022-08-16T02:49:52.5159497+02:00",
+    "LastChanged": "1997-08-11T17:37:40.3575059+02:00",
     "ChildItems": [
       {
-        "Id": 583,
-        "Name": "Leffler-Halvorson",
-        "ToolTip": "Perspiciatis aut accusamus.",
+        "Id": 57,
+        "Name": "Flatley, Kiehn and Okuneva",
+        "ToolTip": "Veritatis aliquid odit.",
         "Deleted": false,
-        "Rank": 837,
-        "Type": "laborum",
-        "ColorBlock": 533,
-        "IconHint": "iusto",
+        "Rank": 504,
+        "Type": "maxime",
+        "ColorBlock": 767,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2015-12-22T02:49:52.5159497+01:00",
+        "LastChanged": "2016-11-03T17:37:40.3575059+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "delectus",
-        "Hidden": false,
-        "FullName": "Miss Dannie Cormier Sr.",
+        "ExtraInfo": "eos",
+        "StyleHint": "dolor",
+        "Hidden": true,
+        "FullName": "Trystan Trantow II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldLength": 869
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "aliquid",
-    "Hidden": false,
-    "FullName": "Miss Seamus Zelma Denesik",
+    "ExtraInfo": "saepe",
+    "StyleHint": "doloribus",
+    "Hidden": true,
+    "FullName": "Mrs. Viola Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 195
+        "FieldType": "System.String",
+        "FieldLength": 732
       }
     }
   }

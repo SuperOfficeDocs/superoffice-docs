@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +80,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -99,46 +99,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 457,
-  "ColumnId": 887,
-  "FieldDefault": "quaerat",
-  "FieldHeight": 337,
-  "FieldLabel": "dignissimos",
-  "FieldLeft": 164,
-  "FieldTop": 276,
+  "UDefFieldId": 227,
+  "ColumnId": 659,
+  "FieldDefault": "vel",
+  "FieldHeight": 571,
+  "FieldLabel": "eius",
+  "FieldLeft": 672,
+  "FieldTop": 86,
   "FieldType": "Checkbox",
-  "FieldWidth": 881,
-  "FormatMask": "at",
-  "HideLabel": false,
+  "FieldWidth": 851,
+  "FormatMask": "eveniet",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 917,
-  "LabelLeft": 113,
-  "LabelTop": 622,
-  "LabelWidth": 276,
-  "LastVersionId": 634,
-  "ListTableId": 274,
-  "IsMandatory": true,
+  "LabelHeight": 829,
+  "LabelLeft": 417,
+  "LabelTop": 175,
+  "LabelWidth": 725,
+  "LastVersionId": 912,
+  "ListTableId": 732,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 726,
-  "ProgId": "assumenda",
+  "Page1LineNo": 967,
+  "ProgId": "facere",
   "IsReadOnly": false,
-  "ShortLabel": "molestiae",
-  "TabOrder": 294,
-  "TextLength": 282,
-  "Tooltip": "quo",
-  "UdefIdentity": 374,
-  "UDListDefinitionId": 225,
+  "ShortLabel": "laborum",
+  "TabOrder": 731,
+  "TextLength": 750,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 868,
+  "UDListDefinitionId": 636,
   "Justification": "Center",
-  "Version": 941,
-  "TemplateVariableName": "Beier Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Leuschke LLC",
+  "Version": 660,
+  "TemplateVariableName": "Farrell, Berge and Hermann",
+  "HasBeenPublished": true,
+  "MdoListName": "Walsh LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 811
+      "FieldLength": 208
     }
   }
 }

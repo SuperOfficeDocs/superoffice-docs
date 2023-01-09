@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/CanDeleteErpSyncConnectorEntity
 Can we delete the connector?
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/ErpSync/CanDeleteErpSyncConnectorEntity?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpSyncConnectorId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpSyncConnectorId | int32 |  |
+| ErpSyncConnectorId | Integer |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -72,11 +69,11 @@ Response body: string
 POST /api/v1/Agents/ErpSync/CanDeleteErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectorId": 819
+  "ErpSyncConnectorId": 266
 }
 ```
 

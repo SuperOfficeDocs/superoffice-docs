@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailConnectionInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +54,7 @@ Response body:
 | Password | string | Password for the username |
 | Folder | string | Optional folder to set as current after logging in |
 | UseSSL | bool | Use a secure connection with the server |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -63,7 +63,7 @@ Response body:
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,17 +73,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Schamberger, Conn and Eichmann",
-  "UserName": "Reynolds Group",
-  "Password": "sint",
-  "Folder": "quo",
-  "UseSSL": true,
+  "ServerName": "Renner, Greenfelder and Rau",
+  "UserName": "Roob-Conroy",
+  "Password": "neque",
+  "Folder": "voluptate",
+  "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 443
+      "FieldLength": 437
     }
   }
 }

@@ -44,18 +44,17 @@ POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables2?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId, AssociateId, CustomTags 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
-| AssociateId | int32 |  |
-| CustomTags | object |  |
+| DocumentId | Integer |  |
+| AssociateId | Integer |  |
+| CustomTags | PersonEntity |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -72,15 +71,15 @@ Response body: byte
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 119,
-  "AssociateId": 220,
+  "DocumentId": 417,
+  "AssociateId": 22,
   "CustomTags": {
-    "CustomTags1": "dolore",
-    "CustomTags2": "quo"
+    "CustomTags1": "labore",
+    "CustomTags2": "distinctio"
   }
 }
 ```

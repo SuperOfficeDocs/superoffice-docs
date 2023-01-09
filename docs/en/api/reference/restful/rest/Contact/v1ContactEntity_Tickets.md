@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,12 +73,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Tickets?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Tickets?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Tickets?$orderBy=name asc
-GET /api/v1/Contact/{id}/Tickets?$entities=voluptatem
-GET /api/v1/Contact/{id}/Tickets?$top=83
-GET /api/v1/Contact/{id}/Tickets?$skip=395
+GET /api/v1/Contact/{id}/Tickets?$entities=ipsa
+GET /api/v1/Contact/{id}/Tickets?$top=56
+GET /api/v1/Contact/{id}/Tickets?$skip=989
 GET /api/v1/Contact/{id}/Tickets?$mode=Full
 GET /api/v1/Contact/{id}/Tickets?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Tickets?$context=aut
+GET /api/v1/Contact/{id}/Tickets?$context=mollitia
 GET /api/v1/Contact/{id}/Tickets?$format=JSON
 GET /api/v1/Contact/{id}/Tickets?$jsonSafe=True
 GET /api/v1/Contact/{id}/Tickets?$output=Display
@@ -100,7 +99,7 @@ GET /api/v1/Contact/{id}/Tickets?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "reiciendis",
+  "odata.nextLink": "id",
   "value": [
     {
-      "PrimaryKey": 3457,
-      "EntityName": "person",
-      "personId": 3457,
-      "fullName": "Ms. Breanne Kennith Yundt"
+      "PrimaryKey": 9928,
+      "EntityName": "sale",
+      "saleId": 9928,
+      "contactId": 6834,
+      "name": "Boyle-Bins"
     },
     {
-      "PrimaryKey": 1188,
-      "EntityName": "person",
-      "personId": 1188,
-      "fullName": "Kip Hintz"
+      "PrimaryKey": 8605,
+      "EntityName": "sale",
+      "saleId": 8605,
+      "contactId": 6471,
+      "name": "Zemlak-Witting"
     }
   ]
 }

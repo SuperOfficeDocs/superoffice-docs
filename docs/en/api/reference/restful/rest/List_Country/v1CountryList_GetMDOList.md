@@ -26,7 +26,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=et
+GET /api/v1/List/Country/MDOItems?query=vel
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/Country/MDOItems?query=et
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 652,
-    "Name": "Cassin, Wisozk and Conroy",
-    "ToolTip": "Sed quidem.",
-    "Deleted": false,
-    "Rank": 146,
-    "Type": "beatae",
+    "Id": 35,
+    "Name": "Altenwerth, Emmerich and Reichert",
+    "ToolTip": "Quod quasi laboriosam.",
+    "Deleted": true,
+    "Rank": 56,
+    "Type": "laboriosam",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Goodwin-Satterfield",
-        "ToolTip": "Delectus voluptate eos illum facilis laborum doloremque.",
+        "Id": 133,
+        "Name": "Becker-Runolfsson",
+        "ToolTip": "Voluptatem aspernatur ut hic alias.",
         "Deleted": false,
-        "Rank": 664,
-        "Type": "laboriosam",
+        "Rank": 640,
+        "Type": "deserunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 870,
-        "ExtraInfo": "doloribus",
-        "StyleHint": "ut",
-        "FullName": "Maynard Sipes",
+        "IconHint": "dicta",
+        "ColorBlock": 915,
+        "ExtraInfo": "aut",
+        "StyleHint": "doloribus",
+        "FullName": "Prof. Gracie Deckow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldLength": 363
           }
         }
       }
     ],
-    "IconHint": "sequi",
-    "ColorBlock": 155,
-    "ExtraInfo": "in",
-    "StyleHint": "et",
-    "FullName": "Else Myrtie Pouros Jr.",
+    "IconHint": "ut",
+    "ColorBlock": 99,
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "consequatur",
+    "FullName": "Prof. Brad Ruben Farrell DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 195
+        "FieldLength": 346
       }
     }
   }

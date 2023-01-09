@@ -38,20 +38,19 @@ POST /api/v1/Agents/Find/DeleteRestrictionGroup?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, Rank, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| Rank | int32 |  |
-| Context | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| Rank | Integer |  |
+| Context | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -59,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -68,15 +67,15 @@ Response body:
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolore",
-  "ProviderName": "Wintheiser-Barrows",
-  "StorageKey": "consectetur",
-  "Rank": 347,
-  "Context": "aut"
+  "StorageType": "necessitatibus",
+  "ProviderName": "Hoeger-Nicolas",
+  "StorageKey": "repellendus",
+  "Rank": 91,
+  "Context": "quidem"
 }
 ```
 

@@ -25,7 +25,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=189
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=8
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashboardTile
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +70,7 @@ Response body:
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,7 +79,7 @@ Response body:
 POST /api/v1/Agents/Dashboard/GetDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,64 +89,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 620,
-  "Caption": "temporibus",
-  "Description": "Configurable intangible superstructure",
-  "ChartName": "Oberbrunner, Predovic and Sanford",
-  "ChartId": "modi",
+  "DashboardTileId": 544,
+  "Caption": "beatae",
+  "Description": "Profit-focused 24 hour implementation",
+  "ChartName": "Stanton-Boyle",
+  "ChartId": "exercitationem",
   "IsDefault": false,
-  "AssociateId": 145,
-  "GroupId": 622,
-  "SelectionId": 16,
-  "Config": "ea",
+  "AssociateId": 619,
+  "GroupId": 445,
+  "SelectionId": 338,
+  "Config": "sit",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Muller-Schmeler",
-      "Description": "Optimized encompassing groupware",
+      "Name": "Jerde, Emmerich and Maggio",
+      "Description": "Synergistic logistical complexity",
       "Type": "Boolean",
-      "ListName": "Spinka LLC",
+      "ListName": "McLaughlin-Kirlin",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quasi",
+      "Value": "consequatur",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldLength": 777
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 525,
+      "VisibleId": 579,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 487
+          "FieldType": "System.String",
+          "FieldLength": 124
         }
       }
     },
     {
-      "VisibleId": 525,
+      "VisibleId": 579,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 487
+          "FieldType": "System.String",
+          "FieldLength": 124
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldType": "System.String",
+      "FieldLength": 12
     }
   }
 }

@@ -40,21 +40,20 @@ POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName?$select=name,department
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
-| KeyName | string |  |
-| TableName | string |  |
-| RecordId | int32 |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
+| KeyName | String |  |
+| TableName | String |  |
+| RecordId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -62,7 +61,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -71,16 +70,16 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Murazik, Senger and Nicolas",
-  "DeviceName": "Rau LLC",
-  "DeviceIdentifier": "qui",
-  "KeyName": "D'Amore-Quigley",
-  "TableName": "Donnelly-Grimes",
-  "RecordId": 968
+  "ApplicationName": "Marvin LLC",
+  "DeviceName": "Stracke LLC",
+  "DeviceIdentifier": "autem",
+  "KeyName": "Windler, O'Connell and Ruecker",
+  "TableName": "Kris, Gleason and Dicki",
+  "RecordId": 865
 }
 ```
 

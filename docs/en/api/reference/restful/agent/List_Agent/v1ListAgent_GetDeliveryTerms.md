@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/GetDeliveryTerms?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,14 +50,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 | The List Item Id |
 | Value | string | The List Item Value |
 | Tooltip | string | The List Item Tooltip |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 728,
-    "Value": "ut",
-    "Tooltip": "et",
+    "Id": 842,
+    "Value": "eius",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 278
+        "FieldType": "System.Int32",
+        "FieldLength": 264
       }
     }
   },
   {
-    "Id": 728,
-    "Value": "ut",
-    "Tooltip": "et",
+    "Id": 842,
+    "Value": "eius",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 278
+        "FieldType": "System.Int32",
+        "FieldLength": 264
       }
     }
   }

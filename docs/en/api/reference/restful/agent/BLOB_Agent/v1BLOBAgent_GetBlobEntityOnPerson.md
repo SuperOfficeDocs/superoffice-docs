@@ -42,16 +42,15 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
+| PersonId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BlobEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,10 +72,10 @@ Response body:
 | OriginalSize | int32 | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,11 +84,11 @@ Response body:
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 31
+  "PersonId": 917
 }
 ```
 
@@ -100,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 277,
-  "BlobSize": 251,
-  "Description": "Profit-focused bottom-line strategy",
-  "ExtraInfo": "cupiditate",
+  "BlobId": 258,
+  "BlobSize": 463,
+  "Description": "Expanded system-worthy time-frame",
+  "ExtraInfo": "voluptates",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "in",
-  "OriginalSize": 266,
-  "CreatedDate": "2003-02-10T02:49:43.7160326+01:00",
-  "UpdatedDate": "2022-05-15T02:49:43.7160326+02:00",
+  "IsZipped": true,
+  "MimeType": "exercitationem",
+  "OriginalSize": 452,
+  "CreatedDate": "2008-02-01T17:37:16.9202417+01:00",
+  "UpdatedDate": "2002-07-06T17:37:16.9202417+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 550
+      "FieldLength": 566
     }
   }
 }

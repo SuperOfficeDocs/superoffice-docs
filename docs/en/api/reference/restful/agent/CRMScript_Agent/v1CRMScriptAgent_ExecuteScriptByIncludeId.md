@@ -12,8 +12,6 @@ POST /api/v1/Agents/CRMScript/ExecuteScriptByIncludeId
 Execute a CRMScript with parameters, returning printed output value.
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/CRMScript/ExecuteScriptByIncludeId?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 CRMScriptIncludeId, Parameters 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CRMScriptIncludeId | string |  |
-| Parameters | object |  |
+| CRMScriptIncludeId | String |  |
+| Parameters | PersonEntity |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -73,14 +70,14 @@ Response body: string
 POST /api/v1/Agents/CRMScript/ExecuteScriptByIncludeId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "dolores",
+  "CRMScriptIncludeId": "et",
   "Parameters": {
-    "Parameters1": "voluptates",
-    "Parameters2": "laborum"
+    "Parameters1": "facilis",
+    "Parameters2": "quasi"
   }
 }
 ```
@@ -91,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"blanditiis"
+"reiciendis"
 ```

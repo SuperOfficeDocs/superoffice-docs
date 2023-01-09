@@ -38,16 +38,15 @@ POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLines?$select=name,dep
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PrefDescLineIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PrefDescLineIds | array |  |
+| PrefDescLineIds | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -55,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -64,13 +63,13 @@ Response body:
 POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "PrefDescLineIds": [
-    981,
-    436
+    752,
+    155
   ]
 }
 ```

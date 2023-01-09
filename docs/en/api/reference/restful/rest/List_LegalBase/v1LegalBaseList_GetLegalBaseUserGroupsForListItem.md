@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Gleichner, McGlynn and Steuber",
-    "ToolTip": "Iure voluptatem aut dolor aut numquam adipisci voluptate.",
+    "Id": 921,
+    "Name": "Lindgren Inc and Sons",
+    "ToolTip": "Et est soluta.",
     "Deleted": false,
-    "Rank": 127,
-    "Type": "cum",
-    "ColorBlock": 391,
-    "IconHint": "iure",
+    "Rank": 94,
+    "Type": "aut",
+    "ColorBlock": 919,
+    "IconHint": "at",
     "Selected": false,
-    "LastChanged": "2016-12-20T02:49:52.2659433+01:00",
+    "LastChanged": "2011-05-21T17:37:40.0365028+02:00",
     "ChildItems": [
       {
-        "Id": 325,
-        "Name": "Lakin-Schmidt",
-        "ToolTip": "Corporis facere consequatur dolorum.",
-        "Deleted": true,
-        "Rank": 529,
-        "Type": "pariatur",
-        "ColorBlock": 263,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "1996-05-07T02:49:52.2659433+02:00",
+        "Id": 397,
+        "Name": "Block, Hoeger and Botsford",
+        "ToolTip": "Ex error voluptas nihil labore labore.",
+        "Deleted": false,
+        "Rank": 868,
+        "Type": "labore",
+        "ColorBlock": 950,
+        "IconHint": "cupiditate",
+        "Selected": true,
+        "LastChanged": "2006-09-05T17:37:40.0365028+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "laborum",
+        "StyleHint": "at",
         "Hidden": true,
-        "FullName": "Johnnie Stokes",
+        "FullName": "Mrs. Martina Littel IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 740
+            "FieldLength": 908
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "quia",
+    "StyleHint": "voluptate",
     "Hidden": false,
-    "FullName": "Noemy Schuster V",
+    "FullName": "Theresa Russel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 377
+        "FieldType": "System.Int32",
+        "FieldLength": 756
       }
     }
   }

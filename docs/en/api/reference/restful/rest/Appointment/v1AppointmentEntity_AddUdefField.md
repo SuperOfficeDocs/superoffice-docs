@@ -42,7 +42,7 @@ POST /api/v1/Appointment/UdefLayout?udefFieldType=Checkbox
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +88,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,7 +97,7 @@ Response body:
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 378,
-  "ColumnId": 555,
-  "FieldDefault": "asperiores",
-  "FieldHeight": 108,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 950,
-  "FieldTop": 30,
+  "UDefFieldId": 129,
+  "ColumnId": 577,
+  "FieldDefault": "sequi",
+  "FieldHeight": 832,
+  "FieldLabel": "quia",
+  "FieldLeft": 89,
+  "FieldTop": 301,
   "FieldType": "Checkbox",
-  "FieldWidth": 396,
-  "FormatMask": "et",
+  "FieldWidth": 26,
+  "FormatMask": "accusamus",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 291,
-  "LabelLeft": 928,
-  "LabelTop": 580,
-  "LabelWidth": 378,
-  "LastVersionId": 599,
-  "ListTableId": 115,
-  "IsMandatory": true,
+  "LabelHeight": 342,
+  "LabelLeft": 775,
+  "LabelTop": 292,
+  "LabelWidth": 191,
+  "LastVersionId": 830,
+  "ListTableId": 381,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 616,
-  "ProgId": "est",
+  "Page1LineNo": 241,
+  "ProgId": "dolorum",
   "IsReadOnly": false,
-  "ShortLabel": "quidem",
-  "TabOrder": 729,
-  "TextLength": 543,
-  "Tooltip": "temporibus",
-  "UdefIdentity": 126,
-  "UDListDefinitionId": 899,
+  "ShortLabel": "dolorem",
+  "TabOrder": 802,
+  "TextLength": 133,
+  "Tooltip": "error",
+  "UdefIdentity": 91,
+  "UDListDefinitionId": 542,
   "Justification": "Center",
-  "Version": 656,
-  "TemplateVariableName": "Bogan, Sipes and Littel",
-  "HasBeenPublished": false,
-  "MdoListName": "Gottlieb LLC",
+  "Version": 446,
+  "TemplateVariableName": "King-Lindgren",
+  "HasBeenPublished": true,
+  "MdoListName": "Kirlin-Mraz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldType": "System.String",
+      "FieldLength": 712
     }
   }
 }

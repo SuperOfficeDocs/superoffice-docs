@@ -42,18 +42,17 @@ POST /api/v1/Agents/List/SaveFromListDefinition?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Id, UdListDefinitionId, Item 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 |  |
-| UdListDefinitionId | int32 |  |
-| Item |  | The list item entity contains generic list item information <para /> Carrier object for ListItemEntity. Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| Id | Integer |  |
+| UdListDefinitionId | Integer |  |
+| Item | ListItemEntity | The list item entity contains generic list item information <para /> Carrier object for ListItemEntity. Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ListItemEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body:
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 590,
-  "UdListDefinitionId": 489,
+  "Id": 980,
+  "UdListDefinitionId": 246,
   "Item": null
 }
 ```
@@ -97,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 564,
-  "Name": "Harris-Rogahn",
-  "Tooltip": "fugiat",
+  "Id": 586,
+  "Name": "Kuhn-Huels",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "UdListDefinitionId": 306,
-  "Rank": 736,
+  "UdListDefinitionId": 196,
+  "Rank": 435,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldLength": 359
     }
   }
 }

@@ -42,20 +42,19 @@ POST /api/v1/Agents/Document/ExecuteDocumentCommand?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId, VersionId, AllowedReturnTypes, Command, AdditionalData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
-| VersionId | string |  |
-| AllowedReturnTypes | array |  |
-| Command | string |  |
-| AdditionalData | array |  |
+| DocumentId | Integer |  |
+| VersionId | String |  |
+| AllowedReturnTypes | Array |  |
+| Command | String |  |
+| AdditionalData | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,16 +83,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 972,
-  "VersionId": "quidem",
+  "DocumentId": 618,
+  "VersionId": "a",
   "AllowedReturnTypes": [
-    "vero",
-    "sed"
+    "sit",
+    "reiciendis"
   ],
-  "Command": "eum",
+  "Command": "illo",
   "AdditionalData": [
-    "ea",
-    "nesciunt"
+    "asperiores",
+    "ea"
   ]
 }
 ```
@@ -105,11 +104,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ex",
-  "VersionId": "dicta",
+  "ExternalReference": "incidunt",
+  "VersionId": "minima",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "temporibus",
-  "AdditionalInfo": "temporibus"
+  "Value": "atque",
+  "AdditionalInfo": "modi"
 }
 ```

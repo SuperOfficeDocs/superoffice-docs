@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "McKenzie, Hamill and Gutkowski",
-    "ToolTip": "Consequuntur accusamus quia excepturi ea atque voluptatem.",
-    "Deleted": true,
-    "Rank": 648,
-    "Type": "quaerat",
-    "ColorBlock": 167,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2017-07-31T02:49:52.3753234+02:00",
+    "Id": 42,
+    "Name": "Brekke, Pfannerstill and Labadie",
+    "ToolTip": "Nesciunt et dolor et enim.",
+    "Deleted": false,
+    "Rank": 249,
+    "Type": "voluptatem",
+    "ColorBlock": 963,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2019-07-24T17:37:40.1655016+02:00",
     "ChildItems": [
       {
-        "Id": 266,
-        "Name": "Purdy, Ernser and Halvorson",
-        "ToolTip": "Quia aliquam enim quas numquam sint deserunt ducimus.",
+        "Id": 958,
+        "Name": "Schmeler-Mills",
+        "ToolTip": "Velit voluptas occaecati.",
         "Deleted": false,
-        "Rank": 126,
-        "Type": "voluptas",
-        "ColorBlock": 738,
-        "IconHint": "adipisci",
+        "Rank": 375,
+        "Type": "nemo",
+        "ColorBlock": 959,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2015-04-27T02:49:52.3753234+02:00",
+        "LastChanged": "2020-09-23T17:37:40.1655016+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "qui",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Coby Batz",
+        "FullName": "Kaylah Turcotte MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 741
+            "FieldType": "System.Int32",
+            "FieldLength": 324
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "ex",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Coleman Kovacek",
+    "FullName": "Prof. Luis Pollich DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldType": "System.String",
+        "FieldLength": 887
       }
     }
   }

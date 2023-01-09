@@ -25,8 +25,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=aut
+GET /api/v1/List/PaymentType/MDOItems?flat=True
+GET /api/v1/List/PaymentType/MDOItems?query=est
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/PaymentType/MDOItems?query=aut
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Kutch LLC",
-    "ToolTip": "Sit aliquam dolorem sunt nostrum.",
-    "Deleted": true,
-    "Rank": 333,
-    "Type": "inventore",
+    "Id": 493,
+    "Name": "Bashirian, Lubowitz and Schuster",
+    "ToolTip": "Quia ut.",
+    "Deleted": false,
+    "Rank": 167,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 624,
-        "Name": "Osinski, Renner and Anderson",
-        "ToolTip": "Non dolore autem repellat tenetur aut aut corrupti.",
+        "Id": 532,
+        "Name": "Bosco-Oberbrunner",
+        "ToolTip": "Voluptatibus sed inventore rerum fugit qui saepe.",
         "Deleted": false,
-        "Rank": 84,
-        "Type": "modi",
+        "Rank": 369,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quae",
-        "ColorBlock": 865,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "beatae",
-        "FullName": "Maegan Murazik",
+        "IconHint": "molestiae",
+        "ColorBlock": 252,
+        "ExtraInfo": "quidem",
+        "StyleHint": "qui",
+        "FullName": "Earl Lehner I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 757
+            "FieldLength": 478
           }
         }
       }
     ],
-    "IconHint": "iusto",
-    "ColorBlock": 544,
-    "ExtraInfo": "sed",
-    "StyleHint": "eum",
-    "FullName": "Vinnie Larson",
+    "IconHint": "aliquam",
+    "ColorBlock": 50,
+    "ExtraInfo": "temporibus",
+    "StyleHint": "occaecati",
+    "FullName": "Cassandra Parisian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldLength": 171
       }
     }
   }

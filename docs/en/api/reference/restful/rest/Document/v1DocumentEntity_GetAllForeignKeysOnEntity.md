@@ -36,7 +36,7 @@ Foreign keys on the DocumentEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: object
+## Response:object
 
 OK
 
@@ -45,7 +45,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -54,7 +54,7 @@ Response body: object
 GET /api/v1/Document/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -64,7 +64,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nobis",
-  "2": "sit"
+  "1": "voluptatibus",
+  "2": "ab"
 }
 ```

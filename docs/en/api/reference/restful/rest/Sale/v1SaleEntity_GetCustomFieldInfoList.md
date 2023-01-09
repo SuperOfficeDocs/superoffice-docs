@@ -34,7 +34,7 @@ Excludes standard fields.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +66,7 @@ Response body: array
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Swaniawski-Corwin",
-    "DisplayName": "Monahan LLC",
-    "Description": "Cross-platform background benchmark",
-    "ShortLabel": "et",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 3,
-    "TemplateVariableName": "Kub-Jerde"
+    "FieldName": "Donnelly Inc and Sons",
+    "DisplayName": "Stark, Jenkins and Rippin",
+    "Description": "Public-key non-volatile definition",
+    "ShortLabel": "ipsa",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": true,
+    "IsMandatory": false,
+    "IsReadOnly": false,
+    "IsExternal": true,
+    "Rank": 530,
+    "TemplateVariableName": "Wilderman Inc and Sons"
   }
 ]
 ```

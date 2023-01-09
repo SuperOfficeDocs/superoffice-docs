@@ -32,7 +32,7 @@ Gets description of Rating list
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ListEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +54,7 @@ Response body:
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 867,
-  "Name": "Brekke LLC",
-  "Tooltip": "sit",
+  "Id": 852,
+  "Name": "Dietrich, Kessler and Rowe",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 816,
-  "IsCustomList": true,
+  "Rank": 617,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldType": "System.String",
+      "FieldLength": 342
     }
   },
   "_Links": {

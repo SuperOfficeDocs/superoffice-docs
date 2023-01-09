@@ -42,13 +42,12 @@ POST /api/v1/Agents/List/GetDocumentTemplateList?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: documentTemplateIds  
+## Request Body: documentTemplateIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body: array
 | Direction | string | 1 = incoming, 2 = outgoing, see EAppntDirection |
 | AutoeventId | int32 | Which document plugin is responsible for the documents generated from this template |
 | QuoteDocType | string | What type of quote document is this. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,7 +79,7 @@ Response body: array
 POST /api/v1/Agents/List/GetDocumentTemplateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,23 +90,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 954,
-    "Name": "Luettgen LLC",
-    "Tooltip": "qui",
-    "SaveInDb": 335,
-    "Filename": "quis",
-    "DefaultOref": "quasi",
+    "DocumentTemplateId": 869,
+    "Name": "Runolfsdottir-Stokes",
+    "Tooltip": "itaque",
+    "SaveInDb": 790,
+    "Filename": "consequatur",
+    "DefaultOref": "ea",
     "RecordType": "Appointment",
-    "Deleted": 20,
+    "Deleted": 18,
     "Direction": "Incoming",
-    "AutoeventId": 765,
+    "AutoeventId": 269,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 479
+        "FieldType": "System.Int32",
+        "FieldLength": 862
       }
     }
   }

@@ -42,7 +42,7 @@ POST /api/v1/Agents/Audience/GetMyConfigParameters?$select=name,department,categ
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +61,7 @@ Response body: array
 | UpdatedDate | date-time | The date and time the configuration parameter was last updated  in UTC. |
 | CreatedBy | string | Name of the person that created the configuration parameter |
 | UpdatedBy | string | Name of the person that last updated the configuration parameter |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -70,7 +70,7 @@ Response body: array
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 275,
-    "Name": "Carter Group",
-    "Value": "eos",
-    "CreatedDate": "2009-08-18T02:49:43.6847821+02:00",
-    "UpdatedDate": "1997-07-09T02:49:43.6847821+02:00",
-    "CreatedBy": "deleniti",
-    "UpdatedBy": "ea",
+    "AudienceLayoutId": 283,
+    "Name": "Lubowitz Inc and Sons",
+    "Value": "sit",
+    "CreatedDate": "2005-07-02T17:37:16.8842438+02:00",
+    "UpdatedDate": "2012-11-26T17:37:16.8842438+01:00",
+    "CreatedBy": "doloremque",
+    "UpdatedBy": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 530
+        "FieldLength": 780
       }
     }
   }

@@ -42,18 +42,17 @@ POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionName, ListItemId, Headings 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionName | string |  |
-| ListItemId | int32 |  |
-| Headings | array |  |
+| UdListDefinitionName | String |  |
+| ListItemId | Integer |  |
+| Headings | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,32 +88,32 @@ Response body: array
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bode Group",
-  "ListItemId": 718,
+  "UdListDefinitionName": "Schmeler, Cronin and Wolff",
+  "ListItemId": 165,
   "Headings": [
     {
-      "Id": 695,
-      "Name": "Mills, Stehr and Romaguera",
-      "ToolTip": "Aut ipsum numquam.",
+      "Id": 910,
+      "Name": "Friesen Group",
+      "ToolTip": "Ea magni reprehenderit nihil sit incidunt.",
       "Deleted": true,
-      "Rank": 679,
-      "Type": "perferendis",
-      "ColorBlock": 419,
-      "IconHint": "aut",
+      "Rank": 609,
+      "Type": "deleniti",
+      "ColorBlock": 528,
+      "IconHint": "dignissimos",
       "Selected": false,
-      "LastChanged": "2018-11-06T02:49:44.6235457+01:00",
+      "LastChanged": "2018-09-01T17:37:18.2102447+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "velit",
-      "StyleHint": "et",
+      "ExtraInfo": "ab",
+      "StyleHint": "temporibus",
       "Hidden": false,
-      "FullName": "Harold Schaden"
+      "FullName": "Augustine Quitzon"
     }
   ]
 }
@@ -128,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "Davis LLC",
-    "ToolTip": "Expedita et.",
-    "Deleted": true,
-    "Rank": 469,
-    "Type": "ut",
-    "ColorBlock": 942,
-    "IconHint": "nesciunt",
+    "Id": 132,
+    "Name": "Johnston-Koch",
+    "ToolTip": "Aut aut labore commodi dolor sint.",
+    "Deleted": false,
+    "Rank": 952,
+    "Type": "quisquam",
+    "ColorBlock": 36,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2003-02-13T02:49:44.6235457+01:00",
+    "LastChanged": "2003-09-06T17:37:18.2112444+02:00",
     "ChildItems": [
       {
-        "Id": 239,
-        "Name": "Fadel LLC",
-        "ToolTip": "A repellendus.",
+        "Id": 40,
+        "Name": "Yost-Ritchie",
+        "ToolTip": "Sequi perferendis dolore velit qui.",
         "Deleted": false,
-        "Rank": 944,
-        "Type": "sit",
-        "ColorBlock": 13,
-        "IconHint": "voluptatum",
-        "Selected": false,
-        "LastChanged": "2018-06-17T02:49:44.6235457+02:00",
+        "Rank": 120,
+        "Type": "autem",
+        "ColorBlock": 581,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "1999-11-28T17:37:18.2112444+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "maxime",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "dolorum",
         "Hidden": false,
-        "FullName": "Lonny Darryl Kuphal PhD",
+        "FullName": "Miss Cesar Eldora Dickinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 933
+            "FieldType": "System.Int32",
+            "FieldLength": 754
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "ut",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Mariane Ullrich",
+    "FullName": "Edward Mellie Blick II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldLength": 594
       }
     }
   }

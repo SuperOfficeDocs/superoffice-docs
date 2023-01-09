@@ -42,7 +42,7 @@ DELETE /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +67,7 @@ Response body:
 DELETE /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,11 +77,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "voluptate",
-  "VersionId": "aspernatur",
+  "ExternalReference": "ipsa",
+  "VersionId": "ullam",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "qui",
-  "AdditionalInfo": "nihil"
+  "Value": "quos",
+  "AdditionalInfo": "ad"
 }
 ```

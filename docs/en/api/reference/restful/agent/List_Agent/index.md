@@ -9,6 +9,14 @@ title: List_Agent
 
 
 
+* [POST Agents/List/GetTicketCategory](v1ListAgent_GetTicketCategory.md)
+
+* [POST Agents/List/GetTicketCategoryEntity](v1ListAgent_GetTicketCategoryEntity.md)
+
+* [POST Agents/List/MoveAllTickets](v1ListAgent_MoveAllTickets.md)
+
+* [POST Agents/List/RebuildFullnames](v1ListAgent_RebuildFullnames.md)
+
 * [POST Agents/List/GetTicketCategoryList](v1ListAgent_GetTicketCategoryList.md)
 
 * [POST Agents/List/GetTicketCategories](v1ListAgent_GetTicketCategories.md)
@@ -54,6 +62,14 @@ title: List_Agent
 * [POST Agents/List/DeleteAppWebPanels](v1ListAgent_DeleteAppWebPanels.md)
 
 * [POST Agents/List/GetWebPanelByProgId](v1ListAgent_GetWebPanelByProgId.md)
+
+* [POST Agents/List/GetMrMrsList](v1ListAgent_GetMrMrsList.md)
+
+* [POST Agents/List/GetMrMrses](v1ListAgent_GetMrMrses.md)
+
+* [POST Agents/List/GetPaymentTerm](v1ListAgent_GetPaymentTerm.md)
+
+* [POST Agents/List/GetPaymentTerms](v1ListAgent_GetPaymentTerms.md)
 
 * [POST Agents/List/GetPaymentType](v1ListAgent_GetPaymentType.md)
 
@@ -175,13 +191,13 @@ title: List_Agent
 
 * [POST Agents/List/GetAllTasks](v1ListAgent_GetAllTasks.md)
 
-* [POST Agents/List/GetTicketCategory](v1ListAgent_GetTicketCategory.md)
+* [POST Agents/List/GetLegalBaseList](v1ListAgent_GetLegalBaseList.md)
 
-* [POST Agents/List/GetTicketCategoryEntity](v1ListAgent_GetTicketCategoryEntity.md)
+* [POST Agents/List/GetLegalBases](v1ListAgent_GetLegalBases.md)
 
-* [POST Agents/List/MoveAllTickets](v1ListAgent_MoveAllTickets.md)
+* [POST Agents/List/GetLink](v1ListAgent_GetLink.md)
 
-* [POST Agents/List/RebuildFullnames](v1ListAgent_RebuildFullnames.md)
+* [POST Agents/List/GetLinkList](v1ListAgent_GetLinkList.md)
 
 * [POST Agents/List/GetListEntity](v1ListAgent_GetListEntity.md)
 
@@ -303,13 +319,13 @@ title: List_Agent
 
 * [POST Agents/List/GetMrMrs](v1ListAgent_GetMrMrs.md)
 
-* [POST Agents/List/GetMrMrsList](v1ListAgent_GetMrMrsList.md)
+* [POST Agents/List/GetCountry](v1ListAgent_GetCountry.md)
 
-* [POST Agents/List/GetMrMrses](v1ListAgent_GetMrMrses.md)
+* [POST Agents/List/SaveCountry](v1ListAgent_SaveCountry.md)
 
-* [POST Agents/List/GetPaymentTerm](v1ListAgent_GetPaymentTerm.md)
+* [POST Agents/List/CreateDefaultCountry](v1ListAgent_CreateDefaultCountry.md)
 
-* [POST Agents/List/GetPaymentTerms](v1ListAgent_GetPaymentTerms.md)
+* [POST Agents/List/GetCountryList](v1ListAgent_GetCountryList.md)
 
 * [POST Agents/List/GetCountries](v1ListAgent_GetCountries.md)
 
@@ -431,17 +447,15 @@ title: List_Agent
 
 * [POST Agents/List/SaveLegalBase](v1ListAgent_SaveLegalBase.md)
 
-* [POST Agents/List/GetLegalBaseList](v1ListAgent_GetLegalBaseList.md)
-
-* [POST Agents/List/GetLegalBases](v1ListAgent_GetLegalBases.md)
-
-* [POST Agents/List/GetLink](v1ListAgent_GetLink.md)
-
-* [POST Agents/List/GetLinkList](v1ListAgent_GetLinkList.md)
-
 * [POST Agents/List/CreateDefaultAmountClassEntity](v1ListAgent_CreateDefaultAmountClassEntity.md)
 
 * [POST Agents/List/SaveAmountClassEntity](v1ListAgent_SaveAmountClassEntity.md)
+
+* [POST Agents/List/CreateDefaultTaskMenu](v1ListAgent_CreateDefaultTaskMenu.md)
+
+* [POST Agents/List/SaveTaskMenu](v1ListAgent_SaveTaskMenu.md)
+
+* [POST Agents/List/DeleteTaskMenu](v1ListAgent_DeleteTaskMenu.md)
 
 * [POST Agents/List/CreateDefaultCurrencyEntity](v1ListAgent_CreateDefaultCurrencyEntity.md)
 
@@ -537,6 +551,8 @@ title: List_Agent
 
 * [POST Agents/List/GetCompetitors](v1ListAgent_GetCompetitors.md)
 
+* [POST Agents/List/GetTaskMenu](v1ListAgent_GetTaskMenu.md)
+
 * [POST Agents/List/GetConsentPurpose](v1ListAgent_GetConsentPurpose.md)
 
 * [POST Agents/List/SaveConsentPurpose](v1ListAgent_SaveConsentPurpose.md)
@@ -556,11 +572,3 @@ title: List_Agent
 * [POST Agents/List/GetConsentSourceList](v1ListAgent_GetConsentSourceList.md)
 
 * [POST Agents/List/GetConsentSources](v1ListAgent_GetConsentSources.md)
-
-* [POST Agents/List/GetCountry](v1ListAgent_GetCountry.md)
-
-* [POST Agents/List/SaveCountry](v1ListAgent_SaveCountry.md)
-
-* [POST Agents/List/CreateDefaultCountry](v1ListAgent_CreateDefaultCountry.md)
-
-* [POST Agents/List/GetCountryList](v1ListAgent_GetCountryList.md)

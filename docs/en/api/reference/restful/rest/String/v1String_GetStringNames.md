@@ -27,8 +27,8 @@ Search the strings using Q parameter.
 | isoLangCode | string |  ISO Language code. ("nb-no", "en-gb" etc) Defaults to English if nothing specified in the Accept-Language header. |
 
 ```http
-GET /api/v1/String?q=accusamus
-GET /api/v1/String?isoLangCode=vero
+GET /api/v1/String?q=perspiciatis
+GET /api/v1/String?isoLangCode=nam
 ```
 
 
@@ -46,7 +46,7 @@ GET /api/v1/String?isoLangCode=vero
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -54,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 
 ## Sample request
@@ -63,7 +63,7 @@ Response body: array
 GET /api/v1/String
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,7 +73,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "soluta",
-  "qui"
+  "commodi",
+  "quae"
 ]
 ```

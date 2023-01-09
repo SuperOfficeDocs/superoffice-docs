@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,14 +42,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ChatSessionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 | The primary key (auto-incremented) |
 | TopicId | int32 | The reference to the associated chat topic. |
-| User |  | User agent handling this session |
-| Person |  | Customer person in this session - could be empty if we don't know exactly. |
+| User | Associate | User agent handling this session |
+| Person | Person | Customer person in this session - could be empty if we don't know exactly. |
 | CustomerAlias | string | The alias for the customer. |
 | CustomerHost | string | The hostname or IP address for the customer. |
 | CustomerName | string | The name of customer, if provided |
@@ -70,14 +70,14 @@ Response body:
 | AlertLevel | int32 | The alert level for this chat session. |
 | Rank | int32 | Lowest possible unique number for active sessions for user. User for color index. Starting at 1. |
 | Flags | string | Various flags for the chat session |
-| Contact |  | Contact this session is connected to - could be empty if we don't know exactly. |
-| Project |  | Project the session is connectedto - could be empty if we don't know exactly. |
-| Sale |  | Sale the session is connected to - could be empty if we don't know exactly. |
-| Ticket |  | Ticket the session is connected to - could be empty if we don't know exactly. |
-| TransferTo |  | User agent that has a pending transfer of the chat session |
+| Contact | Contact | Contact this session is connected to - could be empty if we don't know exactly. |
+| Project | Project | Project the session is connectedto - could be empty if we don't know exactly. |
+| Sale | Sale | Sale the session is connected to - could be empty if we don't know exactly. |
+| Ticket | Ticket | Ticket the session is connected to - could be empty if we don't know exactly. |
+| TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,7 +86,7 @@ Response body:
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 493,
-  "TopicId": 267,
+  "ChatSessionId": 156,
+  "TopicId": 6,
   "User": null,
   "Person": null,
   "CustomerAlias": "et",
-  "CustomerHost": "eaque",
-  "CustomerName": "Bosco, Hamill and Bradtke",
-  "CustomerEmail": "emely_connelly@pollich.uk",
-  "CustomerPhone": "843.987.0942",
+  "CustomerHost": "repellendus",
+  "CustomerName": "Quigley LLC",
+  "CustomerEmail": "bethel.hackett@dach.co.uk",
+  "CustomerPhone": "248.779.4761",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Grimes LLC",
+  "CustomerCompanyName": "Bergnaum, Little and Treutel",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "voluptates",
-  "WhenRequested": "2013-04-18T02:49:43.7316573+02:00",
-  "WhenStarted": "1996-01-06T02:49:43.7316573+01:00",
-  "WhenEnded": "2006-03-04T02:49:43.7316573+01:00",
-  "WhenIdle": "2004-12-10T02:49:43.7316573+01:00",
-  "WhenFetched": "2008-09-27T02:49:43.7316573+02:00",
-  "SessionKey": "dicta",
-  "InitialQueuePos": 852,
-  "AlertLevel": 953,
-  "Rank": 799,
+  "FirstMessage": "sed",
+  "LastMessage": "vero",
+  "WhenRequested": "1999-10-31T17:37:16.9472421+01:00",
+  "WhenStarted": "2008-08-24T17:37:16.9472421+02:00",
+  "WhenEnded": "2004-09-01T17:37:16.9472421+02:00",
+  "WhenIdle": "2005-09-01T17:37:16.9472421+02:00",
+  "WhenFetched": "2021-02-17T17:37:16.9472421+01:00",
+  "SessionKey": "inventore",
+  "InitialQueuePos": 588,
+  "AlertLevel": 51,
+  "Rank": 744,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -126,13 +126,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 264,
+  "Rating": 372,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 298
+      "FieldType": "System.Int32",
+      "FieldLength": 529
     }
   }
 }

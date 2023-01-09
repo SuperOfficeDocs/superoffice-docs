@@ -44,16 +44,15 @@ POST /api/v1/Agents/Preference/GetPreferences?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Specifications 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Specifications | array |  |
+| Specifications | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,22 +60,22 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Level | string | Preference level, using the standard enumerated type. Undefined is returned for preferences that do not have a current setting. |
 | RawValue | string | Preference value |
-| Specification |  | Preference specification, consisting of the section name and key name |
+| Specification | PreferenceSpec | Preference specification, consisting of the section name and key name |
 | DisplayValue | string | Display value, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter. |
 | DisplayTooltip | string | Display tooltip, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter. |
 | DisplayType | string | Display type, populated when asked for. |
-| TabOrder |  | Carrier object for TabOrder. Services for the TabOrder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
+| TabOrder | TabOrder | Carrier object for TabOrder. Services for the TabOrder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
 | TargetId | int32 | The id of the target row. The table it points at is specified by the preference type. |
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
 | UserPreferenceId | int32 | The id of the user preference |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,12 +90,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "iure",
-      "Key": "vel"
+      "Section": "placeat",
+      "Key": "perferendis"
     },
     {
-      "Section": "iure",
-      "Key": "vel"
+      "Section": "placeat",
+      "Key": "perferendis"
     }
   ]
 }
@@ -111,22 +110,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ut",
+    "RawValue": "consequatur",
     "Specification": null,
-    "DisplayValue": "consequuntur",
-    "DisplayTooltip": "aut",
+    "DisplayValue": "et",
+    "DisplayTooltip": "vel",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 940,
-    "PrefDescId": 213,
-    "TableName": "O'Connell, Konopelski and Hintz",
-    "UserPreferenceId": 396,
+    "TargetId": 812,
+    "PrefDescId": 689,
+    "TableName": "Pouros Group",
+    "UserPreferenceId": 789,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 328
+        "FieldType": "System.Int32",
+        "FieldLength": 482
       }
     }
   }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/Dash/GetDashTiles?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DashboardId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardId | int32 |  |
+| DashboardId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,8 +67,8 @@ Response body: array
 | Height | int32 | Height used by this tile in the dashboard |
 | Width | int32 | Width used by this tile in the dashboard |
 | Rank | int32 | Rank order |
-| DashTileDefinition |  | The tile definition entity |
-| TableRight |  |  |
+| DashTileDefinition | DashTileDefinition | The tile definition entity |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/Dash/GetDashTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 758
+  "DashboardId": 753
 }
 ```
 
@@ -94,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 827,
-    "DashboardId": 358,
-    "Height": 155,
-    "Width": 290,
-    "Rank": 165,
+    "DashboardTileId": 1002,
+    "DashboardId": 665,
+    "Height": 919,
+    "Width": 789,
+    "Rank": 413,
     "DashTileDefinition": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 947
+        "FieldType": "System.Int32",
+        "FieldLength": 458
       }
     }
   }

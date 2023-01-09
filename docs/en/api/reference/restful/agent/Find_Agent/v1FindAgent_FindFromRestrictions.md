@@ -38,13 +38,6 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 
 
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,19 +63,18 @@ POST /api/v1/Agents/Find/FindFromRestrictions?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Restrictions, ProviderName, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Restrictions | array |  |
-| ProviderName | string |  |
-| PageSize | int32 |  |
-| PageNumber | int32 |  |
+| Restrictions | Array |  |
+| ProviderName | String |  |
+| PageSize | Integer |  |
+| PageNumber | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -90,14 +82,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FindResults
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -106,21 +98,21 @@ Response body:
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Grady LLC",
-      "Operator": "esse",
+      "Name": "Cruickshank-Fahey",
+      "Operator": "quia",
       "Values": [
-        "vel",
-        "totam"
+        "officia",
+        "ut"
       ],
       "DisplayValues": [
-        "quia",
-        "nulla"
+        "ut",
+        "dicta"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -128,14 +120,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 985,
+      "InterParenthesis": 450,
       "InterOperator": "And",
-      "UniqueHash": 809
+      "UniqueHash": 217
     }
   ],
-  "ProviderName": "Swift, Paucek and Gutmann",
-  "PageSize": 106,
-  "PageNumber": 92
+  "ProviderName": "Kertzmann-Bailey",
+  "PageSize": 565,
+  "PageNumber": 269
 }
 ```
 
@@ -148,51 +140,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hudson-Aufderhar",
-      "DisplayTooltip": "id",
-      "DisplayType": "laudantium",
-      "CanOrderBy": true,
-      "Name": "O'Connell Inc and Sons",
+      "DisplayName": "Crona-Green",
+      "DisplayTooltip": "repudiandae",
+      "DisplayType": "odit",
+      "CanOrderBy": false,
+      "Name": "Sipes-Emmerich",
       "CanRestrictBy": true,
-      "RestrictionType": "ullam",
-      "RestrictionListName": "Macejkovic-Hamill",
+      "RestrictionType": "sed",
+      "RestrictionListName": "Batz-Lakin",
       "IsVisible": true,
-      "ExtraInfo": "tempora",
-      "Width": "id",
-      "IconHint": "qui",
-      "HeadingIconHint": "quas"
+      "ExtraInfo": "aut",
+      "Width": "nihil",
+      "IconHint": "odit",
+      "HeadingIconHint": "nobis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Windler-Herzog",
-      "PrimaryKey": 940,
+      "EntityName": "Hills Inc and Sons",
+      "PrimaryKey": 420,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "enim",
-          "TooltipHint": "et",
-          "LinkHint": "molestiae"
+          "DisplayValue": "sit",
+          "TooltipHint": "necessitatibus",
+          "LinkHint": "earum"
         }
       },
-      "LinkHint": "dignissimos",
-      "StyleHint": "voluptas",
+      "LinkHint": "facere",
+      "StyleHint": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 201
+          "FieldLength": 368
         }
       }
     }
   ],
-  "RowCount": 253,
+  "RowCount": 381,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 435
+      "FieldType": "System.Int32",
+      "FieldLength": 936
     }
   }
 }

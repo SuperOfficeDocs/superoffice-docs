@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreviewDash
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +51,7 @@ Response body:
 | OwnedByFullName | string | Full name of dashboard owner |
 | Registered | date-time | Registered when  in UTC. |
 | Tiles | array | Dashboard tiles |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -60,7 +60,7 @@ Response body:
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,32 +70,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Quitzon-Ferry",
-  "Description": "Object-based analyzing model",
-  "OwnedByFullName": "Edwin Funk",
-  "Registered": "2007-06-17T02:49:44.0441547+02:00",
+  "Name": "Daniel-Nader",
+  "Description": "Stand-alone logistical algorithm",
+  "OwnedByFullName": "Rogelio Blick",
+  "Registered": "2014-04-27T17:37:17.3682421+02:00",
   "Tiles": [
     {
-      "Name": "Tromp Inc and Sons",
+      "Name": "Nader-Gusikowski",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 837
+          "FieldLength": 184
         }
       }
     },
     {
-      "Name": "Tromp Inc and Sons",
+      "Name": "Nader-Gusikowski",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 837
+          "FieldLength": 184
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldType": "System.Int32",
+      "FieldLength": 495
     }
   }
 }

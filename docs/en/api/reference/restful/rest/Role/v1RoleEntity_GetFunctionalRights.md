@@ -41,7 +41,7 @@ Functional rights not set on the role are not included. MDO List name = 'Functio
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -49,7 +49,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 929,
-    "Name": "Schaden Inc and Sons",
-    "ToolTip": "Dolorem molestias sunt aut excepturi qui.",
+    "Id": 169,
+    "Name": "Jaskolski, Daugherty and Pacocha",
+    "ToolTip": "Mollitia nesciunt error suscipit enim laborum non.",
     "Deleted": false,
-    "Rank": 78,
-    "Type": "enim",
-    "ColorBlock": 110,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2006-03-17T02:49:51.4015667+01:00",
+    "Rank": 28,
+    "Type": "ipsa",
+    "ColorBlock": 113,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "1999-08-22T17:37:39.0593033+02:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Friesen Group",
-        "ToolTip": "Repellendus repudiandae consequatur et doloribus.",
-        "Deleted": false,
-        "Rank": 303,
-        "Type": "quibusdam",
-        "ColorBlock": 130,
-        "IconHint": "neque",
-        "Selected": false,
-        "LastChanged": "2007-05-25T02:49:51.4015667+02:00",
+        "Id": 541,
+        "Name": "Wiegand, Weber and Toy",
+        "ToolTip": "In dolor tempora ad quaerat.",
+        "Deleted": true,
+        "Rank": 620,
+        "Type": "molestias",
+        "ColorBlock": 619,
+        "IconHint": "quasi",
+        "Selected": true,
+        "LastChanged": "2014-02-28T17:37:39.0603037+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "nemo",
-        "Hidden": true,
-        "FullName": "Mrs. Mina Isom Runte V",
+        "ExtraInfo": "impedit",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Prof. Winona Anderson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 277
+            "FieldLength": 232
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "alias",
-    "Hidden": false,
-    "FullName": "Miss Emery Daugherty IV",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "amet",
+    "Hidden": true,
+    "FullName": "Dr. Jammie Tobin Bailey II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 307
+        "FieldType": "System.Int32",
+        "FieldLength": 345
       }
     }
   }

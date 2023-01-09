@@ -32,7 +32,7 @@ Gets description of ReasonStalled list
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ListEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +54,7 @@ Response body:
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -64,7 +64,7 @@ Response body:
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 859,
-  "Name": "Schinner LLC",
-  "Tooltip": "fugit",
+  "Id": 864,
+  "Name": "Donnelly, Grant and Larson",
+  "Tooltip": "iste",
   "Deleted": false,
-  "Rank": 737,
+  "Rank": 21,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "magnam",
+  "ListType": "nulla",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldType": "System.String",
+      "FieldLength": 807
     }
   },
   "_Links": {

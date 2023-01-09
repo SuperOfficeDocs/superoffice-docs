@@ -42,16 +42,15 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 CountryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CountryId | int32 |  |
+| CountryId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BlobEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,10 +72,10 @@ Response body:
 | OriginalSize | int32 | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,11 +84,11 @@ Response body:
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 156
+  "CountryId": 42
 }
 ```
 
@@ -100,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 206,
-  "BlobSize": 801,
-  "Description": "Profound even-keeled focus group",
-  "ExtraInfo": "veritatis",
+  "BlobId": 464,
+  "BlobSize": 151,
+  "Description": "Digitized empowering protocol",
+  "ExtraInfo": "sint",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "ut",
-  "OriginalSize": 640,
-  "CreatedDate": "1997-08-18T02:49:43.7160326+02:00",
-  "UpdatedDate": "2011-02-04T02:49:43.7160326+01:00",
+  "MimeType": "consequatur",
+  "OriginalSize": 636,
+  "CreatedDate": "2022-12-02T17:37:16.9222421+01:00",
+  "UpdatedDate": "2017-11-02T17:37:16.9222421+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "fuga",
+  "ConceptualType": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 718
+      "FieldType": "System.Int32",
+      "FieldLength": 331
     }
   }
 }

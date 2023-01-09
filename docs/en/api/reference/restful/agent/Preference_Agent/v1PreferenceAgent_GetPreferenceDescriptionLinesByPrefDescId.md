@@ -42,16 +42,15 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PrefDescId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PrefDescId | int32 |  |
+| PrefDescId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body: array
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 594
+  "PrefDescId": 405
 }
 ```
 
@@ -94,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 427,
-    "PrefDescId": 958,
-    "PrefValue": "libero",
-    "PrefShowValue": "neque",
-    "Description": "Grass-roots upward-trending hardware",
+    "PrefDescLineId": 771,
+    "PrefDescId": 280,
+    "PrefValue": "iusto",
+    "PrefShowValue": "dolores",
+    "Description": "Ergonomic solution-oriented portal",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 391
+        "FieldLength": 32
       }
     }
   }

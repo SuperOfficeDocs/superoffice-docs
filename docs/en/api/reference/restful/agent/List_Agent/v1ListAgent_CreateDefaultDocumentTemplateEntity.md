@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentTemplateEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +71,7 @@ Response body:
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,7 +80,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 280,
-  "Name": "Gerlach, Volkman and Paucek",
-  "Tooltip": "fuga",
-  "SaveInDb": 543,
-  "Filename": "vel",
-  "DefaultOref": "earum",
+  "DocumentTemplateId": 827,
+  "Name": "Koepp-Grant",
+  "Tooltip": "quas",
+  "SaveInDb": 565,
+  "Filename": "quibusdam",
+  "DefaultOref": "animi",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 592,
-  "IntentId": 547,
+  "AutoeventId": 523,
+  "IntentId": 566,
   "IsDefaultPublished": false,
-  "Rank": 782,
-  "LoadTemplateFromPlugin": 643,
-  "MimeType": "labore",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 681,
+  "Rank": 287,
+  "LoadTemplateFromPlugin": 198,
+  "MimeType": "mollitia",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 946,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "christiana@legrosheller.info",
+  "EmailSubject": "jalon@friesen.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "maxwell_prosacco@lebsack.name",
+  "SenderEmailAddress": "deon.ohara@rippin.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldLength": 905
     }
   }
 }

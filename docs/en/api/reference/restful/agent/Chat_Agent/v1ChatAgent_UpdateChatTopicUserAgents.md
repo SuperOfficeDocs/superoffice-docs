@@ -42,17 +42,16 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ChatTopicId, Useragents 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ChatTopicId | int32 |  |
-| Useragents | array |  |
+| ChatTopicId | Integer |  |
+| Useragents | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,12 +59,12 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TopicId | int32 | The reference to the associated chat topic. |
-| User |  | The associate that is the user agent. |
+| User | Associate | The associate that is the user agent. |
 | CanListen | bool | True of a user can listen in on this topic |
 | CanRespond | bool | True if the user can respond to chats in this topic |
 | CanManage | bool | True if the user is a manager for this topic |
@@ -77,25 +76,25 @@ Response body: array
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 377,
+  "ChatTopicId": 312,
   "Useragents": [
     {
-      "TopicId": 785,
+      "TopicId": 354,
       "User": null,
-      "CanListen": false,
-      "CanRespond": false,
+      "CanListen": true,
+      "CanRespond": true,
       "CanManage": true,
       "CanNotify": true
     },
     {
-      "TopicId": 785,
+      "TopicId": 354,
       "User": null,
-      "CanListen": false,
-      "CanRespond": false,
+      "CanListen": true,
+      "CanRespond": true,
       "CanManage": true,
       "CanNotify": true
     }
@@ -111,17 +110,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 142,
+    "TopicId": 62,
     "User": null,
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false
   },
   {
-    "TopicId": 142,
+    "TopicId": 62,
     "User": null,
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false

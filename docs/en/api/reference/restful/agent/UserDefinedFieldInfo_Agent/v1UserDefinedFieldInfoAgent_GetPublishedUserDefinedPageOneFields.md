@@ -42,17 +42,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields?$s
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 OwnerType, UserGroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OwnerType | string |  |
-| UserGroupId | int32 |  |
+| OwnerType | String |  |
+| UserGroupId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,7 +97,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -112,7 +111,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 765
+  "UserGroupId": 186
 }
 ```
 
@@ -124,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 200,
-    "ColumnId": 998,
-    "FieldDefault": "ratione",
-    "FieldHeight": 973,
-    "FieldLabel": "dolor",
-    "FieldLeft": 618,
-    "FieldTop": 738,
+    "UDefFieldId": 759,
+    "ColumnId": 340,
+    "FieldDefault": "est",
+    "FieldHeight": 827,
+    "FieldLabel": "beatae",
+    "FieldLeft": 693,
+    "FieldTop": 89,
     "FieldType": "Checkbox",
-    "FieldWidth": 318,
-    "FormatMask": "sed",
+    "FieldWidth": 956,
+    "FormatMask": "placeat",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 750,
-    "LabelLeft": 134,
-    "LabelTop": 791,
-    "LabelWidth": 509,
-    "LastVersionId": 872,
-    "ListTableId": 419,
+    "IsIndexed": true,
+    "LabelHeight": 164,
+    "LabelLeft": 947,
+    "LabelTop": 620,
+    "LabelWidth": 426,
+    "LastVersionId": 258,
+    "ListTableId": 644,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 864,
-    "ProgId": "corporis",
+    "Page1LineNo": 424,
+    "ProgId": "nihil",
     "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 656,
-    "TextLength": 976,
-    "Tooltip": "voluptatibus",
-    "UdefIdentity": 160,
-    "UDListDefinitionId": 856,
+    "ShortLabel": "rerum",
+    "TabOrder": 552,
+    "TextLength": 974,
+    "Tooltip": "corporis",
+    "UdefIdentity": 388,
+    "UDListDefinitionId": 197,
     "Justification": "Center",
-    "Version": 722,
-    "TemplateVariableName": "Hayes, McClure and Brekke",
+    "Version": 517,
+    "TemplateVariableName": "Hoeger-Bauch",
     "HasBeenPublished": false,
-    "MdoListName": "Olson, Koepp and Douglas",
+    "MdoListName": "Morissette-Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 938
       }
     }
   }

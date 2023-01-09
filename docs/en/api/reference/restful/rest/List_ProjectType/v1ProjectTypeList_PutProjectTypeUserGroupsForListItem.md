@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Brown LLC",
-    "ToolTip": "Id eveniet a consequatur.",
-    "Deleted": false,
-    "Rank": 63,
-    "Type": "asperiores",
-    "ColorBlock": 879,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2021-03-26T02:49:52.4065764+01:00",
+    "Id": 731,
+    "Name": "Marks-Sporer",
+    "ToolTip": "Doloremque odio natus sapiente repellat temporibus.",
+    "Deleted": true,
+    "Rank": 304,
+    "Type": "voluptate",
+    "ColorBlock": 588,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2022-09-25T17:37:40.2124714+02:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Nitzsche Inc and Sons",
-        "ToolTip": "Iure unde nihil dolor qui qui.",
+        "Id": 110,
+        "Name": "Bechtelar Inc and Sons",
+        "ToolTip": "Quia doloribus inventore sit quia itaque tenetur reprehenderit.",
         "Deleted": true,
-        "Rank": 793,
-        "Type": "incidunt",
-        "ColorBlock": 681,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2018-05-15T02:49:52.4065764+02:00",
+        "Rank": 358,
+        "Type": "ut",
+        "ColorBlock": 247,
+        "IconHint": "quidem",
+        "Selected": true,
+        "LastChanged": "2022-12-03T17:37:40.2135056+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "qui",
+        "ExtraInfo": "saepe",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Jalyn Cummerata"
+        "FullName": "Mr. Deja Frederick Bernier DDS"
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "nihil",
+    "ExtraInfo": "velit",
+    "StyleHint": "tenetur",
     "Hidden": false,
-    "FullName": "Vanessa Gleason"
+    "FullName": "Prof. Madison Ziemann Sr."
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Halvorson Group",
-    "ToolTip": "Porro pariatur recusandae rerum nobis at est.",
+    "Id": 838,
+    "Name": "Connelly-Corwin",
+    "ToolTip": "Eum sunt qui aut laborum blanditiis quisquam id.",
     "Deleted": false,
-    "Rank": 373,
-    "Type": "minus",
-    "ColorBlock": 425,
-    "IconHint": "qui",
+    "Rank": 347,
+    "Type": "facere",
+    "ColorBlock": 610,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2001-04-14T02:49:52.4065764+02:00",
+    "LastChanged": "1997-10-18T17:37:40.2155005+02:00",
     "ChildItems": [
       {
-        "Id": 310,
-        "Name": "O'Conner, Quigley and Johnston",
-        "ToolTip": "Facere velit et quia nesciunt labore.",
+        "Id": 889,
+        "Name": "Keeling Inc and Sons",
+        "ToolTip": "Eos animi magnam.",
         "Deleted": false,
-        "Rank": 504,
-        "Type": "harum",
-        "ColorBlock": 157,
-        "IconHint": "explicabo",
+        "Rank": 931,
+        "Type": "qui",
+        "ColorBlock": 593,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "1995-10-30T02:49:52.4065764+01:00",
+        "LastChanged": "2001-06-18T17:37:40.2155005+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "aperiam",
-        "Hidden": true,
-        "FullName": "Mr. Wade Jazmin Dach IV",
+        "ExtraInfo": "nisi",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Mr. Arnold Jude Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 420
+            "FieldLength": 612
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "ut",
+    "ExtraInfo": "libero",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Austyn Marquise Langosh PhD",
+    "FullName": "Blair Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldType": "System.String",
+        "FieldLength": 566
       }
     }
   }

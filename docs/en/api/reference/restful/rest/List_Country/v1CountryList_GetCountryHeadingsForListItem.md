@@ -48,7 +48,7 @@ GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "Kreiger Group",
-    "ToolTip": "Voluptas repellendus qui et et aut ad.",
+    "Id": 937,
+    "Name": "Gottlieb, Cronin and Littel",
+    "ToolTip": "Eius voluptate.",
     "Deleted": false,
-    "Rank": 536,
-    "Type": "dolore",
-    "ColorBlock": 722,
-    "IconHint": "modi",
+    "Rank": 547,
+    "Type": "excepturi",
+    "ColorBlock": 412,
+    "IconHint": "eveniet",
     "Selected": true,
-    "LastChanged": "2010-08-30T02:49:52.1721908+02:00",
+    "LastChanged": "2016-01-05T17:37:39.9315023+01:00",
     "ChildItems": [
       {
-        "Id": 642,
-        "Name": "Leffler-Purdy",
-        "ToolTip": "Et a aut natus eum perferendis eius.",
+        "Id": 288,
+        "Name": "Cummings-Schiller",
+        "ToolTip": "Non dolor.",
         "Deleted": false,
-        "Rank": 530,
-        "Type": "quasi",
-        "ColorBlock": 655,
+        "Rank": 872,
+        "Type": "nulla",
+        "ColorBlock": 82,
         "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2020-12-02T02:49:52.1721908+01:00",
+        "Selected": true,
+        "LastChanged": "2013-09-30T17:37:39.9324703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "mollitia",
-        "Hidden": false,
-        "FullName": "Ms. Kelly Feeney MD",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "amet",
+        "Hidden": true,
+        "FullName": "Dr. Terrance Clair Stamm Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 690
+            "FieldLength": 730
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "sit",
+    "ExtraInfo": "id",
+    "StyleHint": "odio",
     "Hidden": false,
-    "FullName": "Barbara Leffler",
+    "FullName": "Chaz Rae VonRueden DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 176
       }
     }
   }

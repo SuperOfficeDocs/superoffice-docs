@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTileDefinition
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body:
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 423,
-  "Name": "Huel Inc and Sons",
-  "Description": "Ameliorated explicit solution",
-  "DefaultHeight": 112,
-  "DefaultWidth": 274,
+  "DashboardTileDefinitionId": 521,
+  "Name": "Shields LLC",
+  "Description": "Vision-oriented empowering extranet",
+  "DefaultHeight": 382,
+  "DefaultWidth": 36,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Feest LLC",
-  "SelectionId": 572,
+  "EntityName": "Kihn, Klocko and Halvorson",
+  "SelectionId": 266,
   "CurrencyMode": "Base",
-  "CurrencyCode": "eos",
+  "CurrencyCode": "veritatis",
   "Measure": "Average",
-  "MeasureField": "repellendus",
-  "SortBy": "voluptatem",
-  "LayoutConfig": "rerum",
-  "SecondarySelectionId": 911,
-  "MeasureByField": "est",
+  "MeasureField": "alias",
+  "SortBy": "vel",
+  "LayoutConfig": "rem",
+  "SecondarySelectionId": 779,
+  "MeasureByField": "aliquid",
   "Usage": "Dashboard",
-  "ProviderName": "Kuvalis Inc and Sons",
+  "ProviderName": "Von-Skiles",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldLength": 808
     }
   }
 }

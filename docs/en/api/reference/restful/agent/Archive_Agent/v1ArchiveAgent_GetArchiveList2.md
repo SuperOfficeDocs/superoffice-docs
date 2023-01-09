@@ -102,9 +102,6 @@ Use backslash to escape single quotes in strings
 
 
 
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -130,22 +127,21 @@ POST /api/v1/Agents/Archive/GetArchiveList2?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| GuiName | string |  |
-| ProviderName | string |  |
-| SortOrder | string |  |
-| Restriction | string |  |
-| Entities | string |  |
-| Page | int32 |  |
-| PageSize | int32 |  |
+| GuiName | String |  |
+| ProviderName | String |  |
+| SortOrder | String |  |
+| Restriction | String |  |
+| Entities | String |  |
+| Page | Integer |  |
+| PageSize | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -153,7 +149,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -162,7 +158,7 @@ Response body: array
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -171,17 +167,17 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Lesch-Schaefer",
-  "ProviderName": "Nienow Inc and Sons",
-  "SortOrder": "similique",
-  "Restriction": "voluptas",
-  "Entities": "rerum",
-  "Page": 198,
-  "PageSize": 772
+  "GuiName": "Blick-Ondricka",
+  "ProviderName": "Jakubowski Inc and Sons",
+  "SortOrder": "perferendis",
+  "Restriction": "asperiores",
+  "Entities": "voluptas",
+  "Page": 45,
+  "PageSize": 415
 }
 ```
 
@@ -193,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Sipes-Wolff",
-    "PrimaryKey": 887,
+    "EntityName": "Nicolas-Rath",
+    "PrimaryKey": 497,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "iusto",
-        "TooltipHint": "non",
-        "LinkHint": "iure"
+        "DisplayValue": "voluptatibus",
+        "TooltipHint": "ducimus",
+        "LinkHint": "omnis"
       }
     },
-    "LinkHint": "cum",
-    "StyleHint": "ipsum",
+    "LinkHint": "ut",
+    "StyleHint": "occaecati",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldLength": 318
       }
     }
   }

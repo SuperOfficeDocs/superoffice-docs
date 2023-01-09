@@ -42,16 +42,15 @@ POST /api/v1/Agents/Audience/GetMyConfigParameter?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ParameterName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ParameterName | string |  |
+| ParameterName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AudienceConfigParameter
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body:
 | UpdatedDate | date-time | The date and time the configuration parameter was last updated  in UTC. |
 | CreatedBy | string | Name of the person that created the configuration parameter |
 | UpdatedBy | string | Name of the person that last updated the configuration parameter |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,11 +78,11 @@ Response body:
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Borer Group"
+  "ParameterName": "Witting, Conn and Pfeffer"
 }
 ```
 
@@ -94,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 466,
-  "Name": "Bayer Inc and Sons",
-  "Value": "est",
-  "CreatedDate": "2015-11-25T02:49:43.6847821+01:00",
-  "UpdatedDate": "2009-06-29T02:49:43.6847821+02:00",
-  "CreatedBy": "dicta",
-  "UpdatedBy": "necessitatibus",
+  "AudienceLayoutId": 653,
+  "Name": "Sawayn-Schoen",
+  "Value": "excepturi",
+  "CreatedDate": "2001-10-19T17:37:16.8832411+02:00",
+  "UpdatedDate": "2002-05-01T17:37:16.8832411+02:00",
+  "CreatedBy": "accusantium",
+  "UpdatedBy": "fuga",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 345
     }
   }
 }

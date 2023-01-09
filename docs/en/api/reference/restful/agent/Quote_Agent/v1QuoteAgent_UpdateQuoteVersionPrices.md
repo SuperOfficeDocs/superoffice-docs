@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
+| QuoteVersionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteVersionValidated
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,12 +66,12 @@ Response body:
 | UserExplanation | string | A localized explanation to the answer. |
 | TechExplanation | string | Always in English |
 | ErrorCode | string | An error code, if available. |
-| ChangedSale |  | If the sale has been changed, the carrier will be added. |
-| ChangedQuote |  | The validated version is a member of Quote |
-| ChangedQuoteVersion |  | The validated QuoteVersion |
+| ChangedSale | Sale | If the sale has been changed, the carrier will be added. |
+| ChangedQuote | Quote | The validated version is a member of Quote |
+| ChangedQuoteVersion | QuoteVersion | The validated QuoteVersion |
 | ChangedQuoteAlternatives | array | The changed QuoteAlternatives |
 | Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,11 +80,11 @@ Response body:
 POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 792
+  "QuoteVersionId": 950
 }
 ```
 
@@ -96,16 +95,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "repellendus",
-  "TechExplanation": "dolore",
-  "ErrorCode": "in",
+  "IsOk": false,
+  "UserExplanation": "sit",
+  "TechExplanation": "praesentium",
+  "ErrorCode": "eligendi",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
   "ChangedQuoteAlternatives": [
     {
-      "QuoteLinesHasChanged": false,
+      "QuoteLinesHasChanged": true,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
@@ -113,12 +112,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldLength": 53
         }
       }
     },
     {
-      "QuoteLinesHasChanged": false,
+      "QuoteLinesHasChanged": true,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
@@ -126,7 +125,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldLength": 53
         }
       }
     }
@@ -137,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldLength": 551
     }
   }
 }

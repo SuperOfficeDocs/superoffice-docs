@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/GetConsentPurposes?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,12 +62,12 @@ Response body: array
 | Tooltip | string | List item tooltip |
 | Active | int32 | Is the consent purpose active or not |
 | UpdatedDate | date-time | The date the consent purpose was last updated  in UTC. |
-| UpdatedBy |  | The associate that last updated the consent purpose |
+| UpdatedBy | Associate | The associate that last updated the consent purpose |
 | Deleted | bool | true if the ConsentPurpose is deleted |
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,7 +76,7 @@ Response body: array
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,25 +87,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 794,
-    "Name": "Aufderhar Group",
-    "ConsentText": "fugit",
-    "FormText": "repudiandae",
-    "Key": "itaque",
-    "Tooltip": "itaque",
-    "Active": 763,
-    "UpdatedDate": "2007-12-28T02:49:44.7016713+01:00",
+    "ConsentPurposeId": 509,
+    "Name": "Rosenbaum, Gislason and Graham",
+    "ConsentText": "sit",
+    "FormText": "doloremque",
+    "Key": "vel",
+    "Tooltip": "velit",
+    "Active": 359,
+    "UpdatedDate": "1998-12-20T17:37:18.3102437+01:00",
     "UpdatedBy": null,
-    "Deleted": true,
-    "Rank": 292,
-    "PrivacyStatementDesc": "et",
+    "Deleted": false,
+    "Rank": 394,
+    "PrivacyStatementDesc": "autem",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldLength": 263
       }
     }
   }

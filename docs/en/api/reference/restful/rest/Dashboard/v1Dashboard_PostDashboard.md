@@ -44,20 +44,19 @@ POST /api/v1/Dashboard?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The Dashboard to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardId | int32 | The dashboard id |
-| AssociateId | int32 | Id of the associate who owns this dashboard |
-| Caption | string | The caption for this dashboard |
-| Layout | string | The dashboard layout, how the tiles are organized on the screen |
-| Tiles | array | The tiles associated with this dashboard |
+| DashboardId | Integer | The dashboard id |
+| AssociateId | Integer | Id of the associate who owns this dashboard |
+| Caption | String | The caption for this dashboard |
+| Layout | String | The dashboard layout, how the tiles are organized on the screen |
+| Tiles | Array | The tiles associated with this dashboard |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashboardWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -88,22 +87,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 272,
-  "AssociateId": 816,
-  "Caption": "fuga",
+  "DashboardId": 638,
+  "AssociateId": 730,
+  "Caption": "est",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 794,
-      "Caption": "sequi",
-      "Description": "User-friendly asynchronous forecast",
-      "ChartName": "Bauch LLC",
-      "ChartId": "consequatur",
-      "IsDefault": true,
-      "AssociateId": 823,
-      "GroupId": 529,
-      "SelectionId": 182,
-      "Config": "rerum",
+      "DashboardTileId": 792,
+      "Caption": "recusandae",
+      "Description": "Customer-focused bifurcated project",
+      "ChartName": "Mosciski-Grant",
+      "ChartId": "nesciunt",
+      "IsDefault": false,
+      "AssociateId": 22,
+      "GroupId": 487,
+      "SelectionId": 961,
+      "Config": "voluptatem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +125,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 322,
-  "AssociateId": 785,
-  "Caption": "dolor",
+  "DashboardId": 372,
+  "AssociateId": 628,
+  "Caption": "sit",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 399,
-      "Caption": "enim",
-      "Description": "Devolved zero administration instruction set",
-      "ChartName": "Effertz-Monahan",
-      "ChartId": "quis",
+      "DashboardTileId": 619,
+      "Caption": "vero",
+      "Description": "Synergistic web-enabled time-frame",
+      "ChartName": "White, Wehner and Leffler",
+      "ChartId": "officia",
       "IsDefault": true,
-      "AssociateId": 385,
-      "GroupId": 203,
-      "SelectionId": 713,
-      "Config": "voluptas",
+      "AssociateId": 862,
+      "GroupId": 129,
+      "SelectionId": 412,
+      "Config": "doloremque",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -156,8 +155,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldType": "System.String",
+          "FieldLength": 356
         }
       }
     }
@@ -166,8 +165,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldType": "System.Int32",
+      "FieldLength": 90
     }
   },
   "_Links": {

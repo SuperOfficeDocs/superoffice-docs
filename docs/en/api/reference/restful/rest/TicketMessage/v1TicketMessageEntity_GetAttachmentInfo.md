@@ -36,7 +36,7 @@ Get a list with meta data for all attached attachments
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +54,7 @@ Response body: array
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 295,
-    "Name": "Cole, Kiehn and Kiehn",
-    "ContentType": "saepe",
-    "AttSize": 679,
-    "InlineImage": false,
-    "ContentId": "sint",
+    "AttachmentId": 715,
+    "Name": "Botsford, Bartoletti and Kris",
+    "ContentType": "velit",
+    "AttSize": 550,
+    "InlineImage": true,
+    "ContentId": "distinctio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldLength": 143
       }
     }
   }

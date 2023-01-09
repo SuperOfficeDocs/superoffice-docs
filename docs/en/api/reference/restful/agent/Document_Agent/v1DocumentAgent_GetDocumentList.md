@@ -42,13 +42,12 @@ POST /api/v1/Agents/Document/GetDocumentList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: documentIds  
+## Request Body: documentIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -100,32 +99,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 37,
-    "Attention": "nisi",
-    "Header": "iste",
-    "Name": "Tillman Group",
-    "OurRef": "consectetur",
-    "YourRef": "tempore",
-    "Description": "Optional demand-driven neural-net",
-    "DocumentTemplate": "itaque",
-    "IsPublished": false,
-    "PersonId": 609,
-    "PersonFullName": "Miss Birdie Rebeca Weissnat",
-    "AssociateFullName": "Prof. Morton Gaylord MD",
-    "ContactId": 460,
-    "ContactName": "Wuckert, Metz and Nader",
-    "ProjectId": 894,
-    "ProjectName": "Kohler Inc and Sons",
-    "AssociateId": 454,
-    "Snum": 26,
-    "SaleId": 235,
-    "SaleName": "Bayer-Ondricka",
+    "DocumentId": 503,
+    "Attention": "dolor",
+    "Header": "et",
+    "Name": "Stamm-Abernathy",
+    "OurRef": "et",
+    "YourRef": "perspiciatis",
+    "Description": "Decentralized maximized moratorium",
+    "DocumentTemplate": "dolor",
+    "IsPublished": true,
+    "PersonId": 352,
+    "PersonFullName": "Maymie Tillman",
+    "AssociateFullName": "Jasen Osinski PhD",
+    "ContactId": 352,
+    "ContactName": "Kemmer, Keeling and Pfeffer",
+    "ProjectId": 766,
+    "ProjectName": "Lowe Group",
+    "AssociateId": 563,
+    "Snum": 646,
+    "SaleId": 632,
+    "SaleName": "Klein, Bernhard and Bauch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldType": "System.String",
+        "FieldLength": 792
       }
     }
   }

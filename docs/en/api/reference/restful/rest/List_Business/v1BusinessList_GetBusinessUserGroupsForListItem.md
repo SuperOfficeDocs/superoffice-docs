@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Emmerich Inc and Sons",
-    "ToolTip": "Molestiae nam sint nobis et qui eos in.",
-    "Deleted": true,
-    "Rank": 462,
-    "Type": "in",
-    "ColorBlock": 120,
-    "IconHint": "ipsa",
+    "Id": 434,
+    "Name": "Jewess, Stroman and Tromp",
+    "ToolTip": "Velit labore sed.",
+    "Deleted": false,
+    "Rank": 140,
+    "Type": "debitis",
+    "ColorBlock": 287,
+    "IconHint": "delectus",
     "Selected": false,
-    "LastChanged": "2009-07-26T02:49:51.8909437+02:00",
+    "LastChanged": "2004-07-05T17:37:39.659431+02:00",
     "ChildItems": [
       {
-        "Id": 296,
-        "Name": "Conroy Inc and Sons",
-        "ToolTip": "Qui vitae illo.",
+        "Id": 795,
+        "Name": "Parker, Gorczany and Berge",
+        "ToolTip": "Accusamus recusandae ea eos non.",
         "Deleted": true,
-        "Rank": 182,
-        "Type": "autem",
-        "ColorBlock": 340,
-        "IconHint": "harum",
-        "Selected": false,
-        "LastChanged": "2004-11-03T02:49:51.8909437+01:00",
+        "Rank": 972,
+        "Type": "sint",
+        "ColorBlock": 317,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2008-06-19T17:37:39.659431+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "repellendus",
-        "Hidden": true,
-        "FullName": "Werner Dickens",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Anita Marvin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 810
+            "FieldLength": 584
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "aperiam",
-    "Hidden": false,
-    "FullName": "Frederic Mayer",
+    "ExtraInfo": "totam",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Ms. Casimir West",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 168
+        "FieldType": "System.Int32",
+        "FieldLength": 918
       }
     }
   }

@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionName, GroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionName | string |  |
-| GroupId | int32 |  |
+| UdListDefinitionName | String |  |
+| GroupId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,12 +87,12 @@ Response body: array
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wehner, Kessler and Moore",
-  "GroupId": 790
+  "UdListDefinitionName": "Runte-Hoeger",
+  "GroupId": 709
 }
 ```
 
@@ -105,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Name": "Osinski-Miller",
-    "ToolTip": "Voluptate magnam ratione impedit numquam itaque dolores.",
-    "Deleted": true,
-    "Rank": 389,
-    "Type": "in",
-    "ColorBlock": 466,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2000-08-01T02:49:44.6235457+02:00",
+    "Id": 843,
+    "Name": "Hoppe, Wunsch and Wilderman",
+    "ToolTip": "Rerum sit tempore veniam quasi eligendi dolorem vel.",
+    "Deleted": false,
+    "Rank": 507,
+    "Type": "sunt",
+    "ColorBlock": 394,
+    "IconHint": "incidunt",
+    "Selected": false,
+    "LastChanged": "2022-03-03T17:37:18.2032452+01:00",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "White-Kassulke",
-        "ToolTip": "Non modi consequuntur magni.",
-        "Deleted": false,
-        "Rank": 99,
-        "Type": "in",
-        "ColorBlock": 477,
-        "IconHint": "error",
+        "Id": 545,
+        "Name": "Hartmann, Senger and Ebert",
+        "ToolTip": "Ut vitae voluptate blanditiis soluta expedita sunt rem.",
+        "Deleted": true,
+        "Rank": 195,
+        "Type": "blanditiis",
+        "ColorBlock": 898,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2002-01-03T02:49:44.6235457+01:00",
+        "LastChanged": "2022-08-03T17:37:18.2032452+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "eius",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Mr. Lukas Nona McLaughlin V",
+        "FullName": "Ignatius Abshire",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 838
+            "FieldType": "System.String",
+            "FieldLength": 608
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "at",
-    "Hidden": false,
-    "FullName": "Larue Goldner",
+    "ExtraInfo": "officia",
+    "StyleHint": "distinctio",
+    "Hidden": true,
+    "FullName": "Kaylin Doyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 618
+        "FieldLength": 300
       }
     }
   }

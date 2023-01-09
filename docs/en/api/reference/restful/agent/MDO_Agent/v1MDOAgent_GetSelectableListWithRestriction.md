@@ -42,18 +42,17 @@ POST /api/v1/Agents/MDO/GetSelectableListWithRestriction?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name, AdditionalInfo, SearchValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| AdditionalInfo | string |  |
-| SearchValue | string |  |
+| Name | String |  |
+| AdditionalInfo | String |  |
+| SearchValue | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,13 +88,13 @@ Response body: array
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Roob Inc and Sons",
-  "AdditionalInfo": "neque",
-  "SearchValue": "mollitia"
+  "Name": "Kertzmann-Okuneva",
+  "AdditionalInfo": "omnis",
+  "SearchValue": "illum"
 }
 ```
 
@@ -107,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 932,
-    "Name": "Mosciski, Larson and Zboncak",
-    "ToolTip": "Omnis officiis molestiae.",
-    "Deleted": true,
-    "Rank": 825,
-    "Type": "et",
-    "ColorBlock": 867,
-    "IconHint": "sit",
+    "Id": 80,
+    "Name": "Miller, Lehner and Buckridge",
+    "ToolTip": "Ea veritatis doloremque et.",
+    "Deleted": false,
+    "Rank": 632,
+    "Type": "ex",
+    "ColorBlock": 451,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "1997-12-17T02:49:44.7340524+01:00",
+    "LastChanged": "2012-03-01T17:37:18.3402415+01:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Sauer, Pacocha and Rippin",
-        "ToolTip": "Odio minus impedit autem.",
-        "Deleted": true,
-        "Rank": 625,
-        "Type": "perspiciatis",
-        "ColorBlock": 576,
-        "IconHint": "velit",
-        "Selected": false,
-        "LastChanged": "2012-07-30T02:49:44.7340524+02:00",
+        "Id": 305,
+        "Name": "Larson-Cormier",
+        "ToolTip": "Earum quia ipsam expedita et sint rerum.",
+        "Deleted": false,
+        "Rank": 95,
+        "Type": "et",
+        "ColorBlock": 627,
+        "IconHint": "fugiat",
+        "Selected": true,
+        "LastChanged": "2022-09-09T17:37:18.3402415+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "hic",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Ashtyn Halvorson",
+        "FullName": "Matt Kolby Sanford IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 471
+            "FieldType": "System.Int32",
+            "FieldLength": 155
           }
         }
       }
     ],
     "ExtraInfo": "dolor",
-    "StyleHint": "ea",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Maximillia Botsford",
+    "FullName": "Julien Weimann PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 142
+        "FieldType": "System.Int32",
+        "FieldLength": 716
       }
     }
   }

@@ -44,20 +44,19 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId, StartTime, EndTime, Count, AppointmentType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| AppointmentType | string |  |
+| ProjectId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| AppointmentType | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -127,14 +126,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 219,
-  "StartTime": "2010-01-25T02:49:43.637906+01:00",
-  "EndTime": "2001-08-16T02:49:43.637906+02:00",
-  "Count": 289,
+  "ProjectId": 475,
+  "StartTime": "2001-01-10T17:37:16.6012444+01:00",
+  "EndTime": "2016-10-08T17:37:16.6012444+02:00",
+  "Count": 386,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -147,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 256,
-    "StartDate": "2008-12-05T02:49:43.637906+01:00",
-    "EndDate": "2018-10-09T02:49:43.637906+02:00",
+    "AppointmentId": 433,
+    "StartDate": "2011-02-28T17:37:16.6022447+01:00",
+    "EndDate": "2011-04-15T17:37:16.6022447+02:00",
     "Type": "BookingForChecklist",
-    "Task": "consectetur",
-    "AssociateFullName": "Cielo Hintz",
-    "ContactName": "Leuschke, Treutel and O'Conner",
-    "Description": "Up-sized logistical moderator",
-    "PersonFullName": "Prof. Emilie Stoltenberg IV",
-    "PersonId": 211,
-    "ContactId": 351,
-    "ProjectId": 427,
-    "ProjectName": "Greenholt Group",
-    "IsPublished": true,
-    "AssociateId": 653,
-    "ColorIndex": 372,
-    "IsFree": false,
+    "Task": "dolorem",
+    "AssociateFullName": "Chance Hirthe",
+    "ContactName": "Dibbert Group",
+    "Description": "Down-sized optimal adapter",
+    "PersonFullName": "Mr. Olaf Abshire III",
+    "PersonId": 372,
+    "ContactId": 182,
+    "ProjectId": 226,
+    "ProjectName": "Kautzer Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 173,
+    "ColorIndex": 936,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 507,
-    "PriorityName": "Hilpert-Blick",
+    "PriorityId": 550,
+    "PriorityName": "Kerluke, Howe and Hermann",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2011-02-06T02:49:43.637906+01:00",
+    "ActiveDate": "2008-01-10T17:37:16.6022447+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-10-12T02:49:43.637906+02:00",
-    "RecurringEndDate": "1998-11-03T02:49:43.637906+01:00",
-    "MotherId": 161,
-    "AssignedBy": 195,
-    "AssignedByFullName": "Adolph O'Keefe",
+    "RecurringStartDate": "2007-10-07T17:37:16.6022447+02:00",
+    "RecurringEndDate": "1996-05-03T17:37:16.6022447+02:00",
+    "MotherId": 913,
+    "AssignedBy": 224,
+    "AssignedByFullName": "Ms. Stan Shanie Wolf",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "enim",
-    "SaleId": 915,
-    "SaleName": "Predovic, Windler and Ankunding",
-    "AssociateName": "VonRueden, Rau and McLaughlin",
-    "CreatedDate": "2000-07-29T02:49:43.637906+02:00",
-    "CreatedBy": "amet",
-    "CreatedByFullName": "Ms. Deshaun Carmelo Davis",
-    "CreatedByAssociateId": 647,
+    "Location": "provident",
+    "AlarmLeadTime": "voluptates",
+    "SaleId": 811,
+    "SaleName": "Kutch LLC",
+    "AssociateName": "Rogahn, Ryan and Lebsack",
+    "CreatedDate": "2021-01-05T17:37:16.6032447+01:00",
+    "CreatedBy": "deserunt",
+    "CreatedByFullName": "Ernest Kilback",
+    "CreatedByAssociateId": 790,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 57
+        "FieldType": "System.Int32",
+        "FieldLength": 193
       }
     }
   }

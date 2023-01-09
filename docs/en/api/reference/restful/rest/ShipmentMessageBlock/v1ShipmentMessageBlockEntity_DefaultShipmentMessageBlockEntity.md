@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ShipmentMessageBlockEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +54,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -63,7 +63,7 @@ Response body:
 GET /api/v1/ShipmentMessageBlock/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 904,
-  "AssociateId": 265,
-  "Block": "veniam",
-  "Registered": "2013-08-09T02:49:51.536309+02:00",
-  "RegisteredAssociateId": 15,
-  "Updated": "2014-09-15T02:49:51.536309+02:00",
-  "UpdatedAssociateId": 84,
-  "UpdatedCount": 805,
+  "ShipmentMessageBlockId": 801,
+  "AssociateId": 728,
+  "Block": "qui",
+  "Registered": "1997-09-18T17:37:39.2233032+02:00",
+  "RegisteredAssociateId": 314,
+  "Updated": "1999-04-11T17:37:39.2233032+02:00",
+  "UpdatedAssociateId": 689,
+  "UpdatedCount": 467,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldType": "System.String",
+      "FieldLength": 57
     }
   }
 }

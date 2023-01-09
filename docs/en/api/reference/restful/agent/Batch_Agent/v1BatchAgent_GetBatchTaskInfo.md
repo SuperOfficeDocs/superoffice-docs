@@ -42,16 +42,15 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 |  |
+| Id | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BatchTaskInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +83,7 @@ Response body:
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,11 +92,11 @@ Response body:
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 823
+  "Id": 471
 }
 ```
 
@@ -108,36 +107,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 62,
-  "Name": "Lang, Stoltenberg and Kulas",
-  "AssociateId": 667,
-  "DetailsTable": 229,
-  "DetailsRecord": 22,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 539,
+  "Name": "Rodriguez Inc and Sons",
+  "AssociateId": 211,
+  "DetailsTable": 678,
+  "DetailsRecord": 939,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "sit",
-    "ParameterObject2": "nam"
+    "ParameterObject1": "excepturi",
+    "ParameterObject2": "quis"
   },
-  "LastStarted": "2006-04-28T02:49:43.7004017+02:00",
-  "Created": "2021-12-02T02:49:43.7004017+01:00",
-  "StartCount": 393,
-  "DatabaseSerialNumber": "1736504",
-  "Context": "tempore",
-  "Result": "et",
+  "LastStarted": "2004-03-11T17:37:16.895244+01:00",
+  "Created": "2014-04-22T17:37:16.895244+02:00",
+  "StartCount": 81,
+  "DatabaseSerialNumber": "429175",
+  "Context": "voluptatem",
+  "Result": "dolorum",
   "State": "All",
-  "Description": "Business-focused optimal forecast",
-  "Response": "deserunt",
-  "Request": "voluptate",
-  "ProgressDescription": "Networked full-range portal",
-  "ProgressPercent": 772,
-  "FileName": "Ruecker LLC",
+  "Description": "Mandatory multi-tasking leverage",
+  "Response": "facilis",
+  "Request": "quidem",
+  "ProgressDescription": "Realigned homogeneous solution",
+  "ProgressPercent": 326,
+  "FileName": "Lind-Altenwerth",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldLength": 354
     }
   }
 }

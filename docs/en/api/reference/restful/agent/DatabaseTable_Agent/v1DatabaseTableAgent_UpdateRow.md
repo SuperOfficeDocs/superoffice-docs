@@ -38,18 +38,17 @@ POST /api/v1/Agents/DatabaseTable/UpdateRow?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, Id, Values 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| Id | int32 |  |
-| Values | object |  |
+| TableName | String |  |
+| Id | Integer |  |
+| Values | PersonEntity |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -57,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -66,15 +65,15 @@ Response body:
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Blick, Considine and Abshire",
-  "Id": 530,
+  "TableName": "Gerhold, Pacocha and Feil",
+  "Id": 782,
   "Values": {
-    "Values1": "praesentium",
-    "Values2": "omnis"
+    "Values1": "error",
+    "Values2": "sit"
   }
 }
 ```

@@ -44,19 +44,18 @@ POST /api/v1/Agents/User/IsPasswordValidWithReason?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId, Type, PersonId, Password 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
-| Type | string |  |
-| PersonId | int32 |  |
-| Password | string |  |
+| AssociateId | Integer |  |
+| Type | String |  |
+| PersonId | Integer |  |
+| Password | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,13 +63,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserValidationResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Reason | string |  |
 | Result | bool |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 193,
+  "AssociateId": 395,
   "Type": "AnonymousAssociate",
-  "PersonId": 638,
-  "Password": "ipsa"
+  "PersonId": 986,
+  "Password": "aliquam"
 }
 ```
 
@@ -104,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldLength": 215
     }
   }
 }

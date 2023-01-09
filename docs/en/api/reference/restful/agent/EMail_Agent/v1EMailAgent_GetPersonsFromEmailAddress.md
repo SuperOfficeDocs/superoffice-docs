@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
 Get all persons and contacts with the given email address
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EmailAddress 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EmailAddress | string |  |
+| EmailAddress | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -107,7 +104,7 @@ Response body: array
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -116,11 +113,11 @@ Response body: array
 POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "keira@faheypouros.biz"
+  "EmailAddress": "jaime@howell.ca"
 }
 ```
 
@@ -132,52 +129,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "aspernatur",
-    "PersonId": 233,
-    "Mrmrs": "veritatis",
-    "Firstname": "Jasen",
-    "Lastname": "Gaylord",
-    "MiddleName": "Deckow Group",
-    "Title": "animi",
-    "Description": "Self-enabling heuristic policy",
-    "Email": "johathan_hand@littelvon.us",
-    "FullName": "Brianne Balistreri",
-    "DirectPhone": "1-553-927-9800",
-    "FormalName": "Nitzsche LLC",
-    "CountryId": 286,
-    "ContactId": 458,
-    "ContactName": "Shields Inc and Sons",
-    "Retired": 786,
-    "Rank": 639,
-    "ActiveInterests": 660,
-    "ContactDepartment": "",
-    "ContactCountryId": 13,
-    "ContactOrgNr": "1197894",
-    "FaxPhone": "040-305-1954 x3869",
-    "MobilePhone": "585-945-4372 x2744",
-    "ContactPhone": "1-150-696-0912 x9629",
-    "AssociateName": "Heaney-Murray",
-    "AssociateId": 393,
+    "Position": "et",
+    "PersonId": 819,
+    "Mrmrs": "blanditiis",
+    "Firstname": "Greyson",
+    "Lastname": "Johnston",
+    "MiddleName": "Turcotte Inc and Sons",
+    "Title": "et",
+    "Description": "Assimilated attitude-oriented success",
+    "Email": "britney@deckow.name",
+    "FullName": "Quinten Nicolas",
+    "DirectPhone": "998-673-1057 x768",
+    "FormalName": "Ward, Bahringer and Schaefer",
+    "CountryId": 584,
+    "ContactId": 234,
+    "ContactName": "Cormier-Price",
+    "Retired": 291,
+    "Rank": 726,
+    "ActiveInterests": 723,
+    "ContactDepartment": "visualize bricks-and-clicks communities",
+    "ContactCountryId": 582,
+    "ContactOrgNr": "1035520",
+    "FaxPhone": "019-694-0890 x398",
+    "MobilePhone": "016.451.8303",
+    "ContactPhone": "1-580-360-7027 x311",
+    "AssociateName": "Ankunding Inc and Sons",
+    "AssociateId": 535,
     "UsePersonAddress": false,
-    "ContactFax": "rerum",
-    "Kanafname": "quia",
-    "Kanalname": "a",
-    "Post1": "ipsam",
-    "Post2": "necessitatibus",
+    "ContactFax": "ut",
+    "Kanafname": "velit",
+    "Kanalname": "dignissimos",
+    "Post1": "nesciunt",
+    "Post2": "dolores",
     "Post3": "aut",
-    "EmailName": "sydni@rowe.biz",
-    "ContactFullName": "Mrs. Garret Chase Davis PhD",
-    "ActiveErpLinks": 723,
-    "TicketPriorityId": 63,
-    "SupportLanguageId": 829,
-    "SupportAssociateId": 592,
+    "EmailName": "anne@wehner.name",
+    "ContactFullName": "Floyd Gorczany",
+    "ActiveErpLinks": 451,
+    "TicketPriorityId": 363,
+    "SupportLanguageId": 389,
+    "SupportAssociateId": 867,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 714
+        "FieldLength": 776
       }
     }
   }

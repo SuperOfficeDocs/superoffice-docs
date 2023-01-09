@@ -44,16 +44,15 @@ POST /api/v1/Agents/Batch/UpdateBatchTask?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 BatchTaskInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| BatchTaskInfo |  | BatchTaskInfo contains information about one batch task. <para /> Carrier object for BatchTaskInfo. Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>. |
+| BatchTaskInfo | BatchTaskInfo | BatchTaskInfo contains information about one batch task. <para /> Carrier object for BatchTaskInfo. Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BatchTaskInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,7 +85,7 @@ Response body:
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,7 +94,7 @@ Response body:
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,36 +109,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 213,
-  "Name": "Rath Inc and Sons",
-  "AssociateId": 730,
-  "DetailsTable": 106,
-  "DetailsRecord": 304,
+  "Id": 837,
+  "Name": "Hammes-Nienow",
+  "AssociateId": 865,
+  "DetailsTable": 645,
+  "DetailsRecord": 75,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "maiores",
-    "ParameterObject2": "pariatur"
+    "ParameterObject1": "non",
+    "ParameterObject2": "natus"
   },
-  "LastStarted": "1997-05-06T02:49:43.7004017+02:00",
-  "Created": "2002-06-12T02:49:43.7004017+02:00",
-  "StartCount": 486,
-  "DatabaseSerialNumber": "894309",
-  "Context": "et",
-  "Result": "cumque",
+  "LastStarted": "2022-10-08T17:37:16.9002422+02:00",
+  "Created": "2019-08-13T17:37:16.9002422+02:00",
+  "StartCount": 525,
+  "DatabaseSerialNumber": "688833",
+  "Context": "ducimus",
+  "Result": "doloremque",
   "State": "All",
-  "Description": "Team-oriented systematic capability",
-  "Response": "consequatur",
-  "Request": "laboriosam",
-  "ProgressDescription": "Open-architected non-volatile frame",
-  "ProgressPercent": 688,
-  "FileName": "Ullrich-Dach",
+  "Description": "Cloned discrete algorithm",
+  "Response": "quibusdam",
+  "Request": "quasi",
+  "ProgressDescription": "Triple-buffered composite access",
+  "ProgressPercent": 341,
+  "FileName": "Bauch-Lind",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldLength": 292
     }
   }
 }

@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionName, ListItemId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionName | string |  |
-| ListItemId | int32 |  |
+| UdListDefinitionName | String |  |
+| ListItemId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,12 +87,12 @@ Response body: array
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Abbott LLC",
-  "ListItemId": 616
+  "UdListDefinitionName": "Williamson Inc and Sons",
+  "ListItemId": 278
 }
 ```
 
@@ -105,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Name": "Erdman-Stanton",
-    "ToolTip": "Magni praesentium quo enim non debitis.",
-    "Deleted": true,
-    "Rank": 500,
-    "Type": "debitis",
-    "ColorBlock": 464,
-    "IconHint": "exercitationem",
+    "Id": 267,
+    "Name": "Ankunding Inc and Sons",
+    "ToolTip": "Possimus et.",
+    "Deleted": false,
+    "Rank": 146,
+    "Type": "officia",
+    "ColorBlock": 756,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2016-01-15T02:49:44.6235457+01:00",
+    "LastChanged": "2017-06-09T17:37:18.1942445+02:00",
     "ChildItems": [
       {
-        "Id": 759,
-        "Name": "Schmeler, Hettinger and Roberts",
-        "ToolTip": "Maxime ut vero deleniti eos.",
-        "Deleted": false,
-        "Rank": 806,
-        "Type": "libero",
-        "ColorBlock": 69,
-        "IconHint": "esse",
+        "Id": 897,
+        "Name": "Konopelski LLC",
+        "ToolTip": "Quidem architecto dolore.",
+        "Deleted": true,
+        "Rank": 576,
+        "Type": "modi",
+        "ColorBlock": 235,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2013-09-18T02:49:44.6235457+02:00",
+        "LastChanged": "2021-03-30T17:37:18.1942445+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "in",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Percy Witting",
+        "FullName": "Alexie Lemke V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 377
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Sylvester Cremin",
+    "ExtraInfo": "laborum",
+    "StyleHint": "necessitatibus",
+    "Hidden": true,
+    "FullName": "Deion Braun",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 587
       }
     }
   }

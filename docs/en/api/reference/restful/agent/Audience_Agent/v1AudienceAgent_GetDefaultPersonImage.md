@@ -44,16 +44,15 @@ POST /api/v1/Agents/Audience/GetDefaultPersonImage?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 LayoutName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| LayoutName | string |  |
+| LayoutName | String |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -74,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Kulas-Toy"
+  "LayoutName": "Hartmann Group"
 }
 ```
 

@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 680,
-    "Name": "Hessel, Reinger and McGlynn",
-    "ToolTip": "Sit voluptatem a ducimus quasi architecto quia eum.",
+    "Id": 820,
+    "Name": "Pacocha, Haag and Klein",
+    "ToolTip": "Praesentium consequuntur libero.",
     "Deleted": false,
-    "Rank": 969,
-    "Type": "voluptate",
-    "ColorBlock": 831,
-    "IconHint": "sit",
+    "Rank": 672,
+    "Type": "occaecati",
+    "ColorBlock": 13,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2011-02-08T02:49:52.2190678+01:00",
+    "LastChanged": "2020-11-11T17:37:39.9814709+01:00",
     "ChildItems": [
       {
-        "Id": 451,
-        "Name": "Walter Group",
-        "ToolTip": "Inventore quia aut omnis nam sed.",
+        "Id": 445,
+        "Name": "Swaniawski-Considine",
+        "ToolTip": "Magnam inventore et.",
         "Deleted": false,
-        "Rank": 473,
-        "Type": "incidunt",
-        "ColorBlock": 401,
-        "IconHint": "exercitationem",
-        "Selected": false,
-        "LastChanged": "1995-09-04T02:49:52.2190678+02:00",
+        "Rank": 319,
+        "Type": "hic",
+        "ColorBlock": 769,
+        "IconHint": "odio",
+        "Selected": true,
+        "LastChanged": "2011-02-07T17:37:39.9814709+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "dolores",
+        "ExtraInfo": "quis",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Ms. Finn Jerrod Schmitt",
+        "FullName": "Mohammed Kozey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 495
+            "FieldType": "System.Int32",
+            "FieldLength": 74
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "dolor",
-    "Hidden": true,
-    "FullName": "Casey Fadel",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "vel",
+    "Hidden": false,
+    "FullName": "Prof. Malvina Hegmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 987
+        "FieldLength": 494
       }
     }
   }

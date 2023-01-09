@@ -31,7 +31,7 @@ You must specify the date after which activities will be moved along with the pe
 | moveAfterDate | date-time | **Required** Move activites after this date. Activities before this date are left alone. |
 
 ```http
-POST /api/v1/Person/{personId}/MoveTo/{destinationContactId}?moveAfterDate=09/03/1998 02:49:52
+POST /api/v1/Person/{personId}/MoveTo/{destinationContactId}?moveAfterDate=03/23/2012 17:37:40
 ```
 
 
@@ -45,7 +45,7 @@ POST /api/v1/Person/{personId}/MoveTo/{destinationContactId}?moveAfterDate=09/03
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 No Content
 
@@ -53,7 +53,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -62,7 +62,7 @@ Response body:
 POST /api/v1/Person/{personId}/MoveTo/{destinationContactId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

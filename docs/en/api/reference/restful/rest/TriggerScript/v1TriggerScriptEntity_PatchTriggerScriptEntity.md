@@ -74,18 +74,17 @@ PATCH /api/v1/TriggerScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 TriggerScriptEntity  updated.
 
@@ -96,7 +95,7 @@ TriggerScriptEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because TriggerScriptEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: TriggerScriptEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -110,7 +109,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -120,18 +119,18 @@ Response body:
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "occaecati",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "occaecati",
     "value": {}
   }
 ]
@@ -144,27 +143,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 544,
-  "Name": "Schneider, Hintz and Berge",
+  "ScreenChooserId": 907,
+  "Name": "Gleason, Homenick and Moen",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "qui",
-  "Source": "repellat",
-  "Registered": "2019-02-02T02:49:51.6710218+01:00",
-  "RegisteredAssociateId": 267,
-  "Updated": "2019-09-28T02:49:51.6710218+02:00",
-  "UpdatedAssociateId": 339,
+  "Enabled": true,
+  "UniqueIdentifier": "modi",
+  "Source": "molestiae",
+  "Registered": "2010-06-12T17:37:39.3934278+02:00",
+  "RegisteredAssociateId": 113,
+  "Updated": "2005-10-07T17:37:39.3934278+02:00",
+  "UpdatedAssociateId": 355,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 232
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

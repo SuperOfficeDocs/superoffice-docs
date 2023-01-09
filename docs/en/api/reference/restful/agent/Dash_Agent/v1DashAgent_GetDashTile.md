@@ -25,7 +25,7 @@ Gets a DashTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTile?dashTileId=88
+POST /api/v1/Agents/Dash/GetDashTile?dashTileId=756
 POST /api/v1/Agents/Dash/GetDashTile?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Dash/GetDashTile?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTile
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,8 +61,8 @@ Response body:
 | Height | int32 | Height used by this tile in the dashboard |
 | Width | int32 | Width used by this tile in the dashboard |
 | Rank | int32 | Rank order |
-| DashTileDefinition |  | The tile definition entity |
-| TableRight |  |  |
+| DashTileDefinition | DashTileDefinition | The tile definition entity |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +71,7 @@ Response body:
 POST /api/v1/Agents/Dash/GetDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 29,
-  "DashboardId": 338,
-  "Height": 907,
-  "Width": 274,
-  "Rank": 531,
+  "DashboardTileId": 103,
+  "DashboardId": 343,
+  "Height": 953,
+  "Width": 201,
+  "Rank": 653,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldType": "System.String",
+      "FieldLength": 775
     }
   }
 }

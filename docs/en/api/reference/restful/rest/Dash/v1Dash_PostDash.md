@@ -44,28 +44,27 @@ POST /api/v1/Dash?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The Dash to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardId | int32 | Primary key |
-| UniqueId | string | GUID identifying a default dashboard from SuperOffice |
-| Name | string | The name of this dashboard |
-| Description | string | Detailed description |
-| AssociateId | int32 | Associate who owns this dashboard |
-| Columns | int32 | How many columns there will be in the dashboard. |
-| Theme |  | The theme for this dashboard |
-| VisibleForAll | int32 | True if visible for all |
-| VisibleForAssociates | array | Array of references to the visible for associates |
-| VisibleForGroups | array | Array of references to the visible for groups |
-| PinForAll | int32 | True if pinned for all |
-| PinForAssociates | array | Array of references to the pinned associates |
-| PinForGroups | array | Array of references to the pinned groups |
+| DashboardId | Integer | Primary key |
+| UniqueId | String | GUID identifying a default dashboard from SuperOffice |
+| Name | String | The name of this dashboard |
+| Description | String | Detailed description |
+| AssociateId | Integer | Associate who owns this dashboard |
+| Columns | Integer | How many columns there will be in the dashboard. |
+| Theme | DashTheme | The theme for this dashboard |
+| VisibleForAll | Integer | True if visible for all |
+| VisibleForAssociates | Array | Array of references to the visible for associates |
+| VisibleForGroups | Array | Array of references to the visible for groups |
+| PinForAll | Integer | True if pinned for all |
+| PinForAssociates | Array | Array of references to the pinned associates |
+| PinForGroups | Array | Array of references to the pinned groups |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -73,7 +72,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,14 +82,14 @@ Response body:
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
 | Columns | int32 | How many columns there will be in the dashboard. |
-| Theme |  | The theme for this dashboard |
+| Theme | DashTheme | The theme for this dashboard |
 | VisibleForAll | int32 | True if visible for all |
 | VisibleForAssociates | array | Array of references to the visible for associates |
 | VisibleForGroups | array | Array of references to the visible for groups |
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -104,30 +103,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 399,
-  "UniqueId": "et",
-  "Name": "Christiansen, McDermott and Ratke",
-  "Description": "Organized explicit hub",
-  "AssociateId": 372,
-  "Columns": 651,
+  "DashboardId": 37,
+  "UniqueId": "aut",
+  "Name": "Miller Group",
+  "Description": "Right-sized leading edge challenge",
+  "AssociateId": 838,
+  "Columns": 894,
   "Theme": null,
-  "VisibleForAll": 448,
+  "VisibleForAll": 246,
   "VisibleForAssociates": [
-    119,
-    201
+    620,
+    527
   ],
   "VisibleForGroups": [
-    288,
-    60
+    440,
+    708
   ],
-  "PinForAll": 865,
+  "PinForAll": 654,
   "PinForAssociates": [
-    280,
-    589
+    55,
+    9
   ],
   "PinForGroups": [
-    171,
-    689
+    511,
+    725
   ]
 }
 ```
@@ -139,37 +138,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 147,
-  "UniqueId": "molestiae",
-  "Name": "Welch, Jerde and Okuneva",
-  "Description": "Total transitional collaboration",
-  "AssociateId": 576,
-  "Columns": 13,
+  "DashboardId": 229,
+  "UniqueId": "unde",
+  "Name": "Gleason-Gusikowski",
+  "Description": "Phased systematic encoding",
+  "AssociateId": 598,
+  "Columns": 140,
   "Theme": null,
-  "VisibleForAll": 629,
+  "VisibleForAll": 506,
   "VisibleForAssociates": [
-    507,
-    380
+    139,
+    557
   ],
   "VisibleForGroups": [
-    504,
-    663
+    941,
+    501
   ],
-  "PinForAll": 186,
+  "PinForAll": 915,
   "PinForAssociates": [
-    191,
-    359
+    779,
+    512
   ],
   "PinForGroups": [
-    560,
-    475
+    851,
+    488
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 232
     }
   },
   "_Links": {

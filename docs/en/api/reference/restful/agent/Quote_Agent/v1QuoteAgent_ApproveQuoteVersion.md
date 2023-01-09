@@ -42,19 +42,18 @@ POST /api/v1/Agents/Quote/ApproveQuoteVersion?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId, ApprovedByText, ApprovedByAssociateId, ApprovalText 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
-| ApprovedByText | string |  |
-| ApprovedByAssociateId | int32 |  |
-| ApprovalText | string |  |
+| QuoteVersionId | Integer |  |
+| ApprovedByText | String |  |
+| ApprovedByAssociateId | Integer |  |
+| ApprovalText | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,13 +61,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ApproveRejectResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PluginResponse |  | The response from the operation. |
+| PluginResponse | PluginResponse | The response from the operation. |
 | CreatedAppointmentId | int32 | Id of the created follow up. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,10 +80,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 74,
-  "ApprovedByText": "quo",
-  "ApprovedByAssociateId": 544,
-  "ApprovalText": "aut"
+  "QuoteVersionId": 165,
+  "ApprovedByText": "impedit",
+  "ApprovedByAssociateId": 934,
+  "ApprovalText": "pariatur"
 }
 ```
 
@@ -96,13 +95,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 524,
+  "CreatedAppointmentId": 141,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 973
+      "FieldType": "System.Int32",
+      "FieldLength": 376
     }
   }
 }

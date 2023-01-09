@@ -42,18 +42,17 @@ POST /api/v1/Agents/Quote/CreateQuoteAlternative?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId, QuoteAlternativeName, QuoteAlternativeDescription 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
-| QuoteAlternativeName | string |  |
-| QuoteAlternativeDescription | string |  |
+| QuoteVersionId | Integer |  |
+| QuoteAlternativeName | String |  |
+| QuoteAlternativeDescription | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteAlternative
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body:
 | ExtraField3 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,13 +96,13 @@ Response body:
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 233,
-  "QuoteAlternativeName": "Marks-West",
-  "QuoteAlternativeDescription": "Monitored mobile time-frame"
+  "QuoteVersionId": 674,
+  "QuoteAlternativeName": "Bernhard-Hettinger",
+  "QuoteAlternativeDescription": "Advanced high-level open architecture"
 }
 ```
 
@@ -114,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 304,
-  "ERPQuoteAlternativeKey": "sunt",
-  "QuoteVersionId": 985,
-  "Name": "Lueilwitz-Flatley",
-  "Description": "Self-enabling stable customer loyalty",
+  "QuoteAlternativeId": 641,
+  "ERPQuoteAlternativeKey": "eum",
+  "QuoteVersionId": 938,
+  "Name": "Torp, Howe and Marquardt",
+  "Description": "Digitized transitional approach",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 385.48199999999997,
-  "ERPDiscountAmount": 22928.344,
-  "DiscountPercent": 23423.516,
-  "DiscountAmount": 16766.899999999998,
+  "ERPDiscountPercent": 6506.184,
+  "ERPDiscountAmount": 10511.436,
+  "DiscountPercent": 29870.154,
+  "DiscountAmount": 2021.4299999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "cum",
-  "VAT": 8044.978,
-  "EarningPercent": 14751.738,
-  "EarningAmount": 10856.176,
-  "SubTotal": 8154.668,
-  "TotalPrice": 9972.387999999999,
-  "ExtraField1": "id",
-  "ExtraField2": "ut",
-  "ExtraField3": "et",
-  "ExtraField4": "et",
-  "ExtraField5": "iure",
+  "VATInfo": "ab",
+  "VAT": 12344.826,
+  "EarningPercent": 8815.942,
+  "EarningAmount": 29976.71,
+  "SubTotal": 4688.464,
+  "TotalPrice": 1034.22,
+  "ExtraField1": "ad",
+  "ExtraField2": "eligendi",
+  "ExtraField3": "tenetur",
+  "ExtraField4": "est",
+  "ExtraField5": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldType": "System.Int32",
+      "FieldLength": 302
     }
   }
 }

@@ -42,19 +42,18 @@ POST /api/v1/Agents/Ticket/SplitTicketMessage?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SourceTicketMessage, NewTicketEntity, NewTicketMessage, TransferAttachmentsIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SourceTicketMessage |  | The ticket messages are e-mails, SMS or other messages attached to a ticket (aka request). <para /> Carrier object for TicketMessageEntity. Services for the TicketMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>. |
-| NewTicketEntity |  | The ticket entity is used for representing a service ticket <para /> Carrier object for TicketEntity. Services for the TicketEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>. |
-| NewTicketMessage |  | The ticket messages are e-mails, SMS or other messages attached to a ticket (aka request). <para /> Carrier object for TicketMessageEntity. Services for the TicketMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>. |
-| TransferAttachmentsIds | array |  |
+| SourceTicketMessage | TicketMessageEntity | The ticket messages are e-mails, SMS or other messages attached to a ticket (aka request). <para /> Carrier object for TicketMessageEntity. Services for the TicketMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>. |
+| NewTicketEntity | TicketEntity | The ticket entity is used for representing a service ticket <para /> Carrier object for TicketEntity. Services for the TicketEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>. |
+| NewTicketMessage | TicketMessageEntity | The ticket messages are e-mails, SMS or other messages attached to a ticket (aka request). <para /> Carrier object for TicketMessageEntity. Services for the TicketMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>. |
+| TransferAttachmentsIds | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,16 +78,16 @@ Response body:
 | RepliedAt | date-time | The datetime for when the ticket was replied to. I.e. the first external message added to the ticket. |
 | AlertTimeout | date-time | The datetime for when the ticket should jump to the next alert_level. |
 | Deadline | date-time | Deadline for ticket. |
-| CreatedBy |  | The associate who created this ticket |
+| CreatedBy | Associate | The associate who created this ticket |
 | Author | string | A string representing the author of the ticket (same as author of first message). |
-| OwnedBy |  | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <para>Use MDO List name "associate" to get list items.</para> |
-| Category |  | The ticket category entity which this ticket is connected to  <para>Use MDO List name "ejcategory" to get list items.</para> |
+| OwnedBy | Associate | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <para>Use MDO List name "associate" to get list items.</para> |
+| Category | TicketCategoryEntity | The ticket category entity which this ticket is connected to  <para>Use MDO List name "ejcategory" to get list items.</para> |
 | Slevel | string | The securitylevel of the ticket. |
-| Priority |  | The ticket priority entity which this ticket is connected to  <para>Use MDO List name "ticketpriority" to get list items.</para> |
+| Priority | TicketPriorityEntity | The ticket priority entity which this ticket is connected to  <para>Use MDO List name "ticketpriority" to get list items.</para> |
 | BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  <para>Use MDO List name "ticketstatus" to get list items.</para> |
-| Status |  | The ticket status entity which this ticket is connected to  <para>Use MDO List name "ticketstatus" to get list items.</para> |
+| Status | TicketStatusEntity | The ticket status entity which this ticket is connected to  <para>Use MDO List name "ticketstatus" to get list items.</para> |
 | Origin | string | What is the origin of this ticket |
-| Person |  | The primary person that this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The primary person that this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
 | SecondaryPersons | array | The secondary persons this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
 | AlertLevel | int32 | The alert level for the ticket. Matches the level value of the ticket_alert table. |
 | ConnectId | int32 | If a ticket is connected to another ticket, this field is set to the id of the &amp;apos;master&amp;apos; ticket. |
@@ -116,9 +115,11 @@ Response body:
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
+| Sale | Sale | The sale that this ticket connected to  <para>Use MDO List name "sale" to get list items.</para> |
+| Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -135,8 +136,8 @@ Content-Type: application/json; charset=utf-8
   "NewTicketEntity": null,
   "NewTicketMessage": null,
   "TransferAttachmentsIds": [
-    282,
-    287
+    252,
+    104
   ]
 }
 ```
@@ -148,21 +149,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 505,
-  "Title": "vel",
-  "CreatedAt": "2003-03-19T02:49:45.5622206+01:00",
-  "LastChanged": "2017-06-22T02:49:45.5622206+02:00",
-  "ReadByOwner": "2011-12-21T02:49:45.5622206+01:00",
-  "ReadByCustomer": "2021-12-08T02:49:45.5622206+01:00",
-  "FirstReadByOwner": "2013-09-29T02:49:45.5622206+02:00",
-  "FirstReadByUser": "2021-07-19T02:49:45.5622206+02:00",
-  "Activate": "2005-04-10T02:49:45.5622206+02:00",
-  "ClosedAt": "2008-02-22T02:49:45.5622206+01:00",
-  "RepliedAt": "2016-10-04T02:49:45.5622206+02:00",
-  "AlertTimeout": "1997-12-30T02:49:45.5622206+01:00",
-  "Deadline": "2016-01-13T02:49:45.5622206+01:00",
+  "TicketId": 873,
+  "Title": "quia",
+  "CreatedAt": "2021-02-16T17:37:19.4209778+01:00",
+  "LastChanged": "2019-05-17T17:37:19.4209778+02:00",
+  "ReadByOwner": "2002-08-22T17:37:19.4209778+02:00",
+  "ReadByCustomer": "2010-02-11T17:37:19.4209778+01:00",
+  "FirstReadByOwner": "2009-10-27T17:37:19.4209778+01:00",
+  "FirstReadByUser": "2019-03-10T17:37:19.4209778+01:00",
+  "Activate": "2017-01-24T17:37:19.4209778+01:00",
+  "ClosedAt": "2014-03-22T17:37:19.4209778+01:00",
+  "RepliedAt": "2017-02-05T17:37:19.4209778+01:00",
+  "AlertTimeout": "2006-08-19T17:37:19.4209778+02:00",
+  "Deadline": "2022-04-12T17:37:19.4209778+02:00",
   "CreatedBy": null,
-  "Author": "sapiente",
+  "Author": "omnis",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -173,155 +174,157 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ab",
-      "PersonId": 841,
-      "Mrmrs": "exercitationem",
-      "Firstname": "Jedidiah",
-      "Lastname": "Pollich",
-      "MiddleName": "O'Keefe-Heller",
-      "Title": "qui",
-      "Description": "Programmable executive info-mediaries",
-      "Email": "hailee_trantow@macejkovichoppe.com",
-      "FullName": "Salvatore Borer",
-      "DirectPhone": "761-634-9491 x61606",
-      "FormalName": "Bahringer, Doyle and Lakin",
-      "CountryId": 116,
-      "ContactId": 573,
-      "ContactName": "Kshlerin-Hermiston",
-      "Retired": 609,
-      "Rank": 242,
-      "ActiveInterests": 106,
+      "Position": "suscipit",
+      "PersonId": 726,
+      "Mrmrs": "iusto",
+      "Firstname": "Shaylee",
+      "Lastname": "Treutel",
+      "MiddleName": "Lynch, Homenick and Shanahan",
+      "Title": "inventore",
+      "Description": "Quality-focused 4th generation adapter",
+      "Email": "tyrel@heaney.ca",
+      "FullName": "Ms. Nikita Kuhlman",
+      "DirectPhone": "(657)027-1941",
+      "FormalName": "Windler Group",
+      "CountryId": 634,
+      "ContactId": 623,
+      "ContactName": "Stoltenberg, Lang and Mertz",
+      "Retired": 881,
+      "Rank": 96,
+      "ActiveInterests": 451,
       "ContactDepartment": "",
-      "ContactCountryId": 659,
-      "ContactOrgNr": "962492",
-      "FaxPhone": "(160)130-4371",
-      "MobilePhone": "354-528-3357 x384",
-      "ContactPhone": "1-615-347-5596",
-      "AssociateName": "Beatty-Upton",
-      "AssociateId": 742,
-      "UsePersonAddress": true,
-      "ContactFax": "officiis",
-      "Kanafname": "maiores",
-      "Kanalname": "ratione",
-      "Post1": "magni",
-      "Post2": "fuga",
-      "Post3": "sed",
-      "EmailName": "jacinthe@croninhermann.com",
-      "ContactFullName": "Hubert Grady",
-      "ActiveErpLinks": 870,
-      "TicketPriorityId": 828,
-      "SupportLanguageId": 209,
-      "SupportAssociateId": 964,
+      "ContactCountryId": 379,
+      "ContactOrgNr": "192136",
+      "FaxPhone": "788.862.9427 x874",
+      "MobilePhone": "1-218-347-7477 x54888",
+      "ContactPhone": "652.069.4995",
+      "AssociateName": "Steuber-Hermann",
+      "AssociateId": 139,
+      "UsePersonAddress": false,
+      "ContactFax": "ipsum",
+      "Kanafname": "necessitatibus",
+      "Kanalname": "nihil",
+      "Post1": "voluptatem",
+      "Post2": "natus",
+      "Post3": "laudantium",
+      "EmailName": "noemi@doyle.info",
+      "ContactFullName": "Izaiah Kozey",
+      "ActiveErpLinks": 873,
+      "TicketPriorityId": 337,
+      "SupportLanguageId": 856,
+      "SupportAssociateId": 656,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 814
         }
       }
     }
   ],
-  "AlertLevel": 203,
-  "ConnectId": 693,
+  "AlertLevel": 633,
+  "ConnectId": 489,
   "ReadStatus": "Green",
-  "TimeToReply": 86,
-  "RealTimeToReply": 345,
-  "TimeToClose": 833,
-  "RealTimeToClose": 930,
-  "TimeSpentInternally": 934,
-  "TimeSpentExternally": 441,
-  "TimeSpentQueue": 167,
-  "RealTimeSpentInternally": 236,
-  "RealTimeSpentExternally": 552,
-  "RealTimeSpentQueue": 731,
+  "TimeToReply": 25,
+  "RealTimeToReply": 11,
+  "TimeToClose": 272,
+  "RealTimeToClose": 979,
+  "TimeSpentInternally": 465,
+  "TimeSpentExternally": 6,
+  "TimeSpentQueue": 419,
+  "RealTimeSpentInternally": 865,
+  "RealTimeSpentExternally": 496,
+  "RealTimeSpentQueue": 721,
   "HasAttachment": false,
-  "NumReplies": 674,
-  "NumMessages": 641,
-  "FromAddress": "enim",
+  "NumReplies": 499,
+  "NumMessages": 190,
+  "FromAddress": "excepturi",
   "Messages": [
     {
-      "TicketMessageId": 368,
-      "CreatedAt": "2005-12-15T02:49:45.5622206+01:00",
+      "TicketMessageId": 554,
+      "CreatedAt": "2009-11-14T17:37:19.4259767+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "voluptatibus",
-      "PersonId": 53,
-      "PersonFullName": "Miss Hollie Patsy Balistreri",
-      "ContactId": 367,
-      "ContactName": "Collier-Rice",
+      "Author": "commodi",
+      "PersonId": 428,
+      "PersonFullName": "Mrs. Dejon Hiram Romaguera",
+      "ContactId": 240,
+      "ContactName": "Schmeler-Gaylord",
       "ContactDepartment": "",
-      "NumAttachments": 301,
-      "EmailHeader": "ila@reichertlittel.us",
+      "NumAttachments": 673,
+      "EmailHeader": "jamey_hermann@yundt.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "voluptate",
-      "Sentiment": 360,
-      "SentimentConfidence": 458,
-      "CreatedBy": 348,
-      "ChangedAt": "2005-04-25T02:49:45.5622206+02:00",
+      "Language": "dicta",
+      "Sentiment": 761,
+      "SentimentConfidence": 154,
+      "CreatedBy": 501,
+      "ChangedAt": "2016-05-09T17:37:19.4259767+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 372
+          "FieldType": "System.String",
+          "FieldLength": 465
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 343,
-      "Name": "Koepp-O'Reilly",
-      "ToolTip": "Deserunt odit eveniet maxime enim.",
+      "Id": 130,
+      "Name": "Wolff Inc and Sons",
+      "ToolTip": "Nam provident dolorem omnis mollitia nam.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 609
+          "FieldType": "System.Int32",
+          "FieldLength": 582
         }
       }
     },
     {
-      "Id": 343,
-      "Name": "Koepp-O'Reilly",
-      "ToolTip": "Deserunt odit eveniet maxime enim.",
+      "Id": 130,
+      "Name": "Wolff Inc and Sons",
+      "ToolTip": "Nam provident dolorem omnis mollitia nam.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 609
+          "FieldType": "System.Int32",
+          "FieldLength": 582
         }
       }
     }
   ],
-  "Language": "et",
-  "Sentiment": 213,
-  "SentimentConfidence": 342,
-  "SuggestedCategoryId": 757,
+  "Language": "debitis",
+  "Sentiment": 777,
+  "SentimentConfidence": 760,
+  "SuggestedCategoryId": 894,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 450,
-  "IconHint": "qui",
+  "OrigHumanCategoryId": 44,
+  "IconHint": "occaecati",
+  "Sale": null,
+  "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "quae"
+    "ExtraFields1": "repellendus",
+    "ExtraFields2": "veniam"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "id"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "modi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldLength": 268
     }
   }
 }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
+| ProjectId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RecipientStatistics
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body:
 | ValidFaxNumbers | int32 | Number of members with a valid fax number. |
 | NoAddresses | int32 | Number of members with an invalid address. |
 | NoFaxOrEmails | int32 | Number of members with no fax or email address. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,11 +77,11 @@ Response body:
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 513
+  "ProjectId": 685
 }
 ```
 
@@ -93,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 787,
-  "ValidPostalAddresses": 325,
-  "ValidEmailAddresses": 132,
-  "ValidFaxNumbers": 452,
-  "NoAddresses": 840,
-  "NoFaxOrEmails": 755,
+  "Total": 552,
+  "ValidPostalAddresses": 452,
+  "ValidEmailAddresses": 842,
+  "ValidFaxNumbers": 109,
+  "NoAddresses": 447,
+  "NoFaxOrEmails": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 211
     }
   }
 }

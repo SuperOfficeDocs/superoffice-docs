@@ -42,17 +42,16 @@ POST /api/v1/Agents/Preference/GetFromSectionAndKey?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Section, Key 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Section | string |  |
-| Key | string |  |
+| Section | String |  |
+| Key | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreferenceDescription
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +81,7 @@ Response body:
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,8 +94,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "corporis",
-  "Key": "incidunt"
+  "Section": "ut",
+  "Key": "voluptatem"
 }
 ```
 
@@ -107,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 338,
-  "Section": "et",
-  "Key": "minus",
-  "Name": "Price, Schmidt and Boyer",
+  "PrefDescId": 808,
+  "Section": "dolorem",
+  "Key": "culpa",
+  "Name": "Schowalter-Konopelski",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Exclusive stable alliance",
+  "Description": "Profound systematic strategy",
   "IsBuiltin": false,
-  "TableName": "Wisoky-Nader",
-  "UserDefinedListId": 921,
-  "Rank": 34,
-  "SubGroup": "molestiae",
-  "MinLevel": 495,
-  "MaxValue": 438,
-  "MinValue": 167,
-  "RequiredLicense": "expedita",
+  "TableName": "Wuckert-Bernhard",
+  "UserDefinedListId": 12,
+  "Rank": 389,
+  "SubGroup": "velit",
+  "MinLevel": 480,
+  "MaxValue": 142,
+  "MinValue": 979,
+  "RequiredLicense": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldType": "System.Int32",
+      "FieldLength": 327
     }
   }
 }

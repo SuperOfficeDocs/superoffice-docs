@@ -29,7 +29,7 @@ Gets the value of the string(s) with a given name in all known languages.
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-GET /api/v1/String/{sr_id}?isoLangCode=perspiciatis
+GET /api/v1/String/{sr_id}?isoLangCode=quae
 GET /api/v1/String/{sr_id}?ignoreOverrides=False
 ```
 
@@ -48,7 +48,7 @@ GET /api/v1/String/{sr_id}?ignoreOverrides=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: object
+## Response:object
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -65,7 +65,7 @@ Response body: object
 GET /api/v1/String/{sr_id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

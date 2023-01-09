@@ -36,7 +36,7 @@ Foreign keys on the PersonEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: object
+## Response:object
 
 OK
 
@@ -45,7 +45,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -64,7 +64,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptatem",
-  "2": "saepe"
+  "1": "laborum",
+  "2": "totam"
 }
 ```

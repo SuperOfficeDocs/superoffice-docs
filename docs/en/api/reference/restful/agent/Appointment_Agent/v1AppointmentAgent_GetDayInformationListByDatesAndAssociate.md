@@ -44,18 +44,17 @@ POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StartDate, EndDate, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StartDate | date-time |  |
-| EndDate | date-time |  |
-| AssociateId | int32 |  |
+| StartDate | String |  |
+| EndDate | String |  |
+| AssociateId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,14 +62,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ActivityInformation |  | Activity information summary - number of free and busy activities. |
-| RedLetterInformation |  | Summary of redletter day information - holiday in own country, and in other countries known to the system. |
+| ActivityInformation | ActivitySummary | Activity information summary - number of free and busy activities. |
+| RedLetterInformation | RedLetterSummary | Summary of redletter day information - holiday in own country, and in other countries known to the system. |
 | Date | date-time | Date that this item is valid for; there is exactly one item per date, ordered by date. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,13 +78,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2022-11-07T02:49:43.261747+01:00",
-  "EndDate": "1997-03-12T02:49:43.261747+01:00",
-  "AssociateId": 972
+  "StartDate": "2001-11-14T17:37:16.2802414+01:00",
+  "EndDate": "2016-04-18T17:37:16.2802414+02:00",
+  "AssociateId": 472
 }
 ```
 
@@ -99,26 +98,26 @@ Content-Type: application/json; charset=utf-8
   {
     "ActivityInformation": null,
     "RedLetterInformation": null,
-    "Date": "2020-04-09T02:49:43.261747+02:00",
+    "Date": "2022-12-14T17:37:16.2802414+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldLength": 126
       }
     }
   },
   {
     "ActivityInformation": null,
     "RedLetterInformation": null,
-    "Date": "2020-04-09T02:49:43.261747+02:00",
+    "Date": "2022-12-14T17:37:16.2802414+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldLength": 126
       }
     }
   }

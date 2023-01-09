@@ -48,7 +48,7 @@ GET /api/v1/List/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ListEntity found.
 
@@ -57,7 +57,7 @@ ListEntity found.
 | 200 | ListEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ListEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +71,7 @@ Response body:
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -91,27 +91,27 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 609,
-  "Name": "Beer-Quigley",
-  "Tooltip": "cupiditate",
-  "Deleted": false,
-  "Rank": 364,
+  "Id": 300,
+  "Name": "Tremblay-Konopelski",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "Rank": 982,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsa",
-  "InUseByUserDefinedFields": false,
+  "ListType": "expedita",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 453
+      "FieldType": "System.Int32",
+      "FieldLength": 634
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

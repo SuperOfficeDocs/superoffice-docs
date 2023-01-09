@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/GetQuoteLineConfiguration?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteLineConfigurationId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLineConfigurationId | int32 |  |
+| QuoteLineConfigurationId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteLineConfiguration
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body:
 | Mandatory | bool | Is this a mandatory field? |
 | Rank | int32 | Rank of the field |
 | RestrictEdit | bool | If true, then this field cannot be set readwrite or mandatory: It's bound to be readonly |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,11 +80,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 782
+  "QuoteLineConfigurationId": 719
 }
 ```
 
@@ -96,21 +95,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 994,
-  "FieldName": "Mann-Herman",
-  "Label": "blanditiis",
-  "Tooltip": "quod",
+  "QuoteLineConfigurationId": 240,
+  "FieldName": "Goyette LLC",
+  "Label": "sint",
+  "Tooltip": "rerum",
   "Editable": false,
-  "InUse": false,
+  "InUse": true,
   "Mandatory": false,
-  "Rank": 753,
-  "RestrictEdit": true,
+  "Rank": 359,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldType": "System.String",
+      "FieldLength": 731
     }
   }
 }

@@ -42,17 +42,16 @@ POST /api/v1/Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, BinaryObjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| BinaryObjectId | int32 |  |
+| TableName | String |  |
+| BinaryObjectId | Integer |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -69,12 +68,12 @@ Response body: string
 POST /api/v1/Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ledner-Labadie",
-  "BinaryObjectId": 229
+  "TableName": "Heathcote-Spencer",
+  "BinaryObjectId": 685
 }
 ```
 
@@ -84,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nam"
+"esse"
 ```

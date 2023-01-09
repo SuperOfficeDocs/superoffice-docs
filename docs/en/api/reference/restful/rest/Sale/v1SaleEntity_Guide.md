@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,12 +73,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Guide?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Guide?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Guide?$orderBy=name asc
-GET /api/v1/Sale/{id}/Guide?$entities=ut
-GET /api/v1/Sale/{id}/Guide?$top=70
-GET /api/v1/Sale/{id}/Guide?$skip=17
+GET /api/v1/Sale/{id}/Guide?$entities=rerum
+GET /api/v1/Sale/{id}/Guide?$top=1002
+GET /api/v1/Sale/{id}/Guide?$skip=158
 GET /api/v1/Sale/{id}/Guide?$mode=Full
 GET /api/v1/Sale/{id}/Guide?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Guide?$context=in
+GET /api/v1/Sale/{id}/Guide?$context=officia
 GET /api/v1/Sale/{id}/Guide?$format=JSON
 GET /api/v1/Sale/{id}/Guide?$jsonSafe=False
 GET /api/v1/Sale/{id}/Guide?$output=Display
@@ -100,7 +99,7 @@ GET /api/v1/Sale/{id}/Guide?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Sale/{id}/Guide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "mollitia",
+  "odata.nextLink": "dolor",
   "value": [
     {
-      "PrimaryKey": 2415,
-      "EntityName": "person",
-      "personId": 2415,
-      "fullName": "Trycia Hudson"
+      "PrimaryKey": 618,
+      "EntityName": "sale",
+      "saleId": 618,
+      "contactId": 191,
+      "name": "Walker, Wisoky and Schaden"
     },
     {
-      "PrimaryKey": 8288,
-      "EntityName": "person",
-      "personId": 8288,
-      "fullName": "Prof. Adriel Annabelle Miller"
+      "PrimaryKey": 6568,
+      "EntityName": "sale",
+      "saleId": 6568,
+      "contactId": 2580,
+      "name": "Upton, Zboncak and Hettinger"
     }
   ]
 }

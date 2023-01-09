@@ -38,7 +38,7 @@ Get a list of plugin-dependent capabilities for a given document archive plugin.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: object
+## Response:object
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -55,7 +55,7 @@ Response body: object
 GET /api/v1/List/DocumentTemplate/Plugin/{pluginId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -65,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "minima",
-  "2": "id"
+  "1": "natus",
+  "2": "odit"
 }
 ```

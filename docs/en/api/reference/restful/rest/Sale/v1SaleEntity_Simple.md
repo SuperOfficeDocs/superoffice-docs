@@ -38,7 +38,7 @@ This is a simpler, smaller variation of the full SaleEntity. Calls the Sale agen
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 SaleEntity found.
 
@@ -47,7 +47,7 @@ SaleEntity found.
 | 200 | SaleEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: Sale
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +76,7 @@ Response body:
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,7 +85,7 @@ Response body:
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Kerluke Group",
-  "SaleDate": "2013-10-06T02:49:51.4894333+02:00",
-  "SaleId": 233,
-  "Probability": 54,
-  "Title": "et",
-  "Amount": 16911.064,
-  "Currency": "asperiores",
-  "ProjectName": "Feest Inc and Sons",
-  "AssociateFullName": "Blanca Rogahn PhD",
-  "Description": "Up-sized bifurcated internet solution",
+  "ContactName": "Von-Muller",
+  "SaleDate": "2021-03-31T17:37:39.1712756+02:00",
+  "SaleId": 213,
+  "Probability": 619,
+  "Title": "harum",
+  "Amount": 27820.518,
+  "Currency": "et",
+  "ProjectName": "Larkin-Lynch",
+  "AssociateFullName": "Dell Zemlak",
+  "Description": "Ameliorated high-level array",
   "Status": "Lost",
-  "WeightedAmount": 17199.392,
-  "ProjectId": 800,
-  "EarningPercent": 1491.7839999999999,
-  "Earning": 26889.719999999998,
-  "ContactId": 393,
-  "AssociateId": 672,
-  "PersonId": 665,
-  "SaleTypeId": 663,
-  "SaleTypeName": "Weber LLC",
-  "PersonFullName": "Ruby Orn",
+  "WeightedAmount": 18493.734,
+  "ProjectId": 573,
+  "EarningPercent": 24279.097999999998,
+  "Earning": 7126.7159999999994,
+  "ContactId": 186,
+  "AssociateId": 732,
+  "PersonId": 725,
+  "SaleTypeId": 93,
+  "SaleTypeName": "Kihn-Farrell",
+  "PersonFullName": "Dr. Jordon Mitchell MD",
   "Completed": "Completed",
-  "ActiveErpLinks": 534,
-  "NextDueDate": "2000-11-09T02:49:51.4894333+01:00",
-  "Number": "688838",
+  "ActiveErpLinks": 122,
+  "NextDueDate": "2003-11-23T17:37:39.173275+01:00",
+  "Number": "1337849",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 17
+      "FieldLength": 463
     }
   }
 }

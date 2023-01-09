@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/CancelApprovalRequest?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
+| QuoteVersionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PluginResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,9 +66,9 @@ Response body:
 | UserExplanation | string | A localized explanation to the answer. Text here is displayed to the user. |
 | TechExplanation | string | Always in English |
 | ErrorCode | string | An error code, if available. |
-| Changes |  | Tablename/recordid of data changed by this method, that the client may need to reload |
+| Changes | ChangedData | Tablename/recordid of data changed by this method, that the client may need to reload |
 | Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,11 +77,11 @@ Response body:
 POST /api/v1/Agents/Quote/CancelApprovalRequest
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 610
+  "QuoteVersionId": 595
 }
 ```
 
@@ -94,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "est",
-  "TechExplanation": "autem",
-  "ErrorCode": "ratione",
+  "UserExplanation": "magnam",
+  "TechExplanation": "laborum",
+  "ErrorCode": "quia",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 686
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

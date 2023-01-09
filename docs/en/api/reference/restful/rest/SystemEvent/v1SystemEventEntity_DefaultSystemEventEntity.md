@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SystemEventEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,8 +55,8 @@ Response body:
 | Owner | int32 | 0, 0, group_id, assoc id (see over) |
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
-| ActivatedBy |  | The associate that first created the SystemEvent. |
-| TableRight |  |  |
+| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -65,7 +65,7 @@ Response body:
 GET /api/v1/SystemEvent/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 783,
+  "SystemEventId": 70,
   "Scope": "Database",
-  "Eta": "2009-02-04T02:49:51.536309+01:00",
-  "Eventkey": "aliquid",
-  "Eventmess": "in",
-  "ExtraInfo": 916,
-  "Owner": 807,
-  "UpdatedCount": 600,
-  "Registered": "2019-07-21T02:49:51.536309+02:00",
+  "Eta": "1997-04-16T17:37:39.2303034+02:00",
+  "Eventkey": "et",
+  "Eventmess": "enim",
+  "ExtraInfo": 477,
+  "Owner": 491,
+  "UpdatedCount": 265,
+  "Registered": "1997-04-30T17:37:39.2303034+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 804
+      "FieldLength": 768
     }
   }
 }

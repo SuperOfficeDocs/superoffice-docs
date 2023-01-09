@@ -42,16 +42,15 @@ POST /api/v1/Agents/FreeText/GetSuggestedStopWords?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 CountWords 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CountWords | int32 |  |
+| CountWords | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 228
+  "CountWords": 924
 }
 ```
 
@@ -100,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Breitenberg-Stoltenberg",
-    "ToolTip": "Fugit quis non praesentium velit tenetur.",
-    "Deleted": true,
-    "Rank": 382,
-    "Type": "aut",
+    "Id": 234,
+    "Name": "Schumm-Thiel",
+    "ToolTip": "Quo ea iure omnis.",
+    "Deleted": false,
+    "Rank": 4,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Stokes, Pouros and Gibson",
-        "ToolTip": "At beatae et praesentium.",
-        "Deleted": true,
-        "Rank": 165,
-        "Type": "ut",
+        "Id": 816,
+        "Name": "Bednar, Bernhard and Jenkins",
+        "ToolTip": "Quae nulla voluptatum.",
+        "Deleted": false,
+        "Rank": 559,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eveniet",
-        "ColorBlock": 802,
-        "ExtraInfo": "fugiat",
-        "StyleHint": "quas",
-        "FullName": "Lavinia Annabelle Rice I",
+        "IconHint": "at",
+        "ColorBlock": 816,
+        "ExtraInfo": "quaerat",
+        "StyleHint": "impedit",
+        "FullName": "Davin Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 965
+            "FieldLength": 833
           }
         }
       }
     ],
-    "IconHint": "at",
-    "ColorBlock": 784,
-    "ExtraInfo": "provident",
-    "StyleHint": "voluptatum",
-    "FullName": "Estevan Hoppe",
+    "IconHint": "quis",
+    "ColorBlock": 772,
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "ea",
+    "FullName": "Maverick Robel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 205
+        "FieldType": "System.String",
+        "FieldLength": 975
       }
     }
   }

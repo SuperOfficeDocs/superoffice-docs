@@ -38,19 +38,18 @@ POST /api/v1/Agents/Find/SaveRestrictions?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| Restrictions | array |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| Restrictions | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -58,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -71,30 +70,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "necessitatibus",
-  "ProviderName": "Schimmel-Mosciski",
-  "StorageKey": "ut",
+  "StorageType": "distinctio",
+  "ProviderName": "Ankunding Group",
+  "StorageKey": "numquam",
   "Restrictions": [
     {
-      "Name": "Rice, Lehner and Murray",
-      "Operator": "recusandae",
+      "Name": "Welch, Runolfsson and Corwin",
+      "Operator": "sint",
       "Values": [
-        "rerum",
-        "natus"
+        "iusto",
+        "et"
       ],
       "DisplayValues": [
-        "quos",
-        "eligendi"
+        "nihil",
+        "perspiciatis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 90,
+      "InterParenthesis": 137,
       "InterOperator": "And",
-      "UniqueHash": 486
+      "UniqueHash": 556
     }
   ]
 }

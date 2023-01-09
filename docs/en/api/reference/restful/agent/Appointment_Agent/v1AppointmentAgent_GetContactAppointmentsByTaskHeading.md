@@ -44,20 +44,19 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, StartTime, EndTime, Count, TaskHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TaskHeadingId | int32 |  |
+| ContactId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TaskHeadingId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -127,15 +126,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 908,
-  "StartTime": "2006-10-20T02:49:43.2304992+02:00",
-  "EndTime": "2002-12-11T02:49:43.2304992+01:00",
-  "Count": 351,
-  "TaskHeadingId": 934
+  "ContactId": 362,
+  "StartTime": "2000-12-05T17:37:16.2472407+01:00",
+  "EndTime": "2019-08-13T17:37:16.2472407+02:00",
+  "Count": 308,
+  "TaskHeadingId": 948
 }
 ```
 
@@ -147,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 414,
-    "StartDate": "2018-04-14T02:49:43.2304992+02:00",
-    "EndDate": "1997-12-23T02:49:43.2304992+01:00",
+    "AppointmentId": 880,
+    "StartDate": "2006-12-26T17:37:16.2482403+01:00",
+    "EndDate": "2019-06-22T17:37:16.2482403+02:00",
     "Type": "BookingForChecklist",
-    "Task": "veniam",
-    "AssociateFullName": "Therese Beier",
-    "ContactName": "Satterfield Group",
-    "Description": "Mandatory multi-state attitude",
-    "PersonFullName": "Celine Jakubowski",
-    "PersonId": 194,
-    "ContactId": 930,
-    "ProjectId": 686,
-    "ProjectName": "Lebsack, Fahey and Waelchi",
+    "Task": "non",
+    "AssociateFullName": "Mr. Angelina Becker",
+    "ContactName": "Fadel, Hettinger and Harris",
+    "Description": "Open-source foreground middleware",
+    "PersonFullName": "Marisol Farrell",
+    "PersonId": 162,
+    "ContactId": 832,
+    "ProjectId": 813,
+    "ProjectName": "Ledner, Barton and Leannon",
     "IsPublished": false,
-    "AssociateId": 393,
-    "ColorIndex": 115,
-    "IsFree": false,
+    "AssociateId": 851,
+    "ColorIndex": 458,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 979,
-    "PriorityName": "Beier Inc and Sons",
+    "PriorityId": 560,
+    "PriorityName": "Paucek Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2004-04-16T02:49:43.2304992+02:00",
+    "ActiveDate": "2008-05-22T17:37:16.2482403+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-11-07T02:49:43.2304992+01:00",
-    "RecurringEndDate": "2006-05-11T02:49:43.2304992+02:00",
-    "MotherId": 716,
-    "AssignedBy": 109,
-    "AssignedByFullName": "Mose Walsh",
+    "RecurringStartDate": "2002-12-05T17:37:16.2482403+01:00",
+    "RecurringEndDate": "1996-10-18T17:37:16.2482403+02:00",
+    "MotherId": 121,
+    "AssignedBy": 972,
+    "AssignedByFullName": "Alden Tyra Murphy DVM",
     "RejectReason": "",
-    "Location": "corrupti",
-    "AlarmLeadTime": "quidem",
-    "SaleId": 443,
-    "SaleName": "Kuvalis Group",
-    "AssociateName": "Green, Jenkins and Waelchi",
-    "CreatedDate": "2020-01-12T02:49:43.2304992+01:00",
-    "CreatedBy": "rerum",
-    "CreatedByFullName": "Ms. Keshawn Weimann I",
-    "CreatedByAssociateId": 346,
+    "Location": "nulla",
+    "AlarmLeadTime": "illum",
+    "SaleId": 743,
+    "SaleName": "VonRueden, Konopelski and Hane",
+    "AssociateName": "Kuhic Inc and Sons",
+    "CreatedDate": "2021-07-22T17:37:16.2492407+02:00",
+    "CreatedBy": "veritatis",
+    "CreatedByFullName": "Tate Hills",
+    "CreatedByAssociateId": 876,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 852
+        "FieldType": "System.Int32",
+        "FieldLength": 675
       }
     }
   }

@@ -44,18 +44,17 @@ POST /api/v1/Agents/Configuration/GetPageConfiguration?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Application, Instance, Page 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Application | string |  |
-| Instance | string |  |
-| Page | string |  |
+| Application | String |  |
+| Instance | String |  |
+| Page | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -72,13 +71,13 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetPageConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "iste",
-  "Instance": "veniam",
-  "Page": "dolore"
+  "Application": "sed",
+  "Instance": "asperiores",
+  "Page": "beatae"
 }
 ```
 
@@ -88,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ea"
+"impedit"
 ```

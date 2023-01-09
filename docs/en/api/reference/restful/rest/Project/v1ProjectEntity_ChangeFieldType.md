@@ -29,7 +29,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -47,7 +47,7 @@ POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=T
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ProjectEntity found.
 
@@ -56,7 +56,7 @@ ProjectEntity found.
 | 200 | ProjectEntity found. |
 | 404 | ProjectEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +94,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -103,7 +103,7 @@ Response body:
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 915,
-  "ColumnId": 470,
-  "FieldDefault": "est",
-  "FieldHeight": 715,
-  "FieldLabel": "provident",
-  "FieldLeft": 416,
-  "FieldTop": 787,
+  "UDefFieldId": 502,
+  "ColumnId": 71,
+  "FieldDefault": "quia",
+  "FieldHeight": 757,
+  "FieldLabel": "sequi",
+  "FieldLeft": 17,
+  "FieldTop": 810,
   "FieldType": "Checkbox",
-  "FieldWidth": 732,
-  "FormatMask": "unde",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 9,
-  "LabelLeft": 483,
-  "LabelTop": 108,
-  "LabelWidth": 105,
-  "LastVersionId": 688,
-  "ListTableId": 397,
+  "FieldWidth": 669,
+  "FormatMask": "nihil",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 623,
+  "LabelLeft": 184,
+  "LabelTop": 925,
+  "LabelWidth": 35,
+  "LastVersionId": 747,
+  "ListTableId": 744,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 23,
-  "ProgId": "rerum",
+  "Page1LineNo": 768,
+  "ProgId": "fugit",
   "IsReadOnly": false,
-  "ShortLabel": "autem",
-  "TabOrder": 456,
-  "TextLength": 390,
-  "Tooltip": "impedit",
-  "UdefIdentity": 125,
-  "UDListDefinitionId": 539,
+  "ShortLabel": "ad",
+  "TabOrder": 379,
+  "TextLength": 237,
+  "Tooltip": "accusamus",
+  "UdefIdentity": 438,
+  "UDListDefinitionId": 755,
   "Justification": "Center",
-  "Version": 177,
-  "TemplateVariableName": "Stehr-Mosciski",
+  "Version": 490,
+  "TemplateVariableName": "Rath Group",
   "HasBeenPublished": false,
-  "MdoListName": "Will-Bernier",
+  "MdoListName": "Von, Rohan and Purdy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldType": "System.String",
+      "FieldLength": 607
     }
   }
 }

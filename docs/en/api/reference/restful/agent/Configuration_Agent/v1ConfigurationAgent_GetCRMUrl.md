@@ -42,18 +42,17 @@ POST /api/v1/Agents/Configuration/GetCRMUrl?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SoProtocol, Currents, Frameless 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SoProtocol | string |  |
-| Currents | string |  |
-| Frameless | bool |  |
+| SoProtocol | String |  |
+| Currents | String |  |
+| Frameless | Boolean |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -70,13 +69,13 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetCRMUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "nihil",
-  "Currents": "rerum",
-  "Frameless": true
+  "SoProtocol": "nemo",
+  "Currents": "quaerat",
+  "Frameless": false
 }
 ```
 

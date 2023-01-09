@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentMigrationItemList
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +60,7 @@ Response body:
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,29 +70,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 997,
-  "NumDocumentsAlreadyMigrated": 296,
+  "NumDocumentsOmitted": 334,
+  "NumDocumentsAlreadyMigrated": 535,
   "Documents": [
     {
-      "DocumentId": 962,
-      "ContactId": 365,
-      "PersonId": 903,
-      "SaleId": 560,
-      "ProjectId": 701,
-      "DocTmplId": 7,
-      "AssociateId": 905,
-      "UserGroupId": 281,
-      "VisibleForId": 332
+      "DocumentId": 866,
+      "ContactId": 795,
+      "PersonId": 100,
+      "SaleId": 28,
+      "ProjectId": 614,
+      "DocTmplId": 579,
+      "AssociateId": 679,
+      "UserGroupId": 229,
+      "VisibleForId": 384
     }
   ],
   "Associates": [
     {
-      "AssociateId": 167,
-      "EmailAddress": "burnice.roberts@hanehomenick.us"
+      "AssociateId": 334,
+      "EmailAddress": "fiona.weissnat@flatleymosciski.name"
     },
     {
-      "AssociateId": 167,
-      "EmailAddress": "burnice.roberts@hanehomenick.us"
+      "AssociateId": 334,
+      "EmailAddress": "fiona.weissnat@flatleymosciski.name"
     }
   ]
 }

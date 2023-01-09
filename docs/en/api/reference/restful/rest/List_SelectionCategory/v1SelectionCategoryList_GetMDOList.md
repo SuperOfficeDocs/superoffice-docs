@@ -26,7 +26,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=provident
+GET /api/v1/List/SelectionCategory/MDOItems?query=enim
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/SelectionCategory/MDOItems?query=provident
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Littel Group",
-    "ToolTip": "Ex vel recusandae consequatur aut.",
+    "Id": 174,
+    "Name": "Ortiz Inc and Sons",
+    "ToolTip": "Non earum recusandae.",
     "Deleted": false,
-    "Rank": 920,
-    "Type": "debitis",
+    "Rank": 863,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 462,
-        "Name": "Graham-Hudson",
-        "ToolTip": "Deleniti nesciunt eum.",
-        "Deleted": true,
-        "Rank": 980,
-        "Type": "repellendus",
+        "Id": 195,
+        "Name": "Powlowski, Jerde and Klocko",
+        "ToolTip": "Ad dolores modi assumenda sed tenetur.",
+        "Deleted": false,
+        "Rank": 854,
+        "Type": "error",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "pariatur",
-        "ColorBlock": 238,
-        "ExtraInfo": "omnis",
-        "StyleHint": "quis",
-        "FullName": "Sandrine Turcotte",
+        "IconHint": "iste",
+        "ColorBlock": 86,
+        "ExtraInfo": "inventore",
+        "StyleHint": "ea",
+        "FullName": "Salma Mayert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 244
+            "FieldType": "System.Int32",
+            "FieldLength": 91
           }
         }
       }
     ],
-    "IconHint": "perferendis",
-    "ColorBlock": 860,
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "qui",
-    "FullName": "Miss Addie Lindgren Jr.",
+    "IconHint": "quas",
+    "ColorBlock": 753,
+    "ExtraInfo": "nisi",
+    "StyleHint": "tempore",
+    "FullName": "Magnolia Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 142
+        "FieldType": "System.Int32",
+        "FieldLength": 835
       }
     }
   }

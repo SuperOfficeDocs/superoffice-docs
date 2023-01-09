@@ -36,21 +36,20 @@ Updates an existing QuoteApproveReason list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem  
+## Request Body: listItem 
 
 The details of QuoteApproveReason list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The identity of the list item |
-| Name | string | The name of the list item |
-| Tooltip | string | The tooltip of the list item |
-| Deleted | bool | True if the list item is marked as deleted |
-| UdListDefinitionId | int32 | The id of the list which this list item belongs to |
-| Rank | int32 | The rank of the list item |
+| Id | Integer | The identity of the list item |
+| Name | String | The name of the list item |
+| Tooltip | String | The tooltip of the list item |
+| Deleted | Boolean | True if the list item is marked as deleted |
+| UdListDefinitionId | Integer | The id of the list which this list item belongs to |
+| Rank | Integer | The rank of the list item |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: ListItemEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body:
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 725,
-  "Name": "Hansen, Hermann and Kessler",
-  "Tooltip": "voluptatem",
+  "Id": 179,
+  "Name": "Davis LLC",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "UdListDefinitionId": 27,
-  "Rank": 674
+  "UdListDefinitionId": 872,
+  "Rank": 544
 }
 ```
 
@@ -98,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 280,
-  "Name": "Anderson LLC",
-  "Tooltip": "ratione",
-  "Deleted": true,
-  "UdListDefinitionId": 866,
-  "Rank": 941,
+  "Id": 427,
+  "Name": "Mitchell, Yundt and Crist",
+  "Tooltip": "itaque",
+  "Deleted": false,
+  "UdListDefinitionId": 106,
+  "Rank": 368,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldType": "System.String",
+      "FieldLength": 41
     }
   }
 }

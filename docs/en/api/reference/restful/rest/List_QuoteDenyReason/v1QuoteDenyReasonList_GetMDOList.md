@@ -26,7 +26,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=in
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=error
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/QuoteDenyReason/MDOItems?query=in
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 419,
-    "Name": "Parker Group",
-    "ToolTip": "Ipsum sapiente.",
+    "Id": 567,
+    "Name": "O'Conner Group",
+    "ToolTip": "Fugit nihil facilis et rerum dicta.",
     "Deleted": false,
-    "Rank": 783,
-    "Type": "similique",
+    "Rank": 405,
+    "Type": "aliquid",
     "ChildItems": [
       {
-        "Id": 165,
-        "Name": "Beatty-Beahan",
-        "ToolTip": "Debitis et est illum sunt deleniti nobis.",
-        "Deleted": true,
-        "Rank": 53,
-        "Type": "quis",
+        "Id": 966,
+        "Name": "Casper, Mraz and Fisher",
+        "ToolTip": "Enim magni.",
+        "Deleted": false,
+        "Rank": 951,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "modi",
-        "ColorBlock": 337,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "et",
-        "FullName": "Mr. Evalyn Rolfson",
+        "IconHint": "occaecati",
+        "ColorBlock": 935,
+        "ExtraInfo": "quam",
+        "StyleHint": "mollitia",
+        "FullName": "Maia Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 491
+            "FieldType": "System.Int32",
+            "FieldLength": 427
           }
         }
       }
     ],
-    "IconHint": "libero",
-    "ColorBlock": 464,
-    "ExtraInfo": "optio",
-    "StyleHint": "quidem",
-    "FullName": "Ora Ward",
+    "IconHint": "in",
+    "ColorBlock": 738,
+    "ExtraInfo": "fugiat",
+    "StyleHint": "nihil",
+    "FullName": "Dr. Isabelle Lera McDermott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 440
+        "FieldLength": 882
       }
     }
   }

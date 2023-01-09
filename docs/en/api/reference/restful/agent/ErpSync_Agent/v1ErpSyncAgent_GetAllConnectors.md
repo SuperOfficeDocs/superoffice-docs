@@ -47,7 +47,7 @@ POST /api/v1/Agents/ErpSync/GetAllConnectors?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -55,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,14 +80,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Roob-Trantow",
-    "ToolTip": "Fugiat ullam id natus aliquid adipisci non."
+    "Id": 832,
+    "Name": "Brekke-Stiedemann",
+    "ToolTip": "Qui ad aut est aut."
   },
   {
-    "Id": 859,
-    "Name": "Roob-Trantow",
-    "ToolTip": "Fugiat ullam id natus aliquid adipisci non."
+    "Id": 832,
+    "Name": "Brekke-Stiedemann",
+    "ToolTip": "Qui ad aut est aut."
   }
 ]
 ```

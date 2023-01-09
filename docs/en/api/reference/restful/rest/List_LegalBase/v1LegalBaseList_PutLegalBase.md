@@ -38,21 +38,20 @@ Calls the List agent service SaveLegalBase.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The details of LegalBase to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| LegalBaseId | int32 | Primary key |
-| Name | string | Name of legal base |
-| Tooltip | string | Tooltip for this consent source |
-| Rank | int32 | Rank of this consent source |
-| Key | string | The key used to uniquely identify this legal base |
-| Deleted | bool | true if the LegalBase is deleted |
+| LegalBaseId | Integer | Primary key |
+| Name | String | Name of legal base |
+| Tooltip | String | Tooltip for this consent source |
+| Rank | Integer | Rank of this consent source |
+| Key | String | The key used to uniquely identify this legal base |
+| Deleted | Boolean | true if the LegalBase is deleted |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: LegalBase
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body:
 | Rank | int32 | Rank of this consent source |
 | Key | string | The key used to uniquely identify this legal base |
 | Deleted | bool | true if the LegalBase is deleted |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,11 +83,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 204,
-  "Name": "Bergnaum-Dickens",
-  "Tooltip": "qui",
-  "Rank": 504,
-  "Key": "enim",
+  "LegalBaseId": 432,
+  "Name": "Douglas-Gislason",
+  "Tooltip": "at",
+  "Rank": 15,
+  "Key": "officiis",
   "Deleted": false
 }
 ```
@@ -100,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 283,
-  "Name": "Leannon Group",
-  "Tooltip": "perspiciatis",
-  "Rank": 625,
-  "Key": "repudiandae",
+  "LegalBaseId": 916,
+  "Name": "Sanford-Cassin",
+  "Tooltip": "quibusdam",
+  "Rank": 336,
+  "Key": "ut",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 18
+      "FieldLength": 680
     }
   }
 }

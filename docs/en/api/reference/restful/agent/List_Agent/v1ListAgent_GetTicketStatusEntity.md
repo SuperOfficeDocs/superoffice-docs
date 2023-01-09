@@ -25,7 +25,7 @@ Gets a TicketStatusEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketStatusEntity?ticketStatusEntityId=51
+POST /api/v1/Agents/List/GetTicketStatusEntity?ticketStatusEntityId=948
 POST /api/v1/Agents/List/GetTicketStatusEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetTicketStatusEntity?$select=name,department,category/
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketStatusEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +63,7 @@ Response body:
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
 | IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
 | UsedInQueue | bool | If set, status is used in GetNext calculations |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -72,7 +72,7 @@ Response body:
 POST /api/v1/Agents/List/GetTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 97,
-  "Name": "Beier, Larkin and Eichmann",
+  "TicketStatusId": 694,
+  "Name": "Beatty-Ondricka",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": false,
-  "UsedInQueue": false,
+  "IsDefault": true,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldType": "System.String",
+      "FieldLength": 968
     }
   }
 }

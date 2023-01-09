@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/ChangeEngineInterval
 Change the interval for each run of the Sync Engine
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -42,16 +40,15 @@ POST /api/v1/Agents/ErpSync/ChangeEngineInterval?$select=name,department,categor
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Interval 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Interval | string |  |
+| Interval | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -59,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -68,11 +65,11 @@ Response body:
 POST /api/v1/Agents/ErpSync/ChangeEngineInterval
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Interval": "veniam"
+  "Interval": "eos"
 }
 ```
 

@@ -38,16 +38,15 @@ POST /api/v1/Agents/List/DeleteAllFromListName?$select=name,department,category/
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionName | string |  |
+| UdListDefinitionName | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -55,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -64,11 +63,11 @@ Response body:
 POST /api/v1/Agents/List/DeleteAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hermann, Wehner and Hudson"
+  "UdListDefinitionName": "Schuster Inc and Sons"
 }
 ```
 

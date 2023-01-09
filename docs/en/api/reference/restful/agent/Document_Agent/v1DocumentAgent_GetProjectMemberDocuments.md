@@ -44,19 +44,18 @@ POST /api/v1/Agents/Document/GetProjectMemberDocuments?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| PersonId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -101,10 +100,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 476,
-  "StartTime": "2000-02-13T02:49:44.0910111+01:00",
-  "EndTime": "2004-08-31T02:49:44.0910111+02:00",
-  "Count": 567
+  "PersonId": 385,
+  "StartTime": "2023-01-02T17:37:17.4292461+01:00",
+  "EndTime": "2011-05-27T17:37:17.4292461+02:00",
+  "Count": 960
 }
 ```
 
@@ -116,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 927,
-    "Attention": "architecto",
-    "Header": "ut",
-    "Name": "Herman, Klein and Wehner",
-    "OurRef": "laudantium",
-    "YourRef": "non",
-    "Description": "Multi-layered actuating paradigm",
-    "DocumentTemplate": "nisi",
+    "DocumentId": 831,
+    "Attention": "omnis",
+    "Header": "voluptate",
+    "Name": "Kshlerin Group",
+    "OurRef": "nisi",
+    "YourRef": "ad",
+    "Description": "Exclusive holistic customer loyalty",
+    "DocumentTemplate": "perferendis",
     "IsPublished": false,
-    "PersonId": 925,
-    "PersonFullName": "Prof. Boyd Mohr Jr.",
-    "AssociateFullName": "Mr. Mabelle Lang IV",
-    "ContactId": 988,
-    "ContactName": "Mayer-Kilback",
-    "ProjectId": 344,
-    "ProjectName": "Towne, Green and McClure",
-    "AssociateId": 796,
-    "Snum": 782,
-    "SaleId": 447,
-    "SaleName": "Schmeler, Stamm and Haley",
+    "PersonId": 311,
+    "PersonFullName": "Mrs. Jaylon Mireya Koch V",
+    "AssociateFullName": "Deja Blick",
+    "ContactId": 9,
+    "ContactName": "Hills Inc and Sons",
+    "ProjectId": 154,
+    "ProjectName": "Weimann-Kohler",
+    "AssociateId": 150,
+    "Snum": 637,
+    "SaleId": 497,
+    "SaleName": "Harris LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldType": "System.Int32",
+        "FieldLength": 600
       }
     }
   }

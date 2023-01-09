@@ -34,7 +34,7 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +52,7 @@ Response body: array
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 131,
-    "Name": "Hermann-Kerluke",
-    "Tooltip": "et",
+    "HeadingId": 237,
+    "Name": "Brown, Heidenreich and Lindgren",
+    "Tooltip": "vel",
     "Deleted": true,
-    "Rank": 450,
-    "UdListDefinitionId": 234,
+    "Rank": 283,
+    "UdListDefinitionId": 255,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldLength": 938
       }
     }
   }

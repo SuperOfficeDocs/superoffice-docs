@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetEMailAddresses
 Get information about one or more email addresses, identified by IDs
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/EMail/GetEMailAddresses?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EmailIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EmailIds | array |  |
+| EmailIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +73,7 @@ Response body: array
 | EmailId | int32 | Primary key |
 | DuplicatePersonIds | array | All persons with this EmailAddress stored in db is listed here |
 | Name | string | The name on the email address |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,13 +82,13 @@ Response body: array
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    731,
-    27
+    770,
+    391
   ]
 }
 ```
@@ -104,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 595,
-    "ContactName": "Fritsch, West and Schuppe",
-    "PersonId": 771,
-    "PersonName": "Trantow, Krajcik and Wiza",
-    "AssociateId": 795,
-    "Address": "adipisci",
-    "EmailId": 946,
+    "ContactId": 170,
+    "ContactName": "Klein, Jewess and Schamberger",
+    "PersonId": 667,
+    "PersonName": "McKenzie Group",
+    "AssociateId": 730,
+    "Address": "nemo",
+    "EmailId": 888,
     "DuplicatePersonIds": [
-      380,
-      408
+      477,
+      493
     ],
-    "Name": "Howell, Stracke and Thiel",
+    "Name": "Shanahan-Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldType": "System.String",
+        "FieldLength": 542
       }
     }
   }

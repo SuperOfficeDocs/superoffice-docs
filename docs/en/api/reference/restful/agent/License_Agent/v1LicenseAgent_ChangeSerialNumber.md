@@ -44,17 +44,16 @@ POST /api/v1/Agents/License/ChangeSerialNumber?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 NewCompanyName, NewSerialNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| NewCompanyName | string |  |
-| NewSerialNumber | string |  |
+| NewCompanyName | String |  |
+| NewSerialNumber | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,13 +61,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: LicenseResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Succeeded | bool |  |
 | Reason | string |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,8 +80,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Steuber-Wisozk",
-  "NewSerialNumber": "982802"
+  "NewCompanyName": "Reynolds-Senger",
+  "NewSerialNumber": "1114981"
 }
 ```
 
@@ -100,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 539
     }
   }
 }

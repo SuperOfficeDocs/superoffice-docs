@@ -42,16 +42,15 @@ POST /api/v1/Agents/CustomerService/ExecuteEventHandlers?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EventData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EventData |  | EventData containing data related to event handlers <para /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
+| EventData | EventData | EventData containing data related to event handlers <para /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EventData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body:
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -98,28 +97,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "labore",
-    "InputValues2": "suscipit"
+    "InputValues1": "debitis",
+    "InputValues2": "accusantium"
   },
-  "BlockExecution": true,
-  "NavigateTo": "optio",
-  "Message": "nam",
-  "ShowDialog": "non",
+  "BlockExecution": false,
+  "NavigateTo": "sapiente",
+  "Message": "beatae",
+  "ShowDialog": "dignissimos",
   "OutputValues": {
-    "OutputValues1": "id",
-    "OutputValues2": "odit"
+    "OutputValues1": "consequatur",
+    "OutputValues2": "modi"
   },
   "StateValues": {
-    "StateValues1": "autem",
-    "StateValues2": "unde"
+    "StateValues1": "consectetur",
+    "StateValues2": "est"
   },
-  "Exception": "vero",
+  "Exception": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 986
     }
   }
 }

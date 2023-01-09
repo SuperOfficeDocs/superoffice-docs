@@ -34,7 +34,7 @@ Calls the Preference agent service DeletePreferenceDescription.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 PreferenceDescription deleted.
 
@@ -42,7 +42,7 @@ PreferenceDescription deleted.
 |----------------|-------------|
 | 204 | PreferenceDescription deleted. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -51,7 +51,7 @@ Response body:
 DELETE /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/GetQuoteAlternatives?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
+| QuoteVersionId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,7 +85,7 @@ Response body: array
 | ExtraField3 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,11 +94,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 646
+  "QuoteVersionId": 684
 }
 ```
 
@@ -111,35 +110,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 126,
-    "ERPQuoteAlternativeKey": "inventore",
-    "QuoteVersionId": 572,
-    "Name": "Boyle Group",
-    "Description": "Down-sized leading edge software",
+    "QuoteAlternativeId": 567,
+    "ERPQuoteAlternativeKey": "voluptatibus",
+    "QuoteVersionId": 329,
+    "Name": "Watsica, Upton and Kuhic",
+    "Description": "Networked web-enabled workforce",
     "Status": "Error",
-    "Reason": "synthesize 24/365 convergence",
-    "ERPDiscountPercent": 3259.3599999999997,
-    "ERPDiscountAmount": 26438.424,
-    "DiscountPercent": 4155.684,
-    "DiscountAmount": 10060.14,
+    "Reason": "",
+    "ERPDiscountPercent": 1491.7839999999999,
+    "ERPDiscountAmount": 29462.734,
+    "DiscountPercent": 20859.904,
+    "DiscountAmount": 26425.888,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "veritatis",
-    "VAT": 27015.079999999998,
-    "EarningPercent": 5471.964,
-    "EarningAmount": 19553.025999999998,
-    "SubTotal": 10429.952,
-    "TotalPrice": 30070.73,
-    "ExtraField1": "eos",
-    "ExtraField2": "enim",
-    "ExtraField3": "consequatur",
-    "ExtraField4": "modi",
-    "ExtraField5": "impedit",
+    "VATInfo": "doloremque",
+    "VAT": 28014.825999999997,
+    "EarningPercent": 25310.183999999997,
+    "EarningAmount": 12213.198,
+    "SubTotal": 13216.078,
+    "TotalPrice": 3315.772,
+    "ExtraField1": "quos",
+    "ExtraField2": "ab",
+    "ExtraField3": "voluptates",
+    "ExtraField4": "fugiat",
+    "ExtraField5": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldType": "System.String",
+        "FieldLength": 881
       }
     }
   }

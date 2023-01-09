@@ -38,18 +38,17 @@ POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider?$select=name
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Restrictions, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Restrictions | array |  |
-| AssociateId | int32 |  |
+| ProviderName | String |  |
+| Restrictions | Array |  |
+| AssociateId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -57,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -70,31 +69,31 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Crona-Emard",
+  "ProviderName": "Feest LLC",
   "Restrictions": [
     {
-      "Name": "Harber-Paucek",
-      "Operator": "mollitia",
+      "Name": "Schulist-Maggio",
+      "Operator": "aperiam",
       "Values": [
-        "non",
-        "quaerat"
+        "et",
+        "harum"
       ],
       "DisplayValues": [
-        "necessitatibus",
-        "nobis"
+        "explicabo",
+        "occaecati"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 8,
+      "InterParenthesis": 639,
       "InterOperator": "And",
-      "UniqueHash": 552
+      "UniqueHash": 280
     }
   ],
-  "AssociateId": 412
+  "AssociateId": 956
 }
 ```
 

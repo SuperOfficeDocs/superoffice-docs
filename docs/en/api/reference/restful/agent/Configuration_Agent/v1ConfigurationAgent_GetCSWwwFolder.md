@@ -42,7 +42,7 @@ POST /api/v1/Agents/Configuration/GetCSWwwFolder?$select=name,department,categor
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: string
+## Response:string
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -59,7 +59,7 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetCSWwwFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -68,5 +68,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"a"
+"nesciunt"
 ```

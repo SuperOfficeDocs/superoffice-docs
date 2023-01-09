@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketCategoryEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,12 +59,12 @@ Response body:
 | AssignmentLag | int32 | Number of minutes we shall override the assignment if a customer sends consecutive messages to this category |
 | ReplyTemplate | int32 | Reply template to merge with messages posted in this category |
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
-| DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
-| DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| DefaultTicketStatus | TicketStatusEntity | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
+| DefaultMessageStatus | TicketStatusEntity | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,7 +73,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 905,
-  "ParentId": 211,
-  "Name": "Prosacco-Weissnat",
-  "Fullname": "amet",
-  "CategoryMaster": 214,
+  "TicketCategoryId": 894,
+  "ParentId": 352,
+  "Name": "Feest, Skiles and Howell",
+  "Fullname": "et",
+  "CategoryMaster": 942,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Vandervort, Gusikowski and Glover",
+  "ExternalName": "Johnston-Labadie",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 407,
-  "ReplyTemplate": 903,
-  "NotificationEmail": "brandt.powlowski@feest.uk",
+  "AssignmentLag": 463,
+  "ReplyTemplate": 524,
+  "NotificationEmail": "ida@lakin.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 13,
+  "EffectiveReplyTemplateId": 674,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "saepe",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "vel"
+    "CustomFields1": "libero",
+    "CustomFields2": "dignissimos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldLength": 781
     }
   }
 }

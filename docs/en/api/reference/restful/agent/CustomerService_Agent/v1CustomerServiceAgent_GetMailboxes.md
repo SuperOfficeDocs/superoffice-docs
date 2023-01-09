@@ -42,7 +42,7 @@ POST /api/v1/Agents/CustomerService/GetMailboxes?$select=name,department,categor
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +58,7 @@ Response body: array
 | Address | string | The address associated with this mailbox (used as FROM: address when sending emails). |
 | CategoryName | string | The name of the category that the mailbox is connected to |
 | PriorityName | string | The name of the priority that the mailbox is connected to |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 404,
-    "Address": "ex",
+    "MailInFilterId": 405,
+    "Address": "eum",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Bayer, Pfeffer and Leffler",
+    "PriorityName": "Altenwerth LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldType": "System.String",
+        "FieldLength": 127
       }
     }
   },
   {
-    "MailInFilterId": 404,
-    "Address": "ex",
+    "MailInFilterId": 405,
+    "Address": "eum",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Bayer, Pfeffer and Leffler",
+    "PriorityName": "Altenwerth LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldType": "System.String",
+        "FieldLength": 127
       }
     }
   }

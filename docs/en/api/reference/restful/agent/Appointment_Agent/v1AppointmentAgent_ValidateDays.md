@@ -42,17 +42,16 @@ POST /api/v1/Agents/Appointment/ValidateDays?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AppointmentEntity, Dates 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AppointmentEntity |  | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
-| Dates | array |  |
+| AppointmentEntity | AppointmentEntity | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
+| Dates | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,8 +81,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "inventore",
-    "adipisci"
+    "ea",
+    "modi"
   ]
 }
 ```
@@ -96,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "1999-08-23T02:49:43.372278+02:00",
-    "IsConflict": false,
-    "Description": "Enhanced background encryption",
-    "DescriptionStyleHint": "Front-line radical infrastructure",
-    "Tooltip": "magnam"
+    "Date": "1999-08-04T17:37:16.4172411+02:00",
+    "IsConflict": true,
+    "Description": "Pre-emptive multimedia artificial intelligence",
+    "DescriptionStyleHint": "Robust non-volatile architecture",
+    "Tooltip": "natus"
   },
   {
-    "Date": "1999-08-23T02:49:43.372278+02:00",
-    "IsConflict": false,
-    "Description": "Enhanced background encryption",
-    "DescriptionStyleHint": "Front-line radical infrastructure",
-    "Tooltip": "magnam"
+    "Date": "1999-08-04T17:37:16.4172411+02:00",
+    "IsConflict": true,
+    "Description": "Pre-emptive multimedia artificial intelligence",
+    "DescriptionStyleHint": "Robust non-volatile architecture",
+    "Tooltip": "natus"
   }
 ]
 ```

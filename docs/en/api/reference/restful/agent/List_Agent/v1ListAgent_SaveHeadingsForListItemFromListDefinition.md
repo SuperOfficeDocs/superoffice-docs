@@ -42,18 +42,17 @@ POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionId, ListItemId, Headings 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionId | int32 |  |
-| ListItemId | int32 |  |
-| Headings | array |  |
+| UdListDefinitionId | Integer |  |
+| ListItemId | Integer |  |
+| Headings | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,28 +92,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 286,
-  "ListItemId": 838,
+  "UdListDefinitionId": 481,
+  "ListItemId": 478,
   "Headings": [
     {
-      "Id": 206,
-      "Name": "Mraz Group",
-      "ToolTip": "Cum et et.",
+      "Id": 658,
+      "Name": "D'Amore LLC",
+      "ToolTip": "Dolore quidem id cupiditate exercitationem a error.",
       "Deleted": false,
-      "Rank": 64,
-      "Type": "nisi",
-      "ColorBlock": 198,
-      "IconHint": "nulla",
-      "Selected": true,
-      "LastChanged": "2002-11-18T02:49:44.6235457+01:00",
+      "Rank": 837,
+      "Type": "consequuntur",
+      "ColorBlock": 994,
+      "IconHint": "eum",
+      "Selected": false,
+      "LastChanged": "1999-10-06T17:37:18.2082449+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "optio",
-      "StyleHint": "perspiciatis",
+      "ExtraInfo": "qui",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Terrence Connelly"
+      "FullName": "Ms. Alia Glover DVM"
     }
   ]
 }
@@ -128,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Jewess Group",
-    "ToolTip": "Doloribus vel.",
+    "Id": 607,
+    "Name": "Fadel, Veum and Kub",
+    "ToolTip": "A dolor cumque.",
     "Deleted": true,
-    "Rank": 138,
-    "Type": "esse",
-    "ColorBlock": 36,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2008-02-01T02:49:44.6235457+01:00",
+    "Rank": 329,
+    "Type": "quas",
+    "ColorBlock": 861,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2014-02-21T17:37:18.2092447+01:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Terry, Krajcik and Schaden",
-        "ToolTip": "Saepe qui.",
+        "Id": 599,
+        "Name": "Rosenbaum Group",
+        "ToolTip": "A quia et ratione deserunt voluptatem voluptas corrupti.",
         "Deleted": false,
-        "Rank": 71,
-        "Type": "aut",
-        "ColorBlock": 520,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "2014-07-11T02:49:44.6235457+02:00",
+        "Rank": 732,
+        "Type": "placeat",
+        "ColorBlock": 576,
+        "IconHint": "laboriosam",
+        "Selected": true,
+        "LastChanged": "2002-10-15T17:37:18.2092447+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Dr. Wellington Reinger",
+        "ExtraInfo": "et",
+        "StyleHint": "facilis",
+        "Hidden": false,
+        "FullName": "Dr. Corrine Coleman Hane",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 153
+            "FieldType": "System.String",
+            "FieldLength": 282
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "qui",
+    "ExtraInfo": "at",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Dahlia Berge",
+    "FullName": "Angelica Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldLength": 556
       }
     }
   }

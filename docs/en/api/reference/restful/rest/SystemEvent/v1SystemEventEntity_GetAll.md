@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SystemEvent?$select=name,department,category/id
 GET /api/v1/SystemEvent?$filter=name begins 'S'
 GET /api/v1/SystemEvent?$orderBy=name asc
-GET /api/v1/SystemEvent?$entities=et
-GET /api/v1/SystemEvent?$top=50
-GET /api/v1/SystemEvent?$skip=399
+GET /api/v1/SystemEvent?$entities=consequatur
+GET /api/v1/SystemEvent?$top=702
+GET /api/v1/SystemEvent?$skip=182
 GET /api/v1/SystemEvent?$mode=Full
 GET /api/v1/SystemEvent?$options=GrandTotal=true
-GET /api/v1/SystemEvent?$context=est
+GET /api/v1/SystemEvent?$context=magnam
 GET /api/v1/SystemEvent?$format=JSON
-GET /api/v1/SystemEvent?$jsonSafe=False
+GET /api/v1/SystemEvent?$jsonSafe=True
 GET /api/v1/SystemEvent?$output=Display
 ```
 
@@ -96,7 +95,7 @@ GET /api/v1/SystemEvent?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body:
 GET /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sit",
+  "odata.nextLink": "qui",
   "value": [
     {
-      "PrimaryKey": 6631,
-      "EntityName": "person",
-      "personId": 6631,
-      "fullName": "Stephanie Hahn"
+      "PrimaryKey": 4540,
+      "EntityName": "sale",
+      "saleId": 4540,
+      "contactId": 8357,
+      "name": "Jast Group"
     },
     {
-      "PrimaryKey": 1322,
-      "EntityName": "person",
-      "personId": 1322,
-      "fullName": "Zackery Luettgen"
+      "PrimaryKey": 85,
+      "EntityName": "sale",
+      "saleId": 85,
+      "contactId": 3840,
+      "name": "Becker LLC"
     }
   ]
 }

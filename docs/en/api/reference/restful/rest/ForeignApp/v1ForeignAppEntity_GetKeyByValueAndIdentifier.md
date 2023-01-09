@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=explicabo
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=ex
 ```
 
 
@@ -50,7 +50,7 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{ke
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -58,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +70,7 @@ Response body:
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,7 +79,7 @@ Response body:
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 02 Apr 2009 02:49:50 G4T
+Last-Modified: Sun, 19 Oct 2003 17:37:38 G10T
 
 {
-  "Key": "suscipit",
-  "Value": "aut",
-  "RecordId": 559,
-  "CreatedDate": "2013-07-20T02:49:50.9952888+02:00",
-  "UpdatedDate": "2009-04-02T02:49:50.9952888+02:00",
-  "UpdatedBy": "voluptates",
-  "CreatedBy": "dignissimos",
-  "TableName": "Schneider-Schumm",
+  "Key": "laudantium",
+  "Value": "soluta",
+  "RecordId": 217,
+  "CreatedDate": "1999-04-08T17:37:38.8238605+02:00",
+  "UpdatedDate": "2003-10-19T17:37:38.8238605+02:00",
+  "UpdatedBy": "adipisci",
+  "CreatedBy": "rerum",
+  "TableName": "Schultz Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldType": "System.String",
+      "FieldLength": 536
     }
   }
 }

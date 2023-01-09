@@ -42,7 +42,7 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany?$select=name
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,20 +50,20 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TargetAssignment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TargetAssignmentInfoId | int32 | Primary key |
 | Values | array | Values of the target; all periods; in ascending order. |
 | Locked | bool | Locked, should not be editable |
-| TargetAssociate |  | The associate this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
-| TargetContact |  | The contact this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
-| TargetUserGroup |  | The usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
-| Currency |  | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
+| TargetAssociate | Associate | The associate this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
+| TargetContact | Contact | The contact this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
+| TargetUserGroup | UserGroup | The usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
+| Currency | Currency | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
 | DimensionListItem | int32 | Id of the dimension list item this assignement is for |
 | DimensionListItemDisplayName | string | Display name of the dimension list item this assignement is for. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -72,7 +72,7 @@ Response body:
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,9 +82,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 755,
+  "TargetAssignmentInfoId": 295,
   "Values": [
-    214,
+    714,
     2
   ],
   "Locked": false,
@@ -92,14 +92,14 @@ Content-Type: application/json; charset=utf-8
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 839,
-  "DimensionListItemDisplayName": "Zemlak, Thompson and Schaden",
+  "DimensionListItem": 213,
+  "DimensionListItemDisplayName": "Zulauf, Shanahan and Fritsch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 737
+      "FieldLength": 652
     }
   }
 }

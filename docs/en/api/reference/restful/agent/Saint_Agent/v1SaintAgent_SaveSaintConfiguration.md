@@ -32,23 +32,22 @@ Updates the existing SaintConfiguration or creates a new SaintConfiguration if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The SaintConfiguration to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OwnerTable | int32 | The table that is the owning entity |
-| Enabled | bool | On/off switch for Saint functionality for this entity |
-| Period1 | int32 | Length of the first counter period |
-| Period2 | int32 | Length of the second counter period |
-| Period3 | int32 | Length of the third counter period |
-| GenerationStart | date-time | When was the last regeneration started |
-| GenerationEnd | date-time | When was the last regeneration finished |
-| RowsGenerated | int32 | Number of CounterValue rows generated for this entity |
+| OwnerTable | Integer | The table that is the owning entity |
+| Enabled | Boolean | On/off switch for Saint functionality for this entity |
+| Period1 | Integer | Length of the first counter period |
+| Period2 | Integer | Length of the second counter period |
+| Period3 | Integer | Length of the third counter period |
+| GenerationStart | String | When was the last regeneration started |
+| GenerationEnd | String | When was the last regeneration finished |
+| RowsGenerated | Integer | Number of CounterValue rows generated for this entity |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaintConfiguration
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body:
 | GenerationStart | date-time | When was the last regeneration started |
 | GenerationEnd | date-time | When was the last regeneration finished |
 | RowsGenerated | int32 | Number of CounterValue rows generated for this entity |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,14 +80,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 807,
-  "Enabled": false,
-  "Period1": 236,
-  "Period2": 742,
-  "Period3": 949,
-  "GenerationStart": "1999-01-08T02:49:45.0778395+01:00",
-  "GenerationEnd": "1996-03-17T02:49:45.0778395+01:00",
-  "RowsGenerated": 68
+  "OwnerTable": 885,
+  "Enabled": true,
+  "Period1": 760,
+  "Period2": 109,
+  "Period3": 763,
+  "GenerationStart": "2008-02-22T17:37:18.8122417+01:00",
+  "GenerationEnd": "2004-01-30T17:37:18.8122417+01:00",
+  "RowsGenerated": 183
 }
 ```
 
@@ -99,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 36,
-  "Enabled": true,
-  "Period1": 775,
-  "Period2": 751,
-  "Period3": 695,
-  "GenerationStart": "2005-02-24T02:49:45.0778395+01:00",
-  "GenerationEnd": "2004-08-18T02:49:45.0778395+02:00",
-  "RowsGenerated": 796,
+  "OwnerTable": 289,
+  "Enabled": false,
+  "Period1": 697,
+  "Period2": 296,
+  "Period3": 806,
+  "GenerationStart": "2012-07-03T17:37:18.8122417+02:00",
+  "GenerationEnd": "2016-06-18T17:37:18.8122417+02:00",
+  "RowsGenerated": 43,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 752
     }
   }
 }

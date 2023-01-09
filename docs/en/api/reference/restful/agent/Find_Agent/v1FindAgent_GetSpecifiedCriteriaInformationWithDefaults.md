@@ -44,20 +44,19 @@ POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| DesiredColumnNames | array |  |
-| StaticColumns | array |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| DesiredColumnNames | Array |  |
+| StaticColumns | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CriteriaInformation
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body:
 | CriteriaArchiveColumns | array | Array of ColumnInfo column specifications |
 | CriteriaArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows. |
 | RestrictionGroups | array | Array of restrictiongroups, including the default first group of restrictions |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,16 +85,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "deleniti",
-  "ProviderName": "Crona-Purdy",
-  "StorageKey": "occaecati",
+  "StorageType": "temporibus",
+  "ProviderName": "Emmerich-Barton",
+  "StorageKey": "veniam",
   "DesiredColumnNames": [
-    "Rath LLC",
-    "Jacobi-Greenholt"
+    "Adams, Aufderhar and Beatty",
+    "Donnelly LLC"
   ],
   "StaticColumns": [
-    "hic",
-    "est"
+    "enim",
+    "sequi"
   ]
 }
 ```
@@ -109,15 +108,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Romaguera Inc and Sons",
-      "Operator": "ut",
+      "Name": "Schowalter LLC",
+      "Operator": "impedit",
       "Values": [
-        "quibusdam",
-        "et"
+        "aut",
+        "odit"
       ],
       "DisplayValues": [
-        "pariatur",
-        "vel"
+        "ducimus",
+        "perspiciatis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -125,65 +124,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 209,
+      "InterParenthesis": 653,
       "InterOperator": "And",
-      "UniqueHash": 575
+      "UniqueHash": 692
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bauch-Volkman",
-      "DisplayTooltip": "iusto",
-      "DisplayType": "recusandae",
-      "CanOrderBy": true,
-      "Name": "McClure Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "vitae",
-      "RestrictionListName": "Bruen-Stanton",
+      "DisplayName": "Welch, Pouros and Schmitt",
+      "DisplayTooltip": "qui",
+      "DisplayType": "nihil",
+      "CanOrderBy": false,
+      "Name": "Breitenberg-Bauch",
+      "CanRestrictBy": false,
+      "RestrictionType": "libero",
+      "RestrictionListName": "Kunze, Kuvalis and Maggio",
       "IsVisible": false,
-      "ExtraInfo": "hic",
-      "Width": "qui",
-      "IconHint": "magni",
-      "HeadingIconHint": "dignissimos"
+      "ExtraInfo": "eos",
+      "Width": "culpa",
+      "IconHint": "doloremque",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Sanford, Okuneva and Parisian",
-      "PrimaryKey": 317,
+      "EntityName": "Johns-Ortiz",
+      "PrimaryKey": 762,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "consequatur",
-          "TooltipHint": "sit",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "nam",
+          "TooltipHint": "et",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "a",
-      "StyleHint": "quo",
+      "LinkHint": "et",
+      "StyleHint": "nulla",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 316
+          "FieldLength": 648
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hudson, Collins and Runolfsson",
-      "Description": "Open-source 4th generation projection",
-      "Rank": 839,
+      "Name": "Kutch Inc and Sons",
+      "Description": "Multi-layered regional secured line",
+      "Rank": 385,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hudson, Collins and Runolfsson",
-      "Description": "Open-source 4th generation projection",
-      "Rank": 839,
+      "Name": "Kutch Inc and Sons",
+      "Description": "Multi-layered regional secured line",
+      "Rank": 385,
       "Restrictions": [
         {},
         {}
@@ -194,8 +193,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 694
+      "FieldType": "System.Int32",
+      "FieldLength": 80
     }
   }
 }

@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/GetDocumentTemplates?$select=name,department,category/i
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | Direction | string | 1 = incoming, 2 = outgoing, see EAppntDirection |
 | AutoeventId | int32 | Which document plugin is responsible for the documents generated from this template |
 | QuoteDocType | string | What type of quote document is this. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,23 +85,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 909,
-    "Name": "Boehm LLC",
-    "Tooltip": "facilis",
-    "SaveInDb": 709,
-    "Filename": "inventore",
-    "DefaultOref": "molestias",
+    "DocumentTemplateId": 67,
+    "Name": "Hills Group",
+    "Tooltip": "quasi",
+    "SaveInDb": 169,
+    "Filename": "dignissimos",
+    "DefaultOref": "autem",
     "RecordType": "Appointment",
-    "Deleted": 79,
+    "Deleted": 998,
     "Direction": "Incoming",
-    "AutoeventId": 739,
+    "AutoeventId": 608,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 331
       }
     }
   }

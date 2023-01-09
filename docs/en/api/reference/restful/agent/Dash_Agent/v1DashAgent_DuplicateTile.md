@@ -42,17 +42,16 @@ POST /api/v1/Agents/Dash/DuplicateTile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DashTileId, Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashTileId | int32 |  |
-| Name | string |  |
+| DashTileId | Integer |  |
+| Name | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTile
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,8 +68,8 @@ Response body:
 | Height | int32 | Height used by this tile in the dashboard |
 | Width | int32 | Width used by this tile in the dashboard |
 | Rank | int32 | Rank order |
-| DashTileDefinition |  | The tile definition entity |
-| TableRight |  |  |
+| DashTileDefinition | DashTileDefinition | The tile definition entity |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 73,
-  "Name": "Bartell, Erdman and Gislason"
+  "DashTileId": 78,
+  "Name": "Borer-Hyatt"
 }
 ```
 
@@ -95,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 52,
-  "DashboardId": 370,
-  "Height": 502,
-  "Width": 25,
-  "Rank": 221,
+  "DashboardTileId": 553,
+  "DashboardId": 782,
+  "Height": 97,
+  "Width": 145,
+  "Rank": 848,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 994
+      "FieldLength": 19
     }
   }
 }

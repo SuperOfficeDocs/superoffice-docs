@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreferenceDescriptionLine
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +52,7 @@ Response body:
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -61,7 +61,7 @@ Response body:
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 610,
-  "PrefDescId": 348,
-  "PrefValue": "voluptas",
-  "PrefShowValue": "voluptas",
-  "Description": "Synchronised methodical forecast",
+  "PrefDescLineId": 394,
+  "PrefDescId": 220,
+  "PrefValue": "aut",
+  "PrefShowValue": "pariatur",
+  "Description": "Front-line interactive alliance",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 681
     }
   }
 }

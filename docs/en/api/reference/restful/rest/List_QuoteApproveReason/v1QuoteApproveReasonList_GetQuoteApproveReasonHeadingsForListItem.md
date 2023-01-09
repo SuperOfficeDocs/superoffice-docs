@@ -48,7 +48,7 @@ GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 294,
-    "Name": "Dooley, Beier and Schmeler",
-    "ToolTip": "Nihil repudiandae.",
+    "Id": 128,
+    "Name": "Bashirian-Waelchi",
+    "ToolTip": "Blanditiis quidem perspiciatis architecto totam temporibus consequatur.",
     "Deleted": false,
-    "Rank": 665,
-    "Type": "sed",
-    "ColorBlock": 117,
-    "IconHint": "cum",
-    "Selected": true,
-    "LastChanged": "2000-05-28T02:49:52.422202+02:00",
+    "Rank": 698,
+    "Type": "laudantium",
+    "ColorBlock": 854,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2010-06-24T17:37:40.2344732+02:00",
     "ChildItems": [
       {
-        "Id": 699,
-        "Name": "Swift LLC",
-        "ToolTip": "Et et accusantium in odit.",
+        "Id": 640,
+        "Name": "Rolfson, Wolff and Kunde",
+        "ToolTip": "Eum dolorum vel qui ut.",
         "Deleted": false,
-        "Rank": 373,
-        "Type": "deleniti",
-        "ColorBlock": 718,
-        "IconHint": "sunt",
+        "Rank": 84,
+        "Type": "distinctio",
+        "ColorBlock": 890,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2022-08-05T02:49:52.422202+02:00",
+        "LastChanged": "2001-10-01T17:37:40.2354735+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "commodi",
+        "ExtraInfo": "quis",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Triston Wiegand IV",
+        "FullName": "Mr. Myron Welch Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 2
+            "FieldLength": 873
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Nicolette Rosenbaum",
+    "ExtraInfo": "quis",
+    "StyleHint": "esse",
+    "Hidden": false,
+    "FullName": "Kaya Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 610
+        "FieldLength": 734
       }
     }
   }

@@ -42,17 +42,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 OwnerType, UserGroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OwnerType | string |  |
-| UserGroupId | int32 |  |
+| OwnerType | String |  |
+| UserGroupId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,7 +97,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -107,12 +106,12 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 152
+  "UserGroupId": 535
 }
 ```
 
@@ -124,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 229,
-    "ColumnId": 455,
-    "FieldDefault": "et",
-    "FieldHeight": 250,
-    "FieldLabel": "deserunt",
-    "FieldLeft": 797,
-    "FieldTop": 381,
+    "UDefFieldId": 699,
+    "ColumnId": 361,
+    "FieldDefault": "velit",
+    "FieldHeight": 10,
+    "FieldLabel": "quia",
+    "FieldLeft": 183,
+    "FieldTop": 116,
     "FieldType": "Checkbox",
-    "FieldWidth": 426,
-    "FormatMask": "repellendus",
-    "HideLabel": true,
+    "FieldWidth": 797,
+    "FormatMask": "magni",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 594,
-    "LabelLeft": 685,
-    "LabelTop": 777,
-    "LabelWidth": 140,
-    "LastVersionId": 930,
-    "ListTableId": 747,
+    "LabelHeight": 510,
+    "LabelLeft": 589,
+    "LabelTop": 721,
+    "LabelWidth": 997,
+    "LastVersionId": 518,
+    "ListTableId": 804,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 937,
-    "ProgId": "quia",
+    "Page1LineNo": 428,
+    "ProgId": "ad",
     "IsReadOnly": true,
-    "ShortLabel": "quos",
-    "TabOrder": 179,
-    "TextLength": 406,
-    "Tooltip": "fuga",
-    "UdefIdentity": 828,
-    "UDListDefinitionId": 116,
+    "ShortLabel": "amet",
+    "TabOrder": 478,
+    "TextLength": 237,
+    "Tooltip": "sed",
+    "UdefIdentity": 992,
+    "UDListDefinitionId": 879,
     "Justification": "Center",
-    "Version": 945,
-    "TemplateVariableName": "Schinner-Stehr",
-    "HasBeenPublished": true,
-    "MdoListName": "McCullough, Upton and Gaylord",
+    "Version": 39,
+    "TemplateVariableName": "Kozey, Hermiston and Haley",
+    "HasBeenPublished": false,
+    "MdoListName": "Braun, Zboncak and Koch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 48
+        "FieldType": "System.Int32",
+        "FieldLength": 672
       }
     }
   }

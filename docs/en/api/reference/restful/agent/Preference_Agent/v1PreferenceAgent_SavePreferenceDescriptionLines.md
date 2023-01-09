@@ -42,16 +42,15 @@ POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PreferenceDescriptionLines 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PreferenceDescriptionLines | array |  |
+| PreferenceDescriptionLines | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body: array
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,26 +77,26 @@ Response body: array
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 624,
-      "PrefDescId": 422,
-      "PrefValue": "cum",
-      "PrefShowValue": "officiis",
-      "Description": "Fundamental solution-oriented algorithm",
-      "IsBuiltin": false
+      "PrefDescLineId": 126,
+      "PrefDescId": 284,
+      "PrefValue": "assumenda",
+      "PrefShowValue": "nemo",
+      "Description": "Digitized modular intranet",
+      "IsBuiltin": true
     },
     {
-      "PrefDescLineId": 624,
-      "PrefDescId": 422,
-      "PrefValue": "cum",
-      "PrefShowValue": "officiis",
-      "Description": "Fundamental solution-oriented algorithm",
-      "IsBuiltin": false
+      "PrefDescLineId": 126,
+      "PrefDescId": 284,
+      "PrefValue": "assumenda",
+      "PrefShowValue": "nemo",
+      "Description": "Digitized modular intranet",
+      "IsBuiltin": true
     }
   ]
 }
@@ -111,18 +110,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 253,
-    "PrefDescId": 644,
-    "PrefValue": "odit",
-    "PrefShowValue": "aut",
-    "Description": "Right-sized uniform matrices",
-    "IsBuiltin": false,
+    "PrefDescLineId": 647,
+    "PrefDescId": 670,
+    "PrefValue": "labore",
+    "PrefShowValue": "ipsa",
+    "Description": "Visionary bi-directional database",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 127
+        "FieldType": "System.Int32",
+        "FieldLength": 232
       }
     }
   }

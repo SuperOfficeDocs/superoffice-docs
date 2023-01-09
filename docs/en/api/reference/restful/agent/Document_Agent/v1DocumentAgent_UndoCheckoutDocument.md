@@ -42,17 +42,16 @@ POST /api/v1/Agents/Document/UndoCheckoutDocument?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId, AllowedReturnTypes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
-| AllowedReturnTypes | array |  |
+| DocumentId | Integer |  |
+| AllowedReturnTypes | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,10 +80,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 276,
+  "DocumentId": 448,
   "AllowedReturnTypes": [
-    "neque",
-    "unde"
+    "accusantium",
+    "atque"
   ]
 }
 ```
@@ -96,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "nesciunt",
-  "VersionId": "officia",
+  "ExternalReference": "velit",
+  "VersionId": "nemo",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "velit",
-  "AdditionalInfo": "qui"
+  "Value": "earum",
+  "AdditionalInfo": "incidunt"
 }
 ```

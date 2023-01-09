@@ -38,7 +38,7 @@ Excludes standard fields.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FieldInfoBase
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +70,7 @@ Response body:
 GET /api/v1/Person/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Olson Inc and Sons",
-  "DisplayName": "Kreiger LLC",
-  "Description": "Cross-platform grid-enabled attitude",
-  "ShortLabel": "consectetur",
+  "FieldName": "Goldner, Collins and Reilly",
+  "DisplayName": "Moore, Little and Tromp",
+  "Description": "Front-line solution-oriented alliance",
+  "ShortLabel": "at",
   "HideLabel": true,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": true,
+  "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 447,
-  "TemplateVariableName": "Daugherty Inc and Sons"
+  "IsExternal": true,
+  "Rank": 485,
+  "TemplateVariableName": "Reinger Inc and Sons"
 }
 ```

@@ -71,18 +71,17 @@ PATCH /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 DashTileDefinition  updated.
 
@@ -93,7 +92,7 @@ DashTileDefinition  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because DashTileDefinition has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: DashTileDefinitionWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -116,7 +115,7 @@ Response body:
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -126,18 +125,18 @@ Response body:
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "esse",
+    "path": "repellendus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "esse",
+    "path": "repellendus",
     "value": {}
   }
 ]
@@ -150,36 +149,36 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 237,
-  "Name": "Wolf LLC",
-  "Description": "User-centric interactive migration",
-  "DefaultHeight": 53,
-  "DefaultWidth": 217,
+  "DashboardTileDefinitionId": 590,
+  "Name": "Rodriguez, Beier and Mraz",
+  "Description": "Adaptive didactic policy",
+  "DefaultHeight": 289,
+  "DefaultWidth": 733,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Schaden-Ondricka",
-  "SelectionId": 564,
+  "EntityName": "Cassin, Bradtke and Schaden",
+  "SelectionId": 464,
   "CurrencyMode": "Base",
-  "CurrencyCode": "placeat",
+  "CurrencyCode": "deleniti",
   "Measure": "Average",
-  "MeasureField": "rem",
-  "SortBy": "expedita",
-  "LayoutConfig": "labore",
-  "SecondarySelectionId": 413,
-  "MeasureByField": "in",
+  "MeasureField": "recusandae",
+  "SortBy": "minus",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 214,
+  "MeasureByField": "ab",
   "Usage": "Dashboard",
-  "ProviderName": "Breitenberg-Crona",
+  "ProviderName": "Hamill, Schroeder and Kunde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 107
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

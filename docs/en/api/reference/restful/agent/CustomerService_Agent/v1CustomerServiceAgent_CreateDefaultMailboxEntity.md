@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: MailboxEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +53,7 @@ Response body:
 | Password | string | The password used to log into the mail account. This is hidden when reading |
 | Server | string | The email server to connect to |
 | Port | int32 | The port used to connect to the server |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -62,7 +62,7 @@ Response body:
 POST /api/v1/Agents/CustomerService/CreateDefaultMailboxEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 88,
+  "MailInFilterId": 800,
   "ServerType": "Facebook",
-  "Address": "aut",
-  "Username": "dolorum",
-  "Password": "sit",
-  "Server": "fugit",
-  "Port": 195,
+  "Address": "dolorum",
+  "Username": "veritatis",
+  "Password": "voluptatem",
+  "Server": "accusamus",
+  "Port": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 979
     }
   }
 }

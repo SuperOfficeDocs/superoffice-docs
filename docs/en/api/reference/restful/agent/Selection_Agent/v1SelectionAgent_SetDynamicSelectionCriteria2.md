@@ -44,17 +44,16 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, Filter 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| Filter | string |  |
+| SelectionId | Integer |  |
+| Filter | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body: array
 | Operator | string |  |
 | Values | array |  |
 | DisplayValues | array |  |
-| ColumnInfo |  |  |
+| ColumnInfo | TableRight |  |
 | IsActive | bool |  |
 | SubRestrictions | array |  |
 | InterParenthesis | int32 |  |
@@ -83,12 +82,12 @@ Response body: array
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 768,
-  "Filter": "eveniet"
+  "SelectionId": 665,
+  "Filter": "fuga"
 }
 ```
 
@@ -100,44 +99,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Erdman, Ritchie and Smith",
-    "Operator": "neque",
+    "Name": "Goyette, Hudson and Wehner",
+    "Operator": "ea",
     "Values": [
-      "consectetur",
-      "ea"
+      "esse",
+      "omnis"
     ],
     "DisplayValues": [
-      "est",
-      "excepturi"
+      "earum",
+      "est"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Casper Inc and Sons",
-        "Operator": "qui",
+        "Name": "Wisoky-Gleichner",
+        "Operator": "soluta",
         "Values": [
-          "id",
-          "qui"
+          "et",
+          "molestiae"
         ],
         "DisplayValues": [
-          "eaque",
-          "et"
+          "mollitia",
+          "hic"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 386,
+        "InterParenthesis": 5,
         "InterOperator": "And",
-        "UniqueHash": 388
+        "UniqueHash": 771
       }
     ],
-    "InterParenthesis": 890,
+    "InterParenthesis": 480,
     "InterOperator": "And",
-    "UniqueHash": 190
+    "UniqueHash": 102
   }
 ]
 ```

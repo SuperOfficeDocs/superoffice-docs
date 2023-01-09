@@ -42,7 +42,7 @@ POST /api/v1/Agents/Person/GetMyOwner?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Person
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +94,7 @@ Response body:
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -103,7 +103,7 @@ Response body:
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,52 +113,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "tempore",
-  "PersonId": 317,
-  "Mrmrs": "odit",
-  "Firstname": "Wilbert",
-  "Lastname": "Keebler",
-  "MiddleName": "Thiel LLC",
-  "Title": "sed",
-  "Description": "Persevering hybrid conglomeration",
-  "Email": "kenyon@volkman.info",
-  "FullName": "Filomena Paucek I",
-  "DirectPhone": "(628)490-0153 x504",
-  "FormalName": "Jacobs-Veum",
-  "CountryId": 411,
-  "ContactId": 268,
-  "ContactName": "Bins Group",
-  "Retired": 618,
-  "Rank": 447,
-  "ActiveInterests": 107,
+  "Position": "dicta",
+  "PersonId": 991,
+  "Mrmrs": "officia",
+  "Firstname": "Maximillian",
+  "Lastname": "Oberbrunner",
+  "MiddleName": "Hartmann-Tillman",
+  "Title": "corrupti",
+  "Description": "Function-based impactful workforce",
+  "Email": "price_gottlieb@hartmann.info",
+  "FullName": "Margaret Brakus",
+  "DirectPhone": "473-106-2419",
+  "FormalName": "Dickinson-Oberbrunner",
+  "CountryId": 155,
+  "ContactId": 894,
+  "ContactName": "Lueilwitz-McGlynn",
+  "Retired": 634,
+  "Rank": 752,
+  "ActiveInterests": 396,
   "ContactDepartment": "",
-  "ContactCountryId": 34,
-  "ContactOrgNr": "522413",
-  "FaxPhone": "154-540-9088 x3979",
-  "MobilePhone": "193.056.0324 x84742",
-  "ContactPhone": "(504)635-7359",
-  "AssociateName": "Baumbach, Yost and Larkin",
-  "AssociateId": 199,
+  "ContactCountryId": 378,
+  "ContactOrgNr": "955081",
+  "FaxPhone": "259-286-3658",
+  "MobilePhone": "1-823-419-4604 x411",
+  "ContactPhone": "617-964-6186 x663",
+  "AssociateName": "Waelchi-Turcotte",
+  "AssociateId": 501,
   "UsePersonAddress": true,
-  "ContactFax": "ullam",
-  "Kanafname": "sit",
-  "Kanalname": "consequatur",
-  "Post1": "incidunt",
-  "Post2": "sint",
-  "Post3": "debitis",
-  "EmailName": "marge@senger.biz",
-  "ContactFullName": "Tanner Kunze",
-  "ActiveErpLinks": 429,
-  "TicketPriorityId": 753,
-  "SupportLanguageId": 962,
-  "SupportAssociateId": 818,
+  "ContactFax": "repudiandae",
+  "Kanafname": "omnis",
+  "Kanalname": "et",
+  "Post1": "sed",
+  "Post2": "officia",
+  "Post3": "molestiae",
+  "EmailName": "arely.weimann@carter.co.uk",
+  "ContactFullName": "Prof. Joey Keagan Thompson",
+  "ActiveErpLinks": 647,
+  "TicketPriorityId": 704,
+  "SupportLanguageId": 259,
+  "SupportAssociateId": 658,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldType": "System.Int32",
+      "FieldLength": 965
     }
   }
 }

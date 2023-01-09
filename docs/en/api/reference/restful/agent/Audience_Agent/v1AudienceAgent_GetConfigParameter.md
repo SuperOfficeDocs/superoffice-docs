@@ -42,17 +42,16 @@ POST /api/v1/Agents/Audience/GetConfigParameter?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 LayoutName, ParameterName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| LayoutName | string |  |
-| ParameterName | string |  |
+| LayoutName | String |  |
+| ParameterName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AudienceConfigParameter
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body:
 | UpdatedDate | date-time | The date and time the configuration parameter was last updated  in UTC. |
 | CreatedBy | string | Name of the person that created the configuration parameter |
 | UpdatedBy | string | Name of the person that last updated the configuration parameter |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,12 +79,12 @@ Response body:
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Lesch, Brown and Cronin",
-  "ParameterName": "Bailey Group"
+  "LayoutName": "Jast-Lind",
+  "ParameterName": "Heidenreich, Kutch and Powlowski"
 }
 ```
 
@@ -96,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 97,
-  "Name": "Hayes, Schoen and Kshlerin",
-  "Value": "aut",
-  "CreatedDate": "2001-05-15T02:49:43.6847821+02:00",
-  "UpdatedDate": "2012-09-27T02:49:43.6847821+02:00",
-  "CreatedBy": "exercitationem",
-  "UpdatedBy": "necessitatibus",
+  "AudienceLayoutId": 755,
+  "Name": "Osinski, Hansen and Eichmann",
+  "Value": "debitis",
+  "CreatedDate": "2018-10-01T17:37:16.882242+02:00",
+  "UpdatedDate": "1999-08-19T17:37:16.882242+02:00",
+  "CreatedBy": "tempore",
+  "UpdatedBy": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 721
     }
   }
 }

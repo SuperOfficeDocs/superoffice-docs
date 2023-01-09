@@ -48,7 +48,7 @@ GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Name": "Toy LLC",
-    "ToolTip": "Eaque maiores molestiae velit suscipit nostrum iusto.",
+    "Id": 808,
+    "Name": "Lind-Casper",
+    "ToolTip": "Eligendi explicabo tenetur accusantium occaecati et ad eveniet.",
     "Deleted": false,
-    "Rank": 530,
-    "Type": "sunt",
-    "ColorBlock": 970,
-    "IconHint": "et",
+    "Rank": 914,
+    "Type": "consequuntur",
+    "ColorBlock": 57,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "2006-10-08T02:49:52.3440724+02:00",
+    "LastChanged": "2011-06-23T17:37:40.1315001+02:00",
     "ChildItems": [
       {
-        "Id": 857,
-        "Name": "Murphy LLC",
-        "ToolTip": "Error qui vitae eum.",
+        "Id": 735,
+        "Name": "Schuppe Group",
+        "ToolTip": "Et rerum itaque quod quod.",
         "Deleted": true,
-        "Rank": 215,
-        "Type": "magni",
-        "ColorBlock": 142,
-        "IconHint": "est",
+        "Rank": 368,
+        "Type": "est",
+        "ColorBlock": 679,
+        "IconHint": "exercitationem",
         "Selected": false,
-        "LastChanged": "2021-11-30T02:49:52.3440724+01:00",
+        "LastChanged": "2008-02-26T17:37:40.1315001+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "est",
+        "ExtraInfo": "rerum",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Bo Tillman",
+        "FullName": "Miss Walton Larson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 893
+            "FieldLength": 825
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "qui",
+    "ExtraInfo": "nam",
+    "StyleHint": "temporibus",
     "Hidden": false,
-    "FullName": "Mr. Tanya Lehner",
+    "FullName": "Evelyn Schuster",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 515
+        "FieldLength": 710
       }
     }
   }

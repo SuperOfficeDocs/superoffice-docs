@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,12 +73,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/History?$select=name,department,category/id
 GET /api/v1/Sale/{id}/History?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/History?$orderBy=name asc
-GET /api/v1/Sale/{id}/History?$entities=rerum
-GET /api/v1/Sale/{id}/History?$top=44
-GET /api/v1/Sale/{id}/History?$skip=519
+GET /api/v1/Sale/{id}/History?$entities=delectus
+GET /api/v1/Sale/{id}/History?$top=134
+GET /api/v1/Sale/{id}/History?$skip=881
 GET /api/v1/Sale/{id}/History?$mode=Full
 GET /api/v1/Sale/{id}/History?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/History?$context=porro
+GET /api/v1/Sale/{id}/History?$context=ut
 GET /api/v1/Sale/{id}/History?$format=JSON
 GET /api/v1/Sale/{id}/History?$jsonSafe=False
 GET /api/v1/Sale/{id}/History?$output=Display
@@ -100,7 +99,7 @@ GET /api/v1/Sale/{id}/History?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Sale/{id}/History
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "iste",
+  "odata.nextLink": "dolorum",
   "value": [
     {
-      "PrimaryKey": 8006,
-      "EntityName": "person",
-      "personId": 8006,
-      "fullName": "Torrance Dickens"
+      "PrimaryKey": 3120,
+      "EntityName": "sale",
+      "saleId": 3120,
+      "contactId": 2351,
+      "name": "Smith, Kirlin and Connelly"
     },
     {
-      "PrimaryKey": 3440,
-      "EntityName": "person",
-      "personId": 3440,
-      "fullName": "Amber Kub"
+      "PrimaryKey": 4553,
+      "EntityName": "sale",
+      "saleId": 4553,
+      "contactId": 9673,
+      "name": "Moen, Barton and Yundt"
     }
   ]
 }

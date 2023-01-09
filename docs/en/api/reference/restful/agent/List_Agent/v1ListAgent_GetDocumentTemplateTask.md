@@ -44,16 +44,15 @@ POST /api/v1/Agents/List/GetDocumentTemplateTask?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentTemplateId | int32 |  |
+| DocumentTemplateId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,14 +60,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Task
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 | The List Item Id |
 | Value | string | The List Item Value |
 | Tooltip | string | The List Item Tooltip |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,11 +76,11 @@ Response body:
 POST /api/v1/Agents/List/GetDocumentTemplateTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 509
+  "DocumentTemplateId": 992
 }
 ```
 
@@ -92,15 +91,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 851,
-  "Value": "exercitationem",
-  "Tooltip": "harum",
+  "Id": 58,
+  "Value": "aut",
+  "Tooltip": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 785
+      "FieldType": "System.Int32",
+      "FieldLength": 660
     }
   }
 }

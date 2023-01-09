@@ -36,7 +36,7 @@ Get the saved user blocks to be used in a shipment/mailing message
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +56,7 @@ Response body: array
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -65,7 +65,7 @@ Response body: array
 GET /api/v1/ShipmentMessageBlock/Associate/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,20 +76,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 32,
-    "AssociateId": 849,
-    "Block": "id",
-    "Registered": "1998-08-23T02:49:51.536309+02:00",
-    "RegisteredAssociateId": 201,
-    "Updated": "2009-07-23T02:49:51.536309+02:00",
-    "UpdatedAssociateId": 474,
-    "UpdatedCount": 233,
+    "ShipmentMessageBlockId": 986,
+    "AssociateId": 462,
+    "Block": "fugit",
+    "Registered": "2004-11-23T17:37:39.2243048+01:00",
+    "RegisteredAssociateId": 153,
+    "Updated": "1998-05-10T17:37:39.2243048+02:00",
+    "UpdatedAssociateId": 518,
+    "UpdatedCount": 512,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldLength": 115
       }
     }
   }

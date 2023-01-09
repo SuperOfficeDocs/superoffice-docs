@@ -102,9 +102,6 @@ Use backslash to escape single quotes in strings
 
 
 
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -130,23 +127,22 @@ POST /api/v1/Agents/Find/FindWithExtraRestrictions2?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumns, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| ExtraRestrictions | string |  |
-| OrderBy | string |  |
-| DesiredColumns | string |  |
-| PageSize | int32 |  |
-| PageNumber | int32 |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| ExtraRestrictions | String |  |
+| OrderBy | String |  |
+| DesiredColumns | String |  |
+| PageSize | Integer |  |
+| PageNumber | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -154,14 +150,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FindResults
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -174,14 +170,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "tempore",
-  "ProviderName": "Bartell, Reynolds and Kuphal",
-  "StorageKey": "cumque",
-  "ExtraRestrictions": "minus",
-  "OrderBy": "iure",
-  "DesiredColumns": "voluptates",
-  "PageSize": 287,
-  "PageNumber": 314
+  "StorageType": "sed",
+  "ProviderName": "Gutmann, Runte and Kuhlman",
+  "StorageKey": "asperiores",
+  "ExtraRestrictions": "sint",
+  "OrderBy": "molestias",
+  "DesiredColumns": "nesciunt",
+  "PageSize": 255,
+  "PageNumber": 85
 }
 ```
 
@@ -194,51 +190,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Beer LLC",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "rerum",
-      "CanOrderBy": true,
-      "Name": "Gutmann, Cummings and Stamm",
-      "CanRestrictBy": false,
-      "RestrictionType": "sint",
-      "RestrictionListName": "Leffler Group",
+      "DisplayName": "Swift Group",
+      "DisplayTooltip": "modi",
+      "DisplayType": "aut",
+      "CanOrderBy": false,
+      "Name": "Prosacco-Corwin",
+      "CanRestrictBy": true,
+      "RestrictionType": "officiis",
+      "RestrictionListName": "Treutel, Veum and Gutkowski",
       "IsVisible": true,
-      "ExtraInfo": "esse",
-      "Width": "eveniet",
-      "IconHint": "natus",
-      "HeadingIconHint": "molestias"
+      "ExtraInfo": "ut",
+      "Width": "totam",
+      "IconHint": "molestiae",
+      "HeadingIconHint": "nostrum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Murray LLC",
-      "PrimaryKey": 561,
+      "EntityName": "Frami LLC",
+      "PrimaryKey": 49,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nemo",
-          "TooltipHint": "ullam",
-          "LinkHint": "qui"
+          "DisplayValue": "aut",
+          "TooltipHint": "aperiam",
+          "LinkHint": "dolore"
         }
       },
-      "LinkHint": "eos",
-      "StyleHint": "inventore",
+      "LinkHint": "fuga",
+      "StyleHint": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 505
+          "FieldLength": 148
         }
       }
     }
   ],
-  "RowCount": 604,
+  "RowCount": 405,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldLength": 530
     }
   }
 }

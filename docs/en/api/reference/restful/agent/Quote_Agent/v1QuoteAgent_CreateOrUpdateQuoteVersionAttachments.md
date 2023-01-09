@@ -44,16 +44,15 @@ POST /api/v1/Agents/Quote/CreateOrUpdateQuoteVersionAttachments?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
+| QuoteVersionId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,13 +60,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 | Link to document |
 | Included | bool | Will this attachment be included in the next 'Send Quote' operation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 874
+  "QuoteVersionId": 540
 }
 ```
 
@@ -92,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 293,
+    "DocumentId": 455,
     "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldType": "System.String",
+        "FieldLength": 583
       }
     }
   },
   {
-    "DocumentId": 293,
+    "DocumentId": 455,
     "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldType": "System.String",
+        "FieldLength": 583
       }
     }
   }

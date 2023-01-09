@@ -74,18 +74,17 @@ PATCH /api/v1/CRMScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 CRMScriptEntity  updated.
 
@@ -96,7 +95,7 @@ CRMScriptEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because CRMScriptEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: CRMScriptEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -111,7 +110,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -121,18 +120,18 @@ Response body:
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "nulla",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "nulla",
     "value": {}
   }
 ]
@@ -145,28 +144,28 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 143,
-  "UniqueIdentifier": "voluptates",
-  "Name": "Berge, Koepp and Abshire",
-  "Description": "Networked homogeneous flexibility",
-  "IncludeId": "ut",
-  "HierarchyId": 409,
-  "Source": "sed",
-  "Registered": "2017-05-27T02:49:50.8546634+02:00",
-  "RegisteredAssociateId": 776,
-  "Updated": "2018-01-11T02:49:50.8546634+01:00",
-  "UpdatedAssociateId": 918,
+  "EjscriptId": 661,
+  "UniqueIdentifier": "dolorem",
+  "Name": "Nitzsche, Friesen and Schultz",
+  "Description": "Quality-focused directional portal",
+  "IncludeId": "aut",
+  "HierarchyId": 561,
+  "Source": "soluta",
+  "Registered": "2017-10-05T17:37:38.4858596+02:00",
+  "RegisteredAssociateId": 876,
+  "Updated": "2013-11-08T17:37:38.4858596+01:00",
+  "UpdatedAssociateId": 518,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 472
+      "FieldType": "System.Int32",
+      "FieldLength": 234
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

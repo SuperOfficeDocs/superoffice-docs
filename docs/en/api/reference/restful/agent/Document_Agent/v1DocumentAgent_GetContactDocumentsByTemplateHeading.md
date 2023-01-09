@@ -44,20 +44,19 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, StartTime, EndTime, Count, TemplateHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TemplateHeadingId | int32 |  |
+| ContactId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TemplateHeadingId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,11 +101,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 455,
-  "StartTime": "2020-02-01T02:49:44.0753838+01:00",
-  "EndTime": "1999-03-11T02:49:44.0753838+01:00",
-  "Count": 901,
-  "TemplateHeadingId": 797
+  "ContactId": 712,
+  "StartTime": "2009-03-06T17:37:17.4182427+01:00",
+  "EndTime": "1998-08-04T17:37:17.4182427+02:00",
+  "Count": 713,
+  "TemplateHeadingId": 977
 }
 ```
 
@@ -118,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 957,
-    "Attention": "qui",
-    "Header": "nihil",
-    "Name": "Yost-Ryan",
-    "OurRef": "voluptas",
-    "YourRef": "vel",
-    "Description": "Decentralized regional product",
-    "DocumentTemplate": "explicabo",
-    "IsPublished": true,
-    "PersonId": 446,
-    "PersonFullName": "Mrs. Amelie O'Kon MD",
-    "AssociateFullName": "Mack Nitzsche",
-    "ContactId": 524,
-    "ContactName": "Borer Group",
-    "ProjectId": 790,
-    "ProjectName": "Howell-Bosco",
-    "AssociateId": 731,
-    "Snum": 725,
-    "SaleId": 333,
-    "SaleName": "Homenick LLC",
+    "DocumentId": 674,
+    "Attention": "est",
+    "Header": "voluptatem",
+    "Name": "Mante-Lakin",
+    "OurRef": "qui",
+    "YourRef": "sequi",
+    "Description": "Cross-platform national protocol",
+    "DocumentTemplate": "et",
+    "IsPublished": false,
+    "PersonId": 224,
+    "PersonFullName": "Lora Halvorson",
+    "AssociateFullName": "Dakota Purdy",
+    "ContactId": 747,
+    "ContactName": "Wisozk Group",
+    "ProjectId": 14,
+    "ProjectName": "Hegmann-Mante",
+    "AssociateId": 403,
+    "Snum": 298,
+    "SaleId": 876,
+    "SaleName": "Berge LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldLength": 719
       }
     }
   }

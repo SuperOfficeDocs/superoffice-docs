@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/CacheFolderList
 Fetch list of folders from email server for the current account, and cache in DB
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,7 +44,7 @@ POST /api/v1/Agents/EMail/CacheFolderList?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -54,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +63,7 @@ Response body: array
 | UnreadItems | int32 | Number of unread messages in the folder |
 | Subscribed | bool | Indicates if the folder is subscribed to |
 | EmailFolderId | int32 | Primary key |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Harvey, Brakus and Barton",
-    "Delimiter": "quaerat",
-    "Flags": "commodi",
-    "TotalItems": 462,
-    "UnreadItems": 144,
+    "Name": "Eichmann, Murray and Welch",
+    "Delimiter": "dolores",
+    "Flags": "qui",
+    "TotalItems": 129,
+    "UnreadItems": 831,
     "Subscribed": false,
-    "EmailFolderId": 899,
+    "EmailFolderId": 937,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 289
+        "FieldLength": 583
       }
     }
   }

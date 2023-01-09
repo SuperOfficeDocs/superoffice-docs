@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 892,
-    "Name": "Kris LLC",
-    "ToolTip": "Minus voluptates perferendis officia recusandae vel cum nihil.",
+    "Id": 742,
+    "Name": "Kunde, Schmeler and Ortiz",
+    "ToolTip": "Iusto quia minus.",
     "Deleted": false,
-    "Rank": 750,
-    "Type": "soluta",
-    "ColorBlock": 955,
-    "IconHint": "maiores",
-    "Selected": false,
-    "LastChanged": "2009-08-16T02:49:51.9378192+02:00",
+    "Rank": 644,
+    "Type": "ut",
+    "ColorBlock": 67,
+    "IconHint": "quo",
+    "Selected": true,
+    "LastChanged": "2021-04-29T17:37:39.8965143+02:00",
     "ChildItems": [
       {
-        "Id": 797,
-        "Name": "Emard, Deckow and Rohan",
-        "ToolTip": "Harum id cupiditate.",
-        "Deleted": true,
-        "Rank": 294,
-        "Type": "repellendus",
-        "ColorBlock": 162,
-        "IconHint": "eos",
+        "Id": 116,
+        "Name": "Little-Harris",
+        "ToolTip": "Harum voluptatibus maxime quos excepturi.",
+        "Deleted": false,
+        "Rank": 650,
+        "Type": "fuga",
+        "ColorBlock": 615,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2006-05-28T02:49:51.9378192+02:00",
+        "LastChanged": "2004-09-22T17:37:39.8965143+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Velda Trantow",
+        "ExtraInfo": "quas",
+        "StyleHint": "at",
+        "Hidden": false,
+        "FullName": "Ken Welch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 561
+            "FieldLength": 215
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Zion Bins DDS",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "officiis",
+    "Hidden": true,
+    "FullName": "Josie Hodkiewicz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 516
+        "FieldType": "System.String",
+        "FieldLength": 530
       }
     }
   }

@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Webhook
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,9 +59,9 @@ Response body:
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociate |  | The user that created the webhook. |
+| RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociate |  | The user that last updated the webhook. |
+| UpdatedAssociate | Associate | The user that last updated the webhook. |
 
 ## Sample request
 
@@ -69,7 +69,7 @@ Response body:
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 944,
-  "Name": "Gottlieb, Kling and Toy",
+  "WebhookId": 430,
+  "Name": "Weber-Rodriguez",
   "Events": [
-    "harum",
-    "maxime"
+    "provident",
+    "perspiciatis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "perferendis",
+  "Secret": "aut",
   "State": "Active",
-  "Type": "soluta",
+  "Type": "consectetur",
   "Headers": {
-    "Headers1": "suscipit",
-    "Headers2": "et"
+    "Headers1": "voluptatem",
+    "Headers2": "aut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-09-15T02:49:51.844034+02:00",
+  "Registered": "2019-12-25T17:37:39.5944326+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2015-03-27T02:49:51.844034+01:00",
+  "Updated": "2021-09-03T17:37:39.5944326+02:00",
   "UpdatedAssociate": null
 }
 ```

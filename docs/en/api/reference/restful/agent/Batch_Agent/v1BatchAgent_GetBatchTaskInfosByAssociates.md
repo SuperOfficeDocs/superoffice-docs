@@ -42,16 +42,15 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateIds | array |  |
+| AssociateIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +83,7 @@ Response body: array
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -98,8 +97,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    497,
-    840
+    434,
+    718
   ]
 }
 ```
@@ -112,36 +111,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 46,
-    "Name": "Kris-Grant",
-    "AssociateId": 977,
-    "DetailsTable": 573,
-    "DetailsRecord": 788,
-    "IsSystemTask": true,
+    "Id": 385,
+    "Name": "Sanford, Schumm and Harvey",
+    "AssociateId": 24,
+    "DetailsTable": 153,
+    "DetailsRecord": 81,
+    "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "esse",
-      "ParameterObject2": "at"
+      "ParameterObject1": "sapiente",
+      "ParameterObject2": "temporibus"
     },
-    "LastStarted": "2017-07-03T02:49:43.7004017+02:00",
-    "Created": "2018-05-10T02:49:43.7004017+02:00",
-    "StartCount": 237,
-    "DatabaseSerialNumber": "1381322",
-    "Context": "eum",
-    "Result": "omnis",
+    "LastStarted": "2011-02-03T17:37:16.8962438+01:00",
+    "Created": "2011-10-15T17:37:16.8962438+02:00",
+    "StartCount": 658,
+    "DatabaseSerialNumber": "536661",
+    "Context": "aperiam",
+    "Result": "fuga",
     "State": "All",
-    "Description": "Synchronised transitional service-desk",
-    "Response": "quasi",
-    "Request": "dolores",
-    "ProgressDescription": "Virtual fault-tolerant attitude",
-    "ProgressPercent": 681,
-    "FileName": "Romaguera Group",
+    "Description": "Team-oriented zero tolerance definition",
+    "Response": "voluptatem",
+    "Request": "dolorem",
+    "ProgressDescription": "Advanced bottom-line complexity",
+    "ProgressPercent": 803,
+    "FileName": "Miller Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldLength": 472
       }
     }
   }

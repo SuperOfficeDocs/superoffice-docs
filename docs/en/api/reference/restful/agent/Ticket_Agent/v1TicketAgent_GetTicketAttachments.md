@@ -42,16 +42,15 @@ POST /api/v1/Agents/Ticket/GetTicketAttachments?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TicketEntityId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketEntityId | int32 |  |
+| TicketEntityId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body: array
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 214
+  "TicketEntityId": 976
 }
 ```
 
@@ -94,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 459,
-    "Name": "Hermann, Gleason and Beier",
-    "ContentType": "et",
-    "AttSize": 818,
+    "AttachmentId": 689,
+    "Name": "Fritsch-Johnston",
+    "ContentType": "suscipit",
+    "AttSize": 444,
     "InlineImage": true,
-    "ContentId": "sequi",
+    "ContentId": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldLength": 818
       }
     }
   }

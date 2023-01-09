@@ -42,16 +42,15 @@ POST /api/v1/Agents/CustomerService/SessionIsValid?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 CsSessionKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CsSessionKey | string |  |
+| CsSessionKey | String |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -68,11 +67,11 @@ Response body: bool
 POST /api/v1/Agents/CustomerService/SessionIsValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CsSessionKey": "quo"
+  "CsSessionKey": "nostrum"
 }
 ```
 
@@ -82,5 +81,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

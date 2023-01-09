@@ -24,7 +24,7 @@ Deletes the ProjectEntity
 | ProjectEntityId | int32 | **Required** The id of the ProjectEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Project/DeleteProjectEntity?ProjectEntityId=551
+POST /api/v1/Agents/Project/DeleteProjectEntity?ProjectEntityId=702
 ```
 
 
@@ -38,7 +38,7 @@ POST /api/v1/Agents/Project/DeleteProjectEntity?ProjectEntityId=551
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 No Content
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -55,7 +55,7 @@ Response body:
 POST /api/v1/Agents/Project/DeleteProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

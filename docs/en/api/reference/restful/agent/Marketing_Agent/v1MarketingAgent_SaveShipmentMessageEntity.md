@@ -32,36 +32,35 @@ Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntit
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ShipmentMessageEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ShipmentMessageId | int32 | Primary key |
-| PlainMessage | string | Plain message text of this message |
-| HtmlMessage | string | HTML formatted text of this message |
-| SmsMessage | string | SMS version of this message |
-| Description | string | Describes this message |
-| Subject | string | The mail subject field of the message |
-| FolderId | int32 | The folder which this message belongs to. -1 indicates that the message is on the root |
-| HeaderField | string | Extra header fields added to mail. Must be formatted correctly |
-| Design | string | Will contain the design part of a message. The format will vary based on the type of designer used to create the message |
-| Designtype | string | Enum containing the type of the design |
-| Flags | string | Identifies if HTML or plain message is included in message. |
-| RegisterViews | bool | Register message views? |
-| InlineImages | bool | Should images be included inline? |
-| LongDescription | string | A field for a long description of this template |
-| AccessKey | string | Key used for access verification |
-| DocumentMessage | int32 | The SM document used as template for this mailing |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
-| UpdatedCount | int32 | Number of updates made to this record |
+| ShipmentMessageId | Integer | Primary key |
+| PlainMessage | String | Plain message text of this message |
+| HtmlMessage | String | HTML formatted text of this message |
+| SmsMessage | String | SMS version of this message |
+| Description | String | Describes this message |
+| Subject | String | The mail subject field of the message |
+| FolderId | Integer | The folder which this message belongs to. -1 indicates that the message is on the root |
+| HeaderField | String | Extra header fields added to mail. Must be formatted correctly |
+| Design | String | Will contain the design part of a message. The format will vary based on the type of designer used to create the message |
+| Designtype | String | Enum containing the type of the design |
+| Flags | String | Identifies if HTML or plain message is included in message. |
+| RegisterViews | Boolean | Register message views? |
+| InlineImages | Boolean | Should images be included inline? |
+| LongDescription | String | A field for a long description of this template |
+| AccessKey | String | Key used for access verification |
+| DocumentMessage | Integer | The SM document used as template for this mailing |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
+| UpdatedCount | Integer | Number of updates made to this record |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ShipmentMessageEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +93,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -107,27 +106,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 203,
-  "PlainMessage": "distinctio",
-  "HtmlMessage": "impedit",
-  "SmsMessage": "quia",
-  "Description": "Streamlined 4th generation standardization",
-  "Subject": "ut",
-  "FolderId": 621,
-  "HeaderField": "est",
-  "Design": "dicta",
+  "ShipmentMessageId": 914,
+  "PlainMessage": "a",
+  "HtmlMessage": "perferendis",
+  "SmsMessage": "omnis",
+  "Description": "Multi-lateral actuating framework",
+  "Subject": "rerum",
+  "FolderId": 53,
+  "HeaderField": "laudantium",
+  "Design": "voluptate",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Diverse homogeneous policy",
-  "AccessKey": "id",
-  "DocumentMessage": 400,
-  "Registered": "2015-08-09T02:49:44.7172985+02:00",
-  "RegisteredAssociateId": 564,
-  "Updated": "2022-08-09T02:49:44.7172985+02:00",
-  "UpdatedAssociateId": 224,
-  "UpdatedCount": 467
+  "LongDescription": "User-friendly optimizing policy",
+  "AccessKey": "debitis",
+  "DocumentMessage": 883,
+  "Registered": "1996-09-13T17:37:18.3192412+02:00",
+  "RegisteredAssociateId": 472,
+  "Updated": "1999-01-27T17:37:18.3192412+01:00",
+  "UpdatedAssociateId": 190,
+  "UpdatedCount": 882
 }
 ```
 
@@ -138,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 117,
-  "PlainMessage": "et",
-  "HtmlMessage": "praesentium",
-  "SmsMessage": "corporis",
-  "Description": "Face to face coherent infrastructure",
-  "Subject": "velit",
-  "FolderId": 267,
-  "HeaderField": "eos",
-  "Design": "est",
+  "ShipmentMessageId": 477,
+  "PlainMessage": "similique",
+  "HtmlMessage": "et",
+  "SmsMessage": "quia",
+  "Description": "Profit-focused 24/7 software",
+  "Subject": "voluptatem",
+  "FolderId": 970,
+  "HeaderField": "eveniet",
+  "Design": "minima",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Pre-emptive zero administration system engine",
-  "AccessKey": "placeat",
-  "DocumentMessage": 773,
-  "Registered": "2005-01-06T02:49:44.7172985+01:00",
-  "RegisteredAssociateId": 794,
-  "Updated": "2003-05-15T02:49:44.7172985+02:00",
-  "UpdatedAssociateId": 97,
-  "UpdatedCount": 252,
+  "LongDescription": "Managed zero tolerance superstructure",
+  "AccessKey": "magni",
+  "DocumentMessage": 557,
+  "Registered": "1999-11-24T17:37:18.3202415+01:00",
+  "RegisteredAssociateId": 878,
+  "Updated": "2019-08-06T17:37:18.3202415+02:00",
+  "UpdatedAssociateId": 494,
+  "UpdatedCount": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldLength": 136
     }
   }
 }

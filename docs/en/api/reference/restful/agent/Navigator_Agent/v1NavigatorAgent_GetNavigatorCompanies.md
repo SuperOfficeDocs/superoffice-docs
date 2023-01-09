@@ -42,16 +42,15 @@ POST /api/v1/Agents/Navigator/GetNavigatorCompanies?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
+| Name | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,14 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | Value | string |  |
 | Tooltip | string |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,11 +74,11 @@ Response body: array
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schiller-Bailey"
+  "Name": "Oberbrunner-Hudson"
 }
 ```
 
@@ -91,28 +90,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Value": "cumque",
-    "Tooltip": "veniam",
+    "Id": 704,
+    "Value": "et",
+    "Tooltip": "commodi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldLength": 176
       }
     }
   },
   {
-    "Id": 203,
-    "Value": "cumque",
-    "Tooltip": "veniam",
+    "Id": 704,
+    "Value": "et",
+    "Tooltip": "commodi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldLength": 176
       }
     }
   }

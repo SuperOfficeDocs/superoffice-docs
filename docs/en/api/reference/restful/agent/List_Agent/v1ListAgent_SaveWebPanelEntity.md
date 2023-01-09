@@ -32,36 +32,35 @@ Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The WebPanelEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| WebPanelId | int32 | The identity of the web panel |
-| Name | string | The name of the web panel |
-| Tooltip | string | The tooltip of the web panel |
-| Deleted | bool | True if the web panel is marked as deleted |
-| Rank | int32 | The rank of the web panel |
-| UrlEncoding | string | The encoding of the URL |
-| VisibleIn | string | The webpanel is visible in |
-| OnCentral | bool | Is the webpanel visible when user is on central database |
-| OnSatellite | bool | Is the webpanel visible when user is on a satellite |
-| OnTravel | bool | Is the webpanel visible when user is on travel |
-| OnSalesMarketingWeb | bool | Is the webpanel visible when user is on web client |
-| OnSalesMarketingPocket | bool | Is the webpanel visible when user is on pocket client |
-| ShowInMenuBar | bool | Does the webpanel have a menu bar |
-| ShowInToolBar | bool | Does the webpanel have a toolbar |
-| ShowInAddressBar | bool | Does the webpanel have an address bar |
-| ShowInStatusBar | bool | Does the webpanel have a status bar |
-| WindowName | string | The window which the URL address is to open in (webpanel only) |
-| Url | string | The url |
-| ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
-| Icon | int32 | The icon of the webpanel |
-| AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
+| WebPanelId | Integer | The identity of the web panel |
+| Name | String | The name of the web panel |
+| Tooltip | String | The tooltip of the web panel |
+| Deleted | Boolean | True if the web panel is marked as deleted |
+| Rank | Integer | The rank of the web panel |
+| UrlEncoding | String | The encoding of the URL |
+| VisibleIn | String | The webpanel is visible in |
+| OnCentral | Boolean | Is the webpanel visible when user is on central database |
+| OnSatellite | Boolean | Is the webpanel visible when user is on a satellite |
+| OnTravel | Boolean | Is the webpanel visible when user is on travel |
+| OnSalesMarketingWeb | Boolean | Is the webpanel visible when user is on web client |
+| OnSalesMarketingPocket | Boolean | Is the webpanel visible when user is on pocket client |
+| ShowInMenuBar | Boolean | Does the webpanel have a menu bar |
+| ShowInToolBar | Boolean | Does the webpanel have a toolbar |
+| ShowInAddressBar | Boolean | Does the webpanel have an address bar |
+| ShowInStatusBar | Boolean | Does the webpanel have a status bar |
+| WindowName | String | The window which the URL address is to open in (webpanel only) |
+| Url | String | The url |
+| ProgId | String | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
+| Icon | Integer | The icon of the webpanel |
+| AlwaysReloadOnShow | Boolean | If set to true, the content will reload every time the panel is shown |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: WebPanelEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +93,7 @@ Response body:
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -103,30 +102,30 @@ Response body:
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 264,
-  "Name": "VonRueden, Grady and Miller",
-  "Tooltip": "molestias",
-  "Deleted": false,
-  "Rank": 907,
+  "WebPanelId": 778,
+  "Name": "Gutkowski, Schimmel and Daugherty",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 704,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Miller, O'Connell and Cummings",
+  "WindowName": "Quitzon-Raynor",
   "Url": "http://www.example.com/",
-  "ProgId": "enim",
-  "Icon": 195,
+  "ProgId": "et",
+  "Icon": 515,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -138,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 136,
-  "Name": "Rath-Davis",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "Rank": 896,
+  "WebPanelId": 692,
+  "Name": "Bernhard, Greenholt and Lang",
+  "Tooltip": "occaecati",
+  "Deleted": false,
+  "Rank": 868,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Nicolas Inc and Sons",
+  "WindowName": "Gulgowski Group",
   "Url": "http://www.example.com/",
-  "ProgId": "sed",
-  "Icon": 860,
+  "ProgId": "consequuntur",
+  "Icon": 841,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldLength": 454
     }
   }
 }

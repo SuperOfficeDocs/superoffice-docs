@@ -24,7 +24,7 @@ Deletes the CustomerCenterConfig
 | CustomerCenterConfigId | int32 | **Required** The id of the CustomerCenterConfig to be deleted. |
 
 ```http
-POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?CustomerCenterConfigId=539
+POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?CustomerCenterConfigId=848
 ```
 
 
@@ -38,7 +38,7 @@ POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?CustomerCenterCon
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 No Content
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -55,7 +55,7 @@ Response body:
 POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

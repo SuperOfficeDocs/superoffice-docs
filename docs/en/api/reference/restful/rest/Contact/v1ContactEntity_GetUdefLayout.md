@@ -34,7 +34,7 @@ May be different from the published version.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +80,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,7 +89,7 @@ Response body: array
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 788,
-    "ColumnId": 87,
-    "FieldDefault": "quia",
-    "FieldHeight": 494,
-    "FieldLabel": "dolorem",
-    "FieldLeft": 304,
-    "FieldTop": 704,
+    "UDefFieldId": 219,
+    "ColumnId": 998,
+    "FieldDefault": "totam",
+    "FieldHeight": 947,
+    "FieldLabel": "aspernatur",
+    "FieldLeft": 740,
+    "FieldTop": 240,
     "FieldType": "Checkbox",
-    "FieldWidth": 122,
-    "FormatMask": "aliquid",
-    "HideLabel": true,
+    "FieldWidth": 638,
+    "FormatMask": "aut",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 617,
-    "LabelLeft": 90,
-    "LabelTop": 867,
-    "LabelWidth": 787,
-    "LastVersionId": 846,
-    "ListTableId": 218,
+    "LabelHeight": 12,
+    "LabelLeft": 759,
+    "LabelTop": 164,
+    "LabelWidth": 153,
+    "LastVersionId": 636,
+    "ListTableId": 377,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 959,
-    "ProgId": "est",
+    "Page1LineNo": 166,
+    "ProgId": "dolorem",
     "IsReadOnly": false,
-    "ShortLabel": "labore",
-    "TabOrder": 57,
-    "TextLength": 323,
-    "Tooltip": "perferendis",
-    "UdefIdentity": 290,
-    "UDListDefinitionId": 942,
+    "ShortLabel": "soluta",
+    "TabOrder": 437,
+    "TextLength": 175,
+    "Tooltip": "assumenda",
+    "UdefIdentity": 657,
+    "UDListDefinitionId": 979,
     "Justification": "Center",
-    "Version": 508,
-    "TemplateVariableName": "Torphy-Goldner",
-    "HasBeenPublished": false,
-    "MdoListName": "Mayer Group",
+    "Version": 183,
+    "TemplateVariableName": "Bergnaum-Herzog",
+    "HasBeenPublished": true,
+    "MdoListName": "Hickle, Volkman and Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldType": "System.String",
+        "FieldLength": 135
       }
     }
   }

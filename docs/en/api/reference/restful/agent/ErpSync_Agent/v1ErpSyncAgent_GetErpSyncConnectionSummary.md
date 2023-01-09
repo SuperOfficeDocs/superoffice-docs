@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Get a summary of the current ErpSync configuration/setup
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpSyncConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpSyncConnectionId | int32 |  |
+| ErpSyncConnectionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ErpSyncConnectionSummary
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +70,7 @@ Response body:
 | Deleted | bool | Is the connection deleted |
 | LastSync | date-time | The time of the last sync |
 | Actors | array | Summaries of the configuration of the actors configured for this connection |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,11 +79,11 @@ Response body:
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 73
+  "ErpSyncConnectionId": 815
 }
 ```
 
@@ -97,37 +94,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Barton, Bauch and Vandervort",
-  "DisplayDescription": "Upgradable bandwidth-monitored attitude",
+  "DisplayName": "Ullrich Inc and Sons",
+  "DisplayDescription": "Business-focused secondary approach",
   "Active": true,
-  "Deleted": true,
-  "LastSync": "2020-10-18T02:49:44.49729+02:00",
+  "Deleted": false,
+  "LastSync": "2013-07-16T17:37:18.0242449+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "quisquam",
-      "Mappings": "possimus",
+      "HasMappings": false,
+      "Defaults": "a",
+      "Mappings": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 629
+          "FieldType": "System.Int32",
+          "FieldLength": 858
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "quisquam",
-      "Mappings": "possimus",
+      "HasMappings": false,
+      "Defaults": "a",
+      "Mappings": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 629
+          "FieldType": "System.Int32",
+          "FieldLength": 858
         }
       }
     }
@@ -137,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldLength": 472
     }
   }
 }

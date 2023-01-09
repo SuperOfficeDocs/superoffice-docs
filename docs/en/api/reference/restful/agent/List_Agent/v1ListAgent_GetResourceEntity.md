@@ -25,7 +25,7 @@ Gets a ResourceEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=765
+POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=159
 POST /api/v1/Agents/List/GetResourceEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetResourceEntity?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ResourceEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +63,7 @@ Response body:
 | Deleted | bool | If true, the resource is deleted. |
 | IsLocation | bool | If true the resource is a location |
 | LocationAddress | string | Address of location, if this is a resource that is a location |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 410,
-  "Name": "Gutmann Inc and Sons",
-  "Rank": 917,
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "porro",
+  "ResourceId": 542,
+  "Name": "Fay-Hyatt",
+  "Rank": 185,
+  "Tooltip": "suscipit",
+  "Deleted": true,
+  "IsLocation": true,
+  "LocationAddress": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldType": "System.String",
+      "FieldLength": 814
     }
   }
 }

@@ -36,7 +36,7 @@ Get attachment infos for all attachments connected to messages in specified tick
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +54,7 @@ Response body: array
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 334,
-    "Name": "Adams Inc and Sons",
-    "ContentType": "voluptatem",
-    "AttSize": 230,
+    "AttachmentId": 137,
+    "Name": "Schowalter, Walker and Bergstrom",
+    "ContentType": "illo",
+    "AttSize": 262,
     "InlineImage": false,
-    "ContentId": "iure",
+    "ContentId": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldType": "System.String",
+        "FieldLength": 805
       }
     }
   }

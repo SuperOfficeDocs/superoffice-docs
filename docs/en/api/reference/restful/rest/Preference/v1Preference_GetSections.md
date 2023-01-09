@@ -34,7 +34,7 @@ Calls the MDO agent service GetList('preferencesection').
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +58,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -67,7 +67,7 @@ Response body: array
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,50 +78,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Name": "Klocko Group",
-    "ToolTip": "Sunt totam error.",
+    "Id": 178,
+    "Name": "Gusikowski Group",
+    "ToolTip": "Illum sapiente aspernatur ducimus sunt voluptas.",
     "Deleted": false,
-    "Rank": 592,
-    "Type": "consequuntur",
+    "Rank": 718,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Gusikowski, Raynor and Goldner",
-        "ToolTip": "Tenetur dolores autem velit velit fugit esse similique.",
-        "Deleted": false,
-        "Rank": 523,
-        "Type": "velit",
+        "Id": 935,
+        "Name": "Harris LLC",
+        "ToolTip": "Aliquam cupiditate rerum ipsa aut ex qui assumenda.",
+        "Deleted": true,
+        "Rank": 588,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 207,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "natus",
-        "FullName": "Ava Ratke",
+        "IconHint": "dignissimos",
+        "ColorBlock": 597,
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "asperiores",
+        "FullName": "Ms. Lionel Parker V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 954
+            "FieldType": "System.String",
+            "FieldLength": 432
           }
         }
       }
     ],
-    "IconHint": "aperiam",
-    "ColorBlock": 515,
-    "ExtraInfo": "iure",
-    "StyleHint": "qui",
-    "FullName": "Braxton Quigley",
+    "IconHint": "non",
+    "ColorBlock": 557,
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "dolor",
+    "FullName": "Tomasa D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 443
+        "FieldLength": 240
       }
     }
   }

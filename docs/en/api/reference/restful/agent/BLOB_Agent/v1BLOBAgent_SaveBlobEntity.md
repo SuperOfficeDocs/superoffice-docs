@@ -32,28 +32,27 @@ Updates the existing BlobEntity or creates a new BlobEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The BlobEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| BlobId | int32 | Primary key |
-| BlobSize | int32 | The length, in bytes, of the binary data AS STORED after any encryption and/or zipping. Important to get right, since some databases will not tell us just based on the blob itself! |
-| Description | string | A description that is entered by the user, and visible to the user |
-| ExtraInfo | string | Extra information, spare field, can be used for anything that makes sense. Should not refer to any particular context, that is something for the BinaryObjectLInk |
-| IsEncrypted | bool | Has the data been encrypted. |
-| IsZipped | bool | Has the data been zipped. |
-| MimeType | string | Mime type, describing the technical type (image/jpeg) of the data |
-| OriginalSize | int32 | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
-| CreatedDate | date-time | Registered when  in UTC. |
-| UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
-| ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
+| BlobId | Integer | Primary key |
+| BlobSize | Integer | The length, in bytes, of the binary data AS STORED after any encryption and/or zipping. Important to get right, since some databases will not tell us just based on the blob itself! |
+| Description | String | A description that is entered by the user, and visible to the user |
+| ExtraInfo | String | Extra information, spare field, can be used for anything that makes sense. Should not refer to any particular context, that is something for the BinaryObjectLInk |
+| IsEncrypted | Boolean | Has the data been encrypted. |
+| IsZipped | Boolean | Has the data been zipped. |
+| MimeType | String | Mime type, describing the technical type (image/jpeg) of the data |
+| OriginalSize | Integer | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
+| CreatedDate | String | Registered when  in UTC. |
+| UpdatedDate | String | Last updated when  in UTC. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
+| ConceptualType | String | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BlobEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,10 +74,10 @@ Response body:
 | OriginalSize | int32 | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,23 +86,23 @@ Response body:
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 768,
-  "BlobSize": 92,
-  "Description": "Upgradable bi-directional artificial intelligence",
-  "ExtraInfo": "libero",
+  "BlobId": 145,
+  "BlobSize": 527,
+  "Description": "Optional fresh-thinking array",
+  "ExtraInfo": "dolores",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "repudiandae",
-  "OriginalSize": 130,
-  "CreatedDate": "2002-06-24T02:49:43.7004017+02:00",
-  "UpdatedDate": "2002-07-11T02:49:43.7004017+02:00",
+  "IsZipped": true,
+  "MimeType": "expedita",
+  "OriginalSize": 169,
+  "CreatedDate": "2019-04-20T17:37:16.9102421+02:00",
+  "UpdatedDate": "2007-05-03T17:37:16.9102421+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "accusamus"
+  "ConceptualType": "ut"
 }
 ```
 
@@ -114,25 +113,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 917,
-  "BlobSize": 732,
-  "Description": "Inverse web-enabled encoding",
-  "ExtraInfo": "dolorem",
+  "BlobId": 250,
+  "BlobSize": 776,
+  "Description": "Configurable 3rd generation database",
+  "ExtraInfo": "omnis",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "id",
-  "OriginalSize": 558,
-  "CreatedDate": "2015-11-24T02:49:43.7004017+01:00",
-  "UpdatedDate": "2000-08-24T02:49:43.7004017+02:00",
+  "IsZipped": true,
+  "MimeType": "nobis",
+  "OriginalSize": 10,
+  "CreatedDate": "2002-09-06T17:37:16.9132423+02:00",
+  "UpdatedDate": "2016-09-24T17:37:16.9132423+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "deleniti",
+  "ConceptualType": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldType": "System.String",
+      "FieldLength": 897
     }
   }
 }

@@ -42,17 +42,16 @@ POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteAlternativeId, Product 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteAlternativeId | int32 |  |
-| Product |  | Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector <para /> Carrier object for Product. Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteAlternativeId | Integer |  |
+| Product | Product | Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector <para /> Carrier object for Product. Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteLine
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -113,7 +112,7 @@ Response body:
 | ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -122,11 +121,11 @@ Response body:
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 858,
+  "QuoteAlternativeId": 469,
   "Product": null
 }
 ```
@@ -138,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 647,
-  "ERPQuoteLineKey": "consequatur",
-  "QuoteAlternativeId": 650,
-  "ERPProductKey": "doloremque",
+  "QuoteLineId": 301,
+  "ERPQuoteLineKey": "et",
+  "QuoteAlternativeId": 938,
+  "ERPProductKey": "dolorum",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 1639.0819999999999,
-  "DeliveredQuantity": 12902.678,
-  "Rank": 640,
-  "Name": "Eichmann-Ledner",
-  "Description": "Enhanced reciprocal monitoring",
-  "Code": "neque",
-  "QuantityUnit": "mollitia",
-  "PriceUnit": "consequatur",
-  "ItemNumber": "833754",
+  "Quantity": 26845.843999999997,
+  "DeliveredQuantity": 266.39,
+  "Rank": 869,
+  "Name": "Keebler-Halvorson",
+  "Description": "Synchronised mobile database",
+  "Code": "culpa",
+  "QuantityUnit": "dignissimos",
+  "PriceUnit": "nulla",
+  "ItemNumber": "1383520",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "molestiae",
-  "ProductTypeKey": "voluptatem",
-  "Supplier": "sint",
-  "SupplierCode": "praesentium",
-  "Thumbnail": "quasi",
-  "VATInfo": "inventore",
-  "VAT": 20794.09,
-  "UnitCost": 3071.3199999999997,
-  "UnitMinimumPrice": 7527.8679999999995,
-  "UnitListPrice": 3387.854,
+  "ProductFamilyKey": "necessitatibus",
+  "ProductTypeKey": "saepe",
+  "Supplier": "similique",
+  "SupplierCode": "sed",
+  "Thumbnail": "officiis",
+  "VATInfo": "a",
+  "VAT": 29105.458,
+  "UnitCost": 19361.852,
+  "UnitMinimumPrice": 23160.26,
+  "UnitListPrice": 3948.8399999999997,
   "ExtraInfo": [
     {
-      "Name": "Greenfelder-Fahey",
-      "Value": "possimus",
+      "Name": "Turcotte, Beier and Turcotte",
+      "Value": "quidem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 312
         }
       }
     },
     {
-      "Name": "Greenfelder-Fahey",
-      "Value": "possimus",
+      "Name": "Turcotte, Beier and Turcotte",
+      "Value": "quidem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 312
         }
       }
     }
   ],
-  "RawExtraInfo": "consectetur",
+  "RawExtraInfo": "voluptatum",
   "IsSubscription": false,
-  "SubscriptionUnit": "doloremque",
-  "SubscriptionQuantity": 22241.998,
-  "SubscriptionStart": "2020-04-19T02:49:45.0465904+02:00",
-  "ERPDiscountPercent": 8511.944,
-  "ERPDiscountAmount": 16509.912,
-  "DiscountPercent": 31330.597999999998,
-  "DiscountAmount": 29117.994,
+  "SubscriptionUnit": "quia",
+  "SubscriptionQuantity": 25369.73,
+  "SubscriptionStart": "2005-08-17T17:37:18.7672422+02:00",
+  "ERPDiscountPercent": 30913.775999999998,
+  "ERPDiscountAmount": 15936.39,
+  "DiscountPercent": 8891.158,
+  "DiscountAmount": 6173.98,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 30894.971999999998,
-  "EarningAmount": 9126.208,
-  "SubTotal": 27027.615999999998,
-  "TotalPrice": 30829.158,
-  "Rights": "iste",
-  "Rule": "quod",
-  "ExtraField1": "omnis",
-  "ExtraField2": "natus",
-  "ExtraField3": "odio",
-  "ExtraField4": "eligendi",
-  "ExtraField5": "voluptate",
+  "EarningPercent": 15137.22,
+  "EarningAmount": 20233.104,
+  "SubTotal": 9054.126,
+  "TotalPrice": 17710.234,
+  "Rights": "ut",
+  "Rule": "omnis",
+  "ExtraField1": "odio",
+  "ExtraField2": "eum",
+  "ExtraField3": "quia",
+  "ExtraField4": "perferendis",
+  "ExtraField5": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldType": "System.String",
+      "FieldLength": 854
     }
   }
 }

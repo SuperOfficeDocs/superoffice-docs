@@ -38,17 +38,16 @@ POST /api/v1/Agents/Preference/SavePreferenceEntities?$select=name,department,ca
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Preferences, RemoveLowerLevels 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Preferences | array |  |
-| RemoveLowerLevels | bool |  |
+| Preferences | Array |  |
+| RemoveLowerLevels | Boolean |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,23 +64,23 @@ Response body:
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "eius",
+      "RawValue": "et",
       "Specification": null,
-      "DisplayValue": "omnis",
-      "DisplayTooltip": "rerum",
+      "DisplayValue": "expedita",
+      "DisplayTooltip": "eos",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 684,
-      "PrefDescId": 134,
-      "TableName": "Cremin-Brown",
-      "UserPreferenceId": 530
+      "TargetId": 598,
+      "PrefDescId": 167,
+      "TableName": "Oberbrunner Inc and Sons",
+      "UserPreferenceId": 430
     }
   ],
   "RemoveLowerLevels": true

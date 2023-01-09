@@ -38,7 +38,7 @@ Calls the List agent service GetCountry.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -47,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: Country
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Response body:
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,7 +78,7 @@ Response body:
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 847,
-  "Name": "Russel Group",
-  "CurrencyId": 440,
-  "EnglishName": "Gerhold, Ortiz and Abbott",
+  "CountryId": 140,
+  "Name": "Stehr Group",
+  "CurrencyId": 154,
+  "EnglishName": "Hauck Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Ergonomic upward-trending support",
-  "OrgNrText": "639239",
-  "InterAreaPrefix": "voluptate",
-  "DialInPrefix": "reiciendis",
-  "ZipPrefix": "vitae",
-  "DomainName": "Stiedemann Inc and Sons",
-  "AddressLayoutId": 327,
-  "DomesticAddressLayoutId": 569,
-  "ForeignAddressLayoutId": 913,
-  "Rank": 508,
+  "ImageDescription": "Business-focused mission-critical hardware",
+  "OrgNrText": "556624",
+  "InterAreaPrefix": "nam",
+  "DialInPrefix": "et",
+  "ZipPrefix": "eligendi",
+  "DomainName": "West Group",
+  "AddressLayoutId": 314,
+  "DomesticAddressLayoutId": 784,
+  "ForeignAddressLayoutId": 134,
+  "Rank": 439,
   "Tooltip": "et",
   "Deleted": true,
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 305
     }
   }
 }

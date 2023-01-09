@@ -44,19 +44,18 @@ POST /api/v1/Agents/Configuration/GetAnyConfiguration?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Application, Instance, Item, Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Application | string |  |
-| Instance | string |  |
-| Item | string |  |
-| Type | string |  |
+| Application | String |  |
+| Instance | String |  |
+| Item | String |  |
+| Type | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -77,10 +76,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "minus",
-  "Instance": "culpa",
-  "Item": "autem",
-  "Type": "nam"
+  "Application": "veniam",
+  "Instance": "et",
+  "Item": "facilis",
+  "Type": "sunt"
 }
 ```
 
@@ -90,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"earum"
+"sunt"
 ```

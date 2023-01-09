@@ -44,7 +44,7 @@ POST /api/v1/Agents/Configuration/GetWwwUrlForSMWeb?$select=name,department,cate
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: string
+## Response:string
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request

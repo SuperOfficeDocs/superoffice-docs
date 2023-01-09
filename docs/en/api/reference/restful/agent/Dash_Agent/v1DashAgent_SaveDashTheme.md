@@ -32,21 +32,20 @@ Updates the existing DashTheme or creates a new DashTheme if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The DashTheme to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardThemeId | int32 | Primary key |
-| Name | string | The name of this theme |
-| Config | string | The JSON clob-formatted config |
-| Rank | int32 | Rank order |
-| Client | string | Name of client(s) this theme is available to |
-| Style | string | Style value - for example 'light' or 'dark' |
+| DashboardThemeId | Integer | Primary key |
+| Name | String | The name of this theme |
+| Config | String | The JSON clob-formatted config |
+| Rank | Integer | Rank order |
+| Client | String | Name of client(s) this theme is available to |
+| Style | String | Style value - for example 'light' or 'dark' |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -54,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTheme
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +63,7 @@ Response body:
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,12 +76,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 995,
-  "Name": "Beahan-Schowalter",
-  "Config": "dolorem",
-  "Rank": 249,
-  "Client": "hic",
-  "Style": "et"
+  "DashboardThemeId": 735,
+  "Name": "Bernhard Group",
+  "Config": "voluptate",
+  "Rank": 163,
+  "Client": "soluta",
+  "Style": "velit"
 }
 ```
 
@@ -93,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 777,
-  "Name": "Dach-Swift",
-  "Config": "voluptatem",
-  "Rank": 771,
-  "Client": "ut",
-  "Style": "voluptas",
+  "DashboardThemeId": 573,
+  "Name": "Konopelski, Smitham and Pfannerstill",
+  "Config": "consequatur",
+  "Rank": 974,
+  "Client": "accusantium",
+  "Style": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 521
     }
   }
 }

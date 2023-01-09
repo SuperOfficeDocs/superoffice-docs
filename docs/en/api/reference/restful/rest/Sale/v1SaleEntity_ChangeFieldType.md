@@ -29,7 +29,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -47,7 +47,7 @@ POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 SaleEntity found.
 
@@ -56,7 +56,7 @@ SaleEntity found.
 | 200 | SaleEntity found. |
 | 404 | SaleEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +94,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -103,7 +103,7 @@ Response body:
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 248,
-  "ColumnId": 149,
-  "FieldDefault": "minus",
-  "FieldHeight": 227,
-  "FieldLabel": "eum",
-  "FieldLeft": 583,
-  "FieldTop": 461,
+  "UDefFieldId": 522,
+  "ColumnId": 530,
+  "FieldDefault": "maxime",
+  "FieldHeight": 590,
+  "FieldLabel": "ad",
+  "FieldLeft": 78,
+  "FieldTop": 67,
   "FieldType": "Checkbox",
-  "FieldWidth": 5,
-  "FormatMask": "id",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 6,
-  "LabelLeft": 440,
-  "LabelTop": 54,
-  "LabelWidth": 488,
-  "LastVersionId": 664,
-  "ListTableId": 284,
-  "IsMandatory": true,
+  "FieldWidth": 733,
+  "FormatMask": "magnam",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 743,
+  "LabelLeft": 748,
+  "LabelTop": 976,
+  "LabelWidth": 527,
+  "LastVersionId": 104,
+  "ListTableId": 527,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 454,
-  "ProgId": "sit",
+  "Page1LineNo": 322,
+  "ProgId": "est",
   "IsReadOnly": false,
-  "ShortLabel": "illum",
-  "TabOrder": 534,
-  "TextLength": 364,
-  "Tooltip": "ipsam",
-  "UdefIdentity": 378,
-  "UDListDefinitionId": 807,
+  "ShortLabel": "et",
+  "TabOrder": 448,
+  "TextLength": 343,
+  "Tooltip": "aut",
+  "UdefIdentity": 751,
+  "UDListDefinitionId": 669,
   "Justification": "Center",
-  "Version": 272,
-  "TemplateVariableName": "Wintheiser, D'Amore and Feeney",
-  "HasBeenPublished": false,
-  "MdoListName": "Stokes-Durgan",
+  "Version": 57,
+  "TemplateVariableName": "Johns, Russel and Stanton",
+  "HasBeenPublished": true,
+  "MdoListName": "Bartoletti, Littel and Russel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldType": "System.String",
+      "FieldLength": 333
     }
   }
 }

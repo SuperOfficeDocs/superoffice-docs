@@ -38,18 +38,17 @@ POST /api/v1/Agents/Ticket/SendTicketMessageSms?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TicketMessageEntityId, ReplyTemplateId, Sms 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketMessageEntityId | int32 |  |
-| ReplyTemplateId | int32 |  |
-| Sms | array |  |
+| TicketMessageEntityId | Integer |  |
+| ReplyTemplateId | Integer |  |
+| Sms | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -57,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -70,11 +69,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 898,
-  "ReplyTemplateId": 447,
+  "TicketMessageEntityId": 547,
+  "ReplyTemplateId": 386,
   "Sms": [
-    "porro",
-    "error"
+    "autem",
+    "quo"
   ]
 }
 ```

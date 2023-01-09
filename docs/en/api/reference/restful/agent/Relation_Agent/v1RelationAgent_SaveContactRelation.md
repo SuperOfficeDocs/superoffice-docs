@@ -42,16 +42,15 @@ POST /api/v1/Agents/Relation/SaveContactRelation?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactRelationEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactRelationEntity |  | Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition. <para /> Carrier object for ContactRelationEntity. Services for the ContactRelationEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IRelationAgent">Relation Agent</see>. |
+| ContactRelationEntity | ContactRelationEntity | Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition. <para /> Carrier object for ContactRelationEntity. Services for the ContactRelationEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IRelationAgent">Relation Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ContactRelationEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,15 +72,15 @@ Response body:
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,7 +89,7 @@ Response body:
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 313,
-  "SourcePersonId": 983,
-  "DestinationContactId": 166,
-  "DestinationPersonId": 666,
-  "RelationId": 964,
-  "Comment": "perferendis",
-  "RelationDefinitionId": 778,
-  "Reversed": 543,
-  "UpdatedDate": "2000-03-23T02:49:45.0622144+01:00",
-  "CreatedDate": "2005-06-19T02:49:45.0622144+02:00",
+  "SourceContactId": 286,
+  "SourcePersonId": 249,
+  "DestinationContactId": 256,
+  "DestinationPersonId": 843,
+  "RelationId": 748,
+  "Comment": "ut",
+  "RelationDefinitionId": 19,
+  "Reversed": 139,
+  "UpdatedDate": "1999-09-24T17:37:18.7812434+02:00",
+  "CreatedDate": "2010-05-10T17:37:18.7812434+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Turcotte-Powlowski",
-  "SourcePersonName": "Bosco-Jerde",
-  "DestinationContactName": "Friesen LLC",
-  "DestinationPersonName": "Bradtke-Lockman",
-  "ActiveText": "earum",
-  "PassiveText": "autem",
+  "SourceContactName": "Trantow, Thompson and Stehr",
+  "SourcePersonName": "Cartwright, Gleason and Goodwin",
+  "DestinationContactName": "Kub LLC",
+  "DestinationPersonName": "Denesik-McGlynn",
+  "ActiveText": "consectetur",
+  "PassiveText": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 995
     }
   }
 }

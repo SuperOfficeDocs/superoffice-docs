@@ -44,17 +44,16 @@ POST /api/v1/Agents/Document/GetDocumentCommands?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId, AllowedReturnTypes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
-| AllowedReturnTypes | array |  |
+| DocumentId | Integer |  |
+| AllowedReturnTypes | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,14 +77,14 @@ Response body: array
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 24,
+  "DocumentId": 738,
   "AllowedReturnTypes": [
-    "ipsam",
-    "aperiam"
+    "alias",
+    "atque"
   ]
 }
 ```
@@ -98,17 +97,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Prosacco-Tromp",
-    "DisplayName": "Gorczany Group",
-    "DisplayTooltip": "aut",
-    "IconHint": "enim",
+    "Name": "Mante, Mitchell and Hauck",
+    "DisplayName": "Pollich, Powlowski and Boyle",
+    "DisplayTooltip": "adipisci",
+    "IconHint": "iste",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Prosacco-Tromp",
-    "DisplayName": "Gorczany Group",
-    "DisplayTooltip": "aut",
-    "IconHint": "enim",
+    "Name": "Mante, Mitchell and Hauck",
+    "DisplayName": "Pollich, Powlowski and Boyle",
+    "DisplayTooltip": "adipisci",
+    "IconHint": "iste",
     "ReturnType": "CustomGui"
   }
 ]

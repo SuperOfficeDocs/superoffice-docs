@@ -42,17 +42,16 @@ POST /api/v1/Agents/DatabaseTable/InsertRow?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, Values 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| Values | object |  |
+| TableName | String |  |
+| Values | PersonEntity |  |
 
-
-## Response: int32
+## Response:int32
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -69,14 +68,14 @@ Response body: int32
 POST /api/v1/Agents/DatabaseTable/InsertRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "O'Kon, Pouros and Lowe",
+  "TableName": "Senger-Rodriguez",
   "Values": {
-    "Values1": "sequi",
-    "Values2": "totam"
+    "Values1": "rerum",
+    "Values2": "officiis"
   }
 }
 ```
@@ -87,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-982
+183
 ```

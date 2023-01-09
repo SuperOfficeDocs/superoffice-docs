@@ -44,16 +44,15 @@ POST /api/v1/Agents/ViewState/SaveCurrent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Current 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Current |  | The usage history of the currently logged in user is represented as History objects. <para /> Carrier object for History. Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>. |
+| Current | History | The usage history of the currently logged in user is represented as History objects. <para /> Carrier object for History. Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: History
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body:
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -96,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 774,
-  "Id": 811,
-  "HistoryName": "Gislason Group",
-  "HistoryId": 464,
-  "AssociateId": 512,
-  "Name": "Zemlak, Johnston and Weissnat",
-  "ItemInfo": "ullam",
+  "Rank": 330,
+  "Id": 712,
+  "HistoryName": "Gulgowski-Reichert",
+  "HistoryId": 388,
+  "AssociateId": 623,
+  "Name": "Heathcote, Botsford and Schmeler",
+  "ItemInfo": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 498
     }
   }
 }

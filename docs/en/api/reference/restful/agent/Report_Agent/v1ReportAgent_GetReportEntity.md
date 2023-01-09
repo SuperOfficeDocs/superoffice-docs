@@ -25,7 +25,7 @@ Gets a ReportEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=226
+POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=405
 POST /api/v1/Agents/Report/GetReportEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Report/GetReportEntity?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ReportEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +64,7 @@ Response body:
 | AssociateId | int32 | The owner of the report. |
 | TemplateId | int32 | The id of report template. |
 | Published | bool | Is the report published? |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 35,
+  "ReportId": 526,
   "ReportCategory": "All",
-  "Description": "Public-key 5th generation projection",
+  "Description": "Open-architected actuating benchmark",
   "ReportLayout": "CalendarMonth",
-  "Name": "DuBuque, Stokes and Legros",
-  "AssociateId": 52,
-  "TemplateId": 138,
-  "Published": false,
+  "Name": "Weissnat-Hickle",
+  "AssociateId": 552,
+  "TemplateId": 176,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldType": "System.String",
+      "FieldLength": 229
     }
   }
 }

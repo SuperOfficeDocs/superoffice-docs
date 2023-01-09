@@ -25,7 +25,7 @@ Gets a CurrencyEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=893
+POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=806
 POST /api/v1/Agents/List/GetCurrencyEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetCurrencyEntity?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CurrencyEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +63,7 @@ Response body:
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -72,7 +72,7 @@ Response body:
 POST /api/v1/Agents/List/GetCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 794,
-  "Name": "Rath-Schiller",
-  "Tooltip": "unde",
-  "Rank": 997,
-  "Rate": 21925.464,
-  "Units": 28447.318,
+  "CurrencyId": 739,
+  "Name": "Braun Group",
+  "Tooltip": "repellat",
+  "Rank": 738,
+  "Rate": 26983.739999999998,
+  "Units": 9818.822,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldType": "System.String",
+      "FieldLength": 3
     }
   }
 }

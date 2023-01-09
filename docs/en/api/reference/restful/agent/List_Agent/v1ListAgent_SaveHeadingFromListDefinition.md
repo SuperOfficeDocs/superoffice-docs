@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/SaveHeadingFromListDefinition?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Id, Entity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 |  |
-| Entity |  | The heading entity contains generic list item information <para /> Carrier object for HeadingEntity. Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| Id | Integer |  |
+| Entity | HeadingEntity | The heading entity contains generic list item information <para /> Carrier object for HeadingEntity. Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: HeadingEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body:
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 223,
+  "Id": 641,
   "Entity": null
 }
 ```
@@ -95,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 772,
-  "Name": "Cummerata-Nitzsche",
-  "Tooltip": "rerum",
+  "HeadingId": 232,
+  "Name": "Schmidt Group",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 626,
-  "UdListDefinitionId": 501,
+  "Rank": 400,
+  "UdListDefinitionId": 302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 982
     }
   }
 }

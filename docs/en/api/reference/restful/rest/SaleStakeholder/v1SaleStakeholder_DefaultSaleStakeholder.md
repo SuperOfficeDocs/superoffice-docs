@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaleStakeholder
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body:
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body:
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Wisozk-Murray",
-  "Comment": "pariatur",
-  "StakeholderRoleId": 305,
-  "CountryId": 974,
-  "PersonId": 205,
-  "EmailDescription": "kianna_daugherty@mante.ca",
-  "EmailId": 221,
-  "EmailAddress": "broderick@carterferry.us",
-  "PhoneId": 747,
-  "ContactName": "Wolf, Greenholt and Bartoletti",
-  "ContactId": 175,
-  "SaleId": 483,
-  "Mrmrs": "aut",
-  "Firstname": "Jensen",
-  "MiddleName": "Koelpin-Hilpert",
-  "Lastname": "Marquardt",
-  "SaleStakeholderId": 515,
-  "Rank": 571,
-  "Phone": "(127)060-3728",
+  "StakeholderRoleName": "Brown Group",
+  "Comment": "ullam",
+  "StakeholderRoleId": 686,
+  "CountryId": 718,
+  "PersonId": 556,
+  "EmailDescription": "alverta.armstrong@armstrong.co.uk",
+  "EmailId": 210,
+  "EmailAddress": "bryon@considine.ca",
+  "PhoneId": 470,
+  "ContactName": "Collins Inc and Sons",
+  "ContactId": 506,
+  "SaleId": 538,
+  "Mrmrs": "quo",
+  "Firstname": "Maybelle",
+  "MiddleName": "Muller Inc and Sons",
+  "Lastname": "Labadie",
+  "SaleStakeholderId": 564,
+  "Rank": 700,
+  "Phone": "393-330-7146 x64258",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 105
+      "FieldType": "System.Int32",
+      "FieldLength": 620
     }
   }
 }

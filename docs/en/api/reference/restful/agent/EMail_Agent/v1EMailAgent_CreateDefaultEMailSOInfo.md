@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailSOInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +57,7 @@ Response body:
 | ArchivedAt | date-time | The datetime when this email was archived |
 | ArchivedBy | int32 | The associate who archived this email |
 | ArchivedDisplayName | string | The full name of the associate who archived this email |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -66,7 +66,7 @@ Response body:
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 334,
-  "AppointmentId": 514,
-  "ProjectId": 438,
-  "SaleId": 737,
-  "Archived": true,
-  "ArchivedAt": "2018-02-15T02:49:44.403542+01:00",
-  "ArchivedBy": 752,
-  "ArchivedDisplayName": "Tillman-McClure",
+  "DocumentId": 365,
+  "AppointmentId": 635,
+  "ProjectId": 48,
+  "SaleId": 851,
+  "Archived": false,
+  "ArchivedAt": "1998-10-10T17:37:17.9192408+02:00",
+  "ArchivedBy": 25,
+  "ArchivedDisplayName": "Gislason-Metz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   }
 }

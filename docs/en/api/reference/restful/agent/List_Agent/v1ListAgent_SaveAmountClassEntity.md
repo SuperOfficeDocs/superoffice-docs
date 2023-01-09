@@ -32,23 +32,22 @@ Updates the existing AmountClassEntity or creates a new AmountClassEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The AmountClassEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AmountClassId | int32 | Primary key |
-| Name | string | The list item |
-| Tooltip | string | Tooltip or other description |
-| Rank | int32 | Rank order |
-| AmountFrom | double | Lower limit of this amount class |
-| AmountTo | double | Upper limit of this amount class |
-| Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| CurrencyId | int32 | Currency the limits in this amount class refer to. Mixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications. |
+| AmountClassId | Integer | Primary key |
+| Name | String | The list item |
+| Tooltip | String | Tooltip or other description |
+| Rank | Integer | Rank order |
+| AmountFrom | Number | Lower limit of this amount class |
+| AmountTo | Number | Upper limit of this amount class |
+| Deleted | Boolean | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
+| CurrencyId | Integer | Currency the limits in this amount class refer to. Mixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AmountClassEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body:
 | AmountTo | double | Upper limit of this amount class |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
 | CurrencyId | int32 | Currency the limits in this amount class refer to. Mixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,18 +76,18 @@ Response body:
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 289,
-  "Name": "Funk, Schulist and Anderson",
-  "Tooltip": "velit",
-  "Rank": 366,
-  "AmountFrom": 26441.558,
-  "AmountTo": 15767.153999999999,
+  "AmountClassId": 37,
+  "Name": "Hayes-Schuppe",
+  "Tooltip": "ducimus",
+  "Rank": 812,
+  "AmountFrom": 20674.998,
+  "AmountTo": 30543.964,
   "Deleted": false,
-  "CurrencyId": 301
+  "CurrencyId": 802
 }
 ```
 
@@ -99,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 429,
-  "Name": "Fadel-Abernathy",
-  "Tooltip": "culpa",
-  "Rank": 1002,
-  "AmountFrom": 26156.363999999998,
-  "AmountTo": 24789.94,
-  "Deleted": true,
-  "CurrencyId": 640,
+  "AmountClassId": 151,
+  "Name": "Kuhn, Boyle and Hessel",
+  "Tooltip": "dolorem",
+  "Rank": 948,
+  "AmountFrom": 28911.149999999998,
+  "AmountTo": 24626.971999999998,
+  "Deleted": false,
+  "CurrencyId": 543,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldType": "System.String",
+      "FieldLength": 955
     }
   }
 }

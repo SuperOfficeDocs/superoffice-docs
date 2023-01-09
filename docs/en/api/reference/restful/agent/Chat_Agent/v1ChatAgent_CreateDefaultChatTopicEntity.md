@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ChatTopicEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,11 +50,11 @@ Response body:
 | Name | string | The name of this chat topic |
 | Description | string | The descriptiong for this topic. |
 | WelcomeMessage | string | The welcome message sent to the customer when the chat session starts. |
-| Language |  | Customer language used in this topic. Optional. |
+| Language | CustomerLanguage | Customer language used in this topic. Optional. |
 | LastAccept | date-time | The last time a session was accepted from the inside for this topic. |
 | SecondsPrAccept | int32 | The average number of seconds per accept for this topic. |
 | AlertRecipient | string | The recipient(s) for the alert template |
-| AlertTemplate |  | Template to use for alerts. |
+| AlertTemplate | ReplyTemplate | Template to use for alerts. |
 | CollectConsent | bool | Collect consent to store from user |
 | BadgeHeader | string | The badge header of the chat topic |
 | CustomQueueTextEnabled | bool | Use the custom queue message text |
@@ -62,13 +62,13 @@ Response body:
 | WarnNewChatMinutes | int32 | Contains the user notify time in minutes |
 | WarnManagerNewChatMinutes | int32 | Contains the manager notify time in minutes |
 | TicketEnabled | bool | Enable ticket submission in offline mode |
-| TicketCategory |  | Category on ticket created from off-line request |
-| TicketPriority |  | Priority on ticket created from off-line request |
+| TicketCategory | TicketCategory | Category on ticket created from off-line request |
+| TicketPriority | TicketPriority | Priority on ticket created from off-line request |
 | OpeningHoursEnabled | bool | Whether to use opening hours or not. |
-| OpeningHours |  | Opening hours settings |
-| Widget |  | Settings for the chat widget |
+| OpeningHours | ChatOpeningHours | Opening hours settings |
+| Widget | ChatWidgetSettings | Settings for the chat widget |
 | BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
-| BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
+| BotSettings | ChatBotSettings | Settings for chatbot: trigger script ids to run on bot events |
 | OfflineCollectConsent | bool | Collect offline consent to store from user |
 | WarnChatMessageMinutes | int32 | Contains the user notify time in minutes for new chat messages |
 | WarnManagerChatMessageMinutes | int32 | Contains the manager notify time in minutes for new chat messages |
@@ -77,7 +77,7 @@ Response body:
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,7 +86,7 @@ Response body:
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 903,
-  "Name": "Reichel Inc and Sons",
-  "Description": "Right-sized 24/7 adapter",
-  "WelcomeMessage": "quasi",
+  "ChatTopicId": 553,
+  "Name": "Renner Group",
+  "Description": "Sharable web-enabled collaboration",
+  "WelcomeMessage": "alias",
   "Language": null,
-  "LastAccept": "2018-02-02T02:49:43.7472845+01:00",
-  "SecondsPrAccept": 213,
-  "AlertRecipient": "qui",
+  "LastAccept": "2021-11-02T17:37:16.9732418+01:00",
+  "SecondsPrAccept": 946,
+  "AlertRecipient": "iste",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "doloribus",
+  "CollectConsent": false,
+  "BadgeHeader": "sunt",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "delectus",
-  "WarnNewChatMinutes": 125,
-  "WarnManagerNewChatMinutes": 663,
-  "TicketEnabled": false,
+  "CustomQueueText": "ducimus",
+  "WarnNewChatMinutes": 737,
+  "WarnManagerNewChatMinutes": 85,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 235,
-  "WarnManagerChatMessageMinutes": 16,
+  "WarnChatMessageMinutes": 640,
+  "WarnManagerChatMessageMinutes": 512,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 820,
-  "OfflineFormQueueLength": 310,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "praesentium",
+  "OfflineFormTimeLimit": 709,
+  "OfflineFormQueueLength": 82,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 227
+      "FieldType": "System.Int32",
+      "FieldLength": 969
     }
   }
 }

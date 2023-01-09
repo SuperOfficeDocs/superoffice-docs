@@ -44,16 +44,15 @@ POST /api/v1/Agents/Report/ImportReport?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Report 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Report | string |  |
+| Report | String |  |
 
-
-## Response: int32
+## Response:int32
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -74,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Report": "et"
+  "Report": "reprehenderit"
 }
 ```
 
@@ -84,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-177
+472
 ```

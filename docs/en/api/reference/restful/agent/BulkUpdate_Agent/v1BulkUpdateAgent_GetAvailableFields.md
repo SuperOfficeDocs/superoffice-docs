@@ -42,16 +42,15 @@ POST /api/v1/Agents/BulkUpdate/GetAvailableFields?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Tablename 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Tablename | string |  |
+| Tablename | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,11 +86,11 @@ Response body: array
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project"
+  "Tablename": "contact"
 }
 ```
 
@@ -107,72 +106,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "et",
-    "ValueType": "aperiam",
-    "Mandatory": false,
-    "EncodedDisplayName": "Rolfson Group",
-    "EncodedDisplayDescription": "Sharable client-driven initiative",
-    "IconHint": "atque",
+    "Key": "animi",
+    "ValueType": "consequuntur",
+    "Mandatory": true,
+    "EncodedDisplayName": "Donnelly-Streich",
+    "EncodedDisplayDescription": "Quality-focused assymetric hub",
+    "IconHint": "et",
     "ControlInfos": [
       {
-        "Type": "qui",
-        "Label": "rerum",
-        "Dimension": 395,
-        "ListProviderName": "Waters, Emard and Rutherford",
-        "ListProviderExtraInfo": "quam",
-        "ListProviderPrimaryKeyName": "Wyman Group",
-        "ListLeadText": "consequatur",
+        "Type": "ex",
+        "Label": "consequatur",
+        "Dimension": 104,
+        "ListProviderName": "Emmerich, Sporer and Schamberger",
+        "ListProviderExtraInfo": "sapiente",
+        "ListProviderPrimaryKeyName": "Hills Inc and Sons",
+        "ListLeadText": "fuga",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 513
+            "FieldType": "System.String",
+            "FieldLength": 539
           }
         }
       }
     ],
-    "EncodedDataCaption": "doloremque",
-    "EncodedDataCaptionDescription": "Reactive bi-directional paradigm",
-    "CurrentOperationType": "facilis",
+    "EncodedDataCaption": "vitae",
+    "EncodedDataCaptionDescription": "Organized client-server approach",
+    "CurrentOperationType": "qui",
     "Values": [
-      "omnis",
-      "dicta"
+      "ut",
+      "similique"
     ],
     "DisplayValues": [
-      "necessitatibus",
-      "et"
+      "iste",
+      "qui"
     ],
     "OperationInfos": [
       {
-        "Key": "veniam",
-        "EncodedDisplayName": "Kautzer, Williamson and Roberts",
+        "Key": "ut",
+        "EncodedDisplayName": "Baumbach LLC",
         "EncodedLeadTexts": [
-          "a",
-          "fugit"
+          "facilis",
+          "natus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 17
+            "FieldType": "System.String",
+            "FieldLength": 413
           }
         }
       },
       {
-        "Key": "veniam",
-        "EncodedDisplayName": "Kautzer, Williamson and Roberts",
+        "Key": "ut",
+        "EncodedDisplayName": "Baumbach LLC",
         "EncodedLeadTexts": [
-          "a",
-          "fugit"
+          "facilis",
+          "natus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 17
+            "FieldType": "System.String",
+            "FieldLength": 413
           }
         }
       }

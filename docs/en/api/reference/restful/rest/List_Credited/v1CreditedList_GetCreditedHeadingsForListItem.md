@@ -48,7 +48,7 @@ GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Towne-Auer",
-    "ToolTip": "Tempore quam repudiandae totam itaque laboriosam.",
+    "Id": 990,
+    "Name": "Schuppe, Bradtke and Hills",
+    "ToolTip": "Autem ullam dicta recusandae.",
     "Deleted": false,
-    "Rank": 714,
-    "Type": "minima",
-    "ColorBlock": 794,
-    "IconHint": "tempore",
+    "Rank": 205,
+    "Type": "aliquid",
+    "ColorBlock": 52,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "2021-08-13T02:49:52.1878148+02:00",
+    "LastChanged": "1998-06-09T17:37:39.9475024+02:00",
     "ChildItems": [
       {
-        "Id": 228,
-        "Name": "Kovacek-Dooley",
-        "ToolTip": "Velit voluptatum quaerat explicabo quam eaque tempore.",
-        "Deleted": true,
-        "Rank": 466,
-        "Type": "illo",
-        "ColorBlock": 971,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2020-12-07T02:49:52.1878148+01:00",
+        "Id": 668,
+        "Name": "O'Kon, O'Conner and Padberg",
+        "ToolTip": "Voluptatibus dicta voluptas.",
+        "Deleted": false,
+        "Rank": 301,
+        "Type": "non",
+        "ColorBlock": 562,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2006-06-15T17:37:39.9485073+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "qui",
+        "ExtraInfo": "dolore",
+        "StyleHint": "sunt",
         "Hidden": true,
-        "FullName": "Ibrahim Legros",
+        "FullName": "Miss Burley Mayert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 172
+            "FieldType": "System.String",
+            "FieldLength": 890
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "tenetur",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Dr. Orrin Norval Frami",
+    "FullName": "Ms. Yasmine Gusikowski MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 352
+        "FieldType": "System.Int32",
+        "FieldLength": 896
       }
     }
   }

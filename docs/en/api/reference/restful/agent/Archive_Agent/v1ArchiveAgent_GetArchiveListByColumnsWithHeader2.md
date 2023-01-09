@@ -102,9 +102,6 @@ Use backslash to escape single quotes in strings
 
 
 
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -130,23 +127,22 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Columns | string |  |
-| SortOrder | string |  |
-| Restriction | string |  |
-| Entities | string |  |
-| Page | int32 |  |
-| PageSize | int32 |  |
-| Options | string |  |
+| ProviderName | String |  |
+| Columns | String |  |
+| SortOrder | String |  |
+| Restriction | String |  |
+| Entities | String |  |
+| Page | Integer |  |
+| PageSize | Integer |  |
+| Options | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -154,13 +150,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ArchiveListResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
 | Rows | array | The actual rows, according to the paging info, of the result. See RowCount for a paging-independent count estimate |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -169,18 +165,18 @@ Response body:
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Reynolds-Nienow",
-  "Columns": "molestias",
-  "SortOrder": "at",
-  "Restriction": "praesentium",
-  "Entities": "fugit",
-  "Page": 403,
-  "PageSize": 477,
-  "Options": "sed"
+  "ProviderName": "Kuhic Inc and Sons",
+  "Columns": "deleniti",
+  "SortOrder": "magnam",
+  "Restriction": "sed",
+  "Entities": "ut",
+  "Page": 117,
+  "PageSize": 21,
+  "Options": "voluptatum"
 }
 ```
 
@@ -191,26 +187,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 220,
+  "RowCount": 422,
   "Rows": [
     {
-      "EntityName": "Hansen, Jewess and O'Conner",
-      "PrimaryKey": 320,
+      "EntityName": "Lynch Inc and Sons",
+      "PrimaryKey": 208,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolor",
-          "TooltipHint": "a",
-          "LinkHint": "laborum"
+          "DisplayValue": "aut",
+          "TooltipHint": "rerum",
+          "LinkHint": "totam"
         }
       },
-      "LinkHint": "sunt",
-      "StyleHint": "quos",
+      "LinkHint": "deleniti",
+      "StyleHint": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 451
+          "FieldLength": 302
         }
       }
     }
@@ -220,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 734
+      "FieldLength": 142
     }
   }
 }

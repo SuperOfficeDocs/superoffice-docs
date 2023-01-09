@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 45,
-    "Name": "Ruecker-Purdy",
-    "ToolTip": "Autem laudantium est provident.",
+    "Id": 922,
+    "Name": "Murphy, Quitzon and Jones",
+    "ToolTip": "Sequi reiciendis occaecati quaerat cum dolor mollitia.",
     "Deleted": false,
-    "Rank": 722,
-    "Type": "ab",
-    "ColorBlock": 183,
-    "IconHint": "molestiae",
-    "Selected": false,
-    "LastChanged": "2022-05-17T02:49:52.3128229+02:00",
+    "Rank": 989,
+    "Type": "dicta",
+    "ColorBlock": 579,
+    "IconHint": "velit",
+    "Selected": true,
+    "LastChanged": "2010-07-15T17:37:40.0914714+02:00",
     "ChildItems": [
       {
-        "Id": 262,
-        "Name": "Kuhic-Rice",
-        "ToolTip": "Sed commodi fugit voluptatem qui eius.",
-        "Deleted": true,
-        "Rank": 120,
-        "Type": "sed",
-        "ColorBlock": 9,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "2012-03-17T02:49:52.3128229+01:00",
+        "Id": 560,
+        "Name": "Swaniawski, Hagenes and Muller",
+        "ToolTip": "Dolores aut itaque ut.",
+        "Deleted": false,
+        "Rank": 142,
+        "Type": "voluptas",
+        "ColorBlock": 198,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "1995-11-08T17:37:40.0924994+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "dolorum",
-        "Hidden": true,
-        "FullName": "Rowena Thompson",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "iste",
+        "Hidden": false,
+        "FullName": "Carson Ena Feil DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldType": "System.String",
+            "FieldLength": 976
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "neque",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Mr. Jessika Leffler III",
+    "FullName": "Miss Jovan Kshlerin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldType": "System.String",
+        "FieldLength": 875
       }
     }
   }

@@ -25,7 +25,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=74
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=440
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,de
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,7 +90,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -99,7 +99,7 @@ Response body:
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 194,
-  "ColumnId": 481,
-  "FieldDefault": "et",
-  "FieldHeight": 420,
-  "FieldLabel": "nostrum",
-  "FieldLeft": 203,
-  "FieldTop": 210,
+  "UDefFieldId": 581,
+  "ColumnId": 44,
+  "FieldDefault": "earum",
+  "FieldHeight": 1001,
+  "FieldLabel": "soluta",
+  "FieldLeft": 373,
+  "FieldTop": 623,
   "FieldType": "Checkbox",
-  "FieldWidth": 830,
-  "FormatMask": "dolor",
+  "FieldWidth": 314,
+  "FormatMask": "eveniet",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 574,
-  "LabelLeft": 35,
-  "LabelTop": 74,
-  "LabelWidth": 116,
-  "LastVersionId": 704,
-  "ListTableId": 263,
+  "IsIndexed": false,
+  "LabelHeight": 7,
+  "LabelLeft": 645,
+  "LabelTop": 410,
+  "LabelWidth": 979,
+  "LastVersionId": 112,
+  "ListTableId": 388,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 750,
-  "ProgId": "eligendi",
+  "Page1LineNo": 759,
+  "ProgId": "aut",
   "IsReadOnly": false,
-  "ShortLabel": "porro",
-  "TabOrder": 852,
-  "TextLength": 459,
-  "Tooltip": "quaerat",
-  "UdefIdentity": 233,
-  "UDListDefinitionId": 378,
+  "ShortLabel": "nihil",
+  "TabOrder": 851,
+  "TextLength": 441,
+  "Tooltip": "sint",
+  "UdefIdentity": 693,
+  "UDListDefinitionId": 846,
   "Justification": "Center",
-  "Version": 775,
-  "TemplateVariableName": "Jenkins, Reilly and Farrell",
+  "Version": 538,
+  "TemplateVariableName": "Nikolaus Group",
   "HasBeenPublished": false,
-  "MdoListName": "Roob, Hammes and Pollich",
+  "MdoListName": "Lang Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 891
+      "FieldType": "System.Int32",
+      "FieldLength": 659
     }
   }
 }

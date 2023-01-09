@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 581,
-    "Name": "Rippin, Fahey and Lakin",
-    "ToolTip": "Explicabo ipsa dolorem qui saepe.",
-    "Deleted": true,
-    "Rank": 426,
-    "Type": "nesciunt",
-    "ColorBlock": 384,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2015-03-22T02:49:52.5471998+01:00",
+    "Id": 350,
+    "Name": "Walker Group",
+    "ToolTip": "Qui voluptates enim quidem omnis voluptates molestiae aliquam.",
+    "Deleted": false,
+    "Rank": 61,
+    "Type": "doloremque",
+    "ColorBlock": 21,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "1995-11-22T17:37:40.3765012+01:00",
     "ChildItems": [
       {
-        "Id": 929,
-        "Name": "Friesen LLC",
-        "ToolTip": "Cupiditate laboriosam earum quisquam doloremque consequatur consequatur expedita.",
-        "Deleted": true,
-        "Rank": 805,
-        "Type": "saepe",
-        "ColorBlock": 629,
-        "IconHint": "repudiandae",
-        "Selected": true,
-        "LastChanged": "2017-01-06T02:49:52.5471998+01:00",
+        "Id": 220,
+        "Name": "Wilkinson LLC",
+        "ToolTip": "Voluptatum omnis rerum dolorem voluptatem assumenda dolor.",
+        "Deleted": false,
+        "Rank": 244,
+        "Type": "aut",
+        "ColorBlock": 807,
+        "IconHint": "illum",
+        "Selected": false,
+        "LastChanged": "1997-11-26T17:37:40.3765012+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "facere",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Zita Bechtelar",
+        "FullName": "Myles Dicki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 939
+            "FieldLength": 276
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "iure",
+    "ExtraInfo": "omnis",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Prof. Cordia Hilpert IV",
+    "FullName": "Jocelyn Tremblay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 966
+        "FieldType": "System.String",
+        "FieldLength": 626
       }
     }
   }

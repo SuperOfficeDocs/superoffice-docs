@@ -44,7 +44,7 @@ POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections?$select=name,departmen
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,13 +65,13 @@ Response body: array
 | ErpConnectionId | int32 | The ERP Connection that this Quote connection is an extension of |
 | ExtraData | string | Optional extra data, in XML format, for configuring the connector. Connector-specific! |
 | IsAvailable | bool | Whether or not the specified connection is available. Typically, without network access the availability is false. |
-| InitializeResponse |  | Status and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet. |
+| InitializeResponse | PluginResponse | Status and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet. |
 | PriceLists | array | The PriceLists that this connection offers. |
 | AllAccess | bool | Is this connection accessible to everyone?  If not, then the QuoteConnectionAccess table tells us who can access it. |
 | Deleted | bool | If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster. |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,7 +80,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,34 +91,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 120,
-    "ERPName": "Hahn, Shields and Abernathy",
-    "DisplayName": "Wyman, Bednar and Stehr",
-    "DisplayDescription": "Front-line reciprocal infrastructure",
-    "Rank": 295,
-    "ConnectorName": "Dicki Group",
-    "ErpConnectionId": 298,
-    "ExtraData": "sit",
+    "QuoteConnectionId": 569,
+    "ERPName": "Sawayn-Yundt",
+    "DisplayName": "Russel LLC",
+    "DisplayDescription": "Persistent modular definition",
+    "Rank": 275,
+    "ConnectorName": "Bernier-Jacobs",
+    "ErpConnectionId": 458,
+    "ExtraData": "asperiores",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 609,
-        "ERPPriceListKey": "maiores",
-        "QuoteConnectionId": 578,
-        "Name": "Stiedemann, Heller and Mann",
-        "Description": "Managed client-driven support",
-        "Currency": "officia",
-        "CurrencyName": "Ullrich, Green and Kreiger",
-        "ValidFrom": "2006-10-07T02:49:45.0309645+02:00",
-        "ValidTo": "2017-03-06T02:49:45.0309645+01:00",
-        "IsActive": false,
+        "PriceListId": 476,
+        "ERPPriceListKey": "eum",
+        "QuoteConnectionId": 448,
+        "Name": "Romaguera, Bauch and Simonis",
+        "Description": "Digitized homogeneous time-frame",
+        "Currency": "id",
+        "CurrencyName": "Treutel-Hills",
+        "ValidFrom": "2007-03-31T17:37:18.7382418+02:00",
+        "ValidTo": "2018-02-23T17:37:18.7382418+01:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 108
+            "FieldLength": 72
           }
         }
       }
@@ -126,19 +126,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      335,
-      859
+      959,
+      266
     ],
     "AssociateAccessIds": [
-      734,
-      676
+      51,
+      789
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 762
+        "FieldType": "System.String",
+        "FieldLength": 31
       }
     }
   }

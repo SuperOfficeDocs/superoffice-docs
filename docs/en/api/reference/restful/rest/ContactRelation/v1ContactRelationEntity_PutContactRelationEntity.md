@@ -46,33 +46,32 @@ PUT /api/v1/Relation/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ContactRelationEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SourceContactId | int32 | Id of the source contact. The value is mandatory. |
-| SourcePersonId | int32 | Id of the source person. The value is not mandatory. The person must belong to the source contact. |
-| DestinationContactId | int32 | Id of the destination contact. The value is mandatory. |
-| DestinationPersonId | int32 | Id of the destination person. The value is not mandatory. The person must belong to the destination contact. |
-| RelationId | int32 | Primary key |
-| Comment | string | Comment for relation |
-| RelationDefinitionId | int32 | Reference to definition |
-| Reversed | int32 | Is direction reversed relative to definition |
-| UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| SourceContactName | string | Name of the source contact. |
-| SourcePersonName | string | Name of the source person. |
-| DestinationContactName | string | Name of the destination contact. |
-| DestinationPersonName | string | Name of the destination person. |
-| ActiveText | string | Active text for the relation. |
-| PassiveText | string | Passive text for the relation. |
+| SourceContactId | Integer | Id of the source contact. The value is mandatory. |
+| SourcePersonId | Integer | Id of the source person. The value is not mandatory. The person must belong to the source contact. |
+| DestinationContactId | Integer | Id of the destination contact. The value is mandatory. |
+| DestinationPersonId | Integer | Id of the destination person. The value is not mandatory. The person must belong to the destination contact. |
+| RelationId | Integer | Primary key |
+| Comment | String | Comment for relation |
+| RelationDefinitionId | Integer | Reference to definition |
+| Reversed | Integer | Is direction reversed relative to definition |
+| UpdatedDate | String | Last updated when  in UTC. |
+| CreatedDate | String | Registered when  in UTC. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| SourceContactName | String | Name of the source contact. |
+| SourcePersonName | String | Name of the source person. |
+| DestinationContactName | String | Name of the destination contact. |
+| DestinationPersonName | String | Name of the destination person. |
+| ActiveText | String | Active text for the relation. |
+| PassiveText | String | Passive text for the relation. |
 
-
-## Response: 
+## Response:
 
 ContactRelationEntity updated.
 
@@ -82,7 +81,7 @@ ContactRelationEntity updated.
 | 412 | Update stopped because ContactRelationEntity has changed since the requested If-Unmodified-Since timestamp. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: ContactRelationEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,15 +95,15 @@ Response body:
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -118,24 +117,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 393,
-  "SourcePersonId": 145,
-  "DestinationContactId": 726,
-  "DestinationPersonId": 826,
-  "RelationId": 288,
-  "Comment": "dolorum",
-  "RelationDefinitionId": 91,
-  "Reversed": 708,
-  "UpdatedDate": "1999-07-09T02:49:50.8546634+02:00",
-  "CreatedDate": "1999-08-17T02:49:50.8546634+02:00",
+  "SourceContactId": 692,
+  "SourcePersonId": 891,
+  "DestinationContactId": 322,
+  "DestinationPersonId": 513,
+  "RelationId": 716,
+  "Comment": "possimus",
+  "RelationDefinitionId": 974,
+  "Reversed": 861,
+  "UpdatedDate": "2021-08-15T17:37:38.4748628+02:00",
+  "CreatedDate": "2016-03-10T17:37:38.4748628+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Dickens-Toy",
-  "SourcePersonName": "Zboncak, Dare and Fay",
-  "DestinationContactName": "Stoltenberg-Nitzsche",
-  "DestinationPersonName": "Gaylord, Kuhic and McLaughlin",
-  "ActiveText": "quia",
-  "PassiveText": "enim"
+  "SourceContactName": "Kuhn, Lynch and Kshlerin",
+  "SourcePersonName": "Maggio Inc and Sons",
+  "DestinationContactName": "Dach-Walsh",
+  "DestinationPersonName": "Jewess LLC",
+  "ActiveText": "qui",
+  "PassiveText": "vel"
 }
 ```
 
@@ -146,30 +145,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 212,
-  "SourcePersonId": 116,
-  "DestinationContactId": 796,
-  "DestinationPersonId": 366,
-  "RelationId": 826,
-  "Comment": "doloremque",
-  "RelationDefinitionId": 761,
-  "Reversed": 531,
-  "UpdatedDate": "2014-11-28T02:49:50.8546634+01:00",
-  "CreatedDate": "2020-02-17T02:49:50.8546634+01:00",
+  "SourceContactId": 78,
+  "SourcePersonId": 234,
+  "DestinationContactId": 164,
+  "DestinationPersonId": 470,
+  "RelationId": 691,
+  "Comment": "maxime",
+  "RelationDefinitionId": 891,
+  "Reversed": 641,
+  "UpdatedDate": "2013-12-04T17:37:38.4788649+01:00",
+  "CreatedDate": "2002-04-24T17:37:38.4788649+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Becker LLC",
-  "SourcePersonName": "Gorczany, Weimann and Mitchell",
-  "DestinationContactName": "Maggio, Oberbrunner and Bashirian",
-  "DestinationPersonName": "Ernser-Buckridge",
-  "ActiveText": "quo",
-  "PassiveText": "sapiente",
+  "SourceContactName": "Ullrich-Dare",
+  "SourcePersonName": "Dietrich LLC",
+  "DestinationContactName": "Miller-Beatty",
+  "DestinationPersonName": "Denesik-Torphy",
+  "ActiveText": "nobis",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldType": "System.Int32",
+      "FieldLength": 572
     }
   },
   "_Links": {

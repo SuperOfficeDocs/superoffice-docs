@@ -12,8 +12,6 @@ POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity
 Deletes the CRMScriptEntity
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -28,7 +26,7 @@ Deletes the CRMScriptEntity
 | CRMScriptEntityId | int32 | **Required** The id of the CRMScriptEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity?CRMScriptEntityId=931
+POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity?CRMScriptEntityId=926
 ```
 
 
@@ -42,7 +40,7 @@ POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity?CRMScriptEntityId=931
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 No Content
 
@@ -50,7 +48,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -59,7 +57,7 @@ Response body:
 POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

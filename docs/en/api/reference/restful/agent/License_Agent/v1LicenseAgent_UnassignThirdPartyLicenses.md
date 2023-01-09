@@ -42,18 +42,17 @@ POST /api/v1/Agents/License/UnassignThirdPartyLicenses?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId, ModuleOwner, ModuleLicenseNames 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
-| ModuleOwner | string |  |
-| ModuleLicenseNames | array |  |
+| AssociateId | Integer |  |
+| ModuleOwner | String |  |
+| ModuleLicenseNames | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body: array
 | PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
 | SortOrder | int32 | Sort order of licenses. |
 | ExtraFlags | int32 | License flags. 1 = user plan |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,11 +91,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 326,
-  "ModuleOwner": "saepe",
+  "AssociateId": 776,
+  "ModuleOwner": "est",
   "ModuleLicenseNames": [
-    "Watsica-Kirlin",
-    "Jakubowski, Baumbach and Maggio"
+    "Hoppe, Dare and Weissnat",
+    "Greenfelder, Macejkovic and Mueller"
   ]
 }
 ```
@@ -110,25 +109,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 247,
-    "Tooltip": "explicabo",
-    "CanAssign": true,
-    "Free": 694,
-    "InUse": 1002,
+    "Total": 118,
+    "Tooltip": "exercitationem",
+    "CanAssign": false,
+    "Free": 267,
+    "InUse": 46,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 471,
-    "Name": "Lehner Inc and Sons",
-    "Description": "Switchable zero defect strategy",
-    "PrerequisiteModuleName": "Swift, Armstrong and Dibbert",
-    "SortOrder": 24,
-    "ExtraFlags": 109,
+    "ModuleLicenseId": 321,
+    "Name": "Turner-Flatley",
+    "Description": "Diverse next generation adapter",
+    "PrerequisiteModuleName": "Satterfield Group",
+    "SortOrder": 691,
+    "ExtraFlags": 50,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 983
+        "FieldType": "System.Int32",
+        "FieldLength": 648
       }
     }
   }

@@ -25,7 +25,7 @@ Gets a HierarchyEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=940
+POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=881
 POST /api/v1/Agents/List/GetHierarchyEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetHierarchyEntity?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: HierarchyEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +66,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,7 +75,7 @@ Response body:
 POST /api/v1/Agents/List/GetHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,46 +85,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 80,
+  "HierarchyId": 238,
   "Domain": "Dashboards",
-  "Name": "Walker-Hills",
-  "Fullname": "delectus",
-  "ParentId": 996,
+  "Name": "Heidenreich Inc and Sons",
+  "Fullname": "neque",
+  "ParentId": 778,
   "Children": [
     {
-      "HierarchyId": 1001,
+      "HierarchyId": 318,
       "Domain": "Dashboards",
-      "Name": "Kshlerin LLC",
-      "Fullname": "assumenda",
-      "ParentId": 328,
+      "Name": "Oberbrunner Inc and Sons",
+      "Fullname": "eum",
+      "ParentId": 43,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-05-31T02:49:44.6704246+02:00",
-      "RegisteredAssociateId": 397,
-      "Updated": "2022-02-18T02:49:44.6704246+01:00",
-      "UpdatedAssociateId": 501,
+      "Registered": "1997-04-14T17:37:18.257242+02:00",
+      "RegisteredAssociateId": 944,
+      "Updated": "2006-11-17T17:37:18.257242+01:00",
+      "UpdatedAssociateId": 172,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 477
+          "FieldType": "System.String",
+          "FieldLength": 195
         }
       }
     }
   ],
-  "Registered": "1997-12-10T02:49:44.6704246+01:00",
-  "RegisteredAssociateId": 40,
-  "Updated": "2000-03-02T02:49:44.6704246+01:00",
-  "UpdatedAssociateId": 14,
+  "Registered": "1997-10-06T17:37:18.257242+02:00",
+  "RegisteredAssociateId": 301,
+  "Updated": "2007-01-27T17:37:18.257242+01:00",
+  "UpdatedAssociateId": 542,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldLength": 271
     }
   }
 }

@@ -38,7 +38,7 @@ Calls the List agent service GetConsentSource.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -47,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ConsentSource
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +58,7 @@ Response body:
 | Key | string | The key used to uniquely identify this consent source |
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -67,7 +67,7 @@ Response body:
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,19 +77,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 606,
-  "Name": "Boyer Group",
-  "Tooltip": "enim",
-  "Rank": 635,
-  "Key": "eius",
-  "MailTemplateId": 657,
+  "ConsentSourceId": 41,
+  "Name": "Kunde Group",
+  "Tooltip": "sed",
+  "Rank": 12,
+  "Key": "rerum",
+  "MailTemplateId": 643,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldLength": 757
     }
   }
 }

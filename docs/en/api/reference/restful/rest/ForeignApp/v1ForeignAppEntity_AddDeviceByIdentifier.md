@@ -38,7 +38,7 @@ Adds a new ForeignDevice with deviceName that belongs to the application with ap
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignDevice
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +59,7 @@ Response body:
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -68,7 +68,7 @@ Response body:
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 661,
-  "Name": "Heaney-Balistreri",
-  "CreatedDate": "2022-07-17T02:49:50.9952888+02:00",
-  "UpdatedDate": "1997-10-20T02:49:50.9952888+02:00",
-  "AssociateFullName": "Elliott Batz",
-  "CreatedBy": "accusantium",
-  "UpdatedBy": "qui",
-  "DeviceIdentifier": "sit",
-  "ForeignAppId": 888,
+  "ForeignDeviceId": 718,
+  "Name": "Hamill, Reinger and Fadel",
+  "CreatedDate": "2000-04-23T17:37:38.8178596+02:00",
+  "UpdatedDate": "2015-10-08T17:37:38.8178596+02:00",
+  "AssociateFullName": "Mireille Grant",
+  "CreatedBy": "quia",
+  "UpdatedBy": "dolor",
+  "DeviceIdentifier": "deserunt",
+  "ForeignAppId": 992,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldType": "System.Int32",
+      "FieldLength": 53
     }
   }
 }

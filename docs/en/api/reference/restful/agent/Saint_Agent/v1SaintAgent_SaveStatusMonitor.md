@@ -32,30 +32,29 @@ Updates the existing StatusMonitor or creates a new StatusMonitor if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The StatusMonitor to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OwnerTable | int32 | Id of table that owns the status monitor |
-| Rank | int32 | Priority rank, in case more than one status is signalled. Lowest wins |
-| DefaultTask | int32 | "Default task type for this status; the default task text is in the text table (since it can be long), and may contain template variables" |
-| DefaultTaskText | string | Default task text for this status |
-| IsVisual | bool | Should the status be visualized (active) in the client |
-| LastGenerated | date-time | When was this status last generated (i.e., statusValue rows created) |
-| Description | string | Description of the status monitor |
-| Name | string | Name of status monitor |
-| StatusMonitorId | int32 | Primary key |
-| PictureId | int32 | Id of BinaryObject row that contains image for status monitor |
-| NeedsUpdate | bool | Is the definition dirty, ie., ALL values are invalid until a recalculation; this flag is set when the status DEFINITION is changed, as opposed to the flag on StatusValue |
-| Deleted | bool | Deleted flag, 1 if this record is deleted (never from the database) |
-| NumMatches | int32 | Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1 |
-| NumNeedUpdate | int32 | Number of targets that had this status, but have their needsUpdate bit set due to some change |
-| GenerationStart | date-time | When was the last regeneration started |
+| OwnerTable | Integer | Id of table that owns the status monitor |
+| Rank | Integer | Priority rank, in case more than one status is signalled. Lowest wins |
+| DefaultTask | Integer | "Default task type for this status; the default task text is in the text table (since it can be long), and may contain template variables" |
+| DefaultTaskText | String | Default task text for this status |
+| IsVisual | Boolean | Should the status be visualized (active) in the client |
+| LastGenerated | String | When was this status last generated (i.e., statusValue rows created) |
+| Description | String | Description of the status monitor |
+| Name | String | Name of status monitor |
+| StatusMonitorId | Integer | Primary key |
+| PictureId | Integer | Id of BinaryObject row that contains image for status monitor |
+| NeedsUpdate | Boolean | Is the definition dirty, ie., ALL values are invalid until a recalculation; this flag is set when the status DEFINITION is changed, as opposed to the flag on StatusValue |
+| Deleted | Boolean | Deleted flag, 1 if this record is deleted (never from the database) |
+| NumMatches | Integer | Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1 |
+| NumNeedUpdate | Integer | Number of targets that had this status, but have their needsUpdate bit set due to some change |
+| GenerationStart | String | When was the last regeneration started |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: StatusMonitor
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +81,7 @@ Response body:
 | NumMatches | int32 | Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1 |
 | NumNeedUpdate | int32 | Number of targets that had this status, but have their needsUpdate bit set due to some change |
 | GenerationStart | date-time | When was the last regeneration started |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,21 +94,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 621,
-  "Rank": 493,
-  "DefaultTask": 32,
-  "DefaultTaskText": "in",
+  "OwnerTable": 629,
+  "Rank": 321,
+  "DefaultTask": 475,
+  "DefaultTaskText": "aut",
   "IsVisual": false,
-  "LastGenerated": "2000-06-04T02:49:45.0934673+02:00",
-  "Description": "Grass-roots multimedia array",
-  "Name": "Bergnaum-Carter",
-  "StatusMonitorId": 596,
-  "PictureId": 548,
-  "NeedsUpdate": true,
-  "Deleted": true,
-  "NumMatches": 635,
-  "NumNeedUpdate": 731,
-  "GenerationStart": "1996-02-27T02:49:45.0934673+01:00"
+  "LastGenerated": "1996-07-25T17:37:18.8132409+02:00",
+  "Description": "Ameliorated coherent groupware",
+  "Name": "Witting-Powlowski",
+  "StatusMonitorId": 461,
+  "PictureId": 544,
+  "NeedsUpdate": false,
+  "Deleted": false,
+  "NumMatches": 377,
+  "NumNeedUpdate": 843,
+  "GenerationStart": "2007-04-03T17:37:18.8132409+02:00"
 }
 ```
 
@@ -120,27 +119,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 880,
-  "Rank": 843,
-  "DefaultTask": 709,
-  "DefaultTaskText": "occaecati",
+  "OwnerTable": 960,
+  "Rank": 188,
+  "DefaultTask": 590,
+  "DefaultTaskText": "dolorem",
   "IsVisual": false,
-  "LastGenerated": "1999-05-23T02:49:45.0934673+02:00",
-  "Description": "Open-architected hybrid conglomeration",
-  "Name": "Fay Group",
-  "StatusMonitorId": 162,
-  "PictureId": 413,
-  "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 764,
-  "NumNeedUpdate": 998,
-  "GenerationStart": "2002-03-17T02:49:45.0934673+01:00",
+  "LastGenerated": "2016-03-15T17:37:18.8132409+01:00",
+  "Description": "Reduced client-driven application",
+  "Name": "Zieme, Connelly and Hirthe",
+  "StatusMonitorId": 34,
+  "PictureId": 113,
+  "NeedsUpdate": true,
+  "Deleted": false,
+  "NumMatches": 987,
+  "NumNeedUpdate": 129,
+  "GenerationStart": "2000-09-21T17:37:18.8132409+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 965
     }
   }
 }

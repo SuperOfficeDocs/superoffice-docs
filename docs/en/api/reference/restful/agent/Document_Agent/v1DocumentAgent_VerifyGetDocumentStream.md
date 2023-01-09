@@ -38,16 +38,15 @@ POST /api/v1/Agents/Document/VerifyGetDocumentStream?$select=name,department,cat
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
+| DocumentId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -55,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -68,7 +67,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 518
+  "DocumentId": 722
 }
 ```
 

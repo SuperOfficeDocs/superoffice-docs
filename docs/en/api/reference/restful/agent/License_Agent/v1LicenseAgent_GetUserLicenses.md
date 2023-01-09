@@ -42,16 +42,15 @@ POST /api/v1/Agents/License/GetUserLicenses?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
+| AssociateId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +66,7 @@ Response body: array
 | Description | string |  |
 | RestrictedModuleLicenses | array |  |
 | UnrestrictedModuleLicenses | array | The unrestricted module licenses that this license owner |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,11 +75,11 @@ Response body: array
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 751
+  "AssociateId": 664
 }
 ```
 
@@ -92,30 +91,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Shanahan, Spencer and VonRueden",
-    "Description": "Operative hybrid data-warehouse",
+    "Name": "Schulist, Goyette and Bergnaum",
+    "Description": "Centralized fault-tolerant definition",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 326,
-        "Tooltip": "eius",
+        "Unrestricted": false,
+        "Total": 493,
+        "Tooltip": "sit",
         "CanAssign": false,
-        "Free": 589,
-        "InUse": 701,
+        "Free": 578,
+        "InUse": 323,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 367,
-        "Name": "Beier-Krajcik",
-        "Description": "Intuitive reciprocal local area network",
-        "PrerequisiteModuleName": "Steuber Inc and Sons",
-        "SortOrder": 214,
-        "ExtraFlags": 469,
+        "Assigned": true,
+        "ModuleLicenseId": 450,
+        "Name": "Haag Inc and Sons",
+        "Description": "Cross-platform static knowledge user",
+        "PrerequisiteModuleName": "Hermiston, Johnson and Schamberger",
+        "SortOrder": 302,
+        "ExtraFlags": 173,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 899
+            "FieldType": "System.String",
+            "FieldLength": 501
           }
         }
       }
@@ -123,25 +122,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 722,
-        "Tooltip": "voluptas",
-        "CanAssign": true,
-        "Free": 909,
-        "InUse": 282,
+        "Total": 167,
+        "Tooltip": "dignissimos",
+        "CanAssign": false,
+        "Free": 302,
+        "InUse": 205,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 963,
-        "Name": "Emmerich, Boyer and Strosin",
-        "Description": "Exclusive explicit challenge",
-        "PrerequisiteModuleName": "Kunde, Emmerich and Hagenes",
-        "SortOrder": 59,
-        "ExtraFlags": 750,
+        "Assigned": false,
+        "ModuleLicenseId": 611,
+        "Name": "Stanton LLC",
+        "Description": "Team-oriented client-driven capability",
+        "PrerequisiteModuleName": "Labadie, Koch and Rogahn",
+        "SortOrder": 860,
+        "ExtraFlags": 864,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 829
+            "FieldLength": 251
           }
         }
       }
@@ -151,35 +150,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldLength": 397
       }
     }
   },
   {
-    "Name": "Shanahan, Spencer and VonRueden",
-    "Description": "Operative hybrid data-warehouse",
+    "Name": "Schulist, Goyette and Bergnaum",
+    "Description": "Centralized fault-tolerant definition",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 326,
-        "Tooltip": "eius",
+        "Unrestricted": false,
+        "Total": 493,
+        "Tooltip": "sit",
         "CanAssign": false,
-        "Free": 589,
-        "InUse": 701,
+        "Free": 578,
+        "InUse": 323,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 367,
-        "Name": "Beier-Krajcik",
-        "Description": "Intuitive reciprocal local area network",
-        "PrerequisiteModuleName": "Steuber Inc and Sons",
-        "SortOrder": 214,
-        "ExtraFlags": 469,
+        "Assigned": true,
+        "ModuleLicenseId": 450,
+        "Name": "Haag Inc and Sons",
+        "Description": "Cross-platform static knowledge user",
+        "PrerequisiteModuleName": "Hermiston, Johnson and Schamberger",
+        "SortOrder": 302,
+        "ExtraFlags": 173,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 899
+            "FieldType": "System.String",
+            "FieldLength": 501
           }
         }
       }
@@ -187,25 +186,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 722,
-        "Tooltip": "voluptas",
-        "CanAssign": true,
-        "Free": 909,
-        "InUse": 282,
+        "Total": 167,
+        "Tooltip": "dignissimos",
+        "CanAssign": false,
+        "Free": 302,
+        "InUse": 205,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 963,
-        "Name": "Emmerich, Boyer and Strosin",
-        "Description": "Exclusive explicit challenge",
-        "PrerequisiteModuleName": "Kunde, Emmerich and Hagenes",
-        "SortOrder": 59,
-        "ExtraFlags": 750,
+        "Assigned": false,
+        "ModuleLicenseId": 611,
+        "Name": "Stanton LLC",
+        "Description": "Team-oriented client-driven capability",
+        "PrerequisiteModuleName": "Labadie, Koch and Rogahn",
+        "SortOrder": 860,
+        "ExtraFlags": 864,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 829
+            "FieldLength": 251
           }
         }
       }
@@ -215,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldLength": 397
       }
     }
   }

@@ -42,17 +42,16 @@ POST /api/v1/Agents/Dash/SaveDashTileHtmlList?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DashboardTileDefinitionId, Languages 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardTileDefinitionId | int32 |  |
-| Languages | array |  |
+| DashboardTileDefinitionId | Integer |  |
+| Languages | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,13 +59,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LanguageCode | string | Content language |
 | Html | string | HTML data |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,15 +78,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 781,
+  "DashboardTileDefinitionId": 952,
   "Languages": [
     {
       "LanguageCode": "nisi",
-      "Html": "maiores"
+      "Html": "atque"
     },
     {
       "LanguageCode": "nisi",
-      "Html": "maiores"
+      "Html": "atque"
     }
   ]
 }
@@ -101,26 +100,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "animi",
-    "Html": "necessitatibus",
+    "LanguageCode": "iure",
+    "Html": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 792
+        "FieldLength": 4
       }
     }
   },
   {
-    "LanguageCode": "animi",
-    "Html": "necessitatibus",
+    "LanguageCode": "iure",
+    "Html": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 792
+        "FieldLength": 4
       }
     }
   }

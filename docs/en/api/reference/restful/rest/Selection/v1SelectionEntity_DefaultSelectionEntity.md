@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,16 +42,16 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SelectionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| Associate |  | Owner of the selection |
-| CreatedBy |  | Who created the selection |
-| UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| Associate | Associate | Owner of the selection |
+| CreatedBy | Associate | Who created the selection |
+| UpdatedBy | Associate | Who last modified the selection |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -78,16 +78,16 @@ Response body:
 | ChartKey | string | ID/key of the last-used chart tile on this selection |
 | LastLoaded | date-time | The date/time this selection was last loaded (selectionentity fetched) |
 | LastLoadedBy | int32 | Who last loaded this selection |
-| LastLoadedByAssociate |  | Associate that last looked at the selection members; only date (not time) is valid |
+| LastLoadedByAssociate | Associate | Associate that last looked at the selection members; only date (not time) is valid |
 | LastMembershipChange | date-time | The date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm |
 | LastMembershipChangeBy | int32 | Who last changed the membership |
-| LastMembershipChangeByAssociate |  | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
+| LastMembershipChangeByAssociate | Associate | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
 | MainHeading | string | 'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references |
 | MemberTabHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references |
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -96,7 +96,7 @@ Response body:
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,73 +104,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 23 Jun 2013 02:49:51 G6T
+Last-Modified: Tue, 15 Jun 1999 17:37:39 G6T
 
 {
-  "Description": "Customizable zero tolerance middleware",
-  "Postit": "delectus",
+  "Description": "Assimilated responsive conglomeration",
+  "Postit": "eos",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 342,
-  "IncludePerson": 740,
-  "MemberCount": 551,
-  "Name": "Muller Inc and Sons",
-  "PostitTextId": 971,
-  "CreatedDate": "2014-02-24T02:49:51.505074+01:00",
-  "SelectionId": 990,
-  "SoundEx": "incidunt",
-  "Source": 531,
-  "TextId": 334,
-  "UpdatedDate": "2013-06-23T02:49:51.505074+02:00",
-  "UpdatedCount": 304,
-  "Visibility": 3,
+  "GroupIdx": 751,
+  "IncludePerson": 342,
+  "MemberCount": 340,
+  "Name": "Gaylord LLC",
+  "PostitTextId": 914,
+  "CreatedDate": "2012-05-06T17:37:39.1852752+02:00",
+  "SelectionId": 295,
+  "SoundEx": "provident",
+  "Source": 803,
+  "TextId": 845,
+  "UpdatedDate": "1999-06-15T17:37:39.1852752+02:00",
+  "UpdatedCount": 585,
+  "Visibility": 668,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 639,
-  "TargetTableName": "Towne-Littel",
-  "Completed": false,
-  "LeftSelectionId": 876,
-  "RightSelectionId": 195,
+  "CompanyUnique": false,
+  "TargetTableNumber": 262,
+  "TargetTableName": "West LLC",
+  "Completed": true,
+  "LeftSelectionId": 514,
+  "RightSelectionId": 863,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Cummings-Rippin",
-  "ShadowProviderName": "Breitenberg, Schuster and Kris",
+  "MainProviderName": "Upton-Friesen",
+  "ShadowProviderName": "Gleason Group",
   "ChartKey": "voluptas",
-  "LastLoaded": "2018-08-14T02:49:51.505074+02:00",
-  "LastLoadedBy": 66,
+  "LastLoaded": "2011-09-30T17:37:39.1863037+02:00",
+  "LastLoadedBy": 744,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-09-02T02:49:51.505074+02:00",
-  "LastMembershipChangeBy": 86,
+  "LastMembershipChange": "2012-05-07T17:37:39.1863037+02:00",
+  "LastMembershipChangeBy": 618,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "id",
-  "MemberTabHeading": "sequi",
-  "MailingsProviderName": "Larkin Inc and Sons",
-  "DashboardTileDefinitionId": 182,
+  "MainHeading": "eos",
+  "MemberTabHeading": "quisquam",
+  "MailingsProviderName": "Lueilwitz, Bernier and Boyer",
+  "DashboardTileDefinitionId": 308,
   "VisibleFor": [
     {
-      "VisibleId": 957,
+      "VisibleId": 921,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldType": "System.Int32",
+          "FieldLength": 956
         }
       }
     },
     {
-      "VisibleId": 957,
+      "VisibleId": 921,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldType": "System.Int32",
+          "FieldLength": 956
         }
       }
     }
@@ -179,8 +179,8 @@ Last-Modified: Sun, 23 Jun 2013 02:49:51 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 773
+      "FieldType": "System.Int32",
+      "FieldLength": 715
     }
   }
 }

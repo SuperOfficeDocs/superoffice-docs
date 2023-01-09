@@ -47,25 +47,24 @@ POST /api/v1/TriggerScript?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The TriggerScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ScreenChooserId | int32 | Primary key |
-| Name | string | Optional description of what this script is used for. |
-| ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
-| Enabled | bool | Whether this screen chooser is enabled or not |
-| UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMscript code for this event handler |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
+| ScreenChooserId | Integer | Primary key |
+| Name | String | Optional description of what this script is used for. |
+| ScreenType | String | Event id that triggers script.  See EventHandlerType enum. |
+| Enabled | Boolean | Whether this screen chooser is enabled or not |
+| UniqueIdentifier | String | Global unique identifier, accross customers/tenants |
+| Source | String | The CRMscript code for this event handler |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -73,7 +72,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TriggerScriptEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,7 +86,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -97,20 +96,20 @@ Response body:
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 397,
-  "Name": "Keebler, Cummerata and Hettinger",
+  "ScreenChooserId": 301,
+  "Name": "Aufderhar Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "magni",
-  "Source": "et",
-  "Registered": "2009-01-06T02:49:51.6710218+01:00",
-  "RegisteredAssociateId": 576,
-  "Updated": "2014-06-10T02:49:51.6710218+02:00",
-  "UpdatedAssociateId": 263
+  "UniqueIdentifier": "quia",
+  "Source": "libero",
+  "Registered": "2019-05-30T17:37:39.3894254+02:00",
+  "RegisteredAssociateId": 769,
+  "Updated": "2007-08-17T17:37:39.3894254+02:00",
+  "UpdatedAssociateId": 88
 }
 ```
 
@@ -121,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 218,
-  "Name": "Ruecker-Deckow",
+  "ScreenChooserId": 164,
+  "Name": "Tillman Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "est",
-  "Source": "quibusdam",
-  "Registered": "2022-11-05T02:49:51.6710218+01:00",
-  "RegisteredAssociateId": 582,
-  "Updated": "2017-11-20T02:49:51.6710218+01:00",
-  "UpdatedAssociateId": 710,
+  "UniqueIdentifier": "dolores",
+  "Source": "inventore",
+  "Registered": "2021-01-09T17:37:39.3904307+01:00",
+  "RegisteredAssociateId": 642,
+  "Updated": "2019-01-06T17:37:39.3904307+01:00",
+  "UpdatedAssociateId": 2,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 525
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

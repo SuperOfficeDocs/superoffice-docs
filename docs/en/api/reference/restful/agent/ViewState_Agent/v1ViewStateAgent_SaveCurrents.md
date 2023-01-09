@@ -44,16 +44,15 @@ POST /api/v1/Agents/ViewState/SaveCurrents?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Currents 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Currents | array |  |
+| Currents | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body: array
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,19 +80,19 @@ Response body: array
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 555,
-      "Id": 524,
-      "HistoryName": "Orn-Hermiston",
-      "HistoryId": 708,
-      "AssociateId": 456,
-      "Name": "Boyer Inc and Sons",
-      "ItemInfo": "illo"
+      "Rank": 939,
+      "Id": 993,
+      "HistoryName": "Hermiston Inc and Sons",
+      "HistoryId": 13,
+      "AssociateId": 974,
+      "Name": "Kub, Stoltenberg and Hartmann",
+      "ItemInfo": "rerum"
     }
   ]
 }
@@ -107,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 547,
-    "Id": 421,
-    "HistoryName": "Torp-Jerde",
-    "HistoryId": 35,
-    "AssociateId": 419,
-    "Name": "King-Bernier",
-    "ItemInfo": "aut",
+    "Rank": 48,
+    "Id": 883,
+    "HistoryName": "Dooley-Cronin",
+    "HistoryId": 13,
+    "AssociateId": 442,
+    "Name": "Sanford-Mann",
+    "ItemInfo": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldType": "System.String",
+        "FieldLength": 526
       }
     }
   }

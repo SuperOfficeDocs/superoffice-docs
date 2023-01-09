@@ -42,18 +42,17 @@ POST /api/v1/Agents/Dashboard/SetTile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DashboardId, TileId, Position 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardId | int32 |  |
-| TileId | int32 |  |
-| Position | int32 |  |
+| DashboardId | Integer |  |
+| TileId | Integer |  |
+| Position | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Dashboard
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body:
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,13 +78,13 @@ Response body:
 POST /api/v1/Agents/Dashboard/SetTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 384,
-  "TileId": 282,
-  "Position": 990
+  "DashboardId": 714,
+  "TileId": 693,
+  "Position": 171
 }
 ```
 
@@ -96,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 187,
-  "AssociateId": 430,
-  "Caption": "eos",
+  "DashboardId": 559,
+  "AssociateId": 433,
+  "Caption": "officiis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 809,
-      "Caption": "sequi",
-      "Description": "Persevering didactic collaboration",
-      "ChartName": "King Inc and Sons",
-      "ChartId": "aut",
+      "DashboardTileId": 554,
+      "Caption": "quisquam",
+      "Description": "Persistent zero defect challenge",
+      "ChartName": "Von, Johnston and Rath",
+      "ChartId": "eligendi",
       "IsDefault": false,
-      "AssociateId": 735,
-      "GroupId": 150,
-      "SelectionId": 609,
-      "Config": "dignissimos",
+      "AssociateId": 180,
+      "GroupId": 315,
+      "SelectionId": 983,
+      "Config": "necessitatibus",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -127,7 +126,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldLength": 534
         }
       }
     }
@@ -137,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 89
     }
   }
 }

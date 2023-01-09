@@ -42,17 +42,16 @@ POST /api/v1/Agents/Audience/SaveConfigParameter?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 LayoutName, ConfigParameter 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| LayoutName | string |  |
-| ConfigParameter |  | An Audience configuration parameter, used for handling Audience application or Web part settings. <para /> Carrier object for AudienceConfigParameter. Services for the AudienceConfigParameter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>. |
+| LayoutName | String |  |
+| ConfigParameter | AudienceConfigParameter | An Audience configuration parameter, used for handling Audience application or Web part settings. <para /> Carrier object for AudienceConfigParameter. Services for the AudienceConfigParameter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AudienceConfigParameter
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body:
 | UpdatedDate | date-time | The date and time the configuration parameter was last updated  in UTC. |
 | CreatedBy | string | Name of the person that created the configuration parameter |
 | UpdatedBy | string | Name of the person that last updated the configuration parameter |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,11 +79,11 @@ Response body:
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Tremblay, Runolfsdottir and Daugherty",
+  "LayoutName": "Aufderhar-Hahn",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 573,
-  "Name": "Pfannerstill, Swaniawski and Heaney",
-  "Value": "velit",
-  "CreatedDate": "1996-12-21T02:49:43.6847821+01:00",
-  "UpdatedDate": "2007-12-15T02:49:43.6847821+01:00",
-  "CreatedBy": "deserunt",
-  "UpdatedBy": "illum",
+  "AudienceLayoutId": 169,
+  "Name": "Mohr LLC",
+  "Value": "rerum",
+  "CreatedDate": "2012-04-21T17:37:16.8812422+02:00",
+  "UpdatedDate": "1996-01-06T17:37:16.8812422+01:00",
+  "CreatedBy": "a",
+  "UpdatedBy": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldType": "System.String",
+      "FieldLength": 335
     }
   }
 }

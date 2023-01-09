@@ -42,19 +42,18 @@ POST /api/v1/Agents/Document/SaveDocumentTemplateStream?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentTemplateId, Content, LanguageCode, PluginId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentTemplateId | int32 |  |
-| Content | byte |  |
-| LanguageCode | string |  |
-| PluginId | int32 |  |
+| DocumentTemplateId | Integer |  |
+| Content | String |  |
+| LanguageCode | String |  |
+| PluginId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,14 +77,14 @@ Response body:
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 934,
+  "DocumentTemplateId": 140,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "veritatis",
-  "PluginId": 4
+  "LanguageCode": "vero",
+  "PluginId": 956
 }
 ```
 
@@ -96,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Grady, Hintz and O'Conner",
-  "Description": "Quality-focused incremental matrix",
-  "ExternalReference": "iste",
-  "MimeType": "eos",
-  "PluginId": 318
+  "Name": "Hessel, Dach and Schumm",
+  "Description": "Persistent methodical definition",
+  "ExternalReference": "ut",
+  "MimeType": "quae",
+  "PluginId": 854
 }
 ```

@@ -42,13 +42,12 @@ POST /api/v1/Agents/List/GetLinkList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: linkIds  
+## Request Body: linkIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +64,7 @@ Response body: array
 | Description | string | Link description. |
 | ExtraInfo | string | Extrainfo for link. Use for information that does not have a primary key |
 | LinkId | int32 | Primary key |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +73,7 @@ Response body: array
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Armstrong-Runolfsson",
-    "Id": 133,
-    "Description": "Fully-configurable reciprocal middleware",
-    "ExtraInfo": "sed",
-    "LinkId": 140,
+    "EntityName": "Hagenes, Ankunding and McKenzie",
+    "Id": 612,
+    "Description": "Compatible responsive intranet",
+    "ExtraInfo": "necessitatibus",
+    "LinkId": 395,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 855
       }
     }
   }

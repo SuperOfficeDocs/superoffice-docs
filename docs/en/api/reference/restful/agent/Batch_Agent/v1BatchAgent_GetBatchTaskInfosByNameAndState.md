@@ -42,17 +42,16 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name, State 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| State | string |  |
+| Name | String |  |
+| State | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +84,7 @@ Response body: array
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,11 +93,11 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hoppe-Rosenbaum",
+  "Name": "Turcotte, Funk and Satterfield",
   "State": "All"
 }
 ```
@@ -111,36 +110,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 261,
-    "Name": "Moen-Jacobson",
-    "AssociateId": 281,
-    "DetailsTable": 835,
-    "DetailsRecord": 108,
+    "Id": 790,
+    "Name": "Dibbert-Zulauf",
+    "AssociateId": 218,
+    "DetailsTable": 380,
+    "DetailsRecord": 821,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "id"
+      "ParameterObject1": "facere",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "2021-02-25T02:49:43.7004017+01:00",
-    "Created": "2006-05-11T02:49:43.7004017+02:00",
-    "StartCount": 145,
-    "DatabaseSerialNumber": "955658",
-    "Context": "et",
-    "Result": "aliquid",
+    "LastStarted": "2017-04-10T17:37:16.9012407+02:00",
+    "Created": "2004-10-30T17:37:16.9012407+02:00",
+    "StartCount": 717,
+    "DatabaseSerialNumber": "1334588",
+    "Context": "officiis",
+    "Result": "nemo",
     "State": "All",
-    "Description": "Proactive zero tolerance software",
-    "Response": "aut",
-    "Request": "iure",
-    "ProgressDescription": "Reverse-engineered background hub",
-    "ProgressPercent": 568,
-    "FileName": "Spencer-Langosh",
+    "Description": "Future-proofed systemic functionalities",
+    "Response": "accusantium",
+    "Request": "corporis",
+    "ProgressDescription": "Cross-group transitional definition",
+    "ProgressPercent": 816,
+    "FileName": "Mraz-Kassulke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 255
+        "FieldType": "System.Int32",
+        "FieldLength": 18
       }
     }
   }

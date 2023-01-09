@@ -34,7 +34,7 @@ May be different from the published version.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +80,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 173,
-    "ColumnId": 916,
-    "FieldDefault": "tenetur",
-    "FieldHeight": 773,
-    "FieldLabel": "suscipit",
-    "FieldLeft": 879,
-    "FieldTop": 145,
+    "UDefFieldId": 755,
+    "ColumnId": 202,
+    "FieldDefault": "porro",
+    "FieldHeight": 495,
+    "FieldLabel": "voluptas",
+    "FieldLeft": 603,
+    "FieldTop": 558,
     "FieldType": "Checkbox",
-    "FieldWidth": 163,
-    "FormatMask": "laborum",
-    "HideLabel": true,
+    "FieldWidth": 271,
+    "FormatMask": "deleniti",
+    "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 39,
-    "LabelLeft": 415,
-    "LabelTop": 11,
-    "LabelWidth": 663,
-    "LastVersionId": 341,
-    "ListTableId": 920,
-    "IsMandatory": true,
+    "LabelHeight": 454,
+    "LabelLeft": 575,
+    "LabelTop": 264,
+    "LabelWidth": 429,
+    "LastVersionId": 978,
+    "ListTableId": 982,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 593,
-    "ProgId": "tempora",
+    "Page1LineNo": 11,
+    "ProgId": "consequuntur",
     "IsReadOnly": false,
-    "ShortLabel": "libero",
-    "TabOrder": 105,
-    "TextLength": 325,
-    "Tooltip": "totam",
-    "UdefIdentity": 466,
-    "UDListDefinitionId": 396,
+    "ShortLabel": "esse",
+    "TabOrder": 351,
+    "TextLength": 803,
+    "Tooltip": "consectetur",
+    "UdefIdentity": 568,
+    "UDListDefinitionId": 119,
     "Justification": "Center",
-    "Version": 693,
-    "TemplateVariableName": "Kris, Will and Huels",
+    "Version": 197,
+    "TemplateVariableName": "Huel LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Turcotte-Auer",
+    "MdoListName": "Dickens-Abbott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 491
+        "FieldType": "System.Int32",
+        "FieldLength": 746
       }
     }
   }

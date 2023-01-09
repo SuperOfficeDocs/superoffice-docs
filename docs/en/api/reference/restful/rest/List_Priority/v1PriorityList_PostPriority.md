@@ -32,21 +32,20 @@ Add a new Priority to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem  
+## Request Body: newListItem 
 
 The Priority to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The identity of the list item |
-| Name | string | The name of the list item |
-| Tooltip | string | The tooltip of the list item |
-| Deleted | bool | True if the list item is marked as deleted |
-| UdListDefinitionId | int32 | The id of the list which this list item belongs to |
-| Rank | int32 | The rank of the list item |
+| Id | Integer | The identity of the list item |
+| Name | String | The name of the list item |
+| Tooltip | String | The tooltip of the list item |
+| Deleted | Boolean | True if the list item is marked as deleted |
+| UdListDefinitionId | Integer | The id of the list which this list item belongs to |
+| Rank | Integer | The rank of the list item |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -54,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ListItemEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +63,7 @@ Response body:
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,16 +72,16 @@ Response body:
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 33,
-  "Name": "Blanda-Pfannerstill",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 833,
-  "Rank": 687
+  "Id": 136,
+  "Name": "Bruen, Keeling and Dickens",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "UdListDefinitionId": 662,
+  "Rank": 266
 }
 ```
 
@@ -93,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 718,
-  "Name": "Jerde, Wiegand and Christiansen",
-  "Tooltip": "non",
+  "Id": 151,
+  "Name": "Bernier Inc and Sons",
+  "Tooltip": "natus",
   "Deleted": false,
-  "UdListDefinitionId": 67,
-  "Rank": 889,
+  "UdListDefinitionId": 724,
+  "Rank": 131,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 42
+      "FieldLength": 75
     }
   }
 }

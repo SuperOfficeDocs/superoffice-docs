@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/SendEMails
 Send the provided e-mails
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,18 +44,17 @@ POST /api/v1/Agents/EMail/SendEMails?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 OutgoingConnectionInfo, Emails, SentItemsConnectionInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OutgoingConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-| Emails | array |  |
-| SentItemsConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| OutgoingConnectionInfo | EMailConnectionInfo | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| Emails | Array |  |
+| SentItemsConnectionInfo | EMailConnectionInfo | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +71,7 @@ Response body: array
 | Bcc | array | Bcc recipient of e-mail |
 | Subject | string | Subject of the e-mail |
 | HTMLBody | string | Body formatted in HTML |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | Sent | date-time | When was the e-mail sent |
 | Size | int32 | Total size of the e-mail |
 | Priority | string | Importance of the e-mail |
@@ -82,7 +79,7 @@ Response body: array
 | MessageID | string | Unique id of e-mails |
 | PlainBody | string | Body formatted in plain text |
 | IsSent | bool | Is this a sent e-mail (not new) |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
 | ServerId | int32 | Unique id for the e-mail on the server |
 | Attachments | array |  |
 | CustomHeaderList | array | Non standard e-mail headers |
@@ -90,12 +87,12 @@ Response body: array
 | EmailItemId | int32 | Primary key |
 | AccountId | int32 | Account Id |
 | ReceivedAt | date-time | Received date time |
-| InReplyTo |  | The envelope of the email this email is a reply to, if it exists |
+| InReplyTo | EMailEnvelope | The envelope of the email this email is a reply to, if it exists |
 | RepliedAt | date-time | When this email was replied at |
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -123,18 +120,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "dicta",
-      "HTMLBody": "aut",
+      "Subject": "occaecati",
+      "HTMLBody": "voluptatum",
       "From": null,
-      "Sent": "2017-11-29T02:49:44.4347885+01:00",
-      "Size": 962,
+      "Sent": "2001-01-10T17:37:17.9472406+01:00",
+      "Size": 391,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "reprehenderit",
-      "PlainBody": "consectetur",
-      "IsSent": false,
+      "MessageID": "tempore",
+      "PlainBody": "nobis",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 16,
+      "ServerId": 406,
       "Attachments": [
         {},
         {}
@@ -143,12 +140,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Blanda LLC",
-      "EmailItemId": 362,
-      "AccountId": 717,
-      "ReceivedAt": "2011-09-08T02:49:44.4347885+02:00",
+      "FolderName": "Stehr-Kertzmann",
+      "EmailItemId": 526,
+      "AccountId": 483,
+      "ReceivedAt": "2005-08-03T17:37:17.9472406+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2005-11-12T02:49:44.4347885+01:00",
+      "RepliedAt": "2003-03-24T17:37:17.9472406+01:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -168,147 +165,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 241,
-        "ContactName": "Kris-Conn",
-        "PersonId": 268,
-        "PersonName": "Pfannerstill LLC",
-        "AssociateId": 768,
-        "Address": "eum",
-        "EmailId": 123,
+        "ContactId": 443,
+        "ContactName": "Sauer Inc and Sons",
+        "PersonId": 681,
+        "PersonName": "Waelchi, Bosco and Willms",
+        "AssociateId": 910,
+        "Address": "quibusdam",
+        "EmailId": 970,
         "DuplicatePersonIds": [
-          292,
-          323
+          709,
+          589
         ],
-        "Name": "Little, Buckridge and Tillman",
+        "Name": "Torphy-Hoeger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 980
+            "FieldType": "System.Int32",
+            "FieldLength": 925
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 939,
-        "ContactName": "Price-Wilderman",
-        "PersonId": 993,
-        "PersonName": "Vandervort Group",
-        "AssociateId": 905,
-        "Address": "rerum",
-        "EmailId": 709,
+        "ContactId": 355,
+        "ContactName": "Nitzsche Group",
+        "PersonId": 97,
+        "PersonName": "Cartwright, Swift and Jerde",
+        "AssociateId": 325,
+        "Address": "fugit",
+        "EmailId": 949,
         "DuplicatePersonIds": [
-          738,
-          190
+          722,
+          134
         ],
-        "Name": "Hansen-Murazik",
+        "Name": "Bergstrom, Welch and Schamberger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldType": "System.String",
+            "FieldLength": 340
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 670,
-        "ContactName": "Osinski, Brown and Schmitt",
-        "PersonId": 993,
-        "PersonName": "Raynor Group",
-        "AssociateId": 380,
-        "Address": "et",
-        "EmailId": 800,
+        "ContactId": 642,
+        "ContactName": "Toy LLC",
+        "PersonId": 379,
+        "PersonName": "Runolfsson, Dietrich and Deckow",
+        "AssociateId": 266,
+        "Address": "nihil",
+        "EmailId": 277,
         "DuplicatePersonIds": [
-          82,
-          424
+          651,
+          532
         ],
-        "Name": "Dickinson-Simonis",
+        "Name": "Mann, Corwin and Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 200
+            "FieldLength": 550
           }
         }
       }
     ],
-    "Subject": "omnis",
-    "HTMLBody": "officia",
+    "Subject": "consequatur",
+    "HTMLBody": "tempore",
     "From": null,
-    "Sent": "2012-12-08T02:49:44.4347885+01:00",
-    "Size": 47,
+    "Sent": "1999-03-08T17:37:17.9492415+01:00",
+    "Size": 425,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "ad",
-    "PlainBody": "aut",
+    "MessageID": "ipsum",
+    "PlainBody": "inventore",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 249,
+    "ServerId": 940,
     "Attachments": [
       {
-        "Description": "Multi-tiered cohesive parallelism",
-        "Filename": "culpa",
-        "Size": 267,
-        "Type": "provident",
-        "Encoding": "et",
-        "Id": "aut",
-        "Disposition": "voluptatum",
+        "Description": "Open-architected 3rd generation internet solution",
+        "Filename": "eius",
+        "Size": 381,
+        "Type": "accusantium",
+        "Encoding": "consectetur",
+        "Id": "sapiente",
+        "Disposition": "optio",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 964
+            "FieldType": "System.Int32",
+            "FieldLength": 620
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Smitham, Parker and Schmeler",
+        "Name": "Goyette-Lemke",
         "Values": [
-          "dolorum",
-          "libero"
+          "dicta",
+          "amet"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 293
+            "FieldType": "System.String",
+            "FieldLength": 158
           }
         }
       },
       {
-        "Name": "Smitham, Parker and Schmeler",
+        "Name": "Goyette-Lemke",
         "Values": [
-          "dolorum",
-          "libero"
+          "dicta",
+          "amet"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 293
+            "FieldType": "System.String",
+            "FieldLength": 158
           }
         }
       }
     ],
-    "FolderName": "Sporer-McKenzie",
-    "EmailItemId": 133,
-    "AccountId": 804,
-    "ReceivedAt": "2004-12-01T02:49:44.4347885+01:00",
+    "FolderName": "Stanton Group",
+    "EmailItemId": 184,
+    "AccountId": 305,
+    "ReceivedAt": "1996-04-12T17:37:17.9502413+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2014-06-03T02:49:44.4347885+02:00",
-    "HasCalendarData": true,
+    "RepliedAt": "2002-04-01T17:37:17.9502413+02:00",
+    "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -316,7 +313,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldLength": 894
       }
     }
   }

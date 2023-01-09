@@ -38,7 +38,7 @@ Excludes standard fields.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FieldInfoBase
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Murphy, Rau and Wunsch",
-  "DisplayName": "Krajcik-Paucek",
-  "Description": "Seamless maximized conglomeration",
-  "ShortLabel": "mollitia",
+  "FieldName": "Bernhard, Yundt and Emard",
+  "DisplayName": "DuBuque Inc and Sons",
+  "Description": "Streamlined modular extranet",
+  "ShortLabel": "officiis",
   "HideLabel": true,
   "HideField": false,
-  "IsIndexed": true,
+  "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 823,
-  "TemplateVariableName": "Cronin LLC"
+  "Rank": 961,
+  "TemplateVariableName": "Swift-Wunsch"
 }
 ```

@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreferenceDescription
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +64,7 @@ Response body:
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,7 +73,7 @@ Response body:
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 167,
-  "Section": "odit",
-  "Key": "animi",
-  "Name": "McDermott, Haley and Labadie",
+  "PrefDescId": 606,
+  "Section": "recusandae",
+  "Key": "dolores",
+  "Name": "McLaughlin, Fahey and O'Reilly",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Vision-oriented clear-thinking local area network",
+  "Description": "Persevering stable superstructure",
   "IsBuiltin": false,
-  "TableName": "Beer-Weissnat",
-  "UserDefinedListId": 858,
-  "Rank": 345,
-  "SubGroup": "ullam",
-  "MinLevel": 844,
-  "MaxValue": 442,
-  "MinValue": 518,
-  "RequiredLicense": "mollitia",
+  "TableName": "Pollich, Glover and Hessel",
+  "UserDefinedListId": 884,
+  "Rank": 159,
+  "SubGroup": "temporibus",
+  "MinLevel": 583,
+  "MaxValue": 181,
+  "MinValue": 620,
+  "RequiredLicense": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldType": "System.String",
+      "FieldLength": 769
     }
   }
 }

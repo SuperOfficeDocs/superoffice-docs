@@ -34,7 +34,7 @@ Excludes standard fields.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +66,7 @@ Response body: array
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Cormier-Leuschke",
-    "DisplayName": "Beatty, West and Raynor",
-    "Description": "Enhanced holistic infrastructure",
-    "ShortLabel": "eius",
+    "FieldName": "Swift Inc and Sons",
+    "DisplayName": "Roob-Parisian",
+    "Description": "Vision-oriented human-resource contingency",
+    "ShortLabel": "laboriosam",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 280,
-    "TemplateVariableName": "Howe, Murray and Huels"
+    "IsMandatory": false,
+    "IsReadOnly": false,
+    "IsExternal": true,
+    "Rank": 733,
+    "TemplateVariableName": "Frami Group"
   }
 ]
 ```

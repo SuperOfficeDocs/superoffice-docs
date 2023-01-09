@@ -42,20 +42,19 @@ POST /api/v1/Agents/Find/SaveRestrictionGroups?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, RestrictionGroups, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| RestrictionGroups | array |  |
-| Context | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| RestrictionGroups | Array |  |
+| Context | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,34 +77,34 @@ Response body: array
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolore",
-  "ProviderName": "Yost Group",
-  "StorageKey": "veniam",
+  "StorageType": "doloribus",
+  "ProviderName": "Trantow, Emmerich and Heaney",
+  "StorageKey": "cum",
   "RestrictionGroups": [
     {
-      "Name": "Kozey-Stroman",
-      "Description": "Future-proofed static functionalities",
-      "Rank": 607,
+      "Name": "Deckow, Larkin and Ruecker",
+      "Description": "Centralized explicit data-warehouse",
+      "Rank": 329,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kozey-Stroman",
-      "Description": "Future-proofed static functionalities",
-      "Rank": 607,
+      "Name": "Deckow, Larkin and Ruecker",
+      "Description": "Centralized explicit data-warehouse",
+      "Rank": 329,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "fugit"
+  "Context": "consectetur"
 }
 ```
 
@@ -117,58 +116,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wolff-Corkery",
-    "Description": "Cloned eco-centric process improvement",
-    "Rank": 715,
+    "Name": "Gusikowski-Kris",
+    "Description": "Innovative intermediate policy",
+    "Rank": 222,
     "Restrictions": [
       {
-        "Name": "Hamill-Konopelski",
-        "Operator": "reiciendis",
+        "Name": "Reinger, Lindgren and Armstrong",
+        "Operator": "eius",
         "Values": [
-          "voluptatum",
-          "ratione"
+          "ea",
+          "corrupti"
         ],
         "DisplayValues": [
-          "veritatis",
-          "et"
+          "aut",
+          "qui"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 863,
+        "InterParenthesis": 416,
         "InterOperator": "And",
-        "UniqueHash": 407
+        "UniqueHash": 756
       }
     ]
   },
   {
-    "Name": "Wolff-Corkery",
-    "Description": "Cloned eco-centric process improvement",
-    "Rank": 715,
+    "Name": "Gusikowski-Kris",
+    "Description": "Innovative intermediate policy",
+    "Rank": 222,
     "Restrictions": [
       {
-        "Name": "Hamill-Konopelski",
-        "Operator": "reiciendis",
+        "Name": "Reinger, Lindgren and Armstrong",
+        "Operator": "eius",
         "Values": [
-          "voluptatum",
-          "ratione"
+          "ea",
+          "corrupti"
         ],
         "DisplayValues": [
-          "veritatis",
-          "et"
+          "aut",
+          "qui"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 863,
+        "InterParenthesis": 416,
         "InterOperator": "And",
-        "UniqueHash": 407
+        "UniqueHash": 756
       }
     ]
   }

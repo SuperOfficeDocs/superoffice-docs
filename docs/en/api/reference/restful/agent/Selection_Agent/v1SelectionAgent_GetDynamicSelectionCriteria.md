@@ -42,16 +42,15 @@ POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
+| SelectionId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +66,7 @@ Response body: array
 | Operator | string |  |
 | Values | array |  |
 | DisplayValues | array |  |
-| ColumnInfo |  |  |
+| ColumnInfo | TableRight |  |
 | IsActive | bool |  |
 | SubRestrictions | array |  |
 | InterParenthesis | int32 |  |
@@ -80,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 703
+  "SelectionId": 844
 }
 ```
 
@@ -96,44 +95,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Keeling Inc and Sons",
-    "Operator": "eum",
+    "Name": "Wyman-Daniel",
+    "Operator": "voluptates",
     "Values": [
-      "animi",
-      "occaecati"
+      "et",
+      "facere"
     ],
     "DisplayValues": [
-      "voluptatem",
-      "error"
+      "excepturi",
+      "natus"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Lindgren-Abshire",
-        "Operator": "consequatur",
+        "Name": "Dibbert LLC",
+        "Operator": "laboriosam",
         "Values": [
-          "minus",
-          "asperiores"
+          "quia",
+          "saepe"
         ],
         "DisplayValues": [
-          "qui",
-          "amet"
+          "quisquam",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 289,
+        "InterParenthesis": 808,
         "InterOperator": "And",
-        "UniqueHash": 615
+        "UniqueHash": 869
       }
     ],
-    "InterParenthesis": 202,
+    "InterParenthesis": 122,
     "InterOperator": "And",
-    "UniqueHash": 862
+    "UniqueHash": 839
   }
 ]
 ```

@@ -42,13 +42,12 @@ POST /api/v1/Agents/Contact/GetContactList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: contactIds  
+## Request Body: contactIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,12 +76,14 @@ Response body: array
 | BusinessName | string | The business list item name |
 | CategoryName | string | The category list item name |
 | CountryName | string | Name of country in installed language |
-| Address |  | Contact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
+| Address | Address | Contact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
 | FormattedAddress | string | The contact's address, formatted with linebreaks and spaces into a single string. |
 | FullName | string |  |
 | IsOwnerContact | bool | Is the contact an owner contact.  This means that all persons on this contact can on only be internal users and not external users. |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| Number1 | string | Alphanumeric user field |
+| Number2 | string | Alphanumeric user field |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,34 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 6,
-    "Name": "Ryan-Heller",
-    "OrgNr": "692428",
+    "ContactId": 127,
+    "Name": "Sporer, Cartwright and Franecki",
+    "OrgNr": "1289446",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "odit",
-    "DirectPhone": "449-765-9442",
-    "AssociateId": 149,
-    "CountryId": 323,
-    "EmailAddress": "abby.hermiston@waelchi.name",
-    "Kananame": "ab",
-    "EmailAddressName": "mozelle@lindgren.us",
+    "City": "saepe",
+    "DirectPhone": "226.448.4513",
+    "AssociateId": 503,
+    "CountryId": 115,
+    "EmailAddress": "sylvia@heathcote.biz",
+    "Kananame": "ut",
+    "EmailAddressName": "kara_ferry@willms.info",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Halle Collier",
+    "AssociateFullName": "Mrs. Alverta Stoltenberg IV",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "consequatur",
-    "FullName": "Miss Laurianne Alexzander Padberg Jr.",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 381,
+    "FormattedAddress": "qui",
+    "FullName": "Hermina Daniel",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 856,
+    "Number1": "917775",
+    "Number2": "828993",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 548
+        "FieldType": "System.Int32",
+        "FieldLength": 997
       }
     }
   }

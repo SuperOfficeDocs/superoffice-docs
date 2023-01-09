@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/GetListItemsForHeadingFromListName?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionName, HeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionName | string |  |
-| HeadingId | int32 |  |
+| UdListDefinitionName | String |  |
+| HeadingId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,12 +87,12 @@ Response body: array
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Buckridge-Toy",
-  "HeadingId": 439
+  "UdListDefinitionName": "Klocko Inc and Sons",
+  "HeadingId": 18
 }
 ```
 
@@ -105,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 11,
-    "Name": "West, Kuhlman and Maggio",
-    "ToolTip": "Similique quam modi qui voluptatem nesciunt natus consectetur.",
+    "Id": 46,
+    "Name": "O'Hara Inc and Sons",
+    "ToolTip": "Velit similique ut et voluptas blanditiis dolore.",
     "Deleted": false,
-    "Rank": 838,
-    "Type": "sint",
-    "ColorBlock": 54,
-    "IconHint": "sint",
+    "Rank": 408,
+    "Type": "quam",
+    "ColorBlock": 890,
+    "IconHint": "rem",
     "Selected": false,
-    "LastChanged": "2001-06-27T02:49:44.639171+02:00",
+    "LastChanged": "2012-07-06T17:37:18.2152437+02:00",
     "ChildItems": [
       {
-        "Id": 505,
-        "Name": "Braun, Hansen and Kulas",
-        "ToolTip": "Omnis dolorem sunt quis illum.",
-        "Deleted": false,
-        "Rank": 427,
-        "Type": "natus",
-        "ColorBlock": 357,
-        "IconHint": "praesentium",
-        "Selected": false,
-        "LastChanged": "2020-06-01T02:49:44.639171+02:00",
+        "Id": 94,
+        "Name": "Hintz-Wunsch",
+        "ToolTip": "Sequi voluptatum voluptate qui harum ea qui.",
+        "Deleted": true,
+        "Rank": 722,
+        "Type": "quisquam",
+        "ColorBlock": 277,
+        "IconHint": "ex",
+        "Selected": true,
+        "LastChanged": "2007-08-23T17:37:18.2152437+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Johnson Wisoky",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Dallin Schuster",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 44
+            "FieldLength": 618
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "occaecati",
-    "Hidden": true,
-    "FullName": "Christ Carroll",
+    "ExtraInfo": "iste",
+    "StyleHint": "eligendi",
+    "Hidden": false,
+    "FullName": "Georgianna McKenzie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 958
+        "FieldType": "System.String",
+        "FieldLength": 523
       }
     }
   }

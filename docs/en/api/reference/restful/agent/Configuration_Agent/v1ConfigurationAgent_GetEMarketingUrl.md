@@ -42,16 +42,15 @@ POST /api/v1/Agents/Configuration/GetEMarketingUrl?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Language 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Language | string |  |
+| Language | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -68,11 +67,11 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetEMarketingUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "amet"
+  "Language": "debitis"
 }
 ```
 

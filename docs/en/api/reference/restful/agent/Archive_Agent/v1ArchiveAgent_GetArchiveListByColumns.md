@@ -12,7 +12,6 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Get a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns.
 
 
-
 Archive Restriction Info objects represent search terms.
 
 
@@ -32,13 +31,6 @@ Default string encodings should be handled ok, but beware of non-invariant cultu
 var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
-
-
-
-
-
-
-
 
 
 
@@ -70,22 +62,21 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumns?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Columns | array |  |
-| SortOrder | array |  |
-| Restriction | array |  |
-| Entities | array |  |
-| Page | int32 |  |
-| PageSize | int32 |  |
+| ProviderName | String |  |
+| Columns | Array |  |
+| SortOrder | Array |  |
+| Restriction | Array |  |
+| Entities | Array |  |
+| Page | Integer |  |
+| PageSize | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -93,7 +84,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,7 +93,7 @@ Response body: array
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -111,36 +102,36 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Waters-Leffler",
+  "ProviderName": "Price, Hoeger and Bruen",
   "Columns": [
-    "amet",
-    "quo"
+    "pariatur",
+    "tempore"
   ],
   "SortOrder": [
     {
-      "Name": "Ferry, Leffler and O'Keefe",
+      "Name": "Heathcote-Howell",
       "Direction": "ASC"
     },
     {
-      "Name": "Ferry, Leffler and O'Keefe",
+      "Name": "Heathcote-Howell",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Johnson, Maggio and Braun",
-      "Operator": "in",
+      "Name": "Kemmer, Johnston and Sawayn",
+      "Operator": "eius",
       "Values": [
-        "pariatur",
-        "quod"
+        "enim",
+        "doloribus"
       ],
       "DisplayValues": [
-        "eos",
-        "architecto"
+        "laudantium",
+        "sit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -148,17 +139,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 542,
+      "InterParenthesis": 978,
       "InterOperator": "And",
-      "UniqueHash": 147
+      "UniqueHash": 695
     }
   ],
   "Entities": [
-    "porro",
-    "quia"
+    "repellendus",
+    "in"
   ],
-  "Page": 607,
-  "PageSize": 987
+  "Page": 852,
+  "PageSize": 662
 }
 ```
 
@@ -170,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Mayert-Towne",
-    "PrimaryKey": 246,
+    "EntityName": "Mante, Haley and Denesik",
+    "PrimaryKey": 285,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quia",
-        "TooltipHint": "reiciendis",
-        "LinkHint": "et"
+        "DisplayValue": "quisquam",
+        "TooltipHint": "veritatis",
+        "LinkHint": "est"
       }
     },
-    "LinkHint": "repellendus",
-    "StyleHint": "deleniti",
+    "LinkHint": "iusto",
+    "StyleHint": "facere",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldLength": 220
       }
     }
   }

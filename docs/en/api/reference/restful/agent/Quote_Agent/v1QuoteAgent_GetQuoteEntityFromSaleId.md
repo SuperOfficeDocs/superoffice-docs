@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SaleId | int32 |  |
+| SaleId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body:
 | OrderComment | string | A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing |
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
 | QuoteVersions | array | Array og QuoteVersions connected to the quote. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,11 +84,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 583
+  "SaleId": 453
 }
 ```
 
@@ -100,58 +99,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 814,
-  "SaleId": 639,
-  "QuoteConnectionId": 235,
-  "ERPQuoteKey": "suscipit",
-  "ERPOrderKey": "similique",
-  "ActiveQuoteVersionId": 530,
-  "AcceptedQuoteAlternativeId": 102,
-  "UseValuesFromQuote": 556,
-  "DocumentId": 633,
-  "PoNumber": "889554",
-  "OrderComment": "deleniti",
-  "PreferredEmailCulture": "maureen@schumm.name",
+  "QuoteId": 503,
+  "SaleId": 927,
+  "QuoteConnectionId": 220,
+  "ERPQuoteKey": "quia",
+  "ERPOrderKey": "consequuntur",
+  "ActiveQuoteVersionId": 983,
+  "AcceptedQuoteAlternativeId": 754,
+  "UseValuesFromQuote": 327,
+  "DocumentId": 51,
+  "PoNumber": "755044",
+  "OrderComment": "optio",
+  "PreferredEmailCulture": "kade@wehner.co.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 825,
-      "ERPQuoteVersionKey": "dolores",
-      "QuoteId": 385,
-      "Description": "Automated logistical database",
-      "Number": "521592",
+      "QuoteVersionId": 51,
+      "ERPQuoteVersionKey": "nostrum",
+      "QuoteId": 621,
+      "Description": "Enterprise-wide content-based functionalities",
+      "Number": "1024164",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 58,
-      "SentDate": "2013-03-03T02:49:45.0465904+01:00",
-      "FollowupId": 620,
-      "ExpirationDate": "2019-02-17T02:49:45.0465904+01:00",
-      "DeliveryCountryId": 897,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 446,
+      "LikelyQuoteAlternativeId": 774,
+      "SentDate": "1997-02-02T17:37:18.7562419+01:00",
+      "FollowupId": 194,
+      "ExpirationDate": "2020-05-04T17:37:18.7562419+02:00",
+      "DeliveryCountryId": 602,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 482,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "consequatur",
-      "ERPPaymentTypeKey": "laborum",
-      "ERPDeliveryTermsKey": "fugit",
-      "ERPDeliveryTypeKey": "tempore",
-      "Rank": 200,
-      "ApprovedBy": 37,
-      "ApprovedText": "totam",
-      "ApprovedRegisteredBy": 230,
-      "ApprovedRegisteredDate": "2003-04-26T02:49:45.0465904+02:00",
-      "ExtraField1": "rerum",
-      "ExtraField2": "laboriosam",
-      "ExtraField3": "qui",
-      "ExtraField4": "maxime",
-      "ExtraField5": "consequatur",
-      "LastRecalculated": "1996-11-15T02:49:45.0465904+01:00",
-      "Updated": "2002-11-30T02:49:45.0465904+01:00",
-      "UpdatedAssociateId": 760,
-      "Registered": "2006-07-26T02:49:45.0465904+02:00",
-      "RegisteredAssociateId": 729,
-      "RequestAssociateId": 425,
-      "RequestComment": "molestiae",
+      "ERPPaymentTermsKey": "doloremque",
+      "ERPPaymentTypeKey": "est",
+      "ERPDeliveryTermsKey": "nihil",
+      "ERPDeliveryTypeKey": "iusto",
+      "Rank": 419,
+      "ApprovedBy": 841,
+      "ApprovedText": "aut",
+      "ApprovedRegisteredBy": 866,
+      "ApprovedRegisteredDate": "2013-09-08T17:37:18.7562419+02:00",
+      "ExtraField1": "quia",
+      "ExtraField2": "laudantium",
+      "ExtraField3": "molestiae",
+      "ExtraField4": "eos",
+      "ExtraField5": "iusto",
+      "LastRecalculated": "2013-03-16T17:37:18.7562419+01:00",
+      "Updated": "2022-11-12T17:37:18.7562419+01:00",
+      "UpdatedAssociateId": 80,
+      "Registered": "2017-03-04T17:37:18.7562419+01:00",
+      "RegisteredAssociateId": 609,
+      "RequestAssociateId": 614,
+      "RequestComment": "et",
       "QuoteAlternatives": [
         {},
         {}
@@ -160,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldType": "System.String",
+          "FieldLength": 371
         }
       }
     }
@@ -171,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 188
     }
   }
 }

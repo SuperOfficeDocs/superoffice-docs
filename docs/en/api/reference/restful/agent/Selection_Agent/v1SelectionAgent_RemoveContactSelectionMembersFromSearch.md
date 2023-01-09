@@ -42,17 +42,16 @@ POST /api/v1/Agents/Selection/RemoveContactSelectionMembersFromSearch?$select=na
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, StorageKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| StorageKey | string |  |
+| SelectionId | Integer |  |
+| StorageKey | String |  |
 
-
-## Response: int32
+## Response:int32
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -73,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 911,
-  "StorageKey": "doloribus"
+  "SelectionId": 612,
+  "StorageKey": "hic"
 }
 ```
 
@@ -84,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-825
+199
 ```

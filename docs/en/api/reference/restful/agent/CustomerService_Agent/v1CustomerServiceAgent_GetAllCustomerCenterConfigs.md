@@ -42,7 +42,7 @@ POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs?$select=name,dep
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +62,7 @@ Response body: array
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +71,7 @@ Response body: array
 POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 353,
+    "CustConfigId": 943,
     "Type": "Options",
-    "Config": "omnis",
-    "CustLangId": 994,
-    "Registered": "1999-01-14T02:49:44.0285283+01:00",
-    "RegisteredAssociateId": 679,
-    "Updated": "2010-12-15T02:49:44.0285283+01:00",
-    "UpdatedAssociateId": 427,
+    "Config": "fuga",
+    "CustLangId": 471,
+    "Registered": "2019-05-20T17:37:17.345245+02:00",
+    "RegisteredAssociateId": 345,
+    "Updated": "1996-08-21T17:37:17.345245+02:00",
+    "UpdatedAssociateId": 186,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 330
       }
     }
   }

@@ -48,7 +48,7 @@ GET /api/v1/Document/{documentId}/Property?requestedProperties=Path
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: object
+## Response:object
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -65,7 +65,7 @@ Response body: object
 GET /api/v1/Document/{documentId}/Property
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,7 +75,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "architecto",
-  "2": "velit"
+  "1": "omnis",
+  "2": "ut"
 }
 ```

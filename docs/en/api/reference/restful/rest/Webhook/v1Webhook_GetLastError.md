@@ -12,8 +12,6 @@ GET /api/v1/Webhook/{webhookId}/LastError
 Return the most recent error message received when calling this webhook.
 
 
-
-
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -40,7 +38,7 @@ Return the most recent error message received when calling this webhook.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: string
+## Response:string
 
 OK
 
@@ -48,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -57,7 +55,7 @@ Response body: string
 GET /api/v1/Webhook/{webhookId}/LastError
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -66,5 +64,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"animi"
+"ullam"
 ```

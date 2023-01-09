@@ -42,13 +42,12 @@ POST /api/v1/Agents/List/GetLanguageInfoList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: languageInfoIds  
+## Request Body: languageInfoIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +66,7 @@ Response body: array
 | ThreeLetterISOLanguageName | string | ISO 3-letter abbreviation |
 | TwoLetterISOLanguageName | string | ISO 2-letter abbreviation |
 | IsBuiltIn | bool | Has this row been inserted by SuperOffice priming data |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,7 +75,7 @@ Response body: array
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,19 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 996,
-    "LCID": 834,
-    "EnglishName": "Botsford, Wiza and Ryan",
-    "NativeName": "Rau Inc and Sons",
-    "ThreeLetterISOLanguageName": "Runolfsdottir Group",
-    "TwoLetterISOLanguageName": "Kunde Group",
+    "LanguageInfoId": 129,
+    "LCID": 697,
+    "EnglishName": "Sanford-Monahan",
+    "NativeName": "Heaney Inc and Sons",
+    "ThreeLetterISOLanguageName": "Mante-Casper",
+    "TwoLetterISOLanguageName": "Prohaska-Langosh",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 973
+        "FieldType": "System.String",
+        "FieldLength": 67
       }
     }
   }

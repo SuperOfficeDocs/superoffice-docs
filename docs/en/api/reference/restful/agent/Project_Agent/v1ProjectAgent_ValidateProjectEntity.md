@@ -42,16 +42,15 @@ POST /api/v1/Agents/Project/ValidateProjectEntity?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectEntity |  | The Project Service. The service implements all services working with the Project object <para /> Carrier object for ProjectEntity. Services for the ProjectEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>. |
+| ProjectEntity | ProjectEntity | The Project Service. The service implements all services working with the Project object <para /> Carrier object for ProjectEntity. Services for the ProjectEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>. |
 
-
-## Response: object
+## Response:object
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -68,7 +67,7 @@ Response body: object
 POST /api/v1/Agents/Project/ValidateProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,7 +82,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "iure",
-  "2": "rerum"
+  "1": "omnis",
+  "2": "sapiente"
 }
 ```

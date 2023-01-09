@@ -102,9 +102,6 @@ Use backslash to escape single quotes in strings
 
 
 
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -130,17 +127,16 @@ POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Restrictions | string |  |
+| ProviderName | String |  |
+| Restrictions | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -148,7 +144,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -172,12 +168,12 @@ Response body: array
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Koelpin, Lang and Erdman",
-  "Restrictions": "in"
+  "ProviderName": "Hilpert, Adams and Spencer",
+  "Restrictions": "nulla"
 }
 ```
 
@@ -189,19 +185,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Gislason, Jones and Goldner",
-    "DisplayTooltip": "excepturi",
-    "DisplayType": "consequatur",
+    "DisplayName": "Johns LLC",
+    "DisplayTooltip": "et",
+    "DisplayType": "velit",
     "CanOrderBy": false,
-    "Name": "Predovic, Ryan and Howe",
+    "Name": "Abshire, Paucek and Jakubowski",
     "CanRestrictBy": true,
-    "RestrictionType": "laboriosam",
-    "RestrictionListName": "Becker LLC",
+    "RestrictionType": "quis",
+    "RestrictionListName": "Douglas, Bahringer and Emmerich",
     "IsVisible": true,
-    "ExtraInfo": "dolorem",
-    "Width": "eum",
-    "IconHint": "voluptatibus",
-    "HeadingIconHint": "non"
+    "ExtraInfo": "eum",
+    "Width": "quis",
+    "IconHint": "voluptatem",
+    "HeadingIconHint": "dolores"
   }
 ]
 ```

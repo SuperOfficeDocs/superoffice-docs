@@ -44,20 +44,19 @@ POST /api/v1/Agents/Quote/SendQuoteVersion?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId, ExpiryDate, FollowupDate, FollowupText, Culture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
-| ExpiryDate | date-time |  |
-| FollowupDate | date-time |  |
-| FollowupText | string |  |
-| Culture | string |  |
+| QuoteVersionId | Integer |  |
+| ExpiryDate | String |  |
+| FollowupDate | String |  |
+| FollowupText | String |  |
+| Culture | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PluginUrlResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,10 +72,10 @@ Response body:
 | UserExplanation | string | A localized explanation to the answer. |
 | TechExplanation | string | Always in English |
 | ErrorCode | string | An error code, if available. |
-| Changes |  | Tablename/recordid of data changed by this method, that the client may need to reload |
+| Changes | ChangedData | Tablename/recordid of data changed by this method, that the client may need to reload |
 | Url | string | Url that the GUI should navigato to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested url. |
 | Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,15 +84,15 @@ Response body:
 POST /api/v1/Agents/Quote/SendQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 701,
-  "ExpiryDate": "2011-06-03T02:49:44.9997158+02:00",
-  "FollowupDate": "2013-05-31T02:49:44.9997158+02:00",
-  "FollowupText": "quia",
-  "Culture": "quaerat"
+  "QuoteVersionId": 544,
+  "ExpiryDate": "2004-08-28T17:37:18.6942424+02:00",
+  "FollowupDate": "2014-09-16T17:37:18.6942424+02:00",
+  "FollowupText": "fuga",
+  "Culture": "corporis"
 }
 ```
 
@@ -104,10 +103,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "hic",
-  "TechExplanation": "omnis",
-  "ErrorCode": "et",
+  "IsOk": true,
+  "UserExplanation": "et",
+  "TechExplanation": "recusandae",
+  "ErrorCode": "aut",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -116,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldLength": 723
     }
   }
 }

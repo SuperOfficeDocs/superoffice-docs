@@ -40,21 +40,20 @@ POST /api/v1/Agents/ForeignSystem/DeleteForeignKey?$select=name,department,categ
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ForeignKey, ApplicationName, DeviceName, DeviceIdentifier, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ForeignKey |  | Carrier object for ForeignKey. Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
-| TableName | string |  |
-| RecordId | int32 |  |
+| ForeignKey | ForeignKey | Carrier object for ForeignKey. Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
+| TableName | String |  |
+| RecordId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -62,7 +61,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -71,16 +70,16 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/DeleteForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Ratke LLC",
-  "DeviceName": "Schowalter-Rempel",
+  "ApplicationName": "D'Amore, Sauer and Quitzon",
+  "DeviceName": "Block-Ward",
   "DeviceIdentifier": "et",
-  "TableName": "Davis, Zulauf and Jerde",
-  "RecordId": 544
+  "TableName": "Leffler, Adams and Shields",
+  "RecordId": 220
 }
 ```
 

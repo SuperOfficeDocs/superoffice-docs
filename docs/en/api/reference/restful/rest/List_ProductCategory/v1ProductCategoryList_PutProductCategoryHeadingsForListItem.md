@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Batz, Powlowski and Kohler",
-    "ToolTip": "Est praesentium dolorum ullam non.",
-    "Deleted": true,
-    "Rank": 511,
-    "Type": "voluptate",
-    "ColorBlock": 207,
-    "IconHint": "molestiae",
+    "Id": 815,
+    "Name": "Koch LLC",
+    "ToolTip": "Molestias quia suscipit id est nemo qui.",
+    "Deleted": false,
+    "Rank": 494,
+    "Type": "consequatur",
+    "ColorBlock": 112,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1999-10-06T02:49:52.3597004+02:00",
+    "LastChanged": "2022-07-07T17:37:40.1495003+02:00",
     "ChildItems": [
       {
-        "Id": 728,
-        "Name": "Gutkowski-Mills",
-        "ToolTip": "Quo a.",
+        "Id": 737,
+        "Name": "Kovacek-Donnelly",
+        "ToolTip": "Ipsum sit in quis.",
         "Deleted": false,
-        "Rank": 742,
-        "Type": "nam",
-        "ColorBlock": 953,
-        "IconHint": "dolore",
+        "Rank": 921,
+        "Type": "esse",
+        "ColorBlock": 796,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2013-07-14T02:49:52.3597004+02:00",
+        "LastChanged": "2022-03-14T17:37:40.1495003+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "quasi",
-        "Hidden": true,
-        "FullName": "Donavon Walker"
+        "ExtraInfo": "enim",
+        "StyleHint": "error",
+        "Hidden": false,
+        "FullName": "Miss Jeanie Betsy Block"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quaerat",
-    "Hidden": false,
-    "FullName": "Krystina Klocko"
+    "ExtraInfo": "quia",
+    "StyleHint": "ipsam",
+    "Hidden": true,
+    "FullName": "Donnell Sipes"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 550,
-    "Name": "Franecki-Erdman",
-    "ToolTip": "Non quia odit quia.",
-    "Deleted": true,
-    "Rank": 999,
-    "Type": "minus",
-    "ColorBlock": 626,
-    "IconHint": "sit",
+    "Id": 332,
+    "Name": "Ferry-King",
+    "ToolTip": "Necessitatibus delectus quia nam accusamus sit dolores.",
+    "Deleted": false,
+    "Rank": 415,
+    "Type": "qui",
+    "ColorBlock": 135,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2020-12-13T02:49:52.3597004+01:00",
+    "LastChanged": "2013-01-20T17:37:40.1515037+01:00",
     "ChildItems": [
       {
-        "Id": 115,
-        "Name": "Kerluke-Beier",
-        "ToolTip": "Neque temporibus expedita quae dolorem quisquam rerum.",
-        "Deleted": false,
-        "Rank": 140,
-        "Type": "delectus",
-        "ColorBlock": 256,
-        "IconHint": "repellat",
-        "Selected": false,
-        "LastChanged": "2009-05-11T02:49:52.3597004+02:00",
+        "Id": 637,
+        "Name": "Bahringer-McDermott",
+        "ToolTip": "Illum laborum nesciunt quam in.",
+        "Deleted": true,
+        "Rank": 289,
+        "Type": "ullam",
+        "ColorBlock": 918,
+        "IconHint": "hic",
+        "Selected": true,
+        "LastChanged": "1995-12-25T17:37:40.1515037+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "quaerat",
-        "Hidden": true,
-        "FullName": "Emmy Stanton",
+        "ExtraInfo": "ullam",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Carmel Stehr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 966
+            "FieldLength": 567
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "est",
+    "ExtraInfo": "ut",
+    "StyleHint": "natus",
     "Hidden": true,
-    "FullName": "Miss Rylan Norberto Dare",
+    "FullName": "Tommie McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldLength": 888
       }
     }
   }

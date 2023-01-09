@@ -34,7 +34,7 @@ Excludes standard fields.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +66,7 @@ Response body: array
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Zulauf-Roob",
-    "DisplayName": "Marquardt LLC",
-    "Description": "Ergonomic fresh-thinking Graphic Interface",
-    "ShortLabel": "vel",
-    "HideLabel": true,
-    "HideField": false,
+    "FieldName": "King-Hirthe",
+    "DisplayName": "Sanford, Gerlach and Purdy",
+    "Description": "Down-sized tertiary secured line",
+    "ShortLabel": "ipsa",
+    "HideLabel": false,
+    "HideField": true,
     "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 955,
-    "TemplateVariableName": "Bailey Group"
+    "Rank": 47,
+    "TemplateVariableName": "Bernhard Inc and Sons"
   }
 ]
 ```

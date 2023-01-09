@@ -42,18 +42,17 @@ POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Info, FieldType, IsIndexed 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Info |  | Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface. <para /> Carrier object for UserDefinedFieldInfo. Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>. |
-| FieldType | string |  |
-| IsIndexed | bool |  |
+| Info | UserDefinedFieldInfo | Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface. <para /> Carrier object for UserDefinedFieldInfo. Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>. |
+| FieldType | String |  |
+| IsIndexed | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,7 +98,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -125,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 874,
-  "ColumnId": 695,
-  "FieldDefault": "facere",
-  "FieldHeight": 418,
-  "FieldLabel": "illum",
-  "FieldLeft": 813,
-  "FieldTop": 99,
+  "UDefFieldId": 181,
+  "ColumnId": 337,
+  "FieldDefault": "soluta",
+  "FieldHeight": 60,
+  "FieldLabel": "maxime",
+  "FieldLeft": 546,
+  "FieldTop": 165,
   "FieldType": "Checkbox",
-  "FieldWidth": 810,
-  "FormatMask": "maxime",
+  "FieldWidth": 489,
+  "FormatMask": "omnis",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 991,
-  "LabelLeft": 239,
-  "LabelTop": 667,
-  "LabelWidth": 453,
-  "LastVersionId": 731,
-  "ListTableId": 443,
+  "LabelHeight": 740,
+  "LabelLeft": 619,
+  "LabelTop": 254,
+  "LabelWidth": 700,
+  "LastVersionId": 588,
+  "ListTableId": 437,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 515,
-  "ProgId": "ducimus",
+  "Page1LineNo": 75,
+  "ProgId": "optio",
   "IsReadOnly": false,
-  "ShortLabel": "libero",
-  "TabOrder": 774,
-  "TextLength": 873,
-  "Tooltip": "repellendus",
-  "UdefIdentity": 894,
-  "UDListDefinitionId": 486,
+  "ShortLabel": "quod",
+  "TabOrder": 925,
+  "TextLength": 768,
+  "Tooltip": "non",
+  "UdefIdentity": 530,
+  "UDListDefinitionId": 708,
   "Justification": "Center",
-  "Version": 781,
-  "TemplateVariableName": "Kunde-Macejkovic",
-  "HasBeenPublished": true,
-  "MdoListName": "Lind, McClure and Schneider",
+  "Version": 343,
+  "TemplateVariableName": "Quigley, Schmeler and Kautzer",
+  "HasBeenPublished": false,
+  "MdoListName": "Tremblay-Dooley",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldType": "System.String",
+      "FieldLength": 55
     }
   }
 }

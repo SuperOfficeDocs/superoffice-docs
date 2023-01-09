@@ -44,17 +44,16 @@ POST /api/v1/Agents/CustomerService/AddMessageFromMailData?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TicketId, Data 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketId | int32 |  |
-| Data | string |  |
+| TicketId | Integer |  |
+| Data | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | TicketUrl | string | A URL leading directly to the created request. This is a URL ment to be used by a Service user |
 | PersonName | string | The name of the person/customer connected to the ticket |
 | ContactName | string | The name of the contact/company connected to the ticket |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,12 +82,12 @@ Response body:
 POST /api/v1/Agents/CustomerService/AddMessageFromMailData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 211,
-  "Data": "quam"
+  "TicketId": 596,
+  "Data": "aut"
 }
 ```
 
@@ -99,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 388,
-  "Title": "cumque",
-  "OwnerName": "Gutkowski Inc and Sons",
+  "TicketId": 245,
+  "Title": "repellendus",
+  "OwnerName": "Bradtke Inc and Sons",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Kemmer, Konopelski and McGlynn",
+  "PriorityName": "Kilback Inc and Sons",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Jewess, Satterfield and Bogan",
-  "ContactName": "Friesen, Wiegand and Crooks",
+  "PersonName": "Toy, Becker and Smith",
+  "ContactName": "Denesik, Baumbach and Muller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 274
+      "FieldLength": 886
     }
   }
 }

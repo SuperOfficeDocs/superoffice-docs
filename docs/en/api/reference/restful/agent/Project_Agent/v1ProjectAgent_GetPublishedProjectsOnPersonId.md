@@ -42,16 +42,15 @@ POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
+| PersonId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +80,7 @@ Response body: array
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,11 +89,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 618
+  "PersonId": 447
 }
 ```
 
@@ -106,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 812,
-    "Name": "Powlowski-O'Conner",
-    "Description": "Ergonomic actuating function",
+    "ProjectId": 67,
+    "Name": "Kautzer-Orn",
+    "Description": "Focused assymetric encoding",
     "URL": "http://www.example.com/",
-    "Type": "beatae",
-    "AssociateId": 191,
-    "AssociateFullName": "Chaz Nolan",
-    "TypeId": 62,
-    "Updated": "2001-04-25T02:49:44.9684639+02:00",
-    "StatusId": 408,
-    "Status": "tempora",
-    "TextId": 975,
-    "PublishTo": "2019-09-21T02:49:44.9684639+02:00",
-    "PublishFrom": "2016-07-02T02:49:44.9684639+02:00",
+    "Type": "magni",
+    "AssociateId": 991,
+    "AssociateFullName": "Emmy Halvorson",
+    "TypeId": 804,
+    "Updated": "2020-04-19T17:37:18.6662421+02:00",
+    "StatusId": 126,
+    "Status": "atque",
+    "TextId": 232,
+    "PublishTo": "2009-07-03T17:37:18.6662421+02:00",
+    "PublishFrom": "2018-07-05T17:37:18.6662421+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1205592",
-    "ActiveErpLinks": 948,
+    "ProjectNumber": "311195",
+    "ActiveErpLinks": 101,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 625
+        "FieldType": "System.String",
+        "FieldLength": 831
       }
     }
   }

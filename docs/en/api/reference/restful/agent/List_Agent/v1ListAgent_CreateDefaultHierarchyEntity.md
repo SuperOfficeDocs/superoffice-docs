@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: HierarchyEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +56,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -65,7 +65,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,46 +75,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 252,
+  "HierarchyId": 915,
   "Domain": "Dashboards",
-  "Name": "Hauck, Blanda and Luettgen",
-  "Fullname": "dolor",
-  "ParentId": 117,
+  "Name": "Weissnat, Kuhic and Jones",
+  "Fullname": "id",
+  "ParentId": 965,
   "Children": [
     {
-      "HierarchyId": 146,
+      "HierarchyId": 235,
       "Domain": "Dashboards",
-      "Name": "Sanford-Wisoky",
-      "Fullname": "illo",
-      "ParentId": 926,
+      "Name": "White-Lang",
+      "Fullname": "repellat",
+      "ParentId": 731,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-02-20T02:49:44.6860468+01:00",
-      "RegisteredAssociateId": 835,
-      "Updated": "2006-11-06T02:49:44.6860468+01:00",
-      "UpdatedAssociateId": 863,
+      "Registered": "2011-05-07T17:37:18.276242+02:00",
+      "RegisteredAssociateId": 449,
+      "Updated": "2018-03-24T17:37:18.276242+01:00",
+      "UpdatedAssociateId": 125,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 50
+          "FieldType": "System.Int32",
+          "FieldLength": 159
         }
       }
     }
   ],
-  "Registered": "2003-11-09T02:49:44.6860468+01:00",
-  "RegisteredAssociateId": 562,
-  "Updated": "2002-11-08T02:49:44.6860468+01:00",
-  "UpdatedAssociateId": 522,
+  "Registered": "1999-06-05T17:37:18.276242+02:00",
+  "RegisteredAssociateId": 87,
+  "Updated": "2020-09-14T17:37:18.276242+02:00",
+  "UpdatedAssociateId": 398,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldType": "System.String",
+      "FieldLength": 631
     }
   }
 }

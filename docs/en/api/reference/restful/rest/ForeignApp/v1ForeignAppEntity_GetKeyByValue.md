@@ -31,7 +31,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=incidunt
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=dolor
 ```
 
 
@@ -49,7 +49,7 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -57,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Response body:
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,7 +78,7 @@ Response body:
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 23 Aug 2007 02:49:50 G8T
+Last-Modified: Mon, 30 Jul 2007 17:37:38 G7T
 
 {
-  "Key": "magni",
-  "Value": "accusantium",
-  "RecordId": 716,
-  "CreatedDate": "2015-05-17T02:49:50.9952888+02:00",
-  "UpdatedDate": "2007-08-23T02:49:50.9952888+02:00",
-  "UpdatedBy": "eaque",
+  "Key": "alias",
+  "Value": "qui",
+  "RecordId": 42,
+  "CreatedDate": "2005-04-24T17:37:38.8228607+02:00",
+  "UpdatedDate": "2007-07-30T17:37:38.8228607+02:00",
+  "UpdatedBy": "qui",
   "CreatedBy": "rerum",
-  "TableName": "Cremin Inc and Sons",
+  "TableName": "Stokes Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldLength": 205
     }
   }
 }

@@ -71,18 +71,17 @@ PATCH /api/v1/RelationDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 RelationDefinitionEntity  updated.
 
@@ -93,7 +92,7 @@ RelationDefinitionEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because RelationDefinitionEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: RelationDefinitionEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,7 +104,7 @@ Response body:
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -121,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quidem",
+    "path": "dolorum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quidem",
+    "path": "dolorum",
     "value": {}
   }
 ]
@@ -139,20 +138,20 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 442,
-  "Name": "Brekke, Kunde and White",
-  "Tooltip": "sequi",
-  "PassiveText": "numquam",
-  "Deleted": false,
-  "Rank": 91,
+  "ReldefId": 314,
+  "Name": "Schumm, Tremblay and Oberbrunner",
+  "Tooltip": "architecto",
+  "PassiveText": "quaerat",
+  "Deleted": true,
+  "Rank": 821,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldType": "System.Int32",
+      "FieldLength": 125
     }
   },
   "_Links": {

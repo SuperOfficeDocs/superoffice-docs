@@ -25,8 +25,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=dicta
+GET /api/v1/List/ProjectStatus/MDOItems?flat=True
+GET /api/v1/List/ProjectStatus/MDOItems?query=distinctio
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/ProjectStatus/MDOItems?query=dicta
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Leuschke LLC",
-    "ToolTip": "Aut illum veniam maiores qui.",
+    "Id": 995,
+    "Name": "Kshlerin, Von and Wilkinson",
+    "ToolTip": "Et debitis.",
     "Deleted": true,
-    "Rank": 942,
-    "Type": "amet",
+    "Rank": 924,
+    "Type": "nam",
     "ChildItems": [
       {
-        "Id": 826,
-        "Name": "Borer Inc and Sons",
-        "ToolTip": "Et ullam et.",
+        "Id": 707,
+        "Name": "Cormier Inc and Sons",
+        "ToolTip": "Rem quam non quia unde rerum temporibus voluptatem.",
         "Deleted": false,
-        "Rank": 172,
-        "Type": "explicabo",
+        "Rank": 267,
+        "Type": "repellat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 282,
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "ut",
-        "FullName": "Rodrick Batz",
+        "IconHint": "voluptatem",
+        "ColorBlock": 509,
+        "ExtraInfo": "quod",
+        "StyleHint": "aliquam",
+        "FullName": "Sienna Blick IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 916
+            "FieldType": "System.String",
+            "FieldLength": 182
           }
         }
       }
     ],
-    "IconHint": "necessitatibus",
-    "ColorBlock": 377,
-    "ExtraInfo": "quia",
-    "StyleHint": "dolor",
-    "FullName": "Milford Oberbrunner",
+    "IconHint": "a",
+    "ColorBlock": 663,
+    "ExtraInfo": "quo",
+    "StyleHint": "ipsa",
+    "FullName": "Miss Newton Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldLength": 638
       }
     }
   }

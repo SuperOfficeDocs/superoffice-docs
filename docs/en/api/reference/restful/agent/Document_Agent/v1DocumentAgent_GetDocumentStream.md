@@ -42,16 +42,15 @@ POST /api/v1/Agents/Document/GetDocumentStream?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
+| DocumentId | Integer |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -68,11 +67,11 @@ Response body: byte
 POST /api/v1/Agents/Document/GetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 261
+  "DocumentId": 6
 }
 ```
 

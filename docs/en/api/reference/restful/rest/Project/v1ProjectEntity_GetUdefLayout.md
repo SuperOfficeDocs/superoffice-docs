@@ -34,7 +34,7 @@ May be different from the published version.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +80,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,7 +89,7 @@ Response body: array
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 927,
-    "ColumnId": 382,
-    "FieldDefault": "temporibus",
-    "FieldHeight": 482,
-    "FieldLabel": "ratione",
-    "FieldLeft": 478,
-    "FieldTop": 485,
+    "UDefFieldId": 246,
+    "ColumnId": 862,
+    "FieldDefault": "facere",
+    "FieldHeight": 770,
+    "FieldLabel": "officia",
+    "FieldLeft": 29,
+    "FieldTop": 627,
     "FieldType": "Checkbox",
-    "FieldWidth": 775,
-    "FormatMask": "mollitia",
+    "FieldWidth": 676,
+    "FormatMask": "molestias",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 506,
-    "LabelLeft": 856,
-    "LabelTop": 662,
-    "LabelWidth": 680,
-    "LastVersionId": 415,
-    "ListTableId": 115,
+    "LabelHeight": 492,
+    "LabelLeft": 539,
+    "LabelTop": 190,
+    "LabelWidth": 343,
+    "LastVersionId": 394,
+    "ListTableId": 724,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 821,
-    "ProgId": "aut",
-    "IsReadOnly": true,
-    "ShortLabel": "quia",
-    "TabOrder": 321,
-    "TextLength": 95,
-    "Tooltip": "deleniti",
-    "UdefIdentity": 953,
-    "UDListDefinitionId": 949,
+    "Page1LineNo": 535,
+    "ProgId": "iste",
+    "IsReadOnly": false,
+    "ShortLabel": "quis",
+    "TabOrder": 797,
+    "TextLength": 627,
+    "Tooltip": "eligendi",
+    "UdefIdentity": 701,
+    "UDListDefinitionId": 982,
     "Justification": "Center",
-    "Version": 241,
-    "TemplateVariableName": "Feeney-Klein",
-    "HasBeenPublished": false,
-    "MdoListName": "Sawayn, Yost and Christiansen",
+    "Version": 609,
+    "TemplateVariableName": "Harber Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Parisian-Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 964
+        "FieldLength": 945
       }
     }
   }

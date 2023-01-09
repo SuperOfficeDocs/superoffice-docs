@@ -38,13 +38,6 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 
 
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,23 +63,22 @@ POST /api/v1/Agents/Archive/GetArchiveListWithContext?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| GuiName | string |  |
-| ProviderName | string |  |
-| SortOrder | array |  |
-| Restriction | array |  |
-| Entities | array |  |
-| Page | int32 |  |
-| PageSize | int32 |  |
-| Context | string |  |
+| GuiName | String |  |
+| ProviderName | String |  |
+| SortOrder | Array |  |
+| Restriction | Array |  |
+| Entities | Array |  |
+| Page | Integer |  |
+| PageSize | Integer |  |
+| Context | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -94,7 +86,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,7 +95,7 @@ Response body: array
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -116,29 +108,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Rutherford-Pagac",
-  "ProviderName": "McKenzie LLC",
+  "GuiName": "Von, Mante and Parisian",
+  "ProviderName": "Russel, Langosh and Corkery",
   "SortOrder": [
     {
-      "Name": "Grimes-Bogisich",
+      "Name": "Wilderman Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Grimes-Bogisich",
+      "Name": "Wilderman Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Hartmann Group",
-      "Operator": "qui",
+      "Name": "Ruecker-Dickinson",
+      "Operator": "dolorem",
       "Values": [
-        "dolores",
-        "reprehenderit"
+        "debitis",
+        "quos"
       ],
       "DisplayValues": [
-        "nulla",
-        "voluptatum"
+        "aspernatur",
+        "veritatis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -146,18 +138,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 256,
+      "InterParenthesis": 581,
       "InterOperator": "And",
-      "UniqueHash": 720
+      "UniqueHash": 935
     }
   ],
   "Entities": [
-    "beatae",
-    "laborum"
+    "voluptatum",
+    "expedita"
   ],
-  "Page": 961,
-  "PageSize": 610,
-  "Context": "accusantium"
+  "Page": 195,
+  "PageSize": 325,
+  "Context": "vitae"
 }
 ```
 
@@ -169,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Keeling-Wunsch",
-    "PrimaryKey": 363,
+    "EntityName": "Roob-Tillman",
+    "PrimaryKey": 124,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "rerum",
-        "TooltipHint": "adipisci",
-        "LinkHint": "omnis"
+        "DisplayValue": "odit",
+        "TooltipHint": "dolorem",
+        "LinkHint": "dolore"
       }
     },
-    "LinkHint": "voluptate",
-    "StyleHint": "maxime",
+    "LinkHint": "et",
+    "StyleHint": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 698
+        "FieldLength": 322
       }
     }
   }

@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Name": "Schowalter-Hickle",
-    "ToolTip": "Et facere id rem illum sapiente minima.",
-    "Deleted": true,
-    "Rank": 385,
-    "Type": "corporis",
-    "ColorBlock": 349,
-    "IconHint": "quia",
+    "Id": 896,
+    "Name": "Monahan, Walker and Hamill",
+    "ToolTip": "Qui voluptates rerum nesciunt sit et repellendus et.",
+    "Deleted": false,
+    "Rank": 694,
+    "Type": "et",
+    "ColorBlock": 975,
+    "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2019-06-11T02:49:51.9065706+02:00",
+    "LastChanged": "2022-12-30T17:37:39.6644005+01:00",
     "ChildItems": [
       {
-        "Id": 888,
-        "Name": "Greenfelder-Aufderhar",
-        "ToolTip": "Est aut nam maxime impedit.",
+        "Id": 439,
+        "Name": "Stokes LLC",
+        "ToolTip": "Impedit eaque maxime rerum libero quas et eius.",
         "Deleted": false,
-        "Rank": 417,
-        "Type": "quia",
-        "ColorBlock": 385,
-        "IconHint": "sit",
+        "Rank": 199,
+        "Type": "veritatis",
+        "ColorBlock": 806,
+        "IconHint": "sint",
         "Selected": true,
-        "LastChanged": "2016-07-13T02:49:51.9065706+02:00",
+        "LastChanged": "2001-05-02T17:37:39.6644005+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "hic",
-        "Hidden": true,
-        "FullName": "Miss Garett Dina Mueller MD"
+        "ExtraInfo": "optio",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Dr. Bill Joelle Koepp V"
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "voluptas",
-    "Hidden": true,
-    "FullName": "Prof. Troy Ona Barton MD"
+    "ExtraInfo": "sint",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Mr. Anissa Hermann Wolf"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Upton, Prohaska and Cronin",
-    "ToolTip": "Cumque est quidem et.",
-    "Deleted": true,
-    "Rank": 292,
-    "Type": "fugit",
-    "ColorBlock": 907,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2001-11-19T02:49:51.9065706+01:00",
+    "Id": 892,
+    "Name": "White-VonRueden",
+    "ToolTip": "Nihil autem ratione vitae consequatur non omnis sapiente.",
+    "Deleted": false,
+    "Rank": 729,
+    "Type": "distinctio",
+    "ColorBlock": 387,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2001-05-23T17:37:39.666432+02:00",
     "ChildItems": [
       {
-        "Id": 270,
-        "Name": "Rodriguez-Bahringer",
-        "ToolTip": "Maxime quia blanditiis ullam placeat vel.",
+        "Id": 159,
+        "Name": "Deckow, Stamm and Wolff",
+        "ToolTip": "Quibusdam veniam id recusandae ducimus est nesciunt.",
         "Deleted": false,
-        "Rank": 662,
-        "Type": "officia",
-        "ColorBlock": 113,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2011-02-27T02:49:51.9065706+01:00",
+        "Rank": 749,
+        "Type": "deleniti",
+        "ColorBlock": 673,
+        "IconHint": "pariatur",
+        "Selected": false,
+        "LastChanged": "2011-12-09T17:37:39.666432+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Shanna Harris",
+        "ExtraInfo": "aut",
+        "StyleHint": "enim",
+        "Hidden": false,
+        "FullName": "Orval Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 359
+            "FieldType": "System.Int32",
+            "FieldLength": 726
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "quibusdam",
-    "Hidden": true,
-    "FullName": "Evans Kemmer",
+    "ExtraInfo": "est",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Fannie Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldLength": 145
       }
     }
   }

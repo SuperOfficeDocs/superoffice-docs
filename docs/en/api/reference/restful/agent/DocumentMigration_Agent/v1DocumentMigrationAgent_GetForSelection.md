@@ -12,8 +12,6 @@ POST /api/v1/Agents/DocumentMigration/GetForSelection
 Gets a migration summary for documents in the provided selection
 
 
-
-
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -46,18 +44,17 @@ POST /api/v1/Agents/DocumentMigration/GetForSelection?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentPluginId, SelectionId, IncludeEmails 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentPluginId | int32 |  |
-| SelectionId | int32 |  |
-| IncludeEmails | bool |  |
+| DocumentPluginId | Integer |  |
+| SelectionId | Integer |  |
+| IncludeEmails | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentMigrationItemList
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,12 +77,12 @@ Response body:
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 434,
-  "SelectionId": 997,
+  "DocumentPluginId": 514,
+  "SelectionId": 595,
   "IncludeEmails": false
 }
 ```
@@ -97,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 145,
-  "NumDocumentsAlreadyMigrated": 709,
+  "NumDocumentsOmitted": 430,
+  "NumDocumentsAlreadyMigrated": 921,
   "Documents": [
     {
-      "DocumentId": 905,
-      "ContactId": 342,
-      "PersonId": 199,
-      "SaleId": 440,
-      "ProjectId": 572,
-      "DocTmplId": 710,
-      "AssociateId": 700,
-      "UserGroupId": 129,
-      "VisibleForId": 190
+      "DocumentId": 800,
+      "ContactId": 915,
+      "PersonId": 85,
+      "SaleId": 69,
+      "ProjectId": 176,
+      "DocTmplId": 610,
+      "AssociateId": 636,
+      "UserGroupId": 363,
+      "VisibleForId": 61
     }
   ],
   "Associates": [
     {
-      "AssociateId": 277,
-      "EmailAddress": "brody@hansencasper.info"
+      "AssociateId": 90,
+      "EmailAddress": "doris.schmidt@turcotte.info"
     },
     {
-      "AssociateId": 277,
-      "EmailAddress": "brody@hansencasper.info"
+      "AssociateId": 90,
+      "EmailAddress": "doris.schmidt@turcotte.info"
     }
   ]
 }

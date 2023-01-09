@@ -42,16 +42,15 @@ POST /api/v1/Agents/Project/UpdateProjectMember?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectMember 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectMember |  | A person can be a member of multiple projects, with a different comment and member type in each project. <para /> Carrier object for ProjectMember. Services for the ProjectMember Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>. |
+| ProjectMember | ProjectMember | A person can be a member of multiple projects, with a different comment and member type in each project. <para /> Carrier object for ProjectMember. Services for the ProjectMember Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectMember
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +83,7 @@ Response body:
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,7 +92,7 @@ Response body:
 POST /api/v1/Agents/Project/UpdateProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,33 +107,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 370,
-  "ContactId": 366,
-  "ProjectId": 864,
-  "ContactName": "Marks LLC",
+  "ProjectmemberId": 390,
+  "ContactId": 208,
+  "ProjectId": 937,
+  "ContactName": "Murphy, Hoeger and Schiller",
   "ContactDepartment": "",
-  "ProjectName": "Tillman-Macejkovic",
-  "EmailId": 775,
-  "EmailAddress": "irwin@steuberanderson.uk",
-  "CountryId": 843,
-  "Firstname": "Caleigh",
-  "MiddleName": "Schmidt, Stark and Torphy",
-  "Lastname": "Hamill",
-  "PersonId": 966,
-  "Mrmrs": "autem",
-  "ProjectMemberTypeName": "Satterfield Inc and Sons",
-  "Phone": "(221)776-3396 x1681",
-  "PhoneId": 121,
-  "ProjectMemberTypeId": 372,
-  "EmailAddressName": "angelina@schinnerankunding.name",
-  "Comment": "et",
-  "FullName": "Trey Miller DVM",
+  "ProjectName": "Heller-O'Kon",
+  "EmailId": 60,
+  "EmailAddress": "mya@kilbackhaley.name",
+  "CountryId": 467,
+  "Firstname": "Elenor",
+  "MiddleName": "Bergnaum, Leffler and Konopelski",
+  "Lastname": "Goodwin",
+  "PersonId": 974,
+  "Mrmrs": "quisquam",
+  "ProjectMemberTypeName": "Fritsch-Schneider",
+  "Phone": "(276)870-1817 x096",
+  "PhoneId": 715,
+  "ProjectMemberTypeId": 714,
+  "EmailAddressName": "bianka@schuppe.ca",
+  "Comment": "est",
+  "FullName": "Fern Kiehn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 679
+      "FieldLength": 651
     }
   }
 }

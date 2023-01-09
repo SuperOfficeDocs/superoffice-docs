@@ -42,24 +42,23 @@ POST /api/v1/Agents/Archive/ExportArchive?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Context, DesiredEntities, Columns, SortOrder, Restrictions, ExportType, SelectedRowIds, EstimatedRowCount 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Context | string |  |
-| DesiredEntities | array |  |
-| Columns | array |  |
-| SortOrder | array |  |
-| Restrictions | array |  |
-| ExportType | string |  |
-| SelectedRowIds | array |  |
-| EstimatedRowCount | int32 |  |
+| ProviderName | String |  |
+| Context | String |  |
+| DesiredEntities | Array |  |
+| Columns | Array |  |
+| SortOrder | Array |  |
+| Restrictions | Array |  |
+| ExportType | String |  |
+| SelectedRowIds | Array |  |
+| EstimatedRowCount | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -67,14 +66,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ExportArchiveResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | BatchTaskId | int32 | Id of the BatchTask created. &lt;=0 if no BatchTask was created. |
 | FileName | string | The path to the output file created, if it exists. Will be an empty string if no file was created. |
 | Message | string | Descriptive messages; errors, etc. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,41 +82,41 @@ Response body:
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hudson, Lubowitz and Stiedemann",
-  "Context": "commodi",
+  "ProviderName": "Nicolas, West and Lockman",
+  "Context": "quis",
   "DesiredEntities": [
-    "fugiat",
-    "accusantium"
+    "voluptatibus",
+    "omnis"
   ],
   "Columns": [
-    "adipisci",
-    "esse"
+    "iure",
+    "dolores"
   ],
   "SortOrder": [
     {
-      "Name": "Leuschke, Glover and Nitzsche",
+      "Name": "Berge LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Leuschke, Glover and Nitzsche",
+      "Name": "Berge LLC",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Mohr, Willms and Heaney",
-      "Operator": "consequatur",
+      "Name": "Flatley-Daugherty",
+      "Operator": "sunt",
       "Values": [
-        "nesciunt",
-        "iusto"
+        "deserunt",
+        "atque"
       ],
       "DisplayValues": [
-        "nihil",
-        "vel"
+        "esse",
+        "tempore"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,17 +124,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 667,
+      "InterParenthesis": 686,
       "InterOperator": "And",
-      "UniqueHash": 443
+      "UniqueHash": 720
     }
   ],
-  "ExportType": "dolores",
+  "ExportType": "voluptas",
   "SelectedRowIds": [
-    "vitae",
-    "aut"
+    "corporis",
+    "libero"
   ],
-  "EstimatedRowCount": 506
+  "EstimatedRowCount": 810
 }
 ```
 
@@ -146,15 +145,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 489,
-  "FileName": "Gleason-Dach",
-  "Message": "nesciunt",
+  "BatchTaskId": 800,
+  "FileName": "DuBuque-Zieme",
+  "Message": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 28
+      "FieldType": "System.Int32",
+      "FieldLength": 974
     }
   }
 }

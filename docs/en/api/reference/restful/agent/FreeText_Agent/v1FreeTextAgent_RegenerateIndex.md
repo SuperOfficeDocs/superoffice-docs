@@ -42,16 +42,15 @@ POST /api/v1/Agents/FreeText/RegenerateIndex?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 RunAsBatch 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RunAsBatch | bool |  |
+| RunAsBatch | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BatchTaskInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +83,7 @@ Response body:
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,11 +92,11 @@ Response body:
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -108,36 +107,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 620,
-  "Name": "Emard, Christiansen and Hoppe",
-  "AssociateId": 57,
-  "DetailsTable": 619,
-  "DetailsRecord": 512,
+  "Id": 505,
+  "Name": "Senger LLC",
+  "AssociateId": 911,
+  "DetailsTable": 839,
+  "DetailsRecord": 796,
   "IsSystemTask": true,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "tenetur",
-    "ParameterObject2": "ab"
+    "ParameterObject1": "consequatur",
+    "ParameterObject2": "nobis"
   },
-  "LastStarted": "2011-11-07T02:49:44.561046+01:00",
-  "Created": "2008-11-11T02:49:44.561046+01:00",
-  "StartCount": 330,
-  "DatabaseSerialNumber": "783525",
-  "Context": "omnis",
-  "Result": "explicabo",
+  "LastStarted": "2021-10-22T17:37:18.119241+02:00",
+  "Created": "2002-02-03T17:37:18.119241+01:00",
+  "StartCount": 717,
+  "DatabaseSerialNumber": "1413428",
+  "Context": "assumenda",
+  "Result": "voluptatibus",
   "State": "All",
-  "Description": "Multi-lateral bi-directional complexity",
-  "Response": "deserunt",
-  "Request": "molestias",
-  "ProgressDescription": "Switchable optimizing parallelism",
-  "ProgressPercent": 545,
-  "FileName": "Fahey LLC",
+  "Description": "Multi-tiered full-range alliance",
+  "Response": "facilis",
+  "Request": "ex",
+  "ProgressDescription": "Visionary homogeneous projection",
+  "ProgressPercent": 678,
+  "FileName": "Goldner Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 214
+      "FieldType": "System.Int32",
+      "FieldLength": 319
     }
   }
 }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetEMailAsStream
 Retrieve an e-mail optionally stripping attachments as a stream
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,18 +44,17 @@ POST /api/v1/Agents/EMail/GetEMailAsStream?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConnectionInfo, MessageServerId, StripAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-| MessageServerId | int32 |  |
-| StripAttachments | bool |  |
+| ConnectionInfo | EMailConnectionInfo | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| MessageServerId | Integer |  |
+| StripAttachments | Boolean |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -65,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -74,13 +71,13 @@ Response body: byte
 POST /api/v1/Agents/EMail/GetEMailAsStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 94,
-  "StripAttachments": false
+  "MessageServerId": 195,
+  "StripAttachments": true
 }
 ```
 

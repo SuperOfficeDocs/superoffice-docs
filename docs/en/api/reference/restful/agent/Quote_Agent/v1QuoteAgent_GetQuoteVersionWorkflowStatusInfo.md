@@ -44,16 +44,15 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowStatusInfo?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
+| QuoteVersionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteVersionStatusInformation
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body:
 | IconHint | string | Icon hint for the associated message. |
 | DisplayMessage | string | Generated error message for the Quote Version. Will check for errors on quote lines, alternatives and the version itself. |
 | DisplayTooltip | string | Generated full tooltip for the Quote Version. Will check for errors on quote lines, alternatives and the version itself. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,11 +77,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowStatusInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 234
+  "QuoteVersionId": 638
 }
 ```
 
@@ -94,15 +93,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "Error",
-  "IconHint": "libero",
-  "DisplayMessage": "quibusdam",
-  "DisplayTooltip": "velit",
+  "IconHint": "assumenda",
+  "DisplayMessage": "aut",
+  "DisplayTooltip": "fuga",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 448
     }
   }
 }

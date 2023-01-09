@@ -44,16 +44,15 @@ POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteLineConfigurations 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLineConfigurations | array |  |
+| QuoteLineConfigurations | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body: array
 | Mandatory | bool | Is this a mandatory field? |
 | Rank | int32 | Rank of the field |
 | RestrictEdit | bool | If true, then this field cannot be set readwrite or mandatory: It's bound to be readonly |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,21 +82,21 @@ Response body: array
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 752,
-      "FieldName": "Haag, Lowe and Friesen",
-      "Label": "nihil",
-      "Tooltip": "quia",
-      "Editable": false,
-      "InUse": false,
+      "QuoteLineConfigurationId": 885,
+      "FieldName": "Ebert Inc and Sons",
+      "Label": "aut",
+      "Tooltip": "sit",
+      "Editable": true,
+      "InUse": true,
       "Mandatory": false,
-      "Rank": 353,
-      "RestrictEdit": true
+      "Rank": 561,
+      "RestrictEdit": false
     }
   ]
 }
@@ -111,21 +110,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 64,
-    "FieldName": "Zieme-Hilpert",
-    "Label": "delectus",
-    "Tooltip": "nihil",
+    "QuoteLineConfigurationId": 773,
+    "FieldName": "Boyle, Davis and Bradtke",
+    "Label": "rem",
+    "Tooltip": "dolorum",
     "Editable": false,
-    "InUse": true,
-    "Mandatory": true,
-    "Rank": 184,
-    "RestrictEdit": false,
+    "InUse": false,
+    "Mandatory": false,
+    "Rank": 28,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 899
       }
     }
   }

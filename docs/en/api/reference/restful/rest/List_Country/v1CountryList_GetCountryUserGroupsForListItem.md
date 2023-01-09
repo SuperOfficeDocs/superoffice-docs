@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "Huel, Johnston and Kihn",
-    "ToolTip": "Suscipit beatae qui similique est fuga.",
-    "Deleted": false,
-    "Rank": 883,
-    "Type": "repudiandae",
-    "ColorBlock": 780,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2021-04-19T02:49:52.1721908+02:00",
+    "Id": 294,
+    "Name": "Greenfelder Group",
+    "ToolTip": "Repellendus dignissimos sit quos.",
+    "Deleted": true,
+    "Rank": 334,
+    "Type": "sed",
+    "ColorBlock": 270,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2003-03-20T17:37:39.9275086+01:00",
     "ChildItems": [
       {
-        "Id": 917,
-        "Name": "Armstrong LLC",
-        "ToolTip": "Rerum et libero.",
-        "Deleted": true,
-        "Rank": 261,
-        "Type": "non",
-        "ColorBlock": 249,
-        "IconHint": "ipsam",
+        "Id": 190,
+        "Name": "Becker, Lynch and Brakus",
+        "ToolTip": "Adipisci reiciendis tempore dolor sunt quo.",
+        "Deleted": false,
+        "Rank": 360,
+        "Type": "magni",
+        "ColorBlock": 223,
+        "IconHint": "deleniti",
         "Selected": false,
-        "LastChanged": "2019-05-20T02:49:52.1721908+02:00",
+        "LastChanged": "2015-02-04T17:37:39.9275086+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "est",
+        "ExtraInfo": "saepe",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Prof. Lenore Lysanne Heathcote",
+        "FullName": "Jacey Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 575
+            "FieldLength": 22
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "et",
+    "ExtraInfo": "harum",
+    "StyleHint": "incidunt",
     "Hidden": true,
-    "FullName": "Golden Bechtelar",
+    "FullName": "Davon Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldLength": 499
       }
     }
   }

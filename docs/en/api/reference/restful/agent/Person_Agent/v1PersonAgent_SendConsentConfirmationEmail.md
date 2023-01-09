@@ -38,20 +38,19 @@ POST /api/v1/Agents/Person/SendConsentConfirmationEmail?$select=name,department,
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, EmailAddress, EmailTemplateId, CultureLcidId, Subject 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| EmailAddress | string |  |
-| EmailTemplateId | int32 |  |
-| CultureLcidId | int32 |  |
-| Subject | string |  |
+| PersonId | Integer |  |
+| EmailAddress | String |  |
+| EmailTemplateId | Integer |  |
+| CultureLcidId | Integer |  |
+| Subject | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -59,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -72,11 +71,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 63,
-  "EmailAddress": "einar@tillman.info",
-  "EmailTemplateId": 856,
-  "CultureLcidId": 184,
-  "Subject": "qui"
+  "PersonId": 880,
+  "EmailAddress": "rachel@wunsch.biz",
+  "EmailTemplateId": 953,
+  "CultureLcidId": 518,
+  "Subject": "suscipit"
 }
 ```
 

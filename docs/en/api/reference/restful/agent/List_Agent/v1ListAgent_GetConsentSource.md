@@ -25,7 +25,7 @@ Gets a ConsentSource object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentSource?consentSourceId=94
+POST /api/v1/Agents/List/GetConsentSource?consentSourceId=72
 POST /api/v1/Agents/List/GetConsentSource?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetConsentSource?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ConsentSource
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +63,7 @@ Response body:
 | Key | string | The key used to uniquely identify this consent source |
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 744,
-  "Name": "Breitenberg-Monahan",
-  "Tooltip": "accusantium",
-  "Rank": 703,
-  "Key": "doloremque",
-  "MailTemplateId": 190,
+  "ConsentSourceId": 353,
+  "Name": "Runolfsson-Russel",
+  "Tooltip": "excepturi",
+  "Rank": 831,
+  "Key": "eaque",
+  "MailTemplateId": 240,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 943
+      "FieldType": "System.Int32",
+      "FieldLength": 317
     }
   }
 }

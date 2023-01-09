@@ -42,16 +42,15 @@ POST /api/v1/Agents/Contact/GetPersons?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
+| ContactId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,7 +102,7 @@ Response body: array
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -112,11 +111,11 @@ Response body: array
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 706
+  "ContactId": 412
 }
 ```
 
@@ -128,52 +127,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ut",
-    "PersonId": 105,
-    "Mrmrs": "et",
-    "Firstname": "Lurline",
-    "Lastname": "Boyle",
-    "MiddleName": "Gerlach-Little",
-    "Title": "eos",
-    "Description": "Visionary context-sensitive algorithm",
-    "Email": "amari@keelingruecker.name",
-    "FullName": "Elbert Johnson IV",
-    "DirectPhone": "215-561-2024",
-    "FormalName": "Collier Inc and Sons",
-    "CountryId": 588,
-    "ContactId": 489,
-    "ContactName": "Schneider Group",
-    "Retired": 917,
-    "Rank": 30,
-    "ActiveInterests": 925,
+    "Position": "vero",
+    "PersonId": 87,
+    "Mrmrs": "autem",
+    "Firstname": "Jessy",
+    "Lastname": "Abernathy",
+    "MiddleName": "Klocko-Hoppe",
+    "Title": "accusantium",
+    "Description": "Right-sized local utilisation",
+    "Email": "jaden@batz.uk",
+    "FullName": "Aiyana Borer",
+    "DirectPhone": "273.942.4153",
+    "FormalName": "Heathcote, Bode and Romaguera",
+    "CountryId": 345,
+    "ContactId": 423,
+    "ContactName": "Walter-Moore",
+    "Retired": 26,
+    "Rank": 810,
+    "ActiveInterests": 881,
     "ContactDepartment": "",
-    "ContactCountryId": 321,
-    "ContactOrgNr": "247556",
-    "FaxPhone": "858-277-3361",
-    "MobilePhone": "(503)153-3578",
-    "ContactPhone": "1-908-358-6101",
-    "AssociateName": "Cummerata-Wunsch",
-    "AssociateId": 644,
-    "UsePersonAddress": true,
-    "ContactFax": "a",
-    "Kanafname": "ipsam",
-    "Kanalname": "architecto",
-    "Post1": "inventore",
-    "Post2": "qui",
-    "Post3": "rem",
-    "EmailName": "yazmin@fahey.info",
-    "ContactFullName": "Cedrick Lydia Willms DVM",
-    "ActiveErpLinks": 949,
-    "TicketPriorityId": 354,
-    "SupportLanguageId": 616,
-    "SupportAssociateId": 240,
+    "ContactCountryId": 194,
+    "ContactOrgNr": "902429",
+    "FaxPhone": "(740)100-7907 x43811",
+    "MobilePhone": "1-081-370-4207",
+    "ContactPhone": "(822)230-0450 x44218",
+    "AssociateName": "Luettgen Group",
+    "AssociateId": 441,
+    "UsePersonAddress": false,
+    "ContactFax": "fuga",
+    "Kanafname": "est",
+    "Kanalname": "voluptatem",
+    "Post1": "voluptatem",
+    "Post2": "id",
+    "Post3": "atque",
+    "EmailName": "seamus_carroll@hermanquitzon.name",
+    "ContactFullName": "Ms. Marlee Sam Huel PhD",
+    "ActiveErpLinks": 923,
+    "TicketPriorityId": 170,
+    "SupportLanguageId": 362,
+    "SupportAssociateId": 389,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldType": "System.String",
+        "FieldLength": 543
       }
     }
   }

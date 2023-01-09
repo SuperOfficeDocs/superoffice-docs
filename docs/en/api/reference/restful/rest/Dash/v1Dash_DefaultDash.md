@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Dash
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,14 +52,14 @@ Response body:
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
 | Columns | int32 | How many columns there will be in the dashboard. |
-| Theme |  | The theme for this dashboard |
+| Theme | DashTheme | The theme for this dashboard |
 | VisibleForAll | int32 | True if visible for all |
 | VisibleForAssociates | array | Array of references to the visible for associates |
 | VisibleForGroups | array | Array of references to the visible for groups |
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 975,
-  "UniqueId": "sunt",
-  "Name": "Schultz-Boyle",
-  "Description": "Streamlined stable emulation",
-  "AssociateId": 150,
-  "Columns": 361,
+  "DashboardId": 420,
+  "UniqueId": "eum",
+  "Name": "Koelpin Group",
+  "Description": "Reactive zero tolerance encoding",
+  "AssociateId": 752,
+  "Columns": 728,
   "Theme": null,
-  "VisibleForAll": 573,
+  "VisibleForAll": 683,
   "VisibleForAssociates": [
-    551,
-    857
+    956,
+    420
   ],
   "VisibleForGroups": [
-    394,
-    606
+    43,
+    4
   ],
-  "PinForAll": 171,
+  "PinForAll": 372,
   "PinForAssociates": [
-    616,
-    680
+    282,
+    949
   ],
   "PinForGroups": [
-    877,
-    347
+    660,
+    480
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldType": "System.String",
+      "FieldLength": 97
     }
   }
 }

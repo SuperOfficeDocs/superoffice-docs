@@ -32,7 +32,7 @@ Currently published ContactEntity user-defined field layout.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +78,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 93,
-    "ColumnId": 843,
-    "FieldDefault": "molestiae",
-    "FieldHeight": 898,
-    "FieldLabel": "eum",
-    "FieldLeft": 336,
-    "FieldTop": 477,
+    "UDefFieldId": 125,
+    "ColumnId": 821,
+    "FieldDefault": "doloremque",
+    "FieldHeight": 461,
+    "FieldLabel": "iusto",
+    "FieldLeft": 466,
+    "FieldTop": 340,
     "FieldType": "Checkbox",
-    "FieldWidth": 591,
-    "FormatMask": "aut",
-    "HideLabel": true,
+    "FieldWidth": 333,
+    "FormatMask": "officia",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 913,
-    "LabelLeft": 784,
-    "LabelTop": 537,
-    "LabelWidth": 394,
-    "LastVersionId": 518,
-    "ListTableId": 827,
+    "LabelHeight": 785,
+    "LabelLeft": 899,
+    "LabelTop": 146,
+    "LabelWidth": 907,
+    "LastVersionId": 11,
+    "ListTableId": 119,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 532,
-    "ProgId": "illum",
+    "Page1LineNo": 720,
+    "ProgId": "ut",
     "IsReadOnly": false,
-    "ShortLabel": "omnis",
-    "TabOrder": 676,
-    "TextLength": 232,
-    "Tooltip": "ad",
-    "UdefIdentity": 41,
-    "UDListDefinitionId": 870,
+    "ShortLabel": "ea",
+    "TabOrder": 287,
+    "TextLength": 365,
+    "Tooltip": "dolorum",
+    "UdefIdentity": 936,
+    "UDListDefinitionId": 685,
     "Justification": "Center",
-    "Version": 486,
-    "TemplateVariableName": "Lind Group",
+    "Version": 834,
+    "TemplateVariableName": "Collins Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Heathcote-Wuckert",
+    "MdoListName": "Bogisich-Klein",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldType": "System.String",
+        "FieldLength": 3
       }
     }
   }

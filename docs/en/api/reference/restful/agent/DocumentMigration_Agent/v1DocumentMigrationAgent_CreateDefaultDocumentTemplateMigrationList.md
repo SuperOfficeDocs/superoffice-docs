@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentTemplateMigrationList
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,11 +69,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumTemplatesOmitted": 644,
-  "NumTemplatesAlreadyMigrated": 466,
+  "NumTemplatesOmitted": 949,
+  "NumTemplatesAlreadyMigrated": 774,
   "TemplateIds": [
-    441,
-    975
+    843,
+    960
   ]
 }
 ```

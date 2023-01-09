@@ -38,7 +38,7 @@ Calls the List agent service GetDocumentTemplateEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -47,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: DocumentTemplateEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +76,7 @@ Response body:
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 334,
-  "Name": "Schmidt-Schmitt",
-  "Tooltip": "ut",
-  "SaveInDb": 798,
-  "Filename": "est",
-  "DefaultOref": "animi",
+  "DocumentTemplateId": 166,
+  "Name": "Blick-Ziemann",
+  "Tooltip": "quae",
+  "SaveInDb": 30,
+  "Filename": "voluptates",
+  "DefaultOref": "expedita",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 748,
-  "IntentId": 877,
-  "IsDefaultPublished": false,
-  "Rank": 73,
-  "LoadTemplateFromPlugin": 117,
-  "MimeType": "non",
+  "AutoeventId": 589,
+  "IntentId": 895,
+  "IsDefaultPublished": true,
+  "Rank": 820,
+  "LoadTemplateFromPlugin": 871,
+  "MimeType": "ut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 420,
+  "DocumentTypeKey": 402,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "angeline@damore.com",
+  "EmailSubject": "rahul@cummings.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lorena@dickinson.co.uk",
+  "SenderEmailAddress": "colten@runolfssonleffler.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 309
+      "FieldLength": 329
     }
   }
 }

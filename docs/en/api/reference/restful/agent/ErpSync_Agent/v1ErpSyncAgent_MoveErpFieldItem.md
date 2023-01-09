@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/MoveErpFieldItem
 Moves the rank of the erp field up or down
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -42,19 +40,18 @@ POST /api/v1/Agents/ErpSync/MoveErpFieldItem?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpFieldId, Direction, ErpConnectionId, ErpActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpFieldId | int32 |  |
-| Direction | int32 |  |
-| ErpConnectionId | int32 |  |
-| ErpActorType | string |  |
+| ErpFieldId | Integer |  |
+| Direction | Integer |  |
+| ErpConnectionId | Integer |  |
+| ErpActorType | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -62,7 +59,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -71,13 +68,13 @@ Response body:
 POST /api/v1/Agents/ErpSync/MoveErpFieldItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 52,
-  "Direction": 348,
-  "ErpConnectionId": 90,
+  "ErpFieldId": 682,
+  "Direction": 667,
+  "ErpConnectionId": 471,
   "ErpActorType": "Customer"
 }
 ```

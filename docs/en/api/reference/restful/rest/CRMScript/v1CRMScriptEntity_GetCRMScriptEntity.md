@@ -51,7 +51,7 @@ GET /api/v1/CRMScript/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 CRMScriptEntity found.
 
@@ -60,7 +60,7 @@ CRMScriptEntity found.
 | 200 | CRMScriptEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: CRMScriptEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -85,7 +85,7 @@ Response body:
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,28 +95,28 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 665,
-  "UniqueIdentifier": "eligendi",
-  "Name": "Willms LLC",
-  "Description": "Advanced stable pricing structure",
-  "IncludeId": "maiores",
-  "HierarchyId": 893,
-  "Source": "autem",
-  "Registered": "1995-09-21T02:49:50.8546634+02:00",
-  "RegisteredAssociateId": 389,
-  "Updated": "2006-01-23T02:49:50.8546634+01:00",
-  "UpdatedAssociateId": 588,
+  "EjscriptId": 46,
+  "UniqueIdentifier": "tenetur",
+  "Name": "Grimes-Hagenes",
+  "Description": "Enterprise-wide bifurcated implementation",
+  "IncludeId": "et",
+  "HierarchyId": 439,
+  "Source": "sit",
+  "Registered": "1999-06-14T17:37:38.4838596+02:00",
+  "RegisteredAssociateId": 466,
+  "Updated": "1999-02-16T17:37:38.4838596+01:00",
+  "UpdatedAssociateId": 98,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 350
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

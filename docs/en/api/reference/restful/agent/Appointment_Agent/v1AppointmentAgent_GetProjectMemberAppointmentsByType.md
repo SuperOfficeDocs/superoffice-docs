@@ -44,20 +44,19 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, StartTime, EndTime, Count, AppointmentType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| AppointmentType | string |  |
+| PersonId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| AppointmentType | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -127,14 +126,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 118,
-  "StartTime": "2021-10-09T02:49:43.1992469+02:00",
-  "EndTime": "2000-08-11T02:49:43.1992469+02:00",
-  "Count": 386,
+  "PersonId": 712,
+  "StartTime": "2016-10-03T17:37:16.2112418+02:00",
+  "EndTime": "2012-01-18T17:37:16.2112418+01:00",
+  "Count": 922,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -147,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 704,
-    "StartDate": "2021-01-23T02:49:43.1992469+01:00",
-    "EndDate": "2017-08-03T02:49:43.1992469+02:00",
+    "AppointmentId": 532,
+    "StartDate": "2001-06-08T17:37:16.2132411+02:00",
+    "EndDate": "2011-06-23T17:37:16.2132411+02:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "America McLaughlin",
-    "ContactName": "Cremin, Pollich and Pollich",
-    "Description": "Team-oriented assymetric access",
-    "PersonFullName": "Warren Omari Goldner III",
-    "PersonId": 693,
-    "ContactId": 247,
-    "ProjectId": 104,
-    "ProjectName": "Swaniawski Group",
-    "IsPublished": false,
-    "AssociateId": 225,
-    "ColorIndex": 316,
-    "IsFree": false,
+    "Task": "impedit",
+    "AssociateFullName": "Miss Marta Davion Nader",
+    "ContactName": "Reichel Group",
+    "Description": "User-friendly fault-tolerant protocol",
+    "PersonFullName": "Stephan Runolfsdottir",
+    "PersonId": 443,
+    "ContactId": 573,
+    "ProjectId": 437,
+    "ProjectName": "Kshlerin-Stiedemann",
+    "IsPublished": true,
+    "AssociateId": 259,
+    "ColorIndex": 418,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 541,
-    "PriorityName": "Reynolds Inc and Sons",
+    "PriorityId": 117,
+    "PriorityName": "King Group",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2013-05-19T02:49:43.1992469+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2012-09-29T17:37:16.2132411+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-07-03T02:49:43.1992469+02:00",
-    "RecurringEndDate": "2012-11-24T02:49:43.1992469+01:00",
-    "MotherId": 742,
-    "AssignedBy": 733,
-    "AssignedByFullName": "Jacques Rice",
+    "RecurringStartDate": "2011-11-30T17:37:16.2132411+01:00",
+    "RecurringEndDate": "2005-11-08T17:37:16.2132411+01:00",
+    "MotherId": 904,
+    "AssignedBy": 826,
+    "AssignedByFullName": "Mrs. Raphael Lueilwitz",
     "RejectReason": "",
-    "Location": "sit",
-    "AlarmLeadTime": "quis",
-    "SaleId": 222,
-    "SaleName": "Kilback-Quitzon",
-    "AssociateName": "Mosciski-Kovacek",
-    "CreatedDate": "2005-05-24T02:49:43.1992469+02:00",
-    "CreatedBy": "hic",
-    "CreatedByFullName": "Madie Huel",
-    "CreatedByAssociateId": 280,
+    "Location": "illum",
+    "AlarmLeadTime": "aspernatur",
+    "SaleId": 271,
+    "SaleName": "Schuster Group",
+    "AssociateName": "Ward-Farrell",
+    "CreatedDate": "2022-05-10T17:37:16.2142421+02:00",
+    "CreatedBy": "rerum",
+    "CreatedByFullName": "Peyton Prosacco",
+    "CreatedByAssociateId": 694,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 353
+        "FieldType": "System.Int32",
+        "FieldLength": 662
       }
     }
   }

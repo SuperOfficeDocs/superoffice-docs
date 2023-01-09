@@ -42,16 +42,15 @@ POST /api/v1/Agents/Targets/ExportTargetGroupToExcel?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TargetGroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TargetGroupId | int32 |  |
+| TargetGroupId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,14 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ExportArchiveResult
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | BatchTaskId | int32 | Id of the BatchTask created. &lt;=0 if no BatchTask was created. |
 | FileName | string | The path to the output file created, if it exists. Will be an empty string if no file was created. |
 | Message | string | Descriptive messages; errors, etc. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,11 +74,11 @@ Response body:
 POST /api/v1/Agents/Targets/ExportTargetGroupToExcel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 914
+  "TargetGroupId": 288
 }
 ```
 
@@ -90,15 +89,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 618,
-  "FileName": "Wisoky-O'Hara",
-  "Message": "facilis",
+  "BatchTaskId": 70,
+  "FileName": "Bogan, Volkman and Torphy",
+  "Message": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldLength": 818
     }
   }
 }

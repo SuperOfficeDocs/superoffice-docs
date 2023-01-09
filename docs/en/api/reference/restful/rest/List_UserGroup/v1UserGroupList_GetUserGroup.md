@@ -38,7 +38,7 @@ Calls the User agent service GetUserGroup.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -47,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: UserGroup
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +56,7 @@ Response body:
 | Id | int32 | Primary key |
 | Rank | int32 | Rank order |
 | Deleted | bool | Deleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -65,7 +65,7 @@ Response body:
 GET /api/v1/List/UserGroup/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,17 +75,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "ducimus",
-  "Tooltip": "numquam",
-  "Id": 694,
-  "Rank": 535,
-  "Deleted": true,
+  "Value": "impedit",
+  "Tooltip": "vero",
+  "Id": 184,
+  "Rank": 559,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 742
+      "FieldType": "System.Int32",
+      "FieldLength": 387
     }
   }
 }

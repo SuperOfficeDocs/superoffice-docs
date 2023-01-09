@@ -44,17 +44,16 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, Criteria 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| Criteria | array |  |
+| SelectionId | Integer |  |
+| Criteria | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,25 +76,25 @@ Response body: array
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 758,
+  "SelectionId": 680,
   "Criteria": [
     {
-      "Name": "Wintheiser-Kiehn",
-      "Description": "Networked dedicated firmware",
-      "Rank": 132,
+      "Name": "Gleason-Brakus",
+      "Description": "Extended bandwidth-monitored flexibility",
+      "Rank": 944,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wintheiser-Kiehn",
-      "Description": "Networked dedicated firmware",
-      "Rank": 132,
+      "Name": "Gleason-Brakus",
+      "Description": "Extended bandwidth-monitored flexibility",
+      "Rank": 944,
       "Restrictions": [
         {},
         {}
@@ -113,20 +112,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walker-Beer",
-    "Description": "Multi-channelled motivating neural-net",
-    "Rank": 900,
+    "Name": "Champlin, Bauch and Wilderman",
+    "Description": "Proactive optimal solution",
+    "Rank": 640,
     "Restrictions": [
       {
-        "Name": "Botsford, Gusikowski and Stokes",
-        "Operator": "tempore",
+        "Name": "Hammes-Gulgowski",
+        "Operator": "et",
         "Values": [
-          "ab",
-          "rerum"
+          "officia",
+          "est"
         ],
         "DisplayValues": [
-          "sed",
-          "veniam"
+          "modi",
+          "dolores"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +133,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 794,
+        "InterParenthesis": 300,
         "InterOperator": "And",
-        "UniqueHash": 175
+        "UniqueHash": 953
       }
     ]
   },
   {
-    "Name": "Walker-Beer",
-    "Description": "Multi-channelled motivating neural-net",
-    "Rank": 900,
+    "Name": "Champlin, Bauch and Wilderman",
+    "Description": "Proactive optimal solution",
+    "Rank": 640,
     "Restrictions": [
       {
-        "Name": "Botsford, Gusikowski and Stokes",
-        "Operator": "tempore",
+        "Name": "Hammes-Gulgowski",
+        "Operator": "et",
         "Values": [
-          "ab",
-          "rerum"
+          "officia",
+          "est"
         ],
         "DisplayValues": [
-          "sed",
-          "veniam"
+          "modi",
+          "dolores"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +161,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 794,
+        "InterParenthesis": 300,
         "InterOperator": "And",
-        "UniqueHash": 175
+        "UniqueHash": 953
       }
     ]
   }

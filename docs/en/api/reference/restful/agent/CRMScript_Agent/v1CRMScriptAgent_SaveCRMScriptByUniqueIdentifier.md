@@ -12,8 +12,6 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Create or Update the CRMScript information
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UniqueIdentifier, Crmscript 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UniqueIdentifier | string |  |
-| Crmscript |  | The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration. <para /> Carrier object for Script. Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
+| UniqueIdentifier | String |  |
+| Crmscript | Script | The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration. <para /> Carrier object for Script. Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Script
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +75,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,7 +88,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "corrupti",
+  "UniqueIdentifier": "et",
   "Crmscript": null
 }
 ```
@@ -103,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "facere",
-  "Name": "Feest, Ward and Dach",
-  "Description": "Cross-platform contextually-based hierarchy",
-  "IncludeId": "assumenda",
-  "Source": "perferendis",
-  "Registered": "2011-01-20T02:49:44.0129044+01:00",
-  "RegisteredBy": "natus",
-  "Updated": "2011-05-09T02:49:44.0129044+02:00",
-  "UpdatedBy": "vel",
-  "Path": "porro",
+  "UniqueIdentifier": "fuga",
+  "Name": "Mante, Runolfsdottir and Stiedemann",
+  "Description": "Progressive 24/7 access",
+  "IncludeId": "dolores",
+  "Source": "sit",
+  "Registered": "2001-04-08T17:37:17.3282452+02:00",
+  "RegisteredBy": "et",
+  "Updated": "2008-08-29T17:37:17.3282452+02:00",
+  "UpdatedBy": "voluptas",
+  "Path": "earum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 175
+      "FieldLength": 657
     }
   }
 }

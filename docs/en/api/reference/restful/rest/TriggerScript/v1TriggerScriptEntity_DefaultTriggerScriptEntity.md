@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TriggerScriptEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +59,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -68,7 +68,7 @@ Response body:
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 910,
-  "Name": "Hickle, Steuber and Stamm",
+  "ScreenChooserId": 282,
+  "Name": "Gaylord LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "animi",
-  "Source": "tenetur",
-  "Registered": "2014-09-30T02:49:51.6710218+02:00",
-  "RegisteredAssociateId": 59,
-  "Updated": "2004-10-20T02:49:51.6710218+02:00",
-  "UpdatedAssociateId": 879,
+  "Enabled": false,
+  "UniqueIdentifier": "dolorem",
+  "Source": "optio",
+  "Registered": "2002-03-26T17:37:39.3884259+01:00",
+  "RegisteredAssociateId": 286,
+  "Updated": "1999-04-17T17:37:39.3884259+02:00",
+  "UpdatedAssociateId": 897,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldType": "System.String",
+      "FieldLength": 257
     }
   }
 }

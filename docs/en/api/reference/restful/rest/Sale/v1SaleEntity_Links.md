@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,14 +73,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Links?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Links?$orderBy=name asc
-GET /api/v1/Sale/{id}/Links?$entities=est
-GET /api/v1/Sale/{id}/Links?$top=960
-GET /api/v1/Sale/{id}/Links?$skip=709
+GET /api/v1/Sale/{id}/Links?$entities=similique
+GET /api/v1/Sale/{id}/Links?$top=931
+GET /api/v1/Sale/{id}/Links?$skip=284
 GET /api/v1/Sale/{id}/Links?$mode=Full
 GET /api/v1/Sale/{id}/Links?$options=GrandTotal=true
 GET /api/v1/Sale/{id}/Links?$context=ut
 GET /api/v1/Sale/{id}/Links?$format=JSON
-GET /api/v1/Sale/{id}/Links?$jsonSafe=True
+GET /api/v1/Sale/{id}/Links?$jsonSafe=False
 GET /api/v1/Sale/{id}/Links?$output=Display
 ```
 
@@ -100,7 +99,7 @@ GET /api/v1/Sale/{id}/Links?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Sale/{id}/Links
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -137,16 +136,18 @@ Content-Type: application/json; charset=utf-8
   "odata.nextLink": "quia",
   "value": [
     {
-      "PrimaryKey": 5191,
-      "EntityName": "person",
-      "personId": 5191,
-      "fullName": "Heath McKenzie"
+      "PrimaryKey": 2246,
+      "EntityName": "sale",
+      "saleId": 2246,
+      "contactId": 1979,
+      "name": "Jacobi, Predovic and Monahan"
     },
     {
-      "PrimaryKey": 9605,
-      "EntityName": "person",
-      "personId": 9605,
-      "fullName": "Karli Filomena O'Reilly DDS"
+      "PrimaryKey": 3426,
+      "EntityName": "sale",
+      "saleId": 3426,
+      "contactId": 5215,
+      "name": "VonRueden-Lemke"
     }
   ]
 }

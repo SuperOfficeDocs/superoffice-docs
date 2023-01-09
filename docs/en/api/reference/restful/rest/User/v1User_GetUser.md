@@ -35,7 +35,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=False
+GET /api/v1/User/{id}?fk=True
 ```
 
 
@@ -53,7 +53,7 @@ GET /api/v1/User/{id}?fk=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 User found.
 
@@ -62,7 +62,7 @@ User found.
 | 200 | User found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: UserWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,10 +71,10 @@ Response body:
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
 | OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -91,7 +91,7 @@ Response body:
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -101,7 +101,7 @@ Response body:
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -111,14 +111,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 496,
-  "Name": "Rogahn, Gutmann and Waelchi",
-  "Rank": 624,
-  "Tooltip": "cumque",
+  "AssociateId": 579,
+  "Name": "Schoen-Connelly",
+  "Rank": 894,
+  "Tooltip": "voluptas",
   "LicenseOwners": [
     {
-      "Name": "Purdy, Weimann and Ward",
-      "Description": "Integrated object-oriented concept",
+      "Name": "Mills, Krajcik and Rempel",
+      "Description": "Open-architected incremental algorithm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,14 +131,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldType": "System.String",
+          "FieldLength": 553
         }
       }
     },
     {
-      "Name": "Purdy, Weimann and Ward",
-      "Description": "Integrated object-oriented concept",
+      "Name": "Mills, Krajcik and Rempel",
+      "Description": "Open-architected incremental algorithm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -151,8 +151,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldType": "System.String",
+          "FieldLength": 553
         }
       }
     }
@@ -161,110 +161,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "distinctio",
-      "Tooltip": "doloribus",
-      "Id": 120,
-      "Rank": 949,
+      "Value": "voluptatem",
+      "Tooltip": "fugit",
+      "Id": 856,
+      "Rank": 456,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 118
+          "FieldType": "System.Int32",
+          "FieldLength": 592
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "1998-05-13T02:49:51.796023+02:00",
-  "Lastlogout": "2015-06-30T02:49:51.796023+02:00",
-  "EjUserId": 774,
-  "RequestSignature": "esse",
+  "Deleted": false,
+  "Lastlogin": "2018-02-17T17:37:39.5354394+01:00",
+  "Lastlogout": "2001-09-24T17:37:39.5354394+02:00",
+  "EjUserId": 307,
+  "RequestSignature": "odio",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "saepe",
-      "DisplayValue": "omnis",
+      "Value": "aspernatur",
+      "DisplayValue": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 862
+          "FieldType": "System.Int32",
+          "FieldLength": 805
         }
       }
     },
     {
       "Type": null,
-      "Value": "saepe",
-      "DisplayValue": "omnis",
+      "Value": "aspernatur",
+      "DisplayValue": "laboriosam",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 805
+        }
+      }
+    }
+  ],
+  "UserName": "Kris Group",
+  "TicketCategories": [
+    {
+      "Id": 30,
+      "Name": "Stehr, Goldner and Schmeler",
+      "ToolTip": "Dolor maxime sit sed iste rerum qui.",
+      "Deleted": true,
+      "Rank": 525,
+      "Type": "voluptatem",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "laudantium",
+      "ColorBlock": 587,
+      "ExtraInfo": "animi",
+      "StyleHint": "aut",
+      "FullName": "Mr. Marisol Wyman III",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 570
+        }
+      }
+    }
+  ],
+  "NickName": "Rath-Treutel",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "et",
+    "ExtraFields2": "qui"
+  },
+  "CustomFields": {
+    "CustomFields1": "debitis",
+    "CustomFields2": "nostrum"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kirlin, Adams and Daniel",
+      "DisplayName": "Auer Inc and Sons",
+      "Description": "Phased mission-critical knowledge user",
+      "ToolTip": "Sit reiciendis earum nihil quod id est.",
+      "Actions": "Implicit",
+      "ActionData": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 862
-        }
-      }
-    }
-  ],
-  "UserName": "Marvin, Russel and Dickinson",
-  "TicketCategories": [
-    {
-      "Id": 72,
-      "Name": "Mitchell-Beer",
-      "ToolTip": "Quaerat alias.",
-      "Deleted": true,
-      "Rank": 846,
-      "Type": "dicta",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "voluptatibus",
-      "ColorBlock": 308,
-      "ExtraInfo": "inventore",
-      "StyleHint": "temporibus",
-      "FullName": "Carmine Gislason",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 3
-        }
-      }
-    }
-  ],
-  "NickName": "Hammes, Jaskolski and Morar",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "enim"
-  },
-  "CustomFields": {
-    "CustomFields1": "quidem",
-    "CustomFields2": "qui"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Moore, Sporer and Klein",
-      "DisplayName": "Funk-Cronin",
-      "Description": "Reverse-engineered client-driven website",
-      "ToolTip": "Voluptatem vel illo fugiat aut repellendus ipsam dignissimos.",
-      "Actions": "Implicit",
-      "ActionData": "rerum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 115
+          "FieldLength": 398
         }
       }
     }
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldType": "System.Int32",
+      "FieldLength": 557
     }
   },
   "_Links": {

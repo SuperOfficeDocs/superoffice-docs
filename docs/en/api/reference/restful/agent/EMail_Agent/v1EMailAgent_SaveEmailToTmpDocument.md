@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
 Save the Email as a tmp document ready to archive
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,18 +44,17 @@ POST /api/v1/Agents/EMail/SaveEmailToTmpDocument?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Email, FolderId, StripAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Email |  | All information about an e-mail <para /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-| FolderId | int32 |  |
-| StripAttachments | bool |  |
+| Email | EMailEntity | All information about an e-mail <para /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| FolderId | Integer |  |
+| StripAttachments | Boolean |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -65,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -74,13 +71,13 @@ Response body: string
 POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Email": null,
-  "FolderId": 201,
-  "StripAttachments": false
+  "FolderId": 672,
+  "StripAttachments": true
 }
 ```
 
@@ -90,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"clara_reinger@pfeffer.com"
+"curtis.pollich@nolan.ca"
 ```

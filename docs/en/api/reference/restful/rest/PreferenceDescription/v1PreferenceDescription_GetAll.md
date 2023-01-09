@@ -32,7 +32,7 @@ Gets a list of all PreferenceDescriptions in the system.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +62,7 @@ Response body: array
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +71,7 @@ Response body: array
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 592,
-    "Section": "sed",
-    "Key": "ipsam",
-    "Name": "Bergnaum Inc and Sons",
+    "PrefDescId": 161,
+    "Section": "autem",
+    "Key": "dolorum",
+    "Name": "Upton, Moore and Klein",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Customizable 24 hour portal",
+    "Description": "Profit-focused composite hierarchy",
     "IsBuiltin": false,
-    "TableName": "Heller, Koch and Koss",
-    "UserDefinedListId": 521,
-    "Rank": 243,
-    "SubGroup": "minima",
-    "MinLevel": 313,
-    "MaxValue": 435,
-    "MinValue": 984,
-    "RequiredLicense": "cum",
+    "TableName": "Kub, Emmerich and Watsica",
+    "UserDefinedListId": 424,
+    "Rank": 228,
+    "SubGroup": "corrupti",
+    "MinLevel": 171,
+    "MaxValue": 156,
+    "MinValue": 400,
+    "RequiredLicense": "delectus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 594
+        "FieldType": "System.Int32",
+        "FieldLength": 6
       }
     }
   }

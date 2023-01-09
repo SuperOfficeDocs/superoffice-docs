@@ -42,18 +42,17 @@ POST /api/v1/Agents/License/AssignThirdPartyLicenses?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId, ModuleOwner, ModuleLicenseNames 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
-| ModuleOwner | string |  |
-| ModuleLicenseNames | array |  |
+| AssociateId | Integer |  |
+| ModuleOwner | String |  |
+| ModuleLicenseNames | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body: array
 | PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
 | SortOrder | int32 | Sort order of licenses. |
 | ExtraFlags | int32 | License flags. 1 = user plan |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,15 +87,15 @@ Response body: array
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 645,
-  "ModuleOwner": "rem",
+  "AssociateId": 440,
+  "ModuleOwner": "est",
   "ModuleLicenseNames": [
-    "Farrell-Schowalter",
-    "Roberts Inc and Sons"
+    "Schmitt Group",
+    "Stiedemann, McDermott and Pagac"
   ]
 }
 ```
@@ -110,25 +109,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 822,
-    "Tooltip": "quo",
+    "Total": 672,
+    "Tooltip": "omnis",
     "CanAssign": false,
-    "Free": 745,
-    "InUse": 939,
+    "Free": 290,
+    "InUse": 107,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 588,
-    "Name": "Dietrich-Collier",
-    "Description": "Re-contextualized zero tolerance info-mediaries",
-    "PrerequisiteModuleName": "Torphy, Wiza and Jacobson",
-    "SortOrder": 223,
-    "ExtraFlags": 165,
+    "Assigned": false,
+    "ModuleLicenseId": 793,
+    "Name": "Thompson-Prohaska",
+    "Description": "Face to face bifurcated ability",
+    "PrerequisiteModuleName": "Cummerata, Boyle and Carroll",
+    "SortOrder": 654,
+    "ExtraFlags": 278,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldLength": 576
       }
     }
   }

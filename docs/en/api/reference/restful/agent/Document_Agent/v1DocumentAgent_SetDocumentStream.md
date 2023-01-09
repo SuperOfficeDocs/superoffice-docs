@@ -44,18 +44,17 @@ POST /api/v1/Agents/Document/SetDocumentStream?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentEntity, Stream, OverwriteExistingData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentEntity |  | Partial DocumentEntity class associating the generated DocumentEntity with an interface. |
-| Stream | byte |  |
-| OverwriteExistingData | bool |  |
+| DocumentEntity | DocumentEntity | Partial DocumentEntity class associating the generated DocumentEntity with an interface. |
+| Stream | String |  |
+| OverwriteExistingData | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,13 +62,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 | Primary key |
-| UpdatedBy |  | The person that last updated the appointment. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | Attention | string | Attention/salutation |
 | Header | string | Visible document name |
 | Name | string | File name |
@@ -78,11 +77,11 @@ Response body:
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| DocumentTemplate |  | The template type of the document.  <para>Use MDO List name "doctmpl" to get list items.</para> |
-| Person |  | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
-| Associate |  | The owner of the document - the associate whose checklist the document is in.  <para>Use MDO List name "associate" to get list items.</para> |
-| Contact |  | The contact associated with the document. It may also be null if no contact is associated with the document.  <para>Use MDO List name "contact" to get list items.</para> |
-| Project |  | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| DocumentTemplate | DocumentTemplate | The template type of the document.  <para>Use MDO List name "doctmpl" to get list items.</para> |
+| Person | Person | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
+| Associate | Associate | The owner of the document - the associate whose checklist the document is in.  <para>Use MDO List name "associate" to get list items.</para> |
+| Contact | Contact | The contact associated with the document. It may also be null if no contact is associated with the document.  <para>Use MDO List name "contact" to get list items.</para> |
+| Project | Project | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
 | Date | date-time | date + start time planned |
 | ExternalRef | string | External reference for document plugin to resolve document identity (Notes ID, e-mail message ID, whatever) |
 | Completed | string | Document Completed state. This is the part of the Status property. |
@@ -90,7 +89,7 @@ Response body:
 | Type | string | Is this a normal document or a mail-merge or report? |
 | Links | array | List of all elements linked to the document. |
 | LockSemantics | string |  |
-| Sale |  | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <para>Use MDO List name "sale" to get list items.</para> |
+| Sale | Sale | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedDocumentId | int32 | Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link) |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.DocumentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -101,7 +100,7 @@ Response body:
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -127,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 984,
+  "DocumentId": 545,
   "UpdatedBy": null,
   "CreatedBy": null,
   "Attention": "quis",
-  "Header": "necessitatibus",
-  "Name": "Hilll-Kertzmann",
-  "OurRef": "ut",
-  "YourRef": "quasi",
-  "CreatedDate": "2021-10-31T02:49:44.1378852+01:00",
-  "UpdatedDate": "2011-01-11T02:49:44.1378852+01:00",
-  "Description": "Fully-configurable full-range flexibility",
+  "Header": "voluptatum",
+  "Name": "Hayes LLC",
+  "OurRef": "nesciunt",
+  "YourRef": "eaque",
+  "CreatedDate": "2012-11-09T17:37:17.5102424+01:00",
+  "UpdatedDate": "2002-01-02T17:37:17.5102424+01:00",
+  "Description": "Upgradable regional archive",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-09-09T02:49:44.1535094+02:00",
-  "ExternalRef": "expedita",
+  "Date": "2021-05-02T17:37:17.5132419+02:00",
+  "ExternalRef": "sit",
   "Completed": "Completed",
-  "ActiveLinks": 158,
+  "ActiveLinks": 372,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Smith-Farrell",
-      "Id": 565,
-      "Description": "Digitized heuristic forecast",
-      "ExtraInfo": "natus",
-      "LinkId": 159,
+      "EntityName": "Brekke-Glover",
+      "Id": 506,
+      "Description": "Exclusive global circuit",
+      "ExtraInfo": "eius",
+      "LinkId": 900,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldType": "System.String",
+          "FieldLength": 461
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 805,
-  "Snum": 774,
+  "SuggestedDocumentId": 206,
+  "Snum": 227,
   "UserDefinedFields": {
-    "SuperOffice:1": "Johanna Bartoletti",
-    "SuperOffice:2": "1873981123"
+    "SuperOffice:1": "Furman Pollich",
+    "SuperOffice:2": "Dr. Dayne Nicolas DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "ducimus"
   },
   "CustomFields": {
-    "CustomFields1": "nisi",
-    "CustomFields2": "officia"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "1999-04-30T02:49:44.1535094+02:00",
-  "PublishTo": "2009-11-22T02:49:44.1535094+01:00",
-  "PublishFrom": "2011-02-20T02:49:44.1535094+01:00",
+  "PublishEventDate": "1998-02-06T17:37:17.5152419+01:00",
+  "PublishTo": "2012-02-17T17:37:17.5152419+01:00",
+  "PublishFrom": "2000-03-21T17:37:17.5152419+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 123,
+      "VisibleId": 947,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldLength": 562
         }
       }
     },
     {
-      "VisibleId": 123,
+      "VisibleId": 947,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldLength": 562
         }
       }
     }
@@ -217,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 305
+      "FieldType": "System.Int32",
+      "FieldLength": 115
     }
   }
 }

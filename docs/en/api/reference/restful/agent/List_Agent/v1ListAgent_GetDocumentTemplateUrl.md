@@ -42,18 +42,17 @@ POST /api/v1/Agents/List/GetDocumentTemplateUrl?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentTemplateId, WritableUrl, LanguageCode 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentTemplateId | int32 |  |
-| WritableUrl | bool |  |
-| LanguageCode | string |  |
+| DocumentTemplateId | Integer |  |
+| WritableUrl | Boolean |  |
+| LanguageCode | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -74,9 +73,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 535,
+  "DocumentTemplateId": 627,
   "WritableUrl": false,
-  "LanguageCode": "vero"
+  "LanguageCode": "dolores"
 }
 ```
 

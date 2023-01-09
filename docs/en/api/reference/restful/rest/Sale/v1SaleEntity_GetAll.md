@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=architecto
-GET /api/v1/Sale?$top=789
-GET /api/v1/Sale?$skip=194
+GET /api/v1/Sale?$entities=animi
+GET /api/v1/Sale?$top=635
+GET /api/v1/Sale?$skip=8
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=esse
+GET /api/v1/Sale?$context=rem
 GET /api/v1/Sale?$format=JSON
-GET /api/v1/Sale?$jsonSafe=True
+GET /api/v1/Sale?$jsonSafe=False
 GET /api/v1/Sale?$output=Display
 ```
 
@@ -96,7 +95,7 @@ GET /api/v1/Sale?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body:
 GET /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aut",
+  "odata.nextLink": "fugit",
   "value": [
     {
-      "PrimaryKey": 1381,
-      "EntityName": "person",
-      "personId": 1381,
-      "fullName": "Mrs. Norval Volkman DDS"
+      "PrimaryKey": 4078,
+      "EntityName": "sale",
+      "saleId": 4078,
+      "contactId": 2969,
+      "name": "Grady, Hauck and McClure"
     },
     {
-      "PrimaryKey": 8058,
-      "EntityName": "person",
-      "personId": 8058,
-      "fullName": "Hector Beer"
+      "PrimaryKey": 7540,
+      "EntityName": "sale",
+      "saleId": 7540,
+      "contactId": 1896,
+      "name": "Feil Group"
     }
   ]
 }

@@ -38,17 +38,16 @@ POST /api/v1/Agents/List/DeleteFromListDefinition?$select=name,department,catego
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Id, UdListDefinitionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 |  |
-| UdListDefinitionId | int32 |  |
+| Id | Integer |  |
+| UdListDefinitionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -69,8 +68,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 548,
-  "UdListDefinitionId": 658
+  "Id": 211,
+  "UdListDefinitionId": 508
 }
 ```
 

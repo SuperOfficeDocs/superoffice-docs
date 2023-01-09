@@ -38,17 +38,16 @@ POST /api/v1/Agents/List/SetRankOnProjectActivity?$select=name,department,catego
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectTypeStatusLinkId, ItemsIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectTypeStatusLinkId | int32 |  |
-| ItemsIds | array |  |
+| ProjectTypeStatusLinkId | Integer |  |
+| ItemsIds | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,14 +64,14 @@ Response body:
 POST /api/v1/Agents/List/SetRankOnProjectActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectTypeStatusLinkId": 666,
+  "ProjectTypeStatusLinkId": 440,
   "ItemsIds": [
-    63,
-    235
+    792,
+    877
   ]
 }
 ```

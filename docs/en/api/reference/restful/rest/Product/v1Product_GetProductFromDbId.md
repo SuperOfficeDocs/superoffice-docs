@@ -36,7 +36,7 @@ Get a product with the given database id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Product
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +82,7 @@ Response body:
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,7 +91,7 @@ Response body:
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 606,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "aut",
-  "Name": "Leffler, Jerde and Kohler",
-  "Description": "Total maximized access",
-  "Code": "dicta",
-  "PriceUnit": "ut",
-  "QuantityUnit": "fugiat",
+  "ProductId": 815,
+  "ERPProductKey": "dolorem",
+  "ERPPriceListKey": "ut",
+  "Name": "Mohr, Kuhlman and Larson",
+  "Description": "Programmable cohesive collaboration",
+  "Code": "et",
+  "PriceUnit": "magnam",
+  "QuantityUnit": "id",
   "IsSubscription": true,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 27262.665999999997,
-  "ItemNumber": "1489467",
+  "SubscriptionUnit": "architecto",
+  "DefaultSubscriptionQuantity": 12855.668,
+  "ItemNumber": "992787",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "excepturi",
-  "ProductTypeKey": "eaque",
-  "VAT": 15209.302,
-  "VATInfo": "qui",
-  "UnitCost": 24642.642,
-  "UnitMinimumPrice": 28121.381999999998,
-  "UnitListPrice": 20455.618,
+  "ProductFamilyKey": "voluptatum",
+  "ProductTypeKey": "cumque",
+  "VAT": 28431.647999999997,
+  "VATInfo": "quis",
+  "UnitCost": 14265.967999999999,
+  "UnitMinimumPrice": 8853.55,
+  "UnitListPrice": 13375.912,
   "InAssortment": false,
-  "Supplier": "modi",
-  "SupplierCode": "dolore",
-  "Rights": "aut",
-  "Rule": "modi",
+  "Supplier": "sunt",
+  "SupplierCode": "deserunt",
+  "Rights": "occaecati",
+  "Rule": "dolor",
   "ExtraInfo": [
     {
-      "Name": "Grady, Shields and Bins",
-      "Value": "vel",
+      "Name": "Rippin, Homenick and Robel",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 510
+          "FieldType": "System.Int32",
+          "FieldLength": 167
         }
       }
     },
     {
-      "Name": "Grady, Shields and Bins",
-      "Value": "vel",
+      "Name": "Rippin, Homenick and Robel",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 510
+          "FieldType": "System.Int32",
+          "FieldLength": 167
         }
       }
     }
   ],
-  "RawExtraInfo": "impedit",
-  "ExtraField1": "placeat",
-  "ExtraField2": "mollitia",
-  "ExtraField3": "voluptate",
-  "ExtraField4": "iusto",
+  "RawExtraInfo": "et",
+  "ExtraField1": "dolore",
+  "ExtraField2": "cupiditate",
+  "ExtraField3": "illo",
+  "ExtraField4": "rerum",
   "ExtraField5": "et",
-  "InStock": 13332.036,
+  "InStock": 3159.072,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldType": "System.String",
+      "FieldLength": 398
     }
   }
 }

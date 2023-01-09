@@ -34,7 +34,7 @@ This is the time zone used internally for storing data.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +60,7 @@ Response body:
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 425,
-  "Name": "Roob-Jast",
-  "TZLocationCode": "est",
-  "TZLocationCities": "dolore",
-  "IsoNumber": 102,
+  "TZLocationID": 978,
+  "Name": "Roob LLC",
+  "TZLocationCode": "eveniet",
+  "TZLocationCities": "quae",
+  "IsoNumber": 828,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 568,
-      "StartMonth": 136,
-      "EndDay": 228,
-      "EndMonth": 888,
-      "TZOffset": 952,
-      "StartRulePattern": "deserunt",
-      "EndRulePattern": "voluptas"
+      "StartDay": 133,
+      "StartMonth": 71,
+      "EndDay": 821,
+      "EndMonth": 149,
+      "TZOffset": 648,
+      "StartRulePattern": "in",
+      "EndRulePattern": "libero"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 537,
-      "StartMonth": 969,
-      "EndDay": 571,
-      "EndMonth": 384,
-      "TZOffset": 822,
-      "StartRulePattern": "deleniti",
-      "EndRulePattern": "odit"
+      "StartDay": 201,
+      "StartMonth": 764,
+      "EndDay": 291,
+      "EndMonth": 387,
+      "TZOffset": 409,
+      "StartRulePattern": "facilis",
+      "EndRulePattern": "vel"
     }
   }
 }

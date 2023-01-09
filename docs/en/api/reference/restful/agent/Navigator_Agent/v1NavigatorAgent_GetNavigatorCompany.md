@@ -25,7 +25,7 @@ Gets a NavigatorCompany object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Navigator/GetNavigatorCompany?navigatorCompanyId=769
+POST /api/v1/Agents/Navigator/GetNavigatorCompany?navigatorCompanyId=688
 POST /api/v1/Agents/Navigator/GetNavigatorCompany?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Navigator/GetNavigatorCompany?$select=name,department,catego
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,14 +52,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | Value | string |  |
 | Tooltip | string |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 338,
-  "Value": "voluptas",
-  "Tooltip": "cupiditate",
+  "Id": 32,
+  "Value": "eum",
+  "Tooltip": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 634
     }
   }
 }

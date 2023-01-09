@@ -24,7 +24,7 @@ Deletes the DashTile
 | DashTileId | int32 | **Required** The id of the DashTile to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTile?DashTileId=499
+POST /api/v1/Agents/Dash/DeleteDashTile?DashTileId=326
 ```
 
 
@@ -38,7 +38,7 @@ POST /api/v1/Agents/Dash/DeleteDashTile?DashTileId=499
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 No Content
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request

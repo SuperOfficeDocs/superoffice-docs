@@ -42,20 +42,19 @@ POST /api/v1/Agents/Appointment/GetDiaryByGroup?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 GroupId, GroupType, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| GroupId | int32 |  |
-| GroupType | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| GroupId | Integer |  |
+| GroupType | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -116,7 +115,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -125,15 +124,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 743,
-  "GroupType": 262,
-  "StartTime": "2020-07-19T02:49:43.2461231+02:00",
-  "EndTime": "2001-06-24T02:49:43.2461231+02:00",
-  "Count": 449
+  "GroupId": 366,
+  "GroupType": 491,
+  "StartTime": "2021-05-25T17:37:16.2652419+02:00",
+  "EndTime": "2018-04-24T17:37:16.2652419+02:00",
+  "Count": 668
 }
 ```
 
@@ -145,61 +144,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 305,
-    "StartDate": "2005-02-10T02:49:43.2461231+01:00",
-    "EndDate": "2017-03-03T02:49:43.2461231+01:00",
+    "AppointmentId": 973,
+    "StartDate": "1995-09-12T17:37:16.2662416+02:00",
+    "EndDate": "2008-03-27T17:37:16.2662416+01:00",
     "Type": "BookingForChecklist",
-    "Task": "provident",
-    "AssociateFullName": "Prof. Cierra Turcotte II",
-    "ContactName": "Sipes-DuBuque",
-    "Description": "Cross-group cohesive product",
-    "PersonFullName": "Sienna Lind",
-    "PersonId": 422,
-    "ContactId": 72,
-    "ProjectId": 431,
-    "ProjectName": "Heathcote, Dickinson and Prohaska",
+    "Task": "dignissimos",
+    "AssociateFullName": "Sylvia Adams",
+    "ContactName": "Yundt Inc and Sons",
+    "Description": "Quality-focused global policy",
+    "PersonFullName": "Spencer Durgan",
+    "PersonId": 688,
+    "ContactId": 2,
+    "ProjectId": 247,
+    "ProjectName": "Shanahan Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 123,
-    "ColorIndex": 724,
+    "AssociateId": 177,
+    "ColorIndex": 68,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 825,
-    "PriorityName": "Kessler Inc and Sons",
+    "PriorityId": 527,
+    "PriorityName": "Koelpin Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2003-05-07T02:49:43.2461231+02:00",
+    "ActiveDate": "2005-04-25T17:37:16.2662416+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-09-19T02:49:43.2461231+02:00",
-    "RecurringEndDate": "2004-01-08T02:49:43.2461231+01:00",
-    "MotherId": 121,
-    "AssignedBy": 573,
-    "AssignedByFullName": "Hettie Frami",
+    "RecurringStartDate": "2013-12-13T17:37:16.2662416+01:00",
+    "RecurringEndDate": "1998-07-30T17:37:16.2662416+02:00",
+    "MotherId": 779,
+    "AssignedBy": 777,
+    "AssignedByFullName": "Hermann Bechtelar",
     "RejectReason": "",
-    "Location": "molestiae",
-    "AlarmLeadTime": "voluptate",
-    "SaleId": 447,
-    "SaleName": "Fritsch-Gulgowski",
-    "AssociateName": "Beer LLC",
-    "CreatedDate": "2013-01-20T02:49:43.2461231+01:00",
-    "CreatedBy": "in",
-    "CreatedByFullName": "Mrs. Janie Manley Rau V",
-    "CreatedByAssociateId": 616,
+    "Location": "ex",
+    "AlarmLeadTime": "iure",
+    "SaleId": 738,
+    "SaleName": "O'Hara-White",
+    "AssociateName": "Pfeffer-Herman",
+    "CreatedDate": "2001-12-21T17:37:16.2662416+01:00",
+    "CreatedBy": "eos",
+    "CreatedByFullName": "Aniyah Franecki",
+    "CreatedByAssociateId": 690,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldType": "System.String",
+        "FieldLength": 597
       }
     }
   }

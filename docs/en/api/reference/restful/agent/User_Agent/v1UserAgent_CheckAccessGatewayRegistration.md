@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/CheckAccessGatewayRegistration
 Checks if AccessGatewayRegistration is valid
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,7 +44,7 @@ POST /api/v1/Agents/User/CheckAccessGatewayRegistration?$select=name,department,
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: bool
+## Response:bool
 
 OK
 
@@ -54,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -63,7 +61,7 @@ Response body: bool
 POST /api/v1/Agents/User/CheckAccessGatewayRegistration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

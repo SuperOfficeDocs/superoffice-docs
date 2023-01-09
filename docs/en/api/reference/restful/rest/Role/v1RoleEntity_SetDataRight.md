@@ -35,7 +35,7 @@ An exception will be thrown if non existing position is specified.
 | dataRightValue | string | **Required** The data right value to set at the specified position (CRUD) |
 
 ```http
-PUT /api/v1/Role/{roleId}/DataRight/{tableName}/{relationToOwner}?dataRightValue=enim
+PUT /api/v1/Role/{roleId}/DataRight/{tableName}/{relationToOwner}?dataRightValue=sed
 ```
 
 
@@ -49,7 +49,7 @@ PUT /api/v1/Role/{roleId}/DataRight/{tableName}/{relationToOwner}?dataRightValue
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 No Content
 
@@ -57,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request

@@ -46,36 +46,35 @@ PUT /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ShipmentMessageEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ShipmentMessageId | int32 | Primary key |
-| PlainMessage | string | Plain message text of this message |
-| HtmlMessage | string | HTML formatted text of this message |
-| SmsMessage | string | SMS version of this message |
-| Description | string | Describes this message |
-| Subject | string | The mail subject field of the message |
-| FolderId | int32 | The folder which this message belongs to. -1 indicates that the message is on the root |
-| HeaderField | string | Extra header fields added to mail. Must be formatted correctly |
-| Design | string | Will contain the design part of a message. The format will vary based on the type of designer used to create the message |
-| Designtype | string | Enum containing the type of the design |
-| Flags | string | Identifies if HTML or plain message is included in message. |
-| RegisterViews | bool | Register message views? |
-| InlineImages | bool | Should images be included inline? |
-| LongDescription | string | A field for a long description of this template |
-| AccessKey | string | Key used for access verification |
-| DocumentMessage | int32 | The SM document used as template for this mailing |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
-| UpdatedCount | int32 | Number of updates made to this record |
+| ShipmentMessageId | Integer | Primary key |
+| PlainMessage | String | Plain message text of this message |
+| HtmlMessage | String | HTML formatted text of this message |
+| SmsMessage | String | SMS version of this message |
+| Description | String | Describes this message |
+| Subject | String | The mail subject field of the message |
+| FolderId | Integer | The folder which this message belongs to. -1 indicates that the message is on the root |
+| HeaderField | String | Extra header fields added to mail. Must be formatted correctly |
+| Design | String | Will contain the design part of a message. The format will vary based on the type of designer used to create the message |
+| Designtype | String | Enum containing the type of the design |
+| Flags | String | Identifies if HTML or plain message is included in message. |
+| RegisterViews | Boolean | Register message views? |
+| InlineImages | Boolean | Should images be included inline? |
+| LongDescription | String | A field for a long description of this template |
+| AccessKey | String | Key used for access verification |
+| DocumentMessage | Integer | The SM document used as template for this mailing |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
+| UpdatedCount | Integer | Number of updates made to this record |
 
-
-## Response: 
+## Response:
 
 ShipmentMessageEntity updated.
 
@@ -84,7 +83,7 @@ ShipmentMessageEntity updated.
 | 200 | ShipmentMessageEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: ShipmentMessageEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -109,7 +108,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -123,27 +122,27 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 713,
-  "PlainMessage": "quaerat",
-  "HtmlMessage": "perspiciatis",
-  "SmsMessage": "vel",
-  "Description": "Customizable intermediate service-desk",
-  "Subject": "sunt",
-  "FolderId": 881,
-  "HeaderField": "voluptatum",
-  "Design": "quia",
+  "ShipmentMessageId": 340,
+  "PlainMessage": "eligendi",
+  "HtmlMessage": "eum",
+  "SmsMessage": "maiores",
+  "Description": "Devolved zero tolerance moratorium",
+  "Subject": "et",
+  "FolderId": 765,
+  "HeaderField": "cumque",
+  "Design": "numquam",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Reverse-engineered fault-tolerant model",
-  "AccessKey": "qui",
-  "DocumentMessage": 599,
-  "Registered": "2007-02-28T02:49:51.536309+01:00",
-  "RegisteredAssociateId": 200,
-  "Updated": "2021-07-29T02:49:51.536309+02:00",
-  "UpdatedAssociateId": 392,
-  "UpdatedCount": 380
+  "LongDescription": "Secured zero defect local area network",
+  "AccessKey": "sint",
+  "DocumentMessage": 995,
+  "Registered": "2018-12-10T17:37:39.2273036+01:00",
+  "RegisteredAssociateId": 777,
+  "Updated": "2006-03-13T17:37:39.2273036+01:00",
+  "UpdatedAssociateId": 708,
+  "UpdatedCount": 204
 }
 ```
 
@@ -154,38 +153,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 75,
-  "PlainMessage": "ut",
+  "ShipmentMessageId": 71,
+  "PlainMessage": "fugit",
   "HtmlMessage": "et",
-  "SmsMessage": "et",
-  "Description": "Reduced radical solution",
-  "Subject": "libero",
-  "FolderId": 392,
-  "HeaderField": "voluptas",
-  "Design": "culpa",
+  "SmsMessage": "quod",
+  "Description": "Enterprise-wide static customer loyalty",
+  "Subject": "voluptatem",
+  "FolderId": 956,
+  "HeaderField": "tenetur",
+  "Design": "architecto",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Centralized empowering functionalities",
-  "AccessKey": "ea",
-  "DocumentMessage": 487,
-  "Registered": "2002-08-14T02:49:51.536309+02:00",
-  "RegisteredAssociateId": 674,
-  "Updated": "2007-09-17T02:49:51.536309+02:00",
-  "UpdatedAssociateId": 703,
-  "UpdatedCount": 473,
+  "LongDescription": "Stand-alone neutral hierarchy",
+  "AccessKey": "nulla",
+  "DocumentMessage": 154,
+  "Registered": "2022-01-06T17:37:39.2273036+01:00",
+  "RegisteredAssociateId": 785,
+  "Updated": "1996-05-27T17:37:39.2273036+02:00",
+  "UpdatedAssociateId": 913,
+  "UpdatedCount": 593,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 451
+      "FieldType": "System.String",
+      "FieldLength": 266
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

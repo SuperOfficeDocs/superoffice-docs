@@ -42,7 +42,7 @@ POST /api/v1/Agents/PhoneList/GetFavoritesPhones?$select=name,department,categor
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +64,7 @@ Response body: array
 | Name | string | The contact or person's name |
 | Tooltip | string |  |
 | UniqueId | string | Property setting a unique id indicating if this is a person or contact |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,7 +73,7 @@ Response body: array
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-910-103-7592",
-    "PersonCellPhone": "1-087-686-9272 x1839",
-    "PersonPrivatePhone": "1-752-653-8306 x4033",
-    "PersonFaxNumber": "1020122",
-    "PersonPagerNumber": "573494",
-    "PersonEmail": "gennaro@mosciski.biz",
-    "Id": 653,
-    "Name": "Altenwerth Inc and Sons",
-    "Tooltip": "in",
-    "UniqueId": "ut",
+    "PersonDirectPhone": "007.093.6076 x127",
+    "PersonCellPhone": "(864)879-3050 x54231",
+    "PersonPrivatePhone": "124.201.1132 x8914",
+    "PersonFaxNumber": "377452",
+    "PersonPagerNumber": "1179515",
+    "PersonEmail": "timothy_tremblay@bashirian.us",
+    "Id": 38,
+    "Name": "Schinner-Vandervort",
+    "Tooltip": "vero",
+    "UniqueId": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 639
+        "FieldType": "System.Int32",
+        "FieldLength": 348
       }
     }
   }

@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashboardTile
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +60,7 @@ Response body:
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -69,7 +69,7 @@ Response body:
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,64 +79,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 383,
-  "Caption": "fuga",
-  "Description": "Object-based discrete standardization",
-  "ChartName": "Ward Inc and Sons",
-  "ChartId": "quia",
+  "DashboardTileId": 870,
+  "Caption": "libero",
+  "Description": "Enhanced holistic open system",
+  "ChartName": "Ebert Inc and Sons",
+  "ChartId": "veritatis",
   "IsDefault": false,
-  "AssociateId": 539,
-  "GroupId": 385,
-  "SelectionId": 926,
-  "Config": "autem",
+  "AssociateId": 84,
+  "GroupId": 968,
+  "SelectionId": 912,
+  "Config": "eaque",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hills, Koepp and Smith",
-      "Description": "Enhanced 3rd generation toolset",
+      "Name": "Reichert, Huels and Okuneva",
+      "Description": "Visionary client-driven toolset",
       "Type": "Boolean",
-      "ListName": "Lebsack LLC",
+      "ListName": "Bailey, Ullrich and Emard",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nihil",
-      "DefaultDataOption": false,
+      "Value": "inventore",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldLength": 932
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 852,
+      "VisibleId": 683,
       "Visibility": "All",
-      "DisplayValue": "nam",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldType": "System.String",
+          "FieldLength": 481
         }
       }
     },
     {
-      "VisibleId": 852,
+      "VisibleId": 683,
       "Visibility": "All",
-      "DisplayValue": "nam",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldType": "System.String",
+          "FieldLength": 481
         }
       }
     }
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldLength": 1000
     }
   }
 }

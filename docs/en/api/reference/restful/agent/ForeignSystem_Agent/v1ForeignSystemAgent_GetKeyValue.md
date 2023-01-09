@@ -44,20 +44,19 @@ POST /api/v1/Agents/ForeignSystem/GetKeyValue?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, KeyName, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| KeyName | string |  |
-| TableName | string |  |
-| RecordId | int32 |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| KeyName | String |  |
+| TableName | String |  |
+| RecordId | Integer |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -74,15 +73,15 @@ Response body: string
 POST /api/v1/Agents/ForeignSystem/GetKeyValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Torp Group",
-  "DeviceName": "O'Hara-Ullrich",
-  "KeyName": "Wyman-Rempel",
-  "TableName": "Pfannerstill LLC",
-  "RecordId": 457
+  "ApplicationName": "Kub Group",
+  "DeviceName": "Bruen-Parker",
+  "KeyName": "Wolf-Hermiston",
+  "TableName": "O'Conner, Runolfsdottir and Christiansen",
+  "RecordId": 241
 }
 ```
 
@@ -92,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"culpa"
+"vel"
 ```

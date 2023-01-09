@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/BreakActorLink
 Remove the link between a CRM entity and an ERP entity
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,18 +44,17 @@ POST /api/v1/Agents/ErpSync/BreakActorLink?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpConnectionId, CrmRecordId, CrmActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpConnectionId | int32 |  |
-| CrmRecordId | int32 |  |
-| CrmActorType | string |  |
+| ErpConnectionId | Integer |  |
+| CrmRecordId | Integer |  |
+| CrmActorType | String |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -65,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -74,12 +71,12 @@ Response body: bool
 POST /api/v1/Agents/ErpSync/BreakActorLink
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 510,
-  "CrmRecordId": 473,
+  "ErpConnectionId": 842,
+  "CrmRecordId": 715,
   "CrmActorType": "Contact"
 }
 ```

@@ -42,17 +42,16 @@ POST /api/v1/Agents/Chat/GetChatMessages?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ChatSessionId, After 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ChatSessionId | int32 |  |
-| After | int32 |  |
+| ChatSessionId | Integer |  |
+| After | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 756,
-  "After": 861
+  "ChatSessionId": 137,
+  "After": 547
 }
 ```
 
@@ -97,15 +96,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 758,
-    "ChatSessionId": 276,
+    "ChatMessageId": 237,
+    "ChatSessionId": 139,
     "Type": "Invalid",
-    "Message": "cupiditate",
-    "Author": "in",
-    "ReadByCustomer": 424,
+    "Message": "inventore",
+    "Author": "perspiciatis",
+    "ReadByCustomer": 537,
     "SpecialType": "Block",
-    "SpecialParam": "itaque",
-    "WhenPosted": "1997-08-24T02:49:43.8254085+02:00"
+    "SpecialParam": "repellat",
+    "WhenPosted": "2001-08-29T17:37:17.0772438+02:00"
   }
 ]
 ```

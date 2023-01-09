@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,12 +73,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project/{id}/Links?$select=name,department,category/id
 GET /api/v1/Project/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Project/{id}/Links?$orderBy=name asc
-GET /api/v1/Project/{id}/Links?$entities=tempora
-GET /api/v1/Project/{id}/Links?$top=496
-GET /api/v1/Project/{id}/Links?$skip=534
+GET /api/v1/Project/{id}/Links?$entities=voluptas
+GET /api/v1/Project/{id}/Links?$top=455
+GET /api/v1/Project/{id}/Links?$skip=869
 GET /api/v1/Project/{id}/Links?$mode=Full
 GET /api/v1/Project/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Project/{id}/Links?$context=sit
+GET /api/v1/Project/{id}/Links?$context=consectetur
 GET /api/v1/Project/{id}/Links?$format=JSON
 GET /api/v1/Project/{id}/Links?$jsonSafe=False
 GET /api/v1/Project/{id}/Links?$output=Display
@@ -100,7 +99,7 @@ GET /api/v1/Project/{id}/Links?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Project/{id}/Links
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "consectetur",
+  "odata.nextLink": "accusantium",
   "value": [
     {
-      "PrimaryKey": 6951,
-      "EntityName": "person",
-      "personId": 6951,
-      "fullName": "Myrtie Mayert"
+      "PrimaryKey": 4130,
+      "EntityName": "sale",
+      "saleId": 4130,
+      "contactId": 6081,
+      "name": "Barton Group"
     },
     {
-      "PrimaryKey": 4015,
-      "EntityName": "person",
-      "personId": 4015,
-      "fullName": "Dr. Veda Jovanny Schoen"
+      "PrimaryKey": 3357,
+      "EntityName": "sale",
+      "saleId": 3357,
+      "contactId": 1554,
+      "name": "Turner Inc and Sons"
     }
   ]
 }

@@ -42,17 +42,16 @@ POST /api/v1/Agents/Targets/GetTargetGroupForYear?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TargetYear, EntityType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TargetYear | int32 |  |
-| EntityType | string |  |
+| TargetYear | Integer |  |
+| EntityType | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TargetGroup
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,8 +68,8 @@ Response body:
 | EntityType | string | Entity type for this set of targets (Sale, Project, Selection, Appointment...) |
 | PeriodType | string | Period type for editing this set of targets (Year, Quarter...) |
 | TargetAssignments | array | Collection of target values |
-| TargetDimension |  | Info about the target dimensions |
-| TableRight |  |  |
+| TargetDimension | TargetDimension | Info about the target dimensions |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,11 +78,11 @@ Response body:
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 477,
+  "TargetYear": 798,
   "EntityType": "None"
 }
 ```
@@ -95,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 377,
-  "Year": 558,
+  "TargetGroupId": 853,
+  "Year": 246,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 543,
+      "TargetAssignmentInfoId": 690,
       "Values": [
-        788,
-        355
+        703,
+        167
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 728,
-      "DimensionListItemDisplayName": "Zieme-Grimes",
+      "DimensionListItem": 18,
+      "DimensionListItemDisplayName": "Kutch Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldType": "System.String",
+          "FieldLength": 928
         }
       }
     }
@@ -128,8 +127,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 957
+      "FieldType": "System.Int32",
+      "FieldLength": 193
     }
   }
 }

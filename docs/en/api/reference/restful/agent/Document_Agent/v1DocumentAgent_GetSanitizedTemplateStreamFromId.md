@@ -44,17 +44,16 @@ POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TemplateId, UiCulture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TemplateId | int32 |  |
-| UiCulture | string |  |
+| TemplateId | Integer |  |
+| UiCulture | String |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -75,8 +74,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 642,
-  "UiCulture": "officiis"
+  "TemplateId": 454,
+  "UiCulture": "quia"
 }
 ```
 

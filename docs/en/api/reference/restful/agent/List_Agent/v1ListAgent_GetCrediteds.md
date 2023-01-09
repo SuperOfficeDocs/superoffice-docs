@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/GetCrediteds?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,14 +50,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 | The List Item Id |
 | Value | string | The List Item Value |
 | Tooltip | string | The List Item Tooltip |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCrediteds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 214,
-    "Value": "dolorem",
-    "Tooltip": "animi",
+    "Id": 593,
+    "Value": "et",
+    "Tooltip": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 925
+        "FieldLength": 44
       }
     }
   },
   {
-    "Id": 214,
-    "Value": "dolorem",
-    "Tooltip": "animi",
+    "Id": 593,
+    "Value": "et",
+    "Tooltip": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 925
+        "FieldLength": 44
       }
     }
   }

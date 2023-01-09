@@ -32,22 +32,21 @@ Updates the existing MailboxEntity or creates a new MailboxEntity if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The MailboxEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MailInFilterId | int32 | The primary key (auto-incremented) |
-| ServerType | string | Enum indicating the protocol to use (POP/IMAP). |
-| Address | string | The address associated with this mailbox (used as FROM: address when sending emails). |
-| Username | string | The username used to log onto the mail account |
-| Password | string | The password used to log into the mail account. This is hidden when reading |
-| Server | string | The email server to connect to |
-| Port | int32 | The port used to connect to the server |
+| MailInFilterId | Integer | The primary key (auto-incremented) |
+| ServerType | String | Enum indicating the protocol to use (POP/IMAP). |
+| Address | String | The address associated with this mailbox (used as FROM: address when sending emails). |
+| Username | String | The username used to log onto the mail account |
+| Password | String | The password used to log into the mail account. This is hidden when reading |
+| Server | String | The email server to connect to |
+| Port | Integer | The port used to connect to the server |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -55,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: MailboxEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body:
 | Password | string | The password used to log into the mail account. This is hidden when reading |
 | Server | string | The email server to connect to |
 | Port | int32 | The port used to connect to the server |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,17 +74,17 @@ Response body:
 POST /api/v1/Agents/CustomerService/SaveMailboxEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 1002,
+  "MailInFilterId": 337,
   "ServerType": "Facebook",
-  "Address": "quia",
-  "Username": "velit",
-  "Password": "sunt",
-  "Server": "dolorem",
-  "Port": 593
+  "Address": "blanditiis",
+  "Username": "optio",
+  "Password": "laudantium",
+  "Server": "aut",
+  "Port": 594
 }
 ```
 
@@ -96,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 73,
+  "MailInFilterId": 332,
   "ServerType": "Facebook",
-  "Address": "et",
-  "Username": "eos",
-  "Password": "sed",
-  "Server": "molestias",
-  "Port": 929,
+  "Address": "voluptatem",
+  "Username": "qui",
+  "Password": "facilis",
+  "Server": "quibusdam",
+  "Port": 20,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 251
     }
   }
 }

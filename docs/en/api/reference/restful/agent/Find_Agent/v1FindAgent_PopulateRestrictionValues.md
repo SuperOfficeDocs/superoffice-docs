@@ -44,16 +44,15 @@ POST /api/v1/Agents/Find/PopulateRestrictionValues?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Restrictions | array |  |
+| Restrictions | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body: array
 | Operator | string |  |
 | Values | array |  |
 | DisplayValues | array |  |
-| ColumnInfo |  |  |
+| ColumnInfo | TableRight |  |
 | IsActive | bool |  |
 | SubRestrictions | array |  |
 | InterParenthesis | int32 |  |
@@ -82,31 +81,31 @@ Response body: array
 POST /api/v1/Agents/Find/PopulateRestrictionValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Marquardt LLC",
-      "Operator": "dolorem",
+      "Name": "Doyle-Harvey",
+      "Operator": "amet",
       "Values": [
-        "saepe",
-        "fuga"
+        "molestiae",
+        "magnam"
       ],
       "DisplayValues": [
-        "in",
-        "eos"
+        "distinctio",
+        "distinctio"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 807,
+      "InterParenthesis": 696,
       "InterOperator": "And",
-      "UniqueHash": 400
+      "UniqueHash": 829
     }
   ]
 }
@@ -120,44 +119,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Maggio LLC",
-    "Operator": "ut",
+    "Name": "Frami, Hirthe and Zboncak",
+    "Operator": "non",
     "Values": [
-      "repudiandae",
-      "iure"
+      "reprehenderit",
+      "optio"
     ],
     "DisplayValues": [
-      "molestiae",
-      "modi"
+      "provident",
+      "quia"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Thiel, Gulgowski and Hansen",
-        "Operator": "nostrum",
+        "Name": "Bradtke, Schmidt and Hayes",
+        "Operator": "corrupti",
         "Values": [
-          "minima",
-          "dicta"
+          "quo",
+          "ullam"
         ],
         "DisplayValues": [
-          "et",
-          "enim"
+          "sunt",
+          "sint"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 874,
+        "InterParenthesis": 187,
         "InterOperator": "And",
-        "UniqueHash": 74
+        "UniqueHash": 65
       }
     ],
-    "InterParenthesis": 622,
+    "InterParenthesis": 401,
     "InterOperator": "And",
-    "UniqueHash": 408
+    "UniqueHash": 669
   }
 ]
 ```

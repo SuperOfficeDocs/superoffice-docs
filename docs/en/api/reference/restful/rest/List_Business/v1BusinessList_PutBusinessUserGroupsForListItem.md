@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 679,
-    "Name": "Bechtelar Inc and Sons",
-    "ToolTip": "Similique labore similique ut.",
-    "Deleted": true,
-    "Rank": 731,
-    "Type": "asperiores",
-    "ColorBlock": 567,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2021-03-10T02:49:51.8909437+01:00",
+    "Id": 871,
+    "Name": "Adams LLC",
+    "ToolTip": "Voluptatum quia reprehenderit.",
+    "Deleted": false,
+    "Rank": 933,
+    "Type": "voluptatem",
+    "ColorBlock": 865,
+    "IconHint": "vero",
+    "Selected": true,
+    "LastChanged": "2008-10-20T17:37:39.6604305+02:00",
     "ChildItems": [
       {
-        "Id": 472,
-        "Name": "Eichmann Group",
-        "ToolTip": "Quos blanditiis totam est ad.",
-        "Deleted": true,
-        "Rank": 721,
-        "Type": "praesentium",
-        "ColorBlock": 692,
-        "IconHint": "sapiente",
-        "Selected": true,
-        "LastChanged": "2011-03-27T02:49:51.8909437+01:00",
+        "Id": 54,
+        "Name": "Casper, Abbott and Lynch",
+        "ToolTip": "Autem modi.",
+        "Deleted": false,
+        "Rank": 545,
+        "Type": "quisquam",
+        "ColorBlock": 452,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "2000-07-01T17:37:39.6604305+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "beatae",
+        "ExtraInfo": "nam",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Dana Wiegand"
+        "FullName": "Dr. Guadalupe Shany West"
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "cum",
+    "ExtraInfo": "illo",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Ms. Tiara Wisozk DVM"
+    "FullName": "Antone Hauck"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 620,
-    "Name": "Gaylord LLC",
-    "ToolTip": "Recusandae quis officia nihil officiis non nobis.",
+    "Id": 149,
+    "Name": "Conroy, Aufderhar and Walsh",
+    "ToolTip": "Qui nemo non ut aut.",
     "Deleted": false,
-    "Rank": 584,
-    "Type": "consequatur",
-    "ColorBlock": 975,
-    "IconHint": "consequatur",
+    "Rank": 909,
+    "Type": "aperiam",
+    "ColorBlock": 632,
+    "IconHint": "perspiciatis",
     "Selected": false,
-    "LastChanged": "2008-02-06T02:49:51.8909437+01:00",
+    "LastChanged": "1997-07-27T17:37:39.6614307+02:00",
     "ChildItems": [
       {
-        "Id": 124,
-        "Name": "Miller, Bayer and Miller",
-        "ToolTip": "Provident omnis incidunt sed.",
-        "Deleted": false,
-        "Rank": 449,
-        "Type": "excepturi",
-        "ColorBlock": 725,
-        "IconHint": "rerum",
+        "Id": 616,
+        "Name": "Torp, Ritchie and Sipes",
+        "ToolTip": "Ipsam id debitis voluptatem praesentium explicabo voluptatem.",
+        "Deleted": true,
+        "Rank": 515,
+        "Type": "dolorem",
+        "ColorBlock": 131,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2022-06-10T02:49:51.8909437+02:00",
+        "LastChanged": "1999-09-23T17:37:39.6614307+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "fuga",
-        "Hidden": true,
-        "FullName": "Joshuah Hand",
+        "ExtraInfo": "modi",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Dr. Dashawn Rupert Bailey Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 384
+            "FieldType": "System.String",
+            "FieldLength": 886
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "a",
-    "Hidden": true,
-    "FullName": "Sigurd Tremblay",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "odio",
+    "Hidden": false,
+    "FullName": "Katrina Roberts",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldLength": 391
       }
     }
   }

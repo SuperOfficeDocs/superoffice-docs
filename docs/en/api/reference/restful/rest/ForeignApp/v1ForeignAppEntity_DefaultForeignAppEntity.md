@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignAppEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,10 +50,10 @@ Response body:
 | Name | string | Name of foreign application |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the foreign application. |
-| UpdatedBy |  | The person that last updated this foreign application. |
+| CreatedBy | Associate | The person that created the foreign application. |
+| UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -62,7 +62,7 @@ Response body:
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,32 +70,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 15 Apr 2003 02:49:50 G4T
+Last-Modified: Sun, 11 May 2008 17:37:38 G5T
 
 {
-  "ForeignAppId": 914,
-  "Name": "Jewess LLC",
-  "CreatedDate": "2019-12-19T02:49:50.9640389+01:00",
-  "UpdatedDate": "2003-04-15T02:49:50.9640389+02:00",
+  "ForeignAppId": 407,
+  "Name": "Murphy-Bailey",
+  "CreatedDate": "2020-06-23T17:37:38.6118645+02:00",
+  "UpdatedDate": "2008-05-11T17:37:38.6118645+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 806,
-      "Name": "Ondricka-Schmidt",
-      "CreatedDate": "2021-02-11T02:49:50.9640389+01:00",
-      "UpdatedDate": "2008-05-25T02:49:50.9640389+02:00",
-      "AssociateFullName": "Jose Stark",
-      "CreatedBy": "praesentium",
-      "UpdatedBy": "occaecati",
-      "DeviceIdentifier": "magni",
-      "ForeignAppId": 791,
+      "ForeignDeviceId": 771,
+      "Name": "Beier-Padberg",
+      "CreatedDate": "2015-08-15T17:37:38.6128664+02:00",
+      "UpdatedDate": "1998-02-16T17:37:38.6128664+01:00",
+      "AssociateFullName": "Damien Larkin",
+      "CreatedBy": "nihil",
+      "UpdatedBy": "non",
+      "DeviceIdentifier": "distinctio",
+      "ForeignAppId": 369,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldLength": 122
         }
       }
     }
@@ -104,8 +104,8 @@ Last-Modified: Tue, 15 Apr 2003 02:49:50 G4T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldType": "System.String",
+      "FieldLength": 321
     }
   }
 }

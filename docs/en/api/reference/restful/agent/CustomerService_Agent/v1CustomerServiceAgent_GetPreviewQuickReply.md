@@ -42,16 +42,15 @@ POST /api/v1/Agents/CustomerService/GetPreviewQuickReply?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuickReplyId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuickReplyId | int32 |  |
+| QuickReplyId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreviewQuickReply
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +66,7 @@ Response body:
 | UpdatedByFullName | string | Full name of associate last updating this quick reply |
 | Updated | date-time | Date/time this quick reply was last updated. |
 | HtmlBody | string | Quick reply body in HTML format. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 726
+  "QuickReplyId": 931
 }
 ```
 
@@ -91,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hane, Schumm and Howe",
-  "UpdatedByFullName": "Alessandro Jacobs",
-  "Updated": "2019-08-05T02:49:44.0285283+02:00",
-  "HtmlBody": "et",
+  "Name": "Vandervort-Wunsch",
+  "UpdatedByFullName": "Maximilian Danielle Donnelly DVM",
+  "Updated": "2003-07-16T17:37:17.3512413+02:00",
+  "HtmlBody": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldType": "System.String",
+      "FieldLength": 807
     }
   }
 }

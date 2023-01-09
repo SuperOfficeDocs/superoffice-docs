@@ -44,17 +44,16 @@ POST /api/v1/Agents/Selection/GetSelectionForFind?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EntityName, TypicalSearchId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EntityName | string |  |
-| TypicalSearchId | int32 |  |
+| EntityName | String |  |
+| TypicalSearchId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SelectionForFind
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body:
 | MainHeading | string | 'Sale', intended for the main headings in the Find front page; this string will contain resource references |
 | FilterScreenHeading | string | 'Find sale', or whatever is appropriate for the Find &lt;entity&gt; filter page; this string will contain resource references |
 | SelectionEntityHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name, intended for the Selection.Details tab before it is saved (!!); this string will contain resource references |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Brekke Inc and Sons",
-  "TypicalSearchId": 220
+  "EntityName": "Ondricka Inc and Sons",
+  "TypicalSearchId": 740
 }
 ```
 
@@ -97,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Roberts-O'Keefe",
-  "SelectionId": 653,
+  "ProviderName": "Hyatt, Funk and Funk",
+  "SelectionId": 569,
   "CanSaveAsSelection": false,
-  "MainHeading": "nostrum",
-  "FilterScreenHeading": "perspiciatis",
-  "SelectionEntityHeading": "et",
+  "MainHeading": "officiis",
+  "FilterScreenHeading": "reiciendis",
+  "SelectionEntityHeading": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldLength": 678
     }
   }
 }

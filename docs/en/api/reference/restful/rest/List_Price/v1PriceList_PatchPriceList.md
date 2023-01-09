@@ -71,18 +71,17 @@ PATCH /api/v1/Pricelist/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 PriceList  updated.
 
@@ -93,7 +92,7 @@ PriceList  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because PriceList has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: PriceListWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -107,7 +106,7 @@ Response body:
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -123,12 +122,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -141,22 +140,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 307,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 565,
-  "Name": "Blick LLC",
-  "Description": "Business-focused contextually-based framework",
-  "Currency": "at",
-  "CurrencyName": "Little-Maggio",
-  "ValidFrom": "2009-03-10T02:49:52.3284476+01:00",
-  "ValidTo": "1998-03-15T02:49:52.3284476+01:00",
+  "PriceListId": 47,
+  "ERPPriceListKey": "sit",
+  "QuoteConnectionId": 267,
+  "Name": "Cremin Inc and Sons",
+  "Description": "User-friendly multi-tasking matrices",
+  "Currency": "veritatis",
+  "CurrencyName": "Cormier, O'Connell and Zboncak",
+  "ValidFrom": "2005-11-22T17:37:40.1195086+01:00",
+  "ValidTo": "2012-03-23T17:37:40.1195086+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldType": "System.Int32",
+      "FieldLength": 372
     }
   },
   "_Links": {

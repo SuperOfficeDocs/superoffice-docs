@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,11 +55,11 @@ Response body:
 | RecipeId | string |  |
 | UpdatedDate | date-time |  |
 | CreatedDate | date-time |  |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,28 +78,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 168,
-  "Name": "Dicki Inc and Sons",
-  "Description": "Implemented coherent functionalities",
-  "DeltaJson": "doloremque",
+  "ConfigurableScreenDeltaId": 539,
+  "Name": "Greenholt, Senger and Parisian",
+  "Description": "Visionary homogeneous structure",
+  "DeltaJson": "labore",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "rerum",
-  "UpdatedDate": "2013-04-12T02:49:43.8566571+02:00",
-  "CreatedDate": "2020-09-16T02:49:43.8566571+02:00",
+  "RecipeId": "excepturi",
+  "UpdatedDate": "1999-11-20T17:37:17.1092409+01:00",
+  "CreatedDate": "2020-11-12T17:37:17.1092409+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    509,
-    823
+    41,
+    802
   ],
-  "AppliesToKey": "id",
+  "AppliesToKey": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldLength": 395
     }
   }
 }

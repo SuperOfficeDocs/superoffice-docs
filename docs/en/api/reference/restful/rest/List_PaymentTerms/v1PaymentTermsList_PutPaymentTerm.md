@@ -36,21 +36,20 @@ Updates an existing PaymentTerm list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem  
+## Request Body: listItem 
 
 The details of PaymentTerm list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The identity of the list item |
-| Name | string | The name of the list item |
-| Tooltip | string | The tooltip of the list item |
-| Deleted | bool | True if the list item is marked as deleted |
-| UdListDefinitionId | int32 | The id of the list which this list item belongs to |
-| Rank | int32 | The rank of the list item |
+| Id | Integer | The identity of the list item |
+| Name | String | The name of the list item |
+| Tooltip | String | The tooltip of the list item |
+| Deleted | Boolean | True if the list item is marked as deleted |
+| UdListDefinitionId | Integer | The id of the list which this list item belongs to |
+| Rank | Integer | The rank of the list item |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: ListItemEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body:
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 988,
-  "Name": "White-Braun",
-  "Tooltip": "odit",
+  "Id": 35,
+  "Name": "Franecki Inc and Sons",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "UdListDefinitionId": 53,
-  "Rank": 458
+  "UdListDefinitionId": 496,
+  "Rank": 856
 }
 ```
 
@@ -98,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 561,
-  "Name": "Monahan Inc and Sons",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "UdListDefinitionId": 351,
-  "Rank": 272,
+  "Id": 815,
+  "Name": "Kuphal, Simonis and Boyer",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 443,
+  "Rank": 712,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 734
     }
   }
 }

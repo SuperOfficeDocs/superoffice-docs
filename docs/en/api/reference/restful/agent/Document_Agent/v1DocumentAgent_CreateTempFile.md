@@ -44,17 +44,16 @@ POST /api/v1/Agents/Document/CreateTempFile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Filename, DataStream 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Filename | string |  |
-| DataStream | byte |  |
+| Filename | String |  |
+| DataStream | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -71,11 +70,11 @@ Response body: string
 POST /api/v1/Agents/Document/CreateTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "illo",
+  "Filename": "explicabo",
   "DataStream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -86,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"optio"
+"molestias"
 ```

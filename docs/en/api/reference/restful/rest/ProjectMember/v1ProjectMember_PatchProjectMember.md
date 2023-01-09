@@ -71,18 +71,17 @@ PATCH /api/v1/ProjectMember/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 ProjectMember  updated.
 
@@ -93,7 +92,7 @@ ProjectMember  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ProjectMember has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: ProjectMemberWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body:
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -128,18 +127,18 @@ Response body:
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "saepe",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "saepe",
     "value": {}
   }
 ]
@@ -152,38 +151,38 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 704,
-  "ContactId": 746,
-  "ProjectId": 346,
-  "ContactName": "Osinski Inc and Sons",
+  "ProjectmemberId": 464,
+  "ContactId": 728,
+  "ProjectId": 121,
+  "ContactName": "White Group",
   "ContactDepartment": "",
-  "ProjectName": "Ortiz Inc and Sons",
-  "EmailId": 540,
-  "EmailAddress": "esteban@hyatt.co.uk",
-  "CountryId": 716,
-  "Firstname": "Trycia",
-  "MiddleName": "Ebert, Robel and Gislason",
-  "Lastname": "Berge",
-  "PersonId": 538,
-  "Mrmrs": "qui",
-  "ProjectMemberTypeName": "Torp, Abshire and Casper",
-  "Phone": "052.800.0010",
-  "PhoneId": 997,
-  "ProjectMemberTypeId": 673,
-  "EmailAddressName": "ken.miller@hills.ca",
-  "Comment": "harum",
-  "FullName": "Prof. Rashad Bergnaum I",
+  "ProjectName": "Yost-Keeling",
+  "EmailId": 992,
+  "EmailAddress": "malika@hoppe.info",
+  "CountryId": 919,
+  "Firstname": "Percy",
+  "MiddleName": "Klocko LLC",
+  "Lastname": "Romaguera",
+  "PersonId": 786,
+  "Mrmrs": "harum",
+  "ProjectMemberTypeName": "Collier-Blick",
+  "Phone": "940-444-4148",
+  "PhoneId": 750,
+  "ProjectMemberTypeId": 174,
+  "EmailAddressName": "alexandrea_huel@jacobimckenzie.biz",
+  "Comment": "corrupti",
+  "FullName": "Jesse Pfannerstill",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 726
+      "FieldType": "System.Int32",
+      "FieldLength": 965
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -26,7 +26,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=at
+GET /api/v1/List/Task/MDOItems?query=corporis
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/Task/MDOItems?query=at
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 847,
-    "Name": "Kuvalis, Blick and White",
-    "ToolTip": "Quo ut.",
-    "Deleted": true,
-    "Rank": 657,
-    "Type": "autem",
+    "Id": 791,
+    "Name": "Koch Group",
+    "ToolTip": "Eos minus impedit.",
+    "Deleted": false,
+    "Rank": 119,
+    "Type": "voluptatibus",
     "ChildItems": [
       {
-        "Id": 684,
-        "Name": "Lueilwitz Group",
-        "ToolTip": "Odit nesciunt animi omnis sint.",
+        "Id": 438,
+        "Name": "Reichel-Doyle",
+        "ToolTip": "Dolorum aut autem nostrum.",
         "Deleted": false,
-        "Rank": 756,
-        "Type": "velit",
+        "Rank": 855,
+        "Type": "animi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 770,
+        "IconHint": "saepe",
+        "ColorBlock": 39,
         "ExtraInfo": "rerum",
-        "StyleHint": "aliquid",
-        "FullName": "Reanna Brekke",
+        "StyleHint": "sunt",
+        "FullName": "Prof. Brandy Era Bednar Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 655
+            "FieldType": "System.String",
+            "FieldLength": 688
           }
         }
       }
     ],
-    "IconHint": "tempora",
-    "ColorBlock": 845,
-    "ExtraInfo": "est",
-    "StyleHint": "aut",
-    "FullName": "Alena Kerluke",
+    "IconHint": "maiores",
+    "ColorBlock": 436,
+    "ExtraInfo": "eveniet",
+    "StyleHint": "qui",
+    "FullName": "Albin Farrell DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 953
+        "FieldLength": 291
       }
     }
   }

@@ -37,7 +37,7 @@ Gets a PreferenceDescription based on the section and key
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreferenceDescription
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +67,7 @@ Response body:
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,7 +76,7 @@ Response body:
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,30 +86,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 778,
-  "Section": "velit",
-  "Key": "pariatur",
-  "Name": "Bednar-Runte",
+  "PrefDescId": 824,
+  "Section": "quo",
+  "Key": "velit",
+  "Name": "Conroy, Macejkovic and Rutherford",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual uniform approach",
+  "Description": "Self-enabling logistical analyzer",
   "IsBuiltin": false,
-  "TableName": "Botsford, Pfeffer and Kub",
-  "UserDefinedListId": 569,
-  "Rank": 687,
-  "SubGroup": "eum",
-  "MinLevel": 472,
-  "MaxValue": 85,
-  "MinValue": 237,
-  "RequiredLicense": "consequatur",
+  "TableName": "Klocko, Kemmer and Lehner",
+  "UserDefinedListId": 487,
+  "Rank": 506,
+  "SubGroup": "officiis",
+  "MinLevel": 416,
+  "MaxValue": 835,
+  "MinValue": 475,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 594
     }
   }
 }

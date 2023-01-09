@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/SaveRoleEntity
 Updates the existing RoleEntity or creates a new RoleEntity if the id parameter is empty
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -36,27 +34,26 @@ Updates the existing RoleEntity or creates a new RoleEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The RoleEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RoleId | int32 | Primary key |
-| Name | string | Visible role name |
-| Tooltip | string | Description of the role. |
-| RoleType | string | The role type. Note that changing this field has no effect, so treat this as a read-only field. |
-| Deleted | int32 | 1 if role has been deleted (we do not actually delete) |
-| Rank | int32 | Sorting rank of this role in lists |
-| Created | date-time | Registered when  in UTC. |
-| UseCategories | int32 | Apply role category membership to users |
-| CreatedBy |  | Created by user |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Last updated by user |
-| DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
+| RoleId | Integer | Primary key |
+| Name | String | Visible role name |
+| Tooltip | String | Description of the role. |
+| RoleType | String | The role type. Note that changing this field has no effect, so treat this as a read-only field. |
+| Deleted | Integer | 1 if role has been deleted (we do not actually delete) |
+| Rank | Integer | Sorting rank of this role in lists |
+| Created | String | Registered when  in UTC. |
+| UseCategories | Integer | Apply role category membership to users |
+| CreatedBy | Associate | Created by user |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedBy | Associate | Last updated by user |
+| DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RoleEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,11 +73,11 @@ Response body:
 | Rank | int32 | Sorting rank of this role in lists |
 | Created | date-time | Registered when  in UTC. |
 | UseCategories | int32 | Apply role category membership to users |
-| CreatedBy |  | Created by user |
+| CreatedBy | Associate | Created by user |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Last updated by user |
-| DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight |  |  |
+| UpdatedBy | Associate | Last updated by user |
+| DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,20 +86,20 @@ Response body:
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 1002,
-  "Name": "Upton, Wolf and Kilback",
-  "Tooltip": "voluptatem",
+  "RoleId": 949,
+  "Name": "Bailey, O'Connell and Hayes",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 530,
-  "Rank": 294,
-  "Created": "2010-02-21T02:49:45.6247201+01:00",
-  "UseCategories": 610,
+  "Deleted": 73,
+  "Rank": 343,
+  "Created": "1999-11-08T17:37:19.5159769+01:00",
+  "UseCategories": 893,
   "CreatedBy": null,
-  "Updated": "1996-03-22T02:49:45.6247201+01:00",
+  "Updated": "2009-12-24T17:37:19.516976+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -115,16 +112,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 395,
-  "Name": "Berge Inc and Sons",
-  "Tooltip": "omnis",
+  "RoleId": 77,
+  "Name": "Reinger-Hilll",
+  "Tooltip": "ipsa",
   "RoleType": "Anonymous",
-  "Deleted": 88,
-  "Rank": 140,
-  "Created": "2020-04-15T02:49:45.6247201+02:00",
-  "UseCategories": 823,
+  "Deleted": 575,
+  "Rank": 60,
+  "Created": "2002-12-26T17:37:19.5179764+01:00",
+  "UseCategories": 960,
   "CreatedBy": null,
-  "Updated": "2004-04-25T02:49:45.6247201+02:00",
+  "Updated": "1996-06-11T17:37:19.5189767+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -132,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 719
+      "FieldLength": 494
     }
   }
 }

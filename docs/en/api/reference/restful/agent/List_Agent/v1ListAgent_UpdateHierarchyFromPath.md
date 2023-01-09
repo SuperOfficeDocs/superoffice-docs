@@ -42,18 +42,17 @@ POST /api/v1/Agents/List/UpdateHierarchyFromPath?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Domain, Path, Entity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Domain | string |  |
-| Path | string |  |
-| Entity |  | Folder structures <para /> Carrier object for HierarchyEntity. Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| Domain | String |  |
+| Path | String |  |
+| Entity | HierarchyEntity | Folder structures <para /> Carrier object for HierarchyEntity. Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: HierarchyEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,12 +83,12 @@ Response body:
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "non",
+  "Path": "ut",
   "Entity": null
 }
 ```
@@ -101,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 260,
+  "HierarchyId": 892,
   "Domain": "Dashboards",
-  "Name": "Herman, McGlynn and Pfeffer",
-  "Fullname": "sunt",
-  "ParentId": 338,
+  "Name": "Morissette, Balistreri and Nader",
+  "Fullname": "et",
+  "ParentId": 351,
   "Children": [
     {
-      "HierarchyId": 116,
+      "HierarchyId": 942,
       "Domain": "Dashboards",
-      "Name": "Schoen-Parker",
-      "Fullname": "sint",
-      "ParentId": 428,
+      "Name": "Huels LLC",
+      "Fullname": "sed",
+      "ParentId": 603,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1998-05-16T02:49:44.6704246+02:00",
-      "RegisteredAssociateId": 872,
-      "Updated": "2005-08-25T02:49:44.6704246+02:00",
-      "UpdatedAssociateId": 689,
+      "Registered": "1996-05-27T17:37:18.2602417+02:00",
+      "RegisteredAssociateId": 586,
+      "Updated": "2020-12-28T17:37:18.2602417+01:00",
+      "UpdatedAssociateId": 785,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldLength": 606
         }
       }
     }
   ],
-  "Registered": "2008-09-28T02:49:44.6704246+02:00",
-  "RegisteredAssociateId": 755,
-  "Updated": "2002-01-31T02:49:44.6704246+01:00",
-  "UpdatedAssociateId": 638,
+  "Registered": "1996-05-31T17:37:18.2602417+02:00",
+  "RegisteredAssociateId": 568,
+  "Updated": "2006-02-14T17:37:18.2602417+01:00",
+  "UpdatedAssociateId": 855,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldLength": 676
     }
   }
 }

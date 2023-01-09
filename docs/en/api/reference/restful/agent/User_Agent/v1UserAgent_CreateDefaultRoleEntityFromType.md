@@ -47,16 +47,15 @@ POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Type | string |  |
+| Type | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RoleEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,11 +75,11 @@ Response body:
 | Rank | int32 | Sorting rank of this role in lists |
 | Created | date-time | Registered when  in UTC. |
 | UseCategories | int32 | Apply role category membership to users |
-| CreatedBy |  | Created by user |
+| CreatedBy | Associate | Created by user |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Last updated by user |
-| DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight |  |  |
+| UpdatedBy | Associate | Last updated by user |
+| DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,7 +88,7 @@ Response body:
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,16 +103,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 972,
-  "Name": "Dickinson Inc and Sons",
-  "Tooltip": "quia",
+  "RoleId": 883,
+  "Name": "Bogan, Little and Kihn",
+  "Tooltip": "praesentium",
   "RoleType": "Anonymous",
-  "Deleted": 802,
-  "Rank": 960,
-  "Created": "2014-12-16T02:49:45.6559717+01:00",
-  "UseCategories": 404,
+  "Deleted": 837,
+  "Rank": 231,
+  "Created": "2003-08-20T17:37:19.5529764+02:00",
+  "UseCategories": 832,
   "CreatedBy": null,
-  "Updated": "2016-05-22T02:49:45.6559717+02:00",
+  "Updated": "2004-04-02T17:37:19.5539762+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldLength": 610
     }
   }
 }

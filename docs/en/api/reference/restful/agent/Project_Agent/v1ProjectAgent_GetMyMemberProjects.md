@@ -42,7 +42,7 @@ POST /api/v1/Agents/Project/GetMyMemberProjects?$select=name,department,category
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +72,7 @@ Response body: array
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 117,
-    "Name": "Dickens-Moore",
-    "Description": "Monitored maximized migration",
+    "ProjectId": 466,
+    "Name": "Stokes-Rogahn",
+    "Description": "Decentralized attitude-oriented leverage",
     "URL": "http://www.example.com/",
-    "Type": "totam",
-    "AssociateId": 101,
-    "AssociateFullName": "Bud Nolan Brekke III",
-    "TypeId": 851,
-    "Updated": "2009-07-25T02:49:44.9684639+02:00",
-    "StatusId": 282,
-    "Status": "et",
-    "TextId": 821,
-    "PublishTo": "2000-09-01T02:49:44.9684639+02:00",
-    "PublishFrom": "2011-08-14T02:49:44.9684639+02:00",
-    "IsPublished": false,
+    "Type": "sed",
+    "AssociateId": 74,
+    "AssociateFullName": "Fleta Collier",
+    "TypeId": 412,
+    "Updated": "2005-08-14T17:37:18.6592449+02:00",
+    "StatusId": 161,
+    "Status": "provident",
+    "TextId": 645,
+    "PublishTo": "2018-02-09T17:37:18.6592449+01:00",
+    "PublishFrom": "2018-05-04T17:37:18.6592449+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "975703",
-    "ActiveErpLinks": 735,
+    "ProjectNumber": "428114",
+    "ActiveErpLinks": 445,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 86
       }
     }
   }

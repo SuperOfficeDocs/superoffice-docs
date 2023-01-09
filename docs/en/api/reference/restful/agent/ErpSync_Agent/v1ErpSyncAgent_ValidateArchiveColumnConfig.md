@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/ValidateArchiveColumnConfig
 Clear field info from table SUPERLISTCOLUMNSIZE if field mapping changed on given connection
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -42,17 +40,16 @@ POST /api/v1/Agents/ErpSync/ValidateArchiveColumnConfig?$select=name,department,
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ListOwner, ErpConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ListOwner | string |  |
-| ErpConnectionId | int32 |  |
+| ListOwner | String |  |
+| ErpConnectionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -60,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -69,12 +66,12 @@ Response body:
 POST /api/v1/Agents/ErpSync/ValidateArchiveColumnConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListOwner": "et",
-  "ErpConnectionId": 566
+  "ListOwner": "quasi",
+  "ErpConnectionId": 996
 }
 ```
 

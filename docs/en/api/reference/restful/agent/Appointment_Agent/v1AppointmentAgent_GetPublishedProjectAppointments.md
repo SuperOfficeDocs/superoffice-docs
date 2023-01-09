@@ -42,16 +42,15 @@ POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
+| ProjectId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -112,7 +111,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -125,7 +124,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 8
+  "ProjectId": 104
 }
 ```
 
@@ -137,53 +136,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 646,
-    "StartDate": "2008-04-22T02:49:43.2461231+02:00",
-    "EndDate": "2019-08-15T02:49:43.2461231+02:00",
+    "AppointmentId": 587,
+    "StartDate": "2018-10-07T17:37:16.258242+02:00",
+    "EndDate": "2010-06-04T17:37:16.258242+02:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Brenden Purdy",
-    "ContactName": "Stanton-Mann",
-    "Description": "Upgradable content-based strategy",
-    "PersonFullName": "Odie Lynch",
-    "PersonId": 157,
-    "ContactId": 720,
-    "ProjectId": 700,
-    "ProjectName": "Swaniawski-Goyette",
+    "Task": "voluptatem",
+    "AssociateFullName": "Julio Howell",
+    "ContactName": "Hansen, Morissette and Boyle",
+    "Description": "Mandatory content-based forecast",
+    "PersonFullName": "Pietro Krajcik",
+    "PersonId": 861,
+    "ContactId": 48,
+    "ProjectId": 783,
+    "ProjectName": "Hamill, Collier and Steuber",
     "IsPublished": false,
-    "AssociateId": 424,
-    "ColorIndex": 46,
-    "IsFree": true,
-    "HasAlarm": false,
+    "AssociateId": 513,
+    "ColorIndex": 543,
+    "IsFree": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 576,
-    "PriorityName": "Legros-Howell",
+    "PriorityId": 69,
+    "PriorityName": "Erdman, Flatley and Smitham",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1996-05-12T02:49:43.2461231+02:00",
+    "ActiveDate": "2015-07-29T17:37:16.2592415+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-02-22T02:49:43.2461231+01:00",
-    "RecurringEndDate": "2001-03-10T02:49:43.2461231+01:00",
-    "MotherId": 627,
-    "AssignedBy": 779,
-    "AssignedByFullName": "Randy McGlynn",
+    "RecurringStartDate": "1997-10-19T17:37:16.2592415+02:00",
+    "RecurringEndDate": "2021-05-21T17:37:16.2592415+02:00",
+    "MotherId": 715,
+    "AssignedBy": 127,
+    "AssignedByFullName": "Ms. Verona Fritsch",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "nostrum",
-    "SaleId": 712,
-    "SaleName": "Keebler-Bernhard",
-    "AssociateName": "Lowe-Stiedemann",
-    "CreatedDate": "2000-03-25T02:49:43.2461231+01:00",
-    "CreatedBy": "eius",
-    "CreatedByFullName": "Shany Prosacco",
-    "CreatedByAssociateId": 618,
+    "Location": "quia",
+    "AlarmLeadTime": "minima",
+    "SaleId": 961,
+    "SaleName": "Wyman, Herman and Sanford",
+    "AssociateName": "Grant-Bartoletti",
+    "CreatedDate": "2000-12-16T17:37:16.2592415+01:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Lura Wuckert",
+    "CreatedByAssociateId": 403,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -191,7 +190,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldLength": 158
       }
     }
   }

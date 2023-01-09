@@ -38,7 +38,7 @@ Excludes standard fields.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FieldInfoBase
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +70,7 @@ Response body:
 GET /api/v1/TicketMessage/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Boyer, Monahan and Bernier",
-  "DisplayName": "Wintheiser-Shields",
-  "Description": "Sharable client-driven architecture",
-  "ShortLabel": "ut",
-  "HideLabel": false,
+  "FieldName": "Wilderman Group",
+  "DisplayName": "Schiller, Jacobson and Schulist",
+  "Description": "Polarised tertiary collaboration",
+  "ShortLabel": "explicabo",
+  "HideLabel": true,
   "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": true,
-  "Rank": 498,
-  "TemplateVariableName": "Barrows, Stoltenberg and Harber"
+  "IsExternal": false,
+  "Rank": 843,
+  "TemplateVariableName": "Renner-Weimann"
 }
 ```

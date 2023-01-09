@@ -34,7 +34,7 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +52,7 @@ Response body: array
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -61,7 +61,7 @@ Response body: array
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 155,
-    "Name": "Parisian-Schaden",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 766,
-    "UdListDefinitionId": 514,
+    "HeadingId": 339,
+    "Name": "Volkman Inc and Sons",
+    "Tooltip": "aliquid",
+    "Deleted": true,
+    "Rank": 286,
+    "UdListDefinitionId": 421,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldType": "System.String",
+        "FieldLength": 451
       }
     }
   }

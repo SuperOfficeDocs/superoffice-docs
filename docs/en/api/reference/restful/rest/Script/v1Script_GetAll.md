@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=unde
-GET /api/v1/Script?$top=530
-GET /api/v1/Script?$skip=908
+GET /api/v1/Script?$entities=adipisci
+GET /api/v1/Script?$top=788
+GET /api/v1/Script?$skip=175
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=dolores
+GET /api/v1/Script?$context=officia
 GET /api/v1/Script?$format=JSON
 GET /api/v1/Script?$jsonSafe=False
 GET /api/v1/Script?$output=Display
@@ -96,7 +95,7 @@ GET /api/v1/Script?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body:
 GET /api/v1/Script
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "labore",
+  "odata.nextLink": "nulla",
   "value": [
     {
-      "PrimaryKey": 6046,
-      "EntityName": "person",
-      "personId": 6046,
-      "fullName": "Blake Larson"
+      "PrimaryKey": 2299,
+      "EntityName": "sale",
+      "saleId": 2299,
+      "contactId": 8019,
+      "name": "Hermann Group"
     },
     {
-      "PrimaryKey": 9885,
-      "EntityName": "person",
-      "personId": 9885,
-      "fullName": "Miss Issac Fletcher Parisian DDS"
+      "PrimaryKey": 8049,
+      "EntityName": "sale",
+      "saleId": 8049,
+      "contactId": 315,
+      "name": "Ankunding Group"
     }
   ]
 }

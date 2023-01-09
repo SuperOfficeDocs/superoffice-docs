@@ -38,18 +38,17 @@ POST /api/v1/Agents/Appointment/AcceptWithSmtpEmailConfirmation?$select=name,dep
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AppointmentId, UpdateMode, SmtpEMailConnectionInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AppointmentId | int32 |  |
-| UpdateMode | string |  |
-| SmtpEMailConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| AppointmentId | Integer |  |
+| UpdateMode | String |  |
+| SmtpEMailConnectionInfo | EMailConnectionInfo | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -57,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -66,11 +65,11 @@ Response body:
 POST /api/v1/Agents/Appointment/AcceptWithSmtpEmailConfirmation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 381,
+  "AppointmentId": 384,
   "UpdateMode": "OnlyThis",
   "SmtpEMailConnectionInfo": null
 }

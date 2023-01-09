@@ -26,7 +26,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=molestiae
+GET /api/v1/List/SaleType/MDOItems?query=et
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/SaleType/MDOItems?query=molestiae
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 240,
-    "Name": "Grady Inc and Sons",
-    "ToolTip": "Rerum nostrum eos eos fugiat assumenda.",
-    "Deleted": true,
-    "Rank": 949,
-    "Type": "dolore",
+    "Id": 356,
+    "Name": "Herman Group",
+    "ToolTip": "Facilis veritatis laudantium itaque et.",
+    "Deleted": false,
+    "Rank": 466,
+    "Type": "ullam",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Aufderhar Group",
-        "ToolTip": "Rerum dolorem repellat soluta accusamus est qui perferendis.",
-        "Deleted": false,
-        "Rank": 819,
-        "Type": "quaerat",
+        "Id": 889,
+        "Name": "Carroll Group",
+        "ToolTip": "Doloribus magnam ipsam quidem consequatur quia rerum culpa.",
+        "Deleted": true,
+        "Rank": 450,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quis",
-        "ColorBlock": 55,
-        "ExtraInfo": "veritatis",
-        "StyleHint": "est",
-        "FullName": "Kellen Ebert IV",
+        "IconHint": "facere",
+        "ColorBlock": 871,
+        "ExtraInfo": "aut",
+        "StyleHint": "consequuntur",
+        "FullName": "Allie Kyler Goldner II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 511
+            "FieldLength": 158
           }
         }
       }
     ],
-    "IconHint": "commodi",
-    "ColorBlock": 951,
-    "ExtraInfo": "odit",
-    "StyleHint": "omnis",
-    "FullName": "Kylee Bahringer",
+    "IconHint": "amet",
+    "ColorBlock": 9,
+    "ExtraInfo": "odio",
+    "StyleHint": "et",
+    "FullName": "Dixie Wyman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldLength": 807
       }
     }
   }

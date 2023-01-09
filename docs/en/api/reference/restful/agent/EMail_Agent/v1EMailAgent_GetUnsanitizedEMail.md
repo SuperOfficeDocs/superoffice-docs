@@ -47,17 +47,16 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMail?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Id, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 |  |
-| IncludeAttachments | bool |  |
+| Id | Integer |  |
+| IncludeAttachments | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | Bcc | array | Bcc recipient of e-mail |
 | Subject | string | Subject of the e-mail |
 | HTMLBody | string | Body formatted in HTML |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | Sent | date-time | When was the e-mail sent |
 | Size | int32 | Total size of the e-mail |
 | Priority | string | Importance of the e-mail |
@@ -82,7 +81,7 @@ Response body:
 | MessageID | string | Unique id of e-mails |
 | PlainBody | string | Body formatted in plain text |
 | IsSent | bool | Is this a sent e-mail (not new) |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
 | ServerId | int32 | Unique id for the e-mail on the server |
 | Attachments | array |  |
 | CustomHeaderList | array | Non standard e-mail headers |
@@ -90,12 +89,12 @@ Response body:
 | EmailItemId | int32 | Primary key |
 | AccountId | int32 | Account Id |
 | ReceivedAt | date-time | Received date time |
-| InReplyTo |  | The envelope of the email this email is a reply to, if it exists |
+| InReplyTo | EMailEnvelope | The envelope of the email this email is a reply to, if it exists |
 | RepliedAt | date-time | When this email was replied at |
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -104,11 +103,11 @@ Response body:
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 544,
+  "Id": 421,
   "IncludeAttachments": false
 }
 ```
@@ -122,155 +121,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 650,
-      "ContactName": "O'Keefe-Waters",
-      "PersonId": 861,
-      "PersonName": "Lubowitz-Stoltenberg",
-      "AssociateId": 240,
+      "ContactId": 677,
+      "ContactName": "Crist, Wilkinson and Huel",
+      "PersonId": 105,
+      "PersonName": "Jast Group",
+      "AssociateId": 905,
       "Address": "veniam",
-      "EmailId": 232,
+      "EmailId": 898,
       "DuplicatePersonIds": [
-        423,
-        762
+        402,
+        538
       ],
-      "Name": "Boyer-Schinner",
+      "Name": "Balistreri, Lynch and Goyette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 606
+          "FieldType": "System.Int32",
+          "FieldLength": 479
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 962,
-      "ContactName": "Cassin Group",
-      "PersonId": 247,
-      "PersonName": "Raynor-Emmerich",
-      "AssociateId": 667,
-      "Address": "labore",
-      "EmailId": 819,
+      "ContactId": 479,
+      "ContactName": "Thompson LLC",
+      "PersonId": 557,
+      "PersonName": "Schroeder, Bogisich and Cronin",
+      "AssociateId": 520,
+      "Address": "eius",
+      "EmailId": 944,
       "DuplicatePersonIds": [
-        549,
-        326
+        502,
+        516
       ],
-      "Name": "Ebert Group",
+      "Name": "Harvey, Rutherford and Huel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 543
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 131,
-      "ContactName": "Stiedemann-Cassin",
-      "PersonId": 207,
-      "PersonName": "Corwin, Rau and D'Amore",
-      "AssociateId": 220,
-      "Address": "laborum",
-      "EmailId": 553,
+      "ContactId": 811,
+      "ContactName": "Hirthe Group",
+      "PersonId": 662,
+      "PersonName": "Barrows Group",
+      "AssociateId": 896,
+      "Address": "sit",
+      "EmailId": 264,
       "DuplicatePersonIds": [
-        475,
-        840
+        386,
+        829
       ],
-      "Name": "Baumbach, Block and Ritchie",
+      "Name": "Harber Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 851
+          "FieldType": "System.Int32",
+          "FieldLength": 647
         }
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "ipsum",
+  "Subject": "voluptas",
+  "HTMLBody": "necessitatibus",
   "From": null,
-  "Sent": "2009-02-01T02:49:44.4816668+01:00",
-  "Size": 402,
+  "Sent": "2020-01-01T17:37:18.0082448+01:00",
+  "Size": 371,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "quo",
-  "IsSent": false,
+  "MessageID": "mollitia",
+  "PlainBody": "fugiat",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 491,
+  "ServerId": 20,
   "Attachments": [
     {
-      "Description": "Enterprise-wide maximized knowledge base",
-      "Filename": "sed",
-      "Size": 641,
-      "Type": "impedit",
-      "Encoding": "quia",
-      "Id": "voluptatem",
-      "Disposition": "perspiciatis",
+      "Description": "Ergonomic value-added installation",
+      "Filename": "velit",
+      "Size": 484,
+      "Type": "ab",
+      "Encoding": "porro",
+      "Id": "et",
+      "Disposition": "et",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 811
+          "FieldLength": 690
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Huels Inc and Sons",
+      "Name": "Carroll, Becker and Kuphal",
       "Values": [
-        "sint",
-        "consequatur"
+        "ipsum",
+        "nulla"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 201
+          "FieldType": "System.Int32",
+          "FieldLength": 15
         }
       }
     },
     {
-      "Name": "Huels Inc and Sons",
+      "Name": "Carroll, Becker and Kuphal",
       "Values": [
-        "sint",
-        "consequatur"
+        "ipsum",
+        "nulla"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 201
+          "FieldType": "System.Int32",
+          "FieldLength": 15
         }
       }
     }
   ],
-  "FolderName": "Wisoky, Goyette and Carter",
-  "EmailItemId": 25,
-  "AccountId": 371,
-  "ReceivedAt": "2011-12-11T02:49:44.4816668+01:00",
+  "FolderName": "Rau, Langosh and Schoen",
+  "EmailItemId": 330,
+  "AccountId": 786,
+  "ReceivedAt": "2021-12-23T17:37:18.0092445+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-06-21T02:49:44.4816668+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2021-11-19T17:37:18.0092445+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldType": "System.Int32",
+      "FieldLength": 178
     }
   }
 }

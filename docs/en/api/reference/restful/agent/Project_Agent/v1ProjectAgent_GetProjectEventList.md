@@ -42,13 +42,12 @@ POST /api/v1/Agents/Project/GetProjectEventList?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: projectEventIds  
+## Request Body: projectEventIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +81,7 @@ Response body: array
 | SignOnTriggersAssign | bool | If true, the sign on task should be created as an Assigned task, triggering the invitation dialog |
 | SignOnPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
 | SignOffPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,7 +90,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectEventList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,34 +101,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Mrs. Keegan Swaniawski Jr.",
-    "Description": "User-friendly secondary orchestration",
-    "ProjectId": 228,
-    "EventName": "Kreiger-O'Conner",
-    "AssociateId": 557,
+    "AssociateFullName": "Vivien Kihn",
+    "Description": "Intuitive optimal budgetary management",
+    "ProjectId": 420,
+    "EventName": "Steuber LLC",
+    "AssociateId": 534,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "illum",
-    "SignOffText": "quibusdam",
-    "SignOnConfirmationText": "quia",
-    "SignOnText": "dolorem",
-    "EventDate": "2020-10-30T02:49:44.9684639+01:00",
+    "SignOffConfirmationText": "veritatis",
+    "SignOffText": "aperiam",
+    "SignOnConfirmationText": "molestias",
+    "SignOnText": "id",
+    "EventDate": "2000-04-30T17:37:18.6542446+02:00",
     "Enabled": false,
     "SignOff": false,
-    "SignOffTaskEnable": false,
-    "SignOnTaskEnable": true,
-    "SignOn": false,
-    "SignOffTaskId": 850,
-    "SignOnTaskId": 601,
+    "SignOffTaskEnable": true,
+    "SignOnTaskEnable": false,
+    "SignOn": true,
+    "SignOffTaskId": 855,
+    "SignOnTaskId": 939,
     "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": true,
-    "SignOnPersonId": 714,
-    "SignOffPersonId": 573,
+    "SignOnPersonId": 704,
+    "SignOffPersonId": 468,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldLength": 375
       }
     }
   }

@@ -44,17 +44,16 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name, EmailAddress 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| EmailAddress | string |  |
+| Name | String |  |
+| EmailAddress | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body: array
 | ContactDepartment | string | Department |
 | ContactCategory | string | Contact category |
 | SortName | string | If person ? The person name, else contact name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,8 +86,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kris Group",
-  "EmailAddress": "clement_becker@raynorgottlieb.co.uk"
+  "Name": "Osinski-Bradtke",
+  "EmailAddress": "titus@bartell.info"
 }
 ```
 
@@ -100,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 694,
-    "FullName": "Bette Schuppe",
-    "EmailAddress": "theresa.stark@kessler.biz",
-    "ContactId": 775,
-    "ContactName": "Hahn Group",
-    "ContactDepartment": "deliver B2C content",
+    "PersonId": 104,
+    "FullName": "Dario Rempel",
+    "EmailAddress": "kailey@johnsbogan.uk",
+    "ContactId": 748,
+    "ContactName": "Zieme, Kutch and Bergstrom",
+    "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Glover, Jacobson and Harvey",
+    "SortName": "Zemlak-Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldType": "System.String",
+        "FieldLength": 7
       }
     }
   }

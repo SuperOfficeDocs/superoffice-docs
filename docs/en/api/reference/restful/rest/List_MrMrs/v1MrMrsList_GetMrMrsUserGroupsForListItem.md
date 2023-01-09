@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 452,
-    "Name": "Howell, Gutmann and Wiegand",
-    "ToolTip": "Autem repellat ratione.",
+    "Id": 751,
+    "Name": "Gusikowski LLC",
+    "ToolTip": "Fugit perspiciatis totam possimus rerum aut.",
     "Deleted": false,
-    "Rank": 156,
-    "Type": "in",
-    "ColorBlock": 35,
-    "IconHint": "sit",
+    "Rank": 266,
+    "Type": "nesciunt",
+    "ColorBlock": 89,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "1996-02-19T02:49:52.2815666+01:00",
+    "LastChanged": "2006-10-14T17:37:40.0565063+02:00",
     "ChildItems": [
       {
-        "Id": 460,
-        "Name": "Herman LLC",
-        "ToolTip": "Libero voluptas autem qui aut fuga ea.",
+        "Id": 253,
+        "Name": "Kling Inc and Sons",
+        "ToolTip": "Numquam repellat est.",
         "Deleted": false,
-        "Rank": 878,
-        "Type": "porro",
-        "ColorBlock": 956,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2012-07-15T02:49:52.2815666+02:00",
+        "Rank": 185,
+        "Type": "consequatur",
+        "ColorBlock": 755,
+        "IconHint": "tenetur",
+        "Selected": true,
+        "LastChanged": "1999-05-29T17:37:40.0575016+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Domingo Leannon",
+        "FullName": "Prof. Arjun Powlowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 934
+            "FieldType": "System.Int32",
+            "FieldLength": 854
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "unde",
-    "Hidden": false,
-    "FullName": "Doug Gorczany",
+    "ExtraInfo": "eum",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Cloyd Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldLength": 464
       }
     }
   }

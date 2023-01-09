@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/ChangeUserType
 Get a user from the user name.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/User/ChangeUserType?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 User, UserType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| User |  | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
-| UserType | string |  |
+| User | User | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| UserType | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: User
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,10 +70,10 @@ Response body:
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
 | OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -93,7 +90,7 @@ Response body:
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,7 +99,7 @@ Response body:
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,14 +115,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 492,
-  "Name": "Dickinson Group",
-  "Rank": 715,
-  "Tooltip": "odio",
+  "AssociateId": 2,
+  "Name": "Spencer, McCullough and Lubowitz",
+  "Rank": 350,
+  "Tooltip": "voluptatem",
   "LicenseOwners": [
     {
-      "Name": "Kilback, Senger and Witting",
-      "Description": "Business-focused systemic standardization",
+      "Name": "Adams Group",
+      "Description": "Sharable composite collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -139,13 +136,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldLength": 300
         }
       }
     },
     {
-      "Name": "Kilback, Senger and Witting",
-      "Description": "Business-focused systemic standardization",
+      "Name": "Adams Group",
+      "Description": "Sharable composite collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -159,7 +156,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldLength": 300
         }
       }
     }
@@ -168,110 +165,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aliquid",
-      "Tooltip": "molestiae",
-      "Id": 781,
-      "Rank": 930,
-      "Deleted": false,
+      "Value": "aut",
+      "Tooltip": "nihil",
+      "Id": 652,
+      "Rank": 51,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 666
+          "FieldType": "System.String",
+          "FieldLength": 907
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2006-06-11T02:49:45.6090971+02:00",
-  "Lastlogout": "2017-02-24T02:49:45.6090971+01:00",
-  "EjUserId": 530,
-  "RequestSignature": "eum",
+  "Lastlogin": "2000-06-26T17:37:19.4979769+02:00",
+  "Lastlogout": "2010-12-19T17:37:19.4979769+01:00",
+  "EjUserId": 136,
+  "RequestSignature": "hic",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "doloribus",
-      "DisplayValue": "quasi",
+      "Value": "officia",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldLength": 10
         }
       }
     },
     {
       "Type": null,
-      "Value": "doloribus",
-      "DisplayValue": "quasi",
+      "Value": "officia",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldLength": 10
         }
       }
     }
   ],
-  "UserName": "Parisian, Schmitt and King",
+  "UserName": "Franecki-Schuppe",
   "TicketCategories": [
     {
-      "Id": 569,
-      "Name": "Lesch-Stark",
-      "ToolTip": "Ex totam.",
+      "Id": 471,
+      "Name": "Jones LLC",
+      "ToolTip": "Enim reiciendis.",
       "Deleted": false,
-      "Rank": 925,
-      "Type": "sit",
+      "Rank": 377,
+      "Type": "sed",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "qui",
-      "ColorBlock": 558,
-      "ExtraInfo": "eveniet",
-      "StyleHint": "soluta",
-      "FullName": "Miss Alexane Katheryn Raynor",
+      "IconHint": "ab",
+      "ColorBlock": 22,
+      "ExtraInfo": "fugiat",
+      "StyleHint": "consequuntur",
+      "FullName": "Madisen Crona",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 134
+          "FieldLength": 356
         }
       }
     }
   ],
-  "NickName": "Morar-Braun",
+  "NickName": "D'Amore Inc and Sons",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "ducimus"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "blanditiis",
-    "CustomFields2": "aut"
+    "CustomFields1": "ea",
+    "CustomFields2": "quibusdam"
   },
   "PostSaveCommands": [
     {
-      "Name": "Orn LLC",
-      "DisplayName": "Hessel-Trantow",
-      "Description": "Quality-focused dedicated pricing structure",
-      "ToolTip": "Cumque accusantium rerum quibusdam et aut.",
+      "Name": "Hahn, Spinka and Carter",
+      "DisplayName": "O'Reilly, Rowe and Farrell",
+      "Description": "Ameliorated reciprocal database",
+      "ToolTip": "Et debitis sed et sunt fuga.",
       "Actions": "Implicit",
-      "ActionData": "distinctio",
+      "ActionData": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldType": "System.String",
+          "FieldLength": 248
         }
       }
     }
@@ -280,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldType": "System.String",
+      "FieldLength": 763
     }
   }
 }

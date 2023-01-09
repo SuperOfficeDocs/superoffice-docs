@@ -44,20 +44,19 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId, StartTime, EndTime, Count, DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| DocumentTemplateId | int32 |  |
+| ProjectId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| DocumentTemplateId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -98,15 +97,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 691,
-  "StartTime": "2022-04-27T02:49:44.0910111+02:00",
-  "EndTime": "2006-11-06T02:49:44.0910111+01:00",
-  "Count": 971,
-  "DocumentTemplateId": 978
+  "ProjectId": 111,
+  "StartTime": "2003-05-25T17:37:17.4322431+02:00",
+  "EndTime": "1996-08-04T17:37:17.4322431+02:00",
+  "Count": 267,
+  "DocumentTemplateId": 486
 }
 ```
 
@@ -118,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 21,
-    "Attention": "incidunt",
-    "Header": "blanditiis",
-    "Name": "Blanda, Bailey and Beahan",
-    "OurRef": "numquam",
-    "YourRef": "laboriosam",
-    "Description": "Fundamental background architecture",
-    "DocumentTemplate": "sed",
+    "DocumentId": 968,
+    "Attention": "sint",
+    "Header": "velit",
+    "Name": "Ziemann LLC",
+    "OurRef": "dolores",
+    "YourRef": "repellendus",
+    "Description": "Robust value-added superstructure",
+    "DocumentTemplate": "quam",
     "IsPublished": true,
-    "PersonId": 643,
-    "PersonFullName": "Daisy Waters",
-    "AssociateFullName": "Ms. Morris Harvey Kuhn V",
-    "ContactId": 821,
-    "ContactName": "Zieme, Hoppe and Ernser",
-    "ProjectId": 768,
-    "ProjectName": "Feest-Fisher",
-    "AssociateId": 466,
-    "Snum": 768,
-    "SaleId": 613,
-    "SaleName": "Stanton-Grimes",
+    "PersonId": 896,
+    "PersonFullName": "Dulce Leffler",
+    "AssociateFullName": "Eino Rohan",
+    "ContactId": 221,
+    "ContactName": "Crona Group",
+    "ProjectId": 959,
+    "ProjectName": "Dibbert, Gusikowski and Jerde",
+    "AssociateId": 616,
+    "Snum": 695,
+    "SaleId": 348,
+    "SaleName": "Rowe, Harvey and Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldType": "System.String",
+        "FieldLength": 718
       }
     }
   }

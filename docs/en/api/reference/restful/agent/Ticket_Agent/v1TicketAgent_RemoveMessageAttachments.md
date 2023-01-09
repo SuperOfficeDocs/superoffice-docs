@@ -40,17 +40,16 @@ POST /api/v1/Agents/Ticket/RemoveMessageAttachments?$select=name,department,cate
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TicketMessageEntityId, AttachmentIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketMessageEntityId | int32 |  |
-| AttachmentIds | array |  |
+| TicketMessageEntityId | Integer |  |
+| AttachmentIds | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -58,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -67,14 +66,14 @@ Response body:
 POST /api/v1/Agents/Ticket/RemoveMessageAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 804,
+  "TicketMessageEntityId": 615,
   "AttachmentIds": [
-    942,
-    341
+    553,
+    435
   ]
 }
 ```

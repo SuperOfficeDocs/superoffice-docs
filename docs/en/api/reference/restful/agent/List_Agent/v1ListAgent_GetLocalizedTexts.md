@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/GetLocalizedTexts?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +60,7 @@ Response body: array
 | Type | string | The type of the text string, e.g. Field label, Udef label, etc. |
 | LocalizedTextId | int32 | Primary key |
 | IsBuiltIn | bool | 1 = this row is populated and maintained by SuperOffice |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -69,7 +69,7 @@ Response body: array
 POST /api/v1/Agents/List/GetLocalizedTexts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 387,
-    "ResourceId": 424,
-    "Text": "veritatis",
+    "LanguageId": 36,
+    "ResourceId": 209,
+    "Text": "placeat",
     "Type": "Column",
-    "LocalizedTextId": 570,
+    "LocalizedTextId": 387,
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 489
+        "FieldLength": 902
       }
     }
   }

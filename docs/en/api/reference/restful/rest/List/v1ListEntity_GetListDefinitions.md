@@ -42,7 +42,7 @@ GET /api/v1/List?includeDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +64,7 @@ Response body: array
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 854,
-    "Name": "Heller, Romaguera and Abernathy",
-    "Tooltip": "neque",
+    "Id": 227,
+    "Name": "Schiller LLC",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "Rank": 461,
-    "IsCustomList": false,
-    "IsMDOList": true,
+    "Rank": 937,
+    "IsCustomList": true,
+    "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "non",
-    "InUseByUserDefinedFields": true,
+    "ListType": "ratione",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 305
       }
     }
   }

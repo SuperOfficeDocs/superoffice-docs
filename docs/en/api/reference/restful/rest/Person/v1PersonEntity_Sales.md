@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,12 +73,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Sales?$select=name,department,category/id
 GET /api/v1/Person/{id}/Sales?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Sales?$orderBy=name asc
-GET /api/v1/Person/{id}/Sales?$entities=sed
-GET /api/v1/Person/{id}/Sales?$top=547
-GET /api/v1/Person/{id}/Sales?$skip=306
+GET /api/v1/Person/{id}/Sales?$entities=odit
+GET /api/v1/Person/{id}/Sales?$top=564
+GET /api/v1/Person/{id}/Sales?$skip=802
 GET /api/v1/Person/{id}/Sales?$mode=Full
 GET /api/v1/Person/{id}/Sales?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Sales?$context=molestiae
+GET /api/v1/Person/{id}/Sales?$context=iste
 GET /api/v1/Person/{id}/Sales?$format=JSON
 GET /api/v1/Person/{id}/Sales?$jsonSafe=False
 GET /api/v1/Person/{id}/Sales?$output=Display
@@ -100,7 +99,7 @@ GET /api/v1/Person/{id}/Sales?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Person/{id}/Sales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatem",
+  "odata.nextLink": "laboriosam",
   "value": [
     {
-      "PrimaryKey": 4824,
-      "EntityName": "person",
-      "personId": 4824,
-      "fullName": "Ms. Al Jayme Abbott"
+      "PrimaryKey": 8468,
+      "EntityName": "sale",
+      "saleId": 8468,
+      "contactId": 3324,
+      "name": "Walsh, McClure and Abshire"
     },
     {
-      "PrimaryKey": 6661,
-      "EntityName": "person",
-      "personId": 6661,
-      "fullName": "Mrs. Gladys Greenholt"
+      "PrimaryKey": 8535,
+      "EntityName": "sale",
+      "saleId": 8535,
+      "contactId": 5369,
+      "name": "Toy-Stokes"
     }
   ]
 }

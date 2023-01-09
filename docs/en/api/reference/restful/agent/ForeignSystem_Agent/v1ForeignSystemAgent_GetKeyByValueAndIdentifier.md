@@ -42,21 +42,20 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, DeviceIdentifier, KeyName, KeyValue, TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
-| KeyName | string |  |
-| KeyValue | string |  |
-| TableName | string |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
+| KeyName | String |  |
+| KeyValue | String |  |
+| TableName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body:
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,12 +88,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rice-Quigley",
-  "DeviceName": "Franecki-Kohler",
-  "DeviceIdentifier": "tempora",
-  "KeyName": "Stark-Witting",
-  "KeyValue": "quae",
-  "TableName": "Nolan Inc and Sons"
+  "ApplicationName": "Emard-Strosin",
+  "DeviceName": "Jacobi-Heaney",
+  "DeviceIdentifier": "ab",
+  "KeyName": "Kohler Group",
+  "KeyValue": "explicabo",
+  "TableName": "Moen Inc and Sons"
 }
 ```
 
@@ -105,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "at",
-  "Value": "voluptate",
-  "RecordId": 365,
-  "CreatedDate": "2016-12-28T02:49:44.561046+01:00",
-  "UpdatedDate": "2012-03-31T02:49:44.561046+02:00",
-  "UpdatedBy": "dicta",
-  "CreatedBy": "voluptates",
-  "TableName": "VonRueden-Jerde",
+  "Key": "amet",
+  "Value": "est",
+  "RecordId": 300,
+  "CreatedDate": "1999-11-19T17:37:18.1102411+01:00",
+  "UpdatedDate": "2018-04-19T17:37:18.1102411+02:00",
+  "UpdatedBy": "deleniti",
+  "CreatedBy": "cupiditate",
+  "TableName": "Feeney-Collins",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 533
     }
   }
 }

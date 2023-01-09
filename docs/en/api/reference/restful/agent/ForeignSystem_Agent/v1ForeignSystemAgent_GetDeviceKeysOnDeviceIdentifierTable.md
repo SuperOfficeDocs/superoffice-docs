@@ -42,19 +42,18 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, DeviceIdentifier, TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
-| TableName | string |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
+| TableName | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body: array
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Abbott-Davis",
-  "DeviceName": "Kutch-Stiedemann",
-  "DeviceIdentifier": "dolorum",
-  "TableName": "Lehner Inc and Sons"
+  "ApplicationName": "Corkery, Little and Waelchi",
+  "DeviceName": "Goldner LLC",
+  "DeviceIdentifier": "asperiores",
+  "TableName": "Borer LLC"
 }
 ```
 
@@ -102,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "veritatis",
-    "Value": "vel",
-    "RecordId": 706,
-    "CreatedDate": "2022-04-14T02:49:44.561046+02:00",
-    "UpdatedDate": "2009-04-11T02:49:44.561046+02:00",
-    "UpdatedBy": "repudiandae",
-    "CreatedBy": "harum",
-    "TableName": "Larkin-Farrell",
+    "Key": "voluptatem",
+    "Value": "debitis",
+    "RecordId": 812,
+    "CreatedDate": "2005-02-01T17:37:18.1152414+01:00",
+    "UpdatedDate": "2020-09-06T17:37:18.1152414+02:00",
+    "UpdatedBy": "est",
+    "CreatedBy": "odio",
+    "TableName": "Ernser Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 623
+        "FieldType": "System.Int32",
+        "FieldLength": 543
       }
     }
   }

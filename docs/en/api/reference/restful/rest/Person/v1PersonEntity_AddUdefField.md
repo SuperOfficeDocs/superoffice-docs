@@ -42,7 +42,7 @@ POST /api/v1/Person/UdefLayout?udefFieldType=Checkbox
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +88,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,7 +97,7 @@ Response body:
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 476,
-  "ColumnId": 293,
-  "FieldDefault": "recusandae",
-  "FieldHeight": 169,
-  "FieldLabel": "quia",
-  "FieldLeft": 500,
-  "FieldTop": 176,
+  "UDefFieldId": 849,
+  "ColumnId": 896,
+  "FieldDefault": "consequatur",
+  "FieldHeight": 885,
+  "FieldLabel": "nam",
+  "FieldLeft": 373,
+  "FieldTop": 751,
   "FieldType": "Checkbox",
-  "FieldWidth": 395,
-  "FormatMask": "quia",
-  "HideLabel": false,
+  "FieldWidth": 779,
+  "FormatMask": "dicta",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 542,
-  "LabelLeft": 102,
-  "LabelTop": 678,
-  "LabelWidth": 544,
-  "LastVersionId": 161,
-  "ListTableId": 643,
+  "LabelHeight": 321,
+  "LabelLeft": 592,
+  "LabelTop": 43,
+  "LabelWidth": 819,
+  "LastVersionId": 934,
+  "ListTableId": 12,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 116,
-  "ProgId": "asperiores",
+  "Page1LineNo": 189,
+  "ProgId": "nobis",
   "IsReadOnly": false,
-  "ShortLabel": "in",
-  "TabOrder": 438,
-  "TextLength": 305,
-  "Tooltip": "nostrum",
-  "UdefIdentity": 112,
-  "UDListDefinitionId": 653,
+  "ShortLabel": "qui",
+  "TabOrder": 246,
+  "TextLength": 191,
+  "Tooltip": "unde",
+  "UdefIdentity": 628,
+  "UDListDefinitionId": 546,
   "Justification": "Center",
-  "Version": 709,
-  "TemplateVariableName": "Reichel, McGlynn and Flatley",
-  "HasBeenPublished": true,
-  "MdoListName": "Kuhn-Legros",
+  "Version": 959,
+  "TemplateVariableName": "Wolff-Wiegand",
+  "HasBeenPublished": false,
+  "MdoListName": "Zboncak Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 897
     }
   }
 }

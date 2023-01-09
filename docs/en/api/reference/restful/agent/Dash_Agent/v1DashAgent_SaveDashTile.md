@@ -32,21 +32,20 @@ Updates the existing DashTile or creates a new DashTile if the id parameter is e
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The DashTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardTileId | int32 | Primary key |
-| DashboardId | int32 | The associated dashboard |
-| Height | int32 | Height used by this tile in the dashboard |
-| Width | int32 | Width used by this tile in the dashboard |
-| Rank | int32 | Rank order |
-| DashTileDefinition |  | The tile definition entity |
+| DashboardTileId | Integer | Primary key |
+| DashboardId | Integer | The associated dashboard |
+| Height | Integer | Height used by this tile in the dashboard |
+| Width | Integer | Width used by this tile in the dashboard |
+| Rank | Integer | Rank order |
+| DashTileDefinition | DashTileDefinition | The tile definition entity |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -54,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTile
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,8 +62,8 @@ Response body:
 | Height | int32 | Height used by this tile in the dashboard |
 | Width | int32 | Width used by this tile in the dashboard |
 | Rank | int32 | Rank order |
-| DashTileDefinition |  | The tile definition entity |
-| TableRight |  |  |
+| DashTileDefinition | DashTileDefinition | The tile definition entity |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,15 +72,15 @@ Response body:
 POST /api/v1/Agents/Dash/SaveDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 330,
-  "DashboardId": 650,
-  "Height": 87,
-  "Width": 973,
-  "Rank": 863,
+  "DashboardTileId": 973,
+  "DashboardId": 620,
+  "Height": 781,
+  "Width": 178,
+  "Rank": 999,
   "DashTileDefinition": null
 }
 ```
@@ -93,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 589,
-  "DashboardId": 82,
-  "Height": 252,
-  "Width": 483,
-  "Rank": 608,
+  "DashboardTileId": 492,
+  "DashboardId": 53,
+  "Height": 437,
+  "Width": 112,
+  "Rank": 665,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldType": "System.String",
+      "FieldLength": 749
     }
   }
 }

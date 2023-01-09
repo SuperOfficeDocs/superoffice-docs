@@ -12,8 +12,6 @@ GET /api/v1/User/{id}/CustomCommand
 Get registered custom commands for User
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -40,7 +38,7 @@ Get registered custom commands for User
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 Not Found.
 
@@ -48,7 +46,7 @@ Not Found.
 |----------------|-------------|
 | 404 | Not Found. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -57,7 +55,7 @@ Response body:
 GET /api/v1/User/{id}/CustomCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

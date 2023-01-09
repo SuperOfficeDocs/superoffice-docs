@@ -42,18 +42,17 @@ POST /api/v1/Agents/MDO/GetListWithRestriction?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name, AdditionalInfo, SearchValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| AdditionalInfo | string |  |
-| SearchValue | string |  |
+| Name | String |  |
+| AdditionalInfo | String |  |
+| SearchValue | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +76,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,13 +85,13 @@ Response body: array
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wiegand, Kiehn and Koss",
-  "AdditionalInfo": "voluptas",
-  "SearchValue": "perferendis"
+  "Name": "Kutch Inc and Sons",
+  "AdditionalInfo": "pariatur",
+  "SearchValue": "ea"
 }
 ```
 
@@ -104,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 338,
-    "Name": "Price LLC",
-    "ToolTip": "Debitis dolorum qui inventore et ipsum quo.",
+    "Id": 413,
+    "Name": "Sanford, Toy and Padberg",
+    "ToolTip": "Dignissimos id consequatur consequuntur.",
     "Deleted": false,
-    "Rank": 35,
-    "Type": "magnam",
+    "Rank": 919,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 372,
-        "Name": "Jacobi, Boyer and Beier",
-        "ToolTip": "Iure officiis voluptas voluptatibus illum consectetur at.",
+        "Id": 549,
+        "Name": "Johns LLC",
+        "ToolTip": "Eum repellat ipsa ut dolorem fugiat.",
         "Deleted": false,
-        "Rank": 677,
-        "Type": "nulla",
+        "Rank": 546,
+        "Type": "ratione",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nostrum",
-        "ColorBlock": 635,
-        "ExtraInfo": "est",
-        "StyleHint": "est",
-        "FullName": "Cathy Jeramy Bergnaum DDS",
+        "IconHint": "et",
+        "ColorBlock": 540,
+        "ExtraInfo": "ut",
+        "StyleHint": "alias",
+        "FullName": "Mr. Lionel Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 390
+            "FieldLength": 117
           }
         }
       }
     ],
-    "IconHint": "debitis",
-    "ColorBlock": 315,
-    "ExtraInfo": "explicabo",
-    "StyleHint": "eum",
-    "FullName": "Austen Boehm",
+    "IconHint": "repellat",
+    "ColorBlock": 694,
+    "ExtraInfo": "et",
+    "StyleHint": "culpa",
+    "FullName": "Tevin Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldLength": 589
       }
     }
   }

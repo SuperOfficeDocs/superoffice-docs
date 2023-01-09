@@ -46,21 +46,20 @@ PUT /api/v1/DashTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The DashTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardTileId | int32 | Primary key |
-| DashboardId | int32 | The associated dashboard |
-| Height | int32 | Height used by this tile in the dashboard |
-| Width | int32 | Width used by this tile in the dashboard |
-| Rank | int32 | Rank order |
-| DashTileDefinition |  | The tile definition entity |
+| DashboardTileId | Integer | Primary key |
+| DashboardId | Integer | The associated dashboard |
+| Height | Integer | Height used by this tile in the dashboard |
+| Width | Integer | Width used by this tile in the dashboard |
+| Rank | Integer | Rank order |
+| DashTileDefinition | DashTileDefinition | The tile definition entity |
 
-
-## Response: 
+## Response:
 
 DashTile updated.
 
@@ -69,7 +68,7 @@ DashTile updated.
 | 200 | DashTile updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: DashTileWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,8 +77,8 @@ Response body:
 | Height | int32 | Height used by this tile in the dashboard |
 | Width | int32 | Width used by this tile in the dashboard |
 | Rank | int32 | Rank order |
-| DashTileDefinition |  | The tile definition entity |
-| TableRight |  |  |
+| DashTileDefinition | DashTileDefinition | The tile definition entity |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -89,15 +88,15 @@ Response body:
 PUT /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 791,
-  "DashboardId": 15,
-  "Height": 872,
-  "Width": 83,
-  "Rank": 258,
+  "DashboardTileId": 273,
+  "DashboardId": 958,
+  "Height": 400,
+  "Width": 868,
+  "Rank": 204,
   "DashTileDefinition": null
 }
 ```
@@ -109,18 +108,18 @@ HTTP/1.1 200 DashTile updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 319,
-  "DashboardId": 224,
-  "Height": 398,
-  "Width": 448,
-  "Rank": 452,
+  "DashboardTileId": 571,
+  "DashboardId": 629,
+  "Height": 265,
+  "Width": 337,
+  "Rank": 880,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 921
     }
   },
   "_Links": {

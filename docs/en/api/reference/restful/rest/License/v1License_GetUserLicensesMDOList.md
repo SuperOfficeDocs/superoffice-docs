@@ -32,7 +32,7 @@ Get all licenses in a MDOListItem structure.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +59,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -68,7 +68,7 @@ Response body: array
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,56 +79,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 170,
-    "Name": "Bernhard, O'Reilly and Hamill",
-    "ToolTip": "Et nostrum voluptas adipisci voluptas eum sit et.",
-    "Deleted": true,
-    "Rank": 523,
-    "Type": "aut",
-    "ColorBlock": 648,
-    "IconHint": "id",
+    "Id": 365,
+    "Name": "Friesen LLC",
+    "ToolTip": "Dolor dolores facilis beatae voluptates molestias.",
+    "Deleted": false,
+    "Rank": 18,
+    "Type": "in",
+    "ColorBlock": 47,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "1998-10-16T02:49:51.7179026+02:00",
+    "LastChanged": "2003-06-22T17:37:39.4484374+02:00",
     "ChildItems": [
       {
-        "Id": 812,
-        "Name": "Legros, Kunde and Treutel",
-        "ToolTip": "Iste ut dolore unde cumque.",
+        "Id": 65,
+        "Name": "Rohan Group",
+        "ToolTip": "Occaecati quae excepturi.",
         "Deleted": false,
-        "Rank": 659,
-        "Type": "laboriosam",
-        "ColorBlock": 675,
-        "IconHint": "ut",
+        "Rank": 702,
+        "Type": "eum",
+        "ColorBlock": 89,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "2013-12-31T02:49:51.7179026+01:00",
+        "LastChanged": "2016-01-11T17:37:39.4484374+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "iure",
-        "Hidden": false,
-        "FullName": "Miss Mathilde Mueller",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "minima",
+        "Hidden": true,
+        "FullName": "Beatrice Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 459
+            "FieldType": "System.Int32",
+            "FieldLength": 705
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "harum",
-    "Hidden": false,
-    "FullName": "Sherman Upton",
+    "ExtraInfo": "sequi",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Mrs. Skye Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldLength": 878
       }
     }
   }

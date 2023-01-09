@@ -42,17 +42,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetChangedPageOneFields?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 OwnerType, UserGroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OwnerType | string |  |
-| UserGroupId | int32 |  |
+| OwnerType | String |  |
+| UserGroupId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 
 ## Sample request
@@ -69,12 +68,12 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetChangedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 988
+  "UserGroupId": 442
 }
 ```
 

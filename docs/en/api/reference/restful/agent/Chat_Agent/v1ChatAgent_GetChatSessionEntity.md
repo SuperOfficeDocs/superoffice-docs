@@ -25,7 +25,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=827
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=938
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/i
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,14 +52,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ChatSessionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 | The primary key (auto-incremented) |
 | TopicId | int32 | The reference to the associated chat topic. |
-| User |  | User agent handling this session |
-| Person |  | Customer person in this session - could be empty if we don't know exactly. |
+| User | Associate | User agent handling this session |
+| Person | Person | Customer person in this session - could be empty if we don't know exactly. |
 | CustomerAlias | string | The alias for the customer. |
 | CustomerHost | string | The hostname or IP address for the customer. |
 | CustomerName | string | The name of customer, if provided |
@@ -80,14 +80,14 @@ Response body:
 | AlertLevel | int32 | The alert level for this chat session. |
 | Rank | int32 | Lowest possible unique number for active sessions for user. User for color index. Starting at 1. |
 | Flags | string | Various flags for the chat session |
-| Contact |  | Contact this session is connected to - could be empty if we don't know exactly. |
-| Project |  | Project the session is connectedto - could be empty if we don't know exactly. |
-| Sale |  | Sale the session is connected to - could be empty if we don't know exactly. |
-| Ticket |  | Ticket the session is connected to - could be empty if we don't know exactly. |
-| TransferTo |  | User agent that has a pending transfer of the chat session |
+| Contact | Contact | Contact this session is connected to - could be empty if we don't know exactly. |
+| Project | Project | Project the session is connectedto - could be empty if we don't know exactly. |
+| Sale | Sale | Sale the session is connected to - could be empty if we don't know exactly. |
+| Ticket | Ticket | Ticket the session is connected to - could be empty if we don't know exactly. |
+| TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -96,7 +96,7 @@ Response body:
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,43 +106,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 972,
-  "TopicId": 242,
+  "ChatSessionId": 556,
+  "TopicId": 8,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sit",
-  "CustomerHost": "quam",
-  "CustomerName": "Prosacco, Kulas and Nitzsche",
-  "CustomerEmail": "cora.klocko@cummerata.us",
-  "CustomerPhone": "695.653.9375 x9888",
+  "CustomerAlias": "rerum",
+  "CustomerHost": "consequatur",
+  "CustomerName": "Bahringer, Reinger and Schroeder",
+  "CustomerEmail": "rebeka_jast@kuhic.info",
+  "CustomerPhone": "119-435-7239",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Dare, Haley and Dietrich",
+  "CustomerCompanyName": "Kautzer, Paucek and Towne",
   "Status": "Closed",
-  "FirstMessage": "deserunt",
-  "LastMessage": "est",
-  "WhenRequested": "2016-03-04T02:49:43.7629084+01:00",
-  "WhenStarted": "2022-08-02T02:49:43.7629084+02:00",
-  "WhenEnded": "2006-08-09T02:49:43.7629084+02:00",
-  "WhenIdle": "2017-05-10T02:49:43.7629084+02:00",
-  "WhenFetched": "1995-09-16T02:49:43.7629084+02:00",
-  "SessionKey": "aperiam",
-  "InitialQueuePos": 959,
-  "AlertLevel": 363,
-  "Rank": 789,
+  "FirstMessage": "rerum",
+  "LastMessage": "necessitatibus",
+  "WhenRequested": "2006-04-19T17:37:16.9912446+02:00",
+  "WhenStarted": "2011-10-15T17:37:16.9912446+02:00",
+  "WhenEnded": "2021-12-05T17:37:16.9912446+01:00",
+  "WhenIdle": "2013-08-24T17:37:16.9912446+02:00",
+  "WhenFetched": "2017-12-31T17:37:16.9912446+01:00",
+  "SessionKey": "voluptas",
+  "InitialQueuePos": 54,
+  "AlertLevel": 555,
+  "Rank": 557,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 686,
+  "ChatbotIsActive": true,
+  "Rating": 26,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldLength": 386
     }
   }
 }

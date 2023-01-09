@@ -38,17 +38,16 @@ POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage?$select=name,depa
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentTemplateId, LanguageCode 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentTemplateId | int32 |  |
-| LanguageCode | string |  |
+| DocumentTemplateId | Integer |  |
+| LanguageCode | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,12 +64,12 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 461,
-  "LanguageCode": "in"
+  "DocumentTemplateId": 848,
+  "LanguageCode": "veritatis"
 }
 ```
 

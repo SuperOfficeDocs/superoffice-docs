@@ -34,7 +34,7 @@ May be different from the published version.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +80,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 308,
-    "ColumnId": 490,
-    "FieldDefault": "rerum",
-    "FieldHeight": 322,
-    "FieldLabel": "deserunt",
-    "FieldLeft": 85,
-    "FieldTop": 17,
+    "UDefFieldId": 596,
+    "ColumnId": 116,
+    "FieldDefault": "ipsam",
+    "FieldHeight": 103,
+    "FieldLabel": "maiores",
+    "FieldLeft": 335,
+    "FieldTop": 672,
     "FieldType": "Checkbox",
-    "FieldWidth": 2,
-    "FormatMask": "perferendis",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 328,
-    "LabelLeft": 955,
-    "LabelTop": 857,
-    "LabelWidth": 810,
-    "LastVersionId": 173,
-    "ListTableId": 840,
+    "FieldWidth": 756,
+    "FormatMask": "temporibus",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 607,
+    "LabelLeft": 272,
+    "LabelTop": 615,
+    "LabelWidth": 808,
+    "LastVersionId": 655,
+    "ListTableId": 310,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 879,
-    "ProgId": "est",
-    "IsReadOnly": true,
-    "ShortLabel": "doloremque",
-    "TabOrder": 143,
-    "TextLength": 967,
-    "Tooltip": "suscipit",
-    "UdefIdentity": 333,
-    "UDListDefinitionId": 573,
+    "Page1LineNo": 283,
+    "ProgId": "quae",
+    "IsReadOnly": false,
+    "ShortLabel": "voluptas",
+    "TabOrder": 297,
+    "TextLength": 495,
+    "Tooltip": "quis",
+    "UdefIdentity": 543,
+    "UDListDefinitionId": 886,
     "Justification": "Center",
-    "Version": 825,
-    "TemplateVariableName": "Pfeffer, Kessler and Price",
-    "HasBeenPublished": true,
-    "MdoListName": "Hayes Inc and Sons",
+    "Version": 569,
+    "TemplateVariableName": "Hackett-Grant",
+    "HasBeenPublished": false,
+    "MdoListName": "Koepp-Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 380
+        "FieldLength": 504
       }
     }
   }

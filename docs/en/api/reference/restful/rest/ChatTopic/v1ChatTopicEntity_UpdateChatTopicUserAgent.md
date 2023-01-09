@@ -37,21 +37,20 @@ Update a user's role in a chat topic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: useragent  
+## Request Body: useragent 
 
 User's updated role within the chat topic. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TopicId | int32 | The reference to the associated chat topic. |
-| User |  | The associate that is the user agent. |
-| CanListen | bool | True of a user can listen in on this topic |
-| CanRespond | bool | True if the user can respond to chats in this topic |
-| CanManage | bool | True if the user is a manager for this topic |
-| CanNotify | bool | True if the user should receive notifications for this topic |
+| TopicId | Integer | The reference to the associated chat topic. |
+| User | Associate | The associate that is the user agent. |
+| CanListen | Boolean | True of a user can listen in on this topic |
+| CanRespond | Boolean | True if the user can respond to chats in this topic |
+| CanManage | Boolean | True if the user is a manager for this topic |
+| CanNotify | Boolean | True if the user should receive notifications for this topic |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,12 +58,12 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ChatTopicAgent
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TopicId | int32 | The reference to the associated chat topic. |
-| User |  | The associate that is the user agent. |
+| User | Associate | The associate that is the user agent. |
 | CanListen | bool | True of a user can listen in on this topic |
 | CanRespond | bool | True if the user can respond to chats in this topic |
 | CanManage | bool | True if the user is a manager for this topic |
@@ -76,16 +75,16 @@ Response body:
 PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent/{username}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 954,
+  "TopicId": 883,
   "User": null,
   "CanListen": false,
   "CanRespond": false,
-  "CanManage": true,
-  "CanNotify": true
+  "CanManage": false,
+  "CanNotify": false
 }
 ```
 
@@ -96,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 563,
+  "TopicId": 431,
   "User": null,
   "CanListen": true,
-  "CanRespond": false,
+  "CanRespond": true,
   "CanManage": true,
   "CanNotify": false
 }

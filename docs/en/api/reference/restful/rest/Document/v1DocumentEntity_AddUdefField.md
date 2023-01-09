@@ -42,7 +42,7 @@ POST /api/v1/Document/UdefLayout?udefFieldType=Checkbox
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +88,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,7 +97,7 @@ Response body:
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 172,
-  "ColumnId": 137,
-  "FieldDefault": "eum",
-  "FieldHeight": 993,
-  "FieldLabel": "adipisci",
-  "FieldLeft": 601,
-  "FieldTop": 713,
+  "UDefFieldId": 932,
+  "ColumnId": 679,
+  "FieldDefault": "nam",
+  "FieldHeight": 312,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 587,
+  "FieldTop": 839,
   "FieldType": "Checkbox",
-  "FieldWidth": 372,
-  "FormatMask": "accusamus",
+  "FieldWidth": 742,
+  "FormatMask": "voluptatibus",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 950,
-  "LabelLeft": 914,
-  "LabelTop": 800,
-  "LabelWidth": 668,
-  "LastVersionId": 885,
-  "ListTableId": 844,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 631,
+  "LabelLeft": 451,
+  "LabelTop": 400,
+  "LabelWidth": 54,
+  "LastVersionId": 939,
+  "ListTableId": 88,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 797,
-  "ProgId": "nemo",
+  "Page1LineNo": 390,
+  "ProgId": "omnis",
   "IsReadOnly": false,
-  "ShortLabel": "impedit",
-  "TabOrder": 640,
-  "TextLength": 858,
-  "Tooltip": "quia",
-  "UdefIdentity": 847,
-  "UDListDefinitionId": 621,
+  "ShortLabel": "enim",
+  "TabOrder": 250,
+  "TextLength": 619,
+  "Tooltip": "ea",
+  "UdefIdentity": 762,
+  "UDListDefinitionId": 338,
   "Justification": "Center",
-  "Version": 687,
-  "TemplateVariableName": "Grady, Bosco and Funk",
+  "Version": 999,
+  "TemplateVariableName": "Emmerich-Abbott",
   "HasBeenPublished": false,
-  "MdoListName": "Roberts-Gutmann",
+  "MdoListName": "Beer Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldType": "System.String",
+      "FieldLength": 852
     }
   }
 }

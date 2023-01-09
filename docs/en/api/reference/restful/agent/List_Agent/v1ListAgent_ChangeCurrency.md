@@ -42,18 +42,17 @@ POST /api/v1/Agents/List/ChangeCurrency?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Amount, FromCurrency, ToCurrency 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Amount | double |  |
-| FromCurrency | string |  |
-| ToCurrency | string |  |
+| Amount | Number |  |
+| FromCurrency | String |  |
+| ToCurrency | String |  |
 
-
-## Response: double
+## Response:double
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: double
+### Response body: double
 
 
 ## Sample request
@@ -70,13 +69,13 @@ Response body: double
 POST /api/v1/Agents/List/ChangeCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 27760.971999999998,
-  "FromCurrency": "illo",
-  "ToCurrency": "quo"
+  "Amount": 22455.11,
+  "FromCurrency": "ut",
+  "ToCurrency": "praesentium"
 }
 ```
 
@@ -86,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-17121.041999999998
+22495.852
 ```

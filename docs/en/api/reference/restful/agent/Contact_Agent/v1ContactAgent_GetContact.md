@@ -25,7 +25,7 @@ Gets a Contact object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=194
+POST /api/v1/Agents/Contact/GetContact?contactId=96
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Contact
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,12 +73,14 @@ Response body:
 | BusinessName | string | The business list item name |
 | CategoryName | string | The category list item name |
 | CountryName | string | Name of country in installed language |
-| Address |  | Contact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
+| Address | Address | Contact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
 | FormattedAddress | string | The contact's address, formatted with linebreaks and spaces into a single string. |
 | FullName | string |  |
 | IsOwnerContact | bool | Is the contact an owner contact.  This means that all persons on this contact can on only be internal users and not external users. |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| Number1 | string | Alphanumeric user field |
+| Number2 | string | Alphanumeric user field |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +89,7 @@ Response body:
 POST /api/v1/Agents/Contact/GetContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,34 +99,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 489,
-  "Name": "Reilly, Lemke and Homenick",
-  "OrgNr": "1465904",
+  "ContactId": 377,
+  "Name": "Bins LLC",
+  "OrgNr": "963584",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "dicta",
-  "DirectPhone": "1-036-681-5088 x3615",
-  "AssociateId": 136,
-  "CountryId": 786,
-  "EmailAddress": "jazmyne.sawayn@kreiger.biz",
-  "Kananame": "possimus",
-  "EmailAddressName": "shania@reilly.co.uk",
+  "City": "ut",
+  "DirectPhone": "035-863-7256",
+  "AssociateId": 40,
+  "CountryId": 240,
+  "EmailAddress": "rosella@blick.info",
+  "Kananame": "laborum",
+  "EmailAddressName": "cielo@gutkowski.ca",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Addie Smitham",
+  "AssociateFullName": "Elise Wyman",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "repellendus",
-  "FullName": "Samanta Johnston",
+  "FormattedAddress": "ut",
+  "FullName": "Ryder Harris",
   "IsOwnerContact": true,
-  "ActiveErpLinks": 327,
+  "ActiveErpLinks": 670,
+  "Number1": "1838130",
+  "Number2": "1177142",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 469
+      "FieldLength": 971
     }
   }
 }

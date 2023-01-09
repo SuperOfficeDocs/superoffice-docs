@@ -42,16 +42,15 @@ POST /api/v1/Agents/List/GetAllCurrencies?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IncludeDeleted | bool |  |
+| IncludeDeleted | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body: array
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -95,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 419,
-    "Name": "Schaden Group",
-    "Tooltip": "dolores",
-    "Rank": 674,
-    "Rate": 13438.591999999999,
-    "Units": 5591.056,
+    "CurrencyId": 546,
+    "Name": "Christiansen Inc and Sons",
+    "Tooltip": "possimus",
+    "Rank": 482,
+    "Rate": 30493.82,
+    "Units": 5725.818,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 200
+        "FieldType": "System.Int32",
+        "FieldLength": 602
       }
     }
   }

@@ -44,17 +44,16 @@ POST /api/v1/Agents/Quote/ValidateQuoteVersion?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId, Action 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
-| Action | string |  |
+| QuoteVersionId | Integer |  |
+| Action | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteVersionValidated
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,12 +69,12 @@ Response body:
 | UserExplanation | string | A localized explanation to the answer. |
 | TechExplanation | string | Always in English |
 | ErrorCode | string | An error code, if available. |
-| ChangedSale |  | If the sale has been changed, the carrier will be added. |
-| ChangedQuote |  | The validated version is a member of Quote |
-| ChangedQuoteVersion |  | The validated QuoteVersion |
+| ChangedSale | Sale | If the sale has been changed, the carrier will be added. |
+| ChangedQuote | Quote | The validated version is a member of Quote |
+| ChangedQuoteVersion | QuoteVersion | The validated QuoteVersion |
 | ChangedQuoteAlternatives | array | The changed QuoteAlternatives |
 | Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,11 +83,11 @@ Response body:
 POST /api/v1/Agents/Quote/ValidateQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 583,
+  "QuoteVersionId": 984,
   "Action": "Approve"
 }
 ```
@@ -100,16 +99,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "dolores",
-  "TechExplanation": "quaerat",
-  "ErrorCode": "vitae",
+  "IsOk": false,
+  "UserExplanation": "unde",
+  "TechExplanation": "suscipit",
+  "ErrorCode": "sed",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
   "ChangedQuoteAlternatives": [
     {
-      "QuoteLinesHasChanged": false,
+      "QuoteLinesHasChanged": true,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
@@ -117,12 +116,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 513
         }
       }
     },
     {
-      "QuoteLinesHasChanged": false,
+      "QuoteLinesHasChanged": true,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
@@ -130,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 513
         }
       }
     }
@@ -141,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 55
+      "FieldLength": 439
     }
   }
 }

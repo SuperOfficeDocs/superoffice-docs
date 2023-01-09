@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 424,
-    "Name": "Wolff LLC",
-    "ToolTip": "Quidem dolorem sint dolor eveniet animi.",
-    "Deleted": false,
-    "Rank": 788,
-    "Type": "saepe",
-    "ColorBlock": 137,
-    "IconHint": "nihil",
+    "Id": 107,
+    "Name": "Brekke LLC",
+    "ToolTip": "Beatae et.",
+    "Deleted": true,
+    "Rank": 815,
+    "Type": "sit",
+    "ColorBlock": 570,
+    "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "2002-12-29T02:49:52.2659433+01:00",
+    "LastChanged": "2011-05-25T17:37:40.0415003+02:00",
     "ChildItems": [
       {
-        "Id": 641,
-        "Name": "Nienow Inc and Sons",
-        "ToolTip": "Et tempore.",
-        "Deleted": false,
-        "Rank": 912,
-        "Type": "aperiam",
-        "ColorBlock": 724,
-        "IconHint": "nemo",
+        "Id": 463,
+        "Name": "Farrell, Little and McClure",
+        "ToolTip": "Vel delectus error veniam similique omnis praesentium blanditiis.",
+        "Deleted": true,
+        "Rank": 409,
+        "Type": "minus",
+        "ColorBlock": 974,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2013-07-07T02:49:52.2659433+02:00",
+        "LastChanged": "2017-02-12T17:37:40.0424715+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "illo",
+        "ExtraInfo": "ullam",
+        "StyleHint": "accusamus",
         "Hidden": false,
-        "FullName": "Sigmund Ondricka"
+        "FullName": "Hester Schiller I"
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "totam",
+    "ExtraInfo": "est",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Darrel Thiel"
+    "FullName": "Hugh Blanda"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 254,
-    "Name": "Barrows, Gislason and Towne",
-    "ToolTip": "Id perspiciatis non.",
-    "Deleted": false,
-    "Rank": 1001,
-    "Type": "asperiores",
-    "ColorBlock": 595,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2003-05-28T02:49:52.2659433+02:00",
+    "Id": 919,
+    "Name": "Schmeler, Shanahan and Lockman",
+    "ToolTip": "Id expedita fugit dignissimos itaque quo quaerat incidunt.",
+    "Deleted": true,
+    "Rank": 790,
+    "Type": "illum",
+    "ColorBlock": 142,
+    "IconHint": "ipsam",
+    "Selected": true,
+    "LastChanged": "2008-09-01T17:37:40.0435018+02:00",
     "ChildItems": [
       {
-        "Id": 352,
-        "Name": "Marquardt, Pouros and Mante",
-        "ToolTip": "Voluptatibus autem ad accusamus aut nam excepturi optio.",
-        "Deleted": true,
-        "Rank": 212,
-        "Type": "iusto",
-        "ColorBlock": 56,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "1999-03-26T02:49:52.2659433+01:00",
+        "Id": 427,
+        "Name": "Mayert Inc and Sons",
+        "ToolTip": "Autem ut.",
+        "Deleted": false,
+        "Rank": 625,
+        "Type": "aut",
+        "ColorBlock": 646,
+        "IconHint": "minus",
+        "Selected": true,
+        "LastChanged": "2012-05-23T17:37:40.0435018+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "id",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Dr. Madalyn Leanne Reichel III",
+        "FullName": "Ramona Zulauf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 619
+            "FieldLength": 360
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "possimus",
+    "ExtraInfo": "iure",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Kacie Ullrich",
+    "FullName": "Mariano Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 445
+        "FieldType": "System.Int32",
+        "FieldLength": 685
       }
     }
   }

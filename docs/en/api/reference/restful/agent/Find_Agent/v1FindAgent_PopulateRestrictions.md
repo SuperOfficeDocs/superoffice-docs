@@ -44,17 +44,16 @@ POST /api/v1/Agents/Find/PopulateRestrictions?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Restrictions | array |  |
+| ProviderName | String |  |
+| Restrictions | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body: array
 | Operator | string |  |
 | Values | array |  |
 | DisplayValues | array |  |
-| ColumnInfo |  |  |
+| ColumnInfo | TableRight |  |
 | IsActive | bool |  |
 | SubRestrictions | array |  |
 | InterParenthesis | int32 |  |
@@ -83,32 +82,32 @@ Response body: array
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Trantow, Satterfield and Haley",
+  "ProviderName": "Schaden-Farrell",
   "Restrictions": [
     {
-      "Name": "O'Hara-Daugherty",
-      "Operator": "debitis",
+      "Name": "Jenkins-Stracke",
+      "Operator": "voluptatem",
       "Values": [
-        "et",
-        "repellendus"
+        "placeat",
+        "consectetur"
       ],
       "DisplayValues": [
-        "corrupti",
-        "earum"
+        "consequatur",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 823,
+      "InterParenthesis": 346,
       "InterOperator": "And",
-      "UniqueHash": 528
+      "UniqueHash": 25
     }
   ]
 }
@@ -122,44 +121,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wehner Inc and Sons",
-    "Operator": "veniam",
+    "Name": "Hessel, Jewess and Moore",
+    "Operator": "alias",
     "Values": [
-      "quibusdam",
-      "quis"
+      "molestias",
+      "perferendis"
     ],
     "DisplayValues": [
-      "quia",
-      "qui"
+      "ab",
+      "eum"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Funk-Flatley",
-        "Operator": "dolor",
+        "Name": "Dickens Inc and Sons",
+        "Operator": "quia",
         "Values": [
-          "dolorem",
-          "vel"
+          "debitis",
+          "incidunt"
         ],
         "DisplayValues": [
-          "nihil",
-          "suscipit"
+          "voluptatibus",
+          "quisquam"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 4,
+        "InterParenthesis": 421,
         "InterOperator": "And",
-        "UniqueHash": 780
+        "UniqueHash": 785
       }
     ],
-    "InterParenthesis": 253,
+    "InterParenthesis": 26,
     "InterOperator": "And",
-    "UniqueHash": 145
+    "UniqueHash": 940
   }
 ]
 ```

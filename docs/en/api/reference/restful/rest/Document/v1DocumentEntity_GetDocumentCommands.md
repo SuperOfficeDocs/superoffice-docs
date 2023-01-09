@@ -48,7 +48,7 @@ GET /api/v1/Document/{documentId}/Command?allowedReturnTypes=Message
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pfannerstill Group",
-    "DisplayName": "Rowe Group",
-    "DisplayTooltip": "corporis",
-    "IconHint": "ea",
+    "Name": "Grimes, Graham and Lowe",
+    "DisplayName": "Morissette-Shanahan",
+    "DisplayTooltip": "eius",
+    "IconHint": "illum",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Pfannerstill Group",
-    "DisplayName": "Rowe Group",
-    "DisplayTooltip": "corporis",
-    "IconHint": "ea",
+    "Name": "Grimes, Graham and Lowe",
+    "DisplayName": "Morissette-Shanahan",
+    "DisplayTooltip": "eius",
+    "IconHint": "illum",
     "ReturnType": "CustomGui"
   }
 ]

@@ -47,16 +47,15 @@ POST /api/v1/Agents/ErpSync/GetAllConnections?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IncludeDeleted | bool |  |
+| IncludeDeleted | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body: array
 | AllAccess | bool | Is this connection accessible to everyone?  If not, then the ErpConnectionAccess table tells us who can access it |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,11 +88,11 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -105,33 +104,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 468,
-    "ErpConnectorId": 744,
-    "DisplayName": "Borer-Padberg",
-    "DisplayDescription": "Networked 6th generation portal",
-    "Active": false,
-    "ConnectionId": "accusamus",
-    "MostRecentTimestamp": "quaerat",
+    "ErpConnectionId": 520,
+    "ErpConnectorId": 437,
+    "DisplayName": "Leuschke LLC",
+    "DisplayDescription": "Customer-focused bottom-line moderator",
+    "Active": true,
+    "ConnectionId": "molestias",
+    "MostRecentTimestamp": "autem",
     "ConfigFields": {
-      "ConfigFields1": "exercitationem",
-      "ConfigFields2": "molestias"
+      "ConfigFields1": "qui",
+      "ConfigFields2": "nostrum"
     },
     "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      968,
-      509
+      215,
+      863
     ],
     "AssociateAccessIds": [
-      487,
-      283
+      973,
+      934
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldType": "System.String",
+        "FieldLength": 539
       }
     }
   }

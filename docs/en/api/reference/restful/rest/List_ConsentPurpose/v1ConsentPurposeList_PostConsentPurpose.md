@@ -34,28 +34,27 @@ Calls the List agent service SaveConsentPurpose.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The ConsentPurpose to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConsentPurposeId | int32 | Primary key |
-| Name | string | Name of consent purpose |
-| ConsentText | string | Form text used for the actual checkbox |
-| FormText | string | Text for the consent form, the long text to be shown when asking the end-user for this kind of consent |
-| Key | string | The key used to refer to this purpose, like #Process, #Emarketing etc. |
-| Tooltip | string | List item tooltip |
-| Active | int32 | Is the consent purpose active or not |
-| UpdatedDate | date-time | The date the consent purpose was last updated  in UTC. |
-| UpdatedBy |  | The associate that last updated the consent purpose |
-| Deleted | bool | true if the ConsentPurpose is deleted |
-| Rank | int32 | Rank of this consent source |
-| PrivacyStatementDesc | string | Name or description for the privacy statement |
-| PrivacyStatementUrl | string | Url referencing the actual privacy statement |
+| ConsentPurposeId | Integer | Primary key |
+| Name | String | Name of consent purpose |
+| ConsentText | String | Form text used for the actual checkbox |
+| FormText | String | Text for the consent form, the long text to be shown when asking the end-user for this kind of consent |
+| Key | String | The key used to refer to this purpose, like #Process, #Emarketing etc. |
+| Tooltip | String | List item tooltip |
+| Active | Integer | Is the consent purpose active or not |
+| UpdatedDate | String | The date the consent purpose was last updated  in UTC. |
+| UpdatedBy | Associate | The associate that last updated the consent purpose |
+| Deleted | Boolean | true if the ConsentPurpose is deleted |
+| Rank | Integer | Rank of this consent source |
+| PrivacyStatementDesc | String | Name or description for the privacy statement |
+| PrivacyStatementUrl | String | Url referencing the actual privacy statement |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ConsentPurpose
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,12 +74,12 @@ Response body:
 | Tooltip | string | List item tooltip |
 | Active | int32 | Is the consent purpose active or not |
 | UpdatedDate | date-time | The date the consent purpose was last updated  in UTC. |
-| UpdatedBy |  | The associate that last updated the consent purpose |
+| UpdatedBy | Associate | The associate that last updated the consent purpose |
 | Deleted | bool | true if the ConsentPurpose is deleted |
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,22 +88,22 @@ Response body:
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 88,
-  "Name": "Halvorson, Hills and Aufderhar",
+  "ConsentPurposeId": 291,
+  "Name": "Marquardt Inc and Sons",
   "ConsentText": "aut",
-  "FormText": "beatae",
-  "Key": "officiis",
-  "Tooltip": "hic",
-  "Active": 15,
-  "UpdatedDate": "2002-03-29T02:49:51.9378192+01:00",
+  "FormText": "iure",
+  "Key": "odit",
+  "Tooltip": "aut",
+  "Active": 939,
+  "UpdatedDate": "2014-05-03T17:37:39.8895009+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 697,
-  "PrivacyStatementDesc": "architecto",
+  "Rank": 897,
+  "PrivacyStatementDesc": "quia",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +115,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 396,
-  "Name": "Altenwerth-Daniel",
-  "ConsentText": "libero",
-  "FormText": "quia",
-  "Key": "cum",
-  "Tooltip": "iusto",
-  "Active": 581,
-  "UpdatedDate": "2008-08-31T02:49:51.9378192+02:00",
+  "ConsentPurposeId": 5,
+  "Name": "Ziemann-Bashirian",
+  "ConsentText": "eaque",
+  "FormText": "eum",
+  "Key": "voluptatem",
+  "Tooltip": "laudantium",
+  "Active": 618,
+  "UpdatedDate": "2012-02-26T17:37:39.8905061+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 649,
-  "PrivacyStatementDesc": "porro",
+  "Rank": 546,
+  "PrivacyStatementDesc": "modi",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldType": "System.String",
+      "FieldLength": 846
     }
   }
 }

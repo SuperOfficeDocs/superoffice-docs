@@ -38,7 +38,7 @@ This is a simpler, smaller variation of the full ProjectEntity. Calls the Projec
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ProjectEntity found.
 
@@ -47,7 +47,7 @@ ProjectEntity found.
 | 200 | ProjectEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: Project
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Response body:
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,30 +88,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 172,
-  "Name": "Ward LLC",
-  "Description": "Universal analyzing methodology",
+  "ProjectId": 533,
+  "Name": "Goyette, Nienow and Prosacco",
+  "Description": "Synchronised tangible hardware",
   "URL": "http://www.example.com/",
-  "Type": "ut",
-  "AssociateId": 742,
-  "AssociateFullName": "Miss Ola Destiney Erdman",
-  "TypeId": 881,
-  "Updated": "2000-05-20T02:49:51.3703152+02:00",
-  "StatusId": 90,
-  "Status": "similique",
-  "TextId": 745,
-  "PublishTo": "2021-09-08T02:49:51.3703152+02:00",
-  "PublishFrom": "2022-05-30T02:49:51.3703152+02:00",
+  "Type": "quod",
+  "AssociateId": 596,
+  "AssociateFullName": "Nasir Shanahan",
+  "TypeId": 521,
+  "Updated": "2020-01-16T17:37:39.0233044+01:00",
+  "StatusId": 528,
+  "Status": "veniam",
+  "TextId": 500,
+  "PublishTo": "2014-03-18T17:37:39.0233044+01:00",
+  "PublishFrom": "2014-07-09T17:37:39.0233044+02:00",
   "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1165112",
-  "ActiveErpLinks": 364,
+  "ProjectNumber": "261007",
+  "ActiveErpLinks": 486,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldType": "System.String",
+      "FieldLength": 782
     }
   }
 }

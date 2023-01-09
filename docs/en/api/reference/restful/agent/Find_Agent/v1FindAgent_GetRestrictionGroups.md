@@ -42,19 +42,18 @@ POST /api/v1/Agents/Find/GetRestrictionGroups?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| Context | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| Context | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,14 +76,14 @@ Response body: array
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestiae",
-  "ProviderName": "Altenwerth-Bergnaum",
-  "StorageKey": "eum",
-  "Context": "consequatur"
+  "StorageType": "quae",
+  "ProviderName": "Brown-Spencer",
+  "StorageKey": "vero",
+  "Context": "laboriosam"
 }
 ```
 
@@ -96,20 +95,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Boehm, Schuster and Howell",
-    "Description": "Multi-channelled radical matrix",
-    "Rank": 763,
+    "Name": "Bergstrom, Bode and Reichel",
+    "Description": "Extended assymetric help-desk",
+    "Rank": 871,
     "Restrictions": [
       {
-        "Name": "Swaniawski, Hagenes and Corwin",
-        "Operator": "tempore",
+        "Name": "Swaniawski, Turcotte and Sawayn",
+        "Operator": "sint",
         "Values": [
-          "repellendus",
-          "id"
+          "officiis",
+          "alias"
         ],
         "DisplayValues": [
-          "modi",
-          "ea"
+          "voluptatem",
+          "nam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -117,27 +116,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 638,
+        "InterParenthesis": 753,
         "InterOperator": "And",
-        "UniqueHash": 789
+        "UniqueHash": 791
       }
     ]
   },
   {
-    "Name": "Boehm, Schuster and Howell",
-    "Description": "Multi-channelled radical matrix",
-    "Rank": 763,
+    "Name": "Bergstrom, Bode and Reichel",
+    "Description": "Extended assymetric help-desk",
+    "Rank": 871,
     "Restrictions": [
       {
-        "Name": "Swaniawski, Hagenes and Corwin",
-        "Operator": "tempore",
+        "Name": "Swaniawski, Turcotte and Sawayn",
+        "Operator": "sint",
         "Values": [
-          "repellendus",
-          "id"
+          "officiis",
+          "alias"
         ],
         "DisplayValues": [
-          "modi",
-          "ea"
+          "voluptatem",
+          "nam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -145,9 +144,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 638,
+        "InterParenthesis": 753,
         "InterOperator": "And",
-        "UniqueHash": 789
+        "UniqueHash": 791
       }
     ]
   }

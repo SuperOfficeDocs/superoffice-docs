@@ -36,7 +36,7 @@ Get a DocumentEntity user-defined field's details based on the prog-id or label.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 DocumentEntity found.
 
@@ -45,7 +45,7 @@ DocumentEntity found.
 | 200 | DocumentEntity found. |
 | 404 | DocumentEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +83,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,7 +92,7 @@ Response body:
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 396,
-  "ColumnId": 882,
-  "FieldDefault": "sunt",
-  "FieldHeight": 453,
-  "FieldLabel": "voluptates",
-  "FieldLeft": 606,
-  "FieldTop": 98,
+  "UDefFieldId": 786,
+  "ColumnId": 354,
+  "FieldDefault": "delectus",
+  "FieldHeight": 512,
+  "FieldLabel": "magnam",
+  "FieldLeft": 481,
+  "FieldTop": 886,
   "FieldType": "Checkbox",
-  "FieldWidth": 419,
-  "FormatMask": "fuga",
+  "FieldWidth": 451,
+  "FormatMask": "velit",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 530,
-  "LabelLeft": 851,
-  "LabelTop": 421,
-  "LabelWidth": 91,
-  "LastVersionId": 295,
-  "ListTableId": 228,
-  "IsMandatory": true,
+  "LabelHeight": 359,
+  "LabelLeft": 35,
+  "LabelTop": 591,
+  "LabelWidth": 717,
+  "LastVersionId": 264,
+  "ListTableId": 866,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 622,
-  "ProgId": "magni",
-  "IsReadOnly": true,
-  "ShortLabel": "vero",
-  "TabOrder": 519,
-  "TextLength": 675,
-  "Tooltip": "est",
-  "UdefIdentity": 583,
-  "UDListDefinitionId": 904,
+  "Page1LineNo": 674,
+  "ProgId": "similique",
+  "IsReadOnly": false,
+  "ShortLabel": "ad",
+  "TabOrder": 942,
+  "TextLength": 774,
+  "Tooltip": "ratione",
+  "UdefIdentity": 574,
+  "UDListDefinitionId": 101,
   "Justification": "Center",
-  "Version": 953,
-  "TemplateVariableName": "Batz, McCullough and Schneider",
-  "HasBeenPublished": true,
-  "MdoListName": "Wehner, Wilderman and Pacocha",
+  "Version": 949,
+  "TemplateVariableName": "Treutel Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Swift-Murray",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldType": "System.Int32",
+      "FieldLength": 95
     }
   }
 }

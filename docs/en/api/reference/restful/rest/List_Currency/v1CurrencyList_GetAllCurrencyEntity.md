@@ -44,7 +44,7 @@ GET /api/v1/List/Currency/Items?includeDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +63,7 @@ Response body: array
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 347,
-    "Name": "Howe-Fritsch",
-    "Tooltip": "aut",
-    "Rank": 688,
-    "Rate": 29860.752,
-    "Units": 14961.716,
+    "CurrencyId": 618,
+    "Name": "Bogisich, Mayer and Stiedemann",
+    "Tooltip": "dolor",
+    "Rank": 873,
+    "Rate": 8891.158,
+    "Units": 11849.654,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 165
+        "FieldType": "System.Int32",
+        "FieldLength": 325
       }
     }
   }

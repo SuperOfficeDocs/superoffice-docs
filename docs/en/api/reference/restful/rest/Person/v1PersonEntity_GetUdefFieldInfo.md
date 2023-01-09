@@ -36,7 +36,7 @@ Get a PersonEntity user-defined field's details based on the prog-id or label.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 PersonEntity found.
 
@@ -45,7 +45,7 @@ PersonEntity found.
 | 200 | PersonEntity found. |
 | 404 | PersonEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +83,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,46 +102,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 480,
-  "ColumnId": 832,
-  "FieldDefault": "fugit",
-  "FieldHeight": 216,
-  "FieldLabel": "voluptates",
-  "FieldLeft": 550,
-  "FieldTop": 525,
+  "UDefFieldId": 439,
+  "ColumnId": 844,
+  "FieldDefault": "ex",
+  "FieldHeight": 46,
+  "FieldLabel": "illum",
+  "FieldLeft": 523,
+  "FieldTop": 951,
   "FieldType": "Checkbox",
-  "FieldWidth": 582,
-  "FormatMask": "aut",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 294,
-  "LabelLeft": 864,
-  "LabelTop": 777,
-  "LabelWidth": 46,
-  "LastVersionId": 589,
-  "ListTableId": 277,
-  "IsMandatory": false,
+  "FieldWidth": 318,
+  "FormatMask": "nihil",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 268,
+  "LabelLeft": 395,
+  "LabelTop": 270,
+  "LabelWidth": 746,
+  "LastVersionId": 904,
+  "ListTableId": 583,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 983,
-  "ProgId": "maiores",
+  "Page1LineNo": 430,
+  "ProgId": "eum",
   "IsReadOnly": false,
-  "ShortLabel": "sed",
-  "TabOrder": 499,
-  "TextLength": 781,
-  "Tooltip": "a",
-  "UdefIdentity": 193,
-  "UDListDefinitionId": 277,
+  "ShortLabel": "voluptas",
+  "TabOrder": 617,
+  "TextLength": 872,
+  "Tooltip": "aut",
+  "UdefIdentity": 709,
+  "UDListDefinitionId": 834,
   "Justification": "Center",
-  "Version": 856,
-  "TemplateVariableName": "Rath Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Hills Group",
+  "Version": 207,
+  "TemplateVariableName": "O'Conner LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Moen Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 621
     }
   }
 }

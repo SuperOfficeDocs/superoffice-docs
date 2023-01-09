@@ -44,16 +44,15 @@ POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteLineConfiguration 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLineConfiguration |  | QuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified. <para /> Carrier object for QuoteLineConfiguration. Services for the QuoteLineConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteLineConfiguration | QuoteLineConfiguration | QuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified. <para /> Carrier object for QuoteLineConfiguration. Services for the QuoteLineConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteLineConfiguration
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | Mandatory | bool | Is this a mandatory field? |
 | Rank | int32 | Rank of the field |
 | RestrictEdit | bool | If true, then this field cannot be set readwrite or mandatory: It's bound to be readonly |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +82,7 @@ Response body:
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 787,
-  "FieldName": "Erdman, Oberbrunner and Keeling",
-  "Label": "blanditiis",
-  "Tooltip": "blanditiis",
-  "Editable": false,
+  "QuoteLineConfigurationId": 1002,
+  "FieldName": "Lowe, Greenholt and Ledner",
+  "Label": "quam",
+  "Tooltip": "eos",
+  "Editable": true,
   "InUse": false,
   "Mandatory": true,
-  "Rank": 973,
+  "Rank": 32,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldLength": 563
     }
   }
 }

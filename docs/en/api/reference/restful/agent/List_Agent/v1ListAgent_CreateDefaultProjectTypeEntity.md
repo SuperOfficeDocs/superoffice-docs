@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectTypeEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +56,7 @@ Response body:
 | HasGuide | bool | Does this project type have a guide attached |
 | IsAutoAdvance | bool | Does the project status advance automatically, when the last guided activity in a status is completed? |
 | Stages | array | Stages (project statuses), those associated with this ProjType are selected. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -65,7 +65,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,41 +75,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 711,
-  "Name": "Shields-Hagenes",
-  "Tooltip": "molestias",
-  "Rank": 204,
+  "ProjTypeId": 1002,
+  "Name": "Windler, Grimes and Greenholt",
+  "Tooltip": "molestiae",
+  "Rank": 746,
   "DurationUnit": "Century",
-  "ProjectDuration": 652,
+  "ProjectDuration": 48,
   "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 560,
-      "Name": "Greenfelder-West",
-      "ToolTip": "Quo dicta qui est.",
+      "Id": 194,
+      "Name": "Skiles-Grady",
+      "ToolTip": "Provident repudiandae omnis voluptatem adipisci exercitationem dolore.",
       "Deleted": false,
-      "Rank": 437,
-      "Type": "eaque",
-      "ColorBlock": 480,
-      "IconHint": "quaerat",
+      "Rank": 754,
+      "Type": "qui",
+      "ColorBlock": 771,
+      "IconHint": "quibusdam",
       "Selected": false,
-      "LastChanged": "2005-01-25T02:49:44.6860468+01:00",
+      "LastChanged": "2009-10-09T17:37:18.2802412+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "nam",
+      "ExtraInfo": "est",
+      "StyleHint": "velit",
       "Hidden": true,
-      "FullName": "Miss Russell Jenkins",
+      "FullName": "Mrs. Pete Borer I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 569
+          "FieldType": "System.Int32",
+          "FieldLength": 994
         }
       }
     }
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   }
 }

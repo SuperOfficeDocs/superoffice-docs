@@ -51,7 +51,7 @@ GET /api/v1/Webhook/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 Webhook found.
 
@@ -60,7 +60,7 @@ Webhook found.
 | 200 | Webhook found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: WebhookWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,9 +74,9 @@ Response body:
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociate |  | The user that created the webhook. |
+| RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociate |  | The user that last updated the webhook. |
+| UpdatedAssociate | Associate | The user that last updated the webhook. |
 | _Links | object |  |
 
 ## Sample request
@@ -85,7 +85,7 @@ Response body:
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,26 +95,26 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 29,
-  "Name": "Kertzmann-Okuneva",
+  "WebhookId": 206,
+  "Name": "Larson, Spencer and Braun",
   "Events": [
-    "dolorem",
-    "fuga"
+    "aut",
+    "sint"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "laborum",
+  "Secret": "ea",
   "State": "Active",
-  "Type": "rem",
+  "Type": "aut",
   "Headers": {
-    "Headers1": "nulla",
-    "Headers2": "magni"
+    "Headers1": "perspiciatis",
+    "Headers2": "ipsa"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2017-07-24T02:49:51.844034+02:00",
+  "Registered": "2015-01-16T17:37:39.6024006+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1995-12-14T02:49:51.844034+01:00",
+  "Updated": "2018-08-29T17:37:39.6034302+02:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",

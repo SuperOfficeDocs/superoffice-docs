@@ -34,21 +34,20 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HeadingId | int32 | Primary key |
-| Name | string | The visible heading |
-| Tooltip | string | Tooltip or other description |
-| Deleted | bool | True if the heading is marked as deleted |
-| Rank | int32 | Rank order |
-| UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+| HeadingId | Integer | Primary key |
+| Name | String | The visible heading |
+| Tooltip | String | Tooltip or other description |
+| Deleted | Boolean | True if the heading is marked as deleted |
+| Rank | Integer | Rank order |
+| UdListDefinitionId | Integer | The id of the list which this heading belongs to |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body: array
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,25 +74,25 @@ Response body: array
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 924,
-    "Name": "Glover-Jacobson",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "Rank": 374,
-    "UdListDefinitionId": 854
+    "HeadingId": 31,
+    "Name": "Funk, Dare and Nitzsche",
+    "Tooltip": "sint",
+    "Deleted": false,
+    "Rank": 980,
+    "UdListDefinitionId": 807
   },
   {
-    "HeadingId": 924,
-    "Name": "Glover-Jacobson",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "Rank": 374,
-    "UdListDefinitionId": 854
+    "HeadingId": 31,
+    "Name": "Funk, Dare and Nitzsche",
+    "Tooltip": "sint",
+    "Deleted": false,
+    "Rank": 980,
+    "UdListDefinitionId": 807
   }
 ]
 ```
@@ -106,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 901,
-    "Name": "Beatty-Schroeder",
-    "Tooltip": "odit",
-    "Deleted": false,
-    "Rank": 243,
-    "UdListDefinitionId": 208,
+    "HeadingId": 696,
+    "Name": "O'Connell, Klocko and Adams",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 687,
+    "UdListDefinitionId": 776,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldType": "System.String",
+        "FieldLength": 957
       }
     }
   }

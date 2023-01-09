@@ -26,7 +26,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=blanditiis
+GET /api/v1/List/MrMrs/MDOItems?query=odit
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/MrMrs/MDOItems?query=blanditiis
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "Johnson, Williamson and Jenkins",
-    "ToolTip": "Illo adipisci sint inventore sed et ullam rerum.",
+    "Id": 671,
+    "Name": "Pfeffer LLC",
+    "ToolTip": "Sit pariatur earum.",
     "Deleted": true,
-    "Rank": 982,
-    "Type": "ex",
+    "Rank": 170,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 193,
-        "Name": "Toy LLC",
-        "ToolTip": "Quidem eos voluptatem voluptates similique sapiente adipisci.",
+        "Id": 283,
+        "Name": "Borer-Fahey",
+        "ToolTip": "Non dolores.",
         "Deleted": false,
-        "Rank": 331,
-        "Type": "rerum",
+        "Rank": 120,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 820,
-        "ExtraInfo": "omnis",
-        "StyleHint": "alias",
-        "FullName": "Noble Dooley",
+        "IconHint": "sunt",
+        "ColorBlock": 651,
+        "ExtraInfo": "et",
+        "StyleHint": "iste",
+        "FullName": "Haleigh Friesen DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 678
+            "FieldType": "System.Int32",
+            "FieldLength": 743
           }
         }
       }
     ],
-    "IconHint": "nostrum",
-    "ColorBlock": 718,
-    "ExtraInfo": "labore",
-    "StyleHint": "repudiandae",
-    "FullName": "Mr. Maida Schultz II",
+    "IconHint": "neque",
+    "ColorBlock": 603,
+    "ExtraInfo": "sapiente",
+    "StyleHint": "laborum",
+    "FullName": "Ms. Asha Daron Schowalter PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldLength": 560
       }
     }
   }

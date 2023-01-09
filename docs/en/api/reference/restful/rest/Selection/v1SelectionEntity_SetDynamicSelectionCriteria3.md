@@ -48,25 +48,24 @@ PUT /api/v1/Selection/{selectionId}/Criteria?$filter=name begins 'S'
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: criteria  
+## Request Body: criteria 
 
 Criteria defining the selection result. Pass NULL if using the filter string instead. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Operator | string |  |
-| Values | array |  |
-| DisplayValues | array |  |
-| ColumnInfo |  |  |
-| IsActive | bool |  |
-| SubRestrictions | array |  |
-| InterParenthesis | int32 |  |
-| InterOperator | string |  |
-| UniqueHash | int32 |  |
+| Name | String |  |
+| Operator | String |  |
+| Values | Array |  |
+| DisplayValues | Array |  |
+| ColumnInfo | RecurrenceInfo |  |
+| IsActive | Boolean |  |
+| SubRestrictions | Array |  |
+| InterParenthesis | Integer |  |
+| InterOperator | String |  |
+| UniqueHash | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -74,7 +73,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +81,7 @@ Response body: array
 | Operator | string |  |
 | Values | array |  |
 | DisplayValues | array |  |
-| ColumnInfo |  |  |
+| ColumnInfo | RecurrenceInfo |  |
 | IsActive | bool |  |
 | SubRestrictions | array |  |
 | InterParenthesis | int32 |  |
@@ -95,49 +94,49 @@ Response body: array
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Borer-Breitenberg",
-    "Operator": "est",
+    "Name": "Berge, Schuppe and White",
+    "Operator": "velit",
     "Values": [
-      "officiis",
-      "accusamus"
+      "consequatur",
+      "est"
     ],
     "DisplayValues": [
-      "ea",
-      "autem"
+      "at",
+      "pariatur"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Fadel-Trantow",
-        "Operator": "similique",
+        "Name": "McClure Group",
+        "Operator": "repudiandae",
         "Values": [
-          "praesentium",
-          "eaque"
+          "hic",
+          "et"
         ],
         "DisplayValues": [
-          "eos",
-          "odit"
+          "fugit",
+          "ut"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 652,
+        "InterParenthesis": 673,
         "InterOperator": "And",
-        "UniqueHash": 819
+        "UniqueHash": 677
       }
     ],
-    "InterParenthesis": 619,
+    "InterParenthesis": 318,
     "InterOperator": "And",
-    "UniqueHash": 965
+    "UniqueHash": 974
   }
 ]
 ```
@@ -150,29 +149,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heller-Ankunding",
-    "Operator": "totam",
+    "Name": "Murazik, Powlowski and Hahn",
+    "Operator": "omnis",
     "Values": [
-      "tenetur",
-      "quas"
+      "quis",
+      "eum"
     ],
     "DisplayValues": [
-      "voluptatem",
-      "ut"
+      "neque",
+      "fugit"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schulist-Braun",
-        "Operator": "qui",
+        "Name": "Gulgowski, Zulauf and Cruickshank",
+        "Operator": "iusto",
         "Values": [
-          "tenetur",
-          "a"
+          "exercitationem",
+          "sit"
         ],
         "DisplayValues": [
-          "suscipit",
-          "quis"
+          "fugit",
+          "molestiae"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -180,14 +179,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 266,
+        "InterParenthesis": 168,
         "InterOperator": "And",
-        "UniqueHash": 901
+        "UniqueHash": 168
       }
     ],
-    "InterParenthesis": 42,
+    "InterParenthesis": 930,
     "InterOperator": "And",
-    "UniqueHash": 453
+    "UniqueHash": 967
   }
 ]
 ```

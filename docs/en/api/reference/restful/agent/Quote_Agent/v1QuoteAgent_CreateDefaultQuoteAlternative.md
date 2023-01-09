@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteAlternative
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Response body:
 | ExtraField3 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,7 +78,7 @@ Response body:
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,35 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 485,
-  "ERPQuoteAlternativeKey": "necessitatibus",
-  "QuoteVersionId": 360,
-  "Name": "Wiegand Inc and Sons",
-  "Description": "Re-engineered national frame",
+  "QuoteAlternativeId": 537,
+  "ERPQuoteAlternativeKey": "voluptas",
+  "QuoteVersionId": 993,
+  "Name": "Wehner, Crona and Daniel",
+  "Description": "Total composite success",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 6973.15,
-  "ERPDiscountAmount": 7026.428,
-  "DiscountPercent": 30236.832,
-  "DiscountAmount": 335.33799999999997,
+  "ERPDiscountPercent": 8803.405999999999,
+  "ERPDiscountAmount": 15275.116,
+  "DiscountPercent": 1065.56,
+  "DiscountAmount": 1203.456,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dolor",
-  "VAT": 15306.456,
-  "EarningPercent": 3895.562,
-  "EarningAmount": 22517.79,
-  "SubTotal": 26360.074,
-  "TotalPrice": 23304.424,
-  "ExtraField1": "porro",
-  "ExtraField2": "necessitatibus",
-  "ExtraField3": "aut",
-  "ExtraField4": "occaecati",
-  "ExtraField5": "ut",
+  "VATInfo": "aspernatur",
+  "VAT": 6358.8859999999995,
+  "EarningPercent": 13391.582,
+  "EarningAmount": 5459.428,
+  "SubTotal": 15641.794,
+  "TotalPrice": 22345.42,
+  "ExtraField1": "fuga",
+  "ExtraField2": "odit",
+  "ExtraField3": "numquam",
+  "ExtraField4": "rerum",
+  "ExtraField5": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 226
     }
   }
 }

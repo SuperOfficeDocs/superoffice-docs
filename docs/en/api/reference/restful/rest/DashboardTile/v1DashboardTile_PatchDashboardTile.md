@@ -71,18 +71,17 @@ PATCH /api/v1/DashboardTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 DashboardTile  updated.
 
@@ -93,7 +92,7 @@ DashboardTile  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because DashboardTile has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: DashboardTileWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -111,7 +110,7 @@ Response body:
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -121,18 +120,18 @@ Response body:
 PATCH /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "sint",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "sint",
     "value": {}
   }
 ]
@@ -145,64 +144,64 @@ HTTP/1.1 200 DashboardTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 763,
-  "Caption": "sit",
-  "Description": "User-centric disintermediate collaboration",
-  "ChartName": "Beatty-Halvorson",
-  "ChartId": "eligendi",
+  "DashboardTileId": 630,
+  "Caption": "natus",
+  "Description": "Triple-buffered methodical encryption",
+  "ChartName": "Langosh-Lynch",
+  "ChartId": "consequuntur",
   "IsDefault": false,
-  "AssociateId": 916,
-  "GroupId": 708,
-  "SelectionId": 600,
-  "Config": "officiis",
+  "AssociateId": 189,
+  "GroupId": 634,
+  "SelectionId": 238,
+  "Config": "totam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Considine, King and Hyatt",
-      "Description": "Profit-focused modular neural-net",
+      "Name": "Bechtelar, Deckow and Feil",
+      "Description": "Ergonomic reciprocal Graphical User Interface",
       "Type": "Boolean",
-      "ListName": "Bartoletti LLC",
+      "ListName": "Gulgowski-O'Reilly",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "qui",
-      "DefaultDataOption": false,
+      "Value": "error",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldLength": 895
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 210,
+      "VisibleId": 445,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 974
+          "FieldLength": 961
         }
       }
     },
     {
-      "VisibleId": 210,
+      "VisibleId": 445,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 974
+          "FieldLength": 961
         }
       }
     }
@@ -212,7 +211,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldLength": 885
     }
   },
   "_Links": {

@@ -51,7 +51,7 @@ GET /api/v1/Role/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 RoleEntity found.
 
@@ -60,7 +60,7 @@ RoleEntity found.
 | 200 | RoleEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: RoleEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,11 +72,11 @@ Response body:
 | Rank | int32 | Sorting rank of this role in lists |
 | Created | date-time | Registered when  in UTC. |
 | UseCategories | int32 | Apply role category membership to users |
-| CreatedBy |  | Created by user |
+| CreatedBy | Associate | Created by user |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Last updated by user |
-| DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight |  |  |
+| UpdatedBy | Associate | Last updated by user |
+| DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -86,7 +86,7 @@ Response body:
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,16 +96,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 989,
-  "Name": "Jerde, Beer and Kessler",
-  "Tooltip": "dolor",
+  "RoleId": 114,
+  "Name": "Tillman Group",
+  "Tooltip": "totam",
   "RoleType": "Anonymous",
-  "Deleted": 564,
-  "Rank": 69,
-  "Created": "2000-07-12T02:49:51.3859386+02:00",
-  "UseCategories": 76,
+  "Deleted": 452,
+  "Rank": 231,
+  "Created": "2020-05-25T17:37:39.0472738+02:00",
+  "UseCategories": 75,
   "CreatedBy": null,
-  "Updated": "1998-09-21T02:49:51.3859386+02:00",
+  "Updated": "2002-07-01T17:37:39.0472738+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 354
     }
   },
   "_Links": {

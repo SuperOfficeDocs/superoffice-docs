@@ -36,7 +36,7 @@ Get the current checkout state for a document, relative to the user perforing th
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +58,7 @@ Response body:
 GET /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,7 +69,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 880,
-  "Name": "Zieme, Rippin and Greenholt"
+  "AssociateId": 268,
+  "Name": "Sipes-Stanton"
 }
 ```

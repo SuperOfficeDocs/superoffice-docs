@@ -44,7 +44,7 @@ GET /api/v1/List/Task/Items?includeDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Response body: array
 | IsDefaultPublished | bool | Published to external persons |
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,17 +89,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 759,
-    "Value": "adipisci",
+    "TaskListItemId": 408,
+    "Value": "hic",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "recusandae",
-    "Deleted": true,
-    "IntentId": 411,
-    "Rank": 153,
+    "Tooltip": "reiciendis",
+    "Deleted": false,
+    "IntentId": 782,
+    "Rank": 574,
     "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": false,
-    "IsDefaultPublished": true,
+    "IsDefaultFree": true,
+    "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 474
+        "FieldLength": 251
       }
     }
   }

@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,17 +42,17 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ConsentPerson
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConsentPersonId | int32 | ConsentPerson ID |
-| ConsentSource |  | The consent source |
-| LegalBase |  | The legal base |
+| ConsentSource | ConsentSource | The consent source |
+| LegalBase | LegalBase | The legal base |
 | PersonId | int32 | Person ID |
-| ConsentPurpose |  | The consent purpose |
+| ConsentPurpose | ConsentPurpose | The consent purpose |
 | Comment | string | Comment regarding this specific consent |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -61,7 +61,7 @@ Response body:
 POST /api/v1/Agents/Person/CreateDefaultConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 550,
+  "ConsentPersonId": 461,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 157,
+  "PersonId": 404,
   "ConsentPurpose": null,
-  "Comment": "saepe",
+  "Comment": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldLength": 438
     }
   }
 }

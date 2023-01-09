@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/GetAllFromListDefinition?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionId, IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionId | int32 |  |
-| IncludeDeleted | bool |  |
+| UdListDefinitionId | Integer |  |
+| IncludeDeleted | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body: array
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 740,
+  "UdListDefinitionId": 647,
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 946,
-    "Name": "Steuber-Hand",
-    "Tooltip": "rerum",
+    "Id": 35,
+    "Name": "Olson, Dare and Howe",
+    "Tooltip": "aspernatur",
     "Deleted": false,
-    "UdListDefinitionId": 754,
-    "Rank": 62,
+    "UdListDefinitionId": 934,
+    "Rank": 283,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 437
+        "FieldLength": 365
       }
     }
   }

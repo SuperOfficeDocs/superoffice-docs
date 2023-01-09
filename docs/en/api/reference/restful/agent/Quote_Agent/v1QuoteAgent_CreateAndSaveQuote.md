@@ -42,18 +42,17 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuote?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SaleId, ConnectionId, FirstAlternativeName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SaleId | int32 |  |
-| ConnectionId | int32 |  |
-| FirstAlternativeName | string |  |
+| SaleId | Integer |  |
+| ConnectionId | Integer |  |
+| FirstAlternativeName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +77,7 @@ Response body:
 | OrderComment | string | A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing |
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
 | QuoteVersions | array | Array og QuoteVersions connected to the quote. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,13 +86,13 @@ Response body:
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 375,
-  "ConnectionId": 466,
-  "FirstAlternativeName": "Bernier, Cummerata and Kautzer"
+  "SaleId": 143,
+  "ConnectionId": 213,
+  "FirstAlternativeName": "Hansen, Kohler and Gorczany"
 }
 ```
 
@@ -104,58 +103,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 787,
-  "SaleId": 264,
-  "QuoteConnectionId": 33,
-  "ERPQuoteKey": "accusamus",
-  "ERPOrderKey": "deleniti",
-  "ActiveQuoteVersionId": 327,
-  "AcceptedQuoteAlternativeId": 84,
-  "UseValuesFromQuote": 508,
-  "DocumentId": 152,
-  "PoNumber": "922922",
-  "OrderComment": "officia",
-  "PreferredEmailCulture": "wilfrid@powlowski.biz",
+  "QuoteId": 255,
+  "SaleId": 97,
+  "QuoteConnectionId": 940,
+  "ERPQuoteKey": "quis",
+  "ERPOrderKey": "numquam",
+  "ActiveQuoteVersionId": 312,
+  "AcceptedQuoteAlternativeId": 259,
+  "UseValuesFromQuote": 212,
+  "DocumentId": 483,
+  "PoNumber": "774417",
+  "OrderComment": "iure",
+  "PreferredEmailCulture": "estefania_kshlerin@ritchieledner.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 81,
-      "ERPQuoteVersionKey": "tempora",
-      "QuoteId": 509,
-      "Description": "Reduced 6th generation help-desk",
-      "Number": "360163",
+      "QuoteVersionId": 903,
+      "ERPQuoteVersionKey": "dicta",
+      "QuoteId": 368,
+      "Description": "Decentralized executive productivity",
+      "Number": "261349",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 186,
-      "SentDate": "2006-05-11T02:49:45.0465904+02:00",
-      "FollowupId": 820,
-      "ExpirationDate": "2012-03-02T02:49:45.0465904+01:00",
-      "DeliveryCountryId": 262,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 407,
+      "LikelyQuoteAlternativeId": 978,
+      "SentDate": "2021-08-27T17:37:18.7522418+02:00",
+      "FollowupId": 747,
+      "ExpirationDate": "1999-05-03T17:37:18.7522418+02:00",
+      "DeliveryCountryId": 53,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 797,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "velit",
-      "ERPPaymentTypeKey": "nostrum",
-      "ERPDeliveryTermsKey": "autem",
-      "ERPDeliveryTypeKey": "qui",
-      "Rank": 778,
-      "ApprovedBy": 7,
-      "ApprovedText": "saepe",
-      "ApprovedRegisteredBy": 327,
-      "ApprovedRegisteredDate": "2019-03-27T02:49:45.0465904+01:00",
-      "ExtraField1": "sit",
-      "ExtraField2": "architecto",
-      "ExtraField3": "et",
-      "ExtraField4": "est",
-      "ExtraField5": "laboriosam",
-      "LastRecalculated": "2000-04-03T02:49:45.0465904+02:00",
-      "Updated": "2012-01-07T02:49:45.0465904+01:00",
-      "UpdatedAssociateId": 182,
-      "Registered": "2008-12-15T02:49:45.0465904+01:00",
-      "RegisteredAssociateId": 371,
-      "RequestAssociateId": 971,
-      "RequestComment": "corrupti",
+      "ERPPaymentTermsKey": "est",
+      "ERPPaymentTypeKey": "deserunt",
+      "ERPDeliveryTermsKey": "deleniti",
+      "ERPDeliveryTypeKey": "consequatur",
+      "Rank": 177,
+      "ApprovedBy": 112,
+      "ApprovedText": "quaerat",
+      "ApprovedRegisteredBy": 584,
+      "ApprovedRegisteredDate": "2004-09-11T17:37:18.7522418+02:00",
+      "ExtraField1": "cum",
+      "ExtraField2": "quo",
+      "ExtraField3": "libero",
+      "ExtraField4": "vitae",
+      "ExtraField5": "in",
+      "LastRecalculated": "2007-01-30T17:37:18.7522418+01:00",
+      "Updated": "2002-06-16T17:37:18.7522418+02:00",
+      "UpdatedAssociateId": 156,
+      "Registered": "2011-09-18T17:37:18.7522418+02:00",
+      "RegisteredAssociateId": 355,
+      "RequestAssociateId": 71,
+      "RequestComment": "molestias",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +163,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 706
+          "FieldType": "System.Int32",
+          "FieldLength": 100
         }
       }
     }
@@ -175,7 +174,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 215
+      "FieldLength": 303
     }
   }
 }

@@ -12,8 +12,6 @@ DELETE /api/v1/Role/{roleIdToDelete}
 Delete the specified role and move all users associated with the role to the replacingRoleId
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -32,7 +30,7 @@ Delete the specified role and move all users associated with the role to the rep
 | replacingRoleId | int32 |  The roleId which all associated users will be moved to. |
 
 ```http
-DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=756
+DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=22
 ```
 
 
@@ -46,7 +44,7 @@ DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=756
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 No Content
 
@@ -54,7 +52,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request

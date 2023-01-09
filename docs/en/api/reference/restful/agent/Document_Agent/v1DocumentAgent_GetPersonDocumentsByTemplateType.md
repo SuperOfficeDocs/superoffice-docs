@@ -44,21 +44,20 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| IncludeProjectDocuments | bool |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| DocumentTemplateId | int32 |  |
+| PersonId | Integer |  |
+| IncludeProjectDocuments | Boolean |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| DocumentTemplateId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,7 +89,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -103,12 +102,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 542,
+  "PersonId": 916,
   "IncludeProjectDocuments": false,
-  "StartTime": "2021-12-07T02:49:44.0910111+01:00",
-  "EndTime": "2007-06-01T02:49:44.0910111+02:00",
-  "Count": 180,
-  "DocumentTemplateId": 353
+  "StartTime": "2005-03-02T17:37:17.4392427+01:00",
+  "EndTime": "2000-02-22T17:37:17.4392427+01:00",
+  "Count": 111,
+  "DocumentTemplateId": 210
 }
 ```
 
@@ -120,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 699,
-    "Attention": "deleniti",
-    "Header": "recusandae",
-    "Name": "Dicki-Wiegand",
-    "OurRef": "molestias",
-    "YourRef": "enim",
-    "Description": "Organic needs-based attitude",
-    "DocumentTemplate": "dicta",
+    "DocumentId": 976,
+    "Attention": "modi",
+    "Header": "sed",
+    "Name": "Torp, O'Connell and Sawayn",
+    "OurRef": "magni",
+    "YourRef": "non",
+    "Description": "Up-sized optimal paradigm",
+    "DocumentTemplate": "provident",
     "IsPublished": false,
-    "PersonId": 759,
-    "PersonFullName": "Horacio Konopelski",
-    "AssociateFullName": "Candace Quigley",
-    "ContactId": 372,
-    "ContactName": "Strosin Group",
-    "ProjectId": 451,
-    "ProjectName": "Watsica, West and Cruickshank",
-    "AssociateId": 369,
-    "Snum": 595,
-    "SaleId": 224,
-    "SaleName": "Durgan-Fay",
+    "PersonId": 559,
+    "PersonFullName": "Waylon Osinski I",
+    "AssociateFullName": "Porter Mayert",
+    "ContactId": 237,
+    "ContactName": "Schamberger Group",
+    "ProjectId": 43,
+    "ProjectName": "Reichel-Daniel",
+    "AssociateId": 621,
+    "Snum": 268,
+    "SaleId": 501,
+    "SaleName": "Walsh-Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldType": "System.String",
+        "FieldLength": 426
       }
     }
   }

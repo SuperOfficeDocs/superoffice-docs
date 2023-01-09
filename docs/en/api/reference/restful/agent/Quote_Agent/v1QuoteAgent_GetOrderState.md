@@ -44,16 +44,15 @@ POST /api/v1/Agents/Quote/GetOrderState?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
+| QuoteVersionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PluginUrlResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,10 +68,10 @@ Response body:
 | UserExplanation | string | A localized explanation to the answer. |
 | TechExplanation | string | Always in English |
 | ErrorCode | string | An error code, if available. |
-| Changes |  | Tablename/recordid of data changed by this method, that the client may need to reload |
+| Changes | ChangedData | Tablename/recordid of data changed by this method, that the client may need to reload |
 | Url | string | Url that the GUI should navigato to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested url. |
 | Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,11 +80,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetOrderState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 173
+  "QuoteVersionId": 219
 }
 ```
 
@@ -96,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "eum",
-  "TechExplanation": "mollitia",
-  "ErrorCode": "eos",
+  "IsOk": false,
+  "UserExplanation": "delectus",
+  "TechExplanation": "voluptas",
+  "ErrorCode": "mollitia",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -107,8 +106,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 648
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   }
 }

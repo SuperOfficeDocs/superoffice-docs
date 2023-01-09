@@ -44,20 +44,19 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTaskHeading?$selec
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, StartTime, EndTime, Count, TaskHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
-| TaskHeadingId | int32 |  |
+| PersonId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
+| TaskHeadingId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -131,11 +130,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 497,
-  "StartTime": "2019-10-07T02:49:43.2304992+02:00",
-  "EndTime": "2020-03-03T02:49:43.2304992+01:00",
-  "Count": 596,
-  "TaskHeadingId": 153
+  "PersonId": 681,
+  "StartTime": "1997-10-11T17:37:16.2392426+02:00",
+  "EndTime": "2021-02-20T17:37:16.2392426+01:00",
+  "Count": 254,
+  "TaskHeadingId": 429
 }
 ```
 
@@ -147,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 400,
-    "StartDate": "2002-10-21T02:49:43.2304992+02:00",
-    "EndDate": "2020-08-09T02:49:43.2304992+02:00",
+    "AppointmentId": 133,
+    "StartDate": "2018-04-09T17:37:16.2402411+02:00",
+    "EndDate": "2015-09-23T17:37:16.2402411+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sunt",
-    "AssociateFullName": "Candace Cormier",
-    "ContactName": "Tremblay-Koepp",
-    "Description": "Adaptive global interface",
-    "PersonFullName": "Dylan Jacobi",
-    "PersonId": 563,
-    "ContactId": 796,
-    "ProjectId": 90,
-    "ProjectName": "Ratke-Johnston",
+    "Task": "autem",
+    "AssociateFullName": "Amir Hirthe",
+    "ContactName": "Gusikowski, Reilly and Christiansen",
+    "Description": "Grass-roots zero defect encryption",
+    "PersonFullName": "Marjorie Zulauf",
+    "PersonId": 540,
+    "ContactId": 410,
+    "ProjectId": 791,
+    "ProjectName": "Oberbrunner Group",
     "IsPublished": false,
-    "AssociateId": 144,
-    "ColorIndex": 79,
-    "IsFree": true,
+    "AssociateId": 832,
+    "ColorIndex": 57,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 572,
-    "PriorityName": "Steuber, Green and Barrows",
+    "PriorityId": 98,
+    "PriorityName": "Douglas-Graham",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2005-11-25T02:49:43.2304992+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2004-09-13T17:37:16.2412415+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-05-26T02:49:43.2304992+02:00",
-    "RecurringEndDate": "2022-02-24T02:49:43.2304992+01:00",
-    "MotherId": 718,
-    "AssignedBy": 692,
-    "AssignedByFullName": "Eda Wyman V",
+    "RecurringStartDate": "2019-08-09T17:37:16.2412415+02:00",
+    "RecurringEndDate": "1999-07-02T17:37:16.2412415+02:00",
+    "MotherId": 8,
+    "AssignedBy": 999,
+    "AssignedByFullName": "Hugh Anita Cole DVM",
     "RejectReason": "",
-    "Location": "quis",
-    "AlarmLeadTime": "ipsa",
-    "SaleId": 899,
-    "SaleName": "Wiza-Pouros",
-    "AssociateName": "Oberbrunner, Waelchi and Quigley",
-    "CreatedDate": "2019-12-06T02:49:43.2304992+01:00",
-    "CreatedBy": "facilis",
-    "CreatedByFullName": "Miss Gabriella Mosciski DVM",
-    "CreatedByAssociateId": 885,
+    "Location": "ullam",
+    "AlarmLeadTime": "dolores",
+    "SaleId": 132,
+    "SaleName": "Weissnat Group",
+    "AssociateName": "Adams, Kris and Tromp",
+    "CreatedDate": "2021-06-07T17:37:16.2412415+02:00",
+    "CreatedBy": "eos",
+    "CreatedByFullName": "Tina Brown Jr.",
+    "CreatedByAssociateId": 939,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -201,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldLength": 556
       }
     }
   }

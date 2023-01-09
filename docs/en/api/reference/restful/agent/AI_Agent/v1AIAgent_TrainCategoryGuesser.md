@@ -42,18 +42,17 @@ POST /api/v1/Agents/AI/TrainCategoryGuesser?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, MaxItems, MaxTextLength 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| MaxItems | int32 |  |
-| MaxTextLength | int32 |  |
+| SelectionId | Integer |  |
+| MaxItems | Integer |  |
+| MaxTextLength | Integer |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -70,13 +69,13 @@ Response body: string
 POST /api/v1/Agents/AI/TrainCategoryGuesser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 33,
-  "MaxItems": 770,
-  "MaxTextLength": 820
+  "SelectionId": 204,
+  "MaxItems": 852,
+  "MaxTextLength": 131
 }
 ```
 

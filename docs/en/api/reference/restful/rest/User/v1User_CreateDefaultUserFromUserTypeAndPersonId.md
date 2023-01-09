@@ -31,7 +31,7 @@ System and Anonymous users can be created without an exsisting person and permit
 
 ```http
 GET /api/v1/User/Default?userType=AnonymousAssociate
-GET /api/v1/User/Default?personId=814
+GET /api/v1/User/Default?personId=405
 ```
 
 
@@ -49,7 +49,7 @@ GET /api/v1/User/Default?personId=814
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -57,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: User
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,10 +66,10 @@ Response body:
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
 | OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -86,7 +86,7 @@ Response body:
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,7 +95,7 @@ Response body:
 GET /api/v1/User/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,14 +105,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 706,
-  "Name": "Marquardt-Mraz",
-  "Rank": 675,
-  "Tooltip": "nam",
+  "AssociateId": 207,
+  "Name": "Denesik, Johnston and Jerde",
+  "Rank": 19,
+  "Tooltip": "molestiae",
   "LicenseOwners": [
     {
-      "Name": "Blanda Group",
-      "Description": "Networked global model",
+      "Name": "Kirlin, Hermiston and O'Kon",
+      "Description": "Advanced background functionalities",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,13 +126,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldLength": 82
         }
       }
     },
     {
-      "Name": "Blanda Group",
-      "Description": "Networked global model",
+      "Name": "Kirlin, Hermiston and O'Kon",
+      "Description": "Advanced background functionalities",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldLength": 82
         }
       }
     }
@@ -155,110 +155,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "nesciunt",
-      "Tooltip": "in",
-      "Id": 346,
-      "Rank": 156,
+      "Value": "et",
+      "Tooltip": "accusantium",
+      "Id": 400,
+      "Rank": 623,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 149
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2007-12-31T02:49:51.8272735+01:00",
-  "Lastlogout": "2000-01-04T02:49:51.8272735+01:00",
-  "EjUserId": 609,
-  "RequestSignature": "excepturi",
+  "Deleted": true,
+  "Lastlogin": "2020-08-08T17:37:39.576401+02:00",
+  "Lastlogout": "2018-01-18T17:37:39.576401+01:00",
+  "EjUserId": 368,
+  "RequestSignature": "eos",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "vel",
-      "DisplayValue": "quia",
+      "Value": "possimus",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldType": "System.String",
+          "FieldLength": 660
         }
       }
     },
     {
       "Type": null,
-      "Value": "vel",
-      "DisplayValue": "quia",
+      "Value": "possimus",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldType": "System.String",
+          "FieldLength": 660
         }
       }
     }
   ],
-  "UserName": "Jones-Labadie",
+  "UserName": "Mann Group",
   "TicketCategories": [
     {
-      "Id": 802,
-      "Name": "Towne Group",
-      "ToolTip": "Iure et voluptatibus.",
-      "Deleted": true,
-      "Rank": 831,
-      "Type": "debitis",
+      "Id": 289,
+      "Name": "Gutmann LLC",
+      "ToolTip": "Voluptatibus voluptatem qui aut tempora sunt sed tempore.",
+      "Deleted": false,
+      "Rank": 727,
+      "Type": "sit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "doloribus",
-      "ColorBlock": 846,
-      "ExtraInfo": "molestiae",
-      "StyleHint": "unde",
-      "FullName": "Camden Mann",
+      "IconHint": "quos",
+      "ColorBlock": 178,
+      "ExtraInfo": "mollitia",
+      "StyleHint": "blanditiis",
+      "FullName": "Ms. Henri Gilbert Emard",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldLength": 424
         }
       }
     }
   ],
-  "NickName": "Christiansen-Walsh",
+  "NickName": "Simonis-Rempel",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "similique"
+    "ExtraFields1": "ad",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "doloribus"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "dolorem"
   },
   "PostSaveCommands": [
     {
-      "Name": "Krajcik, Heller and Wolf",
-      "DisplayName": "Schneider, Walker and Mraz",
-      "Description": "Multi-layered real-time database",
-      "ToolTip": "Doloribus quod.",
+      "Name": "Brekke-Cummings",
+      "DisplayName": "Schultz-Jewess",
+      "Description": "Networked tertiary firmware",
+      "ToolTip": "At ut sunt doloribus temporibus dolorem odit distinctio.",
       "Actions": "Implicit",
-      "ActionData": "sit",
+      "ActionData": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldLength": 169
         }
       }
     }
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 596
+      "FieldLength": 967
     }
   }
 }

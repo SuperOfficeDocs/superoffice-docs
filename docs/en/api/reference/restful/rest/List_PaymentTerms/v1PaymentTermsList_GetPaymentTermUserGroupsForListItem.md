@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 68,
-    "Name": "Deckow, Bernier and Kiehn",
-    "ToolTip": "Laborum assumenda et et impedit est.",
+    "Id": 144,
+    "Name": "Hudson-Denesik",
+    "ToolTip": "Ut ea est possimus excepturi aperiam.",
     "Deleted": false,
-    "Rank": 240,
+    "Rank": 454,
     "Type": "ratione",
-    "ColorBlock": 635,
-    "IconHint": "rem",
+    "ColorBlock": 562,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2010-06-25T02:49:52.2971911+02:00",
+    "LastChanged": "2019-03-18T17:37:40.0744708+01:00",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Jerde Inc and Sons",
-        "ToolTip": "Eaque laudantium debitis et.",
+        "Id": 886,
+        "Name": "Champlin Inc and Sons",
+        "ToolTip": "Rerum accusantium facere asperiores ea fugit natus.",
         "Deleted": false,
-        "Rank": 933,
-        "Type": "quas",
-        "ColorBlock": 132,
-        "IconHint": "aliquam",
-        "Selected": true,
-        "LastChanged": "2011-06-30T02:49:52.2971911+02:00",
+        "Rank": 503,
+        "Type": "esse",
+        "ColorBlock": 66,
+        "IconHint": "dolor",
+        "Selected": false,
+        "LastChanged": "2002-12-15T17:37:40.0744708+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "recusandae",
-        "Hidden": true,
-        "FullName": "Jay Quigley",
+        "ExtraInfo": "enim",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Jerad Gutkowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 420
+            "FieldType": "System.String",
+            "FieldLength": 742
           }
         }
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "aliquid",
-    "Hidden": true,
-    "FullName": "Kadin Hilpert DVM",
+    "ExtraInfo": "tempora",
+    "StyleHint": "veritatis",
+    "Hidden": false,
+    "FullName": "Dr. Mohammad Wanda DuBuque Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldLength": 608
       }
     }
   }

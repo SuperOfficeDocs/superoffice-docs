@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/GetAllFromListName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionName, IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionName | string |  |
-| IncludeDeleted | bool |  |
+| UdListDefinitionName | String |  |
+| IncludeDeleted | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body: array
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Willms-Gislason",
-  "IncludeDeleted": true
+  "UdListDefinitionName": "Pfannerstill-Cronin",
+  "IncludeDeleted": false
 }
 ```
 
@@ -96,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Hahn-Langosh",
-    "Tooltip": "quis",
+    "Id": 449,
+    "Name": "Cummings LLC",
+    "Tooltip": "autem",
     "Deleted": true,
-    "UdListDefinitionId": 530,
-    "Rank": 438,
+    "UdListDefinitionId": 954,
+    "Rank": 320,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldType": "System.String",
+        "FieldLength": 796
       }
     }
   }

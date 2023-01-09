@@ -25,7 +25,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=664
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=296
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,ca
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ContactRelationEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,15 +66,15 @@ Response body:
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 537,
-  "SourcePersonId": 553,
-  "DestinationContactId": 793,
-  "DestinationPersonId": 605,
-  "RelationId": 831,
+  "SourceContactId": 398,
+  "SourcePersonId": 813,
+  "DestinationContactId": 908,
+  "DestinationPersonId": 860,
+  "RelationId": 202,
   "Comment": "et",
-  "RelationDefinitionId": 296,
-  "Reversed": 708,
-  "UpdatedDate": "2004-05-15T02:49:45.0622144+02:00",
-  "CreatedDate": "2011-07-10T02:49:45.0622144+02:00",
+  "RelationDefinitionId": 438,
+  "Reversed": 860,
+  "UpdatedDate": "2008-08-14T17:37:18.7792432+02:00",
+  "CreatedDate": "1997-08-10T17:37:18.7792432+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bahringer, Kertzmann and Stoltenberg",
-  "SourcePersonName": "Cremin, Bogan and Littel",
-  "DestinationContactName": "Carroll LLC",
-  "DestinationPersonName": "Parker, Wisozk and Hegmann",
-  "ActiveText": "harum",
-  "PassiveText": "eius",
+  "SourceContactName": "Klein, Ziemann and Lindgren",
+  "SourcePersonName": "Collins-Kuhic",
+  "DestinationContactName": "Beier, Abernathy and Mayert",
+  "DestinationPersonName": "Gorczany, Rice and Hoeger",
+  "ActiveText": "officiis",
+  "PassiveText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldLength": 159
     }
   }
 }

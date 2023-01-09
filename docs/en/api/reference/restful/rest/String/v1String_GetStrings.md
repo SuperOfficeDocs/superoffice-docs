@@ -27,8 +27,8 @@ Post the array of strings to get translations for all the strings.
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-POST /api/v1/String?isoLangCode=sit
-POST /api/v1/String?ignoreOverrides=True
+POST /api/v1/String?isoLangCode=et
+POST /api/v1/String?ignoreOverrides=False
 ```
 
 
@@ -46,13 +46,12 @@ POST /api/v1/String?ignoreOverrides=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: sr_ids  
+## Request Body: sr_ids 
 
 The string names: ['SR_YES', 'SR_NO' etc]. You can specify multiple string ids in the array. 
 
 
-
-## Response: object
+## Response:object
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -69,7 +68,7 @@ Response body: object
 POST /api/v1/String
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

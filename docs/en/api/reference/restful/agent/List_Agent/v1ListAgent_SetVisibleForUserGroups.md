@@ -42,18 +42,17 @@ POST /api/v1/Agents/List/SetVisibleForUserGroups?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionId, ListItemId, UserGroups 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionId | int32 |  |
-| ListItemId | int32 |  |
-| UserGroups | array |  |
+| UdListDefinitionId | Integer |  |
+| ListItemId | Integer |  |
+| UserGroups | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,28 +92,28 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 936,
-  "ListItemId": 88,
+  "UdListDefinitionId": 622,
+  "ListItemId": 450,
   "UserGroups": [
     {
-      "Id": 372,
-      "Name": "Waelchi-Padberg",
-      "ToolTip": "Eum quis optio delectus.",
+      "Id": 412,
+      "Name": "Fritsch, Luettgen and Cartwright",
+      "ToolTip": "Voluptatem recusandae aspernatur quia aut.",
       "Deleted": false,
-      "Rank": 592,
-      "Type": "ut",
-      "ColorBlock": 977,
-      "IconHint": "animi",
+      "Rank": 553,
+      "Type": "distinctio",
+      "ColorBlock": 128,
+      "IconHint": "repellat",
       "Selected": false,
-      "LastChanged": "2016-12-19T02:49:44.6235457+01:00",
+      "LastChanged": "1999-09-27T17:37:18.1952446+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "rem",
-      "StyleHint": "laboriosam",
+      "ExtraInfo": "mollitia",
+      "StyleHint": "quas",
       "Hidden": false,
-      "FullName": "Paul Wintheiser"
+      "FullName": "Tyrese Senger"
     }
   ]
 }
@@ -128,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 474,
-    "Name": "Nikolaus, Williamson and Gusikowski",
-    "ToolTip": "Nobis sit ad.",
-    "Deleted": true,
-    "Rank": 585,
-    "Type": "quis",
-    "ColorBlock": 593,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "1996-04-17T02:49:44.6235457+02:00",
+    "Id": 581,
+    "Name": "Johnson-Upton",
+    "ToolTip": "Consequatur quaerat et magnam qui est omnis asperiores.",
+    "Deleted": false,
+    "Rank": 697,
+    "Type": "necessitatibus",
+    "ColorBlock": 420,
+    "IconHint": "architecto",
+    "Selected": true,
+    "LastChanged": "1999-01-28T17:37:18.1972447+01:00",
     "ChildItems": [
       {
-        "Id": 548,
-        "Name": "Gislason-Marquardt",
-        "ToolTip": "Inventore distinctio nostrum et ducimus.",
+        "Id": 877,
+        "Name": "Champlin, Schmeler and Koepp",
+        "ToolTip": "Neque laboriosam et dolores tempore alias soluta.",
         "Deleted": false,
-        "Rank": 656,
-        "Type": "ea",
-        "ColorBlock": 276,
-        "IconHint": "hic",
-        "Selected": true,
-        "LastChanged": "2005-03-05T02:49:44.6235457+01:00",
+        "Rank": 828,
+        "Type": "ut",
+        "ColorBlock": 323,
+        "IconHint": "dolor",
+        "Selected": false,
+        "LastChanged": "2014-04-13T17:37:18.1972447+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quia",
+        "ExtraInfo": "earum",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "King Malinda Ryan II",
+        "FullName": "Prof. Oran Kautzer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 757
+            "FieldType": "System.String",
+            "FieldLength": 601
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "alias",
-    "Hidden": false,
-    "FullName": "Jamel Weissnat",
+    "ExtraInfo": "enim",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Ms. Gaston Beaulah Torphy Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 95
+        "FieldLength": 887
       }
     }
   }

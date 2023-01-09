@@ -42,17 +42,16 @@ POST /api/v1/Agents/Appointment/GetUIDFromAppointmentId?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AppointmentId, UseMotherId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AppointmentId | int32 |  |
-| UseMotherId | bool |  |
+| AppointmentId | Integer |  |
+| UseMotherId | Boolean |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -69,11 +68,11 @@ Response body: string
 POST /api/v1/Agents/Appointment/GetUIDFromAppointmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 8,
+  "AppointmentId": 938,
   "UseMotherId": false
 }
 ```
@@ -84,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"molestiae"
+"dignissimos"
 ```

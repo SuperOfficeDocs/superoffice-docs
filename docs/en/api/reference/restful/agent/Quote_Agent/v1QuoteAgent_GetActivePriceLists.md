@@ -44,17 +44,16 @@ POST /api/v1/Agents/Quote/GetActivePriceLists?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteConnectionId, Currency 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteConnectionId | int32 |  |
-| Currency | string |  |
+| QuoteConnectionId | Integer |  |
+| Currency | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body: array
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,12 +84,12 @@ Response body: array
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 11,
-  "Currency": "consequuntur"
+  "QuoteConnectionId": 112,
+  "Currency": "voluptatum"
 }
 ```
 
@@ -102,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 573,
-    "ERPPriceListKey": "rerum",
-    "QuoteConnectionId": 562,
-    "Name": "Schowalter Inc and Sons",
-    "Description": "Object-based real-time definition",
-    "Currency": "asperiores",
-    "CurrencyName": "Wolff LLC",
-    "ValidFrom": "2010-06-22T02:49:45.0309645+02:00",
-    "ValidTo": "2018-03-15T02:49:45.0309645+01:00",
+    "PriceListId": 421,
+    "ERPPriceListKey": "ea",
+    "QuoteConnectionId": 585,
+    "Name": "Gleichner, Jacobs and Daugherty",
+    "Description": "Multi-channelled encompassing monitoring",
+    "Currency": "excepturi",
+    "CurrencyName": "Goyette-Weber",
+    "ValidFrom": "2000-08-29T17:37:18.7462416+02:00",
+    "ValidTo": "2020-10-07T17:37:18.7462416+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 31
+        "FieldLength": 367
       }
     }
   }

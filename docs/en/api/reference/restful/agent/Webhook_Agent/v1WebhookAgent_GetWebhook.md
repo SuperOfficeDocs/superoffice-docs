@@ -12,8 +12,6 @@ POST /api/v1/Agents/Webhook/GetWebhook
 Gets a Webhook object.
 
 
-
-
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -29,7 +27,7 @@ Gets a Webhook object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=40
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=69
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 
@@ -48,7 +46,7 @@ POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Webhook
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,9 +68,9 @@ Response body:
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociate |  | The user that created the webhook. |
+| RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociate |  | The user that last updated the webhook. |
+| UpdatedAssociate | Associate | The user that last updated the webhook. |
 
 ## Sample request
 
@@ -80,7 +78,7 @@ Response body:
 POST /api/v1/Agents/Webhook/GetWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,26 +88,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 363,
-  "Name": "Jenkins Group",
+  "WebhookId": 969,
+  "Name": "Bartoletti Group",
   "Events": [
-    "ut",
-    "illum"
+    "suscipit",
+    "voluptas"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "doloribus",
+  "Secret": "nihil",
   "State": "Active",
-  "Type": "vel",
+  "Type": "in",
   "Headers": {
-    "Headers1": "culpa",
-    "Headers2": "aspernatur"
+    "Headers1": "ut",
+    "Headers2": "odit"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1999-11-28T02:49:45.7340964+01:00",
+  "Registered": "2011-04-04T17:37:19.6489764+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2009-06-13T02:49:45.7340964+02:00",
+  "Updated": "2001-01-04T17:37:19.6489764+01:00",
   "UpdatedAssociate": null
 }
 ```

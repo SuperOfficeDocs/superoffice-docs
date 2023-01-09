@@ -40,18 +40,17 @@ POST /api/v1/Agents/Archive/SetChosenColumns?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 GuiName, ProviderName, ChosenColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| GuiName | string |  |
-| ProviderName | string |  |
-| ChosenColumns | array |  |
+| GuiName | String |  |
+| ProviderName | String |  |
+| ChosenColumns | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -59,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -72,11 +71,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Monahan-Hickle",
-  "ProviderName": "Kunze Group",
+  "GuiName": "Jenkins, Ortiz and Welch",
+  "ProviderName": "Von Group",
   "ChosenColumns": [
-    "quia",
-    "rerum"
+    "eos",
+    "voluptas"
   ]
 }
 ```

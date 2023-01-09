@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Webhook
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,9 +59,9 @@ Response body:
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociate |  | The user that created the webhook. |
+| RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociate |  | The user that last updated the webhook. |
+| UpdatedAssociate | Associate | The user that last updated the webhook. |
 
 ## Sample request
 
@@ -79,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 603,
-  "Name": "Bergnaum, Bechtelar and Bauch",
+  "WebhookId": 1000,
+  "Name": "Reilly Inc and Sons",
   "Events": [
-    "optio",
-    "natus"
+    "molestiae",
+    "qui"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "aut",
+  "Secret": "nulla",
   "State": "Active",
-  "Type": "qui",
+  "Type": "omnis",
   "Headers": {
-    "Headers1": "veritatis",
-    "Headers2": "qui"
+    "Headers1": "aperiam",
+    "Headers2": "pariatur"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2012-11-06T02:49:45.7184704+01:00",
+  "Registered": "2011-07-23T17:37:19.6430063+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2021-08-08T02:49:45.7184704+02:00",
+  "Updated": "2012-10-31T17:37:19.6430063+01:00",
   "UpdatedAssociate": null
 }
 ```

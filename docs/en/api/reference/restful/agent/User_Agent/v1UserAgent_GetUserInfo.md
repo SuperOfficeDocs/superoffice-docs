@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetUserInfo
 Gets a UserInfo object.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -29,7 +27,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=908
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=215
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -48,7 +46,7 @@ POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +73,7 @@ Response body:
 | RoleTooltip | string |  |
 | UserGroupName | string |  |
 | UserGroupTooltip | string |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Deleted": true,
-  "UserInfoId": 500,
-  "UserName": "Parker-Shanahan",
-  "PersonId": 608,
-  "Rank": 75,
-  "Tooltip": "iste",
-  "UserGroupId": 832,
-  "EjUserId": 652,
+  "Deleted": false,
+  "UserInfoId": 659,
+  "UserName": "Luettgen-Senger",
+  "PersonId": 224,
+  "Rank": 878,
+  "Tooltip": "ratione",
+  "UserGroupId": 995,
+  "EjUserId": 769,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "sunt",
-    "suscipit"
+    "explicabo",
+    "occaecati"
   ],
   "CanLogon": false,
-  "RoleName": "Bashirian, Bashirian and Grimes",
-  "RoleTooltip": "eligendi",
-  "UserGroupName": "Weimann-Jerde",
-  "UserGroupTooltip": "magni",
+  "RoleName": "Fritsch, Marks and Hintz",
+  "RoleTooltip": "ipsam",
+  "UserGroupName": "Denesik, Rolfson and Skiles",
+  "UserGroupTooltip": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldLength": 391
     }
   }
 }

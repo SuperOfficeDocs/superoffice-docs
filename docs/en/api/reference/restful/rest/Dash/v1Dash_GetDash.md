@@ -48,7 +48,7 @@ GET /api/v1/Dash/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 Dash found.
 
@@ -57,7 +57,7 @@ Dash found.
 | 200 | Dash found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: DashWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,14 +67,14 @@ Response body:
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
 | Columns | int32 | How many columns there will be in the dashboard. |
-| Theme |  | The theme for this dashboard |
+| Theme | DashTheme | The theme for this dashboard |
 | VisibleForAll | int32 | True if visible for all |
 | VisibleForAssociates | array | Array of references to the visible for associates |
 | VisibleForGroups | array | Array of references to the visible for groups |
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -84,7 +84,7 @@ Response body:
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,42 +94,42 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 205,
-  "UniqueId": "repellendus",
-  "Name": "Osinski, Pfeffer and Senger",
-  "Description": "Total dynamic ability",
-  "AssociateId": 533,
-  "Columns": 903,
+  "DashboardId": 120,
+  "UniqueId": "repellat",
+  "Name": "Conn-Kunde",
+  "Description": "Horizontal directional structure",
+  "AssociateId": 425,
+  "Columns": 871,
   "Theme": null,
-  "VisibleForAll": 183,
+  "VisibleForAll": 672,
   "VisibleForAssociates": [
-    146,
-    975
+    961,
+    723
   ],
   "VisibleForGroups": [
-    571,
-    166
+    656,
+    858
   ],
-  "PinForAll": 209,
+  "PinForAll": 381,
   "PinForAssociates": [
-    148,
-    890
+    268,
+    282
   ],
   "PinForGroups": [
-    133,
-    734
+    517,
+    266
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldLength": 882
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

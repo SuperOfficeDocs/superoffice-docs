@@ -38,18 +38,17 @@ POST /api/v1/Agents/Project/SaveProjectMembersFunctionAndComment?$select=name,de
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectMemberIds, RoleId, Comment 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectMemberIds | array |  |
-| RoleId | int32 |  |
-| Comment | string |  |
+| ProjectMemberIds | Array |  |
+| RoleId | Integer |  |
+| Comment | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -57,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -66,16 +65,16 @@ Response body:
 POST /api/v1/Agents/Project/SaveProjectMembersFunctionAndComment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    564,
-    192
+    9,
+    218
   ],
-  "RoleId": 149,
-  "Comment": "voluptates"
+  "RoleId": 845,
+  "Comment": "facere"
 }
 ```
 

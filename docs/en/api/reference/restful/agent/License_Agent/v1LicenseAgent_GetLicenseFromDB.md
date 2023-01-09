@@ -42,16 +42,15 @@ POST /api/v1/Agents/License/GetLicenseFromDB?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 OwnerName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| OwnerName | string |  |
+| OwnerName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,14 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Reason | string |  |
 | CanBeActivated | bool |  |
-| New |  |  |
-| Current |  |  |
+| New | TableRight |  |
+| Current | TableRight |  |
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
@@ -80,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Gibson-Moore"
+  "OwnerName": "Kub-Terry"
 }
 ```
 
@@ -91,22 +90,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "incubate virtual metrics",
-  "CanBeActivated": false,
+  "Reason": "",
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 256,
-      "NumberOfLicensesFree": 744,
-      "NumberOfLicensesAdded": 651,
-      "NumberOfLicensesNewTotal": 885,
-      "NumberOfLicensesNewFree": 299,
-      "NumberOfLicensesTotal": 164
+      "NumberOfLicensesInUse": 122,
+      "NumberOfLicensesFree": 311,
+      "NumberOfLicensesAdded": 641,
+      "NumberOfLicensesNewTotal": 879,
+      "NumberOfLicensesNewFree": 838,
+      "NumberOfLicensesTotal": 586
     }
   ],
-  "AccumulatedNextCheckDate": "2009-01-25T02:49:44.576671+01:00"
+  "AccumulatedNextCheckDate": "2015-05-27T17:37:18.1272419+02:00"
 }
 ```

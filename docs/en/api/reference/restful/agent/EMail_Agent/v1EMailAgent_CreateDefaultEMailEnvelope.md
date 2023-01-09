@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,21 +45,21 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailEnvelope
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ServerId | int32 | Unique id for the e-mail on the server |
 | MessageId | string | Unique id of e-mails |
 | Subject | string | Subject of the e-mail |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | To | array | To recipients of e-mail |
 | Sent | date-time | When was the e-mail sent |
 | Priority | string | Importance of the e-mail |
 | Flags | string | Flag status of this mail (unread, replied, deleted ) |
 | Size | int32 | Total size of the e-mail |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
-| TableRight |  |  |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -68,7 +68,7 @@ Response body:
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,45 +78,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 94,
-  "MessageId": "nihil",
-  "Subject": "et",
+  "ServerId": 309,
+  "MessageId": "qui",
+  "Subject": "iure",
   "From": null,
   "To": [
     {
-      "ContactId": 206,
-      "ContactName": "Stoltenberg-Roob",
-      "PersonId": 712,
-      "PersonName": "Hackett LLC",
-      "AssociateId": 817,
-      "Address": "quaerat",
-      "EmailId": 540,
+      "ContactId": 556,
+      "ContactName": "Fahey Inc and Sons",
+      "PersonId": 80,
+      "PersonName": "Jacobi, McKenzie and Ernser",
+      "AssociateId": 610,
+      "Address": "est",
+      "EmailId": 897,
       "DuplicatePersonIds": [
-        797,
-        35
+        571,
+        49
       ],
-      "Name": "Jacobi, Christiansen and Wintheiser",
+      "Name": "Mosciski-Turner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 851
+          "FieldLength": 243
         }
       }
     }
   ],
-  "Sent": "1998-02-18T02:49:44.403542+01:00",
+  "Sent": "2005-06-15T17:37:17.9192408+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 482,
+  "Size": 749,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 318
     }
   }
 }

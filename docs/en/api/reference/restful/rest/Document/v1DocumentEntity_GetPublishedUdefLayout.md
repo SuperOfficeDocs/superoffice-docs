@@ -32,7 +32,7 @@ Currently published DocumentEntity user-defined field layout.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +78,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 612,
-    "ColumnId": 625,
-    "FieldDefault": "similique",
-    "FieldHeight": 381,
-    "FieldLabel": "dolor",
-    "FieldLeft": 763,
-    "FieldTop": 980,
+    "UDefFieldId": 91,
+    "ColumnId": 475,
+    "FieldDefault": "sit",
+    "FieldHeight": 420,
+    "FieldLabel": "aspernatur",
+    "FieldLeft": 855,
+    "FieldTop": 439,
     "FieldType": "Checkbox",
-    "FieldWidth": 331,
-    "FormatMask": "quisquam",
-    "HideLabel": true,
+    "FieldWidth": 248,
+    "FormatMask": "culpa",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 19,
-    "LabelLeft": 937,
-    "LabelTop": 573,
-    "LabelWidth": 168,
-    "LastVersionId": 744,
-    "ListTableId": 317,
+    "LabelHeight": 947,
+    "LabelLeft": 337,
+    "LabelTop": 234,
+    "LabelWidth": 544,
+    "LastVersionId": 162,
+    "ListTableId": 215,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 805,
-    "ProgId": "nostrum",
+    "Page1LineNo": 396,
+    "ProgId": "dignissimos",
     "IsReadOnly": true,
-    "ShortLabel": "esse",
-    "TabOrder": 517,
-    "TextLength": 774,
-    "Tooltip": "quo",
-    "UdefIdentity": 144,
-    "UDListDefinitionId": 460,
+    "ShortLabel": "ut",
+    "TabOrder": 264,
+    "TextLength": 544,
+    "Tooltip": "nostrum",
+    "UdefIdentity": 317,
+    "UDListDefinitionId": 846,
     "Justification": "Center",
-    "Version": 397,
-    "TemplateVariableName": "Dicki-Strosin",
+    "Version": 460,
+    "TemplateVariableName": "Berge, Weissnat and Miller",
     "HasBeenPublished": false,
-    "MdoListName": "Zemlak Group",
+    "MdoListName": "Zemlak, Reichert and Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 797
+        "FieldLength": 416
       }
     }
   }

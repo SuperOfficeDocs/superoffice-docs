@@ -42,17 +42,16 @@ POST /api/v1/Agents/Dash/AddTileToDashboard?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DashboardId, DashTileDefinitionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardId | int32 |  |
-| DashTileDefinitionId | int32 |  |
+| DashboardId | Integer |  |
+| DashTileDefinitionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTile
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,8 +68,8 @@ Response body:
 | Height | int32 | Height used by this tile in the dashboard |
 | Width | int32 | Width used by this tile in the dashboard |
 | Rank | int32 | Rank order |
-| DashTileDefinition |  | The tile definition entity |
-| TableRight |  |  |
+| DashTileDefinition | DashTileDefinition | The tile definition entity |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,12 +78,12 @@ Response body:
 POST /api/v1/Agents/Dash/AddTileToDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 575,
-  "DashTileDefinitionId": 220
+  "DashboardId": 167,
+  "DashTileDefinitionId": 14
 }
 ```
 
@@ -95,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 338,
-  "DashboardId": 201,
-  "Height": 69,
-  "Width": 443,
-  "Rank": 540,
+  "DashboardTileId": 503,
+  "DashboardId": 854,
+  "Height": 177,
+  "Width": 598,
+  "Rank": 928,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldType": "System.String",
+      "FieldLength": 509
     }
   }
 }

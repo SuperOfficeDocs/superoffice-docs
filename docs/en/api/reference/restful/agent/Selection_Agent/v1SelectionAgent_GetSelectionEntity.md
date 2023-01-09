@@ -25,7 +25,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=939
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=827
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,categor
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,16 +52,16 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SelectionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| Associate |  | Owner of the selection |
-| CreatedBy |  | Who created the selection |
-| UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| Associate | Associate | Owner of the selection |
+| CreatedBy | Associate | Who created the selection |
+| UpdatedBy | Associate | Who last modified the selection |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -88,16 +88,16 @@ Response body:
 | ChartKey | string | ID/key of the last-used chart tile on this selection |
 | LastLoaded | date-time | The date/time this selection was last loaded (selectionentity fetched) |
 | LastLoadedBy | int32 | Who last loaded this selection |
-| LastLoadedByAssociate |  | Associate that last looked at the selection members; only date (not time) is valid |
+| LastLoadedByAssociate | Associate | Associate that last looked at the selection members; only date (not time) is valid |
 | LastMembershipChange | date-time | The date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm |
 | LastMembershipChangeBy | int32 | Who last changed the membership |
-| LastMembershipChangeByAssociate |  | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
+| LastMembershipChangeByAssociate | Associate | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
 | MainHeading | string | 'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references |
 | MemberTabHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references |
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -106,7 +106,7 @@ Response body:
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -116,70 +116,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-contextualized reciprocal superstructure",
-  "Postit": "porro",
+  "Description": "Phased incremental archive",
+  "Postit": "dicta",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 421,
-  "IncludePerson": 249,
-  "MemberCount": 416,
-  "Name": "Hettinger-Cremin",
-  "PostitTextId": 882,
-  "CreatedDate": "2017-06-14T02:49:45.3590885+02:00",
-  "SelectionId": 808,
-  "SoundEx": "eligendi",
-  "Source": 846,
-  "TextId": 498,
-  "UpdatedDate": "1998-02-24T02:49:45.3590885+01:00",
-  "UpdatedCount": 638,
-  "Visibility": 507,
+  "GroupIdx": 679,
+  "IncludePerson": 708,
+  "MemberCount": 813,
+  "Name": "Kshlerin-Nitzsche",
+  "PostitTextId": 111,
+  "CreatedDate": "2000-01-30T17:37:18.9282419+01:00",
+  "SelectionId": 803,
+  "SoundEx": "eum",
+  "Source": 512,
+  "TextId": 712,
+  "UpdatedDate": "2021-12-12T17:37:18.9282419+01:00",
+  "UpdatedCount": 771,
+  "Visibility": 337,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 272,
-  "TargetTableName": "Nolan, Hagenes and Kassulke",
+  "CompanyUnique": true,
+  "TargetTableNumber": 740,
+  "TargetTableName": "Haag, Hansen and Steuber",
   "Completed": false,
   "LeftSelectionId": 723,
-  "RightSelectionId": 297,
+  "RightSelectionId": 948,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Skiles-Koss",
-  "ShadowProviderName": "Raynor, Goodwin and Rosenbaum",
-  "ChartKey": "molestiae",
-  "LastLoaded": "2019-09-20T02:49:45.3590885+02:00",
-  "LastLoadedBy": 627,
+  "MainProviderName": "Conroy-Huels",
+  "ShadowProviderName": "Deckow Inc and Sons",
+  "ChartKey": "vitae",
+  "LastLoaded": "2020-07-17T17:37:18.9282419+02:00",
+  "LastLoadedBy": 453,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-09-22T02:49:45.3590885+02:00",
-  "LastMembershipChangeBy": 601,
+  "LastMembershipChange": "2014-09-12T17:37:18.9282419+02:00",
+  "LastMembershipChangeBy": 633,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolores",
-  "MemberTabHeading": "quo",
-  "MailingsProviderName": "Sanford Group",
-  "DashboardTileDefinitionId": 167,
+  "MainHeading": "dicta",
+  "MemberTabHeading": "alias",
+  "MailingsProviderName": "O'Reilly-Glover",
+  "DashboardTileDefinitionId": 859,
   "VisibleFor": [
     {
-      "VisibleId": 740,
+      "VisibleId": 750,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 654
+          "FieldLength": 910
         }
       }
     },
     {
-      "VisibleId": 740,
+      "VisibleId": 750,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 654
+          "FieldLength": 910
         }
       }
     }
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldType": "System.String",
+      "FieldLength": 434
     }
   }
 }

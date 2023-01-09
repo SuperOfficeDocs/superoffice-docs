@@ -42,16 +42,15 @@ POST /api/v1/Agents/Dashboard/GetDashboards?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
+| AssociateId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body: array
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,11 +76,11 @@ Response body: array
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 701
+  "AssociateId": 319
 }
 ```
 
@@ -93,22 +92,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 413,
-    "AssociateId": 471,
-    "Caption": "molestiae",
+    "DashboardId": 42,
+    "AssociateId": 222,
+    "Caption": "sed",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 386,
-        "Caption": "deserunt",
-        "Description": "Pre-emptive didactic adapter",
-        "ChartName": "Ferry Group",
-        "ChartId": "aut",
-        "IsDefault": true,
-        "AssociateId": 881,
-        "GroupId": 895,
-        "SelectionId": 961,
-        "Config": "qui",
+        "DashboardTileId": 95,
+        "Caption": "consequatur",
+        "Description": "Grass-roots global hierarchy",
+        "ChartName": "Bauch-Larkin",
+        "ChartId": "inventore",
+        "IsDefault": false,
+        "AssociateId": 641,
+        "GroupId": 87,
+        "SelectionId": 374,
+        "Config": "voluptatem",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,7 +123,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 216
+            "FieldLength": 889
           }
         }
       }
@@ -134,7 +133,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldLength": 408
       }
     }
   }

@@ -44,25 +44,24 @@ POST /api/v1/List?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The ListEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The identity of the list |
-| Name | string | The name of the list |
-| Tooltip | string | The tooltip of the list |
-| Deleted | bool | True if the list item is marked as deleted |
-| Rank | int32 | The rank of the list |
-| IsCustomList | bool | Indicates if this is a custom list or a standard list |
-| IsMDOList | bool | Indicates if this is a MDO list |
-| UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
-| ListType | string | The type of this list, often indicated by the database name, but not necessarily |
-| InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
+| Id | Integer | The identity of the list |
+| Name | String | The name of the list |
+| Tooltip | String | The tooltip of the list |
+| Deleted | Boolean | True if the list item is marked as deleted |
+| Rank | Integer | The rank of the list |
+| IsCustomList | Boolean | Indicates if this is a custom list or a standard list |
+| IsMDOList | Boolean | Indicates if this is a MDO list |
+| UseGroupsAndHeadings | Boolean | Indicates if this list should use groups and headings |
+| ListType | String | The type of this list, often indicated by the database name, but not necessarily |
+| InUseByUserDefinedFields | Boolean | True if this in use by one or more udfields |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -70,7 +69,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ListEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +83,7 @@ Response body:
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -98,15 +97,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 272,
-  "Name": "Collier-Shields",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 418,
-  "IsCustomList": false,
+  "Id": 977,
+  "Name": "Halvorson Group",
+  "Tooltip": "ducimus",
+  "Deleted": true,
+  "Rank": 262,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "laborum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -118,22 +117,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 120,
-  "Name": "Rice Inc and Sons",
-  "Tooltip": "cum",
+  "Id": 415,
+  "Name": "Pagac Group",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 401,
+  "Rank": 217,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 280
+      "FieldLength": 101
     }
   },
   "_Links": {

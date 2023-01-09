@@ -44,25 +44,24 @@ POST /api/v1/Hierarchy?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The HierarchyEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HierarchyId | int32 | The primary key (auto-incremented) |
-| Domain | string | Domain seperating the different hierarchy |
-| Name | string | Name of this hierarchy folder. |
-| Fullname | string | The full name of this category, i.e. Foo/bar/test. |
-| ParentId | int32 | Parent table |
-| Children | array | Sub-items, if any. |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
+| HierarchyId | Integer | The primary key (auto-incremented) |
+| Domain | String | Domain seperating the different hierarchy |
+| Name | String | Name of this hierarchy folder. |
+| Fullname | String | The full name of this category, i.e. Foo/bar/test. |
+| ParentId | Integer | Parent table |
+| Children | Array | Sub-items, if any. |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -70,7 +69,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: HierarchyEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +83,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -98,32 +97,32 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 931,
+  "HierarchyId": 18,
   "Domain": "Dashboards",
-  "Name": "Turner, Schowalter and Kihn",
-  "Fullname": "qui",
-  "ParentId": 813,
+  "Name": "Jacobi-Satterfield",
+  "Fullname": "laboriosam",
+  "ParentId": 251,
   "Children": [
     {
-      "HierarchyId": 557,
+      "HierarchyId": 399,
       "Domain": "Dashboards",
-      "Name": "Oberbrunner-Abbott",
-      "Fullname": "vero",
-      "ParentId": 209,
+      "Name": "Lebsack-Schmitt",
+      "Fullname": "nostrum",
+      "ParentId": 556,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-12-30T02:49:50.9952888+01:00",
-      "RegisteredAssociateId": 465,
-      "Updated": "2021-01-10T02:49:50.9952888+01:00",
-      "UpdatedAssociateId": 618
+      "Registered": "2019-12-29T17:37:38.8248598+01:00",
+      "RegisteredAssociateId": 613,
+      "Updated": "2011-06-04T17:37:38.8248598+02:00",
+      "UpdatedAssociateId": 639
     }
   ],
-  "Registered": "2000-11-20T02:49:50.9952888+01:00",
-  "RegisteredAssociateId": 266,
-  "Updated": "2017-05-18T02:49:50.9952888+02:00",
-  "UpdatedAssociateId": 858
+  "Registered": "2003-12-16T17:37:38.8248598+01:00",
+  "RegisteredAssociateId": 67,
+  "Updated": "1998-09-11T17:37:38.8248598+02:00",
+  "UpdatedAssociateId": 259
 }
 ```
 
@@ -134,51 +133,51 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 623,
+  "HierarchyId": 283,
   "Domain": "Dashboards",
-  "Name": "Auer-Gusikowski",
-  "Fullname": "voluptatem",
-  "ParentId": 134,
+  "Name": "Runolfsdottir, Spencer and Casper",
+  "Fullname": "inventore",
+  "ParentId": 392,
   "Children": [
     {
-      "HierarchyId": 518,
+      "HierarchyId": 566,
       "Domain": "Dashboards",
-      "Name": "Nienow-Daniel",
-      "Fullname": "aliquid",
-      "ParentId": 436,
+      "Name": "Schmidt, Spencer and Littel",
+      "Fullname": "voluptas",
+      "ParentId": 722,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-03-29T02:49:50.9952888+01:00",
-      "RegisteredAssociateId": 963,
-      "Updated": "2015-04-27T02:49:50.9952888+02:00",
-      "UpdatedAssociateId": 136,
+      "Registered": "2016-06-09T17:37:38.8258599+02:00",
+      "RegisteredAssociateId": 944,
+      "Updated": "2015-08-01T17:37:38.8258599+02:00",
+      "UpdatedAssociateId": 627,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 358
+          "FieldLength": 797
         }
       }
     }
   ],
-  "Registered": "2015-11-15T02:49:50.9952888+01:00",
-  "RegisteredAssociateId": 619,
-  "Updated": "2001-06-05T02:49:50.9952888+02:00",
-  "UpdatedAssociateId": 461,
+  "Registered": "1995-12-15T17:37:38.8258599+01:00",
+  "RegisteredAssociateId": 77,
+  "Updated": "2006-07-02T17:37:38.8258599+02:00",
+  "UpdatedAssociateId": 256,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 511
+      "FieldLength": 448
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

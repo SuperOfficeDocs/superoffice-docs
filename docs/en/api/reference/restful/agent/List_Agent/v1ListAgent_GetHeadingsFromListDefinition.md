@@ -42,16 +42,15 @@ POST /api/v1/Agents/List/GetHeadingsFromListDefinition?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 |  |
+| Id | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body: array
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 174
+  "Id": 782
 }
 ```
 
@@ -94,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 685,
-    "Name": "Mosciski Inc and Sons",
-    "Tooltip": "facere",
+    "HeadingId": 794,
+    "Name": "Kreiger-Satterfield",
+    "Tooltip": "nisi",
     "Deleted": true,
-    "Rank": 424,
-    "UdListDefinitionId": 136,
+    "Rank": 696,
+    "UdListDefinitionId": 989,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldType": "System.Int32",
+        "FieldLength": 413
       }
     }
   }

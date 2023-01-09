@@ -37,7 +37,7 @@ Get license information for one particular license module.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +71,7 @@ Response body:
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,20 +81,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Mayert Inc and Sons",
-  "ModuleName": "Johnson-Goodwin",
-  "ModuleDescription": "Adaptive 3rd generation instruction set",
-  "ModuleTooltip": "nostrum",
-  "ModuleVersion": "et",
+  "OwnerName": "Larson-Grant",
+  "ModuleName": "Gottlieb, Stamm and Daniel",
+  "ModuleDescription": "Intuitive zero defect productivity",
+  "ModuleTooltip": "eaque",
+  "ModuleVersion": "in",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 964,
-  "ExtraFlags": 827,
-  "ExtraInfo": "ut",
-  "SortOrder": 943,
+  "NumberOfLicenses": 775,
+  "ExtraFlags": 79,
+  "ExtraInfo": "sapiente",
+  "SortOrder": 569,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Herman, Quigley and Daugherty",
-  "Signature": "quo"
+  "PrerequisiteModuleName": "O'Kon, Bruen and Torphy",
+  "Signature": "perferendis"
 }
 ```

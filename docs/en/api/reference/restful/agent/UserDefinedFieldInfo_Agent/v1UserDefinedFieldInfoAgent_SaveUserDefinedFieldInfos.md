@@ -40,16 +40,15 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos?$select=name,
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Infos 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Infos | array |  |
+| Infos | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -57,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -66,46 +65,46 @@ Response body:
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 598,
-      "ColumnId": 914,
-      "FieldDefault": "ad",
-      "FieldHeight": 738,
-      "FieldLabel": "ut",
-      "FieldLeft": 703,
-      "FieldTop": 621,
+      "UDefFieldId": 568,
+      "ColumnId": 608,
+      "FieldDefault": "et",
+      "FieldHeight": 662,
+      "FieldLabel": "rem",
+      "FieldLeft": 62,
+      "FieldTop": 528,
       "FieldType": "Checkbox",
-      "FieldWidth": 881,
-      "FormatMask": "fugiat",
-      "HideLabel": false,
-      "IsIndexed": true,
-      "LabelHeight": 704,
-      "LabelLeft": 925,
-      "LabelTop": 176,
-      "LabelWidth": 902,
-      "LastVersionId": 869,
-      "ListTableId": 953,
+      "FieldWidth": 529,
+      "FormatMask": "incidunt",
+      "HideLabel": true,
+      "IsIndexed": false,
+      "LabelHeight": 350,
+      "LabelLeft": 533,
+      "LabelTop": 351,
+      "LabelWidth": 675,
+      "LastVersionId": 85,
+      "ListTableId": 450,
       "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 381,
-      "ProgId": "nihil",
+      "Page1LineNo": 502,
+      "ProgId": "soluta",
       "IsReadOnly": false,
-      "ShortLabel": "nisi",
-      "TabOrder": 474,
-      "TextLength": 123,
-      "Tooltip": "autem",
-      "UdefIdentity": 847,
-      "UDListDefinitionId": 933,
+      "ShortLabel": "non",
+      "TabOrder": 534,
+      "TextLength": 835,
+      "Tooltip": "repellat",
+      "UdefIdentity": 828,
+      "UDListDefinitionId": 923,
       "Justification": "Center",
-      "Version": 720,
-      "TemplateVariableName": "Jacobson, Simonis and Jaskolski",
+      "Version": 718,
+      "TemplateVariableName": "Russel Inc and Sons",
       "HasBeenPublished": false,
-      "MdoListName": "Bode, Oberbrunner and Johns"
+      "MdoListName": "Schuster Inc and Sons"
     }
   ]
 }

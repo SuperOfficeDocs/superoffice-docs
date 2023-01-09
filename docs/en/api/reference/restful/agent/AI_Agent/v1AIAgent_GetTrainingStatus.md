@@ -42,7 +42,7 @@ POST /api/v1/Agents/AI/GetTrainingStatus?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,15 +50,15 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CategorizationStatusResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContextIdentifier | string | Contextidentifier to identify customer |
 | Status | string | Determines if a training is running, finished or unavailable |
-| CurrentModel |  | Current model information |
-| PreviousModel |  | Previous model information |
-| TableRight |  |  |
+| CurrentModel | CategorizationModelDetails | Current model information |
+| PreviousModel | CategorizationModelDetails | Previous model information |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,7 +78,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ContextIdentifier": "et",
-  "Status": "eos",
+  "Status": "molestiae",
   "CurrentModel": null,
   "PreviousModel": null,
   "TableRight": null,
@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 789
     }
   }
 }

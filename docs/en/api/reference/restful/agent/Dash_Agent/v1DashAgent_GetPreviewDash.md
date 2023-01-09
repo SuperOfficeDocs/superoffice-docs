@@ -42,16 +42,15 @@ POST /api/v1/Agents/Dash/GetPreviewDash?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DashboardId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardId | int32 |  |
+| DashboardId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreviewDash
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body:
 | OwnedByFullName | string | Full name of dashboard owner |
 | Registered | date-time | Registered when  in UTC. |
 | Tiles | array | Dashboard tiles |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,7 +80,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 660
+  "DashboardId": 734
 }
 ```
 
@@ -92,32 +91,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kohler, Daugherty and Waters",
-  "Description": "Object-based intangible time-frame",
-  "OwnedByFullName": "Jaida Crona PhD",
-  "Registered": "1999-11-01T02:49:44.0597588+01:00",
+  "Name": "Frami-Veum",
+  "Description": "Open-source multi-state firmware",
+  "OwnedByFullName": "Maryjane McGlynn",
+  "Registered": "2004-08-07T17:37:17.3882428+02:00",
   "Tiles": [
     {
-      "Name": "Schmidt, Conroy and Trantow",
+      "Name": "Altenwerth Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 221
+          "FieldLength": 183
         }
       }
     },
     {
-      "Name": "Schmidt, Conroy and Trantow",
+      "Name": "Altenwerth Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 221
+          "FieldLength": 183
         }
       }
     }
@@ -127,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldLength": 559
     }
   }
 }

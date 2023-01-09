@@ -26,7 +26,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=ab
+GET /api/v1/List/ConsentSource/MDOItems?query=soluta
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/ConsentSource/MDOItems?query=ab
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "Wyman, Wolff and Gutmann",
-    "ToolTip": "Esse corporis dignissimos aliquid rerum mollitia laudantium voluptate.",
-    "Deleted": true,
-    "Rank": 260,
-    "Type": "voluptate",
+    "Id": 349,
+    "Name": "Prohaska, Schmidt and Keebler",
+    "ToolTip": "Rerum ut et expedita qui nemo.",
+    "Deleted": false,
+    "Rank": 270,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 265,
-        "Name": "Crist-Bins",
-        "ToolTip": "Nulla aut earum.",
-        "Deleted": true,
-        "Rank": 570,
-        "Type": "quod",
+        "Id": 31,
+        "Name": "Swift Inc and Sons",
+        "ToolTip": "Cupiditate quia et minus ea eos.",
+        "Deleted": false,
+        "Rank": 893,
+        "Type": "libero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 942,
-        "ExtraInfo": "provident",
-        "StyleHint": "veniam",
-        "FullName": "Drake Swift",
+        "IconHint": "eveniet",
+        "ColorBlock": 410,
+        "ExtraInfo": "inventore",
+        "StyleHint": "sunt",
+        "FullName": "Robyn Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 796
+            "FieldLength": 62
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 653,
-    "ExtraInfo": "qui",
-    "StyleHint": "vel",
-    "FullName": "Bonnie Bayer",
+    "IconHint": "voluptatem",
+    "ColorBlock": 23,
+    "ExtraInfo": "nisi",
+    "StyleHint": "enim",
+    "FullName": "Delmer Jeremie Skiles PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldLength": 923
       }
     }
   }

@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/SaveAllFromListName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionName, Items 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionName | string |  |
-| Items | array |  |
+| UdListDefinitionName | String |  |
+| Items | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body: array
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,23 +82,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Collier Group",
+  "UdListDefinitionName": "Nicolas Inc and Sons",
   "Items": [
     {
-      "Id": 874,
-      "Name": "Fahey, Bartoletti and Leannon",
-      "Tooltip": "non",
-      "Deleted": true,
-      "UdListDefinitionId": 425,
-      "Rank": 620
+      "Id": 829,
+      "Name": "O'Kon, Connelly and Johns",
+      "Tooltip": "excepturi",
+      "Deleted": false,
+      "UdListDefinitionId": 13,
+      "Rank": 835
     },
     {
-      "Id": 874,
-      "Name": "Fahey, Bartoletti and Leannon",
-      "Tooltip": "non",
-      "Deleted": true,
-      "UdListDefinitionId": 425,
-      "Rank": 620
+      "Id": 829,
+      "Name": "O'Kon, Connelly and Johns",
+      "Tooltip": "excepturi",
+      "Deleted": false,
+      "UdListDefinitionId": 13,
+      "Rank": 835
     }
   ]
 }
@@ -113,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Sanford, Fay and Stamm",
-    "Tooltip": "quas",
-    "Deleted": false,
-    "UdListDefinitionId": 41,
-    "Rank": 891,
+    "Id": 39,
+    "Name": "Turner-Turcotte",
+    "Tooltip": "magnam",
+    "Deleted": true,
+    "UdListDefinitionId": 738,
+    "Rank": 196,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 919
+        "FieldType": "System.Int32",
+        "FieldLength": 985
       }
     }
   }

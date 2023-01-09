@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,13 +42,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 | Primary key |
-| UpdatedBy |  | The person that last updated the appointment. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | Attention | string | Attention/salutation |
 | Header | string | Visible document name |
 | Name | string | File name |
@@ -57,11 +57,11 @@ Response body:
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| DocumentTemplate |  | The template type of the document.  <para>Use MDO List name "doctmpl" to get list items.</para> |
-| Person |  | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
-| Associate |  | The owner of the document - the associate whose checklist the document is in.  <para>Use MDO List name "associate" to get list items.</para> |
-| Contact |  | The contact associated with the document. It may also be null if no contact is associated with the document.  <para>Use MDO List name "contact" to get list items.</para> |
-| Project |  | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| DocumentTemplate | DocumentTemplate | The template type of the document.  <para>Use MDO List name "doctmpl" to get list items.</para> |
+| Person | Person | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
+| Associate | Associate | The owner of the document - the associate whose checklist the document is in.  <para>Use MDO List name "associate" to get list items.</para> |
+| Contact | Contact | The contact associated with the document. It may also be null if no contact is associated with the document.  <para>Use MDO List name "contact" to get list items.</para> |
+| Project | Project | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
 | Date | date-time | date + start time planned |
 | ExternalRef | string | External reference for document plugin to resolve document identity (Notes ID, e-mail message ID, whatever) |
 | Completed | string | Document Completed state. This is the part of the Status property. |
@@ -69,7 +69,7 @@ Response body:
 | Type | string | Is this a normal document or a mail-merge or report? |
 | Links | array | List of all elements linked to the document. |
 | LockSemantics | string |  |
-| Sale |  | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <para>Use MDO List name "sale" to get list items.</para> |
+| Sale | Sale | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedDocumentId | int32 | Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link) |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.DocumentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -80,7 +80,7 @@ Response body:
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -99,88 +99,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 41,
+  "DocumentId": 297,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ad",
-  "Header": "non",
-  "Name": "Crona Group",
-  "OurRef": "qui",
-  "YourRef": "fuga",
-  "CreatedDate": "1997-09-04T02:49:44.1066348+02:00",
-  "UpdatedDate": "2022-11-15T02:49:44.1066348+01:00",
-  "Description": "Decentralized composite time-frame",
+  "Attention": "nemo",
+  "Header": "vel",
+  "Name": "Schulist, Schulist and McCullough",
+  "OurRef": "amet",
+  "YourRef": "neque",
+  "CreatedDate": "2021-01-07T17:37:17.4542413+01:00",
+  "UpdatedDate": "2017-10-04T17:37:17.4542413+02:00",
+  "Description": "Open-architected static approach",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-11-20T02:49:44.1066348+01:00",
-  "ExternalRef": "soluta",
+  "Date": "2018-09-06T17:37:17.4582462+02:00",
+  "ExternalRef": "cum",
   "Completed": "Completed",
-  "ActiveLinks": 916,
+  "ActiveLinks": 191,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hegmann LLC",
-      "Id": 67,
-      "Description": "Balanced 24/7 service-desk",
-      "ExtraInfo": "nihil",
-      "LinkId": 381,
+      "EntityName": "Kohler Group",
+      "Id": 258,
+      "Description": "User-friendly static emulation",
+      "ExtraInfo": "amet",
+      "LinkId": 641,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldType": "System.String",
+          "FieldLength": 571
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 766,
-  "Snum": 369,
+  "SuggestedDocumentId": 97,
+  "Snum": 550,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Dwight Champlin"
+    "SuperOffice:1": "Lazaro Abernathy",
+    "SuperOffice:2": "Hilario Batz"
   },
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "hic"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "tenetur"
   },
   "CustomFields": {
-    "CustomFields1": "reiciendis",
-    "CustomFields2": "ut"
+    "CustomFields1": "possimus",
+    "CustomFields2": "labore"
   },
-  "PublishEventDate": "1997-12-10T02:49:44.1066348+01:00",
-  "PublishTo": "2011-01-11T02:49:44.1066348+01:00",
-  "PublishFrom": "2002-04-17T02:49:44.1066348+02:00",
+  "PublishEventDate": "2013-04-01T17:37:17.4592451+02:00",
+  "PublishTo": "2001-09-12T17:37:17.4592451+02:00",
+  "PublishFrom": "1999-11-11T17:37:17.4592451+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 909,
+      "VisibleId": 633,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldType": "System.String",
+          "FieldLength": 128
         }
       }
     },
     {
-      "VisibleId": 909,
+      "VisibleId": 633,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldType": "System.String",
+          "FieldLength": 128
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldLength": 892
     }
   }
 }

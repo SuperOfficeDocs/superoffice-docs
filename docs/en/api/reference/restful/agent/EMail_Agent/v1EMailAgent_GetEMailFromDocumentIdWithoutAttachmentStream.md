@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Get an e-mail based on an archived document
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
+| DocumentId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +69,7 @@ Response body:
 | Bcc | array | Bcc recipient of e-mail |
 | Subject | string | Subject of the e-mail |
 | HTMLBody | string | Body formatted in HTML |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | Sent | date-time | When was the e-mail sent |
 | Size | int32 | Total size of the e-mail |
 | Priority | string | Importance of the e-mail |
@@ -80,7 +77,7 @@ Response body:
 | MessageID | string | Unique id of e-mails |
 | PlainBody | string | Body formatted in plain text |
 | IsSent | bool | Is this a sent e-mail (not new) |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
 | ServerId | int32 | Unique id for the e-mail on the server |
 | Attachments | array |  |
 | CustomHeaderList | array | Non standard e-mail headers |
@@ -88,12 +85,12 @@ Response body:
 | EmailItemId | int32 | Primary key |
 | AccountId | int32 | Account Id |
 | ReceivedAt | date-time | Received date time |
-| InReplyTo |  | The envelope of the email this email is a reply to, if it exists |
+| InReplyTo | EMailEnvelope | The envelope of the email this email is a reply to, if it exists |
 | RepliedAt | date-time | When this email was replied at |
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,11 +99,11 @@ Response body:
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 271
+  "DocumentId": 343
 }
 ```
 
@@ -119,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 283,
-      "ContactName": "Rowe-Kilback",
-      "PersonId": 256,
-      "PersonName": "Franecki LLC",
-      "AssociateId": 6,
-      "Address": "fuga",
-      "EmailId": 863,
+      "ContactId": 703,
+      "ContactName": "Kozey, Robel and Blick",
+      "PersonId": 527,
+      "PersonName": "Grady, Jacobi and Mante",
+      "AssociateId": 60,
+      "Address": "cupiditate",
+      "EmailId": 640,
       "DuplicatePersonIds": [
-        183,
-        692
+        732,
+        383
       ],
-      "Name": "Zieme LLC",
+      "Name": "Sporer-Powlowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 24
+          "FieldType": "System.Int32",
+          "FieldLength": 373
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 790,
-      "ContactName": "Walsh, Yost and Reilly",
-      "PersonId": 385,
-      "PersonName": "Flatley, Hyatt and Sporer",
-      "AssociateId": 447,
-      "Address": "fuga",
-      "EmailId": 1000,
+      "ContactId": 211,
+      "ContactName": "Nader Inc and Sons",
+      "PersonId": 863,
+      "PersonName": "Nader-Emmerich",
+      "AssociateId": 868,
+      "Address": "eaque",
+      "EmailId": 838,
       "DuplicatePersonIds": [
-        302,
-        373
+        791,
+        211
       ],
-      "Name": "McLaughlin, Howell and Kassulke",
+      "Name": "Abbott LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 723
+          "FieldType": "System.Int32",
+          "FieldLength": 471
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 415,
-      "ContactName": "Koepp, Grant and Borer",
-      "PersonId": 916,
-      "PersonName": "Quigley Group",
-      "AssociateId": 831,
-      "Address": "assumenda",
-      "EmailId": 138,
+      "ContactId": 908,
+      "ContactName": "Weimann Group",
+      "PersonId": 222,
+      "PersonName": "Bosco, Grady and Hermiston",
+      "AssociateId": 315,
+      "Address": "blanditiis",
+      "EmailId": 567,
       "DuplicatePersonIds": [
-        236,
-        594
+        706,
+        214
       ],
-      "Name": "Gleichner Inc and Sons",
+      "Name": "Terry Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 480
+          "FieldType": "System.String",
+          "FieldLength": 373
         }
       }
     }
   ],
-  "Subject": "nesciunt",
-  "HTMLBody": "saepe",
+  "Subject": "eos",
+  "HTMLBody": "pariatur",
   "From": null,
-  "Sent": "2009-01-20T02:49:44.3878864+01:00",
-  "Size": 492,
+  "Sent": "1998-07-31T17:37:17.8852406+02:00",
+  "Size": 105,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "animi",
-  "PlainBody": "vero",
+  "MessageID": "libero",
+  "PlainBody": "dolores",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 382,
+  "ServerId": 606,
   "Attachments": [
     {
-      "Description": "Advanced explicit standardization",
-      "Filename": "ipsa",
-      "Size": 605,
-      "Type": "et",
-      "Encoding": "minus",
-      "Id": "saepe",
-      "Disposition": "omnis",
+      "Description": "Profound value-added secured line",
+      "Filename": "amet",
+      "Size": 271,
+      "Type": "cupiditate",
+      "Encoding": "dolor",
+      "Id": "tempore",
+      "Disposition": "tempora",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 701
+          "FieldLength": 818
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bahringer, Franecki and Wolff",
+      "Name": "Hessel, Dicki and Corwin",
       "Values": [
-        "totam",
-        "autem"
+        "sit",
+        "expedita"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldType": "System.String",
+          "FieldLength": 754
         }
       }
     },
     {
-      "Name": "Bahringer, Franecki and Wolff",
+      "Name": "Hessel, Dicki and Corwin",
       "Values": [
-        "totam",
-        "autem"
+        "sit",
+        "expedita"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldType": "System.String",
+          "FieldLength": 754
         }
       }
     }
   ],
-  "FolderName": "Wolff, Kemmer and Lynch",
-  "EmailItemId": 76,
-  "AccountId": 991,
-  "ReceivedAt": "2006-11-06T02:49:44.3878864+01:00",
+  "FolderName": "Pollich LLC",
+  "EmailItemId": 607,
+  "AccountId": 822,
+  "ReceivedAt": "2022-02-04T17:37:17.8862416+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-07-22T02:49:44.3878864+02:00",
+  "RepliedAt": "2015-07-06T17:37:17.8862416+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,8 +263,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldType": "System.String",
+      "FieldLength": 743
     }
   }
 }

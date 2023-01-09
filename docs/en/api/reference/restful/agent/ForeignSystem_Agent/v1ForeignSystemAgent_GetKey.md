@@ -44,20 +44,19 @@ POST /api/v1/Agents/ForeignSystem/GetKey?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, KeyName, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| KeyName | string |  |
-| TableName | string |  |
-| RecordId | int32 |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| KeyName | String |  |
+| TableName | String |  |
+| RecordId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +76,7 @@ Response body:
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,15 +85,15 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gusikowski Group",
-  "DeviceName": "Doyle, Leannon and Lang",
-  "KeyName": "Howe-Luettgen",
-  "TableName": "Koepp LLC",
-  "RecordId": 911
+  "ApplicationName": "Murphy-Daugherty",
+  "DeviceName": "Feeney-Witting",
+  "KeyName": "Zulauf, Swaniawski and Stiedemann",
+  "TableName": "Lueilwitz Group",
+  "RecordId": 360
 }
 ```
 
@@ -105,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "et",
-  "RecordId": 161,
-  "CreatedDate": "2006-11-10T02:49:44.5454229+01:00",
-  "UpdatedDate": "2005-04-15T02:49:44.5454229+02:00",
-  "UpdatedBy": "deserunt",
-  "CreatedBy": "harum",
-  "TableName": "Larson, Feeney and Wiza",
+  "Key": "ab",
+  "Value": "nemo",
+  "RecordId": 211,
+  "CreatedDate": "2022-09-28T17:37:18.1042433+02:00",
+  "UpdatedDate": "2016-12-18T17:37:18.1042433+01:00",
+  "UpdatedBy": "architecto",
+  "CreatedBy": "provident",
+  "TableName": "Hahn Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldType": "System.String",
+      "FieldLength": 915
     }
   }
 }

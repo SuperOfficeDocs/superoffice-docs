@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/GetQuoteVersion?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
+| QuoteVersionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteVersion
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,7 +101,7 @@ Response body:
 | RequestAssociateId | int32 | User to whom the request proposal should be delivered |
 | RequestComment | string | Comment for why quote should be approved |
 | QuoteAlternatives | array | The QuoteAlternatives for the QuoteVersion |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -111,11 +110,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 732
+  "QuoteVersionId": 589
 }
 ```
 
@@ -126,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 990,
-  "ERPQuoteVersionKey": "rem",
-  "QuoteId": 116,
-  "Description": "Customizable coherent service-desk",
-  "Number": "989507",
+  "QuoteVersionId": 867,
+  "ERPQuoteVersionKey": "aut",
+  "QuoteId": 809,
+  "Description": "Cross-platform client-server data-warehouse",
+  "Number": "1558010",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 108,
-  "SentDate": "1997-05-15T02:49:44.9997158+02:00",
-  "FollowupId": 312,
-  "ExpirationDate": "2018-02-10T02:49:44.9997158+01:00",
-  "DeliveryCountryId": 696,
+  "LikelyQuoteAlternativeId": 968,
+  "SentDate": "2000-01-20T17:37:18.6912417+01:00",
+  "FollowupId": 16,
+  "ExpirationDate": "2000-05-03T17:37:18.6912417+02:00",
+  "DeliveryCountryId": 251,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 635,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "quisquam",
-  "ERPPaymentTypeKey": "est",
-  "ERPDeliveryTermsKey": "et",
-  "ERPDeliveryTypeKey": "aut",
-  "Rank": 194,
-  "ApprovedBy": 473,
-  "ApprovedText": "ullam",
-  "ApprovedRegisteredBy": 769,
-  "ApprovedRegisteredDate": "2022-02-12T02:49:44.9997158+01:00",
-  "ExtraField1": "tempora",
-  "ExtraField2": "odit",
-  "ExtraField3": "quidem",
+  "InvoiceCountryId": 663,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "iure",
+  "ERPPaymentTypeKey": "ea",
+  "ERPDeliveryTermsKey": "itaque",
+  "ERPDeliveryTypeKey": "enim",
+  "Rank": 816,
+  "ApprovedBy": 130,
+  "ApprovedText": "eveniet",
+  "ApprovedRegisteredBy": 631,
+  "ApprovedRegisteredDate": "1997-02-04T17:37:18.6912417+01:00",
+  "ExtraField1": "hic",
+  "ExtraField2": "deleniti",
+  "ExtraField3": "blanditiis",
   "ExtraField4": "voluptas",
-  "ExtraField5": "ea",
-  "LastRecalculated": "2000-12-23T02:49:44.9997158+01:00",
-  "Updated": "2010-07-13T02:49:44.9997158+02:00",
-  "UpdatedAssociateId": 71,
-  "Registered": "2019-05-25T02:49:44.9997158+02:00",
-  "RegisteredAssociateId": 456,
-  "RequestAssociateId": 1001,
-  "RequestComment": "aliquid",
+  "ExtraField5": "cum",
+  "LastRecalculated": "2015-10-18T17:37:18.6922415+02:00",
+  "Updated": "2004-06-14T17:37:18.6922415+02:00",
+  "UpdatedAssociateId": 93,
+  "Registered": "2006-01-03T17:37:18.6922415+01:00",
+  "RegisteredAssociateId": 848,
+  "RequestAssociateId": 546,
+  "RequestComment": "exercitationem",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 242,
-      "ERPQuoteAlternativeKey": "velit",
-      "QuoteVersionId": 565,
-      "Name": "Feest, Ortiz and Bayer",
-      "Description": "Grass-roots next generation Graphic Interface",
+      "QuoteAlternativeId": 778,
+      "ERPQuoteAlternativeKey": "eum",
+      "QuoteVersionId": 337,
+      "Name": "Fritsch, Wolff and Cremin",
+      "Description": "Synergistic solution-oriented focus group",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 4951.72,
-      "ERPDiscountAmount": 14391.328,
-      "DiscountPercent": 9549.2979999999989,
-      "DiscountAmount": 13977.64,
+      "ERPDiscountPercent": 14234.627999999999,
+      "ERPDiscountAmount": 16456.634,
+      "DiscountPercent": 7606.218,
+      "DiscountAmount": 8809.6739999999991,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "officiis",
-      "VAT": 28390.906,
-      "EarningPercent": 6584.534,
-      "EarningAmount": 5603.592,
-      "SubTotal": 24971.712,
-      "TotalPrice": 17493.988,
-      "ExtraField1": "et",
-      "ExtraField2": "quidem",
-      "ExtraField3": "quaerat",
-      "ExtraField4": "quia",
-      "ExtraField5": "accusantium",
+      "VATInfo": "ut",
+      "VAT": 15171.694,
+      "EarningPercent": 9110.538,
+      "EarningAmount": 28519.399999999998,
+      "SubTotal": 8091.9879999999994,
+      "TotalPrice": 341.606,
+      "ExtraField1": "quos",
+      "ExtraField2": "enim",
+      "ExtraField3": "dicta",
+      "ExtraField4": "eum",
+      "ExtraField5": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 948
+          "FieldLength": 635
         }
       }
     }
@@ -204,7 +203,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldLength": 868
     }
   }
 }

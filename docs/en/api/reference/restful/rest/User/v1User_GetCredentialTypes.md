@@ -12,8 +12,6 @@ GET /api/v1/User/CredentialTypes
 Get available credential types that can be used for authentication
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -36,7 +34,7 @@ Get available credential types that can be used for authentication
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -44,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +52,7 @@ Response body: array
 | ValueControl | string | Type of control used to display the value. |
 | CanCreatePerson | bool |  |
 | IsUserNameSupported | bool |  |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "nemo",
-    "Type": "enim",
-    "Description": "Focused uniform time-frame",
+    "DisplayType": "a",
+    "Type": "alias",
+    "Description": "Focused multi-tasking internet solution",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
+    "CanCreatePerson": false,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 273
+        "FieldLength": 267
       }
     }
   }

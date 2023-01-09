@@ -44,17 +44,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel?$sele
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 FieldLabel, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| FieldLabel | string |  |
-| OwnerType | string |  |
+| FieldLabel | String |  |
+| OwnerType | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,7 +99,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -113,7 +112,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "numquam",
+  "FieldLabel": "officiis",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 982,
-  "ColumnId": 650,
-  "FieldDefault": "eos",
-  "FieldHeight": 247,
-  "FieldLabel": "amet",
-  "FieldLeft": 842,
-  "FieldTop": 568,
+  "UDefFieldId": 471,
+  "ColumnId": 850,
+  "FieldDefault": "iure",
+  "FieldHeight": 504,
+  "FieldLabel": "qui",
+  "FieldLeft": 522,
+  "FieldTop": 127,
   "FieldType": "Checkbox",
-  "FieldWidth": 999,
-  "FormatMask": "dicta",
-  "HideLabel": true,
+  "FieldWidth": 596,
+  "FormatMask": "nulla",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 799,
-  "LabelLeft": 479,
-  "LabelTop": 403,
-  "LabelWidth": 142,
-  "LastVersionId": 439,
-  "ListTableId": 501,
+  "LabelHeight": 287,
+  "LabelLeft": 775,
+  "LabelTop": 728,
+  "LabelWidth": 379,
+  "LastVersionId": 611,
+  "ListTableId": 785,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 924,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "deleniti",
-  "TabOrder": 865,
-  "TextLength": 604,
-  "Tooltip": "quis",
-  "UdefIdentity": 677,
-  "UDListDefinitionId": 183,
+  "Page1LineNo": 155,
+  "ProgId": "nulla",
+  "IsReadOnly": false,
+  "ShortLabel": "fugiat",
+  "TabOrder": 768,
+  "TextLength": 887,
+  "Tooltip": "fugiat",
+  "UdefIdentity": 284,
+  "UDListDefinitionId": 975,
   "Justification": "Center",
-  "Version": 469,
-  "TemplateVariableName": "Gottlieb-Marks",
+  "Version": 509,
+  "TemplateVariableName": "Rosenbaum, Hills and Lubowitz",
   "HasBeenPublished": false,
-  "MdoListName": "Walsh-Mills",
+  "MdoListName": "Trantow-Volkman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 790
+      "FieldType": "System.Int32",
+      "FieldLength": 488
     }
   }
 }

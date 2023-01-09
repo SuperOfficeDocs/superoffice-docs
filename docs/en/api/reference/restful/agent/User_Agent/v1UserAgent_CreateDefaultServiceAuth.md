@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ServiceAuth
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +55,7 @@ Response body:
 | AuthType | string | The type of authentication, plain-text, OAuth... |
 | Username | string | The username |
 | Password | string | The (decrypted) password or token |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -64,7 +64,7 @@ Response body:
 POST /api/v1/Agents/User/CreateDefaultServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 535,
-  "Server": "eligendi",
-  "Port": 388,
-  "AuthType": "a",
-  "Username": "voluptatibus",
-  "Password": "velit",
+  "ServiceAuthId": 361,
+  "Server": "provident",
+  "Port": 411,
+  "AuthType": "voluptatem",
+  "Username": "reprehenderit",
+  "Password": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldType": "System.Int32",
+      "FieldLength": 344
     }
   }
 }

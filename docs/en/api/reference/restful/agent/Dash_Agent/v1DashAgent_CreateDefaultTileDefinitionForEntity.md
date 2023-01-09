@@ -42,16 +42,15 @@ POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EntityName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EntityName | string |  |
+| EntityName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTileDefinition
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +81,7 @@ Response body:
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Runolfsson, Watsica and O'Connell"
+  "EntityName": "Orn, Farrell and Durgan"
 }
 ```
 
@@ -106,31 +105,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 292,
-  "Name": "Block LLC",
-  "Description": "Managed encompassing leverage",
-  "DefaultHeight": 320,
-  "DefaultWidth": 570,
+  "DashboardTileDefinitionId": 952,
+  "Name": "Mertz-Stoltenberg",
+  "Description": "Polarised responsive knowledge user",
+  "DefaultHeight": 254,
+  "DefaultWidth": 850,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Carroll, Marquardt and Mueller",
-  "SelectionId": 4,
+  "EntityName": "Morissette, Stamm and Zulauf",
+  "SelectionId": 143,
   "CurrencyMode": "Base",
-  "CurrencyCode": "consequatur",
+  "CurrencyCode": "repellat",
   "Measure": "Average",
-  "MeasureField": "laudantium",
-  "SortBy": "consequatur",
-  "LayoutConfig": "laborum",
-  "SecondarySelectionId": 277,
-  "MeasureByField": "blanditiis",
+  "MeasureField": "quia",
+  "SortBy": "sunt",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 874,
+  "MeasureByField": "omnis",
   "Usage": "Dashboard",
-  "ProviderName": "Wyman, Lindgren and Pfannerstill",
+  "ProviderName": "Eichmann LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldType": "System.String",
+      "FieldLength": 255
     }
   }
 }

@@ -38,16 +38,15 @@ POST /api/v1/Agents/Ticket/DeleteTicketMessageEntity?$select=name,department,cat
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TicketMessageEntityId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketMessageEntityId | int32 |  |
+| TicketMessageEntityId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -55,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -64,11 +63,11 @@ Response body:
 POST /api/v1/Agents/Ticket/DeleteTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 316
+  "TicketMessageEntityId": 416
 }
 ```
 

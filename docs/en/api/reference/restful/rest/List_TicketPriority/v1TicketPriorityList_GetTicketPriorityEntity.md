@@ -38,7 +38,7 @@ Calls the List agent service GetTicketPriorityEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -47,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: TicketPriorityEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +79,7 @@ Response body:
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,7 +88,7 @@ Response body:
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,60 +98,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 882,
-  "Name": "Gutkowski-Green",
+  "TicketPriorityId": 650,
+  "Name": "Stoltenberg-Ward",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 572,
+  "SortOrder": 993,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 525,
-  "MonStart": "2009-04-25T02:49:52.5784525+02:00",
-  "MonStop": "2004-09-02T02:49:52.5784525+02:00",
-  "TueStart": "2021-12-27T02:49:52.5784525+01:00",
-  "TueStop": "2003-12-20T02:49:52.5784525+01:00",
-  "WedStart": "2001-07-06T02:49:52.5784525+02:00",
-  "WedStop": "2003-10-05T02:49:52.5784525+02:00",
-  "ThuStart": "2016-04-28T02:49:52.5784525+02:00",
-  "ThuStop": "2010-10-05T02:49:52.5784525+02:00",
-  "FriStart": "2013-03-29T02:49:52.5784525+01:00",
-  "FriStop": "2009-04-25T02:49:52.5784525+02:00",
-  "SatStart": "2011-03-25T02:49:52.5784525+01:00",
-  "SatStop": "2017-04-12T02:49:52.5784525+02:00",
-  "SunStart": "2018-01-06T02:49:52.5784525+01:00",
-  "SunStop": "1997-05-30T02:49:52.5784525+02:00",
+  "Deadline": 623,
+  "MonStart": "2022-06-18T17:37:40.4185007+02:00",
+  "MonStop": "2010-10-30T17:37:40.4185007+02:00",
+  "TueStart": "1999-01-20T17:37:40.4185007+01:00",
+  "TueStop": "2004-04-24T17:37:40.4185007+02:00",
+  "WedStart": "2014-08-25T17:37:40.4185007+02:00",
+  "WedStop": "2006-02-03T17:37:40.4185007+01:00",
+  "ThuStart": "2008-01-23T17:37:40.4185007+01:00",
+  "ThuStop": "2015-01-30T17:37:40.4185007+01:00",
+  "FriStart": "2013-02-03T17:37:40.4185007+01:00",
+  "FriStop": "1999-07-01T17:37:40.4185007+02:00",
+  "SatStart": "2022-10-17T17:37:40.4185007+02:00",
+  "SatStop": "2009-09-07T17:37:40.4185007+02:00",
+  "SunStart": "2002-11-14T17:37:40.4185007+01:00",
+  "SunStop": "2001-06-06T17:37:40.4185007+02:00",
   "NonDates": [
-    "et",
-    "et"
+    "quidem",
+    "vero"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 930,
-      "AlertLevel": 675,
-      "AlertTimeout": 193,
-      "Action": 857,
-      "DelegateTo": 302,
-      "ScriptId": 565,
-      "EmailTo": "cindy@cronasmith.uk",
-      "SmsTo": "excepturi",
-      "ReplyTemplateIdCustomer": 303,
-      "ReplyTemplateIdUser": 792,
-      "ReplyTemplateIdCatmast": 304,
-      "ReplyTemplateIdEmail": 494,
-      "RtiCustomerSms": 193,
-      "ReplyTemplateIdUserSms": 927,
-      "ReplyTemplateIdCatmastSms": 778,
-      "ReplyTemplateIdSms": 479,
+      "TicketAlertId": 26,
+      "AlertLevel": 93,
+      "AlertTimeout": 505,
+      "Action": 164,
+      "DelegateTo": 836,
+      "ScriptId": 733,
+      "EmailTo": "roel.cartwright@funk.co.uk",
+      "SmsTo": "vel",
+      "ReplyTemplateIdCustomer": 536,
+      "ReplyTemplateIdUser": 717,
+      "ReplyTemplateIdCatmast": 676,
+      "ReplyTemplateIdEmail": 274,
+      "RtiCustomerSms": 129,
+      "ReplyTemplateIdUserSms": 379,
+      "ReplyTemplateIdCatmastSms": 403,
+      "ReplyTemplateIdSms": 575,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldLength": 709
         }
       }
     }
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 834
+      "FieldLength": 867
     }
   }
 }

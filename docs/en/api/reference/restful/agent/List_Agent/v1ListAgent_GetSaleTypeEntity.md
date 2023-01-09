@@ -25,7 +25,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=30
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=584
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaleTypeEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +78,7 @@ Response body:
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +87,7 @@ Response body:
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,53 +97,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 426,
-  "Name": "Emmerich Inc and Sons",
-  "Tooltip": "et",
-  "Rank": 111,
+  "SaleTypeId": 739,
+  "Name": "Douglas-Nitzsche",
+  "Tooltip": "rerum",
+  "Rank": 225,
   "DurationUnit": "Century",
-  "SaleDuration": 446,
-  "SaleTypeCatId": 882,
-  "Deleted": true,
+  "SaleDuration": 268,
+  "SaleTypeCatId": 43,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 975,
-  "QuoteLinesTemplate": 59,
-  "ConfirmationLinesTemplate": 715,
+  "DefaultQuoteValidity": 374,
+  "QuoteLinesTemplate": 231,
+  "ConfirmationLinesTemplate": 641,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 676,
-  "MinEarningPercent": 781,
-  "GroupQuoteLinesBy": 83,
-  "SortGroupLinesBy": 831,
+  "MaxDiscountPercent": 663,
+  "MinEarningPercent": 97,
+  "GroupQuoteLinesBy": 213,
+  "SortGroupLinesBy": 605,
   "Stages": [
     {
-      "Id": 141,
-      "Name": "Gusikowski-Sanford",
-      "ToolTip": "Voluptatibus impedit ipsam vel cupiditate aliquid et asperiores.",
+      "Id": 678,
+      "Name": "Tillman LLC",
+      "ToolTip": "Ducimus illum at dolores blanditiis.",
       "Deleted": false,
-      "Rank": 425,
-      "Type": "ea",
-      "ColorBlock": 52,
-      "IconHint": "aliquam",
+      "Rank": 219,
+      "Type": "officia",
+      "ColorBlock": 992,
+      "IconHint": "sequi",
       "Selected": true,
-      "LastChanged": "1996-02-24T02:49:44.6079219+01:00",
+      "LastChanged": "2017-02-02T17:37:18.1802416+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquid",
-      "StyleHint": "fugiat",
+      "ExtraInfo": "voluptatibus",
+      "StyleHint": "aspernatur",
       "Hidden": false,
-      "FullName": "Vance Collier",
+      "FullName": "Lester Johns",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 12
+          "FieldType": "System.Int32",
+          "FieldLength": 105
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldType": "System.String",
+      "FieldLength": 984
     }
   }
 }

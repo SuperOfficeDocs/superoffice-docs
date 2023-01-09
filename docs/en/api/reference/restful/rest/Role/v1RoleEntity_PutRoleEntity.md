@@ -12,8 +12,6 @@ PUT /api/v1/Role/{id}
 Updates the existing RoleEntity
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -50,27 +48,26 @@ PUT /api/v1/Role/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The RoleEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RoleId | int32 | Primary key |
-| Name | string | Visible role name |
-| Tooltip | string | Description of the role. |
-| RoleType | string | The role type. Note that changing this field has no effect, so treat this as a read-only field. |
-| Deleted | int32 | 1 if role has been deleted (we do not actually delete) |
-| Rank | int32 | Sorting rank of this role in lists |
-| Created | date-time | Registered when  in UTC. |
-| UseCategories | int32 | Apply role category membership to users |
-| CreatedBy |  | Created by user |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Last updated by user |
-| DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
+| RoleId | Integer | Primary key |
+| Name | String | Visible role name |
+| Tooltip | String | Description of the role. |
+| RoleType | String | The role type. Note that changing this field has no effect, so treat this as a read-only field. |
+| Deleted | Integer | 1 if role has been deleted (we do not actually delete) |
+| Rank | Integer | Sorting rank of this role in lists |
+| Created | String | Registered when  in UTC. |
+| UseCategories | Integer | Apply role category membership to users |
+| CreatedBy | Associate | Created by user |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedBy | Associate | Last updated by user |
+| DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
 
-
-## Response: 
+## Response:
 
 RoleEntity updated.
 
@@ -79,7 +76,7 @@ RoleEntity updated.
 | 200 | RoleEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: RoleEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,11 +88,11 @@ Response body:
 | Rank | int32 | Sorting rank of this role in lists |
 | Created | date-time | Registered when  in UTC. |
 | UseCategories | int32 | Apply role category membership to users |
-| CreatedBy |  | Created by user |
+| CreatedBy | Associate | Created by user |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Last updated by user |
-| DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight |  |  |
+| UpdatedBy | Associate | Last updated by user |
+| DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -105,20 +102,20 @@ Response body:
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 910,
-  "Name": "Mann-Crona",
-  "Tooltip": "perspiciatis",
+  "RoleId": 764,
+  "Name": "O'Keefe, Wyman and Legros",
+  "Tooltip": "eos",
   "RoleType": "Anonymous",
-  "Deleted": 471,
-  "Rank": 247,
-  "Created": "2020-03-29T02:49:51.3859386+01:00",
-  "UseCategories": 534,
+  "Deleted": 95,
+  "Rank": 270,
+  "Created": "1999-11-30T17:37:39.0493035+01:00",
+  "UseCategories": 648,
   "CreatedBy": null,
-  "Updated": "2022-05-08T02:49:51.3859386+02:00",
+  "Updated": "1998-09-08T17:37:39.0493035+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -131,24 +128,24 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 462,
-  "Name": "Mayer-Cummings",
-  "Tooltip": "autem",
+  "RoleId": 179,
+  "Name": "Hauck Group",
+  "Tooltip": "praesentium",
   "RoleType": "Anonymous",
-  "Deleted": 919,
-  "Rank": 594,
-  "Created": "2009-05-16T02:49:51.3859386+02:00",
-  "UseCategories": 313,
+  "Deleted": 112,
+  "Rank": 724,
+  "Created": "2019-05-09T17:37:39.0513032+02:00",
+  "UseCategories": 529,
   "CreatedBy": null,
-  "Updated": "2003-08-02T02:49:51.3859386+02:00",
+  "Updated": "2002-07-28T17:37:39.0513032+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldType": "System.Int32",
+      "FieldLength": 772
     }
   },
   "_Links": {

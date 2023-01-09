@@ -74,18 +74,17 @@ PATCH /api/v1/User/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 User  updated.
 
@@ -96,7 +95,7 @@ User  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because User has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: UserWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,10 +104,10 @@ Response body:
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
 | OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -125,7 +124,7 @@ Response body:
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -135,18 +134,18 @@ Response body:
 PATCH /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "maxime",
+    "path": "vitae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "maxime",
+    "path": "vitae",
     "value": {}
   }
 ]
@@ -159,14 +158,14 @@ HTTP/1.1 200 User  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 398,
-  "Name": "Brekke, Prosacco and Keeling",
-  "Rank": 657,
-  "Tooltip": "esse",
+  "AssociateId": 915,
+  "Name": "Kub-Corkery",
+  "Rank": 863,
+  "Tooltip": "delectus",
   "LicenseOwners": [
     {
-      "Name": "O'Reilly Group",
-      "Description": "Ameliorated bandwidth-monitored open system",
+      "Name": "Kemmer LLC",
+      "Description": "Cross-group 6th generation projection",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -180,13 +179,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 185
+          "FieldLength": 905
         }
       }
     },
     {
-      "Name": "O'Reilly Group",
-      "Description": "Ameliorated bandwidth-monitored open system",
+      "Name": "Kemmer LLC",
+      "Description": "Cross-group 6th generation projection",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -200,7 +199,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 185
+          "FieldLength": 905
         }
       }
     }
@@ -209,110 +208,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "natus",
-      "Tooltip": "quis",
-      "Id": 988,
-      "Rank": 474,
+      "Value": "est",
+      "Tooltip": "dolores",
+      "Id": 304,
+      "Rank": 850,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 393
+          "FieldLength": 447
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2017-06-18T02:49:51.8116461+02:00",
-  "Lastlogout": "2021-06-22T02:49:51.8116461+02:00",
-  "EjUserId": 27,
-  "RequestSignature": "veniam",
+  "Deleted": false,
+  "Lastlogin": "2012-10-27T17:37:39.5524323+02:00",
+  "Lastlogout": "1999-01-19T17:37:39.5524323+01:00",
+  "EjUserId": 466,
+  "RequestSignature": "at",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "atque",
-      "DisplayValue": "officiis",
+      "Value": "occaecati",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 25
+          "FieldType": "System.String",
+          "FieldLength": 536
         }
       }
     },
     {
       "Type": null,
-      "Value": "atque",
-      "DisplayValue": "officiis",
+      "Value": "occaecati",
+      "DisplayValue": "unde",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 536
+        }
+      }
+    }
+  ],
+  "UserName": "Carter Inc and Sons",
+  "TicketCategories": [
+    {
+      "Id": 448,
+      "Name": "Erdman-Lockman",
+      "ToolTip": "Non quo.",
+      "Deleted": true,
+      "Rank": 162,
+      "Type": "nulla",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "officia",
+      "ColorBlock": 619,
+      "ExtraInfo": "doloremque",
+      "StyleHint": "et",
+      "FullName": "Tremaine Larson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 25
+          "FieldLength": 40
         }
       }
     }
   ],
-  "UserName": "Steuber-Gleichner",
-  "TicketCategories": [
-    {
-      "Id": 295,
-      "Name": "Lowe-Kuhlman",
-      "ToolTip": "Voluptas incidunt dolorem consequatur.",
-      "Deleted": false,
-      "Rank": 404,
-      "Type": "porro",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "culpa",
-      "ColorBlock": 501,
-      "ExtraInfo": "et",
-      "StyleHint": "non",
-      "FullName": "Ms. Benjamin Kerluke",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 686
-        }
-      }
-    }
-  ],
-  "NickName": "Grimes, Bailey and Raynor",
-  "WaitingForApproval": true,
+  "NickName": "Jacobi-Aufderhar",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "saepe",
+    "ExtraFields2": "repudiandae"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "corporis"
+    "CustomFields1": "repellat",
+    "CustomFields2": "dolore"
   },
   "PostSaveCommands": [
     {
-      "Name": "Waelchi-Sauer",
-      "DisplayName": "Weber, Schulist and Balistreri",
-      "Description": "Centralized encompassing methodology",
-      "ToolTip": "Quidem fuga blanditiis ut.",
+      "Name": "Morar, Klocko and Kris",
+      "DisplayName": "Klein, Blanda and Kiehn",
+      "Description": "Extended grid-enabled analyzer",
+      "ToolTip": "Et omnis ratione quidem.",
       "Actions": "Implicit",
-      "ActionData": "incidunt",
+      "ActionData": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 84
+          "FieldLength": 369
         }
       }
     }
@@ -322,12 +321,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldLength": 208
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

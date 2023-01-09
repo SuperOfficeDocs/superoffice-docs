@@ -34,7 +34,7 @@ Excludes standard fields.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +66,7 @@ Response body: array
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Fisher Inc and Sons",
-    "DisplayName": "Marvin LLC",
-    "Description": "Persistent 3rd generation contingency",
-    "ShortLabel": "est",
-    "HideLabel": true,
-    "HideField": false,
+    "FieldName": "Bahringer, Kemmer and Kunde",
+    "DisplayName": "Kunze, Ritchie and Moen",
+    "Description": "Operative disintermediate emulation",
+    "ShortLabel": "id",
+    "HideLabel": false,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 320,
-    "TemplateVariableName": "Reilly-Emmerich"
+    "IsExternal": true,
+    "Rank": 290,
+    "TemplateVariableName": "Graham Group"
   }
 ]
 ```

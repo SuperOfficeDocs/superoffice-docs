@@ -42,20 +42,19 @@ POST /api/v1/Agents/MDO/GetListWithHistory?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| ForceFlatList | bool |  |
-| AdditionalInfo | string |  |
-| HistoryItems | array |  |
-| OnlyHistory | bool |  |
+| Name | String |  |
+| ForceFlatList | Boolean |  |
+| AdditionalInfo | String |  |
+| HistoryItems | Array |  |
+| OnlyHistory | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,16 +87,16 @@ Response body: array
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rosenbaum, Hane and Lemke",
+  "Name": "Hodkiewicz-Thompson",
   "ForceFlatList": false,
-  "AdditionalInfo": "aut",
+  "AdditionalInfo": "cupiditate",
   "HistoryItems": [
-    894,
-    374
+    581,
+    276
   ],
   "OnlyHistory": false
 }
@@ -111,50 +110,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "Conn Inc and Sons",
-    "ToolTip": "Ipsa dolor.",
+    "Id": 147,
+    "Name": "Schowalter-Luettgen",
+    "ToolTip": "Veritatis rerum omnis.",
     "Deleted": false,
-    "Rank": 790,
-    "Type": "sit",
+    "Rank": 588,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Yundt-Kozey",
-        "ToolTip": "Et ratione architecto nemo accusamus distinctio sit.",
+        "Id": 166,
+        "Name": "Weimann Inc and Sons",
+        "ToolTip": "Ut tempora sint nostrum voluptatem est quis.",
         "Deleted": false,
-        "Rank": 312,
-        "Type": "cupiditate",
+        "Rank": 682,
+        "Type": "in",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 712,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "ipsam",
-        "FullName": "Keely Harber I",
+        "IconHint": "quo",
+        "ColorBlock": 648,
+        "ExtraInfo": "qui",
+        "StyleHint": "qui",
+        "FullName": "Valentin Stoltenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 916
+            "FieldLength": 809
           }
         }
       }
     ],
-    "IconHint": "officiis",
-    "ColorBlock": 629,
-    "ExtraInfo": "laudantium",
-    "StyleHint": "enim",
-    "FullName": "Miss Delbert Casper",
+    "IconHint": "est",
+    "ColorBlock": 849,
+    "ExtraInfo": "id",
+    "StyleHint": "est",
+    "FullName": "Pamela Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldType": "System.Int32",
+        "FieldLength": 589
       }
     }
   }

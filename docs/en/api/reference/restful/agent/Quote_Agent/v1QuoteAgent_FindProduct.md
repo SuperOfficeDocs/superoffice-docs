@@ -42,18 +42,17 @@ POST /api/v1/Agents/Quote/FindProduct?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteAlternativeId, UserInput, PriceListKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteAlternativeId | int32 |  |
-| UserInput | string |  |
-| PriceListKey | string |  |
+| QuoteAlternativeId | Integer |  |
+| UserInput | String |  |
+| PriceListKey | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,7 +98,7 @@ Response body: array
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -108,13 +107,13 @@ Response body: array
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 851,
-  "UserInput": "iure",
-  "PriceListKey": "fugit"
+  "QuoteAlternativeId": 188,
+  "UserInput": "facere",
+  "PriceListKey": "incidunt"
 }
 ```
 
@@ -126,73 +125,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 387,
-    "ERPProductKey": "amet",
-    "ERPPriceListKey": "eligendi",
-    "Name": "Cronin Group",
-    "Description": "Multi-lateral heuristic throughput",
+    "ProductId": 260,
+    "ERPProductKey": "facilis",
+    "ERPPriceListKey": "cum",
+    "Name": "Maggio-Cummerata",
+    "Description": "Optional coherent conglomeration",
     "Code": "quis",
-    "PriceUnit": "enim",
-    "QuantityUnit": "et",
-    "IsSubscription": false,
-    "SubscriptionUnit": "sint",
-    "DefaultSubscriptionQuantity": 29309.167999999998,
-    "ItemNumber": "981421",
+    "PriceUnit": "qui",
+    "QuantityUnit": "nihil",
+    "IsSubscription": true,
+    "SubscriptionUnit": "asperiores",
+    "DefaultSubscriptionQuantity": 5716.416,
+    "ItemNumber": "911496",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "et",
-    "ProductTypeKey": "vitae",
-    "VAT": 10699.475999999999,
-    "VATInfo": "odio",
-    "UnitCost": 12144.25,
-    "UnitMinimumPrice": 9627.648,
-    "UnitListPrice": 12651.957999999999,
-    "InAssortment": false,
-    "Supplier": "dicta",
-    "SupplierCode": "accusantium",
-    "Rights": "ullam",
-    "Rule": "perferendis",
+    "ProductFamilyKey": "sed",
+    "ProductTypeKey": "accusantium",
+    "VAT": 28431.647999999997,
+    "VATInfo": "veritatis",
+    "UnitCost": 27648.147999999997,
+    "UnitMinimumPrice": 16788.838,
+    "UnitListPrice": 22812.386,
+    "InAssortment": true,
+    "Supplier": "vitae",
+    "SupplierCode": "qui",
+    "Rights": "et",
+    "Rule": "aliquam",
     "ExtraInfo": [
       {
-        "Name": "Daugherty-Dicki",
-        "Value": "autem",
+        "Name": "Wunsch Group",
+        "Value": "rerum",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 947
+            "FieldType": "System.Int32",
+            "FieldLength": 670
           }
         }
       },
       {
-        "Name": "Daugherty-Dicki",
-        "Value": "autem",
+        "Name": "Wunsch Group",
+        "Value": "rerum",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 947
+            "FieldType": "System.Int32",
+            "FieldLength": 670
           }
         }
       }
     ],
-    "RawExtraInfo": "enim",
-    "ExtraField1": "placeat",
-    "ExtraField2": "enim",
-    "ExtraField3": "provident",
-    "ExtraField4": "illo",
-    "ExtraField5": "eum",
-    "InStock": 855.582,
+    "RawExtraInfo": "sit",
+    "ExtraField1": "et",
+    "ExtraField2": "aliquam",
+    "ExtraField3": "molestias",
+    "ExtraField4": "magnam",
+    "ExtraField5": "fugiat",
+    "InStock": 21452.23,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldLength": 509
       }
     }
   }

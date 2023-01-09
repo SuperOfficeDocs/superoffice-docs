@@ -38,20 +38,19 @@ POST /api/v1/Agents/Archive/SetColumnWidthsV2?$select=name,department,category/i
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 GuiName, ProviderName, Context, OwnerKeys, ColumnWidths 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| GuiName | string |  |
-| ProviderName | string |  |
-| Context | string |  |
-| OwnerKeys | string |  |
-| ColumnWidths | array |  |
+| GuiName | String |  |
+| ProviderName | String |  |
+| Context | String |  |
+| OwnerKeys | String |  |
+| ColumnWidths | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -59,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -72,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wintheiser-Schamberger",
-  "ProviderName": "McLaughlin, Bergstrom and Heidenreich",
-  "Context": "porro",
-  "OwnerKeys": "quia",
+  "GuiName": "Funk, Bayer and Jenkins",
+  "ProviderName": "Crona LLC",
+  "Context": "velit",
+  "OwnerKeys": "facilis",
   "ColumnWidths": [
-    "facilis",
-    "at"
+    "quae",
+    "amet"
   ]
 }
 ```

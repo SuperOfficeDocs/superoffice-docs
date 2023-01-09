@@ -44,16 +44,15 @@ POST /api/v1/Agents/Contact/GetQuoteVersionAddresses?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
+| QuoteVersionId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,17 +60,17 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Wgs84Latitude | double | Latitude (that's north/south), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 59.91892. This value needs no further grid reference or other qualifying information. |
 | Wgs84Longitude | double | Longitude (that's East/west), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 10.73159. This value needs no further grid reference or other qualifying information. |
 | LocalizedAddress | array | LocalizedFieldArray is a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. |
-| Street |  | Street address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
-| Postal |  | Postal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
+| Street | StructuredAddress | Street address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
+| Postal | StructuredAddress | Postal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Formatted | string | Read-only formatted address multi-line string. Combines street and postal into one string. e.g.: &lt;c&gt;"Postboks 123,\nBrugata 123,\n1234 OSLO\n"&lt;/c&gt; or &lt;c&gt;"Postbox 123,\nBridgelane 123,\nWest Tooting,\nEast Shire ES2 W31\n"&lt;/c&gt;. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 950
+  "QuoteVersionId": 939
 }
 ```
 
@@ -96,41 +95,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 11326.276,
-    "Wgs84Longitude": 20270.712,
+    "Wgs84Latitude": 4177.622,
+    "Wgs84Longitude": 27704.559999999998,
     "LocalizedAddress": [
       [
         {
-          "Name": "Crona-Kozey",
-          "Value": "aut",
-          "Tooltip": "corporis",
-          "Label": "explicabo",
-          "ValueLength": 496,
-          "AddressType": "nulla",
+          "Name": "Cassin Group",
+          "Value": "commodi",
+          "Tooltip": "eum",
+          "Label": "nulla",
+          "ValueLength": 282,
+          "AddressType": "inventore",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 836
+              "FieldLength": 270
             }
           }
         }
       ],
       [
         {
-          "Name": "Murazik Inc and Sons",
-          "Value": "quasi",
-          "Tooltip": "corporis",
-          "Label": "dolorem",
-          "ValueLength": 765,
-          "AddressType": "laborum",
+          "Name": "Green-Donnelly",
+          "Value": "aut",
+          "Tooltip": "sequi",
+          "Label": "tempore",
+          "ValueLength": 89,
+          "AddressType": "ipsum",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 358
+              "FieldType": "System.String",
+              "FieldLength": 159
             }
           }
         }
@@ -138,13 +137,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "consequatur",
+    "Formatted": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 536
+        "FieldLength": 574
       }
     }
   }

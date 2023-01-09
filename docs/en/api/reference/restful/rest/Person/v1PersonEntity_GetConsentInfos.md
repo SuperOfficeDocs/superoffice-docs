@@ -38,7 +38,7 @@ May include withdrawn consents (check
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | ConsentSourceId | int32 | Primary key for the ConsentSource associated with this consent |
 | ConsentSourceKey | string | Key of the ConsentSource associated with this consent |
 | ConsentSourceName | string | Name of the ConsentSource associated with this consent |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,27 +85,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 142,
-    "Comment": "voluptate",
-    "Registered": "2022-11-14T02:49:51.2921904+01:00",
-    "RegisteredAssociateId": 199,
-    "Updated": "2011-07-05T02:49:51.2921904+02:00",
-    "UpdatedAssociateId": 632,
-    "LegalBaseId": 857,
-    "LegalBaseKey": "explicabo",
-    "LegalBaseName": "Morar, Thompson and Zemlak",
-    "ConsentPurposeId": 405,
-    "ConsentPurposeKey": "placeat",
-    "ConsentPurposeName": "Mayert Group",
-    "ConsentSourceId": 529,
-    "ConsentSourceKey": "nisi",
-    "ConsentSourceName": "Hand Inc and Sons",
+    "ConsentPersonId": 72,
+    "Comment": "quis",
+    "Registered": "2001-08-21T17:37:38.9348602+02:00",
+    "RegisteredAssociateId": 635,
+    "Updated": "2021-03-14T17:37:38.9348602+01:00",
+    "UpdatedAssociateId": 129,
+    "LegalBaseId": 886,
+    "LegalBaseKey": "omnis",
+    "LegalBaseName": "Stokes, Douglas and Hackett",
+    "ConsentPurposeId": 879,
+    "ConsentPurposeKey": "ut",
+    "ConsentPurposeName": "Ruecker Group",
+    "ConsentSourceId": 6,
+    "ConsentSourceKey": "officia",
+    "ConsentSourceName": "Purdy Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldType": "System.String",
+        "FieldLength": 586
       }
     }
   }

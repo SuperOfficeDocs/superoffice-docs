@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetUser
 Gets a User object.
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -29,7 +27,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=760
+POST /api/v1/Agents/User/GetUser?userId=636
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -48,7 +46,7 @@ POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: User
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,10 +63,10 @@ Response body:
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
+| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
 | OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -85,7 +83,7 @@ Response body:
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -104,14 +102,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 844,
-  "Name": "Marks-Kuphal",
-  "Rank": 860,
-  "Tooltip": "aperiam",
+  "AssociateId": 873,
+  "Name": "Volkman-Farrell",
+  "Rank": 323,
+  "Tooltip": "ut",
   "LicenseOwners": [
     {
-      "Name": "Murazik-Kovacek",
-      "Description": "Ameliorated upward-trending orchestration",
+      "Name": "Upton, Cummings and Conn",
+      "Description": "Up-sized zero administration Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -124,14 +122,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldType": "System.String",
+          "FieldLength": 320
         }
       }
     },
     {
-      "Name": "Murazik-Kovacek",
-      "Description": "Ameliorated upward-trending orchestration",
+      "Name": "Upton, Cummings and Conn",
+      "Description": "Up-sized zero administration Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -144,8 +142,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldType": "System.String",
+          "FieldLength": 320
         }
       }
     }
@@ -154,110 +152,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "perspiciatis",
-      "Tooltip": "illum",
-      "Id": 297,
-      "Rank": 208,
-      "Deleted": true,
+      "Value": "minus",
+      "Tooltip": "accusantium",
+      "Id": 276,
+      "Rank": 523,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldLength": 388
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2002-07-28T02:49:45.6715962+02:00",
-  "Lastlogout": "2004-08-06T02:49:45.6715962+02:00",
-  "EjUserId": 415,
-  "RequestSignature": "et",
+  "Lastlogin": "1996-11-16T17:37:19.5649764+01:00",
+  "Lastlogout": "2017-12-08T17:37:19.5649764+01:00",
+  "EjUserId": 494,
+  "RequestSignature": "enim",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nihil",
-      "DisplayValue": "quia",
+      "Value": "cum",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 842
+          "FieldLength": 493
         }
       }
     },
     {
       "Type": null,
-      "Value": "nihil",
-      "DisplayValue": "quia",
+      "Value": "cum",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 842
+          "FieldLength": 493
         }
       }
     }
   ],
-  "UserName": "Conroy-Waelchi",
+  "UserName": "Bernhard Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 665,
-      "Name": "Dare, Adams and Harvey",
-      "ToolTip": "In sed at vel iure omnis possimus laborum.",
-      "Deleted": true,
-      "Rank": 441,
-      "Type": "voluptas",
+      "Id": 131,
+      "Name": "Hand, Abernathy and Denesik",
+      "ToolTip": "Quibusdam iste quo aut sint quam incidunt officia.",
+      "Deleted": false,
+      "Rank": 577,
+      "Type": "quia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "pariatur",
-      "ColorBlock": 802,
-      "ExtraInfo": "quam",
-      "StyleHint": "asperiores",
-      "FullName": "Dr. Genesis Schultz MD",
+      "IconHint": "quos",
+      "ColorBlock": 358,
+      "ExtraInfo": "corrupti",
+      "StyleHint": "ad",
+      "FullName": "Cecil Kuvalis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldLength": 330
         }
       }
     }
   ],
-  "NickName": "Farrell-McClure",
+  "NickName": "Johns Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "architecto"
+    "CustomFields1": "doloremque",
+    "CustomFields2": "quasi"
   },
   "PostSaveCommands": [
     {
-      "Name": "Upton LLC",
-      "DisplayName": "Dare LLC",
-      "Description": "Persistent maximized service-desk",
-      "ToolTip": "Amet et sed.",
+      "Name": "Bosco Group",
+      "DisplayName": "Beier, Satterfield and Brown",
+      "Description": "Vision-oriented modular time-frame",
+      "ToolTip": "Molestias dolores eos id cupiditate est eos.",
       "Actions": "Implicit",
-      "ActionData": "dolor",
+      "ActionData": "harum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 334
         }
       }
     }
@@ -267,7 +265,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 187
     }
   }
 }

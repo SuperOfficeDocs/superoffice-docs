@@ -25,7 +25,7 @@ Gets a SuggestedAppointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=883
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=134
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SuggestedAppointment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,8 +69,8 @@ Response body:
 | ProjectTypeStatusLinkId | int32 | Link to projectTypeStatusLink, the anchor for project guide items. Either this OR saleAnchorId should be set, not both at the same time. |
 | Name | string | Item name, visible in Guide |
 | Duration | int32 | Duration in minutes of suggested appointment |
-| Associate |  | The owner of the suggested activity. Always the same as the sales owner. |
-| TableRight |  |  |
+| Associate | Associate | The owner of the suggested activity. Always the same as the sales owner. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,7 +79,7 @@ Response body:
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 306,
-  "Deleted": 309,
-  "DaysFuture": 558,
-  "Tooltip": "atque",
-  "Text": "ut",
-  "TaskId": 133,
-  "SuggestedAppointmentId": 410,
-  "SaleTypeStageLinkId": 785,
-  "RegisteredAssociateId": 218,
-  "Rank": 290,
-  "ProjectTypeStatusLinkId": 635,
-  "Name": "Turcotte-Schroeder",
-  "Duration": 432,
+  "AutoSuggest": 520,
+  "Deleted": 981,
+  "DaysFuture": 570,
+  "Tooltip": "deserunt",
+  "Text": "non",
+  "TaskId": 223,
+  "SuggestedAppointmentId": 772,
+  "SaleTypeStageLinkId": 406,
+  "RegisteredAssociateId": 341,
+  "Rank": 985,
+  "ProjectTypeStatusLinkId": 713,
+  "Name": "Treutel, Hauck and Conn",
+  "Duration": 123,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 846
+      "FieldLength": 328
     }
   }
 }

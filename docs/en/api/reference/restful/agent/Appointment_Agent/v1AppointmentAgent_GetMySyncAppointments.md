@@ -44,17 +44,16 @@ POST /api/v1/Agents/Appointment/GetMySyncAppointments?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StartTime, EndTime 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StartTime | date-time |  |
-| EndTime | date-time |  |
+| StartTime | String |  |
+| EndTime | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,7 +91,7 @@ Response body: array
 | SaleName | string | Sale heading (short description?) |
 | StartDate | date-time | date + start time planned |
 | TaskName | string |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -105,8 +104,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2007-09-08T02:49:43.261747+02:00",
-  "EndTime": "2011-12-13T02:49:43.261747+01:00"
+  "StartTime": "2001-08-29T17:37:16.2752421+02:00",
+  "EndTime": "2004-08-03T17:37:16.2752421+02:00"
 }
 ```
 
@@ -118,72 +117,72 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AlarmTime": "1996-09-28T02:49:43.261747+02:00",
-    "AppointmentId": 175,
-    "AppointmentText": "non",
-    "ContactDepartment": "deliver mission-critical e-tailers",
-    "ContactFullName": "Reinhold Rice",
-    "ContactName": "Rowe Inc and Sons",
-    "ContactId": 599,
-    "EndDate": "2021-04-10T02:49:43.261747+02:00",
+    "AlarmTime": "2010-05-13T17:37:16.2792417+02:00",
+    "AppointmentId": 727,
+    "AppointmentText": "at",
+    "ContactDepartment": "",
+    "ContactFullName": "Bryon Homenick",
+    "ContactName": "Altenwerth, Collier and Lakin",
+    "ContactId": 811,
+    "EndDate": "2007-01-05T17:37:16.2792417+01:00",
     "HasAlarm": false,
-    "IsAllDay": false,
-    "IsAssignment": true,
-    "IsBusy": true,
+    "IsAllDay": true,
+    "IsAssignment": false,
+    "IsBusy": false,
     "IsCompleted": false,
-    "IsInvitation": true,
-    "IsTentative": false,
-    "Location": "quo",
+    "IsInvitation": false,
+    "IsTentative": true,
+    "Location": "explicabo",
     "Participants": [
       {
-        "PersonId": 42,
-        "PersonFirstName": "Schoen Group",
-        "PersonMiddleName": "Russel-Douglas",
-        "PersonLastname": "Predovic",
-        "PersonMrmrs": "nulla",
-        "PersonTitle": "enim",
-        "PersonPosition": "voluptatem",
-        "PersonAcademicTitle": "hic",
-        "PersonFormalName": "Volkman-Abshire",
-        "PersonFullName": "Anika Orn",
-        "ContactId": 694,
-        "ContactName": "Mitchell, Hettinger and Toy",
+        "PersonId": 769,
+        "PersonFirstName": "Langosh, D'Amore and Stark",
+        "PersonMiddleName": "Brekke-Howell",
+        "PersonLastname": "Goodwin",
+        "PersonMrmrs": "est",
+        "PersonTitle": "corrupti",
+        "PersonPosition": "vel",
+        "PersonAcademicTitle": "error",
+        "PersonFormalName": "Braun-Brakus",
+        "PersonFullName": "Rosario Daugherty IV",
+        "ContactId": 687,
+        "ContactName": "Gaylord Inc and Sons",
         "ContactDepartment": "",
         "ContactBusiness": "Information Technology",
         "ContactCountry": "Sokovia",
         "ContactCategory": "VIP Customer",
-        "ContactFullName": "Jake Crona",
+        "ContactFullName": "Jailyn Satterfield",
         "EMail": [
-          "et",
-          "numquam"
+          "illum",
+          "veritatis"
         ],
         "PhonePrivate": [
-          "085.145.6946 x239",
-          "915.145.6838"
+          "1-911-577-7836",
+          "1-563-952-4865 x244"
         ],
         "PhoneFax": [
-          "1-977-712-0281 x768",
-          "(902)166-4057 x482"
+          "1-095-159-0375 x895",
+          "(612)999-6321 x3653"
         ],
         "PhoneMobile": [
-          "041.894.6843",
-          "(791)900-9760"
+          "560.260.5559 x19325",
+          "(780)905-1801 x433"
         ],
         "PhoneDirect": [
-          "966.983.1672 x1354",
-          "128.339.8425 x09301"
+          "1-906-496-4034 x593",
+          "1-739-777-8424 x36538"
         ],
         "PhoneContact": [
-          "1-523-931-1225 x2840",
-          "1-936-246-8920 x9589"
+          "(690)827-9651",
+          "(870)212-1538 x52519"
         ],
         "Messenger": [
-          "mollitia",
-          "velit"
+          "est",
+          "commodi"
         ],
         "Voip": [
-          "atque",
-          "maxime"
+          "eaque",
+          "fuga"
         ],
         "ContactUrl": [
           "http://www.example.com/",
@@ -203,27 +202,27 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 676
+            "FieldType": "System.Int32",
+            "FieldLength": 435
           }
         }
       }
     ],
-    "PersonFormalName": "Heller Group",
-    "PersonFullName": "Dr. Seth Taya King",
-    "PersonId": 768,
-    "ProjectId": 542,
-    "ProjectName": "Connelly, Funk and Mraz",
-    "SaleId": 34,
-    "SaleName": "Hyatt, Leuschke and Macejkovic",
-    "StartDate": "2008-12-29T02:49:43.261747+01:00",
-    "TaskName": "Mayert, Goldner and Cartwright",
+    "PersonFormalName": "Predovic, Kirlin and Spencer",
+    "PersonFullName": "Miss Gina Brakus",
+    "PersonId": 607,
+    "ProjectId": 947,
+    "ProjectName": "Hilll Inc and Sons",
+    "SaleId": 932,
+    "SaleName": "Stroman LLC",
+    "StartDate": "2010-12-09T17:37:16.2802414+01:00",
+    "TaskName": "Berge-Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldType": "System.String",
+        "FieldLength": 266
       }
     }
   }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/Batch/StopBatchJob?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 |  |
+| Id | Integer |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -72,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 958
+  "Id": 575
 }
 ```
 

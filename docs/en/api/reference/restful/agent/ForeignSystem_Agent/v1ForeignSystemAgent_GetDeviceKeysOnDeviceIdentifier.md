@@ -42,18 +42,17 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body: array
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,13 +81,13 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Breitenberg, Berge and Goodwin",
-  "DeviceName": "Luettgen Group",
-  "DeviceIdentifier": "et"
+  "ApplicationName": "Prohaska LLC",
+  "DeviceName": "Kuhn-Dibbert",
+  "DeviceIdentifier": "beatae"
 }
 ```
 
@@ -100,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "et",
-    "Value": "voluptatem",
-    "RecordId": 352,
-    "CreatedDate": "2000-08-31T02:49:44.561046+02:00",
-    "UpdatedDate": "1995-09-20T02:49:44.561046+02:00",
-    "UpdatedBy": "incidunt",
-    "CreatedBy": "debitis",
-    "TableName": "Weissnat, Kreiger and Hermiston",
+    "Key": "fuga",
+    "Value": "quibusdam",
+    "RecordId": 523,
+    "CreatedDate": "2022-04-07T17:37:18.1142411+02:00",
+    "UpdatedDate": "2021-10-02T17:37:18.1142411+02:00",
+    "UpdatedBy": "eos",
+    "CreatedBy": "voluptas",
+    "TableName": "Rolfson-Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldLength": 851
       }
     }
   }

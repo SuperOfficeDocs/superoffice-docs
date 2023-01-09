@@ -34,7 +34,7 @@ Calls the Associate agent service GetAssociate.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Associate
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +58,7 @@ Response body:
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
 | UserName | string | User name |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -67,7 +67,7 @@ Response body:
 GET /api/v1/User/currentAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 218,
-  "Name": "Wunsch LLC",
-  "PersonId": 954,
-  "Rank": 929,
-  "Tooltip": "delectus",
+  "AssociateId": 463,
+  "Name": "Jewess, Mosciski and Donnelly",
+  "PersonId": 986,
+  "Rank": 102,
+  "Tooltip": "doloremque",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 544,
-  "FullName": "Ms. Freda Shany McGlynn",
-  "FormalName": "Monahan-Schamberger",
-  "Deleted": false,
-  "EjUserId": 17,
-  "UserName": "Pacocha-Rempel",
+  "GroupIdx": 990,
+  "FullName": "Mrs. Luz Gladyce Wilderman",
+  "FormalName": "Ankunding Group",
+  "Deleted": true,
+  "EjUserId": 187,
+  "UserName": "Rutherford Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldType": "System.String",
+      "FieldLength": 825
     }
   }
 }

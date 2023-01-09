@@ -38,18 +38,17 @@ POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier?$select=name,departme
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -57,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -66,13 +65,13 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Shanahan Inc and Sons",
-  "DeviceName": "Walsh-Botsford",
-  "DeviceIdentifier": "nihil"
+  "ApplicationName": "Blick, Lebsack and Mosciski",
+  "DeviceName": "Von LLC",
+  "DeviceIdentifier": "expedita"
 }
 ```
 

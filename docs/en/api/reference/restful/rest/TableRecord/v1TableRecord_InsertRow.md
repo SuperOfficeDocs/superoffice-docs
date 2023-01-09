@@ -36,13 +36,12 @@ Insert a row into a table
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: values  
+## Request Body: values 
 
 A StringDictionary with the values to insert. You do not need to specify all the values in the table. The omitted ones will get default values 
 
 
-
-## Response: int32
+## Response:int32
 
 OK
 
@@ -50,7 +49,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -59,7 +58,7 @@ Response body: int32
 POST /api/v1/Table/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,5 +67,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-238
+287
 ```

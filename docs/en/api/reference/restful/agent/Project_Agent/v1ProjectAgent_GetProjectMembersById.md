@@ -42,16 +42,15 @@ POST /api/v1/Agents/Project/GetProjectMembersById?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectMemberIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectMemberIds | array |  |
+| ProjectMemberIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +83,7 @@ Response body: array
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,13 +92,13 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    160,
-    812
+    559,
+    872
   ]
 }
 ```
@@ -112,33 +111,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 364,
-    "ContactId": 481,
-    "ProjectId": 264,
-    "ContactName": "Stark, Lesch and Considine",
-    "ContactDepartment": "reinvent user-centric methodologies",
-    "ProjectName": "Abbott-Paucek",
-    "EmailId": 142,
-    "EmailAddress": "sadye_kuphal@williamsonchristiansen.ca",
-    "CountryId": 778,
-    "Firstname": "Brando",
-    "MiddleName": "Kerluke-Tromp",
-    "Lastname": "Bauch",
-    "PersonId": 262,
-    "Mrmrs": "eveniet",
-    "ProjectMemberTypeName": "Bartoletti Inc and Sons",
-    "Phone": "308.786.6848 x5054",
-    "PhoneId": 81,
-    "ProjectMemberTypeId": 687,
-    "EmailAddressName": "maximo_mcdermott@nitzschecarroll.com",
-    "Comment": "modi",
-    "FullName": "Bryana Kulas",
+    "ProjectmemberId": 196,
+    "ContactId": 395,
+    "ProjectId": 374,
+    "ContactName": "McClure Group",
+    "ContactDepartment": "implement virtual initiatives",
+    "ProjectName": "Lynch, Ledner and Emard",
+    "EmailId": 31,
+    "EmailAddress": "yesenia@klein.com",
+    "CountryId": 882,
+    "Firstname": "Delilah",
+    "MiddleName": "Johnston-Keeling",
+    "Lastname": "Simonis",
+    "PersonId": 238,
+    "Mrmrs": "sit",
+    "ProjectMemberTypeName": "Kreiger, Green and Bartoletti",
+    "Phone": "1-221-586-4175 x371",
+    "PhoneId": 849,
+    "ProjectMemberTypeId": 947,
+    "EmailAddressName": "johnathon.wolf@fritsch.info",
+    "Comment": "recusandae",
+    "FullName": "Sydney Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 423
+        "FieldType": "System.Int32",
+        "FieldLength": 46
       }
     }
   }

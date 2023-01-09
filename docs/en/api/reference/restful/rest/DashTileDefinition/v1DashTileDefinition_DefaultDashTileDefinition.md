@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTileDefinition
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body:
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body:
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 30,
-  "Name": "Balistreri, Walter and Feil",
-  "Description": "Networked reciprocal installation",
-  "DefaultHeight": 253,
-  "DefaultWidth": 592,
+  "DashboardTileDefinitionId": 154,
+  "Name": "Witting Group",
+  "Description": "Fully-configurable real-time neural-net",
+  "DefaultHeight": 403,
+  "DefaultWidth": 101,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Ferry, Hyatt and Braun",
-  "SelectionId": 462,
+  "EntityName": "Bartoletti, Gusikowski and Spinka",
+  "SelectionId": 189,
   "CurrencyMode": "Base",
-  "CurrencyCode": "unde",
+  "CurrencyCode": "praesentium",
   "Measure": "Average",
-  "MeasureField": "laudantium",
-  "SortBy": "veritatis",
-  "LayoutConfig": "ut",
-  "SecondarySelectionId": 661,
-  "MeasureByField": "rerum",
+  "MeasureField": "possimus",
+  "SortBy": "aut",
+  "LayoutConfig": "tempore",
+  "SecondarySelectionId": 160,
+  "MeasureByField": "autem",
   "Usage": "Dashboard",
-  "ProviderName": "Reilly Group",
+  "ProviderName": "Block, Lindgren and Leuschke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldType": "System.String",
+      "FieldLength": 213
     }
   }
 }

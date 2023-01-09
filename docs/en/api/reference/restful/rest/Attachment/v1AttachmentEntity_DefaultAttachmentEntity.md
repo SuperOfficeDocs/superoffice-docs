@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AttachmentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +52,7 @@ Response body:
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -61,7 +61,7 @@ Response body:
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 619,
-  "Name": "Schmidt Group",
-  "ContentType": "doloremque",
-  "AttSize": 927,
-  "InlineImage": false,
-  "ContentId": "non",
+  "AttachmentId": 352,
+  "Name": "Torphy-Watsica",
+  "ContentType": "natus",
+  "AttSize": 835,
+  "InlineImage": true,
+  "ContentId": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 62
     }
   }
 }

@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Towne-Stoltenberg",
-    "ToolTip": "Dolorem natus possimus quia.",
-    "Deleted": true,
-    "Rank": 846,
-    "Type": "consectetur",
-    "ColorBlock": 332,
-    "IconHint": "possimus",
-    "Selected": false,
-    "LastChanged": "2012-03-23T02:49:52.4065764+01:00",
+    "Id": 21,
+    "Name": "Terry-Schmitt",
+    "ToolTip": "Laudantium iure deleniti asperiores odit.",
+    "Deleted": false,
+    "Rank": 176,
+    "Type": "quas",
+    "ColorBlock": 112,
+    "IconHint": "itaque",
+    "Selected": true,
+    "LastChanged": "2020-08-20T17:37:40.2174708+02:00",
     "ChildItems": [
       {
-        "Id": 947,
-        "Name": "Jenkins-Ruecker",
-        "ToolTip": "Beatae odio ab nam blanditiis ut.",
+        "Id": 331,
+        "Name": "O'Connell-Raynor",
+        "ToolTip": "Id natus autem.",
         "Deleted": false,
-        "Rank": 353,
-        "Type": "iste",
-        "ColorBlock": 12,
-        "IconHint": "atque",
-        "Selected": false,
-        "LastChanged": "2012-05-16T02:49:52.4065764+02:00",
+        "Rank": 756,
+        "Type": "voluptas",
+        "ColorBlock": 676,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "2010-06-05T17:37:40.2174708+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "officiis",
+        "ExtraInfo": "sequi",
+        "StyleHint": "quibusdam",
         "Hidden": false,
-        "FullName": "Leone Legros",
+        "FullName": "Aylin Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 711
+            "FieldType": "System.String",
+            "FieldLength": 333
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "reprehenderit",
-    "Hidden": false,
-    "FullName": "Tremaine Terry",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "cumque",
+    "Hidden": true,
+    "FullName": "Declan Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldLength": 654
       }
     }
   }

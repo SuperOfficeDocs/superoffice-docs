@@ -44,19 +44,18 @@ POST /api/v1/Agents/Person/CreateTemporaryKey?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Domain, TargetId, PersonId, Expires 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Domain | string |  |
-| TargetId | int32 |  |
-| PersonId | int32 |  |
-| Expires | date-time |  |
+| Domain | String |  |
+| TargetId | Integer |  |
+| PersonId | Integer |  |
+| Expires | String |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -73,14 +72,14 @@ Response body: string
 POST /api/v1/Agents/Person/CreateTemporaryKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 989,
-  "PersonId": 291,
-  "Expires": "2016-03-19T02:49:44.8590895+01:00"
+  "TargetId": 304,
+  "PersonId": 437,
+  "Expires": "1998-12-12T17:37:18.5212411+01:00"
 }
 ```
 
@@ -90,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ut"
+"exercitationem"
 ```

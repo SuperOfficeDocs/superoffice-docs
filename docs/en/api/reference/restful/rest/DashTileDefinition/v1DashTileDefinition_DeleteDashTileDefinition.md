@@ -34,7 +34,7 @@ Calls the Dash agent service DeleteDashTileDefinition.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 DashTileDefinition deleted.
 
@@ -42,7 +42,7 @@ DashTileDefinition deleted.
 |----------------|-------------|
 | 204 | DashTileDefinition deleted. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -51,7 +51,7 @@ Response body:
 DELETE /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

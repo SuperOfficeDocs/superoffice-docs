@@ -41,24 +41,23 @@ Returns event data with output variable values.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: eventData  
+## Request Body: eventData 
 
 The EventData instance sent to the crmscript with input values 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Type | string | The type of event we are triggered by |
-| InputValues | object | Environment values sent to the event handler |
-| BlockExecution | bool | Whether the context should stop what it is doing, e.g. saving a sale |
-| NavigateTo | string | Where the context should naviate afterwards |
-| Message | string | A message to be presented to the user |
-| ShowDialog | string | JSON structure of dialog to show |
-| OutputValues | object | Values sent back to the environment from the event handler |
-| StateValues | object | Values kept between event handlers |
-| Exception | string | String containing error message from handler system if it failed |
+| Type | String | The type of event we are triggered by |
+| InputValues | Object | Environment values sent to the event handler |
+| BlockExecution | Boolean | Whether the context should stop what it is doing, e.g. saving a sale |
+| NavigateTo | String | Where the context should naviate afterwards |
+| Message | String | A message to be presented to the user |
+| ShowDialog | String | JSON structure of dialog to show |
+| OutputValues | Object | Values sent back to the environment from the event handler |
+| StateValues | Object | Values kept between event handlers |
+| Exception | String | String containing error message from handler system if it failed |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EventData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body:
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "sunt",
-    "InputValues2": "vero"
+    "InputValues1": "laborum",
+    "InputValues2": "repellat"
   },
-  "BlockExecution": true,
-  "NavigateTo": "a",
-  "Message": "perspiciatis",
-  "ShowDialog": "et",
+  "BlockExecution": false,
+  "NavigateTo": "consequatur",
+  "Message": "quis",
+  "ShowDialog": "natus",
   "OutputValues": {
-    "OutputValues1": "aliquid",
-    "OutputValues2": "consequatur"
+    "OutputValues1": "et",
+    "OutputValues2": "ipsa"
   },
   "StateValues": {
-    "StateValues1": "et",
-    "StateValues2": "deleniti"
+    "StateValues1": "nisi",
+    "StateValues2": "non"
   },
-  "Exception": "tenetur"
+  "Exception": "nemo"
 }
 ```
 
@@ -122,28 +121,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ipsum",
-    "InputValues2": "ut"
+    "InputValues1": "rerum",
+    "InputValues2": "culpa"
   },
-  "BlockExecution": true,
-  "NavigateTo": "voluptas",
-  "Message": "et",
-  "ShowDialog": "non",
+  "BlockExecution": false,
+  "NavigateTo": "id",
+  "Message": "est",
+  "ShowDialog": "corrupti",
   "OutputValues": {
-    "OutputValues1": "ab",
-    "OutputValues2": "aut"
+    "OutputValues1": "rem",
+    "OutputValues2": "enim"
   },
   "StateValues": {
-    "StateValues1": "amet",
-    "StateValues2": "quo"
+    "StateValues1": "delectus",
+    "StateValues2": "sunt"
   },
-  "Exception": "exercitationem",
+  "Exception": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 660
+      "FieldType": "System.Int32",
+      "FieldLength": 131
     }
   }
 }

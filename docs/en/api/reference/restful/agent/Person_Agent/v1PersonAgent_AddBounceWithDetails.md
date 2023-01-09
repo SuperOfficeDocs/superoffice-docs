@@ -38,19 +38,18 @@ POST /api/v1/Agents/Person/AddBounceWithDetails?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EmailAddress, Counts, Code, Reason 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EmailAddress | string |  |
-| Counts | int32 |  |
-| Code | int32 |  |
-| Reason | string |  |
+| EmailAddress | String |  |
+| Counts | Integer |  |
+| Code | Integer |  |
+| Reason | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -58,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -67,13 +66,13 @@ Response body:
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "sheridan.kertzmann@hamill.biz",
-  "Counts": 217,
-  "Code": 564,
+  "EmailAddress": "kaylee@lubowitzhammes.com",
+  "Counts": 116,
+  "Code": 63,
   "Reason": ""
 }
 ```

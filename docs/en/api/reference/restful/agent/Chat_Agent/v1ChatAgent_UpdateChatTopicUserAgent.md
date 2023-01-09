@@ -42,18 +42,17 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ChatTopicId, Username, Useragent 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ChatTopicId | int32 |  |
-| Username | string |  |
-| Useragent |  | User agents within a chat topic. Which users are assigned and what roles they have within the chat topic. <para /> Carrier object for ChatTopicAgent. Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>. |
+| ChatTopicId | Integer |  |
+| Username | String |  |
+| Useragent | ChatTopicAgent | User agents within a chat topic. Which users are assigned and what roles they have within the chat topic. <para /> Carrier object for ChatTopicAgent. Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,12 +60,12 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ChatTopicAgent
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TopicId | int32 | The reference to the associated chat topic. |
-| User |  | The associate that is the user agent. |
+| User | Associate | The associate that is the user agent. |
 | CanListen | bool | True of a user can listen in on this topic |
 | CanRespond | bool | True if the user can respond to chats in this topic |
 | CanManage | bool | True if the user is a manager for this topic |
@@ -78,12 +77,12 @@ Response body:
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 457,
-  "Username": "sunt",
+  "ChatTopicId": 239,
+  "Username": "odio",
   "Useragent": null
 }
 ```
@@ -95,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 35,
+  "TopicId": 517,
   "User": null,
   "CanListen": false,
-  "CanRespond": false,
-  "CanManage": true,
-  "CanNotify": true
+  "CanRespond": true,
+  "CanManage": false,
+  "CanNotify": false
 }
 ```

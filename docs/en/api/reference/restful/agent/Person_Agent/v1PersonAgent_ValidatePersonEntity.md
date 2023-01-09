@@ -42,16 +42,15 @@ POST /api/v1/Agents/Person/ValidatePersonEntity?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonEntity |  |  |
+| PersonEntity | PersonEntity |  |
 
-
-## Response: object
+## Response:object
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -68,7 +67,7 @@ Response body: object
 POST /api/v1/Agents/Person/ValidatePersonEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,7 +82,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "minima",
-  "2": "autem"
+  "1": "voluptatem",
+  "2": "ipsa"
 }
 ```

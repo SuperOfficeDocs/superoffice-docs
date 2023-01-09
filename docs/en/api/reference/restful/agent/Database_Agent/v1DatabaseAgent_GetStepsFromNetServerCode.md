@@ -42,7 +42,7 @@ POST /api/v1/Agents/Database/GetStepsFromNetServerCode?$select=name,department,c
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,13 +50,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string | The name of the dictionary step (from attribute, not class name) |
 | StepNumber | int32 | Generation number of step |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -65,7 +65,7 @@ Response body: array
 POST /api/v1/Agents/Database/GetStepsFromNetServerCode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,26 +76,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Weber-Jenkins",
-    "StepNumber": 886,
+    "Name": "Crooks-Lakin",
+    "StepNumber": 62,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 876
+        "FieldType": "System.Int32",
+        "FieldLength": 494
       }
     }
   },
   {
-    "Name": "Weber-Jenkins",
-    "StepNumber": 886,
+    "Name": "Crooks-Lakin",
+    "StepNumber": 62,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 876
+        "FieldType": "System.Int32",
+        "FieldLength": 494
       }
     }
   }

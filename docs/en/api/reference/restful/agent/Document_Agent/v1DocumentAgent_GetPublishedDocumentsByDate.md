@@ -44,20 +44,19 @@ POST /api/v1/Agents/Document/GetPublishedDocumentsByDate?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, IncludeProjectDocuments, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| IncludeProjectDocuments | bool |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| PersonId | Integer |  |
+| IncludeProjectDocuments | Boolean |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -98,15 +97,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 303,
+  "PersonId": 125,
   "IncludeProjectDocuments": false,
-  "StartTime": "2021-05-19T02:49:44.0753838+02:00",
-  "EndTime": "2016-11-20T02:49:44.0753838+01:00",
-  "Count": 480
+  "StartTime": "2011-10-16T17:37:17.4112416+02:00",
+  "EndTime": "2015-07-15T17:37:17.4112416+02:00",
+  "Count": 845
 }
 ```
 
@@ -118,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 786,
-    "Attention": "quia",
-    "Header": "id",
-    "Name": "Lind LLC",
-    "OurRef": "sunt",
-    "YourRef": "minima",
-    "Description": "Ergonomic object-oriented matrices",
-    "DocumentTemplate": "numquam",
-    "IsPublished": true,
-    "PersonId": 11,
-    "PersonFullName": "Karlee Kohler",
-    "AssociateFullName": "Jannie Stokes IV",
-    "ContactId": 246,
-    "ContactName": "Reinger-Johnston",
-    "ProjectId": 407,
-    "ProjectName": "Ankunding-Lesch",
-    "AssociateId": 342,
-    "Snum": 973,
-    "SaleId": 865,
-    "SaleName": "Senger-Weimann",
+    "DocumentId": 737,
+    "Attention": "velit",
+    "Header": "architecto",
+    "Name": "Dietrich-Skiles",
+    "OurRef": "dolore",
+    "YourRef": "aut",
+    "Description": "Front-line bifurcated toolset",
+    "DocumentTemplate": "dignissimos",
+    "IsPublished": false,
+    "PersonId": 653,
+    "PersonFullName": "Mrs. Althea Verdie Wolff",
+    "AssociateFullName": "Prof. Yessenia Caden Deckow",
+    "ContactId": 547,
+    "ContactName": "Block, Jacobson and Witting",
+    "ProjectId": 127,
+    "ProjectName": "Cummerata-Corkery",
+    "AssociateId": 880,
+    "Snum": 676,
+    "SaleId": 422,
+    "SaleName": "Graham-Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 706
+        "FieldLength": 316
       }
     }
   }

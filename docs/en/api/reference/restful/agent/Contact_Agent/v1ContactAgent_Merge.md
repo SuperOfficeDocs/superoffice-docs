@@ -40,19 +40,18 @@ POST /api/v1/Agents/Contact/Merge?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SourceContactId, DestinationContactId, MergeIdenticalPersons, ReplaceEmptyFieldsOnDestination 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SourceContactId | int32 |  |
-| DestinationContactId | int32 |  |
-| MergeIdenticalPersons | bool |  |
-| ReplaceEmptyFieldsOnDestination | bool |  |
+| SourceContactId | Integer |  |
+| DestinationContactId | Integer |  |
+| MergeIdenticalPersons | Boolean |  |
+| ReplaceEmptyFieldsOnDestination | Boolean |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -60,7 +59,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -73,10 +72,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 968,
-  "DestinationContactId": 561,
-  "MergeIdenticalPersons": true,
-  "ReplaceEmptyFieldsOnDestination": false
+  "SourceContactId": 658,
+  "DestinationContactId": 763,
+  "MergeIdenticalPersons": false,
+  "ReplaceEmptyFieldsOnDestination": true
 }
 ```
 

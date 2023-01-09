@@ -25,7 +25,7 @@ Gets a RelationDefinitionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=81
+POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=158
 POST /api/v1/Agents/List/GetRelationDefinitionEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetRelationDefinitionEntity?$select=name,department,cat
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RelationDefinitionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +64,7 @@ Response body:
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,7 +73,7 @@ Response body:
 POST /api/v1/Agents/List/GetRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,12 +83,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 759,
-  "Name": "Zulauf Group",
-  "Tooltip": "sapiente",
-  "PassiveText": "maiores",
-  "Deleted": false,
-  "Rank": 895,
+  "ReldefId": 604,
+  "Name": "Raynor-Medhurst",
+  "Tooltip": "omnis",
+  "PassiveText": "vel",
+  "Deleted": true,
+  "Rank": 98,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 189
+      "FieldLength": 865
     }
   }
 }

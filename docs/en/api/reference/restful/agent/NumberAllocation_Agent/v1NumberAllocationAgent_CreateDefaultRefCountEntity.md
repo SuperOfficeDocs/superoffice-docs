@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RefCountEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +57,7 @@ Response body:
 | Unique | bool | Check that entered value is unique |
 | ReadOnly | bool | Target field is read only in GUI |
 | AllowBlank | bool | Allow blank  as a valid value |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -66,7 +66,7 @@ Response body:
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,49 +76,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 415,
-  "Field": "eum",
-  "RecordId": 741,
+  "RefCountsId": 39,
+  "Field": "eaque",
+  "RecordId": 239,
   "SuggestedRecords": [
     {
-      "Id": 861,
-      "Name": "Grimes LLC",
-      "ToolTip": "Enim omnis eius.",
+      "Id": 211,
+      "Name": "Vandervort, Hettinger and Zboncak",
+      "ToolTip": "Quisquam velit pariatur nobis nesciunt ad tempore et.",
       "Deleted": false,
-      "Rank": 728,
-      "Type": "et",
+      "Rank": 437,
+      "Type": "maiores",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 113,
-      "ExtraInfo": "maiores",
-      "StyleHint": "nesciunt",
-      "FullName": "Claudie Von Sr.",
+      "IconHint": "laudantium",
+      "ColorBlock": 970,
+      "ExtraInfo": "eius",
+      "StyleHint": "quo",
+      "FullName": "Prof. Carmela Larkin III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 194
+          "FieldType": "System.Int32",
+          "FieldLength": 777
         }
       }
     }
   ],
-  "CurrentValue": 77,
-  "TravelPrefix": 286,
-  "SatPrefix": 558,
-  "Allocate": true,
+  "CurrentValue": 834,
+  "TravelPrefix": 749,
+  "SatPrefix": 249,
+  "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldLength": 59
     }
   }
 }

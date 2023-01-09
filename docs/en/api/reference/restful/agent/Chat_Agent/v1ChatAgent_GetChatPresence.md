@@ -42,7 +42,7 @@ POST /api/v1/Agents/Chat/GetChatPresence?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +59,7 @@ Response body: array
 | OngoingChats | int32 | The number of ongoing chats this users has now |
 | Present | bool | Indicates if the user has the chat presence turned on or off |
 | ChatTopics | array | An array of ids with chat topics that this user is a member of |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -68,7 +68,7 @@ Response body: array
 POST /api/v1/Agents/Chat/GetChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 819,
-    "DisplayName": "Gleichner Group",
-    "OngoingChats": 150,
-    "Present": true,
+    "UserId": 191,
+    "DisplayName": "Langosh LLC",
+    "OngoingChats": 486,
+    "Present": false,
     "ChatTopics": [
-      858,
-      136
+      294,
+      198
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldType": "System.Int32",
+        "FieldLength": 568
       }
     }
   }

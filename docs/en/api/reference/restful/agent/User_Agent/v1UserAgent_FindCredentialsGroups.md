@@ -47,17 +47,16 @@ POST /api/v1/Agents/User/FindCredentialsGroups?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Type, SearchString 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Type | string |  |
-| SearchString | string |  |
+| Type | String |  |
+| SearchString | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,13 +64,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string | This is the full name of the group as needed to discover the users within the group.  this value should not be displayed to the end user. |
 | DisplayName | string | The display name of the group to display to the user. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,12 +79,12 @@ Response body: array
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "quibusdam",
-  "SearchString": "autem"
+  "Type": "quo",
+  "SearchString": "nihil"
 }
 ```
 
@@ -97,26 +96,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ernser, Swift and Gottlieb",
-    "DisplayName": "Sipes, Runolfsson and Larkin",
+    "Name": "Walker Inc and Sons",
+    "DisplayName": "Becker, O'Reilly and Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 36
       }
     }
   },
   {
-    "Name": "Ernser, Swift and Gottlieb",
-    "DisplayName": "Sipes, Runolfsson and Larkin",
+    "Name": "Walker Inc and Sons",
+    "DisplayName": "Becker, O'Reilly and Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 36
       }
     }
   }

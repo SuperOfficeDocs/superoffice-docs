@@ -25,7 +25,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=408
+POST /api/v1/Agents/Document/GetDocument?documentId=615
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Document
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +76,7 @@ Response body:
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,7 +85,7 @@ Response body:
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 280,
-  "Attention": "ullam",
-  "Header": "rerum",
-  "Name": "Keeling, Hettinger and Rutherford",
-  "OurRef": "aut",
-  "YourRef": "voluptate",
-  "Description": "Inverse intangible migration",
-  "DocumentTemplate": "sed",
+  "DocumentId": 183,
+  "Attention": "a",
+  "Header": "ea",
+  "Name": "Fritsch, O'Reilly and Jewess",
+  "OurRef": "dolores",
+  "YourRef": "ea",
+  "Description": "Horizontal tangible middleware",
+  "DocumentTemplate": "et",
   "IsPublished": false,
-  "PersonId": 483,
-  "PersonFullName": "Jaron Conn V",
-  "AssociateFullName": "Cleora Hermiston",
-  "ContactId": 656,
-  "ContactName": "Stiedemann, Hilll and Bashirian",
-  "ProjectId": 275,
-  "ProjectName": "Morissette, Grimes and Reilly",
-  "AssociateId": 512,
-  "Snum": 475,
-  "SaleId": 773,
-  "SaleName": "Pacocha Group",
+  "PersonId": 662,
+  "PersonFullName": "Dr. Cheyanne Elliott Stanton",
+  "AssociateFullName": "Amya Kerluke",
+  "ContactId": 186,
+  "ContactName": "Effertz Inc and Sons",
+  "ProjectId": 153,
+  "ProjectName": "Bartoletti-Muller",
+  "AssociateId": 837,
+  "Snum": 622,
+  "SaleId": 61,
+  "SaleName": "Schamberger Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldLength": 963
     }
   }
 }

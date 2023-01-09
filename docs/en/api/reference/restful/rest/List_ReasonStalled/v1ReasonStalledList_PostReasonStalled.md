@@ -32,21 +32,20 @@ Add a new ReasonStalled to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem  
+## Request Body: newListItem 
 
 The ReasonStalled to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The identity of the list item |
-| Name | string | The name of the list item |
-| Tooltip | string | The tooltip of the list item |
-| Deleted | bool | True if the list item is marked as deleted |
-| UdListDefinitionId | int32 | The id of the list which this list item belongs to |
-| Rank | int32 | The rank of the list item |
+| Id | Integer | The identity of the list item |
+| Name | String | The name of the list item |
+| Tooltip | String | The tooltip of the list item |
+| Deleted | Boolean | True if the list item is marked as deleted |
+| UdListDefinitionId | Integer | The id of the list which this list item belongs to |
+| Rank | Integer | The rank of the list item |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -54,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ListItemEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +63,7 @@ Response body:
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,12 +76,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 806,
-  "Name": "Moore-Keebler",
-  "Tooltip": "neque",
-  "Deleted": false,
-  "UdListDefinitionId": 449,
-  "Rank": 877
+  "Id": 277,
+  "Name": "Hettinger, Beahan and Corwin",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "UdListDefinitionId": 376,
+  "Rank": 884
 }
 ```
 
@@ -93,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Zboncak, Kozey and Purdy",
-  "Tooltip": "modi",
+  "Id": 842,
+  "Name": "Steuber Group",
+  "Tooltip": "eum",
   "Deleted": false,
-  "UdListDefinitionId": 4,
-  "Rank": 478,
+  "UdListDefinitionId": 214,
+  "Rank": 944,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 847
     }
   }
 }

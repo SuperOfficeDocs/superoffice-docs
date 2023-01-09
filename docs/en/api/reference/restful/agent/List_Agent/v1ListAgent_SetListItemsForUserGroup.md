@@ -38,19 +38,18 @@ POST /api/v1/Agents/List/SetListItemsForUserGroup?$select=name,department,catego
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionId, UsergroupId, ListItemIds, Enable 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionId | int32 |  |
-| UsergroupId | int32 |  |
-| ListItemIds | array |  |
-| Enable | bool |  |
+| UdListDefinitionId | Integer |  |
+| UsergroupId | Integer |  |
+| ListItemIds | Array |  |
+| Enable | Boolean |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -58,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -71,11 +70,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 769,
-  "UsergroupId": 492,
+  "UdListDefinitionId": 158,
+  "UsergroupId": 269,
   "ListItemIds": [
-    932,
-    88
+    648,
+    24
   ],
   "Enable": false
 }

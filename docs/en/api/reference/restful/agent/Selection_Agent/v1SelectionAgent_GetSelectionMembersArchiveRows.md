@@ -44,17 +44,16 @@ POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, Select 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| Select | string |  |
+| SelectionId | Integer |  |
+| Select | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body: array
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 607,
-  "Select": "harum"
+  "SelectionId": 881,
+  "Select": "quam"
 }
 ```
 
@@ -97,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "O'Kon-Lindgren",
-    "PrimaryKey": 786,
+    "EntityName": "Koch-Cummerata",
+    "PrimaryKey": 219,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "praesentium",
-        "TooltipHint": "rerum",
-        "LinkHint": "commodi"
+        "DisplayValue": "cupiditate",
+        "TooltipHint": "accusantium",
+        "LinkHint": "voluptas"
       }
     },
-    "LinkHint": "est",
-    "StyleHint": "numquam",
+    "LinkHint": "eveniet",
+    "StyleHint": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldLength": 450
       }
     }
   }

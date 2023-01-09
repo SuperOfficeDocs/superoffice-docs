@@ -48,7 +48,7 @@ GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 929,
-    "Name": "Little-Torphy",
-    "ToolTip": "Qui consequatur commodi saepe necessitatibus.",
-    "Deleted": false,
-    "Rank": 280,
-    "Type": "vel",
-    "ColorBlock": 63,
-    "IconHint": "ut",
+    "Id": 864,
+    "Name": "Nader-Ernser",
+    "ToolTip": "Ut et.",
+    "Deleted": true,
+    "Rank": 462,
+    "Type": "consequatur",
+    "ColorBlock": 689,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2008-07-17T02:49:51.9221933+02:00",
+    "LastChanged": "2004-03-23T17:37:39.8795002+01:00",
     "ChildItems": [
       {
-        "Id": 482,
-        "Name": "Beahan, Kuhn and Auer",
-        "ToolTip": "In voluptatem magnam expedita.",
+        "Id": 116,
+        "Name": "Hessel-Krajcik",
+        "ToolTip": "Necessitatibus est illo excepturi quis voluptatem voluptas.",
         "Deleted": false,
-        "Rank": 75,
-        "Type": "consequatur",
-        "ColorBlock": 995,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2002-09-02T02:49:51.9221933+02:00",
+        "Rank": 981,
+        "Type": "fugit",
+        "ColorBlock": 984,
+        "IconHint": "vero",
+        "Selected": true,
+        "LastChanged": "1996-09-15T17:37:39.8795002+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "esse",
-        "Hidden": false,
-        "FullName": "Miss Mariah Ezra Renner",
+        "ExtraInfo": "rem",
+        "StyleHint": "dignissimos",
+        "Hidden": true,
+        "FullName": "Fredrick Ortiz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 892
+            "FieldType": "System.String",
+            "FieldLength": 105
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "ea",
+    "ExtraInfo": "magnam",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Modesta Kutch V",
+    "FullName": "Prof. Kaycee Oceane Prosacco Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldType": "System.Int32",
+        "FieldLength": 200
       }
     }
   }

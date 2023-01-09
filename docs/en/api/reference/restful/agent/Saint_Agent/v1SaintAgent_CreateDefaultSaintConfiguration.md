@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaintConfiguration
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +54,7 @@ Response body:
 | GenerationStart | date-time | When was the last regeneration started |
 | GenerationEnd | date-time | When was the last regeneration finished |
 | RowsGenerated | int32 | Number of CounterValue rows generated for this entity |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -63,7 +63,7 @@ Response body:
 POST /api/v1/Agents/Saint/CreateDefaultSaintConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 544,
-  "Enabled": false,
-  "Period1": 339,
-  "Period2": 828,
-  "Period3": 196,
-  "GenerationStart": "2009-03-14T02:49:45.0778395+01:00",
-  "GenerationEnd": "1995-11-24T02:49:45.0778395+01:00",
-  "RowsGenerated": 8,
+  "OwnerTable": 777,
+  "Enabled": true,
+  "Period1": 803,
+  "Period2": 295,
+  "Period3": 240,
+  "GenerationStart": "2001-02-13T17:37:18.8122417+01:00",
+  "GenerationEnd": "2012-11-14T17:37:18.8122417+01:00",
+  "RowsGenerated": 476,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldLength": 723
     }
   }
 }

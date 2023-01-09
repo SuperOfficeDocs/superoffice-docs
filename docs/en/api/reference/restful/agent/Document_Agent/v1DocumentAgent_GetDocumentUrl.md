@@ -44,18 +44,17 @@ POST /api/v1/Agents/Document/GetDocumentUrl?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentId, VersionId, WriteableUrl 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentId | int32 |  |
-| VersionId | string |  |
-| WriteableUrl | bool |  |
+| DocumentId | Integer |  |
+| VersionId | String |  |
+| WriteableUrl | Boolean |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -72,12 +71,12 @@ Response body: string
 POST /api/v1/Agents/Document/GetDocumentUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 145,
-  "VersionId": "illum",
+  "DocumentId": 891,
+  "VersionId": "ipsam",
   "WriteableUrl": false
 }
 ```

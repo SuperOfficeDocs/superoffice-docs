@@ -42,7 +42,7 @@ POST /api/v1/Agents/Selection/GetDuplicateRules?$select=name,department,category
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +58,7 @@ Response body: array
 | DisplayName | string | Short name of rule to display to user |
 | DisplayTooltip | string | Description of the rule |
 | IsActive | bool | Indicating if a rule is current active, and should included in the duplicate detection |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -67,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/Selection/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lang-Donnelly",
-    "DisplayName": "Metz, Heller and Lubowitz",
-    "DisplayTooltip": "a",
-    "IsActive": false,
+    "Name": "Bayer, Christiansen and Farrell",
+    "DisplayName": "Rutherford, Hammes and Greenfelder",
+    "DisplayTooltip": "laudantium",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 170
+        "FieldLength": 771
       }
     }
   },
   {
-    "Name": "Lang-Donnelly",
-    "DisplayName": "Metz, Heller and Lubowitz",
-    "DisplayTooltip": "a",
-    "IsActive": false,
+    "Name": "Bayer, Christiansen and Farrell",
+    "DisplayName": "Rutherford, Hammes and Greenfelder",
+    "DisplayTooltip": "laudantium",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 170
+        "FieldLength": 771
       }
     }
   }

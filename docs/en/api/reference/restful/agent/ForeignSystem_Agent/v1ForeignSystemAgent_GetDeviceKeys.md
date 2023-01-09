@@ -42,17 +42,16 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeys?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body: array
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,12 +80,12 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Jacobson Group",
-  "DeviceName": "Mante, Kuvalis and Reichert"
+  "ApplicationName": "Ondricka, Little and Kuhic",
+  "DeviceName": "Rowe-Lockman"
 }
 ```
 
@@ -98,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "tempora",
-    "Value": "qui",
-    "RecordId": 789,
-    "CreatedDate": "2002-02-07T02:49:44.561046+01:00",
-    "UpdatedDate": "2003-01-27T02:49:44.561046+01:00",
-    "UpdatedBy": "molestiae",
-    "CreatedBy": "dolor",
-    "TableName": "Schiller LLC",
+    "Key": "at",
+    "Value": "quod",
+    "RecordId": 721,
+    "CreatedDate": "2018-08-30T17:37:18.1132412+02:00",
+    "UpdatedDate": "2012-06-07T17:37:18.1132412+02:00",
+    "UpdatedBy": "quia",
+    "CreatedBy": "eum",
+    "TableName": "Koelpin Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldType": "System.String",
+        "FieldLength": 680
       }
     }
   }

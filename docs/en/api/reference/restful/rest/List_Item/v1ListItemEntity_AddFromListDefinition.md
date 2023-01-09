@@ -36,21 +36,20 @@ Save a new list item for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: item  
+## Request Body: item 
 
 The item to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The identity of the list item |
-| Name | string | The name of the list item |
-| Tooltip | string | The tooltip of the list item |
-| Deleted | bool | True if the list item is marked as deleted |
-| UdListDefinitionId | int32 | The id of the list which this list item belongs to |
-| Rank | int32 | The rank of the list item |
+| Id | Integer | The identity of the list item |
+| Name | String | The name of the list item |
+| Tooltip | String | The tooltip of the list item |
+| Deleted | Boolean | True if the list item is marked as deleted |
+| UdListDefinitionId | Integer | The id of the list which this list item belongs to |
+| Rank | Integer | The rank of the list item |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -58,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ListItemEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body:
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,16 +76,16 @@ Response body:
 POST /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 207,
-  "Name": "Shanahan LLC",
-  "Tooltip": "sunt",
+  "Id": 230,
+  "Name": "Hamill LLC",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "UdListDefinitionId": 41,
-  "Rank": 746
+  "UdListDefinitionId": 506,
+  "Rank": 969
 }
 ```
 
@@ -97,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 636,
-  "Name": "Gottlieb-Kreiger",
-  "Tooltip": "rem",
+  "Id": 452,
+  "Name": "Hermiston-Hessel",
+  "Tooltip": "mollitia",
   "Deleted": false,
-  "UdListDefinitionId": 785,
-  "Rank": 742,
+  "UdListDefinitionId": 725,
+  "Rank": 971,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldLength": 678
     }
   }
 }

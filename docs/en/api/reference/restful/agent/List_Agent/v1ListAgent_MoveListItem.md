@@ -38,18 +38,17 @@ POST /api/v1/Agents/List/MoveListItem?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionId, ListItemId, Direction 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionId | int32 |  |
-| ListItemId | int32 |  |
-| Direction | int32 |  |
+| UdListDefinitionId | Integer |  |
+| ListItemId | Integer |  |
+| Direction | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -57,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -70,9 +69,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 393,
-  "ListItemId": 940,
-  "Direction": 540
+  "UdListDefinitionId": 264,
+  "ListItemId": 422,
+  "Direction": 648
 }
 ```
 

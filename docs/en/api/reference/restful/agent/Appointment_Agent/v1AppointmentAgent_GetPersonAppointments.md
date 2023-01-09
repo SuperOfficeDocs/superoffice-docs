@@ -44,20 +44,19 @@ POST /api/v1/Agents/Appointment/GetPersonAppointments?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, IncludeProjectAppointments, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| IncludeProjectAppointments | bool |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| PersonId | Integer |  |
+| IncludeProjectAppointments | Boolean |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +117,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -127,15 +126,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 814,
+  "PersonId": 386,
   "IncludeProjectAppointments": true,
-  "StartTime": "1996-04-26T02:49:43.4972799+02:00",
-  "EndTime": "2002-04-12T02:49:43.4972799+02:00",
-  "Count": 213
+  "StartTime": "2021-01-20T17:37:16.5812454+01:00",
+  "EndTime": "2013-02-26T17:37:16.5812454+01:00",
+  "Count": 356
 }
 ```
 
@@ -147,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 641,
-    "StartDate": "1996-11-20T02:49:43.4972799+01:00",
-    "EndDate": "2001-03-03T02:49:43.4972799+01:00",
+    "AppointmentId": 675,
+    "StartDate": "2015-08-31T17:37:16.5822449+02:00",
+    "EndDate": "2018-07-09T17:37:16.5822449+02:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Prof. Juvenal Foster Ankunding",
-    "ContactName": "Jacobi-Anderson",
-    "Description": "Decentralized systemic local area network",
-    "PersonFullName": "Roman Hagenes",
-    "PersonId": 962,
-    "ContactId": 288,
-    "ProjectId": 884,
-    "ProjectName": "Larkin, Mertz and Walker",
+    "Task": "officiis",
+    "AssociateFullName": "Mrs. Fiona Schneider MD",
+    "ContactName": "Sanford-Barrows",
+    "Description": "Profound impactful throughput",
+    "PersonFullName": "Broderick Jacobs",
+    "PersonId": 539,
+    "ContactId": 681,
+    "ProjectId": 496,
+    "ProjectName": "Moen Group",
     "IsPublished": false,
-    "AssociateId": 897,
-    "ColorIndex": 212,
-    "IsFree": false,
+    "AssociateId": 176,
+    "ColorIndex": 87,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 145,
-    "PriorityName": "Fritsch, Mertz and Towne",
+    "PriorityId": 837,
+    "PriorityName": "Swift LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2022-08-08T02:49:43.4972799+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2005-04-09T17:37:16.5822449+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-09-12T02:49:43.4972799+02:00",
-    "RecurringEndDate": "2021-05-24T02:49:43.4972799+02:00",
-    "MotherId": 924,
-    "AssignedBy": 718,
-    "AssignedByFullName": "Bettye Jacobson",
-    "RejectReason": "redefine impactful architectures",
-    "Location": "occaecati",
-    "AlarmLeadTime": "libero",
-    "SaleId": 938,
-    "SaleName": "Oberbrunner Group",
-    "AssociateName": "Nicolas, Jakubowski and DuBuque",
-    "CreatedDate": "2007-09-12T02:49:43.4972799+02:00",
-    "CreatedBy": "ducimus",
-    "CreatedByFullName": "Hilda Grimes",
-    "CreatedByAssociateId": 837,
+    "RecurringStartDate": "2018-11-04T17:37:16.5822449+01:00",
+    "RecurringEndDate": "2007-12-23T17:37:16.5822449+01:00",
+    "MotherId": 554,
+    "AssignedBy": 57,
+    "AssignedByFullName": "Avis Miller",
+    "RejectReason": "",
+    "Location": "reprehenderit",
+    "AlarmLeadTime": "fugiat",
+    "SaleId": 571,
+    "SaleName": "Schmitt, Becker and Dickens",
+    "AssociateName": "Connelly, Bosco and Brakus",
+    "CreatedDate": "2008-03-06T17:37:16.5832441+01:00",
+    "CreatedBy": "incidunt",
+    "CreatedByFullName": "Ms. Oda Tod Dickinson",
+    "CreatedByAssociateId": 324,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldType": "System.String",
+        "FieldLength": 375
       }
     }
   }

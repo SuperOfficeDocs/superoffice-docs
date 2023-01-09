@@ -48,7 +48,7 @@ GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Hudson LLC",
-    "ToolTip": "Sint reprehenderit voluptas magnam.",
+    "Id": 850,
+    "Name": "Leannon-Schuster",
+    "ToolTip": "Cumque laborum exercitationem id et in iste.",
     "Deleted": true,
-    "Rank": 835,
-    "Type": "sint",
-    "ColorBlock": 182,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2004-12-10T02:49:52.2659433+01:00",
+    "Rank": 963,
+    "Type": "dolores",
+    "ColorBlock": 220,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "1996-11-02T17:37:40.0405008+01:00",
     "ChildItems": [
       {
-        "Id": 559,
-        "Name": "Bechtelar-Runolfsdottir",
-        "ToolTip": "Iusto magni omnis nesciunt dolores voluptatem.",
+        "Id": 865,
+        "Name": "Bradtke, Lesch and Hessel",
+        "ToolTip": "Nihil non mollitia ea beatae aut rerum velit.",
         "Deleted": false,
-        "Rank": 870,
+        "Rank": 600,
         "Type": "quia",
-        "ColorBlock": 362,
-        "IconHint": "temporibus",
+        "ColorBlock": 95,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "2005-04-22T02:49:52.2659433+02:00",
+        "LastChanged": "2009-07-18T17:37:40.0405008+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "expedita",
-        "Hidden": true,
-        "FullName": "Prof. Silas Wiza",
+        "ExtraInfo": "quidem",
+        "StyleHint": "tenetur",
+        "Hidden": false,
+        "FullName": "Mr. Rosanna Cordell Mills PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 719
+            "FieldLength": 974
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "perspiciatis",
-    "Hidden": true,
-    "FullName": "Rosalinda Stark",
+    "ExtraInfo": "ut",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Ruben O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldLength": 942
       }
     }
   }

@@ -38,7 +38,7 @@ Calls the List agent service GetCurrencyEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -47,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: CurrencyEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +58,7 @@ Response body:
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -67,7 +67,7 @@ Response body:
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,19 +77,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 836,
-  "Name": "Schmitt LLC",
-  "Tooltip": "aut",
-  "Rank": 775,
-  "Rate": 17935.881999999998,
-  "Units": 22433.172,
+  "CurrencyId": 751,
+  "Name": "Kling Group",
+  "Tooltip": "eos",
+  "Rank": 597,
+  "Rate": 7856.938,
+  "Units": 24391.922,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldType": "System.Int32",
+      "FieldLength": 935
     }
   }
 }

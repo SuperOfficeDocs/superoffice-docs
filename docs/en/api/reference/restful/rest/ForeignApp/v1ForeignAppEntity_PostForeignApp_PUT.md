@@ -38,7 +38,7 @@ Calls the ForeignSystem agent service SaveForeignAppEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignAppEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,10 +54,10 @@ Response body:
 | Name | string | Name of foreign application |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the foreign application. |
-| UpdatedBy |  | The person that last updated this foreign application. |
+| CreatedBy | Associate | The person that created the foreign application. |
+| UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 236,
-  "Name": "Lakin LLC",
-  "CreatedDate": "2000-09-03T02:49:50.9640389+02:00",
-  "UpdatedDate": "2006-09-24T02:49:50.9640389+02:00",
+  "ForeignAppId": 329,
+  "Name": "Rice Inc and Sons",
+  "CreatedDate": "1995-11-24T17:37:38.6078298+01:00",
+  "UpdatedDate": "2003-08-26T17:37:38.6078298+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 915,
-      "Name": "Barrows-Flatley",
-      "CreatedDate": "2003-10-10T02:49:50.9640389+02:00",
-      "UpdatedDate": "2022-04-29T02:49:50.9640389+02:00",
-      "AssociateFullName": "Christina Cronin",
-      "CreatedBy": "veritatis",
-      "UpdatedBy": "illo",
-      "DeviceIdentifier": "voluptatem",
-      "ForeignAppId": 893,
+      "ForeignDeviceId": 850,
+      "Name": "Schumm, Klein and VonRueden",
+      "CreatedDate": "2002-11-19T17:37:38.6078298+01:00",
+      "UpdatedDate": "2007-09-06T17:37:38.6078298+02:00",
+      "AssociateFullName": "Mr. Tremaine Raynor DDS",
+      "CreatedBy": "rem",
+      "UpdatedBy": "magni",
+      "DeviceIdentifier": "quis",
+      "ForeignAppId": 773,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 523
+          "FieldType": "System.Int32",
+          "FieldLength": 819
         }
       }
     }
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldType": "System.String",
+      "FieldLength": 676
     }
   }
 }

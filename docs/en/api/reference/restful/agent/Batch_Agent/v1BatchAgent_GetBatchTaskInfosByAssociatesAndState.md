@@ -42,17 +42,16 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateIds, State 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateIds | array |  |
-| State | string |  |
+| AssociateIds | Array |  |
+| State | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +84,7 @@ Response body: array
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -99,8 +98,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    981,
-    118
+    930,
+    922
   ],
   "State": "All"
 }
@@ -114,36 +113,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "Nader, Olson and Barrows",
-    "AssociateId": 272,
-    "DetailsTable": 707,
-    "DetailsRecord": 605,
-    "IsSystemTask": false,
+    "Id": 258,
+    "Name": "Herzog-Heathcote",
+    "AssociateId": 191,
+    "DetailsTable": 345,
+    "DetailsRecord": 987,
+    "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "fugiat",
-      "ParameterObject2": "sapiente"
+      "ParameterObject1": "magnam",
+      "ParameterObject2": "velit"
     },
-    "LastStarted": "2019-03-08T02:49:43.7004017+01:00",
-    "Created": "2008-09-18T02:49:43.7004017+02:00",
-    "StartCount": 234,
-    "DatabaseSerialNumber": "1354963",
-    "Context": "explicabo",
-    "Result": "iusto",
+    "LastStarted": "2015-05-08T17:37:16.9032419+02:00",
+    "Created": "2016-03-29T17:37:16.9032419+02:00",
+    "StartCount": 559,
+    "DatabaseSerialNumber": "1300169",
+    "Context": "quia",
+    "Result": "eos",
     "State": "All",
-    "Description": "Diverse coherent firmware",
-    "Response": "itaque",
-    "Request": "quas",
-    "ProgressDescription": "Digitized systemic moratorium",
-    "ProgressPercent": 835,
-    "FileName": "Herman Group",
+    "Description": "Multi-lateral mission-critical time-frame",
+    "Response": "et",
+    "Request": "quia",
+    "ProgressDescription": "Versatile 24/7 customer loyalty",
+    "ProgressPercent": 79,
+    "FileName": "Trantow Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldLength": 581
       }
     }
   }

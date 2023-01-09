@@ -25,7 +25,7 @@ Gets a HeadingEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=985
+POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=893
 POST /api/v1/Agents/List/GetHeadingEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetHeadingEntity?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: HeadingEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +62,7 @@ Response body:
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +71,7 @@ Response body:
 POST /api/v1/Agents/List/GetHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 93,
-  "Name": "Davis-Wolf",
-  "Tooltip": "repudiandae",
-  "Deleted": true,
-  "Rank": 255,
-  "UdListDefinitionId": 181,
+  "HeadingId": 578,
+  "Name": "Marvin LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 82,
+  "UdListDefinitionId": 931,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldLength": 32
     }
   }
 }

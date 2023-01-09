@@ -32,28 +32,27 @@ Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ConfigurableScreenDelta to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConfigurableScreenDeltaId | int32 |  |
-| Name | string |  |
-| Description | string |  |
-| DeltaJson | string |  |
-| DeltaType | string |  |
-| DeltaState | string |  |
-| RecipeId | string |  |
-| UpdatedDate | date-time |  |
-| CreatedDate | date-time |  |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| AppliesToIds | array |  |
-| AppliesToKey | string |  |
+| ConfigurableScreenDeltaId | Integer |  |
+| Name | String |  |
+| Description | String |  |
+| DeltaJson | String |  |
+| DeltaType | String |  |
+| DeltaState | String |  |
+| RecipeId | String |  |
+| UpdatedDate | String |  |
+| CreatedDate | String |  |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| AppliesToIds | Array |  |
+| AppliesToKey | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,11 +73,11 @@ Response body:
 | RecipeId | string |  |
 | UpdatedDate | date-time |  |
 | CreatedDate | date-time |  |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,26 +86,26 @@ Response body:
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 212,
-  "Name": "Metz, Crona and Hermiston",
-  "Description": "Extended web-enabled implementation",
-  "DeltaJson": "expedita",
+  "ConfigurableScreenDeltaId": 830,
+  "Name": "Dibbert, Hirthe and Zemlak",
+  "Description": "Reverse-engineered optimizing info-mediaries",
+  "DeltaJson": "sequi",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "aperiam",
-  "UpdatedDate": "2019-05-30T02:49:43.8566571+02:00",
-  "CreatedDate": "2016-08-25T02:49:43.8566571+02:00",
+  "RecipeId": "necessitatibus",
+  "UpdatedDate": "2014-09-01T17:37:17.1102442+02:00",
+  "CreatedDate": "2013-10-22T17:37:17.1102442+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    61,
-    800
+    551,
+    295
   ],
-  "AppliesToKey": "quasi"
+  "AppliesToKey": "ut"
 }
 ```
 
@@ -117,28 +116,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 809,
-  "Name": "Lang, Von and Graham",
-  "Description": "Progressive leading edge hardware",
-  "DeltaJson": "ipsa",
+  "ConfigurableScreenDeltaId": 861,
+  "Name": "Goyette Group",
+  "Description": "Proactive tertiary circuit",
+  "DeltaJson": "et",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quis",
-  "UpdatedDate": "2016-04-30T02:49:43.8566571+02:00",
-  "CreatedDate": "2008-11-07T02:49:43.8566571+01:00",
+  "RecipeId": "eos",
+  "UpdatedDate": "2005-11-07T17:37:17.112245+01:00",
+  "CreatedDate": "2018-03-26T17:37:17.112245+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    941,
-    290
+    830,
+    339
   ],
-  "AppliesToKey": "laboriosam",
+  "AppliesToKey": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldType": "System.Int32",
+      "FieldLength": 362
     }
   }
 }

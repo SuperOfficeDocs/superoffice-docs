@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/GetOrRegisterAccessGatewayInfo
 Returns accessgateway registration info and registers a new or adds the url if necessary
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/User/GetOrRegisterAccessGatewayInfo?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 RedirectUri 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RedirectUri | string |  |
+| RedirectUri | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,13 +60,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AccessGatewayInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ClientId | string | This is the registered client_id for AccessGateway OIDC |
 | RedirectUri | string | This is the registered redirect_uri for AccessGateway OIDC. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "et"
+  "RedirectUri": "cum"
 }
 ```
 
@@ -93,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "asperiores",
-  "RedirectUri": "deleniti",
+  "ClientId": "cum",
+  "RedirectUri": "ipsam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 202
+      "FieldLength": 292
     }
   }
 }

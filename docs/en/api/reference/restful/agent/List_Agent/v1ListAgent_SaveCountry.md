@@ -42,16 +42,15 @@ POST /api/v1/Agents/List/SaveCountry?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Country 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Country |  | Carrier object for Country. Services for the Country Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| Country | Country | Carrier object for Country. Services for the Country Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Country
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +80,7 @@ Response body:
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,7 +89,7 @@ Response body:
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 307,
-  "Name": "Graham, Fritsch and Monahan",
-  "CurrencyId": 703,
-  "EnglishName": "Nader, Prosacco and Ullrich",
+  "CountryId": 392,
+  "Name": "Fadel-Heller",
+  "CurrencyId": 654,
+  "EnglishName": "Hamill, Johns and Torp",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Reduced responsive capability",
-  "OrgNrText": "967657",
-  "InterAreaPrefix": "impedit",
-  "DialInPrefix": "ab",
-  "ZipPrefix": "voluptatum",
-  "DomainName": "Wilderman-Bergnaum",
-  "AddressLayoutId": 721,
-  "DomesticAddressLayoutId": 564,
-  "ForeignAddressLayoutId": 316,
-  "Rank": 32,
-  "Tooltip": "nisi",
+  "ImageDescription": "Optional radical forecast",
+  "OrgNrText": "879849",
+  "InterAreaPrefix": "et",
+  "DialInPrefix": "pariatur",
+  "ZipPrefix": "dolorem",
+  "DomainName": "Farrell Group",
+  "AddressLayoutId": 141,
+  "DomesticAddressLayoutId": 62,
+  "ForeignAddressLayoutId": 341,
+  "Rank": 336,
+  "Tooltip": "qui",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldType": "System.String",
+      "FieldLength": 951
     }
   }
 }

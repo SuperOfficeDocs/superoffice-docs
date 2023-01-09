@@ -111,7 +111,6 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | archiveProviderName | string | Archive Provider name: FindContact, Person, Product, etc. Call with blank name to get a list of names. **Required** |
@@ -140,14 +139,14 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=nobis
-GET /api/v1/Archive/{archiveProviderName}?$top=854
-GET /api/v1/Archive/{archiveProviderName}?$skip=490
+GET /api/v1/Archive/{archiveProviderName}?$entities=cupiditate
+GET /api/v1/Archive/{archiveProviderName}?$top=126
+GET /api/v1/Archive/{archiveProviderName}?$skip=233
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=voluptas
+GET /api/v1/Archive/{archiveProviderName}?$context=dolorem
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=suscipit
+GET /api/v1/Archive/{archiveProviderName}?$metadata=sint
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
 GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
@@ -168,7 +167,7 @@ GET /api/v1/Archive/{archiveProviderName}?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -176,7 +175,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -190,7 +189,7 @@ Response body:
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -201,19 +200,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolor",
+  "odata.nextLink": "omnis",
   "value": [
     {
-      "PrimaryKey": 7993,
-      "EntityName": "person",
-      "personId": 7993,
-      "fullName": "Prof. Sandy Lesly Greenholt"
+      "PrimaryKey": 9075,
+      "EntityName": "sale",
+      "saleId": 9075,
+      "contactId": 3788,
+      "name": "Smitham, Green and Jaskolski"
     },
     {
-      "PrimaryKey": 9661,
-      "EntityName": "person",
-      "personId": 9661,
-      "fullName": "Mr. Carroll Shannon Bartell"
+      "PrimaryKey": 8652,
+      "EntityName": "sale",
+      "saleId": 8652,
+      "contactId": 7062,
+      "name": "Hills Inc and Sons"
     }
   ]
 }

@@ -66,3 +66,7 @@ title: Archive_Agent
 * [POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2](v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2.md)
 
 * [POST Agents/Archive/ExportArchive](v1ArchiveAgent_ExportArchive.md)
+
+* [POST Agents/Archive/GetRelatedData](v1ArchiveAgent_GetRelatedData.md)
+
+* [POST Agents/Archive/GetRelatedData2](v1ArchiveAgent_GetRelatedData2.md)

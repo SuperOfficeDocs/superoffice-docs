@@ -47,16 +47,15 @@ POST /api/v1/Agents/User/SaveUserGroup?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UserGroup 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UserGroup |  | The main user group that this user belongs to <para /> Carrier object for UserGroup. Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| UserGroup | UserGroup | The main user group that this user belongs to <para /> Carrier object for UserGroup. Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserGroup
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body:
 | Id | int32 | Primary key |
 | Rank | int32 | Rank order |
 | Deleted | bool | Deleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,17 +96,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "repellendus",
-  "Tooltip": "eveniet",
-  "Id": 990,
-  "Rank": 533,
-  "Deleted": false,
+  "Value": "laudantium",
+  "Tooltip": "impedit",
+  "Id": 673,
+  "Rank": 758,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 315
+      "FieldType": "System.Int32",
+      "FieldLength": 446
     }
   }
 }

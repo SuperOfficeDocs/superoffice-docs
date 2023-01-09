@@ -38,20 +38,19 @@ POST /api/v1/Agents/Find/SaveRestrictionsWithContext2?$select=name,department,ca
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, Restrictions, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| Restrictions | string |  |
-| Context | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| Restrictions | String |  |
+| Context | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -59,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -68,15 +67,15 @@ Response body:
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consequatur",
-  "ProviderName": "Turner-Ankunding",
-  "StorageKey": "ipsum",
-  "Restrictions": "sit",
-  "Context": "autem"
+  "StorageType": "iure",
+  "ProviderName": "King-Connelly",
+  "StorageKey": "beatae",
+  "Restrictions": "dicta",
+  "Context": "nesciunt"
 }
 ```
 

@@ -25,7 +25,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=605
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=821
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaleStakeholder
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body:
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body:
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,31 +94,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Bergstrom Inc and Sons",
-  "Comment": "dolorem",
-  "StakeholderRoleId": 429,
-  "CountryId": 751,
-  "PersonId": 825,
-  "EmailDescription": "leonie@kingmcclure.uk",
-  "EmailId": 733,
-  "EmailAddress": "lera_lemke@kshlerinprice.name",
-  "PhoneId": 901,
-  "ContactName": "Erdman-Crist",
-  "ContactId": 891,
-  "SaleId": 723,
-  "Mrmrs": "consequatur",
-  "Firstname": "Katelin",
-  "MiddleName": "Sipes LLC",
-  "Lastname": "Bednar",
-  "SaleStakeholderId": 766,
-  "Rank": 135,
-  "Phone": "765.211.3506",
+  "StakeholderRoleName": "Schiller LLC",
+  "Comment": "voluptas",
+  "StakeholderRoleId": 14,
+  "CountryId": 72,
+  "PersonId": 749,
+  "EmailDescription": "leanna@wunschlangosh.us",
+  "EmailId": 374,
+  "EmailAddress": "nicholaus_mckenzie@bartonmonahan.com",
+  "PhoneId": 989,
+  "ContactName": "Kemmer-Ebert",
+  "ContactId": 527,
+  "SaleId": 796,
+  "Mrmrs": "vitae",
+  "Firstname": "Newell",
+  "MiddleName": "Wolff-Ernser",
+  "Lastname": "Kiehn",
+  "SaleStakeholderId": 516,
+  "Rank": 284,
+  "Phone": "705-556-6906",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 676
+      "FieldType": "System.Int32",
+      "FieldLength": 635
     }
   }
 }

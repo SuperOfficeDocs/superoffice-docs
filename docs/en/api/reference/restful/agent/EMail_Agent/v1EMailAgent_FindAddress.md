@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/FindAddress
 Search for contacts and persons with the specified e-mail address (exact match on the email address string required)
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/EMail/FindAddress?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Address 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Address | string |  |
+| Address | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +73,7 @@ Response body: array
 | EmailId | int32 | Primary key |
 | DuplicatePersonIds | array | All persons with this EmailAddress stored in db is listed here |
 | Name | string | The name on the email address |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,7 +86,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "nemo"
+  "Address": "perferendis"
 }
 ```
 
@@ -101,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 374,
-    "ContactName": "Jenkins, Zulauf and Smitham",
-    "PersonId": 124,
-    "PersonName": "Towne LLC",
-    "AssociateId": 613,
-    "Address": "quas",
-    "EmailId": 981,
+    "ContactId": 396,
+    "ContactName": "Barton-Schiller",
+    "PersonId": 506,
+    "PersonName": "Bins-Ryan",
+    "AssociateId": 790,
+    "Address": "debitis",
+    "EmailId": 671,
     "DuplicatePersonIds": [
-      969,
-      736
+      3,
+      696
     ],
-    "Name": "Ebert, Kessler and Hudson",
+    "Name": "Heller Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 358
+        "FieldLength": 600
       }
     }
   }

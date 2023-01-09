@@ -25,7 +25,7 @@ Gets a TargetGroup object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Targets/GetTargetGroup?targetGroupId=219
+POST /api/v1/Agents/Targets/GetTargetGroup?targetGroupId=77
 POST /api/v1/Agents/Targets/GetTargetGroup?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Targets/GetTargetGroup?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TargetGroup
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,8 +61,8 @@ Response body:
 | EntityType | string | Entity type for this set of targets (Sale, Project, Selection, Appointment...) |
 | PeriodType | string | Period type for editing this set of targets (Year, Quarter...) |
 | TargetAssignments | array | Collection of target values |
-| TargetDimension |  | Info about the target dimensions |
-| TableRight |  |  |
+| TargetDimension | TargetDimension | Info about the target dimensions |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +71,7 @@ Response body:
 POST /api/v1/Agents/Targets/GetTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,30 +81,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 364,
-  "Year": 230,
+  "TargetGroupId": 312,
+  "Year": 730,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 660,
+      "TargetAssignmentInfoId": 880,
       "Values": [
-        535,
-        123
+        686,
+        981
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 281,
-      "DimensionListItemDisplayName": "Koelpin Group",
+      "DimensionListItem": 216,
+      "DimensionListItemDisplayName": "Dickinson-Marvin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 210
         }
       }
     }
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 967
+      "FieldType": "System.Int32",
+      "FieldLength": 304
     }
   }
 }

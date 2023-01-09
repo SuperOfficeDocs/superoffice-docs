@@ -44,21 +44,20 @@ POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
-| KeyName | string |  |
-| TableName | string |  |
-| RecordId | int32 |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
+| KeyName | String |  |
+| TableName | String |  |
+| RecordId | Integer |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -75,16 +74,16 @@ Response body: string
 POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bergstrom, Goldner and Lehner",
-  "DeviceName": "Littel Inc and Sons",
-  "DeviceIdentifier": "ea",
-  "KeyName": "Gislason, Dickinson and Feil",
-  "TableName": "Morar Group",
-  "RecordId": 828
+  "ApplicationName": "Legros-Hagenes",
+  "DeviceName": "Armstrong-Osinski",
+  "DeviceIdentifier": "consectetur",
+  "KeyName": "Mueller-Davis",
+  "TableName": "Moen, Weber and Swaniawski",
+  "RecordId": 187
 }
 ```
 
@@ -94,5 +93,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"autem"
+"sunt"
 ```

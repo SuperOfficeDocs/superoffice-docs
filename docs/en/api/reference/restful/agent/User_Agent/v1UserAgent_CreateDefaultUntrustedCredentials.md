@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UntrustedCredentials
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +55,7 @@ Response body:
 | SecretValue | string | Data stored encrypted in the db. Typically a password. Max 70 characters. |
 | PublicValue | string | Data stored unencrypted in the db.  Typically server and or username. Max 238 characters. |
 | IsActive | bool | Is this credentials currently active. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ValidFrom": "2021-12-31T02:49:45.6247201+01:00",
-  "ValidTo": "1996-07-16T02:49:45.6247201+02:00",
-  "Comment": "aut",
-  "SecretValue": "et",
-  "PublicValue": "similique",
+  "ValidFrom": "1995-10-28T17:37:19.5209764+02:00",
+  "ValidTo": "2008-08-06T17:37:19.5209764+02:00",
+  "Comment": "fugiat",
+  "SecretValue": "inventore",
+  "PublicValue": "adipisci",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldType": "System.String",
+      "FieldLength": 996
     }
   }
 }

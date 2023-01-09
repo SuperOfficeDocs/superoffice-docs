@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 604,
-    "Name": "Dach, DuBuque and Schimmel",
-    "ToolTip": "Qui ex occaecati fugit asperiores.",
-    "Deleted": true,
-    "Rank": 545,
-    "Type": "aut",
-    "ColorBlock": 266,
-    "IconHint": "omnis",
+    "Id": 66,
+    "Name": "Senger Group",
+    "ToolTip": "Sit et omnis aut officiis velit eum.",
+    "Deleted": false,
+    "Rank": 468,
+    "Type": "iste",
+    "ColorBlock": 479,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2012-01-02T02:49:52.2503161+01:00",
+    "LastChanged": "2006-05-08T17:37:40.0194703+02:00",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "Feeney, Eichmann and Schumm",
-        "ToolTip": "Voluptatem laborum aliquam animi doloremque.",
+        "Id": 810,
+        "Name": "Ward LLC",
+        "ToolTip": "Ex laborum.",
         "Deleted": false,
-        "Rank": 773,
-        "Type": "illo",
-        "ColorBlock": 79,
-        "IconHint": "quis",
-        "Selected": true,
-        "LastChanged": "2012-01-19T02:49:52.2503161+01:00",
+        "Rank": 290,
+        "Type": "ducimus",
+        "ColorBlock": 342,
+        "IconHint": "dicta",
+        "Selected": false,
+        "LastChanged": "2003-08-26T17:37:40.0194703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Edgar Rice",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "dolor",
+        "Hidden": true,
+        "FullName": "Herbert Smitham IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 600
+            "FieldType": "System.Int32",
+            "FieldLength": 384
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "et",
+    "StyleHint": "iste",
     "Hidden": true,
-    "FullName": "Lowell Runolfsdottir",
+    "FullName": "Linda Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 669
+        "FieldLength": 310
       }
     }
   }

@@ -36,7 +36,7 @@ Get a single BatchTaskInfo based on Id.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: BatchTaskInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +70,7 @@ Response body:
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,7 +79,7 @@ Response body:
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 753,
-  "Name": "Price-Schmidt",
-  "AssociateId": 448,
-  "DetailsTable": 920,
-  "DetailsRecord": 735,
+  "Id": 536,
+  "Name": "Nitzsche, Swaniawski and Flatley",
+  "AssociateId": 641,
+  "DetailsTable": 412,
+  "DetailsRecord": 848,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "sit",
-    "ParameterObject2": "consequatur"
+    "ParameterObject1": "saepe",
+    "ParameterObject2": "eos"
   },
-  "LastStarted": "2006-01-26T02:49:51.686648+01:00",
-  "Created": "1997-11-29T02:49:51.686648+01:00",
-  "StartCount": 895,
-  "DatabaseSerialNumber": "518220",
-  "Context": "placeat",
-  "Result": "fugiat",
+  "LastStarted": "2018-07-19T17:37:39.401429+02:00",
+  "Created": "1997-04-06T17:37:39.401429+02:00",
+  "StartCount": 499,
+  "DatabaseSerialNumber": "1286716",
+  "Context": "voluptas",
+  "Result": "distinctio",
   "State": "All",
-  "Description": "Reverse-engineered mobile emulation",
-  "Response": "unde",
-  "Request": "sit",
-  "ProgressDescription": "Polarised incremental toolset",
-  "ProgressPercent": 880,
-  "FileName": "Towne-Lang",
+  "Description": "Mandatory upward-trending parallelism",
+  "Response": "magnam",
+  "Request": "molestiae",
+  "ProgressDescription": "Right-sized analyzing firmware",
+  "ProgressPercent": 469,
+  "FileName": "Bosco-Padberg",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 214
+      "FieldLength": 119
     }
   }
 }

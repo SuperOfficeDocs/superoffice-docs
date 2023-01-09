@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Hoeger-Sawayn",
-    "ToolTip": "Commodi aspernatur eligendi expedita est saepe.",
+    "Id": 608,
+    "Name": "Rice-Quigley",
+    "ToolTip": "Qui dolores pariatur.",
     "Deleted": true,
-    "Rank": 231,
-    "Type": "earum",
-    "ColorBlock": 237,
-    "IconHint": "animi",
+    "Rank": 973,
+    "Type": "voluptatem",
+    "ColorBlock": 601,
+    "IconHint": "soluta",
     "Selected": false,
-    "LastChanged": "2018-03-26T02:49:52.2034402+02:00",
+    "LastChanged": "2019-03-26T17:37:39.9645005+01:00",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Davis Group",
-        "ToolTip": "Cupiditate tempora velit nisi quos a placeat.",
+        "Id": 420,
+        "Name": "O'Hara LLC",
+        "ToolTip": "Commodi ut nam ipsa cum et nobis sed.",
         "Deleted": false,
-        "Rank": 88,
-        "Type": "dolores",
-        "ColorBlock": 628,
-        "IconHint": "officiis",
+        "Rank": 530,
+        "Type": "eaque",
+        "ColorBlock": 361,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "1995-08-11T02:49:52.2034402+02:00",
+        "LastChanged": "1999-05-26T17:37:39.9645005+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "quia",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Felton Reichert",
+        "FullName": "Rebeka Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 262
+            "FieldType": "System.Int32",
+            "FieldLength": 8
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "suscipit",
-    "Hidden": true,
-    "FullName": "Imogene Berge",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "dolor",
+    "Hidden": false,
+    "FullName": "Ms. Gregorio Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 277
+        "FieldLength": 860
       }
     }
   }

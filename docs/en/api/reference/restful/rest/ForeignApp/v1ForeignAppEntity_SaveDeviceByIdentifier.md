@@ -38,24 +38,23 @@ Updates a ForeignDevice with deviceName that belongs to the application with app
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: foreignDevice  
+## Request Body: foreignDevice 
 
 Foreign device to save. Can be null if adding new device. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ForeignDeviceId | int32 | Primary key |
-| Name | string | Name of device |
-| CreatedDate | date-time | Registered when  in UTC. |
-| UpdatedDate | date-time | Last updated when  in UTC. |
-| AssociateFullName | string | The person owning the Foreign Device |
-| CreatedBy | string | The person that created the device. |
-| UpdatedBy | string | The person that last updated this device. |
-| DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
-| ForeignAppId | int32 | Reference to foregin application (device type) |
+| ForeignDeviceId | Integer | Primary key |
+| Name | String | Name of device |
+| CreatedDate | String | Registered when  in UTC. |
+| UpdatedDate | String | Last updated when  in UTC. |
+| AssociateFullName | String | The person owning the Foreign Device |
+| CreatedBy | String | The person that created the device. |
+| UpdatedBy | String | The person that last updated this device. |
+| DeviceIdentifier | String | Optional unique id of device (Palm pilot device ID, etc) |
+| ForeignAppId | Integer | Reference to foregin application (device type) |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignDevice
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body:
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 402,
-  "Name": "Bergstrom Inc and Sons",
-  "CreatedDate": "2004-02-25T02:49:50.9952888+01:00",
-  "UpdatedDate": "1996-02-08T02:49:50.9952888+01:00",
-  "AssociateFullName": "Melyna Williamson V",
-  "CreatedBy": "aliquid",
-  "UpdatedBy": "dolore",
-  "DeviceIdentifier": "voluptates",
-  "ForeignAppId": 715
+  "ForeignDeviceId": 687,
+  "Name": "Gleason, Larson and Cassin",
+  "CreatedDate": "2016-06-29T17:37:38.8158633+02:00",
+  "UpdatedDate": "2015-08-05T17:37:38.8158633+02:00",
+  "AssociateFullName": "Dangelo Eichmann PhD",
+  "CreatedBy": "ipsam",
+  "UpdatedBy": "blanditiis",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 411
 }
 ```
 
@@ -108,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 719,
-  "Name": "Bailey Inc and Sons",
-  "CreatedDate": "2019-02-08T02:49:50.9952888+01:00",
-  "UpdatedDate": "2018-10-06T02:49:50.9952888+02:00",
-  "AssociateFullName": "Dee Greenholt",
-  "CreatedBy": "deserunt",
-  "UpdatedBy": "hic",
-  "DeviceIdentifier": "voluptas",
-  "ForeignAppId": 234,
+  "ForeignDeviceId": 599,
+  "Name": "Schmidt-Olson",
+  "CreatedDate": "1998-06-29T17:37:38.8168599+02:00",
+  "UpdatedDate": "2022-12-19T17:37:38.8168599+01:00",
+  "AssociateFullName": "Yazmin Gusikowski",
+  "CreatedBy": "omnis",
+  "UpdatedBy": "iure",
+  "DeviceIdentifier": "aliquam",
+  "ForeignAppId": 693,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldLength": 818
     }
   }
 }

@@ -37,7 +37,7 @@ List of User groups that this list item is visible for
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +64,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,7 +73,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 223,
-    "Name": "Cremin-Dibbert",
-    "ToolTip": "Sequi velit magnam quod natus.",
+    "Id": 825,
+    "Name": "Huel-Legros",
+    "ToolTip": "Natus libero omnis modi suscipit doloremque.",
     "Deleted": false,
-    "Rank": 748,
-    "Type": "non",
-    "ColorBlock": 671,
-    "IconHint": "minus",
-    "Selected": false,
-    "LastChanged": "2019-12-19T02:49:51.8596935+01:00",
+    "Rank": 339,
+    "Type": "in",
+    "ColorBlock": 538,
+    "IconHint": "totam",
+    "Selected": true,
+    "LastChanged": "2001-08-11T17:37:39.6234305+02:00",
     "ChildItems": [
       {
-        "Id": 94,
-        "Name": "Jewess Group",
-        "ToolTip": "Ad numquam culpa reprehenderit.",
+        "Id": 80,
+        "Name": "Schmeler-Nienow",
+        "ToolTip": "Consequuntur et molestiae sed eos delectus ut.",
         "Deleted": false,
-        "Rank": 146,
-        "Type": "aut",
-        "ColorBlock": 432,
+        "Rank": 137,
+        "Type": "omnis",
+        "ColorBlock": 576,
         "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1999-05-08T02:49:51.8596935+02:00",
+        "LastChanged": "2016-08-29T17:37:39.6234305+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "provident",
+        "ExtraInfo": "aut",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Darlene Altenwerth DDS",
+        "FullName": "Theresia Bartell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 877
+            "FieldType": "System.String",
+            "FieldLength": 971
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "officia",
+    "StyleHint": "nemo",
     "Hidden": false,
-    "FullName": "Miss Rick Morar",
+    "FullName": "Mrs. Malika Michale Upton II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 226
+        "FieldType": "System.String",
+        "FieldLength": 539
       }
     }
   }

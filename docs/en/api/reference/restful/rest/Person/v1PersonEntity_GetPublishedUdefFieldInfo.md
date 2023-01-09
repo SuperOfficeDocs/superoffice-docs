@@ -36,7 +36,7 @@ Get a published PersonEntity user-defined field's details based on the prog-id o
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 PersonEntity found.
 
@@ -45,7 +45,7 @@ PersonEntity found.
 | 200 | PersonEntity found. |
 | 404 | PersonEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +83,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,46 +102,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 909,
-  "ColumnId": 388,
-  "FieldDefault": "reprehenderit",
-  "FieldHeight": 540,
-  "FieldLabel": "quo",
-  "FieldLeft": 802,
-  "FieldTop": 334,
+  "UDefFieldId": 83,
+  "ColumnId": 314,
+  "FieldDefault": "eaque",
+  "FieldHeight": 765,
+  "FieldLabel": "voluptate",
+  "FieldLeft": 803,
+  "FieldTop": 288,
   "FieldType": "Checkbox",
-  "FieldWidth": 778,
-  "FormatMask": "laboriosam",
+  "FieldWidth": 13,
+  "FormatMask": "et",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 902,
-  "LabelLeft": 924,
-  "LabelTop": 545,
-  "LabelWidth": 404,
-  "LastVersionId": 513,
-  "ListTableId": 173,
+  "IsIndexed": false,
+  "LabelHeight": 663,
+  "LabelLeft": 946,
+  "LabelTop": 455,
+  "LabelWidth": 998,
+  "LastVersionId": 678,
+  "ListTableId": 98,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 282,
-  "ProgId": "nulla",
-  "IsReadOnly": false,
-  "ShortLabel": "quasi",
-  "TabOrder": 197,
-  "TextLength": 643,
-  "Tooltip": "qui",
-  "UdefIdentity": 172,
-  "UDListDefinitionId": 548,
+  "Page1LineNo": 976,
+  "ProgId": "atque",
+  "IsReadOnly": true,
+  "ShortLabel": "sit",
+  "TabOrder": 779,
+  "TextLength": 216,
+  "Tooltip": "et",
+  "UdefIdentity": 990,
+  "UDListDefinitionId": 743,
   "Justification": "Center",
-  "Version": 669,
-  "TemplateVariableName": "Howell-Herman",
-  "HasBeenPublished": true,
-  "MdoListName": "Schmitt LLC",
+  "Version": 470,
+  "TemplateVariableName": "Daugherty-Wilkinson",
+  "HasBeenPublished": false,
+  "MdoListName": "Walker-Zieme",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 253
+      "FieldLength": 862
     }
   }
 }

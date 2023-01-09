@@ -52,7 +52,7 @@ GET /api/v1/Selection/{selectionId}/ShadowMembers?$format=JSON
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,19 +85,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "perferendis",
+  "odata.nextLink": "sit",
   "value": [
     {
-      "PrimaryKey": 2196,
-      "EntityName": "person",
-      "personId": 2196,
-      "fullName": "Karelle Marvin"
+      "PrimaryKey": 8025,
+      "EntityName": "sale",
+      "saleId": 8025,
+      "contactId": 6651,
+      "name": "Thompson-Schmitt"
     },
     {
-      "PrimaryKey": 6961,
-      "EntityName": "person",
-      "personId": 6961,
-      "fullName": "Prof. Allene Gottlieb III"
+      "PrimaryKey": 2088,
+      "EntityName": "sale",
+      "saleId": 2088,
+      "contactId": 9533,
+      "name": "Schowalter-Treutel"
     }
   ]
 }

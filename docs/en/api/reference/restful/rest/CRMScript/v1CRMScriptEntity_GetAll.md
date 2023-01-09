@@ -48,7 +48,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -70,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/CRMScript?$select=name,department,category/id
 GET /api/v1/CRMScript?$filter=name begins 'S'
 GET /api/v1/CRMScript?$orderBy=name asc
-GET /api/v1/CRMScript?$entities=dolorum
-GET /api/v1/CRMScript?$top=347
-GET /api/v1/CRMScript?$skip=583
+GET /api/v1/CRMScript?$entities=nam
+GET /api/v1/CRMScript?$top=978
+GET /api/v1/CRMScript?$skip=25
 GET /api/v1/CRMScript?$mode=Full
 GET /api/v1/CRMScript?$options=GrandTotal=true
-GET /api/v1/CRMScript?$context=maxime
+GET /api/v1/CRMScript?$context=sapiente
 GET /api/v1/CRMScript?$format=JSON
-GET /api/v1/CRMScript?$jsonSafe=True
+GET /api/v1/CRMScript?$jsonSafe=False
 GET /api/v1/CRMScript?$output=Display
 ```
 
@@ -96,7 +95,7 @@ GET /api/v1/CRMScript?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -104,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -129,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sunt",
+  "odata.nextLink": "qui",
   "value": [
     {
-      "PrimaryKey": 9133,
-      "EntityName": "person",
-      "personId": 9133,
-      "fullName": "Fernando Ortiz"
+      "PrimaryKey": 3224,
+      "EntityName": "sale",
+      "saleId": 3224,
+      "contactId": 846,
+      "name": "Dach Inc and Sons"
     },
     {
-      "PrimaryKey": 8350,
-      "EntityName": "person",
-      "personId": 8350,
-      "fullName": "Dr. Israel Bernier DDS"
+      "PrimaryKey": 5171,
+      "EntityName": "sale",
+      "saleId": 5171,
+      "contactId": 2774,
+      "name": "Stokes LLC"
     }
   ]
 }

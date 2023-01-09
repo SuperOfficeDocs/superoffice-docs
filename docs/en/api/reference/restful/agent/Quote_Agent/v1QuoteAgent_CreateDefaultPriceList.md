@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PriceList
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +56,7 @@ Response body:
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 500,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 7,
-  "Name": "D'Amore, Hauck and Hayes",
-  "Description": "Re-contextualized tangible matrices",
-  "Currency": "esse",
-  "CurrencyName": "Volkman, Gleichner and Nicolas",
-  "ValidFrom": "1998-07-30T02:49:45.0153392+02:00",
-  "ValidTo": "2012-06-25T02:49:45.0153392+02:00",
+  "PriceListId": 969,
+  "ERPPriceListKey": "omnis",
+  "QuoteConnectionId": 452,
+  "Name": "Thiel Inc and Sons",
+  "Description": "Organic heuristic moratorium",
+  "Currency": "culpa",
+  "CurrencyName": "Dooley Group",
+  "ValidFrom": "2007-12-11T17:37:18.7082418+01:00",
+  "ValidTo": "2000-07-14T17:37:18.7082418+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 123
     }
   }
 }

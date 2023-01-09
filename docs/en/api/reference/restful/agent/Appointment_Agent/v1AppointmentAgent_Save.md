@@ -42,20 +42,19 @@ POST /api/v1/Agents/Appointment/Save?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AppointmentEntity, UpdateMode, SendEmailToParticipants, SmtpEMailConnectionInfo, ImapEMailConnectionInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AppointmentEntity |  | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
-| UpdateMode | string |  |
-| SendEmailToParticipants | bool |  |
-| SmtpEMailConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-| ImapEMailConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| AppointmentEntity | AppointmentEntity | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
+| UpdateMode | String |  |
+| SendEmailToParticipants | Boolean |  |
+| SmtpEMailConnectionInfo | EMailConnectionInfo | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| ImapEMailConnectionInfo | EMailConnectionInfo | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,25 +62,25 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AppointmentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Associate |  | The owner of the appointment - the associate whose diary/checklist the appointment is in.  <para>Use MDO List name "associate" to get list items.</para> |
-| Contact |  | The contact associated with the appointment. It may also be null if no contact is associated with the appointment.  <para>Use MDO List name "contact_new" to get list items.</para> |
-| CreatedBy |  | The associate that first created the appointment. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
+| Associate | Associate | The owner of the appointment - the associate whose diary/checklist the appointment is in.  <para>Use MDO List name "associate" to get list items.</para> |
+| Contact | Contact | The contact associated with the appointment. It may also be null if no contact is associated with the appointment.  <para>Use MDO List name "contact_new" to get list items.</para> |
+| CreatedBy | Associate | The associate that first created the appointment. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
 | CreatedDate | date-time | Registered date  in UTC. |
 | AppointmentId | int32 | Primary key |
 | Description | string | Description of the appointment. |
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
-| InvitedPerson |  | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
-| Person |  | An appointment may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
+| InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
+| Person | Person | An appointment may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
 | MotherId | int32 | ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking |
-| Priority |  | It's possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.  <para>Use MDO List name "priority" to get list items.</para> |
+| Priority | Priority | It's possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.  <para>Use MDO List name "priority" to get list items.</para> |
 | Private | string | The confidentiality of appointments is shown as different types of “private” on the appointment. For an updated list of “private” types, see the database manual. |
-| Project |  | An appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| Project | Project | An appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
 | Type | string | The different types of appointment, if the appointment is supposed to be shown in the diary or checklist, or if it's a document. See the different types of appointments in the database manual. |
 | UpdatedDate | date-time | Updated date  in UTC. |
 | Completed | string | Appointment Completed state. This property is the part of the Status property that is the completed state. Could be three state if the three state user preference is set. |
@@ -97,18 +96,18 @@ Response body:
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
 | RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence |  | The appointment recurrence. |
+| Recurrence | TableRight | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | string | Status if this appointment represents an invitation |
 | BookingType | string | The type of booking the appointment represents |
 | ActiveDate | date-time | The date to be used for searching &amp; showing |
 | HasConflict | bool | Does the appointment overlap with another appointment in the user's diary? |
-| AssignedBy |  | Who assigned this appointment to this user? Whose diary did the appointment come from? |
-| MotherAssociate |  | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
-| Task |  | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
+| AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
+| MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
+| Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
 | PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
-| Sale |  | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
+| Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
@@ -122,7 +121,7 @@ Response body:
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -137,7 +136,7 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -154,63 +153,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-09-19T02:49:43.3566548+02:00",
-  "AppointmentId": 523,
-  "Description": "Team-oriented uniform internet solution",
-  "StartDate": "2010-11-28T02:49:43.3566548+01:00",
-  "EndDate": "1998-09-05T02:49:43.3566548+02:00",
+  "CreatedDate": "2006-06-01T17:37:16.4092412+02:00",
+  "AppointmentId": 434,
+  "Description": "Optional actuating complexity",
+  "StartDate": "2019-11-04T17:37:16.4092412+01:00",
+  "EndDate": "1999-11-03T17:37:16.4092412+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 931,
+  "MotherId": 774,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-10-07T02:49:43.372278+02:00",
+  "UpdatedDate": "2006-09-02T17:37:16.4132404+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 473,
+  "ActiveLinks": 841,
   "Links": [
     {
-      "EntityName": "Cartwright, Mante and Predovic",
-      "Id": 308,
-      "Description": "Enhanced radical alliance",
-      "ExtraInfo": "doloribus",
-      "LinkId": 666,
+      "EntityName": "Heidenreich-Mraz",
+      "Id": 616,
+      "Description": "Stand-alone encompassing adapter",
+      "ExtraInfo": "ullam",
+      "LinkId": 135,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 133
+          "FieldType": "System.Int32",
+          "FieldLength": 489
         }
       }
     }
   ],
-  "AlarmLeadTime": "aut",
+  "AlarmLeadTime": "illum",
   "HasAlarm": false,
-  "ColorIndex": 507,
-  "IsFree": false,
+  "ColorIndex": 537,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "officia",
-  "LeadTime": "iste",
-  "Location": "distinctio",
-  "RejectCounter": 492,
+  "LagTime": "autem",
+  "LeadTime": "alias",
+  "Location": "tempore",
+  "RejectCounter": 34,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 668,
-      "PersonId": 256,
-      "ContactId": 872,
-      "EmailId": 225,
+      "AssociateId": 261,
+      "PersonId": 250,
+      "ContactId": 622,
+      "EmailId": 972,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 668,
-      "PersonId": 256,
-      "ContactId": 872,
-      "EmailId": 225,
+      "AssociateId": 261,
+      "PersonId": 250,
+      "ContactId": 622,
+      "EmailId": 972,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -218,58 +217,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2001-11-17T02:49:43.372278+01:00",
+  "ActiveDate": "2003-04-16T17:37:16.4132404+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 756,
+  "PreferredTZLocation": 805,
   "Sale": null,
-  "SuggestedAppointmentId": 948,
+  "SuggestedAppointmentId": 113,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "neque",
+  "CentralserviceVideomeetId": "quos",
   "UserDefinedFields": {
-    "SuperOffice:1": "Lavonne Connelly",
-    "SuperOffice:2": "Lorine Fisher"
+    "SuperOffice:1": "Dr. Robbie Schuppe",
+    "SuperOffice:2": "1375180121"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequuntur",
-    "ExtraFields2": "ab"
+    "ExtraFields1": "quae",
+    "ExtraFields2": "minima"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "nihil"
+    "CustomFields1": "et",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2018-04-22T02:49:43.372278+02:00",
-  "PublishTo": "2000-03-22T02:49:43.372278+01:00",
-  "PublishFrom": "1995-10-10T02:49:43.372278+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2012-02-03T17:37:16.415242+01:00",
+  "PublishTo": "2011-09-09T17:37:16.415242+02:00",
+  "PublishFrom": "1998-03-25T17:37:16.415242+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 88,
+      "VisibleId": 628,
       "Visibility": "All",
       "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldType": "System.Int32",
+          "FieldLength": 862
         }
       }
     },
     {
-      "VisibleId": 88,
+      "VisibleId": 628,
       "Visibility": "All",
       "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldType": "System.Int32",
+          "FieldLength": 862
         }
       }
     }
@@ -279,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 638
     }
   }
 }

@@ -42,7 +42,7 @@ GET /api/v1/List/QuoteApproveReason/Items?includeDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +60,7 @@ Response body: array
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 529,
-    "Name": "Rogahn, Casper and Jacobson",
-    "Tooltip": "quasi",
+    "Id": 187,
+    "Name": "Stanton-Lueilwitz",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "UdListDefinitionId": 73,
-    "Rank": 991,
+    "UdListDefinitionId": 896,
+    "Rank": 729,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 897
+        "FieldType": "System.Int32",
+        "FieldLength": 532
       }
     }
   }

@@ -33,13 +33,12 @@ Update a row in a table
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: values  
+## Request Body: values 
 
 A StringDictionary with the values to update. You do not need to specify all the values in the table. The omitted ones will remain unchanged 
 
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -48,7 +47,7 @@ No Content
 | 204 | No Content |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request

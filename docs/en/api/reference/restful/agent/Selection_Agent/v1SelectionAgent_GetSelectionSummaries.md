@@ -42,16 +42,15 @@ POST /api/v1/Agents/Selection/GetSelectionSummaries?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionIds | array |  |
+| SelectionIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,13 +74,13 @@ Response body: array
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    60,
-    240
+    339,
+    50
   ]
 }
 ```
@@ -94,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 555,
-    "Name": "Gibson-Carter",
-    "TargetTable": "est",
-    "Registered": "2016-11-19T02:49:45.4215877+01:00",
-    "ProviderName": "Trantow Inc and Sons"
+    "SelectionId": 266,
+    "Name": "Roberts, Botsford and Kuvalis",
+    "TargetTable": "nostrum",
+    "Registered": "2004-04-12T17:37:19.2142443+02:00",
+    "ProviderName": "Moore-Kshlerin"
   },
   {
-    "SelectionId": 555,
-    "Name": "Gibson-Carter",
-    "TargetTable": "est",
-    "Registered": "2016-11-19T02:49:45.4215877+01:00",
-    "ProviderName": "Trantow Inc and Sons"
+    "SelectionId": 266,
+    "Name": "Roberts, Botsford and Kuvalis",
+    "TargetTable": "nostrum",
+    "Registered": "2004-04-12T17:37:19.2142443+02:00",
+    "ProviderName": "Moore-Kshlerin"
   }
 ]
 ```

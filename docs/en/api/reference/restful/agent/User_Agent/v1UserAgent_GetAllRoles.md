@@ -47,16 +47,15 @@ POST /api/v1/Agents/User/GetAllRoles?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 RoleType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RoleType | string |  |
+| RoleType | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +82,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -108,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 289,
-    "Name": "Kiehn-Cassin",
-    "ToolTip": "Consectetur possimus labore iste atque rerum aut ea.",
+    "Id": 921,
+    "Name": "Gaylord Inc and Sons",
+    "ToolTip": "Ipsa est.",
     "Deleted": false,
-    "Rank": 846,
-    "Type": "molestiae",
-    "ColorBlock": 436,
-    "IconHint": "dolore",
-    "Selected": true,
-    "LastChanged": "2005-01-23T02:49:45.6559717+01:00",
+    "Rank": 449,
+    "Type": "maiores",
+    "ColorBlock": 692,
+    "IconHint": "a",
+    "Selected": false,
+    "LastChanged": "2006-07-02T17:37:19.5469767+02:00",
     "ChildItems": [
       {
-        "Id": 110,
-        "Name": "Welch Inc and Sons",
-        "ToolTip": "Est iusto libero quo.",
-        "Deleted": true,
-        "Rank": 126,
-        "Type": "atque",
-        "ColorBlock": 537,
-        "IconHint": "sed",
+        "Id": 413,
+        "Name": "Weissnat-Miller",
+        "ToolTip": "Aut sed asperiores.",
+        "Deleted": false,
+        "Rank": 991,
+        "Type": "laudantium",
+        "ColorBlock": 427,
+        "IconHint": "consequatur",
         "Selected": true,
-        "LastChanged": "2000-12-18T02:49:45.6559717+01:00",
+        "LastChanged": "2016-10-12T17:37:19.5469767+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "a",
+        "ExtraInfo": "id",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Dr. Brannon Jalen Wisoky DVM",
+        "FullName": "Kelli Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 657
+            "FieldLength": 538
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "provident",
+    "ExtraInfo": "ea",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Sunny Schuppe",
+    "FullName": "Dale Larkin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 297
+        "FieldType": "System.Int32",
+        "FieldLength": 584
       }
     }
   }

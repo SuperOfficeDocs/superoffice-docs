@@ -38,17 +38,16 @@ POST /api/v1/Agents/Pocket/SendPushNotification?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateIds, Message 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateIds | array |  |
-| Message |  | Describes behaviour and content for a push notification message <para /> Carrier object for PocketNotificationMessage. Services for the PocketNotificationMessage Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPocketAgent">Pocket Agent</see>. |
+| AssociateIds | Array |  |
+| Message | PocketNotificationMessage | Describes behaviour and content for a push notification message <para /> Carrier object for PocketNotificationMessage. Services for the PocketNotificationMessage Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPocketAgent">Pocket Agent</see>. |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,13 +64,13 @@ Response body:
 POST /api/v1/Agents/Pocket/SendPushNotification
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    208,
-    17
+    44,
+    410
   ],
   "Message": null
 }

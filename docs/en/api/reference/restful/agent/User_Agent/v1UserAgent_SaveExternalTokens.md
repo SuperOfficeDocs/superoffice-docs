@@ -12,8 +12,6 @@ POST /api/v1/Agents/User/SaveExternalTokens
 Saves the external tokens to the DB and returns a key that can be used to retrieve them
 
 
-
-
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/User/SaveExternalTokens?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TokenManagementInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TokenManagementInfo |  | Token information <para /> Carrier object for TokenManagementInfo. Services for the TokenManagementInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| TokenManagementInfo | TokenManagementInfo | Token information <para /> Carrier object for TokenManagementInfo. Services for the TokenManagementInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -86,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"numquam"
 ```

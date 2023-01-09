@@ -42,13 +42,12 @@ POST /api/v1/Agents/List/GetTicketCategoryList?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: ticketCategoryEntityIds  
+## Request Body: ticketCategoryEntityIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,12 +72,12 @@ Response body: array
 | AssignmentLag | int32 | Number of minutes we shall override the assignment if a customer sends consecutive messages to this category |
 | ReplyTemplate | int32 | Reply template to merge with messages posted in this category |
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
-| DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
-| DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| DefaultTicketStatus | TicketStatusEntity | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
+| DefaultMessageStatus | TicketStatusEntity | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +86,7 @@ Response body: array
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,36 +97,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 617,
-    "ParentId": 744,
-    "Name": "Hammes Group",
-    "Fullname": "ullam",
-    "CategoryMaster": 695,
+    "TicketCategoryId": 995,
+    "ParentId": 13,
+    "Name": "Casper LLC",
+    "Fullname": "in",
+    "CategoryMaster": 879,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Bartell, Wilkinson and Gleason",
+    "ExternalName": "Botsford-Towne",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 682,
-    "ReplyTemplate": 431,
-    "NotificationEmail": "cecelia.borer@howe.name",
+    "AssignmentLag": 358,
+    "ReplyTemplate": 871,
+    "NotificationEmail": "helga.bartoletti@parisian.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 204,
+    "EffectiveReplyTemplateId": 904,
     "ExtraFields": {
-      "ExtraFields1": "quaerat",
-      "ExtraFields2": "ea"
+      "ExtraFields1": "officiis",
+      "ExtraFields2": "voluptas"
     },
     "CustomFields": {
-      "CustomFields1": "vel",
-      "CustomFields2": "autem"
+      "CustomFields1": "minus",
+      "CustomFields2": "dolorum"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 655
       }
     }
   }

@@ -44,27 +44,26 @@ POST /api/v1/Agents/Appointment/GenerateLead?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateIdForNewContact, LeadDescription, Relation, RelationId, LeadContact, LeadPersonFirstname, LeadPersonLastname, LeadPersonEmail, LeadPhoneNumber, CreatorsContact, CreatorsFirstname, CreatorsLastname 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateIdForNewContact | int32 |  |
-| LeadDescription | string |  |
-| Relation | string |  |
-| RelationId | int32 |  |
-| LeadContact | string |  |
-| LeadPersonFirstname | string |  |
-| LeadPersonLastname | string |  |
-| LeadPersonEmail | string |  |
-| LeadPhoneNumber | string |  |
-| CreatorsContact | string |  |
-| CreatorsFirstname | string |  |
-| CreatorsLastname | string |  |
+| AssociateIdForNewContact | Integer |  |
+| LeadDescription | String |  |
+| Relation | String |  |
+| RelationId | Integer |  |
+| LeadContact | String |  |
+| LeadPersonFirstname | String |  |
+| LeadPersonLastname | String |  |
+| LeadPersonEmail | String |  |
+| LeadPhoneNumber | String |  |
+| CreatorsContact | String |  |
+| CreatorsFirstname | String |  |
+| CreatorsLastname | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -72,14 +71,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SalesActivity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RequestedContacts | array | The companies that match the request |
-| RequestedPerson |  | The person that matches the request. |
-| SalesRep |  | The sales representative for the person that matches the request. |
-| TableRight |  |  |
+| RequestedPerson | Person | The person that matches the request. |
+| SalesRep | Person | The sales representative for the person that matches the request. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,22 +87,22 @@ Response body:
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 543,
-  "LeadDescription": "Self-enabling non-volatile benchmark",
-  "Relation": "blanditiis",
-  "RelationId": 907,
-  "LeadContact": "excepturi",
-  "LeadPersonFirstname": "Hermina",
-  "LeadPersonLastname": "McKenzie",
-  "LeadPersonEmail": "elenora.haag@cronaboehm.us",
-  "LeadPhoneNumber": "1024117",
-  "CreatorsContact": "quas",
-  "CreatorsFirstname": "Geraldine",
-  "CreatorsLastname": "Grady"
+  "AssociateIdForNewContact": 83,
+  "LeadDescription": "Managed 6th generation instruction set",
+  "Relation": "aut",
+  "RelationId": 786,
+  "LeadContact": "enim",
+  "LeadPersonFirstname": "Eusebio",
+  "LeadPersonLastname": "Hermann",
+  "LeadPersonEmail": "jonatan.nolan@paucekdaniel.co.uk",
+  "LeadPhoneNumber": "653458",
+  "CreatorsContact": "illum",
+  "CreatorsFirstname": "Johan",
+  "CreatorsLastname": "Friesen"
 }
 ```
 
@@ -116,34 +115,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 475,
-      "Name": "Larson Inc and Sons",
-      "OrgNr": "956829",
+      "ContactId": 5,
+      "Name": "Hane Inc and Sons",
+      "OrgNr": "1406732",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "possimus",
-      "DirectPhone": "120-044-6365",
-      "AssociateId": 541,
-      "CountryId": 460,
-      "EmailAddress": "alice.pacocha@dietrichkovacek.biz",
-      "Kananame": "odit",
-      "EmailAddressName": "meredith_roberts@whitemuller.biz",
+      "City": "fugiat",
+      "DirectPhone": "794-821-8886 x147",
+      "AssociateId": 149,
+      "CountryId": 162,
+      "EmailAddress": "melvin_feeney@hackett.info",
+      "Kananame": "officiis",
+      "EmailAddressName": "macey@hirtheschuppe.com",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Maye Pouros",
+      "AssociateFullName": "Alexie Collier",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "sequi",
-      "FullName": "Dr. Marina June Ryan IV",
-      "IsOwnerContact": true,
-      "ActiveErpLinks": 18,
+      "FormattedAddress": "quas",
+      "FullName": "Cooper Batz",
+      "IsOwnerContact": false,
+      "ActiveErpLinks": 294,
+      "Number1": "762912",
+      "Number2": "1705073",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldLength": 49
         }
       }
     }
@@ -154,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   }
 }

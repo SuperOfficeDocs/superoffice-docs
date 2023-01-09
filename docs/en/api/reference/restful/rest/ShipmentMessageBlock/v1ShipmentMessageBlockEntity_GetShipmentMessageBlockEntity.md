@@ -48,7 +48,7 @@ GET /api/v1/ShipmentMessageBlock/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ShipmentMessageBlockEntity found.
 
@@ -57,7 +57,7 @@ ShipmentMessageBlockEntity found.
 | 200 | ShipmentMessageBlockEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ShipmentMessageBlockEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -79,7 +79,7 @@ Response body:
 GET /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,20 +89,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 21,
-  "AssociateId": 694,
-  "Block": "culpa",
-  "Registered": "2005-11-14T02:49:51.536309+01:00",
-  "RegisteredAssociateId": 872,
-  "Updated": "2011-03-11T02:49:51.536309+01:00",
-  "UpdatedAssociateId": 376,
-  "UpdatedCount": 798,
+  "ShipmentMessageBlockId": 438,
+  "AssociateId": 662,
+  "Block": "natus",
+  "Registered": "2011-11-20T17:37:39.2233032+01:00",
+  "RegisteredAssociateId": 992,
+  "Updated": "2015-02-27T17:37:39.2233032+01:00",
+  "UpdatedAssociateId": 451,
+  "UpdatedCount": 190,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldType": "System.String",
+      "FieldLength": 585
     }
   },
   "_Links": {

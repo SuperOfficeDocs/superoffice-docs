@@ -32,23 +32,22 @@ Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The CustomerCenterConfig to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CustConfigId | int32 | Primary key |
-| Type | string | What kind of data is in this row |
-| Config | string | A JSON-formatted config |
-| CustLangId | int32 | The customer language which this config belongs to. 0 indicates that the config is global |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
+| CustConfigId | Integer | Primary key |
+| Type | String | What kind of data is in this row |
+| Config | String | A JSON-formatted config |
+| CustLangId | Integer | The customer language which this config belongs to. 0 indicates that the config is global |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CustomerCenterConfig
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,14 +80,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 696,
+  "CustConfigId": 150,
   "Type": "Options",
-  "Config": "ipsa",
-  "CustLangId": 372,
-  "Registered": "2007-06-15T02:49:44.0285283+02:00",
-  "RegisteredAssociateId": 634,
-  "Updated": "2002-05-17T02:49:44.0285283+02:00",
-  "UpdatedAssociateId": 567
+  "Config": "vel",
+  "CustLangId": 840,
+  "Registered": "2010-09-06T17:37:17.3412456+02:00",
+  "RegisteredAssociateId": 709,
+  "Updated": "2014-08-11T17:37:17.3412456+02:00",
+  "UpdatedAssociateId": 517
 }
 ```
 
@@ -99,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 446,
+  "CustConfigId": 9,
   "Type": "Options",
-  "Config": "adipisci",
-  "CustLangId": 730,
-  "Registered": "2016-02-26T02:49:44.0285283+01:00",
-  "RegisteredAssociateId": 462,
-  "Updated": "2019-08-13T02:49:44.0285283+02:00",
-  "UpdatedAssociateId": 27,
+  "Config": "doloremque",
+  "CustLangId": 880,
+  "Registered": "2019-08-28T17:37:17.3412456+02:00",
+  "RegisteredAssociateId": 65,
+  "Updated": "2003-04-11T17:37:17.3412456+02:00",
+  "UpdatedAssociateId": 233,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 764
     }
   }
 }

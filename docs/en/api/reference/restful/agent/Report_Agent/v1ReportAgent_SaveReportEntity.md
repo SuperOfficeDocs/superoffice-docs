@@ -32,23 +32,22 @@ Updates the existing ReportEntity or creates a new ReportEntity if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ReportEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ReportId | int32 | The id of the report. |
-| ReportCategory | string | The category of the report. |
-| Description | string | The description of the report. |
-| ReportLayout | string | The layout of the report. |
-| Name | string | The name of the report |
-| AssociateId | int32 | The owner of the report. |
-| TemplateId | int32 | The id of report template. |
-| Published | bool | Is the report published? |
+| ReportId | Integer | The id of the report. |
+| ReportCategory | String | The category of the report. |
+| Description | String | The description of the report. |
+| ReportLayout | String | The layout of the report. |
+| Name | String | The name of the report |
+| AssociateId | Integer | The owner of the report. |
+| TemplateId | Integer | The id of report template. |
+| Published | Boolean | Is the report published? |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ReportEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body:
 | AssociateId | int32 | The owner of the report. |
 | TemplateId | int32 | The id of report template. |
 | Published | bool | Is the report published? |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,13 +80,13 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 639,
+  "ReportId": 505,
   "ReportCategory": "All",
-  "Description": "Enterprise-wide optimizing forecast",
+  "Description": "Devolved bi-directional process improvement",
   "ReportLayout": "CalendarMonth",
-  "Name": "Torp-Jast",
-  "AssociateId": 995,
-  "TemplateId": 9,
+  "Name": "Champlin Group",
+  "AssociateId": 496,
+  "TemplateId": 804,
   "Published": false
 }
 ```
@@ -99,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 87,
+  "ReportId": 424,
   "ReportCategory": "All",
-  "Description": "Function-based human-resource adapter",
+  "Description": "Enterprise-wide even-keeled frame",
   "ReportLayout": "CalendarMonth",
-  "Name": "Streich LLC",
-  "AssociateId": 997,
-  "TemplateId": 67,
-  "Published": true,
+  "Name": "Walter Inc and Sons",
+  "AssociateId": 950,
+  "TemplateId": 743,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldLength": 572
     }
   }
 }

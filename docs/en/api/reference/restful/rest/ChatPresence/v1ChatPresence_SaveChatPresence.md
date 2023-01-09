@@ -28,20 +28,19 @@ Save the chat presence for specified users
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: chatPresence  
+## Request Body: chatPresence 
 
 An array with ChatPresence objects. Only the UserId and Present information is used while saving 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UserId | int32 | The id for the chat user |
-| DisplayName | string | The display name of the chat user |
-| OngoingChats | int32 | The number of ongoing chats this users has now |
-| Present | bool | Indicates if the user has the chat presence turned on or off |
-| ChatTopics | array | An array of ids with chat topics that this user is a member of |
+| UserId | Integer | The id for the chat user |
+| DisplayName | String | The display name of the chat user |
+| OngoingChats | Integer | The number of ongoing chats this users has now |
+| Present | Boolean | Indicates if the user has the chat presence turned on or off |
+| ChatTopics | Array | An array of ids with chat topics that this user is a member of |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -49,7 +48,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -63,23 +62,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 883,
-    "DisplayName": "Daugherty Inc and Sons",
-    "OngoingChats": 424,
+    "UserId": 589,
+    "DisplayName": "O'Connell, Hilll and Legros",
+    "OngoingChats": 791,
     "Present": false,
     "ChatTopics": [
-      956,
-      522
+      903,
+      137
     ]
   },
   {
-    "UserId": 883,
-    "DisplayName": "Daugherty Inc and Sons",
-    "OngoingChats": 424,
+    "UserId": 589,
+    "DisplayName": "O'Connell, Hilll and Legros",
+    "OngoingChats": 791,
     "Present": false,
     "ChatTopics": [
-      956,
-      522
+      903,
+      137
     ]
   }
 ]

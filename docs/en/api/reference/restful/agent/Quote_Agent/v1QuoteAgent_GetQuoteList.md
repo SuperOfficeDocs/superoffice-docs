@@ -44,16 +44,15 @@ POST /api/v1/Agents/Quote/GetQuoteList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteListType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteListType | string |  |
+| QuoteListType | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,14 +60,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ERPQuoteListItemKey | string | Primary key for the item. |
 | DisplayValue | string | List item text to display. |
 | DisplayDescription | string | Typically used in a tooltip. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "assumenda"
+  "QuoteListType": "ea"
 }
 ```
 
@@ -93,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "consectetur",
-    "DisplayValue": "officia",
-    "DisplayDescription": "Progressive grid-enabled extranet",
+    "ERPQuoteListItemKey": "ut",
+    "DisplayValue": "aut",
+    "DisplayDescription": "Future-proofed mission-critical solution",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldType": "System.Int32",
+        "FieldLength": 99
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "consectetur",
-    "DisplayValue": "officia",
-    "DisplayDescription": "Progressive grid-enabled extranet",
+    "ERPQuoteListItemKey": "ut",
+    "DisplayValue": "aut",
+    "DisplayDescription": "Future-proofed mission-critical solution",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldType": "System.Int32",
+        "FieldLength": 99
       }
     }
   }

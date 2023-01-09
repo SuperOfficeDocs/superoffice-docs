@@ -32,17 +32,16 @@ Adds the collection of ContactPersonId as members to the static selection
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: contactPersonIds  
+## Request Body: contactPersonIds 
 
 A collection of ContactPersonId to add to the selection. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 | A person id. |
-| ContactId | int32 | A contact id. |
+| PersonId | Integer | A person id. |
+| ContactId | Integer | A contact id. |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -50,7 +49,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -59,17 +58,17 @@ Response body:
 POST /api/v1/Selection/{selectionId}/Members/AddPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 701,
-    "ContactId": 500
+    "PersonId": 734,
+    "ContactId": 737
   },
   {
-    "PersonId": 701,
-    "ContactId": 500
+    "PersonId": 734,
+    "ContactId": 737
   }
 ]
 ```

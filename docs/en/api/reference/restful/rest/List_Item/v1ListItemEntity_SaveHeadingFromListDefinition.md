@@ -36,21 +36,20 @@ Save new heading for list resolved by the provided id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The new heading to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HeadingId | int32 | Primary key |
-| Name | string | The visible heading |
-| Tooltip | string | Tooltip or other description |
-| Deleted | bool | True if the heading is marked as deleted |
-| Rank | int32 | Rank order |
-| UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+| HeadingId | Integer | Primary key |
+| Name | String | The visible heading |
+| Tooltip | String | Tooltip or other description |
+| Deleted | Boolean | True if the heading is marked as deleted |
+| Rank | Integer | Rank order |
+| UdListDefinitionId | Integer | The id of the list which this heading belongs to |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: HeadingEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body:
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,16 +77,16 @@ Response body:
 POST /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 680,
-  "Name": "Berge, Wisozk and Smitham",
-  "Tooltip": "quos",
+  "HeadingId": 397,
+  "Name": "Blanda-Reilly",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 821,
-  "UdListDefinitionId": 800
+  "Rank": 29,
+  "UdListDefinitionId": 39
 }
 ```
 
@@ -98,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 763,
-  "Name": "Friesen, Eichmann and Koepp",
-  "Tooltip": "ex",
-  "Deleted": true,
-  "Rank": 588,
-  "UdListDefinitionId": 196,
+  "HeadingId": 290,
+  "Name": "Beier Inc and Sons",
+  "Tooltip": "fugiat",
+  "Deleted": false,
+  "Rank": 935,
+  "UdListDefinitionId": 92,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 255
     }
   }
 }

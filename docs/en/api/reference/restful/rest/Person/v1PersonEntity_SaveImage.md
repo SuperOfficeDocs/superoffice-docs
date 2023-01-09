@@ -38,13 +38,12 @@ Updating the image will update the ImageInfo automatically.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: image binary 
+## Request Body: image binary
 
 Image bitmap (PNG, GIF, JPEG or TIFF format). 
 
 
-
-## Response: int32
+## Response:int32
 
 The image blob id
 
@@ -53,7 +52,7 @@ The image blob id
 | 200 | The image blob id |
 | 400 | Image bitmap is missing from body or person id is not valid. |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -62,7 +61,7 @@ Response body: int32
 PUT /api/v1/Person/{personId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,5 +70,5 @@ Accept-Language: *
 HTTP/1.1 200 The image blob id
 Content-Type: application/json; charset=utf-8
 
-392
+364
 ```

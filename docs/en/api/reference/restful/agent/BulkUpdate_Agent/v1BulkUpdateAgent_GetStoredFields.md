@@ -42,17 +42,16 @@ POST /api/v1/Agents/BulkUpdate/GetStoredFields?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Tablename, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Tablename | string |  |
-| Context | string |  |
+| Tablename | String |  |
+| Context | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,12 +87,12 @@ Response body: array
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project",
-  "Context": "quis"
+  "Tablename": "contact",
+  "Context": "soluta"
 }
 ```
 
@@ -106,75 +105,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "maxime",
-    "ValueType": "porro",
-    "Mandatory": true,
-    "EncodedDisplayName": "Schultz, Spinka and Ryan",
-    "EncodedDisplayDescription": "Public-key responsive initiative",
-    "IconHint": "sed",
+    "Key": "dignissimos",
+    "ValueType": "accusantium",
+    "Mandatory": false,
+    "EncodedDisplayName": "Labadie, Bins and Schiller",
+    "EncodedDisplayDescription": "Implemented attitude-oriented encryption",
+    "IconHint": "ipsam",
     "ControlInfos": [
       {
-        "Type": "eos",
-        "Label": "velit",
-        "Dimension": 89,
-        "ListProviderName": "Bernhard LLC",
-        "ListProviderExtraInfo": "quod",
-        "ListProviderPrimaryKeyName": "Zieme, Kutch and Abernathy",
-        "ListLeadText": "saepe",
+        "Type": "voluptate",
+        "Label": "sit",
+        "Dimension": 930,
+        "ListProviderName": "Hilll-Carroll",
+        "ListProviderExtraInfo": "autem",
+        "ListProviderPrimaryKeyName": "Waters LLC",
+        "ListLeadText": "eum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 121
+            "FieldLength": 557
           }
         }
       }
     ],
-    "EncodedDataCaption": "accusantium",
-    "EncodedDataCaptionDescription": "Monitored homogeneous extranet",
-    "CurrentOperationType": "culpa",
+    "EncodedDataCaption": "ratione",
+    "EncodedDataCaptionDescription": "Stand-alone uniform extranet",
+    "CurrentOperationType": "optio",
     "Values": [
-      "sit",
-      "tempore"
+      "saepe",
+      "aut"
     ],
     "DisplayValues": [
-      "repellat",
-      "ad"
+      "illum",
+      "debitis"
     ],
     "OperationInfos": [
       {
-        "Key": "consequatur",
-        "EncodedDisplayName": "Stiedemann Inc and Sons",
+        "Key": "velit",
+        "EncodedDisplayName": "Koss, Schmidt and Harber",
         "EncodedLeadTexts": [
-          "autem",
-          "sit"
+          "placeat",
+          "optio"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 523
+            "FieldType": "System.String",
+            "FieldLength": 667
           }
         }
       },
       {
-        "Key": "consequatur",
-        "EncodedDisplayName": "Stiedemann Inc and Sons",
+        "Key": "velit",
+        "EncodedDisplayName": "Koss, Schmidt and Harber",
         "EncodedLeadTexts": [
-          "autem",
-          "sit"
+          "placeat",
+          "optio"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 523
+            "FieldType": "System.String",
+            "FieldLength": 667
           }
         }
       }

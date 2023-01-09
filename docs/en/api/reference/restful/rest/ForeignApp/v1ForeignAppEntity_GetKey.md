@@ -42,7 +42,7 @@ A table name and record ID can also be specified.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +62,7 @@ Response body:
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +71,7 @@ Response body:
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 07 Jun 2009 02:49:50 G6T
+Last-Modified: Sun, 05 May 1996 17:37:38 G5T
 
 {
-  "Key": "maiores",
-  "Value": "ipsum",
-  "RecordId": 150,
-  "CreatedDate": "2011-02-01T02:49:50.9952888+01:00",
-  "UpdatedDate": "2009-06-07T02:49:50.9952888+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "est",
-  "TableName": "Kreiger, Treutel and Jaskolski",
+  "Key": "labore",
+  "Value": "nihil",
+  "RecordId": 826,
+  "CreatedDate": "2022-02-27T17:37:38.8188609+01:00",
+  "UpdatedDate": "1996-05-05T17:37:38.8188609+02:00",
+  "UpdatedBy": "dolorem",
+  "CreatedBy": "sed",
+  "TableName": "Fisher-Murphy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 551
     }
   }
 }

@@ -38,7 +38,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BlobEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,10 +60,10 @@ Response body:
 | OriginalSize | int32 | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -72,7 +72,7 @@ Response body:
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 25 Jan 1997 02:49:51 G1T
+Last-Modified: Mon, 17 Dec 2018 17:37:39 G12T
 
 {
-  "BlobId": 672,
-  "BlobSize": 770,
-  "Description": "Advanced national monitoring",
-  "ExtraInfo": "perferendis",
+  "BlobId": 547,
+  "BlobSize": 412,
+  "Description": "Adaptive modular hierarchy",
+  "ExtraInfo": "ut",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "in",
-  "OriginalSize": 780,
-  "CreatedDate": "2011-09-12T02:49:51.3703152+02:00",
-  "UpdatedDate": "1997-01-25T02:49:51.3703152+01:00",
+  "MimeType": "recusandae",
+  "OriginalSize": 641,
+  "CreatedDate": "2010-08-31T17:37:39.0322745+02:00",
+  "UpdatedDate": "2018-12-17T17:37:39.0322745+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eum",
+  "ConceptualType": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 769
     }
   }
 }

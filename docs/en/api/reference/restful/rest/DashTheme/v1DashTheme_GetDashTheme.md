@@ -48,7 +48,7 @@ GET /api/v1/DashTheme/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 DashTheme found.
 
@@ -57,7 +57,7 @@ DashTheme found.
 | 200 | DashTheme found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: DashThemeWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +67,7 @@ Response body:
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -87,23 +87,23 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 409,
-  "Name": "King Inc and Sons",
-  "Config": "fugiat",
-  "Rank": 587,
-  "Client": "sapiente",
-  "Style": "non",
+  "DashboardThemeId": 246,
+  "Name": "O'Conner, Simonis and Kub",
+  "Config": "quaerat",
+  "Rank": 80,
+  "Client": "sit",
+  "Style": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldType": "System.String",
+      "FieldLength": 44
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

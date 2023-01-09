@@ -47,7 +47,7 @@ GET /api/v1/Hierarchy/{domain}/{path}?children=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -55,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: HierarchyEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,7 +78,7 @@ Response body:
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,46 +88,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 595,
+  "HierarchyId": 730,
   "Domain": "Dashboards",
-  "Name": "Reinger Group",
-  "Fullname": "consectetur",
-  "ParentId": 645,
+  "Name": "Quitzon-Cruickshank",
+  "Fullname": "voluptatem",
+  "ParentId": 143,
   "Children": [
     {
-      "HierarchyId": 281,
+      "HierarchyId": 435,
       "Domain": "Dashboards",
-      "Name": "McDermott-Quigley",
-      "Fullname": "explicabo",
-      "ParentId": 816,
+      "Name": "Kovacek LLC",
+      "Fullname": "aut",
+      "ParentId": 535,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-07-20T02:49:50.9952888+02:00",
-      "RegisteredAssociateId": 586,
-      "Updated": "2001-01-19T02:49:50.9952888+01:00",
-      "UpdatedAssociateId": 8,
+      "Registered": "2000-03-27T17:37:38.8298601+02:00",
+      "RegisteredAssociateId": 959,
+      "Updated": "2009-12-27T17:37:38.8298601+01:00",
+      "UpdatedAssociateId": 796,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 930
+          "FieldType": "System.Int32",
+          "FieldLength": 295
         }
       }
     }
   ],
-  "Registered": "2018-04-12T02:49:50.9952888+02:00",
-  "RegisteredAssociateId": 809,
-  "Updated": "2021-07-24T02:49:50.9952888+02:00",
-  "UpdatedAssociateId": 585,
+  "Registered": "1997-12-20T17:37:38.8298601+01:00",
+  "RegisteredAssociateId": 228,
+  "Updated": "2021-10-22T17:37:38.8298601+02:00",
+  "UpdatedAssociateId": 268,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldType": "System.Int32",
+      "FieldLength": 332
     }
   }
 }

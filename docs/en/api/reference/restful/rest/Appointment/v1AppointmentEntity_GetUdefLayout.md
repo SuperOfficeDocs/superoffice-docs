@@ -34,7 +34,7 @@ May be different from the published version.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +80,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,7 +89,7 @@ Response body: array
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 75,
-    "ColumnId": 31,
-    "FieldDefault": "exercitationem",
-    "FieldHeight": 828,
-    "FieldLabel": "soluta",
-    "FieldLeft": 418,
-    "FieldTop": 709,
+    "UDefFieldId": 258,
+    "ColumnId": 801,
+    "FieldDefault": "dolores",
+    "FieldHeight": 316,
+    "FieldLabel": "laboriosam",
+    "FieldLeft": 753,
+    "FieldTop": 715,
     "FieldType": "Checkbox",
-    "FieldWidth": 885,
-    "FormatMask": "soluta",
+    "FieldWidth": 653,
+    "FormatMask": "dolores",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 872,
-    "LabelLeft": 645,
-    "LabelTop": 723,
-    "LabelWidth": 784,
-    "LastVersionId": 863,
-    "ListTableId": 558,
+    "IsIndexed": false,
+    "LabelHeight": 6,
+    "LabelLeft": 785,
+    "LabelTop": 895,
+    "LabelWidth": 663,
+    "LastVersionId": 76,
+    "ListTableId": 717,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 215,
-    "ProgId": "exercitationem",
+    "Page1LineNo": 830,
+    "ProgId": "ut",
     "IsReadOnly": false,
-    "ShortLabel": "assumenda",
-    "TabOrder": 581,
-    "TextLength": 169,
-    "Tooltip": "facilis",
-    "UdefIdentity": 306,
-    "UDListDefinitionId": 148,
+    "ShortLabel": "quibusdam",
+    "TabOrder": 162,
+    "TextLength": 45,
+    "Tooltip": "saepe",
+    "UdefIdentity": 365,
+    "UDListDefinitionId": 538,
     "Justification": "Center",
-    "Version": 127,
-    "TemplateVariableName": "Buckridge-Eichmann",
+    "Version": 936,
+    "TemplateVariableName": "Jaskolski-Nicolas",
     "HasBeenPublished": false,
-    "MdoListName": "Mosciski-Dach",
+    "MdoListName": "Frami-Walker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldLength": 678
       }
     }
   }

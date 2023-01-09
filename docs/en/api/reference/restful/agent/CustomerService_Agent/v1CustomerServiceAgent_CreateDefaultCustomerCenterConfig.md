@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CustomerCenterConfig
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +54,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -63,7 +63,7 @@ Response body:
 POST /api/v1/Agents/CustomerService/CreateDefaultCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 988,
+  "CustConfigId": 800,
   "Type": "Options",
-  "Config": "commodi",
-  "CustLangId": 866,
-  "Registered": "2016-07-30T02:49:44.0285283+02:00",
-  "RegisteredAssociateId": 810,
-  "Updated": "2008-02-20T02:49:44.0285283+01:00",
-  "UpdatedAssociateId": 357,
+  "Config": "explicabo",
+  "CustLangId": 515,
+  "Registered": "2001-05-22T17:37:17.3402442+02:00",
+  "RegisteredAssociateId": 180,
+  "Updated": "1998-02-26T17:37:17.3402442+01:00",
+  "UpdatedAssociateId": 922,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldLength": 586
     }
   }
 }

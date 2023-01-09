@@ -44,21 +44,20 @@ POST /api/v1/PreferenceDescriptionLine?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The PreferenceDescriptionLine to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PrefDescLineId | int32 | Primary key |
-| PrefDescId | int32 | Preference description (parent) |
-| PrefValue | string | Possible value |
-| PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
-| Description | string | Description of preference value, multi-language parsed |
-| IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
+| PrefDescLineId | Integer | Primary key |
+| PrefDescId | Integer | Preference description (parent) |
+| PrefValue | String | Possible value |
+| PrefShowValue | String | Descriptive value, multilang-parsed, to put in list |
+| Description | String | Description of preference value, multi-language parsed |
+| IsBuiltin | Boolean | 1 = This row populated and maintained by SuperOffice |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreferenceDescriptionLineWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body:
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -86,15 +85,15 @@ Response body:
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 212,
-  "PrefDescId": 167,
-  "PrefValue": "veritatis",
-  "PrefShowValue": "dolor",
-  "Description": "Polarised bottom-line initiative",
+  "PrefDescLineId": 698,
+  "PrefDescId": 58,
+  "PrefValue": "qui",
+  "PrefShowValue": "illum",
+  "Description": "Managed exuding help-desk",
   "IsBuiltin": false
 }
 ```
@@ -106,18 +105,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 460,
-  "PrefDescId": 448,
-  "PrefValue": "consequuntur",
-  "PrefShowValue": "blanditiis",
-  "Description": "Seamless discrete moderator",
+  "PrefDescLineId": 876,
+  "PrefDescId": 901,
+  "PrefValue": "et",
+  "PrefShowValue": "id",
+  "Description": "Multi-layered bifurcated alliance",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 211
+      "FieldType": "System.Int32",
+      "FieldLength": 526
     }
   },
   "_Links": {

@@ -25,7 +25,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=464
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=106
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PriceList
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +66,7 @@ Response body:
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,7 +75,7 @@ Response body:
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 351,
-  "ERPPriceListKey": "enim",
-  "QuoteConnectionId": 759,
-  "Name": "Mosciski LLC",
-  "Description": "Expanded well-modulated complexity",
-  "Currency": "quis",
-  "CurrencyName": "Kling Group",
-  "ValidFrom": "2006-04-05T02:49:45.0153392+02:00",
-  "ValidTo": "1999-05-05T02:49:45.0153392+02:00",
+  "PriceListId": 901,
+  "ERPPriceListKey": "voluptas",
+  "QuoteConnectionId": 550,
+  "Name": "Ortiz-Cremin",
+  "Description": "Programmable well-modulated concept",
+  "Currency": "quam",
+  "CurrencyName": "Hermann Group",
+  "ValidFrom": "1999-02-11T17:37:18.7172411+01:00",
+  "ValidTo": "2009-10-04T17:37:18.7172411+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldType": "System.String",
+      "FieldLength": 242
     }
   }
 }

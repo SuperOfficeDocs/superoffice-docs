@@ -42,7 +42,7 @@ GET /api/v1/List/DeliveryTerm/Items?includeDeleted=True
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +60,7 @@ Response body: array
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 609,
-    "Name": "Fay, McGlynn and Bosco",
-    "Tooltip": "est",
+    "Id": 957,
+    "Name": "O'Reilly-VonRueden",
+    "Tooltip": "fuga",
     "Deleted": true,
-    "UdListDefinitionId": 331,
-    "Rank": 980,
+    "UdListDefinitionId": 854,
+    "Rank": 493,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 468
       }
     }
   }

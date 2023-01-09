@@ -26,7 +26,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=harum
+GET /api/v1/List/Source/MDOItems?query=voluptatem
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/Source/MDOItems?query=harum
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Name": "Heathcote, Stracke and Lowe",
-    "ToolTip": "Repudiandae ipsa voluptas.",
+    "Id": 795,
+    "Name": "Bailey LLC",
+    "ToolTip": "Reprehenderit iure.",
     "Deleted": true,
-    "Rank": 968,
-    "Type": "delectus",
+    "Rank": 515,
+    "Type": "modi",
     "ChildItems": [
       {
-        "Id": 336,
-        "Name": "Kuphal, Gottlieb and Berge",
-        "ToolTip": "Non sunt delectus quia omnis.",
+        "Id": 757,
+        "Name": "Dietrich LLC",
+        "ToolTip": "Labore at suscipit ut et accusantium sed et.",
         "Deleted": true,
-        "Rank": 163,
-        "Type": "aperiam",
+        "Rank": 674,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "incidunt",
-        "ColorBlock": 875,
+        "IconHint": "sit",
+        "ColorBlock": 382,
         "ExtraInfo": "excepturi",
-        "StyleHint": "perspiciatis",
-        "FullName": "Annamae Rodriguez",
+        "StyleHint": "dignissimos",
+        "FullName": "Adela Schamberger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 247
+            "FieldType": "System.Int32",
+            "FieldLength": 53
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 608,
-    "ExtraInfo": "consectetur",
-    "StyleHint": "laboriosam",
-    "FullName": "Carroll Angelita Conroy Sr.",
+    "IconHint": "ut",
+    "ColorBlock": 495,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "impedit",
+    "FullName": "Angel Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 284
+        "FieldType": "System.Int32",
+        "FieldLength": 383
       }
     }
   }

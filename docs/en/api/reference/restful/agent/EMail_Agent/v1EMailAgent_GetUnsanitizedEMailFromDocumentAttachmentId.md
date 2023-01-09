@@ -47,18 +47,17 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId?$select=na
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocId, AttachmentIds, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocId | int32 |  |
-| AttachmentIds | array |  |
-| IncludeAttachments | bool |  |
+| DocId | Integer |  |
+| AttachmentIds | Array |  |
+| IncludeAttachments | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body:
 | Bcc | array | Bcc recipient of e-mail |
 | Subject | string | Subject of the e-mail |
 | HTMLBody | string | Body formatted in HTML |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | Sent | date-time | When was the e-mail sent |
 | Size | int32 | Total size of the e-mail |
 | Priority | string | Importance of the e-mail |
@@ -83,7 +82,7 @@ Response body:
 | MessageID | string | Unique id of e-mails |
 | PlainBody | string | Body formatted in plain text |
 | IsSent | bool | Is this a sent e-mail (not new) |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
 | ServerId | int32 | Unique id for the e-mail on the server |
 | Attachments | array |  |
 | CustomHeaderList | array | Non standard e-mail headers |
@@ -91,12 +90,12 @@ Response body:
 | EmailItemId | int32 | Primary key |
 | AccountId | int32 | Account Id |
 | ReceivedAt | date-time | Received date time |
-| InReplyTo |  | The envelope of the email this email is a reply to, if it exists |
+| InReplyTo | EMailEnvelope | The envelope of the email this email is a reply to, if it exists |
 | RepliedAt | date-time | When this email was replied at |
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -105,16 +104,16 @@ Response body:
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 613,
+  "DocId": 606,
   "AttachmentIds": [
-    "possimus",
-    "quia"
+    "eos",
+    "omnis"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -127,147 +126,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 668,
-      "ContactName": "Hauck Group",
-      "PersonId": 566,
-      "PersonName": "Hammes, Wilkinson and Pfannerstill",
-      "AssociateId": 720,
-      "Address": "accusantium",
-      "EmailId": 585,
+      "ContactId": 998,
+      "ContactName": "Bergnaum Group",
+      "PersonId": 261,
+      "PersonName": "Trantow-Dickens",
+      "AssociateId": 608,
+      "Address": "a",
+      "EmailId": 838,
       "DuplicatePersonIds": [
-        854,
-        674
+        444,
+        535
       ],
-      "Name": "Mertz LLC",
+      "Name": "Gleichner, Abbott and Collier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 348
+          "FieldLength": 534
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 501,
-      "ContactName": "Murray-Kuhlman",
-      "PersonId": 357,
-      "PersonName": "Pacocha, Keebler and Senger",
-      "AssociateId": 6,
-      "Address": "asperiores",
-      "EmailId": 721,
+      "ContactId": 474,
+      "ContactName": "Heller-Kemmer",
+      "PersonId": 487,
+      "PersonName": "Stiedemann, Brown and Stroman",
+      "AssociateId": 53,
+      "Address": "id",
+      "EmailId": 242,
       "DuplicatePersonIds": [
-        344,
-        403
+        828,
+        563
       ],
-      "Name": "Kassulke, Champlin and Lesch",
+      "Name": "Kautzer Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 574
+          "FieldType": "System.Int32",
+          "FieldLength": 833
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 1002,
-      "ContactName": "Kunze, Rodriguez and Rowe",
-      "PersonId": 758,
-      "PersonName": "Quigley LLC",
-      "AssociateId": 163,
-      "Address": "esse",
-      "EmailId": 637,
+      "ContactId": 194,
+      "ContactName": "Medhurst Group",
+      "PersonId": 569,
+      "PersonName": "Gottlieb-Mosciski",
+      "AssociateId": 665,
+      "Address": "voluptatem",
+      "EmailId": 236,
       "DuplicatePersonIds": [
-        31,
-        175
+        478,
+        597
       ],
-      "Name": "Schamberger-Ward",
+      "Name": "Dicki-Huel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldLength": 32
         }
       }
     }
   ],
-  "Subject": "velit",
-  "HTMLBody": "ab",
+  "Subject": "itaque",
+  "HTMLBody": "quae",
   "From": null,
-  "Sent": "2000-07-03T02:49:44.4504155+02:00",
-  "Size": 553,
+  "Sent": "2009-09-03T17:37:17.9812697+02:00",
+  "Size": 147,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "tenetur",
+  "MessageID": "corporis",
+  "PlainBody": "architecto",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 409,
+  "ServerId": 851,
   "Attachments": [
     {
-      "Description": "Pre-emptive impactful artificial intelligence",
-      "Filename": "deleniti",
-      "Size": 710,
-      "Type": "vitae",
-      "Encoding": "est",
-      "Id": "quidem",
-      "Disposition": "autem",
+      "Description": "Future-proofed contextually-based attitude",
+      "Filename": "unde",
+      "Size": 924,
+      "Type": "dolore",
+      "Encoding": "blanditiis",
+      "Id": "totam",
+      "Disposition": "temporibus",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 245
+          "FieldLength": 456
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Collier-Greenholt",
+      "Name": "Feeney-Bechtelar",
       "Values": [
-        "nihil",
-        "delectus"
+        "nostrum",
+        "sed"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldLength": 465
         }
       }
     },
     {
-      "Name": "Collier-Greenholt",
+      "Name": "Feeney-Bechtelar",
       "Values": [
-        "nihil",
-        "delectus"
+        "nostrum",
+        "sed"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldLength": 465
         }
       }
     }
   ],
-  "FolderName": "Gibson, Mills and Hegmann",
-  "EmailItemId": 729,
-  "AccountId": 563,
-  "ReceivedAt": "2002-10-18T02:49:44.4504155+02:00",
+  "FolderName": "Kilback, Kshlerin and Kshlerin",
+  "EmailItemId": 450,
+  "AccountId": 993,
+  "ReceivedAt": "2010-10-01T17:37:17.9832433+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-02-02T02:49:44.4504155+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2013-06-29T17:37:17.9832433+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -275,7 +274,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 133
+      "FieldLength": 347
     }
   }
 }

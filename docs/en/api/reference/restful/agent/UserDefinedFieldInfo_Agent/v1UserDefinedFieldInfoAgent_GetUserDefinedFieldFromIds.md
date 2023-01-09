@@ -42,16 +42,15 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Ids 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Ids | array |  |
+| Ids | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,7 +96,7 @@ Response body: array
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -106,13 +105,13 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    195,
-    812
+    57,
+    727
   ]
 }
 ```
@@ -125,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 479,
-    "ColumnId": 293,
-    "FieldDefault": "et",
-    "FieldHeight": 322,
-    "FieldLabel": "sed",
-    "FieldLeft": 593,
-    "FieldTop": 647,
+    "UDefFieldId": 643,
+    "ColumnId": 433,
+    "FieldDefault": "qui",
+    "FieldHeight": 1002,
+    "FieldLabel": "debitis",
+    "FieldLeft": 259,
+    "FieldTop": 444,
     "FieldType": "Checkbox",
-    "FieldWidth": 477,
-    "FormatMask": "natus",
+    "FieldWidth": 949,
+    "FormatMask": "laborum",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 823,
-    "LabelLeft": 879,
-    "LabelTop": 738,
-    "LabelWidth": 625,
-    "LastVersionId": 798,
-    "ListTableId": 345,
+    "LabelHeight": 177,
+    "LabelLeft": 679,
+    "LabelTop": 968,
+    "LabelWidth": 769,
+    "LastVersionId": 434,
+    "ListTableId": 152,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 807,
-    "ProgId": "velit",
-    "IsReadOnly": true,
-    "ShortLabel": "fuga",
-    "TabOrder": 951,
-    "TextLength": 812,
-    "Tooltip": "voluptatem",
-    "UdefIdentity": 80,
-    "UDListDefinitionId": 181,
+    "Page1LineNo": 124,
+    "ProgId": "illo",
+    "IsReadOnly": false,
+    "ShortLabel": "fugit",
+    "TabOrder": 407,
+    "TextLength": 899,
+    "Tooltip": "quibusdam",
+    "UdefIdentity": 749,
+    "UDListDefinitionId": 170,
     "Justification": "Center",
-    "Version": 105,
-    "TemplateVariableName": "Heidenreich-Heidenreich",
+    "Version": 355,
+    "TemplateVariableName": "Stark-Nitzsche",
     "HasBeenPublished": false,
-    "MdoListName": "Swaniawski-Conroy",
+    "MdoListName": "Dach, Thiel and Kling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldLength": 148
       }
     }
   }

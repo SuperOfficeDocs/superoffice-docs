@@ -38,7 +38,7 @@ Calls the List agent service GetConsentPurpose.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -47,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ConsentPurpose
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,12 +59,12 @@ Response body:
 | Tooltip | string | List item tooltip |
 | Active | int32 | Is the consent purpose active or not |
 | UpdatedDate | date-time | The date the consent purpose was last updated  in UTC. |
-| UpdatedBy |  | The associate that last updated the consent purpose |
+| UpdatedBy | Associate | The associate that last updated the consent purpose |
 | Deleted | bool | true if the ConsentPurpose is deleted |
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,7 +73,7 @@ Response body:
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,25 +83,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 186,
-  "Name": "Graham, Hauck and Bartoletti",
-  "ConsentText": "et",
-  "FormText": "voluptate",
-  "Key": "velit",
-  "Tooltip": "necessitatibus",
-  "Active": 947,
-  "UpdatedDate": "2002-05-29T02:49:51.9378192+02:00",
+  "ConsentPurposeId": 547,
+  "Name": "Spencer, Botsford and Kuvalis",
+  "ConsentText": "atque",
+  "FormText": "nobis",
+  "Key": "est",
+  "Tooltip": "rerum",
+  "Active": 544,
+  "UpdatedDate": "2016-09-04T17:37:39.8925064+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 426,
-  "PrivacyStatementDesc": "rem",
+  "Deleted": true,
+  "Rank": 674,
+  "PrivacyStatementDesc": "aut",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldLength": 949
     }
   }
 }

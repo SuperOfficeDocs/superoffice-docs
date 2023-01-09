@@ -39,7 +39,7 @@ If the session does not belong to the user, nothing happens.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -47,14 +47,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ChatSessionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 | The primary key (auto-incremented) |
 | TopicId | int32 | The reference to the associated chat topic. |
-| User |  | User agent handling this session |
-| Person |  | Customer person in this session - could be empty if we don't know exactly. |
+| User | Associate | User agent handling this session |
+| Person | Person | Customer person in this session - could be empty if we don't know exactly. |
 | CustomerAlias | string | The alias for the customer. |
 | CustomerHost | string | The hostname or IP address for the customer. |
 | CustomerName | string | The name of customer, if provided |
@@ -75,14 +75,14 @@ Response body:
 | AlertLevel | int32 | The alert level for this chat session. |
 | Rank | int32 | Lowest possible unique number for active sessions for user. User for color index. Starting at 1. |
 | Flags | string | Various flags for the chat session |
-| Contact |  | Contact this session is connected to - could be empty if we don't know exactly. |
-| Project |  | Project the session is connectedto - could be empty if we don't know exactly. |
-| Sale |  | Sale the session is connected to - could be empty if we don't know exactly. |
-| Ticket |  | Ticket the session is connected to - could be empty if we don't know exactly. |
-| TransferTo |  | User agent that has a pending transfer of the chat session |
+| Contact | Contact | Contact this session is connected to - could be empty if we don't know exactly. |
+| Project | Project | Project the session is connectedto - could be empty if we don't know exactly. |
+| Sale | Sale | Sale the session is connected to - could be empty if we don't know exactly. |
+| Ticket | Ticket | Ticket the session is connected to - could be empty if we don't know exactly. |
+| TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -91,7 +91,7 @@ Response body:
 POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 914,
-  "TopicId": 182,
+  "ChatSessionId": 840,
+  "TopicId": 637,
   "User": null,
   "Person": null,
-  "CustomerAlias": "suscipit",
-  "CustomerHost": "animi",
-  "CustomerName": "Hermann-Gibson",
-  "CustomerEmail": "melba_crist@wiegand.uk",
-  "CustomerPhone": "1-372-418-5098 x296",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Willms-Kreiger",
+  "CustomerAlias": "et",
+  "CustomerHost": "veritatis",
+  "CustomerName": "Wintheiser, Wyman and Fisher",
+  "CustomerEmail": "ottilie@kihn.name",
+  "CustomerPhone": "(719)875-1280 x76039",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Ledner, Smith and Kling",
   "Status": "Closed",
-  "FirstMessage": "in",
-  "LastMessage": "impedit",
-  "WhenRequested": "1999-03-29T02:49:50.6359101+02:00",
-  "WhenStarted": "2006-03-18T02:49:50.6359101+01:00",
-  "WhenEnded": "2012-05-21T02:49:50.6359101+02:00",
-  "WhenIdle": "2004-04-15T02:49:50.6359101+02:00",
-  "WhenFetched": "2009-10-21T02:49:50.6359101+02:00",
-  "SessionKey": "tempora",
-  "InitialQueuePos": 591,
-  "AlertLevel": 704,
-  "Rank": 284,
+  "FirstMessage": "commodi",
+  "LastMessage": "nobis",
+  "WhenRequested": "2015-12-05T17:37:38.2308627+01:00",
+  "WhenStarted": "2021-03-04T17:37:38.2308627+01:00",
+  "WhenEnded": "1999-09-30T17:37:38.2308627+02:00",
+  "WhenIdle": "1997-05-30T17:37:38.2308627+02:00",
+  "WhenFetched": "2015-11-13T17:37:38.2308627+01:00",
+  "SessionKey": "distinctio",
+  "InitialQueuePos": 426,
+  "AlertLevel": 428,
+  "Rank": 176,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 261,
+  "ChatbotIsActive": false,
+  "Rating": 642,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 193
     }
   }
 }

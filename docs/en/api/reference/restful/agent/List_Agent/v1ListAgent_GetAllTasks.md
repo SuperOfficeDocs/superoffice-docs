@@ -42,16 +42,15 @@ POST /api/v1/Agents/List/GetAllTasks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IncludeDeleted | bool |  |
+| IncludeDeleted | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body: array
 | IsDefaultPublished | bool | Published to external persons |
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,7 +84,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAllTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,17 +100,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 102,
-    "Value": "et",
+    "TaskListItemId": 703,
+    "Value": "praesentium",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "quae",
-    "Deleted": true,
-    "IntentId": 473,
-    "Rank": 489,
+    "Tooltip": "natus",
+    "Deleted": false,
+    "IntentId": 781,
+    "Rank": 408,
     "IsDefaultAlldayEvent": false,
     "IsDefaultFree": false,
-    "IsDefaultPublished": true,
+    "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
@@ -119,7 +118,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 527
       }
     }
   }

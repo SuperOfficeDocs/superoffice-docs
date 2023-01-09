@@ -42,13 +42,12 @@ POST /api/v1/Agents/Person/GetPersonList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: personIds  
+## Request Body: personIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,7 +99,7 @@ Response body: array
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -109,7 +108,7 @@ Response body: array
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -120,52 +119,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quam",
-    "PersonId": 288,
-    "Mrmrs": "maiores",
-    "Firstname": "Nova",
-    "Lastname": "Cassin",
-    "MiddleName": "Hand-Kuhlman",
-    "Title": "aliquam",
-    "Description": "Advanced exuding adapter",
-    "Email": "lelia_nicolas@nienowkulas.ca",
-    "FullName": "Ms. Madelyn Nikolaus DVM",
-    "DirectPhone": "192.562.5608",
-    "FormalName": "Jones-Ernser",
-    "CountryId": 511,
-    "ContactId": 335,
-    "ContactName": "Haag-Homenick",
-    "Retired": 522,
-    "Rank": 929,
-    "ActiveInterests": 28,
+    "Position": "ipsa",
+    "PersonId": 969,
+    "Mrmrs": "harum",
+    "Firstname": "Orlo",
+    "Lastname": "Homenick",
+    "MiddleName": "Rutherford Group",
+    "Title": "earum",
+    "Description": "Multi-tiered encompassing groupware",
+    "Email": "sharon@brakus.com",
+    "FullName": "Ardith Farrell",
+    "DirectPhone": "1-902-434-9224 x0753",
+    "FormalName": "Bernhard-Ankunding",
+    "CountryId": 953,
+    "ContactId": 728,
+    "ContactName": "Dare Group",
+    "Retired": 182,
+    "Rank": 600,
+    "ActiveInterests": 621,
     "ContactDepartment": "",
-    "ContactCountryId": 847,
-    "ContactOrgNr": "1059143",
-    "FaxPhone": "050-393-2704",
-    "MobilePhone": "(032)870-1098 x4459",
-    "ContactPhone": "133.715.4432 x820",
-    "AssociateName": "Feil, Klocko and Lang",
-    "AssociateId": 314,
-    "UsePersonAddress": false,
-    "ContactFax": "quasi",
+    "ContactCountryId": 645,
+    "ContactOrgNr": "193938",
+    "FaxPhone": "1-552-168-8243",
+    "MobilePhone": "1-564-570-3049 x2328",
+    "ContactPhone": "(960)712-3345 x94529",
+    "AssociateName": "Connelly Inc and Sons",
+    "AssociateId": 15,
+    "UsePersonAddress": true,
+    "ContactFax": "minima",
     "Kanafname": "iusto",
-    "Kanalname": "voluptate",
-    "Post1": "harum",
-    "Post2": "harum",
-    "Post3": "optio",
-    "EmailName": "jerry@jaskolski.ca",
-    "ContactFullName": "Emma Bechtelar",
-    "ActiveErpLinks": 20,
-    "TicketPriorityId": 581,
-    "SupportLanguageId": 588,
-    "SupportAssociateId": 88,
+    "Kanalname": "rerum",
+    "Post1": "maxime",
+    "Post2": "eos",
+    "Post3": "ut",
+    "EmailName": "larry.kuhn@frami.name",
+    "ContactFullName": "Curt Parker",
+    "ActiveErpLinks": 264,
+    "TicketPriorityId": 657,
+    "SupportLanguageId": 919,
+    "SupportAssociateId": 668,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 356
+        "FieldLength": 319
       }
     }
   }

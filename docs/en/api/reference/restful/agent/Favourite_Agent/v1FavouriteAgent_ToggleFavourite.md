@@ -42,19 +42,18 @@ POST /api/v1/Agents/Favourite/ToggleFavourite?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, RecordId, AssociateId, ExtraInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| RecordId | int32 |  |
-| AssociateId | int32 |  |
-| ExtraInfo | string |  |
+| TableName | String |  |
+| RecordId | Integer |  |
+| AssociateId | Integer |  |
+| ExtraInfo | String |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -71,14 +70,14 @@ Response body: bool
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Thiel Group",
-  "RecordId": 718,
-  "AssociateId": 94,
-  "ExtraInfo": "tenetur"
+  "TableName": "Dibbert Inc and Sons",
+  "RecordId": 995,
+  "AssociateId": 334,
+  "ExtraInfo": "veritatis"
 }
 ```
 

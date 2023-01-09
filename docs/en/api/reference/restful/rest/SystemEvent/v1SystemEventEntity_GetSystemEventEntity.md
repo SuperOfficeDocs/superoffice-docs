@@ -48,7 +48,7 @@ GET /api/v1/SystemEvent/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 SystemEventEntity found.
 
@@ -57,7 +57,7 @@ SystemEventEntity found.
 | 200 | SystemEventEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: SystemEventEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,8 +70,8 @@ Response body:
 | Owner | int32 | 0, 0, group_id, assoc id (see over) |
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
-| ActivatedBy |  | The associate that first created the SystemEvent. |
-| TableRight |  |  |
+| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -81,7 +81,7 @@ Response body:
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,22 +91,22 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 427,
+  "SystemEventId": 673,
   "Scope": "Database",
-  "Eta": "2014-11-06T02:49:51.551935+01:00",
-  "Eventkey": "ipsam",
-  "Eventmess": "illo",
-  "ExtraInfo": 202,
-  "Owner": 836,
-  "UpdatedCount": 881,
-  "Registered": "2002-02-09T02:49:51.551935+01:00",
+  "Eta": "2020-12-03T17:37:39.2333062+01:00",
+  "Eventkey": "atque",
+  "Eventmess": "esse",
+  "ExtraInfo": 61,
+  "Owner": 334,
+  "UpdatedCount": 996,
+  "Registered": "1997-09-25T17:37:39.2333062+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldType": "System.String",
+      "FieldLength": 777
     }
   },
   "_Links": {

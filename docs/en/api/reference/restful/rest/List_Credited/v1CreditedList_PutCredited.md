@@ -36,21 +36,20 @@ Updates an existing Credited list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem  
+## Request Body: listItem 
 
 The details of Credited list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The identity of the list item |
-| Name | string | The name of the list item |
-| Tooltip | string | The tooltip of the list item |
-| Deleted | bool | True if the list item is marked as deleted |
-| UdListDefinitionId | int32 | The id of the list which this list item belongs to |
-| Rank | int32 | The rank of the list item |
+| Id | Integer | The identity of the list item |
+| Name | String | The name of the list item |
+| Tooltip | String | The tooltip of the list item |
+| Deleted | Boolean | True if the list item is marked as deleted |
+| UdListDefinitionId | Integer | The id of the list which this list item belongs to |
+| Rank | Integer | The rank of the list item |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: ListItemEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body:
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,16 +77,16 @@ Response body:
 PUT /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 354,
-  "Name": "Bernhard, Bashirian and Upton",
-  "Tooltip": "eum",
+  "Id": 743,
+  "Name": "White-Satterfield",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "UdListDefinitionId": 109,
-  "Rank": 143
+  "UdListDefinitionId": 800,
+  "Rank": 25
 }
 ```
 
@@ -98,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 559,
-  "Name": "Lebsack-Cremin",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "UdListDefinitionId": 700,
-  "Rank": 680,
+  "Id": 445,
+  "Name": "Gibson-Christiansen",
+  "Tooltip": "tempore",
+  "Deleted": true,
+  "UdListDefinitionId": 352,
+  "Rank": 319,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 177
+      "FieldLength": 52
     }
   }
 }

@@ -42,17 +42,16 @@ POST /api/v1/Agents/Resource/IsResourceSubstitutionActive?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ResourceNames, Culture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ResourceNames | array |  |
-| Culture | string |  |
+| ResourceNames | Array |  |
+| Culture | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +67,7 @@ Response body: array
 | ResourceValue | string | The value of the resource in the given culture |
 | Culture | string | .NET-style culture code, such as NB-NO or EN-UK |
 | IsActive | bool | Is this override active |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,15 +76,15 @@ Response body: array
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Spencer-Grady",
-    "Jewess, Beier and VonRueden"
+    "Ferry-Mosciski",
+    "Buckridge, Oberbrunner and Schultz"
   ],
-  "Culture": "rem"
+  "Culture": "tempora"
 }
 ```
 
@@ -97,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Crist, Reynolds and Boyle",
-    "ResourceValue": "neque",
-    "Culture": "tempore",
+    "ResourceName": "Schamberger-Kuhlman",
+    "ResourceValue": "illum",
+    "Culture": "adipisci",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldLength": 154
       }
     }
   },
   {
-    "ResourceName": "Crist, Reynolds and Boyle",
-    "ResourceValue": "neque",
-    "Culture": "tempore",
+    "ResourceName": "Schamberger-Kuhlman",
+    "ResourceValue": "illum",
+    "Culture": "adipisci",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldLength": 154
       }
     }
   }

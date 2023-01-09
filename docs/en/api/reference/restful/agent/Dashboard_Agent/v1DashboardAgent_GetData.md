@@ -42,17 +42,16 @@ POST /api/v1/Agents/Dashboard/GetData?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DashboardTileId, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardTileId | int32 |  |
-| Restrictions | string |  |
+| DashboardTileId | Integer |  |
+| Restrictions | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,12 +59,12 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Columns | array | Column information |
-| Result |  | The result set |
+| Result | ArchiveListResult | The result set |
 
 ## Sample request
 
@@ -73,12 +72,12 @@ Response body: array
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 369,
-  "Restrictions": "voluptas"
+  "DashboardTileId": 353,
+  "Restrictions": "animi"
 }
 ```
 
@@ -92,19 +91,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Glover, Schinner and O'Hara",
-        "DisplayTooltip": "et",
-        "DisplayType": "officiis",
-        "CanOrderBy": false,
-        "Name": "Beahan, Daugherty and Fadel",
-        "CanRestrictBy": true,
-        "RestrictionType": "qui",
-        "RestrictionListName": "Sanford Group",
-        "IsVisible": true,
-        "ExtraInfo": "voluptas",
-        "Width": "assumenda",
-        "IconHint": "omnis",
-        "HeadingIconHint": "ducimus"
+        "DisplayName": "Gutkowski, Wisoky and Braun",
+        "DisplayTooltip": "mollitia",
+        "DisplayType": "quibusdam",
+        "CanOrderBy": true,
+        "Name": "Braun, Krajcik and Jacobson",
+        "CanRestrictBy": false,
+        "RestrictionType": "consectetur",
+        "RestrictionListName": "Graham, Prohaska and Johnson",
+        "IsVisible": false,
+        "ExtraInfo": "illum",
+        "Width": "minus",
+        "IconHint": "doloremque",
+        "HeadingIconHint": "quos"
       }
     ],
     "Result": null
@@ -112,19 +111,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Glover, Schinner and O'Hara",
-        "DisplayTooltip": "et",
-        "DisplayType": "officiis",
-        "CanOrderBy": false,
-        "Name": "Beahan, Daugherty and Fadel",
-        "CanRestrictBy": true,
-        "RestrictionType": "qui",
-        "RestrictionListName": "Sanford Group",
-        "IsVisible": true,
-        "ExtraInfo": "voluptas",
-        "Width": "assumenda",
-        "IconHint": "omnis",
-        "HeadingIconHint": "ducimus"
+        "DisplayName": "Gutkowski, Wisoky and Braun",
+        "DisplayTooltip": "mollitia",
+        "DisplayType": "quibusdam",
+        "CanOrderBy": true,
+        "Name": "Braun, Krajcik and Jacobson",
+        "CanRestrictBy": false,
+        "RestrictionType": "consectetur",
+        "RestrictionListName": "Graham, Prohaska and Johnson",
+        "IsVisible": false,
+        "ExtraInfo": "illum",
+        "Width": "minus",
+        "IconHint": "doloremque",
+        "HeadingIconHint": "quos"
       }
     ],
     "Result": null

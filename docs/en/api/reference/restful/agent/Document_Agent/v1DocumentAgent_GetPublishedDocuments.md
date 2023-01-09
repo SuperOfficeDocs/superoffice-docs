@@ -42,16 +42,15 @@ POST /api/v1/Agents/Document/GetPublishedDocuments?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentIds | array |  |
+| DocumentIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +82,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,13 +91,13 @@ Response body: array
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    722,
-    74
+    491,
+    371
   ]
 }
 ```
@@ -111,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 820,
-    "Attention": "est",
-    "Header": "aliquam",
-    "Name": "Skiles, Dooley and Rice",
-    "OurRef": "voluptas",
-    "YourRef": "nihil",
-    "Description": "Stand-alone optimal challenge",
-    "DocumentTemplate": "est",
+    "DocumentId": 706,
+    "Attention": "numquam",
+    "Header": "temporibus",
+    "Name": "West-Schimmel",
+    "OurRef": "architecto",
+    "YourRef": "facilis",
+    "Description": "Stand-alone high-level info-mediaries",
+    "DocumentTemplate": "sed",
     "IsPublished": false,
-    "PersonId": 797,
-    "PersonFullName": "Mr. Lee Von III",
-    "AssociateFullName": "Augustine Jones",
-    "ContactId": 846,
-    "ContactName": "Rolfson, Kovacek and McGlynn",
-    "ProjectId": 188,
-    "ProjectName": "Wuckert-Kautzer",
-    "AssociateId": 739,
-    "Snum": 492,
-    "SaleId": 350,
-    "SaleName": "Cormier Group",
+    "PersonId": 909,
+    "PersonFullName": "Mrs. Cristal Gustave Little",
+    "AssociateFullName": "Madyson Skyla Schuppe III",
+    "ContactId": 958,
+    "ContactName": "Stiedemann, Ziemann and Thiel",
+    "ProjectId": 265,
+    "ProjectName": "Harris, Sauer and Klocko",
+    "AssociateId": 802,
+    "Snum": 325,
+    "SaleId": 370,
+    "SaleName": "Turcotte Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 646
+        "FieldLength": 7
       }
     }
   }

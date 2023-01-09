@@ -44,16 +44,15 @@ POST /api/v1/Agents/Chat/PickUpChatSession?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ChatSessionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ChatSessionId | int32 |  |
+| ChatSessionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,14 +60,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ChatSessionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 | The primary key (auto-incremented) |
 | TopicId | int32 | The reference to the associated chat topic. |
-| User |  | User agent handling this session |
-| Person |  | Customer person in this session - could be empty if we don't know exactly. |
+| User | Associate | User agent handling this session |
+| Person | Person | Customer person in this session - could be empty if we don't know exactly. |
 | CustomerAlias | string | The alias for the customer. |
 | CustomerHost | string | The hostname or IP address for the customer. |
 | CustomerName | string | The name of customer, if provided |
@@ -89,14 +88,14 @@ Response body:
 | AlertLevel | int32 | The alert level for this chat session. |
 | Rank | int32 | Lowest possible unique number for active sessions for user. User for color index. Starting at 1. |
 | Flags | string | Various flags for the chat session |
-| Contact |  | Contact this session is connected to - could be empty if we don't know exactly. |
-| Project |  | Project the session is connectedto - could be empty if we don't know exactly. |
-| Sale |  | Sale the session is connected to - could be empty if we don't know exactly. |
-| Ticket |  | Ticket the session is connected to - could be empty if we don't know exactly. |
-| TransferTo |  | User agent that has a pending transfer of the chat session |
+| Contact | Contact | Contact this session is connected to - could be empty if we don't know exactly. |
+| Project | Project | Project the session is connectedto - could be empty if we don't know exactly. |
+| Sale | Sale | Sale the session is connected to - could be empty if we don't know exactly. |
+| Ticket | Ticket | Ticket the session is connected to - could be empty if we don't know exactly. |
+| TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -105,11 +104,11 @@ Response body:
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 981
+  "ChatSessionId": 583
 }
 ```
 
@@ -120,29 +119,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 566,
-  "TopicId": 15,
+  "ChatSessionId": 946,
+  "TopicId": 839,
   "User": null,
   "Person": null,
-  "CustomerAlias": "qui",
-  "CustomerHost": "et",
-  "CustomerName": "Dach Group",
-  "CustomerEmail": "twila@lehnermosciski.info",
-  "CustomerPhone": "753-654-7133",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Harvey LLC",
+  "CustomerAlias": "doloremque",
+  "CustomerHost": "ut",
+  "CustomerName": "Wunsch Group",
+  "CustomerEmail": "presley.stamm@gerhold.co.uk",
+  "CustomerPhone": "1-060-054-9439",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Gutmann Group",
   "Status": "Closed",
-  "FirstMessage": "accusantium",
-  "LastMessage": "distinctio",
-  "WhenRequested": "2002-02-25T02:49:43.8097841+01:00",
-  "WhenStarted": "2003-02-01T02:49:43.8097841+01:00",
-  "WhenEnded": "2020-04-20T02:49:43.8097841+02:00",
-  "WhenIdle": "2020-12-12T02:49:43.8097841+01:00",
-  "WhenFetched": "2011-03-13T02:49:43.8097841+01:00",
-  "SessionKey": "voluptates",
-  "InitialQueuePos": 677,
-  "AlertLevel": 299,
-  "Rank": 982,
+  "FirstMessage": "voluptatum",
+  "LastMessage": "laudantium",
+  "WhenRequested": "2016-01-16T17:37:17.0502426+01:00",
+  "WhenStarted": "2017-03-03T17:37:17.0502426+01:00",
+  "WhenEnded": "2006-03-07T17:37:17.0502426+01:00",
+  "WhenIdle": "2014-06-29T17:37:17.0502426+02:00",
+  "WhenFetched": "2006-04-12T17:37:17.0502426+02:00",
+  "SessionKey": "rerum",
+  "InitialQueuePos": 560,
+  "AlertLevel": 641,
+  "Rank": 864,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +149,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 253,
+  "Rating": 7,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldType": "System.String",
+      "FieldLength": 364
     }
   }
 }

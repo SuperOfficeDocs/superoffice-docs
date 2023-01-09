@@ -42,7 +42,7 @@ POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings?$select=name,depar
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SystemTemplateSettings
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body:
 | WeekStatTemplateId | int32 | Template for weekly statistics |
 | TicketAlarmHotlistTemplateId | int32 | Template for notification of an escalated request in the favourites list |
 | EmailAddresses | string | One or more e-mail addresses (comma-separated) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body:
 POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 941,
-  "CustomerCustomerReplyTemplateId": 759,
-  "CustomerPasswordTemplateId": 653,
-  "CustomerConfirmEmailTemplateId": 543,
-  "CustomerChatLogTemplateId": 143,
-  "NewLinkTemplateId": 573,
-  "HotlistNewMessageTemplateId": 405,
-  "HotlistTicketActivatedTemplateId": 781,
-  "UserTicketAlarmTemplateId": 611,
-  "HotlistTicketTakenOverTemplateId": 50,
-  "UserActiveTicketsTemplateId": 143,
-  "UserNewMessageTemplateId": 281,
-  "UserTicketActivatedTemplateId": 296,
-  "UserNewTicketTemplateId": 616,
-  "PublishKbQuestionTemplateId": 619,
-  "PublishKbAnswerTemplateId": 306,
-  "UserTicketTakenOverTemplateId": 861,
-  "PrintTicketTemplateId": 243,
-  "WeekStatTemplateId": 87,
-  "TicketAlarmHotlistTemplateId": 41,
-  "EmailAddresses": "roy@sauer.info",
+  "CustomerNewCustomerTemplateId": 454,
+  "CustomerCustomerReplyTemplateId": 790,
+  "CustomerPasswordTemplateId": 208,
+  "CustomerConfirmEmailTemplateId": 946,
+  "CustomerChatLogTemplateId": 859,
+  "NewLinkTemplateId": 206,
+  "HotlistNewMessageTemplateId": 655,
+  "HotlistTicketActivatedTemplateId": 615,
+  "UserTicketAlarmTemplateId": 110,
+  "HotlistTicketTakenOverTemplateId": 147,
+  "UserActiveTicketsTemplateId": 466,
+  "UserNewMessageTemplateId": 516,
+  "UserTicketActivatedTemplateId": 16,
+  "UserNewTicketTemplateId": 908,
+  "PublishKbQuestionTemplateId": 379,
+  "PublishKbAnswerTemplateId": 923,
+  "UserTicketTakenOverTemplateId": 326,
+  "PrintTicketTemplateId": 456,
+  "WeekStatTemplateId": 954,
+  "TicketAlarmHotlistTemplateId": 194,
+  "EmailAddresses": "michel@white.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 839
     }
   }
 }

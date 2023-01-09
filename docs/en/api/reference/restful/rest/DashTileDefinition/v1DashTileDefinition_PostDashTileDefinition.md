@@ -44,34 +44,33 @@ POST /api/v1/DashTileDefinition?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The DashTileDefinition to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardTileDefinitionId | int32 | Primary key |
-| Name | string | The name of the tile |
-| Description | string | Detailed description |
-| DefaultHeight | int32 | Default height when added to a dashboard |
-| DefaultWidth | int32 | Default width when added to a dashboard |
-| TileType | string | Dashboard tile type |
-| EntityType | string | Dashboard entity type |
-| EntityName | string | The entity measured by this tile, defines what provider to use |
-| SelectionId | int32 | Selection holding the criterias for the tile definition |
-| CurrencyMode | string | Dashboard currency mode |
-| CurrencyCode | string | Currency code |
-| Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
-| MeasureField | string | Field to be measured |
-| SortBy | string | Sort by field |
-| LayoutConfig | string | The JSON formatted layout config |
-| SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
-| MeasureByField | string | Field to group by |
-| Usage | string | Where this tile can be used |
-| ProviderName | string | Name of provider to use with this entity type - read only property |
+| DashboardTileDefinitionId | Integer | Primary key |
+| Name | String | The name of the tile |
+| Description | String | Detailed description |
+| DefaultHeight | Integer | Default height when added to a dashboard |
+| DefaultWidth | Integer | Default width when added to a dashboard |
+| TileType | String | Dashboard tile type |
+| EntityType | String | Dashboard entity type |
+| EntityName | String | The entity measured by this tile, defines what provider to use |
+| SelectionId | Integer | Selection holding the criterias for the tile definition |
+| CurrencyMode | String | Dashboard currency mode |
+| CurrencyCode | String | Currency code |
+| Measure | String | Dashboard measure type (Count, Sum, Avg, etc.) |
+| MeasureField | String | Field to be measured |
+| SortBy | String | Sort by field |
+| LayoutConfig | String | The JSON formatted layout config |
+| SecondarySelectionId | Integer | Selection holding the replaced or changed criterias (period comparisons etc) |
+| MeasureByField | String | Field to group by |
+| Usage | String | Where this tile can be used |
+| ProviderName | String | Name of provider to use with this entity type - read only property |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -79,7 +78,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTileDefinitionWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,7 +101,7 @@ Response body:
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -116,25 +115,25 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 464,
-  "Name": "Haag Group",
-  "Description": "Inverse scalable flexibility",
-  "DefaultHeight": 472,
-  "DefaultWidth": 592,
+  "DashboardTileDefinitionId": 175,
+  "Name": "Kuhn, Pacocha and Kozey",
+  "Description": "Distributed contextually-based initiative",
+  "DefaultHeight": 123,
+  "DefaultWidth": 84,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Durgan, Deckow and Thompson",
-  "SelectionId": 982,
+  "EntityName": "Koss, Ondricka and Glover",
+  "SelectionId": 210,
   "CurrencyMode": "Base",
-  "CurrencyCode": "autem",
+  "CurrencyCode": "facere",
   "Measure": "Average",
-  "MeasureField": "perspiciatis",
-  "SortBy": "velit",
-  "LayoutConfig": "dolorum",
-  "SecondarySelectionId": 255,
-  "MeasureByField": "eligendi",
+  "MeasureField": "consequatur",
+  "SortBy": "ut",
+  "LayoutConfig": "modi",
+  "SecondarySelectionId": 669,
+  "MeasureByField": "culpa",
   "Usage": "Dashboard",
-  "ProviderName": "Waelchi, Hickle and Koss"
+  "ProviderName": "Langosh, Botsford and Schinner"
 }
 ```
 
@@ -145,31 +144,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 278,
-  "Name": "Bernhard Group",
-  "Description": "Reverse-engineered bifurcated website",
-  "DefaultHeight": 653,
-  "DefaultWidth": 832,
+  "DashboardTileDefinitionId": 205,
+  "Name": "Schulist, Rohan and Homenick",
+  "Description": "Customer-focused secondary leverage",
+  "DefaultHeight": 842,
+  "DefaultWidth": 399,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Mills-Emard",
-  "SelectionId": 605,
+  "EntityName": "Ryan, Daugherty and Bernier",
+  "SelectionId": 224,
   "CurrencyMode": "Base",
-  "CurrencyCode": "aliquid",
+  "CurrencyCode": "ullam",
   "Measure": "Average",
-  "MeasureField": "eum",
-  "SortBy": "corporis",
-  "LayoutConfig": "accusamus",
-  "SecondarySelectionId": 566,
-  "MeasureByField": "nisi",
+  "MeasureField": "corporis",
+  "SortBy": "sunt",
+  "LayoutConfig": "placeat",
+  "SecondarySelectionId": 890,
+  "MeasureByField": "consequuntur",
   "Usage": "Dashboard",
-  "ProviderName": "Larson Group",
+  "ProviderName": "Nicolas, Hane and Collier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldLength": 346
     }
   },
   "_Links": {

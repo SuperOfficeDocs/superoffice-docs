@@ -42,16 +42,15 @@ POST /api/v1/Agents/Project/GetProjectsFromContact?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
+| ContactId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +80,7 @@ Response body: array
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,11 +89,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 667
+  "ContactId": 572
 }
 ```
 
@@ -106,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 369,
-    "Name": "Hayes-Kautzer",
-    "Description": "Intuitive national emulation",
+    "ProjectId": 886,
+    "Name": "Mraz-Adams",
+    "Description": "Multi-channelled client-driven function",
     "URL": "http://www.example.com/",
-    "Type": "tempore",
-    "AssociateId": 829,
-    "AssociateFullName": "Timothy Isaias Lakin Jr.",
-    "TypeId": 132,
-    "Updated": "2001-11-18T02:49:44.9684639+01:00",
-    "StatusId": 538,
-    "Status": "temporibus",
-    "TextId": 937,
-    "PublishTo": "2004-11-19T02:49:44.9684639+01:00",
-    "PublishFrom": "2005-03-09T02:49:44.9684639+01:00",
+    "Type": "quia",
+    "AssociateId": 48,
+    "AssociateFullName": "Cullen Strosin",
+    "TypeId": 466,
+    "Updated": "2010-07-22T17:37:18.6612448+02:00",
+    "StatusId": 536,
+    "Status": "nihil",
+    "TextId": 455,
+    "PublishTo": "2004-05-17T17:37:18.6612448+02:00",
+    "PublishFrom": "2005-10-30T17:37:18.6612448+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1043999",
-    "ActiveErpLinks": 165,
+    "ProjectNumber": "1174534",
+    "ActiveErpLinks": 940,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 119
+        "FieldType": "System.Int32",
+        "FieldLength": 691
       }
     }
   }

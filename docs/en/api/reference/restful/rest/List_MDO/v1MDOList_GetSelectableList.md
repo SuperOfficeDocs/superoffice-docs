@@ -29,7 +29,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=impedit
+GET /api/v1/MDOList/{listname}/selectable?additional=est
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -48,7 +48,7 @@ GET /api/v1/MDOList/{listname}/selectable?flat=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Schmeler-Bogisich",
-    "ToolTip": "Id voluptatem.",
-    "Deleted": false,
-    "Rank": 6,
-    "Type": "ratione",
-    "ColorBlock": 768,
-    "IconHint": "tempore",
+    "Id": 567,
+    "Name": "Buckridge, Bailey and Fritsch",
+    "ToolTip": "Quidem tenetur minus quasi in ipsam architecto.",
+    "Deleted": true,
+    "Rank": 594,
+    "Type": "doloribus",
+    "ColorBlock": 371,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2010-06-20T02:49:52.2659433+02:00",
+    "LastChanged": "2006-05-24T17:37:40.0485001+02:00",
     "ChildItems": [
       {
-        "Id": 367,
-        "Name": "Huel-Friesen",
-        "ToolTip": "Ipsam explicabo ut.",
-        "Deleted": true,
-        "Rank": 309,
-        "Type": "pariatur",
-        "ColorBlock": 120,
-        "IconHint": "quae",
+        "Id": 1001,
+        "Name": "Turner-Durgan",
+        "ToolTip": "Qui placeat consequuntur nobis sunt.",
+        "Deleted": false,
+        "Rank": 443,
+        "Type": "laboriosam",
+        "ColorBlock": 949,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2011-03-03T02:49:52.2659433+01:00",
+        "LastChanged": "2021-04-18T17:37:40.0495008+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "qui",
+        "ExtraInfo": "repellat",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Mae Stehr",
+        "FullName": "June Schultz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 261
+            "FieldType": "System.Int32",
+            "FieldLength": 99
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "perferendis",
-    "Hidden": true,
-    "FullName": "Evangeline Buckridge",
+    "ExtraInfo": "sed",
+    "StyleHint": "eius",
+    "Hidden": false,
+    "FullName": "Sim Batz DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldLength": 719
       }
     }
   }

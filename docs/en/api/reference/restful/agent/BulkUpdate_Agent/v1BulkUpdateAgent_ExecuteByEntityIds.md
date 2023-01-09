@@ -42,19 +42,18 @@ POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 FieldValueInfos, TableName, Context, Ids 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| FieldValueInfos | array |  |
-| TableName | string |  |
-| Context | string |  |
-| Ids | string |  |
+| FieldValueInfos | Array |  |
+| TableName | String |  |
+| Context | String |  |
+| Ids | String |  |
 
-
-## Response: int32
+## Response:int32
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -71,36 +70,36 @@ Response body: int32
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": true,
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
-      "IsActive": false,
-      "Key": "est",
-      "ValueType": "qui",
-      "Mandatory": true,
-      "EncodedDisplayName": "Stanton-Howe",
-      "EncodedDisplayDescription": "Cross-platform fresh-thinking knowledge base",
-      "IconHint": "minima",
+      "IsActive": true,
+      "Key": "harum",
+      "ValueType": "totam",
+      "Mandatory": false,
+      "EncodedDisplayName": "Ferry-Sipes",
+      "EncodedDisplayDescription": "Ameliorated analyzing encoding",
+      "IconHint": "quam",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "non",
-      "EncodedDataCaptionDescription": "User-centric 24/7 moratorium",
-      "CurrentOperationType": "omnis",
+      "EncodedDataCaption": "aut",
+      "EncodedDataCaptionDescription": "Persevering real-time system engine",
+      "CurrentOperationType": "vitae",
       "Values": [
-        "molestiae",
-        "vel"
+        "occaecati",
+        "sequi"
       ],
       "DisplayValues": [
-        "nam",
-        "ipsa"
+        "accusantium",
+        "modi"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +107,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Nolan, Langworth and Hudson",
-  "Context": "temporibus",
-  "Ids": "ad"
+  "TableName": "Kling-Rosenbaum",
+  "Context": "praesentium",
+  "Ids": "omnis"
 }
 ```
 
@@ -120,5 +119,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-902
+944
 ```

@@ -32,25 +32,24 @@ Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ProjectTypeEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjTypeId | int32 | Primary key |
-| Name | string | The list item |
-| Tooltip | string | Tooltip or other description |
-| Rank | int32 | Rank order |
-| DurationUnit | string | Units for the duration |
-| ProjectDuration | int32 | Expected duration of project, in given units |
-| Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| HasGuide | bool | Does this project type have a guide attached |
-| IsAutoAdvance | bool | Does the project status advance automatically, when the last guided activity in a status is completed? |
-| Stages | array | Stages (project statuses), those associated with this ProjType are selected. |
+| ProjTypeId | Integer | Primary key |
+| Name | String | The list item |
+| Tooltip | String | Tooltip or other description |
+| Rank | Integer | Rank order |
+| DurationUnit | String | Units for the duration |
+| ProjectDuration | Integer | Expected duration of project, in given units |
+| Deleted | Boolean | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
+| HasGuide | Boolean | Does this project type have a guide attached |
+| IsAutoAdvance | Boolean | Does the project status advance automatically, when the last guided activity in a status is completed? |
+| Stages | Array | Stages (project statuses), those associated with this ProjType are selected. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -58,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectTypeEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body:
 | HasGuide | bool | Does this project type have a guide attached |
 | IsAutoAdvance | bool | Does the project status advance automatically, when the last guided activity in a status is completed? |
 | Stages | array | Stages (project statuses), those associated with this ProjType are selected. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,39 +80,39 @@ Response body:
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 669,
-  "Name": "Heathcote-Pollich",
-  "Tooltip": "placeat",
-  "Rank": 477,
+  "ProjTypeId": 234,
+  "Name": "Hauck LLC",
+  "Tooltip": "inventore",
+  "Rank": 808,
   "DurationUnit": "Century",
-  "ProjectDuration": 612,
+  "ProjectDuration": 208,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 508,
-      "Name": "Ratke, Kihn and Gibson",
-      "ToolTip": "Aut commodi voluptatem quis ratione delectus facere eos.",
+      "Id": 441,
+      "Name": "Mayer LLC",
+      "ToolTip": "Quia quos qui in quia.",
       "Deleted": false,
-      "Rank": 987,
-      "Type": "occaecati",
-      "ColorBlock": 549,
-      "IconHint": "vel",
+      "Rank": 196,
+      "Type": "iste",
+      "ColorBlock": 428,
+      "IconHint": "sunt",
       "Selected": false,
-      "LastChanged": "2016-03-19T02:49:44.6860468+01:00",
+      "LastChanged": "2002-06-09T17:37:18.2812417+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "corporis",
-      "StyleHint": "ex",
+      "ExtraInfo": "accusamus",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Makenzie Yost"
+      "FullName": "Maude Waters"
     }
   ]
 }
@@ -126,41 +125,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 539,
-  "Name": "Boyle, Aufderhar and Vandervort",
-  "Tooltip": "voluptates",
-  "Rank": 518,
+  "ProjTypeId": 784,
+  "Name": "Champlin, Wolf and Cronin",
+  "Tooltip": "nihil",
+  "Rank": 321,
   "DurationUnit": "Century",
-  "ProjectDuration": 944,
-  "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": true,
+  "ProjectDuration": 162,
+  "Deleted": true,
+  "HasGuide": false,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 44,
-      "Name": "Hilpert-Funk",
-      "ToolTip": "Occaecati at.",
+      "Id": 324,
+      "Name": "O'Connell, Green and Stark",
+      "ToolTip": "Eligendi ullam minus et corporis.",
       "Deleted": false,
-      "Rank": 1002,
-      "Type": "aut",
-      "ColorBlock": 578,
-      "IconHint": "dolor",
-      "Selected": true,
-      "LastChanged": "2016-08-02T02:49:44.6860468+02:00",
+      "Rank": 842,
+      "Type": "deleniti",
+      "ColorBlock": 928,
+      "IconHint": "vel",
+      "Selected": false,
+      "LastChanged": "1997-11-02T17:37:18.2822428+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odit",
-      "StyleHint": "fugiat",
+      "ExtraInfo": "natus",
+      "StyleHint": "provident",
       "Hidden": false,
-      "FullName": "Brionna Grant",
+      "FullName": "Mr. Melisa Boyle PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldType": "System.String",
+          "FieldLength": 673
         }
       }
     }
@@ -169,8 +168,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldType": "System.String",
+      "FieldLength": 347
     }
   }
 }

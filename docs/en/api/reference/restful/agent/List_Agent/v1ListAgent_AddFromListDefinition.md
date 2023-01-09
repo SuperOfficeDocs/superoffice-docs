@@ -42,17 +42,16 @@ POST /api/v1/Agents/List/AddFromListDefinition?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionId, Item 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionId | int32 |  |
-| Item |  | The list item entity contains generic list item information <para /> Carrier object for ListItemEntity. Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| UdListDefinitionId | Integer |  |
+| Item | ListItemEntity | The list item entity contains generic list item information <para /> Carrier object for ListItemEntity. Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ListItemEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body:
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 757,
+  "UdListDefinitionId": 826,
   "Item": null
 }
 ```
@@ -95,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 728,
-  "Name": "Turner, Kessler and Block",
-  "Tooltip": "quasi",
+  "Id": 887,
+  "Name": "Bahringer, Swift and Wolff",
+  "Tooltip": "hic",
   "Deleted": false,
-  "UdListDefinitionId": 108,
-  "Rank": 191,
+  "UdListDefinitionId": 479,
+  "Rank": 813,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 345
     }
   }
 }

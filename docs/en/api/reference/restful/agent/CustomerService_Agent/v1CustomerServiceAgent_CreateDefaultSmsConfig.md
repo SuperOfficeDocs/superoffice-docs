@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SmsConfig
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +50,7 @@ Response body:
 | NetServerSmsProvider | string | Name of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, PSWinCom SMS, SMS Teknik or TXTLocal. |
 | NsPluginSender | string | The sender of the SMS messages. This text will appear on the recipient's mobile phone. |
 | NsPluginConfig | object | Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -59,7 +59,7 @@ Response body:
 POST /api/v1/Agents/CustomerService/CreateDefaultSmsConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "corrupti",
-  "NsPluginSender": "ipsam",
+  "NetServerSmsProvider": "non",
+  "NsPluginSender": "cupiditate",
   "NsPluginConfig": {
-    "NsPluginConfig1": "exercitationem",
-    "NsPluginConfig2": "inventore"
+    "NsPluginConfig1": "aut",
+    "NsPluginConfig2": "ad"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldLength": 354
     }
   }
 }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Get Erp Field values
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,18 +44,17 @@ POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ErpConnectionId, ActorTypeErp, ErpKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpConnectionId | int32 |  |
-| ActorTypeErp | string |  |
-| ErpKey | string |  |
+| ErpConnectionId | Integer |  |
+| ActorTypeErp | String |  |
+| ErpKey | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +72,7 @@ Response body: array
 | DisplayValue | string |  |
 | SyncToCrm | bool | Should value changes in ERP be automatically transferred to CRM |
 | SyncToErp | bool | Should value changes in CRM be automatically transferred to ERP |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,13 +81,13 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 735,
+  "ErpConnectionId": 28,
   "ActorTypeErp": "Customer",
-  "ErpKey": "adipisci"
+  "ErpKey": "fuga"
 }
 ```
 
@@ -102,18 +99,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Reichel-Monahan",
-    "CrmFieldKey": "adipisci",
-    "Value": "magni",
-    "DisplayValue": "accusamus",
+    "DisplayName": "D'Amore, Keeling and Pacocha",
+    "CrmFieldKey": "vero",
+    "Value": "aut",
+    "DisplayValue": "vero",
     "SyncToCrm": true,
-    "SyncToErp": true,
+    "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldType": "System.String",
+        "FieldLength": 844
       }
     }
   }

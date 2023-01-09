@@ -48,7 +48,7 @@ GET /api/v1/ForeignApp/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ForeignAppEntity found.
 
@@ -58,7 +58,7 @@ ForeignAppEntity found.
 | 304 | ForeignAppEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ForeignAppEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,10 +66,10 @@ Response body:
 | Name | string | Name of foreign application |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the foreign application. |
-| UpdatedBy |  | The person that last updated this foreign application. |
+| CreatedBy | Associate | The person that created the foreign application. |
+| UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -79,7 +79,7 @@ Response body:
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,32 +87,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 02 Jun 2010 02:49:50 G6T
+Last-Modified: Thu, 05 May 2016 17:37:38 G5T
 
 {
-  "ForeignAppId": 168,
-  "Name": "O'Conner, Greenholt and Heaney",
-  "CreatedDate": "1998-02-20T02:49:50.979663+01:00",
-  "UpdatedDate": "2010-06-02T02:49:50.979663+02:00",
+  "ForeignAppId": 774,
+  "Name": "Macejkovic Group",
+  "CreatedDate": "2011-09-18T17:37:38.6188654+02:00",
+  "UpdatedDate": "2016-05-05T17:37:38.6188654+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 249,
-      "Name": "Grady Group",
-      "CreatedDate": "2000-04-30T02:49:50.979663+02:00",
-      "UpdatedDate": "2006-03-04T02:49:50.979663+01:00",
-      "AssociateFullName": "Ernie Hodkiewicz",
-      "CreatedBy": "quia",
-      "UpdatedBy": "enim",
-      "DeviceIdentifier": "quae",
-      "ForeignAppId": 981,
+      "ForeignDeviceId": 773,
+      "Name": "Wiza-Hayes",
+      "CreatedDate": "2014-04-01T17:37:38.619865+02:00",
+      "UpdatedDate": "2007-11-10T17:37:38.619865+01:00",
+      "AssociateFullName": "Merritt Paucek MD",
+      "CreatedBy": "autem",
+      "UpdatedBy": "nobis",
+      "DeviceIdentifier": "eum",
+      "ForeignAppId": 180,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 577
         }
       }
     }
@@ -121,13 +121,13 @@ Last-Modified: Wed, 02 Jun 2010 02:49:50 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldType": "System.Int32",
+      "FieldLength": 709
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

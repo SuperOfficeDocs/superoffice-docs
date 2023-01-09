@@ -42,7 +42,7 @@ POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup?$select=name,depar
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,14 +50,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CustomerServiceStartup
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TimezoneEnabled | bool | Is timezone enabled |
 | TZOffset | int32 | The offset in minutes compared with UTC, calculated for DateTime.Now |
 | RecaptchaSiteKey | string | A global recaptcha site key, used with the google recaptcha component. This value is taken from the web.config file |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneEnabled": false,
-  "TZOffset": 265,
-  "RecaptchaSiteKey": "suscipit",
+  "TimezoneEnabled": true,
+  "TZOffset": 746,
+  "RecaptchaSiteKey": "placeat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldType": "System.String",
+      "FieldLength": 280
     }
   }
 }

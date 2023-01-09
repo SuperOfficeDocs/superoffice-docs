@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,21 +45,21 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailAccount
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EMailAccountId | int32 | The account primary key |
 | EMailAddress | string | The account (from) address |
 | AssociateId | int32 | Id of the associate who owns this account |
-| IncomingCredentials |  | Account credentials for imap |
-| OutgoingCredentials |  | Account credentials for smtp |
+| IncomingCredentials | ServiceAuth | Account credentials for imap |
+| OutgoingCredentials | ServiceAuth | Account credentials for smtp |
 | AccountStatus | int32 | The account status (Disabled or...) Readonly field |
 | ErrorCount | int32 | Count of concurring errors of fetching email. Readonly field |
 | ErrorReason | string | Reason/Error message. Readonly field |
 | InboxFolder | string | Inbox folder name if available in the db |
 | SentFolder | string | Sent email folder name if available in the db |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 296,
-  "EMailAddress": "excepturi",
-  "AssociateId": 313,
+  "EMailAccountId": 815,
+  "EMailAddress": "exercitationem",
+  "AssociateId": 942,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 942,
-  "ErrorCount": 400,
+  "AccountStatus": 430,
+  "ErrorCount": 16,
   "ErrorReason": "",
-  "InboxFolder": "consequatur",
-  "SentFolder": "ad",
+  "InboxFolder": "saepe",
+  "SentFolder": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 95
     }
   }
 }

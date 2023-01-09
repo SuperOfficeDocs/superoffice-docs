@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/HasMXRecord
 Return true if there is one or more MX records in DNS for the given mail domain
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/EMail/HasMXRecord?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MailDomain 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MailDomain | string |  |
+| MailDomain | String |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -72,11 +69,11 @@ Response body: bool
 POST /api/v1/Agents/EMail/HasMXRecord
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailDomain": "natus"
+  "MailDomain": "nulla"
 }
 ```
 
@@ -86,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

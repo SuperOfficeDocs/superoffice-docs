@@ -36,7 +36,7 @@ Stop a batch job based on Id.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: bool
+## Response:bool
 
 OK
 
@@ -45,7 +45,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -54,7 +54,7 @@ Response body: bool
 POST /api/v1/BatchTask/{id}/Stop
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaleStageEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +52,7 @@ Response body:
 | Probability | int32 | The numeric probability of the sale |
 | Deleted | bool | If true, the Sale stage is deleted |
 | Rank | int32 | Rank order |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 111,
-  "Value": "nemo",
-  "Tooltip": "iusto",
-  "Probability": 167,
-  "Deleted": false,
-  "Rank": 920,
+  "SaleStageId": 47,
+  "Value": "similique",
+  "Tooltip": "ut",
+  "Probability": 984,
+  "Deleted": true,
+  "Rank": 911,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 403
+      "FieldType": "System.Int32",
+      "FieldLength": 972
     }
   }
 }

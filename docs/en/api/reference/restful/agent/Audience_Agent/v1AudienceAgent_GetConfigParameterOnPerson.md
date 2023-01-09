@@ -42,17 +42,16 @@ POST /api/v1/Agents/Audience/GetConfigParameterOnPerson?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ParameterName, PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ParameterName | string |  |
-| PersonId | int32 |  |
+| ParameterName | String |  |
+| PersonId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AudienceConfigParameter
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body:
 | UpdatedDate | date-time | The date and time the configuration parameter was last updated  in UTC. |
 | CreatedBy | string | Name of the person that created the configuration parameter |
 | UpdatedBy | string | Name of the person that last updated the configuration parameter |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,12 +79,12 @@ Response body:
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Hodkiewicz LLC",
-  "PersonId": 549
+  "ParameterName": "Ernser, Reilly and Von",
+  "PersonId": 438
 }
 ```
 
@@ -96,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 915,
-  "Name": "Christiansen Group",
-  "Value": "maxime",
-  "CreatedDate": "2014-11-29T02:49:43.6847821+01:00",
-  "UpdatedDate": "2013-08-23T02:49:43.6847821+02:00",
-  "CreatedBy": "officiis",
-  "UpdatedBy": "ducimus",
+  "AudienceLayoutId": 188,
+  "Name": "Trantow-Lebsack",
+  "Value": "ipsam",
+  "CreatedDate": "2001-07-25T17:37:16.8832411+02:00",
+  "UpdatedDate": "2011-08-24T17:37:16.8832411+02:00",
+  "CreatedBy": "voluptas",
+  "UpdatedBy": "blanditiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldLength": 285
     }
   }
 }

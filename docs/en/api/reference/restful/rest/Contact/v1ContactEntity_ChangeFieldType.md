@@ -29,7 +29,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -47,7 +47,7 @@ POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=T
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ContactEntity found.
 
@@ -56,7 +56,7 @@ ContactEntity found.
 | 200 | ContactEntity found. |
 | 404 | ContactEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +94,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -103,7 +103,7 @@ Response body:
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 962,
-  "ColumnId": 268,
-  "FieldDefault": "fugit",
-  "FieldHeight": 804,
-  "FieldLabel": "consequuntur",
-  "FieldLeft": 597,
-  "FieldTop": 694,
+  "UDefFieldId": 906,
+  "ColumnId": 245,
+  "FieldDefault": "et",
+  "FieldHeight": 165,
+  "FieldLabel": "eos",
+  "FieldLeft": 887,
+  "FieldTop": 995,
   "FieldType": "Checkbox",
-  "FieldWidth": 481,
-  "FormatMask": "ipsam",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 66,
-  "LabelLeft": 562,
-  "LabelTop": 866,
-  "LabelWidth": 901,
-  "LastVersionId": 523,
-  "ListTableId": 974,
+  "FieldWidth": 794,
+  "FormatMask": "error",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 351,
+  "LabelLeft": 896,
+  "LabelTop": 638,
+  "LabelWidth": 321,
+  "LastVersionId": 163,
+  "ListTableId": 209,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 7,
-  "ProgId": "quia",
-  "IsReadOnly": true,
-  "ShortLabel": "deleniti",
-  "TabOrder": 634,
-  "TextLength": 315,
-  "Tooltip": "quisquam",
-  "UdefIdentity": 777,
-  "UDListDefinitionId": 154,
+  "Page1LineNo": 975,
+  "ProgId": "odit",
+  "IsReadOnly": false,
+  "ShortLabel": "aut",
+  "TabOrder": 53,
+  "TextLength": 102,
+  "Tooltip": "molestiae",
+  "UdefIdentity": 575,
+  "UDListDefinitionId": 967,
   "Justification": "Center",
-  "Version": 941,
-  "TemplateVariableName": "Connelly Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Wisoky, Mohr and Kunde",
+  "Version": 247,
+  "TemplateVariableName": "Beer, Leannon and Kovacek",
+  "HasBeenPublished": false,
+  "MdoListName": "Johns-Kulas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 893
+      "FieldType": "System.Int32",
+      "FieldLength": 645
     }
   }
 }

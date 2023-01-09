@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,12 +73,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Sales?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Sales?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Sales?$orderBy=name asc
-GET /api/v1/Contact/{id}/Sales?$entities=non
-GET /api/v1/Contact/{id}/Sales?$top=844
-GET /api/v1/Contact/{id}/Sales?$skip=843
+GET /api/v1/Contact/{id}/Sales?$entities=doloremque
+GET /api/v1/Contact/{id}/Sales?$top=146
+GET /api/v1/Contact/{id}/Sales?$skip=735
 GET /api/v1/Contact/{id}/Sales?$mode=Full
 GET /api/v1/Contact/{id}/Sales?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Sales?$context=quam
+GET /api/v1/Contact/{id}/Sales?$context=reiciendis
 GET /api/v1/Contact/{id}/Sales?$format=JSON
 GET /api/v1/Contact/{id}/Sales?$jsonSafe=False
 GET /api/v1/Contact/{id}/Sales?$output=Display
@@ -100,7 +99,7 @@ GET /api/v1/Contact/{id}/Sales?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +122,7 @@ Response body:
 GET /api/v1/Contact/{id}/Sales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "nemo",
   "value": [
     {
-      "PrimaryKey": 6213,
-      "EntityName": "person",
-      "personId": 6213,
-      "fullName": "Fred Zachary Parisian III"
+      "PrimaryKey": 5350,
+      "EntityName": "sale",
+      "saleId": 5350,
+      "contactId": 4631,
+      "name": "Lind LLC"
     },
     {
-      "PrimaryKey": 418,
-      "EntityName": "person",
-      "personId": 418,
-      "fullName": "Dr. Jayme Larson III"
+      "PrimaryKey": 8561,
+      "EntityName": "sale",
+      "saleId": 8561,
+      "contactId": 9836,
+      "name": "Daniel, Hagenes and Walter"
     }
   ]
 }

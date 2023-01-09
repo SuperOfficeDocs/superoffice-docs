@@ -46,39 +46,39 @@ PUT /api/v1/TicketMessage/{id}?notify=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ticket message to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EjMessageId | int32 | The primary key (auto-incremented) |
-| Ticket |  | The connected ticket |
-| CreatedAt | date-time | When the message was posted. |
-| CreatedBy |  | The associate who created this ticket message |
-| Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
-| Slevel | string | The securitylevel of the message. |
-| Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
-| TimeSpent | int32 | The time spent (minutes) for this message. |
-| Body | string | The textbody for the message. |
-| HtmlBody | string | The html body for the message (if any). |
-| EmailHeader | string | The email header is saved in this field as raw text |
-| DebugInfo | string | The debug info for the message. |
-| MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
-| MessageCategory | string | Defines what kind of message this is. |
-| Person |  | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
-| SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
-| MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
-| Important | bool | If this message is important or not. |
-| Language | string | The language this message is in, based on some kind of analysis |
-| Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
-| SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
-| ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| EjMessageId | Integer | The primary key (auto-incremented) |
+| Ticket | Ticket | The connected ticket |
+| CreatedAt | String | When the message was posted. |
+| CreatedBy | Associate | The associate who created this ticket message |
+| Author | String | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
+| Slevel | String | The securitylevel of the message. |
+| Type | String | The type of the message (plaintext/html). |
+| MessageId | String | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| TimeSpent | Integer | The time spent (minutes) for this message. |
+| Body | String | The textbody for the message. |
+| HtmlBody | String | The html body for the message (if any). |
+| EmailHeader | String | The email header is saved in this field as raw text |
+| DebugInfo | String | The debug info for the message. |
+| MailSorter | String | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
+| MessageCategory | String | Defines what kind of message this is. |
+| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| SearchTitle | String | A copy of the title of the ticket, for search optimisation and simpler reporting. |
+| MessageHeaders | Array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
+| Important | Boolean | If this message is important or not. |
+| Language | String | The language this message is in, based on some kind of analysis |
+| Sentiment | Integer | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
+| SentimentConfidence | Integer | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| AttachmentsInfo | Array | Message attachments information |
+| ExtraFields | Object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
+| CustomFields | Object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -87,14 +87,14 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: TicketMessageEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EjMessageId | int32 | The primary key (auto-incremented) |
-| Ticket |  | The connected ticket |
+| Ticket | Ticket | The connected ticket |
 | CreatedAt | date-time | When the message was posted. |
-| CreatedBy |  | The associate who created this ticket message |
+| CreatedBy | Associate | The associate who created this ticket message |
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
@@ -106,16 +106,17 @@ Response body:
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person |  | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -124,54 +125,72 @@ Response body:
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 425,
+  "EjMessageId": 335,
   "Ticket": null,
-  "CreatedAt": "2011-05-27T02:49:51.6553976+02:00",
+  "CreatedAt": "2015-09-27T17:37:39.36531+02:00",
   "CreatedBy": null,
-  "Author": "iure",
+  "Author": "omnis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "aliquam",
-  "TimeSpent": 685,
-  "Body": "facilis",
-  "HtmlBody": "numquam",
-  "EmailHeader": "wilmer_nader@feest.us",
-  "DebugInfo": "consequuntur",
-  "MailSorter": "asperiores",
+  "MessageId": "perferendis",
+  "TimeSpent": 957,
+  "Body": "optio",
+  "HtmlBody": "commodi",
+  "EmailHeader": "rusty@hand.name",
+  "DebugInfo": "magni",
+  "MailSorter": "excepturi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "cum",
+  "SearchTitle": "necessitatibus",
   "MessageHeaders": [
     {
-      "Id": 750,
-      "Name": "Eichmann, Glover and Koelpin",
-      "Value": "aut",
+      "Id": 535,
+      "Name": "Pfannerstill-Price",
+      "Value": "minus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 750,
-      "Name": "Eichmann, Glover and Koelpin",
-      "Value": "aut",
+      "Id": 535,
+      "Name": "Pfannerstill-Price",
+      "Value": "minus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "deserunt",
-  "Sentiment": 886,
-  "SentimentConfidence": 727,
+  "Important": false,
+  "Language": "placeat",
+  "Sentiment": 320,
+  "SentimentConfidence": 839,
+  "AttachmentsInfo": [
+    {
+      "AttachmentId": 952,
+      "Name": "Dibbert LLC",
+      "ContentType": "incidunt",
+      "AttSize": 766,
+      "InlineImage": false,
+      "ContentId": "veritatis"
+    },
+    {
+      "AttachmentId": 952,
+      "Name": "Dibbert LLC",
+      "ContentType": "incidunt",
+      "AttSize": 766,
+      "InlineImage": false,
+      "ContentId": "veritatis"
+    }
+  ],
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "perferendis",
-    "CustomFields2": "sequi"
+    "CustomFields1": "sunt",
+    "CustomFields2": "accusamus"
   }
 }
 ```
@@ -183,28 +202,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 502,
+  "EjMessageId": 651,
   "Ticket": null,
-  "CreatedAt": "2017-04-06T02:49:51.6553976+02:00",
+  "CreatedAt": "2012-01-27T17:37:39.3734017+01:00",
   "CreatedBy": null,
-  "Author": "vero",
+  "Author": "corrupti",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "debitis",
-  "TimeSpent": 470,
-  "Body": "aut",
-  "HtmlBody": "autem",
-  "EmailHeader": "cody.parker@kirlin.com",
-  "DebugInfo": "voluptates",
-  "MailSorter": "perspiciatis",
+  "MessageId": "maxime",
+  "TimeSpent": 996,
+  "Body": "illum",
+  "HtmlBody": "deleniti",
+  "EmailHeader": "gretchen@muellerfeest.uk",
+  "DebugInfo": "occaecati",
+  "MailSorter": "occaecati",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ipsam",
+  "SearchTitle": "praesentium",
   "MessageHeaders": [
     {
-      "Id": 271,
-      "Name": "Dooley-Pagac",
-      "Value": "asperiores",
+      "Id": 5,
+      "Name": "Bosco, Kunde and Heathcote",
+      "Value": "at",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -212,29 +231,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 596
+          "FieldLength": 122
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "qui",
-  "Sentiment": 424,
-  "SentimentConfidence": 853,
+  "Important": false,
+  "Language": "explicabo",
+  "Sentiment": 947,
+  "SentimentConfidence": 159,
+  "AttachmentsInfo": [
+    {
+      "AttachmentId": 510,
+      "Name": "Ruecker Inc and Sons",
+      "ContentType": "sit",
+      "AttSize": 112,
+      "InlineImage": false,
+      "ContentId": "deserunt",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 90
+        }
+      }
+    }
+  ],
   "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "natus"
+    "ExtraFields1": "dolorum",
+    "ExtraFields2": "laboriosam"
   },
   "CustomFields": {
-    "CustomFields1": "iste",
-    "CustomFields2": "tempore"
+    "CustomFields1": "dolor",
+    "CustomFields2": "iste"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 1000
     }
   }
 }

@@ -34,7 +34,7 @@ Calls the Chat agent service DeleteChatTopicEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ChatTopicEntity deleted.
 
@@ -42,7 +42,7 @@ ChatTopicEntity deleted.
 |----------------|-------------|
 | 204 | ChatTopicEntity deleted. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -51,7 +51,7 @@ Response body:
 DELETE /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

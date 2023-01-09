@@ -42,19 +42,18 @@ POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, TemplateName, UseContacts, OrderBy 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| TemplateName | string |  |
-| UseContacts | bool |  |
-| OrderBy | string |  |
+| SelectionId | Integer |  |
+| TemplateName | String |  |
+| UseContacts | Boolean |  |
+| OrderBy | String |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -75,10 +74,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 742,
-  "TemplateName": "Moen Group",
+  "SelectionId": 833,
+  "TemplateName": "Heller-Pouros",
   "UseContacts": false,
-  "OrderBy": "dolor"
+  "OrderBy": "qui"
 }
 ```
 

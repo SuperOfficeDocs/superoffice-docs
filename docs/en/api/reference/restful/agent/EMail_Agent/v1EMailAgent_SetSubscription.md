@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/SetSubscription
 Set subscription on or off on a set of folders
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -42,17 +40,16 @@ POST /api/v1/Agents/EMail/SetSubscription?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConnectionInfo, Folders 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-| Folders | array |  |
+| ConnectionInfo | EMailConnectionInfo | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| Folders | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -60,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -69,20 +66,20 @@ Response body:
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Bartell, Block and Boyle",
-      "Delimiter": "minus",
-      "Flags": "tempora",
-      "TotalItems": 238,
-      "UnreadItems": 737,
-      "Subscribed": false,
-      "EmailFolderId": 490
+      "Name": "Rosenbaum-Zemlak",
+      "Delimiter": "autem",
+      "Flags": "qui",
+      "TotalItems": 153,
+      "UnreadItems": 380,
+      "Subscribed": true,
+      "EmailFolderId": 396
     }
   ]
 }

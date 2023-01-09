@@ -25,7 +25,7 @@ Gets a MailboxEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=110
+POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=934
 POST /api/v1/Agents/CustomerService/GetMailboxEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/CustomerService/GetMailboxEntity?$select=name,department,cat
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: MailboxEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +63,7 @@ Response body:
 | Password | string | The password used to log into the mail account. This is hidden when reading |
 | Server | string | The email server to connect to |
 | Port | int32 | The port used to connect to the server |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 348,
+  "MailInFilterId": 655,
   "ServerType": "Facebook",
-  "Address": "fugit",
-  "Username": "incidunt",
-  "Password": "vel",
-  "Server": "corrupti",
-  "Port": 963,
+  "Address": "quia",
+  "Username": "qui",
+  "Password": "labore",
+  "Server": "excepturi",
+  "Port": 742,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldType": "System.String",
+      "FieldLength": 98
     }
   }
 }

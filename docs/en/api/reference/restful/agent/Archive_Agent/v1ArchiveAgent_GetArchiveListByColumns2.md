@@ -12,8 +12,6 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Get a page of results for an archive list, explicitly specifying the restrictions as a string, orderby and chosen columns.
 
 
-
-
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
 
@@ -102,9 +100,6 @@ Use backslash to escape single quotes in strings
 
 
 
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -130,22 +125,21 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumns2?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Columns, SortOrder, Restrictions, Entities, Page, PageSize 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Columns | string |  |
-| SortOrder | string |  |
-| Restrictions | string |  |
-| Entities | string |  |
-| Page | int32 |  |
-| PageSize | int32 |  |
+| ProviderName | String |  |
+| Columns | String |  |
+| SortOrder | String |  |
+| Restrictions | String |  |
+| Entities | String |  |
+| Page | Integer |  |
+| PageSize | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -153,7 +147,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -162,7 +156,7 @@ Response body: array
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -175,13 +169,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Rippin Inc and Sons",
-  "Columns": "porro",
-  "SortOrder": "eius",
-  "Restrictions": "nemo",
-  "Entities": "qui",
-  "Page": 404,
-  "PageSize": 77
+  "ProviderName": "Gleichner LLC",
+  "Columns": "odit",
+  "SortOrder": "sit",
+  "Restrictions": "voluptatem",
+  "Entities": "dicta",
+  "Page": 62,
+  "PageSize": 466
 }
 ```
 
@@ -193,23 +187,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Vandervort-Nikolaus",
-    "PrimaryKey": 504,
+    "EntityName": "Graham, Barton and Grant",
+    "PrimaryKey": 20,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "possimus",
-        "TooltipHint": "aut",
-        "LinkHint": "aliquid"
+        "DisplayValue": "earum",
+        "TooltipHint": "earum",
+        "LinkHint": "quo"
       }
     },
-    "LinkHint": "iusto",
-    "StyleHint": "adipisci",
+    "LinkHint": "optio",
+    "StyleHint": "veritatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 845
+        "FieldLength": 529
       }
     }
   }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/CRMScript/ExecuteScript
 Execute a CRMScript with parameters, returning printed output value.
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/CRMScript/ExecuteScript?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 CRMScriptId, Parameters 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| CRMScriptId | int32 |  |
-| Parameters | object |  |
+| CRMScriptId | Integer |  |
+| Parameters | PersonEntity |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -73,14 +70,14 @@ Response body: string
 POST /api/v1/Agents/CRMScript/ExecuteScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 419,
+  "CRMScriptId": 846,
   "Parameters": {
-    "Parameters1": "doloribus",
-    "Parameters2": "quo"
+    "Parameters1": "quas",
+    "Parameters2": "suscipit"
   }
 }
 ```
@@ -91,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"est"
+"voluptas"
 ```

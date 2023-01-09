@@ -46,22 +46,21 @@ PUT /api/v1/ForeignApp/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ForeignAppEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ForeignAppId | int32 | Primary key |
-| Name | string | Name of foreign application |
-| CreatedDate | date-time | Registered when  in UTC. |
-| UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the foreign application. |
-| UpdatedBy |  | The person that last updated this foreign application. |
-| Devices | array | The devices that belong to this foreign app. |
+| ForeignAppId | Integer | Primary key |
+| Name | String | Name of foreign application |
+| CreatedDate | String | Registered when  in UTC. |
+| UpdatedDate | String | Last updated when  in UTC. |
+| CreatedBy | Associate | The person that created the foreign application. |
+| UpdatedBy | Associate | The person that last updated this foreign application. |
+| Devices | Array | The devices that belong to this foreign app. |
 
-
-## Response: 
+## Response:
 
 ForeignAppEntity updated.
 
@@ -71,7 +70,7 @@ ForeignAppEntity updated.
 | 412 | Update stopped because ForeignAppEntity has changed since the requested If-Unmodified-Since timestamp. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+### Response body: ForeignAppEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,10 +78,10 @@ Response body:
 | Name | string | Name of foreign application |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the foreign application. |
-| UpdatedBy |  | The person that last updated this foreign application. |
+| CreatedBy | Associate | The person that created the foreign application. |
+| UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -92,27 +91,27 @@ Response body:
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 512,
-  "Name": "Cummings, Frami and Robel",
-  "CreatedDate": "1996-03-20T02:49:50.979663+01:00",
-  "UpdatedDate": "2008-11-01T02:49:50.979663+01:00",
+  "ForeignAppId": 524,
+  "Name": "Abbott-Hane",
+  "CreatedDate": "2006-04-20T17:37:38.619865+02:00",
+  "UpdatedDate": "2001-10-18T17:37:38.619865+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 312,
-      "Name": "Russel-White",
-      "CreatedDate": "2008-05-12T02:49:50.979663+02:00",
-      "UpdatedDate": "2020-11-15T02:49:50.979663+01:00",
-      "AssociateFullName": "Miss Keenan Schneider III",
-      "CreatedBy": "dolor",
+      "ForeignDeviceId": 991,
+      "Name": "Wilkinson-Kunze",
+      "CreatedDate": "2009-05-25T17:37:38.6208653+02:00",
+      "UpdatedDate": "2004-07-28T17:37:38.6208653+02:00",
+      "AssociateFullName": "Jeffrey Feeney",
+      "CreatedBy": "eos",
       "UpdatedBy": "mollitia",
-      "DeviceIdentifier": "nulla",
-      "ForeignAppId": 629
+      "DeviceIdentifier": "sed",
+      "ForeignAppId": 686
     }
   ]
 }
@@ -125,29 +124,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 502,
-  "Name": "Little, Pagac and Heaney",
-  "CreatedDate": "2006-08-23T02:49:50.979663+02:00",
-  "UpdatedDate": "2002-07-03T02:49:50.979663+02:00",
+  "ForeignAppId": 157,
+  "Name": "Ferry LLC",
+  "CreatedDate": "1998-12-07T17:37:38.6218657+01:00",
+  "UpdatedDate": "1999-06-09T17:37:38.6218657+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 460,
-      "Name": "Wintheiser-Ebert",
-      "CreatedDate": "2007-01-27T02:49:50.979663+01:00",
-      "UpdatedDate": "2022-04-14T02:49:50.979663+02:00",
-      "AssociateFullName": "Miss Eleonore Celestino O'Connell",
-      "CreatedBy": "iure",
-      "UpdatedBy": "cumque",
-      "DeviceIdentifier": "ea",
-      "ForeignAppId": 371,
+      "ForeignDeviceId": 454,
+      "Name": "Stamm-Lockman",
+      "CreatedDate": "2018-02-18T17:37:38.6228653+01:00",
+      "UpdatedDate": "2003-11-05T17:37:38.6228653+01:00",
+      "AssociateFullName": "Kristian Jones II",
+      "CreatedBy": "exercitationem",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 306,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldLength": 625
         }
       }
     }
@@ -157,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 350
     }
   },
   "_Links": {

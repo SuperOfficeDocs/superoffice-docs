@@ -32,7 +32,7 @@ Gets a default Priority list item.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ListItemEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +50,7 @@ Response body:
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 261,
-  "Name": "Vandervort-Bednar",
-  "Tooltip": "consequuntur",
+  "Id": 114,
+  "Name": "Cremin-Schultz",
+  "Tooltip": "aspernatur",
   "Deleted": false,
-  "UdListDefinitionId": 577,
-  "Rank": 701,
+  "UdListDefinitionId": 799,
+  "Rank": 325,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldType": "System.Int32",
+      "FieldLength": 267
     }
   }
 }

@@ -48,7 +48,7 @@ GET /api/v1/DashboardTile/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 DashboardTile found.
 
@@ -57,7 +57,7 @@ DashboardTile found.
 | 200 | DashboardTile found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: DashboardTileWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body:
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -85,7 +85,7 @@ Response body:
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,64 +95,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 824,
-  "Caption": "voluptatem",
-  "Description": "Secured optimizing core",
-  "ChartName": "Reilly, Padberg and Champlin",
-  "ChartId": "iusto",
+  "DashboardTileId": 361,
+  "Caption": "ea",
+  "Description": "Horizontal foreground standardization",
+  "ChartName": "Heaney Group",
+  "ChartId": "pariatur",
   "IsDefault": false,
-  "AssociateId": 42,
-  "GroupId": 207,
-  "SelectionId": 518,
-  "Config": "quas",
+  "AssociateId": 534,
+  "GroupId": 223,
+  "SelectionId": 131,
+  "Config": "vel",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Bode-Botsford",
-      "Description": "Intuitive human-resource installation",
+      "Name": "Hickle LLC",
+      "Description": "Down-sized full-range adapter",
       "Type": "Boolean",
-      "ListName": "Olson, Bogisich and Roob",
+      "ListName": "O'Keefe, Rodriguez and Blanda",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "recusandae",
-      "DefaultDataOption": true,
+      "Value": "earum",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 102
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 164,
+      "VisibleId": 734,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 615
+          "FieldLength": 377
         }
       }
     },
     {
-      "VisibleId": 164,
+      "VisibleId": 734,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 615
+          "FieldLength": 377
         }
       }
     }
@@ -162,12 +162,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 648
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

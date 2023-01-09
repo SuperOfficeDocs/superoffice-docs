@@ -102,9 +102,6 @@ Use backslash to escape single quotes in strings
 
 
 
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -130,21 +127,20 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Restrictions, ProviderName, DesiredColumns, OrderBy, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Restrictions | string |  |
-| ProviderName | string |  |
-| DesiredColumns | string |  |
-| OrderBy | string |  |
-| PageSize | int32 |  |
-| PageNumber | int32 |  |
+| Restrictions | String |  |
+| ProviderName | String |  |
+| DesiredColumns | String |  |
+| OrderBy | String |  |
+| PageSize | Integer |  |
+| PageNumber | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -152,14 +148,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FindResults
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -168,16 +164,16 @@ Response body:
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "veritatis",
-  "ProviderName": "Tremblay, Armstrong and Bayer",
-  "DesiredColumns": "et",
-  "OrderBy": "odio",
-  "PageSize": 866,
-  "PageNumber": 635
+  "Restrictions": "velit",
+  "ProviderName": "Swift, Harris and Armstrong",
+  "DesiredColumns": "alias",
+  "OrderBy": "sunt",
+  "PageSize": 267,
+  "PageNumber": 942
 }
 ```
 
@@ -190,51 +186,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Treutel-Yundt",
-      "DisplayTooltip": "aut",
-      "DisplayType": "eius",
+      "DisplayName": "Wehner Group",
+      "DisplayTooltip": "officiis",
+      "DisplayType": "atque",
       "CanOrderBy": false,
-      "Name": "Lindgren-Steuber",
-      "CanRestrictBy": true,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Schuppe LLC",
+      "Name": "Lemke-Hagenes",
+      "CanRestrictBy": false,
+      "RestrictionType": "necessitatibus",
+      "RestrictionListName": "Wilderman-Fadel",
       "IsVisible": false,
-      "ExtraInfo": "officiis",
-      "Width": "alias",
-      "IconHint": "est",
-      "HeadingIconHint": "quisquam"
+      "ExtraInfo": "laudantium",
+      "Width": "error",
+      "IconHint": "reiciendis",
+      "HeadingIconHint": "non"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Barton LLC",
-      "PrimaryKey": 934,
+      "EntityName": "Ward Inc and Sons",
+      "PrimaryKey": 679,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "quasi",
-          "LinkHint": "debitis"
+          "DisplayValue": "aut",
+          "TooltipHint": "qui",
+          "LinkHint": "sunt"
         }
       },
-      "LinkHint": "quis",
-      "StyleHint": "debitis",
+      "LinkHint": "nostrum",
+      "StyleHint": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 483
+          "FieldType": "System.String",
+          "FieldLength": 849
         }
       }
     }
   ],
-  "RowCount": 798,
+  "RowCount": 446,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldType": "System.String",
+      "FieldLength": 199
     }
   }
 }

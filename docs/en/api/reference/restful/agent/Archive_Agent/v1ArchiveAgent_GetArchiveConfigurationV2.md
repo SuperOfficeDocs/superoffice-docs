@@ -44,19 +44,18 @@ POST /api/v1/Agents/Archive/GetArchiveConfigurationV2?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 GuiName, ProviderName, Context, OwnerKeys 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| GuiName | string |  |
-| ProviderName | string |  |
-| Context | string |  |
-| OwnerKeys | string |  |
+| GuiName | String |  |
+| ProviderName | String |  |
+| Context | String |  |
+| OwnerKeys | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ArchiveConfiguration
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +71,7 @@ Response body:
 | ArchiveEntityInfo | array |  |
 | ArchiveOrderByInfo | array |  |
 | OwnerKeys | string | The actual ownership information for the configuration that was retrieved |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,14 +80,14 @@ Response body:
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Boyer, Sawayn and Olson",
-  "ProviderName": "Harris Inc and Sons",
-  "Context": "quo",
-  "OwnerKeys": "optio"
+  "GuiName": "Spinka-Moen",
+  "ProviderName": "Lakin, Kuvalis and Gerhold",
+  "Context": "dolores",
+  "OwnerKeys": "qui"
 }
 ```
 
@@ -101,68 +100,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Kreiger LLC",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "voluptatibus",
-      "CanOrderBy": false,
-      "Name": "Runte LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "voluptatibus",
-      "RestrictionListName": "Gottlieb-Kilback",
+      "DisplayName": "Runte-Hauck",
+      "DisplayTooltip": "consequatur",
+      "DisplayType": "ad",
+      "CanOrderBy": true,
+      "Name": "Stroman, Kuphal and Murazik",
+      "CanRestrictBy": false,
+      "RestrictionType": "rerum",
+      "RestrictionListName": "Muller-Gaylord",
       "IsVisible": false,
-      "ExtraInfo": "voluptas",
-      "Width": "ut",
-      "IconHint": "velit",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "eum",
+      "Width": "qui",
+      "IconHint": "enim",
+      "HeadingIconHint": "officiis"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 739,
-      "Name": "Roberts-Hirthe",
-      "ToolTip": "Et dolor quos deleniti ipsa.",
-      "Deleted": true,
-      "Rank": 624,
-      "Type": "rem",
-      "ColorBlock": 47,
-      "IconHint": "eos",
-      "Selected": true,
-      "LastChanged": "2020-09-21T02:49:43.6535327+02:00",
+      "Id": 127,
+      "Name": "Koch, Hermiston and Douglas",
+      "ToolTip": "Eum nostrum.",
+      "Deleted": false,
+      "Rank": 457,
+      "Type": "veritatis",
+      "ColorBlock": 489,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "2002-01-04T17:37:16.6222448+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tenetur",
-      "StyleHint": "rem",
+      "ExtraInfo": "cum",
+      "StyleHint": "sunt",
       "Hidden": false,
-      "FullName": "Lucile Deckow I",
+      "FullName": "Dr. Arnulfo Esmeralda Will",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldType": "System.String",
+          "FieldLength": 464
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Schaden, Willms and Hirthe",
+      "Name": "Schuster Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Schaden, Willms and Hirthe",
+      "Name": "Schuster Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "id",
+  "OwnerKeys": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 725
+      "FieldType": "System.Int32",
+      "FieldLength": 681
     }
   }
 }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/Configuration/SaveWindowPosSizes?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 WindowPosSizes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| WindowPosSizes | array |  |
+| WindowPosSizes | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body: array
 | UpperY | int32 |  |
 | Width | int32 |  |
 | WindowPosSizeId | int32 |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,17 +88,17 @@ Content-Type: application/json; charset=utf-8
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "adipisci",
-      "PersonId": 503,
-      "AssociateId": 346,
-      "ExtraId": 232,
-      "ExtraInfo": "nihil",
-      "Height": 109,
-      "LeftX": 214,
+      "OwnerWindow": "accusamus",
+      "PersonId": 594,
+      "AssociateId": 765,
+      "ExtraId": 314,
+      "ExtraInfo": "earum",
+      "Height": 845,
+      "LeftX": 728,
       "State": "Maximized",
-      "UpperY": 375,
-      "Width": 888,
-      "WindowPosSizeId": 35
+      "UpperY": 632,
+      "Width": 817,
+      "WindowPosSizeId": 177
     }
   ]
 }
@@ -113,23 +112,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "eum",
-    "PersonId": 899,
-    "AssociateId": 387,
-    "ExtraId": 237,
-    "ExtraInfo": "labore",
-    "Height": 296,
-    "LeftX": 1002,
+    "OwnerWindow": "nam",
+    "PersonId": 842,
+    "AssociateId": 572,
+    "ExtraId": 289,
+    "ExtraInfo": "officiis",
+    "Height": 1000,
+    "LeftX": 605,
     "State": "Maximized",
-    "UpperY": 353,
-    "Width": 666,
-    "WindowPosSizeId": 4,
+    "UpperY": 344,
+    "Width": 813,
+    "WindowPosSizeId": 704,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldLength": 845
       }
     }
   }

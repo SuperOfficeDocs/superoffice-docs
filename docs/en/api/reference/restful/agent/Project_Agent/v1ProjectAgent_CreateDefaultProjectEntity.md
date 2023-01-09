@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,11 +55,11 @@ Response body:
 | UpdatedDate | date-time | Last updated date  in UTC. |
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| CreatedBy |  | The person that created the project |
-| UpdatedBy |  | The person that last updated the project |
-| Associate |  | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
-| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
-| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
+| CreatedBy | Associate | The person that created the project |
+| UpdatedBy | Associate | The person that last updated the project |
+| Associate | Associate | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
+| ProjectStatus | ProjectStatus | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
+| ProjectType | ProjectType | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |
@@ -77,7 +77,7 @@ Response body:
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,7 +86,7 @@ Response body:
 POST /api/v1/Agents/Project/CreateDefaultProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,127 +96,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 594,
-  "Name": "Bailey, Kling and Greenholt",
-  "ProjectNumber": "1438926",
+  "ProjectId": 40,
+  "Name": "Langworth-Daugherty",
+  "ProjectNumber": "1509461",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 804,
-      "ContactId": 62,
-      "ProjectId": 102,
-      "ContactName": "Schimmel-Collins",
+      "ProjectmemberId": 854,
+      "ContactId": 98,
+      "ProjectId": 39,
+      "ContactName": "West Group",
       "ContactDepartment": "",
-      "ProjectName": "Hartmann, Hoeger and Kertzmann",
-      "EmailId": 201,
-      "EmailAddress": "jeffry.jones@hessel.info",
-      "CountryId": 172,
-      "Firstname": "Violet",
-      "MiddleName": "Fritsch, Bartoletti and Klocko",
-      "Lastname": "McKenzie",
-      "PersonId": 445,
-      "Mrmrs": "voluptates",
-      "ProjectMemberTypeName": "Turcotte, Lynch and Pagac",
-      "Phone": "787-966-4904 x04441",
-      "PhoneId": 242,
-      "ProjectMemberTypeId": 970,
-      "EmailAddressName": "arnaldo.baumbach@hahn.biz",
-      "Comment": "error",
-      "FullName": "Mrs. Brenda Jacobson Jr.",
+      "ProjectName": "Goldner, Franecki and Bartoletti",
+      "EmailId": 503,
+      "EmailAddress": "kraig.kautzer@abernathystracke.name",
+      "CountryId": 507,
+      "Firstname": "Joel",
+      "MiddleName": "Hodkiewicz-Cormier",
+      "Lastname": "Abbott",
+      "PersonId": 99,
+      "Mrmrs": "eum",
+      "ProjectMemberTypeName": "Shields-Sporer",
+      "Phone": "1-850-951-2567",
+      "PhoneId": 160,
+      "ProjectMemberTypeId": 94,
+      "EmailAddressName": "felipe@tillman.info",
+      "Comment": "voluptatibus",
+      "FullName": "Mr. Rachael Annalise Kutch PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 510
+          "FieldLength": 255
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "fugit",
-      "StrippedValue": "soluta",
-      "Description": "Optimized 24/7 structure",
+      "Value": "fugiat",
+      "StrippedValue": "unde",
+      "Description": "Switchable user-facing frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 240
+          "FieldLength": 675
         }
       }
     },
     {
-      "Value": "fugit",
-      "StrippedValue": "soluta",
-      "Description": "Optimized 24/7 structure",
+      "Value": "fugiat",
+      "StrippedValue": "unde",
+      "Description": "Switchable user-facing frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 240
+          "FieldLength": 675
         }
       }
     }
   ],
-  "CreatedDate": "1995-09-17T02:49:44.9215886+02:00",
-  "UpdatedDate": "2016-03-13T02:49:44.9215886+01:00",
-  "Description": "Organic client-server architecture",
-  "Postit": "amet",
+  "CreatedDate": "2018-09-13T17:37:18.6012448+02:00",
+  "UpdatedDate": "2004-04-07T17:37:18.6012448+02:00",
+  "Description": "Upgradable mobile hub",
+  "Postit": "ut",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": true,
-  "ImageDescription": "Fundamental global local area network",
-  "ActiveStatusMonitorId": 458,
+  "ImageDescription": "Phased system-worthy strategy",
+  "ActiveStatusMonitorId": 970,
   "Links": [
     {
-      "EntityName": "Cassin LLC",
-      "Id": 1001,
-      "Description": "Profound neutral infrastructure",
-      "ExtraInfo": "aut",
-      "LinkId": 475,
+      "EntityName": "Hammes Group",
+      "Id": 53,
+      "Description": "Total optimal standardization",
+      "ExtraInfo": "et",
+      "LinkId": 602,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldType": "System.String",
+          "FieldLength": 131
         }
       }
     }
   ],
-  "ActiveLinks": 743,
+  "ActiveLinks": 818,
   "Completed": false,
-  "NextMilestoneDate": "2009-05-24T02:49:44.9215886+02:00",
-  "NmdAppointmentId": 934,
-  "EndDate": "2003-11-21T02:49:44.9215886+01:00",
-  "ActiveErpLinks": 848,
+  "NextMilestoneDate": "1999-09-07T17:37:18.6032421+02:00",
+  "NmdAppointmentId": 347,
+  "EndDate": "2001-01-24T17:37:18.6032421+01:00",
+  "ActiveErpLinks": 899,
   "UserDefinedFields": {
-    "SuperOffice:1": "Nathan Frami",
-    "SuperOffice:2": "Ms. Antonetta Gulgowski PhD"
+    "SuperOffice:1": "1838504217",
+    "SuperOffice:2": "Dillan Mante IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "aut"
+    "CustomFields1": "suscipit",
+    "CustomFields2": "eius"
   },
-  "PublishEventDate": "2000-01-25T02:49:44.9215886+01:00",
-  "PublishTo": "2003-10-06T02:49:44.9215886+02:00",
-  "PublishFrom": "2012-12-18T02:49:44.9215886+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2014-06-27T17:37:18.6032421+02:00",
+  "PublishTo": "2000-08-03T17:37:18.6032421+02:00",
+  "PublishFrom": "1996-07-22T17:37:18.6032421+02:00",
+  "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 395
+      "FieldType": "System.Int32",
+      "FieldLength": 158
     }
   }
 }

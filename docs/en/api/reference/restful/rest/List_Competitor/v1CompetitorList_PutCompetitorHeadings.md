@@ -34,21 +34,20 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HeadingId | int32 | Primary key |
-| Name | string | The visible heading |
-| Tooltip | string | Tooltip or other description |
-| Deleted | bool | True if the heading is marked as deleted |
-| Rank | int32 | Rank order |
-| UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+| HeadingId | Integer | Primary key |
+| Name | String | The visible heading |
+| Tooltip | String | Tooltip or other description |
+| Deleted | Boolean | True if the heading is marked as deleted |
+| Rank | Integer | Rank order |
+| UdListDefinitionId | Integer | The id of the list which this heading belongs to |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body: array
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,25 +74,25 @@ Response body: array
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 968,
-    "Name": "Predovic, Smith and Adams",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "Rank": 244,
-    "UdListDefinitionId": 18
+    "HeadingId": 861,
+    "Name": "Bosco Group",
+    "Tooltip": "tenetur",
+    "Deleted": false,
+    "Rank": 210,
+    "UdListDefinitionId": 100
   },
   {
-    "HeadingId": 968,
-    "Name": "Predovic, Smith and Adams",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "Rank": 244,
-    "UdListDefinitionId": 18
+    "HeadingId": 861,
+    "Name": "Bosco Group",
+    "Tooltip": "tenetur",
+    "Deleted": false,
+    "Rank": 210,
+    "UdListDefinitionId": 100
   }
 ]
 ```
@@ -106,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 15,
-    "Name": "Beier, Pfeffer and Cummerata",
-    "Tooltip": "laboriosam",
+    "HeadingId": 179,
+    "Name": "Mosciski, Feil and Berge",
+    "Tooltip": "optio",
     "Deleted": false,
-    "Rank": 309,
-    "UdListDefinitionId": 286,
+    "Rank": 201,
+    "UdListDefinitionId": 135,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldLength": 79
       }
     }
   }

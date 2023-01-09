@@ -42,7 +42,7 @@ POST /api/v1/Project/UdefLayout?udefFieldType=Checkbox
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +88,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,7 +97,7 @@ Response body:
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 739,
-  "ColumnId": 627,
-  "FieldDefault": "ratione",
-  "FieldHeight": 378,
-  "FieldLabel": "vel",
-  "FieldLeft": 23,
-  "FieldTop": 481,
+  "UDefFieldId": 618,
+  "ColumnId": 26,
+  "FieldDefault": "asperiores",
+  "FieldHeight": 723,
+  "FieldLabel": "dolorum",
+  "FieldLeft": 10,
+  "FieldTop": 266,
   "FieldType": "Checkbox",
-  "FieldWidth": 835,
-  "FormatMask": "vel",
-  "HideLabel": true,
+  "FieldWidth": 386,
+  "FormatMask": "molestiae",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 82,
-  "LabelLeft": 871,
-  "LabelTop": 662,
-  "LabelWidth": 495,
-  "LastVersionId": 374,
-  "ListTableId": 159,
+  "LabelHeight": 674,
+  "LabelLeft": 379,
+  "LabelTop": 285,
+  "LabelWidth": 650,
+  "LastVersionId": 263,
+  "ListTableId": 596,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 512,
-  "ProgId": "quaerat",
+  "Page1LineNo": 696,
+  "ProgId": "aliquam",
   "IsReadOnly": false,
-  "ShortLabel": "rem",
-  "TabOrder": 533,
-  "TextLength": 247,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 334,
-  "UDListDefinitionId": 310,
+  "ShortLabel": "quaerat",
+  "TabOrder": 71,
+  "TextLength": 642,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 448,
+  "UDListDefinitionId": 149,
   "Justification": "Center",
-  "Version": 722,
-  "TemplateVariableName": "Grady-Waelchi",
+  "Version": 854,
+  "TemplateVariableName": "Feest-Zemlak",
   "HasBeenPublished": false,
-  "MdoListName": "Walker LLC",
+  "MdoListName": "Gulgowski-Walker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldType": "System.String",
+      "FieldLength": 610
     }
   }
 }

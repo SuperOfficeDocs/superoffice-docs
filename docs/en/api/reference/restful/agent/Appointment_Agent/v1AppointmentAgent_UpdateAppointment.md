@@ -42,21 +42,20 @@ POST /api/v1/Agents/Appointment/UpdateAppointment?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Id, StartTime, EndTime, Status, Type, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Status | int32 |  |
-| Type | int32 |  |
-| AssociateId | int32 |  |
+| Id | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Status | Integer |  |
+| Type | Integer |  |
+| AssociateId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Appointment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -117,7 +116,7 @@ Response body:
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -130,12 +129,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 697,
-  "StartTime": "2010-12-26T02:49:43.2461231+01:00",
-  "EndTime": "2013-04-24T02:49:43.2461231+02:00",
-  "Status": 463,
-  "Type": 52,
-  "AssociateId": 341
+  "Id": 118,
+  "StartTime": "1999-10-01T17:37:16.2672422+02:00",
+  "EndTime": "1996-11-23T17:37:16.2672422+01:00",
+  "Status": 505,
+  "Type": 669,
+  "AssociateId": 606
 }
 ```
 
@@ -146,61 +145,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 98,
-  "StartDate": "2011-06-25T02:49:43.2461231+02:00",
-  "EndDate": "1997-01-24T02:49:43.2461231+01:00",
+  "AppointmentId": 65,
+  "StartDate": "2003-04-22T17:37:16.2692426+02:00",
+  "EndDate": "1998-10-19T17:37:16.2692426+02:00",
   "Type": "BookingForChecklist",
-  "Task": "vero",
-  "AssociateFullName": "Zoila Kunze",
-  "ContactName": "Lowe Group",
-  "Description": "Ameliorated didactic knowledge user",
-  "PersonFullName": "Amely Hessel",
-  "PersonId": 425,
-  "ContactId": 480,
-  "ProjectId": 83,
-  "ProjectName": "Schaefer Inc and Sons",
-  "IsPublished": true,
-  "AssociateId": 609,
-  "ColorIndex": 843,
-  "IsFree": true,
+  "Task": "dolorem",
+  "AssociateFullName": "Aubree Wuckert",
+  "ContactName": "Murazik LLC",
+  "Description": "Visionary zero administration ability",
+  "PersonFullName": "Dr. Gerald Jonas Skiles Sr.",
+  "PersonId": 163,
+  "ContactId": 162,
+  "ProjectId": 400,
+  "ProjectName": "Welch, Fisher and Kunde",
+  "IsPublished": false,
+  "AssociateId": 916,
+  "ColorIndex": 410,
+  "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 621,
-  "PriorityName": "Kozey LLC",
+  "PriorityId": 335,
+  "PriorityName": "Marks Inc and Sons",
   "TaskType": "Appointment",
   "IsBookingMain": true,
   "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2016-06-13T02:49:43.2461231+02:00",
+  "IsBooking": false,
+  "ActiveDate": "2005-05-30T17:37:16.2692426+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2002-02-07T02:49:43.2461231+01:00",
-  "RecurringEndDate": "2005-04-03T02:49:43.2461231+02:00",
-  "MotherId": 210,
-  "AssignedBy": 104,
-  "AssignedByFullName": "Riley Gutkowski",
+  "RecurringStartDate": "1999-07-13T17:37:16.2692426+02:00",
+  "RecurringEndDate": "1996-06-03T17:37:16.2692426+02:00",
+  "MotherId": 803,
+  "AssignedBy": 408,
+  "AssignedByFullName": "Freda Reinger",
   "RejectReason": "",
-  "Location": "facilis",
-  "AlarmLeadTime": "nihil",
-  "SaleId": 876,
-  "SaleName": "Schuppe, Jones and Prohaska",
-  "AssociateName": "Dach-Hamill",
-  "CreatedDate": "2018-10-08T02:49:43.2461231+02:00",
-  "CreatedBy": "fugit",
-  "CreatedByFullName": "Reggie Keebler",
-  "CreatedByAssociateId": 419,
+  "Location": "ab",
+  "AlarmLeadTime": "non",
+  "SaleId": 693,
+  "SaleName": "Waelchi, Jewess and Russel",
+  "AssociateName": "Jenkins, Heathcote and Raynor",
+  "CreatedDate": "1995-08-25T17:37:16.270242+02:00",
+  "CreatedBy": "dolor",
+  "CreatedByFullName": "Sarina Carter Jr.",
+  "CreatedByAssociateId": 443,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 541
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

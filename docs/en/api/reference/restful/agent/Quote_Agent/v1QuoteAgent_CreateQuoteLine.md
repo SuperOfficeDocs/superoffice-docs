@@ -42,17 +42,16 @@ POST /api/v1/Agents/Quote/CreateQuoteLine?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteAlternativeId, ERPProductKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteAlternativeId | int32 |  |
-| ERPProductKey | string |  |
+| QuoteAlternativeId | Integer |  |
+| ERPProductKey | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteLine
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -113,7 +112,7 @@ Response body:
 | ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -126,8 +125,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 902,
-  "ERPProductKey": "facere"
+  "QuoteAlternativeId": 301,
+  "ERPProductKey": "quos"
 }
 ```
 
@@ -138,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 789,
-  "ERPQuoteLineKey": "reprehenderit",
-  "QuoteAlternativeId": 129,
-  "ERPProductKey": "pariatur",
+  "QuoteLineId": 485,
+  "ERPQuoteLineKey": "quis",
+  "QuoteAlternativeId": 236,
+  "ERPProductKey": "atque",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 13764.528,
-  "DeliveredQuantity": 23965.698,
-  "Rank": 465,
-  "Name": "Howe Inc and Sons",
-  "Description": "Synchronised zero administration middleware",
-  "Code": "repellat",
-  "QuantityUnit": "dolore",
-  "PriceUnit": "quidem",
-  "ItemNumber": "1063904",
+  "Quantity": 14338.05,
+  "DeliveredQuantity": 23116.384,
+  "Rank": 117,
+  "Name": "Schmeler Inc and Sons",
+  "Description": "Cloned multi-state budgetary management",
+  "Code": "nulla",
+  "QuantityUnit": "dolor",
+  "PriceUnit": "at",
+  "ItemNumber": "1153874",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "aut",
-  "Supplier": "dicta",
-  "SupplierCode": "veritatis",
-  "Thumbnail": "pariatur",
-  "VATInfo": "dolorum",
-  "VAT": 19267.832,
-  "UnitCost": 27011.946,
-  "UnitMinimumPrice": 16212.181999999999,
-  "UnitListPrice": 10978.402,
+  "ProductFamilyKey": "enim",
+  "ProductTypeKey": "et",
+  "Supplier": "blanditiis",
+  "SupplierCode": "adipisci",
+  "Thumbnail": "vero",
+  "VATInfo": "debitis",
+  "VAT": 21411.487999999998,
+  "UnitCost": 11385.822,
+  "UnitMinimumPrice": 12899.544,
+  "UnitListPrice": 26845.843999999997,
   "ExtraInfo": [
     {
-      "Name": "Keebler-Blick",
-      "Value": "soluta",
+      "Name": "Labadie Group",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldType": "System.String",
+          "FieldLength": 820
         }
       }
     },
     {
-      "Name": "Keebler-Blick",
-      "Value": "soluta",
+      "Name": "Labadie Group",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldType": "System.String",
+          "FieldLength": 820
         }
       }
     }
   ],
-  "RawExtraInfo": "doloribus",
+  "RawExtraInfo": "ut",
   "IsSubscription": false,
-  "SubscriptionUnit": "non",
-  "SubscriptionQuantity": 5569.1179999999995,
-  "SubscriptionStart": "2002-04-08T02:49:45.0465904+02:00",
-  "ERPDiscountPercent": 3760.7999999999997,
-  "ERPDiscountAmount": 11219.72,
-  "DiscountPercent": 25632.986,
-  "DiscountAmount": 12586.144,
+  "SubscriptionUnit": "eum",
+  "SubscriptionQuantity": 12695.833999999999,
+  "SubscriptionStart": "2021-06-15T17:37:18.7632423+02:00",
+  "ERPDiscountPercent": 7559.208,
+  "ERPDiscountAmount": 3613.502,
+  "DiscountPercent": 6612.74,
+  "DiscountAmount": 7932.1539999999995,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 11178.978,
-  "EarningAmount": 27478.912,
-  "SubTotal": 20264.444,
-  "TotalPrice": 11276.132,
-  "Rights": "ullam",
-  "Rule": "similique",
-  "ExtraField1": "inventore",
-  "ExtraField2": "harum",
-  "ExtraField3": "necessitatibus",
-  "ExtraField4": "voluptas",
-  "ExtraField5": "aliquam",
+  "EarningPercent": 3588.43,
+  "EarningAmount": 137.896,
+  "SubTotal": 15362.868,
+  "TotalPrice": 18340.167999999998,
+  "Rights": "doloribus",
+  "Rule": "error",
+  "ExtraField1": "minima",
+  "ExtraField2": "eius",
+  "ExtraField3": "explicabo",
+  "ExtraField4": "sed",
+  "ExtraField5": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 687
+      "FieldLength": 186
     }
   }
 }

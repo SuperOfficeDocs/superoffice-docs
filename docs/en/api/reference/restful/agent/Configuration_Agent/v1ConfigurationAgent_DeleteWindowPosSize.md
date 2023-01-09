@@ -38,16 +38,15 @@ POST /api/v1/Agents/Configuration/DeleteWindowPosSize?$select=name,department,ca
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 WindowPosSizeId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| WindowPosSizeId | int32 |  |
+| WindowPosSizeId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -55,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -68,7 +67,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WindowPosSizeId": 719
+  "WindowPosSizeId": 875
 }
 ```
 

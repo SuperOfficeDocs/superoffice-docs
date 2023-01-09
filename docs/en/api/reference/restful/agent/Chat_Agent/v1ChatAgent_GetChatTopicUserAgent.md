@@ -42,17 +42,16 @@ POST /api/v1/Agents/Chat/GetChatTopicUserAgent?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ChatTopicId, Username 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ChatTopicId | int32 |  |
-| Username | string |  |
+| ChatTopicId | Integer |  |
+| Username | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,12 +59,12 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ChatTopicAgent
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TopicId | int32 | The reference to the associated chat topic. |
-| User |  | The associate that is the user agent. |
+| User | Associate | The associate that is the user agent. |
 | CanListen | bool | True of a user can listen in on this topic |
 | CanRespond | bool | True if the user can respond to chats in this topic |
 | CanManage | bool | True if the user is a manager for this topic |
@@ -77,12 +76,12 @@ Response body:
 POST /api/v1/Agents/Chat/GetChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 148,
-  "Username": "expedita"
+  "ChatTopicId": 8,
+  "Username": "nobis"
 }
 ```
 
@@ -93,10 +92,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 526,
+  "TopicId": 749,
   "User": null,
   "CanListen": true,
-  "CanRespond": false,
+  "CanRespond": true,
   "CanManage": false,
   "CanNotify": false
 }

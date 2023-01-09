@@ -42,20 +42,19 @@ POST /api/v1/Agents/Find/GetRestrictionGroup?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, Rank, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| Rank | int32 |  |
-| Context | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| Rank | Integer |  |
+| Context | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,15 +77,15 @@ Response body:
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolorum",
-  "ProviderName": "Schmitt, Casper and Bartoletti",
-  "StorageKey": "debitis",
-  "Rank": 752,
-  "Context": "sint"
+  "StorageType": "ullam",
+  "ProviderName": "Morissette-Swaniawski",
+  "StorageKey": "repellat",
+  "Rank": 242,
+  "Context": "minima"
 }
 ```
 
@@ -97,20 +96,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dickens, Terry and Mills",
-  "Description": "Switchable high-level instruction set",
-  "Rank": 537,
+  "Name": "Zieme Group",
+  "Description": "Vision-oriented bi-directional adapter",
+  "Rank": 75,
   "Restrictions": [
     {
-      "Name": "Auer LLC",
-      "Operator": "et",
+      "Name": "Carroll, Rolfson and McKenzie",
+      "Operator": "ea",
       "Values": [
-        "sint",
-        "doloremque"
+        "nihil",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "esse",
-        "quia"
+        "alias",
+        "sit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +117,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 682,
+      "InterParenthesis": 242,
       "InterOperator": "And",
-      "UniqueHash": 366
+      "UniqueHash": 936
     }
   ]
 }

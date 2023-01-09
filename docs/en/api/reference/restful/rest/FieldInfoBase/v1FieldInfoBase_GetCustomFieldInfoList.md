@@ -46,7 +46,7 @@ GET /api/v1/Schema/{tableName}?includeStandard=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -54,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +78,7 @@ Response body: array
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,18 +90,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bernhard-Predovic",
-    "DisplayName": "Kirlin Group",
-    "Description": "Innovative object-oriented projection",
-    "ShortLabel": "sed",
+    "FieldName": "D'Amore, White and Hessel",
+    "DisplayName": "Rempel, Will and Rohan",
+    "Description": "Adaptive holistic moderator",
+    "ShortLabel": "qui",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 960,
-    "TemplateVariableName": "Rogahn LLC"
+    "IsExternal": true,
+    "Rank": 42,
+    "TemplateVariableName": "Trantow Inc and Sons"
   }
 ]
 ```

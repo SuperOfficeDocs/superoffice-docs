@@ -38,7 +38,7 @@ Excludes standard fields.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FieldInfoBase
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +70,7 @@ Response body:
 GET /api/v1/Ticket/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "O'Reilly-Rolfson",
-  "DisplayName": "Jenkins Group",
-  "Description": "Face to face bottom-line data-warehouse",
-  "ShortLabel": "possimus",
-  "HideLabel": true,
-  "HideField": true,
-  "IsIndexed": false,
+  "FieldName": "Zulauf, Langosh and Mitchell",
+  "DisplayName": "Conn, Von and Morar",
+  "Description": "Re-engineered optimal attitude",
+  "ShortLabel": "earum",
+  "HideLabel": false,
+  "HideField": false,
+  "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 782,
-  "TemplateVariableName": "Gusikowski, Stokes and Schowalter"
+  "IsExternal": true,
+  "Rank": 141,
+  "TemplateVariableName": "Pfeffer, Schultz and Kuvalis"
 }
 ```

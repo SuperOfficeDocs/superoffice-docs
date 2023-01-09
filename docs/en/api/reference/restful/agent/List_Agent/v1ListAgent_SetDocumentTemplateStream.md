@@ -44,19 +44,18 @@ POST /api/v1/Agents/List/SetDocumentTemplateStream?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DocumentTemplateEntity, Stream, LanguageCode, PluginId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentTemplateEntity |  | The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on. <para /> Carrier object for DocumentTemplateEntity. Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
-| Stream | byte |  |
-| LanguageCode | string |  |
-| PluginId | int32 |  |
+| DocumentTemplateEntity | DocumentTemplateEntity | The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on. <para /> Carrier object for DocumentTemplateEntity. Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| Stream | String |  |
+| LanguageCode | String |  |
+| PluginId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentTemplateEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,7 +92,7 @@ Response body:
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,14 +101,14 @@ Response body:
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "laboriosam",
-  "PluginId": 293
+  "LanguageCode": "alias",
+  "PluginId": 732
 }
 ```
 
@@ -120,37 +119,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 167,
-  "Name": "Tillman-Connelly",
-  "Tooltip": "vel",
-  "SaveInDb": 708,
-  "Filename": "qui",
-  "DefaultOref": "cupiditate",
+  "DocumentTemplateId": 318,
+  "Name": "Kub-Gleichner",
+  "Tooltip": "facere",
+  "SaveInDb": 67,
+  "Filename": "molestiae",
+  "DefaultOref": "error",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 778,
-  "IntentId": 971,
+  "AutoeventId": 983,
+  "IntentId": 705,
   "IsDefaultPublished": false,
-  "Rank": 201,
-  "LoadTemplateFromPlugin": 462,
-  "MimeType": "cupiditate",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 142,
+  "Rank": 498,
+  "LoadTemplateFromPlugin": 907,
+  "MimeType": "excepturi",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 811,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "clementine@bartell.uk",
-  "IncludeSignature": true,
+  "EmailSubject": "elliott@powlowski.name",
+  "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kasandra@dicki.name",
+  "SenderEmailAddress": "kellen@gulgowski.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 564
     }
   }
 }

@@ -32,9 +32,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=03/17/2010 02:49:53
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=10/26/2017 02:49:53
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=953
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=09/07/1999 17:37:41
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/11/2011 17:37:41
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=430
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
@@ -53,7 +53,7 @@ POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=Tr
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PriceList
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body:
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,22 +94,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 653,
-  "ERPPriceListKey": "exercitationem",
-  "QuoteConnectionId": 898,
-  "Name": "Champlin, Powlowski and Keeling",
-  "Description": "Vision-oriented content-based attitude",
-  "Currency": "aut",
-  "CurrencyName": "Powlowski-Fahey",
-  "ValidFrom": "1997-03-06T02:49:52.3284476+01:00",
-  "ValidTo": "2003-08-25T02:49:52.3284476+02:00",
+  "PriceListId": 822,
+  "ERPPriceListKey": "voluptas",
+  "QuoteConnectionId": 605,
+  "Name": "Emmerich Group",
+  "Description": "Ameliorated transitional service-desk",
+  "Currency": "ipsa",
+  "CurrencyName": "Keebler Inc and Sons",
+  "ValidFrom": "2016-07-11T17:37:40.1205012+02:00",
+  "ValidTo": "2009-06-22T17:37:40.1205012+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldLength": 576
     }
   }
 }

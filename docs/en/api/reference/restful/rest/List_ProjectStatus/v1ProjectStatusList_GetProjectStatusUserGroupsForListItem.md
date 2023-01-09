@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Haley, Barton and Nikolaus",
-    "ToolTip": "Cumque quo eaque quasi voluptatem est deleniti nisi.",
+    "Id": 468,
+    "Name": "Kuhic Inc and Sons",
+    "ToolTip": "Unde nihil consequatur.",
     "Deleted": true,
-    "Rank": 223,
-    "Type": "quia",
-    "ColorBlock": 873,
-    "IconHint": "debitis",
-    "Selected": false,
-    "LastChanged": "2007-04-09T02:49:52.3909486+02:00",
+    "Rank": 494,
+    "Type": "sapiente",
+    "ColorBlock": 995,
+    "IconHint": "maiores",
+    "Selected": true,
+    "LastChanged": "2003-11-14T17:37:40.1965055+01:00",
     "ChildItems": [
       {
-        "Id": 603,
-        "Name": "Tremblay, Ledner and Bashirian",
-        "ToolTip": "Voluptatem quia non veritatis ut aut commodi.",
-        "Deleted": true,
-        "Rank": 762,
-        "Type": "dolorem",
-        "ColorBlock": 740,
-        "IconHint": "corporis",
-        "Selected": true,
-        "LastChanged": "2003-04-02T02:49:52.3909486+02:00",
+        "Id": 621,
+        "Name": "Schiller, Abshire and Dibbert",
+        "ToolTip": "Provident cumque mollitia rerum nesciunt.",
+        "Deleted": false,
+        "Rank": 13,
+        "Type": "expedita",
+        "ColorBlock": 461,
+        "IconHint": "nostrum",
+        "Selected": false,
+        "LastChanged": "2007-12-17T17:37:40.1965055+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "quia",
+        "StyleHint": "voluptate",
         "Hidden": false,
-        "FullName": "Ezekiel Wolf",
+        "FullName": "Mckenzie Borer PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 856
+            "FieldType": "System.String",
+            "FieldLength": 404
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "debitis",
+    "ExtraInfo": "quo",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Mrs. Vernice Kuhic",
+    "FullName": "Mr. Eldon Kyle DuBuque V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 15
+        "FieldLength": 56
       }
     }
   }

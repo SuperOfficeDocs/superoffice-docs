@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 731,
-    "Name": "Brown Group",
-    "ToolTip": "Earum iusto voluptas rerum error facilis dolorem.",
-    "Deleted": true,
-    "Rank": 54,
-    "Type": "placeat",
-    "ColorBlock": 883,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2004-07-01T02:49:52.1721908+02:00",
+    "Id": 632,
+    "Name": "Jenkins-Lesch",
+    "ToolTip": "Occaecati non et laborum qui praesentium dignissimos ducimus.",
+    "Deleted": false,
+    "Rank": 176,
+    "Type": "ratione",
+    "ColorBlock": 318,
+    "IconHint": "nam",
+    "Selected": false,
+    "LastChanged": "2010-11-06T17:37:39.9334725+01:00",
     "ChildItems": [
       {
-        "Id": 628,
-        "Name": "Hagenes Group",
-        "ToolTip": "Dicta unde et ullam quod esse.",
+        "Id": 758,
+        "Name": "Greenholt, Larson and McCullough",
+        "ToolTip": "Deleniti unde eveniet reprehenderit ab.",
         "Deleted": false,
-        "Rank": 745,
-        "Type": "rerum",
-        "ColorBlock": 82,
-        "IconHint": "non",
+        "Rank": 631,
+        "Type": "dolorem",
+        "ColorBlock": 429,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2022-03-14T02:49:52.1721908+01:00",
+        "LastChanged": "2015-08-20T17:37:39.9334725+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "eius",
+        "ExtraInfo": "rerum",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Rene Koepp"
+        "FullName": "Francesca Kiehn PhD"
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "quasi",
-    "Hidden": true,
-    "FullName": "Talia Witting"
+    "ExtraInfo": "possimus",
+    "StyleHint": "error",
+    "Hidden": false,
+    "FullName": "Julie Greenholt"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Weimann-Daugherty",
-    "ToolTip": "Asperiores vel accusamus cupiditate iure.",
-    "Deleted": false,
-    "Rank": 604,
-    "Type": "autem",
-    "ColorBlock": 949,
-    "IconHint": "voluptates",
-    "Selected": true,
-    "LastChanged": "1997-06-15T02:49:52.1721908+02:00",
+    "Id": 874,
+    "Name": "Quitzon LLC",
+    "ToolTip": "Sed eos veritatis porro nihil.",
+    "Deleted": true,
+    "Rank": 807,
+    "Type": "voluptatibus",
+    "ColorBlock": 472,
+    "IconHint": "eligendi",
+    "Selected": false,
+    "LastChanged": "2019-01-20T17:37:39.9345001+01:00",
     "ChildItems": [
       {
-        "Id": 505,
-        "Name": "Stracke-Wintheiser",
-        "ToolTip": "Temporibus asperiores non possimus sed molestiae alias.",
-        "Deleted": false,
-        "Rank": 547,
-        "Type": "laudantium",
-        "ColorBlock": 945,
-        "IconHint": "quos",
-        "Selected": false,
-        "LastChanged": "1996-06-24T02:49:52.1721908+02:00",
+        "Id": 463,
+        "Name": "Hamill, Sawayn and Hickle",
+        "ToolTip": "Autem nam fugiat amet.",
+        "Deleted": true,
+        "Rank": 609,
+        "Type": "eligendi",
+        "ColorBlock": 253,
+        "IconHint": "distinctio",
+        "Selected": true,
+        "LastChanged": "2004-10-05T17:37:39.9345001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "dignissimos",
-        "Hidden": false,
-        "FullName": "Ahmed Rau III",
+        "ExtraInfo": "sed",
+        "StyleHint": "autem",
+        "Hidden": true,
+        "FullName": "Kenya Weimann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 967
+            "FieldLength": 883
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "culpa",
-    "Hidden": false,
-    "FullName": "Litzy Kihn",
+    "ExtraInfo": "vel",
+    "StyleHint": "aspernatur",
+    "Hidden": true,
+    "FullName": "Miss Milo Clinton Keeling II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 332
+        "FieldLength": 762
       }
     }
   }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetEmailAppointment
 Get appointment data contained in the emails iCal attachment
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/EMail/GetEmailAppointment?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MailItemId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MailItemId | int32 |  |
+| MailItemId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,11 +60,11 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailAppointment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Appointment |  | Appointment information |
+| Appointment | Appointment | Appointment information |
 | CalMethod | string | Method field stored in ICS file. |
 | Participants | array | List of participants in the iCal file - first one being the organizer |
 | Comment | string | Comment attached to the calendar event (accept / reject reason etc.) |
@@ -75,7 +72,7 @@ Response body:
 | DtStart | date-time | Start date/time in ICS file. |
 | DtEnd | date-time | End date/time in ICS file. |
 | Superseded | bool | A newer invitation exists |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,11 +81,11 @@ Response body:
 POST /api/v1/Agents/EMail/GetEmailAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 716
+  "MailItemId": 304
 }
 ```
 
@@ -102,20 +99,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "alias",
-    "aut"
+    "sint",
+    "voluptatem"
   ],
-  "Comment": "ab",
-  "Sequence": 670,
-  "DtStart": "2013-02-05T02:49:44.3878864+01:00",
-  "DtEnd": "2018-07-28T02:49:44.3878864+02:00",
+  "Comment": "autem",
+  "Sequence": 892,
+  "DtStart": "2016-08-20T17:37:17.8972444+02:00",
+  "DtEnd": "2015-01-30T17:37:17.8972444+01:00",
   "Superseded": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldType": "System.String",
+      "FieldLength": 679
     }
   }
 }

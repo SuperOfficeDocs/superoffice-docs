@@ -44,20 +44,19 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByDate?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId, IncludeProjectDocuments, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
-| IncludeProjectDocuments | bool |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| PersonId | Integer |  |
+| IncludeProjectDocuments | Boolean |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +88,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -98,15 +97,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 277,
+  "PersonId": 647,
   "IncludeProjectDocuments": false,
-  "StartTime": "1998-05-26T02:49:44.0910111+02:00",
-  "EndTime": "2014-02-09T02:49:44.0910111+01:00",
-  "Count": 314
+  "StartTime": "2001-05-10T17:37:17.4422413+02:00",
+  "EndTime": "2018-06-03T17:37:17.4422413+02:00",
+  "Count": 939
 }
 ```
 
@@ -118,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 351,
-    "Attention": "aut",
-    "Header": "omnis",
-    "Name": "Will-Turcotte",
-    "OurRef": "est",
-    "YourRef": "numquam",
-    "Description": "Decentralized 24/7 process improvement",
-    "DocumentTemplate": "labore",
+    "DocumentId": 140,
+    "Attention": "autem",
+    "Header": "sapiente",
+    "Name": "Hilpert, Batz and Gottlieb",
+    "OurRef": "natus",
+    "YourRef": "animi",
+    "Description": "Compatible fault-tolerant capability",
+    "DocumentTemplate": "consequuntur",
     "IsPublished": false,
-    "PersonId": 548,
-    "PersonFullName": "Prof. Sigurd Casper Gusikowski",
-    "AssociateFullName": "Mrs. Lexi Harvey Bernhard",
-    "ContactId": 895,
-    "ContactName": "Hodkiewicz, Armstrong and Hills",
-    "ProjectId": 461,
-    "ProjectName": "Funk-Flatley",
-    "AssociateId": 234,
-    "Snum": 249,
-    "SaleId": 59,
-    "SaleName": "Runolfsdottir Group",
+    "PersonId": 896,
+    "PersonFullName": "Dr. Dagmar Howard Wiegand DDS",
+    "AssociateFullName": "Ms. Maude Keeling",
+    "ContactId": 69,
+    "ContactName": "Medhurst-Wisozk",
+    "ProjectId": 314,
+    "ProjectName": "O'Connell, Beier and Bins",
+    "AssociateId": 106,
+    "Snum": 744,
+    "SaleId": 152,
+    "SaleName": "Bergstrom-Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 457
+        "FieldLength": 714
       }
     }
   }

@@ -44,17 +44,16 @@ POST /api/v1/Agents/Sale/GetRecentSales?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AmountLimit, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AmountLimit | int32 |  |
-| Count | int32 |  |
+| AmountLimit | Integer |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,7 +90,7 @@ Response body: array
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -100,12 +99,12 @@ Response body: array
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 519,
-  "Count": 696
+  "AmountLimit": 882,
+  "Count": 305
 }
 ```
 
@@ -117,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Nicolas, Heller and Gerhold",
-    "SaleDate": "2010-09-25T02:49:45.1403412+02:00",
-    "SaleId": 721,
-    "Probability": 886,
-    "Title": "quidem",
-    "Amount": 5026.936,
-    "Currency": "atque",
-    "ProjectName": "Batz Group",
-    "AssociateFullName": "Ulices Lang",
-    "Description": "Open-architected actuating local area network",
+    "ContactName": "Morar Inc and Sons",
+    "SaleDate": "2004-01-30T17:37:18.8862421+01:00",
+    "SaleId": 402,
+    "Probability": 199,
+    "Title": "nulla",
+    "Amount": 28447.318,
+    "Currency": "non",
+    "ProjectName": "Mayert LLC",
+    "AssociateFullName": "Hosea Glover",
+    "Description": "Horizontal reciprocal groupware",
     "Status": "Lost",
-    "WeightedAmount": 27052.688,
-    "ProjectId": 123,
-    "EarningPercent": 18446.724,
-    "Earning": 4851.432,
-    "ContactId": 515,
-    "AssociateId": 768,
-    "PersonId": 982,
-    "SaleTypeId": 727,
-    "SaleTypeName": "Stark, Veum and Schmidt",
-    "PersonFullName": "Heaven Mante",
+    "WeightedAmount": 27475.778,
+    "ProjectId": 154,
+    "EarningPercent": 8875.488,
+    "Earning": 29299.766,
+    "ContactId": 457,
+    "AssociateId": 889,
+    "PersonId": 351,
+    "SaleTypeId": 183,
+    "SaleTypeName": "Dach, Gaylord and Ziemann",
+    "PersonFullName": "Ms. Ebony Barrows DDS",
     "Completed": "Completed",
-    "ActiveErpLinks": 550,
-    "NextDueDate": "2021-04-12T02:49:45.1403412+02:00",
-    "Number": "679958",
+    "ActiveErpLinks": 988,
+    "NextDueDate": "2005-08-03T17:37:18.8872418+02:00",
+    "Number": "1158781",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 272
+        "FieldType": "System.Int32",
+        "FieldLength": 364
       }
     }
   }

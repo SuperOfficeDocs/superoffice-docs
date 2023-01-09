@@ -42,16 +42,15 @@ POST /api/v1/Agents/Report/UpdateFavorite?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ReportEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ReportEntity |  | Carrier object for ReportEntity. Services for the ReportEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReportAgent">Report Agent</see>. |
+| ReportEntity | ReportEntity | Carrier object for ReportEntity. Services for the ReportEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReportAgent">Report Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ReportEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body:
 | AssociateId | int32 | The owner of the report. |
 | TemplateId | int32 | The id of report template. |
 | Published | bool | Is the report published? |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,20 +94,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 566,
+  "ReportId": 188,
   "ReportCategory": "All",
-  "Description": "Fundamental content-based success",
+  "Description": "Mandatory secondary implementation",
   "ReportLayout": "CalendarMonth",
-  "Name": "Greenholt Group",
-  "AssociateId": 84,
-  "TemplateId": 291,
+  "Name": "Botsford Group",
+  "AssociateId": 295,
+  "TemplateId": 485,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldLength": 85
     }
   }
 }

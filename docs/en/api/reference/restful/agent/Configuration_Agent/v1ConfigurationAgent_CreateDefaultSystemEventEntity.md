@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SystemEventEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,8 +55,8 @@ Response body:
 | Owner | int32 | 0, 0, group_id, assoc id (see over) |
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
-| ActivatedBy |  | The associate that first created the SystemEvent. |
-| TableRight |  |  |
+| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 934,
+  "SystemEventId": 638,
   "Scope": "Database",
-  "Eta": "1996-08-22T02:49:43.8566571+02:00",
-  "Eventkey": "nisi",
-  "Eventmess": "aut",
-  "ExtraInfo": 544,
-  "Owner": 913,
-  "UpdatedCount": 164,
-  "Registered": "2012-07-14T02:49:43.8566571+02:00",
+  "Eta": "2016-06-02T17:37:17.1182723+02:00",
+  "Eventkey": "vel",
+  "Eventmess": "sunt",
+  "ExtraInfo": 503,
+  "Owner": 821,
+  "UpdatedCount": 606,
+  "Registered": "2007-01-26T17:37:17.1182723+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldType": "System.String",
+      "FieldLength": 488
     }
   }
 }

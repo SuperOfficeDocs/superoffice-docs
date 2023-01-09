@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/GetQuoteLines?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteAlternativeId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteAlternativeId | int32 |  |
+| QuoteAlternativeId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -112,7 +111,7 @@ Response body: array
 | ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -121,11 +120,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 577
+  "QuoteAlternativeId": 671
 }
 ```
 
@@ -137,88 +136,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 777,
-    "ERPQuoteLineKey": "doloremque",
-    "QuoteAlternativeId": 548,
-    "ERPProductKey": "perspiciatis",
+    "QuoteLineId": 24,
+    "ERPQuoteLineKey": "ut",
+    "QuoteAlternativeId": 23,
+    "ERPProductKey": "eaque",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 19430.8,
-    "DeliveredQuantity": 23053.703999999998,
-    "Rank": 864,
-    "Name": "Hilpert-Spencer",
-    "Description": "Up-sized optimizing model",
-    "Code": "explicabo",
-    "QuantityUnit": "in",
-    "PriceUnit": "atque",
-    "ItemNumber": "980195",
+    "Quantity": 25736.408,
+    "DeliveredQuantity": 3691.852,
+    "Rank": 409,
+    "Name": "Jacobson, Stanton and Jast",
+    "Description": "Seamless national solution",
+    "Code": "ipsum",
+    "QuantityUnit": "sed",
+    "PriceUnit": "explicabo",
+    "ItemNumber": "1291052",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "consectetur",
-    "ProductTypeKey": "et",
-    "Supplier": "ut",
-    "SupplierCode": "dolores",
-    "Thumbnail": "laudantium",
-    "VATInfo": "sint",
-    "VAT": 20085.806,
-    "UnitCost": 13062.511999999999,
-    "UnitMinimumPrice": 18888.618,
-    "UnitListPrice": 4951.72,
+    "ProductFamilyKey": "illo",
+    "ProductTypeKey": "aperiam",
+    "Supplier": "laborum",
+    "SupplierCode": "voluptas",
+    "Thumbnail": "beatae",
+    "VATInfo": "qui",
+    "VAT": 1739.37,
+    "UnitCost": 26921.059999999998,
+    "UnitMinimumPrice": 29779.268,
+    "UnitListPrice": 21652.806,
     "ExtraInfo": [
       {
-        "Name": "McGlynn Group",
-        "Value": "dolores",
+        "Name": "Powlowski, White and Hills",
+        "Value": "optio",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 292
+            "FieldLength": 857
           }
         }
       },
       {
-        "Name": "McGlynn Group",
-        "Value": "dolores",
+        "Name": "Powlowski, White and Hills",
+        "Value": "optio",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 292
+            "FieldLength": 857
           }
         }
       }
     ],
-    "RawExtraInfo": "et",
+    "RawExtraInfo": "sed",
     "IsSubscription": false,
     "SubscriptionUnit": "voluptas",
-    "SubscriptionQuantity": 30794.683999999997,
-    "SubscriptionStart": "2009-06-04T02:49:45.0622144+02:00",
-    "ERPDiscountPercent": 22918.942,
-    "ERPDiscountAmount": 10082.078,
-    "DiscountPercent": 15804.761999999999,
-    "DiscountAmount": 19872.694,
+    "SubscriptionQuantity": 30374.728,
+    "SubscriptionStart": "2014-09-10T17:37:18.7752416+02:00",
+    "ERPDiscountPercent": 30296.378,
+    "ERPDiscountAmount": 19371.254,
+    "DiscountPercent": 5992.208,
+    "DiscountAmount": 26037.272,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 17844.996,
-    "EarningAmount": 12846.266,
-    "SubTotal": 26507.372,
-    "TotalPrice": 2651.364,
-    "Rights": "aut",
-    "Rule": "magni",
-    "ExtraField1": "facilis",
-    "ExtraField2": "velit",
-    "ExtraField3": "pariatur",
-    "ExtraField4": "aut",
-    "ExtraField5": "ipsa",
+    "EarningPercent": 27735.899999999998,
+    "EarningAmount": 7389.972,
+    "SubTotal": 25880.572,
+    "TotalPrice": 22310.946,
+    "Rights": "sequi",
+    "Rule": "vel",
+    "ExtraField1": "repudiandae",
+    "ExtraField2": "esse",
+    "ExtraField3": "eos",
+    "ExtraField4": "quis",
+    "ExtraField5": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 683
+        "FieldType": "System.Int32",
+        "FieldLength": 549
       }
     }
   }

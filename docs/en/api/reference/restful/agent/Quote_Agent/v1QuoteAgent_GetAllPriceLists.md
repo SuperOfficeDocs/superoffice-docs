@@ -44,17 +44,16 @@ POST /api/v1/Agents/Quote/GetAllPriceLists?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteConnectionId, Currency 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteConnectionId | int32 |  |
-| Currency | string |  |
+| QuoteConnectionId | Integer |  |
+| Currency | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body: array
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 884,
-  "Currency": "at"
+  "QuoteConnectionId": 620,
+  "Currency": "in"
 }
 ```
 
@@ -102,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 93,
-    "ERPPriceListKey": "et",
-    "QuoteConnectionId": 268,
-    "Name": "Willms-Funk",
-    "Description": "Devolved next generation initiative",
-    "Currency": "modi",
-    "CurrencyName": "Adams, McDermott and O'Reilly",
-    "ValidFrom": "2002-10-13T02:49:45.0309645+02:00",
-    "ValidTo": "2014-01-22T02:49:45.0309645+01:00",
-    "IsActive": false,
+    "PriceListId": 584,
+    "ERPPriceListKey": "voluptatem",
+    "QuoteConnectionId": 410,
+    "Name": "Krajcik Group",
+    "Description": "Multi-channelled leading edge middleware",
+    "Currency": "esse",
+    "CurrencyName": "Gleichner-Spencer",
+    "ValidFrom": "2010-05-30T17:37:18.7472417+02:00",
+    "ValidTo": "2014-11-11T17:37:18.7472417+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 786
+        "FieldType": "System.Int32",
+        "FieldLength": 41
       }
     }
   }

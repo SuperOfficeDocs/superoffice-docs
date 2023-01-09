@@ -34,7 +34,7 @@ Calls the Dashboard agent service DeleteDashboard.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 Dashboard deleted.
 
@@ -42,7 +42,7 @@ Dashboard deleted.
 |----------------|-------------|
 | 204 | Dashboard deleted. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -51,7 +51,7 @@ Response body:
 DELETE /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

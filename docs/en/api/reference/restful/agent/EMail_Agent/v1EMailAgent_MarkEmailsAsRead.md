@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/MarkEmailsAsRead
 Mark one or more e-mails as (un)read
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -42,17 +40,16 @@ POST /api/v1/Agents/EMail/MarkEmailsAsRead?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Ids, Read 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Ids | array |  |
-| Read | bool |  |
+| Ids | Array |  |
+| Read | Boolean |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -60,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -69,15 +66,15 @@ Response body:
 POST /api/v1/Agents/EMail/MarkEmailsAsRead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    680,
-    530
+    933,
+    989
   ],
-  "Read": true
+  "Read": false
 }
 ```
 

@@ -38,7 +38,7 @@ Calls the Appointment agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 634,
-    "Name": "Shanahan Inc and Sons",
-    "ToolTip": "Iste aut et suscipit expedita est.",
+    "Id": 766,
+    "Name": "Okuneva-Daugherty",
+    "ToolTip": "Illo sunt ut eius harum.",
     "Deleted": true,
-    "Rank": 564,
-    "Type": "eum",
-    "ColorBlock": 463,
-    "IconHint": "accusantium",
-    "Selected": false,
-    "LastChanged": "2005-11-24T02:49:52.5471998+01:00",
+    "Rank": 137,
+    "Type": "nam",
+    "ColorBlock": 928,
+    "IconHint": "voluptates",
+    "Selected": true,
+    "LastChanged": "2001-10-01T17:37:40.388472+02:00",
     "ChildItems": [
       {
-        "Id": 974,
-        "Name": "O'Connell-Oberbrunner",
-        "ToolTip": "Esse itaque.",
+        "Id": 616,
+        "Name": "Leannon, Dicki and Schowalter",
+        "ToolTip": "Aut molestiae asperiores quaerat.",
         "Deleted": false,
-        "Rank": 140,
-        "Type": "et",
-        "ColorBlock": 433,
-        "IconHint": "excepturi",
-        "Selected": true,
-        "LastChanged": "2008-11-18T02:49:52.5471998+01:00",
+        "Rank": 18,
+        "Type": "nulla",
+        "ColorBlock": 830,
+        "IconHint": "assumenda",
+        "Selected": false,
+        "LastChanged": "2006-05-12T17:37:40.388472+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "commodi",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "veritatis",
         "Hidden": false,
-        "FullName": "Rebekah Hattie Zboncak MD",
+        "FullName": "Treva Larson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 527
+            "FieldLength": 8
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "hic",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Gust Jenkins",
+    "FullName": "Godfrey Dickinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 837
+        "FieldLength": 891
       }
     }
   }

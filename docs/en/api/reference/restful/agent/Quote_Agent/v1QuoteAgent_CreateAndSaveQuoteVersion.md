@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionId | int32 |  |
+| QuoteVersionId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteVersion
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,7 +101,7 @@ Response body:
 | RequestAssociateId | int32 | User to whom the request proposal should be delivered |
 | RequestComment | string | Comment for why quote should be approved |
 | QuoteAlternatives | array | The QuoteAlternatives for the QuoteVersion |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -111,11 +110,11 @@ Response body:
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 606
+  "QuoteVersionId": 647
 }
 ```
 
@@ -126,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 456,
-  "ERPQuoteVersionKey": "magnam",
-  "QuoteId": 372,
-  "Description": "Digitized 3rd generation Graphical User Interface",
-  "Number": "1476382",
+  "QuoteVersionId": 995,
+  "ERPQuoteVersionKey": "natus",
+  "QuoteId": 390,
+  "Description": "Re-contextualized fresh-thinking concept",
+  "Number": "1446959",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 220,
-  "SentDate": "2008-11-09T02:49:44.9997158+01:00",
-  "FollowupId": 113,
-  "ExpirationDate": "2009-06-18T02:49:44.9997158+02:00",
-  "DeliveryCountryId": 687,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 261,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "harum",
-  "ERPPaymentTypeKey": "hic",
-  "ERPDeliveryTermsKey": "ut",
-  "ERPDeliveryTypeKey": "corrupti",
-  "Rank": 754,
-  "ApprovedBy": 317,
-  "ApprovedText": "eius",
-  "ApprovedRegisteredBy": 696,
-  "ApprovedRegisteredDate": "2004-04-23T02:49:44.9997158+02:00",
-  "ExtraField1": "expedita",
-  "ExtraField2": "asperiores",
-  "ExtraField3": "hic",
-  "ExtraField4": "velit",
-  "ExtraField5": "qui",
-  "LastRecalculated": "1996-09-02T02:49:44.9997158+02:00",
-  "Updated": "2004-12-13T02:49:44.9997158+01:00",
-  "UpdatedAssociateId": 341,
-  "Registered": "1995-12-08T02:49:44.9997158+01:00",
-  "RegisteredAssociateId": 346,
-  "RequestAssociateId": 293,
+  "LikelyQuoteAlternativeId": 308,
+  "SentDate": "2010-03-14T17:37:18.6902418+01:00",
+  "FollowupId": 693,
+  "ExpirationDate": "2005-05-15T17:37:18.6902418+02:00",
+  "DeliveryCountryId": 887,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 99,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "temporibus",
+  "ERPPaymentTypeKey": "placeat",
+  "ERPDeliveryTermsKey": "amet",
+  "ERPDeliveryTypeKey": "eius",
+  "Rank": 927,
+  "ApprovedBy": 320,
+  "ApprovedText": "numquam",
+  "ApprovedRegisteredBy": 910,
+  "ApprovedRegisteredDate": "2008-04-23T17:37:18.6902418+02:00",
+  "ExtraField1": "nesciunt",
+  "ExtraField2": "sit",
+  "ExtraField3": "id",
+  "ExtraField4": "iure",
+  "ExtraField5": "modi",
+  "LastRecalculated": "1998-08-14T17:37:18.6902418+02:00",
+  "Updated": "2010-12-15T17:37:18.6902418+01:00",
+  "UpdatedAssociateId": 834,
+  "Registered": "2021-11-13T17:37:18.6902418+01:00",
+  "RegisteredAssociateId": 150,
+  "RequestAssociateId": 504,
   "RequestComment": "in",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 893,
-      "ERPQuoteAlternativeKey": "maxime",
-      "QuoteVersionId": 679,
-      "Name": "Hilpert-Schaefer",
-      "Description": "Cloned solution-oriented collaboration",
+      "QuoteAlternativeId": 591,
+      "ERPQuoteAlternativeKey": "laborum",
+      "QuoteVersionId": 125,
+      "Name": "Weissnat, Deckow and Veum",
+      "Description": "Optional intangible strategy",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 11294.936,
-      "ERPDiscountAmount": 20562.174,
-      "DiscountPercent": 4948.586,
-      "DiscountAmount": 26037.272,
+      "ERPDiscountPercent": 1347.62,
+      "ERPDiscountAmount": 7863.206,
+      "DiscountPercent": 20590.38,
+      "DiscountAmount": 20978.996,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "perferendis",
-      "VAT": 7524.7339999999995,
-      "EarningPercent": 81.484,
-      "EarningAmount": 28735.646,
-      "SubTotal": 23808.998,
-      "TotalPrice": 4932.916,
-      "ExtraField1": "asperiores",
-      "ExtraField2": "quo",
-      "ExtraField3": "hic",
-      "ExtraField4": "cupiditate",
-      "ExtraField5": "et",
+      "VATInfo": "blanditiis",
+      "VAT": 266.39,
+      "EarningPercent": 15898.782,
+      "EarningAmount": 26125.023999999998,
+      "SubTotal": 6603.338,
+      "TotalPrice": 12423.176,
+      "ExtraField1": "eos",
+      "ExtraField2": "corporis",
+      "ExtraField3": "possimus",
+      "ExtraField4": "molestiae",
+      "ExtraField5": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldLength": 375
         }
       }
     }
@@ -203,8 +202,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 561
+      "FieldType": "System.Int32",
+      "FieldLength": 450
     }
   }
 }

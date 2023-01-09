@@ -42,18 +42,17 @@ POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Provider, Restrictions, NewStatus 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Provider | string |  |
-| Restrictions | array |  |
-| NewStatus | string |  |
+| Provider | String |  |
+| Restrictions | Array |  |
+| NewStatus | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 
 ## Sample request
@@ -74,18 +73,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "aperiam",
+  "Provider": "enim",
   "Restrictions": [
     {
-      "Name": "Hills-Watsica",
-      "Operator": "est",
+      "Name": "Gutkowski Inc and Sons",
+      "Operator": "ratione",
       "Values": [
-        "error",
-        "minus"
+        "distinctio",
+        "ut"
       ],
       "DisplayValues": [
-        "ex",
-        "eius"
+        "repellendus",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 646,
+      "InterParenthesis": 275,
       "InterOperator": "And",
-      "UniqueHash": 427
+      "UniqueHash": 13
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +108,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  132,
-  29
+  968,
+  686
 ]
 ```

@@ -42,17 +42,16 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMember
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, SelectionMemberIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| SelectionMemberIds | array |  |
+| SelectionId | Integer |  |
+| SelectionMemberIds | Array |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,16 +59,16 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SelectionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| Associate |  | Owner of the selection |
-| CreatedBy |  | Who created the selection |
-| UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| Associate | Associate | Owner of the selection |
+| CreatedBy | Associate | Who created the selection |
+| UpdatedBy | Associate | Who last modified the selection |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -96,16 +95,16 @@ Response body:
 | ChartKey | string | ID/key of the last-used chart tile on this selection |
 | LastLoaded | date-time | The date/time this selection was last loaded (selectionentity fetched) |
 | LastLoadedBy | int32 | Who last loaded this selection |
-| LastLoadedByAssociate |  | Associate that last looked at the selection members; only date (not time) is valid |
+| LastLoadedByAssociate | Associate | Associate that last looked at the selection members; only date (not time) is valid |
 | LastMembershipChange | date-time | The date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm |
 | LastMembershipChangeBy | int32 | Who last changed the membership |
-| LastMembershipChangeByAssociate |  | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
+| LastMembershipChangeByAssociate | Associate | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
 | MainHeading | string | 'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references |
 | MemberTabHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references |
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -114,14 +113,14 @@ Response body:
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 762,
+  "SelectionId": 310,
   "SelectionMemberIds": [
-    799,
-    520
+    226,
+    954
   ]
 }
 ```
@@ -133,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured multi-state hardware",
-  "Postit": "rerum",
+  "Description": "Inverse solution-oriented approach",
+  "Postit": "fuga",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 496,
-  "IncludePerson": 716,
-  "MemberCount": 135,
-  "Name": "Nitzsche-Collier",
-  "PostitTextId": 310,
-  "CreatedDate": "2015-02-01T02:49:45.3903386+01:00",
-  "SelectionId": 322,
-  "SoundEx": "natus",
-  "Source": 848,
-  "TextId": 635,
-  "UpdatedDate": "2018-04-27T02:49:45.3903386+02:00",
-  "UpdatedCount": 518,
-  "Visibility": 619,
+  "GroupIdx": 562,
+  "IncludePerson": 526,
+  "MemberCount": 63,
+  "Name": "Hilll-Bradtke",
+  "PostitTextId": 981,
+  "CreatedDate": "2015-11-22T17:37:19.1792425+01:00",
+  "SelectionId": 702,
+  "SoundEx": "sunt",
+  "Source": 102,
+  "TextId": 310,
+  "UpdatedDate": "2000-04-03T17:37:19.1792425+02:00",
+  "UpdatedCount": 499,
+  "Visibility": 123,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 693,
-  "TargetTableName": "Cummerata-Muller",
+  "TargetTableNumber": 120,
+  "TargetTableName": "Wyman, Fahey and Ward",
   "Completed": false,
-  "LeftSelectionId": 325,
-  "RightSelectionId": 80,
+  "LeftSelectionId": 822,
+  "RightSelectionId": 955,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schinner Inc and Sons",
-  "ShadowProviderName": "Murray-Leannon",
-  "ChartKey": "quam",
-  "LastLoaded": "2016-02-28T02:49:45.3903386+01:00",
-  "LastLoadedBy": 760,
+  "MainProviderName": "Nikolaus-Gleichner",
+  "ShadowProviderName": "Abernathy, Schinner and Fahey",
+  "ChartKey": "praesentium",
+  "LastLoaded": "1999-12-08T17:37:19.1792425+01:00",
+  "LastLoadedBy": 440,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-03-14T02:49:45.3903386+01:00",
-  "LastMembershipChangeBy": 17,
+  "LastMembershipChange": "2008-02-01T17:37:19.1792425+01:00",
+  "LastMembershipChangeBy": 618,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "deleniti",
-  "MemberTabHeading": "rerum",
-  "MailingsProviderName": "Ferry-Jakubowski",
-  "DashboardTileDefinitionId": 981,
+  "MainHeading": "rerum",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Durgan, Hilll and Gleason",
+  "DashboardTileDefinitionId": 134,
   "VisibleFor": [
     {
-      "VisibleId": 889,
+      "VisibleId": 884,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 349
+          "FieldLength": 511
         }
       }
     },
     {
-      "VisibleId": 889,
+      "VisibleId": 884,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 349
+          "FieldLength": 511
         }
       }
     }
@@ -206,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 211
     }
   }
 }

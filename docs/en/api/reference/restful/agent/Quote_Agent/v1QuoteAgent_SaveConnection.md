@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/SaveConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Connection 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Connection |  | Information about a connection to the ERP system. <para /> Carrier object for QuoteConnection. Services for the QuoteConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| Connection | QuoteConnection | Information about a connection to the ERP system. <para /> Carrier object for QuoteConnection. Services for the QuoteConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteConnection
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,13 +71,13 @@ Response body:
 | ErpConnectionId | int32 | The ERP Connection that this Quote connection is an extension of |
 | ExtraData | string | Optional extra data, in XML format, for configuring the connector. Connector-specific! |
 | IsAvailable | bool | Whether or not the specified connection is available. Typically, without network access the availability is false. |
-| InitializeResponse |  | Status and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet. |
+| InitializeResponse | PluginResponse | Status and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet. |
 | PriceLists | array | The PriceLists that this connection offers. |
 | AllAccess | bool | Is this connection accessible to everyone?  If not, then the QuoteConnectionAccess table tells us who can access it. |
 | Deleted | bool | If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster. |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -87,7 +86,7 @@ Response body:
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 979,
-  "ERPName": "Marvin-Wuckert",
-  "DisplayName": "Bergnaum Group",
-  "DisplayDescription": "Up-sized incremental database",
-  "Rank": 408,
-  "ConnectorName": "Feest Inc and Sons",
-  "ErpConnectionId": 84,
-  "ExtraData": "voluptatibus",
-  "IsAvailable": true,
+  "QuoteConnectionId": 270,
+  "ERPName": "Littel-Batz",
+  "DisplayName": "Hansen, Fadel and Champlin",
+  "DisplayDescription": "Operative bi-directional array",
+  "Rank": 477,
+  "ConnectorName": "Abernathy-Kihn",
+  "ErpConnectionId": 290,
+  "ExtraData": "vero",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 166,
-      "ERPPriceListKey": "voluptatem",
-      "QuoteConnectionId": 595,
-      "Name": "Ankunding LLC",
-      "Description": "Automated impactful superstructure",
-      "Currency": "itaque",
-      "CurrencyName": "Pacocha, Doyle and Ward",
-      "ValidFrom": "2010-04-19T02:49:45.0309645+02:00",
-      "ValidTo": "2008-05-29T02:49:45.0309645+02:00",
+      "PriceListId": 648,
+      "ERPPriceListKey": "dolores",
+      "QuoteConnectionId": 99,
+      "Name": "Jewess LLC",
+      "Description": "Right-sized uniform info-mediaries",
+      "Currency": "neque",
+      "CurrencyName": "Hettinger, Boyle and Luettgen",
+      "ValidFrom": "2004-01-15T17:37:18.7442416+01:00",
+      "ValidTo": "2015-09-27T17:37:18.7442416+02:00",
       "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 617
+          "FieldLength": 807
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    295,
-    863
+    148,
+    773
   ],
   "AssociateAccessIds": [
-    444,
-    924
+    859,
+    230
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 912
     }
   }
 }

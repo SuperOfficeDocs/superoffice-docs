@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/GetExtraInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteLineExtraData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLineExtraData | string |  |
+| QuoteLineExtraData | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,14 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string | Label for the field |
 | Value | string | Value for the field. If type is string, it can contain formatspecifiers (use this for displaying numbers correctly as the user's computer is set up). |
 | Type | string | String, url, image. How the value should be interpreted. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,11 +74,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "animi"
+  "QuoteLineExtraData": "necessitatibus"
 }
 ```
 
@@ -91,28 +90,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Torp Group",
-    "Value": "maiores",
+    "Name": "Keebler LLC",
+    "Value": "nisi",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 625
+        "FieldLength": 932
       }
     }
   },
   {
-    "Name": "Torp Group",
-    "Value": "maiores",
+    "Name": "Keebler LLC",
+    "Value": "nisi",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 625
+        "FieldLength": 932
       }
     }
   }

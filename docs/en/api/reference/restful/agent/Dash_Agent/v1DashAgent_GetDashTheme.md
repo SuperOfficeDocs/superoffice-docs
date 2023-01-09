@@ -25,7 +25,7 @@ Gets a DashTheme object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=764
+POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=613
 POST /api/v1/Agents/Dash/GetDashTheme?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Dash/GetDashTheme?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DashTheme
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +62,7 @@ Response body:
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -71,7 +71,7 @@ Response body:
 POST /api/v1/Agents/Dash/GetDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 183,
-  "Name": "Schaefer LLC",
-  "Config": "ut",
-  "Rank": 307,
-  "Client": "ipsam",
-  "Style": "iste",
+  "DashboardThemeId": 491,
+  "Name": "Block Group",
+  "Config": "qui",
+  "Rank": 15,
+  "Client": "necessitatibus",
+  "Style": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldType": "System.Int32",
+      "FieldLength": 927
     }
   }
 }

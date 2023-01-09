@@ -44,19 +44,18 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name, EmailAddress, NumberOfContacts, NumberOfPersons 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| EmailAddress | string |  |
-| NumberOfContacts | int32 |  |
-| NumberOfPersons | int32 |  |
+| Name | String |  |
+| EmailAddress | String |  |
+| NumberOfContacts | Integer |  |
+| NumberOfPersons | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body: array
 | ContactDepartment | string | Department |
 | ContactCategory | string | Contact category |
 | SortName | string | If person ? The person name, else contact name |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,14 +84,14 @@ Response body: array
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wisozk Group",
-  "EmailAddress": "etha_cummings@gleichner.uk",
-  "NumberOfContacts": 49,
-  "NumberOfPersons": 340
+  "Name": "Aufderhar Group",
+  "EmailAddress": "pietro.schmidt@auer.uk",
+  "NumberOfContacts": 678,
+  "NumberOfPersons": 893
 }
 ```
 
@@ -104,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 460,
-    "FullName": "Burley Kuphal",
-    "EmailAddress": "tyrese.berge@dubuque.name",
-    "ContactId": 409,
-    "ContactName": "Russel-Emard",
+    "PersonId": 270,
+    "FullName": "Brook Karina Reilly PhD",
+    "EmailAddress": "sam@batz.co.uk",
+    "ContactId": 389,
+    "ContactName": "Ziemann-Kutch",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Nicolas LLC",
+    "SortName": "Stokes-Rogahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 905
       }
     }
   }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProductId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProductId | int32 |  |
+| ProductId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: BlobEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,10 +72,10 @@ Response body:
 | OriginalSize | int32 | Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that first created the document. The property is read-only. |
-| UpdatedBy |  | The person that last updated the appointment. |
+| CreatedBy | Associate | The person that first created the document. The property is read-only. |
+| UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,11 +84,11 @@ Response body:
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 122
+  "ProductId": 724
 }
 ```
 
@@ -100,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 464,
-  "BlobSize": 326,
-  "Description": "Synergized empowering project",
-  "ExtraInfo": "beatae",
+  "BlobId": 717,
+  "BlobSize": 273,
+  "Description": "Compatible bottom-line attitude",
+  "ExtraInfo": "non",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "sed",
-  "OriginalSize": 83,
-  "CreatedDate": "2020-04-12T02:49:43.7160326+02:00",
-  "UpdatedDate": "2000-01-07T02:49:43.7160326+01:00",
+  "MimeType": "non",
+  "OriginalSize": 975,
+  "CreatedDate": "2013-09-28T17:37:16.9252434+02:00",
+  "UpdatedDate": "2010-03-15T17:37:16.9252434+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorum",
+  "ConceptualType": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 477
     }
   }
 }

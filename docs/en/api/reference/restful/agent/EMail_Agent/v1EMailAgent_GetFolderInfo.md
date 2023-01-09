@@ -47,17 +47,16 @@ POST /api/v1/Agents/EMail/GetFolderInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConnectionInfo, Folders 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-| Folders | array |  |
+| ConnectionInfo | EMailConnectionInfo | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| Folders | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -65,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +75,7 @@ Response body: array
 | UnreadItems | int32 | Number of unread messages in the folder |
 | Subscribed | bool | Indicates if the folder is subscribed to |
 | EmailFolderId | int32 | Primary key |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,14 +84,14 @@ Response body: array
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "voluptate",
-    "nemo"
+    "voluptatem",
+    "qui"
   ]
 }
 ```
@@ -105,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Goyette, Casper and Orn",
-    "Delimiter": "impedit",
-    "Flags": "tenetur",
-    "TotalItems": 614,
-    "UnreadItems": 631,
-    "Subscribed": false,
-    "EmailFolderId": 229,
+    "Name": "Treutel LLC",
+    "Delimiter": "est",
+    "Flags": "fugit",
+    "TotalItems": 284,
+    "UnreadItems": 393,
+    "Subscribed": true,
+    "EmailFolderId": 904,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 796
+        "FieldLength": 587
       }
     }
   }

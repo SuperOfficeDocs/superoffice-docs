@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,16 +42,16 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SelectionEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| Associate |  | Owner of the selection |
-| CreatedBy |  | Who created the selection |
-| UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| Associate | Associate | Owner of the selection |
+| CreatedBy | Associate | Who created the selection |
+| UpdatedBy | Associate | Who last modified the selection |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -78,16 +78,16 @@ Response body:
 | ChartKey | string | ID/key of the last-used chart tile on this selection |
 | LastLoaded | date-time | The date/time this selection was last loaded (selectionentity fetched) |
 | LastLoadedBy | int32 | Who last loaded this selection |
-| LastLoadedByAssociate |  | Associate that last looked at the selection members; only date (not time) is valid |
+| LastLoadedByAssociate | Associate | Associate that last looked at the selection members; only date (not time) is valid |
 | LastMembershipChange | date-time | The date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm |
 | LastMembershipChangeBy | int32 | Who last changed the membership |
-| LastMembershipChangeByAssociate |  | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
+| LastMembershipChangeByAssociate | Associate | Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid |
 | MainHeading | string | 'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references |
 | MemberTabHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references |
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -96,7 +96,7 @@ Response body:
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,70 +106,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organized actuating policy",
-  "Postit": "labore",
+  "Description": "Cross-platform modular product",
+  "Postit": "velit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 806,
-  "IncludePerson": 582,
-  "MemberCount": 723,
-  "Name": "Daniel, Wilderman and Wilkinson",
-  "PostitTextId": 578,
-  "CreatedDate": "2001-05-27T02:49:45.3590885+02:00",
-  "SelectionId": 324,
-  "SoundEx": "quaerat",
-  "Source": 655,
-  "TextId": 529,
-  "UpdatedDate": "2022-02-20T02:49:45.3590885+01:00",
-  "UpdatedCount": 755,
-  "Visibility": 689,
+  "GroupIdx": 306,
+  "IncludePerson": 975,
+  "MemberCount": 806,
+  "Name": "Rice LLC",
+  "PostitTextId": 679,
+  "CreatedDate": "2014-01-08T17:37:18.9142423+01:00",
+  "SelectionId": 900,
+  "SoundEx": "et",
+  "Source": 289,
+  "TextId": 376,
+  "UpdatedDate": "2013-03-27T17:37:18.9142423+01:00",
+  "UpdatedCount": 37,
+  "Visibility": 490,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 960,
-  "TargetTableName": "Bode Inc and Sons",
+  "CompanyUnique": false,
+  "TargetTableNumber": 543,
+  "TargetTableName": "Friesen LLC",
   "Completed": false,
-  "LeftSelectionId": 684,
-  "RightSelectionId": 161,
+  "LeftSelectionId": 664,
+  "RightSelectionId": 135,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Cassin, Kuvalis and Jerde",
-  "ShadowProviderName": "Breitenberg Group",
-  "ChartKey": "consequuntur",
-  "LastLoaded": "2019-10-31T02:49:45.3590885+01:00",
-  "LastLoadedBy": 906,
+  "MainProviderName": "Botsford Inc and Sons",
+  "ShadowProviderName": "Braun LLC",
+  "ChartKey": "voluptas",
+  "LastLoaded": "2006-08-08T17:37:18.9142423+02:00",
+  "LastLoadedBy": 660,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-01-03T02:49:45.3590885+01:00",
-  "LastMembershipChangeBy": 344,
+  "LastMembershipChange": "2002-09-08T17:37:18.9142423+02:00",
+  "LastMembershipChangeBy": 6,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolor",
-  "MemberTabHeading": "itaque",
-  "MailingsProviderName": "Crona, Runolfsdottir and Dickinson",
-  "DashboardTileDefinitionId": 844,
+  "MainHeading": "enim",
+  "MemberTabHeading": "sed",
+  "MailingsProviderName": "Bechtelar-Spinka",
+  "DashboardTileDefinitionId": 879,
   "VisibleFor": [
     {
-      "VisibleId": 615,
+      "VisibleId": 279,
       "Visibility": "All",
-      "DisplayValue": "iusto",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 580
+          "FieldType": "System.String",
+          "FieldLength": 467
         }
       }
     },
     {
-      "VisibleId": 615,
+      "VisibleId": 279,
       "Visibility": "All",
-      "DisplayValue": "iusto",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 580
+          "FieldType": "System.String",
+          "FieldLength": 467
         }
       }
     }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldType": "System.String",
+      "FieldLength": 177
     }
   }
 }

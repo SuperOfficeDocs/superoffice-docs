@@ -32,21 +32,20 @@ Updates the existing TargetGroup or creates a new TargetGroup if the id paramete
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The TargetGroup to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TargetGroupId | int32 | Primary key |
-| Year | int32 | The year this set of targets are associated with (2020, 2021...) |
-| EntityType | string | Entity type for this set of targets (Sale, Project, Selection, Appointment...) |
-| PeriodType | string | Period type for editing this set of targets (Year, Quarter...) |
-| TargetAssignments | array | Collection of target values |
-| TargetDimension |  | Info about the target dimensions |
+| TargetGroupId | Integer | Primary key |
+| Year | Integer | The year this set of targets are associated with (2020, 2021...) |
+| EntityType | String | Entity type for this set of targets (Sale, Project, Selection, Appointment...) |
+| PeriodType | String | Period type for editing this set of targets (Year, Quarter...) |
+| TargetAssignments | Array | Collection of target values |
+| TargetDimension | TargetDimension | Info about the target dimensions |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -54,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TargetGroup
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,8 +62,8 @@ Response body:
 | EntityType | string | Entity type for this set of targets (Sale, Project, Selection, Appointment...) |
 | PeriodType | string | Period type for editing this set of targets (Year, Quarter...) |
 | TargetAssignments | array | Collection of target values |
-| TargetDimension |  | Info about the target dimensions |
-| TableRight |  |  |
+| TargetDimension | TargetDimension | Info about the target dimensions |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,24 +76,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 420,
-  "Year": 959,
+  "TargetGroupId": 735,
+  "Year": 24,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 169,
+      "TargetAssignmentInfoId": 328,
       "Values": [
-        200,
-        461
+        61,
+        772
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 621,
-      "DimensionListItemDisplayName": "Schmeler-Hartmann"
+      "DimensionListItem": 560,
+      "DimensionListItemDisplayName": "Boyle LLC"
     }
   ],
   "TargetDimension": null
@@ -108,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 863,
-  "Year": 991,
+  "TargetGroupId": 194,
+  "Year": 989,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 799,
+      "TargetAssignmentInfoId": 926,
       "Values": [
-        282,
-        62
+        264,
+        173
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
       "DimensionListItem": 936,
-      "DimensionListItemDisplayName": "O'Hara LLC",
+      "DimensionListItemDisplayName": "Schaden, Klocko and Blick",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 663
+          "FieldLength": 566
         }
       }
     }
@@ -141,8 +140,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldType": "System.String",
+      "FieldLength": 594
     }
   }
 }

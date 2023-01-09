@@ -37,13 +37,12 @@ Functional rights not specified here will be removed from the role.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: functionalRightIds  
+## Request Body: functionalRightIds 
 
 An array of functional rights ids to set for this role. Rights not included here are removed from the role. 
 
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -51,7 +50,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -60,7 +59,7 @@ Response body:
 PUT /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CRMScriptEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +60,7 @@ Response body:
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 471,
-  "UniqueIdentifier": "velit",
-  "Name": "Bartoletti Group",
-  "Description": "Re-engineered interactive protocol",
-  "IncludeId": "error",
-  "HierarchyId": 313,
-  "Source": "odio",
-  "Registered": "2006-08-26T02:49:44.0129044+02:00",
-  "RegisteredAssociateId": 920,
-  "Updated": "2006-02-04T02:49:44.0129044+01:00",
-  "UpdatedAssociateId": 153,
+  "EjscriptId": 420,
+  "UniqueIdentifier": "earum",
+  "Name": "Schuppe Inc and Sons",
+  "Description": "Self-enabling client-driven attitude",
+  "IncludeId": "incidunt",
+  "HierarchyId": 194,
+  "Source": "beatae",
+  "Registered": "1997-02-21T17:37:17.323246+01:00",
+  "RegisteredAssociateId": 968,
+  "Updated": "2006-10-02T17:37:17.323246+02:00",
+  "UpdatedAssociateId": 244,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 867
     }
   }
 }

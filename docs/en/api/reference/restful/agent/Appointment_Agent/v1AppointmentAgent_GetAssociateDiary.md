@@ -42,19 +42,18 @@ POST /api/v1/Agents/Appointment/GetAssociateDiary?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
-| StartTime | date-time |  |
-| EndTime | date-time |  |
-| Count | int32 |  |
+| AssociateId | Integer |  |
+| StartTime | String |  |
+| EndTime | String |  |
+| Count | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -62,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -115,7 +114,7 @@ Response body: array
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -128,10 +127,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 146,
-  "StartTime": "2011-01-01T02:49:43.2461231+01:00",
-  "EndTime": "2019-05-13T02:49:43.2461231+02:00",
-  "Count": 964
+  "AssociateId": 473,
+  "StartTime": "2020-02-23T17:37:16.2622417+01:00",
+  "EndTime": "2021-11-10T17:37:16.2622417+01:00",
+  "Count": 502
 }
 ```
 
@@ -143,61 +142,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 633,
-    "StartDate": "2021-01-28T02:49:43.2461231+01:00",
-    "EndDate": "2011-09-25T02:49:43.2461231+02:00",
+    "AppointmentId": 246,
+    "StartDate": "2016-11-22T17:37:16.2632416+01:00",
+    "EndDate": "2009-06-25T17:37:16.2632416+02:00",
     "Type": "BookingForChecklist",
-    "Task": "distinctio",
-    "AssociateFullName": "Jonatan Sanford",
-    "ContactName": "Hilll Inc and Sons",
-    "Description": "Mandatory user-facing application",
-    "PersonFullName": "Elian Windler II",
-    "PersonId": 838,
-    "ContactId": 276,
-    "ProjectId": 920,
-    "ProjectName": "Wolff-Durgan",
-    "IsPublished": false,
-    "AssociateId": 541,
-    "ColorIndex": 879,
-    "IsFree": true,
+    "Task": "cupiditate",
+    "AssociateFullName": "Madilyn Cormier",
+    "ContactName": "Stoltenberg Group",
+    "Description": "Operative bifurcated open system",
+    "PersonFullName": "Elissa Batz",
+    "PersonId": 857,
+    "ContactId": 584,
+    "ProjectId": 525,
+    "ProjectName": "Zieme, Hyatt and Ullrich",
+    "IsPublished": true,
+    "AssociateId": 446,
+    "ColorIndex": 50,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 632,
-    "PriorityName": "King-Schultz",
+    "PriorityId": 913,
+    "PriorityName": "Braun-Gleichner",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2008-03-16T02:49:43.2461231+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2002-03-09T17:37:16.2642419+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-01-06T02:49:43.2461231+01:00",
-    "RecurringEndDate": "2016-03-25T02:49:43.2461231+01:00",
-    "MotherId": 501,
-    "AssignedBy": 165,
-    "AssignedByFullName": "Arvilla Runte",
+    "RecurringStartDate": "2007-03-08T17:37:16.2642419+01:00",
+    "RecurringEndDate": "2000-09-07T17:37:16.2642419+02:00",
+    "MotherId": 111,
+    "AssignedBy": 958,
+    "AssignedByFullName": "Sophia Purdy",
     "RejectReason": "",
-    "Location": "vel",
-    "AlarmLeadTime": "delectus",
-    "SaleId": 844,
-    "SaleName": "Greenholt, Williamson and Zboncak",
-    "AssociateName": "Collier, Maggio and Torphy",
-    "CreatedDate": "2007-11-10T02:49:43.2461231+01:00",
-    "CreatedBy": "minima",
-    "CreatedByFullName": "Dr. Celestino Conroy III",
-    "CreatedByAssociateId": 965,
+    "Location": "magni",
+    "AlarmLeadTime": "nisi",
+    "SaleId": 33,
+    "SaleName": "Thompson LLC",
+    "AssociateName": "DuBuque-Bayer",
+    "CreatedDate": "1996-11-13T17:37:16.2642419+01:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Nora Euna Reynolds DVM",
+    "CreatedByAssociateId": 217,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 669
+        "FieldType": "System.Int32",
+        "FieldLength": 659
       }
     }
   }

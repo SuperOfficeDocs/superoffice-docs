@@ -34,7 +34,7 @@ Calls the Contact agent service DeleteContactEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ContactEntity deleted.
 
@@ -43,7 +43,7 @@ ContactEntity deleted.
 | 204 | ContactEntity deleted. |
 | 412 | Delete aborted because ContactEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request

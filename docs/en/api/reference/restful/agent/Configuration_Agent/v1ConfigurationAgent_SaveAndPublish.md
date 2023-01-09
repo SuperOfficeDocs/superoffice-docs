@@ -42,16 +42,15 @@ POST /api/v1/Agents/Configuration/SaveAndPublish?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConfigurableScreenDelta 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConfigurableScreenDelta |  |  |
+| ConfigurableScreenDelta | TableRight |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,11 +71,11 @@ Response body:
 | RecipeId | string |  |
 | UpdatedDate | date-time |  |
 | CreatedDate | date-time |  |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,7 +84,7 @@ Response body:
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +99,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 468,
-  "Name": "Nolan-Farrell",
-  "Description": "Polarised regional hierarchy",
-  "DeltaJson": "aut",
+  "ConfigurableScreenDeltaId": 915,
+  "Name": "Runte-Brekke",
+  "Description": "Optimized context-sensitive hierarchy",
+  "DeltaJson": "sequi",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "omnis",
-  "UpdatedDate": "2021-12-19T02:49:43.8722795+01:00",
-  "CreatedDate": "2019-04-27T02:49:43.8722795+02:00",
+  "RecipeId": "temporibus",
+  "UpdatedDate": "2005-07-01T17:37:17.1302429+02:00",
+  "CreatedDate": "1998-10-28T17:37:17.1302429+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    195,
-    478
+    919,
+    613
   ],
-  "AppliesToKey": "et",
+  "AppliesToKey": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 152
     }
   }
 }

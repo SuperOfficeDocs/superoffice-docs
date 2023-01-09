@@ -32,21 +32,20 @@ Updates the existing ConsentPerson or creates a new ConsentPerson if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity 
 
 The ConsentPerson to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConsentPersonId | int32 | ConsentPerson ID |
-| ConsentSource |  | The consent source |
-| LegalBase |  | The legal base |
-| PersonId | int32 | Person ID |
-| ConsentPurpose |  | The consent purpose |
-| Comment | string | Comment regarding this specific consent |
+| ConsentPersonId | Integer | ConsentPerson ID |
+| ConsentSource | ConsentSource | The consent source |
+| LegalBase | LegalBase | The legal base |
+| PersonId | Integer | Person ID |
+| ConsentPurpose | ConsentPurpose | The consent purpose |
+| Comment | String | Comment regarding this specific consent |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -54,17 +53,17 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ConsentPerson
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConsentPersonId | int32 | ConsentPerson ID |
-| ConsentSource |  | The consent source |
-| LegalBase |  | The legal base |
+| ConsentSource | ConsentSource | The consent source |
+| LegalBase | LegalBase | The legal base |
 | PersonId | int32 | Person ID |
-| ConsentPurpose |  | The consent purpose |
+| ConsentPurpose | ConsentPurpose | The consent purpose |
 | Comment | string | Comment regarding this specific consent |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,16 +72,16 @@ Response body:
 POST /api/v1/Agents/Person/SaveConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 14,
+  "ConsentPersonId": 313,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 684,
+  "PersonId": 747,
   "ConsentPurpose": null,
-  "Comment": "in"
+  "Comment": "mollitia"
 }
 ```
 
@@ -93,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 406,
+  "ConsentPersonId": 931,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 876,
+  "PersonId": 490,
   "ConsentPurpose": null,
-  "Comment": "amet",
+  "Comment": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 688
+      "FieldLength": 97
     }
   }
 }

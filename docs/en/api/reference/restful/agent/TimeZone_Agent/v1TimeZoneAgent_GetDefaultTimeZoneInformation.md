@@ -44,7 +44,7 @@ POST /api/v1/Agents/TimeZone/GetDefaultTimeZoneInformation?$select=name,departme
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreferredTimeZone
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Response body:
 POST /api/v1/Agents/TimeZone/GetDefaultTimeZoneInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,11 +79,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 590,
-  "TZLocationId": 164,
-  "LocationCode": "qui",
-  "Description": "Inverse didactic contingency",
+  "PreferenceId": 80,
+  "TZLocationId": 966,
+  "LocationCode": "omnis",
+  "Description": "Organized needs-based hierarchy",
   "Country": "Sokovia",
-  "Bias": 346
+  "Bias": 582
 }
 ```

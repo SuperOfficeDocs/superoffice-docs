@@ -42,18 +42,17 @@ POST /api/v1/Agents/Ticket/GetDefaultMessageContent?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TicketId, MessageActionType, TicketMessageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketId | int32 |  |
-| MessageActionType | string |  |
-| TicketMessageId | int32 |  |
+| TicketId | Integer |  |
+| MessageActionType | String |  |
+| TicketMessageId | Integer |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -74,9 +73,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 323,
+  "TicketId": 111,
   "MessageActionType": "Forward",
-  "TicketMessageId": 546
+  "TicketMessageId": 56
 }
 ```
 
@@ -86,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"est"
+"voluptatem"
 ```

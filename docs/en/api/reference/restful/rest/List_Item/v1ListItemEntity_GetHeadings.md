@@ -29,7 +29,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -47,7 +47,7 @@ GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=Fa
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -55,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +74,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Name": "Jones-Kuvalis",
-    "ToolTip": "Doloribus impedit aut suscipit mollitia.",
+    "Id": 837,
+    "Name": "Donnelly, Franecki and Hamill",
+    "ToolTip": "Veniam non omnis.",
     "Deleted": false,
-    "Rank": 351,
-    "Type": "enim",
-    "ColorBlock": 69,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2018-02-16T02:49:51.8753193+01:00",
+    "Rank": 163,
+    "Type": "modi",
+    "ColorBlock": 805,
+    "IconHint": "maxime",
+    "Selected": true,
+    "LastChanged": "2012-10-03T17:37:39.627431+02:00",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "Pfannerstill, Weissnat and Jacobs",
-        "ToolTip": "Officiis culpa.",
+        "Id": 973,
+        "Name": "Simonis-O'Keefe",
+        "ToolTip": "Voluptate dolorem dignissimos.",
         "Deleted": true,
-        "Rank": 39,
-        "Type": "est",
-        "ColorBlock": 85,
-        "IconHint": "vitae",
-        "Selected": false,
-        "LastChanged": "2005-01-09T02:49:51.8753193+01:00",
+        "Rank": 770,
+        "Type": "adipisci",
+        "ColorBlock": 644,
+        "IconHint": "ipsa",
+        "Selected": true,
+        "LastChanged": "2010-08-21T17:37:39.627431+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "delectus",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "nisi",
         "Hidden": false,
-        "FullName": "Gregorio Parker",
+        "FullName": "Dwight Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 533
+            "FieldLength": 645
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "itaque",
+    "ExtraInfo": "et",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Nels Hane",
+    "FullName": "Isabell Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldType": "System.String",
+        "FieldLength": 765
       }
     }
   }

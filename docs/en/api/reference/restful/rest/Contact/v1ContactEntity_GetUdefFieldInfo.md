@@ -36,7 +36,7 @@ Get a ContactEntity user-defined field's details based on the prog-id or label.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 ContactEntity found.
 
@@ -45,7 +45,7 @@ ContactEntity found.
 | 200 | ContactEntity found. |
 | 404 | ContactEntity not found. |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +83,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,7 +92,7 @@ Response body:
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 810,
-  "ColumnId": 406,
-  "FieldDefault": "nihil",
-  "FieldHeight": 408,
-  "FieldLabel": "eveniet",
-  "FieldLeft": 593,
-  "FieldTop": 699,
+  "UDefFieldId": 571,
+  "ColumnId": 724,
+  "FieldDefault": "perspiciatis",
+  "FieldHeight": 805,
+  "FieldLabel": "nemo",
+  "FieldLeft": 309,
+  "FieldTop": 705,
   "FieldType": "Checkbox",
-  "FieldWidth": 500,
-  "FormatMask": "et",
+  "FieldWidth": 666,
+  "FormatMask": "expedita",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 388,
-  "LabelLeft": 794,
-  "LabelTop": 341,
-  "LabelWidth": 289,
-  "LastVersionId": 681,
-  "ListTableId": 286,
-  "IsMandatory": true,
+  "LabelHeight": 347,
+  "LabelLeft": 578,
+  "LabelTop": 943,
+  "LabelWidth": 71,
+  "LastVersionId": 805,
+  "ListTableId": 613,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 936,
-  "ProgId": "eveniet",
-  "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 477,
-  "TextLength": 813,
-  "Tooltip": "et",
-  "UdefIdentity": 212,
-  "UDListDefinitionId": 438,
+  "Page1LineNo": 756,
+  "ProgId": "nostrum",
+  "IsReadOnly": false,
+  "ShortLabel": "amet",
+  "TabOrder": 885,
+  "TextLength": 599,
+  "Tooltip": "libero",
+  "UdefIdentity": 282,
+  "UDListDefinitionId": 266,
   "Justification": "Center",
-  "Version": 352,
-  "TemplateVariableName": "Sporer-Kling",
+  "Version": 666,
+  "TemplateVariableName": "Pacocha, Schowalter and Ankunding",
   "HasBeenPublished": false,
-  "MdoListName": "Botsford-Boyle",
+  "MdoListName": "Hagenes-Rutherford",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldLength": 403
     }
   }
 }

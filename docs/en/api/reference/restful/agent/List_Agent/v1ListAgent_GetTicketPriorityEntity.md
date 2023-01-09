@@ -25,7 +25,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=346
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=731
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,categor
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TicketPriorityEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +84,7 @@ Response body:
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,7 +93,7 @@ Response body:
 POST /api/v1/Agents/List/GetTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,60 +103,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 768,
-  "Name": "Yundt Group",
+  "TicketPriorityId": 276,
+  "Name": "Rohan, Sawayn and Nitzsche",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 167,
+  "SortOrder": 146,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 901,
-  "MonStart": "2011-11-17T02:49:44.5922969+01:00",
-  "MonStop": "2016-08-05T02:49:44.5922969+02:00",
-  "TueStart": "1999-05-30T02:49:44.5922969+02:00",
-  "TueStop": "2008-10-26T02:49:44.5922969+01:00",
-  "WedStart": "2001-04-08T02:49:44.5922969+02:00",
-  "WedStop": "2012-03-29T02:49:44.5922969+02:00",
-  "ThuStart": "2000-01-18T02:49:44.5922969+01:00",
-  "ThuStop": "2012-01-09T02:49:44.5922969+01:00",
-  "FriStart": "1995-08-09T02:49:44.5922969+02:00",
-  "FriStop": "2004-12-11T02:49:44.5922969+01:00",
-  "SatStart": "2021-10-06T02:49:44.5922969+02:00",
-  "SatStop": "1996-11-28T02:49:44.5922969+01:00",
-  "SunStart": "2021-09-06T02:49:44.5922969+02:00",
-  "SunStop": "2003-06-02T02:49:44.5922969+02:00",
+  "Deadline": 55,
+  "MonStart": "2012-08-27T17:37:18.1472413+02:00",
+  "MonStop": "1996-10-01T17:37:18.1472413+02:00",
+  "TueStart": "2022-02-27T17:37:18.1472413+01:00",
+  "TueStop": "2004-10-08T17:37:18.1472413+02:00",
+  "WedStart": "1997-09-17T17:37:18.1472413+02:00",
+  "WedStop": "2010-06-24T17:37:18.1472413+02:00",
+  "ThuStart": "2013-08-14T17:37:18.1472413+02:00",
+  "ThuStop": "2009-03-14T17:37:18.1472413+01:00",
+  "FriStart": "2003-09-15T17:37:18.1472413+02:00",
+  "FriStop": "2016-07-25T17:37:18.1472413+02:00",
+  "SatStart": "2018-05-10T17:37:18.1472413+02:00",
+  "SatStop": "2011-04-01T17:37:18.1472413+02:00",
+  "SunStart": "2014-07-13T17:37:18.1472413+02:00",
+  "SunStop": "2001-12-05T17:37:18.1472413+01:00",
   "NonDates": [
-    "necessitatibus",
-    "nihil"
+    "nihil",
+    "dolor"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 592,
-      "AlertLevel": 792,
-      "AlertTimeout": 39,
-      "Action": 825,
-      "DelegateTo": 830,
-      "ScriptId": 647,
-      "EmailTo": "marisol@greenfelder.co.uk",
-      "SmsTo": "optio",
-      "ReplyTemplateIdCustomer": 938,
-      "ReplyTemplateIdUser": 603,
-      "ReplyTemplateIdCatmast": 290,
-      "ReplyTemplateIdEmail": 743,
-      "RtiCustomerSms": 245,
-      "ReplyTemplateIdUserSms": 631,
-      "ReplyTemplateIdCatmastSms": 549,
-      "ReplyTemplateIdSms": 107,
+      "TicketAlertId": 963,
+      "AlertLevel": 897,
+      "AlertTimeout": 790,
+      "Action": 803,
+      "DelegateTo": 20,
+      "ScriptId": 32,
+      "EmailTo": "loma_murray@witting.com",
+      "SmsTo": "autem",
+      "ReplyTemplateIdCustomer": 708,
+      "ReplyTemplateIdUser": 945,
+      "ReplyTemplateIdCatmast": 512,
+      "ReplyTemplateIdEmail": 206,
+      "RtiCustomerSms": 212,
+      "ReplyTemplateIdUserSms": 828,
+      "ReplyTemplateIdCatmastSms": 701,
+      "ReplyTemplateIdSms": 751,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 524
         }
       }
     }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 973
     }
   }
 }

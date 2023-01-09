@@ -47,19 +47,18 @@ POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 MailItemId, AttachmentId, AttachmentType, AttachmentFilename 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| MailItemId | int32 |  |
-| AttachmentId | string |  |
-| AttachmentType | string |  |
-| AttachmentFilename | string |  |
+| MailItemId | Integer |  |
+| AttachmentId | String |  |
+| AttachmentType | String |  |
+| AttachmentFilename | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -67,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailAttachment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body:
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -92,10 +91,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 337,
-  "AttachmentId": "quam",
-  "AttachmentType": "iusto",
-  "AttachmentFilename": "ut"
+  "MailItemId": 572,
+  "AttachmentId": "consectetur",
+  "AttachmentType": "ipsum",
+  "AttachmentFilename": "odio"
 }
 ```
 
@@ -106,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-architected empowering complexity",
-  "Filename": "eum",
-  "Size": 371,
-  "Type": "quia",
-  "Encoding": "qui",
-  "Id": "quia",
-  "Disposition": "minima",
+  "Description": "Multi-tiered multi-tasking definition",
+  "Filename": "laudantium",
+  "Size": 219,
+  "Type": "officia",
+  "Encoding": "maxime",
+  "Id": "quaerat",
+  "Disposition": "quas",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 26
+      "FieldLength": 233
     }
   }
 }

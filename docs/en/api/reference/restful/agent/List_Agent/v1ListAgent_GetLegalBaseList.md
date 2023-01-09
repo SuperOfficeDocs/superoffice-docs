@@ -42,13 +42,12 @@ POST /api/v1/Agents/List/GetLegalBaseList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: legalBaseIds  
+## Request Body: legalBaseIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body: array
 | Rank | int32 | Rank of this consent source |
 | Key | string | The key used to uniquely identify this legal base |
 | Deleted | bool | true if the LegalBase is deleted |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 957,
-    "Name": "Rodriguez, Kihn and Hayes",
-    "Tooltip": "repellat",
-    "Rank": 695,
-    "Key": "excepturi",
-    "Deleted": true,
+    "LegalBaseId": 229,
+    "Name": "Okuneva LLC",
+    "Tooltip": "doloremque",
+    "Rank": 741,
+    "Key": "ea",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldLength": 405
       }
     }
   }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/SyncAll
 Sync all active connections
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,7 +44,7 @@ POST /api/v1/Agents/ErpSync/SyncAll?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -54,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PluginResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,9 +60,9 @@ Response body:
 | UserExplanation | string | A localized explanation to the answer. Text here is displayed to the user. |
 | TechExplanation | string | Always in English |
 | ErrorCode | string | An error code, if available. |
-| Changes |  | Tablename/recordid of data changed by this method, that the client may need to reload |
+| Changes | ChangedData | Tablename/recordid of data changed by this method, that the client may need to reload |
 | Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,9 +82,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "harum",
-  "TechExplanation": "quibusdam",
-  "ErrorCode": "deserunt",
+  "UserExplanation": "voluptas",
+  "TechExplanation": "animi",
+  "ErrorCode": "modi",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -94,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 747
+      "FieldLength": 661
     }
   }
 }

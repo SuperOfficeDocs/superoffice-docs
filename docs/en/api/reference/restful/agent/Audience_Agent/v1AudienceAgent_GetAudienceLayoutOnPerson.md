@@ -42,16 +42,15 @@ POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| PersonId | int32 |  |
+| PersonId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: AudienceLayoutEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,9 +67,9 @@ Response body:
 | InstanceName | string | Name of the layout instance |
 | CreatedDate | date-time | The date and time the Audience layout was created  in UTC. |
 | UpdatedDate | date-time | The date and time the Audience layout was last updated  in UTC. |
-| CreatedBy |  | Name of the person that created the Audience layout |
-| UpdatedBy |  | Name of the person that last updated the Audience layout |
-| TableRight |  |  |
+| CreatedBy | Associate | Name of the person that created the Audience layout |
+| UpdatedBy | Associate | Name of the person that last updated the Audience layout |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 905
+  "PersonId": 1002
 }
 ```
 
@@ -94,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 972,
-  "InstanceLayout": "culpa",
-  "InstanceName": "Turner, Hand and Boehm",
-  "CreatedDate": "2007-03-14T02:49:43.7004017+01:00",
-  "UpdatedDate": "2017-12-27T02:49:43.7004017+01:00",
+  "AudienceLayoutId": 929,
+  "InstanceLayout": "et",
+  "InstanceName": "Satterfield LLC",
+  "CreatedDate": "1996-05-04T17:37:16.8932416+02:00",
+  "UpdatedDate": "2009-05-06T17:37:16.8932416+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldType": "System.Int32",
+      "FieldLength": 852
     }
   }
 }

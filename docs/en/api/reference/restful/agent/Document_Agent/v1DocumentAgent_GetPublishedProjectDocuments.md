@@ -42,16 +42,15 @@ POST /api/v1/Agents/Document/GetPublishedProjectDocuments?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
+| ProjectId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +82,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -96,7 +95,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 456
+  "ProjectId": 6
 }
 ```
 
@@ -108,32 +107,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 462,
-    "Attention": "nisi",
-    "Header": "molestias",
-    "Name": "Auer-Hansen",
-    "OurRef": "officia",
-    "YourRef": "non",
-    "Description": "Switchable leading edge Graphic Interface",
-    "DocumentTemplate": "sed",
+    "DocumentId": 775,
+    "Attention": "molestiae",
+    "Header": "voluptates",
+    "Name": "Stanton LLC",
+    "OurRef": "est",
+    "YourRef": "quia",
+    "Description": "Multi-layered intangible protocol",
+    "DocumentTemplate": "aut",
     "IsPublished": false,
-    "PersonId": 598,
-    "PersonFullName": "Miss Martina Yost III",
-    "AssociateFullName": "Adolph Walsh",
-    "ContactId": 594,
-    "ContactName": "Tremblay LLC",
-    "ProjectId": 612,
-    "ProjectName": "Schroeder-Hoeger",
-    "AssociateId": 334,
-    "Snum": 528,
-    "SaleId": 828,
-    "SaleName": "Connelly-Schuppe",
+    "PersonId": 737,
+    "PersonFullName": "Laurence Kessler",
+    "AssociateFullName": "Roman Candido Rath PhD",
+    "ContactId": 607,
+    "ContactName": "Johnston-Kub",
+    "ProjectId": 536,
+    "ProjectName": "Gorczany-Ullrich",
+    "AssociateId": 506,
+    "Snum": 844,
+    "SaleId": 167,
+    "SaleName": "Sawayn Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldLength": 191
       }
     }
   }

@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/GetInstalledLanguages?$select=name,department,category/
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +61,7 @@ Response body: array
 | ThreeLetterISOLanguageName | string | ISO 3-letter abbreviation |
 | TwoLetterISOLanguageName | string | ISO 2-letter abbreviation |
 | IsBuiltIn | bool | Has this row been inserted by SuperOffice priming data |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -70,7 +70,7 @@ Response body: array
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 906,
-    "LCID": 392,
-    "EnglishName": "Bergnaum Inc and Sons",
-    "NativeName": "Weimann-Shields",
-    "ThreeLetterISOLanguageName": "Fadel-Stokes",
-    "TwoLetterISOLanguageName": "Dicki LLC",
+    "LanguageInfoId": 341,
+    "LCID": 30,
+    "EnglishName": "Rippin, Schmidt and Zboncak",
+    "NativeName": "Wisozk-Hammes",
+    "ThreeLetterISOLanguageName": "Sipes Group",
+    "TwoLetterISOLanguageName": "Towne-Lindgren",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldLength": 96
       }
     }
   }

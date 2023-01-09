@@ -38,23 +38,22 @@ POST /api/v1/Agents/Diagnostics/ChangeLogSettings?$select=name,department,catego
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 LogWarning, LogInformation, LogSuccessAudit, LogFailureAudit, LogToEventLog, LogToSuperOffice, LogToFile, LogToTrace 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| LogWarning | bool |  |
-| LogInformation | bool |  |
-| LogSuccessAudit | bool |  |
-| LogFailureAudit | bool |  |
-| LogToEventLog | bool |  |
-| LogToSuperOffice | bool |  |
-| LogToFile | bool |  |
-| LogToTrace | bool |  |
+| LogWarning | Boolean |  |
+| LogInformation | Boolean |  |
+| LogSuccessAudit | Boolean |  |
+| LogFailureAudit | Boolean |  |
+| LogToEventLog | Boolean |  |
+| LogToSuperOffice | Boolean |  |
+| LogToFile | Boolean |  |
+| LogToTrace | Boolean |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -62,7 +61,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -71,18 +70,18 @@ Response body:
 POST /api/v1/Agents/Diagnostics/ChangeLogSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LogWarning": false,
-  "LogInformation": false,
+  "LogWarning": true,
+  "LogInformation": true,
   "LogSuccessAudit": false,
   "LogFailureAudit": false,
   "LogToEventLog": false,
-  "LogToSuperOffice": false,
+  "LogToSuperOffice": true,
   "LogToFile": false,
-  "LogToTrace": true
+  "LogToTrace": false
 }
 ```
 

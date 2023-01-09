@@ -26,7 +26,7 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=unde
+GET /api/v1/List/ReasonSold/MDOItems?query=eum
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/ReasonSold/MDOItems?query=unde
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 991,
-    "Name": "Bahringer-Zieme",
-    "ToolTip": "Quam accusantium ea expedita sint aut dolores.",
-    "Deleted": true,
-    "Rank": 489,
-    "Type": "aut",
+    "Id": 545,
+    "Name": "Kutch-Rodriguez",
+    "ToolTip": "Illo explicabo odio distinctio sint.",
+    "Deleted": false,
+    "Rank": 588,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 184,
-        "Name": "Okuneva Inc and Sons",
-        "ToolTip": "Aut voluptatem.",
+        "Id": 715,
+        "Name": "Raynor Inc and Sons",
+        "ToolTip": "Quo voluptatum sequi placeat occaecati ut velit.",
         "Deleted": false,
-        "Rank": 708,
-        "Type": "voluptas",
+        "Rank": 450,
+        "Type": "hic",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consectetur",
-        "ColorBlock": 940,
-        "ExtraInfo": "et",
-        "StyleHint": "eius",
-        "FullName": "Mr. Paris Opal Marks DDS",
+        "IconHint": "accusamus",
+        "ColorBlock": 497,
+        "ExtraInfo": "aut",
+        "StyleHint": "aut",
+        "FullName": "Hannah Moore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 940
+            "FieldType": "System.String",
+            "FieldLength": 543
           }
         }
       }
     ],
-    "IconHint": "nobis",
-    "ColorBlock": 987,
-    "ExtraInfo": "sit",
-    "StyleHint": "perspiciatis",
-    "FullName": "Dr. Margarette Larson",
+    "IconHint": "iure",
+    "ColorBlock": 490,
+    "ExtraInfo": "est",
+    "StyleHint": "rerum",
+    "FullName": "Ms. Deshawn Austin Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 393
+        "FieldLength": 771
       }
     }
   }

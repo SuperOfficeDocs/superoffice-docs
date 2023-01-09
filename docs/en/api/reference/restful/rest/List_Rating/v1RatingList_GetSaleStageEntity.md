@@ -38,7 +38,7 @@ Calls the List agent service GetSaleStageEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -47,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: SaleStageEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +57,7 @@ Response body:
 | Probability | int32 | The numeric probability of the sale |
 | Deleted | bool | If true, the Sale stage is deleted |
 | Rank | int32 | Rank order |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -66,7 +66,7 @@ Response body:
 GET /api/v1/List/Rating/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 875,
-  "Value": "aut",
-  "Tooltip": "facilis",
-  "Probability": 42,
+  "SaleStageId": 471,
+  "Value": "eligendi",
+  "Tooltip": "quos",
+  "Probability": 179,
   "Deleted": false,
-  "Rank": 768,
+  "Rank": 948,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 882
     }
   }
 }

@@ -102,9 +102,6 @@ Use backslash to escape single quotes in strings
 
 
 
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -130,17 +127,16 @@ POST /api/v1/Agents/Archive/GetAvailableEntities?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProviderName, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProviderName | string |  |
-| Context | string |  |
+| ProviderName | String |  |
+| Context | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -148,7 +144,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -164,7 +160,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -173,12 +169,12 @@ Response body: array
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lakin-Glover",
-  "Context": "ut"
+  "ProviderName": "Bernier-Moore",
+  "Context": "odit"
 }
 ```
 
@@ -190,50 +186,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 756,
-    "Name": "Weber LLC",
-    "ToolTip": "Cupiditate aperiam ullam consequuntur reiciendis et.",
-    "Deleted": true,
-    "Rank": 105,
-    "Type": "dolor",
+    "Id": 41,
+    "Name": "Howe, Macejkovic and Brakus",
+    "ToolTip": "Nulla nulla quaerat ad tempora a ad.",
+    "Deleted": false,
+    "Rank": 830,
+    "Type": "ipsam",
     "ChildItems": [
       {
-        "Id": 254,
-        "Name": "Kihn LLC",
-        "ToolTip": "Iure sed error.",
-        "Deleted": false,
-        "Rank": 925,
-        "Type": "ipsa",
+        "Id": 937,
+        "Name": "Jaskolski Group",
+        "ToolTip": "Et ut voluptas et ut nulla excepturi.",
+        "Deleted": true,
+        "Rank": 858,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officia",
-        "ColorBlock": 889,
-        "ExtraInfo": "sint",
-        "StyleHint": "ipsa",
-        "FullName": "Paul Bartoletti",
+        "IconHint": "voluptates",
+        "ColorBlock": 168,
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "omnis",
+        "FullName": "Corene Kling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 249
+            "FieldLength": 824
           }
         }
       }
     ],
-    "IconHint": "impedit",
-    "ColorBlock": 647,
-    "ExtraInfo": "tempore",
-    "StyleHint": "eos",
-    "FullName": "Monty Emard",
+    "IconHint": "ducimus",
+    "ColorBlock": 904,
+    "ExtraInfo": "beatae",
+    "StyleHint": "ut",
+    "FullName": "Stan Marvin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldType": "System.String",
+        "FieldLength": 945
       }
     }
   }

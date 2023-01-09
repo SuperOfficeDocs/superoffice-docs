@@ -42,16 +42,15 @@ POST /api/v1/Agents/List/SaveConsentPurpose?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ConsentPurpose 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConsentPurpose |  | Carrier object for ConsentPurpose. Services for the ConsentPurpose Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| ConsentPurpose | ConsentPurpose | Carrier object for ConsentPurpose. Services for the ConsentPurpose Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ConsentPurpose
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,12 +70,12 @@ Response body:
 | Tooltip | string | List item tooltip |
 | Active | int32 | Is the consent purpose active or not |
 | UpdatedDate | date-time | The date the consent purpose was last updated  in UTC. |
-| UpdatedBy |  | The associate that last updated the consent purpose |
+| UpdatedBy | Associate | The associate that last updated the consent purpose |
 | Deleted | bool | true if the ConsentPurpose is deleted |
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -85,7 +84,7 @@ Response body:
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 609,
-  "Name": "Ryan-Reilly",
-  "ConsentText": "et",
-  "FormText": "ut",
-  "Key": "nisi",
-  "Tooltip": "et",
-  "Active": 251,
-  "UpdatedDate": "2014-01-09T02:49:44.7016713+01:00",
+  "ConsentPurposeId": 13,
+  "Name": "Larkin, Mills and Nader",
+  "ConsentText": "inventore",
+  "FormText": "voluptatum",
+  "Key": "veniam",
+  "Tooltip": "suscipit",
+  "Active": 663,
+  "UpdatedDate": "2017-06-24T17:37:18.3052415+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 704,
-  "PrivacyStatementDesc": "aut",
+  "Rank": 852,
+  "PrivacyStatementDesc": "molestias",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 207
     }
   }
 }

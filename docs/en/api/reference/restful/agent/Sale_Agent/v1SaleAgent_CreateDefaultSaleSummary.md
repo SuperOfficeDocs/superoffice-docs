@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SaleSummary
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +74,7 @@ Response body:
 | FutureOpenTotalOwnCurrency | double | Summed amount for all Future Pipe/All open sales with date after the period in default currency for the current user |
 | FutureOpenWeightedBaseCurrency | double | Weighted sum for all Future Pipe/All open sales with date after the period in default currency for the installation |
 | FutureOpenWeightedOwnCurrency | double | Weighted sum for all Future Pipe/All open sales with date after the period in default currency for the current user |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,40 +93,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BaseCurrency": "quod",
-  "OwnCurrency": "deserunt",
-  "SoldTotalBaseCurrency": 6452.906,
-  "Sold": 389,
-  "SoldTotalOwnCurrency": 27225.058,
-  "Lost": 600,
-  "LostTotalBaseCurrency": 30534.561999999998,
-  "LostTotalOwnCurrency": 17152.381999999998,
-  "Open": 515,
-  "OpenTotalBaseCurrency": 25814.757999999998,
-  "OpenTotalOwnCurrency": 23185.332,
-  "OpenWeightedBaseCurrency": 18271.22,
-  "OpenWeightedOwnCurrency": 8477.47,
-  "PreviousOverdue": 530,
-  "PreviousOverdueTotalBaseCurrency": 1106.302,
-  "PreviousOverdueTotalOwnCurrency": 2569.88,
-  "PreviousOverdueWeightedBaseCurrency": 27698.291999999998,
-  "PreviousOverdueWeightedOwnCurrency": 18634.764,
-  "CurrentOverdue": 865,
-  "CurrentOverdueTotalBaseCurrency": 10780.96,
-  "CurrentOverdueTotalOwnCurrency": 3679.316,
-  "CurrentOverdueWeightedBaseCurrency": 31177.032,
-  "CurrentOverdueWeightedOwnCurrency": 14306.71,
-  "FutureOpen": 332,
-  "FutureOpenTotalBaseCurrency": 26444.692,
-  "FutureOpenTotalOwnCurrency": 19944.775999999998,
-  "FutureOpenWeightedBaseCurrency": 14237.761999999999,
-  "FutureOpenWeightedOwnCurrency": 6841.522,
+  "BaseCurrency": "provident",
+  "OwnCurrency": "rem",
+  "SoldTotalBaseCurrency": 10263.85,
+  "Sold": 414,
+  "SoldTotalOwnCurrency": 7355.498,
+  "Lost": 479,
+  "LostTotalBaseCurrency": 28857.872,
+  "LostTotalOwnCurrency": 21492.971999999998,
+  "Open": 799,
+  "OpenTotalBaseCurrency": 4052.2619999999997,
+  "OpenTotalOwnCurrency": 28111.98,
+  "OpenWeightedBaseCurrency": 6907.3359999999993,
+  "OpenWeightedOwnCurrency": 21696.682,
+  "PreviousOverdue": 157,
+  "PreviousOverdueTotalBaseCurrency": 15444.351999999999,
+  "PreviousOverdueTotalOwnCurrency": 25579.708,
+  "PreviousOverdueWeightedBaseCurrency": 19857.023999999998,
+  "PreviousOverdueWeightedOwnCurrency": 22881.334,
+  "CurrentOverdue": 183,
+  "CurrentOverdueTotalBaseCurrency": 21756.228,
+  "CurrentOverdueTotalOwnCurrency": 6647.214,
+  "CurrentOverdueWeightedBaseCurrency": 28798.325999999997,
+  "CurrentOverdueWeightedOwnCurrency": 27983.486,
+  "FutureOpen": 232,
+  "FutureOpenTotalBaseCurrency": 5942.0639999999994,
+  "FutureOpenTotalOwnCurrency": 16309.336,
+  "FutureOpenWeightedBaseCurrency": 9580.637999999999,
+  "FutureOpenWeightedOwnCurrency": 1516.856,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldLength": 510
     }
   }
 }

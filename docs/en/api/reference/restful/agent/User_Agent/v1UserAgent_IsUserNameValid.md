@@ -44,19 +44,18 @@ POST /api/v1/Agents/User/IsUserNameValid?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId, Type, PersonId, UserName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
-| Type | string |  |
-| PersonId | int32 |  |
-| UserName | string |  |
+| AssociateId | Integer |  |
+| Type | String |  |
+| PersonId | Integer |  |
+| UserName | String |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -77,10 +76,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 150,
+  "AssociateId": 163,
   "Type": "AnonymousAssociate",
-  "PersonId": 458,
-  "UserName": "Trantow Inc and Sons"
+  "PersonId": 787,
+  "UserName": "Davis, Dickinson and Paucek"
 }
 ```
 
@@ -90,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

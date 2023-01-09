@@ -42,17 +42,16 @@ POST /api/v1/Agents/Quote/GetProduct?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteConnectionId, ERPProductKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteConnectionId | int32 |  |
-| ERPProductKey | string |  |
+| QuoteConnectionId | Integer |  |
+| ERPProductKey | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Product
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,7 +97,7 @@ Response body:
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -107,12 +106,12 @@ Response body:
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 931,
-  "ERPProductKey": "aut"
+  "QuoteConnectionId": 382,
+  "ERPProductKey": "ab"
 }
 ```
 
@@ -123,73 +122,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 391,
-  "ERPProductKey": "sed",
-  "ERPPriceListKey": "recusandae",
-  "Name": "Miller-Nienow",
-  "Description": "Synchronised transitional Graphic Interface",
-  "Code": "dolorem",
-  "PriceUnit": "atque",
-  "QuantityUnit": "soluta",
+  "ProductId": 668,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "adipisci",
+  "Name": "Langworth LLC",
+  "Description": "Extended disintermediate hierarchy",
+  "Code": "molestias",
+  "PriceUnit": "alias",
+  "QuantityUnit": "officiis",
   "IsSubscription": true,
-  "SubscriptionUnit": "dolores",
-  "DefaultSubscriptionQuantity": 22774.778,
-  "ItemNumber": "458595",
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 10498.9,
+  "ItemNumber": "1140270",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "perspiciatis",
-  "ProductTypeKey": "deserunt",
-  "VAT": 14435.204,
-  "VATInfo": "quasi",
-  "UnitCost": 29951.638,
-  "UnitMinimumPrice": 14654.583999999999,
-  "UnitListPrice": 16165.171999999999,
-  "InAssortment": false,
-  "Supplier": "est",
-  "SupplierCode": "in",
-  "Rights": "quisquam",
-  "Rule": "et",
+  "ProductFamilyKey": "culpa",
+  "ProductTypeKey": "molestias",
+  "VAT": 19850.755999999998,
+  "VATInfo": "omnis",
+  "UnitCost": 6120.702,
+  "UnitMinimumPrice": 30735.138,
+  "UnitListPrice": 29243.354,
+  "InAssortment": true,
+  "Supplier": "quae",
+  "SupplierCode": "saepe",
+  "Rights": "amet",
+  "Rule": "veniam",
   "ExtraInfo": [
     {
-      "Name": "Wolff, Bogan and Emmerich",
-      "Value": "aut",
+      "Name": "Adams LLC",
+      "Value": "corrupti",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 598
+          "FieldLength": 956
         }
       }
     },
     {
-      "Name": "Wolff, Bogan and Emmerich",
-      "Value": "aut",
+      "Name": "Adams LLC",
+      "Value": "corrupti",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 598
+          "FieldLength": 956
         }
       }
     }
   ],
-  "RawExtraInfo": "molestias",
-  "ExtraField1": "tenetur",
-  "ExtraField2": "consequatur",
-  "ExtraField3": "libero",
-  "ExtraField4": "provident",
-  "ExtraField5": "commodi",
-  "InStock": 30399.8,
+  "RawExtraInfo": "sint",
+  "ExtraField1": "qui",
+  "ExtraField2": "praesentium",
+  "ExtraField3": "incidunt",
+  "ExtraField4": "at",
+  "ExtraField5": "laborum",
+  "InStock": 5403.016,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 43
+      "FieldType": "System.Int32",
+      "FieldLength": 25
     }
   }
 }

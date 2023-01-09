@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -97,47 +96,47 @@ Response body: array
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Name": "Pfannerstill-O'Hara",
-    "ToolTip": "Ea et placeat voluptas.",
-    "Deleted": false,
-    "Rank": 39,
-    "Type": "sit",
-    "ColorBlock": 720,
-    "IconHint": "ea",
+    "Id": 536,
+    "Name": "Skiles-Cremin",
+    "ToolTip": "Qui nesciunt omnis velit error officia quam.",
+    "Deleted": true,
+    "Rank": 422,
+    "Type": "officia",
+    "ColorBlock": 686,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "1997-08-05T02:49:52.3909486+02:00",
+    "LastChanged": "1999-04-03T17:37:40.186501+02:00",
     "ChildItems": [
       {
-        "Id": 593,
-        "Name": "Harris, Kling and Davis",
-        "ToolTip": "Voluptates accusantium blanditiis ad a dicta.",
+        "Id": 445,
+        "Name": "Collier, Ledner and Schamberger",
+        "ToolTip": "Inventore dignissimos quibusdam nihil at natus modi.",
         "Deleted": false,
-        "Rank": 221,
-        "Type": "aspernatur",
-        "ColorBlock": 177,
-        "IconHint": "vitae",
-        "Selected": true,
-        "LastChanged": "2001-05-25T02:49:52.3909486+02:00",
+        "Rank": 716,
+        "Type": "est",
+        "ColorBlock": 470,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2001-09-30T17:37:40.186501+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "ab",
+        "ExtraInfo": "eaque",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Prof. Eldon Stokes PhD"
+        "FullName": "Oran Kozey"
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Eda Howell"
+    "ExtraInfo": "minima",
+    "StyleHint": "fugiat",
+    "Hidden": false,
+    "FullName": "Lisa Donnelly III"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 460,
-    "Name": "Nader, Wyman and Kemmer",
-    "ToolTip": "Illo non minus dolor voluptatem sint suscipit est.",
-    "Deleted": false,
-    "Rank": 250,
-    "Type": "voluptate",
-    "ColorBlock": 166,
-    "IconHint": "occaecati",
-    "Selected": false,
-    "LastChanged": "2018-08-07T02:49:52.3909486+02:00",
+    "Id": 166,
+    "Name": "Konopelski Inc and Sons",
+    "ToolTip": "Commodi consectetur quas nihil in.",
+    "Deleted": true,
+    "Rank": 90,
+    "Type": "et",
+    "ColorBlock": 684,
+    "IconHint": "esse",
+    "Selected": true,
+    "LastChanged": "2007-11-04T17:37:40.1875061+01:00",
     "ChildItems": [
       {
-        "Id": 774,
-        "Name": "Donnelly Inc and Sons",
-        "ToolTip": "Dolores dolores.",
-        "Deleted": false,
-        "Rank": 94,
-        "Type": "eaque",
-        "ColorBlock": 965,
-        "IconHint": "quam",
-        "Selected": true,
-        "LastChanged": "2005-12-03T02:49:52.3909486+01:00",
+        "Id": 547,
+        "Name": "Von, Hessel and Schultz",
+        "ToolTip": "Qui sit dolores.",
+        "Deleted": true,
+        "Rank": 350,
+        "Type": "aut",
+        "ColorBlock": 815,
+        "IconHint": "deleniti",
+        "Selected": false,
+        "LastChanged": "2004-07-01T17:37:40.1875061+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Matilde Kilback",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "dicta",
+        "Hidden": true,
+        "FullName": "Bernadette Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 343
+            "FieldLength": 211
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "odio",
-    "Hidden": true,
-    "FullName": "Miss Trudie Keebler",
+    "ExtraInfo": "ea",
+    "StyleHint": "temporibus",
+    "Hidden": false,
+    "FullName": "Mossie Jean Lemke IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 161
+        "FieldType": "System.Int32",
+        "FieldLength": 416
       }
     }
   }

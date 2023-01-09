@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,15 +42,15 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TargetRevision
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LogEvent | string | Log event class (create, edit, delete, lock, unlock... |
-| Who |  | Who made the change |
+| Who | Associate | Who made the change |
 | When | date-time | Registered when  in UTC. |
 | Changes | array | Collection of changes |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -59,7 +59,7 @@ Response body:
 POST /api/v1/Agents/Targets/CreateDefaultTargetRevision
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ Content-Type: application/json; charset=utf-8
 {
   "LogEvent": "Create",
   "Who": null,
-  "When": "2001-09-02T02:49:45.4215877+02:00",
+  "When": "1996-11-13T17:37:19.2252424+01:00",
   "Changes": [
     {
-      "FieldIdentifier": "ea",
-      "ValueChangeFrom": 2610.622,
-      "ValueChangeTo": 30164.75,
+      "FieldIdentifier": "modi",
+      "ValueChangeFrom": 24065.986,
+      "ValueChangeTo": 21568.188,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 491
+          "FieldType": "System.Int32",
+          "FieldLength": 749
         }
       }
     },
     {
-      "FieldIdentifier": "ea",
-      "ValueChangeFrom": 2610.622,
-      "ValueChangeTo": 30164.75,
+      "FieldIdentifier": "modi",
+      "ValueChangeFrom": 24065.986,
+      "ValueChangeTo": 21568.188,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 491
+          "FieldType": "System.Int32",
+          "FieldLength": 749
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldLength": 319
     }
   }
 }

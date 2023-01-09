@@ -48,7 +48,7 @@ GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 750,
-    "Name": "Becker-Daugherty",
-    "ToolTip": "Atque minus dolores quidem delectus dolore vero.",
+    "Id": 931,
+    "Name": "Kuhic-Mann",
+    "ToolTip": "Eos commodi ut sit.",
     "Deleted": false,
-    "Rank": 111,
-    "Type": "aliquam",
-    "ColorBlock": 709,
-    "IconHint": "eum",
+    "Rank": 73,
+    "Type": "corrupti",
+    "ColorBlock": 510,
+    "IconHint": "ducimus",
     "Selected": true,
-    "LastChanged": "2004-03-10T02:49:52.3284476+01:00",
+    "LastChanged": "2002-01-19T17:37:40.1115013+01:00",
     "ChildItems": [
       {
-        "Id": 799,
-        "Name": "Green, Kulas and Cartwright",
-        "ToolTip": "Natus aut repellat voluptatem.",
+        "Id": 544,
+        "Name": "Prosacco-Moore",
+        "ToolTip": "Dolorum fugiat nemo architecto ut in provident nulla.",
         "Deleted": false,
-        "Rank": 39,
-        "Type": "dolor",
-        "ColorBlock": 36,
-        "IconHint": "sed",
+        "Rank": 76,
+        "Type": "recusandae",
+        "ColorBlock": 644,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2007-04-05T02:49:52.3284476+02:00",
+        "LastChanged": "2015-12-03T17:37:40.1115013+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "sint",
-        "Hidden": true,
-        "FullName": "Samanta Mertz",
+        "ExtraInfo": "unde",
+        "StyleHint": "sequi",
+        "Hidden": false,
+        "FullName": "Jeremie Steuber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 939
+            "FieldLength": 35
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "atque",
+    "ExtraInfo": "itaque",
+    "StyleHint": "voluptatum",
     "Hidden": false,
-    "FullName": "Jaylan Koch",
+    "FullName": "Ms. Tomasa Hansen DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldType": "System.String",
+        "FieldLength": 393
       }
     }
   }

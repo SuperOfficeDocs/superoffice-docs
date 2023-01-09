@@ -47,7 +47,6 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 
 
 
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
@@ -74,12 +73,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project/{id}/Activities?$select=name,department,category/id
 GET /api/v1/Project/{id}/Activities?$filter=name begins 'S'
 GET /api/v1/Project/{id}/Activities?$orderBy=name asc
-GET /api/v1/Project/{id}/Activities?$entities=autem
-GET /api/v1/Project/{id}/Activities?$top=746
-GET /api/v1/Project/{id}/Activities?$skip=615
+GET /api/v1/Project/{id}/Activities?$entities=culpa
+GET /api/v1/Project/{id}/Activities?$top=645
+GET /api/v1/Project/{id}/Activities?$skip=473
 GET /api/v1/Project/{id}/Activities?$mode=Full
 GET /api/v1/Project/{id}/Activities?$options=GrandTotal=true
-GET /api/v1/Project/{id}/Activities?$context=inventore
+GET /api/v1/Project/{id}/Activities?$context=quod
 GET /api/v1/Project/{id}/Activities?$format=JSON
 GET /api/v1/Project/{id}/Activities?$jsonSafe=False
 GET /api/v1/Project/{id}/Activities?$output=Display
@@ -100,7 +99,7 @@ GET /api/v1/Project/{id}/Activities?$output=Display
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -109,7 +108,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: ODataSlimResponse
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -134,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "mollitia",
+  "odata.nextLink": "nesciunt",
   "value": [
     {
-      "PrimaryKey": 8973,
-      "EntityName": "person",
-      "personId": 8973,
-      "fullName": "Cyrus Hahn"
+      "PrimaryKey": 4995,
+      "EntityName": "sale",
+      "saleId": 4995,
+      "contactId": 5386,
+      "name": "Schroeder-Collins"
     },
     {
-      "PrimaryKey": 3273,
-      "EntityName": "person",
-      "personId": 3273,
-      "fullName": "Orpha Russel"
+      "PrimaryKey": 4007,
+      "EntityName": "sale",
+      "saleId": 4007,
+      "contactId": 4425,
+      "name": "Schuster, Feil and Denesik"
     }
   ]
 }

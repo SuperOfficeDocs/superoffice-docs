@@ -42,18 +42,17 @@ POST /api/v1/Agents/Selection/ExportSelectionMembers?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, TemplateName, UseContacts 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| TemplateName | string |  |
-| UseContacts | bool |  |
+| SelectionId | Integer |  |
+| TemplateName | String |  |
+| UseContacts | Boolean |  |
 
-
-## Response: byte
+## Response:byte
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -70,13 +69,13 @@ Response body: byte
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 904,
-  "TemplateName": "Keebler, D'Amore and Parisian",
-  "UseContacts": false
+  "SelectionId": 530,
+  "TemplateName": "Lueilwitz Inc and Sons",
+  "UseContacts": true
 }
 ```
 

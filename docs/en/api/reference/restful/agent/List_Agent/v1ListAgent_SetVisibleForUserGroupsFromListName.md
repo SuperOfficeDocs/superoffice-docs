@@ -42,18 +42,17 @@ POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 UdListDefinitionName, ListItemId, UserGroups 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UdListDefinitionName | string |  |
-| ListItemId | int32 |  |
-| UserGroups | array |  |
+| UdListDefinitionName | String |  |
+| ListItemId | Integer |  |
+| UserGroups | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -89,32 +88,32 @@ Response body: array
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Jakubowski-Davis",
-  "ListItemId": 897,
+  "UdListDefinitionName": "Larson, Block and Pacocha",
+  "ListItemId": 799,
   "UserGroups": [
     {
-      "Id": 753,
-      "Name": "Doyle LLC",
-      "ToolTip": "Similique qui architecto id recusandae.",
+      "Id": 171,
+      "Name": "Bode-Hoppe",
+      "ToolTip": "Debitis cumque beatae ex est cum sint tempore.",
       "Deleted": false,
-      "Rank": 608,
-      "Type": "ut",
-      "ColorBlock": 693,
-      "IconHint": "rem",
-      "Selected": false,
-      "LastChanged": "2018-03-24T02:49:44.6235457+01:00",
+      "Rank": 40,
+      "Type": "in",
+      "ColorBlock": 820,
+      "IconHint": "cupiditate",
+      "Selected": true,
+      "LastChanged": "2019-06-03T17:37:18.1982448+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "quia",
-      "Hidden": true,
-      "FullName": "Miss Alfonzo Lakin Jr."
+      "ExtraInfo": "aliquam",
+      "StyleHint": "rerum",
+      "Hidden": false,
+      "FullName": "Isom Braun"
     }
   ]
 }
@@ -128,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Pagac-Stoltenberg",
-    "ToolTip": "Suscipit corrupti sunt.",
+    "Id": 375,
+    "Name": "Howe-Langworth",
+    "ToolTip": "Voluptatem qui hic.",
     "Deleted": true,
-    "Rank": 967,
-    "Type": "voluptatibus",
-    "ColorBlock": 168,
-    "IconHint": "occaecati",
-    "Selected": true,
-    "LastChanged": "1995-10-21T02:49:44.6235457+02:00",
+    "Rank": 638,
+    "Type": "mollitia",
+    "ColorBlock": 873,
+    "IconHint": "commodi",
+    "Selected": false,
+    "LastChanged": "2011-02-23T17:37:18.1992447+01:00",
     "ChildItems": [
       {
-        "Id": 832,
-        "Name": "Cremin, O'Kon and Herzog",
-        "ToolTip": "Distinctio est.",
+        "Id": 83,
+        "Name": "Price, Hermiston and Witting",
+        "ToolTip": "Et repudiandae sunt quidem sapiente.",
         "Deleted": false,
-        "Rank": 68,
-        "Type": "perferendis",
-        "ColorBlock": 203,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "2012-07-21T02:49:44.6235457+02:00",
+        "Rank": 660,
+        "Type": "a",
+        "ColorBlock": 737,
+        "IconHint": "soluta",
+        "Selected": true,
+        "LastChanged": "1999-04-30T17:37:18.1992447+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Therese Grant",
+        "ExtraInfo": "sed",
+        "StyleHint": "eveniet",
+        "Hidden": false,
+        "FullName": "Miss Horace Enrique Harber PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 243
+            "FieldLength": 832
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "cumque",
+    "ExtraInfo": "animi",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Sabrina Gleason",
+    "FullName": "Malvina Alexa Kris PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldLength": 268
       }
     }
   }

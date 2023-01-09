@@ -37,7 +37,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: EMailFolder
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +56,7 @@ Response body:
 | UnreadItems | int32 | Number of unread messages in the folder |
 | Subscribed | bool | Indicates if the folder is subscribed to |
 | EmailFolderId | int32 | Primary key |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,19 +75,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Tromp, Glover and Rippin",
-  "Delimiter": "repudiandae",
-  "Flags": "aperiam",
-  "TotalItems": 643,
-  "UnreadItems": 85,
-  "Subscribed": true,
-  "EmailFolderId": 682,
+  "Name": "Lowe Inc and Sons",
+  "Delimiter": "unde",
+  "Flags": "fugiat",
+  "TotalItems": 295,
+  "UnreadItems": 981,
+  "Subscribed": false,
+  "EmailFolderId": 249,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldLength": 909
     }
   }
 }

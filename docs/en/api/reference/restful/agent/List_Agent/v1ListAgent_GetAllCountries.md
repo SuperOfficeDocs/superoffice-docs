@@ -42,16 +42,15 @@ POST /api/v1/Agents/List/GetAllCountries?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IncludeDeleted | bool |  |
+| IncludeDeleted | Boolean |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +80,7 @@ Response body: array
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -90,7 +89,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 439,
-    "Name": "Klocko Inc and Sons",
-    "CurrencyId": 361,
-    "EnglishName": "Skiles, O'Kon and Konopelski",
+    "CountryId": 385,
+    "Name": "Fay-Reynolds",
+    "CurrencyId": 124,
+    "EnglishName": "Lebsack-Krajcik",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Networked high-level open system",
-    "OrgNrText": "836920",
-    "InterAreaPrefix": "rerum",
-    "DialInPrefix": "quas",
-    "ZipPrefix": "doloremque",
-    "DomainName": "Wolf, Nolan and Prosacco",
-    "AddressLayoutId": 169,
-    "DomesticAddressLayoutId": 337,
-    "ForeignAddressLayoutId": 827,
-    "Rank": 194,
-    "Tooltip": "rerum",
+    "ImageDescription": "Customizable directional secured line",
+    "OrgNrText": "1069680",
+    "InterAreaPrefix": "voluptatem",
+    "DialInPrefix": "sed",
+    "ZipPrefix": "fugiat",
+    "DomainName": "Abbott, Reynolds and Leuschke",
+    "AddressLayoutId": 880,
+    "DomesticAddressLayoutId": 738,
+    "ForeignAddressLayoutId": 597,
+    "Rank": 697,
+    "Tooltip": "sed",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 135
       }
     }
   }

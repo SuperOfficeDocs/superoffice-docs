@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/SaveQuoteVersion?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersion 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersion |  | Information about a version of the . <para /> Carrier object for QuoteVersion. Services for the QuoteVersion Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteVersion | QuoteVersion | Information about a version of the . <para /> Carrier object for QuoteVersion. Services for the QuoteVersion Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteVersion
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,7 +101,7 @@ Response body:
 | RequestAssociateId | int32 | User to whom the request proposal should be delivered |
 | RequestComment | string | Comment for why quote should be approved |
 | QuoteAlternatives | array | The QuoteAlternatives for the QuoteVersion |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -111,7 +110,7 @@ Response body:
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 619,
-  "ERPQuoteVersionKey": "sequi",
-  "QuoteId": 892,
-  "Description": "User-friendly motivating complexity",
-  "Number": "723361",
+  "QuoteVersionId": 377,
+  "ERPQuoteVersionKey": "non",
+  "QuoteId": 920,
+  "Description": "Persistent tangible analyzer",
+  "Number": "1671586",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "",
-  "LikelyQuoteAlternativeId": 323,
-  "SentDate": "2017-03-21T02:49:44.9997158+01:00",
-  "FollowupId": 996,
-  "ExpirationDate": "2009-07-12T02:49:44.9997158+02:00",
-  "DeliveryCountryId": 988,
+  "Reason": "incentivize customized functionalities",
+  "LikelyQuoteAlternativeId": 653,
+  "SentDate": "2016-11-10T17:37:18.6962418+01:00",
+  "FollowupId": 775,
+  "ExpirationDate": "2006-02-13T17:37:18.6962418+01:00",
+  "DeliveryCountryId": 488,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 915,
+  "InvoiceCountryId": 279,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "et",
-  "ERPPaymentTypeKey": "quos",
-  "ERPDeliveryTermsKey": "voluptatum",
-  "ERPDeliveryTypeKey": "omnis",
-  "Rank": 182,
-  "ApprovedBy": 96,
-  "ApprovedText": "aut",
-  "ApprovedRegisteredBy": 764,
-  "ApprovedRegisteredDate": "2009-10-08T02:49:44.9997158+02:00",
-  "ExtraField1": "natus",
-  "ExtraField2": "deleniti",
-  "ExtraField3": "aut",
-  "ExtraField4": "autem",
-  "ExtraField5": "velit",
-  "LastRecalculated": "2012-11-23T02:49:44.9997158+01:00",
-  "Updated": "2006-11-16T02:49:44.9997158+01:00",
-  "UpdatedAssociateId": 714,
-  "Registered": "2000-11-20T02:49:44.9997158+01:00",
-  "RegisteredAssociateId": 523,
-  "RequestAssociateId": 35,
-  "RequestComment": "dolores",
+  "ERPPaymentTermsKey": "mollitia",
+  "ERPPaymentTypeKey": "accusantium",
+  "ERPDeliveryTermsKey": "quia",
+  "ERPDeliveryTypeKey": "aliquam",
+  "Rank": 639,
+  "ApprovedBy": 387,
+  "ApprovedText": "quod",
+  "ApprovedRegisteredBy": 88,
+  "ApprovedRegisteredDate": "2010-01-02T17:37:18.6962418+01:00",
+  "ExtraField1": "commodi",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "magni",
+  "ExtraField4": "omnis",
+  "ExtraField5": "accusamus",
+  "LastRecalculated": "2007-04-05T17:37:18.6962418+02:00",
+  "Updated": "2021-03-05T17:37:18.6962418+01:00",
+  "UpdatedAssociateId": 560,
+  "Registered": "2010-05-19T17:37:18.6962418+02:00",
+  "RegisteredAssociateId": 698,
+  "RequestAssociateId": 842,
+  "RequestComment": "quas",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 863,
-      "ERPQuoteAlternativeKey": "fugit",
-      "QuoteVersionId": 456,
-      "Name": "O'Reilly, Robel and Cremin",
-      "Description": "Profound multimedia model",
+      "QuoteAlternativeId": 379,
+      "ERPQuoteAlternativeKey": "est",
+      "QuoteVersionId": 543,
+      "Name": "Stracke, Stehr and McDermott",
+      "Description": "Streamlined assymetric productivity",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 5299.594,
-      "ERPDiscountAmount": 5876.25,
-      "DiscountPercent": 13905.557999999999,
-      "DiscountAmount": 1109.436,
+      "ERPDiscountPercent": 20248.773999999998,
+      "ERPDiscountAmount": 5628.664,
+      "DiscountPercent": 517.11,
+      "DiscountAmount": 23736.915999999997,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "ea",
-      "VAT": 20060.734,
-      "EarningPercent": 6973.15,
-      "EarningAmount": 16945.538,
-      "SubTotal": 17421.906,
-      "TotalPrice": 5744.6219999999994,
-      "ExtraField1": "non",
-      "ExtraField2": "sed",
-      "ExtraField3": "cum",
-      "ExtraField4": "et",
-      "ExtraField5": "at",
+      "VATInfo": "et",
+      "VAT": 7045.232,
+      "EarningPercent": 8289.43,
+      "EarningAmount": 21386.416,
+      "SubTotal": 11194.648,
+      "TotalPrice": 19001.442,
+      "ExtraField1": "quidem",
+      "ExtraField2": "quis",
+      "ExtraField3": "maxime",
+      "ExtraField4": "omnis",
+      "ExtraField5": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 817
+          "FieldLength": 438
         }
       }
     }
@@ -204,7 +203,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldLength": 650
     }
   }
 }

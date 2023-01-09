@@ -42,16 +42,15 @@ POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
+| ProjectId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectEventEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,8 +78,8 @@ Response body:
 | SignOnTaskId | int32 | If not 0, sign on should cause an Activity of this type to be registered |
 | SignOnTriggersAssign | bool | If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the projectevent |
-| UpdatedBy |  | The person that last updated the projectevent |
+| CreatedBy | Associate | The person that created the projectevent |
+| UpdatedBy | Associate | The person that last updated the projectevent |
 | ProjectId | int32 | The projectId for the project this projectEvent belongs to |
 | Id | int32 | Id of the external event |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -93,7 +92,7 @@ Response body:
 | IsVisibleForCategories | bool |  |
 | IsVisibleForPersonInterests | bool |  |
 | ProjectEventId | int32 | Primary key |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,11 +101,11 @@ Response body:
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 595
+  "ProjectId": 456
 }
 ```
 
@@ -117,94 +116,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "exercitationem",
-  "SignOffText": "aut",
-  "SignOnConfirmationText": "voluptas",
-  "SignOnText": "perferendis",
-  "EventDate": "1999-05-12T02:49:44.9684639+02:00",
-  "Enabled": true,
-  "CreatedDate": "2012-02-26T02:49:44.9684639+01:00",
+  "SignOffConfirmationText": "id",
+  "SignOffText": "quo",
+  "SignOnConfirmationText": "exercitationem",
+  "SignOnText": "molestiae",
+  "EventDate": "2021-06-27T17:37:18.6522456+02:00",
+  "Enabled": false,
+  "CreatedDate": "2014-11-08T17:37:18.6522456+01:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 148,
+  "SignOffTaskId": 77,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 800,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "1998-12-09T02:49:44.9684639+01:00",
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 166,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "2009-05-21T17:37:18.6522456+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 643,
-  "Id": 564,
-  "PublishFrom": "1998-02-08T02:49:44.9684639+01:00",
+  "ProjectId": 435,
+  "Id": 951,
+  "PublishFrom": "2016-09-25T17:37:18.6522456+02:00",
   "PublishType": "External",
-  "PublishTo": "2012-05-19T02:49:44.9684639+02:00",
+  "PublishTo": "2009-06-17T17:37:18.6522456+02:00",
   "VisibleForCategories": [
     {
-      "Id": 336,
-      "Name": "Rippin-Pfeffer",
-      "ToolTip": "Sed illo eligendi iure quia dolorum commodi quo.",
+      "Id": 799,
+      "Name": "Jones-Schulist",
+      "ToolTip": "Aut nam et.",
       "Deleted": true,
-      "Rank": 435,
-      "Type": "reprehenderit",
+      "Rank": 124,
+      "Type": "ratione",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vero",
-      "ColorBlock": 678,
-      "ExtraInfo": "mollitia",
-      "StyleHint": "deserunt",
-      "FullName": "Gina Granville Stehr III",
+      "IconHint": "quod",
+      "ColorBlock": 32,
+      "ExtraInfo": "ex",
+      "StyleHint": "dolor",
+      "FullName": "Nyasia Justina Paucek MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 454
+          "FieldType": "System.Int32",
+          "FieldLength": 11
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 342,
-      "Name": "Stiedemann-Daniel",
-      "ToolTip": "Consequuntur neque eos accusamus recusandae et eligendi debitis.",
+      "Id": 213,
+      "Name": "Kulas-Bartoletti",
+      "ToolTip": "Debitis quo quo magnam sed velit.",
       "Deleted": true,
-      "Rank": 210,
-      "Type": "qui",
+      "Rank": 323,
+      "Type": "sed",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "iure",
-      "ColorBlock": 384,
-      "ExtraInfo": "adipisci",
-      "StyleHint": "accusamus",
-      "FullName": "Mrs. Giovanna Wisozk",
+      "IconHint": "sed",
+      "ColorBlock": 471,
+      "ExtraInfo": "odio",
+      "StyleHint": "ducimus",
+      "FullName": "Otis Moore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 671
+          "FieldLength": 636
         }
       }
     }
   ],
   "IsPublished": true,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 678,
+  "ProjectEventId": 143,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldType": "System.String",
+      "FieldLength": 493
     }
   }
 }

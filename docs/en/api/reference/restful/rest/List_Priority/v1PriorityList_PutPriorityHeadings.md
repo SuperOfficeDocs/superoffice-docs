@@ -34,21 +34,20 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| HeadingId | int32 | Primary key |
-| Name | string | The visible heading |
-| Tooltip | string | Tooltip or other description |
-| Deleted | bool | True if the heading is marked as deleted |
-| Rank | int32 | Rank order |
-| UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+| HeadingId | Integer | Primary key |
+| Name | String | The visible heading |
+| Tooltip | String | Tooltip or other description |
+| Deleted | Boolean | True if the heading is marked as deleted |
+| Rank | Integer | Rank order |
+| UdListDefinitionId | Integer | The id of the list which this heading belongs to |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +65,7 @@ Response body: array
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,25 +74,25 @@ Response body: array
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 502,
-    "Name": "Hintz LLC",
-    "Tooltip": "dolorem",
+    "HeadingId": 43,
+    "Name": "Johnson-Morissette",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "Rank": 424,
-    "UdListDefinitionId": 879
+    "Rank": 245,
+    "UdListDefinitionId": 816
   },
   {
-    "HeadingId": 502,
-    "Name": "Hintz LLC",
-    "Tooltip": "dolorem",
+    "HeadingId": 43,
+    "Name": "Johnson-Morissette",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "Rank": 424,
-    "UdListDefinitionId": 879
+    "Rank": 245,
+    "UdListDefinitionId": 816
   }
 ]
 ```
@@ -106,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 628,
-    "Name": "Murazik, Langosh and Williamson",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 12,
-    "UdListDefinitionId": 845,
+    "HeadingId": 39,
+    "Name": "Klein, Harris and Kilback",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 222,
+    "UdListDefinitionId": 142,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 439
       }
     }
   }

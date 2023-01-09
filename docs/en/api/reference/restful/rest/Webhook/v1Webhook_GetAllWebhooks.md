@@ -12,8 +12,6 @@ GET /api/v1/Webhook
 Returns all webhooks, according to filter criteria
 
 
-
-
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -30,8 +28,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=saepe
-GET /api/v1/Webhook?eventFilter=cumque
+GET /api/v1/Webhook?nameFilter=ea
+GET /api/v1/Webhook?eventFilter=pariatur
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -50,7 +48,7 @@ GET /api/v1/Webhook?statusFilter=Active
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -58,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,9 +70,9 @@ Response body: array
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociate |  | The user that created the webhook. |
+| RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociate |  | The user that last updated the webhook. |
+| UpdatedAssociate | Associate | The user that last updated the webhook. |
 
 ## Sample request
 
@@ -82,7 +80,7 @@ Response body: array
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 454,
-    "Name": "Brekke, Stehr and Sauer",
+    "WebhookId": 676,
+    "Name": "Herzog Group",
     "Events": [
-      "aut",
-      "pariatur"
+      "cupiditate",
+      "quia"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "eum",
+    "Secret": "non",
     "State": "Active",
-    "Type": "ipsa",
+    "Type": "sapiente",
     "Headers": {
-      "Headers1": "voluptas",
-      "Headers2": "nisi"
+      "Headers1": "accusantium",
+      "Headers2": "aut"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2002-11-08T02:49:51.844034+01:00",
+    "Registered": "2012-11-10T17:37:39.5964304+01:00",
     "RegisteredAssociate": null,
-    "Updated": "2007-05-23T02:49:51.844034+02:00",
+    "Updated": "2002-12-04T17:37:39.5984306+01:00",
     "UpdatedAssociate": null
   }
 ]

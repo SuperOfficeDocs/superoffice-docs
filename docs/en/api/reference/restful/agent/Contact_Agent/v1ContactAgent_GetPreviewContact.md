@@ -42,16 +42,15 @@ POST /api/v1/Agents/Contact/GetPreviewContact?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
+| ContactId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreviewContact
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | BusinessName | string | The business list item name |
 | CategoryName | string | The category list item name |
 | AssociateFullName | string | The associate's culture formatted fullname (firstname, middleName and lastname) |
-| Address |  | Contact address as a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
+| Address | Address | Contact address as a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. |
 
 ## Sample request
 
@@ -82,11 +81,11 @@ Response body:
 POST /api/v1/Agents/Contact/GetPreviewContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 957
+  "ContactId": 600
 }
 ```
 
@@ -97,17 +96,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 666,
-  "Name": "Koss Inc and Sons",
-  "Department": "expedite end-to-end e-markets",
-  "CountryId": 991,
-  "Number2": "1437058",
-  "DirectPhone": "(431)081-0565 x64646",
+  "ContactId": 762,
+  "Name": "Kerluke-Howell",
+  "Department": "",
+  "CountryId": 905,
+  "Number2": "843433",
+  "DirectPhone": "1-744-564-4701 x50269",
   "URL": "http://www.example.com/",
-  "EmailAddress": "allan.bailey@grady.us",
+  "EmailAddress": "steve.bruen@marvin.info",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Prof. Leopoldo Rodrick Armstrong Jr.",
+  "AssociateFullName": "Zula Windler",
   "Address": null
 }
 ```

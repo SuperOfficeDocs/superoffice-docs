@@ -42,16 +42,15 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariablesEx?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Parameters 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Parameters |  | Parameters specifying source and properties for template variable substitution. <para /> Carrier object for TemplateVariablesParameters. Services for the TemplateVariablesParameters Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>. |
+| Parameters | TemplateVariablesParameters | Parameters specifying source and properties for template variable substitution. <para /> Carrier object for TemplateVariablesParameters. Services for the TemplateVariablesParameters Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>. |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -82,5 +81,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"at"
+"ipsam"
 ```

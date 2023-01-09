@@ -42,7 +42,7 @@ POST /api/v1/Agents/Archive/GetActivityFilter?$select=name,department,category/i
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ActivityFilter
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +59,7 @@ Response body:
 | AssociateList | array | The list of associates to filter on |
 | GroupList | array | The list of groups to filter on |
 | FutureDateList | array | The list of future date selections. This is a static MDO list with standard values. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -68,7 +68,7 @@ Response body:
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,91 +78,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2017-01-11T02:49:43.6535327+01:00",
-  "ToDate": "1996-01-27T02:49:43.6535327+01:00",
+  "FromDate": "2010-01-12T17:37:16.6112452+01:00",
+  "ToDate": "1997-06-26T17:37:16.6112452+02:00",
   "AssociateList": [
     {
-      "Id": 783,
-      "Name": "Wuckert, Lockman and Howe",
-      "ToolTip": "Vero aliquam mollitia doloribus error dignissimos voluptatem et.",
-      "Deleted": false,
-      "Rank": 228,
-      "Type": "ipsam",
-      "ColorBlock": 513,
-      "IconHint": "vero",
+      "Id": 331,
+      "Name": "Bayer Inc and Sons",
+      "ToolTip": "Nostrum mollitia hic dolorem et tenetur iusto beatae.",
+      "Deleted": true,
+      "Rank": 591,
+      "Type": "velit",
+      "ColorBlock": 555,
+      "IconHint": "voluptate",
       "Selected": true,
-      "LastChanged": "2021-03-04T02:49:43.6535327+01:00",
+      "LastChanged": "2002-07-25T17:37:16.6112452+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "adipisci",
-      "StyleHint": "sapiente",
+      "ExtraInfo": "delectus",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Austyn Bosco",
+      "FullName": "Delpha Satterfield",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 681
+          "FieldType": "System.String",
+          "FieldLength": 307
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 910,
-      "Name": "Hansen-Wunsch",
-      "ToolTip": "Dolorem et sed delectus eligendi.",
-      "Deleted": true,
-      "Rank": 197,
-      "Type": "dolor",
-      "ColorBlock": 652,
-      "IconHint": "officiis",
-      "Selected": true,
-      "LastChanged": "2004-08-27T02:49:43.6535327+02:00",
+      "Id": 494,
+      "Name": "Tromp LLC",
+      "ToolTip": "Suscipit quia.",
+      "Deleted": false,
+      "Rank": 313,
+      "Type": "fuga",
+      "ColorBlock": 446,
+      "IconHint": "repellat",
+      "Selected": false,
+      "LastChanged": "2017-11-22T17:37:16.6122443+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorum",
-      "StyleHint": "laudantium",
+      "ExtraInfo": "quo",
+      "StyleHint": "quasi",
       "Hidden": false,
-      "FullName": "Jessyca Torp",
+      "FullName": "Josiah Cruickshank",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 213
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 73,
-      "Name": "Kilback, Thompson and Dickens",
-      "ToolTip": "Autem beatae.",
+      "Id": 411,
+      "Name": "Dietrich-Gusikowski",
+      "ToolTip": "Cupiditate commodi.",
       "Deleted": true,
-      "Rank": 368,
-      "Type": "repellat",
+      "Rank": 480,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "alias",
-      "ColorBlock": 706,
-      "ExtraInfo": "et",
-      "StyleHint": "consequatur",
-      "FullName": "Mr. Erin Margot Krajcik DDS",
+      "IconHint": "autem",
+      "ColorBlock": 525,
+      "ExtraInfo": "cumque",
+      "StyleHint": "amet",
+      "FullName": "Kendra Hipolito Toy DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 441
+          "FieldLength": 594
         }
       }
     }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldLength": 462
     }
   }
 }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/List/GetListEntityByName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
+| Name | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ListEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body:
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,11 +81,11 @@ Response body:
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Prohaska, Dicki and Cummerata"
+  "Name": "Donnelly Inc and Sons"
 }
 ```
 
@@ -97,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 968,
-  "Name": "Nolan Inc and Sons",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "Rank": 877,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 10,
+  "Name": "Abernathy Inc and Sons",
+  "Tooltip": "vero",
+  "Deleted": true,
+  "Rank": 163,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "necessitatibus",
-  "InUseByUserDefinedFields": true,
+  "ListType": "enim",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldType": "System.Int32",
+      "FieldLength": 890
     }
   }
 }

@@ -44,21 +44,20 @@ POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| StorageType | string |  |
-| ProviderName | string |  |
-| StorageKey | string |  |
-| DesiredColumnNames | array |  |
-| StaticColumns | array |  |
-| Context | string |  |
+| StorageType | String |  |
+| ProviderName | String |  |
+| StorageKey | String |  |
+| DesiredColumnNames | Array |  |
+| StaticColumns | Array |  |
+| Context | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: CriteriaInformation
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | CriteriaArchiveColumns | array | Array of ColumnInfo column specifications |
 | CriteriaArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows. |
 | RestrictionGroups | array | Array of restrictiongroups, including the default first group of restrictions |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,22 +82,22 @@ Response body:
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptate",
-  "ProviderName": "Schultz, McGlynn and Reichert",
-  "StorageKey": "quia",
+  "StorageType": "iusto",
+  "ProviderName": "Volkman, Lueilwitz and Wisoky",
+  "StorageKey": "ex",
   "DesiredColumnNames": [
-    "Borer-Considine",
-    "Hettinger, Bednar and Conn"
+    "Runolfsson, Fay and Orn",
+    "Runte-Hoeger"
   ],
   "StaticColumns": [
-    "accusantium",
-    "distinctio"
+    "possimus",
+    "quibusdam"
   ],
-  "Context": "et"
+  "Context": "laudantium"
 }
 ```
 
@@ -111,81 +110,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Muller, Adams and Bahringer",
-      "Operator": "nostrum",
+      "Name": "Wehner Group",
+      "Operator": "at",
       "Values": [
-        "aut",
-        "rerum"
+        "totam",
+        "culpa"
       ],
       "DisplayValues": [
-        "reprehenderit",
-        "ad"
+        "consequatur",
+        "harum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 415,
+      "InterParenthesis": 174,
       "InterOperator": "And",
-      "UniqueHash": 61
+      "UniqueHash": 976
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Tremblay Group",
-      "DisplayTooltip": "eveniet",
-      "DisplayType": "quasi",
-      "CanOrderBy": true,
-      "Name": "Marquardt Group",
+      "DisplayName": "Kemmer, Bosco and Prohaska",
+      "DisplayTooltip": "laudantium",
+      "DisplayType": "sit",
+      "CanOrderBy": false,
+      "Name": "Lynch LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Schoen Group",
-      "IsVisible": true,
-      "ExtraInfo": "aut",
-      "Width": "et",
-      "IconHint": "deleniti",
-      "HeadingIconHint": "veniam"
+      "RestrictionType": "aut",
+      "RestrictionListName": "Wolff-Gutmann",
+      "IsVisible": false,
+      "ExtraInfo": "ipsa",
+      "Width": "quod",
+      "IconHint": "eligendi",
+      "HeadingIconHint": "repellat"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Ziemann, Koepp and Hermiston",
-      "PrimaryKey": 220,
+      "EntityName": "Frami, Heller and Graham",
+      "PrimaryKey": 650,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nihil",
-          "TooltipHint": "quam",
-          "LinkHint": "doloribus"
+          "DisplayValue": "in",
+          "TooltipHint": "cum",
+          "LinkHint": "saepe"
         }
       },
-      "LinkHint": "laudantium",
-      "StyleHint": "accusamus",
+      "LinkHint": "mollitia",
+      "StyleHint": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 124
+          "FieldLength": 325
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Wunsch, Zemlak and Bernhard",
-      "Description": "Compatible fresh-thinking open architecture",
-      "Rank": 262,
+      "Name": "Hane-Rodriguez",
+      "Description": "Phased methodical info-mediaries",
+      "Rank": 246,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wunsch, Zemlak and Bernhard",
-      "Description": "Compatible fresh-thinking open architecture",
-      "Rank": 262,
+      "Name": "Hane-Rodriguez",
+      "Description": "Phased methodical info-mediaries",
+      "Rank": 246,
       "Restrictions": [
         {},
         {}
@@ -196,8 +195,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldType": "System.String",
+      "FieldLength": 233
     }
   }
 }

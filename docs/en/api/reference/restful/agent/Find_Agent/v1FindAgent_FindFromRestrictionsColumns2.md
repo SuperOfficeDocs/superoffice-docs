@@ -102,9 +102,6 @@ Use backslash to escape single quotes in strings
 
 
 
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -130,20 +127,19 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumns2?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Restrictions, ProviderName, DesiredColumns, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Restrictions | string |  |
-| ProviderName | string |  |
-| DesiredColumns | string |  |
-| PageSize | int32 |  |
-| PageNumber | int32 |  |
+| Restrictions | String |  |
+| ProviderName | String |  |
+| DesiredColumns | String |  |
+| PageSize | Integer |  |
+| PageNumber | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -151,14 +147,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: FindResults
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -171,11 +167,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "aut",
-  "ProviderName": "Spinka-Waelchi",
-  "DesiredColumns": "molestias",
-  "PageSize": 38,
-  "PageNumber": 433
+  "Restrictions": "suscipit",
+  "ProviderName": "Okuneva Inc and Sons",
+  "DesiredColumns": "sed",
+  "PageSize": 895,
+  "PageNumber": 601
 }
 ```
 
@@ -188,51 +184,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Leffler LLC",
-      "DisplayTooltip": "enim",
-      "DisplayType": "ratione",
+      "DisplayName": "Hartmann, Jones and Cummerata",
+      "DisplayTooltip": "quis",
+      "DisplayType": "molestiae",
       "CanOrderBy": true,
-      "Name": "Thiel, Torp and Turcotte",
+      "Name": "Kovacek, Conroy and Quigley",
       "CanRestrictBy": true,
-      "RestrictionType": "maiores",
-      "RestrictionListName": "Heller-Johns",
+      "RestrictionType": "recusandae",
+      "RestrictionListName": "Greenfelder-Muller",
       "IsVisible": false,
-      "ExtraInfo": "sit",
-      "Width": "pariatur",
-      "IconHint": "ipsam",
-      "HeadingIconHint": "voluptates"
+      "ExtraInfo": "ut",
+      "Width": "consectetur",
+      "IconHint": "ducimus",
+      "HeadingIconHint": "autem"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Johnson, Steuber and Kohler",
-      "PrimaryKey": 282,
+      "EntityName": "Jacobson Group",
+      "PrimaryKey": 588,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "perspiciatis",
-          "TooltipHint": "corrupti",
-          "LinkHint": "molestiae"
+          "DisplayValue": "quo",
+          "TooltipHint": "impedit",
+          "LinkHint": "dignissimos"
         }
       },
-      "LinkHint": "placeat",
-      "StyleHint": "corporis",
+      "LinkHint": "commodi",
+      "StyleHint": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldLength": 407
         }
       }
     }
   ],
-  "RowCount": 818,
+  "RowCount": 687,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 510
     }
   }
 }

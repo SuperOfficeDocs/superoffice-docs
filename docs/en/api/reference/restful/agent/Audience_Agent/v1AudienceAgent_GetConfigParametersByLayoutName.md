@@ -42,16 +42,15 @@ POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 LayoutName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| LayoutName | string |  |
+| LayoutName | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +69,7 @@ Response body: array
 | UpdatedDate | date-time | The date and time the configuration parameter was last updated  in UTC. |
 | CreatedBy | string | Name of the person that created the configuration parameter |
 | UpdatedBy | string | Name of the person that last updated the configuration parameter |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -79,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Mertz-Kling"
+  "LayoutName": "Corwin-Nikolaus"
 }
 ```
 
@@ -95,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 520,
-    "Name": "Buckridge-Mitchell",
-    "Value": "culpa",
-    "CreatedDate": "1995-12-10T02:49:43.6847821+01:00",
-    "UpdatedDate": "2013-08-23T02:49:43.6847821+02:00",
-    "CreatedBy": "aspernatur",
-    "UpdatedBy": "necessitatibus",
+    "AudienceLayoutId": 453,
+    "Name": "Brown-Rosenbaum",
+    "Value": "sint",
+    "CreatedDate": "2001-09-28T17:37:16.8842438+02:00",
+    "UpdatedDate": "2013-01-22T17:37:16.8842438+01:00",
+    "CreatedBy": "corporis",
+    "UpdatedBy": "delectus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldLength": 999
       }
     }
   }

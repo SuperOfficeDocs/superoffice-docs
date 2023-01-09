@@ -38,17 +38,16 @@ POST /api/v1/Agents/Appointment/DeclineInvitationFromEmailItem?$select=name,depa
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 EmailItemId, RejectReason 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EmailItemId | int32 |  |
-| RejectReason | string |  |
+| EmailItemId | Integer |  |
+| RejectReason | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -56,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -65,12 +64,12 @@ Response body:
 POST /api/v1/Agents/Appointment/DeclineInvitationFromEmailItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailItemId": 814,
-  "RejectReason": ""
+  "EmailItemId": 30,
+  "RejectReason": "unleash bricks-and-clicks systems"
 }
 ```
 

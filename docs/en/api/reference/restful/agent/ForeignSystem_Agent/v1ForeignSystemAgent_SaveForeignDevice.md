@@ -42,17 +42,16 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignDevice?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ForeignDevice, ApplicationName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <para /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
-| ApplicationName | string |  |
+| ForeignDevice | ForeignDevice | Saves a foreign device belonging to the ForeignDevice and application name specified. <para /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
+| ApplicationName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignDevice
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body:
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,12 +81,12 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Skiles Inc and Sons"
+  "ApplicationName": "Hand, Dooley and Rempel"
 }
 ```
 
@@ -98,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 161,
-  "Name": "Aufderhar, Dickinson and Durgan",
-  "CreatedDate": "2014-06-12T02:49:44.561046+02:00",
-  "UpdatedDate": "2021-03-21T02:49:44.561046+01:00",
-  "AssociateFullName": "Bernadine Cummings",
-  "CreatedBy": "atque",
-  "UpdatedBy": "praesentium",
-  "DeviceIdentifier": "in",
-  "ForeignAppId": 423,
+  "ForeignDeviceId": 637,
+  "Name": "Friesen-Hegmann",
+  "CreatedDate": "2020-07-18T17:37:18.1122415+02:00",
+  "UpdatedDate": "2005-12-02T17:37:18.1122415+01:00",
+  "AssociateFullName": "Mrs. Nestor Cormier DDS",
+  "CreatedBy": "officiis",
+  "UpdatedBy": "eum",
+  "DeviceIdentifier": "id",
+  "ForeignAppId": 421,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldLength": 295
     }
   }
 }

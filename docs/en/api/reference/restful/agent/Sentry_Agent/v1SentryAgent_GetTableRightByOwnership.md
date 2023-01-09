@@ -42,18 +42,17 @@ POST /api/v1/Agents/Sentry/GetTableRightByOwnership?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, ContactGroupId, ContactAssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| ContactGroupId | int32 |  |
-| ContactAssociateId | int32 |  |
+| TableName | String |  |
+| ContactGroupId | Integer |  |
+| ContactAssociateId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: TableRight
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,9 +77,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wolf, Reynolds and West",
-  "ContactGroupId": 699,
-  "ContactAssociateId": 279
+  "TableName": "Hahn-Schneider",
+  "ContactGroupId": 447,
+  "ContactAssociateId": 50
 }
 ```
 

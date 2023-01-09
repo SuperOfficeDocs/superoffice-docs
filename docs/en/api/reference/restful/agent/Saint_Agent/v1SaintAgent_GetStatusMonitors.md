@@ -42,17 +42,16 @@ POST /api/v1/Agents/Saint/GetStatusMonitors?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Id, Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 |  |
-| Type | string |  |
+| Id | Integer |  |
+| Type | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +78,7 @@ Response body: array
 | NumMatches | int32 | Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1 |
 | NumNeedUpdate | int32 | Number of targets that had this status, but have their needsUpdate bit set due to some change |
 | GenerationStart | date-time | When was the last regeneration started |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,12 +87,12 @@ Response body: array
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 856,
-  "Type": "veritatis"
+  "Id": 93,
+  "Type": "quia"
 }
 ```
 
@@ -105,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 601,
-    "Rank": 117,
-    "DefaultTask": 730,
-    "DefaultTaskText": "autem",
+    "OwnerTable": 199,
+    "Rank": 719,
+    "DefaultTask": 528,
+    "DefaultTaskText": "fuga",
     "IsVisual": true,
-    "LastGenerated": "2010-05-08T02:49:45.0934673+02:00",
-    "Description": "Reverse-engineered foreground infrastructure",
-    "Name": "Bayer-Fisher",
-    "StatusMonitorId": 466,
-    "PictureId": 368,
-    "NeedsUpdate": false,
+    "LastGenerated": "2004-01-24T17:37:18.8142417+01:00",
+    "Description": "Sharable zero defect success",
+    "Name": "Kessler, Bednar and Abshire",
+    "StatusMonitorId": 973,
+    "PictureId": 891,
+    "NeedsUpdate": true,
     "Deleted": false,
-    "NumMatches": 603,
-    "NumNeedUpdate": 80,
-    "GenerationStart": "2017-06-05T02:49:45.0934673+02:00",
+    "NumMatches": 235,
+    "NumNeedUpdate": 391,
+    "GenerationStart": "2008-05-11T17:37:18.8142417+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldType": "System.Int32",
+        "FieldLength": 973
       }
     }
   }

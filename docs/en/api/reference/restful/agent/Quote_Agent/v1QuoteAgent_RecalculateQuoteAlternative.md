@@ -44,16 +44,15 @@ POST /api/v1/Agents/Quote/RecalculateQuoteAlternative?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteAlternative 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteAlternative | int32 |  |
+| QuoteAlternative | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,14 +60,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: QuoteAlternativeRecalculated
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLinesHasChanged | bool | If true any of the quotelines for the alternative has been changed. |
-| ChangedQuoteAlternative |  | The recalculated QuoteAlternative |
-| Changes |  | Tablename/recordid of data changed by this method |
-| TableRight |  |  |
+| ChangedQuoteAlternative | QuoteAlternative | The recalculated QuoteAlternative |
+| Changes | ChangedData | Tablename/recordid of data changed by this method |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,11 +76,11 @@ Response body:
 POST /api/v1/Agents/Quote/RecalculateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternative": 163
+  "QuoteAlternative": 384
 }
 ```
 
@@ -99,8 +98,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldType": "System.Int32",
+      "FieldLength": 828
     }
   }
 }

@@ -12,8 +12,6 @@ POST /api/v1/Agents/Replication/GetSatellite
 Gets a Satellite object.
 
 
-
-
 ## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
 
@@ -48,7 +46,7 @@ POST /api/v1/Agents/Replication/GetSatellite?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -56,19 +54,19 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Satellite
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SatelliteId | int32 | Primary key |
 | Created | date-time | Registered when  in UTC. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| Contact |  | Carrier object for Contact. Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
-| Area |  | Carrier object for Area. Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| Contact | Contact | Carrier object for Contact. Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
+| Area | Area | Carrier object for Area. Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>. |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +75,7 @@ Response body:
 POST /api/v1/Agents/Replication/GetSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,17 +85,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 32,
-  "Created": "2013-03-19T02:49:45.0778395+01:00",
+  "SatelliteId": 310,
+  "Created": "2016-03-20T17:37:18.7992564+01:00",
   "CreatedBy": null,
-  "Updated": "2002-01-19T02:49:45.0778395+01:00",
+  "Updated": "1997-10-14T17:37:18.800257+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Sanford, Emard and Flatley",
-      "Description": "Visionary neutral methodology",
+      "Name": "Wolff-Hand",
+      "Description": "Virtual actuating infrastructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -111,13 +109,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 782
+          "FieldLength": 975
         }
       }
     },
     {
-      "Name": "Sanford, Emard and Flatley",
-      "Description": "Visionary neutral methodology",
+      "Name": "Wolff-Hand",
+      "Description": "Virtual actuating infrastructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 782
+          "FieldLength": 975
         }
       }
     }
@@ -141,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 442
+      "FieldLength": 31
     }
   }
 }

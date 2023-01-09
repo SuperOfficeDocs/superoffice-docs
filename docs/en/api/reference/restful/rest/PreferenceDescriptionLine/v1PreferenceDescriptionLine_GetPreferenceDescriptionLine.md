@@ -48,7 +48,7 @@ GET /api/v1/PreferenceDescriptionLine/{id}?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 PreferenceDescriptionLine found.
 
@@ -57,7 +57,7 @@ PreferenceDescriptionLine found.
 | 200 | PreferenceDescriptionLine found. |
 | 404 | Not Found. |
 
-Response body: 
+### Response body: PreferenceDescriptionLineWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +67,7 @@ Response body:
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -87,23 +87,23 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 25,
-  "PrefDescId": 617,
-  "PrefValue": "aut",
-  "PrefShowValue": "nemo",
-  "Description": "Quality-focused human-resource concept",
+  "PrefDescLineId": 987,
+  "PrefDescId": 104,
+  "PrefValue": "occaecati",
+  "PrefShowValue": "assumenda",
+  "Description": "Multi-channelled intermediate installation",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldType": "System.String",
+      "FieldLength": 246
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

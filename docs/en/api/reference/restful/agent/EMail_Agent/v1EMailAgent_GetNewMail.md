@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/GetNewMail
 Get new email in folder(s) for current associate
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/EMail/GetNewMail?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Folders 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Folders | array |  |
+| Folders | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -63,21 +60,21 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ServerId | int32 | Unique id for the e-mail on the server |
 | MessageId | string | Unique id of e-mails |
 | Subject | string | Subject of the e-mail |
-| From |  | Who did the e-mail originate from |
+| From | EMailAddress | Who did the e-mail originate from |
 | To | array | To recipients of e-mail |
 | Sent | date-time | When was the e-mail sent |
 | Priority | string | Importance of the e-mail |
 | Flags | string | Flag status of this mail (unread, replied, deleted ) |
 | Size | int32 | Total size of the e-mail |
-| EMailSOInfo |  | Glue between SuperOffice data and an e-mail. |
-| TableRight |  |  |
+| EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,13 +83,13 @@ Response body: array
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    97,
-    539
+    59,
+    965
   ]
 }
 ```
@@ -105,45 +102,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 412,
-    "MessageId": "magnam",
-    "Subject": "dicta",
+    "ServerId": 274,
+    "MessageId": "soluta",
+    "Subject": "voluptate",
     "From": null,
     "To": [
       {
-        "ContactId": 29,
-        "ContactName": "Kling-Douglas",
-        "PersonId": 1001,
-        "PersonName": "Stark, Prohaska and O'Conner",
-        "AssociateId": 671,
-        "Address": "eius",
-        "EmailId": 634,
+        "ContactId": 139,
+        "ContactName": "Morissette LLC",
+        "PersonId": 659,
+        "PersonName": "Rice Inc and Sons",
+        "AssociateId": 859,
+        "Address": "harum",
+        "EmailId": 299,
         "DuplicatePersonIds": [
-          565,
-          245
+          672,
+          79
         ],
-        "Name": "Satterfield, Beer and Bernier",
+        "Name": "Crona-Hegmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldLength": 357
           }
         }
       }
     ],
-    "Sent": "2008-10-20T02:49:44.3722628+02:00",
+    "Sent": "2021-03-02T17:37:17.8682423+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 81,
+    "Size": 814,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldLength": 122
       }
     }
   }

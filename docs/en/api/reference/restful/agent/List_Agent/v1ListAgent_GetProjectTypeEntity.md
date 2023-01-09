@@ -25,7 +25,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=140
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=222
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/i
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ProjectTypeEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +66,7 @@ Response body:
 | HasGuide | bool | Does this project type have a guide attached |
 | IsAutoAdvance | bool | Does the project status advance automatically, when the last guided activity in a status is completed? |
 | Stages | array | Stages (project statuses), those associated with this ProjType are selected. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -75,7 +75,7 @@ Response body:
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,41 +85,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 769,
-  "Name": "Harber, Hauck and Harber",
-  "Tooltip": "et",
-  "Rank": 909,
+  "ProjTypeId": 244,
+  "Name": "Bashirian, Zboncak and Bahringer",
+  "Tooltip": "aut",
+  "Rank": 740,
   "DurationUnit": "Century",
-  "ProjectDuration": 265,
-  "Deleted": false,
-  "HasGuide": false,
-  "IsAutoAdvance": false,
+  "ProjectDuration": 467,
+  "Deleted": true,
+  "HasGuide": true,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 176,
-      "Name": "Paucek-Huel",
-      "ToolTip": "In ut qui et modi iste esse.",
+      "Id": 773,
+      "Name": "Nienow LLC",
+      "ToolTip": "Pariatur ad exercitationem neque.",
       "Deleted": false,
-      "Rank": 989,
-      "Type": "omnis",
-      "ColorBlock": 646,
-      "IconHint": "ut",
+      "Rank": 594,
+      "Type": "eveniet",
+      "ColorBlock": 353,
+      "IconHint": "libero",
       "Selected": false,
-      "LastChanged": "2009-07-30T02:49:44.5922969+02:00",
+      "LastChanged": "2000-10-17T17:37:18.1672422+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quasi",
-      "StyleHint": "ducimus",
+      "ExtraInfo": "nihil",
+      "StyleHint": "voluptas",
       "Hidden": true,
-      "FullName": "Alana Wolff",
+      "FullName": "Phoebe Alexanne Koch MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 38
+          "FieldLength": 780
         }
       }
     }

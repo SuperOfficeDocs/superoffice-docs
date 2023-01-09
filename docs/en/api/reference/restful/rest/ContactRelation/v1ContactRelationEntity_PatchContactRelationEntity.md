@@ -71,18 +71,17 @@ PATCH /api/v1/Relation/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| op | string | "add", "replace", "remove", "test" "move" and "copy" not supported |
-| path | string | The property names to modify.  "/users/0/email", "/users/-", |
-| value | object | New/Replaced value - string or object. |
+| op | String | "add", "replace", "remove", "test" "move" and "copy" not supported |
+| path | String | The property names to modify.  "/users/0/email", "/users/-", |
+| value | Object | New/Replaced value - string or object. |
 
-
-## Response: 
+## Response:
 
 ContactRelationEntity  updated.
 
@@ -93,7 +92,7 @@ ContactRelationEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ContactRelationEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
+### Response body: ContactRelationEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -107,15 +106,15 @@ Response body:
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -131,12 +130,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "occaecati",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "occaecati",
     "value": {}
   }
 ]
@@ -149,30 +148,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 837,
-  "SourcePersonId": 113,
-  "DestinationContactId": 899,
-  "DestinationPersonId": 868,
-  "RelationId": 122,
-  "Comment": "cumque",
-  "RelationDefinitionId": 350,
-  "Reversed": 475,
-  "UpdatedDate": "2008-12-16T02:49:50.8546634+01:00",
-  "CreatedDate": "2004-03-11T02:49:50.8546634+01:00",
+  "SourceContactId": 542,
+  "SourcePersonId": 990,
+  "DestinationContactId": 153,
+  "DestinationPersonId": 635,
+  "RelationId": 614,
+  "Comment": "quasi",
+  "RelationDefinitionId": 60,
+  "Reversed": 672,
+  "UpdatedDate": "1996-01-20T17:37:38.4808309+01:00",
+  "CreatedDate": "2010-07-21T17:37:38.4808309+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Wunsch, O'Reilly and Cummings",
-  "SourcePersonName": "Hermiston Inc and Sons",
-  "DestinationContactName": "Predovic Group",
-  "DestinationPersonName": "Murray Inc and Sons",
-  "ActiveText": "deserunt",
-  "PassiveText": "sunt",
+  "SourceContactName": "VonRueden-Schuster",
+  "SourcePersonName": "Lehner, Zemlak and Beahan",
+  "DestinationContactName": "Gottlieb-Gerlach",
+  "DestinationPersonName": "Auer Group",
+  "ActiveText": "qui",
+  "PassiveText": "sequi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 330
     }
   },
   "_Links": {

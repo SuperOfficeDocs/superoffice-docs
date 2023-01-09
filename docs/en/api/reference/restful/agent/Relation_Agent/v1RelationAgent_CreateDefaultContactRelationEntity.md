@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ContactRelationEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,15 +56,15 @@ Response body:
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -73,7 +73,7 @@ Response body:
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 308,
-  "SourcePersonId": 394,
-  "DestinationContactId": 552,
-  "DestinationPersonId": 441,
-  "RelationId": 961,
-  "Comment": "temporibus",
-  "RelationDefinitionId": 235,
-  "Reversed": 656,
-  "UpdatedDate": "2006-02-17T02:49:45.0622144+01:00",
-  "CreatedDate": "2010-05-26T02:49:45.0622144+02:00",
+  "SourceContactId": 287,
+  "SourcePersonId": 433,
+  "DestinationContactId": 98,
+  "DestinationPersonId": 693,
+  "RelationId": 102,
+  "Comment": "qui",
+  "RelationDefinitionId": 11,
+  "Reversed": 42,
+  "UpdatedDate": "2003-07-14T17:37:18.7772428+02:00",
+  "CreatedDate": "2007-04-10T17:37:18.7772428+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Block Group",
-  "SourcePersonName": "Breitenberg, Wehner and Reilly",
-  "DestinationContactName": "Paucek Inc and Sons",
-  "DestinationPersonName": "Walsh LLC",
-  "ActiveText": "et",
-  "PassiveText": "optio",
+  "SourceContactName": "Fay Group",
+  "SourcePersonName": "Balistreri-Hirthe",
+  "DestinationContactName": "Rath, Kerluke and Hammes",
+  "DestinationPersonName": "Sanford Group",
+  "ActiveText": "nisi",
+  "PassiveText": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldType": "System.String",
+      "FieldLength": 10
     }
   }
 }

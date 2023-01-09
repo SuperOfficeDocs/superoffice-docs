@@ -26,7 +26,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=eveniet
+GET /api/v1/List/DeliveryTerm/MDOItems?query=consectetur
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/DeliveryTerm/MDOItems?query=eveniet
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Name": "Hessel, Hayes and Bartoletti",
-    "ToolTip": "Aut dignissimos ut.",
-    "Deleted": true,
-    "Rank": 745,
-    "Type": "impedit",
+    "Id": 418,
+    "Name": "Rippin-Ferry",
+    "ToolTip": "Soluta sed non.",
+    "Deleted": false,
+    "Rank": 961,
+    "Type": "inventore",
     "ChildItems": [
       {
-        "Id": 566,
-        "Name": "Waters LLC",
-        "ToolTip": "Quo dolorum tenetur nihil voluptas qui possimus.",
+        "Id": 413,
+        "Name": "Gutmann LLC",
+        "ToolTip": "Voluptatibus voluptas vel aliquam explicabo quia.",
         "Deleted": false,
-        "Rank": 483,
-        "Type": "enim",
+        "Rank": 885,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 840,
-        "ExtraInfo": "at",
-        "StyleHint": "sint",
-        "FullName": "Shanel Osinski IV",
+        "IconHint": "saepe",
+        "ColorBlock": 163,
+        "ExtraInfo": "amet",
+        "StyleHint": "eveniet",
+        "FullName": "Maximus Raynor",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 981
+            "FieldLength": 306
           }
         }
       }
     ],
-    "IconHint": "iusto",
-    "ColorBlock": 27,
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "beatae",
-    "FullName": "Ms. Orville Mitchel Koss DDS",
+    "IconHint": "fuga",
+    "ColorBlock": 183,
+    "ExtraInfo": "facilis",
+    "StyleHint": "vero",
+    "FullName": "Rahsaan Cummerata",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 567
       }
     }
   }

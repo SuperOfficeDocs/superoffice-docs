@@ -38,18 +38,17 @@ POST /api/v1/Agents/Quote/SaveQuoteLineImage?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteLineId, Image, Rank 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLineId | int32 |  |
-| Image | byte |  |
-| Rank | int32 |  |
+| QuoteLineId | Integer |  |
+| Image | String |  |
+| Rank | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -57,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -66,13 +65,13 @@ Response body:
 POST /api/v1/Agents/Quote/SaveQuoteLineImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 638,
+  "QuoteLineId": 710,
   "Image": "GIF89....File contents as raw bytes...",
-  "Rank": 266
+  "Rank": 113
 }
 ```
 

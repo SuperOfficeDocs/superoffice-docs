@@ -34,7 +34,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Dash
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,14 +52,14 @@ Response body:
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
 | Columns | int32 | How many columns there will be in the dashboard. |
-| Theme |  | The theme for this dashboard |
+| Theme | DashTheme | The theme for this dashboard |
 | VisibleForAll | int32 | True if visible for all |
 | VisibleForAssociates | array | Array of references to the visible for associates |
 | VisibleForGroups | array | Array of references to the visible for groups |
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -68,7 +68,7 @@ Response body:
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 678,
-  "UniqueId": "officia",
-  "Name": "Marvin-Schroeder",
-  "Description": "Devolved 4th generation task-force",
-  "AssociateId": 22,
-  "Columns": 834,
+  "DashboardId": 714,
+  "UniqueId": "aut",
+  "Name": "Casper-Stamm",
+  "Description": "Up-sized hybrid utilisation",
+  "AssociateId": 604,
+  "Columns": 581,
   "Theme": null,
-  "VisibleForAll": 280,
+  "VisibleForAll": 932,
   "VisibleForAssociates": [
-    328,
-    831
+    180,
+    178
   ],
   "VisibleForGroups": [
-    424,
-    390
+    43,
+    286
   ],
-  "PinForAll": 833,
+  "PinForAll": 103,
   "PinForAssociates": [
-    505,
-    708
+    198,
+    403
   ],
   "PinForGroups": [
-    686,
-    337
+    399,
+    763
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 886
     }
   }
 }

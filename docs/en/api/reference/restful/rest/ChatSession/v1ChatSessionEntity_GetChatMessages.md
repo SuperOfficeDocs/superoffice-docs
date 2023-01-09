@@ -28,7 +28,7 @@ Get all or some of the messages in a chat session
 | after | int32 |  Return messages after this message id |
 
 ```http
-GET /api/v1/ChatSession/{chatSessionId}/Messages?after=294
+GET /api/v1/ChatSession/{chatSessionId}/Messages?after=341
 ```
 
 
@@ -46,7 +46,7 @@ GET /api/v1/ChatSession/{chatSessionId}/Messages?after=294
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -54,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,15 +85,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 4,
-    "ChatSessionId": 100,
+    "ChatMessageId": 442,
+    "ChatSessionId": 638,
     "Type": "Invalid",
-    "Message": "labore",
-    "Author": "voluptatem",
-    "ReadByCustomer": 427,
+    "Message": "doloremque",
+    "Author": "facilis",
+    "ReadByCustomer": 499,
     "SpecialType": "Block",
-    "SpecialParam": "in",
-    "WhenPosted": "2014-02-09T02:49:50.682786+01:00"
+    "SpecialParam": "ut",
+    "WhenPosted": "2007-07-01T17:37:38.289867+02:00"
   }
 ]
 ```

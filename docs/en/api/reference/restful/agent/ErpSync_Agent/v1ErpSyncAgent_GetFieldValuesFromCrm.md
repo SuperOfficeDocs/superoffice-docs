@@ -12,8 +12,6 @@ POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Get Crm Field values
 
 
-
-
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 RecordId, ActorTypeCrm 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RecordId | int32 |  |
-| ActorTypeCrm | string |  |
+| RecordId | Integer |  |
+| ActorTypeCrm | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +71,7 @@ Response body: array
 | DisplayValue | string |  |
 | SyncToCrm | bool | Should value changes in ERP be automatically transferred to CRM |
 | SyncToErp | bool | Should value changes in CRM be automatically transferred to ERP |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,11 +80,11 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 843,
+  "RecordId": 707,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -100,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Prosacco, Kuhn and Prohaska",
-    "CrmFieldKey": "quia",
-    "Value": "quae",
-    "DisplayValue": "adipisci",
-    "SyncToCrm": false,
-    "SyncToErp": true,
+    "DisplayName": "Block, Trantow and Schowalter",
+    "CrmFieldKey": "ut",
+    "Value": "placeat",
+    "DisplayValue": "dolorum",
+    "SyncToCrm": true,
+    "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 497
+        "FieldType": "System.String",
+        "FieldLength": 270
       }
     }
   }

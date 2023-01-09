@@ -26,7 +26,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=ab
+GET /api/v1/List/PaymentTerm/MDOItems?query=consectetur
 ```
 
 
@@ -44,7 +44,7 @@ GET /api/v1/List/PaymentTerm/MDOItems?query=ab
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +68,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Lehner-Braun",
-    "ToolTip": "Ducimus odit dignissimos iure quibusdam.",
-    "Deleted": false,
-    "Rank": 316,
-    "Type": "quidem",
+    "Id": 637,
+    "Name": "Donnelly Inc and Sons",
+    "ToolTip": "Et aliquam sint.",
+    "Deleted": true,
+    "Rank": 761,
+    "Type": "nesciunt",
     "ChildItems": [
       {
-        "Id": 371,
-        "Name": "Pfeffer LLC",
-        "ToolTip": "Velit consequatur optio sint assumenda.",
-        "Deleted": true,
-        "Rank": 986,
-        "Type": "placeat",
+        "Id": 488,
+        "Name": "Dicki, Lebsack and Murray",
+        "ToolTip": "Necessitatibus id fugit.",
+        "Deleted": false,
+        "Rank": 58,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloremque",
-        "ColorBlock": 821,
-        "ExtraInfo": "est",
-        "StyleHint": "voluptas",
-        "FullName": "Rhianna Graham",
+        "IconHint": "pariatur",
+        "ColorBlock": 182,
+        "ExtraInfo": "veritatis",
+        "StyleHint": "aliquam",
+        "FullName": "Stacy Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 517
+            "FieldType": "System.String",
+            "FieldLength": 917
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 645,
-    "ExtraInfo": "sunt",
-    "StyleHint": "fugiat",
-    "FullName": "Jammie Stoltenberg Jr.",
+    "IconHint": "fugit",
+    "ColorBlock": 515,
+    "ExtraInfo": "ad",
+    "StyleHint": "magnam",
+    "FullName": "Erika Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldLength": 756
       }
     }
   }

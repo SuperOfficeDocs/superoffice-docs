@@ -42,16 +42,15 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointment?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AppointmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AppointmentId | int32 |  |
+| AppointmentId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Appointment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -112,7 +111,7 @@ Response body:
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -125,7 +124,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 436
+  "AppointmentId": 317
 }
 ```
 
@@ -136,61 +135,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 322,
-  "StartDate": "2002-05-02T02:49:43.2304992+02:00",
-  "EndDate": "2011-06-14T02:49:43.2304992+02:00",
+  "AppointmentId": 715,
+  "StartDate": "2010-06-20T17:37:16.2502423+02:00",
+  "EndDate": "2004-07-20T17:37:16.2502423+02:00",
   "Type": "BookingForChecklist",
-  "Task": "officiis",
-  "AssociateFullName": "Chauncey Johnson",
-  "ContactName": "Koelpin-Goyette",
-  "Description": "Upgradable modular orchestration",
-  "PersonFullName": "Barbara Torp",
-  "PersonId": 551,
-  "ContactId": 939,
-  "ProjectId": 82,
-  "ProjectName": "Nolan Group",
-  "IsPublished": true,
-  "AssociateId": 578,
-  "ColorIndex": 57,
-  "IsFree": true,
+  "Task": "consequuntur",
+  "AssociateFullName": "Ms. Gregoria Murray",
+  "ContactName": "Casper Group",
+  "Description": "Implemented exuding capacity",
+  "PersonFullName": "Cameron Block",
+  "PersonId": 902,
+  "ContactId": 378,
+  "ProjectId": 289,
+  "ProjectName": "Mertz, Gleichner and Koss",
+  "IsPublished": false,
+  "AssociateId": 175,
+  "ColorIndex": 377,
+  "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 734,
-  "PriorityName": "Nader-Torp",
+  "PriorityId": 981,
+  "PriorityName": "Hirthe LLC",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "1996-09-08T02:49:43.2304992+02:00",
+  "IsBooking": true,
+  "ActiveDate": "2013-07-18T17:37:16.2512411+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2007-01-23T02:49:43.2304992+01:00",
-  "RecurringEndDate": "2013-11-10T02:49:43.2304992+01:00",
-  "MotherId": 285,
-  "AssignedBy": 583,
-  "AssignedByFullName": "Leonard Witting",
+  "RecurringStartDate": "2011-12-21T17:37:16.2512411+01:00",
+  "RecurringEndDate": "2001-01-18T17:37:16.2512411+01:00",
+  "MotherId": 710,
+  "AssignedBy": 763,
+  "AssignedByFullName": "Violet Jaskolski",
   "RejectReason": "",
-  "Location": "iusto",
-  "AlarmLeadTime": "velit",
-  "SaleId": 503,
-  "SaleName": "Batz, Braun and Wilkinson",
-  "AssociateName": "Schaefer, Schamberger and Fritsch",
-  "CreatedDate": "2016-03-14T02:49:43.2304992+01:00",
-  "CreatedBy": "error",
-  "CreatedByFullName": "Trenton Steuber",
-  "CreatedByAssociateId": 369,
+  "Location": "tempore",
+  "AlarmLeadTime": "est",
+  "SaleId": 449,
+  "SaleName": "Stracke-Lowe",
+  "AssociateName": "Torphy Group",
+  "CreatedDate": "2008-02-27T17:37:16.2512411+01:00",
+  "CreatedBy": "dignissimos",
+  "CreatedByFullName": "Grover Considine",
+  "CreatedByAssociateId": 26,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 93
     }
   }
 }

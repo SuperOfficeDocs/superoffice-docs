@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/GetProductFromDbId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProductId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProductId | int32 |  |
+| ProductId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Product
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,7 +96,7 @@ Response body:
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -106,11 +105,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 510
+  "ProductId": 529
 }
 ```
 
@@ -121,73 +120,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 70,
-  "ERPProductKey": "magnam",
-  "ERPPriceListKey": "consequatur",
-  "Name": "Fritsch, Witting and Zieme",
-  "Description": "Automated neutral approach",
-  "Code": "blanditiis",
-  "PriceUnit": "sunt",
-  "QuantityUnit": "incidunt",
+  "ProductId": 229,
+  "ERPProductKey": "est",
+  "ERPPriceListKey": "asperiores",
+  "Name": "Bartoletti-Kirlin",
+  "Description": "Pre-emptive modular complexity",
+  "Code": "non",
+  "PriceUnit": "sed",
+  "QuantityUnit": "sint",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptatem",
-  "DefaultSubscriptionQuantity": 5644.334,
-  "ItemNumber": "1611625",
+  "SubscriptionUnit": "iusto",
+  "DefaultSubscriptionQuantity": 814.83999999999992,
+  "ItemNumber": "929129",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consectetur",
-  "ProductTypeKey": "dicta",
-  "VAT": 17700.832,
-  "VATInfo": "porro",
-  "UnitCost": 24416.994,
-  "UnitMinimumPrice": 22796.716,
-  "UnitListPrice": 31130.021999999997,
-  "InAssortment": false,
-  "Supplier": "doloribus",
-  "SupplierCode": "quae",
-  "Rights": "et",
-  "Rule": "blanditiis",
+  "ProductFamilyKey": "quae",
+  "ProductTypeKey": "error",
+  "VAT": 28259.278,
+  "VATInfo": "quia",
+  "UnitCost": 27259.532,
+  "UnitMinimumPrice": 13012.368,
+  "UnitListPrice": 4954.854,
+  "InAssortment": true,
+  "Supplier": "neque",
+  "SupplierCode": "eligendi",
+  "Rights": "placeat",
+  "Rule": "est",
   "ExtraInfo": [
     {
-      "Name": "VonRueden Inc and Sons",
-      "Value": "molestiae",
+      "Name": "Littel, Tremblay and Johnson",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldType": "System.String",
+          "FieldLength": 36
         }
       }
     },
     {
-      "Name": "VonRueden Inc and Sons",
-      "Value": "molestiae",
+      "Name": "Littel, Tremblay and Johnson",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldType": "System.String",
+          "FieldLength": 36
         }
       }
     }
   ],
   "RawExtraInfo": "eos",
-  "ExtraField1": "autem",
-  "ExtraField2": "culpa",
-  "ExtraField3": "quae",
-  "ExtraField4": "error",
-  "ExtraField5": "quia",
-  "InStock": 29252.755999999998,
+  "ExtraField1": "beatae",
+  "ExtraField2": "enim",
+  "ExtraField3": "itaque",
+  "ExtraField4": "voluptates",
+  "ExtraField5": "quam",
+  "InStock": 698.882,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 593
+      "FieldType": "System.Int32",
+      "FieldLength": 300
     }
   }
 }

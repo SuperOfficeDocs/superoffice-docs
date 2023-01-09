@@ -44,18 +44,17 @@ POST /api/v1/Agents/Report/CreateFavorite?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SourceId, Name, Description 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SourceId | int32 |  |
-| Name | string |  |
-| Description | string |  |
+| SourceId | Integer |  |
+| Name | String |  |
+| Description | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -63,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ReportEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +74,7 @@ Response body:
 | AssociateId | int32 | The owner of the report. |
 | TemplateId | int32 | The id of report template. |
 | Published | bool | Is the report published? |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,13 +83,13 @@ Response body:
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 430,
-  "Name": "Ratke-Gleason",
-  "Description": "Quality-focused directional monitoring"
+  "SourceId": 513,
+  "Name": "Herman-Gibson",
+  "Description": "Centralized intermediate core"
 }
 ```
 
@@ -101,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 240,
+  "ReportId": 182,
   "ReportCategory": "All",
-  "Description": "Persistent didactic initiative",
+  "Description": "Expanded user-facing capability",
   "ReportLayout": "CalendarMonth",
-  "Name": "Metz-Wehner",
-  "AssociateId": 408,
-  "TemplateId": 293,
-  "Published": false,
+  "Name": "Stokes, Simonis and Dooley",
+  "AssociateId": 983,
+  "TemplateId": 15,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 177
+      "FieldType": "System.Int32",
+      "FieldLength": 814
     }
   }
 }

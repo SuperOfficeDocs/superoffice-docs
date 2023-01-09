@@ -38,20 +38,19 @@ POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests?$select=n
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 SelectionId, AddCompanyInterests, RemoveCompanyInterests, AddContactInterests, RemoveContactInterests 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionId | int32 |  |
-| AddCompanyInterests | array |  |
-| RemoveCompanyInterests | array |  |
-| AddContactInterests | array |  |
-| RemoveContactInterests | array |  |
+| SelectionId | Integer |  |
+| AddCompanyInterests | Array |  |
+| RemoveCompanyInterests | Array |  |
+| AddContactInterests | Array |  |
+| RemoveContactInterests | Array |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -59,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -68,26 +67,26 @@ Response body:
 POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 884,
+  "SelectionId": 525,
   "AddCompanyInterests": [
-    99,
-    565
+    664,
+    257
   ],
   "RemoveCompanyInterests": [
-    517,
-    705
+    488,
+    370
   ],
   "AddContactInterests": [
-    248,
-    421
+    330,
+    502
   ],
   "RemoveContactInterests": [
-    47,
-    149
+    982,
+    743
   ]
 }
 ```

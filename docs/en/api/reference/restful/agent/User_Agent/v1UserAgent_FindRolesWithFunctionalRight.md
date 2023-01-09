@@ -47,16 +47,15 @@ POST /api/v1/Agents/User/FindRolesWithFunctionalRight?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 FunctionalRightName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| FunctionalRightName | string |  |
+| FunctionalRightName | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,7 +92,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Strosin, Mueller and Huels"
+  "FunctionalRightName": "Vandervort Group"
 }
 ```
 
@@ -105,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "Crona, Wilkinson and Rohan",
-    "ToolTip": "Debitis debitis adipisci quasi sint soluta aut.",
+    "Id": 529,
+    "Name": "Moore, Bins and Hessel",
+    "ToolTip": "Sit pariatur eum dolores quam et aliquid.",
     "Deleted": false,
-    "Rank": 493,
-    "Type": "quia",
+    "Rank": 56,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 285,
-        "Name": "Quigley LLC",
-        "ToolTip": "Nihil maxime dolores dolor reiciendis quia similique.",
+        "Id": 891,
+        "Name": "Toy Group",
+        "ToolTip": "Culpa porro odio est voluptatem.",
         "Deleted": false,
-        "Rank": 85,
-        "Type": "tempore",
+        "Rank": 150,
+        "Type": "occaecati",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 709,
-        "ExtraInfo": "illum",
-        "StyleHint": "assumenda",
-        "FullName": "Miss Bert Cade Schmidt II",
+        "IconHint": "eos",
+        "ColorBlock": 581,
+        "ExtraInfo": "sapiente",
+        "StyleHint": "libero",
+        "FullName": "Mr. Alaina Narciso Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 850
+            "FieldType": "System.Int32",
+            "FieldLength": 130
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 907,
-    "ExtraInfo": "ut",
-    "StyleHint": "minima",
-    "FullName": "Warren Ferry",
+    "IconHint": "velit",
+    "ColorBlock": 78,
+    "ExtraInfo": "quis",
+    "StyleHint": "voluptas",
+    "FullName": "Arvel Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 646
       }
     }
   }

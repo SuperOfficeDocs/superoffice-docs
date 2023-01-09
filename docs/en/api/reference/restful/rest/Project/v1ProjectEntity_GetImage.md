@@ -34,9 +34,9 @@ scaled and converted to the requested type.
 | ifBlank | Enum: Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder, Null, GenericFileIcon |  What to return if there is no picture (default = Null = 404 Error) (Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder) |
 
 ```http
-GET /api/v1/Project/{projectId}/Image?w=393
-GET /api/v1/Project/{projectId}/Image?h=450
-GET /api/v1/Project/{projectId}/Image?type=incidunt
+GET /api/v1/Project/{projectId}/Image?w=428
+GET /api/v1/Project/{projectId}/Image?h=60
+GET /api/v1/Project/{projectId}/Image?type=omnis
 GET /api/v1/Project/{projectId}/Image?ifBlank=ClearPixel
 ```
 
@@ -55,7 +55,7 @@ GET /api/v1/Project/{projectId}/Image?ifBlank=ClearPixel
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: byte
+## Response:byte
 
 An image
 
@@ -64,7 +64,7 @@ An image
 | 200 | An image |
 | 404 | No image on this project (when ifBlank not defined) |
 
-Response body: byte
+### Response body: byte
 
 
 ## Sample request
@@ -73,7 +73,7 @@ Response body: byte
 GET /api/v1/Project/{projectId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

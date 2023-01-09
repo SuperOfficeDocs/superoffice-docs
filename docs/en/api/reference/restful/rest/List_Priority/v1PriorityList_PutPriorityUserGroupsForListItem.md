@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 92,
-    "Name": "Murray Inc and Sons",
-    "ToolTip": "Asperiores eligendi aut et ut.",
+    "Id": 619,
+    "Name": "Gutkowski Group",
+    "ToolTip": "Similique saepe.",
     "Deleted": true,
-    "Rank": 959,
-    "Type": "earum",
-    "ColorBlock": 491,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2018-05-07T02:49:52.3440724+02:00",
+    "Rank": 73,
+    "Type": "repellat",
+    "ColorBlock": 714,
+    "IconHint": "deleniti",
+    "Selected": false,
+    "LastChanged": "2016-09-19T17:37:40.1284959+02:00",
     "ChildItems": [
       {
-        "Id": 514,
-        "Name": "Johns-Smitham",
-        "ToolTip": "Animi tempora.",
+        "Id": 718,
+        "Name": "Dibbert Group",
+        "ToolTip": "Libero adipisci sequi.",
         "Deleted": false,
-        "Rank": 407,
-        "Type": "dolor",
-        "ColorBlock": 518,
-        "IconHint": "id",
+        "Rank": 795,
+        "Type": "vel",
+        "ColorBlock": 668,
+        "IconHint": "molestiae",
         "Selected": true,
-        "LastChanged": "2000-02-21T02:49:52.3440724+01:00",
+        "LastChanged": "2007-05-15T17:37:40.1284959+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Edison Senger"
+        "ExtraInfo": "ex",
+        "StyleHint": "modi",
+        "Hidden": false,
+        "FullName": "Bella Aufderhar"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "debitis",
-    "Hidden": true,
-    "FullName": "Genevieve Waelchi"
+    "ExtraInfo": "quaerat",
+    "StyleHint": "quaerat",
+    "Hidden": false,
+    "FullName": "Sven Bailey"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Wintheiser Inc and Sons",
-    "ToolTip": "Odit incidunt aut id ipsum ipsam ducimus dolores.",
-    "Deleted": true,
-    "Rank": 682,
-    "Type": "omnis",
-    "ColorBlock": 273,
-    "IconHint": "qui",
+    "Id": 288,
+    "Name": "Stehr-Nikolaus",
+    "ToolTip": "Consequatur qui nesciunt voluptate explicabo reprehenderit.",
+    "Deleted": false,
+    "Rank": 163,
+    "Type": "placeat",
+    "ColorBlock": 819,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2001-09-02T02:49:52.3440724+02:00",
+    "LastChanged": "1998-05-26T17:37:40.1295011+02:00",
     "ChildItems": [
       {
-        "Id": 652,
-        "Name": "Sipes, Schowalter and O'Reilly",
-        "ToolTip": "Pariatur voluptas quo deserunt dolores.",
-        "Deleted": false,
-        "Rank": 176,
-        "Type": "sed",
-        "ColorBlock": 511,
-        "IconHint": "asperiores",
+        "Id": 309,
+        "Name": "Monahan-Stokes",
+        "ToolTip": "Aperiam libero hic.",
+        "Deleted": true,
+        "Rank": 278,
+        "Type": "et",
+        "ColorBlock": 68,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "2007-12-16T02:49:52.3440724+01:00",
+        "LastChanged": "2012-06-22T17:37:40.1295011+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "odit",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Jayden Hills",
+        "FullName": "Yadira Brakus Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 578
+            "FieldLength": 824
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "ad",
+    "ExtraInfo": "et",
+    "StyleHint": "quaerat",
     "Hidden": true,
-    "FullName": "Miss Jeffery Carole Steuber DDS",
+    "FullName": "Scotty Koepp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 268
+        "FieldType": "System.Int32",
+        "FieldLength": 633
       }
     }
   }

@@ -38,7 +38,7 @@ Calls the MDO agent service GetList('preferenceKey').
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +62,7 @@ Response body: array
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -82,50 +82,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Kihn, White and Murphy",
-    "ToolTip": "Cumque doloremque in laudantium qui quo doloribus est.",
+    "Id": 5,
+    "Name": "Prohaska LLC",
+    "ToolTip": "Placeat fuga aperiam qui.",
     "Deleted": true,
-    "Rank": 450,
-    "Type": "unde",
+    "Rank": 670,
+    "Type": "sapiente",
     "ChildItems": [
       {
-        "Id": 419,
-        "Name": "Smitham, Fritsch and Renner",
-        "ToolTip": "Adipisci blanditiis porro nihil.",
-        "Deleted": false,
-        "Rank": 198,
-        "Type": "quia",
+        "Id": 572,
+        "Name": "Kunze LLC",
+        "ToolTip": "Tempore nemo repellat doloremque dolor.",
+        "Deleted": true,
+        "Rank": 782,
+        "Type": "rerum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellat",
-        "ColorBlock": 17,
-        "ExtraInfo": "sunt",
-        "StyleHint": "eos",
-        "FullName": "Mrs. Margarett Madison Leuschke",
+        "IconHint": "voluptatum",
+        "ColorBlock": 580,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "facere",
+        "FullName": "Litzy Bernier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 5
+            "FieldLength": 943
           }
         }
       }
     ],
-    "IconHint": "repellendus",
-    "ColorBlock": 356,
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "et",
-    "FullName": "Javonte Batz",
+    "IconHint": "corrupti",
+    "ColorBlock": 826,
+    "ExtraInfo": "minima",
+    "StyleHint": "assumenda",
+    "FullName": "Myrtis McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 159
+        "FieldLength": 548
       }
     }
   }

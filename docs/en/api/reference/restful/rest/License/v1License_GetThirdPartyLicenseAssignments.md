@@ -37,7 +37,7 @@ Get license assignments for an associate for licenses belonging to an other modu
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +63,7 @@ Response body: array
 | PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
 | SortOrder | int32 | Sort order of licenses. |
 | ExtraFlags | int32 | License flags. 1 = user plan |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,25 +84,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 93,
-    "Tooltip": "quia",
+    "Total": 775,
+    "Tooltip": "dignissimos",
     "CanAssign": false,
-    "Free": 236,
-    "InUse": 591,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 75,
-    "Name": "Gerhold-Cremin",
-    "Description": "Decentralized systemic core",
-    "PrerequisiteModuleName": "Weimann, Braun and Klocko",
-    "SortOrder": 360,
-    "ExtraFlags": 126,
+    "Free": 126,
+    "InUse": 445,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 315,
+    "Name": "Koelpin, Barton and Legros",
+    "Description": "Up-sized attitude-oriented interface",
+    "PrerequisiteModuleName": "Welch Group",
+    "SortOrder": 199,
+    "ExtraFlags": 744,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 718
+        "FieldType": "System.Int32",
+        "FieldLength": 29
       }
     }
   }

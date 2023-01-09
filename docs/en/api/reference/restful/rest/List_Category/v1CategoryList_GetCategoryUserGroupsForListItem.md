@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "Runte LLC",
-    "ToolTip": "Voluptatum perspiciatis reiciendis.",
+    "Id": 93,
+    "Name": "Reynolds, McDermott and Prosacco",
+    "ToolTip": "Sit labore totam ut qui.",
     "Deleted": false,
-    "Rank": 483,
-    "Type": "excepturi",
-    "ColorBlock": 523,
-    "IconHint": "culpa",
+    "Rank": 866,
+    "Type": "quas",
+    "ColorBlock": 301,
+    "IconHint": "mollitia",
     "Selected": false,
-    "LastChanged": "2018-11-08T02:49:51.9065706+01:00",
+    "LastChanged": "1997-11-10T17:37:39.6754355+01:00",
     "ChildItems": [
       {
-        "Id": 470,
-        "Name": "Bartell-Lowe",
-        "ToolTip": "Eius dolorem corporis quos.",
+        "Id": 177,
+        "Name": "Torp-O'Kon",
+        "ToolTip": "Modi porro itaque voluptatem et.",
         "Deleted": false,
-        "Rank": 831,
-        "Type": "velit",
-        "ColorBlock": 337,
-        "IconHint": "earum",
-        "Selected": true,
-        "LastChanged": "2018-05-05T02:49:51.9065706+02:00",
+        "Rank": 733,
+        "Type": "est",
+        "ColorBlock": 658,
+        "IconHint": "ipsam",
+        "Selected": false,
+        "LastChanged": "2020-08-09T17:37:39.6754355+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "saepe",
-        "Hidden": true,
-        "FullName": "Christy McLaughlin",
+        "ExtraInfo": "esse",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Ms. Zachery Willis Lueilwitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 141
+            "FieldLength": 673
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "nemo",
+    "StyleHint": "aliquid",
     "Hidden": false,
-    "FullName": "Junius Waters IV",
+    "FullName": "Miss Cloyd Marlee Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldLength": 922
       }
     }
   }

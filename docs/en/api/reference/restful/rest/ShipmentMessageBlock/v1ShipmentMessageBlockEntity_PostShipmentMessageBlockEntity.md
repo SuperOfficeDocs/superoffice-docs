@@ -44,23 +44,22 @@ POST /api/v1/ShipmentMessageBlock?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity 
 
 The ShipmentMessageBlockEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ShipmentMessageBlockId | int32 | Primary key |
-| AssociateId | int32 | The associate that owns this block |
-| Block | string | The block definition. Normally this will be a json structure |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredAssociateId | int32 | Registered by whom |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedAssociateId | int32 | Last updated by whom |
-| UpdatedCount | int32 | Number of updates made to this record |
+| ShipmentMessageBlockId | Integer | Primary key |
+| AssociateId | Integer | The associate that owns this block |
+| Block | String | The block definition. Normally this will be a json structure |
+| Registered | String | Registered when  in UTC. |
+| RegisteredAssociateId | Integer | Registered by whom |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedAssociateId | Integer | Last updated by whom |
+| UpdatedCount | Integer | Number of updates made to this record |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -68,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ShipmentMessageBlockEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +79,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
@@ -90,18 +89,18 @@ Response body:
 POST /api/v1/ShipmentMessageBlock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 652,
-  "AssociateId": 489,
-  "Block": "ea",
-  "Registered": "2008-01-25T02:49:51.536309+01:00",
-  "RegisteredAssociateId": 284,
-  "Updated": "2021-05-20T02:49:51.536309+02:00",
-  "UpdatedAssociateId": 637,
-  "UpdatedCount": 743
+  "ShipmentMessageBlockId": 869,
+  "AssociateId": 993,
+  "Block": "cum",
+  "Registered": "2017-02-28T17:37:39.2233032+01:00",
+  "RegisteredAssociateId": 884,
+  "Updated": "2008-11-12T17:37:39.2233032+01:00",
+  "UpdatedAssociateId": 16,
+  "UpdatedCount": 771
 }
 ```
 
@@ -112,20 +111,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 871,
-  "AssociateId": 345,
-  "Block": "accusamus",
-  "Registered": "2001-09-14T02:49:51.536309+02:00",
-  "RegisteredAssociateId": 147,
-  "Updated": "2011-02-24T02:49:51.536309+01:00",
-  "UpdatedAssociateId": 725,
-  "UpdatedCount": 593,
+  "ShipmentMessageBlockId": 16,
+  "AssociateId": 132,
+  "Block": "doloribus",
+  "Registered": "2020-07-15T17:37:39.2233032+02:00",
+  "RegisteredAssociateId": 554,
+  "Updated": "2000-07-15T17:37:39.2233032+02:00",
+  "UpdatedAssociateId": 270,
+  "UpdatedCount": 815,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 436
     }
   },
   "_Links": {

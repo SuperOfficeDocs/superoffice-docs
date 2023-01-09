@@ -38,18 +38,17 @@ POST /api/v1/Agents/Favourite/RemoveFavourite?$select=name,department,category/i
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TableName, RecordId, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TableName | string |  |
-| RecordId | int32 |  |
-| AssociateId | int32 |  |
+| TableName | String |  |
+| RecordId | Integer |  |
+| AssociateId | Integer |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -57,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -66,13 +65,13 @@ Response body:
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "West-Morar",
-  "RecordId": 708,
-  "AssociateId": 636
+  "TableName": "Mosciski, VonRueden and Cormier",
+  "RecordId": 208,
+  "AssociateId": 568
 }
 ```
 

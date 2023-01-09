@@ -42,21 +42,20 @@ POST /api/v1/Agents/Report/GenerateReport?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ReportId, LabelLayoutId, Filename, Language, FileType, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ReportId | int32 |  |
-| LabelLayoutId | int32 |  |
-| Filename | string |  |
-| Language | string |  |
-| FileType | string |  |
-| Restrictions | array |  |
+| ReportId | Integer |  |
+| LabelLayoutId | Integer |  |
+| Filename | String |  |
+| Language | String |  |
+| FileType | String |  |
+| Restrictions | Array |  |
 
-
-## Response: string
+## Response:string
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: string
+### Response body: string
 
 
 ## Sample request
@@ -73,36 +72,36 @@ Response body: string
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 559,
-  "LabelLayoutId": 395,
-  "Filename": "reprehenderit",
-  "Language": "delectus",
-  "FileType": "repellendus",
+  "ReportId": 668,
+  "LabelLayoutId": 486,
+  "Filename": "illum",
+  "Language": "non",
+  "FileType": "rem",
   "Restrictions": [
     {
-      "Name": "Jenkins Group",
-      "Operator": "reiciendis",
+      "Name": "Medhurst, Gutkowski and Anderson",
+      "Operator": "sed",
       "Values": [
-        "expedita",
-        "eaque"
+        "aut",
+        "error"
       ],
       "DisplayValues": [
-        "autem",
-        "ad"
+        "ea",
+        "repellendus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 964,
+      "InterParenthesis": 829,
       "InterOperator": "And",
-      "UniqueHash": 284
+      "UniqueHash": 129
     }
   ]
 }
@@ -114,5 +113,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptate"
+"exercitationem"
 ```

@@ -42,17 +42,16 @@ POST /api/v1/Agents/Dash/DuplicateDashboard?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 DashboardId, Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DashboardId | int32 |  |
-| Name | string |  |
+| DashboardId | Integer |  |
+| Name | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Dash
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,14 +69,14 @@ Response body:
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
 | Columns | int32 | How many columns there will be in the dashboard. |
-| Theme |  | The theme for this dashboard |
+| Theme | DashTheme | The theme for this dashboard |
 | VisibleForAll | int32 | True if visible for all |
 | VisibleForAssociates | array | Array of references to the visible for associates |
 | VisibleForGroups | array | Array of references to the visible for groups |
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,12 +85,12 @@ Response body:
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 691,
-  "Name": "Paucek-Schmeler"
+  "DashboardId": 301,
+  "Name": "Price LLC"
 }
 ```
 
@@ -102,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 629,
-  "UniqueId": "facere",
-  "Name": "Stiedemann, Huel and Nader",
-  "Description": "Decentralized 24 hour toolset",
-  "AssociateId": 800,
-  "Columns": 837,
+  "DashboardId": 478,
+  "UniqueId": "ut",
+  "Name": "Little LLC",
+  "Description": "Vision-oriented leading edge adapter",
+  "AssociateId": 807,
+  "Columns": 309,
   "Theme": null,
-  "VisibleForAll": 327,
+  "VisibleForAll": 959,
   "VisibleForAssociates": [
-    802,
-    68
+    769,
+    236
   ],
   "VisibleForGroups": [
-    983,
-    750
+    720,
+    301
   ],
-  "PinForAll": 555,
+  "PinForAll": 481,
   "PinForAssociates": [
-    673,
-    846
+    15,
+    724
   ],
   "PinForGroups": [
-    175,
-    735
+    519,
+    64
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldType": "System.String",
+      "FieldLength": 194
     }
   }
 }

@@ -32,7 +32,7 @@ Get a list of installed document plugins
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: object
+## Response:object
 
 OK
 
@@ -40,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+### Response body: object
 
 
 ## Sample request
@@ -59,7 +59,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "temporibus",
-  "2": "laboriosam"
+  "1": "ratione",
+  "2": "dignissimos"
 }
 ```

@@ -28,19 +28,18 @@ Set which duplicate rules should be active or not
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: rules  
+## Request Body: rules 
 
 Duplicate rules to update active status for 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string | Identifying name for rule |
-| DisplayName | string | Short name of rule to display to user |
-| DisplayTooltip | string | Description of the rule |
-| IsActive | bool | Indicating if a rule is current active, and should included in the duplicate detection |
+| Name | String | Identifying name for rule |
+| DisplayName | String | Short name of rule to display to user |
+| DisplayTooltip | String | Description of the rule |
+| IsActive | Boolean | Indicating if a rule is current active, and should included in the duplicate detection |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -48,7 +47,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -57,20 +56,20 @@ Response body:
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Luettgen Group",
-    "DisplayName": "Mosciski-Mayer",
-    "DisplayTooltip": "quaerat",
+    "Name": "Klein Inc and Sons",
+    "DisplayName": "Simonis-Hilpert",
+    "DisplayTooltip": "dolor",
     "IsActive": false
   },
   {
-    "Name": "Luettgen Group",
-    "DisplayName": "Mosciski-Mayer",
-    "DisplayTooltip": "quaerat",
+    "Name": "Klein Inc and Sons",
+    "DisplayName": "Simonis-Hilpert",
+    "DisplayTooltip": "dolor",
     "IsActive": false
   }
 ]

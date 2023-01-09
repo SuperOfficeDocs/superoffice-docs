@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -48,7 +48,7 @@ GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -56,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 83,
-    "Name": "Abshire, Jacobi and Balistreri",
-    "ToolTip": "Dolorem quod quasi quia expedita est dolore ipsum.",
-    "Deleted": true,
-    "Rank": 780,
-    "Type": "rem",
-    "ColorBlock": 751,
-    "IconHint": "asperiores",
-    "Selected": false,
-    "LastChanged": "2004-01-16T02:49:52.2346937+01:00",
+    "Id": 613,
+    "Name": "Harris-Jacobi",
+    "ToolTip": "Qui accusantium accusantium similique nihil consequatur.",
+    "Deleted": false,
+    "Rank": 537,
+    "Type": "at",
+    "ColorBlock": 431,
+    "IconHint": "cupiditate",
+    "Selected": true,
+    "LastChanged": "2004-05-26T17:37:40.0024994+02:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Fadel, Parker and Crona",
-        "ToolTip": "Iusto et quia vitae illo aspernatur.",
-        "Deleted": false,
-        "Rank": 427,
-        "Type": "dolores",
-        "ColorBlock": 937,
-        "IconHint": "et",
+        "Id": 976,
+        "Name": "Schroeder-Greenholt",
+        "ToolTip": "Sunt quaerat sit illum.",
+        "Deleted": true,
+        "Rank": 440,
+        "Type": "voluptatem",
+        "ColorBlock": 496,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "1998-09-26T02:49:52.2346937+02:00",
+        "LastChanged": "2020-07-09T17:37:40.0024994+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "earum",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Federico Anderson",
+        "FullName": "Lance Gutkowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldLength": 892
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Miss Rosa Jermey Hermann Jr.",
+    "ExtraInfo": "illum",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Treva Streich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldLength": 216
       }
     }
   }

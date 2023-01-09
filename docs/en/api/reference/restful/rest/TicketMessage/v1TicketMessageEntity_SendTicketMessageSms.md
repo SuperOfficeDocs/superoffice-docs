@@ -29,8 +29,8 @@ Send a message to recipients by sms
 | replyTemplateId | int32 |  Optional ID of reply template to merge message with. &lt;= 0 to skip. |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?sms=dolores,dolores
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?replyTemplateId=98
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?sms=ea,et
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?replyTemplateId=672
 ```
 
 
@@ -44,7 +44,7 @@ POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?replyTemplateId=98
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 No Content
 
@@ -52,7 +52,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: RecurrenceInfo
 
 
 ## Sample request
@@ -61,7 +61,7 @@ Response body:
 POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

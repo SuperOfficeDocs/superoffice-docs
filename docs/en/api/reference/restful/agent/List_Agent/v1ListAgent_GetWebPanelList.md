@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/GetWebPanelList?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ Response body: array
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Response body: array
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,33 +95,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 223,
-    "Name": "Reilly, Wisozk and Hoppe",
-    "Tooltip": "repudiandae",
-    "Deleted": true,
-    "Rank": 816,
+    "WebPanelId": 303,
+    "Name": "Schinner-Hackett",
+    "Tooltip": "provident",
+    "Deleted": false,
+    "Rank": 974,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
-    "OnSatellite": false,
+    "OnSatellite": true,
     "OnTravel": true,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
     "ShowInToolBar": false,
-    "ShowInAddressBar": true,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Mann Inc and Sons",
+    "WindowName": "Gorczany Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "natus",
-    "Icon": 908,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "nam",
+    "Icon": 32,
+    "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldType": "System.String",
+        "FieldLength": 384
       }
     }
   }

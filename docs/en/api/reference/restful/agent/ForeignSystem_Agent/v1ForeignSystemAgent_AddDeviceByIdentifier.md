@@ -42,18 +42,17 @@ POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
-| DeviceIdentifier | string |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
+| DeviceIdentifier | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignDevice
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +73,7 @@ Response body:
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,13 +82,13 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Huel-Anderson",
-  "DeviceName": "Bruen, Prosacco and Cummerata",
-  "DeviceIdentifier": "perferendis"
+  "ApplicationName": "Lebsack, Kris and Goodwin",
+  "DeviceName": "Johns-Klein",
+  "DeviceIdentifier": "assumenda"
 }
 ```
 
@@ -100,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 647,
-  "Name": "Carroll, Harber and Volkman",
-  "CreatedDate": "2016-02-09T02:49:44.5454229+01:00",
-  "UpdatedDate": "2010-04-06T02:49:44.5454229+02:00",
-  "AssociateFullName": "Mr. Jaydon Devon Stroman II",
-  "CreatedBy": "maxime",
-  "UpdatedBy": "quia",
-  "DeviceIdentifier": "nihil",
-  "ForeignAppId": 754,
+  "ForeignDeviceId": 215,
+  "Name": "Mayer LLC",
+  "CreatedDate": "2007-07-07T17:37:18.1022436+02:00",
+  "UpdatedDate": "2016-04-20T17:37:18.1022436+02:00",
+  "AssociateFullName": "Wilhelmine Rutherford DVM",
+  "CreatedBy": "nam",
+  "UpdatedBy": "impedit",
+  "DeviceIdentifier": "voluptate",
+  "ForeignAppId": 626,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldLength": 855
     }
   }
 }

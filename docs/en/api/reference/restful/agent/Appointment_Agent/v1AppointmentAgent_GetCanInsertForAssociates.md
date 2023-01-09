@@ -42,16 +42,15 @@ POST /api/v1/Agents/Appointment/GetCanInsertForAssociates?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateIds | array |  |
+| AssociateIds | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 
 ## Sample request
@@ -73,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    734,
-    765
+    355,
+    973
   ]
 }
 ```
@@ -87,6 +86,6 @@ Content-Type: application/json; charset=utf-8
 
 [
   false,
-  true
+  false
 ]
 ```

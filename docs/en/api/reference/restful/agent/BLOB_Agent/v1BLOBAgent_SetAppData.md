@@ -40,17 +40,16 @@ POST /api/v1/Agents/BLOB/SetAppData?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Key, Data 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Key | string |  |
-| Data | string |  |
+| Key | String |  |
+| Data | String |  |
 
-
-## Response: 
+## Response:
 
 No Content
 
@@ -58,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
+### Response body: TableRight
 
 
 ## Sample request
@@ -67,12 +66,12 @@ Response body:
 POST /api/v1/Agents/BLOB/SetAppData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "veritatis",
-  "Data": "neque"
+  "Key": "excepturi",
+  "Data": "cum"
 }
 ```
 

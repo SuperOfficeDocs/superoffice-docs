@@ -42,16 +42,15 @@ POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 LanguageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| LanguageId | int32 |  |
+| LanguageId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body: array
 | Type | string | The type of the text string, e.g. Field label, Udef label, etc. |
 | LocalizedTextId | int32 | Primary key |
 | IsBuiltIn | bool | 1 = this row is populated and maintained by SuperOffice |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 135
+  "LanguageId": 402
 }
 ```
 
@@ -94,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 203,
-    "ResourceId": 400,
-    "Text": "qui",
+    "LanguageId": 164,
+    "ResourceId": 796,
+    "Text": "nihil",
     "Type": "Column",
-    "LocalizedTextId": 987,
+    "LocalizedTextId": 567,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 778
       }
     }
   }

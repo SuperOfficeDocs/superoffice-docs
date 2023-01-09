@@ -12,8 +12,6 @@ PUT /api/v1/Script/{uniqueIdentifier}
 Create or Update the CRMScript information
 
 
-
-
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -40,25 +38,24 @@ Create or Update the CRMScript information
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: crmscript  
+## Request Body: crmscript 
 
 Information about the CRMScript 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Name | string | A description of this script |
-| Description | string | Optional description of what this script is used for. |
-| IncludeId | string | A unique name used for including this script in another |
-| Source | string | The script |
-| Registered | date-time | Registered when  in UTC. |
-| RegisteredBy | string | Who created this script |
-| Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy | string | Who updated this script |
-| Path | string | Path to script in the hierarchy. |
+| UniqueIdentifier | String | Global unique identifier, accross customers/tenants |
+| Name | String | A description of this script |
+| Description | String | Optional description of what this script is used for. |
+| IncludeId | String | A unique name used for including this script in another |
+| Source | String | The script |
+| Registered | String | Registered when  in UTC. |
+| RegisteredBy | String | Who created this script |
+| Updated | String | Last updated when  in UTC. |
+| UpdatedBy | String | Who updated this script |
+| Path | String | Path to script in the hierarchy. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -66,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Script
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +77,7 @@ Response body:
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,16 +90,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aut",
-  "Name": "Corwin Inc and Sons",
-  "Description": "Ameliorated intermediate model",
-  "IncludeId": "rerum",
-  "Source": "amet",
-  "Registered": "2018-01-21T02:49:51.7803982+01:00",
-  "RegisteredBy": "alias",
-  "Updated": "2004-11-24T02:49:51.7803982+01:00",
-  "UpdatedBy": "a",
-  "Path": "voluptatem"
+  "UniqueIdentifier": "quis",
+  "Name": "Corwin-McKenzie",
+  "Description": "Ameliorated well-modulated framework",
+  "IncludeId": "aut",
+  "Source": "nihil",
+  "Registered": "2002-12-05T17:37:39.5154303+01:00",
+  "RegisteredBy": "doloremque",
+  "Updated": "1996-07-16T17:37:39.5154303+02:00",
+  "UpdatedBy": "ab",
+  "Path": "et"
 }
 ```
 
@@ -113,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quia",
-  "Name": "Runolfsdottir-Howe",
-  "Description": "Profound zero defect info-mediaries",
-  "IncludeId": "corrupti",
-  "Source": "voluptas",
-  "Registered": "2006-04-16T02:49:51.7803982+02:00",
-  "RegisteredBy": "soluta",
-  "Updated": "2008-08-07T02:49:51.7803982+02:00",
-  "UpdatedBy": "rerum",
-  "Path": "voluptatibus",
+  "UniqueIdentifier": "consequatur",
+  "Name": "Jacobi-Hessel",
+  "Description": "Devolved systematic pricing structure",
+  "IncludeId": "nemo",
+  "Source": "ab",
+  "Registered": "1996-04-10T17:37:39.5154303+02:00",
+  "RegisteredBy": "nihil",
+  "Updated": "2013-02-13T17:37:39.5154303+01:00",
+  "UpdatedBy": "voluptatibus",
+  "Path": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 361
     }
   }
 }

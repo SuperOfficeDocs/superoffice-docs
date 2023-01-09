@@ -44,16 +44,15 @@ POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TemplateHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TemplateHeadingId | int32 |  |
+| TemplateHeadingId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -61,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +84,7 @@ Response body: array
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,11 +93,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 91
+  "TemplateHeadingId": 371
 }
 ```
 
@@ -110,32 +109,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 393,
-    "Attention": "facere",
-    "Header": "aperiam",
-    "Name": "Orn, Kuphal and Franecki",
-    "OurRef": "laudantium",
-    "YourRef": "facilis",
-    "Description": "Re-contextualized regional capacity",
-    "DocumentTemplate": "quo",
+    "DocumentId": 29,
+    "Attention": "praesentium",
+    "Header": "explicabo",
+    "Name": "Lebsack, Luettgen and Heaney",
+    "OurRef": "ut",
+    "YourRef": "culpa",
+    "Description": "Automated regional parallelism",
+    "DocumentTemplate": "rerum",
     "IsPublished": true,
-    "PersonId": 306,
-    "PersonFullName": "Alexandro Mueller",
-    "AssociateFullName": "Jodie Arlo Ruecker Jr.",
-    "ContactId": 562,
-    "ContactName": "Krajcik, Grant and Sipes",
-    "ProjectId": 94,
-    "ProjectName": "Barton-Gutmann",
-    "AssociateId": 377,
-    "Snum": 653,
-    "SaleId": 270,
-    "SaleName": "Weissnat Inc and Sons",
+    "PersonId": 389,
+    "PersonFullName": "Mrs. Brody Filiberto Rippin",
+    "AssociateFullName": "Lois Armstrong",
+    "ContactId": 237,
+    "ContactName": "Kertzmann LLC",
+    "ProjectId": 583,
+    "ProjectName": "Murphy, Ziemann and Keebler",
+    "AssociateId": 61,
+    "Snum": 489,
+    "SaleId": 978,
+    "SaleName": "McClure, Koss and Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 138
+        "FieldLength": 319
       }
     }
   }

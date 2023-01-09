@@ -12,8 +12,6 @@ POST /api/v1/Agents/EMail/LatestItemIdByFolder
 Returns the latest id of the mail item by folder
 
 
-
-
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -46,16 +44,15 @@ POST /api/v1/Agents/EMail/LatestItemIdByFolder?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 FolderId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| FolderId | int32 |  |
+| FolderId | Integer |  |
 
-
-## Response: int32
+## Response:int32
 
 OK
 
@@ -63,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: int32
+### Response body: int32
 
 
 ## Sample request
@@ -72,11 +69,11 @@ Response body: int32
 POST /api/v1/Agents/EMail/LatestItemIdByFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 817
+  "FolderId": 915
 }
 ```
 
@@ -86,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-671
+328
 ```

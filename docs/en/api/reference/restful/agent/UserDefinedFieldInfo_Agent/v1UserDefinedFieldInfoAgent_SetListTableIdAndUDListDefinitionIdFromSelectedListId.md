@@ -42,17 +42,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFrom
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 Info, SelectedListId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Info |  | Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface. <para /> Carrier object for UserDefinedFieldInfo. Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>. |
-| SelectedListId | int32 |  |
+| Info | UserDefinedFieldInfo | Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface. <para /> Carrier object for UserDefinedFieldInfo. Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>. |
+| SelectedListId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: UserDefinedFieldInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,7 +97,7 @@ Response body:
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -107,12 +106,12 @@ Response body:
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 538
+  "SelectedListId": 889
 }
 ```
 
@@ -123,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 162,
-  "ColumnId": 494,
-  "FieldDefault": "praesentium",
-  "FieldHeight": 313,
-  "FieldLabel": "error",
-  "FieldLeft": 505,
-  "FieldTop": 286,
+  "UDefFieldId": 163,
+  "ColumnId": 357,
+  "FieldDefault": "et",
+  "FieldHeight": 226,
+  "FieldLabel": "qui",
+  "FieldLeft": 35,
+  "FieldTop": 616,
   "FieldType": "Checkbox",
-  "FieldWidth": 159,
-  "FormatMask": "quaerat",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 166,
-  "LabelLeft": 111,
-  "LabelTop": 764,
-  "LabelWidth": 703,
-  "LastVersionId": 134,
-  "ListTableId": 990,
-  "IsMandatory": false,
+  "FieldWidth": 48,
+  "FormatMask": "eaque",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 269,
+  "LabelLeft": 221,
+  "LabelTop": 495,
+  "LabelWidth": 106,
+  "LastVersionId": 233,
+  "ListTableId": 386,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 792,
-  "ProgId": "et",
-  "IsReadOnly": false,
-  "ShortLabel": "distinctio",
-  "TabOrder": 369,
-  "TextLength": 36,
-  "Tooltip": "consectetur",
-  "UdefIdentity": 376,
-  "UDListDefinitionId": 985,
+  "Page1LineNo": 426,
+  "ProgId": "aut",
+  "IsReadOnly": true,
+  "ShortLabel": "ea",
+  "TabOrder": 113,
+  "TextLength": 964,
+  "Tooltip": "et",
+  "UdefIdentity": 230,
+  "UDListDefinitionId": 945,
   "Justification": "Center",
-  "Version": 701,
-  "TemplateVariableName": "Hegmann-Barton",
+  "Version": 38,
+  "TemplateVariableName": "Dooley-Krajcik",
   "HasBeenPublished": false,
-  "MdoListName": "Barton, Kovacek and Botsford",
+  "MdoListName": "Jast Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldLength": 112
     }
   }
 }

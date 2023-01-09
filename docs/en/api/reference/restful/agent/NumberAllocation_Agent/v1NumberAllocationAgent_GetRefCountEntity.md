@@ -25,7 +25,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=275
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=446
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,c
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: RefCountEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +67,7 @@ Response body:
 | Unique | bool | Check that entered value is unique |
 | ReadOnly | bool | Target field is read only in GUI |
 | AllowBlank | bool | Allow blank  as a valid value |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,49 +86,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 244,
-  "Field": "non",
-  "RecordId": 23,
+  "RefCountsId": 293,
+  "Field": "ipsum",
+  "RecordId": 983,
   "SuggestedRecords": [
     {
-      "Id": 916,
-      "Name": "Orn, Mosciski and Jerde",
-      "ToolTip": "Pariatur sed dolores velit.",
-      "Deleted": true,
-      "Rank": 917,
-      "Type": "eaque",
+      "Id": 620,
+      "Name": "Oberbrunner, Murazik and Blanda",
+      "ToolTip": "Velit nulla tenetur mollitia autem in.",
+      "Deleted": false,
+      "Rank": 466,
+      "Type": "molestiae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "repellendus",
-      "ColorBlock": 517,
-      "ExtraInfo": "dolor",
-      "StyleHint": "deserunt",
-      "FullName": "Prof. Sam Funk Jr.",
+      "IconHint": "impedit",
+      "ColorBlock": 798,
+      "ExtraInfo": "totam",
+      "StyleHint": "eos",
+      "FullName": "Miss Loraine Lubowitz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 430
+          "FieldLength": 258
         }
       }
     }
   ],
-  "CurrentValue": 977,
-  "TravelPrefix": 310,
-  "SatPrefix": 753,
-  "Allocate": true,
+  "CurrentValue": 279,
+  "TravelPrefix": 990,
+  "SatPrefix": 30,
+  "Allocate": false,
   "Unique": false,
-  "ReadOnly": true,
-  "AllowBlank": false,
+  "ReadOnly": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 626
+      "FieldLength": 363
     }
   }
 }

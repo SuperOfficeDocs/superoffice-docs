@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 456,
-    "Name": "Huel Group",
-    "ToolTip": "Placeat ut magnam perspiciatis quasi veniam et sed.",
+    "Id": 209,
+    "Name": "Klein LLC",
+    "ToolTip": "Quis rerum fugiat et occaecati provident in ullam.",
     "Deleted": true,
-    "Rank": 755,
-    "Type": "quia",
-    "ColorBlock": 290,
-    "IconHint": "ut",
+    "Rank": 211,
+    "Type": "ut",
+    "ColorBlock": 743,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "1996-12-08T02:49:52.5628301+01:00",
+    "LastChanged": "2004-01-21T17:37:40.3954714+01:00",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Bosco-White",
-        "ToolTip": "Recusandae officiis et ratione.",
+        "Id": 654,
+        "Name": "Cummerata-Zboncak",
+        "ToolTip": "Culpa maiores qui sit minus maiores molestiae id.",
         "Deleted": true,
-        "Rank": 477,
-        "Type": "quod",
-        "ColorBlock": 319,
-        "IconHint": "dolorem",
+        "Rank": 159,
+        "Type": "laborum",
+        "ColorBlock": 359,
+        "IconHint": "cumque",
         "Selected": false,
-        "LastChanged": "2001-02-07T02:49:52.5628301+01:00",
+        "LastChanged": "2017-03-16T17:37:40.3954714+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Xavier Heathcote"
+        "ExtraInfo": "sint",
+        "StyleHint": "sint",
+        "Hidden": true,
+        "FullName": "Ms. Patsy Demetris Maggio"
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "delectus",
+    "StyleHint": "repellat",
     "Hidden": false,
-    "FullName": "Mr. Lula Ocie Rutherford MD"
+    "FullName": "Ernie Pacocha"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 870,
-    "Name": "Graham, Thiel and Gleason",
-    "ToolTip": "Autem voluptatem delectus laborum.",
-    "Deleted": false,
-    "Rank": 647,
-    "Type": "deserunt",
-    "ColorBlock": 316,
-    "IconHint": "et",
+    "Id": 946,
+    "Name": "Jones-Cremin",
+    "ToolTip": "Qui excepturi alias est odit.",
+    "Deleted": true,
+    "Rank": 316,
+    "Type": "provident",
+    "ColorBlock": 765,
+    "IconHint": "nesciunt",
     "Selected": false,
-    "LastChanged": "2021-03-05T02:49:52.5628301+01:00",
+    "LastChanged": "2021-10-22T17:37:40.3964719+02:00",
     "ChildItems": [
       {
-        "Id": 242,
-        "Name": "Cummings, Ledner and Yundt",
-        "ToolTip": "Dolores officiis animi nostrum ea odit.",
-        "Deleted": false,
-        "Rank": 359,
-        "Type": "eveniet",
-        "ColorBlock": 1002,
-        "IconHint": "totam",
-        "Selected": false,
-        "LastChanged": "1999-05-12T02:49:52.5628301+02:00",
+        "Id": 330,
+        "Name": "Jewess, Kerluke and Borer",
+        "ToolTip": "Ratione qui tenetur sed et eos neque.",
+        "Deleted": true,
+        "Rank": 545,
+        "Type": "ea",
+        "ColorBlock": 822,
+        "IconHint": "repudiandae",
+        "Selected": true,
+        "LastChanged": "2019-07-08T17:37:40.3964719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "odio",
-        "Hidden": false,
-        "FullName": "Woodrow Nicolas",
+        "ExtraInfo": "expedita",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Mario Nicolas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldLength": 156
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "assumenda",
-    "Hidden": true,
-    "FullName": "Lewis Hoeger",
+    "ExtraInfo": "possimus",
+    "StyleHint": "explicabo",
+    "Hidden": false,
+    "FullName": "Katelynn Pouros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 613
+        "FieldLength": 543
       }
     }
   }

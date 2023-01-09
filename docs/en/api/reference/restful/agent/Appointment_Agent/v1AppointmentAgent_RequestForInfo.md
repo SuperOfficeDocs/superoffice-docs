@@ -44,23 +44,22 @@ POST /api/v1/Agents/Appointment/RequestForInfo?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateIdForNewContact, Channel, Regarding, ContactName, PersonFirstname, PersonLastname, EmailAddress, PhoneNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateIdForNewContact | int32 |  |
-| Channel | string |  |
-| Regarding | string |  |
-| ContactName | string |  |
-| PersonFirstname | string |  |
-| PersonLastname | string |  |
-| EmailAddress | string |  |
-| PhoneNumber | string |  |
+| AssociateIdForNewContact | Integer |  |
+| Channel | String |  |
+| Regarding | String |  |
+| ContactName | String |  |
+| PersonFirstname | String |  |
+| PersonLastname | String |  |
+| EmailAddress | String |  |
+| PhoneNumber | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -68,14 +67,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: SalesActivity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RequestedContacts | array | The companies that match the request |
-| RequestedPerson |  | The person that matches the request. |
-| SalesRep |  | The sales representative for the person that matches the request. |
-| TableRight |  |  |
+| RequestedPerson | Person | The person that matches the request. |
+| SalesRep | Person | The sales representative for the person that matches the request. |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -84,18 +83,18 @@ Response body:
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 40,
-  "Channel": "ea",
-  "Regarding": "quaerat",
-  "ContactName": "Schiller LLC",
-  "PersonFirstname": "Daisha",
-  "PersonLastname": "Stoltenberg",
-  "EmailAddress": "hugh.okuneva@fisher.ca",
-  "PhoneNumber": "968183"
+  "AssociateIdForNewContact": 208,
+  "Channel": "reprehenderit",
+  "Regarding": "enim",
+  "ContactName": "Fay-Rempel",
+  "PersonFirstname": "Elroy",
+  "PersonLastname": "Dickens",
+  "EmailAddress": "reese.schimmel@douglas.com",
+  "PhoneNumber": "554222"
 }
 ```
 
@@ -108,34 +107,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 779,
-      "Name": "Becker-Auer",
-      "OrgNr": "899058",
+      "ContactId": 933,
+      "Name": "Spinka Group",
+      "OrgNr": "1502948",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "voluptas",
-      "DirectPhone": "(779)338-9228 x1583",
-      "AssociateId": 626,
-      "CountryId": 110,
-      "EmailAddress": "jonatan.yost@skiles.us",
-      "Kananame": "eligendi",
-      "EmailAddressName": "vickie.pacocha@mrazoconner.biz",
+      "City": "id",
+      "DirectPhone": "957-961-2954 x29466",
+      "AssociateId": 334,
+      "CountryId": 275,
+      "EmailAddress": "bret@donnelly.co.uk",
+      "Kananame": "voluptatem",
+      "EmailAddressName": "nils@haagpfeffer.com",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Ms. Giovanni Schumm I",
+      "AssociateFullName": "Dr. Hildegard Jessyca Jones",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "quasi",
-      "FullName": "Reymundo Langosh",
+      "FormattedAddress": "et",
+      "FullName": "Micheal Carroll",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 11,
+      "ActiveErpLinks": 895,
+      "Number1": "1036152",
+      "Number2": "697541",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldLength": 438
         }
       }
     }
@@ -147,7 +148,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldLength": 160
     }
   }
 }

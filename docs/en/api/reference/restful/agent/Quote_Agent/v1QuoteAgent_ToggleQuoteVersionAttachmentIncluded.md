@@ -42,16 +42,15 @@ POST /api/v1/Agents/Quote/ToggleQuoteVersionAttachmentIncluded?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 QuoteVersionAttachmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersionAttachmentId | int32 |  |
+| QuoteVersionAttachmentId | Integer |  |
 
-
-## Response: bool
+## Response:bool
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: bool
+### Response body: bool
 
 
 ## Sample request
@@ -68,11 +67,11 @@ Response body: bool
 POST /api/v1/Agents/Quote/ToggleQuoteVersionAttachmentIncluded
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionAttachmentId": 708
+  "QuoteVersionAttachmentId": 135
 }
 ```
 
@@ -82,5 +81,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

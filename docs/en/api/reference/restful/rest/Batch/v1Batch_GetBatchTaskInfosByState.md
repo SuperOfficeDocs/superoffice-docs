@@ -36,7 +36,7 @@ Gets an array of user BatchTaskInfo with state defined by a BatchTaskState.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Response body: array
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,7 +78,7 @@ Response body: array
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 731,
-    "Name": "Emard Inc and Sons",
-    "AssociateId": 533,
-    "DetailsTable": 40,
-    "DetailsRecord": 781,
+    "Id": 506,
+    "Name": "O'Kon Inc and Sons",
+    "AssociateId": 909,
+    "DetailsTable": 454,
+    "DetailsRecord": 379,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "quaerat",
-      "ParameterObject2": "minima"
+      "ParameterObject1": "neque",
+      "ParameterObject2": "aut"
     },
-    "LastStarted": "2019-07-29T02:49:51.686648+02:00",
-    "Created": "2009-12-24T02:49:51.686648+01:00",
-    "StartCount": 711,
-    "DatabaseSerialNumber": "1277413",
-    "Context": "unde",
-    "Result": "est",
+    "LastStarted": "2006-01-26T17:37:39.4024016+01:00",
+    "Created": "2011-03-01T17:37:39.4024016+01:00",
+    "StartCount": 316,
+    "DatabaseSerialNumber": "1069751",
+    "Context": "ut",
+    "Result": "incidunt",
     "State": "All",
-    "Description": "Up-sized tangible application",
-    "Response": "sint",
-    "Request": "ullam",
-    "ProgressDescription": "Robust full-range alliance",
-    "ProgressPercent": 673,
-    "FileName": "Marvin-Stokes",
+    "Description": "Exclusive attitude-oriented neural-net",
+    "Response": "tempora",
+    "Request": "consectetur",
+    "ProgressDescription": "Enhanced mission-critical model",
+    "ProgressPercent": 84,
+    "FileName": "Towne, Windler and Jaskolski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldLength": 118
       }
     }
   }

@@ -38,7 +38,7 @@ Calls the ForeignSystem agent service SaveForeignAppEntity.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignAppEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,10 +54,10 @@ Response body:
 | Name | string | Name of foreign application |
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
-| CreatedBy |  | The person that created the foreign application. |
-| UpdatedBy |  | The person that last updated this foreign application. |
+| CreatedBy | Associate | The person that created the foreign application. |
+| UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -66,7 +66,7 @@ Response body:
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 155,
-  "Name": "Rau-Reilly",
-  "CreatedDate": "2015-11-16T02:49:50.9640389+01:00",
-  "UpdatedDate": "2004-06-16T02:49:50.9640389+02:00",
+  "ForeignAppId": 795,
+  "Name": "Hyatt LLC",
+  "CreatedDate": "2015-03-15T17:37:38.6098647+01:00",
+  "UpdatedDate": "2019-10-22T17:37:38.6098647+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 69,
-      "Name": "Bauch Inc and Sons",
-      "CreatedDate": "2022-05-18T02:49:50.9640389+02:00",
-      "UpdatedDate": "1998-06-03T02:49:50.9640389+02:00",
-      "AssociateFullName": "Mr. Dasia Hackett II",
-      "CreatedBy": "soluta",
-      "UpdatedBy": "amet",
-      "DeviceIdentifier": "perferendis",
-      "ForeignAppId": 872,
+      "ForeignDeviceId": 230,
+      "Name": "Stracke Group",
+      "CreatedDate": "2005-03-05T17:37:38.6098647+01:00",
+      "UpdatedDate": "2013-10-16T17:37:38.6098647+02:00",
+      "AssociateFullName": "Mr. Estella Olson",
+      "CreatedBy": "veritatis",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "quo",
+      "ForeignAppId": 468,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 483
+          "FieldType": "System.Int32",
+          "FieldLength": 437
         }
       }
     }
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldType": "System.String",
+      "FieldLength": 474
     }
   }
 }

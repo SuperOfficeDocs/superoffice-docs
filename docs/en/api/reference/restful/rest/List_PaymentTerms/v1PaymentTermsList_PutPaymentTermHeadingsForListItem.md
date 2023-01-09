@@ -38,30 +38,29 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities 
 
 The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The Id of the ListItem |
-| Name | string | The name of the ListItem |
-| ToolTip | string | The tooltip of the ListItem |
-| Deleted | bool | The deleted status of the ListItem |
-| Rank | int32 | The rank of the ListItem |
-| Type | string | The type of the ListItem. Custom field. |
-| ColorBlock | int32 | The color indicator of the ListItem color block |
-| IconHint | string | The Icon hint of the ListItem. Custom field. |
-| Selected | bool | True if the ListItem is selected |
-| LastChanged | date-time | Time of last change. |
-| ChildItems | array | The child items of the SelectableMDOListItem |
-| ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
-| StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
-| Hidden | bool | True if the ListItem is hidden |
-| FullName | string | The name of the ListItem in its context |
+| Id | Integer | The Id of the ListItem |
+| Name | String | The name of the ListItem |
+| ToolTip | String | The tooltip of the ListItem |
+| Deleted | Boolean | The deleted status of the ListItem |
+| Rank | Integer | The rank of the ListItem |
+| Type | String | The type of the ListItem. Custom field. |
+| ColorBlock | Integer | The color indicator of the ListItem color block |
+| IconHint | String | The Icon hint of the ListItem. Custom field. |
+| Selected | Boolean | True if the ListItem is selected |
+| LastChanged | String | Time of last change. |
+| ChildItems | Array | The child items of the SelectableMDOListItem |
+| ExtraInfo | String | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
+| StyleHint | String | Style hint indicating, information such as background color etc. Custom field. |
+| Hidden | Boolean | True if the ListItem is hidden |
+| FullName | String | The name of the ListItem in its context |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -69,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +87,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -102,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 864,
-    "Name": "Johnson LLC",
-    "ToolTip": "Modi reprehenderit ut aliquam rerum magnam iste.",
+    "Id": 150,
+    "Name": "Zemlak, Schaefer and Veum",
+    "ToolTip": "Necessitatibus voluptatum voluptatibus perferendis doloribus.",
     "Deleted": false,
-    "Rank": 697,
-    "Type": "assumenda",
-    "ColorBlock": 234,
-    "IconHint": "accusamus",
+    "Rank": 919,
+    "Type": "qui",
+    "ColorBlock": 847,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2011-04-02T02:49:52.2971911+02:00",
+    "LastChanged": "2002-07-31T17:37:40.0805006+02:00",
     "ChildItems": [
       {
-        "Id": 516,
-        "Name": "Hessel Group",
-        "ToolTip": "Minima fugit vel tempore.",
-        "Deleted": false,
-        "Rank": 955,
-        "Type": "qui",
-        "ColorBlock": 887,
-        "IconHint": "eum",
+        "Id": 50,
+        "Name": "Zboncak-Graham",
+        "ToolTip": "Sint ipsa et.",
+        "Deleted": true,
+        "Rank": 347,
+        "Type": "quia",
+        "ColorBlock": 741,
+        "IconHint": "quisquam",
         "Selected": false,
-        "LastChanged": "2005-03-28T02:49:52.2971911+02:00",
+        "LastChanged": "2002-12-19T17:37:40.0805006+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "eius",
+        "ExtraInfo": "esse",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Dr. Yvonne Olson II"
+        "FullName": "Ms. Kay Jaskolski Sr."
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "enim",
+    "ExtraInfo": "et",
+    "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Esta Emmerich V"
+    "FullName": "Cydney Rempel IV"
   }
 ]
 ```
@@ -150,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Name": "Smitham, Crona and Feest",
-    "ToolTip": "Iste error consectetur hic ut sit vero odit.",
+    "Id": 855,
+    "Name": "Becker-Fisher",
+    "ToolTip": "Quasi incidunt suscipit hic sed distinctio.",
     "Deleted": false,
-    "Rank": 162,
-    "Type": "vero",
-    "ColorBlock": 319,
-    "IconHint": "quae",
+    "Rank": 946,
+    "Type": "aut",
+    "ColorBlock": 423,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2009-06-29T02:49:52.2971911+02:00",
+    "LastChanged": "2010-08-07T17:37:40.083507+02:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Wyman Inc and Sons",
-        "ToolTip": "Est qui ut itaque dolorum consequuntur est.",
-        "Deleted": true,
-        "Rank": 182,
-        "Type": "in",
-        "ColorBlock": 512,
-        "IconHint": "esse",
-        "Selected": true,
-        "LastChanged": "2015-05-27T02:49:52.2971911+02:00",
+        "Id": 461,
+        "Name": "Powlowski LLC",
+        "ToolTip": "Quaerat quis eius porro et at eligendi consequatur.",
+        "Deleted": false,
+        "Rank": 364,
+        "Type": "quo",
+        "ColorBlock": 394,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2008-03-19T17:37:40.083507+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "quibusdam",
-        "Hidden": true,
-        "FullName": "Paula Jerde",
+        "ExtraInfo": "animi",
+        "StyleHint": "ad",
+        "Hidden": false,
+        "FullName": "Leonor Vandervort",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 728
+            "FieldType": "System.Int32",
+            "FieldLength": 264
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "amet",
+    "ExtraInfo": "dolores",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Delbert Bednar I",
+    "FullName": "Mr. Robb Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldLength": 343
       }
     }
   }

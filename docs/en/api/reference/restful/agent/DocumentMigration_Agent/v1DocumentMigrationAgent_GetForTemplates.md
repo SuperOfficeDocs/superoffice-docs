@@ -12,8 +12,6 @@ POST /api/v1/Agents/DocumentMigration/GetForTemplates
 Gets a migration summary for all templates stored in CRM.
 
 
-
-
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -46,17 +44,16 @@ POST /api/v1/Agents/DocumentMigration/GetForTemplates?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TargetDocumentPluginId, IncludeEmails 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TargetDocumentPluginId | int32 |  |
-| IncludeEmails | bool |  |
+| TargetDocumentPluginId | Integer |  |
+| IncludeEmails | Boolean |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -64,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: DocumentTemplateMigrationList
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,8 +79,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDocumentPluginId": 799,
-  "IncludeEmails": false
+  "TargetDocumentPluginId": 929,
+  "IncludeEmails": true
 }
 ```
 
@@ -94,11 +91,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumTemplatesOmitted": 876,
-  "NumTemplatesAlreadyMigrated": 996,
+  "NumTemplatesOmitted": 459,
+  "NumTemplatesAlreadyMigrated": 269,
   "TemplateIds": [
-    179,
-    78
+    917,
+    247
   ]
 }
 ```

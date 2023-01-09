@@ -47,16 +47,15 @@ POST /api/v1/Agents/User/FindRolesWithFunctionalRights?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 FunctionalRightNames 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| FunctionalRightNames | array |  |
+| FunctionalRightNames | Array |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -64,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 
 ## Sample request
@@ -73,13 +72,13 @@ Response body: array
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Howe-Koch",
-    "Abbott, Shanahan and Monahan"
+    "Daniel Group",
+    "Doyle, Pacocha and Becker"
   ]
 }
 ```
@@ -91,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  193,
-  267
+  520,
+  280
 ]
 ```

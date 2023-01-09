@@ -42,17 +42,16 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceByName?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ApplicationName, DeviceName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ApplicationName | string |  |
-| DeviceName | string |  |
+| ApplicationName | String |  |
+| DeviceName | String |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ForeignDevice
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +72,7 @@ Response body:
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -86,8 +85,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kuhn, Ritchie and Lemke",
-  "DeviceName": "Wiegand-Leannon"
+  "ApplicationName": "Renner, Treutel and O'Hara",
+  "DeviceName": "Vandervort-Satterfield"
 }
 ```
 
@@ -98,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 33,
-  "Name": "Walter, Ryan and Conn",
-  "CreatedDate": "2000-05-03T02:49:44.5454229+02:00",
-  "UpdatedDate": "2007-07-27T02:49:44.5454229+02:00",
-  "AssociateFullName": "Mr. Aditya Payton Kris V",
-  "CreatedBy": "enim",
-  "UpdatedBy": "veniam",
-  "DeviceIdentifier": "neque",
-  "ForeignAppId": 820,
+  "ForeignDeviceId": 331,
+  "Name": "Wuckert, Kunde and Torphy",
+  "CreatedDate": "1999-12-03T17:37:18.1002438+01:00",
+  "UpdatedDate": "1996-11-09T17:37:18.1002438+01:00",
+  "AssociateFullName": "Dr. Jailyn Godfrey Ondricka V",
+  "CreatedBy": "rerum",
+  "UpdatedBy": "exercitationem",
+  "DeviceIdentifier": "rerum",
+  "ForeignAppId": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 299
     }
   }
 }

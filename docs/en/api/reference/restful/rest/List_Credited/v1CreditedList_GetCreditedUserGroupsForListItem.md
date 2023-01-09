@@ -38,7 +38,7 @@ Calls the List agent service GetHeadings.
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -46,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +65,7 @@ Response body: array
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight |  |  |
+| TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Pfannerstill LLC",
-    "ToolTip": "Id illum fuga.",
+    "Id": 545,
+    "Name": "Cruickshank LLC",
+    "ToolTip": "A quis.",
     "Deleted": true,
-    "Rank": 721,
-    "Type": "sapiente",
-    "ColorBlock": 253,
-    "IconHint": "ea",
+    "Rank": 170,
+    "Type": "repellendus",
+    "ColorBlock": 769,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2005-01-14T02:49:52.1878148+01:00",
+    "LastChanged": "2012-03-19T17:37:39.9425001+01:00",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Wyman, Miller and Bauch",
-        "ToolTip": "Eligendi nesciunt dicta dolorem ut magnam et et.",
-        "Deleted": false,
-        "Rank": 981,
-        "Type": "odit",
-        "ColorBlock": 602,
-        "IconHint": "doloribus",
+        "Id": 424,
+        "Name": "Feest, Rau and Turcotte",
+        "ToolTip": "Neque et doloribus rerum.",
+        "Deleted": true,
+        "Rank": 628,
+        "Type": "voluptas",
+        "ColorBlock": 310,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2021-02-27T02:49:52.1878148+01:00",
+        "LastChanged": "2006-07-27T17:37:39.9425001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "quos",
+        "ExtraInfo": "nihil",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Dedrick Tromp",
+        "FullName": "Gladyce Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 642
+            "FieldType": "System.Int32",
+            "FieldLength": 141
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "quo",
+    "ExtraInfo": "quae",
+    "StyleHint": "suscipit",
     "Hidden": false,
-    "FullName": "Bill Dare",
+    "FullName": "Jerad Conroy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldType": "System.String",
+        "FieldLength": 411
       }
     }
   }

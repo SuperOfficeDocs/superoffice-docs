@@ -42,16 +42,15 @@ POST /api/v1/Agents/Marketing/GetUserBlocks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | int32 |  |
+| AssociateId | Integer |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +70,7 @@ Response body: array
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -80,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/Marketing/GetUserBlocks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 869
+  "AssociateId": 61
 }
 ```
 
@@ -96,20 +95,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 894,
-    "AssociateId": 834,
-    "Block": "aliquid",
-    "Registered": "2004-09-28T02:49:44.7172985+02:00",
-    "RegisteredAssociateId": 221,
-    "Updated": "2009-03-21T02:49:44.7172985+01:00",
-    "UpdatedAssociateId": 439,
-    "UpdatedCount": 321,
+    "ShipmentMessageBlockId": 115,
+    "AssociateId": 215,
+    "Block": "ipsum",
+    "Registered": "2002-07-26T17:37:18.3252415+02:00",
+    "RegisteredAssociateId": 734,
+    "Updated": "2003-07-08T17:37:18.3252415+02:00",
+    "UpdatedAssociateId": 957,
+    "UpdatedCount": 888,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldLength": 784
       }
     }
   }

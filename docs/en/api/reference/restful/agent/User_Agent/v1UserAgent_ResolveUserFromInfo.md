@@ -47,21 +47,20 @@ POST /api/v1/Agents/User/ResolveUserFromInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ContactId, PersonName, PhoneNumbers, Emails, UserType, Credential 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactId | int32 |  |
-| PersonName | string |  |
-| PhoneNumbers | array |  |
-| Emails | array |  |
-| UserType | string |  |
-| Credential |  | Credentials supported for authentication <para /> Carrier object for Credential. Services for the Credential Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| ContactId | Integer |  |
+| PersonName | String |  |
+| PhoneNumbers | Array |  |
+| Emails | Array |  |
+| UserType | String |  |
+| Credential | Credential | Credentials supported for authentication <para /> Carrier object for Credential. Services for the Credential Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -69,13 +68,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: ResolvedUser
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| User |  | The resolved User instance. |
+| User | User | The resolved User instance. |
 | PersonCreated | bool | Indicates if the resolved person was created or not. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -88,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 788,
-  "PersonName": "Kihn-Sanford",
+  "ContactId": 169,
+  "PersonName": "Kris-Beier",
   "PhoneNumbers": [
-    "972642",
-    "929315"
+    "1002502",
+    "702075"
   ],
   "Emails": [
-    "lavon.waelchi@buckridge.biz",
-    "kelley@zemlakabshire.info"
+    "elaina_champlin@hesselwindler.co.uk",
+    "ramiro.kulas@stoltenbergchamplin.name"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -117,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 865
+      "FieldLength": 242
     }
   }
 }

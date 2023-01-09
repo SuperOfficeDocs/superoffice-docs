@@ -42,17 +42,16 @@ POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 TaskName, State 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TaskName | string |  |
-| State | string |  |
+| TaskName | String |  |
+| State | String |  |
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -60,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +84,7 @@ Response body: array
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -94,11 +93,11 @@ Response body: array
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Ruecker, Weimann and O'Reilly",
+  "TaskName": "Jakubowski, Gottlieb and Fisher",
   "State": "All"
 }
 ```
@@ -111,36 +110,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 301,
-    "Name": "Pagac, Champlin and Morissette",
-    "AssociateId": 78,
-    "DetailsTable": 279,
-    "DetailsRecord": 751,
+    "Id": 543,
+    "Name": "Rutherford Inc and Sons",
+    "AssociateId": 85,
+    "DetailsTable": 915,
+    "DetailsRecord": 988,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "voluptatem",
-      "ParameterObject2": "quas"
+      "ParameterObject1": "nesciunt",
+      "ParameterObject2": "ipsa"
     },
-    "LastStarted": "2009-01-29T02:49:43.7004017+01:00",
-    "Created": "2000-12-05T02:49:43.7004017+01:00",
-    "StartCount": 491,
-    "DatabaseSerialNumber": "1331735",
-    "Context": "unde",
+    "LastStarted": "2002-01-22T17:37:16.9062447+01:00",
+    "Created": "2022-08-22T17:37:16.9062447+02:00",
+    "StartCount": 406,
+    "DatabaseSerialNumber": "855257",
+    "Context": "expedita",
     "Result": "voluptatem",
     "State": "All",
-    "Description": "Centralized bifurcated hardware",
-    "Response": "commodi",
-    "Request": "ad",
-    "ProgressDescription": "Multi-lateral zero administration complexity",
-    "ProgressPercent": 707,
-    "FileName": "Little, Wunsch and Hahn",
+    "Description": "User-centric methodical software",
+    "Response": "facilis",
+    "Request": "reiciendis",
+    "ProgressDescription": "Innovative logistical hardware",
+    "ProgressPercent": 523,
+    "FileName": "Pfeffer, Sipes and Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 456
+        "FieldLength": 179
       }
     }
   }

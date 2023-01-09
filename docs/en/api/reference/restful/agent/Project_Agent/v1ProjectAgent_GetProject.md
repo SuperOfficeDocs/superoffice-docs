@@ -25,7 +25,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=800
+POST /api/v1/Agents/Project/GetProject?projectId=814
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -44,7 +44,7 @@ POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: 
+## Response:
 
 OK
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Project
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +74,7 @@ Response body:
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 248,
-  "Name": "Ritchie, Nitzsche and Rutherford",
-  "Description": "Automated analyzing monitoring",
+  "ProjectId": 79,
+  "Name": "Keeling-Donnelly",
+  "Description": "Customizable coherent extranet",
   "URL": "http://www.example.com/",
-  "Type": "facilis",
-  "AssociateId": 449,
-  "AssociateFullName": "Audra Pfeffer",
-  "TypeId": 353,
-  "Updated": "2006-09-09T02:49:44.952838+02:00",
-  "StatusId": 441,
-  "Status": "repellendus",
-  "TextId": 982,
-  "PublishTo": "2006-01-15T02:49:44.952838+01:00",
-  "PublishFrom": "2011-08-16T02:49:44.952838+02:00",
-  "IsPublished": true,
+  "Type": "consequatur",
+  "AssociateId": 36,
+  "AssociateFullName": "Miss Clair Bogan Jr.",
+  "TypeId": 46,
+  "Updated": "1999-01-27T17:37:18.6292447+01:00",
+  "StatusId": 574,
+  "Status": "quis",
+  "TextId": 591,
+  "PublishTo": "2014-10-24T17:37:18.6292447+02:00",
+  "PublishFrom": "2015-08-23T17:37:18.6292447+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "909449",
-  "ActiveErpLinks": 452,
+  "ProjectNumber": "1298194",
+  "ActiveErpLinks": 398,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldLength": 839
     }
   }
 }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/Project/GetNextMilestone?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectId | int32 |  |
+| ProjectId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: Appointment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -112,7 +111,7 @@ Response body:
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -121,11 +120,11 @@ Response body:
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 651
+  "ProjectId": 396
 }
 ```
 
@@ -136,53 +135,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 591,
-  "StartDate": "1996-07-18T02:49:44.952838+02:00",
-  "EndDate": "2015-11-30T02:49:44.952838+01:00",
+  "AppointmentId": 361,
+  "StartDate": "2002-04-05T17:37:18.6412443+02:00",
+  "EndDate": "2014-05-22T17:37:18.6412443+02:00",
   "Type": "BookingForChecklist",
-  "Task": "sit",
-  "AssociateFullName": "Connor Sanford",
-  "ContactName": "Padberg, Becker and Windler",
-  "Description": "Cloned multi-state alliance",
-  "PersonFullName": "Dr. Lupe McCullough",
-  "PersonId": 231,
-  "ContactId": 664,
-  "ProjectId": 343,
-  "ProjectName": "Kuhic-Hane",
+  "Task": "sed",
+  "AssociateFullName": "Alec Beer",
+  "ContactName": "Champlin Group",
+  "Description": "Sharable fresh-thinking artificial intelligence",
+  "PersonFullName": "Fabian Rempel",
+  "PersonId": 918,
+  "ContactId": 497,
+  "ProjectId": 824,
+  "ProjectName": "Leannon-Daniel",
   "IsPublished": false,
-  "AssociateId": 601,
-  "ColorIndex": 797,
-  "IsFree": true,
-  "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "AssociateId": 416,
+  "ColorIndex": 950,
+  "IsFree": false,
+  "HasAlarm": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 586,
-  "PriorityName": "Bogan-Robel",
+  "PriorityId": 134,
+  "PriorityName": "Pacocha, Hessel and Cummerata",
   "TaskType": "Appointment",
   "IsBookingMain": true,
   "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2005-09-10T02:49:44.952838+02:00",
+  "IsBooking": false,
+  "ActiveDate": "2004-09-30T17:37:18.6422443+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2001-11-09T02:49:44.952838+01:00",
-  "RecurringEndDate": "2020-09-09T02:49:44.952838+02:00",
-  "MotherId": 524,
-  "AssignedBy": 51,
-  "AssignedByFullName": "Alize Shanahan",
+  "RecurringStartDate": "2022-11-21T17:37:18.6422443+01:00",
+  "RecurringEndDate": "2022-07-03T17:37:18.6422443+02:00",
+  "MotherId": 22,
+  "AssignedBy": 270,
+  "AssignedByFullName": "Junior Weber",
   "RejectReason": "",
-  "Location": "sunt",
-  "AlarmLeadTime": "magnam",
-  "SaleId": 50,
-  "SaleName": "Daniel Inc and Sons",
-  "AssociateName": "Botsford Group",
-  "CreatedDate": "2011-07-01T02:49:44.952838+02:00",
-  "CreatedBy": "et",
-  "CreatedByFullName": "Miss Demond Daugherty I",
-  "CreatedByAssociateId": 489,
+  "Location": "vitae",
+  "AlarmLeadTime": "aut",
+  "SaleId": 587,
+  "SaleName": "Bernhard Group",
+  "AssociateName": "Hyatt-Stoltenberg",
+  "CreatedDate": "1998-03-29T17:37:18.6422443+02:00",
+  "CreatedBy": "sit",
+  "CreatedByFullName": "Mrs. Kailyn Rippin",
+  "CreatedByAssociateId": 747,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -190,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldLength": 432
     }
   }
 }

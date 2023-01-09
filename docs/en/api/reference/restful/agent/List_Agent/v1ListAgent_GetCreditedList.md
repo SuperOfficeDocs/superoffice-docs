@@ -42,13 +42,12 @@ POST /api/v1/Agents/List/GetCreditedList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: creditedIds  
+## Request Body: creditedIds 
 
 The primary keys. 
 
 
-
-## Response: array
+## Response:array
 
 OK
 
@@ -56,14 +55,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 | The List Item Id |
 | Value | string | The List Item Value |
 | Tooltip | string | The List Item Tooltip |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -83,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 909,
-    "Value": "dolorum",
-    "Tooltip": "voluptas",
+    "Id": 835,
+    "Value": "illo",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 562
       }
     }
   },
   {
-    "Id": 909,
-    "Value": "dolorum",
-    "Tooltip": "voluptas",
+    "Id": 835,
+    "Value": "illo",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 562
       }
     }
   }

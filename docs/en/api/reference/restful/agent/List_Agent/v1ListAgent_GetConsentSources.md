@@ -42,7 +42,7 @@ POST /api/v1/Agents/List/GetConsentSources?$select=name,department,category/id
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response: array
+## Response:array
 
 OK
 
@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: array
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +61,7 @@ Response body: array
 | Key | string | The key used to uniquely identify this consent source |
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 397,
-    "Name": "Toy-Deckow",
-    "Tooltip": "ab",
-    "Rank": 114,
+    "ConsentSourceId": 246,
+    "Name": "Quitzon, Ruecker and Legros",
+    "Tooltip": "facere",
+    "Rank": 152,
     "Key": "et",
-    "MailTemplateId": 18,
+    "MailTemplateId": 742,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 918
+        "FieldLength": 989
       }
     }
   }

@@ -42,16 +42,15 @@ POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request 
 
 ReplyTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ReplyTemplateId | int32 |  |
+| ReplyTemplateId | Integer |  |
 
-
-## Response: 
+## Response:
 
 OK
 
@@ -59,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+### Response body: PreviewReplyTemplate
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +68,7 @@ Response body:
 | Updated | date-time | Date/time this reply template was last updated. |
 | Body | string | Reply template body in the best available format. |
 | IsHtml | bool | If true, body is HTML. |
-| TableRight |  |  |
+| TableRight | TableRight |  |
 | FieldProperties | object |  |
 
 ## Sample request
@@ -78,11 +77,11 @@ Response body:
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 775
+  "ReplyTemplateId": 151
 }
 ```
 
@@ -93,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nader-Reichert",
-  "Description": "Managed static info-mediaries",
-  "OwnedByFullName": "Carolina Johns",
-  "Updated": "2007-04-13T02:49:44.0285283+02:00",
-  "Body": "voluptates",
-  "IsHtml": false,
+  "Name": "Bailey LLC",
+  "Description": "Grass-roots explicit customer loyalty",
+  "OwnedByFullName": "Milo Walter",
+  "Updated": "2003-06-02T17:37:17.3522426+02:00",
+  "Body": "quia",
+  "IsHtml": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 264
     }
   }
 }
