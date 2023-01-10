@@ -1,20 +1,11 @@
 items:
 - name: Overview
   href: index.md
+- name: Package properties
+  href: ../../admin/learn/screen/package-properties.md
+
 - name: Work with custom objects
   items:
-  - name: Extra tables
-    href: extra-table/index.md
-    items:
-    - name: Tables
-      href: screen/tables.md
-    - name: Define extra tables
-      href: extra-table/create.md
-  - name: Extra fields
-    href: extra-field/index.md
-    items:
-    - name: Define extra fields
-      href: extra-field/create.md
   - name: User-defined fields
     href: udef/index.md
     items:
@@ -30,3 +21,15 @@ items:
       href: udef/page-1-fields.md
     - name: Maximum number of fields
       href: udef/limitations.md
+  - name: Extra tables
+    href: extra-table/index.md
+    items:
+    - name: Tables
+      href: screen/tables.md
+    - name: Define extra tables
+      href: extra-table/create.md
+  - name: Extra fields
+    href: extra-field/index.md
+    items:
+    - name: Define extra fields
+      href: extra-field/create.md

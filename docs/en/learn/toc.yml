@@ -81,6 +81,19 @@ items:
     href: ../marketing/learn/toc.yml
   - name: Forms
     href: ../marketing/forms/learn/toc.yml
+
+  - name: Knowledge Base
+    href: ../request/learn/screen/knowledge-base.md
+    items:
+    - name: FAQ
+      href: ../faq/learn/toc.yml
+    - name: Reply templates
+      href: ../service/reply-templates/learn/toc.yml
+    - name: Email addresses
+      href: ../email/service/learn/kb-aliases/toc.yml
+    - name: External documents
+      href: ../request/learn/external-document.md
+
   - name: SAINT (Sales intelligence)
     href: ../sale/saint/learn/toc.yml
 
@@ -174,10 +187,14 @@ items:
           href: ../request/learn/status/create.md
         - name: Delete request status
           href: ../request/learn/status/delete.md
+      - name: Email
+        href: ../email/service/learn/toc.yml
+
       - name: System templates
         href: ../request/learn/screen/system-templates.md
-      - name: Package properties
-        href: ../admin/learn/screen/package-properties.md
+
+    - name: System design
+      href: ../ui/blogic/learn/toc.yml
 
     - name: Customer center
       href: ../service/customer-center/learn/toc.yml
@@ -233,17 +250,6 @@ items:
       href: ../document/learn/in-service/toc.yml
       topicHref: ../document/learn/in-service/index.md
 
-    - name: Knowledge Base
-      href: ../request/learn/screen/knowledge-base.md
-      items:
-      - name: FAQ
-        href: ../faq/learn/toc.yml
-      - name: Reply templates
-        href: ../service/reply-templates/learn/toc.yml
-      - name: Email addresses
-        href: ../email/service/learn/kb-aliases/toc.yml
-      - name: External documents
-        href: ../request/learn/external-document.md
     - name: Statistics in Service
       href: ../dashboard/learn/in-service/statistics/toc.yml
       topicHref: ../dashboard/learn/in-service/statistics/index.md
@@ -252,11 +258,6 @@ items:
       href: ../search-options/selection/learn/in-service/toc.yml
       topicHref: ../search-options/selection/learn/in-service/index.md
 
-    - name: Email
-      href: ../email/service/learn/toc.yml
-    - name: User interface
-      href: ../ui/blogic/learn/toc.yml
-    
     - name: Invoice
       href: ../request/learn/invoice/toc.yml
       topicHref: ../request/learn/invoice/index.md
