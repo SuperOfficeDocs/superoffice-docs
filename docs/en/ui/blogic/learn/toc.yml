@@ -11,3 +11,5 @@ items:
     href: profiles/toc.yml
   - name: Extra menus
     href: extra-menus/toc.yml
+  - name: Package properties
+    href: ../../../admin/learn/screen/package-properties.md    

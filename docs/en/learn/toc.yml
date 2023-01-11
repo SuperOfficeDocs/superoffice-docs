@@ -108,10 +108,6 @@ items:
     - name: Privacy
       href: ../security/privacy/learn/toc.yml
 
-    - name: SAINT (Sales intelligence)
-      href: ../sale/saint/learn/admin/toc.yml
-      topicHref: ../sale/saint/learn/admin/index.md
-
     - name: Quote/Sync
       href: ../quote/learn/quote-sync/toc.yml  
 
@@ -144,6 +140,7 @@ items:
         href: ../ui/screen-designer/learn/toc.yml
       - name: Web panels
         href: ../ui/web-panels/learn/index.md
+
     - name: Options
       href: ../admin/options/learn/toc.yml
 
@@ -193,11 +190,15 @@ items:
       - name: System templates
         href: ../request/learn/screen/system-templates.md
 
+    - name: Customer center
+      href: ../service/customer-center/learn/toc.yml
+
     - name: System design
       href: ../ui/blogic/learn/toc.yml
 
-    - name: Customer center
-      href: ../service/customer-center/learn/toc.yml
+    - name: SAINT (Sales intelligence)
+      href: ../sale/saint/learn/admin/toc.yml
+      topicHref: ../sale/saint/learn/admin/index.md
 
     - name: Onsite
       items:
@@ -220,13 +221,14 @@ items:
       href: ../admin/user-management/learn/toc.yml
     - name: Import
       href: ../admin/import/learn/toc.yml
-    - name: AI
-      href: ../ai/learn/toc.yml
     - name: ERP
       href: ../admin/erp/learn/toc.yml
+    - name: AI
+      href: ../ai/learn/toc.yml
 
   - name: Windows client settings
     href: ../onsite/win-client/learn/toc.yml
+
   - name: Service client
     items:
     - name: Personal settings in Service
