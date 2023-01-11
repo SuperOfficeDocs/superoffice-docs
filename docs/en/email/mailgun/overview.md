@@ -35,14 +35,14 @@ Mail sent from your customer to your SuperOffice Service:
 
 ![1-in-hi -screenshot][img2]
 
-### PROS
+### Pros
 
 * We handle all your shared email accounts (support@.., sales@.., …)
 * We handle the volumes of sending your emails
 * We handle the email reputation management
 * Easy to get started, ready to use
 
-### CONS
+### Cons
 
 * Separate domain name for emails from these 'shared' accounts (x@domain.suocrm.com vs. x@domain.com)
 * Other users of Mailgun (incl. CRM Online customer) can spoof this email address
@@ -89,13 +89,12 @@ Mail sent from your customer to your SuperOffice Service:
 * We handle the volumes of sending your emails
 * We handle the email reputation management
 * A prove that you are authorized sender for the domain
-* No more "sent via Mailgun.org" message in your emails.
-* Establishing a positive email reputation for your own domain.
+* No more "sent via Mailgun.org" message in your emails
+* Establishing a positive email reputation for your own domain
 
 ### Cons
 
-* Other users of Mailgun (incl. CRM Online customer) can spoof this email address, even with SPF
-  * See details in section [Security and best practices][3].
+* Other users of Mailgun (incl. CRM Online customer) can spoof this email address, even with SPF. See details in section [Security and best practices][3].
 * Require to administer and setup of mail forwarding on your local mail account for incoming emails
 * Require DNS entry for SPF (cumbersome)
 * Requires registration, (administration) and DNS entry for DKIM (cumbersome)
@@ -122,10 +121,22 @@ Use your own email server for outgoing SuperOffice Mailings to your customers. 
 
 Use your own email server for outgoing SuperOffice Service to your customers. You continue to use our Mailgun service (Alternative 1 or 2 above) for mail sent from SuperOffice Mailings.
 
+### Pros
+
+* Do not require a separate DNS entry for SPF
+* Do not require a separate DNS entry for DKIM
+* Full control of email domain and emails going out
+
+### Cons
+
+* You handle all your shared email accounts (locally), setup and configuration settings will (for now) be handled by Online Operations
+* You handle the volumes of sending your emails
+* You handle the blacklisting of your IP address (email reputation management)
+* Do require you to administer and setup of mail forwarding to Mailgun on your local mail account for incoming emails (for example, bounce) and/or maintenance of "reply to" / "from" in your outgoing emails need to match your setup of how you plan to get your customers response emails back into SuperOffice Service via Mailgun.
+
 ### How to configure your CRM Online site to use your own SMTP (outgoing) mail server?
 
 Contact our support directly, and they will help you to get it configured.
-
 
 **Access to your SMTP server from Online servers:**
 
