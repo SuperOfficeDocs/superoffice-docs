@@ -12,7 +12,7 @@ items:
       href: udef/add.md
     - name: Move field
       href: udef/move.md
-    - name: Edit the TAB order of fields
+    - name: Edit TAB order of fields
       href: udef/change-tab-order.md
     - name: Edit field
       href: udef/edit.md
@@ -25,10 +25,10 @@ items:
     items:
     - name: Tables
       href: screen/tables.md
-    - name: Define extra tables
+    - name: Add extra tables
       href: extra-table/create.md
   - name: Extra fields
     href: extra-field/index.md
     items:
-    - name: Define extra fields
+    - name: Add extra fields
       href: extra-field/create.md

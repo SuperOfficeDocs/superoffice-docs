@@ -123,21 +123,20 @@ items:
       - name: Project guide
         href: ../project/learn/screen/project-guide-admin.md
         items:
-        - name: Create new project guide, 
+        - name: Create new project guide
           href: ../project/learn/project-guide/create.md
-        - name: Edit project-guide
+        - name: Edit project guide
           href: ../project/learn/project-guide/edit.md
         - name: Deactivate project guide
           href: ../project/learn/project-guide/deactivate.md
 
     - name: Custom objects
       href: ../custom-objects/learn/toc.yml
+
     - name: User interface
       items:
       - name: Screen designer
         href: ../ui/screen-designer/learn/toc.yml
-      - name: Web panels
-        href: ../ui/web-panels/learn/index.md
 
     - name: Options
       href: ../admin/options/learn/toc.yml
@@ -261,3 +260,11 @@ items:
     - name: Invoice
       href: ../request/learn/invoice/toc.yml
       topicHref: ../request/learn/invoice/index.md
+
+    - name: System design
+      items:
+      - name: Web panels
+        href: ../ui/web-panels/learn/index.md
+  
+      - name: Elements
+        href: elements.md
