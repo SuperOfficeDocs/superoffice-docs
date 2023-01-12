@@ -1,25 +1,26 @@
 items:
 - name: Overview
   href: index.md
-- name: Preferences tab
+- name: Preferences
   href: preferences-tab/index.md
+- name: Active settings
+  href: preferences-tab/active-settings.md
   items:
-  - name: Active settings
-    href: preferences-tab/active-settings.md
+  - name: Work with preferences
     items:
-    - name: Add preference settings
+    - name: Add preference
       href: preferences-tab/adding-preference-settings.md
-    - name: Edit preference settings
+    - name: Edit preference
       href: preferences-tab/editing-preference-settings.md
-    - name: Delete preference settings
+    - name: Delete preference
       href: preferences-tab/deleting-preference-settings.md
-  - name: Levels for preference settings
+    - name: View preferences
+      href: preferences-tab/viewing-preferences-in-superoffice-crm.md
+  - name: Levels for preferences
     href: preferences-tab/levels-for-preference-settings.md
     items:
     - name: Displaying different levels
       href: preferences-tab/displaying-different-levels.md
-  - name: View preferences in SuperOffice CRM
-    href: preferences-tab/viewing-preferences-in-superoffice-crm.md
 - name: Global preferences
   href: global-preferences.md
 - name: Video meetings

@@ -8,11 +8,11 @@ items:
     href: send-privacy-confirmation-email.md
   - name: Generate personal data report
     href: generate-personal-data-report.md
-  - name: Configuration
-    items:
-    - name: Add consent purpose
-      href: add-consent-purpose.md
-    - name: Add legal base
-      href: ../../../admin/lists/learn/privacy-legal-base-add.md
-    - name: Add privacy source
-      href: ../../../admin/lists/learn/privacy-source-add.md
+- name: Configuration
+  items:
+  - name: Add consent purpose
+    href: add-consent-purpose.md
+  - name: Add legal base
+    href: ../../../admin/lists/learn/privacy-legal-base-add.md
+  - name: Add privacy source
+    href: ../../../admin/lists/learn/privacy-source-add.md

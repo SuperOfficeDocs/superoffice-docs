@@ -63,6 +63,8 @@ items:
     href: ../diary/learn/toc.yml
   - name: Document
     href: ../document/learn/toc.yml
+  - name: Email
+    href: ../email/learn/toc.yml
   - name: Sale
     href: ../sale/learn/toc.yml
   - name: Project
@@ -71,8 +73,6 @@ items:
     href: ../request/learn/toc.yml
   - name: Selection
     href: ../search-options/selection/learn/toc.yml
-  - name: Email
-    href: ../email/learn/toc.yml
   - name: Chat
     href: ../chat/learn/toc.yml
   - name: Reports
@@ -104,10 +104,8 @@ items:
       href: ../admin/lists/learn/toc.yml
     - name: Preferences
       href: ../admin/preferences/learn/toc.yml
-
     - name: Privacy
       href: ../security/privacy/learn/toc.yml
-
     - name: Quote/Sync
       href: ../quote/learn/quote-sync/toc.yml  
 
