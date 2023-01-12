@@ -94,16 +94,18 @@ items:
       href: resource.md
     - name: Add a resource
       href: adding-items-to-resource-list.md
-  - name: GUI
-    items:
-    - name: Application list
-      href: application.md
-    - name: Add a application
-      href: adding-external-applications-to-application-list.md
-    - name: Web panel
+    - name: GUI web panel
       href: web-panel.md
-    - name: Add a web panel
-      href: web-panel-add-item.md
+      items:
+      - name: Add web panel
+        href: web-panel-add-item.md
+    - name: Task menu
+      href: add-items-to-task-menu.md
+    - name: GUI application list
+      href: application.md
+      items:
+      - name: Add application
+        href: adding-external-applications-to-application-list.md
 - name: User-defined lists
   items:
   - name: Add user-defined list
