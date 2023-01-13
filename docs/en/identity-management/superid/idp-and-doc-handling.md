@@ -12,26 +12,18 @@ so.client: online
 
 # Identity providers and document handling
 
-Let's look at how SuperID changes how you use and set up identity providers (IdP) and document handling.
+SuperID support Microsoft or Google as document repositories. We offer self-service set up identity providers (IdP) and document handling.
+Advanced IDP setup: additional configuration that can be set up by R&D services. For example, sub-domains and custom domains.
+Other identity providers are available on request if they support OpenID Connect.
 
-## Before SuperID
+## Microsoft SharePoint
 
-* Microsoft and Google identity providers require Cloud Office.
+* [Microsoft 365 SharePoint documents integration][2] is self-service.
 
-* Other identity providers are not available.
-
-* SharePoint and Google Workspace integration must be set up manually by R&D services.
-
-## With SuperID
-
-* Microsoft or Google IdP is supported. We offer self-service + advanced additional configuration that can be set up by R&D services. For example, sub-domains and custom domains.
-
-* Other identity providers are available on request if they support OpenID Connect.
+## Google Workspace
 
 * [Google Workspace integration][1] is self-service.
 
-* [Microsoft 365 integration][2] must be set up manually for the time being, but self-service is planned for upcoming releases.
-
 <!-- Referenced links -->
 [1]: ../../document/cloud/g-suite/set-up.md
-[2]: ../../document/cloud/legacy/office-365/set-up.md
+[2]: ../../document/cloud/sharepoint-documents/index.html
