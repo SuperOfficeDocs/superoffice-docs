@@ -10,7 +10,7 @@ language: en
 so.envir: onsite
 ---
 
-# Other users
+# Other users (Onsite)
 
 [!include[Requirement](../includes/note-users-that-req-es.md)]
 

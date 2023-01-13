@@ -13,3 +13,5 @@ items:
     href: sales-tab.md
   - name: Requests tab
     href: requests-tab.md
+  - name: ERP tab
+    href: ../../../admin/erp/learn/screen/erp-tab.md

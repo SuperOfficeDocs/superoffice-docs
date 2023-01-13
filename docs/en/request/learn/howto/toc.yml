@@ -17,6 +17,8 @@ items:
     href: reply.md
   - name: Add requests to favorites
     href: fav.md
+  - name: Tags
+    href: ../tags.md
   - name: Keep track of messages
     href: flag-message.md
   - name: Add a message to multiple requests

@@ -5,9 +5,10 @@
     href: create-role.md
   - name: Set data rights for role
     href: set-data-rights-for-role.md
-  - name: Editing a role
+  - name: Edit role
     href: editing-role.md
   - name: Edit rights for anonymous users
     href: edit-rights-for-anonymous-users.md
-  - name: Deleting a role
+  - name: Delete role
     href: deleting-role.md
+    

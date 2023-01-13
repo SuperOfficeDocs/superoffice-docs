@@ -154,8 +154,6 @@ items:
 
     - name: Requests
       items:
-      - name: System settings in Service
-        href: ../service/settings/learn/toc.yml
       - name: Categories
         href: ../request/learn/category/index.md
         items:
@@ -163,8 +161,6 @@ items:
           href: ../request/learn/category/create.md
         - name: Delete category
           href: ../request/learn/category/delete.md
-      - name: Tags
-        href: ../request/learn/tags.md
       - name: Priorities
         href: ../request/learn/priority/index.md
         items:
@@ -183,7 +179,6 @@ items:
           href: ../request/learn/status/delete.md
       - name: Email
         href: ../email/service/learn/toc.yml
-
       - name: System templates
         href: ../request/learn/screen/system-templates.md
 
@@ -199,7 +194,7 @@ items:
 
     - name: Onsite
       items:
-      - name: SOAP
+      - name: SOAP overview
         href: ../admin/learn/screen/soap-config.md
       - name: Configure SOAP interface
         href: ../admin/learn/configure-soap.md
@@ -207,20 +202,19 @@ items:
   - name: Administration and system settings
     href: administration.yml
     items:
+    - name: User management
+      href: ../admin/user-management/learn/toc.yml
+    - name: Licenses
+      href: ../admin/license/learn/toc.yml
+    - name: Import
+      href: ../admin/import/learn/toc.yml
     - name: System events
       href: ../admin/learn/system-events.md
       items:
-      - name: Add
+      - name: Add system event
         href: ../admin/learn/add-system-event.md
-    - name: Licenses
-      href: ../admin/license/learn/toc.yml
-    - name: User management
-      href: ../admin/user-management/learn/toc.yml
-    - name: Import
-      href: ../admin/import/learn/toc.yml
-    - name: ERP
-      href: ../admin/erp/learn/toc.yml
-    - name: AI
+
+    - name: AI services
       href: ../ai/learn/toc.yml
 
   - name: Windows client settings
@@ -261,10 +255,16 @@ items:
       href: ../request/learn/invoice/toc.yml
       topicHref: ../request/learn/invoice/index.md
 
-    - name: System design
+    - name: System settings
       items:
-      - name: Web panels
-        href: ../ui/web-panels/learn/index.md
+      - name: Users screen
+        href: screen/users-screen-service.md
   
-      - name: Elements
-        href: elements.md
+      - name: System design
+        items:
+        - name: Web panels
+          href: ../ui/web-panels/learn/index.md
+    
+        - name: Elements
+          href: elements.md
+  

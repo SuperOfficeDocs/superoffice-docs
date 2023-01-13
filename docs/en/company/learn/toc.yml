@@ -25,3 +25,5 @@ items:
     href: change-rank-of-contacts.md
 - name: Address formats for countries
   href: address-formats.md
+- name: ERP connection
+  href: ../../admin/erp/learn/toc.yml

@@ -23,6 +23,10 @@ items:
       href: preferences-tab/displaying-different-levels.md
 - name: Global preferences
   href: global-preferences.md
+  items:
+    - name: System settings for Requests
+      href: ../service/settings/learn/toc.yml
+
 - name: Video meetings
   href: video-meetings/index.md
   items:
