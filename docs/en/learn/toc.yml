@@ -194,6 +194,8 @@ items:
 
     - name: Onsite
       items:
+      - name: Data Exchange
+        href: ../automation/crmscript/learn/screen/data-exchange.md
       - name: SOAP overview
         href: ../admin/learn/screen/soap-config.md
       - name: Configure SOAP interface
@@ -224,7 +226,7 @@ items:
     items:
     - name: Personal settings in Service
       href: ../service/settings/learn/personal-settings/toc.yml
-    - name: Search
+    - name: Search in Service
       href: ../search-options/learn/in-service/index.md
       items:
       - name: Customize presentation
