@@ -97,7 +97,7 @@ items:
   - name: SAINT (Sales intelligence)
     href: ../sale/saint/learn/toc.yml
 
-  - name: Customization
+  - name: Customisation
     href: customization.yml
     items:
     - name: Lists
