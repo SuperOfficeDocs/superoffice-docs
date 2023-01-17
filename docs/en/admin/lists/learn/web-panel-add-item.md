@@ -6,6 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: help
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -57,11 +59,9 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 
       </details>
 
-    * **Task**: select this option to make the URL address accessible from the **Task** button in the **Contact** screen.
-
     * **Menu**: select an option in this list box to make the URL accessible on one of the menus in SuperOffice CRM. <details><summary> Click here to find out more about the different options.</summary>
 
-      * **Toolbox menu**: the URL address is displayed when the user clicks the **Tools** button ( ![icon][img1] ) in the Navigator or selects **Other Applications** in SuperOffice CRM.
+      * **Toolbox menu**: the URL address is displayed when the user clicks the **Tools** button  ![icon][img1] in the Navigator or selects **Other Applications** in SuperOffice CRM.
       * **View menu**: the URL address is displayed when the user selects **Other Applications** in SuperOffice CRM.
 
       </details
@@ -79,9 +79,14 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 > [!TIP]
-> If you add a URL address, it may be useful to use template variables for the active company, for example, to retrieve information from other applications via a URL. The URL address must specify parameters, as in this fictitious example: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn here is the template variable for the organization number, but other variables like company name &lt;name&gt;, company phone number &lt;cpho&gt;, contact name &lt;attn&gt;, can also be used.
+> If you add a URL address, it may be useful to use template variables for the active company, for example, to retrieve information from other applications via an URL. The URL address must specify parameters, as in this fictitious example: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn here is the template variable for the organisation number, but other variables like company name &lt;name&gt;, company phone number &lt;cpho&gt;, contact name &lt;attn&gt;, can also be used.
+
+## Related topics
+
+* [Add a task menu item][1]
 
 <!-- Referenced links -->
+[1]: add-items-to-task-menu.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-tools.png
