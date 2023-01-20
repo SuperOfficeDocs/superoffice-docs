@@ -13,11 +13,11 @@ so.version: 10.2
 
 ## Summary of highlights
 
-[!include[ALT](../includes/v10-intro.md)]
+[!include[SuperOffice version 10 introduction](../includes/v10-intro.md)]
 
-## Details of the new features
+## Details of new features
 
-* 10.2.1: Task menu list, Dashboard
+* 10.2.1: Task menu list, Custom tasks, Preferences, Batch management, Document preview with meta data
 
 <!-- Referenced links -->
 
