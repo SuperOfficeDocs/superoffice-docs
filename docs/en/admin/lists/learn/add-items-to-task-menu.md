@@ -49,7 +49,7 @@ This is how to fill out the fields in the Edit list items dialog for Task menu:
 
 1. Tick the boxes for where you want the Task menu item to show.
 
-1. Optionally, type in a description of the item in the **Description** field.
+1. Optionally, type in a description of the item in the **Description** field. Read about [Translation][7].
 
 1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
@@ -59,6 +59,7 @@ This is how to fill out the fields in the Edit list items dialog for Task menu:
 ## Related topics
 
 * [Add a web panel item][1]
+* [Add a translation][7]
 
 <!-- Referenced links -->
 [1]: web-panel-add-item.md
@@ -67,5 +68,6 @@ This is how to fill out the fields in the Edit list items dialog for Task menu:
 [4]: ../../../ui/web-panels/url-encoding.md
 [5]: ../../../automation/crmscript/learn/index.md
 [6]: ../../../ui/soprotocol/index.md
+[7]: ../../../ui/web-panels/url-encoding.md
 
 <!-- Referenced images -->

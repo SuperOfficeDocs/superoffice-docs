@@ -3,8 +3,8 @@ uid: help-en-adding-items-to-web-panel-list
 title: Adding items to the web panel list
 description: Adding items to the web panel list
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
+so.date: 01.20.2023
+keywords: Settings and maintenance, list, web panel
 so.topic: help
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
@@ -29,7 +29,6 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 
 1. Enter the required name of the item in the **Name** field. This name is displayed when you add the URL address in SuperOffice CRM.
 
-    > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
 1. In the **URL** field, specify the URL address such as a web page or a server-based HTML file. Please see the information at the top concerning the use of HTTP/HTTPS URLs.
@@ -66,16 +65,17 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 
       </details
 
-1. In the **URL encoding** list box, you can select if the URL should be ANSI or Unicode (or no format).
+1. In the **URL encoding** list box, you can select if the [URL][2] should be ANSI or Unicode (or no format).
 1. Under **Show**, select which bars will be available in the browser that the URL is opened in: menu bar, toolbar, address bar or status bar.
 1. Under **Available on** choose where you want the URL address to be available. You can select several of these options simultaneously.
-    * **Central database**: when you are working on the central database.
-    * **Satellite**: when you are working on a satellite.
-    * **Travel**: when you are using a local database using the Travel feature.
     * **SuperOffice CRM for Web**: when you are using the Web version of SuperOffice CRM.
-    * **Pocket CRM**: when you are using the mobile version of SuperOffice CRM.
+    * **Mobile CRM**: when you are using the mobile version of SuperOffice CRM.
+
+    Extra settings:
+    * **Always reload** content on tab navigation.
+    * **Show link** for opening in separate window.
 1. Click the **Icon** list to select an icon for the web panel.
-1. Optionally, type in a description of the item in the **Description** field.
+1. Optionally, type in a description of the item in the **Description** field. Read about [Translation][3].
 1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 > [!TIP]
@@ -84,9 +84,12 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 ## Related topics
 
 * [Add a task menu item][1]
+* [Add a translation][3]
 
 <!-- Referenced links -->
 [1]: add-items-to-task-menu.md
+[2]: ../../../ui/web-panels/url-encoding.md
+[3]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-tools.png
