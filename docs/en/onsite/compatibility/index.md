@@ -15,6 +15,14 @@ The published compatibility test reports. A **Test Passed** status is a 90% assu
 
 We make the compatibility reports when other vendors release newer versions after our release. This is where you see if, for example, a new version of Internet Explorer is compatible with the current releases of SuperOffice. You can also check out the [system requirements][1].
 
+## SQL Server 2022
+
+![MS SQL 2022][img19]
+
+Microsoft SQL Server 2022 tested with SuperOffice 10.1.6 along with ODBC driver 18.1.2.1. We mainly focused on product installation and performed smoke testing on critical functional areas of the products. No critical issues were found during testing. The report was made on December 8th 2022.
+
+<a href="../../../assets/downloads/compatibility/sql-server-2022.xlsx" download>Click to download report</a>
+
 ## MacOS Ventura
 
 ![macOS Ventura][img18]
@@ -135,14 +143,6 @@ We have tested SuperOffice 8 version 8.0.6144 (SR4) for all clients (Win, Web, C
 
 <a href="../../../assets/downloads/compatibility/windows-server-2016.xlsx" download>Click to download report</a>
 
-## MacOS Sierra
-
-![macos-sierra.jpg][img11]
-
-SuperOffice MacLink has been tested successfully on MacOS Sierra. No issues were found during our smoke tests. The report was made in October 2016.
-
-<a href="../../../assets/downloads/compatibility/maclink---os-sierra.xlsx" download>Click to download report</a>
-
 ## SQL Express 2016
 
 ![sqlexpress.png][img12]
@@ -173,7 +173,6 @@ Microsoft SQL Server 2016 has been tested successfully with SuperOffice 7.5 SR2 
 [img8]: media/sqlserver2017.png
 [img9]: media/macoshighsierra.jpg
 [img10]: media/windows-server-2016.png
-[img11]: media/macos-sierra.jpg
 [img12]: media/sqlexpress.png
 [img13]: media/microsoft-sql.png
 [img14]: media/windows11.jpg
@@ -181,3 +180,4 @@ Microsoft SQL Server 2016 has been tested successfully with SuperOffice 7.5 SR2 
 [img16]: media/win-server-2022.jpg
 [img17]: media/office2021.png
 [img18]: media/macos-ventura.png
+[img19]: media/sql-server-2022.png

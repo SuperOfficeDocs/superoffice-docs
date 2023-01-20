@@ -19,11 +19,12 @@ For database-specific system requirements, check the vendor [Microsoft][1] or 
 
 | Database           | 8.0, SR1 | 8.0 SR2 - SR6 | 8.1 - 8.4 | 8.5 | 9 | 10 |
 |--------------------|:--:|:--:|:--:|:--:|:--:|:--:|
+| MS SQL Server 2022 | ![i][img3] | ![i][img3]   | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
 | MS SQL Server 2019 | ![i][img3] | ![i][img3]   | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] |
 | MS SQL Server 2017 | ![i][img3] | ![i][img3]\* | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | MS SQL Server 2016 | ![i][img3] | ![i][img1]   | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | MS SQL Server 2014 | ![i][img1] | ![i][img1]   | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| MS SQL Server 2012 SP1 - SP3\*\*\*, SP4 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| MS SQL Server 2012\*\*\* | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | MS SQL Server 2008 R2\*\*\* | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] |
 | Oracle 18c         | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1]\*\*| ![i][img1]\*\* |  ![i][img1]\*\* |
 | Oracle 12c         | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
