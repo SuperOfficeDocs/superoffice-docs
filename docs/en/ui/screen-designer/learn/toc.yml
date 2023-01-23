@@ -7,3 +7,5 @@ items:
   href: edit-layout.md
 - name: Edit layout - Archives (section tabs)
   href: edit-layout-archives.md
+- name: Elements
+  href: elements.md
