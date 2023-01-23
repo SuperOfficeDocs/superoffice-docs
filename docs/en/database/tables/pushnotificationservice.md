@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "PushNotificationService"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PushNotificationService Table (490)
+# PushNotificationService Table (493)
 
 Used for storing handles to user devices that should receive push notifications
 

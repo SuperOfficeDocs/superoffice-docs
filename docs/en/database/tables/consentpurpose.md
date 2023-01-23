@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "ConsentPurpose"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ConsentPurpose Table (465)
+# ConsentPurpose Table (468)
 
 GDPR purpose alternatives
 

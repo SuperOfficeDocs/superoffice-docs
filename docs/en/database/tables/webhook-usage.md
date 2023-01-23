@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "Webhook_usage"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Webhook\_usage Table (503)
+# Webhook\_usage Table (506)
 
 Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.
 

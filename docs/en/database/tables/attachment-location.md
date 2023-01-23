@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "attachment_location"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# attachment\_location Table (472)
+# attachment\_location Table (475)
 
 A location for storing attachments
 

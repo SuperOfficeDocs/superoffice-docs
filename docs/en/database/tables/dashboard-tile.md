@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "dashboard_tile"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# dashboard\_tile Table (477)
+# dashboard\_tile Table (480)
 
 Represents one tile in the dashboard
 

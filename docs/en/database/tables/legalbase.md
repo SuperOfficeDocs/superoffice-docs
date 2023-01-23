@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "LegalBase"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# LegalBase Table (466)
+# LegalBase Table (469)
 
 Legal base for GDPR (Article 6)
 

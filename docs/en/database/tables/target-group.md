@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "target_group"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# target\_group Table (494)
+# target\_group Table (497)
 
 Info about a set of (sales, project, selection...) targets
 

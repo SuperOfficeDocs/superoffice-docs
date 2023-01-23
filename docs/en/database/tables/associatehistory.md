@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "AssociateHistory"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# AssociateHistory Table (504)
+# AssociateHistory Table (507)
 
 Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database
 

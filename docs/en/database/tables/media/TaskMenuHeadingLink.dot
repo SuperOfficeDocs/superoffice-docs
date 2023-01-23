@@ -1,0 +1,13 @@
+digraph TaskMenuHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+TaskMenuHeadingLink[fillcolor = "cadetblue1"]
+TaskMenu[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+TaskMenuHeadingLink -> TaskMenu [headlabel = "taskMenu_id"]
+TaskMenuHeadingLink -> Heading [headlabel = "heading_id"]
+TaskMenuHeadingLink -> associate [headlabel = "registered_associate_id"]
+TaskMenuHeadingLink -> associate [label = "updated_associate_id"]
+}

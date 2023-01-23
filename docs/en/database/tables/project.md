@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "project"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -82,6 +82,7 @@ Projects
 |[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
 |[StatusValue](statusvalue.md)  |Values for statuses |
 |[text](text.md)  |Long text fields from all over the system |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[TZLocation](tzlocation.md)  |Time zone location |
 |[udprojectLarge](udprojectlarge.md)  |User-defined fields. During conversion of user defined fields the data is stored in this table. |
 |[udprojectSmall](udprojectsmall.md)  |User-defined fields |

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "category_membership"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,7 +24,8 @@ This table connects users to categories (many-to-many).
 |id|The primary key (auto-incremented)|PK| |
 |category\_id|The reference to the category.|FK [ej_category](ej-category.md)| |
 |user\_id|The reference to the ej user.|FK [ejuser](ejuser.md)| |
-|weight|The proportion used for weighted delegation within category if weighted assignment is active. 0 = no automatic assignment, -1 = defined by usergroup via ejCategoryGroup, counts as 0 weight. |Short|&#x25CF;|
+|weight|The proportion used for weighted delegation within category if weighted assignment is active. 0 = no automatic assignment.|Short|&#x25CF;|
+|is\_defined\_by\_usergroup|Specifies if membership was defined by usergroup via ejCategoryGroup|Bool| |
 
 
 ![category_membership table relationship diagram](./media/category_membership.png)

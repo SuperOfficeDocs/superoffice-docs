@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "dashboard_tile_definition"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# dashboard\_tile\_definition Table (476)
+# dashboard\_tile\_definition Table (479)
 
 Describes the contents of a tile
 

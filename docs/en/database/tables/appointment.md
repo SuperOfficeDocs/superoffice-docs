@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "appointment"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -70,6 +70,7 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 |join\_videomeet\_url|Blank when not a video meeting. Filled with Join Meeting URL when created.|String(2000)|&#x25CF;|
 |centralservice\_videomeet\_id|GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox.|String(100)|&#x25CF;|
 |original\_start\_date|The original start date for an appointment in a recurring series|DateTime|&#x25CF;|
+|modified\_appointment\_fields|Which important fields of an appointment have been changed. Used by notifications.|Enum [ModifiedAppointmentFields](enums/modifiedappointmentfields.md)|&#x25CF;|
 |cautionWarning|Status field to indicate appointments that have some sort of problem|Enum [AppointmentCautionWarning](enums/appointmentcautionwarning.md)|&#x25CF;|
 |mother\_associate\_id|Associate/owner of the mother appointment|FK [associate](associate.md)|&#x25CF;|
 

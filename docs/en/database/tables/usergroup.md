@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "UserGroup"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -110,6 +110,7 @@ Secondary user groups
 |[target\_assignment\_info](target-assignment-info.md)  |Linking associate, company or user group target and other information with target values |
 |[target\_revision\_history](target-revision-history.md)  |Revision history info in case the original target group or assignment info was deleted |
 |[TaskGroupLink](taskgrouplink.md)  |User group link table for Task, for MDO item hiding |
+|[TaskMenuGroupLink](taskmenugrouplink.md)  |User group link table for TaskMenu, for MDO item hiding |
 |[UDefFieldGL](udeffieldgl.md)  |User group link table for UDefField, for MDO item hiding |
 |[UDListGroupLink](udlistgrouplink.md)  |User group link table for UDList, for MDO item hiding. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
 |[UserGroupLink](usergrouplink.md)  |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http://techdoc.superoffice.com has more information about how roles are implemented. |

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "Webhook"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Webhook Table (502)
+# Webhook Table (505)
 
 Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.
 
