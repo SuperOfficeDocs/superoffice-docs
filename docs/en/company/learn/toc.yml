@@ -21,5 +21,7 @@ items:
     href: add-relation.md
   - name: Delete a relation
     href: delete-relation.md
-- name: Address formats for different countries
+- name: Address formats for countries
   href: address-formats.md
+- name: ERP connection
+  href: ../../admin/erp/learn/toc.yml

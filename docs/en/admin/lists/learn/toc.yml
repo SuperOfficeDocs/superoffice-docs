@@ -4,11 +4,11 @@ items:
 - name: Items
   href: items.md
   items:
-  - name: Adding items
+  - name: Add items
     href: adding-items.md
-  - name: Editing items
+  - name: Edit items
     href: editing-items.md
-  - name: Deleting items
+  - name: Delete items
     href: deleting-items.md
   - name: Duplicates
     href: duplicates.md
@@ -28,17 +28,17 @@ items:
       href: organize/headings-editing-and-deleting.md
   - name: Deleted items and headings
     href: organize/deleted-items-and-headings.md
-- name: Specialized lists
+- name: Specialised lists
   href: specialized-lists.md
   items:
   - name: Document template
     href: document-template.md
     items:
-    - name: Use standard templates
+    - name: Edit standard templates
       href: using-standard-templates.md
-    - name: Create a document template
+    - name: Create document template
       href: creating-template-document.md
-    - name: Add a template
+    - name: Add template
       href: add-template.md
     - name: Replace existing template
       href: replace-existing-template.md
@@ -47,52 +47,55 @@ items:
   - name: Email template
     href: email-template.md
     items:
-    - name: Add an email template
+    - name: Add email template
       href: add-email-template.md
   - name: Follow-up type
     href: follow-up-type.md
     items:
-    - name: Add a follow-up type
+    - name: Add follow-up type
       href: adding-items-to-follow-up-type-list.md
-  - name: Sale stage
-    href: ../../../sale/learn/screen/sale-stage.md
+
+  - name: Sale
     items:
-    - name: Add a sale stage
+    - name: Sale stage
+      href: ../../../sale/learn/screen/sale-stage.md
+    - name: Add sale stage
       href: sale-stage.md
-  - name: Sales type (for stages)
-    href: ../../../sale/learn/screen/sales-type-for-stages.md
-    items:
-    - name: Add a sales type
+    - name: Sale type, stages, quote
+      href: ../../../sale/learn/screen/sales-type-for-stages.md
+    - name: Add sales type
       href: sale-type.md
-  - name: Add sale amount class
-    href: sale-amount-class.md
-  - name: Project Status
-    href: ../../../project/learn/screen/project-status-admin.md
+    - name: Add sale amount class
+      href: sale-amount-class.md
+
+  - name: Project
     items:
-    - name: Add a project status
+    - name: Project status
+      href: ../../../project/learn/screen/project-status-admin.md
+    - name: Add project status
       href: project-status.md
-  - name: Project Type
-    href: ../../../project/learn/screen/project-type-admin.md
-    items:
-    - name: Add a project type
+    - name: Project type
+      href: ../../../project/learn/screen/project-type-admin.md
+    - name: Add project type
       href: project-type.md
+
   - name: General
     items:
     - name: Country
       href: country.md
-    - name: Add a country
+    - name: Add country
       href: add-items-to-country-list.md
     - name: Currency
       href: currency.md
-    - name: Add a currency
+    - name: Add currency
       href: adding-items-to-currency-list.md
     - name: Relation
       href: relation.md
-    - name: Add a relation
+    - name: Add relation
       href: adding-items-to-relation-list.md
     - name: Resource
       href: resource.md
-    - name: Add a resource
+    - name: Add resource
       href: adding-items-to-resource-list.md
     - name: GUI web panel
       href: web-panel.md
@@ -106,11 +109,12 @@ items:
       items:
       - name: Add application
         href: adding-external-applications-to-application-list.md
+
 - name: User-defined lists
   items:
   - name: Add user-defined list
     href: adding-user-defined-lists.md
-  - name: Edit a list name and description
+  - name: Edit list name and description
     href: editing-lists-name-and-description.md
   - name: Delete user-defined list
     href: deleting-user-defined-lists.md

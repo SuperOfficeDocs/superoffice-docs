@@ -31,7 +31,7 @@ These charts show statistics for the form (mouse-over to view exact numbers).
 
 ## Form submissions
 
-Here you can view and process all submitted forms. A red icon on the tab indicates new form submissions (![icon][img1]).
+Here you can view and process all submitted forms. A red icon on the tab indicates new form submissions ![icon][img1].
 
 Use the filter options at the bottom of the list to [view only submissions with specific statuses][3].
 

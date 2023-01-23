@@ -9,7 +9,7 @@ so.topic: concept
 language: en
 ---
 
-# Receive requests
+# Automatic assignment methods for requests
 
 For a request to be your responsibility, your name must appear in the request's **Owner** field. This can be set manually, for example when the [request is created][2]. But it may also be the result of automatic assignment of requests. Such assignment depends on the category the request belongs to, and the assignment method specified for this category.
 
@@ -28,7 +28,7 @@ For a request to be your responsibility, your name must appear in the request's 
 
 A request handler with category administration rights can specify the assignment method for categories:
 
-1. Select ![icon][img1] **System settings > Categories**.
+1. Select ![icon][img1] **System settings > Categories**. Or go to **Settings and maintenance > Requests > Categories**.
 2. Select the required category.
 3. Select the **Assignment method** tab.
 4. Select the appropriate options.

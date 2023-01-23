@@ -10,7 +10,7 @@ language: en
 so.envir: onsite
 ---
 
-# Data Exchange
+# Data Exchange (Onsite)
 
 [!include[Requirement](../../../../learn/includes/req-expander-services.md)]
 

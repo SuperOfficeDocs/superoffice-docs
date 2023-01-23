@@ -27,8 +27,7 @@ You can move a user from one company to another, if your organization consists o
 
 [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
 
-<!-- markdownlint-disable-next-line MD046 -->
-    [!include[Preview results](../../../learn/includes/note-preview-results.md)]
+[!include[Preview results](../../../learn/includes/note-preview-results.md)]
 
 1. Click **Move**. The user is moved to the specified company.
 
