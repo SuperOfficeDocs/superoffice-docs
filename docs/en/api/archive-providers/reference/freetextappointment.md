@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FreetextAppointment"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,20 +34,18 @@ as well as before any ORDER BY, are applied.
 Private appointments that are not fully readable will not be shown (they are skipped), as in the Windows client
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"appointment"|Follow-up|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |searchwords|string|Search word: One or more words to be used in free text search|  |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|icon|string|Category: Displays the icon for an activity type| x |
+|icon|listAny|Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity| x |
@@ -86,6 +84,7 @@ Private appointments that are not fully readable will not be shown (they are ski
 |invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
+|duration|timeSpan|Duration: The duration of the chat session|  |
 |visibleFor|listAny|Visible for|  |
 |appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -568,7 +567,7 @@ Private appointments that are not fully readable will not be shown (they are ski
 |project/project/textId|int|Text ID| x |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|sale/icon|string|Category: Displays the icon for an activity type| x |
+|sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |sale/time| *None* |Time: Time|  |
 |sale/type|listAny|Type: Displays the type of an activity| x |
@@ -696,11 +695,14 @@ Private appointments that are not fully readable will not be shown (they are ski
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextAppointment?$select=registeredBy,sale/stalledComment,sale/hasGuide,sale/associate/contactCategory
+GET /api/v1/archive/FreetextAppointment?$select=contact/contactAssociate/role,person/position,person/correspondingAssociate/usergroup,project/projectEvent/hasSignOff,sale/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

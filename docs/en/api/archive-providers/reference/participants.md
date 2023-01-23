@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Participants"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -81,17 +81,15 @@ and resourceRestrictionId, and internally sort out which is which. Similarly, if
 in through the externalPersonRestrictionId are actually associates, then that too will be sorted out.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"associate"|Associate|
 |"resource"|Resource:|
 |"externalPerson"|External users|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |ownerAssociateIdInformation|associate|Owner's Associate ID: Associate ID of the user specified as owner of the follow-up|  |
 |inhibitConflictsInformation|bool|No conflict checking: This restriction is used to turn off conflict checking in the participants list|  |
 |startTimeInformation|datetime|Start time: Information for data fetcher, specifies start time for conflict checker|  |
@@ -230,11 +228,14 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Sample
 
 ```http!
-GET /api/v1/archive/Participants?$select=personEmail,personUpdatedByFullName
+GET /api/v1/archive/Participants?$select=portraitThumbnail,personContact/stop,groupRestrictionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Invitation"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -28,9 +28,8 @@ to make sure we get the right order. We also need to filter repeating bookings a
 because someone may explicitly request an instance an a recurring booking, so that all other instances should be suppressed.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"invitation"|Invitation|
 |"cancelled"|Cancelled|
 |"rejected"|Show declined|
@@ -38,14 +37,13 @@ because someone may explicitly request an instance an a recurring booking, so th
 |"repeating"|Show repetitions|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |invitationTypeIcon| *None* |Invitation type icon|  |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|icon|string|Category: Displays the icon for an activity type| x |
+|icon|listAny|Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity| x |
@@ -84,6 +82,7 @@ because someone may explicitly request an instance an a recurring booking, so th
 |invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
+|duration|timeSpan|Duration: The duration of the chat session|  |
 |invitationStatusIcon| *None* |Status icon for the invitation| x |
 |invitationStatus| *None* |Status: Status| x |
 |visibleFor|listAny|Visible for|  |
@@ -568,7 +567,7 @@ because someone may explicitly request an instance an a recurring booking, so th
 |project/project/textId|int|Text ID| x |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|sale/icon|string|Category: Displays the icon for an activity type| x |
+|sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |sale/time| *None* |Time: Time|  |
 |sale/type|listAny|Type: Displays the type of an activity| x |
@@ -697,11 +696,14 @@ because someone may explicitly request an instance an a recurring booking, so th
 ## Sample
 
 ```http!
-GET /api/v1/archive/Invitation?$select=person/personAssociate/simultaneousEjUser,person/correspondingAssociate/fullName,project/projectUrl/URLDescription,project/projectAssociate/personEmail,sale/icon
+GET /api/v1/archive/Invitation?$select=person/birthYear,person/personDirectFax/description,person/consentSourceEmarketing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

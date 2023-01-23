@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TicketMessage"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,15 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Messages on support tickets. Messages are typically e-mail messages with attachments, but not always.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"ticketmessage"|[Ticket Message]|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |searchTitle|string|Title| x |
@@ -529,6 +527,196 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/extra/x\_ticket\_faq|stringorPK|Request - Extra FAQ Relation| x |
 |ticket/extra/x\_ticket\_category\_relation|listAny|Request - Extra category relation: Category relation on request| x |
 |ticket/extra/y\_equipment/x\_name|string|Request - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|ticket/sale/completed|bool|Request - Completed: Displays a checkbox showing if an appointment is completed| x |
+|ticket/sale/icon|listAny|Request - Category: Displays the icon for an activity type| x |
+|ticket/sale/date|date|Request - Date: Displays start date of a follow-up / sale date of a sale| x |
+|ticket/sale/time| *None* |Request - Time: Time|  |
+|ticket/sale/type|listAny|Request - Type: Displays the type of an activity| x |
+|ticket/sale/recordType|string|Request - Record type: Shows the record type| x |
+|ticket/sale/text|positiveString|Request - Text: Displays a descriptive text for the item| x |
+|ticket/sale/associateId|associate|Request - ID: Displays the login ID of the associate who owns the activity.| x |
+|ticket/sale/contactId|listAny|Request - Company ID: Database ID of company| x |
+|ticket/sale/personId|listAny|Request - Contact ID: Database ID of the contact row| x |
+|ticket/sale/projectId|listAny|Request - Project ID: Database ID of project record| x |
+|ticket/sale/saleId|int|Request - Sale ID: The database ID of the sale record| x |
+|ticket/sale/userGroup|userGroup|Request - User group: The user group that owns the record| x |
+|ticket/sale/who| *None* |Request - Who: Contact and/or company|  |
+|ticket/sale/updatedBy|associate|Request - Updated by: The user who last updated the data| x |
+|ticket/sale/updatedByFullName|associate|Request - Updated by - Full name: The user who last updated the data| x |
+|ticket/sale/updatedDate|date|Request - Updated: The date/time the data was last updated in UTC.| x |
+|ticket/sale/registeredBy|associate|Request - Registered by: The user who registered the data| x |
+|ticket/sale/registeredByFullName|associate|Request - Registered by - Full name: The user who registered the data| x |
+|ticket/sale/registeredDate|date|Request - Registered date: The date/time the data was registered in UTC.| x |
+|ticket/sale/currencyId|int|Request - Currency ID: The currency list item ID| x |
+|ticket/sale/currency|listAny|Request - Currency: The currency of the sale| x |
+|ticket/sale/credited|listAny|Request - Credited: The user to be credited with the sale| x |
+|ticket/sale/lossReason|listAny|Request - Reason (lost): The reason for losing the sale| x |
+|ticket/sale/source|listAny|Request - Source: The source (lead) of the sale| x |
+|ticket/sale/competitor|listAny|Request - Competitor: The competitor who won the sale| x |
+|ticket/sale/heading|stringorPK|Request - Sale: The name of the sale| x |
+|ticket/sale/amount|decimal|Request - Amount: The gross sales total| x |
+|ticket/sale/amountWeighted|decimal|Request - Weighted amount: Virtual field calculated from amount * probability percent.| x |
+|ticket/sale/earning|decimal|Request - Profit: Gross profit (gross sales total - cost) for the sale| x |
+|ticket/sale/earningPercent|decimal|Request - Profit as %: The profit as a percentage of the gross sales total| x |
+|ticket/sale/probPercent|int|Request - Probability as %: Probability as %| x |
+|ticket/sale/originalStage|listAny|Request - Stage: Displays the stage of the sale| x |
+|ticket/sale/stage|listAny|Request - Stage: Displays the stage of the sale| x |
+|ticket/sale/saleStatus|listAny|Request - Status: The status of the sale - open, lost or sold| x |
+|ticket/sale/stageRank| *None* |Request - Stage rank: Rank of the sale stage in the stage list| x |
+|ticket/sale/saleType|listAny|Request - Sale type: Sale type, from list| x |
+|ticket/sale/nextDueDate|date|Request - Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
+|ticket/sale/reopenDate|date|Request - Reopen date: Displays the reopen date for the sale| x |
+|ticket/sale/stalledComment|listAny|Request - Reason (stalled): The reason the sale has been stalled| x |
+|ticket/sale/saleTypeCategory|listAny|Request - Sale type category: Sale type category| x |
+|ticket/sale/soldReason|listAny|Request - Reason (sold): Reason (sold)| x |
+|ticket/sale/saleNumber|string|Request - Number: Number| x |
+|ticket/sale/hasStakeholders|bool|Request - Has stakeholders: Does this sale have stakeholders enabled| x |
+|ticket/sale/hasQuote|bool|Request - Has quote?: Does the sale have a quote attached?| x |
+|ticket/sale/hasGuide|bool|Request - Guided: Does this sale have a Sales Guide| x |
+|ticket/sale/description|string|Request - Description: The long description field on Sale|  |
+|ticket/sale/activeErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
+|ticket/sale/visibleFor|listAny|Request - Visible for|  |
+|ticket/sale/sale/textId|int|Request - Text ID| x |
+|ticket/sale/sale/description|positiveString|Request - Text: Displays the text entered in the description field| x |
+|ticket/sale/salePublish/isPublished|bool|Request - Published: Displays an icon indicating if the project or sale has been published| x |
+|ticket/sale/salePublish/publishedFrom|date|Request - From date: Start date for publishing. The record will not be visible prior to this date| x |
+|ticket/sale/salePublish/publishedTo|date|Request - To date: End date for publishing. The record will not be visible after this date| x |
+|ticket/sale/salePublish/publishedBy| *None* |Request - Published by: Published by|  |
+|ticket/sale/associate/firstName|string|Request - First name: Displays the contact's first name| x |
+|ticket/sale/associate/lastName|string|Request - Last name: Displays the contact's last name| x |
+|ticket/sale/associate/middleName|string|Request - Middle Name: Displays the contact's middle name.| x |
+|ticket/sale/associate/fullName|string|Request - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|ticket/sale/associate/contactId|int|Request - Company ID: Database ID of the company the user belongs to|  |
+|ticket/sale/associate/personId|int|Request - Contact ID: Database ID of the contact row|  |
+|ticket/sale/associate/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|ticket/sale/associate/title|string|Request - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|ticket/sale/associate/associateDbId|associate|Request - ID| x |
+|ticket/sale/associate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
+|ticket/sale/associate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
+|ticket/sale/associate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
+|ticket/sale/associate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
+|ticket/sale/associate/contactCategory|listAny|Request - Category: Category| x |
+|ticket/sale/associate/role|listAny|Request - Role: Role| x |
+|ticket/sale/associate/assocName|associate|Request - User ID: User ID| x |
+|ticket/sale/associate/assocTooltip|string|Request - Description: Description|  |
+|ticket/sale/associate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
+|ticket/sale/associate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
+|ticket/sale/associate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|ticket/sale/associate/ejDisplayName|string|Request - Nick name: User's nick name in Service| x |
+|ticket/sale/associate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|ticket/sale/associate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
+|ticket/sale/associate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|ticket/sale/associate/isActive|bool|Request - Active: Is this user active, and should be able to log in?| x |
+|ticket/sale/associate/isActiveText|bool|Request - Active status: Is this user active, and should be able to log in?| x |
+|ticket/sale/associate/portraitThumbnail| *None* |Request - Person image: Person image|  |
+|ticket/sale/associate/otherGroups|userGroup|Request - Other groups: Other groups|  |
+|ticket/sale/associate/userName|string|Request - User name: User name| x |
+|ticket/sale/associate/personEmail|string|Request - E-mail| x |
+|ticket/sale/saleUdef/SuperOffice:1|string|Request - saleshorttext| x |
+|ticket/sale/saleUdef/SuperOffice:2|string|Request - salelongtext| x |
+|ticket/sale/saleUdef/SuperOffice:3|int|Request - salenumber| x |
+|ticket/sale/saleUdef/SuperOffice:4|date|Request - saledate| x |
+|ticket/sale/saleUdef/SuperOffice:5|unlimitedDate|Request - saleunlimiteddate| x |
+|ticket/sale/saleUdef/SuperOffice:6|bool|Request - salecheckbox| x |
+|ticket/sale/saleUdef/SuperOffice:7|listAny|Request - saledropdownlistbox| x |
+|ticket/sale/saleUdef/SuperOffice:8|decimal|Request - saledecimal| x |
+|ticket/project/completed|bool|Request - Completed: Displays a check mark indicating if the project has been completed.| x |
+|ticket/project/projectId|int|Request - DB ID: Displays the database ID for a project row| x |
+|ticket/project/name|stringorPK|Request - Project name: Displays the Project's name| x |
+|ticket/project/number|string|Request - Number: Displays the project's number| x |
+|ticket/project/type|listAny|Request - Project type: Displays the project's type| x |
+|ticket/project/status|listAny|Request - Status: Displays the project's status| x |
+|ticket/project/statusRank| *None* |Request - Status rank: Rank of the project status in the status list| x |
+|ticket/project/associateId|associate|Request - ID: Displays login ID of the associate who owns the project| x |
+|ticket/project/hasInfoText|bool|Request - Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
+|ticket/project/icon| *None* |Request - Category: Displays the icon for an activity type| x |
+|ticket/project/text|string|Request - Text: Displays a descriptive text for the item| x |
+|ticket/project/description|string|Request - Description: Description| x |
+|ticket/project/updatedBy|associate|Request - Updated by: The user who last updated the data| x |
+|ticket/project/updatedByFullName|associate|Request - Updated by - Full name: The user who last updated the data| x |
+|ticket/project/updatedDate|date|Request - Updated: The date/time the data was last updated in UTC.| x |
+|ticket/project/registeredBy|associate|Request - Registered by: The user who registered the data| x |
+|ticket/project/registeredByFullName|associate|Request - Registered by - Full name: The user who registered the data| x |
+|ticket/project/registeredDate|date|Request - Registered date: The date/time the data was registered in UTC.| x |
+|ticket/project/hasGuide|bool|Request - Guided: Does this sale have a Sales Guide| x |
+|ticket/project/nextMilestone|date|Request - Next milestone: Date of next non-completed activity that is marked as a milestone| x |
+|ticket/project/endDate|date|Request - End date: End date of project| x |
+|ticket/project/imageThumbnail| *None* |Request - Thumbnail: Scaled-down image of project image|  |
+|ticket/project/activeErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
+|ticket/project/projectPublish/isPublished|bool|Request - Published: Displays an icon indicating if the project or sale has been published| x |
+|ticket/project/projectPublish/publishedFrom|date|Request - From date: Start date for publishing. The record will not be visible prior to this date| x |
+|ticket/project/projectPublish/publishedTo|date|Request - To date: End date for publishing. The record will not be visible after this date| x |
+|ticket/project/projectPublish/publishedBy| *None* |Request - Published by: Published by|  |
+|ticket/project/projectEvent/isExternalEvent|bool|Request - Event: Is this an external event| x |
+|ticket/project/projectEvent/eventDate|date|Request - Event date: Event date| x |
+|ticket/project/projectEvent/hasSignOn|bool|Request - Sign On: Does this event have the Sign On function enabled| x |
+|ticket/project/projectEvent/hasSignOff|bool|Request - Sign Off: Does this event have the Sign Off function enabled| x |
+|ticket/project/projectUrl/URLAddress|string|Request - URL| x |
+|ticket/project/projectUrl/URLDescription|string|Request - Description| x |
+|ticket/project/projectAssociate/firstName|string|Request - First name: Displays the contact's first name| x |
+|ticket/project/projectAssociate/lastName|string|Request - Last name: Displays the contact's last name| x |
+|ticket/project/projectAssociate/middleName|string|Request - Middle Name: Displays the contact's middle name.| x |
+|ticket/project/projectAssociate/fullName|string|Request - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|ticket/project/projectAssociate/contactId|int|Request - Company ID: Database ID of the company the user belongs to|  |
+|ticket/project/projectAssociate/personId|int|Request - Contact ID: Database ID of the contact row|  |
+|ticket/project/projectAssociate/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|ticket/project/projectAssociate/title|string|Request - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|ticket/project/projectAssociate/associateDbId|associate|Request - ID| x |
+|ticket/project/projectAssociate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
+|ticket/project/projectAssociate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
+|ticket/project/projectAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
+|ticket/project/projectAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
+|ticket/project/projectAssociate/contactCategory|listAny|Request - Category: Category| x |
+|ticket/project/projectAssociate/role|listAny|Request - Role: Role| x |
+|ticket/project/projectAssociate/assocName|associate|Request - User ID: User ID| x |
+|ticket/project/projectAssociate/assocTooltip|string|Request - Description: Description|  |
+|ticket/project/projectAssociate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
+|ticket/project/projectAssociate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
+|ticket/project/projectAssociate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|ticket/project/projectAssociate/ejDisplayName|string|Request - Nick name: User's nick name in Service| x |
+|ticket/project/projectAssociate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|ticket/project/projectAssociate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
+|ticket/project/projectAssociate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|ticket/project/projectAssociate/isActive|bool|Request - Active: Is this user active, and should be able to log in?| x |
+|ticket/project/projectAssociate/isActiveText|bool|Request - Active status: Is this user active, and should be able to log in?| x |
+|ticket/project/projectAssociate/portraitThumbnail| *None* |Request - Person image: Person image|  |
+|ticket/project/projectAssociate/otherGroups|userGroup|Request - Other groups: Other groups|  |
+|ticket/project/projectAssociate/userName|string|Request - User name: User name| x |
+|ticket/project/projectAssociate/personEmail|string|Request - E-mail| x |
+|ticket/project/projectUdef/SuperOffice:1|string|Request - projectshorttext| x |
+|ticket/project/projectUdef/SuperOffice:2|string|Request - projectlongtext| x |
+|ticket/project/projectUdef/SuperOffice:3|int|Request - projectnumber| x |
+|ticket/project/projectUdef/SuperOffice:4|date|Request - projectdate| x |
+|ticket/project/projectUdef/SuperOffice:5|unlimitedDate|Request - projectunlimiteddate| x |
+|ticket/project/projectUdef/SuperOffice:6|bool|Request - projectcheckbox| x |
+|ticket/project/projectUdef/SuperOffice:7|listAny|Request - projectdropdownlistbox| x |
+|ticket/project/projectUdef/SuperOffice:8|decimal|Request - projectdecimal| x |
+|ticket/project/projectUdef/SuperOffice:9|int|Request - page1saleandmarketing| x |
+|ticket/project/projectUdef/SuperOffice:10|int|Request - page1saleandadmin| x |
+|ticket/project/NumberOfActivities|int|Request - Number of activities|  |
+|ticket/project/NumberOfActivitiesInPeriod|int|Request - Number of activities in last 90 days|  |
+|ticket/project/NumberOfNotCompletedActivities|int|Request - Number of non-completed activities|  |
+|ticket/project/NumberOfNotCompletedActivitiesInPeriod|int|Request - Number of non-completed activities in last 90 days|  |
+|ticket/project/LastActivity|date|Request - Date of last activity|  |
+|ticket/project/LastCompletedActivity|date|Request - Date of last completed activity|  |
+|ticket/project/LastDoByActivity|date|Request - Date of last non-completed activity|  |
+|ticket/project/NumberOfSales|int|Request - Number of sales|  |
+|ticket/project/NumberOfSalesInPeriod|int|Request - Number of sales in last 90 days|  |
+|ticket/project/NumberOfNotCompletedSales|int|Request - Number of non-completed sales|  |
+|ticket/project/NumberOfNotCompletedSalesInPeriod|int|Request - Number of non-completed sales in last 90 days|  |
+|ticket/project/LastSale|date|Request - Date of last sale|  |
+|ticket/project/LastCompletedSale|date|Request - Date of last completed sale|  |
+|ticket/project/LastDoBySale|date|Request - Date of last non-completed sale|  |
+|ticket/project/SaintStatus3|saintStatus|Request - Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
+|ticket/project/saintSaleStatus|listAny|Request - With status|  |
+|ticket/project/saintAmountClass|listAny|Request - Amount class|  |
+|ticket/project/saintActivityType|listAny|Request - SAINT type|  |
+|ticket/project/saintDirection|listAny|Request - Direction|  |
+|ticket/project/saintIntention|listAny|Request - Intention|  |
+|ticket/project/saintTicketStatus|listAny|Request - Status|  |
+|ticket/project/saintTicketCategory|listAny|Request - Category|  |
+|ticket/project/project/textId|int|Request - Text ID| x |
+|ticket/project/project/infoText|positiveString|Request - Information: Displays the text entered in the description field| x |
 |person/personId|int|Contact - DB ID: Displays the database ID of a contact| x |
 |person/firstName|string|Contact - First name: Displays the contact's first name| x |
 |person/lastName|string|Contact - Last name: Displays the contact's last name| x |
@@ -590,11 +778,14 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/status,ticket/person/personCountry,ticket/person/personSource,ticket/person/personAssociateId,ticket/person/personAddress/city
+GET /api/v1/archive/TicketMessage?$select=ticket/person/personAddress/wgs84latitude,ticket/contact/updatedByFullName,ticket/contact/streetAddress/line1,ticket/contact/contactAssociate/contactId,ticket/contact/contactAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

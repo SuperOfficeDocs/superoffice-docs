@@ -201,6 +201,8 @@ items:
   href: eventhandler.md
 - name: ExecutingServices
   href: executingservices.md
+- name: ExecutingServices
+  href: executingservices.md
 - name: ExistingCategoryMembers
   href: existingcategorymembers.md
 - name: ExplicitInvitation
@@ -467,6 +469,8 @@ items:
   href: recyclecontact.md
 - name: RecyclePerson
   href: recycleperson.md
+- name: RecycleTicket
+  href: recycleticket.md
 - name: RejectedInvitation
   href: rejectedinvitation.md
 - name: Relation

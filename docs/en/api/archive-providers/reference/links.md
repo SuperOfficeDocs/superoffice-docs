@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Links"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,9 +20,8 @@ so.envir:
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.LinksProvider">SuperOffice.CRM.ArchiveLists.LinksProvider</see> inside NetServer's SODatabase assembly.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"appointment"|Follow-ups|
 |"sale"|Sales|
 |"project"|Project|
@@ -33,9 +32,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |"Selection"|Selection|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |sourceAppointmentRestrictionId|int|Source follow-up ID: Unique ID of follow-up to fetch link data for|  |
@@ -48,7 +46,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |linkId|int|Link ID: Unique ID of relation between linked entities|  |
 |linkDescription|string|Link description: A description of the relation between linked entities|  |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed|  |
-|icon|string|Category: Displays the icon for an activity type| x |
+|icon|listAny|Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale|  |
 |time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity|  |
@@ -87,6 +85,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd|  |
 |recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)|  |
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
+|duration|timeSpan|Duration: The duration of the chat session|  |
 |visibleFor|listAny|Visible for|  |
 |appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published|  |
 |appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -569,7 +568,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/project/textId|int|Text ID|  |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field|  |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed|  |
-|sale/icon|string|Category: Displays the icon for an activity type|  |
+|sale/icon|listAny|Category: Displays the icon for an activity type|  |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale|  |
 |sale/time| *None* |Time: Time|  |
 |sale/type|listAny|Type: Displays the type of an activity|  |
@@ -1393,11 +1392,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Links?$select=contact/stop,person/personSource,person/personAssociate/contactCategory,project/projectEvent/eventDate,sale/sale/description
+GET /api/v1/archive/Links?$select=contact/contactUdef/SuperOffice:3,person/retired,person/portraitThumbnail,appointmentUdef/SuperOffice:4,project/status
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

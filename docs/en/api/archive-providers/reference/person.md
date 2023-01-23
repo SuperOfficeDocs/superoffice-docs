@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Person"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,16 +24,14 @@ It provides two entities, person and retiredPerson, and a large number of column
 table data; this will also pull in contact udef and related fields.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"person"|Contacts|
 |"retiredPerson"|Former employees|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |personId|int|DB ID: Displays the database ID of a contact| x |
@@ -659,7 +657,7 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/project/textId|int|Text ID| x |
 |projectMembers/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |personAppointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|personAppointment/icon|string|Category: Displays the icon for an activity type| x |
+|personAppointment/icon|listAny|Category: Displays the icon for an activity type| x |
 |personAppointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |personAppointment/time| *None* |Time: Time|  |
 |personAppointment/type|listAny|Type: Displays the type of an activity| x |
@@ -698,6 +696,7 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |personAppointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
+|personAppointment/duration|timeSpan|Duration: The duration of the chat session|  |
 |personAppointment/visibleFor|listAny|Visible for|  |
 |personAppointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |personAppointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -747,11 +746,14 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=personContact/streetAddress/addressId,request/ownedBy/contactName,projectMembers/projectAssociate/assocTooltip,projectMembers/LastDoBySale,personAppointment/associate/personId
+GET /api/v1/archive/Person?$select=personExtra/x_person_shorttext,personExtra/x_person_contact_relation,personTargetRelation/useAsMailingAddress,personContact/email/emailId,request/createdBy/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

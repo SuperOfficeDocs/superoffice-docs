@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteApproval"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,18 +22,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Retrieves pending sale quotes for current associate with state approved, denied, approval needed or approval requested
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"approved"|Quotes with state Approved|
 |"denied"|Quotes with state Lost|
 |"requested"|Quotes with state Needs approval|
 |"needsapproval"|Quotes that need approval|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |lastUpdated|date|Last updated| x |
@@ -41,6 +39,7 @@ Retrieves pending sale quotes for current associate with state approved, denied,
 |quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
 |quoteAlternativeVersionId|int|Description: Description of the quote alternative| x |
 |saleId|int|Sale ID: The database ID of the sale record| x |
+|saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |quoteVersionState|int|State: The current state the quote is in| x |
 |quoteOwnerAssociateId|associate|Quote owner ID| x |
 |quoteOwnerAssociateName| *None* |Quote owner|  |
@@ -62,11 +61,14 @@ Retrieves pending sale quotes for current associate with state approved, denied,
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteApproval?$select=quoteOwnerAssociateId,currency
+GET /api/v1/archive/QuoteApproval?$select=quoteVersionState,amount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+
