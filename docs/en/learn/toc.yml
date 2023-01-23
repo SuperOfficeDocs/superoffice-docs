@@ -6,7 +6,7 @@ items:
   - name: Learn the basics
     items:
     - name: Favourites
-      href: fav.md
+      href: getting-started/fav.md
     - name: Delete an element
       href: getting-started/deleting-elements.md
     - name: Restore deleted companies and contacts
@@ -18,7 +18,7 @@ items:
     - name: Bulk update
       href: getting-started/bulk-update.md
     - name: Tooltip
-      href: info-box.md
+      href: getting-started/info-box.md
     - name: Visibility
       href: ../admin/user-management/learn/visibility.md
     - name: Work with the Section tabs
@@ -260,13 +260,11 @@ items:
     - name: System settings
       items:
       - name: Users screen
-        href: screen/users-screen-service.md
-  
+        href: ../admin/user-management/learn/screen/users-screen-service.md  
       - name: System design
         items:
         - name: Web panels
           href: ../ui/web-panels/learn/index.md
-    
         - name: Elements
-          href: elements.md
+          href: ../ui/screen-designer/learn/elements.md
   
