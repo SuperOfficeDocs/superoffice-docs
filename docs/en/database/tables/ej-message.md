@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ej_message"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,7 +30,7 @@ This table contains the messages listed under tickets.
 |message\_category|Defines what kind of message this is.|Enum [TicketMessageCategory](enums/ticketmessagecategory.md)| |
 |author|A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address.|String(255)|&#x25CF;|
 |slevel|The securitylevel of the message.|Enum [TicketSecurityLevel](enums/ticketsecuritylevel.md)|&#x25CF;|
-|message\_id|The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets.|String(255)| |
+|message\_id|The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets.|String(850)| |
 |time\_spent|The time spent (minutes) for this message.|Int|&#x25CF;|
 |time\_charge|The amount of time (minutes) which should be invoiced for this message.|Int|&#x25CF;|
 |body|The textbody for the message.|Clob|&#x25CF;|
@@ -47,6 +47,8 @@ This table contains the messages listed under tickets.
 |language|The language this message is in, based on some kind of analysis|String(10)|&#x25CF;|
 |sentiment|Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea|Int|&#x25CF;|
 |sentimentConfidence|Confidence of sentiment index, 0 = no idea, 100 = completely sure|Int|&#x25CF;|
+|changed\_at|When the message was changed.|DateTime|&#x25CF;|
+|changed\_by|The id of the user who changed the message.|FK [ejuser](ejuser.md)|&#x25CF;|
 
 
 ![ej_message table relationship diagram](./media/ej_message.png)
@@ -60,7 +62,7 @@ This table contains the messages listed under tickets.
 |id |PK |Clustered, Unique |
 |ticket\_id |FK |Index |
 |created\_by |FK |Index |
-|message\_id |String(255) |Index |
+|message\_id |String(850) |Index |
 |customer\_id |FK |Index |
 |body\_attachment |FK |Index |
 |html\_body\_attachment |FK |Index |

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "target_assignment_value"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# target\_assignment\_value Table (497)
+# target\_assignment\_value Table (500)
 
 A set of values linked to assignment info and a period in a target group.
 

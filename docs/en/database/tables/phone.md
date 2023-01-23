@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "phone"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,7 +24,7 @@ Contact and Person phonenumbers (+fax)
 |phone\_id|Primary key|PK| |
 |owner\_id|Record id of owner: Contact or Person|Id| |
 |ptype\_idx|Bit mask, combines phone type (EPhoneType) and owner type (EOwnerType)|Enum [PhoneType](enums/phonetype.md)| |
-|phone|Actual phone number as eneterd by the user|String(239)| |
+|phone|Actual phone number as enterd by the user|String(239)| |
 |rank|Sort order|UShort|&#x25CF;|
 |description|Visible description|String(99)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |

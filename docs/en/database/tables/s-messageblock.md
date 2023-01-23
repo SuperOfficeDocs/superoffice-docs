@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "s_messageblock"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# s\_messageblock Table (487)
+# s\_messageblock Table (490)
 
 Contains a block of a mailing message, that can be reused in a mailing
 

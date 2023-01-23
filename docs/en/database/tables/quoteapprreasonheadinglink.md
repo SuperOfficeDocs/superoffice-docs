@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "QuoteApprReasonHeadingLink"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# QuoteApprReasonHeadingLink Table (508)
+# QuoteApprReasonHeadingLink Table (511)
 
 Heading link table for QuoteApprReason, for MDO headers
 

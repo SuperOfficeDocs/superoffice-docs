@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "dashboard"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# dashboard Table (474)
+# dashboard Table (477)
 
 Describes a dashboard
 

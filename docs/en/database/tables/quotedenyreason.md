@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "QuoteDenyReason"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# QuoteDenyReason Table (509)
+# QuoteDenyReason Table (512)
 
 QuoteDenyReason MDO list item table.
 Predefined reasons for quote denial

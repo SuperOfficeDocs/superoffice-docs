@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -81,6 +81,8 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 |form\_submission\_id|If this ticket was created from a form submission, this field will point to that record|FK [form_submission](form-submission.md)|&#x25CF;|
 |suggestedCategory\_id|Suggestion for categorization, based on the text of the message (AI)|FK [ej_category](ej-category.md)| |
 |origHumanCategory\_id|Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category|FK [ej_category](ej-category.md)| |
+|sale\_id|Reference to sale table|FK [sale](sale.md)|&#x25CF;|
+|project\_id|Reference to project table|FK [project](project.md)|&#x25CF;|
 
 
 ![ticket table relationship diagram](./media/ticket.png)
@@ -129,7 +131,9 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 |[notify](notify.md)  |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc. |
 |[outbox](outbox.md)  |Outgoing emails with sending status and other info |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[project](project.md)  |Projects |
 |[s\_shipment\_addr](s-shipment-addr.md)  |Addresses that are ready to be sent in a shipment. |
+|[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
 |[Tags](tags.md)  |MDO List of tags for Service entities |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_customers](ticket-customers.md)  |This table allows several customers to be connected to several tickets (many-to-many) |

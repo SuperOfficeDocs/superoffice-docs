@@ -5,7 +5,7 @@ description: Lists all tables in the database by table ID.
 so.generated: true
 keywords:
   - "database"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -483,51 +483,54 @@ so.envir:
 |462| [quick\_reply](quick-reply.md) |Personal quick reply text fragments|
 |463| [ConfigurableScreenDelta](configurablescreendelta.md) |Parts of recipes in SCIL to insert or remove in given recipes|
 |464| [ConfigurableScreenAppliesTo](configurablescreenappliesto.md) |Mapping between recipes in scil and chosen type of data (appliesToKey) to differ layouts on|
-|465| [ConsentPurpose](consentpurpose.md) |GDPR purpose alternatives|
-|466| [LegalBase](legalbase.md) |Legal base for GDPR (Article 6)|
-|467| [ConsentSource](consentsource.md) |Consent source for GDPR|
-|468| [ConsentPerson](consentperson.md) |Link table that defines who has which consents|
-|469| [CategoryFamily](categoryfamily.md) |Grouping table so that multiple company categories can be grouped under one term; to simplify searching for things like &apos;all customers&apos;|
-|470| [script\_trace](script-trace.md) |Scripts which should be traced|
-|471| [script\_trace\_run](script-trace-run.md) |Traces of executed scripts|
-|472| [attachment\_location](attachment-location.md) |A location for storing attachments|
-|473| [cust\_config](cust-config.md) |This table contains JSON structures used for customizing the customer center|
-|474| [dashboard](dashboard.md) |Describes a dashboard|
-|475| [dashboard\_theme](dashboard-theme.md) |A set of style rules for the Dashboard|
-|476| [dashboard\_tile\_definition](dashboard-tile-definition.md) |Describes the contents of a tile|
-|477| [dashboard\_tile](dashboard-tile.md) |Represents one tile in the dashboard|
-|478| [dashboard\_tile\_field](dashboard-tile-field.md) |Describes the contents of a tile field|
-|479| [form](form.md) |A form which can be published on a webpage and submitted by visitors|
-|480| [form\_submission](form-submission.md) |A form submission|
-|481| [email\_account](email-account.md) |Email account information|
-|482| [email\_folder](email-folder.md) |Corresponds to an email folder on a mail server|
-|483| [service\_auth](service-auth.md) |Authentication for a service (imap, smtp...)|
-|484| [email\_item](email-item.md) |Email data|
-|485| [email\_attachment](email-attachment.md) |Attachment info related to an email_item|
-|486| [invitation](invitation.md) |Invitations to events|
-|487| [s\_messageblock](s-messageblock.md) |Contains a block of a mailing message, that can be reused in a mailing|
-|488| [TypicalSearch](typicalsearch.md) |Owner of a set of predefined selection criteria|
-|489| [OnlineApp](onlineapp.md) |Echo and track information about Online Apps and their usage|
-|490| [PushNotificationService](pushnotificationservice.md) |Used for storing handles to user devices that should receive push notifications|
-|491| [ShipmentType](shipmenttype.md) |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists|
-|492| [ShipmentTypeReservation](shipmenttypereservation.md) |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type|
-|493| [TemporaryKey](temporarykey.md) |Temporary keys for lightweight authentications such as changing ones subscriptions|
-|494| [target\_group](target-group.md) |Info about a set of (sales, project, selection...) targets|
-|495| [target\_period](target-period.md) |A set of periods linked with target amounts for users/usergroups and the target groups/years.|
-|496| [target\_assignment\_info](target-assignment-info.md) |Linking associate, company or user group target and other information with target values|
-|497| [target\_assignment\_value](target-assignment-value.md) |A set of values linked to assignment info and a period in a target group.|
-|498| [target\_revision\_history](target-revision-history.md) |Revision history info in case the original target group or assignment info was deleted|
-|499| [target\_revision](target-revision.md) |One batch of changes made to targets|
-|500| [target\_change](target-change.md) |A single field change.|
-|501| [target\_dimension](target-dimension.md) |Defining target dimension|
-|502| [Webhook](webhook.md) |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.|
-|503| [Webhook\_usage](webhook-usage.md) |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.|
-|504| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
-|505| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
-|506| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval|
-|507| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding|
-|508| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers|
-|509| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial|
-|510| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding|
-|511| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers|
+|465| [TaskMenu](taskmenu.md) |List items to merge into menues|
+|466| [TaskMenuGroupLink](taskmenugrouplink.md) |User group link table for TaskMenu, for MDO item hiding|
+|467| [TaskMenuHeadingLink](taskmenuheadinglink.md) |Heading link table for TaskMenu, for MDO headers|
+|468| [ConsentPurpose](consentpurpose.md) |GDPR purpose alternatives|
+|469| [LegalBase](legalbase.md) |Legal base for GDPR (Article 6)|
+|470| [ConsentSource](consentsource.md) |Consent source for GDPR|
+|471| [ConsentPerson](consentperson.md) |Link table that defines who has which consents|
+|472| [CategoryFamily](categoryfamily.md) |Grouping table so that multiple company categories can be grouped under one term; to simplify searching for things like &apos;all customers&apos;|
+|473| [script\_trace](script-trace.md) |Scripts which should be traced|
+|474| [script\_trace\_run](script-trace-run.md) |Traces of executed scripts|
+|475| [attachment\_location](attachment-location.md) |A location for storing attachments|
+|476| [cust\_config](cust-config.md) |This table contains JSON structures used for customizing the customer center|
+|477| [dashboard](dashboard.md) |Describes a dashboard|
+|478| [dashboard\_theme](dashboard-theme.md) |A set of style rules for the Dashboard|
+|479| [dashboard\_tile\_definition](dashboard-tile-definition.md) |Describes the contents of a tile|
+|480| [dashboard\_tile](dashboard-tile.md) |Represents one tile in the dashboard|
+|481| [dashboard\_tile\_field](dashboard-tile-field.md) |Describes the contents of a tile field|
+|482| [form](form.md) |A form which can be published on a webpage and submitted by visitors|
+|483| [form\_submission](form-submission.md) |A form submission|
+|484| [email\_account](email-account.md) |Email account information|
+|485| [email\_folder](email-folder.md) |Corresponds to an email folder on a mail server|
+|486| [service\_auth](service-auth.md) |Authentication for a service (imap, smtp...)|
+|487| [email\_item](email-item.md) |Email data|
+|488| [email\_attachment](email-attachment.md) |Attachment info related to an email_item|
+|489| [invitation](invitation.md) |Invitations to events|
+|490| [s\_messageblock](s-messageblock.md) |Contains a block of a mailing message, that can be reused in a mailing|
+|491| [TypicalSearch](typicalsearch.md) |Owner of a set of predefined selection criteria|
+|492| [OnlineApp](onlineapp.md) |Echo and track information about Online Apps and their usage|
+|493| [PushNotificationService](pushnotificationservice.md) |Used for storing handles to user devices that should receive push notifications|
+|494| [ShipmentType](shipmenttype.md) |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists|
+|495| [ShipmentTypeReservation](shipmenttypereservation.md) |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type|
+|496| [TemporaryKey](temporarykey.md) |Temporary keys for lightweight authentications such as changing ones subscriptions|
+|497| [target\_group](target-group.md) |Info about a set of (sales, project, selection...) targets|
+|498| [target\_period](target-period.md) |A set of periods linked with target amounts for users/usergroups and the target groups/years.|
+|499| [target\_assignment\_info](target-assignment-info.md) |Linking associate, company or user group target and other information with target values|
+|500| [target\_assignment\_value](target-assignment-value.md) |A set of values linked to assignment info and a period in a target group.|
+|501| [target\_revision\_history](target-revision-history.md) |Revision history info in case the original target group or assignment info was deleted|
+|502| [target\_revision](target-revision.md) |One batch of changes made to targets|
+|503| [target\_change](target-change.md) |A single field change.|
+|504| [target\_dimension](target-dimension.md) |Defining target dimension|
+|505| [Webhook](webhook.md) |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.|
+|506| [Webhook\_usage](webhook-usage.md) |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.|
+|507| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
+|508| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
+|509| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval|
+|510| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding|
+|511| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers|
+|512| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial|
+|513| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding|
+|514| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers|
 

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "form"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# form Table (479)
+# form Table (482)
 
 A form which can be published on a webpage and submitted by visitors
 

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "target_change"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# target\_change Table (500)
+# target\_change Table (503)
 
 A single field change.
 
