@@ -102,6 +102,8 @@ items:
       items:
       - name: Add web panel
         href: web-panel-add-item.md
+    - name: Task menu
+      href: add-items-to-task-menu.md
     - name: GUI application list
       href: application.md
       items:
