@@ -9,7 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Link chat to a existing contact
+# Link chat to existing contact
 
 When you respond to a chat, SuperOffice will automatically try to find the customer in SuperOffice based on the provided information (email address and name). If the customer is already registered as a contact in SuperOffice, you can display relevant information about them in the side panel on the right side of the **Chat** screen. Double-click a record to view it.
 
