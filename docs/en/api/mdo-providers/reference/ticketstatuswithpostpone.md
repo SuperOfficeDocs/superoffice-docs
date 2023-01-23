@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "ticketstatuswithpostpone"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,14 @@ so.envir:
 
 # "ticketstatuswithpostpone" MDO List
 
+
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TicketStatusWithPostponeProvider">TicketStatusWithPostponeProvider</see> class.
 The name of the MDO list is 'ticketstatuswithpostpone'.
+
+
+
 
 ## Sample Request
 
@@ -30,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("ticketstatuswithpostpone", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -46,6 +51,7 @@ foreach (var item in listProvider.RootItems) {
 |2|Closed||2|
 |1|Open||1|
 |3|Postponed||3|
+
 
 ## Related MDO Lists
 

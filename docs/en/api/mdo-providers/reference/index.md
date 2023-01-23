@@ -7,7 +7,7 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
-so.date: 11.29.2021
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -64,6 +64,7 @@ so.envir:
 | [SubscriptionUnit](SubscriptionUnit.md) |MDO List for database table ID: Table id 442. subscriptionunit.tooltip|
 | [Tags](Tags.md) |MDO List for database table ID: Table id 488. tags.tooltip|
 | [Task](Task.md) |MDO List for database table ID: Table id 67. task.tooltip|
+| [TaskMenu](TaskMenu.md) |MDO List for database table ID: Table id 519. taskmenu.tooltip|
 | [UDList](UDList.md) |MDO List for database table ID: Table id 136. udlist.tooltip|
 
 ## List of other valid MDO providers
@@ -294,6 +295,7 @@ so.envir:
 | [recordtype](recordtype.md) |A complete and generic mapping of record types to resource strings|
 | [recurrenceweekcycle](recurrenceweekcycle.md) |MDO provider for the hard-coded list of week cycle alternatives in the recurrence dialog.|
 | [rejectreason](rejectreason.md) |GenericMDOProvider reads MDO lists with default settings|
+| [relateddatafields](relateddatafields.md) ||
 | [relationssearchlistproviderappointmentactive](relationssearchlistproviderappointmentactive.md) |Serve the active and passive texts of relations, with a given table as source (active|
 | [relationssearchlistproviderappointmentappointmentactive](relationssearchlistproviderappointmentappointmentactive.md) |Serve the active and passive texts of relations, with a given table as source (active|
 | [relationssearchlistproviderappointmentappointmentpassive](relationssearchlistproviderappointmentappointmentpassive.md) |Serve the active and passive texts of relations, with a given table as source (active|
@@ -395,6 +397,9 @@ so.envir:
 | [targettypes](targettypes.md) ||
 | [targetyear](targetyear.md) |Year MDO list. Includes the two coming years, this year, and previous 5 years|
 | [task](task.md) |Task table MDO list. Optional include "None" as first value.|
+| [taskmenu](taskmenu.md) |GenericMDOProvider reads MDO lists with default settings|
+| [taskmenudestination](taskmenudestination.md) ||
+| [taskmenugroup](taskmenugroup.md) |List of TaskMenus with visible for groups as commaseperated ids in extrainfo field|
 | [ticket](ticket.md) |Provider for selecting a ticket|
 | [ticketalert](ticketalert.md) ||
 | [ticketfavourite](ticketfavourite.md) ||
@@ -420,6 +425,7 @@ so.envir:
 | [udlist](udlist.md) |MDO Provider for 'user-defined' lists, i.e., those that reside in the UDList table. Mandatory additionalInfo is th|
 | [udlist28](udlist28.md) |Dynamic MDO provider that will create a list with the name udlist&lt;id&gt; for each user-defined list in the UDListDefinition table|
 | [udlist30002](udlist30002.md) |MDO provider for the ChatService|
+| [urlencoding](urlencoding.md) ||
 | [usergroup](usergroup.md) |List provider for the UserGroup table. While this table looks like an MDO table|
 | [usergroupwithhistoryall](usergroupwithhistoryall.md) |List provider for the UserGroup table. While this table looks like an MDO table|
 | [userplan](userplan.md) |List provider for the UserPlan in the module license table|

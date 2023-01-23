@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "recurrenceweekcycle"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "recurrenceweekcycle" MDO List
-
 MDO provider for the hard-coded list of week cycle alternatives in the recurrence dialog.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.RecurrenceWeekCycleProvider">RecurrenceWeekCycleProvider</see> class.
 The name of the MDO list is 'recurrenceweekcycle'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("recurrenceweekcycle", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -55,6 +58,7 @@ foreach (var item in listProvider.RootItems) {
 |8|8|||
 |9|9|||
 |10|10|||
+
 
 ## Related MDO Lists
 

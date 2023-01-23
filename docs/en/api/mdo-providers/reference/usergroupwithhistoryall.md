@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "usergroupwithhistoryall"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "usergroupwithhistoryall" MDO List
-
 List provider for the UserGroup table. While this table looks like an MDO table,
 it lacks the standardized grouplink and headinglink companion tables (for good reason,
 since it is the group table itself).
@@ -25,8 +24,13 @@ This provider includes the 'History' and 'All' choices, with id's -1 and -2. The
 <see cref="T:SuperOffice.CRM.ArchiveLists.ExplicitParticipantsAssociateProvider" /> subchannel), used in the Assign To dialog,
 has a groupRestrictionId restriction that correctly decodes these special values.
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.UserGroupWithHistoryAllProvider">UserGroupWithHistoryAllProvider</see> class.
 The name of the MDO list is 'usergroupwithhistoryall'.
+
+
+
 
 ## Sample Request
 
@@ -39,7 +43,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("usergroupwithhistoryall", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -62,6 +65,7 @@ foreach (var item in listProvider.RootItems) {
 |1|Administrasjon|||
 |6|Testgruppe1|||
 |7|Testgruppe2|||
+
 
 ## Related MDO Lists
 

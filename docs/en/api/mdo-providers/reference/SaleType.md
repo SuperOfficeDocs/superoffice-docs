@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "saletype"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "saletype" MDO List
-
 List of sale types, with default sale duration in minutes in extra info.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SaleTypeProvider">SaleTypeProvider</see> class.
 The name of the MDO list is 'saletype'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("saletype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -47,8 +50,9 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1|General sale||43200|
 |4|Staged Sale||44640|
-|3|Stakeholders||132480|
+|3|Stakeholders||129600|
 |2|Guided Sale||44640|
+
 
 ## Related MDO Lists
 

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "preferencelineitem"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,8 +15,10 @@ so.envir:
 ---
 
 # "preferencelineitem" MDO List
-
 The name of the MDO list is 'preferencelineitem'.
+
+
+
 
 ## Sample Request
 
@@ -29,7 +31,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("preferencelineitem", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -43,6 +44,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

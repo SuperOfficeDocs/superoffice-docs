@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "archiveprovider"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,12 +15,16 @@ so.envir:
 ---
 
 # "archiveprovider" MDO List
-
 MDO provider for available archive providera.
 The items will be added by scanning ArchiveProviderFactory.KnownArchiveProviders for this pattern;
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ArchiveProviderList">ArchiveProviderList</see> class.
 The name of the MDO list is 'archiveprovider'.
+
+
+
 
 ## Sample Request
 
@@ -33,7 +37,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("archiveprovider", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -46,9 +49,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Document||Document|
-|1|Appointment||Appointment|
+|0|Appointment||Appointment|
+|1|Document||Document|
 |2|Sale||Sale|
+
 
 ## Related MDO Lists
 

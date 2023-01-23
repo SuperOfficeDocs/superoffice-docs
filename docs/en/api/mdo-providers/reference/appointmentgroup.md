@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "appointmentgroup"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "appointmentgroup" MDO List
-
 Appointment grouping types: TaskType.Appointment, Phone, ToDo
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AppointmentGroupProvider">AppointmentGroupProvider</see> class.
 The name of the MDO list is 'appointmentgroup'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("appointmentgroup", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -48,6 +51,7 @@ foreach (var item in listProvider.RootItems) {
 |1|Appointment|||
 |5|Phone|||
 |6|Task|||
+
 
 ## Related MDO Lists
 

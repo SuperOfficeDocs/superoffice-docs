@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "y_equipment"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,12 +15,16 @@ so.envir:
 ---
 
 # "y_equipment" MDO List
-
 Extra tables lists. List names are 'y_xyz' - based on the custom table name.
 Contents of the list are based on the display_field for the table
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ExtraTableDropdownProvider">ExtraTableDropdownProvider</see> class.
 The name of the MDO list is 'y_equipment'.
+
+
+
 
 ## Sample Request
 
@@ -33,7 +37,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("y_equipment", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,3 +52,4 @@ foreach (var item in listProvider.RootItems) {
 |1|Screwdriver|||
 |2|Incom T-65 X-Wing|||
 |3|Sienar TIE Fighter|||
+

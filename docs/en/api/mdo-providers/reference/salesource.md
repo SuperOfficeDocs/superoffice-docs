@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "salesource"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,12 +15,16 @@ so.envir:
 ---
 
 # "salesource" MDO List
-
 MDO list provider for the source list of the Sale dialog.
 This list extends the basic <see cref="!:SourceRow" /> list with icons
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SaleSource">SaleSource</see> class.
 The name of the MDO list is 'salesource'.
+
+
+
 
 ## Sample Request
 
@@ -33,7 +37,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("salesource", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -50,6 +53,7 @@ foreach (var item in listProvider.RootItems) {
 |4|Annbefaling|||
 |3|Internet|||
 |2|Campaign|||
+
 
 ## Related MDO Lists
 

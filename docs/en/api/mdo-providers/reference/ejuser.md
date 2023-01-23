@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "ejuser"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,14 @@ so.envir:
 
 # "ejuser" MDO List
 
+
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.EjUserProvider">EjUserProvider</see> class.
 The name of the MDO list is 'ejuser'.
+
+
+
 
 ## Sample Request
 
@@ -30,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("ejuser", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -60,6 +65,7 @@ foreach (var item in listProvider.RootItems) {
 |10|Tje3||associateId=26|
 |11|Tje4||associateId=27|
 |12|Tje5||associateId=28|
+
 
 ## Related MDO Lists
 

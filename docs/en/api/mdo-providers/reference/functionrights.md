@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "functionrights"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,9 +15,10 @@ so.envir:
 ---
 
 # "functionrights" MDO List
-
 FunctionRightsListProvider returns a MDO list of function rights in the database.
 Additional Info = "role=123;languageId=1024;roleType=1"
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.FunctionRightsListProvider">FunctionRightsListProvider</see> class.
 The name of the MDO list is 'functionrights'.
@@ -32,6 +33,10 @@ The name of the MDO list is 'functionrights'.
 
 Separator: ;
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -43,7 +48,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("functionrights", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -67,7 +71,7 @@ foreach (var item in listProvider.RootItems) {
 |13|Hide Selection screen||hide-selection|
 |14|Hide Reports screen||hide-reporter|
 |15|Can run Mail Merge||allow-bulk-mailmerge|
-|16|Can export selections to file||allow-bulk-export|
+|16|Can export data to file||allow-bulk-export|
 |17|Can create tasks for a selection||allow-bulk-generate-activities|
 |18|Can copy a selection||allow-bulk-copy-members|
 |19|Allow bulk update||allow-bulk-edit|
@@ -77,6 +81,7 @@ foreach (var item in listProvider.RootItems) {
 |23|Can run custom tasks on selections||allow-bulk-user-applications|
 |24|Can see users belonging to other companies||see-other-companies-associates|
 |26|Status Monitor Administrator (counters)||admin-saint-regeneration|
+
 
 ## Related MDO Lists
 

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "documentcompleted"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "documentcompleted" MDO List
-
 Document completed status list: Not done, Done.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DocumentCompletedProvider">DocumentCompletedProvider</see> class.
 The name of the MDO list is 'documentcompleted'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("documentcompleted", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -47,6 +50,7 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |0|Not done|||
 |1|Completed|||
+
 
 ## Related MDO Lists
 

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "personemailaddress"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "personemailaddress" MDO List
-
 List of e-mail addresses matching the search value, possibly restricted to a given company or person.
 
 AdditionalInfo:
@@ -34,6 +33,10 @@ The name of the MDO list is 'personemailaddress'.
 
 Separator: &
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -45,7 +48,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("personemailaddress", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -59,6 +61,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

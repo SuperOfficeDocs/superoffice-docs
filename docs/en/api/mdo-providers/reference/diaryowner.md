@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "diaryowner"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "diaryowner" MDO List
-
 List provider that returns diary owners, i.e., our own employees plus resources
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DiaryOwnerMDOProvider">DiaryOwnerMDOProvider</see> class.
 The name of the MDO list is 'diaryowner'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("diaryowner", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -66,6 +69,7 @@ foreach (var item in listProvider.RootItems) {
 |86|Johan Jensen|||
 |87|Kjell Jensen|||
 |81|Listadm Listadm|||
+
 
 ## Related MDO Lists
 

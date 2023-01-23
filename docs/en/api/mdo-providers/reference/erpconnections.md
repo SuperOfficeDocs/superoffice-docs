@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "erpconnections"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "erpconnections" MDO List
-
 Retrieve the list of all defined Erp Connections (not Connectors, that's another list)
 
 Implementation relies on the <see cref="T:SuperOffice.CRM.ArchiveLists.ErpConnectionProvider" /> archivelist, and simply reformats its data.
@@ -32,6 +31,10 @@ The name of the MDO list is 'erpconnections'.
 |Sort by rank| useRank|true|
 |Add connector name to names| prefixwithconnector|true|
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -43,7 +46,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("erpconnections", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -59,6 +61,7 @@ foreach (var item in listProvider.RootItems) {
 |1|SuperOffice Test||889BF882-C6DA-4AC5-B3C7-A5A650625D90|
 |2|Limited access Test||95002C41-9EFA-449B-B47B-BA7D092A6411|
 |3|QA-BUILD\ErpSync\Client.xlsm||57cefbea-059b-4047-a303-e481b37c76e4|
+
 
 ## Related MDO Lists
 
