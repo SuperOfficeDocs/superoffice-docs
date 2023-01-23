@@ -26,7 +26,7 @@ items:
 
     1. In the **Selection is** field, you can change to another type of selection if necessary.
 
-- title: Set properties
+- title: Choose details
   durationInMinutes: 3
   content: |
     [!include[Set properties](includes/set-properties.md)]

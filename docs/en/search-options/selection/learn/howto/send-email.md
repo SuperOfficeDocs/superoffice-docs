@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Send email to several recipients simultaneously
+# Send email to multiple recipients
 
 Let’s suppose you were inviting people to a meeting and needed to send them an agenda. It would then be useful if you could send a single email to several recipients in one go.
 

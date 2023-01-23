@@ -9,7 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Archiving emails to SuperOffice
+# Archive an email
 
 When you click the **Archive email** button on the mail client toolbar, a menu with archiving options is displayed.
 

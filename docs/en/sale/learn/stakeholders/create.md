@@ -9,7 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Create a stakeholder
+# Add stakeholders
 
 > [!NOTE]
 > You can also [add stakeholders via the section tabs][2] containing contacts in the **Company** and **Selection** screens.

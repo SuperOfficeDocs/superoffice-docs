@@ -10,7 +10,7 @@ language: en
 so.envir: onsite
 ---
 
-# Edit rights for anonymous users
+# Edit rights for anonymous users (Onsite)
 
 [!include[Requirement](../includes/note-anon-req.md)]
 

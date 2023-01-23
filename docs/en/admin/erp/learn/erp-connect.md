@@ -17,25 +17,25 @@ You can connect a SuperOffice company to a customer/supplier in the ERP system. 
 
 1. Go to the **Company** screen, **Contact** screen or **Project** screen, and select the **ERP** tab.
 
-> [!NOTE]
-> If the **ERP** tab contains company, contact or project information, a connection has already been set up between SuperOffice and the ERP system.
+    > [!NOTE]
+    > If the **ERP** tab contains company, contact or project information, a connection has already been set up between SuperOffice and the ERP system.
 
 1. Click **Edit**. The options depend on if you are editing a company, a contact, or a project.
-2. Company: Click **Customer** or **Supplier**, depending on which ERP actor you want to link the company to. You can choose only one actor per company.
+1. Company: Click **Customer** or **Supplier**, depending on which ERP actor you want to link the company to. You can choose only one actor per company.
     *Or* Project: Click **Project**.
     *Or* Contact: Click **Contact**.
-3. In the **Connect to ERP** dialog, enter text to search for in the search field and click **Search**. You can also click the search button ![icon][img1] to initiate an advanced search (see [Use the Find screen][1]).
+1. In the **Connect to ERP** dialog, enter text to search for in the search field and click **Search**. You can also click the search button ![icon][img1] to initiate an advanced search (see [Use the Find screen][1]).
 
-> [!TIP]
-> If you search with a blank search field, all records in the ERP system are displayed.
+    > [!TIP]
+    > If you search with a blank search field, all records in the ERP system are displayed.
 
 1. Select an item in the hit list. If you don't get any hits, you can [create a new actor in the ERP system][2] based on data from SuperOffice CRM.
-2. Click **Connect**. A dialog appears showing the data that will be synchronized between SuperOffice CRM and the ERP system. What data is displayed here is defined in SuperOffice Settings and maintenance.
-3. If the data in the two systems are different, select the data that are correct.
+1. Click **Connect**. A dialog appears showing the data that will be synchronized between SuperOffice CRM and the ERP system. What data is displayed here is defined in SuperOffice Settings and maintenance.
+1. If the data in the two systems are different, select the data that are correct.
     For example: If the street addresses are different, select the correct one. The other data will be overwritten.
-4. Click **Connect**. This takes you back to the **ERP** tab where the synchronized data will now be displayed.
-5. Click **Save**.
-6. If you wish, click **Sync Now**.
+1. Click **Connect**. This takes you back to the **ERP** tab where the synchronized data will now be displayed.
+1. Click **Save**.
+1. If you wish, click **Sync Now**.
 
 ## What would you like to do now?
 

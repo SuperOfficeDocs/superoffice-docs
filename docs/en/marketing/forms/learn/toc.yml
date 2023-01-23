@@ -6,13 +6,13 @@ items:
 - name: Work with forms
   href: form-templates.md
   items:
-  - name: Create a new form
+  - name: Create new form
     href: create.md
   - name: Field options
     href: field-options.md
   - name: Publish forms
     href: publish.md
-  - name: Using pre-filled fields in forms
+  - name: Using pre-filled fields
     href: form-prefilled.md
   - name: Examples
     href: examples.md

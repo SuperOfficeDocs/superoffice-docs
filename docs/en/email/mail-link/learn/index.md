@@ -29,7 +29,7 @@ These buttons appear on the Microsoft Outlook or Lotus Notes toolbar:
 |:-:|---|
 | ![icon][img1] | Archiving emails to SuperOffice CRM |
 | ![icon][img2] | Searching for the sender of an email |
-| ![icon][img3] Click the small arrow to the right of the **SuperOffice** button to open the **SuperOffice CRM options** dialog. |
+| ![icon][img3] | Click the small arrow to the right of the **SuperOffice** button to open the **SuperOffice CRM options** dialog. |
 
 ## What would you like to do now?
 

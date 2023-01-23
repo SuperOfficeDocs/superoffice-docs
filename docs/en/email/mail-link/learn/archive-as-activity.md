@@ -9,7 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Archive email as activity
+# Create activity from an email
 
 If you receive an email requesting you to take action, you can convert the email into an activity in SuperOffice CRM.
 

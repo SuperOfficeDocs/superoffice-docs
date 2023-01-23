@@ -109,6 +109,11 @@ SuperOffice document templates
 
 Click **Confirm** when you are done.
 
+## Related topics
+
+* [SharePoint documents][1] - Technical documents
+
 <!-- Referenced links -->
+[1]: ../../../document/cloud/sharepoint-documents/index.md
 
 <!-- Referenced images -->

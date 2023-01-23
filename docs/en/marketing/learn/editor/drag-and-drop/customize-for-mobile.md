@@ -1,7 +1,7 @@
 ---
 uid: help-en-mailing-customize-for-mobile
-title: Customize the message for display on mobile devices
-description: Customize the message for display on mobile devices
+title: Customise the message for display on mobile devices
+description: Customise the message for display on mobile devices
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Marketing
@@ -9,9 +9,9 @@ so.topic: help
 language: en
 ---
 
-# Customize the message for display on mobile devices
+# Customise the message for display on mobile devices
 
-The message is automatically customized for display on smaller screens.
+The message is automatically customised for display on smaller screens.
 
 Click **Mobile** ( ![icon][img1] ) in the global menu to see what the appearance is like on a smart phone. You can also click a section in the message and click **Mobile** ( ![icon][img1] ) under **Content** in the side-panel.
 

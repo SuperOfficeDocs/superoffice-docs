@@ -1,13 +1,11 @@
 items:
-  - name: Overview
-    href: index.md
-  - name: Find a request
+  - name: Find request
     href: ../find.md
-  - name: Create a request
+  - name: Create request
     href: create.md
   - name: Automatic assignment
     href: assign.md
-  - name: Get next request in the queue
+  - name: Get next request in queue
     href: ../next-in-queue.md
   - name: Take responsibility for request
     href: accept.md
@@ -17,21 +15,23 @@ items:
     href: forward.md
   - name: Reply to customer
     href: reply.md
-  - name: Split request
-    href: split-request.md
-  - name: Merge requests
-    href: merge.md
   - name: Add requests to favorites
     href: fav.md
+  - name: Tags
+    href: ../tags.md
   - name: Keep track of messages
     href: flag-message.md
   - name: Add a message to multiple requests
     href: reply-batch.md
+  - name: Split request
+    href: split-request.md
+  - name: Merge requests
+    href: merge.md
   - name: Edit message
     href: edit-message.md
   - name: Split message
     href: split-message.md
-  - name: Close a request
+  - name: Close request
     href: close.md
-  - name: Delete a request
+  - name: Delete request
     href: delete.md

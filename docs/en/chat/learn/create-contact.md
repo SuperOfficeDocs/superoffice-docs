@@ -1,18 +1,18 @@
 ---
 uid: help-en-chat-create-contact
-title:  Add customer to SuperOffice
-description:  Add customer to SuperOffice
+title:  Create a new contact in SuperOffice
+description:  Create a  new contact in SuperOffice
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: chat
+keywords: chat, create, contact
 so.topic: howto
 language: en
 ---
 
-# Add customer to SuperOffice
+# Create a new contact in SuperOffice
 
-If a customer is not found in SuperOffice, you can create a new contact and company in the side panel.
+If a contact is not found in SuperOffice, you can create a new contact and company in the side panel.
 
-1. Click **Create new company and contact**. Some fields are populated with information that the customer provided in the chat.
+1. Click **Create new company and contact**. Some fields are populated with information that the contact provided in the chat.
 2. Fill in the relevant fields.
 3. Click **Add**. The new contact and company is added to SuperOffice. The contact is also linked to the chat for future reference.

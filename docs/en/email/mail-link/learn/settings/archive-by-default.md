@@ -9,7 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Turning default archiving on/off
+# Turn default archiving on/off
 
 To [archive][1] all emails you send from your mail client in SuperOffice CRM, enable the archive by default function by selecting from the options under **Archive email by default when:** in the **SuperOffice CRM** **options** dialog. All emails you send will then be archived to SuperOffice CRM by default.
 

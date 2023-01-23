@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Create mailings
+# Create mailing
 
 You can send a mailing to all contacts in a selection. The mailing can be an email, an email attachment (document) or an SMS.
 

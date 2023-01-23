@@ -19,7 +19,7 @@ If the recipient has problems displaying the message in their email program (may
 2. Select the **Body** tab.
 
 3. Position the mouse pointer where you wish to insert the link.
-    ![icon][img2]
+![icon][img2]
 
 4. Click the ![icon][img3]**Template variables** button on the toolbar.
 

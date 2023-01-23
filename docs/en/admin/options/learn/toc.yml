@@ -13,18 +13,18 @@ items:
   - name: Stopwords
     href: freetext-search/stopwords.md
     items:
-    - name: Add stopwords
+    - name: Add stopword
       href: freetext-search/adding-stopwords.md
     - name: Suggest stopwords
       href: freetext-search/suggesting-stopwords.md
     - name: Delete stopwords
       href: freetext-search/deleting-stopwords.md
-    - name: Regenerate a freetext index
+    - name: Regenerate freetext index
       href: freetext-search/regenerating-freetext-index.md
 - name: Timezones
   href: timezones.md
   items:
-  - name: Add time zones
+  - name: Enable use of time zones
     href: activating-time-zones.md
   - name: Edit time zones
     href: edit-time-zones.md
@@ -52,7 +52,7 @@ items:
   items:
   - name: Create and edit customer languages
     href: custlang/edit-custlang.md
-  - name: Select customer language
-    href: custlang/select-language.md
   - name: Work with external categories
     href: custlang/external-categories.md
+  - name: Select customer language
+    href: custlang/select-language.md
