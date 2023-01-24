@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,146 +96,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 795,
-      "ContactName": "Sauer-Sawayn",
-      "PersonId": 627,
-      "PersonName": "Hansen-Grant",
-      "AssociateId": 439,
-      "Address": "rerum",
-      "EmailId": 981,
+      "ContactId": 963,
+      "ContactName": "Hudson Inc and Sons",
+      "PersonId": 268,
+      "PersonName": "Goodwin-Nolan",
+      "AssociateId": 631,
+      "Address": "eveniet",
+      "EmailId": 274,
       "DuplicatePersonIds": [
-        247,
-        765
+        821,
+        174
       ],
-      "Name": "Russel, Price and Oberbrunner",
+      "Name": "Hilpert Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldType": "System.String",
+          "FieldLength": 930
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 223,
-      "ContactName": "Dach Group",
-      "PersonId": 453,
-      "PersonName": "Macejkovic, Schmeler and Brown",
-      "AssociateId": 477,
-      "Address": "id",
-      "EmailId": 316,
+      "ContactId": 838,
+      "ContactName": "Torp LLC",
+      "PersonId": 90,
+      "PersonName": "Conn-O'Conner",
+      "AssociateId": 679,
+      "Address": "eveniet",
+      "EmailId": 464,
       "DuplicatePersonIds": [
-        927,
-        166
+        975,
+        310
       ],
-      "Name": "Pfeffer, Nikolaus and Stanton",
+      "Name": "Quitzon-Hintz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 310
+          "FieldType": "System.String",
+          "FieldLength": 615
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 236,
-      "ContactName": "Langworth-McClure",
-      "PersonId": 990,
-      "PersonName": "Smith LLC",
-      "AssociateId": 14,
-      "Address": "saepe",
-      "EmailId": 591,
+      "ContactId": 88,
+      "ContactName": "Welch Group",
+      "PersonId": 547,
+      "PersonName": "Carter-Streich",
+      "AssociateId": 684,
+      "Address": "eaque",
+      "EmailId": 713,
       "DuplicatePersonIds": [
-        310,
-        750
+        737,
+        622
       ],
-      "Name": "Oberbrunner, Walker and Mayer",
+      "Name": "Littel Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 642
+          "FieldType": "System.Int32",
+          "FieldLength": 966
         }
       }
     }
   ],
-  "Subject": "maxime",
-  "HTMLBody": "ut",
+  "Subject": "dignissimos",
+  "HTMLBody": "recusandae",
   "From": null,
-  "Sent": "2000-04-26T17:37:17.9172416+02:00",
-  "Size": 583,
+  "Sent": "2019-01-03T11:22:38.2272328+01:00",
+  "Size": 244,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "non",
-  "PlainBody": "dolor",
-  "IsSent": true,
+  "MessageID": "aut",
+  "PlainBody": "ipsam",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 996,
+  "ServerId": 14,
   "Attachments": [
     {
-      "Description": "Enterprise-wide disintermediate initiative",
-      "Filename": "dignissimos",
-      "Size": 730,
-      "Type": "dolor",
-      "Encoding": "dicta",
-      "Id": "odit",
-      "Disposition": "quia",
+      "Description": "Optional bandwidth-monitored open architecture",
+      "Filename": "voluptatem",
+      "Size": 913,
+      "Type": "non",
+      "Encoding": "laborum",
+      "Id": "autem",
+      "Disposition": "et",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 524
+          "FieldType": "System.Int32",
+          "FieldLength": 976
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Veum, DuBuque and Bernhard",
+      "Name": "O'Hara, Schultz and Hahn",
       "Values": [
-        "ad",
-        "ut"
+        "quasi",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 602
+          "FieldLength": 699
         }
       }
     },
     {
-      "Name": "Veum, DuBuque and Bernhard",
+      "Name": "O'Hara, Schultz and Hahn",
       "Values": [
-        "ad",
-        "ut"
+        "quasi",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 602
+          "FieldLength": 699
         }
       }
     }
   ],
-  "FolderName": "Bradtke Inc and Sons",
-  "EmailItemId": 501,
-  "AccountId": 675,
-  "ReceivedAt": "2017-10-05T17:37:17.9172416+02:00",
+  "FolderName": "Cole Group",
+  "EmailItemId": 658,
+  "AccountId": 145,
+  "ReceivedAt": "2015-12-23T11:22:38.2272328+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-03-25T17:37:17.9172416+01:00",
+  "RepliedAt": "2012-03-08T11:22:38.2272328+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -244,7 +244,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 195
+      "FieldLength": 178
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 736,
-  "Name": "Berge-Kuhic",
-  "Description": "Ameliorated exuding moratorium",
+  "ReportLabelLayoutId": 902,
+  "Name": "Denesik-Powlowski",
+  "Description": "Extended client-server parallelism",
   "Orientation": "Landscape",
-  "PaperWidth": 947,
-  "PaperHeight": 788,
-  "LeftMargin": 90,
-  "RightMargin": 36,
-  "TopMargin": 697,
-  "BottomMargin": 899,
-  "CountColumns": 579,
-  "CountRows": 742,
+  "PaperWidth": 464,
+  "PaperHeight": 811,
+  "LeftMargin": 810,
+  "RightMargin": 130,
+  "TopMargin": 567,
+  "BottomMargin": 130,
+  "CountColumns": 832,
+  "CountRows": 904,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldLength": 148
     }
   }
 }

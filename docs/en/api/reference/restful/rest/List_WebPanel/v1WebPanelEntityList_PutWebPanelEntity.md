@@ -113,26 +113,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 505,
-  "Name": "Mitchell LLC",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "Rank": 514,
+  "WebPanelId": 579,
+  "Name": "Homenick-Shanahan",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 777,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Kub-Schulist",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Jast, Rogahn and Fahey",
   "Url": "http://www.example.com/",
-  "ProgId": "quisquam",
-  "Icon": 946,
+  "ProgId": "similique",
+  "Icon": 784,
   "AlwaysReloadOnShow": true
 }
 ```
@@ -144,33 +144,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 167,
-  "Name": "Kessler, Runte and Zieme",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "Rank": 568,
+  "WebPanelId": 210,
+  "Name": "Grant-Bauch",
+  "Tooltip": "asperiores",
+  "Deleted": true,
+  "Rank": 469,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Tremblay LLC",
+  "WindowName": "Willms-Rau",
   "Url": "http://www.example.com/",
-  "ProgId": "sint",
-  "Icon": 295,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "porro",
+  "Icon": 394,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 273
+      "FieldType": "System.Int32",
+      "FieldLength": 611
     }
   }
 }

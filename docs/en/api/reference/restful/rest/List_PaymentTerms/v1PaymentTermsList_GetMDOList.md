@@ -25,8 +25,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=consectetur
+GET /api/v1/List/PaymentTerm/MDOItems?flat=True
+GET /api/v1/List/PaymentTerm/MDOItems?query=voluptatem
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 637,
-    "Name": "Donnelly Inc and Sons",
-    "ToolTip": "Et aliquam sint.",
-    "Deleted": true,
-    "Rank": 761,
-    "Type": "nesciunt",
+    "Id": 525,
+    "Name": "Renner Inc and Sons",
+    "ToolTip": "Sunt sequi quisquam sint quo.",
+    "Deleted": false,
+    "Rank": 850,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 488,
-        "Name": "Dicki, Lebsack and Murray",
-        "ToolTip": "Necessitatibus id fugit.",
+        "Id": 418,
+        "Name": "Ebert Group",
+        "ToolTip": "Pariatur eum molestiae.",
         "Deleted": false,
-        "Rank": 58,
-        "Type": "dolor",
+        "Rank": 796,
+        "Type": "voluptate",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "pariatur",
-        "ColorBlock": 182,
-        "ExtraInfo": "veritatis",
-        "StyleHint": "aliquam",
-        "FullName": "Stacy Kassulke",
+        "IconHint": "nulla",
+        "ColorBlock": 396,
+        "ExtraInfo": "et",
+        "StyleHint": "similique",
+        "FullName": "Miss Tomas Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 917
+            "FieldType": "System.Int32",
+            "FieldLength": 305
           }
         }
       }
     ],
-    "IconHint": "fugit",
-    "ColorBlock": 515,
-    "ExtraInfo": "ad",
-    "StyleHint": "magnam",
-    "FullName": "Erika Fadel",
+    "IconHint": "voluptatem",
+    "ColorBlock": 747,
+    "ExtraInfo": "sed",
+    "StyleHint": "et",
+    "FullName": "Ahmad Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 306
       }
     }
   }

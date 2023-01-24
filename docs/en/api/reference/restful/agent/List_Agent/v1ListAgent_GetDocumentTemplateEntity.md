@@ -25,7 +25,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=389
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=182
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -100,37 +100,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 936,
-  "Name": "Eichmann Group",
-  "Tooltip": "odit",
-  "SaveInDb": 27,
-  "Filename": "voluptatem",
-  "DefaultOref": "molestiae",
+  "DocumentTemplateId": 568,
+  "Name": "McCullough, Cartwright and Schneider",
+  "Tooltip": "enim",
+  "SaveInDb": 407,
+  "Filename": "sapiente",
+  "DefaultOref": "nisi",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 800,
-  "IntentId": 724,
-  "IsDefaultPublished": true,
-  "Rank": 76,
-  "LoadTemplateFromPlugin": 234,
-  "MimeType": "aliquam",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 110,
+  "AutoeventId": 275,
+  "IntentId": 698,
+  "IsDefaultPublished": false,
+  "Rank": 832,
+  "LoadTemplateFromPlugin": 791,
+  "MimeType": "architecto",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 191,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rodolfo.kautzer@kleindaugherty.ca",
-  "IncludeSignature": false,
+  "EmailSubject": "palma_quigley@howellwyman.us",
+  "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "darlene@mitchell.us",
+  "SenderEmailAddress": "alia@walsh.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldType": "System.String",
+      "FieldLength": 865
     }
   }
 }

@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Schaden Group",
-    "ToolTip": "Eum nemo nesciunt corrupti aspernatur non illo.",
-    "Deleted": false,
-    "Rank": 113,
-    "Type": "non",
-    "ColorBlock": 931,
-    "IconHint": "assumenda",
+    "Id": 248,
+    "Name": "Mann, Lynch and King",
+    "ToolTip": "Minima iusto enim dolorum magnam.",
+    "Deleted": true,
+    "Rank": 635,
+    "Type": "quas",
+    "ColorBlock": 350,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2006-09-25T17:37:40.304504+02:00",
+    "LastChanged": "2002-07-18T11:22:46.1472512+02:00",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Klocko, Schamberger and Cormier",
-        "ToolTip": "Unde mollitia dicta ipsa.",
+        "Id": 888,
+        "Name": "Jerde-Volkman",
+        "ToolTip": "Debitis culpa eos blanditiis voluptate.",
         "Deleted": false,
-        "Rank": 938,
-        "Type": "corrupti",
-        "ColorBlock": 968,
-        "IconHint": "nihil",
+        "Rank": 613,
+        "Type": "rerum",
+        "ColorBlock": 340,
+        "IconHint": "libero",
         "Selected": false,
-        "LastChanged": "2007-06-28T17:37:40.304504+02:00",
+        "LastChanged": "1997-09-23T11:22:46.1472512+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Lukas Legros",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "commodi",
+        "Hidden": false,
+        "FullName": "Vida Kuphal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 710
+            "FieldLength": 895
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "unde",
+    "ExtraInfo": "neque",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Carlee Schaden",
+    "FullName": "Prof. Doyle Dwight Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldType": "System.Int32",
+        "FieldLength": 319
       }
     }
   }

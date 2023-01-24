@@ -86,7 +86,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 680,
-  "Name": "Kulas Inc and Sons",
-  "Description": "Front-line system-worthy model",
-  "WelcomeMessage": "sunt",
+  "ChatTopicId": 334,
+  "Name": "Kilback, Shanahan and Wisozk",
+  "Description": "Object-based heuristic parallelism",
+  "WelcomeMessage": "laudantium",
   "Language": null,
-  "LastAccept": "1998-09-21T17:37:38.2928597+02:00",
-  "SecondsPrAccept": 90,
-  "AlertRecipient": "qui",
+  "LastAccept": "2021-01-26T11:22:44.4132819+01:00",
+  "SecondsPrAccept": 739,
+  "AlertRecipient": "et",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "laboriosam",
+  "BadgeHeader": "porro",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "consectetur",
-  "WarnNewChatMinutes": 171,
-  "WarnManagerNewChatMinutes": 456,
-  "TicketEnabled": true,
+  "CustomQueueText": "exercitationem",
+  "WarnNewChatMinutes": 913,
+  "WarnManagerNewChatMinutes": 14,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -119,20 +119,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 443,
-  "WarnManagerChatMessageMinutes": 111,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 33,
+  "WarnManagerChatMessageMinutes": 860,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 376,
-  "OfflineFormQueueLength": 823,
+  "OfflineFormTimeLimit": 344,
+  "OfflineFormQueueLength": 629,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "voluptatum",
+  "WidgetRatingText": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 514
     }
   }
 }

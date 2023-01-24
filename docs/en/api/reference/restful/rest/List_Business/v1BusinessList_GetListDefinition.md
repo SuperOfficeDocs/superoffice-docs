@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 21,
-  "Name": "Kessler Group",
-  "Tooltip": "et",
+  "Id": 278,
+  "Name": "Hickle-Conroy",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "Rank": 441,
+  "Rank": 139,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "laborum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldLength": 467
     }
   },
   "_Links": {

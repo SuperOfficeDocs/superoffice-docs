@@ -76,39 +76,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 551,
-  "Name": "Larkin, Skiles and Mayer",
-  "Tooltip": "qui",
-  "VisibleColumns": 134,
-  "Rank": 345,
-  "AssocId": 837,
+  "DiaryViewId": 506,
+  "Name": "Weimann LLC",
+  "Tooltip": "ipsam",
+  "VisibleColumns": 837,
+  "Rank": 424,
+  "AssocId": 879,
   "AssociateList": [
     {
-      "Id": 326,
-      "Name": "Kulas-Towne",
-      "ToolTip": "Voluptatibus dolores laudantium dolorum.",
-      "Deleted": true,
-      "Rank": 28,
-      "Type": "corrupti",
-      "ColorBlock": 143,
-      "IconHint": "aspernatur",
+      "Id": 976,
+      "Name": "Emard Group",
+      "ToolTip": "Necessitatibus impedit voluptatem quia atque.",
+      "Deleted": false,
+      "Rank": 129,
+      "Type": "et",
+      "ColorBlock": 241,
+      "IconHint": "iure",
       "Selected": true,
-      "LastChanged": "2016-02-28T17:37:17.1162404+01:00",
+      "LastChanged": "2006-10-15T11:22:37.6023765+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "expedita",
-      "StyleHint": "quo",
-      "Hidden": true,
-      "FullName": "Prof. Russ Christopher Conn"
+      "ExtraInfo": "quia",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Prof. Jennyfer Reece Kemmer II"
     }
   ],
-  "TzLocationId": 644
+  "TzLocationId": 996
 }
 ```
 
@@ -119,49 +119,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 413,
-  "Name": "Pollich, Daugherty and Boehm",
-  "Tooltip": "ea",
-  "VisibleColumns": 70,
-  "Rank": 178,
-  "AssocId": 650,
+  "DiaryViewId": 773,
+  "Name": "Botsford Group",
+  "Tooltip": "quibusdam",
+  "VisibleColumns": 568,
+  "Rank": 771,
+  "AssocId": 413,
   "AssociateList": [
     {
-      "Id": 613,
-      "Name": "Gutkowski-Tromp",
-      "ToolTip": "Omnis suscipit.",
-      "Deleted": true,
-      "Rank": 730,
-      "Type": "et",
-      "ColorBlock": 94,
-      "IconHint": "ducimus",
-      "Selected": false,
-      "LastChanged": "2005-02-05T17:37:17.1172801+01:00",
+      "Id": 936,
+      "Name": "O'Reilly, Dickens and Kub",
+      "ToolTip": "Reiciendis maxime.",
+      "Deleted": false,
+      "Rank": 552,
+      "Type": "minima",
+      "ColorBlock": 315,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2004-03-12T11:22:37.6023765+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "enim",
-      "StyleHint": "eius",
+      "ExtraInfo": "aut",
+      "StyleHint": "alias",
       "Hidden": false,
-      "FullName": "Prof. Graham Sauer",
+      "FullName": "Mrs. Wilma Ceasar Gleason III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldLength": 246
         }
       }
     }
   ],
-  "TzLocationId": 930,
+  "TzLocationId": 411,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldType": "System.String",
+      "FieldLength": 386
     }
   }
 }

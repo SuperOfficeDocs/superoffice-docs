@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 924
+  "CountWords": 351
 }
 ```
 
@@ -99,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Schumm-Thiel",
-    "ToolTip": "Quo ea iure omnis.",
+    "Id": 73,
+    "Name": "Lynch-Stark",
+    "ToolTip": "Explicabo rem repellendus nisi culpa.",
     "Deleted": false,
-    "Rank": 4,
-    "Type": "tempora",
+    "Rank": 581,
+    "Type": "aliquid",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "Bednar, Bernhard and Jenkins",
-        "ToolTip": "Quae nulla voluptatum.",
+        "Id": 454,
+        "Name": "Medhurst Inc and Sons",
+        "ToolTip": "Quibusdam accusamus cupiditate porro modi.",
         "Deleted": false,
-        "Rank": 559,
-        "Type": "dolores",
+        "Rank": 138,
+        "Type": "ab",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "at",
-        "ColorBlock": 816,
-        "ExtraInfo": "quaerat",
-        "StyleHint": "impedit",
-        "FullName": "Davin Schmeler",
+        "IconHint": "accusamus",
+        "ColorBlock": 230,
+        "ExtraInfo": "quisquam",
+        "StyleHint": "voluptatem",
+        "FullName": "Lucious Maritza Reichert Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 833
+            "FieldType": "System.Int32",
+            "FieldLength": 53
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 772,
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "ea",
-    "FullName": "Maverick Robel",
+    "IconHint": "sed",
+    "ColorBlock": 441,
+    "ExtraInfo": "officiis",
+    "StyleHint": "totam",
+    "FullName": "Moises Koelpin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 975
+        "FieldLength": 766
       }
     }
   }

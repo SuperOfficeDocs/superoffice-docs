@@ -68,10 +68,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Walsh-Haley",
+  "GuiName": "Gulgowski LLC",
   "ColumnWidths": [
-    "ea",
-    "qui"
+    "quia",
+    "aut"
   ]
 }
 ```

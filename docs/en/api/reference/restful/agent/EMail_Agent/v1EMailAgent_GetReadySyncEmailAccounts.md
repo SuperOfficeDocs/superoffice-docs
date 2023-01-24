@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 237,
-    "AssociateName": "Leffler, Gerhold and Ferry",
-    "AssociateId": 79,
+    "AccountId": 833,
+    "AssociateName": "Yundt Group",
+    "AssociateId": 494,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 12
       }
     }
   },
   {
-    "AccountId": 237,
-    "AssociateName": "Leffler, Gerhold and Ferry",
-    "AssociateId": 79,
+    "AccountId": 833,
+    "AssociateName": "Yundt Group",
+    "AssociateId": 494,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 12
       }
     }
   }

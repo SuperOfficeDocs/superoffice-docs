@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 405
+  "PrefDescId": 819
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 771,
-    "PrefDescId": 280,
-    "PrefValue": "iusto",
-    "PrefShowValue": "dolores",
-    "Description": "Ergonomic solution-oriented portal",
-    "IsBuiltin": false,
+    "PrefDescLineId": 147,
+    "PrefDescId": 330,
+    "PrefValue": "quo",
+    "PrefShowValue": "totam",
+    "Description": "Persevering demand-driven firmware",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 32
+        "FieldType": "System.Int32",
+        "FieldLength": 670
       }
     }
   }

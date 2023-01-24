@@ -97,7 +97,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 696,
-  "ColumnId": 229,
-  "FieldDefault": "ea",
-  "FieldHeight": 469,
-  "FieldLabel": "nihil",
-  "FieldLeft": 605,
-  "FieldTop": 976,
+  "UDefFieldId": 568,
+  "ColumnId": 770,
+  "FieldDefault": "aspernatur",
+  "FieldHeight": 899,
+  "FieldLabel": "id",
+  "FieldLeft": 435,
+  "FieldTop": 611,
   "FieldType": "Checkbox",
-  "FieldWidth": 392,
-  "FormatMask": "dolorum",
+  "FieldWidth": 973,
+  "FormatMask": "ratione",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 167,
-  "LabelLeft": 190,
-  "LabelTop": 403,
-  "LabelWidth": 761,
-  "LastVersionId": 915,
-  "ListTableId": 188,
+  "IsIndexed": true,
+  "LabelHeight": 796,
+  "LabelLeft": 145,
+  "LabelTop": 675,
+  "LabelWidth": 42,
+  "LastVersionId": 985,
+  "ListTableId": 470,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 8,
-  "ProgId": "quae",
-  "IsReadOnly": true,
-  "ShortLabel": "consequatur",
-  "TabOrder": 976,
-  "TextLength": 910,
-  "Tooltip": "facere",
-  "UdefIdentity": 757,
-  "UDListDefinitionId": 429,
+  "Page1LineNo": 905,
+  "ProgId": "aspernatur",
+  "IsReadOnly": false,
+  "ShortLabel": "eius",
+  "TabOrder": 248,
+  "TextLength": 50,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 615,
+  "UDListDefinitionId": 118,
   "Justification": "Center",
-  "Version": 821,
-  "TemplateVariableName": "Stark Group",
+  "Version": 533,
+  "TemplateVariableName": "Leannon, Schuppe and Wuckert",
   "HasBeenPublished": false,
-  "MdoListName": "Gulgowski LLC",
+  "MdoListName": "Sipes, Blick and Casper",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 617
     }
   }
 }

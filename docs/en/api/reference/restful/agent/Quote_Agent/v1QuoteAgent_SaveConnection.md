@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,34 +101,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 270,
-  "ERPName": "Littel-Batz",
-  "DisplayName": "Hansen, Fadel and Champlin",
-  "DisplayDescription": "Operative bi-directional array",
-  "Rank": 477,
-  "ConnectorName": "Abernathy-Kihn",
-  "ErpConnectionId": 290,
-  "ExtraData": "vero",
-  "IsAvailable": false,
+  "QuoteConnectionId": 397,
+  "ERPName": "Hayes LLC",
+  "DisplayName": "Satterfield, Weimann and Jaskolski",
+  "DisplayDescription": "Phased regional conglomeration",
+  "Rank": 626,
+  "ConnectorName": "Lueilwitz Group",
+  "ErpConnectionId": 328,
+  "ExtraData": "velit",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 648,
-      "ERPPriceListKey": "dolores",
-      "QuoteConnectionId": 99,
-      "Name": "Jewess LLC",
-      "Description": "Right-sized uniform info-mediaries",
-      "Currency": "neque",
-      "CurrencyName": "Hettinger, Boyle and Luettgen",
-      "ValidFrom": "2004-01-15T17:37:18.7442416+01:00",
-      "ValidTo": "2015-09-27T17:37:18.7442416+02:00",
-      "IsActive": true,
+      "PriceListId": 182,
+      "ERPPriceListKey": "aut",
+      "QuoteConnectionId": 28,
+      "Name": "Fay LLC",
+      "Description": "Vision-oriented impactful internet solution",
+      "Currency": "earum",
+      "CurrencyName": "Kling, Runte and Gutkowski",
+      "ValidFrom": "2000-12-16T11:22:38.9301893+01:00",
+      "ValidTo": "2017-04-29T11:22:38.9301893+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 807
+          "FieldLength": 603
         }
       }
     }
@@ -136,19 +136,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    148,
-    773
+    866,
+    204
   ],
   "AssociateAccessIds": [
-    859,
-    230
+    548,
+    802
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 104
     }
   }
 }

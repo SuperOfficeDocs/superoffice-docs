@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Front-line systematic workforce",
-  "Filename": "recusandae",
-  "Size": 499,
-  "Type": "dignissimos",
+  "Description": "Fully-configurable 3rd generation infrastructure",
+  "Filename": "velit",
+  "Size": 488,
+  "Type": "perferendis",
   "Encoding": "commodi",
-  "Id": "velit",
-  "Disposition": "quia",
+  "Id": "quas",
+  "Disposition": "consequatur",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 376
     }
   }
 }

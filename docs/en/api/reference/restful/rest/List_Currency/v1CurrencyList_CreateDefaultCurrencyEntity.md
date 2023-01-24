@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,19 +70,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 447,
-  "Name": "Grimes LLC",
-  "Tooltip": "est",
-  "Rank": 46,
-  "Rate": 26410.218,
-  "Units": 7672.032,
+  "CurrencyId": 600,
+  "Name": "VonRueden, Hodkiewicz and Bernier",
+  "Tooltip": "aperiam",
+  "Rank": 591,
+  "Rate": 30349.656,
+  "Units": 6349.4839999999995,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldType": "System.String",
+      "FieldLength": 106
     }
   }
 }

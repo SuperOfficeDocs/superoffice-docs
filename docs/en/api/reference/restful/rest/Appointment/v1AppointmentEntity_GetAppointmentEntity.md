@@ -32,7 +32,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=False
+GET /api/v1/Appointment/{id}?fk=True
 ```
 
 
@@ -129,7 +129,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -137,129 +137,129 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 27 Jun 2002 17:37:38 G6T
+Last-Modified: Sun, 16 Dec 2001 11:22:44 G12T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-03-04T17:37:38.0698602+01:00",
-  "AppointmentId": 431,
-  "Description": "Function-based 24/7 encoding",
-  "StartDate": "2003-06-28T17:37:38.0698602+02:00",
-  "EndDate": "2016-01-12T17:37:38.0698602+01:00",
+  "CreatedDate": "1999-11-05T11:22:44.2258414+01:00",
+  "AppointmentId": 388,
+  "Description": "Total intermediate info-mediaries",
+  "StartDate": "2009-03-20T11:22:44.2258414+01:00",
+  "EndDate": "2012-12-04T11:22:44.2258414+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 791,
+  "MotherId": 879,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-06-27T17:37:38.0718594+02:00",
+  "UpdatedDate": "2001-12-16T11:22:44.2258414+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 304,
+  "ActiveLinks": 101,
   "Links": [
     {
-      "EntityName": "Osinski-Koss",
-      "Id": 736,
-      "Description": "Streamlined client-driven system engine",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 238,
+      "EntityName": "Mann-Marvin",
+      "Id": 990,
+      "Description": "Persistent encompassing definition",
+      "ExtraInfo": "perspiciatis",
+      "LinkId": 825,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 570
+          "FieldLength": 356
         }
       }
     }
   ],
-  "AlarmLeadTime": "praesentium",
-  "HasAlarm": false,
-  "ColorIndex": 71,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "voluptas",
-  "LeadTime": "deleniti",
-  "Location": "debitis",
-  "RejectCounter": 833,
+  "AlarmLeadTime": "corporis",
+  "HasAlarm": true,
+  "ColorIndex": 735,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "accusantium",
+  "LeadTime": "eligendi",
+  "Location": "vitae",
+  "RejectCounter": 173,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 979,
-      "PersonId": 185,
-      "ContactId": 527,
-      "EmailId": 639,
-      "SendEmail": false,
+      "AssociateId": 485,
+      "PersonId": 223,
+      "ContactId": 546,
+      "EmailId": 938,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 979,
-      "PersonId": 185,
-      "ContactId": 527,
-      "EmailId": 639,
-      "SendEmail": false,
+      "AssociateId": 485,
+      "PersonId": 223,
+      "ContactId": 546,
+      "EmailId": 938,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-01-15T17:37:38.0728602+01:00",
+  "ActiveDate": "2011-07-10T11:22:44.2258414+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 203,
+  "PreferredTZLocation": 400,
   "Sale": null,
-  "SuggestedAppointmentId": 303,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 457,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
+  "CentralserviceVideomeetId": "suscipit",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Mr. Jared Ritchie",
+    "SuperOffice:2": "Courtney Boehm"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "sequi"
+    "ExtraFields1": "debitis",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "officia",
+    "CustomFields1": "eveniet",
     "CustomFields2": "autem"
   },
-  "PublishEventDate": "2000-07-11T17:37:38.0738636+02:00",
-  "PublishTo": "2014-06-05T17:37:38.0738636+02:00",
-  "PublishFrom": "2009-06-27T17:37:38.0738636+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-10-28T11:22:44.2258414+02:00",
+  "PublishTo": "1997-05-13T11:22:44.2258414+02:00",
+  "PublishFrom": "2012-07-03T11:22:44.2258414+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 729,
+      "VisibleId": 227,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldType": "System.String",
+          "FieldLength": 394
         }
       }
     },
     {
-      "VisibleId": 729,
+      "VisibleId": 227,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldType": "System.String",
+          "FieldLength": 394
         }
       }
     }
@@ -268,13 +268,13 @@ Last-Modified: Thu, 27 Jun 2002 17:37:38 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldType": "System.String",
+      "FieldLength": 560
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

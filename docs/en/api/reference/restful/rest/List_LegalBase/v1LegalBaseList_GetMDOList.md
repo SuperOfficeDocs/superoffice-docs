@@ -26,7 +26,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=eius
+GET /api/v1/List/LegalBase/MDOItems?query=pariatur
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Hahn, Smith and Langosh",
-    "ToolTip": "Culpa dignissimos alias repudiandae quia.",
+    "Id": 526,
+    "Name": "Stehr LLC",
+    "ToolTip": "Natus et quia hic accusamus corrupti ipsum.",
     "Deleted": false,
-    "Rank": 546,
-    "Type": "voluptatibus",
+    "Rank": 827,
+    "Type": "distinctio",
     "ChildItems": [
       {
-        "Id": 731,
-        "Name": "Skiles-Stark",
-        "ToolTip": "Explicabo est est aut qui est officia molestiae.",
-        "Deleted": false,
-        "Rank": 171,
-        "Type": "vitae",
+        "Id": 923,
+        "Name": "Kertzmann, O'Hara and Simonis",
+        "ToolTip": "Aspernatur eum et id.",
+        "Deleted": true,
+        "Rank": 210,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nemo",
-        "ColorBlock": 409,
-        "ExtraInfo": "sapiente",
-        "StyleHint": "natus",
-        "FullName": "Amelie Pfeffer II",
+        "IconHint": "corporis",
+        "ColorBlock": 322,
+        "ExtraInfo": "quia",
+        "StyleHint": "aut",
+        "FullName": "Karl Hodkiewicz Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 601
+            "FieldType": "System.String",
+            "FieldLength": 15
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 37,
-    "ExtraInfo": "delectus",
-    "StyleHint": "esse",
-    "FullName": "Sigmund Schaefer",
+    "IconHint": "dolores",
+    "ColorBlock": 467,
+    "ExtraInfo": "quidem",
+    "StyleHint": "nihil",
+    "FullName": "Tyreek Hegmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldType": "System.String",
+        "FieldLength": 955
       }
     }
   }

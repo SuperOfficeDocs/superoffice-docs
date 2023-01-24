@@ -113,14 +113,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 310,
+  "SelectionId": 469,
   "SelectionMemberIds": [
-    226,
-    954
+    865,
+    696
   ]
 }
 ```
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Inverse solution-oriented approach",
-  "Postit": "fuga",
+  "Description": "Reactive background access",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 562,
-  "IncludePerson": 526,
-  "MemberCount": 63,
-  "Name": "Hilll-Bradtke",
-  "PostitTextId": 981,
-  "CreatedDate": "2015-11-22T17:37:19.1792425+01:00",
-  "SelectionId": 702,
-  "SoundEx": "sunt",
-  "Source": 102,
-  "TextId": 310,
-  "UpdatedDate": "2000-04-03T17:37:19.1792425+02:00",
-  "UpdatedCount": 499,
-  "Visibility": 123,
+  "GroupIdx": 417,
+  "IncludePerson": 683,
+  "MemberCount": 6,
+  "Name": "O'Hara LLC",
+  "PostitTextId": 203,
+  "CreatedDate": "2007-04-03T11:22:39.3051036+02:00",
+  "SelectionId": 795,
+  "SoundEx": "cumque",
+  "Source": 185,
+  "TextId": 68,
+  "UpdatedDate": "1996-01-20T11:22:39.3051036+01:00",
+  "UpdatedCount": 69,
+  "Visibility": 324,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 120,
-  "TargetTableName": "Wyman, Fahey and Ward",
+  "TargetTableNumber": 560,
+  "TargetTableName": "Cummerata Group",
   "Completed": false,
-  "LeftSelectionId": 822,
-  "RightSelectionId": 955,
+  "LeftSelectionId": 952,
+  "RightSelectionId": 499,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Nikolaus-Gleichner",
-  "ShadowProviderName": "Abernathy, Schinner and Fahey",
-  "ChartKey": "praesentium",
-  "LastLoaded": "1999-12-08T17:37:19.1792425+01:00",
-  "LastLoadedBy": 440,
+  "MainProviderName": "Ebert-Homenick",
+  "ShadowProviderName": "Kris-Swift",
+  "ChartKey": "alias",
+  "LastLoaded": "2022-10-31T11:22:39.3051036+01:00",
+  "LastLoadedBy": 982,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-02-01T17:37:19.1792425+01:00",
-  "LastMembershipChangeBy": 618,
+  "LastMembershipChange": "2002-04-29T11:22:39.3051036+02:00",
+  "LastMembershipChangeBy": 254,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "rerum",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Durgan, Hilll and Gleason",
-  "DashboardTileDefinitionId": 134,
+  "MainHeading": "enim",
+  "MemberTabHeading": "dolores",
+  "MailingsProviderName": "Kerluke-Donnelly",
+  "DashboardTileDefinitionId": 822,
   "VisibleFor": [
     {
-      "VisibleId": 884,
+      "VisibleId": 489,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 946
         }
       }
     },
     {
-      "VisibleId": 884,
+      "VisibleId": 489,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 946
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 491
     }
   }
 }

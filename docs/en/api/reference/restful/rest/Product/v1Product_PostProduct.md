@@ -140,55 +140,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 626,
-  "ERPProductKey": "dolorem",
-  "ERPPriceListKey": "sint",
-  "Name": "Weber LLC",
-  "Description": "Multi-channelled analyzing migration",
-  "Code": "fugiat",
-  "PriceUnit": "totam",
-  "QuantityUnit": "vel",
-  "IsSubscription": false,
-  "SubscriptionUnit": "vero",
-  "DefaultSubscriptionQuantity": 30221.162,
-  "ItemNumber": "1389936",
+  "ProductId": 343,
+  "ERPProductKey": "labore",
+  "ERPPriceListKey": "odio",
+  "Name": "Veum Group",
+  "Description": "Visionary multimedia synergy",
+  "Code": "exercitationem",
+  "PriceUnit": "aliquid",
+  "QuantityUnit": "quia",
+  "IsSubscription": true,
+  "SubscriptionUnit": "molestias",
+  "DefaultSubscriptionQuantity": 19446.47,
+  "ItemNumber": "1397935",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quia",
-  "ProductTypeKey": "culpa",
-  "VAT": 2049.636,
-  "VATInfo": "molestiae",
-  "UnitCost": 13987.042,
-  "UnitMinimumPrice": 24363.716,
-  "UnitListPrice": 7458.92,
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "possimus",
+  "VAT": 14811.284,
+  "VATInfo": "aliquam",
+  "UnitCost": 2804.93,
+  "UnitMinimumPrice": 17534.73,
+  "UnitListPrice": 19377.522,
   "InAssortment": false,
-  "Supplier": "hic",
-  "SupplierCode": "molestiae",
-  "Rights": "est",
-  "Rule": "sunt",
+  "Supplier": "ut",
+  "SupplierCode": "amet",
+  "Rights": "in",
+  "Rule": "id",
   "ExtraInfo": [
     {
-      "Name": "Gerlach-Beier",
-      "Value": "id",
+      "Name": "Thompson LLC",
+      "Value": "voluptatibus",
       "Type": "Image"
     },
     {
-      "Name": "Gerlach-Beier",
-      "Value": "id",
+      "Name": "Thompson LLC",
+      "Value": "voluptatibus",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "nam",
-  "ExtraField1": "officiis",
-  "ExtraField2": "similique",
-  "ExtraField3": "aut",
-  "ExtraField4": "at",
-  "ExtraField5": "consequatur",
-  "InStock": 2701.508
+  "RawExtraInfo": "quis",
+  "ExtraField1": "eaque",
+  "ExtraField2": "at",
+  "ExtraField3": "ipsum",
+  "ExtraField4": "et",
+  "ExtraField5": "aut",
+  "InStock": 26942.998
 }
 ```
 
@@ -199,73 +199,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 106,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "neque",
-  "Name": "Prohaska, Heller and Hodkiewicz",
-  "Description": "Decentralized reciprocal artificial intelligence",
-  "Code": "et",
-  "PriceUnit": "a",
-  "QuantityUnit": "deserunt",
-  "IsSubscription": true,
-  "SubscriptionUnit": "sint",
-  "DefaultSubscriptionQuantity": 31.34,
-  "ItemNumber": "680672",
+  "ProductId": 814,
+  "ERPProductKey": "sit",
+  "ERPPriceListKey": "quibusdam",
+  "Name": "Rohan-Braun",
+  "Description": "Customizable responsive benchmark",
+  "Code": "eligendi",
+  "PriceUnit": "voluptatem",
+  "QuantityUnit": "omnis",
+  "IsSubscription": false,
+  "SubscriptionUnit": "atque",
+  "DefaultSubscriptionQuantity": 22041.422,
+  "ItemNumber": "1019878",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptas",
-  "ProductTypeKey": "molestias",
-  "VAT": 16162.037999999999,
-  "VATInfo": "vitae",
-  "UnitCost": 29763.597999999998,
-  "UnitMinimumPrice": 11620.872,
-  "UnitListPrice": 11279.266,
+  "ProductFamilyKey": "sed",
+  "ProductTypeKey": "ratione",
+  "VAT": 31164.496,
+  "VATInfo": "alias",
+  "UnitCost": 8740.726,
+  "UnitMinimumPrice": 27162.378,
+  "UnitListPrice": 3757.6659999999997,
   "InAssortment": false,
-  "Supplier": "quia",
-  "SupplierCode": "ex",
-  "Rights": "fuga",
-  "Rule": "minus",
+  "Supplier": "possimus",
+  "SupplierCode": "voluptatem",
+  "Rights": "fugiat",
+  "Rule": "autem",
   "ExtraInfo": [
     {
-      "Name": "Schowalter-Little",
-      "Value": "iste",
+      "Name": "Jewess Group",
+      "Value": "fuga",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldLength": 542
         }
       }
     },
     {
-      "Name": "Schowalter-Little",
-      "Value": "iste",
+      "Name": "Jewess Group",
+      "Value": "fuga",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldLength": 542
         }
       }
     }
   ],
-  "RawExtraInfo": "eius",
-  "ExtraField1": "eum",
-  "ExtraField2": "natus",
-  "ExtraField3": "ea",
-  "ExtraField4": "blanditiis",
-  "ExtraField5": "officiis",
-  "InStock": 22915.808,
+  "RawExtraInfo": "molestiae",
+  "ExtraField1": "vel",
+  "ExtraField2": "ab",
+  "ExtraField3": "est",
+  "ExtraField4": "expedita",
+  "ExtraField5": "voluptatem",
+  "InStock": 17660.09,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldLength": 336
     }
   }
 }

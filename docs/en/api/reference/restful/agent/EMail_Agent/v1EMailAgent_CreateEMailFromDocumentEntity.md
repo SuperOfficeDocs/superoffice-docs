@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,155 +116,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 198,
-      "ContactName": "Ratke Inc and Sons",
-      "PersonId": 164,
-      "PersonName": "Hahn Group",
-      "AssociateId": 863,
-      "Address": "temporibus",
-      "EmailId": 126,
+      "ContactId": 622,
+      "ContactName": "Sawayn-Schuppe",
+      "PersonId": 616,
+      "PersonName": "Schneider-D'Amore",
+      "AssociateId": 335,
+      "Address": "nobis",
+      "EmailId": 445,
       "DuplicatePersonIds": [
-        115,
-        266
+        599,
+        108
       ],
-      "Name": "Hickle-Cummerata",
+      "Name": "Jones, Goodwin and Zemlak",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 149
+          "FieldType": "System.Int32",
+          "FieldLength": 493
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 174,
-      "ContactName": "Raynor-Monahan",
-      "PersonId": 600,
-      "PersonName": "Renner LLC",
-      "AssociateId": 902,
-      "Address": "aut",
-      "EmailId": 415,
+      "ContactId": 180,
+      "ContactName": "Ortiz-Kunze",
+      "PersonId": 881,
+      "PersonName": "McGlynn-Schuppe",
+      "AssociateId": 217,
+      "Address": "non",
+      "EmailId": 580,
       "DuplicatePersonIds": [
-        796,
-        23
+        106,
+        974
       ],
-      "Name": "Daugherty-Weimann",
+      "Name": "Cassin Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 971
+          "FieldType": "System.Int32",
+          "FieldLength": 867
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 901,
-      "ContactName": "Hartmann, Effertz and Schimmel",
-      "PersonId": 109,
-      "PersonName": "Prohaska-Balistreri",
-      "AssociateId": 45,
-      "Address": "est",
-      "EmailId": 383,
+      "ContactId": 669,
+      "ContactName": "Torphy Group",
+      "PersonId": 465,
+      "PersonName": "Padberg, Cartwright and Powlowski",
+      "AssociateId": 152,
+      "Address": "id",
+      "EmailId": 400,
       "DuplicatePersonIds": [
-        27,
-        362
+        105,
+        335
       ],
-      "Name": "Ferry Inc and Sons",
+      "Name": "Kris Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 69
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "incidunt",
+  "Subject": "natus",
+  "HTMLBody": "quasi",
   "From": null,
-  "Sent": "2014-12-02T17:37:17.9902424+01:00",
-  "Size": 491,
+  "Sent": "2017-11-09T11:22:38.289718+01:00",
+  "Size": 554,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ea",
-  "PlainBody": "est",
+  "MessageID": "sapiente",
+  "PlainBody": "quod",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 365,
+  "ServerId": 561,
   "Attachments": [
     {
-      "Description": "Grass-roots composite alliance",
-      "Filename": "corrupti",
-      "Size": 630,
-      "Type": "incidunt",
-      "Encoding": "consequuntur",
-      "Id": "voluptatem",
-      "Disposition": "et",
+      "Description": "Virtual incremental function",
+      "Filename": "qui",
+      "Size": 451,
+      "Type": "nisi",
+      "Encoding": "praesentium",
+      "Id": "sit",
+      "Disposition": "ipsa",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 493
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Will, Cormier and Bernier",
+      "Name": "Considine LLC",
       "Values": [
-        "porro",
-        "qui"
+        "doloribus",
+        "cumque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldType": "System.Int32",
+          "FieldLength": 387
         }
       }
     },
     {
-      "Name": "Will, Cormier and Bernier",
+      "Name": "Considine LLC",
       "Values": [
-        "porro",
-        "qui"
+        "doloribus",
+        "cumque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldType": "System.Int32",
+          "FieldLength": 387
         }
       }
     }
   ],
-  "FolderName": "Treutel Inc and Sons",
-  "EmailItemId": 102,
-  "AccountId": 204,
-  "ReceivedAt": "2021-04-27T17:37:17.9902424+02:00",
+  "FolderName": "Lueilwitz, Schulist and Windler",
+  "EmailItemId": 917,
+  "AccountId": 851,
+  "ReceivedAt": "2003-06-20T11:22:38.289718+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-08-10T17:37:17.9912422+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1999-06-26T11:22:38.289718+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 806
+      "FieldType": "System.Int32",
+      "FieldLength": 740
     }
   }
 }

@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 572
+  "ContactId": 150
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 886,
-    "Name": "Mraz-Adams",
-    "Description": "Multi-channelled client-driven function",
+    "ProjectId": 363,
+    "Name": "Legros, Crist and Hintz",
+    "Description": "Universal system-worthy model",
     "URL": "http://www.example.com/",
-    "Type": "quia",
-    "AssociateId": 48,
-    "AssociateFullName": "Cullen Strosin",
-    "TypeId": 466,
-    "Updated": "2010-07-22T17:37:18.6612448+02:00",
-    "StatusId": 536,
-    "Status": "nihil",
-    "TextId": 455,
-    "PublishTo": "2004-05-17T17:37:18.6612448+02:00",
-    "PublishFrom": "2005-10-30T17:37:18.6612448+01:00",
-    "IsPublished": false,
+    "Type": "quas",
+    "AssociateId": 514,
+    "AssociateFullName": "Miss Dedric Dino Strosin III",
+    "TypeId": 519,
+    "Updated": "2004-06-14T11:22:38.8520826+02:00",
+    "StatusId": 425,
+    "Status": "suscipit",
+    "TextId": 309,
+    "PublishTo": "2007-02-12T11:22:38.8520826+01:00",
+    "PublishFrom": "2017-03-29T11:22:38.8520826+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1174534",
-    "ActiveErpLinks": 940,
+    "ProjectNumber": "1163905",
+    "ActiveErpLinks": 199,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldLength": 533
       }
     }
   }

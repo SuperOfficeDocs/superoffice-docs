@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 728,
-    "Name": "Hane-Fritsch",
-    "Description": "Extended value-added hardware",
+    "ProjectId": 628,
+    "Name": "Nikolaus, Ryan and Volkman",
+    "Description": "Digitized analyzing projection",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 430,
-    "AssociateFullName": "Mr. Brittany Wuckert Jr.",
-    "TypeId": 233,
-    "Updated": "2004-08-10T17:37:18.663243+02:00",
-    "StatusId": 73,
-    "Status": "dolorem",
-    "TextId": 598,
-    "PublishTo": "2015-06-12T17:37:18.663243+02:00",
-    "PublishFrom": "2022-02-14T17:37:18.663243+01:00",
-    "IsPublished": true,
+    "Type": "qui",
+    "AssociateId": 256,
+    "AssociateFullName": "Prof. Zachary Lebsack Sr.",
+    "TypeId": 892,
+    "Updated": "2013-11-30T11:22:38.8520826+01:00",
+    "StatusId": 74,
+    "Status": "rerum",
+    "TextId": 808,
+    "PublishTo": "2015-12-13T11:22:38.8520826+01:00",
+    "PublishFrom": "2018-04-06T11:22:38.8520826+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1130241",
-    "ActiveErpLinks": 913,
+    "ProjectNumber": "1331898",
+    "ActiveErpLinks": 936,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 982
+        "FieldType": "System.String",
+        "FieldLength": 220
       }
     }
   }

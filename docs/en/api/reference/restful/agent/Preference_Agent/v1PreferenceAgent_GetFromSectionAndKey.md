@@ -90,12 +90,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ut",
-  "Key": "voluptatem"
+  "Section": "occaecati",
+  "Key": "laudantium"
 }
 ```
 
@@ -106,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 808,
-  "Section": "dolorem",
-  "Key": "culpa",
-  "Name": "Schowalter-Konopelski",
+  "PrefDescId": 133,
+  "Section": "sunt",
+  "Key": "facilis",
+  "Name": "O'Hara-Nader",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profound systematic strategy",
-  "IsBuiltin": false,
-  "TableName": "Wuckert-Bernhard",
-  "UserDefinedListId": 12,
-  "Rank": 389,
-  "SubGroup": "velit",
-  "MinLevel": 480,
-  "MaxValue": 142,
-  "MinValue": 979,
-  "RequiredLicense": "commodi",
+  "Description": "Managed uniform concept",
+  "IsBuiltin": true,
+  "TableName": "Cassin-Kemmer",
+  "UserDefinedListId": 756,
+  "Rank": 197,
+  "SubGroup": "dolorem",
+  "MinLevel": 2,
+  "MaxValue": 107,
+  "MinValue": 520,
+  "RequiredLicense": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldType": "System.String",
+      "FieldLength": 710
     }
   }
 }

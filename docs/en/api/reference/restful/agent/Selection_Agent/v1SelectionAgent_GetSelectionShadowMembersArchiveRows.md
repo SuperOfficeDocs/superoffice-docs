@@ -83,8 +83,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 691,
-  "Select": "rerum"
+  "SelectionId": 526,
+  "Select": "vel"
 }
 ```
 
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gorczany-Hane",
-    "PrimaryKey": 839,
+    "EntityName": "Prosacco-Kiehn",
+    "PrimaryKey": 179,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "est",
-        "TooltipHint": "a",
-        "LinkHint": "odio"
+        "DisplayValue": "nam",
+        "TooltipHint": "maxime",
+        "LinkHint": "quas"
       }
     },
-    "LinkHint": "distinctio",
-    "StyleHint": "perferendis",
+    "LinkHint": "nulla",
+    "StyleHint": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 328
       }
     }
   }

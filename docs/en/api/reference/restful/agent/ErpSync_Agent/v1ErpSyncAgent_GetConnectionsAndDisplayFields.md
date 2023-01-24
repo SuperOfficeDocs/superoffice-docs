@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 127
+  "EntityId": 831
 }
 ```
 
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 35,
-    "ConnectionName": "Kulas, Adams and Farrell",
-    "Connected": false,
+    "ErpConnectionId": 293,
+    "ConnectionName": "Kub-Schaefer",
+    "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "voluptate",
-        "Rank": 54,
-        "DisplayName": "Kris-McLaughlin",
-        "DisplayDescription": "Team-oriented solution-oriented structure",
+        "FieldKey": "accusantium",
+        "Rank": 464,
+        "DisplayName": "Kirlin-Brekke",
+        "DisplayDescription": "Managed modular instruction set",
         "FieldType": "Checkbox",
-        "ListName": "Kemmer, Sporer and Treutel",
-        "DefaultValue": "ab",
-        "MaxLength": 911,
+        "ListName": "Balistreri Inc and Sons",
+        "DefaultValue": "quis",
+        "MaxLength": 337,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 391
+            "FieldLength": 686
           }
         }
       }
@@ -126,15 +126,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "molestias",
-      "at"
+      "dignissimos",
+      "magni"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldLength": 519
       }
     }
   }

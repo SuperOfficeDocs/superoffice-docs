@@ -78,19 +78,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 497,
-  "PersonName": "Weissnat-Baumbach",
+  "ContactId": 869,
+  "PersonName": "Maggio LLC",
   "PhoneNumbers": [
-    "818983",
-    "302687"
+    "725293",
+    "642385"
   ],
   "Emails": [
-    "joaquin_turner@wildermanschmidt.uk",
-    "mae@roberts.info"
+    "jennifer@lebsackhagenes.com",
+    "christopher@carter.us"
   ]
 }
 ```
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 513
     }
   }
 }

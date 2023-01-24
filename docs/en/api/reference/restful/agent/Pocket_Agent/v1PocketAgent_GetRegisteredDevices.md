@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 858
+  "AssociateId": 300
 }
 ```
 
@@ -93,14 +93,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Feest LLC",
-    "DeviceIdentifier": "molestiae",
-    "PocketVersion": "tempora",
-    "Language": "et",
-    "PNSHandle": "ea",
+    "DeviceName": "Lesch-Kovacek",
+    "DeviceIdentifier": "reiciendis",
+    "PocketVersion": "dignissimos",
+    "Language": "ut",
+    "PNSHandle": "minus",
     "Platform": "Apple",
-    "OSVersion": "quidem",
-    "TimeZoneId": 922
+    "OSVersion": "tempore",
+    "TimeZoneId": 203
   }
 ]
 ```

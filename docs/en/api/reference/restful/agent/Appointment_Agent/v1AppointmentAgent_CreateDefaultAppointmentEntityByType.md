@@ -126,7 +126,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -145,63 +145,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-02-09T17:37:16.3882416+01:00",
-  "AppointmentId": 394,
-  "Description": "Exclusive even-keeled website",
-  "StartDate": "2016-07-24T17:37:16.3882416+02:00",
-  "EndDate": "2019-03-22T17:37:16.3882416+01:00",
+  "CreatedDate": "2008-03-31T11:22:37.0556305+02:00",
+  "AppointmentId": 86,
+  "Description": "Assimilated global standardization",
+  "StartDate": "2002-08-15T11:22:37.0556305+02:00",
+  "EndDate": "1997-12-24T11:22:37.0556305+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 969,
+  "MotherId": 556,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-08-03T17:37:16.3912421+02:00",
+  "UpdatedDate": "2001-11-25T11:22:37.0556305+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 897,
+  "ActiveLinks": 159,
   "Links": [
     {
-      "EntityName": "Daniel LLC",
-      "Id": 201,
-      "Description": "De-engineered secondary success",
-      "ExtraInfo": "illum",
-      "LinkId": 662,
+      "EntityName": "Macejkovic-Schulist",
+      "Id": 304,
+      "Description": "Operative multi-state task-force",
+      "ExtraInfo": "consequatur",
+      "LinkId": 982,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 120
+          "FieldType": "System.Int32",
+          "FieldLength": 171
         }
       }
     }
   ],
-  "AlarmLeadTime": "ex",
+  "AlarmLeadTime": "neque",
   "HasAlarm": false,
-  "ColorIndex": 759,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "quasi",
+  "ColorIndex": 921,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "rerum",
   "LeadTime": "aut",
-  "Location": "eos",
-  "RejectCounter": 992,
+  "Location": "aperiam",
+  "RejectCounter": 537,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 809,
-      "PersonId": 834,
-      "ContactId": 883,
-      "EmailId": 686,
+      "AssociateId": 56,
+      "PersonId": 994,
+      "ContactId": 669,
+      "EmailId": 72,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 809,
-      "PersonId": 834,
-      "ContactId": 883,
-      "EmailId": 686,
+      "AssociateId": 56,
+      "PersonId": 994,
+      "ContactId": 669,
+      "EmailId": 72,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -209,58 +209,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-03-08T17:37:16.3912421+01:00",
+  "ActiveDate": "1998-02-22T11:22:37.0556305+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 415,
+  "PreferredTZLocation": 280,
   "Sale": null,
-  "SuggestedAppointmentId": 92,
+  "SuggestedAppointmentId": 261,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "itaque",
+  "CentralserviceVideomeetId": "ullam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Santa Wintheiser",
-    "SuperOffice:2": "1076893233"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Mrs. Israel Hills I"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "voluptatibus",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "tempore"
+    "CustomFields1": "dolorum",
+    "CustomFields2": "sunt"
   },
-  "PublishEventDate": "2002-04-10T17:37:16.3952423+02:00",
-  "PublishTo": "2008-11-03T17:37:16.3952423+01:00",
-  "PublishFrom": "2018-11-05T17:37:16.3952423+01:00",
+  "PublishEventDate": "2008-07-18T11:22:37.0556305+02:00",
+  "PublishTo": "2008-10-26T11:22:37.0556305+01:00",
+  "PublishFrom": "2017-07-20T11:22:37.0556305+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 168,
+      "VisibleId": 171,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 935
+          "FieldType": "System.Int32",
+          "FieldLength": 988
         }
       }
     },
     {
-      "VisibleId": 168,
+      "VisibleId": 171,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 935
+          "FieldType": "System.Int32",
+          "FieldLength": 988
         }
       }
     }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldLength": 809
     }
   }
 }

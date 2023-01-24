@@ -78,27 +78,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 640,
+  "Id": 831,
   "Entities": [
     {
-      "HeadingId": 1002,
-      "Name": "Schuster-Rogahn",
-      "Tooltip": "fugiat",
+      "HeadingId": 391,
+      "Name": "McLaughlin-Haag",
+      "Tooltip": "numquam",
       "Deleted": false,
-      "Rank": 137,
-      "UdListDefinitionId": 989
+      "Rank": 638,
+      "UdListDefinitionId": 241
     },
     {
-      "HeadingId": 1002,
-      "Name": "Schuster-Rogahn",
-      "Tooltip": "fugiat",
+      "HeadingId": 391,
+      "Name": "McLaughlin-Haag",
+      "Tooltip": "numquam",
       "Deleted": false,
-      "Rank": 137,
-      "UdListDefinitionId": 989
+      "Rank": 638,
+      "UdListDefinitionId": 241
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 971,
-    "Name": "Beier-Prosacco",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 971,
-    "UdListDefinitionId": 998,
+    "HeadingId": 317,
+    "Name": "O'Hara, Franecki and Ernser",
+    "Tooltip": "possimus",
+    "Deleted": false,
+    "Rank": 172,
+    "UdListDefinitionId": 557,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 407
+        "FieldLength": 539
       }
     }
   }

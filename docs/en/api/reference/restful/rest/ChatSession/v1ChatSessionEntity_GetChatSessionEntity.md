@@ -112,29 +112,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 702,
-  "TopicId": 106,
+  "ChatSessionId": 579,
+  "TopicId": 555,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ea",
-  "CustomerHost": "cum",
-  "CustomerName": "Johnston-Walker",
-  "CustomerEmail": "savannah.schneider@ziemanngusikowski.com",
-  "CustomerPhone": "586-093-3821 x968",
+  "CustomerAlias": "occaecati",
+  "CustomerHost": "repellat",
+  "CustomerName": "Balistreri-O'Conner",
+  "CustomerEmail": "lucile@feest.uk",
+  "CustomerPhone": "(887)252-8167",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Gleichner-Cruickshank",
+  "CustomerCompanyName": "Little, Quigley and Gerlach",
   "Status": "Closed",
-  "FirstMessage": "autem",
-  "LastMessage": "et",
-  "WhenRequested": "2004-06-14T17:37:38.1808597+02:00",
-  "WhenStarted": "2013-05-26T17:37:38.1808597+02:00",
-  "WhenEnded": "2022-03-20T17:37:38.1808597+01:00",
-  "WhenIdle": "2011-07-04T17:37:38.1808597+02:00",
-  "WhenFetched": "2007-11-22T17:37:38.1808597+01:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 375,
-  "AlertLevel": 223,
-  "Rank": 640,
+  "FirstMessage": "consequatur",
+  "LastMessage": "maiores",
+  "WhenRequested": "2007-07-10T11:22:44.3195524+02:00",
+  "WhenStarted": "2022-10-13T11:22:44.3195524+02:00",
+  "WhenEnded": "1996-11-15T11:22:44.3195524+01:00",
+  "WhenIdle": "2018-07-03T11:22:44.3195524+02:00",
+  "WhenFetched": "2020-05-29T11:22:44.3195524+02:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 690,
+  "AlertLevel": 628,
+  "Rank": 682,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -142,18 +142,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 247,
+  "Rating": 87,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 555
+      "FieldType": "System.Int32",
+      "FieldLength": 410
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

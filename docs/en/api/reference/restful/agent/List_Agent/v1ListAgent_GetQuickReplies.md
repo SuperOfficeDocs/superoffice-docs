@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 136,
-    "Name": "Bayer Inc and Sons",
-    "HtmlBody": "ipsam",
+    "QuickReplyId": 642,
+    "Name": "Mitchell LLC",
+    "HtmlBody": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldType": "System.Int32",
+        "FieldLength": 212
       }
     }
   },
   {
-    "QuickReplyId": 136,
-    "Name": "Bayer Inc and Sons",
-    "HtmlBody": "ipsam",
+    "QuickReplyId": 642,
+    "Name": "Mitchell LLC",
+    "HtmlBody": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldType": "System.Int32",
+        "FieldLength": 212
       }
     }
   }

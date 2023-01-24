@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 846,
-  "LastHash": "doloremque"
+  "SelectionId": 296,
+  "LastHash": "qui"
 }
 ```
 
@@ -90,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "aut",
+  "CallerIDHash": "ea",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 104,
-      "PersonId": 941,
-      "PersonName": "Macejkovic LLC",
-      "Mrmrs": "sequi",
-      "ContactId": 483,
-      "ContactName": "Gaylord Inc and Sons"
+      "DialInPrefix": 648,
+      "PersonId": 436,
+      "PersonName": "Zemlak-Kris",
+      "Mrmrs": "nesciunt",
+      "ContactId": 397,
+      "ContactName": "Ruecker Inc and Sons"
     }
   ]
 }

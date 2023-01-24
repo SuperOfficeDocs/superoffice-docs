@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,111 +70,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 660,
-      "UniqueId": "quia",
-      "Name": "Swift, Gerhold and Raynor",
-      "Description": "Triple-buffered incremental function",
-      "AssociateId": 984,
-      "Columns": 460,
+      "DashboardId": 395,
+      "UniqueId": "inventore",
+      "Name": "Trantow, Bailey and Kuvalis",
+      "Description": "Front-line bi-directional complexity",
+      "AssociateId": 769,
+      "Columns": 155,
       "Theme": null,
-      "VisibleForAll": 365,
+      "VisibleForAll": 916,
       "VisibleForAssociates": [
-        758,
-        456
+        202,
+        721
       ],
       "VisibleForGroups": [
-        414,
-        510
+        51,
+        919
       ],
-      "PinForAll": 940,
+      "PinForAll": 681,
       "PinForAssociates": [
-        707,
-        608
+        314,
+        508
       ],
       "PinForGroups": [
-        638,
-        94
+        338,
+        770
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldLength": 861
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 32,
-      "UniqueId": "quis",
-      "Name": "Bode, O'Hara and Ledner",
-      "Description": "Persevering clear-thinking throughput",
-      "AssociateId": 180,
-      "Columns": 982,
+      "DashboardId": 176,
+      "UniqueId": "est",
+      "Name": "Mayer-Torp",
+      "Description": "Future-proofed solution-oriented Graphic Interface",
+      "AssociateId": 205,
+      "Columns": 741,
       "Theme": null,
-      "VisibleForAll": 4,
+      "VisibleForAll": 862,
       "VisibleForAssociates": [
-        239,
-        743
+        597,
+        485
       ],
       "VisibleForGroups": [
-        180,
-        87
+        777,
+        757
       ],
-      "PinForAll": 451,
+      "PinForAll": 834,
       "PinForAssociates": [
-        252,
-        451
+        268,
+        361
       ],
       "PinForGroups": [
-        220,
-        506
+        948,
+        684
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldType": "System.String",
+          "FieldLength": 654
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 556,
-      "UniqueId": "et",
-      "Name": "Pagac Inc and Sons",
-      "Description": "De-engineered content-based application",
-      "AssociateId": 986,
-      "Columns": 930,
+      "DashboardId": 247,
+      "UniqueId": "id",
+      "Name": "Harris Group",
+      "Description": "Phased eco-centric matrix",
+      "AssociateId": 811,
+      "Columns": 335,
       "Theme": null,
-      "VisibleForAll": 238,
+      "VisibleForAll": 993,
       "VisibleForAssociates": [
-        330,
-        545
+        411,
+        732
       ],
       "VisibleForGroups": [
-        259,
-        602
+        641,
+        885
       ],
-      "PinForAll": 439,
+      "PinForAll": 719,
       "PinForAssociates": [
-        246,
-        33
+        574,
+        841
       ],
       "PinForGroups": [
-        969,
-        119
+        312,
+        568
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 243
+          "FieldLength": 407
         }
       }
     }
@@ -184,7 +184,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldLength": 216
     }
   }
 }

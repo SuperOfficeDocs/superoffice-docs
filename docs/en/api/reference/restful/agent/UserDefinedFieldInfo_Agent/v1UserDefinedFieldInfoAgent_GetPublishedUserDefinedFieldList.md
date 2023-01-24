@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,46 +121,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 206,
-    "ColumnId": 52,
-    "FieldDefault": "fuga",
-    "FieldHeight": 188,
-    "FieldLabel": "culpa",
-    "FieldLeft": 745,
-    "FieldTop": 192,
+    "UDefFieldId": 654,
+    "ColumnId": 326,
+    "FieldDefault": "rerum",
+    "FieldHeight": 161,
+    "FieldLabel": "incidunt",
+    "FieldLeft": 173,
+    "FieldTop": 274,
     "FieldType": "Checkbox",
-    "FieldWidth": 565,
-    "FormatMask": "ut",
-    "HideLabel": false,
+    "FieldWidth": 165,
+    "FormatMask": "labore",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 36,
-    "LabelLeft": 1002,
-    "LabelTop": 216,
-    "LabelWidth": 700,
-    "LastVersionId": 165,
-    "ListTableId": 620,
-    "IsMandatory": false,
+    "LabelHeight": 526,
+    "LabelLeft": 315,
+    "LabelTop": 347,
+    "LabelWidth": 135,
+    "LastVersionId": 149,
+    "ListTableId": 996,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 430,
-    "ProgId": "dolores",
+    "Page1LineNo": 266,
+    "ProgId": "aspernatur",
     "IsReadOnly": false,
-    "ShortLabel": "enim",
-    "TabOrder": 660,
-    "TextLength": 293,
-    "Tooltip": "voluptatem",
-    "UdefIdentity": 443,
-    "UDListDefinitionId": 224,
+    "ShortLabel": "doloribus",
+    "TabOrder": 54,
+    "TextLength": 733,
+    "Tooltip": "veritatis",
+    "UdefIdentity": 111,
+    "UDListDefinitionId": 336,
     "Justification": "Center",
-    "Version": 355,
-    "TemplateVariableName": "Hermann Inc and Sons",
+    "Version": 11,
+    "TemplateVariableName": "Bahringer-Botsford",
     "HasBeenPublished": false,
-    "MdoListName": "Legros Inc and Sons",
+    "MdoListName": "Dooley, Volkman and Stiedemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 351
       }
     }
   }

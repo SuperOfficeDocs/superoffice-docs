@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 938,
-    "Name": "Lemke Inc and Sons",
-    "Tooltip": "molestiae",
-    "Deleted": true,
-    "Rank": 882,
-    "UdListDefinitionId": 687,
+    "HeadingId": 60,
+    "Name": "Reichert LLC",
+    "Tooltip": "non",
+    "Deleted": false,
+    "Rank": 874,
+    "UdListDefinitionId": 275,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldLength": 459
       }
     }
   }

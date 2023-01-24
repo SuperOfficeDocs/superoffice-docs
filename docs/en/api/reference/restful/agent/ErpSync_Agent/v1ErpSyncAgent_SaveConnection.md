@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 80,
-  "ErpConnectorId": 315,
-  "DisplayName": "Crona-Witting",
-  "DisplayDescription": "Team-oriented background portal",
-  "Active": false,
-  "ConnectionId": "deserunt",
-  "MostRecentTimestamp": "sapiente",
+  "ErpConnectionId": 420,
+  "ErpConnectorId": 867,
+  "DisplayName": "Schulist, Smitham and Schaden",
+  "DisplayDescription": "Open-architected system-worthy algorithm",
+  "Active": true,
+  "ConnectionId": "eos",
+  "MostRecentTimestamp": "modi",
   "ConfigFields": {
-    "ConfigFields1": "odio",
-    "ConfigFields2": "et"
+    "ConfigFields1": "eum",
+    "ConfigFields2": "natus"
   },
   "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    651,
-    74
+    509,
+    179
   ],
   "AssociateAccessIds": [
-    528,
-    788
+    930,
+    965
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 436
     }
   }
 }

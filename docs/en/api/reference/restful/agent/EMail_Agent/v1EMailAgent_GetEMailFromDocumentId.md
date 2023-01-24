@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 159
+  "DocumentId": 106
 }
 ```
 
@@ -116,147 +116,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 116,
-      "ContactName": "Boyle-Gulgowski",
-      "PersonId": 646,
-      "PersonName": "Lockman, Littel and Miller",
-      "AssociateId": 758,
+      "ContactId": 703,
+      "ContactName": "Boehm Inc and Sons",
+      "PersonId": 194,
+      "PersonName": "Stroman Inc and Sons",
+      "AssociateId": 279,
       "Address": "error",
-      "EmailId": 374,
+      "EmailId": 489,
       "DuplicatePersonIds": [
-        97,
-        902
+        696,
+        954
       ],
-      "Name": "Batz Group",
+      "Name": "Mayer, Fisher and Goldner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldLength": 160
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 747,
-      "ContactName": "Pfannerstill, Bartoletti and Heidenreich",
-      "PersonId": 144,
-      "PersonName": "Harvey, Goldner and Runolfsdottir",
-      "AssociateId": 832,
-      "Address": "blanditiis",
-      "EmailId": 555,
+      "ContactId": 587,
+      "ContactName": "Grimes-Olson",
+      "PersonId": 734,
+      "PersonName": "Yost-Skiles",
+      "AssociateId": 1000,
+      "Address": "sapiente",
+      "EmailId": 825,
       "DuplicatePersonIds": [
-        908,
-        180
+        310,
+        934
       ],
-      "Name": "Bruen-Waelchi",
+      "Name": "Gaylord, Johnston and Nader",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 17
+          "FieldType": "System.Int32",
+          "FieldLength": 509
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 220,
-      "ContactName": "Simonis, Hansen and Welch",
-      "PersonId": 500,
-      "PersonName": "Predovic, Stanton and Walker",
-      "AssociateId": 980,
-      "Address": "quasi",
-      "EmailId": 754,
+      "ContactId": 490,
+      "ContactName": "Huel, Lehner and Klocko",
+      "PersonId": 975,
+      "PersonName": "Gaylord Inc and Sons",
+      "AssociateId": 193,
+      "Address": "a",
+      "EmailId": 197,
       "DuplicatePersonIds": [
-        257,
-        715
+        1002,
+        709
       ],
-      "Name": "Rolfson, Weimann and Emmerich",
+      "Name": "VonRueden Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 127
+          "FieldType": "System.String",
+          "FieldLength": 861
         }
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "enim",
+  "Subject": "sed",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2007-04-14T17:37:17.9612425+02:00",
-  "Size": 873,
+  "Sent": "2004-05-24T11:22:38.2584721+02:00",
+  "Size": 593,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "modi",
-  "PlainBody": "et",
-  "IsSent": true,
+  "MessageID": "iure",
+  "PlainBody": "consequatur",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 979,
+  "ServerId": 329,
   "Attachments": [
     {
-      "Description": "Ergonomic optimizing superstructure",
-      "Filename": "rerum",
-      "Size": 74,
-      "Type": "voluptas",
-      "Encoding": "molestiae",
-      "Id": "numquam",
-      "Disposition": "cupiditate",
+      "Description": "Polarised upward-trending definition",
+      "Filename": "sapiente",
+      "Size": 669,
+      "Type": "quia",
+      "Encoding": "non",
+      "Id": "possimus",
+      "Disposition": "itaque",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldLength": 607
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Wolff LLC",
+      "Name": "Lubowitz-Barton",
       "Values": [
-        "eos",
-        "quis"
+        "iure",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 394
+          "FieldType": "System.String",
+          "FieldLength": 500
         }
       }
     },
     {
-      "Name": "Wolff LLC",
+      "Name": "Lubowitz-Barton",
       "Values": [
-        "eos",
-        "quis"
+        "iure",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 394
+          "FieldType": "System.String",
+          "FieldLength": 500
         }
       }
     }
   ],
-  "FolderName": "Steuber, Hoeger and Mitchell",
-  "EmailItemId": 983,
-  "AccountId": 670,
-  "ReceivedAt": "2000-03-01T17:37:17.9622415+01:00",
+  "FolderName": "Jenkins Inc and Sons",
+  "EmailItemId": 327,
+  "AccountId": 158,
+  "ReceivedAt": "1997-06-18T11:22:38.2584721+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-09-23T17:37:17.9622415+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2020-06-17T11:22:38.2584721+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldLength": 554
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,31 +79,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 757,
-    "Name": "Padberg, Murazik and Hilll",
-    "TZLocationCode": "aspernatur",
-    "TZLocationCities": "hic",
-    "IsoNumber": 166,
+    "TZLocationID": 736,
+    "Name": "McClure, Torp and Doyle",
+    "TZLocationCode": "et",
+    "TZLocationCities": "consequatur",
+    "IsoNumber": 858,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 378,
-        "StartMonth": 909,
-        "EndDay": 906,
-        "EndMonth": 971,
-        "TZOffset": 495,
-        "StartRulePattern": "sit",
-        "EndRulePattern": "itaque"
+        "StartDay": 373,
+        "StartMonth": 580,
+        "EndDay": 942,
+        "EndMonth": 560,
+        "TZOffset": 960,
+        "StartRulePattern": "rem",
+        "EndRulePattern": "qui"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 477,
-        "StartMonth": 689,
-        "EndDay": 826,
-        "EndMonth": 189,
-        "TZOffset": 206,
-        "StartRulePattern": "magnam",
-        "EndRulePattern": "esse"
+        "StartDay": 573,
+        "StartMonth": 673,
+        "EndDay": 777,
+        "EndMonth": 484,
+        "TZOffset": 556,
+        "StartRulePattern": "voluptatem",
+        "EndRulePattern": "quia"
       }
     }
   }

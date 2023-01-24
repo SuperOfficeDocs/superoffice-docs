@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -92,11 +93,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 471
+  "Id": 126
 }
 ```
 
@@ -107,36 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 539,
-  "Name": "Rodriguez Inc and Sons",
-  "AssociateId": 211,
-  "DetailsTable": 678,
-  "DetailsRecord": 939,
+  "Id": 323,
+  "Name": "Cole Inc and Sons",
+  "AssociateId": 416,
+  "DetailsTable": 321,
+  "DetailsRecord": 838,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "excepturi",
-    "ParameterObject2": "quis"
+    "ParameterObject1": "sed",
+    "ParameterObject2": "animi"
   },
-  "LastStarted": "2004-03-11T17:37:16.895244+01:00",
-  "Created": "2014-04-22T17:37:16.895244+02:00",
-  "StartCount": 81,
-  "DatabaseSerialNumber": "429175",
-  "Context": "voluptatem",
-  "Result": "dolorum",
+  "LastStarted": "2002-11-10T11:22:37.4461725+01:00",
+  "Created": "2018-08-30T11:22:37.4461725+02:00",
+  "StartCount": 490,
+  "DatabaseSerialNumber": "1557530",
+  "Context": "vero",
+  "Result": "laudantium",
   "State": "All",
-  "Description": "Mandatory multi-tasking leverage",
-  "Response": "facilis",
-  "Request": "quidem",
-  "ProgressDescription": "Realigned homogeneous solution",
-  "ProgressPercent": 326,
-  "FileName": "Lind-Altenwerth",
+  "Description": "Multi-channelled eco-centric monitoring",
+  "Response": "nemo",
+  "Request": "deserunt",
+  "ProgressDescription": "Expanded assymetric time-frame",
+  "ProgressPercent": 305,
+  "FileName": "Gulgowski, Schinner and Koss",
+  "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 292
     }
   }
 }

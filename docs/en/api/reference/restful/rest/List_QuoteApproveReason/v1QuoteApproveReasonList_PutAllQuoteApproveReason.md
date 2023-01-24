@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 759,
-    "Name": "Champlin Group",
-    "Tooltip": "cum",
-    "Deleted": true,
-    "UdListDefinitionId": 255,
-    "Rank": 341
+    "Id": 477,
+    "Name": "Medhurst, Kub and Heller",
+    "Tooltip": "optio",
+    "Deleted": false,
+    "UdListDefinitionId": 444,
+    "Rank": 993
   },
   {
-    "Id": 759,
-    "Name": "Champlin Group",
-    "Tooltip": "cum",
-    "Deleted": true,
-    "UdListDefinitionId": 255,
-    "Rank": 341
+    "Id": 477,
+    "Name": "Medhurst, Kub and Heller",
+    "Tooltip": "optio",
+    "Deleted": false,
+    "UdListDefinitionId": 444,
+    "Rank": 993
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 116,
-    "Name": "Halvorson Inc and Sons",
-    "Tooltip": "et",
+    "Id": 450,
+    "Name": "Feest-Dicki",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 798,
-    "Rank": 57,
+    "UdListDefinitionId": 346,
+    "Rank": 550,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldLength": 93
       }
     }
   }

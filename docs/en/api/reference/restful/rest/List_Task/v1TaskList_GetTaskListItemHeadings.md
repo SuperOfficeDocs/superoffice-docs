@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 727,
-    "Name": "Weissnat LLC",
-    "Tooltip": "cum",
+    "HeadingId": 342,
+    "Name": "Conroy, Kilback and Gulgowski",
+    "Tooltip": "blanditiis",
     "Deleted": false,
-    "Rank": 670,
-    "UdListDefinitionId": 805,
+    "Rank": 110,
+    "UdListDefinitionId": 826,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 115
+        "FieldType": "System.Int32",
+        "FieldLength": 994
       }
     }
   }

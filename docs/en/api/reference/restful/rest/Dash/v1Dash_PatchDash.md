@@ -119,18 +119,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nulla",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nulla",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -143,37 +143,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 596,
-  "UniqueId": "voluptas",
-  "Name": "Morar-Mann",
-  "Description": "Seamless system-worthy productivity",
-  "AssociateId": 506,
-  "Columns": 189,
+  "DashboardId": 306,
+  "UniqueId": "saepe",
+  "Name": "Kunze, Runolfsson and Bartoletti",
+  "Description": "Stand-alone mobile Graphical User Interface",
+  "AssociateId": 53,
+  "Columns": 96,
   "Theme": null,
-  "VisibleForAll": 159,
+  "VisibleForAll": 696,
   "VisibleForAssociates": [
-    743,
-    756
+    999,
+    867
   ],
   "VisibleForGroups": [
-    681,
-    525
+    299,
+    997
   ],
-  "PinForAll": 723,
+  "PinForAll": 529,
   "PinForAssociates": [
-    149,
-    58
+    490,
+    438
   ],
   "PinForGroups": [
-    79,
-    418
+    815,
+    382
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldType": "System.String",
+      "FieldLength": 856
     }
   },
   "_Links": {

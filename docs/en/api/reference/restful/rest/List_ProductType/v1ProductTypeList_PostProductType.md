@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 60,
-  "Name": "Kertzmann LLC",
-  "Tooltip": "voluptate",
-  "Deleted": false,
-  "UdListDefinitionId": 853,
-  "Rank": 859
+  "Id": 932,
+  "Name": "Erdman LLC",
+  "Tooltip": "eius",
+  "Deleted": true,
+  "UdListDefinitionId": 293,
+  "Rank": 582
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 247,
-  "Name": "Aufderhar-Langosh",
-  "Tooltip": "aut",
+  "Id": 925,
+  "Name": "Metz-Kautzer",
+  "Tooltip": "quidem",
   "Deleted": true,
-  "UdListDefinitionId": 461,
-  "Rank": 13,
+  "UdListDefinitionId": 200,
+  "Rank": 226,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldLength": 167
     }
   }
 }

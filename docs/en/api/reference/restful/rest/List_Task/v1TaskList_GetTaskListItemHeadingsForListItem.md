@@ -30,7 +30,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Ullrich-Yost",
-    "ToolTip": "Qui esse possimus qui accusantium placeat.",
+    "Id": 20,
+    "Name": "Prosacco, Conroy and Romaguera",
+    "ToolTip": "Minima maiores et illum.",
     "Deleted": false,
-    "Rank": 36,
-    "Type": "voluptatibus",
-    "ColorBlock": 532,
-    "IconHint": "libero",
-    "Selected": false,
-    "LastChanged": "2015-09-16T17:37:40.3944705+02:00",
+    "Rank": 28,
+    "Type": "error",
+    "ColorBlock": 281,
+    "IconHint": "fugit",
+    "Selected": true,
+    "LastChanged": "2003-01-11T11:22:46.2253576+01:00",
     "ChildItems": [
       {
-        "Id": 302,
-        "Name": "Hermiston-Hirthe",
-        "ToolTip": "Temporibus expedita.",
-        "Deleted": true,
-        "Rank": 390,
-        "Type": "reprehenderit",
-        "ColorBlock": 453,
-        "IconHint": "dolore",
-        "Selected": false,
-        "LastChanged": "2008-01-11T17:37:40.3944705+01:00",
+        "Id": 591,
+        "Name": "Tremblay Inc and Sons",
+        "ToolTip": "Sit sed sunt.",
+        "Deleted": false,
+        "Rank": 465,
+        "Type": "voluptate",
+        "ColorBlock": 904,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2022-03-16T11:22:46.2253576+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "amet",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Maximilian White",
+        "FullName": "Elza Moore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldLength": 954
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "expedita",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Josiane Dietrich",
+    "FullName": "Dr. Katharina Davion Gulgowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 492
+        "FieldLength": 147
       }
     }
   }

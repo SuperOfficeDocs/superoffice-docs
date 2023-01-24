@@ -97,29 +97,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 328,
-    "UserName": "Hilpert, Herzog and Dicki",
-    "PersonId": 900,
-    "Rank": 297,
-    "Tooltip": "saepe",
-    "UserGroupId": 504,
-    "EjUserId": 513,
+    "UserInfoId": 885,
+    "UserName": "Huel, Leuschke and Schuppe",
+    "PersonId": 464,
+    "Rank": 48,
+    "Tooltip": "accusantium",
+    "UserGroupId": 983,
+    "EjUserId": 812,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "dolor",
-      "officiis"
+      "velit",
+      "soluta"
     ],
     "CanLogon": false,
-    "RoleName": "Schulist, Mosciski and Nikolaus",
-    "RoleTooltip": "molestiae",
-    "UserGroupName": "Osinski LLC",
-    "UserGroupTooltip": "vero",
+    "RoleName": "Shields LLC",
+    "RoleTooltip": "id",
+    "UserGroupName": "Hamill LLC",
+    "UserGroupTooltip": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldLength": 28
       }
     }
   }

@@ -25,7 +25,7 @@ Gets a Rating object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetRating?ratingId=538
+POST /api/v1/Agents/List/GetRating?ratingId=481
 POST /api/v1/Agents/List/GetRating?$select=name,department,category/id
 ```
 
@@ -78,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 44,
-  "Value": "nesciunt",
-  "Tooltip": "aspernatur",
+  "Id": 512,
+  "Value": "dolorum",
+  "Tooltip": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldType": "System.String",
+      "FieldLength": 435
     }
   }
 }

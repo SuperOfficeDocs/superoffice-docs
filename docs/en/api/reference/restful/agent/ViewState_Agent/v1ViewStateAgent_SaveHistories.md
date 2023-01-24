@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Hahn-Schultz",
+  "HistoryName": "Lebsack-O'Hara",
   "History": [
     {
-      "Rank": 836,
-      "Id": 661,
-      "HistoryName": "Bartell LLC",
-      "HistoryId": 934,
-      "AssociateId": 703,
-      "Name": "Upton Inc and Sons",
-      "ItemInfo": "maxime"
+      "Rank": 562,
+      "Id": 958,
+      "HistoryName": "Greenholt, Morissette and Rice",
+      "HistoryId": 940,
+      "AssociateId": 432,
+      "Name": "Kihn, Schuster and Von",
+      "ItemInfo": "voluptas"
     }
   ]
 }
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 871,
-    "Id": 382,
-    "HistoryName": "Koelpin-Grimes",
-    "HistoryId": 330,
-    "AssociateId": 974,
-    "Name": "Wuckert Inc and Sons",
-    "ItemInfo": "laboriosam",
+    "Rank": 917,
+    "Id": 908,
+    "HistoryName": "Crist Group",
+    "HistoryId": 331,
+    "AssociateId": 483,
+    "Name": "Hammes, Wolf and Schamberger",
+    "ItemInfo": "dignissimos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldType": "System.String",
+        "FieldLength": 18
       }
     }
   }

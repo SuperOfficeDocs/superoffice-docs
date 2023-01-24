@@ -71,19 +71,19 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "et",
+      "RawValue": "cumque",
       "Specification": null,
-      "DisplayValue": "expedita",
-      "DisplayTooltip": "eos",
+      "DisplayValue": "et",
+      "DisplayTooltip": "tenetur",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 598,
-      "PrefDescId": 167,
-      "TableName": "Oberbrunner Inc and Sons",
-      "UserPreferenceId": 430
+      "TargetId": 486,
+      "PrefDescId": 605,
+      "TableName": "Bogan, Prohaska and Langosh",
+      "UserPreferenceId": 274
     }
   ],
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 

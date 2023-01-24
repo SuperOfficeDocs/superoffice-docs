@@ -103,7 +103,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 542,
+  "Id": 473,
   "EmbedImages": "Inline"
 }
 ```
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 677,
+  "EjMessageId": 884,
   "Ticket": null,
-  "CreatedAt": "1997-07-23T17:37:19.4749791+02:00",
+  "CreatedAt": "2016-12-19T11:22:39.5550468+01:00",
   "CreatedBy": null,
-  "Author": "quisquam",
+  "Author": "deleniti",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "perferendis",
-  "TimeSpent": 624,
-  "Body": "id",
-  "HtmlBody": "cum",
-  "EmailHeader": "asia@feest.us",
-  "DebugInfo": "totam",
-  "MailSorter": "neque",
+  "MessageId": "et",
+  "TimeSpent": 632,
+  "Body": "labore",
+  "HtmlBody": "dolorem",
+  "EmailHeader": "woodrow.yost@wisoky.ca",
+  "DebugInfo": "et",
+  "MailSorter": "ut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 552,
-      "Name": "Emmerich, Raynor and Herzog",
-      "Value": "ad",
+      "Id": 31,
+      "Name": "Schaden LLC",
+      "Value": "vel",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,47 +144,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 670
         }
       }
     }
   ],
   "Important": false,
-  "Language": "non",
-  "Sentiment": 231,
-  "SentimentConfidence": 851,
+  "Language": "quibusdam",
+  "Sentiment": 94,
+  "SentimentConfidence": 435,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 20,
-      "Name": "Murazik Inc and Sons",
-      "ContentType": "ipsam",
-      "AttSize": 548,
+      "AttachmentId": 357,
+      "Name": "Volkman Group",
+      "ContentType": "aspernatur",
+      "AttSize": 836,
       "InlineImage": false,
-      "ContentId": "voluptatem",
+      "ContentId": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 255
+          "FieldLength": 28
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "maxime"
+    "ExtraFields1": "amet",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "eaque",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "fuga",
+    "CustomFields2": "sit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 804
+      "FieldType": "System.Int32",
+      "FieldLength": 44
     }
   }
 }

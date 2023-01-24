@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,19 +77,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 43,
-  "Name": "Wolff-Towne",
+  "TicketStatusId": 153,
+  "Name": "Feest Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": false,
-  "UsedInQueue": false,
+  "NoEmailReopen": false,
+  "IsDefault": true,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldLength": 589
     }
   }
 }

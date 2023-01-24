@@ -88,7 +88,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "et",
+  "UniqueIdentifier": "omnis",
   "Crmscript": null
 }
 ```
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "fuga",
-  "Name": "Mante, Runolfsdottir and Stiedemann",
-  "Description": "Progressive 24/7 access",
-  "IncludeId": "dolores",
-  "Source": "sit",
-  "Registered": "2001-04-08T17:37:17.3282452+02:00",
-  "RegisteredBy": "et",
-  "Updated": "2008-08-29T17:37:17.3282452+02:00",
-  "UpdatedBy": "voluptas",
-  "Path": "earum",
+  "UniqueIdentifier": "beatae",
+  "Name": "Effertz, Gislason and Stiedemann",
+  "Description": "Universal object-oriented core",
+  "IncludeId": "ea",
+  "Source": "pariatur",
+  "Registered": "2001-04-21T11:22:37.7742144+02:00",
+  "RegisteredBy": "odit",
+  "Updated": "2003-03-17T11:22:37.7742144+01:00",
+  "UpdatedBy": "molestias",
+  "Path": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 657
+      "FieldType": "System.Int32",
+      "FieldLength": 150
     }
   }
 }

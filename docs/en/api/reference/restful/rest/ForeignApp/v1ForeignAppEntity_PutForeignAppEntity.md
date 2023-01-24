@@ -91,27 +91,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 524,
-  "Name": "Abbott-Hane",
-  "CreatedDate": "2006-04-20T17:37:38.619865+02:00",
-  "UpdatedDate": "2001-10-18T17:37:38.619865+02:00",
+  "ForeignAppId": 649,
+  "Name": "Torphy-Gutkowski",
+  "CreatedDate": "2018-06-13T11:22:44.8662479+02:00",
+  "UpdatedDate": "2017-08-28T11:22:44.8662479+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 991,
-      "Name": "Wilkinson-Kunze",
-      "CreatedDate": "2009-05-25T17:37:38.6208653+02:00",
-      "UpdatedDate": "2004-07-28T17:37:38.6208653+02:00",
-      "AssociateFullName": "Jeffrey Feeney",
-      "CreatedBy": "eos",
-      "UpdatedBy": "mollitia",
-      "DeviceIdentifier": "sed",
-      "ForeignAppId": 686
+      "ForeignDeviceId": 195,
+      "Name": "Kuvalis Group",
+      "CreatedDate": "2016-02-15T11:22:44.8662479+01:00",
+      "UpdatedDate": "1999-11-01T11:22:44.8662479+01:00",
+      "AssociateFullName": "Mr. Percy Teresa Mann",
+      "CreatedBy": "laudantium",
+      "UpdatedBy": "incidunt",
+      "DeviceIdentifier": "possimus",
+      "ForeignAppId": 429
     }
   ]
 }
@@ -124,29 +124,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 157,
-  "Name": "Ferry LLC",
-  "CreatedDate": "1998-12-07T17:37:38.6218657+01:00",
-  "UpdatedDate": "1999-06-09T17:37:38.6218657+02:00",
+  "ForeignAppId": 301,
+  "Name": "Upton, Walter and Jacobson",
+  "CreatedDate": "2010-09-21T11:22:44.8662479+02:00",
+  "UpdatedDate": "2001-04-01T11:22:44.8662479+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 454,
-      "Name": "Stamm-Lockman",
-      "CreatedDate": "2018-02-18T17:37:38.6228653+01:00",
-      "UpdatedDate": "2003-11-05T17:37:38.6228653+01:00",
-      "AssociateFullName": "Kristian Jones II",
-      "CreatedBy": "exercitationem",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 306,
+      "ForeignDeviceId": 514,
+      "Name": "Nikolaus Inc and Sons",
+      "CreatedDate": "2007-01-31T11:22:44.8662479+01:00",
+      "UpdatedDate": "2016-12-27T11:22:44.8662479+01:00",
+      "AssociateFullName": "Dane Herzog",
+      "CreatedBy": "veritatis",
+      "UpdatedBy": "non",
+      "DeviceIdentifier": "deserunt",
+      "ForeignAppId": 592,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 625
+          "FieldType": "System.String",
+          "FieldLength": 401
         }
       }
     }
@@ -156,12 +156,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 326
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

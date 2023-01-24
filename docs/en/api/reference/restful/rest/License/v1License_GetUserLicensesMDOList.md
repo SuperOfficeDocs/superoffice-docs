@@ -68,7 +68,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,56 +79,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Name": "Friesen LLC",
-    "ToolTip": "Dolor dolores facilis beatae voluptates molestias.",
+    "Id": 263,
+    "Name": "Jenkins-Daugherty",
+    "ToolTip": "Quo officia commodi aut ut et odio.",
     "Deleted": false,
-    "Rank": 18,
-    "Type": "in",
-    "ColorBlock": 47,
-    "IconHint": "sint",
+    "Rank": 774,
+    "Type": "est",
+    "ColorBlock": 351,
+    "IconHint": "natus",
     "Selected": false,
-    "LastChanged": "2003-06-22T17:37:39.4484374+02:00",
+    "LastChanged": "1998-06-29T11:22:45.412996+02:00",
     "ChildItems": [
       {
-        "Id": 65,
-        "Name": "Rohan Group",
-        "ToolTip": "Occaecati quae excepturi.",
+        "Id": 476,
+        "Name": "DuBuque Group",
+        "ToolTip": "Aut hic quaerat molestias dolorem error.",
         "Deleted": false,
-        "Rank": 702,
-        "Type": "eum",
-        "ColorBlock": 89,
-        "IconHint": "repellendus",
+        "Rank": 947,
+        "Type": "nobis",
+        "ColorBlock": 65,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2016-01-11T17:37:39.4484374+01:00",
+        "LastChanged": "2013-09-23T11:22:45.412996+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "minima",
-        "Hidden": true,
-        "FullName": "Beatrice Shields",
+        "ExtraInfo": "vel",
+        "StyleHint": "animi",
+        "Hidden": false,
+        "FullName": "Dr. Amie Kacey Stehr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 705
+            "FieldLength": 407
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "minus",
+    "ExtraInfo": "iure",
+    "StyleHint": "unde",
     "Hidden": true,
-    "FullName": "Mrs. Skye Beier",
+    "FullName": "Prof. Roel Florencio O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldLength": 490
       }
     }
   }

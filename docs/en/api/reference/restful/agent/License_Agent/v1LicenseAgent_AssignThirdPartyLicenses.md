@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 440,
-  "ModuleOwner": "est",
+  "AssociateId": 484,
+  "ModuleOwner": "tempore",
   "ModuleLicenseNames": [
-    "Schmitt Group",
-    "Stiedemann, McDermott and Pagac"
+    "Barton-Pagac",
+    "Johns LLC"
   ]
 }
 ```
@@ -109,25 +109,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 672,
-    "Tooltip": "omnis",
+    "Total": 265,
+    "Tooltip": "enim",
     "CanAssign": false,
-    "Free": 290,
-    "InUse": 107,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 793,
-    "Name": "Thompson-Prohaska",
-    "Description": "Face to face bifurcated ability",
-    "PrerequisiteModuleName": "Cummerata, Boyle and Carroll",
-    "SortOrder": 654,
-    "ExtraFlags": 278,
+    "Free": 540,
+    "InUse": 622,
+    "IsHidden": true,
+    "Assigned": true,
+    "ModuleLicenseId": 680,
+    "Name": "Feest LLC",
+    "Description": "Multi-channelled neutral time-frame",
+    "PrerequisiteModuleName": "Schuster Inc and Sons",
+    "SortOrder": 858,
+    "ExtraFlags": 667,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldType": "System.String",
+        "FieldLength": 267
       }
     }
   }

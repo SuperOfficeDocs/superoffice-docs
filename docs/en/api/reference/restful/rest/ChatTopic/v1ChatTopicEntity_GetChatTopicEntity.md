@@ -102,7 +102,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -112,43 +112,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 588,
-  "Name": "Rodriguez Group",
-  "Description": "Programmable dedicated project",
-  "WelcomeMessage": "velit",
+  "ChatTopicId": 902,
+  "Name": "Turcotte LLC",
+  "Description": "Extended analyzing challenge",
+  "WelcomeMessage": "dignissimos",
   "Language": null,
-  "LastAccept": "2010-09-21T17:37:38.2998602+02:00",
-  "SecondsPrAccept": 606,
-  "AlertRecipient": "unde",
+  "LastAccept": "1998-08-05T11:22:44.4132819+02:00",
+  "SecondsPrAccept": 4,
+  "AlertRecipient": "alias",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "quidem",
+  "BadgeHeader": "fuga",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "possimus",
-  "WarnNewChatMinutes": 952,
-  "WarnManagerNewChatMinutes": 643,
-  "TicketEnabled": true,
+  "CustomQueueText": "ducimus",
+  "WarnNewChatMinutes": 789,
+  "WarnManagerNewChatMinutes": 495,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 57,
-  "WarnManagerChatMessageMinutes": 94,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 441,
+  "WarnManagerChatMessageMinutes": 209,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 771,
-  "OfflineFormQueueLength": 438,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "nostrum",
+  "OfflineFormTimeLimit": 279,
+  "OfflineFormQueueLength": 493,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldLength": 707
     }
   },
   "_Links": {

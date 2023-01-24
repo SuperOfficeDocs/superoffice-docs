@@ -76,16 +76,16 @@ OK
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 550,
-  "Name": "Ullrich Group",
-  "Tooltip": "adipisci",
-  "PassiveText": "molestiae",
-  "Deleted": true,
-  "Rank": 49,
+  "ReldefId": 31,
+  "Name": "Rutherford, Jacobs and Rosenbaum",
+  "Tooltip": "praesentium",
+  "PassiveText": "necessitatibus",
+  "Deleted": false,
+  "Rank": 341,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -98,12 +98,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 779,
-  "Name": "Mante-Cummings",
-  "Tooltip": "ut",
-  "PassiveText": "ex",
-  "Deleted": false,
-  "Rank": 583,
+  "ReldefId": 314,
+  "Name": "Goodwin LLC",
+  "Tooltip": "esse",
+  "PassiveText": "enim",
+  "Deleted": true,
+  "Rank": 305,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 984
     }
   }
 }

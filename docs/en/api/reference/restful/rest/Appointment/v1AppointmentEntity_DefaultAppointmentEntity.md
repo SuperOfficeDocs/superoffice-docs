@@ -110,7 +110,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -118,70 +118,70 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 17 Apr 2003 17:37:38 G4T
+Last-Modified: Thu, 02 Jul 2015 11:22:44 G7T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-04-22T17:37:38.0218022+02:00",
-  "AppointmentId": 407,
-  "Description": "Customizable executive info-mediaries",
-  "StartDate": "2020-01-03T17:37:38.0218022+01:00",
-  "EndDate": "2012-09-20T17:37:38.0218022+02:00",
+  "CreatedDate": "2011-03-29T11:22:44.1789623+02:00",
+  "AppointmentId": 217,
+  "Description": "Open-source solution-oriented Graphical User Interface",
+  "StartDate": "2018-01-03T11:22:44.1789623+01:00",
+  "EndDate": "2012-03-04T11:22:44.1789623+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 830,
+  "MotherId": 381,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-04-17T17:37:38.0247972+02:00",
+  "UpdatedDate": "2015-07-02T11:22:44.1945808+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 789,
+  "ActiveLinks": 712,
   "Links": [
     {
-      "EntityName": "Mills Inc and Sons",
-      "Id": 667,
-      "Description": "Horizontal intangible implementation",
-      "ExtraInfo": "eius",
-      "LinkId": 638,
+      "EntityName": "Konopelski, Turcotte and Parker",
+      "Id": 904,
+      "Description": "User-centric assymetric pricing structure",
+      "ExtraInfo": "excepturi",
+      "LinkId": 827,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 311
+          "FieldType": "System.Int32",
+          "FieldLength": 532
         }
       }
     }
   ],
-  "AlarmLeadTime": "expedita",
+  "AlarmLeadTime": "reprehenderit",
   "HasAlarm": false,
-  "ColorIndex": 915,
-  "IsFree": true,
+  "ColorIndex": 369,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "fuga",
-  "LeadTime": "molestiae",
-  "Location": "est",
-  "RejectCounter": 899,
+  "LagTime": "eos",
+  "LeadTime": "eos",
+  "Location": "velit",
+  "RejectCounter": 705,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 896,
-      "PersonId": 885,
-      "ContactId": 313,
-      "EmailId": 964,
+      "AssociateId": 319,
+      "PersonId": 314,
+      "ContactId": 426,
+      "EmailId": 219,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 896,
-      "PersonId": 885,
-      "ContactId": 313,
-      "EmailId": 964,
+      "AssociateId": 319,
+      "PersonId": 314,
+      "ContactId": 426,
+      "EmailId": 219,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -189,58 +189,58 @@ Last-Modified: Thu, 17 Apr 2003 17:37:38 G4T
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-04-18T17:37:38.0247972+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2003-08-17T11:22:44.1945808+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 385,
+  "PreferredTZLocation": 551,
   "Sale": null,
-  "SuggestedAppointmentId": 545,
+  "SuggestedAppointmentId": 841,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nihil",
+  "CentralserviceVideomeetId": "quaerat",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1247238296"
+    "SuperOffice:1": "Mr. Summer Demarco Aufderhar I",
+    "SuperOffice:2": "Christ Prosacco"
   },
   "ExtraFields": {
-    "ExtraFields1": "inventore",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "voluptatibus",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "ipsa"
+    "CustomFields1": "quam",
+    "CustomFields2": "maxime"
   },
-  "PublishEventDate": "2009-07-16T17:37:38.0257974+02:00",
-  "PublishTo": "2002-01-03T17:37:38.0257974+01:00",
-  "PublishFrom": "1999-11-18T17:37:38.0257974+01:00",
+  "PublishEventDate": "2000-05-04T11:22:44.1945808+02:00",
+  "PublishTo": "2013-11-02T11:22:44.1945808+01:00",
+  "PublishFrom": "2016-05-12T11:22:44.1945808+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 453,
+      "VisibleId": 307,
       "Visibility": "All",
-      "DisplayValue": "animi",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldLength": 334
         }
       }
     },
     {
-      "VisibleId": 453,
+      "VisibleId": 307,
       "Visibility": "All",
-      "DisplayValue": "animi",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldLength": 334
         }
       }
     }
@@ -250,7 +250,7 @@ Last-Modified: Thu, 17 Apr 2003 17:37:38 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldLength": 1000
     }
   }
 }

@@ -129,14 +129,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 571,
-  "SaleId": 922,
-  "CreateNow": true,
-  "OwnerId": 75
+  "SuggestedAppointmentId": 813,
+  "SaleId": 417,
+  "CreateNow": false,
+  "OwnerId": 724
 }
 ```
 
@@ -151,122 +151,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-09-14T17:37:16.4952426+02:00",
-  "AppointmentId": 693,
-  "Description": "Universal zero defect data-warehouse",
-  "StartDate": "2014-03-27T17:37:16.4952426+01:00",
-  "EndDate": "2009-08-27T17:37:16.4952426+02:00",
+  "CreatedDate": "1998-01-05T11:22:37.1337381+01:00",
+  "AppointmentId": 892,
+  "Description": "Business-focused mission-critical pricing structure",
+  "StartDate": "2006-05-11T11:22:37.1337381+02:00",
+  "EndDate": "2008-05-23T11:22:37.1337381+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 978,
+  "MotherId": 941,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-02-13T17:37:16.4992419+01:00",
+  "UpdatedDate": "2015-04-06T11:22:37.1337381+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 597,
+  "ActiveLinks": 280,
   "Links": [
     {
-      "EntityName": "Lindgren-Larson",
-      "Id": 245,
-      "Description": "Customer-focused 3rd generation implementation",
-      "ExtraInfo": "fuga",
-      "LinkId": 489,
+      "EntityName": "Stokes-Dietrich",
+      "Id": 488,
+      "Description": "Cloned dedicated help-desk",
+      "ExtraInfo": "nihil",
+      "LinkId": 624,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 205
+          "FieldType": "System.Int32",
+          "FieldLength": 898
         }
       }
     }
   ],
   "AlarmLeadTime": "et",
-  "HasAlarm": false,
-  "ColorIndex": 850,
-  "IsFree": true,
+  "HasAlarm": true,
+  "ColorIndex": 424,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "soluta",
-  "LeadTime": "at",
-  "Location": "praesentium",
-  "RejectCounter": 471,
+  "LagTime": "voluptatibus",
+  "LeadTime": "aut",
+  "Location": "eum",
+  "RejectCounter": 414,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 772,
-      "PersonId": 304,
-      "ContactId": 425,
-      "EmailId": 483,
-      "SendEmail": true,
+      "AssociateId": 496,
+      "PersonId": 642,
+      "ContactId": 504,
+      "EmailId": 201,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 772,
-      "PersonId": 304,
-      "ContactId": 425,
-      "EmailId": 483,
-      "SendEmail": true,
+      "AssociateId": 496,
+      "PersonId": 642,
+      "ContactId": 504,
+      "EmailId": 201,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-10-27T17:37:16.4992419+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2013-04-25T11:22:37.1337381+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 738,
+  "PreferredTZLocation": 992,
   "Sale": null,
-  "SuggestedAppointmentId": 499,
+  "SuggestedAppointmentId": 4,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "at",
+  "CentralserviceVideomeetId": "vitae",
   "UserDefinedFields": {
-    "SuperOffice:1": "492009319",
-    "SuperOffice:2": "Doyle Krajcik"
+    "SuperOffice:1": "Arianna Mitchell",
+    "SuperOffice:2": "Ms. Nathan Greenholt"
   },
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "excepturi"
+    "ExtraFields1": "non",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "exercitationem",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2003-08-01T17:37:16.5012414+02:00",
-  "PublishTo": "2017-06-07T17:37:16.5012414+02:00",
-  "PublishFrom": "2011-08-10T17:37:16.5012414+02:00",
+  "PublishEventDate": "1998-04-29T11:22:37.1337381+02:00",
+  "PublishTo": "2017-12-27T11:22:37.1337381+01:00",
+  "PublishFrom": "2020-10-01T11:22:37.1337381+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 228,
+      "VisibleId": 419,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 26
         }
       }
     },
     {
-      "VisibleId": 228,
+      "VisibleId": 419,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 26
         }
       }
     }
@@ -275,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 269
+      "FieldType": "System.Int32",
+      "FieldLength": 89
     }
   }
 }

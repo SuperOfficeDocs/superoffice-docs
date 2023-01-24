@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 41,
-  "Name": "Stanton, Goodwin and Hackett",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 704,
+  "Id": 10,
+  "Name": "Kunde-D'Amore",
+  "Tooltip": "fugiat",
+  "Deleted": true,
+  "Rank": 532,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "provident",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dignissimos",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldType": "System.String",
+      "FieldLength": 274
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

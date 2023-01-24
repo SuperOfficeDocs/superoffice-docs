@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 805
+  "ErpConnectorId": 742
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "occaecati",
-    "Rank": 99,
-    "DisplayName": "Armstrong-Johns",
-    "DisplayDescription": "Decentralized tertiary knowledge base",
+    "FieldKey": "error",
+    "Rank": 250,
+    "DisplayName": "Fisher LLC",
+    "DisplayDescription": "Versatile leading edge product",
     "FieldType": "Checkbox",
-    "ListName": "Paucek Group",
-    "DefaultValue": "molestiae",
-    "MaxLength": 664,
+    "ListName": "Hoppe Inc and Sons",
+    "DefaultValue": "enim",
+    "MaxLength": 609,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 810
+        "FieldType": "System.Int32",
+        "FieldLength": 631
       }
     }
   }

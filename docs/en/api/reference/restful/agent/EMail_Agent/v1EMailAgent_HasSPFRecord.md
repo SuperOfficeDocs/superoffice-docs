@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/EMail/HasSPFRecord
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceSpf": "nesciunt",
-  "TargetDomain": "occaecati"
+  "SourceSpf": "et",
+  "TargetDomain": "quis"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

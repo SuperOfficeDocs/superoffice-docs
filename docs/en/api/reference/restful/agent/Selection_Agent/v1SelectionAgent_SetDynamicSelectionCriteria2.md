@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 665,
-  "Filter": "fuga"
+  "SelectionId": 482,
+  "Filter": "hic"
 }
 ```
 
@@ -99,29 +99,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Goyette, Hudson and Wehner",
-    "Operator": "ea",
+    "Name": "Denesik, Johns and McGlynn",
+    "Operator": "non",
     "Values": [
-      "esse",
-      "omnis"
+      "sed",
+      "accusantium"
     ],
     "DisplayValues": [
-      "earum",
-      "est"
+      "aut",
+      "minima"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Wisoky-Gleichner",
-        "Operator": "soluta",
+        "Name": "Casper-Doyle",
+        "Operator": "eligendi",
         "Values": [
           "et",
-          "molestiae"
+          "corrupti"
         ],
         "DisplayValues": [
-          "mollitia",
-          "hic"
+          "ut",
+          "ut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -129,14 +129,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 5,
+        "InterParenthesis": 320,
         "InterOperator": "And",
-        "UniqueHash": 771
+        "UniqueHash": 122
       }
     ],
-    "InterParenthesis": 480,
+    "InterParenthesis": 54,
     "InterOperator": "And",
-    "UniqueHash": 102
+    "UniqueHash": 384
   }
 ]
 ```

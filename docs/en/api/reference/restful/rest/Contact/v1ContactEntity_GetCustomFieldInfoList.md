@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bechtelar Group",
-    "DisplayName": "Sporer-Walter",
-    "Description": "Profound foreground algorithm",
-    "ShortLabel": "dolor",
+    "FieldName": "Beer Group",
+    "DisplayName": "Reichert-McGlynn",
+    "Description": "Up-sized hybrid hardware",
+    "ShortLabel": "labore",
     "HideLabel": true,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 655,
-    "TemplateVariableName": "Pacocha, Durgan and Jerde"
+    "IsExternal": true,
+    "Rank": 338,
+    "TemplateVariableName": "O'Connell, O'Connell and Quigley"
   }
 ]
 ```

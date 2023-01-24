@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Kilback-Champlin",
-  "Tooltip": "esse",
+  "Id": 227,
+  "Name": "Stiedemann-Morar",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 119,
-  "IsCustomList": true,
+  "Rank": 899,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "veritatis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldLength": 284
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

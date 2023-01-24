@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "quia",
-    "consectetur"
+    "totam",
+    "iure"
   ],
-  "CurrentClientTime": "2007-03-15T17:37:18.5672416+01:00"
+  "CurrentClientTime": "2005-01-16T11:22:38.7739723+01:00"
 }
 ```
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "quia",
-    "sit"
+    "voluptatem",
+    "ab"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 222,
-  "NotificationsCount": 169,
+  "OverdueSalesCount": 865,
+  "NotificationsCount": 220,
   "SystemWebPanels": [
     {
-      "WebPanelId": 320,
-      "Name": "Klocko-Wolf",
-      "Tooltip": "rerum",
+      "WebPanelId": 459,
+      "Name": "Johnston-Cronin",
+      "Tooltip": "ratione",
       "Deleted": false,
-      "Rank": 30,
+      "Rank": 757,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
       "OnSatellite": false,
       "OnTravel": false,
-      "OnSalesMarketingWeb": false,
-      "OnSalesMarketingPocket": true,
+      "OnSalesMarketingWeb": true,
+      "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
       "ShowInToolBar": true,
-      "ShowInAddressBar": false,
+      "ShowInAddressBar": true,
       "ShowInStatusBar": false,
-      "WindowName": "Gutmann LLC",
+      "WindowName": "Schroeder LLC",
       "Url": "http://www.example.com/",
-      "ProgId": "a",
-      "Icon": 180,
-      "AlwaysReloadOnShow": false,
+      "ProgId": "nemo",
+      "Icon": 980,
+      "AlwaysReloadOnShow": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldLength": 74
         }
       }
     }
@@ -144,34 +144,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "modi",
+      "RawValue": "unde",
       "Specification": null,
-      "DisplayValue": "adipisci",
-      "DisplayTooltip": "a",
+      "DisplayValue": "dolor",
+      "DisplayTooltip": "accusantium",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 790,
-      "PrefDescId": 559,
-      "TableName": "Schultz, Hagenes and Douglas",
-      "UserPreferenceId": 123,
+      "TargetId": 47,
+      "PrefDescId": 525,
+      "TableName": "West, Kub and Jerde",
+      "UserPreferenceId": 861,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 481
+          "FieldLength": 862
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": true,
-  "CustomData": "autem",
+  "IsPushNotificationEnabled": false,
+  "CustomData": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldLength": 613
     }
   }
 }

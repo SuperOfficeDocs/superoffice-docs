@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,53 +109,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 106,
-    "Name": "Lindgren-Kunde",
-    "Tooltip": "atque",
-    "Rank": 990,
+    "SaleTypeId": 908,
+    "Name": "Bradtke LLC",
+    "Tooltip": "laudantium",
+    "Rank": 874,
     "DurationUnit": "Century",
-    "SaleDuration": 470,
-    "SaleTypeCatId": 464,
+    "SaleDuration": 184,
+    "SaleTypeCatId": 220,
     "Deleted": false,
-    "HasGuide": true,
+    "HasGuide": false,
     "HasStakeholders": true,
     "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 305,
-    "QuoteLinesTemplate": 633,
-    "ConfirmationLinesTemplate": 698,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 468,
+    "QuoteLinesTemplate": 732,
+    "ConfirmationLinesTemplate": 290,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 807,
-    "MinEarningPercent": 807,
-    "GroupQuoteLinesBy": 633,
-    "SortGroupLinesBy": 750,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 679,
+    "MinEarningPercent": 943,
+    "GroupQuoteLinesBy": 318,
+    "SortGroupLinesBy": 977,
     "Stages": [
       {
-        "Id": 663,
-        "Name": "Schowalter, Rolfson and Considine",
-        "ToolTip": "Commodi fugit.",
-        "Deleted": false,
-        "Rank": 579,
-        "Type": "placeat",
-        "ColorBlock": 187,
-        "IconHint": "vel",
+        "Id": 896,
+        "Name": "Aufderhar-Kuvalis",
+        "ToolTip": "Ea similique.",
+        "Deleted": true,
+        "Rank": 711,
+        "Type": "officiis",
+        "ColorBlock": 270,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2014-11-04T17:37:18.1822417+01:00",
+        "LastChanged": "2001-03-11T11:22:38.445931+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "ab",
-        "Hidden": true,
-        "FullName": "Berta Jacobs",
+        "ExtraInfo": "et",
+        "StyleHint": "aliquid",
+        "Hidden": false,
+        "FullName": "Dr. Suzanne Estel Kertzmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 620
+            "FieldLength": 881
           }
         }
       }
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldType": "System.String",
+        "FieldLength": 439
       }
     }
   }

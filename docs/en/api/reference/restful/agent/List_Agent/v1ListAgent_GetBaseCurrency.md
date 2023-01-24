@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 401,
-  "Name": "Bahringer LLC",
-  "Tooltip": "velit",
-  "Rank": 87,
-  "Rate": 37.608,
-  "Units": 30973.322,
+  "CurrencyId": 83,
+  "Name": "Moen-Rodriguez",
+  "Tooltip": "quas",
+  "Rank": 979,
+  "Rate": 29845.082,
+  "Units": 9123.074,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldLength": 157
     }
   }
 }

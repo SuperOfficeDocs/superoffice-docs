@@ -102,30 +102,30 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 778,
-  "Name": "Gutkowski, Schimmel and Daugherty",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 704,
+  "WebPanelId": 194,
+  "Name": "Ratke-Leannon",
+  "Tooltip": "impedit",
+  "Deleted": false,
+  "Rank": 595,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Quitzon-Raynor",
+  "WindowName": "Wilderman, Dickinson and Crist",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 515,
+  "ProgId": "consequatur",
+  "Icon": 290,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 692,
-  "Name": "Bernhard, Greenholt and Lang",
-  "Tooltip": "occaecati",
+  "WebPanelId": 293,
+  "Name": "Hessel Group",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 868,
+  "Rank": 373,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Gulgowski Group",
+  "WindowName": "Lynch-Harber",
   "Url": "http://www.example.com/",
-  "ProgId": "consequuntur",
-  "Icon": 841,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "et",
+  "Icon": 432,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldLength": 993
     }
   }
 }

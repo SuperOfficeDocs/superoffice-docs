@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Bogisich, Paucek and Ratke",
-    "ToolTip": "Assumenda voluptatem similique neque at.",
+    "Id": 858,
+    "Name": "Aufderhar-Grimes",
+    "ToolTip": "Numquam sit.",
     "Deleted": false,
-    "Rank": 302,
-    "Type": "et",
-    "ColorBlock": 195,
-    "IconHint": "optio",
+    "Rank": 819,
+    "Type": "possimus",
+    "ColorBlock": 222,
+    "IconHint": "cum",
     "Selected": false,
-    "LastChanged": "1995-11-03T17:37:39.6334317+01:00",
+    "LastChanged": "1997-04-06T11:22:45.5692589+02:00",
     "ChildItems": [
       {
-        "Id": 128,
-        "Name": "Muller-Howell",
-        "ToolTip": "Sed sit rerum.",
-        "Deleted": false,
-        "Rank": 940,
-        "Type": "modi",
-        "ColorBlock": 900,
-        "IconHint": "aut",
+        "Id": 772,
+        "Name": "White Group",
+        "ToolTip": "Ex distinctio sed consequuntur.",
+        "Deleted": true,
+        "Rank": 110,
+        "Type": "odit",
+        "ColorBlock": 613,
+        "IconHint": "molestias",
         "Selected": true,
-        "LastChanged": "2012-04-23T17:37:39.6334317+02:00",
+        "LastChanged": "2021-07-04T11:22:45.5692589+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "deleniti",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "tempora",
         "Hidden": false,
-        "FullName": "Mr. Randal Cedrick Kilback III",
+        "FullName": "Mr. Sedrick Greenholt III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 919
+            "FieldLength": 693
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "nisi",
+    "ExtraInfo": "beatae",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Mr. Kristin Catalina Hudson V",
+    "FullName": "Vincent Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldLength": 926
       }
     }
   }

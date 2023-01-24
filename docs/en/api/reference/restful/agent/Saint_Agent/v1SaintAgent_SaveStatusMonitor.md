@@ -90,25 +90,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 629,
-  "Rank": 321,
-  "DefaultTask": 475,
-  "DefaultTaskText": "aut",
-  "IsVisual": false,
-  "LastGenerated": "1996-07-25T17:37:18.8132409+02:00",
-  "Description": "Ameliorated coherent groupware",
-  "Name": "Witting-Powlowski",
-  "StatusMonitorId": 461,
-  "PictureId": 544,
+  "OwnerTable": 740,
+  "Rank": 440,
+  "DefaultTask": 397,
+  "DefaultTaskText": "occaecati",
+  "IsVisual": true,
+  "LastGenerated": "1998-01-24T11:22:38.9770545+01:00",
+  "Description": "Horizontal 5th generation approach",
+  "Name": "Bashirian-Wisoky",
+  "StatusMonitorId": 62,
+  "PictureId": 915,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 377,
-  "NumNeedUpdate": 843,
-  "GenerationStart": "2007-04-03T17:37:18.8132409+02:00"
+  "Deleted": true,
+  "NumMatches": 955,
+  "NumNeedUpdate": 199,
+  "GenerationStart": "1998-06-24T11:22:38.9770545+02:00"
 }
 ```
 
@@ -119,27 +119,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 960,
-  "Rank": 188,
-  "DefaultTask": 590,
-  "DefaultTaskText": "dolorem",
+  "OwnerTable": 601,
+  "Rank": 525,
+  "DefaultTask": 817,
+  "DefaultTaskText": "ipsum",
   "IsVisual": false,
-  "LastGenerated": "2016-03-15T17:37:18.8132409+01:00",
-  "Description": "Reduced client-driven application",
-  "Name": "Zieme, Connelly and Hirthe",
-  "StatusMonitorId": 34,
-  "PictureId": 113,
-  "NeedsUpdate": true,
+  "LastGenerated": "1997-04-11T11:22:38.9770545+02:00",
+  "Description": "Total optimizing leverage",
+  "Name": "Robel, Ernser and Reichel",
+  "StatusMonitorId": 252,
+  "PictureId": 978,
+  "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 987,
-  "NumNeedUpdate": 129,
-  "GenerationStart": "2000-09-21T17:37:18.8132409+02:00",
+  "NumMatches": 701,
+  "NumNeedUpdate": 758,
+  "GenerationStart": "2019-05-31T11:22:38.9770545+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldType": "System.String",
+      "FieldLength": 850
     }
   }
 }

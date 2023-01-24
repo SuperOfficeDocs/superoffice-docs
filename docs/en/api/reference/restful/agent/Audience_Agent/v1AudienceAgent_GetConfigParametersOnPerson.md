@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 662
+  "PersonId": 929
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 808,
-    "Name": "Pagac-Rohan",
-    "Value": "autem",
-    "CreatedDate": "2016-10-15T17:37:16.8852414+02:00",
-    "UpdatedDate": "2020-04-16T17:37:16.8852414+02:00",
-    "CreatedBy": "impedit",
-    "UpdatedBy": "ut",
+    "AudienceLayoutId": 413,
+    "Name": "Gorczany, Predovic and Larkin",
+    "Value": "similique",
+    "CreatedDate": "2006-03-26T11:22:37.4304911+02:00",
+    "UpdatedDate": "1996-08-28T11:22:37.4304911+02:00",
+    "CreatedBy": "porro",
+    "UpdatedBy": "a",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldType": "System.String",
+        "FieldLength": 907
       }
     }
   }

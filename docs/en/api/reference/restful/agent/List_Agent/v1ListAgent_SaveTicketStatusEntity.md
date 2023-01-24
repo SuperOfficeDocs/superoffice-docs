@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/List/SaveTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 614,
-  "Name": "Ebert Inc and Sons",
+  "TicketStatusId": 583,
+  "Name": "Swaniawski, Keebler and Osinski",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 758,
-  "Name": "Brekke, Wilderman and Schamberger",
+  "TicketStatusId": 902,
+  "Name": "Larkin, Harris and Dare",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
-  "UsedInQueue": false,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 668
     }
   }
 }

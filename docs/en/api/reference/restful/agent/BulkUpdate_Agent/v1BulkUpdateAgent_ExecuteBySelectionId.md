@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
+      "CanSupportMultiUse": true,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
-      "IsActive": false,
-      "Key": "impedit",
-      "ValueType": "quaerat",
+      "DefaultShowInSelector": true,
+      "IsActive": true,
+      "Key": "qui",
+      "ValueType": "velit",
       "Mandatory": false,
-      "EncodedDisplayName": "Pacocha Inc and Sons",
-      "EncodedDisplayDescription": "Quality-focused modular parallelism",
-      "IconHint": "omnis",
+      "EncodedDisplayName": "O'Hara Group",
+      "EncodedDisplayDescription": "Re-contextualized background focus group",
+      "IconHint": "maiores",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "veniam",
-      "EncodedDataCaptionDescription": "Expanded exuding parallelism",
-      "CurrentOperationType": "et",
+      "EncodedDataCaption": "recusandae",
+      "EncodedDataCaptionDescription": "Cross-platform assymetric protocol",
+      "CurrentOperationType": "sint",
       "Values": [
-        "maxime",
-        "similique"
+        "et",
+        "quod"
       ],
       "DisplayValues": [
-        "in",
-        "et"
+        "quo",
+        "natus"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Cummerata, Bradtke and Kerluke",
-  "Context": "odio",
-  "SelectionId": 920,
+  "TableName": "Franecki Inc and Sons",
+  "Context": "debitis",
+  "SelectionId": 513,
   "IsShadow": false
 }
 ```
@@ -121,5 +121,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-599
+293
 ```

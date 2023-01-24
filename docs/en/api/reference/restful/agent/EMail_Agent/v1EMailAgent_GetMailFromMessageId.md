@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "nostrum"
+  "MessageId": "quae"
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 935,
-      "ContactName": "Von-Bednar",
-      "PersonId": 786,
-      "PersonName": "Schaden-Hamill",
-      "AssociateId": 804,
-      "Address": "laborum",
-      "EmailId": 11,
+      "ContactId": 386,
+      "ContactName": "Moen, Jaskolski and Gleason",
+      "PersonId": 42,
+      "PersonName": "Leannon-Kihn",
+      "AssociateId": 225,
+      "Address": "velit",
+      "EmailId": 575,
       "DuplicatePersonIds": [
-        130,
-        172
+        749,
+        355
       ],
-      "Name": "Berge-Okuneva",
+      "Name": "Goyette Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 470
+          "FieldType": "System.Int32",
+          "FieldLength": 504
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 644,
-      "ContactName": "Abernathy-Jast",
-      "PersonId": 863,
-      "PersonName": "Bergstrom, D'Amore and Metz",
-      "AssociateId": 150,
-      "Address": "necessitatibus",
-      "EmailId": 223,
+      "ContactId": 564,
+      "ContactName": "Mohr Group",
+      "PersonId": 709,
+      "PersonName": "Armstrong Group",
+      "AssociateId": 734,
+      "Address": "esse",
+      "EmailId": 942,
       "DuplicatePersonIds": [
-        27,
-        320
+        455,
+        843
       ],
-      "Name": "Goyette LLC",
+      "Name": "Quitzon, Ledner and Watsica",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldLength": 795
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 862,
-      "ContactName": "Kozey LLC",
-      "PersonId": 191,
-      "PersonName": "Veum, Heathcote and Boyle",
-      "AssociateId": 815,
-      "Address": "est",
-      "EmailId": 14,
+      "ContactId": 562,
+      "ContactName": "Bins, Miller and Mitchell",
+      "PersonId": 549,
+      "PersonName": "Ebert Group",
+      "AssociateId": 895,
+      "Address": "nam",
+      "EmailId": 892,
       "DuplicatePersonIds": [
-        443,
-        764
+        947,
+        430
       ],
-      "Name": "Cremin Group",
+      "Name": "Miller, Wisoky and Cormier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 729
+          "FieldLength": 934
         }
       }
     }
   ],
-  "Subject": "nam",
-  "HTMLBody": "amet",
+  "Subject": "nemo",
+  "HTMLBody": "in",
   "From": null,
-  "Sent": "2002-02-18T17:37:17.8712429+01:00",
-  "Size": 834,
+  "Sent": "2010-02-07T11:22:38.1959877+01:00",
+  "Size": 227,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "occaecati",
-  "PlainBody": "doloremque",
-  "IsSent": false,
+  "MessageID": "quo",
+  "PlainBody": "a",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 829,
+  "ServerId": 258,
   "Attachments": [
     {
-      "Description": "Cross-group national access",
-      "Filename": "illum",
-      "Size": 426,
-      "Type": "et",
-      "Encoding": "iure",
-      "Id": "reiciendis",
-      "Disposition": "molestias",
+      "Description": "Monitored non-volatile intranet",
+      "Filename": "alias",
+      "Size": 347,
+      "Type": "aut",
+      "Encoding": "officia",
+      "Id": "mollitia",
+      "Disposition": "est",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 31
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hauck Group",
+      "Name": "Boyer Inc and Sons",
       "Values": [
-        "sunt",
-        "quisquam"
+        "impedit",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldLength": 129
         }
       }
     },
     {
-      "Name": "Hauck Group",
+      "Name": "Boyer Inc and Sons",
       "Values": [
-        "sunt",
-        "quisquam"
+        "impedit",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldLength": 129
         }
       }
     }
   ],
-  "FolderName": "Gaylord Inc and Sons",
-  "EmailItemId": 31,
-  "AccountId": 417,
-  "ReceivedAt": "2022-03-20T17:37:17.8722416+01:00",
+  "FolderName": "Treutel Group",
+  "EmailItemId": 984,
+  "AccountId": 798,
+  "ReceivedAt": "2006-03-11T11:22:38.1959877+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-01-30T17:37:17.8722416+01:00",
+  "RepliedAt": "2006-03-26T11:22:38.1959877+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -263,8 +263,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldType": "System.String",
+      "FieldLength": 633
     }
   }
 }

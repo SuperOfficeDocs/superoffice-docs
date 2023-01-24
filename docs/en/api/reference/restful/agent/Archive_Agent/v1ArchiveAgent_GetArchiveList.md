@@ -103,51 +103,51 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Stark, Konopelski and Cole",
-  "ProviderName": "Hoeger Group",
+  "GuiName": "Larson-Ward",
+  "ProviderName": "Hyatt, O'Connell and Romaguera",
   "SortOrder": [
     {
-      "Name": "Price, Kuvalis and Lakin",
+      "Name": "Reinger, Stracke and Bartoletti",
       "Direction": "ASC"
     },
     {
-      "Name": "Price, Kuvalis and Lakin",
+      "Name": "Reinger, Stracke and Bartoletti",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Von, Skiles and Lockman",
-      "Operator": "autem",
+      "Name": "Bartoletti Inc and Sons",
+      "Operator": "sint",
       "Values": [
-        "non",
-        "delectus"
+        "quia",
+        "vel"
       ],
       "DisplayValues": [
         "optio",
-        "ad"
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 395,
+      "InterParenthesis": 381,
       "InterOperator": "And",
-      "UniqueHash": 658
+      "UniqueHash": 130
     }
   ],
   "Entities": [
-    "est",
-    "molestiae"
+    "corporis",
+    "ut"
   ],
-  "Page": 93,
-  "PageSize": 534
+  "Page": 525,
+  "PageSize": 97
 }
 ```
 
@@ -159,23 +159,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jerde Inc and Sons",
-    "PrimaryKey": 66,
+    "EntityName": "Macejkovic Group",
+    "PrimaryKey": 161,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "est",
-        "TooltipHint": "ut",
-        "LinkHint": "et"
+        "DisplayValue": "tempore",
+        "TooltipHint": "voluptatibus",
+        "LinkHint": "voluptates"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "quod",
+    "LinkHint": "alias",
+    "StyleHint": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 250
+        "FieldLength": 674
       }
     }
   }

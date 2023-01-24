@@ -30,7 +30,7 @@ Get a url to the document template
 
 ```http
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=False
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=nihil
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=deserunt
 ```
 
 

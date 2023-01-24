@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 257,
-  "Name": "Dickinson Inc and Sons"
+  "SelectionId": 173,
+  "Name": "Toy-Walsh"
 }
 ```
 
@@ -131,70 +131,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated bottom-line hierarchy",
-  "Postit": "incidunt",
+  "Description": "Versatile zero tolerance open system",
+  "Postit": "sit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 688,
-  "IncludePerson": 395,
-  "MemberCount": 924,
-  "Name": "Lockman-Rosenbaum",
-  "PostitTextId": 678,
-  "CreatedDate": "2000-12-12T17:37:19.202242+01:00",
-  "SelectionId": 610,
-  "SoundEx": "earum",
-  "Source": 277,
-  "TextId": 536,
-  "UpdatedDate": "2003-05-16T17:37:19.202242+02:00",
-  "UpdatedCount": 532,
-  "Visibility": 884,
+  "GroupIdx": 417,
+  "IncludePerson": 539,
+  "MemberCount": 782,
+  "Name": "Sawayn, Torp and Towne",
+  "PostitTextId": 265,
+  "CreatedDate": "2011-12-31T11:22:39.3207231+01:00",
+  "SelectionId": 926,
+  "SoundEx": "ut",
+  "Source": 551,
+  "TextId": 73,
+  "UpdatedDate": "2020-10-17T11:22:39.3207231+02:00",
+  "UpdatedCount": 408,
+  "Visibility": 381,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 74,
-  "TargetTableName": "Kuhn Group",
+  "TargetTableNumber": 119,
+  "TargetTableName": "Schroeder, Lindgren and Ritchie",
   "Completed": true,
-  "LeftSelectionId": 633,
-  "RightSelectionId": 126,
+  "LeftSelectionId": 806,
+  "RightSelectionId": 222,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Moen, Dickinson and Koss",
-  "ShadowProviderName": "Buckridge, Keeling and Hackett",
-  "ChartKey": "nam",
-  "LastLoaded": "2006-09-19T17:37:19.202242+02:00",
-  "LastLoadedBy": 450,
+  "MainProviderName": "Wintheiser, Moen and Schowalter",
+  "ShadowProviderName": "Reichert, Bartell and Heller",
+  "ChartKey": "aliquam",
+  "LastLoaded": "2013-02-01T11:22:39.3207231+01:00",
+  "LastLoadedBy": 485,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-10-13T17:37:19.2032417+02:00",
-  "LastMembershipChangeBy": 481,
+  "LastMembershipChange": "2005-04-30T11:22:39.3207231+02:00",
+  "LastMembershipChangeBy": 593,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "numquam",
-  "MemberTabHeading": "quasi",
-  "MailingsProviderName": "Kerluke Inc and Sons",
-  "DashboardTileDefinitionId": 569,
+  "MainHeading": "odio",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Collier Inc and Sons",
+  "DashboardTileDefinitionId": 430,
   "VisibleFor": [
     {
-      "VisibleId": 997,
+      "VisibleId": 309,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldLength": 767
         }
       }
     },
     {
-      "VisibleId": 997,
+      "VisibleId": 309,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldLength": 767
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldType": "System.String",
+      "FieldLength": 269
     }
   }
 }

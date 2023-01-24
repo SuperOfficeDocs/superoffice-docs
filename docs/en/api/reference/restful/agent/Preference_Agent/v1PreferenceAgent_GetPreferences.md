@@ -90,12 +90,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "placeat",
-      "Key": "perferendis"
+      "Section": "nostrum",
+      "Key": "ut"
     },
     {
-      "Section": "placeat",
-      "Key": "perferendis"
+      "Section": "nostrum",
+      "Key": "ut"
     }
   ]
 }
@@ -110,22 +110,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "consequatur",
+    "RawValue": "quia",
     "Specification": null,
-    "DisplayValue": "et",
-    "DisplayTooltip": "vel",
+    "DisplayValue": "mollitia",
+    "DisplayTooltip": "totam",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 812,
-    "PrefDescId": 689,
-    "TableName": "Pouros Group",
-    "UserPreferenceId": 789,
+    "TargetId": 884,
+    "PrefDescId": 283,
+    "TableName": "Kiehn Inc and Sons",
+    "UserPreferenceId": 74,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldLength": 123
       }
     }
   }

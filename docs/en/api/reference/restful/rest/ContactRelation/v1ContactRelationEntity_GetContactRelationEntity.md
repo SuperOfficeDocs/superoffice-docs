@@ -90,7 +90,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,38 +98,38 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 22 Oct 2000 17:37:38 G10T
+Last-Modified: Sun, 23 Oct 2016 11:22:44 G10T
 
 {
-  "SourceContactId": 281,
-  "SourcePersonId": 539,
-  "DestinationContactId": 664,
-  "DestinationPersonId": 863,
-  "RelationId": 975,
-  "Comment": "ut",
-  "RelationDefinitionId": 659,
-  "Reversed": 238,
-  "UpdatedDate": "2000-10-22T17:37:38.47386+02:00",
-  "CreatedDate": "1997-10-16T17:37:38.47386+02:00",
+  "SourceContactId": 625,
+  "SourcePersonId": 524,
+  "DestinationContactId": 320,
+  "DestinationPersonId": 570,
+  "RelationId": 655,
+  "Comment": "qui",
+  "RelationDefinitionId": 409,
+  "Reversed": 468,
+  "UpdatedDate": "2016-10-23T11:22:44.5694964+02:00",
+  "CreatedDate": "1998-05-19T11:22:44.5694964+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kris, Morar and Kiehn",
-  "SourcePersonName": "Mayert-Anderson",
-  "DestinationContactName": "Larson LLC",
-  "DestinationPersonName": "Kunze, Simonis and Champlin",
-  "ActiveText": "voluptatibus",
-  "PassiveText": "vel",
+  "SourceContactName": "Bogisich LLC",
+  "SourcePersonName": "Feil, Champlin and Friesen",
+  "DestinationContactName": "Farrell, Beer and Moore",
+  "DestinationPersonName": "Stracke Group",
+  "ActiveText": "sed",
+  "PassiveText": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldType": "System.Int32",
+      "FieldLength": 930
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

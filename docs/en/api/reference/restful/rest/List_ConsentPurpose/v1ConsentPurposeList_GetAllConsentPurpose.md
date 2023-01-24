@@ -79,25 +79,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 520,
-    "Name": "Gorczany Group",
-    "ConsentText": "nobis",
-    "FormText": "voluptas",
-    "Key": "animi",
-    "Tooltip": "totam",
-    "Active": 657,
-    "UpdatedDate": "2013-10-26T17:37:39.8895009+02:00",
+    "ConsentPurposeId": 606,
+    "Name": "Champlin, Flatley and Fisher",
+    "ConsentText": "natus",
+    "FormText": "eaque",
+    "Key": "deserunt",
+    "Tooltip": "temporibus",
+    "Active": 954,
+    "UpdatedDate": "2019-12-24T11:22:45.803528+01:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 208,
-    "PrivacyStatementDesc": "distinctio",
+    "Deleted": true,
+    "Rank": 484,
+    "PrivacyStatementDesc": "quia",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldType": "System.String",
+        "FieldLength": 928
       }
     }
   }

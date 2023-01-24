@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -92,11 +93,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -107,36 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 443,
-  "Name": "Denesik Group",
-  "AssociateId": 378,
-  "DetailsTable": 936,
-  "DetailsRecord": 359,
+  "Id": 870,
+  "Name": "McClure, Rice and Sawayn",
+  "AssociateId": 975,
+  "DetailsTable": 200,
+  "DetailsRecord": 2,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "quia",
-    "ParameterObject2": "quia"
+    "ParameterObject1": "dolor",
+    "ParameterObject2": "fuga"
   },
-  "LastStarted": "2011-04-24T17:37:18.8152413+02:00",
-  "Created": "2006-08-31T17:37:18.8152413+02:00",
-  "StartCount": 217,
-  "DatabaseSerialNumber": "122572",
-  "Context": "architecto",
-  "Result": "vero",
+  "LastStarted": "1997-01-28T11:22:38.9926773+01:00",
+  "Created": "2019-07-26T11:22:38.9926773+02:00",
+  "StartCount": 337,
+  "DatabaseSerialNumber": "1280415",
+  "Context": "at",
+  "Result": "totam",
   "State": "All",
-  "Description": "Pre-emptive asynchronous product",
-  "Response": "nihil",
-  "Request": "optio",
-  "ProgressDescription": "Streamlined fresh-thinking utilisation",
-  "ProgressPercent": 630,
-  "FileName": "Emmerich LLC",
+  "Description": "Focused tertiary paradigm",
+  "Response": "magnam",
+  "Request": "nesciunt",
+  "ProgressDescription": "Managed impactful encoding",
+  "ProgressPercent": 492,
+  "FileName": "Wunsch-Stokes",
+  "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 716
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   }
 }

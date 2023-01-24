@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 790
+  "QuoteLineId": 751
 }
 ```
 
@@ -135,88 +135,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 377,
-  "ERPQuoteLineKey": "sit",
-  "QuoteAlternativeId": 577,
-  "ERPProductKey": "pariatur",
+  "QuoteLineId": 772,
+  "ERPQuoteLineKey": "natus",
+  "QuoteAlternativeId": 875,
+  "ERPProductKey": "nihil",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 29171.272,
-  "DeliveredQuantity": 19753.602,
-  "Rank": 166,
-  "Name": "Torp LLC",
-  "Description": "Vision-oriented foreground migration",
-  "Code": "voluptatem",
-  "QuantityUnit": "sunt",
-  "PriceUnit": "voluptas",
-  "ItemNumber": "256192",
+  "Quantity": 22947.148,
+  "DeliveredQuantity": 12921.482,
+  "Rank": 102,
+  "Name": "Dietrich-Herman",
+  "Description": "User-centric secondary utilisation",
+  "Code": "praesentium",
+  "QuantityUnit": "ut",
+  "PriceUnit": "atque",
+  "ItemNumber": "1994262",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sint",
-  "ProductTypeKey": "voluptates",
-  "Supplier": "assumenda",
-  "SupplierCode": "est",
-  "Thumbnail": "reprehenderit",
-  "VATInfo": "aut",
-  "VAT": 5694.478,
-  "UnitCost": 26250.384,
-  "UnitMinimumPrice": 16641.54,
-  "UnitListPrice": 28441.05,
+  "ProductFamilyKey": "libero",
+  "ProductTypeKey": "voluptate",
+  "Supplier": "eos",
+  "SupplierCode": "ut",
+  "Thumbnail": "ratione",
+  "VATInfo": "dolores",
+  "VAT": 27641.879999999997,
+  "UnitCost": 28980.097999999998,
+  "UnitMinimumPrice": 26338.136,
+  "UnitListPrice": 3845.4179999999997,
   "ExtraInfo": [
     {
-      "Name": "Durgan LLC",
-      "Value": "quis",
+      "Name": "Rowe-Streich",
+      "Value": "autem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 52
+          "FieldLength": 181
         }
       }
     },
     {
-      "Name": "Durgan LLC",
-      "Value": "quis",
+      "Name": "Rowe-Streich",
+      "Value": "autem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 52
+          "FieldLength": 181
         }
       }
     }
   ],
-  "RawExtraInfo": "consequatur",
+  "RawExtraInfo": "nihil",
   "IsSubscription": false,
-  "SubscriptionUnit": "neque",
-  "SubscriptionQuantity": 7255.21,
-  "SubscriptionStart": "2009-06-29T17:37:18.7732406+02:00",
-  "ERPDiscountPercent": 22846.86,
-  "ERPDiscountAmount": 3757.6659999999997,
-  "DiscountPercent": 16481.706,
-  "DiscountAmount": 24150.604,
+  "SubscriptionUnit": "omnis",
+  "SubscriptionQuantity": 1021.684,
+  "SubscriptionStart": "2005-02-25T11:22:38.9458129+01:00",
+  "ERPDiscountPercent": 1595.206,
+  "ERPDiscountAmount": 31130.021999999997,
+  "DiscountPercent": 29628.836,
+  "DiscountAmount": 28400.307999999997,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 13181.604,
-  "EarningAmount": 29033.376,
-  "SubTotal": 22213.791999999998,
-  "TotalPrice": 25817.892,
-  "Rights": "dolor",
-  "Rule": "adipisci",
-  "ExtraField1": "quos",
-  "ExtraField2": "sunt",
-  "ExtraField3": "perspiciatis",
-  "ExtraField4": "doloremque",
-  "ExtraField5": "est",
+  "EarningPercent": 20073.27,
+  "EarningAmount": 10505.168,
+  "SubTotal": 9298.578,
+  "TotalPrice": 2964.764,
+  "Rights": "iusto",
+  "Rule": "officia",
+  "ExtraField1": "qui",
+  "ExtraField2": "non",
+  "ExtraField3": "omnis",
+  "ExtraField4": "eaque",
+  "ExtraField5": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 575
     }
   }
 }

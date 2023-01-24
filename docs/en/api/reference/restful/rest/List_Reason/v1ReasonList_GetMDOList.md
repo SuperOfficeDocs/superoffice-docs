@@ -25,8 +25,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=omnis
+GET /api/v1/List/Reason/MDOItems?flat=True
+GET /api/v1/List/Reason/MDOItems?query=voluptatem
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 803,
-    "Name": "Collier Inc and Sons",
-    "ToolTip": "Qui pariatur illum et quasi animi.",
+    "Id": 72,
+    "Name": "Mohr, Beier and Mertz",
+    "ToolTip": "Et neque.",
     "Deleted": false,
-    "Rank": 181,
-    "Type": "et",
+    "Rank": 379,
+    "Type": "nihil",
     "ChildItems": [
       {
-        "Id": 438,
-        "Name": "Vandervort-Bailey",
-        "ToolTip": "Qui ea reiciendis sint.",
-        "Deleted": true,
-        "Rank": 899,
-        "Type": "facere",
+        "Id": 401,
+        "Name": "Koss Inc and Sons",
+        "ToolTip": "Et enim vel qui vero.",
+        "Deleted": false,
+        "Rank": 935,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 786,
-        "ExtraInfo": "id",
-        "StyleHint": "quo",
-        "FullName": "Dortha Kuphal",
+        "IconHint": "vero",
+        "ColorBlock": 544,
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "harum",
+        "FullName": "Darryl Denesik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 967
+            "FieldLength": 718
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 3,
-    "ExtraInfo": "id",
-    "StyleHint": "incidunt",
-    "FullName": "Miss Jarvis Barton",
+    "IconHint": "consequatur",
+    "ColorBlock": 614,
+    "ExtraInfo": "vel",
+    "StyleHint": "quod",
+    "FullName": "Prof. Ricky Gracie Shields V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 827
+        "FieldType": "System.String",
+        "FieldLength": 679
       }
     }
   }

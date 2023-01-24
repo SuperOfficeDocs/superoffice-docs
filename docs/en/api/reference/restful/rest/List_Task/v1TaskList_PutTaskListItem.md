@@ -97,15 +97,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 747,
-  "Value": "doloribus",
+  "TaskListItemId": 867,
+  "Value": "ullam",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "totam",
+  "Tooltip": "nam",
   "Deleted": false,
-  "IntentId": 650,
-  "Rank": 759,
-  "IsDefaultAlldayEvent": false,
+  "IntentId": 926,
+  "Rank": 701,
+  "IsDefaultAlldayEvent": true,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 877,
-  "Value": "et",
+  "TaskListItemId": 17,
+  "Value": "dolore",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "sequi",
+  "Tooltip": "id",
   "Deleted": false,
-  "IntentId": 783,
-  "Rank": 718,
+  "IntentId": 742,
+  "Rank": 824,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
-  "IsDefaultPublished": false,
+  "IsDefaultFree": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 206
+      "FieldType": "System.Int32",
+      "FieldLength": 584
     }
   }
 }

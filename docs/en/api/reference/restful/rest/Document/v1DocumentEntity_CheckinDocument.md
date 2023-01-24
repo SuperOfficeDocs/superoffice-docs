@@ -31,8 +31,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Persevering grid-enabled knowledge base
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=nobis,est
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Reactive maximized frame
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=et,dolore
 ```
 
 
@@ -85,11 +85,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "debitis",
-  "VersionId": "esse",
+  "ExternalReference": "nobis",
+  "VersionId": "perspiciatis",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "sit",
-  "AdditionalInfo": "temporibus"
+  "Value": "at",
+  "AdditionalInfo": "est"
 }
 ```

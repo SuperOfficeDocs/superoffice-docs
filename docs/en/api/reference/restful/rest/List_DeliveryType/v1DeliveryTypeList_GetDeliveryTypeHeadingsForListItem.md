@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 613,
-    "Name": "Harris-Jacobi",
-    "ToolTip": "Qui accusantium accusantium similique nihil consequatur.",
+    "Id": 393,
+    "Name": "Abbott-Schamberger",
+    "ToolTip": "Quibusdam maxime laboriosam voluptas voluptatem perspiciatis.",
     "Deleted": false,
-    "Rank": 537,
-    "Type": "at",
-    "ColorBlock": 431,
-    "IconHint": "cupiditate",
+    "Rank": 211,
+    "Type": "aut",
+    "ColorBlock": 367,
+    "IconHint": "molestias",
     "Selected": true,
-    "LastChanged": "2004-05-26T17:37:40.0024994+02:00",
+    "LastChanged": "1998-06-29T11:22:45.8973017+02:00",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Schroeder-Greenholt",
-        "ToolTip": "Sunt quaerat sit illum.",
-        "Deleted": true,
-        "Rank": 440,
-        "Type": "voluptatem",
-        "ColorBlock": 496,
-        "IconHint": "quaerat",
+        "Id": 540,
+        "Name": "Bartell Inc and Sons",
+        "ToolTip": "Commodi atque alias delectus.",
+        "Deleted": false,
+        "Rank": 173,
+        "Type": "laboriosam",
+        "ColorBlock": 623,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "2020-07-09T17:37:40.0024994+02:00",
+        "LastChanged": "1998-06-18T11:22:45.8973017+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "aut",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Lance Gutkowski",
+        "FullName": "Ebba Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 892
+            "FieldLength": 689
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "id",
-    "Hidden": true,
-    "FullName": "Treva Streich",
+    "ExtraInfo": "omnis",
+    "StyleHint": "error",
+    "Hidden": false,
+    "FullName": "Zoey Purdy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldType": "System.String",
+        "FieldLength": 687
       }
     }
   }

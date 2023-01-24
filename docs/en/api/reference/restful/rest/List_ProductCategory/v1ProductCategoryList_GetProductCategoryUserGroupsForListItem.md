@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Conroy Group",
-    "ToolTip": "Rerum et nisi provident in est.",
-    "Deleted": false,
-    "Rank": 779,
-    "Type": "molestiae",
-    "ColorBlock": 74,
-    "IconHint": "dicta",
+    "Id": 93,
+    "Name": "Beer, Buckridge and Jacobs",
+    "ToolTip": "Libero harum maiores iusto vero qui et.",
+    "Deleted": true,
+    "Rank": 672,
+    "Type": "maxime",
+    "ColorBlock": 551,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2003-01-10T17:37:40.1435006+01:00",
+    "LastChanged": "2016-08-11T11:22:46.0222797+02:00",
     "ChildItems": [
       {
-        "Id": 987,
-        "Name": "Johns, Lowe and Cronin",
-        "ToolTip": "Tempore et.",
+        "Id": 394,
+        "Name": "Waelchi-Halvorson",
+        "ToolTip": "Debitis sed et laborum.",
         "Deleted": false,
-        "Rank": 572,
-        "Type": "vel",
-        "ColorBlock": 71,
-        "IconHint": "dolorem",
+        "Rank": 610,
+        "Type": "autem",
+        "ColorBlock": 836,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "2000-01-20T17:37:40.1435006+01:00",
+        "LastChanged": "2009-02-03T11:22:46.0222797+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "non",
+        "ExtraInfo": "esse",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Noemie Hayes V",
+        "FullName": "Kelli Vaughn Auer I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 479
+            "FieldLength": 679
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Mrs. Jackie Jacobi III",
+    "FullName": "Danika Stan Murray III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldLength": 493
       }
     }
   }

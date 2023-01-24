@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 71,
-  "Name": "Bednar-Hyatt",
-  "Tooltip": "est",
+  "HeadingId": 827,
+  "Name": "Gaylord-McKenzie",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 113,
-  "UdListDefinitionId": 474
+  "Rank": 108,
+  "UdListDefinitionId": 497
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 178,
-  "Name": "Heathcote Group",
-  "Tooltip": "totam",
-  "Deleted": false,
-  "Rank": 434,
-  "UdListDefinitionId": 553,
+  "HeadingId": 195,
+  "Name": "Maggio LLC",
+  "Tooltip": "error",
+  "Deleted": true,
+  "Rank": 152,
+  "UdListDefinitionId": 930,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldType": "System.String",
+      "FieldLength": 765
     }
   }
 }

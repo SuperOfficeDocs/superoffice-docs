@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    339,
-    50
+    945,
+    572
   ]
 }
 ```
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 266,
-    "Name": "Roberts, Botsford and Kuvalis",
-    "TargetTable": "nostrum",
-    "Registered": "2004-04-12T17:37:19.2142443+02:00",
-    "ProviderName": "Moore-Kshlerin"
+    "SelectionId": 93,
+    "Name": "Toy Inc and Sons",
+    "TargetTable": "ut",
+    "Registered": "1996-05-25T11:22:39.3363444+02:00",
+    "ProviderName": "Runte-Brakus"
   },
   {
-    "SelectionId": 266,
-    "Name": "Roberts, Botsford and Kuvalis",
-    "TargetTable": "nostrum",
-    "Registered": "2004-04-12T17:37:19.2142443+02:00",
-    "ProviderName": "Moore-Kshlerin"
+    "SelectionId": 93,
+    "Name": "Toy Inc and Sons",
+    "TargetTable": "ut",
+    "Registered": "1996-05-25T11:22:39.3363444+02:00",
+    "ProviderName": "Runte-Brakus"
   }
 ]
 ```

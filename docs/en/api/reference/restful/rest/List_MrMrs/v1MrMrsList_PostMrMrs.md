@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 18,
-  "Name": "Aufderhar-Bernhard",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 516,
-  "Rank": 513
+  "Id": 545,
+  "Name": "Conn Group",
+  "Tooltip": "eaque",
+  "Deleted": false,
+  "UdListDefinitionId": 504,
+  "Rank": 762
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 837,
-  "Name": "Anderson, Renner and Lowe",
-  "Tooltip": "aut",
+  "Id": 204,
+  "Name": "Murazik LLC",
+  "Tooltip": "et",
   "Deleted": true,
-  "UdListDefinitionId": 609,
-  "Rank": 756,
+  "UdListDefinitionId": 571,
+  "Rank": 482,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldLength": 714
     }
   }
 }

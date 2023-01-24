@@ -25,7 +25,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=764
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=639
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 706,
-  "Name": "Schmidt Group",
-  "Tooltip": "distinctio",
-  "Deleted": true,
-  "Rank": 639,
+  "WebPanelId": 439,
+  "Name": "Blanda Group",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 907,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Hahn-Bruen",
+  "WindowName": "Dooley Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 650,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "repellendus",
+  "Icon": 132,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldLength": 898
     }
   }
 }

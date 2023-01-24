@@ -27,8 +27,8 @@ Requests a new license from SuperLicense, checks if change is authorized.
 | newSerialNumber | string | **Required** New serial number to change to. |
 
 ```http
-POST /api/v1/License/ChangeSerialNumber?newCompanyName=Lind-Kihn
-POST /api/v1/License/ChangeSerialNumber?newSerialNumber=1465783
+POST /api/v1/License/ChangeSerialNumber?newCompanyName=Kub Group
+POST /api/v1/License/ChangeSerialNumber?newSerialNumber=1206860
 ```
 
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,8 +85,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 366
+      "FieldType": "System.Int32",
+      "FieldLength": 994
     }
   }
 }

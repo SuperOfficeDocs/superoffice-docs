@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 702,
-  "Name": "Mante, Fay and Keebler",
-  "Tooltip": "reprehenderit",
+  "Id": 766,
+  "Name": "Terry-Cummings",
+  "Tooltip": "voluptatum",
   "Deleted": false,
-  "Rank": 585,
+  "Rank": 172,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "enim",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 350
     }
   },
   "_Links": {

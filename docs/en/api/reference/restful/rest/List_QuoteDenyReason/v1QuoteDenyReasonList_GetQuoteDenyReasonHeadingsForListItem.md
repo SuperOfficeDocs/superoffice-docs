@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 189,
-    "Name": "Rippin-Walker",
-    "ToolTip": "Voluptatem qui qui quo sint consectetur cumque perspiciatis.",
+    "Id": 130,
+    "Name": "Mayert, Tremblay and Mueller",
+    "ToolTip": "Molestiae aut.",
     "Deleted": false,
-    "Rank": 913,
-    "Type": "pariatur",
-    "ColorBlock": 791,
-    "IconHint": "laudantium",
-    "Selected": false,
-    "LastChanged": "2008-07-28T17:37:40.2535001+02:00",
+    "Rank": 458,
+    "Type": "ipsam",
+    "ColorBlock": 425,
+    "IconHint": "quo",
+    "Selected": true,
+    "LastChanged": "2015-04-08T11:22:46.1160093+02:00",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Koss Group",
-        "ToolTip": "Placeat vero voluptas.",
-        "Deleted": false,
-        "Rank": 733,
-        "Type": "voluptate",
-        "ColorBlock": 440,
-        "IconHint": "magni",
-        "Selected": false,
-        "LastChanged": "2014-03-22T17:37:40.2535001+01:00",
+        "Id": 116,
+        "Name": "Weber-Kertzmann",
+        "ToolTip": "Aut accusantium amet earum saepe harum.",
+        "Deleted": true,
+        "Rank": 247,
+        "Type": "sed",
+        "ColorBlock": 156,
+        "IconHint": "explicabo",
+        "Selected": true,
+        "LastChanged": "2004-01-01T11:22:46.1160093+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "magnam",
-        "Hidden": true,
-        "FullName": "Marquise Collier",
+        "ExtraInfo": "in",
+        "StyleHint": "recusandae",
+        "Hidden": false,
+        "FullName": "Creola Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 723
+            "FieldLength": 333
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "omnis",
+    "ExtraInfo": "sunt",
+    "StyleHint": "pariatur",
     "Hidden": true,
-    "FullName": "Miss Laurence Loma O'Connell Sr.",
+    "FullName": "Reina Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldLength": 429
       }
     }
   }

@@ -72,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 700,
-  "LanguageCode": "hic"
+  "DocumentTemplateId": 544,
+  "LanguageCode": "soluta"
 }
 ```
 

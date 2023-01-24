@@ -61,7 +61,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,30 +72,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hagenes, Boyle and McDermott",
-    "Description": "Quality-focused 4th generation Graphical User Interface",
+    "Name": "Gislason, Bechtelar and Lebsack",
+    "Description": "Phased incremental utilisation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 907,
-        "Tooltip": "qui",
+        "Total": 771,
+        "Tooltip": "exercitationem",
         "CanAssign": false,
-        "Free": 27,
-        "InUse": 978,
+        "Free": 743,
+        "InUse": 511,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 792,
-        "Name": "Pollich LLC",
-        "Description": "Switchable executive infrastructure",
-        "PrerequisiteModuleName": "Pouros, Crist and Gleason",
-        "SortOrder": 204,
-        "ExtraFlags": 188,
+        "ModuleLicenseId": 419,
+        "Name": "Senger Group",
+        "Description": "Balanced impactful structure",
+        "PrerequisiteModuleName": "Goodwin, Littel and Weissnat",
+        "SortOrder": 852,
+        "ExtraFlags": 771,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 748
+            "FieldType": "System.Int32",
+            "FieldLength": 495
           }
         }
       }
@@ -103,25 +103,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 189,
-        "Tooltip": "itaque",
+        "Total": 761,
+        "Tooltip": "et",
         "CanAssign": false,
-        "Free": 424,
-        "InUse": 858,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 331,
-        "Name": "Treutel, Friesen and Barton",
-        "Description": "Balanced zero defect open system",
-        "PrerequisiteModuleName": "Batz LLC",
-        "SortOrder": 188,
-        "ExtraFlags": 730,
+        "Free": 225,
+        "InUse": 88,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 548,
+        "Name": "Nikolaus Inc and Sons",
+        "Description": "Public-key value-added structure",
+        "PrerequisiteModuleName": "Johnson Group",
+        "SortOrder": 95,
+        "ExtraFlags": 77,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 950
+            "FieldLength": 379
           }
         }
       }
@@ -130,36 +130,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 91
+        "FieldType": "System.Int32",
+        "FieldLength": 755
       }
     }
   },
   {
-    "Name": "Hagenes, Boyle and McDermott",
-    "Description": "Quality-focused 4th generation Graphical User Interface",
+    "Name": "Gislason, Bechtelar and Lebsack",
+    "Description": "Phased incremental utilisation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 907,
-        "Tooltip": "qui",
+        "Total": 771,
+        "Tooltip": "exercitationem",
         "CanAssign": false,
-        "Free": 27,
-        "InUse": 978,
+        "Free": 743,
+        "InUse": 511,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 792,
-        "Name": "Pollich LLC",
-        "Description": "Switchable executive infrastructure",
-        "PrerequisiteModuleName": "Pouros, Crist and Gleason",
-        "SortOrder": 204,
-        "ExtraFlags": 188,
+        "ModuleLicenseId": 419,
+        "Name": "Senger Group",
+        "Description": "Balanced impactful structure",
+        "PrerequisiteModuleName": "Goodwin, Littel and Weissnat",
+        "SortOrder": 852,
+        "ExtraFlags": 771,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 748
+            "FieldType": "System.Int32",
+            "FieldLength": 495
           }
         }
       }
@@ -167,25 +167,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 189,
-        "Tooltip": "itaque",
+        "Total": 761,
+        "Tooltip": "et",
         "CanAssign": false,
-        "Free": 424,
-        "InUse": 858,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 331,
-        "Name": "Treutel, Friesen and Barton",
-        "Description": "Balanced zero defect open system",
-        "PrerequisiteModuleName": "Batz LLC",
-        "SortOrder": 188,
-        "ExtraFlags": 730,
+        "Free": 225,
+        "InUse": 88,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 548,
+        "Name": "Nikolaus Inc and Sons",
+        "Description": "Public-key value-added structure",
+        "PrerequisiteModuleName": "Johnson Group",
+        "SortOrder": 95,
+        "ExtraFlags": 77,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 950
+            "FieldLength": 379
           }
         }
       }
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 91
+        "FieldType": "System.Int32",
+        "FieldLength": 755
       }
     }
   }

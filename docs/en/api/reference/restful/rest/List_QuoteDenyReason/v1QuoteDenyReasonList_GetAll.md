@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 702,
-    "Name": "Gaylord Inc and Sons",
-    "Tooltip": "et",
+    "Id": 302,
+    "Name": "Lebsack-Wisoky",
+    "Tooltip": "esse",
     "Deleted": false,
-    "UdListDefinitionId": 26,
-    "Rank": 188,
+    "UdListDefinitionId": 583,
+    "Rank": 552,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 538
+        "FieldType": "System.Int32",
+        "FieldLength": 173
       }
     }
   }

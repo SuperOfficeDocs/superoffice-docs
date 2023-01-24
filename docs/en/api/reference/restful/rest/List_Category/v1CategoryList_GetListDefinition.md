@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 352,
-  "Name": "Sanford, Strosin and Mertz",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 833,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 475,
+  "Name": "Schimmel LLC",
+  "Tooltip": "molestias",
+  "Deleted": true,
+  "Rank": 271,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 711
+      "FieldType": "System.Int32",
+      "FieldLength": 125
     }
   },
   "_Links": {

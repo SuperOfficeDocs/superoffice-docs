@@ -167,17 +167,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Blick-Ondricka",
-  "ProviderName": "Jakubowski Inc and Sons",
-  "SortOrder": "perferendis",
-  "Restriction": "asperiores",
-  "Entities": "voluptas",
-  "Page": 45,
-  "PageSize": 415
+  "GuiName": "Greenholt-Turner",
+  "ProviderName": "Stanton Inc and Sons",
+  "SortOrder": "labore",
+  "Restriction": "iure",
+  "Entities": "debitis",
+  "Page": 68,
+  "PageSize": 135
 }
 ```
 
@@ -189,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Nicolas-Rath",
-    "PrimaryKey": 497,
+    "EntityName": "Weber-Johns",
+    "PrimaryKey": 368,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptatibus",
-        "TooltipHint": "ducimus",
-        "LinkHint": "omnis"
+        "DisplayValue": "asperiores",
+        "TooltipHint": "dolor",
+        "LinkHint": "nam"
       }
     },
-    "LinkHint": "ut",
-    "StyleHint": "occaecati",
+    "LinkHint": "ratione",
+    "StyleHint": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldLength": 472
       }
     }
   }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 488,
-  "IsActive": true,
+  "ErpConnectionId": 272,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 503,
-      "CrmFieldKey": "et",
-      "CrmDisplayName": "Beahan, Bahringer and Larson",
-      "CrmDisplayTooltip": "voluptas",
-      "ErpFieldKey": "aut",
+      "ErpFieldId": 610,
+      "CrmFieldKey": "totam",
+      "CrmDisplayName": "Metz, Ryan and Emmerich",
+      "CrmDisplayTooltip": "enim",
+      "ErpFieldKey": "quos",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Weissnat, Sauer and Greenfelder",
-      "ErpDisplayTooltip": "dignissimos",
+      "ErpDisplayName": "Zieme-Hessel",
+      "ErpDisplayTooltip": "odio",
       "SyncToCrm": false,
-      "SyncToErp": true,
-      "ShowInGui": false,
+      "SyncToErp": false,
+      "ShowInGui": true,
       "ShowInSearch": false,
-      "AlreadyMapped": false,
-      "MissingInERP": false,
+      "AlreadyMapped": true,
+      "MissingInERP": true,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "qui",
+      "ListReference": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1000
+          "FieldType": "System.Int32",
+          "FieldLength": 8
         }
       }
     }
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldType": "System.String",
+      "FieldLength": 338
     }
   }
 }

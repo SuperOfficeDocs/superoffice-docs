@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "McDermott-Cummings",
-    "ToolTip": "Qui aut eligendi inventore.",
+    "Id": 677,
+    "Name": "Lind Inc and Sons",
+    "ToolTip": "Officia voluptatem repellendus natus quis odit.",
     "Deleted": false,
-    "Rank": 64,
-    "Type": "voluptas",
-    "ColorBlock": 761,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2006-08-02T17:37:40.2845009+02:00",
+    "Rank": 517,
+    "Type": "porro",
+    "ColorBlock": 839,
+    "IconHint": "reprehenderit",
+    "Selected": true,
+    "LastChanged": "2014-03-21T11:22:46.1316279+01:00",
     "ChildItems": [
       {
-        "Id": 704,
-        "Name": "Kreiger Inc and Sons",
-        "ToolTip": "Voluptatem consequatur ipsum aperiam voluptatum nostrum eum dignissimos.",
+        "Id": 476,
+        "Name": "Ryan LLC",
+        "ToolTip": "Incidunt et.",
         "Deleted": false,
-        "Rank": 242,
-        "Type": "aut",
-        "ColorBlock": 633,
-        "IconHint": "consequuntur",
-        "Selected": false,
-        "LastChanged": "2002-05-30T17:37:40.2845009+02:00",
+        "Rank": 944,
+        "Type": "suscipit",
+        "ColorBlock": 397,
+        "IconHint": "quaerat",
+        "Selected": true,
+        "LastChanged": "1996-08-16T11:22:46.1316279+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "sunt",
-        "Hidden": true,
-        "FullName": "Thora Jason Huel II"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Ms. Jakob Dicki I"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "sit",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Timmy Spencer PhD"
+    "FullName": "Samson Hartmann"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "McClure Group",
-    "ToolTip": "Dicta expedita a.",
-    "Deleted": true,
-    "Rank": 59,
-    "Type": "esse",
-    "ColorBlock": 781,
-    "IconHint": "cum",
+    "Id": 395,
+    "Name": "Nienow Group",
+    "ToolTip": "Voluptatem vel eius.",
+    "Deleted": false,
+    "Rank": 9,
+    "Type": "qui",
+    "ColorBlock": 830,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2020-11-26T17:37:40.2855032+01:00",
+    "LastChanged": "2011-02-20T11:22:46.1316279+01:00",
     "ChildItems": [
       {
-        "Id": 999,
-        "Name": "Bradtke-Borer",
-        "ToolTip": "Reprehenderit sed nam sint hic veritatis minus et.",
-        "Deleted": true,
-        "Rank": 437,
-        "Type": "magnam",
-        "ColorBlock": 505,
-        "IconHint": "qui",
+        "Id": 212,
+        "Name": "Greenfelder-Witting",
+        "ToolTip": "Nulla ducimus harum consectetur.",
+        "Deleted": false,
+        "Rank": 90,
+        "Type": "sit",
+        "ColorBlock": 529,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2007-10-06T17:37:40.2855032+02:00",
+        "LastChanged": "1997-10-01T11:22:46.1316279+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "maiores",
-        "Hidden": true,
-        "FullName": "Ralph Harber",
+        "ExtraInfo": "saepe",
+        "StyleHint": "incidunt",
+        "Hidden": false,
+        "FullName": "Jessie Boyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 135
+            "FieldLength": 31
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "velit",
+    "ExtraInfo": "rerum",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Ms. Amparo Zachary Flatley PhD",
+    "FullName": "Mr. Krystal Wehner V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 973
+        "FieldType": "System.Int32",
+        "FieldLength": 556
       }
     }
   }

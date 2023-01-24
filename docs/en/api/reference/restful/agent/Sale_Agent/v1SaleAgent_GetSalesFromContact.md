@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 686,
+  "ContactId": 987,
   "OnlyOpenSales": false
 }
 ```
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Swaniawski, Zulauf and Ryan",
-    "SaleDate": "2019-02-12T17:37:18.892241+01:00",
-    "SaleId": 172,
-    "Probability": 187,
-    "Title": "porro",
-    "Amount": 6430.968,
-    "Currency": "vel",
-    "ProjectName": "Mueller, Powlowski and Bahringer",
-    "AssociateFullName": "Elvis Toy",
-    "Description": "Operative neutral hardware",
+    "ContactName": "Hegmann, Zulauf and Kulas",
+    "SaleDate": "1995-12-10T11:22:39.2425669+01:00",
+    "SaleId": 344,
+    "Probability": 889,
+    "Title": "qui",
+    "Amount": 29196.343999999997,
+    "Currency": "soluta",
+    "ProjectName": "Welch, Weber and Schumm",
+    "AssociateFullName": "Prof. Felicia Keeling",
+    "Description": "Public-key responsive system engine",
     "Status": "Lost",
-    "WeightedAmount": 19706.592,
-    "ProjectId": 571,
-    "EarningPercent": 19142.471999999998,
-    "Earning": 30578.438,
-    "ContactId": 141,
-    "AssociateId": 673,
-    "PersonId": 322,
-    "SaleTypeId": 541,
-    "SaleTypeName": "Zulauf-Corkery",
-    "PersonFullName": "Prof. Florian Zboncak DDS",
+    "WeightedAmount": 23931.224,
+    "ProjectId": 943,
+    "EarningPercent": 26679.742,
+    "Earning": 3930.036,
+    "ContactId": 682,
+    "AssociateId": 97,
+    "PersonId": 918,
+    "SaleTypeId": 64,
+    "SaleTypeName": "Romaguera Group",
+    "PersonFullName": "Prof. Madelyn Dovie Hodkiewicz",
     "Completed": "Completed",
-    "ActiveErpLinks": 265,
-    "NextDueDate": "2002-04-19T17:37:18.8932422+02:00",
-    "Number": "1655807",
+    "ActiveErpLinks": 753,
+    "NextDueDate": "2014-01-05T11:22:39.2425669+01:00",
+    "Number": "930959",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 416
+        "FieldType": "System.Int32",
+        "FieldLength": 503
       }
     }
   }

@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 467,
-  "UdListDefinitionId": 70
+  "Id": 393,
+  "UdListDefinitionId": 647
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 836,
-  "Name": "Halvorson, Schroeder and Bartoletti",
-  "Tooltip": "dolores",
+  "Id": 608,
+  "Name": "Ledner, Lockman and Hermann",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 931,
-  "Rank": 558,
+  "UdListDefinitionId": 803,
+  "Rank": 236,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldType": "System.String",
+      "FieldLength": 126
     }
   }
 }

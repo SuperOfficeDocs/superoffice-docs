@@ -78,7 +78,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 288
+  "TargetGroupId": 62
 }
 ```
 
@@ -89,15 +89,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 70,
-  "FileName": "Bogan, Volkman and Torphy",
-  "Message": "ut",
+  "BatchTaskId": 443,
+  "FileName": "Sipes, Walker and Auer",
+  "Message": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   }
 }

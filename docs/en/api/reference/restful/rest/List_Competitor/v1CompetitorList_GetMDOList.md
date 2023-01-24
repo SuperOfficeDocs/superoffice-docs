@@ -26,7 +26,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=omnis
+GET /api/v1/List/Competitor/MDOItems?query=enim
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Kunde-Olson",
-    "ToolTip": "Numquam laboriosam iure quis numquam eum omnis.",
+    "Id": 820,
+    "Name": "Mante-Collins",
+    "ToolTip": "Ex dignissimos sunt.",
     "Deleted": true,
-    "Rank": 484,
-    "Type": "rerum",
+    "Rank": 358,
+    "Type": "maiores",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Rempel, O'Reilly and Hoeger",
-        "ToolTip": "Unde veritatis soluta non dolor ipsa est.",
-        "Deleted": false,
-        "Rank": 815,
-        "Type": "doloribus",
+        "Id": 520,
+        "Name": "Littel, Robel and Kris",
+        "ToolTip": "Repudiandae itaque.",
+        "Deleted": true,
+        "Rank": 78,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "optio",
-        "ColorBlock": 527,
-        "ExtraInfo": "nulla",
-        "StyleHint": "iste",
-        "FullName": "Miss Abdiel Chesley O'Connell IV",
+        "IconHint": "et",
+        "ColorBlock": 356,
+        "ExtraInfo": "sequi",
+        "StyleHint": "consequatur",
+        "FullName": "Savanna Parisian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 391
+            "FieldType": "System.Int32",
+            "FieldLength": 437
           }
         }
       }
     ],
-    "IconHint": "eligendi",
-    "ColorBlock": 453,
-    "ExtraInfo": "modi",
-    "StyleHint": "similique",
-    "FullName": "Miss Thomas Fabiola Prosacco",
+    "IconHint": "et",
+    "ColorBlock": 907,
+    "ExtraInfo": "alias",
+    "StyleHint": "sed",
+    "FullName": "Deja Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldLength": 567
       }
     }
   }

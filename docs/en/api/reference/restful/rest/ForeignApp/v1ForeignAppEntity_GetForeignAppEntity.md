@@ -79,7 +79,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,32 +87,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 05 May 2016 17:37:38 G5T
+Last-Modified: Sat, 26 Sep 1998 11:22:44 G9T
 
 {
-  "ForeignAppId": 774,
-  "Name": "Macejkovic Group",
-  "CreatedDate": "2011-09-18T17:37:38.6188654+02:00",
-  "UpdatedDate": "2016-05-05T17:37:38.6188654+02:00",
+  "ForeignAppId": 103,
+  "Name": "Bruen-Zemlak",
+  "CreatedDate": "1998-06-07T11:22:44.8662479+02:00",
+  "UpdatedDate": "1998-09-26T11:22:44.8662479+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 773,
-      "Name": "Wiza-Hayes",
-      "CreatedDate": "2014-04-01T17:37:38.619865+02:00",
-      "UpdatedDate": "2007-11-10T17:37:38.619865+01:00",
-      "AssociateFullName": "Merritt Paucek MD",
-      "CreatedBy": "autem",
-      "UpdatedBy": "nobis",
-      "DeviceIdentifier": "eum",
-      "ForeignAppId": 180,
+      "ForeignDeviceId": 604,
+      "Name": "Bosco, Kuphal and Boehm",
+      "CreatedDate": "2001-11-13T11:22:44.8662479+01:00",
+      "UpdatedDate": "2014-06-11T11:22:44.8662479+02:00",
+      "AssociateFullName": "Dorothea Effertz",
+      "CreatedBy": "qui",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "commodi",
+      "ForeignAppId": 533,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldLength": 941
         }
       }
     }
@@ -122,7 +122,7 @@ Last-Modified: Thu, 05 May 2016 17:37:38 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 262
     }
   },
   "_Links": {

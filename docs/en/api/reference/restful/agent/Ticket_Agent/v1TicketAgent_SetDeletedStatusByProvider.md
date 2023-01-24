@@ -70,32 +70,32 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Little-Schiller",
+  "ProviderName": "Stoltenberg LLC",
   "Restrictions": [
     {
-      "Name": "Wehner, Wiza and Barton",
-      "Operator": "aspernatur",
+      "Name": "Walsh Inc and Sons",
+      "Operator": "ipsa",
       "Values": [
-        "fugiat",
-        "vel"
+        "consectetur",
+        "laudantium"
       ],
       "DisplayValues": [
-        "cupiditate",
-        "sequi"
+        "quibusdam",
+        "dolorem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 953,
+      "InterParenthesis": 242,
       "InterOperator": "And",
-      "UniqueHash": 258
+      "UniqueHash": 692
     }
   ]
 }
@@ -108,7 +108,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  796,
-  5
+  739,
+  311
 ]
 ```

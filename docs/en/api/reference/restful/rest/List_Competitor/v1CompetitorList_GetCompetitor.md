@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 885,
-  "Name": "Prohaska LLC",
-  "Tooltip": "aut",
+  "Id": 271,
+  "Name": "Abshire-Daugherty",
+  "Tooltip": "officiis",
   "Deleted": false,
-  "UdListDefinitionId": 618,
-  "Rank": 835,
+  "UdListDefinitionId": 524,
+  "Rank": 504,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldType": "System.String",
+      "FieldLength": 113
     }
   }
 }

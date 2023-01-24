@@ -88,46 +88,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 962,
-  "Caption": "incidunt",
-  "Description": "Compatible next generation matrix",
-  "ChartName": "Schuppe Group",
-  "ChartId": "esse",
+  "DashboardTileId": 892,
+  "Caption": "debitis",
+  "Description": "Digitized stable installation",
+  "ChartName": "Nienow-Labadie",
+  "ChartId": "dolor",
   "IsDefault": false,
-  "AssociateId": 485,
-  "GroupId": 276,
-  "SelectionId": 89,
-  "Config": "alias",
+  "AssociateId": 713,
+  "GroupId": 366,
+  "SelectionId": 261,
+  "Config": "voluptatem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hilll, Legros and O'Connell",
-      "Description": "Ameliorated heuristic ability",
+      "Name": "Tillman-Nader",
+      "Description": "Adaptive encompassing extranet",
       "Type": "Boolean",
-      "ListName": "Rodriguez Group",
+      "ListName": "Schinner Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quas",
-      "DefaultDataOption": false
+      "Value": "amet",
+      "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 991,
+      "VisibleId": 191,
       "Visibility": "All",
-      "DisplayValue": "sequi"
+      "DisplayValue": "quo"
     },
     {
-      "VisibleId": 991,
+      "VisibleId": 191,
       "Visibility": "All",
-      "DisplayValue": "sequi"
+      "DisplayValue": "quo"
     }
   ]
 }
@@ -140,64 +140,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 361,
-  "Caption": "quae",
-  "Description": "Total intermediate internet solution",
-  "ChartName": "Stoltenberg Group",
-  "ChartId": "quas",
-  "IsDefault": true,
-  "AssociateId": 678,
-  "GroupId": 615,
-  "SelectionId": 375,
-  "Config": "voluptas",
+  "DashboardTileId": 26,
+  "Caption": "aut",
+  "Description": "Digitized dynamic emulation",
+  "ChartName": "Bosco Group",
+  "ChartId": "commodi",
+  "IsDefault": false,
+  "AssociateId": 57,
+  "GroupId": 760,
+  "SelectionId": 507,
+  "Config": "quas",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Trantow, Schultz and Pouros",
-      "Description": "Front-line methodical paradigm",
+      "Name": "Purdy, Runolfsson and Spencer",
+      "Description": "Programmable assymetric throughput",
       "Type": "Boolean",
-      "ListName": "Jenkins, Lang and Wilkinson",
+      "ListName": "Mraz Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "iusto",
-      "DefaultDataOption": true,
+      "Value": "error",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 348
+          "FieldType": "System.String",
+          "FieldLength": 122
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 719,
+      "VisibleId": 618,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 307
+          "FieldLength": 786
         }
       }
     },
     {
-      "VisibleId": 719,
+      "VisibleId": 618,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 307
+          "FieldLength": 786
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldType": "System.String",
+      "FieldLength": 705
     }
   }
 }

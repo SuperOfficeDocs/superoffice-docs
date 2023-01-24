@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 781,
-  "Name": "Rutherford, Hand and Purdy",
-  "Tooltip": "veniam",
-  "Deleted": false,
-  "Rank": 95,
-  "IsCustomList": false,
+  "Id": 139,
+  "Name": "O'Connell Group",
+  "Tooltip": "sequi",
+  "Deleted": true,
+  "Rank": 300,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 865
+      "FieldLength": 69
     }
   },
   "_Links": {

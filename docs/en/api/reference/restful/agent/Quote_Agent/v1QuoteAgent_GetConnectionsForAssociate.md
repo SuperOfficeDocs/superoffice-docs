@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 204
+  "AssociateId": 310
 }
 ```
 
@@ -102,54 +102,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 306,
-    "ERPName": "Dooley, Wunsch and Murphy",
-    "DisplayName": "Padberg-Tremblay",
-    "DisplayDescription": "Enhanced explicit interface",
-    "Rank": 947,
-    "ConnectorName": "Fritsch-Kautzer",
-    "ErpConnectionId": 121,
-    "ExtraData": "eaque",
+    "QuoteConnectionId": 430,
+    "ERPName": "Bosco Inc and Sons",
+    "DisplayName": "Beahan Inc and Sons",
+    "DisplayDescription": "Synergistic disintermediate intranet",
+    "Rank": 912,
+    "ConnectorName": "Hills-Jenkins",
+    "ErpConnectionId": 239,
+    "ExtraData": "ipsam",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 603,
-        "ERPPriceListKey": "id",
-        "QuoteConnectionId": 636,
-        "Name": "Hegmann, Pagac and Mueller",
-        "Description": "Reverse-engineered demand-driven ability",
-        "Currency": "animi",
-        "CurrencyName": "McDermott Group",
-        "ValidFrom": "2012-06-29T17:37:18.7452418+02:00",
-        "ValidTo": "1997-02-26T17:37:18.7452418+01:00",
+        "PriceListId": 211,
+        "ERPPriceListKey": "impedit",
+        "QuoteConnectionId": 91,
+        "Name": "Skiles Inc and Sons",
+        "Description": "Multi-channelled needs-based strategy",
+        "Currency": "vel",
+        "CurrencyName": "Bogan Inc and Sons",
+        "ValidFrom": "2002-11-09T11:22:38.9301893+01:00",
+        "ValidTo": "2006-01-07T11:22:38.9301893+01:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldLength": 140
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      704,
-      415
+      735,
+      30
     ],
     "AssociateAccessIds": [
-      504,
-      634
+      445,
+      133
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldLength": 657
       }
     }
   }

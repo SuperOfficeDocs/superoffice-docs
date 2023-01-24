@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 802,
+  "TicketMessageEntityId": 554,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -113,28 +113,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 486,
+  "EjMessageId": 138,
   "Ticket": null,
-  "CreatedAt": "2008-05-31T17:37:19.4829764+02:00",
+  "CreatedAt": "2001-04-13T11:22:39.5550468+02:00",
   "CreatedBy": null,
-  "Author": "rerum",
+  "Author": "omnis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "placeat",
-  "TimeSpent": 397,
-  "Body": "tenetur",
-  "HtmlBody": "at",
-  "EmailHeader": "melany.donnelly@maggiogaylord.ca",
-  "DebugInfo": "sed",
-  "MailSorter": "id",
+  "MessageId": "quo",
+  "TimeSpent": 925,
+  "Body": "beatae",
+  "HtmlBody": "vel",
+  "EmailHeader": "golda@thompson.co.uk",
+  "DebugInfo": "distinctio",
+  "MailSorter": "voluptates",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "veritatis",
+  "SearchTitle": "earum",
   "MessageHeaders": [
     {
-      "Id": 509,
-      "Name": "Heaney-Emard",
-      "Value": "ab",
+      "Id": 713,
+      "Name": "Moore Inc and Sons",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -142,47 +142,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldLength": 795
         }
       }
     }
   ],
   "Important": true,
-  "Language": "amet",
-  "Sentiment": 840,
-  "SentimentConfidence": 181,
+  "Language": "id",
+  "Sentiment": 291,
+  "SentimentConfidence": 478,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 421,
-      "Name": "Hodkiewicz, Feil and Blick",
-      "ContentType": "error",
-      "AttSize": 164,
-      "InlineImage": false,
-      "ContentId": "aut",
+      "AttachmentId": 884,
+      "Name": "Brekke, Jewess and Windler",
+      "ContentType": "vero",
+      "AttSize": 126,
+      "InlineImage": true,
+      "ContentId": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 845
+          "FieldType": "System.Int32",
+          "FieldLength": 291
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "inventore",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "excepturi"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "enim"
+    "CustomFields1": "velit",
+    "CustomFields2": "vel"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 151
     }
   }
 }

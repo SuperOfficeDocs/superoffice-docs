@@ -79,7 +79,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Carter Inc and Sons",
-    "ToolTip": "Qui sed sunt harum aliquid.",
-    "Deleted": false,
-    "Rank": 626,
-    "Type": "voluptatem",
+    "Id": 832,
+    "Name": "Brown, Armstrong and Lubowitz",
+    "ToolTip": "Eum ducimus rerum impedit.",
+    "Deleted": true,
+    "Rank": 103,
+    "Type": "eum",
     "ChildItems": [
       {
-        "Id": 635,
-        "Name": "Labadie-Macejkovic",
-        "ToolTip": "Sit saepe minus ea alias mollitia maxime.",
+        "Id": 55,
+        "Name": "Rippin-Murphy",
+        "ToolTip": "Voluptate hic a vitae accusantium aliquam laudantium.",
         "Deleted": false,
-        "Rank": 372,
-        "Type": "ex",
+        "Rank": 325,
+        "Type": "accusantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 884,
-        "ExtraInfo": "sed",
-        "StyleHint": "omnis",
-        "FullName": "Mr. Rebekah Gislason",
+        "IconHint": "dolores",
+        "ColorBlock": 989,
+        "ExtraInfo": "fuga",
+        "StyleHint": "neque",
+        "FullName": "Kali Stamm DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 130
           }
         }
       }
     ],
-    "IconHint": "adipisci",
-    "ColorBlock": 992,
-    "ExtraInfo": "ea",
-    "StyleHint": "aperiam",
-    "FullName": "Kallie Deckow",
+    "IconHint": "quia",
+    "ColorBlock": 958,
+    "ExtraInfo": "occaecati",
+    "StyleHint": "id",
+    "FullName": "Ms. Garth Hackett DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldLength": 732
       }
     }
   }

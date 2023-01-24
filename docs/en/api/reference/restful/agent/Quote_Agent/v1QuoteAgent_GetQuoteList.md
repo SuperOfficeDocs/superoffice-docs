@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "ea"
+  "QuoteListType": "iure"
 }
 ```
 
@@ -92,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "ut",
-    "DisplayValue": "aut",
-    "DisplayDescription": "Future-proofed mission-critical solution",
+    "ERPQuoteListItemKey": "omnis",
+    "DisplayValue": "est",
+    "DisplayDescription": "Cloned transitional throughput",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 822
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "ut",
-    "DisplayValue": "aut",
-    "DisplayDescription": "Future-proofed mission-critical solution",
+    "ERPQuoteListItemKey": "omnis",
+    "DisplayValue": "est",
+    "DisplayDescription": "Cloned transitional throughput",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 822
       }
     }
   }

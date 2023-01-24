@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 877
+  "DocumentId": 305
 }
 ```
 
@@ -106,32 +106,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 234,
-  "Attention": "consequatur",
-  "Header": "suscipit",
-  "Name": "Bosco-Schuster",
-  "OurRef": "qui",
-  "YourRef": "qui",
-  "Description": "Compatible didactic algorithm",
-  "DocumentTemplate": "adipisci",
-  "IsPublished": false,
-  "PersonId": 855,
-  "PersonFullName": "Miss Carissa Swift DDS",
-  "AssociateFullName": "Dr. Merlin Krajcik",
-  "ContactId": 497,
-  "ContactName": "Grady-Klein",
-  "ProjectId": 569,
-  "ProjectName": "Kuhn-Hansen",
-  "AssociateId": 389,
-  "Snum": 474,
-  "SaleId": 29,
-  "SaleName": "Skiles, Smitham and Bogan",
+  "DocumentId": 104,
+  "Attention": "aut",
+  "Header": "in",
+  "Name": "Grimes-Lubowitz",
+  "OurRef": "impedit",
+  "YourRef": "excepturi",
+  "Description": "Switchable zero tolerance forecast",
+  "DocumentTemplate": "et",
+  "IsPublished": true,
+  "PersonId": 301,
+  "PersonFullName": "Prof. Vito Hudson V",
+  "AssociateFullName": "Dr. Jessie Ortiz",
+  "ContactId": 223,
+  "ContactName": "Kohler-Littel",
+  "ProjectId": 426,
+  "ProjectName": "Davis-Gutkowski",
+  "AssociateId": 753,
+  "Snum": 518,
+  "SaleId": 775,
+  "SaleName": "Ryan Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 752
+      "FieldType": "System.Int32",
+      "FieldLength": 340
     }
   }
 }

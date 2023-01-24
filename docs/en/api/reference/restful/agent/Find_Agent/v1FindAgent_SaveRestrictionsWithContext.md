@@ -67,24 +67,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Schroeder, Emmerich and Boehm",
-  "StorageKey": "dignissimos",
+  "StorageType": "laboriosam",
+  "ProviderName": "Davis, Hand and Davis",
+  "StorageKey": "enim",
   "Restrictions": [
     {
-      "Name": "Bradtke-Schulist",
-      "Operator": "qui",
+      "Name": "O'Kon-Reinger",
+      "Operator": "repellendus",
       "Values": [
-        "nulla",
-        "rem"
+        "praesentium",
+        "ut"
       ],
       "DisplayValues": [
-        "eum",
-        "hic"
+        "voluptatem",
+        "necessitatibus"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -92,12 +92,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 11,
+      "InterParenthesis": 807,
       "InterOperator": "And",
-      "UniqueHash": 384
+      "UniqueHash": 801
     }
   ],
-  "Context": "accusamus"
+  "Context": "ut"
 }
 ```
 

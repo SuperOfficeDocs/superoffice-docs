@@ -25,7 +25,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=938
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=990
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -106,43 +106,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 556,
-  "TopicId": 8,
+  "ChatSessionId": 439,
+  "TopicId": 300,
   "User": null,
   "Person": null,
-  "CustomerAlias": "rerum",
-  "CustomerHost": "consequatur",
-  "CustomerName": "Bahringer, Reinger and Schroeder",
-  "CustomerEmail": "rebeka_jast@kuhic.info",
-  "CustomerPhone": "119-435-7239",
+  "CustomerAlias": "dolore",
+  "CustomerHost": "velit",
+  "CustomerName": "Weber Inc and Sons",
+  "CustomerEmail": "toby@haleyluettgen.ca",
+  "CustomerPhone": "1-649-365-2919 x1274",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kautzer, Paucek and Towne",
+  "CustomerCompanyName": "Jacobi LLC",
   "Status": "Closed",
-  "FirstMessage": "rerum",
-  "LastMessage": "necessitatibus",
-  "WhenRequested": "2006-04-19T17:37:16.9912446+02:00",
-  "WhenStarted": "2011-10-15T17:37:16.9912446+02:00",
-  "WhenEnded": "2021-12-05T17:37:16.9912446+01:00",
-  "WhenIdle": "2013-08-24T17:37:16.9912446+02:00",
-  "WhenFetched": "2017-12-31T17:37:16.9912446+01:00",
-  "SessionKey": "voluptas",
-  "InitialQueuePos": 54,
-  "AlertLevel": 555,
-  "Rank": 557,
+  "FirstMessage": "ab",
+  "LastMessage": "nemo",
+  "WhenRequested": "2019-03-03T11:22:37.5086373+01:00",
+  "WhenStarted": "2021-05-03T11:22:37.5086373+02:00",
+  "WhenEnded": "2019-09-07T11:22:37.5086373+02:00",
+  "WhenIdle": "1998-04-25T11:22:37.5086373+02:00",
+  "WhenFetched": "2010-07-11T11:22:37.5086373+02:00",
+  "SessionKey": "eum",
+  "InitialQueuePos": 415,
+  "AlertLevel": 411,
+  "Rank": 302,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 26,
+  "ChatbotIsActive": false,
+  "Rating": 346,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldLength": 995
     }
   }
 }

@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "necessitatibus",
-  "ProviderName": "Wilderman, Maggio and Moen",
-  "StorageKey": "est",
-  "Restrictions": "consectetur",
-  "StaticColumns": "et"
+  "StorageType": "et",
+  "ProviderName": "Johnston-Krajcik",
+  "StorageKey": "dicta",
+  "Restrictions": "a",
+  "StaticColumns": "commodi"
 }
 ```
 
@@ -102,81 +102,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Weissnat LLC",
-      "Operator": "voluptatem",
+      "Name": "Wisoky, Haag and Wehner",
+      "Operator": "sunt",
       "Values": [
-        "consequatur",
-        "porro"
+        "autem",
+        "reiciendis"
       ],
       "DisplayValues": [
-        "ratione",
-        "ea"
+        "eum",
+        "consequuntur"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 347,
+      "InterParenthesis": 645,
       "InterOperator": "And",
-      "UniqueHash": 443
+      "UniqueHash": 305
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Funk Inc and Sons",
-      "DisplayTooltip": "libero",
-      "DisplayType": "odio",
-      "CanOrderBy": true,
-      "Name": "Brekke-Schuppe",
+      "DisplayName": "McDermott-Nienow",
+      "DisplayTooltip": "sit",
+      "DisplayType": "repellendus",
+      "CanOrderBy": false,
+      "Name": "Heller, Schmitt and Crona",
       "CanRestrictBy": false,
-      "RestrictionType": "delectus",
-      "RestrictionListName": "Jast-Jerde",
-      "IsVisible": true,
-      "ExtraInfo": "culpa",
-      "Width": "tempora",
-      "IconHint": "architecto",
-      "HeadingIconHint": "asperiores"
+      "RestrictionType": "nihil",
+      "RestrictionListName": "Toy LLC",
+      "IsVisible": false,
+      "ExtraInfo": "assumenda",
+      "Width": "ea",
+      "IconHint": "rerum",
+      "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kertzmann-Quigley",
-      "PrimaryKey": 142,
+      "EntityName": "Rau, Walter and Weber",
+      "PrimaryKey": 875,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "praesentium",
-          "TooltipHint": "a",
-          "LinkHint": "libero"
+          "DisplayValue": "qui",
+          "TooltipHint": "illum",
+          "LinkHint": "eos"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "tenetur",
+      "LinkHint": "magnam",
+      "StyleHint": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 674
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Nienow Group",
-      "Description": "Robust transitional circuit",
-      "Rank": 377,
+      "Name": "Tillman Inc and Sons",
+      "Description": "Right-sized multimedia archive",
+      "Rank": 708,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Nienow Group",
-      "Description": "Robust transitional circuit",
-      "Rank": 377,
+      "Name": "Tillman Inc and Sons",
+      "Description": "Right-sized multimedia archive",
+      "Rank": 708,
       "Restrictions": [
         {},
         {}
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 383
     }
   }
 }

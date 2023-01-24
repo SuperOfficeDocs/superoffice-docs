@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 635,
-  "Name": "King-D'Amore",
-  "Tooltip": "quo",
+  "Id": 831,
+  "Name": "Stoltenberg, Huels and Grimes",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 138,
-  "Rank": 434,
+  "UdListDefinitionId": 185,
+  "Rank": 153,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldType": "System.String",
+      "FieldLength": 60
     }
   }
 }

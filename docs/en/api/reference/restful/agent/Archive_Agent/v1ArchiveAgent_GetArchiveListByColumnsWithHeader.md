@@ -101,55 +101,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hessel, Gulgowski and Boehm",
+  "ProviderName": "Kerluke Group",
   "Columns": [
-    "et",
-    "earum"
+    "eos",
+    "quidem"
   ],
   "SortOrder": [
     {
-      "Name": "Koch-Heathcote",
+      "Name": "Kreiger-Hermann",
       "Direction": "ASC"
     },
     {
-      "Name": "Koch-Heathcote",
+      "Name": "Kreiger-Hermann",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Johnston LLC",
-      "Operator": "ea",
+      "Name": "Daniel-Eichmann",
+      "Operator": "iste",
       "Values": [
-        "id",
-        "placeat"
+        "natus",
+        "corrupti"
       ],
       "DisplayValues": [
-        "molestias",
-        "ratione"
+        "assumenda",
+        "saepe"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 956,
+      "InterParenthesis": 576,
       "InterOperator": "And",
-      "UniqueHash": 412
+      "UniqueHash": 790
     }
   ],
   "Entities": [
-    "consectetur",
-    "sit"
+    "dignissimos",
+    "aperiam"
   ],
-  "Page": 557,
-  "PageSize": 749,
-  "Options": "voluptatem"
+  "Page": 750,
+  "PageSize": 483,
+  "Options": "odit"
 }
 ```
 
@@ -160,26 +160,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 701,
+  "RowCount": 651,
   "Rows": [
     {
-      "EntityName": "Schoen LLC",
-      "PrimaryKey": 583,
+      "EntityName": "Graham, Torp and Wisozk",
+      "PrimaryKey": 435,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "blanditiis",
-          "LinkHint": "sed"
+          "DisplayValue": "praesentium",
+          "TooltipHint": "adipisci",
+          "LinkHint": "recusandae"
         }
       },
-      "LinkHint": "vero",
-      "StyleHint": "sint",
+      "LinkHint": "harum",
+      "StyleHint": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 601
+          "FieldType": "System.Int32",
+          "FieldLength": 657
         }
       }
     }
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 504
     }
   }
 }

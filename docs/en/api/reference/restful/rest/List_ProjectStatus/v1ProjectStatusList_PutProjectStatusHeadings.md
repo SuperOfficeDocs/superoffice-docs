@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 278,
-    "Name": "Hilpert Inc and Sons",
-    "Tooltip": "veniam",
-    "Deleted": false,
-    "Rank": 155,
-    "UdListDefinitionId": 762
+    "HeadingId": 815,
+    "Name": "Gleichner, Effertz and Bins",
+    "Tooltip": "voluptatibus",
+    "Deleted": true,
+    "Rank": 51,
+    "UdListDefinitionId": 487
   },
   {
-    "HeadingId": 278,
-    "Name": "Hilpert Inc and Sons",
-    "Tooltip": "veniam",
-    "Deleted": false,
-    "Rank": 155,
-    "UdListDefinitionId": 762
+    "HeadingId": 815,
+    "Name": "Gleichner, Effertz and Bins",
+    "Tooltip": "voluptatibus",
+    "Deleted": true,
+    "Rank": 51,
+    "UdListDefinitionId": 487
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 821,
-    "Name": "Leffler-Tromp",
-    "Tooltip": "placeat",
-    "Deleted": true,
-    "Rank": 356,
-    "UdListDefinitionId": 983,
+    "HeadingId": 601,
+    "Name": "Sawayn, Collins and O'Conner",
+    "Tooltip": "ex",
+    "Deleted": false,
+    "Rank": 559,
+    "UdListDefinitionId": 892,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldLength": 123
       }
     }
   }

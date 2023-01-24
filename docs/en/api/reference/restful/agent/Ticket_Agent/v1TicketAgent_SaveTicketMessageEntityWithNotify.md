@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -113,76 +113,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 110,
+  "EjMessageId": 882,
   "Ticket": null,
-  "CreatedAt": "2015-03-27T17:37:19.4589793+01:00",
+  "CreatedAt": "1999-01-13T11:22:39.5394229+01:00",
   "CreatedBy": null,
-  "Author": "cumque",
+  "Author": "minus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 760,
-  "Body": "necessitatibus",
-  "HtmlBody": "vel",
-  "EmailHeader": "bryce@goldner.biz",
-  "DebugInfo": "ut",
-  "MailSorter": "mollitia",
+  "MessageId": "consequatur",
+  "TimeSpent": 882,
+  "Body": "repudiandae",
+  "HtmlBody": "a",
+  "EmailHeader": "charity@parkerbauch.com",
+  "DebugInfo": "voluptatem",
+  "MailSorter": "voluptates",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "commodi",
+  "SearchTitle": "voluptas",
   "MessageHeaders": [
     {
-      "Id": 108,
-      "Name": "Nikolaus Group",
-      "Value": "et",
+      "Id": 776,
+      "Name": "Parisian Group",
+      "Value": "doloribus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 87
+          "FieldType": "System.Int32",
+          "FieldLength": 276
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "sunt",
-  "Sentiment": 887,
-  "SentimentConfidence": 164,
+  "Important": true,
+  "Language": "ut",
+  "Sentiment": 67,
+  "SentimentConfidence": 389,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 911,
-      "Name": "Homenick-Gottlieb",
-      "ContentType": "vel",
-      "AttSize": 588,
-      "InlineImage": false,
-      "ContentId": "placeat",
+      "AttachmentId": 871,
+      "Name": "Pollich-Leffler",
+      "ContentType": "similique",
+      "AttSize": 641,
+      "InlineImage": true,
+      "ContentId": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 412
+          "FieldType": "System.Int32",
+          "FieldLength": 137
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "placeat"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "ex"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "ullam"
+    "CustomFields1": "harum",
+    "CustomFields2": "eos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldLength": 142
     }
   }
 }

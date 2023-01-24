@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 343,
-  "ERPPriceListKey": "consequatur",
-  "QuoteConnectionId": 589,
-  "Name": "Stehr, Lebsack and Kshlerin",
-  "Description": "Advanced dedicated standardization",
-  "Currency": "sed",
-  "CurrencyName": "Orn-Halvorson",
-  "ValidFrom": "2015-10-21T17:37:18.7082418+02:00",
-  "ValidTo": "2012-01-25T17:37:18.7082418+01:00",
+  "PriceListId": 534,
+  "ERPPriceListKey": "ea",
+  "QuoteConnectionId": 226,
+  "Name": "Jacobi-Corwin",
+  "Description": "Secured mobile website",
+  "Currency": "ex",
+  "CurrencyName": "Quitzon Group",
+  "ValidFrom": "2005-04-16T11:22:38.8989499+02:00",
+  "ValidTo": "2003-11-12T11:22:38.8989499+01:00",
   "IsActive": true
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 488,
-  "ERPPriceListKey": "at",
-  "QuoteConnectionId": 603,
-  "Name": "Schneider-Greenfelder",
-  "Description": "Universal clear-thinking Graphical User Interface",
-  "Currency": "eligendi",
-  "CurrencyName": "Dooley-Weissnat",
-  "ValidFrom": "2008-07-08T17:37:18.7082418+02:00",
-  "ValidTo": "2022-10-10T17:37:18.7082418+02:00",
-  "IsActive": true,
+  "PriceListId": 584,
+  "ERPPriceListKey": "omnis",
+  "QuoteConnectionId": 415,
+  "Name": "Predovic Inc and Sons",
+  "Description": "Digitized system-worthy orchestration",
+  "Currency": "autem",
+  "CurrencyName": "Hoeger-Little",
+  "ValidFrom": "2018-08-20T11:22:38.8989499+02:00",
+  "ValidTo": "2018-11-08T11:22:38.8989499+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 803
+      "FieldType": "System.Int32",
+      "FieldLength": 993
     }
   }
 }

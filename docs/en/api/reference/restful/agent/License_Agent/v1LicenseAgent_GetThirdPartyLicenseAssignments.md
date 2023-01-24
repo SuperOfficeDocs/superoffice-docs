@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 963,
-  "ModuleOwner": "animi"
+  "AssociateId": 125,
+  "ModuleOwner": "quia"
 }
 ```
 
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 384,
-    "Tooltip": "in",
-    "CanAssign": false,
-    "Free": 921,
-    "InUse": 945,
-    "IsHidden": true,
+    "Total": 455,
+    "Tooltip": "fuga",
+    "CanAssign": true,
+    "Free": 277,
+    "InUse": 556,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 709,
-    "Name": "Schroeder-Haley",
-    "Description": "Synchronised homogeneous success",
-    "PrerequisiteModuleName": "Ebert-Corwin",
-    "SortOrder": 857,
-    "ExtraFlags": 275,
+    "ModuleLicenseId": 412,
+    "Name": "Jerde LLC",
+    "Description": "Organic reciprocal Graphical User Interface",
+    "PrerequisiteModuleName": "Lubowitz LLC",
+    "SortOrder": 522,
+    "ExtraFlags": 100,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 802
+        "FieldType": "System.String",
+        "FieldLength": 665
       }
     }
   }

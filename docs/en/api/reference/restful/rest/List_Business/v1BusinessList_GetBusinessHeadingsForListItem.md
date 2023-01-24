@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Name": "Lueilwitz, Nicolas and Wilderman",
-    "ToolTip": "Earum fuga.",
-    "Deleted": false,
-    "Rank": 924,
-    "Type": "commodi",
-    "ColorBlock": 299,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2020-08-09T17:37:39.6644005+02:00",
+    "Id": 825,
+    "Name": "Fisher, Weissnat and Tremblay",
+    "ToolTip": "Dolorum et dignissimos asperiores corrupti aut.",
+    "Deleted": true,
+    "Rank": 39,
+    "Type": "modi",
+    "ColorBlock": 828,
+    "IconHint": "quibusdam",
+    "Selected": true,
+    "LastChanged": "2016-10-20T11:22:45.5848828+02:00",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Carter, Jaskolski and Gleason",
-        "ToolTip": "Rerum laborum ex expedita explicabo maiores et inventore.",
-        "Deleted": true,
-        "Rank": 290,
-        "Type": "nulla",
-        "ColorBlock": 650,
-        "IconHint": "omnis",
+        "Id": 90,
+        "Name": "Tremblay, Sipes and Orn",
+        "ToolTip": "Ratione et cumque.",
+        "Deleted": false,
+        "Rank": 864,
+        "Type": "qui",
+        "ColorBlock": 310,
+        "IconHint": "at",
         "Selected": false,
-        "LastChanged": "1999-02-10T17:37:39.6644005+01:00",
+        "LastChanged": "2004-02-08T11:22:45.5848828+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Zula Schroeder",
+        "ExtraInfo": "provident",
+        "StyleHint": "voluptate",
+        "Hidden": false,
+        "FullName": "Miss Thaddeus Sporer IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 744
+            "FieldType": "System.String",
+            "FieldLength": 960
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "cupiditate",
+    "ExtraInfo": "sit",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Wilfredo O'Connell",
+    "FullName": "Glenda Jennyfer Grant MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 720
+        "FieldLength": 813
       }
     }
   }

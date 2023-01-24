@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 842,
+  "TargetYear": 826,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 960
+  "Id": 908
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 433,
+  "TargetAssignmentInfoId": 25,
   "Values": [
-    870,
-    359
+    505,
+    405
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 307,
-  "DimensionListItemDisplayName": "Ullrich-Stiedemann",
+  "DimensionListItem": 27,
+  "DimensionListItemDisplayName": "Goodwin, Rogahn and Schultz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldType": "System.String",
+      "FieldLength": 96
     }
   }
 }

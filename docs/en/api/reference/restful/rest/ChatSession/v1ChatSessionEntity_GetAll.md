@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=nemo
-GET /api/v1/ChatSession?$top=504
-GET /api/v1/ChatSession?$skip=256
+GET /api/v1/ChatSession?$entities=neque
+GET /api/v1/ChatSession?$top=295
+GET /api/v1/ChatSession?$skip=461
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
-GET /api/v1/ChatSession?$context=fuga
+GET /api/v1/ChatSession?$context=aut
 GET /api/v1/ChatSession?$format=JSON
 GET /api/v1/ChatSession?$jsonSafe=False
 GET /api/v1/ChatSession?$output=Display
@@ -128,21 +128,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quo",
+  "odata.nextLink": "eveniet",
   "value": [
     {
-      "PrimaryKey": 6440,
-      "EntityName": "sale",
-      "saleId": 6440,
-      "contactId": 9926,
-      "name": "Wiegand Inc and Sons"
+      "PrimaryKey": 7263,
+      "EntityName": "person",
+      "personId": 7263,
+      "fullName": "Dagmar Deckow"
     },
     {
-      "PrimaryKey": 2402,
-      "EntityName": "sale",
-      "saleId": 2402,
-      "contactId": 9483,
-      "name": "Pagac LLC"
+      "PrimaryKey": 6373,
+      "EntityName": "person",
+      "personId": 6373,
+      "fullName": "Miss Van Adams DVM"
     }
   ]
 }

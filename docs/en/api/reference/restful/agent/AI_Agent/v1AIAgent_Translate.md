@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/AI/Translate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "repudiandae",
-  "TargetLanguage": "deserunt"
+  "Text": "tempora",
+  "TargetLanguage": "consectetur"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"consequuntur"
+"et"
 ```

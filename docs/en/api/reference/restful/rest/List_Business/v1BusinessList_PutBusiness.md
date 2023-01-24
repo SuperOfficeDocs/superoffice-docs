@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Powlowski-Crooks",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "UdListDefinitionId": 767,
-  "Rank": 131
+  "Id": 91,
+  "Name": "Fritsch LLC",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "UdListDefinitionId": 342,
+  "Rank": 884
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 440,
-  "Name": "Ebert Inc and Sons",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "UdListDefinitionId": 648,
-  "Rank": 680,
+  "Id": 673,
+  "Name": "Haley LLC",
+  "Tooltip": "suscipit",
+  "Deleted": true,
+  "UdListDefinitionId": 783,
+  "Rank": 354,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldType": "System.String",
+      "FieldLength": 223
     }
   }
 }

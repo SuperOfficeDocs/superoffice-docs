@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 957,
-    "Name": "Stanton-Botsford",
-    "ToolTip": "Eius omnis similique esse impedit aliquam.",
+    "Id": 959,
+    "Name": "Nikolaus Inc and Sons",
+    "ToolTip": "Laborum modi assumenda dolorem quidem saepe.",
     "Deleted": false,
-    "Rank": 580,
-    "Type": "ipsam",
-    "ColorBlock": 404,
-    "IconHint": "iste",
-    "Selected": true,
-    "LastChanged": "2021-11-10T17:37:40.0375003+01:00",
+    "Rank": 864,
+    "Type": "rem",
+    "ColorBlock": 148,
+    "IconHint": "voluptates",
+    "Selected": false,
+    "LastChanged": "1997-05-07T11:22:45.9285426+02:00",
     "ChildItems": [
       {
-        "Id": 956,
-        "Name": "Vandervort Inc and Sons",
-        "ToolTip": "Maiores quia ea magni ipsam.",
+        "Id": 259,
+        "Name": "Herzog, McCullough and Raynor",
+        "ToolTip": "Non quasi quam vel.",
         "Deleted": true,
-        "Rank": 168,
-        "Type": "et",
-        "ColorBlock": 995,
-        "IconHint": "mollitia",
+        "Rank": 418,
+        "Type": "officiis",
+        "ColorBlock": 740,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "1997-02-07T17:37:40.0375003+01:00",
+        "LastChanged": "2003-05-06T11:22:45.9285426+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Mr. Curtis Buckridge IV"
+        "ExtraInfo": "ducimus",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Willy Morissette"
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Yasmine Hessel"
+    "ExtraInfo": "tempora",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "Dr. Edyth Heathcote"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 180,
-    "Name": "Jacobi-Leuschke",
-    "ToolTip": "Et quos.",
-    "Deleted": true,
-    "Rank": 474,
-    "Type": "ea",
-    "ColorBlock": 1001,
-    "IconHint": "odit",
+    "Id": 626,
+    "Name": "Kerluke Inc and Sons",
+    "ToolTip": "Doloribus corrupti itaque cum pariatur distinctio.",
+    "Deleted": false,
+    "Rank": 99,
+    "Type": "quae",
+    "ColorBlock": 103,
+    "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "2021-11-23T17:37:40.0385033+01:00",
+    "LastChanged": "2008-11-30T11:22:45.9285426+01:00",
     "ChildItems": [
       {
-        "Id": 222,
-        "Name": "Pollich Inc and Sons",
-        "ToolTip": "Enim enim et exercitationem delectus eos.",
+        "Id": 707,
+        "Name": "Pollich LLC",
+        "ToolTip": "Eum aliquam ad voluptatibus minus sit nesciunt.",
         "Deleted": false,
-        "Rank": 871,
-        "Type": "cum",
-        "ColorBlock": 368,
-        "IconHint": "in",
+        "Rank": 853,
+        "Type": "sed",
+        "ColorBlock": 621,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2011-05-23T17:37:40.0395012+02:00",
+        "LastChanged": "2006-11-20T11:22:45.9285426+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "vitae",
-        "Hidden": true,
-        "FullName": "Prof. Alayna Maybelle Schinner",
+        "ExtraInfo": "fuga",
+        "StyleHint": "excepturi",
+        "Hidden": false,
+        "FullName": "Miss Kylee Leuschke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 416
+            "FieldType": "System.Int32",
+            "FieldLength": 309
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "fuga",
+    "ExtraInfo": "quae",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Mrs. Jeramy Doyle Kessler V",
+    "FullName": "Ole Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldType": "System.String",
+        "FieldLength": 554
       }
     }
   }

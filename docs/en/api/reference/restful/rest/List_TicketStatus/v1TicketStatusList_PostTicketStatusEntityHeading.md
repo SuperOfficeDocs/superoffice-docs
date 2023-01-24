@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 812,
-  "Name": "Wisozk LLC",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 964,
-  "UdListDefinitionId": 778
+  "HeadingId": 791,
+  "Name": "Schmitt-Romaguera",
+  "Tooltip": "voluptatibus",
+  "Deleted": false,
+  "Rank": 839,
+  "UdListDefinitionId": 599
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 291,
-  "Name": "Haley-Kiehn",
-  "Tooltip": "distinctio",
-  "Deleted": true,
-  "Rank": 233,
-  "UdListDefinitionId": 478,
+  "HeadingId": 132,
+  "Name": "Reynolds-Casper",
+  "Tooltip": "tempora",
+  "Deleted": false,
+  "Rank": 130,
+  "UdListDefinitionId": 610,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldLength": 584
     }
   }
 }

@@ -76,12 +76,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 545,
-  "Name": "Morissette, Schoen and Lubowitz",
-  "Tooltip": "ipsam",
+  "Id": 810,
+  "Name": "Schowalter-Bauch",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "UdListDefinitionId": 619,
-  "Rank": 235
+  "UdListDefinitionId": 259,
+  "Rank": 638
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 59,
-  "Name": "Watsica-Konopelski",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "UdListDefinitionId": 231,
-  "Rank": 692,
+  "Id": 950,
+  "Name": "Quigley LLC",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 397,
+  "Rank": 801,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 368
+      "FieldType": "System.Int32",
+      "FieldLength": 107
     }
   }
 }

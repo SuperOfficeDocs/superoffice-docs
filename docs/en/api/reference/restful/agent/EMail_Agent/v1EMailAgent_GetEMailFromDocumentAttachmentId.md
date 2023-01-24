@@ -101,14 +101,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 678,
+  "DocId": 464,
   "AttachmentIds": [
-    "incidunt",
-    "consectetur"
+    "non",
+    "molestiae"
   ],
   "IncludeAttachments": false
 }
@@ -123,146 +123,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 235,
-      "ContactName": "Luettgen Group",
-      "PersonId": 460,
-      "PersonName": "Bashirian Inc and Sons",
-      "AssociateId": 63,
-      "Address": "non",
-      "EmailId": 569,
+      "ContactId": 121,
+      "ContactName": "Paucek Group",
+      "PersonId": 559,
+      "PersonName": "Jaskolski LLC",
+      "AssociateId": 148,
+      "Address": "adipisci",
+      "EmailId": 652,
       "DuplicatePersonIds": [
-        732,
-        217
+        525,
+        365
       ],
-      "Name": "Rice Inc and Sons",
+      "Name": "Vandervort, Lindgren and Quigley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldType": "System.String",
+          "FieldLength": 794
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 541,
-      "ContactName": "Dickinson, Hartmann and Toy",
-      "PersonId": 469,
-      "PersonName": "Rippin Inc and Sons",
-      "AssociateId": 165,
-      "Address": "placeat",
-      "EmailId": 471,
+      "ContactId": 593,
+      "ContactName": "Schuppe-Turcotte",
+      "PersonId": 165,
+      "PersonName": "Corwin Inc and Sons",
+      "AssociateId": 123,
+      "Address": "iste",
+      "EmailId": 118,
       "DuplicatePersonIds": [
-        268,
-        457
+        218,
+        913
       ],
-      "Name": "Will Inc and Sons",
+      "Name": "Bergstrom, McDermott and Ernser",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 918
+          "FieldType": "System.Int32",
+          "FieldLength": 36
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 16,
-      "ContactName": "O'Kon LLC",
-      "PersonId": 234,
-      "PersonName": "Goldner LLC",
-      "AssociateId": 1001,
-      "Address": "dolor",
-      "EmailId": 420,
+      "ContactId": 301,
+      "ContactName": "Reilly LLC",
+      "PersonId": 522,
+      "PersonName": "Bartell Inc and Sons",
+      "AssociateId": 908,
+      "Address": "illum",
+      "EmailId": 321,
       "DuplicatePersonIds": [
-        133,
-        572
+        510,
+        423
       ],
-      "Name": "Hand-Kris",
+      "Name": "Gleichner-Denesik",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldLength": 564
         }
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "dolorum",
+  "Subject": "laudantium",
+  "HTMLBody": "sit",
   "From": null,
-  "Sent": "2000-01-21T17:37:17.9772474+01:00",
-  "Size": 44,
+  "Sent": "2010-06-15T11:22:38.2740943+02:00",
+  "Size": 497,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "deleniti",
-  "PlainBody": "et",
-  "IsSent": true,
+  "MessageID": "dolores",
+  "PlainBody": "consequuntur",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 136,
+  "ServerId": 122,
   "Attachments": [
     {
-      "Description": "Virtual didactic methodology",
-      "Filename": "perspiciatis",
-      "Size": 917,
-      "Type": "reiciendis",
-      "Encoding": "dolore",
-      "Id": "est",
-      "Disposition": "placeat",
+      "Description": "Polarised responsive orchestration",
+      "Filename": "et",
+      "Size": 629,
+      "Type": "minima",
+      "Encoding": "amet",
+      "Id": "quis",
+      "Disposition": "quia",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 618
+          "FieldLength": 463
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Predovic LLC",
+      "Name": "Leuschke, Hickle and Schoen",
       "Values": [
-        "voluptatem",
-        "laudantium"
+        "nemo",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 658
+          "FieldLength": 134
         }
       }
     },
     {
-      "Name": "Predovic LLC",
+      "Name": "Leuschke, Hickle and Schoen",
       "Values": [
-        "voluptatem",
-        "laudantium"
+        "nemo",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 658
+          "FieldLength": 134
         }
       }
     }
   ],
-  "FolderName": "Monahan-Gleichner",
-  "EmailItemId": 883,
-  "AccountId": 95,
-  "ReceivedAt": "2014-09-19T17:37:17.9782597+02:00",
+  "FolderName": "King-Goldner",
+  "EmailItemId": 248,
+  "AccountId": 504,
+  "ReceivedAt": "2004-11-12T11:22:38.2740943+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-11-19T17:37:17.9782597+01:00",
+  "RepliedAt": "2018-11-14T11:22:38.2740943+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -271,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldLength": 958
     }
   }
 }

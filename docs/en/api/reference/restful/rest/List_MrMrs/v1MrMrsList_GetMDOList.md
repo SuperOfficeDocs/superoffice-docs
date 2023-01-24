@@ -25,8 +25,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=odit
+GET /api/v1/List/MrMrs/MDOItems?flat=True
+GET /api/v1/List/MrMrs/MDOItems?query=nostrum
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 671,
-    "Name": "Pfeffer LLC",
-    "ToolTip": "Sit pariatur earum.",
-    "Deleted": true,
-    "Rank": 170,
-    "Type": "qui",
+    "Id": 293,
+    "Name": "Kling, Lind and Kutch",
+    "ToolTip": "Et quaerat et.",
+    "Deleted": false,
+    "Rank": 308,
+    "Type": "distinctio",
     "ChildItems": [
       {
-        "Id": 283,
-        "Name": "Borer-Fahey",
-        "ToolTip": "Non dolores.",
-        "Deleted": false,
-        "Rank": 120,
-        "Type": "dolor",
+        "Id": 531,
+        "Name": "Auer-Schuster",
+        "ToolTip": "Ea rerum.",
+        "Deleted": true,
+        "Rank": 925,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 651,
-        "ExtraInfo": "et",
-        "StyleHint": "iste",
-        "FullName": "Haleigh Friesen DDS",
+        "IconHint": "sapiente",
+        "ColorBlock": 904,
+        "ExtraInfo": "ut",
+        "StyleHint": "inventore",
+        "FullName": "Arely Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 743
+            "FieldType": "System.String",
+            "FieldLength": 58
           }
         }
       }
     ],
-    "IconHint": "neque",
-    "ColorBlock": 603,
-    "ExtraInfo": "sapiente",
-    "StyleHint": "laborum",
-    "FullName": "Ms. Asha Daron Schowalter PhD",
+    "IconHint": "itaque",
+    "ColorBlock": 981,
+    "ExtraInfo": "quia",
+    "StyleHint": "quasi",
+    "FullName": "Joel Hayes MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 913
       }
     }
   }

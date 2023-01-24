@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schaden-Wiegand",
-  "Department": "recontextualize extensible e-commerce"
+  "Name": "Nikolaus, Sauer and Krajcik",
+  "Department": ""
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Herman Group",
-    "SoPrimaryKey": 79,
-    "EntryName": "Funk-Pfeffer",
-    "EntryIdentifier": "aut",
-    "RuleDisplayName": "Stracke LLC",
+    "RuleName": "Macejkovic Inc and Sons",
+    "SoPrimaryKey": 55,
+    "EntryName": "Weissnat, Brown and Torp",
+    "EntryIdentifier": "vitae",
+    "RuleDisplayName": "Hoppe Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldType": "System.String",
+        "FieldLength": 406
       }
     }
   }

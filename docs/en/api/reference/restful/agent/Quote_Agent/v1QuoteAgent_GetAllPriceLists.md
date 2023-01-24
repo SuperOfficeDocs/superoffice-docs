@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 620,
-  "Currency": "in"
+  "QuoteConnectionId": 861,
+  "Currency": "amet"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 584,
-    "ERPPriceListKey": "voluptatem",
-    "QuoteConnectionId": 410,
-    "Name": "Krajcik Group",
-    "Description": "Multi-channelled leading edge middleware",
-    "Currency": "esse",
-    "CurrencyName": "Gleichner-Spencer",
-    "ValidFrom": "2010-05-30T17:37:18.7472417+02:00",
-    "ValidTo": "2014-11-11T17:37:18.7472417+01:00",
-    "IsActive": true,
+    "PriceListId": 554,
+    "ERPPriceListKey": "rerum",
+    "QuoteConnectionId": 83,
+    "Name": "Brakus-Bergstrom",
+    "Description": "Versatile value-added hub",
+    "Currency": "distinctio",
+    "CurrencyName": "Ondricka, Kautzer and Walker",
+    "ValidFrom": "2022-02-03T11:22:38.9301893+01:00",
+    "ValidTo": "2008-02-05T11:22:38.9301893+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 41
+        "FieldLength": 276
       }
     }
   }

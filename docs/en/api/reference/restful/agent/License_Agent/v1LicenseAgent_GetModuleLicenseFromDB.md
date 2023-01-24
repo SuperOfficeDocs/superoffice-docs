@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Feil Group",
-  "ModuleName": "Osinski LLC"
+  "OwnerName": "Schinner, Rippin and Rempel",
+  "ModuleName": "Bahringer Inc and Sons"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Glover-Cormier",
-  "ModuleName": "Glover-Walsh",
-  "ModuleDescription": "Exclusive maximized methodology",
-  "ModuleTooltip": "ad",
-  "ModuleVersion": "rerum",
+  "OwnerName": "Nolan Group",
+  "ModuleName": "Renner, Gaylord and Nader",
+  "ModuleDescription": "Synergized regional access",
+  "ModuleTooltip": "et",
+  "ModuleVersion": "vero",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 263,
-  "ExtraFlags": 554,
-  "ExtraInfo": "ut",
-  "SortOrder": 402,
+  "NumberOfLicenses": 668,
+  "ExtraFlags": 421,
+  "ExtraInfo": "voluptatem",
+  "SortOrder": 57,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Zemlak-Carroll",
-  "Signature": "distinctio"
+  "PrerequisiteModuleName": "Connelly-Bashirian",
+  "Signature": "accusamus"
 }
 ```

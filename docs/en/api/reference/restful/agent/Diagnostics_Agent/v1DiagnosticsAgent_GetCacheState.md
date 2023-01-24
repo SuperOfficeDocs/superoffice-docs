@@ -69,13 +69,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Brown, Ernser and Crooks",
-    "Torphy LLC"
+    "Pfeffer, Wilkinson and McGlynn",
+    "Skiles-Daugherty"
   ]
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"porro"
+"et"
 ```

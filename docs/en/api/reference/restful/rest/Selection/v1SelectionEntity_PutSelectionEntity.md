@@ -159,60 +159,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Down-sized bottom-line local area network",
-  "Postit": "aliquid",
+  "Description": "Persistent stable system engine",
+  "Postit": "amet",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 483,
-  "IncludePerson": 78,
-  "MemberCount": 1001,
-  "Name": "Hansen-Marvin",
-  "PostitTextId": 793,
-  "CreatedDate": "2012-03-29T17:37:39.2013055+02:00",
-  "SelectionId": 99,
-  "SoundEx": "autem",
-  "Source": 366,
-  "TextId": 767,
-  "UpdatedDate": "2007-02-25T17:37:39.2013055+01:00",
-  "UpdatedCount": 657,
-  "Visibility": 120,
+  "GroupIdx": 866,
+  "IncludePerson": 650,
+  "MemberCount": 771,
+  "Name": "Kozey, Ledner and Carter",
+  "PostitTextId": 639,
+  "CreatedDate": "2019-07-01T11:22:45.2099615+02:00",
+  "SelectionId": 998,
+  "SoundEx": "et",
+  "Source": 147,
+  "TextId": 66,
+  "UpdatedDate": "2003-10-24T11:22:45.2099615+02:00",
+  "UpdatedCount": 165,
+  "Visibility": 983,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 148,
-  "TargetTableName": "Rowe, Buckridge and Altenwerth",
+  "TargetTableNumber": 88,
+  "TargetTableName": "Schamberger Group",
   "Completed": true,
-  "LeftSelectionId": 377,
-  "RightSelectionId": 24,
+  "LeftSelectionId": 561,
+  "RightSelectionId": 995,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Johnson LLC",
-  "ShadowProviderName": "Schiller-Fadel",
-  "ChartKey": "delectus",
-  "LastLoaded": "2012-03-21T17:37:39.2013055+01:00",
-  "LastLoadedBy": 462,
+  "MainProviderName": "Kuphal-Powlowski",
+  "ShadowProviderName": "Wolf, Veum and Hermann",
+  "ChartKey": "enim",
+  "LastLoaded": "2014-12-07T11:22:45.2099615+01:00",
+  "LastLoadedBy": 706,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-06-07T17:37:39.2013055+02:00",
-  "LastMembershipChangeBy": 901,
+  "LastMembershipChange": "2014-05-11T11:22:45.2099615+02:00",
+  "LastMembershipChangeBy": 217,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "rem",
-  "MemberTabHeading": "laborum",
-  "MailingsProviderName": "Kilback, Shanahan and Kertzmann",
-  "DashboardTileDefinitionId": 930,
+  "MainHeading": "est",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Kihn-Collier",
+  "DashboardTileDefinitionId": 756,
   "VisibleFor": [
     {
-      "VisibleId": 579,
+      "VisibleId": 627,
       "Visibility": "All",
-      "DisplayValue": "neque"
+      "DisplayValue": "temporibus"
     },
     {
-      "VisibleId": 579,
+      "VisibleId": 627,
       "Visibility": "All",
-      "DisplayValue": "neque"
+      "DisplayValue": "temporibus"
     }
   ]
 }
@@ -225,70 +225,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Vision-oriented asynchronous data-warehouse",
-  "Postit": "asperiores",
+  "Description": "Horizontal logistical array",
+  "Postit": "aliquam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 835,
-  "IncludePerson": 685,
-  "MemberCount": 74,
-  "Name": "Bogisich Group",
-  "PostitTextId": 280,
-  "CreatedDate": "2002-03-27T17:37:39.2062831+01:00",
-  "SelectionId": 112,
-  "SoundEx": "quisquam",
-  "Source": 387,
-  "TextId": 948,
-  "UpdatedDate": "2016-05-14T17:37:39.2062831+02:00",
-  "UpdatedCount": 877,
-  "Visibility": 683,
+  "GroupIdx": 660,
+  "IncludePerson": 933,
+  "MemberCount": 15,
+  "Name": "Johns-Huels",
+  "PostitTextId": 916,
+  "CreatedDate": "2006-06-28T11:22:45.2099615+02:00",
+  "SelectionId": 673,
+  "SoundEx": "aliquid",
+  "Source": 600,
+  "TextId": 674,
+  "UpdatedDate": "2014-01-05T11:22:45.2099615+01:00",
+  "UpdatedCount": 569,
+  "Visibility": 525,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 331,
-  "TargetTableName": "Jacobs, Kerluke and Okuneva",
-  "Completed": true,
-  "LeftSelectionId": 664,
-  "RightSelectionId": 344,
+  "CompanyUnique": false,
+  "TargetTableNumber": 840,
+  "TargetTableName": "Leannon Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 122,
+  "RightSelectionId": 313,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Williamson LLC",
-  "ShadowProviderName": "Strosin Inc and Sons",
-  "ChartKey": "ratione",
-  "LastLoaded": "2013-05-02T17:37:39.2062831+02:00",
-  "LastLoadedBy": 672,
+  "MainProviderName": "Abshire-Tromp",
+  "ShadowProviderName": "Wuckert Inc and Sons",
+  "ChartKey": "commodi",
+  "LastLoaded": "1997-04-21T11:22:45.2099615+02:00",
+  "LastLoadedBy": 890,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-07-22T17:37:39.2073048+02:00",
-  "LastMembershipChangeBy": 354,
+  "LastMembershipChange": "2020-12-01T11:22:45.2099615+01:00",
+  "LastMembershipChangeBy": 388,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consequatur",
-  "MemberTabHeading": "vitae",
-  "MailingsProviderName": "Emard-Waters",
-  "DashboardTileDefinitionId": 358,
+  "MainHeading": "neque",
+  "MemberTabHeading": "rerum",
+  "MailingsProviderName": "Wisoky, Kassulke and Baumbach",
+  "DashboardTileDefinitionId": 456,
   "VisibleFor": [
     {
-      "VisibleId": 263,
+      "VisibleId": 480,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 246
+          "FieldType": "System.Int32",
+          "FieldLength": 816
         }
       }
     },
     {
-      "VisibleId": 263,
+      "VisibleId": 480,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 246
+          "FieldType": "System.Int32",
+          "FieldLength": 816
         }
       }
     }
@@ -298,12 +298,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldLength": 699
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

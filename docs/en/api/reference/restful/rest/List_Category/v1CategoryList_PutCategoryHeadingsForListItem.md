@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Hammes-Champlin",
-    "ToolTip": "Omnis unde temporibus aliquam omnis.",
+    "Id": 708,
+    "Name": "Nolan, Balistreri and Kunze",
+    "ToolTip": "Velit qui unde placeat modi.",
     "Deleted": true,
-    "Rank": 888,
-    "Type": "excepturi",
-    "ColorBlock": 215,
-    "IconHint": "delectus",
+    "Rank": 169,
+    "Type": "unde",
+    "ColorBlock": 27,
+    "IconHint": "adipisci",
     "Selected": true,
-    "LastChanged": "1997-09-08T17:37:39.6814321+02:00",
+    "LastChanged": "2000-10-27T11:22:45.7879071+02:00",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Wuckert, Haley and Brown",
-        "ToolTip": "Qui consequatur est consequatur non.",
+        "Id": 436,
+        "Name": "Huel, Towne and Kuhic",
+        "ToolTip": "Eum amet.",
         "Deleted": false,
-        "Rank": 560,
-        "Type": "ut",
-        "ColorBlock": 919,
-        "IconHint": "optio",
-        "Selected": false,
-        "LastChanged": "2002-07-14T17:37:39.6814321+02:00",
+        "Rank": 276,
+        "Type": "explicabo",
+        "ColorBlock": 339,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2003-05-27T11:22:45.7879071+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "nisi",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Rudolph Mosciski"
+        "FullName": "Miss Dora Stark"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "ipsam",
-    "Hidden": true,
-    "FullName": "Zora Leuschke"
+    "ExtraInfo": "laudantium",
+    "StyleHint": "ad",
+    "Hidden": false,
+    "FullName": "Prof. Jimmy Tromp"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 107,
-    "Name": "Kuhlman, Stokes and Dibbert",
-    "ToolTip": "Dolores iusto.",
-    "Deleted": false,
-    "Rank": 403,
-    "Type": "ut",
-    "ColorBlock": 816,
-    "IconHint": "neque",
-    "Selected": true,
-    "LastChanged": "2005-09-29T17:37:39.8644721+02:00",
+    "Id": 432,
+    "Name": "Kunze, Vandervort and Ward",
+    "ToolTip": "Sed sed temporibus.",
+    "Deleted": true,
+    "Rank": 493,
+    "Type": "nulla",
+    "ColorBlock": 984,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "1998-06-25T11:22:45.7879071+02:00",
     "ChildItems": [
       {
-        "Id": 3,
-        "Name": "Botsford-Wuckert",
-        "ToolTip": "Sint non labore.",
-        "Deleted": true,
-        "Rank": 534,
-        "Type": "sed",
-        "ColorBlock": 316,
-        "IconHint": "aspernatur",
+        "Id": 740,
+        "Name": "Howe-Gislason",
+        "ToolTip": "Sint harum tempore fugit.",
+        "Deleted": false,
+        "Rank": 258,
+        "Type": "optio",
+        "ColorBlock": 668,
+        "IconHint": "aperiam",
         "Selected": false,
-        "LastChanged": "1996-06-05T17:37:39.8655022+02:00",
+        "LastChanged": "2003-05-03T11:22:45.7879071+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "repellat",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "magnam",
         "Hidden": true,
-        "FullName": "Miss Ayana Ledner",
+        "FullName": "Mrs. Tiara Griffin Wintheiser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 763
+            "FieldLength": 471
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Javier Moen",
+    "ExtraInfo": "harum",
+    "StyleHint": "aspernatur",
+    "Hidden": false,
+    "FullName": "Arnold Greenfelder DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldType": "System.String",
+        "FieldLength": 486
       }
     }
   }

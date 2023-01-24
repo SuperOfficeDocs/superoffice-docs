@@ -87,7 +87,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 724,
-    "Name": "Legros LLC",
-    "Tooltip": "labore",
-    "Rank": 239,
+    "SaleTypeId": 194,
+    "Name": "Brekke LLC",
+    "Tooltip": "rerum",
+    "Rank": 24,
     "DurationUnit": "Century",
-    "SaleDuration": 529,
-    "SaleTypeCatId": 318,
-    "Deleted": true,
+    "SaleDuration": 919,
+    "SaleTypeCatId": 12,
+    "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": true,
-    "IsAutoAdvance": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 136,
-    "QuoteLinesTemplate": 892,
-    "ConfirmationLinesTemplate": 624,
+    "DefaultQuoteValidity": 72,
+    "QuoteLinesTemplate": 626,
+    "ConfirmationLinesTemplate": 284,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 420,
-    "MinEarningPercent": 546,
-    "GroupQuoteLinesBy": 484,
-    "SortGroupLinesBy": 612,
+    "MaxDiscountPercent": 21,
+    "MinEarningPercent": 184,
+    "GroupQuoteLinesBy": 63,
+    "SortGroupLinesBy": 460,
     "Stages": [
       {
-        "Id": 176,
-        "Name": "Bahringer-Waelchi",
-        "ToolTip": "Inventore est aut ipsa similique facilis aspernatur.",
+        "Id": 98,
+        "Name": "Pagac-Sporer",
+        "ToolTip": "Harum et deserunt at enim asperiores deleniti.",
         "Deleted": false,
-        "Rank": 663,
-        "Type": "reiciendis",
-        "ColorBlock": 284,
-        "IconHint": "possimus",
+        "Rank": 747,
+        "Type": "et",
+        "ColorBlock": 815,
+        "IconHint": "temporibus",
         "Selected": false,
-        "LastChanged": "2009-05-26T17:37:40.3295006+02:00",
+        "LastChanged": "2006-07-01T11:22:46.1628721+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "quia",
+        "ExtraInfo": "qui",
+        "StyleHint": "ex",
         "Hidden": false,
-        "FullName": "Shaina Osinski",
+        "FullName": "Ansel Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldType": "System.String",
+            "FieldLength": 102
           }
         }
       }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldType": "System.String",
+        "FieldLength": 660
       }
     }
   }

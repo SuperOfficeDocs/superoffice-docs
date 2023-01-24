@@ -101,13 +101,13 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "alias",
+  "LanguageCode": "aut",
   "PluginId": 732
 }
 ```
@@ -119,37 +119,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 318,
-  "Name": "Kub-Gleichner",
-  "Tooltip": "facere",
-  "SaveInDb": 67,
-  "Filename": "molestiae",
-  "DefaultOref": "error",
+  "DocumentTemplateId": 389,
+  "Name": "Predovic-Crooks",
+  "Tooltip": "aut",
+  "SaveInDb": 374,
+  "Filename": "enim",
+  "DefaultOref": "vel",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 983,
-  "IntentId": 705,
-  "IsDefaultPublished": false,
-  "Rank": 498,
-  "LoadTemplateFromPlugin": 907,
-  "MimeType": "excepturi",
+  "AutoeventId": 340,
+  "IntentId": 398,
+  "IsDefaultPublished": true,
+  "Rank": 836,
+  "LoadTemplateFromPlugin": 930,
+  "MimeType": "molestias",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 811,
+  "DocumentTypeKey": 735,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "elliott@powlowski.name",
+  "EmailSubject": "andy.murazik@parisianhilll.name",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kellen@gulgowski.biz",
+  "SenderEmailAddress": "tyrese@oharalindgren.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 922
     }
   }
 }

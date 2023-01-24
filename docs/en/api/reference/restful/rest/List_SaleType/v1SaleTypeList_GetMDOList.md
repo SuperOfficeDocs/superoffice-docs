@@ -26,7 +26,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=et
+GET /api/v1/List/SaleType/MDOItems?query=tenetur
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 356,
-    "Name": "Herman Group",
-    "ToolTip": "Facilis veritatis laudantium itaque et.",
-    "Deleted": false,
-    "Rank": 466,
-    "Type": "ullam",
+    "Id": 384,
+    "Name": "Bednar, Berge and Considine",
+    "ToolTip": "Repudiandae quasi aut ratione non magnam nulla.",
+    "Deleted": true,
+    "Rank": 257,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 889,
-        "Name": "Carroll Group",
-        "ToolTip": "Doloribus magnam ipsam quidem consequatur quia rerum culpa.",
+        "Id": 446,
+        "Name": "Romaguera Group",
+        "ToolTip": "Eligendi delectus sit assumenda.",
         "Deleted": true,
-        "Rank": 450,
-        "Type": "consequatur",
+        "Rank": 106,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facere",
-        "ColorBlock": 871,
-        "ExtraInfo": "aut",
-        "StyleHint": "consequuntur",
-        "FullName": "Allie Kyler Goldner II",
+        "IconHint": "assumenda",
+        "ColorBlock": 158,
+        "ExtraInfo": "ea",
+        "StyleHint": "sed",
+        "FullName": "Orval Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 158
+            "FieldType": "System.String",
+            "FieldLength": 230
           }
         }
       }
     ],
-    "IconHint": "amet",
-    "ColorBlock": 9,
-    "ExtraInfo": "odio",
-    "StyleHint": "et",
-    "FullName": "Dixie Wyman",
+    "IconHint": "assumenda",
+    "ColorBlock": 677,
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "iusto",
+    "FullName": "Estrella Monique Wisozk II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldType": "System.String",
+        "FieldLength": 525
       }
     }
   }

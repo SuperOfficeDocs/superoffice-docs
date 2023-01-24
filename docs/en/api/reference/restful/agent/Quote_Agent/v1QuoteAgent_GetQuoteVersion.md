@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 589
+  "QuoteVersionId": 40
 }
 ```
 
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 867,
-  "ERPQuoteVersionKey": "aut",
-  "QuoteId": 809,
-  "Description": "Cross-platform client-server data-warehouse",
-  "Number": "1558010",
+  "QuoteVersionId": 826,
+  "ERPQuoteVersionKey": "qui",
+  "QuoteId": 852,
+  "Description": "Quality-focused object-oriented open system",
+  "Number": "1125802",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 968,
-  "SentDate": "2000-01-20T17:37:18.6912417+01:00",
-  "FollowupId": 16,
-  "ExpirationDate": "2000-05-03T17:37:18.6912417+02:00",
-  "DeliveryCountryId": 251,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 663,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "iure",
-  "ERPPaymentTypeKey": "ea",
-  "ERPDeliveryTermsKey": "itaque",
-  "ERPDeliveryTypeKey": "enim",
-  "Rank": 816,
-  "ApprovedBy": 130,
-  "ApprovedText": "eveniet",
-  "ApprovedRegisteredBy": 631,
-  "ApprovedRegisteredDate": "1997-02-04T17:37:18.6912417+01:00",
-  "ExtraField1": "hic",
-  "ExtraField2": "deleniti",
-  "ExtraField3": "blanditiis",
-  "ExtraField4": "voluptas",
-  "ExtraField5": "cum",
-  "LastRecalculated": "2015-10-18T17:37:18.6922415+02:00",
-  "Updated": "2004-06-14T17:37:18.6922415+02:00",
-  "UpdatedAssociateId": 93,
-  "Registered": "2006-01-03T17:37:18.6922415+01:00",
-  "RegisteredAssociateId": 848,
-  "RequestAssociateId": 546,
-  "RequestComment": "exercitationem",
+  "LikelyQuoteAlternativeId": 616,
+  "SentDate": "2002-05-21T11:22:38.8833285+02:00",
+  "FollowupId": 744,
+  "ExpirationDate": "2018-07-08T11:22:38.8833285+02:00",
+  "DeliveryCountryId": 934,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 708,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "deserunt",
+  "ERPPaymentTypeKey": "itaque",
+  "ERPDeliveryTermsKey": "rerum",
+  "ERPDeliveryTypeKey": "sint",
+  "Rank": 407,
+  "ApprovedBy": 40,
+  "ApprovedText": "necessitatibus",
+  "ApprovedRegisteredBy": 354,
+  "ApprovedRegisteredDate": "2018-08-24T11:22:38.8833285+02:00",
+  "ExtraField1": "ut",
+  "ExtraField2": "aperiam",
+  "ExtraField3": "laborum",
+  "ExtraField4": "dignissimos",
+  "ExtraField5": "dolorem",
+  "LastRecalculated": "2004-09-22T11:22:38.8833285+02:00",
+  "Updated": "2003-06-30T11:22:38.8833285+02:00",
+  "UpdatedAssociateId": 310,
+  "Registered": "2000-11-21T11:22:38.8833285+01:00",
+  "RegisteredAssociateId": 121,
+  "RequestAssociateId": 654,
+  "RequestComment": "voluptas",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 778,
-      "ERPQuoteAlternativeKey": "eum",
-      "QuoteVersionId": 337,
-      "Name": "Fritsch, Wolff and Cremin",
-      "Description": "Synergistic solution-oriented focus group",
+      "QuoteAlternativeId": 440,
+      "ERPQuoteAlternativeKey": "excepturi",
+      "QuoteVersionId": 372,
+      "Name": "Nitzsche, McDermott and Kuhn",
+      "Description": "Stand-alone coherent secured line",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 14234.627999999999,
-      "ERPDiscountAmount": 16456.634,
-      "DiscountPercent": 7606.218,
-      "DiscountAmount": 8809.6739999999991,
+      "ERPDiscountPercent": 23432.917999999998,
+      "ERPDiscountAmount": 12432.578,
+      "DiscountPercent": 20276.98,
+      "DiscountAmount": 20784.688,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "ut",
-      "VAT": 15171.694,
-      "EarningPercent": 9110.538,
-      "EarningAmount": 28519.399999999998,
-      "SubTotal": 8091.9879999999994,
-      "TotalPrice": 341.606,
-      "ExtraField1": "quos",
-      "ExtraField2": "enim",
-      "ExtraField3": "dicta",
-      "ExtraField4": "eum",
-      "ExtraField5": "perspiciatis",
+      "VATInfo": "facilis",
+      "VAT": 18374.642,
+      "EarningPercent": 5841.776,
+      "EarningAmount": 25579.708,
+      "SubTotal": 12310.351999999999,
+      "TotalPrice": 3441.132,
+      "ExtraField1": "voluptatum",
+      "ExtraField2": "quae",
+      "ExtraField3": "repudiandae",
+      "ExtraField4": "incidunt",
+      "ExtraField5": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 635
+          "FieldType": "System.Int32",
+          "FieldLength": 697
         }
       }
     }
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldType": "System.String",
+      "FieldLength": 733
     }
   }
 }

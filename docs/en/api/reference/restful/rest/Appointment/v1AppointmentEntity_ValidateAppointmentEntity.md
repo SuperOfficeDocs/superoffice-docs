@@ -111,7 +111,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,107 +119,107 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2006-08-23T17:37:38.1188619+02:00",
-  "AppointmentId": 97,
-  "Description": "Synergistic tangible knowledge user",
-  "StartDate": "2010-06-02T17:37:38.1188619+02:00",
-  "EndDate": "2018-06-08T17:37:38.1188619+02:00",
+  "CreatedDate": "1999-12-24T11:22:44.2726872+01:00",
+  "AppointmentId": 993,
+  "Description": "Devolved human-resource hub",
+  "StartDate": "2009-04-05T11:22:44.2726872+02:00",
+  "EndDate": "2010-03-23T11:22:44.2726872+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 218,
+  "MotherId": 601,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-01-01T17:37:38.122876+01:00",
+  "UpdatedDate": "2004-11-11T11:22:44.2726872+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 338,
+  "ActiveLinks": 257,
   "Links": [
     {
-      "EntityName": "Kulas, Sanford and Aufderhar",
-      "Id": 71,
-      "Description": "Multi-channelled tangible utilisation",
-      "ExtraInfo": "corrupti",
-      "LinkId": 305
+      "EntityName": "Runte, Fisher and Tremblay",
+      "Id": 42,
+      "Description": "Configurable human-resource definition",
+      "ExtraInfo": "iure",
+      "LinkId": 476
     },
     {
-      "EntityName": "Kulas, Sanford and Aufderhar",
-      "Id": 71,
-      "Description": "Multi-channelled tangible utilisation",
-      "ExtraInfo": "corrupti",
-      "LinkId": 305
+      "EntityName": "Runte, Fisher and Tremblay",
+      "Id": 42,
+      "Description": "Configurable human-resource definition",
+      "ExtraInfo": "iure",
+      "LinkId": 476
     }
   ],
-  "AlarmLeadTime": "totam",
-  "HasAlarm": false,
-  "ColorIndex": 840,
-  "IsFree": false,
+  "AlarmLeadTime": "temporibus",
+  "HasAlarm": true,
+  "ColorIndex": 803,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "dolor",
-  "LeadTime": "quo",
-  "Location": "nobis",
-  "RejectCounter": 119,
+  "LagTime": "nesciunt",
+  "LeadTime": "aspernatur",
+  "Location": "in",
+  "RejectCounter": 781,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 23,
-      "PersonId": 697,
-      "ContactId": 947,
-      "EmailId": 230,
-      "SendEmail": true,
+      "AssociateId": 272,
+      "PersonId": 735,
+      "ContactId": 663,
+      "EmailId": 289,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 23,
-      "PersonId": 697,
-      "ContactId": 947,
-      "EmailId": 230,
-      "SendEmail": true,
+      "AssociateId": 272,
+      "PersonId": 735,
+      "ContactId": 663,
+      "EmailId": 289,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-05-31T17:37:38.122876+02:00",
+  "ActiveDate": "2005-10-03T11:22:44.2726872+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 994,
+  "PreferredTZLocation": 509,
   "Sale": null,
-  "SuggestedAppointmentId": 412,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 45,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "officia",
+  "CentralserviceVideomeetId": "perferendis",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "783832268"
+    "SuperOffice:1": "Kayli Franecki",
+    "SuperOffice:2": "1333346915"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusamus",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "ipsa",
+    "ExtraFields2": "suscipit"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "aliquid",
+    "CustomFields2": "ea"
   },
-  "PublishEventDate": "2015-06-03T17:37:38.1238313+02:00",
-  "PublishTo": "1998-03-20T17:37:38.1238313+01:00",
-  "PublishFrom": "2010-06-26T17:37:38.1238313+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2015-08-31T11:22:44.2726872+02:00",
+  "PublishTo": "2007-10-14T11:22:44.2726872+02:00",
+  "PublishFrom": "2016-01-16T11:22:44.2726872+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 912,
+      "VisibleId": 783,
       "Visibility": "All",
-      "DisplayValue": "sunt"
+      "DisplayValue": "voluptatem"
     },
     {
-      "VisibleId": 912,
+      "VisibleId": 783,
       "Visibility": "All",
-      "DisplayValue": "sunt"
+      "DisplayValue": "voluptatem"
     }
   ]
 }
@@ -232,7 +232,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sit",
-  "2": "dolore"
+  "1": "earum",
+  "2": "omnis"
 }
 ```

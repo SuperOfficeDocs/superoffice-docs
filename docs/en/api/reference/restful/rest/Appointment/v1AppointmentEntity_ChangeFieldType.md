@@ -103,7 +103,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 778,
-  "ColumnId": 477,
-  "FieldDefault": "quia",
-  "FieldHeight": 67,
-  "FieldLabel": "delectus",
-  "FieldLeft": 158,
-  "FieldTop": 707,
+  "UDefFieldId": 455,
+  "ColumnId": 406,
+  "FieldDefault": "doloribus",
+  "FieldHeight": 974,
+  "FieldLabel": "omnis",
+  "FieldLeft": 447,
+  "FieldTop": 768,
   "FieldType": "Checkbox",
-  "FieldWidth": 472,
-  "FormatMask": "recusandae",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 770,
-  "LabelLeft": 206,
-  "LabelTop": 670,
-  "LabelWidth": 506,
-  "LastVersionId": 602,
-  "ListTableId": 384,
+  "FieldWidth": 169,
+  "FormatMask": "sit",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 938,
+  "LabelLeft": 169,
+  "LabelTop": 372,
+  "LabelWidth": 444,
+  "LastVersionId": 324,
+  "ListTableId": 460,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 827,
-  "ProgId": "nihil",
+  "Page1LineNo": 923,
+  "ProgId": "nam",
   "IsReadOnly": true,
-  "ShortLabel": "incidunt",
-  "TabOrder": 227,
-  "TextLength": 803,
-  "Tooltip": "illo",
-  "UdefIdentity": 579,
-  "UDListDefinitionId": 409,
+  "ShortLabel": "tenetur",
+  "TabOrder": 236,
+  "TextLength": 343,
+  "Tooltip": "officia",
+  "UdefIdentity": 390,
+  "UDListDefinitionId": 641,
   "Justification": "Center",
-  "Version": 931,
-  "TemplateVariableName": "Fay Inc and Sons",
+  "Version": 80,
+  "TemplateVariableName": "Barton, McDermott and Cole",
   "HasBeenPublished": true,
-  "MdoListName": "Beatty-Pfeffer",
+  "MdoListName": "Schowalter, Rodriguez and Thiel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldType": "System.String",
+      "FieldLength": 71
     }
   }
 }

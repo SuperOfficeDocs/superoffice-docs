@@ -127,12 +127,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "exercitationem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "exercitationem",
     "value": {}
   }
 ]
@@ -145,16 +145,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 453,
-  "Name": "Roberts Group",
-  "Tooltip": "dolorem",
+  "RoleId": 385,
+  "Name": "Lowe-Kshlerin",
+  "Tooltip": "voluptatum",
   "RoleType": "Anonymous",
-  "Deleted": 665,
-  "Rank": 965,
-  "Created": "2000-01-29T17:37:39.0533032+01:00",
-  "UseCategories": 525,
+  "Deleted": 943,
+  "Rank": 190,
+  "Created": "2021-10-19T11:22:45.0849869+02:00",
+  "UseCategories": 783,
   "CreatedBy": null,
-  "Updated": "2010-03-29T17:37:39.0533032+02:00",
+  "Updated": "1998-04-23T11:22:45.0849869+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 704
+      "FieldLength": 34
     }
   },
   "_Links": {

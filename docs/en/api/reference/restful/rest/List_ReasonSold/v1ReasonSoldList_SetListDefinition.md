@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 510,
-  "Name": "Murray, Quitzon and Mills",
-  "Tooltip": "consequuntur",
-  "Deleted": false,
-  "Rank": 639,
+  "Id": 53,
+  "Name": "Lemke-Hartmann",
+  "Tooltip": "voluptate",
+  "Deleted": true,
+  "Rank": 990,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "perspiciatis",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "eveniet",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 23,
-  "Name": "Smitham LLC",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 219,
-  "IsCustomList": true,
+  "Id": 125,
+  "Name": "Hermiston-Skiles",
+  "Tooltip": "alias",
+  "Deleted": true,
+  "Rank": 590,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "optio",
+  "UseGroupsAndHeadings": false,
+  "ListType": "blanditiis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldLength": 331
     }
   }
 }

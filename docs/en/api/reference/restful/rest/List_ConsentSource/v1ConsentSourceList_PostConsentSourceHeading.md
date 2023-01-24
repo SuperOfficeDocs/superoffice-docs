@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 473,
-  "Name": "Greenfelder-Upton",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 783,
-  "UdListDefinitionId": 658
+  "HeadingId": 302,
+  "Name": "Sanford, Thiel and McKenzie",
+  "Tooltip": "eius",
+  "Deleted": true,
+  "Rank": 322,
+  "UdListDefinitionId": 27
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 732,
-  "Name": "Brakus-Stokes",
-  "Tooltip": "natus",
+  "HeadingId": 69,
+  "Name": "Ziemann-Lubowitz",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 252,
-  "UdListDefinitionId": 122,
+  "Rank": 584,
+  "UdListDefinitionId": 805,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 342
     }
   }
 }

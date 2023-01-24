@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ryan, Satterfield and Glover"
+  "TableName": "Prohaska LLC"
 }
 ```
 
@@ -95,40 +95,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "est",
-  "Inserts": 313,
-  "Updates": 467,
-  "Deletes": 377,
+  "Message": "impedit",
+  "Inserts": 6,
+  "Updates": 28,
+  "Deletes": 608,
   "RowStatus": [
     {
-      "PrimaryKey": 681,
+      "PrimaryKey": 385,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eum",
-        "quisquam"
+        "nihil",
+        "culpa"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldType": "System.String",
+          "FieldLength": 459
         }
       }
     },
     {
-      "PrimaryKey": 681,
+      "PrimaryKey": 385,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eum",
-        "quisquam"
+        "nihil",
+        "culpa"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldType": "System.String",
+          "FieldLength": 459
         }
       }
     }
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldType": "System.String",
+      "FieldLength": 765
     }
   }
 }

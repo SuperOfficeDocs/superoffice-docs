@@ -71,13 +71,13 @@ OK
 POST /api/v1/Agents/Configuration/GetPageConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "sed",
-  "Instance": "asperiores",
-  "Page": "beatae"
+  "Application": "unde",
+  "Instance": "placeat",
+  "Page": "ex"
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"impedit"
+"odit"
 ```

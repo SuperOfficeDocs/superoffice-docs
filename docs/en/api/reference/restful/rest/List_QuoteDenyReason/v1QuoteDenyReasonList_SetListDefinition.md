@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 51,
-  "Name": "Kuvalis-Brakus",
-  "Tooltip": "eum",
+  "Id": 360,
+  "Name": "Greenholt, Corwin and Klein",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 499,
-  "IsCustomList": true,
+  "Rank": 676,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "ListType": "dicta",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 154,
-  "Name": "Hartmann-Connelly",
-  "Tooltip": "ut",
+  "Id": 156,
+  "Name": "Moore, Heidenreich and Hammes",
+  "Tooltip": "temporibus",
   "Deleted": false,
-  "Rank": 210,
+  "Rank": 351,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "inventore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldType": "System.String",
+      "FieldLength": 957
     }
   }
 }

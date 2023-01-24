@@ -86,30 +86,30 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 717,
-  "Name": "Veum-Rice",
+  "WebhookId": 897,
+  "Name": "Kessler, Considine and Kshlerin",
   "Events": [
-    "est",
-    "quos"
+    "iure",
+    "ut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "iste",
+  "Secret": "nesciunt",
   "State": "Active",
-  "Type": "molestiae",
+  "Type": "et",
   "Headers": {
-    "Headers1": "dignissimos",
-    "Headers2": "illo"
+    "Headers1": "qui",
+    "Headers2": "minus"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-10-25T17:37:19.6439772+02:00",
+  "Registered": "2010-04-23T11:22:39.6956364+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2004-12-19T17:37:19.6459756+01:00",
+  "Updated": "2014-09-20T11:22:39.6956364+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -121,26 +121,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 578,
-  "Name": "Kuhn, Pagac and Rice",
+  "WebhookId": 952,
+  "Name": "Osinski, Lueilwitz and Wunsch",
   "Events": [
-    "id",
-    "dolorum"
+    "non",
+    "necessitatibus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "excepturi",
+  "Secret": "doloribus",
   "State": "Active",
-  "Type": "voluptatem",
+  "Type": "magnam",
   "Headers": {
-    "Headers1": "modi",
-    "Headers2": "neque"
+    "Headers1": "nemo",
+    "Headers2": "cupiditate"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2008-05-09T17:37:19.6469776+02:00",
+  "Registered": "2012-04-03T11:22:39.7112593+02:00",
   "RegisteredAssociate": null,
-  "Updated": "1999-12-24T17:37:19.6469776+01:00",
+  "Updated": "2015-04-22T11:22:39.7112593+02:00",
   "UpdatedAssociate": null
 }
 ```

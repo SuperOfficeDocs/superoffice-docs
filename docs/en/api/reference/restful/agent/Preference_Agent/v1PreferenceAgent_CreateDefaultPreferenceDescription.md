@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 128,
-  "Section": "quos",
-  "Key": "dolore",
-  "Name": "Little, Schinner and Beer",
+  "PrefDescId": 636,
+  "Section": "numquam",
+  "Key": "corrupti",
+  "Name": "Rolfson, Davis and Bednar",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Streamlined contextually-based standardization",
+  "Description": "Total heuristic intranet",
   "IsBuiltin": false,
-  "TableName": "Padberg Group",
-  "UserDefinedListId": 39,
-  "Rank": 982,
-  "SubGroup": "praesentium",
-  "MinLevel": 394,
-  "MaxValue": 382,
-  "MinValue": 612,
-  "RequiredLicense": "dolore",
+  "TableName": "McGlynn Inc and Sons",
+  "UserDefinedListId": 63,
+  "Rank": 473,
+  "SubGroup": "odit",
+  "MinLevel": 667,
+  "MaxValue": 686,
+  "MinValue": 506,
+  "RequiredLicense": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 96
     }
   }
 }

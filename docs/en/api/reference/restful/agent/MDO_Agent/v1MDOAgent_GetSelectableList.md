@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Marvin Inc and Sons",
+  "Name": "Block, Kuhic and Raynor",
   "ForceFlatList": false,
-  "AdditionalInfo": "occaecati",
+  "AdditionalInfo": "unde",
   "OnlyHistory": false
 }
 ```
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 544,
-    "Name": "Rohan-Walter",
-    "ToolTip": "Exercitationem necessitatibus quia cum itaque ad.",
-    "Deleted": false,
-    "Rank": 347,
-    "Type": "nostrum",
-    "ColorBlock": 492,
-    "IconHint": "non",
+    "Id": 924,
+    "Name": "Hoppe Inc and Sons",
+    "ToolTip": "Similique illo et quasi aut.",
+    "Deleted": true,
+    "Rank": 623,
+    "Type": "et",
+    "ColorBlock": 957,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2019-08-20T17:37:18.3462409+02:00",
+    "LastChanged": "2004-06-14T11:22:38.5865114+02:00",
     "ChildItems": [
       {
-        "Id": 865,
-        "Name": "Nolan, Collier and Baumbach",
-        "ToolTip": "Ut provident.",
+        "Id": 677,
+        "Name": "Dach-Hagenes",
+        "ToolTip": "Illum minima architecto sunt dolorum recusandae.",
         "Deleted": false,
-        "Rank": 181,
-        "Type": "tenetur",
-        "ColorBlock": 968,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2016-12-28T17:37:18.3462409+01:00",
+        "Rank": 639,
+        "Type": "voluptates",
+        "ColorBlock": 444,
+        "IconHint": "enim",
+        "Selected": true,
+        "LastChanged": "2005-09-08T11:22:38.5865114+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Mateo Stephon Dach I",
+        "ExtraInfo": "debitis",
+        "StyleHint": "alias",
+        "Hidden": false,
+        "FullName": "Miss Asha Wyatt Streich IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 573
+            "FieldLength": 15
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "et",
+    "ExtraInfo": "quia",
+    "StyleHint": "quidem",
     "Hidden": true,
-    "FullName": "Grace Cummerata",
+    "FullName": "Domingo Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldLength": 803
       }
     }
   }

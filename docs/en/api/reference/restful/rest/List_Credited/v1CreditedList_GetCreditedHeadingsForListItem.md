@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 990,
-    "Name": "Schuppe, Bradtke and Hills",
-    "ToolTip": "Autem ullam dicta recusandae.",
-    "Deleted": false,
-    "Rank": 205,
-    "Type": "aliquid",
-    "ColorBlock": 52,
-    "IconHint": "veniam",
-    "Selected": false,
-    "LastChanged": "1998-06-09T17:37:39.9475024+02:00",
+    "Id": 154,
+    "Name": "Harber, Roberts and Brekke",
+    "ToolTip": "Et omnis.",
+    "Deleted": true,
+    "Rank": 273,
+    "Type": "dolor",
+    "ColorBlock": 274,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2003-08-31T11:22:45.8660551+02:00",
     "ChildItems": [
       {
-        "Id": 668,
-        "Name": "O'Kon, O'Conner and Padberg",
-        "ToolTip": "Voluptatibus dicta voluptas.",
+        "Id": 272,
+        "Name": "Wintheiser, McGlynn and Williamson",
+        "ToolTip": "Eveniet id recusandae dolor hic.",
         "Deleted": false,
-        "Rank": 301,
-        "Type": "non",
-        "ColorBlock": 562,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2006-06-15T17:37:39.9485073+02:00",
+        "Rank": 782,
+        "Type": "asperiores",
+        "ColorBlock": 327,
+        "IconHint": "aperiam",
+        "Selected": true,
+        "LastChanged": "2008-03-15T11:22:45.8660551+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "sunt",
-        "Hidden": true,
-        "FullName": "Miss Burley Mayert",
+        "ExtraInfo": "et",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Gina Bailey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 890
+            "FieldType": "System.Int32",
+            "FieldLength": 297
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "iusto",
+    "ExtraInfo": "quia",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Ms. Yasmine Gusikowski MD",
+    "FullName": "Eden O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldType": "System.String",
+        "FieldLength": 696
       }
     }
   }

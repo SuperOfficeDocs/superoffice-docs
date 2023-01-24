@@ -72,58 +72,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rosenbaum-Runolfsdottir",
-    "Description": "Stand-alone 5th generation intranet",
-    "Rank": 568,
+    "Name": "Erdman-Fahey",
+    "Description": "Ergonomic dynamic implementation",
+    "Rank": 765,
     "Restrictions": [
       {
-        "Name": "Mraz, Streich and Parker",
-        "Operator": "et",
+        "Name": "Hodkiewicz Inc and Sons",
+        "Operator": "at",
         "Values": [
-          "dolor",
-          "quae"
+          "et",
+          "consequatur"
         ],
         "DisplayValues": [
-          "assumenda",
-          "similique"
+          "nihil",
+          "soluta"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 800,
+        "InterParenthesis": 398,
         "InterOperator": "And",
-        "UniqueHash": 340
+        "UniqueHash": 313
       }
     ]
   },
   {
-    "Name": "Rosenbaum-Runolfsdottir",
-    "Description": "Stand-alone 5th generation intranet",
-    "Rank": 568,
+    "Name": "Erdman-Fahey",
+    "Description": "Ergonomic dynamic implementation",
+    "Rank": 765,
     "Restrictions": [
       {
-        "Name": "Mraz, Streich and Parker",
-        "Operator": "et",
+        "Name": "Hodkiewicz Inc and Sons",
+        "Operator": "at",
         "Values": [
-          "dolor",
-          "quae"
+          "et",
+          "consequatur"
         ],
         "DisplayValues": [
-          "assumenda",
-          "similique"
+          "nihil",
+          "soluta"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 800,
+        "InterParenthesis": 398,
         "InterOperator": "And",
-        "UniqueHash": 340
+        "UniqueHash": 313
       }
     ]
   }

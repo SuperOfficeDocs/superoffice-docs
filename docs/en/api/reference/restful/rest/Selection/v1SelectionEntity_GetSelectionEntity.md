@@ -113,7 +113,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -121,73 +121,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 12 Jan 1999 17:37:39 G1T
+Last-Modified: Thu, 01 Apr 1999 11:22:45 G4T
 
 {
-  "Description": "Organic 3rd generation contingency",
-  "Postit": "nemo",
+  "Description": "Focused analyzing challenge",
+  "Postit": "ipsam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 525,
-  "IncludePerson": 819,
-  "MemberCount": 810,
-  "Name": "Wolff Group",
-  "PostitTextId": 863,
-  "CreatedDate": "1999-06-20T17:37:39.1983082+02:00",
-  "SelectionId": 496,
-  "SoundEx": "et",
-  "Source": 689,
-  "TextId": 416,
-  "UpdatedDate": "1999-01-12T17:37:39.1983082+01:00",
-  "UpdatedCount": 963,
-  "Visibility": 651,
+  "GroupIdx": 57,
+  "IncludePerson": 923,
+  "MemberCount": 679,
+  "Name": "Walsh Group",
+  "PostitTextId": 989,
+  "CreatedDate": "2019-07-09T11:22:45.1943375+02:00",
+  "SelectionId": 193,
+  "SoundEx": "iure",
+  "Source": 31,
+  "TextId": 586,
+  "UpdatedDate": "1999-04-01T11:22:45.1943375+02:00",
+  "UpdatedCount": 369,
+  "Visibility": 117,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 8,
-  "TargetTableName": "Lemke Group",
+  "TargetTableNumber": 401,
+  "TargetTableName": "Schuppe LLC",
   "Completed": false,
-  "LeftSelectionId": 698,
-  "RightSelectionId": 945,
+  "LeftSelectionId": 259,
+  "RightSelectionId": 581,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Conroy-Ernser",
-  "ShadowProviderName": "Legros, Willms and Schaefer",
-  "ChartKey": "sunt",
-  "LastLoaded": "2008-06-12T17:37:39.1983082+02:00",
-  "LastLoadedBy": 697,
+  "MainProviderName": "Jacobson Group",
+  "ShadowProviderName": "Mayer LLC",
+  "ChartKey": "autem",
+  "LastLoaded": "2018-10-03T11:22:45.1943375+02:00",
+  "LastLoadedBy": 627,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-04-27T17:37:39.1983082+02:00",
-  "LastMembershipChangeBy": 464,
+  "LastMembershipChange": "2019-01-28T11:22:45.1943375+01:00",
+  "LastMembershipChangeBy": 105,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ut",
-  "MemberTabHeading": "fuga",
-  "MailingsProviderName": "Schaefer, Gusikowski and Mraz",
-  "DashboardTileDefinitionId": 323,
+  "MainHeading": "culpa",
+  "MemberTabHeading": "veritatis",
+  "MailingsProviderName": "Harvey, Swaniawski and Block",
+  "DashboardTileDefinitionId": 158,
   "VisibleFor": [
     {
-      "VisibleId": 126,
+      "VisibleId": 95,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 104
+          "FieldType": "System.Int32",
+          "FieldLength": 63
         }
       }
     },
     {
-      "VisibleId": 126,
+      "VisibleId": 95,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 104
+          "FieldType": "System.Int32",
+          "FieldLength": 63
         }
       }
     }
@@ -197,12 +197,12 @@ Last-Modified: Tue, 12 Jan 1999 17:37:39 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 857
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bernier-Moore",
-  "Context": "odit"
+  "ProviderName": "White, Osinski and Deckow",
+  "Context": "aut"
 }
 ```
 
@@ -186,50 +186,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 41,
-    "Name": "Howe, Macejkovic and Brakus",
-    "ToolTip": "Nulla nulla quaerat ad tempora a ad.",
+    "Id": 407,
+    "Name": "Pacocha-Rohan",
+    "ToolTip": "Vel at.",
     "Deleted": false,
-    "Rank": 830,
-    "Type": "ipsam",
+    "Rank": 973,
+    "Type": "quaerat",
     "ChildItems": [
       {
-        "Id": 937,
-        "Name": "Jaskolski Group",
-        "ToolTip": "Et ut voluptas et ut nulla excepturi.",
-        "Deleted": true,
-        "Rank": 858,
-        "Type": "quia",
+        "Id": 157,
+        "Name": "O'Kon-Stehr",
+        "ToolTip": "Consequuntur dolores.",
+        "Deleted": false,
+        "Rank": 488,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptates",
-        "ColorBlock": 168,
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "omnis",
-        "FullName": "Corene Kling",
+        "IconHint": "quia",
+        "ColorBlock": 460,
+        "ExtraInfo": "fugiat",
+        "StyleHint": "et",
+        "FullName": "Ms. Melba Mills I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 824
+            "FieldLength": 728
           }
         }
       }
     ],
-    "IconHint": "ducimus",
-    "ColorBlock": 904,
-    "ExtraInfo": "beatae",
-    "StyleHint": "ut",
-    "FullName": "Stan Marvin",
+    "IconHint": "sunt",
+    "ColorBlock": 455,
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "architecto",
+    "FullName": "Dr. Shana Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 945
+        "FieldType": "System.Int32",
+        "FieldLength": 405
       }
     }
   }

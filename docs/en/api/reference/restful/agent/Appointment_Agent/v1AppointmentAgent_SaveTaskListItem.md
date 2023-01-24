@@ -86,18 +86,18 @@ OK
 POST /api/v1/Agents/Appointment/SaveTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 679,
-  "Value": "ea",
+  "TaskListItemId": 784,
+  "Value": "distinctio",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "porro",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "IntentId": 378,
-  "Rank": 151,
+  "IntentId": 442,
+  "Rank": 879,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": true,
   "IsDefaultPublished": false,
@@ -113,14 +113,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 680,
-  "Value": "deleniti",
+  "TaskListItemId": 281,
+  "Value": "aspernatur",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "est",
+  "Tooltip": "et",
   "Deleted": false,
-  "IntentId": 72,
-  "Rank": 292,
+  "IntentId": 213,
+  "Rank": 288,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 496
+      "FieldType": "System.String",
+      "FieldLength": 667
     }
   }
 }

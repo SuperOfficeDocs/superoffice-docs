@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,52 +113,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "dicta",
-  "PersonId": 991,
-  "Mrmrs": "officia",
-  "Firstname": "Maximillian",
-  "Lastname": "Oberbrunner",
-  "MiddleName": "Hartmann-Tillman",
-  "Title": "corrupti",
-  "Description": "Function-based impactful workforce",
-  "Email": "price_gottlieb@hartmann.info",
-  "FullName": "Margaret Brakus",
-  "DirectPhone": "473-106-2419",
-  "FormalName": "Dickinson-Oberbrunner",
-  "CountryId": 155,
-  "ContactId": 894,
-  "ContactName": "Lueilwitz-McGlynn",
-  "Retired": 634,
-  "Rank": 752,
-  "ActiveInterests": 396,
+  "Position": "ratione",
+  "PersonId": 833,
+  "Mrmrs": "quaerat",
+  "Firstname": "Cyrus",
+  "Lastname": "Botsford",
+  "MiddleName": "Hansen Inc and Sons",
+  "Title": "enim",
+  "Description": "Function-based incremental algorithm",
+  "Email": "russ@fadel.us",
+  "FullName": "Yoshiko Becker",
+  "DirectPhone": "490-387-0274 x918",
+  "FormalName": "Ortiz-Miller",
+  "CountryId": 840,
+  "ContactId": 58,
+  "ContactName": "Hagenes LLC",
+  "Retired": 182,
+  "Rank": 481,
+  "ActiveInterests": 406,
   "ContactDepartment": "",
-  "ContactCountryId": 378,
-  "ContactOrgNr": "955081",
-  "FaxPhone": "259-286-3658",
-  "MobilePhone": "1-823-419-4604 x411",
-  "ContactPhone": "617-964-6186 x663",
-  "AssociateName": "Waelchi-Turcotte",
-  "AssociateId": 501,
-  "UsePersonAddress": true,
-  "ContactFax": "repudiandae",
-  "Kanafname": "omnis",
-  "Kanalname": "et",
-  "Post1": "sed",
-  "Post2": "officia",
-  "Post3": "molestiae",
-  "EmailName": "arely.weimann@carter.co.uk",
-  "ContactFullName": "Prof. Joey Keagan Thompson",
-  "ActiveErpLinks": 647,
-  "TicketPriorityId": 704,
-  "SupportLanguageId": 259,
-  "SupportAssociateId": 658,
+  "ContactCountryId": 125,
+  "ContactOrgNr": "714353",
+  "FaxPhone": "060-035-5257",
+  "MobilePhone": "901-509-0531",
+  "ContactPhone": "1-635-776-2310 x042",
+  "AssociateName": "Sawayn Group",
+  "AssociateId": 614,
+  "UsePersonAddress": false,
+  "ContactFax": "ullam",
+  "Kanafname": "suscipit",
+  "Kanalname": "blanditiis",
+  "Post1": "rem",
+  "Post2": "error",
+  "Post3": "fugit",
+  "EmailName": "melyssa@schmitt.ca",
+  "ContactFullName": "Kyra Armstrong",
+  "ActiveErpLinks": 741,
+  "TicketPriorityId": 742,
+  "SupportLanguageId": 776,
+  "SupportAssociateId": 139,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldLength": 851
     }
   }
 }

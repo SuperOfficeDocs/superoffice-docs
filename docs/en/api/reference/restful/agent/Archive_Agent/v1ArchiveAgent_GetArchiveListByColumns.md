@@ -102,54 +102,54 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Price, Hoeger and Bruen",
+  "ProviderName": "Boehm-Jacobson",
   "Columns": [
-    "pariatur",
-    "tempore"
+    "nulla",
+    "corrupti"
   ],
   "SortOrder": [
     {
-      "Name": "Heathcote-Howell",
+      "Name": "Dicki-Hodkiewicz",
       "Direction": "ASC"
     },
     {
-      "Name": "Heathcote-Howell",
+      "Name": "Dicki-Hodkiewicz",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Kemmer, Johnston and Sawayn",
-      "Operator": "eius",
+      "Name": "Cremin, Homenick and Kulas",
+      "Operator": "repellat",
       "Values": [
-        "enim",
-        "doloribus"
+        "sit",
+        "nulla"
       ],
       "DisplayValues": [
-        "laudantium",
-        "sit"
+        "mollitia",
+        "iste"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 978,
+      "InterParenthesis": 394,
       "InterOperator": "And",
-      "UniqueHash": 695
+      "UniqueHash": 69
     }
   ],
   "Entities": [
-    "repellendus",
-    "in"
+    "impedit",
+    "consequatur"
   ],
-  "Page": 852,
-  "PageSize": 662
+  "Page": 935,
+  "PageSize": 206
 }
 ```
 
@@ -161,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Mante, Haley and Denesik",
-    "PrimaryKey": 285,
+    "EntityName": "Beatty-Hyatt",
+    "PrimaryKey": 229,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quisquam",
-        "TooltipHint": "veritatis",
-        "LinkHint": "est"
+        "DisplayValue": "accusantium",
+        "TooltipHint": "voluptatem",
+        "LinkHint": "quod"
       }
     },
-    "LinkHint": "iusto",
-    "StyleHint": "facere",
+    "LinkHint": "error",
+    "StyleHint": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldLength": 687
       }
     }
   }

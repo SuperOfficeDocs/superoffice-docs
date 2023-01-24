@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Huel-Legros",
-    "ToolTip": "Natus libero omnis modi suscipit doloremque.",
+    "Id": 557,
+    "Name": "Kerluke, Ruecker and Schuster",
+    "ToolTip": "In molestias asperiores est voluptas.",
     "Deleted": false,
-    "Rank": 339,
-    "Type": "in",
-    "ColorBlock": 538,
-    "IconHint": "totam",
+    "Rank": 695,
+    "Type": "officia",
+    "ColorBlock": 216,
+    "IconHint": "veritatis",
     "Selected": true,
-    "LastChanged": "2001-08-11T17:37:39.6234305+02:00",
+    "LastChanged": "2022-05-18T11:22:45.5536344+02:00",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Schmeler-Nienow",
-        "ToolTip": "Consequuntur et molestiae sed eos delectus ut.",
-        "Deleted": false,
-        "Rank": 137,
-        "Type": "omnis",
-        "ColorBlock": 576,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2016-08-29T17:37:39.6234305+02:00",
+        "Id": 338,
+        "Name": "Miller, Swift and Cartwright",
+        "ToolTip": "Quis id animi perferendis omnis eius sit assumenda.",
+        "Deleted": true,
+        "Rank": 50,
+        "Type": "qui",
+        "ColorBlock": 302,
+        "IconHint": "accusamus",
+        "Selected": true,
+        "LastChanged": "2006-12-14T11:22:45.5536344+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "eius",
-        "Hidden": false,
-        "FullName": "Theresia Bartell",
+        "ExtraInfo": "officia",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Josephine Gibson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 971
+            "FieldType": "System.Int32",
+            "FieldLength": 358
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "nemo",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "temporibus",
     "Hidden": false,
-    "FullName": "Mrs. Malika Michale Upton II",
+    "FullName": "Kyler Schinner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldLength": 102
       }
     }
   }

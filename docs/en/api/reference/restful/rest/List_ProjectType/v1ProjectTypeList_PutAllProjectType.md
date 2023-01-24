@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 634,
-    "Name": "Luettgen Group",
-    "Tooltip": "omnis",
+    "Id": 304,
+    "Name": "King Inc and Sons",
+    "Tooltip": "laboriosam",
     "Deleted": true,
-    "UdListDefinitionId": 950,
-    "Rank": 428
+    "UdListDefinitionId": 24,
+    "Rank": 527
   },
   {
-    "Id": 634,
-    "Name": "Luettgen Group",
-    "Tooltip": "omnis",
+    "Id": 304,
+    "Name": "King Inc and Sons",
+    "Tooltip": "laboriosam",
     "Deleted": true,
-    "UdListDefinitionId": 950,
-    "Rank": 428
+    "UdListDefinitionId": 24,
+    "Rank": 527
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Batz-Hermiston",
-    "Tooltip": "ab",
-    "Deleted": false,
-    "UdListDefinitionId": 172,
-    "Rank": 892,
+    "Id": 165,
+    "Name": "Swaniawski-Toy",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 839,
+    "Rank": 974,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 869
+        "FieldLength": 62
       }
     }
   }

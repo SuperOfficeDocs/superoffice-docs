@@ -85,14 +85,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eos",
-  "ProviderName": "Lemke-Stanton",
-  "StorageKey": "eveniet",
+  "StorageType": "quo",
+  "ProviderName": "Schiller, Bergstrom and Skiles",
+  "StorageKey": "repellat",
   "StaticColumns": [
-    "sit",
-    "in"
+    "eos",
+    "dolore"
   ],
-  "Context": "dolor"
+  "Context": "necessitatibus"
 }
 ```
 
@@ -105,15 +105,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Prohaska-Nader",
-      "Operator": "perspiciatis",
+      "Name": "Brown-Willms",
+      "Operator": "aspernatur",
       "Values": [
-        "nihil",
-        "nesciunt"
+        "cum",
+        "labore"
       ],
       "DisplayValues": [
-        "sed",
-        "enim"
+        "id",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,65 +121,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 863,
+      "InterParenthesis": 246,
       "InterOperator": "And",
-      "UniqueHash": 655
+      "UniqueHash": 748
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bailey, Conn and Ankunding",
-      "DisplayTooltip": "labore",
-      "DisplayType": "minus",
+      "DisplayName": "Jewess Inc and Sons",
+      "DisplayTooltip": "autem",
+      "DisplayType": "optio",
       "CanOrderBy": true,
-      "Name": "Goyette Group",
+      "Name": "Bartell Group",
       "CanRestrictBy": false,
-      "RestrictionType": "incidunt",
-      "RestrictionListName": "Hegmann Group",
+      "RestrictionType": "ut",
+      "RestrictionListName": "Schmitt-Schroeder",
       "IsVisible": false,
-      "ExtraInfo": "amet",
-      "Width": "dolorem",
-      "IconHint": "veritatis",
-      "HeadingIconHint": "rerum"
+      "ExtraInfo": "laudantium",
+      "Width": "et",
+      "IconHint": "quaerat",
+      "HeadingIconHint": "sunt"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Christiansen Group",
-      "PrimaryKey": 444,
+      "EntityName": "Pollich Group",
+      "PrimaryKey": 140,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "occaecati",
-          "TooltipHint": "ipsam",
-          "LinkHint": "enim"
+          "DisplayValue": "accusantium",
+          "TooltipHint": "eum",
+          "LinkHint": "voluptatem"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "eaque",
+      "LinkHint": "consequatur",
+      "StyleHint": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 11
+          "FieldType": "System.String",
+          "FieldLength": 421
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Johns, Borer and Parker",
-      "Description": "Integrated intermediate analyzer",
-      "Rank": 64,
+      "Name": "Harber Inc and Sons",
+      "Description": "Secured actuating orchestration",
+      "Rank": 625,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Johns, Borer and Parker",
-      "Description": "Integrated intermediate analyzer",
-      "Rank": 64,
+      "Name": "Harber Inc and Sons",
+      "Description": "Secured actuating orchestration",
+      "Rank": 625,
       "Restrictions": [
         {},
         {}
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldLength": 553
     }
   }
 }

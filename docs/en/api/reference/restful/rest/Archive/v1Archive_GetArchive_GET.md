@@ -139,14 +139,14 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=cupiditate
-GET /api/v1/Archive/{archiveProviderName}?$top=126
-GET /api/v1/Archive/{archiveProviderName}?$skip=233
+GET /api/v1/Archive/{archiveProviderName}?$entities=numquam
+GET /api/v1/Archive/{archiveProviderName}?$top=526
+GET /api/v1/Archive/{archiveProviderName}?$skip=406
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=dolorem
+GET /api/v1/Archive/{archiveProviderName}?$context=rerum
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=sint
+GET /api/v1/Archive/{archiveProviderName}?$metadata=aut
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
 GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
@@ -200,21 +200,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "omnis",
+  "odata.nextLink": "dolorum",
   "value": [
     {
-      "PrimaryKey": 9075,
-      "EntityName": "sale",
-      "saleId": 9075,
-      "contactId": 3788,
-      "name": "Smitham, Green and Jaskolski"
+      "PrimaryKey": 2374,
+      "EntityName": "person",
+      "personId": 2374,
+      "fullName": "Nico O'Hara"
     },
     {
-      "PrimaryKey": 8652,
-      "EntityName": "sale",
-      "saleId": 8652,
-      "contactId": 7062,
-      "name": "Hills Inc and Sons"
+      "PrimaryKey": 9547,
+      "EntityName": "person",
+      "personId": 9547,
+      "fullName": "Dr. Tina Timmy Watsica"
     }
   ]
 }

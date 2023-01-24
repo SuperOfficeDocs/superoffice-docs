@@ -72,10 +72,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 957,
+  "QuoteConnectionId": 297,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "blanditiis",
-    "ConnectionConfigFields2": "quidem"
+    "ConnectionConfigFields1": "labore",
+    "ConnectionConfigFields2": "numquam"
   }
 }
 ```
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "modi",
-  "2": "sint"
+  "1": "cumque",
+  "2": "id"
 }
 ```

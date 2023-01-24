@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 1002,
-  "FieldName": "Lowe, Greenholt and Ledner",
-  "Label": "quam",
-  "Tooltip": "eos",
-  "Editable": true,
+  "QuoteLineConfigurationId": 332,
+  "FieldName": "Bogan, Torphy and Ryan",
+  "Label": "corrupti",
+  "Tooltip": "labore",
+  "Editable": false,
   "InUse": false,
   "Mandatory": true,
-  "Rank": 32,
+  "Rank": 785,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 563
+      "FieldLength": 60
     }
   }
 }

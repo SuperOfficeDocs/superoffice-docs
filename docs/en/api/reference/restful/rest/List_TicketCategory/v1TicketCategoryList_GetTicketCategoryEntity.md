@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,36 +88,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 218,
-  "ParentId": 410,
-  "Name": "Spencer Group",
-  "Fullname": "voluptates",
-  "CategoryMaster": 465,
+  "TicketCategoryId": 907,
+  "ParentId": 35,
+  "Name": "Gutkowski LLC",
+  "Fullname": "aliquam",
+  "CategoryMaster": 424,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hamill, Kohler and Terry",
+  "ExternalName": "Nitzsche LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 914,
-  "ReplyTemplate": 462,
-  "NotificationEmail": "llewellyn_rau@reynolds.com",
+  "AssignmentLag": 104,
+  "ReplyTemplate": 782,
+  "NotificationEmail": "jeffery_frami@boyleromaguera.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 690,
+  "EffectiveReplyTemplateId": 934,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "ab"
+    "CustomFields1": "non",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 932
     }
   }
 }

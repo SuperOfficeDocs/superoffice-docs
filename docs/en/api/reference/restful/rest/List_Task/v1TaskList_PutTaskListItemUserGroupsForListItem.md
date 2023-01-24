@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 80,
-    "Name": "Carroll, Nienow and Smith",
-    "ToolTip": "Eaque ipsa vero molestiae.",
+    "Id": 404,
+    "Name": "Kerluke, Yundt and Zulauf",
+    "ToolTip": "Autem facere necessitatibus.",
     "Deleted": false,
-    "Rank": 133,
-    "Type": "aspernatur",
-    "ColorBlock": 1002,
-    "IconHint": "eos",
-    "Selected": true,
-    "LastChanged": "2001-11-04T17:37:40.3894721+01:00",
+    "Rank": 204,
+    "Type": "provident",
+    "ColorBlock": 636,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2018-02-03T11:22:46.2253576+01:00",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Connelly-Rau",
-        "ToolTip": "Iste facilis eligendi nam nihil.",
+        "Id": 60,
+        "Name": "Reinger Group",
+        "ToolTip": "Velit nihil quidem doloremque voluptatem porro vero.",
         "Deleted": false,
-        "Rank": 571,
-        "Type": "occaecati",
-        "ColorBlock": 140,
-        "IconHint": "nihil",
+        "Rank": 228,
+        "Type": "tempora",
+        "ColorBlock": 120,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "2022-03-07T17:37:40.3894721+01:00",
+        "LastChanged": "2013-04-17T11:22:46.2253576+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "harum",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Millie Lilian Kerluke Sr."
+        "FullName": "Daisy Roberts"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "adipisci",
-    "Hidden": false,
-    "FullName": "Mr. Ted Perry Weimann DDS"
+    "ExtraInfo": "dolores",
+    "StyleHint": "optio",
+    "Hidden": true,
+    "FullName": "Kurtis Kshlerin Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 526,
-    "Name": "Barton-Zieme",
-    "ToolTip": "Animi sint sequi aut quas.",
-    "Deleted": false,
-    "Rank": 962,
-    "Type": "ut",
-    "ColorBlock": 933,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2013-01-10T17:37:40.3904721+01:00",
+    "Id": 575,
+    "Name": "Pouros LLC",
+    "ToolTip": "In aliquid ea aut quod quibusdam consectetur.",
+    "Deleted": true,
+    "Rank": 603,
+    "Type": "voluptas",
+    "ColorBlock": 379,
+    "IconHint": "ipsam",
+    "Selected": false,
+    "LastChanged": "2017-03-09T11:22:46.2253576+01:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Rath, Streich and Homenick",
-        "ToolTip": "Harum harum perspiciatis necessitatibus ratione laudantium.",
-        "Deleted": false,
-        "Rank": 27,
-        "Type": "ipsa",
-        "ColorBlock": 266,
-        "IconHint": "nulla",
+        "Id": 13,
+        "Name": "Vandervort, Torp and Stark",
+        "ToolTip": "Voluptates molestias id qui enim.",
+        "Deleted": true,
+        "Rank": 528,
+        "Type": "porro",
+        "ColorBlock": 326,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "1996-11-22T17:37:40.3914733+01:00",
+        "LastChanged": "2004-02-25T11:22:46.2253576+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "id",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Oma Kshlerin",
+        "FullName": "Luis Kunze",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 970
+            "FieldType": "System.Int32",
+            "FieldLength": 208
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "ratione",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Matteo Lemke",
+    "FullName": "Prof. Richmond Heloise Brekke DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 402
       }
     }
   }

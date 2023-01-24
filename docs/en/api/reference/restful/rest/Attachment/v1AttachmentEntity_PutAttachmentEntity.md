@@ -88,16 +88,16 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 470,
-  "Name": "Larkin, Hand and Blanda",
-  "ContentType": "dicta",
-  "AttSize": 771,
+  "AttachmentId": 83,
+  "Name": "Kulas, Sporer and Lynch",
+  "ContentType": "ipsa",
+  "AttSize": 174,
   "InlineImage": false,
-  "ContentId": "consectetur"
+  "ContentId": "soluta"
 }
 ```
 
@@ -108,23 +108,23 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 20,
-  "Name": "Bailey Group",
-  "ContentType": "at",
-  "AttSize": 770,
+  "AttachmentId": 346,
+  "Name": "Torphy-Harvey",
+  "ContentType": "saepe",
+  "AttSize": 532,
   "InlineImage": false,
-  "ContentId": "mollitia",
+  "ContentId": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 721
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

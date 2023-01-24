@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 561
+  "ContactId": 388
 }
 ```
 
@@ -92,41 +92,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 19634.51,
-  "Wgs84Longitude": 13974.506,
+  "Wgs84Latitude": 780.366,
+  "Wgs84Longitude": 27406.829999999998,
   "LocalizedAddress": [
     [
       {
-        "Name": "Wunsch-McLaughlin",
-        "Value": "in",
-        "Tooltip": "nam",
-        "Label": "nulla",
-        "ValueLength": 362,
-        "AddressType": "quidem",
+        "Name": "Toy Inc and Sons",
+        "Value": "id",
+        "Tooltip": "nulla",
+        "Label": "dolorem",
+        "ValueLength": 979,
+        "AddressType": "libero",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 204
+            "FieldType": "System.Int32",
+            "FieldLength": 415
           }
         }
       }
     ],
     [
       {
-        "Name": "Barrows, Fisher and Roberts",
-        "Value": "aut",
-        "Tooltip": "et",
-        "Label": "quidem",
-        "ValueLength": 150,
-        "AddressType": "et",
+        "Name": "Huel LLC",
+        "Value": "velit",
+        "Tooltip": "asperiores",
+        "Label": "ea",
+        "ValueLength": 960,
+        "AddressType": "totam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 693
+            "FieldLength": 359
           }
         }
       }
@@ -134,13 +134,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "est",
+  "Formatted": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldLength": 371
     }
   }
 }

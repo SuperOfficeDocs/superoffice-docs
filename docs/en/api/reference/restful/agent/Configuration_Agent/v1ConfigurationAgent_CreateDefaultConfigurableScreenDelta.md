@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 539,
-  "Name": "Greenholt, Senger and Parisian",
-  "Description": "Visionary homogeneous structure",
-  "DeltaJson": "labore",
+  "ConfigurableScreenDeltaId": 174,
+  "Name": "Runte LLC",
+  "Description": "Down-sized next generation methodology",
+  "DeltaJson": "odio",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "excepturi",
-  "UpdatedDate": "1999-11-20T17:37:17.1092409+01:00",
-  "CreatedDate": "2020-11-12T17:37:17.1092409+01:00",
+  "RecipeId": "aspernatur",
+  "UpdatedDate": "2018-02-27T11:22:37.6023765+01:00",
+  "CreatedDate": "1997-04-07T11:22:37.6023765+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    41,
-    802
+    803,
+    219
   ],
-  "AppliesToKey": "maiores",
+  "AppliesToKey": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldType": "System.String",
+      "FieldLength": 232
     }
   }
 }

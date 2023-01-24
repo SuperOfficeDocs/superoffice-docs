@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 679,
-  "Name": "Kuvalis LLC",
-  "Tooltip": "nisi",
+  "Id": 153,
+  "Name": "Blick-Shields",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "UdListDefinitionId": 674,
-  "Rank": 345
+  "UdListDefinitionId": 982,
+  "Rank": 68
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 189,
-  "Name": "Wyman-Kertzmann",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "UdListDefinitionId": 633,
-  "Rank": 302,
+  "Id": 167,
+  "Name": "Dooley, Murazik and Hills",
+  "Tooltip": "delectus",
+  "Deleted": false,
+  "UdListDefinitionId": 101,
+  "Rank": 423,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 475
     }
   }
 }

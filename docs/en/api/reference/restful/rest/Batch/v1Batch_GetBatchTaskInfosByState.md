@@ -69,6 +69,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,36 +90,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 506,
-    "Name": "O'Kon Inc and Sons",
-    "AssociateId": 909,
-    "DetailsTable": 454,
-    "DetailsRecord": 379,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 992,
+    "Name": "Marvin-Watsica",
+    "AssociateId": 41,
+    "DetailsTable": 13,
+    "DetailsRecord": 358,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "neque",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "eum",
+      "ParameterObject2": "enim"
     },
-    "LastStarted": "2006-01-26T17:37:39.4024016+01:00",
-    "Created": "2011-03-01T17:37:39.4024016+01:00",
-    "StartCount": 316,
-    "DatabaseSerialNumber": "1069751",
-    "Context": "ut",
-    "Result": "incidunt",
+    "LastStarted": "1999-04-04T11:22:45.3817553+02:00",
+    "Created": "2001-05-29T11:22:45.3817553+02:00",
+    "StartCount": 337,
+    "DatabaseSerialNumber": "479997",
+    "Context": "aut",
+    "Result": "culpa",
     "State": "All",
-    "Description": "Exclusive attitude-oriented neural-net",
-    "Response": "tempora",
-    "Request": "consectetur",
-    "ProgressDescription": "Enhanced mission-critical model",
-    "ProgressPercent": 84,
-    "FileName": "Towne, Windler and Jaskolski",
+    "Description": "Future-proofed well-modulated portal",
+    "Response": "nulla",
+    "Request": "repellendus",
+    "ProgressDescription": "Configurable 24/7 encoding",
+    "ProgressPercent": 205,
+    "FileName": "Bartell, Bogisich and Kub",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldLength": 811
       }
     }
   }

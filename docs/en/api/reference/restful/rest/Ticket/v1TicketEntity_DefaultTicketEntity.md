@@ -109,7 +109,7 @@ OK
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -119,21 +119,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 836,
-  "Title": "occaecati",
-  "CreatedAt": "2013-07-13T17:37:39.2453036+02:00",
-  "LastChanged": "2006-12-30T17:37:39.2453036+01:00",
-  "ReadByOwner": "2003-01-19T17:37:39.2453036+01:00",
-  "ReadByCustomer": "2006-07-08T17:37:39.2453036+02:00",
-  "FirstReadByOwner": "1995-09-11T17:37:39.2453036+02:00",
-  "FirstReadByUser": "1998-03-09T17:37:39.2453036+01:00",
-  "Activate": "1996-02-17T17:37:39.2453036+01:00",
-  "ClosedAt": "2019-02-07T17:37:39.2453036+01:00",
-  "RepliedAt": "1999-04-15T17:37:39.2453036+02:00",
-  "AlertTimeout": "2010-02-17T17:37:39.2453036+01:00",
-  "Deadline": "1999-01-28T17:37:39.2453036+01:00",
+  "TicketId": 951,
+  "Title": "quasi",
+  "CreatedAt": "2015-09-29T11:22:45.2412009+02:00",
+  "LastChanged": "2001-02-02T11:22:45.2412009+01:00",
+  "ReadByOwner": "2015-10-01T11:22:45.2412009+02:00",
+  "ReadByCustomer": "2019-04-29T11:22:45.2412009+02:00",
+  "FirstReadByOwner": "2006-04-11T11:22:45.2412009+02:00",
+  "FirstReadByUser": "2004-04-05T11:22:45.2412009+02:00",
+  "Activate": "1996-06-28T11:22:45.2412009+02:00",
+  "ClosedAt": "2003-07-12T11:22:45.2412009+02:00",
+  "RepliedAt": "2014-01-22T11:22:45.2412009+01:00",
+  "AlertTimeout": "2013-10-28T11:22:45.2412009+01:00",
+  "Deadline": "2020-01-15T11:22:45.2412009+01:00",
   "CreatedBy": null,
-  "Author": "vel",
+  "Author": "architecto",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -144,157 +144,157 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "voluptatem",
-      "PersonId": 631,
-      "Mrmrs": "aut",
-      "Firstname": "Pearline",
-      "Lastname": "Spinka",
-      "MiddleName": "Bartell Inc and Sons",
-      "Title": "nihil",
-      "Description": "Grass-roots national standardization",
-      "Email": "elijah_ratke@dickens.ca",
-      "FullName": "Keaton Olson",
-      "DirectPhone": "1-299-621-9694",
-      "FormalName": "Hegmann-Pacocha",
-      "CountryId": 584,
-      "ContactId": 287,
-      "ContactName": "Prohaska-Ruecker",
-      "Retired": 260,
-      "Rank": 101,
-      "ActiveInterests": 978,
+      "Position": "eos",
+      "PersonId": 638,
+      "Mrmrs": "odit",
+      "Firstname": "Neha",
+      "Lastname": "Ledner",
+      "MiddleName": "Hayes Group",
+      "Title": "incidunt",
+      "Description": "Stand-alone zero defect standardization",
+      "Email": "jaron@hermistondenesik.com",
+      "FullName": "Edna Raymond Bergnaum I",
+      "DirectPhone": "774.121.8361",
+      "FormalName": "Reilly, Larson and Jewess",
+      "CountryId": 863,
+      "ContactId": 750,
+      "ContactName": "Rolfson Group",
+      "Retired": 104,
+      "Rank": 381,
+      "ActiveInterests": 598,
       "ContactDepartment": "",
-      "ContactCountryId": 680,
-      "ContactOrgNr": "1125259",
-      "FaxPhone": "1-319-828-3137 x92625",
-      "MobilePhone": "278.549.7657 x9963",
-      "ContactPhone": "(502)393-0926",
-      "AssociateName": "Boehm Group",
-      "AssociateId": 484,
-      "UsePersonAddress": true,
-      "ContactFax": "accusantium",
-      "Kanafname": "quia",
-      "Kanalname": "omnis",
-      "Post1": "officia",
-      "Post2": "doloribus",
-      "Post3": "animi",
-      "EmailName": "jordi@hodkiewicz.com",
-      "ContactFullName": "Marcus Charley Upton DVM",
-      "ActiveErpLinks": 485,
-      "TicketPriorityId": 500,
-      "SupportLanguageId": 387,
-      "SupportAssociateId": 135,
+      "ContactCountryId": 946,
+      "ContactOrgNr": "1115747",
+      "FaxPhone": "(060)426-5304",
+      "MobilePhone": "(285)913-2684 x765",
+      "ContactPhone": "1-688-938-2739",
+      "AssociateName": "Kerluke Inc and Sons",
+      "AssociateId": 657,
+      "UsePersonAddress": false,
+      "ContactFax": "iste",
+      "Kanafname": "odit",
+      "Kanalname": "aperiam",
+      "Post1": "labore",
+      "Post2": "in",
+      "Post3": "quia",
+      "EmailName": "chasity@gottlieb.ca",
+      "ContactFullName": "D'angelo Johnston",
+      "ActiveErpLinks": 318,
+      "TicketPriorityId": 728,
+      "SupportLanguageId": 233,
+      "SupportAssociateId": 375,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 697
+          "FieldLength": 334
         }
       }
     }
   ],
-  "AlertLevel": 224,
-  "ConnectId": 798,
+  "AlertLevel": 435,
+  "ConnectId": 235,
   "ReadStatus": "Green",
-  "TimeToReply": 376,
-  "RealTimeToReply": 210,
-  "TimeToClose": 922,
-  "RealTimeToClose": 186,
-  "TimeSpentInternally": 193,
-  "TimeSpentExternally": 67,
-  "TimeSpentQueue": 351,
-  "RealTimeSpentInternally": 477,
-  "RealTimeSpentExternally": 963,
-  "RealTimeSpentQueue": 452,
+  "TimeToReply": 241,
+  "RealTimeToReply": 176,
+  "TimeToClose": 946,
+  "RealTimeToClose": 3,
+  "TimeSpentInternally": 92,
+  "TimeSpentExternally": 859,
+  "TimeSpentQueue": 226,
+  "RealTimeSpentInternally": 709,
+  "RealTimeSpentExternally": 456,
+  "RealTimeSpentQueue": 679,
   "HasAttachment": true,
-  "NumReplies": 398,
-  "NumMessages": 670,
-  "FromAddress": "ut",
+  "NumReplies": 627,
+  "NumMessages": 35,
+  "FromAddress": "vel",
   "Messages": [
     {
-      "TicketMessageId": 827,
-      "CreatedAt": "1996-04-28T17:37:39.2483093+02:00",
+      "TicketMessageId": 322,
+      "CreatedAt": "2007-10-07T11:22:45.2412009+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "vel",
-      "PersonId": 969,
-      "PersonFullName": "Mr. Eloisa Trantow PhD",
-      "ContactId": 187,
-      "ContactName": "Konopelski, Koss and Macejkovic",
+      "Important": true,
+      "Author": "voluptatem",
+      "PersonId": 12,
+      "PersonFullName": "Brain Halvorson",
+      "ContactId": 995,
+      "ContactName": "Larkin-Bednar",
       "ContactDepartment": "",
-      "NumAttachments": 824,
-      "EmailHeader": "karlee.heller@carter.us",
+      "NumAttachments": 461,
+      "EmailHeader": "devin@ebert.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "ipsam",
-      "Sentiment": 684,
-      "SentimentConfidence": 791,
-      "CreatedBy": 726,
-      "ChangedAt": "2000-02-27T17:37:39.2493086+01:00",
+      "Language": "quasi",
+      "Sentiment": 594,
+      "SentimentConfidence": 166,
+      "CreatedBy": 433,
+      "ChangedAt": "2019-05-03T11:22:45.2412009+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 799
+          "FieldLength": 787
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 273,
-      "Name": "Borer-Roob",
-      "ToolTip": "Doloremque nobis provident saepe incidunt voluptatem unde.",
+      "Id": 710,
+      "Name": "McGlynn Group",
+      "ToolTip": "Asperiores non et id nostrum itaque quia quidem.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldType": "System.String",
+          "FieldLength": 407
         }
       }
     },
     {
-      "Id": 273,
-      "Name": "Borer-Roob",
-      "ToolTip": "Doloremque nobis provident saepe incidunt voluptatem unde.",
+      "Id": 710,
+      "Name": "McGlynn Group",
+      "ToolTip": "Asperiores non et id nostrum itaque quia quidem.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldType": "System.String",
+          "FieldLength": 407
         }
       }
     }
   ],
-  "Language": "et",
-  "Sentiment": 667,
-  "SentimentConfidence": 962,
-  "SuggestedCategoryId": 254,
+  "Language": "ut",
+  "Sentiment": 66,
+  "SentimentConfidence": 805,
+  "SuggestedCategoryId": 603,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 979,
-  "IconHint": "est",
+  "OrigHumanCategoryId": 239,
+  "IconHint": "nam",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "doloribus",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "ipsa"
+    "CustomFields1": "ut",
+    "CustomFields2": "omnis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 486
+      "FieldLength": 885
     }
   }
 }

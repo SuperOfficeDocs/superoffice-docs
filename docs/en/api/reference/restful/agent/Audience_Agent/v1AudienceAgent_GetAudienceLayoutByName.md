@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Feil Group"
+  "LayoutName": "Koss Inc and Sons"
 }
 ```
 
@@ -93,11 +93,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 902,
-  "InstanceLayout": "nemo",
-  "InstanceName": "Koss-Lockman",
-  "CreatedDate": "2011-01-19T17:37:16.8892417+01:00",
-  "UpdatedDate": "2022-02-14T17:37:16.8892417+01:00",
+  "AudienceLayoutId": 309,
+  "InstanceLayout": "voluptatem",
+  "InstanceName": "Williamson-Roob",
+  "CreatedDate": "2001-04-17T11:22:37.4304911+02:00",
+  "UpdatedDate": "1997-12-11T11:22:37.4304911+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldLength": 569
     }
   }
 }

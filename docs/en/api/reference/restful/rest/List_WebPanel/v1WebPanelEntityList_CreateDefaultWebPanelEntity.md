@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,33 +84,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 136,
-  "Name": "Douglas-Boehm",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 984,
+  "WebPanelId": 746,
+  "Name": "Nader Group",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "Rank": 973,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Bins Inc and Sons",
+  "WindowName": "Stehr, Weber and Rowe",
   "Url": "http://www.example.com/",
-  "ProgId": "ut",
-  "Icon": 264,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "molestiae",
+  "Icon": 198,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 615
+      "FieldLength": 921
     }
   }
 }

@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schaefer-Swaniawski",
+  "ProviderName": "Senger-Von",
   "Restrictions": [
     {
-      "Name": "White, Huels and Cronin",
-      "Operator": "ab",
+      "Name": "Lindgren Inc and Sons",
+      "Operator": "odio",
       "Values": [
-        "veniam",
-        "vel"
+        "libero",
+        "sequi"
       ],
       "DisplayValues": [
-        "in",
-        "et"
+        "est",
+        "earum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 375,
+      "InterParenthesis": 129,
       "InterOperator": "And",
-      "UniqueHash": 476
+      "UniqueHash": 201
     }
   ]
 }
@@ -124,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Mann, Jones and D'Amore",
-    "DisplayTooltip": "rerum",
-    "DisplayType": "officia",
+    "DisplayName": "Rutherford Group",
+    "DisplayTooltip": "qui",
+    "DisplayType": "consectetur",
     "CanOrderBy": false,
-    "Name": "Metz, Christiansen and Dare",
-    "CanRestrictBy": true,
-    "RestrictionType": "voluptatem",
-    "RestrictionListName": "Hodkiewicz, Walker and Yost",
+    "Name": "Predovic Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "quia",
+    "RestrictionListName": "Mitchell-Johnston",
     "IsVisible": true,
-    "ExtraInfo": "delectus",
-    "Width": "autem",
-    "IconHint": "sapiente",
-    "HeadingIconHint": "harum"
+    "ExtraInfo": "earum",
+    "Width": "nesciunt",
+    "IconHint": "veritatis",
+    "HeadingIconHint": "ipsum"
   }
 ]
 ```

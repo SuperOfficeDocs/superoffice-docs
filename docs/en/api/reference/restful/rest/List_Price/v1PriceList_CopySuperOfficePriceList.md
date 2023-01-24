@@ -32,9 +32,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=09/07/1999 17:37:41
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/11/2011 17:37:41
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=430
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=11/11/1998 11:22:47
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=05/23/2018 11:22:47
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=771
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,22 +94,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 822,
-  "ERPPriceListKey": "voluptas",
-  "QuoteConnectionId": 605,
-  "Name": "Emmerich Group",
-  "Description": "Ameliorated transitional service-desk",
-  "Currency": "ipsa",
-  "CurrencyName": "Keebler Inc and Sons",
-  "ValidFrom": "2016-07-11T17:37:40.1205012+02:00",
-  "ValidTo": "2009-06-22T17:37:40.1205012+02:00",
-  "IsActive": false,
+  "PriceListId": 278,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 840,
+  "Name": "Ryan Group",
+  "Description": "Future-proofed holistic architecture",
+  "Currency": "dolores",
+  "CurrencyName": "Goyette-Okuneva",
+  "ValidFrom": "2013-02-02T11:22:46.0066565+01:00",
+  "ValidTo": "2000-10-29T11:22:46.0066565+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldLength": 958
     }
   }
 }

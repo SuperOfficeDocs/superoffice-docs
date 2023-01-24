@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 287,
-  "SourcePersonId": 433,
-  "DestinationContactId": 98,
-  "DestinationPersonId": 693,
-  "RelationId": 102,
-  "Comment": "qui",
-  "RelationDefinitionId": 11,
-  "Reversed": 42,
-  "UpdatedDate": "2003-07-14T17:37:18.7772428+02:00",
-  "CreatedDate": "2007-04-10T17:37:18.7772428+02:00",
+  "SourceContactId": 406,
+  "SourcePersonId": 602,
+  "DestinationContactId": 619,
+  "DestinationPersonId": 823,
+  "RelationId": 453,
+  "Comment": "minima",
+  "RelationDefinitionId": 838,
+  "Reversed": 250,
+  "UpdatedDate": "2002-03-30T11:22:38.9458129+01:00",
+  "CreatedDate": "2007-11-25T11:22:38.9458129+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Fay Group",
-  "SourcePersonName": "Balistreri-Hirthe",
-  "DestinationContactName": "Rath, Kerluke and Hammes",
-  "DestinationPersonName": "Sanford Group",
-  "ActiveText": "nisi",
-  "PassiveText": "deserunt",
+  "SourceContactName": "Leuschke, Ankunding and Schmidt",
+  "SourcePersonName": "Smitham-McKenzie",
+  "DestinationContactName": "Lubowitz LLC",
+  "DestinationPersonName": "Eichmann Group",
+  "ActiveText": "molestiae",
+  "PassiveText": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 10
+      "FieldType": "System.Int32",
+      "FieldLength": 202
     }
   }
 }

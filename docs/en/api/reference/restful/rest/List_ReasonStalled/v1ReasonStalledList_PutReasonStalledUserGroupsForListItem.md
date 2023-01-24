@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Keeling-Osinski",
-    "ToolTip": "Cum quia eius eos et dolores est enim.",
-    "Deleted": false,
-    "Rank": 853,
-    "Type": "quia",
-    "ColorBlock": 326,
-    "IconHint": "consequuntur",
-    "Selected": true,
-    "LastChanged": "2003-11-28T17:37:40.3184964+01:00",
+    "Id": 869,
+    "Name": "Labadie-Cremin",
+    "ToolTip": "Alias explicabo vel cupiditate et veritatis earum vitae.",
+    "Deleted": true,
+    "Rank": 265,
+    "Type": "est",
+    "ColorBlock": 350,
+    "IconHint": "itaque",
+    "Selected": false,
+    "LastChanged": "2021-05-31T11:22:46.1628721+02:00",
     "ChildItems": [
       {
-        "Id": 209,
-        "Name": "Steuber-White",
-        "ToolTip": "Quidem aut vel commodi sequi.",
-        "Deleted": true,
-        "Rank": 243,
-        "Type": "sit",
-        "ColorBlock": 277,
-        "IconHint": "excepturi",
+        "Id": 506,
+        "Name": "Wiza Group",
+        "ToolTip": "Totam vitae voluptates non perspiciatis.",
+        "Deleted": false,
+        "Rank": 355,
+        "Type": "vel",
+        "ColorBlock": 481,
+        "IconHint": "eaque",
         "Selected": false,
-        "LastChanged": "2017-08-23T17:37:40.3194714+02:00",
+        "LastChanged": "2013-09-09T11:22:46.1628721+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "rerum",
+        "ExtraInfo": "soluta",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Sean Murazik"
+        "FullName": "Ilene Streich"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Ayden Weber"
+    "ExtraInfo": "facilis",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Eldred Weber"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 467,
-    "Name": "Goyette-Hilpert",
-    "ToolTip": "Qui qui nihil aut quia sed aut.",
-    "Deleted": false,
-    "Rank": 490,
-    "Type": "omnis",
-    "ColorBlock": 549,
-    "IconHint": "temporibus",
-    "Selected": false,
-    "LastChanged": "1997-03-05T17:37:40.3205007+01:00",
+    "Id": 692,
+    "Name": "Mertz LLC",
+    "ToolTip": "Necessitatibus eum porro ut aliquam recusandae eos.",
+    "Deleted": true,
+    "Rank": 859,
+    "Type": "ipsam",
+    "ColorBlock": 766,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2019-01-11T11:22:46.1628721+01:00",
     "ChildItems": [
       {
-        "Id": 970,
-        "Name": "Denesik-O'Reilly",
-        "ToolTip": "Ut non est ea recusandae ipsam.",
-        "Deleted": true,
-        "Rank": 816,
-        "Type": "architecto",
-        "ColorBlock": 616,
-        "IconHint": "perspiciatis",
+        "Id": 882,
+        "Name": "Will, Gerhold and Funk",
+        "ToolTip": "Est pariatur rem iste iusto.",
+        "Deleted": false,
+        "Rank": 10,
+        "Type": "ut",
+        "ColorBlock": 756,
+        "IconHint": "repudiandae",
         "Selected": true,
-        "LastChanged": "2003-04-09T17:37:40.3205007+02:00",
+        "LastChanged": "2014-12-29T11:22:46.1628721+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "tempore",
-        "Hidden": true,
-        "FullName": "Khalid Okuneva",
+        "ExtraInfo": "qui",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Dr. Dudley Kohler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 268
+            "FieldLength": 531
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "natus",
+    "ExtraInfo": "maxime",
+    "StyleHint": "ipsum",
     "Hidden": false,
-    "FullName": "Ms. Raheem O'Keefe",
+    "FullName": "Demetrius Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 653
+        "FieldType": "System.String",
+        "FieldLength": 116
       }
     }
   }

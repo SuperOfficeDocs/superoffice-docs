@@ -96,14 +96,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 385,
-  "StartTime": "2023-01-02T17:37:17.4292461+01:00",
-  "EndTime": "2011-05-27T17:37:17.4292461+02:00",
-  "Count": 960
+  "PersonId": 293,
+  "StartTime": "1995-09-13T11:22:37.8523182+02:00",
+  "EndTime": "2022-12-27T11:22:37.8523182+01:00",
+  "Count": 69
 }
 ```
 
@@ -115,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 831,
-    "Attention": "omnis",
-    "Header": "voluptate",
-    "Name": "Kshlerin Group",
-    "OurRef": "nisi",
-    "YourRef": "ad",
-    "Description": "Exclusive holistic customer loyalty",
-    "DocumentTemplate": "perferendis",
+    "DocumentId": 958,
+    "Attention": "nihil",
+    "Header": "quas",
+    "Name": "Muller-Wisoky",
+    "OurRef": "commodi",
+    "YourRef": "facilis",
+    "Description": "Networked solution-oriented encoding",
+    "DocumentTemplate": "quo",
     "IsPublished": false,
-    "PersonId": 311,
-    "PersonFullName": "Mrs. Jaylon Mireya Koch V",
-    "AssociateFullName": "Deja Blick",
-    "ContactId": 9,
-    "ContactName": "Hills Inc and Sons",
-    "ProjectId": 154,
-    "ProjectName": "Weimann-Kohler",
-    "AssociateId": 150,
-    "Snum": 637,
-    "SaleId": 497,
-    "SaleName": "Harris LLC",
+    "PersonId": 849,
+    "PersonFullName": "Mrs. Lyla Tanner Cassin DDS",
+    "AssociateFullName": "Lempi Lueilwitz",
+    "ContactId": 236,
+    "ContactName": "Hyatt, Fisher and Ebert",
+    "ProjectId": 906,
+    "ProjectName": "Lubowitz-Labadie",
+    "AssociateId": 659,
+    "Snum": 883,
+    "SaleId": 413,
+    "SaleName": "Murazik-Watsica",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 600
+        "FieldType": "System.String",
+        "FieldLength": 271
       }
     }
   }

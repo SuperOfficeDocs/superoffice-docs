@@ -56,21 +56,21 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kreiger Inc and Sons",
-    "DisplayName": "Hand, Streich and Barton",
-    "DisplayTooltip": "quasi",
-    "IsActive": true
+    "Name": "Tillman, Graham and Kovacek",
+    "DisplayName": "Rutherford, Breitenberg and Reinger",
+    "DisplayTooltip": "dolorum",
+    "IsActive": false
   },
   {
-    "Name": "Kreiger Inc and Sons",
-    "DisplayName": "Hand, Streich and Barton",
-    "DisplayTooltip": "quasi",
-    "IsActive": true
+    "Name": "Tillman, Graham and Kovacek",
+    "DisplayName": "Rutherford, Breitenberg and Reinger",
+    "DisplayTooltip": "dolorum",
+    "IsActive": false
   }
 ]
 ```

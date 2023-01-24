@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 148
+  "ProjectId": 365
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Versatile content-based frame",
-  "Postit": "perspiciatis",
+  "Description": "Assimilated homogeneous capacity",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 799,
-  "IncludePerson": 667,
-  "MemberCount": 9,
-  "Name": "Runolfsdottir LLC",
-  "PostitTextId": 401,
-  "CreatedDate": "2004-07-03T17:37:19.166241+02:00",
-  "SelectionId": 753,
-  "SoundEx": "recusandae",
-  "Source": 1001,
-  "TextId": 45,
-  "UpdatedDate": "2009-06-18T17:37:19.166241+02:00",
-  "UpdatedCount": 827,
-  "Visibility": 43,
+  "GroupIdx": 900,
+  "IncludePerson": 93,
+  "MemberCount": 549,
+  "Name": "Swaniawski-Blanda",
+  "PostitTextId": 95,
+  "CreatedDate": "2021-01-23T11:22:39.2894808+01:00",
+  "SelectionId": 797,
+  "SoundEx": "fuga",
+  "Source": 106,
+  "TextId": 274,
+  "UpdatedDate": "2016-08-16T11:22:39.2894808+02:00",
+  "UpdatedCount": 958,
+  "Visibility": 2,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 1001,
-  "TargetTableName": "Windler-Zboncak",
+  "CompanyUnique": true,
+  "TargetTableNumber": 491,
+  "TargetTableName": "Paucek Group",
   "Completed": false,
-  "LeftSelectionId": 989,
-  "RightSelectionId": 472,
+  "LeftSelectionId": 401,
+  "RightSelectionId": 622,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kuhlman-Mills",
-  "ShadowProviderName": "Schuppe-Hirthe",
-  "ChartKey": "voluptatem",
-  "LastLoaded": "2004-11-24T17:37:19.1672417+01:00",
-  "LastLoadedBy": 956,
+  "MainProviderName": "Barton LLC",
+  "ShadowProviderName": "Miller, Corwin and Wehner",
+  "ChartKey": "enim",
+  "LastLoaded": "2006-09-05T11:22:39.2894808+02:00",
+  "LastLoadedBy": 79,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-12-07T17:37:19.1672417+01:00",
-  "LastMembershipChangeBy": 437,
+  "LastMembershipChange": "2004-02-24T11:22:39.2894808+01:00",
+  "LastMembershipChangeBy": 390,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "voluptate",
-  "MailingsProviderName": "VonRueden-Hills",
-  "DashboardTileDefinitionId": 816,
+  "MainHeading": "ut",
+  "MemberTabHeading": "rerum",
+  "MailingsProviderName": "Tremblay Group",
+  "DashboardTileDefinitionId": 113,
   "VisibleFor": [
     {
-      "VisibleId": 704,
+      "VisibleId": 379,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 564
+          "FieldType": "System.Int32",
+          "FieldLength": 370
         }
       }
     },
     {
-      "VisibleId": 704,
+      "VisibleId": 379,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 564
+          "FieldType": "System.Int32",
+          "FieldLength": 370
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 297
     }
   }
 }

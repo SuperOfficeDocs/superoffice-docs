@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ut",
+  "ProgId": "repellendus",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 166,
-  "ColumnId": 191,
-  "FieldDefault": "eos",
-  "FieldHeight": 745,
-  "FieldLabel": "repellat",
-  "FieldLeft": 111,
-  "FieldTop": 473,
+  "UDefFieldId": 726,
+  "ColumnId": 195,
+  "FieldDefault": "ipsam",
+  "FieldHeight": 784,
+  "FieldLabel": "culpa",
+  "FieldLeft": 543,
+  "FieldTop": 173,
   "FieldType": "Checkbox",
-  "FieldWidth": 787,
-  "FormatMask": "ut",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 614,
-  "LabelLeft": 930,
-  "LabelTop": 401,
-  "LabelWidth": 20,
-  "LastVersionId": 305,
-  "ListTableId": 247,
+  "FieldWidth": 956,
+  "FormatMask": "quia",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 973,
+  "LabelLeft": 160,
+  "LabelTop": 487,
+  "LabelWidth": 332,
+  "LastVersionId": 910,
+  "ListTableId": 794,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 856,
-  "ProgId": "ut",
-  "IsReadOnly": false,
-  "ShortLabel": "itaque",
-  "TabOrder": 902,
-  "TextLength": 197,
-  "Tooltip": "vel",
-  "UdefIdentity": 578,
-  "UDListDefinitionId": 244,
+  "Page1LineNo": 811,
+  "ProgId": "cum",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptate",
+  "TabOrder": 720,
+  "TextLength": 961,
+  "Tooltip": "reprehenderit",
+  "UdefIdentity": 587,
+  "UDListDefinitionId": 489,
   "Justification": "Center",
-  "Version": 984,
-  "TemplateVariableName": "Romaguera, Beatty and Kerluke",
-  "HasBeenPublished": true,
-  "MdoListName": "Collins Inc and Sons",
+  "Version": 589,
+  "TemplateVariableName": "Tillman-Stroman",
+  "HasBeenPublished": false,
+  "MdoListName": "Howe, Moore and Russel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldType": "System.Int32",
+      "FieldLength": 731
     }
   }
 }

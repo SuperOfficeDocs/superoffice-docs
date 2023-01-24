@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 778,
-  "Name": "Jacobi-Brown",
-  "Tooltip": "occaecati",
+  "Id": 255,
+  "Name": "Larson LLC",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 648,
-  "IsCustomList": false,
+  "Rank": 742,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolores",
+  "ListType": "impedit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 531,
-  "Name": "Dietrich-Herman",
-  "Tooltip": "necessitatibus",
-  "Deleted": true,
-  "Rank": 444,
+  "Id": 82,
+  "Name": "Anderson, Hammes and Prosacco",
+  "Tooltip": "corporis",
+  "Deleted": false,
+  "Rank": 267,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "porro",
+  "ListType": "quidem",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 252
     }
   }
 }

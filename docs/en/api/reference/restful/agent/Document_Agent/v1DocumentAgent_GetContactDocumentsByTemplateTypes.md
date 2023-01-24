@@ -101,13 +101,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 387,
-  "StartTime": "2021-04-04T17:37:17.4132417+02:00",
-  "EndTime": "1996-08-31T17:37:17.4132417+02:00",
-  "Count": 159,
+  "ContactId": 657,
+  "StartTime": "2003-03-25T11:22:37.8366954+01:00",
+  "EndTime": "1995-12-19T11:22:37.8366954+01:00",
+  "Count": 386,
   "DocumentTemplateIds": [
-    312,
-    250
+    510,
+    874
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 283,
-    "Attention": "excepturi",
-    "Header": "sint",
-    "Name": "Miller, Larkin and Carter",
-    "OurRef": "natus",
-    "YourRef": "enim",
-    "Description": "Distributed bifurcated hierarchy",
-    "DocumentTemplate": "numquam",
-    "IsPublished": true,
-    "PersonId": 490,
-    "PersonFullName": "Dr. Mariam Reynolds",
-    "AssociateFullName": "Angie Malika Upton Jr.",
-    "ContactId": 827,
-    "ContactName": "Leuschke-Cronin",
-    "ProjectId": 334,
-    "ProjectName": "Cummerata-Barton",
-    "AssociateId": 233,
-    "Snum": 681,
-    "SaleId": 981,
-    "SaleName": "Mohr LLC",
+    "DocumentId": 678,
+    "Attention": "quidem",
+    "Header": "autem",
+    "Name": "Kovacek, McGlynn and Nader",
+    "OurRef": "quibusdam",
+    "YourRef": "ut",
+    "Description": "Business-focused intermediate collaboration",
+    "DocumentTemplate": "sequi",
+    "IsPublished": false,
+    "PersonId": 493,
+    "PersonFullName": "Elissa Buckridge",
+    "AssociateFullName": "Mrs. Daphney Becker",
+    "ContactId": 963,
+    "ContactName": "Anderson Inc and Sons",
+    "ProjectId": 551,
+    "ProjectName": "Koss, Lesch and Jenkins",
+    "AssociateId": 782,
+    "Snum": 688,
+    "SaleId": 712,
+    "SaleName": "Becker Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 295
+        "FieldType": "System.Int32",
+        "FieldLength": 506
       }
     }
   }

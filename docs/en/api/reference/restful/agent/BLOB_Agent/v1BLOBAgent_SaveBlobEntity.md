@@ -86,23 +86,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 145,
-  "BlobSize": 527,
-  "Description": "Optional fresh-thinking array",
-  "ExtraInfo": "dolores",
+  "BlobId": 936,
+  "BlobSize": 492,
+  "Description": "Programmable background throughput",
+  "ExtraInfo": "aut",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "expedita",
-  "OriginalSize": 169,
-  "CreatedDate": "2019-04-20T17:37:16.9102421+02:00",
-  "UpdatedDate": "2007-05-03T17:37:16.9102421+02:00",
+  "MimeType": "voluptate",
+  "OriginalSize": 192,
+  "CreatedDate": "2011-03-01T11:22:37.4461725+01:00",
+  "UpdatedDate": "2001-11-02T11:22:37.4461725+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut"
+  "ConceptualType": "perferendis"
 }
 ```
 
@@ -113,25 +113,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 250,
-  "BlobSize": 776,
-  "Description": "Configurable 3rd generation database",
-  "ExtraInfo": "omnis",
+  "BlobId": 330,
+  "BlobSize": 707,
+  "Description": "Organic encompassing focus group",
+  "ExtraInfo": "quae",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "nobis",
-  "OriginalSize": 10,
-  "CreatedDate": "2002-09-06T17:37:16.9132423+02:00",
-  "UpdatedDate": "2016-09-24T17:37:16.9132423+02:00",
+  "IsZipped": false,
+  "MimeType": "eos",
+  "OriginalSize": 166,
+  "CreatedDate": "2015-08-11T11:22:37.4461725+02:00",
+  "UpdatedDate": "2000-08-04T11:22:37.4461725+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "beatae",
+  "ConceptualType": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldType": "System.Int32",
+      "FieldLength": 366
     }
   }
 }

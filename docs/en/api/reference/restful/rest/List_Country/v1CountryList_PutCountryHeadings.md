@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 822,
-    "Name": "Crona-Jerde",
-    "Tooltip": "dolor",
+    "HeadingId": 795,
+    "Name": "Lynch, Fritsch and Cummings",
+    "Tooltip": "sed",
     "Deleted": true,
-    "Rank": 689,
-    "UdListDefinitionId": 73
+    "Rank": 363,
+    "UdListDefinitionId": 276
   },
   {
-    "HeadingId": 822,
-    "Name": "Crona-Jerde",
-    "Tooltip": "dolor",
+    "HeadingId": 795,
+    "Name": "Lynch, Fritsch and Cummings",
+    "Tooltip": "sed",
     "Deleted": true,
-    "Rank": 689,
-    "UdListDefinitionId": 73
+    "Rank": 363,
+    "UdListDefinitionId": 276
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 879,
-    "Name": "Kshlerin Inc and Sons",
-    "Tooltip": "eius",
-    "Deleted": false,
-    "Rank": 352,
-    "UdListDefinitionId": 849,
+    "HeadingId": 446,
+    "Name": "Carter, Harris and Keebler",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 604,
+    "UdListDefinitionId": 102,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldLength": 575
       }
     }
   }

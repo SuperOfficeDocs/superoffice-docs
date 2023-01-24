@@ -70,13 +70,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schultz-Raynor",
+  "TableName": "Harber, Daugherty and Bayer",
   "RecordIds": [
-    633,
-    433
+    766,
+    576
   ],
-  "AssociateId": 127,
-  "ExtraInfo": "similique"
+  "AssociateId": 832,
+  "ExtraInfo": "officiis"
 }
 ```
 

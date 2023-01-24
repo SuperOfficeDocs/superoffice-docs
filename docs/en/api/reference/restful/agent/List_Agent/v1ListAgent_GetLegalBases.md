@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 753,
-    "Name": "Roob-Kulas",
-    "Tooltip": "adipisci",
-    "Rank": 689,
-    "Key": "perferendis",
+    "LegalBaseId": 280,
+    "Name": "Keebler-Pacocha",
+    "Tooltip": "quia",
+    "Rank": 603,
+    "Key": "est",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 388
+        "FieldLength": 362
       }
     }
   }

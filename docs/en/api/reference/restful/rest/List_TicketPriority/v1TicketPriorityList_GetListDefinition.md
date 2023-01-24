@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 129,
-  "Name": "Kihn-Wuckert",
-  "Tooltip": "distinctio",
+  "Id": 165,
+  "Name": "Cruickshank LLC",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 960,
-  "IsCustomList": false,
+  "Rank": 770,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "cupiditate",
+  "ListType": "alias",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 468
+      "FieldLength": 880
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

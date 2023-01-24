@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -96,7 +97,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "O'Connell Group"
+  "TaskName": "Morar Inc and Sons"
 }
 ```
 
@@ -108,36 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Nicolas Inc and Sons",
-    "AssociateId": 470,
-    "DetailsTable": 692,
-    "DetailsRecord": 33,
+    "Id": 285,
+    "Name": "Parisian-O'Reilly",
+    "AssociateId": 71,
+    "DetailsTable": 492,
+    "DetailsRecord": 125,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "eum",
-      "ParameterObject2": "ut"
+      "ParameterObject1": "inventore",
+      "ParameterObject2": "dignissimos"
     },
-    "LastStarted": "2002-10-28T17:37:16.9052417+01:00",
-    "Created": "2018-03-07T17:37:16.9052417+01:00",
-    "StartCount": 383,
-    "DatabaseSerialNumber": "1633458",
-    "Context": "voluptatibus",
-    "Result": "esse",
+    "LastStarted": "2007-09-09T11:22:37.4461725+02:00",
+    "Created": "2002-03-07T11:22:37.4461725+01:00",
+    "StartCount": 168,
+    "DatabaseSerialNumber": "1282018",
+    "Context": "nihil",
+    "Result": "incidunt",
     "State": "All",
-    "Description": "Inverse context-sensitive Graphical User Interface",
-    "Response": "iste",
-    "Request": "omnis",
-    "ProgressDescription": "Ameliorated motivating capability",
-    "ProgressPercent": 796,
-    "FileName": "Paucek LLC",
+    "Description": "Optimized local instruction set",
+    "Response": "maxime",
+    "Request": "illum",
+    "ProgressDescription": "Operative motivating local area network",
+    "ProgressPercent": 167,
+    "FileName": "Fadel Inc and Sons",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 118
+        "FieldType": "System.Int32",
+        "FieldLength": 1000
       }
     }
   }

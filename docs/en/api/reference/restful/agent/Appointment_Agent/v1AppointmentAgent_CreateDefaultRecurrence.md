@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,10 +83,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 918,
-  "StartDate": "1998-01-20T17:37:16.4172411+01:00",
-  "EndDate": "2001-05-25T17:37:16.4172411+02:00",
-  "RecurrenceCounter": 167,
+  "RecurrenceId": 571,
+  "StartDate": "2016-05-20T11:22:37.071254+02:00",
+  "EndDate": "2016-04-22T11:22:37.071254+02:00",
+  "RecurrenceCounter": 811,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -95,20 +95,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1998-09-23T17:37:16.4172411+02:00",
+      "Date": "2005-06-20T11:22:37.071254+02:00",
       "IsConflict": false,
-      "Description": "User-centric secondary implementation",
-      "DescriptionStyleHint": "Phased solution-oriented methodology",
-      "Tooltip": "reprehenderit"
+      "Description": "Configurable assymetric conglomeration",
+      "DescriptionStyleHint": "Multi-channelled secondary capacity",
+      "Tooltip": "autem"
     },
     {
-      "Date": "1998-09-23T17:37:16.4172411+02:00",
+      "Date": "2005-06-20T11:22:37.071254+02:00",
       "IsConflict": false,
-      "Description": "User-centric secondary implementation",
-      "DescriptionStyleHint": "Phased solution-oriented methodology",
-      "Tooltip": "reprehenderit"
+      "Description": "Configurable assymetric conglomeration",
+      "DescriptionStyleHint": "Multi-channelled secondary capacity",
+      "Tooltip": "autem"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

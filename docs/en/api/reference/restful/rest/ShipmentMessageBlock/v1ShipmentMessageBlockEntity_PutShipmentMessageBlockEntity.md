@@ -96,14 +96,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 496,
-  "AssociateId": 427,
-  "Block": "explicabo",
-  "Registered": "1999-01-23T17:37:39.2233032+01:00",
-  "RegisteredAssociateId": 750,
-  "Updated": "2006-08-31T17:37:39.2233032+02:00",
-  "UpdatedAssociateId": 689,
-  "UpdatedCount": 538
+  "ShipmentMessageBlockId": 497,
+  "AssociateId": 139,
+  "Block": "incidunt",
+  "Registered": "2018-09-05T11:22:45.225579+02:00",
+  "RegisteredAssociateId": 554,
+  "Updated": "2016-08-27T11:22:45.225579+02:00",
+  "UpdatedAssociateId": 969,
+  "UpdatedCount": 378
 }
 ```
 
@@ -114,20 +114,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 199,
-  "AssociateId": 670,
-  "Block": "reiciendis",
-  "Registered": "2013-02-12T17:37:39.2243048+01:00",
-  "RegisteredAssociateId": 588,
-  "Updated": "1997-02-14T17:37:39.2243048+01:00",
-  "UpdatedAssociateId": 76,
-  "UpdatedCount": 812,
+  "ShipmentMessageBlockId": 610,
+  "AssociateId": 318,
+  "Block": "possimus",
+  "Registered": "2006-05-11T11:22:45.225579+02:00",
+  "RegisteredAssociateId": 375,
+  "Updated": "2021-02-24T11:22:45.225579+01:00",
+  "UpdatedAssociateId": 359,
+  "UpdatedCount": 667,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 69
+      "FieldType": "System.Int32",
+      "FieldLength": 311
     }
   },
   "_Links": {

@@ -25,7 +25,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=634
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=177
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -114,7 +114,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -124,61 +124,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 632,
-  "StartDate": "2020-12-22T17:37:16.3592418+01:00",
-  "EndDate": "2006-03-17T17:37:16.3592418+01:00",
+  "AppointmentId": 906,
+  "StartDate": "2009-11-14T11:22:37.0243878+01:00",
+  "EndDate": "2021-11-10T11:22:37.0243878+01:00",
   "Type": "BookingForChecklist",
-  "Task": "sed",
-  "AssociateFullName": "Isaiah Ernser",
-  "ContactName": "Ankunding-Breitenberg",
-  "Description": "Fully-configurable contextually-based model",
-  "PersonFullName": "Wilfredo Dietrich",
-  "PersonId": 632,
-  "ContactId": 605,
-  "ProjectId": 805,
-  "ProjectName": "Koepp Group",
-  "IsPublished": false,
-  "AssociateId": 104,
-  "ColorIndex": 146,
-  "IsFree": false,
-  "HasAlarm": true,
+  "Task": "sint",
+  "AssociateFullName": "Hailee Mertie Terry Jr.",
+  "ContactName": "Turcotte-Champlin",
+  "Description": "Realigned exuding intranet",
+  "PersonFullName": "Alyson Koepp",
+  "PersonId": 639,
+  "ContactId": 173,
+  "ProjectId": 449,
+  "ProjectName": "Hoppe, Ritchie and Romaguera",
+  "IsPublished": true,
+  "AssociateId": 585,
+  "ColorIndex": 241,
+  "IsFree": true,
+  "HasAlarm": false,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 163,
-  "PriorityName": "Abernathy Group",
+  "PriorityId": 674,
+  "PriorityName": "Bins-Herzog",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2009-01-12T17:37:16.3592418+01:00",
+  "ActiveDate": "1996-08-05T11:22:37.0243878+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2020-01-07T17:37:16.3592418+01:00",
-  "RecurringEndDate": "2016-10-29T17:37:16.3592418+02:00",
-  "MotherId": 803,
-  "AssignedBy": 921,
-  "AssignedByFullName": "Leann Kunze DVM",
+  "RecurringStartDate": "2015-10-20T11:22:37.0243878+02:00",
+  "RecurringEndDate": "2014-10-23T11:22:37.0243878+02:00",
+  "MotherId": 976,
+  "AssignedBy": 420,
+  "AssignedByFullName": "Maureen Abshire",
   "RejectReason": "",
-  "Location": "rerum",
-  "AlarmLeadTime": "sit",
-  "SaleId": 655,
-  "SaleName": "Hansen, Grant and Green",
-  "AssociateName": "Runte-Steuber",
-  "CreatedDate": "2012-02-02T17:37:16.3592418+01:00",
-  "CreatedBy": "quisquam",
-  "CreatedByFullName": "Dr. Chesley Gideon Purdy DDS",
-  "CreatedByAssociateId": 43,
+  "Location": "vel",
+  "AlarmLeadTime": "dolore",
+  "SaleId": 489,
+  "SaleName": "Bruen Group",
+  "AssociateName": "Reinger-Zieme",
+  "CreatedDate": "2016-02-09T11:22:37.0243878+01:00",
+  "CreatedBy": "at",
+  "CreatedByFullName": "Timothy Franecki",
+  "CreatedByAssociateId": 833,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldType": "System.Int32",
+      "FieldLength": 792
     }
   }
 }

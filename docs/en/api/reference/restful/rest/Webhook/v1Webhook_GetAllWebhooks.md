@@ -28,8 +28,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=ea
-GET /api/v1/Webhook?eventFilter=pariatur
+GET /api/v1/Webhook?nameFilter=quis
+GET /api/v1/Webhook?eventFilter=et
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 676,
-    "Name": "Herzog Group",
+    "WebhookId": 53,
+    "Name": "Shanahan Group",
     "Events": [
-      "cupiditate",
-      "quia"
+      "tempora",
+      "quaerat"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "non",
+    "Secret": "error",
     "State": "Active",
-    "Type": "sapiente",
+    "Type": "hic",
     "Headers": {
-      "Headers1": "accusantium",
-      "Headers2": "aut"
+      "Headers1": "et",
+      "Headers2": "iure"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2012-11-10T17:37:39.5964304+01:00",
+    "Registered": "1998-07-19T11:22:45.5379661+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2002-12-04T17:37:39.5984306+01:00",
+    "Updated": "1995-12-13T11:22:45.5379661+01:00",
     "UpdatedAssociate": null
   }
 ]

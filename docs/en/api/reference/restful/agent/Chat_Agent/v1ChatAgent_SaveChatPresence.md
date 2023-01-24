@@ -63,29 +63,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 657,
-      "DisplayName": "Marquardt LLC",
-      "OngoingChats": 142,
+      "UserId": 522,
+      "DisplayName": "Koch, Treutel and Breitenberg",
+      "OngoingChats": 872,
       "Present": false,
       "ChatTopics": [
-        695,
-        114
+        739,
+        876
       ]
     },
     {
-      "UserId": 657,
-      "DisplayName": "Marquardt LLC",
-      "OngoingChats": 142,
+      "UserId": 522,
+      "DisplayName": "Koch, Treutel and Breitenberg",
+      "OngoingChats": 872,
       "Present": false,
       "ChatTopics": [
-        695,
-        114
+        739,
+        876
       ]
     }
   ]

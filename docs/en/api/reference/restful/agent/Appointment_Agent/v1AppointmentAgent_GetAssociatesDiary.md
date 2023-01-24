@@ -122,16 +122,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    833,
-    760
+    596,
+    337
   ],
-  "StartTime": "2016-03-10T17:37:16.270242+01:00",
-  "EndTime": "2001-07-09T17:37:16.270242+02:00"
+  "StartTime": "2009-05-27T11:22:36.9619023+02:00",
+  "EndTime": "1998-03-25T11:22:36.9619023+01:00"
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 445,
-    "StartDate": "2018-02-15T17:37:16.2712416+01:00",
-    "EndDate": "2021-07-09T17:37:16.2712416+02:00",
+    "AppointmentId": 262,
+    "StartDate": "1996-01-29T11:22:36.9619023+01:00",
+    "EndDate": "2005-12-18T11:22:36.9619023+01:00",
     "Type": "BookingForChecklist",
-    "Task": "in",
-    "AssociateFullName": "Americo Rempel",
-    "ContactName": "Littel, Leffler and Okuneva",
-    "Description": "Polarised bottom-line complexity",
-    "PersonFullName": "Ellie Grimes",
-    "PersonId": 731,
-    "ContactId": 33,
-    "ProjectId": 117,
-    "ProjectName": "Raynor, Dicki and Koch",
-    "IsPublished": true,
-    "AssociateId": 564,
-    "ColorIndex": 985,
-    "IsFree": true,
+    "Task": "impedit",
+    "AssociateFullName": "Dr. Alice Bernadette Harris III",
+    "ContactName": "Flatley Inc and Sons",
+    "Description": "Ergonomic dynamic artificial intelligence",
+    "PersonFullName": "Dr. Kaelyn Jordy Veum V",
+    "PersonId": 529,
+    "ContactId": 140,
+    "ProjectId": 894,
+    "ProjectName": "Erdman-Nolan",
+    "IsPublished": false,
+    "AssociateId": 523,
+    "ColorIndex": 522,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 305,
-    "PriorityName": "Rutherford-Toy",
+    "PriorityId": 853,
+    "PriorityName": "Hodkiewicz-Turner",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2019-03-26T17:37:16.2722415+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2009-10-19T11:22:36.9619023+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-06-05T17:37:16.2722415+02:00",
-    "RecurringEndDate": "2006-07-23T17:37:16.2722415+02:00",
-    "MotherId": 228,
-    "AssignedBy": 860,
-    "AssignedByFullName": "Osborne Beatty",
+    "RecurringStartDate": "2014-07-25T11:22:36.9619023+02:00",
+    "RecurringEndDate": "1997-05-18T11:22:36.9619023+02:00",
+    "MotherId": 182,
+    "AssignedBy": 443,
+    "AssignedByFullName": "Ms. Janie Volkman DVM",
     "RejectReason": "",
-    "Location": "tempore",
-    "AlarmLeadTime": "reprehenderit",
-    "SaleId": 83,
-    "SaleName": "Nienow-Casper",
-    "AssociateName": "Lowe, Senger and Jenkins",
-    "CreatedDate": "2012-09-07T17:37:16.2722415+02:00",
-    "CreatedBy": "voluptatem",
-    "CreatedByFullName": "Ally Robel",
-    "CreatedByAssociateId": 737,
+    "Location": "iste",
+    "AlarmLeadTime": "qui",
+    "SaleId": 116,
+    "SaleName": "Koelpin LLC",
+    "AssociateName": "Boehm, Anderson and Prohaska",
+    "CreatedDate": "2021-07-28T11:22:36.9619023+02:00",
+    "CreatedBy": "totam",
+    "CreatedByFullName": "Delfina Kuhn",
+    "CreatedByAssociateId": 38,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 228
+        "FieldLength": 850
       }
     }
   }

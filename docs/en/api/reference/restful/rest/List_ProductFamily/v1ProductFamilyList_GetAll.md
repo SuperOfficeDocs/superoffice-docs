@@ -24,7 +24,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=False
+GET /api/v1/List/ProductFamily/Items?includeDeleted=True
 ```
 
 
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Feest-Wiegand",
-    "Tooltip": "alias",
-    "Deleted": false,
-    "UdListDefinitionId": 672,
-    "Rank": 745,
+    "Id": 951,
+    "Name": "Howe Group",
+    "Tooltip": "vel",
+    "Deleted": true,
+    "UdListDefinitionId": 380,
+    "Rank": 977,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 338
       }
     }
   }

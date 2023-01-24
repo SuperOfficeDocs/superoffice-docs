@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Grant-Kemmer"
+  "ApplicationName": "Christiansen Inc and Sons"
 }
 ```
 
@@ -93,29 +93,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 795,
-  "Name": "Yost-Funk",
-  "CreatedDate": "1999-03-07T17:37:18.0982433+01:00",
-  "UpdatedDate": "2019-06-01T17:37:18.0982433+02:00",
+  "ForeignAppId": 484,
+  "Name": "Lesch, Carter and Collier",
+  "CreatedDate": "2018-03-13T11:22:38.3678241+01:00",
+  "UpdatedDate": "2012-04-11T11:22:38.3678241+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 933,
-      "Name": "Streich-Cormier",
-      "CreatedDate": "2020-02-23T17:37:18.0982433+01:00",
-      "UpdatedDate": "2012-08-26T17:37:18.0982433+02:00",
-      "AssociateFullName": "Deshawn McClure",
-      "CreatedBy": "exercitationem",
-      "UpdatedBy": "delectus",
-      "DeviceIdentifier": "cupiditate",
-      "ForeignAppId": 618,
+      "ForeignDeviceId": 856,
+      "Name": "Kiehn-Watsica",
+      "CreatedDate": "1999-04-08T11:22:38.3678241+02:00",
+      "UpdatedDate": "2021-03-29T11:22:38.3678241+02:00",
+      "AssociateFullName": "Khalid Glover",
+      "CreatedBy": "adipisci",
+      "UpdatedBy": "quod",
+      "DeviceIdentifier": "beatae",
+      "ForeignAppId": 531,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 240
+          "FieldLength": 973
         }
       }
     }
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 373
     }
   }
 }

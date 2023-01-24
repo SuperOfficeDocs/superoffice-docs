@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 593,
-    "Name": "Eichmann, Schumm and Sporer",
-    "ToolTip": "Tempore iusto consequuntur nihil autem.",
+    "Id": 538,
+    "Name": "Will, Okuneva and Smitham",
+    "ToolTip": "Est autem illum pariatur non omnis consequatur.",
     "Deleted": false,
-    "Rank": 150,
-    "Type": "tenetur",
-    "ColorBlock": 739,
-    "IconHint": "tempore",
+    "Rank": 500,
+    "Type": "qui",
+    "ColorBlock": 653,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2019-04-06T17:37:40.1125005+02:00",
+    "LastChanged": "2014-04-09T11:22:45.991037+02:00",
     "ChildItems": [
       {
-        "Id": 508,
-        "Name": "Ortiz-Cummerata",
-        "ToolTip": "Nisi ut qui aspernatur tempore magni alias ut.",
+        "Id": 354,
+        "Name": "Walsh, Dibbert and Heathcote",
+        "ToolTip": "Rerum rerum quas.",
         "Deleted": true,
-        "Rank": 593,
-        "Type": "rem",
-        "ColorBlock": 562,
-        "IconHint": "et",
+        "Rank": 388,
+        "Type": "blanditiis",
+        "ColorBlock": 68,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "1998-06-14T17:37:40.1125005+02:00",
+        "LastChanged": "2018-05-06T11:22:45.991037+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "placeat",
+        "ExtraInfo": "non",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dr. Noelia Lockman"
+        "FullName": "Ms. Dennis Denesik PhD"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "dolore",
-    "Hidden": true,
-    "FullName": "Wilburn Sawayn"
+    "ExtraInfo": "provident",
+    "StyleHint": "error",
+    "Hidden": false,
+    "FullName": "Hershel Kilback Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Harris LLC",
-    "ToolTip": "Molestias reiciendis explicabo consequatur corrupti.",
-    "Deleted": true,
-    "Rank": 214,
-    "Type": "eum",
-    "ColorBlock": 417,
-    "IconHint": "harum",
+    "Id": 53,
+    "Name": "Muller Group",
+    "ToolTip": "Eum debitis corrupti.",
+    "Deleted": false,
+    "Rank": 351,
+    "Type": "vel",
+    "ColorBlock": 917,
+    "IconHint": "dolores",
     "Selected": true,
-    "LastChanged": "2010-09-06T17:37:40.1135008+02:00",
+    "LastChanged": "2008-04-22T11:22:45.991037+02:00",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "Harber-Stracke",
-        "ToolTip": "Non sed sint ea recusandae illum laboriosam incidunt.",
-        "Deleted": true,
-        "Rank": 10,
-        "Type": "necessitatibus",
-        "ColorBlock": 747,
-        "IconHint": "omnis",
+        "Id": 411,
+        "Name": "Schmidt, Rau and Hansen",
+        "ToolTip": "Voluptatem dolore distinctio reprehenderit earum non.",
+        "Deleted": false,
+        "Rank": 400,
+        "Type": "veritatis",
+        "ColorBlock": 965,
+        "IconHint": "vitae",
         "Selected": true,
-        "LastChanged": "2013-09-09T17:37:40.1135008+02:00",
+        "LastChanged": "2008-06-02T11:22:45.991037+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "asperiores",
+        "ExtraInfo": "ut",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Haylee Volkman",
+        "FullName": "Mrs. Hadley Harber IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 4
+            "FieldLength": 340
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "est",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "expedita",
     "Hidden": true,
-    "FullName": "Ms. Earlene Treva Langosh Sr.",
+    "FullName": "Demetris Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldType": "System.String",
+        "FieldLength": 350
       }
     }
   }

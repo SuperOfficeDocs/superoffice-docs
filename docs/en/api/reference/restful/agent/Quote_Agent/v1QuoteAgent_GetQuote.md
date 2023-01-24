@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 197
+  "QuoteId": 979
 }
 ```
 
@@ -100,26 +100,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 785,
-  "SaleId": 92,
-  "QuoteConnectionId": 345,
-  "ERPQuoteKey": "quo",
-  "ERPOrderKey": "aut",
-  "ActiveQuoteVersionId": 64,
-  "AcceptedQuoteAlternativeId": 16,
-  "UseValuesFromQuote": 618,
-  "DocumentId": 177,
-  "PoNumber": "1128688",
-  "OrderComment": "provident",
-  "PreferredEmailCulture": "luna@brakus.ca",
+  "QuoteId": 281,
+  "SaleId": 783,
+  "QuoteConnectionId": 584,
+  "ERPQuoteKey": "a",
+  "ERPOrderKey": "nihil",
+  "ActiveQuoteVersionId": 801,
+  "AcceptedQuoteAlternativeId": 975,
+  "UseValuesFromQuote": 905,
+  "DocumentId": 789,
+  "PoNumber": "728715",
+  "OrderComment": "voluptatem",
+  "PreferredEmailCulture": "deborah@schneider.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 789
+      "FieldType": "System.Int32",
+      "FieldLength": 227
     }
   }
 }

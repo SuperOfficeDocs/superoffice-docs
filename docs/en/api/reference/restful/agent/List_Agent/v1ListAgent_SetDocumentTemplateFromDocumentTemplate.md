@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 247,
+  "SourceDocumentTemplateId": 123,
   "DocumentTemplateEntity": null
 }
 ```
@@ -113,37 +113,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 596,
-  "Name": "Hartmann, Anderson and Prohaska",
-  "Tooltip": "dolorum",
-  "SaveInDb": 884,
-  "Filename": "sint",
-  "DefaultOref": "totam",
+  "DocumentTemplateId": 36,
+  "Name": "Heidenreich, Cruickshank and Sporer",
+  "Tooltip": "dolor",
+  "SaveInDb": 668,
+  "Filename": "ea",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 24,
-  "IntentId": 491,
-  "IsDefaultPublished": false,
-  "Rank": 318,
-  "LoadTemplateFromPlugin": 200,
-  "MimeType": "autem",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 606,
+  "AutoeventId": 409,
+  "IntentId": 699,
+  "IsDefaultPublished": true,
+  "Rank": 503,
+  "LoadTemplateFromPlugin": 82,
+  "MimeType": "qui",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 599,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cathryn@sawayn.co.uk",
+  "EmailSubject": "sarai@turner.ca",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "vanessa.abbott@krismarks.uk",
+  "SenderEmailAddress": "bennie_lang@batzborer.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 838
+      "FieldType": "System.Int32",
+      "FieldLength": 300
     }
   }
 }

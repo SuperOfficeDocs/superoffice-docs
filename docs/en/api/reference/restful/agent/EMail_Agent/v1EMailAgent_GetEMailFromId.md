@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 864,
+  "MessageServerId": 191,
   "LookupAddresses": false,
   "Flags": "Answered",
   "IncludeAttachments": true
@@ -124,146 +124,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 234,
-      "ContactName": "Ankunding LLC",
-      "PersonId": 45,
-      "PersonName": "Stoltenberg LLC",
-      "AssociateId": 646,
-      "Address": "dolorum",
-      "EmailId": 556,
+      "ContactId": 859,
+      "ContactName": "Kiehn, Stroman and Bode",
+      "PersonId": 588,
+      "PersonName": "Medhurst, Oberbrunner and King",
+      "AssociateId": 978,
+      "Address": "et",
+      "EmailId": 586,
       "DuplicatePersonIds": [
-        97,
-        400
+        938,
+        4
       ],
-      "Name": "O'Keefe-Morar",
+      "Name": "White, Schaden and Stoltenberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 946
+          "FieldLength": 745
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 161,
-      "ContactName": "Schroeder, Goodwin and Raynor",
-      "PersonId": 458,
-      "PersonName": "Ullrich-Walter",
-      "AssociateId": 745,
-      "Address": "est",
-      "EmailId": 600,
+      "ContactId": 54,
+      "ContactName": "Streich, Baumbach and Rempel",
+      "PersonId": 175,
+      "PersonName": "Monahan LLC",
+      "AssociateId": 275,
+      "Address": "iure",
+      "EmailId": 756,
       "DuplicatePersonIds": [
-        455,
-        345
+        555,
+        736
       ],
-      "Name": "Rath, Kutch and Durgan",
+      "Name": "Waelchi, Cole and Ankunding",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 190
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 460,
-      "ContactName": "Harris, Pfannerstill and Gutmann",
-      "PersonId": 370,
-      "PersonName": "Bernier Group",
-      "AssociateId": 42,
-      "Address": "odio",
-      "EmailId": 304,
+      "ContactId": 166,
+      "ContactName": "Olson-Orn",
+      "PersonId": 421,
+      "PersonName": "D'Amore, Buckridge and Paucek",
+      "AssociateId": 915,
+      "Address": "soluta",
+      "EmailId": 7,
       "DuplicatePersonIds": [
-        522,
-        903
+        292,
+        964
       ],
-      "Name": "Daniel, Howe and Prosacco",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 204
-        }
-      }
-    }
-  ],
-  "Subject": "soluta",
-  "HTMLBody": "autem",
-  "From": null,
-  "Sent": "2018-03-02T17:37:17.9462408+01:00",
-  "Size": 743,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "explicabo",
-  "PlainBody": "porro",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 628,
-  "Attachments": [
-    {
-      "Description": "Exclusive discrete capacity",
-      "Filename": "ipsum",
-      "Size": 843,
-      "Type": "dolor",
-      "Encoding": "possimus",
-      "Id": "in",
-      "Disposition": "magnam",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Block, Lehner and Prohaska",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 851
+          "FieldLength": 644
+        }
+      }
+    }
+  ],
+  "Subject": "in",
+  "HTMLBody": "ut",
+  "From": null,
+  "Sent": "2007-04-21T11:22:38.242853+02:00",
+  "Size": 675,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "pariatur",
+  "PlainBody": "occaecati",
+  "IsSent": true,
+  "EMailSOInfo": null,
+  "ServerId": 12,
+  "Attachments": [
+    {
+      "Description": "Exclusive motivating matrices",
+      "Filename": "incidunt",
+      "Size": 796,
+      "Type": "ut",
+      "Encoding": "alias",
+      "Id": "culpa",
+      "Disposition": "officia",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 184
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Vandervort, Gleason and Nitzsche",
+      "Name": "Gleason LLC",
       "Values": [
-        "debitis",
-        "aspernatur"
+        "velit",
+        "veniam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldType": "System.String",
+          "FieldLength": 819
         }
       }
     },
     {
-      "Name": "Vandervort, Gleason and Nitzsche",
+      "Name": "Gleason LLC",
       "Values": [
-        "debitis",
-        "aspernatur"
+        "velit",
+        "veniam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldType": "System.String",
+          "FieldLength": 819
         }
       }
     }
   ],
-  "FolderName": "Corwin LLC",
-  "EmailItemId": 60,
-  "AccountId": 745,
-  "ReceivedAt": "1999-01-31T17:37:17.9462408+01:00",
+  "FolderName": "Borer Inc and Sons",
+  "EmailItemId": 110,
+  "AccountId": 290,
+  "ReceivedAt": "2020-05-31T11:22:38.2584721+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-11-27T17:37:17.9462408+01:00",
+  "RepliedAt": "2016-03-26T11:22:38.2584721+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -271,8 +271,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldType": "System.String",
+      "FieldLength": 280
     }
   }
 }

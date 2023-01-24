@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 319
+  "AssociateId": 635
 }
 ```
 
@@ -92,22 +92,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 42,
-    "AssociateId": 222,
-    "Caption": "sed",
+    "DashboardId": 878,
+    "AssociateId": 646,
+    "Caption": "porro",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 95,
-        "Caption": "consequatur",
-        "Description": "Grass-roots global hierarchy",
-        "ChartName": "Bauch-Larkin",
-        "ChartId": "inventore",
-        "IsDefault": false,
-        "AssociateId": 641,
-        "GroupId": 87,
-        "SelectionId": 374,
-        "Config": "voluptatem",
+        "DashboardTileId": 67,
+        "Caption": "et",
+        "Description": "Polarised 24 hour moderator",
+        "ChartName": "Kunze, Gleason and Rowe",
+        "ChartId": "aut",
+        "IsDefault": true,
+        "AssociateId": 206,
+        "GroupId": 983,
+        "SelectionId": 887,
+        "Config": "quia",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 889
+            "FieldType": "System.Int32",
+            "FieldLength": 439
           }
         }
       }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 474
       }
     }
   }

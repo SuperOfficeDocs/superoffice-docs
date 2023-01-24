@@ -64,7 +64,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,13 +75,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "expedita",
+  "ErrorMessage": "suscipit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldType": "System.String",
+      "FieldLength": 692
     }
   }
 }

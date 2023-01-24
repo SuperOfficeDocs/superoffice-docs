@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 125,
+  "PersonId": 694,
   "IncludeProjectDocuments": false,
-  "StartTime": "2011-10-16T17:37:17.4112416+02:00",
-  "EndTime": "2015-07-15T17:37:17.4112416+02:00",
-  "Count": 845
+  "StartTime": "2020-03-18T11:22:37.8366954+01:00",
+  "EndTime": "2021-09-04T11:22:37.8366954+02:00",
+  "Count": 859
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 737,
-    "Attention": "velit",
-    "Header": "architecto",
-    "Name": "Dietrich-Skiles",
-    "OurRef": "dolore",
-    "YourRef": "aut",
-    "Description": "Front-line bifurcated toolset",
-    "DocumentTemplate": "dignissimos",
+    "DocumentId": 54,
+    "Attention": "nisi",
+    "Header": "quia",
+    "Name": "Schiller-Larson",
+    "OurRef": "qui",
+    "YourRef": "sed",
+    "Description": "Devolved contextually-based infrastructure",
+    "DocumentTemplate": "dolores",
     "IsPublished": false,
-    "PersonId": 653,
-    "PersonFullName": "Mrs. Althea Verdie Wolff",
-    "AssociateFullName": "Prof. Yessenia Caden Deckow",
-    "ContactId": 547,
-    "ContactName": "Block, Jacobson and Witting",
-    "ProjectId": 127,
-    "ProjectName": "Cummerata-Corkery",
-    "AssociateId": 880,
-    "Snum": 676,
-    "SaleId": 422,
-    "SaleName": "Graham-Nikolaus",
+    "PersonId": 725,
+    "PersonFullName": "Ms. Quinten Xavier Schuster Sr.",
+    "AssociateFullName": "Kenneth Stamm",
+    "ContactId": 41,
+    "ContactName": "Kerluke-Upton",
+    "ProjectId": 641,
+    "ProjectName": "Collins, Watsica and Moore",
+    "AssociateId": 746,
+    "Snum": 787,
+    "SaleId": 177,
+    "SaleName": "Kovacek, Walter and Howell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 316
+        "FieldType": "System.Int32",
+        "FieldLength": 231
       }
     }
   }

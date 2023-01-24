@@ -104,16 +104,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 241,
-  "Name": "O'Hara-Wisoky",
-  "Tooltip": "non",
+  "RoleId": 854,
+  "Name": "Brakus, Kertzmann and O'Keefe",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 836,
-  "Rank": 390,
-  "Created": "2016-07-20T17:37:39.0423036+02:00",
-  "UseCategories": 52,
+  "Deleted": 550,
+  "Rank": 216,
+  "Created": "2019-03-28T11:22:45.0693694+01:00",
+  "UseCategories": 201,
   "CreatedBy": null,
-  "Updated": "2013-02-20T17:37:39.0433108+01:00",
+  "Updated": "2007-06-21T11:22:45.0693694+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -126,24 +126,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 45,
-  "Name": "Purdy, Legros and Kreiger",
-  "Tooltip": "architecto",
+  "RoleId": 143,
+  "Name": "Nolan, Pacocha and Vandervort",
+  "Tooltip": "ratione",
   "RoleType": "Anonymous",
-  "Deleted": 933,
-  "Rank": 501,
-  "Created": "2000-09-19T17:37:39.0443043+02:00",
-  "UseCategories": 80,
+  "Deleted": 868,
+  "Rank": 593,
+  "Created": "2020-06-27T11:22:45.0693694+02:00",
+  "UseCategories": 577,
   "CreatedBy": null,
-  "Updated": "1998-12-06T17:37:39.0453041+01:00",
+  "Updated": "1995-10-04T11:22:45.0693694+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldType": "System.Int32",
+      "FieldLength": 602
     }
   },
   "_Links": {

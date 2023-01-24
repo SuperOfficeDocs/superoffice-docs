@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "similique",
-    "PersonId": 396,
-    "Mrmrs": "exercitationem",
-    "Firstname": "Reggie",
-    "Lastname": "Mueller",
-    "MiddleName": "Walsh-Brakus",
-    "Title": "animi",
-    "Description": "Pre-emptive contextually-based frame",
-    "Email": "earnest@leffler.info",
-    "FullName": "Gilda Ritchie",
-    "DirectPhone": "213.326.7471 x042",
-    "FormalName": "Beer, Corwin and Rutherford",
-    "CountryId": 572,
-    "ContactId": 585,
-    "ContactName": "Harvey LLC",
-    "Retired": 430,
-    "Rank": 621,
-    "ActiveInterests": 682,
+    "Position": "recusandae",
+    "PersonId": 980,
+    "Mrmrs": "aut",
+    "Firstname": "Mallie",
+    "Lastname": "Borer",
+    "MiddleName": "Wunsch, Schulist and Renner",
+    "Title": "deserunt",
+    "Description": "Switchable leading edge secured line",
+    "Email": "abraham@harris.ca",
+    "FullName": "Dale Hackett",
+    "DirectPhone": "492-560-7206",
+    "FormalName": "McKenzie-Hoeger",
+    "CountryId": 574,
+    "ContactId": 952,
+    "ContactName": "Smitham-O'Hara",
+    "Retired": 464,
+    "Rank": 747,
+    "ActiveInterests": 79,
     "ContactDepartment": "",
-    "ContactCountryId": 696,
-    "ContactOrgNr": "100304",
-    "FaxPhone": "1-967-277-2651 x760",
-    "MobilePhone": "(649)743-6224 x8632",
-    "ContactPhone": "980-739-2152",
-    "AssociateName": "Kohler, Kemmer and Wuckert",
-    "AssociateId": 644,
-    "UsePersonAddress": true,
-    "ContactFax": "temporibus",
-    "Kanafname": "ullam",
-    "Kanalname": "dolores",
-    "Post1": "excepturi",
-    "Post2": "quo",
-    "Post3": "neque",
-    "EmailName": "tyree@mayert.ca",
-    "ContactFullName": "Mitchel Kayli Volkman Jr.",
-    "ActiveErpLinks": 921,
-    "TicketPriorityId": 29,
-    "SupportLanguageId": 370,
-    "SupportAssociateId": 374,
+    "ContactCountryId": 14,
+    "ContactOrgNr": "722154",
+    "FaxPhone": "632-929-1104",
+    "MobilePhone": "479.970.7658 x186",
+    "ContactPhone": "(971)178-0869 x7266",
+    "AssociateName": "Johns-Dach",
+    "AssociateId": 726,
+    "UsePersonAddress": false,
+    "ContactFax": "est",
+    "Kanafname": "officiis",
+    "Kanalname": "fuga",
+    "Post1": "explicabo",
+    "Post2": "id",
+    "Post3": "quam",
+    "EmailName": "giuseppe@sauer.info",
+    "ContactFullName": "Shayna Purdy II",
+    "ActiveErpLinks": 832,
+    "TicketPriorityId": 530,
+    "SupportLanguageId": 449,
+    "SupportAssociateId": 420,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldType": "System.String",
+        "FieldLength": 379
       }
     }
   }

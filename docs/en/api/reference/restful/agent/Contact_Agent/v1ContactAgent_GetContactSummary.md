@@ -76,12 +76,12 @@ OK
 POST /api/v1/Agents/Contact/GetContactSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 326,
-  "Limit": 809
+  "ContactId": 904,
+  "Limit": 189
 }
 ```
 
@@ -95,79 +95,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 752,
-      "TicketStatus": 128,
-      "Title": "non",
-      "Registered": "2015-09-19T17:37:17.3072425+02:00",
-      "IconHint": "placeat"
+      "TicketId": 318,
+      "TicketStatus": 499,
+      "Title": "illum",
+      "Registered": "2003-11-26T11:22:37.7585887+01:00",
+      "IconHint": "sapiente"
     },
     {
-      "TicketId": 752,
-      "TicketStatus": 128,
-      "Title": "non",
-      "Registered": "2015-09-19T17:37:17.3072425+02:00",
-      "IconHint": "placeat"
+      "TicketId": 318,
+      "TicketStatus": 499,
+      "Title": "illum",
+      "Registered": "2003-11-26T11:22:37.7585887+01:00",
+      "IconHint": "sapiente"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 683,
-      "DocumentId": 795,
-      "Date": "2015-03-27T17:37:17.3072425+01:00",
-      "Description": "Multi-channelled background moderator",
+      "AppointmentId": 606,
+      "DocumentId": 327,
+      "Date": "2008-03-06T11:22:37.7585887+01:00",
+      "Description": "Down-sized logistical paradigm",
       "Completed": "Completed",
-      "Registered": "2008-02-16T17:37:17.3072425+01:00"
+      "Registered": "2012-07-16T11:22:37.7585887+02:00"
     },
     {
-      "AppointmentId": 683,
-      "DocumentId": 795,
-      "Date": "2015-03-27T17:37:17.3072425+01:00",
-      "Description": "Multi-channelled background moderator",
+      "AppointmentId": 606,
+      "DocumentId": 327,
+      "Date": "2008-03-06T11:22:37.7585887+01:00",
+      "Description": "Down-sized logistical paradigm",
       "Completed": "Completed",
-      "Registered": "2008-02-16T17:37:17.3072425+01:00"
+      "Registered": "2012-07-16T11:22:37.7585887+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 805,
-      "DocumentId": 794,
-      "Date": "2016-02-04T17:37:17.3072425+01:00",
-      "Description": "Focused 5th generation methodology",
+      "AppointmentId": 547,
+      "DocumentId": 354,
+      "Date": "1996-02-14T11:22:37.7585887+01:00",
+      "Description": "Future-proofed web-enabled superstructure",
       "Completed": "Completed",
-      "Registered": "2009-07-01T17:37:17.3072425+02:00"
+      "Registered": "2010-06-16T11:22:37.7585887+02:00"
     },
     {
-      "AppointmentId": 805,
-      "DocumentId": 794,
-      "Date": "2016-02-04T17:37:17.3072425+01:00",
-      "Description": "Focused 5th generation methodology",
+      "AppointmentId": 547,
+      "DocumentId": 354,
+      "Date": "1996-02-14T11:22:37.7585887+01:00",
+      "Description": "Future-proofed web-enabled superstructure",
       "Completed": "Completed",
-      "Registered": "2009-07-01T17:37:17.3072425+02:00"
+      "Registered": "2010-06-16T11:22:37.7585887+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 300,
-      "SaleDate": "2019-06-03T17:37:17.3072425+02:00",
-      "Probability": 394,
-      "Heading": "enim",
-      "Amount": 17446.978,
-      "Currency": "fuga",
-      "AmountInBaseCurrency": 4741.742,
+      "SaleId": 959,
+      "SaleDate": "2021-07-18T11:22:37.7585887+02:00",
+      "Probability": 335,
+      "Heading": "voluptate",
+      "Amount": 17691.43,
+      "Currency": "provident",
+      "AmountInBaseCurrency": 17008.218,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "1998-07-12T17:37:17.3072425+02:00"
+      "Registered": "1995-10-14T11:22:37.7585887+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 591,
-      "Name": "Runolfsson-Bednar",
-      "CompanyName": "Wyman-Jacobi",
-      "FirstMessage": "dolor",
-      "LastMessage": "nisi",
-      "WhenRequested": "2011-10-26T17:37:17.3072425+02:00",
-      "WhenEnded": "2021-11-14T17:37:17.3072425+01:00"
+      "ChatSessionId": 736,
+      "Name": "Lockman-Shanahan",
+      "CompanyName": "Osinski-Braun",
+      "FirstMessage": "vel",
+      "LastMessage": "tempora",
+      "WhenRequested": "2022-11-21T11:22:37.7585887+01:00",
+      "WhenEnded": "2004-04-11T11:22:37.7585887+02:00"
     }
   ]
 }

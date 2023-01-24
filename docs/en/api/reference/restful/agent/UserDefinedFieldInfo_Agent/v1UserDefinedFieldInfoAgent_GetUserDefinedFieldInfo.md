@@ -25,7 +25,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=440
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=608
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 581,
-  "ColumnId": 44,
-  "FieldDefault": "earum",
-  "FieldHeight": 1001,
-  "FieldLabel": "soluta",
-  "FieldLeft": 373,
-  "FieldTop": 623,
+  "UDefFieldId": 945,
+  "ColumnId": 366,
+  "FieldDefault": "dicta",
+  "FieldHeight": 554,
+  "FieldLabel": "illum",
+  "FieldLeft": 536,
+  "FieldTop": 131,
   "FieldType": "Checkbox",
-  "FieldWidth": 314,
-  "FormatMask": "eveniet",
-  "HideLabel": false,
+  "FieldWidth": 253,
+  "FormatMask": "enim",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 7,
-  "LabelLeft": 645,
-  "LabelTop": 410,
-  "LabelWidth": 979,
-  "LastVersionId": 112,
-  "ListTableId": 388,
+  "LabelHeight": 22,
+  "LabelLeft": 260,
+  "LabelTop": 255,
+  "LabelWidth": 902,
+  "LastVersionId": 924,
+  "ListTableId": 253,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 759,
-  "ProgId": "aut",
-  "IsReadOnly": false,
-  "ShortLabel": "nihil",
-  "TabOrder": 851,
-  "TextLength": 441,
-  "Tooltip": "sint",
-  "UdefIdentity": 693,
-  "UDListDefinitionId": 846,
+  "Page1LineNo": 599,
+  "ProgId": "qui",
+  "IsReadOnly": true,
+  "ShortLabel": "quia",
+  "TabOrder": 272,
+  "TextLength": 388,
+  "Tooltip": "nobis",
+  "UdefIdentity": 938,
+  "UDListDefinitionId": 267,
   "Justification": "Center",
-  "Version": 538,
-  "TemplateVariableName": "Nikolaus Group",
+  "Version": 847,
+  "TemplateVariableName": "Bosco, Stanton and Powlowski",
   "HasBeenPublished": false,
-  "MdoListName": "Lang Inc and Sons",
+  "MdoListName": "Hickle-Rice",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldType": "System.String",
+      "FieldLength": 246
     }
   }
 }

@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 149,
-  "Name": "Christiansen Group",
-  "Tooltip": "odio",
-  "Deleted": true,
-  "Rank": 880,
+  "Id": 66,
+  "Name": "Kassulke Inc and Sons",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "Rank": 767,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "asperiores",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 441,
-  "Name": "Davis, Paucek and Ratke",
-  "Tooltip": "nisi",
-  "Deleted": false,
-  "Rank": 77,
+  "Id": 784,
+  "Name": "Funk-Franecki",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 973,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "a",
+  "ListType": "dolorem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 166
+      "FieldType": "System.Int32",
+      "FieldLength": 201
     }
   }
 }

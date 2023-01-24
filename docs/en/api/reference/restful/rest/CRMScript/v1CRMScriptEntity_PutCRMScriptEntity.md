@@ -100,21 +100,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 997,
-  "UniqueIdentifier": "et",
-  "Name": "Howe LLC",
-  "Description": "Customizable bi-directional service-desk",
-  "IncludeId": "natus",
-  "HierarchyId": 934,
-  "Source": "in",
-  "Registered": "2022-04-09T17:37:38.4848626+02:00",
-  "RegisteredAssociateId": 450,
-  "Updated": "2014-10-06T17:37:38.4848626+02:00",
-  "UpdatedAssociateId": 136
+  "EjscriptId": 543,
+  "UniqueIdentifier": "aliquid",
+  "Name": "Pouros, Wunsch and Frami",
+  "Description": "De-engineered cohesive throughput",
+  "IncludeId": "quaerat",
+  "HierarchyId": 2,
+  "Source": "sapiente",
+  "Registered": "2020-08-04T11:22:44.5694964+02:00",
+  "RegisteredAssociateId": 424,
+  "Updated": "2004-04-26T11:22:44.5694964+02:00",
+  "UpdatedAssociateId": 2
 }
 ```
 
@@ -125,23 +125,23 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 7,
-  "UniqueIdentifier": "hic",
-  "Name": "Kerluke, Smitham and Franecki",
-  "Description": "Multi-lateral cohesive capacity",
-  "IncludeId": "est",
-  "HierarchyId": 368,
-  "Source": "ut",
-  "Registered": "2017-05-31T17:37:38.4848626+02:00",
-  "RegisteredAssociateId": 430,
-  "Updated": "2015-08-19T17:37:38.4848626+02:00",
-  "UpdatedAssociateId": 488,
+  "EjscriptId": 74,
+  "UniqueIdentifier": "sunt",
+  "Name": "D'Amore, Buckridge and Cummerata",
+  "Description": "Ameliorated reciprocal installation",
+  "IncludeId": "itaque",
+  "HierarchyId": 921,
+  "Source": "sapiente",
+  "Registered": "2011-08-11T11:22:44.5694964+02:00",
+  "RegisteredAssociateId": 518,
+  "Updated": "1996-04-28T11:22:44.5694964+02:00",
+  "UpdatedAssociateId": 642,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 458
     }
   },
   "_Links": {

@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kiehn, Hills and Medhurst",
+  "Name": "Fadel, Predovic and Stoltenberg",
   "ForceFlatList": false,
-  "AdditionalInfo": "dolor",
+  "AdditionalInfo": "quia",
   "OnlyHistory": false
 }
 ```
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Waters-Kunde",
-    "ToolTip": "Placeat optio neque nostrum.",
-    "Deleted": false,
-    "Rank": 905,
-    "Type": "molestiae",
+    "Id": 80,
+    "Name": "Kris Group",
+    "ToolTip": "Qui eos nisi repellat provident quas.",
+    "Deleted": true,
+    "Rank": 503,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Ankunding-Turner",
-        "ToolTip": "Nisi praesentium at ipsum.",
-        "Deleted": true,
-        "Rank": 536,
-        "Type": "cum",
+        "Id": 206,
+        "Name": "Schamberger, Ondricka and Kihn",
+        "ToolTip": "Praesentium quos ut minima harum sint est.",
+        "Deleted": false,
+        "Rank": 854,
+        "Type": "repudiandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tempora",
-        "ColorBlock": 46,
-        "ExtraInfo": "tempore",
+        "IconHint": "consequatur",
+        "ColorBlock": 789,
+        "ExtraInfo": "voluptatem",
         "StyleHint": "quo",
-        "FullName": "Dr. Lorenza Bruen",
+        "FullName": "Mr. Colten Aurelia Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 79
+            "FieldLength": 124
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 393,
-    "ExtraInfo": "temporibus",
-    "StyleHint": "blanditiis",
-    "FullName": "Alexa Herman",
+    "IconHint": "fugit",
+    "ColorBlock": 756,
+    "ExtraInfo": "numquam",
+    "StyleHint": "sequi",
+    "FullName": "Mr. Sanford Bernhard V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 982
+        "FieldType": "System.Int32",
+        "FieldLength": 641
       }
     }
   }

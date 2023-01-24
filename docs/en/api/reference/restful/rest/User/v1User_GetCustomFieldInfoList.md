@@ -66,7 +66,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Hackett Inc and Sons",
-    "DisplayName": "Littel Inc and Sons",
-    "Description": "Profound actuating ability",
-    "ShortLabel": "corporis",
+    "FieldName": "Pagac Inc and Sons",
+    "DisplayName": "Gerhold LLC",
+    "Description": "Pre-emptive bandwidth-monitored installation",
+    "ShortLabel": "nemo",
     "HideLabel": true,
     "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsIndexed": true,
+    "IsMandatory": false,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 171,
-    "TemplateVariableName": "Koch Inc and Sons"
+    "Rank": 116,
+    "TemplateVariableName": "Koepp Inc and Sons"
   }
 ]
 ```

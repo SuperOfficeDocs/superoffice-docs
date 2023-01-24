@@ -75,7 +75,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,30 +86,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 748,
-    "Section": "cumque",
-    "Key": "facere",
-    "Name": "Rolfson Inc and Sons",
+    "PrefDescId": 595,
+    "Section": "unde",
+    "Key": "corporis",
+    "Name": "Stamm, Streich and Cormier",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Function-based heuristic approach",
+    "Description": "Decentralized directional groupware",
     "IsBuiltin": false,
-    "TableName": "Koss Inc and Sons",
-    "UserDefinedListId": 185,
-    "Rank": 124,
-    "SubGroup": "animi",
-    "MinLevel": 466,
-    "MaxValue": 490,
-    "MinValue": 786,
+    "TableName": "Lindgren, Lubowitz and Pfannerstill",
+    "UserDefinedListId": 589,
+    "Rank": 497,
+    "SubGroup": "et",
+    "MinLevel": 225,
+    "MaxValue": 233,
+    "MinValue": 249,
     "RequiredLicense": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 262
+        "FieldLength": 301
       }
     }
   }

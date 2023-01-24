@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 279,
-    "Name": "Tromp Inc and Sons",
-    "ToolTip": "Dignissimos voluptatibus.",
-    "Deleted": true,
-    "Rank": 735,
-    "Type": "porro",
-    "ColorBlock": 727,
-    "IconHint": "non",
+    "Id": 818,
+    "Name": "Renner-Mann",
+    "ToolTip": "Tempora eveniet sequi necessitatibus.",
+    "Deleted": false,
+    "Rank": 451,
+    "Type": "eum",
+    "ColorBlock": 332,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2009-02-14T17:37:40.1814706+01:00",
+    "LastChanged": "1996-07-01T11:22:46.0535201+02:00",
     "ChildItems": [
       {
-        "Id": 993,
-        "Name": "Zemlak Inc and Sons",
-        "ToolTip": "Totam nostrum velit adipisci et quis iusto.",
+        "Id": 43,
+        "Name": "Simonis-Greenfelder",
+        "ToolTip": "Doloremque facilis.",
         "Deleted": false,
-        "Rank": 442,
-        "Type": "et",
-        "ColorBlock": 193,
-        "IconHint": "laboriosam",
-        "Selected": false,
-        "LastChanged": "2021-06-28T17:37:40.1814706+02:00",
+        "Rank": 607,
+        "Type": "debitis",
+        "ColorBlock": 718,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2014-06-30T11:22:46.0535201+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "laborum",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "reiciendis",
         "Hidden": false,
-        "FullName": "Mr. Madonna Ken Gutkowski"
+        "FullName": "Malachi Schroeder MD"
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "autem",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Ollie Bernier"
+    "FullName": "Max Addie Von I"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Stanton-Reilly",
-    "ToolTip": "Quibusdam labore recusandae autem soluta voluptatem.",
+    "Id": 553,
+    "Name": "Renner, Lemke and Kshlerin",
+    "ToolTip": "Nisi non aut est recusandae repudiandae.",
     "Deleted": false,
-    "Rank": 513,
-    "Type": "aperiam",
-    "ColorBlock": 75,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2007-06-30T17:37:40.1834701+02:00",
+    "Rank": 850,
+    "Type": "est",
+    "ColorBlock": 86,
+    "IconHint": "voluptate",
+    "Selected": false,
+    "LastChanged": "2005-10-15T11:22:46.0535201+02:00",
     "ChildItems": [
       {
-        "Id": 893,
-        "Name": "DuBuque Group",
-        "ToolTip": "Rem architecto hic fuga nesciunt et aut.",
+        "Id": 760,
+        "Name": "Morar, Swaniawski and Gibson",
+        "ToolTip": "Dolores magnam repudiandae ut earum tempore blanditiis.",
         "Deleted": false,
-        "Rank": 648,
-        "Type": "dolores",
-        "ColorBlock": 53,
-        "IconHint": "repudiandae",
+        "Rank": 519,
+        "Type": "molestiae",
+        "ColorBlock": 187,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2014-07-31T17:37:40.1834701+02:00",
+        "LastChanged": "2018-06-24T11:22:46.0535201+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "quam",
-        "Hidden": false,
-        "FullName": "Kailyn Leffler",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "facere",
+        "Hidden": true,
+        "FullName": "Efren Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldType": "System.String",
+            "FieldLength": 185
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Prof. Marisol Kutch",
+    "ExtraInfo": "quia",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Jeanne Turcotte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldLength": 548
       }
     }
   }

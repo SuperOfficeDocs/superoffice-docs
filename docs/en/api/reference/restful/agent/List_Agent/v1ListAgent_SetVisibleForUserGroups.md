@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 622,
-  "ListItemId": 450,
+  "UdListDefinitionId": 483,
+  "ListItemId": 636,
   "UserGroups": [
     {
-      "Id": 412,
-      "Name": "Fritsch, Luettgen and Cartwright",
-      "ToolTip": "Voluptatem recusandae aspernatur quia aut.",
+      "Id": 254,
+      "Name": "Mayer, Purdy and Denesik",
+      "ToolTip": "Perferendis pariatur non doloribus.",
       "Deleted": false,
-      "Rank": 553,
-      "Type": "distinctio",
-      "ColorBlock": 128,
-      "IconHint": "repellat",
+      "Rank": 905,
+      "Type": "dolorem",
+      "ColorBlock": 687,
+      "IconHint": "natus",
       "Selected": false,
-      "LastChanged": "1999-09-27T17:37:18.1952446+02:00",
+      "LastChanged": "2014-06-21T11:22:38.4615502+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "mollitia",
-      "StyleHint": "quas",
+      "ExtraInfo": "distinctio",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Tyrese Senger"
+      "FullName": "Prof. Hilda Ledner V"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 581,
-    "Name": "Johnson-Upton",
-    "ToolTip": "Consequatur quaerat et magnam qui est omnis asperiores.",
+    "Id": 302,
+    "Name": "Connelly Inc and Sons",
+    "ToolTip": "Facilis et et tenetur qui rerum sit.",
     "Deleted": false,
-    "Rank": 697,
-    "Type": "necessitatibus",
-    "ColorBlock": 420,
-    "IconHint": "architecto",
+    "Rank": 688,
+    "Type": "beatae",
+    "ColorBlock": 265,
+    "IconHint": "impedit",
     "Selected": true,
-    "LastChanged": "1999-01-28T17:37:18.1972447+01:00",
+    "LastChanged": "2010-01-09T11:22:38.4615502+01:00",
     "ChildItems": [
       {
-        "Id": 877,
-        "Name": "Champlin, Schmeler and Koepp",
-        "ToolTip": "Neque laboriosam et dolores tempore alias soluta.",
+        "Id": 244,
+        "Name": "Boehm-Sanford",
+        "ToolTip": "Ducimus fuga corrupti voluptatem error.",
         "Deleted": false,
-        "Rank": 828,
-        "Type": "ut",
-        "ColorBlock": 323,
-        "IconHint": "dolor",
+        "Rank": 274,
+        "Type": "voluptatem",
+        "ColorBlock": 287,
+        "IconHint": "quisquam",
         "Selected": false,
-        "LastChanged": "2014-04-13T17:37:18.1972447+02:00",
+        "LastChanged": "2004-11-19T11:22:38.4615502+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "et",
+        "ExtraInfo": "in",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Prof. Oran Kautzer",
+        "FullName": "Prof. Monte Giuseppe Wehner Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 601
+            "FieldType": "System.Int32",
+            "FieldLength": 813
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "omnis",
+    "ExtraInfo": "quidem",
+    "StyleHint": "fugit",
     "Hidden": true,
-    "FullName": "Ms. Gaston Beaulah Torphy Jr.",
+    "FullName": "Enola Fernando Crona I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 798
       }
     }
   }

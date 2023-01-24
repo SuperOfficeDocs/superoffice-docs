@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Hessel-Mitchell",
-    "Tooltip": "nesciunt",
+    "Id": 390,
+    "Name": "Weissnat Group",
+    "Tooltip": "accusamus",
     "Deleted": true,
-    "UdListDefinitionId": 792,
-    "Rank": 464,
+    "UdListDefinitionId": 891,
+    "Rank": 980,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldLength": 965
       }
     }
   }

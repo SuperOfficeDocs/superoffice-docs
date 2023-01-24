@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 759,
+  "ErpConnectionId": 107,
   "ActorType": "Customer"
 }
 ```
@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 708,
-  "IsActive": false,
+  "ErpConnectionId": 62,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 172,
-      "CrmFieldKey": "ullam",
-      "CrmDisplayName": "Jast, Tremblay and Zemlak",
-      "CrmDisplayTooltip": "et",
-      "ErpFieldKey": "necessitatibus",
+      "ErpFieldId": 636,
+      "CrmFieldKey": "enim",
+      "CrmDisplayName": "Murray Inc and Sons",
+      "CrmDisplayTooltip": "qui",
+      "ErpFieldKey": "dolores",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Renner, Moore and Champlin",
-      "ErpDisplayTooltip": "libero",
-      "SyncToCrm": true,
+      "ErpDisplayName": "Prohaska, Beahan and Feest",
+      "ErpDisplayTooltip": "atque",
+      "SyncToCrm": false,
       "SyncToErp": true,
-      "ShowInGui": true,
+      "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": true,
-      "MissingInCRM": true,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "quia",
+      "ListReference": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldLength": 671
         }
       }
     }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldType": "System.String",
+      "FieldLength": 703
     }
   }
 }

@@ -124,18 +124,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "laborum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "laborum",
     "value": {}
   }
 ]
@@ -148,30 +148,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 542,
-  "SourcePersonId": 990,
-  "DestinationContactId": 153,
-  "DestinationPersonId": 635,
-  "RelationId": 614,
-  "Comment": "quasi",
-  "RelationDefinitionId": 60,
-  "Reversed": 672,
-  "UpdatedDate": "1996-01-20T17:37:38.4808309+01:00",
-  "CreatedDate": "2010-07-21T17:37:38.4808309+02:00",
+  "SourceContactId": 160,
+  "SourcePersonId": 134,
+  "DestinationContactId": 168,
+  "DestinationPersonId": 494,
+  "RelationId": 774,
+  "Comment": "illum",
+  "RelationDefinitionId": 497,
+  "Reversed": 473,
+  "UpdatedDate": "2015-08-02T11:22:44.5694964+02:00",
+  "CreatedDate": "2009-01-31T11:22:44.5694964+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "VonRueden-Schuster",
-  "SourcePersonName": "Lehner, Zemlak and Beahan",
-  "DestinationContactName": "Gottlieb-Gerlach",
-  "DestinationPersonName": "Auer Group",
-  "ActiveText": "qui",
-  "PassiveText": "sequi",
+  "SourceContactName": "Funk, Luettgen and Nicolas",
+  "SourcePersonName": "Powlowski, Wyman and Johnson",
+  "DestinationContactName": "Olson-Klein",
+  "DestinationPersonName": "Torp Group",
+  "ActiveText": "aperiam",
+  "PassiveText": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 423
     }
   },
   "_Links": {

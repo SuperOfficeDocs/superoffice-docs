@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 852,
-  "Name": "Dietrich, Kessler and Rowe",
-  "Tooltip": "aperiam",
+  "Id": 551,
+  "Name": "Bartoletti Inc and Sons",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "Rank": 617,
+  "Rank": 283,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldLength": 892
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

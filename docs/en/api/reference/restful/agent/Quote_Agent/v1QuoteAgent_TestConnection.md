@@ -84,10 +84,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Von-Ferry",
+  "ConnectorName": "Denesik-Waters",
   "ConnectionData": {
-    "ConnectionData1": "fuga",
-    "ConnectionData2": "quam"
+    "ConnectionData1": "voluptatum",
+    "ConnectionData2": "repudiandae"
   }
 }
 ```
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "blanditiis",
-  "TechExplanation": "illum",
-  "ErrorCode": "distinctio",
+  "IsOk": false,
+  "UserExplanation": "eveniet",
+  "TechExplanation": "tenetur",
+  "ErrorCode": "saepe",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldLength": 706
     }
   }
 }

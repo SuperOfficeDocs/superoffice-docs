@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 988
+  "PersonId": 638
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 654,
-    "Name": "Kihn, Macejkovic and Gorczany",
-    "Description": "Synergized solution-oriented help-desk",
+    "ProjectId": 507,
+    "Name": "Carroll Inc and Sons",
+    "Description": "Customizable 24 hour forecast",
     "URL": "http://www.example.com/",
-    "Type": "earum",
-    "AssociateId": 883,
-    "AssociateFullName": "Ms. Harley Coty Rau IV",
-    "TypeId": 382,
-    "Updated": "2016-05-07T17:37:18.660245+02:00",
-    "StatusId": 662,
-    "Status": "quisquam",
-    "TextId": 663,
-    "PublishTo": "1997-06-21T17:37:18.660245+02:00",
-    "PublishFrom": "2017-04-10T17:37:18.660245+02:00",
+    "Type": "adipisci",
+    "AssociateId": 946,
+    "AssociateFullName": "Margret Kuvalis",
+    "TypeId": 587,
+    "Updated": "2008-10-09T11:22:38.8520826+02:00",
+    "StatusId": 839,
+    "Status": "inventore",
+    "TextId": 514,
+    "PublishTo": "1995-09-12T11:22:38.8520826+02:00",
+    "PublishFrom": "2011-09-04T11:22:38.8520826+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1072634",
-    "ActiveErpLinks": 872,
+    "ProjectNumber": "119596",
+    "ActiveErpLinks": 192,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 318
+        "FieldType": "System.Int32",
+        "FieldLength": 64
       }
     }
   }

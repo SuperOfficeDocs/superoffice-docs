@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    304,
-    925
+    985,
+    844
   ]
 }
 ```
@@ -103,37 +103,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 22,
-    "UniqueId": "ex",
-    "Name": "Rolfson-Bins",
-    "Description": "Exclusive cohesive encoding",
-    "AssociateId": 840,
-    "Columns": 442,
+    "DashboardId": 536,
+    "UniqueId": "velit",
+    "Name": "Paucek, Herman and Mante",
+    "Description": "Synergized 6th generation open system",
+    "AssociateId": 162,
+    "Columns": 679,
     "Theme": null,
-    "VisibleForAll": 395,
+    "VisibleForAll": 629,
     "VisibleForAssociates": [
-      521,
-      317
+      710,
+      100
     ],
     "VisibleForGroups": [
-      538,
-      969
+      997,
+      757
     ],
-    "PinForAll": 216,
+    "PinForAll": 141,
     "PinForAssociates": [
-      469,
-      669
+      356,
+      424
     ],
     "PinForGroups": [
-      38,
-      181
+      845,
+      868
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldType": "System.Int32",
+        "FieldLength": 801
       }
     }
   }

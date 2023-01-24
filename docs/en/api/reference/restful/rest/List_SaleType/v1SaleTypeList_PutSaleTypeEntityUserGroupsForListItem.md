@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 248,
-    "Name": "Purdy-Stiedemann",
-    "ToolTip": "Fugiat eligendi quis explicabo repellat.",
-    "Deleted": true,
-    "Rank": 786,
-    "Type": "sed",
-    "ColorBlock": 469,
-    "IconHint": "iste",
-    "Selected": true,
-    "LastChanged": "2018-10-23T17:37:40.3405012+02:00",
+    "Id": 353,
+    "Name": "Hahn LLC",
+    "ToolTip": "Nostrum adipisci impedit repudiandae et et.",
+    "Deleted": false,
+    "Rank": 259,
+    "Type": "quia",
+    "ColorBlock": 425,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2006-11-05T11:22:46.1784934+01:00",
     "ChildItems": [
       {
-        "Id": 275,
-        "Name": "Grady, Schroeder and Weber",
-        "ToolTip": "Nulla voluptatibus maxime dicta nisi.",
-        "Deleted": true,
-        "Rank": 478,
-        "Type": "omnis",
-        "ColorBlock": 535,
-        "IconHint": "quis",
+        "Id": 513,
+        "Name": "Kohler, Armstrong and Macejkovic",
+        "ToolTip": "Natus magni nobis voluptas ut.",
+        "Deleted": false,
+        "Rank": 543,
+        "Type": "soluta",
+        "ColorBlock": 203,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2016-04-12T17:37:40.3405012+02:00",
+        "LastChanged": "2019-11-05T11:22:46.1784934+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "incidunt",
-        "Hidden": false,
-        "FullName": "Mr. Morgan Kamryn Gerlach Jr."
+        "ExtraInfo": "cum",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Miss Kennedy Collier"
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "qui",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Mr. Euna Breitenberg"
+    "FullName": "Easter Anderson"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Crona-O'Keefe",
-    "ToolTip": "Distinctio explicabo.",
+    "Id": 279,
+    "Name": "Kutch LLC",
+    "ToolTip": "Aspernatur corporis saepe eos temporibus.",
     "Deleted": false,
-    "Rank": 966,
-    "Type": "occaecati",
-    "ColorBlock": 751,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "1995-08-27T17:37:40.3424715+02:00",
+    "Rank": 80,
+    "Type": "illum",
+    "ColorBlock": 892,
+    "IconHint": "aperiam",
+    "Selected": true,
+    "LastChanged": "1997-04-18T11:22:46.1784934+02:00",
     "ChildItems": [
       {
-        "Id": 760,
-        "Name": "Weissnat Group",
-        "ToolTip": "Iste id unde exercitationem autem doloribus.",
-        "Deleted": false,
-        "Rank": 279,
-        "Type": "eaque",
-        "ColorBlock": 265,
-        "IconHint": "amet",
-        "Selected": false,
-        "LastChanged": "2020-09-12T17:37:40.3424715+02:00",
+        "Id": 901,
+        "Name": "Kohler Group",
+        "ToolTip": "Omnis voluptatem id.",
+        "Deleted": true,
+        "Rank": 198,
+        "Type": "est",
+        "ColorBlock": 694,
+        "IconHint": "facere",
+        "Selected": true,
+        "LastChanged": "2018-06-13T11:22:46.1784934+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "eveniet",
-        "Hidden": false,
-        "FullName": "Jonathon Reichel",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "numquam",
+        "Hidden": true,
+        "FullName": "Anjali Gene Nolan V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 121
+            "FieldLength": 697
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "praesentium",
-    "Hidden": false,
-    "FullName": "Ms. Leilani Sylvester Pagac",
+    "ExtraInfo": "qui",
+    "StyleHint": "iusto",
+    "Hidden": true,
+    "FullName": "Carmella Kshlerin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldType": "System.String",
+        "FieldLength": 8
       }
     }
   }

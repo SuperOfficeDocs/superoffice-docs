@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 193,
-  "GroupId": 529
+  "UdListDefinitionId": 114,
+  "GroupId": 990
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Kunde Inc and Sons",
-    "ToolTip": "Maxime doloremque eum.",
-    "Deleted": true,
-    "Rank": 818,
-    "Type": "natus",
-    "ColorBlock": 930,
-    "IconHint": "sequi",
+    "Id": 714,
+    "Name": "Schneider-Lindgren",
+    "ToolTip": "Velit nostrum molestias similique expedita.",
+    "Deleted": false,
+    "Rank": 12,
+    "Type": "consequuntur",
+    "ColorBlock": 296,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2000-04-11T17:37:18.2012465+02:00",
+    "LastChanged": "2009-10-05T11:22:38.4615502+02:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Wunsch, Heller and Toy",
-        "ToolTip": "Et cupiditate vel nisi dolor impedit.",
-        "Deleted": false,
-        "Rank": 161,
-        "Type": "necessitatibus",
-        "ColorBlock": 149,
-        "IconHint": "consequuntur",
-        "Selected": true,
-        "LastChanged": "2003-03-13T17:37:18.2012465+01:00",
+        "Id": 79,
+        "Name": "Dach, Orn and Jewess",
+        "ToolTip": "Ut cumque.",
+        "Deleted": true,
+        "Rank": 510,
+        "Type": "quia",
+        "ColorBlock": 695,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2016-07-01T11:22:38.4615502+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "molestias",
-        "Hidden": false,
-        "FullName": "Damaris Strosin",
+        "ExtraInfo": "itaque",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Dr. Prudence Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 227
+            "FieldLength": 275
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "odit",
-    "Hidden": true,
-    "FullName": "Prof. Freddie Rodriguez DDS",
+    "ExtraInfo": "possimus",
+    "StyleHint": "perspiciatis",
+    "Hidden": false,
+    "FullName": "Elza Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 602
+        "FieldLength": 111
       }
     }
   }

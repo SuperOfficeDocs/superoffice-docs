@@ -25,8 +25,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=sunt
+GET /api/v1/List/Priority/MDOItems?flat=False
+GET /api/v1/List/Priority/MDOItems?query=ab
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 730,
-    "Name": "Keebler, Collins and Rogahn",
-    "ToolTip": "Eum repellendus delectus.",
-    "Deleted": true,
-    "Rank": 742,
-    "Type": "officia",
+    "Id": 803,
+    "Name": "Brakus-Runte",
+    "ToolTip": "Est accusamus totam repellat.",
+    "Deleted": false,
+    "Rank": 717,
+    "Type": "tempore",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Smitham, Walsh and Price",
-        "ToolTip": "Nulla magni quis vitae.",
+        "Id": 434,
+        "Name": "Lesch Inc and Sons",
+        "ToolTip": "Qui autem assumenda.",
         "Deleted": false,
-        "Rank": 590,
-        "Type": "id",
+        "Rank": 582,
+        "Type": "veniam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 869,
+        "IconHint": "quo",
+        "ColorBlock": 771,
         "ExtraInfo": "voluptatem",
-        "StyleHint": "earum",
-        "FullName": "Mathilde Clementina Daniel DDS",
+        "StyleHint": "est",
+        "FullName": "Jailyn Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 689
+            "FieldType": "System.String",
+            "FieldLength": 362
           }
         }
       }
     ],
-    "IconHint": "incidunt",
-    "ColorBlock": 529,
-    "ExtraInfo": "aut",
-    "StyleHint": "sunt",
-    "FullName": "Carlotta Smitham DVM",
+    "IconHint": "est",
+    "ColorBlock": 260,
+    "ExtraInfo": "nulla",
+    "StyleHint": "ex",
+    "FullName": "Prof. Jeanette Beatty Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 579
       }
     }
   }

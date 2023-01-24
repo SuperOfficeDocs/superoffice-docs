@@ -115,47 +115,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 555,
-  "Name": "Prohaska-Ankunding",
-  "Tooltip": "sed",
-  "Rank": 152,
+  "SaleTypeId": 263,
+  "Name": "Balistreri Inc and Sons",
+  "Tooltip": "modi",
+  "Rank": 767,
   "DurationUnit": "Century",
-  "SaleDuration": 800,
-  "SaleTypeCatId": 266,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
+  "SaleDuration": 164,
+  "SaleTypeCatId": 527,
+  "Deleted": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 555,
-  "QuoteLinesTemplate": 585,
-  "ConfirmationLinesTemplate": 28,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 83,
+  "QuoteLinesTemplate": 525,
+  "ConfirmationLinesTemplate": 797,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 904,
-  "MinEarningPercent": 100,
-  "GroupQuoteLinesBy": 302,
-  "SortGroupLinesBy": 795,
+  "MaxDiscountPercent": 400,
+  "MinEarningPercent": 210,
+  "GroupQuoteLinesBy": 351,
+  "SortGroupLinesBy": 692,
   "Stages": [
     {
-      "Id": 387,
-      "Name": "Huels-Hegmann",
-      "ToolTip": "A totam quos.",
+      "Id": 856,
+      "Name": "Swaniawski, Morissette and Abernathy",
+      "ToolTip": "Quaerat sunt amet ullam veritatis ut nihil.",
       "Deleted": false,
-      "Rank": 858,
-      "Type": "rerum",
-      "ColorBlock": 41,
-      "IconHint": "deserunt",
+      "Rank": 797,
+      "Type": "velit",
+      "ColorBlock": 762,
+      "IconHint": "recusandae",
       "Selected": true,
-      "LastChanged": "1996-07-26T17:37:40.3355007+02:00",
+      "LastChanged": "2003-07-04T11:22:46.1784934+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "asperiores",
-      "StyleHint": "repellat",
+      "ExtraInfo": "ut",
+      "StyleHint": "repudiandae",
       "Hidden": false,
-      "FullName": "Easter Little I"
+      "FullName": "Dr. Name Coby Carroll V"
     }
   ]
 }
@@ -168,53 +168,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 468,
-  "Name": "Zulauf LLC",
-  "Tooltip": "molestiae",
-  "Rank": 521,
+  "SaleTypeId": 436,
+  "Name": "Kovacek-Mayer",
+  "Tooltip": "earum",
+  "Rank": 82,
   "DurationUnit": "Century",
-  "SaleDuration": 705,
-  "SaleTypeCatId": 287,
-  "Deleted": false,
-  "HasGuide": false,
+  "SaleDuration": 782,
+  "SaleTypeCatId": 717,
+  "Deleted": true,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 975,
-  "QuoteLinesTemplate": 439,
-  "ConfirmationLinesTemplate": 706,
+  "DefaultQuoteValidity": 625,
+  "QuoteLinesTemplate": 896,
+  "ConfirmationLinesTemplate": 179,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 54,
-  "MinEarningPercent": 52,
-  "GroupQuoteLinesBy": 443,
-  "SortGroupLinesBy": 377,
+  "MaxDiscountPercent": 492,
+  "MinEarningPercent": 726,
+  "GroupQuoteLinesBy": 85,
+  "SortGroupLinesBy": 248,
   "Stages": [
     {
-      "Id": 256,
-      "Name": "Ernser-Ruecker",
-      "ToolTip": "Tenetur asperiores fuga sapiente dolore.",
+      "Id": 567,
+      "Name": "Wilkinson, Schoen and Sawayn",
+      "ToolTip": "Quia unde.",
       "Deleted": false,
-      "Rank": 912,
-      "Type": "debitis",
-      "ColorBlock": 348,
-      "IconHint": "ea",
+      "Rank": 96,
+      "Type": "error",
+      "ColorBlock": 317,
+      "IconHint": "nesciunt",
       "Selected": true,
-      "LastChanged": "1998-03-02T17:37:40.3355007+01:00",
+      "LastChanged": "2019-04-07T11:22:46.1784934+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "commodi",
-      "StyleHint": "minus",
-      "Hidden": false,
-      "FullName": "Marshall Bergnaum",
+      "ExtraInfo": "eius",
+      "StyleHint": "ea",
+      "Hidden": true,
+      "FullName": "Meaghan Torphy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 670
+          "FieldLength": 215
         }
       }
     }
@@ -223,8 +223,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldType": "System.Int32",
+      "FieldLength": 875
     }
   }
 }

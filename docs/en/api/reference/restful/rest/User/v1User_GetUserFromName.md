@@ -84,7 +84,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 784,
-  "Name": "Gerhold, Bosco and Hickle",
-  "Rank": 655,
-  "Tooltip": "odio",
+  "AssociateId": 622,
+  "Name": "Stanton, Legros and Schuster",
+  "Rank": 849,
+  "Tooltip": "aspernatur",
   "LicenseOwners": [
     {
-      "Name": "Schimmel-Abernathy",
-      "Description": "Seamless national throughput",
+      "Name": "Little-Kerluke",
+      "Description": "Switchable dedicated open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldType": "System.String",
+          "FieldLength": 855
         }
       }
     },
     {
-      "Name": "Schimmel-Abernathy",
-      "Description": "Seamless national throughput",
+      "Name": "Little-Kerluke",
+      "Description": "Switchable dedicated open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldType": "System.String",
+          "FieldLength": 855
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quibusdam",
-      "Tooltip": "reiciendis",
-      "Id": 431,
-      "Rank": 784,
+      "Value": "ut",
+      "Tooltip": "facere",
+      "Id": 469,
+      "Rank": 456,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 105
+          "FieldLength": 79
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "1995-10-29T17:37:39.5594303+01:00",
-  "Lastlogout": "2016-05-21T17:37:39.5594303+02:00",
-  "EjUserId": 26,
-  "RequestSignature": "corrupti",
+  "Deleted": false,
+  "Lastlogin": "2018-07-16T11:22:45.5067229+02:00",
+  "Lastlogout": "2014-04-20T11:22:45.5067229+02:00",
+  "EjUserId": 295,
+  "RequestSignature": "officia",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "est",
-      "DisplayValue": "voluptatem",
+      "Value": "cumque",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 441
+          "FieldLength": 232
         }
       }
     },
     {
       "Type": null,
-      "Value": "est",
-      "DisplayValue": "voluptatem",
+      "Value": "cumque",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 441
+          "FieldLength": 232
         }
       }
     }
   ],
-  "UserName": "Harris-Leannon",
+  "UserName": "Cormier-Kemmer",
   "TicketCategories": [
     {
-      "Id": 328,
-      "Name": "Padberg Group",
-      "ToolTip": "Illum velit animi exercitationem exercitationem.",
+      "Id": 393,
+      "Name": "Wiza, Sauer and Ullrich",
+      "ToolTip": "Optio dolores magni laboriosam voluptatibus voluptatem aliquam minima.",
       "Deleted": false,
-      "Rank": 382,
-      "Type": "omnis",
+      "Rank": 624,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "impedit",
-      "ColorBlock": 720,
-      "ExtraInfo": "dolorum",
-      "StyleHint": "aut",
-      "FullName": "Donna Reichert",
+      "IconHint": "asperiores",
+      "ColorBlock": 123,
+      "ExtraInfo": "numquam",
+      "StyleHint": "vel",
+      "FullName": "Clarabelle Herzog",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 341
+          "FieldLength": 865
         }
       }
     }
   ],
-  "NickName": "Kihn-Connelly",
+  "NickName": "Strosin, Windler and Schumm",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "fugit",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "laborum",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "ex",
+    "CustomFields2": "sunt"
   },
   "PostSaveCommands": [
     {
-      "Name": "Bode Inc and Sons",
-      "DisplayName": "Wiza, Rau and Berge",
-      "Description": "Synchronised holistic protocol",
-      "ToolTip": "Consequatur accusantium sequi laboriosam consequatur sit.",
+      "Name": "Smitham-Gutkowski",
+      "DisplayName": "Hammes, Langworth and Wunsch",
+      "Description": "Implemented radical productivity",
+      "ToolTip": "Mollitia sint non ab deserunt fugiat.",
       "Actions": "Implicit",
-      "ActionData": "dignissimos",
+      "ActionData": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 542
+          "FieldType": "System.Int32",
+          "FieldLength": 835
         }
       }
     }
@@ -256,8 +256,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 53
+      "FieldType": "System.Int32",
+      "FieldLength": 473
     }
   }
 }

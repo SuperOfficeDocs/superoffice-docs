@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 664
+  "AssociateId": 57
 }
 ```
 
@@ -91,56 +91,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schulist, Goyette and Bergnaum",
-    "Description": "Centralized fault-tolerant definition",
+    "Name": "Adams, Kirlin and Bayer",
+    "Description": "Expanded bifurcated data-warehouse",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 493,
-        "Tooltip": "sit",
+        "Unrestricted": true,
+        "Total": 153,
+        "Tooltip": "asperiores",
         "CanAssign": false,
-        "Free": 578,
-        "InUse": 323,
-        "IsHidden": true,
+        "Free": 905,
+        "InUse": 883,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 450,
-        "Name": "Haag Inc and Sons",
-        "Description": "Cross-platform static knowledge user",
-        "PrerequisiteModuleName": "Hermiston, Johnson and Schamberger",
-        "SortOrder": 302,
-        "ExtraFlags": 173,
+        "ModuleLicenseId": 83,
+        "Name": "Murphy LLC",
+        "Description": "De-engineered 24 hour protocol",
+        "PrerequisiteModuleName": "Graham, Russel and Conn",
+        "SortOrder": 13,
+        "ExtraFlags": 416,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 501
+            "FieldType": "System.Int32",
+            "FieldLength": 367
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 167,
-        "Tooltip": "dignissimos",
+        "Unrestricted": false,
+        "Total": 169,
+        "Tooltip": "a",
         "CanAssign": false,
-        "Free": 302,
-        "InUse": 205,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 611,
-        "Name": "Stanton LLC",
-        "Description": "Team-oriented client-driven capability",
-        "PrerequisiteModuleName": "Labadie, Koch and Rogahn",
-        "SortOrder": 860,
-        "ExtraFlags": 864,
+        "Free": 146,
+        "InUse": 736,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 887,
+        "Name": "Dooley-Baumbach",
+        "Description": "Visionary exuding functionalities",
+        "PrerequisiteModuleName": "Strosin, Paucek and Schimmel",
+        "SortOrder": 268,
+        "ExtraFlags": 348,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 251
+            "FieldType": "System.Int32",
+            "FieldLength": 311
           }
         }
       }
@@ -150,61 +150,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 245
       }
     }
   },
   {
-    "Name": "Schulist, Goyette and Bergnaum",
-    "Description": "Centralized fault-tolerant definition",
+    "Name": "Adams, Kirlin and Bayer",
+    "Description": "Expanded bifurcated data-warehouse",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 493,
-        "Tooltip": "sit",
+        "Unrestricted": true,
+        "Total": 153,
+        "Tooltip": "asperiores",
         "CanAssign": false,
-        "Free": 578,
-        "InUse": 323,
-        "IsHidden": true,
+        "Free": 905,
+        "InUse": 883,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 450,
-        "Name": "Haag Inc and Sons",
-        "Description": "Cross-platform static knowledge user",
-        "PrerequisiteModuleName": "Hermiston, Johnson and Schamberger",
-        "SortOrder": 302,
-        "ExtraFlags": 173,
+        "ModuleLicenseId": 83,
+        "Name": "Murphy LLC",
+        "Description": "De-engineered 24 hour protocol",
+        "PrerequisiteModuleName": "Graham, Russel and Conn",
+        "SortOrder": 13,
+        "ExtraFlags": 416,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 501
+            "FieldType": "System.Int32",
+            "FieldLength": 367
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 167,
-        "Tooltip": "dignissimos",
+        "Unrestricted": false,
+        "Total": 169,
+        "Tooltip": "a",
         "CanAssign": false,
-        "Free": 302,
-        "InUse": 205,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 611,
-        "Name": "Stanton LLC",
-        "Description": "Team-oriented client-driven capability",
-        "PrerequisiteModuleName": "Labadie, Koch and Rogahn",
-        "SortOrder": 860,
-        "ExtraFlags": 864,
+        "Free": 146,
+        "InUse": 736,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 887,
+        "Name": "Dooley-Baumbach",
+        "Description": "Visionary exuding functionalities",
+        "PrerequisiteModuleName": "Strosin, Paucek and Schimmel",
+        "SortOrder": 268,
+        "ExtraFlags": 348,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 251
+            "FieldType": "System.Int32",
+            "FieldLength": 311
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 245
       }
     }
   }

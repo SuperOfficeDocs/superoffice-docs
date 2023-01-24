@@ -89,11 +89,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Murphy-Daugherty",
-  "DeviceName": "Feeney-Witting",
-  "KeyName": "Zulauf, Swaniawski and Stiedemann",
-  "TableName": "Lueilwitz Group",
-  "RecordId": 360
+  "ApplicationName": "Sanford, Reynolds and Bradtke",
+  "DeviceName": "Pollich LLC",
+  "KeyName": "Ullrich Inc and Sons",
+  "TableName": "Walter LLC",
+  "RecordId": 660
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ab",
-  "Value": "nemo",
-  "RecordId": 211,
-  "CreatedDate": "2022-09-28T17:37:18.1042433+02:00",
-  "UpdatedDate": "2016-12-18T17:37:18.1042433+01:00",
-  "UpdatedBy": "architecto",
-  "CreatedBy": "provident",
-  "TableName": "Hahn Group",
+  "Key": "possimus",
+  "Value": "voluptatem",
+  "RecordId": 518,
+  "CreatedDate": "2003-05-07T11:22:38.3834434+02:00",
+  "UpdatedDate": "2015-06-28T11:22:38.3834434+02:00",
+  "UpdatedBy": "laudantium",
+  "CreatedBy": "officiis",
+  "TableName": "Gulgowski, McCullough and Bode",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldType": "System.Int32",
+      "FieldLength": 444
     }
   }
 }

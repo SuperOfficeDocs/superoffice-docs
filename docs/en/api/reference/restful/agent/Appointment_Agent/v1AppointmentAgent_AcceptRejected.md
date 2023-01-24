@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 928,
+  "AppointmentId": 114,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -147,122 +147,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-05-19T17:37:16.4622417+02:00",
-  "AppointmentId": 720,
-  "Description": "Future-proofed methodical challenge",
-  "StartDate": "2009-01-12T17:37:16.4622417+01:00",
-  "EndDate": "2016-01-01T17:37:16.4622417+01:00",
+  "CreatedDate": "2014-07-28T11:22:37.1024946+02:00",
+  "AppointmentId": 361,
+  "Description": "Profound interactive access",
+  "StartDate": "1995-09-17T11:22:37.1024946+02:00",
+  "EndDate": "2020-07-26T11:22:37.1024946+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 754,
+  "MotherId": 50,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1997-01-24T17:37:16.4652416+01:00",
+  "UpdatedDate": "2020-05-13T11:22:37.1024946+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 274,
+  "ActiveLinks": 644,
   "Links": [
     {
-      "EntityName": "Krajcik, Grant and Hane",
-      "Id": 104,
-      "Description": "Reduced composite protocol",
-      "ExtraInfo": "quasi",
-      "LinkId": 118,
+      "EntityName": "Krajcik, McCullough and Kozey",
+      "Id": 33,
+      "Description": "Adaptive analyzing architecture",
+      "ExtraInfo": "nesciunt",
+      "LinkId": 287,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldType": "System.String",
+          "FieldLength": 954
         }
       }
     }
   ],
-  "AlarmLeadTime": "ab",
-  "HasAlarm": true,
-  "ColorIndex": 683,
+  "AlarmLeadTime": "non",
+  "HasAlarm": false,
+  "ColorIndex": 226,
   "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "illum",
-  "LeadTime": "enim",
-  "Location": "adipisci",
-  "RejectCounter": 990,
+  "IsAlldayEvent": true,
+  "LagTime": "adipisci",
+  "LeadTime": "laudantium",
+  "Location": "et",
+  "RejectCounter": 434,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 736,
-      "PersonId": 687,
-      "ContactId": 153,
-      "EmailId": 662,
-      "SendEmail": true,
+      "AssociateId": 778,
+      "PersonId": 227,
+      "ContactId": 941,
+      "EmailId": 108,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 736,
-      "PersonId": 687,
-      "ContactId": 153,
-      "EmailId": 662,
-      "SendEmail": true,
+      "AssociateId": 778,
+      "PersonId": 227,
+      "ContactId": 941,
+      "EmailId": 108,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2015-02-23T17:37:16.4662409+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2012-08-25T11:22:37.1024946+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 151,
+  "PreferredTZLocation": 476,
   "Sale": null,
-  "SuggestedAppointmentId": 670,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 994,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nam",
+  "CentralserviceVideomeetId": "enim",
   "UserDefinedFields": {
-    "SuperOffice:1": "Isabel Green",
-    "SuperOffice:2": "Mrs. Abigail Franco Marquardt IV"
+    "SuperOffice:1": "Mr. Annetta Braun",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "reprehenderit",
+    "ExtraFields2": "commodi"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "illum"
+    "CustomFields1": "ut",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2002-04-18T17:37:16.4672426+02:00",
-  "PublishTo": "2010-11-17T17:37:16.4672426+01:00",
-  "PublishFrom": "2000-04-20T17:37:16.4672426+02:00",
+  "PublishEventDate": "2013-04-08T11:22:37.1181151+02:00",
+  "PublishTo": "2004-02-13T11:22:37.1181151+01:00",
+  "PublishFrom": "2003-04-10T11:22:37.1181151+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 80,
+      "VisibleId": 194,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 892
+          "FieldLength": 783
         }
       }
     },
     {
-      "VisibleId": 80,
+      "VisibleId": 194,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 892
+          "FieldLength": 783
         }
       }
     }
@@ -271,8 +271,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldType": "System.String",
+      "FieldLength": 50
     }
   }
 }

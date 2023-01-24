@@ -25,7 +25,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=712
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=954
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 543,
-  "FormKey": "deleniti",
-  "Name": "Abshire Group",
-  "Description": "Business-focused value-added groupware",
-  "Config": "sit",
-  "FolderId": 794,
-  "ScriptId": 718,
-  "ResponseShipmentId": 29,
+  "FormId": 42,
+  "FormKey": "labore",
+  "Name": "Roob, Bergnaum and Hagenes",
+  "Description": "Profit-focused cohesive alliance",
+  "Config": "eos",
+  "FolderId": 145,
+  "ScriptId": 733,
+  "ResponseShipmentId": 983,
   "Active": false,
-  "Expires": "2021-08-06T17:37:18.3202415+02:00",
-  "MaxSubmits": 499,
+  "Expires": "1996-06-13T11:22:38.5552678+02:00",
+  "MaxSubmits": 362,
   "Type": "Normal",
-  "Recipe": "et",
-  "GroupId": 901,
-  "NewTicket": true,
+  "Recipe": "neque",
+  "GroupId": 231,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2012-09-28T17:37:18.3202415+02:00",
-  "RegisteredAssociateId": 391,
-  "Updated": "1998-01-10T17:37:18.3202415+01:00",
-  "UpdatedAssociateId": 679,
-  "UpdatedCount": 910,
-  "FolderName": "Ziemann, Konopelski and Schimmel",
+  "Registered": "2009-10-21T11:22:38.5552678+02:00",
+  "RegisteredAssociateId": 971,
+  "Updated": "2003-02-16T11:22:38.5552678+01:00",
+  "UpdatedAssociateId": 411,
+  "UpdatedCount": 430,
+  "FolderName": "Von-Ullrich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldType": "System.String",
+      "FieldLength": 468
     }
   }
 }

@@ -69,11 +69,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 547,
-  "ReplyTemplateId": 386,
+  "TicketMessageEntityId": 467,
+  "ReplyTemplateId": 819,
   "Sms": [
-    "autem",
-    "quo"
+    "dignissimos",
+    "et"
   ]
 }
 ```

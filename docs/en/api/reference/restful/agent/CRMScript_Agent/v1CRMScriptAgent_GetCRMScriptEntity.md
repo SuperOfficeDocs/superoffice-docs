@@ -27,7 +27,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=594
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=346
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 187,
-  "UniqueIdentifier": "harum",
-  "Name": "Miller, Berge and Krajcik",
-  "Description": "Cloned assymetric synergy",
-  "IncludeId": "veniam",
-  "HierarchyId": 830,
-  "Source": "quo",
-  "Registered": "1996-09-21T17:37:17.3302452+02:00",
-  "RegisteredAssociateId": 557,
-  "Updated": "2010-09-12T17:37:17.3302452+02:00",
-  "UpdatedAssociateId": 543,
+  "EjscriptId": 735,
+  "UniqueIdentifier": "voluptatem",
+  "Name": "Cummerata-Schiller",
+  "Description": "Face to face tertiary analyzer",
+  "IncludeId": "consequuntur",
+  "HierarchyId": 672,
+  "Source": "ut",
+  "Registered": "1998-01-20T11:22:37.7742144+01:00",
+  "RegisteredAssociateId": 587,
+  "Updated": "2012-08-14T11:22:37.7742144+02:00",
+  "UpdatedAssociateId": 924,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldType": "System.String",
+      "FieldLength": 152
     }
   }
 }

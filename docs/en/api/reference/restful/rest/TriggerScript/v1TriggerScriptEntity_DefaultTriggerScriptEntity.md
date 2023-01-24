@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 282,
-  "Name": "Gaylord LLC",
+  "ScreenChooserId": 746,
+  "Name": "Farrell, Raynor and Krajcik",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "dolorem",
-  "Source": "optio",
-  "Registered": "2002-03-26T17:37:39.3884259+01:00",
-  "RegisteredAssociateId": 286,
-  "Updated": "1999-04-17T17:37:39.3884259+02:00",
-  "UpdatedAssociateId": 897,
+  "UniqueIdentifier": "excepturi",
+  "Source": "aspernatur",
+  "Registered": "2000-10-17T11:22:45.3661887+02:00",
+  "RegisteredAssociateId": 880,
+  "Updated": "2014-08-22T11:22:45.3661887+02:00",
+  "UpdatedAssociateId": 26,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldLength": 556
     }
   }
 }

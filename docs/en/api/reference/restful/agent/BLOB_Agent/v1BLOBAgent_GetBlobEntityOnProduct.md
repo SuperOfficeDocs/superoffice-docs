@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 724
+  "ProductId": 437
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 717,
-  "BlobSize": 273,
-  "Description": "Compatible bottom-line attitude",
-  "ExtraInfo": "non",
+  "BlobId": 369,
+  "BlobSize": 988,
+  "Description": "Upgradable scalable extranet",
+  "ExtraInfo": "repudiandae",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "non",
-  "OriginalSize": 975,
-  "CreatedDate": "2013-09-28T17:37:16.9252434+02:00",
-  "UpdatedDate": "2010-03-15T17:37:16.9252434+01:00",
+  "IsZipped": false,
+  "MimeType": "modi",
+  "OriginalSize": 451,
+  "CreatedDate": "2000-11-29T11:22:37.4617868+01:00",
+  "UpdatedDate": "2021-03-06T11:22:37.4617868+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nam",
+  "ConceptualType": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 754
     }
   }
 }

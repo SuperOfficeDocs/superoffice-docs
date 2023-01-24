@@ -85,7 +85,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Von-Muller",
-  "SaleDate": "2021-03-31T17:37:39.1712756+02:00",
-  "SaleId": 213,
-  "Probability": 619,
-  "Title": "harum",
-  "Amount": 27820.518,
-  "Currency": "et",
-  "ProjectName": "Larkin-Lynch",
-  "AssociateFullName": "Dell Zemlak",
-  "Description": "Ameliorated high-level array",
+  "ContactName": "Beer-Vandervort",
+  "SaleDate": "2011-01-15T11:22:45.1787253+01:00",
+  "SaleId": 596,
+  "Probability": 14,
+  "Title": "dolores",
+  "Amount": 8521.346,
+  "Currency": "in",
+  "ProjectName": "Wolf, Reilly and Koch",
+  "AssociateFullName": "Mr. Aaron Tremblay",
+  "Description": "Re-engineered mission-critical standardization",
   "Status": "Lost",
-  "WeightedAmount": 18493.734,
-  "ProjectId": 573,
-  "EarningPercent": 24279.097999999998,
-  "Earning": 7126.7159999999994,
-  "ContactId": 186,
-  "AssociateId": 732,
-  "PersonId": 725,
-  "SaleTypeId": 93,
-  "SaleTypeName": "Kihn-Farrell",
-  "PersonFullName": "Dr. Jordon Mitchell MD",
+  "WeightedAmount": 4973.6579999999994,
+  "ProjectId": 262,
+  "EarningPercent": 22790.448,
+  "Earning": 4165.086,
+  "ContactId": 690,
+  "AssociateId": 4,
+  "PersonId": 639,
+  "SaleTypeId": 102,
+  "SaleTypeName": "Cremin, King and Ondricka",
+  "PersonFullName": "Miss Julius Freeda Price",
   "Completed": "Completed",
-  "ActiveErpLinks": 122,
-  "NextDueDate": "2003-11-23T17:37:39.173275+01:00",
-  "Number": "1337849",
+  "ActiveErpLinks": 149,
+  "NextDueDate": "2015-02-28T11:22:45.1787253+01:00",
+  "Number": "570433",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 463
+      "FieldType": "System.Int32",
+      "FieldLength": 121
     }
   }
 }

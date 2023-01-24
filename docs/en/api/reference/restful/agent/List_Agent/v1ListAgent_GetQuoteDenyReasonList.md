@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetQuoteDenyReasonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Value": "ullam",
-    "Tooltip": "architecto",
+    "Id": 552,
+    "Value": "nulla",
+    "Tooltip": "accusamus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 907
+        "FieldLength": 788
       }
     }
   },
   {
-    "Id": 155,
-    "Value": "ullam",
-    "Tooltip": "architecto",
+    "Id": 552,
+    "Value": "nulla",
+    "Tooltip": "accusamus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 907
+        "FieldLength": 788
       }
     }
   }

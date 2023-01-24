@@ -25,7 +25,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=513
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=769
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 963,
+  "DocumentId": 677,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "praesentium",
-  "Header": "quia",
-  "Name": "Corkery, Trantow and Dooley",
-  "OurRef": "quod",
-  "YourRef": "fuga",
-  "CreatedDate": "2022-05-07T17:37:17.4955106+02:00",
-  "UpdatedDate": "2017-09-27T17:37:17.4955106+02:00",
-  "Description": "User-centric scalable benchmark",
+  "Attention": "dignissimos",
+  "Header": "quas",
+  "Name": "Jacobs Inc and Sons",
+  "OurRef": "qui",
+  "YourRef": "dolorem",
+  "CreatedDate": "2012-09-28T11:22:37.8991839+02:00",
+  "UpdatedDate": "2009-12-13T11:22:37.8991839+01:00",
+  "Description": "Secured grid-enabled projection",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-01-23T17:37:17.4982407+01:00",
-  "ExternalRef": "quo",
+  "Date": "1996-06-03T11:22:37.8991839+02:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 654,
+  "ActiveLinks": 104,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Brekke-Lesch",
-      "Id": 388,
-      "Description": "Ameliorated zero tolerance hub",
-      "ExtraInfo": "aut",
-      "LinkId": 387,
+      "EntityName": "Pouros, Towne and Mann",
+      "Id": 940,
+      "Description": "Ameliorated composite solution",
+      "ExtraInfo": "tempore",
+      "LinkId": 800,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 442
+          "FieldLength": 683
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 365,
-  "Snum": 683,
+  "SuggestedDocumentId": 1000,
+  "Snum": 443,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Pink Jerde",
-    "SuperOffice:2": "1779580188"
+    "SuperOffice:1": "Dr. Haley Smith",
+    "SuperOffice:2": "1820840019"
   },
   "ExtraFields": {
-    "ExtraFields1": "nemo",
-    "ExtraFields2": "aperiam"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "laudantium"
+    "CustomFields1": "maiores",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2019-04-24T17:37:17.4992432+02:00",
-  "PublishTo": "2020-07-25T17:37:17.4992432+02:00",
-  "PublishFrom": "2001-01-02T17:37:17.4992432+01:00",
+  "PublishEventDate": "1996-12-07T11:22:37.8991839+01:00",
+  "PublishTo": "2021-01-25T11:22:37.8991839+01:00",
+  "PublishFrom": "1997-05-04T11:22:37.8991839+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 663,
+      "VisibleId": 983,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 90
+          "FieldLength": 185
         }
       }
     },
     {
-      "VisibleId": 663,
+      "VisibleId": 983,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 90
+          "FieldLength": 185
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 279
     }
   }
 }

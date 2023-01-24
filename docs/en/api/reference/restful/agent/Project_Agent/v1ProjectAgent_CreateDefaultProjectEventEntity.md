@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,94 +95,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "voluptatum",
-  "SignOffText": "et",
-  "SignOnConfirmationText": "neque",
-  "SignOnText": "sed",
-  "EventDate": "2009-12-25T17:37:18.6152415+01:00",
-  "Enabled": true,
-  "CreatedDate": "2012-01-02T17:37:18.6152415+01:00",
-  "SignOff": true,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 545,
+  "SignOffConfirmationText": "incidunt",
+  "SignOffText": "quia",
+  "SignOnConfirmationText": "quis",
+  "SignOnText": "aut",
+  "EventDate": "2020-03-11T11:22:38.8208433+01:00",
+  "Enabled": false,
+  "CreatedDate": "1996-06-11T11:22:38.8208433+02:00",
+  "SignOff": false,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 674,
   "SignOffTriggersAssign": true,
   "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 989,
+  "SignOnTaskId": 609,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "1998-07-08T17:37:18.6152415+02:00",
+  "UpdatedDate": "2003-10-24T11:22:38.8208433+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 375,
-  "Id": 997,
-  "PublishFrom": "1998-07-03T17:37:18.6162445+02:00",
+  "ProjectId": 303,
+  "Id": 680,
+  "PublishFrom": "2004-10-18T11:22:38.8208433+02:00",
   "PublishType": "External",
-  "PublishTo": "1995-11-24T17:37:18.6162445+01:00",
+  "PublishTo": "1998-07-28T11:22:38.8208433+02:00",
   "VisibleForCategories": [
     {
-      "Id": 337,
-      "Name": "Stark-Towne",
-      "ToolTip": "Nulla at delectus earum dicta qui.",
-      "Deleted": false,
-      "Rank": 331,
-      "Type": "corrupti",
+      "Id": 823,
+      "Name": "Harris, Tremblay and Mann",
+      "ToolTip": "Et fuga.",
+      "Deleted": true,
+      "Rank": 939,
+      "Type": "ipsam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quis",
-      "ColorBlock": 457,
-      "ExtraInfo": "earum",
-      "StyleHint": "et",
-      "FullName": "Prof. Maddison Lindgren",
+      "IconHint": "ea",
+      "ColorBlock": 359,
+      "ExtraInfo": "eum",
+      "StyleHint": "distinctio",
+      "FullName": "Flavie Madonna Gerhold Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 806
+          "FieldType": "System.Int32",
+          "FieldLength": 465
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 156,
-      "Name": "Kiehn Group",
-      "ToolTip": "Provident esse quasi quod asperiores dignissimos quod earum.",
+      "Id": 50,
+      "Name": "Moen Inc and Sons",
+      "ToolTip": "Voluptatem ratione non voluptates sint aut eum occaecati.",
       "Deleted": false,
-      "Rank": 645,
-      "Type": "dignissimos",
+      "Rank": 576,
+      "Type": "id",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vitae",
-      "ColorBlock": 504,
-      "ExtraInfo": "ipsam",
-      "StyleHint": "odio",
-      "FullName": "Rashawn Hegmann",
+      "IconHint": "accusamus",
+      "ColorBlock": 455,
+      "ExtraInfo": "excepturi",
+      "StyleHint": "sed",
+      "FullName": "Dr. Christy Murazik",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 275
+          "FieldType": "System.Int32",
+          "FieldLength": 755
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
+  "IsVisibleForMembers": true,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 172,
+  "ProjectEventId": 111,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldType": "System.String",
+      "FieldLength": 437
     }
   }
 }

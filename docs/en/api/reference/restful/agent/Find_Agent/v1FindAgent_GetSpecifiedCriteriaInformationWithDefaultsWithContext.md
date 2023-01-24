@@ -86,18 +86,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "iusto",
-  "ProviderName": "Volkman, Lueilwitz and Wisoky",
-  "StorageKey": "ex",
+  "StorageType": "et",
+  "ProviderName": "Kub LLC",
+  "StorageKey": "rem",
   "DesiredColumnNames": [
-    "Runolfsson, Fay and Orn",
-    "Runte-Hoeger"
+    "Baumbach Group",
+    "Pollich, Considine and Gorczany"
   ],
   "StaticColumns": [
-    "possimus",
-    "quibusdam"
+    "et",
+    "modi"
   ],
-  "Context": "laudantium"
+  "Context": "voluptatem"
 }
 ```
 
@@ -110,81 +110,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wehner Group",
-      "Operator": "at",
+      "Name": "Rempel-Kuvalis",
+      "Operator": "voluptatum",
       "Values": [
-        "totam",
-        "culpa"
+        "quia",
+        "totam"
       ],
       "DisplayValues": [
-        "consequatur",
-        "harum"
+        "est",
+        "ratione"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 174,
+      "InterParenthesis": 959,
       "InterOperator": "And",
-      "UniqueHash": 976
+      "UniqueHash": 486
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kemmer, Bosco and Prohaska",
-      "DisplayTooltip": "laudantium",
-      "DisplayType": "sit",
+      "DisplayName": "Buckridge, Wintheiser and Parker",
+      "DisplayTooltip": "ratione",
+      "DisplayType": "aut",
       "CanOrderBy": false,
-      "Name": "Lynch LLC",
+      "Name": "Graham-Abshire",
       "CanRestrictBy": false,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Wolff-Gutmann",
-      "IsVisible": false,
-      "ExtraInfo": "ipsa",
-      "Width": "quod",
-      "IconHint": "eligendi",
-      "HeadingIconHint": "repellat"
+      "RestrictionType": "cum",
+      "RestrictionListName": "Bechtelar Group",
+      "IsVisible": true,
+      "ExtraInfo": "facere",
+      "Width": "praesentium",
+      "IconHint": "rerum",
+      "HeadingIconHint": "sunt"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Frami, Heller and Graham",
-      "PrimaryKey": 650,
+      "EntityName": "Goyette, Bergnaum and Streich",
+      "PrimaryKey": 521,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "in",
-          "TooltipHint": "cum",
-          "LinkHint": "saepe"
+          "DisplayValue": "similique",
+          "TooltipHint": "ullam",
+          "LinkHint": "eius"
         }
       },
-      "LinkHint": "mollitia",
-      "StyleHint": "unde",
+      "LinkHint": "ipsa",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldType": "System.String",
+          "FieldLength": 785
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hane-Rodriguez",
-      "Description": "Phased methodical info-mediaries",
-      "Rank": 246,
+      "Name": "Steuber-Rohan",
+      "Description": "Front-line 3rd generation orchestration",
+      "Rank": 127,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hane-Rodriguez",
-      "Description": "Phased methodical info-mediaries",
-      "Rank": 246,
+      "Name": "Steuber-Rohan",
+      "Description": "Front-line 3rd generation orchestration",
+      "Rank": 127,
       "Restrictions": [
         {},
         {}
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldLength": 495
     }
   }
 }

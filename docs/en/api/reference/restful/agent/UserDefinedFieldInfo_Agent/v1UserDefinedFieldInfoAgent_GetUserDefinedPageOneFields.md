@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 535
+  "UserGroupId": 627
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 699,
-    "ColumnId": 361,
-    "FieldDefault": "velit",
-    "FieldHeight": 10,
-    "FieldLabel": "quia",
-    "FieldLeft": 183,
-    "FieldTop": 116,
+    "UDefFieldId": 749,
+    "ColumnId": 1001,
+    "FieldDefault": "ipsa",
+    "FieldHeight": 348,
+    "FieldLabel": "iure",
+    "FieldLeft": 465,
+    "FieldTop": 605,
     "FieldType": "Checkbox",
-    "FieldWidth": 797,
-    "FormatMask": "magni",
+    "FieldWidth": 580,
+    "FormatMask": "et",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 510,
-    "LabelLeft": 589,
-    "LabelTop": 721,
-    "LabelWidth": 997,
-    "LastVersionId": 518,
-    "ListTableId": 804,
+    "IsIndexed": true,
+    "LabelHeight": 329,
+    "LabelLeft": 190,
+    "LabelTop": 571,
+    "LabelWidth": 855,
+    "LastVersionId": 83,
+    "ListTableId": 464,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 428,
-    "ProgId": "ad",
-    "IsReadOnly": true,
-    "ShortLabel": "amet",
-    "TabOrder": 478,
-    "TextLength": 237,
-    "Tooltip": "sed",
-    "UdefIdentity": 992,
-    "UDListDefinitionId": 879,
+    "Page1LineNo": 970,
+    "ProgId": "autem",
+    "IsReadOnly": false,
+    "ShortLabel": "blanditiis",
+    "TabOrder": 103,
+    "TextLength": 659,
+    "Tooltip": "explicabo",
+    "UdefIdentity": 83,
+    "UDListDefinitionId": 183,
     "Justification": "Center",
-    "Version": 39,
-    "TemplateVariableName": "Kozey, Hermiston and Haley",
+    "Version": 798,
+    "TemplateVariableName": "Lehner, Thiel and Kovacek",
     "HasBeenPublished": false,
-    "MdoListName": "Braun, Zboncak and Koch",
+    "MdoListName": "McClure-Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldType": "System.String",
+        "FieldLength": 13
       }
     }
   }

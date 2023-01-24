@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Langosh Group"
+  "ConnectorName": "Bailey, Murazik and Spencer"
 }
 ```
 
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 57,
-  "ERPName": "Jerde-Parisian",
-  "DisplayName": "Ortiz-Osinski",
-  "DisplayDescription": "Team-oriented uniform Graphic Interface",
-  "Rank": 484,
-  "ConnectorName": "Kerluke Group",
-  "ErpConnectionId": 174,
-  "ExtraData": "eligendi",
-  "IsAvailable": false,
+  "QuoteConnectionId": 414,
+  "ERPName": "Upton-Skiles",
+  "DisplayName": "Schinner, Williamson and Hane",
+  "DisplayDescription": "Triple-buffered 24 hour solution",
+  "Rank": 471,
+  "ConnectorName": "Glover Inc and Sons",
+  "ErpConnectionId": 139,
+  "ExtraData": "est",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 766,
-      "ERPPriceListKey": "ut",
-      "QuoteConnectionId": 507,
-      "Name": "Roob, VonRueden and Torphy",
-      "Description": "Upgradable actuating task-force",
-      "Currency": "voluptas",
-      "CurrencyName": "Bechtelar Inc and Sons",
-      "ValidFrom": "1996-04-20T17:37:18.7402422+02:00",
-      "ValidTo": "2009-10-25T17:37:18.7402422+01:00",
-      "IsActive": false,
+      "PriceListId": 933,
+      "ERPPriceListKey": "mollitia",
+      "QuoteConnectionId": 730,
+      "Name": "Sanford-Halvorson",
+      "Description": "Virtual attitude-oriented contingency",
+      "Currency": "tempore",
+      "CurrencyName": "Rolfson LLC",
+      "ValidFrom": "2014-11-26T11:22:38.9301893+01:00",
+      "ValidTo": "1995-11-10T11:22:38.9301893+01:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldLength": 463
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    547,
-    753
+    139,
+    667
   ],
   "AssociateAccessIds": [
-    659,
-    4
+    62,
+    880
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldType": "System.Int32",
+      "FieldLength": 875
     }
   }
 }

@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Considine-McDermott",
-      "Operator": "quis",
+      "Name": "Fritsch-Mosciski",
+      "Operator": "in",
       "Values": [
-        "odit",
-        "iure"
+        "repellendus",
+        "ullam"
       ],
       "DisplayValues": [
-        "vel",
-        "provident"
+        "eum",
+        "sit"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 955,
+      "InterParenthesis": 50,
       "InterOperator": "And",
-      "UniqueHash": 937
+      "UniqueHash": 918
     }
   ],
-  "ProviderName": "Goldner LLC",
+  "ProviderName": "Schroeder Group",
   "DesiredColumns": [
-    "repellat",
-    "aperiam"
+    "et",
+    "ipsum"
   ],
-  "PageSize": 803,
-  "PageNumber": 695
+  "PageSize": 738,
+  "PageNumber": 770
 }
 ```
 
@@ -145,51 +145,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Reynolds, Friesen and Gaylord",
-      "DisplayTooltip": "dicta",
-      "DisplayType": "repudiandae",
-      "CanOrderBy": true,
-      "Name": "Friesen-McGlynn",
+      "DisplayName": "Kautzer, Quigley and Bahringer",
+      "DisplayTooltip": "voluptatem",
+      "DisplayType": "neque",
+      "CanOrderBy": false,
+      "Name": "Hartmann, O'Reilly and McClure",
       "CanRestrictBy": false,
-      "RestrictionType": "quas",
-      "RestrictionListName": "McKenzie Inc and Sons",
+      "RestrictionType": "aut",
+      "RestrictionListName": "Buckridge Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "doloremque",
-      "Width": "qui",
-      "IconHint": "architecto",
-      "HeadingIconHint": "odit"
+      "ExtraInfo": "in",
+      "Width": "laboriosam",
+      "IconHint": "ratione",
+      "HeadingIconHint": "voluptatum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Lang Inc and Sons",
-      "PrimaryKey": 309,
+      "EntityName": "Rogahn LLC",
+      "PrimaryKey": 708,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "beatae",
-          "TooltipHint": "velit",
-          "LinkHint": "ut"
+          "DisplayValue": "aut",
+          "TooltipHint": "magnam",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "quo",
-      "StyleHint": "aut",
+      "LinkHint": "neque",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 320
+          "FieldType": "System.Int32",
+          "FieldLength": 883
         }
       }
     }
   ],
-  "RowCount": 128,
+  "RowCount": 814,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldType": "System.String",
+      "FieldLength": 920
     }
   }
 }

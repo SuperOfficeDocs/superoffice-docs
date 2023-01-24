@@ -93,19 +93,19 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 822,
-  "ERPPriceListKey": "eligendi",
-  "QuoteConnectionId": 76,
-  "Name": "Fay, Koepp and Goyette",
-  "Description": "Extended fault-tolerant system engine",
-  "Currency": "et",
-  "CurrencyName": "Frami-Gottlieb",
-  "ValidFrom": "2017-06-11T17:37:40.1175006+02:00",
-  "ValidTo": "2006-08-16T17:37:40.1175006+02:00",
+  "PriceListId": 393,
+  "ERPPriceListKey": "fugiat",
+  "QuoteConnectionId": 369,
+  "Name": "Mraz Inc and Sons",
+  "Description": "Re-contextualized bandwidth-monitored orchestration",
+  "Currency": "necessitatibus",
+  "CurrencyName": "Stroman-Wilderman",
+  "ValidFrom": "2015-05-27T11:22:46.0066565+02:00",
+  "ValidTo": "2014-05-07T11:22:46.0066565+02:00",
   "IsActive": false
 }
 ```
@@ -117,27 +117,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 699,
-  "ERPPriceListKey": "consectetur",
-  "QuoteConnectionId": 127,
-  "Name": "Kuphal, Lesch and Fadel",
-  "Description": "Secured directional superstructure",
-  "Currency": "sint",
-  "CurrencyName": "Kutch Inc and Sons",
-  "ValidFrom": "2011-03-16T17:37:40.1175006+01:00",
-  "ValidTo": "2009-03-04T17:37:40.1175006+01:00",
-  "IsActive": true,
+  "PriceListId": 676,
+  "ERPPriceListKey": "minima",
+  "QuoteConnectionId": 291,
+  "Name": "Strosin-Williamson",
+  "Description": "Fundamental directional orchestration",
+  "Currency": "quo",
+  "CurrencyName": "Bogisich Inc and Sons",
+  "ValidFrom": "1996-04-13T11:22:46.0066565+02:00",
+  "ValidTo": "2023-01-10T11:22:46.0066565+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldLength": 314
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

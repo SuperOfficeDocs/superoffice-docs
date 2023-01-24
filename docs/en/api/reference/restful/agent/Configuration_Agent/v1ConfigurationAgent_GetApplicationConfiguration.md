@@ -74,8 +74,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "minima",
-  "Instance": "qui"
+  "Application": "quisquam",
+  "Instance": "non"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ea"
+"officia"
 ```

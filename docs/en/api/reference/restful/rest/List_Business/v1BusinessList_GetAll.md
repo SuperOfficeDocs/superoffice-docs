@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 429,
-    "Name": "Armstrong-Rau",
-    "Tooltip": "animi",
+    "Id": 724,
+    "Name": "Deckow Group",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "UdListDefinitionId": 993,
-    "Rank": 356,
+    "UdListDefinitionId": 857,
+    "Rank": 47,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldLength": 739
       }
     }
   }

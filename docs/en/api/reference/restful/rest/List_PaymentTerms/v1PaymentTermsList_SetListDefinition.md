@@ -87,15 +87,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 541,
-  "Name": "Bogisich Inc and Sons",
-  "Tooltip": "ab",
+  "Id": 317,
+  "Name": "Greenfelder-Mosciski",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "Rank": 157,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eveniet",
+  "Rank": 109,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "rerum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Kilback LLC",
+  "Id": 57,
+  "Name": "Rosenbaum Group",
   "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 417,
+  "Rank": 155,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rem",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldLength": 265
     }
   }
 }

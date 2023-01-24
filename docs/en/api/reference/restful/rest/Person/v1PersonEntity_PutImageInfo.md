@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 649,
-  "BlobSize": 776,
-  "Description": "Inverse systematic methodology",
-  "ExtraInfo": "accusamus",
-  "IsEncrypted": false,
+  "BlobId": 695,
+  "BlobSize": 150,
+  "Description": "Mandatory bottom-line synergy",
+  "ExtraInfo": "numquam",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "exercitationem",
-  "OriginalSize": 424,
-  "CreatedDate": "2013-03-09T17:37:38.9652748+01:00",
-  "UpdatedDate": "2014-04-13T17:37:38.9652748+02:00",
+  "MimeType": "minima",
+  "OriginalSize": 874,
+  "CreatedDate": "2007-02-14T11:22:45.0068982+01:00",
+  "UpdatedDate": "2008-12-15T11:22:45.0068982+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "fuga"
+  "ConceptualType": "ipsum"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 449,
-  "BlobSize": 431,
-  "Description": "Object-based needs-based parallelism",
-  "ExtraInfo": "laborum",
-  "IsEncrypted": true,
+  "BlobId": 172,
+  "BlobSize": 734,
+  "Description": "Customer-focused 24 hour groupware",
+  "ExtraInfo": "in",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "unde",
-  "OriginalSize": 50,
-  "CreatedDate": "2006-07-09T17:37:38.9662739+02:00",
-  "UpdatedDate": "2013-08-02T17:37:38.9662739+02:00",
+  "MimeType": "possimus",
+  "OriginalSize": 462,
+  "CreatedDate": "2007-03-11T11:22:45.0068982+01:00",
+  "UpdatedDate": "2021-11-11T11:22:45.0068982+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eos",
+  "ConceptualType": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldType": "System.String",
+      "FieldLength": 309
     }
   }
 }

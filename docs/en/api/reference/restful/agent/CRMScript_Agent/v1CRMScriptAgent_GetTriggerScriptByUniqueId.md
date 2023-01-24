@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "perspiciatis"
+  "TriggerScriptUniqueId": "a"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 847,
-  "Name": "Hodkiewicz LLC",
+  "ScreenChooserId": 466,
+  "Name": "Zemlak-Welch",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "ad",
-  "Source": "et",
-  "Registered": "2002-03-27T17:37:17.3372453+01:00",
-  "RegisteredAssociateId": 709,
-  "Updated": "2004-01-13T17:37:17.3372453+01:00",
-  "UpdatedAssociateId": 858,
+  "UniqueIdentifier": "facilis",
+  "Source": "quia",
+  "Registered": "1999-06-08T11:22:37.7742144+02:00",
+  "RegisteredAssociateId": 176,
+  "Updated": "2017-05-03T11:22:37.7742144+02:00",
+  "UpdatedAssociateId": 165,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 526
+      "FieldType": "System.Int32",
+      "FieldLength": 885
     }
   }
 }

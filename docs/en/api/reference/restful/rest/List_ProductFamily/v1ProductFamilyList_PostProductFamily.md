@@ -76,12 +76,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 592,
-  "Name": "Boyer-Rau",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 476,
-  "Rank": 701
+  "Id": 145,
+  "Name": "Gibson LLC",
+  "Tooltip": "fugit",
+  "Deleted": true,
+  "UdListDefinitionId": 144,
+  "Rank": 203
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 687,
-  "Name": "Crooks, Haag and Towne",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "UdListDefinitionId": 775,
-  "Rank": 371,
+  "Id": 583,
+  "Name": "Borer LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 490,
+  "Rank": 795,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 326
+      "FieldType": "System.Int32",
+      "FieldLength": 432
     }
   }
 }

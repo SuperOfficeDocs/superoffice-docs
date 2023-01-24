@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,27 +80,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 15,
-  "Rank": 968,
-  "DefaultTask": 94,
-  "DefaultTaskText": "unde",
-  "IsVisual": false,
-  "LastGenerated": "2017-08-27T17:37:18.8132409+02:00",
-  "Description": "Enhanced attitude-oriented Graphical User Interface",
-  "Name": "Yost, Balistreri and Hand",
-  "StatusMonitorId": 354,
-  "PictureId": 732,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 117,
-  "NumNeedUpdate": 326,
-  "GenerationStart": "2016-07-11T17:37:18.8132409+02:00",
+  "OwnerTable": 403,
+  "Rank": 207,
+  "DefaultTask": 643,
+  "DefaultTaskText": "explicabo",
+  "IsVisual": true,
+  "LastGenerated": "2008-12-24T11:22:38.9770545+01:00",
+  "Description": "Decentralized interactive focus group",
+  "Name": "Lind, Lehner and Beatty",
+  "StatusMonitorId": 223,
+  "PictureId": 719,
+  "NeedsUpdate": true,
+  "Deleted": true,
+  "NumMatches": 265,
+  "NumNeedUpdate": 31,
+  "GenerationStart": "2005-08-14T11:22:38.9770545+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 28
     }
   }
 }

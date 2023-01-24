@@ -56,20 +56,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Klein Inc and Sons",
-    "DisplayName": "Simonis-Hilpert",
-    "DisplayTooltip": "dolor",
+    "Name": "Kreiger-Volkman",
+    "DisplayName": "Graham, Pagac and Rau",
+    "DisplayTooltip": "possimus",
     "IsActive": false
   },
   {
-    "Name": "Klein Inc and Sons",
-    "DisplayName": "Simonis-Hilpert",
-    "DisplayTooltip": "dolor",
+    "Name": "Kreiger-Volkman",
+    "DisplayName": "Graham, Pagac and Rau",
+    "DisplayTooltip": "possimus",
     "IsActive": false
   }
 ]

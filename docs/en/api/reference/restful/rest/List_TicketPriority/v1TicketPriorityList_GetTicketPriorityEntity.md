@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,60 +98,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 650,
-  "Name": "Stoltenberg-Ward",
+  "TicketPriorityId": 514,
+  "Name": "Muller, Rath and Block",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 993,
+  "SortOrder": 79,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 623,
-  "MonStart": "2022-06-18T17:37:40.4185007+02:00",
-  "MonStop": "2010-10-30T17:37:40.4185007+02:00",
-  "TueStart": "1999-01-20T17:37:40.4185007+01:00",
-  "TueStop": "2004-04-24T17:37:40.4185007+02:00",
-  "WedStart": "2014-08-25T17:37:40.4185007+02:00",
-  "WedStop": "2006-02-03T17:37:40.4185007+01:00",
-  "ThuStart": "2008-01-23T17:37:40.4185007+01:00",
-  "ThuStop": "2015-01-30T17:37:40.4185007+01:00",
-  "FriStart": "2013-02-03T17:37:40.4185007+01:00",
-  "FriStop": "1999-07-01T17:37:40.4185007+02:00",
-  "SatStart": "2022-10-17T17:37:40.4185007+02:00",
-  "SatStop": "2009-09-07T17:37:40.4185007+02:00",
-  "SunStart": "2002-11-14T17:37:40.4185007+01:00",
-  "SunStop": "2001-06-06T17:37:40.4185007+02:00",
+  "Deadline": 180,
+  "MonStart": "1996-09-22T11:22:46.2409792+02:00",
+  "MonStop": "1995-11-11T11:22:46.2409792+01:00",
+  "TueStart": "2021-12-07T11:22:46.2409792+01:00",
+  "TueStop": "2001-05-17T11:22:46.2409792+02:00",
+  "WedStart": "2018-09-20T11:22:46.2409792+02:00",
+  "WedStop": "2011-10-02T11:22:46.2409792+02:00",
+  "ThuStart": "2000-12-09T11:22:46.2409792+01:00",
+  "ThuStop": "2002-05-02T11:22:46.2409792+02:00",
+  "FriStart": "2017-12-28T11:22:46.2409792+01:00",
+  "FriStop": "1998-01-23T11:22:46.2409792+01:00",
+  "SatStart": "1997-05-05T11:22:46.2409792+02:00",
+  "SatStop": "2011-06-27T11:22:46.2409792+02:00",
+  "SunStart": "1999-11-16T11:22:46.2409792+01:00",
+  "SunStop": "1997-11-18T11:22:46.2409792+01:00",
   "NonDates": [
-    "quidem",
-    "vero"
+    "officiis",
+    "sed"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 26,
-      "AlertLevel": 93,
-      "AlertTimeout": 505,
-      "Action": 164,
-      "DelegateTo": 836,
-      "ScriptId": 733,
-      "EmailTo": "roel.cartwright@funk.co.uk",
-      "SmsTo": "vel",
-      "ReplyTemplateIdCustomer": 536,
-      "ReplyTemplateIdUser": 717,
-      "ReplyTemplateIdCatmast": 676,
-      "ReplyTemplateIdEmail": 274,
-      "RtiCustomerSms": 129,
-      "ReplyTemplateIdUserSms": 379,
-      "ReplyTemplateIdCatmastSms": 403,
-      "ReplyTemplateIdSms": 575,
+      "TicketAlertId": 362,
+      "AlertLevel": 254,
+      "AlertTimeout": 121,
+      "Action": 878,
+      "DelegateTo": 664,
+      "ScriptId": 790,
+      "EmailTo": "monserrate@kemmer.co.uk",
+      "SmsTo": "dicta",
+      "ReplyTemplateIdCustomer": 725,
+      "ReplyTemplateIdUser": 479,
+      "ReplyTemplateIdCatmast": 331,
+      "ReplyTemplateIdEmail": 688,
+      "RtiCustomerSms": 355,
+      "ReplyTemplateIdUserSms": 593,
+      "ReplyTemplateIdCatmastSms": 889,
+      "ReplyTemplateIdSms": 242,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 709
+          "FieldType": "System.Int32",
+          "FieldLength": 157
         }
       }
     }
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldType": "System.String",
+      "FieldLength": 227
     }
   }
 }

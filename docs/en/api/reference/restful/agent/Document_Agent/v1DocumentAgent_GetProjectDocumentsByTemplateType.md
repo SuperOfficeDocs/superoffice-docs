@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 111,
-  "StartTime": "2003-05-25T17:37:17.4322431+02:00",
-  "EndTime": "1996-08-04T17:37:17.4322431+02:00",
-  "Count": 267,
-  "DocumentTemplateId": 486
+  "ProjectId": 913,
+  "StartTime": "2011-02-08T11:22:37.8523182+01:00",
+  "EndTime": "1998-04-17T11:22:37.8523182+02:00",
+  "Count": 389,
+  "DocumentTemplateId": 376
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 968,
-    "Attention": "sint",
-    "Header": "velit",
-    "Name": "Ziemann LLC",
-    "OurRef": "dolores",
-    "YourRef": "repellendus",
-    "Description": "Robust value-added superstructure",
-    "DocumentTemplate": "quam",
-    "IsPublished": true,
-    "PersonId": 896,
-    "PersonFullName": "Dulce Leffler",
-    "AssociateFullName": "Eino Rohan",
-    "ContactId": 221,
-    "ContactName": "Crona Group",
-    "ProjectId": 959,
-    "ProjectName": "Dibbert, Gusikowski and Jerde",
-    "AssociateId": 616,
-    "Snum": 695,
-    "SaleId": 348,
-    "SaleName": "Rowe, Harvey and Halvorson",
+    "DocumentId": 130,
+    "Attention": "aspernatur",
+    "Header": "et",
+    "Name": "Marquardt Inc and Sons",
+    "OurRef": "illum",
+    "YourRef": "sit",
+    "Description": "Enterprise-wide global task-force",
+    "DocumentTemplate": "nostrum",
+    "IsPublished": false,
+    "PersonId": 572,
+    "PersonFullName": "Faustino Ziemann",
+    "AssociateFullName": "Lennie Russel",
+    "ContactId": 921,
+    "ContactName": "McCullough Group",
+    "ProjectId": 521,
+    "ProjectName": "Walker, White and Jast",
+    "AssociateId": 656,
+    "Snum": 222,
+    "SaleId": 539,
+    "SaleName": "DuBuque-Hane",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 718
+        "FieldType": "System.Int32",
+        "FieldLength": 598
       }
     }
   }

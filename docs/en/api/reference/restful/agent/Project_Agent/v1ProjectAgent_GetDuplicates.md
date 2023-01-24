@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ruecker, Crooks and Thiel"
+  "Name": "Jenkins Group"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Weber-Hand",
-    "SoPrimaryKey": 941,
-    "EntryName": "Watsica-Swaniawski",
-    "EntryIdentifier": "ipsum",
-    "RuleDisplayName": "Osinski Group",
+    "RuleName": "Turner Inc and Sons",
+    "SoPrimaryKey": 2,
+    "EntryName": "Emard Group",
+    "EntryIdentifier": "veritatis",
+    "RuleDisplayName": "Hyatt-Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 251
+        "FieldLength": 541
       }
     }
   }

@@ -87,9 +87,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Kertzmann-Fadel",
-  "DeviceName": "Boehm LLC",
-  "DeviceIdentifier": "eligendi"
+  "ApplicationName": "Fadel LLC",
+  "DeviceName": "Schmeler-Reilly",
+  "DeviceIdentifier": "architecto"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quia",
-  "Value": "porro",
-  "RecordId": 462,
-  "CreatedDate": "2002-02-04T17:37:18.1082417+01:00",
-  "UpdatedDate": "2016-04-09T17:37:18.1082417+02:00",
-  "UpdatedBy": "vitae",
-  "CreatedBy": "illum",
-  "TableName": "Wilderman, McCullough and Mitchell",
+  "Key": "molestias",
+  "Value": "sed",
+  "RecordId": 601,
+  "CreatedDate": "2006-03-31T11:22:38.3834434+02:00",
+  "UpdatedDate": "2014-08-22T11:22:38.3834434+02:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "distinctio",
+  "TableName": "Jakubowski-Considine",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 736
+      "FieldType": "System.Int32",
+      "FieldLength": 920
     }
   }
 }

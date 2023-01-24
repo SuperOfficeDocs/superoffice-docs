@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 78,
-  "Name": "Borer-Hyatt"
+  "DashTileId": 359,
+  "Name": "Raynor LLC"
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 553,
-  "DashboardId": 782,
-  "Height": 97,
-  "Width": 145,
-  "Rank": 848,
+  "DashboardTileId": 969,
+  "DashboardId": 865,
+  "Height": 976,
+  "Width": 20,
+  "Rank": 543,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 19
+      "FieldLength": 946
     }
   }
 }

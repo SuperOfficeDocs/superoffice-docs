@@ -98,29 +98,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Reichert-Bayer",
-  "Comment": "nobis",
-  "StakeholderRoleId": 920,
-  "CountryId": 679,
-  "PersonId": 246,
-  "EmailDescription": "edwina.champlin@orn.uk",
-  "EmailId": 940,
-  "EmailAddress": "brigitte_bartoletti@creminaltenwerth.info",
-  "PhoneId": 419,
-  "ContactName": "Kulas Group",
-  "ContactId": 943,
-  "SaleId": 809,
-  "Mrmrs": "perspiciatis",
-  "Firstname": "Pierce",
-  "MiddleName": "Gleichner-Waters",
-  "Lastname": "Bailey",
-  "SaleStakeholderId": 793,
-  "Rank": 831,
-  "Phone": "1-335-778-6147"
+  "StakeholderRoleName": "Schroeder, Hahn and Bernier",
+  "Comment": "cupiditate",
+  "StakeholderRoleId": 795,
+  "CountryId": 25,
+  "PersonId": 759,
+  "EmailDescription": "donald_steuber@brown.name",
+  "EmailId": 935,
+  "EmailAddress": "nash.kiehn@reichert.com",
+  "PhoneId": 740,
+  "ContactName": "Walker, Kulas and Medhurst",
+  "ContactId": 421,
+  "SaleId": 589,
+  "Mrmrs": "nihil",
+  "Firstname": "Camryn",
+  "MiddleName": "Kutch, Kilback and Wiegand",
+  "Lastname": "Brakus",
+  "SaleStakeholderId": 297,
+  "Rank": 677,
+  "Phone": "1-803-510-7389 x635"
 }
 ```
 
@@ -131,31 +131,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Sauer Group",
-  "Comment": "fugiat",
-  "StakeholderRoleId": 287,
-  "CountryId": 246,
-  "PersonId": 641,
-  "EmailDescription": "polly_gerlach@gulgowski.us",
-  "EmailId": 521,
-  "EmailAddress": "clifford.gleichner@feeneydooley.us",
-  "PhoneId": 746,
-  "ContactName": "Roberts LLC",
-  "ContactId": 909,
-  "SaleId": 401,
-  "Mrmrs": "sunt",
-  "Firstname": "Destinee",
-  "MiddleName": "Hyatt, Wisozk and Lowe",
-  "Lastname": "Daugherty",
-  "SaleStakeholderId": 729,
-  "Rank": 106,
-  "Phone": "952-421-9519 x60806",
+  "StakeholderRoleName": "Mueller, Mante and Rohan",
+  "Comment": "natus",
+  "StakeholderRoleId": 347,
+  "CountryId": 609,
+  "PersonId": 875,
+  "EmailDescription": "keith@king.biz",
+  "EmailId": 468,
+  "EmailAddress": "napoleon.dicki@kemmer.name",
+  "PhoneId": 894,
+  "ContactName": "Rath-Wiegand",
+  "ContactId": 217,
+  "SaleId": 53,
+  "Mrmrs": "totam",
+  "Firstname": "Noemy",
+  "MiddleName": "Block Inc and Sons",
+  "Lastname": "Lesch",
+  "SaleStakeholderId": 555,
+  "Rank": 860,
+  "Phone": "(510)224-7825 x5779",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldLength": 293
     }
   }
 }

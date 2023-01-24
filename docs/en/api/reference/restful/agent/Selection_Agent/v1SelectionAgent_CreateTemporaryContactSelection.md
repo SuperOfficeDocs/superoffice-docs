@@ -114,70 +114,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Stand-alone zero tolerance initiative",
-  "Postit": "voluptas",
+  "Description": "Reduced uniform portal",
+  "Postit": "ea",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 584,
-  "IncludePerson": 38,
-  "MemberCount": 873,
-  "Name": "Jast Inc and Sons",
-  "PostitTextId": 482,
-  "CreatedDate": "2010-07-27T17:37:19.1732415+02:00",
-  "SelectionId": 479,
-  "SoundEx": "perspiciatis",
-  "Source": 653,
-  "TextId": 737,
-  "UpdatedDate": "2012-05-25T17:37:19.1742415+02:00",
-  "UpdatedCount": 978,
-  "Visibility": 384,
+  "GroupIdx": 173,
+  "IncludePerson": 244,
+  "MemberCount": 662,
+  "Name": "Gutkowski Group",
+  "PostitTextId": 537,
+  "CreatedDate": "2009-08-25T11:22:39.3051036+02:00",
+  "SelectionId": 17,
+  "SoundEx": "et",
+  "Source": 895,
+  "TextId": 931,
+  "UpdatedDate": "2004-04-26T11:22:39.3051036+02:00",
+  "UpdatedCount": 425,
+  "Visibility": 387,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 797,
-  "TargetTableName": "Kuvalis, Brown and Tromp",
-  "Completed": true,
-  "LeftSelectionId": 478,
-  "RightSelectionId": 503,
+  "CompanyUnique": false,
+  "TargetTableNumber": 534,
+  "TargetTableName": "Skiles, Lebsack and Bailey",
+  "Completed": false,
+  "LeftSelectionId": 616,
+  "RightSelectionId": 355,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bruen-Jaskolski",
-  "ShadowProviderName": "Torp-Ondricka",
-  "ChartKey": "sed",
-  "LastLoaded": "2022-12-26T17:37:19.1742415+01:00",
-  "LastLoadedBy": 418,
+  "MainProviderName": "Huel, Pouros and Schuster",
+  "ShadowProviderName": "Heidenreich-Adams",
+  "ChartKey": "suscipit",
+  "LastLoaded": "2018-05-22T11:22:39.3051036+02:00",
+  "LastLoadedBy": 965,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-12-19T17:37:19.1742415+01:00",
-  "LastMembershipChangeBy": 882,
+  "LastMembershipChange": "2010-05-21T11:22:39.3051036+02:00",
+  "LastMembershipChangeBy": 705,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "debitis",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Leffler-Walker",
-  "DashboardTileDefinitionId": 93,
+  "MainHeading": "ut",
+  "MemberTabHeading": "ab",
+  "MailingsProviderName": "Hermann-Rice",
+  "DashboardTileDefinitionId": 574,
   "VisibleFor": [
     {
-      "VisibleId": 287,
+      "VisibleId": 403,
       "Visibility": "All",
-      "DisplayValue": "iusto",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldType": "System.String",
+          "FieldLength": 661
         }
       }
     },
     {
-      "VisibleId": 287,
+      "VisibleId": 403,
       "Visibility": "All",
-      "DisplayValue": "iusto",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldType": "System.String",
+          "FieldLength": 661
         }
       }
     }
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldType": "System.String",
+      "FieldLength": 122
     }
   }
 }

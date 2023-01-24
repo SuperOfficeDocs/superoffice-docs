@@ -80,8 +80,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Reynolds-Senger",
-  "NewSerialNumber": "1114981"
+  "NewCompanyName": "Glover-Ruecker",
+  "NewSerialNumber": "1013386"
 }
 ```
 
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldType": "System.String",
+      "FieldLength": 173
     }
   }
 }

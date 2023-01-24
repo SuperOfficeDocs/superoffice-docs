@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 806,
-    "Name": "Lebsack-Howell",
-    "ToolTip": "Aperiam et fuga cupiditate dolor.",
+    "Id": 448,
+    "Name": "Murazik, Mitchell and Monahan",
+    "ToolTip": "Repudiandae minus delectus asperiores nobis sint assumenda.",
     "Deleted": false,
-    "Rank": 789,
-    "Type": "ipsam",
-    "ColorBlock": 868,
-    "IconHint": "est",
+    "Rank": 784,
+    "Type": "tenetur",
+    "ColorBlock": 950,
+    "IconHint": "sapiente",
     "Selected": false,
-    "LastChanged": "1997-10-16T17:37:39.6244313+02:00",
+    "LastChanged": "2000-01-15T11:22:45.5536344+01:00",
     "ChildItems": [
       {
-        "Id": 824,
-        "Name": "Macejkovic-Homenick",
-        "ToolTip": "Maiores nam amet laudantium beatae alias impedit.",
+        "Id": 492,
+        "Name": "Murray-Corkery",
+        "ToolTip": "Voluptatibus placeat occaecati incidunt.",
         "Deleted": false,
-        "Rank": 570,
-        "Type": "architecto",
-        "ColorBlock": 746,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2006-08-28T17:37:39.6244313+02:00",
+        "Rank": 25,
+        "Type": "beatae",
+        "ColorBlock": 80,
+        "IconHint": "sunt",
+        "Selected": false,
+        "LastChanged": "2010-04-25T11:22:45.5536344+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Prof. Emerald Ned Roob"
+        "ExtraInfo": "optio",
+        "StyleHint": "dignissimos",
+        "Hidden": false,
+        "FullName": "Candice Sawayn"
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "quia",
+    "ExtraInfo": "magni",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Krystel Gleason"
+    "FullName": "Jay Rolfson PhD"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Shanahan Group",
-    "ToolTip": "Soluta ad dolorum doloribus cumque voluptatibus praesentium et.",
-    "Deleted": false,
-    "Rank": 974,
-    "Type": "consequuntur",
-    "ColorBlock": 605,
-    "IconHint": "quos",
-    "Selected": true,
-    "LastChanged": "2013-03-28T17:37:39.6264327+01:00",
+    "Id": 836,
+    "Name": "Kuhn, Dibbert and Brown",
+    "ToolTip": "At dolor quasi reprehenderit excepturi.",
+    "Deleted": true,
+    "Rank": 725,
+    "Type": "libero",
+    "ColorBlock": 999,
+    "IconHint": "illo",
+    "Selected": false,
+    "LastChanged": "2000-12-02T11:22:45.5536344+01:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Turcotte-Little",
-        "ToolTip": "Qui ipsum molestias ut.",
-        "Deleted": false,
-        "Rank": 435,
-        "Type": "deserunt",
-        "ColorBlock": 121,
-        "IconHint": "impedit",
+        "Id": 196,
+        "Name": "DuBuque-Lockman",
+        "ToolTip": "Sint facere.",
+        "Deleted": true,
+        "Rank": 719,
+        "Type": "blanditiis",
+        "ColorBlock": 498,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "2001-01-15T17:37:39.6264327+01:00",
+        "LastChanged": "2009-05-05T11:22:45.5536344+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "voluptatibus",
-        "Hidden": true,
-        "FullName": "Kathryn Keebler",
+        "ExtraInfo": "hic",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Prof. Columbus Mohr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 587
+            "FieldType": "System.Int32",
+            "FieldLength": 692
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "natus",
-    "Hidden": true,
-    "FullName": "Catalina Denesik",
+    "ExtraInfo": "eos",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Leatha Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 50
+        "FieldLength": 857
       }
     }
   }

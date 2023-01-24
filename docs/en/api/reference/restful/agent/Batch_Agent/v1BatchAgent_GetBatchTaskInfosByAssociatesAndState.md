@@ -84,6 +84,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -98,8 +99,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    930,
-    922
+    426,
+    283
   ],
   "State": "All"
 }
@@ -113,36 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 258,
-    "Name": "Herzog-Heathcote",
-    "AssociateId": 191,
-    "DetailsTable": 345,
-    "DetailsRecord": 987,
+    "Id": 299,
+    "Name": "Blanda, Lebsack and Christiansen",
+    "AssociateId": 946,
+    "DetailsTable": 232,
+    "DetailsRecord": 319,
     "IsSystemTask": true,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "magnam",
-      "ParameterObject2": "velit"
+      "ParameterObject1": "minima",
+      "ParameterObject2": "quidem"
     },
-    "LastStarted": "2015-05-08T17:37:16.9032419+02:00",
-    "Created": "2016-03-29T17:37:16.9032419+02:00",
-    "StartCount": 559,
-    "DatabaseSerialNumber": "1300169",
-    "Context": "quia",
-    "Result": "eos",
+    "LastStarted": "2014-06-10T11:22:37.4461725+02:00",
+    "Created": "2004-03-29T11:22:37.4461725+02:00",
+    "StartCount": 167,
+    "DatabaseSerialNumber": "1085033",
+    "Context": "voluptatibus",
+    "Result": "aut",
     "State": "All",
-    "Description": "Multi-lateral mission-critical time-frame",
-    "Response": "et",
-    "Request": "quia",
-    "ProgressDescription": "Versatile 24/7 customer loyalty",
-    "ProgressPercent": 79,
-    "FileName": "Trantow Inc and Sons",
+    "Description": "Reactive client-driven software",
+    "Response": "ullam",
+    "Request": "magni",
+    "ProgressDescription": "Front-line 5th generation product",
+    "ProgressPercent": 86,
+    "FileName": "Huel, Okuneva and Hills",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldType": "System.String",
+        "FieldLength": 153
       }
     }
   }

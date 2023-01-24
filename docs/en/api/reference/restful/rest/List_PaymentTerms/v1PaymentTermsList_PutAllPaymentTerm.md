@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 10,
-    "Name": "Effertz LLC",
-    "Tooltip": "magnam",
+    "Id": 41,
+    "Name": "Flatley-Haag",
+    "Tooltip": "impedit",
     "Deleted": true,
-    "UdListDefinitionId": 380,
-    "Rank": 610
+    "UdListDefinitionId": 484,
+    "Rank": 187
   },
   {
-    "Id": 10,
-    "Name": "Effertz LLC",
-    "Tooltip": "magnam",
+    "Id": 41,
+    "Name": "Flatley-Haag",
+    "Tooltip": "impedit",
     "Deleted": true,
-    "UdListDefinitionId": 380,
-    "Rank": 610
+    "UdListDefinitionId": 484,
+    "Rank": 187
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 946,
-    "Name": "Hermann-Windler",
-    "Tooltip": "nulla",
+    "Id": 29,
+    "Name": "Williamson-O'Connell",
+    "Tooltip": "vel",
     "Deleted": true,
-    "UdListDefinitionId": 218,
-    "Rank": 468,
+    "UdListDefinitionId": 832,
+    "Rank": 551,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 75
+        "FieldLength": 426
       }
     }
   }

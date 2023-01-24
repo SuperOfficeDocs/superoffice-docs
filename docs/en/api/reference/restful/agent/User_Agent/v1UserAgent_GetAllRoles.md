@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Gaylord Inc and Sons",
-    "ToolTip": "Ipsa est.",
-    "Deleted": false,
-    "Rank": 449,
-    "Type": "maiores",
-    "ColorBlock": 692,
-    "IconHint": "a",
+    "Id": 836,
+    "Name": "Hackett LLC",
+    "ToolTip": "Occaecati voluptatem voluptate consectetur sed.",
+    "Deleted": true,
+    "Rank": 861,
+    "Type": "est",
+    "ColorBlock": 301,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2006-07-02T17:37:19.5469767+02:00",
+    "LastChanged": "2004-06-06T11:22:39.617529+02:00",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Weissnat-Miller",
-        "ToolTip": "Aut sed asperiores.",
+        "Id": 871,
+        "Name": "Rippin Group",
+        "ToolTip": "Sint cupiditate corporis rerum sunt omnis.",
         "Deleted": false,
-        "Rank": 991,
-        "Type": "laudantium",
-        "ColorBlock": 427,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2016-10-12T17:37:19.5469767+02:00",
+        "Rank": 471,
+        "Type": "optio",
+        "ColorBlock": 748,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2001-01-17T11:22:39.617529+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Kelli Hessel",
+        "ExtraInfo": "dicta",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Neil Wilderman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 538
+            "FieldType": "System.String",
+            "FieldLength": 145
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Dale Larkin",
+    "FullName": "Elizabeth Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldLength": 535
       }
     }
   }

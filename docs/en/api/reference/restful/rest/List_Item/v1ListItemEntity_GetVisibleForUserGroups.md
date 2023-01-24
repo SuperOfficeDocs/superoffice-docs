@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Trantow Group",
-    "ToolTip": "Sit tempora.",
-    "Deleted": false,
-    "Rank": 357,
-    "Type": "maiores",
-    "ColorBlock": 404,
-    "IconHint": "et",
+    "Id": 832,
+    "Name": "Mante Inc and Sons",
+    "ToolTip": "Dolore est sequi voluptate sunt pariatur repellat quaerat.",
+    "Deleted": true,
+    "Rank": 792,
+    "Type": "dicta",
+    "ColorBlock": 634,
+    "IconHint": "eaque",
     "Selected": false,
-    "LastChanged": "1996-05-04T17:37:39.6184313+02:00",
+    "LastChanged": "1998-03-03T11:22:45.5536344+01:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Anderson-Green",
-        "ToolTip": "Repellendus sit in non necessitatibus.",
+        "Id": 516,
+        "Name": "Berge Inc and Sons",
+        "ToolTip": "Non quas occaecati debitis provident perferendis aut.",
         "Deleted": false,
-        "Rank": 447,
-        "Type": "assumenda",
-        "ColorBlock": 313,
-        "IconHint": "iusto",
+        "Rank": 516,
+        "Type": "nemo",
+        "ColorBlock": 998,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "2002-11-10T17:37:39.6184313+01:00",
+        "LastChanged": "2008-03-30T11:22:45.5536344+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "repellendus",
-        "Hidden": false,
-        "FullName": "Wava Penelope Buckridge DVM",
+        "ExtraInfo": "iusto",
+        "StyleHint": "praesentium",
+        "Hidden": true,
+        "FullName": "Rafaela Moore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 403
+            "FieldType": "System.String",
+            "FieldLength": 231
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "voluptatibus",
-    "Hidden": false,
-    "FullName": "Annabel Katlynn Zieme Jr.",
+    "ExtraInfo": "eum",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Miss Mae Kevon Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldLength": 225
       }
     }
   }

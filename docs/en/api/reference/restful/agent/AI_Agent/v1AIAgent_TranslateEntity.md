@@ -69,13 +69,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Runte Inc and Sons",
-  "EntityId": 549,
-  "TargetLanguage": "laboriosam"
+  "EntityName": "Bayer, Crooks and Willms",
+  "EntityId": 776,
+  "TargetLanguage": "facilis"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"laboriosam"
+"natus"
 ```

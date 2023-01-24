@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 881,
-  "Select": "quam"
+  "SelectionId": 666,
+  "Select": "odio"
 }
 ```
 
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Koch-Cummerata",
-    "PrimaryKey": 219,
+    "EntityName": "Oberbrunner-Cartwright",
+    "PrimaryKey": 216,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "cupiditate",
-        "TooltipHint": "accusantium",
-        "LinkHint": "voluptas"
+        "DisplayValue": "vel",
+        "TooltipHint": "error",
+        "LinkHint": "sit"
       }
     },
-    "LinkHint": "eveniet",
-    "StyleHint": "est",
+    "LinkHint": "dolor",
+    "StyleHint": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldType": "System.String",
+        "FieldLength": 941
       }
     }
   }

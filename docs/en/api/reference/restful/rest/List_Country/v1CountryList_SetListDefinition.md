@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 656,
-  "Name": "Kunze-Yundt",
-  "Tooltip": "adipisci",
+  "Id": 427,
+  "Name": "Johnson-Thompson",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 610,
+  "Rank": 69,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ipsum",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "cum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 435,
-  "Name": "Davis Inc and Sons",
-  "Tooltip": "rem",
+  "Id": 602,
+  "Name": "Runolfsdottir Group",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "Rank": 325,
-  "IsCustomList": true,
+  "Rank": 414,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "recusandae",
+  "UseGroupsAndHeadings": true,
+  "ListType": "ex",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 758
+      "FieldLength": 163
     }
   }
 }

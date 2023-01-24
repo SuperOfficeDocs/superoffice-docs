@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 950,
-  "Name": "Jenkins-Ullrich",
-  "Tooltip": "ducimus",
-  "Rank": 884,
-  "Key": "perferendis",
-  "Deleted": true,
+  "LegalBaseId": 866,
+  "Name": "Auer, Russel and Fisher",
+  "Tooltip": "asperiores",
+  "Rank": 375,
+  "Key": "sunt",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldType": "System.Int32",
+      "FieldLength": 44
     }
   }
 }

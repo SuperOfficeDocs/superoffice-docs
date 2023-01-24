@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 789,
-  "LanguageId": 970,
-  "PersonId": 165,
-  "TicketId": 491
+  "ReplyTemplateId": 75,
+  "LanguageId": 249,
+  "PersonId": 595,
+  "TicketId": 777
 }
 ```
 
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 990,
-  "PlainParsed": "molestiae",
-  "HtmlParsed": "vel",
+  "ReplyTemplateId": 566,
+  "PlainParsed": "voluptatem",
+  "HtmlParsed": "accusamus",
   "Attachments": [
     {
-      "AttachmentId": 12,
-      "Name": "Ritchie, Schuster and Wolf",
-      "ContentType": "delectus",
-      "AttSize": 876,
+      "AttachmentId": 454,
+      "Name": "Reynolds, Beer and Considine",
+      "ContentType": "qui",
+      "AttSize": 684,
       "InlineImage": true,
-      "ContentId": "suscipit",
+      "ContentId": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 41
+          "FieldLength": 679
         }
       }
     }
   ],
-  "Subject": "nihil",
+  "Subject": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldType": "System.String",
+      "FieldLength": 591
     }
   }
 }

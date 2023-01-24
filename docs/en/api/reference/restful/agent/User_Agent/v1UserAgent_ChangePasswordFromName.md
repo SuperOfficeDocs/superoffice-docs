@@ -75,9 +75,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Jast-Okuneva",
-  "OldPassword": "ea",
-  "NewPassword": "aspernatur"
+  "AssociateName": "Buckridge, Nienow and DuBuque",
+  "OldPassword": "eum",
+  "NewPassword": "officiis"
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

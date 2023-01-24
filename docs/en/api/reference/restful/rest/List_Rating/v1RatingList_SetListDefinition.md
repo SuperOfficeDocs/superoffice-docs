@@ -87,16 +87,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 102,
-  "Name": "Schmidt LLC",
-  "Tooltip": "sit",
+  "Id": 449,
+  "Name": "Thiel, Williamson and Nicolas",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 39,
+  "Rank": 549,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "at",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 865,
-  "Name": "Ernser-Hermann",
-  "Tooltip": "quis",
+  "Id": 139,
+  "Name": "Cummerata-Klein",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 743,
+  "Rank": 262,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "ListType": "architecto",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 452
+      "FieldType": "System.Int32",
+      "FieldLength": 675
     }
   }
 }

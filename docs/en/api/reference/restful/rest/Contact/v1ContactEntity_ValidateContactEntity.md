@@ -100,89 +100,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 972,
-  "Name": "Weber Group",
+  "ContactId": 932,
+  "Name": "Gorczany-Feest",
   "Department": "",
-  "OrgNr": "594339",
-  "Number1": "877879",
-  "Number2": "479303",
-  "UpdatedDate": "2018-08-10T17:37:38.4438605+02:00",
-  "CreatedDate": "1997-06-29T17:37:38.4438605+02:00",
+  "OrgNr": "973546",
+  "Number1": "1395415",
+  "Number2": "597791",
+  "UpdatedDate": "2021-12-20T11:22:44.5382515+01:00",
+  "CreatedDate": "2004-06-29T11:22:44.5382515+02:00",
   "Emails": [
     {
-      "Value": "illum",
-      "StrippedValue": "omnis",
-      "Description": "Quality-focused 24/7 throughput"
+      "Value": "amet",
+      "StrippedValue": "inventore",
+      "Description": "Right-sized grid-enabled policy"
     },
     {
-      "Value": "illum",
-      "StrippedValue": "omnis",
-      "Description": "Quality-focused 24/7 throughput"
+      "Value": "amet",
+      "StrippedValue": "inventore",
+      "Description": "Right-sized grid-enabled policy"
     }
   ],
   "Interests": [
     {
-      "Id": 798,
-      "Name": "Howe Group",
-      "ToolTip": "Molestias ipsam sunt quisquam perspiciatis laborum.",
-      "Deleted": false,
-      "Rank": 444,
-      "Type": "in",
-      "ColorBlock": 18,
-      "IconHint": "quia",
-      "Selected": true,
-      "LastChanged": "2011-08-26T17:37:38.4438605+02:00",
+      "Id": 883,
+      "Name": "Kreiger Group",
+      "ToolTip": "Quia adipisci animi autem consequatur quis autem.",
+      "Deleted": true,
+      "Rank": 195,
+      "Type": "ut",
+      "ColorBlock": 503,
+      "IconHint": "occaecati",
+      "Selected": false,
+      "LastChanged": "2009-10-13T11:22:44.5382515+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "animi",
-      "Hidden": false,
-      "FullName": "Imogene Boyle"
+      "ExtraInfo": "ut",
+      "StyleHint": "eum",
+      "Hidden": true,
+      "FullName": "Talia Fahey"
     }
   ],
   "Urls": [
     {
-      "Value": "dolorum",
-      "StrippedValue": "quas",
-      "Description": "Phased reciprocal software"
+      "Value": "qui",
+      "StrippedValue": "quia",
+      "Description": "Compatible contextually-based matrix"
     },
     {
-      "Value": "dolorum",
-      "StrippedValue": "quas",
-      "Description": "Phased reciprocal software"
+      "Value": "qui",
+      "StrippedValue": "quia",
+      "Description": "Compatible contextually-based matrix"
     }
   ],
   "Phones": [
     {
-      "Value": "porro",
-      "StrippedValue": "dolorem",
-      "Description": "Re-engineered directional circuit"
+      "Value": "velit",
+      "StrippedValue": "doloribus",
+      "Description": "Self-enabling upward-trending software"
     },
     {
-      "Value": "porro",
-      "StrippedValue": "dolorem",
-      "Description": "Re-engineered directional circuit"
+      "Value": "velit",
+      "StrippedValue": "doloribus",
+      "Description": "Self-enabling upward-trending software"
     }
   ],
   "Faxes": [
     {
-      "Value": "qui",
-      "StrippedValue": "blanditiis",
-      "Description": "Proactive needs-based instruction set"
+      "Value": "expedita",
+      "StrippedValue": "quaerat",
+      "Description": "Horizontal fault-tolerant matrix"
     },
     {
-      "Value": "qui",
-      "StrippedValue": "blanditiis",
-      "Description": "Proactive needs-based instruction set"
+      "Value": "expedita",
+      "StrippedValue": "quaerat",
+      "Description": "Horizontal fault-tolerant matrix"
     }
   ],
-  "Description": "Networked tertiary info-mediaries",
+  "Description": "Business-focused 24/7 interface",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -191,85 +191,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "dolores",
-      "PersonId": 846,
-      "Mrmrs": "non",
-      "Firstname": "Melisa",
-      "Lastname": "Hilpert",
-      "MiddleName": "Crist-Rau",
-      "Title": "architecto",
-      "Description": "Phased discrete emulation",
-      "Email": "thora@dickinson.us",
-      "FullName": "Vickie Ryan",
-      "DirectPhone": "671-688-6964 x648",
-      "FormalName": "Wehner, Haley and Glover",
-      "CountryId": 655,
-      "ContactId": 915,
-      "ContactName": "Rutherford-Kihn",
-      "Retired": 943,
-      "Rank": 22,
-      "ActiveInterests": 433,
+      "Position": "laudantium",
+      "PersonId": 44,
+      "Mrmrs": "id",
+      "Firstname": "Orrin",
+      "Lastname": "King",
+      "MiddleName": "Tillman-Moen",
+      "Title": "iure",
+      "Description": "Team-oriented homogeneous pricing structure",
+      "Email": "monte@gerlachcole.com",
+      "FullName": "Miss Steve Dare DDS",
+      "DirectPhone": "403-310-1849 x55792",
+      "FormalName": "Schmidt-Gislason",
+      "CountryId": 405,
+      "ContactId": 457,
+      "ContactName": "Waelchi-Hettinger",
+      "Retired": 10,
+      "Rank": 726,
+      "ActiveInterests": 374,
       "ContactDepartment": "",
-      "ContactCountryId": 275,
-      "ContactOrgNr": "1498631",
-      "FaxPhone": "110-971-2593",
-      "MobilePhone": "(966)654-7014",
-      "ContactPhone": "1-797-899-4280 x6138",
-      "AssociateName": "Kemmer Group",
-      "AssociateId": 760,
+      "ContactCountryId": 700,
+      "ContactOrgNr": "817832",
+      "FaxPhone": "1-392-929-4245 x0067",
+      "MobilePhone": "442-000-7542 x35118",
+      "ContactPhone": "237-488-6439 x6927",
+      "AssociateName": "Rutherford LLC",
+      "AssociateId": 210,
       "UsePersonAddress": false,
-      "ContactFax": "similique",
-      "Kanafname": "temporibus",
-      "Kanalname": "et",
-      "Post1": "dolore",
-      "Post2": "facilis",
-      "Post3": "ea",
-      "EmailName": "damien@gleichnerjones.ca",
-      "ContactFullName": "Silas Cartwright",
-      "ActiveErpLinks": 589,
-      "TicketPriorityId": 180,
-      "SupportLanguageId": 290,
-      "SupportAssociateId": 262,
+      "ContactFax": "iure",
+      "Kanafname": "voluptatibus",
+      "Kanalname": "fugiat",
+      "Post1": "dolores",
+      "Post2": "voluptas",
+      "Post3": "eum",
+      "EmailName": "frederic@hodkiewiczchristiansen.ca",
+      "ContactFullName": "Kiera Ebert IV",
+      "ActiveErpLinks": 503,
+      "TicketPriorityId": 372,
+      "SupportLanguageId": 698,
+      "SupportAssociateId": 886,
       "CategoryName": "VIP Customer"
     }
   ],
   "NoMailing": false,
-  "Kananame": "totam",
+  "Kananame": "corrupti",
   "Xstop": true,
-  "ActiveInterests": 57,
-  "GroupId": 683,
-  "ActiveStatusMonitorId": 920,
+  "ActiveInterests": 18,
+  "GroupId": 956,
+  "ActiveStatusMonitorId": 726,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 986,
-  "DbiAgentId": 734,
-  "DbiLastSyncronized": "1995-09-04T17:37:38.4488595+02:00",
-  "DbiKey": "dignissimos",
-  "DbiLastModified": "2012-08-12T17:37:38.4488595+02:00",
+  "Deleted": 42,
+  "DbiAgentId": 73,
+  "DbiLastSyncronized": "2019-03-25T11:22:44.5382515+01:00",
+  "DbiKey": "esse",
+  "DbiLastModified": "1999-11-25T11:22:44.5382515+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 326,
-  "ActiveErpLinks": 372,
+  "Source": 252,
+  "ActiveErpLinks": 900,
   "BounceEmails": [
-    "mafalda@smith.us",
-    "bernardo.jaskolski@pagactillman.biz"
+    "alan_schaden@hettinger.name",
+    "gracie@jacobs.co.uk"
   ],
   "Domains": [
-    "consequatur",
-    "ipsum"
+    "velit",
+    "sunt"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Tristin Annamae Larkin MD",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Ms. Kory Ralph Ortiz PhD",
+    "SuperOffice:2": "Johan Stamm"
   },
   "ExtraFields": {
-    "ExtraFields1": "quas",
-    "ExtraFields2": "sequi"
+    "ExtraFields1": "possimus",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "fugit",
-    "CustomFields2": "et"
+    "CustomFields1": "odio",
+    "CustomFields2": "natus"
   }
 }
 ```
@@ -281,7 +281,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quidem",
-  "2": "dolor"
+  "1": "ducimus",
+  "2": "sit"
 }
 ```

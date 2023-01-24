@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Witting, Conn and Pfeffer"
+  "ParameterName": "Fisher, Mraz and Kuhlman"
 }
 ```
 
@@ -93,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 653,
-  "Name": "Sawayn-Schoen",
-  "Value": "excepturi",
-  "CreatedDate": "2001-10-19T17:37:16.8832411+02:00",
-  "UpdatedDate": "2002-05-01T17:37:16.8832411+02:00",
-  "CreatedBy": "accusantium",
-  "UpdatedBy": "fuga",
+  "AudienceLayoutId": 548,
+  "Name": "Pacocha Group",
+  "Value": "voluptas",
+  "CreatedDate": "2014-12-06T11:22:37.4304911+01:00",
+  "UpdatedDate": "2006-11-25T11:22:37.4304911+01:00",
+  "CreatedBy": "qui",
+  "UpdatedBy": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldType": "System.String",
+      "FieldLength": 728
     }
   }
 }

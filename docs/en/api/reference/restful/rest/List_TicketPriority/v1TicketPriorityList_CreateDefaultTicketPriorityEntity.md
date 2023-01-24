@@ -91,60 +91,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 741,
-  "Name": "Heller LLC",
+  "TicketPriorityId": 171,
+  "Name": "Moore-Considine",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 627,
+  "SortOrder": 427,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 681,
-  "MonStart": "2018-08-10T17:37:40.4175007+02:00",
-  "MonStop": "2003-06-25T17:37:40.4175007+02:00",
-  "TueStart": "2011-03-22T17:37:40.4175007+01:00",
-  "TueStop": "2004-07-08T17:37:40.4175007+02:00",
-  "WedStart": "2003-07-31T17:37:40.4175007+02:00",
-  "WedStop": "2017-12-30T17:37:40.4175007+01:00",
-  "ThuStart": "2000-06-01T17:37:40.4175007+02:00",
-  "ThuStop": "2000-12-13T17:37:40.4175007+01:00",
-  "FriStart": "2014-02-27T17:37:40.4175007+01:00",
-  "FriStop": "2018-07-05T17:37:40.4175007+02:00",
-  "SatStart": "2007-11-19T17:37:40.4175007+01:00",
-  "SatStop": "2004-07-08T17:37:40.4175007+02:00",
-  "SunStart": "2010-04-09T17:37:40.4175007+02:00",
-  "SunStop": "1997-10-16T17:37:40.4175007+02:00",
+  "Deadline": 178,
+  "MonStart": "2012-05-10T11:22:46.2409792+02:00",
+  "MonStop": "2021-04-29T11:22:46.2409792+02:00",
+  "TueStart": "2015-12-16T11:22:46.2409792+01:00",
+  "TueStop": "1999-07-10T11:22:46.2409792+02:00",
+  "WedStart": "2020-11-14T11:22:46.2409792+01:00",
+  "WedStop": "2009-04-04T11:22:46.2409792+02:00",
+  "ThuStart": "2020-06-20T11:22:46.2409792+02:00",
+  "ThuStop": "1996-06-22T11:22:46.2409792+02:00",
+  "FriStart": "2007-02-18T11:22:46.2409792+01:00",
+  "FriStop": "2001-03-06T11:22:46.2409792+01:00",
+  "SatStart": "1999-07-18T11:22:46.2409792+02:00",
+  "SatStop": "2003-07-03T11:22:46.2409792+02:00",
+  "SunStart": "2017-04-22T11:22:46.2409792+02:00",
+  "SunStop": "1996-11-28T11:22:46.2409792+01:00",
   "NonDates": [
-    "et",
-    "ipsam"
+    "aut",
+    "ut"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 794,
-      "AlertLevel": 829,
-      "AlertTimeout": 138,
-      "Action": 298,
-      "DelegateTo": 447,
-      "ScriptId": 700,
-      "EmailTo": "amie@will.ca",
-      "SmsTo": "non",
-      "ReplyTemplateIdCustomer": 483,
-      "ReplyTemplateIdUser": 632,
-      "ReplyTemplateIdCatmast": 405,
-      "ReplyTemplateIdEmail": 651,
-      "RtiCustomerSms": 484,
-      "ReplyTemplateIdUserSms": 986,
-      "ReplyTemplateIdCatmastSms": 195,
-      "ReplyTemplateIdSms": 142,
+      "TicketAlertId": 131,
+      "AlertLevel": 682,
+      "AlertTimeout": 621,
+      "Action": 941,
+      "DelegateTo": 305,
+      "ScriptId": 80,
+      "EmailTo": "kendall_becker@gulgowski.us",
+      "SmsTo": "nihil",
+      "ReplyTemplateIdCustomer": 665,
+      "ReplyTemplateIdUser": 392,
+      "ReplyTemplateIdCatmast": 635,
+      "ReplyTemplateIdEmail": 798,
+      "RtiCustomerSms": 141,
+      "ReplyTemplateIdUserSms": 532,
+      "ReplyTemplateIdCatmastSms": 996,
+      "ReplyTemplateIdSms": 892,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 14
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 347
+      "FieldLength": 725
     }
   }
 }

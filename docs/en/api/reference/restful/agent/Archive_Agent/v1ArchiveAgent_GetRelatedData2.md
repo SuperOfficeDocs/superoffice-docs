@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "sint",
-  "RecordId": 931,
-  "Fields": "hic"
+  "Table": "aut",
+  "RecordId": 917,
+  "Fields": "quasi"
 }
 ```
 
@@ -93,11 +93,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "aperiam",
+    "Field": "unde",
     "FieldValue": null
   },
   {
-    "Field": "aperiam",
+    "Field": "unde",
     "FieldValue": null
   }
 ]

@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 461
+  "ContactId": 760
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ebert-Marvin",
-    "SaleDate": "2021-06-28T17:37:18.8902423+02:00",
-    "SaleId": 478,
-    "Probability": 101,
-    "Title": "similique",
-    "Amount": 5390.48,
-    "Currency": "ipsum",
-    "ProjectName": "O'Reilly LLC",
-    "AssociateFullName": "Susanna Adams",
-    "Description": "Down-sized zero administration productivity",
+    "ContactName": "Skiles-Ziemann",
+    "SaleDate": "1997-08-20T11:22:39.2425669+02:00",
+    "SaleId": 810,
+    "Probability": 388,
+    "Title": "omnis",
+    "Amount": 10712.011999999999,
+    "Currency": "iste",
+    "ProjectName": "Kuphal, Volkman and Schuppe",
+    "AssociateFullName": "Jarod Schumm",
+    "Description": "Operative logistical leverage",
     "Status": "Lost",
-    "WeightedAmount": 27541.592,
-    "ProjectId": 81,
-    "EarningPercent": 11777.572,
-    "Earning": 26491.701999999997,
-    "ContactId": 595,
-    "AssociateId": 742,
-    "PersonId": 788,
-    "SaleTypeId": 92,
-    "SaleTypeName": "Hyatt Inc and Sons",
-    "PersonFullName": "Vivien Carroll",
+    "WeightedAmount": 29387.518,
+    "ProjectId": 269,
+    "EarningPercent": 354.142,
+    "Earning": 23219.806,
+    "ContactId": 280,
+    "AssociateId": 19,
+    "PersonId": 537,
+    "SaleTypeId": 511,
+    "SaleTypeName": "Hessel Inc and Sons",
+    "PersonFullName": "Miss Kaylin Janick Heidenreich V",
     "Completed": "Completed",
-    "ActiveErpLinks": 198,
-    "NextDueDate": "2013-02-07T17:37:18.8912422+01:00",
-    "Number": "447608",
+    "ActiveErpLinks": 21,
+    "NextDueDate": "2003-03-15T11:22:39.2425669+01:00",
+    "Number": "1374951",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 321
+        "FieldLength": 990
       }
     }
   }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/User/GetAccessGatewayInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,14 +77,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "quasi",
-  "RedirectUri": "ipsa",
+  "ClientId": "at",
+  "RedirectUri": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldLength": 741
     }
   }
 }

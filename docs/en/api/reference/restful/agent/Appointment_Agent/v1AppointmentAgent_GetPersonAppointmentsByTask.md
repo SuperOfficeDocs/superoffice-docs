@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 507,
+  "PersonId": 318,
   "IncludeProjectAppointments": false,
-  "StartTime": "1999-07-09T17:37:16.2142421+02:00",
-  "EndTime": "2008-11-24T17:37:16.2142421+01:00",
-  "Count": 449,
-  "TaskId": 379
+  "StartTime": "2002-03-16T11:22:36.9150392+01:00",
+  "EndTime": "1998-05-04T11:22:36.9150392+02:00",
+  "Count": 125,
+  "TaskId": 211
 }
 ```
 
@@ -148,61 +148,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 358,
-    "StartDate": "2017-02-01T17:37:16.2152419+01:00",
-    "EndDate": "2013-03-11T17:37:16.2152419+01:00",
+    "AppointmentId": 645,
+    "StartDate": "2018-07-14T11:22:36.9150392+02:00",
+    "EndDate": "1996-04-21T11:22:36.9150392+02:00",
     "Type": "BookingForChecklist",
-    "Task": "pariatur",
-    "AssociateFullName": "Kendra White",
-    "ContactName": "Mills-Bailey",
-    "Description": "Reduced exuding internet solution",
-    "PersonFullName": "Brice Prohaska",
-    "PersonId": 998,
-    "ContactId": 657,
-    "ProjectId": 554,
-    "ProjectName": "Breitenberg Group",
+    "Task": "omnis",
+    "AssociateFullName": "Eileen Morar",
+    "ContactName": "Wuckert, Fahey and Wilkinson",
+    "Description": "Devolved incremental initiative",
+    "PersonFullName": "Vena Gerlach",
+    "PersonId": 35,
+    "ContactId": 644,
+    "ProjectId": 102,
+    "ProjectName": "Zulauf LLC",
     "IsPublished": false,
-    "AssociateId": 268,
-    "ColorIndex": 328,
-    "IsFree": true,
-    "HasAlarm": false,
+    "AssociateId": 847,
+    "ColorIndex": 516,
+    "IsFree": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 527,
-    "PriorityName": "Pagac-Hartmann",
+    "PriorityId": 603,
+    "PriorityName": "Heller Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2005-03-27T17:37:16.2162417+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2005-11-01T11:22:36.9150392+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-11-29T17:37:16.2162417+01:00",
-    "RecurringEndDate": "2002-06-02T17:37:16.2162417+02:00",
-    "MotherId": 649,
-    "AssignedBy": 846,
-    "AssignedByFullName": "Shany Lind",
+    "RecurringStartDate": "2018-12-18T11:22:36.9150392+01:00",
+    "RecurringEndDate": "2010-05-24T11:22:36.9150392+02:00",
+    "MotherId": 97,
+    "AssignedBy": 583,
+    "AssignedByFullName": "Terry Jewess",
     "RejectReason": "",
-    "Location": "repudiandae",
-    "AlarmLeadTime": "molestiae",
-    "SaleId": 459,
-    "SaleName": "Dickens, Klein and Fahey",
-    "AssociateName": "Lueilwitz, Walker and Kutch",
-    "CreatedDate": "1998-01-23T17:37:16.2162417+01:00",
-    "CreatedBy": "sapiente",
-    "CreatedByFullName": "Robb Carroll",
-    "CreatedByAssociateId": 34,
+    "Location": "rerum",
+    "AlarmLeadTime": "alias",
+    "SaleId": 340,
+    "SaleName": "D'Amore LLC",
+    "AssociateName": "Ritchie-Keebler",
+    "CreatedDate": "2004-12-29T11:22:36.9150392+01:00",
+    "CreatedBy": "minus",
+    "CreatedByFullName": "Mandy Pfeffer",
+    "CreatedByAssociateId": 68,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 423
+        "FieldType": "System.String",
+        "FieldLength": 931
       }
     }
   }

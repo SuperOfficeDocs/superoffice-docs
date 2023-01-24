@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 805,
-  "CountryId": 153
+  "ContactId": 783,
+  "CountryId": 368
 }
 ```
 
@@ -94,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 5681.942,
-  "Wgs84Longitude": 2353.634,
+  "Wgs84Latitude": 17729.038,
+  "Wgs84Longitude": 17719.636,
   "LocalizedAddress": [
     [
       {
-        "Name": "Hansen-Kris",
-        "Value": "repudiandae",
+        "Name": "Beier LLC",
+        "Value": "eius",
         "Tooltip": "recusandae",
-        "Label": "neque",
-        "ValueLength": 234,
-        "AddressType": "quia",
+        "Label": "ratione",
+        "ValueLength": 514,
+        "AddressType": "minus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 235
+            "FieldType": "System.String",
+            "FieldLength": 206
           }
         }
       }
     ],
     [
       {
-        "Name": "O'Keefe Group",
-        "Value": "debitis",
-        "Tooltip": "sed",
-        "Label": "beatae",
-        "ValueLength": 178,
-        "AddressType": "voluptatibus",
+        "Name": "Hartmann, Hand and Stracke",
+        "Value": "at",
+        "Tooltip": "id",
+        "Label": "nobis",
+        "ValueLength": 858,
+        "AddressType": "quia",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 862
+            "FieldLength": 415
           }
         }
       }
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "quod",
+  "Formatted": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldType": "System.String",
+      "FieldLength": 661
     }
   }
 }

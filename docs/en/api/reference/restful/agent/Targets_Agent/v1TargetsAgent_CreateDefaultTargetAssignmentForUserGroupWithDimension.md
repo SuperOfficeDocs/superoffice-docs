@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 477,
-  "TargetDimensionId": 219
+  "UserGroupId": 978,
+  "TargetDimensionId": 725
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 781,
+    "TargetAssignmentInfoId": 992,
     "Values": [
-      846,
-      469
+      508,
+      413
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 653,
-    "DimensionListItemDisplayName": "Ratke-Wintheiser",
+    "DimensionListItem": 308,
+    "DimensionListItemDisplayName": "Kub-Pouros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldType": "System.String",
+        "FieldLength": 34
       }
     }
   }

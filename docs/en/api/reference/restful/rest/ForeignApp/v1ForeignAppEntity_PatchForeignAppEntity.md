@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "enim",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "enim",
+    "path": "non",
     "value": {}
   }
 ]
@@ -137,29 +137,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 270,
-  "Name": "Okuneva Inc and Sons",
-  "CreatedDate": "2022-10-21T17:37:38.8088669+02:00",
-  "UpdatedDate": "2005-03-02T17:37:38.8088669+01:00",
+  "ForeignAppId": 573,
+  "Name": "Greenfelder Inc and Sons",
+  "CreatedDate": "2015-06-19T11:22:44.8662479+02:00",
+  "UpdatedDate": "2001-11-03T11:22:44.8662479+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 260,
-      "Name": "Schimmel-Langosh",
-      "CreatedDate": "2010-11-20T17:37:38.8098675+01:00",
-      "UpdatedDate": "2006-01-27T17:37:38.8098675+01:00",
-      "AssociateFullName": "Monte Luettgen",
-      "CreatedBy": "tempora",
-      "UpdatedBy": "neque",
-      "DeviceIdentifier": "laborum",
-      "ForeignAppId": 804,
+      "ForeignDeviceId": 494,
+      "Name": "Thompson Inc and Sons",
+      "CreatedDate": "2007-03-17T11:22:44.8662479+01:00",
+      "UpdatedDate": "1999-05-25T11:22:44.8662479+02:00",
+      "AssociateFullName": "Angel Harvey MD",
+      "CreatedBy": "quae",
+      "UpdatedBy": "veniam",
+      "DeviceIdentifier": "facere",
+      "ForeignAppId": 858,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 231
         }
       }
     }
@@ -168,13 +168,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 314
+      "FieldType": "System.Int32",
+      "FieldLength": 152
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

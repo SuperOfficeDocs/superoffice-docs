@@ -81,8 +81,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "ea",
-    "modi"
+    "incidunt",
+    "voluptas"
   ]
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "1999-08-04T17:37:16.4172411+02:00",
-    "IsConflict": true,
-    "Description": "Pre-emptive multimedia artificial intelligence",
-    "DescriptionStyleHint": "Robust non-volatile architecture",
-    "Tooltip": "natus"
+    "Date": "2018-07-20T11:22:37.071254+02:00",
+    "IsConflict": false,
+    "Description": "Automated client-server encryption",
+    "DescriptionStyleHint": "Customizable client-server help-desk",
+    "Tooltip": "beatae"
   },
   {
-    "Date": "1999-08-04T17:37:16.4172411+02:00",
-    "IsConflict": true,
-    "Description": "Pre-emptive multimedia artificial intelligence",
-    "DescriptionStyleHint": "Robust non-volatile architecture",
-    "Tooltip": "natus"
+    "Date": "2018-07-20T11:22:37.071254+02:00",
+    "IsConflict": false,
+    "Description": "Automated client-server encryption",
+    "DescriptionStyleHint": "Customizable client-server help-desk",
+    "Tooltip": "beatae"
   }
 ]
 ```

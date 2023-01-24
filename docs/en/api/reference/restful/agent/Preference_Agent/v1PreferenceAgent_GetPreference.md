@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 557
+  "Id": 981
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ut",
+  "RawValue": "non",
   "Specification": null,
-  "DisplayValue": "iusto",
-  "DisplayTooltip": "aut",
+  "DisplayValue": "aliquam",
+  "DisplayTooltip": "blanditiis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 379,
-  "PrefDescId": 112,
-  "TableName": "Collins, Leffler and Rippin",
-  "UserPreferenceId": 522,
+  "TargetId": 497,
+  "PrefDescId": 162,
+  "TableName": "Morissette LLC",
+  "UserPreferenceId": 106,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 947
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   }
 }

@@ -57,7 +57,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -67,26 +67,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 661,
+  "RowCount": 32,
   "Rows": [
     {
-      "EntityName": "Lemke, Murray and Wilderman",
-      "PrimaryKey": 694,
+      "EntityName": "Turcotte-Harber",
+      "PrimaryKey": 169,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "necessitatibus",
-          "TooltipHint": "et",
-          "LinkHint": "quaerat"
+          "DisplayValue": "error",
+          "TooltipHint": "ipsum",
+          "LinkHint": "accusantium"
         }
       },
-      "LinkHint": "officia",
-      "StyleHint": "qui",
+      "LinkHint": "labore",
+      "StyleHint": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 93
+          "FieldType": "System.Int32",
+          "FieldLength": 707
         }
       }
     }
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 782
     }
   }
 }

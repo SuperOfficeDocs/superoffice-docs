@@ -80,36 +80,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 138,
+  "HierarchyId": 226,
   "Domain": "Dashboards",
-  "Name": "Nicolas LLC",
-  "Fullname": "veritatis",
-  "ParentId": 944,
+  "Name": "Jakubowski, Bartoletti and Herzog",
+  "Fullname": "qui",
+  "ParentId": 321,
   "Children": [
     {
-      "HierarchyId": 363,
+      "HierarchyId": 300,
       "Domain": "Dashboards",
-      "Name": "Schaefer-Hartmann",
-      "Fullname": "fuga",
-      "ParentId": 854,
+      "Name": "Schmeler-Kshlerin",
+      "Fullname": "eos",
+      "ParentId": 599,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-08-24T17:37:18.276242+02:00",
-      "RegisteredAssociateId": 965,
-      "Updated": "2009-08-17T17:37:18.276242+02:00",
-      "UpdatedAssociateId": 716
+      "Registered": "2007-07-31T11:22:38.5240368+02:00",
+      "RegisteredAssociateId": 759,
+      "Updated": "2015-05-29T11:22:38.5240368+02:00",
+      "UpdatedAssociateId": 224
     }
   ],
-  "Registered": "2014-03-17T17:37:18.276242+01:00",
-  "RegisteredAssociateId": 402,
-  "Updated": "2019-04-13T17:37:18.276242+02:00",
-  "UpdatedAssociateId": 625
+  "Registered": "2000-03-10T11:22:38.5240368+01:00",
+  "RegisteredAssociateId": 131,
+  "Updated": "2006-11-18T11:22:38.5240368+01:00",
+  "UpdatedAssociateId": 290
 }
 ```
 
@@ -120,46 +120,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 467,
+  "HierarchyId": 37,
   "Domain": "Dashboards",
-  "Name": "Friesen, Keeling and Collins",
-  "Fullname": "expedita",
-  "ParentId": 415,
+  "Name": "Herzog, Kub and Graham",
+  "Fullname": "in",
+  "ParentId": 401,
   "Children": [
     {
-      "HierarchyId": 788,
+      "HierarchyId": 840,
       "Domain": "Dashboards",
-      "Name": "Pouros LLC",
-      "Fullname": "corrupti",
-      "ParentId": 644,
+      "Name": "Hettinger-Bradtke",
+      "Fullname": "dolores",
+      "ParentId": 338,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-02-12T17:37:18.2772429+01:00",
-      "RegisteredAssociateId": 447,
-      "Updated": "2007-06-08T17:37:18.2772429+02:00",
-      "UpdatedAssociateId": 574,
+      "Registered": "2016-08-23T11:22:38.5240368+02:00",
+      "RegisteredAssociateId": 223,
+      "Updated": "1999-11-29T11:22:38.5240368+01:00",
+      "UpdatedAssociateId": 461,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 505
+          "FieldType": "System.Int32",
+          "FieldLength": 603
         }
       }
     }
   ],
-  "Registered": "2013-12-07T17:37:18.2772429+01:00",
-  "RegisteredAssociateId": 337,
-  "Updated": "2000-09-15T17:37:18.2772429+02:00",
-  "UpdatedAssociateId": 197,
+  "Registered": "2005-12-13T11:22:38.5240368+01:00",
+  "RegisteredAssociateId": 53,
+  "Updated": "1998-08-20T11:22:38.5240368+02:00",
+  "UpdatedAssociateId": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 762
     }
   }
 }

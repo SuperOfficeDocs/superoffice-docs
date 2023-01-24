@@ -25,7 +25,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=222
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=587
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,41 +85,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 244,
-  "Name": "Bashirian, Zboncak and Bahringer",
-  "Tooltip": "aut",
-  "Rank": 740,
+  "ProjTypeId": 164,
+  "Name": "Lubowitz Inc and Sons",
+  "Tooltip": "illo",
+  "Rank": 391,
   "DurationUnit": "Century",
-  "ProjectDuration": 467,
+  "ProjectDuration": 877,
   "Deleted": true,
   "HasGuide": true,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 773,
-      "Name": "Nienow LLC",
-      "ToolTip": "Pariatur ad exercitationem neque.",
-      "Deleted": false,
-      "Rank": 594,
-      "Type": "eveniet",
-      "ColorBlock": 353,
-      "IconHint": "libero",
-      "Selected": false,
-      "LastChanged": "2000-10-17T17:37:18.1672422+02:00",
+      "Id": 581,
+      "Name": "Thompson-Kessler",
+      "ToolTip": "Officiis est modi.",
+      "Deleted": true,
+      "Rank": 945,
+      "Type": "cupiditate",
+      "ColorBlock": 223,
+      "IconHint": "enim",
+      "Selected": true,
+      "LastChanged": "1996-01-26T11:22:38.4303087+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "voluptas",
+      "ExtraInfo": "est",
+      "StyleHint": "illum",
       "Hidden": true,
-      "FullName": "Phoebe Alexanne Koch MD",
+      "FullName": "Mr. Ulices Haley DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 780
+          "FieldType": "System.Int32",
+          "FieldLength": 629
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldType": "System.String",
+      "FieldLength": 641
     }
   }
 }

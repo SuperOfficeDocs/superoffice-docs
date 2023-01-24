@@ -77,7 +77,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 8,
-    "Tooltip": "voluptas",
-    "CanAssign": false,
-    "Free": 571,
-    "InUse": 865,
+    "Total": 201,
+    "Tooltip": "ea",
+    "CanAssign": true,
+    "Free": 711,
+    "InUse": 614,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 489,
-    "Name": "Murazik LLC",
-    "Description": "De-engineered demand-driven contingency",
-    "PrerequisiteModuleName": "Kulas Group",
-    "SortOrder": 389,
-    "ExtraFlags": 647,
+    "ModuleLicenseId": 32,
+    "Name": "Dibbert-Sipes",
+    "Description": "Enhanced assymetric encryption",
+    "PrerequisiteModuleName": "Fahey Inc and Sons",
+    "SortOrder": 103,
+    "ExtraFlags": 90,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 128
+        "FieldType": "System.Int32",
+        "FieldLength": 222
       }
     }
   }

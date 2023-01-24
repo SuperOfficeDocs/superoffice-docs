@@ -73,22 +73,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 291,
+  "TicketMessageEntityId": 537,
   "To": [
-    "dolores",
-    "sed"
+    "id",
+    "porro"
   ],
   "Cc": [
-    "officia",
-    "ut"
+    "dicta",
+    "vel"
   ],
   "Bcc": [
-    "corrupti",
-    "ad"
+    "aliquid",
+    "animi"
   ],
-  "Subject": "error",
-  "ReplyTemplateId": 926,
-  "GdprSource": "optio"
+  "Subject": "incidunt",
+  "ReplyTemplateId": 820,
+  "GdprSource": "magni"
 }
 ```
 

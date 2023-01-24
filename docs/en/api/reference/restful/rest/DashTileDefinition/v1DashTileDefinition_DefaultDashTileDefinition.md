@@ -74,7 +74,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 154,
-  "Name": "Witting Group",
-  "Description": "Fully-configurable real-time neural-net",
-  "DefaultHeight": 403,
-  "DefaultWidth": 101,
+  "DashboardTileDefinitionId": 711,
+  "Name": "Jast, Runte and Jewess",
+  "Description": "Open-architected homogeneous core",
+  "DefaultHeight": 979,
+  "DefaultWidth": 713,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bartoletti, Gusikowski and Spinka",
-  "SelectionId": 189,
+  "EntityName": "Ernser, Hayes and Cartwright",
+  "SelectionId": 799,
   "CurrencyMode": "Base",
-  "CurrencyCode": "praesentium",
+  "CurrencyCode": "minus",
   "Measure": "Average",
-  "MeasureField": "possimus",
-  "SortBy": "aut",
-  "LayoutConfig": "tempore",
-  "SecondarySelectionId": 160,
-  "MeasureByField": "autem",
+  "MeasureField": "repellendus",
+  "SortBy": "et",
+  "LayoutConfig": "quam",
+  "SecondarySelectionId": 878,
+  "MeasureByField": "sed",
   "Usage": "Dashboard",
-  "ProviderName": "Block, Lindgren and Leuschke",
+  "ProviderName": "Stracke-Carter",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 213
+      "FieldType": "System.Int32",
+      "FieldLength": 876
     }
   }
 }

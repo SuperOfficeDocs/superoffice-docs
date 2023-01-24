@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 469,
+  "QuoteAlternativeId": 387,
   "Product": null
 }
 ```
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 301,
-  "ERPQuoteLineKey": "et",
-  "QuoteAlternativeId": 938,
-  "ERPProductKey": "dolorum",
+  "QuoteLineId": 64,
+  "ERPQuoteLineKey": "sapiente",
+  "QuoteAlternativeId": 547,
+  "ERPProductKey": "optio",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 26845.843999999997,
-  "DeliveredQuantity": 266.39,
-  "Rank": 869,
-  "Name": "Keebler-Halvorson",
-  "Description": "Synchronised mobile database",
-  "Code": "culpa",
-  "QuantityUnit": "dignissimos",
-  "PriceUnit": "nulla",
-  "ItemNumber": "1383520",
+  "Quantity": 24739.796,
+  "DeliveredQuantity": 25495.09,
+  "Rank": 898,
+  "Name": "Armstrong, Kuhlman and Price",
+  "Description": "Distributed value-added parallelism",
+  "Code": "quis",
+  "QuantityUnit": "officia",
+  "PriceUnit": "aliquam",
+  "ItemNumber": "1567736",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "necessitatibus",
-  "ProductTypeKey": "saepe",
-  "Supplier": "similique",
-  "SupplierCode": "sed",
-  "Thumbnail": "officiis",
-  "VATInfo": "a",
-  "VAT": 29105.458,
-  "UnitCost": 19361.852,
-  "UnitMinimumPrice": 23160.26,
-  "UnitListPrice": 3948.8399999999997,
+  "ProductFamilyKey": "at",
+  "ProductTypeKey": "explicabo",
+  "Supplier": "dolorem",
+  "SupplierCode": "voluptas",
+  "Thumbnail": "consequuntur",
+  "VATInfo": "minus",
+  "VAT": 814.83999999999992,
+  "UnitCost": 17779.182,
+  "UnitMinimumPrice": 30080.131999999998,
+  "UnitListPrice": 29490.94,
   "ExtraInfo": [
     {
-      "Name": "Turcotte, Beier and Turcotte",
-      "Value": "quidem",
+      "Name": "Wintheiser, Conn and Bartoletti",
+      "Value": "temporibus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 475
         }
       }
     },
     {
-      "Name": "Turcotte, Beier and Turcotte",
-      "Value": "quidem",
+      "Name": "Wintheiser, Conn and Bartoletti",
+      "Value": "temporibus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 475
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptatum",
+  "RawExtraInfo": "in",
   "IsSubscription": false,
-  "SubscriptionUnit": "quia",
-  "SubscriptionQuantity": 25369.73,
-  "SubscriptionStart": "2005-08-17T17:37:18.7672422+02:00",
-  "ERPDiscountPercent": 30913.775999999998,
-  "ERPDiscountAmount": 15936.39,
-  "DiscountPercent": 8891.158,
-  "DiscountAmount": 6173.98,
+  "SubscriptionUnit": "facilis",
+  "SubscriptionQuantity": 30352.789999999997,
+  "SubscriptionStart": "2000-02-14T11:22:38.9458129+01:00",
+  "ERPDiscountPercent": 19763.004,
+  "ERPDiscountAmount": 17117.908,
+  "DiscountPercent": 1378.96,
+  "DiscountAmount": 8044.978,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 15137.22,
-  "EarningAmount": 20233.104,
-  "SubTotal": 9054.126,
-  "TotalPrice": 17710.234,
-  "Rights": "ut",
-  "Rule": "omnis",
-  "ExtraField1": "odio",
-  "ExtraField2": "eum",
-  "ExtraField3": "quia",
-  "ExtraField4": "perferendis",
-  "ExtraField5": "explicabo",
+  "EarningPercent": 4556.836,
+  "EarningAmount": 8389.7179999999989,
+  "SubTotal": 30735.138,
+  "TotalPrice": 4268.508,
+  "Rights": "et",
+  "Rule": "magni",
+  "ExtraField1": "ea",
+  "ExtraField2": "molestiae",
+  "ExtraField3": "et",
+  "ExtraField4": "molestiae",
+  "ExtraField5": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 854
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   }
 }

@@ -80,7 +80,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 734
+  "DashboardId": 975
 }
 ```
 
@@ -91,32 +91,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Frami-Veum",
-  "Description": "Open-source multi-state firmware",
-  "OwnedByFullName": "Maryjane McGlynn",
-  "Registered": "2004-08-07T17:37:17.3882428+02:00",
+  "Name": "Luettgen Inc and Sons",
+  "Description": "Right-sized didactic challenge",
+  "OwnedByFullName": "Marcelle Cassin",
+  "Registered": "2018-06-01T11:22:37.8210741+02:00",
   "Tiles": [
     {
-      "Name": "Altenwerth Group",
+      "Name": "Kertzmann, Schoen and Padberg",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldLength": 795
         }
       }
     },
     {
-      "Name": "Altenwerth Group",
+      "Name": "Kertzmann, Schoen and Padberg",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldLength": 795
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 559
+      "FieldType": "System.Int32",
+      "FieldLength": 354
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Skiles-Cremin",
-    "ToolTip": "Qui nesciunt omnis velit error officia quam.",
+    "Id": 529,
+    "Name": "Tromp Inc and Sons",
+    "ToolTip": "Quia dicta voluptatem fuga excepturi ad.",
     "Deleted": true,
-    "Rank": 422,
-    "Type": "officia",
-    "ColorBlock": 686,
-    "IconHint": "saepe",
+    "Rank": 843,
+    "Type": "impedit",
+    "ColorBlock": 966,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "1999-04-03T17:37:40.186501+02:00",
+    "LastChanged": "2017-12-19T11:22:46.0535201+01:00",
     "ChildItems": [
       {
-        "Id": 445,
-        "Name": "Collier, Ledner and Schamberger",
-        "ToolTip": "Inventore dignissimos quibusdam nihil at natus modi.",
+        "Id": 173,
+        "Name": "Herman Inc and Sons",
+        "ToolTip": "Illum quam quas animi dicta facere aut.",
         "Deleted": false,
-        "Rank": 716,
-        "Type": "est",
-        "ColorBlock": 470,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2001-09-30T17:37:40.186501+02:00",
+        "Rank": 530,
+        "Type": "natus",
+        "ColorBlock": 454,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2018-11-08T11:22:46.0535201+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "delectus",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Oran Kozey"
+        "FullName": "Dr. Cindy Martina Strosin V"
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "fugiat",
-    "Hidden": false,
-    "FullName": "Lisa Donnelly III"
+    "ExtraInfo": "est",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Deja Fahey I"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Konopelski Inc and Sons",
-    "ToolTip": "Commodi consectetur quas nihil in.",
-    "Deleted": true,
-    "Rank": 90,
-    "Type": "et",
-    "ColorBlock": 684,
-    "IconHint": "esse",
+    "Id": 159,
+    "Name": "Murazik LLC",
+    "ToolTip": "Rerum et et quaerat animi quas minima.",
+    "Deleted": false,
+    "Rank": 440,
+    "Type": "in",
+    "ColorBlock": 192,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2007-11-04T17:37:40.1875061+01:00",
+    "LastChanged": "2012-02-27T11:22:46.0535201+01:00",
     "ChildItems": [
       {
-        "Id": 547,
-        "Name": "Von, Hessel and Schultz",
-        "ToolTip": "Qui sit dolores.",
+        "Id": 771,
+        "Name": "Berge, Reynolds and Lubowitz",
+        "ToolTip": "Aliquam quis maiores nobis sed non.",
         "Deleted": true,
-        "Rank": 350,
-        "Type": "aut",
-        "ColorBlock": 815,
-        "IconHint": "deleniti",
+        "Rank": 652,
+        "Type": "itaque",
+        "ColorBlock": 13,
+        "IconHint": "recusandae",
         "Selected": false,
-        "LastChanged": "2004-07-01T17:37:40.1875061+02:00",
+        "LastChanged": "2001-08-26T11:22:46.0535201+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "dicta",
+        "ExtraInfo": "architecto",
+        "StyleHint": "modi",
         "Hidden": true,
-        "FullName": "Bernadette Rutherford",
+        "FullName": "Miss Zora Barton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 211
+            "FieldLength": 67
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "sunt",
+    "StyleHint": "aperiam",
     "Hidden": false,
-    "FullName": "Mossie Jean Lemke IV",
+    "FullName": "Jennifer Ondricka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldType": "System.String",
+        "FieldLength": 653
       }
     }
   }

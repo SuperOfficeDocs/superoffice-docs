@@ -66,34 +66,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "distinctio",
-  "ProviderName": "Ankunding Group",
-  "StorageKey": "numquam",
+  "StorageType": "et",
+  "ProviderName": "Davis-Simonis",
+  "StorageKey": "aut",
   "Restrictions": [
     {
-      "Name": "Welch, Runolfsson and Corwin",
-      "Operator": "sint",
+      "Name": "Hoppe-Bashirian",
+      "Operator": "eum",
       "Values": [
-        "iusto",
-        "et"
+        "sit",
+        "qui"
       ],
       "DisplayValues": [
-        "nihil",
-        "perspiciatis"
+        "sit",
+        "modi"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 137,
+      "InterParenthesis": 553,
       "InterOperator": "And",
-      "UniqueHash": 556
+      "UniqueHash": 565
     }
   ]
 }

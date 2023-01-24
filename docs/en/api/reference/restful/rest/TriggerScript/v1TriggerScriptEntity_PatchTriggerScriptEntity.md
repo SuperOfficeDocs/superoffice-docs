@@ -125,12 +125,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "necessitatibus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "necessitatibus",
     "value": {}
   }
 ]
@@ -143,27 +143,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 907,
-  "Name": "Gleason, Homenick and Moen",
+  "ScreenChooserId": 146,
+  "Name": "Dach LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "modi",
-  "Source": "molestiae",
-  "Registered": "2010-06-12T17:37:39.3934278+02:00",
-  "RegisteredAssociateId": 113,
-  "Updated": "2005-10-07T17:37:39.3934278+02:00",
-  "UpdatedAssociateId": 355,
+  "Enabled": false,
+  "UniqueIdentifier": "culpa",
+  "Source": "sint",
+  "Registered": "2011-06-05T11:22:45.3661887+02:00",
+  "RegisteredAssociateId": 303,
+  "Updated": "2005-02-05T11:22:45.3661887+01:00",
+  "UpdatedAssociateId": 724,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldType": "System.String",
+      "FieldLength": 731
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

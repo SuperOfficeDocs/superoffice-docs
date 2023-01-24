@@ -92,9 +92,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 672,
-  "ListItemId": 233,
-  "ShowDeleted": true
+  "UdListDefinitionId": 615,
+  "ListItemId": 121,
+  "ShowDeleted": false
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 364,
-    "Name": "Anderson, Walker and Blick",
-    "ToolTip": "Consectetur corrupti officia mollitia asperiores.",
-    "Deleted": false,
-    "Rank": 617,
-    "Type": "rerum",
-    "ColorBlock": 87,
-    "IconHint": "aut",
+    "Id": 477,
+    "Name": "Swaniawski, Metz and Little",
+    "ToolTip": "Dolores quia ut amet perferendis explicabo necessitatibus sequi.",
+    "Deleted": true,
+    "Rank": 753,
+    "Type": "illum",
+    "ColorBlock": 457,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2012-02-24T17:37:18.2052447+01:00",
+    "LastChanged": "2018-03-27T11:22:38.4615502+02:00",
     "ChildItems": [
       {
-        "Id": 85,
-        "Name": "Oberbrunner-Vandervort",
-        "ToolTip": "Cumque exercitationem quibusdam nulla.",
+        "Id": 555,
+        "Name": "Senger, Murazik and Sawayn",
+        "ToolTip": "Dignissimos iure et officiis natus assumenda.",
         "Deleted": false,
-        "Rank": 237,
-        "Type": "expedita",
-        "ColorBlock": 47,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2002-05-22T17:37:18.2052447+02:00",
+        "Rank": 576,
+        "Type": "cumque",
+        "ColorBlock": 639,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "1998-11-14T11:22:38.4615502+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "illo",
         "Hidden": false,
-        "FullName": "Kirsten Howell",
+        "FullName": "Emie Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 9
+            "FieldType": "System.String",
+            "FieldLength": 490
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "dolor",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Estell Jast",
+    "FullName": "Brain Harry Schroeder MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 790
+        "FieldType": "System.Int32",
+        "FieldLength": 887
       }
     }
   }

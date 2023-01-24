@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 34
+  "ProjectId": 543
 }
 ```
 
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 756,
-  "Name": "Pagac-Kling",
-  "Description": "Monitored grid-enabled framework",
+  "ProjectId": 727,
+  "Name": "Corwin Inc and Sons",
+  "Description": "Switchable systematic product",
   "URL": "http://www.example.com/",
-  "Type": "aut",
-  "AssociateId": 744,
-  "AssociateFullName": "Trey O'Kon",
-  "TypeId": 516,
-  "Updated": "2021-07-08T17:37:18.6622448+02:00",
-  "StatusId": 642,
-  "Status": "magni",
-  "TextId": 556,
-  "PublishTo": "2019-10-05T17:37:18.6622448+02:00",
-  "PublishFrom": "2014-01-26T17:37:18.6622448+01:00",
+  "Type": "et",
+  "AssociateId": 958,
+  "AssociateFullName": "Brody Hermiston",
+  "TypeId": 587,
+  "Updated": "1996-03-02T11:22:38.8520826+01:00",
+  "StatusId": 923,
+  "Status": "qui",
+  "TextId": 451,
+  "PublishTo": "2006-07-09T11:22:38.8520826+02:00",
+  "PublishFrom": "2012-06-14T11:22:38.8520826+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1450999",
-  "ActiveErpLinks": 99,
+  "ProjectNumber": "491637",
+  "ActiveErpLinks": 348,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 671
     }
   }
 }

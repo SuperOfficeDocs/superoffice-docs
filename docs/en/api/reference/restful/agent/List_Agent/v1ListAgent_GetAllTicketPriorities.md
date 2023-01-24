@@ -103,7 +103,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -115,60 +115,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 110,
-    "Name": "Feeney Group",
+    "TicketPriorityId": 210,
+    "Name": "White, Kub and Schoen",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 119,
+    "SortOrder": 537,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 404,
-    "MonStart": "2005-02-23T17:37:18.1512425+01:00",
-    "MonStop": "1995-09-04T17:37:18.1512425+02:00",
-    "TueStart": "2000-05-03T17:37:18.1512425+02:00",
-    "TueStop": "2002-08-21T17:37:18.1512425+02:00",
-    "WedStart": "1995-09-12T17:37:18.1512425+02:00",
-    "WedStop": "2022-10-08T17:37:18.1512425+02:00",
-    "ThuStart": "1996-01-06T17:37:18.1512425+01:00",
-    "ThuStop": "2005-03-18T17:37:18.1512425+01:00",
-    "FriStart": "2013-10-28T17:37:18.1512425+01:00",
-    "FriStop": "2010-12-16T17:37:18.1512425+01:00",
-    "SatStart": "2001-08-29T17:37:18.1512425+02:00",
-    "SatStop": "1996-10-30T17:37:18.1512425+01:00",
-    "SunStart": "2015-05-06T17:37:18.1512425+02:00",
-    "SunStop": "2006-07-27T17:37:18.1512425+02:00",
+    "Deadline": 914,
+    "MonStart": "2018-09-12T11:22:38.4146877+02:00",
+    "MonStop": "1997-01-26T11:22:38.4146877+01:00",
+    "TueStart": "2005-01-08T11:22:38.4146877+01:00",
+    "TueStop": "2003-07-12T11:22:38.4146877+02:00",
+    "WedStart": "2021-12-16T11:22:38.4146877+01:00",
+    "WedStop": "2022-05-03T11:22:38.4146877+02:00",
+    "ThuStart": "2011-09-25T11:22:38.4146877+02:00",
+    "ThuStop": "2002-06-23T11:22:38.4146877+02:00",
+    "FriStart": "2002-02-20T11:22:38.4146877+01:00",
+    "FriStop": "2020-03-21T11:22:38.4146877+01:00",
+    "SatStart": "2010-07-01T11:22:38.4146877+02:00",
+    "SatStop": "2009-12-12T11:22:38.4146877+01:00",
+    "SunStart": "2010-09-05T11:22:38.4146877+02:00",
+    "SunStop": "2010-12-29T11:22:38.4146877+01:00",
     "NonDates": [
-      "aliquid",
-      "cumque"
+      "dolorem",
+      "tempora"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 548,
-        "AlertLevel": 21,
-        "AlertTimeout": 133,
-        "Action": 962,
-        "DelegateTo": 232,
-        "ScriptId": 236,
-        "EmailTo": "myriam_murazik@barton.biz",
-        "SmsTo": "quia",
-        "ReplyTemplateIdCustomer": 248,
-        "ReplyTemplateIdUser": 773,
-        "ReplyTemplateIdCatmast": 450,
-        "ReplyTemplateIdEmail": 456,
-        "RtiCustomerSms": 564,
-        "ReplyTemplateIdUserSms": 155,
-        "ReplyTemplateIdCatmastSms": 463,
-        "ReplyTemplateIdSms": 100,
+        "TicketAlertId": 928,
+        "AlertLevel": 462,
+        "AlertTimeout": 169,
+        "Action": 227,
+        "DelegateTo": 728,
+        "ScriptId": 431,
+        "EmailTo": "jaquan@christiansen.info",
+        "SmsTo": "amet",
+        "ReplyTemplateIdCustomer": 686,
+        "ReplyTemplateIdUser": 815,
+        "ReplyTemplateIdCatmast": 886,
+        "ReplyTemplateIdEmail": 372,
+        "RtiCustomerSms": 813,
+        "ReplyTemplateIdUserSms": 510,
+        "ReplyTemplateIdCatmastSms": 149,
+        "ReplyTemplateIdSms": 573,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 173
+            "FieldLength": 429
           }
         }
       }
@@ -178,7 +178,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldLength": 356
       }
     }
   }

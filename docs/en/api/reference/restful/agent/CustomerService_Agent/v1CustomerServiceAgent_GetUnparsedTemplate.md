@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 710,
-  "LanguageId": 437
+  "ReplyTemplateId": 219,
+  "LanguageId": 364
 }
 ```
 
@@ -95,34 +95,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 533,
-  "PlainParsed": "et",
-  "HtmlParsed": "vel",
+  "ReplyTemplateId": 759,
+  "PlainParsed": "numquam",
+  "HtmlParsed": "consequatur",
   "Attachments": [
     {
-      "AttachmentId": 6,
-      "Name": "Ruecker LLC",
-      "ContentType": "nihil",
-      "AttSize": 669,
+      "AttachmentId": 663,
+      "Name": "Balistreri-Ward",
+      "ContentType": "recusandae",
+      "AttSize": 473,
       "InlineImage": false,
-      "ContentId": "assumenda",
+      "ContentId": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 426
+          "FieldLength": 18
         }
       }
     }
   ],
-  "Subject": "repudiandae",
+  "Subject": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 369
+      "FieldLength": 264
     }
   }
 }

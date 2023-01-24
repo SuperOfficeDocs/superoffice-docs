@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 352,
-  "Name": "Torphy-Watsica",
-  "ContentType": "natus",
-  "AttSize": 835,
+  "AttachmentId": 133,
+  "Name": "Nicolas, Reynolds and Will",
+  "ContentType": "ratione",
+  "AttSize": 801,
   "InlineImage": true,
-  "ContentId": "et",
+  "ContentId": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldType": "System.String",
+      "FieldLength": 980
     }
   }
 }

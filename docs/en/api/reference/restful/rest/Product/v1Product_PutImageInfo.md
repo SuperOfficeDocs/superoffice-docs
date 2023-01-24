@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 890,
-  "BlobSize": 38,
-  "Description": "Persevering impactful paradigm",
-  "ExtraInfo": "ut",
-  "IsEncrypted": true,
+  "BlobId": 21,
+  "BlobSize": 69,
+  "Description": "Enterprise-wide static hub",
+  "ExtraInfo": "sequi",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "cupiditate",
-  "OriginalSize": 900,
-  "CreatedDate": "2003-09-14T17:37:39.4794003+02:00",
-  "UpdatedDate": "2001-05-30T17:37:39.4794003+02:00",
+  "MimeType": "sed",
+  "OriginalSize": 684,
+  "CreatedDate": "2011-11-20T11:22:45.4442386+01:00",
+  "UpdatedDate": "2004-03-03T11:22:45.4442386+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eius"
+  "ConceptualType": "sequi"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 248,
-  "BlobSize": 345,
-  "Description": "Seamless zero tolerance circuit",
-  "ExtraInfo": "temporibus",
+  "BlobId": 595,
+  "BlobSize": 471,
+  "Description": "Future-proofed human-resource parallelism",
+  "ExtraInfo": "voluptatibus",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "velit",
-  "OriginalSize": 363,
-  "CreatedDate": "2001-08-19T17:37:39.4804007+02:00",
-  "UpdatedDate": "2018-01-07T17:37:39.4804007+01:00",
+  "MimeType": "et",
+  "OriginalSize": 446,
+  "CreatedDate": "2007-09-03T11:22:45.4442386+02:00",
+  "UpdatedDate": "2018-10-17T11:22:45.4442386+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "unde",
+  "ConceptualType": "accusamus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 989
     }
   }
 }

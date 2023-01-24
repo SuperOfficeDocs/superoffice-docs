@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 573
+  "DepartmentId": 602
 }
 ```
 
@@ -129,52 +129,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "provident",
-    "PersonId": 766,
-    "Mrmrs": "repellat",
-    "Firstname": "Veronica",
-    "Lastname": "VonRueden",
-    "MiddleName": "Lueilwitz LLC",
-    "Title": "est",
-    "Description": "Public-key analyzing budgetary management",
-    "Email": "joshuah@quigleybecker.biz",
-    "FullName": "Lulu Rau",
-    "DirectPhone": "(157)349-1672 x124",
-    "FormalName": "Kovacek, Littel and Romaguera",
-    "CountryId": 276,
-    "ContactId": 143,
-    "ContactName": "Ziemann Group",
-    "Retired": 48,
-    "Rank": 571,
-    "ActiveInterests": 574,
+    "Position": "sed",
+    "PersonId": 752,
+    "Mrmrs": "vel",
+    "Firstname": "Prince",
+    "Lastname": "Corkery",
+    "MiddleName": "Beatty, Heaney and Donnelly",
+    "Title": "ut",
+    "Description": "Self-enabling intangible budgetary management",
+    "Email": "max@goyette.ca",
+    "FullName": "Amiya Hahn",
+    "DirectPhone": "233-203-1846",
+    "FormalName": "Boyle-Schulist",
+    "CountryId": 799,
+    "ContactId": 142,
+    "ContactName": "Bernhard, Buckridge and Mante",
+    "Retired": 425,
+    "Rank": 755,
+    "ActiveInterests": 632,
     "ContactDepartment": "",
-    "ContactCountryId": 179,
-    "ContactOrgNr": "1147629",
-    "FaxPhone": "725-448-8814 x283",
-    "MobilePhone": "474.383.5930",
-    "ContactPhone": "1-949-799-1777 x386",
-    "AssociateName": "Halvorson, Upton and Heaney",
-    "AssociateId": 144,
+    "ContactCountryId": 862,
+    "ContactOrgNr": "918411",
+    "FaxPhone": "378.949.3807 x832",
+    "MobilePhone": "1-535-513-3697 x81748",
+    "ContactPhone": "1-364-715-6825",
+    "AssociateName": "Davis-Carter",
+    "AssociateId": 562,
     "UsePersonAddress": false,
-    "ContactFax": "sunt",
-    "Kanafname": "cupiditate",
-    "Kanalname": "eum",
-    "Post1": "non",
-    "Post2": "ea",
+    "ContactFax": "et",
+    "Kanafname": "mollitia",
+    "Kanalname": "nulla",
+    "Post1": "consequatur",
+    "Post2": "eius",
     "Post3": "ullam",
-    "EmailName": "zoe@corkery.info",
-    "ContactFullName": "Pearlie Torphy",
-    "ActiveErpLinks": 535,
-    "TicketPriorityId": 797,
-    "SupportLanguageId": 765,
-    "SupportAssociateId": 989,
+    "EmailName": "lafayette@douglasjohnston.uk",
+    "ContactFullName": "Laurine Heathcote",
+    "ActiveErpLinks": 64,
+    "TicketPriorityId": 56,
+    "SupportLanguageId": 536,
+    "SupportAssociateId": 587,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldLength": 561
       }
     }
   }

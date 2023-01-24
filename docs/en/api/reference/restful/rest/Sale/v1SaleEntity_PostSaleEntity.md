@@ -161,7 +161,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "laboriosam",
+  "SaleText": "natus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -180,90 +180,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1998-05-04T17:37:39.0903117+02:00",
-  "Amount": 22276.471999999998,
-  "SaleId": 112,
-  "Earning": 1106.302,
-  "EarningPercent": 25291.379999999997,
-  "Heading": "architecto",
-  "Number": "731094",
-  "Probability": 613,
-  "CreatedDate": "2013-06-04T17:37:39.0903117+02:00",
-  "UpdatedDate": "2012-10-10T17:37:39.0903117+02:00",
+  "Saledate": "2007-11-24T11:22:45.1162305+01:00",
+  "Amount": 31173.897999999997,
+  "SaleId": 166,
+  "Earning": 31261.649999999998,
+  "EarningPercent": 5493.902,
+  "Heading": "et",
+  "Number": "389292",
+  "Probability": 669,
+  "CreatedDate": "2004-03-07T11:22:45.1162305+01:00",
+  "UpdatedDate": "2004-07-05T11:22:45.1162305+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 534,
+  "ActiveLinks": 608,
   "Links": [
     {
-      "EntityName": "Flatley LLC",
-      "Id": 111,
-      "Description": "Organized multimedia moderator",
-      "ExtraInfo": "vel",
-      "LinkId": 648
+      "EntityName": "Mante, Olson and McDermott",
+      "Id": 399,
+      "Description": "Focused global project",
+      "ExtraInfo": "exercitationem",
+      "LinkId": 842
     },
     {
-      "EntityName": "Flatley LLC",
-      "Id": 111,
-      "Description": "Organized multimedia moderator",
-      "ExtraInfo": "vel",
-      "LinkId": 648
+      "EntityName": "Mante, Olson and McDermott",
+      "Id": 399,
+      "Description": "Focused global project",
+      "ExtraInfo": "exercitationem",
+      "LinkId": 842
     }
   ],
-  "NextDueDate": "2018-04-15T17:37:39.0903117+02:00",
-  "Postit": "illum",
+  "NextDueDate": "2010-08-27T11:22:45.1162305+02:00",
+  "Postit": "eum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2021-06-03T17:37:39.0903117+02:00",
+  "ReopenDate": "2000-01-29T11:22:45.1162305+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Reichert Inc and Sons",
-      "Comment": "vitae",
-      "StakeholderRoleId": 316,
-      "CountryId": 788,
-      "PersonId": 641,
-      "EmailDescription": "emilia@reynolds.uk",
-      "EmailId": 83,
-      "EmailAddress": "eldridge@jones.com",
-      "PhoneId": 173,
-      "ContactName": "Pfeffer LLC",
-      "ContactId": 954,
-      "SaleId": 434,
-      "Mrmrs": "numquam",
-      "Firstname": "Sophia",
-      "MiddleName": "Dickinson-Boyer",
-      "Lastname": "Thiel",
-      "SaleStakeholderId": 302,
-      "Rank": 30,
-      "Phone": "672-232-2484 x34221"
+      "StakeholderRoleName": "Williamson, Hyatt and Davis",
+      "Comment": "sint",
+      "StakeholderRoleId": 645,
+      "CountryId": 756,
+      "PersonId": 359,
+      "EmailDescription": "maurice@wisozk.name",
+      "EmailId": 56,
+      "EmailAddress": "reggie@bruen.info",
+      "PhoneId": 603,
+      "ContactName": "Torphy-Wilkinson",
+      "ContactId": 631,
+      "SaleId": 685,
+      "Mrmrs": "quia",
+      "Firstname": "Norris",
+      "MiddleName": "Reynolds-Sporer",
+      "Lastname": "Moen",
+      "SaleStakeholderId": 211,
+      "Rank": 550,
+      "Phone": "(068)881-6603 x661"
     }
   ],
-  "ActiveErpLinks": 83,
+  "ActiveErpLinks": 58,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Samantha Mohr",
-    "SuperOffice:2": "Catalina Jewess"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "907441922"
   },
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "hic",
+    "ExtraFields2": "illum"
   },
   "CustomFields": {
-    "CustomFields1": "assumenda",
-    "CustomFields2": "quia"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "quasi"
   },
-  "PublishEventDate": "2006-01-03T17:37:39.0913112+01:00",
-  "PublishTo": "2008-07-04T17:37:39.0913112+02:00",
-  "PublishFrom": "2013-12-25T17:37:39.0913112+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1999-02-12T11:22:45.1162305+01:00",
+  "PublishTo": "2008-09-12T11:22:45.1162305+02:00",
+  "PublishFrom": "2012-10-06T11:22:45.1162305+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 309,
+      "VisibleId": 169,
       "Visibility": "All",
-      "DisplayValue": "aperiam"
+      "DisplayValue": "voluptatem"
     },
     {
-      "VisibleId": 309,
+      "VisibleId": 169,
       "Visibility": "All",
-      "DisplayValue": "aperiam"
+      "DisplayValue": "voluptatem"
     }
   ]
 }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "praesentium",
+  "SaleText": "voluptatem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -291,113 +291,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2004-08-05T17:37:39.1023112+02:00",
-  "Amount": 3908.098,
-  "SaleId": 540,
-  "Earning": 17456.38,
-  "EarningPercent": 15497.63,
-  "Heading": "et",
-  "Number": "456757",
-  "Probability": 24,
-  "CreatedDate": "2015-08-30T17:37:39.1023112+02:00",
-  "UpdatedDate": "2009-03-11T17:37:39.1023112+01:00",
+  "Saledate": "1999-05-26T11:22:45.1162305+02:00",
+  "Amount": 2538.54,
+  "SaleId": 250,
+  "Earning": 19741.066,
+  "EarningPercent": 20681.266,
+  "Heading": "ipsum",
+  "Number": "265654",
+  "Probability": 723,
+  "CreatedDate": "1995-10-17T11:22:45.1162305+02:00",
+  "UpdatedDate": "2021-02-15T11:22:45.1162305+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 215,
+  "ActiveLinks": 334,
   "Links": [
     {
-      "EntityName": "Moen Group",
-      "Id": 836,
-      "Description": "Open-architected needs-based ability",
-      "ExtraInfo": "sint",
-      "LinkId": 373,
+      "EntityName": "Towne, Pouros and Kuhn",
+      "Id": 386,
+      "Description": "Fundamental dynamic alliance",
+      "ExtraInfo": "ipsa",
+      "LinkId": 917,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 708
+          "FieldType": "System.String",
+          "FieldLength": 30
         }
       }
     }
   ],
-  "NextDueDate": "2005-05-29T17:37:39.1033076+02:00",
-  "Postit": "voluptatem",
+  "NextDueDate": "2019-01-19T11:22:45.1162305+01:00",
+  "Postit": "inventore",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-12-01T17:37:39.1033076+01:00",
+  "ReopenDate": "2002-11-24T11:22:45.1162305+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Shields-Botsford",
-      "Comment": "voluptatem",
-      "StakeholderRoleId": 251,
-      "CountryId": 180,
-      "PersonId": 139,
-      "EmailDescription": "shaniya.schuppe@runolfsdottir.ca",
-      "EmailId": 322,
-      "EmailAddress": "jamel_streich@mante.biz",
-      "PhoneId": 599,
-      "ContactName": "Haley, Upton and Klein",
-      "ContactId": 511,
-      "SaleId": 100,
-      "Mrmrs": "voluptatem",
-      "Firstname": "Raphael",
-      "MiddleName": "Rau-Fahey",
-      "Lastname": "Muller",
-      "SaleStakeholderId": 661,
-      "Rank": 957,
-      "Phone": "(074)901-3430",
+      "StakeholderRoleName": "Flatley, Bayer and Waters",
+      "Comment": "maiores",
+      "StakeholderRoleId": 78,
+      "CountryId": 6,
+      "PersonId": 8,
+      "EmailDescription": "keyshawn.kemmer@kemmer.us",
+      "EmailId": 911,
+      "EmailAddress": "dorothea.luettgen@veumheller.info",
+      "PhoneId": 300,
+      "ContactName": "Wisoky, Daugherty and Ullrich",
+      "ContactId": 978,
+      "SaleId": 768,
+      "Mrmrs": "nobis",
+      "Firstname": "Della",
+      "MiddleName": "Leannon LLC",
+      "Lastname": "Medhurst",
+      "SaleStakeholderId": 626,
+      "Rank": 522,
+      "Phone": "1-382-091-2879 x484",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldType": "System.String",
+          "FieldLength": 127
         }
       }
     }
   ],
-  "ActiveErpLinks": 993,
+  "ActiveErpLinks": 177,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "159145442"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "89149466"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "labore",
+    "ExtraFields2": "delectus"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "illo"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "ea"
   },
-  "PublishEventDate": "2021-08-09T17:37:39.1043044+02:00",
-  "PublishTo": "2005-04-13T17:37:39.1043044+02:00",
-  "PublishFrom": "2005-11-02T17:37:39.1043044+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-03-06T11:22:45.1162305+01:00",
+  "PublishTo": "2011-06-04T11:22:45.1162305+02:00",
+  "PublishFrom": "2006-09-28T11:22:45.1162305+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 690,
+      "VisibleId": 386,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 48
+          "FieldType": "System.String",
+          "FieldLength": 788
         }
       }
     },
     {
-      "VisibleId": 690,
+      "VisibleId": 386,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 48
+          "FieldType": "System.String",
+          "FieldLength": 788
         }
       }
     }
@@ -406,8 +406,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 881
+      "FieldType": "System.Int32",
+      "FieldLength": 816
     }
   },
   "_Links": {

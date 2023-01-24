@@ -77,11 +77,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 160,
-  "UserName": "Sipes Inc and Sons",
-  "Password": "qui",
+  "AssociateId": 637,
+  "UserName": "Bradtke, Powlowski and Kozey",
+  "Password": "et",
   "IsActive": true,
-  "RoleId": 179,
+  "RoleId": 355,
   "ExternalUserInfoModification": "Active"
 }
 ```

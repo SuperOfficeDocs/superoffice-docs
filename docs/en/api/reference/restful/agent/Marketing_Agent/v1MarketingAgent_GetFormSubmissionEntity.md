@@ -25,7 +25,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=375
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=503
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 328,
-  "FormId": 589,
-  "WhenSubmitted": "1999-11-26T17:37:18.3212412+01:00",
-  "ContactId": 122,
-  "PersonId": 924,
-  "EmailAddress": "clarabelle_braun@schmeler.com",
-  "ResponseShipmentAddrId": 34,
-  "Response": "architecto",
+  "FormSubmissionId": 744,
+  "FormId": 476,
+  "WhenSubmitted": "2015-07-29T11:22:38.5552678+02:00",
+  "ContactId": 816,
+  "PersonId": 964,
+  "EmailAddress": "ryann@rennerjacobson.ca",
+  "ResponseShipmentAddrId": 873,
+  "Response": "distinctio",
   "Status": "EmailVerification",
-  "ProcessingLog": "aspernatur",
+  "ProcessingLog": "corporis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 262
     }
   }
 }

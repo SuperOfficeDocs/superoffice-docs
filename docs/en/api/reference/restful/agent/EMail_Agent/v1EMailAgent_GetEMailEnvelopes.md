@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    611,
-    828
+    378,
+    742
   ]
 }
 ```
@@ -104,45 +104,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 67,
-    "MessageId": "id",
-    "Subject": "commodi",
+    "ServerId": 537,
+    "MessageId": "dignissimos",
+    "Subject": "molestiae",
     "From": null,
     "To": [
       {
-        "ContactId": 596,
-        "ContactName": "Hane, Roob and Sporer",
-        "PersonId": 277,
-        "PersonName": "Conn Inc and Sons",
-        "AssociateId": 965,
-        "Address": "inventore",
-        "EmailId": 688,
+        "ContactId": 576,
+        "ContactName": "Glover, Morar and Hauck",
+        "PersonId": 136,
+        "PersonName": "Gibson Group",
+        "AssociateId": 635,
+        "Address": "culpa",
+        "EmailId": 129,
         "DuplicatePersonIds": [
-          82,
-          190
+          52,
+          184
         ],
-        "Name": "Russel, Blick and Batz",
+        "Name": "Kovacek, Goodwin and Mertz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 397
+            "FieldType": "System.Int32",
+            "FieldLength": 924
           }
         }
       }
     ],
-    "Sent": "1999-04-11T17:37:17.9852431+02:00",
+    "Sent": "2007-07-02T11:22:38.2740943+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 658,
+    "Size": 203,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldType": "System.String",
+        "FieldLength": 293
       }
     }
   }

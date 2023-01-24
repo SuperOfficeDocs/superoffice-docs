@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 828,
-  "Name": "Orn LLC",
-  "Tooltip": "accusamus",
+  "Id": 98,
+  "Name": "Swaniawski, Kulas and Donnelly",
+  "Tooltip": "vel",
   "Deleted": false,
-  "UdListDefinitionId": 675,
-  "Rank": 752,
+  "UdListDefinitionId": 190,
+  "Rank": 723,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 756
+      "FieldType": "System.Int32",
+      "FieldLength": 29
     }
   }
 }

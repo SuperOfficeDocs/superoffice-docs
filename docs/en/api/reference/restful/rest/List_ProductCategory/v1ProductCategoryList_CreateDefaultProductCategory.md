@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 218,
-  "Name": "Kling-Lubowitz",
-  "Tooltip": "est",
+  "Id": 987,
+  "Name": "Bauch, Kozey and Maggio",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "UdListDefinitionId": 876,
-  "Rank": 952,
+  "UdListDefinitionId": 716,
+  "Rank": 620,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 920
     }
   }
 }

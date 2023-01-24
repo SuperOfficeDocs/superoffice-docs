@@ -92,7 +92,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,33 +102,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 790,
-  "PlainMessage": "est",
-  "HtmlMessage": "impedit",
-  "SmsMessage": "ut",
-  "Description": "Assimilated optimizing firmware",
-  "Subject": "voluptatibus",
-  "FolderId": 89,
-  "HeaderField": "exercitationem",
-  "Design": "nam",
+  "ShipmentMessageId": 186,
+  "PlainMessage": "illum",
+  "HtmlMessage": "commodi",
+  "SmsMessage": "et",
+  "Description": "Synchronised transitional frame",
+  "Subject": "et",
+  "FolderId": 526,
+  "HeaderField": "ut",
+  "Design": "dolorum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Persevering explicit algorithm",
-  "AccessKey": "deleniti",
-  "DocumentMessage": 579,
-  "Registered": "2001-03-13T17:37:39.2273036+01:00",
-  "RegisteredAssociateId": 566,
-  "Updated": "2003-04-14T17:37:39.2273036+02:00",
-  "UpdatedAssociateId": 348,
-  "UpdatedCount": 734,
+  "InlineImages": false,
+  "LongDescription": "Fully-configurable systematic parallelism",
+  "AccessKey": "ipsa",
+  "DocumentMessage": 899,
+  "Registered": "2011-05-28T11:22:45.225579+02:00",
+  "RegisteredAssociateId": 282,
+  "Updated": "2015-07-02T11:22:45.225579+02:00",
+  "UpdatedAssociateId": 391,
+  "UpdatedCount": 564,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 991
     }
   },
   "_Links": {

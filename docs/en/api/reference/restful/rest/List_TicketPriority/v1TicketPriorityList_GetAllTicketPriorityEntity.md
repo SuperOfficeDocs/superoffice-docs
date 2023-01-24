@@ -93,7 +93,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,60 +104,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 479,
-    "Name": "Becker, Howe and Heaney",
+    "TicketPriorityId": 429,
+    "Name": "Schmitt, Marks and Bradtke",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 691,
+    "SortOrder": 902,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 913,
-    "MonStart": "2019-08-24T17:37:40.4145006+02:00",
-    "MonStop": "1996-09-30T17:37:40.4145006+02:00",
-    "TueStart": "2002-03-19T17:37:40.4145006+01:00",
-    "TueStop": "2006-07-31T17:37:40.4145006+02:00",
-    "WedStart": "2009-07-14T17:37:40.4145006+02:00",
-    "WedStop": "1996-11-27T17:37:40.4145006+01:00",
-    "ThuStart": "2004-12-31T17:37:40.4145006+01:00",
-    "ThuStop": "1996-10-01T17:37:40.4155002+02:00",
-    "FriStart": "2014-07-20T17:37:40.4155002+02:00",
-    "FriStop": "2021-08-11T17:37:40.4155002+02:00",
-    "SatStart": "2013-06-17T17:37:40.4155002+02:00",
-    "SatStop": "1996-12-10T17:37:40.4155002+01:00",
-    "SunStart": "2020-06-10T17:37:40.4155002+02:00",
-    "SunStop": "1998-04-06T17:37:40.4155002+02:00",
+    "Deadline": 7,
+    "MonStart": "2019-07-09T11:22:46.2409792+02:00",
+    "MonStop": "2018-02-15T11:22:46.2409792+01:00",
+    "TueStart": "2013-12-04T11:22:46.2409792+01:00",
+    "TueStop": "2011-01-13T11:22:46.2409792+01:00",
+    "WedStart": "2001-09-04T11:22:46.2409792+02:00",
+    "WedStop": "2007-09-25T11:22:46.2409792+02:00",
+    "ThuStart": "1996-10-31T11:22:46.2409792+01:00",
+    "ThuStop": "2005-05-15T11:22:46.2409792+02:00",
+    "FriStart": "2018-03-24T11:22:46.2409792+01:00",
+    "FriStop": "2004-08-05T11:22:46.2409792+02:00",
+    "SatStart": "2007-11-19T11:22:46.2409792+01:00",
+    "SatStop": "2014-09-10T11:22:46.2409792+02:00",
+    "SunStart": "2008-10-19T11:22:46.2409792+02:00",
+    "SunStop": "2012-09-23T11:22:46.2409792+02:00",
     "NonDates": [
-      "sed",
-      "ea"
+      "omnis",
+      "recusandae"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 271,
-        "AlertLevel": 713,
-        "AlertTimeout": 339,
-        "Action": 889,
-        "DelegateTo": 995,
-        "ScriptId": 568,
-        "EmailTo": "mathew@roobjones.ca",
-        "SmsTo": "ex",
-        "ReplyTemplateIdCustomer": 621,
-        "ReplyTemplateIdUser": 402,
-        "ReplyTemplateIdCatmast": 661,
-        "ReplyTemplateIdEmail": 445,
-        "RtiCustomerSms": 792,
-        "ReplyTemplateIdUserSms": 324,
-        "ReplyTemplateIdCatmastSms": 858,
-        "ReplyTemplateIdSms": 88,
+        "TicketAlertId": 1002,
+        "AlertLevel": 27,
+        "AlertTimeout": 439,
+        "Action": 344,
+        "DelegateTo": 427,
+        "ScriptId": 77,
+        "EmailTo": "ernesto.yundt@feil.co.uk",
+        "SmsTo": "eum",
+        "ReplyTemplateIdCustomer": 502,
+        "ReplyTemplateIdUser": 521,
+        "ReplyTemplateIdCatmast": 691,
+        "ReplyTemplateIdEmail": 497,
+        "RtiCustomerSms": 32,
+        "ReplyTemplateIdUserSms": 584,
+        "ReplyTemplateIdCatmastSms": 432,
+        "ReplyTemplateIdSms": 870,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 312
+            "FieldLength": 30
           }
         }
       }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldLength": 359
       }
     }
   }

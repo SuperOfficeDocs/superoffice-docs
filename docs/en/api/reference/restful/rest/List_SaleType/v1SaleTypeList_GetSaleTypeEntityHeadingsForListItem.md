@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 712,
-    "Name": "Boehm LLC",
-    "ToolTip": "Eum corrupti aut.",
+    "Id": 408,
+    "Name": "Bergnaum-Schamberger",
+    "ToolTip": "Et dolor aut blanditiis magni voluptatum.",
     "Deleted": true,
-    "Rank": 817,
-    "Type": "eius",
-    "ColorBlock": 141,
-    "IconHint": "hic",
+    "Rank": 81,
+    "Type": "perferendis",
+    "ColorBlock": 869,
+    "IconHint": "non",
     "Selected": true,
-    "LastChanged": "2005-10-18T17:37:40.3455086+02:00",
+    "LastChanged": "2018-10-31T11:22:46.1784934+01:00",
     "ChildItems": [
       {
-        "Id": 2,
-        "Name": "Kessler Inc and Sons",
-        "ToolTip": "Odit ipsa dolor.",
+        "Id": 105,
+        "Name": "Mills-Ruecker",
+        "ToolTip": "Eaque deserunt est temporibus minus nesciunt aut.",
         "Deleted": false,
-        "Rank": 653,
-        "Type": "nemo",
-        "ColorBlock": 71,
-        "IconHint": "repellendus",
+        "Rank": 718,
+        "Type": "facere",
+        "ColorBlock": 504,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2004-11-24T17:37:40.3465061+01:00",
+        "LastChanged": "1998-12-13T11:22:46.1784934+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Maryse Murphy DVM",
+        "FullName": "Elena Howell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 956
+            "FieldType": "System.String",
+            "FieldLength": 46
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "dolorem",
-    "Hidden": true,
-    "FullName": "Mrs. Chelsea Hackett III",
+    "ExtraInfo": "possimus",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Jacey Schowalter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 821
+        "FieldType": "System.Int32",
+        "FieldLength": 951
       }
     }
   }

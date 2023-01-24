@@ -23,6 +23,15 @@ so.topic: reference
 * [Task menu group][6]
 * [URL lencoding][7]
 
+## New web service methods
+
+* IListAgent DeleteAppTaskMenus
+* IListAgent GetAppTaskMenus
+* IListAgent GetTaskMenuByProgId
+* IPersonAgent CreateDefaultPersonImage
+* IPersonAgent GetPersonImages
+* IUserDefinedFieldInfoAgent ClearCaches
+
 ## All API changes
 
 * [Version 10.2.1][1]

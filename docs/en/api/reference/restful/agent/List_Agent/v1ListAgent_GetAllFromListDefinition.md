@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 647,
+  "UdListDefinitionId": 733,
   "IncludeDeleted": false
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 35,
-    "Name": "Olson, Dare and Howe",
-    "Tooltip": "aspernatur",
+    "Id": 917,
+    "Name": "Will, Johnston and Connelly",
+    "Tooltip": "similique",
     "Deleted": false,
-    "UdListDefinitionId": 934,
-    "Rank": 283,
+    "UdListDefinitionId": 462,
+    "Rank": 985,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 365
+        "FieldType": "System.Int32",
+        "FieldLength": 511
       }
     }
   }

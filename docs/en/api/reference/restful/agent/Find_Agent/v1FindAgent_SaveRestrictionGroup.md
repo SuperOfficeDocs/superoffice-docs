@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "omnis",
-  "ProviderName": "Blick-Rath",
-  "StorageKey": "minus",
+  "StorageType": "est",
+  "ProviderName": "Kuhn-Lind",
+  "StorageKey": "reiciendis",
   "RestrictionGroup": null,
-  "Context": "explicabo"
+  "Context": "similique"
 }
 ```
 

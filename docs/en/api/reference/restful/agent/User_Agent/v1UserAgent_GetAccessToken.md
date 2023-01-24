@@ -74,8 +74,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppToken": "voluptatem",
-  "IncludeCsSession": true
+  "AppToken": "et",
+  "IncludeCsSession": false
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"earum"
+"rerum"
 ```

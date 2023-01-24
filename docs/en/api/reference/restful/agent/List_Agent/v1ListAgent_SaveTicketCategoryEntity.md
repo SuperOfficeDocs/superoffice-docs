@@ -96,33 +96,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 853,
-  "ParentId": 24,
-  "Name": "Lebsack, Cartwright and Hoppe",
-  "Fullname": "pariatur",
-  "CategoryMaster": 396,
+  "TicketCategoryId": 215,
+  "ParentId": 418,
+  "Name": "Romaguera Group",
+  "Fullname": "enim",
+  "CategoryMaster": 424,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Reinger-Beahan",
+  "ExternalName": "Howe, Kemmer and Hahn",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 394,
-  "ReplyTemplate": 858,
-  "NotificationEmail": "harrison_morissette@mitchell.us",
+  "AssignmentLag": 89,
+  "ReplyTemplate": 22,
+  "NotificationEmail": "berniece@bahringer.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 555,
+  "EffectiveReplyTemplateId": 151,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "natus"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "occaecati"
+    "CustomFields1": "et",
+    "CustomFields2": "expedita"
   }
 }
 ```
@@ -134,36 +134,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 587,
-  "ParentId": 717,
-  "Name": "Schiller Inc and Sons",
-  "Fullname": "aut",
-  "CategoryMaster": 998,
+  "TicketCategoryId": 185,
+  "ParentId": 441,
+  "Name": "Casper, White and Romaguera",
+  "Fullname": "eum",
+  "CategoryMaster": 683,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hyatt-Brekke",
+  "ExternalName": "Cole-Legros",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 577,
-  "ReplyTemplate": 685,
-  "NotificationEmail": "aracely@luettgen.co.uk",
+  "AssignmentLag": 697,
+  "ReplyTemplate": 823,
+  "NotificationEmail": "lauryn@greenfelder.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 479,
+  "EffectiveReplyTemplateId": 214,
   "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "culpa",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "et",
+    "CustomFields2": "deserunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 566
     }
   }
 }

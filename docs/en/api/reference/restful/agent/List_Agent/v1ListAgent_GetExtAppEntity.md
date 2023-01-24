@@ -25,7 +25,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=84
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=496
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 689,
-  "Name": "Wunsch-O'Connell",
-  "Tooltip": "repellat",
-  "Deleted": true,
-  "Rank": 30,
-  "Filename": "dicta",
-  "Parameters": "eligendi",
-  "Workdir": "eos",
+  "ExtAppId": 427,
+  "Name": "Purdy Group",
+  "Tooltip": "autem",
+  "Deleted": false,
+  "Rank": 238,
+  "Filename": "beatae",
+  "Parameters": "et",
+  "Workdir": "et",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 815,
-  "WaitToFinish": false,
+  "Icon": 747,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "occaecati",
+  "Path": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldLength": 729
     }
   }
 }

@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 776,
-  "ModuleOwner": "est",
+  "AssociateId": 599,
+  "ModuleOwner": "voluptatem",
   "ModuleLicenseNames": [
-    "Hoppe, Dare and Weissnat",
-    "Greenfelder, Macejkovic and Mueller"
+    "Harber, Kiehn and Pacocha",
+    "Schuster Group"
   ]
 }
 ```
@@ -108,26 +108,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 118,
-    "Tooltip": "exercitationem",
+    "Unrestricted": false,
+    "Total": 14,
+    "Tooltip": "sapiente",
     "CanAssign": false,
-    "Free": 267,
-    "InUse": 46,
+    "Free": 691,
+    "InUse": 791,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 321,
-    "Name": "Turner-Flatley",
-    "Description": "Diverse next generation adapter",
-    "PrerequisiteModuleName": "Satterfield Group",
-    "SortOrder": 691,
-    "ExtraFlags": 50,
+    "ModuleLicenseId": 705,
+    "Name": "Gleichner, Mayert and Johnston",
+    "Description": "Networked secondary standardization",
+    "PrerequisiteModuleName": "Schmidt, Daniel and Bergnaum",
+    "SortOrder": 718,
+    "ExtraFlags": 743,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldLength": 306
       }
     }
   }

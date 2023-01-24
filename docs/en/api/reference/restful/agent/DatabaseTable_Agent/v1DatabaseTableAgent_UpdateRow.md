@@ -65,15 +65,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gerhold, Pacocha and Feil",
-  "Id": 782,
+  "TableName": "Wolff, Ankunding and Carroll",
+  "Id": 340,
   "Values": {
-    "Values1": "error",
-    "Values2": "sit"
+    "Values1": "aspernatur",
+    "Values2": "molestias"
   }
 }
 ```

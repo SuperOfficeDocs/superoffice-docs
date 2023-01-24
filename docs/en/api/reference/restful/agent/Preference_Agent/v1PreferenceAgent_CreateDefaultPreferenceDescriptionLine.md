@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 969,
-  "PrefDescId": 956,
-  "PrefValue": "minima",
-  "PrefShowValue": "error",
-  "Description": "Networked systemic function",
-  "IsBuiltin": true,
+  "PrefDescLineId": 365,
+  "PrefDescId": 406,
+  "PrefValue": "molestiae",
+  "PrefShowValue": "labore",
+  "Description": "Digitized 6th generation open system",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 441
     }
   }
 }

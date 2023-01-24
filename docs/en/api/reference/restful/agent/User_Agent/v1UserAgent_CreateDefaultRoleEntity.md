@@ -80,24 +80,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 178,
-  "Name": "Schaefer, Stracke and Barrows",
-  "Tooltip": "voluptatem",
+  "RoleId": 66,
+  "Name": "Ledner Group",
+  "Tooltip": "asperiores",
   "RoleType": "Anonymous",
-  "Deleted": 776,
-  "Rank": 90,
-  "Created": "2007-03-21T17:37:19.5149767+01:00",
-  "UseCategories": 769,
+  "Deleted": 31,
+  "Rank": 946,
+  "Created": "2010-05-05T11:22:39.5862974+02:00",
+  "UseCategories": 779,
   "CreatedBy": null,
-  "Updated": "2002-08-30T17:37:19.5159769+02:00",
+  "Updated": "2001-05-12T11:22:39.5862974+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldType": "System.String",
+      "FieldLength": 753
     }
   }
 }

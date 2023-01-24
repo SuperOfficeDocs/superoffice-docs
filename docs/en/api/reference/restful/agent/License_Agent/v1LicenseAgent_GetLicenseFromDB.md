@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kub-Terry"
+  "OwnerName": "Smith Group"
 }
 ```
 
@@ -91,21 +91,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 122,
-      "NumberOfLicensesFree": 311,
-      "NumberOfLicensesAdded": 641,
-      "NumberOfLicensesNewTotal": 879,
-      "NumberOfLicensesNewFree": 838,
-      "NumberOfLicensesTotal": 586
+      "NumberOfLicensesInUse": 374,
+      "NumberOfLicensesFree": 258,
+      "NumberOfLicensesAdded": 352,
+      "NumberOfLicensesNewTotal": 871,
+      "NumberOfLicensesNewFree": 325,
+      "NumberOfLicensesTotal": 720
     }
   ],
-  "AccumulatedNextCheckDate": "2015-05-27T17:37:18.1272419+02:00"
+  "AccumulatedNextCheckDate": "2006-12-05T11:22:38.3990648+01:00"
 }
 ```

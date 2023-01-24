@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 392,
-  "Name": "Fadel-Heller",
-  "CurrencyId": 654,
-  "EnglishName": "Hamill, Johns and Torp",
+  "CountryId": 703,
+  "Name": "McKenzie Inc and Sons",
+  "CurrencyId": 389,
+  "EnglishName": "Feeney Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Optional radical forecast",
-  "OrgNrText": "879849",
-  "InterAreaPrefix": "et",
-  "DialInPrefix": "pariatur",
-  "ZipPrefix": "dolorem",
-  "DomainName": "Farrell Group",
-  "AddressLayoutId": 141,
-  "DomesticAddressLayoutId": 62,
-  "ForeignAddressLayoutId": 341,
-  "Rank": 336,
-  "Tooltip": "qui",
+  "ImageDescription": "Cross-group actuating productivity",
+  "OrgNrText": "925528",
+  "InterAreaPrefix": "ducimus",
+  "DialInPrefix": "cumque",
+  "ZipPrefix": "sed",
+  "DomainName": "Beatty LLC",
+  "AddressLayoutId": 22,
+  "DomesticAddressLayoutId": 408,
+  "ForeignAddressLayoutId": 173,
+  "Rank": 674,
+  "Tooltip": "quis",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldType": "System.Int32",
+      "FieldLength": 448
     }
   }
 }

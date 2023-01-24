@@ -70,12 +70,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Zulauf Group",
-  "PrimaryKey": 697,
+  "EventName": "Davis Group",
+  "PrimaryKey": 850,
   "Data": {
     "fieldName": {}
   }

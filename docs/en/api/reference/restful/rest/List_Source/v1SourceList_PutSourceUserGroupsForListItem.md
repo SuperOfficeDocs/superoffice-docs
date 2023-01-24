@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 576,
-    "Name": "Marks Group",
-    "ToolTip": "Dicta laborum voluptate voluptatem sunt magnam.",
-    "Deleted": false,
-    "Rank": 893,
-    "Type": "quia",
-    "ColorBlock": 484,
-    "IconHint": "voluptatibus",
-    "Selected": true,
-    "LastChanged": "1997-05-15T17:37:40.3735009+02:00",
+    "Id": 891,
+    "Name": "Cronin Group",
+    "ToolTip": "Ut voluptatum eos.",
+    "Deleted": true,
+    "Rank": 520,
+    "Type": "alias",
+    "ColorBlock": 717,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "2003-08-31T11:22:46.2097354+02:00",
     "ChildItems": [
       {
-        "Id": 35,
-        "Name": "Welch, Rippin and Beer",
-        "ToolTip": "Nihil voluptatibus quia omnis.",
+        "Id": 769,
+        "Name": "Raynor LLC",
+        "ToolTip": "Consequatur reprehenderit dolor.",
         "Deleted": false,
-        "Rank": 111,
-        "Type": "esse",
-        "ColorBlock": 557,
-        "IconHint": "provident",
+        "Rank": 841,
+        "Type": "ut",
+        "ColorBlock": 447,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2003-04-01T17:37:40.3735009+02:00",
+        "LastChanged": "2015-06-18T11:22:46.2097354+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "fugit",
+        "ExtraInfo": "qui",
+        "StyleHint": "voluptates",
         "Hidden": false,
-        "FullName": "Dr. Cassidy Wuckert I"
+        "FullName": "Miss Valerie Addison VonRueden"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "ea",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Timothy Schuppe"
+    "FullName": "Nyasia Maryam Renner IV"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Heathcote, Jast and Willms",
-    "ToolTip": "Natus delectus commodi tenetur sed provident sequi voluptas.",
-    "Deleted": false,
-    "Rank": 889,
-    "Type": "qui",
-    "ColorBlock": 529,
-    "IconHint": "voluptas",
+    "Id": 876,
+    "Name": "Rempel, Howell and Cassin",
+    "ToolTip": "Voluptatem dolorum.",
+    "Deleted": true,
+    "Rank": 941,
+    "Type": "quia",
+    "ColorBlock": 1001,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2012-01-13T17:37:40.3745007+01:00",
+    "LastChanged": "2013-06-12T11:22:46.2097354+02:00",
     "ChildItems": [
       {
-        "Id": 213,
-        "Name": "Sawayn, Ward and Ferry",
-        "ToolTip": "Id illo ea.",
-        "Deleted": false,
-        "Rank": 166,
-        "Type": "ipsam",
-        "ColorBlock": 765,
-        "IconHint": "ipsam",
+        "Id": 360,
+        "Name": "Bechtelar-Pouros",
+        "ToolTip": "Non est ipsam distinctio laudantium iusto distinctio temporibus.",
+        "Deleted": true,
+        "Rank": 266,
+        "Type": "aut",
+        "ColorBlock": 724,
+        "IconHint": "optio",
         "Selected": false,
-        "LastChanged": "2021-08-03T17:37:40.3755002+02:00",
+        "LastChanged": "2009-11-19T11:22:46.2097354+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "porro",
+        "ExtraInfo": "nobis",
+        "StyleHint": "quisquam",
         "Hidden": false,
-        "FullName": "Katheryn Felton Gutkowski Sr.",
+        "FullName": "Guido Yost",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 552
+            "FieldType": "System.Int32",
+            "FieldLength": 8
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "debitis",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Brandon Adrain McDermott MD",
+    "FullName": "Ms. Vallie Gladys Treutel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 625
+        "FieldLength": 142
       }
     }
   }

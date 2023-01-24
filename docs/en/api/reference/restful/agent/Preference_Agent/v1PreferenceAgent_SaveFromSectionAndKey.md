@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "debitis",
-  "Key": "placeat",
+  "Section": "praesentium",
+  "Key": "quam",
   "PreferenceDescription": null
 }
 ```
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 135,
-  "Section": "recusandae",
-  "Key": "porro",
-  "Name": "Daugherty LLC",
+  "PrefDescId": 274,
+  "Section": "tempore",
+  "Key": "atque",
+  "Name": "Cormier Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Integrated explicit flexibility",
+  "Description": "Secured demand-driven hub",
   "IsBuiltin": false,
-  "TableName": "Ryan, Glover and Rice",
-  "UserDefinedListId": 591,
-  "Rank": 750,
-  "SubGroup": "nobis",
-  "MinLevel": 677,
-  "MaxValue": 929,
-  "MinValue": 930,
-  "RequiredLicense": "illo",
+  "TableName": "Lueilwitz Inc and Sons",
+  "UserDefinedListId": 289,
+  "Rank": 183,
+  "SubGroup": "officia",
+  "MinLevel": 582,
+  "MaxValue": 600,
+  "MinValue": 780,
+  "RequiredLicense": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 947
     }
   }
 }

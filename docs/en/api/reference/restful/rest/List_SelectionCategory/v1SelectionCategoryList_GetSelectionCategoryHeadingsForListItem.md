@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Stracke-Sauer",
-    "ToolTip": "Quisquam sit.",
-    "Deleted": true,
-    "Rank": 54,
-    "Type": "quod",
-    "ColorBlock": 970,
-    "IconHint": "vitae",
-    "Selected": true,
-    "LastChanged": "2007-04-25T17:37:40.3614962+02:00",
+    "Id": 787,
+    "Name": "Ondricka-Baumbach",
+    "ToolTip": "Quia facilis quia repellendus quos totam perspiciatis.",
+    "Deleted": false,
+    "Rank": 320,
+    "Type": "ex",
+    "ColorBlock": 792,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "2018-12-17T11:22:46.1941157+01:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Tromp Group",
-        "ToolTip": "Omnis eos et eum eius fugiat.",
+        "Id": 235,
+        "Name": "Padberg Group",
+        "ToolTip": "Beatae temporibus reprehenderit sint.",
         "Deleted": true,
-        "Rank": 52,
-        "Type": "nam",
-        "ColorBlock": 150,
-        "IconHint": "quasi",
+        "Rank": 854,
+        "Type": "illo",
+        "ColorBlock": 103,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2011-05-26T17:37:40.3624952+02:00",
+        "LastChanged": "2019-10-11T11:22:46.1941157+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "soluta",
+        "ExtraInfo": "commodi",
+        "StyleHint": "optio",
         "Hidden": true,
-        "FullName": "Mia Hackett",
+        "FullName": "Mrs. Noble Gottlieb III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 207
+            "FieldType": "System.String",
+            "FieldLength": 912
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "quidem",
-    "Hidden": false,
-    "FullName": "Mr. Melvina Haley II",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "fuga",
+    "Hidden": true,
+    "FullName": "Carlee Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 675
+        "FieldLength": 897
       }
     }
   }

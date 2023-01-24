@@ -76,17 +76,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 505,
+  "ReportId": 84,
   "ReportCategory": "All",
-  "Description": "Devolved bi-directional process improvement",
+  "Description": "Implemented radical portal",
   "ReportLayout": "CalendarMonth",
-  "Name": "Champlin Group",
-  "AssociateId": 496,
-  "TemplateId": 804,
+  "Name": "Dibbert Group",
+  "AssociateId": 804,
+  "TemplateId": 877,
   "Published": false
 }
 ```
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 424,
+  "ReportId": 130,
   "ReportCategory": "All",
-  "Description": "Enterprise-wide even-keeled frame",
+  "Description": "Cloned asynchronous solution",
   "ReportLayout": "CalendarMonth",
-  "Name": "Walter Inc and Sons",
-  "AssociateId": 950,
-  "TemplateId": 743,
+  "Name": "Funk-Weimann",
+  "AssociateId": 882,
+  "TemplateId": 502,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldLength": 755
     }
   }
 }

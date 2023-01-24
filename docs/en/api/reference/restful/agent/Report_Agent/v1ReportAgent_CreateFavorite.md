@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 513,
-  "Name": "Herman-Gibson",
-  "Description": "Centralized intermediate core"
+  "SourceId": 54,
+  "Name": "Walker, Farrell and Sawayn",
+  "Description": "Stand-alone regional contingency"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 182,
+  "ReportId": 72,
   "ReportCategory": "All",
-  "Description": "Expanded user-facing capability",
+  "Description": "Up-sized object-oriented knowledge base",
   "ReportLayout": "CalendarMonth",
-  "Name": "Stokes, Simonis and Dooley",
-  "AssociateId": 983,
-  "TemplateId": 15,
-  "Published": true,
+  "Name": "Becker-Hintz",
+  "AssociateId": 420,
+  "TemplateId": 782,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 637
     }
   }
 }

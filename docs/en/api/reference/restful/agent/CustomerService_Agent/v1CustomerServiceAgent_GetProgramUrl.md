@@ -72,8 +72,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Moen, Hickle and Jast",
-  "External": true
+  "ProgramName": "Marquardt, Jacobson and Yost",
+  "External": false
 }
 ```
 

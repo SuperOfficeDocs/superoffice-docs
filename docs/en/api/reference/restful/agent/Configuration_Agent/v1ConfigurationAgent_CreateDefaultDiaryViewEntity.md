@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,49 +73,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 841,
-  "Name": "Torp LLC",
-  "Tooltip": "magnam",
-  "VisibleColumns": 715,
-  "Rank": 942,
-  "AssocId": 173,
+  "DiaryViewId": 584,
+  "Name": "Hodkiewicz-Okuneva",
+  "Tooltip": "dignissimos",
+  "VisibleColumns": 551,
+  "Rank": 615,
+  "AssocId": 415,
   "AssociateList": [
     {
-      "Id": 764,
-      "Name": "Stoltenberg Group",
-      "ToolTip": "Voluptas aut et sed magni facilis molestiae eveniet.",
-      "Deleted": false,
-      "Rank": 31,
-      "Type": "quia",
-      "ColorBlock": 454,
-      "IconHint": "aliquam",
+      "Id": 109,
+      "Name": "Nienow-Berge",
+      "ToolTip": "Voluptates omnis quo rerum labore qui iste molestias.",
+      "Deleted": true,
+      "Rank": 516,
+      "Type": "dolores",
+      "ColorBlock": 141,
+      "IconHint": "at",
       "Selected": false,
-      "LastChanged": "2014-12-05T17:37:17.1162404+01:00",
+      "LastChanged": "2009-03-29T11:22:37.6023765+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ducimus",
-      "StyleHint": "fugit",
-      "Hidden": true,
-      "FullName": "Ms. Sonny Mertz I",
+      "ExtraInfo": "ipsam",
+      "StyleHint": "inventore",
+      "Hidden": false,
+      "FullName": "Luisa Gusikowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldType": "System.String",
+          "FieldLength": 41
         }
       }
     }
   ],
-  "TzLocationId": 636,
+  "TzLocationId": 785,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldType": "System.String",
+      "FieldLength": 41
     }
   }
 }

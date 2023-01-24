@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schmeler, Cronin and Wolff",
-  "ListItemId": 165,
+  "UdListDefinitionName": "Rippin-Walsh",
+  "ListItemId": 267,
   "Headings": [
     {
-      "Id": 910,
-      "Name": "Friesen Group",
-      "ToolTip": "Ea magni reprehenderit nihil sit incidunt.",
-      "Deleted": true,
-      "Rank": 609,
-      "Type": "deleniti",
-      "ColorBlock": 528,
-      "IconHint": "dignissimos",
+      "Id": 548,
+      "Name": "Conn, McClure and Larkin",
+      "ToolTip": "Unde error quis possimus commodi.",
+      "Deleted": false,
+      "Rank": 15,
+      "Type": "veniam",
+      "ColorBlock": 941,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2018-09-01T17:37:18.2102447+02:00",
+      "LastChanged": "2009-06-16T11:22:38.4771746+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ab",
-      "StyleHint": "temporibus",
-      "Hidden": false,
-      "FullName": "Augustine Quitzon"
+      "ExtraInfo": "soluta",
+      "StyleHint": "vel",
+      "Hidden": true,
+      "FullName": "Dr. Shakira Georgianna Bednar Jr."
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Johnston-Koch",
-    "ToolTip": "Aut aut labore commodi dolor sint.",
+    "Id": 638,
+    "Name": "Auer, Weissnat and Champlin",
+    "ToolTip": "Laborum velit iure modi culpa sequi excepturi.",
     "Deleted": false,
-    "Rank": 952,
-    "Type": "quisquam",
-    "ColorBlock": 36,
-    "IconHint": "impedit",
-    "Selected": false,
-    "LastChanged": "2003-09-06T17:37:18.2112444+02:00",
+    "Rank": 62,
+    "Type": "animi",
+    "ColorBlock": 438,
+    "IconHint": "magnam",
+    "Selected": true,
+    "LastChanged": "2004-04-07T11:22:38.4771746+02:00",
     "ChildItems": [
       {
-        "Id": 40,
-        "Name": "Yost-Ritchie",
-        "ToolTip": "Sequi perferendis dolore velit qui.",
+        "Id": 376,
+        "Name": "Kuvalis-Kassulke",
+        "ToolTip": "Quasi aut et ipsa vero aliquam alias eos.",
         "Deleted": false,
-        "Rank": 120,
-        "Type": "autem",
-        "ColorBlock": 581,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "1999-11-28T17:37:18.2112444+01:00",
+        "Rank": 803,
+        "Type": "nostrum",
+        "ColorBlock": 486,
+        "IconHint": "quisquam",
+        "Selected": false,
+        "LastChanged": "2004-07-08T11:22:38.4771746+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "eos",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Miss Cesar Eldora Dickinson",
+        "FullName": "Miss Constance Jasmin O'Connell II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 754
+            "FieldLength": 773
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Edward Mellie Blick II",
+    "FullName": "Rachel Kohler I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 594
+        "FieldType": "System.Int32",
+        "FieldLength": 106
       }
     }
   }

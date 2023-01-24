@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemporaryKey": "facilis"
+  "TemporaryKey": "id"
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 254,
-  "PersonId": 198,
+  "TargetId": 163,
+  "PersonId": 422,
   "IsExpired": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldType": "System.String",
+      "FieldLength": 600
     }
   }
 }

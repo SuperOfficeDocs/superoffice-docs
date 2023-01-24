@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 795,
-  "Name": "Hyatt LLC",
-  "CreatedDate": "2015-03-15T17:37:38.6098647+01:00",
-  "UpdatedDate": "2019-10-22T17:37:38.6098647+02:00",
+  "ForeignAppId": 269,
+  "Name": "Wehner, Lesch and Wehner",
+  "CreatedDate": "2018-10-28T11:22:44.6788474+01:00",
+  "UpdatedDate": "2006-11-07T11:22:44.6788474+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 230,
-      "Name": "Stracke Group",
-      "CreatedDate": "2005-03-05T17:37:38.6098647+01:00",
-      "UpdatedDate": "2013-10-16T17:37:38.6098647+02:00",
-      "AssociateFullName": "Mr. Estella Olson",
-      "CreatedBy": "veritatis",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "quo",
-      "ForeignAppId": 468,
+      "ForeignDeviceId": 541,
+      "Name": "Rutherford-Kuvalis",
+      "CreatedDate": "2011-07-16T11:22:44.8506265+02:00",
+      "UpdatedDate": "2005-06-02T11:22:44.8506265+02:00",
+      "AssociateFullName": "Moises Stiedemann",
+      "CreatedBy": "animi",
+      "UpdatedBy": "quo",
+      "DeviceIdentifier": "accusamus",
+      "ForeignAppId": 640,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 437
+          "FieldType": "System.String",
+          "FieldLength": 623
         }
       }
     }
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 474
+      "FieldLength": 292
     }
   }
 }

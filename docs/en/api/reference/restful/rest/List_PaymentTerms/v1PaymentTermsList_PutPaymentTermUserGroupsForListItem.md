@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Franecki LLC",
-    "ToolTip": "Ad debitis.",
-    "Deleted": false,
-    "Rank": 808,
-    "Type": "minus",
-    "ColorBlock": 405,
-    "IconHint": "aut",
+    "Id": 868,
+    "Name": "Walker Group",
+    "ToolTip": "Eos incidunt natus.",
+    "Deleted": true,
+    "Rank": 373,
+    "Type": "atque",
+    "ColorBlock": 192,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2013-08-14T17:37:40.0744708+02:00",
+    "LastChanged": "2007-04-29T11:22:45.9597902+02:00",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Pfannerstill-Dietrich",
-        "ToolTip": "Soluta ut commodi quo ipsum et molestias commodi.",
+        "Id": 524,
+        "Name": "Wuckert Group",
+        "ToolTip": "Facilis labore atque quod eos est.",
         "Deleted": true,
-        "Rank": 513,
-        "Type": "dolor",
-        "ColorBlock": 993,
-        "IconHint": "sed",
+        "Rank": 470,
+        "Type": "perferendis",
+        "ColorBlock": 881,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2014-06-25T17:37:40.0765017+02:00",
+        "LastChanged": "2001-02-04T11:22:45.9597902+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "autem",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Everett Feest"
+        "FullName": "Stephania Thiel"
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "ratione",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Ashleigh Shanahan"
+    "FullName": "Miss Ward Heathcote"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Name": "Kilback-Beier",
-    "ToolTip": "Pariatur numquam maiores recusandae velit molestiae dicta.",
+    "Id": 75,
+    "Name": "Crona-Frami",
+    "ToolTip": "Laborum ullam ea.",
     "Deleted": false,
-    "Rank": 322,
-    "Type": "enim",
-    "ColorBlock": 969,
-    "IconHint": "est",
+    "Rank": 632,
+    "Type": "quia",
+    "ColorBlock": 118,
+    "IconHint": "unde",
     "Selected": true,
-    "LastChanged": "2021-08-04T17:37:40.0775032+02:00",
+    "LastChanged": "2007-08-08T11:22:45.9597902+02:00",
     "ChildItems": [
       {
-        "Id": 327,
-        "Name": "Schultz LLC",
-        "ToolTip": "Ad incidunt odit dolores eos.",
-        "Deleted": false,
-        "Rank": 692,
-        "Type": "eius",
-        "ColorBlock": 644,
-        "IconHint": "reiciendis",
-        "Selected": false,
-        "LastChanged": "2004-11-21T17:37:40.0775032+01:00",
+        "Id": 720,
+        "Name": "Morissette, Walsh and Goyette",
+        "ToolTip": "Voluptates omnis quam.",
+        "Deleted": true,
+        "Rank": 718,
+        "Type": "aspernatur",
+        "ColorBlock": 552,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2007-04-04T11:22:45.9597902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "et",
+        "ExtraInfo": "sunt",
+        "StyleHint": "ratione",
         "Hidden": false,
-        "FullName": "Marcelino Eichmann DVM",
+        "FullName": "Mr. Ethyl Heller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 120
+            "FieldLength": 281
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "laudantium",
-    "Hidden": false,
-    "FullName": "Jaiden Carleton Mueller IV",
+    "ExtraInfo": "ea",
+    "StyleHint": "nam",
+    "Hidden": true,
+    "FullName": "Taya Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldType": "System.String",
+        "FieldLength": 564
       }
     }
   }

@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=ex
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=qui
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 19 Oct 2003 17:37:38 G10T
+Last-Modified: Tue, 06 Dec 2011 11:22:44 G12T
 
 {
-  "Key": "laudantium",
-  "Value": "soluta",
-  "RecordId": 217,
-  "CreatedDate": "1999-04-08T17:37:38.8238605+02:00",
-  "UpdatedDate": "2003-10-19T17:37:38.8238605+02:00",
-  "UpdatedBy": "adipisci",
-  "CreatedBy": "rerum",
-  "TableName": "Schultz Inc and Sons",
+  "Key": "sequi",
+  "Value": "est",
+  "RecordId": 201,
+  "CreatedDate": "2005-10-26T11:22:44.8818691+02:00",
+  "UpdatedDate": "2011-12-06T11:22:44.8818691+01:00",
+  "UpdatedBy": "voluptate",
+  "CreatedBy": "et",
+  "TableName": "Langworth-Sipes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldLength": 365
     }
   }
 }

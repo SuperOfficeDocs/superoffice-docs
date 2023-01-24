@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 647
+  "QuoteVersionId": 143
 }
 ```
 
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 995,
-  "ERPQuoteVersionKey": "natus",
-  "QuoteId": 390,
-  "Description": "Re-contextualized fresh-thinking concept",
-  "Number": "1446959",
+  "QuoteVersionId": 339,
+  "ERPQuoteVersionKey": "veniam",
+  "QuoteId": 748,
+  "Description": "Customizable transitional focus group",
+  "Number": "1587454",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 308,
-  "SentDate": "2010-03-14T17:37:18.6902418+01:00",
-  "FollowupId": 693,
-  "ExpirationDate": "2005-05-15T17:37:18.6902418+02:00",
-  "DeliveryCountryId": 887,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 99,
+  "LikelyQuoteAlternativeId": 852,
+  "SentDate": "2005-08-14T11:22:38.8833285+02:00",
+  "FollowupId": 41,
+  "ExpirationDate": "2015-03-15T11:22:38.8833285+01:00",
+  "DeliveryCountryId": 767,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 544,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "temporibus",
-  "ERPPaymentTypeKey": "placeat",
-  "ERPDeliveryTermsKey": "amet",
-  "ERPDeliveryTypeKey": "eius",
-  "Rank": 927,
-  "ApprovedBy": 320,
-  "ApprovedText": "numquam",
-  "ApprovedRegisteredBy": 910,
-  "ApprovedRegisteredDate": "2008-04-23T17:37:18.6902418+02:00",
-  "ExtraField1": "nesciunt",
-  "ExtraField2": "sit",
-  "ExtraField3": "id",
-  "ExtraField4": "iure",
-  "ExtraField5": "modi",
-  "LastRecalculated": "1998-08-14T17:37:18.6902418+02:00",
-  "Updated": "2010-12-15T17:37:18.6902418+01:00",
-  "UpdatedAssociateId": 834,
-  "Registered": "2021-11-13T17:37:18.6902418+01:00",
-  "RegisteredAssociateId": 150,
-  "RequestAssociateId": 504,
-  "RequestComment": "in",
+  "ERPPaymentTermsKey": "doloremque",
+  "ERPPaymentTypeKey": "sit",
+  "ERPDeliveryTermsKey": "cumque",
+  "ERPDeliveryTypeKey": "animi",
+  "Rank": 496,
+  "ApprovedBy": 390,
+  "ApprovedText": "et",
+  "ApprovedRegisteredBy": 33,
+  "ApprovedRegisteredDate": "2015-04-27T11:22:38.8833285+02:00",
+  "ExtraField1": "incidunt",
+  "ExtraField2": "unde",
+  "ExtraField3": "soluta",
+  "ExtraField4": "deleniti",
+  "ExtraField5": "minima",
+  "LastRecalculated": "1996-03-10T11:22:38.8833285+01:00",
+  "Updated": "2018-07-15T11:22:38.8833285+02:00",
+  "UpdatedAssociateId": 385,
+  "Registered": "2007-02-27T11:22:38.8833285+01:00",
+  "RegisteredAssociateId": 236,
+  "RequestAssociateId": 563,
+  "RequestComment": "quos",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 591,
-      "ERPQuoteAlternativeKey": "laborum",
-      "QuoteVersionId": 125,
-      "Name": "Weissnat, Deckow and Veum",
-      "Description": "Optional intangible strategy",
+      "QuoteAlternativeId": 911,
+      "ERPQuoteAlternativeKey": "ut",
+      "QuoteVersionId": 633,
+      "Name": "Conn-Kutch",
+      "Description": "Horizontal multi-tasking info-mediaries",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 1347.62,
-      "ERPDiscountAmount": 7863.206,
-      "DiscountPercent": 20590.38,
-      "DiscountAmount": 20978.996,
+      "ERPDiscountPercent": 31148.825999999997,
+      "ERPDiscountAmount": 10780.96,
+      "DiscountPercent": 24589.363999999998,
+      "DiscountAmount": 6982.552,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "blanditiis",
-      "VAT": 266.39,
-      "EarningPercent": 15898.782,
-      "EarningAmount": 26125.023999999998,
-      "SubTotal": 6603.338,
-      "TotalPrice": 12423.176,
-      "ExtraField1": "eos",
-      "ExtraField2": "corporis",
-      "ExtraField3": "possimus",
-      "ExtraField4": "molestiae",
-      "ExtraField5": "consequuntur",
+      "VATInfo": "voluptatum",
+      "VAT": 3453.6679999999997,
+      "EarningPercent": 18474.93,
+      "EarningAmount": 29506.61,
+      "SubTotal": 30070.73,
+      "TotalPrice": 19910.302,
+      "ExtraField1": "hic",
+      "ExtraField2": "accusamus",
+      "ExtraField3": "quam",
+      "ExtraField4": "non",
+      "ExtraField5": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 686
         }
       }
     }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldLength": 789
     }
   }
 }

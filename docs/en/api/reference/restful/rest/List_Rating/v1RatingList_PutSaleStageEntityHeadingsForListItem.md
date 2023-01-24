@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Name": "Gibson, Greenholt and Hirthe",
-    "ToolTip": "Non rem alias.",
+    "Id": 611,
+    "Name": "Durgan, Kuhic and White",
+    "ToolTip": "Praesentium excepturi et distinctio a ullam et.",
     "Deleted": false,
-    "Rank": 991,
-    "Type": "earum",
-    "ColorBlock": 503,
-    "IconHint": "qui",
+    "Rank": 217,
+    "Type": "voluptatem",
+    "ColorBlock": 298,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "2003-09-08T17:37:40.2725142+02:00",
+    "LastChanged": "2019-05-20T11:22:46.1160093+02:00",
     "ChildItems": [
       {
-        "Id": 888,
-        "Name": "Larson-Vandervort",
-        "ToolTip": "A ad non beatae facere temporibus.",
-        "Deleted": false,
-        "Rank": 13,
-        "Type": "quae",
-        "ColorBlock": 748,
-        "IconHint": "est",
+        "Id": 935,
+        "Name": "Johnston Group",
+        "ToolTip": "Quidem quo.",
+        "Deleted": true,
+        "Rank": 923,
+        "Type": "fuga",
+        "ColorBlock": 168,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2015-05-14T17:37:40.2725142+02:00",
+        "LastChanged": "1998-05-23T11:22:46.1160093+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "voluptate",
-        "Hidden": false,
-        "FullName": "Mr. Audrey Jameson Reichert"
+        "ExtraInfo": "sit",
+        "StyleHint": "officiis",
+        "Hidden": true,
+        "FullName": "Lysanne Feest"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "eos",
+    "ExtraInfo": "amet",
+    "StyleHint": "tempora",
     "Hidden": true,
-    "FullName": "Mrs. Margarette Kilback V"
+    "FullName": "Zackary Schmidt"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Konopelski-Gibson",
-    "ToolTip": "Architecto nesciunt fugiat illum nemo quia occaecati.",
+    "Id": 730,
+    "Name": "Kemmer, Dooley and Lueilwitz",
+    "ToolTip": "Quasi omnis beatae iusto autem nobis.",
     "Deleted": true,
-    "Rank": 600,
-    "Type": "magnam",
-    "ColorBlock": 920,
-    "IconHint": "officiis",
-    "Selected": false,
-    "LastChanged": "2008-08-09T17:37:40.2745111+02:00",
+    "Rank": 156,
+    "Type": "quia",
+    "ColorBlock": 226,
+    "IconHint": "consequuntur",
+    "Selected": true,
+    "LastChanged": "2002-06-14T11:22:46.1316279+02:00",
     "ChildItems": [
       {
-        "Id": 852,
-        "Name": "Schuster-Trantow",
-        "ToolTip": "Neque quam ut.",
-        "Deleted": false,
-        "Rank": 666,
-        "Type": "amet",
-        "ColorBlock": 400,
-        "IconHint": "quas",
-        "Selected": false,
-        "LastChanged": "2017-05-14T17:37:40.2745111+02:00",
+        "Id": 749,
+        "Name": "Buckridge-Fadel",
+        "ToolTip": "Expedita alias aliquam ut molestiae asperiores et.",
+        "Deleted": true,
+        "Rank": 750,
+        "Type": "unde",
+        "ColorBlock": 303,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2019-03-21T11:22:46.1316279+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "alias",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Paige Huel IV",
+        "FullName": "Pearline Waelchi Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 433
+            "FieldLength": 900
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "sunt",
+    "ExtraInfo": "modi",
+    "StyleHint": "dolore",
     "Hidden": false,
-    "FullName": "Jasmin Daugherty",
+    "FullName": "Green Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 389
+        "FieldType": "System.Int32",
+        "FieldLength": 826
       }
     }
   }

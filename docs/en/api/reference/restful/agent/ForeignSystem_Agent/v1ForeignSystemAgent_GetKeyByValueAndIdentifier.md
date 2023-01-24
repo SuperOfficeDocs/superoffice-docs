@@ -84,16 +84,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Emard-Strosin",
-  "DeviceName": "Jacobi-Heaney",
-  "DeviceIdentifier": "ab",
-  "KeyName": "Kohler Group",
-  "KeyValue": "explicabo",
-  "TableName": "Moen Inc and Sons"
+  "ApplicationName": "Simonis-Jerde",
+  "DeviceName": "Farrell, Wiza and Miller",
+  "DeviceIdentifier": "qui",
+  "KeyName": "Cummerata, Purdy and Smitham",
+  "KeyValue": "facere",
+  "TableName": "Erdman-Renner"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "amet",
-  "Value": "est",
-  "RecordId": 300,
-  "CreatedDate": "1999-11-19T17:37:18.1102411+01:00",
-  "UpdatedDate": "2018-04-19T17:37:18.1102411+02:00",
-  "UpdatedBy": "deleniti",
-  "CreatedBy": "cupiditate",
-  "TableName": "Feeney-Collins",
+  "Key": "eos",
+  "Value": "non",
+  "RecordId": 261,
+  "CreatedDate": "2006-10-08T11:22:38.3834434+02:00",
+  "UpdatedDate": "2019-11-11T11:22:38.3834434+01:00",
+  "UpdatedBy": "animi",
+  "CreatedBy": "perferendis",
+  "TableName": "Hills-Windler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 559
     }
   }
 }

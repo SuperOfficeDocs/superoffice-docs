@@ -70,32 +70,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 11 May 2008 17:37:38 G5T
+Last-Modified: Tue, 07 Jan 2003 11:22:44 G1T
 
 {
-  "ForeignAppId": 407,
-  "Name": "Murphy-Bailey",
-  "CreatedDate": "2020-06-23T17:37:38.6118645+02:00",
-  "UpdatedDate": "2008-05-11T17:37:38.6118645+02:00",
+  "ForeignAppId": 875,
+  "Name": "Baumbach Inc and Sons",
+  "CreatedDate": "2002-01-13T11:22:44.8506265+01:00",
+  "UpdatedDate": "2003-01-07T11:22:44.8506265+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 771,
-      "Name": "Beier-Padberg",
-      "CreatedDate": "2015-08-15T17:37:38.6128664+02:00",
-      "UpdatedDate": "1998-02-16T17:37:38.6128664+01:00",
-      "AssociateFullName": "Damien Larkin",
-      "CreatedBy": "nihil",
-      "UpdatedBy": "non",
-      "DeviceIdentifier": "distinctio",
-      "ForeignAppId": 369,
+      "ForeignDeviceId": 454,
+      "Name": "Willms, Haag and Gaylord",
+      "CreatedDate": "2013-10-30T11:22:44.8506265+01:00",
+      "UpdatedDate": "2015-05-30T11:22:44.8506265+02:00",
+      "AssociateFullName": "Mrs. Brook Hermann Hoeger Jr.",
+      "CreatedBy": "laborum",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "odit",
+      "ForeignAppId": 75,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldType": "System.String",
+          "FieldLength": 838
         }
       }
     }
@@ -104,8 +104,8 @@ Last-Modified: Sun, 11 May 2008 17:37:38 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldType": "System.Int32",
+      "FieldLength": 529
     }
   }
 }

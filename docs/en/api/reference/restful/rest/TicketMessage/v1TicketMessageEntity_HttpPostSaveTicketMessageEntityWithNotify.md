@@ -24,7 +24,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=False
+POST /api/v1/TicketMessage?notify=True
 ```
 
 
@@ -120,72 +120,72 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 252,
+  "EjMessageId": 898,
   "Ticket": null,
-  "CreatedAt": "2019-05-03T17:37:39.3473498+02:00",
+  "CreatedAt": "2004-09-21T11:22:45.3349401+02:00",
   "CreatedBy": null,
-  "Author": "delectus",
+  "Author": "eveniet",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "officia",
-  "TimeSpent": 464,
-  "Body": "vel",
-  "HtmlBody": "cupiditate",
-  "EmailHeader": "gilda@moen.info",
-  "DebugInfo": "ut",
-  "MailSorter": "provident",
+  "MessageId": "autem",
+  "TimeSpent": 597,
+  "Body": "eum",
+  "HtmlBody": "in",
+  "EmailHeader": "alf.franecki@schumm.name",
+  "DebugInfo": "quidem",
+  "MailSorter": "quia",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "fuga",
+  "SearchTitle": "eius",
   "MessageHeaders": [
     {
-      "Id": 3,
-      "Name": "Bartoletti, Gutkowski and Witting",
-      "Value": "natus",
+      "Id": 280,
+      "Name": "Carter, Lind and Harvey",
+      "Value": "rerum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 3,
-      "Name": "Bartoletti, Gutkowski and Witting",
-      "Value": "natus",
+      "Id": 280,
+      "Name": "Carter, Lind and Harvey",
+      "Value": "rerum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "est",
-  "Sentiment": 953,
-  "SentimentConfidence": 837,
+  "Language": "nisi",
+  "Sentiment": 59,
+  "SentimentConfidence": 437,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 982,
-      "Name": "Gutmann, McLaughlin and Gleichner",
-      "ContentType": "necessitatibus",
-      "AttSize": 775,
+      "AttachmentId": 40,
+      "Name": "Cormier-Labadie",
+      "ContentType": "nam",
+      "AttSize": 103,
       "InlineImage": false,
-      "ContentId": "tempora"
+      "ContentId": "natus"
     },
     {
-      "AttachmentId": 982,
-      "Name": "Gutmann, McLaughlin and Gleichner",
-      "ContentType": "necessitatibus",
-      "AttSize": 775,
+      "AttachmentId": 40,
+      "Name": "Cormier-Labadie",
+      "ContentType": "nam",
+      "AttSize": 103,
       "InlineImage": false,
-      "ContentId": "tempora"
+      "ContentId": "natus"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "quae",
-    "CustomFields2": "omnis"
+    "CustomFields1": "provident",
+    "CustomFields2": "ut"
   }
 }
 ```
@@ -197,28 +197,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 855,
+  "EjMessageId": 206,
   "Ticket": null,
-  "CreatedAt": "2011-02-02T17:37:39.3553451+01:00",
+  "CreatedAt": "2009-06-22T11:22:45.3349401+02:00",
   "CreatedBy": null,
-  "Author": "assumenda",
+  "Author": "accusamus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nemo",
-  "TimeSpent": 212,
-  "Body": "reprehenderit",
-  "HtmlBody": "voluptatibus",
-  "EmailHeader": "arianna@davisparker.co.uk",
-  "DebugInfo": "est",
-  "MailSorter": "a",
+  "MessageId": "molestias",
+  "TimeSpent": 204,
+  "Body": "aut",
+  "HtmlBody": "quas",
+  "EmailHeader": "talia.hills@blanda.us",
+  "DebugInfo": "beatae",
+  "MailSorter": "veniam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "maiores",
+  "SearchTitle": "aperiam",
   "MessageHeaders": [
     {
-      "Id": 239,
-      "Name": "O'Reilly Group",
-      "Value": "et",
+      "Id": 739,
+      "Name": "Goodwin-Wiegand",
+      "Value": "adipisci",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -226,47 +226,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 820
+          "FieldLength": 528
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "vitae",
-  "Sentiment": 627,
-  "SentimentConfidence": 994,
+  "Important": false,
+  "Language": "cupiditate",
+  "Sentiment": 362,
+  "SentimentConfidence": 178,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 245,
-      "Name": "Treutel LLC",
-      "ContentType": "ipsam",
-      "AttSize": 835,
-      "InlineImage": true,
-      "ContentId": "fugiat",
+      "AttachmentId": 666,
+      "Name": "Cremin LLC",
+      "ContentType": "maiores",
+      "AttSize": 30,
+      "InlineImage": false,
+      "ContentId": "dignissimos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 167
+          "FieldLength": 438
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "et",
+    "ExtraFields2": "modi"
   },
   "CustomFields": {
-    "CustomFields1": "saepe",
-    "CustomFields2": "qui"
+    "CustomFields1": "accusamus",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 284
     }
   }
 }

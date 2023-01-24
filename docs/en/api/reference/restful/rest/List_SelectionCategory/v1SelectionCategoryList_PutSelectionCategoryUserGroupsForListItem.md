@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 486,
-    "Name": "Schneider-Murphy",
-    "ToolTip": "Officiis modi et nisi qui ex in.",
+    "Id": 300,
+    "Name": "Wyman Group",
+    "ToolTip": "Illo quo autem et reprehenderit.",
     "Deleted": false,
-    "Rank": 319,
-    "Type": "ut",
-    "ColorBlock": 94,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "1997-03-07T17:37:40.3575059+01:00",
+    "Rank": 914,
+    "Type": "consectetur",
+    "ColorBlock": 386,
+    "IconHint": "suscipit",
+    "Selected": false,
+    "LastChanged": "2002-10-31T11:22:46.1941157+01:00",
     "ChildItems": [
       {
-        "Id": 863,
-        "Name": "Hand, Hane and Witting",
-        "ToolTip": "Maxime ut.",
+        "Id": 382,
+        "Name": "Ondricka LLC",
+        "ToolTip": "Quod voluptate inventore.",
         "Deleted": false,
-        "Rank": 894,
-        "Type": "tenetur",
-        "ColorBlock": 717,
-        "IconHint": "nulla",
+        "Rank": 9,
+        "Type": "unde",
+        "ColorBlock": 793,
+        "IconHint": "voluptates",
         "Selected": false,
-        "LastChanged": "2021-04-23T17:37:40.3585075+02:00",
+        "LastChanged": "2011-09-17T11:22:46.1941157+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "eius",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mr. Myra Reynolds Sr."
+        "FullName": "Mr. Leora Reinger"
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "libero",
+    "StyleHint": "cumque",
     "Hidden": false,
-    "FullName": "Dr. Hank Xavier Dickens"
+    "FullName": "Dr. Connie Elmore Cartwright"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Name": "Kling Inc and Sons",
-    "ToolTip": "Dolores eius sed exercitationem sapiente debitis dolor ut.",
-    "Deleted": false,
-    "Rank": 736,
-    "Type": "et",
-    "ColorBlock": 457,
-    "IconHint": "qui",
+    "Id": 568,
+    "Name": "Sauer LLC",
+    "ToolTip": "Temporibus in et itaque laborum et veniam ut.",
+    "Deleted": true,
+    "Rank": 940,
+    "Type": "aliquam",
+    "ColorBlock": 833,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "2016-12-07T17:37:40.3595057+01:00",
+    "LastChanged": "1995-09-15T11:22:46.1941157+02:00",
     "ChildItems": [
       {
-        "Id": 969,
-        "Name": "Bechtelar-Hansen",
-        "ToolTip": "Ipsa deleniti atque minus exercitationem beatae non.",
+        "Id": 234,
+        "Name": "Powlowski, Gutmann and Bernhard",
+        "ToolTip": "Nostrum qui voluptates adipisci sunt velit.",
         "Deleted": true,
-        "Rank": 685,
-        "Type": "aut",
-        "ColorBlock": 805,
-        "IconHint": "quo",
-        "Selected": false,
-        "LastChanged": "2000-05-03T17:37:40.3595057+02:00",
+        "Rank": 207,
+        "Type": "dicta",
+        "ColorBlock": 812,
+        "IconHint": "voluptate",
+        "Selected": true,
+        "LastChanged": "1996-09-09T11:22:46.1941157+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "sint",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Dr. Jewell Davis",
+        "FullName": "Talia Gleichner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 374
+            "FieldType": "System.Int32",
+            "FieldLength": 476
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "pariatur",
-    "Hidden": false,
-    "FullName": "Manley Keeling",
+    "ExtraInfo": "quos",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Miss Theron Elnora Huels DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 252
+        "FieldType": "System.Int32",
+        "FieldLength": 127
       }
     }
   }

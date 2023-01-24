@@ -31,7 +31,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=dolor
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=cumque
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 30 Jul 2007 17:37:38 G7T
+Last-Modified: Thu, 26 May 2005 11:22:44 G5T
 
 {
-  "Key": "alias",
-  "Value": "qui",
-  "RecordId": 42,
-  "CreatedDate": "2005-04-24T17:37:38.8228607+02:00",
-  "UpdatedDate": "2007-07-30T17:37:38.8228607+02:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "rerum",
-  "TableName": "Stokes Inc and Sons",
+  "Key": "itaque",
+  "Value": "officiis",
+  "RecordId": 846,
+  "CreatedDate": "2003-06-06T11:22:44.8818691+02:00",
+  "UpdatedDate": "2005-05-26T11:22:44.8818691+02:00",
+  "UpdatedBy": "ea",
+  "CreatedBy": "id",
+  "TableName": "Wolf-Towne",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 307
     }
   }
 }

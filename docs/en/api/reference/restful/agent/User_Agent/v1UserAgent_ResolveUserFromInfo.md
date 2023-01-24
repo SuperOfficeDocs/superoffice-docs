@@ -83,19 +83,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 169,
-  "PersonName": "Kris-Beier",
+  "ContactId": 374,
+  "PersonName": "Jenkins-Hamill",
   "PhoneNumbers": [
-    "1002502",
-    "702075"
+    "676723",
+    "1043773"
   ],
   "Emails": [
-    "elaina_champlin@hesselwindler.co.uk",
-    "ramiro.kulas@stoltenbergchamplin.name"
+    "amaya@blicksipes.co.uk",
+    "randall.ruecker@considine.co.uk"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -110,13 +110,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": null,
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 242
+      "FieldType": "System.Int32",
+      "FieldLength": 326
     }
   }
 }

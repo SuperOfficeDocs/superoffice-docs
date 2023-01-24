@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 714,
-  "CurrentAppointmentId": 588,
-  "SkipCompleteCheck": false
+  "SaleId": 58,
+  "CurrentAppointmentId": 276,
+  "SkipCompleteCheck": true
 }
 ```
 
@@ -104,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 328,
-  "Deleted": 407,
-  "DaysFuture": 751,
-  "Tooltip": "ut",
-  "Text": "consequatur",
-  "TaskId": 218,
-  "SuggestedAppointmentId": 490,
-  "SaleTypeStageLinkId": 660,
-  "RegisteredAssociateId": 735,
-  "Rank": 960,
-  "ProjectTypeStatusLinkId": 562,
-  "Name": "Ledner, Hane and Christiansen",
-  "Duration": 488,
+  "AutoSuggest": 544,
+  "Deleted": 103,
+  "DaysFuture": 764,
+  "Tooltip": "quas",
+  "Text": "non",
+  "TaskId": 120,
+  "SuggestedAppointmentId": 105,
+  "SaleTypeStageLinkId": 782,
+  "RegisteredAssociateId": 107,
+  "Rank": 744,
+  "ProjectTypeStatusLinkId": 628,
+  "Name": "Langosh, Casper and Mills",
+  "Duration": 17,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldLength": 834
     }
   }
 }

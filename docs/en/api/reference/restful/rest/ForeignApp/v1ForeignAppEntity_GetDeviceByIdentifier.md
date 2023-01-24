@@ -68,7 +68,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,24 +76,24 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 04 Sep 2002 17:37:38 G9T
+Last-Modified: Wed, 01 Mar 2000 11:22:44 G3T
 
 {
-  "ForeignDeviceId": 631,
-  "Name": "McClure Group",
-  "CreatedDate": "2001-07-03T17:37:38.8148598+02:00",
-  "UpdatedDate": "2002-09-04T17:37:38.8148598+02:00",
-  "AssociateFullName": "Prof. Sonia Travon Price Jr.",
-  "CreatedBy": "odio",
-  "UpdatedBy": "distinctio",
-  "DeviceIdentifier": "dolorem",
-  "ForeignAppId": 577,
+  "ForeignDeviceId": 613,
+  "Name": "Dare-Ratke",
+  "CreatedDate": "2003-11-29T11:22:44.8662479+01:00",
+  "UpdatedDate": "2000-03-01T11:22:44.8662479+01:00",
+  "AssociateFullName": "Jovan Schroeder DDS",
+  "CreatedBy": "repellat",
+  "UpdatedBy": "debitis",
+  "DeviceIdentifier": "sit",
+  "ForeignAppId": 278,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldLength": 899
     }
   }
 }

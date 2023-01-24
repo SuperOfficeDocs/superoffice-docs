@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 914,
-  "Name": "Emard Group",
-  "Tooltip": "dolor",
+  "Id": 838,
+  "Name": "Schowalter, Stanton and Buckridge",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 633,
+  "Rank": 674,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "ListType": "quisquam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 674,
-  "Name": "Kozey Group",
-  "Tooltip": "culpa",
+  "Id": 105,
+  "Name": "Schuppe Inc and Sons",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 572,
+  "Rank": 849,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aliquam",
+  "ListType": "fugit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldLength": 620
     }
   }
 }

@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=culpa
-GET /api/v1/Relation?$top=724
-GET /api/v1/Relation?$skip=617
+GET /api/v1/Relation?$entities=laboriosam
+GET /api/v1/Relation?$top=403
+GET /api/v1/Relation?$skip=611
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=unde
+GET /api/v1/Relation?$context=non
 GET /api/v1/Relation?$format=JSON
-GET /api/v1/Relation?$jsonSafe=True
+GET /api/v1/Relation?$jsonSafe=False
 GET /api/v1/Relation?$output=Display
 ```
 
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -128,21 +128,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolor",
+  "odata.nextLink": "voluptates",
   "value": [
     {
-      "PrimaryKey": 1054,
-      "EntityName": "sale",
-      "saleId": 1054,
-      "contactId": 9759,
-      "name": "Herman Inc and Sons"
+      "PrimaryKey": 1791,
+      "EntityName": "person",
+      "personId": 1791,
+      "fullName": "Ms. Lance Gibson"
     },
     {
-      "PrimaryKey": 7876,
-      "EntityName": "sale",
-      "saleId": 7876,
-      "contactId": 8831,
-      "name": "Cummerata Group"
+      "PrimaryKey": 8272,
+      "EntityName": "person",
+      "personId": 8272,
+      "fullName": "Hosea Marquardt"
     }
   ]
 }

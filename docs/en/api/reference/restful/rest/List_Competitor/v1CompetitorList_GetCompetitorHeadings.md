@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 824,
-    "Name": "Mueller Group",
-    "Tooltip": "et",
+    "HeadingId": 908,
+    "Name": "Rolfson-Swaniawski",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 378,
-    "UdListDefinitionId": 245,
+    "Rank": 751,
+    "UdListDefinitionId": 701,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 900
+        "FieldType": "System.Int32",
+        "FieldLength": 882
       }
     }
   }

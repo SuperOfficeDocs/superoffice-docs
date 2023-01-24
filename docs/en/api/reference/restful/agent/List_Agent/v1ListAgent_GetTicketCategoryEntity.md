@@ -25,7 +25,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=910
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=296
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 816,
-  "ParentId": 677,
-  "Name": "Dickinson, Rodriguez and Gerhold",
-  "Fullname": "quia",
-  "CategoryMaster": 255,
+  "TicketCategoryId": 39,
+  "ParentId": 945,
+  "Name": "O'Connell, Kovacek and Mante",
+  "Fullname": "atque",
+  "CategoryMaster": 390,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Russel-Beahan",
+  "ExternalName": "Kuvalis Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 721,
-  "ReplyTemplate": 144,
-  "NotificationEmail": "kacie@macejkovickuhn.com",
+  "AssignmentLag": 297,
+  "ReplyTemplate": 829,
+  "NotificationEmail": "triston@glover.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 135,
+  "EffectiveReplyTemplateId": 947,
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
+    "ExtraFields1": "recusandae",
     "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "necessitatibus",
-    "CustomFields2": "magnam"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 893
     }
   }
 }

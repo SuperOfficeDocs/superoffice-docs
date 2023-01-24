@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 635,
+  "DocumentTemplateId": 15,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "dolorum",
-  "PluginId": 438
+  "LanguageCode": "incidunt",
+  "PluginId": 750
 }
 ```
 
@@ -95,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Stamm Inc and Sons",
-  "Description": "Networked system-worthy complexity",
-  "ExternalReference": "quis",
-  "MimeType": "nihil",
-  "PluginId": 405
+  "Name": "Marvin-Donnelly",
+  "Description": "Reactive 24/7 emulation",
+  "ExternalReference": "eius",
+  "MimeType": "rerum",
+  "PluginId": 985
 }
 ```

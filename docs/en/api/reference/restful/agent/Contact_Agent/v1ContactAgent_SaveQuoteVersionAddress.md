@@ -84,10 +84,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 481,
+  "QuoteVersionId": 428,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 772
+  "CountryId": 351
 }
 ```
 
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 24316.706,
-  "Wgs84Longitude": 5895.054,
+  "Wgs84Latitude": 25780.284,
+  "Wgs84Longitude": 5450.026,
   "LocalizedAddress": [
     [
       {
-        "Name": "Swaniawski Group",
-        "Value": "tempora",
-        "Tooltip": "natus",
-        "Label": "recusandae",
-        "ValueLength": 747,
-        "AddressType": "est",
+        "Name": "Bechtelar, Bogisich and Reinger",
+        "Value": "temporibus",
+        "Tooltip": "enim",
+        "Label": "enim",
+        "ValueLength": 979,
+        "AddressType": "dolores",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldLength": 35
           }
         }
       }
     ],
     [
       {
-        "Name": "Eichmann, Ullrich and Kunze",
-        "Value": "ipsam",
-        "Tooltip": "nisi",
-        "Label": "quisquam",
-        "ValueLength": 752,
-        "AddressType": "distinctio",
+        "Name": "Heller Group",
+        "Value": "beatae",
+        "Tooltip": "ad",
+        "Label": "corrupti",
+        "ValueLength": 823,
+        "AddressType": "voluptatum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 856
+            "FieldType": "System.Int32",
+            "FieldLength": 547
           }
         }
       }
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "voluptas",
+  "Formatted": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   }
 }

@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 127,
-    "Name": "Sporer, Cartwright and Franecki",
-    "OrgNr": "1289446",
+    "ContactId": 806,
+    "Name": "Zemlak, Strosin and Jewess",
+    "OrgNr": "1591198",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "saepe",
-    "DirectPhone": "226.448.4513",
-    "AssociateId": 503,
-    "CountryId": 115,
-    "EmailAddress": "sylvia@heathcote.biz",
-    "Kananame": "ut",
-    "EmailAddressName": "kara_ferry@willms.info",
+    "City": "dolores",
+    "DirectPhone": "922.152.0151",
+    "AssociateId": 569,
+    "CountryId": 641,
+    "EmailAddress": "samson_ernser@millslemke.name",
+    "Kananame": "et",
+    "EmailAddressName": "lindsay@goyette.ca",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mrs. Alverta Stoltenberg IV",
+    "AssociateFullName": "Clay Fritsch III",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "qui",
-    "FullName": "Hermina Daniel",
+    "FormattedAddress": "est",
+    "FullName": "Eryn Mertie Rohan DDS",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 856,
-    "Number1": "917775",
-    "Number2": "828993",
+    "ActiveErpLinks": 27,
+    "Number1": "1076294",
+    "Number2": "246853",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldLength": 155
       }
     }
   }

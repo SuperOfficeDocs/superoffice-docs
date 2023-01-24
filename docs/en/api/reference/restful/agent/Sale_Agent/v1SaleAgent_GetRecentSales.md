@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 882,
-  "Count": 305
+  "AmountLimit": 38,
+  "Count": 995
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Morar Inc and Sons",
-    "SaleDate": "2004-01-30T17:37:18.8862421+01:00",
-    "SaleId": 402,
-    "Probability": 199,
-    "Title": "nulla",
-    "Amount": 28447.318,
-    "Currency": "non",
-    "ProjectName": "Mayert LLC",
-    "AssociateFullName": "Hosea Glover",
-    "Description": "Horizontal reciprocal groupware",
+    "ContactName": "Grant-Labadie",
+    "SaleDate": "2014-08-12T11:22:39.2425669+02:00",
+    "SaleId": 197,
+    "Probability": 235,
+    "Title": "accusantium",
+    "Amount": 1313.146,
+    "Currency": "quidem",
+    "ProjectName": "Cummerata, Ernser and Nicolas",
+    "AssociateFullName": "Isom Oberbrunner V",
+    "Description": "Multi-tiered object-oriented complexity",
     "Status": "Lost",
-    "WeightedAmount": 27475.778,
-    "ProjectId": 154,
-    "EarningPercent": 8875.488,
-    "Earning": 29299.766,
-    "ContactId": 457,
-    "AssociateId": 889,
-    "PersonId": 351,
-    "SaleTypeId": 183,
-    "SaleTypeName": "Dach, Gaylord and Ziemann",
-    "PersonFullName": "Ms. Ebony Barrows DDS",
+    "WeightedAmount": 23473.66,
+    "ProjectId": 614,
+    "EarningPercent": 26698.546,
+    "Earning": 702.016,
+    "ContactId": 473,
+    "AssociateId": 468,
+    "PersonId": 343,
+    "SaleTypeId": 898,
+    "SaleTypeName": "Hilpert LLC",
+    "PersonFullName": "Alyce Rempel",
     "Completed": "Completed",
-    "ActiveErpLinks": 988,
-    "NextDueDate": "2005-08-03T17:37:18.8872418+02:00",
-    "Number": "1158781",
+    "ActiveErpLinks": 991,
+    "NextDueDate": "2012-08-27T11:22:39.2425669+02:00",
+    "Number": "961542",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 990
       }
     }
   }

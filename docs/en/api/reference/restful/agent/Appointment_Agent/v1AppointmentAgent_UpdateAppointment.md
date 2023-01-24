@@ -125,16 +125,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "StartTime": "1999-10-01T17:37:16.2672422+02:00",
-  "EndTime": "1996-11-23T17:37:16.2672422+01:00",
-  "Status": 505,
-  "Type": 669,
-  "AssociateId": 606
+  "Id": 795,
+  "StartTime": "2022-11-18T11:22:36.946279+01:00",
+  "EndTime": "2003-09-11T11:22:36.946279+02:00",
+  "Status": 232,
+  "Type": 799,
+  "AssociateId": 487
 }
 ```
 
@@ -145,61 +145,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 65,
-  "StartDate": "2003-04-22T17:37:16.2692426+02:00",
-  "EndDate": "1998-10-19T17:37:16.2692426+02:00",
+  "AppointmentId": 850,
+  "StartDate": "2001-07-19T11:22:36.9619023+02:00",
+  "EndDate": "2004-08-24T11:22:36.9619023+02:00",
   "Type": "BookingForChecklist",
-  "Task": "dolorem",
-  "AssociateFullName": "Aubree Wuckert",
-  "ContactName": "Murazik LLC",
-  "Description": "Visionary zero administration ability",
-  "PersonFullName": "Dr. Gerald Jonas Skiles Sr.",
-  "PersonId": 163,
-  "ContactId": 162,
-  "ProjectId": 400,
-  "ProjectName": "Welch, Fisher and Kunde",
-  "IsPublished": false,
-  "AssociateId": 916,
-  "ColorIndex": 410,
-  "IsFree": false,
-  "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "Task": "inventore",
+  "AssociateFullName": "Merritt Schultz",
+  "ContactName": "Romaguera Group",
+  "Description": "Open-architected optimizing application",
+  "PersonFullName": "Dr. Jayden Jay Schaefer",
+  "PersonId": 333,
+  "ContactId": 1002,
+  "ProjectId": 888,
+  "ProjectName": "Koelpin LLC",
+  "IsPublished": true,
+  "AssociateId": 145,
+  "ColorIndex": 732,
+  "IsFree": true,
+  "HasAlarm": true,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 335,
-  "PriorityName": "Marks Inc and Sons",
+  "PriorityId": 3,
+  "PriorityName": "Armstrong-Jakubowski",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
-  "IsRecurrence": false,
+  "IsBookingMain": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2005-05-30T17:37:16.2692426+02:00",
+  "ActiveDate": "2013-06-11T11:22:36.9619023+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1999-07-13T17:37:16.2692426+02:00",
-  "RecurringEndDate": "1996-06-03T17:37:16.2692426+02:00",
-  "MotherId": 803,
-  "AssignedBy": 408,
-  "AssignedByFullName": "Freda Reinger",
+  "RecurringStartDate": "2001-06-25T11:22:36.9619023+02:00",
+  "RecurringEndDate": "2002-03-09T11:22:36.9619023+01:00",
+  "MotherId": 679,
+  "AssignedBy": 345,
+  "AssignedByFullName": "Kailee Helene Gerlach I",
   "RejectReason": "",
-  "Location": "ab",
-  "AlarmLeadTime": "non",
-  "SaleId": 693,
-  "SaleName": "Waelchi, Jewess and Russel",
-  "AssociateName": "Jenkins, Heathcote and Raynor",
-  "CreatedDate": "1995-08-25T17:37:16.270242+02:00",
-  "CreatedBy": "dolor",
-  "CreatedByFullName": "Sarina Carter Jr.",
-  "CreatedByAssociateId": 443,
+  "Location": "saepe",
+  "AlarmLeadTime": "doloremque",
+  "SaleId": 839,
+  "SaleName": "Kemmer Group",
+  "AssociateName": "Ratke-Buckridge",
+  "CreatedDate": "2021-12-29T11:22:36.9619023+01:00",
+  "CreatedBy": "dolores",
+  "CreatedByFullName": "Sigrid Labadie",
+  "CreatedByAssociateId": 446,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldType": "System.String",
+      "FieldLength": 594
     }
   }
 }

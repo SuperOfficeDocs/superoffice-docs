@@ -86,20 +86,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quis",
-  "Name": "Corwin-McKenzie",
-  "Description": "Ameliorated well-modulated framework",
-  "IncludeId": "aut",
-  "Source": "nihil",
-  "Registered": "2002-12-05T17:37:39.5154303+01:00",
-  "RegisteredBy": "doloremque",
-  "Updated": "1996-07-16T17:37:39.5154303+02:00",
-  "UpdatedBy": "ab",
-  "Path": "et"
+  "UniqueIdentifier": "aut",
+  "Name": "Russel Inc and Sons",
+  "Description": "Digitized high-level artificial intelligence",
+  "IncludeId": "dignissimos",
+  "Source": "unde",
+  "Registered": "2021-05-25T11:22:45.4754809+02:00",
+  "RegisteredBy": "voluptatem",
+  "Updated": "2000-12-07T11:22:45.4754809+01:00",
+  "UpdatedBy": "illum",
+  "Path": "voluptatibus"
 }
 ```
 
@@ -110,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "consequatur",
-  "Name": "Jacobi-Hessel",
-  "Description": "Devolved systematic pricing structure",
-  "IncludeId": "nemo",
-  "Source": "ab",
-  "Registered": "1996-04-10T17:37:39.5154303+02:00",
-  "RegisteredBy": "nihil",
-  "Updated": "2013-02-13T17:37:39.5154303+01:00",
-  "UpdatedBy": "voluptatibus",
-  "Path": "quia",
+  "UniqueIdentifier": "mollitia",
+  "Name": "Lakin LLC",
+  "Description": "Adaptive context-sensitive support",
+  "IncludeId": "doloribus",
+  "Source": "eos",
+  "Registered": "2022-11-30T11:22:45.4754809+01:00",
+  "RegisteredBy": "illo",
+  "Updated": "2009-09-24T11:22:45.4754809+02:00",
+  "UpdatedBy": "qui",
+  "Path": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldType": "System.String",
+      "FieldLength": 769
     }
   }
 }

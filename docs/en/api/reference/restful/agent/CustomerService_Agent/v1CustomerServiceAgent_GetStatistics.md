@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "consequatur",
-    "animi"
+    "qui",
+    "sint"
   ]
 }
 ```
@@ -93,82 +93,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "et",
+    "Label": "recusandae",
     "Values": [
       {
-        "Label": "libero",
-        "Value": 17152.381999999998,
-        "Description": "Polarised demand-driven groupware",
+        "Label": "labore",
+        "Value": 16312.47,
+        "Description": "Team-oriented 24/7 capability",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 844
+            "FieldLength": 648
           }
         }
       },
       {
-        "Label": "libero",
-        "Value": 17152.381999999998,
-        "Description": "Polarised demand-driven groupware",
+        "Label": "labore",
+        "Value": 16312.47,
+        "Description": "Team-oriented 24/7 capability",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 844
+            "FieldLength": 648
           }
         }
       }
     ],
-    "Description": "Focused holistic utilisation",
+    "Description": "Front-line bifurcated analyzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldLength": 79
       }
     }
   },
   {
-    "Label": "et",
+    "Label": "recusandae",
     "Values": [
       {
-        "Label": "libero",
-        "Value": 17152.381999999998,
-        "Description": "Polarised demand-driven groupware",
+        "Label": "labore",
+        "Value": 16312.47,
+        "Description": "Team-oriented 24/7 capability",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 844
+            "FieldLength": 648
           }
         }
       },
       {
-        "Label": "libero",
-        "Value": 17152.381999999998,
-        "Description": "Polarised demand-driven groupware",
+        "Label": "labore",
+        "Value": 16312.47,
+        "Description": "Team-oriented 24/7 capability",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 844
+            "FieldLength": 648
           }
         }
       }
     ],
-    "Description": "Focused holistic utilisation",
+    "Description": "Front-line bifurcated analyzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldLength": 79
       }
     }
   }

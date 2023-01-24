@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 202,
-  "Name": "Ondricka Inc and Sons",
-  "Tooltip": "iste",
-  "Deleted": false,
-  "Rank": 574,
+  "Id": 362,
+  "Name": "Rohan, Doyle and Witting",
+  "Tooltip": "commodi",
+  "Deleted": true,
+  "Rank": 919,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "cum",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "corrupti",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 298
+      "FieldType": "System.Int32",
+      "FieldLength": 272
     }
   },
   "_Links": {

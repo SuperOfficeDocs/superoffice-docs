@@ -105,12 +105,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 49,
+  "EmailId": 974,
   "AttachmentIds": [
-    "ad",
-    "qui"
+    "corrupti",
+    "aut"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -123,146 +123,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 557,
-      "ContactName": "Russel Inc and Sons",
-      "PersonId": 151,
-      "PersonName": "Kovacek, Murazik and Strosin",
-      "AssociateId": 407,
-      "Address": "quod",
-      "EmailId": 845,
+      "ContactId": 831,
+      "ContactName": "Wuckert Group",
+      "PersonId": 808,
+      "PersonName": "Kuhic-Gibson",
+      "AssociateId": 964,
+      "Address": "rem",
+      "EmailId": 726,
       "DuplicatePersonIds": [
-        703,
-        891
+        498,
+        42
       ],
-      "Name": "Eichmann, Torp and Nikolaus",
+      "Name": "Franecki LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 187
+          "FieldType": "System.Int32",
+          "FieldLength": 327
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 713,
-      "ContactName": "Steuber, Feest and Boyle",
-      "PersonId": 775,
-      "PersonName": "Littel Group",
-      "AssociateId": 205,
-      "Address": "non",
-      "EmailId": 312,
+      "ContactId": 507,
+      "ContactName": "Nienow Inc and Sons",
+      "PersonId": 792,
+      "PersonName": "West Inc and Sons",
+      "AssociateId": 59,
+      "Address": "voluptas",
+      "EmailId": 160,
       "DuplicatePersonIds": [
-        565,
-        336
+        341,
+        147
       ],
-      "Name": "Ortiz-Mitchell",
+      "Name": "Harber Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldLength": 247
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 886,
-      "ContactName": "Spencer Group",
-      "PersonId": 71,
-      "PersonName": "Schultz Group",
-      "AssociateId": 873,
-      "Address": "possimus",
-      "EmailId": 258,
+      "ContactId": 332,
+      "ContactName": "Hartmann, Fisher and Paucek",
+      "PersonId": 75,
+      "PersonName": "Ferry Inc and Sons",
+      "AssociateId": 308,
+      "Address": "delectus",
+      "EmailId": 14,
       "DuplicatePersonIds": [
-        747,
-        281
+        862,
+        841
       ],
-      "Name": "Nienow LLC",
+      "Name": "Kiehn LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldLength": 862
         }
       }
     }
   ],
-  "Subject": "numquam",
-  "HTMLBody": "dolorum",
+  "Subject": "qui",
+  "HTMLBody": "nihil",
   "From": null,
-  "Sent": "2015-01-12T17:37:17.9692408+01:00",
-  "Size": 358,
+  "Sent": "2015-08-16T11:22:38.2740943+02:00",
+  "Size": 350,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "repellendus",
-  "PlainBody": "adipisci",
+  "MessageID": "veniam",
+  "PlainBody": "et",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 36,
+  "ServerId": 731,
   "Attachments": [
     {
-      "Description": "Reactive static intranet",
-      "Filename": "cupiditate",
-      "Size": 849,
-      "Type": "exercitationem",
-      "Encoding": "incidunt",
-      "Id": "saepe",
-      "Disposition": "facilis",
+      "Description": "Synchronised fault-tolerant leverage",
+      "Filename": "nostrum",
+      "Size": 17,
+      "Type": "neque",
+      "Encoding": "et",
+      "Id": "porro",
+      "Disposition": "qui",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldLength": 984
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Smitham, Klein and Moore",
+      "Name": "Upton Group",
       "Values": [
-        "voluptatem",
-        "eum"
+        "voluptatum",
+        "error"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldType": "System.String",
+          "FieldLength": 969
         }
       }
     },
     {
-      "Name": "Smitham, Klein and Moore",
+      "Name": "Upton Group",
       "Values": [
-        "voluptatem",
-        "eum"
+        "voluptatum",
+        "error"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldType": "System.String",
+          "FieldLength": 969
         }
       }
     }
   ],
-  "FolderName": "McLaughlin, Gerhold and Lebsack",
-  "EmailItemId": 943,
-  "AccountId": 75,
-  "ReceivedAt": "2008-11-18T17:37:17.9702406+01:00",
+  "FolderName": "Bauch LLC",
+  "EmailItemId": 825,
+  "AccountId": 657,
+  "ReceivedAt": "2001-08-02T11:22:38.2740943+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-10-25T17:37:17.9702406+02:00",
+  "RepliedAt": "2005-05-12T11:22:38.2740943+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,8 +270,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 751
+      "FieldType": "System.Int32",
+      "FieldLength": 906
     }
   }
 }

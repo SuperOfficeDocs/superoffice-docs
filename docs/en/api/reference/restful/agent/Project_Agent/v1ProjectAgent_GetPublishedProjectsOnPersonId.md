@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 447
+  "PersonId": 539
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 67,
-    "Name": "Kautzer-Orn",
-    "Description": "Focused assymetric encoding",
+    "ProjectId": 767,
+    "Name": "Cartwright, Lubowitz and Will",
+    "Description": "Ergonomic holistic alliance",
     "URL": "http://www.example.com/",
-    "Type": "magni",
-    "AssociateId": 991,
-    "AssociateFullName": "Emmy Halvorson",
-    "TypeId": 804,
-    "Updated": "2020-04-19T17:37:18.6662421+02:00",
-    "StatusId": 126,
-    "Status": "atque",
-    "TextId": 232,
-    "PublishTo": "2009-07-03T17:37:18.6662421+02:00",
-    "PublishFrom": "2018-07-05T17:37:18.6662421+02:00",
+    "Type": "enim",
+    "AssociateId": 684,
+    "AssociateFullName": "Casey Schuppe",
+    "TypeId": 915,
+    "Updated": "1999-06-04T11:22:38.8520826+02:00",
+    "StatusId": 519,
+    "Status": "eligendi",
+    "TextId": 1002,
+    "PublishTo": "2015-01-18T11:22:38.8520826+01:00",
+    "PublishFrom": "2012-03-26T11:22:38.8520826+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "311195",
-    "ActiveErpLinks": 101,
+    "ProjectNumber": "548983",
+    "ActiveErpLinks": 962,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 831
+        "FieldType": "System.Int32",
+        "FieldLength": 635
       }
     }
   }

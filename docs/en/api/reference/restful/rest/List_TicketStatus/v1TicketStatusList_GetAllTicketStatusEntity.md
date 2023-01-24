@@ -73,19 +73,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 230,
-    "Name": "Ruecker LLC",
+    "TicketStatusId": 352,
+    "Name": "Willms, Jaskolski and Abbott",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
-    "IsDefault": true,
+    "IsDefault": false,
     "UsedInQueue": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 926
+        "FieldType": "System.String",
+        "FieldLength": 471
       }
     }
   }

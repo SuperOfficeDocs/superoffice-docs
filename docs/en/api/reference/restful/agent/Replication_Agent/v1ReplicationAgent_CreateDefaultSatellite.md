@@ -76,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 713,
-  "Created": "2014-04-30T17:37:18.7852426+02:00",
+  "SatelliteId": 926,
+  "Created": "2000-01-21T11:22:38.9614314+01:00",
   "CreatedBy": null,
-  "Updated": "2017-01-30T17:37:18.7852426+01:00",
+  "Updated": "2019-08-14T11:22:38.9614314+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Fritsch Group",
-      "Description": "Reverse-engineered bandwidth-monitored forecast",
+      "Name": "Von Inc and Sons",
+      "Description": "Total coherent framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,13 +100,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 169
+          "FieldLength": 366
         }
       }
     },
     {
-      "Name": "Fritsch Group",
-      "Description": "Reverse-engineered bandwidth-monitored forecast",
+      "Name": "Von Inc and Sons",
+      "Description": "Total coherent framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 169
+          "FieldLength": 366
         }
       }
     }
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldType": "System.Int32",
+      "FieldLength": 968
     }
   }
 }

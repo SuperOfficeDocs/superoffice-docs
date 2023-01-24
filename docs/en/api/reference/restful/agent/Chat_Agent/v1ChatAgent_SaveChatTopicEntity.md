@@ -122,26 +122,26 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 618,
-  "Name": "Schulist, Blanda and Hettinger",
-  "Description": "Extended stable access",
-  "WelcomeMessage": "illum",
+  "ChatTopicId": 694,
+  "Name": "Harvey LLC",
+  "Description": "Inverse zero administration neural-net",
+  "WelcomeMessage": "pariatur",
   "Language": null,
-  "LastAccept": "2010-09-25T17:37:16.976242+02:00",
-  "SecondsPrAccept": 815,
-  "AlertRecipient": "aut",
+  "LastAccept": "2002-11-29T11:22:37.4930172+01:00",
+  "SecondsPrAccept": 483,
+  "AlertRecipient": "aliquid",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "consequatur",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sequi",
-  "WarnNewChatMinutes": 615,
-  "WarnManagerNewChatMinutes": 591,
-  "TicketEnabled": false,
+  "CollectConsent": false,
+  "BadgeHeader": "itaque",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "totam",
+  "WarnNewChatMinutes": 783,
+  "WarnManagerNewChatMinutes": 543,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 823,
-  "WarnManagerChatMessageMinutes": 126,
+  "WarnChatMessageMinutes": 406,
+  "WarnManagerChatMessageMinutes": 96,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 373,
-  "OfflineFormQueueLength": 243,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "rerum"
+  "OfflineFormTimeLimit": 1001,
+  "OfflineFormQueueLength": 852,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "amet"
 }
 ```
 
@@ -167,43 +167,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 104,
-  "Name": "Hilll, Renner and Rath",
-  "Description": "Extended dedicated hardware",
-  "WelcomeMessage": "eos",
+  "ChatTopicId": 952,
+  "Name": "Greenfelder-McLaughlin",
+  "Description": "Extended bifurcated software",
+  "WelcomeMessage": "nulla",
   "Language": null,
-  "LastAccept": "2021-11-12T17:37:16.9792408+01:00",
-  "SecondsPrAccept": 683,
-  "AlertRecipient": "rerum",
+  "LastAccept": "2014-03-23T11:22:37.5086373+01:00",
+  "SecondsPrAccept": 989,
+  "AlertRecipient": "sint",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "repudiandae",
+  "CollectConsent": false,
+  "BadgeHeader": "cum",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "nobis",
-  "WarnNewChatMinutes": 512,
-  "WarnManagerNewChatMinutes": 491,
+  "CustomQueueText": "quasi",
+  "WarnNewChatMinutes": 876,
+  "WarnManagerNewChatMinutes": 814,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 658,
-  "WarnManagerChatMessageMinutes": 871,
+  "WarnChatMessageMinutes": 635,
+  "WarnManagerChatMessageMinutes": 278,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 816,
-  "OfflineFormQueueLength": 157,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "aut",
+  "OfflineFormTimeLimit": 564,
+  "OfflineFormQueueLength": 872,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 183
     }
   }
 }

@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 604,
-  "Name": "Paucek, Kuhlman and Hackett",
-  "Tooltip": "nihil",
+  "Id": 797,
+  "Name": "Bosco, Stokes and Boyer",
+  "Tooltip": "modi",
   "Deleted": false,
-  "UdListDefinitionId": 970,
-  "Rank": 303,
+  "UdListDefinitionId": 276,
+  "Rank": 446,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldType": "System.String",
+      "FieldLength": 632
     }
   }
 }

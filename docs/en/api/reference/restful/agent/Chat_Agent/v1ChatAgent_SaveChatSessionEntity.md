@@ -122,33 +122,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 449,
-  "TopicId": 826,
+  "ChatSessionId": 852,
+  "TopicId": 268,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quae",
-  "CustomerHost": "earum",
-  "CustomerName": "Runte, Blick and Crona",
-  "CustomerEmail": "mara@nicolasjewess.name",
-  "CustomerPhone": "(853)296-5384",
+  "CustomerAlias": "doloremque",
+  "CustomerHost": "sint",
+  "CustomerName": "Littel LLC",
+  "CustomerEmail": "mariah@dickens.ca",
+  "CustomerPhone": "892.839.3842",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Wisozk, Bauch and Watsica",
+  "CustomerCompanyName": "Ryan, Graham and Morissette",
   "Status": "Closed",
-  "FirstMessage": "quam",
-  "LastMessage": "odio",
-  "WhenRequested": "2021-09-09T17:37:16.9552422+02:00",
-  "WhenStarted": "2017-10-23T17:37:16.9552422+02:00",
-  "WhenEnded": "2015-05-08T17:37:16.9552422+02:00",
-  "WhenIdle": "2011-01-20T17:37:16.9552422+01:00",
-  "WhenFetched": "2013-06-01T17:37:16.9552422+02:00",
-  "SessionKey": "eveniet",
-  "InitialQueuePos": 419,
-  "AlertLevel": 41,
-  "Rank": 394,
+  "FirstMessage": "voluptatum",
+  "LastMessage": "sed",
+  "WhenRequested": "1999-12-31T11:22:37.4773963+01:00",
+  "WhenStarted": "2021-12-08T11:22:37.4773963+01:00",
+  "WhenEnded": "2003-12-01T11:22:37.4773963+01:00",
+  "WhenIdle": "2009-11-04T11:22:37.4773963+01:00",
+  "WhenFetched": "2001-10-08T11:22:37.4773963+02:00",
+  "SessionKey": "quasi",
+  "InitialQueuePos": 610,
+  "AlertLevel": 278,
+  "Rank": 53,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 450
+  "Rating": 796
 }
 ```
 
@@ -167,29 +167,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 729,
-  "TopicId": 36,
+  "ChatSessionId": 377,
+  "TopicId": 73,
   "User": null,
   "Person": null,
-  "CustomerAlias": "odit",
-  "CustomerHost": "et",
-  "CustomerName": "Feeney Group",
-  "CustomerEmail": "joy.collier@leannonkunze.name",
-  "CustomerPhone": "488.130.3810 x64858",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "King-Nienow",
+  "CustomerAlias": "mollitia",
+  "CustomerHost": "quasi",
+  "CustomerName": "Kessler, Grady and Gislason",
+  "CustomerEmail": "tremaine@crist.info",
+  "CustomerPhone": "202.548.4238",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Shanahan-Kunde",
   "Status": "Closed",
-  "FirstMessage": "soluta",
-  "LastMessage": "est",
-  "WhenRequested": "2020-02-10T17:37:16.9672432+01:00",
-  "WhenStarted": "2012-10-31T17:37:16.9672432+01:00",
-  "WhenEnded": "2011-03-07T17:37:16.9672432+01:00",
-  "WhenIdle": "1996-04-06T17:37:16.9672432+02:00",
-  "WhenFetched": "2000-01-03T17:37:16.9672432+01:00",
-  "SessionKey": "omnis",
-  "InitialQueuePos": 88,
-  "AlertLevel": 75,
-  "Rank": 424,
+  "FirstMessage": "ea",
+  "LastMessage": "corporis",
+  "WhenRequested": "2021-01-22T11:22:37.4930172+01:00",
+  "WhenStarted": "1997-07-18T11:22:37.4930172+02:00",
+  "WhenEnded": "2011-11-18T11:22:37.4930172+01:00",
+  "WhenIdle": "2004-09-28T11:22:37.4930172+02:00",
+  "WhenFetched": "2009-07-17T11:22:37.4930172+02:00",
+  "SessionKey": "quis",
+  "InitialQueuePos": 195,
+  "AlertLevel": 599,
+  "Rank": 965,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -197,13 +197,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 805,
+  "Rating": 429,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldLength": 658
     }
   }
 }

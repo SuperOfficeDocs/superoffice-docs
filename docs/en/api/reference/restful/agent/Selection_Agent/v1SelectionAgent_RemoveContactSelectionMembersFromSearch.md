@@ -68,12 +68,12 @@ OK
 POST /api/v1/Agents/Selection/RemoveContactSelectionMembersFromSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 612,
-  "StorageKey": "hic"
+  "SelectionId": 256,
+  "StorageKey": "odit"
 }
 ```
 
@@ -83,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-199
+338
 ```

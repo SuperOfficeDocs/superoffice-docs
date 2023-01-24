@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 917
+  "PersonId": 407
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 258,
-  "BlobSize": 463,
-  "Description": "Expanded system-worthy time-frame",
-  "ExtraInfo": "voluptates",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "exercitationem",
-  "OriginalSize": 452,
-  "CreatedDate": "2008-02-01T17:37:16.9202417+01:00",
-  "UpdatedDate": "2002-07-06T17:37:16.9202417+02:00",
+  "BlobId": 751,
+  "BlobSize": 114,
+  "Description": "Versatile homogeneous alliance",
+  "ExtraInfo": "aliquid",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "voluptatem",
+  "OriginalSize": 907,
+  "CreatedDate": "2013-11-15T11:22:37.4617868+01:00",
+  "UpdatedDate": "2009-01-10T11:22:37.4617868+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorem",
+  "ConceptualType": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 479
     }
   }
 }

@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 591,
-  "Name": "King, Jaskolski and Fisher",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "Rank": 370,
-  "UdListDefinitionId": 460
+  "HeadingId": 966,
+  "Name": "Harvey LLC",
+  "Tooltip": "quisquam",
+  "Deleted": true,
+  "Rank": 275,
+  "UdListDefinitionId": 806
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 328,
-  "Name": "Beier Inc and Sons",
-  "Tooltip": "dolore",
+  "HeadingId": 816,
+  "Name": "Hills, White and Heidenreich",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 56,
-  "UdListDefinitionId": 569,
+  "Rank": 23,
+  "UdListDefinitionId": 277,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 483
+      "FieldType": "System.Int32",
+      "FieldLength": 304
     }
   }
 }

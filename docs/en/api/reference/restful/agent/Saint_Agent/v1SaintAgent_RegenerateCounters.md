@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -92,7 +93,7 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,36 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 518,
-  "Name": "Hagenes, Nikolaus and Smitham",
-  "AssociateId": 959,
-  "DetailsTable": 392,
-  "DetailsRecord": 762,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 886,
+  "Name": "Altenwerth-Zemlak",
+  "AssociateId": 923,
+  "DetailsTable": 564,
+  "DetailsRecord": 450,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "delectus",
-    "ParameterObject2": "architecto"
+    "ParameterObject1": "magni",
+    "ParameterObject2": "in"
   },
-  "LastStarted": "2021-12-09T17:37:18.8172428+01:00",
-  "Created": "2019-09-24T17:37:18.8172428+02:00",
-  "StartCount": 122,
-  "DatabaseSerialNumber": "1187121",
-  "Context": "labore",
-  "Result": "dicta",
+  "LastStarted": "2010-07-31T11:22:38.9926773+02:00",
+  "Created": "2009-07-10T11:22:38.9926773+02:00",
+  "StartCount": 735,
+  "DatabaseSerialNumber": "1259747",
+  "Context": "et",
+  "Result": "ipsa",
   "State": "All",
-  "Description": "Monitored 24/7 archive",
-  "Response": "ullam",
-  "Request": "porro",
-  "ProgressDescription": "Multi-lateral methodical hub",
-  "ProgressPercent": 54,
-  "FileName": "Pfeffer Group",
+  "Description": "Open-architected executive internet solution",
+  "Response": "vel",
+  "Request": "laudantium",
+  "ProgressDescription": "Persevering real-time capability",
+  "ProgressPercent": 826,
+  "FileName": "Rogahn Inc and Sons",
+  "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldType": "System.String",
+      "FieldLength": 945
     }
   }
 }

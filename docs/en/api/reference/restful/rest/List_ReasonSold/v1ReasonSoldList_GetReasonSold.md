@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 62,
-  "Name": "Ankunding, Kutch and Jones",
-  "Tooltip": "recusandae",
+  "Id": 322,
+  "Name": "Hilll Inc and Sons",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "UdListDefinitionId": 490,
-  "Rank": 748,
+  "UdListDefinitionId": 434,
+  "Rank": 290,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldType": "System.Int32",
+      "FieldLength": 898
     }
   }
 }

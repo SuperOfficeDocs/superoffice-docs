@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 642,
-  "AttachmentId": "pariatur"
+  "DocId": 243,
+  "AttachmentId": "soluta"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Polarised empowering frame",
-  "Filename": "optio",
-  "Size": 469,
-  "Type": "tenetur",
-  "Encoding": "eum",
-  "Id": "est",
-  "Disposition": "ullam",
+  "Description": "Robust secondary framework",
+  "Filename": "unde",
+  "Size": 52,
+  "Type": "nobis",
+  "Encoding": "quos",
+  "Id": "quis",
+  "Disposition": "cupiditate",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 306
+      "FieldType": "System.Int32",
+      "FieldLength": 419
     }
   }
 }

@@ -106,27 +106,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 914,
-  "PlainMessage": "a",
-  "HtmlMessage": "perferendis",
-  "SmsMessage": "omnis",
-  "Description": "Multi-lateral actuating framework",
-  "Subject": "rerum",
-  "FolderId": 53,
-  "HeaderField": "laudantium",
-  "Design": "voluptate",
+  "ShipmentMessageId": 518,
+  "PlainMessage": "et",
+  "HtmlMessage": "qui",
+  "SmsMessage": "consequatur",
+  "Description": "Reduced local archive",
+  "Subject": "vel",
+  "FolderId": 33,
+  "HeaderField": "beatae",
+  "Design": "molestias",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "User-friendly optimizing policy",
-  "AccessKey": "debitis",
-  "DocumentMessage": 883,
-  "Registered": "1996-09-13T17:37:18.3192412+02:00",
-  "RegisteredAssociateId": 472,
-  "Updated": "1999-01-27T17:37:18.3192412+01:00",
-  "UpdatedAssociateId": 190,
-  "UpdatedCount": 882
+  "LongDescription": "Reactive uniform focus group",
+  "AccessKey": "totam",
+  "DocumentMessage": 356,
+  "Registered": "2013-08-03T11:22:38.5552678+02:00",
+  "RegisteredAssociateId": 511,
+  "Updated": "2008-01-17T11:22:38.5552678+01:00",
+  "UpdatedAssociateId": 500,
+  "UpdatedCount": 138
 }
 ```
 
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 477,
-  "PlainMessage": "similique",
-  "HtmlMessage": "et",
-  "SmsMessage": "quia",
-  "Description": "Profit-focused 24/7 software",
-  "Subject": "voluptatem",
-  "FolderId": 970,
-  "HeaderField": "eveniet",
-  "Design": "minima",
+  "ShipmentMessageId": 280,
+  "PlainMessage": "accusantium",
+  "HtmlMessage": "illum",
+  "SmsMessage": "aliquid",
+  "Description": "Robust discrete algorithm",
+  "Subject": "ut",
+  "FolderId": 342,
+  "HeaderField": "nemo",
+  "Design": "maxime",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Managed zero tolerance superstructure",
-  "AccessKey": "magni",
-  "DocumentMessage": 557,
-  "Registered": "1999-11-24T17:37:18.3202415+01:00",
-  "RegisteredAssociateId": 878,
-  "Updated": "2019-08-06T17:37:18.3202415+02:00",
-  "UpdatedAssociateId": 494,
-  "UpdatedCount": 690,
+  "LongDescription": "Synchronised discrete migration",
+  "AccessKey": "vitae",
+  "DocumentMessage": 752,
+  "Registered": "2021-10-28T11:22:38.5552678+02:00",
+  "RegisteredAssociateId": 30,
+  "Updated": "2007-12-24T11:22:38.5552678+01:00",
+  "UpdatedAssociateId": 977,
+  "UpdatedCount": 814,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldType": "System.String",
+      "FieldLength": 168
     }
   }
 }

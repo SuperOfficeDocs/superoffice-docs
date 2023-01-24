@@ -90,7 +90,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 46
+  "ShipmentId": 815
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1997-03-01T17:37:18.3242416+01:00",
+  "StartDate": "2001-05-21T11:22:38.5708923+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 426,
-  "ShipmentDescription": "Pre-emptive disintermediate migration",
-  "FromAddress": "placeat",
-  "PersonId": 17,
-  "PersonFullName": "Eden Kuhic",
-  "ShipmentType": "earum",
-  "MessageId": 635,
-  "MessageSubject": "nihil",
-  "DocumentMessageId": 796,
-  "NumSent": 969,
-  "NumOpened": 130,
-  "NumBounced": 24,
-  "NumClicks": 887,
+  "ShipmentId": 200,
+  "ShipmentDescription": "Intuitive bi-directional installation",
+  "FromAddress": "est",
+  "PersonId": 966,
+  "PersonFullName": "Melba Heller",
+  "ShipmentType": "excepturi",
+  "MessageId": 970,
+  "MessageSubject": "doloribus",
+  "DocumentMessageId": 582,
+  "NumSent": 1002,
+  "NumOpened": 719,
+  "NumBounced": 756,
+  "NumClicks": 943,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldLength": 525
     }
   }
 }

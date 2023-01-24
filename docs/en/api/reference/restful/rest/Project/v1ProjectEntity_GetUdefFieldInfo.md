@@ -92,7 +92,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 337,
-  "ColumnId": 640,
-  "FieldDefault": "rem",
-  "FieldHeight": 215,
-  "FieldLabel": "nobis",
-  "FieldLeft": 395,
-  "FieldTop": 799,
+  "UDefFieldId": 83,
+  "ColumnId": 384,
+  "FieldDefault": "voluptatem",
+  "FieldHeight": 593,
+  "FieldLabel": "et",
+  "FieldLeft": 562,
+  "FieldTop": 717,
   "FieldType": "Checkbox",
-  "FieldWidth": 264,
-  "FormatMask": "deleniti",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 218,
-  "LabelLeft": 273,
-  "LabelTop": 465,
-  "LabelWidth": 26,
-  "LastVersionId": 849,
-  "ListTableId": 326,
+  "FieldWidth": 31,
+  "FormatMask": "modi",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 954,
+  "LabelLeft": 606,
+  "LabelTop": 402,
+  "LabelWidth": 228,
+  "LastVersionId": 147,
+  "ListTableId": 612,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 569,
-  "ProgId": "atque",
+  "Page1LineNo": 429,
+  "ProgId": "cumque",
   "IsReadOnly": false,
-  "ShortLabel": "ut",
-  "TabOrder": 928,
-  "TextLength": 336,
-  "Tooltip": "aut",
-  "UdefIdentity": 398,
-  "UDListDefinitionId": 33,
+  "ShortLabel": "incidunt",
+  "TabOrder": 273,
+  "TextLength": 193,
+  "Tooltip": "commodi",
+  "UdefIdentity": 67,
+  "UDListDefinitionId": 912,
   "Justification": "Center",
-  "Version": 512,
-  "TemplateVariableName": "Metz, Volkman and Lemke",
-  "HasBeenPublished": true,
-  "MdoListName": "Satterfield-Tillman",
+  "Version": 679,
+  "TemplateVariableName": "Herman, Tillman and Parker",
+  "HasBeenPublished": false,
+  "MdoListName": "Morissette-Krajcik",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldLength": 966
     }
   }
 }

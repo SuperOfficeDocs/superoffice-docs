@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 743
+  "ProjectId": 55
 }
 ```
 
@@ -108,33 +108,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 680,
-    "ContactId": 648,
-    "ProjectId": 788,
-    "ContactName": "D'Amore, Altenwerth and Williamson",
+    "ProjectmemberId": 341,
+    "ContactId": 33,
+    "ProjectId": 4,
+    "ContactName": "Jacobson, Waelchi and Kling",
     "ContactDepartment": "",
-    "ProjectName": "Nikolaus, Kihn and Boyle",
-    "EmailId": 616,
-    "EmailAddress": "kelvin@konopelski.info",
-    "CountryId": 158,
-    "Firstname": "Carley",
-    "MiddleName": "Corkery, Stokes and Bosco",
-    "Lastname": "Harvey",
-    "PersonId": 694,
-    "Mrmrs": "fugit",
-    "ProjectMemberTypeName": "Kunde-Cronin",
-    "Phone": "757.242.2606 x6815",
-    "PhoneId": 717,
-    "ProjectMemberTypeId": 591,
-    "EmailAddressName": "oceane@douglas.com",
-    "Comment": "voluptas",
-    "FullName": "Amari Kunde",
+    "ProjectName": "Gorczany-Jerde",
+    "EmailId": 593,
+    "EmailAddress": "eugenia.considine@labadie.ca",
+    "CountryId": 556,
+    "Firstname": "Elroy",
+    "MiddleName": "Halvorson, Schoen and Berge",
+    "Lastname": "Walker",
+    "PersonId": 358,
+    "Mrmrs": "exercitationem",
+    "ProjectMemberTypeName": "Halvorson LLC",
+    "Phone": "843-640-2627 x240",
+    "PhoneId": 859,
+    "ProjectMemberTypeId": 426,
+    "EmailAddressName": "kristopher@goodwin.name",
+    "Comment": "sed",
+    "FullName": "Dr. Amara Sam Shields Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldType": "System.Int32",
+        "FieldLength": 115
       }
     }
   }

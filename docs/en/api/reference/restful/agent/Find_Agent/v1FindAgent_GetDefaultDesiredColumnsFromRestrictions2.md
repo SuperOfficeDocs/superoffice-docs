@@ -172,8 +172,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hilpert, Adams and Spencer",
-  "Restrictions": "nulla"
+  "ProviderName": "Brakus-Greenholt",
+  "Restrictions": "numquam"
 }
 ```
 
@@ -185,19 +185,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Johns LLC",
-    "DisplayTooltip": "et",
-    "DisplayType": "velit",
-    "CanOrderBy": false,
-    "Name": "Abshire, Paucek and Jakubowski",
+    "DisplayName": "McGlynn-Kiehn",
+    "DisplayTooltip": "non",
+    "DisplayType": "voluptas",
+    "CanOrderBy": true,
+    "Name": "Wuckert, Quitzon and Klein",
     "CanRestrictBy": true,
-    "RestrictionType": "quis",
-    "RestrictionListName": "Douglas, Bahringer and Emmerich",
-    "IsVisible": true,
-    "ExtraInfo": "eum",
-    "Width": "quis",
-    "IconHint": "voluptatem",
-    "HeadingIconHint": "dolores"
+    "RestrictionType": "voluptatem",
+    "RestrictionListName": "O'Connell, Fritsch and Schiller",
+    "IsVisible": false,
+    "ExtraInfo": "voluptate",
+    "Width": "ut",
+    "IconHint": "sit",
+    "HeadingIconHint": "veniam"
   }
 ]
 ```

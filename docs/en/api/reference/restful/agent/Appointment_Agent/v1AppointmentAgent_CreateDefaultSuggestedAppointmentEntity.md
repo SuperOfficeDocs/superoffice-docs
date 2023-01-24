@@ -79,17 +79,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 923,
-  "Name": "Kirlin LLC",
-  "Tooltip": "non",
-  "Rank": 781,
+  "SuggestedAppointmentId": 839,
+  "Name": "Lubowitz-Funk",
+  "Tooltip": "autem",
+  "Rank": 598,
   "Deleted": false,
-  "DaysFuture": 24,
-  "Duration": "qui",
+  "DaysFuture": 682,
+  "Duration": "nihil",
   "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "facere",
+  "Text": "illum",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 205
+      "FieldType": "System.Int32",
+      "FieldLength": 791
     }
   }
 }

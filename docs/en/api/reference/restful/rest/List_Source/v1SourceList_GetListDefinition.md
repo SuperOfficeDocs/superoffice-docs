@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 640,
-  "Name": "Glover-Dickinson",
-  "Tooltip": "pariatur",
+  "Id": 438,
+  "Name": "Bashirian Group",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "Rank": 614,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 503,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "labore",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 165
+      "FieldLength": 146
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

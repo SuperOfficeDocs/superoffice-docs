@@ -92,7 +92,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 422,
-  "ColumnId": 871,
-  "FieldDefault": "aut",
-  "FieldHeight": 731,
-  "FieldLabel": "vitae",
-  "FieldLeft": 824,
-  "FieldTop": 694,
+  "UDefFieldId": 205,
+  "ColumnId": 497,
+  "FieldDefault": "non",
+  "FieldHeight": 665,
+  "FieldLabel": "ipsum",
+  "FieldLeft": 49,
+  "FieldTop": 727,
   "FieldType": "Checkbox",
-  "FieldWidth": 983,
-  "FormatMask": "incidunt",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 148,
-  "LabelLeft": 664,
-  "LabelTop": 142,
-  "LabelWidth": 974,
-  "LastVersionId": 555,
-  "ListTableId": 178,
-  "IsMandatory": false,
+  "FieldWidth": 887,
+  "FormatMask": "debitis",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 23,
+  "LabelLeft": 936,
+  "LabelTop": 986,
+  "LabelWidth": 628,
+  "LastVersionId": 37,
+  "ListTableId": 535,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 730,
-  "ProgId": "voluptas",
-  "IsReadOnly": true,
-  "ShortLabel": "quod",
-  "TabOrder": 890,
-  "TextLength": 782,
-  "Tooltip": "voluptatem",
-  "UdefIdentity": 835,
-  "UDListDefinitionId": 540,
+  "Page1LineNo": 78,
+  "ProgId": "et",
+  "IsReadOnly": false,
+  "ShortLabel": "ut",
+  "TabOrder": 847,
+  "TextLength": 473,
+  "Tooltip": "porro",
+  "UdefIdentity": 619,
+  "UDListDefinitionId": 472,
   "Justification": "Center",
-  "Version": 418,
-  "TemplateVariableName": "Greenfelder Inc and Sons",
+  "Version": 574,
+  "TemplateVariableName": "Brown Group",
   "HasBeenPublished": false,
-  "MdoListName": "Hoppe-Hane",
+  "MdoListName": "Gulgowski Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldLength": 187
     }
   }
 }

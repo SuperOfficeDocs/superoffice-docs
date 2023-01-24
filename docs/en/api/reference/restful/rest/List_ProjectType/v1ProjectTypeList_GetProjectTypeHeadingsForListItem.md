@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 21,
-    "Name": "Terry-Schmitt",
-    "ToolTip": "Laudantium iure deleniti asperiores odit.",
-    "Deleted": false,
-    "Rank": 176,
-    "Type": "quas",
-    "ColorBlock": 112,
-    "IconHint": "itaque",
-    "Selected": true,
-    "LastChanged": "2020-08-20T17:37:40.2174708+02:00",
+    "Id": 819,
+    "Name": "McKenzie-Sawayn",
+    "ToolTip": "Blanditiis voluptates.",
+    "Deleted": true,
+    "Rank": 507,
+    "Type": "enim",
+    "ColorBlock": 901,
+    "IconHint": "ratione",
+    "Selected": false,
+    "LastChanged": "2021-02-09T11:22:46.0847653+01:00",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "O'Connell-Raynor",
-        "ToolTip": "Id natus autem.",
-        "Deleted": false,
-        "Rank": 756,
-        "Type": "voluptas",
-        "ColorBlock": 676,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2010-06-05T17:37:40.2174708+02:00",
+        "Id": 910,
+        "Name": "Nader, Gleason and Keeling",
+        "ToolTip": "Voluptatibus dolorem ut.",
+        "Deleted": true,
+        "Rank": 697,
+        "Type": "et",
+        "ColorBlock": 414,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2018-04-07T11:22:46.0847653+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Aylin Kutch",
+        "FullName": "Ms. Jordane Alessia Beier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 333
+            "FieldType": "System.Int32",
+            "FieldLength": 762
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "cumque",
-    "Hidden": true,
-    "FullName": "Declan Lang",
+    "ExtraInfo": "quis",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Brody D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldType": "System.String",
+        "FieldLength": 736
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,16 +84,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 119,
-  "Name": "Beahan, Braun and Pollich",
-  "Tooltip": "enim",
+  "RoleId": 136,
+  "Name": "Cormier Group",
+  "Tooltip": "quod",
   "RoleType": "Anonymous",
-  "Deleted": 874,
-  "Rank": 8,
-  "Created": "2006-09-24T17:37:39.064304+02:00",
-  "UseCategories": 150,
+  "Deleted": 741,
+  "Rank": 245,
+  "Created": "2005-01-06T11:22:45.0849869+01:00",
+  "UseCategories": 547,
   "CreatedBy": null,
-  "Updated": "2002-05-31T17:37:39.064304+02:00",
+  "Updated": "2017-06-23T11:22:45.0849869+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 22
     }
   }
 }

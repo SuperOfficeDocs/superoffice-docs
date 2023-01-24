@@ -25,7 +25,7 @@ Gets a TaskListItem object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetTaskListItem?taskListItemId=735
+POST /api/v1/Agents/Appointment/GetTaskListItem?taskListItemId=934
 POST /api/v1/Agents/Appointment/GetTaskListItem?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Appointment/GetTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,16 +88,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 853,
-  "Value": "tempore",
+  "TaskListItemId": 431,
+  "Value": "pariatur",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "inventore",
-  "Deleted": false,
-  "IntentId": 413,
-  "Rank": 441,
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "IntentId": 95,
+  "Rank": 767,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
+  "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldType": "System.String",
+      "FieldLength": 577
     }
   }
 }

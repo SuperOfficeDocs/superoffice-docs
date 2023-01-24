@@ -125,8 +125,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 301,
-  "ERPProductKey": "quos"
+  "QuoteAlternativeId": 130,
+  "ERPProductKey": "enim"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 485,
-  "ERPQuoteLineKey": "quis",
-  "QuoteAlternativeId": 236,
-  "ERPProductKey": "atque",
+  "QuoteLineId": 151,
+  "ERPQuoteLineKey": "recusandae",
+  "QuoteAlternativeId": 708,
+  "ERPProductKey": "eos",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 14338.05,
-  "DeliveredQuantity": 23116.384,
-  "Rank": 117,
-  "Name": "Schmeler Inc and Sons",
-  "Description": "Cloned multi-state budgetary management",
-  "Code": "nulla",
-  "QuantityUnit": "dolor",
-  "PriceUnit": "at",
-  "ItemNumber": "1153874",
+  "Quantity": 12097.24,
+  "DeliveredQuantity": 9085.466,
+  "Rank": 648,
+  "Name": "Zieme-Hessel",
+  "Description": "Synergized heuristic instruction set",
+  "Code": "magni",
+  "QuantityUnit": "asperiores",
+  "PriceUnit": "expedita",
+  "ItemNumber": "1077357",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "enim",
+  "ProductFamilyKey": "itaque",
   "ProductTypeKey": "et",
-  "Supplier": "blanditiis",
-  "SupplierCode": "adipisci",
-  "Thumbnail": "vero",
-  "VATInfo": "debitis",
-  "VAT": 21411.487999999998,
-  "UnitCost": 11385.822,
-  "UnitMinimumPrice": 12899.544,
-  "UnitListPrice": 26845.843999999997,
+  "Supplier": "accusamus",
+  "SupplierCode": "quidem",
+  "Thumbnail": "nemo",
+  "VATInfo": "dolor",
+  "VAT": 25733.273999999998,
+  "UnitCost": 22721.5,
+  "UnitMinimumPrice": 19885.23,
+  "UnitListPrice": 529.646,
   "ExtraInfo": [
     {
-      "Name": "Labadie Group",
-      "Value": "aut",
+      "Name": "Rohan Group",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 820
+          "FieldLength": 46
         }
       }
     },
     {
-      "Name": "Labadie Group",
-      "Value": "aut",
+      "Name": "Rohan Group",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 820
+          "FieldLength": 46
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
+  "RawExtraInfo": "quis",
   "IsSubscription": false,
-  "SubscriptionUnit": "eum",
-  "SubscriptionQuantity": 12695.833999999999,
-  "SubscriptionStart": "2021-06-15T17:37:18.7632423+02:00",
-  "ERPDiscountPercent": 7559.208,
-  "ERPDiscountAmount": 3613.502,
-  "DiscountPercent": 6612.74,
-  "DiscountAmount": 7932.1539999999995,
+  "SubscriptionUnit": "omnis",
+  "SubscriptionQuantity": 9771.812,
+  "SubscriptionStart": "2001-12-01T11:22:38.9458129+01:00",
+  "ERPDiscountPercent": 27949.012,
+  "ERPDiscountAmount": 25664.326,
+  "DiscountPercent": 19255.296,
+  "DiscountAmount": 17240.134,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 3588.43,
-  "EarningAmount": 137.896,
-  "SubTotal": 15362.868,
-  "TotalPrice": 18340.167999999998,
-  "Rights": "doloribus",
-  "Rule": "error",
-  "ExtraField1": "minima",
-  "ExtraField2": "eius",
-  "ExtraField3": "explicabo",
-  "ExtraField4": "sed",
-  "ExtraField5": "est",
+  "EarningPercent": 8894.292,
+  "EarningAmount": 13137.728,
+  "SubTotal": 17268.34,
+  "TotalPrice": 17337.288,
+  "Rights": "minima",
+  "Rule": "dolorem",
+  "ExtraField1": "et",
+  "ExtraField2": "ut",
+  "ExtraField3": "qui",
+  "ExtraField4": "accusamus",
+  "ExtraField5": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 186
+      "FieldType": "System.Int32",
+      "FieldLength": 310
     }
   }
 }

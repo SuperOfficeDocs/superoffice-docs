@@ -100,15 +100,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 601,
+  "SystemEventId": 1001,
   "Scope": "Database",
-  "Eta": "2008-12-30T17:37:39.2343038+01:00",
-  "Eventkey": "quisquam",
-  "Eventmess": "eum",
-  "ExtraInfo": 568,
-  "Owner": 10,
-  "UpdatedCount": 174,
-  "Registered": "2020-01-03T17:37:39.2343038+01:00",
+  "Eta": "2010-05-10T11:22:45.225579+02:00",
+  "Eventkey": "sed",
+  "Eventmess": "quis",
+  "ExtraInfo": 704,
+  "Owner": 259,
+  "UpdatedCount": 988,
+  "Registered": "2019-11-10T11:22:45.225579+01:00",
   "ActivatedBy": null
 }
 ```
@@ -120,27 +120,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 996,
+  "SystemEventId": 209,
   "Scope": "Database",
-  "Eta": "1997-05-02T17:37:39.2353034+02:00",
-  "Eventkey": "eligendi",
-  "Eventmess": "mollitia",
-  "ExtraInfo": 445,
-  "Owner": 993,
-  "UpdatedCount": 254,
-  "Registered": "2004-03-07T17:37:39.2353034+01:00",
+  "Eta": "2004-04-03T11:22:45.225579+02:00",
+  "Eventkey": "et",
+  "Eventmess": "nisi",
+  "ExtraInfo": 181,
+  "Owner": 564,
+  "UpdatedCount": 859,
+  "Registered": "2011-04-29T11:22:45.225579+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 770
+      "FieldType": "System.Int32",
+      "FieldLength": 20
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

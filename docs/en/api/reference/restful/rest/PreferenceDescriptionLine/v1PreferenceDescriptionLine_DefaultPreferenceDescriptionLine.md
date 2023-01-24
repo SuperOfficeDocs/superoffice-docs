@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 394,
-  "PrefDescId": 220,
-  "PrefValue": "aut",
-  "PrefShowValue": "pariatur",
-  "Description": "Front-line interactive alliance",
-  "IsBuiltin": false,
+  "PrefDescLineId": 624,
+  "PrefDescId": 415,
+  "PrefValue": "accusantium",
+  "PrefShowValue": "odio",
+  "Description": "Multi-lateral logistical projection",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 475
     }
   }
 }

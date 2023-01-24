@@ -70,21 +70,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "necessitatibus",
+  "RawValue": "iste",
   "Specification": null,
-  "DisplayValue": "autem",
+  "DisplayValue": "pariatur",
   "DisplayTooltip": "ut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 3,
-  "PrefDescId": 535,
-  "TableName": "Bernhard-Tremblay",
-  "UserPreferenceId": 786
+  "TargetId": 995,
+  "PrefDescId": 877,
+  "TableName": "Schmitt, Gislason and Flatley",
+  "UserPreferenceId": 126
 }
 ```
 

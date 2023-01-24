@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 624,
-    "Name": "Harber, Bartoletti and O'Keefe",
-    "Tooltip": "sit",
+    "HeadingId": 944,
+    "Name": "Kemmer LLC",
+    "Tooltip": "ducimus",
     "Deleted": false,
-    "Rank": 292,
-    "UdListDefinitionId": 957
+    "Rank": 435,
+    "UdListDefinitionId": 925
   },
   {
-    "HeadingId": 624,
-    "Name": "Harber, Bartoletti and O'Keefe",
-    "Tooltip": "sit",
+    "HeadingId": 944,
+    "Name": "Kemmer LLC",
+    "Tooltip": "ducimus",
     "Deleted": false,
-    "Rank": 292,
-    "UdListDefinitionId": 957
+    "Rank": 435,
+    "UdListDefinitionId": 925
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 311,
-    "Name": "Lemke, Schroeder and Gutkowski",
-    "Tooltip": "dolorem",
+    "HeadingId": 489,
+    "Name": "Koepp-Ritchie",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 464,
-    "UdListDefinitionId": 909,
+    "Rank": 938,
+    "UdListDefinitionId": 471,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 443
+        "FieldType": "System.Int32",
+        "FieldLength": 346
       }
     }
   }

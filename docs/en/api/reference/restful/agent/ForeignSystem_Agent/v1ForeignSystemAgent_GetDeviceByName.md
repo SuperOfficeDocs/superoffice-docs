@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Renner, Treutel and O'Hara",
-  "DeviceName": "Vandervort-Satterfield"
+  "ApplicationName": "Schneider LLC",
+  "DeviceName": "Parker, Dicki and Shanahan"
 }
 ```
 
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 331,
-  "Name": "Wuckert, Kunde and Torphy",
-  "CreatedDate": "1999-12-03T17:37:18.1002438+01:00",
-  "UpdatedDate": "1996-11-09T17:37:18.1002438+01:00",
-  "AssociateFullName": "Dr. Jailyn Godfrey Ondricka V",
-  "CreatedBy": "rerum",
-  "UpdatedBy": "exercitationem",
-  "DeviceIdentifier": "rerum",
-  "ForeignAppId": 665,
+  "ForeignDeviceId": 245,
+  "Name": "Wuckert Group",
+  "CreatedDate": "2017-10-31T11:22:38.3678241+01:00",
+  "UpdatedDate": "2003-09-14T11:22:38.3678241+02:00",
+  "AssociateFullName": "Ida Ratke",
+  "CreatedBy": "fugit",
+  "UpdatedBy": "dolor",
+  "DeviceIdentifier": "sunt",
+  "ForeignAppId": 298,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldLength": 546
     }
   }
 }

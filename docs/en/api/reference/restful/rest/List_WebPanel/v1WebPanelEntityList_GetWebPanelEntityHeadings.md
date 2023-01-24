@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 775,
-    "Name": "Altenwerth, Grady and Ebert",
-    "Tooltip": "culpa",
-    "Deleted": true,
-    "Rank": 861,
-    "UdListDefinitionId": 248,
+    "HeadingId": 698,
+    "Name": "Casper-Frami",
+    "Tooltip": "a",
+    "Deleted": false,
+    "Rank": 572,
+    "UdListDefinitionId": 539,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 659
+        "FieldLength": 53
       }
     }
   }

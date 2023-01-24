@@ -93,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 243,
-  "Name": "Moen, Kunde and Vandervort",
+  "TicketPriorityId": 715,
+  "Name": "Spencer-Witting",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 488,
+  "SortOrder": 459,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 982,
-  "MonStart": "2012-12-24T17:37:18.2932417+01:00",
-  "MonStop": "2000-07-03T17:37:18.2932417+02:00",
-  "TueStart": "2003-03-07T17:37:18.2932417+01:00",
-  "TueStop": "2003-03-15T17:37:18.2932417+01:00",
-  "WedStart": "2016-01-30T17:37:18.2932417+01:00",
-  "WedStop": "2018-02-12T17:37:18.2932417+01:00",
-  "ThuStart": "2015-10-03T17:37:18.2932417+02:00",
-  "ThuStop": "2006-04-24T17:37:18.2932417+02:00",
-  "FriStart": "2014-11-27T17:37:18.2932417+01:00",
-  "FriStop": "2006-08-06T17:37:18.2932417+02:00",
-  "SatStart": "1995-12-28T17:37:18.2932417+01:00",
-  "SatStop": "2002-12-03T17:37:18.2932417+01:00",
-  "SunStart": "2008-01-28T17:37:18.2932417+01:00",
-  "SunStop": "2007-12-26T17:37:18.2932417+01:00",
+  "Deadline": 764,
+  "MonStart": "1997-12-14T11:22:38.5396587+01:00",
+  "MonStop": "2013-05-03T11:22:38.5396587+02:00",
+  "TueStart": "2015-04-29T11:22:38.5396587+02:00",
+  "TueStop": "2002-10-29T11:22:38.5396587+01:00",
+  "WedStart": "1998-05-10T11:22:38.5396587+02:00",
+  "WedStop": "1998-08-01T11:22:38.5396587+02:00",
+  "ThuStart": "2002-09-02T11:22:38.5396587+02:00",
+  "ThuStop": "2011-10-07T11:22:38.5396587+02:00",
+  "FriStart": "1996-10-16T11:22:38.5396587+02:00",
+  "FriStop": "2022-10-16T11:22:38.5396587+02:00",
+  "SatStart": "2013-12-22T11:22:38.5396587+01:00",
+  "SatStop": "2014-04-09T11:22:38.5396587+02:00",
+  "SunStart": "2012-02-26T11:22:38.5396587+01:00",
+  "SunStop": "2019-04-14T11:22:38.5396587+02:00",
   "NonDates": [
-    "numquam",
-    "laboriosam"
+    "magnam",
+    "tempora"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 857,
-      "AlertLevel": 414,
-      "AlertTimeout": 127,
-      "Action": 199,
-      "DelegateTo": 258,
-      "ScriptId": 217,
-      "EmailTo": "emely@gorczany.co.uk",
-      "SmsTo": "quia",
-      "ReplyTemplateIdCustomer": 997,
-      "ReplyTemplateIdUser": 935,
-      "ReplyTemplateIdCatmast": 83,
-      "ReplyTemplateIdEmail": 411,
-      "RtiCustomerSms": 47,
-      "ReplyTemplateIdUserSms": 736,
-      "ReplyTemplateIdCatmastSms": 529,
-      "ReplyTemplateIdSms": 415,
+      "TicketAlertId": 494,
+      "AlertLevel": 133,
+      "AlertTimeout": 250,
+      "Action": 121,
+      "DelegateTo": 413,
+      "ScriptId": 504,
+      "EmailTo": "zoila@morar.biz",
+      "SmsTo": "minus",
+      "ReplyTemplateIdCustomer": 282,
+      "ReplyTemplateIdUser": 112,
+      "ReplyTemplateIdCatmast": 214,
+      "ReplyTemplateIdEmail": 795,
+      "RtiCustomerSms": 944,
+      "ReplyTemplateIdUserSms": 8,
+      "ReplyTemplateIdCatmastSms": 283,
+      "ReplyTemplateIdSms": 26,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 719
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 453
+      "FieldType": "System.Int32",
+      "FieldLength": 889
     }
   }
 }

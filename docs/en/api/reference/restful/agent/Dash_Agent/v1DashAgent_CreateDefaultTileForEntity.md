@@ -81,7 +81,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Yundt-Hamill"
+  "EntityName": "Dare LLC"
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 115,
-  "DashboardId": 670,
-  "Height": 708,
-  "Width": 967,
-  "Rank": 948,
+  "DashboardTileId": 746,
+  "DashboardId": 437,
+  "Height": 823,
+  "Width": 111,
+  "Rank": 781,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 86
+      "FieldType": "System.Int32",
+      "FieldLength": 459
     }
   }
 }

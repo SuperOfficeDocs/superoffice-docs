@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 207,
-  "CurrencyId": 164
+  "QuoteConnectionId": 657,
+  "CurrencyId": 166
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 34,
-    "ERPPriceListKey": "quia",
-    "QuoteConnectionId": 293,
-    "Name": "Upton, Ledner and McClure",
-    "Description": "Ameliorated tangible infrastructure",
-    "Currency": "saepe",
-    "CurrencyName": "West, Stiedemann and Hessel",
-    "ValidFrom": "1996-05-27T17:37:18.7482421+02:00",
-    "ValidTo": "2003-08-07T17:37:18.7482421+02:00",
+    "PriceListId": 695,
+    "ERPPriceListKey": "non",
+    "QuoteConnectionId": 193,
+    "Name": "Skiles LLC",
+    "Description": "Organized incremental flexibility",
+    "Currency": "quis",
+    "CurrencyName": "Abernathy-Bruen",
+    "ValidFrom": "2020-02-28T11:22:38.9301893+01:00",
+    "ValidTo": "1997-02-01T11:22:38.9301893+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 813
+        "FieldType": "System.Int32",
+        "FieldLength": 162
       }
     }
   }

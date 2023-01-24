@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Document/GetPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 119
+  "DocumentId": 300
 }
 ```
 
@@ -92,16 +92,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Green, Corwin and Gulgowski",
-  "Type": "odio",
-  "Size": 463,
+  "Name": "Barrows, Ruecker and Mosciski",
+  "Type": "saepe",
+  "Size": 786,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 518
     }
   }
 }

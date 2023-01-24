@@ -137,18 +137,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eum",
+    "path": "ullam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eum",
+    "path": "ullam",
     "value": {}
   }
 ]
@@ -161,48 +161,48 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 190,
-  "TopicId": 973,
+  "ChatSessionId": 67,
+  "TopicId": 373,
   "User": null,
   "Person": null,
-  "CustomerAlias": "autem",
-  "CustomerHost": "sed",
-  "CustomerName": "Schoen, Schinner and Deckow",
-  "CustomerEmail": "davion_green@kozeygreen.ca",
-  "CustomerPhone": "(157)723-5215",
+  "CustomerAlias": "laborum",
+  "CustomerHost": "in",
+  "CustomerName": "Tillman-Skiles",
+  "CustomerEmail": "loma_breitenberg@brekke.co.uk",
+  "CustomerPhone": "747-702-5972",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Metz, Baumbach and Bailey",
+  "CustomerCompanyName": "Ryan, Hamill and Harber",
   "Status": "Closed",
-  "FirstMessage": "aliquid",
-  "LastMessage": "alias",
-  "WhenRequested": "2013-05-12T17:37:38.2078597+02:00",
-  "WhenStarted": "2012-11-27T17:37:38.2078597+01:00",
-  "WhenEnded": "2021-11-07T17:37:38.2078597+01:00",
-  "WhenIdle": "1997-11-18T17:37:38.2078597+01:00",
-  "WhenFetched": "2014-02-19T17:37:38.2078597+01:00",
-  "SessionKey": "tempora",
-  "InitialQueuePos": 324,
-  "AlertLevel": 752,
-  "Rank": 809,
+  "FirstMessage": "iure",
+  "LastMessage": "cum",
+  "WhenRequested": "2005-04-22T11:22:44.335174+02:00",
+  "WhenStarted": "2007-08-21T11:22:44.335174+02:00",
+  "WhenEnded": "2001-03-19T11:22:44.335174+01:00",
+  "WhenIdle": "1997-04-09T11:22:44.335174+02:00",
+  "WhenFetched": "2009-08-30T11:22:44.335174+02:00",
+  "SessionKey": "dignissimos",
+  "InitialQueuePos": 412,
+  "AlertLevel": 103,
+  "Rank": 561,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 799,
+  "ChatbotIsActive": true,
+  "Rating": 103,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldType": "System.String",
+      "FieldLength": 926
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

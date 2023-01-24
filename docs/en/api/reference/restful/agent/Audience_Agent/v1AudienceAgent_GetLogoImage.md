@@ -67,11 +67,11 @@ OK
 POST /api/v1/Agents/Audience/GetLogoImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Schumm-Gulgowski"
+  "LayoutName": "Green, Greenfelder and Miller"
 }
 ```
 

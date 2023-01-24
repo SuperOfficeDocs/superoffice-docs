@@ -84,7 +84,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,42 +94,42 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 120,
-  "UniqueId": "repellat",
-  "Name": "Conn-Kunde",
-  "Description": "Horizontal directional structure",
-  "AssociateId": 425,
-  "Columns": 871,
+  "DashboardId": 708,
+  "UniqueId": "sequi",
+  "Name": "Friesen Inc and Sons",
+  "Description": "Digitized neutral system engine",
+  "AssociateId": 276,
+  "Columns": 261,
   "Theme": null,
-  "VisibleForAll": 672,
+  "VisibleForAll": 626,
   "VisibleForAssociates": [
-    961,
-    723
+    60,
+    393
   ],
   "VisibleForGroups": [
-    656,
-    858
+    49,
+    745
   ],
-  "PinForAll": 381,
+  "PinForAll": 627,
   "PinForAssociates": [
-    268,
-    282
+    445,
+    557
   ],
   "PinForGroups": [
-    517,
-    266
+    630,
+    967
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 882
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

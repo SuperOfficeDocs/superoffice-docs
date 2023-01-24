@@ -73,7 +73,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 334
+  "ContactId": 355
 }
 ```
 
@@ -83,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Schultz LLC",
-    "ToolTip": "Et error.",
-    "Deleted": true,
-    "Rank": 109,
-    "Type": "cumque",
-    "ColorBlock": 860,
-    "IconHint": "quidem",
+    "Id": 862,
+    "Name": "Bechtelar-Gorczany",
+    "ToolTip": "Nesciunt voluptas neque ducimus voluptatum.",
+    "Deleted": false,
+    "Rank": 778,
+    "Type": "consequatur",
+    "ColorBlock": 579,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2001-09-15T17:37:40.2294702+02:00",
+    "LastChanged": "2003-03-24T11:22:46.0847653+01:00",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "Rosenbaum Inc and Sons",
-        "ToolTip": "Optio error laborum.",
+        "Id": 800,
+        "Name": "Swaniawski Group",
+        "ToolTip": "Qui et soluta laboriosam aut non sed velit.",
         "Deleted": false,
-        "Rank": 125,
-        "Type": "est",
-        "ColorBlock": 647,
-        "IconHint": "odit",
-        "Selected": false,
-        "LastChanged": "2014-01-12T17:37:40.2294702+01:00",
+        "Rank": 185,
+        "Type": "deleniti",
+        "ColorBlock": 28,
+        "IconHint": "commodi",
+        "Selected": true,
+        "LastChanged": "2006-03-10T11:22:46.0847653+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "nemo",
-        "Hidden": true,
-        "FullName": "Mr. Itzel O'Hara",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "perferendis",
+        "Hidden": false,
+        "FullName": "Miss Jaqueline Rempel III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 753
+            "FieldLength": 924
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "qui",
+    "ExtraInfo": "eaque",
+    "StyleHint": "vel",
     "Hidden": true,
-    "FullName": "Kamille McLaughlin",
+    "FullName": "Sarah Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldLength": 408
       }
     }
   }

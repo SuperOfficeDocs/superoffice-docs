@@ -98,27 +98,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 90,
-  "Name": "Hermann Group",
-  "CurrencyId": 547,
-  "EnglishName": "Schaden-Stracke",
+  "CountryId": 606,
+  "Name": "Zboncak Inc and Sons",
+  "CurrencyId": 918,
+  "EnglishName": "Deckow, Schowalter and Reichert",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Right-sized clear-thinking hierarchy",
-  "OrgNrText": "839090",
-  "InterAreaPrefix": "dolor",
-  "DialInPrefix": "eaque",
-  "ZipPrefix": "voluptas",
-  "DomainName": "Schmitt, Kling and Kihn",
-  "AddressLayoutId": 720,
-  "DomesticAddressLayoutId": 814,
-  "ForeignAddressLayoutId": 833,
-  "Rank": 495,
-  "Tooltip": "facere",
+  "ImageDescription": "Operative impactful neural-net",
+  "OrgNrText": "1031070",
+  "InterAreaPrefix": "est",
+  "DialInPrefix": "cupiditate",
+  "ZipPrefix": "odit",
+  "DomainName": "Gusikowski, Yundt and Kshlerin",
+  "AddressLayoutId": 105,
+  "DomesticAddressLayoutId": 582,
+  "ForeignAddressLayoutId": 374,
+  "Rank": 994,
+  "Tooltip": "aut",
   "Deleted": false
 }
 ```
@@ -130,30 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 784,
-  "Name": "Hand Inc and Sons",
-  "CurrencyId": 32,
-  "EnglishName": "Davis, Stroman and Brekke",
+  "CountryId": 956,
+  "Name": "Reichel-Morar",
+  "CurrencyId": 957,
+  "EnglishName": "Gerlach, Nicolas and Rolfson",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Exclusive eco-centric benchmark",
-  "OrgNrText": "1479133",
-  "InterAreaPrefix": "tempore",
-  "DialInPrefix": "dolor",
-  "ZipPrefix": "incidunt",
-  "DomainName": "Zieme-Gislason",
-  "AddressLayoutId": 79,
-  "DomesticAddressLayoutId": 503,
-  "ForeignAddressLayoutId": 882,
-  "Rank": 785,
-  "Tooltip": "quaerat",
+  "ImageDescription": "Front-line 24/7 moratorium",
+  "OrgNrText": "1520672",
+  "InterAreaPrefix": "voluptate",
+  "DialInPrefix": "porro",
+  "ZipPrefix": "qui",
+  "DomainName": "Olson Inc and Sons",
+  "AddressLayoutId": 790,
+  "DomesticAddressLayoutId": 637,
+  "ForeignAddressLayoutId": 27,
+  "Rank": 299,
+  "Tooltip": "commodi",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldType": "System.Int32",
+      "FieldLength": 335
     }
   }
 }

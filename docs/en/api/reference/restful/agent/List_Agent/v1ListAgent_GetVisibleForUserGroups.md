@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 274,
-  "ListItemId": 650
+  "UdListDefinitionId": 43,
+  "ListItemId": 817
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Bogan-Johnson",
-    "ToolTip": "Molestiae perferendis.",
-    "Deleted": false,
-    "Rank": 301,
-    "Type": "vel",
-    "ColorBlock": 125,
-    "IconHint": "id",
+    "Id": 826,
+    "Name": "Sipes LLC",
+    "ToolTip": "Dolores sit.",
+    "Deleted": true,
+    "Rank": 962,
+    "Type": "recusandae",
+    "ColorBlock": 435,
+    "IconHint": "ex",
     "Selected": true,
-    "LastChanged": "2005-09-22T17:37:18.1922449+02:00",
+    "LastChanged": "2000-05-12T11:22:38.4615502+02:00",
     "ChildItems": [
       {
-        "Id": 424,
-        "Name": "Heller, Auer and Buckridge",
-        "ToolTip": "Magnam est.",
-        "Deleted": true,
-        "Rank": 926,
-        "Type": "natus",
-        "ColorBlock": 686,
-        "IconHint": "non",
+        "Id": 979,
+        "Name": "Treutel-McLaughlin",
+        "ToolTip": "Fugiat est nemo odit aperiam.",
+        "Deleted": false,
+        "Rank": 366,
+        "Type": "neque",
+        "ColorBlock": 624,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2019-03-02T17:37:18.1932444+01:00",
+        "LastChanged": "2000-12-11T11:22:38.4615502+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "ullam",
         "Hidden": true,
-        "FullName": "Cody Hartmann",
+        "FullName": "Mrs. Donny Anderson MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 639
+            "FieldType": "System.Int32",
+            "FieldLength": 7
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Haleigh Mary Harber Sr.",
+    "ExtraInfo": "qui",
+    "StyleHint": "earum",
+    "Hidden": true,
+    "FullName": "Ursula Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldLength": 584
       }
     }
   }

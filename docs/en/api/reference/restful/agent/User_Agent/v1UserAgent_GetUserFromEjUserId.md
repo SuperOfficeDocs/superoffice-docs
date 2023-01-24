@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 950
+  "EjUserId": 662
 }
 ```
 
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 354,
-    "Name": "Koelpin Group",
-    "Rank": 159,
-    "Tooltip": "aliquam",
+    "AssociateId": 143,
+    "Name": "Rath-Schumm",
+    "Rank": 144,
+    "Tooltip": "ea",
     "LicenseOwners": [
       {
-        "Name": "Hansen, Gorczany and Emard",
-        "Description": "Right-sized composite toolset",
+        "Name": "Kutch, Erdman and Zemlak",
+        "Description": "Fully-configurable disintermediate product",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -134,14 +134,14 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 265
+            "FieldType": "System.String",
+            "FieldLength": 520
           }
         }
       },
       {
-        "Name": "Hansen, Gorczany and Emard",
-        "Description": "Right-sized composite toolset",
+        "Name": "Kutch, Erdman and Zemlak",
+        "Description": "Fully-configurable disintermediate product",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 265
+            "FieldType": "System.String",
+            "FieldLength": 520
           }
         }
       }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "omnis",
-        "Tooltip": "numquam",
-        "Id": 287,
-        "Rank": 682,
+        "Value": "ab",
+        "Tooltip": "sint",
+        "Id": 526,
+        "Rank": 897,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 807
+            "FieldType": "System.Int32",
+            "FieldLength": 842
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2008-04-03T17:37:19.6129779+02:00",
-    "Lastlogout": "2001-04-23T17:37:19.6129779+02:00",
-    "EjUserId": 680,
-    "RequestSignature": "aut",
+    "Lastlogin": "2022-02-04T11:22:39.6800331+01:00",
+    "Lastlogout": "2019-03-07T11:22:39.6800331+01:00",
+    "EjUserId": 893,
+    "RequestSignature": "tenetur",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": false,
-    "IsOnTravel": true,
+    "IsPersonRetired": true,
+    "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "ipsum",
-        "DisplayValue": "et",
+        "Value": "dolores",
+        "DisplayValue": "assumenda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 870
+            "FieldLength": 654
           }
         }
       },
       {
         "Type": null,
-        "Value": "ipsum",
-        "DisplayValue": "et",
+        "Value": "dolores",
+        "DisplayValue": "assumenda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 870
+            "FieldLength": 654
           }
         }
       }
     ],
-    "UserName": "Strosin Inc and Sons",
+    "UserName": "Rowe, Lueilwitz and Marvin",
     "TicketCategories": [
       {
-        "Id": 412,
-        "Name": "Kuhlman Group",
-        "ToolTip": "Sunt molestiae omnis accusantium voluptatem natus odit.",
-        "Deleted": false,
-        "Rank": 811,
-        "Type": "omnis",
+        "Id": 557,
+        "Name": "Graham Group",
+        "ToolTip": "Porro facere consequatur sapiente dolores.",
+        "Deleted": true,
+        "Rank": 360,
+        "Type": "doloribus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ex",
-        "ColorBlock": 735,
-        "ExtraInfo": "totam",
-        "StyleHint": "error",
-        "FullName": "Mr. Gina Ziemann IV",
+        "IconHint": "expedita",
+        "ColorBlock": 637,
+        "ExtraInfo": "delectus",
+        "StyleHint": "odit",
+        "FullName": "Norma Gutkowski DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 153
+            "FieldType": "System.String",
+            "FieldLength": 390
           }
         }
       }
     ],
-    "NickName": "Mitchell LLC",
+    "NickName": "Steuber, Jaskolski and Becker",
     "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "doloremque",
-      "ExtraFields2": "debitis"
+      "ExtraFields1": "autem",
+      "ExtraFields2": "quae"
     },
     "CustomFields": {
-      "CustomFields1": "tenetur",
-      "CustomFields2": "dignissimos"
+      "CustomFields1": "expedita",
+      "CustomFields2": "at"
     },
     "PostSaveCommands": [
       {
-        "Name": "Gulgowski-Tillman",
-        "DisplayName": "Pagac Group",
-        "Description": "User-friendly systemic support",
-        "ToolTip": "Facilis earum voluptatibus molestiae repellat possimus.",
+        "Name": "Nolan Inc and Sons",
+        "DisplayName": "Crona-Witting",
+        "Description": "Down-sized demand-driven archive",
+        "ToolTip": "Omnis consequatur quisquam eligendi id vero voluptas.",
         "Actions": "Implicit",
-        "ActionData": "enim",
+        "ActionData": "eaque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 799
+            "FieldLength": 201
           }
         }
       }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 587
       }
     }
   }

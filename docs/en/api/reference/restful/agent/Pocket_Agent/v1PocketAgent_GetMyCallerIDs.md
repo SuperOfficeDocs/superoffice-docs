@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "ex",
-  "MinDate": "1997-06-25T17:37:18.5662419+02:00",
-  "MaxDate": "2014-03-15T17:37:18.5662419+01:00"
+  "LastHash": "illum",
+  "MinDate": "2005-09-03T11:22:38.7739723+02:00",
+  "MaxDate": "2013-01-12T11:22:38.7739723+01:00"
 }
 ```
 
@@ -90,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "soluta",
+  "CallerIDHash": "quod",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 401,
-      "PersonId": 910,
-      "PersonName": "Abernathy, Walsh and Nitzsche",
-      "Mrmrs": "animi",
-      "ContactId": 938,
-      "ContactName": "Mann Inc and Sons"
+      "DialInPrefix": 963,
+      "PersonId": 45,
+      "PersonName": "Wuckert LLC",
+      "Mrmrs": "et",
+      "ContactId": 472,
+      "ContactName": "Kerluke Inc and Sons"
     }
   ]
 }

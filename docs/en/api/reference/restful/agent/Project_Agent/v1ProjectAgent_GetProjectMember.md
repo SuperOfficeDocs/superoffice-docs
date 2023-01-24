@@ -25,7 +25,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=876
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=543
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 362,
-  "ContactId": 463,
-  "ProjectId": 350,
-  "ContactName": "Breitenberg, Jerde and Hills",
+  "ProjectmemberId": 345,
+  "ContactId": 894,
+  "ProjectId": 606,
+  "ContactName": "Osinski-Collier",
   "ContactDepartment": "",
-  "ProjectName": "Hessel Group",
-  "EmailId": 515,
-  "EmailAddress": "hyman_daugherty@effertz.ca",
-  "CountryId": 277,
-  "Firstname": "Mariane",
-  "MiddleName": "Yundt, Hettinger and Hickle",
-  "Lastname": "Tillman",
-  "PersonId": 584,
-  "Mrmrs": "deserunt",
-  "ProjectMemberTypeName": "Mante-Lind",
-  "Phone": "1-414-728-5085",
-  "PhoneId": 548,
-  "ProjectMemberTypeId": 160,
-  "EmailAddressName": "derick_botsford@kiehn.uk",
-  "Comment": "fuga",
-  "FullName": "Dahlia Klocko",
+  "ProjectName": "Nikolaus, Adams and Daniel",
+  "EmailId": 835,
+  "EmailAddress": "marlin.kuhn@beattyparker.biz",
+  "CountryId": 672,
+  "Firstname": "Bria",
+  "MiddleName": "Jast Inc and Sons",
+  "Lastname": "Kihn",
+  "PersonId": 859,
+  "Mrmrs": "et",
+  "ProjectMemberTypeName": "Abernathy, Nader and Runolfsson",
+  "Phone": "050.627.0353 x2896",
+  "PhoneId": 898,
+  "ProjectMemberTypeId": 776,
+  "EmailAddressName": "madonna_kiehn@weber.uk",
+  "Comment": "iure",
+  "FullName": "Prof. Antonietta Gislason",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 385
     }
   }
 }

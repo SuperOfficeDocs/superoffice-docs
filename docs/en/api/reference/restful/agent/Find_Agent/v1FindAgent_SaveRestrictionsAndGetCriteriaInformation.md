@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eius",
-  "ProviderName": "Nolan-Shields",
-  "StorageKey": "corrupti",
+  "StorageType": "cumque",
+  "ProviderName": "Rodriguez LLC",
+  "StorageKey": "ad",
   "Restrictions": [
     {
-      "Name": "Lueilwitz, Blanda and Murazik",
-      "Operator": "nulla",
+      "Name": "Daniel Inc and Sons",
+      "Operator": "magni",
       "Values": [
-        "sint",
-        "facilis"
+        "vel",
+        "possimus"
       ],
       "DisplayValues": [
-        "amet",
-        "ut"
+        "reprehenderit",
+        "quos"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 388,
+      "InterParenthesis": 625,
       "InterOperator": "And",
-      "UniqueHash": 165
+      "UniqueHash": 220
     }
   ],
   "StaticColumns": [
-    "est",
-    "earum"
+    "nihil",
+    "et"
   ]
 }
 ```
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Skiles LLC",
-      "Operator": "maiores",
+      "Name": "Sauer Group",
+      "Operator": "enim",
       "Values": [
-        "ex",
-        "quod"
+        "molestiae",
+        "velit"
       ],
       "DisplayValues": [
-        "nam",
-        "expedita"
+        "culpa",
+        "eveniet"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 353,
+      "InterParenthesis": 806,
       "InterOperator": "And",
-      "UniqueHash": 488
+      "UniqueHash": 628
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Schowalter Inc and Sons",
-      "DisplayTooltip": "et",
-      "DisplayType": "placeat",
+      "DisplayName": "Prohaska Inc and Sons",
+      "DisplayTooltip": "excepturi",
+      "DisplayType": "sit",
       "CanOrderBy": false,
-      "Name": "Gibson LLC",
+      "Name": "Lebsack, Orn and Heathcote",
       "CanRestrictBy": false,
-      "RestrictionType": "maxime",
-      "RestrictionListName": "Barrows-Ferry",
-      "IsVisible": false,
-      "ExtraInfo": "qui",
-      "Width": "consectetur",
-      "IconHint": "magni",
-      "HeadingIconHint": "perferendis"
+      "RestrictionType": "deserunt",
+      "RestrictionListName": "Deckow Group",
+      "IsVisible": true,
+      "ExtraInfo": "mollitia",
+      "Width": "autem",
+      "IconHint": "ut",
+      "HeadingIconHint": "velit"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "McClure-Pfannerstill",
-      "PrimaryKey": 412,
+      "EntityName": "Ernser LLC",
+      "PrimaryKey": 818,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "esse",
-          "TooltipHint": "itaque",
-          "LinkHint": "ut"
+          "DisplayValue": "laborum",
+          "TooltipHint": "sapiente",
+          "LinkHint": "consequatur"
         }
       },
       "LinkHint": "omnis",
-      "StyleHint": "soluta",
+      "StyleHint": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 463
+          "FieldType": "System.Int32",
+          "FieldLength": 840
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kshlerin, Goodwin and Greenfelder",
-      "Description": "Synergistic systemic encoding",
-      "Rank": 661,
+      "Name": "Stoltenberg Group",
+      "Description": "Self-enabling uniform infrastructure",
+      "Rank": 583,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kshlerin, Goodwin and Greenfelder",
-      "Description": "Synergistic systemic encoding",
-      "Rank": 661,
+      "Name": "Stoltenberg Group",
+      "Description": "Self-enabling uniform infrastructure",
+      "Rank": 583,
       "Restrictions": [
         {},
         {}
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 427
+      "FieldLength": 590
     }
   }
 }

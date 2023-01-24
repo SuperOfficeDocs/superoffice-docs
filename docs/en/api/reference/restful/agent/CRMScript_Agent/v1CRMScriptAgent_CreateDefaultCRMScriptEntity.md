@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 420,
-  "UniqueIdentifier": "earum",
-  "Name": "Schuppe Inc and Sons",
-  "Description": "Self-enabling client-driven attitude",
-  "IncludeId": "incidunt",
-  "HierarchyId": 194,
-  "Source": "beatae",
-  "Registered": "1997-02-21T17:37:17.323246+01:00",
-  "RegisteredAssociateId": 968,
-  "Updated": "2006-10-02T17:37:17.323246+02:00",
-  "UpdatedAssociateId": 244,
+  "EjscriptId": 659,
+  "UniqueIdentifier": "natus",
+  "Name": "Cronin LLC",
+  "Description": "Switchable bandwidth-monitored encoding",
+  "IncludeId": "officiis",
+  "HierarchyId": 106,
+  "Source": "blanditiis",
+  "Registered": "2002-11-14T11:22:37.7742144+01:00",
+  "RegisteredAssociateId": 822,
+  "Updated": "2007-11-22T11:22:37.7742144+01:00",
+  "UpdatedAssociateId": 538,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldType": "System.String",
+      "FieldLength": 660
     }
   }
 }

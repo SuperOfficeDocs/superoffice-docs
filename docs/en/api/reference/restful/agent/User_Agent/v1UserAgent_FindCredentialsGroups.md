@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "quo",
-  "SearchString": "nihil"
+  "Type": "ea",
+  "SearchString": "recusandae"
 }
 ```
 
@@ -96,26 +96,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walker Inc and Sons",
-    "DisplayName": "Becker, O'Reilly and Bashirian",
+    "Name": "Bergstrom, Kutch and Kovacek",
+    "DisplayName": "O'Connell Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 36
+        "FieldLength": 491
       }
     }
   },
   {
-    "Name": "Walker Inc and Sons",
-    "DisplayName": "Becker, O'Reilly and Bashirian",
+    "Name": "Bergstrom, Kutch and Kovacek",
+    "DisplayName": "O'Connell Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 36
+        "FieldLength": 491
       }
     }
   }

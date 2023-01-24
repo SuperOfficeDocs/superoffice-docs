@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,36 +97,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 995,
-    "ParentId": 13,
-    "Name": "Casper LLC",
-    "Fullname": "in",
-    "CategoryMaster": 879,
+    "TicketCategoryId": 506,
+    "ParentId": 962,
+    "Name": "Rath, Luettgen and Weissnat",
+    "Fullname": "hic",
+    "CategoryMaster": 120,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Botsford-Towne",
+    "ExternalName": "Barrows, Fay and Sporer",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 358,
-    "ReplyTemplate": 871,
-    "NotificationEmail": "helga.bartoletti@parisian.uk",
+    "AssignmentLag": 998,
+    "ReplyTemplate": 64,
+    "NotificationEmail": "milton@gleichner.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 904,
+    "EffectiveReplyTemplateId": 91,
     "ExtraFields": {
-      "ExtraFields1": "officiis",
+      "ExtraFields1": "quis",
       "ExtraFields2": "voluptas"
     },
     "CustomFields": {
-      "CustomFields1": "minus",
-      "CustomFields2": "dolorum"
+      "CustomFields1": "atque",
+      "CustomFields2": "recusandae"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldLength": 882
       }
     }
   }

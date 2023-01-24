@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 420,
-  "UniqueId": "eum",
-  "Name": "Koelpin Group",
-  "Description": "Reactive zero tolerance encoding",
-  "AssociateId": 752,
-  "Columns": 728,
+  "DashboardId": 908,
+  "UniqueId": "repellat",
+  "Name": "Zulauf-Vandervort",
+  "Description": "Vision-oriented attitude-oriented portal",
+  "AssociateId": 562,
+  "Columns": 639,
   "Theme": null,
-  "VisibleForAll": 683,
+  "VisibleForAll": 804,
   "VisibleForAssociates": [
-    956,
-    420
+    415,
+    85
   ],
   "VisibleForGroups": [
-    43,
-    4
+    875,
+    866
   ],
-  "PinForAll": 372,
+  "PinForAll": 429,
   "PinForAssociates": [
-    282,
-    949
+    543,
+    163
   ],
   "PinForGroups": [
-    660,
-    480
+    172,
+    429
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 97
+      "FieldLength": 613
     }
   }
 }

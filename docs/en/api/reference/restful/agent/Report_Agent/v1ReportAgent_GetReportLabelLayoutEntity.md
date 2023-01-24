@@ -25,7 +25,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=387
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=226
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,24 +87,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 689,
-  "Name": "Kutch, Funk and Bogisich",
-  "Description": "Polarised 4th generation data-warehouse",
+  "ReportLabelLayoutId": 77,
+  "Name": "Barton Group",
+  "Description": "Reduced real-time moratorium",
   "Orientation": "Landscape",
-  "PaperWidth": 650,
-  "PaperHeight": 980,
-  "LeftMargin": 56,
-  "RightMargin": 325,
-  "TopMargin": 854,
-  "BottomMargin": 402,
-  "CountColumns": 251,
-  "CountRows": 531,
+  "PaperWidth": 3,
+  "PaperHeight": 571,
+  "LeftMargin": 316,
+  "RightMargin": 434,
+  "TopMargin": 949,
+  "BottomMargin": 238,
+  "CountColumns": 574,
+  "CountRows": 963,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 488
     }
   }
 }

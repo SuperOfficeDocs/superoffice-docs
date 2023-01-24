@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 910,
-    "ResourceId": 78,
-    "Text": "quo",
+    "LanguageId": 761,
+    "ResourceId": 420,
+    "Text": "voluptatum",
     "Type": "Column",
-    "LocalizedTextId": 513,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 766,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldType": "System.Int32",
+        "FieldLength": 528
       }
     }
   }

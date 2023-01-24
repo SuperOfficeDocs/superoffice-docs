@@ -125,72 +125,72 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 335,
+  "EjMessageId": 295,
   "Ticket": null,
-  "CreatedAt": "2015-09-27T17:37:39.36531+02:00",
+  "CreatedAt": "2002-12-03T11:22:45.3505592+01:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "maxime",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "perferendis",
-  "TimeSpent": 957,
-  "Body": "optio",
-  "HtmlBody": "commodi",
-  "EmailHeader": "rusty@hand.name",
-  "DebugInfo": "magni",
-  "MailSorter": "excepturi",
+  "MessageId": "voluptatibus",
+  "TimeSpent": 461,
+  "Body": "ipsum",
+  "HtmlBody": "voluptatem",
+  "EmailHeader": "orie@cormier.info",
+  "DebugInfo": "odit",
+  "MailSorter": "consequatur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "necessitatibus",
+  "SearchTitle": "incidunt",
   "MessageHeaders": [
     {
-      "Id": 535,
-      "Name": "Pfannerstill-Price",
-      "Value": "minus",
+      "Id": 11,
+      "Name": "VonRueden-Schaden",
+      "Value": "ducimus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 535,
-      "Name": "Pfannerstill-Price",
-      "Value": "minus",
+      "Id": 11,
+      "Name": "VonRueden-Schaden",
+      "Value": "ducimus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "placeat",
-  "Sentiment": 320,
-  "SentimentConfidence": 839,
+  "Language": "officiis",
+  "Sentiment": 591,
+  "SentimentConfidence": 960,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 952,
-      "Name": "Dibbert LLC",
-      "ContentType": "incidunt",
-      "AttSize": 766,
+      "AttachmentId": 25,
+      "Name": "Sauer, McKenzie and Reinger",
+      "ContentType": "molestias",
+      "AttSize": 922,
       "InlineImage": false,
-      "ContentId": "veritatis"
+      "ContentId": "aut"
     },
     {
-      "AttachmentId": 952,
-      "Name": "Dibbert LLC",
-      "ContentType": "incidunt",
-      "AttSize": 766,
+      "AttachmentId": 25,
+      "Name": "Sauer, McKenzie and Reinger",
+      "ContentType": "molestias",
+      "AttSize": 922,
       "InlineImage": false,
-      "ContentId": "veritatis"
+      "ContentId": "aut"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "at",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "accusamus"
+    "CustomFields1": "corporis",
+    "CustomFields2": "dignissimos"
   }
 }
 ```
@@ -202,76 +202,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 651,
+  "EjMessageId": 59,
   "Ticket": null,
-  "CreatedAt": "2012-01-27T17:37:39.3734017+01:00",
+  "CreatedAt": "2014-01-20T11:22:45.3505592+01:00",
   "CreatedBy": null,
-  "Author": "corrupti",
+  "Author": "reiciendis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "maxime",
-  "TimeSpent": 996,
-  "Body": "illum",
-  "HtmlBody": "deleniti",
-  "EmailHeader": "gretchen@muellerfeest.uk",
-  "DebugInfo": "occaecati",
-  "MailSorter": "occaecati",
+  "MessageId": "ullam",
+  "TimeSpent": 828,
+  "Body": "dicta",
+  "HtmlBody": "ipsam",
+  "EmailHeader": "craig@oconner.name",
+  "DebugInfo": "quisquam",
+  "MailSorter": "at",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "praesentium",
+  "SearchTitle": "eligendi",
   "MessageHeaders": [
     {
-      "Id": 5,
-      "Name": "Bosco, Kunde and Heathcote",
-      "Value": "at",
+      "Id": 666,
+      "Name": "Schoen-Spinka",
+      "Value": "autem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldType": "System.Int32",
+          "FieldLength": 858
         }
       }
     }
   ],
   "Important": false,
-  "Language": "explicabo",
-  "Sentiment": 947,
-  "SentimentConfidence": 159,
+  "Language": "et",
+  "Sentiment": 523,
+  "SentimentConfidence": 230,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 510,
-      "Name": "Ruecker Inc and Sons",
-      "ContentType": "sit",
-      "AttSize": 112,
+      "AttachmentId": 478,
+      "Name": "Bauch Group",
+      "ContentType": "exercitationem",
+      "AttSize": 487,
       "InlineImage": false,
-      "ContentId": "deserunt",
+      "ContentId": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 90
+          "FieldType": "System.Int32",
+          "FieldLength": 133
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "laboriosam"
+    "ExtraFields1": "unde",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "iste"
+    "CustomFields1": "repudiandae",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 239
     }
   }
 }

@@ -115,31 +115,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 931,
-  "PlainMessage": "omnis",
-  "HtmlMessage": "eius",
-  "SmsMessage": "excepturi",
-  "Description": "Reduced static Graphical User Interface",
-  "Subject": "inventore",
-  "FolderId": 433,
-  "HeaderField": "dolores",
-  "Design": "cumque",
+  "ShipmentMessageId": 414,
+  "PlainMessage": "laudantium",
+  "HtmlMessage": "aut",
+  "SmsMessage": "dolores",
+  "Description": "Reduced secondary flexibility",
+  "Subject": "dolorem",
+  "FolderId": 441,
+  "HeaderField": "hic",
+  "Design": "harum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Versatile bottom-line emulation",
-  "AccessKey": "iure",
-  "DocumentMessage": 582,
-  "Registered": "2005-01-16T17:37:39.2253032+01:00",
-  "RegisteredAssociateId": 175,
-  "Updated": "1997-12-23T17:37:39.2253032+01:00",
-  "UpdatedAssociateId": 534,
-  "UpdatedCount": 457
+  "LongDescription": "Profound local synergy",
+  "AccessKey": "quas",
+  "DocumentMessage": 313,
+  "Registered": "2011-11-28T11:22:45.225579+01:00",
+  "RegisteredAssociateId": 741,
+  "Updated": "2000-01-19T11:22:45.225579+01:00",
+  "UpdatedAssociateId": 565,
+  "UpdatedCount": 236
 }
 ```
 
@@ -150,33 +150,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 553,
-  "PlainMessage": "fuga",
-  "HtmlMessage": "aut",
-  "SmsMessage": "ut",
-  "Description": "Function-based incremental challenge",
-  "Subject": "optio",
-  "FolderId": 724,
-  "HeaderField": "sed",
-  "Design": "et",
+  "ShipmentMessageId": 64,
+  "PlainMessage": "cupiditate",
+  "HtmlMessage": "impedit",
+  "SmsMessage": "tempore",
+  "Description": "Vision-oriented upward-trending productivity",
+  "Subject": "rerum",
+  "FolderId": 936,
+  "HeaderField": "vel",
+  "Design": "neque",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Pre-emptive bi-directional forecast",
-  "AccessKey": "enim",
-  "DocumentMessage": 880,
-  "Registered": "2011-11-11T17:37:39.2263062+01:00",
-  "RegisteredAssociateId": 762,
-  "Updated": "2009-01-29T17:37:39.2263062+01:00",
-  "UpdatedAssociateId": 7,
-  "UpdatedCount": 152,
+  "LongDescription": "Assimilated incremental moderator",
+  "AccessKey": "iste",
+  "DocumentMessage": 626,
+  "Registered": "2006-01-17T11:22:45.225579+01:00",
+  "RegisteredAssociateId": 330,
+  "Updated": "2018-09-24T11:22:45.225579+02:00",
+  "UpdatedAssociateId": 86,
+  "UpdatedCount": 183,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 354
+      "FieldType": "System.Int32",
+      "FieldLength": 102
     }
   },
   "_Links": {

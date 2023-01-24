@@ -25,7 +25,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=387
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=700
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 620,
-  "ERPQuoteAlternativeKey": "rerum",
-  "QuoteVersionId": 98,
-  "Name": "Russel-Lakin",
-  "Description": "Horizontal upward-trending strategy",
+  "QuoteAlternativeId": 442,
+  "ERPQuoteAlternativeKey": "repellendus",
+  "QuoteVersionId": 786,
+  "Name": "Medhurst-Daugherty",
+  "Description": "Reverse-engineered tertiary implementation",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 13169.068,
-  "ERPDiscountAmount": 30315.182,
-  "DiscountPercent": 12332.289999999999,
-  "DiscountAmount": 1125.106,
+  "ERPDiscountPercent": 24116.13,
+  "ERPDiscountAmount": 6694.224,
+  "DiscountPercent": 21436.559999999998,
+  "DiscountAmount": 24341.778,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "natus",
-  "VAT": 626.8,
-  "EarningPercent": 23260.548,
-  "EarningAmount": 24059.718,
-  "SubTotal": 382.348,
-  "TotalPrice": 17682.028,
-  "ExtraField1": "perferendis",
-  "ExtraField2": "similique",
-  "ExtraField3": "ut",
-  "ExtraField4": "quam",
-  "ExtraField5": "in",
+  "VATInfo": "omnis",
+  "VAT": 7067.17,
+  "EarningPercent": 21555.652,
+  "EarningAmount": 23081.91,
+  "SubTotal": 4039.7259999999997,
+  "TotalPrice": 26902.255999999998,
+  "ExtraField1": "exercitationem",
+  "ExtraField2": "cumque",
+  "ExtraField3": "dignissimos",
+  "ExtraField4": "et",
+  "ExtraField5": "doloribus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 57
     }
   }
 }

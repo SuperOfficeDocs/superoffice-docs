@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 727
+  "SuggestedDocumentId": 838
 }
 ```
 
@@ -120,88 +120,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 526,
+  "DocumentId": 801,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dolores",
-  "Header": "alias",
-  "Name": "Dickinson LLC",
-  "OurRef": "quae",
-  "YourRef": "eligendi",
-  "CreatedDate": "1997-01-07T17:37:17.5792444+01:00",
-  "UpdatedDate": "2001-04-11T17:37:17.5792444+02:00",
-  "Description": "Self-enabling holistic definition",
+  "Attention": "placeat",
+  "Header": "id",
+  "Name": "Upton LLC",
+  "OurRef": "earum",
+  "YourRef": "doloribus",
+  "CreatedDate": "2015-02-15T11:22:38.1490728+01:00",
+  "UpdatedDate": "2009-02-21T11:22:38.1490728+01:00",
+  "Description": "Operative regional success",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-02-01T17:37:17.5822459+01:00",
-  "ExternalRef": "et",
+  "Date": "2022-05-18T11:22:38.1490728+02:00",
+  "ExternalRef": "est",
   "Completed": "Completed",
-  "ActiveLinks": 990,
+  "ActiveLinks": 677,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Nienow Inc and Sons",
-      "Id": 145,
-      "Description": "Customizable modular service-desk",
-      "ExtraInfo": "excepturi",
-      "LinkId": 361,
+      "EntityName": "Considine Group",
+      "Id": 832,
+      "Description": "Implemented zero administration support",
+      "ExtraInfo": "exercitationem",
+      "LinkId": 628,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 175
+          "FieldLength": 804
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 819,
-  "Snum": 736,
+  "SuggestedDocumentId": 754,
+  "Snum": 623,
   "UserDefinedFields": {
-    "SuperOffice:1": "Torey Bosco",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Alvina Murphy III",
+    "SuperOffice:2": "Lynn Muller"
   },
   "ExtraFields": {
-    "ExtraFields1": "cumque",
-    "ExtraFields2": "id"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "illum"
+    "CustomFields1": "quisquam",
+    "CustomFields2": "consectetur"
   },
-  "PublishEventDate": "2000-12-31T17:37:17.5832449+01:00",
-  "PublishTo": "2008-03-23T17:37:17.5832449+01:00",
-  "PublishFrom": "2010-05-09T17:37:17.5832449+02:00",
+  "PublishEventDate": "2021-09-27T11:22:38.1490728+02:00",
+  "PublishTo": "2021-10-24T11:22:38.1490728+02:00",
+  "PublishFrom": "1998-05-25T11:22:38.1490728+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 200,
+      "VisibleId": 78,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 711
+          "FieldLength": 882
         }
       }
     },
     {
-      "VisibleId": 200,
+      "VisibleId": 78,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 711
+          "FieldLength": 882
         }
       }
     }
@@ -210,8 +210,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldType": "System.String",
+      "FieldLength": 604
     }
   }
 }

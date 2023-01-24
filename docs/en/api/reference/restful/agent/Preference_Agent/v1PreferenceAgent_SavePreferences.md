@@ -72,16 +72,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "et",
+      "RawValue": "minus",
       "Specification": null,
-      "DisplayValue": "aut",
-      "DisplayTooltip": "dolorem",
+      "DisplayValue": "blanditiis",
+      "DisplayTooltip": "quia",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 295,
-      "PrefDescId": 525,
-      "TableName": "Bergstrom Group",
-      "UserPreferenceId": 748
+      "TargetId": 702,
+      "PrefDescId": 71,
+      "TableName": "Goyette-Quigley",
+      "UserPreferenceId": 903
     }
   ]
 }

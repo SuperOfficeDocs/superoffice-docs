@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Ebert, Koss and Grant",
-  "Id": 68
+  "ListName": "Wintheiser-Howell",
+  "Id": 105
 }
 ```
 
@@ -100,50 +100,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 730,
-  "Name": "Hane-Cassin",
-  "ToolTip": "Maiores veritatis vel ducimus reprehenderit facilis.",
-  "Deleted": false,
-  "Rank": 343,
-  "Type": "id",
+  "Id": 641,
+  "Name": "Bruen Group",
+  "ToolTip": "Debitis repellendus et tempore ut aliquam sed.",
+  "Deleted": true,
+  "Rank": 890,
+  "Type": "natus",
   "ChildItems": [
     {
-      "Id": 156,
-      "Name": "Miller-Leannon",
-      "ToolTip": "Ducimus voluptatem nulla doloribus corrupti ut facere dolore.",
-      "Deleted": true,
-      "Rank": 605,
-      "Type": "consequatur",
+      "Id": 966,
+      "Name": "Ortiz LLC",
+      "ToolTip": "Id alias magni et ea occaecati tempora asperiores.",
+      "Deleted": false,
+      "Rank": 732,
+      "Type": "quod",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ea",
-      "ColorBlock": 76,
-      "ExtraInfo": "expedita",
-      "StyleHint": "eos",
-      "FullName": "Mr. Lafayette Klocko Sr.",
+      "IconHint": "et",
+      "ColorBlock": 30,
+      "ExtraInfo": "ullam",
+      "StyleHint": "explicabo",
+      "FullName": "Ms. Icie Sanford",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 298
+          "FieldLength": 531
         }
       }
     }
   ],
-  "IconHint": "eius",
-  "ColorBlock": 62,
-  "ExtraInfo": "ex",
-  "StyleHint": "qui",
-  "FullName": "Gregory Weber",
+  "IconHint": "voluptatem",
+  "ColorBlock": 197,
+  "ExtraInfo": "animi",
+  "StyleHint": "fugit",
+  "FullName": "Anabel Lakin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldLength": 684
     }
   }
 }

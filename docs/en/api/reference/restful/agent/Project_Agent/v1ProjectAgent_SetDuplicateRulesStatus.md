@@ -63,22 +63,22 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Glover-Beier",
-      "DisplayName": "Dickinson, Schmeler and Harvey",
-      "DisplayTooltip": "nisi",
-      "IsActive": false
+      "Name": "Goodwin-Schiller",
+      "DisplayName": "Funk LLC",
+      "DisplayTooltip": "tenetur",
+      "IsActive": true
     },
     {
-      "Name": "Glover-Beier",
-      "DisplayName": "Dickinson, Schmeler and Harvey",
-      "DisplayTooltip": "nisi",
-      "IsActive": false
+      "Name": "Goodwin-Schiller",
+      "DisplayName": "Funk LLC",
+      "DisplayTooltip": "tenetur",
+      "IsActive": true
     }
   ]
 }

@@ -85,7 +85,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,26 +95,26 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 206,
-  "Name": "Larson, Spencer and Braun",
+  "WebhookId": 224,
+  "Name": "Romaguera-Bayer",
   "Events": [
-    "aut",
-    "sint"
+    "adipisci",
+    "laudantium"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ea",
+  "Secret": "omnis",
   "State": "Active",
-  "Type": "aut",
+  "Type": "in",
   "Headers": {
-    "Headers1": "perspiciatis",
-    "Headers2": "ipsa"
+    "Headers1": "cumque",
+    "Headers2": "quibusdam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2015-01-16T17:37:39.6024006+01:00",
+  "Registered": "2016-06-08T11:22:45.5379661+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-08-29T17:37:39.6034302+02:00",
+  "Updated": "2017-07-10T11:22:45.5379661+02:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",

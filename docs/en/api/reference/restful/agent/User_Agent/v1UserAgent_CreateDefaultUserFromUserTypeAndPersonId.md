@@ -102,12 +102,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 986
+  "PersonId": 204
 }
 ```
 
@@ -118,14 +118,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 599,
-  "Name": "Little LLC",
-  "Rank": 662,
-  "Tooltip": "nihil",
+  "AssociateId": 542,
+  "Name": "Bartell, Mills and Lubowitz",
+  "Rank": 6,
+  "Tooltip": "est",
   "LicenseOwners": [
     {
-      "Name": "Wisoky-Bahringer",
-      "Description": "Function-based transitional knowledge user",
+      "Name": "Walter Group",
+      "Description": "Stand-alone radical orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,14 +138,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldType": "System.String",
+          "FieldLength": 289
         }
       }
     },
     {
-      "Name": "Wisoky-Bahringer",
-      "Description": "Function-based transitional knowledge user",
+      "Name": "Walter Group",
+      "Description": "Stand-alone radical orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,8 +158,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldType": "System.String",
+          "FieldLength": 289
         }
       }
     }
@@ -168,110 +168,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "possimus",
-      "Tooltip": "provident",
-      "Id": 617,
-      "Rank": 866,
-      "Deleted": false,
+      "Value": "voluptatem",
+      "Tooltip": "saepe",
+      "Id": 270,
+      "Rank": 501,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 674
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2021-05-05T17:37:19.5999816+02:00",
-  "Lastlogout": "2001-06-04T17:37:19.5999816+02:00",
-  "EjUserId": 728,
-  "RequestSignature": "explicabo",
+  "Deleted": true,
+  "Lastlogin": "2015-01-14T11:22:39.6643951+01:00",
+  "Lastlogout": "2016-01-07T11:22:39.6643951+01:00",
+  "EjUserId": 657,
+  "RequestSignature": "temporibus",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "ut",
+      "Value": "a",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 468
+          "FieldType": "System.String",
+          "FieldLength": 113
         }
       }
     },
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "ut",
+      "Value": "a",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 468
+          "FieldType": "System.String",
+          "FieldLength": 113
         }
       }
     }
   ],
-  "UserName": "Murazik, Hagenes and Murray",
+  "UserName": "Hilpert Group",
   "TicketCategories": [
     {
-      "Id": 206,
-      "Name": "Walter, Mertz and Kovacek",
-      "ToolTip": "Eaque possimus ut ducimus quasi fuga ipsam quis.",
-      "Deleted": true,
-      "Rank": 151,
-      "Type": "omnis",
+      "Id": 618,
+      "Name": "Abshire LLC",
+      "ToolTip": "Eius ducimus.",
+      "Deleted": false,
+      "Rank": 276,
+      "Type": "repellendus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "tempora",
-      "ColorBlock": 956,
-      "ExtraInfo": "eos",
-      "StyleHint": "delectus",
-      "FullName": "Christian West",
+      "IconHint": "eius",
+      "ColorBlock": 333,
+      "ExtraInfo": "id",
+      "StyleHint": "et",
+      "FullName": "Cecilia Orn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 898
+          "FieldLength": 603
         }
       }
     }
   ],
-  "NickName": "Wilderman Group",
+  "NickName": "Kuphal, Kautzer and Murray",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "recusandae",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "ratione"
   },
   "CustomFields": {
     "CustomFields1": "qui",
-    "CustomFields2": "eos"
+    "CustomFields2": "quia"
   },
   "PostSaveCommands": [
     {
-      "Name": "Bechtelar Group",
-      "DisplayName": "Hartmann LLC",
-      "Description": "Configurable modular support",
-      "ToolTip": "Omnis magnam id qui.",
+      "Name": "Casper-Beier",
+      "DisplayName": "Kihn, Buckridge and Herman",
+      "Description": "Innovative leading edge policy",
+      "ToolTip": "Quo sunt dicta repellat placeat quidem.",
       "Actions": "Implicit",
-      "ActionData": "sunt",
+      "ActionData": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 308
         }
       }
     }
@@ -281,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 510
+      "FieldLength": 551
     }
   }
 }

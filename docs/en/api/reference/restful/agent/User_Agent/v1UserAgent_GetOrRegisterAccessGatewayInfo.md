@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "cum"
+  "RedirectUri": "unde"
 }
 ```
 
@@ -90,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "cum",
-  "RedirectUri": "ipsam",
+  "ClientId": "quas",
+  "RedirectUri": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 292
+      "FieldType": "System.Int32",
+      "FieldLength": 667
     }
   }
 }

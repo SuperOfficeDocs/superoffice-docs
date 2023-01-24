@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 501,
-  "BlobSize": 209,
-  "Description": "Open-architected impactful utilisation",
-  "ExtraInfo": "recusandae",
+  "BlobId": 264,
+  "BlobSize": 399,
+  "Description": "Profit-focused modular paradigm",
+  "ExtraInfo": "est",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "exercitationem",
-  "OriginalSize": 593,
-  "CreatedDate": "2006-12-23T17:37:38.339833+01:00",
-  "UpdatedDate": "2019-06-19T17:37:38.339833+02:00",
+  "MimeType": "omnis",
+  "OriginalSize": 529,
+  "CreatedDate": "2005-09-11T11:22:44.4445217+02:00",
+  "UpdatedDate": "2002-05-14T11:22:44.4445217+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cum"
+  "ConceptualType": "sint"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 771,
-  "BlobSize": 54,
-  "Description": "Horizontal asynchronous intranet",
-  "ExtraInfo": "facere",
+  "BlobId": 230,
+  "BlobSize": 799,
+  "Description": "Re-contextualized 24 hour customer loyalty",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "illo",
-  "OriginalSize": 936,
-  "CreatedDate": "2001-03-05T17:37:38.3418327+01:00",
-  "UpdatedDate": "2022-02-13T17:37:38.3418327+01:00",
+  "MimeType": "libero",
+  "OriginalSize": 307,
+  "CreatedDate": "2003-10-05T11:22:44.4445217+02:00",
+  "UpdatedDate": "1997-03-16T11:22:44.4445217+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eligendi",
+  "ConceptualType": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   }
 }

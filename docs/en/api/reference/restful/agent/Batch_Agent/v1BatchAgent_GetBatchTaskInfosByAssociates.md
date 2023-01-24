@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -97,8 +98,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    434,
-    718
+    111,
+    927
   ]
 }
 ```
@@ -111,36 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 385,
-    "Name": "Sanford, Schumm and Harvey",
-    "AssociateId": 24,
-    "DetailsTable": 153,
-    "DetailsRecord": 81,
+    "Id": 997,
+    "Name": "Bahringer Inc and Sons",
+    "AssociateId": 728,
+    "DetailsTable": 738,
+    "DetailsRecord": 245,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "sapiente",
-      "ParameterObject2": "temporibus"
+      "ParameterObject1": "error",
+      "ParameterObject2": "officia"
     },
-    "LastStarted": "2011-02-03T17:37:16.8962438+01:00",
-    "Created": "2011-10-15T17:37:16.8962438+02:00",
-    "StartCount": 658,
-    "DatabaseSerialNumber": "536661",
-    "Context": "aperiam",
-    "Result": "fuga",
+    "LastStarted": "2018-05-02T11:22:37.4461725+02:00",
+    "Created": "2013-12-06T11:22:37.4461725+01:00",
+    "StartCount": 108,
+    "DatabaseSerialNumber": "513064",
+    "Context": "dolore",
+    "Result": "explicabo",
     "State": "All",
-    "Description": "Team-oriented zero tolerance definition",
-    "Response": "voluptatem",
-    "Request": "dolorem",
-    "ProgressDescription": "Advanced bottom-line complexity",
-    "ProgressPercent": 803,
-    "FileName": "Miller Inc and Sons",
+    "Description": "Operative radical matrix",
+    "Response": "et",
+    "Request": "expedita",
+    "ProgressDescription": "Profound secondary model",
+    "ProgressPercent": 767,
+    "FileName": "O'Hara-Smitham",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldLength": 159
       }
     }
   }

@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 559
+  "ErpFieldId": 763
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 194,
-  "DefaultValue": "sapiente",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "placeat",
+  "ErpFieldId": 110,
+  "DefaultValue": "sed",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "delectus",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "qui",
+  "ErpFieldKey": "nesciunt",
   "FieldType": "Checkbox",
-  "ListName": "Howe, Breitenberg and Hartmann",
+  "ListName": "Bins Inc and Sons",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldType": "System.String",
+      "FieldLength": 616
     }
   }
 }

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Dicki-Kuvalis",
-    "ToolTip": "Omnis earum velit debitis non tempora tenetur harum.",
-    "Deleted": true,
-    "Rank": 533,
-    "Type": "tenetur",
+    "Id": 453,
+    "Name": "Turcotte-Halvorson",
+    "ToolTip": "Laudantium atque velit autem.",
+    "Deleted": false,
+    "Rank": 4,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 496,
-        "Name": "Ebert LLC",
-        "ToolTip": "Voluptatem deserunt.",
+        "Id": 536,
+        "Name": "Mosciski Inc and Sons",
+        "ToolTip": "Fugiat et enim voluptatem.",
         "Deleted": true,
-        "Rank": 267,
-        "Type": "quia",
+        "Rank": 472,
+        "Type": "unde",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 722,
-        "ExtraInfo": "commodi",
-        "StyleHint": "nam",
-        "FullName": "Anissa Rosenbaum",
+        "IconHint": "quibusdam",
+        "ColorBlock": 64,
+        "ExtraInfo": "vitae",
+        "StyleHint": "rem",
+        "FullName": "Miss Hallie Auer Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 721
+            "FieldType": "System.Int32",
+            "FieldLength": 986
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 771,
-    "ExtraInfo": "nemo",
-    "StyleHint": "ratione",
-    "FullName": "Anika Lehner",
+    "IconHint": "harum",
+    "ColorBlock": 303,
+    "ExtraInfo": "veritatis",
+    "StyleHint": "assumenda",
+    "FullName": "Bobby Tremblay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldType": "System.String",
+        "FieldLength": 910
       }
     }
   }

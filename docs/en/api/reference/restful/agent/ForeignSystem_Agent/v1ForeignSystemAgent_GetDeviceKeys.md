@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ondricka, Little and Kuhic",
-  "DeviceName": "Rowe-Lockman"
+  "ApplicationName": "Aufderhar-Spinka",
+  "DeviceName": "Wunsch-Abbott"
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "at",
-    "Value": "quod",
-    "RecordId": 721,
-    "CreatedDate": "2018-08-30T17:37:18.1132412+02:00",
-    "UpdatedDate": "2012-06-07T17:37:18.1132412+02:00",
-    "UpdatedBy": "quia",
-    "CreatedBy": "eum",
-    "TableName": "Koelpin Inc and Sons",
+    "Key": "sed",
+    "Value": "incidunt",
+    "RecordId": 133,
+    "CreatedDate": "1997-09-07T11:22:38.3834434+02:00",
+    "UpdatedDate": "2013-08-18T11:22:38.3834434+02:00",
+    "UpdatedBy": "officiis",
+    "CreatedBy": "et",
+    "TableName": "Stokes-Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 680
+        "FieldType": "System.Int32",
+        "FieldLength": 346
       }
     }
   }

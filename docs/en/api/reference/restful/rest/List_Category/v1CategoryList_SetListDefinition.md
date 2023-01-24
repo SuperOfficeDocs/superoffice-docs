@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 980,
-  "Name": "Kling, Carroll and Feeney",
-  "Tooltip": "tenetur",
-  "Deleted": true,
-  "Rank": 626,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 40,
+  "Name": "O'Reilly LLC",
+  "Tooltip": "expedita",
+  "Deleted": false,
+  "Rank": 699,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "a",
-  "InUseByUserDefinedFields": false
+  "ListType": "alias",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 144,
-  "Name": "Renner Inc and Sons",
-  "Tooltip": "deserunt",
+  "Id": 499,
+  "Name": "Moen Inc and Sons",
+  "Tooltip": "impedit",
   "Deleted": false,
-  "Rank": 133,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 863,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "maiores",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aspernatur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 392
+      "FieldType": "System.Int32",
+      "FieldLength": 695
     }
   }
 }

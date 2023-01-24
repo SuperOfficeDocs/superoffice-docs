@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,36 +113,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 854,
-    "Name": "Schiller LLC",
-    "OrgNr": "957173",
+    "ContactId": 919,
+    "Name": "Zulauf Inc and Sons",
+    "OrgNr": "1397781",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "ut",
-    "DirectPhone": "631-540-5637",
-    "AssociateId": 494,
-    "CountryId": 485,
-    "EmailAddress": "letitia@kutch.name",
-    "Kananame": "dicta",
-    "EmailAddressName": "genesis@collierokeefe.info",
+    "City": "aut",
+    "DirectPhone": "(391)615-1161 x56005",
+    "AssociateId": 530,
+    "CountryId": 386,
+    "EmailAddress": "martina@wiegandbode.com",
+    "Kananame": "voluptas",
+    "EmailAddressName": "lon_mcclure@green.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Dr. Vladimir Jerrold Fay Jr.",
+    "AssociateFullName": "Mrs. Mazie Marquardt IV",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "magni",
-    "FullName": "Mackenzie Dudley Schaefer PhD",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 952,
-    "Number1": "1021367",
-    "Number2": "1587601",
+    "FormattedAddress": "dolorem",
+    "FullName": "Mackenzie Heathcote",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 651,
+    "Number1": "1094240",
+    "Number2": "1540097",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 378
+        "FieldLength": 321
       }
     }
   }

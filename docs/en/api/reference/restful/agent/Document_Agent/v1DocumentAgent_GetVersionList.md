@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 191
+  "DocumentId": 391
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "non",
-    "DocumentId": 939,
-    "VersionId": "sit",
-    "CheckedInDate": "2014-10-02T17:37:17.5692462+02:00",
-    "CheckedInByName": "Sporer-Robel",
-    "CheckedInByAssociateId": 778,
-    "Description": "Balanced context-sensitive intranet",
-    "DisplayText": "aut",
+    "ExternalReference": "amet",
+    "DocumentId": 734,
+    "VersionId": "quasi",
+    "CheckedInDate": "2018-04-17T11:22:38.1334506+02:00",
+    "CheckedInByName": "Senger Inc and Sons",
+    "CheckedInByAssociateId": 426,
+    "Description": "Upgradable asynchronous paradigm",
+    "DisplayText": "est",
     "ExtraFields": [
-      "amet",
-      "et"
+      "odit",
+      "culpa"
     ]
   }
 ]

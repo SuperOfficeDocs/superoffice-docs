@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 151
+  "ReplyTemplateId": 341
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bailey LLC",
-  "Description": "Grass-roots explicit customer loyalty",
-  "OwnedByFullName": "Milo Walter",
-  "Updated": "2003-06-02T17:37:17.3522426+02:00",
-  "Body": "quia",
-  "IsHtml": true,
+  "Name": "Feeney-Davis",
+  "Description": "Intuitive zero defect success",
+  "OwnedByFullName": "Charity Altenwerth",
+  "Updated": "2008-11-22T11:22:37.7898385+01:00",
+  "Body": "consectetur",
+  "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 781
     }
   }
 }

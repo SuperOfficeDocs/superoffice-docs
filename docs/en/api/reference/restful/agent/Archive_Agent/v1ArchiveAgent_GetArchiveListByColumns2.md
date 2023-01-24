@@ -165,17 +165,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gleichner LLC",
-  "Columns": "odit",
-  "SortOrder": "sit",
-  "Restrictions": "voluptatem",
-  "Entities": "dicta",
-  "Page": 62,
-  "PageSize": 466
+  "ProviderName": "Gutmann-Stracke",
+  "Columns": "repellat",
+  "SortOrder": "ratione",
+  "Restrictions": "et",
+  "Entities": "qui",
+  "Page": 307,
+  "PageSize": 978
 }
 ```
 
@@ -187,23 +187,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Graham, Barton and Grant",
-    "PrimaryKey": 20,
+    "EntityName": "Beer-Muller",
+    "PrimaryKey": 148,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "earum",
-        "TooltipHint": "earum",
-        "LinkHint": "quo"
+        "DisplayValue": "quisquam",
+        "TooltipHint": "esse",
+        "LinkHint": "reprehenderit"
       }
     },
-    "LinkHint": "optio",
-    "StyleHint": "veritatis",
+    "LinkHint": "ducimus",
+    "StyleHint": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 529
+        "FieldType": "System.Int32",
+        "FieldLength": 117
       }
     }
   }

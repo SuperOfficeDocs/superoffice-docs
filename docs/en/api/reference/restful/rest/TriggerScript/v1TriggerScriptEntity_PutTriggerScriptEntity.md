@@ -98,20 +98,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 1001,
-  "Name": "Thompson, Purdy and Harris",
+  "ScreenChooserId": 671,
+  "Name": "Abshire LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "libero",
-  "Registered": "2022-09-11T17:37:39.3914264+02:00",
-  "RegisteredAssociateId": 555,
-  "Updated": "2017-08-15T17:37:39.3914264+02:00",
-  "UpdatedAssociateId": 510
+  "Enabled": true,
+  "UniqueIdentifier": "consequatur",
+  "Source": "voluptatem",
+  "Registered": "1998-03-07T11:22:45.3661887+01:00",
+  "RegisteredAssociateId": 405,
+  "Updated": "2005-10-26T11:22:45.3661887+02:00",
+  "UpdatedAssociateId": 797
 }
 ```
 
@@ -122,22 +122,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 868,
-  "Name": "Doyle-Glover",
+  "ScreenChooserId": 555,
+  "Name": "Price, Mohr and Howe",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "itaque",
-  "Source": "at",
-  "Registered": "2010-11-02T17:37:39.3924251+01:00",
-  "RegisteredAssociateId": 266,
-  "Updated": "2011-03-28T17:37:39.3924251+02:00",
-  "UpdatedAssociateId": 280,
+  "UniqueIdentifier": "accusantium",
+  "Source": "accusantium",
+  "Registered": "2010-01-07T11:22:45.3661887+01:00",
+  "RegisteredAssociateId": 95,
+  "Updated": "2004-01-10T11:22:45.3661887+01:00",
+  "UpdatedAssociateId": 859,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldType": "System.Int32",
+      "FieldLength": 837
     }
   },
   "_Links": {

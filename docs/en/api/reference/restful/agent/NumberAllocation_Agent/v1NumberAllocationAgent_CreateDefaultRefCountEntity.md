@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,49 +76,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 39,
-  "Field": "eaque",
-  "RecordId": 239,
+  "RefCountsId": 243,
+  "Field": "ratione",
+  "RecordId": 219,
   "SuggestedRecords": [
     {
-      "Id": 211,
-      "Name": "Vandervort, Hettinger and Zboncak",
-      "ToolTip": "Quisquam velit pariatur nobis nesciunt ad tempore et.",
+      "Id": 870,
+      "Name": "Dooley LLC",
+      "ToolTip": "Autem et in culpa illum.",
       "Deleted": false,
-      "Rank": 437,
-      "Type": "maiores",
+      "Rank": 92,
+      "Type": "mollitia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "laudantium",
-      "ColorBlock": 970,
-      "ExtraInfo": "eius",
-      "StyleHint": "quo",
-      "FullName": "Prof. Carmela Larkin III",
+      "IconHint": "atque",
+      "ColorBlock": 87,
+      "ExtraInfo": "sunt",
+      "StyleHint": "consequatur",
+      "FullName": "Melvin Cynthia McGlynn Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 777
+          "FieldType": "System.String",
+          "FieldLength": 66
         }
       }
     }
   ],
-  "CurrentValue": 834,
-  "TravelPrefix": 749,
-  "SatPrefix": 249,
+  "CurrentValue": 784,
+  "TravelPrefix": 534,
+  "SatPrefix": 225,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldType": "System.String",
+      "FieldLength": 946
     }
   }
 }

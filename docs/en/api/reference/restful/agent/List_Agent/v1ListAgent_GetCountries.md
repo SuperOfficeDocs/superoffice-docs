@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 63,
-    "Name": "Parisian, Bahringer and D'Amore",
-    "CurrencyId": 280,
-    "EnglishName": "Hane, Willms and Nitzsche",
+    "CountryId": 621,
+    "Name": "Olson, Kiehn and Nitzsche",
+    "CurrencyId": 514,
+    "EnglishName": "Franecki, Trantow and Smitham",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Networked human-resource synergy",
-    "OrgNrText": "1650281",
-    "InterAreaPrefix": "omnis",
-    "DialInPrefix": "ad",
-    "ZipPrefix": "labore",
-    "DomainName": "Considine, Dooley and Jacobson",
-    "AddressLayoutId": 552,
-    "DomesticAddressLayoutId": 241,
-    "ForeignAddressLayoutId": 348,
-    "Rank": 954,
-    "Tooltip": "accusamus",
+    "ImageDescription": "Extended incremental matrices",
+    "OrgNrText": "606858",
+    "InterAreaPrefix": "quas",
+    "DialInPrefix": "laudantium",
+    "ZipPrefix": "eligendi",
+    "DomainName": "Heller LLC",
+    "AddressLayoutId": 945,
+    "DomesticAddressLayoutId": 981,
+    "ForeignAddressLayoutId": 836,
+    "Rank": 243,
+    "Tooltip": "molestiae",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldType": "System.String",
+        "FieldLength": 280
       }
     }
   }

@@ -137,18 +137,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "numquam",
+    "path": "dignissimos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "numquam",
+    "path": "dignissimos",
     "value": {}
   }
 ]
@@ -161,43 +161,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 477,
-  "Name": "Towne LLC",
-  "Description": "Secured composite groupware",
-  "WelcomeMessage": "dolorum",
+  "ChatTopicId": 712,
+  "Name": "Stanton Inc and Sons",
+  "Description": "Cross-platform local leverage",
+  "WelcomeMessage": "rerum",
   "Language": null,
-  "LastAccept": "2019-01-06T17:37:38.3068598+01:00",
-  "SecondsPrAccept": 621,
-  "AlertRecipient": "voluptas",
+  "LastAccept": "2005-12-07T11:22:44.4289042+01:00",
+  "SecondsPrAccept": 729,
+  "AlertRecipient": "laborum",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "voluptatem",
+  "CollectConsent": false,
+  "BadgeHeader": "possimus",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "inventore",
-  "WarnNewChatMinutes": 378,
-  "WarnManagerNewChatMinutes": 67,
+  "CustomQueueText": "aperiam",
+  "WarnNewChatMinutes": 609,
+  "WarnManagerNewChatMinutes": 296,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 297,
-  "WarnManagerChatMessageMinutes": 948,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 602,
-  "OfflineFormQueueLength": 476,
+  "WarnChatMessageMinutes": 730,
+  "WarnManagerChatMessageMinutes": 491,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 354,
+  "OfflineFormQueueLength": 640,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "ut",
+  "WidgetRatingText": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 27
     }
   },
   "_Links": {

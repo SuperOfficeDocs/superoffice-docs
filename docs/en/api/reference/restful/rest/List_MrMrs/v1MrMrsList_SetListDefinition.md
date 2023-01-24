@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
-  "Name": "Schulist, Pagac and Morar",
-  "Tooltip": "est",
+  "Id": 856,
+  "Name": "Eichmann LLC",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 128,
+  "Rank": 422,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "sed",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 174,
-  "Name": "Morissette Inc and Sons",
-  "Tooltip": "commodi",
-  "Deleted": true,
-  "Rank": 477,
+  "Id": 575,
+  "Name": "Gleichner, Gleichner and Renner",
+  "Tooltip": "eaque",
+  "Deleted": false,
+  "Rank": 545,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "fugiat",
-  "InUseByUserDefinedFields": true,
+  "ListType": "earum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldType": "System.String",
+      "FieldLength": 842
     }
   }
 }

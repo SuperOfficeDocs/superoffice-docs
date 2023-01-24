@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Bashirian-Waelchi",
-    "ToolTip": "Blanditiis quidem perspiciatis architecto totam temporibus consequatur.",
+    "Id": 778,
+    "Name": "Littel, Zieme and Macejkovic",
+    "ToolTip": "Nisi sunt similique omnis quis perferendis quod voluptates.",
     "Deleted": false,
-    "Rank": 698,
-    "Type": "laudantium",
-    "ColorBlock": 854,
-    "IconHint": "ut",
+    "Rank": 182,
+    "Type": "est",
+    "ColorBlock": 769,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2010-06-24T17:37:40.2344732+02:00",
+    "LastChanged": "1997-03-08T11:22:46.1003835+01:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Rolfson, Wolff and Kunde",
-        "ToolTip": "Eum dolorum vel qui ut.",
-        "Deleted": false,
-        "Rank": 84,
-        "Type": "distinctio",
-        "ColorBlock": 890,
-        "IconHint": "ipsam",
-        "Selected": false,
-        "LastChanged": "2001-10-01T17:37:40.2354735+02:00",
+        "Id": 163,
+        "Name": "Schaefer Inc and Sons",
+        "ToolTip": "Dolorum ad.",
+        "Deleted": true,
+        "Rank": 559,
+        "Type": "non",
+        "ColorBlock": 366,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2010-11-15T11:22:46.1003835+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "saepe",
+        "ExtraInfo": "vero",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Mr. Myron Welch Jr.",
+        "FullName": "Andy Klein",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 873
+            "FieldLength": 248
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "esse",
+    "ExtraInfo": "iure",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Kaya Huels",
+    "FullName": "Delmer Jacobs",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldLength": 765
       }
     }
   }

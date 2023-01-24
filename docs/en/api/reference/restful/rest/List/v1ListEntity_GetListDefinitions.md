@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 227,
-    "Name": "Schiller LLC",
-    "Tooltip": "ullam",
+    "Id": 766,
+    "Name": "Rau-Luettgen",
+    "Tooltip": "ducimus",
     "Deleted": false,
-    "Rank": 937,
-    "IsCustomList": true,
-    "IsMDOList": false,
+    "Rank": 71,
+    "IsCustomList": false,
+    "IsMDOList": true,
     "UseGroupsAndHeadings": false,
-    "ListType": "ratione",
-    "InUseByUserDefinedFields": false,
+    "ListType": "nemo",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldType": "System.String",
+        "FieldLength": 696
       }
     }
   }

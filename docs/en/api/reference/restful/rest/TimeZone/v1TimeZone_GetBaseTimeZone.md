@@ -60,7 +60,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 5,
-  "Name": "Rutherford-Schneider",
-  "TZLocationCode": "ut",
-  "TZLocationCities": "et",
-  "IsoNumber": 271,
+  "TZLocationID": 729,
+  "Name": "Cremin Inc and Sons",
+  "TZLocationCode": "quibusdam",
+  "TZLocationCities": "aliquid",
+  "IsoNumber": 561,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 470,
-      "StartMonth": 752,
-      "EndDay": 738,
-      "EndMonth": 740,
-      "TZOffset": 92,
-      "StartRulePattern": "ex",
-      "EndRulePattern": "enim"
+      "StartDay": 14,
+      "StartMonth": 607,
+      "EndDay": 592,
+      "EndMonth": 177,
+      "TZOffset": 19,
+      "StartRulePattern": "in",
+      "EndRulePattern": "nemo"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 321,
-      "StartMonth": 618,
-      "EndDay": 924,
-      "EndMonth": 737,
-      "TZOffset": 322,
-      "StartRulePattern": "quas",
-      "EndRulePattern": "sunt"
+      "StartDay": 398,
+      "StartMonth": 468,
+      "EndDay": 466,
+      "EndMonth": 161,
+      "TZOffset": 285,
+      "StartRulePattern": "provident",
+      "EndRulePattern": "quasi"
     }
   }
 }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Ernser, Reilly and Von",
-  "PersonId": 438
+  "ParameterName": "Harber LLC",
+  "PersonId": 566
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 188,
-  "Name": "Trantow-Lebsack",
-  "Value": "ipsam",
-  "CreatedDate": "2001-07-25T17:37:16.8832411+02:00",
-  "UpdatedDate": "2011-08-24T17:37:16.8832411+02:00",
-  "CreatedBy": "voluptas",
-  "UpdatedBy": "blanditiis",
+  "AudienceLayoutId": 684,
+  "Name": "Rau, Kuhn and Nicolas",
+  "Value": "blanditiis",
+  "CreatedDate": "1998-04-03T11:22:37.4304911+02:00",
+  "UpdatedDate": "2018-11-18T11:22:37.4304911+01:00",
+  "CreatedBy": "et",
+  "UpdatedBy": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldType": "System.String",
+      "FieldLength": 942
     }
   }
 }

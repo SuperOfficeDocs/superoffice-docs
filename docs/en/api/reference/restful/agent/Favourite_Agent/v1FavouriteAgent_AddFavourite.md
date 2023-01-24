@@ -70,10 +70,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lubowitz-Heaney",
-  "RecordId": 506,
-  "AssociateId": 774,
-  "ExtraInfo": "velit"
+  "TableName": "Zboncak-Abernathy",
+  "RecordId": 852,
+  "AssociateId": 982,
+  "ExtraInfo": "dolores"
 }
 ```
 

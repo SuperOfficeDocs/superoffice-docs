@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jones Group"
+  "Name": "Pollich Inc and Sons"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Stokes Inc and Sons",
-    "SoPrimaryKey": 473,
-    "EntryName": "Morissette-Schmitt",
-    "EntryIdentifier": "aut",
-    "RuleDisplayName": "Durgan, Dare and Hagenes",
+    "RuleName": "Ebert, Robel and Wisoky",
+    "SoPrimaryKey": 221,
+    "EntryName": "Kreiger, Mann and Zboncak",
+    "EntryIdentifier": "quia",
+    "RuleDisplayName": "Metz, Sanford and Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 473
+        "FieldType": "System.Int32",
+        "FieldLength": 3
       }
     }
   }

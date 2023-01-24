@@ -25,7 +25,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=446
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=721
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -86,49 +86,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 293,
-  "Field": "ipsum",
-  "RecordId": 983,
+  "RefCountsId": 691,
+  "Field": "aut",
+  "RecordId": 622,
   "SuggestedRecords": [
     {
-      "Id": 620,
-      "Name": "Oberbrunner, Murazik and Blanda",
-      "ToolTip": "Velit nulla tenetur mollitia autem in.",
+      "Id": 750,
+      "Name": "Gibson, Bartoletti and Emard",
+      "ToolTip": "Ex culpa hic et neque asperiores.",
       "Deleted": false,
-      "Rank": 466,
-      "Type": "molestiae",
+      "Rank": 19,
+      "Type": "nihil",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "impedit",
-      "ColorBlock": 798,
-      "ExtraInfo": "totam",
-      "StyleHint": "eos",
-      "FullName": "Miss Loraine Lubowitz",
+      "IconHint": "nesciunt",
+      "ColorBlock": 877,
+      "ExtraInfo": "et",
+      "StyleHint": "aliquam",
+      "FullName": "Prof. Herta Stanton Wolf",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 555
         }
       }
     }
   ],
-  "CurrentValue": 279,
-  "TravelPrefix": 990,
-  "SatPrefix": 30,
+  "CurrentValue": 354,
+  "TravelPrefix": 219,
+  "SatPrefix": 419,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldLength": 114
     }
   }
 }

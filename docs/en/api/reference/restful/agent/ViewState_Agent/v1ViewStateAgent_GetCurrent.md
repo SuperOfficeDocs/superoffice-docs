@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Dooley-Hoeger"
+  "HistoryName": "Grady Group"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 487,
-  "Id": 689,
-  "HistoryName": "Stokes, Zboncak and Koepp",
-  "HistoryId": 163,
-  "AssociateId": 209,
-  "Name": "Lockman, Bernier and Ziemann",
-  "ItemInfo": "ipsam",
+  "Rank": 944,
+  "Id": 290,
+  "HistoryName": "Terry-Weimann",
+  "HistoryId": 767,
+  "AssociateId": 234,
+  "Name": "Goyette-Bechtelar",
+  "ItemInfo": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldType": "System.String",
+      "FieldLength": 185
     }
   }
 }

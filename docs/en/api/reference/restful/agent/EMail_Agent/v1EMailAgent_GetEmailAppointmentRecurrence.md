@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 164
+  "MailItemId": 53
 }
 ```
 
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 720,
-  "StartDate": "2013-07-30T17:37:17.8972444+02:00",
-  "EndDate": "2006-02-20T17:37:17.8972444+01:00",
-  "RecurrenceCounter": 159,
+  "RecurrenceId": 219,
+  "StartDate": "2016-07-10T11:22:38.2116073+02:00",
+  "EndDate": "1997-02-12T11:22:38.2116073+01:00",
+  "RecurrenceCounter": 741,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,18 +110,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2006-02-21T17:37:17.8972444+01:00",
-      "IsConflict": true,
-      "Description": "Upgradable radical product",
-      "DescriptionStyleHint": "Managed fresh-thinking local area network",
-      "Tooltip": "aut"
+      "Date": "2017-07-11T11:22:38.2116073+02:00",
+      "IsConflict": false,
+      "Description": "Profit-focused intangible secured line",
+      "DescriptionStyleHint": "Re-contextualized assymetric open system",
+      "Tooltip": "sint"
     },
     {
-      "Date": "2006-02-21T17:37:17.8972444+01:00",
-      "IsConflict": true,
-      "Description": "Upgradable radical product",
-      "DescriptionStyleHint": "Managed fresh-thinking local area network",
-      "Tooltip": "aut"
+      "Date": "2017-07-11T11:22:38.2116073+02:00",
+      "IsConflict": false,
+      "Description": "Profit-focused intangible secured line",
+      "DescriptionStyleHint": "Re-contextualized assymetric open system",
+      "Tooltip": "sint"
     }
   ],
   "IsRecurrence": false

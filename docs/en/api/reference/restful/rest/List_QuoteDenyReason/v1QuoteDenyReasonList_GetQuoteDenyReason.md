@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 404,
-  "Name": "Thiel, Hegmann and Balistreri",
-  "Tooltip": "tenetur",
-  "Deleted": false,
-  "UdListDefinitionId": 580,
-  "Rank": 733,
+  "Id": 749,
+  "Name": "Kihn-Prohaska",
+  "Tooltip": "nemo",
+  "Deleted": true,
+  "UdListDefinitionId": 46,
+  "Rank": 650,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 246
+      "FieldType": "System.Int32",
+      "FieldLength": 951
     }
   }
 }

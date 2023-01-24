@@ -103,7 +103,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 522,
-  "ColumnId": 530,
-  "FieldDefault": "maxime",
-  "FieldHeight": 590,
-  "FieldLabel": "ad",
-  "FieldLeft": 78,
-  "FieldTop": 67,
+  "UDefFieldId": 9,
+  "ColumnId": 54,
+  "FieldDefault": "aspernatur",
+  "FieldHeight": 836,
+  "FieldLabel": "nesciunt",
+  "FieldLeft": 590,
+  "FieldTop": 454,
   "FieldType": "Checkbox",
-  "FieldWidth": 733,
-  "FormatMask": "magnam",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 743,
-  "LabelLeft": 748,
-  "LabelTop": 976,
-  "LabelWidth": 527,
-  "LastVersionId": 104,
-  "ListTableId": 527,
-  "IsMandatory": false,
+  "FieldWidth": 1001,
+  "FormatMask": "deleniti",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 477,
+  "LabelLeft": 29,
+  "LabelTop": 210,
+  "LabelWidth": 146,
+  "LastVersionId": 778,
+  "ListTableId": 327,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 322,
-  "ProgId": "est",
-  "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 448,
-  "TextLength": 343,
-  "Tooltip": "aut",
-  "UdefIdentity": 751,
-  "UDListDefinitionId": 669,
+  "Page1LineNo": 281,
+  "ProgId": "consequatur",
+  "IsReadOnly": true,
+  "ShortLabel": "quo",
+  "TabOrder": 15,
+  "TextLength": 680,
+  "Tooltip": "aperiam",
+  "UdefIdentity": 884,
+  "UDListDefinitionId": 807,
   "Justification": "Center",
-  "Version": 57,
-  "TemplateVariableName": "Johns, Russel and Stanton",
-  "HasBeenPublished": true,
-  "MdoListName": "Bartoletti, Littel and Russel",
+  "Version": 679,
+  "TemplateVariableName": "Ankunding-Volkman",
+  "HasBeenPublished": false,
+  "MdoListName": "Barrows Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 333
+      "FieldType": "System.Int32",
+      "FieldLength": 849
     }
   }
 }

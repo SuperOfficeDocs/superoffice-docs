@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Bernhard, Yundt and Emard",
-  "DisplayName": "DuBuque Inc and Sons",
-  "Description": "Streamlined modular extranet",
-  "ShortLabel": "officiis",
-  "HideLabel": true,
+  "FieldName": "Weissnat, Kemmer and Abernathy",
+  "DisplayName": "Runte Group",
+  "Description": "Focused 5th generation firmware",
+  "ShortLabel": "tempora",
+  "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
+  "IsMandatory": true,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 961,
-  "TemplateVariableName": "Swift-Wunsch"
+  "Rank": 52,
+  "TemplateVariableName": "Simonis-Witting"
 }
 ```

@@ -86,22 +86,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 75,
-  "AssociateId": 98,
-  "Caption": "ut",
+  "DashboardId": 561,
+  "AssociateId": 185,
+  "Caption": "animi",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 774,
-      "Caption": "inventore",
-      "Description": "Reactive multi-state customer loyalty",
-      "ChartName": "Pagac-Rolfson",
-      "ChartId": "quia",
-      "IsDefault": false,
-      "AssociateId": 955,
-      "GroupId": 173,
-      "SelectionId": 886,
-      "Config": "quas",
+      "DashboardTileId": 457,
+      "Caption": "labore",
+      "Description": "Mandatory bottom-line analyzer",
+      "ChartName": "Lockman, Dare and Ankunding",
+      "ChartId": "et",
+      "IsDefault": true,
+      "AssociateId": 471,
+      "GroupId": 450,
+      "SelectionId": 234,
+      "Config": "cumque",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 812
         }
       }
     }
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 607
+      "FieldType": "System.Int32",
+      "FieldLength": 291
     }
   },
   "_Links": {

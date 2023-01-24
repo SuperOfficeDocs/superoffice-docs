@@ -76,38 +76,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Rutherford-Cassin",
-      "Operator": "quisquam",
+      "Name": "Zulauf, Upton and Murazik",
+      "Operator": "perferendis",
       "Values": [
-        "quam",
-        "nulla"
+        "commodi",
+        "nihil"
       ],
       "DisplayValues": [
-        "aut",
-        "laboriosam"
+        "repudiandae",
+        "enim"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 972,
+      "InterParenthesis": 13,
       "InterOperator": "And",
-      "UniqueHash": 265
+      "UniqueHash": 27
     }
   ],
   "Columns": [
-    "numquam",
-    "et"
+    "voluptas",
+    "rem"
   ],
-  "ConnectionId": 969,
+  "ConnectionId": 928,
   "ErpActorType": "Customer"
 }
 ```
@@ -122,47 +122,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "ea",
-        "quibusdam"
+        "voluptatem",
+        "quo"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "quia",
+      "ExternalKey": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldLength": 200
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Krajcik Inc and Sons",
-      "DisplayName": "Keeling LLC",
+      "Name": "Macejkovic-Quigley",
+      "DisplayName": "Hoeger LLC",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 711
+          "FieldLength": 403
         }
       }
     },
     {
-      "Name": "Krajcik Inc and Sons",
-      "DisplayName": "Keeling LLC",
+      "Name": "Macejkovic-Quigley",
+      "DisplayName": "Hoeger LLC",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 711
+          "FieldLength": 403
         }
       }
     }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 199
     }
   }
 }

@@ -88,21 +88,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 735,
-  "Name": "Hackett, McDermott and Corkery",
-  "Tooltip": "non",
-  "Rank": 118,
+  "SuggestedAppointmentId": 940,
+  "Name": "Bradtke, Murray and Ebert",
+  "Tooltip": "voluptatibus",
+  "Rank": 325,
   "Deleted": false,
-  "DaysFuture": 263,
-  "Duration": "harum",
-  "AutoSuggest": true,
-  "IsMilestone": false,
+  "DaysFuture": 671,
+  "Duration": "dicta",
+  "AutoSuggest": false,
+  "IsMilestone": true,
   "AssignToMember": true,
-  "Text": "ut",
+  "Text": "eaque",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -116,17 +116,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 901,
-  "Name": "Donnelly, Dicki and Kris",
-  "Tooltip": "facilis",
-  "Rank": 678,
-  "Deleted": false,
-  "DaysFuture": 819,
-  "Duration": "rerum",
-  "AutoSuggest": true,
-  "IsMilestone": true,
+  "SuggestedAppointmentId": 685,
+  "Name": "Rau-Kuhlman",
+  "Tooltip": "est",
+  "Rank": 952,
+  "Deleted": true,
+  "DaysFuture": 793,
+  "Duration": "et",
+  "AutoSuggest": false,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "harum",
+  "Text": "enim",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 851
+      "FieldType": "System.Int32",
+      "FieldLength": 426
     }
   }
 }

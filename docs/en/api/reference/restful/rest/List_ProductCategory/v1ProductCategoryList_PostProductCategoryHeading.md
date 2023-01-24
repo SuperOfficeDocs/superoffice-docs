@@ -78,12 +78,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 936,
-  "Name": "Casper-Larkin",
-  "Tooltip": "veniam",
-  "Deleted": false,
-  "Rank": 415,
-  "UdListDefinitionId": 955
+  "HeadingId": 178,
+  "Name": "Emard, Conroy and Mraz",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 212,
+  "UdListDefinitionId": 927
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 855,
-  "Name": "Powlowski, Moen and Schmitt",
-  "Tooltip": "est",
+  "HeadingId": 956,
+  "Name": "Cronin-Kautzer",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 483,
-  "UdListDefinitionId": 383,
+  "Rank": 73,
+  "UdListDefinitionId": 94,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 345
     }
   }
 }

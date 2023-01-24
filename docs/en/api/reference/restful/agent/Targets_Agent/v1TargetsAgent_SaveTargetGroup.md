@@ -76,24 +76,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 735,
-  "Year": 24,
+  "TargetGroupId": 179,
+  "Year": 717,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 328,
+      "TargetAssignmentInfoId": 53,
       "Values": [
-        61,
-        772
+        968,
+        345
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 560,
-      "DimensionListItemDisplayName": "Boyle LLC"
+      "DimensionListItem": 387,
+      "DimensionListItemDisplayName": "Roob-Simonis"
     }
   ],
   "TargetDimension": null
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 194,
-  "Year": 989,
+  "TargetGroupId": 440,
+  "Year": 713,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 926,
+      "TargetAssignmentInfoId": 885,
       "Values": [
-        264,
-        173
+        296,
+        680
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 936,
-      "DimensionListItemDisplayName": "Schaden, Klocko and Blick",
+      "DimensionListItem": 80,
+      "DimensionListItemDisplayName": "Swift, Schimmel and Bergstrom",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldType": "System.String",
+          "FieldLength": 969
         }
       }
     }
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldType": "System.Int32",
+      "FieldLength": 26
     }
   }
 }

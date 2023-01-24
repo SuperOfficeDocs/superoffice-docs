@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 892,
-    "Name": "Huel Inc and Sons",
-    "ToolTip": "Vel voluptate.",
+    "Id": 521,
+    "Name": "Aufderhar, Price and Boyer",
+    "ToolTip": "Labore voluptatum.",
     "Deleted": true,
-    "Rank": 336,
-    "Type": "optio",
-    "ColorBlock": 24,
-    "IconHint": "reiciendis",
-    "Selected": false,
-    "LastChanged": "2019-04-07T17:37:40.0965012+02:00",
+    "Rank": 948,
+    "Type": "et",
+    "ColorBlock": 194,
+    "IconHint": "dignissimos",
+    "Selected": true,
+    "LastChanged": "2014-12-29T11:22:45.9754127+01:00",
     "ChildItems": [
       {
-        "Id": 881,
-        "Name": "Tremblay Inc and Sons",
-        "ToolTip": "Fugiat ut eligendi quas adipisci vero.",
+        "Id": 285,
+        "Name": "Christiansen LLC",
+        "ToolTip": "Incidunt assumenda sit repellendus rem.",
         "Deleted": false,
-        "Rank": 229,
-        "Type": "omnis",
-        "ColorBlock": 281,
-        "IconHint": "dolorum",
-        "Selected": true,
-        "LastChanged": "2007-03-03T17:37:40.0965012+01:00",
+        "Rank": 359,
+        "Type": "nulla",
+        "ColorBlock": 348,
+        "IconHint": "quaerat",
+        "Selected": false,
+        "LastChanged": "2002-09-08T11:22:45.9754127+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Emery Stoltenberg",
+        "ExtraInfo": "aut",
+        "StyleHint": "aspernatur",
+        "Hidden": true,
+        "FullName": "Rosalinda Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 432
+            "FieldType": "System.String",
+            "FieldLength": 238
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "quibusdam",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "culpa",
     "Hidden": true,
-    "FullName": "Hortense Krajcik",
+    "FullName": "Tabitha Langosh III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 163
+        "FieldType": "System.Int32",
+        "FieldLength": 659
       }
     }
   }

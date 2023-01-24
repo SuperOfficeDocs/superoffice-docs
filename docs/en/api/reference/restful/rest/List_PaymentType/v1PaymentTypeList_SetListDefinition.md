@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 334,
-  "Name": "Yundt, Krajcik and Mayert",
-  "Tooltip": "distinctio",
-  "Deleted": false,
-  "Rank": 891,
-  "IsCustomList": false,
+  "Id": 874,
+  "Name": "Reichert Group",
+  "Tooltip": "maiores",
+  "Deleted": true,
+  "Rank": 249,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "numquam",
+  "ListType": "eos",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 90,
-  "Name": "Ward, Bauch and Pfeffer",
-  "Tooltip": "possimus",
-  "Deleted": false,
-  "Rank": 811,
+  "Id": 411,
+  "Name": "Okuneva LLC",
+  "Tooltip": "beatae",
+  "Deleted": true,
+  "Rank": 309,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "porro",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 1000
     }
   }
 }

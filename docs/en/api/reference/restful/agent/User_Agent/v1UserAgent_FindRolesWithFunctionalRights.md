@@ -77,8 +77,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Daniel Group",
-    "Doyle, Pacocha and Becker"
+    "Steuber-Maggio",
+    "Conn-Russel"
   ]
 }
 ```
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  520,
-  280
+  937,
+  603
 ]
 ```

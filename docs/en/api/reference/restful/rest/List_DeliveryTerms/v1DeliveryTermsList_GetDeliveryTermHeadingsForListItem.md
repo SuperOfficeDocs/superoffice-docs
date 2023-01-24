@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Corkery, Blick and Jaskolski",
-    "ToolTip": "Fugit quae ullam praesentium corrupti nihil.",
-    "Deleted": true,
-    "Rank": 693,
-    "Type": "corrupti",
-    "ColorBlock": 135,
-    "IconHint": "maiores",
-    "Selected": false,
-    "LastChanged": "1996-05-03T17:37:39.9844712+02:00",
+    "Id": 499,
+    "Name": "Hane Group",
+    "ToolTip": "Et quisquam sed laboriosam.",
+    "Deleted": false,
+    "Rank": 830,
+    "Type": "libero",
+    "ColorBlock": 843,
+    "IconHint": "illum",
+    "Selected": true,
+    "LastChanged": "2009-10-23T11:22:45.8816758+02:00",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Berge-Hudson",
-        "ToolTip": "Animi laboriosam laborum.",
-        "Deleted": true,
-        "Rank": 511,
-        "Type": "architecto",
-        "ColorBlock": 740,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "1998-07-24T17:37:39.9854698+02:00",
+        "Id": 800,
+        "Name": "Rosenbaum, Schiller and Kihn",
+        "ToolTip": "Voluptates amet itaque.",
+        "Deleted": false,
+        "Rank": 62,
+        "Type": "rerum",
+        "ColorBlock": 202,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "1997-11-13T11:22:45.8816758+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "nulla",
+        "ExtraInfo": "et",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Mrs. Russ Dax Schaden DVM",
+        "FullName": "Wanda Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 202
+            "FieldLength": 12
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Pearl Rogahn",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "similique",
+    "Hidden": false,
+    "FullName": "Sylvester Abbott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 74
       }
     }
   }

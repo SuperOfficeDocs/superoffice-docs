@@ -109,28 +109,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 898,
-  "Section": "iure",
-  "Key": "repudiandae",
-  "Name": "Boyle, Gleason and Gerhold",
+  "PrefDescId": 353,
+  "Section": "dolores",
+  "Key": "amet",
+  "Name": "Herzog, Windler and Grady",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Visionary demand-driven data-warehouse",
-  "IsBuiltin": false,
-  "TableName": "Jast Inc and Sons",
-  "UserDefinedListId": 103,
-  "Rank": 465,
-  "SubGroup": "iure",
-  "MinLevel": 197,
-  "MaxValue": 937,
-  "MinValue": 852,
-  "RequiredLicense": "atque"
+  "Description": "Persevering dynamic hierarchy",
+  "IsBuiltin": true,
+  "TableName": "Morar Inc and Sons",
+  "UserDefinedListId": 779,
+  "Rank": 402,
+  "SubGroup": "natus",
+  "MinLevel": 83,
+  "MaxValue": 680,
+  "MinValue": 578,
+  "RequiredLicense": "omnis"
 }
 ```
 
@@ -141,30 +141,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 140,
-  "Section": "enim",
-  "Key": "hic",
-  "Name": "Hilpert-Toy",
+  "PrefDescId": 66,
+  "Section": "est",
+  "Key": "omnis",
+  "Name": "Green, Harvey and Daugherty",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Progressive actuating parallelism",
+  "Description": "Visionary disintermediate model",
   "IsBuiltin": true,
-  "TableName": "Jenkins, Ward and Bradtke",
-  "UserDefinedListId": 601,
-  "Rank": 349,
-  "SubGroup": "molestias",
-  "MinLevel": 725,
-  "MaxValue": 644,
-  "MinValue": 856,
-  "RequiredLicense": "alias",
+  "TableName": "Nolan Inc and Sons",
+  "UserDefinedListId": 399,
+  "Rank": 275,
+  "SubGroup": "alias",
+  "MinLevel": 209,
+  "MaxValue": 513,
+  "MinValue": 211,
+  "RequiredLicense": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 439
     }
   },
   "_Links": {

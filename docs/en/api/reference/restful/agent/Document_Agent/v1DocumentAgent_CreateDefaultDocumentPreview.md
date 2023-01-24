@@ -69,16 +69,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Kon LLC",
-  "Type": "nisi",
-  "Size": 689,
+  "Name": "Stamm, Koepp and Donnelly",
+  "Type": "vitae",
+  "Size": 261,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldLength": 398
     }
   }
 }

@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 353,
-  "Restrictions": "animi"
+  "DashboardTileId": 436,
+  "Restrictions": "corrupti"
 }
 ```
 
@@ -91,19 +91,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Gutkowski, Wisoky and Braun",
-        "DisplayTooltip": "mollitia",
-        "DisplayType": "quibusdam",
-        "CanOrderBy": true,
-        "Name": "Braun, Krajcik and Jacobson",
+        "DisplayName": "Mohr-Cruickshank",
+        "DisplayTooltip": "ut",
+        "DisplayType": "quae",
+        "CanOrderBy": false,
+        "Name": "Williamson Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "consectetur",
-        "RestrictionListName": "Graham, Prohaska and Johnson",
+        "RestrictionType": "recusandae",
+        "RestrictionListName": "Moore, Mosciski and Schultz",
         "IsVisible": false,
-        "ExtraInfo": "illum",
-        "Width": "minus",
-        "IconHint": "doloremque",
-        "HeadingIconHint": "quos"
+        "ExtraInfo": "voluptas",
+        "Width": "et",
+        "IconHint": "error",
+        "HeadingIconHint": "sit"
       }
     ],
     "Result": null
@@ -111,19 +111,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Gutkowski, Wisoky and Braun",
-        "DisplayTooltip": "mollitia",
-        "DisplayType": "quibusdam",
-        "CanOrderBy": true,
-        "Name": "Braun, Krajcik and Jacobson",
+        "DisplayName": "Mohr-Cruickshank",
+        "DisplayTooltip": "ut",
+        "DisplayType": "quae",
+        "CanOrderBy": false,
+        "Name": "Williamson Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "consectetur",
-        "RestrictionListName": "Graham, Prohaska and Johnson",
+        "RestrictionType": "recusandae",
+        "RestrictionListName": "Moore, Mosciski and Schultz",
         "IsVisible": false,
-        "ExtraInfo": "illum",
-        "Width": "minus",
-        "IconHint": "doloremque",
-        "HeadingIconHint": "quos"
+        "ExtraInfo": "voluptas",
+        "Width": "et",
+        "IconHint": "error",
+        "HeadingIconHint": "sit"
       }
     ],
     "Result": null

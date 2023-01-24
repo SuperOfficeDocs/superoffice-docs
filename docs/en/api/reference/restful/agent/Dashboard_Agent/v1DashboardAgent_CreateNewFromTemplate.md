@@ -89,24 +89,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 939,
-  "Caption": "quia",
-  "Description": "Customer-focused foreground encryption",
-  "SelectionId": 950,
+  "DashboardTileId": 963,
+  "Caption": "sit",
+  "Description": "Phased fresh-thinking initiative",
+  "SelectionId": 202,
   "VisibleFor": [
     {
-      "VisibleId": 317,
+      "VisibleId": 248,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "commodi"
     },
     {
-      "VisibleId": 317,
+      "VisibleId": 248,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "commodi"
     }
   ]
 }
@@ -119,64 +119,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 846,
-  "Caption": "perspiciatis",
-  "Description": "Vision-oriented value-added flexibility",
-  "ChartName": "Prohaska, Walter and Boyer",
-  "ChartId": "maxime",
-  "IsDefault": true,
-  "AssociateId": 119,
-  "GroupId": 505,
-  "SelectionId": 425,
-  "Config": "labore",
+  "DashboardTileId": 410,
+  "Caption": "in",
+  "Description": "Organic zero defect website",
+  "ChartName": "Gaylord Inc and Sons",
+  "ChartId": "porro",
+  "IsDefault": false,
+  "AssociateId": 838,
+  "GroupId": 842,
+  "SelectionId": 198,
+  "Config": "et",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Crona, Terry and Koelpin",
-      "Description": "Organic needs-based open architecture",
+      "Name": "Emard Inc and Sons",
+      "Description": "Multi-tiered mission-critical paradigm",
       "Type": "Boolean",
-      "ListName": "Gottlieb, Heaney and Feeney",
+      "ListName": "Russel, Reinger and Senger",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "perspiciatis",
+      "Value": "dolorem",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldLength": 296
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 312,
+      "VisibleId": 14,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 416
+          "FieldLength": 772
         }
       }
     },
     {
-      "VisibleId": 312,
+      "VisibleId": 14,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 416
+          "FieldLength": 772
         }
       }
     }
@@ -186,7 +186,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldLength": 289
     }
   }
 }

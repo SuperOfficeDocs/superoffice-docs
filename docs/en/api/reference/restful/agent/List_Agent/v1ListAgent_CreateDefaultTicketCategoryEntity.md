@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 894,
-  "ParentId": 352,
-  "Name": "Feest, Skiles and Howell",
-  "Fullname": "et",
-  "CategoryMaster": 942,
+  "TicketCategoryId": 371,
+  "ParentId": 658,
+  "Name": "Johns LLC",
+  "Fullname": "id",
+  "CategoryMaster": 787,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Johnston-Labadie",
+  "ExternalName": "McDermott-Douglas",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 463,
-  "ReplyTemplate": 524,
-  "NotificationEmail": "ida@lakin.com",
+  "AssignmentLag": 735,
+  "ReplyTemplate": 182,
+  "NotificationEmail": "chelsea_shields@spencernienow.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 674,
+  "EffectiveReplyTemplateId": 623,
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "dignissimos"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "officia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 781
+      "FieldLength": 960
     }
   }
 }

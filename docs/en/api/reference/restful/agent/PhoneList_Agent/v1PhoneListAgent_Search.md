@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "tempore"
+  "SearchString": "et"
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "893-848-1571 x57795",
-    "PersonCellPhone": "1-949-666-6468 x50173",
-    "PersonPrivatePhone": "893-045-5189 x35718",
-    "PersonFaxNumber": "1528527",
-    "PersonPagerNumber": "472246",
-    "PersonEmail": "marcella@hermanveum.co.uk",
-    "Id": 897,
-    "Name": "Kerluke Group",
-    "Tooltip": "voluptas",
-    "UniqueId": "saepe",
+    "PersonDirectPhone": "245-651-4079 x8314",
+    "PersonCellPhone": "881-791-6617 x5678",
+    "PersonPrivatePhone": "(604)841-9327 x362",
+    "PersonFaxNumber": "294310",
+    "PersonPagerNumber": "658465",
+    "PersonEmail": "juana.schumm@abernathy.uk",
+    "Id": 839,
+    "Name": "Wisozk Group",
+    "Tooltip": "quod",
+    "UniqueId": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 714
+        "FieldLength": 661
       }
     }
   }

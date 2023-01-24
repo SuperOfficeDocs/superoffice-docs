@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 545,
+  "DocumentId": 607,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quis",
-  "Header": "voluptatum",
-  "Name": "Hayes LLC",
-  "OurRef": "nesciunt",
-  "YourRef": "eaque",
-  "CreatedDate": "2012-11-09T17:37:17.5102424+01:00",
-  "UpdatedDate": "2002-01-02T17:37:17.5102424+01:00",
-  "Description": "Upgradable regional archive",
+  "Attention": "omnis",
+  "Header": "est",
+  "Name": "Nader, Osinski and Mosciski",
+  "OurRef": "hic",
+  "YourRef": "explicabo",
+  "CreatedDate": "1996-09-24T11:22:37.9148054+02:00",
+  "UpdatedDate": "2001-01-06T11:22:37.9148054+01:00",
+  "Description": "Re-engineered exuding standardization",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-05-02T17:37:17.5132419+02:00",
-  "ExternalRef": "sit",
+  "Date": "2020-09-18T11:22:37.9148054+02:00",
+  "ExternalRef": "saepe",
   "Completed": "Completed",
-  "ActiveLinks": 372,
+  "ActiveLinks": 261,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Brekke-Glover",
-      "Id": 506,
-      "Description": "Exclusive global circuit",
-      "ExtraInfo": "eius",
-      "LinkId": 900,
+      "EntityName": "Balistreri LLC",
+      "Id": 94,
+      "Description": "Reactive even-keeled time-frame",
+      "ExtraInfo": "qui",
+      "LinkId": 955,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldLength": 64
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 206,
-  "Snum": 227,
+  "SuggestedDocumentId": 85,
+  "Snum": 646,
   "UserDefinedFields": {
-    "SuperOffice:1": "Furman Pollich",
-    "SuperOffice:2": "Dr. Dayne Nicolas DDS"
+    "SuperOffice:1": "Nina O'Conner",
+    "SuperOffice:2": "Adolph Strosin"
   },
   "ExtraFields": {
-    "ExtraFields1": "exercitationem",
-    "ExtraFields2": "ducimus"
+    "ExtraFields1": "maxime",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "quo",
+    "CustomFields2": "magni"
   },
-  "PublishEventDate": "1998-02-06T17:37:17.5152419+01:00",
-  "PublishTo": "2012-02-17T17:37:17.5152419+01:00",
-  "PublishFrom": "2000-03-21T17:37:17.5152419+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2005-03-03T11:22:37.9148054+01:00",
+  "PublishTo": "2003-09-07T11:22:37.9148054+02:00",
+  "PublishFrom": "2021-01-15T11:22:37.9148054+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 947,
+      "VisibleId": 75,
       "Visibility": "All",
-      "DisplayValue": "dolorum",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldType": "System.String",
+          "FieldLength": 334
         }
       }
     },
     {
-      "VisibleId": 947,
+      "VisibleId": 75,
       "Visibility": "All",
-      "DisplayValue": "dolorum",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldType": "System.String",
+          "FieldLength": 334
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldType": "System.String",
+      "FieldLength": 368
     }
   }
 }

@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hegmann LLC",
-  "Columns": "quisquam",
-  "SortOrder": "nam",
-  "Restriction": "cum",
-  "Entities": "recusandae",
-  "Page": 428,
-  "PageSize": 429,
-  "Context": "iure"
+  "ProviderName": "Leannon, Casper and Stehr",
+  "Columns": "voluptas",
+  "SortOrder": "perspiciatis",
+  "Restriction": "est",
+  "Entities": "fugiat",
+  "Page": 35,
+  "PageSize": 152,
+  "Context": "quo"
 }
 ```
 
@@ -189,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Reichert-Prosacco",
-    "PrimaryKey": 784,
+    "EntityName": "Hand, West and Stracke",
+    "PrimaryKey": 623,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "temporibus",
-        "TooltipHint": "eius",
-        "LinkHint": "animi"
+        "DisplayValue": "enim",
+        "TooltipHint": "laudantium",
+        "LinkHint": "et"
       }
     },
-    "LinkHint": "ullam",
-    "StyleHint": "recusandae",
+    "LinkHint": "et",
+    "StyleHint": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldLength": 211
       }
     }
   }

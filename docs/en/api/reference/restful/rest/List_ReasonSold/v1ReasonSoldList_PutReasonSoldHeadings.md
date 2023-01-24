@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 31,
-    "Name": "Funk, Dare and Nitzsche",
-    "Tooltip": "sint",
+    "HeadingId": 60,
+    "Name": "Conn-Reichert",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 980,
-    "UdListDefinitionId": 807
+    "Rank": 205,
+    "UdListDefinitionId": 583
   },
   {
-    "HeadingId": 31,
-    "Name": "Funk, Dare and Nitzsche",
-    "Tooltip": "sint",
+    "HeadingId": 60,
+    "Name": "Conn-Reichert",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 980,
-    "UdListDefinitionId": 807
+    "Rank": 205,
+    "UdListDefinitionId": 583
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 696,
-    "Name": "O'Connell, Klocko and Adams",
-    "Tooltip": "voluptas",
+    "HeadingId": 517,
+    "Name": "Fay Inc and Sons",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 687,
-    "UdListDefinitionId": 776,
+    "Rank": 918,
+    "UdListDefinitionId": 521,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 957
+        "FieldType": "System.Int32",
+        "FieldLength": 619
       }
     }
   }

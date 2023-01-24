@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 375,
-  "Name": "Mitchell LLC",
-  "Tooltip": "sapiente",
-  "Deleted": true,
-  "UdListDefinitionId": 354,
-  "Rank": 858,
+  "Id": 367,
+  "Name": "Bauch Inc and Sons",
+  "Tooltip": "doloremque",
+  "Deleted": false,
+  "UdListDefinitionId": 441,
+  "Rank": 367,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 921
+      "FieldLength": 554
     }
   }
 }

@@ -92,12 +92,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 221,
-  "PrefDescId": 135,
-  "PrefValue": "voluptatem",
-  "PrefShowValue": "quo",
-  "Description": "Pre-emptive fresh-thinking internet solution",
-  "IsBuiltin": false
+  "PrefDescLineId": 878,
+  "PrefDescId": 223,
+  "PrefValue": "enim",
+  "PrefShowValue": "dolor",
+  "Description": "Total optimal collaboration",
+  "IsBuiltin": true
 }
 ```
 
@@ -108,18 +108,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 515,
-  "PrefDescId": 150,
-  "PrefValue": "dolore",
-  "PrefShowValue": "minus",
-  "Description": "Face to face impactful concept",
-  "IsBuiltin": false,
+  "PrefDescLineId": 886,
+  "PrefDescId": 863,
+  "PrefValue": "sed",
+  "PrefShowValue": "eos",
+  "Description": "Customizable 3rd generation time-frame",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldLength": 483
     }
   },
   "_Links": {

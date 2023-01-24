@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 688
+  "ErpConnectionId": 47
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Bernier Group",
+      "ErpListName": "Pacocha-Prosacco",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Connelly, Wilkinson and Dietrich",
-      "ErpFieldId": 745,
+      "ErpActorTypeName": "McCullough Inc and Sons",
+      "ErpFieldId": 854,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldType": "System.String",
+          "FieldLength": 551
         }
       }
     }
   ],
-  "ErpConnectionId": 609,
-  "ErpConnectionName": "Price-Auer",
+  "ErpConnectionId": 622,
+  "ErpConnectionName": "Jacobi, Runolfsdottir and Hickle",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldLength": 416
     }
   }
 }

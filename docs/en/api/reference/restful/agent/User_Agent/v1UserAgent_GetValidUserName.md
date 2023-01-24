@@ -72,14 +72,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 880,
+  "AssociateId": 212,
   "Type": "AnonymousAssociate",
-  "PersonId": 775,
-  "UserName": "Langworth Group"
+  "PersonId": 573,
+  "UserName": "Morar, Beer and Gusikowski"
 }
 ```
 
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Hettinger LLC"
+"Dickens Inc and Sons"
 ```

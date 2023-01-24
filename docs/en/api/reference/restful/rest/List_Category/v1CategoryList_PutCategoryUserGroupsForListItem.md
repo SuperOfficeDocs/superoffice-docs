@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 898,
-    "Name": "Murphy LLC",
-    "ToolTip": "Eius quis dolores sit sit voluptatum et.",
+    "Id": 156,
+    "Name": "Hermiston LLC",
+    "ToolTip": "Cumque quia.",
     "Deleted": false,
-    "Rank": 634,
-    "Type": "quis",
-    "ColorBlock": 204,
-    "IconHint": "facilis",
-    "Selected": true,
-    "LastChanged": "2014-08-08T17:37:39.6764308+02:00",
+    "Rank": 758,
+    "Type": "cumque",
+    "ColorBlock": 174,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2006-01-08T11:22:45.7879071+01:00",
     "ChildItems": [
       {
-        "Id": 412,
-        "Name": "Reynolds-Turcotte",
-        "ToolTip": "Excepturi est minus qui dolore.",
+        "Id": 131,
+        "Name": "Morissette-Mayer",
+        "ToolTip": "Et quia eligendi esse tenetur.",
         "Deleted": false,
-        "Rank": 692,
-        "Type": "cum",
-        "ColorBlock": 909,
-        "IconHint": "nisi",
-        "Selected": false,
-        "LastChanged": "2013-05-14T17:37:39.6764308+02:00",
+        "Rank": 321,
+        "Type": "laboriosam",
+        "ColorBlock": 555,
+        "IconHint": "eligendi",
+        "Selected": true,
+        "LastChanged": "2003-03-26T11:22:45.7879071+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Lera D'Amore"
+        "FullName": "Palma Thompson"
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "nihil",
+    "ExtraInfo": "magnam",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Kennedi Ledner"
+    "FullName": "Hans Langosh IV"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 758,
-    "Name": "Heathcote-Swaniawski",
-    "ToolTip": "Sunt nisi facere ad.",
+    "Id": 361,
+    "Name": "Beer Group",
+    "ToolTip": "Dolorum ut sunt.",
     "Deleted": true,
-    "Rank": 439,
-    "Type": "pariatur",
-    "ColorBlock": 859,
+    "Rank": 978,
+    "Type": "sed",
+    "ColorBlock": 893,
     "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2021-11-25T17:37:39.6774306+01:00",
+    "LastChanged": "2004-05-16T11:22:45.7879071+02:00",
     "ChildItems": [
       {
-        "Id": 144,
-        "Name": "Grady Group",
-        "ToolTip": "Explicabo perferendis.",
+        "Id": 806,
+        "Name": "McGlynn, Jacobson and Bartoletti",
+        "ToolTip": "Voluptate eligendi sapiente laboriosam quibusdam officia non porro.",
         "Deleted": false,
-        "Rank": 859,
-        "Type": "unde",
-        "ColorBlock": 963,
-        "IconHint": "commodi",
+        "Rank": 723,
+        "Type": "quasi",
+        "ColorBlock": 842,
+        "IconHint": "deleniti",
         "Selected": false,
-        "LastChanged": "2015-10-09T17:37:39.6784307+02:00",
+        "LastChanged": "2018-04-11T11:22:45.7879071+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Rupert Wilderman",
+        "FullName": "Ollie Ondricka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 625
+            "FieldType": "System.Int32",
+            "FieldLength": 908
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "quia",
+    "ExtraInfo": "ratione",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Prof. Bret Katharina Wiegand",
+    "FullName": "Rasheed Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 570
       }
     }
   }

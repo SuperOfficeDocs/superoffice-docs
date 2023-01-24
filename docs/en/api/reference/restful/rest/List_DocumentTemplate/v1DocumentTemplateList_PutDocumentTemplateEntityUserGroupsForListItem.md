@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Rodriguez, Pagac and Kuphal",
-    "ToolTip": "Veritatis earum.",
+    "Id": 920,
+    "Name": "Terry-Wolff",
+    "ToolTip": "Velit et maxime est ullam sed voluptas.",
     "Deleted": false,
-    "Rank": 240,
-    "Type": "fuga",
-    "ColorBlock": 397,
-    "IconHint": "ut",
+    "Rank": 53,
+    "Type": "suscipit",
+    "ColorBlock": 826,
+    "IconHint": "perspiciatis",
     "Selected": false,
-    "LastChanged": "2008-07-18T17:37:40.0204701+02:00",
+    "LastChanged": "1997-11-06T11:22:45.9129207+01:00",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "McLaughlin-Mraz",
-        "ToolTip": "Ullam reprehenderit.",
+        "Id": 514,
+        "Name": "Brown-Nienow",
+        "ToolTip": "Dignissimos doloribus et nihil aspernatur vero necessitatibus non.",
         "Deleted": false,
-        "Rank": 969,
-        "Type": "deleniti",
-        "ColorBlock": 772,
-        "IconHint": "similique",
-        "Selected": false,
-        "LastChanged": "2008-07-25T17:37:40.0204701+02:00",
+        "Rank": 115,
+        "Type": "nihil",
+        "ColorBlock": 847,
+        "IconHint": "eaque",
+        "Selected": true,
+        "LastChanged": "2016-03-28T11:22:45.9129207+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "ratione",
-        "Hidden": false,
-        "FullName": "Mr. Ahmad Medhurst DDS"
+        "ExtraInfo": "ex",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Ms. Alda Cronin DVM"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "eligendi",
-    "Hidden": true,
-    "FullName": "Carolina Rice"
+    "ExtraInfo": "incidunt",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Bridgette Wuckert IV"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 996,
-    "Name": "Weissnat-Predovic",
-    "ToolTip": "Quia rerum placeat distinctio.",
+    "Id": 434,
+    "Name": "Pagac-Kulas",
+    "ToolTip": "Et alias ut corrupti aliquam quia sunt officia.",
     "Deleted": false,
-    "Rank": 129,
-    "Type": "dolorem",
-    "ColorBlock": 956,
-    "IconHint": "suscipit",
+    "Rank": 380,
+    "Type": "et",
+    "ColorBlock": 669,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "2002-10-15T17:37:40.0214701+02:00",
+    "LastChanged": "2004-06-17T11:22:45.9129207+02:00",
     "ChildItems": [
       {
-        "Id": 939,
-        "Name": "Daniel, Ortiz and Kovacek",
-        "ToolTip": "Officia ipsum dolores.",
+        "Id": 830,
+        "Name": "Koch-Romaguera",
+        "ToolTip": "Ea eaque doloribus nesciunt.",
         "Deleted": true,
-        "Rank": 825,
-        "Type": "reprehenderit",
-        "ColorBlock": 487,
-        "IconHint": "consectetur",
+        "Rank": 788,
+        "Type": "est",
+        "ColorBlock": 115,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2006-05-12T17:37:40.0214701+02:00",
+        "LastChanged": "2009-10-16T11:22:45.9129207+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "vel",
+        "StyleHint": "incidunt",
         "Hidden": false,
-        "FullName": "Avery Lang",
+        "FullName": "Winona Harris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 682
+            "FieldLength": 808
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "mollitia",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Mr. Deven Feest",
+    "FullName": "Amiya Gutmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 931
+        "FieldType": "System.Int32",
+        "FieldLength": 524
       }
     }
   }

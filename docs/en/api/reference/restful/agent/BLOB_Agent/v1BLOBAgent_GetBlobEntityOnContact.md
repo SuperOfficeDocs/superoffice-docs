@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 891
+  "ContactId": 215
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 856,
-  "BlobSize": 116,
-  "Description": "Configurable context-sensitive service-desk",
-  "ExtraInfo": "distinctio",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "consequatur",
-  "OriginalSize": 17,
-  "CreatedDate": "2018-09-20T17:37:16.9292433+02:00",
-  "UpdatedDate": "2007-12-31T17:37:16.9292433+01:00",
+  "BlobId": 712,
+  "BlobSize": 689,
+  "Description": "Robust user-facing neural-net",
+  "ExtraInfo": "ex",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "nesciunt",
+  "OriginalSize": 252,
+  "CreatedDate": "1996-11-10T11:22:37.4617868+01:00",
+  "UpdatedDate": "1997-08-24T11:22:37.4617868+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatibus",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 801
+      "FieldType": "System.Int32",
+      "FieldLength": 314
     }
   }
 }

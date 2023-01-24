@@ -25,8 +25,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=aut
+GET /api/v1/List/ProductCategory/MDOItems?flat=True
+GET /api/v1/List/ProductCategory/MDOItems?query=deleniti
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 760,
-    "Name": "Klein LLC",
-    "ToolTip": "Qui hic consectetur culpa.",
-    "Deleted": false,
-    "Rank": 406,
-    "Type": "rerum",
+    "Id": 590,
+    "Name": "Zboncak, Rolfson and Hammes",
+    "ToolTip": "Aut nam molestiae nihil et provident.",
+    "Deleted": true,
+    "Rank": 141,
+    "Type": "molestias",
     "ChildItems": [
       {
-        "Id": 505,
-        "Name": "Deckow-Blanda",
-        "ToolTip": "Impedit deserunt consequatur est et.",
-        "Deleted": true,
-        "Rank": 40,
-        "Type": "quia",
+        "Id": 861,
+        "Name": "Franecki, McCullough and Ernser",
+        "ToolTip": "Inventore harum nemo et consequuntur officiis necessitatibus.",
+        "Deleted": false,
+        "Rank": 738,
+        "Type": "molestias",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officia",
-        "ColorBlock": 842,
-        "ExtraInfo": "quasi",
-        "StyleHint": "esse",
-        "FullName": "Randi Zemlak",
+        "IconHint": "omnis",
+        "ColorBlock": 737,
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "quis",
+        "FullName": "Mr. Darrell Josue Dooley PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 15
+            "FieldType": "System.Int32",
+            "FieldLength": 375
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 358,
-    "ExtraInfo": "sit",
-    "StyleHint": "temporibus",
-    "FullName": "Brandyn Labadie",
+    "IconHint": "ad",
+    "ColorBlock": 718,
+    "ExtraInfo": "sapiente",
+    "StyleHint": "cum",
+    "FullName": "Cody Boyer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 849
+        "FieldType": "System.Int32",
+        "FieldLength": 832
       }
     }
   }

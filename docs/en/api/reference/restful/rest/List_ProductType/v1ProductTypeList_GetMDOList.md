@@ -25,8 +25,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=velit
+GET /api/v1/List/ProductType/MDOItems?flat=True
+GET /api/v1/List/ProductType/MDOItems?query=incidunt
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 789,
-    "Name": "Mraz Group",
-    "ToolTip": "Autem et.",
-    "Deleted": false,
-    "Rank": 207,
-    "Type": "ad",
+    "Id": 277,
+    "Name": "Crona-O'Connell",
+    "ToolTip": "Hic voluptatem ducimus accusantium.",
+    "Deleted": true,
+    "Rank": 77,
+    "Type": "iure",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Littel-Dare",
-        "ToolTip": "Quia et ad est.",
+        "Id": 613,
+        "Name": "Spinka, Leuschke and Nikolaus",
+        "ToolTip": "Non doloribus.",
         "Deleted": false,
-        "Rank": 622,
-        "Type": "autem",
+        "Rank": 891,
+        "Type": "ratione",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 329,
-        "ExtraInfo": "aut",
-        "StyleHint": "voluptas",
-        "FullName": "Dr. Brannon Cynthia Wolf",
+        "IconHint": "consequuntur",
+        "ColorBlock": 831,
+        "ExtraInfo": "illum",
+        "StyleHint": "cumque",
+        "FullName": "Mr. Antwon Merle Zemlak IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 523
+            "FieldLength": 260
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 798,
+    "IconHint": "nihil",
+    "ColorBlock": 314,
     "ExtraInfo": "et",
-    "StyleHint": "voluptatibus",
-    "FullName": "Prof. Marianna Kelley Emard",
+    "StyleHint": "eum",
+    "FullName": "Raven Daugherty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldType": "System.String",
+        "FieldLength": 264
       }
     }
   }

@@ -26,7 +26,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=aut
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=doloribus
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "Glover-Shanahan",
-    "ToolTip": "Ut omnis facere nam nulla molestias fugiat.",
+    "Id": 260,
+    "Name": "Legros Inc and Sons",
+    "ToolTip": "Magnam et.",
     "Deleted": false,
-    "Rank": 272,
-    "Type": "culpa",
+    "Rank": 48,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 275,
-        "Name": "Rippin Inc and Sons",
-        "ToolTip": "Sed numquam cum ut et quod facere aut.",
-        "Deleted": true,
-        "Rank": 862,
-        "Type": "fugit",
+        "Id": 385,
+        "Name": "Turcotte LLC",
+        "ToolTip": "Eaque est distinctio dolores.",
+        "Deleted": false,
+        "Rank": 892,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 528,
-        "ExtraInfo": "qui",
-        "StyleHint": "dolorum",
-        "FullName": "Dr. Max Kathryne Lebsack II",
+        "IconHint": "fugit",
+        "ColorBlock": 66,
+        "ExtraInfo": "doloremque",
+        "StyleHint": "neque",
+        "FullName": "Madisyn Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldLength": 436
           }
         }
       }
     ],
-    "IconHint": "corrupti",
-    "ColorBlock": 202,
-    "ExtraInfo": "modi",
-    "StyleHint": "ad",
-    "FullName": "Madelyn Goodwin",
+    "IconHint": "voluptatum",
+    "ColorBlock": 844,
+    "ExtraInfo": "ab",
+    "StyleHint": "occaecati",
+    "FullName": "Maureen Mraz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldLength": 550
       }
     }
   }

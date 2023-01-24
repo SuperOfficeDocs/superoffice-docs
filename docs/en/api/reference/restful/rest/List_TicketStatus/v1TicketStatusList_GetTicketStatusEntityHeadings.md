@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 515,
-    "Name": "Jast LLC",
-    "Tooltip": "delectus",
+    "HeadingId": 694,
+    "Name": "Ryan Inc and Sons",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 602,
-    "UdListDefinitionId": 56,
+    "Rank": 725,
+    "UdListDefinitionId": 343,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldType": "System.String",
+        "FieldLength": 387
       }
     }
   }

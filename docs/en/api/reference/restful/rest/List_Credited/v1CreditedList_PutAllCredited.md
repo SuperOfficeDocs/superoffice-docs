@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Conn, Jacobi and Brakus",
-    "Tooltip": "deleniti",
+    "Id": 816,
+    "Name": "Lakin, Fisher and Schroeder",
+    "Tooltip": "voluptatum",
     "Deleted": true,
-    "UdListDefinitionId": 45,
-    "Rank": 721
+    "UdListDefinitionId": 890,
+    "Rank": 901
   },
   {
-    "Id": 42,
-    "Name": "Conn, Jacobi and Brakus",
-    "Tooltip": "deleniti",
+    "Id": 816,
+    "Name": "Lakin, Fisher and Schroeder",
+    "Tooltip": "voluptatum",
     "Deleted": true,
-    "UdListDefinitionId": 45,
-    "Rank": 721
+    "UdListDefinitionId": 890,
+    "Rank": 901
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 857,
-    "Name": "Nader-Windler",
-    "Tooltip": "placeat",
-    "Deleted": false,
-    "UdListDefinitionId": 964,
-    "Rank": 81,
+    "Id": 328,
+    "Name": "Hodkiewicz, Thompson and Ullrich",
+    "Tooltip": "neque",
+    "Deleted": true,
+    "UdListDefinitionId": 944,
+    "Rank": 979,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldLength": 966
       }
     }
   }

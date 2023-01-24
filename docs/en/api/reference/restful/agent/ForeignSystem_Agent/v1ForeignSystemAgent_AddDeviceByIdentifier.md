@@ -86,9 +86,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lebsack, Kris and Goodwin",
-  "DeviceName": "Johns-Klein",
-  "DeviceIdentifier": "assumenda"
+  "ApplicationName": "O'Connell, Gislason and Kohler",
+  "DeviceName": "Stroman-Becker",
+  "DeviceIdentifier": "excepturi"
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 215,
-  "Name": "Mayer LLC",
-  "CreatedDate": "2007-07-07T17:37:18.1022436+02:00",
-  "UpdatedDate": "2016-04-20T17:37:18.1022436+02:00",
-  "AssociateFullName": "Wilhelmine Rutherford DVM",
-  "CreatedBy": "nam",
-  "UpdatedBy": "impedit",
-  "DeviceIdentifier": "voluptate",
-  "ForeignAppId": 626,
+  "ForeignDeviceId": 551,
+  "Name": "Heathcote, Sawayn and Bechtelar",
+  "CreatedDate": "2005-06-20T11:22:38.3834434+02:00",
+  "UpdatedDate": "2017-03-26T11:22:38.3834434+02:00",
+  "AssociateFullName": "Lexus Richmond Spencer III",
+  "CreatedBy": "eum",
+  "UpdatedBy": "voluptates",
+  "DeviceIdentifier": "mollitia",
+  "ForeignAppId": 117,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldType": "System.String",
+      "FieldLength": 602
     }
   }
 }

@@ -81,12 +81,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 189,
-  "Name": "Rowe Group",
-  "Tooltip": "sit",
+  "Id": 704,
+  "Name": "Turner Inc and Sons",
+  "Tooltip": "eos",
   "Deleted": true,
-  "UdListDefinitionId": 275,
-  "Rank": 13
+  "UdListDefinitionId": 43,
+  "Rank": 575
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Name": "Beer-Rice",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "UdListDefinitionId": 606,
-  "Rank": 383,
+  "Id": 340,
+  "Name": "Gaylord, Walker and Blanda",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "UdListDefinitionId": 289,
+  "Rank": 79,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldType": "System.Int32",
+      "FieldLength": 723
     }
   }
 }

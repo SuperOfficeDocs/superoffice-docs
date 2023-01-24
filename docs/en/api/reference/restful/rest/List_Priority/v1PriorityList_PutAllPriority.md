@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 70,
-    "Name": "Mertz-Reichel",
-    "Tooltip": "dolor",
+    "Id": 646,
+    "Name": "Bernier LLC",
+    "Tooltip": "omnis",
     "Deleted": true,
-    "UdListDefinitionId": 637,
-    "Rank": 572
+    "UdListDefinitionId": 514,
+    "Rank": 882
   },
   {
-    "Id": 70,
-    "Name": "Mertz-Reichel",
-    "Tooltip": "dolor",
+    "Id": 646,
+    "Name": "Bernier LLC",
+    "Tooltip": "omnis",
     "Deleted": true,
-    "UdListDefinitionId": 637,
-    "Rank": 572
+    "UdListDefinitionId": 514,
+    "Rank": 882
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "Dach Group",
-    "Tooltip": "natus",
+    "Id": 500,
+    "Name": "Friesen, Prosacco and Goyette",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "UdListDefinitionId": 817,
-    "Rank": 663,
+    "UdListDefinitionId": 812,
+    "Rank": 495,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 402
+        "FieldType": "System.String",
+        "FieldLength": 481
       }
     }
   }

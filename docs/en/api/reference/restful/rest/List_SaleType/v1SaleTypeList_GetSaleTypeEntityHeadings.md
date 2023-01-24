@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 299,
-    "Name": "Conroy-Runolfsson",
-    "Tooltip": "quo",
+    "HeadingId": 665,
+    "Name": "Carter-Dickinson",
+    "Tooltip": "praesentium",
     "Deleted": false,
-    "Rank": 120,
-    "UdListDefinitionId": 490,
+    "Rank": 949,
+    "UdListDefinitionId": 628,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

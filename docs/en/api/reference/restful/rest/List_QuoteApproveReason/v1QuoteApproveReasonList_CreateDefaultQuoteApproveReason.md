@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 958,
-  "Name": "Weissnat, Dicki and Kirlin",
-  "Tooltip": "aliquid",
+  "Id": 429,
+  "Name": "Jaskolski, Murphy and Turcotte",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "UdListDefinitionId": 469,
-  "Rank": 552,
+  "UdListDefinitionId": 70,
+  "Rank": 338,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldType": "System.Int32",
+      "FieldLength": 905
     }
   }
 }

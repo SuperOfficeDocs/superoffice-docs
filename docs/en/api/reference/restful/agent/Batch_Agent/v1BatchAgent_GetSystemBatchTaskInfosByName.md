@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -92,11 +93,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Krajcik, Gulgowski and Hilpert"
+  "TaskName": "Mueller, Rippin and Anderson"
 }
 ```
 
@@ -108,36 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Ryan, Schumm and Bergnaum",
-    "AssociateId": 197,
-    "DetailsTable": 683,
-    "DetailsRecord": 995,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 218,
+    "Name": "Rutherford, Wunsch and Jacobson",
+    "AssociateId": 632,
+    "DetailsTable": 330,
+    "DetailsRecord": 52,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "dolorem",
-      "ParameterObject2": "ex"
+      "ParameterObject1": "dolores",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "2012-03-12T17:37:16.9072418+01:00",
-    "Created": "1996-03-25T17:37:16.9072418+01:00",
-    "StartCount": 479,
-    "DatabaseSerialNumber": "1070732",
-    "Context": "dolores",
-    "Result": "doloremque",
+    "LastStarted": "2004-11-23T11:22:37.4461725+01:00",
+    "Created": "2008-02-26T11:22:37.4461725+01:00",
+    "StartCount": 217,
+    "DatabaseSerialNumber": "736782",
+    "Context": "maiores",
+    "Result": "iste",
     "State": "All",
-    "Description": "Persistent mobile instruction set",
-    "Response": "et",
-    "Request": "ea",
-    "ProgressDescription": "Synchronised value-added time-frame",
-    "ProgressPercent": 136,
-    "FileName": "Hoeger-Klein",
+    "Description": "Open-architected secondary leverage",
+    "Response": "qui",
+    "Request": "minus",
+    "ProgressDescription": "Managed zero tolerance application",
+    "ProgressPercent": 110,
+    "FileName": "Boyle-Brown",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 740
       }
     }
   }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 237,
-    "Name": "Brown, Heidenreich and Lindgren",
-    "Tooltip": "vel",
-    "Deleted": true,
-    "Rank": 283,
-    "UdListDefinitionId": 255,
+    "HeadingId": 23,
+    "Name": "Jakubowski, Collins and Aufderhar",
+    "Tooltip": "placeat",
+    "Deleted": false,
+    "Rank": 549,
+    "UdListDefinitionId": 424,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldType": "System.String",
+        "FieldLength": 974
       }
     }
   }

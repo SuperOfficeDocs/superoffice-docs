@@ -24,7 +24,7 @@ Gets all the ReasonStalled items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items?includeDeleted=False
+GET /api/v1/List/ReasonStalled/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Quitzon, DuBuque and Wuckert",
-    "Tooltip": "ratione",
+    "Id": 954,
+    "Name": "Wisoky Group",
+    "Tooltip": "pariatur",
     "Deleted": false,
-    "UdListDefinitionId": 746,
-    "Rank": 925,
+    "UdListDefinitionId": 290,
+    "Rank": 996,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldLength": 728
       }
     }
   }

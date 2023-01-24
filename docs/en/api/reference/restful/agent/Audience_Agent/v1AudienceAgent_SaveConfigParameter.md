@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Aufderhar-Hahn",
+  "LayoutName": "Cummings-Koelpin",
   "ConfigParameter": null
 }
 ```
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 169,
-  "Name": "Mohr LLC",
-  "Value": "rerum",
-  "CreatedDate": "2012-04-21T17:37:16.8812422+02:00",
-  "UpdatedDate": "1996-01-06T17:37:16.8812422+01:00",
+  "AudienceLayoutId": 250,
+  "Name": "Hamill Inc and Sons",
+  "Value": "expedita",
+  "CreatedDate": "1998-07-24T11:22:37.4304911+02:00",
+  "UpdatedDate": "2014-11-21T11:22:37.4304911+01:00",
   "CreatedBy": "a",
-  "UpdatedBy": "soluta",
+  "UpdatedBy": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldType": "System.Int32",
+      "FieldLength": 635
     }
   }
 }

@@ -84,6 +84,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -97,10 +98,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jakubowski, Hoeger and Herman",
+  "Name": "Kassulke Inc and Sons",
   "AssociateIds": [
-    528,
-    931
+    808,
+    954
   ]
 }
 ```
@@ -113,36 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 563,
-    "Name": "Schmidt-Labadie",
-    "AssociateId": 861,
-    "DetailsTable": 401,
-    "DetailsRecord": 864,
+    "Id": 855,
+    "Name": "Champlin LLC",
+    "AssociateId": 146,
+    "DetailsTable": 558,
+    "DetailsRecord": 53,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "totam",
-      "ParameterObject2": "illo"
+      "ParameterObject1": "doloremque",
+      "ParameterObject2": "aut"
     },
-    "LastStarted": "2017-12-21T17:37:16.9022429+01:00",
-    "Created": "2022-02-28T17:37:16.9022429+01:00",
-    "StartCount": 267,
-    "DatabaseSerialNumber": "890156",
-    "Context": "eum",
-    "Result": "modi",
+    "LastStarted": "2018-02-12T11:22:37.4461725+01:00",
+    "Created": "1999-11-11T11:22:37.4461725+01:00",
+    "StartCount": 592,
+    "DatabaseSerialNumber": "1267446",
+    "Context": "temporibus",
+    "Result": "nemo",
     "State": "All",
-    "Description": "Streamlined national framework",
-    "Response": "error",
-    "Request": "repellat",
-    "ProgressDescription": "Multi-tiered systemic ability",
-    "ProgressPercent": 658,
-    "FileName": "Gaylord, Jones and Crona",
+    "Description": "Advanced web-enabled strategy",
+    "Response": "iste",
+    "Request": "qui",
+    "ProgressDescription": "Open-architected non-volatile hub",
+    "ProgressPercent": 510,
+    "FileName": "Kemmer LLC",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldType": "System.String",
+        "FieldLength": 863
       }
     }
   }

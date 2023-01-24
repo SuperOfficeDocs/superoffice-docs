@@ -86,34 +86,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 489,
-  "UniqueId": "nihil",
-  "Name": "Kuphal LLC",
-  "Description": "Centralized tertiary customer loyalty",
-  "AssociateId": 936,
-  "Columns": 12,
+  "DashboardId": 219,
+  "UniqueId": "similique",
+  "Name": "Ledner Group",
+  "Description": "Face to face 24 hour customer loyalty",
+  "AssociateId": 894,
+  "Columns": 393,
   "Theme": null,
-  "VisibleForAll": 94,
+  "VisibleForAll": 195,
   "VisibleForAssociates": [
-    347,
-    808
+    72,
+    26
   ],
   "VisibleForGroups": [
-    1001,
-    201
+    896,
+    998
   ],
-  "PinForAll": 354,
+  "PinForAll": 523,
   "PinForAssociates": [
-    654,
-    378
+    687,
+    811
   ],
   "PinForGroups": [
-    996,
-    992
+    345,
+    731
   ]
 }
 ```
@@ -125,37 +125,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 100,
-  "UniqueId": "non",
-  "Name": "Wolff-Barton",
-  "Description": "Automated dedicated protocol",
-  "AssociateId": 609,
-  "Columns": 854,
+  "DashboardId": 439,
+  "UniqueId": "sunt",
+  "Name": "Weber, Abernathy and Dietrich",
+  "Description": "Assimilated uniform database",
+  "AssociateId": 205,
+  "Columns": 285,
   "Theme": null,
-  "VisibleForAll": 43,
+  "VisibleForAll": 690,
   "VisibleForAssociates": [
-    533,
-    612
+    464,
+    985
   ],
   "VisibleForGroups": [
-    549,
-    352
+    981,
+    668
   ],
-  "PinForAll": 511,
+  "PinForAll": 340,
   "PinForAssociates": [
-    666,
-    680
+    618,
+    304
   ],
   "PinForGroups": [
-    159,
-    286
+    594,
+    801
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 617
+      "FieldLength": 706
     }
   }
 }

@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 668,
-  "Name": "Tremblay Group",
-  "Tooltip": "dolorum",
+  "Id": 534,
+  "Name": "Gutkowski-Mertz",
+  "Tooltip": "est",
   "Deleted": true,
-  "Rank": 53,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 751,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "adipisci",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aperiam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 999
+      "FieldLength": 529
     }
   },
   "_Links": {

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 70,
-    "Name": "Mann, Larkin and Howe",
-    "ToolTip": "Autem laboriosam.",
-    "Deleted": false,
-    "Rank": 50,
-    "Type": "eveniet",
-    "ColorBlock": 857,
-    "IconHint": "ratione",
+    "Id": 213,
+    "Name": "Leuschke, Nikolaus and Monahan",
+    "ToolTip": "Quibusdam id.",
+    "Deleted": true,
+    "Rank": 883,
+    "Type": "quia",
+    "ColorBlock": 25,
+    "IconHint": "consequuntur",
     "Selected": false,
-    "LastChanged": "2020-09-29T17:37:39.8975059+02:00",
+    "LastChanged": "1997-06-01T11:22:45.8191493+02:00",
     "ChildItems": [
       {
-        "Id": 984,
-        "Name": "Gaylord-Osinski",
-        "ToolTip": "Voluptatem iure occaecati neque iure porro.",
-        "Deleted": false,
-        "Rank": 685,
-        "Type": "repellendus",
-        "ColorBlock": 549,
-        "IconHint": "ex",
+        "Id": 488,
+        "Name": "Jaskolski-Morissette",
+        "ToolTip": "Illum quas nemo odio ea cum aut.",
+        "Deleted": true,
+        "Rank": 817,
+        "Type": "pariatur",
+        "ColorBlock": 391,
+        "IconHint": "officiis",
         "Selected": false,
-        "LastChanged": "2017-07-08T17:37:39.8975059+02:00",
+        "LastChanged": "2012-08-20T11:22:45.8191493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "dolor",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Enoch Quigley III"
+        "FullName": "Lionel Carter III"
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "sunt",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Linda Sipes"
+    "FullName": "Alfredo Volkman"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 482,
-    "Name": "McClure-Graham",
-    "ToolTip": "Dolor illum nihil eos voluptas adipisci non quisquam.",
+    "Id": 435,
+    "Name": "Nader Group",
+    "ToolTip": "Doloribus quaerat laudantium et natus qui labore.",
     "Deleted": false,
-    "Rank": 741,
-    "Type": "explicabo",
-    "ColorBlock": 450,
-    "IconHint": "saepe",
+    "Rank": 657,
+    "Type": "quam",
+    "ColorBlock": 687,
+    "IconHint": "ex",
     "Selected": false,
-    "LastChanged": "2010-11-24T17:37:39.8995055+01:00",
+    "LastChanged": "1997-07-01T11:22:45.8191493+02:00",
     "ChildItems": [
       {
-        "Id": 18,
-        "Name": "Powlowski, Eichmann and Mills",
-        "ToolTip": "Soluta dolore culpa eos nihil.",
+        "Id": 226,
+        "Name": "Cole LLC",
+        "ToolTip": "Sunt natus ea autem iusto nihil ratione deserunt.",
         "Deleted": false,
-        "Rank": 6,
-        "Type": "est",
-        "ColorBlock": 48,
-        "IconHint": "quae",
-        "Selected": false,
-        "LastChanged": "2009-04-06T17:37:39.8995055+02:00",
+        "Rank": 235,
+        "Type": "ut",
+        "ColorBlock": 835,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "2001-08-31T11:22:45.8191493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Ms. Nya Pinkie Ryan PhD",
+        "ExtraInfo": "eum",
+        "StyleHint": "deserunt",
+        "Hidden": true,
+        "FullName": "Hilario Greenfelder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 786
+            "FieldLength": 276
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Thora Collier III",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "eveniet",
+    "Hidden": false,
+    "FullName": "Katelin Zboncak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldType": "System.String",
+        "FieldLength": 85
       }
     }
   }

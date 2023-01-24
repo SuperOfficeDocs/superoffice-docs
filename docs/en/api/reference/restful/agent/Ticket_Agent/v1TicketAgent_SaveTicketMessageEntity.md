@@ -114,68 +114,68 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 135,
+  "EjMessageId": 306,
   "Ticket": null,
-  "CreatedAt": "2018-05-19T17:37:19.3092428+02:00",
+  "CreatedAt": "2018-07-08T11:22:39.4144523+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "eum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "vel",
-  "TimeSpent": 63,
-  "Body": "tempora",
-  "HtmlBody": "rerum",
-  "EmailHeader": "dedrick@moen.co.uk",
-  "DebugInfo": "cumque",
-  "MailSorter": "et",
+  "MessageId": "optio",
+  "TimeSpent": 158,
+  "Body": "sed",
+  "HtmlBody": "est",
+  "EmailHeader": "libbie_maggio@fisher.ca",
+  "DebugInfo": "accusamus",
+  "MailSorter": "eos",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "vel",
+  "SearchTitle": "ipsa",
   "MessageHeaders": [
     {
-      "Id": 640,
-      "Name": "Fay-Hayes",
-      "Value": "qui",
+      "Id": 729,
+      "Name": "Schinner-O'Connell",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 640,
-      "Name": "Fay-Hayes",
-      "Value": "qui",
+      "Id": 729,
+      "Name": "Schinner-O'Connell",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "saepe",
-  "Sentiment": 980,
-  "SentimentConfidence": 93,
+  "Language": "id",
+  "Sentiment": 287,
+  "SentimentConfidence": 557,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 899,
-      "Name": "Ernser Inc and Sons",
-      "ContentType": "facere",
-      "AttSize": 194,
-      "InlineImage": false,
-      "ContentId": "eius"
+      "AttachmentId": 36,
+      "Name": "Barrows-Cole",
+      "ContentType": "consequatur",
+      "AttSize": 425,
+      "InlineImage": true,
+      "ContentId": "sunt"
     },
     {
-      "AttachmentId": 899,
-      "Name": "Ernser Inc and Sons",
-      "ContentType": "facere",
-      "AttSize": 194,
-      "InlineImage": false,
-      "ContentId": "eius"
+      "AttachmentId": 36,
+      "Name": "Barrows-Cole",
+      "ContentType": "consequatur",
+      "AttSize": 425,
+      "InlineImage": true,
+      "ContentId": "sunt"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "aspernatur"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "ipsam"
   },
   "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "ut"
+    "CustomFields1": "omnis",
+    "CustomFields2": "exercitationem"
   }
 }
 ```
@@ -187,28 +187,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 972,
+  "EjMessageId": 614,
   "Ticket": null,
-  "CreatedAt": "2015-11-02T17:37:19.3162426+01:00",
+  "CreatedAt": "2019-12-04T11:22:39.4144523+01:00",
   "CreatedBy": null,
-  "Author": "sed",
+  "Author": "vero",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ullam",
-  "TimeSpent": 536,
-  "Body": "voluptatum",
-  "HtmlBody": "esse",
-  "EmailHeader": "uriah@hilpertgutmann.uk",
-  "DebugInfo": "quaerat",
-  "MailSorter": "sit",
+  "MessageId": "dolor",
+  "TimeSpent": 160,
+  "Body": "vel",
+  "HtmlBody": "eius",
+  "EmailHeader": "mckenzie@little.us",
+  "DebugInfo": "fuga",
+  "MailSorter": "ut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "explicabo",
+  "SearchTitle": "quae",
   "MessageHeaders": [
     {
-      "Id": 670,
-      "Name": "Swift Inc and Sons",
-      "Value": "incidunt",
+      "Id": 129,
+      "Name": "Herzog Inc and Sons",
+      "Value": "molestias",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -216,47 +216,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldLength": 177
         }
       }
     }
   ],
   "Important": false,
-  "Language": "et",
-  "Sentiment": 900,
-  "SentimentConfidence": 996,
+  "Language": "omnis",
+  "Sentiment": 254,
+  "SentimentConfidence": 602,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 510,
-      "Name": "Predovic, Casper and Greenholt",
-      "ContentType": "sit",
-      "AttSize": 984,
+      "AttachmentId": 957,
+      "Name": "Schultz, Gorczany and Lehner",
+      "ContentType": "illum",
+      "AttSize": 764,
       "InlineImage": false,
-      "ContentId": "molestiae",
+      "ContentId": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 765
+          "FieldType": "System.Int32",
+          "FieldLength": 828
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "fugit",
-    "ExtraFields2": "et"
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "consectetur"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "autem"
+    "CustomFields1": "id",
+    "CustomFields2": "facilis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldType": "System.Int32",
+      "FieldLength": 95
     }
   }
 }

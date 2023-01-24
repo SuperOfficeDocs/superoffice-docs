@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 844,
-  "DimensionId": 257
+  "TargetYear": 2,
+  "DimensionId": 685
 }
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 199,
-  "Year": 8,
+  "TargetGroupId": 295,
+  "Year": 254,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 77,
+      "TargetAssignmentInfoId": 532,
       "Values": [
-        13,
-        547
+        737,
+        677
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 530,
-      "DimensionListItemDisplayName": "Dach-Hoeger",
+      "DimensionListItem": 875,
+      "DimensionListItemDisplayName": "Beer, Botsford and Stokes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 587
+          "FieldLength": 661
         }
       }
     }
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 990
     }
   }
 }

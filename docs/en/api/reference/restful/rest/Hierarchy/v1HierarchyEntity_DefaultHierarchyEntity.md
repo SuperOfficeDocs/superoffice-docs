@@ -75,46 +75,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 297,
+  "HierarchyId": 593,
   "Domain": "Dashboards",
-  "Name": "Ferry-Purdy",
-  "Fullname": "quia",
-  "ParentId": 720,
+  "Name": "Bednar, Hudson and Weissnat",
+  "Fullname": "omnis",
+  "ParentId": 418,
   "Children": [
     {
-      "HierarchyId": 690,
+      "HierarchyId": 380,
       "Domain": "Dashboards",
-      "Name": "Hilpert, O'Kon and Kemmer",
-      "Fullname": "totam",
-      "ParentId": 622,
+      "Name": "Mann, Conn and Hermiston",
+      "Fullname": "officia",
+      "ParentId": 754,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1998-02-19T17:37:38.8248598+01:00",
-      "RegisteredAssociateId": 111,
-      "Updated": "2011-03-23T17:37:38.8248598+01:00",
-      "UpdatedAssociateId": 543,
+      "Registered": "2006-11-01T11:22:44.8818691+01:00",
+      "RegisteredAssociateId": 430,
+      "Updated": "2001-10-01T11:22:44.8818691+02:00",
+      "UpdatedAssociateId": 174,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldType": "System.String",
+          "FieldLength": 525
         }
       }
     }
   ],
-  "Registered": "2020-03-27T17:37:38.8248598+01:00",
-  "RegisteredAssociateId": 552,
-  "Updated": "1997-12-27T17:37:38.8248598+01:00",
-  "UpdatedAssociateId": 743,
+  "Registered": "2007-06-13T11:22:44.8818691+02:00",
+  "RegisteredAssociateId": 975,
+  "Updated": "2020-09-19T11:22:44.8818691+02:00",
+  "UpdatedAssociateId": 813,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 999
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   }
 }

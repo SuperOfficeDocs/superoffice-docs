@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 279,
-  "Name": "Cartwright, Herman and Terry",
-  "Tooltip": "quod",
-  "Deleted": true,
-  "Rank": 33,
-  "IsCustomList": true,
+  "Id": 645,
+  "Name": "Fay-Ortiz",
+  "Tooltip": "atque",
+  "Deleted": false,
+  "Rank": 958,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": false
+  "ListType": "et",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 271,
-  "Name": "Schuster-Lowe",
-  "Tooltip": "voluptatem",
+  "Id": 129,
+  "Name": "Lowe Group",
+  "Tooltip": "quam",
   "Deleted": false,
-  "Rank": 870,
-  "IsCustomList": true,
+  "Rank": 191,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nobis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "accusamus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldType": "System.Int32",
+      "FieldLength": 146
     }
   }
 }

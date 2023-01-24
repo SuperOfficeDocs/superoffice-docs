@@ -101,46 +101,46 @@ OK
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 425,
-  "Caption": "qui",
-  "Description": "Seamless stable open system",
-  "ChartName": "Beier-Wolf",
-  "ChartId": "alias",
-  "IsDefault": false,
-  "AssociateId": 769,
-  "GroupId": 759,
-  "SelectionId": 192,
-  "Config": "et",
+  "DashboardTileId": 860,
+  "Caption": "id",
+  "Description": "Self-enabling value-added concept",
+  "ChartName": "Hauck, Murazik and Swift",
+  "ChartId": "aut",
+  "IsDefault": true,
+  "AssociateId": 185,
+  "GroupId": 82,
+  "SelectionId": 420,
+  "Config": "est",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Fadel LLC",
-      "Description": "Decentralized heuristic support",
+      "Name": "Frami, Ankunding and Hand",
+      "Description": "Open-source local extranet",
       "Type": "Boolean",
-      "ListName": "Ward-Lubowitz",
+      "ListName": "Bahringer, Kuvalis and Miller",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "dolores",
-      "DefaultDataOption": true
+      "Value": "vitae",
+      "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 594,
+      "VisibleId": 265,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "aut"
     },
     {
-      "VisibleId": 594,
+      "VisibleId": 265,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "aut"
     }
   ]
 }
@@ -153,64 +153,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 811,
-  "Caption": "laboriosam",
-  "Description": "User-centric 4th generation structure",
-  "ChartName": "Lubowitz Group",
-  "ChartId": "odit",
+  "DashboardTileId": 408,
+  "Caption": "qui",
+  "Description": "Diverse cohesive budgetary management",
+  "ChartName": "Goyette-Wisozk",
+  "ChartId": "nemo",
   "IsDefault": false,
-  "AssociateId": 182,
-  "GroupId": 371,
-  "SelectionId": 718,
-  "Config": "aliquam",
+  "AssociateId": 378,
+  "GroupId": 354,
+  "SelectionId": 435,
+  "Config": "enim",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kuhic, Schuppe and Sauer",
-      "Description": "Profound static model",
+      "Name": "Hoeger Group",
+      "Description": "Persevering human-resource circuit",
       "Type": "Boolean",
-      "ListName": "Hyatt-Waters",
+      "ListName": "Hegmann, Koelpin and Rau",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "aut",
+      "Value": "molestias",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 480
+          "FieldLength": 825
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 615,
+      "VisibleId": 873,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 19
+          "FieldType": "System.Int32",
+          "FieldLength": 265
         }
       }
     },
     {
-      "VisibleId": 615,
+      "VisibleId": 873,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 19
+          "FieldType": "System.Int32",
+          "FieldLength": 265
         }
       }
     }
@@ -219,13 +219,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldType": "System.String",
+      "FieldLength": 864
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

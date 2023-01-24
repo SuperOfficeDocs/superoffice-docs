@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 545,
-    "Name": "Casper-Goodwin",
-    "Tooltip": "voluptatem",
+    "HeadingId": 733,
+    "Name": "Padberg-Rosenbaum",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 814,
-    "UdListDefinitionId": 427
+    "Rank": 513,
+    "UdListDefinitionId": 597
   },
   {
-    "HeadingId": 545,
-    "Name": "Casper-Goodwin",
-    "Tooltip": "voluptatem",
+    "HeadingId": 733,
+    "Name": "Padberg-Rosenbaum",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 814,
-    "UdListDefinitionId": 427
+    "Rank": 513,
+    "UdListDefinitionId": 597
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 711,
-    "Name": "Barrows Group",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "Rank": 733,
-    "UdListDefinitionId": 30,
+    "HeadingId": 73,
+    "Name": "Koepp-Blick",
+    "Tooltip": "nisi",
+    "Deleted": true,
+    "Rank": 62,
+    "UdListDefinitionId": 756,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 603
       }
     }
   }

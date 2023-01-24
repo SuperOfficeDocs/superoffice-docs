@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Gusikowski LLC",
-    "ToolTip": "Fugit perspiciatis totam possimus rerum aut.",
-    "Deleted": false,
-    "Rank": 266,
-    "Type": "nesciunt",
-    "ColorBlock": 89,
-    "IconHint": "quidem",
-    "Selected": false,
-    "LastChanged": "2006-10-14T17:37:40.0565063+02:00",
+    "Id": 172,
+    "Name": "Eichmann-Feil",
+    "ToolTip": "Maiores deleniti dolor non quos.",
+    "Deleted": true,
+    "Rank": 526,
+    "Type": "quaerat",
+    "ColorBlock": 295,
+    "IconHint": "quo",
+    "Selected": true,
+    "LastChanged": "2006-10-08T11:22:45.9441645+02:00",
     "ChildItems": [
       {
-        "Id": 253,
-        "Name": "Kling Inc and Sons",
-        "ToolTip": "Numquam repellat est.",
+        "Id": 519,
+        "Name": "Nicolas-Shanahan",
+        "ToolTip": "Autem vero quae est nihil.",
         "Deleted": false,
-        "Rank": 185,
-        "Type": "consequatur",
-        "ColorBlock": 755,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "1999-05-29T17:37:40.0575016+02:00",
+        "Rank": 967,
+        "Type": "incidunt",
+        "ColorBlock": 340,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2010-06-04T11:22:45.9441645+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "esse",
+        "ExtraInfo": "similique",
+        "StyleHint": "dicta",
         "Hidden": false,
-        "FullName": "Prof. Arjun Powlowski",
+        "FullName": "Ms. Mark Tremblay V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 854
+            "FieldLength": 480
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "omnis",
+    "ExtraInfo": "cumque",
+    "StyleHint": "in",
     "Hidden": true,
-    "FullName": "Cloyd Effertz",
+    "FullName": "Archibald Zemlak Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 459
       }
     }
   }

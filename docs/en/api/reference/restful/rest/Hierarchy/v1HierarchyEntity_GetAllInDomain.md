@@ -28,7 +28,7 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=True
+GET /api/v1/Hierarchy/{domain}?children=False
 ```
 
 
@@ -88,46 +88,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 251,
+    "HierarchyId": 612,
     "Domain": "Dashboards",
-    "Name": "Schaefer, Bins and Purdy",
-    "Fullname": "enim",
-    "ParentId": 596,
+    "Name": "Beier, Crist and Bartoletti",
+    "Fullname": "ducimus",
+    "ParentId": 867,
     "Children": [
       {
-        "HierarchyId": 814,
+        "HierarchyId": 252,
         "Domain": "Dashboards",
-        "Name": "Kunde Inc and Sons",
-        "Fullname": "voluptatem",
-        "ParentId": 274,
+        "Name": "Nitzsche-Trantow",
+        "Fullname": "voluptatibus",
+        "ParentId": 516,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2005-01-16T17:37:38.8288556+01:00",
-        "RegisteredAssociateId": 868,
-        "Updated": "2019-04-05T17:37:38.8288556+02:00",
-        "UpdatedAssociateId": 440,
+        "Registered": "2003-12-09T11:22:44.8818691+01:00",
+        "RegisteredAssociateId": 428,
+        "Updated": "2013-06-27T11:22:44.8818691+02:00",
+        "UpdatedAssociateId": 322,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldLength": 535
           }
         }
       }
     ],
-    "Registered": "2006-12-04T17:37:38.8288556+01:00",
-    "RegisteredAssociateId": 717,
-    "Updated": "2010-08-03T17:37:38.8288556+02:00",
-    "UpdatedAssociateId": 620,
+    "Registered": "2001-09-22T11:22:44.8818691+02:00",
+    "RegisteredAssociateId": 194,
+    "Updated": "2016-09-18T11:22:44.8818691+02:00",
+    "UpdatedAssociateId": 593,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldType": "System.String",
+        "FieldLength": 779
       }
     }
   }

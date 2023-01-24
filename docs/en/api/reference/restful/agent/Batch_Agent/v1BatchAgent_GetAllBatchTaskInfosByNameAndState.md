@@ -84,6 +84,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -93,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Jakubowski, Gottlieb and Fisher",
+  "TaskName": "Russel-Tillman",
   "State": "All"
 }
 ```
@@ -110,36 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Rutherford Inc and Sons",
-    "AssociateId": 85,
-    "DetailsTable": 915,
-    "DetailsRecord": 988,
+    "Id": 647,
+    "Name": "Bahringer Group",
+    "AssociateId": 213,
+    "DetailsTable": 237,
+    "DetailsRecord": 391,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "nesciunt",
-      "ParameterObject2": "ipsa"
+      "ParameterObject1": "aut",
+      "ParameterObject2": "aliquam"
     },
-    "LastStarted": "2002-01-22T17:37:16.9062447+01:00",
-    "Created": "2022-08-22T17:37:16.9062447+02:00",
-    "StartCount": 406,
-    "DatabaseSerialNumber": "855257",
-    "Context": "expedita",
-    "Result": "voluptatem",
+    "LastStarted": "2004-03-14T11:22:37.4461725+01:00",
+    "Created": "2022-12-17T11:22:37.4461725+01:00",
+    "StartCount": 472,
+    "DatabaseSerialNumber": "799280",
+    "Context": "officiis",
+    "Result": "labore",
     "State": "All",
-    "Description": "User-centric methodical software",
-    "Response": "facilis",
-    "Request": "reiciendis",
-    "ProgressDescription": "Innovative logistical hardware",
-    "ProgressPercent": 523,
-    "FileName": "Pfeffer, Sipes and Douglas",
+    "Description": "Universal mission-critical intranet",
+    "Response": "et",
+    "Request": "neque",
+    "ProgressDescription": "Digitized executive contingency",
+    "ProgressPercent": 544,
+    "FileName": "Larson-Mraz",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 179
+        "FieldLength": 244
       }
     }
   }

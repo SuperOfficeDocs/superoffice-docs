@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Klocko LLC"
+  "ApplicationName": "Paucek-Reilly"
 }
 ```
 
@@ -96,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 712,
-    "Name": "Lubowitz, Christiansen and Fahey",
-    "CreatedDate": "2004-06-02T17:37:18.099243+02:00",
-    "UpdatedDate": "2011-07-07T17:37:18.099243+02:00",
-    "AssociateFullName": "Juvenal Schimmel",
-    "CreatedBy": "aut",
-    "UpdatedBy": "mollitia",
-    "DeviceIdentifier": "praesentium",
-    "ForeignAppId": 544,
+    "ForeignDeviceId": 841,
+    "Name": "Ritchie-Rutherford",
+    "CreatedDate": "2014-10-18T11:22:38.3678241+02:00",
+    "UpdatedDate": "2010-06-07T11:22:38.3678241+02:00",
+    "AssociateFullName": "Dorthy Ellis Strosin II",
+    "CreatedBy": "minima",
+    "UpdatedBy": "dolores",
+    "DeviceIdentifier": "nisi",
+    "ForeignAppId": 623,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldLength": 119
       }
     }
   }

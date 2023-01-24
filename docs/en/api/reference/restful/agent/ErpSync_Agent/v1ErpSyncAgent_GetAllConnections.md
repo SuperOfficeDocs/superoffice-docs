@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -104,33 +104,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 520,
-    "ErpConnectorId": 437,
-    "DisplayName": "Leuschke LLC",
-    "DisplayDescription": "Customer-focused bottom-line moderator",
-    "Active": true,
-    "ConnectionId": "molestias",
-    "MostRecentTimestamp": "autem",
+    "ErpConnectionId": 870,
+    "ErpConnectorId": 478,
+    "DisplayName": "Brakus LLC",
+    "DisplayDescription": "Operative analyzing moderator",
+    "Active": false,
+    "ConnectionId": "unde",
+    "MostRecentTimestamp": "doloribus",
     "ConfigFields": {
-      "ConfigFields1": "qui",
-      "ConfigFields2": "nostrum"
+      "ConfigFields1": "nihil",
+      "ConfigFields2": "id"
     },
     "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      215,
-      863
+      708,
+      175
     ],
     "AssociateAccessIds": [
-      973,
-      934
+      928,
+      730
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldType": "System.Int32",
+        "FieldLength": 174
       }
     }
   }

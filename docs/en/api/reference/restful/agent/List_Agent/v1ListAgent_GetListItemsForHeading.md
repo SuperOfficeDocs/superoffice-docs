@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 883,
-  "HeadingId": 340
+  "UdListDefinitionId": 14,
+  "HeadingId": 682
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 989,
-    "Name": "Okuneva, Goodwin and Wyman",
-    "ToolTip": "Iste voluptatum rerum asperiores excepturi eos eum laudantium.",
+    "Id": 941,
+    "Name": "Lubowitz Group",
+    "ToolTip": "Earum ipsam soluta aspernatur aut sed esse sed.",
     "Deleted": false,
-    "Rank": 260,
-    "Type": "voluptatem",
-    "ColorBlock": 957,
-    "IconHint": "facere",
-    "Selected": true,
-    "LastChanged": "2005-06-24T17:37:18.2132455+02:00",
+    "Rank": 78,
+    "Type": "architecto",
+    "ColorBlock": 104,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2020-10-08T11:22:38.4771746+02:00",
     "ChildItems": [
       {
-        "Id": 213,
-        "Name": "Stokes LLC",
-        "ToolTip": "Repudiandae consectetur voluptates sequi ex labore.",
-        "Deleted": false,
-        "Rank": 612,
-        "Type": "atque",
-        "ColorBlock": 454,
-        "IconHint": "sunt",
+        "Id": 382,
+        "Name": "Mosciski Group",
+        "ToolTip": "Odio natus laboriosam.",
+        "Deleted": true,
+        "Rank": 309,
+        "Type": "aperiam",
+        "ColorBlock": 708,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2006-06-27T17:37:18.2132455+02:00",
+        "LastChanged": "2006-02-15T11:22:38.4771746+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "excepturi",
-        "Hidden": true,
-        "FullName": "Prof. Cathy Witting",
+        "ExtraInfo": "ut",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Mrs. Emmet Blaise Herman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 800
+            "FieldType": "System.Int32",
+            "FieldLength": 340
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "aut",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Dr. Dean Jewell Waelchi I",
+    "FullName": "Lou Ziemann DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 192
+        "FieldLength": 801
       }
     }
   }

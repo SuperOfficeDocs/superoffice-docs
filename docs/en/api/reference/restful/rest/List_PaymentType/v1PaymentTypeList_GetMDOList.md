@@ -26,7 +26,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=est
+GET /api/v1/List/PaymentType/MDOItems?query=aut
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Bashirian, Lubowitz and Schuster",
-    "ToolTip": "Quia ut.",
-    "Deleted": false,
-    "Rank": 167,
-    "Type": "quia",
+    "Id": 478,
+    "Name": "Reynolds Inc and Sons",
+    "ToolTip": "Et quis nihil provident itaque unde perspiciatis ex.",
+    "Deleted": true,
+    "Rank": 382,
+    "Type": "iste",
     "ChildItems": [
       {
-        "Id": 532,
-        "Name": "Bosco-Oberbrunner",
-        "ToolTip": "Voluptatibus sed inventore rerum fugit qui saepe.",
+        "Id": 864,
+        "Name": "Harber LLC",
+        "ToolTip": "Consequuntur tenetur libero non voluptas cupiditate reprehenderit.",
         "Deleted": false,
-        "Rank": 369,
-        "Type": "est",
+        "Rank": 812,
+        "Type": "a",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 252,
-        "ExtraInfo": "quidem",
-        "StyleHint": "qui",
-        "FullName": "Earl Lehner I",
+        "IconHint": "omnis",
+        "ColorBlock": 508,
+        "ExtraInfo": "quia",
+        "StyleHint": "quasi",
+        "FullName": "Emmet Quitzon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 478
+            "FieldLength": 43
           }
         }
       }
     ],
-    "IconHint": "aliquam",
-    "ColorBlock": 50,
-    "ExtraInfo": "temporibus",
-    "StyleHint": "occaecati",
-    "FullName": "Cassandra Parisian",
+    "IconHint": "rem",
+    "ColorBlock": 310,
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "deserunt",
+    "FullName": "Dr. Esteban Flavie Pouros II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldLength": 25
       }
     }
   }

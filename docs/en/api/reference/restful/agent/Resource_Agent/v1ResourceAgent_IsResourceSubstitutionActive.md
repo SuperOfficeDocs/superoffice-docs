@@ -76,15 +76,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Ferry-Mosciski",
-    "Buckridge, Oberbrunner and Schultz"
+    "Daugherty-Ebert",
+    "West LLC"
   ],
-  "Culture": "tempora"
+  "Culture": "minima"
 }
 ```
 
@@ -96,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Schamberger-Kuhlman",
-    "ResourceValue": "illum",
-    "Culture": "adipisci",
-    "IsActive": false,
+    "ResourceName": "Goyette-Botsford",
+    "ResourceValue": "assumenda",
+    "Culture": "velit",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 154
+        "FieldLength": 82
       }
     }
   },
   {
-    "ResourceName": "Schamberger-Kuhlman",
-    "ResourceValue": "illum",
-    "Culture": "adipisci",
-    "IsActive": false,
+    "ResourceName": "Goyette-Botsford",
+    "ResourceValue": "assumenda",
+    "Culture": "velit",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 154
+        "FieldLength": 82
       }
     }
   }

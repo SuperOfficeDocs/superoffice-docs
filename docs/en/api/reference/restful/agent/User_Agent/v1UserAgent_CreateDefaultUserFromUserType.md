@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 492,
-  "Name": "Cartwright-Cartwright",
-  "Rank": 619,
-  "Tooltip": "quisquam",
+  "AssociateId": 313,
+  "Name": "Reynolds, Hauck and Rolfson",
+  "Rank": 242,
+  "Tooltip": "illo",
   "LicenseOwners": [
     {
-      "Name": "Gerhold LLC",
-      "Description": "Realigned executive neural-net",
+      "Name": "Block-Kassulke",
+      "Description": "Reduced methodical encryption",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 261
+          "FieldLength": 151
         }
       }
     },
     {
-      "Name": "Gerhold LLC",
-      "Description": "Realigned executive neural-net",
+      "Name": "Block-Kassulke",
+      "Description": "Reduced methodical encryption",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 261
+          "FieldLength": 151
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "velit",
-      "Tooltip": "fugit",
-      "Id": 453,
-      "Rank": 190,
-      "Deleted": false,
+      "Value": "explicabo",
+      "Tooltip": "est",
+      "Id": 685,
+      "Rank": 420,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 456
+          "FieldType": "System.Int32",
+          "FieldLength": 59
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2022-07-05T17:37:19.6059784+02:00",
-  "Lastlogout": "2005-06-04T17:37:19.6059784+02:00",
-  "EjUserId": 536,
-  "RequestSignature": "quae",
+  "Lastlogin": "2014-01-13T11:22:39.6643951+01:00",
+  "Lastlogout": "1996-08-14T11:22:39.6643951+02:00",
+  "EjUserId": 786,
+  "RequestSignature": "aperiam",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nihil",
-      "DisplayValue": "magni",
+      "Value": "reiciendis",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 393
+          "FieldLength": 198
         }
       }
     },
     {
       "Type": null,
-      "Value": "nihil",
-      "DisplayValue": "magni",
+      "Value": "reiciendis",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 393
+          "FieldLength": 198
         }
       }
     }
   ],
-  "UserName": "Weber-O'Connell",
+  "UserName": "O'Keefe, Dooley and Runolfsdottir",
   "TicketCategories": [
     {
-      "Id": 977,
-      "Name": "Nikolaus-Reinger",
-      "ToolTip": "Dignissimos tenetur eum voluptatibus quia aperiam accusantium.",
-      "Deleted": true,
-      "Rank": 907,
-      "Type": "nostrum",
+      "Id": 117,
+      "Name": "Mante Group",
+      "ToolTip": "Aliquam totam ea voluptatem.",
+      "Deleted": false,
+      "Rank": 192,
+      "Type": "commodi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nisi",
-      "ColorBlock": 3,
-      "ExtraInfo": "molestias",
-      "StyleHint": "molestiae",
-      "FullName": "Ansel Karson Bartoletti Jr.",
+      "IconHint": "itaque",
+      "ColorBlock": 140,
+      "ExtraInfo": "quas",
+      "StyleHint": "omnis",
+      "FullName": "Carlos Morar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 170
+          "FieldLength": 674
         }
       }
     }
   ],
-  "NickName": "Borer, White and Parisian",
+  "NickName": "Okuneva, Casper and Hagenes",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "doloremque"
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "labore"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "amet"
+    "CustomFields1": "vero",
+    "CustomFields2": "reprehenderit"
   },
   "PostSaveCommands": [
     {
-      "Name": "O'Hara-Cruickshank",
-      "DisplayName": "Cummings Group",
-      "Description": "Ameliorated value-added alliance",
-      "ToolTip": "Adipisci sint tempora error atque nulla.",
+      "Name": "Breitenberg-Kessler",
+      "DisplayName": "Dicki LLC",
+      "Description": "Team-oriented radical knowledge base",
+      "ToolTip": "Sit eaque.",
       "Actions": "Implicit",
-      "ActionData": "molestiae",
+      "ActionData": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldLength": 99
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 545
+      "FieldType": "System.Int32",
+      "FieldLength": 633
     }
   }
 }

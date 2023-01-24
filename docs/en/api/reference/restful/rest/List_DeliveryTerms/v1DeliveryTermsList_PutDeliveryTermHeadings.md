@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 748,
-    "Name": "Marvin Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 419,
-    "UdListDefinitionId": 617
+    "HeadingId": 594,
+    "Name": "Purdy, Lakin and Robel",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 967,
+    "UdListDefinitionId": 572
   },
   {
-    "HeadingId": 748,
-    "Name": "Marvin Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 419,
-    "UdListDefinitionId": 617
+    "HeadingId": 594,
+    "Name": "Purdy, Lakin and Robel",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 967,
+    "UdListDefinitionId": 572
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 330,
-    "Name": "Prosacco, Borer and Hartmann",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 423,
-    "UdListDefinitionId": 880,
+    "HeadingId": 603,
+    "Name": "Sanford LLC",
+    "Tooltip": "libero",
+    "Deleted": false,
+    "Rank": 852,
+    "UdListDefinitionId": 297,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 891
       }
     }
   }

@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 279,
-  "TargetDimensionId": 750
+  "Year": 274,
+  "TargetDimensionId": 619
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 587,
+    "TargetAssignmentInfoId": 170,
     "Values": [
-      851,
-      27
+      351,
+      497
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 280,
-    "DimensionListItemDisplayName": "Pfeffer Inc and Sons",
+    "DimensionListItem": 87,
+    "DimensionListItemDisplayName": "Tillman-Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldType": "System.String",
+        "FieldLength": 558
       }
     }
   }

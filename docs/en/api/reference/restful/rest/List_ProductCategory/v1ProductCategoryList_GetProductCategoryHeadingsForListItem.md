@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "Cremin-Cormier",
-    "ToolTip": "Amet qui.",
-    "Deleted": true,
-    "Rank": 324,
-    "Type": "non",
-    "ColorBlock": 378,
-    "IconHint": "recusandae",
+    "Id": 400,
+    "Name": "Casper LLC",
+    "ToolTip": "Officiis et natus officiis.",
+    "Deleted": false,
+    "Rank": 517,
+    "Type": "porro",
+    "ColorBlock": 805,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "1996-07-20T17:37:40.1485016+02:00",
+    "LastChanged": "2008-10-27T11:22:46.0222797+01:00",
     "ChildItems": [
       {
-        "Id": 742,
-        "Name": "Hayes-Gorczany",
-        "ToolTip": "Qui possimus.",
+        "Id": 849,
+        "Name": "Ledner Group",
+        "ToolTip": "Provident aliquam.",
         "Deleted": false,
-        "Rank": 7,
-        "Type": "numquam",
-        "ColorBlock": 920,
-        "IconHint": "laboriosam",
+        "Rank": 563,
+        "Type": "necessitatibus",
+        "ColorBlock": 728,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2007-08-21T17:37:40.1485016+02:00",
+        "LastChanged": "1998-07-13T11:22:46.0222797+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "ipsa",
-        "Hidden": true,
-        "FullName": "Emil Fritsch",
+        "ExtraInfo": "tempore",
+        "StyleHint": "aspernatur",
+        "Hidden": false,
+        "FullName": "Lucius Jacobi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 497
+            "FieldType": "System.String",
+            "FieldLength": 2
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Prof. Devante Gabriel McKenzie",
+    "ExtraInfo": "nihil",
+    "StyleHint": "reprehenderit",
+    "Hidden": false,
+    "FullName": "Miss Bobbie Thurman Dare II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 586
+        "FieldType": "System.Int32",
+        "FieldLength": 372
       }
     }
   }

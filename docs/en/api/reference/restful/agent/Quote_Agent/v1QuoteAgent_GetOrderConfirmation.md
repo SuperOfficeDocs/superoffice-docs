@@ -72,8 +72,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 622,
-  "ConfirmationTemplateId": 768
+  "QuoteVersionId": 868,
+  "ConfirmationTemplateId": 70
 }
 ```
 
@@ -83,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"veritatis"
+"in"
 ```

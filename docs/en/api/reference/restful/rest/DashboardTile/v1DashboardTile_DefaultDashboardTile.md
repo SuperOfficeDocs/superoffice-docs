@@ -69,7 +69,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,64 +79,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 870,
-  "Caption": "libero",
-  "Description": "Enhanced holistic open system",
-  "ChartName": "Ebert Inc and Sons",
-  "ChartId": "veritatis",
-  "IsDefault": false,
-  "AssociateId": 84,
-  "GroupId": 968,
-  "SelectionId": 912,
-  "Config": "eaque",
+  "DashboardTileId": 741,
+  "Caption": "voluptatem",
+  "Description": "Face to face bottom-line moderator",
+  "ChartName": "Swaniawski, Treutel and Tremblay",
+  "ChartId": "harum",
+  "IsDefault": true,
+  "AssociateId": 494,
+  "GroupId": 245,
+  "SelectionId": 850,
+  "Config": "qui",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Reichert, Huels and Okuneva",
-      "Description": "Visionary client-driven toolset",
+      "Name": "Veum, Hegmann and Shanahan",
+      "Description": "Profound bi-directional groupware",
       "Type": "Boolean",
-      "ListName": "Bailey, Ullrich and Emard",
+      "ListName": "Towne LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "inventore",
-      "DefaultDataOption": true,
+      "Value": "est",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 932
+          "FieldLength": 577
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 683,
+      "VisibleId": 188,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 481
+          "FieldLength": 446
         }
       }
     },
     {
-      "VisibleId": 683,
+      "VisibleId": 188,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 481
+          "FieldLength": 446
         }
       }
     }
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldType": "System.String",
+      "FieldLength": 299
     }
   }
 }

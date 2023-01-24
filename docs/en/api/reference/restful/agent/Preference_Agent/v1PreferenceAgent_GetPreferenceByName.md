@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "fugiat",
-  "PrefKey": "praesentium",
+  "PrefSection": "earum",
+  "PrefKey": "dignissimos",
   "PrefLevel": "Database"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "tempora",
+  "RawValue": "et",
   "Specification": null,
-  "DisplayValue": "omnis",
-  "DisplayTooltip": "amet",
+  "DisplayValue": "tenetur",
+  "DisplayTooltip": "doloribus",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 428,
-  "PrefDescId": 859,
-  "TableName": "Crooks Group",
-  "UserPreferenceId": 191,
+  "TargetId": 70,
+  "PrefDescId": 913,
+  "TableName": "Ruecker-Conn",
+  "UserPreferenceId": 815,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 25
+      "FieldLength": 619
     }
   }
 }

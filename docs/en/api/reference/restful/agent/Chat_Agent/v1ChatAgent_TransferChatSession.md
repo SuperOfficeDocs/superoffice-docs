@@ -105,12 +105,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 989,
-  "ToAssociate": "et"
+  "ChatSessionId": 866,
+  "ToAssociate": "cumque"
 }
 ```
 
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 548,
-  "TopicId": 527,
+  "ChatSessionId": 994,
+  "TopicId": 733,
   "User": null,
   "Person": null,
   "CustomerAlias": "et",
   "CustomerHost": "qui",
-  "CustomerName": "Murazik Group",
-  "CustomerEmail": "rosalinda.okuneva@rogahn.us",
-  "CustomerPhone": "857.128.5751 x40072",
+  "CustomerName": "McKenzie Inc and Sons",
+  "CustomerEmail": "salvador@mante.info",
+  "CustomerPhone": "755.905.7946 x86037",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Swaniawski-Steuber",
+  "CustomerCompanyName": "Bahringer, Crona and Runte",
   "Status": "Closed",
-  "FirstMessage": "eveniet",
-  "LastMessage": "atque",
-  "WhenRequested": "2010-09-10T17:37:17.0172446+02:00",
-  "WhenStarted": "1998-11-12T17:37:17.0172446+01:00",
-  "WhenEnded": "2003-06-08T17:37:17.0172446+02:00",
-  "WhenIdle": "2001-06-10T17:37:17.0172446+02:00",
-  "WhenFetched": "2016-08-07T17:37:17.0172446+02:00",
-  "SessionKey": "aperiam",
-  "InitialQueuePos": 420,
-  "AlertLevel": 493,
-  "Rank": 748,
+  "FirstMessage": "sit",
+  "LastMessage": "esse",
+  "WhenRequested": "2007-03-20T11:22:37.5242625+01:00",
+  "WhenStarted": "2004-01-08T11:22:37.5242625+01:00",
+  "WhenEnded": "1999-02-03T11:22:37.5242625+01:00",
+  "WhenIdle": "2013-01-16T11:22:37.5242625+01:00",
+  "WhenFetched": "2015-08-06T11:22:37.5242625+02:00",
+  "SessionKey": "voluptatibus",
+  "InitialQueuePos": 568,
+  "AlertLevel": 468,
+  "Rank": 742,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -151,13 +151,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 204,
+  "Rating": 770,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldLength": 392
     }
   }
 }

@@ -104,16 +104,16 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 899,
+  "EmailId": 685,
   "AttachmentIds": [
-    "in",
-    "maxime"
+    "vel",
+    "iste"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -126,146 +126,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 476,
-      "ContactName": "Russel Group",
-      "PersonId": 152,
-      "PersonName": "Kunde-Connelly",
-      "AssociateId": 143,
-      "Address": "velit",
-      "EmailId": 813,
+      "ContactId": 361,
+      "ContactName": "Kohler-Emard",
+      "PersonId": 972,
+      "PersonName": "Jacobs-Ferry",
+      "AssociateId": 785,
+      "Address": "et",
+      "EmailId": 413,
       "DuplicatePersonIds": [
-        647,
-        902
+        610,
+        992
       ],
-      "Name": "Little, Ankunding and Walsh",
+      "Name": "Ruecker, Toy and Parker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldLength": 825
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 366,
-      "ContactName": "Walsh Group",
-      "PersonId": 635,
-      "PersonName": "Emard-Toy",
-      "AssociateId": 91,
-      "Address": "quaerat",
-      "EmailId": 553,
+      "ContactId": 670,
+      "ContactName": "Gusikowski Inc and Sons",
+      "PersonId": 743,
+      "PersonName": "Predovic, Labadie and Hudson",
+      "AssociateId": 758,
+      "Address": "ut",
+      "EmailId": 488,
       "DuplicatePersonIds": [
-        219,
-        409
+        318,
+        769
       ],
-      "Name": "Cruickshank Inc and Sons",
+      "Name": "Homenick LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 785
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 681,
-      "ContactName": "Murray, Ortiz and Hilll",
-      "PersonId": 733,
-      "PersonName": "Beer Group",
-      "AssociateId": 615,
-      "Address": "porro",
-      "EmailId": 238,
+      "ContactId": 470,
+      "ContactName": "Bode, Kreiger and Emard",
+      "PersonId": 175,
+      "PersonName": "O'Hara, Rosenbaum and Wilkinson",
+      "AssociateId": 343,
+      "Address": "aut",
+      "EmailId": 625,
       "DuplicatePersonIds": [
-        483,
-        934
+        405,
+        964
       ],
-      "Name": "Moore-Block",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 194
-        }
-      }
-    }
-  ],
-  "Subject": "perspiciatis",
-  "HTMLBody": "et",
-  "From": null,
-  "Sent": "2004-09-09T17:37:17.9732412+02:00",
-  "Size": 211,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "voluptas",
-  "PlainBody": "cupiditate",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 570,
-  "Attachments": [
-    {
-      "Description": "Compatible coherent challenge",
-      "Filename": "non",
-      "Size": 475,
-      "Type": "aspernatur",
-      "Encoding": "beatae",
-      "Id": "illum",
-      "Disposition": "qui",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Nicolas-Goyette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldLength": 786
+        }
+      }
+    }
+  ],
+  "Subject": "suscipit",
+  "HTMLBody": "tempora",
+  "From": null,
+  "Sent": "2020-06-25T11:22:38.2740943+02:00",
+  "Size": 251,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "dolor",
+  "PlainBody": "delectus",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 570,
+  "Attachments": [
+    {
+      "Description": "Public-key neutral frame",
+      "Filename": "corporis",
+      "Size": 757,
+      "Type": "consequatur",
+      "Encoding": "sed",
+      "Id": "dignissimos",
+      "Disposition": "eum",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 740
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Roob-Reilly",
+      "Name": "Raynor-Windler",
       "Values": [
-        "corrupti",
-        "officiis"
+        "et",
+        "iusto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldLength": 330
         }
       }
     },
     {
-      "Name": "Roob-Reilly",
+      "Name": "Raynor-Windler",
       "Values": [
-        "corrupti",
-        "officiis"
+        "et",
+        "iusto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldLength": 330
         }
       }
     }
   ],
-  "FolderName": "Gerhold, Treutel and Murray",
-  "EmailItemId": 832,
-  "AccountId": 265,
-  "ReceivedAt": "1999-04-05T17:37:17.9732412+02:00",
+  "FolderName": "Herman Inc and Sons",
+  "EmailItemId": 908,
+  "AccountId": 731,
+  "ReceivedAt": "2010-08-13T11:22:38.2740943+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-07-22T17:37:17.9732412+02:00",
+  "RepliedAt": "2013-04-30T11:22:38.2740943+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 118
+      "FieldType": "System.Int32",
+      "FieldLength": 834
     }
   }
 }

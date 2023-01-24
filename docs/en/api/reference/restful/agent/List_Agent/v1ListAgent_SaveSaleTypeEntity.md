@@ -104,51 +104,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 731,
-  "Name": "Kovacek Group",
-  "Tooltip": "tempora",
-  "Rank": 863,
+  "SaleTypeId": 760,
+  "Name": "Kling-Balistreri",
+  "Tooltip": "sed",
+  "Rank": 727,
   "DurationUnit": "Century",
-  "SaleDuration": 44,
-  "SaleTypeCatId": 385,
-  "Deleted": false,
+  "SaleDuration": 785,
+  "SaleTypeCatId": 914,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 576,
-  "QuoteLinesTemplate": 206,
-  "ConfirmationLinesTemplate": 380,
+  "DefaultQuoteValidity": 917,
+  "QuoteLinesTemplate": 179,
+  "ConfirmationLinesTemplate": 333,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 581,
-  "MinEarningPercent": 190,
-  "GroupQuoteLinesBy": 527,
-  "SortGroupLinesBy": 23,
+  "MaxDiscountPercent": 145,
+  "MinEarningPercent": 845,
+  "GroupQuoteLinesBy": 334,
+  "SortGroupLinesBy": 862,
   "Stages": [
     {
-      "Id": 32,
-      "Name": "Orn-Harber",
-      "ToolTip": "Quod voluptatem id dolorem.",
-      "Deleted": true,
-      "Rank": 837,
-      "Type": "fugiat",
-      "ColorBlock": 352,
-      "IconHint": "aspernatur",
-      "Selected": true,
-      "LastChanged": "2013-08-29T17:37:18.2872417+02:00",
+      "Id": 736,
+      "Name": "Cummings-Herman",
+      "ToolTip": "Libero eius.",
+      "Deleted": false,
+      "Rank": 925,
+      "Type": "porro",
+      "ColorBlock": 865,
+      "IconHint": "esse",
+      "Selected": false,
+      "LastChanged": "2011-11-19T11:22:38.5396587+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "quis",
+      "ExtraInfo": "nihil",
+      "StyleHint": "rerum",
       "Hidden": false,
-      "FullName": "Molly Hamill"
+      "FullName": "Jamarcus Cummings"
     }
   ]
 }
@@ -161,53 +161,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 761,
-  "Name": "Glover LLC",
-  "Tooltip": "illo",
-  "Rank": 503,
+  "SaleTypeId": 205,
+  "Name": "Bosco, Wisozk and Kub",
+  "Tooltip": "sapiente",
+  "Rank": 799,
   "DurationUnit": "Century",
-  "SaleDuration": 955,
-  "SaleTypeCatId": 161,
-  "Deleted": true,
+  "SaleDuration": 981,
+  "SaleTypeCatId": 566,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 49,
-  "QuoteLinesTemplate": 914,
-  "ConfirmationLinesTemplate": 409,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 91,
+  "QuoteLinesTemplate": 416,
+  "ConfirmationLinesTemplate": 879,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 320,
-  "MinEarningPercent": 193,
-  "GroupQuoteLinesBy": 492,
-  "SortGroupLinesBy": 277,
+  "MaxDiscountPercent": 874,
+  "MinEarningPercent": 466,
+  "GroupQuoteLinesBy": 785,
+  "SortGroupLinesBy": 763,
   "Stages": [
     {
-      "Id": 90,
-      "Name": "Schultz-Lebsack",
-      "ToolTip": "Aliquam quam.",
+      "Id": 554,
+      "Name": "Pfannerstill, Waters and Schoen",
+      "ToolTip": "Asperiores quasi qui molestiae.",
       "Deleted": false,
-      "Rank": 957,
-      "Type": "placeat",
-      "ColorBlock": 366,
-      "IconHint": "architecto",
+      "Rank": 567,
+      "Type": "omnis",
+      "ColorBlock": 255,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2022-11-16T17:37:18.288242+01:00",
+      "LastChanged": "2005-03-30T11:22:38.5396587+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ducimus",
-      "StyleHint": "illo",
-      "Hidden": true,
-      "FullName": "Ayden McGlynn",
+      "ExtraInfo": "eius",
+      "StyleHint": "est",
+      "Hidden": false,
+      "FullName": "Krystal Hegmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldLength": 161
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 858
     }
   }
 }

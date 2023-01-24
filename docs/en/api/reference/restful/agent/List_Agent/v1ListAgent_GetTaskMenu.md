@@ -25,7 +25,7 @@ Gets a TaskMenu object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=745
+POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=963
 POST /api/v1/Agents/List/GetTaskMenu?$select=name,department,category/id
 ```
 
@@ -68,6 +68,8 @@ OK
 | ArchiveBehaviour | string | None, rightclick on, multiselect |
 | Rank | int32 | Rank order |
 | Encoding | string | Encoding for url |
+| ProgId | string | String key that can be used to uniquely retrieve the task menu; particularly useful for partners and others who do not wish to store database ID's |
+| Deleted | bool | True if deleted |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -77,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,24 +89,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 492,
-  "Name": "Murazik Inc and Sons",
-  "Tooltip": "vel",
-  "TableName": "Luettgen, Howell and Abshire",
-  "Area": "quo",
+  "TaskMenuId": 176,
+  "Name": "Wiza-Von",
+  "Tooltip": "natus",
+  "TableName": "Schneider-Walsh",
+  "Area": "ut",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 177,
+  "CrmScriptId": 898,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 103,
+  "Rank": 19,
   "Encoding": "ANSI",
+  "ProgId": "minima",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldLength": 329
     }
   }
 }

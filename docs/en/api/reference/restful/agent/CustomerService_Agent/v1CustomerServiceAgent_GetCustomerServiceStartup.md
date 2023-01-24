@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneEnabled": true,
-  "TZOffset": 746,
-  "RecaptchaSiteKey": "placeat",
+  "TimezoneEnabled": false,
+  "TZOffset": 216,
+  "RecaptchaSiteKey": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 280
+      "FieldLength": 6
     }
   }
 }

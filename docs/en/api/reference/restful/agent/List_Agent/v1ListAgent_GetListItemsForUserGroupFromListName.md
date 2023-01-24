@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Runte-Hoeger",
-  "GroupId": 709
+  "UdListDefinitionName": "Howe, Jewess and Murphy",
+  "GroupId": 412
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Name": "Hoppe, Wunsch and Wilderman",
-    "ToolTip": "Rerum sit tempore veniam quasi eligendi dolorem vel.",
+    "Id": 539,
+    "Name": "Haley-Ullrich",
+    "ToolTip": "Rerum quia illo repellat.",
     "Deleted": false,
-    "Rank": 507,
-    "Type": "sunt",
-    "ColorBlock": 394,
-    "IconHint": "incidunt",
-    "Selected": false,
-    "LastChanged": "2022-03-03T17:37:18.2032452+01:00",
+    "Rank": 601,
+    "Type": "voluptas",
+    "ColorBlock": 5,
+    "IconHint": "aperiam",
+    "Selected": true,
+    "LastChanged": "2013-11-09T11:22:38.4615502+01:00",
     "ChildItems": [
       {
-        "Id": 545,
-        "Name": "Hartmann, Senger and Ebert",
-        "ToolTip": "Ut vitae voluptate blanditiis soluta expedita sunt rem.",
+        "Id": 739,
+        "Name": "Trantow, Quigley and Witting",
+        "ToolTip": "Officia ut minus est.",
         "Deleted": true,
-        "Rank": 195,
-        "Type": "blanditiis",
-        "ColorBlock": 898,
-        "IconHint": "enim",
+        "Rank": 135,
+        "Type": "aut",
+        "ColorBlock": 472,
+        "IconHint": "aperiam",
         "Selected": false,
-        "LastChanged": "2022-08-03T17:37:18.2032452+02:00",
+        "LastChanged": "2018-01-26T11:22:38.4615502+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Ignatius Abshire",
+        "FullName": "Maxine Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 608
+            "FieldType": "System.Int32",
+            "FieldLength": 518
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "distinctio",
-    "Hidden": true,
-    "FullName": "Kaylin Doyle",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "voluptatibus",
+    "Hidden": false,
+    "FullName": "Miss Jeff West Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 569
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jewess, Satterfield and Fay",
-  "Comment": "similique",
-  "StakeholderRoleId": 511,
-  "CountryId": 888,
-  "PersonId": 596,
-  "EmailDescription": "roel.mertz@veum.name",
-  "EmailId": 567,
-  "EmailAddress": "georgianna@gulgowskisauer.biz",
-  "PhoneId": 915,
-  "ContactName": "Rau Group",
-  "ContactId": 793,
-  "SaleId": 27,
-  "Mrmrs": "voluptas",
-  "Firstname": "Samanta",
-  "MiddleName": "Dibbert LLC",
-  "Lastname": "Herman",
-  "SaleStakeholderId": 336,
-  "Rank": 833,
-  "Phone": "(429)897-9465 x0381",
+  "StakeholderRoleName": "O'Kon, DuBuque and Stanton",
+  "Comment": "culpa",
+  "StakeholderRoleId": 2,
+  "CountryId": 179,
+  "PersonId": 851,
+  "EmailDescription": "leanna@parisian.us",
+  "EmailId": 107,
+  "EmailAddress": "toney@murray.name",
+  "PhoneId": 658,
+  "ContactName": "Mueller-Nienow",
+  "ContactId": 697,
+  "SaleId": 858,
+  "Mrmrs": "aut",
+  "Firstname": "Vincenzo",
+  "MiddleName": "Wisozk, Stanton and Wilkinson",
+  "Lastname": "Denesik",
+  "SaleStakeholderId": 931,
+  "Rank": 802,
+  "Phone": "1-064-911-1021",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 546
     }
   }
 }

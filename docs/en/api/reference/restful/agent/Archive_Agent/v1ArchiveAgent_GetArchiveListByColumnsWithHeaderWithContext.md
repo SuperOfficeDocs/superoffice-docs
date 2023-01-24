@@ -102,56 +102,56 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Barton, Kutch and Paucek",
+  "ProviderName": "Skiles, Cassin and White",
   "Columns": [
-    "qui",
-    "eveniet"
+    "optio",
+    "velit"
   ],
   "SortOrder": [
     {
-      "Name": "White LLC",
+      "Name": "Buckridge LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "White LLC",
+      "Name": "Buckridge LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Senger, Witting and Rice",
-      "Operator": "voluptatem",
+      "Name": "Johnston, Cormier and Koelpin",
+      "Operator": "vel",
       "Values": [
-        "placeat",
-        "sunt"
+        "dolor",
+        "est"
       ],
       "DisplayValues": [
-        "veritatis",
-        "beatae"
+        "tenetur",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 882,
+      "InterParenthesis": 743,
       "InterOperator": "And",
-      "UniqueHash": 492
+      "UniqueHash": 807
     }
   ],
   "Entities": [
-    "debitis",
-    "saepe"
+    "nostrum",
+    "aliquam"
   ],
-  "Page": 429,
-  "PageSize": 815,
-  "Options": "expedita",
-  "Context": "voluptate"
+  "Page": 80,
+  "PageSize": 755,
+  "Options": "ex",
+  "Context": "odit"
 }
 ```
 
@@ -162,26 +162,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 656,
+  "RowCount": 65,
   "Rows": [
     {
-      "EntityName": "Gorczany, Ward and Klein",
-      "PrimaryKey": 370,
+      "EntityName": "Keeling, Hane and O'Kon",
+      "PrimaryKey": 621,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eos",
-          "TooltipHint": "laboriosam",
-          "LinkHint": "earum"
+          "DisplayValue": "est",
+          "TooltipHint": "voluptatem",
+          "LinkHint": "vitae"
         }
       },
-      "LinkHint": "culpa",
-      "StyleHint": "et",
+      "LinkHint": "quo",
+      "StyleHint": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 48
+          "FieldLength": 874
         }
       }
     }
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   }
 }

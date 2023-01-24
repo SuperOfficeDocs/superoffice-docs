@@ -92,7 +92,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 571,
-  "ColumnId": 724,
-  "FieldDefault": "perspiciatis",
-  "FieldHeight": 805,
-  "FieldLabel": "nemo",
-  "FieldLeft": 309,
-  "FieldTop": 705,
+  "UDefFieldId": 833,
+  "ColumnId": 721,
+  "FieldDefault": "tempora",
+  "FieldHeight": 13,
+  "FieldLabel": "consequatur",
+  "FieldLeft": 24,
+  "FieldTop": 95,
   "FieldType": "Checkbox",
-  "FieldWidth": 666,
-  "FormatMask": "expedita",
+  "FieldWidth": 771,
+  "FormatMask": "voluptatem",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 347,
-  "LabelLeft": 578,
-  "LabelTop": 943,
-  "LabelWidth": 71,
-  "LastVersionId": 805,
-  "ListTableId": 613,
+  "LabelHeight": 595,
+  "LabelLeft": 571,
+  "LabelTop": 396,
+  "LabelWidth": 268,
+  "LastVersionId": 556,
+  "ListTableId": 850,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 756,
-  "ProgId": "nostrum",
-  "IsReadOnly": false,
-  "ShortLabel": "amet",
-  "TabOrder": 885,
-  "TextLength": 599,
-  "Tooltip": "libero",
-  "UdefIdentity": 282,
-  "UDListDefinitionId": 266,
+  "Page1LineNo": 714,
+  "ProgId": "asperiores",
+  "IsReadOnly": true,
+  "ShortLabel": "tempore",
+  "TabOrder": 628,
+  "TextLength": 147,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 150,
+  "UDListDefinitionId": 505,
   "Justification": "Center",
-  "Version": 666,
-  "TemplateVariableName": "Pacocha, Schowalter and Ankunding",
+  "Version": 883,
+  "TemplateVariableName": "Gutmann LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Hagenes-Rutherford",
+  "MdoListName": "Moore Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldType": "System.String",
+      "FieldLength": 427
     }
   }
 }

@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 706,
-  "Name": "West Inc and Sons",
-  "Tooltip": "sed",
+  "Id": 132,
+  "Name": "Muller-Dietrich",
+  "Tooltip": "enim",
   "Deleted": true,
-  "UdListDefinitionId": 194,
-  "Rank": 572,
+  "UdListDefinitionId": 584,
+  "Rank": 885,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldType": "System.String",
+      "FieldLength": 399
     }
   }
 }

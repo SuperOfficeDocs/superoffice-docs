@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 350,
-    "Name": "Walker Group",
-    "ToolTip": "Qui voluptates enim quidem omnis voluptates molestiae aliquam.",
+    "Id": 746,
+    "Name": "Turcotte, Nienow and Cruickshank",
+    "ToolTip": "Nostrum non facilis voluptate aut eius dolor omnis.",
     "Deleted": false,
-    "Rank": 61,
-    "Type": "doloremque",
-    "ColorBlock": 21,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "1995-11-22T17:37:40.3765012+01:00",
+    "Rank": 233,
+    "Type": "mollitia",
+    "ColorBlock": 251,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2011-07-06T11:22:46.2097354+02:00",
     "ChildItems": [
       {
-        "Id": 220,
-        "Name": "Wilkinson LLC",
-        "ToolTip": "Voluptatum omnis rerum dolorem voluptatem assumenda dolor.",
+        "Id": 474,
+        "Name": "Ernser-Wisoky",
+        "ToolTip": "Voluptatibus fugit.",
         "Deleted": false,
-        "Rank": 244,
-        "Type": "aut",
-        "ColorBlock": 807,
-        "IconHint": "illum",
-        "Selected": false,
-        "LastChanged": "1997-11-26T17:37:40.3765012+01:00",
+        "Rank": 774,
+        "Type": "quas",
+        "ColorBlock": 816,
+        "IconHint": "veniam",
+        "Selected": true,
+        "LastChanged": "2015-07-09T11:22:46.2097354+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "quam",
-        "Hidden": false,
-        "FullName": "Myles Dicki",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Charlene Mills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 276
+            "FieldType": "System.String",
+            "FieldLength": 248
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "neque",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "vitae",
     "Hidden": false,
-    "FullName": "Jocelyn Tremblay",
+    "FullName": "Prof. Milo Shawn Watsica",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 626
+        "FieldType": "System.Int32",
+        "FieldLength": 374
       }
     }
   }

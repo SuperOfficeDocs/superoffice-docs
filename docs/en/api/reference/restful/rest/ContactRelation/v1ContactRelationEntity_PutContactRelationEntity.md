@@ -113,28 +113,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 692,
-  "SourcePersonId": 891,
-  "DestinationContactId": 322,
-  "DestinationPersonId": 513,
-  "RelationId": 716,
-  "Comment": "possimus",
-  "RelationDefinitionId": 974,
-  "Reversed": 861,
-  "UpdatedDate": "2021-08-15T17:37:38.4748628+02:00",
-  "CreatedDate": "2016-03-10T17:37:38.4748628+01:00",
+  "SourceContactId": 827,
+  "SourcePersonId": 501,
+  "DestinationContactId": 286,
+  "DestinationPersonId": 323,
+  "RelationId": 956,
+  "Comment": "fugit",
+  "RelationDefinitionId": 121,
+  "Reversed": 188,
+  "UpdatedDate": "2002-04-25T11:22:44.5694964+02:00",
+  "CreatedDate": "2006-11-29T11:22:44.5694964+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kuhn, Lynch and Kshlerin",
-  "SourcePersonName": "Maggio Inc and Sons",
-  "DestinationContactName": "Dach-Walsh",
-  "DestinationPersonName": "Jewess LLC",
-  "ActiveText": "qui",
-  "PassiveText": "vel"
+  "SourceContactName": "Grady Group",
+  "SourcePersonName": "Jakubowski, Yundt and Klein",
+  "DestinationContactName": "Bartoletti, Hermann and Schultz",
+  "DestinationPersonName": "Dicki Group",
+  "ActiveText": "consequatur",
+  "PassiveText": "consequatur"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 78,
-  "SourcePersonId": 234,
-  "DestinationContactId": 164,
-  "DestinationPersonId": 470,
-  "RelationId": 691,
-  "Comment": "maxime",
-  "RelationDefinitionId": 891,
-  "Reversed": 641,
-  "UpdatedDate": "2013-12-04T17:37:38.4788649+01:00",
-  "CreatedDate": "2002-04-24T17:37:38.4788649+02:00",
+  "SourceContactId": 923,
+  "SourcePersonId": 521,
+  "DestinationContactId": 137,
+  "DestinationPersonId": 109,
+  "RelationId": 565,
+  "Comment": "quidem",
+  "RelationDefinitionId": 432,
+  "Reversed": 922,
+  "UpdatedDate": "2014-12-29T11:22:44.5694964+01:00",
+  "CreatedDate": "1998-12-24T11:22:44.5694964+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Ullrich-Dare",
-  "SourcePersonName": "Dietrich LLC",
-  "DestinationContactName": "Miller-Beatty",
-  "DestinationPersonName": "Denesik-Torphy",
-  "ActiveText": "nobis",
-  "PassiveText": "aut",
+  "SourceContactName": "Schulist-Abbott",
+  "SourcePersonName": "Carter-O'Reilly",
+  "DestinationContactName": "Herman-Sauer",
+  "DestinationPersonName": "Schamberger-Monahan",
+  "ActiveText": "laborum",
+  "PassiveText": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldType": "System.String",
+      "FieldLength": 431
     }
   },
   "_Links": {

@@ -91,34 +91,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 921,
-    "ERPName": "Hahn Inc and Sons",
-    "DisplayName": "Murphy-Kilback",
-    "DisplayDescription": "Virtual solution-oriented time-frame",
-    "Rank": 497,
-    "ConnectorName": "Welch-Buckridge",
-    "ErpConnectionId": 904,
-    "ExtraData": "ipsa",
-    "IsAvailable": false,
+    "QuoteConnectionId": 582,
+    "ERPName": "Treutel, Reilly and Koss",
+    "DisplayName": "Kemmer, Fahey and Reilly",
+    "DisplayDescription": "Enterprise-wide fault-tolerant access",
+    "Rank": 374,
+    "ConnectorName": "Johns, Grady and Terry",
+    "ErpConnectionId": 166,
+    "ExtraData": "tempore",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 408,
-        "ERPPriceListKey": "a",
-        "QuoteConnectionId": 458,
-        "Name": "Morissette Inc and Sons",
-        "Description": "Innovative reciprocal open architecture",
-        "Currency": "nihil",
-        "CurrencyName": "Ebert, Bruen and Lemke",
-        "ValidFrom": "2000-09-25T17:37:18.7392416+02:00",
-        "ValidTo": "2000-05-08T17:37:18.7392416+02:00",
+        "PriceListId": 965,
+        "ERPPriceListKey": "quia",
+        "QuoteConnectionId": 379,
+        "Name": "Rempel, Treutel and Stracke",
+        "Description": "Realigned dedicated groupware",
+        "Currency": "est",
+        "CurrencyName": "Zemlak LLC",
+        "ValidFrom": "2007-11-24T11:22:38.9301893+01:00",
+        "ValidTo": "1997-07-20T11:22:38.9301893+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 689
+            "FieldLength": 516
           }
         }
       }
@@ -126,19 +126,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      583,
-      147
+      360,
+      714
     ],
     "AssociateAccessIds": [
-      154,
-      904
+      28,
+      307
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 388
+        "FieldType": "System.Int32",
+        "FieldLength": 242
       }
     }
   }

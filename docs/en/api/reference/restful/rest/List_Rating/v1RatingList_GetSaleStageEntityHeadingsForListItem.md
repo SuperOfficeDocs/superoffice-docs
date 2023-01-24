@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 302,
-    "Name": "Waelchi, Becker and Schaefer",
-    "ToolTip": "Dignissimos sint sunt numquam fugit.",
-    "Deleted": true,
-    "Rank": 946,
-    "Type": "est",
-    "ColorBlock": 539,
-    "IconHint": "nihil",
+    "Id": 210,
+    "Name": "Pollich LLC",
+    "ToolTip": "Aut architecto est sequi doloremque ut.",
+    "Deleted": false,
+    "Rank": 207,
+    "Type": "exercitationem",
+    "ColorBlock": 825,
+    "IconHint": "dolores",
     "Selected": true,
-    "LastChanged": "2000-04-19T17:37:40.2715095+02:00",
+    "LastChanged": "2007-01-08T11:22:46.1160093+01:00",
     "ChildItems": [
       {
-        "Id": 641,
-        "Name": "Lueilwitz Group",
-        "ToolTip": "Rerum delectus autem omnis inventore delectus omnis.",
-        "Deleted": false,
-        "Rank": 514,
-        "Type": "et",
-        "ColorBlock": 451,
-        "IconHint": "officiis",
-        "Selected": false,
-        "LastChanged": "2011-05-05T17:37:40.2715095+02:00",
+        "Id": 668,
+        "Name": "Gleason, Bailey and Hodkiewicz",
+        "ToolTip": "Voluptatum dolorem suscipit debitis.",
+        "Deleted": true,
+        "Rank": 767,
+        "Type": "nihil",
+        "ColorBlock": 225,
+        "IconHint": "laborum",
+        "Selected": true,
+        "LastChanged": "1996-12-23T11:22:46.1160093+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "repudiandae",
-        "Hidden": false,
-        "FullName": "Eloy Bruen",
+        "ExtraInfo": "quos",
+        "StyleHint": "minima",
+        "Hidden": true,
+        "FullName": "Darron Hahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 95
+            "FieldType": "System.Int32",
+            "FieldLength": 747
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Ms. Kristopher Myles Gulgowski V",
+    "FullName": "Blaze Aileen Casper V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 945
+        "FieldType": "System.Int32",
+        "FieldLength": 522
       }
     }
   }

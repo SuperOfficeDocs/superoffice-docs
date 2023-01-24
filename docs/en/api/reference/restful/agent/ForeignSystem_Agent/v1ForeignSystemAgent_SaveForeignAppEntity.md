@@ -74,27 +74,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 22,
-  "Name": "Stiedemann Group",
-  "CreatedDate": "2005-01-14T17:37:18.0902432+01:00",
-  "UpdatedDate": "2009-10-07T17:37:18.0902432+02:00",
+  "ForeignAppId": 545,
+  "Name": "Torp-Ebert",
+  "CreatedDate": "1996-07-21T11:22:38.3678241+02:00",
+  "UpdatedDate": "2016-02-14T11:22:38.3678241+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 81,
-      "Name": "Yundt-Dach",
-      "CreatedDate": "2000-10-18T17:37:18.0912425+02:00",
-      "UpdatedDate": "2017-06-01T17:37:18.0912425+02:00",
-      "AssociateFullName": "Holden Weissnat",
-      "CreatedBy": "quasi",
-      "UpdatedBy": "ab",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 225
+      "ForeignDeviceId": 519,
+      "Name": "Raynor, Lind and Wisoky",
+      "CreatedDate": "2006-11-18T11:22:38.3678241+01:00",
+      "UpdatedDate": "2000-03-21T11:22:38.3678241+01:00",
+      "AssociateFullName": "Nikki Walton Langworth PhD",
+      "CreatedBy": "eaque",
+      "UpdatedBy": "dolore",
+      "DeviceIdentifier": "dicta",
+      "ForeignAppId": 810
     }
   ]
 }
@@ -107,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 228,
-  "Name": "Cronin, Jacobi and Bartoletti",
-  "CreatedDate": "2007-11-22T17:37:18.0922443+01:00",
-  "UpdatedDate": "2009-09-19T17:37:18.0922443+02:00",
+  "ForeignAppId": 393,
+  "Name": "Terry LLC",
+  "CreatedDate": "2010-05-05T11:22:38.3678241+02:00",
+  "UpdatedDate": "1998-01-21T11:22:38.3678241+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 728,
-      "Name": "Ruecker-Ward",
-      "CreatedDate": "2004-01-31T17:37:18.0932444+01:00",
-      "UpdatedDate": "2013-04-24T17:37:18.0932444+02:00",
-      "AssociateFullName": "Turner Kutch",
-      "CreatedBy": "quae",
-      "UpdatedBy": "cumque",
-      "DeviceIdentifier": "nisi",
-      "ForeignAppId": 964,
+      "ForeignDeviceId": 459,
+      "Name": "Schamberger, Hoppe and Deckow",
+      "CreatedDate": "2022-08-14T11:22:38.3678241+02:00",
+      "UpdatedDate": "2002-08-16T11:22:38.3678241+02:00",
+      "AssociateFullName": "Joshuah Hauck",
+      "CreatedBy": "itaque",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 119,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldLength": 194
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldLength": 988
     }
   }
 }

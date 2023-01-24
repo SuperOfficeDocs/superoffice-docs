@@ -38,12 +38,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=corporis
-GET /api/v1/TimeZone?$top=793
-GET /api/v1/TimeZone?$skip=299
+GET /api/v1/TimeZone?$entities=aut
+GET /api/v1/TimeZone?$top=911
+GET /api/v1/TimeZone?$skip=124
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=quas
+GET /api/v1/TimeZone?$context=commodi
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -95,21 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "non",
+  "odata.nextLink": "ipsum",
   "value": [
     {
-      "PrimaryKey": 9889,
-      "EntityName": "sale",
-      "saleId": 9889,
-      "contactId": 3591,
-      "name": "Brakus LLC"
+      "PrimaryKey": 9022,
+      "EntityName": "person",
+      "personId": 9022,
+      "fullName": "Erwin Stiedemann MD"
     },
     {
-      "PrimaryKey": 9418,
-      "EntityName": "sale",
-      "saleId": 9418,
-      "contactId": 3561,
-      "name": "Fahey, Rowe and Vandervort"
+      "PrimaryKey": 5183,
+      "EntityName": "person",
+      "personId": 5183,
+      "fullName": "Jett Jacobson"
     }
   ]
 }

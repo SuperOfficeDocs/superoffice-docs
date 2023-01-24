@@ -105,7 +105,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 456
+  "ProjectId": 373
 }
 ```
 
@@ -116,94 +116,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "id",
-  "SignOffText": "quo",
-  "SignOnConfirmationText": "exercitationem",
-  "SignOnText": "molestiae",
-  "EventDate": "2021-06-27T17:37:18.6522456+02:00",
+  "SignOffConfirmationText": "ea",
+  "SignOffText": "et",
+  "SignOnConfirmationText": "eligendi",
+  "SignOnText": "qui",
+  "EventDate": "2004-10-29T11:22:38.8520826+02:00",
   "Enabled": false,
-  "CreatedDate": "2014-11-08T17:37:18.6522456+01:00",
-  "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 77,
+  "CreatedDate": "2012-11-04T11:22:38.8520826+01:00",
+  "SignOff": true,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 940,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 166,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2009-05-21T17:37:18.6522456+02:00",
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 227,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2011-12-10T11:22:38.8520826+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 435,
-  "Id": 951,
-  "PublishFrom": "2016-09-25T17:37:18.6522456+02:00",
+  "ProjectId": 266,
+  "Id": 888,
+  "PublishFrom": "2002-01-29T11:22:38.8520826+01:00",
   "PublishType": "External",
-  "PublishTo": "2009-06-17T17:37:18.6522456+02:00",
+  "PublishTo": "2005-06-13T11:22:38.8520826+02:00",
   "VisibleForCategories": [
     {
-      "Id": 799,
-      "Name": "Jones-Schulist",
-      "ToolTip": "Aut nam et.",
+      "Id": 201,
+      "Name": "Pollich Inc and Sons",
+      "ToolTip": "Impedit vel praesentium et et.",
       "Deleted": true,
-      "Rank": 124,
-      "Type": "ratione",
+      "Rank": 254,
+      "Type": "repellat",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quod",
-      "ColorBlock": 32,
-      "ExtraInfo": "ex",
-      "StyleHint": "dolor",
-      "FullName": "Nyasia Justina Paucek MD",
+      "IconHint": "quidem",
+      "ColorBlock": 801,
+      "ExtraInfo": "corrupti",
+      "StyleHint": "iste",
+      "FullName": "Erwin Hane",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 11
+          "FieldLength": 43
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 213,
-      "Name": "Kulas-Bartoletti",
-      "ToolTip": "Debitis quo quo magnam sed velit.",
-      "Deleted": true,
-      "Rank": 323,
-      "Type": "sed",
+      "Id": 619,
+      "Name": "Smitham Inc and Sons",
+      "ToolTip": "Autem minima incidunt voluptatem optio voluptas maxime doloribus.",
+      "Deleted": false,
+      "Rank": 591,
+      "Type": "eligendi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sed",
-      "ColorBlock": 471,
-      "ExtraInfo": "odio",
-      "StyleHint": "ducimus",
-      "FullName": "Otis Moore",
+      "IconHint": "eaque",
+      "ColorBlock": 65,
+      "ExtraInfo": "reiciendis",
+      "StyleHint": "doloremque",
+      "FullName": "Damon Roob",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 636
+          "FieldType": "System.Int32",
+          "FieldLength": 779
         }
       }
     }
   ],
-  "IsPublished": true,
-  "IsVisibleForMembers": false,
+  "IsPublished": false,
+  "IsVisibleForMembers": true,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 143,
+  "ProjectEventId": 607,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 493
+      "FieldLength": 736
     }
   }
 }

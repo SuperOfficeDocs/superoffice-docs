@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Brekke-Dach",
-  "ProviderName": "Altenwerth-Denesik"
+  "GuiName": "Brown LLC",
+  "ProviderName": "Ondricka LLC"
 }
 ```
 
@@ -96,68 +96,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Donnelly Inc and Sons",
-      "DisplayTooltip": "dolores",
-      "DisplayType": "voluptatibus",
+      "DisplayName": "Brown-Bernhard",
+      "DisplayTooltip": "consectetur",
+      "DisplayType": "repudiandae",
       "CanOrderBy": false,
-      "Name": "Gerlach, Crona and Flatley",
+      "Name": "Hammes-Gleichner",
       "CanRestrictBy": false,
-      "RestrictionType": "magni",
-      "RestrictionListName": "Schiller-Littel",
+      "RestrictionType": "ea",
+      "RestrictionListName": "Johns Inc and Sons",
       "IsVisible": true,
-      "ExtraInfo": "occaecati",
-      "Width": "quis",
-      "IconHint": "minima",
-      "HeadingIconHint": "consequuntur"
+      "ExtraInfo": "earum",
+      "Width": "expedita",
+      "IconHint": "animi",
+      "HeadingIconHint": "quod"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 721,
-      "Name": "Prosacco-Kshlerin",
-      "ToolTip": "Rerum cumque.",
+      "Id": 979,
+      "Name": "Steuber Inc and Sons",
+      "ToolTip": "Officia vel dolorem mollitia at neque.",
       "Deleted": false,
-      "Rank": 873,
-      "Type": "dolor",
-      "ColorBlock": 654,
-      "IconHint": "consequuntur",
-      "Selected": true,
-      "LastChanged": "1999-02-16T17:37:16.6152449+01:00",
+      "Rank": 32,
+      "Type": "ut",
+      "ColorBlock": 82,
+      "IconHint": "nisi",
+      "Selected": false,
+      "LastChanged": "2001-12-23T11:22:37.3836264+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ab",
-      "StyleHint": "aliquam",
-      "Hidden": false,
-      "FullName": "Ryder Rutherford",
+      "ExtraInfo": "eos",
+      "StyleHint": "aliquid",
+      "Hidden": true,
+      "FullName": "Stacy Armstrong",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldType": "System.String",
+          "FieldLength": 904
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Mante-Muller",
+      "Name": "Torp-Little",
       "Direction": "ASC"
     },
     {
-      "Name": "Mante-Muller",
+      "Name": "Torp-Little",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "aspernatur",
+  "OwnerKeys": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 285
     }
   }
 }

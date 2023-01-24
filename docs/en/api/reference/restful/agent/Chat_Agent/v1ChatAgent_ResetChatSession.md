@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 914
+  "ChatSessionId": 452
 }
 ```
 
@@ -119,43 +119,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 755,
-  "TopicId": 726,
+  "ChatSessionId": 408,
+  "TopicId": 565,
   "User": null,
   "Person": null,
-  "CustomerAlias": "laborum",
-  "CustomerHost": "autem",
-  "CustomerName": "O'Connell-Metz",
-  "CustomerEmail": "esteban_farrell@jacobifritsch.uk",
-  "CustomerPhone": "1-456-867-3330 x7829",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Sipes LLC",
+  "CustomerAlias": "voluptas",
+  "CustomerHost": "fuga",
+  "CustomerName": "Heller-Denesik",
+  "CustomerEmail": "cathy_crooks@lueilwitz.info",
+  "CustomerPhone": "(713)997-0486 x79751",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Reichert, Kling and Romaguera",
   "Status": "Closed",
-  "FirstMessage": "laboriosam",
-  "LastMessage": "beatae",
-  "WhenRequested": "2018-06-05T17:37:17.074242+02:00",
-  "WhenStarted": "1999-08-31T17:37:17.074242+02:00",
-  "WhenEnded": "2011-04-21T17:37:17.074242+02:00",
-  "WhenIdle": "2006-10-23T17:37:17.074242+02:00",
-  "WhenFetched": "2011-03-28T17:37:17.074242+02:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 769,
-  "AlertLevel": 968,
-  "Rank": 883,
+  "FirstMessage": "odio",
+  "LastMessage": "fugit",
+  "WhenRequested": "2014-07-20T11:22:37.5711376+02:00",
+  "WhenStarted": "2021-01-20T11:22:37.5711376+01:00",
+  "WhenEnded": "2003-08-14T11:22:37.5711376+02:00",
+  "WhenIdle": "2010-06-11T11:22:37.5711376+02:00",
+  "WhenFetched": "1998-05-30T11:22:37.5711376+02:00",
+  "SessionKey": "est",
+  "InitialQueuePos": 702,
+  "AlertLevel": 550,
+  "Rank": 246,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 959,
+  "ChatbotIsActive": true,
+  "Rating": 326,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldType": "System.String",
+      "FieldLength": 157
     }
   }
 }

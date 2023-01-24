@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,25 +92,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 533,
-    "Name": "Simonis, Keebler and Abernathy",
-    "ConsentText": "aut",
-    "FormText": "voluptatem",
-    "Key": "unde",
-    "Tooltip": "sit",
-    "Active": 4,
-    "UpdatedDate": "1996-09-14T17:37:18.3082416+02:00",
+    "ConsentPurposeId": 35,
+    "Name": "Bauch-Larkin",
+    "ConsentText": "sint",
+    "FormText": "culpa",
+    "Key": "maxime",
+    "Tooltip": "corrupti",
+    "Active": 297,
+    "UpdatedDate": "2017-04-08T11:22:38.5552678+02:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 935,
-    "PrivacyStatementDesc": "eligendi",
+    "Deleted": true,
+    "Rank": 569,
+    "PrivacyStatementDesc": "quam",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 361
+        "FieldLength": 686
       }
     }
   }

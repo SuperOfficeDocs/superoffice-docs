@@ -25,7 +25,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=614
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=892
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 344,
-  "PlainMessage": "eaque",
-  "HtmlMessage": "sit",
-  "SmsMessage": "et",
-  "Description": "Persistent demand-driven implementation",
+  "ShipmentMessageId": 287,
+  "PlainMessage": "voluptas",
+  "HtmlMessage": "ab",
+  "SmsMessage": "voluptates",
+  "Description": "Team-oriented full-range throughput",
   "Subject": "est",
-  "FolderId": 499,
-  "HeaderField": "fugit",
-  "Design": "soluta",
+  "FolderId": 961,
+  "HeaderField": "unde",
+  "Design": "sint",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Centralized regional emulation",
-  "AccessKey": "cupiditate",
-  "DocumentMessage": 426,
-  "Registered": "2014-04-22T17:37:18.3262413+02:00",
-  "RegisteredAssociateId": 316,
-  "Updated": "2018-09-05T17:37:18.3262413+02:00",
-  "UpdatedAssociateId": 418,
-  "UpdatedCount": 600,
+  "LongDescription": "Ergonomic neutral neural-net",
+  "AccessKey": "soluta",
+  "DocumentMessage": 65,
+  "Registered": "2005-10-04T11:22:38.5708923+02:00",
+  "RegisteredAssociateId": 147,
+  "Updated": "2001-09-22T11:22:38.5708923+02:00",
+  "UpdatedAssociateId": 871,
+  "UpdatedCount": 909,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 177
+      "FieldType": "System.Int32",
+      "FieldLength": 108
     }
   }
 }

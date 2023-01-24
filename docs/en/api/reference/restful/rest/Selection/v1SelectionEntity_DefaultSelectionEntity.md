@@ -96,7 +96,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,73 +104,73 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 15 Jun 1999 17:37:39 G6T
+Last-Modified: Fri, 05 Oct 2001 11:22:45 G10T
 
 {
-  "Description": "Assimilated responsive conglomeration",
-  "Postit": "eos",
+  "Description": "Optimized eco-centric frame",
+  "Postit": "voluptate",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 751,
-  "IncludePerson": 342,
-  "MemberCount": 340,
-  "Name": "Gaylord LLC",
-  "PostitTextId": 914,
-  "CreatedDate": "2012-05-06T17:37:39.1852752+02:00",
-  "SelectionId": 295,
-  "SoundEx": "provident",
-  "Source": 803,
-  "TextId": 845,
-  "UpdatedDate": "1999-06-15T17:37:39.1852752+02:00",
-  "UpdatedCount": 585,
-  "Visibility": 668,
+  "GroupIdx": 447,
+  "IncludePerson": 139,
+  "MemberCount": 425,
+  "Name": "Schmitt-Ledner",
+  "PostitTextId": 320,
+  "CreatedDate": "2012-02-03T11:22:45.1943375+01:00",
+  "SelectionId": 68,
+  "SoundEx": "vel",
+  "Source": 737,
+  "TextId": 401,
+  "UpdatedDate": "2001-10-05T11:22:45.1943375+02:00",
+  "UpdatedCount": 112,
+  "Visibility": 653,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 262,
-  "TargetTableName": "West LLC",
+  "TargetTableNumber": 675,
+  "TargetTableName": "Yost Inc and Sons",
   "Completed": true,
-  "LeftSelectionId": 514,
-  "RightSelectionId": 863,
+  "LeftSelectionId": 245,
+  "RightSelectionId": 932,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Upton-Friesen",
-  "ShadowProviderName": "Gleason Group",
-  "ChartKey": "voluptas",
-  "LastLoaded": "2011-09-30T17:37:39.1863037+02:00",
-  "LastLoadedBy": 744,
+  "MainProviderName": "Zulauf-Lang",
+  "ShadowProviderName": "Hermann, Marvin and Johnson",
+  "ChartKey": "vel",
+  "LastLoaded": "2018-03-22T11:22:45.1943375+01:00",
+  "LastLoadedBy": 857,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-05-07T17:37:39.1863037+02:00",
-  "LastMembershipChangeBy": 618,
+  "LastMembershipChange": "1997-03-08T11:22:45.1943375+01:00",
+  "LastMembershipChangeBy": 995,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eos",
-  "MemberTabHeading": "quisquam",
-  "MailingsProviderName": "Lueilwitz, Bernier and Boyer",
-  "DashboardTileDefinitionId": 308,
+  "MainHeading": "quas",
+  "MemberTabHeading": "nostrum",
+  "MailingsProviderName": "Tillman Inc and Sons",
+  "DashboardTileDefinitionId": 425,
   "VisibleFor": [
     {
-      "VisibleId": 921,
+      "VisibleId": 146,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 953
         }
       }
     },
     {
-      "VisibleId": 921,
+      "VisibleId": 146,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 953
         }
       }
     }
@@ -180,7 +180,7 @@ Last-Modified: Tue, 15 Jun 1999 17:37:39 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldLength": 520
     }
   }
 }

@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 937
+  "QuoteVersionId": 889
 }
 ```
 
@@ -92,16 +92,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Action": "Approve",
-  "ImageHint": "ipsa",
-  "DisplayText": "temporibus",
-  "TooltipText": "omnis",
+  "ImageHint": "sed",
+  "DisplayText": "saepe",
+  "TooltipText": "perferendis",
   "Enabled": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldType": "System.String",
+      "FieldLength": 387
     }
   }
 }

@@ -80,28 +80,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 26 Oct 2002 17:37:38 G10T
+Last-Modified: Fri, 02 Apr 2004 11:22:45 G4T
 
 {
-  "BlobId": 502,
-  "BlobSize": 363,
-  "Description": "Networked bottom-line hierarchy",
-  "ExtraInfo": "corporis",
-  "IsEncrypted": false,
+  "BlobId": 82,
+  "BlobSize": 766,
+  "Description": "Total zero defect internet solution",
+  "ExtraInfo": "earum",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 782,
-  "CreatedDate": "2001-07-27T17:37:38.9642753+02:00",
-  "UpdatedDate": "2002-10-26T17:37:38.9642753+02:00",
+  "MimeType": "adipisci",
+  "OriginalSize": 276,
+  "CreatedDate": "2019-08-06T11:22:45.0068982+02:00",
+  "UpdatedDate": "2004-04-02T11:22:45.0068982+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "expedita",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldType": "System.String",
+      "FieldLength": 697
     }
   }
 }

@@ -25,8 +25,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=provident
+GET /api/v1/List/Position/MDOItems?flat=False
+GET /api/v1/List/Position/MDOItems?query=praesentium
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 650,
-    "Name": "Howell-O'Conner",
-    "ToolTip": "Earum optio ratione.",
-    "Deleted": false,
-    "Rank": 542,
-    "Type": "voluptas",
+    "Id": 699,
+    "Name": "Carroll, McGlynn and McDermott",
+    "ToolTip": "Ipsum et rem reiciendis corrupti odit sed.",
+    "Deleted": true,
+    "Rank": 164,
+    "Type": "nostrum",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Lindgren-Mertz",
-        "ToolTip": "Omnis consequatur aut quibusdam qui.",
-        "Deleted": true,
-        "Rank": 416,
-        "Type": "vero",
+        "Id": 805,
+        "Name": "Sporer Inc and Sons",
+        "ToolTip": "Ducimus minus aliquam aperiam distinctio soluta.",
+        "Deleted": false,
+        "Rank": 474,
+        "Type": "quibusdam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "mollitia",
-        "ColorBlock": 305,
-        "ExtraInfo": "quasi",
-        "StyleHint": "magnam",
-        "FullName": "Mr. Nicholas Botsford MD",
+        "IconHint": "repellat",
+        "ColorBlock": 211,
+        "ExtraInfo": "praesentium",
+        "StyleHint": "adipisci",
+        "FullName": "Juvenal Emard Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 744
+            "FieldType": "System.Int32",
+            "FieldLength": 354
           }
         }
       }
     ],
-    "IconHint": "voluptates",
-    "ColorBlock": 733,
-    "ExtraInfo": "incidunt",
-    "StyleHint": "quisquam",
-    "FullName": "Adele Kilback",
+    "IconHint": "omnis",
+    "ColorBlock": 296,
+    "ExtraInfo": "fugiat",
+    "StyleHint": "officia",
+    "FullName": "Ms. Reece Elbert Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldType": "System.String",
+        "FieldLength": 723
       }
     }
   }

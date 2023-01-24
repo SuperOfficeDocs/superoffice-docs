@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Brekke, Pfannerstill and Labadie",
-    "ToolTip": "Nesciunt et dolor et enim.",
+    "Id": 919,
+    "Name": "Pollich LLC",
+    "ToolTip": "Dolor quia sed nam et rerum.",
     "Deleted": false,
-    "Rank": 249,
-    "Type": "voluptatem",
-    "ColorBlock": 963,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2019-07-24T17:37:40.1655016+02:00",
+    "Rank": 33,
+    "Type": "exercitationem",
+    "ColorBlock": 64,
+    "IconHint": "nobis",
+    "Selected": false,
+    "LastChanged": "1997-08-11T11:22:46.0379014+02:00",
     "ChildItems": [
       {
-        "Id": 958,
-        "Name": "Schmeler-Mills",
-        "ToolTip": "Velit voluptas occaecati.",
-        "Deleted": false,
-        "Rank": 375,
-        "Type": "nemo",
-        "ColorBlock": 959,
-        "IconHint": "enim",
+        "Id": 788,
+        "Name": "Schinner, Schroeder and Carter",
+        "ToolTip": "Inventore dicta sed fugiat iste vero.",
+        "Deleted": true,
+        "Rank": 519,
+        "Type": "voluptatum",
+        "ColorBlock": 306,
+        "IconHint": "sapiente",
         "Selected": false,
-        "LastChanged": "2020-09-23T17:37:40.1655016+02:00",
+        "LastChanged": "2011-02-27T11:22:46.0379014+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "doloribus",
-        "Hidden": false,
-        "FullName": "Kaylah Turcotte MD",
+        "ExtraInfo": "nam",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Mr. Reuben Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 324
+            "FieldLength": 840
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Prof. Luis Pollich DDS",
+    "ExtraInfo": "qui",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Katelin Mueller II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 887
+        "FieldType": "System.Int32",
+        "FieldLength": 283
       }
     }
   }

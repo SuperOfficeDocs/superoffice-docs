@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 453,
-  "Name": "Carroll LLC",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "UdListDefinitionId": 176,
-  "Rank": 525,
+  "Id": 978,
+  "Name": "Pfannerstill, Muller and Kozey",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 885,
+  "Rank": 190,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldType": "System.String",
+      "FieldLength": 250
     }
   }
 }

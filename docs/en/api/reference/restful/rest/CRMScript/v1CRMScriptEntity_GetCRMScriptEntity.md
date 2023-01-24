@@ -85,7 +85,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,23 +95,23 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 46,
-  "UniqueIdentifier": "tenetur",
-  "Name": "Grimes-Hagenes",
-  "Description": "Enterprise-wide bifurcated implementation",
-  "IncludeId": "et",
-  "HierarchyId": 439,
-  "Source": "sit",
-  "Registered": "1999-06-14T17:37:38.4838596+02:00",
-  "RegisteredAssociateId": 466,
-  "Updated": "1999-02-16T17:37:38.4838596+01:00",
-  "UpdatedAssociateId": 98,
+  "EjscriptId": 132,
+  "UniqueIdentifier": "aut",
+  "Name": "Hyatt Inc and Sons",
+  "Description": "Re-engineered client-server infrastructure",
+  "IncludeId": "eius",
+  "HierarchyId": 924,
+  "Source": "blanditiis",
+  "Registered": "2007-05-18T11:22:44.5694964+02:00",
+  "RegisteredAssociateId": 149,
+  "Updated": "1998-03-30T11:22:44.5694964+02:00",
+  "UpdatedAssociateId": 603,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 350
+      "FieldType": "System.Int32",
+      "FieldLength": 238
     }
   },
   "_Links": {

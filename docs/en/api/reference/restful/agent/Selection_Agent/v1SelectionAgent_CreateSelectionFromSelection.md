@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 310,
-  "Name": "Jones, Mante and Emard",
+  "SelectionId": 216,
+  "Name": "Huel Group",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots responsive moratorium",
-  "Postit": "qui",
+  "Description": "Open-source even-keeled ability",
+  "Postit": "veniam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 79,
-  "IncludePerson": 294,
-  "MemberCount": 655,
-  "Name": "Koch-Reinger",
-  "PostitTextId": 769,
-  "CreatedDate": "2020-11-17T17:37:19.1962427+01:00",
-  "SelectionId": 108,
-  "SoundEx": "explicabo",
-  "Source": 891,
-  "TextId": 415,
-  "UpdatedDate": "2018-04-05T17:37:19.1962427+02:00",
-  "UpdatedCount": 984,
-  "Visibility": 918,
+  "GroupIdx": 330,
+  "IncludePerson": 824,
+  "MemberCount": 948,
+  "Name": "Stark, Jenkins and Price",
+  "PostitTextId": 82,
+  "CreatedDate": "2009-03-08T11:22:39.3207231+01:00",
+  "SelectionId": 373,
+  "SoundEx": "voluptas",
+  "Source": 732,
+  "TextId": 270,
+  "UpdatedDate": "2006-11-15T11:22:39.3207231+01:00",
+  "UpdatedCount": 729,
+  "Visibility": 206,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 433,
-  "TargetTableName": "Pouros-Ebert",
-  "Completed": false,
-  "LeftSelectionId": 23,
-  "RightSelectionId": 777,
+  "TargetTableNumber": 949,
+  "TargetTableName": "Nicolas, Hahn and Barton",
+  "Completed": true,
+  "LeftSelectionId": 837,
+  "RightSelectionId": 889,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Braun LLC",
-  "ShadowProviderName": "Botsford-Huels",
-  "ChartKey": "consequatur",
-  "LastLoaded": "2018-11-08T17:37:19.1962427+01:00",
-  "LastLoadedBy": 345,
+  "MainProviderName": "Stoltenberg LLC",
+  "ShadowProviderName": "Stroman-Tillman",
+  "ChartKey": "eius",
+  "LastLoaded": "1996-09-26T11:22:39.3207231+02:00",
+  "LastLoadedBy": 75,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-01-18T17:37:19.1972427+01:00",
-  "LastMembershipChangeBy": 732,
+  "LastMembershipChange": "2010-01-10T11:22:39.3207231+01:00",
+  "LastMembershipChangeBy": 559,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "blanditiis",
-  "MemberTabHeading": "commodi",
-  "MailingsProviderName": "Wisoky, Douglas and Macejkovic",
-  "DashboardTileDefinitionId": 619,
+  "MainHeading": "enim",
+  "MemberTabHeading": "vel",
+  "MailingsProviderName": "Nicolas, Graham and Nicolas",
+  "DashboardTileDefinitionId": 680,
   "VisibleFor": [
     {
-      "VisibleId": 654,
+      "VisibleId": 941,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 848
+          "FieldType": "System.Int32",
+          "FieldLength": 554
         }
       }
     },
     {
-      "VisibleId": 654,
+      "VisibleId": 941,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 848
+          "FieldType": "System.Int32",
+          "FieldLength": 554
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 225
+      "FieldType": "System.String",
+      "FieldLength": 75
     }
   }
 }

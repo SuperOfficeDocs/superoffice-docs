@@ -100,9 +100,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 448,
-  "QuoteAlternativeId": 981,
-  "QuoteAlternativeName": "Bahringer, Armstrong and Rau"
+  "QuoteVersionId": 209,
+  "QuoteAlternativeId": 462,
+  "QuoteAlternativeName": "Skiles-McClure"
 }
 ```
 
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 415,
-  "ERPQuoteAlternativeKey": "laborum",
-  "QuoteVersionId": 667,
-  "Name": "Kreiger LLC",
-  "Description": "De-engineered bandwidth-monitored customer loyalty",
+  "QuoteAlternativeId": 179,
+  "ERPQuoteAlternativeKey": "ut",
+  "QuoteVersionId": 353,
+  "Name": "Considine LLC",
+  "Description": "Devolved exuding paradigm",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 27798.579999999998,
-  "ERPDiscountAmount": 20361.597999999998,
-  "DiscountPercent": 1062.426,
-  "DiscountAmount": 6095.63,
+  "ERPDiscountPercent": 11786.974,
+  "ERPDiscountAmount": 29660.176,
+  "DiscountPercent": 5356.0059999999994,
+  "DiscountAmount": 17757.244,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dolor",
-  "VAT": 21555.652,
-  "EarningPercent": 24442.066,
-  "EarningAmount": 6844.656,
-  "SubTotal": 5061.41,
-  "TotalPrice": 20856.77,
-  "ExtraField1": "impedit",
-  "ExtraField2": "quibusdam",
-  "ExtraField3": "cupiditate",
-  "ExtraField4": "voluptatum",
-  "ExtraField5": "sit",
+  "VATInfo": "rem",
+  "VAT": 11765.036,
+  "EarningPercent": 4149.416,
+  "EarningAmount": 7142.3859999999995,
+  "SubTotal": 24316.706,
+  "TotalPrice": 23348.3,
+  "ExtraField1": "est",
+  "ExtraField2": "blanditiis",
+  "ExtraField3": "exercitationem",
+  "ExtraField4": "qui",
+  "ExtraField5": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 722
     }
   }
 }

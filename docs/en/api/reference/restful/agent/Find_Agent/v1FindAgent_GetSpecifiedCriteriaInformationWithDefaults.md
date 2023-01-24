@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "temporibus",
-  "ProviderName": "Emmerich-Barton",
-  "StorageKey": "veniam",
+  "StorageType": "aut",
+  "ProviderName": "Brakus, Tillman and O'Hara",
+  "StorageKey": "aut",
   "DesiredColumnNames": [
-    "Adams, Aufderhar and Beatty",
-    "Donnelly LLC"
+    "Thiel-Kozey",
+    "Kling-Purdy"
   ],
   "StaticColumns": [
-    "enim",
+    "eos",
     "sequi"
   ]
 }
@@ -108,81 +108,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Schowalter LLC",
-      "Operator": "impedit",
+      "Name": "Harris-Weimann",
+      "Operator": "vel",
       "Values": [
-        "aut",
-        "odit"
+        "occaecati",
+        "ut"
       ],
       "DisplayValues": [
-        "ducimus",
-        "perspiciatis"
+        "consequatur",
+        "nihil"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 653,
+      "InterParenthesis": 125,
       "InterOperator": "And",
-      "UniqueHash": 692
+      "UniqueHash": 500
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Welch, Pouros and Schmitt",
-      "DisplayTooltip": "qui",
-      "DisplayType": "nihil",
+      "DisplayName": "Blick-Collier",
+      "DisplayTooltip": "sunt",
+      "DisplayType": "est",
       "CanOrderBy": false,
-      "Name": "Breitenberg-Bauch",
+      "Name": "Zboncak LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "libero",
-      "RestrictionListName": "Kunze, Kuvalis and Maggio",
+      "RestrictionType": "dicta",
+      "RestrictionListName": "Abshire, Purdy and Skiles",
       "IsVisible": false,
-      "ExtraInfo": "eos",
-      "Width": "culpa",
-      "IconHint": "doloremque",
-      "HeadingIconHint": "voluptas"
+      "ExtraInfo": "porro",
+      "Width": "esse",
+      "IconHint": "cum",
+      "HeadingIconHint": "aut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Johns-Ortiz",
-      "PrimaryKey": 762,
+      "EntityName": "King-Olson",
+      "PrimaryKey": 103,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nam",
-          "TooltipHint": "et",
-          "LinkHint": "qui"
+          "DisplayValue": "tempore",
+          "TooltipHint": "nesciunt",
+          "LinkHint": "laborum"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "nulla",
+      "LinkHint": "minus",
+      "StyleHint": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldType": "System.String",
+          "FieldLength": 897
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kutch Inc and Sons",
-      "Description": "Multi-layered regional secured line",
-      "Rank": 385,
+      "Name": "Conroy-Rowe",
+      "Description": "Down-sized user-facing installation",
+      "Rank": 250,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kutch Inc and Sons",
-      "Description": "Multi-layered regional secured line",
-      "Rank": 385,
+      "Name": "Conroy-Rowe",
+      "Description": "Down-sized user-facing installation",
+      "Rank": 250,
       "Restrictions": [
         {},
         {}
@@ -193,8 +193,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldType": "System.String",
+      "FieldLength": 666
     }
   }
 }

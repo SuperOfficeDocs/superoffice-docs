@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 546,
-    "Name": "Christiansen Inc and Sons",
-    "Tooltip": "possimus",
-    "Rank": 482,
-    "Rate": 30493.82,
-    "Units": 5725.818,
+    "CurrencyId": 966,
+    "Name": "Lehner-Reynolds",
+    "Tooltip": "aut",
+    "Rank": 525,
+    "Rate": 27961.548,
+    "Units": 12981.028,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldLength": 3
       }
     }
   }

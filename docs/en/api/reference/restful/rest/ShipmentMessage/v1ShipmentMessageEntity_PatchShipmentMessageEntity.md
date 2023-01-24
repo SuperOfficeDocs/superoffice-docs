@@ -133,12 +133,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "a",
+    "path": "culpa",
     "value": {}
   },
   {
     "op": "add",
-    "path": "a",
+    "path": "culpa",
     "value": {}
   }
 ]
@@ -151,38 +151,38 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 44,
-  "PlainMessage": "ut",
-  "HtmlMessage": "quo",
-  "SmsMessage": "vitae",
-  "Description": "Cross-platform reciprocal hub",
-  "Subject": "soluta",
-  "FolderId": 859,
-  "HeaderField": "odio",
-  "Design": "maxime",
+  "ShipmentMessageId": 476,
+  "PlainMessage": "id",
+  "HtmlMessage": "cumque",
+  "SmsMessage": "ipsum",
+  "Description": "Digitized 24/7 emulation",
+  "Subject": "aliquam",
+  "FolderId": 480,
+  "HeaderField": "officia",
+  "Design": "sunt",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Pre-emptive 5th generation challenge",
-  "AccessKey": "ab",
-  "DocumentMessage": 669,
-  "Registered": "2017-11-21T17:37:39.2283033+01:00",
-  "RegisteredAssociateId": 118,
-  "Updated": "2003-02-23T17:37:39.2283033+01:00",
-  "UpdatedAssociateId": 416,
-  "UpdatedCount": 289,
+  "LongDescription": "Multi-lateral static focus group",
+  "AccessKey": "velit",
+  "DocumentMessage": 876,
+  "Registered": "2000-06-24T11:22:45.225579+02:00",
+  "RegisteredAssociateId": 715,
+  "Updated": "2003-12-26T11:22:45.225579+01:00",
+  "UpdatedAssociateId": 808,
+  "UpdatedCount": 129,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldLength": 74
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

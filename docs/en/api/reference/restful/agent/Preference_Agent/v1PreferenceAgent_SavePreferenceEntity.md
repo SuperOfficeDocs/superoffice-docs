@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "molestiae",
+  "RawValue": "nihil",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "est",
+  "DisplayValue": "aut",
+  "DisplayTooltip": "ex",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 16,
-  "PrefDescId": 684,
-  "TableName": "Stamm LLC",
-  "UserPreferenceId": 588,
+  "TargetId": 446,
+  "PrefDescId": 380,
+  "TableName": "Lesch LLC",
+  "UserPreferenceId": 965,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 360
+      "FieldType": "System.Int32",
+      "FieldLength": 173
     }
   }
 }

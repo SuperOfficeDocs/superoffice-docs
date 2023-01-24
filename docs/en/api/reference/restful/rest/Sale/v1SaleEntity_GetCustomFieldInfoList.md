@@ -66,7 +66,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Donnelly Inc and Sons",
-    "DisplayName": "Stark, Jenkins and Rippin",
-    "Description": "Public-key non-volatile definition",
-    "ShortLabel": "ipsa",
+    "FieldName": "Schamberger-Boehm",
+    "DisplayName": "Marquardt-Bartell",
+    "Description": "Automated dedicated methodology",
+    "ShortLabel": "labore",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 530,
-    "TemplateVariableName": "Wilderman Inc and Sons"
+    "IsReadOnly": true,
+    "IsExternal": false,
+    "Rank": 938,
+    "TemplateVariableName": "Lakin, Hilpert and Wiza"
   }
 ]
 ```

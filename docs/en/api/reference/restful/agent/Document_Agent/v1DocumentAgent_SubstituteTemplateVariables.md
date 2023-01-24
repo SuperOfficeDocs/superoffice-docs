@@ -76,19 +76,19 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "repudiandae",
+  "Source": "cumque",
   "GeneratorEncoding": "Html",
-  "ContactId": 180,
-  "PersonId": 10,
-  "AppointmentId": 431,
-  "DocumentId": 719,
-  "SaleId": 310,
-  "SelectionId": 829,
-  "ProjectId": 28,
+  "ContactId": 827,
+  "PersonId": 212,
+  "AppointmentId": 869,
+  "DocumentId": 38,
+  "SaleId": 665,
+  "SelectionId": 220,
+  "ProjectId": 610,
   "CultureName": "en"
 }
 ```
@@ -99,5 +99,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ea"
+"at"
 ```

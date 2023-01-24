@@ -112,18 +112,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 366,
-      "ContactId": 52
+      "PersonId": 254,
+      "ContactId": 579
     },
     {
-      "PersonId": 366,
-      "ContactId": 52
+      "PersonId": 254,
+      "ContactId": 579
     }
   ]
 }
@@ -136,70 +136,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Object-based modular local area network",
-  "Postit": "molestiae",
+  "Description": "Persistent solution-oriented strategy",
+  "Postit": "consequatur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 985,
-  "IncludePerson": 377,
-  "MemberCount": 121,
-  "Name": "Williamson, Dach and Reinger",
-  "PostitTextId": 326,
-  "CreatedDate": "2012-08-16T17:37:19.1612417+02:00",
-  "SelectionId": 724,
-  "SoundEx": "excepturi",
-  "Source": 969,
-  "TextId": 561,
-  "UpdatedDate": "1998-08-07T17:37:19.1612417+02:00",
-  "UpdatedCount": 839,
-  "Visibility": 305,
+  "GroupIdx": 543,
+  "IncludePerson": 517,
+  "MemberCount": 405,
+  "Name": "Conroy-Hamill",
+  "PostitTextId": 599,
+  "CreatedDate": "2010-05-18T11:22:39.2894808+02:00",
+  "SelectionId": 824,
+  "SoundEx": "veniam",
+  "Source": 402,
+  "TextId": 173,
+  "UpdatedDate": "2013-07-07T11:22:39.2894808+02:00",
+  "UpdatedCount": 696,
+  "Visibility": 107,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 946,
-  "TargetTableName": "Hickle, O'Kon and Schultz",
+  "TargetTableNumber": 67,
+  "TargetTableName": "Daugherty, Bergnaum and Boehm",
   "Completed": false,
-  "LeftSelectionId": 344,
-  "RightSelectionId": 718,
+  "LeftSelectionId": 331,
+  "RightSelectionId": 410,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hessel-Marks",
-  "ShadowProviderName": "Schinner, Mayer and Luettgen",
-  "ChartKey": "dolorem",
-  "LastLoaded": "2019-04-08T17:37:19.1622424+02:00",
-  "LastLoadedBy": 889,
+  "MainProviderName": "Herman LLC",
+  "ShadowProviderName": "Wiegand LLC",
+  "ChartKey": "dolorum",
+  "LastLoaded": "2003-02-25T11:22:39.2894808+01:00",
+  "LastLoadedBy": 615,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-09-26T17:37:19.1622424+02:00",
-  "LastMembershipChangeBy": 934,
+  "LastMembershipChange": "2019-08-02T11:22:39.2894808+02:00",
+  "LastMembershipChangeBy": 998,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "voluptates",
-  "MailingsProviderName": "Mraz Group",
-  "DashboardTileDefinitionId": 2,
+  "MainHeading": "sed",
+  "MemberTabHeading": "optio",
+  "MailingsProviderName": "McCullough-Rice",
+  "DashboardTileDefinitionId": 462,
   "VisibleFor": [
     {
-      "VisibleId": 91,
+      "VisibleId": 629,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 493
         }
       }
     },
     {
-      "VisibleId": 91,
+      "VisibleId": 629,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 493
         }
       }
     }
@@ -208,8 +208,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 451
+      "FieldType": "System.Int32",
+      "FieldLength": 634
     }
   }
 }

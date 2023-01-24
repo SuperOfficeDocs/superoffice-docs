@@ -70,29 +70,29 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 483,
-  "CrmRecordId": 403,
+  "ErpConnectionId": 7,
+  "CrmRecordId": 861,
   "CrmActorType": "Contact",
   "ErpKey": "et",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Gulgowski-Dickinson",
-      "CrmFieldKey": "eum",
-      "Value": "sed",
-      "DisplayValue": "minus",
+      "DisplayName": "Osinski, Hudson and Adams",
+      "CrmFieldKey": "aperiam",
+      "Value": "consequatur",
+      "DisplayValue": "soluta",
       "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Gulgowski-Dickinson",
-      "CrmFieldKey": "eum",
-      "Value": "sed",
-      "DisplayValue": "minus",
+      "DisplayName": "Osinski, Hudson and Adams",
+      "CrmFieldKey": "aperiam",
+      "Value": "consequatur",
+      "DisplayValue": "soluta",
       "SyncToCrm": false,
       "SyncToErp": false
     }

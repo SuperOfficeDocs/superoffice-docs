@@ -87,28 +87,28 @@ OK
 POST /api/v1/CRMScript/{cRMScriptId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "rerum",
-    "InputValues2": "itaque"
+    "InputValues1": "quidem",
+    "InputValues2": "amet"
   },
   "BlockExecution": true,
-  "NavigateTo": "eos",
-  "Message": "rerum",
-  "ShowDialog": "quibusdam",
+  "NavigateTo": "animi",
+  "Message": "libero",
+  "ShowDialog": "repellat",
   "OutputValues": {
-    "OutputValues1": "sed",
-    "OutputValues2": "mollitia"
+    "OutputValues1": "aut",
+    "OutputValues2": "nulla"
   },
   "StateValues": {
-    "StateValues1": "non",
-    "StateValues2": "ut"
+    "StateValues1": "quidem",
+    "StateValues2": "expedita"
   },
-  "Exception": "quam"
+  "Exception": "ducimus"
 }
 ```
 
@@ -121,28 +121,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "et",
-    "InputValues2": "corporis"
+    "InputValues1": "totam",
+    "InputValues2": "accusamus"
   },
   "BlockExecution": true,
-  "NavigateTo": "dolor",
-  "Message": "doloremque",
-  "ShowDialog": "fugit",
+  "NavigateTo": "voluptatibus",
+  "Message": "quia",
+  "ShowDialog": "in",
   "OutputValues": {
-    "OutputValues1": "est",
-    "OutputValues2": "nobis"
+    "OutputValues1": "et",
+    "OutputValues2": "quis"
   },
   "StateValues": {
-    "StateValues1": "id",
-    "StateValues2": "qui"
+    "StateValues1": "mollitia",
+    "StateValues2": "voluptas"
   },
-  "Exception": "cumque",
+  "Exception": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 236
     }
   }
 }

@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,28 +99,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 915,
-  "Name": "Runte-Brekke",
-  "Description": "Optimized context-sensitive hierarchy",
-  "DeltaJson": "sequi",
+  "ConfigurableScreenDeltaId": 622,
+  "Name": "Schimmel LLC",
+  "Description": "Sharable encompassing info-mediaries",
+  "DeltaJson": "omnis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "temporibus",
-  "UpdatedDate": "2005-07-01T17:37:17.1302429+02:00",
-  "CreatedDate": "1998-10-28T17:37:17.1302429+01:00",
+  "RecipeId": "error",
+  "UpdatedDate": "2020-10-01T11:22:37.6179991+02:00",
+  "CreatedDate": "2002-12-16T11:22:37.6179991+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    919,
-    613
+    420,
+    808
   ],
-  "AppliesToKey": "dicta",
+  "AppliesToKey": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldType": "System.String",
+      "FieldLength": 926
     }
   }
 }

@@ -80,14 +80,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 357,
-  "AssociateId": 435,
-  "Block": "dicta",
-  "Registered": "2006-05-11T17:37:18.3182412+02:00",
-  "RegisteredAssociateId": 113,
-  "Updated": "2005-08-19T17:37:18.3182412+02:00",
-  "UpdatedAssociateId": 617,
-  "UpdatedCount": 654
+  "ShipmentMessageBlockId": 136,
+  "AssociateId": 982,
+  "Block": "consectetur",
+  "Registered": "2018-11-27T11:22:38.5552678+01:00",
+  "RegisteredAssociateId": 203,
+  "Updated": "2017-01-20T11:22:38.5552678+01:00",
+  "UpdatedAssociateId": 225,
+  "UpdatedCount": 993
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 617,
-  "AssociateId": 859,
-  "Block": "earum",
-  "Registered": "2001-12-07T17:37:18.3182412+01:00",
-  "RegisteredAssociateId": 225,
-  "Updated": "2020-06-11T17:37:18.3182412+02:00",
-  "UpdatedAssociateId": 829,
-  "UpdatedCount": 667,
+  "ShipmentMessageBlockId": 574,
+  "AssociateId": 484,
+  "Block": "hic",
+  "Registered": "2009-03-17T11:22:38.5552678+01:00",
+  "RegisteredAssociateId": 478,
+  "Updated": "2017-05-01T11:22:38.5552678+02:00",
+  "UpdatedAssociateId": 333,
+  "UpdatedCount": 356,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldType": "System.String",
+      "FieldLength": 804
     }
   }
 }

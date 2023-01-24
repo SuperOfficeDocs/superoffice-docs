@@ -81,7 +81,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,22 +91,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 314,
-  "ERPPriceListKey": "provident",
-  "QuoteConnectionId": 192,
-  "Name": "Schroeder, Konopelski and Kuhlman",
-  "Description": "Organic local service-desk",
-  "Currency": "ducimus",
-  "CurrencyName": "Hessel Inc and Sons",
-  "ValidFrom": "2003-07-25T17:37:40.1185003+02:00",
-  "ValidTo": "2002-04-02T17:37:40.1185003+02:00",
+  "PriceListId": 875,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 907,
+  "Name": "Koelpin Group",
+  "Description": "Open-architected 24/7 definition",
+  "Currency": "et",
+  "CurrencyName": "Rice Group",
+  "ValidFrom": "2000-06-29T11:22:46.0066565+02:00",
+  "ValidTo": "1996-08-11T11:22:46.0066565+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldType": "System.Int32",
+      "FieldLength": 127
     }
   },
   "_Links": {

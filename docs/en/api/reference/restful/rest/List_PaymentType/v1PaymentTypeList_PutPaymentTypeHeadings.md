@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 454,
-    "Name": "Kemmer-West",
-    "Tooltip": "eos",
-    "Deleted": false,
-    "Rank": 445,
-    "UdListDefinitionId": 245
+    "HeadingId": 4,
+    "Name": "Ziemann, Baumbach and Skiles",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 849,
+    "UdListDefinitionId": 668
   },
   {
-    "HeadingId": 454,
-    "Name": "Kemmer-West",
-    "Tooltip": "eos",
-    "Deleted": false,
-    "Rank": 445,
-    "UdListDefinitionId": 245
+    "HeadingId": 4,
+    "Name": "Ziemann, Baumbach and Skiles",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 849,
+    "UdListDefinitionId": 668
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 946,
-    "Name": "Paucek Group",
-    "Tooltip": "vitae",
-    "Deleted": true,
-    "Rank": 626,
-    "UdListDefinitionId": 572,
+    "HeadingId": 855,
+    "Name": "Towne-White",
+    "Tooltip": "deleniti",
+    "Deleted": false,
+    "Rank": 273,
+    "UdListDefinitionId": 21,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldType": "System.String",
+        "FieldLength": 418
       }
     }
   }

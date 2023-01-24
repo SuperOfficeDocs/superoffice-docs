@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,30 +88,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 140,
-  "Name": "Stehr Group",
-  "CurrencyId": 154,
-  "EnglishName": "Hauck Inc and Sons",
+  "CountryId": 876,
+  "Name": "Bins-Marquardt",
+  "CurrencyId": 524,
+  "EnglishName": "Kunze LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Business-focused mission-critical hardware",
-  "OrgNrText": "556624",
-  "InterAreaPrefix": "nam",
-  "DialInPrefix": "et",
-  "ZipPrefix": "eligendi",
-  "DomainName": "West Group",
-  "AddressLayoutId": 314,
-  "DomesticAddressLayoutId": 784,
-  "ForeignAddressLayoutId": 134,
-  "Rank": 439,
-  "Tooltip": "et",
-  "Deleted": true,
+  "ImageDescription": "Self-enabling secondary encoding",
+  "OrgNrText": "1042172",
+  "InterAreaPrefix": "necessitatibus",
+  "DialInPrefix": "iste",
+  "ZipPrefix": "nulla",
+  "DomainName": "Hermiston-Wolf",
+  "AddressLayoutId": 605,
+  "DomesticAddressLayoutId": 4,
+  "ForeignAddressLayoutId": 368,
+  "Rank": 375,
+  "Tooltip": "cum",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldLength": 127
     }
   }
 }

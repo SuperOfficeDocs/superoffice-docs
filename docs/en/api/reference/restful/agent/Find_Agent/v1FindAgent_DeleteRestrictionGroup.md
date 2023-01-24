@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "necessitatibus",
-  "ProviderName": "Hoeger-Nicolas",
-  "StorageKey": "repellendus",
-  "Rank": 91,
-  "Context": "quidem"
+  "StorageType": "excepturi",
+  "ProviderName": "Medhurst, Kshlerin and Walter",
+  "StorageKey": "sunt",
+  "Rank": 496,
+  "Context": "aspernatur"
 }
 ```
 

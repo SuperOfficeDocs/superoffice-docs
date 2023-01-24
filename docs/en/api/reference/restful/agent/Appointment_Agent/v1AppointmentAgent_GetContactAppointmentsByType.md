@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 412,
-  "StartTime": "2006-04-07T17:37:16.607245+02:00",
-  "EndTime": "2016-05-21T17:37:16.607245+02:00",
-  "Count": 668,
+  "ContactId": 258,
+  "StartTime": "2005-12-05T11:22:37.2274146+01:00",
+  "EndTime": "2011-12-21T11:22:37.2274146+01:00",
+  "Count": 380,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 320,
-    "StartDate": "2017-03-24T17:37:16.6082446+01:00",
-    "EndDate": "2017-03-24T17:37:16.6082446+01:00",
+    "AppointmentId": 562,
+    "StartDate": "2000-02-27T11:22:37.2274146+01:00",
+    "EndDate": "2016-03-25T11:22:37.2274146+01:00",
     "Type": "BookingForChecklist",
-    "Task": "necessitatibus",
-    "AssociateFullName": "Maureen Quitzon",
-    "ContactName": "Emmerich Inc and Sons",
-    "Description": "Re-engineered fresh-thinking capacity",
-    "PersonFullName": "Miss Talon Stoltenberg",
-    "PersonId": 614,
-    "ContactId": 789,
-    "ProjectId": 510,
-    "ProjectName": "Jones, Willms and Sanford",
+    "Task": "quas",
+    "AssociateFullName": "Pauline Hand",
+    "ContactName": "Kulas Inc and Sons",
+    "Description": "Monitored discrete Graphic Interface",
+    "PersonFullName": "Jessika Shanahan",
+    "PersonId": 447,
+    "ContactId": 621,
+    "ProjectId": 771,
+    "ProjectName": "Koss Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 675,
-    "ColorIndex": 22,
+    "AssociateId": 619,
+    "ColorIndex": 983,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 775,
-    "PriorityName": "Langworth Group",
+    "PriorityId": 508,
+    "PriorityName": "Schoen Group",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2011-10-11T17:37:16.6082446+02:00",
+    "ActiveDate": "2011-11-22T11:22:37.368005+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-01-22T17:37:16.6082446+01:00",
-    "RecurringEndDate": "2020-10-03T17:37:16.6082446+02:00",
-    "MotherId": 652,
-    "AssignedBy": 721,
-    "AssignedByFullName": "Ariel Bradtke PhD",
-    "RejectReason": "incubate front-end initiatives",
-    "Location": "pariatur",
-    "AlarmLeadTime": "veniam",
-    "SaleId": 797,
-    "SaleName": "Carter Group",
-    "AssociateName": "White, Stracke and Marquardt",
-    "CreatedDate": "2000-12-10T17:37:16.6092445+01:00",
-    "CreatedBy": "illum",
-    "CreatedByFullName": "Mr. Ludwig Hane",
-    "CreatedByAssociateId": 734,
+    "RecurringStartDate": "2018-12-13T11:22:37.368005+01:00",
+    "RecurringEndDate": "2003-03-05T11:22:37.368005+01:00",
+    "MotherId": 833,
+    "AssignedBy": 610,
+    "AssignedByFullName": "Chelsie Hackett",
+    "RejectReason": "",
+    "Location": "dolorum",
+    "AlarmLeadTime": "consequatur",
+    "SaleId": 947,
+    "SaleName": "Schmeler-Stiedemann",
+    "AssociateName": "Gulgowski-Stokes",
+    "CreatedDate": "2019-08-22T11:22:37.368005+02:00",
+    "CreatedBy": "asperiores",
+    "CreatedByFullName": "Ms. Levi Purdy",
+    "CreatedByAssociateId": 549,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldLength": 242
       }
     }
   }

@@ -97,7 +97,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 129,
-  "ColumnId": 577,
-  "FieldDefault": "sequi",
-  "FieldHeight": 832,
-  "FieldLabel": "quia",
-  "FieldLeft": 89,
-  "FieldTop": 301,
+  "UDefFieldId": 54,
+  "ColumnId": 309,
+  "FieldDefault": "et",
+  "FieldHeight": 698,
+  "FieldLabel": "iusto",
+  "FieldLeft": 584,
+  "FieldTop": 548,
   "FieldType": "Checkbox",
-  "FieldWidth": 26,
-  "FormatMask": "accusamus",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 342,
-  "LabelLeft": 775,
-  "LabelTop": 292,
-  "LabelWidth": 191,
-  "LastVersionId": 830,
-  "ListTableId": 381,
+  "FieldWidth": 419,
+  "FormatMask": "aliquam",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 41,
+  "LabelLeft": 657,
+  "LabelTop": 226,
+  "LabelWidth": 920,
+  "LastVersionId": 363,
+  "ListTableId": 625,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 241,
-  "ProgId": "dolorum",
+  "Page1LineNo": 121,
+  "ProgId": "veritatis",
   "IsReadOnly": false,
-  "ShortLabel": "dolorem",
-  "TabOrder": 802,
-  "TextLength": 133,
-  "Tooltip": "error",
-  "UdefIdentity": 91,
-  "UDListDefinitionId": 542,
+  "ShortLabel": "rerum",
+  "TabOrder": 701,
+  "TextLength": 168,
+  "Tooltip": "sed",
+  "UdefIdentity": 412,
+  "UDListDefinitionId": 246,
   "Justification": "Center",
-  "Version": 446,
-  "TemplateVariableName": "King-Lindgren",
-  "HasBeenPublished": true,
-  "MdoListName": "Kirlin-Mraz",
+  "Version": 59,
+  "TemplateVariableName": "Rippin Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Hackett-Zulauf",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 712
+      "FieldType": "System.Int32",
+      "FieldLength": 315
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 612,
-    "Name": "Padberg, Douglas and Medhurst",
-    "ToolTip": "Laborum magnam ab nobis officiis.",
+    "Id": 187,
+    "Name": "Wiegand, Goyette and Dickens",
+    "ToolTip": "Quis deserunt non.",
     "Deleted": false,
-    "Rank": 47,
-    "Type": "sit",
-    "ColorBlock": 973,
-    "IconHint": "illo",
-    "Selected": true,
-    "LastChanged": "2008-10-01T17:37:40.2495009+02:00",
+    "Rank": 620,
+    "Type": "consequuntur",
+    "ColorBlock": 398,
+    "IconHint": "excepturi",
+    "Selected": false,
+    "LastChanged": "2001-04-25T11:22:46.1003835+02:00",
     "ChildItems": [
       {
-        "Id": 306,
-        "Name": "Heaney, Senger and Runolfsdottir",
-        "ToolTip": "Distinctio et.",
+        "Id": 15,
+        "Name": "Wintheiser Group",
+        "ToolTip": "Repellendus aut sed.",
         "Deleted": false,
-        "Rank": 614,
-        "Type": "suscipit",
-        "ColorBlock": 459,
-        "IconHint": "distinctio",
-        "Selected": true,
-        "LastChanged": "2015-03-14T17:37:40.2495009+01:00",
+        "Rank": 238,
+        "Type": "occaecati",
+        "ColorBlock": 215,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "2009-04-26T11:22:46.1003835+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Cyril Koch"
+        "StyleHint": "sequi",
+        "Hidden": true,
+        "FullName": "Mr. Alden Cade Ryan MD"
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Katelyn D'Amore"
+    "ExtraInfo": "ab",
+    "StyleHint": "modi",
+    "Hidden": true,
+    "FullName": "Chloe Tillman"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 643,
-    "Name": "Schaefer-Bailey",
-    "ToolTip": "Possimus unde quaerat voluptatibus totam.",
-    "Deleted": true,
-    "Rank": 822,
-    "Type": "enim",
-    "ColorBlock": 240,
-    "IconHint": "at",
+    "Id": 468,
+    "Name": "Kutch-Grant",
+    "ToolTip": "Incidunt et.",
+    "Deleted": false,
+    "Rank": 435,
+    "Type": "harum",
+    "ColorBlock": 233,
+    "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "2013-02-11T17:37:40.250503+01:00",
+    "LastChanged": "2016-01-21T11:22:46.1003835+01:00",
     "ChildItems": [
       {
-        "Id": 322,
-        "Name": "Marquardt LLC",
-        "ToolTip": "Natus doloremque eum.",
+        "Id": 798,
+        "Name": "Bechtelar-Doyle",
+        "ToolTip": "Voluptatem et consequuntur.",
         "Deleted": false,
-        "Rank": 904,
-        "Type": "aut",
-        "ColorBlock": 104,
-        "IconHint": "deleniti",
+        "Rank": 643,
+        "Type": "aliquid",
+        "ColorBlock": 85,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2016-04-17T17:37:40.250503+02:00",
+        "LastChanged": "2015-05-27T11:22:46.1003835+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Leanna Doyle",
+        "ExtraInfo": "est",
+        "StyleHint": "error",
+        "Hidden": true,
+        "FullName": "Ismael Grady",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 58
+            "FieldLength": 576
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "natus",
-    "Hidden": true,
-    "FullName": "Lois Paucek",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "fugit",
+    "Hidden": false,
+    "FullName": "Robbie Marvin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 209
+        "FieldType": "System.Int32",
+        "FieldLength": 519
       }
     }
   }

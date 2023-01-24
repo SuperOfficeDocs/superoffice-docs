@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 995,
-    "Name": "Maggio-Greenholt",
-    "Tooltip": "ut",
+    "HeadingId": 124,
+    "Name": "Mann, Skiles and Herman",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "Rank": 85,
-    "UdListDefinitionId": 829
+    "Rank": 680,
+    "UdListDefinitionId": 891
   },
   {
-    "HeadingId": 995,
-    "Name": "Maggio-Greenholt",
-    "Tooltip": "ut",
+    "HeadingId": 124,
+    "Name": "Mann, Skiles and Herman",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "Rank": 85,
-    "UdListDefinitionId": 829
+    "Rank": 680,
+    "UdListDefinitionId": 891
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 244,
-    "Name": "Feil-Flatley",
-    "Tooltip": "qui",
+    "HeadingId": 981,
+    "Name": "Rath-Turcotte",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 718,
-    "UdListDefinitionId": 844,
+    "Rank": 623,
+    "UdListDefinitionId": 426,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 551
+        "FieldLength": 627
       }
     }
   }

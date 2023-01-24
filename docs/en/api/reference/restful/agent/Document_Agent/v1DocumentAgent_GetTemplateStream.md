@@ -69,13 +69,13 @@ OK
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Streich Inc and Sons",
+  "TemplateName": "Bergnaum LLC",
   "AllowPersonal": false,
-  "UiCulture": "blanditiis"
+  "UiCulture": "aut"
 }
 ```
 

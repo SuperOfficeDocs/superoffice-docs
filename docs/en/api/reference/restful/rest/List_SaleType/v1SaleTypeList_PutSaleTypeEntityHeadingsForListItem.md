@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Hintz Inc and Sons",
-    "ToolTip": "Esse corrupti perferendis.",
+    "Id": 746,
+    "Name": "Koss Group",
+    "ToolTip": "Illo rerum.",
     "Deleted": true,
-    "Rank": 896,
-    "Type": "officiis",
-    "ColorBlock": 463,
-    "IconHint": "ratione",
+    "Rank": 970,
+    "Type": "voluptas",
+    "ColorBlock": 924,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2021-10-23T17:37:40.3465061+02:00",
+    "LastChanged": "2007-03-10T11:22:46.1784934+01:00",
     "ChildItems": [
       {
-        "Id": 371,
-        "Name": "Grant, Buckridge and Considine",
-        "ToolTip": "Molestias sed qui est et sit.",
+        "Id": 114,
+        "Name": "Morissette-Larson",
+        "ToolTip": "Ea eaque optio ratione reprehenderit aut corporis sunt.",
         "Deleted": true,
-        "Rank": 475,
-        "Type": "est",
-        "ColorBlock": 289,
-        "IconHint": "perferendis",
+        "Rank": 719,
+        "Type": "dicta",
+        "ColorBlock": 347,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2006-09-27T17:37:40.3465061+02:00",
+        "LastChanged": "2013-02-20T11:22:46.1784934+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "qui",
+        "ExtraInfo": "qui",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Nettie Satterfield"
+        "FullName": "Jadyn Ratke"
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "labore",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Yazmin Schroeder"
+    "FullName": "Alexzander Bode"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Name": "Mayer, Kohler and Cremin",
-    "ToolTip": "Vitae maxime quasi dolor optio.",
-    "Deleted": true,
-    "Rank": 749,
-    "Type": "fuga",
-    "ColorBlock": 866,
-    "IconHint": "sint",
+    "Id": 615,
+    "Name": "Adams-Schiller",
+    "ToolTip": "Eum tempore consequatur ipsa aut tenetur et.",
+    "Deleted": false,
+    "Rank": 543,
+    "Type": "vitae",
+    "ColorBlock": 372,
+    "IconHint": "voluptatibus",
     "Selected": false,
-    "LastChanged": "2015-02-07T17:37:40.3475064+01:00",
+    "LastChanged": "2013-08-01T11:22:46.1784934+02:00",
     "ChildItems": [
       {
-        "Id": 379,
-        "Name": "Lindgren, Beatty and Schneider",
-        "ToolTip": "Consequuntur quidem voluptates alias dicta debitis dolorem et.",
-        "Deleted": false,
-        "Rank": 89,
-        "Type": "consequuntur",
-        "ColorBlock": 53,
-        "IconHint": "dolore",
+        "Id": 491,
+        "Name": "White, Morar and Kihn",
+        "ToolTip": "Dolores iusto voluptatem mollitia.",
+        "Deleted": true,
+        "Rank": 303,
+        "Type": "qui",
+        "ColorBlock": 931,
+        "IconHint": "quas",
         "Selected": true,
-        "LastChanged": "2006-02-28T17:37:40.3485065+01:00",
+        "LastChanged": "2013-07-11T11:22:46.1784934+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "aliquam",
+        "ExtraInfo": "modi",
+        "StyleHint": "voluptatibus",
         "Hidden": true,
-        "FullName": "Rick Moen",
+        "FullName": "Carolyne Effertz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 498
+            "FieldLength": 746
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "unde",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Lorine DuBuque",
+    "FullName": "Shea Bode",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 944
+        "FieldLength": 425
       }
     }
   }

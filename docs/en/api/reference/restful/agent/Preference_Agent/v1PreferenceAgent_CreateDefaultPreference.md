@@ -77,22 +77,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sint",
+  "RawValue": "quas",
   "Specification": null,
-  "DisplayValue": "doloremque",
-  "DisplayTooltip": "nisi",
+  "DisplayValue": "eligendi",
+  "DisplayTooltip": "quibusdam",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 325,
-  "PrefDescId": 58,
-  "TableName": "Toy, O'Kon and Wehner",
-  "UserPreferenceId": 892,
+  "TargetId": 471,
+  "PrefDescId": 566,
+  "TableName": "Brown Group",
+  "UserPreferenceId": 531,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldType": "System.String",
+      "FieldLength": 141
     }
   }
 }

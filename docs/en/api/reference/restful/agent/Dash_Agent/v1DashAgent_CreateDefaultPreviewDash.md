@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,32 +70,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Daniel-Nader",
-  "Description": "Stand-alone logistical algorithm",
-  "OwnedByFullName": "Rogelio Blick",
-  "Registered": "2014-04-27T17:37:17.3682421+02:00",
+  "Name": "Klocko Inc and Sons",
+  "Description": "Compatible demand-driven software",
+  "OwnedByFullName": "Lavinia Bailey II",
+  "Registered": "2008-06-23T11:22:37.8054533+02:00",
   "Tiles": [
     {
-      "Name": "Nader-Gusikowski",
+      "Name": "Greenholt-DuBuque",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldLength": 237
         }
       }
     },
     {
-      "Name": "Nader-Gusikowski",
+      "Name": "Greenholt-DuBuque",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldLength": 237
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 573
     }
   }
 }

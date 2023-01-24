@@ -83,11 +83,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 432,
-  "Name": "Douglas-Gislason",
-  "Tooltip": "at",
-  "Rank": 15,
-  "Key": "officiis",
+  "LegalBaseId": 842,
+  "Name": "Heller-Leffler",
+  "Tooltip": "voluptate",
+  "Rank": 835,
+  "Key": "aperiam",
   "Deleted": false
 }
 ```
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 916,
-  "Name": "Sanford-Cassin",
-  "Tooltip": "quibusdam",
-  "Rank": 336,
-  "Key": "ut",
+  "LegalBaseId": 184,
+  "Name": "Ward Inc and Sons",
+  "Tooltip": "et",
+  "Rank": 949,
+  "Key": "culpa",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 680
+      "FieldType": "System.Int32",
+      "FieldLength": 541
     }
   }
 }

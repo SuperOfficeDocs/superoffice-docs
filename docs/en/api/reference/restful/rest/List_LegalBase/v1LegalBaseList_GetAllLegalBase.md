@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 380,
-    "Name": "Koss-Dare",
-    "Tooltip": "quasi",
-    "Rank": 8,
-    "Key": "eveniet",
-    "Deleted": true,
+    "LegalBaseId": 30,
+    "Name": "Ryan, Klocko and Kirlin",
+    "Tooltip": "qui",
+    "Rank": 403,
+    "Key": "rerum",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 338
+        "FieldType": "System.Int32",
+        "FieldLength": 521
       }
     }
   }

@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 904,
-  "StartDate": "2020-11-28T17:37:16.4162407+01:00",
-  "EndDate": "2021-10-12T17:37:16.4162407+02:00",
-  "RecurrenceCounter": 805,
+  "RecurrenceId": 67,
+  "StartDate": "2016-03-09T11:22:37.071254+01:00",
+  "EndDate": "2006-09-29T11:22:37.071254+02:00",
+  "RecurrenceCounter": 368,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,20 +110,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1996-07-17T17:37:16.4162407+02:00",
+      "Date": "2020-07-26T11:22:37.071254+02:00",
       "IsConflict": true,
-      "Description": "Centralized assymetric benchmark",
-      "DescriptionStyleHint": "Exclusive optimizing process improvement",
-      "Tooltip": "reprehenderit"
+      "Description": "Multi-lateral scalable superstructure",
+      "DescriptionStyleHint": "Enhanced needs-based Graphical User Interface",
+      "Tooltip": "aut"
     },
     {
-      "Date": "1996-07-17T17:37:16.4162407+02:00",
+      "Date": "2020-07-26T11:22:37.071254+02:00",
       "IsConflict": true,
-      "Description": "Centralized assymetric benchmark",
-      "DescriptionStyleHint": "Exclusive optimizing process improvement",
-      "Tooltip": "reprehenderit"
+      "Description": "Multi-lateral scalable superstructure",
+      "DescriptionStyleHint": "Enhanced needs-based Graphical User Interface",
+      "Tooltip": "aut"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 861,
-    "Name": "Bosco Group",
-    "Tooltip": "tenetur",
+    "HeadingId": 958,
+    "Name": "Raynor Inc and Sons",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "Rank": 210,
-    "UdListDefinitionId": 100
+    "Rank": 878,
+    "UdListDefinitionId": 995
   },
   {
-    "HeadingId": 861,
-    "Name": "Bosco Group",
-    "Tooltip": "tenetur",
+    "HeadingId": 958,
+    "Name": "Raynor Inc and Sons",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "Rank": 210,
-    "UdListDefinitionId": 100
+    "Rank": 878,
+    "UdListDefinitionId": 995
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 179,
-    "Name": "Mosciski, Feil and Berge",
-    "Tooltip": "optio",
-    "Deleted": false,
-    "Rank": 201,
-    "UdListDefinitionId": 135,
+    "HeadingId": 452,
+    "Name": "Feest LLC",
+    "Tooltip": "non",
+    "Deleted": true,
+    "Rank": 324,
+    "UdListDefinitionId": 918,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 79
+        "FieldType": "System.String",
+        "FieldLength": 620
       }
     }
   }

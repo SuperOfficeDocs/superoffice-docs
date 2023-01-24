@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Lindgren Inc and Sons",
-    "ToolTip": "Et est soluta.",
-    "Deleted": false,
-    "Rank": 94,
-    "Type": "aut",
-    "ColorBlock": 919,
-    "IconHint": "at",
+    "Id": 705,
+    "Name": "Braun, Krajcik and Kiehn",
+    "ToolTip": "Nihil laboriosam natus eos exercitationem dolor aliquid.",
+    "Deleted": true,
+    "Rank": 191,
+    "Type": "quia",
+    "ColorBlock": 292,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2011-05-21T17:37:40.0365028+02:00",
+    "LastChanged": "2012-01-25T11:22:45.9285426+01:00",
     "ChildItems": [
       {
-        "Id": 397,
-        "Name": "Block, Hoeger and Botsford",
-        "ToolTip": "Ex error voluptas nihil labore labore.",
+        "Id": 49,
+        "Name": "DuBuque Group",
+        "ToolTip": "Et consequatur alias dicta culpa.",
         "Deleted": false,
-        "Rank": 868,
-        "Type": "labore",
-        "ColorBlock": 950,
-        "IconHint": "cupiditate",
+        "Rank": 584,
+        "Type": "sapiente",
+        "ColorBlock": 612,
+        "IconHint": "vero",
         "Selected": true,
-        "LastChanged": "2006-09-05T17:37:40.0365028+02:00",
+        "LastChanged": "2018-06-28T11:22:45.9285426+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "at",
+        "ExtraInfo": "in",
+        "StyleHint": "corporis",
         "Hidden": true,
-        "FullName": "Mrs. Martina Littel IV",
+        "FullName": "Marlen Emmerich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 908
+            "FieldLength": 641
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "voluptate",
-    "Hidden": false,
-    "FullName": "Theresa Russel",
+    "ExtraInfo": "et",
+    "StyleHint": "distinctio",
+    "Hidden": true,
+    "FullName": "Ms. Marcelino Adam Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 465
       }
     }
   }

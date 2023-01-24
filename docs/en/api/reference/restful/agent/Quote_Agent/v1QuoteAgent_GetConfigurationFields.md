@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 768,
-  "ConnectorName": "Wintheiser, Kuhic and Dicki"
+  "ConnectionId": 364,
+  "ConnectorName": "Reynolds Inc and Sons"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "sunt",
-    "Rank": 394,
-    "DisplayName": "Hodkiewicz, McGlynn and Schaefer",
-    "DisplayDescription": "Versatile content-based success",
+    "FieldKey": "in",
+    "Rank": 62,
+    "DisplayName": "Corkery Inc and Sons",
+    "DisplayDescription": "Robust upward-trending leverage",
     "FieldType": "Checkbox",
-    "ListName": "Jakubowski LLC",
-    "DefaultValue": "est",
-    "MaxLength": 47,
+    "ListName": "Robel-Boyle",
+    "DefaultValue": "deleniti",
+    "MaxLength": 811,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldType": "System.String",
+        "FieldLength": 308
       }
     }
   }

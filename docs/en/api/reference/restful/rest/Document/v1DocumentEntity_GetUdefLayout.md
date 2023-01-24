@@ -89,7 +89,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 618,
-    "ColumnId": 195,
-    "FieldDefault": "a",
-    "FieldHeight": 486,
-    "FieldLabel": "nam",
-    "FieldLeft": 429,
-    "FieldTop": 742,
+    "UDefFieldId": 935,
+    "ColumnId": 461,
+    "FieldDefault": "id",
+    "FieldHeight": 843,
+    "FieldLabel": "enim",
+    "FieldLeft": 8,
+    "FieldTop": 440,
     "FieldType": "Checkbox",
-    "FieldWidth": 996,
-    "FormatMask": "et",
+    "FieldWidth": 975,
+    "FormatMask": "voluptas",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 332,
-    "LabelLeft": 587,
-    "LabelTop": 675,
-    "LabelWidth": 18,
-    "LastVersionId": 549,
-    "ListTableId": 680,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 499,
+    "LabelLeft": 497,
+    "LabelTop": 646,
+    "LabelWidth": 814,
+    "LastVersionId": 564,
+    "ListTableId": 373,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 551,
-    "ProgId": "ducimus",
+    "Page1LineNo": 826,
+    "ProgId": "nihil",
     "IsReadOnly": false,
-    "ShortLabel": "debitis",
-    "TabOrder": 960,
-    "TextLength": 797,
-    "Tooltip": "facere",
-    "UdefIdentity": 525,
-    "UDListDefinitionId": 782,
+    "ShortLabel": "voluptatibus",
+    "TabOrder": 910,
+    "TextLength": 574,
+    "Tooltip": "maiores",
+    "UdefIdentity": 282,
+    "UDListDefinitionId": 119,
     "Justification": "Center",
-    "Version": 554,
-    "TemplateVariableName": "Cormier-McClure",
+    "Version": 912,
+    "TemplateVariableName": "Jenkins, Bayer and Ward",
     "HasBeenPublished": false,
-    "MdoListName": "Towne, Wyman and Tromp",
+    "MdoListName": "Grant-Prohaska",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldType": "System.String",
+        "FieldLength": 869
       }
     }
   }

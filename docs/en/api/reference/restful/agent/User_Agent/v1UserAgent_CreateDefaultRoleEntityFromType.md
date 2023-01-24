@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,16 +103,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 883,
-  "Name": "Bogan, Little and Kihn",
-  "Tooltip": "praesentium",
+  "RoleId": 263,
+  "Name": "Leffler Group",
+  "Tooltip": "debitis",
   "RoleType": "Anonymous",
-  "Deleted": 837,
-  "Rank": 231,
-  "Created": "2003-08-20T17:37:19.5529764+02:00",
-  "UseCategories": 832,
+  "Deleted": 105,
+  "Rank": 70,
+  "Created": "2002-08-30T11:22:39.6331547+02:00",
+  "UseCategories": 269,
   "CreatedBy": null,
-  "Updated": "2004-04-02T17:37:19.5539762+02:00",
+  "Updated": "2000-05-11T11:22:39.6331547+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldLength": 659
     }
   }
 }

@@ -98,16 +98,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 916,
+  "PersonId": 754,
   "IncludeProjectDocuments": false,
-  "StartTime": "2005-03-02T17:37:17.4392427+01:00",
-  "EndTime": "2000-02-22T17:37:17.4392427+01:00",
-  "Count": 111,
-  "DocumentTemplateId": 210
+  "StartTime": "2005-07-12T11:22:37.8523182+02:00",
+  "EndTime": "2019-04-18T11:22:37.8523182+02:00",
+  "Count": 51,
+  "DocumentTemplateId": 479
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 976,
-    "Attention": "modi",
-    "Header": "sed",
-    "Name": "Torp, O'Connell and Sawayn",
-    "OurRef": "magni",
-    "YourRef": "non",
-    "Description": "Up-sized optimal paradigm",
-    "DocumentTemplate": "provident",
+    "DocumentId": 174,
+    "Attention": "nostrum",
+    "Header": "doloremque",
+    "Name": "Nikolaus, VonRueden and Bahringer",
+    "OurRef": "laborum",
+    "YourRef": "reiciendis",
+    "Description": "Customizable bandwidth-monitored focus group",
+    "DocumentTemplate": "adipisci",
     "IsPublished": false,
-    "PersonId": 559,
-    "PersonFullName": "Waylon Osinski I",
-    "AssociateFullName": "Porter Mayert",
-    "ContactId": 237,
-    "ContactName": "Schamberger Group",
-    "ProjectId": 43,
-    "ProjectName": "Reichel-Daniel",
-    "AssociateId": 621,
-    "Snum": 268,
-    "SaleId": 501,
-    "SaleName": "Walsh-Osinski",
+    "PersonId": 495,
+    "PersonFullName": "Keyshawn Gorczany",
+    "AssociateFullName": "Hettie Robel",
+    "ContactId": 303,
+    "ContactName": "Bartoletti Inc and Sons",
+    "ProjectId": 58,
+    "ProjectName": "Schumm Inc and Sons",
+    "AssociateId": 714,
+    "Snum": 979,
+    "SaleId": 377,
+    "SaleName": "Bosco Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 426
+        "FieldType": "System.Int32",
+        "FieldLength": 119
       }
     }
   }

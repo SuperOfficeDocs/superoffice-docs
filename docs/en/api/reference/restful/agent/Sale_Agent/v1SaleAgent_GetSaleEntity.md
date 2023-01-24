@@ -25,7 +25,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=115
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=479
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "dignissimos",
+  "SaleText": "molestiae",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -134,113 +134,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-09-22T17:37:18.8772416+02:00",
-  "Amount": 10665.002,
-  "SaleId": 890,
-  "Earning": 29403.188,
-  "EarningPercent": 15375.403999999999,
-  "Heading": "alias",
-  "Number": "548130",
-  "Probability": 15,
-  "CreatedDate": "2016-10-05T17:37:18.8772416+02:00",
-  "UpdatedDate": "2003-03-12T17:37:18.8772416+01:00",
+  "Saledate": "1997-12-27T11:22:39.2269448+01:00",
+  "Amount": 4365.662,
+  "SaleId": 122,
+  "Earning": 14068.526,
+  "EarningPercent": 22530.326,
+  "Heading": "eos",
+  "Number": "829565",
+  "Probability": 622,
+  "CreatedDate": "2009-07-31T11:22:39.2269448+02:00",
+  "UpdatedDate": "2001-03-24T11:22:39.2269448+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 43,
+  "ActiveLinks": 674,
   "Links": [
     {
-      "EntityName": "Parisian, Ullrich and Moore",
-      "Id": 737,
-      "Description": "Robust 4th generation complexity",
-      "ExtraInfo": "quae",
-      "LinkId": 23,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 332
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2002-11-26T17:37:18.8772416+01:00",
-  "Postit": "dolorum",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2020-11-03T17:37:18.8782418+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "O'Kon Group",
-      "Comment": "deserunt",
-      "StakeholderRoleId": 597,
-      "CountryId": 769,
-      "PersonId": 389,
-      "EmailDescription": "jerel@bailey.us",
-      "EmailId": 102,
-      "EmailAddress": "halie@olson.name",
-      "PhoneId": 735,
-      "ContactName": "Windler, Fay and Thompson",
-      "ContactId": 674,
-      "SaleId": 221,
-      "Mrmrs": "labore",
-      "Firstname": "Janessa",
-      "MiddleName": "Yost Group",
-      "Lastname": "Konopelski",
-      "SaleStakeholderId": 597,
-      "Rank": 868,
-      "Phone": "1-704-458-0218 x6391",
+      "EntityName": "Heidenreich-Pouros",
+      "Id": 341,
+      "Description": "Networked discrete analyzer",
+      "ExtraInfo": "unde",
+      "LinkId": 130,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 910
+          "FieldLength": 961
         }
       }
     }
   ],
-  "ActiveErpLinks": 146,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1927085106"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "odit",
-    "ExtraFields2": "quo"
-  },
-  "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "sit"
-  },
-  "PublishEventDate": "2015-05-21T17:37:18.8782418+02:00",
-  "PublishTo": "2016-06-22T17:37:18.8782418+02:00",
-  "PublishFrom": "2021-08-08T17:37:18.8782418+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
+  "NextDueDate": "1997-04-18T11:22:39.2269448+02:00",
+  "Postit": "commodi",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2015-12-28T11:22:39.2269448+01:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 590,
-      "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "StakeholderRoleName": "Koch Inc and Sons",
+      "Comment": "illum",
+      "StakeholderRoleId": 807,
+      "CountryId": 190,
+      "PersonId": 755,
+      "EmailDescription": "melissa_goldner@tremblay.com",
+      "EmailId": 979,
+      "EmailAddress": "kaleigh_parisian@schimmellynch.uk",
+      "PhoneId": 911,
+      "ContactName": "Roob-DuBuque",
+      "ContactId": 240,
+      "SaleId": 656,
+      "Mrmrs": "quo",
+      "Firstname": "Lyric",
+      "MiddleName": "Schinner, Balistreri and Bernhard",
+      "Lastname": "Osinski",
+      "SaleStakeholderId": 999,
+      "Rank": 314,
+      "Phone": "119.853.4747 x25357",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 958
+          "FieldType": "System.Int32",
+          "FieldLength": 284
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 410,
+  "UserDefinedFields": {
+    "SuperOffice:1": "678217013",
+    "SuperOffice:2": "Layla McCullough"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "commodi"
+  },
+  "CustomFields": {
+    "CustomFields1": "eum",
+    "CustomFields2": "quidem"
+  },
+  "PublishEventDate": "2019-05-05T11:22:39.2269448+02:00",
+  "PublishTo": "2003-11-16T11:22:39.2269448+01:00",
+  "PublishFrom": "2011-07-17T11:22:39.2269448+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 963,
+      "Visibility": "All",
+      "DisplayValue": "minus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 754
         }
       }
     },
     {
-      "VisibleId": 590,
+      "VisibleId": 963,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 958
+          "FieldType": "System.Int32",
+          "FieldLength": 754
         }
       }
     }
@@ -249,8 +249,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 643
     }
   }
 }

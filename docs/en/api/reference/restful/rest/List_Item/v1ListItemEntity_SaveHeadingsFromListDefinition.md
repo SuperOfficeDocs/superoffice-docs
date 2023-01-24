@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 365,
-    "Name": "Mosciski-Jaskolski",
-    "Tooltip": "nemo",
+    "HeadingId": 301,
+    "Name": "Tromp, Halvorson and Daugherty",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 60,
-    "UdListDefinitionId": 479
+    "Rank": 616,
+    "UdListDefinitionId": 101
   },
   {
-    "HeadingId": 365,
-    "Name": "Mosciski-Jaskolski",
-    "Tooltip": "nemo",
+    "HeadingId": 301,
+    "Name": "Tromp, Halvorson and Daugherty",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 60,
-    "UdListDefinitionId": 479
+    "Rank": 616,
+    "UdListDefinitionId": 101
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 300,
-    "Name": "Swift Group",
-    "Tooltip": "nulla",
+    "HeadingId": 528,
+    "Name": "Corkery-Kirlin",
+    "Tooltip": "placeat",
     "Deleted": false,
-    "Rank": 704,
-    "UdListDefinitionId": 529,
+    "Rank": 302,
+    "UdListDefinitionId": 448,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldLength": 278
       }
     }
   }

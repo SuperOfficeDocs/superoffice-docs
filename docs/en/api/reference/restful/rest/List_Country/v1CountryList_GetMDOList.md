@@ -26,7 +26,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=vel
+GET /api/v1/List/Country/MDOItems?query=hic
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 35,
-    "Name": "Altenwerth, Emmerich and Reichert",
-    "ToolTip": "Quod quasi laboriosam.",
+    "Id": 782,
+    "Name": "Roberts-Kuphal",
+    "ToolTip": "Ad ea corrupti harum dolore sunt.",
     "Deleted": true,
-    "Rank": 56,
-    "Type": "laboriosam",
+    "Rank": 367,
+    "Type": "repellendus",
     "ChildItems": [
       {
-        "Id": 133,
-        "Name": "Becker-Runolfsson",
-        "ToolTip": "Voluptatem aspernatur ut hic alias.",
+        "Id": 832,
+        "Name": "Homenick, Wunsch and Monahan",
+        "ToolTip": "Qui ut.",
         "Deleted": false,
-        "Rank": 640,
-        "Type": "deserunt",
+        "Rank": 717,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dicta",
-        "ColorBlock": 915,
-        "ExtraInfo": "aut",
-        "StyleHint": "doloribus",
-        "FullName": "Prof. Gracie Deckow",
+        "IconHint": "dolor",
+        "ColorBlock": 119,
+        "ExtraInfo": "id",
+        "StyleHint": "autem",
+        "FullName": "Heaven Gorczany",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 363
+            "FieldLength": 829
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 99,
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "consequatur",
-    "FullName": "Prof. Brad Ruben Farrell DVM",
+    "IconHint": "vero",
+    "ColorBlock": 666,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "ullam",
+    "FullName": "Ms. Neil Kuhlman III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldLength": 907
       }
     }
   }

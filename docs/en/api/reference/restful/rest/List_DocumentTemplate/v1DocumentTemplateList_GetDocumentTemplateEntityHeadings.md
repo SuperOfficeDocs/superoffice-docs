@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 158,
-    "Name": "Kerluke-Kutch",
-    "Tooltip": "qui",
+    "HeadingId": 646,
+    "Name": "Effertz-Jenkins",
+    "Tooltip": "eos",
     "Deleted": true,
-    "Rank": 892,
-    "UdListDefinitionId": 151,
+    "Rank": 801,
+    "UdListDefinitionId": 108,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 624
+        "FieldLength": 318
       }
     }
   }

@@ -65,16 +65,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Watsica, Flatley and Schmitt",
+  "TableName": "Hermann, Wolf and Gerlach",
   "RecordIds": [
-    642,
-    548
+    17,
+    436
   ],
-  "AssociateId": 585
+  "AssociateId": 379
 }
 ```
 

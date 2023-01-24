@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 922,
-    "Name": "Murphy, Quitzon and Jones",
-    "ToolTip": "Sequi reiciendis occaecati quaerat cum dolor mollitia.",
+    "Id": 49,
+    "Name": "Grady, Metz and Conn",
+    "ToolTip": "Nihil aut facere molestias.",
     "Deleted": false,
-    "Rank": 989,
-    "Type": "dicta",
-    "ColorBlock": 579,
-    "IconHint": "velit",
+    "Rank": 209,
+    "Type": "a",
+    "ColorBlock": 974,
+    "IconHint": "autem",
     "Selected": true,
-    "LastChanged": "2010-07-15T17:37:40.0914714+02:00",
+    "LastChanged": "2016-01-13T11:22:45.9754127+01:00",
     "ChildItems": [
       {
-        "Id": 560,
-        "Name": "Swaniawski, Hagenes and Muller",
-        "ToolTip": "Dolores aut itaque ut.",
+        "Id": 171,
+        "Name": "Franecki, Fahey and Maggio",
+        "ToolTip": "Non nisi.",
         "Deleted": false,
-        "Rank": 142,
-        "Type": "voluptas",
-        "ColorBlock": 198,
-        "IconHint": "eum",
+        "Rank": 862,
+        "Type": "laborum",
+        "ColorBlock": 361,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "1995-11-08T17:37:40.0924994+01:00",
+        "LastChanged": "2011-09-02T11:22:45.9754127+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "iste",
+        "ExtraInfo": "ullam",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Carson Ena Feil DVM",
+        "FullName": "Karelle Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 976
+            "FieldLength": 717
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "laborum",
-    "Hidden": false,
-    "FullName": "Miss Jovan Kshlerin",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "facere",
+    "Hidden": true,
+    "FullName": "Dr. Elisa Ralph Braun",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 875
+        "FieldType": "System.Int32",
+        "FieldLength": 177
       }
     }
   }

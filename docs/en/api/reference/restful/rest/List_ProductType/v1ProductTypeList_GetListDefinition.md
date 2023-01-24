@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 76,
-  "Name": "Parisian-Harvey",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "Rank": 342,
+  "Id": 280,
+  "Name": "Wolff LLC",
+  "Tooltip": "harum",
+  "Deleted": true,
+  "Rank": 107,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldType": "System.String",
+      "FieldLength": 406
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

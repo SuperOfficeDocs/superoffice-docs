@@ -70,14 +70,14 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "deleniti",
+  "CRMScriptUniqueId": "magni",
   "Parameters": {
-    "Parameters1": "esse",
-    "Parameters2": "dolorem"
+    "Parameters1": "necessitatibus",
+    "Parameters2": "qui"
   }
 }
 ```

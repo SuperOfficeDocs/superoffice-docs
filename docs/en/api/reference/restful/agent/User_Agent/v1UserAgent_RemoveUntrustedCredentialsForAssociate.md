@@ -71,9 +71,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 319,
-  "Type": "quis",
-  "PublicValue": "provident"
+  "AssociateId": 673,
+  "Type": "eaque",
+  "PublicValue": "modi"
 }
 ```
 

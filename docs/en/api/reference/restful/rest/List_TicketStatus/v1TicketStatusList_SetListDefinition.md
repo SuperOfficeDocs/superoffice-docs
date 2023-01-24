@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 820,
-  "Name": "Botsford-Wisozk",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 553,
+  "Id": 324,
+  "Name": "Cormier-Gulgowski",
+  "Tooltip": "saepe",
+  "Deleted": true,
+  "Rank": 878,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "inventore",
+  "UseGroupsAndHeadings": false,
+  "ListType": "totam",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 125,
-  "Name": "Schowalter Group",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "Rank": 814,
+  "Id": 157,
+  "Name": "Cruickshank Group",
+  "Tooltip": "quaerat",
+  "Deleted": true,
+  "Rank": 794,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "ListType": "cum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 166
     }
   }
 }

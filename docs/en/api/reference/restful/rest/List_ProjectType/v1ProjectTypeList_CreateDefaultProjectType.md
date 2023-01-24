@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 82,
-  "Name": "Grimes-Nitzsche",
-  "Tooltip": "ad",
+  "Id": 479,
+  "Name": "Bruen Group",
+  "Tooltip": "nesciunt",
   "Deleted": true,
-  "UdListDefinitionId": 107,
-  "Rank": 985,
+  "UdListDefinitionId": 398,
+  "Rank": 723,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldType": "System.Int32",
+      "FieldLength": 259
     }
   }
 }

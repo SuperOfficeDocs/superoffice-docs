@@ -72,15 +72,15 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 973,
-  "DashboardId": 620,
-  "Height": 781,
-  "Width": 178,
-  "Rank": 999,
+  "DashboardTileId": 649,
+  "DashboardId": 71,
+  "Height": 790,
+  "Width": 36,
+  "Rank": 552,
   "DashTileDefinition": null
 }
 ```
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 492,
-  "DashboardId": 53,
-  "Height": 437,
-  "Width": 112,
-  "Rank": 665,
+  "DashboardTileId": 731,
+  "DashboardId": 981,
+  "Height": 154,
+  "Width": 990,
+  "Rank": 593,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 749
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   }
 }

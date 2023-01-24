@@ -64,34 +64,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 922,
+  "ProjectEntityId": 259,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 574,
-      "ContactId": 421,
-      "ProjectId": 108,
-      "ContactName": "Davis Inc and Sons",
+      "ProjectmemberId": 314,
+      "ContactId": 161,
+      "ProjectId": 945,
+      "ContactName": "Hudson Group",
       "ContactDepartment": "",
-      "ProjectName": "Hackett-Larkin",
-      "EmailId": 839,
-      "EmailAddress": "eloise.hartmann@toy.ca",
-      "CountryId": 600,
-      "Firstname": "Elsie",
-      "MiddleName": "Schmitt, Bauch and Labadie",
-      "Lastname": "Mante",
-      "PersonId": 761,
-      "Mrmrs": "vitae",
-      "ProjectMemberTypeName": "Kuhic-Ondricka",
-      "Phone": "900-541-7614",
-      "PhoneId": 523,
-      "ProjectMemberTypeId": 149,
-      "EmailAddressName": "jordyn@torp.com",
-      "Comment": "accusantium",
-      "FullName": "Mrs. Alana Moen II"
+      "ProjectName": "Gutkowski LLC",
+      "EmailId": 735,
+      "EmailAddress": "briana.hartmann@kub.name",
+      "CountryId": 440,
+      "Firstname": "Kelsi",
+      "MiddleName": "Murphy-King",
+      "Lastname": "Roob",
+      "PersonId": 866,
+      "Mrmrs": "possimus",
+      "ProjectMemberTypeName": "Brown, Rolfson and Roberts",
+      "Phone": "1-190-047-0197",
+      "PhoneId": 159,
+      "ProjectMemberTypeId": 363,
+      "EmailAddressName": "coralie@king.info",
+      "Comment": "sit",
+      "FullName": "Mr. Sabryna Haley III"
     }
   ]
 }

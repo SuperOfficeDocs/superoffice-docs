@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 737,
-  "Count": 601
+  "WeightedAmountLimit": 876,
+  "Count": 655
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Rath, Bernier and McKenzie",
-    "SaleDate": "2000-01-29T17:37:18.8882422+01:00",
-    "SaleId": 565,
-    "Probability": 89,
-    "Title": "iusto",
-    "Amount": 18669.238,
-    "Currency": "dolore",
-    "ProjectName": "Veum-Schumm",
-    "AssociateFullName": "Aurelio Turcotte",
-    "Description": "Synergistic attitude-oriented orchestration",
+    "ContactName": "Ratke, Herzog and Kulas",
+    "SaleDate": "2005-11-30T11:22:39.2425669+01:00",
+    "SaleId": 430,
+    "Probability": 328,
+    "Title": "labore",
+    "Amount": 15789.091999999999,
+    "Currency": "consequatur",
+    "ProjectName": "Vandervort-Greenfelder",
+    "AssociateFullName": "Emma Naomi Goldner MD",
+    "Description": "Ameliorated 24/7 software",
     "Status": "Lost",
-    "WeightedAmount": 10361.003999999999,
-    "ProjectId": 814,
-    "EarningPercent": 12852.534,
-    "Earning": 18901.154,
-    "ContactId": 295,
-    "AssociateId": 573,
-    "PersonId": 489,
-    "SaleTypeId": 886,
-    "SaleTypeName": "Breitenberg-Reilly",
-    "PersonFullName": "Prof. Julia O'Hara I",
+    "WeightedAmount": 22398.698,
+    "ProjectId": 555,
+    "EarningPercent": 871.252,
+    "Earning": 31042.27,
+    "ContactId": 683,
+    "AssociateId": 218,
+    "PersonId": 554,
+    "SaleTypeId": 186,
+    "SaleTypeName": "Lemke-Leannon",
+    "PersonFullName": "Alvah Monahan",
     "Completed": "Completed",
-    "ActiveErpLinks": 364,
-    "NextDueDate": "2003-07-12T17:37:18.8882422+02:00",
-    "Number": "407218",
+    "ActiveErpLinks": 908,
+    "NextDueDate": "2016-03-07T11:22:39.2425669+01:00",
+    "Number": "1401333",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldType": "System.Int32",
+        "FieldLength": 599
       }
     }
   }

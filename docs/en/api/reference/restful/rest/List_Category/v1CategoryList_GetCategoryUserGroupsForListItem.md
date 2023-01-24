@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Reynolds, McDermott and Prosacco",
-    "ToolTip": "Sit labore totam ut qui.",
-    "Deleted": false,
-    "Rank": 866,
-    "Type": "quas",
-    "ColorBlock": 301,
-    "IconHint": "mollitia",
-    "Selected": false,
-    "LastChanged": "1997-11-10T17:37:39.6754355+01:00",
+    "Id": 635,
+    "Name": "Zieme Inc and Sons",
+    "ToolTip": "Neque eligendi.",
+    "Deleted": true,
+    "Rank": 6,
+    "Type": "optio",
+    "ColorBlock": 298,
+    "IconHint": "blanditiis",
+    "Selected": true,
+    "LastChanged": "2004-04-17T11:22:45.7879071+02:00",
     "ChildItems": [
       {
-        "Id": 177,
-        "Name": "Torp-O'Kon",
-        "ToolTip": "Modi porro itaque voluptatem et.",
-        "Deleted": false,
-        "Rank": 733,
-        "Type": "est",
-        "ColorBlock": 658,
-        "IconHint": "ipsam",
-        "Selected": false,
-        "LastChanged": "2020-08-09T17:37:39.6754355+02:00",
+        "Id": 667,
+        "Name": "Schumm Group",
+        "ToolTip": "Fugit et ducimus nobis.",
+        "Deleted": true,
+        "Rank": 954,
+        "Type": "consequuntur",
+        "ColorBlock": 660,
+        "IconHint": "assumenda",
+        "Selected": true,
+        "LastChanged": "2020-09-12T11:22:45.7879071+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "dolores",
+        "ExtraInfo": "quam",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Ms. Zachery Willis Lueilwitz",
+        "FullName": "Jerad Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 673
+            "FieldType": "System.String",
+            "FieldLength": 875
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "qui",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Miss Cloyd Marlee Rippin",
+    "FullName": "Isabella Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 922
+        "FieldLength": 820
       }
     }
   }

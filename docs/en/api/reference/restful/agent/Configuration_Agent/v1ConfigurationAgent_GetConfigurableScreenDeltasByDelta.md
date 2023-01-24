@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 777,
-    "Name": "Herzog-Johnston",
-    "Description": "De-engineered leading edge firmware",
-    "DeltaJson": "labore",
+    "ConfigurableScreenDeltaId": 999,
+    "Name": "Considine, Metz and Flatley",
+    "Description": "Monitored exuding matrix",
+    "DeltaJson": "rem",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "tenetur",
-    "UpdatedDate": "1995-11-10T17:37:17.1252447+01:00",
-    "CreatedDate": "2001-09-17T17:37:17.1252447+02:00",
+    "RecipeId": "sed",
+    "UpdatedDate": "2011-09-17T11:22:37.6179991+02:00",
+    "CreatedDate": "2007-11-19T11:22:37.6179991+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      738,
-      548
+      578,
+      923
     ],
-    "AppliesToKey": "aut",
+    "AppliesToKey": "inventore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldLength": 857
       }
     }
   }

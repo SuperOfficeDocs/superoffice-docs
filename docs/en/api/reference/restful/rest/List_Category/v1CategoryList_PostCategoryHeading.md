@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 773,
-  "Name": "Weissnat-Collier",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "Rank": 271,
-  "UdListDefinitionId": 420
+  "HeadingId": 513,
+  "Name": "Upton-Kihn",
+  "Tooltip": "reiciendis",
+  "Deleted": true,
+  "Rank": 488,
+  "UdListDefinitionId": 237
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 358,
-  "Name": "Spinka, Schumm and Parisian",
-  "Tooltip": "et",
+  "HeadingId": 536,
+  "Name": "Hermiston Inc and Sons",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 232,
-  "UdListDefinitionId": 287,
+  "Rank": 141,
+  "UdListDefinitionId": 785,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 206
     }
   }
 }

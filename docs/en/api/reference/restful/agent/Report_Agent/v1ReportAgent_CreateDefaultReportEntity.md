@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 254,
+  "ReportId": 143,
   "ReportCategory": "All",
-  "Description": "Progressive fresh-thinking time-frame",
+  "Description": "Advanced contextually-based projection",
   "ReportLayout": "CalendarMonth",
-  "Name": "Simonis, Hahn and Kreiger",
-  "AssociateId": 877,
-  "TemplateId": 569,
+  "Name": "Johnston, Gutmann and Greenfelder",
+  "AssociateId": 510,
+  "TemplateId": 771,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 867
+      "FieldLength": 133
     }
   }
 }

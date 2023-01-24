@@ -84,7 +84,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 452,
-  "Name": "Mohr LLC",
-  "OrgNr": "716539",
+  "ContactId": 377,
+  "Name": "Schowalter-Padberg",
+  "OrgNr": "1278618",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "quas",
-  "DirectPhone": "(545)924-5590",
-  "AssociateId": 880,
-  "CountryId": 692,
-  "EmailAddress": "tessie@jast.co.uk",
-  "Kananame": "facere",
-  "EmailAddressName": "sonny@mcculloughgrady.name",
+  "City": "nesciunt",
+  "DirectPhone": "1-316-615-3206",
+  "AssociateId": 911,
+  "CountryId": 381,
+  "EmailAddress": "briana@jewess.co.uk",
+  "Kananame": "porro",
+  "EmailAddressName": "annabel@kovacek.us",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Adelia Streich",
+  "AssociateFullName": "Prof. Claire Cronin DVM",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "sed",
-  "FullName": "Alexis Beier",
+  "FormattedAddress": "et",
+  "FullName": "Dr. Santina Brakus",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 775,
-  "Number1": "1584455",
-  "Number2": "855698",
+  "ActiveErpLinks": 617,
+  "Number1": "1473342",
+  "Number2": "1351523",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldType": "System.String",
+      "FieldLength": 849
     }
   }
 }

@@ -72,25 +72,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mills LLC",
-    "Description": "Enhanced client-server open architecture",
-    "Rank": 504,
+    "Name": "Stracke, Greenfelder and Jacobi",
+    "Description": "Distributed high-level task-force",
+    "Rank": 409,
     "Restrictions": [
       {
-        "Name": "Turner LLC",
-        "Operator": "nesciunt",
+        "Name": "Braun-Hoeger",
+        "Operator": "harum",
         "Values": [
-          "sed",
-          "sit"
+          "accusantium",
+          "autem"
         ],
         "DisplayValues": [
-          "quo",
-          "explicabo"
+          "cupiditate",
+          "aliquid"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -98,27 +98,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 147,
+        "InterParenthesis": 888,
         "InterOperator": "And",
-        "UniqueHash": 30
+        "UniqueHash": 844
       }
     ]
   },
   {
-    "Name": "Mills LLC",
-    "Description": "Enhanced client-server open architecture",
-    "Rank": 504,
+    "Name": "Stracke, Greenfelder and Jacobi",
+    "Description": "Distributed high-level task-force",
+    "Rank": 409,
     "Restrictions": [
       {
-        "Name": "Turner LLC",
-        "Operator": "nesciunt",
+        "Name": "Braun-Hoeger",
+        "Operator": "harum",
         "Values": [
-          "sed",
-          "sit"
+          "accusantium",
+          "autem"
         ],
         "DisplayValues": [
-          "quo",
-          "explicabo"
+          "cupiditate",
+          "aliquid"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -126,9 +126,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 147,
+        "InterParenthesis": 888,
         "InterOperator": "And",
-        "UniqueHash": 30
+        "UniqueHash": 844
       }
     ]
   }
@@ -143,20 +143,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Johns, Stanton and Carroll",
-    "Description": "Optimized empowering benchmark",
-    "Rank": 827,
+    "Name": "Lowe, Thiel and Kling",
+    "Description": "Open-source tangible monitoring",
+    "Rank": 201,
     "Restrictions": [
       {
-        "Name": "Keeling-Dietrich",
-        "Operator": "sint",
+        "Name": "Larson, Gutmann and Haley",
+        "Operator": "aut",
         "Values": [
-          "et",
-          "enim"
+          "sed",
+          "itaque"
         ],
         "DisplayValues": [
           "ut",
-          "neque"
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -164,27 +164,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 995,
+        "InterParenthesis": 540,
         "InterOperator": "And",
-        "UniqueHash": 410
+        "UniqueHash": 943
       }
     ]
   },
   {
-    "Name": "Johns, Stanton and Carroll",
-    "Description": "Optimized empowering benchmark",
-    "Rank": 827,
+    "Name": "Lowe, Thiel and Kling",
+    "Description": "Open-source tangible monitoring",
+    "Rank": 201,
     "Restrictions": [
       {
-        "Name": "Keeling-Dietrich",
-        "Operator": "sint",
+        "Name": "Larson, Gutmann and Haley",
+        "Operator": "aut",
         "Values": [
-          "et",
-          "enim"
+          "sed",
+          "itaque"
         ],
         "DisplayValues": [
           "ut",
-          "neque"
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -192,9 +192,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 995,
+        "InterParenthesis": 540,
         "InterOperator": "And",
-        "UniqueHash": 410
+        "UniqueHash": 943
       }
     ]
   }

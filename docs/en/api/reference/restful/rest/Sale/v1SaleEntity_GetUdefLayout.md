@@ -89,7 +89,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 755,
-    "ColumnId": 202,
-    "FieldDefault": "porro",
-    "FieldHeight": 495,
-    "FieldLabel": "voluptas",
-    "FieldLeft": 603,
-    "FieldTop": 558,
+    "UDefFieldId": 463,
+    "ColumnId": 2,
+    "FieldDefault": "quibusdam",
+    "FieldHeight": 343,
+    "FieldLabel": "ipsam",
+    "FieldLeft": 993,
+    "FieldTop": 772,
     "FieldType": "Checkbox",
-    "FieldWidth": 271,
-    "FormatMask": "deleniti",
+    "FieldWidth": 738,
+    "FormatMask": "sint",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 454,
-    "LabelLeft": 575,
-    "LabelTop": 264,
-    "LabelWidth": 429,
-    "LastVersionId": 978,
-    "ListTableId": 982,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "LabelHeight": 123,
+    "LabelLeft": 922,
+    "LabelTop": 231,
+    "LabelWidth": 420,
+    "LastVersionId": 660,
+    "ListTableId": 490,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 11,
-    "ProgId": "consequuntur",
-    "IsReadOnly": false,
-    "ShortLabel": "esse",
-    "TabOrder": 351,
-    "TextLength": 803,
-    "Tooltip": "consectetur",
-    "UdefIdentity": 568,
-    "UDListDefinitionId": 119,
+    "Page1LineNo": 928,
+    "ProgId": "facilis",
+    "IsReadOnly": true,
+    "ShortLabel": "eveniet",
+    "TabOrder": 676,
+    "TextLength": 614,
+    "Tooltip": "cupiditate",
+    "UdefIdentity": 847,
+    "UDListDefinitionId": 306,
     "Justification": "Center",
-    "Version": 197,
-    "TemplateVariableName": "Huel LLC",
+    "Version": 814,
+    "TemplateVariableName": "McGlynn, Schinner and Volkman",
     "HasBeenPublished": false,
-    "MdoListName": "Dickens-Abbott",
+    "MdoListName": "Prohaska-Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 746
+        "FieldType": "System.String",
+        "FieldLength": 491
       }
     }
   }

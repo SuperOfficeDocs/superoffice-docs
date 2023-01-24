@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 813,
-    "Name": "Rowe, Marvin and Emard",
-    "ToolTip": "Minus quisquam ratione veritatis omnis blanditiis ea qui.",
-    "Deleted": false,
-    "Rank": 903,
-    "Type": "sunt",
-    "ColorBlock": 219,
-    "IconHint": "fugiat",
-    "Selected": true,
-    "LastChanged": "2014-10-01T17:37:40.1844706+02:00",
+    "Id": 800,
+    "Name": "Koepp-Hoeger",
+    "ToolTip": "Sunt modi corrupti est ut possimus.",
+    "Deleted": true,
+    "Rank": 316,
+    "Type": "fuga",
+    "ColorBlock": 75,
+    "IconHint": "nulla",
+    "Selected": false,
+    "LastChanged": "1999-01-27T11:22:46.0535201+01:00",
     "ChildItems": [
       {
-        "Id": 791,
-        "Name": "Brekke, Russel and Fadel",
-        "ToolTip": "Tenetur ut.",
+        "Id": 476,
+        "Name": "Dooley, Deckow and Ferry",
+        "ToolTip": "Non voluptatem.",
         "Deleted": true,
-        "Rank": 313,
-        "Type": "nesciunt",
-        "ColorBlock": 752,
-        "IconHint": "iste",
-        "Selected": true,
-        "LastChanged": "2015-11-01T17:37:40.1844706+01:00",
+        "Rank": 470,
+        "Type": "ex",
+        "ColorBlock": 133,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2022-05-22T11:22:46.0535201+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "ullam",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Bruce Armstrong",
+        "FullName": "Dr. Kathlyn Zackary Veum DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 936
+            "FieldLength": 458
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "magnam",
-    "Hidden": false,
-    "FullName": "Mrs. Hugh Brandyn Jones",
+    "ExtraInfo": "ut",
+    "StyleHint": "doloribus",
+    "Hidden": true,
+    "FullName": "Mr. Brayan Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldLength": 46
       }
     }
   }

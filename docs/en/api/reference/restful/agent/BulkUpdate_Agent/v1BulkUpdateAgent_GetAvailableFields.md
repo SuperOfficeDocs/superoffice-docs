@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact"
+  "Tablename": "project"
 }
 ```
 
@@ -104,74 +104,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "animi",
-    "ValueType": "consequuntur",
-    "Mandatory": true,
-    "EncodedDisplayName": "Donnelly-Streich",
-    "EncodedDisplayDescription": "Quality-focused assymetric hub",
-    "IconHint": "et",
+    "Key": "aut",
+    "ValueType": "vero",
+    "Mandatory": false,
+    "EncodedDisplayName": "Abshire-Stokes",
+    "EncodedDisplayDescription": "Business-focused actuating collaboration",
+    "IconHint": "reiciendis",
     "ControlInfos": [
       {
-        "Type": "ex",
-        "Label": "consequatur",
-        "Dimension": 104,
-        "ListProviderName": "Emmerich, Sporer and Schamberger",
-        "ListProviderExtraInfo": "sapiente",
-        "ListProviderPrimaryKeyName": "Hills Inc and Sons",
-        "ListLeadText": "fuga",
+        "Type": "voluptatem",
+        "Label": "atque",
+        "Dimension": 192,
+        "ListProviderName": "Koepp, Turner and Emmerich",
+        "ListProviderExtraInfo": "est",
+        "ListProviderPrimaryKeyName": "Hills-O'Keefe",
+        "ListLeadText": "nihil",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 539
+            "FieldType": "System.Int32",
+            "FieldLength": 106
           }
         }
       }
     ],
-    "EncodedDataCaption": "vitae",
-    "EncodedDataCaptionDescription": "Organized client-server approach",
-    "CurrentOperationType": "qui",
+    "EncodedDataCaption": "consequuntur",
+    "EncodedDataCaptionDescription": "Assimilated upward-trending workforce",
+    "CurrentOperationType": "in",
     "Values": [
-      "ut",
-      "similique"
+      "consequuntur",
+      "ipsa"
     ],
     "DisplayValues": [
-      "iste",
-      "qui"
+      "aut",
+      "quia"
     ],
     "OperationInfos": [
       {
-        "Key": "ut",
-        "EncodedDisplayName": "Baumbach LLC",
+        "Key": "id",
+        "EncodedDisplayName": "Crona, Wunsch and Marquardt",
         "EncodedLeadTexts": [
-          "facilis",
-          "natus"
+          "eos",
+          "nemo"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 413
+            "FieldLength": 456
           }
         }
       },
       {
-        "Key": "ut",
-        "EncodedDisplayName": "Baumbach LLC",
+        "Key": "id",
+        "EncodedDisplayName": "Crona, Wunsch and Marquardt",
         "EncodedLeadTexts": [
-          "facilis",
-          "natus"
+          "eos",
+          "nemo"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 413
+            "FieldLength": 456
           }
         }
       }

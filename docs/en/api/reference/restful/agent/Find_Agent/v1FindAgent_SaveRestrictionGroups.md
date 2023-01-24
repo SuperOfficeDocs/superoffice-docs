@@ -77,34 +77,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "doloribus",
-  "ProviderName": "Trantow, Emmerich and Heaney",
-  "StorageKey": "cum",
+  "StorageType": "eum",
+  "ProviderName": "West Group",
+  "StorageKey": "minus",
   "RestrictionGroups": [
     {
-      "Name": "Deckow, Larkin and Ruecker",
-      "Description": "Centralized explicit data-warehouse",
-      "Rank": 329,
+      "Name": "Gutkowski, Bosco and Luettgen",
+      "Description": "Mandatory encompassing application",
+      "Rank": 131,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Deckow, Larkin and Ruecker",
-      "Description": "Centralized explicit data-warehouse",
-      "Rank": 329,
+      "Name": "Gutkowski, Bosco and Luettgen",
+      "Description": "Mandatory encompassing application",
+      "Rank": 131,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "consectetur"
+  "Context": "sapiente"
 }
 ```
 
@@ -116,58 +116,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gusikowski-Kris",
-    "Description": "Innovative intermediate policy",
-    "Rank": 222,
+    "Name": "Bins Group",
+    "Description": "Operative value-added project",
+    "Rank": 203,
     "Restrictions": [
       {
-        "Name": "Reinger, Lindgren and Armstrong",
-        "Operator": "eius",
+        "Name": "Beier Inc and Sons",
+        "Operator": "modi",
         "Values": [
-          "ea",
-          "corrupti"
+          "repudiandae",
+          "recusandae"
         ],
         "DisplayValues": [
-          "aut",
-          "qui"
+          "atque",
+          "quam"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 416,
+        "InterParenthesis": 242,
         "InterOperator": "And",
-        "UniqueHash": 756
+        "UniqueHash": 11
       }
     ]
   },
   {
-    "Name": "Gusikowski-Kris",
-    "Description": "Innovative intermediate policy",
-    "Rank": 222,
+    "Name": "Bins Group",
+    "Description": "Operative value-added project",
+    "Rank": 203,
     "Restrictions": [
       {
-        "Name": "Reinger, Lindgren and Armstrong",
-        "Operator": "eius",
+        "Name": "Beier Inc and Sons",
+        "Operator": "modi",
         "Values": [
-          "ea",
-          "corrupti"
+          "repudiandae",
+          "recusandae"
         ],
         "DisplayValues": [
-          "aut",
-          "qui"
+          "atque",
+          "quam"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 416,
+        "InterParenthesis": 242,
         "InterOperator": "And",
-        "UniqueHash": 756
+        "UniqueHash": 11
       }
     ]
   }

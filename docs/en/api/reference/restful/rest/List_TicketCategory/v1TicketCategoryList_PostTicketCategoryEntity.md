@@ -98,33 +98,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 777,
-  "ParentId": 429,
-  "Name": "O'Hara-Murray",
-  "Fullname": "qui",
-  "CategoryMaster": 287,
+  "TicketCategoryId": 357,
+  "ParentId": 89,
+  "Name": "Kihn Inc and Sons",
+  "Fullname": "et",
+  "CategoryMaster": 977,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Senger-Gislason",
+  "ExternalName": "Collins, Ziemann and Marks",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 706,
-  "ReplyTemplate": 639,
-  "NotificationEmail": "doug@treuteldaniel.us",
+  "AssignmentLag": 744,
+  "ReplyTemplate": 894,
+  "NotificationEmail": "jon@morar.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 500,
+  "EffectiveReplyTemplateId": 524,
   "ExtraFields": {
-    "ExtraFields1": "doloribus",
-    "ExtraFields2": "magnam"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "praesentium"
   },
   "CustomFields": {
-    "CustomFields1": "corrupti",
-    "CustomFields2": "est"
+    "CustomFields1": "suscipit",
+    "CustomFields2": "aut"
   }
 }
 ```
@@ -136,36 +136,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 576,
-  "ParentId": 325,
-  "Name": "Heaney LLC",
-  "Fullname": "aut",
-  "CategoryMaster": 745,
+  "TicketCategoryId": 654,
+  "ParentId": 74,
+  "Name": "O'Conner-Schultz",
+  "Fullname": "omnis",
+  "CategoryMaster": 59,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Tremblay Inc and Sons",
+  "ExternalName": "Crist, Connelly and White",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 653,
-  "ReplyTemplate": 759,
-  "NotificationEmail": "jadon.harber@marquardt.biz",
+  "AssignmentLag": 460,
+  "ReplyTemplate": 240,
+  "NotificationEmail": "leilani_leffler@prosaccomorissette.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 224,
+  "EffectiveReplyTemplateId": 618,
   "ExtraFields": {
-    "ExtraFields1": "illo",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "ex"
+    "CustomFields1": "ut",
+    "CustomFields2": "sequi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldType": "System.String",
+      "FieldLength": 346
     }
   }
 }

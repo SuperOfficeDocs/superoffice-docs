@@ -71,7 +71,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 05 May 1996 17:37:38 G5T
+Last-Modified: Wed, 29 Jul 2015 11:22:44 G7T
 
 {
-  "Key": "labore",
-  "Value": "nihil",
-  "RecordId": 826,
-  "CreatedDate": "2022-02-27T17:37:38.8188609+01:00",
-  "UpdatedDate": "1996-05-05T17:37:38.8188609+02:00",
-  "UpdatedBy": "dolorem",
-  "CreatedBy": "sed",
-  "TableName": "Fisher-Murphy",
+  "Key": "voluptates",
+  "Value": "quia",
+  "RecordId": 133,
+  "CreatedDate": "2022-05-20T11:22:44.8818691+02:00",
+  "UpdatedDate": "2015-07-29T11:22:44.8818691+02:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "optio",
+  "TableName": "Fadel LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 209
     }
   }
 }

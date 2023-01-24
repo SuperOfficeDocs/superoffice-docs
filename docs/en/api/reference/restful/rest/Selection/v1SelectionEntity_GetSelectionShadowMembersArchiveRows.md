@@ -85,21 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sit",
+  "odata.nextLink": "quaerat",
   "value": [
     {
-      "PrimaryKey": 8025,
-      "EntityName": "sale",
-      "saleId": 8025,
-      "contactId": 6651,
-      "name": "Thompson-Schmitt"
+      "PrimaryKey": 8443,
+      "EntityName": "person",
+      "personId": 8443,
+      "fullName": "Anjali Fahey"
     },
     {
-      "PrimaryKey": 2088,
-      "EntityName": "sale",
-      "saleId": 2088,
-      "contactId": 9533,
-      "name": "Schowalter-Treutel"
+      "PrimaryKey": 4506,
+      "EntityName": "person",
+      "personId": 4506,
+      "fullName": "Tommie Parker"
     }
   ]
 }

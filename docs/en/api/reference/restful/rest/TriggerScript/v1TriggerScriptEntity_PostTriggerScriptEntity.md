@@ -96,20 +96,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 301,
-  "Name": "Aufderhar Group",
+  "ScreenChooserId": 431,
+  "Name": "Abernathy-Medhurst",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "quia",
-  "Source": "libero",
-  "Registered": "2019-05-30T17:37:39.3894254+02:00",
-  "RegisteredAssociateId": 769,
-  "Updated": "2007-08-17T17:37:39.3894254+02:00",
-  "UpdatedAssociateId": 88
+  "Enabled": true,
+  "UniqueIdentifier": "totam",
+  "Source": "assumenda",
+  "Registered": "2015-12-13T11:22:45.3661887+01:00",
+  "RegisteredAssociateId": 676,
+  "Updated": "2008-07-18T11:22:45.3661887+02:00",
+  "UpdatedAssociateId": 52
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 164,
-  "Name": "Tillman Group",
+  "ScreenChooserId": 536,
+  "Name": "Koss-Labadie",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "dolores",
-  "Source": "inventore",
-  "Registered": "2021-01-09T17:37:39.3904307+01:00",
-  "RegisteredAssociateId": 642,
-  "Updated": "2019-01-06T17:37:39.3904307+01:00",
-  "UpdatedAssociateId": 2,
+  "UniqueIdentifier": "velit",
+  "Source": "perspiciatis",
+  "Registered": "2020-04-21T11:22:45.3661887+02:00",
+  "RegisteredAssociateId": 754,
+  "Updated": "2012-12-27T11:22:45.3661887+01:00",
+  "UpdatedAssociateId": 889,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 882
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

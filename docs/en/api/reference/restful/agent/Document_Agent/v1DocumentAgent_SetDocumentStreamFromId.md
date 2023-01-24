@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 812,
+  "DocumentId": 776,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -124,88 +124,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 7,
+  "DocumentId": 131,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsam",
-  "Header": "ipsam",
-  "Name": "Grimes-Oberbrunner",
-  "OurRef": "veritatis",
-  "YourRef": "molestiae",
-  "CreatedDate": "2012-09-13T17:37:17.5912478+02:00",
-  "UpdatedDate": "2011-07-10T17:37:17.5912478+02:00",
-  "Description": "Horizontal system-worthy concept",
+  "Attention": "qui",
+  "Header": "saepe",
+  "Name": "Hirthe Group",
+  "OurRef": "excepturi",
+  "YourRef": "facilis",
+  "CreatedDate": "2001-06-23T11:22:38.1490728+02:00",
+  "UpdatedDate": "1999-07-12T11:22:38.1490728+02:00",
+  "Description": "Future-proofed radical instruction set",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-12-19T17:37:17.5952453+01:00",
-  "ExternalRef": "totam",
+  "Date": "2004-04-24T11:22:38.1646944+02:00",
+  "ExternalRef": "sint",
   "Completed": "Completed",
-  "ActiveLinks": 197,
+  "ActiveLinks": 719,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Cassin, Goldner and Sporer",
-      "Id": 678,
-      "Description": "Synergistic motivating forecast",
-      "ExtraInfo": "voluptatibus",
-      "LinkId": 618,
+      "EntityName": "Muller Inc and Sons",
+      "Id": 581,
+      "Description": "Triple-buffered reciprocal success",
+      "ExtraInfo": "et",
+      "LinkId": 651,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldLength": 374
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 499,
-  "Snum": 905,
+  "SuggestedDocumentId": 411,
+  "Snum": 812,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Amy Veum Sr."
+    "SuperOffice:1": "Mrs. Garrison Walter",
+    "SuperOffice:2": "Jeffery Jones"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "deleniti"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "tempore"
+    "CustomFields1": "id",
+    "CustomFields2": "hic"
   },
-  "PublishEventDate": "2014-07-03T17:37:17.5952453+02:00",
-  "PublishTo": "2013-11-17T17:37:17.5952453+01:00",
-  "PublishFrom": "1997-08-08T17:37:17.5952453+02:00",
+  "PublishEventDate": "2012-12-11T11:22:38.1646944+01:00",
+  "PublishTo": "2019-06-22T11:22:38.1646944+02:00",
+  "PublishFrom": "1998-09-06T11:22:38.1646944+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 509,
+      "VisibleId": 530,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 502
+          "FieldType": "System.Int32",
+          "FieldLength": 671
         }
       }
     },
     {
-      "VisibleId": 509,
+      "VisibleId": 530,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 502
+          "FieldType": "System.Int32",
+          "FieldLength": 671
         }
       }
     }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 770
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   }
 }

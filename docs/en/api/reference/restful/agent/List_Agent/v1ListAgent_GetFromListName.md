@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/List/GetFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 677,
-  "UdListDefinitionName": "Durgan, Swift and Rutherford"
+  "Id": 916,
+  "UdListDefinitionName": "Gislason Group"
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 531,
-  "Name": "Roob LLC",
-  "Tooltip": "laborum",
+  "Id": 164,
+  "Name": "Haley, Schumm and Simonis",
+  "Tooltip": "placeat",
   "Deleted": false,
-  "UdListDefinitionId": 82,
-  "Rank": 685,
+  "UdListDefinitionId": 465,
+  "Rank": 526,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldType": "System.String",
+      "FieldLength": 757
     }
   }
 }

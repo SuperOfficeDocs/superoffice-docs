@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 511,
-  "Name": "Mills-McCullough",
-  "Tooltip": "in",
+  "Id": 84,
+  "Name": "Carroll-Brakus",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 303,
+  "Rank": 788,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "maiores",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldLength": 897
     }
   },
   "_Links": {

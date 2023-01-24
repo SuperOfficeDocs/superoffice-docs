@@ -96,20 +96,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 119,
-  "ERPPriceListKey": "maxime",
-  "QuoteConnectionId": 781,
-  "Name": "D'Amore LLC",
-  "Description": "Triple-buffered static orchestration",
-  "Currency": "delectus",
-  "CurrencyName": "Nitzsche Group",
-  "ValidFrom": "2017-04-08T17:37:40.1185003+02:00",
-  "ValidTo": "2007-01-24T17:37:40.1185003+01:00",
-  "IsActive": true
+  "PriceListId": 840,
+  "ERPPriceListKey": "voluptate",
+  "QuoteConnectionId": 447,
+  "Name": "Hoeger Inc and Sons",
+  "Description": "Down-sized solution-oriented protocol",
+  "Currency": "aut",
+  "CurrencyName": "Terry Inc and Sons",
+  "ValidFrom": "1995-12-15T11:22:46.0066565+01:00",
+  "ValidTo": "1998-06-10T11:22:46.0066565+02:00",
+  "IsActive": false
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 345,
-  "ERPPriceListKey": "debitis",
-  "QuoteConnectionId": 360,
-  "Name": "Gaylord, Kuphal and Klein",
-  "Description": "Re-contextualized intangible alliance",
-  "Currency": "placeat",
-  "CurrencyName": "Weber-Schuppe",
-  "ValidFrom": "1995-11-27T17:37:40.1185003+01:00",
-  "ValidTo": "2002-10-07T17:37:40.1185003+02:00",
+  "PriceListId": 16,
+  "ERPPriceListKey": "ut",
+  "QuoteConnectionId": 581,
+  "Name": "Prohaska, Gulgowski and Keebler",
+  "Description": "Organized optimal service-desk",
+  "Currency": "delectus",
+  "CurrencyName": "Farrell-Nienow",
+  "ValidFrom": "2004-07-17T11:22:46.0066565+02:00",
+  "ValidTo": "1996-10-21T11:22:46.0066565+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 709
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 166,
-  "Name": "Blick-Ziemann",
-  "Tooltip": "quae",
-  "SaveInDb": 30,
-  "Filename": "voluptates",
-  "DefaultOref": "expedita",
+  "DocumentTemplateId": 580,
+  "Name": "Casper-Morar",
+  "Tooltip": "reprehenderit",
+  "SaveInDb": 687,
+  "Filename": "consectetur",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 589,
-  "IntentId": 895,
-  "IsDefaultPublished": true,
-  "Rank": 820,
-  "LoadTemplateFromPlugin": 871,
-  "MimeType": "ut",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 402,
+  "AutoeventId": 127,
+  "IntentId": 437,
+  "IsDefaultPublished": false,
+  "Rank": 522,
+  "LoadTemplateFromPlugin": 529,
+  "MimeType": "tenetur",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 386,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rahul@cummings.com",
+  "EmailSubject": "cloyd.streich@haley.info",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "colten@runolfssonleffler.info",
+  "SenderEmailAddress": "katarina@king.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 329
+      "FieldType": "System.Int32",
+      "FieldLength": 102
     }
   }
 }

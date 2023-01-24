@@ -90,16 +90,16 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kunde Group",
-  "ForceFlatList": true,
-  "AdditionalInfo": "velit",
+  "Name": "Hermiston, Stroman and Leffler",
+  "ForceFlatList": false,
+  "AdditionalInfo": "error",
   "HistoryItems": [
-    714,
-    633
+    981,
+    856
   ],
   "OnlyHistory": false
 }
@@ -113,56 +113,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Cummings-Aufderhar",
-    "ToolTip": "Itaque et quia recusandae et.",
-    "Deleted": true,
-    "Rank": 899,
-    "Type": "et",
-    "ColorBlock": 946,
-    "IconHint": "ipsam",
+    "Id": 521,
+    "Name": "Brakus-Bauch",
+    "ToolTip": "Expedita est qui quia labore incidunt.",
+    "Deleted": false,
+    "Rank": 653,
+    "Type": "qui",
+    "ColorBlock": 405,
+    "IconHint": "temporibus",
     "Selected": false,
-    "LastChanged": "1997-02-12T17:37:18.3422426+01:00",
+    "LastChanged": "1999-03-21T11:22:38.5865114+01:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Lehner, Dietrich and Johnston",
-        "ToolTip": "Amet possimus odit.",
-        "Deleted": false,
-        "Rank": 52,
-        "Type": "architecto",
-        "ColorBlock": 572,
-        "IconHint": "sunt",
+        "Id": 174,
+        "Name": "Bergnaum-Kovacek",
+        "ToolTip": "Et eos.",
+        "Deleted": true,
+        "Rank": 589,
+        "Type": "nihil",
+        "ColorBlock": 771,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2012-05-05T17:37:18.3442413+02:00",
+        "LastChanged": "2006-05-21T11:22:38.5865114+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Ezra Hermiston",
+        "ExtraInfo": "sed",
+        "StyleHint": "expedita",
+        "Hidden": true,
+        "FullName": "Ms. Jaron Aracely Ruecker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 891
+            "FieldType": "System.Int32",
+            "FieldLength": 811
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "optio",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Mr. Omari Gleichner Sr.",
+    "FullName": "Carlo Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldType": "System.Int32",
+        "FieldLength": 761
       }
     }
   }

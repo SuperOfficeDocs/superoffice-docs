@@ -73,7 +73,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "quod"
+  "Message": "hic"
 }
 ```
 
@@ -85,6 +85,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "optio"
+  "Message": "nostrum"
 }
 ```

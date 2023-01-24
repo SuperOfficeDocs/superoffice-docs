@@ -29,7 +29,7 @@ Change a PersonEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -113,46 +113,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 21,
-  "ColumnId": 404,
-  "FieldDefault": "veritatis",
-  "FieldHeight": 810,
-  "FieldLabel": "mollitia",
-  "FieldLeft": 726,
-  "FieldTop": 448,
+  "UDefFieldId": 567,
+  "ColumnId": 144,
+  "FieldDefault": "repudiandae",
+  "FieldHeight": 152,
+  "FieldLabel": "et",
+  "FieldLeft": 481,
+  "FieldTop": 223,
   "FieldType": "Checkbox",
-  "FieldWidth": 997,
-  "FormatMask": "nesciunt",
-  "HideLabel": true,
+  "FieldWidth": 530,
+  "FormatMask": "suscipit",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 576,
-  "LabelLeft": 328,
-  "LabelTop": 846,
-  "LabelWidth": 668,
-  "LastVersionId": 124,
-  "ListTableId": 734,
-  "IsMandatory": false,
+  "LabelHeight": 743,
+  "LabelLeft": 645,
+  "LabelTop": 878,
+  "LabelWidth": 185,
+  "LastVersionId": 525,
+  "ListTableId": 217,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 194,
-  "ProgId": "est",
-  "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 854,
-  "TextLength": 783,
-  "Tooltip": "perspiciatis",
-  "UdefIdentity": 517,
-  "UDListDefinitionId": 398,
+  "Page1LineNo": 604,
+  "ProgId": "qui",
+  "IsReadOnly": false,
+  "ShortLabel": "tenetur",
+  "TabOrder": 327,
+  "TextLength": 604,
+  "Tooltip": "distinctio",
+  "UdefIdentity": 657,
+  "UDListDefinitionId": 573,
   "Justification": "Center",
-  "Version": 168,
-  "TemplateVariableName": "Kuhlman-Nolan",
+  "Version": 170,
+  "TemplateVariableName": "Cruickshank, Stanton and Cole",
   "HasBeenPublished": false,
-  "MdoListName": "Lesch, Jakubowski and Jacobson",
+  "MdoListName": "Weimann, Funk and Padberg",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 31
+      "FieldLength": 466
     }
   }
 }

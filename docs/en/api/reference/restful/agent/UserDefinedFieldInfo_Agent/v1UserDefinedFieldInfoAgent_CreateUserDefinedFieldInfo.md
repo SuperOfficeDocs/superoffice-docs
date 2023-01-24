@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 587,
-  "ColumnId": 719,
-  "FieldDefault": "est",
-  "FieldHeight": 802,
-  "FieldLabel": "ducimus",
-  "FieldLeft": 227,
-  "FieldTop": 944,
+  "UDefFieldId": 792,
+  "ColumnId": 247,
+  "FieldDefault": "rerum",
+  "FieldHeight": 404,
+  "FieldLabel": "omnis",
+  "FieldLeft": 917,
+  "FieldTop": 293,
   "FieldType": "Checkbox",
-  "FieldWidth": 260,
-  "FormatMask": "veritatis",
+  "FieldWidth": 19,
+  "FormatMask": "ipsum",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 631,
-  "LabelLeft": 374,
-  "LabelTop": 473,
-  "LabelWidth": 794,
-  "LastVersionId": 710,
-  "ListTableId": 828,
+  "IsIndexed": false,
+  "LabelHeight": 706,
+  "LabelLeft": 577,
+  "LabelTop": 992,
+  "LabelWidth": 3,
+  "LastVersionId": 94,
+  "ListTableId": 124,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 101,
-  "ProgId": "facilis",
-  "IsReadOnly": true,
-  "ShortLabel": "eveniet",
-  "TabOrder": 768,
-  "TextLength": 843,
-  "Tooltip": "maiores",
-  "UdefIdentity": 5,
-  "UDListDefinitionId": 285,
+  "Page1LineNo": 979,
+  "ProgId": "dolores",
+  "IsReadOnly": false,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 468,
+  "TextLength": 665,
+  "Tooltip": "tenetur",
+  "UdefIdentity": 929,
+  "UDListDefinitionId": 526,
   "Justification": "Center",
-  "Version": 36,
-  "TemplateVariableName": "Jacobson-Parker",
-  "HasBeenPublished": true,
-  "MdoListName": "Douglas Inc and Sons",
+  "Version": 149,
+  "TemplateVariableName": "Robel, Kling and Breitenberg",
+  "HasBeenPublished": false,
+  "MdoListName": "Johnson Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 799
+      "FieldType": "System.Int32",
+      "FieldLength": 491
     }
   }
 }

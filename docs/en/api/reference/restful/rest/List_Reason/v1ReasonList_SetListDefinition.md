@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 980,
-  "Name": "Littel LLC",
-  "Tooltip": "ipsam",
-  "Deleted": false,
-  "Rank": 771,
+  "Id": 641,
+  "Name": "Willms LLC",
+  "Tooltip": "dolorem",
+  "Deleted": true,
+  "Rank": 203,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "tempora",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 911,
-  "Name": "Wiza LLC",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "Rank": 592,
-  "IsCustomList": false,
+  "Id": 405,
+  "Name": "Waelchi, Abbott and Kerluke",
+  "Tooltip": "natus",
+  "Deleted": false,
+  "Rank": 692,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "minus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldLength": 715
     }
   }
 }

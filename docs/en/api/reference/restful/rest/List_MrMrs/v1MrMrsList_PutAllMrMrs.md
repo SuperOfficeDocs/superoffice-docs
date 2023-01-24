@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 330,
-    "Name": "Johns Inc and Sons",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "UdListDefinitionId": 791,
-    "Rank": 940
+    "Id": 243,
+    "Name": "Crona Group",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "UdListDefinitionId": 690,
+    "Rank": 395
   },
   {
-    "Id": 330,
-    "Name": "Johns Inc and Sons",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "UdListDefinitionId": 791,
-    "Rank": 940
+    "Id": 243,
+    "Name": "Crona Group",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "UdListDefinitionId": 690,
+    "Rank": 395
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "Ruecker-Keebler",
-    "Tooltip": "iste",
+    "Id": 885,
+    "Name": "Schumm-Swift",
+    "Tooltip": "provident",
     "Deleted": false,
-    "UdListDefinitionId": 317,
-    "Rank": 721,
+    "UdListDefinitionId": 18,
+    "Rank": 185,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 272
       }
     }
   }

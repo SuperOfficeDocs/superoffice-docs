@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -124,63 +124,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2008-05-25T17:37:16.3242417+02:00",
-  "AppointmentId": 806,
-  "Description": "Enterprise-wide zero defect architecture",
-  "StartDate": "1997-08-29T17:37:16.3242417+02:00",
-  "EndDate": "1999-03-25T17:37:16.3242417+01:00",
+  "CreatedDate": "2014-08-13T11:22:36.9931619+02:00",
+  "AppointmentId": 166,
+  "Description": "Visionary incremental array",
+  "StartDate": "2001-08-21T11:22:36.9931619+02:00",
+  "EndDate": "2012-09-28T11:22:36.9931619+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 695,
+  "MotherId": 947,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-08-11T17:37:16.3272422+02:00",
+  "UpdatedDate": "2005-06-12T11:22:36.9931619+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 862,
+  "ActiveLinks": 40,
   "Links": [
     {
-      "EntityName": "Bruen-Greenholt",
-      "Id": 440,
-      "Description": "Extended intermediate policy",
-      "ExtraInfo": "id",
-      "LinkId": 630,
+      "EntityName": "Pagac, Harris and Parker",
+      "Id": 415,
+      "Description": "Function-based non-volatile task-force",
+      "ExtraInfo": "qui",
+      "LinkId": 45,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 891
+          "FieldType": "System.Int32",
+          "FieldLength": 351
         }
       }
     }
   ],
-  "AlarmLeadTime": "corrupti",
+  "AlarmLeadTime": "tempore",
   "HasAlarm": false,
-  "ColorIndex": 274,
+  "ColorIndex": 130,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "animi",
-  "LeadTime": "ex",
-  "Location": "qui",
-  "RejectCounter": 545,
+  "LagTime": "et",
+  "LeadTime": "eaque",
+  "Location": "eius",
+  "RejectCounter": 934,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 326,
-      "PersonId": 767,
-      "ContactId": 786,
-      "EmailId": 396,
+      "AssociateId": 263,
+      "PersonId": 834,
+      "ContactId": 13,
+      "EmailId": 977,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 326,
-      "PersonId": 767,
-      "ContactId": 786,
-      "EmailId": 396,
+      "AssociateId": 263,
+      "PersonId": 834,
+      "ContactId": 13,
+      "EmailId": 977,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -188,58 +188,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2008-08-25T17:37:16.3272422+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2017-09-13T11:22:36.9931619+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 69,
+  "PreferredTZLocation": 511,
   "Sale": null,
-  "SuggestedAppointmentId": 404,
+  "SuggestedAppointmentId": 319,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quis",
+  "CentralserviceVideomeetId": "ullam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Judd Lueilwitz",
-    "SuperOffice:2": "Aliza Mraz"
+    "SuperOffice:1": "Mrs. Griffin Collier",
+    "SuperOffice:2": "1980274894"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "et"
+    "CustomFields1": "commodi",
+    "CustomFields2": "velit"
   },
-  "PublishEventDate": "2011-09-25T17:37:16.3292421+02:00",
-  "PublishTo": "2000-07-08T17:37:16.3292421+02:00",
-  "PublishFrom": "2003-03-30T17:37:16.3292421+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2012-11-13T11:22:36.9931619+01:00",
+  "PublishTo": "2004-08-09T11:22:36.9931619+02:00",
+  "PublishFrom": "2002-06-02T11:22:36.9931619+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 798,
+      "VisibleId": 977,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 434
+          "FieldLength": 178
         }
       }
     },
     {
-      "VisibleId": 798,
+      "VisibleId": 977,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 434
+          "FieldLength": 178
         }
       }
     }
@@ -248,8 +248,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldType": "System.String",
+      "FieldLength": 581
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 362,
-    "Name": "Haag Group",
-    "ToolTip": "Ut architecto numquam voluptatem.",
-    "Deleted": false,
-    "Rank": 54,
-    "Type": "dolor",
-    "ColorBlock": 943,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "1997-09-13T17:37:40.2304701+02:00",
+    "Id": 942,
+    "Name": "Predovic, Franecki and King",
+    "ToolTip": "In in blanditiis.",
+    "Deleted": true,
+    "Rank": 808,
+    "Type": "quaerat",
+    "ColorBlock": 351,
+    "IconHint": "mollitia",
+    "Selected": false,
+    "LastChanged": "2000-04-14T11:22:46.0847653+02:00",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Hessel Group",
-        "ToolTip": "Voluptatibus qui qui repellendus esse laborum voluptatem voluptates.",
+        "Id": 258,
+        "Name": "Huel Group",
+        "ToolTip": "Temporibus quaerat unde et.",
         "Deleted": false,
-        "Rank": 646,
-        "Type": "facere",
-        "ColorBlock": 100,
-        "IconHint": "dolor",
-        "Selected": false,
-        "LastChanged": "2008-11-01T17:37:40.2304701+01:00",
+        "Rank": 546,
+        "Type": "facilis",
+        "ColorBlock": 734,
+        "IconHint": "labore",
+        "Selected": true,
+        "LastChanged": "2002-07-14T11:22:46.0847653+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sed",
+        "ExtraInfo": "nihil",
+        "StyleHint": "neque",
         "Hidden": true,
-        "FullName": "Kennedi Dante Keeling I"
+        "FullName": "Elnora Kristian Gulgowski V"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "corrupti",
+    "ExtraInfo": "odit",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Zion Roob"
+    "FullName": "Carmella Morar"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Stokes-Hessel",
-    "ToolTip": "Hic aut cupiditate tempora.",
-    "Deleted": false,
-    "Rank": 783,
-    "Type": "distinctio",
-    "ColorBlock": 455,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2012-09-14T17:37:40.2324741+02:00",
+    "Id": 877,
+    "Name": "Aufderhar, Beer and Luettgen",
+    "ToolTip": "Consequuntur neque voluptas quo.",
+    "Deleted": true,
+    "Rank": 753,
+    "Type": "ipsum",
+    "ColorBlock": 421,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2010-01-31T11:22:46.1003835+01:00",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Ritchie, Watsica and Becker",
-        "ToolTip": "Recusandae et quia quas totam laborum.",
+        "Id": 269,
+        "Name": "Raynor-Roberts",
+        "ToolTip": "Voluptate molestias.",
         "Deleted": false,
-        "Rank": 346,
-        "Type": "repellat",
-        "ColorBlock": 10,
-        "IconHint": "dicta",
+        "Rank": 370,
+        "Type": "ducimus",
+        "ColorBlock": 995,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "1998-04-26T17:37:40.2324741+02:00",
+        "LastChanged": "1996-11-17T11:22:46.1003835+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "sit",
         "Hidden": true,
-        "FullName": "Miss Violette Juston Feeney Jr.",
+        "FullName": "Laura Emmy Collier IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 720
+            "FieldType": "System.Int32",
+            "FieldLength": 93
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "laudantium",
-    "Hidden": false,
-    "FullName": "Miss Lorna Bruen Sr.",
+    "ExtraInfo": "sit",
+    "StyleHint": "porro",
+    "Hidden": true,
+    "FullName": "Sarah Vito Crist DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 70
+        "FieldLength": 928
       }
     }
   }

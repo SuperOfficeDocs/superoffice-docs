@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 286,
-  "SourcePersonId": 249,
-  "DestinationContactId": 256,
-  "DestinationPersonId": 843,
-  "RelationId": 748,
-  "Comment": "ut",
-  "RelationDefinitionId": 19,
-  "Reversed": 139,
-  "UpdatedDate": "1999-09-24T17:37:18.7812434+02:00",
-  "CreatedDate": "2010-05-10T17:37:18.7812434+02:00",
+  "SourceContactId": 37,
+  "SourcePersonId": 196,
+  "DestinationContactId": 509,
+  "DestinationPersonId": 130,
+  "RelationId": 472,
+  "Comment": "at",
+  "RelationDefinitionId": 54,
+  "Reversed": 963,
+  "UpdatedDate": "2021-03-22T11:22:38.9614314+01:00",
+  "CreatedDate": "2013-10-19T11:22:38.9614314+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Trantow, Thompson and Stehr",
-  "SourcePersonName": "Cartwright, Gleason and Goodwin",
-  "DestinationContactName": "Kub LLC",
-  "DestinationPersonName": "Denesik-McGlynn",
-  "ActiveText": "consectetur",
-  "PassiveText": "omnis",
+  "SourceContactName": "Kihn LLC",
+  "SourcePersonName": "Rau-Keeling",
+  "DestinationContactName": "Jacobs, Kemmer and Von",
+  "DestinationPersonName": "Bergnaum Inc and Sons",
+  "ActiveText": "inventore",
+  "PassiveText": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 714
     }
   }
 }

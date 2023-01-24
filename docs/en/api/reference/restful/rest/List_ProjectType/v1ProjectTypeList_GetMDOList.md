@@ -26,7 +26,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=rerum
+GET /api/v1/List/ProjectType/MDOItems?query=quasi
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Mayer-Bahringer",
-    "ToolTip": "Ipsam aut quis.",
-    "Deleted": true,
-    "Rank": 200,
-    "Type": "sint",
+    "Id": 323,
+    "Name": "Douglas Inc and Sons",
+    "ToolTip": "Natus incidunt aperiam.",
+    "Deleted": false,
+    "Rank": 806,
+    "Type": "illo",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "Hermiston LLC",
-        "ToolTip": "Ut quidem ullam non voluptatem.",
-        "Deleted": true,
-        "Rank": 276,
-        "Type": "qui",
+        "Id": 678,
+        "Name": "Hills Group",
+        "ToolTip": "Sed nostrum laborum.",
+        "Deleted": false,
+        "Rank": 687,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 67,
-        "ExtraInfo": "modi",
-        "StyleHint": "rem",
-        "FullName": "Mrs. Adeline Dario Sipes",
+        "IconHint": "qui",
+        "ColorBlock": 945,
+        "ExtraInfo": "sit",
+        "StyleHint": "et",
+        "FullName": "Mrs. Leonardo Karina Konopelski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 913
+            "FieldType": "System.String",
+            "FieldLength": 713
           }
         }
       }
     ],
-    "IconHint": "occaecati",
-    "ColorBlock": 559,
-    "ExtraInfo": "occaecati",
-    "StyleHint": "rerum",
-    "FullName": "Prof. Claudine Brennon Mraz II",
+    "IconHint": "nulla",
+    "ColorBlock": 190,
+    "ExtraInfo": "explicabo",
+    "StyleHint": "a",
+    "FullName": "Raymundo Flatley Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 860
+        "FieldLength": 183
       }
     }
   }

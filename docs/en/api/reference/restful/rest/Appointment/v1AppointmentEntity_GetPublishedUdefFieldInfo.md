@@ -92,7 +92,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 525,
-  "ColumnId": 837,
-  "FieldDefault": "sequi",
-  "FieldHeight": 779,
-  "FieldLabel": "et",
-  "FieldLeft": 412,
-  "FieldTop": 951,
+  "UDefFieldId": 687,
+  "ColumnId": 467,
+  "FieldDefault": "qui",
+  "FieldHeight": 935,
+  "FieldLabel": "fuga",
+  "FieldLeft": 705,
+  "FieldTop": 164,
   "FieldType": "Checkbox",
-  "FieldWidth": 680,
-  "FormatMask": "accusantium",
-  "HideLabel": false,
+  "FieldWidth": 294,
+  "FormatMask": "numquam",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 231,
-  "LabelLeft": 967,
-  "LabelTop": 323,
-  "LabelWidth": 722,
-  "LastVersionId": 460,
-  "ListTableId": 801,
+  "LabelHeight": 128,
+  "LabelLeft": 670,
+  "LabelTop": 413,
+  "LabelWidth": 999,
+  "LastVersionId": 48,
+  "ListTableId": 319,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 578,
-  "ProgId": "et",
-  "IsReadOnly": false,
-  "ShortLabel": "recusandae",
-  "TabOrder": 577,
-  "TextLength": 800,
-  "Tooltip": "sunt",
-  "UdefIdentity": 145,
-  "UDListDefinitionId": 950,
+  "Page1LineNo": 798,
+  "ProgId": "aut",
+  "IsReadOnly": true,
+  "ShortLabel": "quam",
+  "TabOrder": 454,
+  "TextLength": 635,
+  "Tooltip": "hic",
+  "UdefIdentity": 153,
+  "UDListDefinitionId": 311,
   "Justification": "Center",
-  "Version": 590,
-  "TemplateVariableName": "Hagenes Group",
+  "Version": 919,
+  "TemplateVariableName": "Mueller-Gutmann",
   "HasBeenPublished": false,
-  "MdoListName": "McCullough, Corwin and Hettinger",
+  "MdoListName": "Marks Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 430
+      "FieldType": "System.Int32",
+      "FieldLength": 22
     }
   }
 }

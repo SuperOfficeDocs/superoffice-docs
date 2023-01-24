@@ -71,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 674
+  "DocumentTemplateId": 476
 }
 ```
 
@@ -81,5 +81,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"molestiae"
+"nesciunt"
 ```

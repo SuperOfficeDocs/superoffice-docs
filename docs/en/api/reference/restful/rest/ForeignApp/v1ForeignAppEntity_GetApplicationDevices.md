@@ -66,7 +66,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,25 +74,25 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 05 Feb 2007 17:37:38 G2T
+Last-Modified: Wed, 10 Feb 2016 11:22:44 G2T
 
 [
   {
-    "ForeignDeviceId": 294,
-    "Name": "Rowe Inc and Sons",
-    "CreatedDate": "2016-09-24T17:37:38.8148598+02:00",
-    "UpdatedDate": "2007-02-05T17:37:38.8148598+01:00",
-    "AssociateFullName": "Johnny Robel",
-    "CreatedBy": "modi",
-    "UpdatedBy": "et",
-    "DeviceIdentifier": "asperiores",
-    "ForeignAppId": 366,
+    "ForeignDeviceId": 764,
+    "Name": "McCullough Group",
+    "CreatedDate": "2006-05-13T11:22:44.8662479+02:00",
+    "UpdatedDate": "2016-02-10T11:22:44.8662479+01:00",
+    "AssociateFullName": "Dr. Elaina Reichel PhD",
+    "CreatedBy": "distinctio",
+    "UpdatedBy": "quo",
+    "DeviceIdentifier": "eos",
+    "ForeignAppId": 935,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldLength": 180
       }
     }
   }

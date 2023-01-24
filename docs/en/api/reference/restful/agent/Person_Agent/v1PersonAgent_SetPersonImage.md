@@ -68,7 +68,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 673,
+  "PersonId": 533,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

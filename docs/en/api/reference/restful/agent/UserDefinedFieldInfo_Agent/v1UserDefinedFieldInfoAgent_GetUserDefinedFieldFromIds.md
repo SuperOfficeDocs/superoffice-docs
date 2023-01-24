@@ -105,13 +105,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    57,
-    727
+    106,
+    719
   ]
 }
 ```
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 643,
-    "ColumnId": 433,
-    "FieldDefault": "qui",
-    "FieldHeight": 1002,
-    "FieldLabel": "debitis",
-    "FieldLeft": 259,
-    "FieldTop": 444,
+    "UDefFieldId": 215,
+    "ColumnId": 53,
+    "FieldDefault": "aut",
+    "FieldHeight": 935,
+    "FieldLabel": "suscipit",
+    "FieldLeft": 722,
+    "FieldTop": 341,
     "FieldType": "Checkbox",
-    "FieldWidth": 949,
-    "FormatMask": "laborum",
+    "FieldWidth": 342,
+    "FormatMask": "expedita",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 177,
-    "LabelLeft": 679,
-    "LabelTop": 968,
-    "LabelWidth": 769,
-    "LastVersionId": 434,
-    "ListTableId": 152,
+    "LabelHeight": 776,
+    "LabelLeft": 51,
+    "LabelTop": 763,
+    "LabelWidth": 434,
+    "LastVersionId": 504,
+    "ListTableId": 722,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 124,
-    "ProgId": "illo",
-    "IsReadOnly": false,
-    "ShortLabel": "fugit",
-    "TabOrder": 407,
-    "TextLength": 899,
-    "Tooltip": "quibusdam",
-    "UdefIdentity": 749,
-    "UDListDefinitionId": 170,
+    "Page1LineNo": 860,
+    "ProgId": "sit",
+    "IsReadOnly": true,
+    "ShortLabel": "aperiam",
+    "TabOrder": 162,
+    "TextLength": 339,
+    "Tooltip": "sint",
+    "UdefIdentity": 770,
+    "UDListDefinitionId": 819,
     "Justification": "Center",
-    "Version": 355,
-    "TemplateVariableName": "Stark-Nitzsche",
+    "Version": 66,
+    "TemplateVariableName": "Parisian-Haley",
     "HasBeenPublished": false,
-    "MdoListName": "Dach, Thiel and Kling",
+    "MdoListName": "Hodkiewicz, Nicolas and Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 148
+        "FieldLength": 299
       }
     }
   }

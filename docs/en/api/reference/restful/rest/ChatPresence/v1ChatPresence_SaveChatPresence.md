@@ -57,28 +57,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 589,
-    "DisplayName": "O'Connell, Hilll and Legros",
-    "OngoingChats": 791,
+    "UserId": 896,
+    "DisplayName": "Auer-Willms",
+    "OngoingChats": 283,
     "Present": false,
     "ChatTopics": [
-      903,
-      137
+      563,
+      85
     ]
   },
   {
-    "UserId": 589,
-    "DisplayName": "O'Connell, Hilll and Legros",
-    "OngoingChats": 791,
+    "UserId": 896,
+    "DisplayName": "Auer-Willms",
+    "OngoingChats": 283,
     "Present": false,
     "ChatTopics": [
-      903,
-      137
+      563,
+      85
     ]
   }
 ]

@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/EMail/EmptyFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MoveToFolder": "praesentium"
+  "MoveToFolder": "sed"
 }
 ```
 

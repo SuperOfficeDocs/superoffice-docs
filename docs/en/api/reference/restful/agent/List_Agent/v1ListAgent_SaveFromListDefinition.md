@@ -83,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 980,
-  "UdListDefinitionId": 246,
+  "Id": 856,
+  "UdListDefinitionId": 878,
   "Item": null
 }
 ```
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 586,
-  "Name": "Kuhn-Huels",
-  "Tooltip": "deserunt",
+  "Id": 481,
+  "Name": "Heller-Brekke",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "UdListDefinitionId": 196,
-  "Rank": 435,
+  "UdListDefinitionId": 529,
+  "Rank": 702,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldLength": 154
     }
   }
 }

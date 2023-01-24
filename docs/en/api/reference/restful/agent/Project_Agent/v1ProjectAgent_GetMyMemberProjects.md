@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 466,
-    "Name": "Stokes-Rogahn",
-    "Description": "Decentralized attitude-oriented leverage",
+    "ProjectId": 920,
+    "Name": "Gleichner, Hackett and Shields",
+    "Description": "Quality-focused optimal extranet",
     "URL": "http://www.example.com/",
-    "Type": "sed",
-    "AssociateId": 74,
-    "AssociateFullName": "Fleta Collier",
-    "TypeId": 412,
-    "Updated": "2005-08-14T17:37:18.6592449+02:00",
-    "StatusId": 161,
-    "Status": "provident",
-    "TextId": 645,
-    "PublishTo": "2018-02-09T17:37:18.6592449+01:00",
-    "PublishFrom": "2018-05-04T17:37:18.6592449+02:00",
+    "Type": "et",
+    "AssociateId": 316,
+    "AssociateFullName": "Clark Monahan",
+    "TypeId": 548,
+    "Updated": "2009-09-13T11:22:38.8520826+02:00",
+    "StatusId": 401,
+    "Status": "omnis",
+    "TextId": 842,
+    "PublishTo": "2016-03-27T11:22:38.8520826+02:00",
+    "PublishFrom": "2007-04-11T11:22:38.8520826+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "428114",
-    "ActiveErpLinks": 445,
+    "ProjectNumber": "1305730",
+    "ActiveErpLinks": 68,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 86
+        "FieldType": "System.String",
+        "FieldLength": 808
       }
     }
   }

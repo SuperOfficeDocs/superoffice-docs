@@ -84,6 +84,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -93,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Turcotte, Funk and Satterfield",
+  "Name": "Cronin-Carter",
   "State": "All"
 }
 ```
@@ -110,36 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 790,
-    "Name": "Dibbert-Zulauf",
-    "AssociateId": 218,
-    "DetailsTable": 380,
-    "DetailsRecord": 821,
+    "Id": 865,
+    "Name": "O'Keefe LLC",
+    "AssociateId": 220,
+    "DetailsTable": 773,
+    "DetailsRecord": 777,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "facere",
-      "ParameterObject2": "et"
+      "ParameterObject1": "iusto",
+      "ParameterObject2": "temporibus"
     },
-    "LastStarted": "2017-04-10T17:37:16.9012407+02:00",
-    "Created": "2004-10-30T17:37:16.9012407+02:00",
-    "StartCount": 717,
-    "DatabaseSerialNumber": "1334588",
-    "Context": "officiis",
-    "Result": "nemo",
+    "LastStarted": "2017-01-17T11:22:37.4461725+01:00",
+    "Created": "2004-04-18T11:22:37.4461725+02:00",
+    "StartCount": 327,
+    "DatabaseSerialNumber": "1194008",
+    "Context": "aliquid",
+    "Result": "incidunt",
     "State": "All",
-    "Description": "Future-proofed systemic functionalities",
-    "Response": "accusantium",
-    "Request": "corporis",
-    "ProgressDescription": "Cross-group transitional definition",
-    "ProgressPercent": 816,
-    "FileName": "Mraz-Kassulke",
+    "Description": "Cross-platform solution-oriented architecture",
+    "Response": "et",
+    "Request": "sed",
+    "ProgressDescription": "Inverse intangible groupware",
+    "ProgressPercent": 23,
+    "FileName": "Gusikowski-Rempel",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 18
+        "FieldLength": 550
       }
     }
   }

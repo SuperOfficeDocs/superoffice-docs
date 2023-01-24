@@ -80,10 +80,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 448,
+  "DocumentId": 24,
   "AllowedReturnTypes": [
-    "accusantium",
-    "atque"
+    "quasi",
+    "incidunt"
   ]
 }
 ```
@@ -95,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "velit",
-  "VersionId": "nemo",
-  "Success": true,
+  "ExternalReference": "quia",
+  "VersionId": "tempora",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "earum",
-  "AdditionalInfo": "incidunt"
+  "Value": "quo",
+  "AdditionalInfo": "sint"
 }
 ```

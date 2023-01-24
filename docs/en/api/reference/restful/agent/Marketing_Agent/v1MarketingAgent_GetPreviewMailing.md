@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 265
+  "ShipmentAddrId": 852
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2009-02-18T17:37:18.3232419+01:00",
+  "SendingTime": "1999-03-03T11:22:38.5708923+01:00",
   "Status": "Blocked",
-  "ShipmentId": 635,
-  "ShipmentDescription": "Centralized 6th generation data-warehouse",
-  "FromAddress": "maxime",
-  "ContactId": 418,
-  "ContactName": "Kris, Hermann and Towne",
-  "PersonId": 959,
-  "PersonFullName": "Jamar Jenkins MD",
-  "ShipmentType": "optio",
-  "MessageId": 490,
-  "MessageSubject": "aut",
-  "DocumentMessageId": 836,
-  "Opened": "2000-12-17T17:37:18.3242416+01:00",
-  "LinkClicks": 516,
+  "ShipmentId": 903,
+  "ShipmentDescription": "Monitored systematic data-warehouse",
+  "FromAddress": "temporibus",
+  "ContactId": 74,
+  "ContactName": "Kuhn, Ziemann and Terry",
+  "PersonId": 977,
+  "PersonFullName": "Telly Kuphal",
+  "ShipmentType": "tempore",
+  "MessageId": 507,
+  "MessageSubject": "quia",
+  "DocumentMessageId": 627,
+  "Opened": "2006-02-28T11:22:38.5708923+01:00",
+  "LinkClicks": 412,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldType": "System.String",
+      "FieldLength": 852
     }
   }
 }

@@ -50,6 +50,8 @@ The TaskMenu to be saved.
 | ArchiveBehaviour | String | None, rightclick on, multiselect |
 | Rank | Integer | Rank order |
 | Encoding | String | Encoding for url |
+| ProgId | String | String key that can be used to uniquely retrieve the task menu; particularly useful for partners and others who do not wish to store database ID's |
+| Deleted | Boolean | True if deleted |
 
 ## Response:
 
@@ -75,6 +77,8 @@ OK
 | ArchiveBehaviour | string | None, rightclick on, multiselect |
 | Rank | int32 | Rank order |
 | Encoding | string | Encoding for url |
+| ProgId | string | String key that can be used to uniquely retrieve the task menu; particularly useful for partners and others who do not wish to store database ID's |
+| Deleted | bool | True if deleted |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -88,18 +92,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 56,
-  "Name": "King-Rath",
-  "Tooltip": "quisquam",
-  "TableName": "Mohr-Mueller",
-  "Area": "porro",
+  "TaskMenuId": 900,
+  "Name": "Wiegand, Hagenes and Gusikowski",
+  "Tooltip": "natus",
+  "TableName": "Torp-Pacocha",
+  "Area": "veritatis",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 140,
+  "CrmScriptId": 990,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 120,
-  "Encoding": "ANSI"
+  "Rank": 591,
+  "Encoding": "ANSI",
+  "ProgId": "inventore",
+  "Deleted": true
 }
 ```
 
@@ -110,24 +116,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 834,
-  "Name": "McDermott Inc and Sons",
-  "Tooltip": "accusamus",
-  "TableName": "Adams-Marquardt",
-  "Area": "est",
+  "TaskMenuId": 486,
+  "Name": "Medhurst, Wilderman and Jerde",
+  "Tooltip": "recusandae",
+  "TableName": "Hessel, Feest and Beatty",
+  "Area": "magnam",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 629,
+  "CrmScriptId": 965,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 980,
+  "Rank": 306,
   "Encoding": "ANSI",
+  "ProgId": "fuga",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldLength": 200
     }
   }
 }

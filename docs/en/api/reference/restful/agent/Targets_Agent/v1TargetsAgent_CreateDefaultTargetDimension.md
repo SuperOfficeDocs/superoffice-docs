@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,24 +74,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 559,
+  "TargetDimensionId": 177,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "quisquam",
-  "DimensionListName": "Carter-Cassin",
-  "DimensionListId": 752,
-  "DimensionListLabel": "doloremque",
+  "DimensionListField": "nihil",
+  "DimensionListName": "Collins, Bosco and Haley",
+  "DimensionListId": 468,
+  "DimensionListLabel": "sequi",
   "SelectedDimensions": [
-    914,
-    17
+    361,
+    15
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldLength": 283
     }
   }
 }

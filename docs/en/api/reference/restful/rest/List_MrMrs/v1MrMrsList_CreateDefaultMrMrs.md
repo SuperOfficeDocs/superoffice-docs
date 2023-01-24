@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 891,
-  "Name": "Braun-Kohler",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "UdListDefinitionId": 416,
-  "Rank": 812,
+  "Id": 278,
+  "Name": "Carroll, Littel and Dare",
+  "Tooltip": "cum",
+  "Deleted": true,
+  "UdListDefinitionId": 118,
+  "Rank": 605,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 1000
     }
   }
 }

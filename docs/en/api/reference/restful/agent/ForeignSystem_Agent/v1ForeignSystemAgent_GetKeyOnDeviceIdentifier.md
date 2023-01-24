@@ -90,12 +90,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Treutel, Stokes and Feeney",
-  "DeviceName": "Kuhlman Inc and Sons",
-  "DeviceIdentifier": "id",
-  "KeyName": "O'Keefe, Hegmann and D'Amore",
-  "TableName": "Strosin Inc and Sons",
-  "RecordId": 262
+  "ApplicationName": "Beatty LLC",
+  "DeviceName": "Rau, Morar and Dickens",
+  "DeviceIdentifier": "rerum",
+  "KeyName": "Welch, Friesen and Nicolas",
+  "TableName": "O'Reilly, Sauer and Hahn",
+  "RecordId": 398
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "omnis",
-  "Value": "quis",
-  "RecordId": 39,
-  "CreatedDate": "1996-02-15T17:37:18.1062445+01:00",
-  "UpdatedDate": "1999-03-16T17:37:18.1062445+01:00",
-  "UpdatedBy": "id",
-  "CreatedBy": "assumenda",
-  "TableName": "Hegmann, Cassin and Casper",
+  "Key": "reiciendis",
+  "Value": "quia",
+  "RecordId": 476,
+  "CreatedDate": "2004-10-31T11:22:38.3834434+01:00",
+  "UpdatedDate": "2021-02-26T11:22:38.3834434+01:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "labore",
+  "TableName": "Treutel, Parker and Gerhold",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 69
+      "FieldType": "System.Int32",
+      "FieldLength": 62
     }
   }
 }

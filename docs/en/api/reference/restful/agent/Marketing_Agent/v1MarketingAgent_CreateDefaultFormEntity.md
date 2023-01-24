@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 16,
-  "FormKey": "quisquam",
-  "Name": "Murray LLC",
-  "Description": "Self-enabling fresh-thinking analyzer",
-  "Config": "magnam",
-  "FolderId": 265,
-  "ScriptId": 437,
-  "ResponseShipmentId": 546,
+  "FormId": 419,
+  "FormKey": "ipsum",
+  "Name": "Howell Inc and Sons",
+  "Description": "Object-based intermediate moratorium",
+  "Config": "similique",
+  "FolderId": 236,
+  "ScriptId": 221,
+  "ResponseShipmentId": 669,
   "Active": true,
-  "Expires": "2020-09-22T17:37:18.3122419+02:00",
-  "MaxSubmits": 957,
+  "Expires": "2008-10-12T11:22:38.5552678+02:00",
+  "MaxSubmits": 215,
   "Type": "Normal",
-  "Recipe": "fuga",
-  "GroupId": 787,
+  "Recipe": "unde",
+  "GroupId": 913,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2005-07-08T17:37:18.3122419+02:00",
-  "RegisteredAssociateId": 592,
-  "Updated": "1999-08-27T17:37:18.3122419+02:00",
-  "UpdatedAssociateId": 762,
-  "UpdatedCount": 180,
-  "FolderName": "Graham, Barrows and Hagenes",
+  "Registered": "2003-09-29T11:22:38.5552678+02:00",
+  "RegisteredAssociateId": 304,
+  "Updated": "2007-06-10T11:22:38.5552678+02:00",
+  "UpdatedAssociateId": 647,
+  "UpdatedCount": 526,
+  "FolderName": "Dooley-Skiles",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldType": "System.String",
+      "FieldLength": 30
     }
   }
 }

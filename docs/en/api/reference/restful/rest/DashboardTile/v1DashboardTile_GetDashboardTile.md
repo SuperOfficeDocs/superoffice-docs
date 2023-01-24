@@ -85,7 +85,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,64 +95,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 361,
-  "Caption": "ea",
-  "Description": "Horizontal foreground standardization",
-  "ChartName": "Heaney Group",
-  "ChartId": "pariatur",
+  "DashboardTileId": 575,
+  "Caption": "expedita",
+  "Description": "Quality-focused demand-driven challenge",
+  "ChartName": "Kris LLC",
+  "ChartId": "dicta",
   "IsDefault": false,
-  "AssociateId": 534,
-  "GroupId": 223,
-  "SelectionId": 131,
-  "Config": "vel",
+  "AssociateId": 767,
+  "GroupId": 766,
+  "SelectionId": 176,
+  "Config": "fuga",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hickle LLC",
-      "Description": "Down-sized full-range adapter",
+      "Name": "Bins, Beahan and Feil",
+      "Description": "Exclusive full-range encoding",
       "Type": "Boolean",
-      "ListName": "O'Keefe, Rodriguez and Blanda",
+      "ListName": "Bergnaum-Schiller",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "earum",
+      "Value": "officia",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 102
+          "FieldLength": 476
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 734,
+      "VisibleId": 875,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 377
+          "FieldLength": 472
         }
       }
     },
     {
-      "VisibleId": 734,
+      "VisibleId": 875,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 377
+          "FieldLength": 472
         }
       }
     }
@@ -162,12 +162,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldLength": 891
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

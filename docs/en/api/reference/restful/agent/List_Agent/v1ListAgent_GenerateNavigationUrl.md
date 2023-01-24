@@ -73,7 +73,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Heller Inc and Sons"
+  "WindowName": "Herzog-VonRueden"
 }
 ```
 

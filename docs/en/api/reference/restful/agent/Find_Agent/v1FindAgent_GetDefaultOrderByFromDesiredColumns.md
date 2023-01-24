@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schneider-Thiel",
+  "ProviderName": "Lynch, Bahringer and Reynolds",
   "DesiredColumns": [
-    "consequuntur",
-    "assumenda"
+    "beatae",
+    "nesciunt"
   ]
 }
 ```
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nader, Frami and Auer",
+    "Name": "Daugherty LLC",
     "Direction": "ASC"
   },
   {
-    "Name": "Nader, Frami and Auer",
+    "Name": "Daugherty LLC",
     "Direction": "ASC"
   }
 ]

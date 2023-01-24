@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 591
+  "SaleId": 896
 }
 ```
 
@@ -145,63 +145,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-10-31T17:37:16.5142412+01:00",
-  "AppointmentId": 962,
-  "Description": "Adaptive disintermediate contingency",
-  "StartDate": "2021-12-20T17:37:16.5142412+01:00",
-  "EndDate": "2005-04-25T17:37:16.5142412+02:00",
+  "CreatedDate": "2000-01-24T11:22:37.1493561+01:00",
+  "AppointmentId": 726,
+  "Description": "Open-source eco-centric encoding",
+  "StartDate": "2015-06-22T11:22:37.1493561+02:00",
+  "EndDate": "2016-11-24T11:22:37.1493561+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 247,
+  "MotherId": 181,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-09-06T17:37:16.518242+02:00",
+  "UpdatedDate": "1996-09-08T11:22:37.1493561+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 622,
+  "ActiveLinks": 640,
   "Links": [
     {
-      "EntityName": "Hyatt-Hermann",
-      "Id": 524,
-      "Description": "Expanded bifurcated frame",
-      "ExtraInfo": "velit",
-      "LinkId": 947,
+      "EntityName": "Swift, Willms and Moen",
+      "Id": 659,
+      "Description": "Right-sized neutral encryption",
+      "ExtraInfo": "dignissimos",
+      "LinkId": 660,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldLength": 867
         }
       }
     }
   ],
-  "AlarmLeadTime": "ut",
+  "AlarmLeadTime": "ad",
   "HasAlarm": false,
-  "ColorIndex": 705,
+  "ColorIndex": 252,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "rerum",
-  "LeadTime": "dolores",
-  "Location": "dolor",
-  "RejectCounter": 734,
+  "LagTime": "culpa",
+  "LeadTime": "dignissimos",
+  "Location": "qui",
+  "RejectCounter": 737,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 704,
-      "PersonId": 753,
-      "ContactId": 984,
-      "EmailId": 670,
+      "AssociateId": 519,
+      "PersonId": 429,
+      "ContactId": 496,
+      "EmailId": 117,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 704,
-      "PersonId": 753,
-      "ContactId": 984,
-      "EmailId": 670,
+      "AssociateId": 519,
+      "PersonId": 429,
+      "ContactId": 496,
+      "EmailId": 117,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -209,58 +209,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-09-13T17:37:16.518242+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2004-07-03T11:22:37.1493561+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 657,
+  "PreferredTZLocation": 550,
   "Sale": null,
-  "SuggestedAppointmentId": 960,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 484,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dolores",
+  "CentralserviceVideomeetId": "cum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Bryana Haley II",
-    "SuperOffice:2": "Kallie Toy DDS"
+    "SuperOffice:1": "Judd Metz MD",
+    "SuperOffice:2": "Mrs. Emmet Walker Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "non",
+    "ExtraFields2": "consequuntur"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "fugiat"
+    "CustomFields1": "corrupti",
+    "CustomFields2": "nesciunt"
   },
-  "PublishEventDate": "2000-11-24T17:37:16.5202431+01:00",
-  "PublishTo": "2020-07-24T17:37:16.5202431+02:00",
-  "PublishFrom": "2002-05-09T17:37:16.5202431+02:00",
+  "PublishEventDate": "2021-11-16T11:22:37.1493561+01:00",
+  "PublishTo": "2017-12-01T11:22:37.1493561+01:00",
+  "PublishFrom": "2017-02-06T11:22:37.1493561+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 231,
+      "VisibleId": 241,
       "Visibility": "All",
-      "DisplayValue": "hic",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldType": "System.String",
+          "FieldLength": 229
         }
       }
     },
     {
-      "VisibleId": 231,
+      "VisibleId": 241,
       "Visibility": "All",
-      "DisplayValue": "hic",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldType": "System.String",
+          "FieldLength": 229
         }
       }
     }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 580
+      "FieldLength": 764
     }
   }
 }

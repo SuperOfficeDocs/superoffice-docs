@@ -89,7 +89,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 598,
-  "ERPProductKey": "officiis",
-  "ERPPriceListKey": "ex",
-  "Name": "Mann, Armstrong and Monahan",
-  "Description": "Re-engineered context-sensitive installation",
-  "Code": "provident",
-  "PriceUnit": "reprehenderit",
-  "QuantityUnit": "voluptatum",
+  "ProductId": 30,
+  "ERPProductKey": "eligendi",
+  "ERPPriceListKey": "non",
+  "Name": "Bogisich, Gusikowski and Hauck",
+  "Description": "Multi-tiered discrete approach",
+  "Code": "et",
+  "PriceUnit": "ad",
+  "QuantityUnit": "asperiores",
   "IsSubscription": false,
-  "SubscriptionUnit": "vel",
-  "DefaultSubscriptionQuantity": 8120.1939999999995,
-  "ItemNumber": "651445",
+  "SubscriptionUnit": "repudiandae",
+  "DefaultSubscriptionQuantity": 7997.968,
+  "ItemNumber": "973519",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "est",
-  "ProductTypeKey": "assumenda",
-  "VAT": 11912.333999999999,
-  "VATInfo": "atque",
-  "UnitCost": 1946.214,
-  "UnitMinimumPrice": 5428.088,
-  "UnitListPrice": 22461.378,
-  "InAssortment": true,
-  "Supplier": "et",
-  "SupplierCode": "consequuntur",
-  "Rights": "quaerat",
-  "Rule": "nostrum",
+  "ProductFamilyKey": "consectetur",
+  "ProductTypeKey": "eaque",
+  "VAT": 25780.284,
+  "VATInfo": "nemo",
+  "UnitCost": 12639.422,
+  "UnitMinimumPrice": 10492.632,
+  "UnitListPrice": 13200.408,
+  "InAssortment": false,
+  "Supplier": "eos",
+  "SupplierCode": "nihil",
+  "Rights": "placeat",
+  "Rule": "voluptatibus",
   "ExtraInfo": [
     {
-      "Name": "O'Reilly Group",
-      "Value": "molestiae",
+      "Name": "Jewess LLC",
+      "Value": "commodi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 344
         }
       }
     },
     {
-      "Name": "O'Reilly Group",
-      "Value": "molestiae",
+      "Name": "Jewess LLC",
+      "Value": "commodi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 344
         }
       }
     }
   ],
-  "RawExtraInfo": "dolores",
-  "ExtraField1": "occaecati",
-  "ExtraField2": "ut",
-  "ExtraField3": "tempore",
-  "ExtraField4": "laborum",
-  "ExtraField5": "expedita",
-  "InStock": 26501.104,
+  "RawExtraInfo": "in",
+  "ExtraField1": "esse",
+  "ExtraField2": "voluptatum",
+  "ExtraField3": "quasi",
+  "ExtraField4": "quam",
+  "ExtraField5": "earum",
+  "InStock": 30418.604,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 785
+      "FieldType": "System.Int32",
+      "FieldLength": 384
     }
   }
 }

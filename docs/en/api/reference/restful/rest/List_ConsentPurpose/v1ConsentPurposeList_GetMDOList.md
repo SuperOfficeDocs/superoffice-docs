@@ -26,7 +26,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=error
+GET /api/v1/List/ConsentPurpose/MDOItems?query=ipsa
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 316,
-    "Name": "Wyman, Durgan and Trantow",
-    "ToolTip": "Tenetur sit veniam.",
+    "Id": 528,
+    "Name": "Nikolaus-Stokes",
+    "ToolTip": "Quo reprehenderit quibusdam quos eaque est.",
     "Deleted": false,
-    "Rank": 766,
-    "Type": "animi",
+    "Rank": 693,
+    "Type": "fugiat",
     "ChildItems": [
       {
-        "Id": 576,
-        "Name": "Brakus, Ernser and Dare",
-        "ToolTip": "Architecto provident et.",
-        "Deleted": true,
-        "Rank": 598,
-        "Type": "numquam",
+        "Id": 84,
+        "Name": "Funk Inc and Sons",
+        "ToolTip": "Consectetur doloremque quaerat.",
+        "Deleted": false,
+        "Rank": 741,
+        "Type": "minus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 501,
-        "ExtraInfo": "aut",
-        "StyleHint": "rerum",
-        "FullName": "Cortney Stamm",
+        "IconHint": "alias",
+        "ColorBlock": 908,
+        "ExtraInfo": "omnis",
+        "StyleHint": "dolores",
+        "FullName": "Deangelo Fisher",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldType": "System.String",
+            "FieldLength": 656
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 2,
-    "ExtraInfo": "beatae",
-    "StyleHint": "reprehenderit",
-    "FullName": "Ms. Leanna Kole Torp",
+    "IconHint": "dolorem",
+    "ColorBlock": 136,
+    "ExtraInfo": "architecto",
+    "StyleHint": "aliquam",
+    "FullName": "Lauren Leannon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldType": "System.String",
+        "FieldLength": 929
       }
     }
   }

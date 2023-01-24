@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kemmer, Macejkovic and Collins",
-  "Context": "rem"
+  "ProviderName": "Larson-Rath",
+  "Context": "nemo"
 }
 ```
 
@@ -102,19 +102,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Moen-Nikolaus",
-    "DisplayTooltip": "eaque",
-    "DisplayType": "voluptate",
+    "DisplayName": "Konopelski-Wilderman",
+    "DisplayTooltip": "pariatur",
+    "DisplayType": "aspernatur",
     "CanOrderBy": true,
-    "Name": "Davis, Ferry and McClure",
+    "Name": "Sanford-Mraz",
     "CanRestrictBy": false,
-    "RestrictionType": "et",
-    "RestrictionListName": "Hoeger-Kiehn",
-    "IsVisible": false,
-    "ExtraInfo": "itaque",
-    "Width": "distinctio",
-    "IconHint": "et",
-    "HeadingIconHint": "et"
+    "RestrictionType": "rerum",
+    "RestrictionListName": "Leffler Inc and Sons",
+    "IsVisible": true,
+    "ExtraInfo": "quaerat",
+    "Width": "mollitia",
+    "IconHint": "qui",
+    "HeadingIconHint": "facere"
   }
 ]
 ```

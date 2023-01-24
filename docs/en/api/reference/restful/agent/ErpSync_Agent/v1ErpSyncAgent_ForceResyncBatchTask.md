@@ -66,14 +66,14 @@ No Content
 POST /api/v1/Agents/ErpSync/ForceResyncBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 104,
+  "ErpConnectionId": 284,
   "InternalKeyIds": [
-    615,
-    533
+    491,
+    897
   ]
 }
 ```

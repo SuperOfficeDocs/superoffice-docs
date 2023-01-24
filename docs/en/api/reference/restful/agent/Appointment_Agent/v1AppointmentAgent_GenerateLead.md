@@ -87,22 +87,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 83,
-  "LeadDescription": "Managed 6th generation instruction set",
+  "AssociateIdForNewContact": 310,
+  "LeadDescription": "Robust composite encryption",
   "Relation": "aut",
-  "RelationId": 786,
-  "LeadContact": "enim",
-  "LeadPersonFirstname": "Eusebio",
-  "LeadPersonLastname": "Hermann",
-  "LeadPersonEmail": "jonatan.nolan@paucekdaniel.co.uk",
-  "LeadPhoneNumber": "653458",
-  "CreatorsContact": "illum",
-  "CreatorsFirstname": "Johan",
-  "CreatorsLastname": "Friesen"
+  "RelationId": 586,
+  "LeadContact": "id",
+  "LeadPersonFirstname": "Alessia",
+  "LeadPersonLastname": "Raynor",
+  "LeadPersonEmail": "kylie@mcclure.co.uk",
+  "LeadPhoneNumber": "392014",
+  "CreatorsContact": "nam",
+  "CreatorsFirstname": "Erica",
+  "CreatorsLastname": "Pfeffer"
 }
 ```
 
@@ -115,36 +115,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 5,
-      "Name": "Hane Inc and Sons",
-      "OrgNr": "1406732",
+      "ContactId": 802,
+      "Name": "Grimes, Simonis and Mayer",
+      "OrgNr": "436201",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "fugiat",
-      "DirectPhone": "794-821-8886 x147",
-      "AssociateId": 149,
-      "CountryId": 162,
-      "EmailAddress": "melvin_feeney@hackett.info",
-      "Kananame": "officiis",
-      "EmailAddressName": "macey@hirtheschuppe.com",
+      "City": "pariatur",
+      "DirectPhone": "1-722-895-7953 x80719",
+      "AssociateId": 434,
+      "CountryId": 373,
+      "EmailAddress": "hoyt_walsh@bartell.biz",
+      "Kananame": "quisquam",
+      "EmailAddressName": "cindy_pacocha@langosh.info",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Alexie Collier",
+      "AssociateFullName": "Gracie Zboncak PhD",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "quas",
-      "FullName": "Cooper Batz",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 294,
-      "Number1": "762912",
-      "Number2": "1705073",
+      "FormattedAddress": "omnis",
+      "FullName": "Ray Haley",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 615,
+      "Number1": "1424118",
+      "Number2": "894822",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldLength": 127
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldType": "System.Int32",
+      "FieldLength": 448
     }
   }
 }

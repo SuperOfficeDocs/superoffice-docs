@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Botsford-Schumm",
+  "UdListDefinitionName": "Hilll Inc and Sons",
   "Item": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 893,
-  "Name": "Abbott Group",
-  "Tooltip": "labore",
-  "Deleted": true,
-  "UdListDefinitionId": 716,
-  "Rank": 919,
+  "Id": 337,
+  "Name": "Baumbach-Bins",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "UdListDefinitionId": 659,
+  "Rank": 276,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 225
+      "FieldType": "System.Int32",
+      "FieldLength": 157
     }
   }
 }

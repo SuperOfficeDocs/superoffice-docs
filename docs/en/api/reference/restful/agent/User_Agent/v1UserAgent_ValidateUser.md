@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/User/ValidateUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -84,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quam",
-  "2": "reprehenderit"
+  "1": "distinctio",
+  "2": "eaque"
 }
 ```

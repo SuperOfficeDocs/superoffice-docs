@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Pfannerstill-Cronin",
-  "IncludeDeleted": false
+  "UdListDefinitionName": "Torphy LLC",
+  "IncludeDeleted": true
 }
 ```
 
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Cummings LLC",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "UdListDefinitionId": 954,
-    "Rank": 320,
+    "Id": 833,
+    "Name": "Conn Inc and Sons",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "UdListDefinitionId": 159,
+    "Rank": 648,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 796
+        "FieldType": "System.Int32",
+        "FieldLength": 714
       }
     }
   }

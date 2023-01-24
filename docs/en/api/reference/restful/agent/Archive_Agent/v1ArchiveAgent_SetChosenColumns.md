@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Jenkins, Ortiz and Welch",
-  "ProviderName": "Von Group",
+  "GuiName": "Sporer Group",
+  "ProviderName": "Sanford, Deckow and Schultz",
   "ChosenColumns": [
-    "eos",
-    "voluptas"
+    "ullam",
+    "beatae"
   ]
 }
 ```

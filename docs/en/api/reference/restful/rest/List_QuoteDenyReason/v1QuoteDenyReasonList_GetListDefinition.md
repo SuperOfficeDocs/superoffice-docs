@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 586,
-  "Name": "Jaskolski, Armstrong and Yost",
-  "Tooltip": "asperiores",
+  "Id": 396,
+  "Name": "Mann Inc and Sons",
+  "Tooltip": "amet",
   "Deleted": true,
-  "Rank": 662,
-  "IsCustomList": false,
+  "Rank": 224,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "exercitationem",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 291
+      "FieldLength": 974
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

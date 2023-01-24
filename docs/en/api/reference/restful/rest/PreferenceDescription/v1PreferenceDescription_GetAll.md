@@ -71,7 +71,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 161,
-    "Section": "autem",
-    "Key": "dolorum",
-    "Name": "Upton, Moore and Klein",
+    "PrefDescId": 779,
+    "Section": "nemo",
+    "Key": "voluptates",
+    "Name": "Pouros, Kuhlman and Bins",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Profit-focused composite hierarchy",
+    "Description": "Distributed needs-based database",
     "IsBuiltin": false,
-    "TableName": "Kub, Emmerich and Watsica",
-    "UserDefinedListId": 424,
-    "Rank": 228,
-    "SubGroup": "corrupti",
-    "MinLevel": 171,
-    "MaxValue": 156,
-    "MinValue": 400,
-    "RequiredLicense": "delectus",
+    "TableName": "Donnelly Group",
+    "UserDefinedListId": 694,
+    "Rank": 222,
+    "SubGroup": "error",
+    "MinLevel": 638,
+    "MaxValue": 559,
+    "MinValue": 155,
+    "RequiredLicense": "quas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldType": "System.String",
+        "FieldLength": 865
       }
     }
   }

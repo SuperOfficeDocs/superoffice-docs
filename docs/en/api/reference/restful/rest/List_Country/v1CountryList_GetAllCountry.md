@@ -26,7 +26,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=True
+GET /api/v1/List/Country/Items?includeDeleted=False
 ```
 
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 419,
-    "Name": "White LLC",
-    "CurrencyId": 93,
-    "EnglishName": "Kovacek-Kihn",
+    "CountryId": 475,
+    "Name": "Schiller, Maggio and Schmeler",
+    "CurrencyId": 583,
+    "EnglishName": "O'Reilly-Wyman",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Organized intermediate knowledge base",
-    "OrgNrText": "1233074",
-    "InterAreaPrefix": "temporibus",
-    "DialInPrefix": "tempora",
-    "ZipPrefix": "ut",
-    "DomainName": "Turcotte-Mitchell",
-    "AddressLayoutId": 505,
-    "DomesticAddressLayoutId": 22,
-    "ForeignAddressLayoutId": 925,
-    "Rank": 649,
-    "Tooltip": "nihil",
-    "Deleted": false,
+    "ImageDescription": "Ergonomic clear-thinking alliance",
+    "OrgNrText": "1366286",
+    "InterAreaPrefix": "sapiente",
+    "DialInPrefix": "sunt",
+    "ZipPrefix": "sint",
+    "DomainName": "Spinka Group",
+    "AddressLayoutId": 474,
+    "DomesticAddressLayoutId": 807,
+    "ForeignAddressLayoutId": 935,
+    "Rank": 325,
+    "Tooltip": "sequi",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldLength": 313
       }
     }
   }

@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 137,
-  "After": 547
+  "ChatSessionId": 952,
+  "After": 563
 }
 ```
 
@@ -96,15 +96,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 237,
-    "ChatSessionId": 139,
+    "ChatMessageId": 573,
+    "ChatSessionId": 725,
     "Type": "Invalid",
-    "Message": "inventore",
-    "Author": "perspiciatis",
-    "ReadByCustomer": 537,
+    "Message": "quae",
+    "Author": "distinctio",
+    "ReadByCustomer": 4,
     "SpecialType": "Block",
-    "SpecialParam": "repellat",
-    "WhenPosted": "2001-08-29T17:37:17.0772438+02:00"
+    "SpecialParam": "quis",
+    "WhenPosted": "1997-08-07T11:22:37.5711376+02:00"
   }
 ]
 ```

@@ -31,8 +31,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=quo
-GET /api/v1/MDOList/{listname}?query=non
+GET /api/v1/MDOList/{listname}?additional=sint
+GET /api/v1/MDOList/{listname}?query=est
 ```
 
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,50 +94,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 102,
-    "Name": "Gerlach-Leannon",
-    "ToolTip": "Sed vero officia fugit voluptatem temporibus.",
+    "Id": 182,
+    "Name": "Dare-Friesen",
+    "ToolTip": "Omnis culpa beatae hic dicta.",
     "Deleted": true,
-    "Rank": 178,
-    "Type": "ipsa",
+    "Rank": 290,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 571,
-        "Name": "King Group",
-        "ToolTip": "At dolorum ut ut dolorem.",
+        "Id": 93,
+        "Name": "Kub, Parisian and Purdy",
+        "ToolTip": "Voluptates sed qui in numquam quidem sed voluptatem.",
         "Deleted": true,
-        "Rank": 313,
-        "Type": "amet",
+        "Rank": 786,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 970,
-        "ExtraInfo": "cum",
-        "StyleHint": "laboriosam",
-        "FullName": "Ross Paucek",
+        "IconHint": "quo",
+        "ColorBlock": 585,
+        "ExtraInfo": "amet",
+        "StyleHint": "non",
+        "FullName": "Jaylin Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 478
+            "FieldLength": 779
           }
         }
       }
     ],
-    "IconHint": "cupiditate",
-    "ColorBlock": 525,
-    "ExtraInfo": "quis",
-    "StyleHint": "fugit",
-    "FullName": "Kenny Mayer",
+    "IconHint": "non",
+    "ColorBlock": 699,
+    "ExtraInfo": "mollitia",
+    "StyleHint": "et",
+    "FullName": "Kiel Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 888
+        "FieldType": "System.Int32",
+        "FieldLength": 219
       }
     }
   }

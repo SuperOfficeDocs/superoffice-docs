@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 115,
-  "Name": "Steuber, Kub and Block",
-  "ContentType": "natus",
-  "AttSize": 498,
-  "InlineImage": true,
-  "ContentId": "ratione",
+  "AttachmentId": 900,
+  "Name": "Parker-Abernathy",
+  "ContentType": "non",
+  "AttSize": 40,
+  "InlineImage": false,
+  "ContentId": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 758
+      "FieldLength": 391
     }
   }
 }

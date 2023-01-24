@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 507
+  "QuoteId": 691
 }
 ```
 
@@ -99,58 +99,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 570,
-  "SaleId": 210,
-  "QuoteConnectionId": 358,
-  "ERPQuoteKey": "voluptas",
-  "ERPOrderKey": "molestiae",
-  "ActiveQuoteVersionId": 223,
-  "AcceptedQuoteAlternativeId": 685,
-  "UseValuesFromQuote": 413,
-  "DocumentId": 14,
-  "PoNumber": "635895",
-  "OrderComment": "velit",
-  "PreferredEmailCulture": "adolph@effertz.ca",
+  "QuoteId": 588,
+  "SaleId": 206,
+  "QuoteConnectionId": 121,
+  "ERPQuoteKey": "culpa",
+  "ERPOrderKey": "architecto",
+  "ActiveQuoteVersionId": 139,
+  "AcceptedQuoteAlternativeId": 299,
+  "UseValuesFromQuote": 141,
+  "DocumentId": 757,
+  "PoNumber": "962931",
+  "OrderComment": "praesentium",
+  "PreferredEmailCulture": "aniya_ward@kling.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 806,
-      "ERPQuoteVersionKey": "ducimus",
-      "QuoteId": 977,
-      "Description": "Decentralized exuding adapter",
-      "Number": "828334",
+      "QuoteVersionId": 462,
+      "ERPQuoteVersionKey": "illum",
+      "QuoteId": 67,
+      "Description": "Synergized system-worthy application",
+      "Number": "743438",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 628,
-      "SentDate": "2014-08-10T17:37:18.7532417+02:00",
-      "FollowupId": 51,
-      "ExpirationDate": "2010-02-26T17:37:18.7532417+01:00",
-      "DeliveryCountryId": 507,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 502,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "modi",
-      "ERPPaymentTypeKey": "quis",
-      "ERPDeliveryTermsKey": "ex",
-      "ERPDeliveryTypeKey": "dignissimos",
-      "Rank": 415,
-      "ApprovedBy": 636,
-      "ApprovedText": "minus",
-      "ApprovedRegisteredBy": 686,
-      "ApprovedRegisteredDate": "2006-07-29T17:37:18.7532417+02:00",
-      "ExtraField1": "corporis",
-      "ExtraField2": "odio",
-      "ExtraField3": "laudantium",
-      "ExtraField4": "eum",
-      "ExtraField5": "quia",
-      "LastRecalculated": "2003-04-28T17:37:18.7532417+02:00",
-      "Updated": "2019-11-22T17:37:18.7532417+01:00",
-      "UpdatedAssociateId": 566,
-      "Registered": "2008-03-25T17:37:18.7532417+01:00",
-      "RegisteredAssociateId": 869,
-      "RequestAssociateId": 115,
-      "RequestComment": "molestiae",
+      "LikelyQuoteAlternativeId": 881,
+      "SentDate": "1997-05-11T11:22:38.9301893+02:00",
+      "FollowupId": 860,
+      "ExpirationDate": "2012-04-27T11:22:38.9301893+02:00",
+      "DeliveryCountryId": 210,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 950,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "aut",
+      "ERPPaymentTypeKey": "nemo",
+      "ERPDeliveryTermsKey": "distinctio",
+      "ERPDeliveryTypeKey": "deserunt",
+      "Rank": 404,
+      "ApprovedBy": 771,
+      "ApprovedText": "unde",
+      "ApprovedRegisteredBy": 121,
+      "ApprovedRegisteredDate": "2009-02-12T11:22:38.9301893+01:00",
+      "ExtraField1": "et",
+      "ExtraField2": "error",
+      "ExtraField3": "sit",
+      "ExtraField4": "quis",
+      "ExtraField5": "omnis",
+      "LastRecalculated": "2021-06-04T11:22:38.9301893+02:00",
+      "Updated": "2005-05-01T11:22:38.9301893+02:00",
+      "UpdatedAssociateId": 431,
+      "Registered": "2009-09-15T11:22:38.9301893+02:00",
+      "RegisteredAssociateId": 985,
+      "RequestAssociateId": 993,
+      "RequestComment": "quisquam",
       "QuoteAlternatives": [
         {},
         {}
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 440
+          "FieldType": "System.Int32",
+          "FieldLength": 709
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 717
     }
   }
 }

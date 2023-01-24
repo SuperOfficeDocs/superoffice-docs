@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 491,
-    "Name": "Cummerata Inc and Sons",
-    "Tooltip": "deserunt",
-    "Deleted": false,
-    "Rank": 401,
-    "UdListDefinitionId": 115
+    "HeadingId": 504,
+    "Name": "Kuhn, Johnston and Tillman",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 54,
+    "UdListDefinitionId": 337
   },
   {
-    "HeadingId": 491,
-    "Name": "Cummerata Inc and Sons",
-    "Tooltip": "deserunt",
-    "Deleted": false,
-    "Rank": 401,
-    "UdListDefinitionId": 115
+    "HeadingId": 504,
+    "Name": "Kuhn, Johnston and Tillman",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 54,
+    "UdListDefinitionId": 337
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 870,
-    "Name": "Walter, Roob and Brekke",
-    "Tooltip": "quae",
-    "Deleted": true,
-    "Rank": 761,
-    "UdListDefinitionId": 512,
+    "HeadingId": 56,
+    "Name": "Watsica Group",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "Rank": 403,
+    "UdListDefinitionId": 965,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 817
+        "FieldType": "System.Int32",
+        "FieldLength": 672
       }
     }
   }

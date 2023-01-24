@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 634,
-  "Name": "Hessel Group",
-  "Tooltip": "fugiat",
-  "Deleted": true,
-  "Rank": 281,
-  "UdListDefinitionId": 115
+  "HeadingId": 278,
+  "Name": "Renner, Crona and Stanton",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 722,
+  "UdListDefinitionId": 274
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 977,
-  "Name": "Johnston, Schaefer and Block",
-  "Tooltip": "aut",
+  "HeadingId": 271,
+  "Name": "O'Kon Inc and Sons",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 417,
-  "UdListDefinitionId": 372,
+  "Rank": 628,
+  "UdListDefinitionId": 160,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 543
     }
   }
 }

@@ -92,7 +92,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 676,
-  "ColumnId": 165,
-  "FieldDefault": "tenetur",
-  "FieldHeight": 276,
-  "FieldLabel": "cumque",
-  "FieldLeft": 632,
-  "FieldTop": 879,
+  "UDefFieldId": 283,
+  "ColumnId": 139,
+  "FieldDefault": "hic",
+  "FieldHeight": 125,
+  "FieldLabel": "nihil",
+  "FieldLeft": 929,
+  "FieldTop": 83,
   "FieldType": "Checkbox",
-  "FieldWidth": 473,
-  "FormatMask": "provident",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 121,
-  "LabelLeft": 453,
-  "LabelTop": 894,
-  "LabelWidth": 849,
-  "LastVersionId": 653,
-  "ListTableId": 691,
+  "FieldWidth": 564,
+  "FormatMask": "occaecati",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 54,
+  "LabelLeft": 84,
+  "LabelTop": 146,
+  "LabelWidth": 613,
+  "LastVersionId": 509,
+  "ListTableId": 281,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 739,
-  "ProgId": "atque",
+  "Page1LineNo": 709,
+  "ProgId": "quis",
   "IsReadOnly": false,
-  "ShortLabel": "accusantium",
-  "TabOrder": 857,
-  "TextLength": 652,
-  "Tooltip": "ut",
-  "UdefIdentity": 472,
-  "UDListDefinitionId": 750,
+  "ShortLabel": "corrupti",
+  "TabOrder": 379,
+  "TextLength": 431,
+  "Tooltip": "labore",
+  "UdefIdentity": 174,
+  "UDListDefinitionId": 516,
   "Justification": "Center",
-  "Version": 805,
-  "TemplateVariableName": "Lemke, Jerde and Ratke",
-  "HasBeenPublished": false,
-  "MdoListName": "Heathcote Inc and Sons",
+  "Version": 197,
+  "TemplateVariableName": "Bins-Paucek",
+  "HasBeenPublished": true,
+  "MdoListName": "Tromp, Kuhn and Labadie",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldLength": 206
     }
   }
 }

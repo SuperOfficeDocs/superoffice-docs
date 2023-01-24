@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,41 +75,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 1002,
-  "Name": "Windler, Grimes and Greenholt",
-  "Tooltip": "molestiae",
-  "Rank": 746,
+  "ProjTypeId": 292,
+  "Name": "Runolfsson, Corwin and O'Connell",
+  "Tooltip": "recusandae",
+  "Rank": 665,
   "DurationUnit": "Century",
-  "ProjectDuration": 48,
+  "ProjectDuration": 637,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 194,
-      "Name": "Skiles-Grady",
-      "ToolTip": "Provident repudiandae omnis voluptatem adipisci exercitationem dolore.",
+      "Id": 825,
+      "Name": "Dickens Inc and Sons",
+      "ToolTip": "Dolores officia tempore eum dolor iure.",
       "Deleted": false,
-      "Rank": 754,
-      "Type": "qui",
-      "ColorBlock": 771,
-      "IconHint": "quibusdam",
+      "Rank": 820,
+      "Type": "accusantium",
+      "ColorBlock": 852,
+      "IconHint": "voluptatem",
       "Selected": false,
-      "LastChanged": "2009-10-09T17:37:18.2802412+02:00",
+      "LastChanged": "2017-04-12T11:22:38.5240368+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "velit",
-      "Hidden": true,
-      "FullName": "Mrs. Pete Borer I",
+      "ExtraInfo": "eos",
+      "StyleHint": "perspiciatis",
+      "Hidden": false,
+      "FullName": "Cody Rogahn MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldType": "System.String",
+          "FieldLength": 384
         }
       }
     }
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldLength": 619
     }
   }
 }

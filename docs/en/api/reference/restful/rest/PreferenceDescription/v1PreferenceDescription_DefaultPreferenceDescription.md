@@ -73,7 +73,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 606,
-  "Section": "recusandae",
-  "Key": "dolores",
-  "Name": "McLaughlin, Fahey and O'Reilly",
+  "PrefDescId": 700,
+  "Section": "doloribus",
+  "Key": "voluptates",
+  "Name": "Olson-Towne",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persevering stable superstructure",
-  "IsBuiltin": false,
-  "TableName": "Pollich, Glover and Hessel",
-  "UserDefinedListId": 884,
-  "Rank": 159,
-  "SubGroup": "temporibus",
-  "MinLevel": 583,
-  "MaxValue": 181,
-  "MinValue": 620,
-  "RequiredLicense": "occaecati",
+  "Description": "Programmable exuding pricing structure",
+  "IsBuiltin": true,
+  "TableName": "Rath, Beer and Kreiger",
+  "UserDefinedListId": 276,
+  "Rank": 544,
+  "SubGroup": "et",
+  "MinLevel": 919,
+  "MaxValue": 84,
+  "MinValue": 717,
+  "RequiredLicense": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 769
+      "FieldType": "System.Int32",
+      "FieldLength": 974
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 676,
-  "Name": "Mann, Hintz and Willms",
-  "Tooltip": "quam",
-  "Deleted": false,
+  "HeadingId": 1002,
+  "Name": "Hoppe-Littel",
+  "Tooltip": "at",
+  "Deleted": true,
   "Rank": 811,
-  "UdListDefinitionId": 675,
+  "UdListDefinitionId": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 786
     }
   }
 }

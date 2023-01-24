@@ -91,7 +91,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 815,
-  "ERPProductKey": "dolorem",
-  "ERPPriceListKey": "ut",
-  "Name": "Mohr, Kuhlman and Larson",
-  "Description": "Programmable cohesive collaboration",
-  "Code": "et",
-  "PriceUnit": "magnam",
-  "QuantityUnit": "id",
-  "IsSubscription": true,
-  "SubscriptionUnit": "architecto",
-  "DefaultSubscriptionQuantity": 12855.668,
-  "ItemNumber": "992787",
+  "ProductId": 812,
+  "ERPProductKey": "vitae",
+  "ERPPriceListKey": "dolorum",
+  "Name": "Hyatt Group",
+  "Description": "Phased human-resource support",
+  "Code": "reprehenderit",
+  "PriceUnit": "perspiciatis",
+  "QuantityUnit": "sit",
+  "IsSubscription": false,
+  "SubscriptionUnit": "sunt",
+  "DefaultSubscriptionQuantity": 13961.97,
+  "ItemNumber": "885335",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatum",
-  "ProductTypeKey": "cumque",
-  "VAT": 28431.647999999997,
-  "VATInfo": "quis",
-  "UnitCost": 14265.967999999999,
-  "UnitMinimumPrice": 8853.55,
-  "UnitListPrice": 13375.912,
+  "ProductFamilyKey": "sint",
+  "ProductTypeKey": "voluptas",
+  "VAT": 22119.772,
+  "VATInfo": "et",
+  "UnitCost": 27372.356,
+  "UnitMinimumPrice": 15575.98,
+  "UnitListPrice": 16572.592,
   "InAssortment": false,
-  "Supplier": "sunt",
-  "SupplierCode": "deserunt",
-  "Rights": "occaecati",
-  "Rule": "dolor",
+  "Supplier": "ea",
+  "SupplierCode": "mollitia",
+  "Rights": "aut",
+  "Rule": "qui",
   "ExtraInfo": [
     {
-      "Name": "Rippin, Homenick and Robel",
-      "Value": "non",
+      "Name": "Nader, Maggio and Cassin",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 167
+          "FieldLength": 338
         }
       }
     },
     {
-      "Name": "Rippin, Homenick and Robel",
-      "Value": "non",
+      "Name": "Nader, Maggio and Cassin",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 167
+          "FieldLength": 338
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "dolore",
-  "ExtraField2": "cupiditate",
-  "ExtraField3": "illo",
-  "ExtraField4": "rerum",
-  "ExtraField5": "et",
-  "InStock": 3159.072,
+  "RawExtraInfo": "assumenda",
+  "ExtraField1": "voluptatum",
+  "ExtraField2": "non",
+  "ExtraField3": "esse",
+  "ExtraField4": "sint",
+  "ExtraField5": "sit",
+  "InStock": 26466.629999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 398
+      "FieldType": "System.Int32",
+      "FieldLength": 754
     }
   }
 }

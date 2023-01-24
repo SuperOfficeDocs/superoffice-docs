@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 821,
-  "Name": "Murazik LLC",
-  "Rank": 559,
-  "Tooltip": "consequatur",
+  "ResourceId": 774,
+  "Name": "Metz-Bogisich",
+  "Rank": 126,
+  "Tooltip": "sit",
   "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "temporibus",
+  "LocationAddress": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 434
     }
   }
 }

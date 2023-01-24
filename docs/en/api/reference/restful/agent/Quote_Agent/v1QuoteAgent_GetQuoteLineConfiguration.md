@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 719
+  "QuoteLineConfigurationId": 734
 }
 ```
 
@@ -95,21 +95,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 240,
-  "FieldName": "Goyette LLC",
-  "Label": "sint",
-  "Tooltip": "rerum",
-  "Editable": false,
-  "InUse": true,
+  "QuoteLineConfigurationId": 954,
+  "FieldName": "Waelchi Inc and Sons",
+  "Label": "eos",
+  "Tooltip": "neque",
+  "Editable": true,
+  "InUse": false,
   "Mandatory": false,
-  "Rank": 359,
-  "RestrictEdit": false,
+  "Rank": 117,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldLength": 700
     }
   }
 }

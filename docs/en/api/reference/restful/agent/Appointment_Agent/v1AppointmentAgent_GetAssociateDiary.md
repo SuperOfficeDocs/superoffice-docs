@@ -123,14 +123,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 473,
-  "StartTime": "2020-02-23T17:37:16.2622417+01:00",
-  "EndTime": "2021-11-10T17:37:16.2622417+01:00",
-  "Count": 502
+  "AssociateId": 302,
+  "StartTime": "2011-07-02T11:22:36.946279+02:00",
+  "EndTime": "2001-09-14T11:22:36.946279+02:00",
+  "Count": 98
 }
 ```
 
@@ -142,53 +142,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 246,
-    "StartDate": "2016-11-22T17:37:16.2632416+01:00",
-    "EndDate": "2009-06-25T17:37:16.2632416+02:00",
+    "AppointmentId": 607,
+    "StartDate": "1996-08-13T11:22:36.946279+02:00",
+    "EndDate": "1997-02-16T11:22:36.946279+01:00",
     "Type": "BookingForChecklist",
-    "Task": "cupiditate",
-    "AssociateFullName": "Madilyn Cormier",
-    "ContactName": "Stoltenberg Group",
-    "Description": "Operative bifurcated open system",
-    "PersonFullName": "Elissa Batz",
-    "PersonId": 857,
-    "ContactId": 584,
-    "ProjectId": 525,
-    "ProjectName": "Zieme, Hyatt and Ullrich",
+    "Task": "dignissimos",
+    "AssociateFullName": "Prof. Sim Jonatan Conn DVM",
+    "ContactName": "Weber, Rau and Klocko",
+    "Description": "Reverse-engineered content-based leverage",
+    "PersonFullName": "Owen Donnelly",
+    "PersonId": 511,
+    "ContactId": 485,
+    "ProjectId": 511,
+    "ProjectName": "McLaughlin-Haley",
     "IsPublished": true,
-    "AssociateId": 446,
-    "ColorIndex": 50,
+    "AssociateId": 853,
+    "ColorIndex": 753,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 913,
-    "PriorityName": "Braun-Gleichner",
+    "PriorityId": 325,
+    "PriorityName": "Koss Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2002-03-09T17:37:16.2642419+01:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "1997-11-19T11:22:36.946279+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-03-08T17:37:16.2642419+01:00",
-    "RecurringEndDate": "2000-09-07T17:37:16.2642419+02:00",
-    "MotherId": 111,
-    "AssignedBy": 958,
-    "AssignedByFullName": "Sophia Purdy",
+    "RecurringStartDate": "2007-09-05T11:22:36.946279+02:00",
+    "RecurringEndDate": "2010-06-05T11:22:36.946279+02:00",
+    "MotherId": 798,
+    "AssignedBy": 609,
+    "AssignedByFullName": "Rose Gorczany",
     "RejectReason": "",
-    "Location": "magni",
-    "AlarmLeadTime": "nisi",
-    "SaleId": 33,
-    "SaleName": "Thompson LLC",
-    "AssociateName": "DuBuque-Bayer",
-    "CreatedDate": "1996-11-13T17:37:16.2642419+01:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Nora Euna Reynolds DVM",
-    "CreatedByAssociateId": 217,
+    "Location": "qui",
+    "AlarmLeadTime": "ab",
+    "SaleId": 591,
+    "SaleName": "Cummings-Turcotte",
+    "AssociateName": "Smith, Fritsch and Kreiger",
+    "CreatedDate": "1999-02-25T11:22:36.946279+01:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Gaetano Frami V",
+    "CreatedByAssociateId": 175,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 113
       }
     }
   }

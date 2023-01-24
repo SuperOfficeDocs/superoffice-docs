@@ -74,17 +74,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 494,
-  "Name": "Morar-Anderson",
-  "Rank": 17,
-  "Tooltip": "inventore",
-  "Deleted": true,
-  "IsLocation": false,
-  "LocationAddress": "enim"
+  "ResourceId": 837,
+  "Name": "Heaney LLC",
+  "Rank": 378,
+  "Tooltip": "magni",
+  "Deleted": false,
+  "IsLocation": true,
+  "LocationAddress": "sit"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 480,
-  "Name": "Ratke, Stanton and Walsh",
-  "Rank": 439,
-  "Tooltip": "ut",
+  "ResourceId": 437,
+  "Name": "Ankunding Group",
+  "Rank": 499,
+  "Tooltip": "incidunt",
   "Deleted": true,
-  "IsLocation": false,
-  "LocationAddress": "enim",
+  "IsLocation": true,
+  "LocationAddress": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 742
+      "FieldType": "System.Int32",
+      "FieldLength": 132
     }
   }
 }

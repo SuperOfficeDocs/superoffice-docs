@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 394,
-  "Name": "Effertz, Rowe and Langworth",
-  "Tooltip": "ducimus",
-  "Deleted": false,
-  "UdListDefinitionId": 225,
-  "Rank": 742,
+  "Id": 829,
+  "Name": "Halvorson-Breitenberg",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "UdListDefinitionId": 434,
+  "Rank": 542,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldType": "System.String",
+      "FieldLength": 2
     }
   }
 }

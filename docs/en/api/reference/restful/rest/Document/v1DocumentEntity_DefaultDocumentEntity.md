@@ -89,7 +89,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,91 +97,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 11 Sep 2001 17:37:38 G9T
+Last-Modified: Tue, 23 May 2000 11:22:44 G5T
 
 {
-  "DocumentId": 550,
+  "DocumentId": 129,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aut",
-  "Header": "suscipit",
-  "Name": "Hegmann, Steuber and Daniel",
-  "OurRef": "odio",
-  "YourRef": "recusandae",
-  "CreatedDate": "2016-08-16T17:37:38.4968594+02:00",
-  "UpdatedDate": "2001-09-11T17:37:38.4968594+02:00",
-  "Description": "Implemented value-added application",
+  "Attention": "ab",
+  "Header": "nihil",
+  "Name": "Schowalter-Lemke",
+  "OurRef": "vel",
+  "YourRef": "dolore",
+  "CreatedDate": "2020-08-17T11:22:44.585114+02:00",
+  "UpdatedDate": "2000-05-23T11:22:44.585114+02:00",
+  "Description": "Organic context-sensitive interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-02-20T17:37:38.5008602+01:00",
-  "ExternalRef": "necessitatibus",
+  "Date": "2016-07-14T11:22:44.585114+02:00",
+  "ExternalRef": "quibusdam",
   "Completed": "Completed",
-  "ActiveLinks": 168,
+  "ActiveLinks": 141,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kunze, Greenholt and Bruen",
-      "Id": 866,
-      "Description": "Reverse-engineered systemic analyzer",
-      "ExtraInfo": "eos",
-      "LinkId": 569,
+      "EntityName": "Hoppe Group",
+      "Id": 849,
+      "Description": "Front-line assymetric analyzer",
+      "ExtraInfo": "minima",
+      "LinkId": 351,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 213
+          "FieldType": "System.Int32",
+          "FieldLength": 273
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 957,
-  "Snum": 847,
+  "SuggestedDocumentId": 679,
+  "Snum": 388,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Deon Jalen Kirlin",
-    "SuperOffice:2": "Enid Grady Jr."
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Dr. Bella Marquardt"
   },
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "dolorum"
+    "ExtraFields1": "blanditiis",
+    "ExtraFields2": "deserunt"
   },
   "CustomFields": {
-    "CustomFields1": "ipsa",
-    "CustomFields2": "nisi"
+    "CustomFields1": "sit",
+    "CustomFields2": "velit"
   },
-  "PublishEventDate": "2020-01-17T17:37:38.5018605+01:00",
-  "PublishTo": "2008-12-25T17:37:38.5018605+01:00",
-  "PublishFrom": "2012-08-17T17:37:38.5018605+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-12-29T11:22:44.585114+01:00",
+  "PublishTo": "2011-10-17T11:22:44.585114+02:00",
+  "PublishFrom": "2011-01-04T11:22:44.585114+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 835,
+      "VisibleId": 836,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 273
+          "FieldType": "System.Int32",
+          "FieldLength": 530
         }
       }
     },
     {
-      "VisibleId": 835,
+      "VisibleId": 836,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 273
+          "FieldType": "System.Int32",
+          "FieldLength": 530
         }
       }
     }
@@ -190,8 +190,8 @@ Last-Modified: Tue, 11 Sep 2001 17:37:38 G9T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 244
+      "FieldType": "System.Int32",
+      "FieldLength": 50
     }
   }
 }

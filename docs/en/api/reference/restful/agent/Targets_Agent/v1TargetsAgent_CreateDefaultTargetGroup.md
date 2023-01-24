@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,30 +71,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 410,
-  "Year": 631,
+  "TargetGroupId": 491,
+  "Year": 873,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 833,
+      "TargetAssignmentInfoId": 494,
       "Values": [
-        741,
-        502
+        619,
+        755
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 685,
-      "DimensionListItemDisplayName": "Douglas, Altenwerth and Hayes",
+      "DimensionListItem": 434,
+      "DimensionListItemDisplayName": "Fadel LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 411
+          "FieldLength": 563
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

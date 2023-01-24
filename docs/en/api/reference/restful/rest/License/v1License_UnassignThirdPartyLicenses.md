@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 347,
-    "Tooltip": "dolores",
-    "CanAssign": true,
-    "Free": 582,
-    "InUse": 888,
-    "IsHidden": false,
+    "Total": 434,
+    "Tooltip": "sed",
+    "CanAssign": false,
+    "Free": 867,
+    "InUse": 427,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 585,
-    "Name": "Runolfsdottir-Nolan",
-    "Description": "Digitized national complexity",
-    "PrerequisiteModuleName": "DuBuque-Block",
-    "SortOrder": 244,
-    "ExtraFlags": 966,
+    "ModuleLicenseId": 143,
+    "Name": "Koch, White and Lubowitz",
+    "Description": "Synchronised regional algorithm",
+    "PrerequisiteModuleName": "Wintheiser Group",
+    "SortOrder": 295,
+    "ExtraFlags": 93,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldType": "System.String",
+        "FieldLength": 739
       }
     }
   }

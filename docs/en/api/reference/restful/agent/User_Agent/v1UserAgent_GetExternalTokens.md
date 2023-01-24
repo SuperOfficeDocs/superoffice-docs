@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "vitae"
+  "Key": "aut"
 }
 ```
 
@@ -91,15 +91,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "numquam",
-  "AccessToken": "non",
-  "RefreshToken": "assumenda",
+  "Provider": "nisi",
+  "AccessToken": "qui",
+  "RefreshToken": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 762
     }
   }
 }

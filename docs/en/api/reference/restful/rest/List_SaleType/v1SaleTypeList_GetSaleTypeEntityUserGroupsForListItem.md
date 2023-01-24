@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Fahey, Franecki and Parisian",
-    "ToolTip": "Quo sapiente sit perferendis vel.",
+    "Id": 131,
+    "Name": "Watsica-Skiles",
+    "ToolTip": "Tenetur harum.",
     "Deleted": true,
-    "Rank": 593,
-    "Type": "a",
-    "ColorBlock": 398,
-    "IconHint": "accusantium",
-    "Selected": false,
-    "LastChanged": "2002-02-11T17:37:40.3395012+01:00",
+    "Rank": 150,
+    "Type": "voluptate",
+    "ColorBlock": 873,
+    "IconHint": "eos",
+    "Selected": true,
+    "LastChanged": "2010-03-15T11:22:46.1784934+01:00",
     "ChildItems": [
       {
-        "Id": 810,
-        "Name": "Haley, Runolfsson and Kozey",
-        "ToolTip": "Cumque et et blanditiis placeat dicta cupiditate officia.",
+        "Id": 964,
+        "Name": "Johns Group",
+        "ToolTip": "Iste in ipsam quisquam eum.",
         "Deleted": false,
-        "Rank": 581,
-        "Type": "ea",
-        "ColorBlock": 10,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2011-03-28T17:37:40.3395012+02:00",
+        "Rank": 376,
+        "Type": "perspiciatis",
+        "ColorBlock": 356,
+        "IconHint": "tempore",
+        "Selected": true,
+        "LastChanged": "2000-02-26T11:22:46.1784934+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "accusantium",
-        "Hidden": true,
-        "FullName": "Oda Donnelly V",
+        "ExtraInfo": "rerum",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Prof. Mireille Goyette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 263
+            "FieldType": "System.Int32",
+            "FieldLength": 322
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "sit",
+    "ExtraInfo": "et",
+    "StyleHint": "ex",
     "Hidden": false,
-    "FullName": "Dr. Alfonzo Anderson V",
+    "FullName": "Mrs. Martina Casper Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldType": "System.String",
+        "FieldLength": 114
       }
     }
   }

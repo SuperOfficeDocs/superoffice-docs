@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 943,
-    "Name": "Luettgen-Langosh",
-    "ToolTip": "Magnam fuga molestiae.",
-    "Deleted": false,
-    "Rank": 865,
-    "Type": "tempore",
-    "ColorBlock": 519,
-    "IconHint": "voluptas",
+    "Id": 767,
+    "Name": "Rolfson LLC",
+    "ToolTip": "Sed laboriosam sed officia sed quis sunt.",
+    "Deleted": true,
+    "Rank": 509,
+    "Type": "libero",
+    "ColorBlock": 515,
+    "IconHint": "voluptatum",
     "Selected": true,
-    "LastChanged": "2004-12-29T17:37:40.0795003+01:00",
+    "LastChanged": "2018-07-22T11:22:45.9597902+02:00",
     "ChildItems": [
       {
-        "Id": 779,
-        "Name": "Brekke Group",
-        "ToolTip": "Non itaque quibusdam est.",
+        "Id": 730,
+        "Name": "Anderson, Lueilwitz and Schneider",
+        "ToolTip": "Excepturi nulla sed commodi atque et.",
         "Deleted": false,
-        "Rank": 750,
-        "Type": "velit",
-        "ColorBlock": 210,
-        "IconHint": "amet",
+        "Rank": 628,
+        "Type": "mollitia",
+        "ColorBlock": 866,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2007-08-14T17:37:40.0795003+02:00",
+        "LastChanged": "2022-06-14T11:22:45.9597902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Eliezer Tremblay",
+        "ExtraInfo": "neque",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Rickey Schneider",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 110
+            "FieldType": "System.String",
+            "FieldLength": 547
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "id",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Prof. Kiley Alfred Hagenes",
+    "FullName": "Dr. Elisha Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldLength": 379
       }
     }
   }

@@ -107,29 +107,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 107,
-  "ParentId": 751,
-  "Name": "Baumbach Group",
-  "Fullname": "ratione",
-  "CategoryMaster": 731,
+  "TicketCategoryId": 242,
+  "ParentId": 520,
+  "Name": "Anderson Group",
+  "Fullname": "iusto",
+  "CategoryMaster": 726,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Mann, Klein and Hilpert",
+  "ExternalName": "King-Kautzer",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 211,
-  "ReplyTemplate": 186,
-  "NotificationEmail": "nathen@orn.com",
+  "AssignmentLag": 174,
+  "ReplyTemplate": 812,
+  "NotificationEmail": "beulah.hermiston@kris.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 514,
+  "EffectiveReplyTemplateId": 17,
   "ExtraFields": {
-    "ExtraFields1": "soluta",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "et",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "rem",
+    "CustomFields2": "repellat"
   }
 }
 ```
@@ -141,36 +141,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 689,
-  "ParentId": 714,
-  "Name": "Grant Inc and Sons",
-  "Fullname": "quam",
-  "CategoryMaster": 468,
+  "TicketCategoryId": 906,
+  "ParentId": 170,
+  "Name": "Schneider Group",
+  "Fullname": "exercitationem",
+  "CategoryMaster": 798,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Stehr, Bogan and Reilly",
+  "ExternalName": "Wintheiser, Windler and Kuhn",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 923,
-  "ReplyTemplate": 440,
-  "NotificationEmail": "fred@breitenberg.biz",
+  "AssignmentLag": 397,
+  "ReplyTemplate": 764,
+  "NotificationEmail": "george@romaguera.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 576,
+  "EffectiveReplyTemplateId": 816,
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "ipsum",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldType": "System.Int32",
+      "FieldLength": 513
     }
   }
 }

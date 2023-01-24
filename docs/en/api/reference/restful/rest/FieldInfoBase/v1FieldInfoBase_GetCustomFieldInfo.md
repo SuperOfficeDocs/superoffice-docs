@@ -69,7 +69,7 @@ OK
 GET /api/v1/Schema/{tableName}/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,17 +80,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Satterfield-Brakus",
-  "DisplayName": "Shields-Gutkowski",
-  "Description": "Triple-buffered radical installation",
-  "ShortLabel": "officia",
+  "FieldName": "Hartmann, Lebsack and Collier",
+  "DisplayName": "Abernathy-Willms",
+  "Description": "Phased secondary alliance",
+  "ShortLabel": "id",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 303,
-  "TemplateVariableName": "Kutch, Nienow and Dickens"
+  "Rank": 860,
+  "TemplateVariableName": "Simonis, Pollich and West"
 }
 ```

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "Name": "Braun-Kunze",
-  "Tooltip": "placeat",
-  "Deleted": false,
-  "Rank": 679,
-  "IsCustomList": false,
+  "Id": 651,
+  "Name": "Sauer Inc and Sons",
+  "Tooltip": "repellat",
+  "Deleted": true,
+  "Rank": 99,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quaerat",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 903
+      "FieldType": "System.Int32",
+      "FieldLength": 332
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

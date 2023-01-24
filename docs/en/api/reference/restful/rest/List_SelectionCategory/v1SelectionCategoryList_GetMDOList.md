@@ -25,8 +25,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=enim
+GET /api/v1/List/SelectionCategory/MDOItems?flat=False
+GET /api/v1/List/SelectionCategory/MDOItems?query=dolor
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Ortiz Inc and Sons",
-    "ToolTip": "Non earum recusandae.",
+    "Id": 221,
+    "Name": "Kling, Nienow and Legros",
+    "ToolTip": "Non ea accusamus.",
     "Deleted": false,
-    "Rank": 863,
-    "Type": "non",
+    "Rank": 456,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 195,
-        "Name": "Powlowski, Jerde and Klocko",
-        "ToolTip": "Ad dolores modi assumenda sed tenetur.",
+        "Id": 288,
+        "Name": "Dach, Block and Bahringer",
+        "ToolTip": "Cum modi nihil.",
         "Deleted": false,
-        "Rank": 854,
-        "Type": "error",
+        "Rank": 426,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iste",
-        "ColorBlock": 86,
-        "ExtraInfo": "inventore",
-        "StyleHint": "ea",
-        "FullName": "Salma Mayert",
+        "IconHint": "itaque",
+        "ColorBlock": 213,
+        "ExtraInfo": "libero",
+        "StyleHint": "minus",
+        "FullName": "Jeramie Quitzon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 91
+            "FieldType": "System.String",
+            "FieldLength": 859
           }
         }
       }
     ],
-    "IconHint": "quas",
-    "ColorBlock": 753,
-    "ExtraInfo": "nisi",
-    "StyleHint": "tempore",
-    "FullName": "Magnolia Huels",
+    "IconHint": "asperiores",
+    "ColorBlock": 107,
+    "ExtraInfo": "voluptate",
+    "StyleHint": "a",
+    "FullName": "Dr. Shayna Hanna Champlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldType": "System.String",
+        "FieldLength": 20
       }
     }
   }

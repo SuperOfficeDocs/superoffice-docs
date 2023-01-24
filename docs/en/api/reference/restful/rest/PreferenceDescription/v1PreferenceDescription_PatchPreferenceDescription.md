@@ -124,18 +124,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "et",
     "value": {}
   }
 ]
@@ -148,30 +148,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 328,
-  "Section": "sequi",
-  "Key": "ea",
-  "Name": "Wiegand LLC",
+  "PrefDescId": 405,
+  "Section": "est",
+  "Key": "non",
+  "Name": "Jenkins, Hyatt and Turcotte",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fundamental national utilisation",
+  "Description": "Team-oriented radical knowledge user",
   "IsBuiltin": false,
-  "TableName": "Hoeger Inc and Sons",
-  "UserDefinedListId": 462,
-  "Rank": 23,
-  "SubGroup": "et",
-  "MinLevel": 720,
-  "MaxValue": 411,
-  "MinValue": 496,
-  "RequiredLicense": "dolor",
+  "TableName": "Cruickshank Inc and Sons",
+  "UserDefinedListId": 811,
+  "Rank": 773,
+  "SubGroup": "rem",
+  "MinLevel": 389,
+  "MaxValue": 761,
+  "MinValue": 465,
+  "RequiredLicense": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldLength": 401
     }
   },
   "_Links": {

@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,33 +95,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 303,
-    "Name": "Schinner-Hackett",
-    "Tooltip": "provident",
+    "WebPanelId": 87,
+    "Name": "Rice LLC",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 974,
+    "Rank": 167,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": true,
-    "OnTravel": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Gorczany Inc and Sons",
+    "ShowInStatusBar": true,
+    "WindowName": "Rutherford Group",
     "Url": "http://www.example.com/",
-    "ProgId": "nam",
-    "Icon": 32,
+    "ProgId": "ut",
+    "Icon": 962,
     "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldType": "System.Int32",
+        "FieldLength": 905
       }
     }
   }

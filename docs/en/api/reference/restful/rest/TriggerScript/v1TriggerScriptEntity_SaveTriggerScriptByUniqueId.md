@@ -89,20 +89,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 436,
-  "Name": "Hagenes-Sporer",
+  "ScreenChooserId": 208,
+  "Name": "Witting-McCullough",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "dolor",
-  "Source": "est",
-  "Registered": "2016-11-02T17:37:39.3954275+01:00",
-  "RegisteredAssociateId": 555,
-  "Updated": "2017-02-12T17:37:39.3954275+01:00",
-  "UpdatedAssociateId": 489
+  "Enabled": false,
+  "UniqueIdentifier": "sed",
+  "Source": "harum",
+  "Registered": "2021-11-04T11:22:45.3661887+01:00",
+  "RegisteredAssociateId": 548,
+  "Updated": "1999-10-04T11:22:45.3661887+02:00",
+  "UpdatedAssociateId": 219
 }
 ```
 
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 306,
-  "Name": "Ernser-Langosh",
+  "ScreenChooserId": 952,
+  "Name": "Harber LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "illo",
-  "Source": "ducimus",
-  "Registered": "2002-04-11T17:37:39.3964303+02:00",
-  "RegisteredAssociateId": 965,
-  "Updated": "2002-03-30T17:37:39.3964303+01:00",
-  "UpdatedAssociateId": 818,
+  "Enabled": false,
+  "UniqueIdentifier": "commodi",
+  "Source": "pariatur",
+  "Registered": "1996-09-15T11:22:45.3661887+02:00",
+  "RegisteredAssociateId": 832,
+  "Updated": "1999-12-03T11:22:45.3661887+01:00",
+  "UpdatedAssociateId": 761,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 439
+      "FieldLength": 464
     }
   }
 }

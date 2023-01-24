@@ -90,7 +90,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,36 +100,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 817,
-  "Name": "Sawayn-Ortiz",
-  "Description": "Optional transitional attitude",
-  "DefaultHeight": 918,
-  "DefaultWidth": 231,
+  "DashboardTileDefinitionId": 424,
+  "Name": "Gutmann-Grant",
+  "Description": "Seamless discrete ability",
+  "DefaultHeight": 839,
+  "DefaultWidth": 809,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "DuBuque, Green and Hodkiewicz",
-  "SelectionId": 756,
+  "EntityName": "Ortiz-Bednar",
+  "SelectionId": 928,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "facilis",
   "Measure": "Average",
-  "MeasureField": "perferendis",
-  "SortBy": "quibusdam",
-  "LayoutConfig": "molestias",
-  "SecondarySelectionId": 48,
-  "MeasureByField": "maxime",
+  "MeasureField": "consectetur",
+  "SortBy": "sint",
+  "LayoutConfig": "vero",
+  "SecondarySelectionId": 30,
+  "MeasureByField": "corrupti",
   "Usage": "Dashboard",
-  "ProviderName": "Ullrich, Beer and Kulas",
+  "ProviderName": "Johnston-Hirthe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldType": "System.String",
+      "FieldLength": 886
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

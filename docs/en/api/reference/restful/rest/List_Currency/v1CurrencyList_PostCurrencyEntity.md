@@ -76,17 +76,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 176,
-  "Name": "Kessler-Bednar",
-  "Tooltip": "quidem",
-  "Rank": 711,
-  "Rate": 29255.89,
-  "Units": 13062.511999999999,
-  "Deleted": true
+  "CurrencyId": 90,
+  "Name": "Ankunding, Bernier and Volkman",
+  "Tooltip": "a",
+  "Rank": 482,
+  "Rate": 7831.866,
+  "Units": 11492.377999999999,
+  "Deleted": false
 }
 ```
 
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 11,
-  "Name": "Gislason LLC",
-  "Tooltip": "sed",
-  "Rank": 216,
-  "Rate": 7405.642,
-  "Units": 22527.192,
+  "CurrencyId": 741,
+  "Name": "Roberts Inc and Sons",
+  "Tooltip": "tenetur",
+  "Rank": 609,
+  "Rate": 3716.924,
+  "Units": 24827.548,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldType": "System.Int32",
+      "FieldLength": 73
     }
   }
 }

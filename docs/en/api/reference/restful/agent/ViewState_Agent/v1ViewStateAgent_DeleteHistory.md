@@ -64,12 +64,12 @@ No Content
 POST /api/v1/Agents/ViewState/DeleteHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Nitzsche Inc and Sons",
-  "Id": 898
+  "HistoryName": "Wisoky-Daniel",
+  "Id": 304
 }
 ```
 

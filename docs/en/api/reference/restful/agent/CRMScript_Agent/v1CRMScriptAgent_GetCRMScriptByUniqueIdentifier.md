@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "optio"
+  "UniqueIdentifier": "nobis"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "numquam",
-  "Name": "Monahan, Herzog and Erdman",
-  "Description": "Integrated zero tolerance infrastructure",
-  "IncludeId": "iusto",
-  "Source": "minus",
-  "Registered": "2009-09-08T17:37:17.3272446+02:00",
-  "RegisteredBy": "voluptatum",
-  "Updated": "2001-07-20T17:37:17.3272446+02:00",
-  "UpdatedBy": "veritatis",
-  "Path": "dolorum",
+  "UniqueIdentifier": "ut",
+  "Name": "Langosh, Goodwin and Haley",
+  "Description": "Cloned static moderator",
+  "IncludeId": "nobis",
+  "Source": "voluptas",
+  "Registered": "1996-01-17T11:22:37.7742144+01:00",
+  "RegisteredBy": "hic",
+  "Updated": "2014-10-30T11:22:37.7742144+01:00",
+  "UpdatedBy": "velit",
+  "Path": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldType": "System.String",
+      "FieldLength": 505
     }
   }
 }

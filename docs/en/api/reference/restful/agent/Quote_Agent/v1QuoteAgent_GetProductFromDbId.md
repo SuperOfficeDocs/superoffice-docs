@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 529
+  "ProductId": 258
 }
 ```
 
@@ -120,73 +120,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 229,
-  "ERPProductKey": "est",
-  "ERPPriceListKey": "asperiores",
-  "Name": "Bartoletti-Kirlin",
-  "Description": "Pre-emptive modular complexity",
-  "Code": "non",
-  "PriceUnit": "sed",
-  "QuantityUnit": "sint",
+  "ProductId": 144,
+  "ERPProductKey": "commodi",
+  "ERPPriceListKey": "rem",
+  "Name": "Deckow Group",
+  "Description": "Operative disintermediate info-mediaries",
+  "Code": "aspernatur",
+  "PriceUnit": "dolorem",
+  "QuantityUnit": "accusantium",
   "IsSubscription": false,
-  "SubscriptionUnit": "iusto",
-  "DefaultSubscriptionQuantity": 814.83999999999992,
-  "ItemNumber": "929129",
+  "SubscriptionUnit": "ipsam",
+  "DefaultSubscriptionQuantity": 319.668,
+  "ItemNumber": "460626",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quae",
-  "ProductTypeKey": "error",
-  "VAT": 28259.278,
-  "VATInfo": "quia",
-  "UnitCost": 27259.532,
-  "UnitMinimumPrice": 13012.368,
-  "UnitListPrice": 4954.854,
-  "InAssortment": true,
-  "Supplier": "neque",
-  "SupplierCode": "eligendi",
-  "Rights": "placeat",
-  "Rule": "est",
+  "ProductFamilyKey": "repellendus",
+  "ProductTypeKey": "labore",
+  "VAT": 5565.9839999999995,
+  "VATInfo": "sed",
+  "UnitCost": 24391.922,
+  "UnitMinimumPrice": 28271.814,
+  "UnitListPrice": 28118.248,
+  "InAssortment": false,
+  "Supplier": "possimus",
+  "SupplierCode": "dolore",
+  "Rights": "provident",
+  "Rule": "quis",
   "ExtraInfo": [
     {
-      "Name": "Littel, Tremblay and Johnson",
-      "Value": "aut",
+      "Name": "Stokes-Wolf",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 36
+          "FieldType": "System.Int32",
+          "FieldLength": 513
         }
       }
     },
     {
-      "Name": "Littel, Tremblay and Johnson",
-      "Value": "aut",
+      "Name": "Stokes-Wolf",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 36
+          "FieldType": "System.Int32",
+          "FieldLength": 513
         }
       }
     }
   ],
-  "RawExtraInfo": "eos",
-  "ExtraField1": "beatae",
-  "ExtraField2": "enim",
-  "ExtraField3": "itaque",
-  "ExtraField4": "voluptates",
-  "ExtraField5": "quam",
-  "InStock": 698.882,
+  "RawExtraInfo": "tempore",
+  "ExtraField1": "vero",
+  "ExtraField2": "eius",
+  "ExtraField3": "quam",
+  "ExtraField4": "quasi",
+  "ExtraField5": "iste",
+  "InStock": 28716.842,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 353
     }
   }
 }

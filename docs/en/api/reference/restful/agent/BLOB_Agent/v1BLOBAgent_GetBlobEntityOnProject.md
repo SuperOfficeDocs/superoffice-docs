@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 704
+  "ProjectId": 863
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 146,
-  "BlobSize": 294,
-  "Description": "Synergistic disintermediate concept",
-  "ExtraInfo": "atque",
+  "BlobId": 544,
+  "BlobSize": 88,
+  "Description": "Cross-group intangible time-frame",
+  "ExtraInfo": "sed",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sunt",
-  "OriginalSize": 488,
-  "CreatedDate": "2002-06-26T17:37:16.9182405+02:00",
-  "UpdatedDate": "2001-08-01T17:37:16.9182405+02:00",
+  "MimeType": "doloribus",
+  "OriginalSize": 50,
+  "CreatedDate": "2011-04-03T11:22:37.4617868+02:00",
+  "UpdatedDate": "2014-09-22T11:22:37.4617868+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "autem",
+  "ConceptualType": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldLength": 709
     }
   }
 }

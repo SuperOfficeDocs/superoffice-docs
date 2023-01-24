@@ -72,11 +72,11 @@ OK
 POST /api/v1/Agents/Document/GetCheckoutState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 257
+  "DocumentId": 220
 }
 ```
 
@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 409,
-  "Name": "Hegmann-Barton"
+  "AssociateId": 771,
+  "Name": "Wiza-Gutkowski"
 }
 ```

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 379,
-    "Name": "Fisher Inc and Sons",
-    "ToolTip": "Quidem sed voluptas.",
+    "Id": 509,
+    "Name": "Effertz, Schultz and Predovic",
+    "ToolTip": "Sit et eos sit dolor assumenda laborum.",
     "Deleted": true,
-    "Rank": 146,
-    "Type": "consequuntur",
-    "ColorBlock": 852,
-    "IconHint": "cum",
+    "Rank": 466,
+    "Type": "quidem",
+    "ColorBlock": 711,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "1998-02-22T17:37:39.9285007+01:00",
+    "LastChanged": "2001-04-15T11:22:45.8504363+02:00",
     "ChildItems": [
       {
-        "Id": 453,
-        "Name": "Klein LLC",
-        "ToolTip": "Culpa harum ducimus id.",
-        "Deleted": true,
-        "Rank": 781,
-        "Type": "eum",
-        "ColorBlock": 945,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2019-03-30T17:37:39.9285007+01:00",
+        "Id": 239,
+        "Name": "Hilpert Inc and Sons",
+        "ToolTip": "Officia unde cum incidunt quia iusto molestias adipisci.",
+        "Deleted": false,
+        "Rank": 100,
+        "Type": "tenetur",
+        "ColorBlock": 958,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2000-09-14T11:22:45.8504363+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "esse",
-        "Hidden": true,
-        "FullName": "Dr. Verdie Deon Reichert PhD"
+        "ExtraInfo": "harum",
+        "StyleHint": "fugit",
+        "Hidden": false,
+        "FullName": "Mikayla Kemmer"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "sit",
+    "ExtraInfo": "sint",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Reese McKenzie DDS"
+    "FullName": "Lela Bode"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Doyle Group",
-    "ToolTip": "Sunt saepe recusandae.",
-    "Deleted": false,
-    "Rank": 198,
-    "Type": "et",
-    "ColorBlock": 292,
-    "IconHint": "numquam",
+    "Id": 11,
+    "Name": "Nikolaus-Hand",
+    "ToolTip": "Ut eum ex magni velit.",
+    "Deleted": true,
+    "Rank": 280,
+    "Type": "error",
+    "ColorBlock": 151,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "1998-03-15T17:37:39.929502+01:00",
+    "LastChanged": "1995-12-23T11:22:45.8504363+01:00",
     "ChildItems": [
       {
-        "Id": 417,
-        "Name": "Kunde, Senger and Torphy",
-        "ToolTip": "Rerum voluptas quasi quas expedita.",
-        "Deleted": false,
-        "Rank": 855,
-        "Type": "ut",
-        "ColorBlock": 281,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2009-09-23T17:37:39.929502+02:00",
+        "Id": 96,
+        "Name": "Buckridge-Batz",
+        "ToolTip": "Quis tempore adipisci.",
+        "Deleted": true,
+        "Rank": 112,
+        "Type": "ea",
+        "ColorBlock": 27,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2004-02-01T11:22:45.8504363+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "maxime",
-        "Hidden": true,
-        "FullName": "Ms. Theron Renner Sr.",
+        "ExtraInfo": "nam",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Tremaine Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 909
+            "FieldLength": 896
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "explicabo",
-    "Hidden": false,
-    "FullName": "Marley Mohr",
+    "ExtraInfo": "et",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Khalid Bode",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldLength": 542
       }
     }
   }

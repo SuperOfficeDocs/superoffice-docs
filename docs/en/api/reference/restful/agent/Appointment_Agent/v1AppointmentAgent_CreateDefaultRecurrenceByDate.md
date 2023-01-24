@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2022-03-30T17:37:16.4682407+02:00"
+  "StartDate": "2015-11-29T11:22:37.1181151+01:00"
 }
 ```
 
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 777,
-  "StartDate": "2013-10-05T17:37:16.4682407+02:00",
-  "EndDate": "2010-03-28T17:37:16.4682407+02:00",
-  "RecurrenceCounter": 246,
+  "RecurrenceId": 899,
+  "StartDate": "2016-11-11T11:22:37.1181151+01:00",
+  "EndDate": "2000-04-07T11:22:37.1181151+02:00",
+  "RecurrenceCounter": 733,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,18 +110,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2019-10-17T17:37:16.4682407+02:00",
-      "IsConflict": false,
-      "Description": "Sharable web-enabled portal",
-      "DescriptionStyleHint": "Public-key national orchestration",
-      "Tooltip": "ipsam"
+      "Date": "2010-09-26T11:22:37.1181151+02:00",
+      "IsConflict": true,
+      "Description": "Configurable contextually-based access",
+      "DescriptionStyleHint": "User-friendly explicit middleware",
+      "Tooltip": "nobis"
     },
     {
-      "Date": "2019-10-17T17:37:16.4682407+02:00",
-      "IsConflict": false,
-      "Description": "Sharable web-enabled portal",
-      "DescriptionStyleHint": "Public-key national orchestration",
-      "Tooltip": "ipsam"
+      "Date": "2010-09-26T11:22:37.1181151+02:00",
+      "IsConflict": true,
+      "Description": "Configurable contextually-based access",
+      "DescriptionStyleHint": "User-friendly explicit middleware",
+      "Tooltip": "nobis"
     }
   ],
   "IsRecurrence": false

@@ -70,6 +70,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
@@ -79,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,36 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 536,
-  "Name": "Nitzsche, Swaniawski and Flatley",
-  "AssociateId": 641,
-  "DetailsTable": 412,
-  "DetailsRecord": 848,
-  "IsSystemTask": true,
+  "Id": 719,
+  "Name": "Zemlak Group",
+  "AssociateId": 310,
+  "DetailsTable": 139,
+  "DetailsRecord": 841,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "saepe",
-    "ParameterObject2": "eos"
+    "ParameterObject1": "dicta",
+    "ParameterObject2": "consequatur"
   },
-  "LastStarted": "2018-07-19T17:37:39.401429+02:00",
-  "Created": "1997-04-06T17:37:39.401429+02:00",
-  "StartCount": 499,
-  "DatabaseSerialNumber": "1286716",
-  "Context": "voluptas",
-  "Result": "distinctio",
+  "LastStarted": "2004-02-15T11:22:45.3817553+01:00",
+  "Created": "2008-03-29T11:22:45.3817553+01:00",
+  "StartCount": 317,
+  "DatabaseSerialNumber": "1295643",
+  "Context": "molestiae",
+  "Result": "assumenda",
   "State": "All",
-  "Description": "Mandatory upward-trending parallelism",
-  "Response": "magnam",
-  "Request": "molestiae",
-  "ProgressDescription": "Right-sized analyzing firmware",
-  "ProgressPercent": 469,
-  "FileName": "Bosco-Padberg",
+  "Description": "Programmable real-time database",
+  "Response": "ea",
+  "Request": "omnis",
+  "ProgressDescription": "Team-oriented discrete neural-net",
+  "ProgressPercent": 308,
+  "FileName": "Blanda-Bashirian",
+  "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 119
+      "FieldLength": 200
     }
   }
 }

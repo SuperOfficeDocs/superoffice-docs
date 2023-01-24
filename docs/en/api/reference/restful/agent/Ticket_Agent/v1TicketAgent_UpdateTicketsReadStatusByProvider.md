@@ -73,18 +73,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "enim",
+  "Provider": "adipisci",
   "Restrictions": [
     {
-      "Name": "Gutkowski Inc and Sons",
-      "Operator": "ratione",
+      "Name": "Kunde-Mohr",
+      "Operator": "sed",
       "Values": [
-        "distinctio",
-        "ut"
+        "quos",
+        "nihil"
       ],
       "DisplayValues": [
-        "repellendus",
-        "et"
+        "dolorum",
+        "voluptates"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 275,
+      "InterParenthesis": 682,
       "InterOperator": "And",
-      "UniqueHash": 13
+      "UniqueHash": 11
     }
   ],
   "NewStatus": "Green"
@@ -108,7 +108,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  968,
-  686
+  926,
+  958
 ]
 ```

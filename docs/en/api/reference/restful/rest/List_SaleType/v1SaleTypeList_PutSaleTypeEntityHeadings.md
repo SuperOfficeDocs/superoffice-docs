@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 554,
-    "Name": "Blick Inc and Sons",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 557,
-    "UdListDefinitionId": 765
+    "HeadingId": 229,
+    "Name": "Wisoky-Pfannerstill",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 143,
+    "UdListDefinitionId": 681
   },
   {
-    "HeadingId": 554,
-    "Name": "Blick Inc and Sons",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 557,
-    "UdListDefinitionId": 765
+    "HeadingId": 229,
+    "Name": "Wisoky-Pfannerstill",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 143,
+    "UdListDefinitionId": 681
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 90,
-    "Name": "Bogan LLC",
-    "Tooltip": "non",
+    "HeadingId": 312,
+    "Name": "Hoeger-Bashirian",
+    "Tooltip": "numquam",
     "Deleted": false,
-    "Rank": 687,
-    "UdListDefinitionId": 155,
+    "Rank": 676,
+    "UdListDefinitionId": 955,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 248
+        "FieldType": "System.Int32",
+        "FieldLength": 435
       }
     }
   }

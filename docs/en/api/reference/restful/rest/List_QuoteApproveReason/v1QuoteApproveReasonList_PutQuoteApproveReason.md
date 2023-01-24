@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 179,
-  "Name": "Davis LLC",
-  "Tooltip": "fugit",
+  "Id": 849,
+  "Name": "Maggio Inc and Sons",
+  "Tooltip": "similique",
   "Deleted": false,
-  "UdListDefinitionId": 872,
-  "Rank": 544
+  "UdListDefinitionId": 941,
+  "Rank": 295
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Name": "Mitchell, Yundt and Crist",
-  "Tooltip": "itaque",
-  "Deleted": false,
-  "UdListDefinitionId": 106,
-  "Rank": 368,
+  "Id": 153,
+  "Name": "McGlynn, Fisher and Murray",
+  "Tooltip": "totam",
+  "Deleted": true,
+  "UdListDefinitionId": 342,
+  "Rank": 277,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldLength": 575
     }
   }
 }

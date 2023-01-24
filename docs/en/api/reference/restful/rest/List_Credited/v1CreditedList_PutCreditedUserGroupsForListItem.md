@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 325,
-    "Name": "Cartwright LLC",
-    "ToolTip": "Omnis sit eum.",
+    "Id": 628,
+    "Name": "Botsford LLC",
+    "ToolTip": "Facere quia possimus aut aut non.",
     "Deleted": false,
-    "Rank": 50,
-    "Type": "maiores",
-    "ColorBlock": 893,
-    "IconHint": "facilis",
-    "Selected": true,
-    "LastChanged": "2007-08-12T17:37:39.9445007+02:00",
+    "Rank": 106,
+    "Type": "ut",
+    "ColorBlock": 273,
+    "IconHint": "minima",
+    "Selected": false,
+    "LastChanged": "2000-04-05T11:22:45.8504363+02:00",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Feil Inc and Sons",
-        "ToolTip": "Enim illum autem eum soluta.",
-        "Deleted": false,
-        "Rank": 257,
-        "Type": "voluptatibus",
-        "ColorBlock": 116,
-        "IconHint": "maxime",
+        "Id": 328,
+        "Name": "Baumbach, Cartwright and Runolfsdottir",
+        "ToolTip": "Minima recusandae aperiam et optio occaecati.",
+        "Deleted": true,
+        "Rank": 422,
+        "Type": "ea",
+        "ColorBlock": 277,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2002-09-17T17:37:39.9445007+02:00",
+        "LastChanged": "1997-11-28T11:22:45.8504363+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "quas",
+        "ExtraInfo": "ex",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Dr. Leila Karen Reinger II"
+        "FullName": "Reinhold Kautzer IV"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "enim",
+    "ExtraInfo": "sit",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Brycen Lucio Carroll IV"
+    "FullName": "Sophie Dooley"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "Schimmel LLC",
-    "ToolTip": "Quis quia quo sit repellat.",
-    "Deleted": true,
-    "Rank": 22,
-    "Type": "sit",
-    "ColorBlock": 306,
-    "IconHint": "ullam",
-    "Selected": true,
-    "LastChanged": "2002-10-24T17:37:39.9465003+02:00",
+    "Id": 744,
+    "Name": "Farrell-Wyman",
+    "ToolTip": "Nesciunt quia laboriosam quod tenetur expedita aspernatur sed.",
+    "Deleted": false,
+    "Rank": 419,
+    "Type": "minus",
+    "ColorBlock": 845,
+    "IconHint": "distinctio",
+    "Selected": false,
+    "LastChanged": "2020-07-25T11:22:45.8660551+02:00",
     "ChildItems": [
       {
-        "Id": 214,
-        "Name": "Jacobs-Stroman",
-        "ToolTip": "Dolores eveniet est exercitationem.",
+        "Id": 398,
+        "Name": "Stehr LLC",
+        "ToolTip": "Aut dolorem eligendi distinctio quia sapiente aut iste.",
         "Deleted": false,
-        "Rank": 524,
-        "Type": "praesentium",
-        "ColorBlock": 5,
-        "IconHint": "non",
+        "Rank": 17,
+        "Type": "eius",
+        "ColorBlock": 232,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2011-06-09T17:37:39.9465003+02:00",
+        "LastChanged": "1997-09-08T11:22:45.8660551+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "iure",
+        "ExtraInfo": "sed",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Ryder Ron Gorczany V",
+        "FullName": "Corine Schroeder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 820
+            "FieldLength": 983
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "dignissimos",
-    "Hidden": true,
-    "FullName": "Germaine Boehm",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "impedit",
+    "Hidden": false,
+    "FullName": "Kacie Bailey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldLength": 798
       }
     }
   }

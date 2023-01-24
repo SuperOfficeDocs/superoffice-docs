@@ -82,41 +82,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Nicolas, West and Lockman",
-  "Context": "quis",
+  "ProviderName": "Parker-Streich",
+  "Context": "ex",
   "DesiredEntities": [
-    "voluptatibus",
-    "omnis"
+    "recusandae",
+    "aspernatur"
   ],
   "Columns": [
-    "iure",
-    "dolores"
+    "inventore",
+    "eveniet"
   ],
   "SortOrder": [
     {
-      "Name": "Berge LLC",
+      "Name": "Pouros, Rolfson and Leffler",
       "Direction": "ASC"
     },
     {
-      "Name": "Berge LLC",
+      "Name": "Pouros, Rolfson and Leffler",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Flatley-Daugherty",
-      "Operator": "sunt",
+      "Name": "Gutmann, Metz and Parisian",
+      "Operator": "et",
       "Values": [
-        "deserunt",
-        "atque"
+        "odit",
+        "incidunt"
       ],
       "DisplayValues": [
-        "esse",
-        "tempore"
+        "est",
+        "saepe"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -124,17 +124,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 686,
+      "InterParenthesis": 337,
       "InterOperator": "And",
-      "UniqueHash": 720
+      "UniqueHash": 176
     }
   ],
-  "ExportType": "voluptas",
+  "ExportType": "aut",
   "SelectedRowIds": [
-    "corporis",
-    "libero"
+    "velit",
+    "quia"
   ],
-  "EstimatedRowCount": 810
+  "EstimatedRowCount": 220
 }
 ```
 
@@ -145,15 +145,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 800,
-  "FileName": "DuBuque-Zieme",
-  "Message": "sit",
+  "BatchTaskId": 492,
+  "FileName": "Shields, Kirlin and McKenzie",
+  "Message": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 956
     }
   }
 }

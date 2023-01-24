@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 778,
-  "Name": "Kshlerin, Romaguera and Dicki",
-  "Tooltip": "ad",
+  "Id": 238,
+  "Name": "Satterfield Group",
+  "Tooltip": "saepe",
   "Deleted": false,
-  "Rank": 42,
-  "IsCustomList": false,
+  "Rank": 578,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "enim",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "soluta",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 482,
-  "Name": "Hane Inc and Sons",
-  "Tooltip": "et",
+  "Id": 64,
+  "Name": "Huel, Wilderman and Abbott",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 524,
+  "Rank": 593,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": false,
+  "ListType": "doloribus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 479
     }
   }
 }

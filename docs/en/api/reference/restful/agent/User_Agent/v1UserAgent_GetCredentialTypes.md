@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,9 +82,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "non",
-    "Type": "aut",
-    "Description": "Extended even-keeled framework",
+    "DisplayType": "at",
+    "Type": "molestias",
+    "Description": "Down-sized disintermediate portal",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
     "IsUserNameSupported": false,
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldType": "System.String",
+        "FieldLength": 602
       }
     }
   }

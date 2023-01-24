@@ -106,30 +106,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 372,
-  "UniqueId": "pariatur",
-  "Name": "Rippin-Lang",
-  "Description": "Customizable contextually-based parallelism",
-  "AssociateId": 854,
-  "Columns": 586,
+  "DashboardId": 972,
+  "UniqueId": "nihil",
+  "Name": "Jacobson Group",
+  "Description": "Centralized bandwidth-monitored implementation",
+  "AssociateId": 85,
+  "Columns": 175,
   "Theme": null,
-  "VisibleForAll": 353,
+  "VisibleForAll": 65,
   "VisibleForAssociates": [
-    174,
-    31
+    814,
+    139
   ],
   "VisibleForGroups": [
-    276,
-    371
+    106,
+    994
   ],
-  "PinForAll": 538,
+  "PinForAll": 673,
   "PinForAssociates": [
-    425,
-    747
+    949,
+    899
   ],
   "PinForGroups": [
-    59,
-    924
+    36,
+    790
   ]
 }
 ```
@@ -141,37 +141,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 270,
-  "UniqueId": "asperiores",
-  "Name": "Sawayn, Kuvalis and Stanton",
-  "Description": "Pre-emptive dedicated Graphic Interface",
-  "AssociateId": 418,
-  "Columns": 249,
+  "DashboardId": 464,
+  "UniqueId": "in",
+  "Name": "Corkery LLC",
+  "Description": "Distributed empowering superstructure",
+  "AssociateId": 391,
+  "Columns": 650,
   "Theme": null,
-  "VisibleForAll": 366,
+  "VisibleForAll": 94,
   "VisibleForAssociates": [
-    30,
-    368
+    246,
+    853
   ],
   "VisibleForGroups": [
-    220,
-    572
+    662,
+    310
   ],
-  "PinForAll": 700,
+  "PinForAll": 327,
   "PinForAssociates": [
-    749,
-    223
+    585,
+    120
   ],
   "PinForGroups": [
-    48,
-    788
+    919,
+    837
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 913
+      "FieldType": "System.Int32",
+      "FieldLength": 450
     }
   },
   "_Links": {

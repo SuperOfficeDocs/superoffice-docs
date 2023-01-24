@@ -73,7 +73,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,33 +81,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 20 Oct 1996 17:37:38 G10T
+Last-Modified: Sat, 28 Nov 2009 11:22:44 G11T
 
 {
-  "SourceContactId": 37,
-  "SourcePersonId": 745,
-  "DestinationContactId": 371,
-  "DestinationPersonId": 419,
-  "RelationId": 713,
-  "Comment": "laboriosam",
-  "RelationDefinitionId": 482,
-  "Reversed": 396,
-  "UpdatedDate": "1996-10-20T17:37:38.46686+02:00",
-  "CreatedDate": "2018-07-01T17:37:38.46686+02:00",
+  "SourceContactId": 650,
+  "SourcePersonId": 861,
+  "DestinationContactId": 272,
+  "DestinationPersonId": 675,
+  "RelationId": 441,
+  "Comment": "ipsam",
+  "RelationDefinitionId": 470,
+  "Reversed": 439,
+  "UpdatedDate": "2009-11-28T11:22:44.5538748+01:00",
+  "CreatedDate": "2018-12-25T11:22:44.5538748+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Anderson-Emmerich",
-  "SourcePersonName": "Bartoletti Inc and Sons",
-  "DestinationContactName": "Schaden-Sauer",
-  "DestinationPersonName": "Hane-Beahan",
-  "ActiveText": "necessitatibus",
-  "PassiveText": "rem",
+  "SourceContactName": "Sanford, Macejkovic and Erdman",
+  "SourcePersonName": "Ernser Group",
+  "DestinationContactName": "Witting-Fay",
+  "DestinationPersonName": "Kuhn Group",
+  "ActiveText": "iusto",
+  "PassiveText": "quam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 430
+      "FieldType": "System.Int32",
+      "FieldLength": 63
     }
   }
 }

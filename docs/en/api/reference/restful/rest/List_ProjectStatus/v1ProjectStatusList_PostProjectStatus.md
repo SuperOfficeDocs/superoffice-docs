@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 774,
-  "Name": "Harvey LLC",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "UdListDefinitionId": 438,
-  "Rank": 168
+  "Id": 476,
+  "Name": "Schoen Inc and Sons",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "UdListDefinitionId": 504,
+  "Rank": 251
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 549,
-  "Name": "Leuschke, Kessler and Jakubowski",
-  "Tooltip": "in",
+  "Id": 681,
+  "Name": "Greenfelder-Ebert",
+  "Tooltip": "beatae",
   "Deleted": true,
-  "UdListDefinitionId": 960,
-  "Rank": 58,
+  "UdListDefinitionId": 539,
+  "Rank": 252,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldType": "System.String",
+      "FieldLength": 145
     }
   }
 }

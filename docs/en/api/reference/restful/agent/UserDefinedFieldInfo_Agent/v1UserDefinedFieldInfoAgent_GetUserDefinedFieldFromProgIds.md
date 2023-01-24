@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "aut",
-    "ratione"
+    "sunt",
+    "iure"
   ],
   "OwnerType": "Appointment"
 }
@@ -128,46 +128,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 781,
-    "ColumnId": 214,
-    "FieldDefault": "impedit",
-    "FieldHeight": 457,
-    "FieldLabel": "quasi",
-    "FieldLeft": 55,
-    "FieldTop": 154,
+    "UDefFieldId": 411,
+    "ColumnId": 722,
+    "FieldDefault": "reprehenderit",
+    "FieldHeight": 413,
+    "FieldLabel": "at",
+    "FieldLeft": 455,
+    "FieldTop": 171,
     "FieldType": "Checkbox",
-    "FieldWidth": 947,
-    "FormatMask": "minima",
+    "FieldWidth": 258,
+    "FormatMask": "nemo",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 976,
-    "LabelLeft": 388,
-    "LabelTop": 277,
-    "LabelWidth": 276,
-    "LastVersionId": 185,
-    "ListTableId": 558,
+    "LabelHeight": 492,
+    "LabelLeft": 321,
+    "LabelTop": 191,
+    "LabelWidth": 787,
+    "LastVersionId": 592,
+    "ListTableId": 657,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 808,
-    "ProgId": "autem",
-    "IsReadOnly": true,
-    "ShortLabel": "praesentium",
-    "TabOrder": 164,
-    "TextLength": 589,
-    "Tooltip": "rem",
-    "UdefIdentity": 202,
-    "UDListDefinitionId": 198,
+    "Page1LineNo": 251,
+    "ProgId": "in",
+    "IsReadOnly": false,
+    "ShortLabel": "expedita",
+    "TabOrder": 37,
+    "TextLength": 497,
+    "Tooltip": "sunt",
+    "UdefIdentity": 900,
+    "UDListDefinitionId": 314,
     "Justification": "Center",
-    "Version": 201,
-    "TemplateVariableName": "Schowalter, Koepp and Metz",
-    "HasBeenPublished": true,
-    "MdoListName": "Harvey, Macejkovic and Orn",
+    "Version": 941,
+    "TemplateVariableName": "Oberbrunner Group",
+    "HasBeenPublished": false,
+    "MdoListName": "Schaefer-Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 64
       }
     }
   }

@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "nihil"
+  "ChartId": "et"
 }
 ```
 
@@ -100,64 +100,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 748,
-  "Caption": "omnis",
-  "Description": "Up-sized non-volatile instruction set",
-  "ChartName": "Lubowitz LLC",
-  "ChartId": "deleniti",
-  "IsDefault": false,
-  "AssociateId": 454,
-  "GroupId": 208,
-  "SelectionId": 506,
-  "Config": "iste",
+  "DashboardTileId": 726,
+  "Caption": "illum",
+  "Description": "Sharable system-worthy orchestration",
+  "ChartName": "Boyer-Powlowski",
+  "ChartId": "voluptatum",
+  "IsDefault": true,
+  "AssociateId": 807,
+  "GroupId": 129,
+  "SelectionId": 249,
+  "Config": "quibusdam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Crooks, Schimmel and Nader",
-      "Description": "Business-focused contextually-based monitoring",
+      "Name": "Macejkovic, Zulauf and Kuhlman",
+      "Description": "Fundamental disintermediate circuit",
       "Type": "Boolean",
-      "ListName": "Brakus Inc and Sons",
+      "ListName": "Klein-Breitenberg",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "error",
+      "Value": "dignissimos",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldLength": 701
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 272,
+      "VisibleId": 536,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldLength": 908
         }
       }
     },
     {
-      "VisibleId": 272,
+      "VisibleId": 536,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldLength": 908
         }
       }
     }
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 621
+      "FieldType": "System.Int32",
+      "FieldLength": 420
     }
   }
 }

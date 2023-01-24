@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 338,
-  "SelectionId": 113,
-  "Restrictions": "voluptas"
+  "DashboardTileId": 214,
+  "SelectionId": 45,
+  "Restrictions": "incidunt"
 }
 ```
 
@@ -93,19 +93,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Bayer-Simonis",
-        "DisplayTooltip": "tempora",
-        "DisplayType": "nobis",
-        "CanOrderBy": false,
-        "Name": "Graham Group",
+        "DisplayName": "Fritsch, Yost and Grimes",
+        "DisplayTooltip": "consequatur",
+        "DisplayType": "aut",
+        "CanOrderBy": true,
+        "Name": "Rohan, Schowalter and Hyatt",
         "CanRestrictBy": true,
-        "RestrictionType": "sed",
-        "RestrictionListName": "Hauck, Reichel and Hauck",
+        "RestrictionType": "consequatur",
+        "RestrictionListName": "Koepp, Adams and Corwin",
         "IsVisible": false,
-        "ExtraInfo": "rerum",
-        "Width": "ad",
-        "IconHint": "maiores",
-        "HeadingIconHint": "et"
+        "ExtraInfo": "quo",
+        "Width": "recusandae",
+        "IconHint": "enim",
+        "HeadingIconHint": "quo"
       }
     ],
     "Result": null
@@ -113,19 +113,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Bayer-Simonis",
-        "DisplayTooltip": "tempora",
-        "DisplayType": "nobis",
-        "CanOrderBy": false,
-        "Name": "Graham Group",
+        "DisplayName": "Fritsch, Yost and Grimes",
+        "DisplayTooltip": "consequatur",
+        "DisplayType": "aut",
+        "CanOrderBy": true,
+        "Name": "Rohan, Schowalter and Hyatt",
         "CanRestrictBy": true,
-        "RestrictionType": "sed",
-        "RestrictionListName": "Hauck, Reichel and Hauck",
+        "RestrictionType": "consequatur",
+        "RestrictionListName": "Koepp, Adams and Corwin",
         "IsVisible": false,
-        "ExtraInfo": "rerum",
-        "Width": "ad",
-        "IconHint": "maiores",
-        "HeadingIconHint": "et"
+        "ExtraInfo": "quo",
+        "Width": "recusandae",
+        "IconHint": "enim",
+        "HeadingIconHint": "quo"
       }
     ],
     "Result": null

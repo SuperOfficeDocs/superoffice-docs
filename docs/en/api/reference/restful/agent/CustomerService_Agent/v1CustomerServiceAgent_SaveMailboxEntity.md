@@ -74,17 +74,17 @@ OK
 POST /api/v1/Agents/CustomerService/SaveMailboxEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 337,
+  "MailInFilterId": 439,
   "ServerType": "Facebook",
-  "Address": "blanditiis",
-  "Username": "optio",
-  "Password": "laudantium",
-  "Server": "aut",
-  "Port": 594
+  "Address": "error",
+  "Username": "blanditiis",
+  "Password": "laboriosam",
+  "Server": "consectetur",
+  "Port": 871
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 332,
+  "MailInFilterId": 116,
   "ServerType": "Facebook",
-  "Address": "voluptatem",
-  "Username": "qui",
-  "Password": "facilis",
-  "Server": "quibusdam",
-  "Port": 20,
+  "Address": "tempora",
+  "Username": "ad",
+  "Password": "et",
+  "Server": "tenetur",
+  "Port": 290,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldType": "System.String",
+      "FieldLength": 665
     }
   }
 }

@@ -98,7 +98,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,88 +108,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 511,
+  "DocumentId": 903,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "beatae",
-  "Header": "est",
-  "Name": "Bayer Inc and Sons",
-  "OurRef": "aperiam",
-  "YourRef": "distinctio",
-  "CreatedDate": "2001-03-08T17:37:38.5698595+01:00",
-  "UpdatedDate": "2004-11-29T17:37:38.5698595+01:00",
-  "Description": "Exclusive directional orchestration",
+  "Attention": "voluptas",
+  "Header": "veritatis",
+  "Name": "Morar, Hirthe and Kassulke",
+  "OurRef": "quasi",
+  "YourRef": "laudantium",
+  "CreatedDate": "2005-07-23T11:22:44.6476015+02:00",
+  "UpdatedDate": "2021-07-14T11:22:44.6476015+02:00",
+  "Description": "User-centric system-worthy leverage",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-01-30T17:37:38.5718596+01:00",
-  "ExternalRef": "id",
+  "Date": "2013-03-28T11:22:44.6476015+01:00",
+  "ExternalRef": "fugiat",
   "Completed": "Completed",
-  "ActiveLinks": 601,
+  "ActiveLinks": 658,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Cummerata LLC",
-      "Id": 614,
-      "Description": "Configurable exuding data-warehouse",
-      "ExtraInfo": "earum",
-      "LinkId": 826,
+      "EntityName": "Bartell-D'Amore",
+      "Id": 441,
+      "Description": "Reactive client-driven support",
+      "ExtraInfo": "cumque",
+      "LinkId": 10,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldType": "System.String",
+          "FieldLength": 37
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 89,
-  "Snum": 750,
+  "SuggestedDocumentId": 527,
+  "Snum": 900,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Keaton Considine"
+    "SuperOffice:1": "Arlene Stiedemann",
+    "SuperOffice:2": "Zetta Johnson"
   },
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "illo"
   },
   "CustomFields": {
     "CustomFields1": "molestiae",
-    "CustomFields2": "aspernatur"
+    "CustomFields2": "deleniti"
   },
-  "PublishEventDate": "1997-01-11T17:37:38.5738602+01:00",
-  "PublishTo": "1999-04-01T17:37:38.5738602+02:00",
-  "PublishFrom": "2007-01-08T17:37:38.5738602+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2012-04-06T11:22:44.6476015+02:00",
+  "PublishTo": "2021-01-15T11:22:44.6476015+01:00",
+  "PublishFrom": "2009-05-11T11:22:44.6476015+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 674,
+      "VisibleId": 590,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 446
+          "FieldType": "System.Int32",
+          "FieldLength": 494
         }
       }
     },
     {
-      "VisibleId": 674,
+      "VisibleId": 590,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 446
+          "FieldType": "System.Int32",
+          "FieldLength": 494
         }
       }
     }
@@ -199,7 +199,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 678
     }
   }
 }

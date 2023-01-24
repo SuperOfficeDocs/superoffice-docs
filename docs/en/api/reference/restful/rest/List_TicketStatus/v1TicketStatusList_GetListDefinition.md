@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 505,
-  "Name": "Wilderman Inc and Sons",
-  "Tooltip": "maxime",
+  "Id": 922,
+  "Name": "Lebsack Inc and Sons",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 674,
+  "Rank": 596,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "distinctio",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldLength": 315
     }
   },
   "_Links": {

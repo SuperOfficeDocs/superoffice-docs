@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 774,
-  "RejectReason": "",
+  "AppointmentId": 675,
+  "RejectReason": "e-enable vertical bandwidth",
   "UpdateMode": "OnlyThis"
 }
 ```

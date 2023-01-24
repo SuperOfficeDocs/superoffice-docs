@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Jacobson Group",
-  "DeviceName": "Lakin Group",
-  "DeviceIdentifier": "similique"
+  "ApplicationName": "Feeney Group",
+  "DeviceName": "Aufderhar-Strosin",
+  "DeviceIdentifier": "minus"
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 994,
-  "Name": "Harber, Hilll and Smith",
-  "CreatedDate": "1999-11-13T17:37:18.1012434+01:00",
-  "UpdatedDate": "2018-08-24T17:37:18.1012434+02:00",
-  "AssociateFullName": "Micheal Okuneva",
-  "CreatedBy": "quis",
-  "UpdatedBy": "ad",
-  "DeviceIdentifier": "sunt",
-  "ForeignAppId": 730,
+  "ForeignDeviceId": 989,
+  "Name": "Vandervort, Wisoky and Donnelly",
+  "CreatedDate": "2001-02-16T11:22:38.3834434+01:00",
+  "UpdatedDate": "2006-03-08T11:22:38.3834434+01:00",
+  "AssociateFullName": "Mrs. Naomie Jabari Sauer",
+  "CreatedBy": "quam",
+  "UpdatedBy": "atque",
+  "DeviceIdentifier": "aspernatur",
+  "ForeignAppId": 273,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 330
+      "FieldType": "System.Int32",
+      "FieldLength": 56
     }
   }
 }

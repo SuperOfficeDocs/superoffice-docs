@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,45 +78,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 309,
-  "MessageId": "qui",
-  "Subject": "iure",
+  "ServerId": 273,
+  "MessageId": "ut",
+  "Subject": "sed",
   "From": null,
   "To": [
     {
-      "ContactId": 556,
-      "ContactName": "Fahey Inc and Sons",
-      "PersonId": 80,
-      "PersonName": "Jacobi, McKenzie and Ernser",
-      "AssociateId": 610,
-      "Address": "est",
-      "EmailId": 897,
+      "ContactId": 451,
+      "ContactName": "Schneider LLC",
+      "PersonId": 251,
+      "PersonName": "Medhurst-Sipes",
+      "AssociateId": 52,
+      "Address": "deserunt",
+      "EmailId": 304,
       "DuplicatePersonIds": [
-        571,
-        49
+        660,
+        811
       ],
-      "Name": "Mosciski-Turner",
+      "Name": "Rogahn LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 243
+          "FieldLength": 895
         }
       }
     }
   ],
-  "Sent": "2005-06-15T17:37:17.9192408+02:00",
+  "Sent": "2019-10-19T11:22:38.2272328+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 749,
+  "Size": 405,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldType": "System.String",
+      "FieldLength": 577
     }
   }
 }

@@ -83,21 +83,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 888,
-    "FieldName": "Bayer-Romaguera",
-    "Label": "ratione",
-    "Tooltip": "tempora",
-    "Editable": false,
+    "QuoteLineConfigurationId": 283,
+    "FieldName": "Rolfson-Heathcote",
+    "Label": "et",
+    "Tooltip": "rem",
+    "Editable": true,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 926,
+    "Rank": 146,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldLength": 879
       }
     }
   }

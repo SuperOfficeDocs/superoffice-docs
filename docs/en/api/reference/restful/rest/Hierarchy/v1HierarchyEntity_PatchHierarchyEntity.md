@@ -116,18 +116,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "quam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "quam",
     "value": {}
   }
 ]
@@ -140,46 +140,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 82,
+  "HierarchyId": 515,
   "Domain": "Dashboards",
-  "Name": "Bartoletti LLC",
-  "Fullname": "quasi",
-  "ParentId": 960,
+  "Name": "Kunze, Russel and Schumm",
+  "Fullname": "quas",
+  "ParentId": 662,
   "Children": [
     {
-      "HierarchyId": 511,
+      "HierarchyId": 429,
       "Domain": "Dashboards",
-      "Name": "Grady-Carroll",
-      "Fullname": "optio",
-      "ParentId": 783,
+      "Name": "Lockman-Feil",
+      "Fullname": "facilis",
+      "ParentId": 148,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-12-28T17:37:38.8278311+01:00",
-      "RegisteredAssociateId": 132,
-      "Updated": "2006-02-12T17:37:38.8278311+01:00",
-      "UpdatedAssociateId": 904,
+      "Registered": "2013-09-22T11:22:44.8818691+02:00",
+      "RegisteredAssociateId": 404,
+      "Updated": "2007-06-12T11:22:44.8818691+02:00",
+      "UpdatedAssociateId": 372,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 966
         }
       }
     }
   ],
-  "Registered": "1995-09-22T17:37:38.8278311+02:00",
-  "RegisteredAssociateId": 84,
-  "Updated": "1997-07-05T17:37:38.8278311+02:00",
-  "UpdatedAssociateId": 72,
+  "Registered": "2004-06-06T11:22:44.8818691+02:00",
+  "RegisteredAssociateId": 74,
+  "Updated": "2021-06-02T11:22:44.8818691+02:00",
+  "UpdatedAssociateId": 60,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 967
     }
   },
   "_Links": {

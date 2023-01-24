@@ -83,23 +83,23 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "assumenda",
-  "ProviderName": "Bins, Schaden and Dooley",
-  "StorageKey": "autem",
+  "StorageType": "blanditiis",
+  "ProviderName": "Gerlach, Okuneva and Dach",
+  "StorageKey": "molestiae",
   "ExtraRestrictions": [
     {
-      "Name": "Hickle Inc and Sons",
-      "Operator": "reprehenderit",
+      "Name": "Lebsack Group",
+      "Operator": "saepe",
       "Values": [
-        "ex",
-        "consequatur"
+        "ea",
+        "sed"
       ],
       "DisplayValues": [
-        "cum",
+        "dolores",
         "repellat"
       ],
       "ColumnInfo": null,
@@ -108,27 +108,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 687,
+      "InterParenthesis": 609,
       "InterOperator": "And",
-      "UniqueHash": 49
+      "UniqueHash": 852
     }
   ],
   "OrderBy": [
     {
-      "Name": "Emmerich-Boyle",
+      "Name": "Wisozk, Bernier and Rolfson",
       "Direction": "ASC"
     },
     {
-      "Name": "Emmerich-Boyle",
+      "Name": "Wisozk, Bernier and Rolfson",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "nisi",
-    "sequi"
+    "aliquam",
+    "eum"
   ],
-  "PageSize": 49,
-  "PageNumber": 816
+  "PageSize": 724,
+  "PageNumber": 445
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Ritchie, Bayer and Runolfsdottir",
-      "DisplayTooltip": "ut",
-      "DisplayType": "qui",
+      "DisplayName": "Heidenreich-Kertzmann",
+      "DisplayTooltip": "iusto",
+      "DisplayType": "sed",
       "CanOrderBy": false,
-      "Name": "Kirlin, Mueller and Olson",
+      "Name": "Zboncak Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "vel",
-      "RestrictionListName": "Hudson-Mayert",
+      "RestrictionType": "excepturi",
+      "RestrictionListName": "Cole-Russel",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "voluptate",
-      "IconHint": "et",
-      "HeadingIconHint": "quo"
+      "ExtraInfo": "aut",
+      "Width": "qui",
+      "IconHint": "aut",
+      "HeadingIconHint": "laborum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kunde-Kerluke",
-      "PrimaryKey": 459,
+      "EntityName": "Jenkins Inc and Sons",
+      "PrimaryKey": 367,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quia",
-          "TooltipHint": "tenetur",
-          "LinkHint": "perspiciatis"
+          "DisplayValue": "praesentium",
+          "TooltipHint": "molestiae",
+          "LinkHint": "aliquam"
         }
       },
-      "LinkHint": "eaque",
-      "StyleHint": "voluptate",
+      "LinkHint": "at",
+      "StyleHint": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldType": "System.String",
+          "FieldLength": 982
         }
       }
     }
   ],
-  "RowCount": 144,
+  "RowCount": 536,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 673
     }
   }
 }

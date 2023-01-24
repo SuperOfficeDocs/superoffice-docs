@@ -93,12 +93,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 265,
-  "Name": "McDermott, Mayer and Ratke",
-  "Tooltip": "sint",
-  "PassiveText": "blanditiis",
+  "ReldefId": 482,
+  "Name": "Kuphal Inc and Sons",
+  "Tooltip": "cupiditate",
+  "PassiveText": "quidem",
   "Deleted": false,
-  "Rank": 974,
+  "Rank": 117,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -111,12 +111,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 437,
-  "Name": "Ullrich-Lindgren",
-  "Tooltip": "voluptas",
-  "PassiveText": "molestiae",
-  "Deleted": false,
-  "Rank": 14,
+  "ReldefId": 868,
+  "Name": "Rodriguez LLC",
+  "Tooltip": "eaque",
+  "PassiveText": "occaecati",
+  "Deleted": true,
+  "Rank": 707,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -124,12 +124,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 938
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

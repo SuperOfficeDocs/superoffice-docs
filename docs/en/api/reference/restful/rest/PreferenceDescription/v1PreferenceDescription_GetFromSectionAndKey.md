@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,30 +86,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 824,
-  "Section": "quo",
-  "Key": "velit",
-  "Name": "Conroy, Macejkovic and Rutherford",
+  "PrefDescId": 452,
+  "Section": "et",
+  "Key": "doloremque",
+  "Name": "Von-Kemmer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Self-enabling logistical analyzer",
+  "Description": "Total modular flexibility",
   "IsBuiltin": false,
-  "TableName": "Klocko, Kemmer and Lehner",
-  "UserDefinedListId": 487,
-  "Rank": 506,
-  "SubGroup": "officiis",
-  "MinLevel": 416,
-  "MaxValue": 835,
-  "MinValue": 475,
-  "RequiredLicense": "quia",
+  "TableName": "Keeling LLC",
+  "UserDefinedListId": 719,
+  "Rank": 171,
+  "SubGroup": "qui",
+  "MinLevel": 423,
+  "MaxValue": 595,
+  "MinValue": 432,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 103
     }
   }
 }

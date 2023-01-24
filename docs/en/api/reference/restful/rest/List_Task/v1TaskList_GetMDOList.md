@@ -26,7 +26,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=corporis
+GET /api/v1/List/Task/MDOItems?query=ducimus
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "Koch Group",
-    "ToolTip": "Eos minus impedit.",
+    "Id": 687,
+    "Name": "Johnston-Ondricka",
+    "ToolTip": "Accusamus autem enim aut perferendis.",
     "Deleted": false,
-    "Rank": 119,
-    "Type": "voluptatibus",
+    "Rank": 7,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 438,
-        "Name": "Reichel-Doyle",
-        "ToolTip": "Dolorum aut autem nostrum.",
+        "Id": 51,
+        "Name": "Jaskolski Group",
+        "ToolTip": "Asperiores voluptatem.",
         "Deleted": false,
-        "Rank": 855,
-        "Type": "animi",
+        "Rank": 757,
+        "Type": "facilis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "saepe",
-        "ColorBlock": 39,
-        "ExtraInfo": "rerum",
-        "StyleHint": "sunt",
-        "FullName": "Prof. Brandy Era Bednar Sr.",
+        "IconHint": "id",
+        "ColorBlock": 226,
+        "ExtraInfo": "et",
+        "StyleHint": "ut",
+        "FullName": "Fabiola Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 688
+            "FieldType": "System.Int32",
+            "FieldLength": 278
           }
         }
       }
     ],
-    "IconHint": "maiores",
-    "ColorBlock": 436,
-    "ExtraInfo": "eveniet",
-    "StyleHint": "qui",
-    "FullName": "Albin Farrell DDS",
+    "IconHint": "eaque",
+    "ColorBlock": 705,
+    "ExtraInfo": "qui",
+    "StyleHint": "eaque",
+    "FullName": "Emmy Kunde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 913
       }
     }
   }

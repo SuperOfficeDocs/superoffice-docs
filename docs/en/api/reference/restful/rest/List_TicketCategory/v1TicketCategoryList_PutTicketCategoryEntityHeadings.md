@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 27,
-    "Name": "Gutmann, Weber and Zboncak",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 855,
+    "Name": "Runte, Cassin and Beier",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 629,
-    "UdListDefinitionId": 891
+    "Rank": 557,
+    "UdListDefinitionId": 349
   },
   {
-    "HeadingId": 27,
-    "Name": "Gutmann, Weber and Zboncak",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 855,
+    "Name": "Runte, Cassin and Beier",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 629,
-    "UdListDefinitionId": 891
+    "Rank": 557,
+    "UdListDefinitionId": 349
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 979,
-    "Name": "Hirthe-Kshlerin",
-    "Tooltip": "et",
+    "HeadingId": 561,
+    "Name": "Johnston LLC",
+    "Tooltip": "eligendi",
     "Deleted": true,
-    "Rank": 857,
-    "UdListDefinitionId": 869,
+    "Rank": 599,
+    "UdListDefinitionId": 439,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldType": "System.String",
+        "FieldLength": 416
       }
     }
   }

@@ -86,35 +86,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 272,
-  "Field": "inventore",
-  "RecordId": 657,
+  "RefCountsId": 509,
+  "Field": "maxime",
+  "RecordId": 941,
   "SuggestedRecords": [
     {
-      "Id": 420,
-      "Name": "Lang, O'Connell and Abshire",
-      "ToolTip": "Est qui voluptates eos voluptas ut qui.",
+      "Id": 356,
+      "Name": "Kuhlman, Sauer and Marvin",
+      "ToolTip": "Ut voluptatum omnis neque iste sit reprehenderit earum.",
       "Deleted": true,
-      "Rank": 86,
-      "Type": "et",
+      "Rank": 258,
+      "Type": "consequatur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "est",
-      "ColorBlock": 209,
-      "ExtraInfo": "sint",
-      "StyleHint": "ducimus",
-      "FullName": "Karine Hackett"
+      "IconHint": "harum",
+      "ColorBlock": 921,
+      "ExtraInfo": "dolore",
+      "StyleHint": "rem",
+      "FullName": "Linda Goldner"
     }
   ],
-  "CurrentValue": 549,
-  "TravelPrefix": 834,
-  "SatPrefix": 452,
-  "Allocate": true,
+  "CurrentValue": 791,
+  "TravelPrefix": 387,
+  "SatPrefix": 105,
+  "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": false
+  "AllowBlank": true
 }
 ```
 
@@ -125,49 +125,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 282,
-  "Field": "ut",
-  "RecordId": 956,
+  "RefCountsId": 916,
+  "Field": "modi",
+  "RecordId": 825,
   "SuggestedRecords": [
     {
-      "Id": 390,
-      "Name": "Kessler Group",
-      "ToolTip": "Deserunt delectus et.",
+      "Id": 746,
+      "Name": "Steuber, O'Kon and Lindgren",
+      "ToolTip": "Aut dolorem aut minus numquam.",
       "Deleted": false,
-      "Rank": 392,
-      "Type": "ut",
+      "Rank": 31,
+      "Type": "rem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "animi",
-      "ColorBlock": 653,
-      "ExtraInfo": "pariatur",
-      "StyleHint": "et",
-      "FullName": "Cooper Bergstrom",
+      "IconHint": "reiciendis",
+      "ColorBlock": 824,
+      "ExtraInfo": "laudantium",
+      "StyleHint": "fugit",
+      "FullName": "Lavonne Greenholt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 857
+          "FieldLength": 468
         }
       }
     }
   ],
-  "CurrentValue": 798,
-  "TravelPrefix": 255,
-  "SatPrefix": 821,
-  "Allocate": false,
+  "CurrentValue": 615,
+  "TravelPrefix": 824,
+  "SatPrefix": 615,
+  "Allocate": true,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldType": "System.String",
+      "FieldLength": 744
     }
   }
 }

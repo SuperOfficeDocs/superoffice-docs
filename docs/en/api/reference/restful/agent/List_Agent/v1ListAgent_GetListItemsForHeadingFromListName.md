@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Klocko Inc and Sons",
-  "HeadingId": 18
+  "UdListDefinitionName": "Gottlieb Inc and Sons",
+  "HeadingId": 789
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 46,
-    "Name": "O'Hara Inc and Sons",
-    "ToolTip": "Velit similique ut et voluptas blanditiis dolore.",
+    "Id": 740,
+    "Name": "Langworth Group",
+    "ToolTip": "Cum quaerat maxime recusandae et maxime doloribus nemo.",
     "Deleted": false,
-    "Rank": 408,
-    "Type": "quam",
-    "ColorBlock": 890,
-    "IconHint": "rem",
+    "Rank": 741,
+    "Type": "quaerat",
+    "ColorBlock": 957,
+    "IconHint": "delectus",
     "Selected": false,
-    "LastChanged": "2012-07-06T17:37:18.2152437+02:00",
+    "LastChanged": "2011-10-08T11:22:38.4771746+02:00",
     "ChildItems": [
       {
-        "Id": 94,
-        "Name": "Hintz-Wunsch",
-        "ToolTip": "Sequi voluptatum voluptate qui harum ea qui.",
-        "Deleted": true,
-        "Rank": 722,
-        "Type": "quisquam",
-        "ColorBlock": 277,
-        "IconHint": "ex",
-        "Selected": true,
-        "LastChanged": "2007-08-23T17:37:18.2152437+02:00",
+        "Id": 849,
+        "Name": "Zboncak, Lubowitz and Schaefer",
+        "ToolTip": "Eos illo aperiam totam.",
+        "Deleted": false,
+        "Rank": 421,
+        "Type": "soluta",
+        "ColorBlock": 3,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2017-05-11T11:22:38.4771746+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "aut",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "dignissimos",
         "Hidden": true,
-        "FullName": "Dallin Schuster",
+        "FullName": "Emelia Leannon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 618
+            "FieldType": "System.String",
+            "FieldLength": 821
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "inventore",
+    "StyleHint": "impedit",
     "Hidden": false,
-    "FullName": "Georgianna McKenzie",
+    "FullName": "Alec Price",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 523
+        "FieldType": "System.Int32",
+        "FieldLength": 733
       }
     }
   }

@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "DuBuque LLC",
-  "Context": "non"
+  "TableName": "Morissette-Schaden",
+  "Context": "magnam"
 }
 ```
 
@@ -106,74 +106,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "possimus",
-    "ValueType": "expedita",
+    "DefaultShowInSelector": true,
+    "IsActive": false,
+    "Key": "omnis",
+    "ValueType": "sequi",
     "Mandatory": false,
-    "EncodedDisplayName": "Daugherty, Brown and Fadel",
-    "EncodedDisplayDescription": "Assimilated 24 hour workforce",
-    "IconHint": "eaque",
+    "EncodedDisplayName": "Morissette, Becker and Renner",
+    "EncodedDisplayDescription": "Programmable cohesive data-warehouse",
+    "IconHint": "dolorem",
     "ControlInfos": [
       {
-        "Type": "aliquid",
-        "Label": "recusandae",
-        "Dimension": 553,
-        "ListProviderName": "Hodkiewicz LLC",
-        "ListProviderExtraInfo": "animi",
-        "ListProviderPrimaryKeyName": "Rippin, Homenick and Becker",
-        "ListLeadText": "qui",
+        "Type": "doloremque",
+        "Label": "esse",
+        "Dimension": 40,
+        "ListProviderName": "Altenwerth, Reynolds and Morar",
+        "ListProviderExtraInfo": "rerum",
+        "ListProviderPrimaryKeyName": "Eichmann Inc and Sons",
+        "ListLeadText": "natus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 321
+            "FieldLength": 885
           }
         }
       }
     ],
-    "EncodedDataCaption": "et",
-    "EncodedDataCaptionDescription": "Right-sized scalable system engine",
-    "CurrentOperationType": "consectetur",
+    "EncodedDataCaption": "quia",
+    "EncodedDataCaptionDescription": "Synergized context-sensitive success",
+    "CurrentOperationType": "veritatis",
     "Values": [
-      "eveniet",
-      "fuga"
+      "quisquam",
+      "et"
     ],
     "DisplayValues": [
-      "amet",
-      "saepe"
+      "asperiores",
+      "maiores"
     ],
     "OperationInfos": [
       {
-        "Key": "ad",
-        "EncodedDisplayName": "O'Kon-Johnston",
+        "Key": "porro",
+        "EncodedDisplayName": "Feeney Group",
         "EncodedLeadTexts": [
-          "aut",
-          "est"
+          "voluptas",
+          "odio"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 552
           }
         }
       },
       {
-        "Key": "ad",
-        "EncodedDisplayName": "O'Kon-Johnston",
+        "Key": "porro",
+        "EncodedDisplayName": "Feeney Group",
         "EncodedLeadTexts": [
-          "aut",
-          "est"
+          "voluptas",
+          "odio"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 552
           }
         }
       }

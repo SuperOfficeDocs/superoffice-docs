@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 107,
-    "Name": "Brekke LLC",
-    "ToolTip": "Beatae et.",
+    "Id": 3,
+    "Name": "Romaguera Group",
+    "ToolTip": "Et quo voluptatem temporibus.",
     "Deleted": true,
-    "Rank": 815,
-    "Type": "sit",
-    "ColorBlock": 570,
-    "IconHint": "sit",
+    "Rank": 608,
+    "Type": "nostrum",
+    "ColorBlock": 299,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2011-05-25T17:37:40.0415003+02:00",
+    "LastChanged": "2006-08-22T11:22:45.9285426+02:00",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Farrell, Little and McClure",
-        "ToolTip": "Vel delectus error veniam similique omnis praesentium blanditiis.",
-        "Deleted": true,
-        "Rank": 409,
-        "Type": "minus",
-        "ColorBlock": 974,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2017-02-12T17:37:40.0424715+01:00",
+        "Id": 763,
+        "Name": "Kautzer-Kassulke",
+        "ToolTip": "Odit error odit quis eveniet consequatur.",
+        "Deleted": false,
+        "Rank": 815,
+        "Type": "consequuntur",
+        "ColorBlock": 299,
+        "IconHint": "laborum",
+        "Selected": true,
+        "LastChanged": "2009-04-20T11:22:45.9285426+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "sunt",
+        "StyleHint": "ipsam",
         "Hidden": false,
-        "FullName": "Hester Schiller I"
+        "FullName": "Mr. Harrison Ernser"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "id",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Hugh Blanda"
+    "FullName": "Dr. Dan Abernathy"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Name": "Schmeler, Shanahan and Lockman",
-    "ToolTip": "Id expedita fugit dignissimos itaque quo quaerat incidunt.",
+    "Id": 985,
+    "Name": "Cormier LLC",
+    "ToolTip": "Vel nobis iste nostrum labore illum dolores.",
     "Deleted": true,
-    "Rank": 790,
+    "Rank": 265,
     "Type": "illum",
-    "ColorBlock": 142,
-    "IconHint": "ipsam",
-    "Selected": true,
-    "LastChanged": "2008-09-01T17:37:40.0435018+02:00",
+    "ColorBlock": 523,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2009-05-22T11:22:45.9441645+02:00",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Mayert Inc and Sons",
-        "ToolTip": "Autem ut.",
+        "Id": 90,
+        "Name": "Bosco LLC",
+        "ToolTip": "Debitis sint.",
         "Deleted": false,
-        "Rank": 625,
-        "Type": "aut",
-        "ColorBlock": 646,
-        "IconHint": "minus",
-        "Selected": true,
-        "LastChanged": "2012-05-23T17:37:40.0435018+02:00",
+        "Rank": 888,
+        "Type": "perferendis",
+        "ColorBlock": 860,
+        "IconHint": "repellendus",
+        "Selected": false,
+        "LastChanged": "2013-02-22T11:22:45.9441645+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "ab",
+        "ExtraInfo": "atque",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Ramona Zulauf",
+        "FullName": "Miss Rosendo Daniel PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 360
+            "FieldType": "System.String",
+            "FieldLength": 479
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "sint",
+    "ExtraInfo": "a",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Mariano Kohler",
+    "FullName": "Jazmyn Mitchell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 685
+        "FieldType": "System.String",
+        "FieldLength": 565
       }
     }
   }

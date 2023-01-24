@@ -89,7 +89,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 814,
-  "Section": "quibusdam",
-  "Key": "sapiente",
-  "Name": "Roob Group",
+  "PrefDescId": 901,
+  "Section": "alias",
+  "Key": "sed",
+  "Name": "Prosacco-Stehr",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Diverse mission-critical approach",
+  "Description": "Organized responsive service-desk",
   "IsBuiltin": false,
-  "TableName": "Schumm LLC",
-  "UserDefinedListId": 614,
-  "Rank": 596,
-  "SubGroup": "provident",
-  "MinLevel": 428,
-  "MaxValue": 6,
-  "MinValue": 246,
-  "RequiredLicense": "nihil",
+  "TableName": "West Inc and Sons",
+  "UserDefinedListId": 681,
+  "Rank": 747,
+  "SubGroup": "tempora",
+  "MinLevel": 658,
+  "MaxValue": 465,
+  "MinValue": 473,
+  "RequiredLicense": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldLength": 231
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

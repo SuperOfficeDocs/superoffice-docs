@@ -101,37 +101,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 134,
-    "Name": "Jaskolski, Murazik and Schamberger",
-    "Tooltip": "est",
-    "SaveInDb": 363,
-    "Filename": "animi",
-    "DefaultOref": "natus",
+    "DocumentTemplateId": 325,
+    "Name": "Kohler-Waelchi",
+    "Tooltip": "minima",
+    "SaveInDb": 343,
+    "Filename": "sint",
+    "DefaultOref": "omnis",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
     "AutoeventId": 287,
-    "IntentId": 831,
-    "IsDefaultPublished": false,
-    "Rank": 17,
-    "LoadTemplateFromPlugin": 271,
-    "MimeType": "qui",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 202,
+    "IntentId": 871,
+    "IsDefaultPublished": true,
+    "Rank": 520,
+    "LoadTemplateFromPlugin": 468,
+    "MimeType": "reiciendis",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 107,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "doris@hermantillman.co.uk",
+    "EmailSubject": "shanny_oberbrunner@krajcik.ca",
     "IncludeSignature": false,
-    "ShowCurrents": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "derrick.beier@herman.info",
+    "SenderEmailAddress": "alberto@reinger.biz",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldType": "System.String",
+        "FieldLength": 430
       }
     }
   }

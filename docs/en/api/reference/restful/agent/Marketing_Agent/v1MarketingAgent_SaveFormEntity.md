@@ -108,28 +108,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 645,
-  "FormKey": "saepe",
-  "Name": "Gleichner LLC",
-  "Description": "Proactive multimedia structure",
-  "Config": "voluptas",
-  "FolderId": 376,
-  "ScriptId": 824,
-  "ResponseShipmentId": 627,
+  "FormId": 138,
+  "FormKey": "cum",
+  "Name": "Weissnat-Smitham",
+  "Description": "Multi-lateral 24 hour orchestration",
+  "Config": "recusandae",
+  "FolderId": 742,
+  "ScriptId": 339,
+  "ResponseShipmentId": 879,
   "Active": false,
-  "Expires": "1998-05-05T17:37:18.3132416+02:00",
-  "MaxSubmits": 661,
+  "Expires": "2005-02-13T11:22:38.5552678+01:00",
+  "MaxSubmits": 110,
   "Type": "Normal",
-  "Recipe": "eum",
-  "GroupId": 723,
+  "Recipe": "magnam",
+  "GroupId": 119,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2021-03-08T17:37:18.3132416+01:00",
-  "RegisteredAssociateId": 304,
-  "Updated": "2006-08-01T17:37:18.3132416+02:00",
-  "UpdatedAssociateId": 90,
-  "UpdatedCount": 120,
-  "FolderName": "Hand, Ratke and Rippin"
+  "Registered": "2007-04-08T11:22:38.5552678+02:00",
+  "RegisteredAssociateId": 768,
+  "Updated": "2022-04-11T11:22:38.5552678+02:00",
+  "UpdatedAssociateId": 528,
+  "UpdatedCount": 572,
+  "FolderName": "McClure, Zieme and Haley"
 }
 ```
 
@@ -140,34 +140,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 696,
-  "FormKey": "est",
-  "Name": "Wintheiser Group",
-  "Description": "Cross-group intangible strategy",
-  "Config": "tenetur",
-  "FolderId": 975,
-  "ScriptId": 902,
-  "ResponseShipmentId": 605,
+  "FormId": 979,
+  "FormKey": "voluptatem",
+  "Name": "Wiegand, Kihn and Raynor",
+  "Description": "Virtual foreground matrices",
+  "Config": "eveniet",
+  "FolderId": 757,
+  "ScriptId": 771,
+  "ResponseShipmentId": 731,
   "Active": true,
-  "Expires": "1999-06-05T17:37:18.3132416+02:00",
-  "MaxSubmits": 167,
+  "Expires": "1999-10-21T11:22:38.5552678+02:00",
+  "MaxSubmits": 138,
   "Type": "Normal",
-  "Recipe": "est",
-  "GroupId": 241,
+  "Recipe": "similique",
+  "GroupId": 985,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "1998-04-16T17:37:18.3132416+02:00",
-  "RegisteredAssociateId": 51,
-  "Updated": "2013-05-16T17:37:18.3132416+02:00",
-  "UpdatedAssociateId": 228,
-  "UpdatedCount": 336,
-  "FolderName": "Nienow-Lehner",
+  "Registered": "2023-01-02T11:22:38.5552678+01:00",
+  "RegisteredAssociateId": 942,
+  "Updated": "2010-10-24T11:22:38.5552678+02:00",
+  "UpdatedAssociateId": 906,
+  "UpdatedCount": 846,
+  "FolderName": "Homenick, Douglas and Gutkowski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 803
+      "FieldType": "System.Int32",
+      "FieldLength": 64
     }
   }
 }

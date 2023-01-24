@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 631,
-  "ERPProductKey": "sit",
-  "ERPPriceListKey": "sunt",
-  "Name": "Bogisich LLC",
-  "Description": "Right-sized homogeneous budgetary management",
-  "Code": "error",
-  "PriceUnit": "dolorem",
-  "QuantityUnit": "est",
+  "ProductId": 666,
+  "ERPProductKey": "quos",
+  "ERPPriceListKey": "iste",
+  "Name": "Balistreri LLC",
+  "Description": "Self-enabling interactive customer loyalty",
+  "Code": "omnis",
+  "PriceUnit": "expedita",
+  "QuantityUnit": "in",
   "IsSubscription": false,
-  "SubscriptionUnit": "sed",
-  "DefaultSubscriptionQuantity": 12169.322,
-  "ItemNumber": "1648075",
+  "SubscriptionUnit": "neque",
+  "DefaultSubscriptionQuantity": 949.602,
+  "ItemNumber": "927048",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatem",
-  "ProductTypeKey": "ut",
-  "VAT": 22965.951999999997,
-  "VATInfo": "ab",
-  "UnitCost": 11332.544,
-  "UnitMinimumPrice": 617.398,
-  "UnitListPrice": 22871.932,
+  "ProductFamilyKey": "officia",
+  "ProductTypeKey": "error",
+  "VAT": 10511.436,
+  "VATInfo": "alias",
+  "UnitCost": 20126.548,
+  "UnitMinimumPrice": 19715.994,
+  "UnitListPrice": 23696.174,
   "InAssortment": false,
-  "Supplier": "omnis",
-  "SupplierCode": "animi",
-  "Rights": "iure",
-  "Rule": "dolorem",
+  "Supplier": "eos",
+  "SupplierCode": "qui",
+  "Rights": "placeat",
+  "Rule": "quos",
   "ExtraInfo": [
     {
-      "Name": "Kozey Inc and Sons",
-      "Value": "maxime",
+      "Name": "Wiegand, Jacobson and Fadel",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 21
+          "FieldLength": 786
         }
       }
     },
     {
-      "Name": "Kozey Inc and Sons",
-      "Value": "maxime",
+      "Name": "Wiegand, Jacobson and Fadel",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 21
+          "FieldLength": 786
         }
       }
     }
   ],
-  "RawExtraInfo": "cum",
-  "ExtraField1": "labore",
-  "ExtraField2": "pariatur",
-  "ExtraField3": "dignissimos",
-  "ExtraField4": "cumque",
-  "ExtraField5": "nesciunt",
-  "InStock": 11564.46,
+  "RawExtraInfo": "accusantium",
+  "ExtraField1": "hic",
+  "ExtraField2": "ipsam",
+  "ExtraField3": "enim",
+  "ExtraField4": "provident",
+  "ExtraField5": "odio",
+  "InStock": 6114.434,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldType": "System.String",
+      "FieldLength": 537
     }
   }
 }

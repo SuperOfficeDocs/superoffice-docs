@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 394,
+  "PersonId": 256,
   "OnlyOpenSales": true
 }
 ```
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Stoltenberg-Fahey",
-    "SaleDate": "1998-10-10T17:37:18.8942448+02:00",
-    "SaleId": 107,
-    "Probability": 966,
-    "Title": "iusto",
-    "Amount": 16212.181999999999,
-    "Currency": "cumque",
-    "ProjectName": "Powlowski-Altenwerth",
-    "AssociateFullName": "Pete Kendall O'Connell Sr.",
-    "Description": "Synergized optimal emulation",
+    "ContactName": "Robel, Jast and Braun",
+    "SaleDate": "2015-01-03T11:22:39.2425669+01:00",
+    "SaleId": 273,
+    "Probability": 959,
+    "Title": "enim",
+    "Amount": 15356.6,
+    "Currency": "fugit",
+    "ProjectName": "Leannon LLC",
+    "AssociateFullName": "Dr. Rosie Mills",
+    "Description": "Grass-roots fresh-thinking attitude",
     "Status": "Lost",
-    "WeightedAmount": 8916.23,
-    "ProjectId": 879,
-    "EarningPercent": 10204.304,
-    "Earning": 3375.3179999999998,
-    "ContactId": 46,
-    "AssociateId": 826,
-    "PersonId": 306,
-    "SaleTypeId": 796,
-    "SaleTypeName": "Crona, O'Reilly and McKenzie",
-    "PersonFullName": "Wilton Monahan",
+    "WeightedAmount": 11677.284,
+    "ProjectId": 356,
+    "EarningPercent": 18111.386,
+    "Earning": 3199.814,
+    "ContactId": 847,
+    "AssociateId": 1000,
+    "PersonId": 706,
+    "SaleTypeId": 138,
+    "SaleTypeName": "Schowalter, Frami and Cole",
+    "PersonFullName": "Jillian Monahan",
     "Completed": "Completed",
-    "ActiveErpLinks": 186,
-    "NextDueDate": "2006-09-23T17:37:18.8952428+02:00",
-    "Number": "621786",
+    "ActiveErpLinks": 507,
+    "NextDueDate": "2002-01-21T11:22:39.2425669+01:00",
+    "Number": "1254389",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldType": "System.String",
+        "FieldLength": 716
       }
     }
   }

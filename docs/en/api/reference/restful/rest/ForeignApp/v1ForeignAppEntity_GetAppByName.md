@@ -64,7 +64,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,32 +72,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 15 Mar 2016 17:37:38 G3T
+Last-Modified: Tue, 15 Oct 2013 11:22:44 G10T
 
 {
-  "ForeignAppId": 298,
-  "Name": "Hudson-Hills",
-  "CreatedDate": "2001-11-18T17:37:38.8128674+01:00",
-  "UpdatedDate": "2016-03-15T17:37:38.8128674+01:00",
+  "ForeignAppId": 684,
+  "Name": "Wunsch-Macejkovic",
+  "CreatedDate": "2010-11-07T11:22:44.8662479+01:00",
+  "UpdatedDate": "2013-10-15T11:22:44.8662479+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 677,
-      "Name": "Mitchell, Windler and Bartell",
-      "CreatedDate": "2013-10-25T17:37:38.8138603+02:00",
-      "UpdatedDate": "2008-10-06T17:37:38.8138603+02:00",
-      "AssociateFullName": "Lester Barton",
-      "CreatedBy": "ut",
-      "UpdatedBy": "facilis",
-      "DeviceIdentifier": "delectus",
-      "ForeignAppId": 971,
+      "ForeignDeviceId": 657,
+      "Name": "Schumm LLC",
+      "CreatedDate": "2003-12-16T11:22:44.8662479+01:00",
+      "UpdatedDate": "2001-06-03T11:22:44.8662479+02:00",
+      "AssociateFullName": "Mr. Myriam Alta Renner",
+      "CreatedBy": "sed",
+      "UpdatedBy": "nesciunt",
+      "DeviceIdentifier": "enim",
+      "ForeignAppId": 148,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 223
+          "FieldType": "System.Int32",
+          "FieldLength": 632
         }
       }
     }
@@ -107,7 +107,7 @@ Last-Modified: Tue, 15 Mar 2016 17:37:38 G3T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 214
     }
   }
 }

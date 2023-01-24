@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "contact",
-  "Context": "soluta"
+  "Context": "ut"
 }
 ```
 
@@ -108,72 +108,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "dignissimos",
-    "ValueType": "accusantium",
+    "Key": "tempora",
+    "ValueType": "totam",
     "Mandatory": false,
-    "EncodedDisplayName": "Labadie, Bins and Schiller",
-    "EncodedDisplayDescription": "Implemented attitude-oriented encryption",
-    "IconHint": "ipsam",
+    "EncodedDisplayName": "Wiza-Hartmann",
+    "EncodedDisplayDescription": "Innovative actuating help-desk",
+    "IconHint": "iusto",
     "ControlInfos": [
       {
-        "Type": "voluptate",
-        "Label": "sit",
-        "Dimension": 930,
-        "ListProviderName": "Hilll-Carroll",
-        "ListProviderExtraInfo": "autem",
-        "ListProviderPrimaryKeyName": "Waters LLC",
-        "ListLeadText": "eum",
+        "Type": "aliquam",
+        "Label": "eveniet",
+        "Dimension": 241,
+        "ListProviderName": "Wuckert-Reichert",
+        "ListProviderExtraInfo": "odio",
+        "ListProviderPrimaryKeyName": "Kiehn LLC",
+        "ListLeadText": "ad",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 557
+            "FieldLength": 801
           }
         }
       }
     ],
-    "EncodedDataCaption": "ratione",
-    "EncodedDataCaptionDescription": "Stand-alone uniform extranet",
-    "CurrentOperationType": "optio",
+    "EncodedDataCaption": "molestiae",
+    "EncodedDataCaptionDescription": "Customizable stable methodology",
+    "CurrentOperationType": "laudantium",
     "Values": [
-      "saepe",
-      "aut"
+      "soluta",
+      "aliquid"
     ],
     "DisplayValues": [
-      "illum",
-      "debitis"
+      "cum",
+      "quia"
     ],
     "OperationInfos": [
       {
-        "Key": "velit",
-        "EncodedDisplayName": "Koss, Schmidt and Harber",
+        "Key": "est",
+        "EncodedDisplayName": "Hermiston, Reinger and Ratke",
         "EncodedLeadTexts": [
-          "placeat",
-          "optio"
+          "laudantium",
+          "quis"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 667
+            "FieldType": "System.Int32",
+            "FieldLength": 936
           }
         }
       },
       {
-        "Key": "velit",
-        "EncodedDisplayName": "Koss, Schmidt and Harber",
+        "Key": "est",
+        "EncodedDisplayName": "Hermiston, Reinger and Ratke",
         "EncodedLeadTexts": [
-          "placeat",
-          "optio"
+          "laudantium",
+          "quis"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 667
+            "FieldType": "System.Int32",
+            "FieldLength": 936
           }
         }
       }

@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quis",
+    "path": "assumenda",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quis",
+    "path": "assumenda",
     "value": {}
   }
 ]
@@ -164,88 +164,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 548,
+  "DocumentId": 468,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "itaque",
-  "Header": "qui",
-  "Name": "Jacobi, Stamm and Kub",
-  "OurRef": "exercitationem",
-  "YourRef": "quam",
-  "CreatedDate": "2022-11-13T17:37:38.5558298+01:00",
-  "UpdatedDate": "1998-11-02T17:37:38.5558298+01:00",
-  "Description": "Assimilated holistic approach",
+  "Attention": "corrupti",
+  "Header": "eos",
+  "Name": "Bins-Abernathy",
+  "OurRef": "velit",
+  "YourRef": "blanditiis",
+  "CreatedDate": "2008-06-17T11:22:44.6319818+02:00",
+  "UpdatedDate": "2014-10-28T11:22:44.6319818+01:00",
+  "Description": "Reduced reciprocal forecast",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-03-28T17:37:38.5588335+02:00",
-  "ExternalRef": "vitae",
+  "Date": "2000-01-30T11:22:44.6319818+01:00",
+  "ExternalRef": "voluptas",
   "Completed": "Completed",
-  "ActiveLinks": 236,
+  "ActiveLinks": 349,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Fay Group",
-      "Id": 270,
-      "Description": "Advanced global intranet",
-      "ExtraInfo": "libero",
-      "LinkId": 233,
+      "EntityName": "Jones Group",
+      "Id": 855,
+      "Description": "Programmable neutral open architecture",
+      "ExtraInfo": "culpa",
+      "LinkId": 563,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 687
+          "FieldLength": 27
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 701,
-  "Snum": 426,
+  "SuggestedDocumentId": 213,
+  "Snum": 966,
   "UserDefinedFields": {
-    "SuperOffice:1": "Vincenza Koch",
-    "SuperOffice:2": "Prof. Kari Tom Skiles"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "332280383"
   },
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "ipsam",
-    "CustomFields2": "eos"
+    "CustomFields1": "velit",
+    "CustomFields2": "cupiditate"
   },
-  "PublishEventDate": "2018-09-13T17:37:38.5618313+02:00",
-  "PublishTo": "1995-11-30T17:37:38.5618313+01:00",
-  "PublishFrom": "2011-07-29T17:37:38.5618313+02:00",
+  "PublishEventDate": "2019-03-03T11:22:44.6319818+01:00",
+  "PublishTo": "2008-07-29T11:22:44.6319818+02:00",
+  "PublishFrom": "2009-07-03T11:22:44.6319818+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 583,
+      "VisibleId": 626,
       "Visibility": "All",
-      "DisplayValue": "culpa",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldType": "System.String",
+          "FieldLength": 701
         }
       }
     },
     {
-      "VisibleId": 583,
+      "VisibleId": 626,
       "Visibility": "All",
-      "DisplayValue": "culpa",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldType": "System.String",
+          "FieldLength": 701
         }
       }
     }
@@ -254,13 +254,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldType": "System.String",
+      "FieldLength": 112
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

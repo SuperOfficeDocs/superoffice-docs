@@ -116,18 +116,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "delectus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "delectus",
     "value": {}
   }
 ]
@@ -140,22 +140,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 47,
-  "ERPPriceListKey": "sit",
-  "QuoteConnectionId": 267,
-  "Name": "Cremin Inc and Sons",
-  "Description": "User-friendly multi-tasking matrices",
-  "Currency": "veritatis",
-  "CurrencyName": "Cormier, O'Connell and Zboncak",
-  "ValidFrom": "2005-11-22T17:37:40.1195086+01:00",
-  "ValidTo": "2012-03-23T17:37:40.1195086+01:00",
-  "IsActive": false,
+  "PriceListId": 737,
+  "ERPPriceListKey": "ad",
+  "QuoteConnectionId": 679,
+  "Name": "Kozey Group",
+  "Description": "Multi-tiered maximized migration",
+  "Currency": "porro",
+  "CurrencyName": "Nikolaus Inc and Sons",
+  "ValidFrom": "2019-09-12T11:22:46.0066565+02:00",
+  "ValidTo": "2001-05-30T11:22:46.0066565+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldType": "System.String",
+      "FieldLength": 527
     }
   },
   "_Links": {

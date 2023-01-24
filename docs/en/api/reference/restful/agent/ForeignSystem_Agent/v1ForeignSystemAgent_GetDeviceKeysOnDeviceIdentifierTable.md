@@ -86,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Corkery, Little and Waelchi",
-  "DeviceName": "Goldner LLC",
-  "DeviceIdentifier": "asperiores",
-  "TableName": "Borer LLC"
+  "ApplicationName": "Grady, Hegmann and Veum",
+  "DeviceName": "Franecki Group",
+  "DeviceIdentifier": "temporibus",
+  "TableName": "Watsica, Friesen and Emmerich"
 }
 ```
 
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "voluptatem",
-    "Value": "debitis",
-    "RecordId": 812,
-    "CreatedDate": "2005-02-01T17:37:18.1152414+01:00",
-    "UpdatedDate": "2020-09-06T17:37:18.1152414+02:00",
-    "UpdatedBy": "est",
-    "CreatedBy": "odio",
-    "TableName": "Ernser Group",
+    "Key": "consequuntur",
+    "Value": "quia",
+    "RecordId": 734,
+    "CreatedDate": "2004-08-19T11:22:38.3834434+02:00",
+    "UpdatedDate": "2013-10-24T11:22:38.3834434+02:00",
+    "UpdatedBy": "quasi",
+    "CreatedBy": "error",
+    "TableName": "Heidenreich, Wilderman and Weber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldLength": 947
       }
     }
   }

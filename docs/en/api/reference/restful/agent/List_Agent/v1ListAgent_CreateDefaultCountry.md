@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,30 +91,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 970,
-  "Name": "Kuhn Inc and Sons",
-  "CurrencyId": 142,
-  "EnglishName": "Lemke-Feil",
+  "CountryId": 691,
+  "Name": "Murazik-Harber",
+  "CurrencyId": 561,
+  "EnglishName": "Lang, Corwin and Kerluke",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Organized solution-oriented workforce",
-  "OrgNrText": "662285",
-  "InterAreaPrefix": "qui",
-  "DialInPrefix": "ullam",
-  "ZipPrefix": "mollitia",
-  "DomainName": "Conroy-Hansen",
-  "AddressLayoutId": 969,
-  "DomesticAddressLayoutId": 238,
-  "ForeignAddressLayoutId": 548,
-  "Rank": 322,
-  "Tooltip": "quia",
-  "Deleted": true,
+  "ImageDescription": "Networked zero administration data-warehouse",
+  "OrgNrText": "1675081",
+  "InterAreaPrefix": "labore",
+  "DialInPrefix": "sunt",
+  "ZipPrefix": "at",
+  "DomainName": "Walker-Bauch",
+  "AddressLayoutId": 666,
+  "DomesticAddressLayoutId": 384,
+  "ForeignAddressLayoutId": 474,
+  "Rank": 899,
+  "Tooltip": "totam",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldType": "System.Int32",
+      "FieldLength": 405
     }
   }
 }

@@ -72,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 970,
-  "Name": "Frami, Feest and Koelpin",
-  "CreatedDate": "2005-02-25T17:37:18.0893365+01:00",
-  "UpdatedDate": "2000-01-27T17:37:18.0893365+01:00",
+  "ForeignAppId": 633,
+  "Name": "Hauck-Grimes",
+  "CreatedDate": "2022-08-08T11:22:38.3678241+02:00",
+  "UpdatedDate": "2002-04-13T11:22:38.3678241+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 749,
-      "Name": "Doyle-Graham",
-      "CreatedDate": "2000-03-11T17:37:18.0902432+01:00",
-      "UpdatedDate": "2018-09-07T17:37:18.0902432+02:00",
-      "AssociateFullName": "Lucile Morissette",
-      "CreatedBy": "qui",
-      "UpdatedBy": "rem",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 237,
+      "ForeignDeviceId": 246,
+      "Name": "Blick-O'Keefe",
+      "CreatedDate": "2000-11-27T11:22:38.3678241+01:00",
+      "UpdatedDate": "2004-06-29T11:22:38.3678241+02:00",
+      "AssociateFullName": "Mortimer Ward",
+      "CreatedBy": "velit",
+      "UpdatedBy": "omnis",
+      "DeviceIdentifier": "sed",
+      "ForeignAppId": 511,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldLength": 742
         }
       }
     }
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldType": "System.String",
+      "FieldLength": 749
     }
   }
 }

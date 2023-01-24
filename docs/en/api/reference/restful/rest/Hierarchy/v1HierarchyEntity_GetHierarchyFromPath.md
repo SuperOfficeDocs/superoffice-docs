@@ -88,46 +88,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 730,
+  "HierarchyId": 476,
   "Domain": "Dashboards",
-  "Name": "Quitzon-Cruickshank",
-  "Fullname": "voluptatem",
-  "ParentId": 143,
+  "Name": "Flatley-Ortiz",
+  "Fullname": "itaque",
+  "ParentId": 150,
   "Children": [
     {
-      "HierarchyId": 435,
+      "HierarchyId": 269,
       "Domain": "Dashboards",
-      "Name": "Kovacek LLC",
-      "Fullname": "aut",
-      "ParentId": 535,
+      "Name": "Gleichner, Howe and Schmeler",
+      "Fullname": "et",
+      "ParentId": 347,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2000-03-27T17:37:38.8298601+02:00",
-      "RegisteredAssociateId": 959,
-      "Updated": "2009-12-27T17:37:38.8298601+01:00",
-      "UpdatedAssociateId": 796,
+      "Registered": "2003-06-22T11:22:44.8818691+02:00",
+      "RegisteredAssociateId": 357,
+      "Updated": "2018-05-25T11:22:44.8818691+02:00",
+      "UpdatedAssociateId": 252,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 540
         }
       }
     }
   ],
-  "Registered": "1997-12-20T17:37:38.8298601+01:00",
-  "RegisteredAssociateId": 228,
-  "Updated": "2021-10-22T17:37:38.8298601+02:00",
-  "UpdatedAssociateId": 268,
+  "Registered": "2007-08-26T11:22:44.8818691+02:00",
+  "RegisteredAssociateId": 20,
+  "Updated": "2020-10-09T11:22:44.8818691+02:00",
+  "UpdatedAssociateId": 401,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 162
     }
   }
 }

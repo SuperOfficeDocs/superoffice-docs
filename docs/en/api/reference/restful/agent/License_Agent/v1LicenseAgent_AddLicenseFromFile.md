@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "reiciendis"
+  "FileContent": "harum"
 }
 ```
 
@@ -91,21 +91,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 655,
-      "NumberOfLicensesFree": 651,
-      "NumberOfLicensesAdded": 175,
-      "NumberOfLicensesNewTotal": 581,
-      "NumberOfLicensesNewFree": 452,
-      "NumberOfLicensesTotal": 156
+      "NumberOfLicensesInUse": 462,
+      "NumberOfLicensesFree": 161,
+      "NumberOfLicensesAdded": 922,
+      "NumberOfLicensesNewTotal": 365,
+      "NumberOfLicensesNewFree": 133,
+      "NumberOfLicensesTotal": 463
     }
   ],
-  "AccumulatedNextCheckDate": "1997-08-13T17:37:18.1362418+02:00"
+  "AccumulatedNextCheckDate": "2005-12-02T11:22:38.4146877+01:00"
 }
 ```

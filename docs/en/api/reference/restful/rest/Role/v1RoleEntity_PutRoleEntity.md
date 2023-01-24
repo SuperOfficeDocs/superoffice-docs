@@ -106,16 +106,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 764,
-  "Name": "O'Keefe, Wyman and Legros",
-  "Tooltip": "eos",
+  "RoleId": 929,
+  "Name": "Mraz-Bruen",
+  "Tooltip": "repellat",
   "RoleType": "Anonymous",
-  "Deleted": 95,
-  "Rank": 270,
-  "Created": "1999-11-30T17:37:39.0493035+01:00",
-  "UseCategories": 648,
+  "Deleted": 565,
+  "Rank": 626,
+  "Created": "2007-04-08T11:22:45.0693694+02:00",
+  "UseCategories": 205,
   "CreatedBy": null,
-  "Updated": "1998-09-08T17:37:39.0493035+02:00",
+  "Updated": "2012-09-20T11:22:45.0693694+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -128,29 +128,29 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 179,
-  "Name": "Hauck Group",
-  "Tooltip": "praesentium",
+  "RoleId": 577,
+  "Name": "Robel, Friesen and Gleason",
+  "Tooltip": "reprehenderit",
   "RoleType": "Anonymous",
-  "Deleted": 112,
-  "Rank": 724,
-  "Created": "2019-05-09T17:37:39.0513032+02:00",
-  "UseCategories": 529,
+  "Deleted": 267,
+  "Rank": 515,
+  "Created": "2010-01-30T11:22:45.0693694+01:00",
+  "UseCategories": 194,
   "CreatedBy": null,
-  "Updated": "2002-07-28T17:37:39.0513032+02:00",
+  "Updated": "2017-07-20T11:22:45.0849869+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldType": "System.String",
+      "FieldLength": 728
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

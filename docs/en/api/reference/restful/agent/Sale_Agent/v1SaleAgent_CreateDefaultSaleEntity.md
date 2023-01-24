@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "repudiandae",
+  "SaleText": "non",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -124,113 +124,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1998-04-23T17:37:18.8332416+02:00",
-  "Amount": 19333.646,
-  "SaleId": 612,
-  "Earning": 4719.804,
-  "EarningPercent": 24395.056,
-  "Heading": "ex",
-  "Number": "904528",
-  "Probability": 376,
-  "CreatedDate": "2001-02-13T17:37:18.8332416+01:00",
-  "UpdatedDate": "2010-03-10T17:37:18.8332416+01:00",
+  "Saledate": "2018-11-18T11:22:38.9926773+01:00",
+  "Amount": 14275.369999999999,
+  "SaleId": 451,
+  "Earning": 17838.728,
+  "EarningPercent": 2052.77,
+  "Heading": "nulla",
+  "Number": "820119",
+  "Probability": 13,
+  "CreatedDate": "2007-10-15T11:22:38.9926773+02:00",
+  "UpdatedDate": "1997-09-07T11:22:38.9926773+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 214,
+  "ActiveLinks": 999,
   "Links": [
     {
-      "EntityName": "Fay, Johnston and Dibbert",
-      "Id": 875,
-      "Description": "Future-proofed zero defect project",
-      "ExtraInfo": "aut",
-      "LinkId": 83,
+      "EntityName": "Bernhard Group",
+      "Id": 182,
+      "Description": "Re-engineered assymetric budgetary management",
+      "ExtraInfo": "officiis",
+      "LinkId": 816,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldLength": 652
         }
       }
     }
   ],
-  "NextDueDate": "2007-01-15T17:37:18.8332416+01:00",
-  "Postit": "ea",
+  "NextDueDate": "2022-12-01T11:22:38.9926773+01:00",
+  "Postit": "animi",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2020-06-28T17:37:18.8332416+02:00",
+  "ReopenDate": "2022-03-28T11:22:38.9926773+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Wunsch-Rutherford",
-      "Comment": "veniam",
-      "StakeholderRoleId": 363,
-      "CountryId": 619,
-      "PersonId": 954,
-      "EmailDescription": "hank@markstoy.us",
-      "EmailId": 27,
-      "EmailAddress": "darlene.borer@kilback.info",
-      "PhoneId": 53,
-      "ContactName": "Bailey-O'Keefe",
-      "ContactId": 211,
-      "SaleId": 878,
-      "Mrmrs": "aliquid",
-      "Firstname": "Clinton",
-      "MiddleName": "Langworth, Sipes and Jakubowski",
-      "Lastname": "Auer",
-      "SaleStakeholderId": 584,
-      "Rank": 298,
-      "Phone": "930.690.4389 x3190",
+      "StakeholderRoleName": "Jewess Group",
+      "Comment": "et",
+      "StakeholderRoleId": 273,
+      "CountryId": 430,
+      "PersonId": 183,
+      "EmailDescription": "jamarcus@conroyherman.us",
+      "EmailId": 446,
+      "EmailAddress": "junius@markskemmer.name",
+      "PhoneId": 358,
+      "ContactName": "Daniel, Rippin and Reichert",
+      "ContactId": 52,
+      "SaleId": 84,
+      "Mrmrs": "ratione",
+      "Firstname": "Payton",
+      "MiddleName": "Gusikowski Group",
+      "Lastname": "Hudson",
+      "SaleStakeholderId": 539,
+      "Rank": 150,
+      "Phone": "813-771-6982",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 193
+          "FieldType": "System.String",
+          "FieldLength": 735
         }
       }
     }
   ],
-  "ActiveErpLinks": 27,
+  "ActiveErpLinks": 537,
   "UserDefinedFields": {
-    "SuperOffice:1": "Jaydon Waelchi",
-    "SuperOffice:2": "Prof. Margarita Elenora Hudson V"
+    "SuperOffice:1": "Ms. Miles Katrina McLaughlin",
+    "SuperOffice:2": "Mr. Sim Brown DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "perferendis",
-    "ExtraFields2": "atque"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "nostrum"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "magni"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "ad"
   },
-  "PublishEventDate": "1999-07-10T17:37:18.834242+02:00",
-  "PublishTo": "1999-01-30T17:37:18.834242+01:00",
-  "PublishFrom": "2015-12-03T17:37:18.834242+01:00",
+  "PublishEventDate": "2020-05-07T11:22:38.9926773+02:00",
+  "PublishTo": "2007-08-03T11:22:38.9926773+02:00",
+  "PublishFrom": "2021-04-15T11:22:38.9926773+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 954,
+      "VisibleId": 298,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 926
+          "FieldType": "System.String",
+          "FieldLength": 905
         }
       }
     },
     {
-      "VisibleId": 954,
+      "VisibleId": 298,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 926
+          "FieldType": "System.String",
+          "FieldLength": 905
         }
       }
     }
@@ -240,7 +240,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 854
     }
   }
 }

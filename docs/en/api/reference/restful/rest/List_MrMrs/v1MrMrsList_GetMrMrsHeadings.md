@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 769,
-    "Name": "McGlynn Group",
-    "Tooltip": "aut",
+    "HeadingId": 684,
+    "Name": "Harvey Group",
+    "Tooltip": "ad",
     "Deleted": false,
-    "Rank": 601,
-    "UdListDefinitionId": 923,
+    "Rank": 171,
+    "UdListDefinitionId": 254,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldLength": 239
       }
     }
   }

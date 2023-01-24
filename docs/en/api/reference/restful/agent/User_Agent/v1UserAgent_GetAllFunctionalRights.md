@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Schumm Group",
-    "ToolTip": "Est error eos corporis.",
-    "Deleted": false,
-    "Rank": 727,
-    "Type": "laborum",
-    "ColorBlock": 466,
-    "IconHint": "ut",
+    "Id": 10,
+    "Name": "O'Reilly-Bruen",
+    "ToolTip": "Nihil assumenda numquam velit.",
+    "Deleted": true,
+    "Rank": 782,
+    "Type": "dolorum",
+    "ColorBlock": 277,
+    "IconHint": "atque",
     "Selected": true,
-    "LastChanged": "2004-02-06T17:37:19.5479753+01:00",
+    "LastChanged": "2020-09-09T11:22:39.617529+02:00",
     "ChildItems": [
       {
-        "Id": 23,
-        "Name": "Grady, Sauer and Cole",
-        "ToolTip": "Quae quaerat similique a hic fuga assumenda provident.",
+        "Id": 16,
+        "Name": "Macejkovic-Gerlach",
+        "ToolTip": "Voluptates minima non.",
         "Deleted": false,
-        "Rank": 42,
-        "Type": "quos",
-        "ColorBlock": 339,
-        "IconHint": "quas",
-        "Selected": false,
-        "LastChanged": "2012-06-11T17:37:19.5479753+02:00",
+        "Rank": 951,
+        "Type": "animi",
+        "ColorBlock": 795,
+        "IconHint": "cumque",
+        "Selected": true,
+        "LastChanged": "2006-02-11T11:22:39.617529+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "placeat",
-        "Hidden": true,
-        "FullName": "Easter Walker",
+        "ExtraInfo": "tempora",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Gillian Wisozk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 8
+            "FieldType": "System.Int32",
+            "FieldLength": 575
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "et",
+    "ExtraInfo": "dolore",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Pat Strosin",
+    "FullName": "Ms. Carleton Flatley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldType": "System.Int32",
+        "FieldLength": 465
       }
     }
   }

@@ -82,18 +82,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "impedit",
-  "Value": "facilis",
-  "RecordId": 52,
-  "CreatedDate": "2007-09-04T17:37:38.8208594+02:00",
-  "UpdatedDate": "2002-01-02T17:37:38.8208594+01:00",
-  "UpdatedBy": "vero",
-  "CreatedBy": "voluptatum",
-  "TableName": "Murphy, Sawayn and Bogisich"
+  "Key": "sint",
+  "Value": "officiis",
+  "RecordId": 51,
+  "CreatedDate": "2014-11-17T11:22:44.8818691+01:00",
+  "UpdatedDate": "2016-12-01T11:22:44.8818691+01:00",
+  "UpdatedBy": "sed",
+  "CreatedBy": "sunt",
+  "TableName": "Kemmer LLC"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repellat",
-  "Value": "dolor",
-  "RecordId": 35,
-  "CreatedDate": "2013-03-25T17:37:38.8218608+01:00",
-  "UpdatedDate": "1996-07-14T17:37:38.8218608+02:00",
-  "UpdatedBy": "ipsum",
-  "CreatedBy": "quia",
-  "TableName": "Conn LLC",
+  "Key": "optio",
+  "Value": "atque",
+  "RecordId": 673,
+  "CreatedDate": "1998-10-09T11:22:44.8818691+02:00",
+  "UpdatedDate": "2005-03-19T11:22:44.8818691+01:00",
+  "UpdatedBy": "sed",
+  "CreatedBy": "est",
+  "TableName": "Lowe-Grimes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldType": "System.Int32",
+      "FieldLength": 313
     }
   }
 }

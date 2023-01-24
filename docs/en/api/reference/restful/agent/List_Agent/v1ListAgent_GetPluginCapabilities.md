@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/List/GetPluginCapabilities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 380
+  "PluginId": 379
 }
 ```
 
@@ -84,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptatem",
-  "2": "autem"
+  "1": "optio",
+  "2": "nam"
 }
 ```

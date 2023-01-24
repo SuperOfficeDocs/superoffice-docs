@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 826,
+  "UdListDefinitionId": 244,
   "Item": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "Name": "Bahringer, Swift and Wolff",
-  "Tooltip": "hic",
+  "Id": 487,
+  "Name": "Bernhard Inc and Sons",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 479,
-  "Rank": 813,
+  "UdListDefinitionId": 135,
+  "Rank": 127,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldType": "System.String",
+      "FieldLength": 137
     }
   }
 }

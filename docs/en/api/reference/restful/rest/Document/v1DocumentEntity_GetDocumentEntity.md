@@ -108,7 +108,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,91 +116,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 26 Aug 2021 17:37:38 G8T
+Last-Modified: Sun, 19 Jul 2015 11:22:44 G7T
 
 {
-  "DocumentId": 892,
+  "DocumentId": 469,
   "UpdatedBy": null,
   "CreatedBy": null,
   "Attention": "non",
-  "Header": "voluptatem",
-  "Name": "Stoltenberg, Leffler and Schinner",
-  "OurRef": "consequatur",
-  "YourRef": "eum",
-  "CreatedDate": "1995-12-21T17:37:38.5258602+01:00",
-  "UpdatedDate": "2021-08-26T17:37:38.5258602+02:00",
-  "Description": "Diverse user-facing migration",
+  "Header": "accusamus",
+  "Name": "Price Inc and Sons",
+  "OurRef": "sint",
+  "YourRef": "voluptas",
+  "CreatedDate": "1998-06-09T11:22:44.6163574+02:00",
+  "UpdatedDate": "2015-07-19T11:22:44.6163574+02:00",
+  "Description": "Enhanced value-added portal",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-01-06T17:37:38.5278294+01:00",
-  "ExternalRef": "omnis",
+  "Date": "2007-10-23T11:22:44.6163574+02:00",
+  "ExternalRef": "suscipit",
   "Completed": "Completed",
-  "ActiveLinks": 557,
+  "ActiveLinks": 902,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Champlin-Lesch",
-      "Id": 601,
-      "Description": "Stand-alone intermediate service-desk",
-      "ExtraInfo": "rem",
-      "LinkId": 598,
+      "EntityName": "Fadel, Lynch and Cummerata",
+      "Id": 858,
+      "Description": "Function-based bandwidth-monitored approach",
+      "ExtraInfo": "libero",
+      "LinkId": 846,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 772
+          "FieldType": "System.Int32",
+          "FieldLength": 346
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 365,
-  "Snum": 942,
+  "SuggestedDocumentId": 836,
+  "Snum": 937,
   "UserDefinedFields": {
-    "SuperOffice:1": "Vallie Metz IV",
-    "SuperOffice:2": "Mariane Kertzmann"
+    "SuperOffice:1": "882535703",
+    "SuperOffice:2": "1954310639"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "libero"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "unde"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "in"
+    "CustomFields1": "nobis",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2001-08-04T17:37:38.5298573+02:00",
-  "PublishTo": "2010-09-11T17:37:38.5298573+02:00",
-  "PublishFrom": "2007-02-14T17:37:38.5298573+01:00",
+  "PublishEventDate": "2007-06-30T11:22:44.6163574+02:00",
+  "PublishTo": "2000-10-21T11:22:44.6163574+02:00",
+  "PublishFrom": "2002-11-01T11:22:44.6163574+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 439,
+      "VisibleId": 864,
       "Visibility": "All",
-      "DisplayValue": "maxime",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 364
         }
       }
     },
     {
-      "VisibleId": 439,
+      "VisibleId": 864,
       "Visibility": "All",
-      "DisplayValue": "maxime",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 364
         }
       }
     }
@@ -210,7 +210,7 @@ Last-Modified: Thu, 26 Aug 2021 17:37:38 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldLength": 335
     }
   },
   "_Links": {

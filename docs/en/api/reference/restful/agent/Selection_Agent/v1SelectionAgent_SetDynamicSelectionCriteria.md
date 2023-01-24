@@ -82,22 +82,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 65,
+  "SelectionId": 82,
   "Criteria": [
     {
-      "Name": "Gibson Inc and Sons",
-      "Operator": "dolores",
+      "Name": "Kassulke, Farrell and Armstrong",
+      "Operator": "officia",
       "Values": [
-        "veritatis",
-        "ullam"
+        "eos",
+        "rerum"
       ],
       "DisplayValues": [
-        "voluptatum",
-        "officiis"
+        "doloremque",
+        "earum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -105,9 +105,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 840,
+      "InterParenthesis": 887,
       "InterOperator": "And",
-      "UniqueHash": 812
+      "UniqueHash": 997
     }
   ]
 }
@@ -121,29 +121,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Huels-Stamm",
-    "Operator": "occaecati",
+    "Name": "Bradtke, Brekke and Hahn",
+    "Operator": "modi",
     "Values": [
-      "repudiandae",
-      "ea"
+      "rerum",
+      "exercitationem"
     ],
     "DisplayValues": [
-      "et",
-      "dolor"
+      "neque",
+      "explicabo"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Breitenberg-Goodwin",
-        "Operator": "totam",
+        "Name": "Wisoky-Cole",
+        "Operator": "eaque",
         "Values": [
-          "repellendus",
-          "libero"
+          "quae",
+          "est"
         ],
         "DisplayValues": [
-          "commodi",
-          "ratione"
+          "sequi",
+          "minus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -151,14 +151,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 16,
+        "InterParenthesis": 411,
         "InterOperator": "And",
-        "UniqueHash": 712
+        "UniqueHash": 178
       }
     ],
-    "InterParenthesis": 45,
+    "InterParenthesis": 475,
     "InterOperator": "And",
-    "UniqueHash": 648
+    "UniqueHash": 194
   }
 ]
 ```

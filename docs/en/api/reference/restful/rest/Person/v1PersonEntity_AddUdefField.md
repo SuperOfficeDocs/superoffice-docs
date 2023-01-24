@@ -97,7 +97,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 849,
-  "ColumnId": 896,
-  "FieldDefault": "consequatur",
-  "FieldHeight": 885,
-  "FieldLabel": "nam",
-  "FieldLeft": 373,
-  "FieldTop": 751,
+  "UDefFieldId": 342,
+  "ColumnId": 428,
+  "FieldDefault": "architecto",
+  "FieldHeight": 412,
+  "FieldLabel": "eos",
+  "FieldLeft": 219,
+  "FieldTop": 578,
   "FieldType": "Checkbox",
-  "FieldWidth": 779,
-  "FormatMask": "dicta",
+  "FieldWidth": 931,
+  "FormatMask": "dolore",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 321,
-  "LabelLeft": 592,
-  "LabelTop": 43,
-  "LabelWidth": 819,
-  "LastVersionId": 934,
-  "ListTableId": 12,
+  "IsIndexed": true,
+  "LabelHeight": 818,
+  "LabelLeft": 445,
+  "LabelTop": 951,
+  "LabelWidth": 487,
+  "LastVersionId": 461,
+  "ListTableId": 302,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 189,
-  "ProgId": "nobis",
+  "Page1LineNo": 143,
+  "ProgId": "alias",
   "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 246,
-  "TextLength": 191,
-  "Tooltip": "unde",
-  "UdefIdentity": 628,
-  "UDListDefinitionId": 546,
+  "ShortLabel": "animi",
+  "TabOrder": 189,
+  "TextLength": 245,
+  "Tooltip": "possimus",
+  "UdefIdentity": 741,
+  "UDListDefinitionId": 385,
   "Justification": "Center",
-  "Version": 959,
-  "TemplateVariableName": "Wolff-Wiegand",
+  "Version": 913,
+  "TemplateVariableName": "Auer LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Zboncak Inc and Sons",
+  "MdoListName": "Strosin-Klocko",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldLength": 159
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 710,
-    "Name": "Donnelly, Brekke and Rosenbaum",
-    "Tooltip": "est",
+    "HeadingId": 604,
+    "Name": "Corkery Group",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 653,
-    "UdListDefinitionId": 881,
+    "Rank": 929,
+    "UdListDefinitionId": 411,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 908
+        "FieldType": "System.Int32",
+        "FieldLength": 298
       }
     }
   }

@@ -66,7 +66,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 329,
-  "Name": "Rice Inc and Sons",
-  "CreatedDate": "1995-11-24T17:37:38.6078298+01:00",
-  "UpdatedDate": "2003-08-26T17:37:38.6078298+02:00",
+  "ForeignAppId": 655,
+  "Name": "Schoen-Lind",
+  "CreatedDate": "2013-02-07T11:22:44.6788474+01:00",
+  "UpdatedDate": "1997-10-20T11:22:44.6788474+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 850,
-      "Name": "Schumm, Klein and VonRueden",
-      "CreatedDate": "2002-11-19T17:37:38.6078298+01:00",
-      "UpdatedDate": "2007-09-06T17:37:38.6078298+02:00",
-      "AssociateFullName": "Mr. Tremaine Raynor DDS",
-      "CreatedBy": "rem",
-      "UpdatedBy": "magni",
-      "DeviceIdentifier": "quis",
-      "ForeignAppId": 773,
+      "ForeignDeviceId": 471,
+      "Name": "Legros-Kirlin",
+      "CreatedDate": "2002-06-10T11:22:44.6788474+02:00",
+      "UpdatedDate": "1999-10-26T11:22:44.6788474+02:00",
+      "AssociateFullName": "Robin Johnson",
+      "CreatedBy": "atque",
+      "UpdatedBy": "magnam",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 415,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 129
         }
       }
     }
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 676
+      "FieldType": "System.Int32",
+      "FieldLength": 918
     }
   }
 }

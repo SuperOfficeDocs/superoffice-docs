@@ -92,7 +92,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 439,
-  "ColumnId": 844,
-  "FieldDefault": "ex",
-  "FieldHeight": 46,
-  "FieldLabel": "illum",
-  "FieldLeft": 523,
-  "FieldTop": 951,
+  "UDefFieldId": 946,
+  "ColumnId": 636,
+  "FieldDefault": "hic",
+  "FieldHeight": 753,
+  "FieldLabel": "sit",
+  "FieldLeft": 715,
+  "FieldTop": 979,
   "FieldType": "Checkbox",
-  "FieldWidth": 318,
-  "FormatMask": "nihil",
+  "FieldWidth": 831,
+  "FormatMask": "ex",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 268,
-  "LabelLeft": 395,
-  "LabelTop": 270,
-  "LabelWidth": 746,
-  "LastVersionId": 904,
-  "ListTableId": 583,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 859,
+  "LabelLeft": 590,
+  "LabelTop": 240,
+  "LabelWidth": 812,
+  "LastVersionId": 439,
+  "ListTableId": 592,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 430,
-  "ProgId": "eum",
+  "Page1LineNo": 467,
+  "ProgId": "esse",
   "IsReadOnly": false,
-  "ShortLabel": "voluptas",
-  "TabOrder": 617,
-  "TextLength": 872,
-  "Tooltip": "aut",
-  "UdefIdentity": 709,
-  "UDListDefinitionId": 834,
+  "ShortLabel": "ea",
+  "TabOrder": 459,
+  "TextLength": 856,
+  "Tooltip": "laborum",
+  "UdefIdentity": 482,
+  "UDListDefinitionId": 125,
   "Justification": "Center",
-  "Version": 207,
-  "TemplateVariableName": "O'Conner LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Moen Group",
+  "Version": 124,
+  "TemplateVariableName": "Bogan Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Windler-Brakus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldLength": 835
     }
   }
 }

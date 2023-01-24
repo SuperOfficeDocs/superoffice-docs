@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 659,
-    "Name": "Runolfsdottir, Murphy and Kassulke",
-    "Tooltip": "sed",
+    "HeadingId": 729,
+    "Name": "Anderson, Altenwerth and Mertz",
+    "Tooltip": "vero",
     "Deleted": true,
-    "Rank": 789,
-    "UdListDefinitionId": 930,
+    "Rank": 188,
+    "UdListDefinitionId": 143,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldType": "System.String",
+        "FieldLength": 782
       }
     }
   }

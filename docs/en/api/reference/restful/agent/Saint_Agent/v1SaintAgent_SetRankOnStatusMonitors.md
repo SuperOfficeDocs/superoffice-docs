@@ -68,10 +68,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "praesentium",
+  "Type": "enim",
   "ItemsIds": [
-    364,
-    309
+    718,
+    295
   ]
 }
 ```

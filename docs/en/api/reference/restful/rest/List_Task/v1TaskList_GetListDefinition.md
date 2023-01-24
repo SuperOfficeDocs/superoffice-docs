@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Von, Kerluke and Greenholt",
-  "Tooltip": "aliquam",
+  "Id": 903,
+  "Name": "Pfeffer Inc and Sons",
+  "Tooltip": "reprehenderit",
   "Deleted": true,
-  "Rank": 505,
-  "IsCustomList": false,
+  "Rank": 403,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
+  "ListType": "tenetur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 305
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   },
   "_Links": {

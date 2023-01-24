@@ -114,18 +114,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 51,
-  "PersonId": 524,
-  "AppointmentId": 821,
-  "DocumentId": 534,
-  "SaleId": 911,
-  "SelectionId": 604,
-  "ProjectId": 230,
-  "UiCulture": "ex"
+  "ContactId": 270,
+  "PersonId": 952,
+  "AppointmentId": 1000,
+  "DocumentId": 681,
+  "SaleId": 786,
+  "SelectionId": 76,
+  "ProjectId": 920,
+  "UiCulture": "porro"
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 488,
+  "DocumentId": 850,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quam",
-  "Header": "dolorem",
-  "Name": "Williamson Group",
-  "OurRef": "officiis",
-  "YourRef": "enim",
-  "CreatedDate": "1999-05-10T17:37:17.5612417+02:00",
-  "UpdatedDate": "2022-04-19T17:37:17.5612417+02:00",
-  "Description": "Innovative zero defect process improvement",
+  "Attention": "maiores",
+  "Header": "quas",
+  "Name": "Ryan-Turner",
+  "OurRef": "nihil",
+  "YourRef": "quia",
+  "CreatedDate": "2016-02-26T11:22:38.1178295+01:00",
+  "UpdatedDate": "1998-08-13T11:22:38.1178295+02:00",
+  "Description": "Cloned asynchronous function",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-03-19T17:37:17.5652414+01:00",
-  "ExternalRef": "optio",
+  "Date": "2002-04-28T11:22:38.1334506+02:00",
+  "ExternalRef": "non",
   "Completed": "Completed",
-  "ActiveLinks": 104,
+  "ActiveLinks": 398,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ziemann Group",
-      "Id": 882,
-      "Description": "Enhanced web-enabled system engine",
-      "ExtraInfo": "ab",
-      "LinkId": 19,
+      "EntityName": "Rau, Kling and Franecki",
+      "Id": 433,
+      "Description": "Enhanced uniform adapter",
+      "ExtraInfo": "quibusdam",
+      "LinkId": 713,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 218
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 911,
-  "Snum": 371,
+  "SuggestedDocumentId": 691,
+  "Snum": 41,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "sapiente",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "reiciendis"
   },
   "CustomFields": {
-    "CustomFields1": "eaque",
-    "CustomFields2": "est"
+    "CustomFields1": "ut",
+    "CustomFields2": "sint"
   },
-  "PublishEventDate": "2016-10-28T17:37:17.5652414+02:00",
-  "PublishTo": "2011-12-06T17:37:17.5652414+01:00",
-  "PublishFrom": "2008-08-13T17:37:17.5652414+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1996-02-25T11:22:38.1334506+01:00",
+  "PublishTo": "2006-04-09T11:22:38.1334506+02:00",
+  "PublishFrom": "1997-04-10T11:22:38.1334506+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 241,
+      "VisibleId": 526,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 267
         }
       }
     },
     {
-      "VisibleId": 241,
+      "VisibleId": 526,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 267
         }
       }
     }
@@ -227,7 +227,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 244
     }
   }
 }

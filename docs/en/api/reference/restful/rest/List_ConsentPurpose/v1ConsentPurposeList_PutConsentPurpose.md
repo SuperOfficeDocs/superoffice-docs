@@ -97,18 +97,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 217,
-  "Name": "Cartwright LLC",
-  "ConsentText": "et",
-  "FormText": "nihil",
-  "Key": "commodi",
-  "Tooltip": "eaque",
-  "Active": 331,
-  "UpdatedDate": "2018-12-20T17:37:39.8925064+01:00",
+  "ConsentPurposeId": 835,
+  "Name": "Bergstrom-Pfeffer",
+  "ConsentText": "mollitia",
+  "FormText": "pariatur",
+  "Key": "velit",
+  "Tooltip": "at",
+  "Active": 259,
+  "UpdatedDate": "2003-08-16T11:22:45.8191493+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 995,
-  "PrivacyStatementDesc": "excepturi",
+  "Deleted": false,
+  "Rank": 88,
+  "PrivacyStatementDesc": "inventore",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 398,
-  "Name": "Gislason, O'Hara and Kohler",
-  "ConsentText": "nihil",
-  "FormText": "nulla",
-  "Key": "quod",
-  "Tooltip": "ut",
-  "Active": 284,
-  "UpdatedDate": "2011-12-15T17:37:39.8945085+01:00",
+  "ConsentPurposeId": 23,
+  "Name": "Zemlak, Bauch and Mills",
+  "ConsentText": "et",
+  "FormText": "corrupti",
+  "Key": "praesentium",
+  "Tooltip": "dolor",
+  "Active": 777,
+  "UpdatedDate": "2005-11-17T11:22:45.8191493+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 550,
-  "PrivacyStatementDesc": "corporis",
+  "Rank": 248,
+  "PrivacyStatementDesc": "quaerat",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 162
+      "FieldType": "System.Int32",
+      "FieldLength": 983
     }
   }
 }

@@ -96,20 +96,20 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 269,
-  "Name": "Lehner, Gibson and Prohaska",
-  "Tooltip": "et",
+  "Id": 595,
+  "Name": "Weimann-Powlowski",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 871,
+  "Rank": 377,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
-  "InUseByUserDefinedFields": true
+  "ListType": "velit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 805,
-  "Name": "Abbott LLC",
-  "Tooltip": "nesciunt",
+  "Id": 841,
+  "Name": "Frami, Hansen and Welch",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 797,
+  "Rank": 507,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "ListType": "ipsum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldLength": 871
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -90,12 +90,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 84,
-  "NewName": "Schumm, Sauer and Kris",
-  "ValidFrom": "2001-02-19T17:37:18.7172411+01:00",
-  "ValidTo": "2013-06-21T17:37:18.7172411+02:00",
-  "NewCurrencyId": 688,
-  "ConvertCurrency": true
+  "OriginalPriceListId": 812,
+  "NewName": "Blick-Sawayn",
+  "ValidFrom": "2019-09-15T11:22:38.8989499+02:00",
+  "ValidTo": "2019-08-02T11:22:38.8989499+02:00",
+  "NewCurrencyId": 480,
+  "ConvertCurrency": false
 }
 ```
 
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 3,
-  "ERPPriceListKey": "eaque",
-  "QuoteConnectionId": 757,
-  "Name": "Bashirian Group",
-  "Description": "Universal multimedia artificial intelligence",
-  "Currency": "quasi",
-  "CurrencyName": "Ziemann-Runolfsdottir",
-  "ValidFrom": "2015-02-10T17:37:18.7172411+01:00",
-  "ValidTo": "1999-12-06T17:37:18.7172411+01:00",
+  "PriceListId": 637,
+  "ERPPriceListKey": "illum",
+  "QuoteConnectionId": 475,
+  "Name": "Legros, Bartoletti and Hand",
+  "Description": "Proactive hybrid archive",
+  "Currency": "itaque",
+  "CurrencyName": "Senger, Hessel and Marks",
+  "ValidFrom": "1998-09-04T11:22:38.8989499+02:00",
+  "ValidTo": "2019-08-19T11:22:38.8989499+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldType": "System.Int32",
+      "FieldLength": 331
     }
   }
 }

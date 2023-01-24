@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Name": "Senger Group",
-    "ToolTip": "Sit et omnis aut officiis velit eum.",
+    "Id": 900,
+    "Name": "Leannon Inc and Sons",
+    "ToolTip": "Vero reprehenderit magni minima vel aperiam.",
     "Deleted": false,
-    "Rank": 468,
-    "Type": "iste",
-    "ColorBlock": 479,
-    "IconHint": "libero",
+    "Rank": 247,
+    "Type": "in",
+    "ColorBlock": 576,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2006-05-08T17:37:40.0194703+02:00",
+    "LastChanged": "2018-09-10T11:22:45.9129207+02:00",
     "ChildItems": [
       {
-        "Id": 810,
-        "Name": "Ward LLC",
-        "ToolTip": "Ex laborum.",
+        "Id": 652,
+        "Name": "Botsford Inc and Sons",
+        "ToolTip": "Quas consequuntur recusandae maxime sit repellat iste ut.",
         "Deleted": false,
-        "Rank": 290,
-        "Type": "ducimus",
-        "ColorBlock": 342,
-        "IconHint": "dicta",
+        "Rank": 647,
+        "Type": "officiis",
+        "ColorBlock": 242,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2003-08-26T17:37:40.0194703+02:00",
+        "LastChanged": "2011-10-07T11:22:45.9129207+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Herbert Smitham IV",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "expedita",
+        "Hidden": false,
+        "FullName": "Ms. Karine Pfannerstill Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 384
+            "FieldLength": 230
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "iste",
-    "Hidden": true,
-    "FullName": "Linda Dibbert",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "asperiores",
+    "Hidden": false,
+    "FullName": "Isadore Kiehn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 310
+        "FieldType": "System.Int32",
+        "FieldLength": 655
       }
     }
   }

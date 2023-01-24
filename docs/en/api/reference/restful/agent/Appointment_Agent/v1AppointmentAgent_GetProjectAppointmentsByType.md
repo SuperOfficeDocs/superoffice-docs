@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 475,
-  "StartTime": "2001-01-10T17:37:16.6012444+01:00",
-  "EndTime": "2016-10-08T17:37:16.6012444+02:00",
-  "Count": 386,
+  "ProjectId": 486,
+  "StartTime": "2018-02-03T11:22:37.2274146+01:00",
+  "EndTime": "2016-05-02T11:22:37.2274146+02:00",
+  "Count": 183,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 433,
-    "StartDate": "2011-02-28T17:37:16.6022447+01:00",
-    "EndDate": "2011-04-15T17:37:16.6022447+02:00",
+    "AppointmentId": 854,
+    "StartDate": "2009-01-01T11:22:37.2274146+01:00",
+    "EndDate": "2012-04-27T11:22:37.2274146+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolorem",
-    "AssociateFullName": "Chance Hirthe",
-    "ContactName": "Dibbert Group",
-    "Description": "Down-sized optimal adapter",
-    "PersonFullName": "Mr. Olaf Abshire III",
-    "PersonId": 372,
-    "ContactId": 182,
-    "ProjectId": 226,
-    "ProjectName": "Kautzer Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 173,
-    "ColorIndex": 936,
+    "Task": "omnis",
+    "AssociateFullName": "Ford Hettie Mitchell DVM",
+    "ContactName": "Gusikowski Inc and Sons",
+    "Description": "Compatible well-modulated ability",
+    "PersonFullName": "Saul Cormier",
+    "PersonId": 866,
+    "ContactId": 47,
+    "ProjectId": 969,
+    "ProjectName": "Jakubowski LLC",
+    "IsPublished": true,
+    "AssociateId": 997,
+    "ColorIndex": 534,
     "IsFree": true,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 550,
-    "PriorityName": "Kerluke, Howe and Hermann",
+    "PriorityId": 892,
+    "PriorityName": "Leannon-Jacobs",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2008-01-10T17:37:16.6022447+01:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2000-07-29T11:22:37.2274146+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-10-07T17:37:16.6022447+02:00",
-    "RecurringEndDate": "1996-05-03T17:37:16.6022447+02:00",
-    "MotherId": 913,
-    "AssignedBy": 224,
-    "AssignedByFullName": "Ms. Stan Shanie Wolf",
+    "RecurringStartDate": "2012-02-05T11:22:37.2274146+01:00",
+    "RecurringEndDate": "2014-05-03T11:22:37.2274146+02:00",
+    "MotherId": 562,
+    "AssignedBy": 464,
+    "AssignedByFullName": "Drake Goodwin",
     "RejectReason": "",
-    "Location": "provident",
-    "AlarmLeadTime": "voluptates",
-    "SaleId": 811,
-    "SaleName": "Kutch LLC",
-    "AssociateName": "Rogahn, Ryan and Lebsack",
-    "CreatedDate": "2021-01-05T17:37:16.6032447+01:00",
-    "CreatedBy": "deserunt",
-    "CreatedByFullName": "Ernest Kilback",
-    "CreatedByAssociateId": 790,
+    "Location": "totam",
+    "AlarmLeadTime": "et",
+    "SaleId": 840,
+    "SaleName": "Quigley, Anderson and Bayer",
+    "AssociateName": "Harber, Effertz and Considine",
+    "CreatedDate": "2021-05-09T11:22:37.2274146+02:00",
+    "CreatedBy": "voluptatem",
+    "CreatedByFullName": "Rosemary Cara Hessel V",
+    "CreatedByAssociateId": 194,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 812
       }
     }
   }

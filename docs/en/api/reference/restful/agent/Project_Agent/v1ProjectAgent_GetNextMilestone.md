@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 396
+  "ProjectId": 574
 }
 ```
 
@@ -135,61 +135,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 361,
-  "StartDate": "2002-04-05T17:37:18.6412443+02:00",
-  "EndDate": "2014-05-22T17:37:18.6412443+02:00",
+  "AppointmentId": 475,
+  "StartDate": "2013-03-05T11:22:38.8364607+01:00",
+  "EndDate": "2011-11-05T11:22:38.8364607+01:00",
   "Type": "BookingForChecklist",
-  "Task": "sed",
-  "AssociateFullName": "Alec Beer",
-  "ContactName": "Champlin Group",
-  "Description": "Sharable fresh-thinking artificial intelligence",
-  "PersonFullName": "Fabian Rempel",
-  "PersonId": 918,
-  "ContactId": 497,
-  "ProjectId": 824,
-  "ProjectName": "Leannon-Daniel",
-  "IsPublished": false,
-  "AssociateId": 416,
-  "ColorIndex": 950,
-  "IsFree": false,
+  "Task": "reiciendis",
+  "AssociateFullName": "Amari Satterfield PhD",
+  "ContactName": "Stanton-Balistreri",
+  "Description": "Profound multi-tasking capability",
+  "PersonFullName": "Miss Katharina Schumm",
+  "PersonId": 711,
+  "ContactId": 584,
+  "ProjectId": 351,
+  "ProjectName": "Fisher LLC",
+  "IsPublished": true,
+  "AssociateId": 640,
+  "ColorIndex": 743,
+  "IsFree": true,
   "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 134,
-  "PriorityName": "Pacocha, Hessel and Cummerata",
+  "PriorityId": 101,
+  "PriorityName": "Orn, Williamson and Wuckert",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
-  "IsRecurrence": false,
+  "IsBookingMain": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2004-09-30T17:37:18.6422443+02:00",
+  "ActiveDate": "2001-11-02T11:22:38.8364607+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2022-11-21T17:37:18.6422443+01:00",
-  "RecurringEndDate": "2022-07-03T17:37:18.6422443+02:00",
-  "MotherId": 22,
-  "AssignedBy": 270,
-  "AssignedByFullName": "Junior Weber",
+  "RecurringStartDate": "2005-12-05T11:22:38.8364607+01:00",
+  "RecurringEndDate": "2003-05-05T11:22:38.8364607+02:00",
+  "MotherId": 612,
+  "AssignedBy": 663,
+  "AssignedByFullName": "Brain Frida Schmitt II",
   "RejectReason": "",
-  "Location": "vitae",
-  "AlarmLeadTime": "aut",
-  "SaleId": 587,
-  "SaleName": "Bernhard Group",
-  "AssociateName": "Hyatt-Stoltenberg",
-  "CreatedDate": "1998-03-29T17:37:18.6422443+02:00",
-  "CreatedBy": "sit",
-  "CreatedByFullName": "Mrs. Kailyn Rippin",
-  "CreatedByAssociateId": 747,
+  "Location": "praesentium",
+  "AlarmLeadTime": "ut",
+  "SaleId": 997,
+  "SaleName": "Bergnaum, Carter and Konopelski",
+  "AssociateName": "Glover, Emard and Kovacek",
+  "CreatedDate": "2005-05-05T11:22:38.8364607+02:00",
+  "CreatedBy": "maiores",
+  "CreatedByFullName": "Mrs. Richard Milo Schiller",
+  "CreatedByAssociateId": 737,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldType": "System.String",
+      "FieldLength": 921
     }
   }
 }

@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 416,
-    "Name": "Wisoky Group",
-    "Tooltip": "accusantium",
+    "HeadingId": 57,
+    "Name": "Stracke-McLaughlin",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 736,
-    "UdListDefinitionId": 652,
+    "Rank": 634,
+    "UdListDefinitionId": 186,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldType": "System.String",
+        "FieldLength": 480
       }
     }
   }

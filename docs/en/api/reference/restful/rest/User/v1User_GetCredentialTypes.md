@@ -61,7 +61,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,9 +72,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "a",
-    "Type": "alias",
-    "Description": "Focused multi-tasking internet solution",
+    "DisplayType": "et",
+    "Type": "perspiciatis",
+    "Description": "Cloned transitional customer loyalty",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -83,7 +83,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldLength": 170
       }
     }
   }

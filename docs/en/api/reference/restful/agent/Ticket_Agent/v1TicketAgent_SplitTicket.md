@@ -129,14 +129,14 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceTicketEntityId": 961,
+  "SourceTicketEntityId": 435,
   "TransferMessageIds": [
-    860,
-    640
+    753,
+    659
   ],
   "NewTicketEntity": null
 }
@@ -149,21 +149,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 569,
-  "Title": "ad",
-  "CreatedAt": "2015-05-11T17:37:19.4039758+02:00",
-  "LastChanged": "2014-09-17T17:37:19.4039758+02:00",
-  "ReadByOwner": "1996-04-17T17:37:19.4039758+02:00",
-  "ReadByCustomer": "1998-06-13T17:37:19.4039758+02:00",
-  "FirstReadByOwner": "2009-02-23T17:37:19.4039758+01:00",
-  "FirstReadByUser": "2007-06-11T17:37:19.4039758+02:00",
-  "Activate": "1995-11-04T17:37:19.4039758+01:00",
-  "ClosedAt": "2012-01-11T17:37:19.4039758+01:00",
-  "RepliedAt": "2010-08-23T17:37:19.4039758+02:00",
-  "AlertTimeout": "2021-04-05T17:37:19.4039758+02:00",
-  "Deadline": "2014-10-17T17:37:19.4039758+02:00",
+  "TicketId": 719,
+  "Title": "autem",
+  "CreatedAt": "2012-11-22T11:22:39.4926974+01:00",
+  "LastChanged": "2015-12-29T11:22:39.4926974+01:00",
+  "ReadByOwner": "2001-07-12T11:22:39.4926974+02:00",
+  "ReadByCustomer": "2022-04-14T11:22:39.4926974+02:00",
+  "FirstReadByOwner": "2007-10-10T11:22:39.4926974+02:00",
+  "FirstReadByUser": "2020-09-07T11:22:39.4926974+02:00",
+  "Activate": "2015-02-14T11:22:39.4926974+01:00",
+  "ClosedAt": "2022-04-21T11:22:39.4926974+02:00",
+  "RepliedAt": "2008-04-02T11:22:39.4926974+02:00",
+  "AlertTimeout": "2016-01-07T11:22:39.4926974+01:00",
+  "Deadline": "2012-10-11T11:22:39.4926974+02:00",
   "CreatedBy": null,
-  "Author": "natus",
+  "Author": "dolores",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -174,157 +174,157 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "eius",
-      "PersonId": 889,
-      "Mrmrs": "eum",
-      "Firstname": "Louisa",
-      "Lastname": "Maggio",
-      "MiddleName": "Koepp Inc and Sons",
-      "Title": "omnis",
-      "Description": "Streamlined 6th generation help-desk",
-      "Email": "madaline@robelhalvorson.us",
-      "FullName": "Audra Larson",
-      "DirectPhone": "089.535.1161",
-      "FormalName": "Tillman, Rogahn and Thompson",
-      "CountryId": 948,
-      "ContactId": 53,
-      "ContactName": "Kling Group",
-      "Retired": 939,
-      "Rank": 351,
-      "ActiveInterests": 832,
-      "ContactDepartment": "architect scalable relationships",
-      "ContactCountryId": 818,
-      "ContactOrgNr": "967613",
-      "FaxPhone": "(684)173-8233 x600",
-      "MobilePhone": "474.304.8489",
-      "ContactPhone": "1-898-843-9506 x206",
-      "AssociateName": "Mraz, Turcotte and Conn",
-      "AssociateId": 720,
-      "UsePersonAddress": false,
-      "ContactFax": "explicabo",
-      "Kanafname": "dolorem",
-      "Kanalname": "ipsum",
-      "Post1": "et",
-      "Post2": "et",
-      "Post3": "non",
-      "EmailName": "rafael.bogisich@lind.ca",
-      "ContactFullName": "Deja DuBuque MD",
-      "ActiveErpLinks": 467,
-      "TicketPriorityId": 618,
-      "SupportLanguageId": 905,
-      "SupportAssociateId": 605,
+      "Position": "rerum",
+      "PersonId": 190,
+      "Mrmrs": "corporis",
+      "Firstname": "Chelsie",
+      "Lastname": "Kuphal",
+      "MiddleName": "Runte, Flatley and Cassin",
+      "Title": "dolorem",
+      "Description": "Robust dynamic artificial intelligence",
+      "Email": "america.kunde@tromp.ca",
+      "FullName": "Henriette Lowe IV",
+      "DirectPhone": "1-583-846-4090 x2287",
+      "FormalName": "Rodriguez, Cartwright and Connelly",
+      "CountryId": 95,
+      "ContactId": 153,
+      "ContactName": "Hyatt Inc and Sons",
+      "Retired": 704,
+      "Rank": 759,
+      "ActiveInterests": 345,
+      "ContactDepartment": "",
+      "ContactCountryId": 416,
+      "ContactOrgNr": "1232305",
+      "FaxPhone": "1-608-223-7516",
+      "MobilePhone": "534-707-8948",
+      "ContactPhone": "387.859.2285 x877",
+      "AssociateName": "Lubowitz, Hermann and Cruickshank",
+      "AssociateId": 167,
+      "UsePersonAddress": true,
+      "ContactFax": "recusandae",
+      "Kanafname": "alias",
+      "Kanalname": "et",
+      "Post1": "aut",
+      "Post2": "expedita",
+      "Post3": "sit",
+      "EmailName": "teresa.gorczany@morar.biz",
+      "ContactFullName": "Jedidiah Smith",
+      "ActiveErpLinks": 339,
+      "TicketPriorityId": 217,
+      "SupportLanguageId": 390,
+      "SupportAssociateId": 903,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldLength": 982
         }
       }
     }
   ],
-  "AlertLevel": 938,
-  "ConnectId": 557,
+  "AlertLevel": 73,
+  "ConnectId": 126,
   "ReadStatus": "Green",
-  "TimeToReply": 214,
-  "RealTimeToReply": 64,
-  "TimeToClose": 139,
-  "RealTimeToClose": 170,
-  "TimeSpentInternally": 65,
-  "TimeSpentExternally": 485,
-  "TimeSpentQueue": 198,
-  "RealTimeSpentInternally": 418,
-  "RealTimeSpentExternally": 479,
-  "RealTimeSpentQueue": 77,
-  "HasAttachment": true,
-  "NumReplies": 806,
-  "NumMessages": 591,
-  "FromAddress": "aut",
+  "TimeToReply": 689,
+  "RealTimeToReply": 981,
+  "TimeToClose": 388,
+  "RealTimeToClose": 471,
+  "TimeSpentInternally": 676,
+  "TimeSpentExternally": 500,
+  "TimeSpentQueue": 66,
+  "RealTimeSpentInternally": 687,
+  "RealTimeSpentExternally": 901,
+  "RealTimeSpentQueue": 999,
+  "HasAttachment": false,
+  "NumReplies": 996,
+  "NumMessages": 498,
+  "FromAddress": "voluptatem",
   "Messages": [
     {
-      "TicketMessageId": 776,
-      "CreatedAt": "2021-02-20T17:37:19.407976+01:00",
+      "TicketMessageId": 493,
+      "CreatedAt": "1999-11-05T11:22:39.4926974+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "rerum",
-      "PersonId": 757,
-      "PersonFullName": "Maud Tremblay",
-      "ContactId": 458,
-      "ContactName": "Abernathy, Ryan and Schneider",
-      "ContactDepartment": "",
-      "NumAttachments": 835,
-      "EmailHeader": "kristin_hilpert@strosin.name",
+      "Author": "reiciendis",
+      "PersonId": 283,
+      "PersonFullName": "Prof. Eden Ariane O'Conner IV",
+      "ContactId": 818,
+      "ContactName": "Kirlin Group",
+      "ContactDepartment": "reinvent dot-com infomediaries",
+      "NumAttachments": 787,
+      "EmailHeader": "birdie@brakus.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "officia",
-      "Sentiment": 18,
-      "SentimentConfidence": 495,
-      "CreatedBy": 476,
-      "ChangedAt": "2000-06-29T17:37:19.4089772+02:00",
+      "Language": "perferendis",
+      "Sentiment": 134,
+      "SentimentConfidence": 19,
+      "CreatedBy": 700,
+      "ChangedAt": "2003-08-19T11:22:39.4926974+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 551
+          "FieldType": "System.Int32",
+          "FieldLength": 775
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 70,
-      "Name": "Keebler Inc and Sons",
-      "ToolTip": "Labore voluptas dolorem quod.",
+      "Id": 689,
+      "Name": "Kuvalis-Durgan",
+      "ToolTip": "Nihil quo veritatis voluptatem.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 322
+          "FieldLength": 593
         }
       }
     },
     {
-      "Id": 70,
-      "Name": "Keebler Inc and Sons",
-      "ToolTip": "Labore voluptas dolorem quod.",
+      "Id": 689,
+      "Name": "Kuvalis-Durgan",
+      "ToolTip": "Nihil quo veritatis voluptatem.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 322
+          "FieldLength": 593
         }
       }
     }
   ],
-  "Language": "dolore",
-  "Sentiment": 627,
-  "SentimentConfidence": 534,
-  "SuggestedCategoryId": 645,
+  "Language": "non",
+  "Sentiment": 171,
+  "SentimentConfidence": 209,
+  "SuggestedCategoryId": 327,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 336,
-  "IconHint": "labore",
+  "OrigHumanCategoryId": 329,
+  "IconHint": "iure",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "minus",
+    "CustomFields2": "eius"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 83
+      "FieldLength": 671
     }
   }
 }

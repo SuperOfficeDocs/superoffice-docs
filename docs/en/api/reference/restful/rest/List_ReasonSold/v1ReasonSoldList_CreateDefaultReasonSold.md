@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 430,
-  "Name": "Kling LLC",
-  "Tooltip": "aut",
+  "Id": 418,
+  "Name": "Lockman, Boyer and Yundt",
+  "Tooltip": "mollitia",
   "Deleted": false,
-  "UdListDefinitionId": 993,
-  "Rank": 157,
+  "UdListDefinitionId": 868,
+  "Rank": 465,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 47
     }
   }
 }

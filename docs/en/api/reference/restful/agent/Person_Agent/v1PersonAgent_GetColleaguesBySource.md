@@ -114,12 +114,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 192
+  "Count": 337
 }
 ```
 
@@ -131,52 +131,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "laudantium",
-    "PersonId": 407,
-    "Mrmrs": "eos",
-    "Firstname": "Samantha",
-    "Lastname": "Kessler",
-    "MiddleName": "Rau, Terry and Schmeler",
-    "Title": "voluptates",
-    "Description": "Networked background portal",
-    "Email": "betty@koepp.ca",
-    "FullName": "Monica McCullough",
-    "DirectPhone": "028-817-4032 x3192",
-    "FormalName": "Wilderman LLC",
-    "CountryId": 29,
-    "ContactId": 843,
-    "ContactName": "Cummerata-Bartoletti",
-    "Retired": 350,
-    "Rank": 775,
-    "ActiveInterests": 878,
-    "ContactDepartment": "synthesize plug-and-play vortals",
-    "ContactCountryId": 69,
-    "ContactOrgNr": "1335979",
-    "FaxPhone": "525-202-5683 x0794",
-    "MobilePhone": "860-594-1187",
-    "ContactPhone": "947.876.3132 x80127",
-    "AssociateName": "Wisoky, Roob and Ziemann",
-    "AssociateId": 381,
-    "UsePersonAddress": true,
-    "ContactFax": "et",
-    "Kanafname": "placeat",
-    "Kanalname": "id",
-    "Post1": "qui",
-    "Post2": "reprehenderit",
-    "Post3": "quas",
-    "EmailName": "veda.lebsack@quitzon.ca",
-    "ContactFullName": "Rosanna Langworth",
-    "ActiveErpLinks": 997,
-    "TicketPriorityId": 107,
-    "SupportLanguageId": 949,
-    "SupportAssociateId": 993,
+    "Position": "qui",
+    "PersonId": 926,
+    "Mrmrs": "corporis",
+    "Firstname": "Clifford",
+    "Lastname": "Koss",
+    "MiddleName": "Zboncak-Luettgen",
+    "Title": "quia",
+    "Description": "Persistent even-keeled installation",
+    "Email": "mae@zulaufhessel.ca",
+    "FullName": "Dr. Anne Zieme",
+    "DirectPhone": "1-590-857-1214 x7869",
+    "FormalName": "Kris Group",
+    "CountryId": 818,
+    "ContactId": 346,
+    "ContactName": "Gerhold-Flatley",
+    "Retired": 723,
+    "Rank": 209,
+    "ActiveInterests": 834,
+    "ContactDepartment": "",
+    "ContactCountryId": 676,
+    "ContactOrgNr": "1183361",
+    "FaxPhone": "1-372-173-6688",
+    "MobilePhone": "933.767.9536",
+    "ContactPhone": "624.344.9472",
+    "AssociateName": "Hoeger-Trantow",
+    "AssociateId": 752,
+    "UsePersonAddress": false,
+    "ContactFax": "sed",
+    "Kanafname": "voluptatum",
+    "Kanalname": "debitis",
+    "Post1": "iusto",
+    "Post2": "perspiciatis",
+    "Post3": "enim",
+    "EmailName": "dallas.howe@blickstanton.ca",
+    "ContactFullName": "Mrs. Luz Kaleigh Kuhic",
+    "ActiveErpLinks": 958,
+    "TicketPriorityId": 881,
+    "SupportLanguageId": 594,
+    "SupportAssociateId": 383,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 467
       }
     }
   }

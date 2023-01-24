@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 839,
-  "Name": "Lebsack Group",
+  "SelectionId": 131,
+  "Name": "Mills, Bartell and Collier",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended object-oriented budgetary management",
-  "Postit": "rem",
+  "Description": "Networked intangible success",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 100,
-  "IncludePerson": 214,
-  "MemberCount": 778,
-  "Name": "Ebert-Parker",
-  "PostitTextId": 618,
-  "CreatedDate": "1996-10-31T17:37:19.1562421+01:00",
-  "SelectionId": 587,
-  "SoundEx": "debitis",
-  "Source": 705,
-  "TextId": 110,
-  "UpdatedDate": "2002-06-22T17:37:19.1562421+02:00",
-  "UpdatedCount": 368,
-  "Visibility": 544,
+  "GroupIdx": 674,
+  "IncludePerson": 348,
+  "MemberCount": 227,
+  "Name": "Paucek-Grant",
+  "PostitTextId": 348,
+  "CreatedDate": "1996-06-14T11:22:39.2894808+02:00",
+  "SelectionId": 777,
+  "SoundEx": "officiis",
+  "Source": 129,
+  "TextId": 500,
+  "UpdatedDate": "2004-03-23T11:22:39.2894808+01:00",
+  "UpdatedCount": 473,
+  "Visibility": 228,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 973,
-  "TargetTableName": "Marks, Yost and Mueller",
+  "CompanyUnique": true,
+  "TargetTableNumber": 905,
+  "TargetTableName": "Goldner-Schinner",
   "Completed": false,
-  "LeftSelectionId": 906,
-  "RightSelectionId": 719,
+  "LeftSelectionId": 560,
+  "RightSelectionId": 900,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Maggio, Labadie and Stoltenberg",
-  "ShadowProviderName": "Gottlieb Group",
-  "ChartKey": "et",
-  "LastLoaded": "1997-02-05T17:37:19.1562421+01:00",
-  "LastLoadedBy": 367,
+  "MainProviderName": "Block-Kling",
+  "ShadowProviderName": "Schaden, Becker and Hermann",
+  "ChartKey": "ratione",
+  "LastLoaded": "2005-02-06T11:22:39.2894808+01:00",
+  "LastLoadedBy": 993,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-09-29T17:37:19.1562421+02:00",
-  "LastMembershipChangeBy": 809,
+  "LastMembershipChange": "2020-12-07T11:22:39.2894808+01:00",
+  "LastMembershipChangeBy": 453,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolor",
-  "MemberTabHeading": "quod",
-  "MailingsProviderName": "Keeling, Dach and Gottlieb",
-  "DashboardTileDefinitionId": 7,
+  "MainHeading": "aut",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Stamm-Anderson",
+  "DashboardTileDefinitionId": 92,
   "VisibleFor": [
     {
-      "VisibleId": 407,
+      "VisibleId": 466,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 778
+          "FieldType": "System.String",
+          "FieldLength": 489
         }
       }
     },
     {
-      "VisibleId": 407,
+      "VisibleId": 466,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 778
+          "FieldType": "System.String",
+          "FieldLength": 489
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 21
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 32,
-    "Name": "Metz, Pacocha and Runolfsson",
-    "ToolTip": "Dolorem est.",
+    "Id": 168,
+    "Name": "Stoltenberg-Sporer",
+    "ToolTip": "Rerum nam dolorum voluptas.",
     "Deleted": false,
-    "Rank": 56,
-    "Type": "voluptas",
-    "ColorBlock": 779,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2004-10-08T17:37:40.3775007+02:00",
+    "Rank": 18,
+    "Type": "quia",
+    "ColorBlock": 344,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2015-02-27T11:22:46.2097354+01:00",
     "ChildItems": [
       {
-        "Id": 206,
-        "Name": "Keeling, Keeling and Gorczany",
-        "ToolTip": "Laudantium quia quae tempore illum molestiae.",
+        "Id": 381,
+        "Name": "Waelchi-Tillman",
+        "ToolTip": "Eveniet amet nam quos repellat.",
         "Deleted": false,
-        "Rank": 993,
-        "Type": "sapiente",
-        "ColorBlock": 957,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "2008-05-03T17:37:40.3775007+02:00",
+        "Rank": 825,
+        "Type": "quam",
+        "ColorBlock": 129,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2017-08-23T11:22:46.2097354+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "aut",
+        "ExtraInfo": "quod",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Braulio Abshire"
+        "FullName": "Ms. Hiram Chadd Labadie"
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Pearl O'Hara"
+    "ExtraInfo": "amet",
+    "StyleHint": "tenetur",
+    "Hidden": false,
+    "FullName": "Angie Pouros III"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Raynor, Funk and Vandervort",
-    "ToolTip": "Iure adipisci modi accusantium cupiditate sunt quo.",
+    "Id": 57,
+    "Name": "Jast-Bednar",
+    "ToolTip": "Impedit reprehenderit magnam doloremque iste.",
     "Deleted": false,
-    "Rank": 548,
-    "Type": "autem",
-    "ColorBlock": 850,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2007-01-23T17:37:40.3795079+01:00",
+    "Rank": 545,
+    "Type": "et",
+    "ColorBlock": 106,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "2011-05-19T11:22:46.2097354+02:00",
     "ChildItems": [
       {
-        "Id": 887,
-        "Name": "Hilpert LLC",
-        "ToolTip": "Dolores quia et.",
-        "Deleted": true,
-        "Rank": 179,
-        "Type": "quaerat",
-        "ColorBlock": 926,
-        "IconHint": "deleniti",
+        "Id": 217,
+        "Name": "Stroman LLC",
+        "ToolTip": "Aspernatur aliquam rerum quia.",
+        "Deleted": false,
+        "Rank": 46,
+        "Type": "vero",
+        "ColorBlock": 496,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2014-07-22T17:37:40.3795079+02:00",
+        "LastChanged": "2022-09-06T11:22:46.2097354+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Claudie Kiehn",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "assumenda",
+        "Hidden": false,
+        "FullName": "Ms. Violette Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 558
+            "FieldLength": 961
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "distinctio",
-    "Hidden": true,
-    "FullName": "Mrs. Brandy Sigmund Roberts",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Miss Cade Thora Buckridge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldLength": 497
       }
     }
   }

@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Orn-Witting",
-  "DeviceName": "Bernier Group",
-  "DeviceIdentifier": "quis",
+  "ApplicationName": "Stokes, Prohaska and Mohr",
+  "DeviceName": "Bartell Inc and Sons",
+  "DeviceIdentifier": "in",
   "ForeignDevice": null
 }
 ```
@@ -101,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 52,
-  "Name": "Kirlin Inc and Sons",
-  "CreatedDate": "2021-06-15T17:37:18.1032433+02:00",
-  "UpdatedDate": "2003-04-19T17:37:18.1032433+02:00",
-  "AssociateFullName": "Mateo Hackett",
-  "CreatedBy": "repellat",
-  "UpdatedBy": "voluptatum",
-  "DeviceIdentifier": "numquam",
-  "ForeignAppId": 651,
+  "ForeignDeviceId": 368,
+  "Name": "McClure-Nolan",
+  "CreatedDate": "2011-01-18T11:22:38.3834434+01:00",
+  "UpdatedDate": "2002-08-03T11:22:38.3834434+02:00",
+  "AssociateFullName": "Concepcion Ritchie II",
+  "CreatedBy": "ea",
+  "UpdatedBy": "libero",
+  "DeviceIdentifier": "quia",
+  "ForeignAppId": 70,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldLength": 626
     }
   }
 }

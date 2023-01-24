@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 571,
-  "Name": "Collins-Rutherford",
-  "Tooltip": "sit",
+  "Id": 176,
+  "Name": "Lehner Inc and Sons",
+  "Tooltip": "facilis",
   "Deleted": false,
-  "Rank": 987,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 253,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "modi",
+  "ListType": "repudiandae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 761,
-  "Name": "Ankunding Group",
-  "Tooltip": "vitae",
+  "Id": 588,
+  "Name": "Daugherty LLC",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 533,
+  "Rank": 279,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facilis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "enim",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 333
+      "FieldType": "System.Int32",
+      "FieldLength": 912
     }
   }
 }

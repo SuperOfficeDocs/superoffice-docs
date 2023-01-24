@@ -74,7 +74,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,27 +85,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 72,
-    "Comment": "quis",
-    "Registered": "2001-08-21T17:37:38.9348602+02:00",
-    "RegisteredAssociateId": 635,
-    "Updated": "2021-03-14T17:37:38.9348602+01:00",
-    "UpdatedAssociateId": 129,
-    "LegalBaseId": 886,
-    "LegalBaseKey": "omnis",
-    "LegalBaseName": "Stokes, Douglas and Hackett",
-    "ConsentPurposeId": 879,
-    "ConsentPurposeKey": "ut",
-    "ConsentPurposeName": "Ruecker Group",
-    "ConsentSourceId": 6,
-    "ConsentSourceKey": "officia",
-    "ConsentSourceName": "Purdy Group",
+    "ConsentPersonId": 36,
+    "Comment": "quod",
+    "Registered": "2022-03-01T11:22:44.9756457+01:00",
+    "RegisteredAssociateId": 265,
+    "Updated": "2011-07-25T11:22:44.9756457+02:00",
+    "UpdatedAssociateId": 845,
+    "LegalBaseId": 938,
+    "LegalBaseKey": "vel",
+    "LegalBaseName": "Wolff-Dare",
+    "ConsentPurposeId": 942,
+    "ConsentPurposeKey": "eveniet",
+    "ConsentPurposeName": "Jaskolski, Hills and Cormier",
+    "ConsentSourceId": 615,
+    "ConsentSourceKey": "et",
+    "ConsentSourceName": "Bernhard-O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 586
+        "FieldType": "System.Int32",
+        "FieldLength": 593
       }
     }
   }

@@ -87,23 +87,23 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 246,
-  "Name": "O'Conner, Simonis and Kub",
-  "Config": "quaerat",
-  "Rank": 80,
-  "Client": "sit",
-  "Style": "eveniet",
+  "DashboardThemeId": 237,
+  "Name": "Schowalter Group",
+  "Config": "rerum",
+  "Rank": 944,
+  "Client": "suscipit",
+  "Style": "itaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 44
+      "FieldLength": 114
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

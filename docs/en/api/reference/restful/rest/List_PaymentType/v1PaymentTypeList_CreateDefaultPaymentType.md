@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 558,
-  "Name": "Goldner Inc and Sons",
-  "Tooltip": "quod",
+  "Id": 251,
+  "Name": "Hahn, Leannon and Gleason",
+  "Tooltip": "provident",
   "Deleted": true,
-  "UdListDefinitionId": 76,
-  "Rank": 792,
+  "UdListDefinitionId": 448,
+  "Rank": 789,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldType": "System.Int32",
+      "FieldLength": 436
     }
   }
 }

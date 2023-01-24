@@ -83,26 +83,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 775,
-    "Tooltip": "dignissimos",
-    "CanAssign": false,
-    "Free": 126,
-    "InUse": 445,
-    "IsHidden": true,
+    "Unrestricted": true,
+    "Total": 301,
+    "Tooltip": "perspiciatis",
+    "CanAssign": true,
+    "Free": 438,
+    "InUse": 936,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 315,
-    "Name": "Koelpin, Barton and Legros",
-    "Description": "Up-sized attitude-oriented interface",
-    "PrerequisiteModuleName": "Welch Group",
-    "SortOrder": 199,
-    "ExtraFlags": 744,
+    "ModuleLicenseId": 710,
+    "Name": "Kertzmann-Parisian",
+    "Description": "Front-line web-enabled benchmark",
+    "PrerequisiteModuleName": "Tremblay-Jewess",
+    "SortOrder": 129,
+    "ExtraFlags": 833,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 29
+        "FieldLength": 631
       }
     }
   }

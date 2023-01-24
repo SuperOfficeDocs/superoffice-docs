@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 193,
-  "Name": "Hintz-Padberg",
-  "Tooltip": "minus",
-  "Deleted": false,
-  "Rank": 107,
+  "Id": 251,
+  "Name": "Walter, Purdy and Weissnat",
+  "Tooltip": "soluta",
+  "Deleted": true,
+  "Rank": 304,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quo",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eos",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 372
     }
   },
   "_Links": {

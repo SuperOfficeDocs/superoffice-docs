@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 944,
-  "Name": "Cartwright LLC",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 555,
-  "UdListDefinitionId": 877
+  "HeadingId": 79,
+  "Name": "Torphy-Torphy",
+  "Tooltip": "optio",
+  "Deleted": true,
+  "Rank": 98,
+  "UdListDefinitionId": 728
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 913,
-  "Name": "Jast-Bartell",
-  "Tooltip": "unde",
-  "Deleted": true,
-  "Rank": 200,
-  "UdListDefinitionId": 327,
+  "HeadingId": 689,
+  "Name": "Marks, Stokes and Effertz",
+  "Tooltip": "accusamus",
+  "Deleted": false,
+  "Rank": 194,
+  "UdListDefinitionId": 536,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldType": "System.String",
+      "FieldLength": 719
     }
   }
 }

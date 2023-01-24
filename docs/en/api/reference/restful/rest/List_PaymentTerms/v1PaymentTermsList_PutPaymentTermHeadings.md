@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 454,
-    "Name": "Mueller-Welch",
-    "Tooltip": "est",
+    "HeadingId": 887,
+    "Name": "Lubowitz, Harris and Koelpin",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 692,
-    "UdListDefinitionId": 855
+    "Rank": 803,
+    "UdListDefinitionId": 471
   },
   {
-    "HeadingId": 454,
-    "Name": "Mueller-Welch",
-    "Tooltip": "est",
+    "HeadingId": 887,
+    "Name": "Lubowitz, Harris and Koelpin",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 692,
-    "UdListDefinitionId": 855
+    "Rank": 803,
+    "UdListDefinitionId": 471
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 483,
-    "Name": "Ryan Inc and Sons",
-    "Tooltip": "explicabo",
-    "Deleted": false,
-    "Rank": 389,
-    "UdListDefinitionId": 203,
+    "HeadingId": 503,
+    "Name": "Conn-Ortiz",
+    "Tooltip": "deleniti",
+    "Deleted": true,
+    "Rank": 30,
+    "UdListDefinitionId": 494,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldLength": 64
       }
     }
   }

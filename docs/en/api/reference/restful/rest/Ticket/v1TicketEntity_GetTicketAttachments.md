@@ -63,7 +63,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 137,
-    "Name": "Schowalter, Walker and Bergstrom",
-    "ContentType": "illo",
-    "AttSize": 262,
-    "InlineImage": false,
-    "ContentId": "neque",
+    "AttachmentId": 551,
+    "Name": "Gutkowski LLC",
+    "ContentType": "explicabo",
+    "AttSize": 911,
+    "InlineImage": true,
+    "ContentId": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldType": "System.Int32",
+        "FieldLength": 630
       }
     }
   }

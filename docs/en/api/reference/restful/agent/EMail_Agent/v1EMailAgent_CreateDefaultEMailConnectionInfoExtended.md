@@ -75,19 +75,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 560,
-  "ServerName": "Cummerata-Smith",
-  "Protocol": "tempora",
-  "UserName": "Baumbach, Auer and Kreiger",
-  "Password": "omnis",
+  "Port": 577,
+  "ServerName": "Mayer Group",
+  "Protocol": "suscipit",
+  "UserName": "Block-Deckow",
+  "Password": "eos",
   "UseSSL": false,
-  "Folder": "nostrum",
+  "Folder": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldLength": 795
     }
   }
 }

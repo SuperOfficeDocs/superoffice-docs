@@ -79,7 +79,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Wolff-Wilkinson"
+  "OwnerName": "Monahan-Rath"
 }
 ```
 
@@ -91,21 +91,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 144,
-      "NumberOfLicensesFree": 185,
-      "NumberOfLicensesAdded": 972,
-      "NumberOfLicensesNewTotal": 445,
-      "NumberOfLicensesNewFree": 421,
-      "NumberOfLicensesTotal": 652
+      "NumberOfLicensesInUse": 971,
+      "NumberOfLicensesFree": 357,
+      "NumberOfLicensesAdded": 184,
+      "NumberOfLicensesNewTotal": 727,
+      "NumberOfLicensesNewFree": 897,
+      "NumberOfLicensesTotal": 5
     }
   ],
-  "AccumulatedNextCheckDate": "2004-02-20T17:37:18.1252414+01:00"
+  "AccumulatedNextCheckDate": "2013-06-01T11:22:38.3990648+02:00"
 }
 ```

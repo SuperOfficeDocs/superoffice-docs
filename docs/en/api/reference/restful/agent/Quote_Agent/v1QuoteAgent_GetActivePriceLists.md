@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 112,
-  "Currency": "voluptatum"
+  "QuoteConnectionId": 691,
+  "Currency": "ipsam"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 421,
-    "ERPPriceListKey": "ea",
-    "QuoteConnectionId": 585,
-    "Name": "Gleichner, Jacobs and Daugherty",
-    "Description": "Multi-channelled encompassing monitoring",
-    "Currency": "excepturi",
-    "CurrencyName": "Goyette-Weber",
-    "ValidFrom": "2000-08-29T17:37:18.7462416+02:00",
-    "ValidTo": "2020-10-07T17:37:18.7462416+02:00",
+    "PriceListId": 932,
+    "ERPPriceListKey": "expedita",
+    "QuoteConnectionId": 516,
+    "Name": "Mills, Cummerata and Emmerich",
+    "Description": "User-centric even-keeled flexibility",
+    "Currency": "veritatis",
+    "CurrencyName": "West-Collins",
+    "ValidFrom": "2018-05-28T11:22:38.9301893+02:00",
+    "ValidTo": "2018-06-10T11:22:38.9301893+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 367
+        "FieldLength": 89
       }
     }
   }

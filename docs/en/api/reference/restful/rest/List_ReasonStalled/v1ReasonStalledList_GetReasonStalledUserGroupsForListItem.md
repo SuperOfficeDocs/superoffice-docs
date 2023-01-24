@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "Fisher Inc and Sons",
-    "ToolTip": "Cum id.",
-    "Deleted": false,
-    "Rank": 177,
-    "Type": "velit",
-    "ColorBlock": 106,
-    "IconHint": "omnis",
+    "Id": 863,
+    "Name": "Mraz, Borer and Hodkiewicz",
+    "ToolTip": "Illo cupiditate qui.",
+    "Deleted": true,
+    "Rank": 228,
+    "Type": "aspernatur",
+    "ColorBlock": 928,
+    "IconHint": "magnam",
     "Selected": false,
-    "LastChanged": "2008-12-16T17:37:40.3164956+01:00",
+    "LastChanged": "1996-12-30T11:22:46.1628721+01:00",
     "ChildItems": [
       {
-        "Id": 152,
-        "Name": "Rippin-Schuster",
-        "ToolTip": "Nesciunt ipsum perferendis ipsa.",
+        "Id": 188,
+        "Name": "Treutel-Bergstrom",
+        "ToolTip": "Id maxime sapiente iste recusandae doloribus dolores.",
         "Deleted": false,
-        "Rank": 749,
-        "Type": "adipisci",
-        "ColorBlock": 395,
-        "IconHint": "nostrum",
+        "Rank": 500,
+        "Type": "a",
+        "ColorBlock": 835,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2016-07-10T17:37:40.3164956+02:00",
+        "LastChanged": "2000-01-05T11:22:46.1628721+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "asperiores",
+        "ExtraInfo": "nisi",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Alexa Mraz",
+        "FullName": "Mervin Batz PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 333
+            "FieldType": "System.String",
+            "FieldLength": 368
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "et",
+    "ExtraInfo": "ullam",
+    "StyleHint": "in",
     "Hidden": true,
-    "FullName": "Robbie Balistreri",
+    "FullName": "Leslie Purdy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 878
       }
     }
   }

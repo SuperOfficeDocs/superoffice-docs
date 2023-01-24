@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 973
+  "ErpConnectionId": 626
 }
 ```
 
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 952,
-  "ErpConnectorId": 784,
-  "DisplayName": "O'Connell Group",
-  "DisplayDescription": "Compatible tertiary task-force",
-  "Active": false,
-  "ConnectionId": "eveniet",
-  "MostRecentTimestamp": "mollitia",
+  "ErpConnectionId": 898,
+  "ErpConnectorId": 301,
+  "DisplayName": "D'Amore Group",
+  "DisplayDescription": "Open-architected asynchronous knowledge base",
+  "Active": true,
+  "ConnectionId": "expedita",
+  "MostRecentTimestamp": "quis",
   "ConfigFields": {
-    "ConfigFields1": "dolor",
-    "ConfigFields2": "corrupti"
+    "ConfigFields1": "ad",
+    "ConfigFields2": "fugiat"
   },
   "Deleted": false,
   "AllAccess": true,
   "UserGroupAccessIds": [
-    937,
-    480
+    21,
+    564
   ],
   "AssociateAccessIds": [
-    275,
-    976
+    229,
+    406
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 485
     }
   }
 }

@@ -74,15 +74,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 475,
-  "InstanceLayout": "architecto",
-  "InstanceName": "Lemke, Mayer and Huels",
-  "CreatedDate": "2018-09-24T17:37:16.8772416+02:00",
-  "UpdatedDate": "2021-12-02T17:37:16.8772416+01:00",
+  "AudienceLayoutId": 285,
+  "InstanceLayout": "et",
+  "InstanceName": "Beatty Group",
+  "CreatedDate": "2007-02-01T11:22:37.4304911+01:00",
+  "UpdatedDate": "1997-05-27T11:22:37.4304911+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -95,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 39,
-  "InstanceLayout": "nihil",
-  "InstanceName": "Pfeffer, Wilkinson and Wisoky",
-  "CreatedDate": "1996-11-20T17:37:16.8802418+01:00",
-  "UpdatedDate": "1997-04-19T17:37:16.8802418+02:00",
+  "AudienceLayoutId": 901,
+  "InstanceLayout": "quas",
+  "InstanceName": "Gislason-Feest",
+  "CreatedDate": "2002-03-07T11:22:37.4304911+01:00",
+  "UpdatedDate": "2015-05-31T11:22:37.4304911+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 75
+      "FieldLength": 69
     }
   }
 }

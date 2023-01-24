@@ -125,18 +125,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ad",
+    "path": "voluptatibus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ad",
+    "path": "voluptatibus",
     "value": {}
   }
 ]
@@ -149,31 +149,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Fahey LLC",
-  "Comment": "voluptatem",
-  "StakeholderRoleId": 409,
-  "CountryId": 26,
-  "PersonId": 502,
-  "EmailDescription": "chanel.rice@reichel.info",
-  "EmailId": 223,
-  "EmailAddress": "taurean_friesen@ledner.info",
-  "PhoneId": 135,
-  "ContactName": "Mayert, Considine and Heathcote",
-  "ContactId": 180,
-  "SaleId": 974,
-  "Mrmrs": "et",
-  "Firstname": "Johnson",
-  "MiddleName": "Funk-Koch",
-  "Lastname": "Carroll",
-  "SaleStakeholderId": 878,
-  "Rank": 920,
-  "Phone": "750-525-9002",
+  "StakeholderRoleName": "Terry-Koch",
+  "Comment": "eaque",
+  "StakeholderRoleId": 860,
+  "CountryId": 716,
+  "PersonId": 199,
+  "EmailDescription": "dave_mitchell@skiles.ca",
+  "EmailId": 830,
+  "EmailAddress": "keenan@murray.uk",
+  "PhoneId": 497,
+  "ContactName": "Pollich LLC",
+  "ContactId": 369,
+  "SaleId": 243,
+  "Mrmrs": "omnis",
+  "Firstname": "Beatrice",
+  "MiddleName": "Lakin, Pouros and Purdy",
+  "Lastname": "Brakus",
+  "SaleStakeholderId": 403,
+  "Rank": 302,
+  "Phone": "375-358-0069",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldLength": 584
     }
   },
   "_Links": {

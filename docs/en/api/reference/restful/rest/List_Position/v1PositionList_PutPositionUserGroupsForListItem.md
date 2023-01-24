@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Welch-Littel",
-    "ToolTip": "Inventore quia exercitationem dolores aut.",
-    "Deleted": true,
-    "Rank": 35,
-    "Type": "fuga",
-    "ColorBlock": 931,
-    "IconHint": "tempore",
-    "Selected": true,
-    "LastChanged": "2006-08-09T17:37:40.1075019+02:00",
+    "Id": 700,
+    "Name": "Barton, Crooks and Luettgen",
+    "ToolTip": "Est molestiae consequatur consequatur aut fuga dolor.",
+    "Deleted": false,
+    "Rank": 988,
+    "Type": "libero",
+    "ColorBlock": 602,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2020-04-01T11:22:45.991037+02:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Fisher, Jones and Koch",
-        "ToolTip": "Est dicta ut occaecati aut a quia.",
-        "Deleted": false,
-        "Rank": 696,
-        "Type": "laudantium",
-        "ColorBlock": 680,
-        "IconHint": "voluptatem",
+        "Id": 50,
+        "Name": "Lemke-Harber",
+        "ToolTip": "Est numquam architecto eaque.",
+        "Deleted": true,
+        "Rank": 531,
+        "Type": "veritatis",
+        "ColorBlock": 653,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2020-06-12T17:37:40.1075019+02:00",
+        "LastChanged": "2013-03-30T11:22:45.991037+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "id",
+        "ExtraInfo": "numquam",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Syble Grimes"
+        "FullName": "Miss Andreane Rutherford"
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "autem",
+    "ExtraInfo": "earum",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Anderson Schuppe Jr."
+    "FullName": "Maxwell Crona"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 80,
-    "Name": "Crooks-Brown",
-    "ToolTip": "A eos.",
-    "Deleted": true,
-    "Rank": 487,
-    "Type": "eum",
-    "ColorBlock": 226,
-    "IconHint": "ex",
+    "Id": 441,
+    "Name": "Stroman, Block and Hettinger",
+    "ToolTip": "Sit et optio consequatur necessitatibus inventore totam est.",
+    "Deleted": false,
+    "Rank": 643,
+    "Type": "id",
+    "ColorBlock": 670,
+    "IconHint": "perferendis",
     "Selected": true,
-    "LastChanged": "1998-11-14T17:37:40.1095032+01:00",
+    "LastChanged": "2001-09-19T11:22:45.991037+02:00",
     "ChildItems": [
       {
-        "Id": 551,
-        "Name": "Schaden-Kris",
-        "ToolTip": "Fugit architecto est nulla nesciunt est quaerat aliquid.",
-        "Deleted": true,
-        "Rank": 180,
-        "Type": "beatae",
-        "ColorBlock": 894,
-        "IconHint": "libero",
+        "Id": 97,
+        "Name": "Towne-Konopelski",
+        "ToolTip": "Et porro quos possimus facilis quia rerum voluptate.",
+        "Deleted": false,
+        "Rank": 263,
+        "Type": "quae",
+        "ColorBlock": 254,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "2009-06-26T17:37:40.1095032+02:00",
+        "LastChanged": "2010-04-02T11:22:45.991037+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "similique",
+        "ExtraInfo": "qui",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Olaf Jewess",
+        "FullName": "Rosendo Waters",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 865
+            "FieldLength": 738
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "illo",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "suscipit",
     "Hidden": false,
-    "FullName": "Miss Bobbie Gertrude Steuber V",
+    "FullName": "Bennie Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 466
+        "FieldLength": 862
       }
     }
   }

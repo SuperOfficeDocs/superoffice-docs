@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 275,
-  "Name": "Hettinger, Wiza and Beier",
-  "Tooltip": "et",
+  "Id": 408,
+  "Name": "Crona Inc and Sons",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 914,
-  "IsCustomList": true,
+  "Rank": 369,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldLength": 564
     }
   },
   "_Links": {

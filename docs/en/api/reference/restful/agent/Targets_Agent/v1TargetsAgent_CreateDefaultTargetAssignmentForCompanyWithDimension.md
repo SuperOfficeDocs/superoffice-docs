@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 474
+  "TargetDimensionId": 768
 }
 ```
 
@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 931,
+    "TargetAssignmentInfoId": 496,
     "Values": [
-      42,
-      239
+      691,
+      972
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 895,
-    "DimensionListItemDisplayName": "Wuckert Group",
+    "DimensionListItem": 344,
+    "DimensionListItemDisplayName": "DuBuque-Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldLength": 147
       }
     }
   }

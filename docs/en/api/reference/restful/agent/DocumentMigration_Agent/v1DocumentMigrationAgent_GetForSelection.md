@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 514,
-  "SelectionId": 595,
+  "DocumentPluginId": 778,
+  "SelectionId": 798,
   "IncludeEmails": false
 }
 ```
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 430,
-  "NumDocumentsAlreadyMigrated": 921,
+  "NumDocumentsOmitted": 906,
+  "NumDocumentsAlreadyMigrated": 347,
   "Documents": [
     {
-      "DocumentId": 800,
-      "ContactId": 915,
-      "PersonId": 85,
-      "SaleId": 69,
-      "ProjectId": 176,
-      "DocTmplId": 610,
-      "AssociateId": 636,
-      "UserGroupId": 363,
-      "VisibleForId": 61
+      "DocumentId": 485,
+      "ContactId": 258,
+      "PersonId": 301,
+      "SaleId": 752,
+      "ProjectId": 127,
+      "DocTmplId": 974,
+      "AssociateId": 819,
+      "UserGroupId": 221,
+      "VisibleForId": 31
     }
   ],
   "Associates": [
     {
-      "AssociateId": 90,
-      "EmailAddress": "doris.schmidt@turcotte.info"
+      "AssociateId": 504,
+      "EmailAddress": "kyler.wiegand@carterdibbert.info"
     },
     {
-      "AssociateId": 90,
-      "EmailAddress": "doris.schmidt@turcotte.info"
+      "AssociateId": 504,
+      "EmailAddress": "kyler.wiegand@carterdibbert.info"
     }
   ]
 }

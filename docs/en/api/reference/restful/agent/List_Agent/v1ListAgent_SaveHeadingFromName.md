@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Blick-Hirthe",
+  "Name": "Weissnat LLC",
   "Entity": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 390,
-  "Name": "Tillman-Osinski",
-  "Tooltip": "aliquid",
-  "Deleted": true,
-  "Rank": 909,
-  "UdListDefinitionId": 4,
+  "HeadingId": 264,
+  "Name": "Nienow Inc and Sons",
+  "Tooltip": "quaerat",
+  "Deleted": false,
+  "Rank": 775,
+  "UdListDefinitionId": 497,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 212
     }
   }
 }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
     {
       "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "harum",
-      "ValueType": "totam",
+      "DefaultShowInSelector": true,
+      "IsActive": false,
+      "Key": "consectetur",
+      "ValueType": "non",
       "Mandatory": false,
-      "EncodedDisplayName": "Ferry-Sipes",
-      "EncodedDisplayDescription": "Ameliorated analyzing encoding",
-      "IconHint": "quam",
+      "EncodedDisplayName": "Schaden, Herzog and Stiedemann",
+      "EncodedDisplayDescription": "Persevering national algorithm",
+      "IconHint": "optio",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "aut",
-      "EncodedDataCaptionDescription": "Persevering real-time system engine",
-      "CurrentOperationType": "vitae",
+      "EncodedDataCaption": "eos",
+      "EncodedDataCaptionDescription": "Synergized tertiary open system",
+      "CurrentOperationType": "nobis",
       "Values": [
-        "occaecati",
-        "sequi"
+        "qui",
+        "ad"
       ],
       "DisplayValues": [
-        "accusantium",
-        "modi"
+        "iste",
+        "itaque"
       ],
       "OperationInfos": [
         {},
@@ -107,9 +107,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Kling-Rosenbaum",
-  "Context": "praesentium",
-  "Ids": "omnis"
+  "TableName": "Stanton-Strosin",
+  "Context": "doloribus",
+  "Ids": "modi"
 }
 ```
 
@@ -119,5 +119,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-944
+26
 ```

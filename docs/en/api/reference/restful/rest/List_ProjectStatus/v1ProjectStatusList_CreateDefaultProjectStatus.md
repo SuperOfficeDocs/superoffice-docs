@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 595,
-  "Name": "Kuvalis-Yundt",
-  "Tooltip": "dignissimos",
-  "Deleted": true,
-  "UdListDefinitionId": 177,
-  "Rank": 294,
+  "Id": 701,
+  "Name": "Kuvalis-Altenwerth",
+  "Tooltip": "maxime",
+  "Deleted": false,
+  "UdListDefinitionId": 559,
+  "Rank": 272,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 758
+      "FieldType": "System.Int32",
+      "FieldLength": 945
     }
   }
 }

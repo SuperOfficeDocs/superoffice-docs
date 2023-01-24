@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 579,
-    "Value": "saepe",
-    "Tooltip": "alias",
+    "Id": 926,
+    "Value": "qui",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldLength": 471
       }
     }
   },
   {
-    "Id": 579,
-    "Value": "saepe",
-    "Tooltip": "alias",
+    "Id": 926,
+    "Value": "qui",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldLength": 471
       }
     }
   }

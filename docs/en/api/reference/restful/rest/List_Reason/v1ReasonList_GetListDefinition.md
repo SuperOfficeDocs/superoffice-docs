@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 332,
-  "Name": "Davis-Kuhn",
-  "Tooltip": "aut",
+  "Id": 447,
+  "Name": "Spencer-Braun",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 454,
+  "Rank": 436,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nostrum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "molestiae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldType": "System.String",
+      "FieldLength": 544
     }
   },
   "_Links": {

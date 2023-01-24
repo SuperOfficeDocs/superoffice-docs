@@ -97,17 +97,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 874,
-  "StartTime": "2021-10-03T17:37:17.4242446+02:00",
-  "EndTime": "2013-02-20T17:37:17.4242446+01:00",
-  "Count": 268,
+  "PersonId": 544,
+  "StartTime": "2012-07-06T11:22:37.8366954+02:00",
+  "EndTime": "2012-04-23T11:22:37.8366954+02:00",
+  "Count": 294,
   "DocumentTemplateIds": [
-    812,
-    994
+    684,
+    729
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 829,
-    "Attention": "doloribus",
-    "Header": "corrupti",
-    "Name": "Kerluke, Koch and Carroll",
-    "OurRef": "rem",
-    "YourRef": "aspernatur",
-    "Description": "Business-focused foreground secured line",
-    "DocumentTemplate": "laborum",
-    "IsPublished": true,
-    "PersonId": 493,
-    "PersonFullName": "Finn Neoma Osinski Jr.",
-    "AssociateFullName": "Prof. Brittany Russel",
-    "ContactId": 969,
-    "ContactName": "Rosenbaum, Feil and Barrows",
-    "ProjectId": 509,
-    "ProjectName": "Lynch-Larson",
-    "AssociateId": 929,
-    "Snum": 142,
-    "SaleId": 715,
-    "SaleName": "Hoeger, Kunde and Feest",
+    "DocumentId": 1002,
+    "Attention": "voluptatibus",
+    "Header": "et",
+    "Name": "Lueilwitz-Pouros",
+    "OurRef": "nemo",
+    "YourRef": "qui",
+    "Description": "Multi-layered 5th generation parallelism",
+    "DocumentTemplate": "aspernatur",
+    "IsPublished": false,
+    "PersonId": 590,
+    "PersonFullName": "Ruth Kautzer",
+    "AssociateFullName": "Jalon Katheryn Kohler V",
+    "ContactId": 448,
+    "ContactName": "Satterfield, Schimmel and Goyette",
+    "ProjectId": 622,
+    "ProjectName": "Kunze, Mayert and Bernier",
+    "AssociateId": 478,
+    "Snum": 249,
+    "SaleId": 831,
+    "SaleName": "Kutch Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 551
+        "FieldType": "System.Int32",
+        "FieldLength": 472
       }
     }
   }

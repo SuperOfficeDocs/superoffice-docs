@@ -94,49 +94,49 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Berge, Schuppe and White",
-    "Operator": "velit",
+    "Name": "Weissnat-O'Reilly",
+    "Operator": "ipsam",
     "Values": [
-      "consequatur",
-      "est"
+      "praesentium",
+      "sit"
     ],
     "DisplayValues": [
-      "at",
-      "pariatur"
+      "in",
+      "repellendus"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "McClure Group",
-        "Operator": "repudiandae",
+        "Name": "Mann-Upton",
+        "Operator": "voluptates",
         "Values": [
-          "hic",
-          "et"
+          "aut",
+          "qui"
         ],
         "DisplayValues": [
-          "fugit",
-          "ut"
+          "earum",
+          "voluptas"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 673,
+        "InterParenthesis": 45,
         "InterOperator": "And",
-        "UniqueHash": 677
+        "UniqueHash": 440
       }
     ],
-    "InterParenthesis": 318,
+    "InterParenthesis": 840,
     "InterOperator": "And",
-    "UniqueHash": 974
+    "UniqueHash": 196
   }
 ]
 ```
@@ -149,29 +149,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murazik, Powlowski and Hahn",
-    "Operator": "omnis",
+    "Name": "Mosciski, O'Reilly and Satterfield",
+    "Operator": "debitis",
     "Values": [
-      "quis",
-      "eum"
+      "delectus",
+      "eveniet"
     ],
     "DisplayValues": [
-      "neque",
-      "fugit"
+      "et",
+      "id"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Gulgowski, Zulauf and Cruickshank",
-        "Operator": "iusto",
+        "Name": "Harber, Wuckert and Bernhard",
+        "Operator": "asperiores",
         "Values": [
-          "exercitationem",
-          "sit"
+          "et",
+          "deserunt"
         ],
         "DisplayValues": [
-          "fugit",
-          "molestiae"
+          "qui",
+          "quod"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -179,14 +179,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 168,
+        "InterParenthesis": 295,
         "InterOperator": "And",
-        "UniqueHash": 168
+        "UniqueHash": 351
       }
     ],
-    "InterParenthesis": 930,
+    "InterParenthesis": 916,
     "InterOperator": "And",
-    "UniqueHash": 967
+    "UniqueHash": 186
   }
 ]
 ```

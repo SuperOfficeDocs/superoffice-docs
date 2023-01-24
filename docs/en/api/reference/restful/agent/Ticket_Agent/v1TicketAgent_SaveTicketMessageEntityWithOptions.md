@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    782,
-    574
+    850,
+    185
   ]
 }
 ```
@@ -118,76 +118,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 975,
+  "EjMessageId": 270,
   "Ticket": null,
-  "CreatedAt": "2000-12-10T17:37:19.4669794+01:00",
+  "CreatedAt": "2022-06-27T11:22:39.5550468+02:00",
   "CreatedBy": null,
-  "Author": "minima",
+  "Author": "suscipit",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eaque",
-  "TimeSpent": 705,
-  "Body": "reprehenderit",
-  "HtmlBody": "ut",
-  "EmailHeader": "theresia@boylerowe.ca",
-  "DebugInfo": "rerum",
-  "MailSorter": "saepe",
+  "MessageId": "omnis",
+  "TimeSpent": 142,
+  "Body": "dignissimos",
+  "HtmlBody": "laborum",
+  "EmailHeader": "orpha@harvey.com",
+  "DebugInfo": "consequatur",
+  "MailSorter": "odio",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "explicabo",
   "MessageHeaders": [
     {
-      "Id": 378,
-      "Name": "Kilback Inc and Sons",
-      "Value": "omnis",
+      "Id": 444,
+      "Name": "Rempel Inc and Sons",
+      "Value": "quia",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 388
+          "FieldType": "System.Int32",
+          "FieldLength": 425
         }
       }
     }
   ],
   "Important": true,
-  "Language": "dolor",
-  "Sentiment": 381,
-  "SentimentConfidence": 880,
+  "Language": "amet",
+  "Sentiment": 85,
+  "SentimentConfidence": 444,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 705,
-      "Name": "Kshlerin-Kemmer",
-      "ContentType": "corrupti",
-      "AttSize": 492,
+      "AttachmentId": 557,
+      "Name": "Jacobs, Schaden and Conroy",
+      "ContentType": "repudiandae",
+      "AttSize": 900,
       "InlineImage": true,
-      "ContentId": "qui",
+      "ContentId": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldType": "System.Int32",
+          "FieldLength": 286
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "explicabo",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "eveniet",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "quibusdam"
+    "CustomFields1": "est",
+    "CustomFields2": "doloribus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 195
+      "FieldType": "System.Int32",
+      "FieldLength": 401
     }
   }
 }

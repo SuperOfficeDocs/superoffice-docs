@@ -25,7 +25,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=503
+POST /api/v1/Agents/Person/GetPerson?personId=29
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "eum",
-  "PersonId": 756,
-  "Mrmrs": "pariatur",
-  "Firstname": "Christopher",
-  "Lastname": "Ryan",
-  "MiddleName": "Donnelly Inc and Sons",
-  "Title": "ea",
-  "Description": "Integrated regional support",
-  "Email": "ignatius.moen@orncronin.co.uk",
-  "FullName": "Dianna Crona V",
-  "DirectPhone": "634.100.2206",
-  "FormalName": "Hessel Group",
-  "CountryId": 689,
-  "ContactId": 281,
-  "ContactName": "Connelly, Marquardt and Weimann",
-  "Retired": 583,
-  "Rank": 966,
-  "ActiveInterests": 446,
-  "ContactDepartment": "enhance one-to-one e-commerce",
-  "ContactCountryId": 712,
-  "ContactOrgNr": "1326157",
-  "FaxPhone": "(613)195-9697 x2374",
-  "MobilePhone": "1-937-674-4039 x6177",
-  "ContactPhone": "742-023-9886 x6460",
-  "AssociateName": "Breitenberg, Stroman and Howell",
-  "AssociateId": 757,
+  "Position": "sint",
+  "PersonId": 514,
+  "Mrmrs": "a",
+  "Firstname": "Alysson",
+  "Lastname": "Kilback",
+  "MiddleName": "Heathcote-Morissette",
+  "Title": "nihil",
+  "Description": "Profit-focused cohesive infrastructure",
+  "Email": "omari.metz@auergerhold.name",
+  "FullName": "Prof. Aubrey Adah Daniel V",
+  "DirectPhone": "294.722.6541 x32965",
+  "FormalName": "McKenzie-Mueller",
+  "CountryId": 312,
+  "ContactId": 716,
+  "ContactName": "Aufderhar Inc and Sons",
+  "Retired": 655,
+  "Rank": 757,
+  "ActiveInterests": 263,
+  "ContactDepartment": "implement seamless e-services",
+  "ContactCountryId": 811,
+  "ContactOrgNr": "844347",
+  "FaxPhone": "1-764-139-7019 x610",
+  "MobilePhone": "449-171-8791 x73610",
+  "ContactPhone": "(894)926-4301 x36451",
+  "AssociateName": "Heller, Langworth and Leffler",
+  "AssociateId": 902,
   "UsePersonAddress": false,
-  "ContactFax": "labore",
-  "Kanafname": "explicabo",
-  "Kanalname": "ad",
-  "Post1": "in",
-  "Post2": "molestias",
-  "Post3": "cupiditate",
-  "EmailName": "trace@mann.name",
-  "ContactFullName": "Savannah Bradtke",
-  "ActiveErpLinks": 429,
-  "TicketPriorityId": 199,
-  "SupportLanguageId": 598,
-  "SupportAssociateId": 225,
+  "ContactFax": "atque",
+  "Kanafname": "eaque",
+  "Kanalname": "in",
+  "Post1": "hic",
+  "Post2": "itaque",
+  "Post3": "similique",
+  "EmailName": "camren@torpgraham.com",
+  "ContactFullName": "Clementina Haley",
+  "ActiveErpLinks": 902,
+  "TicketPriorityId": 1000,
+  "SupportLanguageId": 228,
+  "SupportAssociateId": 303,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 440
     }
   }
 }

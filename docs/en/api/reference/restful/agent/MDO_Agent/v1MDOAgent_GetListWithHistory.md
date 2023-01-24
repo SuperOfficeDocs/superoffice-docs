@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hodkiewicz-Thompson",
+  "Name": "Reynolds, Pagac and Moen",
   "ForceFlatList": false,
-  "AdditionalInfo": "cupiditate",
+  "AdditionalInfo": "distinctio",
   "HistoryItems": [
-    581,
-    276
+    843,
+    151
   ],
   "OnlyHistory": false
 }
@@ -110,50 +110,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Schowalter-Luettgen",
-    "ToolTip": "Veritatis rerum omnis.",
+    "Id": 17,
+    "Name": "Dicki-Rosenbaum",
+    "ToolTip": "Error inventore eius.",
     "Deleted": false,
-    "Rank": 588,
-    "Type": "qui",
+    "Rank": 54,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Weimann Inc and Sons",
-        "ToolTip": "Ut tempora sint nostrum voluptatem est quis.",
-        "Deleted": false,
-        "Rank": 682,
-        "Type": "in",
+        "Id": 246,
+        "Name": "Wiza LLC",
+        "ToolTip": "Et alias sit.",
+        "Deleted": true,
+        "Rank": 137,
+        "Type": "deleniti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 648,
-        "ExtraInfo": "qui",
-        "StyleHint": "qui",
-        "FullName": "Valentin Stoltenberg",
+        "IconHint": "et",
+        "ColorBlock": 247,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "unde",
+        "FullName": "Miss D'angelo Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 385
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 849,
-    "ExtraInfo": "id",
-    "StyleHint": "est",
-    "FullName": "Pamela Balistreri",
+    "IconHint": "voluptate",
+    "ColorBlock": 615,
+    "ExtraInfo": "maiores",
+    "StyleHint": "eveniet",
+    "FullName": "Mr. Waldo Hosea Jacobs III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldType": "System.String",
+        "FieldLength": 483
       }
     }
   }

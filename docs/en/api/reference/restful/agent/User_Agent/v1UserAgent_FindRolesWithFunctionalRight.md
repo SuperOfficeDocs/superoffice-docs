@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Vandervort Group"
+  "FunctionalRightName": "Daniel, Effertz and Bogisich"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 529,
-    "Name": "Moore, Bins and Hessel",
-    "ToolTip": "Sit pariatur eum dolores quam et aliquid.",
-    "Deleted": false,
-    "Rank": 56,
-    "Type": "qui",
+    "Id": 365,
+    "Name": "Strosin Inc and Sons",
+    "ToolTip": "Eos id occaecati voluptatem.",
+    "Deleted": true,
+    "Rank": 211,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 891,
-        "Name": "Toy Group",
-        "ToolTip": "Culpa porro odio est voluptatem.",
+        "Id": 896,
+        "Name": "Donnelly Inc and Sons",
+        "ToolTip": "Sit nemo a.",
         "Deleted": false,
-        "Rank": 150,
-        "Type": "occaecati",
+        "Rank": 945,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 581,
-        "ExtraInfo": "sapiente",
-        "StyleHint": "libero",
-        "FullName": "Mr. Alaina Narciso Nienow",
+        "IconHint": "ut",
+        "ColorBlock": 736,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "similique",
+        "FullName": "Jaeden Barton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 130
+            "FieldLength": 765
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 78,
-    "ExtraInfo": "quis",
-    "StyleHint": "voluptas",
-    "FullName": "Arvel Moore",
+    "IconHint": "magnam",
+    "ColorBlock": 774,
+    "ExtraInfo": "est",
+    "StyleHint": "illum",
+    "FullName": "Camylle Pfannerstill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldLength": 276
       }
     }
   }

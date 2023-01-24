@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 407,
-  "Name": "Reichert-Sipes",
-  "Tooltip": "sed",
+  "Id": 345,
+  "Name": "Stark-Willms",
+  "Tooltip": "officiis",
   "Deleted": false,
-  "Rank": 243,
+  "Rank": 681,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
+  "ListType": "excepturi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 791,
-  "Name": "Schuster LLC",
-  "Tooltip": "voluptatem",
+  "Id": 20,
+  "Name": "Gusikowski Inc and Sons",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "Rank": 144,
-  "IsCustomList": true,
+  "Rank": 582,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dignissimos",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 582
+      "FieldType": "System.Int32",
+      "FieldLength": 780
     }
   }
 }

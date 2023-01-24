@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 895,
-  "Name": "Cole Inc and Sons",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "UdListDefinitionId": 492,
-  "Rank": 64
+  "Id": 466,
+  "Name": "Trantow LLC",
+  "Tooltip": "unde",
+  "Deleted": true,
+  "UdListDefinitionId": 342,
+  "Rank": 912
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 575,
-  "Name": "Wiegand LLC",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "UdListDefinitionId": 58,
-  "Rank": 358,
+  "Id": 306,
+  "Name": "Wehner, Huel and DuBuque",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 252,
+  "Rank": 642,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldType": "System.String",
+      "FieldLength": 769
     }
   }
 }

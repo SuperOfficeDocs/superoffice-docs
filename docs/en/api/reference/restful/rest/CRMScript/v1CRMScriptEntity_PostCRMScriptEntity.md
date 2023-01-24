@@ -98,21 +98,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 46,
-  "UniqueIdentifier": "dicta",
-  "Name": "Haley-Greenfelder",
-  "Description": "Sharable context-sensitive ability",
-  "IncludeId": "nulla",
-  "HierarchyId": 419,
-  "Source": "perferendis",
-  "Registered": "1997-10-01T17:37:38.4828612+02:00",
-  "RegisteredAssociateId": 778,
-  "Updated": "2011-11-16T17:37:38.4828612+01:00",
-  "UpdatedAssociateId": 16
+  "EjscriptId": 182,
+  "UniqueIdentifier": "libero",
+  "Name": "Cummerata-O'Hara",
+  "Description": "Distributed grid-enabled application",
+  "IncludeId": "non",
+  "HierarchyId": 32,
+  "Source": "qui",
+  "Registered": "1999-05-08T11:22:44.5694964+02:00",
+  "RegisteredAssociateId": 772,
+  "Updated": "2002-08-04T11:22:44.5694964+02:00",
+  "UpdatedAssociateId": 735
 }
 ```
 
@@ -123,23 +123,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 310,
-  "UniqueIdentifier": "id",
-  "Name": "Bechtelar Inc and Sons",
-  "Description": "Visionary optimizing installation",
-  "IncludeId": "vero",
-  "HierarchyId": 305,
-  "Source": "vel",
-  "Registered": "2008-10-11T17:37:38.4828612+02:00",
-  "RegisteredAssociateId": 1000,
-  "Updated": "2003-02-08T17:37:38.4828612+01:00",
-  "UpdatedAssociateId": 44,
+  "EjscriptId": 412,
+  "UniqueIdentifier": "cupiditate",
+  "Name": "Thiel, Kerluke and Collins",
+  "Description": "Horizontal intangible initiative",
+  "IncludeId": "unde",
+  "HierarchyId": 561,
+  "Source": "impedit",
+  "Registered": "2013-10-24T11:22:44.5694964+02:00",
+  "RegisteredAssociateId": 731,
+  "Updated": "2015-06-17T11:22:44.5694964+02:00",
+  "UpdatedAssociateId": 62,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldType": "System.String",
+      "FieldLength": 780
     }
   },
   "_Links": {

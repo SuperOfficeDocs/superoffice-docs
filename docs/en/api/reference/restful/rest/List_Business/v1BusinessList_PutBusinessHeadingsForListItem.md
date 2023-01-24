@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 896,
-    "Name": "Monahan, Walker and Hamill",
-    "ToolTip": "Qui voluptates rerum nesciunt sit et repellendus et.",
-    "Deleted": false,
-    "Rank": 694,
-    "Type": "et",
-    "ColorBlock": 975,
-    "IconHint": "doloremque",
+    "Id": 900,
+    "Name": "Thompson Group",
+    "ToolTip": "Et inventore consequatur sunt rerum voluptatem similique nostrum.",
+    "Deleted": true,
+    "Rank": 237,
+    "Type": "ipsum",
+    "ColorBlock": 175,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "2022-12-30T17:37:39.6644005+01:00",
+    "LastChanged": "2010-05-17T11:22:45.7722854+02:00",
     "ChildItems": [
       {
-        "Id": 439,
-        "Name": "Stokes LLC",
-        "ToolTip": "Impedit eaque maxime rerum libero quas et eius.",
+        "Id": 500,
+        "Name": "Harris Group",
+        "ToolTip": "Et expedita asperiores harum.",
         "Deleted": false,
-        "Rank": 199,
-        "Type": "veritatis",
-        "ColorBlock": 806,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2001-05-02T17:37:39.6644005+02:00",
+        "Rank": 533,
+        "Type": "in",
+        "ColorBlock": 77,
+        "IconHint": "cupiditate",
+        "Selected": false,
+        "LastChanged": "2018-07-30T11:22:45.7722854+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "aut",
+        "ExtraInfo": "iure",
+        "StyleHint": "voluptates",
         "Hidden": false,
-        "FullName": "Dr. Bill Joelle Koepp V"
+        "FullName": "Miss Dessie Howell"
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "non",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Mr. Anissa Hermann Wolf"
+    "FullName": "Dan Osinski I"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 892,
-    "Name": "White-VonRueden",
-    "ToolTip": "Nihil autem ratione vitae consequatur non omnis sapiente.",
-    "Deleted": false,
-    "Rank": 729,
-    "Type": "distinctio",
-    "ColorBlock": 387,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2001-05-23T17:37:39.666432+02:00",
+    "Id": 628,
+    "Name": "Lynch LLC",
+    "ToolTip": "Tenetur hic vitae quis.",
+    "Deleted": true,
+    "Rank": 313,
+    "Type": "corrupti",
+    "ColorBlock": 441,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2011-01-24T11:22:45.7722854+01:00",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Deckow, Stamm and Wolff",
-        "ToolTip": "Quibusdam veniam id recusandae ducimus est nesciunt.",
+        "Id": 521,
+        "Name": "Ullrich-Stamm",
+        "ToolTip": "Recusandae et aut ut sed qui recusandae.",
         "Deleted": false,
-        "Rank": 749,
-        "Type": "deleniti",
-        "ColorBlock": 673,
-        "IconHint": "pariatur",
+        "Rank": 256,
+        "Type": "sit",
+        "ColorBlock": 534,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2011-12-09T17:37:39.666432+01:00",
+        "LastChanged": "2019-04-23T11:22:45.7722854+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "enim",
+        "ExtraInfo": "labore",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Orval Bernhard",
+        "FullName": "Shemar Murazik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 726
+            "FieldType": "System.String",
+            "FieldLength": 859
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "est",
+    "ExtraInfo": "sit",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Fannie Davis",
+    "FullName": "Astrid O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldType": "System.String",
+        "FieldLength": 81
       }
     }
   }

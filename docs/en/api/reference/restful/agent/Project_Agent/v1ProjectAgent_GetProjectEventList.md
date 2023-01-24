@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,34 +101,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Vivien Kihn",
-    "Description": "Intuitive optimal budgetary management",
-    "ProjectId": 420,
-    "EventName": "Steuber LLC",
-    "AssociateId": 534,
-    "IsSignedOn": false,
-    "SignOffConfirmationText": "veritatis",
-    "SignOffText": "aperiam",
-    "SignOnConfirmationText": "molestias",
-    "SignOnText": "id",
-    "EventDate": "2000-04-30T17:37:18.6542446+02:00",
-    "Enabled": false,
-    "SignOff": false,
-    "SignOffTaskEnable": true,
-    "SignOnTaskEnable": false,
+    "AssociateFullName": "Prof. Gus Fadel",
+    "Description": "Managed 3rd generation flexibility",
+    "ProjectId": 291,
+    "EventName": "Batz LLC",
+    "AssociateId": 566,
+    "IsSignedOn": true,
+    "SignOffConfirmationText": "beatae",
+    "SignOffText": "dignissimos",
+    "SignOnConfirmationText": "exercitationem",
+    "SignOnText": "dicta",
+    "EventDate": "1998-04-25T11:22:38.8520826+02:00",
+    "Enabled": true,
+    "SignOff": true,
+    "SignOffTaskEnable": false,
+    "SignOnTaskEnable": true,
     "SignOn": true,
-    "SignOffTaskId": 855,
-    "SignOnTaskId": 939,
-    "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": true,
-    "SignOnPersonId": 704,
-    "SignOffPersonId": 468,
+    "SignOffTaskId": 912,
+    "SignOnTaskId": 235,
+    "SignOffTriggersAssign": true,
+    "SignOnTriggersAssign": false,
+    "SignOnPersonId": 22,
+    "SignOffPersonId": 374,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 609
       }
     }
   }

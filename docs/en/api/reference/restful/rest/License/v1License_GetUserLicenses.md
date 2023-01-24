@@ -61,7 +61,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,30 +72,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McKenzie, Crooks and Wolff",
-    "Description": "Extended attitude-oriented encoding",
+    "Name": "Osinski LLC",
+    "Description": "Seamless multi-state circuit",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 701,
-        "Tooltip": "reiciendis",
+        "Unrestricted": true,
+        "Total": 916,
+        "Tooltip": "provident",
         "CanAssign": false,
-        "Free": 383,
-        "InUse": 780,
+        "Free": 82,
+        "InUse": 731,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 561,
-        "Name": "Eichmann Inc and Sons",
-        "Description": "Managed attitude-oriented structure",
-        "PrerequisiteModuleName": "Sanford, Wehner and Zemlak",
-        "SortOrder": 561,
-        "ExtraFlags": 653,
+        "Assigned": true,
+        "ModuleLicenseId": 8,
+        "Name": "Pollich, Willms and Nicolas",
+        "Description": "Enhanced neutral ability",
+        "PrerequisiteModuleName": "Bosco-Wisoky",
+        "SortOrder": 792,
+        "ExtraFlags": 847,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 577
+            "FieldLength": 956
           }
         }
       }
@@ -103,25 +103,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 868,
-        "Tooltip": "labore",
-        "CanAssign": false,
-        "Free": 39,
-        "InUse": 212,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 294,
-        "Name": "Strosin Group",
-        "Description": "Object-based bifurcated collaboration",
-        "PrerequisiteModuleName": "Harris Inc and Sons",
-        "SortOrder": 447,
-        "ExtraFlags": 588,
+        "Total": 165,
+        "Tooltip": "neque",
+        "CanAssign": true,
+        "Free": 884,
+        "InUse": 413,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 234,
+        "Name": "Rosenbaum, O'Conner and Wehner",
+        "Description": "Multi-lateral next generation capacity",
+        "PrerequisiteModuleName": "Funk-Monahan",
+        "SortOrder": 283,
+        "ExtraFlags": 377,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 526
+            "FieldLength": 366
           }
         }
       }
@@ -131,35 +131,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldLength": 974
       }
     }
   },
   {
-    "Name": "McKenzie, Crooks and Wolff",
-    "Description": "Extended attitude-oriented encoding",
+    "Name": "Osinski LLC",
+    "Description": "Seamless multi-state circuit",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 701,
-        "Tooltip": "reiciendis",
+        "Unrestricted": true,
+        "Total": 916,
+        "Tooltip": "provident",
         "CanAssign": false,
-        "Free": 383,
-        "InUse": 780,
+        "Free": 82,
+        "InUse": 731,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 561,
-        "Name": "Eichmann Inc and Sons",
-        "Description": "Managed attitude-oriented structure",
-        "PrerequisiteModuleName": "Sanford, Wehner and Zemlak",
-        "SortOrder": 561,
-        "ExtraFlags": 653,
+        "Assigned": true,
+        "ModuleLicenseId": 8,
+        "Name": "Pollich, Willms and Nicolas",
+        "Description": "Enhanced neutral ability",
+        "PrerequisiteModuleName": "Bosco-Wisoky",
+        "SortOrder": 792,
+        "ExtraFlags": 847,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 577
+            "FieldLength": 956
           }
         }
       }
@@ -167,25 +167,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 868,
-        "Tooltip": "labore",
-        "CanAssign": false,
-        "Free": 39,
-        "InUse": 212,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 294,
-        "Name": "Strosin Group",
-        "Description": "Object-based bifurcated collaboration",
-        "PrerequisiteModuleName": "Harris Inc and Sons",
-        "SortOrder": 447,
-        "ExtraFlags": 588,
+        "Total": 165,
+        "Tooltip": "neque",
+        "CanAssign": true,
+        "Free": 884,
+        "InUse": 413,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 234,
+        "Name": "Rosenbaum, O'Conner and Wehner",
+        "Description": "Multi-lateral next generation capacity",
+        "PrerequisiteModuleName": "Funk-Monahan",
+        "SortOrder": 283,
+        "ExtraFlags": 377,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 526
+            "FieldLength": 366
           }
         }
       }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldLength": 974
       }
     }
   }

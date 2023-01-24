@@ -68,12 +68,12 @@ OK
 POST /api/v1/Agents/Appointment/CanAssignToProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 837,
-  "SuggestedAppointmentId": 681
+  "ProjectId": 690,
+  "SuggestedAppointmentId": 58
 }
 ```
 

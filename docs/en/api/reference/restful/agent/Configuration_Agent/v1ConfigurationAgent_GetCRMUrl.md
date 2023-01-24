@@ -73,8 +73,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "nemo",
-  "Currents": "quaerat",
+  "SoProtocol": "autem",
+  "Currents": "sed",
   "Frameless": false
 }
 ```

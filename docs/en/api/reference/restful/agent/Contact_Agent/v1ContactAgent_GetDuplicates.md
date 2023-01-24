@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schulist Group"
+  "Name": "Rempel, Lakin and Maggio"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Harris Group",
-    "SoPrimaryKey": 637,
-    "EntryName": "Feeney, Bogisich and Ratke",
-    "EntryIdentifier": "est",
-    "RuleDisplayName": "Kshlerin-Fisher",
+    "RuleName": "Schowalter-Altenwerth",
+    "SoPrimaryKey": 654,
+    "EntryName": "Weissnat Group",
+    "EntryIdentifier": "quo",
+    "RuleDisplayName": "Blanda Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 632
+        "FieldLength": 614
       }
     }
   }

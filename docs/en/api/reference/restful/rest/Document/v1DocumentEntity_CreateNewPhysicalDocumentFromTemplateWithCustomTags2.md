@@ -36,13 +36,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=987
-POST /api/v1/Document/{documentId}/Content?personId=611
-POST /api/v1/Document/{documentId}/Content?appointmentId=466
-POST /api/v1/Document/{documentId}/Content?saleId=653
-POST /api/v1/Document/{documentId}/Content?selectionId=563
-POST /api/v1/Document/{documentId}/Content?projectId=395
-POST /api/v1/Document/{documentId}/Content?uiCulture=rerum
+POST /api/v1/Document/{documentId}/Content?contactId=476
+POST /api/v1/Document/{documentId}/Content?personId=348
+POST /api/v1/Document/{documentId}/Content?appointmentId=642
+POST /api/v1/Document/{documentId}/Content?saleId=187
+POST /api/v1/Document/{documentId}/Content?selectionId=888
+POST /api/v1/Document/{documentId}/Content?projectId=33
+POST /api/v1/Document/{documentId}/Content?uiCulture=autem
 ```
 
 
@@ -130,88 +130,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 505,
+  "DocumentId": 621,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "modi",
-  "Header": "mollitia",
-  "Name": "Bins Inc and Sons",
-  "OurRef": "voluptas",
-  "YourRef": "quisquam",
-  "CreatedDate": "2008-05-16T17:37:38.5838301+02:00",
-  "UpdatedDate": "2019-03-26T17:37:38.5838301+01:00",
-  "Description": "Implemented contextually-based frame",
+  "Attention": "voluptas",
+  "Header": "voluptatem",
+  "Name": "Corkery, Carroll and Rowe",
+  "OurRef": "exercitationem",
+  "YourRef": "nulla",
+  "CreatedDate": "2015-02-27T11:22:44.6632227+01:00",
+  "UpdatedDate": "2020-11-24T11:22:44.6632227+01:00",
+  "Description": "Optional composite artificial intelligence",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-06-08T17:37:38.5868623+02:00",
-  "ExternalRef": "perferendis",
+  "Date": "1999-10-22T11:22:44.6632227+02:00",
+  "ExternalRef": "dolor",
   "Completed": "Completed",
-  "ActiveLinks": 707,
+  "ActiveLinks": 9,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kihn, Blanda and Aufderhar",
-      "Id": 222,
-      "Description": "Devolved secondary strategy",
-      "ExtraInfo": "cum",
-      "LinkId": 597,
+      "EntityName": "Hahn-Mraz",
+      "Id": 806,
+      "Description": "Fundamental even-keeled circuit",
+      "ExtraInfo": "velit",
+      "LinkId": 512,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 854
+          "FieldType": "System.Int32",
+          "FieldLength": 342
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 511,
-  "Snum": 294,
+  "SuggestedDocumentId": 707,
+  "Snum": 849,
   "UserDefinedFields": {
-    "SuperOffice:1": "869007175",
-    "SuperOffice:2": "1458844064"
+    "SuperOffice:1": "Stewart Muller",
+    "SuperOffice:2": "1759572668"
   },
   "ExtraFields": {
-    "ExtraFields1": "odio",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "et",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "minus",
-    "CustomFields2": "id"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "officia"
   },
-  "PublishEventDate": "2017-03-20T17:37:38.5878595+01:00",
-  "PublishTo": "2008-10-04T17:37:38.5878595+02:00",
-  "PublishFrom": "2008-12-13T17:37:38.5878595+01:00",
+  "PublishEventDate": "2021-11-24T11:22:44.6632227+01:00",
+  "PublishTo": "2008-09-05T11:22:44.6632227+02:00",
+  "PublishFrom": "2014-10-28T11:22:44.6632227+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 503,
+      "VisibleId": 249,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 373
+          "FieldLength": 32
         }
       }
     },
     {
-      "VisibleId": 503,
+      "VisibleId": 249,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 373
+          "FieldLength": 32
         }
       }
     }
@@ -220,8 +220,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldType": "System.Int32",
+      "FieldLength": 539
     }
   }
 }

@@ -73,9 +73,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 111,
+  "TicketId": 138,
   "MessageActionType": "Forward",
-  "TicketMessageId": 56
+  "TicketMessageId": 341
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptatem"
+"in"
 ```

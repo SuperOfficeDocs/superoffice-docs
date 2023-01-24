@@ -26,7 +26,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=voluptatem
+GET /api/v1/List/Source/MDOItems?query=aspernatur
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 795,
-    "Name": "Bailey LLC",
-    "ToolTip": "Reprehenderit iure.",
-    "Deleted": true,
-    "Rank": 515,
-    "Type": "modi",
+    "Id": 102,
+    "Name": "Ondricka-Stoltenberg",
+    "ToolTip": "Ea fugiat voluptas ea assumenda.",
+    "Deleted": false,
+    "Rank": 534,
+    "Type": "nihil",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Dietrich LLC",
-        "ToolTip": "Labore at suscipit ut et accusantium sed et.",
-        "Deleted": true,
-        "Rank": 674,
-        "Type": "autem",
+        "Id": 596,
+        "Name": "Hartmann-Pollich",
+        "ToolTip": "Voluptas ab.",
+        "Deleted": false,
+        "Rank": 959,
+        "Type": "dolorem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 382,
-        "ExtraInfo": "excepturi",
-        "StyleHint": "dignissimos",
-        "FullName": "Adela Schamberger",
+        "IconHint": "ad",
+        "ColorBlock": 439,
+        "ExtraInfo": "eos",
+        "StyleHint": "ratione",
+        "FullName": "Miss Armando Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldLength": 64
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 495,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "impedit",
-    "FullName": "Angel Hyatt",
+    "IconHint": "saepe",
+    "ColorBlock": 118,
+    "ExtraInfo": "qui",
+    "StyleHint": "doloribus",
+    "FullName": "Kellen Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 383
+        "FieldLength": 789
       }
     }
   }

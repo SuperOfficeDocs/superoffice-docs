@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 214,
-  "Name": "Keeling-Deckow",
-  "Tooltip": "perspiciatis",
+  "Id": 533,
+  "Name": "Wuckert, Greenholt and Reichel",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "Rank": 27,
+  "Rank": 130,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ducimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 31
     }
   },
   "_Links": {

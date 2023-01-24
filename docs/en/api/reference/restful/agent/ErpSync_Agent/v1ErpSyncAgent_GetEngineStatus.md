@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetEngineStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,14 +79,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": false,
-  "StatusMessage": "quidem",
-  "Interval": "ratione",
+  "StatusMessage": "non",
+  "Interval": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldType": "System.Int32",
+      "FieldLength": 579
     }
   }
 }

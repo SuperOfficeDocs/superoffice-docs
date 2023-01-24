@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 876,
-  "Name": "Treutel-Orn",
-  "Tooltip": "molestias",
+  "HeadingId": 739,
+  "Name": "Torp, Jacobi and Howell",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 685,
-  "UdListDefinitionId": 58
+  "Rank": 960,
+  "UdListDefinitionId": 616
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 77,
-  "Name": "Bradtke LLC",
-  "Tooltip": "voluptate",
+  "HeadingId": 969,
+  "Name": "Ryan Inc and Sons",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "Rank": 970,
-  "UdListDefinitionId": 822,
+  "Rank": 654,
+  "UdListDefinitionId": 456,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldType": "System.String",
+      "FieldLength": 782
     }
   }
 }

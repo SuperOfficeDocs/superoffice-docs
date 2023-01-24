@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    404,
-    139
+    942,
+    983
   ]
 }
 ```
@@ -102,50 +102,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Powlowski-Rowe",
-    "ToolTip": "Enim id enim.",
+    "Id": 317,
+    "Name": "Stanton Group",
+    "ToolTip": "In autem et exercitationem quas est.",
     "Deleted": false,
-    "Rank": 477,
-    "Type": "culpa",
+    "Rank": 738,
+    "Type": "doloremque",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Blanda Inc and Sons",
-        "ToolTip": "Ad quam pariatur.",
+        "Id": 284,
+        "Name": "Douglas-Hermiston",
+        "ToolTip": "Iste consequatur aut perspiciatis possimus dolore nulla.",
         "Deleted": false,
-        "Rank": 192,
-        "Type": "sapiente",
+        "Rank": 202,
+        "Type": "libero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iure",
-        "ColorBlock": 6,
-        "ExtraInfo": "iure",
-        "StyleHint": "iste",
-        "FullName": "Miller Reilly",
+        "IconHint": "fugit",
+        "ColorBlock": 202,
+        "ExtraInfo": "doloribus",
+        "StyleHint": "et",
+        "FullName": "Braeden Willow Wyman I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 896
+            "FieldLength": 692
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 478,
-    "ExtraInfo": "sit",
-    "StyleHint": "atque",
-    "FullName": "Luna Jeanette Klein II",
+    "IconHint": "velit",
+    "ColorBlock": 206,
+    "ExtraInfo": "ullam",
+    "StyleHint": "voluptatem",
+    "FullName": "Dianna Ramona Kautzer DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 289
       }
     }
   }

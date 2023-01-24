@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 205,
-    "Name": "Lowe LLC",
-    "ToolTip": "Et maiores necessitatibus quisquam doloremque rem omnis.",
-    "Deleted": true,
-    "Rank": 466,
+    "Id": 93,
+    "Name": "Stokes, Auer and Wilderman",
+    "ToolTip": "Enim dolorem voluptatem voluptatibus exercitationem molestiae.",
+    "Deleted": false,
+    "Rank": 547,
     "Type": "magnam",
-    "ColorBlock": 28,
-    "IconHint": "veniam",
-    "Selected": true,
-    "LastChanged": "2007-07-06T17:37:40.2675007+02:00",
+    "ColorBlock": 647,
+    "IconHint": "praesentium",
+    "Selected": false,
+    "LastChanged": "2009-11-14T11:22:46.1160093+01:00",
     "ChildItems": [
       {
-        "Id": 892,
-        "Name": "Kohler Inc and Sons",
-        "ToolTip": "Magni sunt debitis dolorem nemo non amet.",
+        "Id": 144,
+        "Name": "Aufderhar, Bauch and Marvin",
+        "ToolTip": "Omnis cupiditate consequatur voluptatem voluptatem sint necessitatibus.",
         "Deleted": true,
-        "Rank": 545,
-        "Type": "quidem",
-        "ColorBlock": 431,
-        "IconHint": "ab",
-        "Selected": true,
-        "LastChanged": "2015-12-12T17:37:40.2675007+01:00",
+        "Rank": 701,
+        "Type": "officiis",
+        "ColorBlock": 69,
+        "IconHint": "maxime",
+        "Selected": false,
+        "LastChanged": "2020-01-20T11:22:46.1160093+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "iusto",
-        "Hidden": false,
-        "FullName": "Prof. Jackson Erdman Jr.",
+        "ExtraInfo": "quam",
+        "StyleHint": "enim",
+        "Hidden": true,
+        "FullName": "Mr. Haley Madisen Fahey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 484
+            "FieldType": "System.String",
+            "FieldLength": 586
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "porro",
+    "ExtraInfo": "omnis",
+    "StyleHint": "vitae",
     "Hidden": true,
-    "FullName": "Mrs. Trace Ryan Deckow",
+    "FullName": "Prof. Rowland Anthony Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 761
+        "FieldType": "System.Int32",
+        "FieldLength": 675
       }
     }
   }

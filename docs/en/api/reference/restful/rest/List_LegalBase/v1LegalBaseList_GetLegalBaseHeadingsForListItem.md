@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 850,
-    "Name": "Leannon-Schuster",
-    "ToolTip": "Cumque laborum exercitationem id et in iste.",
-    "Deleted": true,
-    "Rank": 963,
-    "Type": "dolores",
-    "ColorBlock": 220,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "1996-11-02T17:37:40.0405008+01:00",
+    "Id": 480,
+    "Name": "Hahn Group",
+    "ToolTip": "Consequuntur est in at recusandae.",
+    "Deleted": false,
+    "Rank": 636,
+    "Type": "modi",
+    "ColorBlock": 215,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2014-11-02T11:22:45.9285426+01:00",
     "ChildItems": [
       {
-        "Id": 865,
-        "Name": "Bradtke, Lesch and Hessel",
-        "ToolTip": "Nihil non mollitia ea beatae aut rerum velit.",
+        "Id": 469,
+        "Name": "Bradtke, O'Connell and Sanford",
+        "ToolTip": "Earum debitis voluptatem.",
         "Deleted": false,
-        "Rank": 600,
-        "Type": "quia",
-        "ColorBlock": 95,
-        "IconHint": "asperiores",
-        "Selected": false,
-        "LastChanged": "2009-07-18T17:37:40.0405008+02:00",
+        "Rank": 907,
+        "Type": "qui",
+        "ColorBlock": 723,
+        "IconHint": "beatae",
+        "Selected": true,
+        "LastChanged": "1998-03-07T11:22:45.9285426+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "sint",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Mr. Rosanna Cordell Mills PhD",
+        "FullName": "Jairo Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 974
+            "FieldLength": 284
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "est",
+    "ExtraInfo": "eum",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Ruben O'Keefe",
+    "FullName": "Prof. Ashlee Bartoletti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldType": "System.String",
+        "FieldLength": 767
       }
     }
   }

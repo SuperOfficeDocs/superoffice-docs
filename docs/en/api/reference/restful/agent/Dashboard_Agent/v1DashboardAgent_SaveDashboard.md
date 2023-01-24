@@ -70,26 +70,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 409,
-  "AssociateId": 180,
-  "Caption": "assumenda",
+  "DashboardId": 930,
+  "AssociateId": 855,
+  "Caption": "ducimus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 687,
-      "Caption": "cupiditate",
-      "Description": "Centralized actuating functionalities",
-      "ChartName": "Hudson-Nitzsche",
-      "ChartId": "eius",
+      "DashboardTileId": 229,
+      "Caption": "qui",
+      "Description": "Profound mission-critical task-force",
+      "ChartName": "Marquardt, Conn and Smitham",
+      "ChartId": "hic",
       "IsDefault": false,
-      "AssociateId": 394,
-      "GroupId": 663,
-      "SelectionId": 89,
-      "Config": "sit",
+      "AssociateId": 393,
+      "GroupId": 494,
+      "SelectionId": 124,
+      "Config": "perspiciatis",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,22 +112,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 772,
-  "AssociateId": 235,
-  "Caption": "et",
+  "DashboardId": 430,
+  "AssociateId": 674,
+  "Caption": "commodi",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 235,
-      "Caption": "voluptas",
-      "Description": "Virtual bottom-line service-desk",
-      "ChartName": "Prosacco-Pollich",
-      "ChartId": "et",
+      "DashboardTileId": 959,
+      "Caption": "laudantium",
+      "Description": "Self-enabling mission-critical intranet",
+      "ChartName": "Mills Group",
+      "ChartId": "sunt",
       "IsDefault": false,
-      "AssociateId": 556,
-      "GroupId": 733,
-      "SelectionId": 634,
-      "Config": "sed",
+      "AssociateId": 501,
+      "GroupId": 317,
+      "SelectionId": 118,
+      "Config": "reprehenderit",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 555
+          "FieldType": "System.String",
+          "FieldLength": 269
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 9
     }
   }
 }

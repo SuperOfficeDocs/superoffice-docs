@@ -112,18 +112,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "amet",
     "value": {}
   },
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "amet",
     "value": {}
   }
 ]
@@ -136,18 +136,18 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 729,
-  "Name": "Quigley Inc and Sons",
-  "ContentType": "molestiae",
-  "AttSize": 880,
+  "AttachmentId": 968,
+  "Name": "Terry, Mosciski and Schimmel",
+  "ContentType": "esse",
+  "AttSize": 433,
   "InlineImage": false,
-  "ContentId": "ipsum",
+  "ContentId": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 125
     }
   },
   "_Links": {

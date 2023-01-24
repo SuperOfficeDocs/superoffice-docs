@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,91 +78,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2010-01-12T17:37:16.6112452+01:00",
-  "ToDate": "1997-06-26T17:37:16.6112452+02:00",
+  "FromDate": "2000-05-05T11:22:37.3836264+02:00",
+  "ToDate": "2001-07-17T11:22:37.3836264+02:00",
   "AssociateList": [
     {
-      "Id": 331,
-      "Name": "Bayer Inc and Sons",
-      "ToolTip": "Nostrum mollitia hic dolorem et tenetur iusto beatae.",
-      "Deleted": true,
-      "Rank": 591,
-      "Type": "velit",
-      "ColorBlock": 555,
-      "IconHint": "voluptate",
-      "Selected": true,
-      "LastChanged": "2002-07-25T17:37:16.6112452+02:00",
+      "Id": 511,
+      "Name": "Littel Group",
+      "ToolTip": "Odio minus sit architecto esse qui mollitia ad.",
+      "Deleted": false,
+      "Rank": 346,
+      "Type": "repudiandae",
+      "ColorBlock": 33,
+      "IconHint": "quasi",
+      "Selected": false,
+      "LastChanged": "1999-10-13T11:22:37.3836264+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "delectus",
-      "StyleHint": "sed",
-      "Hidden": false,
-      "FullName": "Delpha Satterfield",
+      "ExtraInfo": "dicta",
+      "StyleHint": "reiciendis",
+      "Hidden": true,
+      "FullName": "Prof. Sonny Oliver Cartwright DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 307
+          "FieldType": "System.Int32",
+          "FieldLength": 320
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 494,
-      "Name": "Tromp LLC",
-      "ToolTip": "Suscipit quia.",
+      "Id": 519,
+      "Name": "Cassin, Bosco and Kling",
+      "ToolTip": "Suscipit ipsam eos ut temporibus consequatur.",
       "Deleted": false,
-      "Rank": 313,
-      "Type": "fuga",
-      "ColorBlock": 446,
-      "IconHint": "repellat",
+      "Rank": 985,
+      "Type": "magnam",
+      "ColorBlock": 853,
+      "IconHint": "libero",
       "Selected": false,
-      "LastChanged": "2017-11-22T17:37:16.6122443+01:00",
+      "LastChanged": "1997-06-08T11:22:37.3836264+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "quasi",
+      "ExtraInfo": "dolores",
+      "StyleHint": "harum",
       "Hidden": false,
-      "FullName": "Josiah Cruickshank",
+      "FullName": "Pascale VonRueden",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldLength": 305
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 411,
-      "Name": "Dietrich-Gusikowski",
-      "ToolTip": "Cupiditate commodi.",
+      "Id": 366,
+      "Name": "Wiza-Greenfelder",
+      "ToolTip": "Suscipit consequuntur.",
       "Deleted": true,
-      "Rank": 480,
-      "Type": "voluptatem",
+      "Rank": 705,
+      "Type": "illo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "autem",
-      "ColorBlock": 525,
-      "ExtraInfo": "cumque",
-      "StyleHint": "amet",
-      "FullName": "Kendra Hipolito Toy DVM",
+      "IconHint": "dolorem",
+      "ColorBlock": 217,
+      "ExtraInfo": "ullam",
+      "StyleHint": "mollitia",
+      "FullName": "Miss Bethany Loyal Durgan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 594
+          "FieldType": "System.String",
+          "FieldLength": 693
         }
       }
     }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldType": "System.String",
+      "FieldLength": 37
     }
   }
 }

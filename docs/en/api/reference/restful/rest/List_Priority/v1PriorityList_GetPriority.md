@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 775,
-  "Name": "Wintheiser, Lueilwitz and Weissnat",
-  "Tooltip": "enim",
+  "Id": 816,
+  "Name": "Lockman-Hodkiewicz",
+  "Tooltip": "velit",
   "Deleted": false,
-  "UdListDefinitionId": 1001,
-  "Rank": 890,
+  "UdListDefinitionId": 733,
+  "Rank": 736,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 784
     }
   }
 }

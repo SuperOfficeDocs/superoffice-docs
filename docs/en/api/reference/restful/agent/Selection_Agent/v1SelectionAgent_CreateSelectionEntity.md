@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Jacobson-Brakus"
+  "TargetTableName": "Brakus Group"
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered systematic moratorium",
-  "Postit": "consequatur",
+  "Description": "Realigned fault-tolerant moratorium",
+  "Postit": "eaque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 527,
-  "IncludePerson": 574,
-  "MemberCount": 687,
-  "Name": "Bayer-Schamberger",
-  "PostitTextId": 207,
-  "CreatedDate": "2007-04-01T17:37:18.9332431+02:00",
-  "SelectionId": 413,
-  "SoundEx": "sunt",
-  "Source": 666,
-  "TextId": 961,
-  "UpdatedDate": "2011-07-31T17:37:18.9332431+02:00",
-  "UpdatedCount": 841,
-  "Visibility": 7,
+  "GroupIdx": 104,
+  "IncludePerson": 301,
+  "MemberCount": 198,
+  "Name": "Sawayn-Haley",
+  "PostitTextId": 849,
+  "CreatedDate": "2016-08-09T11:22:39.2738622+02:00",
+  "SelectionId": 418,
+  "SoundEx": "omnis",
+  "Source": 128,
+  "TextId": 259,
+  "UpdatedDate": "2017-11-24T11:22:39.2738622+01:00",
+  "UpdatedCount": 914,
+  "Visibility": 280,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 408,
-  "TargetTableName": "Armstrong, Stokes and Lueilwitz",
-  "Completed": true,
-  "LeftSelectionId": 679,
-  "RightSelectionId": 715,
+  "TargetTableNumber": 133,
+  "TargetTableName": "Jakubowski Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 916,
+  "RightSelectionId": 328,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schmitt Inc and Sons",
-  "ShadowProviderName": "Nitzsche-Rice",
-  "ChartKey": "eaque",
-  "LastLoaded": "2003-11-09T17:37:18.9342418+01:00",
-  "LastLoadedBy": 722,
+  "MainProviderName": "Auer-Koch",
+  "ShadowProviderName": "Pacocha, Lakin and Treutel",
+  "ChartKey": "dolor",
+  "LastLoaded": "2022-12-04T11:22:39.2738622+01:00",
+  "LastLoadedBy": 345,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-04-27T17:37:18.9342418+02:00",
-  "LastMembershipChangeBy": 966,
+  "LastMembershipChange": "1997-10-12T11:22:39.2738622+02:00",
+  "LastMembershipChangeBy": 203,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "laudantium",
-  "MemberTabHeading": "in",
-  "MailingsProviderName": "D'Amore-Kertzmann",
-  "DashboardTileDefinitionId": 945,
+  "MainHeading": "adipisci",
+  "MemberTabHeading": "quis",
+  "MailingsProviderName": "Cassin, Torphy and Abshire",
+  "DashboardTileDefinitionId": 589,
   "VisibleFor": [
     {
-      "VisibleId": 749,
+      "VisibleId": 992,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 876
+          "FieldLength": 63
         }
       }
     },
     {
-      "VisibleId": 749,
+      "VisibleId": 992,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 876
+          "FieldLength": 63
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 306
     }
   }
 }

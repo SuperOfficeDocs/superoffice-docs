@@ -64,12 +64,12 @@ No Content
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 848,
-  "LanguageCode": "veritatis"
+  "DocumentTemplateId": 610,
+  "LanguageCode": "sint"
 }
 ```
 

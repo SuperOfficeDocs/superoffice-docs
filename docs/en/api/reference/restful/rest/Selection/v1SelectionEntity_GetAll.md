@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=animi
-GET /api/v1/Selection?$top=598
-GET /api/v1/Selection?$skip=345
+GET /api/v1/Selection?$entities=quaerat
+GET /api/v1/Selection?$top=200
+GET /api/v1/Selection?$skip=793
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=quo
+GET /api/v1/Selection?$context=omnis
 GET /api/v1/Selection?$format=JSON
 GET /api/v1/Selection?$jsonSafe=False
 GET /api/v1/Selection?$output=Display
@@ -128,21 +128,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "repudiandae",
+  "odata.nextLink": "quia",
   "value": [
     {
-      "PrimaryKey": 3528,
-      "EntityName": "sale",
-      "saleId": 3528,
-      "contactId": 5452,
-      "name": "Jenkins, Schuster and Herman"
+      "PrimaryKey": 7386,
+      "EntityName": "person",
+      "personId": 7386,
+      "fullName": "Ms. Lelah Zboncak II"
     },
     {
-      "PrimaryKey": 9802,
-      "EntityName": "sale",
-      "saleId": 9802,
-      "contactId": 5011,
-      "name": "Langosh LLC"
+      "PrimaryKey": 9013,
+      "EntityName": "person",
+      "personId": 9013,
+      "fullName": "Lavina Koepp"
     }
   ]
 }

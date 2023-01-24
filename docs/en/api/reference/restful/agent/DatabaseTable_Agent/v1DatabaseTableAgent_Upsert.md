@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Luettgen-Upton",
+  "TableName": "Schroeder LLC",
   "Columns": [
-    "omnis",
-    "quia"
+    "quisquam",
+    "enim"
   ],
   "Keys": [
-    "consequatur",
-    "ipsam"
+    "neque",
+    "animi"
   ],
   "Data": [
     [
@@ -118,40 +118,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "adipisci",
-  "Inserts": 198,
-  "Updates": 126,
-  "Deletes": 833,
+  "Message": "aliquam",
+  "Inserts": 683,
+  "Updates": 500,
+  "Deletes": 641,
   "RowStatus": [
     {
-      "PrimaryKey": 892,
+      "PrimaryKey": 611,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "et",
-        "error"
+        "fuga",
+        "ea"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 643
+          "FieldLength": 790
         }
       }
     },
     {
-      "PrimaryKey": 892,
+      "PrimaryKey": 611,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "et",
-        "error"
+        "fuga",
+        "ea"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 643
+          "FieldLength": 790
         }
       }
     }
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldType": "System.String",
+      "FieldLength": 816
     }
   }
 }

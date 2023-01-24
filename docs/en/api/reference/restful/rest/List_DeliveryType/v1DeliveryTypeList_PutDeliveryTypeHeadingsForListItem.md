@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 796,
-    "Name": "Yundt Inc and Sons",
-    "ToolTip": "Facilis amet.",
-    "Deleted": true,
-    "Rank": 530,
-    "Type": "quia",
-    "ColorBlock": 815,
-    "IconHint": "aperiam",
+    "Id": 929,
+    "Name": "Denesik, Waelchi and Bins",
+    "ToolTip": "Aut similique et odio repellat iusto.",
+    "Deleted": false,
+    "Rank": 965,
+    "Type": "aut",
+    "ColorBlock": 360,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2022-07-23T17:37:40.0035062+02:00",
+    "LastChanged": "2022-02-02T11:22:45.8973017+01:00",
     "ChildItems": [
       {
-        "Id": 176,
-        "Name": "Weimann, Nicolas and Miller",
-        "ToolTip": "Repellat tempore nihil sunt.",
+        "Id": 912,
+        "Name": "Baumbach, Nitzsche and Kautzer",
+        "ToolTip": "Soluta aperiam repellat dolorum vel ut.",
         "Deleted": false,
-        "Rank": 154,
-        "Type": "non",
-        "ColorBlock": 531,
-        "IconHint": "suscipit",
-        "Selected": false,
-        "LastChanged": "2009-09-20T17:37:40.0035062+02:00",
+        "Rank": 611,
+        "Type": "sed",
+        "ColorBlock": 748,
+        "IconHint": "corrupti",
+        "Selected": true,
+        "LastChanged": "2022-03-22T11:22:45.8973017+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "laborum",
-        "Hidden": false,
-        "FullName": "Mr. Garrison Tre Mayert"
+        "ExtraInfo": "assumenda",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Fleta Mosciski"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Dr. Lucius Ned Haag"
+    "ExtraInfo": "sint",
+    "StyleHint": "animi",
+    "Hidden": true,
+    "FullName": "Dr. Dorcas Madaline Stracke"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "Cummerata-Kutch",
-    "ToolTip": "Harum ducimus fugit et porro.",
+    "Id": 766,
+    "Name": "Murray, Keebler and Turner",
+    "ToolTip": "Cumque aliquid quis.",
     "Deleted": false,
-    "Rank": 437,
-    "Type": "dolorem",
-    "ColorBlock": 130,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "2008-02-04T17:37:40.0055007+01:00",
+    "Rank": 327,
+    "Type": "hic",
+    "ColorBlock": 158,
+    "IconHint": "officia",
+    "Selected": false,
+    "LastChanged": "2019-08-17T11:22:45.8973017+02:00",
     "ChildItems": [
       {
-        "Id": 496,
-        "Name": "Lowe, Breitenberg and Watsica",
-        "ToolTip": "Inventore et suscipit quaerat neque fugit dolor.",
-        "Deleted": true,
-        "Rank": 382,
-        "Type": "voluptatem",
-        "ColorBlock": 673,
-        "IconHint": "voluptas",
+        "Id": 845,
+        "Name": "Kertzmann Inc and Sons",
+        "ToolTip": "Sit magni soluta repellat.",
+        "Deleted": false,
+        "Rank": 867,
+        "Type": "nihil",
+        "ColorBlock": 163,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2006-02-12T17:37:40.0055007+01:00",
+        "LastChanged": "2016-03-20T11:22:45.8973017+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "eos",
+        "ExtraInfo": "est",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Mrs. Aileen Wilderman III",
+        "FullName": "Nils Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 540
+            "FieldLength": 275
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Jerod Rice",
+    "ExtraInfo": "eaque",
+    "StyleHint": "magni",
+    "Hidden": true,
+    "FullName": "Vaughn Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldLength": 756
       }
     }
   }

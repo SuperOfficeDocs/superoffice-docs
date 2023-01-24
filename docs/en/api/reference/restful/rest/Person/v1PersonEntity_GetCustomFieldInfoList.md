@@ -66,7 +66,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "King-Hirthe",
-    "DisplayName": "Sanford, Gerlach and Purdy",
-    "Description": "Down-sized tertiary secured line",
-    "ShortLabel": "ipsa",
+    "FieldName": "Daugherty-Braun",
+    "DisplayName": "Senger, Robel and Schumm",
+    "Description": "Quality-focused homogeneous hierarchy",
+    "ShortLabel": "possimus",
     "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": true,
+    "HideField": false,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 47,
-    "TemplateVariableName": "Bernhard Inc and Sons"
+    "Rank": 355,
+    "TemplateVariableName": "Fritsch LLC"
   }
 ]
 ```

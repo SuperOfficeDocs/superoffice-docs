@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 311,
-    "Name": "Pouros Inc and Sons",
-    "Tooltip": "dolorum",
+    "Id": 653,
+    "Name": "Rippin Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 666,
-    "Rank": 934
+    "UdListDefinitionId": 746,
+    "Rank": 8
   },
   {
-    "Id": 311,
-    "Name": "Pouros Inc and Sons",
-    "Tooltip": "dolorum",
+    "Id": 653,
+    "Name": "Rippin Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 666,
-    "Rank": 934
+    "UdListDefinitionId": 746,
+    "Rank": 8
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Harris, Schaden and Turcotte",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "UdListDefinitionId": 999,
-    "Rank": 495,
+    "Id": 184,
+    "Name": "Kohler-Erdman",
+    "Tooltip": "necessitatibus",
+    "Deleted": false,
+    "UdListDefinitionId": 14,
+    "Rank": 667,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 969
       }
     }
   }

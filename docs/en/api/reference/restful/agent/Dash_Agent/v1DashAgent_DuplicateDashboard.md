@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 301,
-  "Name": "Price LLC"
+  "DashboardId": 58,
+  "Name": "Dicki, Simonis and Klein"
 }
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 478,
-  "UniqueId": "ut",
-  "Name": "Little LLC",
-  "Description": "Vision-oriented leading edge adapter",
-  "AssociateId": 807,
-  "Columns": 309,
+  "DashboardId": 516,
+  "UniqueId": "est",
+  "Name": "Carroll Inc and Sons",
+  "Description": "Open-architected systematic productivity",
+  "AssociateId": 730,
+  "Columns": 345,
   "Theme": null,
-  "VisibleForAll": 959,
+  "VisibleForAll": 810,
   "VisibleForAssociates": [
-    769,
-    236
+    980,
+    411
   ],
   "VisibleForGroups": [
-    720,
-    301
+    164,
+    610
   ],
-  "PinForAll": 481,
+  "PinForAll": 14,
   "PinForAssociates": [
-    15,
-    724
+    610,
+    807
   ],
   "PinForGroups": [
-    519,
-    64
+    333,
+    202
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldLength": 59
     }
   }
 }

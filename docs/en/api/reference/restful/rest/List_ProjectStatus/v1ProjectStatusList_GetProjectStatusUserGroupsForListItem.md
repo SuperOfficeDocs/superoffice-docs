@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Name": "Kuhic Inc and Sons",
-    "ToolTip": "Unde nihil consequatur.",
-    "Deleted": true,
-    "Rank": 494,
-    "Type": "sapiente",
-    "ColorBlock": 995,
-    "IconHint": "maiores",
+    "Id": 791,
+    "Name": "Dicki-Kuhn",
+    "ToolTip": "Doloribus qui voluptate commodi.",
+    "Deleted": false,
+    "Rank": 803,
+    "Type": "nostrum",
+    "ColorBlock": 291,
+    "IconHint": "temporibus",
     "Selected": true,
-    "LastChanged": "2003-11-14T17:37:40.1965055+01:00",
+    "LastChanged": "2016-12-30T11:22:46.0691442+01:00",
     "ChildItems": [
       {
-        "Id": 621,
-        "Name": "Schiller, Abshire and Dibbert",
-        "ToolTip": "Provident cumque mollitia rerum nesciunt.",
+        "Id": 334,
+        "Name": "Zboncak Group",
+        "ToolTip": "Illum tempore sit.",
         "Deleted": false,
-        "Rank": 13,
-        "Type": "expedita",
-        "ColorBlock": 461,
-        "IconHint": "nostrum",
-        "Selected": false,
-        "LastChanged": "2007-12-17T17:37:40.1965055+01:00",
+        "Rank": 523,
+        "Type": "neque",
+        "ColorBlock": 598,
+        "IconHint": "adipisci",
+        "Selected": true,
+        "LastChanged": "2001-04-16T11:22:46.0691442+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "voluptate",
+        "ExtraInfo": "earum",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Mckenzie Borer PhD",
+        "FullName": "Jessica Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 404
+            "FieldLength": 1000
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "minus",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Mr. Eldon Kyle DuBuque V",
+    "FullName": "Silas Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldType": "System.String",
+        "FieldLength": 605
       }
     }
   }

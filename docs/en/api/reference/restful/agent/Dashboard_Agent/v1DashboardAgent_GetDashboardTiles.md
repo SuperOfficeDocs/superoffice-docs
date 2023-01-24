@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    585,
-    102
+    189,
+    419
   ]
 }
 ```
@@ -104,64 +104,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 745,
-    "Caption": "aut",
-    "Description": "Realigned intermediate instruction set",
-    "ChartName": "Runolfsson, Kovacek and McDermott",
-    "ChartId": "esse",
+    "DashboardTileId": 418,
+    "Caption": "quis",
+    "Description": "Synergistic contextually-based focus group",
+    "ChartName": "Pollich, Kris and Stokes",
+    "ChartId": "consequuntur",
     "IsDefault": true,
-    "AssociateId": 251,
-    "GroupId": 759,
-    "SelectionId": 999,
-    "Config": "voluptatem",
+    "AssociateId": 320,
+    "GroupId": 117,
+    "SelectionId": 877,
+    "Config": "suscipit",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Lehner-Sauer",
-        "Description": "Upgradable 6th generation complexity",
+        "Name": "Baumbach LLC",
+        "Description": "Reactive interactive parallelism",
         "Type": "Boolean",
-        "ListName": "Schaden, Mohr and Kris",
+        "ListName": "Stamm-Nikolaus",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "amet",
-        "DefaultDataOption": false,
+        "Value": "eos",
+        "DefaultDataOption": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 73
+            "FieldType": "System.Int32",
+            "FieldLength": 627
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 338,
+        "VisibleId": 179,
         "Visibility": "All",
-        "DisplayValue": "itaque",
+        "DisplayValue": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 432
+            "FieldLength": 158
           }
         }
       },
       {
-        "VisibleId": 338,
+        "VisibleId": 179,
         "Visibility": "All",
-        "DisplayValue": "itaque",
+        "DisplayValue": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 432
+            "FieldLength": 158
           }
         }
       }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 243
+        "FieldLength": 244
       }
     }
   }

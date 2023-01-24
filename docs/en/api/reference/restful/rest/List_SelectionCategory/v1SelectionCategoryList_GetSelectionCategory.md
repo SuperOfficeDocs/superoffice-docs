@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 547,
-  "Name": "Swaniawski, Conn and Lubowitz",
-  "Tooltip": "corporis",
+  "Id": 864,
+  "Name": "Kilback-Marvin",
+  "Tooltip": "id",
   "Deleted": false,
-  "UdListDefinitionId": 778,
-  "Rank": 638,
+  "UdListDefinitionId": 623,
+  "Rank": 173,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldType": "System.String",
+      "FieldLength": 702
     }
   }
 }

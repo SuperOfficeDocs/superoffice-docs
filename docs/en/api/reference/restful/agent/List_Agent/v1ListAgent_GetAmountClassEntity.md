@@ -25,7 +25,7 @@ Gets a AmountClassEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=721
+POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=86
 POST /api/v1/Agents/List/GetAmountClassEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 591,
-  "Name": "McCullough, Klocko and Glover",
-  "Tooltip": "id",
-  "Rank": 883,
-  "AmountFrom": 868.11799999999994,
-  "AmountTo": 14852.026,
+  "AmountClassId": 801,
+  "Name": "Deckow-Trantow",
+  "Tooltip": "ut",
+  "Rank": 298,
+  "AmountFrom": 20007.456,
+  "AmountTo": 13683.044,
   "Deleted": true,
-  "CurrencyId": 425,
+  "CurrencyId": 522,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 493
     }
   }
 }

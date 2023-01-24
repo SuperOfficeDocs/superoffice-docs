@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 647,
-    "Name": "Okuneva Group",
-    "Tooltip": "soluta",
-    "Deleted": true,
-    "Rank": 241,
-    "UdListDefinitionId": 58,
+    "HeadingId": 797,
+    "Name": "Dach Inc and Sons",
+    "Tooltip": "dolorum",
+    "Deleted": false,
+    "Rank": 233,
+    "UdListDefinitionId": 146,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   }

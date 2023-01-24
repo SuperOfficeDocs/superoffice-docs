@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Jast-Lind",
-  "ParameterName": "Heidenreich, Kutch and Powlowski"
+  "LayoutName": "Strosin LLC",
+  "ParameterName": "Hane, Kihn and Schuster"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 755,
-  "Name": "Osinski, Hansen and Eichmann",
-  "Value": "debitis",
-  "CreatedDate": "2018-10-01T17:37:16.882242+02:00",
-  "UpdatedDate": "1999-08-19T17:37:16.882242+02:00",
-  "CreatedBy": "tempore",
-  "UpdatedBy": "distinctio",
+  "AudienceLayoutId": 42,
+  "Name": "Purdy LLC",
+  "Value": "aut",
+  "CreatedDate": "1999-12-13T11:22:37.4304911+01:00",
+  "UpdatedDate": "2004-03-16T11:22:37.4304911+01:00",
+  "CreatedBy": "perferendis",
+  "UpdatedBy": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldType": "System.String",
+      "FieldLength": 131
     }
   }
 }

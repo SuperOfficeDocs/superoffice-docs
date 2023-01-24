@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Rice-Quigley",
-    "ToolTip": "Qui dolores pariatur.",
-    "Deleted": true,
-    "Rank": 973,
-    "Type": "voluptatem",
+    "Id": 538,
+    "Name": "Grimes, Toy and Kirlin",
+    "ToolTip": "Nam qui ab.",
+    "Deleted": false,
+    "Rank": 43,
+    "Type": "sed",
     "ColorBlock": 601,
-    "IconHint": "soluta",
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2019-03-26T17:37:39.9645005+01:00",
+    "LastChanged": "2011-11-03T11:22:45.8816758+01:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "O'Hara LLC",
-        "ToolTip": "Commodi ut nam ipsa cum et nobis sed.",
+        "Id": 181,
+        "Name": "Hickle-Harvey",
+        "ToolTip": "Dolores facere sint enim fugit rerum enim.",
         "Deleted": false,
-        "Rank": 530,
-        "Type": "eaque",
-        "ColorBlock": 361,
-        "IconHint": "est",
+        "Rank": 943,
+        "Type": "corrupti",
+        "ColorBlock": 938,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "1999-05-26T17:37:39.9645005+02:00",
+        "LastChanged": "2013-02-03T11:22:45.8816758+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "maiores",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Rebeka Sporer",
+        "FullName": "Bryon Bernhard III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 8
+            "FieldLength": 414
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "dolor",
+    "ExtraInfo": "ut",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Ms. Gregorio Moore",
+    "FullName": "Lowell Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 860
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

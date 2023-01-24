@@ -80,28 +80,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 31 May 2002 17:37:38 G5T
+Last-Modified: Mon, 23 Aug 1999 11:22:44 G8T
 
 {
-  "BlobId": 581,
-  "BlobSize": 406,
-  "Description": "Stand-alone client-driven complexity",
-  "ExtraInfo": "officia",
+  "BlobId": 642,
+  "BlobSize": 271,
+  "Description": "Total uniform definition",
+  "ExtraInfo": "dolor",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "iste",
-  "OriginalSize": 798,
-  "CreatedDate": "2007-12-26T17:37:38.3378327+01:00",
-  "UpdatedDate": "2002-05-31T17:37:38.3378327+02:00",
+  "IsZipped": false,
+  "MimeType": "nihil",
+  "OriginalSize": 331,
+  "CreatedDate": "2011-03-16T11:22:44.4445217+01:00",
+  "UpdatedDate": "1999-08-23T11:22:44.4445217+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "facilis",
+  "ConceptualType": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 527
+      "FieldType": "System.Int32",
+      "FieldLength": 86
     }
   }
 }

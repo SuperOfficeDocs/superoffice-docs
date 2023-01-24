@@ -105,24 +105,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 466,
-  "Section": "culpa",
-  "Key": "recusandae",
-  "Name": "Barton, Gleason and Johnston",
+  "PrefDescId": 338,
+  "Section": "mollitia",
+  "Key": "minus",
+  "Name": "Parisian-Williamson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Re-contextualized mission-critical projection",
-  "IsBuiltin": true,
-  "TableName": "Lehner Group",
-  "UserDefinedListId": 268,
-  "Rank": 463,
-  "SubGroup": "quo",
-  "MinLevel": 548,
-  "MaxValue": 534,
-  "MinValue": 682,
-  "RequiredLicense": "velit"
+  "Description": "Sharable dynamic circuit",
+  "IsBuiltin": false,
+  "TableName": "Huels-Abernathy",
+  "UserDefinedListId": 341,
+  "Rank": 84,
+  "SubGroup": "ex",
+  "MinLevel": 705,
+  "MaxValue": 832,
+  "MinValue": 917,
+  "RequiredLicense": "quidem"
 }
 ```
 
@@ -133,30 +133,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 787,
-  "Section": "nulla",
-  "Key": "sapiente",
-  "Name": "Miller, Jacobs and Okuneva",
+  "PrefDescId": 295,
+  "Section": "sit",
+  "Key": "et",
+  "Name": "Kunde Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Seamless bottom-line website",
-  "IsBuiltin": false,
-  "TableName": "Reilly, Doyle and Strosin",
-  "UserDefinedListId": 767,
-  "Rank": 302,
-  "SubGroup": "pariatur",
-  "MinLevel": 548,
-  "MaxValue": 705,
-  "MinValue": 274,
-  "RequiredLicense": "non",
+  "Description": "Pre-emptive transitional product",
+  "IsBuiltin": true,
+  "TableName": "Koch Group",
+  "UserDefinedListId": 868,
+  "Rank": 583,
+  "SubGroup": "aut",
+  "MinLevel": 208,
+  "MaxValue": 161,
+  "MinValue": 521,
+  "RequiredLicense": "earum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 201
     }
   }
 }

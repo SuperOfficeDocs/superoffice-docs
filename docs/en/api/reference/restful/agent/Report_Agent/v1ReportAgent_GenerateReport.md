@@ -72,26 +72,26 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 668,
-  "LabelLayoutId": 486,
-  "Filename": "illum",
-  "Language": "non",
-  "FileType": "rem",
+  "ReportId": 519,
+  "LabelLayoutId": 979,
+  "Filename": "voluptatem",
+  "Language": "perspiciatis",
+  "FileType": "velit",
   "Restrictions": [
     {
-      "Name": "Medhurst, Gutkowski and Anderson",
-      "Operator": "sed",
+      "Name": "Schumm-Morar",
+      "Operator": "eaque",
       "Values": [
-        "aut",
-        "error"
+        "est",
+        "est"
       ],
       "DisplayValues": [
-        "ea",
-        "repellendus"
+        "fugit",
+        "soluta"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -99,9 +99,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 829,
+      "InterParenthesis": 610,
       "InterOperator": "And",
-      "UniqueHash": 129
+      "UniqueHash": 678
     }
   ]
 }
@@ -113,5 +113,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"exercitationem"
+"autem"
 ```

@@ -84,7 +84,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,22 +94,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 792,
-  "Name": "Luettgen-Cartwright",
+  "ScreenChooserId": 178,
+  "Name": "Nicolas, Funk and Reichert",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "accusamus",
-  "Source": "et",
-  "Registered": "2001-12-06T17:37:39.3914264+01:00",
-  "RegisteredAssociateId": 117,
-  "Updated": "2014-11-05T17:37:39.3914264+01:00",
-  "UpdatedAssociateId": 447,
+  "UniqueIdentifier": "et",
+  "Source": "veniam",
+  "Registered": "2014-12-11T11:22:45.3661887+01:00",
+  "RegisteredAssociateId": 811,
+  "Updated": "2008-05-31T11:22:45.3661887+02:00",
+  "UpdatedAssociateId": 224,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 44
     }
   },
   "_Links": {

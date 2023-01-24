@@ -73,12 +73,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 17,
-  "Name": "Morar-Keeling",
-  "Tooltip": "facilis",
-  "PassiveText": "id",
-  "Deleted": false,
-  "Rank": 61,
+  "ReldefId": 332,
+  "Name": "Swaniawski-Dare",
+  "Tooltip": "laudantium",
+  "PassiveText": "laudantium",
+  "Deleted": true,
+  "Rank": 89,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 225
     }
   }
 }

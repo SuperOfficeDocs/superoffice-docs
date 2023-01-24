@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 91,
-    "Name": "D'Amore-Fay",
-    "Tooltip": "eligendi",
+    "HeadingId": 526,
+    "Name": "Graham-Kshlerin",
+    "Tooltip": "nam",
     "Deleted": false,
-    "Rank": 457,
-    "UdListDefinitionId": 555,
+    "Rank": 683,
+    "UdListDefinitionId": 482,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldLength": 956
       }
     }
   }

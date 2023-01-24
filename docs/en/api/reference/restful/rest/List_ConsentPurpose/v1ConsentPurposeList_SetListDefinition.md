@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "Name": "Kreiger Group",
-  "Tooltip": "quis",
+  "Id": 65,
+  "Name": "D'Amore Inc and Sons",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 194,
-  "IsCustomList": false,
+  "Rank": 760,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "natus",
-  "InUseByUserDefinedFields": true
+  "ListType": "ipsam",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 598,
-  "Name": "Altenwerth, Cartwright and Schiller",
-  "Tooltip": "et",
+  "Id": 406,
+  "Name": "Lind-McClure",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 572,
+  "Rank": 885,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "animi",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ex",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 19
+      "FieldType": "System.Int32",
+      "FieldLength": 880
     }
   }
 }

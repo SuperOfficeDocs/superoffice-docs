@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,23 +85,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 67,
-    "Name": "Hills Group",
-    "Tooltip": "quasi",
-    "SaveInDb": 169,
-    "Filename": "dignissimos",
-    "DefaultOref": "autem",
+    "DocumentTemplateId": 966,
+    "Name": "Stehr-Fay",
+    "Tooltip": "necessitatibus",
+    "SaveInDb": 131,
+    "Filename": "porro",
+    "DefaultOref": "voluptas",
     "RecordType": "Appointment",
-    "Deleted": 998,
+    "Deleted": 773,
     "Direction": "Incoming",
-    "AutoeventId": 608,
+    "AutoeventId": 425,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldLength": 238
       }
     }
   }

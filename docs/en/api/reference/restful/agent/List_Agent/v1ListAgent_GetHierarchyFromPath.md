@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "dolor",
+  "Path": "ea",
   "Children": true
 }
 ```
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 320,
+  "HierarchyId": 13,
   "Domain": "Dashboards",
-  "Name": "Friesen Group",
-  "Fullname": "in",
-  "ParentId": 381,
+  "Name": "Keeling Group",
+  "Fullname": "id",
+  "ParentId": 144,
   "Children": [
     {
-      "HierarchyId": 477,
+      "HierarchyId": 970,
       "Domain": "Dashboards",
-      "Name": "Dicki-Waters",
-      "Fullname": "quia",
-      "ParentId": 622,
+      "Name": "Beier, Lowe and Quitzon",
+      "Fullname": "cum",
+      "ParentId": 672,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-11-17T17:37:18.2592416+01:00",
-      "RegisteredAssociateId": 101,
-      "Updated": "2021-02-12T17:37:18.2592416+01:00",
-      "UpdatedAssociateId": 542,
+      "Registered": "2013-12-14T11:22:38.5084132+01:00",
+      "RegisteredAssociateId": 657,
+      "Updated": "2003-11-09T11:22:38.5084132+01:00",
+      "UpdatedAssociateId": 919,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 408
+          "FieldType": "System.Int32",
+          "FieldLength": 639
         }
       }
     }
   ],
-  "Registered": "2016-02-09T17:37:18.2592416+01:00",
-  "RegisteredAssociateId": 45,
-  "Updated": "2002-04-11T17:37:18.2592416+02:00",
-  "UpdatedAssociateId": 939,
+  "Registered": "2018-08-19T11:22:38.5084132+02:00",
+  "RegisteredAssociateId": 438,
+  "Updated": "2011-11-02T11:22:38.5084132+01:00",
+  "UpdatedAssociateId": 147,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldType": "System.String",
+      "FieldLength": 680
     }
   }
 }

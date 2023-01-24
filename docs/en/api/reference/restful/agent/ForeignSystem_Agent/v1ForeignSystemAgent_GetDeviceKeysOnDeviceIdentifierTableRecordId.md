@@ -83,15 +83,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Roberts Group",
-  "DeviceName": "Medhurst-Baumbach",
-  "DeviceIdentifier": "voluptatem",
-  "TableName": "Luettgen LLC",
-  "RecordId": 843
+  "ApplicationName": "Monahan-Harvey",
+  "DeviceName": "Schmeler Group",
+  "DeviceIdentifier": "ut",
+  "TableName": "Pollich-McLaughlin",
+  "RecordId": 274
 }
 ```
 
@@ -103,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "saepe",
-    "Value": "maiores",
-    "RecordId": 780,
-    "CreatedDate": "2013-03-31T17:37:18.1162414+02:00",
-    "UpdatedDate": "2015-11-01T17:37:18.1162414+01:00",
-    "UpdatedBy": "nisi",
-    "CreatedBy": "inventore",
-    "TableName": "Hartmann Group",
+    "Key": "ratione",
+    "Value": "qui",
+    "RecordId": 459,
+    "CreatedDate": "2008-04-07T11:22:38.3990648+02:00",
+    "UpdatedDate": "2018-04-20T11:22:38.3990648+02:00",
+    "UpdatedBy": "asperiores",
+    "CreatedBy": "libero",
+    "TableName": "Kuphal Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldType": "System.String",
+        "FieldLength": 814
       }
     }
   }

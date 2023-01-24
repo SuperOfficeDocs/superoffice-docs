@@ -87,9 +87,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Paucek, Rodriguez and Rodriguez",
-  "DeviceName": "Gusikowski-Baumbach",
-  "DeviceIdentifier": "sit"
+  "ApplicationName": "Quigley, Reichert and Cartwright",
+  "DeviceName": "Herman-Zieme",
+  "DeviceIdentifier": "commodi"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "rerum",
-  "Value": "cum",
-  "RecordId": 701,
-  "CreatedDate": "2019-10-21T17:37:18.1072435+02:00",
-  "UpdatedDate": "2017-01-22T17:37:18.1072435+01:00",
-  "UpdatedBy": "nihil",
-  "CreatedBy": "ut",
-  "TableName": "Kris LLC",
+  "Key": "eligendi",
+  "Value": "atque",
+  "RecordId": 466,
+  "CreatedDate": "1996-02-11T11:22:38.3834434+01:00",
+  "UpdatedDate": "2022-08-11T11:22:38.3834434+02:00",
+  "UpdatedBy": "dolor",
+  "CreatedBy": "hic",
+  "TableName": "Halvorson, Willms and Beer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldType": "System.String",
+      "FieldLength": 244
     }
   }
 }

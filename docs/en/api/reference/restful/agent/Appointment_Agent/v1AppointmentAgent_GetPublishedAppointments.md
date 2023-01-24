@@ -120,13 +120,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    998,
-    221
+    283,
+    807
   ]
 }
 ```
@@ -139,53 +139,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 426,
-    "StartDate": "2013-12-06T17:37:16.2532441+01:00",
-    "EndDate": "2004-06-08T17:37:16.2532441+02:00",
+    "AppointmentId": 695,
+    "StartDate": "2007-10-26T11:22:36.946279+02:00",
+    "EndDate": "2015-11-13T11:22:36.946279+01:00",
     "Type": "BookingForChecklist",
-    "Task": "officiis",
-    "AssociateFullName": "Zander Shields",
-    "ContactName": "Gulgowski-Waelchi",
-    "Description": "Optional fresh-thinking architecture",
-    "PersonFullName": "Reggie Blick",
-    "PersonId": 844,
-    "ContactId": 845,
-    "ProjectId": 436,
-    "ProjectName": "Kovacek Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 1000,
-    "ColorIndex": 425,
+    "Task": "quia",
+    "AssociateFullName": "Marion Ankunding",
+    "ContactName": "Rowe-Lubowitz",
+    "Description": "Multi-layered responsive challenge",
+    "PersonFullName": "Coby Mertz",
+    "PersonId": 555,
+    "ContactId": 163,
+    "ProjectId": 547,
+    "ProjectName": "Schneider-Heathcote",
+    "IsPublished": false,
+    "AssociateId": 19,
+    "ColorIndex": 166,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 781,
-    "PriorityName": "Koepp, Collins and Gerhold",
+    "PriorityId": 420,
+    "PriorityName": "Abshire-Hermiston",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2005-04-07T17:37:16.2532441+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2019-07-23T11:22:36.946279+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-02-21T17:37:16.2542421+01:00",
-    "RecurringEndDate": "1999-06-28T17:37:16.2542421+02:00",
-    "MotherId": 877,
-    "AssignedBy": 754,
-    "AssignedByFullName": "Dr. Okey Jeramy Prosacco V",
+    "RecurringStartDate": "2005-11-08T11:22:36.946279+01:00",
+    "RecurringEndDate": "1998-11-01T11:22:36.946279+01:00",
+    "MotherId": 154,
+    "AssignedBy": 150,
+    "AssignedByFullName": "Felipe Veum",
     "RejectReason": "",
-    "Location": "voluptatum",
-    "AlarmLeadTime": "ipsum",
-    "SaleId": 337,
-    "SaleName": "Beier, Batz and Green",
-    "AssociateName": "Hane, Moore and Torp",
-    "CreatedDate": "2016-09-25T17:37:16.2542421+02:00",
-    "CreatedBy": "eos",
-    "CreatedByFullName": "Dr. Christiana Jast III",
-    "CreatedByAssociateId": 44,
+    "Location": "sed",
+    "AlarmLeadTime": "eos",
+    "SaleId": 475,
+    "SaleName": "Toy Inc and Sons",
+    "AssociateName": "Price-Ortiz",
+    "CreatedDate": "2010-11-04T11:22:36.946279+01:00",
+    "CreatedBy": "enim",
+    "CreatedByFullName": "Corine Alexandrine Altenwerth Jr.",
+    "CreatedByAssociateId": 344,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldLength": 639
       }
     }
   }

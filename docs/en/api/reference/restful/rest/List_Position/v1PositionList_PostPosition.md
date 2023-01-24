@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 309,
-  "Name": "Emard LLC",
-  "Tooltip": "blanditiis",
+  "Id": 164,
+  "Name": "Reinger Group",
+  "Tooltip": "commodi",
   "Deleted": true,
-  "UdListDefinitionId": 856,
-  "Rank": 351
+  "UdListDefinitionId": 416,
+  "Rank": 657
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 836,
-  "Name": "Bayer-Skiles",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "UdListDefinitionId": 22,
-  "Rank": 269,
+  "Id": 589,
+  "Name": "Cronin-Hackett",
+  "Tooltip": "asperiores",
+  "Deleted": false,
+  "UdListDefinitionId": 812,
+  "Rank": 622,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldType": "System.Int32",
+      "FieldLength": 802
     }
   }
 }

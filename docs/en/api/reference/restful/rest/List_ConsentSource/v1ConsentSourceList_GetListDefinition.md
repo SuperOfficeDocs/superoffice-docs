@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 760,
-  "Name": "Monahan, Flatley and Schaefer",
-  "Tooltip": "deleniti",
-  "Deleted": false,
-  "Rank": 215,
+  "Id": 333,
+  "Name": "Abbott-Nolan",
+  "Tooltip": "corrupti",
+  "Deleted": true,
+  "Rank": 304,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 575
     }
   },
   "_Links": {

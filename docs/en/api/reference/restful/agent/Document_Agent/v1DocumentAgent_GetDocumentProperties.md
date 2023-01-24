@@ -74,10 +74,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 393,
+  "DocumentId": 591,
   "RequestedProperties": [
-    "nulla",
-    "eos"
+    "tenetur",
+    "ab"
   ]
 }
 ```
@@ -89,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "molestias",
-  "2": "asperiores"
+  "1": "reiciendis",
+  "2": "repudiandae"
 }
 ```

@@ -25,7 +25,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=599
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=406
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 48,
-  "AssociateId": 216,
-  "Caption": "esse",
+  "DashboardId": 404,
+  "AssociateId": 60,
+  "Caption": "at",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 242,
-      "Caption": "odio",
-      "Description": "Optional upward-trending synergy",
-      "ChartName": "Renner-Anderson",
-      "ChartId": "placeat",
-      "IsDefault": true,
-      "AssociateId": 341,
-      "GroupId": 411,
-      "SelectionId": 117,
-      "Config": "veniam",
+      "DashboardTileId": 586,
+      "Caption": "alias",
+      "Description": "Profit-focused bottom-line frame",
+      "ChartName": "Witting, Gislason and Stamm",
+      "ChartId": "excepturi",
+      "IsDefault": false,
+      "AssociateId": 379,
+      "GroupId": 434,
+      "SelectionId": 187,
+      "Config": "ut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldType": "System.String",
+          "FieldLength": 505
         }
       }
     }
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldType": "System.String",
+      "FieldLength": 920
     }
   }
 }

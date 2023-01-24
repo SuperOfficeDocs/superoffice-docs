@@ -87,8 +87,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    770,
-    391
+    680,
+    766
   ]
 }
 ```
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 170,
-    "ContactName": "Klein, Jewess and Schamberger",
-    "PersonId": 667,
-    "PersonName": "McKenzie Group",
-    "AssociateId": 730,
-    "Address": "nemo",
-    "EmailId": 888,
+    "ContactId": 98,
+    "ContactName": "Dibbert Inc and Sons",
+    "PersonId": 48,
+    "PersonName": "Nicolas Group",
+    "AssociateId": 485,
+    "Address": "doloribus",
+    "EmailId": 697,
     "DuplicatePersonIds": [
-      477,
-      493
+      880,
+      554
     ],
-    "Name": "Shanahan-Luettgen",
+    "Name": "Lehner-Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 542
+        "FieldType": "System.Int32",
+        "FieldLength": 884
       }
     }
   }

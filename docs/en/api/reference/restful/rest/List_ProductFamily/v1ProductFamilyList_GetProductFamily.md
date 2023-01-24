@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 463,
-  "Name": "Konopelski, Gislason and Zulauf",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 790,
-  "Rank": 723,
+  "Id": 215,
+  "Name": "Toy Inc and Sons",
+  "Tooltip": "quae",
+  "Deleted": false,
+  "UdListDefinitionId": 158,
+  "Rank": 781,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldType": "System.Int32",
+      "FieldLength": 136
     }
   }
 }

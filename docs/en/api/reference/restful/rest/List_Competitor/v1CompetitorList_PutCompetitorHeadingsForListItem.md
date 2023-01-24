@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Boyer-Gaylord",
-    "ToolTip": "Labore voluptas eos cupiditate rem.",
-    "Deleted": false,
-    "Rank": 309,
-    "Type": "fugiat",
-    "ColorBlock": 354,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "2022-10-10T17:37:39.8815084+02:00",
+    "Id": 331,
+    "Name": "Herman Inc and Sons",
+    "ToolTip": "Mollitia rerum sed dicta atque est sequi rem.",
+    "Deleted": true,
+    "Rank": 636,
+    "Type": "eum",
+    "ColorBlock": 534,
+    "IconHint": "labore",
+    "Selected": true,
+    "LastChanged": "2002-11-16T11:22:45.803528+01:00",
     "ChildItems": [
       {
-        "Id": 637,
-        "Name": "Ward, Oberbrunner and Feil",
-        "ToolTip": "Accusantium et corrupti ipsam at quasi officiis.",
-        "Deleted": true,
-        "Rank": 752,
-        "Type": "molestiae",
-        "ColorBlock": 480,
-        "IconHint": "sint",
+        "Id": 665,
+        "Name": "Grant, DuBuque and Jaskolski",
+        "ToolTip": "Beatae libero autem neque quia.",
+        "Deleted": false,
+        "Rank": 828,
+        "Type": "sed",
+        "ColorBlock": 603,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2003-04-20T17:37:39.8815084+02:00",
+        "LastChanged": "2021-09-28T11:22:45.803528+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Aurelia Jakubowski"
+        "ExtraInfo": "sequi",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Zelma Yundt"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "expedita",
-    "Hidden": true,
-    "FullName": "Aurelia Littel"
+    "ExtraInfo": "dolores",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Mr. Raul Ruby Conn DDS"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 644,
-    "Name": "Rosenbaum LLC",
-    "ToolTip": "Fugit ipsam id repudiandae minus autem vero.",
+    "Id": 798,
+    "Name": "Padberg, Cremin and Thiel",
+    "ToolTip": "Est qui libero cupiditate voluptatibus impedit libero.",
     "Deleted": false,
-    "Rank": 199,
-    "Type": "facilis",
-    "ColorBlock": 694,
-    "IconHint": "ea",
+    "Rank": 899,
+    "Type": "itaque",
+    "ColorBlock": 362,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2004-08-25T17:37:39.8835002+02:00",
+    "LastChanged": "1997-09-08T11:22:45.803528+02:00",
     "ChildItems": [
       {
-        "Id": 619,
-        "Name": "Tillman, Schiller and Medhurst",
-        "ToolTip": "Officia beatae et.",
-        "Deleted": false,
-        "Rank": 685,
-        "Type": "ex",
-        "ColorBlock": 716,
-        "IconHint": "eos",
+        "Id": 842,
+        "Name": "Abbott, Hodkiewicz and Weimann",
+        "ToolTip": "Repudiandae fugiat et velit.",
+        "Deleted": true,
+        "Rank": 993,
+        "Type": "voluptas",
+        "ColorBlock": 627,
+        "IconHint": "nam",
         "Selected": true,
-        "LastChanged": "2018-02-01T17:37:39.8835002+01:00",
+        "LastChanged": "2019-11-20T11:22:45.803528+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "delectus",
-        "Hidden": false,
-        "FullName": "Prof. Shaylee Conroy II",
+        "ExtraInfo": "quis",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Woodrow Leffler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldType": "System.String",
+            "FieldLength": 483
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "minima",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Dayna Smith",
+    "FullName": "Josh Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldLength": 951
       }
     }
   }

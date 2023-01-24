@@ -70,14 +70,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Dibbert Inc and Sons",
-  "RecordId": 995,
-  "AssociateId": 334,
-  "ExtraInfo": "veritatis"
+  "TableName": "Ondricka, Shanahan and Kovacek",
+  "RecordId": 692,
+  "AssociateId": 542,
+  "ExtraInfo": "nam"
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,31 +98,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Douglas-Mitchell",
-    "Comment": "voluptatem",
-    "StakeholderRoleId": 483,
-    "CountryId": 611,
-    "PersonId": 805,
-    "EmailDescription": "selmer_weber@jenkins.com",
-    "EmailId": 981,
-    "EmailAddress": "salma.purdy@hammeslockman.ca",
-    "PhoneId": 953,
-    "ContactName": "Price LLC",
-    "ContactId": 837,
-    "SaleId": 791,
-    "Mrmrs": "fugit",
-    "Firstname": "Alvena",
-    "MiddleName": "Walter-Funk",
-    "Lastname": "Armstrong",
-    "SaleStakeholderId": 708,
-    "Rank": 470,
-    "Phone": "(550)387-5131",
+    "StakeholderRoleName": "Goldner Inc and Sons",
+    "Comment": "et",
+    "StakeholderRoleId": 38,
+    "CountryId": 900,
+    "PersonId": 596,
+    "EmailDescription": "chelsey_bechtelar@ruecker.co.uk",
+    "EmailId": 623,
+    "EmailAddress": "linnea_weissnat@friesenprohaska.co.uk",
+    "PhoneId": 987,
+    "ContactName": "Berge-Quitzon",
+    "ContactId": 846,
+    "SaleId": 795,
+    "Mrmrs": "est",
+    "Firstname": "Amanda",
+    "MiddleName": "Blanda, Homenick and Champlin",
+    "Lastname": "Koepp",
+    "SaleStakeholderId": 460,
+    "Rank": 690,
+    "Phone": "1-389-008-9329",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldLength": 793
       }
     }
   }

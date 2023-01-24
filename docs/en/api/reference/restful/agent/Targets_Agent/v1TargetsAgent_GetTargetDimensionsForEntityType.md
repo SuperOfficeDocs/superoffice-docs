@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 209,
+    "TargetDimensionId": 26,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "minus",
-    "DimensionListName": "Huel Group",
-    "DimensionListId": 439,
-    "DimensionListLabel": "hic",
+    "DimensionListField": "suscipit",
+    "DimensionListName": "O'Reilly-Pfannerstill",
+    "DimensionListId": 249,
+    "DimensionListLabel": "quisquam",
     "SelectedDimensions": [
-      904,
-      503
+      465,
+      861
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 612
       }
     }
   }

@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,29 +70,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 334,
-  "NumDocumentsAlreadyMigrated": 535,
+  "NumDocumentsOmitted": 775,
+  "NumDocumentsAlreadyMigrated": 531,
   "Documents": [
     {
-      "DocumentId": 866,
-      "ContactId": 795,
-      "PersonId": 100,
-      "SaleId": 28,
-      "ProjectId": 614,
-      "DocTmplId": 579,
-      "AssociateId": 679,
-      "UserGroupId": 229,
-      "VisibleForId": 384
+      "DocumentId": 815,
+      "ContactId": 628,
+      "PersonId": 426,
+      "SaleId": 981,
+      "ProjectId": 753,
+      "DocTmplId": 400,
+      "AssociateId": 945,
+      "UserGroupId": 962,
+      "VisibleForId": 643
     }
   ],
   "Associates": [
     {
-      "AssociateId": 334,
-      "EmailAddress": "fiona.weissnat@flatleymosciski.name"
+      "AssociateId": 899,
+      "EmailAddress": "timmothy@kuhlman.info"
     },
     {
-      "AssociateId": 334,
-      "EmailAddress": "fiona.weissnat@flatleymosciski.name"
+      "AssociateId": 899,
+      "EmailAddress": "timmothy@kuhlman.info"
     }
   ]
 }

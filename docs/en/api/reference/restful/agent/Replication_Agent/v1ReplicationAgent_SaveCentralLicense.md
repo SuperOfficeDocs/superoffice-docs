@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Howell LLC",
-      "Description": "Intuitive tertiary synergy",
+      "Name": "McDermott Group",
+      "Description": "Cloned object-oriented circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Howell LLC",
-      "Description": "Intuitive tertiary synergy",
+      "Name": "McDermott Group",
+      "Description": "Cloned object-oriented circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -118,56 +118,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Luettgen-Macejkovic",
-    "Description": "Extended holistic database",
+    "Name": "Pfeffer-Fadel",
+    "Description": "Implemented systematic neural-net",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 456,
-        "Tooltip": "odit",
-        "CanAssign": false,
-        "Free": 782,
-        "InUse": 714,
+        "Total": 40,
+        "Tooltip": "voluptate",
+        "CanAssign": true,
+        "Free": 491,
+        "InUse": 465,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 827,
-        "Name": "Wolff LLC",
-        "Description": "Triple-buffered tertiary customer loyalty",
-        "PrerequisiteModuleName": "Becker Inc and Sons",
-        "SortOrder": 141,
-        "ExtraFlags": 755,
+        "Assigned": true,
+        "ModuleLicenseId": 153,
+        "Name": "Hintz, Volkman and Ritchie",
+        "Description": "Multi-lateral background extranet",
+        "PrerequisiteModuleName": "Conroy Group",
+        "SortOrder": 913,
+        "ExtraFlags": 65,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 555
+            "FieldLength": 298
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 805,
-        "Tooltip": "eum",
-        "CanAssign": true,
-        "Free": 488,
-        "InUse": 341,
+        "Unrestricted": false,
+        "Total": 221,
+        "Tooltip": "tenetur",
+        "CanAssign": false,
+        "Free": 546,
+        "InUse": 700,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 602,
-        "Name": "Kling Group",
-        "Description": "Reduced value-added customer loyalty",
-        "PrerequisiteModuleName": "Runolfsson LLC",
-        "SortOrder": 685,
-        "ExtraFlags": 208,
+        "ModuleLicenseId": 187,
+        "Name": "Zemlak Inc and Sons",
+        "Description": "Multi-channelled interactive infrastructure",
+        "PrerequisiteModuleName": "Nikolaus-O'Reilly",
+        "SortOrder": 313,
+        "ExtraFlags": 699,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 443
+            "FieldType": "System.Int32",
+            "FieldLength": 628
           }
         }
       }
@@ -176,62 +176,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldType": "System.String",
+        "FieldLength": 655
       }
     }
   },
   {
-    "Name": "Luettgen-Macejkovic",
-    "Description": "Extended holistic database",
+    "Name": "Pfeffer-Fadel",
+    "Description": "Implemented systematic neural-net",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 456,
-        "Tooltip": "odit",
-        "CanAssign": false,
-        "Free": 782,
-        "InUse": 714,
+        "Total": 40,
+        "Tooltip": "voluptate",
+        "CanAssign": true,
+        "Free": 491,
+        "InUse": 465,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 827,
-        "Name": "Wolff LLC",
-        "Description": "Triple-buffered tertiary customer loyalty",
-        "PrerequisiteModuleName": "Becker Inc and Sons",
-        "SortOrder": 141,
-        "ExtraFlags": 755,
+        "Assigned": true,
+        "ModuleLicenseId": 153,
+        "Name": "Hintz, Volkman and Ritchie",
+        "Description": "Multi-lateral background extranet",
+        "PrerequisiteModuleName": "Conroy Group",
+        "SortOrder": 913,
+        "ExtraFlags": 65,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 555
+            "FieldLength": 298
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 805,
-        "Tooltip": "eum",
-        "CanAssign": true,
-        "Free": 488,
-        "InUse": 341,
+        "Unrestricted": false,
+        "Total": 221,
+        "Tooltip": "tenetur",
+        "CanAssign": false,
+        "Free": 546,
+        "InUse": 700,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 602,
-        "Name": "Kling Group",
-        "Description": "Reduced value-added customer loyalty",
-        "PrerequisiteModuleName": "Runolfsson LLC",
-        "SortOrder": 685,
-        "ExtraFlags": 208,
+        "ModuleLicenseId": 187,
+        "Name": "Zemlak Inc and Sons",
+        "Description": "Multi-channelled interactive infrastructure",
+        "PrerequisiteModuleName": "Nikolaus-O'Reilly",
+        "SortOrder": 313,
+        "ExtraFlags": 699,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 443
+            "FieldType": "System.Int32",
+            "FieldLength": 628
           }
         }
       }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldType": "System.String",
+        "FieldLength": 655
       }
     }
   }

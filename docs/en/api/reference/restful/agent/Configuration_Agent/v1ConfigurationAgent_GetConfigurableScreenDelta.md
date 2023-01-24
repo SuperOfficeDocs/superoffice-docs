@@ -25,7 +25,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=476
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=781
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,28 +88,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 957,
-  "Name": "Howell Inc and Sons",
-  "Description": "Integrated motivating local area network",
-  "DeltaJson": "cum",
+  "ConfigurableScreenDeltaId": 168,
+  "Name": "Kshlerin-Schmidt",
+  "Description": "Reverse-engineered exuding knowledge base",
+  "DeltaJson": "repellendus",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "qui",
-  "UpdatedDate": "1997-01-25T17:37:17.1222736+01:00",
-  "CreatedDate": "2019-11-19T17:37:17.1222736+01:00",
+  "RecipeId": "aut",
+  "UpdatedDate": "2002-06-05T11:22:37.6023765+02:00",
+  "CreatedDate": "2004-02-09T11:22:37.6023765+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    558,
-    90
+    426,
+    602
   ],
-  "AppliesToKey": "placeat",
+  "AppliesToKey": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 61
+      "FieldType": "System.Int32",
+      "FieldLength": 527
     }
   }
 }

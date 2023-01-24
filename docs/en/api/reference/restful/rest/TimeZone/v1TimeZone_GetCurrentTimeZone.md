@@ -60,7 +60,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 978,
-  "Name": "Roob LLC",
-  "TZLocationCode": "eveniet",
-  "TZLocationCities": "quae",
-  "IsoNumber": 828,
+  "TZLocationID": 413,
+  "Name": "Kuvalis, Kemmer and Greenfelder",
+  "TZLocationCode": "quibusdam",
+  "TZLocationCities": "eum",
+  "IsoNumber": 744,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 133,
-      "StartMonth": 71,
-      "EndDay": 821,
-      "EndMonth": 149,
-      "TZOffset": 648,
-      "StartRulePattern": "in",
-      "EndRulePattern": "libero"
+      "StartDay": 442,
+      "StartMonth": 319,
+      "EndDay": 85,
+      "EndMonth": 20,
+      "TZOffset": 440,
+      "StartRulePattern": "veritatis",
+      "EndRulePattern": "animi"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 201,
-      "StartMonth": 764,
-      "EndDay": 291,
-      "EndMonth": 387,
-      "TZOffset": 409,
-      "StartRulePattern": "facilis",
-      "EndRulePattern": "vel"
+      "StartDay": 334,
+      "StartMonth": 222,
+      "EndDay": 871,
+      "EndMonth": 948,
+      "TZOffset": 116,
+      "StartRulePattern": "qui",
+      "EndRulePattern": "soluta"
     }
   }
 }

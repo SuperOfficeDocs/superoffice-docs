@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "vero",
+  "FieldLabel": "quos",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 149,
-  "ColumnId": 501,
-  "FieldDefault": "assumenda",
-  "FieldHeight": 106,
-  "FieldLabel": "et",
-  "FieldLeft": 184,
-  "FieldTop": 472,
+  "UDefFieldId": 982,
+  "ColumnId": 511,
+  "FieldDefault": "repudiandae",
+  "FieldHeight": 954,
+  "FieldLabel": "rem",
+  "FieldLeft": 691,
+  "FieldTop": 474,
   "FieldType": "Checkbox",
-  "FieldWidth": 471,
-  "FormatMask": "rem",
+  "FieldWidth": 659,
+  "FormatMask": "omnis",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 413,
-  "LabelLeft": 59,
-  "LabelTop": 363,
-  "LabelWidth": 117,
-  "LastVersionId": 301,
-  "ListTableId": 64,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 193,
+  "LabelLeft": 456,
+  "LabelTop": 667,
+  "LabelWidth": 281,
+  "LastVersionId": 153,
+  "ListTableId": 629,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 705,
-  "ProgId": "ut",
+  "Page1LineNo": 402,
+  "ProgId": "nostrum",
   "IsReadOnly": false,
-  "ShortLabel": "harum",
-  "TabOrder": 217,
-  "TextLength": 165,
-  "Tooltip": "beatae",
-  "UdefIdentity": 135,
-  "UDListDefinitionId": 896,
+  "ShortLabel": "molestias",
+  "TabOrder": 377,
+  "TextLength": 88,
+  "Tooltip": "qui",
+  "UdefIdentity": 96,
+  "UDListDefinitionId": 658,
   "Justification": "Center",
-  "Version": 205,
-  "TemplateVariableName": "Champlin Inc and Sons",
+  "Version": 903,
+  "TemplateVariableName": "Weimann LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Jacobson-Hilll",
+  "MdoListName": "Pfannerstill Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldType": "System.Int32",
+      "FieldLength": 909
     }
   }
 }

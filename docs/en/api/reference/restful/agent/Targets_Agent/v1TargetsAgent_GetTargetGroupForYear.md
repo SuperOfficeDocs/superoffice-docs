@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 798,
+  "TargetYear": 662,
   "EntityType": "None"
 }
 ```
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 853,
-  "Year": 246,
+  "TargetGroupId": 825,
+  "Year": 79,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 690,
+      "TargetAssignmentInfoId": 196,
       "Values": [
-        703,
-        167
+        684,
+        736
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 18,
-      "DimensionListItemDisplayName": "Kutch Inc and Sons",
+      "DimensionListItem": 872,
+      "DimensionListItemDisplayName": "Feil, Walter and Herzog",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 928
+          "FieldType": "System.Int32",
+          "FieldLength": 83
         }
       }
     }
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 906
     }
   }
 }

@@ -161,18 +161,18 @@ AppointmentEntity  updated.
 PATCH /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "accusantium",
+    "path": "autem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "accusantium",
+    "path": "autem",
     "value": {}
   }
 ]
@@ -189,63 +189,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1995-09-15T17:37:38.1068587+02:00",
-  "AppointmentId": 595,
-  "Description": "Triple-buffered optimizing open architecture",
-  "StartDate": "2019-05-26T17:37:38.1068587+02:00",
-  "EndDate": "1998-12-26T17:37:38.1068587+01:00",
+  "CreatedDate": "2009-06-11T11:22:44.2570697+02:00",
+  "AppointmentId": 897,
+  "Description": "Distributed didactic analyzer",
+  "StartDate": "2013-06-06T11:22:44.2570697+02:00",
+  "EndDate": "2012-09-25T11:22:44.2570697+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 546,
+  "MotherId": 980,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2009-10-15T17:37:38.1108587+02:00",
+  "UpdatedDate": "2006-05-06T11:22:44.2570697+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 445,
+  "ActiveLinks": 290,
   "Links": [
     {
-      "EntityName": "Bauch, Lakin and Carter",
-      "Id": 222,
-      "Description": "Robust static analyzer",
-      "ExtraInfo": "perferendis",
-      "LinkId": 737,
+      "EntityName": "Bogan, Schuppe and Gutkowski",
+      "Id": 980,
+      "Description": "Networked national frame",
+      "ExtraInfo": "et",
+      "LinkId": 227,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 43
+          "FieldLength": 918
         }
       }
     }
   ],
-  "AlarmLeadTime": "debitis",
-  "HasAlarm": true,
-  "ColorIndex": 301,
+  "AlarmLeadTime": "quia",
+  "HasAlarm": false,
+  "ColorIndex": 826,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "odio",
-  "LeadTime": "necessitatibus",
-  "Location": "vitae",
-  "RejectCounter": 306,
+  "LagTime": "doloremque",
+  "LeadTime": "aliquid",
+  "Location": "est",
+  "RejectCounter": 315,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 719,
-      "PersonId": 650,
-      "ContactId": 631,
-      "EmailId": 20,
+      "AssociateId": 453,
+      "PersonId": 320,
+      "ContactId": 382,
+      "EmailId": 42,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 719,
-      "PersonId": 650,
-      "ContactId": 631,
-      "EmailId": 20,
+      "AssociateId": 453,
+      "PersonId": 320,
+      "ContactId": 382,
+      "EmailId": 42,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -253,58 +253,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-11-02T17:37:38.1118595+01:00",
+  "ActiveDate": "1998-10-08T11:22:44.2570697+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 433,
+  "PreferredTZLocation": 461,
   "Sale": null,
-  "SuggestedAppointmentId": 864,
+  "SuggestedAppointmentId": 771,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "doloremque",
+  "CentralserviceVideomeetId": "dolor",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Melisa Hayley Considine",
-    "SuperOffice:2": "Mrs. Bethel Sporer V"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Fritz Stokes"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "quis"
+    "CustomFields1": "laborum",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "2014-04-10T17:37:38.1128584+02:00",
-  "PublishTo": "2008-11-27T17:37:38.1128584+01:00",
-  "PublishFrom": "2016-01-04T17:37:38.1128584+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2008-01-11T11:22:44.2726872+01:00",
+  "PublishTo": "2012-03-28T11:22:44.2726872+02:00",
+  "PublishFrom": "2017-11-10T11:22:44.2726872+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 968,
+      "VisibleId": 983,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 464
+          "FieldLength": 216
         }
       }
     },
     {
-      "VisibleId": 968,
+      "VisibleId": 983,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 464
+          "FieldLength": 216
         }
       }
     }
@@ -313,8 +313,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldType": "System.String",
+      "FieldLength": 63
     }
   },
   "_Links": {

@@ -25,8 +25,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=et
+GET /api/v1/List/Rating/MDOItems?flat=False
+GET /api/v1/List/Rating/MDOItems?query=molestiae
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Name": "Considine, Blick and Hamill",
-    "ToolTip": "Consequuntur sint culpa sit culpa omnis omnis.",
-    "Deleted": false,
-    "Rank": 381,
-    "Type": "fugit",
+    "Id": 892,
+    "Name": "Conroy LLC",
+    "ToolTip": "Inventore et et voluptatem unde ut eum quis.",
+    "Deleted": true,
+    "Rank": 481,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 460,
-        "Name": "Collier, Ondricka and Moen",
-        "ToolTip": "Fuga ut blanditiis nesciunt et accusamus incidunt repudiandae.",
+        "Id": 780,
+        "Name": "Harris Inc and Sons",
+        "ToolTip": "Aut et.",
         "Deleted": false,
-        "Rank": 549,
-        "Type": "corporis",
+        "Rank": 615,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 910,
-        "ExtraInfo": "minima",
-        "StyleHint": "enim",
-        "FullName": "Madie DuBuque",
+        "IconHint": "sed",
+        "ColorBlock": 545,
+        "ExtraInfo": "quia",
+        "StyleHint": "animi",
+        "FullName": "Wilfredo Leslie Wintheiser DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 513
+            "FieldType": "System.String",
+            "FieldLength": 34
           }
         }
       }
     ],
-    "IconHint": "deserunt",
-    "ColorBlock": 129,
-    "ExtraInfo": "omnis",
-    "StyleHint": "ut",
-    "FullName": "Patience Paucek",
+    "IconHint": "dolores",
+    "ColorBlock": 581,
+    "ExtraInfo": "quia",
+    "StyleHint": "vero",
+    "FullName": "Mrs. Providenci Kody Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 140
+        "FieldLength": 629
       }
     }
   }

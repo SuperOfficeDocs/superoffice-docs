@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 426,
+  "TargetYear": 465,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 793,
-  "DimensionId": 323
+  "Id": 209,
+  "DimensionId": 328
 }
 ```
 
@@ -103,24 +103,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 963,
+  "TargetAssignmentInfoId": 274,
   "Values": [
-    592,
-    597
+    895,
+    431
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 149,
-  "DimensionListItemDisplayName": "Stracke Group",
+  "DimensionListItem": 702,
+  "DimensionListItemDisplayName": "Hermiston-DuBuque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldLength": 196
     }
   }
 }

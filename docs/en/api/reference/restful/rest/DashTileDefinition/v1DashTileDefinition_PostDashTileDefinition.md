@@ -111,29 +111,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 175,
-  "Name": "Kuhn, Pacocha and Kozey",
-  "Description": "Distributed contextually-based initiative",
-  "DefaultHeight": 123,
-  "DefaultWidth": 84,
+  "DashboardTileDefinitionId": 804,
+  "Name": "Kunze-Swift",
+  "Description": "Extended tangible migration",
+  "DefaultHeight": 298,
+  "DefaultWidth": 893,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Koss, Ondricka and Glover",
-  "SelectionId": 210,
+  "EntityName": "Champlin Group",
+  "SelectionId": 989,
   "CurrencyMode": "Base",
-  "CurrencyCode": "facere",
+  "CurrencyCode": "aut",
   "Measure": "Average",
-  "MeasureField": "consequatur",
-  "SortBy": "ut",
-  "LayoutConfig": "modi",
-  "SecondarySelectionId": 669,
-  "MeasureByField": "culpa",
+  "MeasureField": "adipisci",
+  "SortBy": "saepe",
+  "LayoutConfig": "id",
+  "SecondarySelectionId": 599,
+  "MeasureByField": "qui",
   "Usage": "Dashboard",
-  "ProviderName": "Langosh, Botsford and Schinner"
+  "ProviderName": "Goyette Group"
 }
 ```
 
@@ -144,31 +144,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 205,
-  "Name": "Schulist, Rohan and Homenick",
-  "Description": "Customer-focused secondary leverage",
-  "DefaultHeight": 842,
-  "DefaultWidth": 399,
+  "DashboardTileDefinitionId": 649,
+  "Name": "Spencer Group",
+  "Description": "Managed executive toolset",
+  "DefaultHeight": 391,
+  "DefaultWidth": 436,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Ryan, Daugherty and Bernier",
-  "SelectionId": 224,
+  "EntityName": "Blick, Mueller and Rowe",
+  "SelectionId": 507,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ullam",
+  "CurrencyCode": "voluptatem",
   "Measure": "Average",
-  "MeasureField": "corporis",
-  "SortBy": "sunt",
-  "LayoutConfig": "placeat",
-  "SecondarySelectionId": 890,
-  "MeasureByField": "consequuntur",
+  "MeasureField": "autem",
+  "SortBy": "non",
+  "LayoutConfig": "voluptatem",
+  "SecondarySelectionId": 530,
+  "MeasureByField": "omnis",
   "Usage": "Dashboard",
-  "ProviderName": "Nicolas, Hane and Collier",
+  "ProviderName": "McClure Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldType": "System.String",
+      "FieldLength": 504
     }
   },
   "_Links": {

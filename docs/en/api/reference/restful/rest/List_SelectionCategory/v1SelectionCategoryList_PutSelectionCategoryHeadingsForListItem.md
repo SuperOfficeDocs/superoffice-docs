@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Name": "Beatty LLC",
-    "ToolTip": "Dolorem sapiente et et libero ut sunt earum.",
+    "Id": 552,
+    "Name": "Windler-Larson",
+    "ToolTip": "At optio est in molestiae.",
     "Deleted": false,
-    "Rank": 275,
-    "Type": "enim",
-    "ColorBlock": 887,
-    "IconHint": "ipsam",
+    "Rank": 141,
+    "Type": "saepe",
+    "ColorBlock": 381,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2003-10-09T17:37:40.3624952+02:00",
+    "LastChanged": "1995-09-25T11:22:46.1941157+02:00",
     "ChildItems": [
       {
-        "Id": 767,
-        "Name": "Daugherty-Walter",
-        "ToolTip": "Pariatur laboriosam dolorem ab eos.",
+        "Id": 508,
+        "Name": "Conn, Wisozk and Marquardt",
+        "ToolTip": "Qui quibusdam non culpa ad.",
         "Deleted": false,
-        "Rank": 814,
-        "Type": "repudiandae",
-        "ColorBlock": 796,
-        "IconHint": "qui",
+        "Rank": 995,
+        "Type": "dignissimos",
+        "ColorBlock": 178,
+        "IconHint": "laboriosam",
         "Selected": true,
-        "LastChanged": "2010-05-26T17:37:40.3624952+02:00",
+        "LastChanged": "2016-10-09T11:22:46.1941157+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "veniam",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Yesenia Jerrold Pacocha PhD"
+        "FullName": "Ramon Rau"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "ducimus",
-    "Hidden": true,
-    "FullName": "Ms. Rodolfo Parker I"
+    "ExtraInfo": "ad",
+    "StyleHint": "iure",
+    "Hidden": false,
+    "FullName": "Lafayette Harris"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 952,
-    "Name": "Ryan-Gerlach",
-    "ToolTip": "Ut accusantium voluptatem sit et esse neque.",
+    "Id": 479,
+    "Name": "Rutherford Group",
+    "ToolTip": "Dolorum est error dolorem eaque.",
     "Deleted": false,
-    "Rank": 815,
-    "Type": "quidem",
-    "ColorBlock": 283,
-    "IconHint": "in",
+    "Rank": 79,
+    "Type": "consequuntur",
+    "ColorBlock": 410,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2011-07-12T17:37:40.3645004+02:00",
+    "LastChanged": "1999-05-21T11:22:46.1941157+02:00",
     "ChildItems": [
       {
-        "Id": 242,
-        "Name": "Hudson Group",
-        "ToolTip": "Rerum enim laboriosam maxime tempore saepe doloribus molestiae.",
+        "Id": 295,
+        "Name": "Bernier Inc and Sons",
+        "ToolTip": "Tempore aut sunt rerum.",
         "Deleted": false,
-        "Rank": 162,
-        "Type": "officia",
-        "ColorBlock": 5,
-        "IconHint": "modi",
-        "Selected": true,
-        "LastChanged": "2017-03-06T17:37:40.3645004+01:00",
+        "Rank": 302,
+        "Type": "delectus",
+        "ColorBlock": 794,
+        "IconHint": "id",
+        "Selected": false,
+        "LastChanged": "2015-04-23T11:22:46.1941157+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Prof. Fritz Bartoletti",
+        "ExtraInfo": "magni",
+        "StyleHint": "in",
+        "Hidden": false,
+        "FullName": "Zena Donnelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 341
+            "FieldLength": 237
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "saepe",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Ethan Nitzsche",
+    "FullName": "Randy Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 330
+        "FieldType": "System.Int32",
+        "FieldLength": 918
       }
     }
   }

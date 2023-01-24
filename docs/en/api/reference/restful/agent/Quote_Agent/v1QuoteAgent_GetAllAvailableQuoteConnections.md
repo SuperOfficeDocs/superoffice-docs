@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,54 +91,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 569,
-    "ERPName": "Sawayn-Yundt",
-    "DisplayName": "Russel LLC",
-    "DisplayDescription": "Persistent modular definition",
-    "Rank": 275,
-    "ConnectorName": "Bernier-Jacobs",
-    "ErpConnectionId": 458,
-    "ExtraData": "asperiores",
-    "IsAvailable": false,
+    "QuoteConnectionId": 221,
+    "ERPName": "Denesik, Bechtelar and Homenick",
+    "DisplayName": "McGlynn, Schroeder and Larson",
+    "DisplayDescription": "Quality-focused directional toolset",
+    "Rank": 639,
+    "ConnectorName": "McGlynn-Vandervort",
+    "ErpConnectionId": 131,
+    "ExtraData": "voluptatibus",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 476,
-        "ERPPriceListKey": "eum",
-        "QuoteConnectionId": 448,
-        "Name": "Romaguera, Bauch and Simonis",
-        "Description": "Digitized homogeneous time-frame",
-        "Currency": "id",
-        "CurrencyName": "Treutel-Hills",
-        "ValidFrom": "2007-03-31T17:37:18.7382418+02:00",
-        "ValidTo": "2018-02-23T17:37:18.7382418+01:00",
+        "PriceListId": 161,
+        "ERPPriceListKey": "non",
+        "QuoteConnectionId": 761,
+        "Name": "Vandervort-Huel",
+        "Description": "Programmable multimedia flexibility",
+        "Currency": "ut",
+        "CurrencyName": "Stroman, Upton and Hilpert",
+        "ValidFrom": "2010-02-01T11:22:38.9145676+01:00",
+        "ValidTo": "2020-04-09T11:22:38.9145676+02:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 72
+            "FieldType": "System.String",
+            "FieldLength": 93
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      959,
-      266
+      138,
+      782
     ],
     "AssociateAccessIds": [
-      51,
-      789
+      755,
+      879
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 31
+        "FieldLength": 819
       }
     }
   }

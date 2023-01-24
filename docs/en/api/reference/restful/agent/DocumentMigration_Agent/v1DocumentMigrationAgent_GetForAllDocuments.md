@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 68,
+  "DocumentPluginId": 193,
   "IncludeEmails": false
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 352,
-  "NumDocumentsAlreadyMigrated": 154,
+  "NumDocumentsOmitted": 612,
+  "NumDocumentsAlreadyMigrated": 862,
   "Documents": [
     {
-      "DocumentId": 778,
-      "ContactId": 513,
-      "PersonId": 738,
-      "SaleId": 657,
-      "ProjectId": 110,
-      "DocTmplId": 351,
-      "AssociateId": 165,
-      "UserGroupId": 756,
-      "VisibleForId": 226
+      "DocumentId": 983,
+      "ContactId": 194,
+      "PersonId": 33,
+      "SaleId": 267,
+      "ProjectId": 522,
+      "DocTmplId": 540,
+      "AssociateId": 749,
+      "UserGroupId": 618,
+      "VisibleForId": 157
     }
   ],
   "Associates": [
     {
-      "AssociateId": 841,
-      "EmailAddress": "ivah@rippindaniel.uk"
+      "AssociateId": 22,
+      "EmailAddress": "osvaldo@thiel.info"
     },
     {
-      "AssociateId": 841,
-      "EmailAddress": "ivah@rippindaniel.uk"
+      "AssociateId": 22,
+      "EmailAddress": "osvaldo@thiel.info"
     }
   ]
 }

@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Mills-Cruickshank",
-    "SaleDate": "2006-10-03T17:37:18.8842419+02:00",
-    "SaleId": 66,
-    "Probability": 977,
-    "Title": "iure",
-    "Amount": 14526.09,
-    "Currency": "accusamus",
-    "ProjectName": "Rau-Ferry",
-    "AssociateFullName": "Grayce Dorris Sipes PhD",
-    "Description": "Reduced transitional task-force",
+    "ContactName": "Koepp-Hermann",
+    "SaleDate": "2020-05-29T11:22:39.2425669+02:00",
+    "SaleId": 711,
+    "Probability": 157,
+    "Title": "sunt",
+    "Amount": 8674.912,
+    "Currency": "et",
+    "ProjectName": "Shields LLC",
+    "AssociateFullName": "Ms. Franco Laura Weber",
+    "Description": "Assimilated global migration",
     "Status": "Lost",
-    "WeightedAmount": 16550.654,
-    "ProjectId": 381,
-    "EarningPercent": 22712.097999999998,
-    "Earning": 20471.288,
-    "ContactId": 812,
-    "AssociateId": 888,
-    "PersonId": 15,
-    "SaleTypeId": 144,
-    "SaleTypeName": "Gleason, Mills and Toy",
-    "PersonFullName": "Clara Dibbert",
+    "WeightedAmount": 15688.804,
+    "ProjectId": 951,
+    "EarningPercent": 28444.183999999997,
+    "Earning": 7618.754,
+    "ContactId": 794,
+    "AssociateId": 875,
+    "PersonId": 184,
+    "SaleTypeId": 666,
+    "SaleTypeName": "Skiles, Cummerata and Veum",
+    "PersonFullName": "Esperanza Jones",
     "Completed": "Completed",
-    "ActiveErpLinks": 525,
-    "NextDueDate": "2018-11-23T17:37:18.8842419+01:00",
-    "Number": "1010474",
+    "ActiveErpLinks": 132,
+    "NextDueDate": "2013-11-29T11:22:39.2425669+01:00",
+    "Number": "1199085",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldLength": 660
       }
     }
   }

@@ -99,34 +99,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 37,
-  "UniqueId": "aut",
-  "Name": "Miller Group",
-  "Description": "Right-sized leading edge challenge",
-  "AssociateId": 838,
-  "Columns": 894,
+  "DashboardId": 919,
+  "UniqueId": "aperiam",
+  "Name": "Hahn-Medhurst",
+  "Description": "User-centric disintermediate benchmark",
+  "AssociateId": 201,
+  "Columns": 779,
   "Theme": null,
-  "VisibleForAll": 246,
+  "VisibleForAll": 342,
   "VisibleForAssociates": [
-    620,
-    527
+    974,
+    107
   ],
   "VisibleForGroups": [
-    440,
-    708
+    64,
+    201
   ],
-  "PinForAll": 654,
+  "PinForAll": 232,
   "PinForAssociates": [
-    55,
-    9
+    222,
+    759
   ],
   "PinForGroups": [
-    511,
-    725
+    738,
+    980
   ]
 }
 ```
@@ -138,37 +138,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 229,
-  "UniqueId": "unde",
-  "Name": "Gleason-Gusikowski",
-  "Description": "Phased systematic encoding",
-  "AssociateId": 598,
-  "Columns": 140,
+  "DashboardId": 198,
+  "UniqueId": "cum",
+  "Name": "Heidenreich, Hansen and Bergnaum",
+  "Description": "Mandatory directional budgetary management",
+  "AssociateId": 28,
+  "Columns": 584,
   "Theme": null,
-  "VisibleForAll": 506,
+  "VisibleForAll": 832,
   "VisibleForAssociates": [
-    139,
-    557
+    732,
+    254
   ],
   "VisibleForGroups": [
-    941,
-    501
+    525,
+    112
   ],
-  "PinForAll": 915,
+  "PinForAll": 857,
   "PinForAssociates": [
-    779,
-    512
+    451,
+    739
   ],
   "PinForGroups": [
-    851,
-    488
+    725,
+    605
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldLength": 388
     }
   },
   "_Links": {

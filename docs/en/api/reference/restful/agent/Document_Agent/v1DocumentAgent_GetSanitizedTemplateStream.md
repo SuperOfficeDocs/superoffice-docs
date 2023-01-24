@@ -75,9 +75,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Ledner LLC",
+  "TemplateName": "Kuvalis Group",
   "AllowPersonal": false,
-  "UiCulture": "placeat"
+  "UiCulture": "veritatis"
 }
 ```
 

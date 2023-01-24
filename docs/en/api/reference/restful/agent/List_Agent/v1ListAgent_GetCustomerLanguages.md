@@ -78,27 +78,27 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 733,
-    "Value": "id",
-    "Tooltip": "ipsum",
+    "Value": "non",
+    "Tooltip": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldLength": 619
       }
     }
   },
   {
     "Id": 733,
-    "Value": "id",
-    "Tooltip": "ipsum",
+    "Value": "non",
+    "Tooltip": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldLength": 619
       }
     }
   }

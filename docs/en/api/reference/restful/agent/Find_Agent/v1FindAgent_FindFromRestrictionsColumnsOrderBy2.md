@@ -164,16 +164,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "velit",
-  "ProviderName": "Swift, Harris and Armstrong",
-  "DesiredColumns": "alias",
-  "OrderBy": "sunt",
-  "PageSize": 267,
-  "PageNumber": 942
+  "Restrictions": "dicta",
+  "ProviderName": "Kiehn, Rodriguez and Cole",
+  "DesiredColumns": "autem",
+  "OrderBy": "distinctio",
+  "PageSize": 61,
+  "PageNumber": 951
 }
 ```
 
@@ -186,51 +186,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Wehner Group",
-      "DisplayTooltip": "officiis",
-      "DisplayType": "atque",
+      "DisplayName": "Skiles, Smitham and McDermott",
+      "DisplayTooltip": "animi",
+      "DisplayType": "officiis",
       "CanOrderBy": false,
-      "Name": "Lemke-Hagenes",
-      "CanRestrictBy": false,
-      "RestrictionType": "necessitatibus",
-      "RestrictionListName": "Wilderman-Fadel",
+      "Name": "Olson, Langosh and Berge",
+      "CanRestrictBy": true,
+      "RestrictionType": "quasi",
+      "RestrictionListName": "Douglas Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "laudantium",
-      "Width": "error",
-      "IconHint": "reiciendis",
-      "HeadingIconHint": "non"
+      "ExtraInfo": "distinctio",
+      "Width": "rerum",
+      "IconHint": "inventore",
+      "HeadingIconHint": "voluptatibus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ward Inc and Sons",
-      "PrimaryKey": 679,
+      "EntityName": "Schimmel Inc and Sons",
+      "PrimaryKey": 744,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "qui",
-          "LinkHint": "sunt"
+          "DisplayValue": "voluptates",
+          "TooltipHint": "totam",
+          "LinkHint": "omnis"
         }
       },
-      "LinkHint": "nostrum",
-      "StyleHint": "neque",
+      "LinkHint": "est",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 849
+          "FieldLength": 995
         }
       }
     }
   ],
-  "RowCount": 446,
+  "RowCount": 565,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 199
+      "FieldType": "System.Int32",
+      "FieldLength": 81
     }
   }
 }

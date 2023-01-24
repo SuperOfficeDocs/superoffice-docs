@@ -69,7 +69,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Beahan Group"
+  "ApplicationName": "Mraz-Dibbert"
 }
 ```
 

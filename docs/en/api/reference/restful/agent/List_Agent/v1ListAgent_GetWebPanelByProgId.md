@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ullam"
+  "ProgId": "non"
 }
 ```
 
@@ -107,33 +107,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 564,
-  "Name": "Wuckert-Boyer",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "Rank": 961,
+  "WebPanelId": 355,
+  "Name": "Morar, Stokes and Kshlerin",
+  "Tooltip": "laborum",
+  "Deleted": true,
+  "Rank": 446,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Heathcote, Hyatt and Marvin",
+  "WindowName": "Reichel, Cartwright and Volkman",
   "Url": "http://www.example.com/",
-  "ProgId": "ut",
-  "Icon": 422,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "cum",
+  "Icon": 975,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 106
+      "FieldType": "System.Int32",
+      "FieldLength": 766
     }
   }
 }

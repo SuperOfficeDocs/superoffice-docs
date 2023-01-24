@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 10,
-    "Name": "Buckridge, Hane and O'Keefe",
-    "ContentType": "ad",
-    "AttSize": 694,
+    "AttachmentId": 318,
+    "Name": "Goodwin, Miller and Gerhold",
+    "ContentType": "non",
+    "AttSize": 200,
     "InlineImage": false,
-    "ContentId": "rem",
+    "ContentId": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 759
+        "FieldLength": 615
       }
     }
   }

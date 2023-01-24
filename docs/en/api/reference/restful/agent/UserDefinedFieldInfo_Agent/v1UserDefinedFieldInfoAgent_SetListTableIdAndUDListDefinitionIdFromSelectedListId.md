@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 889
+  "SelectedListId": 228
 }
 ```
 
@@ -122,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 163,
-  "ColumnId": 357,
-  "FieldDefault": "et",
-  "FieldHeight": 226,
-  "FieldLabel": "qui",
-  "FieldLeft": 35,
-  "FieldTop": 616,
+  "UDefFieldId": 985,
+  "ColumnId": 908,
+  "FieldDefault": "accusantium",
+  "FieldHeight": 183,
+  "FieldLabel": "omnis",
+  "FieldLeft": 384,
+  "FieldTop": 60,
   "FieldType": "Checkbox",
-  "FieldWidth": 48,
-  "FormatMask": "eaque",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 269,
-  "LabelLeft": 221,
-  "LabelTop": 495,
-  "LabelWidth": 106,
-  "LastVersionId": 233,
-  "ListTableId": 386,
-  "IsMandatory": true,
+  "FieldWidth": 520,
+  "FormatMask": "beatae",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 77,
+  "LabelLeft": 705,
+  "LabelTop": 127,
+  "LabelWidth": 569,
+  "LastVersionId": 654,
+  "ListTableId": 782,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 426,
-  "ProgId": "aut",
+  "Page1LineNo": 176,
+  "ProgId": "et",
   "IsReadOnly": true,
-  "ShortLabel": "ea",
-  "TabOrder": 113,
-  "TextLength": 964,
-  "Tooltip": "et",
-  "UdefIdentity": 230,
-  "UDListDefinitionId": 945,
+  "ShortLabel": "fuga",
+  "TabOrder": 565,
+  "TextLength": 815,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 168,
+  "UDListDefinitionId": 228,
   "Justification": "Center",
-  "Version": 38,
-  "TemplateVariableName": "Dooley-Krajcik",
-  "HasBeenPublished": false,
-  "MdoListName": "Jast Group",
+  "Version": 354,
+  "TemplateVariableName": "Doyle LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Donnelly, Rau and Friesen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldType": "System.String",
+      "FieldLength": 490
     }
   }
 }

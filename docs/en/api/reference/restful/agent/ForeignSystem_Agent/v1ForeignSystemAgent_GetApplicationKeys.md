@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kuvalis LLC"
+  "ApplicationName": "Runolfsson, Upton and Russel"
 }
 ```
 
@@ -95,20 +95,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "tempore",
-    "Value": "et",
-    "RecordId": 178,
-    "CreatedDate": "2012-09-17T17:37:18.1142411+02:00",
-    "UpdatedDate": "2008-04-14T17:37:18.1142411+02:00",
-    "UpdatedBy": "optio",
-    "CreatedBy": "suscipit",
-    "TableName": "Feil-Rolfson",
+    "Key": "nihil",
+    "Value": "vero",
+    "RecordId": 859,
+    "CreatedDate": "2011-06-29T11:22:38.3834434+02:00",
+    "UpdatedDate": "1999-10-25T11:22:38.3834434+02:00",
+    "UpdatedBy": "expedita",
+    "CreatedBy": "eum",
+    "TableName": "Quigley-O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldLength": 707
       }
     }
   }

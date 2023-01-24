@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 970
+  "SatelliteId": 361
 }
 ```
 
@@ -91,30 +91,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lowe Group",
-    "Description": "Managed mission-critical productivity",
+    "Name": "Bergnaum-DuBuque",
+    "Description": "Operative clear-thinking moderator",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 342,
-        "Tooltip": "accusamus",
+        "Unrestricted": false,
+        "Total": 460,
+        "Tooltip": "qui",
         "CanAssign": false,
-        "Free": 739,
-        "InUse": 923,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 188,
-        "Name": "Littel, Bernhard and Howe",
-        "Description": "De-engineered fresh-thinking encoding",
-        "PrerequisiteModuleName": "Kilback-Kunze",
-        "SortOrder": 877,
-        "ExtraFlags": 311,
+        "Free": 546,
+        "InUse": 548,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 509,
+        "Name": "Krajcik-Medhurst",
+        "Description": "Ameliorated optimizing protocol",
+        "PrerequisiteModuleName": "Wilderman Group",
+        "SortOrder": 791,
+        "ExtraFlags": 404,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 532
+            "FieldLength": 536
           }
         }
       }
@@ -122,25 +122,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 701,
-        "Tooltip": "repellendus",
-        "CanAssign": false,
-        "Free": 453,
-        "InUse": 475,
+        "Total": 596,
+        "Tooltip": "placeat",
+        "CanAssign": true,
+        "Free": 230,
+        "InUse": 911,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 787,
-        "Name": "Koelpin, Davis and Heller",
-        "Description": "Future-proofed real-time encryption",
-        "PrerequisiteModuleName": "Welch, Walter and Rempel",
-        "SortOrder": 368,
-        "ExtraFlags": 868,
+        "Assigned": true,
+        "ModuleLicenseId": 20,
+        "Name": "Wisozk, Steuber and DuBuque",
+        "Description": "Upgradable encompassing conglomeration",
+        "PrerequisiteModuleName": "Brekke, Douglas and Okuneva",
+        "SortOrder": 777,
+        "ExtraFlags": 658,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 354
+            "FieldType": "System.Int32",
+            "FieldLength": 589
           }
         }
       }
@@ -150,35 +150,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldLength": 736
       }
     }
   },
   {
-    "Name": "Lowe Group",
-    "Description": "Managed mission-critical productivity",
+    "Name": "Bergnaum-DuBuque",
+    "Description": "Operative clear-thinking moderator",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 342,
-        "Tooltip": "accusamus",
+        "Unrestricted": false,
+        "Total": 460,
+        "Tooltip": "qui",
         "CanAssign": false,
-        "Free": 739,
-        "InUse": 923,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 188,
-        "Name": "Littel, Bernhard and Howe",
-        "Description": "De-engineered fresh-thinking encoding",
-        "PrerequisiteModuleName": "Kilback-Kunze",
-        "SortOrder": 877,
-        "ExtraFlags": 311,
+        "Free": 546,
+        "InUse": 548,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 509,
+        "Name": "Krajcik-Medhurst",
+        "Description": "Ameliorated optimizing protocol",
+        "PrerequisiteModuleName": "Wilderman Group",
+        "SortOrder": 791,
+        "ExtraFlags": 404,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 532
+            "FieldLength": 536
           }
         }
       }
@@ -186,25 +186,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 701,
-        "Tooltip": "repellendus",
-        "CanAssign": false,
-        "Free": 453,
-        "InUse": 475,
+        "Total": 596,
+        "Tooltip": "placeat",
+        "CanAssign": true,
+        "Free": 230,
+        "InUse": 911,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 787,
-        "Name": "Koelpin, Davis and Heller",
-        "Description": "Future-proofed real-time encryption",
-        "PrerequisiteModuleName": "Welch, Walter and Rempel",
-        "SortOrder": 368,
-        "ExtraFlags": 868,
+        "Assigned": true,
+        "ModuleLicenseId": 20,
+        "Name": "Wisozk, Steuber and DuBuque",
+        "Description": "Upgradable encompassing conglomeration",
+        "PrerequisiteModuleName": "Brekke, Douglas and Okuneva",
+        "SortOrder": 777,
+        "ExtraFlags": 658,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 354
+            "FieldType": "System.Int32",
+            "FieldLength": 589
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldLength": 736
       }
     }
   }

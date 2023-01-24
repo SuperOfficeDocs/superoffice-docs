@@ -82,15 +82,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 629,
+  "DocumentId": 173,
   "AllowedReturnTypes": [
-    "et",
-    "magni"
-  ],
-  "VersionDescription": "Reactive global algorithm",
-  "VersionExtraFields": [
-    "sit",
+    "aliquid",
     "qui"
+  ],
+  "VersionDescription": "Fully-configurable intermediate approach",
+  "VersionExtraFields": [
+    "doloribus",
+    "suscipit"
   ]
 }
 ```
@@ -102,11 +102,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ipsam",
-  "VersionId": "fugit",
-  "Success": true,
+  "ExternalReference": "illo",
+  "VersionId": "voluptatem",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "omnis",
-  "AdditionalInfo": "quia"
+  "Value": "error",
+  "AdditionalInfo": "assumenda"
 }
 ```

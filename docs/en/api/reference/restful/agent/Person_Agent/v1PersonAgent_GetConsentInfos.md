@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 124
+  "PersonId": 148
 }
 ```
 
@@ -104,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 349,
-    "Comment": "accusantium",
-    "Registered": "2002-05-01T17:37:18.5162419+02:00",
-    "RegisteredAssociateId": 890,
-    "Updated": "2005-05-01T17:37:18.5162419+02:00",
-    "UpdatedAssociateId": 598,
-    "LegalBaseId": 818,
-    "LegalBaseKey": "deleniti",
-    "LegalBaseName": "Wiegand-Wilderman",
-    "ConsentPurposeId": 703,
-    "ConsentPurposeKey": "nisi",
-    "ConsentPurposeName": "Oberbrunner-Sporer",
-    "ConsentSourceId": 993,
-    "ConsentSourceKey": "quae",
-    "ConsentSourceName": "Lehner-Spencer",
+    "ConsentPersonId": 538,
+    "Comment": "nesciunt",
+    "Registered": "2013-09-03T11:22:38.7271093+02:00",
+    "RegisteredAssociateId": 880,
+    "Updated": "1998-11-27T11:22:38.7271093+01:00",
+    "UpdatedAssociateId": 754,
+    "LegalBaseId": 863,
+    "LegalBaseKey": "velit",
+    "LegalBaseName": "Haag LLC",
+    "ConsentPurposeId": 192,
+    "ConsentPurposeKey": "deleniti",
+    "ConsentPurposeName": "Parisian, Lowe and Rosenbaum",
+    "ConsentSourceId": 225,
+    "ConsentSourceKey": "mollitia",
+    "ConsentSourceName": "Cruickshank-Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 777
+        "FieldType": "System.Int32",
+        "FieldLength": 869
       }
     }
   }

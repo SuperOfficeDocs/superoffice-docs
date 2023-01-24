@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 280,
-    "Name": "Johns Inc and Sons",
-    "Tooltip": "eveniet",
+    "HeadingId": 745,
+    "Name": "Lehner Group",
+    "Tooltip": "cum",
     "Deleted": false,
-    "Rank": 217,
-    "UdListDefinitionId": 886
+    "Rank": 549,
+    "UdListDefinitionId": 630
   },
   {
-    "HeadingId": 280,
-    "Name": "Johns Inc and Sons",
-    "Tooltip": "eveniet",
+    "HeadingId": 745,
+    "Name": "Lehner Group",
+    "Tooltip": "cum",
     "Deleted": false,
-    "Rank": 217,
-    "UdListDefinitionId": 886
+    "Rank": 549,
+    "UdListDefinitionId": 630
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 231,
-    "Name": "Blanda Inc and Sons",
-    "Tooltip": "in",
-    "Deleted": true,
-    "Rank": 977,
-    "UdListDefinitionId": 511,
+    "HeadingId": 83,
+    "Name": "Price, Feil and Robel",
+    "Tooltip": "voluptatum",
+    "Deleted": false,
+    "Rank": 743,
+    "UdListDefinitionId": 215,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 472
+        "FieldType": "System.Int32",
+        "FieldLength": 125
       }
     }
   }

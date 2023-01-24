@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 572,
-  "PrefValue": "asperiores"
+  "PrefDescId": 228,
+  "PrefValue": "voluptates"
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 680,
-  "PrefDescId": 659,
-  "PrefValue": "laborum",
-  "PrefShowValue": "nisi",
-  "Description": "Up-sized zero tolerance productivity",
+  "PrefDescLineId": 262,
+  "PrefDescId": 607,
+  "PrefValue": "porro",
+  "PrefShowValue": "consequuntur",
+  "Description": "Extended holistic flexibility",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 976
+      "FieldType": "System.Int32",
+      "FieldLength": 141
     }
   }
 }

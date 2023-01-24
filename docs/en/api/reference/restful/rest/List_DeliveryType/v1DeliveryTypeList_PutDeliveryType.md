@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 841,
-  "Name": "Brakus Group",
-  "Tooltip": "illo",
+  "Id": 368,
+  "Name": "Bechtelar, Swift and Lockman",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 222,
-  "Rank": 162
+  "UdListDefinitionId": 807,
+  "Rank": 218
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 99,
-  "Name": "Pagac-Funk",
-  "Tooltip": "omnis",
+  "Id": 806,
+  "Name": "Nader, Braun and Nader",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "UdListDefinitionId": 126,
-  "Rank": 166,
+  "UdListDefinitionId": 225,
+  "Rank": 161,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 419
     }
   }
 }

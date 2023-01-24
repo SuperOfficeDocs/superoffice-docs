@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 650
+  "AssociateId": 878
 }
 ```
 
@@ -147,63 +147,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-03-20T17:37:16.4792416+01:00",
-  "AppointmentId": 475,
-  "Description": "Reverse-engineered non-volatile framework",
-  "StartDate": "2004-04-07T17:37:16.4792416+02:00",
-  "EndDate": "2008-01-02T17:37:16.4792416+01:00",
+  "CreatedDate": "2002-12-09T11:22:37.1181151+01:00",
+  "AppointmentId": 733,
+  "Description": "Team-oriented empowering portal",
+  "StartDate": "2018-05-16T11:22:37.1181151+02:00",
+  "EndDate": "2013-03-14T11:22:37.1181151+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 645,
+  "MotherId": 412,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-12-05T17:37:16.4822416+01:00",
+  "UpdatedDate": "2006-12-09T11:22:37.1181151+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 121,
+  "ActiveLinks": 394,
   "Links": [
     {
-      "EntityName": "Gutmann LLC",
-      "Id": 927,
-      "Description": "Advanced real-time superstructure",
-      "ExtraInfo": "quo",
-      "LinkId": 617,
+      "EntityName": "Runolfsdottir-Wiegand",
+      "Id": 323,
+      "Description": "Up-sized intangible Graphic Interface",
+      "ExtraInfo": "vero",
+      "LinkId": 343,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 235
+          "FieldLength": 605
         }
       }
     }
   ],
-  "AlarmLeadTime": "nobis",
-  "HasAlarm": true,
-  "ColorIndex": 26,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "mollitia",
-  "LeadTime": "consequatur",
-  "Location": "perferendis",
-  "RejectCounter": 143,
-  "RejectReason": "enable cross-platform synergies",
+  "AlarmLeadTime": "qui",
+  "HasAlarm": false,
+  "ColorIndex": 758,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "neque",
+  "LeadTime": "vero",
+  "Location": "quisquam",
+  "RejectCounter": 392,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 918,
-      "PersonId": 607,
-      "ContactId": 70,
-      "EmailId": 423,
+      "AssociateId": 459,
+      "PersonId": 312,
+      "ContactId": 642,
+      "EmailId": 573,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 918,
-      "PersonId": 607,
-      "ContactId": 70,
-      "EmailId": 423,
+      "AssociateId": 459,
+      "PersonId": 312,
+      "ContactId": 642,
+      "EmailId": 573,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -211,58 +211,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-12-28T17:37:16.4822416+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2008-06-09T11:22:37.1181151+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 114,
+  "PreferredTZLocation": 111,
   "Sale": null,
-  "SuggestedAppointmentId": 468,
+  "SuggestedAppointmentId": 164,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "praesentium",
+  "CentralserviceVideomeetId": "dolore",
   "UserDefinedFields": {
-    "SuperOffice:1": "335100003",
-    "SuperOffice:2": "Dr. Mercedes Littel"
+    "SuperOffice:1": "Sigurd Langworth",
+    "SuperOffice:2": "556998103"
   },
   "ExtraFields": {
-    "ExtraFields1": "odit",
-    "ExtraFields2": "deserunt"
+    "ExtraFields1": "possimus",
+    "ExtraFields2": "placeat"
   },
   "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "facilis"
+    "CustomFields1": "error",
+    "CustomFields2": "vitae"
   },
-  "PublishEventDate": "1996-07-28T17:37:16.4842419+02:00",
-  "PublishTo": "2018-05-03T17:37:16.4842419+02:00",
-  "PublishFrom": "2021-09-01T17:37:16.4842419+02:00",
+  "PublishEventDate": "2019-08-25T11:22:37.1181151+02:00",
+  "PublishTo": "2020-07-24T11:22:37.1181151+02:00",
+  "PublishFrom": "2022-02-03T11:22:37.1181151+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 832,
+      "VisibleId": 242,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldLength": 519
         }
       }
     },
     {
-      "VisibleId": 832,
+      "VisibleId": 242,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldLength": 519
         }
       }
     }
@@ -271,8 +271,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldType": "System.String",
+      "FieldLength": 710
     }
   }
 }

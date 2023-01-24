@@ -71,22 +71,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 525,
+  "SelectionId": 483,
   "AddCompanyInterests": [
-    664,
-    257
+    290,
+    483
   ],
   "RemoveCompanyInterests": [
-    488,
-    370
+    412,
+    185
   ],
   "AddContactInterests": [
-    330,
-    502
+    198,
+    185
   ],
   "RemoveContactInterests": [
-    982,
-    743
+    556,
+    375
   ]
 }
 ```

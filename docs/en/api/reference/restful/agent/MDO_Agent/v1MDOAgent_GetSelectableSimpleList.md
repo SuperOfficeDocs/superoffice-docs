@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mohr Inc and Sons"
+  "Name": "McCullough Group"
 }
 ```
 
@@ -102,56 +102,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 314,
-    "Name": "Becker, Volkman and Walsh",
-    "ToolTip": "Qui quae saepe dicta delectus ab.",
-    "Deleted": true,
-    "Rank": 215,
-    "Type": "excepturi",
-    "ColorBlock": 720,
-    "IconHint": "saepe",
-    "Selected": true,
-    "LastChanged": "1998-05-16T17:37:18.3382417+02:00",
+    "Id": 438,
+    "Name": "Leannon, Howell and Schumm",
+    "ToolTip": "A et cumque magni iusto earum.",
+    "Deleted": false,
+    "Rank": 200,
+    "Type": "labore",
+    "ColorBlock": 900,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2012-11-16T11:22:38.5708923+01:00",
     "ChildItems": [
       {
-        "Id": 828,
-        "Name": "Brakus-Bahringer",
-        "ToolTip": "Adipisci qui nisi dolore minima illum aliquam.",
-        "Deleted": false,
-        "Rank": 487,
-        "Type": "repellendus",
-        "ColorBlock": 745,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2018-12-05T17:37:18.3382417+01:00",
+        "Id": 773,
+        "Name": "Senger Inc and Sons",
+        "ToolTip": "Nihil officiis recusandae nihil et est enim maxime.",
+        "Deleted": true,
+        "Rank": 148,
+        "Type": "ut",
+        "ColorBlock": 159,
+        "IconHint": "mollitia",
+        "Selected": false,
+        "LastChanged": "2012-10-11T11:22:38.5708923+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Miss Scottie Hermann",
+        "ExtraInfo": "rerum",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Dr. Baylee Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 359
+            "FieldLength": 490
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "et",
+    "ExtraInfo": "qui",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Ms. Lula Fay III",
+    "FullName": "Cierra Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldType": "System.String",
+        "FieldLength": 623
       }
     }
   }

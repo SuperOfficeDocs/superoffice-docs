@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 737,
-  "Name": "Stiedemann Inc and Sons",
-  "Tooltip": "non",
+  "Id": 860,
+  "Name": "Ortiz-Bartell",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "Rank": 115,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 42,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "quisquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 734
+      "FieldType": "System.Int32",
+      "FieldLength": 354
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

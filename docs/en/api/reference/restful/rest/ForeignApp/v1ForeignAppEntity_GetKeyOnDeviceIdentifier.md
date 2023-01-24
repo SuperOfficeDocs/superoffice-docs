@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 23 Aug 2001 17:37:38 G8T
+Last-Modified: Thu, 26 Jun 1997 11:22:44 G6T
 
 {
-  "Key": "velit",
-  "Value": "reiciendis",
-  "RecordId": 298,
-  "CreatedDate": "2018-03-16T17:37:38.8198595+01:00",
-  "UpdatedDate": "2001-08-23T17:37:38.8198595+02:00",
-  "UpdatedBy": "id",
-  "CreatedBy": "optio",
-  "TableName": "Lueilwitz Group",
+  "Key": "minima",
+  "Value": "est",
+  "RecordId": 417,
+  "CreatedDate": "2010-07-16T11:22:44.8818691+02:00",
+  "UpdatedDate": "1997-06-26T11:22:44.8818691+02:00",
+  "UpdatedBy": "libero",
+  "CreatedBy": "est",
+  "TableName": "Hilll, Bruen and Kulas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldType": "System.String",
+      "FieldLength": 147
     }
   }
 }

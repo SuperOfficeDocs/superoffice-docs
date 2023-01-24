@@ -82,18 +82,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolor",
-  "Value": "dignissimos",
-  "RecordId": 987,
-  "CreatedDate": "2016-03-31T17:37:38.8208594+02:00",
-  "UpdatedDate": "1996-04-26T17:37:38.8208594+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "reiciendis",
-  "TableName": "Effertz Inc and Sons"
+  "Key": "rem",
+  "Value": "quia",
+  "RecordId": 231,
+  "CreatedDate": "2017-08-30T11:22:44.8818691+02:00",
+  "UpdatedDate": "1996-07-10T11:22:44.8818691+02:00",
+  "UpdatedBy": "labore",
+  "CreatedBy": "dolorum",
+  "TableName": "Cole-Will"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quaerat",
-  "Value": "aliquid",
-  "RecordId": 953,
-  "CreatedDate": "2005-09-06T17:37:38.8208594+02:00",
-  "UpdatedDate": "2022-08-16T17:37:38.8208594+02:00",
-  "UpdatedBy": "at",
-  "CreatedBy": "quia",
-  "TableName": "Turner Inc and Sons",
+  "Key": "aliquam",
+  "Value": "ut",
+  "RecordId": 928,
+  "CreatedDate": "2014-07-07T11:22:44.8818691+02:00",
+  "UpdatedDate": "2004-01-08T11:22:44.8818691+01:00",
+  "UpdatedBy": "vel",
+  "CreatedBy": "quisquam",
+  "TableName": "Murray, Hauck and Bogisich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 573
     }
   }
 }

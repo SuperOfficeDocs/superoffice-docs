@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 618,
-    "Name": "Hayes Inc and Sons",
-    "Tooltip": "nobis",
-    "Deleted": true,
-    "Rank": 689,
-    "UdListDefinitionId": 928,
+    "HeadingId": 368,
+    "Name": "Effertz, O'Hara and Hirthe",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "Rank": 853,
+    "UdListDefinitionId": 367,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 482
+        "FieldType": "System.Int32",
+        "FieldLength": 450
       }
     }
   }

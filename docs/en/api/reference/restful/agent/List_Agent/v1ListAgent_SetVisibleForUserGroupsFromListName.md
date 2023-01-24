@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Larson, Block and Pacocha",
-  "ListItemId": 799,
+  "UdListDefinitionName": "Lockman-Green",
+  "ListItemId": 830,
   "UserGroups": [
     {
-      "Id": 171,
-      "Name": "Bode-Hoppe",
-      "ToolTip": "Debitis cumque beatae ex est cum sint tempore.",
-      "Deleted": false,
-      "Rank": 40,
-      "Type": "in",
-      "ColorBlock": 820,
-      "IconHint": "cupiditate",
-      "Selected": true,
-      "LastChanged": "2019-06-03T17:37:18.1982448+02:00",
+      "Id": 498,
+      "Name": "Haley, Mitchell and Volkman",
+      "ToolTip": "Aperiam voluptatibus laudantium sed sit.",
+      "Deleted": true,
+      "Rank": 945,
+      "Type": "aperiam",
+      "ColorBlock": 352,
+      "IconHint": "sit",
+      "Selected": false,
+      "LastChanged": "2007-02-15T11:22:38.4615502+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquam",
-      "StyleHint": "rerum",
+      "ExtraInfo": "eum",
+      "StyleHint": "occaecati",
       "Hidden": false,
-      "FullName": "Isom Braun"
+      "FullName": "Ezekiel Emard"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Name": "Howe-Langworth",
-    "ToolTip": "Voluptatem qui hic.",
-    "Deleted": true,
-    "Rank": 638,
-    "Type": "mollitia",
-    "ColorBlock": 873,
-    "IconHint": "commodi",
-    "Selected": false,
-    "LastChanged": "2011-02-23T17:37:18.1992447+01:00",
+    "Id": 384,
+    "Name": "Kovacek-Stark",
+    "ToolTip": "Aspernatur maxime recusandae deserunt animi.",
+    "Deleted": false,
+    "Rank": 811,
+    "Type": "quia",
+    "ColorBlock": 860,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2006-10-19T11:22:38.4615502+02:00",
     "ChildItems": [
       {
-        "Id": 83,
-        "Name": "Price, Hermiston and Witting",
-        "ToolTip": "Et repudiandae sunt quidem sapiente.",
+        "Id": 915,
+        "Name": "Hand, Zieme and Fisher",
+        "ToolTip": "Sit velit et velit.",
         "Deleted": false,
-        "Rank": 660,
-        "Type": "a",
-        "ColorBlock": 737,
-        "IconHint": "soluta",
+        "Rank": 28,
+        "Type": "et",
+        "ColorBlock": 372,
+        "IconHint": "voluptatum",
         "Selected": true,
-        "LastChanged": "1999-04-30T17:37:18.1992447+02:00",
+        "LastChanged": "1999-08-04T11:22:38.4615502+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Miss Horace Enrique Harber PhD",
+        "FullName": "Mrs. Ray Trever Jenkins II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 832
+            "FieldType": "System.Int32",
+            "FieldLength": 817
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "vero",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Malvina Alexa Kris PhD",
+    "FullName": "Yoshiko Greenholt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldType": "System.String",
+        "FieldLength": 834
       }
     }
   }

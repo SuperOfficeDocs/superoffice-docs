@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 43,
-    "Name": "Johnson-Morissette",
-    "Tooltip": "delectus",
-    "Deleted": false,
-    "Rank": 245,
-    "UdListDefinitionId": 816
+    "HeadingId": 577,
+    "Name": "Cronin LLC",
+    "Tooltip": "asperiores",
+    "Deleted": true,
+    "Rank": 217,
+    "UdListDefinitionId": 58
   },
   {
-    "HeadingId": 43,
-    "Name": "Johnson-Morissette",
-    "Tooltip": "delectus",
-    "Deleted": false,
-    "Rank": 245,
-    "UdListDefinitionId": 816
+    "HeadingId": 577,
+    "Name": "Cronin LLC",
+    "Tooltip": "asperiores",
+    "Deleted": true,
+    "Rank": 217,
+    "UdListDefinitionId": 58
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 39,
-    "Name": "Klein, Harris and Kilback",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 222,
-    "UdListDefinitionId": 142,
+    "HeadingId": 8,
+    "Name": "Sipes Group",
+    "Tooltip": "officia",
+    "Deleted": false,
+    "Rank": 103,
+    "UdListDefinitionId": 990,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldLength": 534
       }
     }
   }

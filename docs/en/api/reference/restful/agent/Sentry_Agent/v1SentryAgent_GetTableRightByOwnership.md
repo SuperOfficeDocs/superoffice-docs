@@ -77,9 +77,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hahn-Schneider",
-  "ContactGroupId": 447,
-  "ContactAssociateId": 50
+  "TableName": "Jenkins-Gerhold",
+  "ContactGroupId": 302,
+  "ContactAssociateId": 350
 }
 ```
 

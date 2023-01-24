@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Hand, Dooley and Rempel"
+  "ApplicationName": "Rutherford, Bogan and Wilderman"
 }
 ```
 
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 637,
-  "Name": "Friesen-Hegmann",
-  "CreatedDate": "2020-07-18T17:37:18.1122415+02:00",
-  "UpdatedDate": "2005-12-02T17:37:18.1122415+01:00",
-  "AssociateFullName": "Mrs. Nestor Cormier DDS",
-  "CreatedBy": "officiis",
-  "UpdatedBy": "eum",
-  "DeviceIdentifier": "id",
-  "ForeignAppId": 421,
+  "ForeignDeviceId": 666,
+  "Name": "Hyatt-Predovic",
+  "CreatedDate": "2021-05-09T11:22:38.3834434+02:00",
+  "UpdatedDate": "2001-08-29T11:22:38.3834434+02:00",
+  "AssociateFullName": "Edythe Gutmann",
+  "CreatedBy": "culpa",
+  "UpdatedBy": "impedit",
+  "DeviceIdentifier": "tempore",
+  "ForeignAppId": 594,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 690
     }
   }
 }

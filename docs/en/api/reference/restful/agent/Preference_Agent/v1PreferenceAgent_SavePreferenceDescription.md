@@ -96,28 +96,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 407,
-  "Section": "qui",
-  "Key": "et",
-  "Name": "Corwin, Sporer and Ankunding",
+  "PrefDescId": 277,
+  "Section": "voluptas",
+  "Key": "voluptas",
+  "Name": "Walker, Bergstrom and Hessel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Front-line cohesive application",
-  "IsBuiltin": false,
-  "TableName": "Bosco, Hansen and Kautzer",
-  "UserDefinedListId": 557,
-  "Rank": 521,
-  "SubGroup": "optio",
-  "MinLevel": 458,
-  "MaxValue": 232,
-  "MinValue": 561,
-  "RequiredLicense": "nihil"
+  "Description": "Decentralized heuristic flexibility",
+  "IsBuiltin": true,
+  "TableName": "Feest-Franecki",
+  "UserDefinedListId": 257,
+  "Rank": 335,
+  "SubGroup": "quis",
+  "MinLevel": 852,
+  "MaxValue": 450,
+  "MinValue": 867,
+  "RequiredLicense": "quia"
 }
 ```
 
@@ -128,30 +128,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 217,
-  "Section": "occaecati",
-  "Key": "ut",
-  "Name": "Veum Inc and Sons",
+  "PrefDescId": 382,
+  "Section": "pariatur",
+  "Key": "aut",
+  "Name": "Braun Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Adaptive logistical function",
+  "Description": "Horizontal multimedia archive",
   "IsBuiltin": false,
-  "TableName": "Tromp, Trantow and Greenholt",
-  "UserDefinedListId": 174,
-  "Rank": 779,
-  "SubGroup": "laborum",
-  "MinLevel": 944,
-  "MaxValue": 471,
-  "MinValue": 690,
-  "RequiredLicense": "itaque",
+  "TableName": "Pagac LLC",
+  "UserDefinedListId": 670,
+  "Rank": 224,
+  "SubGroup": "ut",
+  "MinLevel": 562,
+  "MaxValue": 768,
+  "MinValue": 547,
+  "RequiredLicense": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 706
     }
   }
 }

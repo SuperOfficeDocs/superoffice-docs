@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 213,
-  "PlainMessage": "et",
-  "HtmlMessage": "aut",
-  "SmsMessage": "doloribus",
-  "Description": "Face to face content-based projection",
-  "Subject": "earum",
-  "FolderId": 600,
-  "HeaderField": "consequatur",
-  "Design": "et",
+  "ShipmentMessageId": 375,
+  "PlainMessage": "consequatur",
+  "HtmlMessage": "et",
+  "SmsMessage": "ratione",
+  "Description": "Open-architected full-range open architecture",
+  "Subject": "natus",
+  "FolderId": 438,
+  "HeaderField": "neque",
+  "Design": "aspernatur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Enterprise-wide stable adapter",
-  "AccessKey": "sunt",
-  "DocumentMessage": 194,
-  "Registered": "2013-12-14T17:37:39.2253032+01:00",
-  "RegisteredAssociateId": 517,
-  "Updated": "2022-06-27T17:37:39.2253032+02:00",
-  "UpdatedAssociateId": 905,
-  "UpdatedCount": 363,
+  "LongDescription": "Balanced transitional data-warehouse",
+  "AccessKey": "assumenda",
+  "DocumentMessage": 780,
+  "Registered": "2021-10-13T11:22:45.225579+02:00",
+  "RegisteredAssociateId": 629,
+  "Updated": "2000-10-26T11:22:45.225579+02:00",
+  "UpdatedAssociateId": 32,
+  "UpdatedCount": 808,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 973
     }
   }
 }

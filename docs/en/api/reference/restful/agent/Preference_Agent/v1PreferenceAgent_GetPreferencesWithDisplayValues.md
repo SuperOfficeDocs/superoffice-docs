@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "voluptas",
-      "Key": "nam"
+      "Section": "ut",
+      "Key": "voluptatem"
     },
     {
-      "Section": "voluptas",
-      "Key": "nam"
+      "Section": "ut",
+      "Key": "voluptatem"
     }
   ]
 }
@@ -108,22 +108,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "consectetur",
+    "RawValue": "quidem",
     "Specification": null,
-    "DisplayValue": "aspernatur",
-    "DisplayTooltip": "ut",
+    "DisplayValue": "consectetur",
+    "DisplayTooltip": "et",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 969,
-    "PrefDescId": 910,
-    "TableName": "Pagac Inc and Sons",
-    "UserPreferenceId": 492,
+    "TargetId": 387,
+    "PrefDescId": 387,
+    "TableName": "Dicki, Olson and Heidenreich",
+    "UserPreferenceId": 583,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldLength": 253
       }
     }
   }

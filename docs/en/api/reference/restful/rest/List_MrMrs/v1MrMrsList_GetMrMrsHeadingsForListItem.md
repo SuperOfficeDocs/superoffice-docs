@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Wehner LLC",
-    "ToolTip": "Vel dolorem officiis molestias.",
-    "Deleted": false,
-    "Rank": 493,
-    "Type": "odit",
-    "ColorBlock": 209,
-    "IconHint": "debitis",
+    "Id": 66,
+    "Name": "Hagenes, Metz and Collier",
+    "ToolTip": "Qui sed illo non illum dolorem.",
+    "Deleted": true,
+    "Rank": 697,
+    "Type": "animi",
+    "ColorBlock": 229,
+    "IconHint": "dolorum",
     "Selected": true,
-    "LastChanged": "2000-12-03T17:37:40.0615078+01:00",
+    "LastChanged": "2018-04-16T11:22:45.9441645+02:00",
     "ChildItems": [
       {
-        "Id": 793,
-        "Name": "Weissnat-Harvey",
-        "ToolTip": "Natus similique iure exercitationem magni eligendi.",
-        "Deleted": false,
-        "Rank": 7,
-        "Type": "distinctio",
-        "ColorBlock": 21,
-        "IconHint": "ducimus",
-        "Selected": true,
-        "LastChanged": "2005-09-24T17:37:40.0615078+02:00",
+        "Id": 353,
+        "Name": "Ritchie, Wintheiser and Steuber",
+        "ToolTip": "Odio voluptate dolores.",
+        "Deleted": true,
+        "Rank": 581,
+        "Type": "aliquid",
+        "ColorBlock": 707,
+        "IconHint": "soluta",
+        "Selected": false,
+        "LastChanged": "2006-08-23T11:22:45.9597902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "totam",
+        "ExtraInfo": "impedit",
+        "StyleHint": "dolor",
         "Hidden": true,
-        "FullName": "Frederick Schulist III",
+        "FullName": "Kristopher Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 470
+            "FieldType": "System.Int32",
+            "FieldLength": 520
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Prof. Donavon Mathew Dare",
+    "ExtraInfo": "minima",
+    "StyleHint": "error",
+    "Hidden": true,
+    "FullName": "Ms. Kiera Williamson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldLength": 871
       }
     }
   }

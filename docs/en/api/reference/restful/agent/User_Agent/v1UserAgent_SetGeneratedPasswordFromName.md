@@ -73,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Yost, Rowe and Hoppe"
+  "AssociateName": "Hudson LLC"
 }
 ```
 
@@ -83,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Kemmer-Flatley"
+"Koss Group"
 ```

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 943,
-    "Name": "Ankunding LLC",
-    "ToolTip": "Iure consequatur laborum qui et id autem.",
+    "Id": 887,
+    "Name": "Bruen-Hodkiewicz",
+    "ToolTip": "Animi quisquam ex.",
     "Deleted": false,
-    "Rank": 515,
-    "Type": "cumque",
-    "ColorBlock": 154,
-    "IconHint": "provident",
-    "Selected": false,
-    "LastChanged": "1996-08-27T17:37:40.2484729+02:00",
+    "Rank": 921,
+    "Type": "nobis",
+    "ColorBlock": 94,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "2000-04-07T11:22:46.1003835+02:00",
     "ChildItems": [
       {
-        "Id": 808,
-        "Name": "Muller-Berge",
-        "ToolTip": "Aut voluptatum minima dolore.",
+        "Id": 122,
+        "Name": "Schroeder, Konopelski and Dare",
+        "ToolTip": "Sed eos quibusdam numquam et sequi non.",
         "Deleted": false,
-        "Rank": 555,
-        "Type": "et",
-        "ColorBlock": 126,
-        "IconHint": "sequi",
+        "Rank": 41,
+        "Type": "suscipit",
+        "ColorBlock": 129,
+        "IconHint": "ipsa",
         "Selected": false,
-        "LastChanged": "2008-01-06T17:37:40.2484729+01:00",
+        "LastChanged": "2000-08-04T11:22:46.1003835+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "quam",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "perspiciatis",
         "Hidden": false,
-        "FullName": "Zechariah Micheal Gleason V",
+        "FullName": "King Langworth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 255
+            "FieldType": "System.String",
+            "FieldLength": 53
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "quod",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Rachel Labadie III",
+    "FullName": "Sasha Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 926
+        "FieldLength": 84
       }
     }
   }

@@ -89,7 +89,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 246,
-    "ColumnId": 862,
-    "FieldDefault": "facere",
-    "FieldHeight": 770,
-    "FieldLabel": "officia",
-    "FieldLeft": 29,
-    "FieldTop": 627,
+    "UDefFieldId": 566,
+    "ColumnId": 413,
+    "FieldDefault": "laborum",
+    "FieldHeight": 474,
+    "FieldLabel": "molestiae",
+    "FieldLeft": 410,
+    "FieldTop": 723,
     "FieldType": "Checkbox",
-    "FieldWidth": 676,
-    "FormatMask": "molestias",
+    "FieldWidth": 644,
+    "FormatMask": "sed",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 492,
-    "LabelLeft": 539,
-    "LabelTop": 190,
-    "LabelWidth": 343,
-    "LastVersionId": 394,
-    "ListTableId": 724,
+    "IsIndexed": true,
+    "LabelHeight": 80,
+    "LabelLeft": 646,
+    "LabelTop": 279,
+    "LabelWidth": 28,
+    "LastVersionId": 864,
+    "ListTableId": 818,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 535,
-    "ProgId": "iste",
-    "IsReadOnly": false,
-    "ShortLabel": "quis",
-    "TabOrder": 797,
-    "TextLength": 627,
-    "Tooltip": "eligendi",
-    "UdefIdentity": 701,
-    "UDListDefinitionId": 982,
+    "Page1LineNo": 978,
+    "ProgId": "voluptas",
+    "IsReadOnly": true,
+    "ShortLabel": "aperiam",
+    "TabOrder": 328,
+    "TextLength": 937,
+    "Tooltip": "dolor",
+    "UdefIdentity": 481,
+    "UDListDefinitionId": 132,
     "Justification": "Center",
-    "Version": 609,
-    "TemplateVariableName": "Harber Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Parisian-Olson",
+    "Version": 410,
+    "TemplateVariableName": "Ruecker, Weimann and Corkery",
+    "HasBeenPublished": false,
+    "MdoListName": "Sporer Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldType": "System.String",
+        "FieldLength": 988
       }
     }
   }

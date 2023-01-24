@@ -132,51 +132,51 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 483,
-  "ERPProductKey": "officia",
-  "ERPPriceListKey": "consequatur",
-  "Name": "Huels-Abshire",
-  "Description": "Future-proofed holistic approach",
-  "Code": "quis",
-  "PriceUnit": "recusandae",
-  "QuantityUnit": "officia",
+  "ProductId": 227,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "cupiditate",
+  "Name": "Kassulke-Moore",
+  "Description": "Innovative hybrid functionalities",
+  "Code": "natus",
+  "PriceUnit": "qui",
+  "QuantityUnit": "voluptatem",
   "IsSubscription": false,
-  "SubscriptionUnit": "vel",
-  "DefaultSubscriptionQuantity": 13971.372,
-  "ItemNumber": "947574",
+  "SubscriptionUnit": "sint",
+  "DefaultSubscriptionQuantity": 14497.884,
+  "ItemNumber": "980168",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "illo",
-  "ProductTypeKey": "autem",
-  "VAT": 11103.761999999999,
+  "ProductFamilyKey": "sed",
+  "ProductTypeKey": "consequatur",
+  "VAT": 18114.52,
   "VATInfo": "eos",
-  "UnitCost": 17443.844,
-  "UnitMinimumPrice": 25748.944,
-  "UnitListPrice": 6474.844,
+  "UnitCost": 14532.358,
+  "UnitMinimumPrice": 21336.272,
+  "UnitListPrice": 7838.134,
   "InAssortment": true,
-  "Supplier": "unde",
-  "SupplierCode": "animi",
-  "Rights": "impedit",
-  "Rule": "et",
+  "Supplier": "ut",
+  "SupplierCode": "omnis",
+  "Rights": "consequatur",
+  "Rule": "illum",
   "ExtraInfo": [
     {
-      "Name": "Abbott Inc and Sons",
-      "Value": "fugit",
+      "Name": "Hamill LLC",
+      "Value": "autem",
       "Type": "Image"
     },
     {
-      "Name": "Abbott Inc and Sons",
-      "Value": "fugit",
+      "Name": "Hamill LLC",
+      "Value": "autem",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "non",
-  "ExtraField1": "commodi",
-  "ExtraField2": "enim",
-  "ExtraField3": "quo",
-  "ExtraField4": "voluptatum",
-  "ExtraField5": "veniam",
-  "InStock": 28845.336
+  "RawExtraInfo": "ad",
+  "ExtraField1": "quod",
+  "ExtraField2": "inventore",
+  "ExtraField3": "tempora",
+  "ExtraField4": "ullam",
+  "ExtraField5": "sed",
+  "InStock": 614.264
 }
 ```
 
@@ -187,73 +187,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 589,
-  "ERPProductKey": "saepe",
-  "ERPPriceListKey": "explicabo",
-  "Name": "Maggio-Shanahan",
-  "Description": "Multi-channelled encompassing focus group",
-  "Code": "et",
-  "PriceUnit": "et",
-  "QuantityUnit": "eaque",
+  "ProductId": 774,
+  "ERPProductKey": "excepturi",
+  "ERPPriceListKey": "incidunt",
+  "Name": "Breitenberg, McLaughlin and Volkman",
+  "Description": "Re-engineered national project",
+  "Code": "aperiam",
+  "PriceUnit": "eveniet",
+  "QuantityUnit": "saepe",
   "IsSubscription": false,
-  "SubscriptionUnit": "placeat",
-  "DefaultSubscriptionQuantity": 6333.8139999999994,
-  "ItemNumber": "441535",
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 1808.318,
+  "ItemNumber": "299347",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "nesciunt",
-  "VAT": 4014.654,
-  "VATInfo": "est",
-  "UnitCost": 5603.592,
-  "UnitMinimumPrice": 22389.296,
-  "UnitListPrice": 266.39,
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "et",
+  "VAT": 23248.012,
+  "VATInfo": "explicabo",
+  "UnitCost": 25698.8,
+  "UnitMinimumPrice": 12523.464,
+  "UnitListPrice": 13946.3,
   "InAssortment": false,
-  "Supplier": "quos",
-  "SupplierCode": "et",
-  "Rights": "cumque",
-  "Rule": "totam",
+  "Supplier": "vitae",
+  "SupplierCode": "optio",
+  "Rights": "reiciendis",
+  "Rule": "molestiae",
   "ExtraInfo": [
     {
-      "Name": "Schneider LLC",
-      "Value": "maxime",
+      "Name": "Green Group",
+      "Value": "dignissimos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 440
+          "FieldLength": 896
         }
       }
     },
     {
-      "Name": "Schneider LLC",
-      "Value": "maxime",
+      "Name": "Green Group",
+      "Value": "dignissimos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 440
+          "FieldLength": 896
         }
       }
     }
   ],
-  "RawExtraInfo": "quod",
-  "ExtraField1": "velit",
-  "ExtraField2": "accusantium",
-  "ExtraField3": "hic",
-  "ExtraField4": "vel",
-  "ExtraField5": "magni",
-  "InStock": 11830.85,
+  "RawExtraInfo": "esse",
+  "ExtraField1": "aperiam",
+  "ExtraField2": "aliquam",
+  "ExtraField3": "iure",
+  "ExtraField4": "voluptates",
+  "ExtraField5": "beatae",
+  "InStock": 22903.272,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldLength": 183
     }
   }
 }

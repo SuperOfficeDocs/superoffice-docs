@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 313,
-  "Name": "Kovacek, Haley and Konopelski",
-  "Tooltip": "sunt",
-  "Deleted": true,
-  "UdListDefinitionId": 431,
-  "Rank": 928,
+  "Id": 177,
+  "Name": "Schuppe Group",
+  "Tooltip": "aspernatur",
+  "Deleted": false,
+  "UdListDefinitionId": 781,
+  "Rank": 20,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldLength": 988
     }
   }
 }

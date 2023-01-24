@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,53 +92,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 169,
-  "Name": "Kunde Group",
-  "Tooltip": "quae",
-  "Rank": 873,
+  "SaleTypeId": 42,
+  "Name": "Corkery Group",
+  "Tooltip": "reprehenderit",
+  "Rank": 272,
   "DurationUnit": "Century",
-  "SaleDuration": 703,
-  "SaleTypeCatId": 417,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "SaleDuration": 214,
+  "SaleTypeCatId": 730,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 422,
-  "QuoteLinesTemplate": 637,
-  "ConfirmationLinesTemplate": 356,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 272,
+  "QuoteLinesTemplate": 226,
+  "ConfirmationLinesTemplate": 158,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 759,
-  "MinEarningPercent": 134,
-  "GroupQuoteLinesBy": 475,
-  "SortGroupLinesBy": 576,
+  "MaxDiscountPercent": 960,
+  "MinEarningPercent": 775,
+  "GroupQuoteLinesBy": 13,
+  "SortGroupLinesBy": 654,
   "Stages": [
     {
-      "Id": 452,
-      "Name": "Swaniawski, Ryan and Rutherford",
-      "ToolTip": "Sit itaque asperiores consequuntur ut quo voluptatibus.",
+      "Id": 563,
+      "Name": "Kovacek, West and Price",
+      "ToolTip": "Voluptatibus nemo distinctio placeat harum ut sint vitae.",
       "Deleted": false,
-      "Rank": 551,
-      "Type": "necessitatibus",
-      "ColorBlock": 952,
-      "IconHint": "temporibus",
+      "Rank": 552,
+      "Type": "ad",
+      "ColorBlock": 969,
+      "IconHint": "fuga",
       "Selected": false,
-      "LastChanged": "2015-06-05T17:37:40.334505+02:00",
+      "LastChanged": "2009-01-29T11:22:46.1784934+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorem",
-      "StyleHint": "cum",
-      "Hidden": false,
-      "FullName": "Kirsten Misty Schiller II",
+      "ExtraInfo": "mollitia",
+      "StyleHint": "laboriosam",
+      "Hidden": true,
+      "FullName": "Miss Breana Monahan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 583
+          "FieldLength": 116
         }
       }
     }
@@ -148,7 +148,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 205
+      "FieldLength": 879
     }
   }
 }

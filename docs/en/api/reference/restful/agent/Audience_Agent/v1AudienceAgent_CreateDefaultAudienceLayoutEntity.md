@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 886,
-  "InstanceLayout": "nesciunt",
-  "InstanceName": "Fay Group",
-  "CreatedDate": "2018-12-06T17:37:16.8763912+01:00",
-  "UpdatedDate": "2017-05-06T17:37:16.8763912+02:00",
+  "AudienceLayoutId": 333,
+  "InstanceLayout": "ex",
+  "InstanceName": "Johnson-Kuhic",
+  "CreatedDate": "2020-02-29T11:22:37.4304911+01:00",
+  "UpdatedDate": "1999-05-11T11:22:37.4304911+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldType": "System.Int32",
+      "FieldLength": 192
     }
   }
 }

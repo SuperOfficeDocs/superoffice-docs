@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "Adams LLC",
-    "ToolTip": "Voluptatum quia reprehenderit.",
-    "Deleted": false,
-    "Rank": 933,
-    "Type": "voluptatem",
-    "ColorBlock": 865,
-    "IconHint": "vero",
+    "Id": 167,
+    "Name": "Wuckert-Reichert",
+    "ToolTip": "Mollitia ut alias reprehenderit impedit provident.",
+    "Deleted": true,
+    "Rank": 718,
+    "Type": "aut",
+    "ColorBlock": 739,
+    "IconHint": "ex",
     "Selected": true,
-    "LastChanged": "2008-10-20T17:37:39.6604305+02:00",
+    "LastChanged": "2004-09-25T11:22:45.5848828+02:00",
     "ChildItems": [
       {
-        "Id": 54,
-        "Name": "Casper, Abbott and Lynch",
-        "ToolTip": "Autem modi.",
+        "Id": 55,
+        "Name": "Parker, Keeling and Barton",
+        "ToolTip": "Vel repellendus corrupti earum eum dolor et.",
         "Deleted": false,
-        "Rank": 545,
-        "Type": "quisquam",
-        "ColorBlock": 452,
-        "IconHint": "dolorem",
-        "Selected": false,
-        "LastChanged": "2000-07-01T17:37:39.6604305+02:00",
+        "Rank": 371,
+        "Type": "facilis",
+        "ColorBlock": 403,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2014-01-25T11:22:45.5848828+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Dr. Guadalupe Shany West"
+        "ExtraInfo": "dolor",
+        "StyleHint": "adipisci",
+        "Hidden": true,
+        "FullName": "Wayne Hoeger"
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "quo",
+    "ExtraInfo": "officia",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Antone Hauck"
+    "FullName": "Mr. Jillian Rowan Davis"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 149,
-    "Name": "Conroy, Aufderhar and Walsh",
-    "ToolTip": "Qui nemo non ut aut.",
+    "Id": 531,
+    "Name": "Casper, Gutkowski and Renner",
+    "ToolTip": "Explicabo soluta est.",
     "Deleted": false,
-    "Rank": 909,
-    "Type": "aperiam",
-    "ColorBlock": 632,
-    "IconHint": "perspiciatis",
-    "Selected": false,
-    "LastChanged": "1997-07-27T17:37:39.6614307+02:00",
+    "Rank": 248,
+    "Type": "sequi",
+    "ColorBlock": 497,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "1995-12-02T11:22:45.5848828+01:00",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Torp, Ritchie and Sipes",
-        "ToolTip": "Ipsam id debitis voluptatem praesentium explicabo voluptatem.",
-        "Deleted": true,
-        "Rank": 515,
-        "Type": "dolorem",
-        "ColorBlock": 131,
-        "IconHint": "et",
+        "Id": 553,
+        "Name": "Bergstrom, Hyatt and Kshlerin",
+        "ToolTip": "Magnam temporibus illum debitis adipisci labore sapiente fugit.",
+        "Deleted": false,
+        "Rank": 506,
+        "Type": "tempora",
+        "ColorBlock": 112,
+        "IconHint": "voluptate",
         "Selected": false,
-        "LastChanged": "1999-09-23T17:37:39.6614307+02:00",
+        "LastChanged": "2007-10-21T11:22:45.5848828+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "sed",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Dr. Dashawn Rupert Bailey Jr.",
+        "FullName": "Maxwell Marquardt V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 886
+            "FieldType": "System.Int32",
+            "FieldLength": 26
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "odio",
+    "ExtraInfo": "nihil",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Katrina Roberts",
+    "FullName": "Giovanna Wisoky IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 644
       }
     }
   }

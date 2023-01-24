@@ -25,7 +25,7 @@ Gets a DeliveryTerm object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDeliveryTerm?deliveryTermId=168
+POST /api/v1/Agents/List/GetDeliveryTerm?deliveryTermId=583
 POST /api/v1/Agents/List/GetDeliveryTerm?$select=name,department,category/id
 ```
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetDeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 950,
-  "Value": "dolor",
-  "Tooltip": "tempora",
+  "Id": 872,
+  "Value": "et",
+  "Tooltip": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldType": "System.String",
+      "FieldLength": 530
     }
   }
 }

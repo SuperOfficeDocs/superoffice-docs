@@ -71,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 716
+  "AssociateId": 593
 }
 ```
 
@@ -82,7 +82,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "autem",
-  "est"
+  "sequi",
+  "iure"
 ]
 ```

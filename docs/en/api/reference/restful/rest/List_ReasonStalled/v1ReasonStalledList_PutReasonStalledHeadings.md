@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 145,
-    "Name": "Balistreri, Jaskolski and Conroy",
-    "Tooltip": "sint",
-    "Deleted": true,
-    "Rank": 432,
-    "UdListDefinitionId": 210
+    "HeadingId": 535,
+    "Name": "Hyatt, Keeling and O'Hara",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 675,
+    "UdListDefinitionId": 591
   },
   {
-    "HeadingId": 145,
-    "Name": "Balistreri, Jaskolski and Conroy",
-    "Tooltip": "sint",
-    "Deleted": true,
-    "Rank": 432,
-    "UdListDefinitionId": 210
+    "HeadingId": 535,
+    "Name": "Hyatt, Keeling and O'Hara",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 675,
+    "UdListDefinitionId": 591
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 535,
-    "Name": "Quigley LLC",
-    "Tooltip": "ut",
+    "HeadingId": 339,
+    "Name": "Stiedemann-Jacobson",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 328,
-    "UdListDefinitionId": 551,
+    "Rank": 692,
+    "UdListDefinitionId": 977,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 155
       }
     }
   }

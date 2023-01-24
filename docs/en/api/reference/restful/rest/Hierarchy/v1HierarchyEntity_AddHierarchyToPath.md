@@ -83,46 +83,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 791,
+  "HierarchyId": 254,
   "Domain": "Dashboards",
-  "Name": "Cormier Inc and Sons",
-  "Fullname": "est",
-  "ParentId": 1002,
+  "Name": "Cassin-Sanford",
+  "Fullname": "enim",
+  "ParentId": 498,
   "Children": [
     {
-      "HierarchyId": 921,
+      "HierarchyId": 688,
       "Domain": "Dashboards",
-      "Name": "Hoeger Inc and Sons",
-      "Fullname": "et",
-      "ParentId": 564,
+      "Name": "Klein Inc and Sons",
+      "Fullname": "architecto",
+      "ParentId": 607,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-12-06T17:37:38.8318593+01:00",
-      "RegisteredAssociateId": 824,
-      "Updated": "2000-05-12T17:37:38.8318593+02:00",
-      "UpdatedAssociateId": 731,
+      "Registered": "1997-05-28T11:22:44.8818691+02:00",
+      "RegisteredAssociateId": 161,
+      "Updated": "2000-01-31T11:22:44.8818691+01:00",
+      "UpdatedAssociateId": 547,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 854
+          "FieldLength": 620
         }
       }
     }
   ],
-  "Registered": "2019-01-29T17:37:38.8318593+01:00",
-  "RegisteredAssociateId": 289,
-  "Updated": "1999-05-16T17:37:38.8318593+02:00",
-  "UpdatedAssociateId": 866,
+  "Registered": "2016-05-17T11:22:44.8818691+02:00",
+  "RegisteredAssociateId": 529,
+  "Updated": "2006-11-18T11:22:44.8818691+01:00",
+  "UpdatedAssociateId": 158,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 967
     }
   }
 }

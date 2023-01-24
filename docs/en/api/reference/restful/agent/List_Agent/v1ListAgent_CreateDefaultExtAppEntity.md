@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 24,
-  "Name": "Crona Inc and Sons",
-  "Tooltip": "sed",
+  "ExtAppId": 151,
+  "Name": "Kessler LLC",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 28,
-  "Filename": "nostrum",
-  "Parameters": "minima",
-  "Workdir": "sint",
+  "Rank": 988,
+  "Filename": "error",
+  "Parameters": "quas",
+  "Workdir": "animi",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": false,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 775,
-  "WaitToFinish": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 818,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "quidem",
+  "Path": "fugit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 878
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

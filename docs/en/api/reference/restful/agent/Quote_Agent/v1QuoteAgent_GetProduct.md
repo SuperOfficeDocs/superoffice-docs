@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 382,
-  "ERPProductKey": "ab"
+  "QuoteConnectionId": 310,
+  "ERPProductKey": "optio"
 }
 ```
 
@@ -122,73 +122,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 668,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "adipisci",
-  "Name": "Langworth LLC",
-  "Description": "Extended disintermediate hierarchy",
-  "Code": "molestias",
-  "PriceUnit": "alias",
-  "QuantityUnit": "officiis",
-  "IsSubscription": true,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 10498.9,
-  "ItemNumber": "1140270",
+  "ProductId": 335,
+  "ERPProductKey": "quos",
+  "ERPPriceListKey": "iusto",
+  "Name": "Toy-Labadie",
+  "Description": "De-engineered foreground architecture",
+  "Code": "eius",
+  "PriceUnit": "neque",
+  "QuantityUnit": "voluptatem",
+  "IsSubscription": false,
+  "SubscriptionUnit": "cumque",
+  "DefaultSubscriptionQuantity": 391.75,
+  "ItemNumber": "667311",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "culpa",
-  "ProductTypeKey": "molestias",
-  "VAT": 19850.755999999998,
-  "VATInfo": "omnis",
-  "UnitCost": 6120.702,
-  "UnitMinimumPrice": 30735.138,
-  "UnitListPrice": 29243.354,
+  "ProductFamilyKey": "odit",
+  "ProductTypeKey": "ipsum",
+  "VAT": 19333.646,
+  "VATInfo": "incidunt",
+  "UnitCost": 16691.684,
+  "UnitMinimumPrice": 24683.384,
+  "UnitListPrice": 4575.6399999999994,
   "InAssortment": true,
-  "Supplier": "quae",
-  "SupplierCode": "saepe",
-  "Rights": "amet",
-  "Rule": "veniam",
+  "Supplier": "alias",
+  "SupplierCode": "aut",
+  "Rights": "deserunt",
+  "Rule": "voluptatibus",
   "ExtraInfo": [
     {
-      "Name": "Adams LLC",
-      "Value": "corrupti",
+      "Name": "Marks Inc and Sons",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldLength": 413
         }
       }
     },
     {
-      "Name": "Adams LLC",
-      "Value": "corrupti",
+      "Name": "Marks Inc and Sons",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldLength": 413
         }
       }
     }
   ],
-  "RawExtraInfo": "sint",
-  "ExtraField1": "qui",
-  "ExtraField2": "praesentium",
-  "ExtraField3": "incidunt",
-  "ExtraField4": "at",
-  "ExtraField5": "laborum",
-  "InStock": 5403.016,
+  "RawExtraInfo": "ea",
+  "ExtraField1": "quod",
+  "ExtraField2": "debitis",
+  "ExtraField3": "deserunt",
+  "ExtraField4": "non",
+  "ExtraField5": "sint",
+  "InStock": 26717.35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldType": "System.String",
+      "FieldLength": 966
     }
   }
 }

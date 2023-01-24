@@ -78,26 +78,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 62,
-  "CrmRecordId": 366,
+  "ErpConnectionId": 713,
+  "CrmRecordId": 67,
   "CrmActorType": "Contact",
-  "ErpKey": "voluptatem",
+  "ErpKey": "et",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Zboncak, Kuhlman and Corwin",
-      "CrmFieldKey": "esse",
-      "Value": "explicabo",
-      "DisplayValue": "culpa",
-      "SyncToCrm": false,
+      "DisplayName": "Wisoky-Schroeder",
+      "CrmFieldKey": "fugiat",
+      "Value": "iste",
+      "DisplayValue": "optio",
+      "SyncToCrm": true,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Zboncak, Kuhlman and Corwin",
-      "CrmFieldKey": "esse",
-      "Value": "explicabo",
-      "DisplayValue": "culpa",
-      "SyncToCrm": false,
+      "DisplayName": "Wisoky-Schroeder",
+      "CrmFieldKey": "fugiat",
+      "Value": "iste",
+      "DisplayValue": "optio",
+      "SyncToCrm": true,
       "SyncToErp": false
     }
   ]

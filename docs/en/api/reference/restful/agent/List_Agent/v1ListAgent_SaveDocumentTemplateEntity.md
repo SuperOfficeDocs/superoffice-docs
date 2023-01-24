@@ -110,34 +110,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 98,
-  "Name": "O'Hara-Beahan",
-  "Tooltip": "quia",
-  "SaveInDb": 554,
-  "Filename": "non",
-  "DefaultOref": "error",
+  "DocumentTemplateId": 710,
+  "Name": "Pagac-Carter",
+  "Tooltip": "voluptates",
+  "SaveInDb": 975,
+  "Filename": "minima",
+  "DefaultOref": "voluptatem",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 827,
-  "IntentId": 2,
+  "AutoeventId": 168,
+  "IntentId": 519,
   "IsDefaultPublished": true,
-  "Rank": 34,
-  "LoadTemplateFromPlugin": 263,
-  "MimeType": "officiis",
+  "Rank": 758,
+  "LoadTemplateFromPlugin": 63,
+  "MimeType": "est",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 444,
+  "DocumentTypeKey": 617,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "verla@simonisokuneva.biz",
+  "EmailSubject": "thea@leschhilpert.biz",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kennith.corkery@stehr.com",
+  "SenderEmailAddress": "hipolito@denesik.name",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -149,37 +149,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 986,
-  "Name": "Mayer, Bauch and Weissnat",
-  "Tooltip": "facilis",
-  "SaveInDb": 621,
-  "Filename": "quam",
-  "DefaultOref": "sapiente",
+  "DocumentTemplateId": 429,
+  "Name": "Okuneva, Lueilwitz and Goyette",
+  "Tooltip": "numquam",
+  "SaveInDb": 569,
+  "Filename": "rerum",
+  "DefaultOref": "quo",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 863,
-  "IntentId": 180,
+  "AutoeventId": 780,
+  "IntentId": 424,
   "IsDefaultPublished": true,
-  "Rank": 856,
-  "LoadTemplateFromPlugin": 207,
-  "MimeType": "harum",
+  "Rank": 362,
+  "LoadTemplateFromPlugin": 150,
+  "MimeType": "illum",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 694,
+  "DocumentTypeKey": 102,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "laury_wisoky@parker.biz",
+  "EmailSubject": "llewellyn@klein.biz",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kelsi.thompson@turnerkoss.com",
+  "SenderEmailAddress": "verla_kirlin@waelchi.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 385
     }
   }
 }

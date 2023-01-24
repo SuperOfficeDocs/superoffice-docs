@@ -89,12 +89,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 698,
-  "PrefDescId": 58,
-  "PrefValue": "qui",
-  "PrefShowValue": "illum",
-  "Description": "Managed exuding help-desk",
-  "IsBuiltin": false
+  "PrefDescLineId": 434,
+  "PrefDescId": 360,
+  "PrefValue": "rem",
+  "PrefShowValue": "aliquid",
+  "Description": "Automated grid-enabled complexity",
+  "IsBuiltin": true
 }
 ```
 
@@ -105,23 +105,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 876,
-  "PrefDescId": 901,
-  "PrefValue": "et",
-  "PrefShowValue": "id",
-  "Description": "Multi-layered bifurcated alliance",
+  "PrefDescLineId": 383,
+  "PrefDescId": 882,
+  "PrefValue": "corporis",
+  "PrefShowValue": "quo",
+  "Description": "Function-based coherent software",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 385
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

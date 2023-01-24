@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 284,
-    "Name": "Runolfsdottir, O'Conner and Beier",
-    "ToolTip": "Eum rerum quia voluptas ut dignissimos hic non.",
+    "Id": 8,
+    "Name": "Hammes, Legros and Lueilwitz",
+    "ToolTip": "Rem ab et officia fugit.",
     "Deleted": false,
-    "Rank": 380,
-    "Type": "id",
-    "ColorBlock": 65,
-    "IconHint": "nulla",
+    "Rank": 959,
+    "Type": "ipsam",
+    "ColorBlock": 545,
+    "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "1995-10-16T17:37:40.2545004+02:00",
+    "LastChanged": "2001-03-22T11:22:46.1160093+01:00",
     "ChildItems": [
       {
-        "Id": 302,
-        "Name": "Johns Inc and Sons",
-        "ToolTip": "Natus et est.",
-        "Deleted": true,
-        "Rank": 649,
-        "Type": "voluptatem",
-        "ColorBlock": 153,
-        "IconHint": "totam",
+        "Id": 614,
+        "Name": "Mraz-Yost",
+        "ToolTip": "Magni voluptates laudantium iure vel natus sed voluptas.",
+        "Deleted": false,
+        "Rank": 119,
+        "Type": "distinctio",
+        "ColorBlock": 465,
+        "IconHint": "voluptatum",
         "Selected": true,
-        "LastChanged": "2014-11-14T17:37:40.2545004+01:00",
+        "LastChanged": "2011-01-22T11:22:46.1160093+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "veniam",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "eligendi",
         "Hidden": false,
-        "FullName": "Mr. Ella Harris II"
+        "FullName": "Isaac Hamill"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Cecile Dickens"
+    "ExtraInfo": "autem",
+    "StyleHint": "id",
+    "Hidden": false,
+    "FullName": "Mrs. Ricardo Gloria Jakubowski DVM"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Fadel-Kuphal",
-    "ToolTip": "Id mollitia officia iste impedit qui molestias architecto.",
-    "Deleted": false,
-    "Rank": 200,
-    "Type": "voluptas",
-    "ColorBlock": 941,
-    "IconHint": "voluptatem",
+    "Id": 864,
+    "Name": "Schamberger LLC",
+    "ToolTip": "Ea consequatur rerum molestiae velit neque dolor.",
+    "Deleted": true,
+    "Rank": 649,
+    "Type": "et",
+    "ColorBlock": 189,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2002-07-14T17:37:40.2564719+02:00",
+    "LastChanged": "2000-03-16T11:22:46.1160093+01:00",
     "ChildItems": [
       {
-        "Id": 350,
-        "Name": "Fadel, Dach and O'Connell",
-        "ToolTip": "Illum unde vitae optio sed sunt.",
-        "Deleted": true,
-        "Rank": 374,
-        "Type": "officia",
-        "ColorBlock": 730,
-        "IconHint": "maiores",
+        "Id": 380,
+        "Name": "Senger LLC",
+        "ToolTip": "Omnis esse qui sunt veniam ad voluptas occaecati.",
+        "Deleted": false,
+        "Rank": 397,
+        "Type": "illo",
+        "ColorBlock": 861,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2005-02-15T17:37:40.2575002+01:00",
+        "LastChanged": "2017-05-24T11:22:46.1160093+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "molestiae",
-        "Hidden": false,
-        "FullName": "Mrs. Larue Macy Blanda",
+        "ExtraInfo": "quis",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Joshua Abshire",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 630
+            "FieldType": "System.Int32",
+            "FieldLength": 1000
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "vel",
+    "ExtraInfo": "omnis",
+    "StyleHint": "repellat",
     "Hidden": false,
-    "FullName": "Augustus Kozey",
+    "FullName": "Ms. Alvera Auer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 411
+        "FieldType": "System.Int32",
+        "FieldLength": 346
       }
     }
   }

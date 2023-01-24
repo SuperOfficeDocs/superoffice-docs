@@ -26,7 +26,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=consectetur
+GET /api/v1/List/DeliveryTerm/MDOItems?query=eos
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 418,
-    "Name": "Rippin-Ferry",
-    "ToolTip": "Soluta sed non.",
+    "Id": 60,
+    "Name": "Trantow LLC",
+    "ToolTip": "Et nam illo et voluptas sequi veritatis quidem.",
     "Deleted": false,
-    "Rank": 961,
-    "Type": "inventore",
+    "Rank": 577,
+    "Type": "praesentium",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Gutmann LLC",
-        "ToolTip": "Voluptatibus voluptas vel aliquam explicabo quia.",
+        "Id": 154,
+        "Name": "Hansen, Weber and Hagenes",
+        "ToolTip": "Quidem quo quasi voluptatem.",
         "Deleted": false,
-        "Rank": 885,
-        "Type": "et",
+        "Rank": 281,
+        "Type": "omnis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "saepe",
-        "ColorBlock": 163,
-        "ExtraInfo": "amet",
-        "StyleHint": "eveniet",
-        "FullName": "Maximus Raynor",
+        "IconHint": "sint",
+        "ColorBlock": 98,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "voluptatibus",
+        "FullName": "Sophie Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 306
+            "FieldLength": 768
           }
         }
       }
     ],
-    "IconHint": "fuga",
-    "ColorBlock": 183,
-    "ExtraInfo": "facilis",
-    "StyleHint": "vero",
-    "FullName": "Rahsaan Cummerata",
+    "IconHint": "rerum",
+    "ColorBlock": 969,
+    "ExtraInfo": "quis",
+    "StyleHint": "nostrum",
+    "FullName": "Clyde Kuphal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 567
+        "FieldType": "System.String",
+        "FieldLength": 450
       }
     }
   }

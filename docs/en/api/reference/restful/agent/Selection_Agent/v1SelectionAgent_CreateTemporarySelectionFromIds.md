@@ -113,15 +113,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    933,
-    486
+    821,
+    375
   ],
-  "TargetTableNumber": 247
+  "TargetTableNumber": 271
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive optimizing local area network",
-  "Postit": "sit",
+  "Description": "Upgradable zero administration solution",
+  "Postit": "eligendi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 23,
-  "IncludePerson": 144,
-  "MemberCount": 49,
-  "Name": "Pouros, Jacobson and Strosin",
-  "PostitTextId": 213,
-  "CreatedDate": "1995-09-07T17:37:19.1902416+02:00",
-  "SelectionId": 999,
-  "SoundEx": "tempora",
-  "Source": 719,
-  "TextId": 51,
-  "UpdatedDate": "2004-03-01T17:37:19.1902416+01:00",
-  "UpdatedCount": 654,
-  "Visibility": 611,
+  "GroupIdx": 996,
+  "IncludePerson": 424,
+  "MemberCount": 918,
+  "Name": "Boyle, Legros and Hyatt",
+  "PostitTextId": 429,
+  "CreatedDate": "1997-08-16T11:22:39.3207231+02:00",
+  "SelectionId": 889,
+  "SoundEx": "laboriosam",
+  "Source": 470,
+  "TextId": 566,
+  "UpdatedDate": "2008-02-10T11:22:39.3207231+01:00",
+  "UpdatedCount": 348,
+  "Visibility": 969,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 691,
-  "TargetTableName": "Hickle, Turcotte and Herzog",
+  "TargetTableNumber": 714,
+  "TargetTableName": "Mayert LLC",
   "Completed": false,
-  "LeftSelectionId": 530,
-  "RightSelectionId": 7,
+  "LeftSelectionId": 316,
+  "RightSelectionId": 94,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ullrich-Gibson",
-  "ShadowProviderName": "D'Amore, Schultz and Parisian",
-  "ChartKey": "excepturi",
-  "LastLoaded": "2002-03-03T17:37:19.1902416+01:00",
-  "LastLoadedBy": 907,
+  "MainProviderName": "Larson, Sanford and Abernathy",
+  "ShadowProviderName": "Senger Inc and Sons",
+  "ChartKey": "sed",
+  "LastLoaded": "2004-05-07T11:22:39.3207231+02:00",
+  "LastLoadedBy": 632,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-02-17T17:37:19.1902416+01:00",
-  "LastMembershipChangeBy": 579,
+  "LastMembershipChange": "2018-11-05T11:22:39.3207231+01:00",
+  "LastMembershipChangeBy": 973,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "maiores",
-  "MemberTabHeading": "sequi",
-  "MailingsProviderName": "Schuppe-Thiel",
-  "DashboardTileDefinitionId": 674,
+  "MainHeading": "voluptate",
+  "MemberTabHeading": "maiores",
+  "MailingsProviderName": "Fadel, Terry and Johnston",
+  "DashboardTileDefinitionId": 740,
   "VisibleFor": [
     {
-      "VisibleId": 258,
+      "VisibleId": 902,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 641
+          "FieldType": "System.Int32",
+          "FieldLength": 622
         }
       }
     },
     {
-      "VisibleId": 258,
+      "VisibleId": 902,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 641
+          "FieldType": "System.Int32",
+          "FieldLength": 622
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 443
+      "FieldType": "System.Int32",
+      "FieldLength": 408
     }
   }
 }

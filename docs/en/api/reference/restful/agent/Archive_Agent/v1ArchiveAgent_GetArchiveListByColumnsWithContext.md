@@ -107,51 +107,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Windler, Borer and Volkman",
+  "ProviderName": "Ratke, Johns and Keebler",
   "Columns": [
-    "voluptas",
-    "et"
+    "non",
+    "labore"
   ],
   "SortOrder": [
     {
-      "Name": "King-Anderson",
+      "Name": "Nicolas, Hayes and Mann",
       "Direction": "ASC"
     },
     {
-      "Name": "King-Anderson",
+      "Name": "Nicolas, Hayes and Mann",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Will-Berge",
-      "Operator": "libero",
+      "Name": "Brown, Becker and Willms",
+      "Operator": "qui",
       "Values": [
-        "necessitatibus",
-        "architecto"
+        "magni",
+        "et"
       ],
       "DisplayValues": [
-        "porro",
+        "vero",
         "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 774,
+      "InterParenthesis": 250,
       "InterOperator": "And",
-      "UniqueHash": 842
+      "UniqueHash": 430
     }
   ],
   "Entities": [
-    "eligendi",
-    "at"
+    "eius",
+    "aut"
   ],
-  "Page": 596,
-  "PageSize": 968,
-  "Context": "neque"
+  "Page": 775,
+  "PageSize": 462,
+  "Context": "omnis"
 }
 ```
 
@@ -163,23 +163,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Reinger, Kunze and McClure",
-    "PrimaryKey": 117,
+    "EntityName": "Pagac Group",
+    "PrimaryKey": 364,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "amet",
-        "TooltipHint": "earum",
-        "LinkHint": "voluptates"
+        "DisplayValue": "quia",
+        "TooltipHint": "odit",
+        "LinkHint": "doloribus"
       }
     },
-    "LinkHint": "cum",
-    "StyleHint": "facilis",
+    "LinkHint": "quaerat",
+    "StyleHint": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 746
+        "FieldLength": 605
       }
     }
   }

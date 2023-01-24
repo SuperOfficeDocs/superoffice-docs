@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 200,
-  "Name": "Schneider Inc and Sons",
+  "ScreenChooserId": 661,
+  "Name": "Bruen-Steuber",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ut",
-  "Source": "blanditiis",
-  "Registered": "1998-07-01T17:37:17.3262452+02:00",
-  "RegisteredAssociateId": 834,
-  "Updated": "2010-08-14T17:37:17.3262452+02:00",
-  "UpdatedAssociateId": 465
+  "UniqueIdentifier": "consequuntur",
+  "Source": "corporis",
+  "Registered": "1999-04-20T11:22:37.7742144+02:00",
+  "RegisteredAssociateId": 876,
+  "Updated": "1997-01-03T11:22:37.7742144+01:00",
+  "UpdatedAssociateId": 776
 }
 ```
 
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 596,
-  "Name": "Walter Group",
+  "ScreenChooserId": 964,
+  "Name": "Considine Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "quam",
-  "Source": "ea",
-  "Registered": "1997-05-04T17:37:17.3272446+02:00",
-  "RegisteredAssociateId": 308,
-  "Updated": "2012-12-18T17:37:17.3272446+01:00",
-  "UpdatedAssociateId": 128,
+  "Enabled": true,
+  "UniqueIdentifier": "dicta",
+  "Source": "id",
+  "Registered": "2021-02-28T11:22:37.7742144+01:00",
+  "RegisteredAssociateId": 140,
+  "Updated": "2017-12-03T11:22:37.7742144+01:00",
+  "UpdatedAssociateId": 122,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 655
+      "FieldLength": 353
     }
   }
 }

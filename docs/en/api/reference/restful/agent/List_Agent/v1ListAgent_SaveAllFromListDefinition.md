@@ -78,27 +78,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 370,
+  "UdListDefinitionId": 26,
   "Items": [
     {
-      "Id": 656,
-      "Name": "Moore LLC",
-      "Tooltip": "qui",
+      "Id": 349,
+      "Name": "Kuhlman, Witting and Cruickshank",
+      "Tooltip": "molestiae",
       "Deleted": false,
-      "UdListDefinitionId": 718,
-      "Rank": 364
+      "UdListDefinitionId": 686,
+      "Rank": 664
     },
     {
-      "Id": 656,
-      "Name": "Moore LLC",
-      "Tooltip": "qui",
+      "Id": 349,
+      "Name": "Kuhlman, Witting and Cruickshank",
+      "Tooltip": "molestiae",
       "Deleted": false,
-      "UdListDefinitionId": 718,
-      "Rank": 364
+      "UdListDefinitionId": 686,
+      "Rank": 664
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "Marquardt, Gerlach and Mraz",
-    "Tooltip": "in",
-    "Deleted": false,
-    "UdListDefinitionId": 764,
-    "Rank": 698,
+    "Id": 987,
+    "Name": "Cremin-Skiles",
+    "Tooltip": "eaque",
+    "Deleted": true,
+    "UdListDefinitionId": 277,
+    "Rank": 813,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldLength": 375
       }
     }
   }

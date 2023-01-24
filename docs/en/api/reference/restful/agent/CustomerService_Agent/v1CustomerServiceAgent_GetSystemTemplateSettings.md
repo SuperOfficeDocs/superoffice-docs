@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 454,
-  "CustomerCustomerReplyTemplateId": 790,
-  "CustomerPasswordTemplateId": 208,
-  "CustomerConfirmEmailTemplateId": 946,
-  "CustomerChatLogTemplateId": 859,
-  "NewLinkTemplateId": 206,
-  "HotlistNewMessageTemplateId": 655,
-  "HotlistTicketActivatedTemplateId": 615,
-  "UserTicketAlarmTemplateId": 110,
-  "HotlistTicketTakenOverTemplateId": 147,
-  "UserActiveTicketsTemplateId": 466,
-  "UserNewMessageTemplateId": 516,
-  "UserTicketActivatedTemplateId": 16,
-  "UserNewTicketTemplateId": 908,
-  "PublishKbQuestionTemplateId": 379,
-  "PublishKbAnswerTemplateId": 923,
-  "UserTicketTakenOverTemplateId": 326,
-  "PrintTicketTemplateId": 456,
-  "WeekStatTemplateId": 954,
-  "TicketAlarmHotlistTemplateId": 194,
-  "EmailAddresses": "michel@white.uk",
+  "CustomerNewCustomerTemplateId": 379,
+  "CustomerCustomerReplyTemplateId": 488,
+  "CustomerPasswordTemplateId": 987,
+  "CustomerConfirmEmailTemplateId": 226,
+  "CustomerChatLogTemplateId": 500,
+  "NewLinkTemplateId": 782,
+  "HotlistNewMessageTemplateId": 509,
+  "HotlistTicketActivatedTemplateId": 664,
+  "UserTicketAlarmTemplateId": 698,
+  "HotlistTicketTakenOverTemplateId": 226,
+  "UserActiveTicketsTemplateId": 1000,
+  "UserNewMessageTemplateId": 126,
+  "UserTicketActivatedTemplateId": 616,
+  "UserNewTicketTemplateId": 540,
+  "PublishKbQuestionTemplateId": 328,
+  "PublishKbAnswerTemplateId": 514,
+  "UserTicketTakenOverTemplateId": 374,
+  "PrintTicketTemplateId": 687,
+  "WeekStatTemplateId": 797,
+  "TicketAlarmHotlistTemplateId": 47,
+  "EmailAddresses": "ronaldo@kiehn.ca",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldType": "System.String",
+      "FieldLength": 601
     }
   }
 }

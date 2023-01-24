@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 112,
-    "Name": "Balistreri, Bahringer and Christiansen",
-    "Tooltip": "est",
+    "HeadingId": 226,
+    "Name": "VonRueden-Bahringer",
+    "Tooltip": "in",
     "Deleted": true,
-    "Rank": 164,
-    "UdListDefinitionId": 428
+    "Rank": 347,
+    "UdListDefinitionId": 381
   },
   {
-    "HeadingId": 112,
-    "Name": "Balistreri, Bahringer and Christiansen",
-    "Tooltip": "est",
+    "HeadingId": 226,
+    "Name": "VonRueden-Bahringer",
+    "Tooltip": "in",
     "Deleted": true,
-    "Rank": 164,
-    "UdListDefinitionId": 428
+    "Rank": 347,
+    "UdListDefinitionId": 381
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 447,
-    "Name": "Ward-Carter",
-    "Tooltip": "atque",
-    "Deleted": false,
-    "Rank": 315,
-    "UdListDefinitionId": 922,
+    "HeadingId": 362,
+    "Name": "Bins-Mayer",
+    "Tooltip": "amet",
+    "Deleted": true,
+    "Rank": 650,
+    "UdListDefinitionId": 991,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 841
+        "FieldType": "System.String",
+        "FieldLength": 685
       }
     }
   }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 599,
-    "Name": "Smith, Harris and Fisher",
-    "ToolTip": "Aut dolorem.",
-    "Deleted": false,
-    "Rank": 885,
-    "Type": "aut",
-    "ColorBlock": 127,
-    "IconHint": "cupiditate",
-    "Selected": true,
-    "LastChanged": "2015-04-08T17:37:39.9125004+02:00",
+    "Id": 395,
+    "Name": "Balistreri Inc and Sons",
+    "ToolTip": "Possimus voluptatum.",
+    "Deleted": true,
+    "Rank": 653,
+    "Type": "tempora",
+    "ColorBlock": 453,
+    "IconHint": "vero",
+    "Selected": false,
+    "LastChanged": "2013-03-07T11:22:45.8347706+01:00",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Kilback-Price",
-        "ToolTip": "Et tenetur eos minima.",
+        "Id": 858,
+        "Name": "Steuber-Collins",
+        "ToolTip": "Consequatur aut molestiae.",
         "Deleted": false,
-        "Rank": 131,
-        "Type": "aut",
-        "ColorBlock": 213,
-        "IconHint": "aut",
+        "Rank": 799,
+        "Type": "est",
+        "ColorBlock": 877,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "2016-10-31T17:37:39.9125004+01:00",
+        "LastChanged": "2012-09-11T11:22:45.8347706+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Reggie Waelchi"
+        "ExtraInfo": "porro",
+        "StyleHint": "quos",
+        "Hidden": true,
+        "FullName": "Edgar Ruecker"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "velit",
+    "ExtraInfo": "et",
+    "StyleHint": "beatae",
     "Hidden": false,
-    "FullName": "Hipolito Huels"
+    "FullName": "Rubie Cronin"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Pagac, Jacobi and Dooley",
-    "ToolTip": "Totam omnis officia similique ut.",
+    "Id": 40,
+    "Name": "Dickinson-Nolan",
+    "ToolTip": "Corrupti enim qui numquam ut praesentium architecto.",
     "Deleted": true,
-    "Rank": 697,
-    "Type": "sunt",
-    "ColorBlock": 798,
-    "IconHint": "dolore",
+    "Rank": 81,
+    "Type": "consequuntur",
+    "ColorBlock": 378,
+    "IconHint": "facere",
     "Selected": true,
-    "LastChanged": "2013-05-27T17:37:39.9135001+02:00",
+    "LastChanged": "2007-07-10T11:22:45.8347706+02:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Wunsch LLC",
-        "ToolTip": "Adipisci et fugit.",
+        "Id": 428,
+        "Name": "Lakin-Ferry",
+        "ToolTip": "Magnam soluta.",
         "Deleted": false,
-        "Rank": 498,
-        "Type": "reiciendis",
-        "ColorBlock": 40,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2009-11-08T17:37:39.9135001+01:00",
+        "Rank": 69,
+        "Type": "possimus",
+        "ColorBlock": 773,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2004-11-12T11:22:45.8347706+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "alias",
-        "Hidden": true,
-        "FullName": "Miss Ethyl Hilpert",
+        "ExtraInfo": "vero",
+        "StyleHint": "autem",
+        "Hidden": false,
+        "FullName": "Mr. Gerardo Eduardo Rempel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 236
+            "FieldLength": 289
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Mr. Orland Hand I",
+    "ExtraInfo": "et",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Ron Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldLength": 558
       }
     }
   }

@@ -83,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Eichmann, Murray and Welch",
-    "Delimiter": "dolores",
-    "Flags": "qui",
-    "TotalItems": 129,
-    "UnreadItems": 831,
-    "Subscribed": false,
-    "EmailFolderId": 937,
+    "Name": "Balistreri-Schamberger",
+    "Delimiter": "quibusdam",
+    "Flags": "incidunt",
+    "TotalItems": 282,
+    "UnreadItems": 640,
+    "Subscribed": true,
+    "EmailFolderId": 374,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 583
+        "FieldLength": 193
       }
     }
   }

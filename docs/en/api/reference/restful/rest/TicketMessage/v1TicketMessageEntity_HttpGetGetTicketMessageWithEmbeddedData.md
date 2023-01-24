@@ -95,7 +95,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,28 +105,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 329,
+  "EjMessageId": 636,
   "Ticket": null,
-  "CreatedAt": "2017-05-13T17:37:39.3623101+02:00",
+  "CreatedAt": "2011-06-15T11:22:45.3349401+02:00",
   "CreatedBy": null,
-  "Author": "necessitatibus",
+  "Author": "porro",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quibusdam",
-  "TimeSpent": 437,
-  "Body": "at",
-  "HtmlBody": "esse",
-  "EmailHeader": "janae@reichert.us",
-  "DebugInfo": "praesentium",
-  "MailSorter": "veritatis",
+  "MessageId": "vel",
+  "TimeSpent": 231,
+  "Body": "laudantium",
+  "HtmlBody": "omnis",
+  "EmailHeader": "griffin@bruen.us",
+  "DebugInfo": "pariatur",
+  "MailSorter": "quo",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "doloremque",
+  "SearchTitle": "reprehenderit",
   "MessageHeaders": [
     {
-      "Id": 809,
-      "Name": "Shanahan, Wintheiser and Jacobson",
-      "Value": "voluptas",
+      "Id": 69,
+      "Name": "O'Conner, Wisozk and Kirlin",
+      "Value": "optio",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -134,47 +134,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 879
+          "FieldLength": 834
         }
       }
     }
   ],
   "Important": false,
-  "Language": "atque",
-  "Sentiment": 337,
-  "SentimentConfidence": 46,
+  "Language": "eos",
+  "Sentiment": 755,
+  "SentimentConfidence": 55,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 487,
-      "Name": "O'Reilly-Weber",
-      "ContentType": "aut",
-      "AttSize": 826,
+      "AttachmentId": 177,
+      "Name": "Hammes, Cummerata and Schowalter",
+      "ContentType": "expedita",
+      "AttSize": 984,
       "InlineImage": true,
-      "ContentId": "in",
+      "ContentId": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 755
+          "FieldLength": 610
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "consectetur"
+    "ExtraFields1": "nemo",
+    "ExtraFields2": "fuga"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "beatae"
+    "CustomFields1": "aut",
+    "CustomFields2": "alias"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 60
+      "FieldType": "System.Int32",
+      "FieldLength": 882
     }
   }
 }

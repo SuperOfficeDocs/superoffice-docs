@@ -85,36 +85,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 164,
+  "HierarchyId": 398,
   "Domain": "Dashboards",
-  "Name": "Waelchi Inc and Sons",
-  "Fullname": "aut",
-  "ParentId": 69,
+  "Name": "Adams, Runte and Franecki",
+  "Fullname": "eaque",
+  "ParentId": 856,
   "Children": [
     {
-      "HierarchyId": 879,
+      "HierarchyId": 205,
       "Domain": "Dashboards",
-      "Name": "Towne LLC",
-      "Fullname": "voluptas",
-      "ParentId": 128,
+      "Name": "Moen, Zulauf and McClure",
+      "Fullname": "aut",
+      "ParentId": 308,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-03-28T17:37:38.8298601+02:00",
-      "RegisteredAssociateId": 445,
-      "Updated": "2004-07-26T17:37:38.8298601+02:00",
-      "UpdatedAssociateId": 767
+      "Registered": "2001-11-26T11:22:44.8818691+01:00",
+      "RegisteredAssociateId": 354,
+      "Updated": "2014-06-10T11:22:44.8818691+02:00",
+      "UpdatedAssociateId": 348
     }
   ],
-  "Registered": "2018-06-07T17:37:38.8298601+02:00",
-  "RegisteredAssociateId": 601,
-  "Updated": "2000-11-06T17:37:38.8298601+01:00",
-  "UpdatedAssociateId": 988
+  "Registered": "2018-05-06T11:22:44.8818691+02:00",
+  "RegisteredAssociateId": 666,
+  "Updated": "2007-03-17T11:22:44.8818691+01:00",
+  "UpdatedAssociateId": 813
 }
 ```
 
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 769,
+  "HierarchyId": 137,
   "Domain": "Dashboards",
-  "Name": "Hessel-Little",
-  "Fullname": "facere",
-  "ParentId": 228,
+  "Name": "Gutmann, Feest and Sauer",
+  "Fullname": "veniam",
+  "ParentId": 862,
   "Children": [
     {
-      "HierarchyId": 201,
+      "HierarchyId": 939,
       "Domain": "Dashboards",
-      "Name": "Schamberger-Pfeffer",
-      "Fullname": "doloremque",
-      "ParentId": 7,
+      "Name": "Stokes Group",
+      "Fullname": "illo",
+      "ParentId": 668,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-10-22T17:37:38.8298601+02:00",
-      "RegisteredAssociateId": 754,
-      "Updated": "2016-07-27T17:37:38.8298601+02:00",
-      "UpdatedAssociateId": 983,
+      "Registered": "2011-05-14T11:22:44.8818691+02:00",
+      "RegisteredAssociateId": 971,
+      "Updated": "2022-07-16T11:22:44.8818691+02:00",
+      "UpdatedAssociateId": 148,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldType": "System.String",
+          "FieldLength": 740
         }
       }
     }
   ],
-  "Registered": "2020-05-09T17:37:38.8298601+02:00",
-  "RegisteredAssociateId": 398,
-  "Updated": "2018-06-25T17:37:38.8298601+02:00",
-  "UpdatedAssociateId": 702,
+  "Registered": "2010-08-29T11:22:44.8818691+02:00",
+  "RegisteredAssociateId": 887,
+  "Updated": "2005-02-23T11:22:44.8818691+01:00",
+  "UpdatedAssociateId": 455,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldLength": 836
     }
   }
 }

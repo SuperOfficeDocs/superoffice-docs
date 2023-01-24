@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 820,
-  "Name": "Jones-Wiegand",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 169,
+  "WebPanelId": 988,
+  "Name": "Pfeffer, Abbott and Pfannerstill",
+  "Tooltip": "nobis",
+  "Deleted": true,
+  "Rank": 708,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "OnSatellite": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Durgan Group",
+  "WindowName": "Jaskolski-Raynor",
   "Url": "http://www.example.com/",
-  "ProgId": "libero",
-  "Icon": 664,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "qui",
+  "Icon": 804,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldLength": 220
     }
   }
 }

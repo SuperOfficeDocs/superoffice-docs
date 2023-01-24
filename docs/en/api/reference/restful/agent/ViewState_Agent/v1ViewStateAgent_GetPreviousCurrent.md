@@ -85,8 +85,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Schiller Group",
-  "Id": 170
+  "HistoryName": "Mann, Kessler and Rowe",
+  "Id": 13
 }
 ```
 
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 420,
-  "Id": 943,
-  "HistoryName": "Sporer Group",
-  "HistoryId": 71,
-  "AssociateId": 632,
-  "Name": "Heathcote-Berge",
-  "ItemInfo": "minima",
+  "Rank": 887,
+  "Id": 59,
+  "HistoryName": "Quitzon, Durgan and Beatty",
+  "HistoryId": 269,
+  "AssociateId": 773,
+  "Name": "Schmidt, Larson and Kuhic",
+  "ItemInfo": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldType": "System.String",
+      "FieldLength": 301
     }
   }
 }

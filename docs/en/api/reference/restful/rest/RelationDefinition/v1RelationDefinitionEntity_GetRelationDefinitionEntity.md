@@ -89,25 +89,25 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 476,
-  "Name": "Beatty, Bashirian and Kub",
-  "Tooltip": "laudantium",
-  "PassiveText": "voluptatem",
-  "Deleted": false,
-  "Rank": 566,
+  "ReldefId": 265,
+  "Name": "Mosciski, Kutch and Tromp",
+  "Tooltip": "nisi",
+  "PassiveText": "molestiae",
+  "Deleted": true,
+  "Rank": 713,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldType": "System.String",
+      "FieldLength": 368
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

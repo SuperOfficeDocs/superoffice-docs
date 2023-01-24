@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 392,
-  "Name": "Wiza, Dickens and Hamill",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "Rank": 205,
+  "Id": 108,
+  "Name": "Graham-Kassulke",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 629,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolor",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "nihil",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 369,
-  "Name": "Stehr Inc and Sons",
-  "Tooltip": "qui",
+  "Id": 97,
+  "Name": "Thompson Group",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 648,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "Rank": 168,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "consectetur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 399
     }
   }
 }

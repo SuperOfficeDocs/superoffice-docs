@@ -76,7 +76,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Email": null,
-  "FolderId": 672,
+  "FolderId": 745,
   "StripAttachments": true
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"curtis.pollich@nolan.ca"
+"rachael@halvorson.us"
 ```

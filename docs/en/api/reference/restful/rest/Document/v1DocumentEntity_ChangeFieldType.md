@@ -103,7 +103,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 859,
-  "ColumnId": 373,
-  "FieldDefault": "ut",
-  "FieldHeight": 192,
-  "FieldLabel": "eos",
-  "FieldLeft": 752,
-  "FieldTop": 44,
+  "UDefFieldId": 235,
+  "ColumnId": 796,
+  "FieldDefault": "modi",
+  "FieldHeight": 38,
+  "FieldLabel": "pariatur",
+  "FieldLeft": 201,
+  "FieldTop": 107,
   "FieldType": "Checkbox",
-  "FieldWidth": 307,
-  "FormatMask": "ipsum",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 15,
-  "LabelLeft": 918,
-  "LabelTop": 974,
-  "LabelWidth": 290,
-  "LastVersionId": 326,
-  "ListTableId": 766,
+  "FieldWidth": 491,
+  "FormatMask": "recusandae",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 870,
+  "LabelLeft": 825,
+  "LabelTop": 657,
+  "LabelWidth": 693,
+  "LastVersionId": 394,
+  "ListTableId": 499,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 820,
-  "ProgId": "dicta",
+  "Page1LineNo": 448,
+  "ProgId": "enim",
   "IsReadOnly": true,
-  "ShortLabel": "corrupti",
-  "TabOrder": 30,
-  "TextLength": 662,
-  "Tooltip": "maiores",
-  "UdefIdentity": 103,
-  "UDListDefinitionId": 330,
+  "ShortLabel": "illo",
+  "TabOrder": 174,
+  "TextLength": 59,
+  "Tooltip": "quis",
+  "UdefIdentity": 854,
+  "UDListDefinitionId": 695,
   "Justification": "Center",
-  "Version": 914,
-  "TemplateVariableName": "Rippin-Hoeger",
+  "Version": 351,
+  "TemplateVariableName": "Little-Kuphal",
   "HasBeenPublished": false,
-  "MdoListName": "Harber, O'Keefe and Hagenes",
+  "MdoListName": "Leuschke-O'Keefe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 485
+      "FieldLength": 156
     }
   }
 }

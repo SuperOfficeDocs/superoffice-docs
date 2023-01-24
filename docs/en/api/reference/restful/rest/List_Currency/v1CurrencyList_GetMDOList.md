@@ -26,7 +26,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=sed
+GET /api/v1/List/Currency/MDOItems?query=alias
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 506,
-    "Name": "Lemke-Fay",
-    "ToolTip": "Dolorum quo sint et quidem blanditiis sunt aut.",
-    "Deleted": false,
-    "Rank": 418,
-    "Type": "aut",
+    "Id": 357,
+    "Name": "Shields, Murray and Barrows",
+    "ToolTip": "Maxime vitae sed quo at minus.",
+    "Deleted": true,
+    "Rank": 121,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 292,
-        "Name": "Lubowitz LLC",
-        "ToolTip": "Rem qui eos illo et molestiae.",
-        "Deleted": false,
-        "Rank": 785,
-        "Type": "quo",
+        "Id": 577,
+        "Name": "Wilderman-Beatty",
+        "ToolTip": "Tempore praesentium at quos blanditiis quaerat.",
+        "Deleted": true,
+        "Rank": 371,
+        "Type": "omnis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 611,
-        "ExtraInfo": "rerum",
-        "StyleHint": "aut",
-        "FullName": "Fabiola Friesen",
+        "IconHint": "aut",
+        "ColorBlock": 179,
+        "ExtraInfo": "laborum",
+        "StyleHint": "dolor",
+        "FullName": "Wendell Parisian II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 506
+            "FieldType": "System.Int32",
+            "FieldLength": 233
           }
         }
       }
     ],
-    "IconHint": "fugiat",
-    "ColorBlock": 716,
-    "ExtraInfo": "non",
-    "StyleHint": "aut",
-    "FullName": "Ms. Emilia Hills I",
+    "IconHint": "similique",
+    "ColorBlock": 825,
+    "ExtraInfo": "fugiat",
+    "StyleHint": "repudiandae",
+    "FullName": "Prof. Marquise Efren Schuster II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldLength": 854
       }
     }
   }

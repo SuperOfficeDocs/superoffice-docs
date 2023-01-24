@@ -60,7 +60,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 74,
-  "AssociateId": 641,
-  "Caption": "fugiat",
+  "DashboardId": 150,
+  "AssociateId": 571,
+  "Caption": "magnam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 577,
-      "Caption": "reiciendis",
-      "Description": "Open-architected maximized attitude",
-      "ChartName": "Bartoletti-Dibbert",
-      "ChartId": "ut",
+      "DashboardTileId": 997,
+      "Caption": "est",
+      "Description": "Synergized fresh-thinking standardization",
+      "ChartName": "Lynch-Gleason",
+      "ChartId": "suscipit",
       "IsDefault": true,
-      "AssociateId": 577,
-      "GroupId": 756,
-      "SelectionId": 619,
-      "Config": "et",
+      "AssociateId": 464,
+      "GroupId": 417,
+      "SelectionId": 105,
+      "Config": "laborum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 613
+          "FieldType": "System.Int32",
+          "FieldLength": 257
         }
       }
     }
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 557
+      "FieldType": "System.Int32",
+      "FieldLength": 778
     }
   }
 }

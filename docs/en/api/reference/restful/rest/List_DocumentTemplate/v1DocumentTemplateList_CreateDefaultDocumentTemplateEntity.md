@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,37 +88,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 55,
-  "Name": "Rippin, Donnelly and Torphy",
-  "Tooltip": "enim",
-  "SaveInDb": 983,
-  "Filename": "amet",
-  "DefaultOref": "omnis",
+  "DocumentTemplateId": 718,
+  "Name": "Grant, Goldner and Vandervort",
+  "Tooltip": "magnam",
+  "SaveInDb": 20,
+  "Filename": "dolorem",
+  "DefaultOref": "vitae",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 479,
-  "IntentId": 181,
-  "IsDefaultPublished": true,
-  "Rank": 703,
-  "LoadTemplateFromPlugin": 764,
-  "MimeType": "rerum",
+  "AutoeventId": 618,
+  "IntentId": 555,
+  "IsDefaultPublished": false,
+  "Rank": 230,
+  "LoadTemplateFromPlugin": 206,
+  "MimeType": "qui",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 750,
+  "DocumentTypeKey": 57,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "marcelina@sporer.biz",
+  "EmailSubject": "kurtis@auerrath.us",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dangelo.mckenzie@oconnellschmidt.com",
+  "SenderEmailAddress": "amani@schummbrekke.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 634
     }
   }
 }

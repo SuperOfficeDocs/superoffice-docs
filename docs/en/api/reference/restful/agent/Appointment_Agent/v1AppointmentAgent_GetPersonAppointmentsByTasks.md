@@ -127,18 +127,18 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 162,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2007-05-25T17:37:16.2172417+02:00",
-  "EndTime": "2012-06-03T17:37:16.2172417+02:00",
-  "Count": 592,
+  "PersonId": 886,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2012-06-16T11:22:36.9150392+02:00",
+  "EndTime": "2020-02-01T11:22:36.9150392+01:00",
+  "Count": 292,
   "TaskIds": [
-    942,
-    812
+    240,
+    86
   ]
 }
 ```
@@ -151,61 +151,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 312,
-    "StartDate": "2006-08-14T17:37:16.2222413+02:00",
-    "EndDate": "2020-10-29T17:37:16.2222413+01:00",
+    "AppointmentId": 290,
+    "StartDate": "2007-03-12T11:22:36.9150392+01:00",
+    "EndDate": "2002-10-06T11:22:36.9150392+02:00",
     "Type": "BookingForChecklist",
-    "Task": "facere",
-    "AssociateFullName": "Adrianna Gottlieb",
-    "ContactName": "Feeney Group",
-    "Description": "Function-based leading edge throughput",
-    "PersonFullName": "Rudy Corwin",
-    "PersonId": 449,
-    "ContactId": 60,
-    "ProjectId": 456,
-    "ProjectName": "Ratke Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 139,
-    "ColorIndex": 41,
+    "Task": "rerum",
+    "AssociateFullName": "Vito Lueilwitz",
+    "ContactName": "Hoeger, Hickle and Ebert",
+    "Description": "Fully-configurable empowering implementation",
+    "PersonFullName": "Chadd Terry",
+    "PersonId": 1001,
+    "ContactId": 390,
+    "ProjectId": 477,
+    "ProjectName": "Collier, Mills and Gibson",
+    "IsPublished": true,
+    "AssociateId": 329,
+    "ColorIndex": 290,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 802,
-    "PriorityName": "Terry Group",
+    "PriorityId": 677,
+    "PriorityName": "Legros LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2006-08-30T17:37:16.2222413+02:00",
+    "ActiveDate": "2004-07-03T11:22:36.9150392+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-03-09T17:37:16.2222413+01:00",
-    "RecurringEndDate": "2001-02-07T17:37:16.2222413+01:00",
-    "MotherId": 87,
-    "AssignedBy": 880,
-    "AssignedByFullName": "Emmet Lakin IV",
+    "RecurringStartDate": "2006-05-06T11:22:36.9150392+02:00",
+    "RecurringEndDate": "2019-06-16T11:22:36.9150392+02:00",
+    "MotherId": 206,
+    "AssignedBy": 164,
+    "AssignedByFullName": "Willie Bayer",
     "RejectReason": "",
-    "Location": "aut",
-    "AlarmLeadTime": "vel",
-    "SaleId": 316,
-    "SaleName": "Sawayn LLC",
-    "AssociateName": "Flatley, Pacocha and Lesch",
-    "CreatedDate": "2002-11-20T17:37:16.2232407+01:00",
-    "CreatedBy": "esse",
-    "CreatedByFullName": "Rebekah Stehr",
-    "CreatedByAssociateId": 752,
+    "Location": "deleniti",
+    "AlarmLeadTime": "iure",
+    "SaleId": 24,
+    "SaleName": "Erdman, Bernhard and Schmeler",
+    "AssociateName": "Sawayn Group",
+    "CreatedDate": "2006-07-01T11:22:36.9150392+02:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Dr. Armand McKenzie",
+    "CreatedByAssociateId": 651,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 197
+        "FieldType": "System.Int32",
+        "FieldLength": 411
       }
     }
   }

@@ -102,30 +102,30 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 41,
-  "Name": "Funk, Abernathy and Kulas",
+  "WebhookId": 277,
+  "Name": "Spencer-Brekke",
   "Events": [
-    "molestiae",
-    "et"
+    "qui",
+    "cumque"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "corrupti",
+  "Secret": "ullam",
   "State": "Active",
-  "Type": "aspernatur",
+  "Type": "dolor",
   "Headers": {
-    "Headers1": "nesciunt",
-    "Headers2": "corrupti"
+    "Headers1": "et",
+    "Headers2": "quo"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-01-04T17:37:39.6044312+01:00",
+  "Registered": "1996-11-10T11:22:45.5379661+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-10-07T17:37:39.6044312+02:00",
+  "Updated": "2021-01-12T11:22:45.5379661+01:00",
   "UpdatedAssociate": null
 }
 ```
@@ -137,26 +137,26 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 986,
-  "Name": "Rau, Sporer and Friesen",
+  "WebhookId": 179,
+  "Name": "Breitenberg-Kutch",
   "Events": [
-    "et",
-    "beatae"
+    "reprehenderit",
+    "repudiandae"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptas",
+  "Secret": "in",
   "State": "Active",
-  "Type": "rerum",
+  "Type": "sapiente",
   "Headers": {
-    "Headers1": "libero",
-    "Headers2": "fugit"
+    "Headers1": "iure",
+    "Headers2": "sit"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1999-05-29T17:37:39.6064311+02:00",
+  "Registered": "2014-03-17T11:22:45.5536344+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2010-07-25T17:37:39.6064311+02:00",
+  "Updated": "2002-07-31T11:22:45.5536344+02:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",

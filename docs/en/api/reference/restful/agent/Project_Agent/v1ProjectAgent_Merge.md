@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceProjectId": 725,
-  "DestinationProjectId": 147,
+  "SourceProjectId": 174,
+  "DestinationProjectId": 319,
   "ReplaceEmptyFieldsOnDestination": false
 }
 ```

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 687,
-  "Name": "Gleason, Larson and Cassin",
-  "CreatedDate": "2016-06-29T17:37:38.8158633+02:00",
-  "UpdatedDate": "2015-08-05T17:37:38.8158633+02:00",
-  "AssociateFullName": "Dangelo Eichmann PhD",
-  "CreatedBy": "ipsam",
-  "UpdatedBy": "blanditiis",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 411
+  "ForeignDeviceId": 990,
+  "Name": "Cartwright-Yost",
+  "CreatedDate": "2000-08-29T11:22:44.8662479+02:00",
+  "UpdatedDate": "1996-12-08T11:22:44.8662479+01:00",
+  "AssociateFullName": "Caleigh Emard",
+  "CreatedBy": "aut",
+  "UpdatedBy": "repellendus",
+  "DeviceIdentifier": "accusamus",
+  "ForeignAppId": 460
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 599,
-  "Name": "Schmidt-Olson",
-  "CreatedDate": "1998-06-29T17:37:38.8168599+02:00",
-  "UpdatedDate": "2022-12-19T17:37:38.8168599+01:00",
-  "AssociateFullName": "Yazmin Gusikowski",
-  "CreatedBy": "omnis",
-  "UpdatedBy": "iure",
-  "DeviceIdentifier": "aliquam",
-  "ForeignAppId": 693,
+  "ForeignDeviceId": 16,
+  "Name": "Strosin Group",
+  "CreatedDate": "1999-11-10T11:22:44.8818691+01:00",
+  "UpdatedDate": "2015-09-16T11:22:44.8818691+02:00",
+  "AssociateFullName": "Bradley Schaefer",
+  "CreatedBy": "necessitatibus",
+  "UpdatedBy": "nemo",
+  "DeviceIdentifier": "nesciunt",
+  "ForeignAppId": 38,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 930
     }
   }
 }

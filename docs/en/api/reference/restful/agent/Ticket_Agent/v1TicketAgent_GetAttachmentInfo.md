@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 448
+  "TicketMessageEntityId": 886
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 531,
-    "Name": "Prosacco-Feil",
-    "ContentType": "sequi",
-    "AttSize": 32,
+    "AttachmentId": 397,
+    "Name": "McClure LLC",
+    "ContentType": "dicta",
+    "AttSize": 31,
     "InlineImage": false,
-    "ContentId": "natus",
+    "ContentId": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 946
+        "FieldLength": 166
       }
     }
   }

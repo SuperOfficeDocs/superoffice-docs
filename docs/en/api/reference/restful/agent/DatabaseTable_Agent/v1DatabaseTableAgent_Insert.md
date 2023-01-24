@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Herzog-Reynolds",
+  "TableName": "Schultz-Abshire",
   "Columns": [
-    "veritatis",
-    "nisi"
+    "aut",
+    "qui"
   ],
   "Data": [
     [
@@ -108,41 +108,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "officiis",
-  "Inserts": 999,
-  "Updates": 763,
-  "Deletes": 882,
+  "Success": true,
+  "Message": "corporis",
+  "Inserts": 593,
+  "Updates": 779,
+  "Deletes": 551,
   "RowStatus": [
     {
-      "PrimaryKey": 958,
+      "PrimaryKey": 201,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "enim",
-        "non"
+        "eaque",
+        "nam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldType": "System.String",
+          "FieldLength": 70
         }
       }
     },
     {
-      "PrimaryKey": 958,
+      "PrimaryKey": 201,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "enim",
-        "non"
+        "eaque",
+        "nam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldType": "System.String",
+          "FieldLength": 70
         }
       }
     }
@@ -151,7 +151,7 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
+      "FieldType": "System.String",
       "FieldLength": 796
     }
   }

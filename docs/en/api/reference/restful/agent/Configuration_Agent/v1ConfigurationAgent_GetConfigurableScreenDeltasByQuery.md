@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 846,
-    "Name": "Eichmann-Bradtke",
-    "Description": "Open-architected modular methodology",
-    "DeltaJson": "ut",
+    "ConfigurableScreenDeltaId": 253,
+    "Name": "Robel-Bergnaum",
+    "Description": "Adaptive dedicated focus group",
+    "DeltaJson": "consectetur",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "officiis",
-    "UpdatedDate": "2010-07-23T17:37:17.1272438+02:00",
-    "CreatedDate": "1996-07-16T17:37:17.1272438+02:00",
+    "RecipeId": "enim",
+    "UpdatedDate": "2005-01-28T11:22:37.6179991+01:00",
+    "CreatedDate": "2011-08-26T11:22:37.6179991+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      432,
-      247
+      923,
+      663
     ],
-    "AppliesToKey": "quaerat",
+    "AppliesToKey": "nam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 810
+        "FieldLength": 420
       }
     }
   }

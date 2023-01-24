@@ -120,7 +120,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -135,88 +135,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 280,
-  "ERPQuoteLineKey": "sunt",
-  "QuoteAlternativeId": 867,
-  "ERPProductKey": "rerum",
+  "QuoteLineId": 759,
+  "ERPQuoteLineKey": "vero",
+  "QuoteAlternativeId": 655,
+  "ERPProductKey": "aut",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 13379.046,
-  "DeliveredQuantity": 12128.58,
-  "Rank": 696,
-  "Name": "Bogisich, Hane and Lesch",
-  "Description": "Customizable uniform support",
-  "Code": "odit",
-  "QuantityUnit": "fugit",
-  "PriceUnit": "quis",
-  "ItemNumber": "1098359",
+  "Quantity": 29923.432,
+  "DeliveredQuantity": 1943.08,
+  "Rank": 382,
+  "Name": "Bode LLC",
+  "Description": "Cross-group 24/7 neural-net",
+  "Code": "eum",
+  "QuantityUnit": "suscipit",
+  "PriceUnit": "quos",
+  "ItemNumber": "619486",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eaque",
-  "ProductTypeKey": "autem",
-  "Supplier": "qui",
-  "SupplierCode": "quasi",
-  "Thumbnail": "sit",
-  "VATInfo": "eaque",
-  "VAT": 24717.858,
-  "UnitCost": 10583.518,
-  "UnitMinimumPrice": 4152.55,
-  "UnitListPrice": 8032.442,
+  "ProductFamilyKey": "officiis",
+  "ProductTypeKey": "atque",
+  "Supplier": "repudiandae",
+  "SupplierCode": "dolorem",
+  "Thumbnail": "non",
+  "VATInfo": "ut",
+  "VAT": 5283.924,
+  "UnitCost": 12097.24,
+  "UnitMinimumPrice": 4387.5999999999995,
+  "UnitListPrice": 9085.466,
   "ExtraInfo": [
     {
-      "Name": "Jaskolski LLC",
-      "Value": "et",
+      "Name": "Bartoletti-Cruickshank",
+      "Value": "animi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldLength": 115
         }
       }
     },
     {
-      "Name": "Jaskolski LLC",
-      "Value": "et",
+      "Name": "Bartoletti-Cruickshank",
+      "Value": "animi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldLength": 115
         }
       }
     }
   ],
-  "RawExtraInfo": "debitis",
+  "RawExtraInfo": "doloremque",
   "IsSubscription": false,
-  "SubscriptionUnit": "quo",
-  "SubscriptionQuantity": 13432.323999999999,
-  "SubscriptionStart": "2010-02-12T17:37:18.7692404+01:00",
-  "ERPDiscountPercent": 3801.542,
-  "ERPDiscountAmount": 7819.33,
-  "DiscountPercent": 27093.43,
-  "DiscountAmount": 8894.292,
+  "SubscriptionUnit": "quisquam",
+  "SubscriptionQuantity": 6474.844,
+  "SubscriptionStart": "2017-02-11T11:22:38.9458129+01:00",
+  "ERPDiscountPercent": 13332.036,
+  "ERPDiscountAmount": 2917.754,
+  "DiscountPercent": 10135.356,
+  "DiscountAmount": 3287.566,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 9248.434,
-  "EarningAmount": 6957.48,
-  "SubTotal": 18249.282,
-  "TotalPrice": 15911.318,
-  "Rights": "hic",
-  "Rule": "vero",
-  "ExtraField1": "sunt",
-  "ExtraField2": "praesentium",
-  "ExtraField3": "corporis",
-  "ExtraField4": "iure",
-  "ExtraField5": "ipsum",
+  "EarningPercent": 4538.032,
+  "EarningAmount": 2817.466,
+  "SubTotal": 14949.18,
+  "TotalPrice": 9414.536,
+  "Rights": "quas",
+  "Rule": "atque",
+  "ExtraField1": "veritatis",
+  "ExtraField2": "ad",
+  "ExtraField3": "aut",
+  "ExtraField4": "rem",
+  "ExtraField5": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldLength": 171
     }
   }
 }

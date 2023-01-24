@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Weimann-Donnelly",
-  "FieldName": "Yundt LLC"
+  "TableName": "Collins, Funk and Abshire",
+  "FieldName": "Mraz-Haag"
 }
 ```
 
@@ -100,17 +100,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Kertzmann Inc and Sons",
-  "DisplayName": "Denesik LLC",
-  "Description": "Function-based well-modulated access",
-  "ShortLabel": "earum",
+  "FieldName": "Bogisich Inc and Sons",
+  "DisplayName": "Bernhard Group",
+  "Description": "Seamless exuding complexity",
+  "ShortLabel": "debitis",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 996,
-  "TemplateVariableName": "Mohr, Rodriguez and Kuhn"
+  "Rank": 82,
+  "TemplateVariableName": "Cartwright, Feil and Wisoky"
 }
 ```

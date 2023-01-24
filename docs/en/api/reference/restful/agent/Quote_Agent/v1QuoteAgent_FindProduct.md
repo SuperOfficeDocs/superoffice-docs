@@ -107,13 +107,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 188,
-  "UserInput": "facere",
-  "PriceListKey": "incidunt"
+  "QuoteAlternativeId": 411,
+  "UserInput": "aut",
+  "PriceListKey": "quis"
 }
 ```
 
@@ -125,73 +125,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 260,
-    "ERPProductKey": "facilis",
-    "ERPPriceListKey": "cum",
-    "Name": "Maggio-Cummerata",
-    "Description": "Optional coherent conglomeration",
+    "ProductId": 907,
+    "ERPProductKey": "nulla",
+    "ERPPriceListKey": "numquam",
+    "Name": "Rowe-Leffler",
+    "Description": "Persistent demand-driven extranet",
     "Code": "quis",
-    "PriceUnit": "qui",
-    "QuantityUnit": "nihil",
-    "IsSubscription": true,
-    "SubscriptionUnit": "asperiores",
-    "DefaultSubscriptionQuantity": 5716.416,
-    "ItemNumber": "911496",
+    "PriceUnit": "eos",
+    "QuantityUnit": "earum",
+    "IsSubscription": false,
+    "SubscriptionUnit": "molestias",
+    "DefaultSubscriptionQuantity": 28557.007999999998,
+    "ItemNumber": "1291662",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "sed",
-    "ProductTypeKey": "accusantium",
-    "VAT": 28431.647999999997,
-    "VATInfo": "veritatis",
-    "UnitCost": 27648.147999999997,
-    "UnitMinimumPrice": 16788.838,
-    "UnitListPrice": 22812.386,
+    "ProductFamilyKey": "omnis",
+    "ProductTypeKey": "sed",
+    "VAT": 9072.93,
+    "VATInfo": "quisquam",
+    "UnitCost": 20283.248,
+    "UnitMinimumPrice": 17356.092,
+    "UnitListPrice": 25833.561999999998,
     "InAssortment": true,
-    "Supplier": "vitae",
-    "SupplierCode": "qui",
-    "Rights": "et",
-    "Rule": "aliquam",
+    "Supplier": "quo",
+    "SupplierCode": "voluptas",
+    "Rights": "iste",
+    "Rule": "illo",
     "ExtraInfo": [
       {
-        "Name": "Wunsch Group",
-        "Value": "rerum",
+        "Name": "Metz-Cummings",
+        "Value": "qui",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 670
+            "FieldLength": 394
           }
         }
       },
       {
-        "Name": "Wunsch Group",
-        "Value": "rerum",
+        "Name": "Metz-Cummings",
+        "Value": "qui",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 670
+            "FieldLength": 394
           }
         }
       }
     ],
-    "RawExtraInfo": "sit",
-    "ExtraField1": "et",
-    "ExtraField2": "aliquam",
-    "ExtraField3": "molestias",
-    "ExtraField4": "magnam",
-    "ExtraField5": "fugiat",
-    "InStock": 21452.23,
+    "RawExtraInfo": "temporibus",
+    "ExtraField1": "corporis",
+    "ExtraField2": "aut",
+    "ExtraField3": "pariatur",
+    "ExtraField4": "eveniet",
+    "ExtraField5": "est",
+    "InStock": 2695.24,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldLength": 924
       }
     }
   }

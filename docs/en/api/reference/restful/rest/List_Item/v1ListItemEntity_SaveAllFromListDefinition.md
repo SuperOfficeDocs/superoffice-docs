@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 293,
-    "Name": "Lesch-McClure",
-    "Tooltip": "et",
+    "Id": 195,
+    "Name": "Wiza, Hegmann and Kuvalis",
+    "Tooltip": "sunt",
     "Deleted": true,
-    "UdListDefinitionId": 654,
-    "Rank": 465
+    "UdListDefinitionId": 699,
+    "Rank": 505
   },
   {
-    "Id": 293,
-    "Name": "Lesch-McClure",
-    "Tooltip": "et",
+    "Id": 195,
+    "Name": "Wiza, Hegmann and Kuvalis",
+    "Tooltip": "sunt",
     "Deleted": true,
-    "UdListDefinitionId": 654,
-    "Rank": 465
+    "UdListDefinitionId": 699,
+    "Rank": 505
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Bergstrom Group",
-    "Tooltip": "asperiores",
-    "Deleted": false,
-    "UdListDefinitionId": 829,
-    "Rank": 847,
+    "Id": 436,
+    "Name": "Koepp LLC",
+    "Tooltip": "quos",
+    "Deleted": true,
+    "UdListDefinitionId": 502,
+    "Rank": 350,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldLength": 586
       }
     }
   }

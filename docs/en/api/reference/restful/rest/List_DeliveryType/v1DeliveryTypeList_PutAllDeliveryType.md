@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 691,
-    "Name": "Blick, Ratke and Runolfsdottir",
-    "Tooltip": "inventore",
+    "Id": 103,
+    "Name": "Hayes LLC",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "UdListDefinitionId": 822,
-    "Rank": 405
+    "UdListDefinitionId": 936,
+    "Rank": 620
   },
   {
-    "Id": 691,
-    "Name": "Blick, Ratke and Runolfsdottir",
-    "Tooltip": "inventore",
+    "Id": 103,
+    "Name": "Hayes LLC",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "UdListDefinitionId": 822,
-    "Rank": 405
+    "UdListDefinitionId": 936,
+    "Rank": 620
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 280,
-    "Name": "Sporer LLC",
-    "Tooltip": "ut",
+    "Id": 492,
+    "Name": "Douglas Inc and Sons",
+    "Tooltip": "quis",
     "Deleted": false,
-    "UdListDefinitionId": 538,
-    "Rank": 602,
+    "UdListDefinitionId": 928,
+    "Rank": 120,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 10
       }
     }
   }

@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=adipisci
-GET /api/v1/Script?$top=788
-GET /api/v1/Script?$skip=175
+GET /api/v1/Script?$entities=voluptas
+GET /api/v1/Script?$top=927
+GET /api/v1/Script?$skip=1001
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=officia
+GET /api/v1/Script?$context=quibusdam
 GET /api/v1/Script?$format=JSON
-GET /api/v1/Script?$jsonSafe=False
+GET /api/v1/Script?$jsonSafe=True
 GET /api/v1/Script?$output=Display
 ```
 
@@ -128,21 +128,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nulla",
+  "odata.nextLink": "voluptatem",
   "value": [
     {
-      "PrimaryKey": 2299,
-      "EntityName": "sale",
-      "saleId": 2299,
-      "contactId": 8019,
-      "name": "Hermann Group"
+      "PrimaryKey": 5068,
+      "EntityName": "person",
+      "personId": 5068,
+      "fullName": "Giovanna Rippin"
     },
     {
-      "PrimaryKey": 8049,
-      "EntityName": "sale",
-      "saleId": 8049,
-      "contactId": 315,
-      "name": "Ankunding Group"
+      "PrimaryKey": 7127,
+      "EntityName": "person",
+      "personId": 7127,
+      "fullName": "Nick Harvey"
     }
   ]
 }

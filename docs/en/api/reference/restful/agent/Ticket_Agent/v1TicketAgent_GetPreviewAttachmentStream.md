@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 583
+  "AttachmentId": 891
 }
 ```
 
@@ -92,16 +92,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Corwin Group",
-  "Type": "repellendus",
-  "Size": 273,
+  "Name": "Wilkinson LLC",
+  "Type": "ut",
+  "Size": 948,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldType": "System.String",
+      "FieldLength": 753
     }
   }
 }

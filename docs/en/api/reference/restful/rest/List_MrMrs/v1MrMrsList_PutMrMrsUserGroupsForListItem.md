@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Hahn-Lynch",
-    "ToolTip": "Inventore et.",
+    "Id": 142,
+    "Name": "Fay-Bergnaum",
+    "ToolTip": "Velit reiciendis dolorem dolorem tempora.",
     "Deleted": true,
-    "Rank": 950,
-    "Type": "perspiciatis",
-    "ColorBlock": 560,
-    "IconHint": "ipsam",
+    "Rank": 794,
+    "Type": "dolores",
+    "ColorBlock": 924,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "1996-07-25T17:37:40.0575016+02:00",
+    "LastChanged": "2006-07-16T11:22:45.9441645+02:00",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "O'Kon-Little",
-        "ToolTip": "Veniam qui vel et perferendis porro voluptatem libero.",
-        "Deleted": false,
-        "Rank": 280,
-        "Type": "repellendus",
-        "ColorBlock": 197,
-        "IconHint": "deserunt",
-        "Selected": true,
-        "LastChanged": "1997-06-30T17:37:40.0584727+02:00",
+        "Id": 294,
+        "Name": "Lowe-Bode",
+        "ToolTip": "Et corrupti ullam.",
+        "Deleted": true,
+        "Rank": 871,
+        "Type": "aut",
+        "ColorBlock": 66,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "1999-12-22T11:22:45.9441645+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "dolorem",
-        "Hidden": true,
-        "FullName": "Laurence Kiara VonRueden MD"
+        "ExtraInfo": "quis",
+        "StyleHint": "aliquid",
+        "Hidden": false,
+        "FullName": "Prof. Leif Brooklyn Bartoletti"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "totam",
-    "Hidden": false,
-    "FullName": "Liam Hermann"
+    "ExtraInfo": "laborum",
+    "StyleHint": "at",
+    "Hidden": true,
+    "FullName": "Maddison Anderson"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 372,
-    "Name": "Mertz, Volkman and Wolf",
-    "ToolTip": "Eos qui earum corporis.",
-    "Deleted": true,
-    "Rank": 372,
-    "Type": "rerum",
-    "ColorBlock": 972,
-    "IconHint": "minus",
+    "Id": 234,
+    "Name": "Rice, Herman and Krajcik",
+    "ToolTip": "Sed et repudiandae.",
+    "Deleted": false,
+    "Rank": 315,
+    "Type": "aut",
+    "ColorBlock": 12,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "2004-01-13T17:37:40.0595038+01:00",
+    "LastChanged": "1997-06-08T11:22:45.9441645+02:00",
     "ChildItems": [
       {
-        "Id": 162,
-        "Name": "Dach-Johnson",
-        "ToolTip": "Vel labore.",
-        "Deleted": true,
-        "Rank": 372,
-        "Type": "saepe",
-        "ColorBlock": 451,
-        "IconHint": "perspiciatis",
-        "Selected": false,
-        "LastChanged": "2013-07-07T17:37:40.0595038+02:00",
+        "Id": 557,
+        "Name": "Williamson Group",
+        "ToolTip": "Aut aut laudantium eos nulla consequatur.",
+        "Deleted": false,
+        "Rank": 423,
+        "Type": "velit",
+        "ColorBlock": 92,
+        "IconHint": "facere",
+        "Selected": true,
+        "LastChanged": "2009-01-31T11:22:45.9441645+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "nulla",
+        "StyleHint": "ratione",
         "Hidden": false,
-        "FullName": "Kendra Lakin Jr.",
+        "FullName": "Destiney Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 30
+            "FieldType": "System.String",
+            "FieldLength": 375
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "temporibus",
-    "Hidden": true,
-    "FullName": "Malinda Osinski",
+    "ExtraInfo": "dicta",
+    "StyleHint": "expedita",
+    "Hidden": false,
+    "FullName": "Misty Cummerata",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 172
+        "FieldType": "System.Int32",
+        "FieldLength": 985
       }
     }
   }

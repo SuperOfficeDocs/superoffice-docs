@@ -93,7 +93,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "perferendis"
+  "Section": "soluta"
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 659,
-    "Section": "quia",
-    "Key": "voluptas",
-    "Name": "Crist-Dickens",
+    "PrefDescId": 841,
+    "Section": "laborum",
+    "Key": "minus",
+    "Name": "O'Conner, Lesch and Tillman",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Reverse-engineered global budgetary management",
+    "Description": "Optional intangible collaboration",
     "IsBuiltin": true,
-    "TableName": "Donnelly, Ondricka and Rosenbaum",
-    "UserDefinedListId": 901,
-    "Rank": 386,
-    "SubGroup": "quos",
-    "MinLevel": 824,
-    "MaxValue": 70,
-    "MinValue": 581,
-    "RequiredLicense": "ut",
+    "TableName": "Anderson Group",
+    "UserDefinedListId": 468,
+    "Rank": 686,
+    "SubGroup": "ut",
+    "MinLevel": 765,
+    "MaxValue": 186,
+    "MinValue": 339,
+    "RequiredLicense": "quas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 865
       }
     }
   }

@@ -112,28 +112,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 197,
-  "Section": "deleniti",
-  "Key": "aut",
-  "Name": "Kihn-McDermott",
+  "PrefDescId": 347,
+  "Section": "sunt",
+  "Key": "cupiditate",
+  "Name": "Gerlach LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Digitized leading edge open system",
-  "IsBuiltin": false,
-  "TableName": "Zulauf, Effertz and Schmeler",
-  "UserDefinedListId": 977,
-  "Rank": 410,
-  "SubGroup": "aperiam",
-  "MinLevel": 504,
-  "MaxValue": 655,
-  "MinValue": 339,
-  "RequiredLicense": "nobis"
+  "Description": "Innovative next generation challenge",
+  "IsBuiltin": true,
+  "TableName": "Mosciski, Hudson and Hand",
+  "UserDefinedListId": 336,
+  "Rank": 533,
+  "SubGroup": "earum",
+  "MinLevel": 631,
+  "MaxValue": 674,
+  "MinValue": 419,
+  "RequiredLicense": "quod"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 816,
-  "Section": "ducimus",
-  "Key": "similique",
-  "Name": "Toy, Friesen and Hammes",
+  "PrefDescId": 366,
+  "Section": "sit",
+  "Key": "sed",
+  "Name": "Johns Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Public-key systemic website",
+  "Description": "Customizable fresh-thinking success",
   "IsBuiltin": false,
-  "TableName": "Jacobi LLC",
-  "UserDefinedListId": 984,
-  "Rank": 822,
-  "SubGroup": "vero",
-  "MinLevel": 232,
-  "MaxValue": 783,
-  "MinValue": 977,
-  "RequiredLicense": "beatae",
+  "TableName": "Watsica-Abshire",
+  "UserDefinedListId": 520,
+  "Rank": 327,
+  "SubGroup": "esse",
+  "MinLevel": 178,
+  "MaxValue": 954,
+  "MinValue": 79,
+  "RequiredLicense": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
+      "FieldType": "System.Int32",
       "FieldLength": 213
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

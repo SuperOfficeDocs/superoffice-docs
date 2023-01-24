@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Jenkins-Lesch",
-    "ToolTip": "Occaecati non et laborum qui praesentium dignissimos ducimus.",
-    "Deleted": false,
-    "Rank": 176,
-    "Type": "ratione",
-    "ColorBlock": 318,
-    "IconHint": "nam",
-    "Selected": false,
-    "LastChanged": "2010-11-06T17:37:39.9334725+01:00",
+    "Id": 999,
+    "Name": "Frami Inc and Sons",
+    "ToolTip": "Sed minus accusantium aspernatur id.",
+    "Deleted": true,
+    "Rank": 376,
+    "Type": "et",
+    "ColorBlock": 24,
+    "IconHint": "explicabo",
+    "Selected": true,
+    "LastChanged": "1997-03-06T11:22:45.8504363+01:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Greenholt, Larson and McCullough",
-        "ToolTip": "Deleniti unde eveniet reprehenderit ab.",
+        "Id": 793,
+        "Name": "Baumbach Inc and Sons",
+        "ToolTip": "Eum sint enim.",
         "Deleted": false,
-        "Rank": 631,
-        "Type": "dolorem",
-        "ColorBlock": 429,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2015-08-20T17:37:39.9334725+02:00",
+        "Rank": 268,
+        "Type": "odit",
+        "ColorBlock": 276,
+        "IconHint": "velit",
+        "Selected": true,
+        "LastChanged": "2008-07-21T11:22:45.8504363+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
+        "ExtraInfo": "cumque",
         "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Francesca Kiehn PhD"
+        "Hidden": true,
+        "FullName": "Mr. Morris Jazmyn Mueller"
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "error",
+    "ExtraInfo": "harum",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Julie Greenholt"
+    "FullName": "Christina Steuber"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 874,
-    "Name": "Quitzon LLC",
-    "ToolTip": "Sed eos veritatis porro nihil.",
+    "Id": 752,
+    "Name": "Hackett, Graham and Conn",
+    "ToolTip": "Ratione debitis ipsum.",
     "Deleted": true,
-    "Rank": 807,
-    "Type": "voluptatibus",
-    "ColorBlock": 472,
-    "IconHint": "eligendi",
-    "Selected": false,
-    "LastChanged": "2019-01-20T17:37:39.9345001+01:00",
+    "Rank": 301,
+    "Type": "qui",
+    "ColorBlock": 380,
+    "IconHint": "quasi",
+    "Selected": true,
+    "LastChanged": "2000-11-30T11:22:45.8504363+01:00",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Hamill, Sawayn and Hickle",
-        "ToolTip": "Autem nam fugiat amet.",
+        "Id": 535,
+        "Name": "Stracke Inc and Sons",
+        "ToolTip": "Quo qui facilis et nihil.",
         "Deleted": true,
-        "Rank": 609,
-        "Type": "eligendi",
-        "ColorBlock": 253,
-        "IconHint": "distinctio",
-        "Selected": true,
-        "LastChanged": "2004-10-05T17:37:39.9345001+02:00",
+        "Rank": 397,
+        "Type": "quia",
+        "ColorBlock": 414,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2021-06-18T11:22:45.8504363+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "autem",
-        "Hidden": true,
-        "FullName": "Kenya Weimann",
+        "ExtraInfo": "nihil",
+        "StyleHint": "optio",
+        "Hidden": false,
+        "FullName": "Mr. Rigoberto Simeon Wintheiser V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 883
+            "FieldType": "System.String",
+            "FieldLength": 10
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "aspernatur",
-    "Hidden": true,
-    "FullName": "Miss Milo Clinton Keeling II",
+    "ExtraInfo": "quidem",
+    "StyleHint": "nobis",
+    "Hidden": false,
+    "FullName": "Lexi Hessel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 762
+        "FieldLength": 204
       }
     }
   }

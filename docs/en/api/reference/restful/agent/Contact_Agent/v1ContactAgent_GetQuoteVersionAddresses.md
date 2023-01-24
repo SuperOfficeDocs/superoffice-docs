@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 939
+  "QuoteVersionId": 285
 }
 ```
 
@@ -95,41 +95,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 4177.622,
-    "Wgs84Longitude": 27704.559999999998,
+    "Wgs84Latitude": 12852.534,
+    "Wgs84Longitude": 1614.01,
     "LocalizedAddress": [
       [
         {
-          "Name": "Cassin Group",
-          "Value": "commodi",
-          "Tooltip": "eum",
-          "Label": "nulla",
-          "ValueLength": 282,
-          "AddressType": "inventore",
+          "Name": "Daugherty-Wyman",
+          "Value": "exercitationem",
+          "Tooltip": "excepturi",
+          "Label": "culpa",
+          "ValueLength": 208,
+          "AddressType": "nobis",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 270
+              "FieldType": "System.String",
+              "FieldLength": 136
             }
           }
         }
       ],
       [
         {
-          "Name": "Green-Donnelly",
+          "Name": "Jacobs-Tremblay",
           "Value": "aut",
-          "Tooltip": "sequi",
-          "Label": "tempore",
-          "ValueLength": 89,
-          "AddressType": "ipsum",
+          "Tooltip": "porro",
+          "Label": "nihil",
+          "ValueLength": 755,
+          "AddressType": "quod",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.String",
-              "FieldLength": 159
+              "FieldLength": 299
             }
           }
         }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "est",
+    "Formatted": "labore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 574
+        "FieldLength": 662
       }
     }
   }

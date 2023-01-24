@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/CRMScript?$select=name,department,category/id
 GET /api/v1/CRMScript?$filter=name begins 'S'
 GET /api/v1/CRMScript?$orderBy=name asc
-GET /api/v1/CRMScript?$entities=nam
-GET /api/v1/CRMScript?$top=978
-GET /api/v1/CRMScript?$skip=25
+GET /api/v1/CRMScript?$entities=ipsam
+GET /api/v1/CRMScript?$top=391
+GET /api/v1/CRMScript?$skip=523
 GET /api/v1/CRMScript?$mode=Full
 GET /api/v1/CRMScript?$options=GrandTotal=true
-GET /api/v1/CRMScript?$context=sapiente
+GET /api/v1/CRMScript?$context=expedita
 GET /api/v1/CRMScript?$format=JSON
 GET /api/v1/CRMScript?$jsonSafe=False
 GET /api/v1/CRMScript?$output=Display
@@ -128,21 +128,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "qui",
+  "odata.nextLink": "maxime",
   "value": [
     {
-      "PrimaryKey": 3224,
-      "EntityName": "sale",
-      "saleId": 3224,
-      "contactId": 846,
-      "name": "Dach Inc and Sons"
+      "PrimaryKey": 386,
+      "EntityName": "person",
+      "personId": 386,
+      "fullName": "Prof. Brooks O'Reilly II"
     },
     {
-      "PrimaryKey": 5171,
-      "EntityName": "sale",
-      "saleId": 5171,
-      "contactId": 2774,
-      "name": "Stokes LLC"
+      "PrimaryKey": 6955,
+      "EntityName": "person",
+      "personId": 6955,
+      "fullName": "Marian Johns"
     }
   ]
 }

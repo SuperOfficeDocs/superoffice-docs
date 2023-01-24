@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 65,
-  "Name": "Daugherty Inc and Sons",
-  "Tooltip": "voluptas",
+  "Id": 598,
+  "Name": "Greenholt LLC",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 238,
+  "Rank": 509,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "occaecati",
+  "UseGroupsAndHeadings": false,
+  "ListType": "iure",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 162
+      "FieldLength": 28
     }
   }
 }

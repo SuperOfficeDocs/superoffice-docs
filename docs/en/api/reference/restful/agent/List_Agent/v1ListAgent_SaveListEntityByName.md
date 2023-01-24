@@ -86,7 +86,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schuppe, Glover and Little",
+  "Name": "Schroeder LLC",
   "ListEntity": null
 }
 ```
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Orn, Legros and Mertz",
-  "Tooltip": "repellendus",
+  "Id": 301,
+  "Name": "Pagac-Zemlak",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 899,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 888,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "earum",
+  "ListType": "sed",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldType": "System.Int32",
+      "FieldLength": 989
     }
   }
 }

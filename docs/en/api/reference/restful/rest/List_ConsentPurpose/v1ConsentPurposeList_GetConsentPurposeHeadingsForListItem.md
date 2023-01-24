@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 848,
-    "Name": "Wyman Group",
-    "ToolTip": "Autem earum quod.",
-    "Deleted": false,
-    "Rank": 878,
-    "Type": "et",
-    "ColorBlock": 773,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2001-01-17T17:37:39.9015035+01:00",
+    "Id": 638,
+    "Name": "Denesik-Lubowitz",
+    "ToolTip": "Harum qui minima natus qui aliquam aut quam.",
+    "Deleted": true,
+    "Rank": 682,
+    "Type": "laudantium",
+    "ColorBlock": 32,
+    "IconHint": "neque",
+    "Selected": true,
+    "LastChanged": "2016-08-16T11:22:45.8191493+02:00",
     "ChildItems": [
       {
-        "Id": 622,
-        "Name": "Cummings-Nikolaus",
-        "ToolTip": "Ipsa quod sint sint.",
+        "Id": 370,
+        "Name": "Dare, Hamill and Rutherford",
+        "ToolTip": "Est sint.",
         "Deleted": true,
-        "Rank": 706,
-        "Type": "aliquid",
-        "ColorBlock": 398,
-        "IconHint": "corrupti",
-        "Selected": true,
-        "LastChanged": "1997-07-11T17:37:39.9015035+02:00",
+        "Rank": 381,
+        "Type": "consectetur",
+        "ColorBlock": 931,
+        "IconHint": "sint",
+        "Selected": false,
+        "LastChanged": "2017-07-28T11:22:45.8191493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "corporis",
-        "Hidden": true,
-        "FullName": "Martina Grady",
+        "ExtraInfo": "optio",
+        "StyleHint": "aliquid",
+        "Hidden": false,
+        "FullName": "Prof. Gina Murazik DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 968
+            "FieldType": "System.Int32",
+            "FieldLength": 930
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "asperiores",
-    "Hidden": true,
-    "FullName": "Zachary Stiedemann",
+    "ExtraInfo": "alias",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Princess Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 588
+        "FieldLength": 606
       }
     }
   }

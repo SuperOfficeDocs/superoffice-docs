@@ -64,12 +64,12 @@ No Content
 POST /api/v1/Agents/Configuration/SetAppliesToKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecipeId": "non",
-  "AppliesToKey": "ipsa"
+  "RecipeId": "ratione",
+  "AppliesToKey": "et"
 }
 ```
 

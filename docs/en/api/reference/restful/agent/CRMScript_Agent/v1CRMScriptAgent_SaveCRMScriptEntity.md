@@ -84,21 +84,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 835,
-  "UniqueIdentifier": "aut",
-  "Name": "Deckow, Mosciski and Koelpin",
-  "Description": "Multi-tiered regional knowledge base",
-  "IncludeId": "ut",
-  "HierarchyId": 577,
-  "Source": "qui",
-  "Registered": "2001-10-17T17:37:17.3242459+02:00",
-  "RegisteredAssociateId": 251,
-  "Updated": "2007-07-29T17:37:17.3242459+02:00",
-  "UpdatedAssociateId": 832
+  "EjscriptId": 521,
+  "UniqueIdentifier": "magni",
+  "Name": "Barton, Stracke and Schneider",
+  "Description": "Centralized clear-thinking task-force",
+  "IncludeId": "aliquid",
+  "HierarchyId": 395,
+  "Source": "soluta",
+  "Registered": "2010-10-05T11:22:37.7742144+02:00",
+  "RegisteredAssociateId": 827,
+  "Updated": "1995-11-22T11:22:37.7742144+01:00",
+  "UpdatedAssociateId": 775
 }
 ```
 
@@ -109,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 540,
-  "UniqueIdentifier": "a",
-  "Name": "Gusikowski-Sanford",
-  "Description": "Digitized leading edge extranet",
-  "IncludeId": "earum",
-  "HierarchyId": 515,
-  "Source": "ad",
-  "Registered": "2015-12-24T17:37:17.3242459+01:00",
-  "RegisteredAssociateId": 151,
-  "Updated": "2003-04-11T17:37:17.3242459+02:00",
-  "UpdatedAssociateId": 483,
+  "EjscriptId": 83,
+  "UniqueIdentifier": "rerum",
+  "Name": "Effertz, McGlynn and Ullrich",
+  "Description": "Up-sized global infrastructure",
+  "IncludeId": "nihil",
+  "HierarchyId": 422,
+  "Source": "aut",
+  "Registered": "1997-05-29T11:22:37.7742144+02:00",
+  "RegisteredAssociateId": 3,
+  "Updated": "1997-11-29T11:22:37.7742144+01:00",
+  "UpdatedAssociateId": 4,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 211
     }
   }
 }

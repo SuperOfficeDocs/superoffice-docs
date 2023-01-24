@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 971,
-    "Name": "Lakin-Schinner",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 139,
-    "UdListDefinitionId": 347,
+    "HeadingId": 187,
+    "Name": "Denesik-Abshire",
+    "Tooltip": "voluptatibus",
+    "Deleted": false,
+    "Rank": 773,
+    "UdListDefinitionId": 331,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 839
+        "FieldLength": 158
       }
     }
   }

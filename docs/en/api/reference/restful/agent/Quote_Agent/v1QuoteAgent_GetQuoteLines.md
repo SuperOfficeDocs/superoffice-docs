@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 671
+  "QuoteAlternativeId": 880
 }
 ```
 
@@ -136,88 +136,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 24,
-    "ERPQuoteLineKey": "ut",
-    "QuoteAlternativeId": 23,
-    "ERPProductKey": "eaque",
+    "QuoteLineId": 77,
+    "ERPQuoteLineKey": "eligendi",
+    "QuoteAlternativeId": 888,
+    "ERPProductKey": "perspiciatis",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 25736.408,
-    "DeliveredQuantity": 3691.852,
-    "Rank": 409,
-    "Name": "Jacobson, Stanton and Jast",
-    "Description": "Seamless national solution",
-    "Code": "ipsum",
-    "QuantityUnit": "sed",
-    "PriceUnit": "explicabo",
-    "ItemNumber": "1291052",
+    "Quantity": 20928.852,
+    "DeliveredQuantity": 14037.186,
+    "Rank": 585,
+    "Name": "Moore-Spinka",
+    "Description": "Inverse even-keeled adapter",
+    "Code": "tempora",
+    "QuantityUnit": "maxime",
+    "PriceUnit": "cumque",
+    "ItemNumber": "820462",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "illo",
-    "ProductTypeKey": "aperiam",
-    "Supplier": "laborum",
-    "SupplierCode": "voluptas",
-    "Thumbnail": "beatae",
-    "VATInfo": "qui",
-    "VAT": 1739.37,
-    "UnitCost": 26921.059999999998,
-    "UnitMinimumPrice": 29779.268,
-    "UnitListPrice": 21652.806,
+    "ProductFamilyKey": "ipsum",
+    "ProductTypeKey": "est",
+    "Supplier": "eos",
+    "SupplierCode": "amet",
+    "Thumbnail": "ullam",
+    "VATInfo": "consequatur",
+    "VAT": 10323.395999999999,
+    "UnitCost": 19590.634,
+    "UnitMinimumPrice": 13049.975999999999,
+    "UnitListPrice": 25645.522,
     "ExtraInfo": [
       {
-        "Name": "Powlowski, White and Hills",
-        "Value": "optio",
+        "Name": "Jenkins, Williamson and Fritsch",
+        "Value": "nihil",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldLength": 119
           }
         }
       },
       {
-        "Name": "Powlowski, White and Hills",
-        "Value": "optio",
+        "Name": "Jenkins, Williamson and Fritsch",
+        "Value": "nihil",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldLength": 119
           }
         }
       }
     ],
-    "RawExtraInfo": "sed",
+    "RawExtraInfo": "amet",
     "IsSubscription": false,
-    "SubscriptionUnit": "voluptas",
-    "SubscriptionQuantity": 30374.728,
-    "SubscriptionStart": "2014-09-10T17:37:18.7752416+02:00",
-    "ERPDiscountPercent": 30296.378,
-    "ERPDiscountAmount": 19371.254,
-    "DiscountPercent": 5992.208,
-    "DiscountAmount": 26037.272,
+    "SubscriptionUnit": "voluptatem",
+    "SubscriptionQuantity": 8856.684,
+    "SubscriptionStart": "2007-07-17T11:22:38.9458129+02:00",
+    "ERPDiscountPercent": 27773.507999999998,
+    "ERPDiscountAmount": 20314.588,
+    "DiscountPercent": 8850.416,
+    "DiscountAmount": 3983.314,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 27735.899999999998,
-    "EarningAmount": 7389.972,
-    "SubTotal": 25880.572,
-    "TotalPrice": 22310.946,
-    "Rights": "sequi",
-    "Rule": "vel",
-    "ExtraField1": "repudiandae",
-    "ExtraField2": "esse",
-    "ExtraField3": "eos",
-    "ExtraField4": "quis",
-    "ExtraField5": "molestiae",
+    "EarningPercent": 9270.372,
+    "EarningAmount": 19819.416,
+    "SubTotal": 27707.694,
+    "TotalPrice": 2789.2599999999998,
+    "Rights": "debitis",
+    "Rule": "veniam",
+    "ExtraField1": "qui",
+    "ExtraField2": "necessitatibus",
+    "ExtraField3": "eligendi",
+    "ExtraField4": "totam",
+    "ExtraField5": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 549
+        "FieldType": "System.String",
+        "FieldLength": 793
       }
     }
   }

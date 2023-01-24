@@ -81,17 +81,17 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 521,
-  "Name": "Klocko Group",
-  "Tooltip": "magnam",
-  "Rank": 91,
-  "Rate": 8906.828,
-  "Units": 19393.192,
-  "Deleted": true
+  "CurrencyId": 530,
+  "Name": "Schowalter LLC",
+  "Tooltip": "repellat",
+  "Rank": 539,
+  "Rate": 25736.408,
+  "Units": 4469.084,
+  "Deleted": false
 }
 ```
 
@@ -102,19 +102,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 31,
-  "Name": "Gerlach-Wiegand",
-  "Tooltip": "fugit",
-  "Rank": 280,
-  "Rate": 17074.032,
-  "Units": 28738.78,
+  "CurrencyId": 501,
+  "Name": "Tromp LLC",
+  "Tooltip": "dolores",
+  "Rank": 822,
+  "Rate": 23993.904,
+  "Units": 15259.446,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldLength": 987
     }
   }
 }

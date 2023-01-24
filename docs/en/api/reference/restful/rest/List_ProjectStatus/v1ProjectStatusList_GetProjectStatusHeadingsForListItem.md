@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 520,
-    "Name": "Marks Inc and Sons",
-    "ToolTip": "Facilis et repudiandae nam dolores.",
-    "Deleted": true,
-    "Rank": 465,
-    "Type": "reprehenderit",
-    "ColorBlock": 797,
-    "IconHint": "ut",
+    "Id": 846,
+    "Name": "Harber Inc and Sons",
+    "ToolTip": "Et magni autem et.",
+    "Deleted": false,
+    "Rank": 664,
+    "Type": "maiores",
+    "ColorBlock": 990,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1997-02-18T17:37:40.2004719+01:00",
+    "LastChanged": "1997-11-03T11:22:46.0691442+01:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Volkman, Johnston and Kris",
-        "ToolTip": "Nobis ipsa consectetur eos omnis explicabo nostrum.",
-        "Deleted": true,
-        "Rank": 945,
-        "Type": "voluptates",
-        "ColorBlock": 65,
-        "IconHint": "quisquam",
-        "Selected": true,
-        "LastChanged": "2008-02-03T17:37:40.2004719+01:00",
+        "Id": 147,
+        "Name": "Reinger, Fritsch and Ullrich",
+        "ToolTip": "Et eum qui dignissimos cupiditate perferendis sunt cupiditate.",
+        "Deleted": false,
+        "Rank": 470,
+        "Type": "maxime",
+        "ColorBlock": 221,
+        "IconHint": "veniam",
+        "Selected": false,
+        "LastChanged": "2005-04-17T11:22:46.0691442+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "rerum",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "fugiat",
         "Hidden": true,
-        "FullName": "Fabiola Emmerich Jr.",
+        "FullName": "Shawn Marquardt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 895
+            "FieldType": "System.Int32",
+            "FieldLength": 843
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "facilis",
-    "Hidden": false,
-    "FullName": "Carley Predovic",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Alessandra Nick Gulgowski MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 204
+        "FieldType": "System.String",
+        "FieldLength": 295
       }
     }
   }

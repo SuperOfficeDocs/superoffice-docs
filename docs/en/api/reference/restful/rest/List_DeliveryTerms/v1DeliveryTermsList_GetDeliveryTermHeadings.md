@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 429,
-    "Name": "Heller Group",
-    "Tooltip": "dolore",
+    "HeadingId": 445,
+    "Name": "Renner, Emard and Kertzmann",
+    "Tooltip": "illum",
     "Deleted": false,
-    "Rank": 673,
-    "UdListDefinitionId": 263,
+    "Rank": 543,
+    "UdListDefinitionId": 3,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 907
+        "FieldType": "System.Int32",
+        "FieldLength": 970
       }
     }
   }

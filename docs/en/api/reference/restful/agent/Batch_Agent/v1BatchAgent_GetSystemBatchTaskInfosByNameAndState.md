@@ -84,6 +84,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -93,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Koss-Jakubowski",
+  "TaskName": "Leannon, Bailey and Anderson",
   "State": "All"
 }
 ```
@@ -110,36 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Lueilwitz LLC",
-    "AssociateId": 442,
-    "DetailsTable": 427,
-    "DetailsRecord": 617,
+    "Id": 902,
+    "Name": "Kiehn Inc and Sons",
+    "AssociateId": 854,
+    "DetailsTable": 297,
+    "DetailsRecord": 142,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "dolor",
-      "ParameterObject2": "in"
+      "ParameterObject1": "quam",
+      "ParameterObject2": "saepe"
     },
-    "LastStarted": "2016-02-26T17:37:16.9082408+01:00",
-    "Created": "2006-02-04T17:37:16.9082408+01:00",
-    "StartCount": 184,
-    "DatabaseSerialNumber": "867998",
-    "Context": "ut",
-    "Result": "rerum",
+    "LastStarted": "2015-11-05T11:22:37.4461725+01:00",
+    "Created": "2018-02-06T11:22:37.4461725+01:00",
+    "StartCount": 468,
+    "DatabaseSerialNumber": "274224",
+    "Context": "rerum",
+    "Result": "ut",
     "State": "All",
-    "Description": "Sharable client-server open system",
-    "Response": "necessitatibus",
-    "Request": "dolores",
-    "ProgressDescription": "Innovative zero defect intranet",
-    "ProgressPercent": 325,
-    "FileName": "Kilback-Heller",
+    "Description": "Synergized assymetric software",
+    "Response": "animi",
+    "Request": "magnam",
+    "ProgressDescription": "Programmable motivating budgetary management",
+    "ProgressPercent": 976,
+    "FileName": "Luettgen-Kris",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldType": "System.String",
+        "FieldLength": 257
       }
     }
   }

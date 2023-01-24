@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 62,
-    "Section": "expedita",
-    "Key": "vel",
-    "Name": "Marvin-Wisozk",
+    "PrefDescId": 524,
+    "Section": "excepturi",
+    "Key": "sapiente",
+    "Name": "Jacobs Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Future-proofed multimedia budgetary management",
+    "Description": "Diverse mission-critical support",
     "IsBuiltin": true,
-    "TableName": "Bauch-Upton",
-    "UserDefinedListId": 163,
-    "Rank": 939,
-    "SubGroup": "neque",
-    "MinLevel": 136,
-    "MaxValue": 681,
-    "MinValue": 712,
-    "RequiredLicense": "nemo",
+    "TableName": "Bayer-Koss",
+    "UserDefinedListId": 62,
+    "Rank": 457,
+    "SubGroup": "iure",
+    "MinLevel": 299,
+    "MaxValue": 140,
+    "MinValue": 446,
+    "RequiredLicense": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 723
       }
     }
   }

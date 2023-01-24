@@ -111,18 +111,18 @@ Dashboard  updated.
 PATCH /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "vel",
+    "path": "cum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vel",
+    "path": "cum",
     "value": {}
   }
 ]
@@ -135,22 +135,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 958,
-  "AssociateId": 552,
-  "Caption": "autem",
+  "DashboardId": 518,
+  "AssociateId": 564,
+  "Caption": "voluptatibus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 299,
-      "Caption": "doloremque",
-      "Description": "Persistent attitude-oriented emulation",
-      "ChartName": "Nitzsche, Runte and Hane",
-      "ChartId": "repellendus",
+      "DashboardTileId": 763,
+      "Caption": "ut",
+      "Description": "Multi-tiered local standardization",
+      "ChartName": "Gorczany-Denesik",
+      "ChartId": "hic",
       "IsDefault": false,
-      "AssociateId": 58,
-      "GroupId": 779,
-      "SelectionId": 460,
-      "Config": "dolores",
+      "AssociateId": 571,
+      "GroupId": 719,
+      "SelectionId": 666,
+      "Config": "doloribus",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 132
+          "FieldLength": 831
         }
       }
     }
@@ -176,12 +176,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldLength": 526
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

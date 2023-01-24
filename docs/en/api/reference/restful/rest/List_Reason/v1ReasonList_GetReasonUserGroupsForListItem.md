@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 399,
-    "Name": "Glover-Bashirian",
-    "ToolTip": "Velit porro aut et corrupti debitis magni et.",
+    "Id": 277,
+    "Name": "Cummerata, Stokes and Gusikowski",
+    "ToolTip": "Distinctio aliquid itaque illo sequi corrupti.",
     "Deleted": false,
-    "Rank": 939,
-    "Type": "voluptas",
-    "ColorBlock": 696,
-    "IconHint": "et",
+    "Rank": 771,
+    "Type": "recusandae",
+    "ColorBlock": 616,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2000-10-11T17:37:40.2835003+02:00",
+    "LastChanged": "2002-04-19T11:22:46.1316279+02:00",
     "ChildItems": [
       {
-        "Id": 601,
-        "Name": "Waelchi, Deckow and Sporer",
-        "ToolTip": "Voluptatibus dolore.",
+        "Id": 384,
+        "Name": "Upton Inc and Sons",
+        "ToolTip": "Expedita laborum enim fugiat.",
         "Deleted": true,
-        "Rank": 844,
-        "Type": "hic",
-        "ColorBlock": 332,
-        "IconHint": "eius",
-        "Selected": false,
-        "LastChanged": "2022-08-03T17:37:40.2835003+02:00",
+        "Rank": 166,
+        "Type": "laborum",
+        "ColorBlock": 874,
+        "IconHint": "natus",
+        "Selected": true,
+        "LastChanged": "2008-11-04T11:22:46.1316279+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "odit",
+        "ExtraInfo": "fugit",
+        "StyleHint": "asperiores",
         "Hidden": false,
-        "FullName": "Dimitri Vladimir Pfeffer II",
+        "FullName": "Evalyn Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 800
+            "FieldType": "System.String",
+            "FieldLength": 353
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "eius",
     "Hidden": false,
-    "FullName": "Zackery Crooks",
+    "FullName": "Henry Hank Adams I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   }

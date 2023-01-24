@@ -54,7 +54,7 @@ OK
 GET /api/v1/Appointment/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -64,7 +64,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolorum",
-  "2": "sunt"
+  "1": "amet",
+  "2": "enim"
 }
 ```

@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 244,
-  "Name": "Luettgen, Weissnat and McLaughlin",
-  "Tooltip": "itaque",
-  "Rank": 961,
-  "Key": "et",
-  "Deleted": false,
+  "LegalBaseId": 160,
+  "Name": "Abernathy Group",
+  "Tooltip": "molestiae",
+  "Rank": 802,
+  "Key": "fuga",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldType": "System.String",
+      "FieldLength": 145
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Olson Group",
-    "ToolTip": "Deserunt voluptatem.",
-    "Deleted": true,
-    "Rank": 444,
-    "Type": "quia",
-    "ColorBlock": 52,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2013-06-03T17:37:40.3725026+02:00",
+    "Id": 495,
+    "Name": "Will Group",
+    "ToolTip": "Facilis provident nesciunt ad autem voluptatem officiis rerum.",
+    "Deleted": false,
+    "Rank": 207,
+    "Type": "error",
+    "ColorBlock": 406,
+    "IconHint": "minima",
+    "Selected": true,
+    "LastChanged": "2016-02-08T11:22:46.2097354+01:00",
     "ChildItems": [
       {
-        "Id": 217,
-        "Name": "Will Group",
-        "ToolTip": "Dolor fugit mollitia dolore id beatae.",
-        "Deleted": true,
-        "Rank": 926,
-        "Type": "aut",
-        "ColorBlock": 801,
-        "IconHint": "fuga",
-        "Selected": true,
-        "LastChanged": "2021-06-25T17:37:40.3725026+02:00",
+        "Id": 756,
+        "Name": "Bauch, Altenwerth and Sipes",
+        "ToolTip": "Eius eaque labore consequatur inventore.",
+        "Deleted": false,
+        "Rank": 539,
+        "Type": "deserunt",
+        "ColorBlock": 606,
+        "IconHint": "ipsum",
+        "Selected": false,
+        "LastChanged": "2015-10-01T11:22:46.2097354+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "sunt",
-        "Hidden": true,
-        "FullName": "Mr. Ahmed Kuphal",
+        "ExtraInfo": "quae",
+        "StyleHint": "earum",
+        "Hidden": false,
+        "FullName": "Danyka Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 221
+            "FieldLength": 821
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "et",
+    "ExtraInfo": "facilis",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Giovani Huels",
+    "FullName": "Mrs. Maynard Bednar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 243
+        "FieldLength": 270
       }
     }
   }

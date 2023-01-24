@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Smith Group",
+  "CommandName": "Emard LLC",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -85,15 +85,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "enim",
+  "Success": true,
+  "Message": "velit",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldType": "System.Int32",
+      "FieldLength": 27
     }
   }
 }

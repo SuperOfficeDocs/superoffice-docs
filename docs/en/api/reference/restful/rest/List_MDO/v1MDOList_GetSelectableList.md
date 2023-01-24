@@ -29,8 +29,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=est
-GET /api/v1/MDOList/{listname}/selectable?flat=False
+GET /api/v1/MDOList/{listname}/selectable?additional=non
+GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 567,
-    "Name": "Buckridge, Bailey and Fritsch",
-    "ToolTip": "Quidem tenetur minus quasi in ipsam architecto.",
+    "Id": 372,
+    "Name": "Schuppe Group",
+    "ToolTip": "Sit rerum.",
     "Deleted": true,
-    "Rank": 594,
-    "Type": "doloribus",
-    "ColorBlock": 371,
-    "IconHint": "quo",
-    "Selected": false,
-    "LastChanged": "2006-05-24T17:37:40.0485001+02:00",
+    "Rank": 447,
+    "Type": "voluptatem",
+    "ColorBlock": 905,
+    "IconHint": "pariatur",
+    "Selected": true,
+    "LastChanged": "2002-07-17T11:22:45.9441645+02:00",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Turner-Durgan",
-        "ToolTip": "Qui placeat consequuntur nobis sunt.",
+        "Id": 109,
+        "Name": "Walsh-Bosco",
+        "ToolTip": "Aut ut cumque.",
         "Deleted": false,
-        "Rank": 443,
-        "Type": "laboriosam",
-        "ColorBlock": 949,
-        "IconHint": "laudantium",
-        "Selected": false,
-        "LastChanged": "2021-04-18T17:37:40.0495008+02:00",
+        "Rank": 639,
+        "Type": "adipisci",
+        "ColorBlock": 499,
+        "IconHint": "nisi",
+        "Selected": true,
+        "LastChanged": "2018-02-18T11:22:45.9441645+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "June Schultz",
+        "ExtraInfo": "officiis",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Marley Emmerich I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 99
+            "FieldLength": 183
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "eius",
+    "ExtraInfo": "rerum",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Sim Batz DDS",
+    "FullName": "Jaleel Weber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldType": "System.String",
+        "FieldLength": 345
       }
     }
   }

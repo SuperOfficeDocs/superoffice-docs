@@ -72,3 +72,5 @@ title: UserDefinedFieldInfo_Agent
 * [POST Agents/UserDefinedFieldInfo/SetRankOnFields](v1UserDefinedFieldInfoAgent_SetRankOnFields.md)
 
 * [POST Agents/UserDefinedFieldInfo/SetPublishStartSystemEvent](v1UserDefinedFieldInfoAgent_SetPublishStartSystemEvent.md)
+
+* [POST Agents/UserDefinedFieldInfo/ClearCaches](v1UserDefinedFieldInfoAgent_ClearCaches.md)

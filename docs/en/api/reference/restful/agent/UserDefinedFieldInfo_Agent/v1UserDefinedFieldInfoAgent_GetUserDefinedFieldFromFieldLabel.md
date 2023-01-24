@@ -112,7 +112,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "officiis",
+  "FieldLabel": "dolorem",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 471,
-  "ColumnId": 850,
-  "FieldDefault": "iure",
-  "FieldHeight": 504,
-  "FieldLabel": "qui",
-  "FieldLeft": 522,
-  "FieldTop": 127,
+  "UDefFieldId": 394,
+  "ColumnId": 423,
+  "FieldDefault": "tenetur",
+  "FieldHeight": 996,
+  "FieldLabel": "incidunt",
+  "FieldLeft": 603,
+  "FieldTop": 477,
   "FieldType": "Checkbox",
-  "FieldWidth": 596,
-  "FormatMask": "nulla",
-  "HideLabel": false,
+  "FieldWidth": 671,
+  "FormatMask": "non",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 287,
-  "LabelLeft": 775,
-  "LabelTop": 728,
-  "LabelWidth": 379,
-  "LastVersionId": 611,
-  "ListTableId": 785,
+  "LabelHeight": 142,
+  "LabelLeft": 886,
+  "LabelTop": 896,
+  "LabelWidth": 122,
+  "LastVersionId": 951,
+  "ListTableId": 308,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 155,
-  "ProgId": "nulla",
+  "Page1LineNo": 895,
+  "ProgId": "est",
   "IsReadOnly": false,
-  "ShortLabel": "fugiat",
-  "TabOrder": 768,
-  "TextLength": 887,
-  "Tooltip": "fugiat",
-  "UdefIdentity": 284,
-  "UDListDefinitionId": 975,
+  "ShortLabel": "molestiae",
+  "TabOrder": 238,
+  "TextLength": 293,
+  "Tooltip": "omnis",
+  "UdefIdentity": 297,
+  "UDListDefinitionId": 301,
   "Justification": "Center",
-  "Version": 509,
-  "TemplateVariableName": "Rosenbaum, Hills and Lubowitz",
+  "Version": 815,
+  "TemplateVariableName": "Ebert LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Trantow-Volkman",
+  "MdoListName": "Rau LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldType": "System.String",
+      "FieldLength": 958
     }
   }
 }

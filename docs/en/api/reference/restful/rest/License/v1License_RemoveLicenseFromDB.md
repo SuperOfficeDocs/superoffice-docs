@@ -67,14 +67,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": true,
-  "Reason": "",
+  "Succeeded": false,
+  "Reason": "strategize wireless ROI",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 913
     }
   }
 }

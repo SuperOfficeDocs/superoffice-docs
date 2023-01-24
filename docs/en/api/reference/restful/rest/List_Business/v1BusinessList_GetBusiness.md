@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 488,
-  "Name": "Simonis, Klocko and Cummings",
-  "Tooltip": "blanditiis",
+  "Id": 700,
+  "Name": "Gottlieb-Stoltenberg",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "UdListDefinitionId": 614,
-  "Rank": 728,
+  "UdListDefinitionId": 588,
+  "Rank": 612,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldLength": 211
     }
   }
 }

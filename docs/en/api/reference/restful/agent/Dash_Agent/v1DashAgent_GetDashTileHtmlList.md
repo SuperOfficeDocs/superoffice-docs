@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 530
+  "DashboardTileDefinitionId": 428
 }
 ```
 
@@ -91,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "dolorem",
-    "Html": "doloribus",
+    "LanguageCode": "modi",
+    "Html": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 875
+        "FieldLength": 643
       }
     }
   },
   {
-    "LanguageCode": "dolorem",
-    "Html": "doloribus",
+    "LanguageCode": "modi",
+    "Html": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 875
+        "FieldLength": 643
       }
     }
   }

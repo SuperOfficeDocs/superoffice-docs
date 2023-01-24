@@ -78,21 +78,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 798,
+  "TargetDimensionId": 788,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "eveniet",
-  "DimensionListName": "Yundt, McClure and Hermiston",
-  "DimensionListId": 538,
-  "DimensionListLabel": "omnis",
+  "DimensionListField": "quas",
+  "DimensionListName": "Kunde, Lind and Nicolas",
+  "DimensionListId": 968,
+  "DimensionListLabel": "nesciunt",
   "SelectedDimensions": [
-    768,
-    49
+    71,
+    50
   ]
 }
 ```
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 594,
+  "TargetDimensionId": 803,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "autem",
-  "DimensionListName": "Will Group",
-  "DimensionListId": 157,
-  "DimensionListLabel": "voluptatem",
+  "DimensionListField": "blanditiis",
+  "DimensionListName": "Mertz, Schuster and Cronin",
+  "DimensionListId": 165,
+  "DimensionListLabel": "quisquam",
   "SelectedDimensions": [
-    545,
-    949
+    646,
+    573
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldType": "System.Int32",
+      "FieldLength": 54
     }
   }
 }

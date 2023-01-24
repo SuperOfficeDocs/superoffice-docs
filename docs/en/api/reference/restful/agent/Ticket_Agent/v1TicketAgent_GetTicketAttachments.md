@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 976
+  "TicketEntityId": 58
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 689,
-    "Name": "Fritsch-Johnston",
-    "ContentType": "suscipit",
-    "AttSize": 444,
+    "AttachmentId": 550,
+    "Name": "Legros, Hane and Mohr",
+    "ContentType": "ea",
+    "AttSize": 871,
     "InlineImage": true,
-    "ContentId": "consectetur",
+    "ContentId": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 333
       }
     }
   }

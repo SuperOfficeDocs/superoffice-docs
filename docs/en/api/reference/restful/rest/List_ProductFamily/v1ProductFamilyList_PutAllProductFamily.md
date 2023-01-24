@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Kilback Inc and Sons",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "UdListDefinitionId": 781,
-    "Rank": 816
+    "Id": 515,
+    "Name": "Dickinson, Bechtelar and Aufderhar",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 229,
+    "Rank": 130
   },
   {
-    "Id": 376,
-    "Name": "Kilback Inc and Sons",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "UdListDefinitionId": 781,
-    "Rank": 816
+    "Id": 515,
+    "Name": "Dickinson, Bechtelar and Aufderhar",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 229,
+    "Rank": 130
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Bradtke LLC",
-    "Tooltip": "sunt",
+    "Id": 837,
+    "Name": "Hyatt LLC",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "UdListDefinitionId": 714,
-    "Rank": 308,
+    "UdListDefinitionId": 354,
+    "Rank": 248,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldType": "System.String",
+        "FieldLength": 1002
       }
     }
   }

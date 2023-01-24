@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 864,
-    "Name": "Nader-Ernser",
-    "ToolTip": "Ut et.",
+    "Id": 123,
+    "Name": "Wehner Inc and Sons",
+    "ToolTip": "Recusandae qui.",
     "Deleted": true,
-    "Rank": 462,
-    "Type": "consequatur",
-    "ColorBlock": 689,
-    "IconHint": "omnis",
+    "Rank": 143,
+    "Type": "laborum",
+    "ColorBlock": 665,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2004-03-23T17:37:39.8795002+01:00",
+    "LastChanged": "1998-07-02T11:22:45.803528+02:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Hessel-Krajcik",
-        "ToolTip": "Necessitatibus est illo excepturi quis voluptatem voluptas.",
+        "Id": 784,
+        "Name": "Effertz, McKenzie and Ryan",
+        "ToolTip": "Vel qui debitis laboriosam quia.",
         "Deleted": false,
-        "Rank": 981,
-        "Type": "fugit",
-        "ColorBlock": 984,
-        "IconHint": "vero",
+        "Rank": 185,
+        "Type": "architecto",
+        "ColorBlock": 678,
+        "IconHint": "doloremque",
         "Selected": true,
-        "LastChanged": "1996-09-15T17:37:39.8795002+02:00",
+        "LastChanged": "2001-05-11T11:22:45.803528+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "unde",
+        "StyleHint": "ducimus",
         "Hidden": true,
-        "FullName": "Fredrick Ortiz",
+        "FullName": "Dale Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 105
+            "FieldType": "System.Int32",
+            "FieldLength": 463
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "harum",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Prof. Kaycee Oceane Prosacco Sr.",
+    "FullName": "Theresa Bertram Kozey II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldLength": 865
       }
     }
   }

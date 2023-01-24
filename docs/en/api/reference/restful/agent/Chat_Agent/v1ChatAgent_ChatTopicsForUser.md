@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 534,
-    "Name": "Mohr Inc and Sons",
-    "Description": "Object-based dynamic budgetary management",
-    "WelcomeMessage": "illum",
+    "ChatTopicId": 157,
+    "Name": "Miller LLC",
+    "Description": "Universal intangible structure",
+    "WelcomeMessage": "id",
     "Language": null,
-    "LastAccept": "2011-08-05T17:37:17.0842432+02:00",
-    "SecondsPrAccept": 885,
-    "AlertRecipient": "ea",
+    "LastAccept": "2011-12-25T11:22:37.5867584+01:00",
+    "SecondsPrAccept": 907,
+    "AlertRecipient": "voluptas",
     "AlertTemplate": null,
     "CollectConsent": true,
-    "BadgeHeader": "et",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "at",
-    "WarnNewChatMinutes": 264,
-    "WarnManagerNewChatMinutes": 247,
+    "BadgeHeader": "expedita",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "iure",
+    "WarnNewChatMinutes": 346,
+    "WarnManagerNewChatMinutes": 646,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": false,
+    "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": false,
+    "BotEnabled": true,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 438,
-    "WarnManagerChatMessageMinutes": 53,
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 417,
+    "WarnManagerChatMessageMinutes": 103,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 634,
-    "OfflineFormQueueLength": 301,
-    "WidgetEnableRating": true,
-    "WidgetRatingText": "sit",
+    "OfflineFormTimeLimit": 191,
+    "OfflineFormQueueLength": 750,
+    "WidgetEnableRating": false,
+    "WidgetRatingText": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldType": "System.String",
+        "FieldLength": 537
       }
     }
   }

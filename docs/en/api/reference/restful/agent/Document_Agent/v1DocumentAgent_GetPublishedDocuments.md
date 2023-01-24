@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    491,
-    371
+    911,
+    480
   ]
 }
 ```
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 706,
-    "Attention": "numquam",
-    "Header": "temporibus",
-    "Name": "West-Schimmel",
-    "OurRef": "architecto",
-    "YourRef": "facilis",
-    "Description": "Stand-alone high-level info-mediaries",
-    "DocumentTemplate": "sed",
+    "DocumentId": 815,
+    "Attention": "vero",
+    "Header": "et",
+    "Name": "McDermott-Murazik",
+    "OurRef": "ducimus",
+    "YourRef": "consequatur",
+    "Description": "Virtual regional software",
+    "DocumentTemplate": "quia",
     "IsPublished": false,
-    "PersonId": 909,
-    "PersonFullName": "Mrs. Cristal Gustave Little",
-    "AssociateFullName": "Madyson Skyla Schuppe III",
-    "ContactId": 958,
-    "ContactName": "Stiedemann, Ziemann and Thiel",
-    "ProjectId": 265,
-    "ProjectName": "Harris, Sauer and Klocko",
-    "AssociateId": 802,
-    "Snum": 325,
-    "SaleId": 370,
-    "SaleName": "Turcotte Inc and Sons",
+    "PersonId": 121,
+    "PersonFullName": "Jaren Kian Swift PhD",
+    "AssociateFullName": "Cydney Cruickshank",
+    "ContactId": 392,
+    "ContactName": "Lynch, Koelpin and Moen",
+    "ProjectId": 935,
+    "ProjectName": "Hackett-Hoeger",
+    "AssociateId": 563,
+    "Snum": 559,
+    "SaleId": 241,
+    "SaleName": "Legros-O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 7
+        "FieldType": "System.Int32",
+        "FieldLength": 721
       }
     }
   }

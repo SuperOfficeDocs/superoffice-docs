@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 618,
-    "Name": "Bogisich, Mayer and Stiedemann",
-    "Tooltip": "dolor",
-    "Rank": 873,
-    "Rate": 8891.158,
-    "Units": 11849.654,
+    "CurrencyId": 659,
+    "Name": "Denesik-Schimmel",
+    "Tooltip": "molestiae",
+    "Rank": 921,
+    "Rate": 19023.38,
+    "Units": 109.69,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldLength": 723
       }
     }
   }

@@ -101,13 +101,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2016-07-25T17:37:18.8882422+02:00",
-  "ToDate": "1997-06-04T17:37:18.8892423+02:00",
-  "AmountLimit": 484,
+  "FromDate": "2009-09-16T11:22:39.2425669+02:00",
+  "ToDate": "2003-03-02T11:22:39.2425669+01:00",
+  "AmountLimit": 895,
   "Status": "Lost"
 }
 ```
@@ -120,37 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Tremblay-Ritchie",
-    "SaleDate": "2004-08-01T17:37:18.8892423+02:00",
-    "SaleId": 81,
-    "Probability": 307,
-    "Title": "et",
-    "Amount": 25150.35,
-    "Currency": "aperiam",
-    "ProjectName": "Senger LLC",
-    "AssociateFullName": "Mr. Gayle Terence Ziemann",
-    "Description": "Re-contextualized content-based hardware",
+    "ContactName": "Bernhard LLC",
+    "SaleDate": "2017-10-28T11:22:39.2425669+02:00",
+    "SaleId": 871,
+    "Probability": 818,
+    "Title": "dolores",
+    "Amount": 21220.314,
+    "Currency": "et",
+    "ProjectName": "Torphy-Rippin",
+    "AssociateFullName": "Miss Jeromy Leffler DVM",
+    "Description": "Cloned dedicated process improvement",
     "Status": "Lost",
-    "WeightedAmount": 5973.4039999999995,
-    "ProjectId": 776,
-    "EarningPercent": 10787.228,
-    "Earning": 9264.104,
-    "ContactId": 126,
-    "AssociateId": 113,
-    "PersonId": 73,
-    "SaleTypeId": 106,
-    "SaleTypeName": "Schuster-Bailey",
-    "PersonFullName": "Ms. Adeline Schultz",
+    "WeightedAmount": 12539.134,
+    "ProjectId": 783,
+    "EarningPercent": 12517.196,
+    "Earning": 24717.858,
+    "ContactId": 100,
+    "AssociateId": 642,
+    "PersonId": 502,
+    "SaleTypeId": 136,
+    "SaleTypeName": "Gutmann Group",
+    "PersonFullName": "Kennedi Alex Rempel Sr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 352,
-    "NextDueDate": "2011-07-28T17:37:18.8902423+02:00",
-    "Number": "1626015",
+    "ActiveErpLinks": 87,
+    "NextDueDate": "1996-09-06T11:22:39.2425669+02:00",
+    "Number": "1500666",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldType": "System.Int32",
+        "FieldLength": 797
       }
     }
   }

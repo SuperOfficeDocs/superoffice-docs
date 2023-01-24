@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 82,
-  "DefaultValue": "qui",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "eveniet",
+  "ErpFieldId": 412,
+  "DefaultValue": "sunt",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "reprehenderit",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "omnis",
+  "ErpFieldKey": "voluptates",
   "FieldType": "Checkbox",
-  "ListName": "Schmitt-Spencer",
+  "ListName": "Reichert Inc and Sons",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldLength": 416
     }
   }
 }

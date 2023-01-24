@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 889,
-    "Name": "Schowalter-Ullrich",
-    "Tooltip": "temporibus",
-    "Deleted": true,
-    "UdListDefinitionId": 909,
-    "Rank": 563
+    "Id": 157,
+    "Name": "Reichel-Lemke",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "UdListDefinitionId": 27,
+    "Rank": 126
   },
   {
-    "Id": 889,
-    "Name": "Schowalter-Ullrich",
-    "Tooltip": "temporibus",
-    "Deleted": true,
-    "UdListDefinitionId": 909,
-    "Rank": 563
+    "Id": 157,
+    "Name": "Reichel-Lemke",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "UdListDefinitionId": 27,
+    "Rank": 126
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Jenkins Group",
-    "Tooltip": "quis",
-    "Deleted": false,
-    "UdListDefinitionId": 326,
-    "Rank": 128,
+    "Id": 852,
+    "Name": "Casper, Renner and Cummings",
+    "Tooltip": "dolorem",
+    "Deleted": true,
+    "UdListDefinitionId": 53,
+    "Rank": 330,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 853
       }
     }
   }

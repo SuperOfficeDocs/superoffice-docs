@@ -27,7 +27,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=636
+POST /api/v1/Agents/User/GetUser?userId=340
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -102,14 +102,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 873,
-  "Name": "Volkman-Farrell",
-  "Rank": 323,
-  "Tooltip": "ut",
+  "AssociateId": 891,
+  "Name": "Ledner Inc and Sons",
+  "Rank": 294,
+  "Tooltip": "illo",
   "LicenseOwners": [
     {
-      "Name": "Upton, Cummings and Conn",
-      "Description": "Up-sized zero administration Graphic Interface",
+      "Name": "Ryan LLC",
+      "Description": "Compatible full-range forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -122,14 +122,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 320
+          "FieldType": "System.Int32",
+          "FieldLength": 639
         }
       }
     },
     {
-      "Name": "Upton, Cummings and Conn",
-      "Description": "Up-sized zero administration Graphic Interface",
+      "Name": "Ryan LLC",
+      "Description": "Compatible full-range forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 320
+          "FieldType": "System.Int32",
+          "FieldLength": 639
         }
       }
     }
@@ -152,110 +152,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "minus",
-      "Tooltip": "accusantium",
-      "Id": 276,
-      "Rank": 523,
-      "Deleted": false,
+      "Value": "porro",
+      "Tooltip": "expedita",
+      "Id": 24,
+      "Rank": 870,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 388
+          "FieldLength": 374
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1996-11-16T17:37:19.5649764+01:00",
-  "Lastlogout": "2017-12-08T17:37:19.5649764+01:00",
-  "EjUserId": 494,
-  "RequestSignature": "enim",
+  "Lastlogin": "1996-09-17T11:22:39.6331547+02:00",
+  "Lastlogout": "2002-07-25T11:22:39.6331547+02:00",
+  "EjUserId": 984,
+  "RequestSignature": "voluptatem",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "cum",
-      "DisplayValue": "incidunt",
+      "Value": "dolores",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 32
         }
       }
     },
     {
       "Type": null,
-      "Value": "cum",
-      "DisplayValue": "incidunt",
+      "Value": "dolores",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 32
         }
       }
     }
   ],
-  "UserName": "Bernhard Inc and Sons",
+  "UserName": "Lind-Champlin",
   "TicketCategories": [
     {
-      "Id": 131,
-      "Name": "Hand, Abernathy and Denesik",
-      "ToolTip": "Quibusdam iste quo aut sint quam incidunt officia.",
+      "Id": 308,
+      "Name": "Schumm, Lockman and Schowalter",
+      "ToolTip": "Velit culpa odit dolores.",
       "Deleted": false,
-      "Rank": 577,
-      "Type": "quia",
+      "Rank": 790,
+      "Type": "sed",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quos",
-      "ColorBlock": 358,
-      "ExtraInfo": "corrupti",
-      "StyleHint": "ad",
-      "FullName": "Cecil Kuvalis",
+      "IconHint": "totam",
+      "ColorBlock": 754,
+      "ExtraInfo": "ut",
+      "StyleHint": "eaque",
+      "FullName": "Bonnie Mosciski DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 330
+          "FieldType": "System.String",
+          "FieldLength": 734
         }
       }
     }
   ],
-  "NickName": "Johns Inc and Sons",
-  "WaitingForApproval": false,
+  "NickName": "Grimes Group",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "vero",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "doloremque",
-    "CustomFields2": "quasi"
+    "CustomFields1": "quo",
+    "CustomFields2": "debitis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Bosco Group",
-      "DisplayName": "Beier, Satterfield and Brown",
-      "Description": "Vision-oriented modular time-frame",
-      "ToolTip": "Molestias dolores eos id cupiditate est eos.",
+      "Name": "Hegmann LLC",
+      "DisplayName": "Daniel-Christiansen",
+      "Description": "Distributed didactic conglomeration",
+      "ToolTip": "Totam est adipisci officia adipisci vel quae.",
       "Actions": "Implicit",
-      "ActionData": "harum",
+      "ActionData": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 334
+          "FieldType": "System.String",
+          "FieldLength": 809
         }
       }
     }
@@ -265,7 +265,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldLength": 925
     }
   }
 }

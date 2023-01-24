@@ -70,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 970,
-  "RejectReason": "",
+  "AppointmentId": 895,
+  "RejectReason": "iterate revolutionary markets",
   "UpdateMode": "OnlyThis",
   "SmtpEMailConnectionInfo": null
 }

@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 931
+  "QuickReplyId": 85
 }
 ```
 
@@ -90,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Vandervort-Wunsch",
-  "UpdatedByFullName": "Maximilian Danielle Donnelly DVM",
-  "Updated": "2003-07-16T17:37:17.3512413+02:00",
-  "HtmlBody": "aut",
+  "Name": "Hamill, Lubowitz and Harris",
+  "UpdatedByFullName": "Ralph Nicolas MD",
+  "Updated": "2014-08-10T11:22:37.7898385+02:00",
+  "HtmlBody": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 807
+      "FieldLength": 266
     }
   }
 }

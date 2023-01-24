@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 823
+  "RoleId": 105
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Name": "Swift-Brown",
-    "ToolTip": "Cum est aut.",
+    "Id": 964,
+    "Name": "Abbott, Hane and Spinka",
+    "ToolTip": "Fugiat omnis aut est odit tempore.",
     "Deleted": false,
-    "Rank": 185,
-    "Type": "quisquam",
-    "ColorBlock": 807,
-    "IconHint": "nulla",
-    "Selected": true,
-    "LastChanged": "2010-10-22T17:37:19.5509761+02:00",
+    "Rank": 181,
+    "Type": "aperiam",
+    "ColorBlock": 378,
+    "IconHint": "doloribus",
+    "Selected": false,
+    "LastChanged": "1998-02-26T11:22:39.617529+01:00",
     "ChildItems": [
       {
-        "Id": 152,
-        "Name": "Macejkovic Inc and Sons",
-        "ToolTip": "Et ullam est quod excepturi voluptatum repudiandae.",
-        "Deleted": false,
-        "Rank": 908,
-        "Type": "dicta",
-        "ColorBlock": 86,
-        "IconHint": "consequuntur",
-        "Selected": false,
-        "LastChanged": "2003-04-30T17:37:19.5509761+02:00",
+        "Id": 700,
+        "Name": "Mitchell-Paucek",
+        "ToolTip": "Dolores quidem.",
+        "Deleted": true,
+        "Rank": 921,
+        "Type": "velit",
+        "ColorBlock": 150,
+        "IconHint": "enim",
+        "Selected": true,
+        "LastChanged": "1996-06-03T11:22:39.617529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "at",
         "Hidden": false,
-        "FullName": "Virgie Luettgen",
+        "FullName": "Miss Lafayette Stephany Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 897
+            "FieldType": "System.Int32",
+            "FieldLength": 116
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "consequatur",
-    "Hidden": true,
-    "FullName": "Lavada Jennifer Rath MD",
+    "ExtraInfo": "autem",
+    "StyleHint": "praesentium",
+    "Hidden": false,
+    "FullName": "Mafalda Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldType": "System.String",
+        "FieldLength": 347
       }
     }
   }

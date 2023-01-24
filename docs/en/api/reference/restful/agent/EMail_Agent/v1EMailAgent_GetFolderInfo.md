@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "voluptatem",
-    "qui"
+    "sed",
+    "fugit"
   ]
 }
 ```
@@ -104,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Treutel LLC",
-    "Delimiter": "est",
-    "Flags": "fugit",
-    "TotalItems": 284,
-    "UnreadItems": 393,
-    "Subscribed": true,
-    "EmailFolderId": 904,
+    "Name": "Bauch-Oberbrunner",
+    "Delimiter": "voluptatem",
+    "Flags": "minima",
+    "TotalItems": 105,
+    "UnreadItems": 209,
+    "Subscribed": false,
+    "EmailFolderId": 679,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldType": "System.Int32",
+        "FieldLength": 427
       }
     }
   }

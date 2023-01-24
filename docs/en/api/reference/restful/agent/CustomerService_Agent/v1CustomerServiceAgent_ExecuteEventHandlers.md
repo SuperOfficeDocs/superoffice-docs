@@ -97,28 +97,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "debitis",
-    "InputValues2": "accusantium"
+    "InputValues1": "optio",
+    "InputValues2": "eligendi"
   },
   "BlockExecution": false,
-  "NavigateTo": "sapiente",
-  "Message": "beatae",
-  "ShowDialog": "dignissimos",
+  "NavigateTo": "corrupti",
+  "Message": "ratione",
+  "ShowDialog": "iure",
   "OutputValues": {
-    "OutputValues1": "consequatur",
-    "OutputValues2": "modi"
+    "OutputValues1": "et",
+    "OutputValues2": "cupiditate"
   },
   "StateValues": {
     "StateValues1": "consectetur",
-    "StateValues2": "est"
+    "StateValues2": "et"
   },
-  "Exception": "animi",
+  "Exception": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldLength": 717
     }
   }
 }

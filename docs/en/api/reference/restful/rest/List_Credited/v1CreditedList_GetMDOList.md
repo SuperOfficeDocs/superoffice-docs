@@ -26,7 +26,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=minus
+GET /api/v1/List/Credited/MDOItems?query=quo
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 624,
-    "Name": "Price, Mayert and Hintz",
-    "ToolTip": "Veniam officia ut.",
-    "Deleted": true,
-    "Rank": 504,
-    "Type": "nemo",
+    "Id": 267,
+    "Name": "Schiller-Durgan",
+    "ToolTip": "Voluptatem temporibus et minus beatae quaerat deleniti.",
+    "Deleted": false,
+    "Rank": 238,
+    "Type": "totam",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Batz-Jacobson",
-        "ToolTip": "Vel quia libero aut.",
+        "Id": 107,
+        "Name": "Rempel-Williamson",
+        "ToolTip": "Cupiditate reiciendis.",
         "Deleted": false,
-        "Rank": 169,
-        "Type": "quaerat",
+        "Rank": 950,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 116,
-        "ExtraInfo": "asperiores",
-        "StyleHint": "rerum",
-        "FullName": "Janice Nicolas",
+        "IconHint": "natus",
+        "ColorBlock": 449,
+        "ExtraInfo": "sunt",
+        "StyleHint": "harum",
+        "FullName": "Janessa Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 429
+            "FieldType": "System.String",
+            "FieldLength": 135
           }
         }
       }
     ],
-    "IconHint": "ducimus",
-    "ColorBlock": 999,
-    "ExtraInfo": "omnis",
-    "StyleHint": "rerum",
-    "FullName": "Matt Quitzon",
+    "IconHint": "voluptatum",
+    "ColorBlock": 332,
+    "ExtraInfo": "vitae",
+    "StyleHint": "totam",
+    "FullName": "Rodolfo Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 246
+        "FieldType": "System.Int32",
+        "FieldLength": 233
       }
     }
   }

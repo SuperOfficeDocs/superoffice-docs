@@ -59,6 +59,7 @@ Use BatchTaskInfo to describe the new batch job.
 | ProgressDescription | String | Descriptive text for the current stage |
 | ProgressPercent | Integer | Task progress, in percent of estimated total |
 | FileName | String | The filename related to the batchtask. |
+| CancellationBehaviour | String | Indicate if the task can be stopped. |
 
 ## Response:int32
 
@@ -81,30 +82,31 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 399,
-  "Name": "Nader Inc and Sons",
-  "AssociateId": 372,
-  "DetailsTable": 956,
-  "DetailsRecord": 653,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 779,
+  "Name": "Paucek-Wyman",
+  "AssociateId": 726,
+  "DetailsTable": 581,
+  "DetailsRecord": 377,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "voluptates",
-    "ParameterObject2": "dignissimos"
+    "ParameterObject1": "blanditiis",
+    "ParameterObject2": "vero"
   },
-  "LastStarted": "1997-07-25T17:37:39.4004322+02:00",
-  "Created": "2004-12-01T17:37:39.4004322+01:00",
-  "StartCount": 326,
-  "DatabaseSerialNumber": "131217",
-  "Context": "voluptas",
-  "Result": "consequuntur",
+  "LastStarted": "2009-04-09T11:22:45.3817553+02:00",
+  "Created": "2001-03-04T11:22:45.3817553+01:00",
+  "StartCount": 202,
+  "DatabaseSerialNumber": "962501",
+  "Context": "nihil",
+  "Result": "quibusdam",
   "State": "All",
-  "Description": "Enterprise-wide user-facing throughput",
-  "Response": "et",
-  "Request": "qui",
-  "ProgressDescription": "User-friendly human-resource productivity",
-  "ProgressPercent": 621,
-  "FileName": "Turner LLC"
+  "Description": "User-centric logistical solution",
+  "Response": "totam",
+  "Request": "provident",
+  "ProgressDescription": "Ergonomic non-volatile artificial intelligence",
+  "ProgressPercent": 327,
+  "FileName": "Spinka, Kiehn and Corkery",
+  "CancellationBehaviour": "CanCancel"
 }
 ```
 
@@ -114,5 +116,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-243
+89
 ```

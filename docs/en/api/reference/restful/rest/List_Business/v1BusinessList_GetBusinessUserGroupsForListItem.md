@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Jewess, Stroman and Tromp",
-    "ToolTip": "Velit labore sed.",
-    "Deleted": false,
-    "Rank": 140,
-    "Type": "debitis",
-    "ColorBlock": 287,
-    "IconHint": "delectus",
+    "Id": 687,
+    "Name": "Rutherford-Cruickshank",
+    "ToolTip": "Distinctio harum autem.",
+    "Deleted": true,
+    "Rank": 132,
+    "Type": "dicta",
+    "ColorBlock": 482,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2004-07-05T17:37:39.659431+02:00",
+    "LastChanged": "2007-11-16T11:22:45.5848828+01:00",
     "ChildItems": [
       {
-        "Id": 795,
-        "Name": "Parker, Gorczany and Berge",
-        "ToolTip": "Accusamus recusandae ea eos non.",
-        "Deleted": true,
-        "Rank": 972,
-        "Type": "sint",
-        "ColorBlock": 317,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2008-06-19T17:37:39.659431+02:00",
+        "Id": 866,
+        "Name": "Beatty, Adams and Heathcote",
+        "ToolTip": "Repellat earum voluptas quae.",
+        "Deleted": false,
+        "Rank": 670,
+        "Type": "cum",
+        "ColorBlock": 282,
+        "IconHint": "architecto",
+        "Selected": false,
+        "LastChanged": "2018-05-04T11:22:45.5848828+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "non",
+        "ExtraInfo": "commodi",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Anita Marvin",
+        "FullName": "Mr. Antwan Marilou Reilly MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 584
+            "FieldLength": 115
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "dolores",
+    "ExtraInfo": "ut",
+    "StyleHint": "suscipit",
     "Hidden": true,
-    "FullName": "Ms. Casimir West",
+    "FullName": "Davin Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 918
+        "FieldLength": 929
       }
     }
   }

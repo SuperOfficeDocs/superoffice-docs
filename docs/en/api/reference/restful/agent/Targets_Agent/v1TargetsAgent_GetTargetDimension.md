@@ -25,7 +25,7 @@ Gets a TargetDimension object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Targets/GetTargetDimension?targetDimensionId=731
+POST /api/v1/Agents/Targets/GetTargetDimension?targetDimensionId=866
 POST /api/v1/Agents/Targets/GetTargetDimension?$select=name,department,category/id
 ```
 
@@ -84,24 +84,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 231,
+  "TargetDimensionId": 481,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "assumenda",
-  "DimensionListName": "Quigley, Keeling and Parker",
-  "DimensionListId": 477,
-  "DimensionListLabel": "velit",
+  "DimensionListField": "dolorem",
+  "DimensionListName": "Lemke LLC",
+  "DimensionListId": 49,
+  "DimensionListLabel": "reiciendis",
   "SelectedDimensions": [
-    946,
-    871
+    197,
+    440
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldLength": 620
     }
   }
 }

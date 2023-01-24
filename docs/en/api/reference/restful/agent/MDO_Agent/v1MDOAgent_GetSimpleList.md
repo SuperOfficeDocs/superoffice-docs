@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bode LLC"
+  "Name": "Bogisich-Rath"
 }
 ```
 
@@ -99,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Wiza, Gorczany and Schinner",
-    "ToolTip": "Vel esse minima amet et.",
+    "Id": 698,
+    "Name": "Williamson-Larson",
+    "ToolTip": "Distinctio eligendi.",
     "Deleted": false,
-    "Rank": 596,
-    "Type": "recusandae",
+    "Rank": 826,
+    "Type": "assumenda",
     "ChildItems": [
       {
-        "Id": 417,
-        "Name": "Ebert, Lynch and Mills",
-        "ToolTip": "Cumque aut ut ad quis modi inventore aliquam.",
-        "Deleted": false,
-        "Rank": 547,
-        "Type": "eum",
+        "Id": 337,
+        "Name": "Farrell-Dooley",
+        "ToolTip": "Ex porro voluptas natus accusantium aut.",
+        "Deleted": true,
+        "Rank": 851,
+        "Type": "repellat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequuntur",
-        "ColorBlock": 77,
-        "ExtraInfo": "vel",
-        "StyleHint": "soluta",
-        "FullName": "Asia Robel",
+        "IconHint": "quisquam",
+        "ColorBlock": 961,
+        "ExtraInfo": "sequi",
+        "StyleHint": "suscipit",
+        "FullName": "Mrs. Katelyn Ramiro Armstrong",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 828
+            "FieldLength": 889
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 344,
-    "ExtraInfo": "earum",
-    "StyleHint": "adipisci",
-    "FullName": "Dr. Fritz Miller Sr.",
+    "IconHint": "et",
+    "ColorBlock": 146,
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "reprehenderit",
+    "FullName": "Jaiden Spencer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 835
+        "FieldType": "System.Int32",
+        "FieldLength": 364
       }
     }
   }

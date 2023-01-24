@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Blick Group",
-    "ToolTip": "Aut optio magnam et omnis provident voluptate officia.",
-    "Deleted": false,
-    "Rank": 698,
-    "Type": "nisi",
-    "ColorBlock": 770,
-    "IconHint": "ex",
+    "Id": 967,
+    "Name": "Shields-Kreiger",
+    "ToolTip": "Quia qui delectus a voluptas voluptatem ipsam et.",
+    "Deleted": true,
+    "Rank": 429,
+    "Type": "numquam",
+    "ColorBlock": 122,
+    "IconHint": "error",
     "Selected": true,
-    "LastChanged": "2019-11-23T17:37:40.2184703+01:00",
+    "LastChanged": "2009-04-18T11:22:46.0847653+02:00",
     "ChildItems": [
       {
-        "Id": 856,
-        "Name": "Lubowitz Inc and Sons",
-        "ToolTip": "Vero voluptatibus impedit sed molestiae vitae enim quam.",
+        "Id": 207,
+        "Name": "Turcotte, Sawayn and Adams",
+        "ToolTip": "Delectus id blanditiis voluptatem quod illum aperiam ratione.",
         "Deleted": false,
-        "Rank": 624,
-        "Type": "quia",
-        "ColorBlock": 7,
-        "IconHint": "id",
+        "Rank": 830,
+        "Type": "qui",
+        "ColorBlock": 774,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "2014-07-04T17:37:40.2184703+02:00",
+        "LastChanged": "2003-03-01T11:22:46.0847653+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "totam",
+        "ExtraInfo": "dolore",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Mr. Enrique Vena Kozey III"
+        "FullName": "Hugh Weber"
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "tempore",
+    "ExtraInfo": "facere",
+    "StyleHint": "rerum",
     "Hidden": true,
-    "FullName": "Mrs. Emerson Heathcote MD"
+    "FullName": "Zola Eichmann"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Name": "Bartell, Macejkovic and Rolfson",
-    "ToolTip": "Quis maiores reprehenderit explicabo.",
-    "Deleted": true,
-    "Rank": 202,
-    "Type": "natus",
-    "ColorBlock": 542,
-    "IconHint": "facere",
+    "Id": 868,
+    "Name": "Fadel-Legros",
+    "ToolTip": "Qui aut veritatis ullam.",
+    "Deleted": false,
+    "Rank": 985,
+    "Type": "totam",
+    "ColorBlock": 471,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2010-05-26T17:37:40.2194703+02:00",
+    "LastChanged": "1998-04-27T11:22:46.0847653+02:00",
     "ChildItems": [
       {
-        "Id": 484,
-        "Name": "D'Amore, Stokes and Armstrong",
-        "ToolTip": "Nisi unde hic repellendus iste quo maiores.",
-        "Deleted": true,
-        "Rank": 467,
-        "Type": "quos",
-        "ColorBlock": 855,
-        "IconHint": "nihil",
+        "Id": 59,
+        "Name": "Weber Group",
+        "ToolTip": "Qui voluptatibus.",
+        "Deleted": false,
+        "Rank": 516,
+        "Type": "unde",
+        "ColorBlock": 536,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2020-10-25T17:37:40.2204705+01:00",
+        "LastChanged": "1999-12-22T11:22:46.0847653+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "dicta",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Sarai Batz",
+        "FullName": "Haylee Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 70
+            "FieldType": "System.Int32",
+            "FieldLength": 243
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "aut",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Miss Garrick Helena Goodwin DVM",
+    "FullName": "Prof. Michael Brandy Jakubowski IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldType": "System.String",
+        "FieldLength": 835
       }
     }
   }

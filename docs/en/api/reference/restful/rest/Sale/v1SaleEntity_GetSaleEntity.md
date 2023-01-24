@@ -32,7 +32,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=True
+GET /api/v1/Sale/{id}?fk=False
 ```
 
 
@@ -118,7 +118,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 18 Jan 2022 17:37:39 G1T
+Last-Modified: Wed, 21 Feb 2001 11:22:45 G2T
 
 {
   "Appointment": null,
@@ -135,7 +135,7 @@ Last-Modified: Tue, 18 Jan 2022 17:37:39 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "temporibus",
+  "SaleText": "sed",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -144,113 +144,113 @@ Last-Modified: Tue, 18 Jan 2022 17:37:39 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2013-12-03T17:37:39.1163033+01:00",
-  "Amount": 13256.82,
-  "SaleId": 726,
-  "Earning": 13545.148,
-  "EarningPercent": 30402.933999999997,
-  "Heading": "facere",
-  "Number": "1084771",
-  "Probability": 950,
-  "CreatedDate": "2015-01-26T17:37:39.1163033+01:00",
-  "UpdatedDate": "2022-01-18T17:37:39.1163033+01:00",
+  "Saledate": "2021-10-07T11:22:45.1318555+02:00",
+  "Amount": 141.03,
+  "SaleId": 917,
+  "Earning": 12636.288,
+  "EarningPercent": 23363.969999999998,
+  "Heading": "non",
+  "Number": "931168",
+  "Probability": 49,
+  "CreatedDate": "2019-01-10T11:22:45.1318555+01:00",
+  "UpdatedDate": "2001-02-21T11:22:45.1318555+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 839,
+  "ActiveLinks": 207,
   "Links": [
     {
-      "EntityName": "Metz-Langworth",
-      "Id": 576,
-      "Description": "Ergonomic holistic array",
-      "ExtraInfo": "officia",
-      "LinkId": 125,
+      "EntityName": "Ward-Upton",
+      "Id": 572,
+      "Description": "Proactive zero defect portal",
+      "ExtraInfo": "ipsa",
+      "LinkId": 447,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldLength": 599
         }
       }
     }
   ],
-  "NextDueDate": "1998-09-26T17:37:39.1163033+02:00",
-  "Postit": "qui",
+  "NextDueDate": "2000-09-02T11:22:45.1318555+02:00",
+  "Postit": "quisquam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1996-11-21T17:37:39.117304+01:00",
+  "ReopenDate": "2014-05-19T11:22:45.1318555+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Emmerich, Bruen and Vandervort",
-      "Comment": "quasi",
-      "StakeholderRoleId": 823,
-      "CountryId": 450,
-      "PersonId": 886,
-      "EmailDescription": "demetris@schamberger.ca",
-      "EmailId": 86,
-      "EmailAddress": "queenie@trompabbott.biz",
-      "PhoneId": 941,
-      "ContactName": "Walsh, Hickle and Corkery",
-      "ContactId": 559,
-      "SaleId": 581,
-      "Mrmrs": "provident",
-      "Firstname": "Claudine",
-      "MiddleName": "Quitzon Group",
-      "Lastname": "Schuppe",
-      "SaleStakeholderId": 21,
-      "Rank": 727,
-      "Phone": "1-966-273-1302",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 940
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 988,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Layne Quigley",
-    "SuperOffice:2": "Mrs. Una Alessandra Kovacek III"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "quisquam"
-  },
-  "CustomFields": {
-    "CustomFields1": "deleniti",
-    "CustomFields2": "quasi"
-  },
-  "PublishEventDate": "2000-10-13T17:37:39.1183032+02:00",
-  "PublishTo": "2017-07-19T17:37:39.1183032+02:00",
-  "PublishFrom": "2004-10-04T17:37:39.1183032+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 561,
-      "Visibility": "All",
-      "DisplayValue": "rerum",
+      "StakeholderRoleName": "Konopelski-Franecki",
+      "Comment": "voluptas",
+      "StakeholderRoleId": 468,
+      "CountryId": 979,
+      "PersonId": 738,
+      "EmailDescription": "deshawn_pacocha@larkin.biz",
+      "EmailId": 488,
+      "EmailAddress": "shayne@hauck.name",
+      "PhoneId": 530,
+      "ContactName": "Kihn-Harvey",
+      "ContactId": 713,
+      "SaleId": 889,
+      "Mrmrs": "ut",
+      "Firstname": "Silas",
+      "MiddleName": "Muller-Maggio",
+      "Lastname": "Murazik",
+      "SaleStakeholderId": 635,
+      "Rank": 479,
+      "Phone": "174.196.5901 x489",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldLength": 790
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 805,
+  "UserDefinedFields": {
+    "SuperOffice:1": "579285552",
+    "SuperOffice:2": "Athena Langworth"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "soluta",
+    "ExtraFields2": "veniam"
+  },
+  "CustomFields": {
+    "CustomFields1": "libero",
+    "CustomFields2": "iste"
+  },
+  "PublishEventDate": "2007-01-08T11:22:45.1318555+01:00",
+  "PublishTo": "2015-07-24T11:22:45.1318555+02:00",
+  "PublishFrom": "2021-09-26T11:22:45.1318555+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 287,
+      "Visibility": "All",
+      "DisplayValue": "dolor",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 558
         }
       }
     },
     {
-      "VisibleId": 561,
+      "VisibleId": 287,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldType": "System.Int32",
+          "FieldLength": 558
         }
       }
     }
@@ -259,13 +259,13 @@ Last-Modified: Tue, 18 Jan 2022 17:37:39 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldType": "System.String",
+      "FieldLength": 122
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

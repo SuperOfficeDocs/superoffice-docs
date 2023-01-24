@@ -25,7 +25,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=584
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=527
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,53 +97,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 739,
-  "Name": "Douglas-Nitzsche",
-  "Tooltip": "rerum",
-  "Rank": 225,
+  "SaleTypeId": 684,
+  "Name": "Klocko-Nienow",
+  "Tooltip": "nihil",
+  "Rank": 794,
   "DurationUnit": "Century",
-  "SaleDuration": 268,
-  "SaleTypeCatId": 43,
+  "SaleDuration": 937,
+  "SaleTypeCatId": 525,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 374,
-  "QuoteLinesTemplate": 231,
-  "ConfirmationLinesTemplate": 641,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 663,
-  "MinEarningPercent": 97,
-  "GroupQuoteLinesBy": 213,
-  "SortGroupLinesBy": 605,
+  "DefaultQuoteValidity": 126,
+  "QuoteLinesTemplate": 724,
+  "ConfirmationLinesTemplate": 69,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 222,
+  "MinEarningPercent": 374,
+  "GroupQuoteLinesBy": 41,
+  "SortGroupLinesBy": 557,
   "Stages": [
     {
-      "Id": 678,
-      "Name": "Tillman LLC",
-      "ToolTip": "Ducimus illum at dolores blanditiis.",
+      "Id": 255,
+      "Name": "Corwin, Greenholt and Sawayn",
+      "ToolTip": "Adipisci ea autem est eius nobis.",
       "Deleted": false,
-      "Rank": 219,
-      "Type": "officia",
-      "ColorBlock": 992,
-      "IconHint": "sequi",
-      "Selected": true,
-      "LastChanged": "2017-02-02T17:37:18.1802416+01:00",
+      "Rank": 251,
+      "Type": "quas",
+      "ColorBlock": 277,
+      "IconHint": "magni",
+      "Selected": false,
+      "LastChanged": "2009-10-20T11:22:38.445931+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatibus",
-      "StyleHint": "aspernatur",
-      "Hidden": false,
-      "FullName": "Lester Johns",
+      "ExtraInfo": "sint",
+      "StyleHint": "excepturi",
+      "Hidden": true,
+      "FullName": "Dr. Meagan Jast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldType": "System.String",
+          "FieldLength": 108
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 984
+      "FieldType": "System.Int32",
+      "FieldLength": 742
     }
   }
 }

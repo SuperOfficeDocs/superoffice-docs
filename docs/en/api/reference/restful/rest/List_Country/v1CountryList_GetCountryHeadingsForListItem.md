@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Gottlieb, Cronin and Littel",
-    "ToolTip": "Eius voluptate.",
-    "Deleted": false,
-    "Rank": 547,
-    "Type": "excepturi",
-    "ColorBlock": 412,
-    "IconHint": "eveniet",
-    "Selected": true,
-    "LastChanged": "2016-01-05T17:37:39.9315023+01:00",
+    "Id": 195,
+    "Name": "Frami, Schmidt and Konopelski",
+    "ToolTip": "Quidem veritatis ut delectus exercitationem molestias.",
+    "Deleted": true,
+    "Rank": 872,
+    "Type": "exercitationem",
+    "ColorBlock": 434,
+    "IconHint": "sequi",
+    "Selected": false,
+    "LastChanged": "2020-08-11T11:22:45.8504363+02:00",
     "ChildItems": [
       {
-        "Id": 288,
-        "Name": "Cummings-Schiller",
-        "ToolTip": "Non dolor.",
+        "Id": 593,
+        "Name": "Bauch-Hamill",
+        "ToolTip": "Voluptas perspiciatis nam sint voluptatem ratione et.",
         "Deleted": false,
-        "Rank": 872,
-        "Type": "nulla",
-        "ColorBlock": 82,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2013-09-30T17:37:39.9324703+02:00",
+        "Rank": 477,
+        "Type": "porro",
+        "ColorBlock": 223,
+        "IconHint": "dolores",
+        "Selected": false,
+        "LastChanged": "2006-09-06T11:22:45.8504363+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "amet",
-        "Hidden": true,
-        "FullName": "Dr. Terrance Clair Stamm Jr.",
+        "ExtraInfo": "provident",
+        "StyleHint": "quaerat",
+        "Hidden": false,
+        "FullName": "Prof. Broderick Jacobs",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 730
+            "FieldLength": 360
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "odio",
-    "Hidden": false,
-    "FullName": "Chaz Rae VonRueden DDS",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "necessitatibus",
+    "Hidden": true,
+    "FullName": "Charlene Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 909
       }
     }
   }

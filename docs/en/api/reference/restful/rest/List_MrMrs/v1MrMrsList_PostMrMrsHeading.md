@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 887,
-  "Name": "Doyle Group",
-  "Tooltip": "deleniti",
+  "HeadingId": 846,
+  "Name": "Gibson-Frami",
+  "Tooltip": "sapiente",
   "Deleted": false,
-  "Rank": 358,
-  "UdListDefinitionId": 10
+  "Rank": 623,
+  "UdListDefinitionId": 454
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 464,
-  "Name": "Sporer Inc and Sons",
-  "Tooltip": "occaecati",
-  "Deleted": true,
-  "Rank": 95,
-  "UdListDefinitionId": 466,
+  "HeadingId": 6,
+  "Name": "Daugherty, Mueller and Rohan",
+  "Tooltip": "voluptates",
+  "Deleted": false,
+  "Rank": 202,
+  "UdListDefinitionId": 262,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldLength": 665
     }
   }
 }

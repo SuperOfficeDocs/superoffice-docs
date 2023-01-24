@@ -26,7 +26,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=facere
+GET /api/v1/List/Business/MDOItems?query=eos
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 263,
-    "Name": "Daniel-Runolfsdottir",
-    "ToolTip": "Voluptatem aut magnam provident voluptates.",
-    "Deleted": true,
-    "Rank": 767,
-    "Type": "et",
+    "Id": 770,
+    "Name": "Pagac, Braun and Heaney",
+    "ToolTip": "Sed dolor et debitis et maiores.",
+    "Deleted": false,
+    "Rank": 608,
+    "Type": "perferendis",
     "ChildItems": [
       {
-        "Id": 545,
-        "Name": "Anderson Inc and Sons",
-        "ToolTip": "Enim et.",
-        "Deleted": false,
-        "Rank": 150,
-        "Type": "voluptatem",
+        "Id": 908,
+        "Name": "Simonis-Goldner",
+        "ToolTip": "Harum et nulla ad.",
+        "Deleted": true,
+        "Rank": 521,
+        "Type": "temporibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 106,
-        "ExtraInfo": "facere",
-        "StyleHint": "eaque",
-        "FullName": "Ms. Eduardo Balistreri PhD",
+        "IconHint": "doloremque",
+        "ColorBlock": 957,
+        "ExtraInfo": "qui",
+        "StyleHint": "quae",
+        "FullName": "Jamal Schaden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 156
+            "FieldLength": 535
           }
         }
       }
     ],
-    "IconHint": "maiores",
-    "ColorBlock": 429,
-    "ExtraInfo": "molestias",
-    "StyleHint": "consectetur",
-    "FullName": "Adela Botsford",
+    "IconHint": "repudiandae",
+    "ColorBlock": 289,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "odio",
+    "FullName": "Dr. Mohammed Turcotte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldLength": 162
       }
     }
   }

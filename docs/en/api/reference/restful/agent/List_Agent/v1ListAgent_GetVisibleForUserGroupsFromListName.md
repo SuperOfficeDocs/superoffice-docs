@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Williamson Inc and Sons",
-  "ListItemId": 278
+  "UdListDefinitionName": "Pfannerstill-Funk",
+  "ListItemId": 60
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "Ankunding Inc and Sons",
-    "ToolTip": "Possimus et.",
-    "Deleted": false,
-    "Rank": 146,
-    "Type": "officia",
-    "ColorBlock": 756,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "2017-06-09T17:37:18.1942445+02:00",
+    "Id": 124,
+    "Name": "Schumm, Nicolas and Stanton",
+    "ToolTip": "Dolores recusandae possimus asperiores sit ea repellat ut.",
+    "Deleted": true,
+    "Rank": 840,
+    "Type": "ducimus",
+    "ColorBlock": 72,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2014-02-27T11:22:38.4615502+01:00",
     "ChildItems": [
       {
-        "Id": 897,
-        "Name": "Konopelski LLC",
-        "ToolTip": "Quidem architecto dolore.",
+        "Id": 620,
+        "Name": "Bailey-Koss",
+        "ToolTip": "Harum est impedit esse culpa.",
         "Deleted": true,
-        "Rank": 576,
-        "Type": "modi",
-        "ColorBlock": 235,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2021-03-30T17:37:18.1942445+02:00",
+        "Rank": 880,
+        "Type": "delectus",
+        "ColorBlock": 941,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2000-06-14T11:22:38.4615502+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "nam",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Alexie Lemke V",
+        "FullName": "Erin Pfannerstill Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 453
+            "FieldLength": 273
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "eaque",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Deion Braun",
+    "FullName": "Dr. Sonny Adeline Lindgren II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldLength": 14
       }
     }
   }

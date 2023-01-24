@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 905,
-  "StartTime": "2009-12-05T17:37:17.4152439+01:00",
-  "EndTime": "2016-10-21T17:37:17.4152439+02:00",
-  "Count": 491,
-  "DocumentTemplateId": 13
+  "ContactId": 302,
+  "StartTime": "2011-06-26T11:22:37.8366954+02:00",
+  "EndTime": "2009-07-14T11:22:37.8366954+02:00",
+  "Count": 659,
+  "DocumentTemplateId": 416
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 572,
-    "Attention": "impedit",
-    "Header": "et",
-    "Name": "Shanahan-Sipes",
-    "OurRef": "doloremque",
-    "YourRef": "sed",
-    "Description": "Organic attitude-oriented frame",
-    "DocumentTemplate": "eius",
+    "DocumentId": 625,
+    "Attention": "sit",
+    "Header": "eos",
+    "Name": "Wyman, Gutkowski and Shields",
+    "OurRef": "hic",
+    "YourRef": "ea",
+    "Description": "Managed 6th generation methodology",
+    "DocumentTemplate": "est",
     "IsPublished": false,
-    "PersonId": 354,
-    "PersonFullName": "Kamryn Sauer",
-    "AssociateFullName": "Cesar Krajcik",
-    "ContactId": 829,
-    "ContactName": "Feest-Schumm",
-    "ProjectId": 226,
-    "ProjectName": "Spencer Inc and Sons",
-    "AssociateId": 669,
-    "Snum": 708,
-    "SaleId": 522,
-    "SaleName": "Mitchell Group",
+    "PersonId": 303,
+    "PersonFullName": "Lambert Oberbrunner",
+    "AssociateFullName": "Miss Miller Mackenzie Kuvalis IV",
+    "ContactId": 358,
+    "ContactName": "Yost, Reynolds and Mraz",
+    "ProjectId": 181,
+    "ProjectName": "Mann-Runolfsdottir",
+    "AssociateId": 405,
+    "Snum": 84,
+    "SaleId": 925,
+    "SaleName": "Waters, Torp and Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 377
+        "FieldLength": 667
       }
     }
   }

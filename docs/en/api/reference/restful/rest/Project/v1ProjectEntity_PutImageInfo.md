@@ -30,7 +30,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=467
+PUT /api/v1/Project/{id}/ImageInfo?projectId=844
 ```
 
 
@@ -107,19 +107,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 783,
-  "BlobSize": 574,
-  "Description": "Robust empowering infrastructure",
-  "ExtraInfo": "voluptatum",
+  "BlobId": 897,
+  "BlobSize": 522,
+  "Description": "Team-oriented dynamic toolset",
+  "ExtraInfo": "molestias",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 316,
-  "CreatedDate": "2007-01-18T17:37:39.0333033+01:00",
-  "UpdatedDate": "1998-07-10T17:37:39.0333033+02:00",
+  "MimeType": "quod",
+  "OriginalSize": 440,
+  "CreatedDate": "1998-08-31T11:22:45.0537619+02:00",
+  "UpdatedDate": "2014-09-13T11:22:45.0537619+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "iure"
+  "ConceptualType": "laborum"
 }
 ```
 
@@ -130,25 +130,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 895,
-  "BlobSize": 540,
-  "Description": "Cloned attitude-oriented local area network",
-  "ExtraInfo": "dolorem",
+  "BlobId": 356,
+  "BlobSize": 353,
+  "Description": "Horizontal tangible artificial intelligence",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "soluta",
-  "OriginalSize": 549,
-  "CreatedDate": "2006-03-29T17:37:39.0343059+02:00",
-  "UpdatedDate": "2018-09-16T17:37:39.0343059+02:00",
+  "IsZipped": true,
+  "MimeType": "perferendis",
+  "OriginalSize": 405,
+  "CreatedDate": "2000-04-14T11:22:45.0693694+02:00",
+  "UpdatedDate": "1997-11-17T11:22:45.0693694+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "illum",
+  "ConceptualType": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 118
     }
   }
 }

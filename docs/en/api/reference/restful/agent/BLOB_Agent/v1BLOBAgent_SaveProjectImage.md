@@ -68,7 +68,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Realigned web-enabled array",
+  "Description": "Visionary 4th generation access",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Fadel, Terry and McCullough",
-    "Tooltip": "recusandae",
-    "Deleted": true,
-    "UdListDefinitionId": 643,
-    "Rank": 906,
+    "Id": 214,
+    "Name": "Green-Stracke",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "UdListDefinitionId": 480,
+    "Rank": 280,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldLength": 323
       }
     }
   }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 782
+  "Id": 308
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 794,
-    "Name": "Kreiger-Satterfield",
-    "Tooltip": "nisi",
-    "Deleted": true,
-    "Rank": 696,
-    "UdListDefinitionId": 989,
+    "HeadingId": 240,
+    "Name": "Thompson-Strosin",
+    "Tooltip": "perferendis",
+    "Deleted": false,
+    "Rank": 229,
+    "UdListDefinitionId": 458,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 602
       }
     }
   }

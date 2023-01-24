@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 127,
-    "Name": "Kassulke LLC",
-    "ToolTip": "Earum id est doloribus quis unde optio quo.",
-    "Deleted": true,
-    "Rank": 816,
-    "Type": "unde",
-    "ColorBlock": 886,
-    "IconHint": "asperiores",
+    "Id": 193,
+    "Name": "Cruickshank, Brown and Weissnat",
+    "ToolTip": "Perspiciatis commodi quis consectetur velit provident sequi.",
+    "Deleted": false,
+    "Rank": 771,
+    "Type": "vel",
+    "ColorBlock": 62,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2011-06-23T17:37:40.3215019+02:00",
+    "LastChanged": "2008-09-17T11:22:46.1628721+02:00",
     "ChildItems": [
       {
-        "Id": 388,
-        "Name": "Walker, Turcotte and Wisozk",
-        "ToolTip": "Sapiente veniam doloremque placeat repellat iure sit quis.",
+        "Id": 86,
+        "Name": "Crist LLC",
+        "ToolTip": "Est dicta consequatur.",
         "Deleted": false,
-        "Rank": 795,
-        "Type": "veritatis",
-        "ColorBlock": 279,
-        "IconHint": "voluptatem",
+        "Rank": 229,
+        "Type": "ipsum",
+        "ColorBlock": 794,
+        "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "2021-04-28T17:37:40.3215019+02:00",
+        "LastChanged": "2002-10-26T11:22:46.1628721+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "iusto",
-        "Hidden": false,
-        "FullName": "Quinton Schaefer",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Josue Stehr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 993
+            "FieldType": "System.String",
+            "FieldLength": 122
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Johnnie Lubowitz",
+    "ExtraInfo": "ut",
+    "StyleHint": "veniam",
+    "Hidden": true,
+    "FullName": "Darian Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 629
+        "FieldLength": 561
       }
     }
   }

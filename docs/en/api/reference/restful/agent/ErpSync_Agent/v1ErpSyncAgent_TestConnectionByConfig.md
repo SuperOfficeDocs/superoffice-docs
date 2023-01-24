@@ -74,10 +74,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 190,
+  "ErpConnectionId": 370,
   "ConfigFields": {
-    "ConfigFields1": "saepe",
-    "ConfigFields2": "consequatur"
+    "ConfigFields1": "quia",
+    "ConfigFields2": "quasi"
   }
 }
 ```
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

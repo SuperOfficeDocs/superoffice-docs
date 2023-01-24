@@ -123,14 +123,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "perferendis",
-    "odio"
+    "qui",
+    "modi"
   ]
 }
 ```
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 454,
-  "ERPQuoteLineKey": "modi",
-  "QuoteAlternativeId": 971,
-  "ERPProductKey": "est",
+  "QuoteLineId": 128,
+  "ERPQuoteLineKey": "vitae",
+  "QuoteAlternativeId": 740,
+  "ERPProductKey": "libero",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 17826.192,
-  "DeliveredQuantity": 14676.521999999999,
-  "Rank": 220,
-  "Name": "Feest, Stiedemann and Conn",
-  "Description": "Diverse zero defect hub",
-  "Code": "voluptas",
-  "QuantityUnit": "ut",
-  "PriceUnit": "adipisci",
-  "ItemNumber": "895413",
+  "Quantity": 7248.942,
+  "DeliveredQuantity": 13993.31,
+  "Rank": 494,
+  "Name": "Heidenreich LLC",
+  "Description": "Reverse-engineered discrete archive",
+  "Code": "ad",
+  "QuantityUnit": "sit",
+  "PriceUnit": "explicabo",
+  "ItemNumber": "158936",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "non",
-  "ProductTypeKey": "sit",
-  "Supplier": "maiores",
-  "SupplierCode": "atque",
-  "Thumbnail": "est",
-  "VATInfo": "sed",
-  "VAT": 11432.832,
-  "UnitCost": 8211.08,
-  "UnitMinimumPrice": 7270.88,
-  "UnitListPrice": 8913.096,
+  "ProductFamilyKey": "quam",
+  "ProductTypeKey": "doloremque",
+  "Supplier": "quidem",
+  "SupplierCode": "maiores",
+  "Thumbnail": "magnam",
+  "VATInfo": "eaque",
+  "VAT": 28682.368,
+  "UnitCost": 26560.649999999998,
+  "UnitMinimumPrice": 9975.521999999999,
+  "UnitListPrice": 20881.842,
   "ExtraInfo": [
     {
-      "Name": "Sporer, Walter and Hettinger",
-      "Value": "sint",
+      "Name": "Dicki Inc and Sons",
+      "Value": "atque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 532
+          "FieldType": "System.Int32",
+          "FieldLength": 492
         }
       }
     },
     {
-      "Name": "Sporer, Walter and Hettinger",
-      "Value": "sint",
+      "Name": "Dicki Inc and Sons",
+      "Value": "atque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 532
+          "FieldType": "System.Int32",
+          "FieldLength": 492
         }
       }
     }
   ],
-  "RawExtraInfo": "est",
+  "RawExtraInfo": "nemo",
   "IsSubscription": false,
-  "SubscriptionUnit": "eos",
-  "SubscriptionQuantity": 25006.185999999998,
-  "SubscriptionStart": "1996-09-13T17:37:18.6822417+02:00",
-  "ERPDiscountPercent": 29556.754,
-  "ERPDiscountAmount": 27391.16,
-  "DiscountPercent": 9781.214,
-  "DiscountAmount": 27058.956,
+  "SubscriptionUnit": "et",
+  "SubscriptionQuantity": 13943.166,
+  "SubscriptionStart": "2006-02-25T11:22:38.8677092+01:00",
+  "ERPDiscountPercent": 27397.428,
+  "ERPDiscountAmount": 8941.302,
+  "DiscountPercent": 10871.846,
+  "DiscountAmount": 19192.615999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 20255.041999999998,
-  "EarningAmount": 20051.332,
-  "SubTotal": 31042.27,
-  "TotalPrice": 8236.152,
-  "Rights": "aliquid",
-  "Rule": "animi",
-  "ExtraField1": "dicta",
-  "ExtraField2": "dolorem",
-  "ExtraField3": "dolores",
-  "ExtraField4": "ea",
-  "ExtraField5": "quia",
+  "EarningPercent": 29678.98,
+  "EarningAmount": 31145.692,
+  "SubTotal": 15281.384,
+  "TotalPrice": 23163.394,
+  "Rights": "at",
+  "Rule": "voluptates",
+  "ExtraField1": "minima",
+  "ExtraField2": "veritatis",
+  "ExtraField3": "magnam",
+  "ExtraField4": "voluptate",
+  "ExtraField5": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldType": "System.String",
+      "FieldLength": 942
     }
   }
 }

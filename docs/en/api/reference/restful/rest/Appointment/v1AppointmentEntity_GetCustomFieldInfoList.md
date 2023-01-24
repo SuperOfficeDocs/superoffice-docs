@@ -66,7 +66,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Sporer Inc and Sons",
-    "DisplayName": "Will Group",
-    "Description": "Sharable optimizing toolset",
-    "ShortLabel": "dignissimos",
+    "FieldName": "Mueller-Casper",
+    "DisplayName": "Will-Beer",
+    "Description": "Seamless needs-based emulation",
+    "ShortLabel": "aut",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsMandatory": true,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 946,
-    "TemplateVariableName": "Deckow Group"
+    "Rank": 270,
+    "TemplateVariableName": "Zemlak, Fahey and Dietrich"
   }
 ]
 ```

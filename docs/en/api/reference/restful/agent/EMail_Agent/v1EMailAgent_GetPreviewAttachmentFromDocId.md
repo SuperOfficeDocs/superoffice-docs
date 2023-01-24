@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 655,
-  "AttachmentId": "blanditiis"
+  "DocId": 76,
+  "AttachmentId": "ea"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Devolved assymetric utilisation",
-  "Filename": "alias",
-  "Size": 422,
-  "Type": "veritatis",
-  "Encoding": "est",
-  "Id": "sunt",
-  "Disposition": "architecto",
+  "Description": "Face to face well-modulated Graphical User Interface",
+  "Filename": "quos",
+  "Size": 781,
+  "Type": "est",
+  "Encoding": "accusantium",
+  "Id": "voluptatem",
+  "Disposition": "earum",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 318
+      "FieldLength": 540
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 562,
-    "Name": "Kiehn Group",
-    "Tooltip": "explicabo",
-    "Deleted": false,
-    "Rank": 690,
+    "WebPanelId": 905,
+    "Name": "Waelchi Inc and Sons",
+    "Tooltip": "nobis",
+    "Deleted": true,
+    "Rank": 313,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
+    "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Gislason-Bosco",
+    "WindowName": "Crist-Collier",
     "Url": "http://www.example.com/",
-    "ProgId": "nemo",
-    "Icon": 380,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "quae",
+    "Icon": 906,
+    "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldLength": 232
       }
     }
   }

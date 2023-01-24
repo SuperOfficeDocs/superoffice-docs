@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 786,
-    "Name": "Stroman-Hirthe",
-    "ToolTip": "Hic atque deserunt voluptatem velit.",
+    "Id": 66,
+    "Name": "Dickens LLC",
+    "ToolTip": "Quo ut quam nostrum natus consectetur quod.",
     "Deleted": false,
-    "Rank": 747,
-    "Type": "et",
-    "ColorBlock": 265,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2000-01-23T17:37:39.9595063+01:00",
+    "Rank": 636,
+    "Type": "enim",
+    "ColorBlock": 588,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2003-06-07T11:22:45.8660551+02:00",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Reichert, McKenzie and Roob",
-        "ToolTip": "Repellendus veniam repudiandae quae.",
+        "Id": 148,
+        "Name": "Heidenreich-Doyle",
+        "ToolTip": "Dolorem cum perspiciatis.",
         "Deleted": false,
-        "Rank": 553,
-        "Type": "esse",
-        "ColorBlock": 709,
-        "IconHint": "doloribus",
+        "Rank": 15,
+        "Type": "ea",
+        "ColorBlock": 88,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2000-11-26T17:37:39.9595063+01:00",
+        "LastChanged": "1997-01-05T11:22:45.8660551+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "nostrum",
-        "Hidden": true,
-        "FullName": "Xavier Gaylord",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "reprehenderit",
+        "Hidden": false,
+        "FullName": "Dr. Kristofer Johns V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 983
+            "FieldType": "System.String",
+            "FieldLength": 100
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "possimus",
-    "Hidden": true,
-    "FullName": "Annamae Weimann",
+    "ExtraInfo": "iure",
+    "StyleHint": "assumenda",
+    "Hidden": false,
+    "FullName": "Ms. Daniela Klocko",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldLength": 792
       }
     }
   }

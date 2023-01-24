@@ -80,21 +80,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 680,
+  "SelectionId": 944,
   "Criteria": [
     {
-      "Name": "Gleason-Brakus",
-      "Description": "Extended bandwidth-monitored flexibility",
-      "Rank": 944,
+      "Name": "Kreiger-Weimann",
+      "Description": "Versatile dedicated firmware",
+      "Rank": 424,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gleason-Brakus",
-      "Description": "Extended bandwidth-monitored flexibility",
-      "Rank": 944,
+      "Name": "Kreiger-Weimann",
+      "Description": "Versatile dedicated firmware",
+      "Rank": 424,
       "Restrictions": [
         {},
         {}
@@ -112,58 +112,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Champlin, Bauch and Wilderman",
-    "Description": "Proactive optimal solution",
-    "Rank": 640,
+    "Name": "Rosenbaum LLC",
+    "Description": "Polarised explicit internet solution",
+    "Rank": 109,
     "Restrictions": [
       {
-        "Name": "Hammes-Gulgowski",
-        "Operator": "et",
+        "Name": "Ryan Inc and Sons",
+        "Operator": "itaque",
         "Values": [
-          "officia",
-          "est"
+          "inventore",
+          "voluptate"
         ],
         "DisplayValues": [
-          "modi",
-          "dolores"
+          "facere",
+          "aut"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 300,
+        "InterParenthesis": 866,
         "InterOperator": "And",
-        "UniqueHash": 953
+        "UniqueHash": 842
       }
     ]
   },
   {
-    "Name": "Champlin, Bauch and Wilderman",
-    "Description": "Proactive optimal solution",
-    "Rank": 640,
+    "Name": "Rosenbaum LLC",
+    "Description": "Polarised explicit internet solution",
+    "Rank": 109,
     "Restrictions": [
       {
-        "Name": "Hammes-Gulgowski",
-        "Operator": "et",
+        "Name": "Ryan Inc and Sons",
+        "Operator": "itaque",
         "Values": [
-          "officia",
-          "est"
+          "inventore",
+          "voluptate"
         ],
         "DisplayValues": [
-          "modi",
-          "dolores"
+          "facere",
+          "aut"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 300,
+        "InterParenthesis": 866,
         "InterOperator": "And",
-        "UniqueHash": 953
+        "UniqueHash": 842
       }
     ]
   }

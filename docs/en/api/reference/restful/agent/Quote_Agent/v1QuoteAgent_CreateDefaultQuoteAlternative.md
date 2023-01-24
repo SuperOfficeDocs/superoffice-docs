@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,35 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 537,
-  "ERPQuoteAlternativeKey": "voluptas",
-  "QuoteVersionId": 993,
-  "Name": "Wehner, Crona and Daniel",
-  "Description": "Total composite success",
+  "QuoteAlternativeId": 992,
+  "ERPQuoteAlternativeKey": "saepe",
+  "QuoteVersionId": 587,
+  "Name": "Gerhold, Hackett and Conn",
+  "Description": "Networked multi-tasking conglomeration",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 8803.405999999999,
-  "ERPDiscountAmount": 15275.116,
-  "DiscountPercent": 1065.56,
-  "DiscountAmount": 1203.456,
+  "ERPDiscountPercent": 23304.424,
+  "ERPDiscountAmount": 20816.028,
+  "DiscountPercent": 20950.79,
+  "DiscountAmount": 23906.152,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "aspernatur",
-  "VAT": 6358.8859999999995,
-  "EarningPercent": 13391.582,
-  "EarningAmount": 5459.428,
-  "SubTotal": 15641.794,
-  "TotalPrice": 22345.42,
-  "ExtraField1": "fuga",
-  "ExtraField2": "odit",
-  "ExtraField3": "numquam",
-  "ExtraField4": "rerum",
-  "ExtraField5": "ipsum",
+  "VATInfo": "et",
+  "VAT": 5142.894,
+  "EarningPercent": 14848.892,
+  "EarningAmount": 5920.126,
+  "SubTotal": 17750.976,
+  "TotalPrice": 21339.406,
+  "ExtraField1": "in",
+  "ExtraField2": "non",
+  "ExtraField3": "voluptas",
+  "ExtraField4": "repudiandae",
+  "ExtraField5": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldLength": 339
     }
   }
 }

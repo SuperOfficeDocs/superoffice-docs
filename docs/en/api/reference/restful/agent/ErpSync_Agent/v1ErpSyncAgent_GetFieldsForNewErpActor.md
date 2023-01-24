@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 270,
+  "ErpConnectionId": 877,
   "ErpActorType": "Customer"
 }
 ```
@@ -101,14 +101,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "doloremque",
-    "Rank": 563,
-    "DisplayName": "Schoen, Miller and Gerhold",
-    "DisplayDescription": "Profit-focused fresh-thinking open architecture",
+    "FieldKey": "animi",
+    "Rank": 77,
+    "DisplayName": "Schroeder, Greenfelder and Kiehn",
+    "DisplayDescription": "Automated composite standardization",
     "FieldType": "Checkbox",
-    "ListName": "Sauer, Hudson and Krajcik",
-    "DefaultValue": "sunt",
-    "MaxLength": 78,
+    "ListName": "Okuneva, Bashirian and Fadel",
+    "DefaultValue": "veniam",
+    "MaxLength": 908,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 858
+        "FieldLength": 727
       }
     }
   }

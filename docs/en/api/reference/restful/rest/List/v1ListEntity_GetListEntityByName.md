@@ -77,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 175,
-  "Name": "Predovic Inc and Sons",
-  "Tooltip": "eveniet",
+  "Id": 791,
+  "Name": "Hammes LLC",
+  "Tooltip": "facere",
   "Deleted": true,
-  "Rank": 175,
+  "Rank": 474,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "commodi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 284
     }
   }
 }

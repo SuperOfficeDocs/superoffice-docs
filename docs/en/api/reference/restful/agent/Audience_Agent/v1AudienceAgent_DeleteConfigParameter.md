@@ -64,12 +64,12 @@ No Content
 POST /api/v1/Agents/Audience/DeleteConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Quitzon, Kuvalis and Grant",
-  "ParameterName": "Becker, Wilderman and McClure"
+  "LayoutName": "Deckow LLC",
+  "ParameterName": "Swift-Bogisich"
 }
 ```
 

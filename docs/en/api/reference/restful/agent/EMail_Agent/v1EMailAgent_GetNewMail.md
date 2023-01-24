@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    59,
-    965
+    633,
+    198
   ]
 }
 ```
@@ -102,45 +102,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 274,
-    "MessageId": "soluta",
-    "Subject": "voluptate",
+    "ServerId": 438,
+    "MessageId": "expedita",
+    "Subject": "suscipit",
     "From": null,
     "To": [
       {
-        "ContactId": 139,
-        "ContactName": "Morissette LLC",
-        "PersonId": 659,
-        "PersonName": "Rice Inc and Sons",
-        "AssociateId": 859,
-        "Address": "harum",
-        "EmailId": 299,
+        "ContactId": 369,
+        "ContactName": "Hane LLC",
+        "PersonId": 992,
+        "PersonName": "Halvorson-Weimann",
+        "AssociateId": 935,
+        "Address": "autem",
+        "EmailId": 497,
         "DuplicatePersonIds": [
-          672,
-          79
+          910,
+          633
         ],
-        "Name": "Crona-Hegmann",
+        "Name": "Prohaska, Leuschke and Mills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 357
+            "FieldType": "System.String",
+            "FieldLength": 214
           }
         }
       }
     ],
-    "Sent": "2021-03-02T17:37:17.8682423+01:00",
+    "Sent": "2020-02-01T11:22:38.1959877+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 814,
+    "Size": 913,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 122
+        "FieldLength": 507
       }
     }
   }

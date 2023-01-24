@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "HeadingId": 637,
-    "Name": "McKenzie Inc and Sons",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 244,
-    "UdListDefinitionId": 176
+    "Name": "Hegmann, Dickinson and Wintheiser",
+    "Tooltip": "in",
+    "Deleted": true,
+    "Rank": 520,
+    "UdListDefinitionId": 530
   },
   {
     "HeadingId": 637,
-    "Name": "McKenzie Inc and Sons",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 244,
-    "UdListDefinitionId": 176
+    "Name": "Hegmann, Dickinson and Wintheiser",
+    "Tooltip": "in",
+    "Deleted": true,
+    "Rank": 520,
+    "UdListDefinitionId": 530
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 141,
-    "Name": "Ryan, Corwin and Rice",
-    "Tooltip": "alias",
+    "HeadingId": 217,
+    "Name": "Lang, Ritchie and Becker",
+    "Tooltip": "corrupti",
     "Deleted": false,
-    "Rank": 7,
-    "UdListDefinitionId": 703,
+    "Rank": 478,
+    "UdListDefinitionId": 369,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldLength": 182
       }
     }
   }

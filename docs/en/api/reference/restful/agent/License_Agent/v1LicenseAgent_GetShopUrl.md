@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/License/GetShopUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Medhurst, Durgan and Kautzer"
+  "OwnerName": "Kutch, Feeney and Koss"
 }
 ```
 

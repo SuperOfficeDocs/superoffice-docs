@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "TextType": "Column",
-  "ResourceId": 670,
-  "LanguageId": 485
+  "ResourceId": 957,
+  "LanguageId": 621
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 546,
-  "ResourceId": 628,
-  "Text": "asperiores",
+  "LanguageId": 708,
+  "ResourceId": 878,
+  "Text": "corrupti",
   "Type": "Column",
-  "LocalizedTextId": 89,
-  "IsBuiltIn": false,
+  "LocalizedTextId": 941,
+  "IsBuiltIn": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldType": "System.String",
+      "FieldLength": 393
     }
   }
 }

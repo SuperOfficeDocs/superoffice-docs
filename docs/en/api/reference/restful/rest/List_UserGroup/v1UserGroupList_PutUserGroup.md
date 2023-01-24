@@ -81,11 +81,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "perferendis",
-  "Tooltip": "doloribus",
-  "Id": 251,
-  "Rank": 691,
-  "Deleted": false
+  "Value": "ipsa",
+  "Tooltip": "nostrum",
+  "Id": 980,
+  "Rank": 391,
+  "Deleted": true
 }
 ```
 
@@ -96,17 +96,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "quod",
-  "Tooltip": "laborum",
-  "Id": 582,
-  "Rank": 900,
+  "Value": "aut",
+  "Tooltip": "doloribus",
+  "Id": 269,
+  "Rank": 473,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 807
+      "FieldType": "System.Int32",
+      "FieldLength": 477
     }
   }
 }

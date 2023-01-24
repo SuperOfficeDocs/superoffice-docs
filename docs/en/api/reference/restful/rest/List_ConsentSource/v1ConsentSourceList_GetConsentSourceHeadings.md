@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 716,
-    "Name": "Schmeler-Batz",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 153,
-    "UdListDefinitionId": 149,
+    "HeadingId": 91,
+    "Name": "O'Conner-Cronin",
+    "Tooltip": "dignissimos",
+    "Deleted": false,
+    "Rank": 76,
+    "UdListDefinitionId": 665,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldLength": 849
       }
     }
   }

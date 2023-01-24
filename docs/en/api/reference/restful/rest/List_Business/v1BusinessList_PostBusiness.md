@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 548,
-  "Name": "Kutch Group",
-  "Tooltip": "fugit",
-  "Deleted": false,
-  "UdListDefinitionId": 786,
-  "Rank": 631
+  "Id": 371,
+  "Name": "Rau LLC",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "UdListDefinitionId": 780,
+  "Rank": 305
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 636,
-  "Name": "McGlynn, Jacobi and Gutmann",
-  "Tooltip": "id",
+  "Id": 931,
+  "Name": "Mitchell-Oberbrunner",
+  "Tooltip": "quis",
   "Deleted": false,
-  "UdListDefinitionId": 930,
-  "Rank": 711,
+  "UdListDefinitionId": 570,
+  "Rank": 174,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 992
     }
   }
 }

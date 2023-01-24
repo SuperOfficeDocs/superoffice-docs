@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 377,
-  "ERPQuoteVersionKey": "non",
-  "QuoteId": 920,
-  "Description": "Persistent tangible analyzer",
-  "Number": "1671586",
+  "QuoteVersionId": 249,
+  "ERPQuoteVersionKey": "at",
+  "QuoteId": 11,
+  "Description": "Front-line encompassing intranet",
+  "Number": "773200",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "incentivize customized functionalities",
-  "LikelyQuoteAlternativeId": 653,
-  "SentDate": "2016-11-10T17:37:18.6962418+01:00",
-  "FollowupId": 775,
-  "ExpirationDate": "2006-02-13T17:37:18.6962418+01:00",
-  "DeliveryCountryId": 488,
+  "Reason": "",
+  "LikelyQuoteAlternativeId": 545,
+  "SentDate": "2014-03-18T11:22:38.8833285+01:00",
+  "FollowupId": 617,
+  "ExpirationDate": "1997-10-31T11:22:38.8833285+01:00",
+  "DeliveryCountryId": 368,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 279,
+  "InvoiceCountryId": 540,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "mollitia",
-  "ERPPaymentTypeKey": "accusantium",
-  "ERPDeliveryTermsKey": "quia",
-  "ERPDeliveryTypeKey": "aliquam",
-  "Rank": 639,
-  "ApprovedBy": 387,
-  "ApprovedText": "quod",
-  "ApprovedRegisteredBy": 88,
-  "ApprovedRegisteredDate": "2010-01-02T17:37:18.6962418+01:00",
-  "ExtraField1": "commodi",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "magni",
-  "ExtraField4": "omnis",
-  "ExtraField5": "accusamus",
-  "LastRecalculated": "2007-04-05T17:37:18.6962418+02:00",
-  "Updated": "2021-03-05T17:37:18.6962418+01:00",
-  "UpdatedAssociateId": 560,
-  "Registered": "2010-05-19T17:37:18.6962418+02:00",
-  "RegisteredAssociateId": 698,
-  "RequestAssociateId": 842,
-  "RequestComment": "quas",
+  "ERPPaymentTermsKey": "laborum",
+  "ERPPaymentTypeKey": "et",
+  "ERPDeliveryTermsKey": "aut",
+  "ERPDeliveryTypeKey": "a",
+  "Rank": 203,
+  "ApprovedBy": 914,
+  "ApprovedText": "nihil",
+  "ApprovedRegisteredBy": 302,
+  "ApprovedRegisteredDate": "1995-12-06T11:22:38.8833285+01:00",
+  "ExtraField1": "minima",
+  "ExtraField2": "aut",
+  "ExtraField3": "tenetur",
+  "ExtraField4": "non",
+  "ExtraField5": "quia",
+  "LastRecalculated": "2006-12-03T11:22:38.8833285+01:00",
+  "Updated": "1997-10-21T11:22:38.8833285+02:00",
+  "UpdatedAssociateId": 130,
+  "Registered": "2013-11-27T11:22:38.8833285+01:00",
+  "RegisteredAssociateId": 715,
+  "RequestAssociateId": 367,
+  "RequestComment": "sunt",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 379,
-      "ERPQuoteAlternativeKey": "est",
-      "QuoteVersionId": 543,
-      "Name": "Stracke, Stehr and McDermott",
-      "Description": "Streamlined assymetric productivity",
+      "QuoteAlternativeId": 144,
+      "ERPQuoteAlternativeKey": "ad",
+      "QuoteVersionId": 786,
+      "Name": "Gerlach, Carroll and Braun",
+      "Description": "Phased bifurcated installation",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 20248.773999999998,
-      "ERPDiscountAmount": 5628.664,
-      "DiscountPercent": 517.11,
-      "DiscountAmount": 23736.915999999997,
+      "ERPDiscountPercent": 26560.649999999998,
+      "ERPDiscountAmount": 31311.793999999998,
+      "DiscountPercent": 27516.52,
+      "DiscountAmount": 19534.221999999998,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "et",
-      "VAT": 7045.232,
-      "EarningPercent": 8289.43,
-      "EarningAmount": 21386.416,
-      "SubTotal": 11194.648,
-      "TotalPrice": 19001.442,
-      "ExtraField1": "quidem",
-      "ExtraField2": "quis",
-      "ExtraField3": "maxime",
-      "ExtraField4": "omnis",
-      "ExtraField5": "libero",
+      "VATInfo": "corrupti",
+      "VAT": 10777.826,
+      "EarningPercent": 3485.008,
+      "EarningAmount": 12072.168,
+      "SubTotal": 30866.766,
+      "TotalPrice": 6957.48,
+      "ExtraField1": "corrupti",
+      "ExtraField2": "optio",
+      "ExtraField3": "quis",
+      "ExtraField4": "error",
+      "ExtraField5": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 438
+          "FieldType": "System.Int32",
+          "FieldLength": 951
         }
       }
     }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldLength": 525
     }
   }
 }

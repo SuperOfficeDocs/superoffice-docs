@@ -86,26 +86,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 830,
-  "Name": "Dibbert, Hirthe and Zemlak",
-  "Description": "Reverse-engineered optimizing info-mediaries",
-  "DeltaJson": "sequi",
+  "ConfigurableScreenDeltaId": 762,
+  "Name": "Williamson, Rice and Mraz",
+  "Description": "Visionary motivating complexity",
+  "DeltaJson": "nihil",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "necessitatibus",
-  "UpdatedDate": "2014-09-01T17:37:17.1102442+02:00",
-  "CreatedDate": "2013-10-22T17:37:17.1102442+02:00",
+  "RecipeId": "et",
+  "UpdatedDate": "2011-11-26T11:22:37.6023765+01:00",
+  "CreatedDate": "2013-11-10T11:22:37.6023765+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    551,
-    295
+    809,
+    268
   ],
-  "AppliesToKey": "ut"
+  "AppliesToKey": "quibusdam"
 }
 ```
 
@@ -116,28 +116,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 861,
-  "Name": "Goyette Group",
-  "Description": "Proactive tertiary circuit",
-  "DeltaJson": "et",
+  "ConfigurableScreenDeltaId": 349,
+  "Name": "Rath-Gibson",
+  "Description": "Monitored context-sensitive Graphical User Interface",
+  "DeltaJson": "vel",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "eos",
-  "UpdatedDate": "2005-11-07T17:37:17.112245+01:00",
-  "CreatedDate": "2018-03-26T17:37:17.112245+02:00",
+  "RecipeId": "et",
+  "UpdatedDate": "2002-08-01T11:22:37.6023765+02:00",
+  "CreatedDate": "2009-01-30T11:22:37.6023765+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    830,
-    339
+    43,
+    1000
   ],
-  "AppliesToKey": "qui",
+  "AppliesToKey": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 362
+      "FieldType": "System.String",
+      "FieldLength": 554
     }
   }
 }

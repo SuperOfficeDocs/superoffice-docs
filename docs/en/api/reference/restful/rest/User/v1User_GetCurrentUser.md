@@ -80,7 +80,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 919,
-  "Name": "Ratke-Carter",
-  "Rank": 841,
-  "Tooltip": "repudiandae",
+  "AssociateId": 996,
+  "Name": "Grady-Schneider",
+  "Rank": 953,
+  "Tooltip": "adipisci",
   "LicenseOwners": [
     {
-      "Name": "Block, Tremblay and Mosciski",
-      "Description": "Universal empowering open architecture",
+      "Name": "Bergnaum LLC",
+      "Description": "Upgradable even-keeled ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -110,14 +110,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldType": "System.Int32",
+          "FieldLength": 544
         }
       }
     },
     {
-      "Name": "Block, Tremblay and Mosciski",
-      "Description": "Universal empowering open architecture",
+      "Name": "Bergnaum LLC",
+      "Description": "Upgradable even-keeled ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldType": "System.Int32",
+          "FieldLength": 544
         }
       }
     }
@@ -140,110 +140,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "magni",
-      "Tooltip": "cupiditate",
-      "Id": 583,
-      "Rank": 784,
+      "Value": "ut",
+      "Tooltip": "doloremque",
+      "Id": 676,
+      "Rank": 915,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 721
+          "FieldType": "System.Int32",
+          "FieldLength": 548
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2015-06-21T17:37:39.5884009+02:00",
-  "Lastlogout": "2014-06-06T17:37:39.5884009+02:00",
-  "EjUserId": 919,
-  "RequestSignature": "quam",
+  "Lastlogin": "2004-06-19T11:22:45.5379661+02:00",
+  "Lastlogout": "2017-12-27T11:22:45.5379661+01:00",
+  "EjUserId": 480,
+  "RequestSignature": "eos",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sint",
-      "DisplayValue": "facere",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 34
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "sint",
-      "DisplayValue": "facere",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 34
-        }
-      }
-    }
-  ],
-  "UserName": "Glover, Shields and Toy",
-  "TicketCategories": [
-    {
-      "Id": 656,
-      "Name": "Cartwright, O'Reilly and Kirlin",
-      "ToolTip": "Iste maxime natus.",
-      "Deleted": true,
-      "Rank": 28,
-      "Type": "iusto",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "omnis",
-      "ColorBlock": 528,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "a",
-      "FullName": "Lulu Larson Sr.",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 294
-        }
-      }
-    }
-  ],
-  "NickName": "Dooley, Fahey and Bernier",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "aperiam"
-  },
-  "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "beatae"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Farrell-Hilpert",
-      "DisplayName": "Pfannerstill-Koepp",
-      "Description": "Managed empowering product",
-      "ToolTip": "Quis doloribus culpa modi perferendis harum aliquam.",
-      "Actions": "Implicit",
-      "ActionData": "suscipit",
+      "Value": "doloremque",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 19
+          "FieldLength": 308
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "doloremque",
+      "DisplayValue": "numquam",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 308
+        }
+      }
+    }
+  ],
+  "UserName": "Harber Inc and Sons",
+  "TicketCategories": [
+    {
+      "Id": 758,
+      "Name": "Heller-Rempel",
+      "ToolTip": "Omnis nihil sed debitis quis quis illo.",
+      "Deleted": false,
+      "Rank": 253,
+      "Type": "aut",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "hic",
+      "ColorBlock": 975,
+      "ExtraInfo": "hic",
+      "StyleHint": "sit",
+      "FullName": "Joe Koch II",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 633
+        }
+      }
+    }
+  ],
+  "NickName": "Bernhard Group",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "et",
+    "ExtraFields2": "occaecati"
+  },
+  "CustomFields": {
+    "CustomFields1": "eligendi",
+    "CustomFields2": "ut"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Osinski Inc and Sons",
+      "DisplayName": "Cole, Kilback and Dare",
+      "Description": "Exclusive national concept",
+      "ToolTip": "Quod ab facilis eveniet minus provident.",
+      "Actions": "Implicit",
+      "ActionData": "molestias",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 828
         }
       }
     }
@@ -253,7 +253,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 614
     }
   }
 }

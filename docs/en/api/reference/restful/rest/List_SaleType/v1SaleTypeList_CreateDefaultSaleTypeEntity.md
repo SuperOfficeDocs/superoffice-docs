@@ -85,53 +85,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 689,
-  "Name": "Bartoletti LLC",
-  "Tooltip": "vero",
-  "Rank": 587,
+  "SaleTypeId": 80,
+  "Name": "Schneider Group",
+  "Tooltip": "placeat",
+  "Rank": 852,
   "DurationUnit": "Century",
-  "SaleDuration": 405,
-  "SaleTypeCatId": 119,
+  "SaleDuration": 804,
+  "SaleTypeCatId": 552,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 644,
-  "QuoteLinesTemplate": 914,
-  "ConfirmationLinesTemplate": 925,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 742,
-  "MinEarningPercent": 513,
-  "GroupQuoteLinesBy": 482,
-  "SortGroupLinesBy": 835,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 496,
+  "QuoteLinesTemplate": 758,
+  "ConfirmationLinesTemplate": 169,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 425,
+  "MinEarningPercent": 108,
+  "GroupQuoteLinesBy": 484,
+  "SortGroupLinesBy": 859,
   "Stages": [
     {
-      "Id": 79,
-      "Name": "Konopelski, Gorczany and Wiegand",
-      "ToolTip": "Placeat nihil explicabo delectus temporibus enim placeat ex.",
-      "Deleted": false,
-      "Rank": 358,
-      "Type": "quia",
-      "ColorBlock": 335,
-      "IconHint": "tempore",
-      "Selected": false,
-      "LastChanged": "2020-02-11T17:37:40.3335033+01:00",
+      "Id": 824,
+      "Name": "Daniel-Hilpert",
+      "ToolTip": "Vel et saepe eos illum incidunt ipsum repellat.",
+      "Deleted": true,
+      "Rank": 945,
+      "Type": "similique",
+      "ColorBlock": 619,
+      "IconHint": "illum",
+      "Selected": true,
+      "LastChanged": "2011-09-30T11:22:46.1784934+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laboriosam",
-      "StyleHint": "optio",
+      "ExtraInfo": "voluptas",
+      "StyleHint": "vero",
       "Hidden": false,
-      "FullName": "Meagan Terrell Skiles III",
+      "FullName": "Mr. Myles Mercedes Heidenreich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 789
+          "FieldType": "System.Int32",
+          "FieldLength": 336
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 50
+      "FieldLength": 627
     }
   }
 }

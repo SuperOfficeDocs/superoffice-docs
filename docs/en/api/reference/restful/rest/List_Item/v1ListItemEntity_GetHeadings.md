@@ -29,7 +29,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Donnelly, Franecki and Hamill",
-    "ToolTip": "Veniam non omnis.",
+    "Id": 780,
+    "Name": "Schmidt Inc and Sons",
+    "ToolTip": "Ad rerum vero est omnis facere.",
     "Deleted": false,
-    "Rank": 163,
-    "Type": "modi",
-    "ColorBlock": 805,
-    "IconHint": "maxime",
-    "Selected": true,
-    "LastChanged": "2012-10-03T17:37:39.627431+02:00",
+    "Rank": 814,
+    "Type": "quia",
+    "ColorBlock": 421,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2018-12-03T11:22:45.5692589+01:00",
     "ChildItems": [
       {
-        "Id": 973,
-        "Name": "Simonis-O'Keefe",
-        "ToolTip": "Voluptate dolorem dignissimos.",
-        "Deleted": true,
-        "Rank": 770,
-        "Type": "adipisci",
-        "ColorBlock": 644,
-        "IconHint": "ipsa",
-        "Selected": true,
-        "LastChanged": "2010-08-21T17:37:39.627431+02:00",
+        "Id": 348,
+        "Name": "Rohan-White",
+        "ToolTip": "Sit nulla itaque quibusdam.",
+        "Deleted": false,
+        "Rank": 871,
+        "Type": "et",
+        "ColorBlock": 375,
+        "IconHint": "recusandae",
+        "Selected": false,
+        "LastChanged": "2012-01-19T11:22:45.5692589+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "nisi",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Dwight Pfeffer",
+        "FullName": "Aglae Glover",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 645
+            "FieldLength": 392
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Isabell Volkman",
+    "FullName": "Mr. Ottis Addie Lowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 765
+        "FieldType": "System.Int32",
+        "FieldLength": 559
       }
     }
   }

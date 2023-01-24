@@ -74,7 +74,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,21 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "rem",
+  "odata.nextLink": "odit",
   "value": [
     {
-      "PrimaryKey": 5947,
-      "EntityName": "sale",
-      "saleId": 5947,
-      "contactId": 9807,
-      "name": "McClure Inc and Sons"
+      "PrimaryKey": 1665,
+      "EntityName": "person",
+      "personId": 1665,
+      "fullName": "Lorenzo Huel"
     },
     {
-      "PrimaryKey": 4445,
-      "EntityName": "sale",
-      "saleId": 4445,
-      "contactId": 3667,
-      "name": "Sanford-Parker"
+      "PrimaryKey": 7499,
+      "EntityName": "person",
+      "personId": 7499,
+      "fullName": "Florian Kulas"
     }
   ]
 }

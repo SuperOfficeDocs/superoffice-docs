@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hilll, Steuber and Larson",
-  "AssociateId": 1002
+  "TableName": "Wuckert Inc and Sons",
+  "AssociateId": 616
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Weber, Bechtelar and Beier",
-    "RecordId": 858,
-    "AssociateId": 596,
-    "ExtraInfo": "eligendi",
-    "Rank": 167,
+    "TableName": "McGlynn Group",
+    "RecordId": 22,
+    "AssociateId": 328,
+    "ExtraInfo": "molestiae",
+    "Rank": 802,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldType": "System.String",
+        "FieldLength": 369
       }
     }
   }

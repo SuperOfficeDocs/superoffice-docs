@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -107,36 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 505,
-  "Name": "Senger LLC",
-  "AssociateId": 911,
-  "DetailsTable": 839,
-  "DetailsRecord": 796,
+  "Id": 415,
+  "Name": "Monahan-Keeling",
+  "AssociateId": 465,
+  "DetailsTable": 840,
+  "DetailsRecord": 341,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "consequatur",
-    "ParameterObject2": "nobis"
+    "ParameterObject1": "minima",
+    "ParameterObject2": "placeat"
   },
-  "LastStarted": "2021-10-22T17:37:18.119241+02:00",
-  "Created": "2002-02-03T17:37:18.119241+01:00",
-  "StartCount": 717,
-  "DatabaseSerialNumber": "1413428",
-  "Context": "assumenda",
-  "Result": "voluptatibus",
+  "LastStarted": "2001-09-15T11:22:38.3990648+02:00",
+  "Created": "2020-08-19T11:22:38.3990648+02:00",
+  "StartCount": 970,
+  "DatabaseSerialNumber": "1654104",
+  "Context": "aliquid",
+  "Result": "iusto",
   "State": "All",
-  "Description": "Multi-tiered full-range alliance",
-  "Response": "facilis",
-  "Request": "ex",
-  "ProgressDescription": "Visionary homogeneous projection",
-  "ProgressPercent": 678,
-  "FileName": "Goldner Group",
+  "Description": "Focused intangible alliance",
+  "Response": "sunt",
+  "Request": "quia",
+  "ProgressDescription": "Operative systematic open system",
+  "ProgressPercent": 509,
+  "FileName": "Bogan-Kuhic",
+  "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldType": "System.String",
+      "FieldLength": 301
     }
   }
 }

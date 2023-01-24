@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/TicketStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,19 +70,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 466,
-  "Name": "Abshire-Hickle",
+  "TicketStatusId": 699,
+  "Name": "Fay-Fadel",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": true,
+  "NoEmailReopen": true,
+  "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldType": "System.String",
+      "FieldLength": 583
     }
   }
 }

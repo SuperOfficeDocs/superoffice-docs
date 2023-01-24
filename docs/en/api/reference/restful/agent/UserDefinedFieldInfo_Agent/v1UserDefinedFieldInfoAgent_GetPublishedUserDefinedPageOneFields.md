@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 186
+  "UserGroupId": 45
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 759,
-    "ColumnId": 340,
-    "FieldDefault": "est",
-    "FieldHeight": 827,
-    "FieldLabel": "beatae",
-    "FieldLeft": 693,
-    "FieldTop": 89,
+    "UDefFieldId": 941,
+    "ColumnId": 922,
+    "FieldDefault": "assumenda",
+    "FieldHeight": 345,
+    "FieldLabel": "quae",
+    "FieldLeft": 744,
+    "FieldTop": 202,
     "FieldType": "Checkbox",
-    "FieldWidth": 956,
-    "FormatMask": "placeat",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 164,
-    "LabelLeft": 947,
-    "LabelTop": 620,
-    "LabelWidth": 426,
-    "LastVersionId": 258,
-    "ListTableId": 644,
+    "FieldWidth": 428,
+    "FormatMask": "rerum",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 675,
+    "LabelLeft": 882,
+    "LabelTop": 758,
+    "LabelWidth": 463,
+    "LastVersionId": 675,
+    "ListTableId": 241,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 424,
-    "ProgId": "nihil",
+    "Page1LineNo": 509,
+    "ProgId": "rerum",
     "IsReadOnly": false,
-    "ShortLabel": "rerum",
-    "TabOrder": 552,
-    "TextLength": 974,
-    "Tooltip": "corporis",
-    "UdefIdentity": 388,
-    "UDListDefinitionId": 197,
+    "ShortLabel": "eos",
+    "TabOrder": 73,
+    "TextLength": 736,
+    "Tooltip": "qui",
+    "UdefIdentity": 293,
+    "UDListDefinitionId": 440,
     "Justification": "Center",
-    "Version": 517,
-    "TemplateVariableName": "Hoeger-Bauch",
+    "Version": 735,
+    "TemplateVariableName": "Larson Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Morissette-Wintheiser",
+    "MdoListName": "Hodkiewicz LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldType": "System.String",
+        "FieldLength": 903
       }
     }
   }

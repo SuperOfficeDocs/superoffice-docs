@@ -87,7 +87,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Botsford Inc and Sons",
+  "TableName": "Nader, Hintz and Bednar",
   "IncludeStandard": false
 }
 ```
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schuster-Powlowski",
-    "DisplayName": "Reichel, Cassin and Senger",
-    "Description": "Re-engineered interactive leverage",
-    "ShortLabel": "ab",
-    "HideLabel": true,
+    "FieldName": "Kassulke-Grimes",
+    "DisplayName": "Lockman, Rohan and Keeling",
+    "Description": "Advanced even-keeled product",
+    "ShortLabel": "quidem",
+    "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsIndexed": false,
+    "IsMandatory": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 86,
-    "TemplateVariableName": "Cole-VonRueden"
+    "Rank": 59,
+    "TemplateVariableName": "Gusikowski-Douglas"
   }
 ]
 ```

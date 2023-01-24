@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 819
+  "Count": 109
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bergnaum Inc and Sons",
-    "SaleDate": "2020-11-14T17:37:18.8852419+01:00",
-    "SaleId": 386,
-    "Probability": 821,
-    "Title": "aperiam",
-    "Amount": 13961.97,
-    "Currency": "et",
-    "ProjectName": "Vandervort Group",
-    "AssociateFullName": "Cecile Bartoletti",
-    "Description": "Grass-roots zero defect data-warehouse",
+    "ContactName": "Greenholt-Koelpin",
+    "SaleDate": "2000-12-23T11:22:39.2425669+01:00",
+    "SaleId": 675,
+    "Probability": 144,
+    "Title": "ducimus",
+    "Amount": 12144.25,
+    "Currency": "magni",
+    "ProjectName": "Kuhn-Herzog",
+    "AssociateFullName": "Edd Lehner",
+    "Description": "Front-line discrete emulation",
     "Status": "Lost",
-    "WeightedAmount": 22533.46,
-    "ProjectId": 657,
-    "EarningPercent": 27641.879999999997,
-    "Earning": 11157.039999999999,
-    "ContactId": 739,
-    "AssociateId": 134,
-    "PersonId": 519,
-    "SaleTypeId": 76,
-    "SaleTypeName": "Weissnat LLC",
-    "PersonFullName": "Mrs. Bailee Cristobal Rodriguez",
+    "WeightedAmount": 20518.298,
+    "ProjectId": 102,
+    "EarningPercent": 30794.683999999997,
+    "Earning": 15137.22,
+    "ContactId": 83,
+    "AssociateId": 343,
+    "PersonId": 589,
+    "SaleTypeId": 914,
+    "SaleTypeName": "Medhurst LLC",
+    "PersonFullName": "Miss Brennon Leone Torp",
     "Completed": "Completed",
-    "ActiveErpLinks": 872,
-    "NextDueDate": "2015-02-02T17:37:18.8852419+01:00",
-    "Number": "590807",
+    "ActiveErpLinks": 110,
+    "NextDueDate": "2022-02-20T11:22:39.2425669+01:00",
+    "Number": "359714",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 659
+        "FieldLength": 163
       }
     }
   }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 733,
-    "Name": "Hamill-Waelchi",
-    "ToolTip": "Earum accusantium eum quod quam.",
-    "Deleted": false,
-    "Rank": 106,
-    "Type": "optio",
-    "ColorBlock": 400,
-    "IconHint": "expedita",
-    "Selected": true,
-    "LastChanged": "2020-04-22T17:37:39.9015035+02:00",
+    "Id": 651,
+    "Name": "Emmerich Inc and Sons",
+    "ToolTip": "Ea et sunt reiciendis rerum.",
+    "Deleted": true,
+    "Rank": 274,
+    "Type": "ea",
+    "ColorBlock": 242,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2012-08-02T11:22:45.8191493+02:00",
     "ChildItems": [
       {
-        "Id": 200,
-        "Name": "Konopelski Group",
-        "ToolTip": "Laudantium sed facere ducimus accusamus tempora recusandae esse.",
-        "Deleted": false,
-        "Rank": 828,
-        "Type": "odit",
-        "ColorBlock": 181,
-        "IconHint": "eveniet",
+        "Id": 860,
+        "Name": "Price Inc and Sons",
+        "ToolTip": "Iste animi a enim dolorum consequuntur dolorem dignissimos.",
+        "Deleted": true,
+        "Rank": 521,
+        "Type": "non",
+        "ColorBlock": 948,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2001-04-03T17:37:39.9025001+02:00",
+        "LastChanged": "2017-07-25T11:22:45.8191493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "vitae",
+        "ExtraInfo": "ea",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Soledad Aufderhar"
+        "FullName": "Frederic Green"
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Mikel Berge"
+    "ExtraInfo": "quos",
+    "StyleHint": "adipisci",
+    "Hidden": true,
+    "FullName": "Mrs. Brody Clay Murray DVM"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Hilpert LLC",
-    "ToolTip": "Soluta magni a in porro fugiat.",
-    "Deleted": false,
-    "Rank": 95,
-    "Type": "sit",
-    "ColorBlock": 673,
-    "IconHint": "minus",
-    "Selected": true,
-    "LastChanged": "2013-06-25T17:37:39.9035006+02:00",
+    "Id": 115,
+    "Name": "Fay-Rolfson",
+    "ToolTip": "Ut nostrum ea qui.",
+    "Deleted": true,
+    "Rank": 47,
+    "Type": "deleniti",
+    "ColorBlock": 132,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2017-06-29T11:22:45.8191493+02:00",
     "ChildItems": [
       {
-        "Id": 807,
-        "Name": "Blick LLC",
-        "ToolTip": "Reiciendis qui molestias minus ab.",
-        "Deleted": true,
-        "Rank": 844,
-        "Type": "nisi",
-        "ColorBlock": 941,
-        "IconHint": "debitis",
-        "Selected": false,
-        "LastChanged": "2017-03-03T17:37:39.9035006+01:00",
+        "Id": 809,
+        "Name": "O'Connell, Herzog and Krajcik",
+        "ToolTip": "Inventore voluptatem magni ea optio modi architecto consequuntur.",
+        "Deleted": false,
+        "Rank": 349,
+        "Type": "aliquam",
+        "ColorBlock": 419,
+        "IconHint": "molestiae",
+        "Selected": true,
+        "LastChanged": "1997-05-23T11:22:45.8191493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "dicta",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Maddison Swift",
+        "FullName": "Shaun Kerluke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 147
+            "FieldType": "System.Int32",
+            "FieldLength": 459
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "provident",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Oscar Pollich",
+    "FullName": "Emmanuelle Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldLength": 961
       }
     }
   }

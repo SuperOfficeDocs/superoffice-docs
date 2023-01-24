@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 844
+  "SelectionId": 743
 }
 ```
 
@@ -95,29 +95,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wyman-Daniel",
-    "Operator": "voluptates",
+    "Name": "Walker Group",
+    "Operator": "qui",
     "Values": [
-      "et",
-      "facere"
+      "animi",
+      "sunt"
     ],
     "DisplayValues": [
-      "excepturi",
-      "natus"
+      "voluptatem",
+      "corrupti"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Dibbert LLC",
-        "Operator": "laboriosam",
+        "Name": "Orn LLC",
+        "Operator": "minus",
         "Values": [
-          "quia",
-          "saepe"
+          "earum",
+          "impedit"
         ],
         "DisplayValues": [
-          "quisquam",
-          "et"
+          "quia",
+          "sapiente"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -125,14 +125,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 808,
+        "InterParenthesis": 681,
         "InterOperator": "And",
-        "UniqueHash": 869
+        "UniqueHash": 200
       }
     ],
-    "InterParenthesis": 122,
+    "InterParenthesis": 1002,
     "InterOperator": "And",
-    "UniqueHash": 839
+    "UniqueHash": 845
   }
 ]
 ```

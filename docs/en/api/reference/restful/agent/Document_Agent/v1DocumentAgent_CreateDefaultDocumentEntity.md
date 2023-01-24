@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,88 +99,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 297,
+  "DocumentId": 31,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nemo",
-  "Header": "vel",
-  "Name": "Schulist, Schulist and McCullough",
-  "OurRef": "amet",
-  "YourRef": "neque",
-  "CreatedDate": "2021-01-07T17:37:17.4542413+01:00",
-  "UpdatedDate": "2017-10-04T17:37:17.4542413+02:00",
-  "Description": "Open-architected static approach",
+  "Attention": "iusto",
+  "Header": "maiores",
+  "Name": "Bahringer, Hagenes and Abshire",
+  "OurRef": "optio",
+  "YourRef": "quisquam",
+  "CreatedDate": "2010-08-08T11:22:37.8679408+02:00",
+  "UpdatedDate": "2013-06-12T11:22:37.8679408+02:00",
+  "Description": "Triple-buffered asynchronous flexibility",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-09-06T17:37:17.4582462+02:00",
-  "ExternalRef": "cum",
+  "Date": "2005-05-29T11:22:37.8679408+02:00",
+  "ExternalRef": "sed",
   "Completed": "Completed",
-  "ActiveLinks": 191,
+  "ActiveLinks": 349,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kohler Group",
-      "Id": 258,
-      "Description": "User-friendly static emulation",
-      "ExtraInfo": "amet",
-      "LinkId": 641,
+      "EntityName": "Schinner, Senger and Boyer",
+      "Id": 965,
+      "Description": "Grass-roots multi-tasking installation",
+      "ExtraInfo": "laudantium",
+      "LinkId": 885,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 571
+          "FieldType": "System.Int32",
+          "FieldLength": 235
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 97,
-  "Snum": 550,
+  "SuggestedDocumentId": 839,
+  "Snum": 298,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lazaro Abernathy",
-    "SuperOffice:2": "Hilario Batz"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Mohammed Gottlieb"
   },
   "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "tenetur"
+    "ExtraFields1": "est",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "possimus",
-    "CustomFields2": "labore"
+    "CustomFields1": "officia",
+    "CustomFields2": "quo"
   },
-  "PublishEventDate": "2013-04-01T17:37:17.4592451+02:00",
-  "PublishTo": "2001-09-12T17:37:17.4592451+02:00",
-  "PublishFrom": "1999-11-11T17:37:17.4592451+01:00",
+  "PublishEventDate": "2021-03-15T11:22:37.8679408+01:00",
+  "PublishTo": "2012-06-02T11:22:37.8679408+02:00",
+  "PublishFrom": "2012-08-30T11:22:37.8679408+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 633,
+      "VisibleId": 952,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldLength": 607
         }
       }
     },
     {
-      "VisibleId": 633,
+      "VisibleId": 952,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldLength": 607
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldLength": 396
     }
   }
 }

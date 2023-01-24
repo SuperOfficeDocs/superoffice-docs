@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 923,
-  "MinDate": "2009-06-09T17:37:17.8462448+02:00",
-  "MaxDate": "2001-01-16T17:37:17.8462448+01:00",
-  "IncludeEmails": false
+  "DocumentPluginId": 918,
+  "MinDate": "2022-09-17T11:22:38.1646944+02:00",
+  "MaxDate": "2000-03-08T11:22:38.1803656+01:00",
+  "IncludeEmails": true
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 795,
-  "NumDocumentsAlreadyMigrated": 346,
+  "NumDocumentsOmitted": 807,
+  "NumDocumentsAlreadyMigrated": 668,
   "Documents": [
     {
-      "DocumentId": 347,
-      "ContactId": 689,
-      "PersonId": 771,
-      "SaleId": 111,
-      "ProjectId": 813,
-      "DocTmplId": 793,
-      "AssociateId": 990,
-      "UserGroupId": 386,
-      "VisibleForId": 781
+      "DocumentId": 331,
+      "ContactId": 174,
+      "PersonId": 314,
+      "SaleId": 182,
+      "ProjectId": 717,
+      "DocTmplId": 781,
+      "AssociateId": 906,
+      "UserGroupId": 404,
+      "VisibleForId": 22
     }
   ],
   "Associates": [
     {
-      "AssociateId": 586,
-      "EmailAddress": "bertrand.rowe@luettgen.ca"
+      "AssociateId": 759,
+      "EmailAddress": "camilla_dooley@lynch.info"
     },
     {
-      "AssociateId": 586,
-      "EmailAddress": "bertrand.rowe@luettgen.ca"
+      "AssociateId": 759,
+      "EmailAddress": "camilla_dooley@lynch.info"
     }
   ]
 }

@@ -91,23 +91,23 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 936,
-  "Name": "Gibson Group",
-  "CreatedDate": "2022-04-27T17:37:38.6138686+02:00",
-  "UpdatedDate": "2004-05-06T17:37:38.6138686+02:00",
+  "ForeignAppId": 129,
+  "Name": "Rath-Jacobs",
+  "CreatedDate": "1999-02-03T11:22:44.8506265+01:00",
+  "UpdatedDate": "2021-02-14T11:22:44.8506265+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 676,
-      "Name": "Wintheiser LLC",
-      "CreatedDate": "1996-11-25T17:37:38.6148667+01:00",
-      "UpdatedDate": "1997-02-19T17:37:38.6148667+01:00",
-      "AssociateFullName": "Rodrigo Keeling",
-      "CreatedBy": "totam",
-      "UpdatedBy": "rerum",
-      "DeviceIdentifier": "voluptatem",
-      "ForeignAppId": 870
+      "ForeignDeviceId": 246,
+      "Name": "Schinner, Simonis and Schuppe",
+      "CreatedDate": "2011-06-09T11:22:44.8506265+02:00",
+      "UpdatedDate": "2015-09-28T11:22:44.8506265+02:00",
+      "AssociateFullName": "Glenna D'Amore I",
+      "CreatedBy": "possimus",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "repellendus",
+      "ForeignAppId": 73
     }
   ]
 }
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 151,
-  "Name": "Huels LLC",
-  "CreatedDate": "2001-12-05T17:37:38.6168674+01:00",
-  "UpdatedDate": "2019-03-19T17:37:38.6168674+01:00",
+  "ForeignAppId": 525,
+  "Name": "Crist-Effertz",
+  "CreatedDate": "2013-11-22T11:22:44.8662479+01:00",
+  "UpdatedDate": "1997-05-11T11:22:44.8662479+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 600,
-      "Name": "Marvin-Rohan",
-      "CreatedDate": "2016-12-19T17:37:38.6178659+01:00",
-      "UpdatedDate": "1996-02-17T17:37:38.6178659+01:00",
-      "AssociateFullName": "Nikki Weber",
-      "CreatedBy": "et",
-      "UpdatedBy": "ratione",
-      "DeviceIdentifier": "adipisci",
-      "ForeignAppId": 318,
+      "ForeignDeviceId": 537,
+      "Name": "Nicolas, McLaughlin and Johns",
+      "CreatedDate": "2007-05-14T11:22:44.8662479+02:00",
+      "UpdatedDate": "2001-02-14T11:22:44.8662479+01:00",
+      "AssociateFullName": "Junior Howe",
+      "CreatedBy": "rem",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "animi",
+      "ForeignAppId": 584,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldLength": 41
         }
       }
     }
@@ -151,13 +151,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 361
+      "FieldType": "System.Int32",
+      "FieldLength": 441
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

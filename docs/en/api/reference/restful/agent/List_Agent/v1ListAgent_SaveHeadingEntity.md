@@ -76,12 +76,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 612,
-  "Name": "Bins Group",
-  "Tooltip": "distinctio",
-  "Deleted": true,
-  "Rank": 881,
-  "UdListDefinitionId": 671
+  "HeadingId": 549,
+  "Name": "Swift-Nader",
+  "Tooltip": "nemo",
+  "Deleted": false,
+  "Rank": 984,
+  "UdListDefinitionId": 834
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 168,
-  "Name": "Willms-Weissnat",
-  "Tooltip": "dicta",
-  "Deleted": true,
-  "Rank": 995,
-  "UdListDefinitionId": 487,
+  "HeadingId": 494,
+  "Name": "Gottlieb, Rolfson and Kunde",
+  "Tooltip": "eligendi",
+  "Deleted": false,
+  "Rank": 617,
+  "UdListDefinitionId": 928,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldType": "System.String",
+      "FieldLength": 602
     }
   }
 }

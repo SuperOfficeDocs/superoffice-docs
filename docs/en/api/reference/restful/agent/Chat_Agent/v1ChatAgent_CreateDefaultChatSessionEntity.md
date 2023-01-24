@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 156,
-  "TopicId": 6,
+  "ChatSessionId": 579,
+  "TopicId": 77,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "repellendus",
-  "CustomerName": "Quigley LLC",
-  "CustomerEmail": "bethel.hackett@dach.co.uk",
-  "CustomerPhone": "248.779.4761",
+  "CustomerAlias": "dolorem",
+  "CustomerHost": "modi",
+  "CustomerName": "Kling-Brekke",
+  "CustomerEmail": "gust_pacocha@pagac.uk",
+  "CustomerPhone": "676-319-4723 x8874",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bergnaum, Little and Treutel",
+  "CustomerCompanyName": "Schaden-Block",
   "Status": "Closed",
-  "FirstMessage": "sed",
-  "LastMessage": "vero",
-  "WhenRequested": "1999-10-31T17:37:16.9472421+01:00",
-  "WhenStarted": "2008-08-24T17:37:16.9472421+02:00",
-  "WhenEnded": "2004-09-01T17:37:16.9472421+02:00",
-  "WhenIdle": "2005-09-01T17:37:16.9472421+02:00",
-  "WhenFetched": "2021-02-17T17:37:16.9472421+01:00",
-  "SessionKey": "inventore",
-  "InitialQueuePos": 588,
-  "AlertLevel": 51,
-  "Rank": 744,
+  "FirstMessage": "officiis",
+  "LastMessage": "voluptas",
+  "WhenRequested": "2018-11-14T11:22:37.4773963+01:00",
+  "WhenStarted": "2008-03-10T11:22:37.4773963+01:00",
+  "WhenEnded": "2005-08-13T11:22:37.4773963+02:00",
+  "WhenIdle": "1996-01-09T11:22:37.4773963+01:00",
+  "WhenFetched": "2016-09-23T11:22:37.4773963+02:00",
+  "SessionKey": "laborum",
+  "InitialQueuePos": 313,
+  "AlertLevel": 184,
+  "Rank": 317,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -126,13 +126,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 372,
+  "Rating": 661,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 510
     }
   }
 }

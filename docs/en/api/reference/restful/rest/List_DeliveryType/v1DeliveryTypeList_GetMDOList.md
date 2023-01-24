@@ -25,8 +25,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=dolore
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
+GET /api/v1/List/DeliveryType/MDOItems?query=et
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Rohan-Heaney",
-    "ToolTip": "Sed sint enim fuga vel quis sed dolore.",
-    "Deleted": false,
-    "Rank": 464,
-    "Type": "odio",
+    "Id": 395,
+    "Name": "Leannon, Simonis and Hickle",
+    "ToolTip": "Sint omnis.",
+    "Deleted": true,
+    "Rank": 796,
+    "Type": "hic",
     "ChildItems": [
       {
-        "Id": 442,
-        "Name": "Labadie LLC",
-        "ToolTip": "Consequuntur magni debitis voluptates sint quidem tenetur blanditiis.",
-        "Deleted": true,
-        "Rank": 328,
-        "Type": "voluptatem",
+        "Id": 379,
+        "Name": "Nienow Inc and Sons",
+        "ToolTip": "Cupiditate voluptatem voluptatem dolore rerum occaecati.",
+        "Deleted": false,
+        "Rank": 142,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officia",
-        "ColorBlock": 99,
-        "ExtraInfo": "adipisci",
-        "StyleHint": "earum",
-        "FullName": "Brandyn Hilll",
+        "IconHint": "odit",
+        "ColorBlock": 472,
+        "ExtraInfo": "quis",
+        "StyleHint": "cum",
+        "FullName": "Prof. Ignatius Marion Kihn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 934
+            "FieldLength": 596
           }
         }
       }
     ],
-    "IconHint": "natus",
-    "ColorBlock": 527,
-    "ExtraInfo": "qui",
-    "StyleHint": "vero",
-    "FullName": "Oleta Reynolds",
+    "IconHint": "a",
+    "ColorBlock": 362,
+    "ExtraInfo": "harum",
+    "StyleHint": "sed",
+    "FullName": "Vanessa Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldLength": 143
       }
     }
   }

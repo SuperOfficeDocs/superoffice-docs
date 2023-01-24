@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 135,
-  "Name": "Willms-Jewess",
-  "Tooltip": "eos",
-  "Rank": 438,
+  "SaleTypeId": 874,
+  "Name": "Rath, Ward and Powlowski",
+  "Tooltip": "autem",
+  "Rank": 474,
   "DurationUnit": "Century",
-  "SaleDuration": 409,
-  "SaleTypeCatId": 485,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "SaleDuration": 300,
+  "SaleTypeCatId": 778,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 140,
-  "QuoteLinesTemplate": 539,
-  "ConfirmationLinesTemplate": 562,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 457,
-  "MinEarningPercent": 518,
-  "GroupQuoteLinesBy": 642,
-  "SortGroupLinesBy": 146,
+  "DefaultQuoteValidity": 789,
+  "QuoteLinesTemplate": 352,
+  "ConfirmationLinesTemplate": 392,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 51,
+  "MinEarningPercent": 475,
+  "GroupQuoteLinesBy": 308,
+  "SortGroupLinesBy": 544,
   "Stages": [
     {
-      "Id": 425,
-      "Name": "Schuppe, Stark and Carroll",
-      "ToolTip": "Et eaque.",
+      "Id": 135,
+      "Name": "Brekke, Dicki and Mann",
+      "ToolTip": "Rem sit.",
       "Deleted": true,
-      "Rank": 853,
-      "Type": "sunt",
-      "ColorBlock": 415,
-      "IconHint": "et",
-      "Selected": false,
-      "LastChanged": "2008-03-09T17:37:18.2862416+01:00",
+      "Rank": 620,
+      "Type": "sed",
+      "ColorBlock": 431,
+      "IconHint": "enim",
+      "Selected": true,
+      "LastChanged": "2018-06-26T11:22:38.5396587+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cumque",
-      "StyleHint": "omnis",
-      "Hidden": true,
-      "FullName": "Judah Wiegand",
+      "ExtraInfo": "quis",
+      "StyleHint": "veniam",
+      "Hidden": false,
+      "FullName": "Prof. Joanny Reynolds II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 81
+          "FieldLength": 195
         }
       }
     }
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 364
     }
   }
 }

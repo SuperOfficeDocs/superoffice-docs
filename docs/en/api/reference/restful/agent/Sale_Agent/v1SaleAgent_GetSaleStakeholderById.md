@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    982,
-    13
+    512,
+    116
   ]
 }
 ```
@@ -109,31 +109,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Ryan, Olson and Von",
-    "Comment": "nulla",
-    "StakeholderRoleId": 742,
-    "CountryId": 304,
-    "PersonId": 943,
-    "EmailDescription": "olin@hammes.ca",
-    "EmailId": 4,
-    "EmailAddress": "kaley_terry@west.uk",
-    "PhoneId": 875,
-    "ContactName": "Streich-Feeney",
-    "ContactId": 458,
-    "SaleId": 774,
-    "Mrmrs": "sunt",
-    "Firstname": "Veda",
-    "MiddleName": "Mitchell, Dickens and Rodriguez",
-    "Lastname": "Strosin",
-    "SaleStakeholderId": 972,
-    "Rank": 765,
-    "Phone": "417-355-3897 x17187",
+    "StakeholderRoleName": "Bruen-Crooks",
+    "Comment": "est",
+    "StakeholderRoleId": 572,
+    "CountryId": 948,
+    "PersonId": 171,
+    "EmailDescription": "omer_cummings@barrowswilkinson.ca",
+    "EmailId": 120,
+    "EmailAddress": "araceli_walter@bechtelardamore.co.uk",
+    "PhoneId": 362,
+    "ContactName": "Erdman-Rau",
+    "ContactId": 322,
+    "SaleId": 38,
+    "Mrmrs": "ut",
+    "Firstname": "Mable",
+    "MiddleName": "Mann Inc and Sons",
+    "Lastname": "Jenkins",
+    "SaleStakeholderId": 616,
+    "Rank": 414,
+    "Phone": "426.600.0386",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldType": "System.String",
+        "FieldLength": 437
       }
     }
   }

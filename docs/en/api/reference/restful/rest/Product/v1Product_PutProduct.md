@@ -143,55 +143,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 614,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "est",
-  "Name": "Roberts LLC",
-  "Description": "Innovative explicit encryption",
-  "Code": "nostrum",
-  "PriceUnit": "quia",
-  "QuantityUnit": "eos",
+  "ProductId": 973,
+  "ERPProductKey": "culpa",
+  "ERPPriceListKey": "culpa",
+  "Name": "Ward-Botsford",
+  "Description": "Re-engineered modular access",
+  "Code": "exercitationem",
+  "PriceUnit": "et",
+  "QuantityUnit": "sunt",
   "IsSubscription": false,
-  "SubscriptionUnit": "laudantium",
-  "DefaultSubscriptionQuantity": 1366.424,
-  "ItemNumber": "971761",
+  "SubscriptionUnit": "facere",
+  "DefaultSubscriptionQuantity": 24310.438,
+  "ItemNumber": "69806",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "cupiditate",
-  "ProductTypeKey": "minima",
-  "VAT": 12614.35,
-  "VATInfo": "sapiente",
-  "UnitCost": 476.368,
-  "UnitMinimumPrice": 7192.53,
-  "UnitListPrice": 4418.94,
-  "InAssortment": false,
-  "Supplier": "et",
-  "SupplierCode": "qui",
-  "Rights": "pariatur",
-  "Rule": "et",
+  "ProductFamilyKey": "adipisci",
+  "ProductTypeKey": "expedita",
+  "VAT": 6728.6979999999994,
+  "VATInfo": "quia",
+  "UnitCost": 22608.676,
+  "UnitMinimumPrice": 20822.296,
+  "UnitListPrice": 17299.68,
+  "InAssortment": true,
+  "Supplier": "vero",
+  "SupplierCode": "hic",
+  "Rights": "autem",
+  "Rule": "delectus",
   "ExtraInfo": [
     {
-      "Name": "Pfannerstill, Heaney and Berge",
-      "Value": "tempora",
+      "Name": "Purdy-Dooley",
+      "Value": "non",
       "Type": "Image"
     },
     {
-      "Name": "Pfannerstill, Heaney and Berge",
-      "Value": "tempora",
+      "Name": "Purdy-Dooley",
+      "Value": "non",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "quia",
-  "ExtraField1": "commodi",
-  "ExtraField2": "in",
-  "ExtraField3": "sed",
-  "ExtraField4": "alias",
-  "ExtraField5": "et",
-  "InStock": 22661.953999999998
+  "RawExtraInfo": "reprehenderit",
+  "ExtraField1": "voluptas",
+  "ExtraField2": "nemo",
+  "ExtraField3": "quae",
+  "ExtraField4": "quis",
+  "ExtraField5": "ad",
+  "InStock": 626.8
 }
 ```
 
@@ -202,73 +202,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 839,
-  "ERPProductKey": "soluta",
-  "ERPPriceListKey": "doloribus",
-  "Name": "Huel Group",
-  "Description": "Upgradable even-keeled productivity",
-  "Code": "dolores",
-  "PriceUnit": "id",
-  "QuantityUnit": "id",
-  "IsSubscription": true,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 2598.086,
-  "ItemNumber": "996586",
+  "ProductId": 797,
+  "ERPProductKey": "ab",
+  "ERPPriceListKey": "eius",
+  "Name": "Nikolaus, Reichert and Jaskolski",
+  "Description": "Progressive hybrid product",
+  "Code": "aliquid",
+  "PriceUnit": "sunt",
+  "QuantityUnit": "ut",
+  "IsSubscription": false,
+  "SubscriptionUnit": "quaerat",
+  "DefaultSubscriptionQuantity": 10896.918,
+  "ItemNumber": "1249118",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "rem",
-  "ProductTypeKey": "ut",
-  "VAT": 16171.439999999999,
-  "VATInfo": "similique",
-  "UnitCost": 8179.74,
-  "UnitMinimumPrice": 12849.4,
-  "UnitListPrice": 11602.068,
+  "ProductFamilyKey": "dignissimos",
+  "ProductTypeKey": "eius",
+  "VAT": 25529.564,
+  "VATInfo": "distinctio",
+  "UnitCost": 21235.984,
+  "UnitMinimumPrice": 1363.29,
+  "UnitListPrice": 28497.462,
   "InAssortment": true,
-  "Supplier": "adipisci",
-  "SupplierCode": "odit",
-  "Rights": "cumque",
-  "Rule": "voluptas",
+  "Supplier": "aperiam",
+  "SupplierCode": "saepe",
+  "Rights": "laboriosam",
+  "Rule": "illum",
   "ExtraInfo": [
     {
-      "Name": "Bruen, Metz and Sipes",
-      "Value": "ullam",
+      "Name": "Stoltenberg-Schaefer",
+      "Value": "deserunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 380
         }
       }
     },
     {
-      "Name": "Bruen, Metz and Sipes",
-      "Value": "ullam",
+      "Name": "Stoltenberg-Schaefer",
+      "Value": "deserunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 380
         }
       }
     }
   ],
-  "RawExtraInfo": "dicta",
-  "ExtraField1": "iusto",
-  "ExtraField2": "necessitatibus",
-  "ExtraField3": "reiciendis",
-  "ExtraField4": "consequuntur",
-  "ExtraField5": "dolor",
-  "InStock": 5525.242,
+  "RawExtraInfo": "minus",
+  "ExtraField1": "voluptas",
+  "ExtraField2": "adipisci",
+  "ExtraField3": "fugiat",
+  "ExtraField4": "harum",
+  "ExtraField5": "at",
+  "InStock": 275.792,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldType": "System.String",
+      "FieldLength": 445
     }
   }
 }

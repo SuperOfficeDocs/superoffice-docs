@@ -80,16 +80,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eos",
-  "ProviderName": "Hintz Group",
-  "StorageKey": "dicta",
+  "StorageType": "iste",
+  "ProviderName": "Daugherty LLC",
+  "StorageKey": "recusandae",
   "StaticColumns": [
-    "facere",
-    "voluptatibus"
+    "cupiditate",
+    "maiores"
   ]
 }
 ```
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Jenkins Group",
-      "Operator": "temporibus",
+      "Name": "Hilll-Kohler",
+      "Operator": "eos",
       "Values": [
-        "incidunt",
-        "unde"
+        "sint",
+        "consequuntur"
       ],
       "DisplayValues": [
-        "fugiat",
-        "qui"
+        "voluptate",
+        "dicta"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 54,
+      "InterParenthesis": 369,
       "InterOperator": "And",
-      "UniqueHash": 506
+      "UniqueHash": 937
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Strosin LLC",
-      "DisplayTooltip": "perspiciatis",
-      "DisplayType": "pariatur",
+      "DisplayName": "Denesik-O'Kon",
+      "DisplayTooltip": "omnis",
+      "DisplayType": "ab",
       "CanOrderBy": false,
-      "Name": "Kovacek, Schaden and Kerluke",
+      "Name": "Brakus, Oberbrunner and Crona",
       "CanRestrictBy": false,
-      "RestrictionType": "eaque",
-      "RestrictionListName": "Prosacco Group",
+      "RestrictionType": "quia",
+      "RestrictionListName": "Thompson Group",
       "IsVisible": false,
-      "ExtraInfo": "eligendi",
-      "Width": "omnis",
-      "IconHint": "eaque",
-      "HeadingIconHint": "consequuntur"
+      "ExtraInfo": "sapiente",
+      "Width": "doloribus",
+      "IconHint": "omnis",
+      "HeadingIconHint": "voluptatibus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Bins LLC",
-      "PrimaryKey": 879,
+      "EntityName": "Conroy LLC",
+      "PrimaryKey": 684,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quia",
-          "TooltipHint": "assumenda",
-          "LinkHint": "ullam"
+          "DisplayValue": "ab",
+          "TooltipHint": "occaecati",
+          "LinkHint": "asperiores"
         }
       },
-      "LinkHint": "dolorem",
-      "StyleHint": "consectetur",
+      "LinkHint": "accusamus",
+      "StyleHint": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 563
+          "FieldType": "System.Int32",
+          "FieldLength": 756
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Blanda-Waters",
-      "Description": "Organized 6th generation protocol",
-      "Rank": 686,
+      "Name": "Stehr, Walker and Williamson",
+      "Description": "Programmable logistical toolset",
+      "Rank": 29,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Blanda-Waters",
-      "Description": "Organized 6th generation protocol",
-      "Rank": 686,
+      "Name": "Stehr, Walker and Williamson",
+      "Description": "Programmable logistical toolset",
+      "Rank": 29,
       "Restrictions": [
         {},
         {}
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 56
     }
   }
 }

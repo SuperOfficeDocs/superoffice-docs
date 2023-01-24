@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 286,
-  "Name": "Daniel, Rohan and Conroy",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "Rank": 483,
+  "Id": 385,
+  "Name": "McKenzie LLC",
+  "Tooltip": "ipsam",
+  "Deleted": false,
+  "Rank": 470,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "corporis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "sequi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldType": "System.String",
+      "FieldLength": 2
     }
   },
   "_Links": {

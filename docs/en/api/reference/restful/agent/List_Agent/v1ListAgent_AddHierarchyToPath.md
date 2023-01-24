@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "error",
-  "Name": "Gutkowski, Zboncak and Tromp"
+  "Path": "libero",
+  "Name": "Hoeger LLC"
 }
 ```
 
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 259,
+  "HierarchyId": 911,
   "Domain": "Dashboards",
-  "Name": "Kassulke, Aufderhar and Kohler",
-  "Fullname": "at",
-  "ParentId": 994,
+  "Name": "Hammes LLC",
+  "Fullname": "excepturi",
+  "ParentId": 856,
   "Children": [
     {
-      "HierarchyId": 226,
+      "HierarchyId": 452,
       "Domain": "Dashboards",
-      "Name": "Larkin, Grimes and Swift",
-      "Fullname": "est",
-      "ParentId": 312,
+      "Name": "Ferry Group",
+      "Fullname": "reprehenderit",
+      "ParentId": 318,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-04-09T17:37:18.2592416+02:00",
-      "RegisteredAssociateId": 189,
-      "Updated": "2009-05-06T17:37:18.2592416+02:00",
-      "UpdatedAssociateId": 494,
+      "Registered": "2005-06-06T11:22:38.5084132+02:00",
+      "RegisteredAssociateId": 556,
+      "Updated": "2015-07-01T11:22:38.5084132+02:00",
+      "UpdatedAssociateId": 955,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 300
+          "FieldLength": 400
         }
       }
     }
   ],
-  "Registered": "1999-03-23T17:37:18.2592416+01:00",
-  "RegisteredAssociateId": 384,
-  "Updated": "2006-12-28T17:37:18.2592416+01:00",
-  "UpdatedAssociateId": 715,
+  "Registered": "2016-09-02T11:22:38.5084132+02:00",
+  "RegisteredAssociateId": 461,
+  "Updated": "1998-11-01T11:22:38.5084132+01:00",
+  "UpdatedAssociateId": 927,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 519
+      "FieldLength": 118
     }
   }
 }

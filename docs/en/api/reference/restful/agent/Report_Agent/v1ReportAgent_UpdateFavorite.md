@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,20 +94,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 188,
+  "ReportId": 254,
   "ReportCategory": "All",
-  "Description": "Mandatory secondary implementation",
+  "Description": "Seamless bandwidth-monitored database",
   "ReportLayout": "CalendarMonth",
-  "Name": "Botsford Group",
-  "AssociateId": 295,
-  "TemplateId": 485,
+  "Name": "Hahn, Beatty and Aufderhar",
+  "AssociateId": 851,
+  "TemplateId": 737,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 586
     }
   }
 }

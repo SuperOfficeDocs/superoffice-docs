@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 650,
-  "Name": "Mosciski Group",
-  "Tooltip": "velit",
+  "HeadingId": 920,
+  "Name": "Stiedemann-Koepp",
+  "Tooltip": "nostrum",
   "Deleted": false,
-  "Rank": 274,
-  "UdListDefinitionId": 539
+  "Rank": 44,
+  "UdListDefinitionId": 308
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 379,
-  "Name": "Schmitt Inc and Sons",
-  "Tooltip": "dolorum",
+  "HeadingId": 632,
+  "Name": "Thiel, Sawayn and Ledner",
+  "Tooltip": "quidem",
   "Deleted": true,
-  "Rank": 514,
-  "UdListDefinitionId": 843,
+  "Rank": 565,
+  "UdListDefinitionId": 313,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 376
     }
   }
 }

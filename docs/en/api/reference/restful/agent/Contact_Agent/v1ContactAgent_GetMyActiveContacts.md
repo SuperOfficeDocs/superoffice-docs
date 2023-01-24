@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2013-04-14T17:37:17.186242+02:00",
+  "ActivityStartTime": "2020-01-31T11:22:37.664863+01:00",
   "ContactCategories": [
-    877,
-    177
+    921,
+    274
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -110,26 +110,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 790,
+    "ContactId": 497,
     "Department": "",
-    "OrgNr": "839902",
-    "Name": "Lemke LLC",
+    "OrgNr": "978359",
+    "Name": "Romaguera-Halvorson",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Miss Magali Keebler II",
+    "AssociateFullName": "Derrick Bahringer",
     "Action": "ActivityCompleted",
-    "ActionTime": "2018-08-28T17:37:17.186242+02:00",
+    "ActionTime": "2015-01-18T11:22:37.664863+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Cummerata Inc and Sons",
-    "ActionId": 695,
-    "PersonId": 774,
-    "ActivityPersonId": 975,
-    "AssociateId": 766,
+    "ActivityPersonName": "Towne Group",
+    "ActionId": 847,
+    "PersonId": 880,
+    "ActivityPersonId": 908,
+    "AssociateId": 16,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldLength": 820
       }
     }
   }

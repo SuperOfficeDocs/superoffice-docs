@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "doloribus",
-  "ProviderName": "Morissette, O'Keefe and Zieme",
-  "StorageKey": "autem",
-  "Context": "doloremque"
+  "StorageType": "voluptatum",
+  "ProviderName": "Ankunding LLC",
+  "StorageKey": "tempore",
+  "Context": "architecto"
 }
 ```
 
@@ -94,20 +94,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lehner, Morar and Fahey",
-  "Description": "Fully-configurable cohesive model",
-  "Rank": 913,
+  "Name": "Waelchi-Leannon",
+  "Description": "Synergistic full-range customer loyalty",
+  "Rank": 341,
   "Restrictions": [
     {
-      "Name": "Kling, Dicki and Upton",
-      "Operator": "autem",
+      "Name": "Franecki-Terry",
+      "Operator": "labore",
       "Values": [
-        "voluptatem",
-        "est"
+        "reiciendis",
+        "et"
       ],
       "DisplayValues": [
-        "est",
-        "ducimus"
+        "qui",
+        "sunt"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -115,9 +115,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 867,
+      "InterParenthesis": 504,
       "InterOperator": "And",
-      "UniqueHash": 131
+      "UniqueHash": 272
     }
   ]
 }

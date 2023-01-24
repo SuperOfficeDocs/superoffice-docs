@@ -82,22 +82,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "reprehenderit",
+  "RawValue": "nesciunt",
   "Specification": null,
-  "DisplayValue": "perspiciatis",
-  "DisplayTooltip": "est",
+  "DisplayValue": "accusamus",
+  "DisplayTooltip": "dolor",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 463,
-  "PrefDescId": 755,
-  "TableName": "Jast Group",
-  "UserPreferenceId": 423,
+  "TargetId": 113,
+  "PrefDescId": 397,
+  "TableName": "Huel, Conroy and Waters",
+  "UserPreferenceId": 283,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 664
     }
   }
 }

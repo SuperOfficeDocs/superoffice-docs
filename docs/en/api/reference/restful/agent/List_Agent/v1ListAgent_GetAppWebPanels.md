@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 823,
-    "Name": "McCullough Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 869,
+    "WebPanelId": 248,
+    "Name": "Brakus-Gulgowski",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "Rank": 155,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
@@ -107,21 +107,21 @@ Content-Type: application/json; charset=utf-8
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
+    "ShowInMenuBar": false,
     "ShowInToolBar": false,
-    "ShowInAddressBar": true,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": true,
-    "WindowName": "Tillman Group",
+    "WindowName": "Ortiz, Durgan and Kuhn",
     "Url": "http://www.example.com/",
-    "ProgId": "mollitia",
-    "Icon": 64,
+    "ProgId": "labore",
+    "Icon": 385,
     "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldLength": 689
       }
     }
   }

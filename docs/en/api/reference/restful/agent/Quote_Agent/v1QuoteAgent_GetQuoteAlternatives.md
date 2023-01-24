@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 684
+  "QuoteVersionId": 336
 }
 ```
 
@@ -110,35 +110,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 567,
-    "ERPQuoteAlternativeKey": "voluptatibus",
-    "QuoteVersionId": 329,
-    "Name": "Watsica, Upton and Kuhic",
-    "Description": "Networked web-enabled workforce",
+    "QuoteAlternativeId": 164,
+    "ERPQuoteAlternativeKey": "quos",
+    "QuoteVersionId": 598,
+    "Name": "Schmitt LLC",
+    "Description": "Compatible even-keeled moderator",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 1491.7839999999999,
-    "ERPDiscountAmount": 29462.734,
-    "DiscountPercent": 20859.904,
-    "DiscountAmount": 26425.888,
+    "ERPDiscountPercent": 6941.8099999999995,
+    "ERPDiscountAmount": 6615.874,
+    "DiscountPercent": 5440.624,
+    "DiscountAmount": 2748.518,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "doloremque",
-    "VAT": 28014.825999999997,
-    "EarningPercent": 25310.183999999997,
-    "EarningAmount": 12213.198,
-    "SubTotal": 13216.078,
-    "TotalPrice": 3315.772,
-    "ExtraField1": "quos",
-    "ExtraField2": "ab",
-    "ExtraField3": "voluptates",
-    "ExtraField4": "fugiat",
-    "ExtraField5": "consequatur",
+    "VATInfo": "voluptatem",
+    "VAT": 15337.796,
+    "EarningPercent": 9674.658,
+    "EarningAmount": 29694.649999999998,
+    "SubTotal": 27898.868,
+    "TotalPrice": 21775.032,
+    "ExtraField1": "perspiciatis",
+    "ExtraField2": "et",
+    "ExtraField3": "et",
+    "ExtraField4": "eaque",
+    "ExtraField5": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 881
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

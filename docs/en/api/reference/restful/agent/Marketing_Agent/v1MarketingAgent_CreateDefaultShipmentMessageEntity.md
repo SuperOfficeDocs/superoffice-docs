@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 574,
-  "PlainMessage": "doloremque",
-  "HtmlMessage": "expedita",
-  "SmsMessage": "distinctio",
-  "Description": "Diverse hybrid adapter",
-  "Subject": "et",
-  "FolderId": 847,
-  "HeaderField": "quibusdam",
-  "Design": "recusandae",
+  "ShipmentMessageId": 548,
+  "PlainMessage": "nihil",
+  "HtmlMessage": "eum",
+  "SmsMessage": "sed",
+  "Description": "User-centric web-enabled firmware",
+  "Subject": "nemo",
+  "FolderId": 927,
+  "HeaderField": "nam",
+  "Design": "id",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Ergonomic mobile contingency",
-  "AccessKey": "culpa",
-  "DocumentMessage": 789,
-  "Registered": "2000-01-23T17:37:18.3192412+01:00",
-  "RegisteredAssociateId": 39,
-  "Updated": "2003-11-02T17:37:18.3192412+01:00",
-  "UpdatedAssociateId": 977,
-  "UpdatedCount": 373,
+  "LongDescription": "Synchronised attitude-oriented knowledge user",
+  "AccessKey": "deleniti",
+  "DocumentMessage": 889,
+  "Registered": "2021-08-25T11:22:38.5552678+02:00",
+  "RegisteredAssociateId": 537,
+  "Updated": "1995-09-08T11:22:38.5552678+02:00",
+  "UpdatedAssociateId": 692,
+  "UpdatedCount": 140,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldType": "System.String",
+      "FieldLength": 784
     }
   }
 }

@@ -73,10 +73,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    755,
-    687
+    933,
+    118
   ],
-  "TargetFolder": "blanditiis"
+  "TargetFolder": "tempora"
 }
 ```
 

@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 345,
-    "Name": "Erdman, Schmidt and Hane",
-    "Tooltip": "aut",
+    "Id": 193,
+    "Name": "O'Keefe, Harvey and Reichert",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "UdListDefinitionId": 347,
-    "Rank": 679
+    "UdListDefinitionId": 752,
+    "Rank": 602
   },
   {
-    "Id": 345,
-    "Name": "Erdman, Schmidt and Hane",
-    "Tooltip": "aut",
+    "Id": 193,
+    "Name": "O'Keefe, Harvey and Reichert",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "UdListDefinitionId": 347,
-    "Rank": 679
+    "UdListDefinitionId": 752,
+    "Rank": 602
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 519,
-    "Name": "Hagenes Inc and Sons",
-    "Tooltip": "asperiores",
+    "Id": 506,
+    "Name": "Hilll, Williamson and Connelly",
+    "Tooltip": "pariatur",
     "Deleted": false,
-    "UdListDefinitionId": 700,
-    "Rank": 444,
+    "UdListDefinitionId": 795,
+    "Rank": 297,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldType": "System.String",
+        "FieldLength": 201
       }
     }
   }

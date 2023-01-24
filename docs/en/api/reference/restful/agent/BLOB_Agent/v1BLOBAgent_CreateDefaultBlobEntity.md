@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,25 +78,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 376,
-  "BlobSize": 219,
-  "Description": "Inverse upward-trending flexibility",
-  "ExtraInfo": "rerum",
+  "BlobId": 160,
+  "BlobSize": 965,
+  "Description": "Operative tangible standardization",
+  "ExtraInfo": "vitae",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "vitae",
-  "OriginalSize": 723,
-  "CreatedDate": "2019-12-21T17:37:16.9092427+01:00",
-  "UpdatedDate": "2002-11-26T17:37:16.9092427+01:00",
+  "IsZipped": true,
+  "MimeType": "necessitatibus",
+  "OriginalSize": 982,
+  "CreatedDate": "2000-06-16T11:22:37.4461725+02:00",
+  "UpdatedDate": "2007-04-09T11:22:37.4461725+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "reprehenderit",
+  "ConceptualType": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 716
+      "FieldType": "System.Int32",
+      "FieldLength": 645
     }
   }
 }

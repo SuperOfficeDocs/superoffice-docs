@@ -70,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 851,
-  "AssociateId": 525,
-  "Caption": "qui",
+  "DashboardId": 255,
+  "AssociateId": 577,
+  "Caption": "non",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 988,
-      "Caption": "nemo",
-      "Description": "Exclusive reciprocal support",
-      "ChartName": "Hessel, Barrows and White",
-      "ChartId": "est",
-      "IsDefault": true,
-      "AssociateId": 852,
-      "GroupId": 4,
-      "SelectionId": 529,
-      "Config": "doloremque",
+      "DashboardTileId": 585,
+      "Caption": "ut",
+      "Description": "Operative stable migration",
+      "ChartName": "Ziemann-Rice",
+      "ChartId": "debitis",
+      "IsDefault": false,
+      "AssociateId": 529,
+      "GroupId": 46,
+      "SelectionId": 844,
+      "Config": "repellendus",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldLength": 335
         }
       }
     }
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 598
+      "FieldType": "System.Int32",
+      "FieldLength": 361
     }
   }
 }

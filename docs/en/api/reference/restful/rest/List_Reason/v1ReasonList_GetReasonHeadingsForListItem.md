@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 48,
-    "Name": "Hilpert, Shanahan and Blick",
-    "ToolTip": "Soluta et totam sed ut est odit omnis.",
-    "Deleted": false,
-    "Rank": 872,
-    "Type": "et",
-    "ColorBlock": 783,
-    "IconHint": "dolor",
+    "Id": 606,
+    "Name": "White Group",
+    "ToolTip": "Vel nostrum expedita culpa.",
+    "Deleted": true,
+    "Rank": 91,
+    "Type": "id",
+    "ColorBlock": 926,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2022-03-09T17:37:40.2875004+01:00",
+    "LastChanged": "2011-08-04T11:22:46.1316279+02:00",
     "ChildItems": [
       {
-        "Id": 712,
-        "Name": "Haley, Grady and Auer",
-        "ToolTip": "Modi facilis temporibus earum molestiae et distinctio.",
+        "Id": 991,
+        "Name": "Donnelly-Crooks",
+        "ToolTip": "Voluptates mollitia totam sit.",
         "Deleted": true,
-        "Rank": 973,
-        "Type": "amet",
-        "ColorBlock": 879,
-        "IconHint": "illo",
+        "Rank": 903,
+        "Type": "ad",
+        "ColorBlock": 442,
+        "IconHint": "accusamus",
         "Selected": false,
-        "LastChanged": "2022-06-15T17:37:40.2885002+02:00",
+        "LastChanged": "2010-01-22T11:22:46.1316279+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "modi",
-        "Hidden": false,
-        "FullName": "Dr. Justina Ramon Witting",
+        "ExtraInfo": "architecto",
+        "StyleHint": "optio",
+        "Hidden": true,
+        "FullName": "Kyla Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 779
+            "FieldType": "System.Int32",
+            "FieldLength": 585
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "molestias",
     "Hidden": false,
-    "FullName": "Itzel Willms",
+    "FullName": "Gus Upton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 227
+        "FieldType": "System.String",
+        "FieldLength": 260
       }
     }
   }

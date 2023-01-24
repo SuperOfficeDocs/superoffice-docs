@@ -26,7 +26,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=est
+GET /api/v1/List/DocumentTemplate/MDOItems?query=aut
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Kohler LLC",
-    "ToolTip": "Cumque rem.",
+    "Id": 192,
+    "Name": "Turcotte, Ratke and Schamberger",
+    "ToolTip": "Mollitia molestias et qui mollitia non.",
     "Deleted": false,
-    "Rank": 566,
-    "Type": "sunt",
+    "Rank": 996,
+    "Type": "quidem",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Trantow Group",
-        "ToolTip": "Adipisci mollitia est aspernatur autem labore.",
-        "Deleted": true,
-        "Rank": 711,
-        "Type": "ipsum",
+        "Id": 872,
+        "Name": "Lockman-Jaskolski",
+        "ToolTip": "Ut ut incidunt recusandae consequatur explicabo.",
+        "Deleted": false,
+        "Rank": 560,
+        "Type": "fuga",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magni",
-        "ColorBlock": 694,
-        "ExtraInfo": "sint",
-        "StyleHint": "nihil",
-        "FullName": "Miss Kelli Ondricka Sr.",
+        "IconHint": "voluptatum",
+        "ColorBlock": 264,
+        "ExtraInfo": "facilis",
+        "StyleHint": "sequi",
+        "FullName": "Dr. Helena Davonte Pfannerstill V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 828
+            "FieldLength": 124
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 26,
-    "ExtraInfo": "perferendis",
-    "StyleHint": "velit",
-    "FullName": "Miss Calista Reichel I",
+    "IconHint": "dolor",
+    "ColorBlock": 291,
+    "ExtraInfo": "natus",
+    "StyleHint": "odio",
+    "FullName": "Jarod McKenzie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldType": "System.String",
+        "FieldLength": 151
       }
     }
   }

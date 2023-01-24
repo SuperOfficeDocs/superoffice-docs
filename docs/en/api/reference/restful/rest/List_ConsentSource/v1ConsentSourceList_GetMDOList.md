@@ -25,7 +25,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=False
+GET /api/v1/List/ConsentSource/MDOItems?flat=True
 GET /api/v1/List/ConsentSource/MDOItems?query=soluta
 ```
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Prohaska, Schmidt and Keebler",
-    "ToolTip": "Rerum ut et expedita qui nemo.",
+    "Id": 780,
+    "Name": "Hills-Kulas",
+    "ToolTip": "Aut beatae adipisci nulla provident quibusdam.",
     "Deleted": false,
-    "Rank": 270,
-    "Type": "est",
+    "Rank": 948,
+    "Type": "earum",
     "ChildItems": [
       {
-        "Id": 31,
-        "Name": "Swift Inc and Sons",
-        "ToolTip": "Cupiditate quia et minus ea eos.",
+        "Id": 791,
+        "Name": "Brekke-Lang",
+        "ToolTip": "Id quisquam eum.",
         "Deleted": false,
-        "Rank": 893,
-        "Type": "libero",
+        "Rank": 431,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eveniet",
-        "ColorBlock": 410,
-        "ExtraInfo": "inventore",
-        "StyleHint": "sunt",
-        "FullName": "Robyn Schmeler",
+        "IconHint": "molestiae",
+        "ColorBlock": 1000,
+        "ExtraInfo": "autem",
+        "StyleHint": "aut",
+        "FullName": "Keaton Glover",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldLength": 427
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 23,
-    "ExtraInfo": "nisi",
-    "StyleHint": "enim",
-    "FullName": "Delmer Jeremie Skiles PhD",
+    "IconHint": "recusandae",
+    "ColorBlock": 749,
+    "ExtraInfo": "et",
+    "StyleHint": "sequi",
+    "FullName": "Danika Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldLength": 360
       }
     }
   }

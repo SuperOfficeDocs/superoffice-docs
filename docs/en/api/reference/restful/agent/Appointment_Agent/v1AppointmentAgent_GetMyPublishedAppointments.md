@@ -112,7 +112,7 @@ OK
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -123,53 +123,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 783,
-    "StartDate": "2011-10-18T17:37:16.2552425+02:00",
-    "EndDate": "2000-12-31T17:37:16.2552425+01:00",
+    "AppointmentId": 938,
+    "StartDate": "2012-11-22T11:22:36.946279+01:00",
+    "EndDate": "2000-07-18T11:22:36.946279+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quibusdam",
-    "AssociateFullName": "Harmony Waters",
-    "ContactName": "Little LLC",
-    "Description": "Switchable tangible throughput",
-    "PersonFullName": "Davin Otilia Grant Jr.",
-    "PersonId": 920,
-    "ContactId": 888,
-    "ProjectId": 627,
-    "ProjectName": "Auer Inc and Sons",
+    "Task": "ut",
+    "AssociateFullName": "Chester Goldner Jr.",
+    "ContactName": "Schuppe, Corkery and Dietrich",
+    "Description": "Mandatory user-facing extranet",
+    "PersonFullName": "Dr. Wyatt Tomasa Pfeffer",
+    "PersonId": 654,
+    "ContactId": 587,
+    "ProjectId": 549,
+    "ProjectName": "Gorczany-Wyman",
     "IsPublished": false,
-    "AssociateId": 299,
-    "ColorIndex": 107,
-    "IsFree": false,
+    "AssociateId": 611,
+    "ColorIndex": 159,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 867,
-    "PriorityName": "Schultz-Kreiger",
+    "PriorityId": 461,
+    "PriorityName": "McGlynn LLC",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2015-10-16T17:37:16.2562428+02:00",
+    "ActiveDate": "2003-05-04T11:22:36.946279+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-07-01T17:37:16.2562428+02:00",
-    "RecurringEndDate": "2001-03-26T17:37:16.2562428+02:00",
-    "MotherId": 90,
-    "AssignedBy": 898,
-    "AssignedByFullName": "Waylon Jerde",
+    "RecurringStartDate": "2016-01-14T11:22:36.946279+01:00",
+    "RecurringEndDate": "2012-07-26T11:22:36.946279+02:00",
+    "MotherId": 71,
+    "AssignedBy": 766,
+    "AssignedByFullName": "Giles Bogan",
     "RejectReason": "",
-    "Location": "distinctio",
-    "AlarmLeadTime": "voluptas",
-    "SaleId": 83,
-    "SaleName": "Emard-Gorczany",
-    "AssociateName": "Nienow, Ryan and Carroll",
-    "CreatedDate": "2002-10-03T17:37:16.2572423+02:00",
-    "CreatedBy": "eum",
-    "CreatedByFullName": "Americo Predovic",
-    "CreatedByAssociateId": 688,
+    "Location": "nihil",
+    "AlarmLeadTime": "eos",
+    "SaleId": 885,
+    "SaleName": "Botsford-Jacobs",
+    "AssociateName": "O'Hara, Sanford and Carroll",
+    "CreatedDate": "2014-11-20T11:22:36.946279+01:00",
+    "CreatedBy": "laborum",
+    "CreatedByFullName": "Aliyah Greenfelder",
+    "CreatedByAssociateId": 608,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -177,7 +177,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 79
       }
     }
   }

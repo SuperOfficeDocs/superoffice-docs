@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 597,
-  "Name": "Schmitt Group",
-  "Tooltip": "odio",
-  "Deleted": false,
-  "Rank": 175,
-  "UdListDefinitionId": 163
+  "HeadingId": 791,
+  "Name": "Treutel, Hettinger and Brakus",
+  "Tooltip": "alias",
+  "Deleted": true,
+  "Rank": 920,
+  "UdListDefinitionId": 519
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 186,
-  "Name": "Cartwright Group",
-  "Tooltip": "omnis",
+  "HeadingId": 250,
+  "Name": "Simonis-Rath",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "Rank": 677,
-  "UdListDefinitionId": 663,
+  "Rank": 569,
+  "UdListDefinitionId": 645,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldLength": 254
     }
   }
 }

@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 606,
-    "Name": "Carroll, Torphy and Bogisich",
-    "Description": "Managed secondary task-force",
+    "ProjectId": 436,
+    "Name": "Ward-Mante",
+    "Description": "Integrated 6th generation database",
     "URL": "http://www.example.com/",
-    "Type": "repellat",
-    "AssociateId": 477,
-    "AssociateFullName": "Aurelia Bailey",
-    "TypeId": 229,
-    "Updated": "2022-04-04T17:37:18.658245+02:00",
-    "StatusId": 414,
-    "Status": "doloribus",
-    "TextId": 127,
-    "PublishTo": "2017-02-06T17:37:18.658245+01:00",
-    "PublishFrom": "2021-05-13T17:37:18.658245+02:00",
+    "Type": "qui",
+    "AssociateId": 699,
+    "AssociateFullName": "Prof. Kim Ortiz",
+    "TypeId": 512,
+    "Updated": "1997-07-25T11:22:38.8520826+02:00",
+    "StatusId": 62,
+    "Status": "laborum",
+    "TextId": 654,
+    "PublishTo": "2008-10-08T11:22:38.8520826+02:00",
+    "PublishFrom": "2014-04-16T11:22:38.8520826+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "964004",
-    "ActiveErpLinks": 308,
+    "ProjectNumber": "1016237",
+    "ActiveErpLinks": 322,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldType": "System.String",
+        "FieldLength": 85
       }
     }
   }

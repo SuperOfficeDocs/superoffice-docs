@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 762,
-    "Name": "Lemke, Weber and Kirlin",
-    "Tooltip": "error",
+    "HeadingId": 507,
+    "Name": "Tromp-Douglas",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 726,
-    "UdListDefinitionId": 328,
+    "Rank": 335,
+    "UdListDefinitionId": 718,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 965
+        "FieldLength": 506
       }
     }
   }

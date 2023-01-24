@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kertzmann Inc and Sons",
-  "ListItemId": 330,
-  "ShowDeleted": false
+  "UdListDefinitionName": "Dickens, Fay and Reynolds",
+  "ListItemId": 151,
+  "ShowDeleted": true
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 942,
-    "Name": "Parker, McGlynn and Kuhic",
-    "ToolTip": "Est numquam aut impedit vitae.",
-    "Deleted": false,
-    "Rank": 657,
-    "Type": "qui",
-    "ColorBlock": 111,
-    "IconHint": "repellat",
+    "Id": 87,
+    "Name": "Bartoletti, Effertz and Rowe",
+    "ToolTip": "Voluptatem voluptas aut maxime cum ut impedit.",
+    "Deleted": true,
+    "Rank": 665,
+    "Type": "labore",
+    "ColorBlock": 155,
+    "IconHint": "maiores",
     "Selected": false,
-    "LastChanged": "2021-04-28T17:37:18.2072449+02:00",
+    "LastChanged": "2018-08-26T11:22:38.4771746+02:00",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "Romaguera-Ward",
-        "ToolTip": "Facere incidunt illo.",
+        "Id": 152,
+        "Name": "Zieme-Wolff",
+        "ToolTip": "Consequatur consequuntur qui non maxime sunt eos.",
         "Deleted": false,
-        "Rank": 504,
-        "Type": "beatae",
-        "ColorBlock": 921,
-        "IconHint": "id",
+        "Rank": 726,
+        "Type": "voluptas",
+        "ColorBlock": 284,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2002-10-21T17:37:18.2072449+02:00",
+        "LastChanged": "2016-07-21T11:22:38.4771746+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "rem",
+        "ExtraInfo": "et",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Mr. Hortense Nienow III",
+        "FullName": "Travis Glover",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 356
+            "FieldLength": 755
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "aut",
+    "ExtraInfo": "quo",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Kattie Lavinia Nader III",
+    "FullName": "Ms. May Hills Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldLength": 423
       }
     }
   }

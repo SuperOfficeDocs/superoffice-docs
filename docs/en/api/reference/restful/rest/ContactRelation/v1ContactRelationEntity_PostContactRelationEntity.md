@@ -109,28 +109,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 161,
-  "SourcePersonId": 388,
-  "DestinationContactId": 50,
-  "DestinationPersonId": 903,
-  "RelationId": 673,
-  "Comment": "consectetur",
-  "RelationDefinitionId": 289,
-  "Reversed": 337,
-  "UpdatedDate": "2009-05-27T17:37:38.4688603+02:00",
-  "CreatedDate": "2015-09-22T17:37:38.4688603+02:00",
+  "SourceContactId": 899,
+  "SourcePersonId": 353,
+  "DestinationContactId": 951,
+  "DestinationPersonId": 951,
+  "RelationId": 418,
+  "Comment": "tempora",
+  "RelationDefinitionId": 259,
+  "Reversed": 36,
+  "UpdatedDate": "2016-08-09T11:22:44.5694964+02:00",
+  "CreatedDate": "1998-01-01T11:22:44.5694964+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Leffler, Marks and Towne",
-  "SourcePersonName": "Klocko, Ankunding and Senger",
-  "DestinationContactName": "Auer-Bahringer",
-  "DestinationPersonName": "Stark, Berge and Rempel",
-  "ActiveText": "veritatis",
-  "PassiveText": "inventore"
+  "SourceContactName": "Becker, Rempel and Simonis",
+  "SourcePersonName": "Labadie LLC",
+  "DestinationContactName": "Stiedemann-Corkery",
+  "DestinationPersonName": "Collins-Roob",
+  "ActiveText": "blanditiis",
+  "PassiveText": "magni"
 }
 ```
 
@@ -141,30 +141,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 872,
-  "SourcePersonId": 417,
-  "DestinationContactId": 189,
-  "DestinationPersonId": 63,
-  "RelationId": 84,
-  "Comment": "sit",
-  "RelationDefinitionId": 404,
-  "Reversed": 783,
-  "UpdatedDate": "2015-10-19T17:37:38.4718597+02:00",
-  "CreatedDate": "2001-08-11T17:37:38.4718597+02:00",
+  "SourceContactId": 801,
+  "SourcePersonId": 42,
+  "DestinationContactId": 926,
+  "DestinationPersonId": 101,
+  "RelationId": 628,
+  "Comment": "corrupti",
+  "RelationDefinitionId": 375,
+  "Reversed": 528,
+  "UpdatedDate": "2010-12-08T11:22:44.5694964+01:00",
+  "CreatedDate": "2013-02-26T11:22:44.5694964+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Padberg Group",
-  "SourcePersonName": "Shanahan, Lockman and Dibbert",
-  "DestinationContactName": "Pfeffer-Wisozk",
-  "DestinationPersonName": "Ondricka-Reinger",
-  "ActiveText": "voluptatibus",
-  "PassiveText": "dignissimos",
+  "SourceContactName": "Jaskolski Inc and Sons",
+  "SourcePersonName": "Hessel, Kemmer and Yundt",
+  "DestinationContactName": "O'Conner Inc and Sons",
+  "DestinationPersonName": "Wintheiser, Lowe and Schoen",
+  "ActiveText": "optio",
+  "PassiveText": "accusamus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldLength": 266
     }
   },
   "_Links": {

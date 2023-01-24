@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Lind-Casper",
-    "ToolTip": "Eligendi explicabo tenetur accusantium occaecati et ad eveniet.",
-    "Deleted": false,
-    "Rank": 914,
-    "Type": "consequuntur",
-    "ColorBlock": 57,
-    "IconHint": "doloribus",
-    "Selected": false,
-    "LastChanged": "2011-06-23T17:37:40.1315001+02:00",
+    "Id": 779,
+    "Name": "Kovacek-Jenkins",
+    "ToolTip": "Et corrupti ducimus veritatis nesciunt sed expedita.",
+    "Deleted": true,
+    "Rank": 112,
+    "Type": "id",
+    "ColorBlock": 19,
+    "IconHint": "odit",
+    "Selected": true,
+    "LastChanged": "2000-03-05T11:22:46.0066565+01:00",
     "ChildItems": [
       {
-        "Id": 735,
-        "Name": "Schuppe Group",
-        "ToolTip": "Et rerum itaque quod quod.",
-        "Deleted": true,
-        "Rank": 368,
-        "Type": "est",
-        "ColorBlock": 679,
-        "IconHint": "exercitationem",
+        "Id": 1002,
+        "Name": "Crooks Inc and Sons",
+        "ToolTip": "Incidunt similique.",
+        "Deleted": false,
+        "Rank": 765,
+        "Type": "exercitationem",
+        "ColorBlock": 103,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2008-02-26T17:37:40.1315001+01:00",
+        "LastChanged": "2020-10-06T11:22:46.0066565+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "debitis",
+        "ExtraInfo": "quam",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Miss Walton Larson",
+        "FullName": "Iliana Sarina Dickinson DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 825
+            "FieldType": "System.String",
+            "FieldLength": 426
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "est",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Evelyn Schuster",
+    "FullName": "Mr. Diana Kendrick Cassin DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldType": "System.String",
+        "FieldLength": 489
       }
     }
   }

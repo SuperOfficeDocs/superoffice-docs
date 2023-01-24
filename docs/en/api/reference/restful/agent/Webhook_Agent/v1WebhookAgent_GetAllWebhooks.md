@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Sauer, Goldner and Jacobi",
-  "EventFilter": "omnis",
+  "NameFilter": "Heaney, Simonis and O'Reilly",
+  "EventFilter": "sed",
   "StatusFilter": "Active"
 }
 ```
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 702,
-    "Name": "Ondricka-McClure",
+    "WebhookId": 16,
+    "Name": "Mante Group",
     "Events": [
-      "fugit",
-      "possimus"
+      "possimus",
+      "repellendus"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "aut",
+    "Secret": "voluptatem",
     "State": "Active",
-    "Type": "similique",
+    "Type": "perferendis",
     "Headers": {
-      "Headers1": "occaecati",
-      "Headers2": "occaecati"
+      "Headers1": "blanditiis",
+      "Headers2": "aspernatur"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2013-01-26T17:37:19.6519782+01:00",
+    "Registered": "2022-09-27T11:22:39.7112593+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2019-02-20T17:37:19.6529774+01:00",
+    "Updated": "2010-11-17T11:22:39.7112593+01:00",
     "UpdatedAssociate": null
   }
 ]

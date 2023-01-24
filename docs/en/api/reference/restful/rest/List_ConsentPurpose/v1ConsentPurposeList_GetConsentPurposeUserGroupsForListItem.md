@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Kunde, Schmeler and Ortiz",
-    "ToolTip": "Iusto quia minus.",
-    "Deleted": false,
-    "Rank": 644,
-    "Type": "ut",
-    "ColorBlock": 67,
-    "IconHint": "quo",
-    "Selected": true,
-    "LastChanged": "2021-04-29T17:37:39.8965143+02:00",
+    "Id": 486,
+    "Name": "Metz-Witting",
+    "ToolTip": "Quo ipsa aut sequi repellendus laborum et.",
+    "Deleted": true,
+    "Rank": 1000,
+    "Type": "pariatur",
+    "ColorBlock": 844,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2022-11-10T11:22:45.8191493+01:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Little-Harris",
-        "ToolTip": "Harum voluptatibus maxime quos excepturi.",
-        "Deleted": false,
-        "Rank": 650,
-        "Type": "fuga",
-        "ColorBlock": 615,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2004-09-22T17:37:39.8965143+02:00",
+        "Id": 318,
+        "Name": "Roob, Kemmer and Wintheiser",
+        "ToolTip": "Nihil praesentium pariatur.",
+        "Deleted": true,
+        "Rank": 985,
+        "Type": "quia",
+        "ColorBlock": 695,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "1996-12-17T11:22:45.8191493+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "at",
-        "Hidden": false,
-        "FullName": "Ken Welch",
+        "ExtraInfo": "soluta",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Miss Jeremy Gerlach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 215
+            "FieldLength": 354
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "officiis",
-    "Hidden": true,
-    "FullName": "Josie Hodkiewicz",
+    "ExtraInfo": "modi",
+    "StyleHint": "numquam",
+    "Hidden": false,
+    "FullName": "Jon Okuneva II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 530
+        "FieldType": "System.Int32",
+        "FieldLength": 380
       }
     }
   }

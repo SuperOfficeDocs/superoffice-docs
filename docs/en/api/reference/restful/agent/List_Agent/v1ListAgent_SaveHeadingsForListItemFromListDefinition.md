@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 481,
-  "ListItemId": 478,
+  "UdListDefinitionId": 148,
+  "ListItemId": 389,
   "Headings": [
     {
-      "Id": 658,
-      "Name": "D'Amore LLC",
-      "ToolTip": "Dolore quidem id cupiditate exercitationem a error.",
+      "Id": 593,
+      "Name": "Sipes, Von and Pfannerstill",
+      "ToolTip": "Natus assumenda aut tenetur quidem aliquam itaque laborum.",
       "Deleted": false,
-      "Rank": 837,
-      "Type": "consequuntur",
-      "ColorBlock": 994,
-      "IconHint": "eum",
+      "Rank": 456,
+      "Type": "illo",
+      "ColorBlock": 613,
+      "IconHint": "deserunt",
       "Selected": false,
-      "LastChanged": "1999-10-06T17:37:18.2082449+02:00",
+      "LastChanged": "1998-09-13T11:22:38.4771746+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "et",
+      "ExtraInfo": "quam",
+      "StyleHint": "occaecati",
       "Hidden": false,
-      "FullName": "Ms. Alia Glover DVM"
+      "FullName": "Felicita Hilll"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 607,
-    "Name": "Fadel, Veum and Kub",
-    "ToolTip": "A dolor cumque.",
-    "Deleted": true,
-    "Rank": 329,
-    "Type": "quas",
-    "ColorBlock": 861,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2014-02-21T17:37:18.2092447+01:00",
+    "Id": 545,
+    "Name": "Collins, Prosacco and Zulauf",
+    "ToolTip": "Ut dolores.",
+    "Deleted": false,
+    "Rank": 806,
+    "Type": "sint",
+    "ColorBlock": 921,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2010-04-26T11:22:38.4771746+02:00",
     "ChildItems": [
       {
-        "Id": 599,
-        "Name": "Rosenbaum Group",
-        "ToolTip": "A quia et ratione deserunt voluptatem voluptas corrupti.",
+        "Id": 638,
+        "Name": "Heller-Ernser",
+        "ToolTip": "Ut soluta quae nesciunt.",
         "Deleted": false,
-        "Rank": 732,
-        "Type": "placeat",
-        "ColorBlock": 576,
-        "IconHint": "laboriosam",
-        "Selected": true,
-        "LastChanged": "2002-10-15T17:37:18.2092447+02:00",
+        "Rank": 23,
+        "Type": "voluptatem",
+        "ColorBlock": 156,
+        "IconHint": "earum",
+        "Selected": false,
+        "LastChanged": "1996-04-08T11:22:38.4771746+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "facilis",
-        "Hidden": false,
-        "FullName": "Dr. Corrine Coleman Hane",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "ipsam",
+        "Hidden": true,
+        "FullName": "Ottilie Kuphal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 282
+            "FieldLength": 684
           }
         }
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "aut",
+    "ExtraInfo": "quasi",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Angelica Volkman",
+    "FullName": "Ms. Boris Kunde II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldType": "System.String",
+        "FieldLength": 345
       }
     }
   }

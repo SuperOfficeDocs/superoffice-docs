@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Hermiston, Boyle and Wilderman",
-    "Tooltip": "harum",
+    "Id": 326,
+    "Name": "Dare Inc and Sons",
+    "Tooltip": "unde",
     "Deleted": false,
-    "UdListDefinitionId": 941,
-    "Rank": 12
+    "UdListDefinitionId": 981,
+    "Rank": 690
   },
   {
-    "Id": 821,
-    "Name": "Hermiston, Boyle and Wilderman",
-    "Tooltip": "harum",
+    "Id": 326,
+    "Name": "Dare Inc and Sons",
+    "Tooltip": "unde",
     "Deleted": false,
-    "UdListDefinitionId": 941,
-    "Rank": 12
+    "UdListDefinitionId": 981,
+    "Rank": 690
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 452,
-    "Name": "Corwin, Stanton and Jast",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "UdListDefinitionId": 438,
-    "Rank": 937,
+    "Id": 289,
+    "Name": "Leuschke, Graham and Hirthe",
+    "Tooltip": "asperiores",
+    "Deleted": false,
+    "UdListDefinitionId": 401,
+    "Rank": 834,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 426
+        "FieldType": "System.Int32",
+        "FieldLength": 367
       }
     }
   }

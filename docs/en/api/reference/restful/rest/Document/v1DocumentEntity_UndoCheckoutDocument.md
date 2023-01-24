@@ -67,7 +67,7 @@ OK
 DELETE /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,11 +77,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ipsa",
-  "VersionId": "ullam",
+  "ExternalReference": "ut",
+  "VersionId": "non",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "quos",
-  "AdditionalInfo": "ad"
+  "Value": "libero",
+  "AdditionalInfo": "sed"
 }
 ```

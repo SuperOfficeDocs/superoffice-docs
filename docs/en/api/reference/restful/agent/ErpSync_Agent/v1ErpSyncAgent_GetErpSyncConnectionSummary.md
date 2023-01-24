@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 815
+  "ErpSyncConnectionId": 334
 }
 ```
 
@@ -94,37 +94,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Ullrich Inc and Sons",
-  "DisplayDescription": "Business-focused secondary approach",
-  "Active": true,
-  "Deleted": false,
-  "LastSync": "2013-07-16T17:37:18.0242449+02:00",
+  "DisplayName": "Howell-Bode",
+  "DisplayDescription": "Operative eco-centric hardware",
+  "Active": false,
+  "Deleted": true,
+  "LastSync": "1998-05-19T11:22:38.3053393+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "a",
-      "Mappings": "itaque",
+      "Defaults": "assumenda",
+      "Mappings": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 42
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "a",
-      "Mappings": "itaque",
+      "Defaults": "assumenda",
+      "Mappings": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 42
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldLength": 247
     }
   }
 }

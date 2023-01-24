@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,28 +90,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 432,
+  "EjMessageId": 40,
   "Ticket": null,
-  "CreatedAt": "2015-04-02T17:37:19.3062408+02:00",
+  "CreatedAt": "2005-06-26T11:22:39.4144523+02:00",
   "CreatedBy": null,
-  "Author": "id",
+  "Author": "a",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "delectus",
-  "TimeSpent": 185,
-  "Body": "provident",
-  "HtmlBody": "est",
-  "EmailHeader": "keshawn@buckridgerussel.co.uk",
-  "DebugInfo": "eum",
-  "MailSorter": "ut",
+  "MessageId": "et",
+  "TimeSpent": 587,
+  "Body": "in",
+  "HtmlBody": "illo",
+  "EmailHeader": "leanne_koelpin@kochcrist.biz",
+  "DebugInfo": "quo",
+  "MailSorter": "similique",
   "MessageCategory": "Bounce",
   "Person": null,
   "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 455,
-      "Name": "Kohler-Hilll",
-      "Value": "natus",
+      "Id": 339,
+      "Name": "Boyer, Kunde and Dietrich",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,47 +119,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 916
+          "FieldLength": 405
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "est",
-  "Sentiment": 454,
-  "SentimentConfidence": 558,
+  "Important": false,
+  "Language": "asperiores",
+  "Sentiment": 407,
+  "SentimentConfidence": 295,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 630,
-      "Name": "Streich, Tillman and Wilkinson",
-      "ContentType": "aut",
-      "AttSize": 276,
-      "InlineImage": true,
-      "ContentId": "quasi",
+      "AttachmentId": 419,
+      "Name": "DuBuque, Hauck and Schulist",
+      "ContentType": "impedit",
+      "AttSize": 640,
+      "InlineImage": false,
+      "ContentId": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 587
+          "FieldLength": 5
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "quas"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "soluta"
+    "CustomFields1": "eligendi",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 611
     }
   }
 }

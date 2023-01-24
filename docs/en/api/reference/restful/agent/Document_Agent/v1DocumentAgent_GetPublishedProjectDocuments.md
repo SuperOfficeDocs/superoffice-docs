@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 6
+  "ProjectId": 795
 }
 ```
 
@@ -107,32 +107,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 775,
-    "Attention": "molestiae",
-    "Header": "voluptates",
-    "Name": "Stanton LLC",
-    "OurRef": "est",
-    "YourRef": "quia",
-    "Description": "Multi-layered intangible protocol",
-    "DocumentTemplate": "aut",
-    "IsPublished": false,
-    "PersonId": 737,
-    "PersonFullName": "Laurence Kessler",
-    "AssociateFullName": "Roman Candido Rath PhD",
-    "ContactId": 607,
-    "ContactName": "Johnston-Kub",
-    "ProjectId": 536,
-    "ProjectName": "Gorczany-Ullrich",
-    "AssociateId": 506,
-    "Snum": 844,
-    "SaleId": 167,
-    "SaleName": "Sawayn Inc and Sons",
+    "DocumentId": 987,
+    "Attention": "qui",
+    "Header": "ut",
+    "Name": "Hahn Inc and Sons",
+    "OurRef": "mollitia",
+    "YourRef": "officiis",
+    "Description": "Realigned tangible moratorium",
+    "DocumentTemplate": "quam",
+    "IsPublished": true,
+    "PersonId": 924,
+    "PersonFullName": "Alana Wiza",
+    "AssociateFullName": "Ashleigh Feeney",
+    "ContactId": 301,
+    "ContactName": "Legros-Skiles",
+    "ProjectId": 792,
+    "ProjectName": "Farrell, Flatley and Corkery",
+    "AssociateId": 924,
+    "Snum": 914,
+    "SaleId": 600,
+    "SaleName": "Cole, Paucek and Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 685
       }
     }
   }

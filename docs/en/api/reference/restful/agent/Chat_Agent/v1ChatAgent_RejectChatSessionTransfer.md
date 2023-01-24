@@ -108,7 +108,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 534
+  "ChatSessionId": 405
 }
 ```
 
@@ -119,43 +119,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 916,
-  "TopicId": 753,
+  "ChatSessionId": 564,
+  "TopicId": 865,
   "User": null,
   "Person": null,
-  "CustomerAlias": "tempore",
-  "CustomerHost": "beatae",
-  "CustomerName": "Kessler-Schulist",
-  "CustomerEmail": "lea.heidenreich@krajcik.biz",
-  "CustomerPhone": "872.280.4513",
+  "CustomerAlias": "voluptatem",
+  "CustomerHost": "sunt",
+  "CustomerName": "Glover, Stanton and Bailey",
+  "CustomerEmail": "lincoln.renner@kirlin.ca",
+  "CustomerPhone": "1-336-880-9275",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schneider Inc and Sons",
+  "CustomerCompanyName": "Blanda Group",
   "Status": "Closed",
-  "FirstMessage": "excepturi",
-  "LastMessage": "ea",
-  "WhenRequested": "2016-07-11T17:37:17.0392425+02:00",
-  "WhenStarted": "2020-02-18T17:37:17.0392425+01:00",
-  "WhenEnded": "2015-12-03T17:37:17.0392425+01:00",
-  "WhenIdle": "2008-06-22T17:37:17.0392425+02:00",
-  "WhenFetched": "1995-09-12T17:37:17.0392425+02:00",
-  "SessionKey": "dignissimos",
-  "InitialQueuePos": 352,
-  "AlertLevel": 369,
-  "Rank": 488,
+  "FirstMessage": "quaerat",
+  "LastMessage": "non",
+  "WhenRequested": "2014-03-14T11:22:37.5398862+01:00",
+  "WhenStarted": "2019-11-15T11:22:37.5398862+01:00",
+  "WhenEnded": "2005-05-04T11:22:37.5398862+02:00",
+  "WhenIdle": "2000-05-09T11:22:37.5398862+02:00",
+  "WhenFetched": "2014-11-24T11:22:37.5398862+01:00",
+  "SessionKey": "sapiente",
+  "InitialQueuePos": 18,
+  "AlertLevel": 326,
+  "Rank": 449,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 99,
+  "ChatbotIsActive": true,
+  "Rating": 826,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldLength": 799
     }
   }
 }

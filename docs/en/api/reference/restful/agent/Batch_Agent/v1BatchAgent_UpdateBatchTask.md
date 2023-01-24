@@ -85,6 +85,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -109,36 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 837,
-  "Name": "Hammes-Nienow",
-  "AssociateId": 865,
-  "DetailsTable": 645,
-  "DetailsRecord": 75,
+  "Id": 404,
+  "Name": "Jast-McKenzie",
+  "AssociateId": 734,
+  "DetailsTable": 606,
+  "DetailsRecord": 832,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "non",
-    "ParameterObject2": "natus"
+    "ParameterObject1": "cumque",
+    "ParameterObject2": "voluptatem"
   },
-  "LastStarted": "2022-10-08T17:37:16.9002422+02:00",
-  "Created": "2019-08-13T17:37:16.9002422+02:00",
-  "StartCount": 525,
-  "DatabaseSerialNumber": "688833",
-  "Context": "ducimus",
-  "Result": "doloremque",
+  "LastStarted": "1999-03-05T11:22:37.4461725+01:00",
+  "Created": "2016-06-27T11:22:37.4461725+02:00",
+  "StartCount": 185,
+  "DatabaseSerialNumber": "1004424",
+  "Context": "et",
+  "Result": "autem",
   "State": "All",
-  "Description": "Cloned discrete algorithm",
-  "Response": "quibusdam",
-  "Request": "quasi",
-  "ProgressDescription": "Triple-buffered composite access",
-  "ProgressPercent": 341,
-  "FileName": "Bauch-Lind",
+  "Description": "Face to face 24 hour toolset",
+  "Response": "sapiente",
+  "Request": "laboriosam",
+  "ProgressDescription": "Innovative exuding concept",
+  "ProgressPercent": 66,
+  "FileName": "Carter Group",
+  "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 292
+      "FieldType": "System.Int32",
+      "FieldLength": 580
     }
   }
 }

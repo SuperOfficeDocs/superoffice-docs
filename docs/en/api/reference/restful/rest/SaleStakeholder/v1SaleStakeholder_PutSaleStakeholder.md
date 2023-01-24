@@ -114,29 +114,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Dare, Fay and McLaughlin",
-  "Comment": "nobis",
-  "StakeholderRoleId": 880,
-  "CountryId": 582,
-  "PersonId": 485,
-  "EmailDescription": "wilber_hettinger@walter.info",
-  "EmailId": 593,
-  "EmailAddress": "valentine_gusikowski@douglas.biz",
-  "PhoneId": 99,
-  "ContactName": "Ziemann, Schuppe and Beer",
-  "ContactId": 922,
-  "SaleId": 420,
-  "Mrmrs": "qui",
-  "Firstname": "Skylar",
-  "MiddleName": "Dickinson-Rice",
+  "StakeholderRoleName": "Shields-Lowe",
+  "Comment": "cumque",
+  "StakeholderRoleId": 411,
+  "CountryId": 637,
+  "PersonId": 878,
+  "EmailDescription": "shania_botsford@goldner.biz",
+  "EmailId": 63,
+  "EmailAddress": "myles@bernhardthompson.us",
+  "PhoneId": 191,
+  "ContactName": "McClure Inc and Sons",
+  "ContactId": 664,
+  "SaleId": 567,
+  "Mrmrs": "suscipit",
+  "Firstname": "Fannie",
+  "MiddleName": "Harris, Rath and Tromp",
   "Lastname": "Sipes",
-  "SaleStakeholderId": 753,
-  "Rank": 216,
-  "Phone": "1-709-985-5862 x07371"
+  "SaleStakeholderId": 419,
+  "Rank": 357,
+  "Phone": "039.972.5366 x069"
 }
 ```
 
@@ -147,31 +147,31 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Wisozk-O'Hara",
-  "Comment": "esse",
-  "StakeholderRoleId": 412,
-  "CountryId": 903,
-  "PersonId": 571,
-  "EmailDescription": "braeden_cassin@waters.us",
-  "EmailId": 345,
-  "EmailAddress": "kole@effertzhermann.us",
-  "PhoneId": 545,
-  "ContactName": "Nitzsche Inc and Sons",
-  "ContactId": 958,
-  "SaleId": 845,
-  "Mrmrs": "ad",
-  "Firstname": "Belle",
-  "MiddleName": "Considine Inc and Sons",
-  "Lastname": "Wolf",
-  "SaleStakeholderId": 837,
-  "Rank": 399,
-  "Phone": "(660)821-1704 x77434",
+  "StakeholderRoleName": "Thompson-Windler",
+  "Comment": "ducimus",
+  "StakeholderRoleId": 753,
+  "CountryId": 874,
+  "PersonId": 26,
+  "EmailDescription": "bert@hyatt.com",
+  "EmailId": 873,
+  "EmailAddress": "sydni@kunde.name",
+  "PhoneId": 141,
+  "ContactName": "Stoltenberg, Kerluke and Keeling",
+  "ContactId": 934,
+  "SaleId": 683,
+  "Mrmrs": "aut",
+  "Firstname": "Justice",
+  "MiddleName": "Blanda-Rempel",
+  "Lastname": "Abshire",
+  "SaleStakeholderId": 276,
+  "Rank": 374,
+  "Phone": "1-255-658-5519",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 863
     }
   },
   "_Links": {

@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 304,
-  "Name": "Legros-Turner",
-  "Tooltip": "perferendis",
+  "HeadingId": 954,
+  "Name": "Stoltenberg-Wolf",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 203,
-  "UdListDefinitionId": 794
+  "Rank": 396,
+  "UdListDefinitionId": 994
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 675,
-  "Name": "Franecki-Doyle",
-  "Tooltip": "quod",
-  "Deleted": false,
-  "Rank": 299,
-  "UdListDefinitionId": 532,
+  "HeadingId": 773,
+  "Name": "Gulgowski, Yost and Dooley",
+  "Tooltip": "illo",
+  "Deleted": true,
+  "Rank": 528,
+  "UdListDefinitionId": 508,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   }
 }

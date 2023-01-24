@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 50,
-  "Name": "Jast Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 576,
-  "Rank": 921,
+  "Id": 491,
+  "Name": "Adams-Fisher",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "UdListDefinitionId": 455,
+  "Rank": 273,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldType": "System.String",
+      "FieldLength": 38
     }
   }
 }

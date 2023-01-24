@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,19 +77,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 751,
-  "Name": "Kling Group",
-  "Tooltip": "eos",
-  "Rank": 597,
-  "Rate": 7856.938,
-  "Units": 24391.922,
+  "CurrencyId": 741,
+  "Name": "Kassulke Group",
+  "Tooltip": "sequi",
+  "Rank": 354,
+  "Rate": 1789.514,
+  "Units": 19133.07,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldLength": 936
     }
   }
 }

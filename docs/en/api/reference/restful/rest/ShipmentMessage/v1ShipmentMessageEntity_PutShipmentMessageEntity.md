@@ -118,31 +118,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 340,
-  "PlainMessage": "eligendi",
-  "HtmlMessage": "eum",
-  "SmsMessage": "maiores",
-  "Description": "Devolved zero tolerance moratorium",
-  "Subject": "et",
-  "FolderId": 765,
-  "HeaderField": "cumque",
-  "Design": "numquam",
+  "ShipmentMessageId": 222,
+  "PlainMessage": "quo",
+  "HtmlMessage": "provident",
+  "SmsMessage": "doloremque",
+  "Description": "Open-source transitional groupware",
+  "Subject": "neque",
+  "FolderId": 309,
+  "HeaderField": "et",
+  "Design": "porro",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Secured zero defect local area network",
-  "AccessKey": "sint",
-  "DocumentMessage": 995,
-  "Registered": "2018-12-10T17:37:39.2273036+01:00",
-  "RegisteredAssociateId": 777,
-  "Updated": "2006-03-13T17:37:39.2273036+01:00",
-  "UpdatedAssociateId": 708,
-  "UpdatedCount": 204
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "User-friendly 4th generation circuit",
+  "AccessKey": "aliquam",
+  "DocumentMessage": 468,
+  "Registered": "2007-09-17T11:22:45.225579+02:00",
+  "RegisteredAssociateId": 470,
+  "Updated": "2013-04-10T11:22:45.225579+02:00",
+  "UpdatedAssociateId": 465,
+  "UpdatedCount": 893
 }
 ```
 
@@ -153,38 +153,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 71,
-  "PlainMessage": "fugit",
-  "HtmlMessage": "et",
-  "SmsMessage": "quod",
-  "Description": "Enterprise-wide static customer loyalty",
-  "Subject": "voluptatem",
-  "FolderId": 956,
-  "HeaderField": "tenetur",
-  "Design": "architecto",
+  "ShipmentMessageId": 792,
+  "PlainMessage": "ex",
+  "HtmlMessage": "odio",
+  "SmsMessage": "aut",
+  "Description": "Self-enabling uniform secured line",
+  "Subject": "dolor",
+  "FolderId": 496,
+  "HeaderField": "quas",
+  "Design": "fuga",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Stand-alone neutral hierarchy",
-  "AccessKey": "nulla",
-  "DocumentMessage": 154,
-  "Registered": "2022-01-06T17:37:39.2273036+01:00",
-  "RegisteredAssociateId": 785,
-  "Updated": "1996-05-27T17:37:39.2273036+02:00",
-  "UpdatedAssociateId": 913,
-  "UpdatedCount": 593,
+  "LongDescription": "Face to face bifurcated approach",
+  "AccessKey": "vel",
+  "DocumentMessage": 882,
+  "Registered": "2021-09-05T11:22:45.225579+02:00",
+  "RegisteredAssociateId": 497,
+  "Updated": "1996-04-15T11:22:45.225579+02:00",
+  "UpdatedAssociateId": 136,
+  "UpdatedCount": 48,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldLength": 2
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

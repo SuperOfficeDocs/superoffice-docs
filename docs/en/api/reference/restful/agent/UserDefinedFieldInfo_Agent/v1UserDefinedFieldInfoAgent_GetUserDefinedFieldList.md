@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 735,
-    "ColumnId": 191,
-    "FieldDefault": "delectus",
-    "FieldHeight": 676,
-    "FieldLabel": "ut",
-    "FieldLeft": 43,
-    "FieldTop": 229,
+    "UDefFieldId": 285,
+    "ColumnId": 519,
+    "FieldDefault": "ut",
+    "FieldHeight": 542,
+    "FieldLabel": "laboriosam",
+    "FieldLeft": 195,
+    "FieldTop": 316,
     "FieldType": "Checkbox",
-    "FieldWidth": 435,
-    "FormatMask": "ut",
+    "FieldWidth": 182,
+    "FormatMask": "sed",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 8,
-    "LabelLeft": 867,
-    "LabelTop": 937,
-    "LabelWidth": 31,
-    "LastVersionId": 727,
-    "ListTableId": 60,
+    "LabelHeight": 720,
+    "LabelLeft": 600,
+    "LabelTop": 185,
+    "LabelWidth": 749,
+    "LastVersionId": 944,
+    "ListTableId": 144,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 687,
-    "ProgId": "perspiciatis",
+    "Page1LineNo": 937,
+    "ProgId": "occaecati",
     "IsReadOnly": false,
-    "ShortLabel": "inventore",
-    "TabOrder": 167,
-    "TextLength": 200,
-    "Tooltip": "aut",
-    "UdefIdentity": 220,
-    "UDListDefinitionId": 688,
+    "ShortLabel": "atque",
+    "TabOrder": 103,
+    "TextLength": 819,
+    "Tooltip": "quo",
+    "UdefIdentity": 728,
+    "UDListDefinitionId": 519,
     "Justification": "Center",
-    "Version": 124,
-    "TemplateVariableName": "Satterfield Group",
-    "HasBeenPublished": false,
-    "MdoListName": "Hackett-Jaskolski",
+    "Version": 168,
+    "TemplateVariableName": "Will Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Skiles LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldType": "System.String",
+        "FieldLength": 415
       }
     }
   }

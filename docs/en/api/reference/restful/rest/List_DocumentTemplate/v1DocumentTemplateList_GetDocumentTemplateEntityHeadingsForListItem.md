@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "Morissette LLC",
-    "ToolTip": "Aperiam est esse dolorum.",
+    "Id": 731,
+    "Name": "Nader Inc and Sons",
+    "ToolTip": "Iure vel qui numquam voluptatibus officiis.",
     "Deleted": false,
-    "Rank": 489,
-    "Type": "itaque",
-    "ColorBlock": 104,
-    "IconHint": "beatae",
-    "Selected": false,
-    "LastChanged": "1999-11-25T17:37:40.0234703+01:00",
+    "Rank": 751,
+    "Type": "sed",
+    "ColorBlock": 432,
+    "IconHint": "nam",
+    "Selected": true,
+    "LastChanged": "2020-10-13T11:22:45.9129207+02:00",
     "ChildItems": [
       {
-        "Id": 624,
-        "Name": "Stehr, Rogahn and Walter",
-        "ToolTip": "Earum doloremque sunt illo sint aut.",
+        "Id": 846,
+        "Name": "Green-Kutch",
+        "ToolTip": "Vitae aut ab esse fuga.",
         "Deleted": true,
-        "Rank": 875,
-        "Type": "perferendis",
-        "ColorBlock": 193,
-        "IconHint": "natus",
-        "Selected": true,
-        "LastChanged": "2007-08-18T17:37:40.0234703+02:00",
+        "Rank": 397,
+        "Type": "incidunt",
+        "ColorBlock": 484,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2011-09-30T11:22:45.9129207+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptatum",
-        "Hidden": true,
-        "FullName": "Ms. Tevin Desiree Jast",
+        "ExtraInfo": "eaque",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Mrs. Nigel Hyman Stiedemann II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 706
+            "FieldType": "System.Int32",
+            "FieldLength": 958
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "odio",
     "Hidden": false,
-    "FullName": "Letitia Fisher",
+    "FullName": "Mr. Brielle Graham V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 584
+        "FieldLength": 88
       }
     }
   }

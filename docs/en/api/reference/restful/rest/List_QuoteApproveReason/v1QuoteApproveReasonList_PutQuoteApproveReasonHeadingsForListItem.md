@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Dooley, Schroeder and Pollich",
-    "ToolTip": "Ut voluptates quae deleniti consequatur ut fugiat.",
+    "Id": 589,
+    "Name": "Christiansen Group",
+    "ToolTip": "Et quibusdam explicabo non quidem expedita cupiditate soluta.",
     "Deleted": true,
-    "Rank": 360,
-    "Type": "deserunt",
-    "ColorBlock": 33,
-    "IconHint": "aliquid",
-    "Selected": true,
-    "LastChanged": "1999-02-10T17:37:40.2354735+01:00",
+    "Rank": 187,
+    "Type": "molestiae",
+    "ColorBlock": 862,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2015-03-07T11:22:46.1003835+01:00",
     "ChildItems": [
       {
-        "Id": 181,
-        "Name": "Will Group",
-        "ToolTip": "Enim rem.",
+        "Id": 264,
+        "Name": "Swaniawski LLC",
+        "ToolTip": "Voluptas id.",
         "Deleted": false,
-        "Rank": 903,
-        "Type": "impedit",
-        "ColorBlock": 398,
-        "IconHint": "commodi",
+        "Rank": 380,
+        "Type": "autem",
+        "ColorBlock": 316,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "2006-07-08T17:37:40.2354735+02:00",
+        "LastChanged": "2019-02-10T11:22:46.1003835+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Amelie Beahan"
+        "ExtraInfo": "earum",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Ms. Dixie Bayer DVM"
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "ratione",
+    "ExtraInfo": "ut",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Mr. Fermin Harber"
+    "FullName": "Prof. Luna Jena Gerlach MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 811,
-    "Name": "Johnston-Grady",
-    "ToolTip": "Omnis nihil quos rem cumque rerum qui maiores.",
-    "Deleted": true,
-    "Rank": 517,
-    "Type": "dolorem",
-    "ColorBlock": 856,
-    "IconHint": "ut",
+    "Id": 78,
+    "Name": "Trantow-Dach",
+    "ToolTip": "Nobis velit dolorem aut.",
+    "Deleted": false,
+    "Rank": 920,
+    "Type": "laborum",
+    "ColorBlock": 642,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2018-07-27T17:37:40.2374728+02:00",
+    "LastChanged": "2015-04-15T11:22:46.1003835+02:00",
     "ChildItems": [
       {
-        "Id": 887,
-        "Name": "Effertz-Kunde",
-        "ToolTip": "Dignissimos qui consequatur laudantium.",
-        "Deleted": true,
-        "Rank": 182,
-        "Type": "culpa",
-        "ColorBlock": 381,
-        "IconHint": "animi",
+        "Id": 696,
+        "Name": "Buckridge-Mraz",
+        "ToolTip": "Adipisci ea voluptatem.",
+        "Deleted": false,
+        "Rank": 577,
+        "Type": "vitae",
+        "ColorBlock": 97,
+        "IconHint": "doloremque",
         "Selected": false,
-        "LastChanged": "2017-12-04T17:37:40.2374728+01:00",
+        "LastChanged": "1999-09-30T11:22:46.1003835+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Christa Hyatt",
+        "ExtraInfo": "aut",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Mrs. Mariana Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 263
+            "FieldLength": 23
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "et",
+    "ExtraInfo": "in",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Janae Auer",
+    "FullName": "Ms. Araceli Wilhelm Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 65
+        "FieldLength": 58
       }
     }
   }

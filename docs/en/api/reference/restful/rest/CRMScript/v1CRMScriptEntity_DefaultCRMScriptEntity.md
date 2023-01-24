@@ -69,7 +69,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 757,
-  "UniqueIdentifier": "ex",
-  "Name": "Predovic Inc and Sons",
-  "Description": "Devolved attitude-oriented knowledge base",
-  "IncludeId": "voluptas",
-  "HierarchyId": 558,
-  "Source": "voluptas",
-  "Registered": "2016-04-01T17:37:38.4818626+02:00",
-  "RegisteredAssociateId": 655,
-  "Updated": "2003-09-14T17:37:38.4818626+02:00",
-  "UpdatedAssociateId": 918,
+  "EjscriptId": 169,
+  "UniqueIdentifier": "vel",
+  "Name": "Huel-Bergnaum",
+  "Description": "Diverse upward-trending customer loyalty",
+  "IncludeId": "eum",
+  "HierarchyId": 742,
+  "Source": "ut",
+  "Registered": "2009-06-11T11:22:44.5694964+02:00",
+  "RegisteredAssociateId": 625,
+  "Updated": "2018-10-21T11:22:44.5694964+02:00",
+  "UpdatedAssociateId": 709,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 995
+      "FieldType": "System.Int32",
+      "FieldLength": 242
     }
   }
 }

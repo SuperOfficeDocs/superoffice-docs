@@ -84,35 +84,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 234,
-  "Name": "Hauck LLC",
-  "Tooltip": "inventore",
-  "Rank": 808,
+  "ProjTypeId": 261,
+  "Name": "Beatty, Kozey and Douglas",
+  "Tooltip": "blanditiis",
+  "Rank": 777,
   "DurationUnit": "Century",
-  "ProjectDuration": 208,
+  "ProjectDuration": 471,
   "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 441,
-      "Name": "Mayer LLC",
-      "ToolTip": "Quia quos qui in quia.",
-      "Deleted": false,
-      "Rank": 196,
-      "Type": "iste",
-      "ColorBlock": 428,
-      "IconHint": "sunt",
+      "Id": 528,
+      "Name": "Jerde-Emard",
+      "ToolTip": "Enim quas.",
+      "Deleted": true,
+      "Rank": 217,
+      "Type": "voluptas",
+      "ColorBlock": 101,
+      "IconHint": "deleniti",
       "Selected": false,
-      "LastChanged": "2002-06-09T17:37:18.2812417+02:00",
+      "LastChanged": "2006-08-23T11:22:38.5396587+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "accusamus",
-      "StyleHint": "qui",
+      "ExtraInfo": "magnam",
+      "StyleHint": "asperiores",
       "Hidden": false,
-      "FullName": "Maude Waters"
+      "FullName": "Addie Hermann"
     }
   ]
 }
@@ -125,41 +125,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 784,
-  "Name": "Champlin, Wolf and Cronin",
-  "Tooltip": "nihil",
-  "Rank": 321,
+  "ProjTypeId": 48,
+  "Name": "Carter-Nienow",
+  "Tooltip": "voluptas",
+  "Rank": 764,
   "DurationUnit": "Century",
-  "ProjectDuration": 162,
-  "Deleted": true,
+  "ProjectDuration": 927,
+  "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 324,
-      "Name": "O'Connell, Green and Stark",
-      "ToolTip": "Eligendi ullam minus et corporis.",
+      "Id": 805,
+      "Name": "Schmitt-Kshlerin",
+      "ToolTip": "Culpa non.",
       "Deleted": false,
-      "Rank": 842,
-      "Type": "deleniti",
-      "ColorBlock": 928,
-      "IconHint": "vel",
-      "Selected": false,
-      "LastChanged": "1997-11-02T17:37:18.2822428+01:00",
+      "Rank": 200,
+      "Type": "ea",
+      "ColorBlock": 838,
+      "IconHint": "modi",
+      "Selected": true,
+      "LastChanged": "2019-02-23T11:22:38.5396587+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "natus",
-      "StyleHint": "provident",
-      "Hidden": false,
-      "FullName": "Mr. Melisa Boyle PhD",
+      "ExtraInfo": "doloremque",
+      "StyleHint": "quibusdam",
+      "Hidden": true,
+      "FullName": "Matilde Yost",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 673
+          "FieldType": "System.Int32",
+          "FieldLength": 908
         }
       }
     }
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 347
+      "FieldType": "System.Int32",
+      "FieldLength": 231
     }
   }
 }

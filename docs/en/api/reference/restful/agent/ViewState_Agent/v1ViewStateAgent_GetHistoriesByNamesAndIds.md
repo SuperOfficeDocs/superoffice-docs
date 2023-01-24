@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Bauch-Aufderhar",
-      "EntityOrParentId": 411,
+      "EntityName": "Reichel-Bins",
+      "EntityOrParentId": 550,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Bauch-Aufderhar",
-      "EntityOrParentId": 411,
+      "EntityName": "Reichel-Bins",
+      "EntityOrParentId": 550,
       "RequestForNewRecord": false
     }
   ]
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 953,
-    "Id": 605,
-    "HistoryName": "Fay Group",
-    "HistoryId": 526,
-    "AssociateId": 340,
-    "Name": "Botsford-Witting",
-    "ItemInfo": "blanditiis",
+    "Rank": 913,
+    "Id": 396,
+    "HistoryName": "Schoen-Marquardt",
+    "HistoryId": 173,
+    "AssociateId": 656,
+    "Name": "Turcotte LLC",
+    "ItemInfo": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 653
+        "FieldLength": 256
       }
     }
   }

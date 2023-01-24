@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 284,
-  "Name": "Christiansen-Ritchie",
-  "Tooltip": "aliquam",
-  "Deleted": false,
-  "UdListDefinitionId": 501,
-  "Rank": 55,
+  "Id": 701,
+  "Name": "Champlin LLC",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "UdListDefinitionId": 939,
+  "Rank": 406,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 245
     }
   }
 }

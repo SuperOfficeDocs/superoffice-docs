@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 931,
-    "Name": "Kuhic-Mann",
-    "ToolTip": "Eos commodi ut sit.",
+    "Id": 900,
+    "Name": "Mayer Inc and Sons",
+    "ToolTip": "Consequatur qui reprehenderit fugit suscipit veniam.",
     "Deleted": false,
-    "Rank": 73,
-    "Type": "corrupti",
-    "ColorBlock": 510,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2002-01-19T17:37:40.1115013+01:00",
+    "Rank": 982,
+    "Type": "qui",
+    "ColorBlock": 795,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2003-03-24T11:22:45.991037+01:00",
     "ChildItems": [
       {
-        "Id": 544,
-        "Name": "Prosacco-Moore",
-        "ToolTip": "Dolorum fugiat nemo architecto ut in provident nulla.",
+        "Id": 712,
+        "Name": "Swift-Kessler",
+        "ToolTip": "Nesciunt corrupti perspiciatis voluptas eum accusantium ipsam ad.",
         "Deleted": false,
-        "Rank": 76,
-        "Type": "recusandae",
-        "ColorBlock": 644,
-        "IconHint": "accusantium",
+        "Rank": 916,
+        "Type": "aut",
+        "ColorBlock": 867,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2015-12-03T17:37:40.1115013+01:00",
+        "LastChanged": "2016-08-15T11:22:45.991037+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "sequi",
-        "Hidden": false,
-        "FullName": "Jeremie Steuber",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Kristy Welch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 35
+            "FieldType": "System.Int32",
+            "FieldLength": 44
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Ms. Tomasa Hansen DVM",
+    "FullName": "Ms. Shanna Fermin Dare PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldType": "System.Int32",
+        "FieldLength": 366
       }
     }
   }

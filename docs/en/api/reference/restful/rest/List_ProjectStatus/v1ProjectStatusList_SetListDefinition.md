@@ -87,16 +87,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 385,
-  "Name": "Christiansen-Leuschke",
-  "Tooltip": "odit",
-  "Deleted": true,
-  "Rank": 909,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "debitis",
-  "InUseByUserDefinedFields": false
+  "Id": 403,
+  "Name": "Rutherford-Fisher",
+  "Tooltip": "animi",
+  "Deleted": false,
+  "Rank": 185,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "vero",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 50,
-  "Name": "Bradtke, McClure and Weimann",
-  "Tooltip": "corrupti",
+  "Id": 859,
+  "Name": "Stracke Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 426,
+  "Rank": 387,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldType": "System.String",
+      "FieldLength": 104
     }
   }
 }

@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 263,
-  "Name": "Cremin-Weimann",
-  "Tooltip": "rerum",
+  "HeadingId": 723,
+  "Name": "Johnston Inc and Sons",
+  "Tooltip": "ea",
   "Deleted": true,
-  "Rank": 531,
-  "UdListDefinitionId": 746
+  "Rank": 123,
+  "UdListDefinitionId": 384
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 482,
-  "Name": "Quigley, Sauer and Kuhn",
-  "Tooltip": "reiciendis",
+  "HeadingId": 173,
+  "Name": "Gibson LLC",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 520,
-  "UdListDefinitionId": 876,
+  "Rank": 244,
+  "UdListDefinitionId": 766,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldLength": 117
     }
   }
 }

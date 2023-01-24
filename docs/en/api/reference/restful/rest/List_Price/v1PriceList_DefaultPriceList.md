@@ -65,7 +65,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 890,
-  "ERPPriceListKey": "vel",
-  "QuoteConnectionId": 586,
-  "Name": "Lindgren LLC",
-  "Description": "Public-key bifurcated task-force",
-  "Currency": "unde",
-  "CurrencyName": "Franecki LLC",
-  "ValidFrom": "1996-11-15T17:37:40.1165093+01:00",
-  "ValidTo": "2003-11-16T17:37:40.1165093+01:00",
-  "IsActive": true,
+  "PriceListId": 349,
+  "ERPPriceListKey": "commodi",
+  "QuoteConnectionId": 878,
+  "Name": "Steuber, Quitzon and Mills",
+  "Description": "Exclusive explicit time-frame",
+  "Currency": "cupiditate",
+  "CurrencyName": "Macejkovic-Yundt",
+  "ValidFrom": "2003-12-29T11:22:45.991037+01:00",
+  "ValidTo": "1998-05-12T11:22:45.991037+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldType": "System.String",
+      "FieldLength": 250
     }
   }
 }

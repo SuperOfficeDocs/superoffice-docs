@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "Zemlak, Schaefer and Veum",
-    "ToolTip": "Necessitatibus voluptatum voluptatibus perferendis doloribus.",
-    "Deleted": false,
-    "Rank": 919,
-    "Type": "qui",
-    "ColorBlock": 847,
-    "IconHint": "occaecati",
+    "Id": 615,
+    "Name": "Mitchell-Hintz",
+    "ToolTip": "Libero voluptas et aut explicabo.",
+    "Deleted": true,
+    "Rank": 32,
+    "Type": "eius",
+    "ColorBlock": 733,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2002-07-31T17:37:40.0805006+02:00",
+    "LastChanged": "2016-12-13T11:22:45.9597902+01:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Zboncak-Graham",
-        "ToolTip": "Sint ipsa et.",
-        "Deleted": true,
-        "Rank": 347,
-        "Type": "quia",
-        "ColorBlock": 741,
-        "IconHint": "quisquam",
-        "Selected": false,
-        "LastChanged": "2002-12-19T17:37:40.0805006+01:00",
+        "Id": 296,
+        "Name": "Kozey-Runolfsdottir",
+        "ToolTip": "Nisi dolores sit.",
+        "Deleted": false,
+        "Rank": 55,
+        "Type": "vel",
+        "ColorBlock": 203,
+        "IconHint": "dignissimos",
+        "Selected": true,
+        "LastChanged": "2009-11-09T11:22:45.9597902+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "nemo",
+        "StyleHint": "ex",
         "Hidden": false,
-        "FullName": "Ms. Kay Jaskolski Sr."
+        "FullName": "Colten Pacocha"
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "quasi",
+    "StyleHint": "quam",
     "Hidden": false,
-    "FullName": "Cydney Rempel IV"
+    "FullName": "Miss Angel Rory Balistreri DDS"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 855,
-    "Name": "Becker-Fisher",
-    "ToolTip": "Quasi incidunt suscipit hic sed distinctio.",
+    "Id": 25,
+    "Name": "Abernathy LLC",
+    "ToolTip": "Quasi in quia est consequatur.",
     "Deleted": false,
-    "Rank": 946,
-    "Type": "aut",
-    "ColorBlock": 423,
-    "IconHint": "impedit",
+    "Rank": 774,
+    "Type": "nihil",
+    "ColorBlock": 218,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2010-08-07T17:37:40.083507+02:00",
+    "LastChanged": "2002-06-08T11:22:45.9754127+02:00",
     "ChildItems": [
       {
-        "Id": 461,
-        "Name": "Powlowski LLC",
-        "ToolTip": "Quaerat quis eius porro et at eligendi consequatur.",
+        "Id": 945,
+        "Name": "Smith, Bauch and Kohler",
+        "ToolTip": "Qui voluptate soluta vero vel magnam eius.",
         "Deleted": false,
-        "Rank": 364,
-        "Type": "quo",
-        "ColorBlock": 394,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2008-03-19T17:37:40.083507+01:00",
+        "Rank": 54,
+        "Type": "harum",
+        "ColorBlock": 733,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2011-08-07T11:22:45.9754127+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "animi",
-        "StyleHint": "ad",
-        "Hidden": false,
-        "FullName": "Leonor Vandervort",
+        "StyleHint": "commodi",
+        "Hidden": true,
+        "FullName": "Kitty Olson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 264
+            "FieldType": "System.String",
+            "FieldLength": 136
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Mr. Robb Murphy",
+    "ExtraInfo": "optio",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Ms. Samantha Dena Abshire DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldType": "System.String",
+        "FieldLength": 340
       }
     }
   }

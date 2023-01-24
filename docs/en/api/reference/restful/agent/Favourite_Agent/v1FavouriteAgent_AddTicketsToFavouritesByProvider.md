@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Stoltenberg-Weissnat",
+  "ProviderName": "Hintz LLC",
   "Restrictions": [
     {
-      "Name": "Ernser-Reilly",
-      "Operator": "sunt",
+      "Name": "Sauer-Lehner",
+      "Operator": "tenetur",
       "Values": [
-        "provident",
-        "dolorum"
+        "cumque",
+        "perferendis"
       ],
       "DisplayValues": [
-        "ipsa",
-        "natus"
+        "vel",
+        "sit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,13 +89,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 584,
+      "InterParenthesis": 275,
       "InterOperator": "And",
-      "UniqueHash": 475
+      "UniqueHash": 832
     }
   ],
-  "AssociateId": 18,
-  "ExtraInfo": "sint"
+  "AssociateId": 884,
+  "ExtraInfo": "fugiat"
 }
 ```
 

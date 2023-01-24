@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 967,
-    "Name": "Leffler Group",
-    "ToolTip": "Facilis nemo quis voluptatum itaque ut.",
+    "Id": 291,
+    "Name": "Mosciski-Bogan",
+    "ToolTip": "Atque consequuntur sit ut.",
     "Deleted": false,
-    "Rank": 921,
-    "Type": "beatae",
-    "ColorBlock": 619,
+    "Rank": 328,
+    "Type": "maiores",
+    "ColorBlock": 18,
     "IconHint": "incidunt",
-    "Selected": false,
-    "LastChanged": "2011-08-03T17:37:40.1975058+02:00",
+    "Selected": true,
+    "LastChanged": "2018-03-26T11:22:46.0691442+02:00",
     "ChildItems": [
       {
-        "Id": 599,
-        "Name": "Greenfelder-Hansen",
-        "ToolTip": "Facilis debitis officiis cumque tenetur.",
+        "Id": 990,
+        "Name": "Botsford, Kovacek and Douglas",
+        "ToolTip": "Commodi provident animi praesentium.",
         "Deleted": false,
-        "Rank": 337,
-        "Type": "fuga",
-        "ColorBlock": 814,
-        "IconHint": "reprehenderit",
+        "Rank": 48,
+        "Type": "fugit",
+        "ColorBlock": 786,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2014-05-09T17:37:40.1975058+02:00",
+        "LastChanged": "2000-10-01T11:22:46.0691442+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "quas",
-        "Hidden": false,
-        "FullName": "Miss Filomena Geraldine Haley"
+        "ExtraInfo": "est",
+        "StyleHint": "necessitatibus",
+        "Hidden": true,
+        "FullName": "Shaina Klocko"
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "ab",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Laurie Larkin"
+    "FullName": "Ms. Michel VonRueden PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 673,
-    "Name": "Sipes Group",
-    "ToolTip": "Corrupti reprehenderit et voluptatem mollitia ea.",
+    "Id": 879,
+    "Name": "Batz-Thompson",
+    "ToolTip": "Id reiciendis tempore.",
     "Deleted": false,
-    "Rank": 694,
-    "Type": "blanditiis",
-    "ColorBlock": 863,
-    "IconHint": "saepe",
+    "Rank": 336,
+    "Type": "possimus",
+    "ColorBlock": 860,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "1997-12-04T17:37:40.198507+01:00",
+    "LastChanged": "2012-12-02T11:22:46.0691442+01:00",
     "ChildItems": [
       {
-        "Id": 773,
-        "Name": "Hauck-Harris",
-        "ToolTip": "Quia quia mollitia alias delectus.",
-        "Deleted": false,
-        "Rank": 651,
-        "Type": "et",
-        "ColorBlock": 598,
-        "IconHint": "iusto",
-        "Selected": false,
-        "LastChanged": "2003-11-08T17:37:40.198507+01:00",
+        "Id": 564,
+        "Name": "Hodkiewicz, Cormier and Schoen",
+        "ToolTip": "Ipsam fugiat quos.",
+        "Deleted": true,
+        "Rank": 318,
+        "Type": "veritatis",
+        "ColorBlock": 850,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2015-12-03T11:22:46.0691442+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "molestias",
+        "ExtraInfo": "rerum",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Mr. Tristian Griffin Beahan I",
+        "FullName": "Ms. Lauretta Goyette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 602
+            "FieldType": "System.Int32",
+            "FieldLength": 426
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "ut",
+    "ExtraInfo": "optio",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Vern Braun",
+    "FullName": "Josefa Jaskolski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 642
+        "FieldType": "System.String",
+        "FieldLength": 475
       }
     }
   }

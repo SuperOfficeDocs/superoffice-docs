@@ -25,7 +25,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=626
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=829
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 551,
+  "EjMessageId": 376,
   "Ticket": null,
-  "CreatedAt": "2007-01-06T17:37:19.4479807+01:00",
+  "CreatedAt": "2006-02-27T11:22:39.5394229+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "magni",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "tempora",
-  "TimeSpent": 796,
-  "Body": "laboriosam",
-  "HtmlBody": "nihil",
-  "EmailHeader": "kasandra@kerlukepagac.info",
-  "DebugInfo": "voluptas",
-  "MailSorter": "magnam",
+  "MessageId": "dolor",
+  "TimeSpent": 153,
+  "Body": "ipsum",
+  "HtmlBody": "voluptas",
+  "EmailHeader": "leatha_kautzer@tromp.uk",
+  "DebugInfo": "fugiat",
+  "MailSorter": "cupiditate",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "ullam",
   "MessageHeaders": [
     {
-      "Id": 442,
-      "Name": "Feeney, Nicolas and King",
-      "Value": "libero",
+      "Id": 640,
+      "Name": "Keeling Inc and Sons",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -129,47 +129,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 440
+          "FieldLength": 78
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "laboriosam",
-  "Sentiment": 855,
-  "SentimentConfidence": 756,
+  "Important": true,
+  "Language": "velit",
+  "Sentiment": 208,
+  "SentimentConfidence": 297,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 314,
-      "Name": "Bauch-Goldner",
-      "ContentType": "aspernatur",
-      "AttSize": 232,
+      "AttachmentId": 111,
+      "Name": "Labadie, Smith and Turcotte",
+      "ContentType": "inventore",
+      "AttSize": 211,
       "InlineImage": false,
-      "ContentId": "aut",
+      "ContentId": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 744
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "culpa",
-    "ExtraFields2": "explicabo"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "fugiat",
-    "CustomFields2": "perferendis"
+    "CustomFields1": "provident",
+    "CustomFields2": "repellendus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldLength": 337
     }
   }
 }

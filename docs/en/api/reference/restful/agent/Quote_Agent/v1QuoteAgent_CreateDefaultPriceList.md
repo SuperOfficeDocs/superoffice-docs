@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 969,
-  "ERPPriceListKey": "omnis",
-  "QuoteConnectionId": 452,
-  "Name": "Thiel Inc and Sons",
-  "Description": "Organic heuristic moratorium",
-  "Currency": "culpa",
-  "CurrencyName": "Dooley Group",
-  "ValidFrom": "2007-12-11T17:37:18.7082418+01:00",
-  "ValidTo": "2000-07-14T17:37:18.7082418+02:00",
+  "PriceListId": 34,
+  "ERPPriceListKey": "doloribus",
+  "QuoteConnectionId": 775,
+  "Name": "Stokes-Sipes",
+  "Description": "Organic non-volatile website",
+  "Currency": "fugiat",
+  "CurrencyName": "Volkman-Hessel",
+  "ValidFrom": "2008-07-10T11:22:38.8989499+02:00",
+  "ValidTo": "2009-07-08T11:22:38.8989499+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 123
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   }
 }

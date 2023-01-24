@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 22,
-  "Name": "Kihn Group",
-  "Tooltip": "ad",
+  "Id": 970,
+  "Name": "Orn Group",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "Rank": 998,
+  "Rank": 526,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "cupiditate",
+  "ListType": "maiores",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 958,
-  "Name": "Heidenreich-Bashirian",
-  "Tooltip": "temporibus",
-  "Deleted": true,
-  "Rank": 86,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 417,
+  "Name": "Weimann, Walker and McCullough",
+  "Tooltip": "provident",
+  "Deleted": false,
+  "Rank": 260,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "ListType": "autem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldLength": 186
     }
   }
 }

@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 85,
-  "Name": "Nolan, Thompson and Towne",
-  "Tooltip": "ipsa",
-  "Deleted": true,
-  "Rank": 148,
+  "Id": 707,
+  "Name": "Volkman Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 689,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quidem",
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldLength": 338
     }
   },
   "_Links": {

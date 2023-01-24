@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=explicabo
-GET /api/v1/Role?$top=302
-GET /api/v1/Role?$skip=231
+GET /api/v1/Role?$entities=inventore
+GET /api/v1/Role?$top=56
+GET /api/v1/Role?$skip=925
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=culpa
+GET /api/v1/Role?$context=distinctio
 GET /api/v1/Role?$format=JSON
 GET /api/v1/Role?$jsonSafe=False
 GET /api/v1/Role?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,21 +128,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "non",
+  "odata.nextLink": "iusto",
   "value": [
     {
-      "PrimaryKey": 8173,
-      "EntityName": "sale",
-      "saleId": 8173,
-      "contactId": 7832,
-      "name": "King-Bogan"
+      "PrimaryKey": 406,
+      "EntityName": "person",
+      "personId": 406,
+      "fullName": "Cristian Hermann"
     },
     {
-      "PrimaryKey": 9781,
-      "EntityName": "sale",
-      "saleId": 9781,
-      "contactId": 1895,
-      "name": "Cronin Inc and Sons"
+      "PrimaryKey": 2167,
+      "EntityName": "person",
+      "personId": 2167,
+      "fullName": "Darien West"
     }
   ]
 }

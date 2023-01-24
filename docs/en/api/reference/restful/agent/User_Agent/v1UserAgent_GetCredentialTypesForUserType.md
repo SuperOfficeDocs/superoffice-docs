@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "sunt",
-    "Type": "repellendus",
-    "Description": "User-centric well-modulated orchestration",
+    "DisplayType": "alias",
+    "Type": "in",
+    "Description": "Multi-tiered systematic analyzer",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
-    "IsUserNameSupported": true,
+    "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 105
+        "FieldLength": 261
       }
     }
   }

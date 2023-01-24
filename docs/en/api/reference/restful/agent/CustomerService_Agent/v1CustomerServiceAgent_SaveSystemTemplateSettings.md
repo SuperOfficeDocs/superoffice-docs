@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,33 +109,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 934,
-  "CustomerCustomerReplyTemplateId": 941,
-  "CustomerPasswordTemplateId": 236,
-  "CustomerConfirmEmailTemplateId": 441,
-  "CustomerChatLogTemplateId": 390,
-  "NewLinkTemplateId": 418,
-  "HotlistNewMessageTemplateId": 13,
-  "HotlistTicketActivatedTemplateId": 126,
-  "UserTicketAlarmTemplateId": 908,
-  "HotlistTicketTakenOverTemplateId": 584,
-  "UserActiveTicketsTemplateId": 367,
-  "UserNewMessageTemplateId": 116,
-  "UserTicketActivatedTemplateId": 745,
-  "UserNewTicketTemplateId": 446,
-  "PublishKbQuestionTemplateId": 942,
-  "PublishKbAnswerTemplateId": 21,
-  "UserTicketTakenOverTemplateId": 760,
-  "PrintTicketTemplateId": 347,
-  "WeekStatTemplateId": 10,
-  "TicketAlarmHotlistTemplateId": 169,
-  "EmailAddresses": "frankie.harber@ebertokon.uk",
+  "CustomerNewCustomerTemplateId": 741,
+  "CustomerCustomerReplyTemplateId": 975,
+  "CustomerPasswordTemplateId": 637,
+  "CustomerConfirmEmailTemplateId": 36,
+  "CustomerChatLogTemplateId": 33,
+  "NewLinkTemplateId": 31,
+  "HotlistNewMessageTemplateId": 515,
+  "HotlistTicketActivatedTemplateId": 914,
+  "UserTicketAlarmTemplateId": 794,
+  "HotlistTicketTakenOverTemplateId": 194,
+  "UserActiveTicketsTemplateId": 637,
+  "UserNewMessageTemplateId": 598,
+  "UserTicketActivatedTemplateId": 139,
+  "UserNewTicketTemplateId": 313,
+  "PublishKbQuestionTemplateId": 676,
+  "PublishKbAnswerTemplateId": 819,
+  "UserTicketTakenOverTemplateId": 44,
+  "PrintTicketTemplateId": 362,
+  "WeekStatTemplateId": 831,
+  "TicketAlarmHotlistTemplateId": 461,
+  "EmailAddresses": "kailee.homenick@botsfordfriesen.biz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 21
+      "FieldLength": 37
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Treutel, Bartoletti and Moen",
-    "ToolTip": "Error animi voluptas.",
-    "Deleted": false,
-    "Rank": 828,
-    "Type": "et",
-    "ColorBlock": 37,
-    "IconHint": "id",
+    "Id": 132,
+    "Name": "Kessler, Toy and Von",
+    "ToolTip": "Ut ut ipsum cupiditate ut esse aliquam hic.",
+    "Deleted": true,
+    "Rank": 800,
+    "Type": "quam",
+    "ColorBlock": 331,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2017-06-09T17:37:39.8765004+02:00",
+    "LastChanged": "2007-09-27T11:22:45.803528+02:00",
     "ChildItems": [
       {
-        "Id": 481,
-        "Name": "Satterfield-Schroeder",
-        "ToolTip": "Omnis voluptates reprehenderit neque consequatur qui saepe.",
-        "Deleted": true,
-        "Rank": 579,
-        "Type": "tenetur",
-        "ColorBlock": 727,
-        "IconHint": "esse",
+        "Id": 366,
+        "Name": "Kozey-Welch",
+        "ToolTip": "Qui laudantium laudantium pariatur ipsum consequuntur.",
+        "Deleted": false,
+        "Rank": 41,
+        "Type": "sequi",
+        "ColorBlock": 623,
+        "IconHint": "occaecati",
         "Selected": false,
-        "LastChanged": "2005-03-16T17:37:39.8765004+01:00",
+        "LastChanged": "2004-03-24T11:22:45.803528+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Jean Block"
+        "ExtraInfo": "consequatur",
+        "StyleHint": "commodi",
+        "Hidden": false,
+        "FullName": "Prof. Kurtis Nikolaus Jr."
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "quis",
-    "Hidden": false,
-    "FullName": "Lue Mertz"
+    "ExtraInfo": "consequatur",
+    "StyleHint": "earum",
+    "Hidden": true,
+    "FullName": "Viviane Hamill"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 85,
-    "Name": "Gleichner, Borer and Walter",
-    "ToolTip": "Soluta quis ut accusamus placeat vero quia animi.",
+    "Id": 813,
+    "Name": "Osinski Group",
+    "ToolTip": "Aspernatur unde impedit id cumque.",
     "Deleted": false,
-    "Rank": 170,
-    "Type": "ut",
-    "ColorBlock": 158,
-    "IconHint": "dolores",
+    "Rank": 386,
+    "Type": "sint",
+    "ColorBlock": 861,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2017-06-20T17:37:39.878501+02:00",
+    "LastChanged": "2004-09-18T11:22:45.803528+02:00",
     "ChildItems": [
       {
-        "Id": 265,
-        "Name": "Batz, Kiehn and Parker",
-        "ToolTip": "Enim asperiores et est qui corporis.",
+        "Id": 179,
+        "Name": "Stoltenberg, Littel and Reichel",
+        "ToolTip": "Eos omnis est consectetur quis.",
         "Deleted": false,
-        "Rank": 230,
-        "Type": "deserunt",
-        "ColorBlock": 843,
-        "IconHint": "voluptatem",
+        "Rank": 973,
+        "Type": "nesciunt",
+        "ColorBlock": 504,
+        "IconHint": "magnam",
         "Selected": false,
-        "LastChanged": "2014-08-26T17:37:39.878501+02:00",
+        "LastChanged": "2022-06-28T11:22:45.803528+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "deleniti",
-        "Hidden": false,
-        "FullName": "Ms. Modesto Gibson",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Trycia Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 689
+            "FieldLength": 309
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "ratione",
+    "ExtraInfo": "rerum",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Milford Schaden",
+    "FullName": "Prof. Mathias Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 593
       }
     }
   }

@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "ut",
+  "Path": "occaecati",
   "Entity": null
 }
 ```
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 892,
+  "HierarchyId": 393,
   "Domain": "Dashboards",
-  "Name": "Morissette, Balistreri and Nader",
-  "Fullname": "et",
-  "ParentId": 351,
+  "Name": "Lehner, Senger and Armstrong",
+  "Fullname": "quis",
+  "ParentId": 593,
   "Children": [
     {
-      "HierarchyId": 942,
+      "HierarchyId": 685,
       "Domain": "Dashboards",
-      "Name": "Huels LLC",
-      "Fullname": "sed",
-      "ParentId": 603,
+      "Name": "Grady, Jacobson and Koss",
+      "Fullname": "modi",
+      "ParentId": 191,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1996-05-27T17:37:18.2602417+02:00",
-      "RegisteredAssociateId": 586,
-      "Updated": "2020-12-28T17:37:18.2602417+01:00",
-      "UpdatedAssociateId": 785,
+      "Registered": "2014-01-21T11:22:38.5084132+01:00",
+      "RegisteredAssociateId": 143,
+      "Updated": "2002-07-31T11:22:38.5084132+02:00",
+      "UpdatedAssociateId": 852,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 606
+          "FieldLength": 222
         }
       }
     }
   ],
-  "Registered": "1996-05-31T17:37:18.2602417+02:00",
-  "RegisteredAssociateId": 568,
-  "Updated": "2006-02-14T17:37:18.2602417+01:00",
-  "UpdatedAssociateId": 855,
+  "Registered": "2014-09-14T11:22:38.5084132+02:00",
+  "RegisteredAssociateId": 131,
+  "Updated": "2014-12-25T11:22:38.5084132+01:00",
+  "UpdatedAssociateId": 374,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 745
     }
   }
 }
