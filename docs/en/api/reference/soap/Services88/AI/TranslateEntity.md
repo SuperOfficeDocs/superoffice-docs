@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAIAgent.TranslateEntity"
 
 ## TranslateEntity
 
-Retrieve, format and translate text for an entity to a specified language
 
-* **entityName:** Name of entity to get the text to be translated; eg., 'ticketMessage'
-* **entityId:** Identifier for the entity to get text to be translated
-* **targetLanguage:** ISO Language code (such as FR) to translate the text into
 
-**Returns:** Translated text
+
 
 [WSDL file for Services88/AI](../Services88-AI.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## TranslateEntity Response
 
 ```xml
@@ -71,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

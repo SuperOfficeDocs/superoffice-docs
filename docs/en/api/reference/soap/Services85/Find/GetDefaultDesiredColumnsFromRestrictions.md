@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IFindAgent.GetDefaultDesi
 
 ## GetDefaultDesiredColumnsFromRestrictions
 
-Calculate the default desired columns, i.e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method.
 
-* **providerName:** Name of the provider to calculate default desired columns for
-* **restrictions:** Restriction to use in the calculation of default desired columns
 
-**Returns:** Column information for the default desired columns, fully populated. Percentage-specified column widths sum to exactly 100.
+
 
 [WSDL file for Services85/Find](../Services85-Find.md)
 
@@ -124,6 +121,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDefaultDesiredColumnsFromRestrictions Response
 
 ```xml
@@ -159,3 +157,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

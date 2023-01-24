@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetSaleDoc
 
 ## GetSaleDocuments
 
-Get all documents that are linked to the sale. I.e. the documents that are listed in the sale dialog.
 
-* **saleId:** The sale id.
 
-**Returns:** Array of documents
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSaleDocuments Response
 
@@ -92,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

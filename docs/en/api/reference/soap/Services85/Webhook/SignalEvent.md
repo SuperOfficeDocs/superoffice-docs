@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IWebhookAgent.SignalEvent
 
 ## SignalEvent
 
-Signal webhooks that an event has occurred. All webhooks listening for the event will be notified.
 
-* **eventName:** Name of event to fire. 'entity.verb' For example: 'window.closed', 'button.clicked'.
-* **primaryKey:** (Optional) Id of entity that is firing event. Can be 0 if not used.
-* **data:** Event data. Not all the data values may be posted to the webhook, depending in webhook type: { 'windowName': 'foo', 'widgets': 123 }
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services85/Webhook](../Services85-Webhook.md)
 
@@ -58,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SignalEvent Response
 
 ```xml
@@ -77,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

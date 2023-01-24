@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITargetsAgent.CreateDefau
 
 ## CreateDefaultTargetAssignmentForCompany
 
-Returns a default target assignment for the owner company.
 
-**Returns:** Default target assignment for the owner company.
+
+
 
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
@@ -45,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultTargetAssignmentForCompany Response
 
@@ -141,6 +142,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Targets:FullName xsi:type="xsd:string"></Targets:FullName>
      <Targets:IsOwnerContact xsi:type="xsd:boolean">false</Targets:IsOwnerContact>
      <Targets:ActiveErpLinks xsi:type="xsd:int">0</Targets:ActiveErpLinks>
+     <Targets:Number1 xsi:type="xsd:string"></Targets:Number1>
+     <Targets:Number2 xsi:type="xsd:string"></Targets:Number2>
     </Targets:TargetContact>
     <Targets:TargetUserGroup xsi:type="Targets:UserGroup">
      <Targets:Value xsi:type="xsd:string"></Targets:Value>
@@ -155,9 +158,11 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Targets:Tooltip xsi:type="xsd:string"></Targets:Tooltip>
     </Targets:Currency>
     <Targets:DimensionListItem xsi:type="xsd:int">0</Targets:DimensionListItem>
+    <Targets:DimensionListItemDisplayName xsi:type="xsd:string"></Targets:DimensionListItemDisplayName>
    </Targets:Response>
   </Targets:CreateDefaultTargetAssignmentForCompanyResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

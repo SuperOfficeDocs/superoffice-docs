@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IDashboardAgent.SaveDashb
 
 ## SaveDashboardTile
 
-Updates the existing DashboardTile or creates a new DashboardTile if the id parameter is 0.
 
-* **dashboardTile:** The DashboardTile that is saved.
 
-**Returns:** New or updated DashboardTile
+
 
 [WSDL file for Services85/Dashboard](../Services85-Dashboard.md)
 
@@ -96,6 +94,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveDashboardTile Response
 
@@ -178,3 +177,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

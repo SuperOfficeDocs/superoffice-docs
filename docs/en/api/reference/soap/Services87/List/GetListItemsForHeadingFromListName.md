@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetListItemsFo
 
 ## GetListItemsForHeadingFromListName
 
-List of list items that is selected if under this heading
 
-* **udListDefinitionName:** The name of the list definition.
-* **headingId:** The id of the heading
 
-**Returns:** Array of selectable list items
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetListItemsForHeadingFromListName Response
 
 ```xml
@@ -76,7 +74,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
      <List:IconHint xsi:type="xsd:string"></List:IconHint>
      <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-     <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:57:26Z</List:LastChanged>
+     <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:19:02Z</List:LastChanged>
      <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
       <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
        <List:Id xsi:type="xsd:int">0</List:Id>
@@ -88,7 +86,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
        <List:IconHint xsi:type="xsd:string"></List:IconHint>
        <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-       <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:57:26Z</List:LastChanged>
+       <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:19:02Z</List:LastChanged>
        <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
         <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
          <List:Id xsi:type="xsd:int">0</List:Id>
@@ -100,7 +98,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
          <List:IconHint xsi:type="xsd:string"></List:IconHint>
          <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-         <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:57:26Z</List:LastChanged>
+         <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:19:02Z</List:LastChanged>
          <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
           <List:SelectableMDOListItem xsi:nil="true"></List:SelectableMDOListItem>
          </List:ChildItems>
@@ -127,3 +125,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetProjectStat
 
 ## GetProjectStatusList
 
-Gets an array of ProjectStatus objects.
 
-* **projectStatusIds:** The identifiers of the ProjectStatus object
 
-**Returns:** Array of ProjectStatus objects
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetProjectStatusList Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

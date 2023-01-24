@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/EMail
 
 Handled by the <see cref="T:SuperOffice.Services84.IEMailAgent">SuperOffice.Services84.IEMailAgent</see> interface.
 
-Interface for the EMail Agent
-Email connection, reading, sending
+
 
 Download [WSDL file for Services84/EMail](../Services84-EMail.md) if you need to generate your own proxy code.
 
@@ -92,3 +91,4 @@ Download [WSDL file for Services84/EMail](../Services84-EMail.md) if you need to
 * [SyncEmailAccounts](SyncEmailAccounts.md)
 * [TestAuthenticate](TestAuthenticate.md)
 * [ToggleSubscription](ToggleSubscription.md)
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ICustomerServiceAgent.Ses
 
 ## SessionIsValid
 
-Check if a CS session is valid
 
-* **csSessionKey:** The CS session key to check
 
-**Returns:** True if there is a valid CS session based on the session key
+
 
 [WSDL file for Services85/CustomerService](../Services85-CustomerService.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SessionIsValid Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

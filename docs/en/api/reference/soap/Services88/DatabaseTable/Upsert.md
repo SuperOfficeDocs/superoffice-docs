@@ -11,16 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDatabaseTableAgent.Upser
 
 ## Upsert
 
-Insert or update rows, optionally deleting/zeroing 'leftover' rows. Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported
 
-* **tableName:** The name of the table where rows should be inserted or updated
-* **columns:** List of column names, in the same order as in the data
-* **keys:** List of columns that are to be used as keys, to match any existing rows
-* **data:** Outer array = row, inner = column in specified order; use CultureDataFormatter to format values
-* **nomatchAction:** Action to take on rows in the target table, that are not matched by any rows in the incoming data. Use the deletion options with care. NEVER use deletion if your Upsert is so large you need to divide it into multiple batches.
-* **returnRowStatus:** If true, then the 'RowStatus' member of the return carrier will be populated with a per-row status, for each incoming row
 
-**Returns:** Summary of results
+
 
 [WSDL file for Services88/DatabaseTable](../Services88-DatabaseTable.md)
 
@@ -67,6 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## Upsert Response
 
 ```xml
@@ -102,3 +96,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

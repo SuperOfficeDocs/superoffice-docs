@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetReasonSoldL
 
 ## GetReasonSoldList
 
-Gets an array of ReasonSold objects.
 
-* **reasonSoldIds:** The identifiers of the ReasonSold object
 
-**Returns:** Array of ReasonSold objects
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetReasonSoldList Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

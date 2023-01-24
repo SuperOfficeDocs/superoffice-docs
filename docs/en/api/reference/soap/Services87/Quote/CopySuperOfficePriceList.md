@@ -11,16 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.CopySuperOffi
 
 ## CopySuperOfficePriceList
 
-Create a copy of a PriceList in the SuperOffice database
 
-* **originalPriceListId:** Id of the PriceList to be copied
-* **newName:** Name of the copied PriceList
-* **validFrom:** Start date for the new pricelist.
-* **validTo:** End date for the new pricelist.
-* **newCurrencyId:** Currency id of the copied PriceList. If 0 or the same as the original the copied products will keep their prices and the currency will be the same as the original.
-* **convertCurrency:** If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero.
 
-**Returns:** The copied PriceList
+
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
@@ -48,8 +41,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Quote:CopySuperOfficePriceList>
     <Quote:OriginalPriceListId xsi:type="xsd:int">0</Quote:OriginalPriceListId>
     <Quote:NewName xsi:type="xsd:string"></Quote:NewName>
-    <Quote:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:57:45Z</Quote:ValidFrom>
-    <Quote:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:57:45Z</Quote:ValidTo>
+    <Quote:ValidFrom xsi:type="xsd:dateTime">2023-01-23T10:19:19Z</Quote:ValidFrom>
+    <Quote:ValidTo xsi:type="xsd:dateTime">2023-01-23T10:19:19Z</Quote:ValidTo>
     <Quote:NewCurrencyId xsi:type="xsd:int">0</Quote:NewCurrencyId>
     <Quote:ConvertCurrency xsi:type="xsd:boolean">false</Quote:ConvertCurrency>
    </Quote:CopySuperOfficePriceList>
@@ -58,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CopySuperOfficePriceList Response
 
@@ -81,8 +75,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Quote:Description xsi:type="xsd:string"></Quote:Description>
     <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
     <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-    <Quote:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:57:45Z</Quote:ValidFrom>
-    <Quote:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:57:45Z</Quote:ValidTo>
+    <Quote:ValidFrom xsi:type="xsd:dateTime">2023-01-23T10:19:19Z</Quote:ValidFrom>
+    <Quote:ValidTo xsi:type="xsd:dateTime">2023-01-23T10:19:19Z</Quote:ValidTo>
     <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
    </Quote:Response>
   </Quote:CopySuperOfficePriceListResponse>
@@ -90,3 +84,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

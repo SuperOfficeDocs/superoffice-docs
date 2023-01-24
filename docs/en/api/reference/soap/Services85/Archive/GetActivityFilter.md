@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IArchiveAgent.GetActivity
 
 ## GetActivityFilter
 
-Get activity filter for the specified list.
 
-**Returns:** The activity filter for the specified list
+
+
 
 [WSDL file for Services85/Archive](../Services85-Archive.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetActivityFilter Response
 
 ```xml
@@ -61,8 +62,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <Archive:GetActivityFilterResponse>
    <Archive:Response xsi:type="Archive:ActivityFilter">
-    <Archive:FromDate xsi:type="xsd:dateTime">2022-08-26T08:52:08Z</Archive:FromDate>
-    <Archive:ToDate xsi:type="xsd:dateTime">2022-08-26T08:52:08Z</Archive:ToDate>
+    <Archive:FromDate xsi:type="xsd:dateTime">2023-01-23T10:13:57Z</Archive:FromDate>
+    <Archive:ToDate xsi:type="xsd:dateTime">2023-01-23T10:13:57Z</Archive:ToDate>
     <Archive:AssociateList xsi:type="Archive:ArrayOfSelectableMDOListItem">
      <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
       <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -74,7 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
       <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
       <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-      <Archive:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:52:08Z</Archive:LastChanged>
+      <Archive:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:13:57Z</Archive:LastChanged>
       <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
        <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
         <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -86,7 +87,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
         <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
         <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-        <Archive:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:52:08Z</Archive:LastChanged>
+        <Archive:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:13:57Z</Archive:LastChanged>
         <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
          <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
           <Archive:Id xsi:nil="true"></Archive:Id>
@@ -129,7 +130,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
       <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
       <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-      <Archive:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:52:08Z</Archive:LastChanged>
+      <Archive:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:13:57Z</Archive:LastChanged>
       <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
        <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
         <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -141,7 +142,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
         <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
         <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-        <Archive:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:52:08Z</Archive:LastChanged>
+        <Archive:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:13:57Z</Archive:LastChanged>
         <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
          <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
           <Archive:Id xsi:nil="true"></Archive:Id>
@@ -225,3 +226,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

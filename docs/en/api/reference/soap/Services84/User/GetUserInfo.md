@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.GetUserInfo">S
 
 ## GetUserInfo
 
-Gets a UserInfo object.
 
-* **userInfoId:** The identifier of the UserInfo object
 
-**Returns:** UserInfo
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetUserInfo Response
 
@@ -87,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

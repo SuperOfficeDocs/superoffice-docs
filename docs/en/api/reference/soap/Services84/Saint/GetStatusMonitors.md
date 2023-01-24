@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISaintAgent.GetStatusMoni
 
 ## GetStatusMonitors
 
-Get all active status monitors for a specified target
 
-* **id:** Identity of target type(contact identity, project identity etc.)
-* **type:** Type to get status monitors for("contact", "project", etc.)
 
-**Returns:** Active status monitors
+
 
 [WSDL file for Services84/Saint](../Services84-Saint.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetStatusMonitors Response
 
 ```xml
@@ -72,7 +70,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Saint:DefaultTask xsi:type="xsd:int">0</Saint:DefaultTask>
      <Saint:DefaultTaskText xsi:type="xsd:string"></Saint:DefaultTaskText>
      <Saint:IsVisual xsi:type="xsd:boolean">false</Saint:IsVisual>
-     <Saint:LastGenerated xsi:type="xsd:dateTime">2022-08-26T08:51:40Z</Saint:LastGenerated>
+     <Saint:LastGenerated xsi:type="xsd:dateTime">2023-01-23T10:13:30Z</Saint:LastGenerated>
      <Saint:Description xsi:type="xsd:string"></Saint:Description>
      <Saint:Name xsi:type="xsd:string"></Saint:Name>
      <Saint:StatusMonitorId xsi:type="xsd:int">0</Saint:StatusMonitorId>
@@ -88,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

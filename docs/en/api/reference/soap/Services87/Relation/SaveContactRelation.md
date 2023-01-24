@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IRelationAgent.SaveContac
 
 ## SaveContactRelation
 
-Creates a new or updates an existing contact relation.
 
-* **contactRelationEntity:** Relation to save
 
-**Returns:** Saved relation
+
 
 [WSDL file for Services87/Relation](../Services87-Relation.md)
 
@@ -49,8 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Relation:Comment xsi:type="xsd:string"></Relation:Comment>
      <Relation:RelationDefinitionId xsi:type="xsd:int">0</Relation:RelationDefinitionId>
      <Relation:Reversed xsi:type="xsd:short">0</Relation:Reversed>
-     <Relation:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:57:50Z</Relation:UpdatedDate>
-     <Relation:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:57:50Z</Relation:CreatedDate>
+     <Relation:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:19:24Z</Relation:UpdatedDate>
+     <Relation:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:19:24Z</Relation:CreatedDate>
      <Relation:CreatedBy xsi:type="Relation:Associate">
       <Relation:AssociateId xsi:type="xsd:int">0</Relation:AssociateId>
       <Relation:Name xsi:type="xsd:string"></Relation:Name>
@@ -93,6 +91,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveContactRelation Response
 
 ```xml
@@ -115,8 +114,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Relation:Comment xsi:type="xsd:string"></Relation:Comment>
     <Relation:RelationDefinitionId xsi:type="xsd:int">0</Relation:RelationDefinitionId>
     <Relation:Reversed xsi:type="xsd:short">0</Relation:Reversed>
-    <Relation:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:57:50Z</Relation:UpdatedDate>
-    <Relation:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:57:50Z</Relation:CreatedDate>
+    <Relation:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:19:24Z</Relation:UpdatedDate>
+    <Relation:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:19:24Z</Relation:CreatedDate>
     <Relation:CreatedBy xsi:type="Relation:Associate">
      <Relation:AssociateId xsi:type="xsd:int">0</Relation:AssociateId>
      <Relation:Name xsi:type="xsd:string"></Relation:Name>
@@ -157,3 +156,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

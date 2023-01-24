@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPreferenceAgent.GetAllFr
 
 ## GetAllFromSection
 
-Gets all PreferenceDescription-items in the specified section
 
-* **section:** The PreferenceDescription-section
 
-**Returns:** All PreferenceDescriptions found.
+
 
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAllFromSection Response
 
@@ -90,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

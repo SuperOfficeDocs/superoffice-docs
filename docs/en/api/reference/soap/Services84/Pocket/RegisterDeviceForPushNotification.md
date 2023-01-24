@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPocketAgent.RegisterDevi
 
 ## RegisterDeviceForPushNotification
 
-Register a device that should receive push notifications when notable events occour
 
-* **deviceInfo:** Properties for the device to register
+
+
 
 [WSDL file for Services84/Pocket](../Services84-Pocket.md)
 
@@ -55,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RegisterDeviceForPushNotification Response
 
 ```xml
@@ -74,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

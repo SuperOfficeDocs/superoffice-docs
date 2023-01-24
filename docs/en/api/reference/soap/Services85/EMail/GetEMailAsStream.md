@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.GetEMailAsStr
 
 ## GetEMailAsStream
 
-Retrieve an e-mail optionally stripping attachments as a stream
 
-* **connectionInfo:** All information needed to connect to the mailserver
-* **messageServerId:** Unique ID for the e-mail to retrieve
-* **stripAttachments:** If true, do not include attachments in stream
 
-**Returns:** The attachment as a stream
+
 
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
@@ -59,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetEMailAsStream Response
 
 ```xml
@@ -79,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.Get
 
 ## GetAllCustomerCenterConfigs
 
-Get all rows from cust\_config as an array of CustomerCenterConfig entities
 
-**Returns:** An array of CustomerCenterConfig entities
+
+
 
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAllCustomerCenterConfigs Response
 
 ```xml
@@ -66,9 +67,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <CustomerService:Type xsi:type="CustomerService:ConfigType">Style</CustomerService:Type>
      <CustomerService:Config xsi:type="xsd:string"></CustomerService:Config>
      <CustomerService:CustLangId xsi:type="xsd:int">0</CustomerService:CustLangId>
-     <CustomerService:Registered xsi:type="xsd:dateTime">2022-08-26T08:59:03Z</CustomerService:Registered>
+     <CustomerService:Registered xsi:type="xsd:dateTime">2023-01-23T10:20:35Z</CustomerService:Registered>
      <CustomerService:RegisteredAssociateId xsi:type="xsd:int">0</CustomerService:RegisteredAssociateId>
-     <CustomerService:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:03Z</CustomerService:Updated>
+     <CustomerService:Updated xsi:type="xsd:dateTime">2023-01-23T10:20:35Z</CustomerService:Updated>
      <CustomerService:UpdatedAssociateId xsi:type="xsd:int">0</CustomerService:UpdatedAssociateId>
     </CustomerService:CustomerCenterConfig>
    </CustomerService:Response>
@@ -77,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.Get
 
 ## GetParsedTemplate
 
-Get a specific langauge version of the reply template, and run this trough the parser
 
-* **replyTemplateId:** The id of the reply template
-* **languageId:** The language id (prefered langauge). If 0 is given, the language of the person will be used
-* **personId:** The id of the person that will be populated into the parser
-* **ticketId:** The id of the ticket that will be populated into the parser
 
-**Returns:** The parsed reply template
+
 
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
@@ -55,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetParsedTemplate Response
 
 ```xml
@@ -90,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

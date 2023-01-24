@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.RequestApprov
 
 ## RequestApproval
 
-Notifies specified associate that this quote needs approval.
 
-* **quoteVersionId:** The quoteversion to be approved.
-* **associateId:** The associate that should be notified.
-* **comment:** Details or reason for request
 
-**Returns:** Response of the the operation
+
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## RequestApproval Response
 
@@ -92,9 +89,11 @@ Application tokens must be specified if calling an Online installation. Applicat
       </Quote:ChangedDataItem>
      </Quote:DeletedRecords>
     </Quote:Changes>
+    <Quote:Status xsi:type="Quote:QuoteStatus">Ok</Quote:Status>
    </Quote:Response>
   </Quote:RequestApprovalResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

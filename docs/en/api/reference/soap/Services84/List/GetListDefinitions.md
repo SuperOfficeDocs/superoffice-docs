@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetListDefinit
 
 ## GetListDefinitions
 
-Get a list of the lists - built-in and user-defined.
 
-* **includeDeleted:** Include deleted items in result?
 
-**Returns:** The list definitions
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetListDefinitions Response
 
@@ -82,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

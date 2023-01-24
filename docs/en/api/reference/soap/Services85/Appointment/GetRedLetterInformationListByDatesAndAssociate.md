@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IAppointmentAgent.GetRedL
 
 ## GetRedLetterInformationListByDatesAndAssociate
 
-Get detailed red letter day information (redletter summary + individual day texts) for one or more days according to the given date interval. The time portion of the dates is ignored.
 
-* **startDate:** Start date of interval. Time portion is ignored.
-* **endDate:** End date of interval. Time portion is ignored.
-* **associateId:** Associate id to identify the calendar to scan. If 0 is passed in, the currently authenticated associate is used instead.
 
-**Returns:** Exactly one item per day of the given time span is returned. Days where nothing happens will have all values set to 0, but will still be in the returned array. Start end dates are treated as inclusive.
+
 
 [WSDL file for Services85/Appointment](../Services85-Appointment.md)
 
@@ -43,8 +39,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Appointment:Credentials>
  <SOAP-ENV:Body>
    <Appointment:GetRedLetterInformationListByDatesAndAssociate>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2022-08-26T08:52:08Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2022-08-26T08:52:08Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2023-01-23T10:13:57Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2023-01-23T10:13:57Z</Appointment:EndDate>
     <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
    </Appointment:GetRedLetterInformationListByDatesAndAssociate>
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetRedLetterInformationListByDatesAndAssociate Response
 
@@ -69,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:GetRedLetterInformationListByDatesAndAssociateResponse>
    <Appointment:Response xsi:type="Appointment:ArrayOfRedLetterInformationListItem">
     <Appointment:RedLetterInformationListItem xsi:type="Appointment:RedLetterInformationListItem">
-     <Appointment:Date xsi:type="xsd:dateTime">2022-08-26T08:52:08Z</Appointment:Date>
+     <Appointment:Date xsi:type="xsd:dateTime">2023-01-23T10:13:57Z</Appointment:Date>
      <Appointment:RedLetterInformation xsi:type="Appointment:RedLetterSummary">
       <Appointment:IsOwnCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOwnCountryHoliday>
       <Appointment:IsOtherCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOtherCountryHoliday>
@@ -89,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

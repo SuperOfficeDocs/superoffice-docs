@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.SendAndSaveEm
 
 ## SendAndSaveEmailToTmpDocument
 
-Send the provided e-mail and create tmp document ready to archive
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **email:** The e-mail to send
-* **stripAttachments:** If true, do not include attachments in tmp document
 
-**Returns:** Filename of the tmp document
+
 
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
@@ -104,7 +100,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       </EMail:DuplicatePersonIds>
       <EMail:Name xsi:type="xsd:string"></EMail:Name>
      </EMail:From>
-     <EMail:Sent xsi:type="xsd:dateTime">2022-08-26T08:54:52Z</EMail:Sent>
+     <EMail:Sent xsi:type="xsd:dateTime">2023-01-23T10:16:35Z</EMail:Sent>
      <EMail:Size xsi:type="xsd:int">0</EMail:Size>
      <EMail:Priority xsi:type="EMail:EMailPriority">NoPriority</EMail:Priority>
      <EMail:Flags xsi:type="EMail:EMailFlags">Seen</EMail:Flags>
@@ -117,7 +113,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
       <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
       <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-      <EMail:ArchivedAt xsi:type="xsd:dateTime">2022-08-26T08:54:52Z</EMail:ArchivedAt>
+      <EMail:ArchivedAt xsi:type="xsd:dateTime">2023-01-23T10:16:35Z</EMail:ArchivedAt>
       <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
       <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
      </EMail:EMailSOInfo>
@@ -145,7 +141,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <EMail:FolderName xsi:type="xsd:string"></EMail:FolderName>
      <EMail:EmailItemId xsi:type="xsd:int">0</EMail:EmailItemId>
      <EMail:AccountId xsi:type="xsd:int">0</EMail:AccountId>
-     <EMail:ReceivedAt xsi:type="xsd:dateTime">2022-08-26T08:54:52Z</EMail:ReceivedAt>
+     <EMail:ReceivedAt xsi:type="xsd:dateTime">2023-01-23T10:16:35Z</EMail:ReceivedAt>
      <EMail:InReplyTo xsi:type="EMail:EMailEnvelope">
       <EMail:ServerId xsi:type="xsd:int">0</EMail:ServerId>
       <EMail:MessageId xsi:type="xsd:string"></EMail:MessageId>
@@ -178,7 +174,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <EMail:Name xsi:type="xsd:string"></EMail:Name>
        </EMail:EMailAddress>
       </EMail:To>
-      <EMail:Sent xsi:type="xsd:dateTime">2022-08-26T08:54:52Z</EMail:Sent>
+      <EMail:Sent xsi:type="xsd:dateTime">2023-01-23T10:16:35Z</EMail:Sent>
       <EMail:Priority xsi:type="EMail:EMailPriority">NoPriority</EMail:Priority>
       <EMail:Flags xsi:type="EMail:EMailFlags">Seen</EMail:Flags>
       <EMail:Size xsi:type="xsd:int">0</EMail:Size>
@@ -188,12 +184,12 @@ Application tokens must be specified if calling an Online installation. Applicat
        <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
        <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
        <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-       <EMail:ArchivedAt xsi:type="xsd:dateTime">2022-08-26T08:54:52Z</EMail:ArchivedAt>
+       <EMail:ArchivedAt xsi:type="xsd:dateTime">2023-01-23T10:16:35Z</EMail:ArchivedAt>
        <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
        <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
       </EMail:EMailSOInfo>
      </EMail:InReplyTo>
-     <EMail:RepliedAt xsi:type="xsd:dateTime">2022-08-26T08:54:52Z</EMail:RepliedAt>
+     <EMail:RepliedAt xsi:type="xsd:dateTime">2023-01-23T10:16:35Z</EMail:RepliedAt>
     </EMail:Email>
     <EMail:StripAttachments xsi:type="xsd:boolean">false</EMail:StripAttachments>
    </EMail:SendAndSaveEmailToTmpDocument>
@@ -202,6 +198,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SendAndSaveEmailToTmpDocument Response
 
@@ -223,3 +220,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

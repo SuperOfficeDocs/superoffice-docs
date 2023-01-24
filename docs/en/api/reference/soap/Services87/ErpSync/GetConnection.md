@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.GetConnecti
 
 ## GetConnection
 
-Returns the specified connection.
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-* **erpConnectionId:** Primary key of the connection
 
-**Returns:** The connection
+
 
 [WSDL file for Services87/ErpSync](../Services87-ErpSync.md)
 
@@ -49,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetConnection Response
 
@@ -92,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

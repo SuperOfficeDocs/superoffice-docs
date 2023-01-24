@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDiagnosticsAgent.GetWebA
 
 ## GetWebAppUsagesForPeriod
 
-Get all WebAppUsages for a given period, that match an optional search term
 
-* **fromDate:**
-* **toDate:**
-* **searchTerm:** ViewState search term. '%' is the wildcard character, for example 'Pocket%' will match all viewstates starting with 'Pocket'. If empty, all viewstates will be matched
+
+
 
 [WSDL file for Services87/Diagnostics](../Services87-Diagnostics.md)
 
@@ -41,8 +39,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Diagnostics:Credentials>
  <SOAP-ENV:Body>
    <Diagnostics:GetWebAppUsagesForPeriod>
-    <Diagnostics:FromDate xsi:type="xsd:dateTime">2022-08-26T08:56:47Z</Diagnostics:FromDate>
-    <Diagnostics:ToDate xsi:type="xsd:dateTime">2022-08-26T08:56:47Z</Diagnostics:ToDate>
+    <Diagnostics:FromDate xsi:type="xsd:dateTime">2023-01-23T10:18:25Z</Diagnostics:FromDate>
+    <Diagnostics:ToDate xsi:type="xsd:dateTime">2023-01-23T10:18:25Z</Diagnostics:ToDate>
     <Diagnostics:SearchTerm xsi:type="xsd:string"></Diagnostics:SearchTerm>
    </Diagnostics:GetWebAppUsagesForPeriod>
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetWebAppUsagesForPeriod Response
 
@@ -69,7 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Diagnostics:WebAppUsage xsi:type="Diagnostics:WebAppUsage">
      <Diagnostics:WebAppUsageId xsi:type="xsd:int">0</Diagnostics:WebAppUsageId>
      <Diagnostics:AssocId xsi:type="xsd:int">0</Diagnostics:AssocId>
-     <Diagnostics:Timestamp xsi:type="xsd:dateTime">2022-08-26T08:56:47Z</Diagnostics:Timestamp>
+     <Diagnostics:Timestamp xsi:type="xsd:dateTime">2023-01-23T10:18:25Z</Diagnostics:Timestamp>
      <Diagnostics:ViewState xsi:type="xsd:string"></Diagnostics:ViewState>
      <Diagnostics:AggregateCount xsi:type="xsd:unsignedInt">0</Diagnostics:AggregateCount>
      <Diagnostics:AggregateBin xsi:type="xsd:unsignedInt">0</Diagnostics:AggregateBin>
@@ -81,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

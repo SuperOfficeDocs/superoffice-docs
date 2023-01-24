@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.FindRolesWithF
 
 ## FindRolesWithFunctionalRights
 
-Find all roles with a given set of functional rights. The roles matched must contain one or more of the specified functional rights.
 
-* **functionalRightNames:** An array of functional rights names to search for
 
-**Returns:** Role ids that contains your functional rights
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## FindRolesWithFunctionalRights Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

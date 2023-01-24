@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetTicketCateg
 
 ## GetTicketCategoryEntity
 
-Gets a TicketCategoryEntity object.
 
-* **ticketCategoryEntityId:** The identifier of the TicketCategoryEntity object
 
-**Returns:** TicketCategoryEntity
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetTicketCategoryEntity Response
 
@@ -95,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IWebhookAgent.TestWebhook
 
 ## TestWebhook
 
-Pings a webhook with a 'test' event, returns SUCCESS(true) or FAILURE(false) + the response from the webhook target.
 
-* **webhook:** Webhook definition to ping. Must contain a valid TargetUrl.
 
-**Returns:** Result of calling webhook. Sucess=true/false + Error message
+
 
 [WSDL file for Services85/Webhook](../Services85-Webhook.md)
 
@@ -63,7 +61,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Webhook:Value xsi:type="xsd:anyType"></Webhook:Value>
       </Webhook:StringObjectKeyValuePair>
      </Webhook:Properties>
-     <Webhook:Registered xsi:type="xsd:dateTime">2022-08-26T08:54:02Z</Webhook:Registered>
+     <Webhook:Registered xsi:type="xsd:dateTime">2023-01-23T10:15:47Z</Webhook:Registered>
      <Webhook:RegisteredAssociate xsi:type="Webhook:Associate">
       <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
       <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -77,7 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Webhook:Deleted xsi:type="xsd:boolean">false</Webhook:Deleted>
       <Webhook:EjUserId xsi:type="xsd:int">0</Webhook:EjUserId>
      </Webhook:RegisteredAssociate>
-     <Webhook:Updated xsi:type="xsd:dateTime">2022-08-26T08:54:02Z</Webhook:Updated>
+     <Webhook:Updated xsi:type="xsd:dateTime">2023-01-23T10:15:47Z</Webhook:Updated>
      <Webhook:UpdatedAssociate xsi:type="Webhook:Associate">
       <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
       <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -98,6 +96,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## TestWebhook Response
 
@@ -122,3 +121,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

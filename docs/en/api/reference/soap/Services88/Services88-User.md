@@ -2052,6 +2052,60 @@ title: Services88.UserAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetUserPresenceStatus">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetUserPresenceStatusResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:UserPresenceStatus" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="UserPresenceStatus">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Status" type="tns:EjUserStatus" />
+          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="UserPresenceStatus" nillable="true" type="tns:UserPresenceStatus" />
+      <xs:simpleType name="EjUserStatus">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="StatusNone" />
+          <xs:enumeration value="StatusNormal" />
+          <xs:enumeration value="StatusNotAvailable" />
+          <xs:enumeration value="StatusDeleted" />
+          <xs:enumeration value="StatusReadOnly" />
+          <xs:enumeration value="StatusSpm" />
+          <xs:enumeration value="StatusSystem">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">127</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="EjUserStatus" nillable="true" type="tns:EjUserStatus" />
+      <xs:element name="SetUserPresenceStatus">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+            <xs:element minOccurs="0" name="UserPresenceStatus" nillable="true" type="tns:UserPresenceStatus" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetUserPresenceStatusResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:UserPresenceStatus" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetUserGroup">
         <xs:complexType>
           <xs:sequence>
@@ -3693,6 +3747,40 @@ title: Services88.UserAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetUserPresenceStatusRequest">
+    <wsdl:part name="parameters" element="tns:GetUserPresenceStatus" />
+  </wsdl:message>
+  <wsdl:message name="GetUserPresenceStatusRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetUserPresenceStatusResponse">
+    <wsdl:part name="parameters" element="tns:GetUserPresenceStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserPresenceStatusResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetUserPresenceStatusRequest">
+    <wsdl:part name="parameters" element="tns:SetUserPresenceStatus" />
+  </wsdl:message>
+  <wsdl:message name="SetUserPresenceStatusRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetUserPresenceStatusResponse">
+    <wsdl:part name="parameters" element="tns:SetUserPresenceStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetUserPresenceStatusResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetUserGroupRequest">
     <wsdl:part name="parameters" element="tns:GetUserGroup" />
   </wsdl:message>
@@ -3830,666 +3918,383 @@ title: Services88.UserAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="User">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for User</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultRoleEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new RoleEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultRoleEntity" name="CreateDefaultRoleEntityRequest" message="tns:CreateDefaultRoleEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultRoleEntityResponse" name="CreateDefaultRoleEntityResponse" message="tns:CreateDefaultRoleEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveRoleEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing RoleEntity or creates a new RoleEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveRoleEntity" name="SaveRoleEntityRequest" message="tns:SaveRoleEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveRoleEntityResponse" name="SaveRoleEntityResponse" message="tns:SaveRoleEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultServiceAuth">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ServiceAuth.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultServiceAuth" name="CreateDefaultServiceAuthRequest" message="tns:CreateDefaultServiceAuthRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultServiceAuthResponse" name="CreateDefaultServiceAuthResponse" message="tns:CreateDefaultServiceAuthResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveServiceAuth">
-      <wsdl:documentation>
-        <summary>Updates the existing ServiceAuth or creates a new ServiceAuth if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveServiceAuth" name="SaveServiceAuthRequest" message="tns:SaveServiceAuthRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveServiceAuthResponse" name="SaveServiceAuthResponse" message="tns:SaveServiceAuthResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteServiceAuth">
-      <wsdl:documentation>
-        <summary>Deletes the ServiceAuth</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteServiceAuth" name="DeleteServiceAuthRequest" message="tns:DeleteServiceAuthRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteServiceAuthResponse" name="DeleteServiceAuthResponse" message="tns:DeleteServiceAuthResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultUntrustedCredentials">
-      <wsdl:documentation>
-        <summary>Loading default values into a new UntrustedCredentials.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultUntrustedCredentials" name="CreateDefaultUntrustedCredentialsRequest" message="tns:CreateDefaultUntrustedCredentialsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultUntrustedCredentialsResponse" name="CreateDefaultUntrustedCredentialsResponse" message="tns:CreateDefaultUntrustedCredentialsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultUser">
-      <wsdl:documentation>
-        <summary>Loading default values into a new User.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultUser" name="CreateDefaultUserRequest" message="tns:CreateDefaultUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultUserResponse" name="CreateDefaultUserResponse" message="tns:CreateDefaultUserResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveUser">
-      <wsdl:documentation>
-        <summary>Updates the existing User or creates a new User if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveUser" name="SaveUserRequest" message="tns:SaveUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveUserResponse" name="SaveUserResponse" message="tns:SaveUserResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUserCommands">
-      <wsdl:documentation>
-        <summary>Get registered custom commands for User</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserCommands" name="GetUserCommandsRequest" message="tns:GetUserCommandsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserCommandsResponse" name="GetUserCommandsResponse" message="tns:GetUserCommandsResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteUserCommand">
-      <wsdl:documentation>
-        <summary>Executes the custom command for User</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ExecuteUserCommand" name="ExecuteUserCommandRequest" message="tns:ExecuteUserCommandRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ExecuteUserCommandResponse" name="ExecuteUserCommandResponse" message="tns:ExecuteUserCommandResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteUser">
-      <wsdl:documentation>
-        <summary>Deletes the User</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUser" name="DeleteUserRequest" message="tns:DeleteUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUserResponse" name="DeleteUserResponse" message="tns:DeleteUserResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAccessGatewayInfo">
-      <wsdl:documentation>
-        <summary>Returns accessgateway registration info</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAccessGatewayInfo" name="GetAccessGatewayInfoRequest" message="tns:GetAccessGatewayInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAccessGatewayInfoResponse" name="GetAccessGatewayInfoResponse" message="tns:GetAccessGatewayInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetOrRegisterAccessGatewayInfo">
-      <wsdl:documentation>
-        <summary>Returns accessgateway registration info and registers a new or adds the url if necessary</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetOrRegisterAccessGatewayInfo" name="GetOrRegisterAccessGatewayInfoRequest" message="tns:GetOrRegisterAccessGatewayInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetOrRegisterAccessGatewayInfoResponse" name="GetOrRegisterAccessGatewayInfoResponse" message="tns:GetOrRegisterAccessGatewayInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="RegisterWithAccessGateway">
-      <wsdl:documentation>
-        <summary>Registers with access gateway if not already done, otherwise will attempt to update</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/RegisterWithAccessGateway" name="RegisterWithAccessGatewayRequest" message="tns:RegisterWithAccessGatewayRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/RegisterWithAccessGatewayResponse" name="RegisterWithAccessGatewayResponse" message="tns:RegisterWithAccessGatewayResponse" />
     </wsdl:operation>
     <wsdl:operation name="CheckAccessGatewayRegistration">
-      <wsdl:documentation>
-        <summary>Checks if AccessGatewayRegistration is valid</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CheckAccessGatewayRegistration" name="CheckAccessGatewayRegistrationRequest" message="tns:CheckAccessGatewayRegistrationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CheckAccessGatewayRegistrationResponse" name="CheckAccessGatewayRegistrationResponse" message="tns:CheckAccessGatewayRegistrationResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveCredential">
-      <wsdl:documentation>
-        <summary>Save (adds/replaces) current credential of the same type for the user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveCredential" name="SaveCredentialRequest" message="tns:SaveCredentialRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveCredentialResponse" name="SaveCredentialResponse" message="tns:SaveCredentialResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteCredential">
-      <wsdl:documentation>
-        <summary>Remove credential of a specific type for a user</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteCredential" name="DeleteCredentialRequest" message="tns:DeleteCredentialRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteCredentialResponse" name="DeleteCredentialResponse" message="tns:DeleteCredentialResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindCredentialsGroups">
-      <wsdl:documentation>
-        <summary>Get user groups holding users filtered by the searchString.  This method is only relevant if the CredentialType control is of type link.  There will allways be at least one groups even if the underlying provider does not support groups.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/FindCredentialsGroups" name="FindCredentialsGroupsRequest" message="tns:FindCredentialsGroupsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/FindCredentialsGroupsResponse" name="FindCredentialsGroupsResponse" message="tns:FindCredentialsGroupsResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindCredentialUsers">
-      <wsdl:documentation>
-        <summary>Find users matching the partial name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/FindCredentialUsers" name="FindCredentialUsersRequest" message="tns:FindCredentialUsersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/FindCredentialUsersResponse" name="FindCredentialUsersResponse" message="tns:FindCredentialUsersResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCredentialUsersInGroup">
-      <wsdl:documentation>
-        <summary>Get credential users within a user group</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetCredentialUsersInGroup" name="GetCredentialUsersInGroupRequest" message="tns:GetCredentialUsersInGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetCredentialUsersInGroupResponse" name="GetCredentialUsersInGroupResponse" message="tns:GetCredentialUsersInGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRole">
-      <wsdl:documentation>
-        <summary>Gets a Role object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetRole" name="GetRoleRequest" message="tns:GetRoleRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetRoleResponse" name="GetRoleResponse" message="tns:GetRoleResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRoleEntity">
-      <wsdl:documentation>
-        <summary>Gets a RoleEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetRoleEntity" name="GetRoleEntityRequest" message="tns:GetRoleEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetRoleEntityResponse" name="GetRoleEntityResponse" message="tns:GetRoleEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteRole">
-      <wsdl:documentation>
-        <summary>Delete the specified role and move all users associated with the role to the replacingRoleId</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteRole" name="DeleteRoleRequest" message="tns:DeleteRoleRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteRoleResponse" name="DeleteRoleResponse" message="tns:DeleteRoleResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllRoles">
-      <wsdl:documentation>
-        <summary>Get a list of all roles for the given type of role. MDO List name = 'Roles', extra='0' (roleType) </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAllRoles" name="GetAllRolesRequest" message="tns:GetAllRolesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAllRolesResponse" name="GetAllRolesResponse" message="tns:GetAllRolesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllFunctionalRights">
-      <wsdl:documentation>
-        <summary>Get a list of all functional rights for the given type of role. MDO List name = 'FunctionRights', extra='roleType=0' </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAllFunctionalRights" name="GetAllFunctionalRightsRequest" message="tns:GetAllFunctionalRightsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAllFunctionalRightsResponse" name="GetAllFunctionalRightsResponse" message="tns:GetAllFunctionalRightsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFunctionalRights">
-      <wsdl:documentation>
-        <summary>Get all functional rights for the given role. Functional rights not set on the role are not included. MDO List name = 'FunctionRights', extra='role=123'</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetFunctionalRights" name="GetFunctionalRightsRequest" message="tns:GetFunctionalRightsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetFunctionalRightsResponse" name="GetFunctionalRightsResponse" message="tns:GetFunctionalRightsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetFunctionalRights">
-      <wsdl:documentation>
-        <summary>Set all functional rights for the given role. Functional rights not specified here will be removed from the role. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetFunctionalRights" name="SetFunctionalRightsRequest" message="tns:SetFunctionalRightsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetFunctionalRightsResponse" name="SetFunctionalRightsResponse" message="tns:SetFunctionalRightsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDataRight">
-      <wsdl:documentation>
-        <summary>Set one specific data right at the given position. An exception will be thrown if non existing position is specified.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetDataRight" name="SetDataRightRequest" message="tns:SetDataRightRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetDataRightResponse" name="SetDataRightResponse" message="tns:SetDataRightResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDataRight">
-      <wsdl:documentation>
-        <summary>Read one specific data right at the given position. An exception will be thrown if non existing position is specified.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetDataRight" name="GetDataRightRequest" message="tns:GetDataRightRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetDataRightResponse" name="GetDataRightResponse" message="tns:GetDataRightResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDataRights">
-      <wsdl:documentation>
-        <summary>Read specific a set of data rights at the given row in the rights matrix. An exception will be thrown if non existing position is specified.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetDataRights" name="GetDataRightsRequest" message="tns:GetDataRightsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetDataRightsResponse" name="GetDataRightsResponse" message="tns:GetDataRightsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultRoleEntityFromType">
-      <wsdl:documentation>
-        <summary>Create a new role entity of the specified role type. The role type cannot be changed after the entity is created.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultRoleEntityFromType" name="CreateDefaultRoleEntityFromTypeRequest" message="tns:CreateDefaultRoleEntityFromTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultRoleEntityFromTypeResponse" name="CreateDefaultRoleEntityFromTypeResponse" message="tns:CreateDefaultRoleEntityFromTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindRolesWithFunctionalRight">
-      <wsdl:documentation>
-        <summary>Find all roles with a given functional right. The roles matched must contain the specified functional right. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/FindRolesWithFunctionalRight" name="FindRolesWithFunctionalRightRequest" message="tns:FindRolesWithFunctionalRightRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/FindRolesWithFunctionalRightResponse" name="FindRolesWithFunctionalRightResponse" message="tns:FindRolesWithFunctionalRightResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindRolesWithFunctionalRights">
-      <wsdl:documentation>
-        <summary>Find all roles with a given set of functional rights. The roles matched must contain one or more of the specified functional rights. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/FindRolesWithFunctionalRights" name="FindRolesWithFunctionalRightsRequest" message="tns:FindRolesWithFunctionalRightsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/FindRolesWithFunctionalRightsResponse" name="FindRolesWithFunctionalRightsResponse" message="tns:FindRolesWithFunctionalRightsResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindRolesWithoutFunctionalRights">
-      <wsdl:documentation>
-        <summary>Find all roles without a given set of functional rights. The roles matched must not contain any of the specified functional rights. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/FindRolesWithoutFunctionalRights" name="FindRolesWithoutFunctionalRightsRequest" message="tns:FindRolesWithoutFunctionalRightsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/FindRolesWithoutFunctionalRightsResponse" name="FindRolesWithoutFunctionalRightsResponse" message="tns:FindRolesWithoutFunctionalRightsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetServiceAuth">
-      <wsdl:documentation>
-        <summary>Gets a ServiceAuth object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetServiceAuth" name="GetServiceAuthRequest" message="tns:GetServiceAuthRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetServiceAuthResponse" name="GetServiceAuthResponse" message="tns:GetServiceAuthResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveExternalTokens">
-      <wsdl:documentation>
-        <summary>Saves the external tokens to the DB and returns a key that can be used to retrieve them</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveExternalTokens" name="SaveExternalTokensRequest" message="tns:SaveExternalTokensRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveExternalTokensResponse" name="SaveExternalTokensResponse" message="tns:SaveExternalTokensResponse" />
     </wsdl:operation>
     <wsdl:operation name="DecryptAndSaveExternalTokens">
-      <wsdl:documentation>
-        <summary>First asks AccessGateway to decrypt the tokens, then saves the external tokens to the DB and returns a key that can be used to retrieve them</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DecryptAndSaveExternalTokens" name="DecryptAndSaveExternalTokensRequest" message="tns:DecryptAndSaveExternalTokensRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DecryptAndSaveExternalTokensResponse" name="DecryptAndSaveExternalTokensResponse" message="tns:DecryptAndSaveExternalTokensResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetExternalTokens">
-      <wsdl:documentation>
-        <summary>Retrieve the tokens from the DB based on the given key</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetExternalTokens" name="GetExternalTokensRequest" message="tns:GetExternalTokensRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetExternalTokensResponse" name="GetExternalTokensResponse" message="tns:GetExternalTokensResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUser">
-      <wsdl:documentation>
-        <summary>Gets a User object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUser" name="GetUserRequest" message="tns:GetUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserResponse" name="GetUserResponse" message="tns:GetUserResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUserFromName">
-      <wsdl:documentation>
-        <summary>Get a user, with lookup based on user name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserFromName" name="GetUserFromNameRequest" message="tns:GetUserFromNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserFromNameResponse" name="GetUserFromNameResponse" message="tns:GetUserFromNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveUserFromName">
-      <wsdl:documentation>
-        <summary>Save a user, with lookup based on the user name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveUserFromName" name="SaveUserFromNameRequest" message="tns:SaveUserFromNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveUserFromNameResponse" name="SaveUserFromNameResponse" message="tns:SaveUserFromNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteUserFromName">
-      <wsdl:documentation>
-        <summary>Delete a user, with lookup based on the user name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUserFromName" name="DeleteUserFromNameRequest" message="tns:DeleteUserFromNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUserFromNameResponse" name="DeleteUserFromNameResponse" message="tns:DeleteUserFromNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCredentialTypes">
-      <wsdl:documentation>
-        <summary>Get available credential types that can be used for authentication</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetCredentialTypes" name="GetCredentialTypesRequest" message="tns:GetCredentialTypesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetCredentialTypesResponse" name="GetCredentialTypesResponse" message="tns:GetCredentialTypesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCredentialTypesForUserType">
-      <wsdl:documentation>
-        <summary>Get available credential types that can be used for the specified user type.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetCredentialTypesForUserType" name="GetCredentialTypesForUserTypeRequest" message="tns:GetCredentialTypesForUserTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetCredentialTypesForUserTypeResponse" name="GetCredentialTypesForUserTypeResponse" message="tns:GetCredentialTypesForUserTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveUntrustedCredentials">
-      <wsdl:documentation>
-        <summary>Save credentials for authenticated user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveUntrustedCredentials" name="SaveUntrustedCredentialsRequest" message="tns:SaveUntrustedCredentialsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveUntrustedCredentialsResponse" name="SaveUntrustedCredentialsResponse" message="tns:SaveUntrustedCredentialsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUntrustedCredentials">
-      <wsdl:documentation>
-        <summary>Get a set of credentials of a specified type for authenticated user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUntrustedCredentials" name="GetUntrustedCredentialsRequest" message="tns:GetUntrustedCredentialsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUntrustedCredentialsResponse" name="GetUntrustedCredentialsResponse" message="tns:GetUntrustedCredentialsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUntrustedCredentialsForAssociate">
-      <wsdl:documentation>
-        <summary>Get a set of credentials of a specified type for a specified user. SecretValue is only populated for authenticated user, and system users.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUntrustedCredentialsForAssociate" name="GetUntrustedCredentialsForAssociateRequest" message="tns:GetUntrustedCredentialsForAssociateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUntrustedCredentialsForAssociateResponse" name="GetUntrustedCredentialsForAssociateResponse" message="tns:GetUntrustedCredentialsForAssociateResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveUntrustedCredentialsForAssociate">
-      <wsdl:documentation>
-        <summary>Save credentials for a specified user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveUntrustedCredentialsForAssociate" name="SaveUntrustedCredentialsForAssociateRequest" message="tns:SaveUntrustedCredentialsForAssociateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveUntrustedCredentialsForAssociateResponse" name="SaveUntrustedCredentialsForAssociateResponse" message="tns:SaveUntrustedCredentialsForAssociateResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveUntrustedCredentials">
-      <wsdl:documentation>
-        <summary>Remove a credentials entry for authenticated user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/RemoveUntrustedCredentials" name="RemoveUntrustedCredentialsRequest" message="tns:RemoveUntrustedCredentialsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/RemoveUntrustedCredentialsResponse" name="RemoveUntrustedCredentialsResponse" message="tns:RemoveUntrustedCredentialsResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveUntrustedCredentialsForAssociate">
-      <wsdl:documentation>
-        <summary>Remove a credentials entry for a specified user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/RemoveUntrustedCredentialsForAssociate" name="RemoveUntrustedCredentialsForAssociateRequest" message="tns:RemoveUntrustedCredentialsForAssociateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/RemoveUntrustedCredentialsForAssociateResponse" name="RemoveUntrustedCredentialsForAssociateResponse" message="tns:RemoveUntrustedCredentialsForAssociateResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateExternalUser">
-      <wsdl:documentation>
-        <summary>Creates an associate of type external user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateExternalUser" name="CreateExternalUserRequest" message="tns:CreateExternalUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateExternalUserResponse" name="CreateExternalUserResponse" message="tns:CreateExternalUserResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteExternalUser">
-      <wsdl:documentation>
-        <summary>Deletes an associate of type external user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteExternalUser" name="DeleteExternalUserRequest" message="tns:DeleteExternalUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteExternalUserResponse" name="DeleteExternalUserResponse" message="tns:DeleteExternalUserResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetExternalUserInfo">
-      <wsdl:documentation>
-        <summary>Modifies an external user. Changes external users information according to the flags set in  externalUserInfoModification.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetExternalUserInfo" name="SetExternalUserInfoRequest" message="tns:SetExternalUserInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetExternalUserInfoResponse" name="SetExternalUserInfoResponse" message="tns:SetExternalUserInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GenerateNewPasswordForExternalUser">
-      <wsdl:documentation>
-        <summary>Generates a new password for an external user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GenerateNewPasswordForExternalUser" name="GenerateNewPasswordForExternalUserRequest" message="tns:GenerateNewPasswordForExternalUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GenerateNewPasswordForExternalUserResponse" name="GenerateNewPasswordForExternalUserResponse" message="tns:GenerateNewPasswordForExternalUserResponse" />
     </wsdl:operation>
     <wsdl:operation name="CanChangePassword">
-      <wsdl:documentation>
-        <summary>Check if the current assoicate can change the password for an associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CanChangePassword" name="CanChangePasswordRequest" message="tns:CanChangePasswordRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CanChangePasswordResponse" name="CanChangePasswordResponse" message="tns:CanChangePasswordResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSupportedChangePasswordTypes">
-      <wsdl:documentation>
-        <summary>Get the different methods the user can use to change password</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetSupportedChangePasswordTypes" name="GetSupportedChangePasswordTypesRequest" message="tns:GetSupportedChangePasswordTypesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetSupportedChangePasswordTypesResponse" name="GetSupportedChangePasswordTypesResponse" message="tns:GetSupportedChangePasswordTypesResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangePassword">
-      <wsdl:documentation>
-        <summary>Change password for a user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ChangePassword" name="ChangePasswordRequest" message="tns:ChangePasswordRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ChangePasswordResponse" name="ChangePasswordResponse" message="tns:ChangePasswordResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendChangePasswordEMail">
-      <wsdl:documentation>
-        <summary>Send a change password email to this users registered address.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SendChangePasswordEMail" name="SendChangePasswordEMailRequest" message="tns:SendChangePasswordEMailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SendChangePasswordEMailResponse" name="SendChangePasswordEMailResponse" message="tns:SendChangePasswordEMailResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUserFromPersonId">
-      <wsdl:documentation>
-        <summary>Returns the user associated with the supplied person id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserFromPersonId" name="GetUserFromPersonIdRequest" message="tns:GetUserFromPersonIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserFromPersonIdResponse" name="GetUserFromPersonIdResponse" message="tns:GetUserFromPersonIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultUserFromUserTypeAndPersonId">
-      <wsdl:documentation>
-        <summary>Create default User providing the associate type and person id.  System and Anonymous users can be created without an exsisting person and permits person id to be 0.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultUserFromUserTypeAndPersonId" name="CreateDefaultUserFromUserTypeAndPersonIdRequest" message="tns:CreateDefaultUserFromUserTypeAndPersonIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultUserFromUserTypeAndPersonIdResponse" name="CreateDefaultUserFromUserTypeAndPersonIdResponse" message="tns:CreateDefaultUserFromUserTypeAndPersonIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultUserFromUserType">
-      <wsdl:documentation>
-        <summary>Create default User providing the user type.  Only System and Anonymous users can be created without an exsisting person.  Use CreateDefaultUserFromUserTypeAndPersonId to create internal (i.e. Employee) or external users.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultUserFromUserType" name="CreateDefaultUserFromUserTypeRequest" message="tns:CreateDefaultUserFromUserTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultUserFromUserTypeResponse" name="CreateDefaultUserFromUserTypeResponse" message="tns:CreateDefaultUserFromUserTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUserFromEjUserId">
-      <wsdl:documentation>
-        <summary>Get user from ejUserId - used for eJournal Legacy Support.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserFromEjUserId" name="GetUserFromEjUserIdRequest" message="tns:GetUserFromEjUserIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserFromEjUserIdResponse" name="GetUserFromEjUserIdResponse" message="tns:GetUserFromEjUserIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetPasswordFromName">
-      <wsdl:documentation>
-        <summary>Change password for a user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetPasswordFromName" name="SetPasswordFromNameRequest" message="tns:SetPasswordFromNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetPasswordFromNameResponse" name="SetPasswordFromNameResponse" message="tns:SetPasswordFromNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetPassword">
-      <wsdl:documentation>
-        <summary>Change password for a user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetPassword" name="SetPasswordRequest" message="tns:SetPasswordRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetPasswordResponse" name="SetPasswordResponse" message="tns:SetPasswordResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeOwnPassword">
-      <wsdl:documentation>
-        <summary>Change password for a user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ChangeOwnPassword" name="ChangeOwnPasswordRequest" message="tns:ChangeOwnPasswordRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ChangeOwnPasswordResponse" name="ChangeOwnPasswordResponse" message="tns:ChangeOwnPasswordResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangePasswordFromName">
-      <wsdl:documentation>
-        <summary>Change password for a user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ChangePasswordFromName" name="ChangePasswordFromNameRequest" message="tns:ChangePasswordFromNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ChangePasswordFromNameResponse" name="ChangePasswordFromNameResponse" message="tns:ChangePasswordFromNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsUserNameValid">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsUserNameValid" name="IsUserNameValidRequest" message="tns:IsUserNameValidRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsUserNameValidResponse" name="IsUserNameValidResponse" message="tns:IsUserNameValidResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsPasswordValid">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsPasswordValid" name="IsPasswordValidRequest" message="tns:IsPasswordValidRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsPasswordValidResponse" name="IsPasswordValidResponse" message="tns:IsPasswordValidResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetGeneratedPassword">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetGeneratedPassword" name="SetGeneratedPasswordRequest" message="tns:SetGeneratedPasswordRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetGeneratedPasswordResponse" name="SetGeneratedPasswordResponse" message="tns:SetGeneratedPasswordResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetGeneratedPasswordFromName">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetGeneratedPasswordFromName" name="SetGeneratedPasswordFromNameRequest" message="tns:SetGeneratedPasswordFromNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetGeneratedPasswordFromNameResponse" name="SetGeneratedPasswordFromNameResponse" message="tns:SetGeneratedPasswordFromNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsPasswordValidWithReason">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsPasswordValidWithReason" name="IsPasswordValidWithReasonRequest" message="tns:IsPasswordValidWithReasonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsPasswordValidWithReasonResponse" name="IsPasswordValidWithReasonResponse" message="tns:IsPasswordValidWithReasonResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsUserNameValidWithReason">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsUserNameValidWithReason" name="IsUserNameValidWithReasonRequest" message="tns:IsUserNameValidWithReasonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsUserNameValidWithReasonResponse" name="IsUserNameValidWithReasonResponse" message="tns:IsUserNameValidWithReasonResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeUserType">
-      <wsdl:documentation>
-        <summary>Get a user from the user name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ChangeUserType" name="ChangeUserTypeRequest" message="tns:ChangeUserTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ChangeUserTypeResponse" name="ChangeUserTypeResponse" message="tns:ChangeUserTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultUserFromUserTypeAndCredential">
-      <wsdl:documentation>
-        <summary>Creates a PersonEntity with default values based on the contactId and credentials.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultUserFromUserTypeAndCredential" name="CreateDefaultUserFromUserTypeAndCredentialRequest" message="tns:CreateDefaultUserFromUserTypeAndCredentialRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultUserFromUserTypeAndCredentialResponse" name="CreateDefaultUserFromUserTypeAndCredentialResponse" message="tns:CreateDefaultUserFromUserTypeAndCredentialResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetValidUserName">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetValidUserName" name="GetValidUserNameRequest" message="tns:GetValidUserNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetValidUserNameResponse" name="GetValidUserNameResponse" message="tns:GetValidUserNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveLicenses">
-      <wsdl:documentation>
-        <summary>Remove all user licenses.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/RemoveLicenses" name="RemoveLicensesRequest" message="tns:RemoveLicensesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/RemoveLicensesResponse" name="RemoveLicensesResponse" message="tns:RemoveLicensesResponse" />
     </wsdl:operation>
     <wsdl:operation name="MakeRetired">
-      <wsdl:documentation>
-        <summary>Retiring a user means to remove all licenses, setting person.retired=1 and associate.deleted=1. Unretiering a user means setting  person.retired=0 and associate.deleted=0</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/MakeRetired" name="MakeRetiredRequest" message="tns:MakeRetiredRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/MakeRetiredResponse" name="MakeRetiredResponse" message="tns:MakeRetiredResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddOwnerContact">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/AddOwnerContact" name="AddOwnerContactRequest" message="tns:AddOwnerContactRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/AddOwnerContactResponse" name="AddOwnerContactResponse" message="tns:AddOwnerContactResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveOwnerContact">
-      <wsdl:documentation>
-        <summary>Remove a contact from the ownercontactlink table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/RemoveOwnerContact" name="RemoveOwnerContactRequest" message="tns:RemoveOwnerContactRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/RemoveOwnerContactResponse" name="RemoveOwnerContactResponse" message="tns:RemoveOwnerContactResponse" />
     </wsdl:operation>
     <wsdl:operation name="ResolveUserFromInfo">
-      <wsdl:documentation>
-        <summary>Get a user from the provided information. If the user or associated person does not exist, it will be created on demand.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ResolveUserFromInfo" name="ResolveUserFromInfoRequest" message="tns:ResolveUserFromInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ResolveUserFromInfoResponse" name="ResolveUserFromInfoResponse" message="tns:ResolveUserFromInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAccessToken">
-      <wsdl:documentation>
-        <summary>Get an access token based on the current user's session.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAccessToken" name="GetAccessTokenRequest" message="tns:GetAccessTokenRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAccessTokenResponse" name="GetAccessTokenResponse" message="tns:GetAccessTokenResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetValidUserNameForNewUser">
-      <wsdl:documentation>
-        <summary>Generates a valid username for an unsaved user</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetValidUserNameForNewUser" name="GetValidUserNameForNewUserRequest" message="tns:GetValidUserNameForNewUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetValidUserNameForNewUserResponse" name="GetValidUserNameForNewUserResponse" message="tns:GetValidUserNameForNewUserResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDefaultAssociateUserName">
-      <wsdl:documentation>
-        <summary>Get the default username for a person</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetDefaultAssociateUserName" name="GetDefaultAssociateUserNameRequest" message="tns:GetDefaultAssociateUserNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetDefaultAssociateUserNameResponse" name="GetDefaultAssociateUserNameResponse" message="tns:GetDefaultAssociateUserNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsNickNameUnique">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsNickNameUnique" name="IsNickNameUniqueRequest" message="tns:IsNickNameUniqueRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsNickNameUniqueResponse" name="IsNickNameUniqueResponse" message="tns:IsNickNameUniqueResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateUser">
-      <wsdl:documentation>
-        <summary>Check that entity is ready for saving, return error messages by field.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ValidateUser" name="ValidateUserRequest" message="tns:ValidateUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ValidateUserResponse" name="ValidateUserResponse" message="tns:ValidateUserResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetUserPresenceStatus">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserPresenceStatus" name="GetUserPresenceStatusRequest" message="tns:GetUserPresenceStatusRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserPresenceStatusResponse" name="GetUserPresenceStatusResponse" message="tns:GetUserPresenceStatusResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetUserPresenceStatus">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetUserPresenceStatus" name="SetUserPresenceStatusRequest" message="tns:SetUserPresenceStatusRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetUserPresenceStatusResponse" name="SetUserPresenceStatusResponse" message="tns:SetUserPresenceStatusResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetUserGroup">
-      <wsdl:documentation>
-        <summary>Gets a UserGroup object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserGroup" name="GetUserGroupRequest" message="tns:GetUserGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserGroupResponse" name="GetUserGroupResponse" message="tns:GetUserGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveUserGroup">
-      <wsdl:documentation>
-        <summary>Save a user group.  Set UserGroup.Deleted to mark a user group as deleted and invisible in the user interface.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveUserGroup" name="SaveUserGroupRequest" message="tns:SaveUserGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveUserGroupResponse" name="SaveUserGroupResponse" message="tns:SaveUserGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllUserGroups">
-      <wsdl:documentation>
-        <summary>Get all user groups</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAllUserGroups" name="GetAllUserGroupsRequest" message="tns:GetAllUserGroupsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAllUserGroupsResponse" name="GetAllUserGroupsResponse" message="tns:GetAllUserGroupsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateUserGroup">
-      <wsdl:documentation>
-        <summary>Create UserGroup (Rank is assigned to the highest rank)</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateUserGroup" name="CreateUserGroupRequest" message="tns:CreateUserGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateUserGroupResponse" name="CreateUserGroupResponse" message="tns:CreateUserGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteUserGroup">
-      <wsdl:documentation>
-        <summary>Delete a usergroup and move its members to another usergroup</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUserGroup" name="DeleteUserGroupRequest" message="tns:DeleteUserGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUserGroupResponse" name="DeleteUserGroupResponse" message="tns:DeleteUserGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUserGroupList">
-      <wsdl:documentation>
-        <summary>Gets an array of UserGroup objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserGroupList" name="GetUserGroupListRequest" message="tns:GetUserGroupListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserGroupListResponse" name="GetUserGroupListResponse" message="tns:GetUserGroupListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUserInfo">
-      <wsdl:documentation>
-        <summary>Gets a UserInfo object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfo" name="GetUserInfoRequest" message="tns:GetUserInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfoResponse" name="GetUserInfoResponse" message="tns:GetUserInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUserInfoList">
-      <wsdl:documentation>
-        <summary>Gets an array of UserInfo objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfoList" name="GetUserInfoListRequest" message="tns:GetUserInfoListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfoListResponse" name="GetUserInfoListResponse" message="tns:GetUserInfoListResponse" />
     </wsdl:operation>
@@ -5856,6 +5661,38 @@ title: Services88.UserAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetUserPresenceStatus">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserPresenceStatus" style="document" />
+      <wsdl:input name="GetUserPresenceStatusRequest">
+        <soap:header message="tns:GetUserPresenceStatusRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetUserPresenceStatusRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetUserPresenceStatusRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetUserPresenceStatusResponse">
+        <soap:header message="tns:GetUserPresenceStatusResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetUserPresenceStatusResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetUserPresenceStatusResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetUserPresenceStatusResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetUserPresenceStatus">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SetUserPresenceStatus" style="document" />
+      <wsdl:input name="SetUserPresenceStatusRequest">
+        <soap:header message="tns:SetUserPresenceStatusRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetUserPresenceStatusRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetUserPresenceStatusRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetUserPresenceStatusResponse">
+        <soap:header message="tns:SetUserPresenceStatusResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetUserPresenceStatusResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetUserPresenceStatusResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetUserPresenceStatusResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetUserGroup">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserGroup" style="document" />
       <wsdl:input name="GetUserGroupRequest">
@@ -5992,3 +5829,4 @@ title: Services88.UserAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

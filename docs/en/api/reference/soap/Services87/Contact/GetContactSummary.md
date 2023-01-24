@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IContactAgent.GetContactS
 
 ## GetContactSummary
 
-Get summary of contact and its recent activity.
 
-* **contactId:** The contact id to summarize.
-* **limit:** Max number of items to include in summary lists.
 
-**Returns:** Summary of contact, with recent requests, sales, follow-ups, chats.
+
 
 [WSDL file for Services87/Contact](../Services87-Contact.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetContactSummary Response
 
@@ -133,33 +131,33 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Contact:TicketId xsi:type="xsd:int">0</Contact:TicketId>
       <Contact:TicketStatus xsi:type="xsd:int">0</Contact:TicketStatus>
       <Contact:Title xsi:type="xsd:string"></Contact:Title>
-      <Contact:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</Contact:Registered>
+      <Contact:Registered xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</Contact:Registered>
      </Contact:TicketSummaryItem>
     </Contact:Tickets>
     <Contact:Followups xsi:type="Contact:ArrayOfActivitySummaryItem">
      <Contact:ActivitySummaryItem xsi:type="Contact:ActivitySummaryItem">
       <Contact:AppointmentId xsi:type="xsd:int">0</Contact:AppointmentId>
       <Contact:DocumentId xsi:type="xsd:int">0</Contact:DocumentId>
-      <Contact:Date xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</Contact:Date>
+      <Contact:Date xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</Contact:Date>
       <Contact:Description xsi:type="xsd:string"></Contact:Description>
       <Contact:Completed xsi:type="Contact:ActivityStatus">Unknown</Contact:Completed>
-      <Contact:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</Contact:Registered>
+      <Contact:Registered xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</Contact:Registered>
      </Contact:ActivitySummaryItem>
     </Contact:Followups>
     <Contact:Documents xsi:type="Contact:ArrayOfActivitySummaryItem">
      <Contact:ActivitySummaryItem xsi:type="Contact:ActivitySummaryItem">
       <Contact:AppointmentId xsi:type="xsd:int">0</Contact:AppointmentId>
       <Contact:DocumentId xsi:type="xsd:int">0</Contact:DocumentId>
-      <Contact:Date xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</Contact:Date>
+      <Contact:Date xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</Contact:Date>
       <Contact:Description xsi:type="xsd:string"></Contact:Description>
       <Contact:Completed xsi:type="Contact:ActivityStatus">Unknown</Contact:Completed>
-      <Contact:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</Contact:Registered>
+      <Contact:Registered xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</Contact:Registered>
      </Contact:ActivitySummaryItem>
     </Contact:Documents>
     <Contact:Sales xsi:type="Contact:ArrayOfSaleSummaryItem">
      <Contact:SaleSummaryItem xsi:type="Contact:SaleSummaryItem">
       <Contact:SaleId xsi:type="xsd:int">0</Contact:SaleId>
-      <Contact:SaleDate xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</Contact:SaleDate>
+      <Contact:SaleDate xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</Contact:SaleDate>
       <Contact:Probability xsi:type="xsd:short">0</Contact:Probability>
       <Contact:Heading xsi:type="xsd:string"></Contact:Heading>
       <Contact:Amount xsi:type="xsd:double">0.0</Contact:Amount>
@@ -167,7 +165,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Contact:AmountInBaseCurrency xsi:type="xsd:double">0.0</Contact:AmountInBaseCurrency>
       <Contact:Status xsi:type="Contact:SaleStatus">Unknown</Contact:Status>
       <Contact:Completed xsi:type="Contact:ActivityStatus">Unknown</Contact:Completed>
-      <Contact:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</Contact:Registered>
+      <Contact:Registered xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</Contact:Registered>
      </Contact:SaleSummaryItem>
     </Contact:Sales>
     <Contact:Chats xsi:type="Contact:ArrayOfChatSummaryItem">
@@ -177,8 +175,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Contact:CompanyName xsi:type="xsd:string"></Contact:CompanyName>
       <Contact:FirstMessage xsi:type="xsd:string"></Contact:FirstMessage>
       <Contact:LastMessage xsi:type="xsd:string"></Contact:LastMessage>
-      <Contact:WhenRequested xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</Contact:WhenRequested>
-      <Contact:WhenEnded xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</Contact:WhenEnded>
+      <Contact:WhenRequested xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</Contact:WhenRequested>
+      <Contact:WhenEnded xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</Contact:WhenEnded>
      </Contact:ChatSummaryItem>
     </Contact:Chats>
    </Contact:Response>
@@ -187,3 +185,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

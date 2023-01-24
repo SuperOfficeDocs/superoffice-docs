@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.CreateDefaultD
 
 ## CreateDefaultDocumentTemplateEntity
 
-Loading default values into a new DocumentTemplateEntity.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New DocumentTemplateEntity with default values
+
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -46,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultDocumentTemplateEntity Response
 
@@ -88,3 +88,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -484,62 +484,35 @@ title: Services84.MarketingAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Marketing">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Marketing</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultFormEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new FormEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/CreateDefaultFormEntity" name="CreateDefaultFormEntityRequest" message="tns:CreateDefaultFormEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/CreateDefaultFormEntityResponse" name="CreateDefaultFormEntityResponse" message="tns:CreateDefaultFormEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveFormEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing FormEntity or creates a new FormEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/SaveFormEntity" name="SaveFormEntityRequest" message="tns:SaveFormEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/SaveFormEntityResponse" name="SaveFormEntityResponse" message="tns:SaveFormEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteFormEntity">
-      <wsdl:documentation>
-        <summary>Deletes the FormEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/DeleteFormEntity" name="DeleteFormEntityRequest" message="tns:DeleteFormEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/DeleteFormEntityResponse" name="DeleteFormEntityResponse" message="tns:DeleteFormEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultFormSubmissionEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new FormSubmissionEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/CreateDefaultFormSubmissionEntity" name="CreateDefaultFormSubmissionEntityRequest" message="tns:CreateDefaultFormSubmissionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/CreateDefaultFormSubmissionEntityResponse" name="CreateDefaultFormSubmissionEntityResponse" message="tns:CreateDefaultFormSubmissionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveFormSubmissionEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/SaveFormSubmissionEntity" name="SaveFormSubmissionEntityRequest" message="tns:SaveFormSubmissionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/SaveFormSubmissionEntityResponse" name="SaveFormSubmissionEntityResponse" message="tns:SaveFormSubmissionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteFormSubmissionEntity">
-      <wsdl:documentation>
-        <summary>Deletes the FormSubmissionEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/DeleteFormSubmissionEntity" name="DeleteFormSubmissionEntityRequest" message="tns:DeleteFormSubmissionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/DeleteFormSubmissionEntityResponse" name="DeleteFormSubmissionEntityResponse" message="tns:DeleteFormSubmissionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFormEntity">
-      <wsdl:documentation>
-        <summary>Gets a FormEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/GetFormEntity" name="GetFormEntityRequest" message="tns:GetFormEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/GetFormEntityResponse" name="GetFormEntityResponse" message="tns:GetFormEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFormSubmissionEntity">
-      <wsdl:documentation>
-        <summary>Gets a FormSubmissionEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/GetFormSubmissionEntity" name="GetFormSubmissionEntityRequest" message="tns:GetFormSubmissionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Marketing/GetFormSubmissionEntityResponse" name="GetFormSubmissionEntityResponse" message="tns:GetFormSubmissionEntityResponse" />
     </wsdl:operation>
@@ -682,3 +655,4 @@ title: Services84.MarketingAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

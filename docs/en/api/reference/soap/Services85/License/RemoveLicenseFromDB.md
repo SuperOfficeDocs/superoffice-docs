@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ILicenseAgent.RemoveLicen
 
 ## RemoveLicenseFromDB
 
-Remove the license from a particular module owner from the database.  It is not permitted to remove licenses from SuperOffice
 
-* **moduleOwner:** Name of the module owner to remove license from.
+
+
 
 [WSDL file for Services85/License](../Services85-License.md)
 
@@ -48,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RemoveLicenseFromDB Response
 
 ```xml
@@ -72,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

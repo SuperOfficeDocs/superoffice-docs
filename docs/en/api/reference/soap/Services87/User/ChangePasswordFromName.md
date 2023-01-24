@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.ChangePassword
 
 ## ChangePasswordFromName
 
-Change password for a user.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **associateName:** Username of the user to change password for.
-* **oldPassword:** The current password of the user.  Administrators can leave this blank to force a new password upon a user.
-* **newPassword:** The new password for the user
 
-**Returns:** True if the password was successfully changed.
+
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -54,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangePasswordFromName Response
 
 ```xml
@@ -74,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

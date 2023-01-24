@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IMarketingAgent.GetShipme
 
 ## GetShipmentMessageEntity
 
-Gets a ShipmentMessageEntity object.
 
-* **shipmentMessageEntityId:** The identifier of the ShipmentMessageEntity object
 
-**Returns:** ShipmentMessageEntity
+
 
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetShipmentMessageEntity Response
 
 ```xml
@@ -78,9 +77,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:LongDescription xsi:type="xsd:string"></Marketing:LongDescription>
     <Marketing:AccessKey xsi:type="xsd:string"></Marketing:AccessKey>
     <Marketing:DocumentMessage xsi:type="xsd:int">0</Marketing:DocumentMessage>
-    <Marketing:Registered xsi:type="xsd:dateTime">2022-08-26T08:59:55Z</Marketing:Registered>
+    <Marketing:Registered xsi:type="xsd:dateTime">2023-01-23T10:21:24Z</Marketing:Registered>
     <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-    <Marketing:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:55Z</Marketing:Updated>
+    <Marketing:Updated xsi:type="xsd:dateTime">2023-01-23T10:21:24Z</Marketing:Updated>
     <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
     <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
    </Marketing:Response>
@@ -89,3 +88,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.CreateOrUpdat
 
 ## CreateOrUpdateQuoteVersionAttachments
 
-Look at the Quote version, related sale and sale type, and ensure that the correct QuoteVersionAttachment records exist. This method may create or delete records
 
-* **quoteVersionId:** The ID of the quote version
 
-**Returns:** The current attachments for the given Quote version, after all updates have been completed
+
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateOrUpdateQuoteVersionAttachments Response
 
 ```xml
@@ -74,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

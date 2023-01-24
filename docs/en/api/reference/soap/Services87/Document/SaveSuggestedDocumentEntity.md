@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.SaveSugges
 
 ## SaveSuggestedDocumentEntity
 
-Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentEntity if the id parameter is 0.
 
-* **suggestedDocumentEntity:** The SuggestedDocumentEntity that is saved.
 
-**Returns:** New or updated SuggestedDocumentEntity
+
 
 [WSDL file for Services87/Document](../Services87-Document.md)
 
@@ -90,6 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveSuggestedDocumentEntity Response
 
 ```xml
@@ -151,3 +150,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

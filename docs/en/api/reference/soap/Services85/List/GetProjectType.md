@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetProjectType
 
 ## GetProjectType
 
-Gets a ProjectType object.
 
-* **projectTypeId:** The identifier of the ProjectType object
 
-**Returns:** ProjectType
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetProjectType Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.GetAllAvailab
 
 ## GetAllAvailableQuoteConnections
 
-Get all available connections. Some installed connections may not be available to the user. Use GetAllAvailableQuoteConnectionsWithPriceLists if you need the pricelists on the connections as well.
 
-**Returns:** List of connections
+
+
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
@@ -45,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAllAvailableQuoteConnections Response
 
@@ -106,8 +107,8 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Quote:Description xsi:type="xsd:string"></Quote:Description>
        <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
        <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-       <Quote:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:57:50Z</Quote:ValidFrom>
-       <Quote:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:57:50Z</Quote:ValidTo>
+       <Quote:ValidFrom xsi:type="xsd:dateTime">2023-01-23T10:19:24Z</Quote:ValidFrom>
+       <Quote:ValidTo xsi:type="xsd:dateTime">2023-01-23T10:19:24Z</Quote:ValidTo>
        <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
       </Quote:PriceList>
      </Quote:PriceLists>
@@ -126,3 +127,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

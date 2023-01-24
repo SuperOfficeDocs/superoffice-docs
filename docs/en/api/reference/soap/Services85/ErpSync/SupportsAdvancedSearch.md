@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.SupportsAdv
 
 ## SupportsAdvancedSearch
 
-Indicates if the connection supports advanced search for the given erp actor
 
-* **erpConnectionId:** Ths id of the connection
-* **erpActorType:** The erp actor type to check for
 
-**Returns:** True if advanced search is supported
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SupportsAdvancedSearch Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

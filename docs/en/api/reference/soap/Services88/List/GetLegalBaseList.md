@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetLegalBaseLi
 
 ## GetLegalBaseList
 
-Gets an array of LegalBase objects.
 
-* **legalBaseIds:** The identifiers of the LegalBase object
 
-**Returns:** Array of LegalBase objects
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetLegalBaseList Response
 
 ```xml
@@ -80,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

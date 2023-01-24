@@ -11,7 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetEm
 
 ## GetEmailNumberOfDays
 
-**Returns:** Number of days in the past for which we are fetching email
+
+
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -44,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetEmailNumberOfDays Response
 
 ```xml
@@ -64,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IContactAgent.GetContact"
 
 ## GetContact
 
-Gets a Contact object.
 
-* **contactId:** The identifier of the Contact object
 
-**Returns:** Contact
+
 
 [WSDL file for Services84/Contact](../Services84-Contact.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetContact Response
 
@@ -107,3 +106,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

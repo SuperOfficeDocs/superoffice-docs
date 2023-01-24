@@ -153,13 +153,7 @@ title: Services86.TooltipsAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Tooltips">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Tooltips</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetTooltip">
-      <wsdl:documentation>
-        <summary>Parse a tooltip hint and return a tooltip. The returned tooltip string may contain resource string identifiers (in square brackets), to be processed by the resource manager.&lt;para /&gt;The tooltip hint is either a literal text, representing itself, or a set of key/value pairs enclosed in curly braces. Each key is separated from its value by an equals sign, and each pair from the next by an ampersand, according to usual conventions.&lt;para /&gt;A typical tooltip hint could be {contact_id=123} or {appointment_id=222&amp;amp;mode=simple}</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Tooltips/GetTooltip" name="GetTooltipRequest" message="tns:GetTooltipRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Tooltips/GetTooltipResponse" name="GetTooltipResponse" message="tns:GetTooltipResponse" />
     </wsdl:operation>
@@ -190,3 +184,4 @@ title: Services86.TooltipsAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

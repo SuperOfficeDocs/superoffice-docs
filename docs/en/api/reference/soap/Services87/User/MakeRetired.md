@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.MakeRetired">S
 
 ## MakeRetired
 
-Retiring a user means to remove all licenses, setting person.retired=1 and associate.deleted=1. Unretiering a user means setting  person.retired=0 and associate.deleted=0
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **associateId:**
-* **retired:**
+
+
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MakeRetired Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

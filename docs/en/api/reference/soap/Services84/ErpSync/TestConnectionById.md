@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.TestConnect
 
 ## TestConnectionById
 
-Tests to see if we can establish a connection with the given config fields
 
-* **erpConnectionId:** The id of the connection
 
-**Returns:** Returns true if success
+
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## TestConnectionById Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

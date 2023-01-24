@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.CreateDefaultD
 
 ## CreateDefaultDashTile
 
-Loading default values into a new DashTile.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New DashTile with default values
+
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -46,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultDashTile Response
 
@@ -94,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

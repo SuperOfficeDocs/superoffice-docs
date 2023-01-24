@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetDocumentTem
 
 ## GetDocumentTemplateProperties
 
-Get document template properties
 
-* **documentTemplateId:** The primary key id of the document template
-* **requestedProperties:** An array of properties to get the values for
 
-**Returns:** Dictionary of key=value pairs of requested properties
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDocumentTemplateProperties Response
 
 ```xml
@@ -78,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

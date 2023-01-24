@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.SaveHeadingFro
 
 ## SaveHeadingFromListDefinition
 
-Save new heading for list resolved by the provided id.
 
-* **id:** The id of the list to look up.
-* **entity:** The new heading to save
 
-**Returns:** The saved entity.
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -58,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveHeadingFromListDefinition Response
 
 ```xml
@@ -85,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

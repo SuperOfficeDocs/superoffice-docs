@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAudienceAgent.DeleteConf
 
 ## DeleteConfigParameter
 
-Deletes an Audience configuration parameter belonging to a Audience layout
 
-* **layoutName:** Name of the Audience layout instance
-* **parameterName:** The name of the Audience configuration parameter
+
+
 
 [WSDL file for Services86/Audience](../Services86-Audience.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteConfigParameter Response
 
 ```xml
@@ -66,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

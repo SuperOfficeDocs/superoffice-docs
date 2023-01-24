@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISaintAgent.CreateDefault
 
 ## CreateDefaultStatusMonitorPeriods
 
-Loading default values into a new StatusMonitorPeriods.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New StatusMonitorPeriods with default values
+
+
 
 [WSDL file for Services85/Saint](../Services85-Saint.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultStatusMonitorPeriods Response
 
 ```xml
@@ -71,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

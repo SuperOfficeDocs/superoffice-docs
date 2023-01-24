@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.MoveToFolder"
 
 ## MoveToFolder
 
-Moved specified items from current folder to targetFolder
 
-* **connectionInfo:** All information needed to connect to the mailserver
-* **messageServerIds:** The e-mails to handle
-* **targetFolder:** Name of folder to move items to
+
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -59,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MoveToFolder Response
 
 ```xml
@@ -78,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

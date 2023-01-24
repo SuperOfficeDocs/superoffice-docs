@@ -11,7 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISaleAgent.HasGuideActivi
 
 ## HasGuideActivities
 
-* **saleId:**
+
+
+
 
 [WSDL file for Services86/Sale](../Services86-Sale.md)
 
@@ -45,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## HasGuideActivities Response
 
 ```xml
@@ -65,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

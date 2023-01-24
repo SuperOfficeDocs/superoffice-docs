@@ -613,62 +613,35 @@ title: Services88.DatabaseTableAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="DatabaseTable">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for DatabaseTable</summary>
-    </wsdl:documentation>
     <wsdl:operation name="ReadRow">
-      <wsdl:documentation>
-        <summary>Read a row from a table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/ReadRow" name="ReadRowRequest" message="tns:ReadRowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/ReadRowResponse" name="ReadRowResponse" message="tns:ReadRowResponse" />
     </wsdl:operation>
     <wsdl:operation name="InsertRow">
-      <wsdl:documentation>
-        <summary>Insert a row into a table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/InsertRow" name="InsertRowRequest" message="tns:InsertRowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/InsertRowResponse" name="InsertRowResponse" message="tns:InsertRowResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateRow">
-      <wsdl:documentation>
-        <summary>Update a row in a table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/UpdateRow" name="UpdateRowRequest" message="tns:UpdateRowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/UpdateRowResponse" name="UpdateRowResponse" message="tns:UpdateRowResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteRow">
-      <wsdl:documentation>
-        <summary>Delete a row from a table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/DeleteRow" name="DeleteRowRequest" message="tns:DeleteRowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/DeleteRowResponse" name="DeleteRowResponse" message="tns:DeleteRowResponse" />
     </wsdl:operation>
     <wsdl:operation name="Insert">
-      <wsdl:documentation>
-        <summary>Mass-insert rows, with or without primary keys specified. Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/Insert" name="InsertRequest" message="tns:InsertRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/InsertResponse" name="InsertResponse" message="tns:InsertResponse" />
     </wsdl:operation>
     <wsdl:operation name="Truncate">
-      <wsdl:documentation>
-        <summary>Drop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/Truncate" name="TruncateRequest" message="tns:TruncateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/TruncateResponse" name="TruncateResponse" message="tns:TruncateResponse" />
     </wsdl:operation>
     <wsdl:operation name="Upsert">
-      <wsdl:documentation>
-        <summary>Insert or update rows, optionally deleting/zeroing 'leftover' rows. Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/Upsert" name="UpsertRequest" message="tns:UpsertRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/UpsertResponse" name="UpsertResponse" message="tns:UpsertResponse" />
     </wsdl:operation>
     <wsdl:operation name="Delete">
-      <wsdl:documentation>
-        <summary>Delete rows, by primary key; traveltransactionlog and WebHooks are supported</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/Delete" name="DeleteRequest" message="tns:DeleteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/DeleteResponse" name="DeleteResponse" message="tns:DeleteResponse" />
     </wsdl:operation>
@@ -811,3 +784,4 @@ title: Services88.DatabaseTableAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

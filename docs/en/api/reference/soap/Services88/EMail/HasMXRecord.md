@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.HasMXRecord">
 
 ## HasMXRecord
 
-Return true if there is one or more MX records in DNS for the given mail domain
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **mailDomain:** The mail domain to check. Normally this is the part after @ in an email address
 
-**Returns:** True if there is at least one MX record
+
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## HasMXRecord Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

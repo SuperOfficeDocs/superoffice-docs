@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetCo
 
 ## GetConfigurableScreenDeltasByQuery
 
-This method will return a configurablescreen delta matching the properties received from the incomming query
 
-* **deltaQuery:** An object populated with wanted properties for the deltas to return
 
-**Returns:** An array of deltas matching the values of the incomming query
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -60,6 +58,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetConfigurableScreenDeltasByQuery Response
 
 ```xml
@@ -83,8 +82,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Configuration:DeltaType xsi:type="Configuration:DeltaType">Unknown</Configuration:DeltaType>
      <Configuration:DeltaState xsi:type="Configuration:DeltaState">Unknown</Configuration:DeltaState>
      <Configuration:RecipeId xsi:type="xsd:string"></Configuration:RecipeId>
-     <Configuration:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Configuration:UpdatedDate>
-     <Configuration:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Configuration:CreatedDate>
+     <Configuration:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:20:14Z</Configuration:UpdatedDate>
+     <Configuration:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:20:14Z</Configuration:CreatedDate>
      <Configuration:UpdatedBy xsi:type="Configuration:Associate">
       <Configuration:AssociateId xsi:type="xsd:int">0</Configuration:AssociateId>
       <Configuration:Name xsi:type="xsd:string"></Configuration:Name>
@@ -124,3 +123,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

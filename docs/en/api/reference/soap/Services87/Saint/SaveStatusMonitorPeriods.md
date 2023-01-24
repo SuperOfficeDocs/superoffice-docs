@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISaintAgent.SaveStatusMon
 
 ## SaveStatusMonitorPeriods
 
-Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is 0.
 
-* **statusMonitorPeriods:** The StatusMonitorPeriods that is saved.
 
-**Returns:** New or updated StatusMonitorPeriods
+
 
 [WSDL file for Services87/Saint](../Services87-Saint.md)
 
@@ -53,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveStatusMonitorPeriods Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

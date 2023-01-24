@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IReportAgent.CreateDefaul
 
 ## CreateDefaultReportLabelLayoutEntity
 
-Loading default values into a new ReportLabelLayoutEntity.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New ReportLabelLayoutEntity with default values
+
+
 
 [WSDL file for Services85/Report](../Services85-Report.md)
 
@@ -46,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultReportLabelLayoutEntity Response
 
@@ -80,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

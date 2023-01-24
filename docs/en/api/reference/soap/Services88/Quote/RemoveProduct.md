@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.RemoveProduct
 
 ## RemoveProduct
 
-Removes a product from the database
 
-* **productId:** The database id of the product to remove
+
+
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RemoveProduct Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

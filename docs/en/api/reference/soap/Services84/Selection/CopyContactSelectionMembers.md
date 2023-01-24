@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.CopyConta
 
 ## CopyContactSelectionMembers
 
-Copy contact selection members from selection into an existing selection.
 
-* **fromSelectionId:** The id of the selection to copy members from.
-* **toSelectionId:** The id of the selection to copy members to.
+
+
 
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CopyContactSelectionMembers Response
 
 ```xml
@@ -68,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

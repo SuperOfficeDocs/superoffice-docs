@@ -11,16 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IForeignSystemAgent.GetKe
 
 ## GetKeyByValueAndIdentifier
 
-Get a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.
 
-* **applicationName:** The name of the foreign application.
-* **deviceName:** The name of the foreign device.
-* **deviceIdentifier:** The device identifier. Optional if device identifier is not used.
-* **keyName:** The name of the foreign key.
-* **keyValue:** Foreignkey value
-* **tableName:** Table name, transformed to and from numeric table id by the service layer.<p />Use an empty string to indicate that your key is not bound to any specific table.
 
-**Returns:** The ForeignKey.
+
 
 [WSDL file for Services85/ForeignSystem](../Services85-ForeignSystem.md)
 
@@ -58,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetKeyByValueAndIdentifier Response
 
 ```xml
@@ -75,8 +69,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <ForeignSystem:Key xsi:type="xsd:string"></ForeignSystem:Key>
     <ForeignSystem:Value xsi:type="xsd:string"></ForeignSystem:Value>
     <ForeignSystem:RecordId xsi:type="xsd:int">0</ForeignSystem:RecordId>
-    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:53:03Z</ForeignSystem:CreatedDate>
-    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:53:03Z</ForeignSystem:UpdatedDate>
+    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:14:50Z</ForeignSystem:CreatedDate>
+    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:14:50Z</ForeignSystem:UpdatedDate>
     <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
     <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
     <ForeignSystem:TableName xsi:type="xsd:string"></ForeignSystem:TableName>
@@ -86,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

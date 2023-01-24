@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/Batch
 
 Handled by the <see cref="T:SuperOffice.Services84.IBatchAgent">SuperOffice.Services84.IBatchAgent</see> interface.
 
-Interface for the Batch Agent
-Start, stop and monitor predefined batch tasks
+
 
 Download [WSDL file for Services84/Batch](../Services84-Batch.md) if you need to generate your own proxy code.
 
@@ -26,3 +25,4 @@ Download [WSDL file for Services84/Batch](../Services84-Batch.md) if you need to
 * [StartBatchJob](StartBatchJob.md)
 * [StopBatchJob](StopBatchJob.md)
 * [UpdateBatchTask](UpdateBatchTask.md)
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISelectionAgent.CreateTem
 
 ## CreateTemporaryContactSelectionFromContactPersonIds
 
-Creates a temporary selection with members from a collection of ContactPerson id's.
 
-* **contactPersonIds:** A collection of ContactPersonId to copy into the temporary contact selection as members.
 
-**Returns:** Returns the newly created SelectionEntity.
+
 
 [WSDL file for Services86/Selection](../Services86-Selection.md)
 
@@ -53,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateTemporaryContactSelectionFromContactPersonIds Response
 
@@ -123,12 +122,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:MemberCount xsi:type="xsd:unsignedInt">0</Selection:MemberCount>
     <Selection:Name xsi:type="xsd:string"></Selection:Name>
     <Selection:PostitTextId xsi:type="xsd:int">0</Selection:PostitTextId>
-    <Selection:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:55:51Z</Selection:CreatedDate>
+    <Selection:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:17:30Z</Selection:CreatedDate>
     <Selection:SelectionId xsi:type="xsd:int">0</Selection:SelectionId>
     <Selection:SoundEx xsi:type="xsd:string"></Selection:SoundEx>
     <Selection:Source xsi:type="xsd:short">0</Selection:Source>
     <Selection:TextId xsi:type="xsd:int">0</Selection:TextId>
-    <Selection:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:55:51Z</Selection:UpdatedDate>
+    <Selection:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:17:30Z</Selection:UpdatedDate>
     <Selection:UpdatedCount xsi:type="xsd:short">0</Selection:UpdatedCount>
     <Selection:Visibility xsi:type="xsd:short">0</Selection:Visibility>
     <Selection:SelectionType xsi:type="Selection:SelectionType">Static</Selection:SelectionType>
@@ -152,3 +151,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

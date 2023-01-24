@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.Sav
 
 ## SaveSystemTemplateSettings
 
-Saves and validates updated system templates. Throws exception if validation fails
 
-* **systemTemplateSettings:** System template settings item with updated values
 
-**Returns:** Updated system template settings
+
 
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
@@ -71,6 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveSystemTemplateSettings Response
 
 ```xml
@@ -113,3 +112,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

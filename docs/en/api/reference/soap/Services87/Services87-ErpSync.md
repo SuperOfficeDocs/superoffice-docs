@@ -2030,314 +2030,179 @@ title: Services87.ErpSyncAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="ErpSync">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for ErpSync</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultErpSyncConnectorEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ErpSyncConnectorEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/CreateDefaultErpSyncConnectorEntity" name="CreateDefaultErpSyncConnectorEntityRequest" message="tns:CreateDefaultErpSyncConnectorEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/CreateDefaultErpSyncConnectorEntityResponse" name="CreateDefaultErpSyncConnectorEntityResponse" message="tns:CreateDefaultErpSyncConnectorEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveErpSyncConnectorEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SaveErpSyncConnectorEntity" name="SaveErpSyncConnectorEntityRequest" message="tns:SaveErpSyncConnectorEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SaveErpSyncConnectorEntityResponse" name="SaveErpSyncConnectorEntityResponse" message="tns:SaveErpSyncConnectorEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteErpSyncConnectorEntity">
-      <wsdl:documentation>
-        <summary>Deletes the ErpSyncConnectorEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/DeleteErpSyncConnectorEntity" name="DeleteErpSyncConnectorEntityRequest" message="tns:DeleteErpSyncConnectorEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/DeleteErpSyncConnectorEntityResponse" name="DeleteErpSyncConnectorEntityResponse" message="tns:DeleteErpSyncConnectorEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetActorTypeMapping">
-      <wsdl:documentation>
-        <summary>Get the current mappings for one connection/actor; connection+actor type = unique key</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetActorTypeMapping" name="GetActorTypeMappingRequest" message="tns:GetActorTypeMappingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetActorTypeMappingResponse" name="GetActorTypeMappingResponse" message="tns:GetActorTypeMappingResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateActorLink">
-      <wsdl:documentation>
-        <summary>Link a crm entity to an erp entity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/CreateActorLink" name="CreateActorLinkRequest" message="tns:CreateActorLinkRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/CreateActorLinkResponse" name="CreateActorLinkResponse" message="tns:CreateActorLinkResponse" />
     </wsdl:operation>
     <wsdl:operation name="BreakActorLink">
-      <wsdl:documentation>
-        <summary>Remove the link between a CRM entity and an ERP entity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/BreakActorLink" name="BreakActorLinkRequest" message="tns:BreakActorLinkRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/BreakActorLinkResponse" name="BreakActorLinkResponse" message="tns:BreakActorLinkResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateErpActorFromCrm">
-      <wsdl:documentation>
-        <summary>Create ErpActor from crm entity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/CreateErpActorFromCrm" name="CreateErpActorFromCrmRequest" message="tns:CreateErpActorFromCrmRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/CreateErpActorFromCrmResponse" name="CreateErpActorFromCrmResponse" message="tns:CreateErpActorFromCrmResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveActorTypeMapping">
-      <wsdl:documentation>
-        <summary>Save mappings for a connection/actor</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SaveActorTypeMapping" name="SaveActorTypeMappingRequest" message="tns:SaveActorTypeMappingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SaveActorTypeMappingResponse" name="SaveActorTypeMappingResponse" message="tns:SaveActorTypeMappingResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateArchiveColumnConfig">
-      <wsdl:documentation>
-        <summary>Clear field info from table SUPERLISTCOLUMNSIZE if field mapping changed on given connection</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ValidateArchiveColumnConfig" name="ValidateArchiveColumnConfigRequest" message="tns:ValidateArchiveColumnConfigRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ValidateArchiveColumnConfigResponse" name="ValidateArchiveColumnConfigResponse" message="tns:ValidateArchiveColumnConfigResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateConnectionFields">
-      <wsdl:documentation>
-        <summary>Gets all supported actor types, and all fields for each actor type, and save this state to the CRM database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/UpdateConnectionFields" name="UpdateConnectionFieldsRequest" message="tns:UpdateConnectionFieldsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/UpdateConnectionFieldsResponse" name="UpdateConnectionFieldsResponse" message="tns:UpdateConnectionFieldsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCrmActorType">
-      <wsdl:documentation>
-        <summary>Retrieves the CrmActorType that are mapped to a specific ErpActorType for this connection</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetCrmActorType" name="GetCrmActorTypeRequest" message="tns:GetCrmActorTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetCrmActorTypeResponse" name="GetCrmActorTypeResponse" message="tns:GetCrmActorTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEngineStatus">
-      <wsdl:documentation>
-        <summary>Get the current status of the Sync engine</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetEngineStatus" name="GetEngineStatusRequest" message="tns:GetEngineStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetEngineStatusResponse" name="GetEngineStatusResponse" message="tns:GetEngineStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeEngineStatus">
-      <wsdl:documentation>
-        <summary>Change the current running/stopped status of the Sync engine</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ChangeEngineStatus" name="ChangeEngineStatusRequest" message="tns:ChangeEngineStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ChangeEngineStatusResponse" name="ChangeEngineStatusResponse" message="tns:ChangeEngineStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeEngineInterval">
-      <wsdl:documentation>
-        <summary>Change the interval for each run of the Sync Engine</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ChangeEngineInterval" name="ChangeEngineIntervalRequest" message="tns:ChangeEngineIntervalRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ChangeEngineIntervalResponse" name="ChangeEngineIntervalResponse" message="tns:ChangeEngineIntervalResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetErpSyncConnectorEntity">
-      <wsdl:documentation>
-        <summary>Gets a ErpSyncConnectorEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetErpSyncConnectorEntity" name="GetErpSyncConnectorEntityRequest" message="tns:GetErpSyncConnectorEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetErpSyncConnectorEntityResponse" name="GetErpSyncConnectorEntityResponse" message="tns:GetErpSyncConnectorEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CanDeleteErpSyncConnectorEntity">
-      <wsdl:documentation>
-        <summary>Can we delete the connector?</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/CanDeleteErpSyncConnectorEntity" name="CanDeleteErpSyncConnectorEntityRequest" message="tns:CanDeleteErpSyncConnectorEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/CanDeleteErpSyncConnectorEntityResponse" name="CanDeleteErpSyncConnectorEntityResponse" message="tns:CanDeleteErpSyncConnectorEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="TestConnectorUrl">
-      <wsdl:documentation>
-        <summary>Test if connector urls anwers</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/TestConnectorUrl" name="TestConnectorUrlRequest" message="tns:TestConnectorUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/TestConnectorUrlResponse" name="TestConnectorUrlResponse" message="tns:TestConnectorUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetErpSyncConnectionSummary">
-      <wsdl:documentation>
-        <summary>Get a summary of the current ErpSync configuration/setup</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetErpSyncConnectionSummary" name="GetErpSyncConnectionSummaryRequest" message="tns:GetErpSyncConnectionSummaryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetErpSyncConnectionSummaryResponse" name="GetErpSyncConnectionSummaryResponse" message="tns:GetErpSyncConnectionSummaryResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDefaultValueInfo">
-      <wsdl:documentation>
-        <summary>Save information about a default value for an ERP field</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SaveDefaultValueInfo" name="SaveDefaultValueInfoRequest" message="tns:SaveDefaultValueInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SaveDefaultValueInfoResponse" name="SaveDefaultValueInfoResponse" message="tns:SaveDefaultValueInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDefaultValueInfo">
-      <wsdl:documentation>
-        <summary>Get information about default value for an ERP field</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetDefaultValueInfo" name="GetDefaultValueInfoRequest" message="tns:GetDefaultValueInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetDefaultValueInfoResponse" name="GetDefaultValueInfoResponse" message="tns:GetDefaultValueInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConnectionsAndDisplayFields">
-      <wsdl:documentation>
-        <summary>Get all connection statuses and fields for a given entity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetConnectionsAndDisplayFields" name="GetConnectionsAndDisplayFieldsRequest" message="tns:GetConnectionsAndDisplayFieldsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetConnectionsAndDisplayFieldsResponse" name="GetConnectionsAndDisplayFieldsResponse" message="tns:GetConnectionsAndDisplayFieldsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetErpFieldValues">
-      <wsdl:documentation>
-        <summary>Get the values for the specified fields from the ERP connection</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetErpFieldValues" name="GetErpFieldValuesRequest" message="tns:GetErpFieldValuesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetErpFieldValuesResponse" name="GetErpFieldValuesResponse" message="tns:GetErpFieldValuesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFieldsForNewErpActor">
-      <wsdl:documentation>
-        <summary>Get the fields that must be filled out when creating a new ERP actor</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetFieldsForNewErpActor" name="GetFieldsForNewErpActorRequest" message="tns:GetFieldsForNewErpActorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetFieldsForNewErpActorResponse" name="GetFieldsForNewErpActorResponse" message="tns:GetFieldsForNewErpActorResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConnection">
-      <wsdl:documentation>
-        <summary>Returns the specified connection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetConnection" name="GetConnectionRequest" message="tns:GetConnectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetConnectionResponse" name="GetConnectionResponse" message="tns:GetConnectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveConnection">
-      <wsdl:documentation>
-        <summary>Saves a connection to the database.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SaveConnection" name="SaveConnectionRequest" message="tns:SaveConnectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SaveConnectionResponse" name="SaveConnectionResponse" message="tns:SaveConnectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteConnection">
-      <wsdl:documentation>
-        <summary>Deletes a connection from the database.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/DeleteConnection" name="DeleteConnectionRequest" message="tns:DeleteConnectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/DeleteConnectionResponse" name="DeleteConnectionResponse" message="tns:DeleteConnectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConfigurationFields">
-      <wsdl:documentation>
-        <summary>Returns all fields needed to connect to the given connector</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetConfigurationFields" name="GetConfigurationFieldsRequest" message="tns:GetConfigurationFieldsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetConfigurationFieldsResponse" name="GetConfigurationFieldsResponse" message="tns:GetConfigurationFieldsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetErpConnectionConfigFields">
-      <wsdl:documentation>
-        <summary>Returns the config fields for the connection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetErpConnectionConfigFields" name="GetErpConnectionConfigFieldsRequest" message="tns:GetErpConnectionConfigFieldsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetErpConnectionConfigFieldsResponse" name="GetErpConnectionConfigFieldsResponse" message="tns:GetErpConnectionConfigFieldsResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleErpConnectionActive">
-      <wsdl:documentation>
-        <summary>Toggles the Active state of the connection</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ToggleErpConnectionActive" name="ToggleErpConnectionActiveRequest" message="tns:ToggleErpConnectionActiveRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ToggleErpConnectionActiveResponse" name="ToggleErpConnectionActiveResponse" message="tns:ToggleErpConnectionActiveResponse" />
     </wsdl:operation>
     <wsdl:operation name="TestConnectionById">
-      <wsdl:documentation>
-        <summary>Tests to see if we can establish a connection with the given config fields</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/TestConnectionById" name="TestConnectionByIdRequest" message="tns:TestConnectionByIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/TestConnectionByIdResponse" name="TestConnectionByIdResponse" message="tns:TestConnectionByIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="TestConnectionByConfig">
-      <wsdl:documentation>
-        <summary>Tests to see if the given connection has a valid connection to its connector</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/TestConnectionByConfig" name="TestConnectionByConfigRequest" message="tns:TestConnectionByConfigRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/TestConnectionByConfigResponse" name="TestConnectionByConfigResponse" message="tns:TestConnectionByConfigResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveErpConnectionSyncPriorities">
-      <wsdl:documentation>
-        <summary>Takes an array of the ErpConnection ids and saves these as ordered sync priorities</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SaveErpConnectionSyncPriorities" name="SaveErpConnectionSyncPrioritiesRequest" message="tns:SaveErpConnectionSyncPrioritiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SaveErpConnectionSyncPrioritiesResponse" name="SaveErpConnectionSyncPrioritiesResponse" message="tns:SaveErpConnectionSyncPrioritiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="MoveErpFieldItem">
-      <wsdl:documentation>
-        <summary>Moves the rank of the erp field up or down</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/MoveErpFieldItem" name="MoveErpFieldItemRequest" message="tns:MoveErpFieldItemRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/MoveErpFieldItemResponse" name="MoveErpFieldItemResponse" message="tns:MoveErpFieldItemResponse" />
     </wsdl:operation>
     <wsdl:operation name="SupportsAdvancedSearch">
-      <wsdl:documentation>
-        <summary>Indicates if the connection supports advanced search for the given erp actor</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SupportsAdvancedSearch" name="SupportsAdvancedSearchRequest" message="tns:SupportsAdvancedSearchRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SupportsAdvancedSearchResponse" name="SupportsAdvancedSearchResponse" message="tns:SupportsAdvancedSearchResponse" />
     </wsdl:operation>
     <wsdl:operation name="ConnectActor">
-      <wsdl:documentation>
-        <summary>Create a link between Erp and Crm and set default values</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ConnectActor" name="ConnectActorRequest" message="tns:ConnectActorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ConnectActorResponse" name="ConnectActorResponse" message="tns:ConnectActorResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFieldValuesFromCrm">
-      <wsdl:documentation>
-        <summary>Get Crm Field values</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetFieldValuesFromCrm" name="GetFieldValuesFromCrmRequest" message="tns:GetFieldValuesFromCrmRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetFieldValuesFromCrmResponse" name="GetFieldValuesFromCrmResponse" message="tns:GetFieldValuesFromCrmResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFieldValuesFromErp">
-      <wsdl:documentation>
-        <summary>Get Erp Field values</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetFieldValuesFromErp" name="GetFieldValuesFromErpRequest" message="tns:GetFieldValuesFromErpRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetFieldValuesFromErpResponse" name="GetFieldValuesFromErpResponse" message="tns:GetFieldValuesFromErpResponse" />
     </wsdl:operation>
     <wsdl:operation name="SyncAll">
-      <wsdl:documentation>
-        <summary>Sync all active connections</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SyncAll" name="SyncAllRequest" message="tns:SyncAllRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SyncAllResponse" name="SyncAllResponse" message="tns:SyncAllResponse" />
     </wsdl:operation>
     <wsdl:operation name="ForceSyncAll">
-      <wsdl:documentation>
-        <summary>Sync all active connections even when automatic sync is off</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ForceSyncAll" name="ForceSyncAllRequest" message="tns:ForceSyncAllRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ForceSyncAllResponse" name="ForceSyncAllResponse" message="tns:ForceSyncAllResponse" />
     </wsdl:operation>
     <wsdl:operation name="ForceResync">
-      <wsdl:documentation>
-        <summary>Force resync from CRM or given Erp connection to all other connections</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ForceResync" name="ForceResyncRequest" message="tns:ForceResyncRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ForceResyncResponse" name="ForceResyncResponse" message="tns:ForceResyncResponse" />
     </wsdl:operation>
     <wsdl:operation name="ForceResyncBatchTask">
-      <wsdl:documentation>
-        <summary>Start batch task to force resync from CRM or given Erp connection to all other connections</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ForceResyncBatchTask" name="ForceResyncBatchTaskRequest" message="tns:ForceResyncBatchTaskRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ForceResyncBatchTaskResponse" name="ForceResyncBatchTaskResponse" message="tns:ForceResyncBatchTaskResponse" />
     </wsdl:operation>
     <wsdl:operation name="ForceResyncExternal">
-      <wsdl:documentation>
-        <summary>Start batch task to force resync from given Erp connection to all other connections, using external keys</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ForceResyncExternal" name="ForceResyncExternalRequest" message="tns:ForceResyncExternalRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/ForceResyncExternalResponse" name="ForceResyncExternalResponse" message="tns:ForceResyncExternalResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConnectionListMappings">
-      <wsdl:documentation>
-        <summary>Returns the listmappings for the specified connection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetConnectionListMappings" name="GetConnectionListMappingsRequest" message="tns:GetConnectionListMappingsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/GetConnectionListMappingsResponse" name="GetConnectionListMappingsResponse" message="tns:GetConnectionListMappingsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveConnectionListMappings">
-      <wsdl:documentation>
-        <summary>Saves a connection to the database.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SaveConnectionListMappings" name="SaveConnectionListMappingsRequest" message="tns:SaveConnectionListMappingsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ErpSync/SaveConnectionListMappingsResponse" name="SaveConnectionListMappingsResponse" message="tns:SaveConnectionListMappingsResponse" />
     </wsdl:operation>
@@ -3056,3 +2921,4 @@ title: Services87.ErpSyncAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IMarketingAgent.DeleteFor
 
 ## DeleteFormEntity
 
-Deletes the FormEntity
 
-* **formEntityId:** The identity of the FormEntity
+
+
 
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteFormEntity Response
 
 ```xml
@@ -64,3 +65,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.INumberAllocationAgent.Se
 
 ## SetNumberEachTemplate
 
-Saves true or false if Automatically create new counters for new document templates
 
-* **setValue:** true or false if Automatically create new counters for new document templates
 
-**Returns:** void
+
 
 [WSDL file for Services84/NumberAllocation](../Services84-NumberAllocation.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetNumberEachTemplate Response
 
 ```xml
@@ -66,3 +65,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

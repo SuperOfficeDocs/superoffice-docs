@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ITicketAgent.DeleteTicket
 
 ## DeleteTicketEntity
 
-Delete a ticket
 
-* **ticketEntityId:** The ticket to delete
 
-**Returns:** returns void
+
 
 [WSDL file for Services86/Ticket](../Services86-Ticket.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteTicketEntity Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

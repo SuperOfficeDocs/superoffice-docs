@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPocketAgent.Notification
 
 ## NotificationsHandled
 
-Mark a set of notifications as handled, so they can be cleaned up on other clients that have received the notification
 
-* **notificationEvents:** List of notifications to mark as handled
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services88/Pocket](../Services88-Pocket.md)
 
@@ -54,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## NotificationsHandled Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPersonAgent.DeletePerson
 
 ## DeletePersonEntity
 
-Deletes the PersonEntity
 
-* **personEntityId:** The identity of the PersonEntity
+
+
 
 [WSDL file for Services84/Person](../Services84-Person.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeletePersonEntity Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

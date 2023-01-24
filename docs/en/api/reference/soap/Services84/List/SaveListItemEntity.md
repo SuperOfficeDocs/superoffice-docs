@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.SaveListItemEn
 
 ## SaveListItemEntity
 
-Save the ListItemEntity.
 
-* **listItemEntity:** The ListItemEntity to save.
 
-**Returns:** The saved ListItemEntity.
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -56,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveListItemEntity Response
 
 ```xml
@@ -83,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

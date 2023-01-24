@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.SaveTicketCate
 
 ## SaveTicketCategoryEntity
 
-Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity if the id parameter is 0.
 
-* **ticketCategoryEntity:** The TicketCategoryEntity that is saved.
 
-**Returns:** New or updated TicketCategoryEntity
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -75,6 +73,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveTicketCategoryEntity Response
 
 ```xml
@@ -121,3 +120,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

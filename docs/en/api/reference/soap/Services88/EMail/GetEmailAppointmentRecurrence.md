@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetEmailAppoi
 
 ## GetEmailAppointmentRecurrence
 
-Get recurrence data contained in the email iCal attachment
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **mailItemId:** Id identifying the email
 
-**Returns:** Recurrence information
+
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetEmailAppointmentRecurrence Response
 
 ```xml
@@ -66,8 +64,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <EMail:GetEmailAppointmentRecurrenceResponse>
    <EMail:Response xsi:type="EMail:RecurrenceInfo">
     <EMail:RecurrenceId xsi:type="xsd:int">0</EMail:RecurrenceId>
-    <EMail:StartDate xsi:type="xsd:dateTime">2022-08-26T08:59:21Z</EMail:StartDate>
-    <EMail:EndDate xsi:type="xsd:dateTime">2022-08-26T08:59:21Z</EMail:EndDate>
+    <EMail:StartDate xsi:type="xsd:dateTime">2023-01-23T10:20:51Z</EMail:StartDate>
+    <EMail:EndDate xsi:type="xsd:dateTime">2023-01-23T10:20:51Z</EMail:EndDate>
     <EMail:RecurrenceEndType xsi:type="EMail:RecurrenceEndType">Unknown</EMail:RecurrenceEndType>
     <EMail:Pattern xsi:type="EMail:RecurrencePattern">Unknown</EMail:Pattern>
     <EMail:DayPattern xsi:type="EMail:RecurrenceDayPattern">
@@ -94,7 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     </EMail:YearPattern>
     <EMail:Dates xsi:type="EMail:ArrayOfRecurrenceDate">
      <EMail:RecurrenceDate xsi:type="EMail:RecurrenceDate">
-      <EMail:Date xsi:type="xsd:dateTime">2022-08-26T08:59:21Z</EMail:Date>
+      <EMail:Date xsi:type="xsd:dateTime">2023-01-23T10:20:51Z</EMail:Date>
       <EMail:IsConflict xsi:type="xsd:boolean">false</EMail:IsConflict>
       <EMail:Description xsi:type="xsd:string"></EMail:Description>
       <EMail:DescriptionStyleHint xsi:type="xsd:string"></EMail:DescriptionStyleHint>
@@ -109,3 +107,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

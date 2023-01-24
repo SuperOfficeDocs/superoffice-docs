@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.ToggleSubscri
 
 ## ToggleSubscription
 
-Set subscription on or off on a set of folders
 
-* **folderId:** The folder id to set subscription value on
-* **subscriptionStatus:** The subscription status to set
+
+
 
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ToggleSubscription Response
 
 ```xml
@@ -68,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IProjectAgent.IsNumberVal
 
 ## IsNumberValid
 
-Checks if the number is unique or required.  The setting is configured from admin under system options.
 
-* **contactId:** The Project id
-* **number:** The number to check for uniqueness and validity
 
-**Returns:** True if the number is valid
+
 
 [WSDL file for Services84/Project](../Services84-Project.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## IsNumberValid Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

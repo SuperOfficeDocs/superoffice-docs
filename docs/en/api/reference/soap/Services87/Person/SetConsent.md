@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.SetConsent">
 
 ## SetConsent
 
-Set a specified type of consent on the person.
 
-* **personId:** The person id
-* **purpose:** The Key of the purpose this affects. e.g. 'STORE' or 'EMARKETING'.
-* **source:** The Key of the source of this consent. e.g. 'USER', 'WEBFORM' or 'API'.
-* **legalBase:** The Key of the legal base for this consent. e.g. '61A', '61B', '61F'
-* **comment:** A comment regarding this consent. May be null or empty.
+
+
 
 [WSDL file for Services87/Person](../Services87-Person.md)
 
@@ -55,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetConsent Response
 
 ```xml
@@ -74,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

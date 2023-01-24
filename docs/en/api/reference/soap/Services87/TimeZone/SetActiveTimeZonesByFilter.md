@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ITimeZoneAgent.SetActiveT
 
 ## SetActiveTimeZonesByFilter
 
-Toggles active state of a single row in the TZLocation table
 
-* **filter:** Filter timezones
-* **active:** Set active to true or false
+
+
 
 [WSDL file for Services87/TimeZone](../Services87-TimeZone.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetActiveTimeZonesByFilter Response
 
 ```xml
@@ -66,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

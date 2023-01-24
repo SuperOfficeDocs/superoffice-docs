@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.GetAllFunction
 
 ## GetAllFunctionalRights
 
-Get a list of all functional rights for the given type of role. MDO List name = 'FunctionRights', extra='roleType=0'
 
-* **roleType:** Type of role (Employee/External/Anonymous/System)
 
-**Returns:** FunctionRight items with name and description. Code name for function right is in the extra-info property.
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAllFunctionalRights Response
 
 ```xml
@@ -74,7 +73,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:ColorBlock xsi:type="xsd:int">0</User:ColorBlock>
      <User:IconHint xsi:type="xsd:string"></User:IconHint>
      <User:Selected xsi:type="xsd:boolean">false</User:Selected>
-     <User:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:53:56Z</User:LastChanged>
+     <User:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:15:41Z</User:LastChanged>
      <User:ChildItems xsi:type="User:ArrayOfSelectableMDOListItem">
       <User:SelectableMDOListItem xsi:type="User:SelectableMDOListItem">
        <User:Id xsi:type="xsd:int">0</User:Id>
@@ -86,7 +85,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <User:ColorBlock xsi:type="xsd:int">0</User:ColorBlock>
        <User:IconHint xsi:type="xsd:string"></User:IconHint>
        <User:Selected xsi:type="xsd:boolean">false</User:Selected>
-       <User:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:53:56Z</User:LastChanged>
+       <User:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:15:41Z</User:LastChanged>
        <User:ChildItems xsi:type="User:ArrayOfSelectableMDOListItem">
         <User:SelectableMDOListItem xsi:type="User:SelectableMDOListItem">
          <User:Id xsi:type="xsd:int">0</User:Id>
@@ -98,7 +97,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <User:ColorBlock xsi:type="xsd:int">0</User:ColorBlock>
          <User:IconHint xsi:type="xsd:string"></User:IconHint>
          <User:Selected xsi:type="xsd:boolean">false</User:Selected>
-         <User:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:53:56Z</User:LastChanged>
+         <User:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:15:41Z</User:LastChanged>
          <User:ChildItems xsi:type="User:ArrayOfSelectableMDOListItem">
           <User:SelectableMDOListItem xsi:nil="true"></User:SelectableMDOListItem>
          </User:ChildItems>
@@ -125,3 +124,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

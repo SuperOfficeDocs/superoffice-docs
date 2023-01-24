@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.GetParent
 
 ## GetParentCombinedSelections
 
-Get a list of all selection ids where the given selection is used to create a combined selection.
 
-* **selectionId:** The selectionId to query for.
 
-**Returns:** Array of selectionIds.
+
 
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetParentCombinedSelections Response
 
 ```xml
@@ -71,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

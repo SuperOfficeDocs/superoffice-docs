@@ -1111,6 +1111,8 @@ title: Services88.EMailAgent WSDL
               <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="IsOwnerContact" type="xs:boolean" />
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
+              <xs:element minOccurs="0" name="Number1" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Number2" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1460,6 +1462,21 @@ title: Services88.EMailAgent WSDL
         </xs:complexType>
       </xs:element>
       <xs:element name="HasMXRecordResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="HasSPFRecord">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SourceSpf" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="TargetDomain" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="HasSPFRecordResponse">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" type="xs:boolean" />
@@ -2214,26 +2231,40 @@ title: Services88.EMailAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetEmailsAsString">
+      <xs:element name="GetExtendedEmailMessageIds">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q230:EMailConnectionInfoExtended" xmlns:q230="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="MessageIds" nillable="true" type="q231:ArrayOfstring" xmlns:q231="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetExtendedEmailMessageIdsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q231:ArrayOfstring" xmlns:q231="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetEmailsAsString">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q232:EMailConnectionInfoExtended" xmlns:q232="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="MessageIds" nillable="true" type="q233:ArrayOfstring" xmlns:q233="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetEmailsAsStringResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q232:ArrayOfstring" xmlns:q232="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q234:ArrayOfstring" xmlns:q234="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="DeleteExtended">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q233:EMailConnectionInfoExtended" xmlns:q233="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="MessageIds" nillable="true" type="q234:ArrayOfstring" xmlns:q234="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q235:EMailConnectionInfoExtended" xmlns:q235="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="MessageIds" nillable="true" type="q236:ArrayOfstring" xmlns:q236="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2245,10 +2276,10 @@ title: Services88.EMailAgent WSDL
       <xs:element name="RelayMessage">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q235:EMailConnectionInfoExtended" xmlns:q235="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q237:EMailConnectionInfoExtended" xmlns:q237="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="Rfc822" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="From" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="Recipients" nillable="true" type="q236:ArrayOfstring" xmlns:q236="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Recipients" nillable="true" type="q238:ArrayOfstring" xmlns:q238="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2268,7 +2299,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEMailResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q237:EMailEntity" xmlns:q237="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q239:EMailEntity" xmlns:q239="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2283,14 +2314,14 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetUnsanitizedEMailResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q238:EMailEntity" xmlns:q238="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q240:EMailEntity" xmlns:q240="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="MarkEmailsAsRead">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Ids" nillable="true" type="q239:ArrayOfint" xmlns:q239="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Ids" nillable="true" type="q241:ArrayOfint" xmlns:q241="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Read" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -2303,7 +2334,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="DeleteEmails">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Ids" nillable="true" type="q240:ArrayOfint" xmlns:q240="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Ids" nillable="true" type="q242:ArrayOfint" xmlns:q242="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="MoveToFolder" nillable="true" type="xs:string" />
           </xs:sequence>
         </xs:complexType>
@@ -2316,7 +2347,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="MoveEmailsToTrash">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Ids" nillable="true" type="q241:ArrayOfint" xmlns:q241="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Ids" nillable="true" type="q243:ArrayOfint" xmlns:q243="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2328,56 +2359,56 @@ title: Services88.EMailAgent WSDL
       <xs:element name="Save">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Email" nillable="true" type="q242:EMailEntity" xmlns:q242="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Email" nillable="true" type="q244:EMailEntity" xmlns:q244="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q243:EMailEntity" xmlns:q243="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q245:EMailEntity" xmlns:q245="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveToMailServer">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Email" nillable="true" type="q244:EMailEntity" xmlns:q244="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Email" nillable="true" type="q246:EMailEntity" xmlns:q246="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveToMailServerResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q245:EMailEntity" xmlns:q245="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q247:EMailEntity" xmlns:q247="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="Send">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Emails" nillable="true" type="q246:ArrayOfEMailEntity" xmlns:q246="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Emails" nillable="true" type="q248:ArrayOfEMailEntity" xmlns:q248="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SendResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q247:ArrayOfEMailEntity" xmlns:q247="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q249:ArrayOfEMailEntity" xmlns:q249="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="CreateForwardEmail">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Email" nillable="true" type="q248:EMailEntity" xmlns:q248="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Email" nillable="true" type="q250:EMailEntity" xmlns:q250="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="CreateForwardEmailResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q249:EMailEntity" xmlns:q249="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q251:EMailEntity" xmlns:q251="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2392,19 +2423,19 @@ title: Services88.EMailAgent WSDL
       <xs:element name="FindContactOrPersonByEmailNameResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q250:ArrayOfContactOrPersonFromEmail" xmlns:q250="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q252:ArrayOfContactOrPersonFromEmail" xmlns:q252="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfContactOrPersonFromEmail">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ContactOrPersonFromEmail" nillable="true" type="q251:ContactOrPersonFromEmail" xmlns:q251="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ContactOrPersonFromEmail" nillable="true" type="q253:ContactOrPersonFromEmail" xmlns:q253="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfContactOrPersonFromEmail" nillable="true" type="q252:ArrayOfContactOrPersonFromEmail" xmlns:q252="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfContactOrPersonFromEmail" nillable="true" type="q254:ArrayOfContactOrPersonFromEmail" xmlns:q254="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ContactOrPersonFromEmail">
         <xs:complexContent mixed="false">
-          <xs:extension base="q253:Carrier" xmlns:q253="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q255:Carrier" xmlns:q255="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="PersonId" type="xs:int" />
               <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
@@ -2418,7 +2449,7 @@ title: Services88.EMailAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ContactOrPersonFromEmail" nillable="true" type="q254:ContactOrPersonFromEmail" xmlns:q254="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ContactOrPersonFromEmail" nillable="true" type="q256:ContactOrPersonFromEmail" xmlns:q256="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="FindContactOrPersonByEmailNameWithLimit">
         <xs:complexType>
           <xs:sequence>
@@ -2432,14 +2463,14 @@ title: Services88.EMailAgent WSDL
       <xs:element name="FindContactOrPersonByEmailNameWithLimitResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q255:ArrayOfContactOrPersonFromEmail" xmlns:q255="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q257:ArrayOfContactOrPersonFromEmail" xmlns:q257="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="RefreshFolderForAssociate">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Folders" nillable="true" type="q256:ArrayOfstring" xmlns:q256="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Folders" nillable="true" type="q258:ArrayOfstring" xmlns:q258="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2453,14 +2484,14 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetNewMail">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Folders" nillable="true" type="q257:ArrayOfint" xmlns:q257="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Folders" nillable="true" type="q259:ArrayOfint" xmlns:q259="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetNewMailResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q258:ArrayOfEMailEnvelope" xmlns:q258="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q260:ArrayOfEMailEnvelope" xmlns:q260="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2472,7 +2503,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="CacheFolderListResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q259:ArrayOfEMailFolder" xmlns:q259="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q261:ArrayOfEMailFolder" xmlns:q261="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2480,7 +2511,7 @@ title: Services88.EMailAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="FolderId" type="xs:int" />
-            <xs:element minOccurs="0" name="EmailItemIds" nillable="true" type="q260:ArrayOfint" xmlns:q260="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="EmailItemIds" nillable="true" type="q262:ArrayOfint" xmlns:q262="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2499,7 +2530,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetMailFromMessageIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q261:EMailEntity" xmlns:q261="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q263:EMailEntity" xmlns:q263="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2513,14 +2544,14 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetMailFromInReplyToResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q262:EMailEntity" xmlns:q262="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q264:EMailEntity" xmlns:q264="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SendAndSaveEmailToTmpDocument">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Email" nillable="true" type="q263:EMailEntity" xmlns:q263="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Email" nillable="true" type="q265:EMailEntity" xmlns:q265="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="StripAttachments" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -2535,7 +2566,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="SaveEmailToTmpDocument">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Email" nillable="true" type="q264:EMailEntity" xmlns:q264="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Email" nillable="true" type="q266:EMailEntity" xmlns:q266="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="FolderId" type="xs:int" />
             <xs:element minOccurs="0" name="StripAttachments" type="xs:boolean" />
           </xs:sequence>
@@ -2551,14 +2582,14 @@ title: Services88.EMailAgent WSDL
       <xs:element name="SaveDraft">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Entity" nillable="true" type="q265:EMailEntity" xmlns:q265="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Entity" nillable="true" type="q267:EMailEntity" xmlns:q267="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveDraftResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q266:EMailEntity" xmlns:q266="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q268:EMailEntity" xmlns:q268="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2584,7 +2615,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEMailFromDocumentIdWithoutAttachmentStreamResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q267:EMailEntity" xmlns:q267="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q269:EMailEntity" xmlns:q269="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2598,7 +2629,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStreamResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q268:EMailEntity" xmlns:q268="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q270:EMailEntity" xmlns:q270="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2613,7 +2644,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetAttachmentFromIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q269:EMailAttachment" xmlns:q269="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q271:EMailAttachment" xmlns:q271="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2630,7 +2661,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetPreviewAttachmentFromIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q270:EMailAttachment" xmlns:q270="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q272:EMailAttachment" xmlns:q272="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2647,7 +2678,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetUnsanitizedPreviewAttachmentFromIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q271:EMailAttachment" xmlns:q271="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q273:EMailAttachment" xmlns:q273="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2662,7 +2693,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetPreviewAttachmentFromDocIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q272:EMailAttachment" xmlns:q272="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q274:EMailAttachment" xmlns:q274="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2677,7 +2708,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetUnsanitizedPreviewAttachmentFromDocIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q273:EMailAttachment" xmlns:q273="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q275:EMailAttachment" xmlns:q275="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2738,7 +2769,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="CreateInlineHtmlHeader">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Email" nillable="true" type="q274:EMailEntity" xmlns:q274="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Email" nillable="true" type="q276:EMailEntity" xmlns:q276="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2759,7 +2790,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEmailAppointmentResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q275:EMailAppointment" xmlns:q275="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q277:EMailAppointment" xmlns:q277="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2773,7 +2804,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEmailAppointmentRecurrenceResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q276:RecurrenceInfo" xmlns:q276="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q278:RecurrenceInfo" xmlns:q278="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2782,18 +2813,18 @@ title: Services88.EMailAgent WSDL
           <xs:element minOccurs="0" name="RecurrenceId" type="xs:int" />
           <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
           <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
-          <xs:element minOccurs="0" name="RecurrenceEndType" type="q277:RecurrenceEndType" xmlns:q277="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="Pattern" type="q278:RecurrencePattern" xmlns:q278="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="DayPattern" nillable="true" type="q279:RecurrenceDayPattern" xmlns:q279="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="WeekPattern" nillable="true" type="q280:RecurrenceWeekPattern" xmlns:q280="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="MonthPattern" nillable="true" type="q281:RecurrenceMonthPattern" xmlns:q281="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="YearPattern" nillable="true" type="q282:RecurrenceYearPattern" xmlns:q282="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="Dates" nillable="true" type="q283:ArrayOfRecurrenceDate" xmlns:q283="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="RecurrenceEndType" type="q279:RecurrenceEndType" xmlns:q279="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Pattern" type="q280:RecurrencePattern" xmlns:q280="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="DayPattern" nillable="true" type="q281:RecurrenceDayPattern" xmlns:q281="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="WeekPattern" nillable="true" type="q282:RecurrenceWeekPattern" xmlns:q282="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="MonthPattern" nillable="true" type="q283:RecurrenceMonthPattern" xmlns:q283="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="YearPattern" nillable="true" type="q284:RecurrenceYearPattern" xmlns:q284="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Dates" nillable="true" type="q285:ArrayOfRecurrenceDate" xmlns:q285="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="RecurrenceCounter" type="xs:int" />
           <xs:element minOccurs="0" name="IsRecurrence" type="xs:boolean" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RecurrenceInfo" nillable="true" type="q284:RecurrenceInfo" xmlns:q284="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceInfo" nillable="true" type="q286:RecurrenceInfo" xmlns:q286="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="RecurrenceEndType">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -2801,14 +2832,14 @@ title: Services88.EMailAgent WSDL
           <xs:enumeration value="Counter" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="RecurrenceEndType" nillable="true" type="q285:RecurrenceEndType" xmlns:q285="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceEndType" nillable="true" type="q287:RecurrenceEndType" xmlns:q287="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="RecurrenceDayPattern">
         <xs:sequence>
           <xs:element minOccurs="0" name="Cycle" type="xs:int" />
-          <xs:element minOccurs="0" name="Pattern" type="q286:RecurrenceDailyPattern" xmlns:q286="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Pattern" type="q288:RecurrenceDailyPattern" xmlns:q288="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RecurrenceDayPattern" nillable="true" type="q287:RecurrenceDayPattern" xmlns:q287="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceDayPattern" nillable="true" type="q289:RecurrenceDayPattern" xmlns:q289="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="RecurrenceDailyPattern">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -2817,14 +2848,14 @@ title: Services88.EMailAgent WSDL
           <xs:enumeration value="EveryCyclicDay" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="RecurrenceDailyPattern" nillable="true" type="q288:RecurrenceDailyPattern" xmlns:q288="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceDailyPattern" nillable="true" type="q290:RecurrenceDailyPattern" xmlns:q290="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="RecurrenceWeekPattern">
         <xs:sequence>
           <xs:element minOccurs="0" name="Cycle" type="xs:int" />
-          <xs:element minOccurs="0" name="Weekdays" type="q289:Weekday" xmlns:q289="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Weekdays" type="q291:Weekday" xmlns:q291="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RecurrenceWeekPattern" nillable="true" type="q290:RecurrenceWeekPattern" xmlns:q290="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceWeekPattern" nillable="true" type="q292:RecurrenceWeekPattern" xmlns:q292="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="Weekday">
         <xs:list>
           <xs:simpleType>
@@ -2840,17 +2871,17 @@ title: Services88.EMailAgent WSDL
           </xs:simpleType>
         </xs:list>
       </xs:simpleType>
-      <xs:element name="Weekday" nillable="true" type="q291:Weekday" xmlns:q291="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Weekday" nillable="true" type="q293:Weekday" xmlns:q293="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="RecurrenceMonthPattern">
         <xs:sequence>
           <xs:element minOccurs="0" name="Cycle" type="xs:int" />
           <xs:element minOccurs="0" name="Day" type="xs:int" />
-          <xs:element minOccurs="0" name="Weekday" type="q292:Weekday" xmlns:q292="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="WeekOfMonth" type="q293:WeekOfMonth" xmlns:q293="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="Pattern" type="q294:RecurrenceMonthlyPattern" xmlns:q294="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Weekday" type="q294:Weekday" xmlns:q294="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="WeekOfMonth" type="q295:WeekOfMonth" xmlns:q295="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Pattern" type="q296:RecurrenceMonthlyPattern" xmlns:q296="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RecurrenceMonthPattern" nillable="true" type="q295:RecurrenceMonthPattern" xmlns:q295="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceMonthPattern" nillable="true" type="q297:RecurrenceMonthPattern" xmlns:q297="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="WeekOfMonth">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -2861,7 +2892,7 @@ title: Services88.EMailAgent WSDL
           <xs:enumeration value="Last" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="WeekOfMonth" nillable="true" type="q296:WeekOfMonth" xmlns:q296="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="WeekOfMonth" nillable="true" type="q298:WeekOfMonth" xmlns:q298="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="RecurrenceMonthlyPattern">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -2881,17 +2912,17 @@ title: Services88.EMailAgent WSDL
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="RecurrenceMonthlyPattern" nillable="true" type="q297:RecurrenceMonthlyPattern" xmlns:q297="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceMonthlyPattern" nillable="true" type="q299:RecurrenceMonthlyPattern" xmlns:q299="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="RecurrenceYearPattern">
         <xs:sequence>
           <xs:element minOccurs="0" name="Cycle" type="xs:int" />
           <xs:element minOccurs="0" name="Day" type="xs:int" />
-          <xs:element minOccurs="0" name="Weekday" type="q298:Weekday" xmlns:q298="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="WeekOfMonth" type="q299:WeekOfMonth" xmlns:q299="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="Pattern" type="q300:RecurrenceYearlyPattern" xmlns:q300="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Weekday" type="q300:Weekday" xmlns:q300="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="WeekOfMonth" type="q301:WeekOfMonth" xmlns:q301="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Pattern" type="q302:RecurrenceYearlyPattern" xmlns:q302="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RecurrenceYearPattern" nillable="true" type="q301:RecurrenceYearPattern" xmlns:q301="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceYearPattern" nillable="true" type="q303:RecurrenceYearPattern" xmlns:q303="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="RecurrenceYearlyPattern">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -2911,13 +2942,13 @@ title: Services88.EMailAgent WSDL
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="RecurrenceYearlyPattern" nillable="true" type="q302:RecurrenceYearlyPattern" xmlns:q302="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceYearlyPattern" nillable="true" type="q304:RecurrenceYearlyPattern" xmlns:q304="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfRecurrenceDate">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="RecurrenceDate" nillable="true" type="q303:RecurrenceDate" xmlns:q303="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="RecurrenceDate" nillable="true" type="q305:RecurrenceDate" xmlns:q305="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfRecurrenceDate" nillable="true" type="q304:ArrayOfRecurrenceDate" xmlns:q304="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfRecurrenceDate" nillable="true" type="q306:ArrayOfRecurrenceDate" xmlns:q306="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="RecurrenceDate">
         <xs:sequence>
           <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
@@ -2927,7 +2958,7 @@ title: Services88.EMailAgent WSDL
           <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RecurrenceDate" nillable="true" type="q305:RecurrenceDate" xmlns:q305="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceDate" nillable="true" type="q307:RecurrenceDate" xmlns:q307="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetParticipantInfoFromEmailAddress">
         <xs:complexType>
           <xs:sequence>
@@ -2939,7 +2970,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetParticipantInfoFromEmailAddressResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q306:Person" xmlns:q306="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q308:Person" xmlns:q308="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2967,7 +2998,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEMailSOInfoResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q307:EMailSOInfo" xmlns:q307="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q309:EMailSOInfo" xmlns:q309="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2979,19 +3010,19 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetReadySyncEmailAccountsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q308:ArrayOfSyncUserAccount" xmlns:q308="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q310:ArrayOfSyncUserAccount" xmlns:q310="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfSyncUserAccount">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SyncUserAccount" nillable="true" type="q309:SyncUserAccount" xmlns:q309="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SyncUserAccount" nillable="true" type="q311:SyncUserAccount" xmlns:q311="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfSyncUserAccount" nillable="true" type="q310:ArrayOfSyncUserAccount" xmlns:q310="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfSyncUserAccount" nillable="true" type="q312:ArrayOfSyncUserAccount" xmlns:q312="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="SyncUserAccount">
         <xs:complexContent mixed="false">
-          <xs:extension base="q311:Carrier" xmlns:q311="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q313:Carrier" xmlns:q313="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="AccountId" type="xs:int" />
               <xs:element minOccurs="0" name="AssociateName" nillable="true" type="xs:string" />
@@ -3000,11 +3031,11 @@ title: Services88.EMailAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="SyncUserAccount" nillable="true" type="q312:SyncUserAccount" xmlns:q312="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SyncUserAccount" nillable="true" type="q314:SyncUserAccount" xmlns:q314="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SyncEmailAccount">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="SyncUserAccount" nillable="true" type="q313:SyncUserAccount" xmlns:q313="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="SyncUserAccount" nillable="true" type="q315:SyncUserAccount" xmlns:q315="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3016,7 +3047,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="SyncEmailAccounts">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="SyncUserAccounts" nillable="true" type="q314:ArrayOfSyncUserAccount" xmlns:q314="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="SyncUserAccounts" nillable="true" type="q316:ArrayOfSyncUserAccount" xmlns:q316="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3417,6 +3448,23 @@ title: Services88.EMailAgent WSDL
     <wsdl:part name="parameters" element="tns:HasMXRecordResponse" />
   </wsdl:message>
   <wsdl:message name="HasMXRecordResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="HasSPFRecordRequest">
+    <wsdl:part name="parameters" element="tns:HasSPFRecord" />
+  </wsdl:message>
+  <wsdl:message name="HasSPFRecordRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="HasSPFRecordResponse">
+    <wsdl:part name="parameters" element="tns:HasSPFRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="HasSPFRecordResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -3978,6 +4026,23 @@ title: Services88.EMailAgent WSDL
     <wsdl:part name="parameters" element="tns:GetEmailMessageIdsResponse" />
   </wsdl:message>
   <wsdl:message name="GetEmailMessageIdsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetExtendedEmailMessageIdsRequest">
+    <wsdl:part name="parameters" element="tns:GetExtendedEmailMessageIds" />
+  </wsdl:message>
+  <wsdl:message name="GetExtendedEmailMessageIdsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetExtendedEmailMessageIdsResponse">
+    <wsdl:part name="parameters" element="tns:GetExtendedEmailMessageIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetExtendedEmailMessageIdsResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -4732,693 +4797,399 @@ title: Services88.EMailAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="EMail">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for EMail</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultEMailAccount">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailAccount.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailAccount" name="CreateDefaultEMailAccountRequest" message="tns:CreateDefaultEMailAccountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailAccountResponse" name="CreateDefaultEMailAccountResponse" message="tns:CreateDefaultEMailAccountResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveEMailAccount">
-      <wsdl:documentation>
-        <summary>Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SaveEMailAccount" name="SaveEMailAccountRequest" message="tns:SaveEMailAccountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SaveEMailAccountResponse" name="SaveEMailAccountResponse" message="tns:SaveEMailAccountResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteEMailAccount">
-      <wsdl:documentation>
-        <summary>Deletes the EMailAccount</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/DeleteEMailAccount" name="DeleteEMailAccountRequest" message="tns:DeleteEMailAccountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/DeleteEMailAccountResponse" name="DeleteEMailAccountResponse" message="tns:DeleteEMailAccountResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailAddress">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailAddress.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailAddress" name="CreateDefaultEMailAddressRequest" message="tns:CreateDefaultEMailAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailAddressResponse" name="CreateDefaultEMailAddressResponse" message="tns:CreateDefaultEMailAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailAppointment">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailAppointment.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailAppointment" name="CreateDefaultEMailAppointmentRequest" message="tns:CreateDefaultEMailAppointmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailAppointmentResponse" name="CreateDefaultEMailAppointmentResponse" message="tns:CreateDefaultEMailAppointmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailAttachment">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailAttachment.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailAttachment" name="CreateDefaultEMailAttachmentRequest" message="tns:CreateDefaultEMailAttachmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailAttachmentResponse" name="CreateDefaultEMailAttachmentResponse" message="tns:CreateDefaultEMailAttachmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailConnectionInfo">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailConnectionInfo.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailConnectionInfo" name="CreateDefaultEMailConnectionInfoRequest" message="tns:CreateDefaultEMailConnectionInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailConnectionInfoResponse" name="CreateDefaultEMailConnectionInfoResponse" message="tns:CreateDefaultEMailConnectionInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailConnectionInfoExtended">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailConnectionInfoExtended.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailConnectionInfoExtended" name="CreateDefaultEMailConnectionInfoExtendedRequest" message="tns:CreateDefaultEMailConnectionInfoExtendedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailConnectionInfoExtendedResponse" name="CreateDefaultEMailConnectionInfoExtendedResponse" message="tns:CreateDefaultEMailConnectionInfoExtendedResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailCustomHeader">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailCustomHeader.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailCustomHeader" name="CreateDefaultEMailCustomHeaderRequest" message="tns:CreateDefaultEMailCustomHeaderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailCustomHeaderResponse" name="CreateDefaultEMailCustomHeaderResponse" message="tns:CreateDefaultEMailCustomHeaderResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailEntity" name="CreateDefaultEMailEntityRequest" message="tns:CreateDefaultEMailEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailEntityResponse" name="CreateDefaultEMailEntityResponse" message="tns:CreateDefaultEMailEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailEnvelope">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailEnvelope.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailEnvelope" name="CreateDefaultEMailEnvelopeRequest" message="tns:CreateDefaultEMailEnvelopeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailEnvelopeResponse" name="CreateDefaultEMailEnvelopeResponse" message="tns:CreateDefaultEMailEnvelopeResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailFolder">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailFolder.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailFolder" name="CreateDefaultEMailFolderRequest" message="tns:CreateDefaultEMailFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailFolderResponse" name="CreateDefaultEMailFolderResponse" message="tns:CreateDefaultEMailFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailSOInfo">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailSOInfo.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailSOInfo" name="CreateDefaultEMailSOInfoRequest" message="tns:CreateDefaultEMailSOInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateDefaultEMailSOInfoResponse" name="CreateDefaultEMailSOInfoResponse" message="tns:CreateDefaultEMailSOInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailAccount">
-      <wsdl:documentation>
-        <summary>Gets a EMailAccount object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailAccount" name="GetEMailAccountRequest" message="tns:GetEMailAccountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailAccountResponse" name="GetEMailAccountResponse" message="tns:GetEMailAccountResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailAccountFromEMailAddress">
-      <wsdl:documentation>
-        <summary>Returns the email account corresponding to this email address (for the current associate).</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailAccountFromEMailAddress" name="GetEMailAccountFromEMailAddressRequest" message="tns:GetEMailAccountFromEMailAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailAccountFromEMailAddressResponse" name="GetEMailAccountFromEMailAddressResponse" message="tns:GetEMailAccountFromEMailAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCurrentAccountId">
-      <wsdl:documentation>
-        <summary>Get current accountId (last logged into should normally be current) for logged in associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetCurrentAccountId" name="GetCurrentAccountIdRequest" message="tns:GetCurrentAccountIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetCurrentAccountIdResponse" name="GetCurrentAccountIdResponse" message="tns:GetCurrentAccountIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCurrentAccount">
-      <wsdl:documentation>
-        <summary>Get current account (last logged into should normally be current) for logged in associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetCurrentAccount" name="GetCurrentAccountRequest" message="tns:GetCurrentAccountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetCurrentAccountResponse" name="GetCurrentAccountResponse" message="tns:GetCurrentAccountResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonEntitiesFromEmailAddress">
-      <wsdl:documentation>
-        <summary>Get all persons and contacts with the given email address</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetPersonEntitiesFromEmailAddress" name="GetPersonEntitiesFromEmailAddressRequest" message="tns:GetPersonEntitiesFromEmailAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetPersonEntitiesFromEmailAddressResponse" name="GetPersonEntitiesFromEmailAddressResponse" message="tns:GetPersonEntitiesFromEmailAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonsFromEmailAddress">
-      <wsdl:documentation>
-        <summary>Get all persons and contacts with the given email address</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetPersonsFromEmailAddress" name="GetPersonsFromEmailAddressRequest" message="tns:GetPersonsFromEmailAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetPersonsFromEmailAddressResponse" name="GetPersonsFromEmailAddressResponse" message="tns:GetPersonsFromEmailAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasMXRecord">
-      <wsdl:documentation>
-        <summary>Return true if there is one or more MX records in DNS for the given mail domain</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/HasMXRecord" name="HasMXRecordRequest" message="tns:HasMXRecordRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/HasMXRecordResponse" name="HasMXRecordResponse" message="tns:HasMXRecordResponse" />
     </wsdl:operation>
+    <wsdl:operation name="HasSPFRecord">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/HasSPFRecord" name="HasSPFRecordRequest" message="tns:HasSPFRecordRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/HasSPFRecordResponse" name="HasSPFRecordResponse" message="tns:HasSPFRecordResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetEMailFromId">
-      <wsdl:documentation>
-        <summary>Get en e-mail based on its unique id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromId" name="GetEMailFromIdRequest" message="tns:GetEMailFromIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromIdResponse" name="GetEMailFromIdResponse" message="tns:GetEMailFromIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendEMails">
-      <wsdl:documentation>
-        <summary>Send the provided e-mails</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SendEMails" name="SendEMailsRequest" message="tns:SendEMailsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SendEMailsResponse" name="SendEMailsResponse" message="tns:SendEMailsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveEMail">
-      <wsdl:documentation>
-        <summary>Save the passed e-mail back to the server</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SaveEMail" name="SaveEMailRequest" message="tns:SaveEMailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SaveEMailResponse" name="SaveEMailResponse" message="tns:SaveEMailResponse" />
     </wsdl:operation>
     <wsdl:operation name="AuthenticateIncoming">
-      <wsdl:documentation>
-        <summary>Authenticate against a mail-server to retrieve e-mails from</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/AuthenticateIncoming" name="AuthenticateIncomingRequest" message="tns:AuthenticateIncomingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/AuthenticateIncomingResponse" name="AuthenticateIncomingResponse" message="tns:AuthenticateIncomingResponse" />
     </wsdl:operation>
     <wsdl:operation name="AuthenticateOutgoing">
-      <wsdl:documentation>
-        <summary>Authenticate against a mail server to send items with</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/AuthenticateOutgoing" name="AuthenticateOutgoingRequest" message="tns:AuthenticateOutgoingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/AuthenticateOutgoingResponse" name="AuthenticateOutgoingResponse" message="tns:AuthenticateOutgoingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFolderList">
-      <wsdl:documentation>
-        <summary>Retrieve all folders for the mail account. String is separated in sections by the paragraph character.  First section contains the folder delimeter char. Next is folder name. Additional sections may be unread and total items.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetFolderList" name="GetFolderListRequest" message="tns:GetFolderListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetFolderListResponse" name="GetFolderListResponse" message="tns:GetFolderListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAttachment">
-      <wsdl:documentation>
-        <summary>Retrieve an attachment from an e-mail</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetAttachment" name="GetAttachmentRequest" message="tns:GetAttachmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetAttachmentResponse" name="GetAttachmentResponse" message="tns:GetAttachmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="MarkAsRead">
-      <wsdl:documentation>
-        <summary>Mark one or more e-mails as (un)read</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/MarkAsRead" name="MarkAsReadRequest" message="tns:MarkAsReadRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/MarkAsReadResponse" name="MarkAsReadResponse" message="tns:MarkAsReadResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFolderEMailCount">
-      <wsdl:documentation>
-        <summary>Retrieve total/unread mail items in current folder</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetFolderEMailCount" name="GetFolderEMailCountRequest" message="tns:GetFolderEMailCountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetFolderEMailCountResponse" name="GetFolderEMailCountResponse" message="tns:GetFolderEMailCountResponse" />
     </wsdl:operation>
     <wsdl:operation name="Delete">
-      <wsdl:documentation>
-        <summary>Delete specified mail items</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/Delete" name="DeleteRequest" message="tns:DeleteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/DeleteResponse" name="DeleteResponse" message="tns:DeleteResponse" />
     </wsdl:operation>
     <wsdl:operation name="MoveToFolder">
-      <wsdl:documentation>
-        <summary>Moved specified items from current folder to targetFolder</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/MoveToFolder" name="MoveToFolderRequest" message="tns:MoveToFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/MoveToFolderResponse" name="MoveToFolderResponse" message="tns:MoveToFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="EmptyFolder">
-      <wsdl:documentation>
-        <summary>Delete all items in folder specified in the connection object</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/EmptyFolder" name="EmptyFolderRequest" message="tns:EmptyFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/EmptyFolderResponse" name="EmptyFolderResponse" message="tns:EmptyFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailAsStream">
-      <wsdl:documentation>
-        <summary>Retrieve an e-mail optionally stripping attachments as a stream</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailAsStream" name="GetEMailAsStreamRequest" message="tns:GetEMailAsStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailAsStreamResponse" name="GetEMailAsStreamResponse" message="tns:GetEMailAsStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindAddress">
-      <wsdl:documentation>
-        <summary>Search for contacts and persons with the specified e-mail address (exact match on the email address string required)</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/FindAddress" name="FindAddressRequest" message="tns:FindAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/FindAddressResponse" name="FindAddressResponse" message="tns:FindAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailFromDocumentId">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on an archived document</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromDocumentId" name="GetEMailFromDocumentIdRequest" message="tns:GetEMailFromDocumentIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromDocumentIdResponse" name="GetEMailFromDocumentIdResponse" message="tns:GetEMailFromDocumentIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUnsanitizedEMailFromDocumentId">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on an archived document. The returned value is not sanitized.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedEMailFromDocumentId" name="GetUnsanitizedEMailFromDocumentIdRequest" message="tns:GetUnsanitizedEMailFromDocumentIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedEMailFromDocumentIdResponse" name="GetUnsanitizedEMailFromDocumentIdResponse" message="tns:GetUnsanitizedEMailFromDocumentIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailFromAttachmentId">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on an email and attachment id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromAttachmentId" name="GetEMailFromAttachmentIdRequest" message="tns:GetEMailFromAttachmentIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromAttachmentIdResponse" name="GetEMailFromAttachmentIdResponse" message="tns:GetEMailFromAttachmentIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUnsanitizedEMailFromAttachmentId">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on an email and attachment id. The returned value is not sanitized.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedEMailFromAttachmentId" name="GetUnsanitizedEMailFromAttachmentIdRequest" message="tns:GetUnsanitizedEMailFromAttachmentIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedEMailFromAttachmentIdResponse" name="GetUnsanitizedEMailFromAttachmentIdResponse" message="tns:GetUnsanitizedEMailFromAttachmentIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailFromDocumentAttachmentId">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on an email in the archive system and attachment id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromDocumentAttachmentId" name="GetEMailFromDocumentAttachmentIdRequest" message="tns:GetEMailFromDocumentAttachmentIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromDocumentAttachmentIdResponse" name="GetEMailFromDocumentAttachmentIdResponse" message="tns:GetEMailFromDocumentAttachmentIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUnsanitizedEMailFromDocumentAttachmentId">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on an email in the archive system and attachment id. The returned value is not sanitized.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedEMailFromDocumentAttachmentId" name="GetUnsanitizedEMailFromDocumentAttachmentIdRequest" message="tns:GetUnsanitizedEMailFromDocumentAttachmentIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedEMailFromDocumentAttachmentIdResponse" name="GetUnsanitizedEMailFromDocumentAttachmentIdResponse" message="tns:GetUnsanitizedEMailFromDocumentAttachmentIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailEnvelopes">
-      <wsdl:documentation>
-        <summary>Retrieve a set of e-mail envelopes</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailEnvelopes" name="GetEMailEnvelopesRequest" message="tns:GetEMailEnvelopesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailEnvelopesResponse" name="GetEMailEnvelopesResponse" message="tns:GetEMailEnvelopesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetSubscription">
-      <wsdl:documentation>
-        <summary>Set subscription on or off on a set of folders</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SetSubscription" name="SetSubscriptionRequest" message="tns:SetSubscriptionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SetSubscriptionResponse" name="SetSubscriptionResponse" message="tns:SetSubscriptionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateFolder">
-      <wsdl:documentation>
-        <summary>Create a new folder on the server</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateFolder" name="CreateFolderRequest" message="tns:CreateFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateFolderResponse" name="CreateFolderResponse" message="tns:CreateFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteFolder">
-      <wsdl:documentation>
-        <summary>Delete a folder from the server</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/DeleteFolder" name="DeleteFolderRequest" message="tns:DeleteFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/DeleteFolderResponse" name="DeleteFolderResponse" message="tns:DeleteFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateEMailFromDocumentEntity">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on the provided DocumentEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateEMailFromDocumentEntity" name="CreateEMailFromDocumentEntityRequest" message="tns:CreateEMailFromDocumentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateEMailFromDocumentEntityResponse" name="CreateEMailFromDocumentEntityResponse" message="tns:CreateEMailFromDocumentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateEMailFromMimeMessage">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on the provided MIME-message</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateEMailFromMimeMessage" name="CreateEMailFromMimeMessageRequest" message="tns:CreateEMailFromMimeMessageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateEMailFromMimeMessageResponse" name="CreateEMailFromMimeMessageResponse" message="tns:CreateEMailFromMimeMessageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFolderInfo">
-      <wsdl:documentation>
-        <summary>Retrieve information about folders.  If folders parameter is not specified(null), information about all subscribed folders will be returned.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetFolderInfo" name="GetFolderInfoRequest" message="tns:GetFolderInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetFolderInfoResponse" name="GetFolderInfoResponse" message="tns:GetFolderInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFolderHasNewEMail">
-      <wsdl:documentation>
-        <summary>Check if folder has received new items since previous access.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetFolderHasNewEMail" name="GetFolderHasNewEMailRequest" message="tns:GetFolderHasNewEMailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetFolderHasNewEMailResponse" name="GetFolderHasNewEMailResponse" message="tns:GetFolderHasNewEMailResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailAddresses">
-      <wsdl:documentation>
-        <summary>Get information about one or more email addresses, identified by IDs</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailAddresses" name="GetEMailAddressesRequest" message="tns:GetEMailAddressesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailAddressesResponse" name="GetEMailAddressesResponse" message="tns:GetEMailAddressesResponse" />
     </wsdl:operation>
     <wsdl:operation name="RefreshFolder">
-      <wsdl:documentation>
-        <summary>Refresh the given folders - i.e., fetch data from the mail server and update the in-database cache. This may happen synchronously or as a batch task, the return value will be 0 if the processing was synchronous, or the batch task id if a batch task is used.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/RefreshFolder" name="RefreshFolderRequest" message="tns:RefreshFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/RefreshFolderResponse" name="RefreshFolderResponse" message="tns:RefreshFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailFromTemp">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromTemp" name="GetEMailFromTempRequest" message="tns:GetEMailFromTempRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromTempResponse" name="GetEMailFromTempResponse" message="tns:GetEMailFromTempResponse" />
     </wsdl:operation>
     <wsdl:operation name="Authenticate">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/Authenticate" name="AuthenticateRequest" message="tns:AuthenticateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/AuthenticateResponse" name="AuthenticateResponse" message="tns:AuthenticateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEmailMessageIds">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEmailMessageIds" name="GetEmailMessageIdsRequest" message="tns:GetEmailMessageIdsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEmailMessageIdsResponse" name="GetEmailMessageIdsResponse" message="tns:GetEmailMessageIdsResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetExtendedEmailMessageIds">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetExtendedEmailMessageIds" name="GetExtendedEmailMessageIdsRequest" message="tns:GetExtendedEmailMessageIdsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetExtendedEmailMessageIdsResponse" name="GetExtendedEmailMessageIdsResponse" message="tns:GetExtendedEmailMessageIdsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetEmailsAsString">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEmailsAsString" name="GetEmailsAsStringRequest" message="tns:GetEmailsAsStringRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEmailsAsStringResponse" name="GetEmailsAsStringResponse" message="tns:GetEmailsAsStringResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteExtended">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/DeleteExtended" name="DeleteExtendedRequest" message="tns:DeleteExtendedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/DeleteExtendedResponse" name="DeleteExtendedResponse" message="tns:DeleteExtendedResponse" />
     </wsdl:operation>
     <wsdl:operation name="RelayMessage">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/RelayMessage" name="RelayMessageRequest" message="tns:RelayMessageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/RelayMessageResponse" name="RelayMessageResponse" message="tns:RelayMessageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMail">
-      <wsdl:documentation>
-        <summary>Get en e-mail based on its primary key in the DB</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMail" name="GetEMailRequest" message="tns:GetEMailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailResponse" name="GetEMailResponse" message="tns:GetEMailResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUnsanitizedEMail">
-      <wsdl:documentation>
-        <summary>Get en e-mail based on its primary key in the DB. The returned value is not sanitized.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedEMail" name="GetUnsanitizedEMailRequest" message="tns:GetUnsanitizedEMailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedEMailResponse" name="GetUnsanitizedEMailResponse" message="tns:GetUnsanitizedEMailResponse" />
     </wsdl:operation>
     <wsdl:operation name="MarkEmailsAsRead">
-      <wsdl:documentation>
-        <summary>Mark one or more e-mails as (un)read</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/MarkEmailsAsRead" name="MarkEmailsAsReadRequest" message="tns:MarkEmailsAsReadRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/MarkEmailsAsReadResponse" name="MarkEmailsAsReadResponse" message="tns:MarkEmailsAsReadResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteEmails">
-      <wsdl:documentation>
-        <summary>Delete specified mail items and optionally move to the specified folder</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/DeleteEmails" name="DeleteEmailsRequest" message="tns:DeleteEmailsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/DeleteEmailsResponse" name="DeleteEmailsResponse" message="tns:DeleteEmailsResponse" />
     </wsdl:operation>
     <wsdl:operation name="MoveEmailsToTrash">
-      <wsdl:documentation>
-        <summary>Delete specified mail items and move to the Trash folder</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/MoveEmailsToTrash" name="MoveEmailsToTrashRequest" message="tns:MoveEmailsToTrashRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/MoveEmailsToTrashResponse" name="MoveEmailsToTrashResponse" message="tns:MoveEmailsToTrashResponse" />
     </wsdl:operation>
     <wsdl:operation name="Save">
-      <wsdl:documentation>
-        <summary>Save the e-mail back to the database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/Save" name="SaveRequest" message="tns:SaveRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SaveResponse" name="SaveResponse" message="tns:SaveResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveToMailServer">
-      <wsdl:documentation>
-        <summary>Save the passed e-mail back to the mail server</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SaveToMailServer" name="SaveToMailServerRequest" message="tns:SaveToMailServerRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SaveToMailServerResponse" name="SaveToMailServerResponse" message="tns:SaveToMailServerResponse" />
     </wsdl:operation>
     <wsdl:operation name="Send">
-      <wsdl:documentation>
-        <summary>Send the provided e-mails</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/Send" name="SendRequest" message="tns:SendRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SendResponse" name="SendResponse" message="tns:SendResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateForwardEmail">
-      <wsdl:documentation>
-        <summary>Create forward email</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateForwardEmail" name="CreateForwardEmailRequest" message="tns:CreateForwardEmailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateForwardEmailResponse" name="CreateForwardEmailResponse" message="tns:CreateForwardEmailResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindContactOrPersonByEmailName">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/FindContactOrPersonByEmailName" name="FindContactOrPersonByEmailNameRequest" message="tns:FindContactOrPersonByEmailNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/FindContactOrPersonByEmailNameResponse" name="FindContactOrPersonByEmailNameResponse" message="tns:FindContactOrPersonByEmailNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindContactOrPersonByEmailNameWithLimit">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/FindContactOrPersonByEmailNameWithLimit" name="FindContactOrPersonByEmailNameWithLimitRequest" message="tns:FindContactOrPersonByEmailNameWithLimitRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/FindContactOrPersonByEmailNameWithLimitResponse" name="FindContactOrPersonByEmailNameWithLimitResponse" message="tns:FindContactOrPersonByEmailNameWithLimitResponse" />
     </wsdl:operation>
     <wsdl:operation name="RefreshFolderForAssociate">
-      <wsdl:documentation>
-        <summary>Get all emails in folder(s) from current associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/RefreshFolderForAssociate" name="RefreshFolderForAssociateRequest" message="tns:RefreshFolderForAssociateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/RefreshFolderForAssociateResponse" name="RefreshFolderForAssociateResponse" message="tns:RefreshFolderForAssociateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNewMail">
-      <wsdl:documentation>
-        <summary>Get new email in folder(s) for current associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetNewMail" name="GetNewMailRequest" message="tns:GetNewMailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetNewMailResponse" name="GetNewMailResponse" message="tns:GetNewMailResponse" />
     </wsdl:operation>
     <wsdl:operation name="CacheFolderList">
-      <wsdl:documentation>
-        <summary>Fetch list of folders from email server for the current account, and cache in DB</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CacheFolderList" name="CacheFolderListRequest" message="tns:CacheFolderListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CacheFolderListResponse" name="CacheFolderListResponse" message="tns:CacheFolderListResponse" />
     </wsdl:operation>
     <wsdl:operation name="MoveEmailsToFolder">
-      <wsdl:documentation>
-        <summary>Move one or more emails to the specified folder in the DB, and on the server</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/MoveEmailsToFolder" name="MoveEmailsToFolderRequest" message="tns:MoveEmailsToFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/MoveEmailsToFolderResponse" name="MoveEmailsToFolderResponse" message="tns:MoveEmailsToFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMailFromMessageId">
-      <wsdl:documentation>
-        <summary>Get email from db based on Message Id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetMailFromMessageId" name="GetMailFromMessageIdRequest" message="tns:GetMailFromMessageIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetMailFromMessageIdResponse" name="GetMailFromMessageIdResponse" message="tns:GetMailFromMessageIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMailFromInReplyTo">
-      <wsdl:documentation>
-        <summary>Get email from db based on In-Reply-To Message Id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetMailFromInReplyTo" name="GetMailFromInReplyToRequest" message="tns:GetMailFromInReplyToRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetMailFromInReplyToResponse" name="GetMailFromInReplyToResponse" message="tns:GetMailFromInReplyToResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendAndSaveEmailToTmpDocument">
-      <wsdl:documentation>
-        <summary>Send the provided e-mail and create tmp document ready to archive</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SendAndSaveEmailToTmpDocument" name="SendAndSaveEmailToTmpDocumentRequest" message="tns:SendAndSaveEmailToTmpDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SendAndSaveEmailToTmpDocumentResponse" name="SendAndSaveEmailToTmpDocumentResponse" message="tns:SendAndSaveEmailToTmpDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveEmailToTmpDocument">
-      <wsdl:documentation>
-        <summary>Save the Email as a tmp document ready to archive</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SaveEmailToTmpDocument" name="SaveEmailToTmpDocumentRequest" message="tns:SaveEmailToTmpDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SaveEmailToTmpDocumentResponse" name="SaveEmailToTmpDocumentResponse" message="tns:SaveEmailToTmpDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDraft">
-      <wsdl:documentation>
-        <summary>Save the Email entity to the drafts folder</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SaveDraft" name="SaveDraftRequest" message="tns:SaveDraftRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SaveDraftResponse" name="SaveDraftResponse" message="tns:SaveDraftResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetRepliedAt">
-      <wsdl:documentation>
-        <summary>Set the replied_at field based on the MessageID</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SetRepliedAt" name="SetRepliedAtRequest" message="tns:SetRepliedAtRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SetRepliedAtResponse" name="SetRepliedAtResponse" message="tns:SetRepliedAtResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailFromDocumentIdWithoutAttachmentStream">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on an archived document</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromDocumentIdWithoutAttachmentStream" name="GetEMailFromDocumentIdWithoutAttachmentStreamRequest" message="tns:GetEMailFromDocumentIdWithoutAttachmentStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromDocumentIdWithoutAttachmentStreamResponse" name="GetEMailFromDocumentIdWithoutAttachmentStreamResponse" message="tns:GetEMailFromDocumentIdWithoutAttachmentStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on an archived document. The returned value is not sanitized.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream" name="GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStreamRequest" message="tns:GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStreamResponse" name="GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStreamResponse" message="tns:GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAttachmentFromId">
-      <wsdl:documentation>
-        <summary>Retrieve an attachment from an e-mail</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetAttachmentFromId" name="GetAttachmentFromIdRequest" message="tns:GetAttachmentFromIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetAttachmentFromIdResponse" name="GetAttachmentFromIdResponse" message="tns:GetAttachmentFromIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreviewAttachmentFromId">
-      <wsdl:documentation>
-        <summary>Retrieve an attachment from an e-mail. The returned data is intended to be use for a preview.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetPreviewAttachmentFromId" name="GetPreviewAttachmentFromIdRequest" message="tns:GetPreviewAttachmentFromIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetPreviewAttachmentFromIdResponse" name="GetPreviewAttachmentFromIdResponse" message="tns:GetPreviewAttachmentFromIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUnsanitizedPreviewAttachmentFromId">
-      <wsdl:documentation>
-        <summary>Retrieve an attachment from an e-mail. The returned data is intended to be use for a preview. The returned data is not sanitized.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedPreviewAttachmentFromId" name="GetUnsanitizedPreviewAttachmentFromIdRequest" message="tns:GetUnsanitizedPreviewAttachmentFromIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedPreviewAttachmentFromIdResponse" name="GetUnsanitizedPreviewAttachmentFromIdResponse" message="tns:GetUnsanitizedPreviewAttachmentFromIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreviewAttachmentFromDocId">
-      <wsdl:documentation>
-        <summary>Retrieve an attachment from an e-mail stored in the document archive. The returned data is intended to be use for a preview.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetPreviewAttachmentFromDocId" name="GetPreviewAttachmentFromDocIdRequest" message="tns:GetPreviewAttachmentFromDocIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetPreviewAttachmentFromDocIdResponse" name="GetPreviewAttachmentFromDocIdResponse" message="tns:GetPreviewAttachmentFromDocIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUnsanitizedPreviewAttachmentFromDocId">
-      <wsdl:documentation>
-        <summary>Retrieve an attachment from an e-mail stored in the document archive. The returned data is intended to be use for a preview. The returned data is not sanitized.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedPreviewAttachmentFromDocId" name="GetUnsanitizedPreviewAttachmentFromDocIdRequest" message="tns:GetUnsanitizedPreviewAttachmentFromDocIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetUnsanitizedPreviewAttachmentFromDocIdResponse" name="GetUnsanitizedPreviewAttachmentFromDocIdResponse" message="tns:GetUnsanitizedPreviewAttachmentFromDocIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="TestAuthenticate">
-      <wsdl:documentation>
-        <summary>Test if logged-in user has a working mail account </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/TestAuthenticate" name="TestAuthenticateRequest" message="tns:TestAuthenticateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/TestAuthenticateResponse" name="TestAuthenticateResponse" message="tns:TestAuthenticateResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleSubscription">
-      <wsdl:documentation>
-        <summary>Set subscription on or off on a set of folders</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/ToggleSubscription" name="ToggleSubscriptionRequest" message="tns:ToggleSubscriptionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/ToggleSubscriptionResponse" name="ToggleSubscriptionResponse" message="tns:ToggleSubscriptionResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasNewMail">
-      <wsdl:documentation>
-        <summary>Fast check for new mail in the database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/HasNewMail" name="HasNewMailRequest" message="tns:HasNewMailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/HasNewMailResponse" name="HasNewMailResponse" message="tns:HasNewMailResponse" />
     </wsdl:operation>
     <wsdl:operation name="LatestItemIdByFolder">
-      <wsdl:documentation>
-        <summary>Returns the latest id of the mail item by folder</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/LatestItemIdByFolder" name="LatestItemIdByFolderRequest" message="tns:LatestItemIdByFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/LatestItemIdByFolderResponse" name="LatestItemIdByFolderResponse" message="tns:LatestItemIdByFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateInlineHtmlHeader">
-      <wsdl:documentation>
-        <summary>Create Outlook style HTML header to use in for instance reply entities and when printing</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateInlineHtmlHeader" name="CreateInlineHtmlHeaderRequest" message="tns:CreateInlineHtmlHeaderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/CreateInlineHtmlHeaderResponse" name="CreateInlineHtmlHeaderResponse" message="tns:CreateInlineHtmlHeaderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEmailAppointment">
-      <wsdl:documentation>
-        <summary>Get appointment data contained in the emails iCal attachment</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEmailAppointment" name="GetEmailAppointmentRequest" message="tns:GetEmailAppointmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEmailAppointmentResponse" name="GetEmailAppointmentResponse" message="tns:GetEmailAppointmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEmailAppointmentRecurrence">
-      <wsdl:documentation>
-        <summary>Get recurrence data contained in the email iCal attachment</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEmailAppointmentRecurrence" name="GetEmailAppointmentRecurrenceRequest" message="tns:GetEmailAppointmentRecurrenceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEmailAppointmentRecurrenceResponse" name="GetEmailAppointmentRecurrenceResponse" message="tns:GetEmailAppointmentRecurrenceResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetParticipantInfoFromEmailAddress">
-      <wsdl:documentation>
-        <summary>Get participant data associated with the participant in the emails iCal attachment</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetParticipantInfoFromEmailAddress" name="GetParticipantInfoFromEmailAddressRequest" message="tns:GetParticipantInfoFromEmailAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetParticipantInfoFromEmailAddressResponse" name="GetParticipantInfoFromEmailAddressResponse" message="tns:GetParticipantInfoFromEmailAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEmailDocumentAsMimeStream">
-      <wsdl:documentation>
-        <summary>Gets a particular document, and tries to parse it, and returns it in MIME/RFC822 format.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEmailDocumentAsMimeStream" name="GetEmailDocumentAsMimeStreamRequest" message="tns:GetEmailDocumentAsMimeStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEmailDocumentAsMimeStreamResponse" name="GetEmailDocumentAsMimeStreamResponse" message="tns:GetEmailDocumentAsMimeStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailSOInfo">
-      <wsdl:documentation>
-        <summary>Gets a EMailSOInfo object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailSOInfo" name="GetEMailSOInfoRequest" message="tns:GetEMailSOInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailSOInfoResponse" name="GetEMailSOInfoResponse" message="tns:GetEMailSOInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetReadySyncEmailAccounts">
-      <wsdl:documentation>
-        <summary>Gets the list of SyncUserAccounts that should be synced.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetReadySyncEmailAccounts" name="GetReadySyncEmailAccountsRequest" message="tns:GetReadySyncEmailAccountsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetReadySyncEmailAccountsResponse" name="GetReadySyncEmailAccountsResponse" message="tns:GetReadySyncEmailAccountsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SyncEmailAccount">
-      <wsdl:documentation>
-        <summary>Sync the given account</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SyncEmailAccount" name="SyncEmailAccountRequest" message="tns:SyncEmailAccountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SyncEmailAccountResponse" name="SyncEmailAccountResponse" message="tns:SyncEmailAccountResponse" />
     </wsdl:operation>
     <wsdl:operation name="SyncEmailAccounts">
-      <wsdl:documentation>
-        <summary>Start syncing of the given accounts</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SyncEmailAccounts" name="SyncEmailAccountsRequest" message="tns:SyncEmailAccountsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/SyncEmailAccountsResponse" name="SyncEmailAccountsResponse" message="tns:SyncEmailAccountsResponse" />
     </wsdl:operation>
@@ -5742,6 +5513,22 @@ title: Services88.EMailAgent WSDL
         <soap:header message="tns:HasMXRecordResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:HasMXRecordResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:HasMXRecordResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HasSPFRecord">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/HasSPFRecord" style="document" />
+      <wsdl:input name="HasSPFRecordRequest">
+        <soap:header message="tns:HasSPFRecordRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:HasSPFRecordRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:HasSPFRecordRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="HasSPFRecordResponse">
+        <soap:header message="tns:HasSPFRecordResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:HasSPFRecordResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:HasSPFRecordResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:HasSPFRecordResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -6270,6 +6057,22 @@ title: Services88.EMailAgent WSDL
         <soap:header message="tns:GetEmailMessageIdsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetEmailMessageIdsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetEmailMessageIdsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExtendedEmailMessageIds">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetExtendedEmailMessageIds" style="document" />
+      <wsdl:input name="GetExtendedEmailMessageIdsRequest">
+        <soap:header message="tns:GetExtendedEmailMessageIdsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetExtendedEmailMessageIdsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetExtendedEmailMessageIdsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetExtendedEmailMessageIdsResponse">
+        <soap:header message="tns:GetExtendedEmailMessageIdsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetExtendedEmailMessageIdsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetExtendedEmailMessageIdsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetExtendedEmailMessageIdsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -6985,3 +6788,4 @@ title: Services88.EMailAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISentryAgent.GetNewTableR
 
 ## GetNewTableRight
 
-Returns a TableRight for a new row based on tableName parameter.
 
-* **tableName:** Name of the table to get the TableRights from
 
-**Returns:** The TableRight
+
 
 [WSDL file for Services86/Sentry](../Services86-Sentry.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetNewTableRight Response
 
 ```xml
@@ -72,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

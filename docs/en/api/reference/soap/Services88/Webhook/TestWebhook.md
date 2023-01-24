@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IWebhookAgent.TestWebhook
 
 ## TestWebhook
 
-Pings a webhook with a 'test' event, returns SUCCESS(true) or FAILURE(false) + the response from the webhook target.
-<para /><b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **webhook:** Webhook definition to ping. Must contain a valid TargetUrl.
 
-**Returns:** Result of calling webhook. Sucess=true/false + Error message
+
 
 [WSDL file for Services88/Webhook](../Services88-Webhook.md)
 
@@ -64,7 +61,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Webhook:Value xsi:type="xsd:anyType"></Webhook:Value>
       </Webhook:StringObjectKeyValuePair>
      </Webhook:Properties>
-     <Webhook:Registered xsi:type="xsd:dateTime">2022-08-26T09:00:55Z</Webhook:Registered>
+     <Webhook:Registered xsi:type="xsd:dateTime">2023-01-23T10:22:20Z</Webhook:Registered>
      <Webhook:RegisteredAssociate xsi:type="Webhook:Associate">
       <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
       <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -79,7 +76,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Webhook:EjUserId xsi:type="xsd:int">0</Webhook:EjUserId>
       <Webhook:UserName xsi:type="xsd:string"></Webhook:UserName>
      </Webhook:RegisteredAssociate>
-     <Webhook:Updated xsi:type="xsd:dateTime">2022-08-26T09:00:55Z</Webhook:Updated>
+     <Webhook:Updated xsi:type="xsd:dateTime">2023-01-23T10:22:20Z</Webhook:Updated>
      <Webhook:UpdatedAssociate xsi:type="Webhook:Associate">
       <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
       <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -101,6 +98,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## TestWebhook Response
 
@@ -125,3 +123,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

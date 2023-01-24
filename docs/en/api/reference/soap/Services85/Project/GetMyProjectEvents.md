@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IProjectAgent.GetMyProjec
 
 ## GetMyProjectEvents
 
-Gets all project events that belongs to the currently logged on user. The list of events are filtered by the Audience Visibility restrictions set when the project event is created.
 
-**Returns:** Array of project events
+
+
 
 [WSDL file for Services85/Project](../Services85-Project.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetMyProjectEvents Response
 
 ```xml
@@ -72,7 +73,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Project:SignOffText xsi:type="xsd:string"></Project:SignOffText>
      <Project:SignOnConfirmationText xsi:type="xsd:string"></Project:SignOnConfirmationText>
      <Project:SignOnText xsi:type="xsd:string"></Project:SignOnText>
-     <Project:EventDate xsi:type="xsd:dateTime">2022-08-26T08:53:33Z</Project:EventDate>
+     <Project:EventDate xsi:type="xsd:dateTime">2023-01-23T10:15:18Z</Project:EventDate>
      <Project:Enabled xsi:type="xsd:boolean">false</Project:Enabled>
      <Project:SignOff xsi:type="xsd:boolean">false</Project:SignOff>
      <Project:SignOffTaskEnable xsi:type="xsd:boolean">false</Project:SignOffTaskEnable>
@@ -91,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

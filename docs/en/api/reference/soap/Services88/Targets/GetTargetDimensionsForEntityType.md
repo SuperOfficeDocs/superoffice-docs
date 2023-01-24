@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITargetsAgent.GetTargetDi
 
 ## GetTargetDimensionsForEntityType
 
-Returns the target dimensions for the given entity type.
 
-* **entityType:** Targeted entity type
 
-**Returns:** Target dimensions for year and entity type.
+
 
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTargetDimensionsForEntityType Response
 
 ```xml
@@ -69,8 +68,10 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Targets:AssignmentLevel xsi:type="Targets:TargetAssignementLevel">Company</Targets:AssignmentLevel>
      <Targets:EntityType xsi:type="Targets:TargetEntityType">None</Targets:EntityType>
      <Targets:MeasurementUnit xsi:type="Targets:TargetMeasurementUnit">None</Targets:MeasurementUnit>
-     <Targets:DimensionList xsi:type="xsd:string"></Targets:DimensionList>
+     <Targets:DimensionListField xsi:type="xsd:string"></Targets:DimensionListField>
      <Targets:DimensionListName xsi:type="xsd:string"></Targets:DimensionListName>
+     <Targets:DimensionListId xsi:type="xsd:int">0</Targets:DimensionListId>
+     <Targets:DimensionListLabel xsi:type="xsd:string"></Targets:DimensionListLabel>
      <Targets:SelectedDimensions xsi:type="NetServerServices882:ArrayOfint">
       <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
      </Targets:SelectedDimensions>
@@ -81,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

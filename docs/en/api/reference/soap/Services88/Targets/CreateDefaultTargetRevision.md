@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITargetsAgent.CreateDefau
 
 ## CreateDefaultTargetRevision
 
-Loading default values into a new TargetRevision.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New TargetRevision with default values
+
+
 
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultTargetRevision Response
 
 ```xml
@@ -77,7 +77,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Targets:EjUserId xsi:type="xsd:int">0</Targets:EjUserId>
      <Targets:UserName xsi:type="xsd:string"></Targets:UserName>
     </Targets:Who>
-    <Targets:When xsi:type="xsd:dateTime">2022-08-26T09:00:33Z</Targets:When>
+    <Targets:When xsi:type="xsd:dateTime">2023-01-23T10:21:58Z</Targets:When>
     <Targets:Changes xsi:type="Targets:ArrayOfTargetChange">
      <Targets:TargetChange xsi:type="Targets:TargetChange">
       <Targets:FieldIdentifier xsi:type="xsd:string"></Targets:FieldIdentifier>
@@ -91,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

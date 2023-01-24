@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.SaveC
 
 ## SaveConfigurableScreenDelta
 
-Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreenDelta if the id parameter is 0.
 
-* **configurableScreenDelta:** The ConfigurableScreenDelta that is saved.
 
-**Returns:** New or updated ConfigurableScreenDelta
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -49,8 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Configuration:DeltaType xsi:type="Configuration:DeltaType">Unknown</Configuration:DeltaType>
      <Configuration:DeltaState xsi:type="Configuration:DeltaState">Unknown</Configuration:DeltaState>
      <Configuration:RecipeId xsi:type="xsd:string"></Configuration:RecipeId>
-     <Configuration:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Configuration:UpdatedDate>
-     <Configuration:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Configuration:CreatedDate>
+     <Configuration:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:20:14Z</Configuration:UpdatedDate>
+     <Configuration:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:20:14Z</Configuration:CreatedDate>
      <Configuration:UpdatedBy xsi:type="Configuration:Associate">
       <Configuration:AssociateId xsi:type="xsd:int">0</Configuration:AssociateId>
       <Configuration:Name xsi:type="xsd:string"></Configuration:Name>
@@ -91,6 +89,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveConfigurableScreenDelta Response
 
 ```xml
@@ -113,8 +112,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Configuration:DeltaType xsi:type="Configuration:DeltaType">Unknown</Configuration:DeltaType>
     <Configuration:DeltaState xsi:type="Configuration:DeltaState">Unknown</Configuration:DeltaState>
     <Configuration:RecipeId xsi:type="xsd:string"></Configuration:RecipeId>
-    <Configuration:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Configuration:UpdatedDate>
-    <Configuration:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Configuration:CreatedDate>
+    <Configuration:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:20:14Z</Configuration:UpdatedDate>
+    <Configuration:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:20:14Z</Configuration:CreatedDate>
     <Configuration:UpdatedBy xsi:type="Configuration:Associate">
      <Configuration:AssociateId xsi:type="xsd:int">0</Configuration:AssociateId>
      <Configuration:Name xsi:type="xsd:string"></Configuration:Name>
@@ -153,3 +152,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

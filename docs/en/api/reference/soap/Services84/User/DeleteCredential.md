@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.DeleteCredenti
 
 ## DeleteCredential
 
-Remove credential of a specific type for a user
 
-* **userId:** Primary key of the user (i.e. associate)
-* **credentialType:** Type of credentials, corresponding to name of plugin and type in the credentials table
 
-**Returns:** True if credential was sucessfully removed.
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteCredential Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

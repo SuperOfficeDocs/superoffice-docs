@@ -375,35 +375,19 @@ title: Services88.NavigatorAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Navigator">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Navigator</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetNavigatorCompany">
-      <wsdl:documentation>
-        <summary>Gets a NavigatorCompany object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetNavigatorCompany" name="GetNavigatorCompanyRequest" message="tns:GetNavigatorCompanyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetNavigatorCompanyResponse" name="GetNavigatorCompanyResponse" message="tns:GetNavigatorCompanyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllNavigatorCompany">
-      <wsdl:documentation>
-        <summary>Gets an array of all NavigatorCompany objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetAllNavigatorCompany" name="GetAllNavigatorCompanyRequest" message="tns:GetAllNavigatorCompanyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetAllNavigatorCompanyResponse" name="GetAllNavigatorCompanyResponse" message="tns:GetAllNavigatorCompanyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNavigatorCompanyList">
-      <wsdl:documentation>
-        <summary>Gets an array of NavigatorCompany objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetNavigatorCompanyList" name="GetNavigatorCompanyListRequest" message="tns:GetNavigatorCompanyListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetNavigatorCompanyListResponse" name="GetNavigatorCompanyListResponse" message="tns:GetNavigatorCompanyListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNavigatorCompanies">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetNavigatorCompanies" name="GetNavigatorCompaniesRequest" message="tns:GetNavigatorCompaniesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetNavigatorCompaniesResponse" name="GetNavigatorCompaniesResponse" message="tns:GetNavigatorCompaniesResponse" />
     </wsdl:operation>
@@ -482,3 +466,4 @@ title: Services88.NavigatorAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

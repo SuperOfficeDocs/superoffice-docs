@@ -11,7 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.HasGuideAct
 
 ## HasGuideActivities
 
-* **projectId:**
+
+
+
 
 [WSDL file for Services88/Project](../Services88-Project.md)
 
@@ -45,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## HasGuideActivities Response
 
 ```xml
@@ -65,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

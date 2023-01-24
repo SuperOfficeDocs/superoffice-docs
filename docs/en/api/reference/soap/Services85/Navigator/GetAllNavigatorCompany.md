@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.INavigatorAgent.GetAllNav
 
 ## GetAllNavigatorCompany
 
-Gets an array of all NavigatorCompany objects.
 
-**Returns:** Array of all NavigatorCompany objects
+
+
 
 [WSDL file for Services85/Navigator](../Services85-Navigator.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAllNavigatorCompany Response
 
 ```xml
@@ -72,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IFindAgent.FindFromRestri
 
 ## FindFromRestrictionsColumns2
 
-Execute a Find operation and return a page of results. &lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them.
 
-* **restrictions:** String of restrictions specifying the search. e.g.:"name begins 'Super'". Each restriction must match a column of the  given archive provider, and that column must have its CanRestrictBy property set to true.
-* **providerName:** Name of archive provider that is to execute the search and return the result columns/rows
-* **desiredColumns:** Array of column names desired for the result. Each name must match a column offered by the given archive provider.
-* **pageSize:** Size of result set pages
-* **pageNumber:** Result set page to return, 0 is the first page. When a call returns no rows, no further pages are available. Negative page numbers are interpreted as number of rows to skip.
 
-**Returns:** Results from search, containing column information and result rows.
+
 
 [WSDL file for Services85/Find](../Services85-Find.md)
 
@@ -56,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## FindFromRestrictionsColumns2 Response
 
@@ -113,3 +108,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

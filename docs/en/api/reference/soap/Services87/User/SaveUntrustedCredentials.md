@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.SaveUntrustedC
 
 ## SaveUntrustedCredentials
 
-Save credentials for authenticated user.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **type:** Type of credential(Ex: "imap", "smtp")
-* **credentials:** Credentials to save.
+
+
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -43,8 +41,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <User:SaveUntrustedCredentials>
     <User:Type xsi:type="xsd:string"></User:Type>
     <User:Credentials xsi:type="User:UntrustedCredentials">
-     <User:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:58:08Z</User:ValidFrom>
-     <User:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:58:08Z</User:ValidTo>
+     <User:ValidFrom xsi:type="xsd:dateTime">2023-01-23T10:19:41Z</User:ValidFrom>
+     <User:ValidTo xsi:type="xsd:dateTime">2023-01-23T10:19:41Z</User:ValidTo>
      <User:Comment xsi:type="xsd:string"></User:Comment>
      <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
      <User:PublicValue xsi:type="xsd:string"></User:PublicValue>
@@ -56,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveUntrustedCredentials Response
 
@@ -76,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

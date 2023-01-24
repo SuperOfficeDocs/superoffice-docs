@@ -8739,1613 +8739,919 @@ title: Services84.ListAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="List">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for List</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetLocalizedTexts">
-      <wsdl:documentation>
-        <summary>Gets all localized texts in the CRM database.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLocalizedTexts" name="GetLocalizedTextsRequest" message="tns:GetLocalizedTextsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLocalizedTextsResponse" name="GetLocalizedTextsResponse" message="tns:GetLocalizedTextsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLocalizedTextsByLanguageId">
-      <wsdl:documentation>
-        <summary>Gets all localized text belonging to a specific language.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLocalizedTextsByLanguageId" name="GetLocalizedTextsByLanguageIdRequest" message="tns:GetLocalizedTextsByLanguageIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLocalizedTextsByLanguageIdResponse" name="GetLocalizedTextsByLanguageIdResponse" message="tns:GetLocalizedTextsByLanguageIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLocalizedTextsByType">
-      <wsdl:documentation>
-        <summary>Gets localized text by their type</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLocalizedTextsByType" name="GetLocalizedTextsByTypeRequest" message="tns:GetLocalizedTextsByTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLocalizedTextsByTypeResponse" name="GetLocalizedTextsByTypeResponse" message="tns:GetLocalizedTextsByTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMrMrs">
-      <wsdl:documentation>
-        <summary>Gets a MrMrs object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetMrMrs" name="GetMrMrsRequest" message="tns:GetMrMrsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetMrMrsResponse" name="GetMrMrsResponse" message="tns:GetMrMrsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMrMrsList">
-      <wsdl:documentation>
-        <summary>Gets an array of MrMrs objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetMrMrsList" name="GetMrMrsListRequest" message="tns:GetMrMrsListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetMrMrsListResponse" name="GetMrMrsListResponse" message="tns:GetMrMrsListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMrMrses">
-      <wsdl:documentation>
-        <summary>Returns all Items from the MrMrs table sorted by their value.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetMrMrses" name="GetMrMrsesRequest" message="tns:GetMrMrsesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetMrMrsesResponse" name="GetMrMrsesResponse" message="tns:GetMrMrsesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPosition">
-      <wsdl:documentation>
-        <summary>Gets a Position object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPosition" name="GetPositionRequest" message="tns:GetPositionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPositionResponse" name="GetPositionResponse" message="tns:GetPositionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPositionList">
-      <wsdl:documentation>
-        <summary>Gets an array of Position objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPositionList" name="GetPositionListRequest" message="tns:GetPositionListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPositionListResponse" name="GetPositionListResponse" message="tns:GetPositionListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPositions">
-      <wsdl:documentation>
-        <summary>Returns all the positions a person could have.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPositions" name="GetPositionsRequest" message="tns:GetPositionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPositionsResponse" name="GetPositionsResponse" message="tns:GetPositionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPriority">
-      <wsdl:documentation>
-        <summary>Gets a Priority object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPriority" name="GetPriorityRequest" message="tns:GetPriorityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPriorityResponse" name="GetPriorityResponse" message="tns:GetPriorityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPriorityList">
-      <wsdl:documentation>
-        <summary>Gets an array of Priority objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPriorityList" name="GetPriorityListRequest" message="tns:GetPriorityListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPriorityListResponse" name="GetPriorityListResponse" message="tns:GetPriorityListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPriorities">
-      <wsdl:documentation>
-        <summary>Returns all priorities an appointment could have.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPriorities" name="GetPrioritiesRequest" message="tns:GetPrioritiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPrioritiesResponse" name="GetPrioritiesResponse" message="tns:GetPrioritiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProductCategory">
-      <wsdl:documentation>
-        <summary>Gets a ProductCategory object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProductCategory" name="GetProductCategoryRequest" message="tns:GetProductCategoryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProductCategoryResponse" name="GetProductCategoryResponse" message="tns:GetProductCategoryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProductCategories">
-      <wsdl:documentation>
-        <summary>Returns all ProductCategories in SuperOffice list.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProductCategories" name="GetProductCategoriesRequest" message="tns:GetProductCategoriesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProductCategoriesResponse" name="GetProductCategoriesResponse" message="tns:GetProductCategoriesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProductFamily">
-      <wsdl:documentation>
-        <summary>Gets a ProductFamily object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProductFamily" name="GetProductFamilyRequest" message="tns:GetProductFamilyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProductFamilyResponse" name="GetProductFamilyResponse" message="tns:GetProductFamilyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProductFamilies">
-      <wsdl:documentation>
-        <summary>Returns all ProductFamily in SuperOffice list.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProductFamilies" name="GetProductFamiliesRequest" message="tns:GetProductFamiliesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProductFamiliesResponse" name="GetProductFamiliesResponse" message="tns:GetProductFamiliesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProductType">
-      <wsdl:documentation>
-        <summary>Gets a ProductType object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProductType" name="GetProductTypeRequest" message="tns:GetProductTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProductTypeResponse" name="GetProductTypeResponse" message="tns:GetProductTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProductTypes">
-      <wsdl:documentation>
-        <summary>Returns all ProductTypes in SuperOffice list.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProductTypes" name="GetProductTypesRequest" message="tns:GetProductTypesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProductTypesResponse" name="GetProductTypesResponse" message="tns:GetProductTypesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectStatus">
-      <wsdl:documentation>
-        <summary>Gets a ProjectStatus object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectStatus" name="GetProjectStatusRequest" message="tns:GetProjectStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectStatusResponse" name="GetProjectStatusResponse" message="tns:GetProjectStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteProjectStatus">
-      <wsdl:documentation>
-        <summary>Deletes a project status</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteProjectStatus" name="DeleteProjectStatusRequest" message="tns:DeleteProjectStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteProjectStatusResponse" name="DeleteProjectStatusResponse" message="tns:DeleteProjectStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectStatusList">
-      <wsdl:documentation>
-        <summary>Gets an array of ProjectStatus objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectStatusList" name="GetProjectStatusListRequest" message="tns:GetProjectStatusListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectStatusListResponse" name="GetProjectStatusListResponse" message="tns:GetProjectStatusListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectStatuses">
-      <wsdl:documentation>
-        <summary>Gets all items from the Project Status (ProjStatus) table.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectStatuses" name="GetProjectStatusesRequest" message="tns:GetProjectStatusesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectStatusesResponse" name="GetProjectStatusesResponse" message="tns:GetProjectStatusesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectType">
-      <wsdl:documentation>
-        <summary>Gets a ProjectType object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectType" name="GetProjectTypeRequest" message="tns:GetProjectTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectTypeResponse" name="GetProjectTypeResponse" message="tns:GetProjectTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectTypeEntity">
-      <wsdl:documentation>
-        <summary>Gets a ProjectTypeEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectTypeEntity" name="GetProjectTypeEntityRequest" message="tns:GetProjectTypeEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectTypeEntityResponse" name="GetProjectTypeEntityResponse" message="tns:GetProjectTypeEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectTypeList">
-      <wsdl:documentation>
-        <summary>Gets an array of ProjectType objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectTypeList" name="GetProjectTypeListRequest" message="tns:GetProjectTypeListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectTypeListResponse" name="GetProjectTypeListResponse" message="tns:GetProjectTypeListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectTypes">
-      <wsdl:documentation>
-        <summary>Gets all items from the Project Type (ProjType) table.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectTypes" name="GetProjectTypesRequest" message="tns:GetProjectTypesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetProjectTypesResponse" name="GetProjectTypesResponse" message="tns:GetProjectTypesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRating">
-      <wsdl:documentation>
-        <summary>Gets a Rating object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetRating" name="GetRatingRequest" message="tns:GetRatingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetRatingResponse" name="GetRatingResponse" message="tns:GetRatingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRatingList">
-      <wsdl:documentation>
-        <summary>Gets an array of Rating objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetRatingList" name="GetRatingListRequest" message="tns:GetRatingListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetRatingListResponse" name="GetRatingListResponse" message="tns:GetRatingListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRatings">
-      <wsdl:documentation>
-        <summary>Returns all ratings</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetRatings" name="GetRatingsRequest" message="tns:GetRatingsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetRatingsResponse" name="GetRatingsResponse" message="tns:GetRatingsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllSaleStages">
-      <wsdl:documentation>
-        <summary>Returns all ratings</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllSaleStages" name="GetAllSaleStagesRequest" message="tns:GetAllSaleStagesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllSaleStagesResponse" name="GetAllSaleStagesResponse" message="tns:GetAllSaleStagesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetReason">
-      <wsdl:documentation>
-        <summary>Gets a Reason object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReason" name="GetReasonRequest" message="tns:GetReasonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReasonResponse" name="GetReasonResponse" message="tns:GetReasonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetReasonList">
-      <wsdl:documentation>
-        <summary>Gets an array of Reason objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReasonList" name="GetReasonListRequest" message="tns:GetReasonListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReasonListResponse" name="GetReasonListResponse" message="tns:GetReasonListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetReasons">
-      <wsdl:documentation>
-        <summary>Returns all reasons</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReasons" name="GetReasonsRequest" message="tns:GetReasonsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReasonsResponse" name="GetReasonsResponse" message="tns:GetReasonsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetReasonSold">
-      <wsdl:documentation>
-        <summary>Gets a ReasonSold object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReasonSold" name="GetReasonSoldRequest" message="tns:GetReasonSoldRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReasonSoldResponse" name="GetReasonSoldResponse" message="tns:GetReasonSoldResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllReasonSold">
-      <wsdl:documentation>
-        <summary>Gets an array of all ReasonSold objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllReasonSold" name="GetAllReasonSoldRequest" message="tns:GetAllReasonSoldRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllReasonSoldResponse" name="GetAllReasonSoldResponse" message="tns:GetAllReasonSoldResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetReasonSoldList">
-      <wsdl:documentation>
-        <summary>Gets an array of ReasonSold objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReasonSoldList" name="GetReasonSoldListRequest" message="tns:GetReasonSoldListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReasonSoldListResponse" name="GetReasonSoldListResponse" message="tns:GetReasonSoldListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetReasonStalled">
-      <wsdl:documentation>
-        <summary>Gets a ReasonStalled object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReasonStalled" name="GetReasonStalledRequest" message="tns:GetReasonStalledRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReasonStalledResponse" name="GetReasonStalledResponse" message="tns:GetReasonStalledResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllReasonStalled">
-      <wsdl:documentation>
-        <summary>Gets an array of all ReasonStalled objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllReasonStalled" name="GetAllReasonStalledRequest" message="tns:GetAllReasonStalledRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllReasonStalledResponse" name="GetAllReasonStalledResponse" message="tns:GetAllReasonStalledResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetReasonStalledList">
-      <wsdl:documentation>
-        <summary>Gets an array of ReasonStalled objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReasonStalledList" name="GetReasonStalledListRequest" message="tns:GetReasonStalledListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetReasonStalledListResponse" name="GetReasonStalledListResponse" message="tns:GetReasonStalledListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetResourceEntity">
-      <wsdl:documentation>
-        <summary>Gets a ResourceEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetResourceEntity" name="GetResourceEntityRequest" message="tns:GetResourceEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetResourceEntityResponse" name="GetResourceEntityResponse" message="tns:GetResourceEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSaleStageEntity">
-      <wsdl:documentation>
-        <summary>Gets a SaleStageEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSaleStageEntity" name="GetSaleStageEntityRequest" message="tns:GetSaleStageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSaleStageEntityResponse" name="GetSaleStageEntityResponse" message="tns:GetSaleStageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSaleType">
-      <wsdl:documentation>
-        <summary>Gets a SaleType object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSaleType" name="GetSaleTypeRequest" message="tns:GetSaleTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSaleTypeResponse" name="GetSaleTypeResponse" message="tns:GetSaleTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSaleTypeEntity">
-      <wsdl:documentation>
-        <summary>Gets a SaleTypeEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSaleTypeEntity" name="GetSaleTypeEntityRequest" message="tns:GetSaleTypeEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSaleTypeEntityResponse" name="GetSaleTypeEntityResponse" message="tns:GetSaleTypeEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllSaleType">
-      <wsdl:documentation>
-        <summary>Gets an array of all SaleType objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllSaleType" name="GetAllSaleTypeRequest" message="tns:GetAllSaleTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllSaleTypeResponse" name="GetAllSaleTypeResponse" message="tns:GetAllSaleTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSaleTypeList">
-      <wsdl:documentation>
-        <summary>Gets an array of SaleType objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSaleTypeList" name="GetSaleTypeListRequest" message="tns:GetSaleTypeListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSaleTypeListResponse" name="GetSaleTypeListResponse" message="tns:GetSaleTypeListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSelectionCategory">
-      <wsdl:documentation>
-        <summary>Gets a SelectionCategory object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSelectionCategory" name="GetSelectionCategoryRequest" message="tns:GetSelectionCategoryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSelectionCategoryResponse" name="GetSelectionCategoryResponse" message="tns:GetSelectionCategoryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllSelectionCategory">
-      <wsdl:documentation>
-        <summary>Gets an array of all SelectionCategory objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllSelectionCategory" name="GetAllSelectionCategoryRequest" message="tns:GetAllSelectionCategoryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllSelectionCategoryResponse" name="GetAllSelectionCategoryResponse" message="tns:GetAllSelectionCategoryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSelectionCategoryList">
-      <wsdl:documentation>
-        <summary>Gets an array of SelectionCategory objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSelectionCategoryList" name="GetSelectionCategoryListRequest" message="tns:GetSelectionCategoryListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSelectionCategoryListResponse" name="GetSelectionCategoryListResponse" message="tns:GetSelectionCategoryListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSource">
-      <wsdl:documentation>
-        <summary>Gets a Source object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSource" name="GetSourceRequest" message="tns:GetSourceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSourceResponse" name="GetSourceResponse" message="tns:GetSourceResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSourceList">
-      <wsdl:documentation>
-        <summary>Gets an array of Source objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSourceList" name="GetSourceListRequest" message="tns:GetSourceListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSourceListResponse" name="GetSourceListResponse" message="tns:GetSourceListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSources">
-      <wsdl:documentation>
-        <summary>Returns all sources</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSources" name="GetSourcesRequest" message="tns:GetSourcesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetSourcesResponse" name="GetSourcesResponse" message="tns:GetSourcesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTask">
-      <wsdl:documentation>
-        <summary>Gets a Task object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetTask" name="GetTaskRequest" message="tns:GetTaskRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetTaskResponse" name="GetTaskResponse" message="tns:GetTaskResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTemplateTask">
-      <wsdl:documentation>
-        <summary>Returns a Document Template list item as a TaskListItem. The appointment's task is a Document template item when the appointment is a document.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateTask" name="GetDocumentTemplateTaskRequest" message="tns:GetDocumentTemplateTaskRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateTaskResponse" name="GetDocumentTemplateTaskResponse" message="tns:GetDocumentTemplateTaskResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTaskList">
-      <wsdl:documentation>
-        <summary>Gets an array of Task objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetTaskList" name="GetTaskListRequest" message="tns:GetTaskListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetTaskListResponse" name="GetTaskListResponse" message="tns:GetTaskListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTasks">
-      <wsdl:documentation>
-        <summary>Returns all appointment tasks</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetTasks" name="GetTasksRequest" message="tns:GetTasksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetTasksResponse" name="GetTasksResponse" message="tns:GetTasksResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTemplatesTasks">
-      <wsdl:documentation>
-        <summary>The appointment's task is a Document template item when the appointment is a document.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplatesTasks" name="GetDocumentTemplatesTasksRequest" message="tns:GetDocumentTemplatesTasksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplatesTasksResponse" name="GetDocumentTemplatesTasksResponse" message="tns:GetDocumentTemplatesTasksResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllTasks">
-      <wsdl:documentation>
-        <summary>Returns all appointment tasks</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllTasks" name="GetAllTasksRequest" message="tns:GetAllTasksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllTasksResponse" name="GetAllTasksResponse" message="tns:GetAllTasksResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketPriority">
-      <wsdl:documentation>
-        <summary>Gets a TicketPriority object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetTicketPriority" name="GetTicketPriorityRequest" message="tns:GetTicketPriorityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetTicketPriorityResponse" name="GetTicketPriorityResponse" message="tns:GetTicketPriorityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketPriorityList">
-      <wsdl:documentation>
-        <summary>Gets an array of TicketPriority objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetTicketPriorityList" name="GetTicketPriorityListRequest" message="tns:GetTicketPriorityListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetTicketPriorityListResponse" name="GetTicketPriorityListResponse" message="tns:GetTicketPriorityListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketPriorities">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetTicketPriorities" name="GetTicketPrioritiesRequest" message="tns:GetTicketPrioritiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetTicketPrioritiesResponse" name="GetTicketPrioritiesResponse" message="tns:GetTicketPrioritiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetWebPanelEntity">
-      <wsdl:documentation>
-        <summary>Gets a WebPanelEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetWebPanelEntity" name="GetWebPanelEntityRequest" message="tns:GetWebPanelEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetWebPanelEntityResponse" name="GetWebPanelEntityResponse" message="tns:GetWebPanelEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GenerateNavigationUrl">
-      <wsdl:documentation>
-        <summary>This methods generates the navigation URL to be used to navigate to the panel</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GenerateNavigationUrl" name="GenerateNavigationUrlRequest" message="tns:GenerateNavigationUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GenerateNavigationUrlResponse" name="GenerateNavigationUrlResponse" message="tns:GenerateNavigationUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetWebPanelList">
-      <wsdl:documentation>
-        <summary>Return a list of all web panels. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetWebPanelList" name="GetWebPanelListRequest" message="tns:GetWebPanelListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetWebPanelListResponse" name="GetWebPanelListResponse" message="tns:GetWebPanelListResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteWebPanel">
-      <wsdl:documentation>
-        <summary>Hard-delete (real, permanent DELETE in the database) the given web panel. Use with care!</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteWebPanel" name="DeleteWebPanelRequest" message="tns:DeleteWebPanelRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteWebPanelResponse" name="DeleteWebPanelResponse" message="tns:DeleteWebPanelResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAppWebPanels">
-      <wsdl:documentation>
-        <summary>Get all web panels owned by your app; works in Online only, for registered Apps that send a valid ApplicationToken</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAppWebPanels" name="GetAppWebPanelsRequest" message="tns:GetAppWebPanelsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAppWebPanelsResponse" name="GetAppWebPanelsResponse" message="tns:GetAppWebPanelsResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteAppWebPanels">
-      <wsdl:documentation>
-        <summary>Permanentely delete all web panels owned by your app; works in Online only, for registered Apps that send a valid ApplicationToken; otherwise nothing happens</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteAppWebPanels" name="DeleteAppWebPanelsRequest" message="tns:DeleteAppWebPanelsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteAppWebPanelsResponse" name="DeleteAppWebPanelsResponse" message="tns:DeleteAppWebPanelsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetWebPanelByProgId">
-      <wsdl:documentation>
-        <summary>Get a web panel using the ProgId key that was specified when it was created</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetWebPanelByProgId" name="GetWebPanelByProgIdRequest" message="tns:GetWebPanelByProgIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetWebPanelByProgIdResponse" name="GetWebPanelByProgIdResponse" message="tns:GetWebPanelByProgIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetExtAppEntity">
-      <wsdl:documentation>
-        <summary>Gets a ExtAppEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetExtAppEntity" name="GetExtAppEntityRequest" message="tns:GetExtAppEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetExtAppEntityResponse" name="GetExtAppEntityResponse" message="tns:GetExtAppEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTemplateEntity">
-      <wsdl:documentation>
-        <summary>Gets a DocumentTemplateEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateEntity" name="GetDocumentTemplateEntityRequest" message="tns:GetDocumentTemplateEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateEntityResponse" name="GetDocumentTemplateEntityResponse" message="tns:GetDocumentTemplateEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDocumentTemplateStream">
-      <wsdl:documentation>
-        <summary>Store a document template from its stream. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetDocumentTemplateStream" name="SetDocumentTemplateStreamRequest" message="tns:SetDocumentTemplateStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetDocumentTemplateStreamResponse" name="SetDocumentTemplateStreamResponse" message="tns:SetDocumentTemplateStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTemplateUsedInSalesStage">
-      <wsdl:documentation>
-        <summary>Get a String array of names in sales guide that this template is used in</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateUsedInSalesStage" name="GetDocumentTemplateUsedInSalesStageRequest" message="tns:GetDocumentTemplateUsedInSalesStageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateUsedInSalesStageResponse" name="GetDocumentTemplateUsedInSalesStageResponse" message="tns:GetDocumentTemplateUsedInSalesStageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTemplateUsedInProjectStage">
-      <wsdl:documentation>
-        <summary>Get a String array of names in project guide that this template is used in</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateUsedInProjectStage" name="GetDocumentTemplateUsedInProjectStageRequest" message="tns:GetDocumentTemplateUsedInProjectStageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateUsedInProjectStageResponse" name="GetDocumentTemplateUsedInProjectStageResponse" message="tns:GetDocumentTemplateUsedInProjectStageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTemplateUrl">
-      <wsdl:documentation>
-        <summary>Get a url to the document template</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateUrl" name="GetDocumentTemplateUrlRequest" message="tns:GetDocumentTemplateUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateUrlResponse" name="GetDocumentTemplateUrlResponse" message="tns:GetDocumentTemplateUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTemplateProperties">
-      <wsdl:documentation>
-        <summary>Get document template properties</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateProperties" name="GetDocumentTemplatePropertiesRequest" message="tns:GetDocumentTemplatePropertiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplatePropertiesResponse" name="GetDocumentTemplatePropertiesResponse" message="tns:GetDocumentTemplatePropertiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTemplateLanguages">
-      <wsdl:documentation>
-        <summary>Get the supported language variations for a document template</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateLanguages" name="GetDocumentTemplateLanguagesRequest" message="tns:GetDocumentTemplateLanguagesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateLanguagesResponse" name="GetDocumentTemplateLanguagesResponse" message="tns:GetDocumentTemplateLanguagesResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultDocumentTemplateLanguage">
-      <wsdl:documentation>
-        <summary>Create a new document template language based on an existing template</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultDocumentTemplateLanguage" name="CreateDefaultDocumentTemplateLanguageRequest" message="tns:CreateDefaultDocumentTemplateLanguageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultDocumentTemplateLanguageResponse" name="CreateDefaultDocumentTemplateLanguageResponse" message="tns:CreateDefaultDocumentTemplateLanguageResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteDocumentTemplateLanguage">
-      <wsdl:documentation>
-        <summary>Deletes language variant of the document template</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteDocumentTemplateLanguage" name="DeleteDocumentTemplateLanguageRequest" message="tns:DeleteDocumentTemplateLanguageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteDocumentTemplateLanguageResponse" name="DeleteDocumentTemplateLanguageResponse" message="tns:DeleteDocumentTemplateLanguageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTemplateExtension">
-      <wsdl:documentation>
-        <summary>Get the file extension for the document template</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateExtension" name="GetDocumentTemplateExtensionRequest" message="tns:GetDocumentTemplateExtensionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateExtensionResponse" name="GetDocumentTemplateExtensionResponse" message="tns:GetDocumentTemplateExtensionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDocumentTemplateFromDocumentTemplate">
-      <wsdl:documentation>
-        <summary>Create a new document template based on another template</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetDocumentTemplateFromDocumentTemplate" name="SetDocumentTemplateFromDocumentTemplateRequest" message="tns:SetDocumentTemplateFromDocumentTemplateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetDocumentTemplateFromDocumentTemplateResponse" name="SetDocumentTemplateFromDocumentTemplateResponse" message="tns:SetDocumentTemplateFromDocumentTemplateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTemplateStreamFromId">
-      <wsdl:documentation>
-        <summary>Retrieve a stream to a document template based on its id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateStreamFromId" name="GetDocumentTemplateStreamFromIdRequest" message="tns:GetDocumentTemplateStreamFromIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateStreamFromIdResponse" name="GetDocumentTemplateStreamFromIdResponse" message="tns:GetDocumentTemplateStreamFromIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDocumentTemplateStream">
-      <wsdl:documentation>
-        <summary>Writes content in stream to document template file</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveDocumentTemplateStream" name="SaveDocumentTemplateStreamRequest" message="tns:SaveDocumentTemplateStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveDocumentTemplateStreamResponse" name="SaveDocumentTemplateStreamResponse" message="tns:SaveDocumentTemplateStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPluginList">
-      <wsdl:documentation>
-        <summary>Get a list of installed document plugins</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPluginList" name="GetPluginListRequest" message="tns:GetPluginListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPluginListResponse" name="GetPluginListResponse" message="tns:GetPluginListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPluginCapabilities">
-      <wsdl:documentation>
-        <summary>Get a list of plugin-dependent capabilities for a given document archive plugin.&lt;br/&gt;A standard set of properties is defined in SuperOffice.CRM.Documents.Constants.Capabilities.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPluginCapabilities" name="GetPluginCapabilitiesRequest" message="tns:GetPluginCapabilitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPluginCapabilitiesResponse" name="GetPluginCapabilitiesResponse" message="tns:GetPluginCapabilitiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTypesForPlugin">
-      <wsdl:documentation>
-        <summary>Get a list of document types supported by a given document plugin. Use the document template type when creating a new template.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTypesForPlugin" name="GetDocumentTypesForPluginRequest" message="tns:GetDocumentTypesForPluginRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTypesForPluginResponse" name="GetDocumentTypesForPluginResponse" message="tns:GetDocumentTypesForPluginResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRelationDefinitionEntity">
-      <wsdl:documentation>
-        <summary>Gets a RelationDefinitionEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetRelationDefinitionEntity" name="GetRelationDefinitionEntityRequest" message="tns:GetRelationDefinitionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetRelationDefinitionEntityResponse" name="GetRelationDefinitionEntityResponse" message="tns:GetRelationDefinitionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveQuickReplies">
-      <wsdl:documentation>
-        <summary>Method to save all quick replies for a given associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveQuickReplies" name="SaveQuickRepliesRequest" message="tns:SaveQuickRepliesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveQuickRepliesResponse" name="SaveQuickRepliesResponse" message="tns:SaveQuickRepliesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuickReplies">
-      <wsdl:documentation>
-        <summary>Method to return all quick replies for a given associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetQuickReplies" name="GetQuickRepliesRequest" message="tns:GetQuickRepliesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetQuickRepliesResponse" name="GetQuickRepliesResponse" message="tns:GetQuickRepliesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConsentPurpose">
-      <wsdl:documentation>
-        <summary>Gets a ConsentPurpose object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetConsentPurpose" name="GetConsentPurposeRequest" message="tns:GetConsentPurposeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetConsentPurposeResponse" name="GetConsentPurposeResponse" message="tns:GetConsentPurposeResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveConsentPurpose">
-      <wsdl:documentation>
-        <summary>Save a ConsentPurpose object</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveConsentPurpose" name="SaveConsentPurposeRequest" message="tns:SaveConsentPurposeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveConsentPurposeResponse" name="SaveConsentPurposeResponse" message="tns:SaveConsentPurposeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConsentPurposeList">
-      <wsdl:documentation>
-        <summary>Gets an array of ConsentPurpose objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetConsentPurposeList" name="GetConsentPurposeListRequest" message="tns:GetConsentPurposeListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetConsentPurposeListResponse" name="GetConsentPurposeListResponse" message="tns:GetConsentPurposeListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConsentPurposes">
-      <wsdl:documentation>
-        <summary>Returns all defined purposes.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetConsentPurposes" name="GetConsentPurposesRequest" message="tns:GetConsentPurposesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetConsentPurposesResponse" name="GetConsentPurposesResponse" message="tns:GetConsentPurposesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConsentSource">
-      <wsdl:documentation>
-        <summary>Gets a ConsentSource object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetConsentSource" name="GetConsentSourceRequest" message="tns:GetConsentSourceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetConsentSourceResponse" name="GetConsentSourceResponse" message="tns:GetConsentSourceResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveConsentSource">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveConsentSource" name="SaveConsentSourceRequest" message="tns:SaveConsentSourceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveConsentSourceResponse" name="SaveConsentSourceResponse" message="tns:SaveConsentSourceResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllConsentSource">
-      <wsdl:documentation>
-        <summary>Gets an array of all ConsentSource objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllConsentSource" name="GetAllConsentSourceRequest" message="tns:GetAllConsentSourceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllConsentSourceResponse" name="GetAllConsentSourceResponse" message="tns:GetAllConsentSourceResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConsentSourceList">
-      <wsdl:documentation>
-        <summary>Gets an array of ConsentSource objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetConsentSourceList" name="GetConsentSourceListRequest" message="tns:GetConsentSourceListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetConsentSourceListResponse" name="GetConsentSourceListResponse" message="tns:GetConsentSourceListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConsentSources">
-      <wsdl:documentation>
-        <summary>Returns all defined Sources.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetConsentSources" name="GetConsentSourcesRequest" message="tns:GetConsentSourcesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetConsentSourcesResponse" name="GetConsentSourcesResponse" message="tns:GetConsentSourcesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLegalBase">
-      <wsdl:documentation>
-        <summary>Gets a LegalBase object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLegalBase" name="GetLegalBaseRequest" message="tns:GetLegalBaseRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLegalBaseResponse" name="GetLegalBaseResponse" message="tns:GetLegalBaseResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveLegalBase">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveLegalBase" name="SaveLegalBaseRequest" message="tns:SaveLegalBaseRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveLegalBaseResponse" name="SaveLegalBaseResponse" message="tns:SaveLegalBaseResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllLegalBase">
-      <wsdl:documentation>
-        <summary>Gets an array of all LegalBase objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllLegalBase" name="GetAllLegalBaseRequest" message="tns:GetAllLegalBaseRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllLegalBaseResponse" name="GetAllLegalBaseResponse" message="tns:GetAllLegalBaseResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLegalBaseList">
-      <wsdl:documentation>
-        <summary>Gets an array of LegalBase objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLegalBaseList" name="GetLegalBaseListRequest" message="tns:GetLegalBaseListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLegalBaseListResponse" name="GetLegalBaseListResponse" message="tns:GetLegalBaseListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLegalBases">
-      <wsdl:documentation>
-        <summary>Returns all defined bases.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLegalBases" name="GetLegalBasesRequest" message="tns:GetLegalBasesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLegalBasesResponse" name="GetLegalBasesResponse" message="tns:GetLegalBasesResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultCurrencyEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new CurrencyEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultCurrencyEntity" name="CreateDefaultCurrencyEntityRequest" message="tns:CreateDefaultCurrencyEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultCurrencyEntityResponse" name="CreateDefaultCurrencyEntityResponse" message="tns:CreateDefaultCurrencyEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveCurrencyEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveCurrencyEntity" name="SaveCurrencyEntityRequest" message="tns:SaveCurrencyEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveCurrencyEntityResponse" name="SaveCurrencyEntityResponse" message="tns:SaveCurrencyEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultAmountClassEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new AmountClassEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultAmountClassEntity" name="CreateDefaultAmountClassEntityRequest" message="tns:CreateDefaultAmountClassEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultAmountClassEntityResponse" name="CreateDefaultAmountClassEntityResponse" message="tns:CreateDefaultAmountClassEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveAmountClassEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing AmountClassEntity or creates a new AmountClassEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveAmountClassEntity" name="SaveAmountClassEntityRequest" message="tns:SaveAmountClassEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveAmountClassEntityResponse" name="SaveAmountClassEntityResponse" message="tns:SaveAmountClassEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultHeadingEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new HeadingEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultHeadingEntity" name="CreateDefaultHeadingEntityRequest" message="tns:CreateDefaultHeadingEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultHeadingEntityResponse" name="CreateDefaultHeadingEntityResponse" message="tns:CreateDefaultHeadingEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveHeadingEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing HeadingEntity or creates a new HeadingEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingEntity" name="SaveHeadingEntityRequest" message="tns:SaveHeadingEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingEntityResponse" name="SaveHeadingEntityResponse" message="tns:SaveHeadingEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultListEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ListEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultListEntity" name="CreateDefaultListEntityRequest" message="tns:CreateDefaultListEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultListEntityResponse" name="CreateDefaultListEntityResponse" message="tns:CreateDefaultListEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveListEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ListEntity or creates a new ListEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveListEntity" name="SaveListEntityRequest" message="tns:SaveListEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveListEntityResponse" name="SaveListEntityResponse" message="tns:SaveListEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteListEntity">
-      <wsdl:documentation>
-        <summary>Deletes the ListEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteListEntity" name="DeleteListEntityRequest" message="tns:DeleteListEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteListEntityResponse" name="DeleteListEntityResponse" message="tns:DeleteListEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultListItemEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ListItemEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultListItemEntity" name="CreateDefaultListItemEntityRequest" message="tns:CreateDefaultListItemEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultListItemEntityResponse" name="CreateDefaultListItemEntityResponse" message="tns:CreateDefaultListItemEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultProjectTypeEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ProjectTypeEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultProjectTypeEntity" name="CreateDefaultProjectTypeEntityRequest" message="tns:CreateDefaultProjectTypeEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultProjectTypeEntityResponse" name="CreateDefaultProjectTypeEntityResponse" message="tns:CreateDefaultProjectTypeEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveProjectTypeEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveProjectTypeEntity" name="SaveProjectTypeEntityRequest" message="tns:SaveProjectTypeEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveProjectTypeEntityResponse" name="SaveProjectTypeEntityResponse" message="tns:SaveProjectTypeEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultResourceEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ResourceEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultResourceEntity" name="CreateDefaultResourceEntityRequest" message="tns:CreateDefaultResourceEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultResourceEntityResponse" name="CreateDefaultResourceEntityResponse" message="tns:CreateDefaultResourceEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveResourceEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ResourceEntity or creates a new ResourceEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveResourceEntity" name="SaveResourceEntityRequest" message="tns:SaveResourceEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveResourceEntityResponse" name="SaveResourceEntityResponse" message="tns:SaveResourceEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteResourceEntity">
-      <wsdl:documentation>
-        <summary>Deletes the ResourceEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteResourceEntity" name="DeleteResourceEntityRequest" message="tns:DeleteResourceEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteResourceEntityResponse" name="DeleteResourceEntityResponse" message="tns:DeleteResourceEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultSaleStageEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new SaleStageEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultSaleStageEntity" name="CreateDefaultSaleStageEntityRequest" message="tns:CreateDefaultSaleStageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultSaleStageEntityResponse" name="CreateDefaultSaleStageEntityResponse" message="tns:CreateDefaultSaleStageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveSaleStageEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing SaleStageEntity or creates a new SaleStageEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveSaleStageEntity" name="SaveSaleStageEntityRequest" message="tns:SaveSaleStageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveSaleStageEntityResponse" name="SaveSaleStageEntityResponse" message="tns:SaveSaleStageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultSaleTypeEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new SaleTypeEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultSaleTypeEntity" name="CreateDefaultSaleTypeEntityRequest" message="tns:CreateDefaultSaleTypeEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultSaleTypeEntityResponse" name="CreateDefaultSaleTypeEntityResponse" message="tns:CreateDefaultSaleTypeEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveSaleTypeEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveSaleTypeEntity" name="SaveSaleTypeEntityRequest" message="tns:SaveSaleTypeEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveSaleTypeEntityResponse" name="SaveSaleTypeEntityResponse" message="tns:SaveSaleTypeEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultWebPanelEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new WebPanelEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultWebPanelEntity" name="CreateDefaultWebPanelEntityRequest" message="tns:CreateDefaultWebPanelEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultWebPanelEntityResponse" name="CreateDefaultWebPanelEntityResponse" message="tns:CreateDefaultWebPanelEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveWebPanelEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveWebPanelEntity" name="SaveWebPanelEntityRequest" message="tns:SaveWebPanelEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveWebPanelEntityResponse" name="SaveWebPanelEntityResponse" message="tns:SaveWebPanelEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultExtAppEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ExtAppEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultExtAppEntity" name="CreateDefaultExtAppEntityRequest" message="tns:CreateDefaultExtAppEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultExtAppEntityResponse" name="CreateDefaultExtAppEntityResponse" message="tns:CreateDefaultExtAppEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveExtAppEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveExtAppEntity" name="SaveExtAppEntityRequest" message="tns:SaveExtAppEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveExtAppEntityResponse" name="SaveExtAppEntityResponse" message="tns:SaveExtAppEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultDocumentTemplateEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new DocumentTemplateEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultDocumentTemplateEntity" name="CreateDefaultDocumentTemplateEntityRequest" message="tns:CreateDefaultDocumentTemplateEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultDocumentTemplateEntityResponse" name="CreateDefaultDocumentTemplateEntityResponse" message="tns:CreateDefaultDocumentTemplateEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDocumentTemplateEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing DocumentTemplateEntity or creates a new DocumentTemplateEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveDocumentTemplateEntity" name="SaveDocumentTemplateEntityRequest" message="tns:SaveDocumentTemplateEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveDocumentTemplateEntityResponse" name="SaveDocumentTemplateEntityResponse" message="tns:SaveDocumentTemplateEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultRelationDefinitionEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new RelationDefinitionEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultRelationDefinitionEntity" name="CreateDefaultRelationDefinitionEntityRequest" message="tns:CreateDefaultRelationDefinitionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultRelationDefinitionEntityResponse" name="CreateDefaultRelationDefinitionEntityResponse" message="tns:CreateDefaultRelationDefinitionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveRelationDefinitionEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing RelationDefinitionEntity or creates a new RelationDefinitionEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveRelationDefinitionEntity" name="SaveRelationDefinitionEntityRequest" message="tns:SaveRelationDefinitionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveRelationDefinitionEntityResponse" name="SaveRelationDefinitionEntityResponse" message="tns:SaveRelationDefinitionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBusiness">
-      <wsdl:documentation>
-        <summary>Gets a Business object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetBusiness" name="GetBusinessRequest" message="tns:GetBusinessRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetBusinessResponse" name="GetBusinessResponse" message="tns:GetBusinessResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBusinessList">
-      <wsdl:documentation>
-        <summary>Gets an array of Business objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetBusinessList" name="GetBusinessListRequest" message="tns:GetBusinessListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetBusinessListResponse" name="GetBusinessListResponse" message="tns:GetBusinessListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBusinesses">
-      <wsdl:documentation>
-        <summary>Returns all available businesses that a contact could have.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetBusinesses" name="GetBusinessesRequest" message="tns:GetBusinessesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetBusinessesResponse" name="GetBusinessesResponse" message="tns:GetBusinessesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCategory">
-      <wsdl:documentation>
-        <summary>Gets a Category object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCategory" name="GetCategoryRequest" message="tns:GetCategoryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCategoryResponse" name="GetCategoryResponse" message="tns:GetCategoryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCategoryList">
-      <wsdl:documentation>
-        <summary>Gets an array of Category objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCategoryList" name="GetCategoryListRequest" message="tns:GetCategoryListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCategoryListResponse" name="GetCategoryListResponse" message="tns:GetCategoryListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCategories">
-      <wsdl:documentation>
-        <summary>Returns all categories a contact could belong to</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCategories" name="GetCategoriesRequest" message="tns:GetCategoriesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCategoriesResponse" name="GetCategoriesResponse" message="tns:GetCategoriesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCompetitor">
-      <wsdl:documentation>
-        <summary>Gets a Competitor object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCompetitor" name="GetCompetitorRequest" message="tns:GetCompetitorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCompetitorResponse" name="GetCompetitorResponse" message="tns:GetCompetitorResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCompetitorList">
-      <wsdl:documentation>
-        <summary>Gets an array of Competitor objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCompetitorList" name="GetCompetitorListRequest" message="tns:GetCompetitorListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCompetitorListResponse" name="GetCompetitorListResponse" message="tns:GetCompetitorListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCompetitors">
-      <wsdl:documentation>
-        <summary>Returns all competitors</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCompetitors" name="GetCompetitorsRequest" message="tns:GetCompetitorsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCompetitorsResponse" name="GetCompetitorsResponse" message="tns:GetCompetitorsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCountry">
-      <wsdl:documentation>
-        <summary>Gets a Country object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCountry" name="GetCountryRequest" message="tns:GetCountryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCountryResponse" name="GetCountryResponse" message="tns:GetCountryResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveCountry">
-      <wsdl:documentation>
-        <summary>Saves a country</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveCountry" name="SaveCountryRequest" message="tns:SaveCountryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveCountryResponse" name="SaveCountryResponse" message="tns:SaveCountryResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultCountry">
-      <wsdl:documentation>
-        <summary>Gets a new country</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultCountry" name="CreateDefaultCountryRequest" message="tns:CreateDefaultCountryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultCountryResponse" name="CreateDefaultCountryResponse" message="tns:CreateDefaultCountryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCountryList">
-      <wsdl:documentation>
-        <summary>Gets an array of Country objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCountryList" name="GetCountryListRequest" message="tns:GetCountryListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCountryListResponse" name="GetCountryListResponse" message="tns:GetCountryListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCountries">
-      <wsdl:documentation>
-        <summary>Returns all available countries a contact or person could belong to.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCountries" name="GetCountriesRequest" message="tns:GetCountriesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCountriesResponse" name="GetCountriesResponse" message="tns:GetCountriesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllCountries">
-      <wsdl:documentation>
-        <summary>Returns all available countries a contact or person could belong to.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllCountries" name="GetAllCountriesRequest" message="tns:GetAllCountriesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllCountriesResponse" name="GetAllCountriesResponse" message="tns:GetAllCountriesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCredited">
-      <wsdl:documentation>
-        <summary>Gets a Credited object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCredited" name="GetCreditedRequest" message="tns:GetCreditedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCreditedResponse" name="GetCreditedResponse" message="tns:GetCreditedResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCreditedList">
-      <wsdl:documentation>
-        <summary>Gets an array of Credited objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCreditedList" name="GetCreditedListRequest" message="tns:GetCreditedListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCreditedListResponse" name="GetCreditedListResponse" message="tns:GetCreditedListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCrediteds">
-      <wsdl:documentation>
-        <summary>Returns all credited</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCrediteds" name="GetCreditedsRequest" message="tns:GetCreditedsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCreditedsResponse" name="GetCreditedsResponse" message="tns:GetCreditedsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCurrency">
-      <wsdl:documentation>
-        <summary>Gets a Currency object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCurrency" name="GetCurrencyRequest" message="tns:GetCurrencyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCurrencyResponse" name="GetCurrencyResponse" message="tns:GetCurrencyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetOurCurrency">
-      <wsdl:documentation>
-        <summary>Gets the Our currency object if currency is enabled</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetOurCurrency" name="GetOurCurrencyRequest" message="tns:GetOurCurrencyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetOurCurrencyResponse" name="GetOurCurrencyResponse" message="tns:GetOurCurrencyResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeCurrency">
-      <wsdl:documentation>
-        <summary>Recalculates the amount to the new currency.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/ChangeCurrency" name="ChangeCurrencyRequest" message="tns:ChangeCurrencyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/ChangeCurrencyResponse" name="ChangeCurrencyResponse" message="tns:ChangeCurrencyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetOwnerCompanysCurrency">
-      <wsdl:documentation>
-        <summary>Get the currency of the user's owner company</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetOwnerCompanysCurrency" name="GetOwnerCompanysCurrencyRequest" message="tns:GetOwnerCompanysCurrencyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetOwnerCompanysCurrencyResponse" name="GetOwnerCompanysCurrencyResponse" message="tns:GetOwnerCompanysCurrencyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCurrencyEntity">
-      <wsdl:documentation>
-        <summary>Gets a CurrencyEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCurrencyEntity" name="GetCurrencyEntityRequest" message="tns:GetCurrencyEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCurrencyEntityResponse" name="GetCurrencyEntityResponse" message="tns:GetCurrencyEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBaseCurrency">
-      <wsdl:documentation>
-        <summary>Get the base currency, used for calculating exchange rates</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetBaseCurrency" name="GetBaseCurrencyRequest" message="tns:GetBaseCurrencyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetBaseCurrencyResponse" name="GetBaseCurrencyResponse" message="tns:GetBaseCurrencyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAmountClassEntity">
-      <wsdl:documentation>
-        <summary>Gets a AmountClassEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAmountClassEntity" name="GetAmountClassEntityRequest" message="tns:GetAmountClassEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAmountClassEntityResponse" name="GetAmountClassEntityResponse" message="tns:GetAmountClassEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCurrencyList">
-      <wsdl:documentation>
-        <summary>Gets an array of Currency objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCurrencyList" name="GetCurrencyListRequest" message="tns:GetCurrencyListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCurrencyListResponse" name="GetCurrencyListResponse" message="tns:GetCurrencyListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCurrencies">
-      <wsdl:documentation>
-        <summary>Returns all currencies</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCurrencies" name="GetCurrenciesRequest" message="tns:GetCurrenciesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCurrenciesResponse" name="GetCurrenciesResponse" message="tns:GetCurrenciesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllCurrencies">
-      <wsdl:documentation>
-        <summary>Returns all currencies</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllCurrencies" name="GetAllCurrenciesRequest" message="tns:GetAllCurrenciesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllCurrenciesResponse" name="GetAllCurrenciesResponse" message="tns:GetAllCurrenciesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCustomerLanguage">
-      <wsdl:documentation>
-        <summary>Gets a CustomerLanguage object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCustomerLanguage" name="GetCustomerLanguageRequest" message="tns:GetCustomerLanguageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCustomerLanguageResponse" name="GetCustomerLanguageResponse" message="tns:GetCustomerLanguageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCustomerLanguageList">
-      <wsdl:documentation>
-        <summary>Gets an array of CustomerLanguage objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCustomerLanguageList" name="GetCustomerLanguageListRequest" message="tns:GetCustomerLanguageListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCustomerLanguageListResponse" name="GetCustomerLanguageListResponse" message="tns:GetCustomerLanguageListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCustomerLanguages">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCustomerLanguages" name="GetCustomerLanguagesRequest" message="tns:GetCustomerLanguagesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetCustomerLanguagesResponse" name="GetCustomerLanguagesResponse" message="tns:GetCustomerLanguagesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDeliveryTerm">
-      <wsdl:documentation>
-        <summary>Gets a DeliveryTerm object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDeliveryTerm" name="GetDeliveryTermRequest" message="tns:GetDeliveryTermRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDeliveryTermResponse" name="GetDeliveryTermResponse" message="tns:GetDeliveryTermResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDeliveryTerms">
-      <wsdl:documentation>
-        <summary>Returns all DeliveryTerms in SuperOffice db.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDeliveryTerms" name="GetDeliveryTermsRequest" message="tns:GetDeliveryTermsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDeliveryTermsResponse" name="GetDeliveryTermsResponse" message="tns:GetDeliveryTermsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDeliveryType">
-      <wsdl:documentation>
-        <summary>Gets a DeliveryType object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDeliveryType" name="GetDeliveryTypeRequest" message="tns:GetDeliveryTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDeliveryTypeResponse" name="GetDeliveryTypeResponse" message="tns:GetDeliveryTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDeliveryTypes">
-      <wsdl:documentation>
-        <summary>Returns all DeliveryTypes in SuperOffice db.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDeliveryTypes" name="GetDeliveryTypesRequest" message="tns:GetDeliveryTypesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDeliveryTypesResponse" name="GetDeliveryTypesResponse" message="tns:GetDeliveryTypesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPaymentTerm">
-      <wsdl:documentation>
-        <summary>Gets a PaymentTerm object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPaymentTerm" name="GetPaymentTermRequest" message="tns:GetPaymentTermRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPaymentTermResponse" name="GetPaymentTermResponse" message="tns:GetPaymentTermResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPaymentTerms">
-      <wsdl:documentation>
-        <summary>Returns all PaymentTerms in SuperOffice db.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPaymentTerms" name="GetPaymentTermsRequest" message="tns:GetPaymentTermsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPaymentTermsResponse" name="GetPaymentTermsResponse" message="tns:GetPaymentTermsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPaymentType">
-      <wsdl:documentation>
-        <summary>Gets a PaymentType object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPaymentType" name="GetPaymentTypeRequest" message="tns:GetPaymentTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPaymentTypeResponse" name="GetPaymentTypeResponse" message="tns:GetPaymentTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPaymentTypes">
-      <wsdl:documentation>
-        <summary>Returns all PaymentTypes in SuperOffice db.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPaymentTypes" name="GetPaymentTypesRequest" message="tns:GetPaymentTypesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetPaymentTypesResponse" name="GetPaymentTypesResponse" message="tns:GetPaymentTypesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDepartment">
-      <wsdl:documentation>
-        <summary>Gets a Department object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDepartment" name="GetDepartmentRequest" message="tns:GetDepartmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDepartmentResponse" name="GetDepartmentResponse" message="tns:GetDepartmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDepartmentList">
-      <wsdl:documentation>
-        <summary>Gets an array of Department objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDepartmentList" name="GetDepartmentListRequest" message="tns:GetDepartmentListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDepartmentListResponse" name="GetDepartmentListResponse" message="tns:GetDepartmentListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDepartments">
-      <wsdl:documentation>
-        <summary>Getting all departments/user groups for the internal phone list with the user's colleagues.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDepartments" name="GetDepartmentsRequest" message="tns:GetDepartmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDepartmentsResponse" name="GetDepartmentsResponse" message="tns:GetDepartmentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTemplate">
-      <wsdl:documentation>
-        <summary>Gets a DocumentTemplate object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplate" name="GetDocumentTemplateRequest" message="tns:GetDocumentTemplateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateResponse" name="GetDocumentTemplateResponse" message="tns:GetDocumentTemplateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTemplateList">
-      <wsdl:documentation>
-        <summary>Gets an array of DocumentTemplate objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateList" name="GetDocumentTemplateListRequest" message="tns:GetDocumentTemplateListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplateListResponse" name="GetDocumentTemplateListResponse" message="tns:GetDocumentTemplateListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentTemplates">
-      <wsdl:documentation>
-        <summary>Returns all available document templates</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplates" name="GetDocumentTemplatesRequest" message="tns:GetDocumentTemplatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetDocumentTemplatesResponse" name="GetDocumentTemplatesResponse" message="tns:GetDocumentTemplatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllDocumentTemplates">
-      <wsdl:documentation>
-        <summary>Returns all templates</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllDocumentTemplates" name="GetAllDocumentTemplatesRequest" message="tns:GetAllDocumentTemplatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllDocumentTemplatesResponse" name="GetAllDocumentTemplatesResponse" message="tns:GetAllDocumentTemplatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetHeadingEntity">
-      <wsdl:documentation>
-        <summary>Gets a HeadingEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetHeadingEntity" name="GetHeadingEntityRequest" message="tns:GetHeadingEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetHeadingEntityResponse" name="GetHeadingEntityResponse" message="tns:GetHeadingEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultHeadingFromListDefinition">
-      <wsdl:documentation>
-        <summary>Get a heading for the specified list defintion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultHeadingFromListDefinition" name="CreateDefaultHeadingFromListDefinitionRequest" message="tns:CreateDefaultHeadingFromListDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/CreateDefaultHeadingFromListDefinitionResponse" name="CreateDefaultHeadingFromListDefinitionResponse" message="tns:CreateDefaultHeadingFromListDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLanguageInfo">
-      <wsdl:documentation>
-        <summary>Gets a LanguageInfo object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLanguageInfo" name="GetLanguageInfoRequest" message="tns:GetLanguageInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLanguageInfoResponse" name="GetLanguageInfoResponse" message="tns:GetLanguageInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLanguageInfoList">
-      <wsdl:documentation>
-        <summary>Gets an array of LanguageInfo objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLanguageInfoList" name="GetLanguageInfoListRequest" message="tns:GetLanguageInfoListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLanguageInfoListResponse" name="GetLanguageInfoListResponse" message="tns:GetLanguageInfoListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetInstalledLanguages">
-      <wsdl:documentation>
-        <summary>Returns the list of all languages installed in this database.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetInstalledLanguages" name="GetInstalledLanguagesRequest" message="tns:GetInstalledLanguagesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetInstalledLanguagesResponse" name="GetInstalledLanguagesResponse" message="tns:GetInstalledLanguagesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLink">
-      <wsdl:documentation>
-        <summary>Gets a Link object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLink" name="GetLinkRequest" message="tns:GetLinkRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLinkResponse" name="GetLinkResponse" message="tns:GetLinkResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLinkList">
-      <wsdl:documentation>
-        <summary>Gets an array of Link objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLinkList" name="GetLinkListRequest" message="tns:GetLinkListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLinkListResponse" name="GetLinkListResponse" message="tns:GetLinkListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetListEntity">
-      <wsdl:documentation>
-        <summary>Gets a ListEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetListEntity" name="GetListEntityRequest" message="tns:GetListEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetListEntityResponse" name="GetListEntityResponse" message="tns:GetListEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetListDefinitions">
-      <wsdl:documentation>
-        <summary>Get a list of the lists - built-in and user-defined.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetListDefinitions" name="GetListDefinitionsRequest" message="tns:GetListDefinitionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetListDefinitionsResponse" name="GetListDefinitionsResponse" message="tns:GetListDefinitionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetListEntityByName">
-      <wsdl:documentation>
-        <summary>Gets a ListEntity resolved by the provided name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetListEntityByName" name="GetListEntityByNameRequest" message="tns:GetListEntityByNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetListEntityByNameResponse" name="GetListEntityByNameResponse" message="tns:GetListEntityByNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveListEntityByName">
-      <wsdl:documentation>
-        <summary>Save a ListEntity resolved by the provided name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveListEntityByName" name="SaveListEntityByNameRequest" message="tns:SaveListEntityByNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveListEntityByNameResponse" name="SaveListEntityByNameResponse" message="tns:SaveListEntityByNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteListEntityByName">
-      <wsdl:documentation>
-        <summary>Delete a ListEntity resolved by the provided name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteListEntityByName" name="DeleteListEntityByNameRequest" message="tns:DeleteListEntityByNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteListEntityByNameResponse" name="DeleteListEntityByNameResponse" message="tns:DeleteListEntityByNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveListItemEntity">
-      <wsdl:documentation>
-        <summary>Save the ListItemEntity.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveListItemEntity" name="SaveListItemEntityRequest" message="tns:SaveListItemEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveListItemEntityResponse" name="SaveListItemEntityResponse" message="tns:SaveListItemEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SortListItems">
-      <wsdl:documentation>
-        <summary>Sort the list items in a given list alphabetically</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SortListItems" name="SortListItemsRequest" message="tns:SortListItemsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SortListItemsResponse" name="SortListItemsResponse" message="tns:SortListItemsResponse" />
     </wsdl:operation>
     <wsdl:operation name="MoveListItem">
-      <wsdl:documentation>
-        <summary>Move a list item up or down in the list based on rank</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/MoveListItem" name="MoveListItemRequest" message="tns:MoveListItemRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/MoveListItemResponse" name="MoveListItemResponse" message="tns:MoveListItemResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetVisibleForUserGroups">
-      <wsdl:documentation>
-        <summary>List of User groups that this list item is visible for</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetVisibleForUserGroups" name="GetVisibleForUserGroupsRequest" message="tns:GetVisibleForUserGroupsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetVisibleForUserGroupsResponse" name="GetVisibleForUserGroupsResponse" message="tns:GetVisibleForUserGroupsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetVisibleForUserGroupsFromListName">
-      <wsdl:documentation>
-        <summary>List of User groups that this list item is visible for</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetVisibleForUserGroupsFromListName" name="GetVisibleForUserGroupsFromListNameRequest" message="tns:GetVisibleForUserGroupsFromListNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetVisibleForUserGroupsFromListNameResponse" name="GetVisibleForUserGroupsFromListNameResponse" message="tns:GetVisibleForUserGroupsFromListNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetVisibleForUserGroups">
-      <wsdl:documentation>
-        <summary>Update User groups that this list item is visible for</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetVisibleForUserGroups" name="SetVisibleForUserGroupsRequest" message="tns:SetVisibleForUserGroupsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetVisibleForUserGroupsResponse" name="SetVisibleForUserGroupsResponse" message="tns:SetVisibleForUserGroupsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetVisibleForUserGroupsFromListName">
-      <wsdl:documentation>
-        <summary>Update User groups that this list item is visible for</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetVisibleForUserGroupsFromListName" name="SetVisibleForUserGroupsFromListNameRequest" message="tns:SetVisibleForUserGroupsFromListNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetVisibleForUserGroupsFromListNameResponse" name="SetVisibleForUserGroupsFromListNameResponse" message="tns:SetVisibleForUserGroupsFromListNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetVisibleForUserGroup">
-      <wsdl:documentation>
-        <summary>Set a group which this list item should be visible for</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetVisibleForUserGroup" name="SetVisibleForUserGroupRequest" message="tns:SetVisibleForUserGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetVisibleForUserGroupResponse" name="SetVisibleForUserGroupResponse" message="tns:SetVisibleForUserGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetHeadings">
-      <wsdl:documentation>
-        <summary>Gets a selectable MDO list of the headings for this list item</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetHeadings" name="GetHeadingsRequest" message="tns:GetHeadingsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetHeadingsResponse" name="GetHeadingsResponse" message="tns:GetHeadingsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetHeadingsForListItemFromListName">
-      <wsdl:documentation>
-        <summary>Gets a selectable MDO list of the headings for this list item</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetHeadingsForListItemFromListName" name="GetHeadingsForListItemFromListNameRequest" message="tns:GetHeadingsForListItemFromListNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetHeadingsForListItemFromListNameResponse" name="GetHeadingsForListItemFromListNameResponse" message="tns:GetHeadingsForListItemFromListNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveHeadingsForListItemFromListDefinition">
-      <wsdl:documentation>
-        <summary>Saves the active headings for the list item.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingsForListItemFromListDefinition" name="SaveHeadingsForListItemFromListDefinitionRequest" message="tns:SaveHeadingsForListItemFromListDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingsForListItemFromListDefinitionResponse" name="SaveHeadingsForListItemFromListDefinitionResponse" message="tns:SaveHeadingsForListItemFromListDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveHeadingsForListItemFromListName">
-      <wsdl:documentation>
-        <summary>Saves the headings for the list item.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingsForListItemFromListName" name="SaveHeadingsForListItemFromListNameRequest" message="tns:SaveHeadingsForListItemFromListNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingsForListItemFromListNameResponse" name="SaveHeadingsForListItemFromListNameResponse" message="tns:SaveHeadingsForListItemFromListNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetHeadingsForListItem">
-      <wsdl:documentation>
-        <summary>Set headings which this list item should be listed under</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetHeadingsForListItem" name="SetHeadingsForListItemRequest" message="tns:SetHeadingsForListItemRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetHeadingsForListItemResponse" name="SetHeadingsForListItemResponse" message="tns:SetHeadingsForListItemResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetRankOnHeadings">
-      <wsdl:documentation>
-        <summary>Set rank order on headings</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetRankOnHeadings" name="SetRankOnHeadingsRequest" message="tns:SetRankOnHeadingsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetRankOnHeadingsResponse" name="SetRankOnHeadingsResponse" message="tns:SetRankOnHeadingsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetRankOnSaleActivity">
-      <wsdl:documentation>
-        <summary>Set rank order on sale activity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetRankOnSaleActivity" name="SetRankOnSaleActivityRequest" message="tns:SetRankOnSaleActivityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetRankOnSaleActivityResponse" name="SetRankOnSaleActivityResponse" message="tns:SetRankOnSaleActivityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetRankOnSaleDocument">
-      <wsdl:documentation>
-        <summary>Set rank order on project document</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetRankOnSaleDocument" name="SetRankOnSaleDocumentRequest" message="tns:SetRankOnSaleDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetRankOnSaleDocumentResponse" name="SetRankOnSaleDocumentResponse" message="tns:SetRankOnSaleDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetRankOnProjectActivity">
-      <wsdl:documentation>
-        <summary>Set rank order on project activity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetRankOnProjectActivity" name="SetRankOnProjectActivityRequest" message="tns:SetRankOnProjectActivityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetRankOnProjectActivityResponse" name="SetRankOnProjectActivityResponse" message="tns:SetRankOnProjectActivityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetRankOnProjectDocument">
-      <wsdl:documentation>
-        <summary>Set rank order on project document</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetRankOnProjectDocument" name="SetRankOnProjectDocumentRequest" message="tns:SetRankOnProjectDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SetRankOnProjectDocumentResponse" name="SetRankOnProjectDocumentResponse" message="tns:SetRankOnProjectDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllFromListDefinition">
-      <wsdl:documentation>
-        <summary>Get all list items for the specified list defintion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllFromListDefinition" name="GetAllFromListDefinitionRequest" message="tns:GetAllFromListDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllFromListDefinitionResponse" name="GetAllFromListDefinitionResponse" message="tns:GetAllFromListDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllFromListName">
-      <wsdl:documentation>
-        <summary>Get all list items for the specified list defintion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllFromListName" name="GetAllFromListNameRequest" message="tns:GetAllFromListNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetAllFromListNameResponse" name="GetAllFromListNameResponse" message="tns:GetAllFromListNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveAllFromListDefinition">
-      <wsdl:documentation>
-        <summary>Save all list items for the specified list defintion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveAllFromListDefinition" name="SaveAllFromListDefinitionRequest" message="tns:SaveAllFromListDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveAllFromListDefinitionResponse" name="SaveAllFromListDefinitionResponse" message="tns:SaveAllFromListDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveAllFromListName">
-      <wsdl:documentation>
-        <summary>Save all list items for the specified list defintion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveAllFromListName" name="SaveAllFromListNameRequest" message="tns:SaveAllFromListNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveAllFromListNameResponse" name="SaveAllFromListNameResponse" message="tns:SaveAllFromListNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddFromListDefinition">
-      <wsdl:documentation>
-        <summary>Save a new list item for the specified list defintion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/AddFromListDefinition" name="AddFromListDefinitionRequest" message="tns:AddFromListDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/AddFromListDefinitionResponse" name="AddFromListDefinitionResponse" message="tns:AddFromListDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddFromListName">
-      <wsdl:documentation>
-        <summary>Save a new list item for the specified list defintion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/AddFromListName" name="AddFromListNameRequest" message="tns:AddFromListNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/AddFromListNameResponse" name="AddFromListNameResponse" message="tns:AddFromListNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteAllFromListDefinition">
-      <wsdl:documentation>
-        <summary>Marks all items in the list deleted</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteAllFromListDefinition" name="DeleteAllFromListDefinitionRequest" message="tns:DeleteAllFromListDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteAllFromListDefinitionResponse" name="DeleteAllFromListDefinitionResponse" message="tns:DeleteAllFromListDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteAllFromListName">
-      <wsdl:documentation>
-        <summary>Marks all items in the list deleted</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteAllFromListName" name="DeleteAllFromListNameRequest" message="tns:DeleteAllFromListNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteAllFromListNameResponse" name="DeleteAllFromListNameResponse" message="tns:DeleteAllFromListNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFromListDefinition">
-      <wsdl:documentation>
-        <summary>Get a list item for the specified list defintion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetFromListDefinition" name="GetFromListDefinitionRequest" message="tns:GetFromListDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetFromListDefinitionResponse" name="GetFromListDefinitionResponse" message="tns:GetFromListDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFromListName">
-      <wsdl:documentation>
-        <summary>Get a list item for the specified list defintion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetFromListName" name="GetFromListNameRequest" message="tns:GetFromListNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetFromListNameResponse" name="GetFromListNameResponse" message="tns:GetFromListNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveFromListDefinition">
-      <wsdl:documentation>
-        <summary>Save a list item for the specified list defintion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveFromListDefinition" name="SaveFromListDefinitionRequest" message="tns:SaveFromListDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveFromListDefinitionResponse" name="SaveFromListDefinitionResponse" message="tns:SaveFromListDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveFromListName">
-      <wsdl:documentation>
-        <summary>Save a list item for the specified list defintion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveFromListName" name="SaveFromListNameRequest" message="tns:SaveFromListNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveFromListNameResponse" name="SaveFromListNameResponse" message="tns:SaveFromListNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteFromListDefinition">
-      <wsdl:documentation>
-        <summary>Delete a list item from the specified list defintion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteFromListDefinition" name="DeleteFromListDefinitionRequest" message="tns:DeleteFromListDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteFromListDefinitionResponse" name="DeleteFromListDefinitionResponse" message="tns:DeleteFromListDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteFromListName">
-      <wsdl:documentation>
-        <summary>Delete a list item from the specified list defintion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteFromListName" name="DeleteFromListNameRequest" message="tns:DeleteFromListNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteFromListNameResponse" name="DeleteFromListNameResponse" message="tns:DeleteFromListNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetHeadingsFromName">
-      <wsdl:documentation>
-        <summary>Gets headings for list resolved by the provided name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetHeadingsFromName" name="GetHeadingsFromNameRequest" message="tns:GetHeadingsFromNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetHeadingsFromNameResponse" name="GetHeadingsFromNameResponse" message="tns:GetHeadingsFromNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetHeadingsFromListDefinition">
-      <wsdl:documentation>
-        <summary>Gets headings for list resolved by the provided id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetHeadingsFromListDefinition" name="GetHeadingsFromListDefinitionRequest" message="tns:GetHeadingsFromListDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetHeadingsFromListDefinitionResponse" name="GetHeadingsFromListDefinitionResponse" message="tns:GetHeadingsFromListDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveHeadingsFromName">
-      <wsdl:documentation>
-        <summary>Save headings for list resolved by the provided name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingsFromName" name="SaveHeadingsFromNameRequest" message="tns:SaveHeadingsFromNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingsFromNameResponse" name="SaveHeadingsFromNameResponse" message="tns:SaveHeadingsFromNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveHeadingsFromListDefinition">
-      <wsdl:documentation>
-        <summary>Save headings for list resolved by the provided id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingsFromListDefinition" name="SaveHeadingsFromListDefinitionRequest" message="tns:SaveHeadingsFromListDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingsFromListDefinitionResponse" name="SaveHeadingsFromListDefinitionResponse" message="tns:SaveHeadingsFromListDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveHeadingFromName">
-      <wsdl:documentation>
-        <summary>Save new heading for list resolved by the provided name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingFromName" name="SaveHeadingFromNameRequest" message="tns:SaveHeadingFromNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingFromNameResponse" name="SaveHeadingFromNameResponse" message="tns:SaveHeadingFromNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveHeadingFromListDefinition">
-      <wsdl:documentation>
-        <summary>Save new heading for list resolved by the provided id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingFromListDefinition" name="SaveHeadingFromListDefinitionRequest" message="tns:SaveHeadingFromListDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/SaveHeadingFromListDefinitionResponse" name="SaveHeadingFromListDefinitionResponse" message="tns:SaveHeadingFromListDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteAllHeadingsFromName">
-      <wsdl:documentation>
-        <summary>Delete all headings for list resolved by the provided name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteAllHeadingsFromName" name="DeleteAllHeadingsFromNameRequest" message="tns:DeleteAllHeadingsFromNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteAllHeadingsFromNameResponse" name="DeleteAllHeadingsFromNameResponse" message="tns:DeleteAllHeadingsFromNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteAllHeadingsFromListDefinition">
-      <wsdl:documentation>
-        <summary>Delete all headings for list resolved by the provided id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteAllHeadingsFromListDefinition" name="DeleteAllHeadingsFromListDefinitionRequest" message="tns:DeleteAllHeadingsFromListDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/DeleteAllHeadingsFromListDefinitionResponse" name="DeleteAllHeadingsFromListDefinitionResponse" message="tns:DeleteAllHeadingsFromListDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLocalizedText">
-      <wsdl:documentation>
-        <summary>Gets a LocalizedText object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLocalizedText" name="GetLocalizedTextRequest" message="tns:GetLocalizedTextRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLocalizedTextResponse" name="GetLocalizedTextResponse" message="tns:GetLocalizedTextResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLocalizedTextByType">
-      <wsdl:documentation>
-        <summary>Returns a localized text based on the resource id for the selected language.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLocalizedTextByType" name="GetLocalizedTextByTypeRequest" message="tns:GetLocalizedTextByTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLocalizedTextByTypeResponse" name="GetLocalizedTextByTypeResponse" message="tns:GetLocalizedTextByTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLocalizedTextList">
-      <wsdl:documentation>
-        <summary>Gets an array of LocalizedText objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLocalizedTextList" name="GetLocalizedTextListRequest" message="tns:GetLocalizedTextListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/List/GetLocalizedTextListResponse" name="GetLocalizedTextListResponse" message="tns:GetLocalizedTextListResponse" />
     </wsdl:operation>
@@ -14024,3 +13330,4 @@ title: Services84.ListAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

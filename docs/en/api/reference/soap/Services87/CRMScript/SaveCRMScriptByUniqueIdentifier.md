@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICRMScriptAgent.SaveCRMSc
 
 ## SaveCRMScriptByUniqueIdentifier
 
-Create or Update the CRMScript information
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **uniqueIdentifier:** Global unique reference to script (independent of installation)
-* **CRMScript:** Information about the CRMScript
 
-**Returns:** Information about the CRMScript as saved in the database
+
 
 [WSDL file for Services87/CRMScript](../Services87-CRMScript.md)
 
@@ -49,9 +45,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <CRMScript:Description xsi:type="xsd:string"></CRMScript:Description>
      <CRMScript:IncludeId xsi:type="xsd:string"></CRMScript:IncludeId>
      <CRMScript:Source xsi:type="xsd:string"></CRMScript:Source>
-     <CRMScript:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CRMScript:Registered>
+     <CRMScript:Registered xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</CRMScript:Registered>
      <CRMScript:RegisteredBy xsi:type="xsd:string"></CRMScript:RegisteredBy>
-     <CRMScript:Updated xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CRMScript:Updated>
+     <CRMScript:Updated xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</CRMScript:Updated>
      <CRMScript:UpdatedBy xsi:type="xsd:string"></CRMScript:UpdatedBy>
      <CRMScript:Path xsi:type="xsd:string"></CRMScript:Path>
     </CRMScript:Crmscript>
@@ -61,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveCRMScriptByUniqueIdentifier Response
 
@@ -81,9 +78,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CRMScript:Description xsi:type="xsd:string"></CRMScript:Description>
     <CRMScript:IncludeId xsi:type="xsd:string"></CRMScript:IncludeId>
     <CRMScript:Source xsi:type="xsd:string"></CRMScript:Source>
-    <CRMScript:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CRMScript:Registered>
+    <CRMScript:Registered xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</CRMScript:Registered>
     <CRMScript:RegisteredBy xsi:type="xsd:string"></CRMScript:RegisteredBy>
-    <CRMScript:Updated xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CRMScript:Updated>
+    <CRMScript:Updated xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</CRMScript:Updated>
     <CRMScript:UpdatedBy xsi:type="xsd:string"></CRMScript:UpdatedBy>
     <CRMScript:Path xsi:type="xsd:string"></CRMScript:Path>
    </CRMScript:Response>
@@ -92,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

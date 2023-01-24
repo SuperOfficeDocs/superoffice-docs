@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashboardAgent.SaveDashb
 
 ## SaveDashboard
 
-Updates the existing Dashboard or creates a new Dashboard if the id parameter is 0.
 
-* **dashboard:** The Dashboard that is saved.
 
-**Returns:** New or updated Dashboard
+
 
 [WSDL file for Services88/Dashboard](../Services88-Dashboard.md)
 
@@ -89,6 +87,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveDashboard Response
 
@@ -164,3 +163,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

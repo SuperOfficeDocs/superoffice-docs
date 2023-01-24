@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.GetUntrustedCr
 
 ## GetUntrustedCredentialsForAssociate
 
-Get a set of credentials of a specified type for a specified user. SecretValue is only populated for authenticated user, and system users.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **associateId:** Id of user to retrieve credentials for.
-* **type:** Type of credential(Ex: "imap", "smtp").
 
-**Returns:** Array of credentials of the specified type.
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetUntrustedCredentialsForAssociate Response
 
 ```xml
@@ -68,8 +65,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <User:GetUntrustedCredentialsForAssociateResponse>
    <User:Response xsi:type="User:ArrayOfUntrustedCredentials">
     <User:UntrustedCredentials xsi:type="User:UntrustedCredentials">
-     <User:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:56:02Z</User:ValidFrom>
-     <User:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:56:02Z</User:ValidTo>
+     <User:ValidFrom xsi:type="xsd:dateTime">2023-01-23T10:17:41Z</User:ValidFrom>
+     <User:ValidTo xsi:type="xsd:dateTime">2023-01-23T10:17:41Z</User:ValidTo>
      <User:Comment xsi:type="xsd:string"></User:Comment>
      <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
      <User:PublicValue xsi:type="xsd:string"></User:PublicValue>
@@ -81,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

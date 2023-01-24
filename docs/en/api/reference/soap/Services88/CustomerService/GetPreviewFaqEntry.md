@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.Get
 
 ## GetPreviewFaqEntry
 
-Get a faq entry from its faq entry id
 
-* **kbEntryId:** FAQ entry ID
 
-**Returns:** FAQ entry suitable for preview
+
 
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPreviewFaqEntry Response
 
 ```xml
@@ -66,7 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <CustomerService:Response xsi:type="CustomerService:PreviewFaqEntry">
     <CustomerService:Title xsi:type="xsd:string"></CustomerService:Title>
     <CustomerService:RegisteredByFullName xsi:type="xsd:string"></CustomerService:RegisteredByFullName>
-    <CustomerService:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:03Z</CustomerService:Updated>
+    <CustomerService:Updated xsi:type="xsd:dateTime">2023-01-23T10:20:35Z</CustomerService:Updated>
     <CustomerService:Question xsi:type="xsd:string"></CustomerService:Question>
     <CustomerService:Answer xsi:type="xsd:string"></CustomerService:Answer>
    </CustomerService:Response>
@@ -75,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

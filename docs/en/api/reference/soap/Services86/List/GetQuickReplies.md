@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetQuickReplie
 
 ## GetQuickReplies
 
-Method to return all quick replies for a given associate
 
-**Returns:** Array of quick replies
+
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetQuickReplies Response
 
 ```xml
@@ -72,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

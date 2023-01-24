@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SaveAmountClas
 
 ## SaveAmountClassEntity
 
-Updates the existing AmountClassEntity or creates a new AmountClassEntity if the id parameter is 0.
 
-* **amountClassEntity:** The AmountClassEntity that is saved.
 
-**Returns:** New or updated AmountClassEntity
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -58,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveAmountClassEntity Response
 
 ```xml
@@ -87,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

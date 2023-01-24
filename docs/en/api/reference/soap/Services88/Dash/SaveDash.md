@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.SaveDash">Supe
 
 ## SaveDash
 
-Updates the existing Dash or creates a new Dash if the id parameter is 0.
 
-* **dash:** The Dash that is saved.
 
-**Returns:** New or updated Dash
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -78,6 +76,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveDash Response
 
 ```xml
@@ -127,3 +126,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ITicketAgent.GetTicketMes
 
 ## GetTicketMessage
 
-Gets a TicketMessage object.
 
-* **ticketMessageId:** The identifier of the TicketMessage object
 
-**Returns:** TicketMessage
+
 
 [WSDL file for Services86/Ticket](../Services86-Ticket.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTicketMessage Response
 
 ```xml
@@ -65,7 +64,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Ticket:GetTicketMessageResponse>
    <Ticket:Response xsi:type="Ticket:TicketMessage">
     <Ticket:TicketMessageId xsi:type="xsd:int">0</Ticket:TicketMessageId>
-    <Ticket:CreatedAt xsi:type="xsd:dateTime">2022-08-26T08:55:56Z</Ticket:CreatedAt>
+    <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-01-23T10:17:36Z</Ticket:CreatedAt>
     <Ticket:Slevel xsi:type="Ticket:TicketSecurityLevel">Unknown</Ticket:Slevel>
     <Ticket:Important xsi:type="xsd:boolean">false</Ticket:Important>
    </Ticket:Response>
@@ -74,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

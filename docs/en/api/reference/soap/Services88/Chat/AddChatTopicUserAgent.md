@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.AddChatTopicUs
 
 ## AddChatTopicUserAgent
 
-Add a user to a chat topic
 
-* **chatTopicId:** Id of the chat topic
-* **useragent:** User's role within the chat topic to add to topic.
 
-**Returns:** The user's role within the chat topic.
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -71,6 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddChatTopicUserAgent Response
 
 ```xml
@@ -111,3 +109,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

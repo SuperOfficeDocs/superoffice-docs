@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserDefinedFieldInfoAgen
 
 ## SetPublishStartSystemEvent
 
-Set the start flag for udef publishing. Must be called before PUBLISH, or PUBLISH will fail. Start flag is removed when publish process completes.
 
-* **ownerType:** The user-defined field owner-entity.
+
+
 
 [WSDL file for Services88/UserDefinedFieldInfo](../Services88-UserDefinedFieldInfo.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetPublishStartSystemEvent Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

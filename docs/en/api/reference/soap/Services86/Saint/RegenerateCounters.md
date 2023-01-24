@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISaintAgent.RegenerateCou
 
 ## RegenerateCounters
 
-Regenerate the Saint counters - this can take several minutes
 
-* **runAsBatch:** If true, then execute the regeneration as a Batch Task; the service call will return immediately. Otherwise wait until the task completes, may cause a timeout if called as a Web Service
 
-**Returns:** Information about the batch task, if batch execution was requested. Otherwise null
+
 
 [WSDL file for Services86/Saint](../Services86-Saint.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RegenerateCounters Response
 
 ```xml
@@ -77,8 +76,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Saint:Value xsi:type="xsd:string"></Saint:Value>
      </Saint:StringKeyValuePair>
     </Saint:ParameterObject>
-    <Saint:LastStarted xsi:type="xsd:dateTime">2022-08-26T08:55:45Z</Saint:LastStarted>
-    <Saint:Created xsi:type="xsd:dateTime">2022-08-26T08:55:45Z</Saint:Created>
+    <Saint:LastStarted xsi:type="xsd:dateTime">2023-01-23T10:17:25Z</Saint:LastStarted>
+    <Saint:Created xsi:type="xsd:dateTime">2023-01-23T10:17:25Z</Saint:Created>
     <Saint:StartCount xsi:type="xsd:int">0</Saint:StartCount>
     <Saint:DatabaseSerialNumber xsi:type="xsd:string"></Saint:DatabaseSerialNumber>
     <Saint:Context xsi:type="xsd:string"></Saint:Context>
@@ -95,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

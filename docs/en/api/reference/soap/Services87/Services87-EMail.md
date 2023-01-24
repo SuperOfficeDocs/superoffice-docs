@@ -4474,644 +4474,363 @@ title: Services87.EMailAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="EMail">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for EMail</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultEMailAddress">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailAddress.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailAddress" name="CreateDefaultEMailAddressRequest" message="tns:CreateDefaultEMailAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailAddressResponse" name="CreateDefaultEMailAddressResponse" message="tns:CreateDefaultEMailAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailAppointment">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailAppointment.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailAppointment" name="CreateDefaultEMailAppointmentRequest" message="tns:CreateDefaultEMailAppointmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailAppointmentResponse" name="CreateDefaultEMailAppointmentResponse" message="tns:CreateDefaultEMailAppointmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailAttachment">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailAttachment.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailAttachment" name="CreateDefaultEMailAttachmentRequest" message="tns:CreateDefaultEMailAttachmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailAttachmentResponse" name="CreateDefaultEMailAttachmentResponse" message="tns:CreateDefaultEMailAttachmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailConnectionInfo">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailConnectionInfo.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailConnectionInfo" name="CreateDefaultEMailConnectionInfoRequest" message="tns:CreateDefaultEMailConnectionInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailConnectionInfoResponse" name="CreateDefaultEMailConnectionInfoResponse" message="tns:CreateDefaultEMailConnectionInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailConnectionInfoExtended">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailConnectionInfoExtended.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailConnectionInfoExtended" name="CreateDefaultEMailConnectionInfoExtendedRequest" message="tns:CreateDefaultEMailConnectionInfoExtendedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailConnectionInfoExtendedResponse" name="CreateDefaultEMailConnectionInfoExtendedResponse" message="tns:CreateDefaultEMailConnectionInfoExtendedResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailCustomHeader">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailCustomHeader.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailCustomHeader" name="CreateDefaultEMailCustomHeaderRequest" message="tns:CreateDefaultEMailCustomHeaderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailCustomHeaderResponse" name="CreateDefaultEMailCustomHeaderResponse" message="tns:CreateDefaultEMailCustomHeaderResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailEntity" name="CreateDefaultEMailEntityRequest" message="tns:CreateDefaultEMailEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailEntityResponse" name="CreateDefaultEMailEntityResponse" message="tns:CreateDefaultEMailEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailEnvelope">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailEnvelope.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailEnvelope" name="CreateDefaultEMailEnvelopeRequest" message="tns:CreateDefaultEMailEnvelopeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailEnvelopeResponse" name="CreateDefaultEMailEnvelopeResponse" message="tns:CreateDefaultEMailEnvelopeResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailFolder">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailFolder.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailFolder" name="CreateDefaultEMailFolderRequest" message="tns:CreateDefaultEMailFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailFolderResponse" name="CreateDefaultEMailFolderResponse" message="tns:CreateDefaultEMailFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailSOInfo">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailSOInfo.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailSOInfo" name="CreateDefaultEMailSOInfoRequest" message="tns:CreateDefaultEMailSOInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailSOInfoResponse" name="CreateDefaultEMailSOInfoResponse" message="tns:CreateDefaultEMailSOInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultEMailAccount">
-      <wsdl:documentation>
-        <summary>Loading default values into a new EMailAccount.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailAccount" name="CreateDefaultEMailAccountRequest" message="tns:CreateDefaultEMailAccountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateDefaultEMailAccountResponse" name="CreateDefaultEMailAccountResponse" message="tns:CreateDefaultEMailAccountResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveEMailAccount">
-      <wsdl:documentation>
-        <summary>Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SaveEMailAccount" name="SaveEMailAccountRequest" message="tns:SaveEMailAccountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SaveEMailAccountResponse" name="SaveEMailAccountResponse" message="tns:SaveEMailAccountResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteEMailAccount">
-      <wsdl:documentation>
-        <summary>Deletes the EMailAccount</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/DeleteEMailAccount" name="DeleteEMailAccountRequest" message="tns:DeleteEMailAccountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/DeleteEMailAccountResponse" name="DeleteEMailAccountResponse" message="tns:DeleteEMailAccountResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonEntitiesFromEmailAddress">
-      <wsdl:documentation>
-        <summary>Get all persons and contacts with the given email address</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetPersonEntitiesFromEmailAddress" name="GetPersonEntitiesFromEmailAddressRequest" message="tns:GetPersonEntitiesFromEmailAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetPersonEntitiesFromEmailAddressResponse" name="GetPersonEntitiesFromEmailAddressResponse" message="tns:GetPersonEntitiesFromEmailAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonsFromEmailAddress">
-      <wsdl:documentation>
-        <summary>Get all persons and contacts with the given email address</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetPersonsFromEmailAddress" name="GetPersonsFromEmailAddressRequest" message="tns:GetPersonsFromEmailAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetPersonsFromEmailAddressResponse" name="GetPersonsFromEmailAddressResponse" message="tns:GetPersonsFromEmailAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasMXRecord">
-      <wsdl:documentation>
-        <summary>Return true if there is one or more MX records in DNS for the given mail domain</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/HasMXRecord" name="HasMXRecordRequest" message="tns:HasMXRecordRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/HasMXRecordResponse" name="HasMXRecordResponse" message="tns:HasMXRecordResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailFromId">
-      <wsdl:documentation>
-        <summary>Get en e-mail based on its unique id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailFromId" name="GetEMailFromIdRequest" message="tns:GetEMailFromIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailFromIdResponse" name="GetEMailFromIdResponse" message="tns:GetEMailFromIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendEMails">
-      <wsdl:documentation>
-        <summary>Send the provided e-mails</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SendEMails" name="SendEMailsRequest" message="tns:SendEMailsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SendEMailsResponse" name="SendEMailsResponse" message="tns:SendEMailsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveEMail">
-      <wsdl:documentation>
-        <summary>Save the passed e-mail back to the server</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SaveEMail" name="SaveEMailRequest" message="tns:SaveEMailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SaveEMailResponse" name="SaveEMailResponse" message="tns:SaveEMailResponse" />
     </wsdl:operation>
     <wsdl:operation name="AuthenticateIncoming">
-      <wsdl:documentation>
-        <summary>Authenticate against a mail-server to retrieve e-mails from</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/AuthenticateIncoming" name="AuthenticateIncomingRequest" message="tns:AuthenticateIncomingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/AuthenticateIncomingResponse" name="AuthenticateIncomingResponse" message="tns:AuthenticateIncomingResponse" />
     </wsdl:operation>
     <wsdl:operation name="AuthenticateOutgoing">
-      <wsdl:documentation>
-        <summary>Authenticate against a mail server to send items with</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/AuthenticateOutgoing" name="AuthenticateOutgoingRequest" message="tns:AuthenticateOutgoingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/AuthenticateOutgoingResponse" name="AuthenticateOutgoingResponse" message="tns:AuthenticateOutgoingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFolderList">
-      <wsdl:documentation>
-        <summary>Retrieve all folders for the mail account. String is separated in sections by the paragraph character.  First section contains the folder delimeter char. Next is folder name. Additional sections may be unread and total items.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetFolderList" name="GetFolderListRequest" message="tns:GetFolderListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetFolderListResponse" name="GetFolderListResponse" message="tns:GetFolderListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAttachment">
-      <wsdl:documentation>
-        <summary>Retrieve an attachment from an e-mail</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetAttachment" name="GetAttachmentRequest" message="tns:GetAttachmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetAttachmentResponse" name="GetAttachmentResponse" message="tns:GetAttachmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="MarkAsRead">
-      <wsdl:documentation>
-        <summary>Mark one or more e-mails as (un)read</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/MarkAsRead" name="MarkAsReadRequest" message="tns:MarkAsReadRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/MarkAsReadResponse" name="MarkAsReadResponse" message="tns:MarkAsReadResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFolderEMailCount">
-      <wsdl:documentation>
-        <summary>Retrieve total/unread mail items in current folder</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetFolderEMailCount" name="GetFolderEMailCountRequest" message="tns:GetFolderEMailCountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetFolderEMailCountResponse" name="GetFolderEMailCountResponse" message="tns:GetFolderEMailCountResponse" />
     </wsdl:operation>
     <wsdl:operation name="Delete">
-      <wsdl:documentation>
-        <summary>Delete specified mail items</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/Delete" name="DeleteRequest" message="tns:DeleteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/DeleteResponse" name="DeleteResponse" message="tns:DeleteResponse" />
     </wsdl:operation>
     <wsdl:operation name="MoveToFolder">
-      <wsdl:documentation>
-        <summary>Moved specified items from current folder to targetFolder</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/MoveToFolder" name="MoveToFolderRequest" message="tns:MoveToFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/MoveToFolderResponse" name="MoveToFolderResponse" message="tns:MoveToFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="EmptyFolder">
-      <wsdl:documentation>
-        <summary>Delete all items in folder specified in the connection object</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/EmptyFolder" name="EmptyFolderRequest" message="tns:EmptyFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/EmptyFolderResponse" name="EmptyFolderResponse" message="tns:EmptyFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailAsStream">
-      <wsdl:documentation>
-        <summary>Retrieve an e-mail optionally stripping attachments as a stream</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailAsStream" name="GetEMailAsStreamRequest" message="tns:GetEMailAsStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailAsStreamResponse" name="GetEMailAsStreamResponse" message="tns:GetEMailAsStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindAddress">
-      <wsdl:documentation>
-        <summary>Search for contacts and persons with the specified e-mail address (exact match on the email address string required)</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/FindAddress" name="FindAddressRequest" message="tns:FindAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/FindAddressResponse" name="FindAddressResponse" message="tns:FindAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailFromDocumentId">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on an archived document</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailFromDocumentId" name="GetEMailFromDocumentIdRequest" message="tns:GetEMailFromDocumentIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailFromDocumentIdResponse" name="GetEMailFromDocumentIdResponse" message="tns:GetEMailFromDocumentIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailFromAttachmentId">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on an email and attachment id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailFromAttachmentId" name="GetEMailFromAttachmentIdRequest" message="tns:GetEMailFromAttachmentIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailFromAttachmentIdResponse" name="GetEMailFromAttachmentIdResponse" message="tns:GetEMailFromAttachmentIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailFromDocumentAttachmentId">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on an email in the archive system and attachment id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailFromDocumentAttachmentId" name="GetEMailFromDocumentAttachmentIdRequest" message="tns:GetEMailFromDocumentAttachmentIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailFromDocumentAttachmentIdResponse" name="GetEMailFromDocumentAttachmentIdResponse" message="tns:GetEMailFromDocumentAttachmentIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailEnvelopes">
-      <wsdl:documentation>
-        <summary>Retrieve a set of e-mail envelopes</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailEnvelopes" name="GetEMailEnvelopesRequest" message="tns:GetEMailEnvelopesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailEnvelopesResponse" name="GetEMailEnvelopesResponse" message="tns:GetEMailEnvelopesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetSubscription">
-      <wsdl:documentation>
-        <summary>Set subscription on or off on a set of folders</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SetSubscription" name="SetSubscriptionRequest" message="tns:SetSubscriptionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SetSubscriptionResponse" name="SetSubscriptionResponse" message="tns:SetSubscriptionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateFolder">
-      <wsdl:documentation>
-        <summary>Create a new folder on the server</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateFolder" name="CreateFolderRequest" message="tns:CreateFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateFolderResponse" name="CreateFolderResponse" message="tns:CreateFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteFolder">
-      <wsdl:documentation>
-        <summary>Delete a folder from the server</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/DeleteFolder" name="DeleteFolderRequest" message="tns:DeleteFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/DeleteFolderResponse" name="DeleteFolderResponse" message="tns:DeleteFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateEMailFromDocumentEntity">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on the provided DocumentEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateEMailFromDocumentEntity" name="CreateEMailFromDocumentEntityRequest" message="tns:CreateEMailFromDocumentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateEMailFromDocumentEntityResponse" name="CreateEMailFromDocumentEntityResponse" message="tns:CreateEMailFromDocumentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateEMailFromMimeMessage">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on the provided MIME-message</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateEMailFromMimeMessage" name="CreateEMailFromMimeMessageRequest" message="tns:CreateEMailFromMimeMessageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateEMailFromMimeMessageResponse" name="CreateEMailFromMimeMessageResponse" message="tns:CreateEMailFromMimeMessageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFolderInfo">
-      <wsdl:documentation>
-        <summary>Retrieve information about folders.  If folders parameter is not specified(null), information about all subscribed folders will be returned.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetFolderInfo" name="GetFolderInfoRequest" message="tns:GetFolderInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetFolderInfoResponse" name="GetFolderInfoResponse" message="tns:GetFolderInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFolderHasNewEMail">
-      <wsdl:documentation>
-        <summary>Check if folder has received new items since previous access.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetFolderHasNewEMail" name="GetFolderHasNewEMailRequest" message="tns:GetFolderHasNewEMailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetFolderHasNewEMailResponse" name="GetFolderHasNewEMailResponse" message="tns:GetFolderHasNewEMailResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailAddresses">
-      <wsdl:documentation>
-        <summary>Get information about one or more email addresses, identified by IDs</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailAddresses" name="GetEMailAddressesRequest" message="tns:GetEMailAddressesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailAddressesResponse" name="GetEMailAddressesResponse" message="tns:GetEMailAddressesResponse" />
     </wsdl:operation>
     <wsdl:operation name="RefreshFolder">
-      <wsdl:documentation>
-        <summary>Refresh the given folders - i.e., fetch data from the mail server and update the in-database cache. This may happen synchronously or as a batch task, the return value will be 0 if the processing was synchronous, or the batch task id if a batch task is used.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/RefreshFolder" name="RefreshFolderRequest" message="tns:RefreshFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/RefreshFolderResponse" name="RefreshFolderResponse" message="tns:RefreshFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailFromTemp">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailFromTemp" name="GetEMailFromTempRequest" message="tns:GetEMailFromTempRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailFromTempResponse" name="GetEMailFromTempResponse" message="tns:GetEMailFromTempResponse" />
     </wsdl:operation>
     <wsdl:operation name="Authenticate">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/Authenticate" name="AuthenticateRequest" message="tns:AuthenticateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/AuthenticateResponse" name="AuthenticateResponse" message="tns:AuthenticateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEmailMessageIds">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEmailMessageIds" name="GetEmailMessageIdsRequest" message="tns:GetEmailMessageIdsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEmailMessageIdsResponse" name="GetEmailMessageIdsResponse" message="tns:GetEmailMessageIdsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEmailsAsString">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEmailsAsString" name="GetEmailsAsStringRequest" message="tns:GetEmailsAsStringRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEmailsAsStringResponse" name="GetEmailsAsStringResponse" message="tns:GetEmailsAsStringResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteExtended">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/DeleteExtended" name="DeleteExtendedRequest" message="tns:DeleteExtendedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/DeleteExtendedResponse" name="DeleteExtendedResponse" message="tns:DeleteExtendedResponse" />
     </wsdl:operation>
     <wsdl:operation name="RelayMessage">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/RelayMessage" name="RelayMessageRequest" message="tns:RelayMessageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/RelayMessageResponse" name="RelayMessageResponse" message="tns:RelayMessageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMail">
-      <wsdl:documentation>
-        <summary>Get en e-mail based on its primary key in the DB</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMail" name="GetEMailRequest" message="tns:GetEMailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailResponse" name="GetEMailResponse" message="tns:GetEMailResponse" />
     </wsdl:operation>
     <wsdl:operation name="MarkEmailsAsRead">
-      <wsdl:documentation>
-        <summary>Mark one or more e-mails as (un)read</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/MarkEmailsAsRead" name="MarkEmailsAsReadRequest" message="tns:MarkEmailsAsReadRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/MarkEmailsAsReadResponse" name="MarkEmailsAsReadResponse" message="tns:MarkEmailsAsReadResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteEmails">
-      <wsdl:documentation>
-        <summary>Delete specified mail items and optionally move to the specified folder</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/DeleteEmails" name="DeleteEmailsRequest" message="tns:DeleteEmailsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/DeleteEmailsResponse" name="DeleteEmailsResponse" message="tns:DeleteEmailsResponse" />
     </wsdl:operation>
     <wsdl:operation name="MoveEmailsToTrash">
-      <wsdl:documentation>
-        <summary>Delete specified mail items and move to the Trash folder</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/MoveEmailsToTrash" name="MoveEmailsToTrashRequest" message="tns:MoveEmailsToTrashRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/MoveEmailsToTrashResponse" name="MoveEmailsToTrashResponse" message="tns:MoveEmailsToTrashResponse" />
     </wsdl:operation>
     <wsdl:operation name="Save">
-      <wsdl:documentation>
-        <summary>Save the e-mail back to the database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/Save" name="SaveRequest" message="tns:SaveRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SaveResponse" name="SaveResponse" message="tns:SaveResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveToMailServer">
-      <wsdl:documentation>
-        <summary>Save the passed e-mail back to the mail server</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SaveToMailServer" name="SaveToMailServerRequest" message="tns:SaveToMailServerRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SaveToMailServerResponse" name="SaveToMailServerResponse" message="tns:SaveToMailServerResponse" />
     </wsdl:operation>
     <wsdl:operation name="Send">
-      <wsdl:documentation>
-        <summary>Send the provided e-mails</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/Send" name="SendRequest" message="tns:SendRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SendResponse" name="SendResponse" message="tns:SendResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateForwardEmail">
-      <wsdl:documentation>
-        <summary>Create forward email</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateForwardEmail" name="CreateForwardEmailRequest" message="tns:CreateForwardEmailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateForwardEmailResponse" name="CreateForwardEmailResponse" message="tns:CreateForwardEmailResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindContactOrPersonByEmailName">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/FindContactOrPersonByEmailName" name="FindContactOrPersonByEmailNameRequest" message="tns:FindContactOrPersonByEmailNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/FindContactOrPersonByEmailNameResponse" name="FindContactOrPersonByEmailNameResponse" message="tns:FindContactOrPersonByEmailNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindContactOrPersonByEmailNameWithLimit">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/FindContactOrPersonByEmailNameWithLimit" name="FindContactOrPersonByEmailNameWithLimitRequest" message="tns:FindContactOrPersonByEmailNameWithLimitRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/FindContactOrPersonByEmailNameWithLimitResponse" name="FindContactOrPersonByEmailNameWithLimitResponse" message="tns:FindContactOrPersonByEmailNameWithLimitResponse" />
     </wsdl:operation>
     <wsdl:operation name="RefreshFolderForAssociate">
-      <wsdl:documentation>
-        <summary>Get all emails in folder(s) from current associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/RefreshFolderForAssociate" name="RefreshFolderForAssociateRequest" message="tns:RefreshFolderForAssociateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/RefreshFolderForAssociateResponse" name="RefreshFolderForAssociateResponse" message="tns:RefreshFolderForAssociateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNewMail">
-      <wsdl:documentation>
-        <summary>Get new email in folder(s) for current associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetNewMail" name="GetNewMailRequest" message="tns:GetNewMailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetNewMailResponse" name="GetNewMailResponse" message="tns:GetNewMailResponse" />
     </wsdl:operation>
     <wsdl:operation name="CacheFolderList">
-      <wsdl:documentation>
-        <summary>Fetch list of folders from email server for the current account, and cache in DB</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CacheFolderList" name="CacheFolderListRequest" message="tns:CacheFolderListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CacheFolderListResponse" name="CacheFolderListResponse" message="tns:CacheFolderListResponse" />
     </wsdl:operation>
     <wsdl:operation name="MoveEmailsToFolder">
-      <wsdl:documentation>
-        <summary>Move one or more emails to the specified folder in the DB, and on the server</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/MoveEmailsToFolder" name="MoveEmailsToFolderRequest" message="tns:MoveEmailsToFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/MoveEmailsToFolderResponse" name="MoveEmailsToFolderResponse" message="tns:MoveEmailsToFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMailFromMessageId">
-      <wsdl:documentation>
-        <summary>Get email from db based on Message Id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetMailFromMessageId" name="GetMailFromMessageIdRequest" message="tns:GetMailFromMessageIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetMailFromMessageIdResponse" name="GetMailFromMessageIdResponse" message="tns:GetMailFromMessageIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMailFromInReplyTo">
-      <wsdl:documentation>
-        <summary>Get email from db based on In-Reply-To Message Id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetMailFromInReplyTo" name="GetMailFromInReplyToRequest" message="tns:GetMailFromInReplyToRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetMailFromInReplyToResponse" name="GetMailFromInReplyToResponse" message="tns:GetMailFromInReplyToResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendAndSaveEmailToTmpDocument">
-      <wsdl:documentation>
-        <summary>Send the provided e-mail and create tmp document ready to archive</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SendAndSaveEmailToTmpDocument" name="SendAndSaveEmailToTmpDocumentRequest" message="tns:SendAndSaveEmailToTmpDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SendAndSaveEmailToTmpDocumentResponse" name="SendAndSaveEmailToTmpDocumentResponse" message="tns:SendAndSaveEmailToTmpDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveEmailToTmpDocument">
-      <wsdl:documentation>
-        <summary>Save the Email as a tmp document ready to archive</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SaveEmailToTmpDocument" name="SaveEmailToTmpDocumentRequest" message="tns:SaveEmailToTmpDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SaveEmailToTmpDocumentResponse" name="SaveEmailToTmpDocumentResponse" message="tns:SaveEmailToTmpDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDraft">
-      <wsdl:documentation>
-        <summary>Save the Email entity to the drafts folder</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SaveDraft" name="SaveDraftRequest" message="tns:SaveDraftRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SaveDraftResponse" name="SaveDraftResponse" message="tns:SaveDraftResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetRepliedAt">
-      <wsdl:documentation>
-        <summary>Set the replied_at field based on the MessageID</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SetRepliedAt" name="SetRepliedAtRequest" message="tns:SetRepliedAtRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SetRepliedAtResponse" name="SetRepliedAtResponse" message="tns:SetRepliedAtResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailFromDocumentIdWithoutAttachmentStream">
-      <wsdl:documentation>
-        <summary>Get an e-mail based on an archived document</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailFromDocumentIdWithoutAttachmentStream" name="GetEMailFromDocumentIdWithoutAttachmentStreamRequest" message="tns:GetEMailFromDocumentIdWithoutAttachmentStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailFromDocumentIdWithoutAttachmentStreamResponse" name="GetEMailFromDocumentIdWithoutAttachmentStreamResponse" message="tns:GetEMailFromDocumentIdWithoutAttachmentStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAttachmentFromId">
-      <wsdl:documentation>
-        <summary>Retrieve an attachment from an e-mail</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetAttachmentFromId" name="GetAttachmentFromIdRequest" message="tns:GetAttachmentFromIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetAttachmentFromIdResponse" name="GetAttachmentFromIdResponse" message="tns:GetAttachmentFromIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreviewAttachmentFromId">
-      <wsdl:documentation>
-        <summary>Retrieve an attachment from an e-mail. The returned data is intended to be use for a preview.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetPreviewAttachmentFromId" name="GetPreviewAttachmentFromIdRequest" message="tns:GetPreviewAttachmentFromIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetPreviewAttachmentFromIdResponse" name="GetPreviewAttachmentFromIdResponse" message="tns:GetPreviewAttachmentFromIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreviewAttachmentFromDocId">
-      <wsdl:documentation>
-        <summary>Retrieve an attachment from an e-mail stored in the document archive. The returned data is intended to be use for a preview.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetPreviewAttachmentFromDocId" name="GetPreviewAttachmentFromDocIdRequest" message="tns:GetPreviewAttachmentFromDocIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetPreviewAttachmentFromDocIdResponse" name="GetPreviewAttachmentFromDocIdResponse" message="tns:GetPreviewAttachmentFromDocIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="TestAuthenticate">
-      <wsdl:documentation>
-        <summary>Test if logged-in user has a working mail account </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/TestAuthenticate" name="TestAuthenticateRequest" message="tns:TestAuthenticateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/TestAuthenticateResponse" name="TestAuthenticateResponse" message="tns:TestAuthenticateResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleSubscription">
-      <wsdl:documentation>
-        <summary>Set subscription on or off on a set of folders</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/ToggleSubscription" name="ToggleSubscriptionRequest" message="tns:ToggleSubscriptionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/ToggleSubscriptionResponse" name="ToggleSubscriptionResponse" message="tns:ToggleSubscriptionResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasNewMail">
-      <wsdl:documentation>
-        <summary>Fast check for new mail in the database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/HasNewMail" name="HasNewMailRequest" message="tns:HasNewMailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/HasNewMailResponse" name="HasNewMailResponse" message="tns:HasNewMailResponse" />
     </wsdl:operation>
     <wsdl:operation name="LatestItemIdByFolder">
-      <wsdl:documentation>
-        <summary>Returns the latest id of the mail item by folder</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/LatestItemIdByFolder" name="LatestItemIdByFolderRequest" message="tns:LatestItemIdByFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/LatestItemIdByFolderResponse" name="LatestItemIdByFolderResponse" message="tns:LatestItemIdByFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateInlineHtmlHeader">
-      <wsdl:documentation>
-        <summary>Create Outlook style HTML header to use in for instance reply entities and when printing</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateInlineHtmlHeader" name="CreateInlineHtmlHeaderRequest" message="tns:CreateInlineHtmlHeaderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/CreateInlineHtmlHeaderResponse" name="CreateInlineHtmlHeaderResponse" message="tns:CreateInlineHtmlHeaderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEmailAppointment">
-      <wsdl:documentation>
-        <summary>Get appointment data contained in the emails iCal attachment</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEmailAppointment" name="GetEmailAppointmentRequest" message="tns:GetEmailAppointmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEmailAppointmentResponse" name="GetEmailAppointmentResponse" message="tns:GetEmailAppointmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEmailAppointmentRecurrence">
-      <wsdl:documentation>
-        <summary>Get recurrence data contained in the email iCal attachment</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEmailAppointmentRecurrence" name="GetEmailAppointmentRecurrenceRequest" message="tns:GetEmailAppointmentRecurrenceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEmailAppointmentRecurrenceResponse" name="GetEmailAppointmentRecurrenceResponse" message="tns:GetEmailAppointmentRecurrenceResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetParticipantInfoFromEmailAddress">
-      <wsdl:documentation>
-        <summary>Get participant data associated with the participant in the emails iCal attachment</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetParticipantInfoFromEmailAddress" name="GetParticipantInfoFromEmailAddressRequest" message="tns:GetParticipantInfoFromEmailAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetParticipantInfoFromEmailAddressResponse" name="GetParticipantInfoFromEmailAddressResponse" message="tns:GetParticipantInfoFromEmailAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEmailDocumentAsMimeStream">
-      <wsdl:documentation>
-        <summary>Gets a particular document, and tries to parse it, and returns it in MIME/RFC822 format.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEmailDocumentAsMimeStream" name="GetEmailDocumentAsMimeStreamRequest" message="tns:GetEmailDocumentAsMimeStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEmailDocumentAsMimeStreamResponse" name="GetEmailDocumentAsMimeStreamResponse" message="tns:GetEmailDocumentAsMimeStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailSOInfo">
-      <wsdl:documentation>
-        <summary>Gets a EMailSOInfo object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailSOInfo" name="GetEMailSOInfoRequest" message="tns:GetEMailSOInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailSOInfoResponse" name="GetEMailSOInfoResponse" message="tns:GetEMailSOInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailAccount">
-      <wsdl:documentation>
-        <summary>Gets a EMailAccount object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailAccount" name="GetEMailAccountRequest" message="tns:GetEMailAccountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailAccountResponse" name="GetEMailAccountResponse" message="tns:GetEMailAccountResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMailAccountFromEMailAddress">
-      <wsdl:documentation>
-        <summary>Returns the email account corresponding to this email address (for the current associate).</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailAccountFromEMailAddress" name="GetEMailAccountFromEMailAddressRequest" message="tns:GetEMailAccountFromEMailAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetEMailAccountFromEMailAddressResponse" name="GetEMailAccountFromEMailAddressResponse" message="tns:GetEMailAccountFromEMailAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCurrentAccountId">
-      <wsdl:documentation>
-        <summary>Get current accountId (last logged into should normally be current) for logged in associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetCurrentAccountId" name="GetCurrentAccountIdRequest" message="tns:GetCurrentAccountIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetCurrentAccountIdResponse" name="GetCurrentAccountIdResponse" message="tns:GetCurrentAccountIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCurrentAccount">
-      <wsdl:documentation>
-        <summary>Get current account (last logged into should normally be current) for logged in associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetCurrentAccount" name="GetCurrentAccountRequest" message="tns:GetCurrentAccountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetCurrentAccountResponse" name="GetCurrentAccountResponse" message="tns:GetCurrentAccountResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetReadySyncEmailAccounts">
-      <wsdl:documentation>
-        <summary>Gets the list of SyncUserAccounts that should be synced.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetReadySyncEmailAccounts" name="GetReadySyncEmailAccountsRequest" message="tns:GetReadySyncEmailAccountsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/GetReadySyncEmailAccountsResponse" name="GetReadySyncEmailAccountsResponse" message="tns:GetReadySyncEmailAccountsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SyncEmailAccount">
-      <wsdl:documentation>
-        <summary>Sync the given account</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SyncEmailAccount" name="SyncEmailAccountRequest" message="tns:SyncEmailAccountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SyncEmailAccountResponse" name="SyncEmailAccountResponse" message="tns:SyncEmailAccountResponse" />
     </wsdl:operation>
     <wsdl:operation name="SyncEmailAccounts">
-      <wsdl:documentation>
-        <summary>Start syncing of the given accounts</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SyncEmailAccounts" name="SyncEmailAccountsRequest" message="tns:SyncEmailAccountsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/EMail/SyncEmailAccountsResponse" name="SyncEmailAccountsResponse" message="tns:SyncEmailAccountsResponse" />
     </wsdl:operation>
@@ -6566,3 +6285,4 @@ title: Services87.EMailAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

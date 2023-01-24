@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.CreateDefaultP
 
 ## CreateDefaultPreviewDash
 
-Loading default values into a new PreviewDash.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New PreviewDash with default values
+
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultPreviewDash Response
 
 ```xml
@@ -65,7 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Dash:Name xsi:type="xsd:string"></Dash:Name>
     <Dash:Description xsi:type="xsd:string"></Dash:Description>
     <Dash:OwnedByFullName xsi:type="xsd:string"></Dash:OwnedByFullName>
-    <Dash:Registered xsi:type="xsd:dateTime">2022-08-26T08:59:03Z</Dash:Registered>
+    <Dash:Registered xsi:type="xsd:dateTime">2023-01-23T10:20:35Z</Dash:Registered>
     <Dash:Tiles xsi:type="Dash:ArrayOfPreviewDashTile">
      <Dash:PreviewDashTile xsi:type="Dash:PreviewDashTile">
       <Dash:Name xsi:type="xsd:string"></Dash:Name>
@@ -78,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

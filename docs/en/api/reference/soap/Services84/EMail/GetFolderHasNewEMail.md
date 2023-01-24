@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.GetFolderHasN
 
 ## GetFolderHasNewEMail
 
-Check if folder has received new items since previous access.
 
-* **connectionInfo:** All information needed to connect to the mailserver
 
-**Returns:** True if new mail is available.
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -55,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFolderHasNewEMail Response
 
 ```xml
@@ -75,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

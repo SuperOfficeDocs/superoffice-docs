@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.GetErpSyncC
 
 ## GetErpSyncConnectionSummary
 
-Get a summary of the current ErpSync configuration/setup
 
-* **erpSyncConnectionId:** The ID of the ErpSync connection for which information is sought
 
-**Returns:** Summary of connection information, and one summary element per configured actor type
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetErpSyncConnectionSummary Response
 
 ```xml
@@ -68,7 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <ErpSync:DisplayDescription xsi:type="xsd:string"></ErpSync:DisplayDescription>
     <ErpSync:Active xsi:type="xsd:boolean">false</ErpSync:Active>
     <ErpSync:Deleted xsi:type="xsd:boolean">false</ErpSync:Deleted>
-    <ErpSync:LastSync xsi:type="xsd:dateTime">2022-08-26T08:52:52Z</ErpSync:LastSync>
+    <ErpSync:LastSync xsi:type="xsd:dateTime">2023-01-23T10:14:39Z</ErpSync:LastSync>
     <ErpSync:Actors xsi:type="ErpSync:ArrayOfErpSyncActorSummary">
      <ErpSync:ErpSyncActorSummary xsi:type="ErpSync:ErpSyncActorSummary">
       <ErpSync:ActorType xsi:type="ErpSync:ErpActorType">Unknown</ErpSync:ActorType>
@@ -83,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

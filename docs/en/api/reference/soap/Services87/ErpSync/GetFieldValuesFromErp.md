@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.GetFieldVal
 
 ## GetFieldValuesFromErp
 
-Get Erp Field values
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-* **erpConnectionId:** Erp connection id
-* **actorTypeErp:** ERP Actor type
-* **erpKey:** Primary key for the erp actor
 
-**Returns:** The Erp Fields
+
 
 [WSDL file for Services87/ErpSync](../Services87-ErpSync.md)
 
@@ -54,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFieldValuesFromErp Response
 
 ```xml
@@ -83,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

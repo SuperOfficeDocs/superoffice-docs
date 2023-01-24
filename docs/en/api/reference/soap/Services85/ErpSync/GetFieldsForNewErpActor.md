@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.GetFieldsFo
 
 ## GetFieldsForNewErpActor
 
-Get the fields that must be filled out when creating a new ERP actor
 
-* **erpConnectionId:** The id of the connection
-* **erpActorType:** The type of the ERP actor to create
 
-**Returns:** The fields that are required for the new ERP actor
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFieldsForNewErpActor Response
 
 ```xml
@@ -84,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

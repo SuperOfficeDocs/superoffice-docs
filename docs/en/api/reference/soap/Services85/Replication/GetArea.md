@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IReplicationAgent.GetArea
 
 ## GetArea
 
-Gets a Area object.
 
-* **areaId:** The identifier of the Area object
 
-**Returns:** Area
+
 
 [WSDL file for Services85/Replication](../Services85-Replication.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetArea Response
 
 ```xml
@@ -76,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

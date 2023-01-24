@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.GetDataRights"
 
 ## GetDataRights
 
-Read specific a set of data rights at the given row in the rights matrix. An exception will be thrown if non existing position is specified.
 
-* **roleId:** The role id to set the data right for
-* **tableName:** The name of the entity/table
 
-**Returns:** The data right values for all the defined relationships (C, CR, CRU, or CRUD)
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDataRights Response
 
 ```xml
@@ -76,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

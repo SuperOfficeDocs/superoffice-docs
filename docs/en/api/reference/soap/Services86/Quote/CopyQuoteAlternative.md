@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.CopyQuoteAlte
 
 ## CopyQuoteAlternative
 
-Copy a quote alternative from the same sale and adds it to a version.
 
-* **quoteVersionId:** QuoteVersionId of the version to copy the alternative to.
-* **quoteAlternativeId:** QuoteAlternativeId of the alternative to make a copy of.
-* **quoteAlternativeName:** The name to set on the new alternative.
 
-**Returns:** The copied QuoteAlternative.
+
 
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CopyQuoteAlternative Response
 
@@ -97,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

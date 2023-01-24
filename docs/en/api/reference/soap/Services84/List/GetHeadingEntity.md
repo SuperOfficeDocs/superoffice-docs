@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetHeadingEnti
 
 ## GetHeadingEntity
 
-Gets a HeadingEntity object.
 
-* **headingEntityId:** The identifier of the HeadingEntity object
 
-**Returns:** HeadingEntity
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetHeadingEntity Response
 
 ```xml
@@ -76,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

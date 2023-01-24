@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserDefinedFieldInfoAgen
 
 ## GetPublishedUserDefinedFieldList
 
-Return information about all the user defined fields on a particular owner type (project, contact, person, etc).
 
-* **ownerType:** The user-defined field owner-entity id.
 
-**Returns:** Returns an array of user-defined field info carriers.
+
 
 [WSDL file for Services88/UserDefinedFieldInfo](../Services88-UserDefinedFieldInfo.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPublishedUserDefinedFieldList Response
 
@@ -106,3 +105,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

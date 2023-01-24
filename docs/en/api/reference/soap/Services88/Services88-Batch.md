@@ -68,6 +68,7 @@ title: Services88.BatchAgent WSDL
               <xs:element minOccurs="0" name="ProgressDescription" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ProgressPercent" type="xs:short" />
               <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="CancellationBehaviour" type="tns:BatchTaskCancellationBehaviour" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -213,6 +214,14 @@ title: Services88.BatchAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="BatchTaskState" nillable="true" type="tns:BatchTaskState" />
+      <xs:simpleType name="BatchTaskCancellationBehaviour">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="CanCancel" />
+          <xs:enumeration value="CancelWithWarning" />
+          <xs:enumeration value="CannotCancel" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="BatchTaskCancellationBehaviour" nillable="true" type="tns:BatchTaskCancellationBehaviour" />
       <xs:complexType name="SoExceptionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
@@ -407,6 +416,64 @@ title: Services88.BatchAgent WSDL
       <xs:element name="DeleteBatchTaskResponse">
         <xs:complexType>
           <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllBatchTaskInfosByName">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TaskName" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllBatchTaskInfosByNameResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfBatchTaskInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllBatchTaskInfosByNameAndState">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TaskName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="State" type="tns:BatchTaskState" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllBatchTaskInfosByNameAndStateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfBatchTaskInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSystemBatchTaskInfosByName">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TaskName" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSystemBatchTaskInfosByNameResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfBatchTaskInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSystemBatchTaskInfosByNameAndState">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TaskName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="State" type="tns:BatchTaskState" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSystemBatchTaskInfosByNameAndStateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfBatchTaskInfo" />
+          </xs:sequence>
         </xs:complexType>
       </xs:element>
     </xs:schema>
@@ -647,86 +714,134 @@ title: Services88.BatchAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetAllBatchTaskInfosByNameRequest">
+    <wsdl:part name="parameters" element="tns:GetAllBatchTaskInfosByName" />
+  </wsdl:message>
+  <wsdl:message name="GetAllBatchTaskInfosByNameRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllBatchTaskInfosByNameResponse">
+    <wsdl:part name="parameters" element="tns:GetAllBatchTaskInfosByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllBatchTaskInfosByNameResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllBatchTaskInfosByNameAndStateRequest">
+    <wsdl:part name="parameters" element="tns:GetAllBatchTaskInfosByNameAndState" />
+  </wsdl:message>
+  <wsdl:message name="GetAllBatchTaskInfosByNameAndStateRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllBatchTaskInfosByNameAndStateResponse">
+    <wsdl:part name="parameters" element="tns:GetAllBatchTaskInfosByNameAndStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllBatchTaskInfosByNameAndStateResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemBatchTaskInfosByNameRequest">
+    <wsdl:part name="parameters" element="tns:GetSystemBatchTaskInfosByName" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemBatchTaskInfosByNameRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemBatchTaskInfosByNameResponse">
+    <wsdl:part name="parameters" element="tns:GetSystemBatchTaskInfosByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemBatchTaskInfosByNameResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemBatchTaskInfosByNameAndStateRequest">
+    <wsdl:part name="parameters" element="tns:GetSystemBatchTaskInfosByNameAndState" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemBatchTaskInfosByNameAndStateRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemBatchTaskInfosByNameAndStateResponse">
+    <wsdl:part name="parameters" element="tns:GetSystemBatchTaskInfosByNameAndStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemBatchTaskInfosByNameAndStateResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="Batch">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Batch</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetBatchTaskInfo">
-      <wsdl:documentation>
-        <summary>Get a single BatchTaskInfo based on Id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetBatchTaskInfo" name="GetBatchTaskInfoRequest" message="tns:GetBatchTaskInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetBatchTaskInfoResponse" name="GetBatchTaskInfoResponse" message="tns:GetBatchTaskInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBatchTaskInfosByAssociates">
-      <wsdl:documentation>
-        <summary>Get an array of BatchTaskInfo for the provided associate id's.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetBatchTaskInfosByAssociates" name="GetBatchTaskInfosByAssociatesRequest" message="tns:GetBatchTaskInfosByAssociatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetBatchTaskInfosByAssociatesResponse" name="GetBatchTaskInfosByAssociatesResponse" message="tns:GetBatchTaskInfosByAssociatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="StartBatchJob">
-      <wsdl:documentation>
-        <summary>Start a batch job based on BatchTaskInfo.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/StartBatchJob" name="StartBatchJobRequest" message="tns:StartBatchJobRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/StartBatchJobResponse" name="StartBatchJobResponse" message="tns:StartBatchJobResponse" />
     </wsdl:operation>
     <wsdl:operation name="StopBatchJob">
-      <wsdl:documentation>
-        <summary>Stop a batch job based on Id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/StopBatchJob" name="StopBatchJobRequest" message="tns:StopBatchJobRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/StopBatchJobResponse" name="StopBatchJobResponse" message="tns:StopBatchJobResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBatchTaskInfosByState">
-      <wsdl:documentation>
-        <summary>Gets an array of BatchTaskInfo with state defined by a BatchTaskState.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetBatchTaskInfosByState" name="GetBatchTaskInfosByStateRequest" message="tns:GetBatchTaskInfosByStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetBatchTaskInfosByStateResponse" name="GetBatchTaskInfosByStateResponse" message="tns:GetBatchTaskInfosByStateResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateBatchTask">
-      <wsdl:documentation>
-        <summary>Update information about a BatchTask. Only the following properties can be updated: State, Description, Response and Request.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/UpdateBatchTask" name="UpdateBatchTaskRequest" message="tns:UpdateBatchTaskRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/UpdateBatchTaskResponse" name="UpdateBatchTaskResponse" message="tns:UpdateBatchTaskResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBatchTaskInfosByNameAndState">
-      <wsdl:documentation>
-        <summary>Gets an array of BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetBatchTaskInfosByNameAndState" name="GetBatchTaskInfosByNameAndStateRequest" message="tns:GetBatchTaskInfosByNameAndStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetBatchTaskInfosByNameAndStateResponse" name="GetBatchTaskInfosByNameAndStateResponse" message="tns:GetBatchTaskInfosByNameAndStateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBatchTaskInfosByNameAndAssociates">
-      <wsdl:documentation>
-        <summary>Get an array of BatchTaskInfo for the provided associate id's and batch task definition name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetBatchTaskInfosByNameAndAssociates" name="GetBatchTaskInfosByNameAndAssociatesRequest" message="tns:GetBatchTaskInfosByNameAndAssociatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetBatchTaskInfosByNameAndAssociatesResponse" name="GetBatchTaskInfosByNameAndAssociatesResponse" message="tns:GetBatchTaskInfosByNameAndAssociatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBatchTaskInfosByAssociatesAndState">
-      <wsdl:documentation>
-        <summary>Get an array of BatchTaskInfo for the provided associate id's and batch task state.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetBatchTaskInfosByAssociatesAndState" name="GetBatchTaskInfosByAssociatesAndStateRequest" message="tns:GetBatchTaskInfosByAssociatesAndStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetBatchTaskInfosByAssociatesAndStateResponse" name="GetBatchTaskInfosByAssociatesAndStateResponse" message="tns:GetBatchTaskInfosByAssociatesAndStateResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteBatchTasks">
-      <wsdl:documentation>
-        <summary>Delete batch tasks from the database.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/DeleteBatchTasks" name="DeleteBatchTasksRequest" message="tns:DeleteBatchTasksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/DeleteBatchTasksResponse" name="DeleteBatchTasksResponse" message="tns:DeleteBatchTasksResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteBatchTask">
-      <wsdl:documentation>
-        <summary>Delete a batch task from the database.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/DeleteBatchTask" name="DeleteBatchTaskRequest" message="tns:DeleteBatchTaskRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/DeleteBatchTaskResponse" name="DeleteBatchTaskResponse" message="tns:DeleteBatchTaskResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllBatchTaskInfosByName">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetAllBatchTaskInfosByName" name="GetAllBatchTaskInfosByNameRequest" message="tns:GetAllBatchTaskInfosByNameRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetAllBatchTaskInfosByNameResponse" name="GetAllBatchTaskInfosByNameResponse" message="tns:GetAllBatchTaskInfosByNameResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllBatchTaskInfosByNameAndState">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetAllBatchTaskInfosByNameAndState" name="GetAllBatchTaskInfosByNameAndStateRequest" message="tns:GetAllBatchTaskInfosByNameAndStateRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetAllBatchTaskInfosByNameAndStateResponse" name="GetAllBatchTaskInfosByNameAndStateResponse" message="tns:GetAllBatchTaskInfosByNameAndStateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSystemBatchTaskInfosByName">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetSystemBatchTaskInfosByName" name="GetSystemBatchTaskInfosByNameRequest" message="tns:GetSystemBatchTaskInfosByNameRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetSystemBatchTaskInfosByNameResponse" name="GetSystemBatchTaskInfosByNameResponse" message="tns:GetSystemBatchTaskInfosByNameResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSystemBatchTaskInfosByNameAndState">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetSystemBatchTaskInfosByNameAndState" name="GetSystemBatchTaskInfosByNameAndStateRequest" message="tns:GetSystemBatchTaskInfosByNameAndStateRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetSystemBatchTaskInfosByNameAndStateResponse" name="GetSystemBatchTaskInfosByNameAndStateResponse" message="tns:GetSystemBatchTaskInfosByNameAndStateResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Batch" type="tns:Batch">
@@ -907,6 +1022,70 @@ title: Services88.BatchAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetAllBatchTaskInfosByName">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetAllBatchTaskInfosByName" style="document" />
+      <wsdl:input name="GetAllBatchTaskInfosByNameRequest">
+        <soap:header message="tns:GetAllBatchTaskInfosByNameRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAllBatchTaskInfosByNameRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAllBatchTaskInfosByNameRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAllBatchTaskInfosByNameResponse">
+        <soap:header message="tns:GetAllBatchTaskInfosByNameResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAllBatchTaskInfosByNameResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAllBatchTaskInfosByNameResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAllBatchTaskInfosByNameResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllBatchTaskInfosByNameAndState">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetAllBatchTaskInfosByNameAndState" style="document" />
+      <wsdl:input name="GetAllBatchTaskInfosByNameAndStateRequest">
+        <soap:header message="tns:GetAllBatchTaskInfosByNameAndStateRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAllBatchTaskInfosByNameAndStateRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAllBatchTaskInfosByNameAndStateRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAllBatchTaskInfosByNameAndStateResponse">
+        <soap:header message="tns:GetAllBatchTaskInfosByNameAndStateResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAllBatchTaskInfosByNameAndStateResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAllBatchTaskInfosByNameAndStateResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAllBatchTaskInfosByNameAndStateResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSystemBatchTaskInfosByName">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetSystemBatchTaskInfosByName" style="document" />
+      <wsdl:input name="GetSystemBatchTaskInfosByNameRequest">
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSystemBatchTaskInfosByNameResponse">
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSystemBatchTaskInfosByNameAndState">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Batch/GetSystemBatchTaskInfosByNameAndState" style="document" />
+      <wsdl:input name="GetSystemBatchTaskInfosByNameAndStateRequest">
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameAndStateRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameAndStateRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameAndStateRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSystemBatchTaskInfosByNameAndStateResponse">
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameAndStateResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameAndStateResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameAndStateResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSystemBatchTaskInfosByNameAndStateResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="WcfBatchService">
     <wsdl:port name="BasicHttpBinding_Batch" binding="tns:BasicHttpBinding_Batch">
@@ -915,3 +1094,4 @@ title: Services88.BatchAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

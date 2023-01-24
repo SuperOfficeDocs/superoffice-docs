@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ILicenseAgent.GetUserLice
 
 ## GetUserLicensesMDOList
 
-Get all licenses in a MDOListItem structure.
 
-**Returns:** Hierarchical structure of user licenses.
+
+
 
 [WSDL file for Services88/License](../Services88-License.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetUserLicensesMDOList Response
 
 ```xml
@@ -73,7 +74,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <License:ColorBlock xsi:type="xsd:int">0</License:ColorBlock>
      <License:IconHint xsi:type="xsd:string"></License:IconHint>
      <License:Selected xsi:type="xsd:boolean">false</License:Selected>
-     <License:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:59:38Z</License:LastChanged>
+     <License:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:21:08Z</License:LastChanged>
      <License:ChildItems xsi:type="License:ArrayOfSelectableMDOListItem">
       <License:SelectableMDOListItem xsi:type="License:SelectableMDOListItem">
        <License:Id xsi:type="xsd:int">0</License:Id>
@@ -85,7 +86,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <License:ColorBlock xsi:type="xsd:int">0</License:ColorBlock>
        <License:IconHint xsi:type="xsd:string"></License:IconHint>
        <License:Selected xsi:type="xsd:boolean">false</License:Selected>
-       <License:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:59:38Z</License:LastChanged>
+       <License:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:21:08Z</License:LastChanged>
        <License:ChildItems xsi:type="License:ArrayOfSelectableMDOListItem">
         <License:SelectableMDOListItem xsi:type="License:SelectableMDOListItem">
          <License:Id xsi:type="xsd:int">0</License:Id>
@@ -97,7 +98,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <License:ColorBlock xsi:type="xsd:int">0</License:ColorBlock>
          <License:IconHint xsi:type="xsd:string"></License:IconHint>
          <License:Selected xsi:type="xsd:boolean">false</License:Selected>
-         <License:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:59:38Z</License:LastChanged>
+         <License:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:21:08Z</License:LastChanged>
          <License:ChildItems xsi:type="License:ArrayOfSelectableMDOListItem">
           <License:SelectableMDOListItem xsi:nil="true"></License:SelectableMDOListItem>
          </License:ChildItems>
@@ -124,3 +125,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

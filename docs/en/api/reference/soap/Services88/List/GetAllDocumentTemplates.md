@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetAllDocument
 
 ## GetAllDocumentTemplates
 
-Returns all templates
 
-* **includeDeleted:** Include deleted items in result?
 
-**Returns:** Array of all template items
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAllDocumentTemplates Response
 
@@ -97,3 +96,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

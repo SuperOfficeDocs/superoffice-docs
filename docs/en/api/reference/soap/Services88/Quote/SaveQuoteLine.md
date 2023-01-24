@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.SaveQuoteLine
 
 ## SaveQuoteLine
 
-Saves the QuoteLine in the SuperOffice database
 
-* **quoteLine:** The QuoteLine to save.
 
-**Returns:** The updated quote line (If the quoteline was new, it returns with id's set.
+
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -80,7 +78,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Quote:IsSubscription xsi:type="xsd:boolean">false</Quote:IsSubscription>
      <Quote:SubscriptionUnit xsi:type="xsd:string"></Quote:SubscriptionUnit>
      <Quote:SubscriptionQuantity xsi:type="xsd:double">0.0</Quote:SubscriptionQuantity>
-     <Quote:SubscriptionStart xsi:type="xsd:dateTime">2022-08-26T09:00:20Z</Quote:SubscriptionStart>
+     <Quote:SubscriptionStart xsi:type="xsd:dateTime">2023-01-23T10:21:46Z</Quote:SubscriptionStart>
      <Quote:ERPDiscountPercent xsi:type="xsd:double">0.0</Quote:ERPDiscountPercent>
      <Quote:ERPDiscountAmount xsi:type="xsd:double">0.0</Quote:ERPDiscountAmount>
      <Quote:DiscountPercent xsi:type="xsd:double">0.0</Quote:DiscountPercent>
@@ -104,6 +102,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveQuoteLine Response
 
@@ -158,7 +157,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Quote:IsSubscription xsi:type="xsd:boolean">false</Quote:IsSubscription>
     <Quote:SubscriptionUnit xsi:type="xsd:string"></Quote:SubscriptionUnit>
     <Quote:SubscriptionQuantity xsi:type="xsd:double">0.0</Quote:SubscriptionQuantity>
-    <Quote:SubscriptionStart xsi:type="xsd:dateTime">2022-08-26T09:00:20Z</Quote:SubscriptionStart>
+    <Quote:SubscriptionStart xsi:type="xsd:dateTime">2023-01-23T10:21:46Z</Quote:SubscriptionStart>
     <Quote:ERPDiscountPercent xsi:type="xsd:double">0.0</Quote:ERPDiscountPercent>
     <Quote:ERPDiscountAmount xsi:type="xsd:double">0.0</Quote:ERPDiscountAmount>
     <Quote:DiscountPercent xsi:type="xsd:double">0.0</Quote:DiscountPercent>
@@ -181,3 +180,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

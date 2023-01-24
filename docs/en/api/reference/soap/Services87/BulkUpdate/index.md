@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/BulkU
 
 Handled by the <see cref="T:SuperOffice.Services87.IBulkUpdateAgent">SuperOffice.Services87.IBulkUpdateAgent</see> interface.
 
-Interface for the BulkUpdate Agent
-Agent used for bulk update methods
+
 
 Download [WSDL file for Services87/BulkUpdate](../Services87-BulkUpdate.md) if you need to generate your own proxy code.
 
@@ -23,3 +22,4 @@ Download [WSDL file for Services87/BulkUpdate](../Services87-BulkUpdate.md) if y
 * [GetStoredFields](GetStoredFields.md)
 * [RemoveStoredFields](RemoveStoredFields.md)
 * [RemoveStoredFieldsAndGetDefaultFields](RemoveStoredFieldsAndGetDefaultFields.md)
+

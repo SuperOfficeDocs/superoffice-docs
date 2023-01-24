@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.SendQuoteVers
 
 ## SendQuoteVersion
 
-Send the quote to the user's customer. More parameters to be added later...
 
-* **quoteVersionId:** QuoteVersionId of the quoteversion to send
-* **expiryDate:** Date the quote expires
-* **followupDate:** Date for the followup task, to remind the sales rep about the quote
-* **followupText:** The body text for the follwup appointment, resolved to the correct culture (no resources please)
-* **culture:** Desired culture for email body and other culture-sensitive templates/content
 
-**Returns:** Response of the operation
+
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
@@ -46,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Quote:SendQuoteVersion>
     <Quote:QuoteVersionId xsi:type="xsd:int">0</Quote:QuoteVersionId>
-    <Quote:ExpiryDate xsi:type="xsd:dateTime">2022-08-26T08:57:50Z</Quote:ExpiryDate>
-    <Quote:FollowupDate xsi:type="xsd:dateTime">2022-08-26T08:57:50Z</Quote:FollowupDate>
+    <Quote:ExpiryDate xsi:type="xsd:dateTime">2023-01-23T10:19:24Z</Quote:ExpiryDate>
+    <Quote:FollowupDate xsi:type="xsd:dateTime">2023-01-23T10:19:24Z</Quote:FollowupDate>
     <Quote:FollowupText xsi:type="xsd:string"></Quote:FollowupText>
     <Quote:Culture xsi:type="xsd:string"></Quote:Culture>
    </Quote:SendQuoteVersion>
@@ -56,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SendQuoteVersion Response
 
@@ -103,3 +98,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

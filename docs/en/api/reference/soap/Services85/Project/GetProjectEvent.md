@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IProjectAgent.GetProjectE
 
 ## GetProjectEvent
 
-Gets a ProjectEvent object.
 
-* **projectEventId:** The identifier of the ProjectEvent object
 
-**Returns:** ProjectEvent
+
 
 [WSDL file for Services85/Project](../Services85-Project.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetProjectEvent Response
 
 ```xml
@@ -74,7 +73,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:SignOffText xsi:type="xsd:string"></Project:SignOffText>
     <Project:SignOnConfirmationText xsi:type="xsd:string"></Project:SignOnConfirmationText>
     <Project:SignOnText xsi:type="xsd:string"></Project:SignOnText>
-    <Project:EventDate xsi:type="xsd:dateTime">2022-08-26T08:53:33Z</Project:EventDate>
+    <Project:EventDate xsi:type="xsd:dateTime">2023-01-23T10:15:18Z</Project:EventDate>
     <Project:Enabled xsi:type="xsd:boolean">false</Project:Enabled>
     <Project:SignOff xsi:type="xsd:boolean">false</Project:SignOff>
     <Project:SignOffTaskEnable xsi:type="xsd:boolean">false</Project:SignOffTaskEnable>
@@ -92,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

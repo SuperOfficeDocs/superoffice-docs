@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPreferenceAgent.SavePref
 
 ## SavePreferenceDescriptionLines
 
-Saves the PreferenceDescriptionLine array in the SuperOffice database
 
-* **preferenceDescriptionLines:** The PreferenceDescriptionLine array to save.
 
-**Returns:** The updated PrefDesc lines (If the PreferenceDescriptionLine array was new, it returns with id's set.
+
 
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
@@ -58,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SavePreferenceDescriptionLines Response
 
 ```xml
@@ -87,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

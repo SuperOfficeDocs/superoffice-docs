@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/Quote
 
 Handled by the <see cref="T:SuperOffice.Services87.IQuoteAgent">SuperOffice.Services87.IQuoteAgent</see> interface.
 
-Interface for the Quote Agent
-Services for the Quote Management feature, part of the Sale module
+
 
 Download [WSDL file for Services87/Quote](../Services87-Quote.md) if you need to generate your own proxy code.
 
@@ -113,3 +112,4 @@ Download [WSDL file for Services87/Quote](../Services87-Quote.md) if you need to
 * [ToggleSaleTypeQuoteAttachmentDefaultIncluded](ToggleSaleTypeQuoteAttachmentDefaultIncluded.md)
 * [UpdateQuoteVersionPrices](UpdateQuoteVersionPrices.md)
 * [ValidateQuoteVersion](ValidateQuoteVersion.md)
+

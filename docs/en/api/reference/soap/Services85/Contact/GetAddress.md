@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IContactAgent.GetAddress"
 
 ## GetAddress
 
-Gets the contact's localized address.
 
-* **contactId:** The contact id
 
-**Returns:** The address as LocalizedField[][].
+
 
 [WSDL file for Services85/Contact](../Services85-Contact.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAddress Response
 
@@ -84,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

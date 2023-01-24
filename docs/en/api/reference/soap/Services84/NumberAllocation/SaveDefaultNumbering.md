@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.INumberAllocationAgent.Sa
 
 ## SaveDefaultNumbering
 
-Saves default numbering values in preferences
 
-* **refCountEntity:** The refCountEntity that holds the values that will be saved
 
-**Returns:** void
+
 
 [WSDL file for Services84/NumberAllocation](../Services84-NumberAllocation.md)
 
@@ -92,6 +90,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveDefaultNumbering Response
 
 ```xml
@@ -110,3 +109,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

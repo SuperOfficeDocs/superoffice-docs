@@ -153,13 +153,7 @@ title: Services86.PreviewsAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Previews">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Previews</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetPreview">
-      <wsdl:documentation>
-        <summary>Parse a Preview hint and return a Preview. The returned Preview string may contain resource string identifiers (in square brackets), to be processed by the resource manager.&lt;para /&gt;The Preview hint is either a literal text, representing itself, or a set of key/value pairs enclosed in curly braces. Each key is separated from its value by an equals sign, and each pair from the next by an ampersand, according to usual conventions.&lt;para /&gt;A typical Preview hint could be {contact_id=123} or {appointment_id=222&amp;amp;mode=simple}</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Previews/GetPreview" name="GetPreviewRequest" message="tns:GetPreviewRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Previews/GetPreviewResponse" name="GetPreviewResponse" message="tns:GetPreviewResponse" />
     </wsdl:operation>
@@ -190,3 +184,4 @@ title: Services86.PreviewsAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

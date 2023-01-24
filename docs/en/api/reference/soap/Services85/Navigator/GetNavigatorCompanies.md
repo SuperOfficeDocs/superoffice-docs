@@ -11,7 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.INavigatorAgent.GetNaviga
 
 ## GetNavigatorCompanies
 
-* **name:**
+
+
+
 
 [WSDL file for Services85/Navigator](../Services85-Navigator.md)
 
@@ -45,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetNavigatorCompanies Response
 
 ```xml
@@ -71,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

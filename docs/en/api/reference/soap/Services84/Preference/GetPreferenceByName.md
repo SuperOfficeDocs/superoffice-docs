@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPreferenceAgent.GetPrefe
 
 ## GetPreferenceByName
 
-Get a preference by name
 
-* **prefSection:** The preference section name. e.g. 'Functions'. See SuperOffice.CRM.UserPreferenceStrings for constants.
-* **prefKey:** The preference key name. e.g. 'ShowTipsAtStart'. See SuperOffice.CRM.UserPreferenceStrings for constants.
-* **prefLevel:** The preference level to read. Undefined (0) means to return the preference defined closest to the user.
 
-**Returns:** The preference. Note that id = 0 and value = null if preference not found in the database at the requested pref-level.
+
 
 [WSDL file for Services84/Preference](../Services84-Preference.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPreferenceByName Response
 
@@ -93,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

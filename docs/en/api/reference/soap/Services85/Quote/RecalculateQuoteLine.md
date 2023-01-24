@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.RecalculateQu
 
 ## RecalculateQuoteLine
 
-When the user changes one or more values in a quoteline, the connector gets to change the QuoteLine, for instance calculate VAT. Shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, ListPrice (if allowed). Will calculate the TotalPrice and the VAT (if possible) for the line.
 
-* **quoteLine:** The QuoteLine to recalculate
-* **changedFields:** The id of the changed fields in the form 'TableName.FieldName'
 
-**Returns:** The updated quote line.
+
 
 [WSDL file for Services85/Quote](../Services85-Quote.md)
 
@@ -81,7 +78,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Quote:IsSubscription xsi:type="xsd:boolean">false</Quote:IsSubscription>
      <Quote:SubscriptionUnit xsi:type="xsd:string"></Quote:SubscriptionUnit>
      <Quote:SubscriptionQuantity xsi:type="xsd:double">0.0</Quote:SubscriptionQuantity>
-     <Quote:SubscriptionStart xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:SubscriptionStart>
+     <Quote:SubscriptionStart xsi:type="xsd:dateTime">2023-01-23T10:15:23Z</Quote:SubscriptionStart>
      <Quote:ERPDiscountPercent xsi:type="xsd:double">0.0</Quote:ERPDiscountPercent>
      <Quote:ERPDiscountAmount xsi:type="xsd:double">0.0</Quote:ERPDiscountAmount>
      <Quote:DiscountPercent xsi:type="xsd:double">0.0</Quote:DiscountPercent>
@@ -108,6 +105,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## RecalculateQuoteLine Response
 
@@ -162,7 +160,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Quote:IsSubscription xsi:type="xsd:boolean">false</Quote:IsSubscription>
     <Quote:SubscriptionUnit xsi:type="xsd:string"></Quote:SubscriptionUnit>
     <Quote:SubscriptionQuantity xsi:type="xsd:double">0.0</Quote:SubscriptionQuantity>
-    <Quote:SubscriptionStart xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:SubscriptionStart>
+    <Quote:SubscriptionStart xsi:type="xsd:dateTime">2023-01-23T10:15:23Z</Quote:SubscriptionStart>
     <Quote:ERPDiscountPercent xsi:type="xsd:double">0.0</Quote:ERPDiscountPercent>
     <Quote:ERPDiscountAmount xsi:type="xsd:double">0.0</Quote:ERPDiscountAmount>
     <Quote:DiscountPercent xsi:type="xsd:double">0.0</Quote:DiscountPercent>
@@ -185,3 +183,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

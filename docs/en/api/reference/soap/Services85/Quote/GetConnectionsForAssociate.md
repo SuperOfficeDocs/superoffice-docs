@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.GetConnection
 
 ## GetConnectionsForAssociate
 
-Returns all connections available for the specified user.
 
-* **associateId:** Primary key of the user
 
-**Returns:** The connections
+
 
 [WSDL file for Services85/Quote](../Services85-Quote.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetConnectionsForAssociate Response
 
@@ -109,8 +108,8 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Quote:Description xsi:type="xsd:string"></Quote:Description>
        <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
        <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-       <Quote:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:ValidFrom>
-       <Quote:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:ValidTo>
+       <Quote:ValidFrom xsi:type="xsd:dateTime">2023-01-23T10:15:23Z</Quote:ValidFrom>
+       <Quote:ValidTo xsi:type="xsd:dateTime">2023-01-23T10:15:23Z</Quote:ValidTo>
        <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
       </Quote:PriceList>
      </Quote:PriceLists>
@@ -129,3 +128,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

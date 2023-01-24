@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IViewStateAgent.GetCurren
 
 ## GetCurrent
 
-Get the current (most recent) value of the history list. This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
 
-* **historyName:** Name of the history list, e.g. contact, project
 
-**Returns:** The current (most recent) history item
+
 
 [WSDL file for Services87/ViewState](../Services87-ViewState.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCurrent Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

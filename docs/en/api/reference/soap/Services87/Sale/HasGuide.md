@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISaleAgent.HasGuide">Supe
 
 ## HasGuide
 
-Does this sale have a sale guide associated with its sale type?
 
-* **saleId:** Sale id
 
-**Returns:** True if the sale has a guide
+
 
 [WSDL file for Services87/Sale](../Services87-Sale.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## HasGuide Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

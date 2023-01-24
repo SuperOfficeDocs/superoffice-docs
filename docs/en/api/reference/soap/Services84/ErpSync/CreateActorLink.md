@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.CreateActor
 
 ## CreateActorLink
 
-Link a crm entity to an erp entity
 
-* **erpConnectionId:** The ERP connection ID
-* **crmRecordId:** The ID of the CRM entity to connect to
-* **crmActorType:** Identifies the CRM actor type corresponding to this CRM entity
-* **erpKey:** The ERP entity identifier
-* **erpActorType:** The ERP actor type
 
-**Returns:** True if success
+
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -57,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateActorLink Response
 
 ```xml
@@ -77,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

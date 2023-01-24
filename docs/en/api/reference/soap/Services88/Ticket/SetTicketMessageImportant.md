@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.SetTicketMes
 
 ## SetTicketMessageImportant
 
-Set the important flag on or off for a ticket message
 
-* **ticketMessageId:** The id of the ticket message to set the important flag on
-* **important:** Turn on or off the important flag
+
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetTicketMessageImportant Response
 
 ```xml
@@ -68,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

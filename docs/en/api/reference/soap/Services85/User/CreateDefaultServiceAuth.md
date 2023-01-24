@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.CreateDefaultS
 
 ## CreateDefaultServiceAuth
 
-Loading default values into a new ServiceAuth.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New ServiceAuth with default values
+
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultServiceAuth Response
 
 ```xml
@@ -74,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

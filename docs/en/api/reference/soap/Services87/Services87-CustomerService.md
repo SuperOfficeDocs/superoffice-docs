@@ -1564,202 +1564,115 @@ title: Services87.CustomerServiceAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="CustomerService">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for CustomerService</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultCustomerCenterConfig">
-      <wsdl:documentation>
-        <summary>Loading default values into a new CustomerCenterConfig.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/CreateDefaultCustomerCenterConfig" name="CreateDefaultCustomerCenterConfigRequest" message="tns:CreateDefaultCustomerCenterConfigRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/CreateDefaultCustomerCenterConfigResponse" name="CreateDefaultCustomerCenterConfigResponse" message="tns:CreateDefaultCustomerCenterConfigResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveCustomerCenterConfig">
-      <wsdl:documentation>
-        <summary>Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/SaveCustomerCenterConfig" name="SaveCustomerCenterConfigRequest" message="tns:SaveCustomerCenterConfigRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/SaveCustomerCenterConfigResponse" name="SaveCustomerCenterConfigResponse" message="tns:SaveCustomerCenterConfigResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteCustomerCenterConfig">
-      <wsdl:documentation>
-        <summary>Deletes the CustomerCenterConfig</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/DeleteCustomerCenterConfig" name="DeleteCustomerCenterConfigRequest" message="tns:DeleteCustomerCenterConfigRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/DeleteCustomerCenterConfigResponse" name="DeleteCustomerCenterConfigResponse" message="tns:DeleteCustomerCenterConfigResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultSmsConfig">
-      <wsdl:documentation>
-        <summary>Loading default values into a new SmsConfig.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/CreateDefaultSmsConfig" name="CreateDefaultSmsConfigRequest" message="tns:CreateDefaultSmsConfigRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/CreateDefaultSmsConfigResponse" name="CreateDefaultSmsConfigResponse" message="tns:CreateDefaultSmsConfigResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveSmsConfig">
-      <wsdl:documentation>
-        <summary>Updates the existing SmsConfig or creates a new SmsConfig if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/SaveSmsConfig" name="SaveSmsConfigRequest" message="tns:SaveSmsConfigRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/SaveSmsConfigResponse" name="SaveSmsConfigResponse" message="tns:SaveSmsConfigResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProgramUrl">
-      <wsdl:documentation>
-        <summary>This method will convert a module name into a Service URL.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetProgramUrl" name="GetProgramUrlRequest" message="tns:GetProgramUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetProgramUrlResponse" name="GetProgramUrlResponse" message="tns:GetProgramUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateTicketFromMailData">
-      <wsdl:documentation>
-        <summary>This method create a new ticket in the same way as importMail would import an email. It accepts RFC822 formatted data</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/CreateTicketFromMailData" name="CreateTicketFromMailDataRequest" message="tns:CreateTicketFromMailDataRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/CreateTicketFromMailDataResponse" name="CreateTicketFromMailDataResponse" message="tns:CreateTicketFromMailDataResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddMessageFromMailData">
-      <wsdl:documentation>
-        <summary>This method will add a message to an existing request in the sam way as importMail would do it from an email. It accepts RFC822 formatted data</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/AddMessageFromMailData" name="AddMessageFromMailDataRequest" message="tns:AddMessageFromMailDataRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/AddMessageFromMailDataResponse" name="AddMessageFromMailDataResponse" message="tns:AddMessageFromMailDataResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindTicketsByTitleOrId">
-      <wsdl:documentation>
-        <summary>This method wil search for tickets matching title or id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/FindTicketsByTitleOrId" name="FindTicketsByTitleOrIdRequest" message="tns:FindTicketsByTitleOrIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/FindTicketsByTitleOrIdResponse" name="FindTicketsByTitleOrIdResponse" message="tns:FindTicketsByTitleOrIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMailboxes">
-      <wsdl:documentation>
-        <summary>This method will get all registered mailboxes in Service</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetMailboxes" name="GetMailboxesRequest" message="tns:GetMailboxesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetMailboxesResponse" name="GetMailboxesResponse" message="tns:GetMailboxesResponse" />
     </wsdl:operation>
     <wsdl:operation name="TestSmtpServer">
-      <wsdl:documentation>
-        <summary>This method will do a test of a SMTP account, by sending an email to a special @superoffice.com account</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/TestSmtpServer" name="TestSmtpServerRequest" message="tns:TestSmtpServerRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/TestSmtpServerResponse" name="TestSmtpServerResponse" message="tns:TestSmtpServerResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCustomerServiceStartup">
-      <wsdl:documentation>
-        <summary>Get the carrier with data that Service needs when starting up</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetCustomerServiceStartup" name="GetCustomerServiceStartupRequest" message="tns:GetCustomerServiceStartupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetCustomerServiceStartupResponse" name="GetCustomerServiceStartupResponse" message="tns:GetCustomerServiceStartupResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCustomerCenterConfig">
-      <wsdl:documentation>
-        <summary>Gets a CustomerCenterConfig object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetCustomerCenterConfig" name="GetCustomerCenterConfigRequest" message="tns:GetCustomerCenterConfigRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetCustomerCenterConfigResponse" name="GetCustomerCenterConfigResponse" message="tns:GetCustomerCenterConfigResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllCustomerCenterConfigs">
-      <wsdl:documentation>
-        <summary>Get all rows from cust_config as an array of CustomerCenterConfig entities</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetAllCustomerCenterConfigs" name="GetAllCustomerCenterConfigsRequest" message="tns:GetAllCustomerCenterConfigsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetAllCustomerCenterConfigsResponse" name="GetAllCustomerCenterConfigsResponse" message="tns:GetAllCustomerCenterConfigsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveAllCustomerCenterConfigs">
-      <wsdl:documentation>
-        <summary>Save an array of CustomerCenterConfig entities to the database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/SaveAllCustomerCenterConfigs" name="SaveAllCustomerCenterConfigsRequest" message="tns:SaveAllCustomerCenterConfigsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/SaveAllCustomerCenterConfigsResponse" name="SaveAllCustomerCenterConfigsResponse" message="tns:SaveAllCustomerCenterConfigsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CheckIfCustomizedTemplates">
-      <wsdl:documentation>
-        <summary>Checks whether the core html templates are customized</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/CheckIfCustomizedTemplates" name="CheckIfCustomizedTemplatesRequest" message="tns:CheckIfCustomizedTemplatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/CheckIfCustomizedTemplatesResponse" name="CheckIfCustomizedTemplatesResponse" message="tns:CheckIfCustomizedTemplatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateSession">
-      <wsdl:documentation>
-        <summary>Creates a login session for a CS user</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/CreateSession" name="CreateSessionRequest" message="tns:CreateSessionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/CreateSessionResponse" name="CreateSessionResponse" message="tns:CreateSessionResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveSession">
-      <wsdl:documentation>
-        <summary>Remove a login session for a CS user</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/RemoveSession" name="RemoveSessionRequest" message="tns:RemoveSessionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/RemoveSessionResponse" name="RemoveSessionResponse" message="tns:RemoveSessionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SessionIsValid">
-      <wsdl:documentation>
-        <summary>Check if a CS session is valid</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/SessionIsValid" name="SessionIsValidRequest" message="tns:SessionIsValidRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/SessionIsValidResponse" name="SessionIsValidResponse" message="tns:SessionIsValidResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasChatNotify">
-      <wsdl:documentation>
-        <summary>Check if user has any chat notification</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/HasChatNotify" name="HasChatNotifyRequest" message="tns:HasChatNotifyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/HasChatNotifyResponse" name="HasChatNotifyResponse" message="tns:HasChatNotifyResponse" />
     </wsdl:operation>
     <wsdl:operation name="CheckSymmetricEncryption">
-      <wsdl:documentation>
-        <summary>Do a test to check that we are using the same encryption keys</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/CheckSymmetricEncryption" name="CheckSymmetricEncryptionRequest" message="tns:CheckSymmetricEncryptionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/CheckSymmetricEncryptionResponse" name="CheckSymmetricEncryptionResponse" message="tns:CheckSymmetricEncryptionResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateFeatureToggles">
-      <wsdl:documentation>
-        <summary>Update the cached FeatureToggles for CS</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/UpdateFeatureToggles" name="UpdateFeatureTogglesRequest" message="tns:UpdateFeatureTogglesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/UpdateFeatureTogglesResponse" name="UpdateFeatureTogglesResponse" message="tns:UpdateFeatureTogglesResponse" />
     </wsdl:operation>
     <wsdl:operation name="EventHandlerExists">
-      <wsdl:documentation>
-        <summary>Check if an eventhandler exists for a given enum</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/EventHandlerExists" name="EventHandlerExistsRequest" message="tns:EventHandlerExistsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/EventHandlerExistsResponse" name="EventHandlerExistsResponse" message="tns:EventHandlerExistsResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteEventHandlers">
-      <wsdl:documentation>
-        <summary>This method will execute event handlers in CRMScript for a given event.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/ExecuteEventHandlers" name="ExecuteEventHandlersRequest" message="tns:ExecuteEventHandlersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/ExecuteEventHandlersResponse" name="ExecuteEventHandlersResponse" message="tns:ExecuteEventHandlersResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetStatistics">
-      <wsdl:documentation>
-        <summary>Returns the calculated results for the required statistics for the Customer Service Status Page</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetStatistics" name="GetStatisticsRequest" message="tns:GetStatisticsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetStatisticsResponse" name="GetStatisticsResponse" message="tns:GetStatisticsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSmsConfig">
-      <wsdl:documentation>
-        <summary>Get the SmsConfig settings for Customer Service sms providers.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetSmsConfig" name="GetSmsConfigRequest" message="tns:GetSmsConfigRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/GetSmsConfigResponse" name="GetSmsConfigResponse" message="tns:GetSmsConfigResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteChatSessions">
-      <wsdl:documentation>
-        <summary>Deletes the specified chat sessions.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/DeleteChatSessions" name="DeleteChatSessionsRequest" message="tns:DeleteChatSessionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/DeleteChatSessionsResponse" name="DeleteChatSessionsResponse" message="tns:DeleteChatSessionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChatSessionsForUser">
-      <wsdl:documentation>
-        <summary>Get all chat sessions which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/ChatSessionsForUser" name="ChatSessionsForUserRequest" message="tns:ChatSessionsForUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CustomerService/ChatSessionsForUserResponse" name="ChatSessionsForUserResponse" message="tns:ChatSessionsForUserResponse" />
     </wsdl:operation>
@@ -2222,3 +2135,4 @@ title: Services87.CustomerServiceAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

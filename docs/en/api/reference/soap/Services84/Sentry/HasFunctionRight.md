@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISentryAgent.HasFunctionR
 
 ## HasFunctionRight
 
-Get a boolean value indicating if the current user has the functional right.
 
-* **functionRight:** Function right to check.
+
+
 
 [WSDL file for Services84/Sentry](../Services84-Sentry.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## HasFunctionRight Response
 
 ```xml
@@ -67,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

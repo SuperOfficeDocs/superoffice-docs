@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetLanguageInf
 
 ## GetLanguageInfoList
 
-Gets an array of LanguageInfo objects.
 
-* **languageInfoIds:** The identifiers of the LanguageInfo object
 
-**Returns:** Array of LanguageInfo objects
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetLanguageInfoList Response
 
 ```xml
@@ -81,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

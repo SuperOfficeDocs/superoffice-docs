@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetHeadingsFro
 
 ## GetHeadingsFromListDefinition
 
-Gets headings for list resolved by the provided id.
 
-* **id:** The id of the list to look up.
 
-**Returns:** List of headings
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetHeadingsFromListDefinition Response
 
 ```xml
@@ -78,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

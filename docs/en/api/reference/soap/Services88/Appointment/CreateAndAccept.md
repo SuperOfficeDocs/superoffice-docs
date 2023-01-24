@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.CreateA
 
 ## CreateAndAccept
 
-Creating an appointment from an emailItem invitation and accepting it.
 
-* **emailItemId:** The emailItemId
-* **updateMode:** Update mode for a recurring appointment.
+
+
 
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateAndAccept Response
 
 ```xml
@@ -68,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

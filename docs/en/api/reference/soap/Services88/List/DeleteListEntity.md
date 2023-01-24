@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.DeleteListEnti
 
 ## DeleteListEntity
 
-Deletes the ListEntity
 
-* **listEntityId:** The identity of the ListEntity
+
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteListEntity Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

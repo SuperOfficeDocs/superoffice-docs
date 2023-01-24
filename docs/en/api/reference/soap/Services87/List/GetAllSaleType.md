@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetAllSaleType
 
 ## GetAllSaleType
 
-Returns all sale types as simple list items
 
-**Returns:** Array of simple sale type list items
+
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAllSaleType Response
 
 ```xml
@@ -72,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

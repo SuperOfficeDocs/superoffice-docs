@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.SaveActorTy
 
 ## SaveActorTypeMapping
 
-Save mappings for a connection/actor
 
-* **mapping:** The mapping to be saved; new mapping rows will be created in the database if needed
 
-**Returns:** The current mapping from the database
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -74,6 +72,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveActorTypeMapping Response
 
 ```xml
@@ -119,3 +118,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

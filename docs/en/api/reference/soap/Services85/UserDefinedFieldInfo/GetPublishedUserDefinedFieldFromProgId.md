@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserDefinedFieldInfoAgen
 
 ## GetPublishedUserDefinedFieldFromProgId
 
-Return information about the given user defined field identified by the owner and the prog-id. The prog-id is used as the key in the entity carriers.
 
-* **progId:** The prog.id is a hidden name that uniquely identifies the field.
-* **ownerType:** The user-defined field owner-entity id.
 
-**Returns:** Returns the user-defined field info carrier, or null if no matching field is found.
+
 
 [WSDL file for Services85/UserDefinedFieldInfo](../Services85-UserDefinedFieldInfo.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPublishedUserDefinedFieldFromProgId Response
 
@@ -105,3 +103,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

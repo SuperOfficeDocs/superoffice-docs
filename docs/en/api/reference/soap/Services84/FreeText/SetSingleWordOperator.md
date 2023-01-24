@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IFreeTextAgent.SetSingleW
 
 ## SetSingleWordOperator
 
-Sets the operator used when matching single words
 
-* **freeTextOperator:** The operator
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services84/FreeText](../Services84-FreeText.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetSingleWordOperator Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

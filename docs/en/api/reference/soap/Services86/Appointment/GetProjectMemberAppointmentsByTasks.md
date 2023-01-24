@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.GetProj
 
 ## GetProjectMemberAppointmentsByTasks
 
-Method that returns a specified number of appointments matching a set of appointment task types within a time range. The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
 
-* **personId:** The project member's person id
-* **startTime:** The start of the time interval we want appointments from. This will usually be the current time.
-* **endTime:** The end of the time interval.
-* **count:** The maximum number of appointments that should be returned. -1 means no count restrictions.
-* **taskIds:** The task ids as an integer array. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
 
-**Returns:** Array of Appointments.
+
 
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
@@ -46,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Appointment:GetProjectMemberAppointmentsByTasks>
     <Appointment:PersonId xsi:type="xsd:int">0</Appointment:PersonId>
-    <Appointment:StartTime xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:StartTime>
-    <Appointment:EndTime xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:EndTime>
+    <Appointment:StartTime xsi:type="xsd:dateTime">2023-01-23T10:15:52Z</Appointment:StartTime>
+    <Appointment:EndTime xsi:type="xsd:dateTime">2023-01-23T10:15:52Z</Appointment:EndTime>
     <Appointment:Count xsi:type="xsd:int">0</Appointment:Count>
     <Appointment:TaskIds xsi:type="NetServerServices862:ArrayOfint">
      <NetServerServices862:int xsi:type="xsd:int">0</NetServerServices862:int>
@@ -58,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetProjectMemberAppointmentsByTasks Response
 
@@ -76,8 +71,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Appointment:Response xsi:type="Appointment:ArrayOfAppointment">
     <Appointment:Appointment xsi:type="Appointment:Appointment">
      <Appointment:AppointmentId xsi:type="xsd:int">0</Appointment:AppointmentId>
-     <Appointment:StartDate xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:StartDate>
-     <Appointment:EndDate xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:EndDate>
+     <Appointment:StartDate xsi:type="xsd:dateTime">2023-01-23T10:15:52Z</Appointment:StartDate>
+     <Appointment:EndDate xsi:type="xsd:dateTime">2023-01-23T10:15:52Z</Appointment:EndDate>
      <Appointment:Type xsi:type="Appointment:AppointmentType">Unknown</Appointment:Type>
      <Appointment:Task xsi:type="xsd:string"></Appointment:Task>
      <Appointment:AssociateFullName xsi:type="xsd:string"></Appointment:AssociateFullName>
@@ -101,14 +96,14 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:IsBookingMain xsi:type="xsd:boolean">false</Appointment:IsBookingMain>
      <Appointment:IsRecurrence xsi:type="xsd:boolean">false</Appointment:IsRecurrence>
      <Appointment:IsBooking xsi:type="xsd:boolean">false</Appointment:IsBooking>
-     <Appointment:ActiveDate xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:ActiveDate>
+     <Appointment:ActiveDate xsi:type="xsd:dateTime">2023-01-23T10:15:52Z</Appointment:ActiveDate>
      <Appointment:AssignmentStatus xsi:type="Appointment:AssignmentStatus">Unknown</Appointment:AssignmentStatus>
      <Appointment:InvitationStatus xsi:type="Appointment:InvitationStatus">Unknown</Appointment:InvitationStatus>
      <Appointment:BookingType xsi:type="Appointment:BookingType">Unknown</Appointment:BookingType>
      <Appointment:Completed xsi:type="Appointment:ActivityStatus">Unknown</Appointment:Completed>
      <Appointment:RecurringPattern xsi:type="Appointment:RecurrencePattern">Unknown</Appointment:RecurringPattern>
-     <Appointment:RecurringStartDate xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:RecurringStartDate>
-     <Appointment:RecurringEndDate xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:RecurringEndDate>
+     <Appointment:RecurringStartDate xsi:type="xsd:dateTime">2023-01-23T10:15:52Z</Appointment:RecurringStartDate>
+     <Appointment:RecurringEndDate xsi:type="xsd:dateTime">2023-01-23T10:15:52Z</Appointment:RecurringEndDate>
      <Appointment:MotherId xsi:type="xsd:int">0</Appointment:MotherId>
      <Appointment:AssignedBy xsi:type="xsd:int">0</Appointment:AssignedBy>
      <Appointment:AssignedByFullName xsi:type="xsd:string"></Appointment:AssignedByFullName>
@@ -118,7 +113,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:SaleId xsi:type="xsd:int">0</Appointment:SaleId>
      <Appointment:SaleName xsi:type="xsd:string"></Appointment:SaleName>
      <Appointment:AssociateName xsi:type="xsd:string"></Appointment:AssociateName>
-     <Appointment:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:CreatedDate>
+     <Appointment:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:15:52Z</Appointment:CreatedDate>
      <Appointment:CreatedBy xsi:type="xsd:string"></Appointment:CreatedBy>
      <Appointment:CreatedByFullName xsi:type="xsd:string"></Appointment:CreatedByFullName>
      <Appointment:CreatedByAssociateId xsi:type="xsd:int">0</Appointment:CreatedByAssociateId>
@@ -129,3 +124,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

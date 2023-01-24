@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IBatchAgent.DeleteBatchTa
 
 ## DeleteBatchTask
 
-Delete a batch task from the database.
 
-* **batchTaskId:** The batchTask ids to delete.
+
+
 
 [WSDL file for Services84/Batch](../Services84-Batch.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteBatchTask Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

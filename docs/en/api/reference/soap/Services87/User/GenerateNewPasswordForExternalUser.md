@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GenerateNewPas
 
 ## GenerateNewPasswordForExternalUser
 
-Generates a new password for an external user.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **associateName:** The name of the associate to change the password for.
 
-**Returns:** Returns the generated password.
+
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GenerateNewPasswordForExternalUser Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -399,78 +399,39 @@ title: Services85.FileManagerAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="FileManager">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for custom File streaming</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateFile">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/CreateFile" name="CreateFileRequest" message="tns:CreateFileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/CreateFileResponse" name="CreateFileResponse" message="tns:CreateFileResponse" />
     </wsdl:operation>
     <wsdl:operation name="ReadFile">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/ReadFile" name="ReadFileRequest" message="tns:ReadFileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/ReadFileResponse" name="ReadFileResponse" message="tns:ReadFileResponse" />
     </wsdl:operation>
     <wsdl:operation name="WriteFile">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/WriteFile" name="WriteFileRequest" message="tns:WriteFileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/WriteFileResponse" name="WriteFileResponse" message="tns:WriteFileResponse" />
     </wsdl:operation>
     <wsdl:operation name="BeginReadFilePart">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/BeginReadFilePart" name="BeginReadFilePartRequest" message="tns:BeginReadFilePartRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/BeginReadFilePartResponse" name="BeginReadFilePartResponse" message="tns:BeginReadFilePartResponse" />
     </wsdl:operation>
     <wsdl:operation name="ReadFilePart">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/ReadFilePart" name="ReadFilePartRequest" message="tns:ReadFilePartRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/ReadFilePartResponse" name="ReadFilePartResponse" message="tns:ReadFilePartResponse" />
     </wsdl:operation>
     <wsdl:operation name="EndReadFilePart">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/EndReadFilePart" name="EndReadFilePartRequest" message="tns:EndReadFilePartRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/EndReadFilePartResponse" name="EndReadFilePartResponse" message="tns:EndReadFilePartResponse" />
     </wsdl:operation>
     <wsdl:operation name="BeginWriteFilePart">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/BeginWriteFilePart" name="BeginWriteFilePartRequest" message="tns:BeginWriteFilePartRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/BeginWriteFilePartResponse" name="BeginWriteFilePartResponse" message="tns:BeginWriteFilePartResponse" />
     </wsdl:operation>
     <wsdl:operation name="WriteFilePart">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/WriteFilePart" name="WriteFilePartRequest" message="tns:WriteFilePartRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/WriteFilePartResponse" name="WriteFilePartResponse" message="tns:WriteFilePartResponse" />
     </wsdl:operation>
     <wsdl:operation name="EndWriteFilePart">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/EndWriteFilePart" name="EndWriteFilePartRequest" message="tns:EndWriteFilePartRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/FileManager/EndWriteFilePartResponse" name="EndWriteFilePartResponse" message="tns:EndWriteFilePartResponse" />
     </wsdl:operation>
@@ -629,3 +590,4 @@ title: Services85.FileManagerAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserDefinedFieldInfoAgen
 
 ## SaveUserDefinedFieldInfos
 
-Save an array of user defined fields. This will update the unpublished layout.
 
-* **infos:** An array of user defined fields
+
+
 
 [WSDL file for Services86/UserDefinedFieldInfo](../Services86-UserDefinedFieldInfo.md)
 
@@ -84,6 +84,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveUserDefinedFieldInfos Response
 
 ```xml
@@ -103,3 +104,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

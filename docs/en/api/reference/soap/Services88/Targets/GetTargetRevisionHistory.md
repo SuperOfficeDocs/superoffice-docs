@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITargetsAgent.GetTargetRe
 
 ## GetTargetRevisionHistory
 
-Returns the revision history for a given TargetAssignmentInfo in chronological order.
 
-* **targetAssignmentInfoId:** Target assignment info id
 
-**Returns:** Target revision history for the given TargetAssignmentInfo
+
 
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetTargetRevisionHistory Response
 
@@ -83,7 +82,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Targets:EjUserId xsi:type="xsd:int">0</Targets:EjUserId>
        <Targets:UserName xsi:type="xsd:string"></Targets:UserName>
       </Targets:Who>
-      <Targets:When xsi:type="xsd:dateTime">2022-08-26T09:00:38Z</Targets:When>
+      <Targets:When xsi:type="xsd:dateTime">2023-01-23T10:22:03Z</Targets:When>
       <Targets:Changes xsi:type="Targets:ArrayOfTargetChange">
        <Targets:TargetChange xsi:type="Targets:TargetChange">
         <Targets:FieldIdentifier xsi:type="xsd:string"></Targets:FieldIdentifier>
@@ -99,3 +98,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

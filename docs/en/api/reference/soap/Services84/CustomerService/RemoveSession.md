@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ICustomerServiceAgent.Rem
 
 ## RemoveSession
 
-Remove a login session for a CS user
 
-* **loginId:** The login id to remove
+
+
 
 [WSDL file for Services84/CustomerService](../Services84-CustomerService.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RemoveSession Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

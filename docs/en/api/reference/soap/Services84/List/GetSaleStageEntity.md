@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetSaleStageEn
 
 ## GetSaleStageEntity
 
-Gets a SaleStageEntity object.
 
-* **saleStageEntityId:** The identifier of the SaleStageEntity object
 
-**Returns:** SaleStageEntity
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSaleStageEntity Response
 
 ```xml
@@ -76,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

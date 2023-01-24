@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.RejectW
 
 ## RejectWithEmailConfirmation
 
-Rejecting an appointment invitation and send an email confirmation to the meeting organizer.
 
-* **appointmentId:** The appointmentId. Both master and child record ids are accepted.
-* **rejectReason:** The reason the invitation was rejected.
-* **updateMode:** Update mode for a recurring appointment.
 
-**Returns:** Updated AppointmentEntity
+
 
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RejectWithEmailConfirmation Response
 
 ```xml
@@ -72,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -459,69 +459,39 @@ title: Services88.DocumentMigrationAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="DocumentMigration">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for DocumentMigration</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultDocumentMigrationItemList">
-      <wsdl:documentation>
-        <summary>Loading default values into a new DocumentMigrationItemList.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/CreateDefaultDocumentMigrationItemList" name="CreateDefaultDocumentMigrationItemListRequest" message="tns:CreateDefaultDocumentMigrationItemListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/CreateDefaultDocumentMigrationItemListResponse" name="CreateDefaultDocumentMigrationItemListResponse" message="tns:CreateDefaultDocumentMigrationItemListResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultDocumentTemplateMigrationList">
-      <wsdl:documentation>
-        <summary>Loading default values into a new DocumentTemplateMigrationList.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/CreateDefaultDocumentTemplateMigrationList" name="CreateDefaultDocumentTemplateMigrationListRequest" message="tns:CreateDefaultDocumentTemplateMigrationListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/CreateDefaultDocumentTemplateMigrationListResponse" name="CreateDefaultDocumentTemplateMigrationListResponse" message="tns:CreateDefaultDocumentTemplateMigrationListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetForAllDocuments">
-      <wsdl:documentation>
-        <summary>Gets a migration summary for all documents stored in CRM. Warning: Expensive!</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/GetForAllDocuments" name="GetForAllDocumentsRequest" message="tns:GetForAllDocumentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/GetForAllDocumentsResponse" name="GetForAllDocumentsResponse" message="tns:GetForAllDocumentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetForDateRange">
-      <wsdl:documentation>
-        <summary>Gets a migration summary for documents in the provided date-rage</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/GetForDateRange" name="GetForDateRangeRequest" message="tns:GetForDateRangeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/GetForDateRangeResponse" name="GetForDateRangeResponse" message="tns:GetForDateRangeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetForSelection">
-      <wsdl:documentation>
-        <summary>Gets a migration summary for documents in the provided selection</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/GetForSelection" name="GetForSelectionRequest" message="tns:GetForSelectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/GetForSelectionResponse" name="GetForSelectionResponse" message="tns:GetForSelectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="MigrateDocumentToNewDocPlugin">
-      <wsdl:documentation>
-        <summary>Migrates the document with the provided id to the specified document-plugin.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/MigrateDocumentToNewDocPlugin" name="MigrateDocumentToNewDocPluginRequest" message="tns:MigrateDocumentToNewDocPluginRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/MigrateDocumentToNewDocPluginResponse" name="MigrateDocumentToNewDocPluginResponse" message="tns:MigrateDocumentToNewDocPluginResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasDocumentsToMigrate">
-      <wsdl:documentation>
-        <summary>Checks if there are any documents in the current database stored using a non-default document-plugin, and which can be migrated.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/HasDocumentsToMigrate" name="HasDocumentsToMigrateRequest" message="tns:HasDocumentsToMigrateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/HasDocumentsToMigrateResponse" name="HasDocumentsToMigrateResponse" message="tns:HasDocumentsToMigrateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetForTemplates">
-      <wsdl:documentation>
-        <summary>Gets a migration summary for all templates stored in CRM.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/GetForTemplates" name="GetForTemplatesRequest" message="tns:GetForTemplatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/GetForTemplatesResponse" name="GetForTemplatesResponse" message="tns:GetForTemplatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="MigrateTemplateToNewDocPlugin">
-      <wsdl:documentation>
-        <summary>Migrates the template with the provided id to the specified document-plugin.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/MigrateTemplateToNewDocPlugin" name="MigrateTemplateToNewDocPluginRequest" message="tns:MigrateTemplateToNewDocPluginRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/MigrateTemplateToNewDocPluginResponse" name="MigrateTemplateToNewDocPluginResponse" message="tns:MigrateTemplateToNewDocPluginResponse" />
     </wsdl:operation>
@@ -680,3 +650,4 @@ title: Services88.DocumentMigrationAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

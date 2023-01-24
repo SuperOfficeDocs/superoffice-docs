@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITargetsAgent.DeleteTarge
 
 ## DeleteTargetGroup
 
-Deletes the TargetGroup
 
-* **targetGroupId:** The identity of the TargetGroup
+
+
 
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteTargetGroup Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

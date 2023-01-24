@@ -1709,202 +1709,115 @@ title: Services85.ContactAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Contact">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Contact</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultContactEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ContactEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/CreateDefaultContactEntity" name="CreateDefaultContactEntityRequest" message="tns:CreateDefaultContactEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/CreateDefaultContactEntityResponse" name="CreateDefaultContactEntityResponse" message="tns:CreateDefaultContactEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveContactEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ContactEntity or creates a new ContactEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/SaveContactEntity" name="SaveContactEntityRequest" message="tns:SaveContactEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/SaveContactEntityResponse" name="SaveContactEntityResponse" message="tns:SaveContactEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteContactEntity">
-      <wsdl:documentation>
-        <summary>Deletes the ContactEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/DeleteContactEntity" name="DeleteContactEntityRequest" message="tns:DeleteContactEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/DeleteContactEntityResponse" name="DeleteContactEntityResponse" message="tns:DeleteContactEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContact">
-      <wsdl:documentation>
-        <summary>Gets a Contact object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetContact" name="GetContactRequest" message="tns:GetContactRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetContactResponse" name="GetContactResponse" message="tns:GetContactResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyActiveContacts">
-      <wsdl:documentation>
-        <summary>Returns the contacts where there has been activity since activityStartTime. If activityStartTime is larger than the current date, all contacts with activity since last log-out are returned. The result set can be filtered by category and action type.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetMyActiveContacts" name="GetMyActiveContactsRequest" message="tns:GetMyActiveContactsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetMyActiveContactsResponse" name="GetMyActiveContactsResponse" message="tns:GetMyActiveContactsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactEntity">
-      <wsdl:documentation>
-        <summary>Gets a ContactEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetContactEntity" name="GetContactEntityRequest" message="tns:GetContactEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetContactEntityResponse" name="GetContactEntityResponse" message="tns:GetContactEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="Undelete">
-      <wsdl:documentation>
-        <summary>This entity supports Soft Delete. Call this method to Undelete a previously soft-deleted record</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/Undelete" name="UndeleteRequest" message="tns:UndeleteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/UndeleteResponse" name="UndeleteResponse" message="tns:UndeleteResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersons">
-      <wsdl:documentation>
-        <summary>Returns an array of all the contact persons for the company card.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetPersons" name="GetPersonsRequest" message="tns:GetPersonsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetPersonsResponse" name="GetPersonsResponse" message="tns:GetPersonsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactWithPersons">
-      <wsdl:documentation>
-        <summary>Returns the contact with all the contact persons belonging to the contact</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetContactWithPersons" name="GetContactWithPersonsRequest" message="tns:GetContactWithPersonsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetContactWithPersonsResponse" name="GetContactWithPersonsResponse" message="tns:GetContactWithPersonsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyContact">
-      <wsdl:documentation>
-        <summary>Gets the contact belonging to the currently logged on user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetMyContact" name="GetMyContactRequest" message="tns:GetMyContactRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetMyContactResponse" name="GetMyContactResponse" message="tns:GetMyContactResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyBizCard">
-      <wsdl:documentation>
-        <summary>Returns all data needed to display the logged on person's business card. That is company, person, and company interest data.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetMyBizCard" name="GetMyBizCardRequest" message="tns:GetMyBizCardRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetMyBizCardResponse" name="GetMyBizCardResponse" message="tns:GetMyBizCardResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeCountry">
-      <wsdl:documentation>
-        <summary>Change country regenerates the default values and localized information such as phone number and address format</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/ChangeCountry" name="ChangeCountryRequest" message="tns:ChangeCountryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/ChangeCountryResponse" name="ChangeCountryResponse" message="tns:ChangeCountryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAddress">
-      <wsdl:documentation>
-        <summary>Gets the contact's localized address.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetAddress" name="GetAddressRequest" message="tns:GetAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetAddressResponse" name="GetAddressResponse" message="tns:GetAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAddressByCountry">
-      <wsdl:documentation>
-        <summary>Gets the contact's localized address.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetAddressByCountry" name="GetAddressByCountryRequest" message="tns:GetAddressByCountryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetAddressByCountryResponse" name="GetAddressByCountryResponse" message="tns:GetAddressByCountryResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddPerson">
-      <wsdl:documentation>
-        <summary>Add a person to the given contact</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/AddPerson" name="AddPersonRequest" message="tns:AddPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/AddPersonResponse" name="AddPersonResponse" message="tns:AddPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDuplicates">
-      <wsdl:documentation>
-        <summary>Get duplicates (exact or similar in the database) based on the name</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetDuplicates" name="GetDuplicatesRequest" message="tns:GetDuplicatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetDuplicatesResponse" name="GetDuplicatesResponse" message="tns:GetDuplicatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateNewEntry">
-      <wsdl:documentation>
-        <summary>Creates a new contact based on external duplicate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/CreateNewEntry" name="CreateNewEntryRequest" message="tns:CreateNewEntryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/CreateNewEntryResponse" name="CreateNewEntryResponse" message="tns:CreateNewEntryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDuplicateRules">
-      <wsdl:documentation>
-        <summary>Retrieve all available duplicate rules for contact</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetDuplicateRules" name="GetDuplicateRulesRequest" message="tns:GetDuplicateRulesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetDuplicateRulesResponse" name="GetDuplicateRulesResponse" message="tns:GetDuplicateRulesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDuplicateRulesStatus">
-      <wsdl:documentation>
-        <summary>Set which duplicate rules should be active or not</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/SetDuplicateRulesStatus" name="SetDuplicateRulesStatusRequest" message="tns:SetDuplicateRulesStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/SetDuplicateRulesStatusResponse" name="SetDuplicateRulesStatusResponse" message="tns:SetDuplicateRulesStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="Merge">
-      <wsdl:documentation>
-        <summary>Merge two contacts. The destination contact will remain.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/Merge" name="MergeRequest" message="tns:MergeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/MergeResponse" name="MergeResponse" message="tns:MergeResponse" />
     </wsdl:operation>
     <wsdl:operation name="Copy">
-      <wsdl:documentation>
-        <summary>Copy a contact. Activities and related data will be ignored</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/Copy" name="CopyRequest" message="tns:CopyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/CopyResponse" name="CopyResponse" message="tns:CopyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNameDepartmentDuplicates">
-      <wsdl:documentation>
-        <summary>Get duplicates based on the contact name and department</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetNameDepartmentDuplicates" name="GetNameDepartmentDuplicatesRequest" message="tns:GetNameDepartmentDuplicatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetNameDepartmentDuplicatesResponse" name="GetNameDepartmentDuplicatesResponse" message="tns:GetNameDepartmentDuplicatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsNumberValid">
-      <wsdl:documentation>
-        <summary>Checks if the number is unique or required.  The setting is configured from admin under system options.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/IsNumberValid" name="IsNumberValidRequest" message="tns:IsNumberValidRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/IsNumberValidResponse" name="IsNumberValidResponse" message="tns:IsNumberValidResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteVersionAddresses">
-      <wsdl:documentation>
-        <summary>Get the associated billing and invoice quote version addresses. These addresses might be address on the contact, or a custom address.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetQuoteVersionAddresses" name="GetQuoteVersionAddressesRequest" message="tns:GetQuoteVersionAddressesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetQuoteVersionAddressesResponse" name="GetQuoteVersionAddressesResponse" message="tns:GetQuoteVersionAddressesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveQuoteVersionAddress">
-      <wsdl:documentation>
-        <summary>Save a custom quote version address.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/SaveQuoteVersionAddress" name="SaveQuoteVersionAddressRequest" message="tns:SaveQuoteVersionAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/SaveQuoteVersionAddressResponse" name="SaveQuoteVersionAddressResponse" message="tns:SaveQuoteVersionAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactList">
-      <wsdl:documentation>
-        <summary>Gets an array of Contact objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetContactList" name="GetContactListRequest" message="tns:GetContactListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetContactListResponse" name="GetContactListResponse" message="tns:GetContactListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyContacts">
-      <wsdl:documentation>
-        <summary>Getting the contacts where the user currently logged in is set as contact owner.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetMyContacts" name="GetMyContactsRequest" message="tns:GetMyContactsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetMyContactsResponse" name="GetMyContactsResponse" message="tns:GetMyContactsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyRecentContacts">
-      <wsdl:documentation>
-        <summary>Method that returns a set of initial contacts. This could be the contacts in a favorites selection, the history list, the diary, or from all sources. If retrieved from the diary it will get appointments for the current and the next day.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetMyRecentContacts" name="GetMyRecentContactsRequest" message="tns:GetMyRecentContactsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Contact/GetMyRecentContactsResponse" name="GetMyRecentContactsResponse" message="tns:GetMyRecentContactsResponse" />
     </wsdl:operation>
@@ -2367,3 +2280,4 @@ title: Services85.ContactAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

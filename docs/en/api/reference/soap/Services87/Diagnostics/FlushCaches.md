@@ -11,7 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDiagnosticsAgent.FlushCa
 
 ## FlushCaches
 
-Flushes all NetServer caches
+
+
+
 
 [WSDL file for Services87/Diagnostics](../Services87-Diagnostics.md)
 
@@ -44,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## FlushCaches Response
 
 ```xml
@@ -63,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

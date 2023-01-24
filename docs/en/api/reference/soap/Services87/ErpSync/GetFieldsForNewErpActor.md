@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.GetFieldsFo
 
 ## GetFieldsForNewErpActor
 
-Get the fields that must be filled out when creating a new ERP actor
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-* **erpConnectionId:** The id of the connection
-* **erpActorType:** The type of the ERP actor to create
 
-**Returns:** The fields that are required for the new ERP actor
+
 
 [WSDL file for Services87/ErpSync](../Services87-ErpSync.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFieldsForNewErpActor Response
 
 ```xml
@@ -85,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

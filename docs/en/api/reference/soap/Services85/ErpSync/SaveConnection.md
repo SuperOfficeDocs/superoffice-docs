@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.SaveConnect
 
 ## SaveConnection
 
-Saves a connection to the database.
 
-* **connection:** The connection to save.
 
-**Returns:** The resulting connection.
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -71,6 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveConnection Response
 
 ```xml
@@ -113,3 +112,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

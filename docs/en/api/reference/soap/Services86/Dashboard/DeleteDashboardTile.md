@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IDashboardAgent.DeleteDas
 
 ## DeleteDashboardTile
 
-Deletes the DashboardTile
 
-* **dashboardTileId:** The identity of the DashboardTile
+
+
 
 [WSDL file for Services86/Dashboard](../Services86-Dashboard.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteDashboardTile Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IBLOBAgent.DeleteBlobEnti
 
 ## DeleteBlobEntity
 
-Deletes the BlobEntity
 
-* **blobEntityId:** The identity of the BlobEntity
+
+
 
 [WSDL file for Services85/BLOB](../Services85-BLOB.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteBlobEntity Response
 
 ```xml
@@ -64,3 +65,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

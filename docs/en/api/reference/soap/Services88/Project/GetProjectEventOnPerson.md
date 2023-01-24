@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.GetProjectE
 
 ## GetProjectEventOnPerson
 
-Gets a ProjectEvent object from a project and a person.
 
-* **projectId:** The project Id
-* **personId:** Id of the person the project events belong to.
+
+
 
 [WSDL file for Services88/Project](../Services88-Project.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetProjectEventOnPerson Response
 
 ```xml
@@ -74,7 +74,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:SignOffText xsi:type="xsd:string"></Project:SignOffText>
     <Project:SignOnConfirmationText xsi:type="xsd:string"></Project:SignOnConfirmationText>
     <Project:SignOnText xsi:type="xsd:string"></Project:SignOnText>
-    <Project:EventDate xsi:type="xsd:dateTime">2022-08-26T09:00:15Z</Project:EventDate>
+    <Project:EventDate xsi:type="xsd:dateTime">2023-01-23T10:21:41Z</Project:EventDate>
     <Project:Enabled xsi:type="xsd:boolean">false</Project:Enabled>
     <Project:SignOff xsi:type="xsd:boolean">false</Project:SignOff>
     <Project:SignOffTaskEnable xsi:type="xsd:boolean">false</Project:SignOffTaskEnable>
@@ -92,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

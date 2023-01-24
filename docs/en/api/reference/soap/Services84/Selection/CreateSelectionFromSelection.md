@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.CreateSel
 
 ## CreateSelectionFromSelection
 
-Creates a new selection based on selection members from an existing selection.
 
-* **selectionId:** The id of the selection to copy members from.
-* **name:** The name of the new selection.
-* **targetSelectionType:** The type of Selection to create. The type can be static or dynamic. If the original selection to copy from is static, the SelectionType can only be static. If the original selection is dynamic, both a static and dynamic selection can be created.
-* **copyMembers:** If true, the members from the original selection will be added to the newly created selection.
 
-**Returns:** Returns the newly created SelectionEntity.
+
 
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
@@ -54,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateSelectionFromSelection Response
 
@@ -121,12 +117,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:MemberCount xsi:type="xsd:unsignedInt">0</Selection:MemberCount>
     <Selection:Name xsi:type="xsd:string"></Selection:Name>
     <Selection:PostitTextId xsi:type="xsd:int">0</Selection:PostitTextId>
-    <Selection:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:51:51Z</Selection:CreatedDate>
+    <Selection:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:13:40Z</Selection:CreatedDate>
     <Selection:SelectionId xsi:type="xsd:int">0</Selection:SelectionId>
     <Selection:SoundEx xsi:type="xsd:string"></Selection:SoundEx>
     <Selection:Source xsi:type="xsd:short">0</Selection:Source>
     <Selection:TextId xsi:type="xsd:int">0</Selection:TextId>
-    <Selection:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:51:51Z</Selection:UpdatedDate>
+    <Selection:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:13:40Z</Selection:UpdatedDate>
     <Selection:UpdatedCount xsi:type="xsd:short">0</Selection:UpdatedCount>
     <Selection:Visibility xsi:type="xsd:short">0</Selection:Visibility>
     <Selection:SelectionType xsi:type="Selection:SelectionType">Static</Selection:SelectionType>
@@ -150,3 +146,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

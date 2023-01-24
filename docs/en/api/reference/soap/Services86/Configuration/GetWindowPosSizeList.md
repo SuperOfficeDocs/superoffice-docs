@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IConfigurationAgent.GetWi
 
 ## GetWindowPosSizeList
 
-Gets an array of WindowPosSize objects.
 
-* **windowPosSizeIds:** The identifiers of the WindowPosSize object
 
-**Returns:** Array of WindowPosSize objects
+
 
 [WSDL file for Services86/Configuration](../Services86-Configuration.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetWindowPosSizeList Response
 
 ```xml
@@ -85,3 +84,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

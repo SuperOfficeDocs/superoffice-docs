@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IWebhookAgent.GetLastErro
 
 ## GetLastError
 
-Return the most recent error message received when calling this webhook.
 
-* **webhookId:** Webhook to get error message for.
 
-**Returns:** Error message, or empty string if no errors received
+
 
 [WSDL file for Services85/Webhook](../Services85-Webhook.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetLastError Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

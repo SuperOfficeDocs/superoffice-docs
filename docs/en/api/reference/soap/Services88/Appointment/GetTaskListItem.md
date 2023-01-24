@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.GetTask
 
 ## GetTaskListItem
 
-Gets a TaskListItem object.
 
-* **taskListItemId:** The identifier of the TaskListItem object
 
-**Returns:** TaskListItem
+
 
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetTaskListItem Response
 
@@ -83,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

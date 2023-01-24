@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPreferenceAgent.DeleteFr
 
 ## DeleteFromSectionAndKey
 
-Gets a PreferenceDescription based on the section and key
 
-* **section:** The PreferenceDescription-section
-* **key:** The PreferenceDescription-key
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services84/Preference](../Services84-Preference.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteFromSectionAndKey Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

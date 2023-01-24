@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Numbe
 
 Handled by the <see cref="T:SuperOffice.Services88.INumberAllocationAgent">SuperOffice.Services88.INumberAllocationAgent</see> interface.
 
-Interface for the NumberAllocation Agent
-This agent can be used to manage number allocation
+
 
 Download [WSDL file for Services88/NumberAllocation](../Services88-NumberAllocation.md) if you need to generate your own proxy code.
 
@@ -22,3 +21,4 @@ Download [WSDL file for Services88/NumberAllocation](../Services88-NumberAllocat
 * [SaveDefaultNumbering](SaveDefaultNumbering.md)
 * [SaveRefCountEntity](SaveRefCountEntity.md)
 * [SetNumberEachTemplate](SetNumberEachTemplate.md)
+

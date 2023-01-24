@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISaleAgent.GetProbability
 
 ## GetProbabilityFromStage
 
-Get the probability percentage for a given sale stage
 
-* **stageId:** Probability list id
 
-**Returns:** Probability percentage
+
 
 [WSDL file for Services86/Sale](../Services86-Sale.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetProbabilityFromStage Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

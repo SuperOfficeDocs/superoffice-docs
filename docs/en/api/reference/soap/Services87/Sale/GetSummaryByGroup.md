@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISaleAgent.GetSummaryByGr
 
 ## GetSummaryByGroup
 
-* **groupId:**
-* **fromDate:**
-* **toDate:**
+
+
+
 
 [WSDL file for Services87/Sale](../Services87-Sale.md)
 
@@ -40,14 +40,15 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Sale:GetSummaryByGroup>
     <Sale:GroupId xsi:type="xsd:int">0</Sale:GroupId>
-    <Sale:FromDate xsi:type="xsd:dateTime">2022-08-26T08:57:56Z</Sale:FromDate>
-    <Sale:ToDate xsi:type="xsd:dateTime">2022-08-26T08:57:56Z</Sale:ToDate>
+    <Sale:FromDate xsi:type="xsd:dateTime">2023-01-23T10:19:30Z</Sale:FromDate>
+    <Sale:ToDate xsi:type="xsd:dateTime">2023-01-23T10:19:30Z</Sale:ToDate>
    </Sale:GetSummaryByGroup>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSummaryByGroup Response
 
@@ -98,3 +99,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

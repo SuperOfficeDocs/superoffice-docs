@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SetVisibleForU
 
 ## SetVisibleForUserGroupsFromListName
 
-Update User groups that this list item is visible for
 
-* **udListDefinitionName:** The name of the list definition, indicating which list to update the items from.
-* **listItemId:** The id of the list item
-* **userGroups:** The selectable user groups.
 
-**Returns:** Array of selectable user groups
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -56,7 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
       <List:IconHint xsi:type="xsd:string"></List:IconHint>
       <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-      <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:59:48Z</List:LastChanged>
+      <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:LastChanged>
       <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
        <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
         <List:Id xsi:type="xsd:int">0</List:Id>
@@ -68,7 +64,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
         <List:IconHint xsi:type="xsd:string"></List:IconHint>
         <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-        <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:59:48Z</List:LastChanged>
+        <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:LastChanged>
         <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
          <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
           <List:Id xsi:nil="true"></List:Id>
@@ -107,6 +103,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetVisibleForUserGroupsFromListName Response
 
 ```xml
@@ -132,7 +129,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
      <List:IconHint xsi:type="xsd:string"></List:IconHint>
      <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-     <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:59:48Z</List:LastChanged>
+     <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:LastChanged>
      <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
       <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
        <List:Id xsi:type="xsd:int">0</List:Id>
@@ -144,7 +141,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
        <List:IconHint xsi:type="xsd:string"></List:IconHint>
        <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-       <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:59:48Z</List:LastChanged>
+       <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:LastChanged>
        <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
         <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
          <List:Id xsi:type="xsd:int">0</List:Id>
@@ -156,7 +153,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
          <List:IconHint xsi:type="xsd:string"></List:IconHint>
          <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-         <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:59:48Z</List:LastChanged>
+         <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:LastChanged>
          <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
           <List:SelectableMDOListItem xsi:nil="true"></List:SelectableMDOListItem>
          </List:ChildItems>
@@ -183,3 +180,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

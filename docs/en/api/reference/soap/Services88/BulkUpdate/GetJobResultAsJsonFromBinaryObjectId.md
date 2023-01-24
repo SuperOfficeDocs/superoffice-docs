@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IBulkUpdateAgent.GetJobRe
 
 ## GetJobResultAsJsonFromBinaryObjectId
 
-Get result of the batchupdate job
 
-* **tableName:** The name of the table that was updated to show the log from
-* **binaryObjectId:** Which binaryobject id has stored the job result
 
-**Returns:** Result of job as json
+
 
 [WSDL file for Services88/BulkUpdate](../Services88-BulkUpdate.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetJobResultAsJsonFromBinaryObjectId Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

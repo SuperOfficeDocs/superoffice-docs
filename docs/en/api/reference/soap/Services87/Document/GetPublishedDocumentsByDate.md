@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetPublish
 
 ## GetPublishedDocumentsByDate
 
-Method that returns a specified number of published document appointments within a time range. The document appointments is visible to the person specified or the document is in a project the person belongs to.
 
-* **personId:** The personId
-* **includeProjectDocuments:** Include projectDocuments to select documents in projects person is a member of.
-* **startTime:** The start of the time interval we want appointments from. This will usually be the current time.
-* **endTime:** The end of the time interval.
-* **count:** The maximum number of appointments that should be returned. -1 means no count restrictions.
 
-**Returns:** Array of Appointments.
+
 
 [WSDL file for Services87/Document](../Services87-Document.md)
 
@@ -47,8 +41,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Document:GetPublishedDocumentsByDate>
     <Document:PersonId xsi:type="xsd:int">0</Document:PersonId>
     <Document:IncludeProjectDocuments xsi:type="xsd:boolean">false</Document:IncludeProjectDocuments>
-    <Document:StartTime xsi:type="xsd:dateTime">2022-08-26T08:56:52Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2022-08-26T08:56:52Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2023-01-23T10:18:30Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2023-01-23T10:18:30Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
    </Document:GetPublishedDocumentsByDate>
 
@@ -56,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPublishedDocumentsByDate Response
 
@@ -98,3 +93,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

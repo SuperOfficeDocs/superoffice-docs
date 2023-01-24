@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.SaveChatTopicE
 
 ## SaveChatTopicEntity
 
-Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is 0.
 
-* **chatTopicEntity:** The ChatTopicEntity that is saved.
 
-**Returns:** New or updated ChatTopicEntity
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -51,7 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Chat:Value xsi:type="xsd:string"></Chat:Value>
       <Chat:Tooltip xsi:type="xsd:string"></Chat:Tooltip>
      </Chat:Language>
-     <Chat:LastAccept xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:LastAccept>
+     <Chat:LastAccept xsi:type="xsd:dateTime">2023-01-23T10:20:09Z</Chat:LastAccept>
      <Chat:SecondsPrAccept xsi:type="xsd:int">0</Chat:SecondsPrAccept>
      <Chat:AlertRecipient xsi:type="xsd:string"></Chat:AlertRecipient>
      <Chat:AlertTemplate xsi:type="Chat:ReplyTemplate">
@@ -205,6 +203,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveChatTopicEntity Response
 
 ```xml
@@ -229,7 +228,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:Value xsi:type="xsd:string"></Chat:Value>
      <Chat:Tooltip xsi:type="xsd:string"></Chat:Tooltip>
     </Chat:Language>
-    <Chat:LastAccept xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:LastAccept>
+    <Chat:LastAccept xsi:type="xsd:dateTime">2023-01-23T10:20:09Z</Chat:LastAccept>
     <Chat:SecondsPrAccept xsi:type="xsd:int">0</Chat:SecondsPrAccept>
     <Chat:AlertRecipient xsi:type="xsd:string"></Chat:AlertRecipient>
     <Chat:AlertTemplate xsi:type="Chat:ReplyTemplate">
@@ -381,3 +380,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

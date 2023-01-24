@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITargetsAgent.GetTargetGr
 
 ## GetTargetGroupIds
 
-Returns ids of the target groups that use this dimension.
 
-* **targetDimensionId:** The target dimension id
 
-**Returns:** Target group ids.
+
 
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTargetGroupIds Response
 
 ```xml
@@ -71,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

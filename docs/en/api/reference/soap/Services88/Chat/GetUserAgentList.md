@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.GetUserAgentLi
 
 ## GetUserAgentList
 
-Get list of users that can be assigned to chat topics. Users with Chat-CALs from the MDO list 'chatuser'
 
-* **flat:** Return flat list instead of grouping by usergroup.
-* **onlyPresent:** Only show users who are present
 
-**Returns:** List of user agents that can be assigned to chat topics, possibly grouped by usergroup.
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetUserAgentList Response
 
@@ -118,3 +116,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

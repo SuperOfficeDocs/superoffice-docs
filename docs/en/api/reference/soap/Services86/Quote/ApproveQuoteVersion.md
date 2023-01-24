@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.ApproveQuoteV
 
 ## ApproveQuoteVersion
 
-Approves a quote version
 
-* **quoteVersionId:** QuoteVersionId to approve.
-* **approvedByText:** 'Approved by' prefix to ApprovalText used when creating appointment task to log approval. Must be passed since service does not know which language to use for 'Approved By' string.
-* **approvedByAssociateId:** AssociateId of the associate who approved the quote version.
-* **approvalText:** Approval text.
 
-**Returns:** Response of the the operation
+
 
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
@@ -54,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## ApproveQuoteVersion Response
 
@@ -103,3 +99,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

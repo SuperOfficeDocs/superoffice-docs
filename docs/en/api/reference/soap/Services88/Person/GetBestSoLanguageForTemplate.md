@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.GetBestSoLan
 
 ## GetBestSoLanguageForTemplate
 
-Get the best language for this person on this template
 
-* **personId:** The id of the person
-* **templateId:** The id of the template to find languages on
 
-**Returns:** The solang code for best language, empty string if no best language found
+
 
 [WSDL file for Services88/Person](../Services88-Person.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetBestSoLanguageForTemplate Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

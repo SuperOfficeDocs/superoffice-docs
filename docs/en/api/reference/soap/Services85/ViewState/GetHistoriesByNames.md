@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IViewStateAgent.GetHistor
 
 ## GetHistoriesByNames
 
-Returns the named history lists that belong to the currently logged in user
 
-* **historyNames:** String array of list names
 
-**Returns:** Array of History items
+
 
 [WSDL file for Services85/ViewState](../Services85-ViewState.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetHistoriesByNames Response
 
 ```xml
@@ -81,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ILicenseAgent.AssignThird
 
 ## AssignThirdPartyLicenses
 
-Assign third party licenses
 
-* **associateId:** User to assign third party licenses for
-* **moduleOwner:** Name of the module owner to assign license for
-* **moduleLicenseNames:** Name of module licenses to assign
 
-**Returns:** All module license names assigned
+
 
 [WSDL file for Services88/License](../Services88-License.md)
 
@@ -55,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## AssignThirdPartyLicenses Response
 
@@ -94,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

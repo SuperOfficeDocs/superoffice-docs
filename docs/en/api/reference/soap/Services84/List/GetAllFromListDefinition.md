@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetAllFromList
 
 ## GetAllFromListDefinition
 
-Get all list items for the specified list defintion
 
-* **udListDefinitionId:** The id of the list definition, indicating which list to get the item from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **includeDeleted:** Include deleted items in result?
 
-**Returns:** The list items
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAllFromListDefinition Response
 
 ```xml
@@ -80,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

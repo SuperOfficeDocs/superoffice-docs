@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.SaveHeadingsFo
 
 ## SaveHeadingsForListItemFromListDefinition
 
-Saves the active headings for the list item.
 
-* **udListDefinitionId:** The id of the list definition, indicating which list to delete the items from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **listItemId:** The identity of the list item to delete
-* **headings:** The headings to save.
 
-**Returns:** Array of headings
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -56,7 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
       <List:IconHint xsi:type="xsd:string"></List:IconHint>
       <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-      <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:57:26Z</List:LastChanged>
+      <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:19:02Z</List:LastChanged>
       <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
        <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
         <List:Id xsi:type="xsd:int">0</List:Id>
@@ -68,7 +64,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
         <List:IconHint xsi:type="xsd:string"></List:IconHint>
         <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-        <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:57:26Z</List:LastChanged>
+        <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:19:02Z</List:LastChanged>
         <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
          <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
           <List:Id xsi:nil="true"></List:Id>
@@ -107,6 +103,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveHeadingsForListItemFromListDefinition Response
 
 ```xml
@@ -132,7 +129,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
      <List:IconHint xsi:type="xsd:string"></List:IconHint>
      <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-     <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:57:26Z</List:LastChanged>
+     <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:19:02Z</List:LastChanged>
      <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
       <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
        <List:Id xsi:type="xsd:int">0</List:Id>
@@ -144,7 +141,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
        <List:IconHint xsi:type="xsd:string"></List:IconHint>
        <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-       <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:57:26Z</List:LastChanged>
+       <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:19:02Z</List:LastChanged>
        <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
         <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
          <List:Id xsi:type="xsd:int">0</List:Id>
@@ -156,7 +153,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
          <List:IconHint xsi:type="xsd:string"></List:IconHint>
          <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-         <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:57:26Z</List:LastChanged>
+         <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:19:02Z</List:LastChanged>
          <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
           <List:SelectableMDOListItem xsi:nil="true"></List:SelectableMDOListItem>
          </List:ChildItems>
@@ -183,3 +180,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

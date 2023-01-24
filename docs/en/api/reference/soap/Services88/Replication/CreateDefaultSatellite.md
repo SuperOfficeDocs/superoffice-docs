@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IReplicationAgent.CreateD
 
 ## CreateDefaultSatellite
 
-Loading default values into a new Satellite.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-<para /><b>Online Restricted:</b> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
-**Returns:** New Satellite with default values
+
+
 
 [WSDL file for Services88/Replication](../Services88-Replication.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultSatellite Response
 
 ```xml
@@ -64,7 +63,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Replication:CreateDefaultSatelliteResponse>
    <Replication:Response xsi:type="Replication:Satellite">
     <Replication:SatelliteId xsi:type="xsd:int">0</Replication:SatelliteId>
-    <Replication:Created xsi:type="xsd:dateTime">2022-08-26T09:00:21Z</Replication:Created>
+    <Replication:Created xsi:type="xsd:dateTime">2023-01-23T10:21:47Z</Replication:Created>
     <Replication:CreatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -79,7 +78,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Replication:EjUserId xsi:type="xsd:int">0</Replication:EjUserId>
      <Replication:UserName xsi:type="xsd:string"></Replication:UserName>
     </Replication:CreatedBy>
-    <Replication:Updated xsi:type="xsd:dateTime">2022-08-26T09:00:21Z</Replication:Updated>
+    <Replication:Updated xsi:type="xsd:dateTime">2023-01-23T10:21:47Z</Replication:Updated>
     <Replication:UpdatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -155,6 +154,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Replication:FullName xsi:type="xsd:string"></Replication:FullName>
      <Replication:IsOwnerContact xsi:type="xsd:boolean">false</Replication:IsOwnerContact>
      <Replication:ActiveErpLinks xsi:type="xsd:int">0</Replication:ActiveErpLinks>
+     <Replication:Number1 xsi:type="xsd:string"></Replication:Number1>
+     <Replication:Number2 xsi:type="xsd:string"></Replication:Number2>
     </Replication:Contact>
     <Replication:Area xsi:type="Replication:Area">
      <Replication:AreaId xsi:type="xsd:int">0</Replication:AreaId>
@@ -212,3 +213,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ILicenseAgent.GetThirdPar
 
 ## GetThirdPartyLicenseAssignments
 
-Get license assignments for an associate for licenses belonging to an other module owner than SuperOffice
 
-* **associateId:** User to get third party license assignments for
-* **moduleOwner:** Name of the module owner to get license assignments for
 
-**Returns:** Module license names
+
 
 [WSDL file for Services87/License](../Services87-License.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetThirdPartyLicenseAssignments Response
 
@@ -89,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SetDocumentTem
 
 ## SetDocumentTemplateFromDocumentTemplate
 
-Create a new document template based on another template
 
-* **sourceDocumentTemplateId:** The document template to copy contents from.
-* **documentTemplateEntity:** The new document template entity
 
-**Returns:** The new document template entity
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -77,6 +74,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetDocumentTemplateFromDocumentTemplate Response
 
 ```xml
@@ -123,3 +121,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

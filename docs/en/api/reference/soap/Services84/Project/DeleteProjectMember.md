@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IProjectAgent.DeleteProje
 
 ## DeleteProjectMember
 
-Deletes the ProjectMember
 
-* **projectMemberId:** The identity of the ProjectMember
+
+
 
 [WSDL file for Services84/Project](../Services84-Project.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteProjectMember Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

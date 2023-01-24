@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.GetProjectM
 
 ## GetProjectMember
 
-Gets a ProjectMember object.
 
-* **projectMemberId:** The identifier of the ProjectMember object
 
-**Returns:** ProjectMember
+
 
 [WSDL file for Services88/Project](../Services88-Project.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetProjectMember Response
 
@@ -91,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

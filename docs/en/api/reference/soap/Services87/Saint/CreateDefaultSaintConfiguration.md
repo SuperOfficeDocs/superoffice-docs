@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISaintAgent.CreateDefault
 
 ## CreateDefaultSaintConfiguration
 
-Loading default values into a new SaintConfiguration.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New SaintConfiguration with default values
+
+
 
 [WSDL file for Services87/Saint](../Services87-Saint.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultSaintConfiguration Response
 
 ```xml
@@ -67,8 +67,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Saint:Period1 xsi:type="xsd:int">0</Saint:Period1>
     <Saint:Period2 xsi:type="xsd:int">0</Saint:Period2>
     <Saint:Period3 xsi:type="xsd:int">0</Saint:Period3>
-    <Saint:GenerationStart xsi:type="xsd:dateTime">2022-08-26T08:57:51Z</Saint:GenerationStart>
-    <Saint:GenerationEnd xsi:type="xsd:dateTime">2022-08-26T08:57:51Z</Saint:GenerationEnd>
+    <Saint:GenerationStart xsi:type="xsd:dateTime">2023-01-23T10:19:25Z</Saint:GenerationStart>
+    <Saint:GenerationEnd xsi:type="xsd:dateTime">2023-01-23T10:19:25Z</Saint:GenerationEnd>
     <Saint:RowsGenerated xsi:type="xsd:int">0</Saint:RowsGenerated>
    </Saint:Response>
   </Saint:CreateDefaultSaintConfigurationResponse>
@@ -76,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

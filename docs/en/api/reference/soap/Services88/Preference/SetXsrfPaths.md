@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPreferenceAgent.SetXsrfP
 
 ## SetXsrfPaths
 
-Update the paths that need XSRF cookies
 
-* **hostname:** The hostname that we are storing paths for.
-* **paths:** Paths that XSRF cookies should be set for: ['/cs', '/crm']
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetXsrfPaths Response
 
 ```xml
@@ -72,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

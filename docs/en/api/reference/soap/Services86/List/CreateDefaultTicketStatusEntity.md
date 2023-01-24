@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.CreateDefaultT
 
 ## CreateDefaultTicketStatusEntity
 
-Loading default values into a new TicketStatusEntity.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New TicketStatusEntity with default values
+
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultTicketStatusEntity Response
 
 ```xml
@@ -73,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

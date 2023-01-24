@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.GetConnecti
 
 ## GetConnectionsAndDisplayFields
 
-Get all connection statuses and fields for a given entity
 
-* **crmActorType:** The type of the CRM entity
-* **entityId:** The id of the entity
 
-**Returns:** An array of ErpConnectionData carriers
+
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetConnectionsAndDisplayFields Response
 
@@ -96,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

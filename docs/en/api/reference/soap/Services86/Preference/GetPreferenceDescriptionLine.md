@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IPreferenceAgent.GetPrefe
 
 ## GetPreferenceDescriptionLine
 
-Gets a PreferenceDescriptionLine object.
 
-* **preferenceDescriptionLineId:** The identifier of the PreferenceDescriptionLine object
 
-**Returns:** PreferenceDescriptionLine
+
 
 [WSDL file for Services86/Preference](../Services86-Preference.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPreferenceDescriptionLine Response
 
 ```xml
@@ -76,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

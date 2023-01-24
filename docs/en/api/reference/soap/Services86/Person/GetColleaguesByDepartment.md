@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IPersonAgent.GetColleague
 
 ## GetColleaguesByDepartment
 
-Gets the persons working in a specific department in the same company as the logged on user. Departments can be retrieved with the PhoneList.DepartmentList service.
 
-* **departmentId:** The department id.
 
-**Returns:** PersonList with colleagues.
+
 
 [WSDL file for Services86/Person](../Services86-Person.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetColleaguesByDepartment Response
 
@@ -111,3 +110,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

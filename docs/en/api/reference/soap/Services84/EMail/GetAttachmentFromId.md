@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.GetAttachment
 
 ## GetAttachmentFromId
 
-Retrieve an attachment from an e-mail
 
-* **mailItemId:** Unique ID for the e-mail to retrieve the attachment from
-* **attachmentId:** Id of the attachment in the e-mail
 
-**Returns:** The attachment
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAttachmentFromId Response
 
 ```xml
@@ -80,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

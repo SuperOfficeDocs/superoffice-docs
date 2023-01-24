@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IContactAgent.GetMyActive
 
 ## GetMyActiveContacts
 
-Returns the contacts where there has been activity since activityStartTime. If activityStartTime is larger than the current date, all contacts with activity since last log-out are returned. The result set can be filtered by category and action type.
 
-* **activityStartTime:** The start time of the activities. If the start time is set to a future date; activites since the user last logged out are returned.
-* **contactCategories:** Integer array of categories to filter on. If the array is empty contacts from all categories will be selected.
-* **actionType:** The type of action that has occured. E.g. updates, deletes, new appointments, etc.
 
-**Returns:** Array of contacts where there have been activity in the period.
+
 
 [WSDL file for Services87/Contact](../Services87-Contact.md)
 
@@ -43,7 +39,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Contact:Credentials>
  <SOAP-ENV:Body>
    <Contact:GetMyActiveContacts>
-    <Contact:ActivityStartTime xsi:type="xsd:dateTime">2022-08-26T08:56:36Z</Contact:ActivityStartTime>
+    <Contact:ActivityStartTime xsi:type="xsd:dateTime">2023-01-23T10:18:14Z</Contact:ActivityStartTime>
     <Contact:ContactCategories xsi:type="NetServerServices872:ArrayOfint">
      <NetServerServices872:int xsi:type="xsd:int">0</NetServerServices872:int>
     </Contact:ContactCategories>
@@ -54,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetMyActiveContacts Response
 
@@ -78,7 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Contact:URL xsi:type="xsd:string"></Contact:URL>
      <Contact:AssociateFullName xsi:type="xsd:string"></Contact:AssociateFullName>
      <Contact:Action xsi:type="Contact:ContactAction">Created</Contact:Action>
-     <Contact:ActionTime xsi:type="xsd:dateTime">2022-08-26T08:56:36Z</Contact:ActionTime>
+     <Contact:ActionTime xsi:type="xsd:dateTime">2023-01-23T10:18:14Z</Contact:ActionTime>
      <Contact:Category xsi:type="xsd:string"></Contact:Category>
      <Contact:ActivityPersonName xsi:type="xsd:string"></Contact:ActivityPersonName>
      <Contact:ActionId xsi:type="xsd:int">0</Contact:ActionId>
@@ -92,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

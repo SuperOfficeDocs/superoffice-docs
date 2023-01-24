@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.GetChatMessage
 
 ## GetChatMessages
 
-Get all or some of the messages in a chat session
 
-* **chatSessionId:** id of the chat session to reset
-* **after:** Return messages after this message id
 
-**Returns:** Array of chat messages in the session
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetChatMessages Response
 
 ```xml
@@ -75,7 +73,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
      <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
      <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-     <Chat:WhenPosted xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Chat:WhenPosted>
+     <Chat:WhenPosted xsi:type="xsd:dateTime">2023-01-23T10:20:14Z</Chat:WhenPosted>
     </Chat:ChatMessage>
    </Chat:Response>
   </Chat:GetChatMessagesResponse>
@@ -83,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

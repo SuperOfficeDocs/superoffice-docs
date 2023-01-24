@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ICustomerServiceAgent.Upd
 
 ## UpdateFeatureToggles
 
-Update the cached FeatureToggles for CS
 
-* **featureToggles:** Feature toggle name / state
+
+
 
 [WSDL file for Services84/CustomerService](../Services84-CustomerService.md)
 
@@ -52,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UpdateFeatureToggles Response
 
 ```xml
@@ -71,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

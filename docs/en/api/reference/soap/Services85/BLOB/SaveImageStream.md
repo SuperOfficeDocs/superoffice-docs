@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IBLOBAgent.SaveImageStrea
 
 ## SaveImageStream
 
-Stores an image in the database without linking it to a project or a person. It is possible to ChangePersonImage or ChangeProjectImage to attach image later.
 
-* **type:** The type of the image.
-* **image:** Image to store
-* **description:** Image description
 
-**Returns:** The blob id
+
 
 [WSDL file for Services85/BLOB](../Services85-BLOB.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveImageStream Response
 
 ```xml
@@ -71,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

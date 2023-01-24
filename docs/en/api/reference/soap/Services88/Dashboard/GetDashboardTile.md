@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashboardAgent.GetDashbo
 
 ## GetDashboardTile
 
-Gets a DashboardTile object.
 
-* **dashboardTileId:** The identifier of the DashboardTile object
 
-**Returns:** DashboardTile
+
 
 [WSDL file for Services88/Dashboard](../Services88-Dashboard.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDashboardTile Response
 
@@ -130,3 +129,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

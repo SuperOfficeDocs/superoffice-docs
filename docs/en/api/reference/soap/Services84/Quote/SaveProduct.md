@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.SaveProduct">
 
 ## SaveProduct
 
-Updates the existing Product or creates a new Product if the id parameter is 0.
 
-* **product:** The Product that is saved.
 
-**Returns:** New or updated Product
+
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -90,6 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveProduct Response
 
 ```xml
@@ -151,3 +150,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IConfigurationAgent.GetDi
 
 ## GetDiaryViewEntity
 
-Gets a DiaryViewEntity object.
 
-* **diaryViewEntityId:** The identifier of the DiaryViewEntity object
 
-**Returns:** DiaryViewEntity
+
 
 [WSDL file for Services84/Configuration](../Services84-Configuration.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDiaryViewEntity Response
 
 ```xml
@@ -81,7 +80,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Configuration:ColorBlock xsi:type="xsd:int">0</Configuration:ColorBlock>
       <Configuration:IconHint xsi:type="xsd:string"></Configuration:IconHint>
       <Configuration:Selected xsi:type="xsd:boolean">false</Configuration:Selected>
-      <Configuration:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:50:30Z</Configuration:LastChanged>
+      <Configuration:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:12:24Z</Configuration:LastChanged>
       <Configuration:ChildItems xsi:type="Configuration:ArrayOfSelectableMDOListItem">
        <Configuration:SelectableMDOListItem xsi:type="Configuration:SelectableMDOListItem">
         <Configuration:Id xsi:type="xsd:int">0</Configuration:Id>
@@ -93,7 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Configuration:ColorBlock xsi:type="xsd:int">0</Configuration:ColorBlock>
         <Configuration:IconHint xsi:type="xsd:string"></Configuration:IconHint>
         <Configuration:Selected xsi:type="xsd:boolean">false</Configuration:Selected>
-        <Configuration:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:50:30Z</Configuration:LastChanged>
+        <Configuration:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:12:24Z</Configuration:LastChanged>
         <Configuration:ChildItems xsi:type="Configuration:ArrayOfSelectableMDOListItem">
          <Configuration:SelectableMDOListItem xsi:type="Configuration:SelectableMDOListItem">
           <Configuration:Id xsi:nil="true"></Configuration:Id>
@@ -132,3 +131,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

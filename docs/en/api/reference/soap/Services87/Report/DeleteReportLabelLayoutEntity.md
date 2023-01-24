@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IReportAgent.DeleteReport
 
 ## DeleteReportLabelLayoutEntity
 
-Deletes the ReportLabelLayoutEntity
 
-* **reportLabelLayoutEntityId:** The identity of the ReportLabelLayoutEntity
+
+
 
 [WSDL file for Services87/Report](../Services87-Report.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteReportLabelLayoutEntity Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

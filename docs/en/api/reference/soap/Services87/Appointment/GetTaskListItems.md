@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.GetTask
 
 ## GetTaskListItems
 
-Gets all takslist items
 
-* **includeDeleted:** Include deleted items
 
-**Returns:** An array of tasklist items
+
 
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetTaskListItems Response
 
@@ -84,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

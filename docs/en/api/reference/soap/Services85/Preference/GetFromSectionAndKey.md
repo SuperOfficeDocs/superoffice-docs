@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPreferenceAgent.GetFromS
 
 ## GetFromSectionAndKey
 
-Gets a PreferenceDescription based on the section and key
 
-* **section:** The PreferenceDescription-section
-* **key:** The PreferenceDescription-key
 
-**Returns:** A PreferenceDescription or null
+
 
 [WSDL file for Services85/Preference](../Services85-Preference.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFromSectionAndKey Response
 
 ```xml
@@ -84,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

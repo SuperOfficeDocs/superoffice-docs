@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IWebhookAgent.CreateDefau
 
 ## CreateDefaultWebhook
 
-Loading default values into a new Webhook.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-<para /><b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-**Returns:** New Webhook with default values
+
+
 
 [WSDL file for Services86/Webhook](../Services86-Webhook.md)
 
@@ -47,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultWebhook Response
 
@@ -84,7 +83,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Webhook:Value xsi:type="xsd:anyType"></Webhook:Value>
      </Webhook:StringObjectKeyValuePair>
     </Webhook:Properties>
-    <Webhook:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:08Z</Webhook:Registered>
+    <Webhook:Registered xsi:type="xsd:dateTime">2023-01-23T10:17:47Z</Webhook:Registered>
     <Webhook:RegisteredAssociate xsi:type="Webhook:Associate">
      <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
      <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -99,7 +98,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Webhook:EjUserId xsi:type="xsd:int">0</Webhook:EjUserId>
      <Webhook:UserName xsi:type="xsd:string"></Webhook:UserName>
     </Webhook:RegisteredAssociate>
-    <Webhook:Updated xsi:type="xsd:dateTime">2022-08-26T08:56:08Z</Webhook:Updated>
+    <Webhook:Updated xsi:type="xsd:dateTime">2023-01-23T10:17:47Z</Webhook:Updated>
     <Webhook:UpdatedAssociate xsi:type="Webhook:Associate">
      <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
      <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -120,3 +119,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

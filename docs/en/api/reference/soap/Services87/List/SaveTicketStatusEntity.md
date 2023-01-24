@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.SaveTicketStat
 
 ## SaveTicketStatusEntity
 
-Updates the existing TicketStatusEntity or creates a new TicketStatusEntity if the id parameter is 0.
 
-* **ticketStatusEntity:** The TicketStatusEntity that is saved.
 
-**Returns:** New or updated TicketStatusEntity
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -55,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveTicketStatusEntity Response
 
 ```xml
@@ -81,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

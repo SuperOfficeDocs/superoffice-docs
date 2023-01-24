@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.ChangePassword
 
 ## ChangePassword
 
-Change password for a user.
 
-* **associateId:** AssociateId of the user to change password for.
-* **oldPassword:** The current password of the user.  Administrators can leave this blank to force a new password upon a user.
-* **newPassword:** The new password for the user
 
-**Returns:** True if the password was successfully changed.
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangePassword Response
 
 ```xml
@@ -73,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

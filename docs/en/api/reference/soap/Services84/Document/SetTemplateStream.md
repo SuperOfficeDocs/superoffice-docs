@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IDocumentAgent.SetTemplat
 
 ## SetTemplateStream
 
-Save a mail signature template to the document archive
 
-* **filename:** Filename of template.
-* **personal:** If true, save the template in the user area, instead of in shared template area.
-* **stream:** The signature template content as a stream.
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services84/Document](../Services84-Document.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetTemplateStream Response
 
 ```xml
@@ -72,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

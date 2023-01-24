@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.GetPreviewAt
 
 ## GetPreviewAttachmentStream
 
-Retrieve an attachment from ticket message. The returned data is intended to be used for a preview. The returned data is sanitized.
 
-* **attachmentId:** The id of the attachment to retrieve
 
-**Returns:** Sanitized preview version of the attachment
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPreviewAttachmentStream Response
 
 ```xml
@@ -74,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

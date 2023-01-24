@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.SetRankOnHeadi
 
 ## SetRankOnHeadings
 
-Set rank order on headings
 
-* **udListDefinitionId:** The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **headingIds:** The ids of the headings in the order you want
+
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -51,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetRankOnHeadings Response
 
 ```xml
@@ -70,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

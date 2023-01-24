@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.GetConnection
 
 ## GetConnectionStartupErrors
 
-Returns an array of PluginResponseInfos for all failed connection initializations.
 
-**Returns:** Array of PluginResponseInfos for each failed connection initialization.
+
+
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -45,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetConnectionStartupErrors Response
 
@@ -86,6 +87,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        </Quote:ChangedDataItem>
       </Quote:DeletedRecords>
      </Quote:Changes>
+     <Quote:Status xsi:type="Quote:QuoteStatus">Ok</Quote:Status>
     </Quote:PluginResponse>
    </Quote:Response>
   </Quote:GetConnectionStartupErrorsResponse>
@@ -93,3 +95,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

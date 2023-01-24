@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPreferenceAgent.SavePref
 
 ## SavePreferenceDescription
 
-Updates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is 0.
 
-* **preferenceDescription:** The PreferenceDescription that is saved.
 
-**Returns:** New or updated PreferenceDescription
+
 
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
@@ -68,6 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SavePreferenceDescription Response
 
 ```xml
@@ -107,3 +106,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

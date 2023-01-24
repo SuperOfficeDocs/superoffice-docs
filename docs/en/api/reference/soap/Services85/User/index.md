@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/User.
 
 Handled by the <see cref="T:SuperOffice.Services85.IUserAgent">SuperOffice.Services85.IUserAgent</see> interface.
 
-Interface for the User Agent
-User administration
+
 
 Download [WSDL file for Services85/User](../Services85-User.md) if you need to generate your own proxy code.
 
@@ -93,3 +92,4 @@ Download [WSDL file for Services85/User](../Services85-User.md) if you need to g
 * [SetGeneratedPasswordFromName](SetGeneratedPasswordFromName.md)
 * [SetPassword](SetPassword.md)
 * [SetPasswordFromName](SetPasswordFromName.md)
+

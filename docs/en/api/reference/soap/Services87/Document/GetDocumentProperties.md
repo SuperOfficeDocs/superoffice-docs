@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetDocumen
 
 ## GetDocumentProperties
 
-Get plugin-dependent properties for the document. A number of standard properties that should be supported by all plugins are defined in SuperOffice.CRM.Documents.Constants.Properties.
 
-* **documentId:** SuperOffice document ID
-* **requestedProperties:** Array of property names whose values are being requested.
 
-**Returns:** Dictionary of name=value pairs, corresponding to the requested properties.
+
 
 [WSDL file for Services87/Document](../Services87-Document.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDocumentProperties Response
 
 ```xml
@@ -78,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

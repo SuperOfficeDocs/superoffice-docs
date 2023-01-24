@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetDeliveryTer
 
 ## GetDeliveryTerm
 
-Gets a DeliveryTerm object.
 
-* **deliveryTermId:** The identifier of the DeliveryTerm object
 
-**Returns:** DeliveryTerm
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDeliveryTerm Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

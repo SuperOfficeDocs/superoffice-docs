@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IProjectAgent.GetProjectM
 
 ## GetProjectMembersById
 
-Returns an array of project members
 
-* **projectMemberIds:**
 
-**Returns:** An array of project members
+
 
 [WSDL file for Services84/Project](../Services84-Project.md)
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetProjectMembersById Response
 
@@ -93,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

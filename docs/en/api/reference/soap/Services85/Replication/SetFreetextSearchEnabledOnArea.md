@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IReplicationAgent.SetFree
 
 ## SetFreetextSearchEnabledOnArea
 
-Enable freetext search on this area
 
-* **areaId:** The id of the area
-* **freetextEnabled:** True if freetextSearch on this area shall be enabled
 
-**Returns:** No return value
+
 
 [WSDL file for Services85/Replication](../Services85-Replication.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetFreetextSearchEnabledOnArea Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

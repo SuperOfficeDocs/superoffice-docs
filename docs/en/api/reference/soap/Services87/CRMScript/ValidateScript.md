@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICRMScriptAgent.ValidateS
 
 ## ValidateScript
 
-Validate a CRMScript. This will check that the syntax is correct
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **cRMScriptId:** The id of the CRMScript to execute
 
-**Returns:** True of the syntax is correct
+
 
 [WSDL file for Services87/CRMScript](../Services87-CRMScript.md)
 
@@ -49,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ValidateScript Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

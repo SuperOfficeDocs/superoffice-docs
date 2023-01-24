@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISaleAgent.GetSaleStakeho
 
 ## GetSaleStakeholderList
 
-Gets an array of SaleStakeholder objects.
 
-* **saleStakeholderIds:** The identifiers of the SaleStakeholder object
 
-**Returns:** Array of SaleStakeholder objects
+
 
 [WSDL file for Services86/Sale](../Services86-Sale.md)
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSaleStakeholderList Response
 
@@ -93,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

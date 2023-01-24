@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.Exe
 
 ## ExecuteEventHandlers
 
-This method will execute event handlers in CRMScript for a given event.
 
-* **eventData:** The EventData instance sent to the event handler
 
-**Returns:** The EventData instance after event handler execution
+
 
 [WSDL file for Services87/CustomerService](../Services87-CustomerService.md)
 
@@ -73,6 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ExecuteEventHandlers Response
 
 ```xml
@@ -117,3 +116,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

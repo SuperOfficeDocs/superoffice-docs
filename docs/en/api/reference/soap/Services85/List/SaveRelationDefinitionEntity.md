@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.SaveRelationDe
 
 ## SaveRelationDefinitionEntity
 
-Updates the existing RelationDefinitionEntity or creates a new RelationDefinitionEntity if the id parameter is 0.
 
-* **relationDefinitionEntity:** The RelationDefinitionEntity that is saved.
 
-**Returns:** New or updated RelationDefinitionEntity
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -58,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveRelationDefinitionEntity Response
 
 ```xml
@@ -87,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

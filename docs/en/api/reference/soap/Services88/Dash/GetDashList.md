@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.GetDashList">S
 
 ## GetDashList
 
-Gets the ordered list of dashboards
 
-* **dashboards:** List of dashboardIds
 
-**Returns:** List of dashboards
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDashList Response
 
@@ -102,3 +101,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

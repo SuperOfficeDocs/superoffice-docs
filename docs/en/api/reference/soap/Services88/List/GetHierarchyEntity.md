@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetHierarchyEn
 
 ## GetHierarchyEntity
 
-Gets a HierarchyEntity object.
 
-* **hierarchyEntityId:** The identifier of the HierarchyEntity object
 
-**Returns:** HierarchyEntity
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetHierarchyEntity Response
 
@@ -97,21 +96,21 @@ Application tokens must be specified if calling an Online installation. Applicat
           <List:UpdatedAssociateId xsi:nil="true"></List:UpdatedAssociateId>
          </List:HierarchyEntity>
         </List:Children>
-        <List:Registered xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:Registered>
+        <List:Registered xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:Registered>
         <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-        <List:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:Updated>
+        <List:Updated xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:Updated>
         <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
        </List:HierarchyEntity>
       </List:Children>
-      <List:Registered xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:Registered>
+      <List:Registered xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:Registered>
       <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-      <List:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:Updated>
+      <List:Updated xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:Updated>
       <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
      </List:HierarchyEntity>
     </List:Children>
-    <List:Registered xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:Registered>
+    <List:Registered xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:Registered>
     <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-    <List:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:Updated>
+    <List:Updated xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:Updated>
     <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
    </List:Response>
   </List:GetHierarchyEntityResponse>
@@ -119,3 +118,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

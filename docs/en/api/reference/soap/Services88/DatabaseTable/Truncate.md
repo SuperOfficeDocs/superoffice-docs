@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDatabaseTableAgent.Trunc
 
 ## Truncate
 
-Drop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls
 
-* **tableName:** Name of table to be truncated
 
-**Returns:** Summary of results
+
 
 [WSDL file for Services88/DatabaseTable](../Services88-DatabaseTable.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## Truncate Response
 
@@ -84,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

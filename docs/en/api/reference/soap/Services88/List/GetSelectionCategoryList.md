@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetSelectionCa
 
 ## GetSelectionCategoryList
 
-Gets an array of SelectionCategory objects.
 
-* **selectionCategoryIds:** The identifiers of the SelectionCategory object
 
-**Returns:** Array of SelectionCategory objects
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSelectionCategoryList Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

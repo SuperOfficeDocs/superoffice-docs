@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICRMScriptAgent.CreateDef
 
 ## CreateDefaultCRMScriptEntity
 
-Loading default values into a new CRMScriptEntity.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-**Returns:** New CRMScriptEntity with default values
+
+
 
 [WSDL file for Services87/CRMScript](../Services87-CRMScript.md)
 
@@ -47,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultCRMScriptEntity Response
 
 ```xml
@@ -68,9 +67,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CRMScript:IncludeId xsi:type="xsd:string"></CRMScript:IncludeId>
     <CRMScript:HierarchyId xsi:type="xsd:int">0</CRMScript:HierarchyId>
     <CRMScript:Source xsi:type="xsd:string"></CRMScript:Source>
-    <CRMScript:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CRMScript:Registered>
+    <CRMScript:Registered xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</CRMScript:Registered>
     <CRMScript:RegisteredAssociateId xsi:type="xsd:int">0</CRMScript:RegisteredAssociateId>
-    <CRMScript:Updated xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CRMScript:Updated>
+    <CRMScript:Updated xsi:type="xsd:dateTime">2023-01-23T10:18:19Z</CRMScript:Updated>
     <CRMScript:UpdatedAssociateId xsi:type="xsd:int">0</CRMScript:UpdatedAssociateId>
    </CRMScript:Response>
   </CRMScript:CreateDefaultCRMScriptEntityResponse>
@@ -78,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

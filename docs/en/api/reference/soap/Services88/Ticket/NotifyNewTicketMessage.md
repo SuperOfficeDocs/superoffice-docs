@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.NotifyNewTic
 
 ## NotifyNewTicketMessage
 
-Notify user agents about the creation of a new message on a ticket
 
-* **ticketEntityId:** The id of the ticket to notify about
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## NotifyNewTicketMessage Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

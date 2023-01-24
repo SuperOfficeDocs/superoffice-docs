@@ -574,62 +574,35 @@ title: Services87.WebhookAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Webhook">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Webhook</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultWebhook">
-      <wsdl:documentation>
-        <summary>Loading default values into a new Webhook.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/CreateDefaultWebhook" name="CreateDefaultWebhookRequest" message="tns:CreateDefaultWebhookRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/CreateDefaultWebhookResponse" name="CreateDefaultWebhookResponse" message="tns:CreateDefaultWebhookResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveWebhook">
-      <wsdl:documentation>
-        <summary>Updates the existing Webhook or creates a new Webhook if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/SaveWebhook" name="SaveWebhookRequest" message="tns:SaveWebhookRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/SaveWebhookResponse" name="SaveWebhookResponse" message="tns:SaveWebhookResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteWebhook">
-      <wsdl:documentation>
-        <summary>Deletes the Webhook</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/DeleteWebhook" name="DeleteWebhookRequest" message="tns:DeleteWebhookRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/DeleteWebhookResponse" name="DeleteWebhookResponse" message="tns:DeleteWebhookResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetWebhook">
-      <wsdl:documentation>
-        <summary>Gets a Webhook object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/GetWebhook" name="GetWebhookRequest" message="tns:GetWebhookRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/GetWebhookResponse" name="GetWebhookResponse" message="tns:GetWebhookResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllWebhooks">
-      <wsdl:documentation>
-        <summary>Returns all webhooks, according to filter criteria</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/GetAllWebhooks" name="GetAllWebhooksRequest" message="tns:GetAllWebhooksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/GetAllWebhooksResponse" name="GetAllWebhooksResponse" message="tns:GetAllWebhooksResponse" />
     </wsdl:operation>
     <wsdl:operation name="TestWebhook">
-      <wsdl:documentation>
-        <summary>Pings a webhook with a 'test' event, returns SUCCESS(true) or FAILURE(false) + the response from the webhook target.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/TestWebhook" name="TestWebhookRequest" message="tns:TestWebhookRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/TestWebhookResponse" name="TestWebhookResponse" message="tns:TestWebhookResponse" />
     </wsdl:operation>
     <wsdl:operation name="SignalEvent">
-      <wsdl:documentation>
-        <summary>Signal webhooks that an event has occurred. All webhooks listening for the event will be notified.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/SignalEvent" name="SignalEventRequest" message="tns:SignalEventRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/SignalEventResponse" name="SignalEventResponse" message="tns:SignalEventResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLastError">
-      <wsdl:documentation>
-        <summary>Return the most recent error message received when calling this webhook.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/GetLastError" name="GetLastErrorRequest" message="tns:GetLastErrorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Webhook/GetLastErrorResponse" name="GetLastErrorResponse" message="tns:GetLastErrorResponse" />
     </wsdl:operation>
@@ -772,3 +745,4 @@ title: Services87.WebhookAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.GetDashTileHtm
 
 ## GetDashTileHtmlList
 
-Get HTML for a dashboard tile definition with TileType = HTML. Retrieve a list with all registered languages.
 
-* **dashboardTileDefinitionId:** The id of the dashboard tile definition
+
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDashTileHtmlList Response
 
 ```xml
@@ -72,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

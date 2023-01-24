@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetLocalizedTe
 
 ## GetLocalizedTextByType
 
-Returns a localized text based on the resource id for the selected language.
 
-* **textType:** Type of the localized text
-* **resourceId:** The resource id. This id has different meaning based on the LocalizedTextType.
-* **languageId:** The LCID number of the language.
 
-**Returns:** A LocalizedText carrier.
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetLocalizedTextByType Response
 
 ```xml
@@ -80,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

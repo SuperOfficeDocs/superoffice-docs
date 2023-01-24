@@ -665,90 +665,51 @@ title: Services87.MDOAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="MDO">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for MDO</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetList">
-      <wsdl:documentation>
-        <summary>Method to get a MDO list.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetList" name="GetListRequest" message="tns:GetListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetListResponse" name="GetListResponse" message="tns:GetListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetListWithHistory">
-      <wsdl:documentation>
-        <summary>Method to get a MDO list with own history list.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetListWithHistory" name="GetListWithHistoryRequest" message="tns:GetListWithHistoryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetListWithHistoryResponse" name="GetListWithHistoryResponse" message="tns:GetListWithHistoryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetListWithRestriction">
-      <wsdl:documentation>
-        <summary>Method to get a MDO list with restrictions.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetListWithRestriction" name="GetListWithRestrictionRequest" message="tns:GetListWithRestrictionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetListWithRestrictionResponse" name="GetListWithRestrictionResponse" message="tns:GetListWithRestrictionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSimpleList">
-      <wsdl:documentation>
-        <summary>Method returns a simple flat MDO List.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetSimpleList" name="GetSimpleListRequest" message="tns:GetSimpleListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetSimpleListResponse" name="GetSimpleListResponse" message="tns:GetSimpleListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetListItem">
-      <wsdl:documentation>
-        <summary>Returns a single list item</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetListItem" name="GetListItemRequest" message="tns:GetListItemRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetListItemResponse" name="GetListItemResponse" message="tns:GetListItemResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetListNames">
-      <wsdl:documentation>
-        <summary>Returns a list of all MDO List names. These names can also be used with the Archive agent as ProviderNames.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetListNames" name="GetListNamesRequest" message="tns:GetListNamesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetListNamesResponse" name="GetListNamesResponse" message="tns:GetListNamesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetListIdByListName">
-      <wsdl:documentation>
-        <summary>Retrieve the UdListDefinition id of a list, by its name. Not all lists have such an ID, but those that are based on tables do (the list name is then the same as the table name)</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetListIdByListName" name="GetListIdByListNameRequest" message="tns:GetListIdByListNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetListIdByListNameResponse" name="GetListIdByListNameResponse" message="tns:GetListIdByListNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSelectableSimpleList">
-      <wsdl:documentation>
-        <summary>Method returns a flat Selectable MDO List.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetSelectableSimpleList" name="GetSelectableSimpleListRequest" message="tns:GetSelectableSimpleListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetSelectableSimpleListResponse" name="GetSelectableSimpleListResponse" message="tns:GetSelectableSimpleListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSelectableListWithRestriction">
-      <wsdl:documentation>
-        <summary>Method to get a Selectable MDO list with restrictions.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetSelectableListWithRestriction" name="GetSelectableListWithRestrictionRequest" message="tns:GetSelectableListWithRestrictionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetSelectableListWithRestrictionResponse" name="GetSelectableListWithRestrictionResponse" message="tns:GetSelectableListWithRestrictionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSelectableListWithHistory">
-      <wsdl:documentation>
-        <summary>Method to get a Selectable MDO list with own history list.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetSelectableListWithHistory" name="GetSelectableListWithHistoryRequest" message="tns:GetSelectableListWithHistoryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetSelectableListWithHistoryResponse" name="GetSelectableListWithHistoryResponse" message="tns:GetSelectableListWithHistoryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSelectableList">
-      <wsdl:documentation>
-        <summary>Method to get a Selectable MDO list.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetSelectableList" name="GetSelectableListRequest" message="tns:GetSelectableListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/GetSelectableListResponse" name="GetSelectableListResponse" message="tns:GetSelectableListResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetSelected">
-      <wsdl:documentation>
-        <summary>Saves the selected values as selected by their given list representation.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/SetSelected" name="SetSelectedRequest" message="tns:SetSelectedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/MDO/SetSelectedResponse" name="SetSelectedResponse" message="tns:SetSelectedResponse" />
     </wsdl:operation>
@@ -955,3 +916,4 @@ title: Services87.MDOAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

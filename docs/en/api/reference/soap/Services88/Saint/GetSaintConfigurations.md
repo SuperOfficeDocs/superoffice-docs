@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISaintAgent.GetSaintConfi
 
 ## GetSaintConfigurations
 
-Returns the StatusMonitorPeriods entity.
 
-**Returns:** The SaintConfiguration for all entities
+
+
 
 [WSDL file for Services88/Saint](../Services88-Saint.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSaintConfigurations Response
 
 ```xml
@@ -67,8 +68,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Saint:Period1 xsi:type="xsd:int">0</Saint:Period1>
      <Saint:Period2 xsi:type="xsd:int">0</Saint:Period2>
      <Saint:Period3 xsi:type="xsd:int">0</Saint:Period3>
-     <Saint:GenerationStart xsi:type="xsd:dateTime">2022-08-26T09:00:22Z</Saint:GenerationStart>
-     <Saint:GenerationEnd xsi:type="xsd:dateTime">2022-08-26T09:00:22Z</Saint:GenerationEnd>
+     <Saint:GenerationStart xsi:type="xsd:dateTime">2023-01-23T10:21:47Z</Saint:GenerationStart>
+     <Saint:GenerationEnd xsi:type="xsd:dateTime">2023-01-23T10:21:47Z</Saint:GenerationEnd>
      <Saint:RowsGenerated xsi:type="xsd:int">0</Saint:RowsGenerated>
     </Saint:SaintConfiguration>
    </Saint:Response>
@@ -77,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

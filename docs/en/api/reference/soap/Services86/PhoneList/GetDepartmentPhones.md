@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IPhoneListAgent.GetDepart
 
 ## GetDepartmentPhones
 
-Returns an array of phone list items with the in-parameter as restriction. The in-parameter must be a valid department id (UserGroupId).
 
-* **departmentId:** The department to get the phone list for
 
-**Returns:** The department phone list
+
 
 [WSDL file for Services86/PhoneList](../Services86-PhoneList.md)
 
@@ -47,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDepartmentPhones Response
 
@@ -80,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAudienceAgent.GetAudienc
 
 ## GetAudienceLayoutEntity
 
-Gets a AudienceLayoutEntity object.
 
-* **audienceLayoutEntityId:** The identifier of the AudienceLayoutEntity object
 
-**Returns:** AudienceLayoutEntity
+
 
 [WSDL file for Services87/Audience](../Services87-Audience.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAudienceLayoutEntity Response
 
 ```xml
@@ -65,8 +64,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Audience:AudienceLayoutId xsi:type="xsd:int">0</Audience:AudienceLayoutId>
     <Audience:InstanceLayout xsi:type="xsd:string"></Audience:InstanceLayout>
     <Audience:InstanceName xsi:type="xsd:string"></Audience:InstanceName>
-    <Audience:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:56:19Z</Audience:CreatedDate>
-    <Audience:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:56:19Z</Audience:UpdatedDate>
+    <Audience:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:17:58Z</Audience:CreatedDate>
+    <Audience:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:17:58Z</Audience:UpdatedDate>
     <Audience:CreatedBy xsi:type="Audience:Associate">
      <Audience:AssociateId xsi:type="xsd:int">0</Audience:AssociateId>
      <Audience:Name xsi:type="xsd:string"></Audience:Name>
@@ -101,3 +100,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

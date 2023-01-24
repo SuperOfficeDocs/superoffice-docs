@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.GetFieldVal
 
 ## GetFieldValuesFromErp
 
-Get Erp Field values
 
-* **erpConnectionId:** Erp connection id
-* **actorTypeErp:** ERP Actor type
-* **erpKey:** Primary key for the erp actor
 
-**Returns:** The Erp Fields
+
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFieldValuesFromErp Response
 
 ```xml
@@ -82,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

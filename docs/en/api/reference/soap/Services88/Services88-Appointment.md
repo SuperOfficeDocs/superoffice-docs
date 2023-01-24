@@ -266,6 +266,8 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="IsOwnerContact" type="xs:boolean" />
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
+              <xs:element minOccurs="0" name="Number1" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Number2" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -4767,698 +4769,395 @@ title: Services88.AppointmentAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Appointment">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Appointment</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultAppointmentEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new AppointmentEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultAppointmentEntity" name="CreateDefaultAppointmentEntityRequest" message="tns:CreateDefaultAppointmentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultAppointmentEntityResponse" name="CreateDefaultAppointmentEntityResponse" message="tns:CreateDefaultAppointmentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveAppointmentEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing AppointmentEntity or creates a new AppointmentEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/SaveAppointmentEntity" name="SaveAppointmentEntityRequest" message="tns:SaveAppointmentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/SaveAppointmentEntityResponse" name="SaveAppointmentEntityResponse" message="tns:SaveAppointmentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteAppointmentEntity">
-      <wsdl:documentation>
-        <summary>Deletes the AppointmentEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/DeleteAppointmentEntity" name="DeleteAppointmentEntityRequest" message="tns:DeleteAppointmentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/DeleteAppointmentEntityResponse" name="DeleteAppointmentEntityResponse" message="tns:DeleteAppointmentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultSuggestedAppointmentEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new SuggestedAppointmentEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultSuggestedAppointmentEntity" name="CreateDefaultSuggestedAppointmentEntityRequest" message="tns:CreateDefaultSuggestedAppointmentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultSuggestedAppointmentEntityResponse" name="CreateDefaultSuggestedAppointmentEntityResponse" message="tns:CreateDefaultSuggestedAppointmentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveSuggestedAppointmentEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppointmentEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/SaveSuggestedAppointmentEntity" name="SaveSuggestedAppointmentEntityRequest" message="tns:SaveSuggestedAppointmentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/SaveSuggestedAppointmentEntityResponse" name="SaveSuggestedAppointmentEntityResponse" message="tns:SaveSuggestedAppointmentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTaskListItem">
-      <wsdl:documentation>
-        <summary>Loading default values into a new TaskListItem.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultTaskListItem" name="CreateDefaultTaskListItemRequest" message="tns:CreateDefaultTaskListItemRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultTaskListItemResponse" name="CreateDefaultTaskListItemResponse" message="tns:CreateDefaultTaskListItemResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveTaskListItem">
-      <wsdl:documentation>
-        <summary>Updates the existing TaskListItem or creates a new TaskListItem if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/SaveTaskListItem" name="SaveTaskListItemRequest" message="tns:SaveTaskListItemRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/SaveTaskListItemResponse" name="SaveTaskListItemResponse" message="tns:SaveTaskListItemResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAppointment">
-      <wsdl:documentation>
-        <summary>Gets a Appointment object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointment" name="GetAppointmentRequest" message="tns:GetAppointmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointmentResponse" name="GetAppointmentResponse" message="tns:GetAppointmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleAppointmentStatus">
-      <wsdl:documentation>
-        <summary>Sets an appointment's status to Completed if the appointment had a different status, or sets the status to started if already set to completed.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/ToggleAppointmentStatus" name="ToggleAppointmentStatusRequest" message="tns:ToggleAppointmentStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/ToggleAppointmentStatusResponse" name="ToggleAppointmentStatusResponse" message="tns:ToggleAppointmentStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleActivity">
-      <wsdl:documentation>
-        <summary>Toggle the completed status for an activity. Activity may be sale, document or appointment. The changes are saved immediately. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/ToggleActivity" name="ToggleActivityRequest" message="tns:ToggleActivityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/ToggleActivityResponse" name="ToggleActivityResponse" message="tns:ToggleActivityResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleActivities">
-      <wsdl:documentation>
-        <summary>Toggle the completed status for an array of activities. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/ToggleActivities" name="ToggleActivitiesRequest" message="tns:ToggleActivitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/ToggleActivitiesResponse" name="ToggleActivitiesResponse" message="tns:ToggleActivitiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetActivityStatus">
-      <wsdl:documentation>
-        <summary>Sets the completed status for an array of activities. The string activityIdentifier param may contain of a mix of appointment_id, sale_id, document_id and todo_id. The changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be made. If there is no write access to the record being changed, a Sentry exception will be thrown in the usual manner.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/SetActivityStatus" name="SetActivityStatusRequest" message="tns:SetActivityStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/SetActivityStatusResponse" name="SetActivityStatusResponse" message="tns:SetActivityStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleAndSetActivities">
-      <wsdl:documentation>
-        <summary>Toggles the first activity and sets the rest of the activities to the result of the first toggle. However, there are some special rules for appointments that trigger a suggested appointment when they are completed. If more than one appointment in the set of identifiers triggers a suggestion, we will not toggle those appointments. This rule is only active when changing the status of an appointment to complete. There must be more than one appointment that triggers such an event for this rule to take effect.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/ToggleAndSetActivities" name="ToggleAndSetActivitiesRequest" message="tns:ToggleAndSetActivitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/ToggleAndSetActivitiesResponse" name="ToggleAndSetActivitiesResponse" message="tns:ToggleAndSetActivitiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAppointmentEntity">
-      <wsdl:documentation>
-        <summary>Gets a AppointmentEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointmentEntity" name="GetAppointmentEntityRequest" message="tns:GetAppointmentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointmentEntityResponse" name="GetAppointmentEntityResponse" message="tns:GetAppointmentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultAppointmentEntityByType">
-      <wsdl:documentation>
-        <summary>Creates a AppointmentEntity populated with the default values for the specific type.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultAppointmentEntityByType" name="CreateDefaultAppointmentEntityByTypeRequest" message="tns:CreateDefaultAppointmentEntityByTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultAppointmentEntityByTypeResponse" name="CreateDefaultAppointmentEntityByTypeResponse" message="tns:CreateDefaultAppointmentEntityByTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="Accept">
-      <wsdl:documentation>
-        <summary>Accepting an appointment invitation.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/Accept" name="AcceptRequest" message="tns:AcceptRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/AcceptResponse" name="AcceptResponse" message="tns:AcceptResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateAndAccept">
-      <wsdl:documentation>
-        <summary>Creating an appointment from an emailItem invitation and accepting it.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateAndAccept" name="CreateAndAcceptRequest" message="tns:CreateAndAcceptRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateAndAcceptResponse" name="CreateAndAcceptResponse" message="tns:CreateAndAcceptResponse" />
     </wsdl:operation>
     <wsdl:operation name="AcceptWithEmailConfirmation">
-      <wsdl:documentation>
-        <summary>Accepting an appointment invitation and send an email confirmation to the meeting organizer.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/AcceptWithEmailConfirmation" name="AcceptWithEmailConfirmationRequest" message="tns:AcceptWithEmailConfirmationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/AcceptWithEmailConfirmationResponse" name="AcceptWithEmailConfirmationResponse" message="tns:AcceptWithEmailConfirmationResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateAndAcceptWithEmailConfirmation">
-      <wsdl:documentation>
-        <summary>Creating an appointment from an emailItem invitation and accepting it with email confirmation to the meeting organizer.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateAndAcceptWithEmailConfirmation" name="CreateAndAcceptWithEmailConfirmationRequest" message="tns:CreateAndAcceptWithEmailConfirmationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateAndAcceptWithEmailConfirmationResponse" name="CreateAndAcceptWithEmailConfirmationResponse" message="tns:CreateAndAcceptWithEmailConfirmationResponse" />
     </wsdl:operation>
     <wsdl:operation name="Reject">
-      <wsdl:documentation>
-        <summary>Rejecting an appointment invitation</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/Reject" name="RejectRequest" message="tns:RejectRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/RejectResponse" name="RejectResponse" message="tns:RejectResponse" />
     </wsdl:operation>
     <wsdl:operation name="RejectWithEmailConfirmation">
-      <wsdl:documentation>
-        <summary>Rejecting an appointment invitation and send an email confirmation to the meeting organizer.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/RejectWithEmailConfirmation" name="RejectWithEmailConfirmationRequest" message="tns:RejectWithEmailConfirmationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/RejectWithEmailConfirmationResponse" name="RejectWithEmailConfirmationResponse" message="tns:RejectWithEmailConfirmationResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeclineInvitationFromEmailItem">
-      <wsdl:documentation>
-        <summary>Declining an appointment invitation where no tentative appointments have been created.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/DeclineInvitationFromEmailItem" name="DeclineInvitationFromEmailItemRequest" message="tns:DeclineInvitationFromEmailItemRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/DeclineInvitationFromEmailItemResponse" name="DeclineInvitationFromEmailItemResponse" message="tns:DeclineInvitationFromEmailItemResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetOrganizerName">
-      <wsdl:documentation>
-        <summary>Lookup the name / email of an event-organizer</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetOrganizerName" name="GetOrganizerNameRequest" message="tns:GetOrganizerNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetOrganizerNameResponse" name="GetOrganizerNameResponse" message="tns:GetOrganizerNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="Save">
-      <wsdl:documentation>
-        <summary>Saving a booking.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/Save" name="SaveRequest" message="tns:SaveRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/SaveResponse" name="SaveResponse" message="tns:SaveResponse" />
     </wsdl:operation>
     <wsdl:operation name="Delete">
-      <wsdl:documentation>
-        <summary>Deleting a booking</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/Delete" name="DeleteRequest" message="tns:DeleteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/DeleteResponse" name="DeleteResponse" message="tns:DeleteResponse" />
     </wsdl:operation>
     <wsdl:operation name="CalculateDays">
-      <wsdl:documentation>
-        <summary>Calculates the set of dates that represents a recurrence pattern. Adds conflict information to each date.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CalculateDays" name="CalculateDaysRequest" message="tns:CalculateDaysRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CalculateDaysResponse" name="CalculateDaysResponse" message="tns:CalculateDaysResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateDays">
-      <wsdl:documentation>
-        <summary>Validates the set of dates to calculate any conflicts.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/ValidateDays" name="ValidateDaysRequest" message="tns:ValidateDaysRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/ValidateDaysResponse" name="ValidateDaysResponse" message="tns:ValidateDaysResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultRecurrence">
-      <wsdl:documentation>
-        <summary>Creates a RecurrenceInfo object populated with the default values for the specific type.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultRecurrence" name="CreateDefaultRecurrenceRequest" message="tns:CreateDefaultRecurrenceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultRecurrenceResponse" name="CreateDefaultRecurrenceResponse" message="tns:CreateDefaultRecurrenceResponse" />
     </wsdl:operation>
     <wsdl:operation name="AssignTo">
-      <wsdl:documentation>
-        <summary>Assigning an appointment to another person.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/AssignTo" name="AssignToRequest" message="tns:AssignToRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/AssignToResponse" name="AssignToResponse" message="tns:AssignToResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetSeen">
-      <wsdl:documentation>
-        <summary>Sets an appointment invitiation to seen.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/SetSeen" name="SetSeenRequest" message="tns:SetSeenRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/SetSeenResponse" name="SetSeenResponse" message="tns:SetSeenResponse" />
     </wsdl:operation>
     <wsdl:operation name="Move">
-      <wsdl:documentation>
-        <summary>Moving a booking to another start time.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/Move" name="MoveRequest" message="tns:MoveRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/MoveResponse" name="MoveResponse" message="tns:MoveResponse" />
     </wsdl:operation>
     <wsdl:operation name="AcceptRejected">
-      <wsdl:documentation>
-        <summary>Accept that an invited participant has rejected your invitation or assignment.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/AcceptRejected" name="AcceptRejectedRequest" message="tns:AcceptRejectedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/AcceptRejectedResponse" name="AcceptRejectedResponse" message="tns:AcceptRejectedResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultRecurrenceByDate">
-      <wsdl:documentation>
-        <summary>Creates a RecurrenceInfo object populated with the default values for the specific type. Using startDate as start date for the recurreing pattern.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultRecurrenceByDate" name="CreateDefaultRecurrenceByDateRequest" message="tns:CreateDefaultRecurrenceByDateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultRecurrenceByDateResponse" name="CreateDefaultRecurrenceByDateResponse" message="tns:CreateDefaultRecurrenceByDateResponse" />
     </wsdl:operation>
     <wsdl:operation name="CleanUpBookingDeleted">
-      <wsdl:documentation>
-        <summary>Deletes all appointments(within the appointmentIds array) with status BookingDeleted.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CleanUpBookingDeleted" name="CleanUpBookingDeletedRequest" message="tns:CleanUpBookingDeletedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CleanUpBookingDeletedResponse" name="CleanUpBookingDeletedResponse" message="tns:CleanUpBookingDeletedResponse" />
     </wsdl:operation>
     <wsdl:operation name="CleanUpRecurringBookingDeleted">
-      <wsdl:documentation>
-        <summary>Deletes all appointments with status BookingDeleted and for in logged user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CleanUpRecurringBookingDeleted" name="CleanUpRecurringBookingDeletedRequest" message="tns:CleanUpRecurringBookingDeletedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CleanUpRecurringBookingDeletedResponse" name="CleanUpRecurringBookingDeletedResponse" message="tns:CleanUpRecurringBookingDeletedResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultAppointmentEntityByTypeAndAssociate">
-      <wsdl:documentation>
-        <summary>Creates a AppointmentEntity populated with the default values for the specific type and owner.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate" name="CreateDefaultAppointmentEntityByTypeAndAssociateRequest" message="tns:CreateDefaultAppointmentEntityByTypeAndAssociateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociateResponse" name="CreateDefaultAppointmentEntityByTypeAndAssociateResponse" message="tns:CreateDefaultAppointmentEntityByTypeAndAssociateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCanInsertForAssociates">
-      <wsdl:documentation>
-        <summary>Check if current associate can create appointments in the diary of other associates.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetCanInsertForAssociates" name="GetCanInsertForAssociatesRequest" message="tns:GetCanInsertForAssociatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetCanInsertForAssociatesResponse" name="GetCanInsertForAssociatesResponse" message="tns:GetCanInsertForAssociatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAppointmentHaveParticipantsWithEmail">
-      <wsdl:documentation>
-        <summary>GetAppointmentHaveParticipantsWithEmail will check if any of the participants is marked to receive emails on this appointment. If no participants are defined, false will be returned.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointmentHaveParticipantsWithEmail" name="GetAppointmentHaveParticipantsWithEmailRequest" message="tns:GetAppointmentHaveParticipantsWithEmailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointmentHaveParticipantsWithEmailResponse" name="GetAppointmentHaveParticipantsWithEmailResponse" message="tns:GetAppointmentHaveParticipantsWithEmailResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultAppointmentEntityFromSaleSuggestion">
-      <wsdl:documentation>
-        <summary>Creates an appointment based on a suggested appointment. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion" name="CreateDefaultAppointmentEntityFromSaleSuggestionRequest" message="tns:CreateDefaultAppointmentEntityFromSaleSuggestionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestionResponse" name="CreateDefaultAppointmentEntityFromSaleSuggestionResponse" message="tns:CreateDefaultAppointmentEntityFromSaleSuggestionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNextSuggestedAppointmentBySale">
-      <wsdl:documentation>
-        <summary>Gets the next suggested appointment for a given sale (or rather a given sale's guide).</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetNextSuggestedAppointmentBySale" name="GetNextSuggestedAppointmentBySaleRequest" message="tns:GetNextSuggestedAppointmentBySaleRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetNextSuggestedAppointmentBySaleResponse" name="GetNextSuggestedAppointmentBySaleResponse" message="tns:GetNextSuggestedAppointmentBySaleResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultReOpenAppointment">
-      <wsdl:documentation>
-        <summary>A re-open appointment should be created as a reminder to re-open the sale at a certain date with information regarding the stalled sale. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultReOpenAppointment" name="CreateDefaultReOpenAppointmentRequest" message="tns:CreateDefaultReOpenAppointmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultReOpenAppointmentResponse" name="CreateDefaultReOpenAppointmentResponse" message="tns:CreateDefaultReOpenAppointmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultAppointmentEntityFromProjectSuggestion">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultAppointmentEntityFromProjectSuggestion" name="CreateDefaultAppointmentEntityFromProjectSuggestionRequest" message="tns:CreateDefaultAppointmentEntityFromProjectSuggestionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateDefaultAppointmentEntityFromProjectSuggestionResponse" name="CreateDefaultAppointmentEntityFromProjectSuggestionResponse" message="tns:CreateDefaultAppointmentEntityFromProjectSuggestionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateAppointmentForUID">
-      <wsdl:documentation>
-        <summary>Create an invitation record and an appointment with a given UID to reserve it if the UID is unused, otherwise null.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateAppointmentForUID" name="CreateAppointmentForUIDRequest" message="tns:CreateAppointmentForUIDRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CreateAppointmentForUIDResponse" name="CreateAppointmentForUIDResponse" message="tns:CreateAppointmentForUIDResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAppointmentFromUID">
-      <wsdl:documentation>
-        <summary>Get the appointment that corresponds to the given UID.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointmentFromUID" name="GetAppointmentFromUIDRequest" message="tns:GetAppointmentFromUIDRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointmentFromUIDResponse" name="GetAppointmentFromUIDResponse" message="tns:GetAppointmentFromUIDResponse" />
     </wsdl:operation>
     <wsdl:operation name="CanAssignToProjectMember">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CanAssignToProjectMember" name="CanAssignToProjectMemberRequest" message="tns:CanAssignToProjectMemberRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/CanAssignToProjectMemberResponse" name="CanAssignToProjectMemberResponse" message="tns:CanAssignToProjectMemberResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUIDFromAppointmentId">
-      <wsdl:documentation>
-        <summary>Get the UID associated with the appointment id in the Invitation table.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetUIDFromAppointmentId" name="GetUIDFromAppointmentIdRequest" message="tns:GetUIDFromAppointmentIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetUIDFromAppointmentIdResponse" name="GetUIDFromAppointmentIdResponse" message="tns:GetUIDFromAppointmentIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateAppointmentFromIcsResponse">
-      <wsdl:documentation>
-        <summary>Update the attendance to an appointment based on incoming ICS RSVPs.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/UpdateAppointmentFromIcsResponse" name="UpdateAppointmentFromIcsResponseRequest" message="tns:UpdateAppointmentFromIcsResponseRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/UpdateAppointmentFromIcsResponseResponse" name="UpdateAppointmentFromIcsResponseResponse" message="tns:UpdateAppointmentFromIcsResponseResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateAppointmentEntity">
-      <wsdl:documentation>
-        <summary>Check that entity is ready for saving.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/ValidateAppointmentEntity" name="ValidateAppointmentEntityRequest" message="tns:ValidateAppointmentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/ValidateAppointmentEntityResponse" name="ValidateAppointmentEntityResponse" message="tns:ValidateAppointmentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="WillSendEmail">
-      <wsdl:documentation>
-        <summary>Returns true if the changes will trigger email sending on Save, so you can inform the user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/WillSendEmail" name="WillSendEmailRequest" message="tns:WillSendEmailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/WillSendEmailResponse" name="WillSendEmailResponse" message="tns:WillSendEmailResponse" />
     </wsdl:operation>
     <wsdl:operation name="AcceptWithSmtpEmailConfirmation">
-      <wsdl:documentation>
-        <summary>Accepting an appointment invitation and send an email confirmation to the meeting organizer.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/AcceptWithSmtpEmailConfirmation" name="AcceptWithSmtpEmailConfirmationRequest" message="tns:AcceptWithSmtpEmailConfirmationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/AcceptWithSmtpEmailConfirmationResponse" name="AcceptWithSmtpEmailConfirmationResponse" message="tns:AcceptWithSmtpEmailConfirmationResponse" />
     </wsdl:operation>
     <wsdl:operation name="RejectWithSmtpEmailConfirmation">
-      <wsdl:documentation>
-        <summary>Rejecting an appointment invitation and send an email confirmation to the meeting organizer.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/RejectWithSmtpEmailConfirmation" name="RejectWithSmtpEmailConfirmationRequest" message="tns:RejectWithSmtpEmailConfirmationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/RejectWithSmtpEmailConfirmationResponse" name="RejectWithSmtpEmailConfirmationResponse" message="tns:RejectWithSmtpEmailConfirmationResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAppointmentList">
-      <wsdl:documentation>
-        <summary>Gets an array of Appointment objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointmentList" name="GetAppointmentListRequest" message="tns:GetAppointmentListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointmentListResponse" name="GetAppointmentListResponse" message="tns:GetAppointmentListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyAppointments">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments within a time range. The appointments belong to the currently logged on user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetMyAppointments" name="GetMyAppointmentsRequest" message="tns:GetMyAppointmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetMyAppointmentsResponse" name="GetMyAppointmentsResponse" message="tns:GetMyAppointmentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonAppointments">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments within a time range. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonAppointments" name="GetPersonAppointmentsRequest" message="tns:GetPersonAppointmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonAppointmentsResponse" name="GetPersonAppointmentsResponse" message="tns:GetPersonAppointmentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyDiary">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments within a time range. It only returns appointments that would be displayed in the user's diary. The appointments belong to the currently logged on user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetMyDiary" name="GetMyDiaryRequest" message="tns:GetMyDiaryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetMyDiaryResponse" name="GetMyDiaryResponse" message="tns:GetMyDiaryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyTasks">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments within a time range. It only returns appointments that would be displayed in the user's task list. The appointments belong to the currently logged on user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetMyTasks" name="GetMyTasksRequest" message="tns:GetMyTasksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetMyTasksResponse" name="GetMyTasksResponse" message="tns:GetMyTasksResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonDiary">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments within a time range. It only returns appointments that would be displayed in the user's diary. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonDiary" name="GetPersonDiaryRequest" message="tns:GetPersonDiaryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonDiaryResponse" name="GetPersonDiaryResponse" message="tns:GetPersonDiaryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonTasks">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments within a time range. It only returns appointments that would be displayed in the user's task list. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonTasks" name="GetPersonTasksRequest" message="tns:GetPersonTasksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonTasksResponse" name="GetPersonTasksResponse" message="tns:GetPersonTasksResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonAppointmentsByType">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments of a specific appointment type within a time range. The appointments belong to the person specified.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonAppointmentsByType" name="GetPersonAppointmentsByTypeRequest" message="tns:GetPersonAppointmentsByTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonAppointmentsByTypeResponse" name="GetPersonAppointmentsByTypeResponse" message="tns:GetPersonAppointmentsByTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectAppointments">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments within a time range. The appointments belong to the project specified. If the logged on user is not allowed to view this projects appointments an exception is thrown.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectAppointments" name="GetProjectAppointmentsRequest" message="tns:GetProjectAppointmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectAppointmentsResponse" name="GetProjectAppointmentsResponse" message="tns:GetProjectAppointmentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectAppointmentsByType">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments of a specific appointment type within a time range. The appointments belong to the project specified.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectAppointmentsByType" name="GetProjectAppointmentsByTypeRequest" message="tns:GetProjectAppointmentsByTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectAppointmentsByTypeResponse" name="GetProjectAppointmentsByTypeResponse" message="tns:GetProjectAppointmentsByTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactAppointments">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments within a time range. The appointments belong to the contact specified. If the logged on user is not allowed to view this persons appointments an exception is thrown.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetContactAppointments" name="GetContactAppointmentsRequest" message="tns:GetContactAppointmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetContactAppointmentsResponse" name="GetContactAppointmentsResponse" message="tns:GetContactAppointmentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactAppointmentsByType">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments of a specific appointment type within a time range. The appointments belong to the contact specified. If the logged on user is not allowed to view this contacts appointments an exception is thrown.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetContactAppointmentsByType" name="GetContactAppointmentsByTypeRequest" message="tns:GetContactAppointmentsByTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetContactAppointmentsByTypeResponse" name="GetContactAppointmentsByTypeResponse" message="tns:GetContactAppointmentsByTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectMemberAppointments">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments within a time range. The appointments belong to the projects where the person specified is member.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectMemberAppointments" name="GetProjectMemberAppointmentsRequest" message="tns:GetProjectMemberAppointmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectMemberAppointmentsResponse" name="GetProjectMemberAppointmentsResponse" message="tns:GetProjectMemberAppointmentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectMemberAppointmentsByType">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments of a specific appointment type within a time range. The appointments belong to the projects where the person specified is member.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectMemberAppointmentsByType" name="GetProjectMemberAppointmentsByTypeRequest" message="tns:GetProjectMemberAppointmentsByTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectMemberAppointmentsByTypeResponse" name="GetProjectMemberAppointmentsByTypeResponse" message="tns:GetProjectMemberAppointmentsByTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonAppointmentsByTask">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments of a specific appointment task type within a time range. The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonAppointmentsByTask" name="GetPersonAppointmentsByTaskRequest" message="tns:GetPersonAppointmentsByTaskRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonAppointmentsByTaskResponse" name="GetPersonAppointmentsByTaskResponse" message="tns:GetPersonAppointmentsByTaskResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonAppointmentsByTasks">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments from a list of appointment task types within a time range. The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonAppointmentsByTasks" name="GetPersonAppointmentsByTasksRequest" message="tns:GetPersonAppointmentsByTasksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonAppointmentsByTasksResponse" name="GetPersonAppointmentsByTasksResponse" message="tns:GetPersonAppointmentsByTasksResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonAppointmentsByTaskHeading">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments of a specific appointment task heading within a time range. The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonAppointmentsByTaskHeading" name="GetPersonAppointmentsByTaskHeadingRequest" message="tns:GetPersonAppointmentsByTaskHeadingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPersonAppointmentsByTaskHeadingResponse" name="GetPersonAppointmentsByTaskHeadingResponse" message="tns:GetPersonAppointmentsByTaskHeadingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectAppointmentsByTask">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments of a specific appointment task type within a time range. The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectAppointmentsByTask" name="GetProjectAppointmentsByTaskRequest" message="tns:GetProjectAppointmentsByTaskRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectAppointmentsByTaskResponse" name="GetProjectAppointmentsByTaskResponse" message="tns:GetProjectAppointmentsByTaskResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectAppointmentsByTasks">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments matching the list of appointment task types within a time range. The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectAppointmentsByTasks" name="GetProjectAppointmentsByTasksRequest" message="tns:GetProjectAppointmentsByTasksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectAppointmentsByTasksResponse" name="GetProjectAppointmentsByTasksResponse" message="tns:GetProjectAppointmentsByTasksResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectAppointmentsByTaskHeading">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments of a specific appointment task heading within a time range. The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectAppointmentsByTaskHeading" name="GetProjectAppointmentsByTaskHeadingRequest" message="tns:GetProjectAppointmentsByTaskHeadingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectAppointmentsByTaskHeadingResponse" name="GetProjectAppointmentsByTaskHeadingResponse" message="tns:GetProjectAppointmentsByTaskHeadingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectMemberAppointmentsByTask">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments of a specific appointment task type within a time range. The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectMemberAppointmentsByTask" name="GetProjectMemberAppointmentsByTaskRequest" message="tns:GetProjectMemberAppointmentsByTaskRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectMemberAppointmentsByTaskResponse" name="GetProjectMemberAppointmentsByTaskResponse" message="tns:GetProjectMemberAppointmentsByTaskResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectMemberAppointmentsByTasks">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments matching a set of appointment task types within a time range. The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectMemberAppointmentsByTasks" name="GetProjectMemberAppointmentsByTasksRequest" message="tns:GetProjectMemberAppointmentsByTasksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectMemberAppointmentsByTasksResponse" name="GetProjectMemberAppointmentsByTasksResponse" message="tns:GetProjectMemberAppointmentsByTasksResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectMemberAppointmentsByTaskHeading">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments of a specific appointment task heading within a time range. The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectMemberAppointmentsByTaskHeading" name="GetProjectMemberAppointmentsByTaskHeadingRequest" message="tns:GetProjectMemberAppointmentsByTaskHeadingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetProjectMemberAppointmentsByTaskHeadingResponse" name="GetProjectMemberAppointmentsByTaskHeadingResponse" message="tns:GetProjectMemberAppointmentsByTaskHeadingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactAppointmentsByTask">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments of a specific appointment task type within a time range. The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetContactAppointmentsByTask" name="GetContactAppointmentsByTaskRequest" message="tns:GetContactAppointmentsByTaskRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetContactAppointmentsByTaskResponse" name="GetContactAppointmentsByTaskResponse" message="tns:GetContactAppointmentsByTaskResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactAppointmentsByTasks">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments belonging to an array of appointment task types within a time range. The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetContactAppointmentsByTasks" name="GetContactAppointmentsByTasksRequest" message="tns:GetContactAppointmentsByTasksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetContactAppointmentsByTasksResponse" name="GetContactAppointmentsByTasksResponse" message="tns:GetContactAppointmentsByTasksResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactAppointmentsByTaskHeading">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments of a specific appointment task heading within a time range. The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetContactAppointmentsByTaskHeading" name="GetContactAppointmentsByTaskHeadingRequest" message="tns:GetContactAppointmentsByTaskHeadingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetContactAppointmentsByTaskHeadingResponse" name="GetContactAppointmentsByTaskHeadingResponse" message="tns:GetContactAppointmentsByTaskHeadingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPublishedAppointment">
-      <wsdl:documentation>
-        <summary>Get published appointment by appointment id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPublishedAppointment" name="GetPublishedAppointmentRequest" message="tns:GetPublishedAppointmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPublishedAppointmentResponse" name="GetPublishedAppointmentResponse" message="tns:GetPublishedAppointmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPublishedAppointments">
-      <wsdl:documentation>
-        <summary>Get published appointments by appointment ids.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPublishedAppointments" name="GetPublishedAppointmentsRequest" message="tns:GetPublishedAppointmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPublishedAppointmentsResponse" name="GetPublishedAppointmentsResponse" message="tns:GetPublishedAppointmentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyPublishedAppointments">
-      <wsdl:documentation>
-        <summary>Get published appointments from the logged in user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetMyPublishedAppointments" name="GetMyPublishedAppointmentsRequest" message="tns:GetMyPublishedAppointmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetMyPublishedAppointmentsResponse" name="GetMyPublishedAppointmentsResponse" message="tns:GetMyPublishedAppointmentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPublishedProjectAppointments">
-      <wsdl:documentation>
-        <summary>Get published appointments by project id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPublishedProjectAppointments" name="GetPublishedProjectAppointmentsRequest" message="tns:GetPublishedProjectAppointmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetPublishedProjectAppointmentsResponse" name="GetPublishedProjectAppointmentsResponse" message="tns:GetPublishedProjectAppointmentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAppointmentsByTaskHeading">
-      <wsdl:documentation>
-        <summary>Method that returns appointments of a specific appointment task heading. Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointmentsByTaskHeading" name="GetAppointmentsByTaskHeadingRequest" message="tns:GetAppointmentsByTaskHeadingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointmentsByTaskHeadingResponse" name="GetAppointmentsByTaskHeadingResponse" message="tns:GetAppointmentsByTaskHeadingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAssociateDiary">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAssociateDiary" name="GetAssociateDiaryRequest" message="tns:GetAssociateDiaryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAssociateDiaryResponse" name="GetAssociateDiaryResponse" message="tns:GetAssociateDiaryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDiaryByGroup">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetDiaryByGroup" name="GetDiaryByGroupRequest" message="tns:GetDiaryByGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetDiaryByGroupResponse" name="GetDiaryByGroupResponse" message="tns:GetDiaryByGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateAppointment">
-      <wsdl:documentation>
-        <summary>Updates an appointment record.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/UpdateAppointment" name="UpdateAppointmentRequest" message="tns:UpdateAppointmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/UpdateAppointmentResponse" name="UpdateAppointmentResponse" message="tns:UpdateAppointmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAssociatesDiary">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAssociatesDiary" name="GetAssociatesDiaryRequest" message="tns:GetAssociatesDiaryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAssociatesDiaryResponse" name="GetAssociatesDiaryResponse" message="tns:GetAssociatesDiaryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAppointmentRecords">
-      <wsdl:documentation>
-        <summary>Get all records involved in a booking and/or recurring appointments. MotherId can be zero for repeating appointments or bookings, and recurrenceRuleId can be zero for bookings that are not repeating.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointmentRecords" name="GetAppointmentRecordsRequest" message="tns:GetAppointmentRecordsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAppointmentRecordsResponse" name="GetAppointmentRecordsResponse" message="tns:GetAppointmentRecordsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMySyncAppointments">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of appointments within a time range. The appointments belong to the currently logged on user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetMySyncAppointments" name="GetMySyncAppointmentsRequest" message="tns:GetMySyncAppointmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetMySyncAppointmentsResponse" name="GetMySyncAppointmentsResponse" message="tns:GetMySyncAppointmentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDayInformationListByDatesAndAssociate">
-      <wsdl:documentation>
-        <summary>Get combined day information (activity + redletter summary) for one or more days according to the given date interval. The time portion of the dates is ignored. Private appointments are counted, but may not be visible through tooltips or other more detailed services.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetDayInformationListByDatesAndAssociate" name="GetDayInformationListByDatesAndAssociateRequest" message="tns:GetDayInformationListByDatesAndAssociateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetDayInformationListByDatesAndAssociateResponse" name="GetDayInformationListByDatesAndAssociateResponse" message="tns:GetDayInformationListByDatesAndAssociateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetActivityInformationListByDatesAndAssociate">
-      <wsdl:documentation>
-        <summary>Get activity information for one or more days according to the given date interval. The time portion of the dates is ignored. Private appointments are counted, but may not be visible through tooltips or other more detailed services.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetActivityInformationListByDatesAndAssociate" name="GetActivityInformationListByDatesAndAssociateRequest" message="tns:GetActivityInformationListByDatesAndAssociateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetActivityInformationListByDatesAndAssociateResponse" name="GetActivityInformationListByDatesAndAssociateResponse" message="tns:GetActivityInformationListByDatesAndAssociateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRedLetterInformationListByDatesAndAssociate">
-      <wsdl:documentation>
-        <summary>Get detailed red letter day information (redletter summary + individual day texts) for one or more days according to the given date interval. The time portion of the dates is ignored. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetRedLetterInformationListByDatesAndAssociate" name="GetRedLetterInformationListByDatesAndAssociateRequest" message="tns:GetRedLetterInformationListByDatesAndAssociateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetRedLetterInformationListByDatesAndAssociateResponse" name="GetRedLetterInformationListByDatesAndAssociateResponse" message="tns:GetRedLetterInformationListByDatesAndAssociateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAlarms">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAlarms" name="GetAlarmsRequest" message="tns:GetAlarmsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetAlarmsResponse" name="GetAlarmsResponse" message="tns:GetAlarmsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GenerateLead">
-      <wsdl:documentation>
-        <summary>Adds a sales lead (task) to a contact in SuperOffice. If the contact or person is known, the sales lead is added to the current contact. If not, a new contact is created, with the associate with ownerIdForNewContact as responsible (Our Contact). A relation is created between the contact and the person submitting the lead. Based on wether the person the request is made for is found or not, the following happens: If the person is found, the person, person's contact and sales representative is returned. If neither the person nor the contact is found a new person and contact is created (if sufficient data is supplied), and the person, person's contact and sales representative is returned. If the contact and not the person is found a new person is created on this contact, and the contact, salesrep, and person is returned (if there was enough data to return the person). If more than one contact is found a list of contacts is returned.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GenerateLead" name="GenerateLeadRequest" message="tns:GenerateLeadRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GenerateLeadResponse" name="GenerateLeadResponse" message="tns:GenerateLeadResponse" />
     </wsdl:operation>
     <wsdl:operation name="RequestForInfo">
-      <wsdl:documentation>
-        <summary>Submits a request for information. The request is added to the task list of the user that is responsible for this contact. Based on wether the person the request is made for is found or not, the following happens: If the person is found, the person, person's contact and sales representative is returned. If neither the person nor the contact is found a new person and contact is created (if sufficient data is supplied), and the person, person's contact and sales representative is returned. If the contact and not the person is found a new person is created on this contact, and the contact, salesrep, and person is returned (if there was enough data to return the person). If more than one contact is found a list of contacts is returned.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/RequestForInfo" name="RequestForInfoRequest" message="tns:RequestForInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/RequestForInfoResponse" name="RequestForInfoResponse" message="tns:RequestForInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSuggestedAppointment">
-      <wsdl:documentation>
-        <summary>Gets a SuggestedAppointment object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetSuggestedAppointment" name="GetSuggestedAppointmentRequest" message="tns:GetSuggestedAppointmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetSuggestedAppointmentResponse" name="GetSuggestedAppointmentResponse" message="tns:GetSuggestedAppointmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSuggestedAppointmentEntity">
-      <wsdl:documentation>
-        <summary>Gets a SuggestedAppointmentEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetSuggestedAppointmentEntity" name="GetSuggestedAppointmentEntityRequest" message="tns:GetSuggestedAppointmentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetSuggestedAppointmentEntityResponse" name="GetSuggestedAppointmentEntityResponse" message="tns:GetSuggestedAppointmentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTaskListItem">
-      <wsdl:documentation>
-        <summary>Gets a TaskListItem object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetTaskListItem" name="GetTaskListItemRequest" message="tns:GetTaskListItemRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetTaskListItemResponse" name="GetTaskListItemResponse" message="tns:GetTaskListItemResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTaskListItems">
-      <wsdl:documentation>
-        <summary>Gets all takslist items</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetTaskListItems" name="GetTaskListItemsRequest" message="tns:GetTaskListItemsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Appointment/GetTaskListItemsResponse" name="GetTaskListItemsResponse" message="tns:GetTaskListItemsResponse" />
     </wsdl:operation>
@@ -7041,3 +6740,4 @@ title: Services88.AppointmentAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetFromListDef
 
 ## GetFromListDefinition
 
-Get a list item for the specified list defintion
 
-* **id:** The identity of the list item to load
-* **udListDefinitionId:** The id of the list definition, indicating which list to get the item from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
 
-**Returns:** The loaded list item
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFromListDefinition Response
 
 ```xml
@@ -78,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

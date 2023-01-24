@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.Sav
 
 ## SaveMailboxEntity
 
-Updates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is 0.
 
-* **mailboxEntity:** The MailboxEntity that is saved.
 
-**Returns:** New or updated MailboxEntity
+
 
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
@@ -57,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveMailboxEntity Response
 
 ```xml
@@ -85,3 +84,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

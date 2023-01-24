@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPhoneListAgent.Search">S
 
 ## Search
 
-Searching the phone list. Using default search preferences or the preferences already set by the PhoneListPreferences Service
 
-* **searchString:** The search string
 
-**Returns:** The resulting phone list
+
 
 [WSDL file for Services88/PhoneList](../Services88-PhoneList.md)
 
@@ -47,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## Search Response
 
@@ -80,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

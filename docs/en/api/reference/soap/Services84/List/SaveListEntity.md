@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.SaveListEntity
 
 ## SaveListEntity
 
-Updates the existing ListEntity or creates a new ListEntity if the id parameter is 0.
 
-* **listEntity:** The ListEntity that is saved.
 
-**Returns:** New or updated ListEntity
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -60,6 +58,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveListEntity Response
 
 ```xml
@@ -91,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

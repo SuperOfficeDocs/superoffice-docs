@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetMrMrsList">
 
 ## GetMrMrsList
 
-Gets an array of MrMrs objects.
 
-* **mrMrsIds:** The identifiers of the MrMrs object
 
-**Returns:** Array of MrMrs objects
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetMrMrsList Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

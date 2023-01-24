@@ -32,6 +32,25 @@ so.topic: reference
 * IPersonAgent GetPersonImages
 * IUserDefinedFieldInfoAgent ClearCaches
 
+* Archive/GetRelatedData.md
+* Archive/GetRelatedData2.md
+* EMail/HasSPFRecord.md
+* List/CreateDefaultTaskMenu.md
+* List/DeleteAppTaskMenus.md
+* List/DeleteTaskMenu.md
+* List/GetAppTaskMenus.md
+* List/GetTaskMenu.md
+* List/GetTaskMenuByProgId.md
+* List/SaveTaskMenu.md
+* Person/CreateDefaultPersonImage.md
+* Person/GetPersonImages.md
+* Ticket/GetTicketMessageWithOptions.md
+* Ticket/UndeleteByIds.md
+* Ticket/ValidateAttachments.md
+* User/GetUserPresenceStatus.md
+* User/SetUserPresenceStatus.md
+* UserDefinedFieldInfo/ClearCaches.md
+
 ## All API changes
 
 * [Version 10.2.1][1]

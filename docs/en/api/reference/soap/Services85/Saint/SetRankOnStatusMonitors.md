@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISaintAgent.SetRankOnStat
 
 ## SetRankOnStatusMonitors
 
-Set rank order on status monitors
 
-* **type:** Type of status monitors to reorder ("contact", "project", etc.)
-* **itemsIds:** The ids of the items in the order you want
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services85/Saint](../Services85-Saint.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetRankOnStatusMonitors Response
 
 ```xml
@@ -72,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

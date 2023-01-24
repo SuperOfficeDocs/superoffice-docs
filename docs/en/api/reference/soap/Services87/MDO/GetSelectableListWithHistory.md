@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IMDOAgent.GetSelectableLi
 
 ## GetSelectableListWithHistory
 
-Method to get a Selectable MDO list with own history list.
 
-* **name:** Conceptual name of the MDO list.
-* **forceFlatList:** Force the list to be flat
-* **additionalInfo:** Additional info to the MDO provider
-* **historyItems:** An array of ids, used to get the history list
-* **onlyHistory:** If true, return only history items
 
-**Returns:** Array of SelectableMDOListItem
+
 
 [WSDL file for Services87/MDO](../Services87-MDO.md)
 
@@ -59,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSelectableListWithHistory Response
 
 ```xml
@@ -84,7 +79,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <MDO:ColorBlock xsi:type="xsd:int">0</MDO:ColorBlock>
      <MDO:IconHint xsi:type="xsd:string"></MDO:IconHint>
      <MDO:Selected xsi:type="xsd:boolean">false</MDO:Selected>
-     <MDO:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:57:27Z</MDO:LastChanged>
+     <MDO:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:19:03Z</MDO:LastChanged>
      <MDO:ChildItems xsi:type="MDO:ArrayOfSelectableMDOListItem">
       <MDO:SelectableMDOListItem xsi:type="MDO:SelectableMDOListItem">
        <MDO:Id xsi:type="xsd:int">0</MDO:Id>
@@ -96,7 +91,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <MDO:ColorBlock xsi:type="xsd:int">0</MDO:ColorBlock>
        <MDO:IconHint xsi:type="xsd:string"></MDO:IconHint>
        <MDO:Selected xsi:type="xsd:boolean">false</MDO:Selected>
-       <MDO:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:57:27Z</MDO:LastChanged>
+       <MDO:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:19:03Z</MDO:LastChanged>
        <MDO:ChildItems xsi:type="MDO:ArrayOfSelectableMDOListItem">
         <MDO:SelectableMDOListItem xsi:type="MDO:SelectableMDOListItem">
          <MDO:Id xsi:type="xsd:int">0</MDO:Id>
@@ -108,7 +103,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <MDO:ColorBlock xsi:type="xsd:int">0</MDO:ColorBlock>
          <MDO:IconHint xsi:type="xsd:string"></MDO:IconHint>
          <MDO:Selected xsi:type="xsd:boolean">false</MDO:Selected>
-         <MDO:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:57:27Z</MDO:LastChanged>
+         <MDO:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:19:03Z</MDO:LastChanged>
          <MDO:ChildItems xsi:type="MDO:ArrayOfSelectableMDOListItem">
           <MDO:SelectableMDOListItem xsi:nil="true"></MDO:SelectableMDOListItem>
          </MDO:ChildItems>
@@ -135,3 +130,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

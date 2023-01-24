@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IFindAgent.PopulateRestri
 
 ## PopulateRestrictions
 
-Take an incoming set of minimally populated restrictions (name + operator is required), and populate all the other parts of the ArchiveRestrictionInfo structure. This includes column information, display values (including list value lookup), and calculated/default values where the value hints specify read-only (R).
 
-* **providerName:** Provider name to use for populating column information
-* **restrictions:** Restrictions to populate. The Name and Operator fields have to have valid content, and Values should be set as appropriate. Other fields can be left blank or null. If a ColumnInfo is already set, it will not be overwritten.
 
-**Returns:** Fully populated restrictions in the same order as the incoming restrictions.
+
 
 [WSDL file for Services87/Find](../Services87-Find.md)
 
@@ -123,6 +120,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## PopulateRestrictions Response
 
@@ -236,3 +234,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

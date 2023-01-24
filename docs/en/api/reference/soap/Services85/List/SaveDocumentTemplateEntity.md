@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.SaveDocumentTe
 
 ## SaveDocumentTemplateEntity
 
-Updates the existing DocumentTemplateEntity or creates a new DocumentTemplateEntity if the id parameter is 0.
 
-* **documentTemplateEntity:** The DocumentTemplateEntity that is saved.
 
-**Returns:** New or updated DocumentTemplateEntity
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -70,6 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveDocumentTemplateEntity Response
 
 ```xml
@@ -111,3 +110,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

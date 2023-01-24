@@ -11,6 +11,10 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetTicketCateg
 
 ## GetTicketCategories
 
+
+
+
+
 [WSDL file for Services87/List](../Services87-List.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -41,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetTicketCategories Response
 
@@ -90,3 +95,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

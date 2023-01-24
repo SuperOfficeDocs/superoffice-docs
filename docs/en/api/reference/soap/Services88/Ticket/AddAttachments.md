@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.AddAttachmen
 
 ## AddAttachments
 
-Connect existing attachments with this TicketMessage. Can connect multiple attachments
 
-* **ticketMessageEntityId:** The id of the ticket message to connect the attachments to
-* **attachmentIds:** An array of attachments to connect to this TicketMessage
+
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -51,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddAttachments Response
 
 ```xml
@@ -70,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

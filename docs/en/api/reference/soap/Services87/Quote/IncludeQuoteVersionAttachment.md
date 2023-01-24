@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.IncludeQuoteV
 
 ## IncludeQuoteVersionAttachment
 
-Toggle the 'included' state of a quote version attachment; will throw exceptions if called on locked versions
 
-* **quoteVersionId:** The ID of the Quote version
-* **documentId:** The ID of the document
-* **include:** Desired state
 
-**Returns:** The new state
+
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## IncludeQuoteVersionAttachment Response
 
 ```xml
@@ -73,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

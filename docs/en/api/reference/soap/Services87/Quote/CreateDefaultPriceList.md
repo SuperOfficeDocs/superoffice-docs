@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.CreateDefault
 
 ## CreateDefaultPriceList
 
-Loading default values into a new PriceList.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New PriceList with default values
+
+
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultPriceList Response
 
 ```xml
@@ -69,8 +69,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Quote:Description xsi:type="xsd:string"></Quote:Description>
     <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
     <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-    <Quote:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:57:45Z</Quote:ValidFrom>
-    <Quote:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:57:45Z</Quote:ValidTo>
+    <Quote:ValidFrom xsi:type="xsd:dateTime">2023-01-23T10:19:19Z</Quote:ValidFrom>
+    <Quote:ValidTo xsi:type="xsd:dateTime">2023-01-23T10:19:19Z</Quote:ValidTo>
     <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
    </Quote:Response>
   </Quote:CreateDefaultPriceListResponse>
@@ -78,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

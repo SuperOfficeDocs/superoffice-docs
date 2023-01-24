@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.INumberAllocationAgent.Ge
 
 ## GetRefCountEntity
 
-Gets a RefCountEntity object.
 
-* **refCountEntityId:** The identifier of the RefCountEntity object
 
-**Returns:** RefCountEntity
+
 
 [WSDL file for Services85/NumberAllocation](../Services85-NumberAllocation.md)
 
@@ -47,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetRefCountEntity Response
 
@@ -124,3 +123,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

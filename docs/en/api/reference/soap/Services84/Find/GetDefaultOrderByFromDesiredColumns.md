@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IFindAgent.GetDefaultOrde
 
 ## GetDefaultOrderByFromDesiredColumns
 
-Calculate the default orderby columns for a given provider and a set of desired columns. This is the same algorithm that is used by the Find service method.
 
-* **providerName:** Provider name to calculate default orderby for
-* **desiredColumns:** Desired columns (return fields), used in the orderby calculation. You can generally only order by columns that have been set as 'desired'.
 
-**Returns:** Orderby information
+
 
 [WSDL file for Services84/Find](../Services84-Find.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDefaultOrderByFromDesiredColumns Response
 
 ```xml
@@ -78,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

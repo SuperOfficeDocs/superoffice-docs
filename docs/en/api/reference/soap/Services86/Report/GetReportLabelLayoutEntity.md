@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IReportAgent.GetReportLab
 
 ## GetReportLabelLayoutEntity
 
-Gets a ReportLabelLayoutEntity object.
 
-* **reportLabelLayoutEntityId:** The identifier of the ReportLabelLayoutEntity object
 
-**Returns:** ReportLabelLayoutEntity
+
 
 [WSDL file for Services86/Report](../Services86-Report.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetReportLabelLayoutEntity Response
 
@@ -82,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

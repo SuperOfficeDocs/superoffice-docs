@@ -916,104 +916,59 @@ title: Services87.DashboardAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Dashboard">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Dashboard</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultDashboard">
-      <wsdl:documentation>
-        <summary>Loading default values into a new Dashboard.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/CreateDefaultDashboard" name="CreateDefaultDashboardRequest" message="tns:CreateDefaultDashboardRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/CreateDefaultDashboardResponse" name="CreateDefaultDashboardResponse" message="tns:CreateDefaultDashboardResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDashboard">
-      <wsdl:documentation>
-        <summary>Updates the existing Dashboard or creates a new Dashboard if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/SaveDashboard" name="SaveDashboardRequest" message="tns:SaveDashboardRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/SaveDashboardResponse" name="SaveDashboardResponse" message="tns:SaveDashboardResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteDashboard">
-      <wsdl:documentation>
-        <summary>Deletes the Dashboard</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/DeleteDashboard" name="DeleteDashboardRequest" message="tns:DeleteDashboardRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/DeleteDashboardResponse" name="DeleteDashboardResponse" message="tns:DeleteDashboardResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultDashboardTile">
-      <wsdl:documentation>
-        <summary>Loading default values into a new DashboardTile.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/CreateDefaultDashboardTile" name="CreateDefaultDashboardTileRequest" message="tns:CreateDefaultDashboardTileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/CreateDefaultDashboardTileResponse" name="CreateDefaultDashboardTileResponse" message="tns:CreateDefaultDashboardTileResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDashboardTile">
-      <wsdl:documentation>
-        <summary>Updates the existing DashboardTile or creates a new DashboardTile if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/SaveDashboardTile" name="SaveDashboardTileRequest" message="tns:SaveDashboardTileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/SaveDashboardTileResponse" name="SaveDashboardTileResponse" message="tns:SaveDashboardTileResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteDashboardTile">
-      <wsdl:documentation>
-        <summary>Deletes the DashboardTile</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/DeleteDashboardTile" name="DeleteDashboardTileRequest" message="tns:DeleteDashboardTileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/DeleteDashboardTileResponse" name="DeleteDashboardTileResponse" message="tns:DeleteDashboardTileResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashboard">
-      <wsdl:documentation>
-        <summary>Gets a Dashboard object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/GetDashboard" name="GetDashboardRequest" message="tns:GetDashboardRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/GetDashboardResponse" name="GetDashboardResponse" message="tns:GetDashboardResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashboards">
-      <wsdl:documentation>
-        <summary>Gets all dashboards for an associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/GetDashboards" name="GetDashboardsRequest" message="tns:GetDashboardsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/GetDashboardsResponse" name="GetDashboardsResponse" message="tns:GetDashboardsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetTile">
-      <wsdl:documentation>
-        <summary>Sets tile in the given dashboard position</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/SetTile" name="SetTileRequest" message="tns:SetTileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/SetTileResponse" name="SetTileResponse" message="tns:SetTileResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashboardTile">
-      <wsdl:documentation>
-        <summary>Gets a DashboardTile object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/GetDashboardTile" name="GetDashboardTileRequest" message="tns:GetDashboardTileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/GetDashboardTileResponse" name="GetDashboardTileResponse" message="tns:GetDashboardTileResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashboardTiles">
-      <wsdl:documentation>
-        <summary>Gets an array of dashboard tiles for the provided ids</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/GetDashboardTiles" name="GetDashboardTilesRequest" message="tns:GetDashboardTilesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/GetDashboardTilesResponse" name="GetDashboardTilesResponse" message="tns:GetDashboardTilesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetData">
-      <wsdl:documentation>
-        <summary>Get data for this tile</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/GetData" name="GetDataRequest" message="tns:GetDataRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/GetDataResponse" name="GetDataResponse" message="tns:GetDataResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateNewFromTemplate">
-      <wsdl:documentation>
-        <summary>Create new tile from another tile used as template</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/CreateNewFromTemplate" name="CreateNewFromTemplateRequest" message="tns:CreateNewFromTemplateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/CreateNewFromTemplateResponse" name="CreateNewFromTemplateResponse" message="tns:CreateNewFromTemplateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDataWithSelection">
-      <wsdl:documentation>
-        <summary>Get data for this tile</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/GetDataWithSelection" name="GetDataWithSelectionRequest" message="tns:GetDataWithSelectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Dashboard/GetDataWithSelectionResponse" name="GetDataWithSelectionResponse" message="tns:GetDataWithSelectionResponse" />
     </wsdl:operation>
@@ -1252,3 +1207,4 @@ title: Services87.DashboardAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

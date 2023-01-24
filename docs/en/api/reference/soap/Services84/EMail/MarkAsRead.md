@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.MarkAsRead">S
 
 ## MarkAsRead
 
-Mark one or more e-mails as (un)read
 
-* **connectionInfo:** All information needed to connect to the mailserver
-* **messageServerIds:** The e-mails to handle
-* **read:** If true mails are marked as read.
-If false mails are marked as unread.
+
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -60,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MarkAsRead Response
 
 ```xml
@@ -79,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

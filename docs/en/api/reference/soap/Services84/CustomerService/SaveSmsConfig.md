@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ICustomerServiceAgent.Sav
 
 ## SaveSmsConfig
 
-Updates the existing SmsConfig or creates a new SmsConfig if the id parameter is 0.
 
-* **smsConfig:** The SmsConfig that is saved.
 
-**Returns:** New or updated SmsConfig
+
 
 [WSDL file for Services84/CustomerService](../Services84-CustomerService.md)
 
@@ -59,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveSmsConfig Response
 
 ```xml
@@ -89,3 +88,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

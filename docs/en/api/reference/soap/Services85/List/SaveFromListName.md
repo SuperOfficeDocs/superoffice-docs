@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.SaveFromListNa
 
 ## SaveFromListName
 
-Save a list item for the specified list defintion
 
-* **id:** The identity of the list item to load
-* **udListDefinitionName:** The name of the list definition, indicating which list to save the item to.
-* **item:** The item to save
 
-**Returns:** The saved list item
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -60,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveFromListName Response
 
 ```xml
@@ -87,3 +84,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

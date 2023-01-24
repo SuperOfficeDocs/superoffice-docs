@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPersonAgent.SaveConsentP
 
 ## SaveConsentPerson
 
-Updates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is 0.
 
-* **consentPerson:** The ConsentPerson that is saved.
 
-**Returns:** New or updated ConsentPerson
+
 
 [WSDL file for Services84/Person](../Services84-Person.md)
 
@@ -69,7 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Person:Key xsi:type="xsd:string"></Person:Key>
       <Person:Tooltip xsi:type="xsd:string"></Person:Tooltip>
       <Person:Active xsi:type="xsd:short">0</Person:Active>
-      <Person:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:51:17Z</Person:UpdatedDate>
+      <Person:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:13:08Z</Person:UpdatedDate>
       <Person:UpdatedBy xsi:type="Person:Associate">
        <Person:AssociateId xsi:type="xsd:int">0</Person:AssociateId>
        <Person:Name xsi:type="xsd:string"></Person:Name>
@@ -96,6 +94,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveConsentPerson Response
 
@@ -139,7 +138,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Person:Key xsi:type="xsd:string"></Person:Key>
      <Person:Tooltip xsi:type="xsd:string"></Person:Tooltip>
      <Person:Active xsi:type="xsd:short">0</Person:Active>
-     <Person:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:51:17Z</Person:UpdatedDate>
+     <Person:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:13:08Z</Person:UpdatedDate>
      <Person:UpdatedBy xsi:type="Person:Associate">
       <Person:AssociateId xsi:type="xsd:int">0</Person:AssociateId>
       <Person:Name xsi:type="xsd:string"></Person:Name>
@@ -165,3 +164,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IAppointmentAgent.SaveSug
 
 ## SaveSuggestedAppointmentEntity
 
-Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppointmentEntity if the id parameter is 0.
 
-* **suggestedAppointmentEntity:** The SuggestedAppointmentEntity that is saved.
 
-**Returns:** New or updated SuggestedAppointmentEntity
+
 
 [WSDL file for Services85/Appointment](../Services85-Appointment.md)
 
@@ -85,6 +83,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveSuggestedAppointmentEntity Response
 
 ```xml
@@ -141,3 +140,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

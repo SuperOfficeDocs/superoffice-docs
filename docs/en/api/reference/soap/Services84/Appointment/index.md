@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/Appoi
 
 Handled by the <see cref="T:SuperOffice.Services84.IAppointmentAgent">SuperOffice.Services84.IAppointmentAgent</see> interface.
 
-Interface for the Appointment Agent
-Collection of all services that works with Appointment data.
+
 
 Download [WSDL file for Services84/Appointment](../Services84-Appointment.md) if you need to generate your own proxy code.
 
@@ -99,3 +98,4 @@ Download [WSDL file for Services84/Appointment](../Services84-Appointment.md) if
 * [ToggleAppointmentStatus](ToggleAppointmentStatus.md)
 * [UpdateAppointment](UpdateAppointment.md)
 * [ValidateDays](ValidateDays.md)
+

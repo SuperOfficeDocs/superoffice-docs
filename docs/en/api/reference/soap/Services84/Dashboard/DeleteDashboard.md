@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IDashboardAgent.DeleteDas
 
 ## DeleteDashboard
 
-Deletes the Dashboard
 
-* **dashboardId:** The identity of the Dashboard
+
+
 
 [WSDL file for Services84/Dashboard](../Services84-Dashboard.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteDashboard Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

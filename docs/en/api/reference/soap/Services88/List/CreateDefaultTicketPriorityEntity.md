@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.CreateDefaultT
 
 ## CreateDefaultTicketPriorityEntity
 
-Loading default values into a new TicketPriorityEntity.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New TicketPriorityEntity with default values
+
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultTicketPriorityEntity Response
 
 ```xml
@@ -74,22 +74,22 @@ Application tokens must be specified if calling an Online installation. Applicat
     <List:TicketChangedPriority xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketChangedPriority>
     <List:TicketNew xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketNew>
     <List:Deadline xsi:type="xsd:int">0</List:Deadline>
-    <List:MonStart xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:MonStart>
-    <List:MonStop xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:MonStop>
-    <List:TueStart xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:TueStart>
-    <List:TueStop xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:TueStop>
-    <List:WedStart xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:WedStart>
-    <List:WedStop xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:WedStop>
-    <List:ThuStart xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:ThuStart>
-    <List:ThuStop xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:ThuStop>
-    <List:FriStart xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:FriStart>
-    <List:FriStop xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:FriStop>
-    <List:SatStart xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:SatStart>
-    <List:SatStop xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:SatStop>
-    <List:SunStart xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:SunStart>
-    <List:SunStop xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</List:SunStop>
+    <List:MonStart xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:MonStart>
+    <List:MonStop xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:MonStop>
+    <List:TueStart xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:TueStart>
+    <List:TueStop xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:TueStop>
+    <List:WedStart xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:WedStart>
+    <List:WedStop xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:WedStop>
+    <List:ThuStart xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:ThuStart>
+    <List:ThuStop xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:ThuStop>
+    <List:FriStart xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:FriStart>
+    <List:FriStop xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:FriStop>
+    <List:SatStart xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:SatStart>
+    <List:SatStop xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:SatStop>
+    <List:SunStart xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:SunStart>
+    <List:SunStop xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</List:SunStop>
     <List:NonDates xsi:type="NetServerServices882:ArrayOfdateTime">
-     <NetServerServices882:dateTime xsi:type="xsd:dateTime">2022-08-26T08:59:49Z</NetServerServices882:dateTime>
+     <NetServerServices882:dateTime xsi:type="xsd:dateTime">2023-01-23T10:21:18Z</NetServerServices882:dateTime>
     </List:NonDates>
     <List:EscalationLevels xsi:type="List:ArrayOfTicketPriorityEscalationLevelEntity">
      <List:TicketPriorityEscalationLevelEntity xsi:type="List:TicketPriorityEscalationLevelEntity">
@@ -117,3 +117,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetTempFil
 
 ## GetTempFile
 
-Get data stream for temporary file created with CreateTempFile.
 
-* **filename:** Name of temporary file to retrieve.
 
-**Returns:** The document as a Stream
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTempFile Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

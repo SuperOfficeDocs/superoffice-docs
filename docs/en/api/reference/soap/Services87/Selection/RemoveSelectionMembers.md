@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISelectionAgent.RemoveSel
 
 ## RemoveSelectionMembers
 
-Removes members from the selection as  specified in the collection of entity ids. The ids are selection member ids (selection member primary key)
 
-* **selectionId:** The id of the selection where to members will be removed.
-* **selectionMemberIds:** Selection member primary keys
+
+
 
 [WSDL file for Services87/Selection](../Services87-Selection.md)
 
@@ -51,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RemoveSelectionMembers Response
 
 ```xml
@@ -70,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

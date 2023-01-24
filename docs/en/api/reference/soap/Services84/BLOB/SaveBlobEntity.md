@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IBLOBAgent.SaveBlobEntity
 
 ## SaveBlobEntity
 
-Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is 0.
 
-* **blobEntity:** The BlobEntity that is saved.
 
-**Returns:** New or updated BlobEntity
+
 
 [WSDL file for Services84/BLOB](../Services84-BLOB.md)
 
@@ -49,8 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <BLOB:IsZipped xsi:type="xsd:boolean">false</BLOB:IsZipped>
      <BLOB:MimeType xsi:type="xsd:string"></BLOB:MimeType>
      <BLOB:OriginalSize xsi:type="xsd:unsignedInt">0</BLOB:OriginalSize>
-     <BLOB:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:50:19Z</BLOB:CreatedDate>
-     <BLOB:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:50:19Z</BLOB:UpdatedDate>
+     <BLOB:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:12:13Z</BLOB:CreatedDate>
+     <BLOB:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:12:13Z</BLOB:UpdatedDate>
      <BLOB:CreatedBy xsi:type="BLOB:Associate">
       <BLOB:AssociateId xsi:type="xsd:int">0</BLOB:AssociateId>
       <BLOB:Name xsi:type="xsd:string"></BLOB:Name>
@@ -86,6 +84,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveBlobEntity Response
 
 ```xml
@@ -108,8 +107,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <BLOB:IsZipped xsi:type="xsd:boolean">false</BLOB:IsZipped>
     <BLOB:MimeType xsi:type="xsd:string"></BLOB:MimeType>
     <BLOB:OriginalSize xsi:type="xsd:unsignedInt">0</BLOB:OriginalSize>
-    <BLOB:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:50:19Z</BLOB:CreatedDate>
-    <BLOB:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:50:19Z</BLOB:UpdatedDate>
+    <BLOB:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:12:13Z</BLOB:CreatedDate>
+    <BLOB:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:12:13Z</BLOB:UpdatedDate>
     <BLOB:CreatedBy xsi:type="BLOB:Associate">
      <BLOB:AssociateId xsi:type="xsd:int">0</BLOB:AssociateId>
      <BLOB:Name xsi:type="xsd:string"></BLOB:Name>
@@ -143,3 +142,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

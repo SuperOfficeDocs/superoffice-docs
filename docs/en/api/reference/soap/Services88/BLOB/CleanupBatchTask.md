@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IBLOBAgent.CleanupBatchTa
 
 ## CleanupBatchTask
 
-Removes the binary objects linked to the batch task, the links themselves and the batch task.
 
-* **batchTaskId:** The ID of the batchtask that created the output data
+
+
 
 [WSDL file for Services88/BLOB](../Services88-BLOB.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CleanupBatchTask Response
 
 ```xml
@@ -64,3 +65,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

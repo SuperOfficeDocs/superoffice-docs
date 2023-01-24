@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDatabaseTableAgent.Delet
 
 ## DeleteRow
 
-Delete a row from a table
 
-* **tableName:** The name of the table to delete from; in the current release this must be an 'extratable'. Use the database name, on the form y\_aTable
-* **id:** The id of the row to delete
+
+
 
 [WSDL file for Services88/DatabaseTable](../Services88-DatabaseTable.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteRow Response
 
 ```xml
@@ -68,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

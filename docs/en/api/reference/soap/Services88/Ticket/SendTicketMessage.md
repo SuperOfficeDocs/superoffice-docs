@@ -11,17 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.SendTicketMe
 
 ## SendTicketMessage
 
-Send a message to recipients by email
 
-* **ticketMessageEntityId:** The id of the ticket message to send
-* **to:** The To-recipients. Each recipient must be in correct format
-* **cc:** The Cc-recipients. Each recipient must be in correct format
-* **bcc:** The Bcc-recipients. Each recipient must be in correct format
-* **subject:** The subject
-* **replyTemplateId:** Optional ID of reply template to merge message with. &lt;= 0 to skip.
-* **gdprSource:** Obsolete
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -67,6 +59,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SendTicketMessage Response
 
 ```xml
@@ -86,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

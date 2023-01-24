@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPhoneListAgent.AddToFavo
 
 ## AddToFavorites
 
-Adds a new contact to the history/favorites. Returns the rank of the new history item. If the contact already existed in the history, it isn't added but the rank is updated.
 
-* **contactId:** The contact id
 
-**Returns:** The rank of the history item
+
 
 [WSDL file for Services87/PhoneList](../Services87-PhoneList.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddToFavorites Response
 
 ```xml
@@ -67,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

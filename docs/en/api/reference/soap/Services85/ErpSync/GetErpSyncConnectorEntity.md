@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.GetErpSyncC
 
 ## GetErpSyncConnectorEntity
 
-Gets a ErpSyncConnectorEntity object.
 
-* **erpSyncConnectorEntityId:** The identifier of the ErpSyncConnectorEntity object
 
-**Returns:** ErpSyncConnectorEntity
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetErpSyncConnectorEntity Response
 
 ```xml
@@ -74,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

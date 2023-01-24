@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IMDOAgent.GetListWithRest
 
 ## GetListWithRestriction
 
-Method to get a MDO list with restrictions.
 
-* **name:** Conceptual name of the MDO list-
-* **additionalInfo:** Additional info to the MDO provider
-* **searchValue:** the value used to restrict the list
 
-**Returns:** Array of MDOListItem
+
 
 [WSDL file for Services87/MDO](../Services87-MDO.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetListWithRestriction Response
 
@@ -120,3 +117,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

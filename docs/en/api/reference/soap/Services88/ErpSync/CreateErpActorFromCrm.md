@@ -11,16 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.CreateErpAc
 
 ## CreateErpActorFromCrm
 
-Create ErpActor from crm entity
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-* **connectionId:** The connection ID
-* **crmEntityId:** The ID of the CRM entity to create an ERP actor from
-* **erpActorType:** The ERP actor type
-* **crmActorType:** The CRM actor type
-* **erpFieldKeyValues:** A map of matching erp field keys and values to set for the new erp entity
 
-**Returns:** Created ERP actor with success
+
 
 [WSDL file for Services88/ErpSync](../Services88-ErpSync.md)
 
@@ -63,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateErpActorFromCrm Response
 
 ```xml
@@ -83,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

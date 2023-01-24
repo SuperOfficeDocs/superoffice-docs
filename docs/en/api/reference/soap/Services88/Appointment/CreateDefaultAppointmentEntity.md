@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.CreateD
 
 ## CreateDefaultAppointmentEntity
 
-Loading default values into a new AppointmentEntity.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New AppointmentEntity with default values
+
+
 
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
@@ -46,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultAppointmentEntity Response
 
@@ -137,6 +137,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:FullName xsi:type="xsd:string"></Appointment:FullName>
      <Appointment:IsOwnerContact xsi:type="xsd:boolean">false</Appointment:IsOwnerContact>
      <Appointment:ActiveErpLinks xsi:type="xsd:int">0</Appointment:ActiveErpLinks>
+     <Appointment:Number1 xsi:type="xsd:string"></Appointment:Number1>
+     <Appointment:Number2 xsi:type="xsd:string"></Appointment:Number2>
     </Appointment:Contact>
     <Appointment:CreatedBy xsi:type="Appointment:Associate">
      <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
@@ -166,11 +168,11 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:EjUserId xsi:type="xsd:int">0</Appointment:EjUserId>
      <Appointment:UserName xsi:type="xsd:string"></Appointment:UserName>
     </Appointment:UpdatedBy>
-    <Appointment:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:CreatedDate>
+    <Appointment:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:CreatedDate>
     <Appointment:AppointmentId xsi:type="xsd:int">0</Appointment:AppointmentId>
     <Appointment:Description xsi:type="xsd:string"></Appointment:Description>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:EndDate>
     <Appointment:InvitedPerson xsi:type="Appointment:Person">
      <Appointment:Position xsi:type="xsd:string"></Appointment:Position>
      <Appointment:PersonId xsi:type="xsd:int">0</Appointment:PersonId>
@@ -271,19 +273,19 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
      <Appointment:AssociateFullName xsi:type="xsd:string"></Appointment:AssociateFullName>
      <Appointment:TypeId xsi:type="xsd:int">0</Appointment:TypeId>
-     <Appointment:Updated xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:Updated>
+     <Appointment:Updated xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:Updated>
      <Appointment:StatusId xsi:type="xsd:int">0</Appointment:StatusId>
      <Appointment:Status xsi:type="xsd:string"></Appointment:Status>
      <Appointment:TextId xsi:type="xsd:int">0</Appointment:TextId>
-     <Appointment:PublishTo xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:PublishTo>
-     <Appointment:PublishFrom xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:PublishFrom>
+     <Appointment:PublishTo xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:PublishTo>
+     <Appointment:PublishFrom xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:PublishFrom>
      <Appointment:IsPublished xsi:type="xsd:boolean">false</Appointment:IsPublished>
      <Appointment:URLName xsi:type="xsd:string"></Appointment:URLName>
      <Appointment:ProjectNumber xsi:type="xsd:string"></Appointment:ProjectNumber>
      <Appointment:ActiveErpLinks xsi:type="xsd:int">0</Appointment:ActiveErpLinks>
     </Appointment:Project>
     <Appointment:Type xsi:type="Appointment:AppointmentType">Unknown</Appointment:Type>
-    <Appointment:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:UpdatedDate>
+    <Appointment:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:UpdatedDate>
     <Appointment:Completed xsi:type="Appointment:ActivityStatus">Unknown</Appointment:Completed>
     <Appointment:ActiveLinks xsi:type="xsd:int">0</Appointment:ActiveLinks>
     <Appointment:Links xsi:type="Appointment:ArrayOfLink">
@@ -307,8 +309,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Appointment:RejectReason xsi:type="xsd:string"></Appointment:RejectReason>
     <Appointment:Recurrence xsi:type="Appointment:RecurrenceInfo">
      <Appointment:RecurrenceId xsi:type="xsd:int">0</Appointment:RecurrenceId>
-     <Appointment:StartDate xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:StartDate>
-     <Appointment:EndDate xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:EndDate>
+     <Appointment:StartDate xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:StartDate>
+     <Appointment:EndDate xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:EndDate>
      <Appointment:RecurrenceEndType xsi:type="Appointment:RecurrenceEndType">Unknown</Appointment:RecurrenceEndType>
      <Appointment:Pattern xsi:type="Appointment:RecurrencePattern">Unknown</Appointment:Pattern>
      <Appointment:DayPattern xsi:type="Appointment:RecurrenceDayPattern">
@@ -335,7 +337,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      </Appointment:YearPattern>
      <Appointment:Dates xsi:type="Appointment:ArrayOfRecurrenceDate">
       <Appointment:RecurrenceDate xsi:type="Appointment:RecurrenceDate">
-       <Appointment:Date xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:Date>
+       <Appointment:Date xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:Date>
        <Appointment:IsConflict xsi:type="xsd:boolean">false</Appointment:IsConflict>
        <Appointment:Description xsi:type="xsd:string"></Appointment:Description>
        <Appointment:DescriptionStyleHint xsi:type="xsd:string"></Appointment:DescriptionStyleHint>
@@ -358,7 +360,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Appointment:AssignmentStatus xsi:type="Appointment:AssignmentStatus">Unknown</Appointment:AssignmentStatus>
     <Appointment:InvitationStatus xsi:type="Appointment:InvitationStatus">Unknown</Appointment:InvitationStatus>
     <Appointment:BookingType xsi:type="Appointment:BookingType">Unknown</Appointment:BookingType>
-    <Appointment:ActiveDate xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:ActiveDate>
+    <Appointment:ActiveDate xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:ActiveDate>
     <Appointment:HasConflict xsi:type="xsd:boolean">false</Appointment:HasConflict>
     <Appointment:AssignedBy xsi:type="Appointment:Associate">
      <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
@@ -406,7 +408,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Appointment:PreferredTZLocation xsi:type="xsd:int">0</Appointment:PreferredTZLocation>
     <Appointment:Sale xsi:type="Appointment:Sale">
      <Appointment:ContactName xsi:type="xsd:string"></Appointment:ContactName>
-     <Appointment:SaleDate xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:SaleDate>
+     <Appointment:SaleDate xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:SaleDate>
      <Appointment:SaleId xsi:type="xsd:int">0</Appointment:SaleId>
      <Appointment:Probability xsi:type="xsd:short">0</Appointment:Probability>
      <Appointment:Title xsi:type="xsd:string"></Appointment:Title>
@@ -428,7 +430,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:PersonFullName xsi:type="xsd:string"></Appointment:PersonFullName>
      <Appointment:Completed xsi:type="Appointment:ActivityStatus">Unknown</Appointment:Completed>
      <Appointment:ActiveErpLinks xsi:type="xsd:int">0</Appointment:ActiveErpLinks>
-     <Appointment:NextDueDate xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:NextDueDate>
+     <Appointment:NextDueDate xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:NextDueDate>
      <Appointment:Number xsi:type="xsd:string"></Appointment:Number>
     </Appointment:Sale>
     <Appointment:SuggestedAppointmentId xsi:type="xsd:int">0</Appointment:SuggestedAppointmentId>
@@ -454,9 +456,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Appointment:Value xsi:type="xsd:string"></Appointment:Value>
      </Appointment:StringKeyValuePair>
     </Appointment:CustomFields>
-    <Appointment:PublishEventDate xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:PublishEventDate>
-    <Appointment:PublishTo xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:PublishTo>
-    <Appointment:PublishFrom xsi:type="xsd:dateTime">2022-08-26T08:58:15Z</Appointment:PublishFrom>
+    <Appointment:PublishEventDate xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:PublishEventDate>
+    <Appointment:PublishTo xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:PublishTo>
+    <Appointment:PublishFrom xsi:type="xsd:dateTime">2023-01-23T10:19:48Z</Appointment:PublishFrom>
     <Appointment:IsPublished xsi:type="xsd:boolean">false</Appointment:IsPublished>
     <Appointment:VisibleFor xsi:type="Appointment:ArrayOfVisibleFor">
      <Appointment:VisibleFor xsi:type="Appointment:VisibleFor">
@@ -471,3 +473,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

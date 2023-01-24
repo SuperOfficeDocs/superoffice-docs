@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.GetFolderInfo
 
 ## GetFolderInfo
 
-Retrieve information about folders.  If folders parameter is not specified(null), information about all subscribed folders will be returned.
 
-* **connectionInfo:** All information needed to connect to the mailserver
-* **folders:** Folders to get information about.
 
-**Returns:** Folder information
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -59,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFolderInfo Response
 
 ```xml
@@ -89,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

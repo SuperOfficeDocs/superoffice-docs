@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.PlaceOrder">S
 
 ## PlaceOrder
 
-Place an order in the ERP system.
 
-* **quoteAlternativeId:** Id of the alternative to place the order on.
-* **markSaleAsSold:** Should the state of the owning Sale be set to sold
-* **poNumber:** Purchase order number, saved to Quote record
-* **orderComment:** Order comment, saved to Quote record
-* **culture:** Desired culture for email body and other culture-sensitive templates/content
 
-**Returns:** Status for the placed order.
+
 
 [WSDL file for Services85/Quote](../Services85-Quote.md)
 
@@ -56,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## PlaceOrder Response
 
@@ -103,3 +98,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

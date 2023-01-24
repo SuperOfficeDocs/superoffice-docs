@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IFindAgent.GetRestriction
 
 ## GetRestrictionGroups
 
-Return all the restriction groups.
 
-* **storageType:** Restriction storage type specification, either 'Criteria' or 'Reporter' (or possible extensions)
-* **providerName:** Name of archive provider that is the intended consumer of the restrictions
-* **storageKey:** Storage key to be interpreted by the restriction storage provider, when it saves the restrictions as criteria
-* **context:** Optional context that can be used by FindProvider
 
-**Returns:** The restriction groups.
+
 
 [WSDL file for Services88/Find](../Services88-Find.md)
 
@@ -54,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetRestrictionGroups Response
 
@@ -146,3 +142,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

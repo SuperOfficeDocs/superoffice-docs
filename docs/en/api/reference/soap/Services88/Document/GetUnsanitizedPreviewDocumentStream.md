@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetUnsanit
 
 ## GetUnsanitizedPreviewDocumentStream
 
-Get the preview version of the document content as a stream. Retrieves an unsanitized version. This has less CPU impact but the caller must sanitize the content before presenting it to the user.
 
-* **documentId:** SuperOffice document id
 
-**Returns:** Unsanitized preview version of the document
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetUnsanitizedPreviewDocumentStream Response
 
 ```xml
@@ -74,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

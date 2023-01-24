@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/Resou
 
 Handled by the <see cref="T:SuperOffice.Services85.IResourceAgent">SuperOffice.Services85.IResourceAgent</see> interface.
 
-Interface for the Resource Agent
-String resource substitution management.
+
 
 Download [WSDL file for Services85/Resource](../Services85-Resource.md) if you need to generate your own proxy code.
 
@@ -20,3 +19,4 @@ Download [WSDL file for Services85/Resource](../Services85-Resource.md) if you n
 * [GetResourceSubstitutions](GetResourceSubstitutions.md)
 * [IsResourceSubstitutionActive](IsResourceSubstitutionActive.md)
 * [SetResourceSubstitution](SetResourceSubstitution.md)
+

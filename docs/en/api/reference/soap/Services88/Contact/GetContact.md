@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IContactAgent.GetContact"
 
 ## GetContact
 
-Gets a Contact object.
 
-* **contactId:** The identifier of the Contact object
 
-**Returns:** Contact
+
 
 [WSDL file for Services88/Contact](../Services88-Contact.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetContact Response
 
@@ -124,9 +123,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Contact:FullName xsi:type="xsd:string"></Contact:FullName>
     <Contact:IsOwnerContact xsi:type="xsd:boolean">false</Contact:IsOwnerContact>
     <Contact:ActiveErpLinks xsi:type="xsd:int">0</Contact:ActiveErpLinks>
+    <Contact:Number1 xsi:type="xsd:string"></Contact:Number1>
+    <Contact:Number2 xsi:type="xsd:string"></Contact:Number2>
    </Contact:Response>
   </Contact:GetContactResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.GetQuoteList"
 
 ## GetQuoteList
 
-Gets a named list from the connector Return array of QuoteListItems. Return NULL if the given list is not supported.
 
-* **quoteListType:** The name of the requested list, for instance: ProductCategory, ProductFamily, ProductType, PaymentTerms, PaymentType, DeliveryTerms, DeliveryType.
 
-**Returns:** The list items
+
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetQuoteList Response
 
 ```xml
@@ -75,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

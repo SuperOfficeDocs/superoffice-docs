@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAssociateAgent.GetNote">
 
 ## GetNote
 
-Returns an array of strings(notepad pages).
 
-* **associateId:** The associate id
 
-**Returns:** Returns an array of strings(notepad pages).
+
 
 [WSDL file for Services86/Associate](../Services86-Associate.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetNote Response
 
 ```xml
@@ -71,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetSources">Su
 
 ## GetSources
 
-Returns all sources
 
-**Returns:** Array of sources
+
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSources Response
 
 ```xml
@@ -72,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

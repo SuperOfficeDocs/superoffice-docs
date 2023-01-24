@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ILicenseAgent.UnassignThi
 
 ## UnassignThirdPartyLicenses
 
-Unassign (remove) third party licenses
 
-* **associateId:** User to unassign third party licenses for
-* **moduleOwner:** Name of the module owner to unassign license for
-* **moduleLicenseNames:** Name of module licenses to unassign (remove)
 
-**Returns:** All module license names assigned
+
 
 [WSDL file for Services88/License](../Services88-License.md)
 
@@ -55,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## UnassignThirdPartyLicenses Response
 
@@ -94,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

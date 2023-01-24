@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPocketAgent.GetMyCallerI
 
 ## GetMyCallerIDs
 
-Get caller ids that the current principal might be interested in (phone numbers of related persons in sales and appointments created/owned/touched by ourselves or colleagues in our primary group
 
-* **lastHash:** Hash for the previous call, used for checking if the same set of caller ids was sent in a previous call, and returning null in that case
-* **minDate:** Only check activities after this date
-* **maxDate:** Only check activities before this date
 
-**Returns:** Collection of caller IDs, containing the hash of the caller ids
+
 
 [WSDL file for Services88/Pocket](../Services88-Pocket.md)
 
@@ -44,14 +40,15 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Pocket:GetMyCallerIDs>
     <Pocket:LastHash xsi:type="xsd:string"></Pocket:LastHash>
-    <Pocket:MinDate xsi:type="xsd:dateTime">2022-08-26T09:00:02Z</Pocket:MinDate>
-    <Pocket:MaxDate xsi:type="xsd:dateTime">2022-08-26T09:00:02Z</Pocket:MaxDate>
+    <Pocket:MinDate xsi:type="xsd:dateTime">2023-01-23T10:21:30Z</Pocket:MinDate>
+    <Pocket:MaxDate xsi:type="xsd:dateTime">2023-01-23T10:21:30Z</Pocket:MaxDate>
    </Pocket:GetMyCallerIDs>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetMyCallerIDs Response
 
@@ -86,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISaleAgent.GetRecentSales
 
 ## GetRecentSales
 
-Returns the latest sales (that are sold) limited by their amount. The result is sorted descending with the latest first. If the amount is -1, the amount restriction is omitted.
 
-* **amountLimit:** The amount limit in the local currency.
-* **count:** The maximum number of items to return. If -1 all are returned.
 
-**Returns:** Array of all recent sales.
+
 
 [WSDL file for Services84/Sale](../Services84-Sale.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetRecentSales Response
 
 ```xml
@@ -68,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Sale:Response xsi:type="Sale:ArrayOfSale">
     <Sale:Sale xsi:type="Sale:Sale">
      <Sale:ContactName xsi:type="xsd:string"></Sale:ContactName>
-     <Sale:SaleDate xsi:type="xsd:dateTime">2022-08-26T08:51:45Z</Sale:SaleDate>
+     <Sale:SaleDate xsi:type="xsd:dateTime">2023-01-23T10:13:35Z</Sale:SaleDate>
      <Sale:SaleId xsi:type="xsd:int">0</Sale:SaleId>
      <Sale:Probability xsi:type="xsd:short">0</Sale:Probability>
      <Sale:Title xsi:type="xsd:string"></Sale:Title>
@@ -90,7 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Sale:PersonFullName xsi:type="xsd:string"></Sale:PersonFullName>
      <Sale:Completed xsi:type="Sale:ActivityStatus">Unknown</Sale:Completed>
      <Sale:ActiveErpLinks xsi:type="xsd:int">0</Sale:ActiveErpLinks>
-     <Sale:NextDueDate xsi:type="xsd:dateTime">2022-08-26T08:51:45Z</Sale:NextDueDate>
+     <Sale:NextDueDate xsi:type="xsd:dateTime">2023-01-23T10:13:35Z</Sale:NextDueDate>
     </Sale:Sale>
    </Sale:Response>
   </Sale:GetRecentSalesResponse>
@@ -98,3 +96,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

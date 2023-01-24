@@ -11,7 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISaleAgent.BatchUpdateNex
 
 ## BatchUpdateNextDueDate
 
-Re-calculate all the next due dates
+
+
+
 
 [WSDL file for Services85/Sale](../Services85-Sale.md)
 
@@ -44,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## BatchUpdateNextDueDate Response
 
 ```xml
@@ -63,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

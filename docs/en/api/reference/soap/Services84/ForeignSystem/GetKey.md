@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IForeignSystemAgent.GetKe
 
 ## GetKey
 
-Returning a foreign key by its key name, that belongs to the specified device and application. A table name and record ID can also be specified.
 
-* **applicationName:** The name of the foreign application.
-* **deviceName:** The name of the foreign device.
-* **keyName:** The name of the foreign key.
-* **tableName:** Table name, transformed to and from numeric table id by the service layer.<p />Use an empty string to indicate that your key is not bound to any specific table.
-* **recordId:** Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
 
-**Returns:** The ForeignKey.
+
 
 [WSDL file for Services84/ForeignSystem](../Services84-ForeignSystem.md)
 
@@ -56,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetKey Response
 
 ```xml
@@ -73,8 +68,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <ForeignSystem:Key xsi:type="xsd:string"></ForeignSystem:Key>
     <ForeignSystem:Value xsi:type="xsd:string"></ForeignSystem:Value>
     <ForeignSystem:RecordId xsi:type="xsd:int">0</ForeignSystem:RecordId>
-    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:50:59Z</ForeignSystem:CreatedDate>
-    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:50:59Z</ForeignSystem:UpdatedDate>
+    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:12:51Z</ForeignSystem:CreatedDate>
+    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:12:51Z</ForeignSystem:UpdatedDate>
     <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
     <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
     <ForeignSystem:TableName xsi:type="xsd:string"></ForeignSystem:TableName>
@@ -84,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

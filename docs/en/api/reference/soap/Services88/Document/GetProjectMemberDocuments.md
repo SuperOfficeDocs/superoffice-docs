@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetProject
 
 ## GetProjectMemberDocuments
 
-Method that returns a specified number of document appointments within a time range. The document appointments belong to the project member specified.
 
-* **personId:** The project member's person id
-* **startTime:** The start of the time interval we want appointments from. This will usually be the current time.
-* **endTime:** The end of the time interval.
-* **count:** The maximum number of appointments that should be returned. -1 means no count restrictions.
 
-**Returns:** Array of Appointments.
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -45,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Document:GetProjectMemberDocuments>
     <Document:PersonId xsi:type="xsd:int">0</Document:PersonId>
-    <Document:StartTime xsi:type="xsd:dateTime">2022-08-26T08:59:15Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2022-08-26T08:59:15Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2023-01-23T10:20:45Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2023-01-23T10:20:45Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
    </Document:GetProjectMemberDocuments>
 
@@ -54,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetProjectMemberDocuments Response
 
@@ -98,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

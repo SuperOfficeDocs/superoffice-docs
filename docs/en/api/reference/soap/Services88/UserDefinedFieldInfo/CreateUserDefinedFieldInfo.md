@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserDefinedFieldInfoAgen
 
 ## CreateUserDefinedFieldInfo
 
-Create a UserDefinedFieldInfo based on a owner-entity id
 
-* **ownerType:** The user-defined field owner-entity id.
-* **fieldType:** The field type of the new field
 
-**Returns:** Returns the user-defined field info carrier
+
 
 [WSDL file for Services88/UserDefinedFieldInfo](../Services88-UserDefinedFieldInfo.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateUserDefinedFieldInfo Response
 
@@ -106,3 +104,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

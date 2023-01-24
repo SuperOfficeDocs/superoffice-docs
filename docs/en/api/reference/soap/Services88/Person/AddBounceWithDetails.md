@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.AddBounceWit
 
 ## AddBounceWithDetails
 
-Add a number of bounce counts on the email address if it exists, and with possible bounce code and reason
 
-* **emailAddress:** The email address which we want to add bounce counts to
-* **counts:** The number of bounce counts to add
-* **code:** A numeric code representing the bounce reason
-* **reason:** A textual tag representing the bounce reason
+
+
 
 [WSDL file for Services88/Person](../Services88-Person.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddBounceWithDetails Response
 
 ```xml
@@ -72,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

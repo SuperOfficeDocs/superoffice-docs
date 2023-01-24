@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Audie
 
 Handled by the <see cref="T:SuperOffice.Services88.IAudienceAgent">SuperOffice.Services88.IAudienceAgent</see> interface.
 
-Interface for the Audience Agent
-Services specific to the Audience client
+
 
 Download [WSDL file for Services88/Audience](../Services88-Audience.md) if you need to generate your own proxy code.
 
@@ -41,3 +40,4 @@ Download [WSDL file for Services88/Audience](../Services88-Audience.md) if you n
 * [SetDefaultPersonImage](SetDefaultPersonImage.md)
 * [SetDefaultProjectImage](SetDefaultProjectImage.md)
 * [SetLogoImage](SetLogoImage.md)
+

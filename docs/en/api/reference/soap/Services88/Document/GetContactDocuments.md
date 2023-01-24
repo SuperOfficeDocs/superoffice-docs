@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetContact
 
 ## GetContactDocuments
 
-Method that returns a specified number of document appointments within a time range. The document appointments belong to the contact specified.
 
-* **contactId:** The contact id
-* **startTime:** The start of the time interval we want appointments from. This will usually be the current time.
-* **endTime:** The end of the time interval.
-* **count:** The maximum number of appointments that should be returned. -1 means no count restrictions.
 
-**Returns:** Array of Appointments.
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -45,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Document:GetContactDocuments>
     <Document:ContactId xsi:type="xsd:int">0</Document:ContactId>
-    <Document:StartTime xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2023-01-23T10:20:45Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2023-01-23T10:20:45Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
    </Document:GetContactDocuments>
 
@@ -54,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetContactDocuments Response
 
@@ -98,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

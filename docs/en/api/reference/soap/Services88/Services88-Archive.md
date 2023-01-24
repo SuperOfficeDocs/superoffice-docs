@@ -910,6 +910,51 @@ title: Services88.ArchiveAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="ExportArchiveResult" nillable="true" type="tns:ExportArchiveResult" />
+      <xs:element name="GetRelatedData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Table" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="RecordId" type="xs:int" />
+            <xs:element minOccurs="0" name="Fields" nillable="true" type="q25:ArrayOfstring" xmlns:q25="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetRelatedDataResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfRelatedData" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfRelatedData">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="RelatedData" nillable="true" type="tns:RelatedData" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfRelatedData" nillable="true" type="tns:ArrayOfRelatedData" />
+      <xs:complexType name="RelatedData">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Field" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FieldValue" nillable="true" type="tns:ArchiveColumnData" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="RelatedData" nillable="true" type="tns:RelatedData" />
+      <xs:element name="GetRelatedData2">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Table" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="RecordId" type="xs:int" />
+            <xs:element minOccurs="0" name="Fields" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetRelatedData2Response">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfRelatedData" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -1460,212 +1505,164 @@ title: Services88.ArchiveAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetRelatedDataRequest">
+    <wsdl:part name="parameters" element="tns:GetRelatedData" />
+  </wsdl:message>
+  <wsdl:message name="GetRelatedDataRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetRelatedDataResponse">
+    <wsdl:part name="parameters" element="tns:GetRelatedDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRelatedDataResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetRelatedData2Request">
+    <wsdl:part name="parameters" element="tns:GetRelatedData2" />
+  </wsdl:message>
+  <wsdl:message name="GetRelatedData2Request_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetRelatedData2Response">
+    <wsdl:part name="parameters" element="tns:GetRelatedData2Response" />
+  </wsdl:message>
+  <wsdl:message name="GetRelatedData2Response_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="Archive">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Archive</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultArchiveListResult">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ArchiveListResult.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/CreateDefaultArchiveListResult" name="CreateDefaultArchiveListResultRequest" message="tns:CreateDefaultArchiveListResultRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/CreateDefaultArchiveListResultResponse" name="CreateDefaultArchiveListResultResponse" message="tns:CreateDefaultArchiveListResultResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetActivityFilter">
-      <wsdl:documentation>
-        <summary>Get activity filter for the specified list.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetActivityFilter" name="GetActivityFilterRequest" message="tns:GetActivityFilterRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetActivityFilterResponse" name="GetActivityFilterResponse" message="tns:GetActivityFilterResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetActivityFilter">
-      <wsdl:documentation>
-        <summary>Set activity filter for the specified list.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetActivityFilter" name="SetActivityFilterRequest" message="tns:SetActivityFilterRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetActivityFilterResponse" name="SetActivityFilterResponse" message="tns:SetActivityFilterResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetGroupAssociateIds">
-      <wsdl:documentation>
-        <summary>Returns the  associate ids that belongs to the given groups</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetGroupAssociateIds" name="GetGroupAssociateIdsRequest" message="tns:GetGroupAssociateIdsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetGroupAssociateIdsResponse" name="GetGroupAssociateIdsResponse" message="tns:GetGroupAssociateIdsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveConfiguration">
-      <wsdl:documentation>
-        <summary>Get the configuration for one archive. The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveConfiguration" name="GetArchiveConfigurationRequest" message="tns:GetArchiveConfigurationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveConfigurationResponse" name="GetArchiveConfigurationResponse" message="tns:GetArchiveConfigurationResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveConfigurationWithContext">
-      <wsdl:documentation>
-        <summary>Get the configuration for one archive, with context parameter. The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveConfigurationWithContext" name="GetArchiveConfigurationWithContextRequest" message="tns:GetArchiveConfigurationWithContextRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveConfigurationWithContextResponse" name="GetArchiveConfigurationWithContextResponse" message="tns:GetArchiveConfigurationWithContextResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetColumnWidths">
-      <wsdl:documentation>
-        <summary>Set the column widths for the given set of columns and GUI name. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetColumnWidths" name="SetColumnWidthsRequest" message="tns:SetColumnWidthsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetColumnWidthsResponse" name="SetColumnWidthsResponse" message="tns:SetColumnWidthsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetChosenEntities">
-      <wsdl:documentation>
-        <summary>Set the currently chosen entities for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetChosenEntities" name="SetChosenEntitiesRequest" message="tns:SetChosenEntitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetChosenEntitiesResponse" name="SetChosenEntitiesResponse" message="tns:SetChosenEntitiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetChosenColumns">
-      <wsdl:documentation>
-        <summary>Set the currently chosen columns for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetChosenColumns" name="SetChosenColumnsRequest" message="tns:SetChosenColumnsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetChosenColumnsResponse" name="SetChosenColumnsResponse" message="tns:SetChosenColumnsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveConfigurationV2">
-      <wsdl:documentation>
-        <summary>Get the configuration for one archive. The configuration is keyed by a combination of archive provider name (plus optional context), gui name, and optional table binding. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveConfigurationV2" name="GetArchiveConfigurationV2Request" message="tns:GetArchiveConfigurationV2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveConfigurationV2Response" name="GetArchiveConfigurationV2Response" message="tns:GetArchiveConfigurationV2Response" />
     </wsdl:operation>
     <wsdl:operation name="SetColumnWidthsV2">
-      <wsdl:documentation>
-        <summary>Set the column widths for the given set of columns and GUI name. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetColumnWidthsV2" name="SetColumnWidthsV2Request" message="tns:SetColumnWidthsV2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetColumnWidthsV2Response" name="SetColumnWidthsV2Response" message="tns:SetColumnWidthsV2Response" />
     </wsdl:operation>
     <wsdl:operation name="SetChosenEntitiesV2">
-      <wsdl:documentation>
-        <summary>Set the currently chosen entities for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetChosenEntitiesV2" name="SetChosenEntitiesV2Request" message="tns:SetChosenEntitiesV2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetChosenEntitiesV2Response" name="SetChosenEntitiesV2Response" message="tns:SetChosenEntitiesV2Response" />
     </wsdl:operation>
     <wsdl:operation name="SetChosenColumnsV2">
-      <wsdl:documentation>
-        <summary>Set the currently chosen columns for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetChosenColumnsV2" name="SetChosenColumnsV2Request" message="tns:SetChosenColumnsV2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/SetChosenColumnsV2Response" name="SetChosenColumnsV2Response" message="tns:SetChosenColumnsV2Response" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveListByColumns">
-      <wsdl:documentation>
-        <summary>Get a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumns" name="GetArchiveListByColumnsRequest" message="tns:GetArchiveListByColumnsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsResponse" name="GetArchiveListByColumnsResponse" message="tns:GetArchiveListByColumnsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveListByColumnsWithContext">
-      <wsdl:documentation>
-        <summary>Get a page of results for an archive list with context parameter, explicitly specifying the restrictions, orderby and chosen columns.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithContext" name="GetArchiveListByColumnsWithContextRequest" message="tns:GetArchiveListByColumnsWithContextRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithContextResponse" name="GetArchiveListByColumnsWithContextResponse" message="tns:GetArchiveListByColumnsWithContextResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveList">
-      <wsdl:documentation>
-        <summary>Get a page of data for an archive. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveList" name="GetArchiveListRequest" message="tns:GetArchiveListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListResponse" name="GetArchiveListResponse" message="tns:GetArchiveListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveListWithContext">
-      <wsdl:documentation>
-        <summary>Get a page of data for an archive, with context parameter. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListWithContext" name="GetArchiveListWithContextRequest" message="tns:GetArchiveListWithContextRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListWithContextResponse" name="GetArchiveListWithContextResponse" message="tns:GetArchiveListWithContextResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveListByColumnsWithHeader">
-      <wsdl:documentation>
-        <summary>Get a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options. The return value includes a header that has various extra information, in addition to the actual rows.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithHeader" name="GetArchiveListByColumnsWithHeaderRequest" message="tns:GetArchiveListByColumnsWithHeaderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithHeaderResponse" name="GetArchiveListByColumnsWithHeaderResponse" message="tns:GetArchiveListByColumnsWithHeaderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProviderNames">
-      <wsdl:documentation>
-        <summary>Return list of all archive provider names</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetProviderNames" name="GetProviderNamesRequest" message="tns:GetProviderNamesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetProviderNamesResponse" name="GetProviderNamesResponse" message="tns:GetProviderNamesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveListByColumnsWithHeaderWithContext">
-      <wsdl:documentation>
-        <summary>Get a page of results for an archive list, with context parameter, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options. The return value includes a header that has various extra information, in addition to the actual rows.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithHeaderWithContext" name="GetArchiveListByColumnsWithHeaderWithContextRequest" message="tns:GetArchiveListByColumnsWithHeaderWithContextRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithHeaderWithContextResponse" name="GetArchiveListByColumnsWithHeaderWithContextResponse" message="tns:GetArchiveListByColumnsWithHeaderWithContextResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAvailableColumns">
-      <wsdl:documentation>
-        <summary>Return list of all columns supported by an archive provider. See also GetArchiveConfiguration.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetAvailableColumns" name="GetAvailableColumnsRequest" message="tns:GetAvailableColumnsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetAvailableColumnsResponse" name="GetAvailableColumnsResponse" message="tns:GetAvailableColumnsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAvailableEntities">
-      <wsdl:documentation>
-        <summary>Return list of all entities supported by an archive provider. See also GetArchiveConfiguration.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetAvailableEntities" name="GetAvailableEntitiesRequest" message="tns:GetAvailableEntitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetAvailableEntitiesResponse" name="GetAvailableEntitiesResponse" message="tns:GetAvailableEntitiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveListByColumns2">
-      <wsdl:documentation>
-        <summary>Get a page of results for an archive list, explicitly specifying the restrictions as a string, orderby and chosen columns.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumns2" name="GetArchiveListByColumns2Request" message="tns:GetArchiveListByColumns2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumns2Response" name="GetArchiveListByColumns2Response" message="tns:GetArchiveListByColumns2Response" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveListByColumnsWithContext2">
-      <wsdl:documentation>
-        <summary>Get a page of results for an archive list with context parameter, explicitly specifying the restrictions as a string, orderby and chosen columns.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithContext2" name="GetArchiveListByColumnsWithContext2Request" message="tns:GetArchiveListByColumnsWithContext2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithContext2Response" name="GetArchiveListByColumnsWithContext2Response" message="tns:GetArchiveListByColumnsWithContext2Response" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveList2">
-      <wsdl:documentation>
-        <summary>Get a page of data for an archive using a restriction string. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveList2" name="GetArchiveList2Request" message="tns:GetArchiveList2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveList2Response" name="GetArchiveList2Response" message="tns:GetArchiveList2Response" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveListWithContext2">
-      <wsdl:documentation>
-        <summary>Get a page of data for an archive using restrictions as strings, with context parameter. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListWithContext2" name="GetArchiveListWithContext2Request" message="tns:GetArchiveListWithContext2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListWithContext2Response" name="GetArchiveListWithContext2Response" message="tns:GetArchiveListWithContext2Response" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveListByColumnsWithHeader2">
-      <wsdl:documentation>
-        <summary>Get a page of results for an archive list, explicitly specifying the restrictions as strings, orderby and chosen columns; as well as a name/value string formatted set of options. The return value includes a header that has various extra information, in addition to the actual rows.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithHeader2" name="GetArchiveListByColumnsWithHeader2Request" message="tns:GetArchiveListByColumnsWithHeader2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithHeader2Response" name="GetArchiveListByColumnsWithHeader2Response" message="tns:GetArchiveListByColumnsWithHeader2Response" />
     </wsdl:operation>
     <wsdl:operation name="GetArchiveListByColumnsWithHeaderWithContext2">
-      <wsdl:documentation>
-        <summary>Get a page of results for an archive list, with context parameter, explicitly specifying the restrictions as strings, orderby and chosen columns; as well as a name/value string formatted set of options. The return value includes a header that has various extra information, in addition to the actual rows.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithHeaderWithContext2" name="GetArchiveListByColumnsWithHeaderWithContext2Request" message="tns:GetArchiveListByColumnsWithHeaderWithContext2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithHeaderWithContext2Response" name="GetArchiveListByColumnsWithHeaderWithContext2Response" message="tns:GetArchiveListByColumnsWithHeaderWithContext2Response" />
     </wsdl:operation>
     <wsdl:operation name="ExportArchive">
-      <wsdl:documentation>
-        <summary>Exports the target archive to a downloadable format.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/ExportArchive" name="ExportArchiveRequest" message="tns:ExportArchiveRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/ExportArchiveResponse" name="ExportArchiveResponse" message="tns:ExportArchiveResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRelatedData">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetRelatedData" name="GetRelatedDataRequest" message="tns:GetRelatedDataRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetRelatedDataResponse" name="GetRelatedDataResponse" message="tns:GetRelatedDataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRelatedData2">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetRelatedData2" name="GetRelatedData2Request" message="tns:GetRelatedData2Request" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetRelatedData2Response" name="GetRelatedData2Response" message="tns:GetRelatedData2Response" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Archive" type="tns:Archive">
@@ -2134,6 +2131,38 @@ title: Services88.ArchiveAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetRelatedData">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetRelatedData" style="document" />
+      <wsdl:input name="GetRelatedDataRequest">
+        <soap:header message="tns:GetRelatedDataRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetRelatedDataRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetRelatedDataRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetRelatedDataResponse">
+        <soap:header message="tns:GetRelatedDataResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetRelatedDataResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetRelatedDataResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetRelatedDataResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRelatedData2">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetRelatedData2" style="document" />
+      <wsdl:input name="GetRelatedData2Request">
+        <soap:header message="tns:GetRelatedData2Request_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetRelatedData2Request_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetRelatedData2Request_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetRelatedData2Response">
+        <soap:header message="tns:GetRelatedData2Response_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetRelatedData2Response_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetRelatedData2Response_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetRelatedData2Response_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="WcfArchiveService">
     <wsdl:port name="BasicHttpBinding_Archive" binding="tns:BasicHttpBinding_Archive">
@@ -2142,3 +2171,4 @@ title: Services88.ArchiveAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

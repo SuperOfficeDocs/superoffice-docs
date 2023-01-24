@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.GetRole">Super
 
 ## GetRole
 
-Gets a Role object.
 
-* **roleId:** The identifier of the Role object
 
-**Returns:** Role
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetRole Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

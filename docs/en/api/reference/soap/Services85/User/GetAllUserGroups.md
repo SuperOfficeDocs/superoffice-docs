@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.GetAllUserGrou
 
 ## GetAllUserGroups
 
-Get all user groups
 
-* **includeDeleted:** Include user groups with Deleted set to true
 
-**Returns:** All user groups
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAllUserGroups Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

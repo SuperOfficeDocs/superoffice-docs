@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.DeleteDash">Su
 
 ## DeleteDash
 
-Deletes the Dash
 
-* **dashId:** The identity of the Dash
+
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteDash Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

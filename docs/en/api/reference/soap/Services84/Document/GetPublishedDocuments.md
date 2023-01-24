@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IDocumentAgent.GetPublish
 
 ## GetPublishedDocuments
 
-Get the published documents from an array of doucment ids.
 
-* **documentIds:** Array of document ids.
 
-**Returns:** Array of Document
+
 
 [WSDL file for Services84/Document](../Services84-Document.md)
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPublishedDocuments Response
 
@@ -91,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

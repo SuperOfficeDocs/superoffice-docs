@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.GetAddressBy
 
 ## GetAddressByCountry
 
-Gets the person's localized address.
 
-* **personId:** The person id
-* **countryId:**
 
-**Returns:** The address as LocalizedField[][].
+
 
 [WSDL file for Services87/Person](../Services87-Person.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAddressByCountry Response
 
@@ -109,3 +107,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetEmarketingS
 
 ## GetEmarketingStrictMode
 
-Get the value of the Emarketing strict mode setting
 
-**Returns:** Returns true if Emarkerint strict mode is set, false otherwise
+
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetEmarketingStrictMode Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

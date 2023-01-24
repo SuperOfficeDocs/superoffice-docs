@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IImportAgent.SaveImport">
 
 ## SaveImport
 
-Do the actual import
 
-* **importLines:** The rows that will be imported
-* **columnDefinition:** An array of the columndefinitions, like firstname, lastname, ...
-* **createSelection:** true if a selection of the imported entities shall be made
-* **culture:** The current culture used in the import. Used to match language specific strings
-* **context:** Optional context for the import.
 
-**Returns:** First part: the id of the selection created after the import, 0 if no selection is created. Second part: The number of rows actually imported
+
 
 [WSDL file for Services86/Import](../Services86-Import.md)
 
@@ -69,6 +63,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveImport Response
 
 ```xml
@@ -91,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

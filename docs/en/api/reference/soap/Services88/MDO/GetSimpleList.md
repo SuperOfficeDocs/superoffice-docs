@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IMDOAgent.GetSimpleList">
 
 ## GetSimpleList
 
-Method returns a simple flat MDO List.
 
-* **name:** Conceptual name of the MDO list-
 
-**Returns:** Array of MDOListItem
+
 
 [WSDL file for Services88/MDO](../Services88-MDO.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSimpleList Response
 
@@ -116,3 +115,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

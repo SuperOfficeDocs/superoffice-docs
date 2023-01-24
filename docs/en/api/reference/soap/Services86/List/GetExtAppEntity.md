@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetExtAppEntit
 
 ## GetExtAppEntity
 
-Gets a ExtAppEntity object.
 
-* **extAppEntityId:** The identifier of the ExtAppEntity object
 
-**Returns:** ExtAppEntity
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetExtAppEntity Response
 
@@ -92,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

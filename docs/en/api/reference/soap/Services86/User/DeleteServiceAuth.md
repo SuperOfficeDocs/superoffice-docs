@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.DeleteServiceA
 
 ## DeleteServiceAuth
 
-Deletes the ServiceAuth
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **serviceAuthId:** The identity of the ServiceAuth
+
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteServiceAuth Response
 
 ```xml
@@ -67,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

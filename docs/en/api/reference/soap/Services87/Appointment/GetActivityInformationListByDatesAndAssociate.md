@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.GetActi
 
 ## GetActivityInformationListByDatesAndAssociate
 
-Get activity information for one or more days according to the given date interval. The time portion of the dates is ignored. Private appointments are counted, but may not be visible through tooltips or other more detailed services.
 
-* **startDate:** Start date of interval. Time portion is ignored.
-* **endDate:** End date of interval. Time portion is ignored.
-* **associateId:** Associate id to identify the calendar to scan. If 0 is passed in, the currently authenticated associate is used instead.
 
-**Returns:** Exactly one item per day of the given time span is returned. Days where nothing happens will have all values set to 0, but will still be in the returned array. Start end dates are treated as inclusive.
+
 
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
@@ -43,8 +39,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Appointment:Credentials>
  <SOAP-ENV:Body>
    <Appointment:GetActivityInformationListByDatesAndAssociate>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2023-01-23T10:17:52Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2023-01-23T10:17:52Z</Appointment:EndDate>
     <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
    </Appointment:GetActivityInformationListByDatesAndAssociate>
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetActivityInformationListByDatesAndAssociate Response
 
@@ -69,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:GetActivityInformationListByDatesAndAssociateResponse>
    <Appointment:Response xsi:type="Appointment:ArrayOfActivityInformationListItem">
     <Appointment:ActivityInformationListItem xsi:type="Appointment:ActivityInformationListItem">
-     <Appointment:Date xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Appointment:Date>
+     <Appointment:Date xsi:type="xsd:dateTime">2023-01-23T10:17:52Z</Appointment:Date>
      <Appointment:ActivityInformation xsi:type="Appointment:ActivitySummary">
       <Appointment:NumBusyActivities xsi:type="xsd:int">0</Appointment:NumBusyActivities>
       <Appointment:NumFreeActivities xsi:type="xsd:int">0</Appointment:NumFreeActivities>
@@ -82,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

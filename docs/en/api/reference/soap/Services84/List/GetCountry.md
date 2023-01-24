@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetCountry">Su
 
 ## GetCountry
 
-Gets a Country object.
 
-* **countryId:** The identifier of the Country object
 
-**Returns:** Country
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetCountry Response
 
@@ -88,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

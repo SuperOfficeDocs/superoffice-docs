@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.GetSuggest
 
 ## GetSuggestedDocumentEntity
 
-Gets a SuggestedDocumentEntity object.
 
-* **suggestedDocumentEntityId:** The identifier of the SuggestedDocumentEntity object
 
-**Returns:** SuggestedDocumentEntity
+
 
 [WSDL file for Services86/Document](../Services86-Document.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSuggestedDocumentEntity Response
 
@@ -110,3 +109,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

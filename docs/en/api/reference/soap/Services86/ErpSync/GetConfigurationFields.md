@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.GetConfigur
 
 ## GetConfigurationFields
 
-Returns all fields needed to connect to the given connector
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-* **erpConnectorId:** The id of the erp connector
 
-**Returns:** The fields
+
 
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
@@ -49,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetConfigurationFields Response
 
@@ -83,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

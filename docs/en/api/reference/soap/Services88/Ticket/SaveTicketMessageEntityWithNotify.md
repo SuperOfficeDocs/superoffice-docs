@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.SaveTicketMe
 
 ## SaveTicketMessageEntityWithNotify
 
-Saves a ticket message and performs any user notifications
 
-* **newEntity:** The ticket message to save
-* **notify:** If true, then the notification will be sent along with the save
 
-**Returns:** The newly saved entity
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -47,16 +44,16 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:Ticket xsi:type="Ticket:Ticket">
       <Ticket:TicketId xsi:type="xsd:int">0</Ticket:TicketId>
       <Ticket:Title xsi:type="xsd:string"></Ticket:Title>
-      <Ticket:CreatedAt xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:CreatedAt>
-      <Ticket:LastChanged xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:LastChanged>
-      <Ticket:ReadByOwner xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:ReadByOwner>
-      <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:ReadByCustomer>
-      <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:FirstReadByUser>
-      <Ticket:Activate xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:Activate>
-      <Ticket:ClosedAt xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:ClosedAt>
-      <Ticket:RepliedAt xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:RepliedAt>
-      <Ticket:AlertTimeout xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:AlertTimeout>
-      <Ticket:Deadline xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:Deadline>
+      <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:CreatedAt>
+      <Ticket:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:LastChanged>
+      <Ticket:ReadByOwner xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:ReadByOwner>
+      <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:ReadByCustomer>
+      <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:FirstReadByUser>
+      <Ticket:Activate xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:Activate>
+      <Ticket:ClosedAt xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:ClosedAt>
+      <Ticket:RepliedAt xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:RepliedAt>
+      <Ticket:AlertTimeout xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:AlertTimeout>
+      <Ticket:Deadline xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:Deadline>
       <Ticket:CreatedBy xsi:type="xsd:int">0</Ticket:CreatedBy>
       <Ticket:CreatedByName xsi:type="xsd:string"></Ticket:CreatedByName>
       <Ticket:Author xsi:type="xsd:string"></Ticket:Author>
@@ -100,8 +97,10 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Ticket:Language xsi:type="xsd:string"></Ticket:Language>
       <Ticket:Sentiment xsi:type="xsd:int">0</Ticket:Sentiment>
       <Ticket:SentimentConfidence xsi:type="xsd:int">0</Ticket:SentimentConfidence>
+      <Ticket:SaleId xsi:type="xsd:int">0</Ticket:SaleId>
+      <Ticket:ProjectId xsi:type="xsd:int">0</Ticket:ProjectId>
      </Ticket:Ticket>
-     <Ticket:CreatedAt xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:CreatedAt>
+     <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:CreatedAt>
      <Ticket:CreatedBy xsi:type="Ticket:Associate">
       <Ticket:AssociateId xsi:type="xsd:int">0</Ticket:AssociateId>
       <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
@@ -172,6 +171,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:SearchTitle xsi:type="xsd:string"></Ticket:SearchTitle>
      <Ticket:MessageHeaders xsi:type="Ticket:ArrayOfTicketMessageHeader">
       <Ticket:TicketMessageHeader xsi:type="Ticket:TicketMessageHeader">
+       <Ticket:Id xsi:type="xsd:int">0</Ticket:Id>
        <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
        <Ticket:Value xsi:type="xsd:string"></Ticket:Value>
        <Ticket:StdItem xsi:type="Ticket:MessageHeaderStdItem">None</Ticket:StdItem>
@@ -182,6 +182,16 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:Language xsi:type="xsd:string"></Ticket:Language>
      <Ticket:Sentiment xsi:type="xsd:int">0</Ticket:Sentiment>
      <Ticket:SentimentConfidence xsi:type="xsd:int">0</Ticket:SentimentConfidence>
+     <Ticket:AttachmentsInfo xsi:type="Ticket:ArrayOfAttachmentEntity">
+      <Ticket:AttachmentEntity xsi:type="Ticket:AttachmentEntity">
+       <Ticket:AttachmentId xsi:type="xsd:int">0</Ticket:AttachmentId>
+       <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
+       <Ticket:ContentType xsi:type="xsd:string"></Ticket:ContentType>
+       <Ticket:AttSize xsi:type="xsd:int">0</Ticket:AttSize>
+       <Ticket:InlineImage xsi:type="xsd:boolean">false</Ticket:InlineImage>
+       <Ticket:ContentId xsi:type="xsd:string"></Ticket:ContentId>
+      </Ticket:AttachmentEntity>
+     </Ticket:AttachmentsInfo>
      <Ticket:ExtraFields xsi:type="Ticket:StringDictionary">
       <Ticket:StringKeyValuePair>
        <Ticket:Key xsi:type="xsd:string"></Ticket:Key>
@@ -203,6 +213,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveTicketMessageEntityWithNotify Response
 
 ```xml
@@ -222,16 +233,16 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:Ticket xsi:type="Ticket:Ticket">
      <Ticket:TicketId xsi:type="xsd:int">0</Ticket:TicketId>
      <Ticket:Title xsi:type="xsd:string"></Ticket:Title>
-     <Ticket:CreatedAt xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:CreatedAt>
-     <Ticket:LastChanged xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:LastChanged>
-     <Ticket:ReadByOwner xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:ReadByOwner>
-     <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:ReadByCustomer>
-     <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:FirstReadByUser>
-     <Ticket:Activate xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:Activate>
-     <Ticket:ClosedAt xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:ClosedAt>
-     <Ticket:RepliedAt xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:RepliedAt>
-     <Ticket:AlertTimeout xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:AlertTimeout>
-     <Ticket:Deadline xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:Deadline>
+     <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:CreatedAt>
+     <Ticket:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:LastChanged>
+     <Ticket:ReadByOwner xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:ReadByOwner>
+     <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:ReadByCustomer>
+     <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:FirstReadByUser>
+     <Ticket:Activate xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:Activate>
+     <Ticket:ClosedAt xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:ClosedAt>
+     <Ticket:RepliedAt xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:RepliedAt>
+     <Ticket:AlertTimeout xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:AlertTimeout>
+     <Ticket:Deadline xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:Deadline>
      <Ticket:CreatedBy xsi:type="xsd:int">0</Ticket:CreatedBy>
      <Ticket:CreatedByName xsi:type="xsd:string"></Ticket:CreatedByName>
      <Ticket:Author xsi:type="xsd:string"></Ticket:Author>
@@ -275,8 +286,10 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:Language xsi:type="xsd:string"></Ticket:Language>
      <Ticket:Sentiment xsi:type="xsd:int">0</Ticket:Sentiment>
      <Ticket:SentimentConfidence xsi:type="xsd:int">0</Ticket:SentimentConfidence>
+     <Ticket:SaleId xsi:type="xsd:int">0</Ticket:SaleId>
+     <Ticket:ProjectId xsi:type="xsd:int">0</Ticket:ProjectId>
     </Ticket:Ticket>
-    <Ticket:CreatedAt xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:CreatedAt>
+    <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-01-23T10:22:09Z</Ticket:CreatedAt>
     <Ticket:CreatedBy xsi:type="Ticket:Associate">
      <Ticket:AssociateId xsi:type="xsd:int">0</Ticket:AssociateId>
      <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
@@ -347,6 +360,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:SearchTitle xsi:type="xsd:string"></Ticket:SearchTitle>
     <Ticket:MessageHeaders xsi:type="Ticket:ArrayOfTicketMessageHeader">
      <Ticket:TicketMessageHeader xsi:type="Ticket:TicketMessageHeader">
+      <Ticket:Id xsi:type="xsd:int">0</Ticket:Id>
       <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
       <Ticket:Value xsi:type="xsd:string"></Ticket:Value>
       <Ticket:StdItem xsi:type="Ticket:MessageHeaderStdItem">None</Ticket:StdItem>
@@ -357,6 +371,16 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:Language xsi:type="xsd:string"></Ticket:Language>
     <Ticket:Sentiment xsi:type="xsd:int">0</Ticket:Sentiment>
     <Ticket:SentimentConfidence xsi:type="xsd:int">0</Ticket:SentimentConfidence>
+    <Ticket:AttachmentsInfo xsi:type="Ticket:ArrayOfAttachmentEntity">
+     <Ticket:AttachmentEntity xsi:type="Ticket:AttachmentEntity">
+      <Ticket:AttachmentId xsi:type="xsd:int">0</Ticket:AttachmentId>
+      <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
+      <Ticket:ContentType xsi:type="xsd:string"></Ticket:ContentType>
+      <Ticket:AttSize xsi:type="xsd:int">0</Ticket:AttSize>
+      <Ticket:InlineImage xsi:type="xsd:boolean">false</Ticket:InlineImage>
+      <Ticket:ContentId xsi:type="xsd:string"></Ticket:ContentId>
+     </Ticket:AttachmentEntity>
+    </Ticket:AttachmentsInfo>
     <Ticket:ExtraFields xsi:type="Ticket:StringDictionary">
      <Ticket:StringKeyValuePair>
       <Ticket:Key xsi:type="xsd:string"></Ticket:Key>
@@ -375,3 +399,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

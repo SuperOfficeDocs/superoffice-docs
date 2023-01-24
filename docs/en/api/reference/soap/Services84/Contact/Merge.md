@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IContactAgent.Merge">Supe
 
 ## Merge
 
-Merge two contacts. The destination contact will remain.
 
-* **sourceContactId:** Source contact to merge from. This contact will disappear after the merge.
-* **destinationContactId:** Destination contact to merge into
-* **mergeIdenticalPersons:** Persons with identical names will be merged
-* **replaceEmptyFieldsOnDestination:** If true, empty fields on destination will be replaced by values from source.
+
+
 
 [WSDL file for Services84/Contact](../Services84-Contact.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## Merge Response
 
 ```xml
@@ -72,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

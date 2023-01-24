@@ -496,34 +496,19 @@ title: Services85.ImportAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Import">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Import</summary>
-    </wsdl:documentation>
     <wsdl:operation name="PreviewImport">
-      <wsdl:documentation>
-        <summary>Preview the import</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Import/PreviewImport" name="PreviewImportRequest" message="tns:PreviewImportRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Import/PreviewImportResponse" name="PreviewImportResponse" message="tns:PreviewImportResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveImport">
-      <wsdl:documentation>
-        <summary>Do the actual import</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Import/SaveImport" name="SaveImportRequest" message="tns:SaveImportRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Import/SaveImportResponse" name="SaveImportResponse" message="tns:SaveImportResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultImportLine">
-      <wsdl:documentation>
-        <summary>Create a new empty import row with x count of values</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Import/CreateDefaultImportLine" name="CreateDefaultImportLineRequest" message="tns:CreateDefaultImportLineRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Import/CreateDefaultImportLineResponse" name="CreateDefaultImportLineResponse" message="tns:CreateDefaultImportLineResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateErpImportData">
-      <wsdl:documentation>
-        <summary>Populates the ImportLines and columnDefs basedfrom erp system</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Import/CreateErpImportData" name="CreateErpImportDataRequest" message="tns:CreateErpImportDataRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Import/CreateErpImportDataResponse" name="CreateErpImportDataResponse" message="tns:CreateErpImportDataResponse" />
     </wsdl:operation>
@@ -602,3 +587,4 @@ title: Services85.ImportAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

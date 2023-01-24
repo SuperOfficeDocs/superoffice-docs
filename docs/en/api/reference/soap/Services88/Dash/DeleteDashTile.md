@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.DeleteDashTile
 
 ## DeleteDashTile
 
-Deletes the DashTile
 
-* **dashTileId:** The identity of the DashTile
+
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteDashTile Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

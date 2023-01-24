@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IPocketAgent.SendPushNoti
 
 ## SendPushNotification
 
-Send a push notification to one or more associates
 
-* **associateIds:** The associates to send the push notification message to
-* **message:** The message to send
+
+
 
 [WSDL file for Services86/Pocket](../Services86-Pocket.md)
 
@@ -51,7 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Pocket:Type xsi:type="Pocket:NotificationMessageType">Message</Pocket:Type>
      <Pocket:TimeToLive xsi:type="xsd:int">0</Pocket:TimeToLive>
      <Pocket:RecordId xsi:type="xsd:int">0</Pocket:RecordId>
-     <Pocket:Date xsi:type="xsd:dateTime">2022-08-26T08:55:28Z</Pocket:Date>
+     <Pocket:Date xsi:type="xsd:dateTime">2023-01-23T10:17:08Z</Pocket:Date>
      <Pocket:Duration xsi:type="NetServerServices861:duration"></Pocket:Duration>
      <Pocket:ExtraValues xsi:type="Pocket:StringDictionary">
       <Pocket:StringKeyValuePair>
@@ -66,6 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SendPushNotification Response
 
@@ -86,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

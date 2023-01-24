@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.SaveCountry">S
 
 ## SaveCountry
 
-Saves a country
 
-* **country:** The country to save
 
-**Returns:** The country that is saved
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -68,6 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveCountry Response
 
 ```xml
@@ -107,3 +106,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

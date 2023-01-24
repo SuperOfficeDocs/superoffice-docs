@@ -145,6 +145,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Targets:FullName xsi:type="xsd:string"></Targets:FullName>
       <Targets:IsOwnerContact xsi:type="xsd:boolean">false</Targets:IsOwnerContact>
       <Targets:ActiveErpLinks xsi:type="xsd:int">0</Targets:ActiveErpLinks>
+      <Targets:Number1 xsi:type="xsd:string"></Targets:Number1>
+      <Targets:Number2 xsi:type="xsd:string"></Targets:Number2>
      </Targets:TargetContact>
      <Targets:TargetUserGroup xsi:type="Targets:UserGroup">
       <Targets:Value xsi:type="xsd:string"></Targets:Value>

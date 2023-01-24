@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.GetConnectorC
 
 ## GetConnectorCapabilities
 
-Gets a list of connector capabilities
 
-* **quoteConnectionId:** Primary key of the connection
 
-**Returns:** Capabilities
+
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetConnectorCapabilities Response
 
 ```xml
@@ -71,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

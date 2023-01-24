@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.GetSupportedCh
 
 ## GetSupportedChangePasswordTypes
 
-Get the different methods the user can use to change password
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **associateId:** AssociateId of the user to check if password can be changed
 
-**Returns:** List of types - empty if the user cannot change password in any way
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSupportedChangePasswordTypes Response
 
 ```xml
@@ -72,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

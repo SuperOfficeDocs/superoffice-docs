@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetDocumentTem
 
 ## GetDocumentTemplateUsedInSalesStage
 
-Get a String array of names in sales guide that this template is used in
 
-* **documentTemplateId:** The id of the template
 
-**Returns:** The name of the salesguides that use this template
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDocumentTemplateUsedInSalesStage Response
 
 ```xml
@@ -71,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

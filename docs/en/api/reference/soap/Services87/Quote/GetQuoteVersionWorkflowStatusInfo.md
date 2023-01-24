@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.GetQuoteVersi
 
 ## GetQuoteVersionWorkflowStatusInfo
 
-Get status info for the Quote version dialog header. Collects most important warnings/errors from across all quotelines/alternatives in this quote version.
 
-* **quoteVersionId:** Id of the quote version to get the status info for.
 
-**Returns:** Most important status text + icon information.
+
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetQuoteVersionWorkflowStatusInfo Response
 
 ```xml
@@ -74,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

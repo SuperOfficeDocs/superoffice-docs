@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.SaveConsentPur
 
 ## SaveConsentPurpose
 
-Save a ConsentPurpose object
 
-* **consentPurpose:** The ConsentPurpose object to save
 
-**Returns:** The saved ConsentPurpose object, updated with the ConsentPurposeId if it is a new database entry
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -49,7 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:Key xsi:type="xsd:string"></List:Key>
      <List:Tooltip xsi:type="xsd:string"></List:Tooltip>
      <List:Active xsi:type="xsd:short">0</List:Active>
-     <List:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:51:15Z</List:UpdatedDate>
+     <List:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:13:07Z</List:UpdatedDate>
      <List:UpdatedBy xsi:type="List:Associate">
       <List:AssociateId xsi:type="xsd:int">0</List:AssociateId>
       <List:Name xsi:type="xsd:string"></List:Name>
@@ -75,6 +73,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveConsentPurpose Response
 
 ```xml
@@ -97,7 +96,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <List:Key xsi:type="xsd:string"></List:Key>
     <List:Tooltip xsi:type="xsd:string"></List:Tooltip>
     <List:Active xsi:type="xsd:short">0</List:Active>
-    <List:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:51:15Z</List:UpdatedDate>
+    <List:UpdatedDate xsi:type="xsd:dateTime">2023-01-23T10:13:07Z</List:UpdatedDate>
     <List:UpdatedBy xsi:type="List:Associate">
      <List:AssociateId xsi:type="xsd:int">0</List:AssociateId>
      <List:Name xsi:type="xsd:string"></List:Name>
@@ -121,3 +120,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

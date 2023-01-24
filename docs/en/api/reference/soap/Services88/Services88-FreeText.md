@@ -401,6 +401,7 @@ title: Services88.FreeTextAgent WSDL
               <xs:element minOccurs="0" name="ProgressDescription" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ProgressPercent" type="xs:short" />
               <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="CancellationBehaviour" type="tns:BatchTaskCancellationBehaviour" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -443,6 +444,27 @@ title: Services88.FreeTextAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="BatchTaskState" nillable="true" type="tns:BatchTaskState" />
+      <xs:simpleType name="BatchTaskCancellationBehaviour">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="CanCancel" />
+          <xs:enumeration value="CancelWithWarning" />
+          <xs:enumeration value="CannotCancel" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="BatchTaskCancellationBehaviour" nillable="true" type="tns:BatchTaskCancellationBehaviour" />
+      <xs:element name="FreetextIndexRows">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="IDs" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="FreetextIndexRowsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -670,79 +692,67 @@ title: Services88.FreeTextAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="FreetextIndexRowsRequest">
+    <wsdl:part name="parameters" element="tns:FreetextIndexRows" />
+  </wsdl:message>
+  <wsdl:message name="FreetextIndexRowsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="FreetextIndexRowsResponse">
+    <wsdl:part name="parameters" element="tns:FreetextIndexRowsResponse" />
+  </wsdl:message>
+  <wsdl:message name="FreetextIndexRowsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="FreeText">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for FreeText</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetStatus">
-      <wsdl:documentation>
-        <summary>Returns status for the freetext search words</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/GetStatus" name="GetStatusRequest" message="tns:GetStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/GetStatusResponse" name="GetStatusResponse" message="tns:GetStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetEnabled">
-      <wsdl:documentation>
-        <summary>Sets freetext search to enabled (true) or disabled (false)</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetEnabled" name="SetEnabledRequest" message="tns:SetEnabledRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetEnabledResponse" name="SetEnabledResponse" message="tns:SetEnabledResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetAutoEnableTravelAreas">
-      <wsdl:documentation>
-        <summary>Automatically enable freetext search for new travel areas? true or false</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetAutoEnableTravelAreas" name="SetAutoEnableTravelAreasRequest" message="tns:SetAutoEnableTravelAreasRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetAutoEnableTravelAreasResponse" name="SetAutoEnableTravelAreasResponse" message="tns:SetAutoEnableTravelAreasResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetSingleWordOperator">
-      <wsdl:documentation>
-        <summary>Sets the operator used when matching single words</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetSingleWordOperator" name="SetSingleWordOperatorRequest" message="tns:SetSingleWordOperatorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetSingleWordOperatorResponse" name="SetSingleWordOperatorResponse" message="tns:SetSingleWordOperatorResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetMultiWordOperator">
-      <wsdl:documentation>
-        <summary>Sets the operator used when matching multiple words</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetMultiWordOperator" name="SetMultiWordOperatorRequest" message="tns:SetMultiWordOperatorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetMultiWordOperatorResponse" name="SetMultiWordOperatorResponse" message="tns:SetMultiWordOperatorResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetStopWordList">
-      <wsdl:documentation>
-        <summary>Returns the list of stop words</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/GetStopWordList" name="GetStopWordListRequest" message="tns:GetStopWordListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/GetStopWordListResponse" name="GetStopWordListResponse" message="tns:GetStopWordListResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddWords">
-      <wsdl:documentation>
-        <summary>Adds the words in the string to the stop word list</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/AddWords" name="AddWordsRequest" message="tns:AddWordsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/AddWordsResponse" name="AddWordsResponse" message="tns:AddWordsResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteStopWordsById">
-      <wsdl:documentation>
-        <summary>Delete the stop words with these ids</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/DeleteStopWordsById" name="DeleteStopWordsByIdRequest" message="tns:DeleteStopWordsByIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/DeleteStopWordsByIdResponse" name="DeleteStopWordsByIdResponse" message="tns:DeleteStopWordsByIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSuggestedStopWords">
-      <wsdl:documentation>
-        <summary>Returns the top used words in the freetext index table, sorted as most used first</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/GetSuggestedStopWords" name="GetSuggestedStopWordsRequest" message="tns:GetSuggestedStopWordsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/GetSuggestedStopWordsResponse" name="GetSuggestedStopWordsResponse" message="tns:GetSuggestedStopWordsResponse" />
     </wsdl:operation>
     <wsdl:operation name="RegenerateIndex">
-      <wsdl:documentation>
-        <summary>Wipe and regenerate the freetext index by scanning the database (freetext search will be unavailable while this operation runs</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/RegenerateIndex" name="RegenerateIndexRequest" message="tns:RegenerateIndexRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/RegenerateIndexResponse" name="RegenerateIndexResponse" message="tns:RegenerateIndexResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="FreetextIndexRows">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/FreetextIndexRows" name="FreetextIndexRowsRequest" message="tns:FreetextIndexRowsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/FreetextIndexRowsResponse" name="FreetextIndexRowsResponse" message="tns:FreetextIndexRowsResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_FreeText" type="tns:FreeText">
@@ -907,6 +917,22 @@ title: Services88.FreeTextAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="FreetextIndexRows">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/FreetextIndexRows" style="document" />
+      <wsdl:input name="FreetextIndexRowsRequest">
+        <soap:header message="tns:FreetextIndexRowsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:FreetextIndexRowsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:FreetextIndexRowsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="FreetextIndexRowsResponse">
+        <soap:header message="tns:FreetextIndexRowsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:FreetextIndexRowsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:FreetextIndexRowsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:FreetextIndexRowsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="WcfFreeTextService">
     <wsdl:port name="BasicHttpBinding_FreeText" binding="tns:BasicHttpBinding_FreeText">
@@ -915,3 +941,4 @@ title: Services88.FreeTextAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

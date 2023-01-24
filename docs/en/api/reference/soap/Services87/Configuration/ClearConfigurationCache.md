@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IConfigurationAgent.Clear
 
 ## ClearConfigurationCache
 
-Configuration XML's may be expensive to build and parse, and are therefore cached to the database. &lt;para/&gt;Cahcing is per application/instance/associate, and can be turned off through the config file. &lt;para/&gt;If caching is on, and the configuration is changed, it is necessary to clear the cached configurations from the database, through this call.&lt;para/&gt;Note that changes to the externalapplication table require cache invalidation. SoAdmin will do so automatically.
 
-* **application:** The application name, for instance 'SixWeb'
-* **instance:** The instance name for the application, like 'MainInstance'
-* **forAllAssociates:** If false, only the current associate's configuration is cleared. If true, configurations are cleared for all associates.
 
-**Returns:** There is no return value.
+
 
 [WSDL file for Services87/Configuration](../Services87-Configuration.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ClearConfigurationCache Response
 
 ```xml
@@ -72,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

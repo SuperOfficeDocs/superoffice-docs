@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetProject
 
 ## GetProjectDocumentsByTemplateType
 
-Method that returns a specified number of document appointments within a time range, filtered by document template type. The document appointments belong to the project specified.
 
-* **projectId:** The project id
-* **startTime:** The start of the time interval we want appointments from. This will usually be the current time.
-* **endTime:** The end of the time interval.
-* **count:** The maximum number of appointments that should be returned. -1 means no count restrictions.
-* **documentTemplateId:** Id of the document template type to filter on.
 
-**Returns:** Array of Appointments.
+
 
 [WSDL file for Services87/Document](../Services87-Document.md)
 
@@ -46,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Document:GetProjectDocumentsByTemplateType>
     <Document:ProjectId xsi:type="xsd:int">0</Document:ProjectId>
-    <Document:StartTime xsi:type="xsd:dateTime">2022-08-26T08:56:52Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2022-08-26T08:56:52Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2023-01-23T10:18:30Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2023-01-23T10:18:30Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
     <Document:DocumentTemplateId xsi:type="xsd:int">0</Document:DocumentTemplateId>
    </Document:GetProjectDocumentsByTemplateType>
@@ -56,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetProjectDocumentsByTemplateType Response
 
@@ -98,3 +93,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

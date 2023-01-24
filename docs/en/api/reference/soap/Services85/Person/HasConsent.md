@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.HasConsent">
 
 ## HasConsent
 
-Check if consent has been given by a specified person, for a specific purpose.
 
-* **personId:** The person id
-* **purpose:** The key of the purpose to check against
+
+
 
 [WSDL file for Services85/Person](../Services85-Person.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## HasConsent Response
 
 ```xml
@@ -69,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetAllFromList
 
 ## GetAllFromListName
 
-Get all list items for the specified list defintion
 
-* **udListDefinitionName:** The name of the list definition, indicating which list to get the item from.
-* **includeDeleted:** Include deleted items in result?
 
-**Returns:** The list items
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAllFromListName Response
 
 ```xml
@@ -80,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

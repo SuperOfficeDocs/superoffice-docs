@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.DeleteHierarch
 
 ## DeleteHierarchyFromPath
 
-Remove a hierarchy item and its children from a path
 
-* **domain:** Type of items to get
-* **path:** Hierarchy path to item to delete
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteHierarchyFromPath Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

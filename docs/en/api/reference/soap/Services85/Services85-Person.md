@@ -2108,307 +2108,175 @@ title: Services85.PersonAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Person">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Person</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultPersonEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new PersonEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/CreateDefaultPersonEntity" name="CreateDefaultPersonEntityRequest" message="tns:CreateDefaultPersonEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/CreateDefaultPersonEntityResponse" name="CreateDefaultPersonEntityResponse" message="tns:CreateDefaultPersonEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SavePersonEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing PersonEntity or creates a new PersonEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/SavePersonEntity" name="SavePersonEntityRequest" message="tns:SavePersonEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/SavePersonEntityResponse" name="SavePersonEntityResponse" message="tns:SavePersonEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeletePersonEntity">
-      <wsdl:documentation>
-        <summary>Deletes the PersonEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/DeletePersonEntity" name="DeletePersonEntityRequest" message="tns:DeletePersonEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/DeletePersonEntityResponse" name="DeletePersonEntityResponse" message="tns:DeletePersonEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultConsentPerson">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ConsentPerson.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/CreateDefaultConsentPerson" name="CreateDefaultConsentPersonRequest" message="tns:CreateDefaultConsentPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/CreateDefaultConsentPersonResponse" name="CreateDefaultConsentPersonResponse" message="tns:CreateDefaultConsentPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveConsentPerson">
-      <wsdl:documentation>
-        <summary>Updates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/SaveConsentPerson" name="SaveConsentPersonRequest" message="tns:SaveConsentPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/SaveConsentPersonResponse" name="SaveConsentPersonResponse" message="tns:SaveConsentPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteConsentPerson">
-      <wsdl:documentation>
-        <summary>Deletes the ConsentPerson</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/DeleteConsentPerson" name="DeleteConsentPersonRequest" message="tns:DeleteConsentPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/DeleteConsentPersonResponse" name="DeleteConsentPersonResponse" message="tns:DeleteConsentPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPerson">
-      <wsdl:documentation>
-        <summary>Gets a Person object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPerson" name="GetPersonRequest" message="tns:GetPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPersonResponse" name="GetPersonResponse" message="tns:GetPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonEntity">
-      <wsdl:documentation>
-        <summary>Gets a PersonEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPersonEntity" name="GetPersonEntityRequest" message="tns:GetPersonEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPersonEntityResponse" name="GetPersonEntityResponse" message="tns:GetPersonEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="Undelete">
-      <wsdl:documentation>
-        <summary>This entity supports Soft Delete. Call this method to Undelete a previously soft-deleted record</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/Undelete" name="UndeleteRequest" message="tns:UndeleteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/UndeleteResponse" name="UndeleteResponse" message="tns:UndeleteResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyPerson">
-      <wsdl:documentation>
-        <summary>Gets the person info belonging to the currently logged on user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetMyPerson" name="GetMyPersonRequest" message="tns:GetMyPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetMyPersonResponse" name="GetMyPersonResponse" message="tns:GetMyPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSalesRep">
-      <wsdl:documentation>
-        <summary>Returns the sales representative for an external user. If this method is accessed with anonymous authentication the external user is recognized by contact and name, or by email, or phone number. If the external user is recognized as an CRM5 user (internal or external) the input fields can be left blank.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetSalesRep" name="GetSalesRepRequest" message="tns:GetSalesRepRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetSalesRepResponse" name="GetSalesRepResponse" message="tns:GetSalesRepResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPhones">
-      <wsdl:documentation>
-        <summary>Returning all phones that belong to a person, ordered by the phone type.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPhones" name="GetPhonesRequest" message="tns:GetPhonesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPhonesResponse" name="GetPhonesResponse" message="tns:GetPhonesResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeCountry">
-      <wsdl:documentation>
-        <summary>Change country regenerates the default values and localized information such as phone number and address format for this entity.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/ChangeCountry" name="ChangeCountryRequest" message="tns:ChangeCountryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/ChangeCountryResponse" name="ChangeCountryResponse" message="tns:ChangeCountryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAddress">
-      <wsdl:documentation>
-        <summary>Gets the person's localized address.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetAddress" name="GetAddressRequest" message="tns:GetAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetAddressResponse" name="GetAddressResponse" message="tns:GetAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAddressByCountry">
-      <wsdl:documentation>
-        <summary>Gets the person's localized address.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetAddressByCountry" name="GetAddressByCountryRequest" message="tns:GetAddressByCountryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetAddressByCountryResponse" name="GetAddressByCountryResponse" message="tns:GetAddressByCountryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonImage">
-      <wsdl:documentation>
-        <summary>Returns the person image that is displayed in the CRM application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPersonImage" name="GetPersonImageRequest" message="tns:GetPersonImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPersonImageResponse" name="GetPersonImageResponse" message="tns:GetPersonImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetPersonImage">
-      <wsdl:documentation>
-        <summary>Stores the person image that is displayed in the CRM application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/SetPersonImage" name="SetPersonImageRequest" message="tns:SetPersonImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/SetPersonImageResponse" name="SetPersonImageResponse" message="tns:SetPersonImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultByContactId">
-      <wsdl:documentation>
-        <summary>Creates a PersonEntity with default values based on the contactId.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/CreateDefaultByContactId" name="CreateDefaultByContactIdRequest" message="tns:CreateDefaultByContactIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/CreateDefaultByContactIdResponse" name="CreateDefaultByContactIdResponse" message="tns:CreateDefaultByContactIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="Move">
-      <wsdl:documentation>
-        <summary>Move a person to a specified contact. You must specify the date after which activities will be moved along with the person.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/Move" name="MoveRequest" message="tns:MoveRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/MoveResponse" name="MoveResponse" message="tns:MoveResponse" />
     </wsdl:operation>
     <wsdl:operation name="Merge">
-      <wsdl:documentation>
-        <summary>Merge two persons. The destination person will remain. You must specify the date after which activities will be moved along with the person.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/Merge" name="MergeRequest" message="tns:MergeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/MergeResponse" name="MergeResponse" message="tns:MergeResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultFromCredential">
-      <wsdl:documentation>
-        <summary>Creates a PersonEntity with default values based on the contactId and credentials.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/CreateDefaultFromCredential" name="CreateDefaultFromCredentialRequest" message="tns:CreateDefaultFromCredentialRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/CreateDefaultFromCredentialResponse" name="CreateDefaultFromCredentialResponse" message="tns:CreateDefaultFromCredentialResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsNumberValid">
-      <wsdl:documentation>
-        <summary>Checks if the number is unique or required.  The setting is configured from admin under system options.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/IsNumberValid" name="IsNumberValidRequest" message="tns:IsNumberValidRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/IsNumberValidResponse" name="IsNumberValidResponse" message="tns:IsNumberValidResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetConsent">
-      <wsdl:documentation>
-        <summary>Set a specified type of consent on the person.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/SetConsent" name="SetConsentRequest" message="tns:SetConsentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/SetConsentResponse" name="SetConsentResponse" message="tns:SetConsentResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveConsent">
-      <wsdl:documentation>
-        <summary>Turn off consent for a specified person and purpose.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/RemoveConsent" name="RemoveConsentRequest" message="tns:RemoveConsentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/RemoveConsentResponse" name="RemoveConsentResponse" message="tns:RemoveConsentResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasConsent">
-      <wsdl:documentation>
-        <summary>Check if consent has been given by a specified person, for a specific purpose.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/HasConsent" name="HasConsentRequest" message="tns:HasConsentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/HasConsentResponse" name="HasConsentResponse" message="tns:HasConsentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConsentInfos">
-      <wsdl:documentation>
-        <summary>Get all consent information for a given person.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetConsentInfos" name="GetConsentInfosRequest" message="tns:GetConsentInfosRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetConsentInfosResponse" name="GetConsentInfosResponse" message="tns:GetConsentInfosResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendConsentConfirmationEmail">
-      <wsdl:documentation>
-        <summary>Send confirmation email to the provided person, email address (id), using the document template</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/SendConsentConfirmationEmail" name="SendConsentConfirmationEmailRequest" message="tns:SendConsentConfirmationEmailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/SendConsentConfirmationEmailResponse" name="SendConsentConfirmationEmailResponse" message="tns:SendConsentConfirmationEmailResponse" />
     </wsdl:operation>
     <wsdl:operation name="ResolvePersonFromInfo">
-      <wsdl:documentation>
-        <summary>Get a person from the provided information. If the person does not exist, it will be created on demand.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/ResolvePersonFromInfo" name="ResolvePersonFromInfoRequest" message="tns:ResolvePersonFromInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/ResolvePersonFromInfoResponse" name="ResolvePersonFromInfoResponse" message="tns:ResolvePersonFromInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddEmailAddressToPerson">
-      <wsdl:documentation>
-        <summary>Sets the primary email address on person, possibly re-ranking email addresses accordingly.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/AddEmailAddressToPerson" name="AddEmailAddressToPersonRequest" message="tns:AddEmailAddressToPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/AddEmailAddressToPersonResponse" name="AddEmailAddressToPersonResponse" message="tns:AddEmailAddressToPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateTemporaryKey">
-      <wsdl:documentation>
-        <summary>Create a temporary key in the database from the given parameters and return the key string. Used for temporary keys for accessing customer centric functionality, such as UpdateSubscriptions.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/CreateTemporaryKey" name="CreateTemporaryKeyRequest" message="tns:CreateTemporaryKeyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/CreateTemporaryKeyResponse" name="CreateTemporaryKeyResponse" message="tns:CreateTemporaryKeyResponse" />
     </wsdl:operation>
     <wsdl:operation name="CheckTemporaryKey">
-      <wsdl:documentation>
-        <summary>Check a temporary key for validity, and in case it is valid, return its domain, targetId and personId</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/CheckTemporaryKey" name="CheckTemporaryKeyRequest" message="tns:CheckTemporaryKeyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/CheckTemporaryKeyResponse" name="CheckTemporaryKeyResponse" message="tns:CheckTemporaryKeyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonList">
-      <wsdl:documentation>
-        <summary>Gets an array of Person objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPersonList" name="GetPersonListRequest" message="tns:GetPersonListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPersonListResponse" name="GetPersonListResponse" message="tns:GetPersonListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonsFromContact">
-      <wsdl:documentation>
-        <summary>Returns all the persons belonging to a contact.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPersonsFromContact" name="GetPersonsFromContactRequest" message="tns:GetPersonsFromContactRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPersonsFromContactResponse" name="GetPersonsFromContactResponse" message="tns:GetPersonsFromContactResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonsFromProject">
-      <wsdl:documentation>
-        <summary>Returns all the persons belonging to a project.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPersonsFromProject" name="GetPersonsFromProjectRequest" message="tns:GetPersonsFromProjectRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetPersonsFromProjectResponse" name="GetPersonsFromProjectResponse" message="tns:GetPersonsFromProjectResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetColleagues">
-      <wsdl:documentation>
-        <summary>Gets the persons working in the same company as the logged on user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetColleagues" name="GetColleaguesRequest" message="tns:GetColleaguesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetColleaguesResponse" name="GetColleaguesResponse" message="tns:GetColleaguesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetColleaguesByDepartment">
-      <wsdl:documentation>
-        <summary>Gets the persons working in a specific department in the same company as the logged on user. Departments can be retrieved with the PhoneList.DepartmentList service.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetColleaguesByDepartment" name="GetColleaguesByDepartmentRequest" message="tns:GetColleaguesByDepartmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetColleaguesByDepartmentResponse" name="GetColleaguesByDepartmentResponse" message="tns:GetColleaguesByDepartmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetColleaguesBySource">
-      <wsdl:documentation>
-        <summary>Gets the persons working in the same company as the logged on user. The list of person could be retrieved from the history list, the diary view list, or from all sources.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetColleaguesBySource" name="GetColleaguesBySourceRequest" message="tns:GetColleaguesBySourceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetColleaguesBySourceResponse" name="GetColleaguesBySourceResponse" message="tns:GetColleaguesBySourceResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyOwner">
-      <wsdl:documentation>
-        <summary>Get the owner of the logged in person.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetMyOwner" name="GetMyOwnerRequest" message="tns:GetMyOwnerRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetMyOwnerResponse" name="GetMyOwnerResponse" message="tns:GetMyOwnerResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetOwnerOnPersonId">
-      <wsdl:documentation>
-        <summary>Get the owner of the person by id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetOwnerOnPersonId" name="GetOwnerOnPersonIdRequest" message="tns:GetOwnerOnPersonIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetOwnerOnPersonIdResponse" name="GetOwnerOnPersonIdResponse" message="tns:GetOwnerOnPersonIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangePersonRank">
-      <wsdl:documentation>
-        <summary>Move one person up or down in the ranking in the Person Archive, if possible.&lt;para/&gt;The person record that has rank = 1 is the primary contact for a company, and is the one used in situations where no person has been explicitly chosen (such as in selections).&lt;para/&gt;This method corresponds to the move up/move down functions in the person archive in the contact panel.&lt;para/&gt;This method always affects two records.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/ChangePersonRank" name="ChangePersonRankRequest" message="tns:ChangePersonRankRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/ChangePersonRankResponse" name="ChangePersonRankResponse" message="tns:ChangePersonRankResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetPersonRank">
-      <wsdl:documentation>
-        <summary>Directly set the rank field of a person record, adjusting all other person records under the same contact as needed.&lt;para/&gt;This call may affect multiple records, potentially all person records belonging to one contact.&lt;para/&gt;You must have write access for to affected records for this method to succeed.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/SetPersonRank" name="SetPersonRankRequest" message="tns:SetPersonRankRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/SetPersonRankResponse" name="SetPersonRankResponse" message="tns:SetPersonRankResponse" />
     </wsdl:operation>
     <wsdl:operation name="NormalizeRanks">
-      <wsdl:documentation>
-        <summary>Nomralize the ranks for all persons that belong to a contact. This means that the persons will be sorted according to their current rank values, and the ranks will be made monotonically increasing from 1.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/NormalizeRanks" name="NormalizeRanksRequest" message="tns:NormalizeRanksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/NormalizeRanksResponse" name="NormalizeRanksResponse" message="tns:NormalizeRanksResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConsentPerson">
-      <wsdl:documentation>
-        <summary>Gets a ConsentPerson object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetConsentPerson" name="GetConsentPersonRequest" message="tns:GetConsentPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Person/GetConsentPersonResponse" name="GetConsentPersonResponse" message="tns:GetConsentPersonResponse" />
     </wsdl:operation>
@@ -3111,3 +2979,4 @@ title: Services85.PersonAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

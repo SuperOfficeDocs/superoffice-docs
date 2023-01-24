@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.GetPerson">S
 
 ## GetPerson
 
-Gets a Person object.
 
-* **personId:** The identifier of the Person object
 
-**Returns:** Person
+
 
 [WSDL file for Services87/Person](../Services87-Person.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPerson Response
 
@@ -110,3 +109,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

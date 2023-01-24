@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.GetEMailSOInf
 
 ## GetEMailSOInfo
 
-Gets a EMailSOInfo object.
 
-* **eMailSOInfoId:** The identifier of the EMailSOInfo object
 
-**Returns:** EMailSOInfo
+
 
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetEMailSOInfo Response
 
 ```xml
@@ -69,7 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
     <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
     <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-    <EMail:ArchivedAt xsi:type="xsd:dateTime">2022-08-26T08:52:47Z</EMail:ArchivedAt>
+    <EMail:ArchivedAt xsi:type="xsd:dateTime">2023-01-23T10:14:34Z</EMail:ArchivedAt>
     <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
     <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
    </EMail:Response>
@@ -78,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

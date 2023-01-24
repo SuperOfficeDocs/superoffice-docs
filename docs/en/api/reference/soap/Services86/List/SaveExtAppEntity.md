@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.SaveExtAppEnti
 
 ## SaveExtAppEntity
 
-Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parameter is 0.
 
-* **extAppEntity:** The ExtAppEntity that is saved.
 
-**Returns:** New or updated ExtAppEntity
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -72,6 +70,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveExtAppEntity Response
 
 ```xml
@@ -115,3 +114,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

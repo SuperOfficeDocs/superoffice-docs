@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IConfigurationAgent.GetCS
 
 ## GetCSRegistryValue
 
-This method will get a value from the CS Registry table.
 
-* **entry:** The Registry entry to get
 
-**Returns:** The value of the specified Registry entry
+
 
 [WSDL file for Services84/Configuration](../Services84-Configuration.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCSRegistryValue Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

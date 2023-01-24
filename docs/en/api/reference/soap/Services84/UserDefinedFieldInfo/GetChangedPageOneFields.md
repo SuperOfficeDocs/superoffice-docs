@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserDefinedFieldInfoAgen
 
 ## GetChangedPageOneFields
 
-Gets which page one fields have changed from the current version
 
-* **ownerType:** The user-defined field owner-entity.
-* **userGroupId:** Id of UserGroup
+
+
 
 [WSDL file for Services84/UserDefinedFieldInfo](../Services84-UserDefinedFieldInfo.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetChangedPageOneFields Response
 
 ```xml
@@ -71,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

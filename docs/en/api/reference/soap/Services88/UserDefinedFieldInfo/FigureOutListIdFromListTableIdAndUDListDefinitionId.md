@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserDefinedFieldInfoAgen
 
 ## FigureOutListIdFromListTableIdAndUDListDefinitionId
 
-Kind of the reverse of SetListTableIdAndUDListDefinitionIdFromSelectedListId
 
-* **info:**
+
+
 
 [WSDL file for Services88/UserDefinedFieldInfo](../Services88-UserDefinedFieldInfo.md)
 
@@ -82,6 +82,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## FigureOutListIdFromListTableIdAndUDListDefinitionId Response
 
 ```xml
@@ -102,3 +103,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

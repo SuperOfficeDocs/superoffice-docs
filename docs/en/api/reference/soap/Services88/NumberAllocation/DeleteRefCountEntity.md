@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.INumberAllocationAgent.De
 
 ## DeleteRefCountEntity
 
-Deletes the RefCountEntity
 
-* **refCountEntityId:** The identity of the RefCountEntity
+
+
 
 [WSDL file for Services88/NumberAllocation](../Services88-NumberAllocation.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteRefCountEntity Response
 
 ```xml
@@ -64,3 +65,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

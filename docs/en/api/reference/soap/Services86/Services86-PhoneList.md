@@ -496,62 +496,35 @@ title: Services86.PhoneListAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="PhoneList">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for PhoneList</summary>
-    </wsdl:documentation>
     <wsdl:operation name="Search">
-      <wsdl:documentation>
-        <summary>Searching the phone list. Using default search preferences or the preferences already set by the PhoneListPreferences Service</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/Search" name="SearchRequest" message="tns:SearchRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/SearchResponse" name="SearchResponse" message="tns:SearchResponse" />
     </wsdl:operation>
     <wsdl:operation name="SearchWithPreferences">
-      <wsdl:documentation>
-        <summary>Searching the phone list. Search is based on the supplied preferences.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/SearchWithPreferences" name="SearchWithPreferencesRequest" message="tns:SearchWithPreferencesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/SearchWithPreferencesResponse" name="SearchWithPreferencesResponse" message="tns:SearchWithPreferencesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDepartmentPhones">
-      <wsdl:documentation>
-        <summary>Returns an array of phone list items with the in-parameter as restriction. The in-parameter must be a valid department id (UserGroupId).</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/GetDepartmentPhones" name="GetDepartmentPhonesRequest" message="tns:GetDepartmentPhonesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/GetDepartmentPhonesResponse" name="GetDepartmentPhonesResponse" message="tns:GetDepartmentPhonesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFavoritesPhones">
-      <wsdl:documentation>
-        <summary>Returns an array of phone list items with the Contacts in the users favorites dropdown list.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/GetFavoritesPhones" name="GetFavoritesPhonesRequest" message="tns:GetFavoritesPhonesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/GetFavoritesPhonesResponse" name="GetFavoritesPhonesResponse" message="tns:GetFavoritesPhonesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactPhones">
-      <wsdl:documentation>
-        <summary>Returns an array of phone list items for all the persons belonging to a contact (company). The in-parameter must be a valid contact-id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/GetContactPhones" name="GetContactPhonesRequest" message="tns:GetContactPhonesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/GetContactPhonesResponse" name="GetContactPhonesResponse" message="tns:GetContactPhonesResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddToFavorites">
-      <wsdl:documentation>
-        <summary>Adds a new contact to the history/favorites. Returns the rank of the new history item. If the contact already existed in the history, it isn't added but the rank is updated.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/AddToFavorites" name="AddToFavoritesRequest" message="tns:AddToFavoritesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/AddToFavoritesResponse" name="AddToFavoritesResponse" message="tns:AddToFavoritesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreferences">
-      <wsdl:documentation>
-        <summary>Getting Phone List Preferences from the CRM 5 user preferences</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/GetPreferences" name="GetPreferencesRequest" message="tns:GetPreferencesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/GetPreferencesResponse" name="GetPreferencesResponse" message="tns:GetPreferencesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetPreferences">
-      <wsdl:documentation>
-        <summary>Setting Phone List Preferences to the CRM 5 user preferences</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/SetPreferences" name="SetPreferencesRequest" message="tns:SetPreferencesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/PhoneList/SetPreferencesResponse" name="SetPreferencesResponse" message="tns:SetPreferencesResponse" />
     </wsdl:operation>
@@ -694,3 +667,4 @@ title: Services86.PhoneListAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

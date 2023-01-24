@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ILicenseAgent.GetModuleLi
 
 ## GetModuleLicenseFromDB
 
-Get license information for one particular license module.
 
-* **ownerName:** Name of the module owner.
-* **moduleName:** Name of the license module.
 
-**Returns:** Module License details, as it is stored in the database. NULL if not found.
+
 
 [WSDL file for Services85/License](../Services85-License.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetModuleLicenseFromDB Response
 
@@ -89,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

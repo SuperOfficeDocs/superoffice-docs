@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.Che
 
 ## CheckSymmetricEncryption
 
-Do a test to check that we are using the same encryption keys
 
-* **encryptedString:** An encrypted version of the string
 
-**Returns:** Encrypted version of the string done by NetServer
+
 
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CheckSymmetricEncryption Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

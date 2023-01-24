@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/ViewS
 
 Handled by the <see cref="T:SuperOffice.Services88.IViewStateAgent">SuperOffice.Services88.IViewStateAgent</see> interface.
 
-Interface for the ViewState Agent
-User interface view state, history, currentXXX values
+
 
 Download [WSDL file for Services88/ViewState](../Services88-ViewState.md) if you need to generate your own proxy code.
 
@@ -29,3 +28,4 @@ Download [WSDL file for Services88/ViewState](../Services88-ViewState.md) if you
 * [SaveCurrents](SaveCurrents.md)
 * [SaveHistories](SaveHistories.md)
 * [SetHistoryLengthPrefValue](SetHistoryLengthPrefValue.md)
+

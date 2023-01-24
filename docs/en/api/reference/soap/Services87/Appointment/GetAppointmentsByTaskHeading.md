@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.GetAppo
 
 ## GetAppointmentsByTaskHeading
 
-Method that returns appointments of a specific appointment task heading. Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
 
-* **taskHeadingId:** The task heading id. The heading represents a grouping or filtering of tasks. Task represents the different types of activities, like “Phone call”, “Meeting” and so on
 
-**Returns:** Array of Appointments.
+
 
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAppointmentsByTaskHeading Response
 
 ```xml
@@ -66,8 +65,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Appointment:Response xsi:type="Appointment:ArrayOfAppointment">
     <Appointment:Appointment xsi:type="Appointment:Appointment">
      <Appointment:AppointmentId xsi:type="xsd:int">0</Appointment:AppointmentId>
-     <Appointment:StartDate xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Appointment:StartDate>
-     <Appointment:EndDate xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Appointment:EndDate>
+     <Appointment:StartDate xsi:type="xsd:dateTime">2023-01-23T10:17:52Z</Appointment:StartDate>
+     <Appointment:EndDate xsi:type="xsd:dateTime">2023-01-23T10:17:52Z</Appointment:EndDate>
      <Appointment:Type xsi:type="Appointment:AppointmentType">Unknown</Appointment:Type>
      <Appointment:Task xsi:type="xsd:string"></Appointment:Task>
      <Appointment:AssociateFullName xsi:type="xsd:string"></Appointment:AssociateFullName>
@@ -91,14 +90,14 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:IsBookingMain xsi:type="xsd:boolean">false</Appointment:IsBookingMain>
      <Appointment:IsRecurrence xsi:type="xsd:boolean">false</Appointment:IsRecurrence>
      <Appointment:IsBooking xsi:type="xsd:boolean">false</Appointment:IsBooking>
-     <Appointment:ActiveDate xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Appointment:ActiveDate>
+     <Appointment:ActiveDate xsi:type="xsd:dateTime">2023-01-23T10:17:52Z</Appointment:ActiveDate>
      <Appointment:AssignmentStatus xsi:type="Appointment:AssignmentStatus">Unknown</Appointment:AssignmentStatus>
      <Appointment:InvitationStatus xsi:type="Appointment:InvitationStatus">Unknown</Appointment:InvitationStatus>
      <Appointment:BookingType xsi:type="Appointment:BookingType">Unknown</Appointment:BookingType>
      <Appointment:Completed xsi:type="Appointment:ActivityStatus">Unknown</Appointment:Completed>
      <Appointment:RecurringPattern xsi:type="Appointment:RecurrencePattern">Unknown</Appointment:RecurringPattern>
-     <Appointment:RecurringStartDate xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Appointment:RecurringStartDate>
-     <Appointment:RecurringEndDate xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Appointment:RecurringEndDate>
+     <Appointment:RecurringStartDate xsi:type="xsd:dateTime">2023-01-23T10:17:52Z</Appointment:RecurringStartDate>
+     <Appointment:RecurringEndDate xsi:type="xsd:dateTime">2023-01-23T10:17:52Z</Appointment:RecurringEndDate>
      <Appointment:MotherId xsi:type="xsd:int">0</Appointment:MotherId>
      <Appointment:AssignedBy xsi:type="xsd:int">0</Appointment:AssignedBy>
      <Appointment:AssignedByFullName xsi:type="xsd:string"></Appointment:AssignedByFullName>
@@ -108,7 +107,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:SaleId xsi:type="xsd:int">0</Appointment:SaleId>
      <Appointment:SaleName xsi:type="xsd:string"></Appointment:SaleName>
      <Appointment:AssociateName xsi:type="xsd:string"></Appointment:AssociateName>
-     <Appointment:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Appointment:CreatedDate>
+     <Appointment:CreatedDate xsi:type="xsd:dateTime">2023-01-23T10:17:52Z</Appointment:CreatedDate>
      <Appointment:CreatedBy xsi:type="xsd:string"></Appointment:CreatedBy>
      <Appointment:CreatedByFullName xsi:type="xsd:string"></Appointment:CreatedByFullName>
      <Appointment:CreatedByAssociateId xsi:type="xsd:int">0</Appointment:CreatedByAssociateId>
@@ -120,3 +119,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.SavePriceList
 
 ## SavePriceList
 
-Updates the existing PriceList or creates a new PriceList if the id parameter is 0.
 
-* **priceList:** The PriceList that is saved.
 
-**Returns:** New or updated PriceList
+
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -49,8 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Quote:Description xsi:type="xsd:string"></Quote:Description>
      <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
      <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-     <Quote:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:51:34Z</Quote:ValidFrom>
-     <Quote:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:51:34Z</Quote:ValidTo>
+     <Quote:ValidFrom xsi:type="xsd:dateTime">2023-01-23T10:13:24Z</Quote:ValidFrom>
+     <Quote:ValidTo xsi:type="xsd:dateTime">2023-01-23T10:13:24Z</Quote:ValidTo>
      <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
     </Quote:PriceList>
    </Quote:SavePriceList>
@@ -59,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SavePriceList Response
 
@@ -82,8 +81,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Quote:Description xsi:type="xsd:string"></Quote:Description>
     <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
     <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-    <Quote:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:51:34Z</Quote:ValidFrom>
-    <Quote:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:51:34Z</Quote:ValidTo>
+    <Quote:ValidFrom xsi:type="xsd:dateTime">2023-01-23T10:13:24Z</Quote:ValidFrom>
+    <Quote:ValidTo xsi:type="xsd:dateTime">2023-01-23T10:13:24Z</Quote:ValidTo>
     <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
    </Quote:Response>
   </Quote:SavePriceListResponse>
@@ -91,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1071,83 +1071,47 @@ title: Services86.TicketAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Ticket">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Ticket</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultTicketEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new TicketEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/CreateDefaultTicketEntity" name="CreateDefaultTicketEntityRequest" message="tns:CreateDefaultTicketEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/CreateDefaultTicketEntityResponse" name="CreateDefaultTicketEntityResponse" message="tns:CreateDefaultTicketEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveTicketEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing TicketEntity or creates a new TicketEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/SaveTicketEntity" name="SaveTicketEntityRequest" message="tns:SaveTicketEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/SaveTicketEntityResponse" name="SaveTicketEntityResponse" message="tns:SaveTicketEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTicketMessageEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new TicketMessageEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/CreateDefaultTicketMessageEntity" name="CreateDefaultTicketMessageEntityRequest" message="tns:CreateDefaultTicketMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/CreateDefaultTicketMessageEntityResponse" name="CreateDefaultTicketMessageEntityResponse" message="tns:CreateDefaultTicketMessageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveTicketMessageEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing TicketMessageEntity or creates a new TicketMessageEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/SaveTicketMessageEntity" name="SaveTicketMessageEntityRequest" message="tns:SaveTicketMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/SaveTicketMessageEntityResponse" name="SaveTicketMessageEntityResponse" message="tns:SaveTicketMessageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketEntity">
-      <wsdl:documentation>
-        <summary>Gets a TicketEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/GetTicketEntity" name="GetTicketEntityRequest" message="tns:GetTicketEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/GetTicketEntityResponse" name="GetTicketEntityResponse" message="tns:GetTicketEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteTicketEntity">
-      <wsdl:documentation>
-        <summary>Delete a ticket</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/DeleteTicketEntity" name="DeleteTicketEntityRequest" message="tns:DeleteTicketEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/DeleteTicketEntityResponse" name="DeleteTicketEntityResponse" message="tns:DeleteTicketEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketMessageEntity">
-      <wsdl:documentation>
-        <summary>Gets a TicketMessageEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/GetTicketMessageEntity" name="GetTicketMessageEntityRequest" message="tns:GetTicketMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/GetTicketMessageEntityResponse" name="GetTicketMessageEntityResponse" message="tns:GetTicketMessageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteTicketMessageEntity">
-      <wsdl:documentation>
-        <summary>Delete a ticket message</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/DeleteTicketMessageEntity" name="DeleteTicketMessageEntityRequest" message="tns:DeleteTicketMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/DeleteTicketMessageEntityResponse" name="DeleteTicketMessageEntityResponse" message="tns:DeleteTicketMessageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SanitizeMailContent">
-      <wsdl:documentation>
-        <summary>Remove harmful HTML tags and attributes from an email</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/SanitizeMailContent" name="SanitizeMailContentRequest" message="tns:SanitizeMailContentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/SanitizeMailContentResponse" name="SanitizeMailContentResponse" message="tns:SanitizeMailContentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicket">
-      <wsdl:documentation>
-        <summary>Gets a Ticket object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/GetTicket" name="GetTicketRequest" message="tns:GetTicketRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/GetTicketResponse" name="GetTicketResponse" message="tns:GetTicketResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketMessage">
-      <wsdl:documentation>
-        <summary>Gets a TicketMessage object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/GetTicketMessage" name="GetTicketMessageRequest" message="tns:GetTicketMessageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Ticket/GetTicketMessageResponse" name="GetTicketMessageResponse" message="tns:GetTicketMessageResponse" />
     </wsdl:operation>
@@ -1338,3 +1302,4 @@ title: Services86.TicketAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.RenameDocu
 
 ## RenameDocument
 
-Rename the physical document, i.e., change the file name or equivalent concept in the document archive.
 
-* **documentId:** SuperOffice document ID
-* **newFilename:** Suggested new file name. The document archive may amend this to conform to uniqueness constraints, character range limitations etc.
 
-**Returns:** The actual, new "file" name. This will generally be derived from the suggested name, but may be amended.
+
 
 [WSDL file for Services86/Document](../Services86-Document.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RenameDocument Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

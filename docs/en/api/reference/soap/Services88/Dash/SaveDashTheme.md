@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.SaveDashTheme"
 
 ## SaveDashTheme
 
-Updates the existing DashTheme or creates a new DashTheme if the id parameter is 0.
 
-* **dashTheme:** The DashTheme that is saved.
 
-**Returns:** New or updated DashTheme
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -56,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveDashTheme Response
 
 ```xml
@@ -83,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

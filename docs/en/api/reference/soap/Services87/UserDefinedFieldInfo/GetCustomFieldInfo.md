@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserDefinedFieldInfoAgen
 
 ## GetCustomFieldInfo
 
-Return information about a particular custom field (user-defined + extra) on a particular table
 
-* **tableName:** The name of table that owns the custom fields. e.g. 'contact', 'person', 'project' etc.
-* **fieldName:** The name of the field: prog:id or field name. e.g. 'SuperOffice:21' or 'x\_foobar'
 
-**Returns:** user-defined or extra field info. Describes default values, mandatory, visiblity, labels and choices.
+
 
 [WSDL file for Services87/UserDefinedFieldInfo](../Services87-UserDefinedFieldInfo.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetCustomFieldInfo Response
 
@@ -85,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

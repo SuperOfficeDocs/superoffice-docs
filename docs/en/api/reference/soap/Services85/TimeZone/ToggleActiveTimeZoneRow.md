@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ITimeZoneAgent.ToggleActi
 
 ## ToggleActiveTimeZoneRow
 
-Toggles active state of a single row in the TZLocation table
 
-* **id:** Id of row to toggle active state on
+
+
 
 [WSDL file for Services85/TimeZone](../Services85-TimeZone.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ToggleActiveTimeZoneRow Response
 
 ```xml
@@ -64,3 +65,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

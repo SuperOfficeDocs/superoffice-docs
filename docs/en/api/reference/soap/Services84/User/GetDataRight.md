@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.GetDataRight">
 
 ## GetDataRight
 
-Read one specific data right at the given position. An exception will be thrown if non existing position is specified.
 
-* **roleId:** The role id to set the data right for
-* **tableName:** The name of the entity/table
-* **relationToOwner:** The id of the relation to owner
 
-**Returns:** The data right value at the specified position (C, CR, CRU, or CRUD)
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDataRight Response
 
 ```xml
@@ -73,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IViewStateAgent.GetHistor
 
 ## GetHistory
 
-Gets a History object.
 
-* **historyId:** The identifier of the History object
 
-**Returns:** History
+
 
 [WSDL file for Services88/ViewState](../Services88-ViewState.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetHistory Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

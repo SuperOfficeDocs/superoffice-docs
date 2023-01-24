@@ -357,6 +357,11 @@ title: Services88.PocketAgent WSDL
       </xs:complexType>
       <xs:element name="WebPanelEntity" nillable="true" type="q47:WebPanelEntity" xmlns:q47="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="UrlEncoding">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
           <xs:enumeration value="None" />
@@ -443,6 +448,7 @@ title: Services88.PocketAgent WSDL
           <xs:enumeration value="PersonMinicard" />
           <xs:enumeration value="CompanyCardTask" />
           <xs:enumeration value="ProjectCardTask" />
+          <xs:enumeration value="TicketCard" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="Navigation" nillable="true" type="q49:Navigation" xmlns:q49="http://www.superoffice.net/ws/crm/NetServer/Services88" />
@@ -727,6 +733,7 @@ title: Services88.PocketAgent WSDL
           <xs:enumeration value="QuoteApprovalRequest" />
           <xs:enumeration value="QuoteApprovalApproved" />
           <xs:enumeration value="QuoteApprovalDenied" />
+          <xs:enumeration value="AppointmentDeclined" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="NotificationEventType" nillable="true" type="q75:NotificationEventType" xmlns:q75="http://www.superoffice.net/ws/crm/NetServer/Services88" />
@@ -1052,98 +1059,55 @@ title: Services88.PocketAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Pocket">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Pocket</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetMyCallerIDs">
-      <wsdl:documentation>
-        <summary>Get caller ids that the current principal might be interested in (phone numbers of related persons in sales and appointments created/owned/touched by ourselves or colleagues in our primary group</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetMyCallerIDs" name="GetMyCallerIDsRequest" message="tns:GetMyCallerIDsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetMyCallerIDsResponse" name="GetMyCallerIDsResponse" message="tns:GetMyCallerIDsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCallerIDsFromSelection">
-      <wsdl:documentation>
-        <summary>Get caller ids from a selection. Queries the shadow selection of persons and companies, so selections of any kind can be used</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetCallerIDsFromSelection" name="GetCallerIDsFromSelectionRequest" message="tns:GetCallerIDsFromSelectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetCallerIDsFromSelectionResponse" name="GetCallerIDsFromSelectionResponse" message="tns:GetCallerIDsFromSelectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPocketStartupData">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetPocketStartupData" name="GetPocketStartupDataRequest" message="tns:GetPocketStartupDataRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetPocketStartupDataResponse" name="GetPocketStartupDataResponse" message="tns:GetPocketStartupDataResponse" />
     </wsdl:operation>
     <wsdl:operation name="RegisterDeviceForPushNotification">
-      <wsdl:documentation>
-        <summary>Register a device that should receive push notifications when notable events occour</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/RegisterDeviceForPushNotification" name="RegisterDeviceForPushNotificationRequest" message="tns:RegisterDeviceForPushNotificationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/RegisterDeviceForPushNotificationResponse" name="RegisterDeviceForPushNotificationResponse" message="tns:RegisterDeviceForPushNotificationResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRegisteredDevices">
-      <wsdl:documentation>
-        <summary>Retrieve all registered devices for an associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetRegisteredDevices" name="GetRegisteredDevicesRequest" message="tns:GetRegisteredDevicesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetRegisteredDevicesResponse" name="GetRegisteredDevicesResponse" message="tns:GetRegisteredDevicesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetPushNotificationTagsForDevice">
-      <wsdl:documentation>
-        <summary>Specify what kind of notification events a device should receive push notifications for</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/SetPushNotificationTagsForDevice" name="SetPushNotificationTagsForDeviceRequest" message="tns:SetPushNotificationTagsForDeviceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/SetPushNotificationTagsForDeviceResponse" name="SetPushNotificationTagsForDeviceResponse" message="tns:SetPushNotificationTagsForDeviceResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetPushNotificationTagsForUser">
-      <wsdl:documentation>
-        <summary>Specify what kind of notification events a user should receive push notifications for.  This will update all registerred devices for this user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/SetPushNotificationTagsForUser" name="SetPushNotificationTagsForUserRequest" message="tns:SetPushNotificationTagsForUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/SetPushNotificationTagsForUserResponse" name="SetPushNotificationTagsForUserResponse" message="tns:SetPushNotificationTagsForUserResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPushNotificationTagsForDevice">
-      <wsdl:documentation>
-        <summary>Retrieve current tag value for a device</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetPushNotificationTagsForDevice" name="GetPushNotificationTagsForDeviceRequest" message="tns:GetPushNotificationTagsForDeviceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetPushNotificationTagsForDeviceResponse" name="GetPushNotificationTagsForDeviceResponse" message="tns:GetPushNotificationTagsForDeviceResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendPushNotification">
-      <wsdl:documentation>
-        <summary>Send a push notification to one or more associates</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/SendPushNotification" name="SendPushNotificationRequest" message="tns:SendPushNotificationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/SendPushNotificationResponse" name="SendPushNotificationResponse" message="tns:SendPushNotificationResponse" />
     </wsdl:operation>
     <wsdl:operation name="RunAppointmentAlarmBroker">
-      <wsdl:documentation>
-        <summary>Execute the AppointmentAlarmBroker once</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/RunAppointmentAlarmBroker" name="RunAppointmentAlarmBrokerRequest" message="tns:RunAppointmentAlarmBrokerRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/RunAppointmentAlarmBrokerResponse" name="RunAppointmentAlarmBrokerResponse" message="tns:RunAppointmentAlarmBrokerResponse" />
     </wsdl:operation>
     <wsdl:operation name="NotifyUsers">
-      <wsdl:documentation>
-        <summary>Notify users about a new or changed entity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotifyUsers" name="NotifyUsersRequest" message="tns:NotifyUsersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotifyUsersResponse" name="NotifyUsersResponse" message="tns:NotifyUsersResponse" />
     </wsdl:operation>
     <wsdl:operation name="NotificationHandled">
-      <wsdl:documentation>
-        <summary>Mark a notification as handled, so it can be cleaned up on other clients that have received the notification</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotificationHandled" name="NotificationHandledRequest" message="tns:NotificationHandledRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotificationHandledResponse" name="NotificationHandledResponse" message="tns:NotificationHandledResponse" />
     </wsdl:operation>
     <wsdl:operation name="NotificationsHandled">
-      <wsdl:documentation>
-        <summary>Mark a set of notifications as handled, so they can be cleaned up on other clients that have received the notification</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotificationsHandled" name="NotificationsHandledRequest" message="tns:NotificationsHandledRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotificationsHandledResponse" name="NotificationsHandledResponse" message="tns:NotificationsHandledResponse" />
     </wsdl:operation>
@@ -1366,3 +1330,4 @@ title: Services88.PocketAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

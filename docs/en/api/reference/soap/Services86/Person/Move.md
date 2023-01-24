@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IPersonAgent.Move">SuperO
 
 ## Move
 
-Move a person to a specified contact. You must specify the date after which activities will be moved along with the person.
 
-* **personId:** The identifier for the person
-* **destinationContactId:** The identifier for the contact which the person will be moved to
-* **moveAfterDate:** Move activites after this date. Activities before this date are left alone.
+
+
 
 [WSDL file for Services86/Person](../Services86-Person.md)
 
@@ -43,13 +41,14 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Person:Move>
     <Person:PersonId xsi:type="xsd:int">0</Person:PersonId>
     <Person:DestinationContactId xsi:type="xsd:int">0</Person:DestinationContactId>
-    <Person:MoveAfterDate xsi:type="xsd:dateTime">2022-08-26T08:55:27Z</Person:MoveAfterDate>
+    <Person:MoveAfterDate xsi:type="xsd:dateTime">2023-01-23T10:17:08Z</Person:MoveAfterDate>
    </Person:Move>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## Move Response
 
@@ -70,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

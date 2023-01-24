@@ -869,6 +869,13 @@ title: Services88.CRMScriptAgent WSDL
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
+          <xs:enumeration value="SalesBeforeSaveTicket">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1016</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
           <xs:enumeration value="SalesAfterSaveAppointment">
             <xs:annotation>
               <xs:appinfo>
@@ -971,6 +978,13 @@ title: Services88.CRMScriptAgent WSDL
             <xs:annotation>
               <xs:appinfo>
                 <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1115</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SalesAfterSaveTicket">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1116</EnumerationValue>
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
@@ -1157,6 +1171,7 @@ title: Services88.CRMScriptAgent WSDL
               <xs:element minOccurs="0" name="BlockExecution" type="xs:boolean" />
               <xs:element minOccurs="0" name="NavigateTo" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ShowDialog" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="OutputValues" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="StateValues" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string" />
@@ -1775,174 +1790,99 @@ title: Services88.CRMScriptAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="CRMScript">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for CRMScript</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultCRMScriptEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new CRMScriptEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/CreateDefaultCRMScriptEntity" name="CreateDefaultCRMScriptEntityRequest" message="tns:CreateDefaultCRMScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/CreateDefaultCRMScriptEntityResponse" name="CreateDefaultCRMScriptEntityResponse" message="tns:CreateDefaultCRMScriptEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveCRMScriptEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/SaveCRMScriptEntity" name="SaveCRMScriptEntityRequest" message="tns:SaveCRMScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/SaveCRMScriptEntityResponse" name="SaveCRMScriptEntityResponse" message="tns:SaveCRMScriptEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteCRMScriptEntity">
-      <wsdl:documentation>
-        <summary>Deletes the CRMScriptEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteCRMScriptEntity" name="DeleteCRMScriptEntityRequest" message="tns:DeleteCRMScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteCRMScriptEntityResponse" name="DeleteCRMScriptEntityResponse" message="tns:DeleteCRMScriptEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTriggerScriptEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new TriggerScriptEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/CreateDefaultTriggerScriptEntity" name="CreateDefaultTriggerScriptEntityRequest" message="tns:CreateDefaultTriggerScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/CreateDefaultTriggerScriptEntityResponse" name="CreateDefaultTriggerScriptEntityResponse" message="tns:CreateDefaultTriggerScriptEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveTriggerScriptEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/SaveTriggerScriptEntity" name="SaveTriggerScriptEntityRequest" message="tns:SaveTriggerScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/SaveTriggerScriptEntityResponse" name="SaveTriggerScriptEntityResponse" message="tns:SaveTriggerScriptEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteTriggerScriptEntity">
-      <wsdl:documentation>
-        <summary>Deletes the TriggerScriptEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteTriggerScriptEntity" name="DeleteTriggerScriptEntityRequest" message="tns:DeleteTriggerScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteTriggerScriptEntityResponse" name="DeleteTriggerScriptEntityResponse" message="tns:DeleteTriggerScriptEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCRMScriptByUniqueIdentifier">
-      <wsdl:documentation>
-        <summary>Get information about a script from a unique identifier</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetCRMScriptByUniqueIdentifier" name="GetCRMScriptByUniqueIdentifierRequest" message="tns:GetCRMScriptByUniqueIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetCRMScriptByUniqueIdentifierResponse" name="GetCRMScriptByUniqueIdentifierResponse" message="tns:GetCRMScriptByUniqueIdentifierResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveCRMScriptByUniqueIdentifier">
-      <wsdl:documentation>
-        <summary>Create or Update the CRMScript information</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/SaveCRMScriptByUniqueIdentifier" name="SaveCRMScriptByUniqueIdentifierRequest" message="tns:SaveCRMScriptByUniqueIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/SaveCRMScriptByUniqueIdentifierResponse" name="SaveCRMScriptByUniqueIdentifierResponse" message="tns:SaveCRMScriptByUniqueIdentifierResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteCRMScriptByUniqueIdentifier">
-      <wsdl:documentation>
-        <summary>Delete the CRMScript</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteCRMScriptByUniqueIdentifier" name="DeleteCRMScriptByUniqueIdentifierRequest" message="tns:DeleteCRMScriptByUniqueIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteCRMScriptByUniqueIdentifierResponse" name="DeleteCRMScriptByUniqueIdentifierResponse" message="tns:DeleteCRMScriptByUniqueIdentifierResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCRMScriptEntity">
-      <wsdl:documentation>
-        <summary>Gets a CRMScriptEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetCRMScriptEntity" name="GetCRMScriptEntityRequest" message="tns:GetCRMScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetCRMScriptEntityResponse" name="GetCRMScriptEntityResponse" message="tns:GetCRMScriptEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteScript">
-      <wsdl:documentation>
-        <summary>Execute a CRMScript with parameters, returning printed output value.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScript" name="ExecuteScriptRequest" message="tns:ExecuteScriptRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptResponse" name="ExecuteScriptResponse" message="tns:ExecuteScriptResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteScriptByIncludeId">
-      <wsdl:documentation>
-        <summary>Execute a CRMScript with parameters, returning printed output value.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByIncludeId" name="ExecuteScriptByIncludeIdRequest" message="tns:ExecuteScriptByIncludeIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByIncludeIdResponse" name="ExecuteScriptByIncludeIdResponse" message="tns:ExecuteScriptByIncludeIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteScriptByUniqueId">
-      <wsdl:documentation>
-        <summary>Execute a CRMScript with parameters, returning printed output value.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByUniqueId" name="ExecuteScriptByUniqueIdRequest" message="tns:ExecuteScriptByUniqueIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByUniqueIdResponse" name="ExecuteScriptByUniqueIdResponse" message="tns:ExecuteScriptByUniqueIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteScriptAsEvent">
-      <wsdl:documentation>
-        <summary>Execute a CRMScript with event data as input. Returns event data with output variable values.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptAsEvent" name="ExecuteScriptAsEventRequest" message="tns:ExecuteScriptAsEventRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptAsEventResponse" name="ExecuteScriptAsEventResponse" message="tns:ExecuteScriptAsEventResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteScriptAsEventByUniqueId">
-      <wsdl:documentation>
-        <summary>Execute a CRMScript with event data as input. Returns event data with output variable values.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptAsEventByUniqueId" name="ExecuteScriptAsEventByUniqueIdRequest" message="tns:ExecuteScriptAsEventByUniqueIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptAsEventByUniqueIdResponse" name="ExecuteScriptAsEventByUniqueIdResponse" message="tns:ExecuteScriptAsEventByUniqueIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateScript">
-      <wsdl:documentation>
-        <summary>Validate a CRMScript. This will check that the syntax is correct</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScript" name="ValidateScriptRequest" message="tns:ValidateScriptRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptResponse" name="ValidateScriptResponse" message="tns:ValidateScriptResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateScriptByIncludeId">
-      <wsdl:documentation>
-        <summary>Validate a CRMScript. This will check that the syntax is correct</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByIncludeId" name="ValidateScriptByIncludeIdRequest" message="tns:ValidateScriptByIncludeIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByIncludeIdResponse" name="ValidateScriptByIncludeIdResponse" message="tns:ValidateScriptByIncludeIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateScriptByUniqueId">
-      <wsdl:documentation>
-        <summary>Validate a CRMScript. This will check that the syntax is correct</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByUniqueId" name="ValidateScriptByUniqueIdRequest" message="tns:ValidateScriptByUniqueIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByUniqueIdResponse" name="ValidateScriptByUniqueIdResponse" message="tns:ValidateScriptByUniqueIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTriggerScriptEntity">
-      <wsdl:documentation>
-        <summary>Gets a TriggerScriptEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetTriggerScriptEntity" name="GetTriggerScriptEntityRequest" message="tns:GetTriggerScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetTriggerScriptEntityResponse" name="GetTriggerScriptEntityResponse" message="tns:GetTriggerScriptEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTriggerScriptByUniqueId">
-      <wsdl:documentation>
-        <summary>Get a trigger CRMScript.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetTriggerScriptByUniqueId" name="GetTriggerScriptByUniqueIdRequest" message="tns:GetTriggerScriptByUniqueIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetTriggerScriptByUniqueIdResponse" name="GetTriggerScriptByUniqueIdResponse" message="tns:GetTriggerScriptByUniqueIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveTriggerScriptByUniqueId">
-      <wsdl:documentation>
-        <summary>Validate a CRMScript. This will check that the syntax is correct</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/SaveTriggerScriptByUniqueId" name="SaveTriggerScriptByUniqueIdRequest" message="tns:SaveTriggerScriptByUniqueIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/SaveTriggerScriptByUniqueIdResponse" name="SaveTriggerScriptByUniqueIdResponse" message="tns:SaveTriggerScriptByUniqueIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteTriggerScriptByUniqueId">
-      <wsdl:documentation>
-        <summary>Delete a trigger CRMScript.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteTriggerScriptByUniqueId" name="DeleteTriggerScriptByUniqueIdRequest" message="tns:DeleteTriggerScriptByUniqueIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteTriggerScriptByUniqueIdResponse" name="DeleteTriggerScriptByUniqueIdResponse" message="tns:DeleteTriggerScriptByUniqueIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateTriggerScript">
-      <wsdl:documentation>
-        <summary>Validate a Trigger CRMScript. This will check that the syntax is correct, but not execute the script.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateTriggerScript" name="ValidateTriggerScriptRequest" message="tns:ValidateTriggerScriptRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateTriggerScriptResponse" name="ValidateTriggerScriptResponse" message="tns:ValidateTriggerScriptResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateTriggerScriptByUniqueId">
-      <wsdl:documentation>
-        <summary>Validate a Trigger CRMScript. This will check that the syntax is correct, but not execute the script.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateTriggerScriptByUniqueId" name="ValidateTriggerScriptByUniqueIdRequest" message="tns:ValidateTriggerScriptByUniqueIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateTriggerScriptByUniqueIdResponse" name="ValidateTriggerScriptByUniqueIdResponse" message="tns:ValidateTriggerScriptByUniqueIdResponse" />
     </wsdl:operation>
@@ -2341,3 +2281,4 @@ title: Services88.CRMScriptAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

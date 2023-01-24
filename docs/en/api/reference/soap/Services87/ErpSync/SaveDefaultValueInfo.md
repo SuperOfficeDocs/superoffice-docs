@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.SaveDefault
 
 ## SaveDefaultValueInfo
 
-Save information about a default value for an ERP field
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-* **erpSyncDefaultValue:** The id of the ERPfield to save
 
-**Returns:** The newly saved ErpSyncDefaultValue
+
 
 [WSDL file for Services87/ErpSync](../Services87-ErpSync.md)
 
@@ -61,6 +58,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveDefaultValueInfo Response
 
 ```xml
@@ -92,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IBLOBAgent.GetProductImag
 
 ## GetProductImage
 
-Returns the product image (rank=1) that is displayed in the CRM application.
 
-* **productId:** The product id of the product the image belongs to.
 
-**Returns:** The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+
 
 [WSDL file for Services87/BLOB](../Services87-BLOB.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetProductImage Response
 
 ```xml
@@ -67,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

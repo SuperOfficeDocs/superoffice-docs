@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.SaveProjectTyp
 
 ## SaveProjectTypeEntity
 
-Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the id parameter is 0.
 
-* **projectTypeEntity:** The ProjectTypeEntity that is saved.
 
-**Returns:** New or updated ProjectTypeEntity
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -62,7 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
        <List:IconHint xsi:type="xsd:string"></List:IconHint>
        <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-       <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:51:15Z</List:LastChanged>
+       <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:13:07Z</List:LastChanged>
        <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
         <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
          <List:Id xsi:type="xsd:int">0</List:Id>
@@ -74,7 +72,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
          <List:IconHint xsi:type="xsd:string"></List:IconHint>
          <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-         <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:51:15Z</List:LastChanged>
+         <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:13:07Z</List:LastChanged>
          <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
           <List:SelectableMDOListItem xsi:nil="true"></List:SelectableMDOListItem>
          </List:ChildItems>
@@ -97,6 +95,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveProjectTypeEntity Response
 
@@ -133,7 +132,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
       <List:IconHint xsi:type="xsd:string"></List:IconHint>
       <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-      <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:51:15Z</List:LastChanged>
+      <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:13:07Z</List:LastChanged>
       <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
        <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
         <List:Id xsi:type="xsd:int">0</List:Id>
@@ -145,7 +144,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
         <List:IconHint xsi:type="xsd:string"></List:IconHint>
         <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-        <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:51:15Z</List:LastChanged>
+        <List:LastChanged xsi:type="xsd:dateTime">2023-01-23T10:13:07Z</List:LastChanged>
         <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
          <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
           <List:Id xsi:nil="true"></List:Id>
@@ -183,3 +182,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
