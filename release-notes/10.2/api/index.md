@@ -13,7 +13,7 @@ so.topic: reference
 
 ## New Archive provider
 
-* [ticketrecycle][2]
+* [Recycle ticket][2]
 
 ## New MDO Providers
 
