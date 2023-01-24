@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "importnewproductlistitem"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "importnewproductlistitem" MDO List
-
 Import product list items: add, use blank
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ImportNewProductListItemProvider">ImportNewProductListItemProvider</see> class.
 The name of the MDO list is 'importnewproductlistitem'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("importnewproductlistitem", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -47,6 +50,7 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1|Add new item to list|||
 |3|Ignore - set to blank|||
+
 
 ## Related MDO Lists
 

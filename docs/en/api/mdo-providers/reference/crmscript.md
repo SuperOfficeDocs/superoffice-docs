@@ -7,19 +7,23 @@ keywords:
   - "mdo provider"
   - "crmscript"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# "CRMScript" MDO List
-
+# "crmscript" MDO List
 Archive of CRMScripts. Returns script id + name of script as hierarchy.
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.CRMScriptProvider">CRMScriptProvider</see> class.
-The name of the MDO list is 'CRMScript'.
+The name of the MDO list is 'crmscript'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("crmscript", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -61,6 +64,7 @@ foreach (var item in listProvider.RootItems) {
 |5|Send email||9ba99700273d4342ba6ade76ab8c2576|
 |13|Trigger response||a108036d08c547abb1433af8cf4b0e2f|
 |1|Callback script for compact mode||1415c74f7d5c4d79ad98626c59069ee1|
+
 
 ## Related MDO Lists
 

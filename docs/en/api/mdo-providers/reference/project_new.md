@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "project_new"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "project_new" MDO List
-
 Provider for selecting a project. Returns search results in rank order
 Supports searching across project text fields.
 Respects the Project.SkipCompletedProjects user preference.
@@ -26,6 +25,9 @@ Completed/Done projects are marked with stylehint = "deleted_item" (but item.del
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ProjectListProvider">ProjectListProvider</see> class.
 The name of the MDO list is 'project_new'.
+
+
+
 
 ## Sample Request
 
@@ -38,7 +40,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("project_new", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -72,6 +73,7 @@ foreach (var item in listProvider.RootItems) {
 |33|Ssosseess||33|
 |34|Ttotteett||34|
 |35|Prusjuukt||35|
+
 
 ## Related MDO Lists
 

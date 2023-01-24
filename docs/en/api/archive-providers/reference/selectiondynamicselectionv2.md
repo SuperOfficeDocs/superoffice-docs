@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SelectionDynamicSelectionV2"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,15 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Selection selection archive with OR-able selection groups. Each group is represented with the <see cref="T:SuperOffice.CRM.ArchiveLists.Archive.SelectionSelectionDynamicProviderSingleCriteriaGroup" />.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"selection"|Selection|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -90,11 +88,14 @@ Selection selection archive with OR-able selection groups. Each group is represe
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicSelectionV2?$select=selectionAssociate/usergroup,lastLoadedBy,selectionAssociate/middleName
+GET /api/v1/archive/SelectionDynamicSelectionV2?$select=name,selectionAssociate/middleName,selectionAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

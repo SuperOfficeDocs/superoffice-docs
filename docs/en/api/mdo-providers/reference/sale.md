@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "sale"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,12 +15,13 @@ so.envir:
 ---
 
 # "sale" MDO List
-
 List of sales.
 Skips completed sales SkipCompletedSales userpref is set.
 Skips sales without quotes if AdditionalInfo contains "hasQuoteOnline=1".
 Skips sales without stakeholders if AdditionalInfo contains "stakeholderOnly=1".
 Filter sales according to currency if AdditionalInfo contains "hasCurrency=(currency-id)"
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SaleListProviderOrg">SaleListProviderOrg</see> class.
 The name of the MDO list is 'sale'.
@@ -35,6 +36,10 @@ The name of the MDO list is 'sale'.
 
 Separator: ;
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -46,7 +51,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("sale", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -80,6 +84,7 @@ foreach (var item in listProvider.RootItems) {
 |23|SalgNDDN (Arne'S Kebab)||SalgNDDN|
 |24|SalgSDDS (Yngve'S Fisk & Vilt)||SalgSDDS|
 |25|SalgYDDY (Yngve'S Fisk & Vilt)||SalgYDDY|
+
 
 ## Related MDO Lists
 

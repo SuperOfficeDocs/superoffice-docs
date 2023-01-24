@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "projectassociate"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "projectassociate" MDO List
-
 MDO provider for associates that are members of a project
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ProjectAssociateMDOProvider">ProjectAssociateMDOProvider</see> class.
 The name of the MDO list is 'projectassociate'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("projectassociate", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -56,6 +59,7 @@ foreach (var item in listProvider.RootItems) {
 |10|Ingrid Istad|||
 |81|Listadm Listadm|||
 |96|Niels Jensen|||
+
 
 ## Related MDO Lists
 

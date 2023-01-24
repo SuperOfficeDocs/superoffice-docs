@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ErpEntity"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,15 +20,13 @@ so.envir:
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.ErpEntityProvider">SuperOffice.CRM.ArchiveLists.ErpEntityProvider</see> inside NetServer's SODatabase assembly.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"ErpEntity"|ERP entity|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |ConnectionId| *None* |ERP connection ID: ERP connection ID| x |
 |SearchText| *None* |Search text: Search text| x |
 |ErpActorType| *None* |Actor type: Actor type| x |
@@ -46,4 +44,7 @@ Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

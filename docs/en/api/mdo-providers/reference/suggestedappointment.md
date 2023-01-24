@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "suggestedappointment"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,8 +15,9 @@ so.envir:
 ---
 
 # "suggestedappointment" MDO List
-
 Suggested Appointment Provider creates a MDO list of suggested appointments for a given guide stage.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SuggestedAppointmentProvider">SuggestedAppointmentProvider</see> class.
 The name of the MDO list is 'suggestedappointment'.
@@ -31,6 +32,10 @@ The name of the MDO list is 'suggestedappointment'.
 
 Separator: &
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -42,7 +47,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("suggestedappointment", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -65,6 +69,7 @@ foreach (var item in listProvider.RootItems) {
 |6|Book next meeting|||
 |7|Set up second meeting|||
 |8|Negotiate|||
+
 
 ## Related MDO Lists
 

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ProjectShadowDynamicSelectionV2"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,15 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Project shadow selection archive with OR-able selection groups. Each group is represented with the <see cref="T:SuperOffice.CRM.ArchiveLists.Archive.ProjectShadowSelectionDynamicProviderSingleCriteriaGroup" />.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"project"|Project|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -131,7 +129,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|sale/icon|string|Category: Displays the icon for an activity type| x |
+|sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |sale/time| *None* |Time: Time|  |
 |sale/type|listAny|Type: Displays the type of an activity| x |
@@ -224,7 +222,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |sale/saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
 |sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |appointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|appointment/icon|string|Category: Displays the icon for an activity type| x |
+|appointment/icon|listAny|Category: Displays the icon for an activity type| x |
 |appointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |appointment/time| *None* |Time: Time|  |
 |appointment/type|listAny|Type: Displays the type of an activity| x |
@@ -263,6 +261,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |appointment/invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |appointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |appointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
+|appointment/duration|timeSpan|Duration: The duration of the chat session|  |
 |appointment/visibleFor|listAny|Visible for|  |
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -309,7 +308,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |appointment/appointment/textId|int|Text ID| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|document/icon|string|Category: Displays the icon for an activity type| x |
+|document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |document/time| *None* |Time: Time|  |
 |document/type|listAny|Type: Displays the type of an activity| x |
@@ -749,11 +748,14 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=sale/associate/portraitThumbnail,document/date,projectMember/projectId,projectMember/correspondingAssociate/lastName,projectMember/LastCompletedSale
+GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=type,sale/who,appointment/associate/contactId,projectMember/rank,projectMember/business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

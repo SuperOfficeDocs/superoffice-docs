@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "selection_freetextsearch"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "selection_freetextsearch" MDO List
-
 Provider for selecting a Selection.
 Does keyword matching and scoring across multiple
 string fields. Checks name, description, soundex fields.
@@ -30,6 +29,9 @@ Completed/Done selections are marked with stylehint = "deleted_item" (but item.d
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SelectionListFreetextSearchProvider">SelectionListFreetextSearchProvider</see> class.
 The name of the MDO list is 'selection_freetextsearch'.
 
+
+
+
 ## Sample Request
 
 ```http!
@@ -41,7 +43,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("selection_freetextsearch", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -75,6 +76,7 @@ foreach (var item in listProvider.RootItems) {
 |23|Otvoolg-HHMarGruPri||static|
 |54|Selection for creation of external users||static|
 |33|'Tv''lg-GGTjeAll||static|
+
 
 ## Related MDO Lists
 

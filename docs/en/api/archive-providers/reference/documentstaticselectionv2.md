@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "DocumentStaticSelectionV2"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,19 +20,17 @@ so.envir:
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionStaticProviderV2">SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionStaticProviderV2</see> inside NetServer's SODatabase assembly.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"document"|Document|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|icon|string|Category: Displays the icon for an activity type| x |
+|icon|listAny|Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity| x |
@@ -575,7 +573,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |documentUdef/SuperOffice:7|listAny|documentdropdownlistbox| x |
 |documentUdef/SuperOffice:8|decimal|documentdecimal| x |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|sale/icon|string|Category: Displays the icon for an activity type| x |
+|sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |sale/time| *None* |Time: Time|  |
 |sale/type|listAny|Type: Displays the type of an activity| x |
@@ -678,11 +676,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentStaticSelectionV2?$select=date,documentPublish/publishedBy,person/restrictionAddress/zip,person/personInterestIds,person/personAssociate/mrMrs
+GET /api/v1/archive/DocumentStaticSelectionV2?$select=person/fullName,person/portraitThumbnail,person/personUdef/SuperOffice:4,person/correspondingAssociate/middleName,person/correspondingAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

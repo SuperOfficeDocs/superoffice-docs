@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleFilteredWithStakeholder"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,22 +20,20 @@ so.envir:
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.SaleFilteredWithStakeholderProvider">SuperOffice.CRM.ArchiveLists.SaleFilteredWithStakeholderProvider</see> inside NetServer's SODatabase assembly.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"sale"|Sales|
 |"includestakeholders"|Include stakeholders|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |isStakeholderSale|bool|Stakeholder sale: Stakeholder sale| x |
 |saleStakeholderId|int|saleStakeholderId: saleStakeholderId| x |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|icon|string|Category: Displays the icon for an activity type| x |
+|icon|listAny|Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity| x |
@@ -1068,11 +1066,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFilteredWithStakeholder?$select=visibleFor,sale/textId,salePublish/isPublished,person/personDirectPhone/formattedNumber,person/personAddress/line3
+GET /api/v1/archive/SaleFilteredWithStakeholder?$select=nextDueDate,person/correspondingAssociate/userName,contact/country,contact/email/emailId,contact/email/emailBounceCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

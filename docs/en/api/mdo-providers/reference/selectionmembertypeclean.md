@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "selectionmembertypeclean"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,14 @@ so.envir:
 
 # "selectionmembertypeclean" MDO List
 
+
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SelectionMemberTypeClean">SelectionMemberTypeClean</see> class.
 The name of the MDO list is 'selectionmembertypeclean'.
+
+
+
 
 ## Sample Request
 
@@ -30,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("selectionmembertypeclean", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,6 +57,10 @@ foreach (var item in listProvider.RootItems) {
 |10|Documents||document|
 |127|Products||QuoteLine|
 |262|Requests||ticket|
+|332|Chat conversations||chat_session|
+|485|Form submissions||form_submission|
+|334|Mailings||s_shipment|
+
 
 ## Related MDO Lists
 

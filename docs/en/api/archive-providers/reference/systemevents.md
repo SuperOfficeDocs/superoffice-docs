@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SystemEvents"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,15 +30,13 @@ blah....
 ........
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"systemevent"|[systemevent]|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |SystemEvent\_id|int|ID: Primary key| x |
@@ -87,11 +85,14 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/SystemEvents?$select=registered_associate_id/firstName,registered_associate_id/associateDbId
+GET /api/v1/archive/SystemEvents?$select=eventkey,registered_associate_id/firstName,registered_associate_id/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

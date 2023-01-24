@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FormSubmissionDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,15 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 FormSubmission selection archive using the selectionId as criterionmapping.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"formSubmission"|Form submission|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |formSubmissionId|int|Form submission ID: ID of the form submission record| x |
@@ -455,11 +453,14 @@ FormSubmission selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionDynamicSelectionSingleCriteriaGroup?$select=person/email/emailId,contact/contactAssociate/assocType,contact/NumberOfNotCompletedSales
+GET /api/v1/archive/FormSubmissionDynamicSelectionSingleCriteriaGroup?$select=associate/ejUserId,person/restrictionAddress/state,person/correspondingAssociate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

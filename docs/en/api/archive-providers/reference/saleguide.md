@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleGuide"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,18 +24,16 @@ Provider for the Sale Guide, common to both Appointment and Document guide items
 This provider is a trivial aggregation of the Appointment and Document providers
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"suggestedAppointment"|Follow-ups|
 |"appointment"|Follow-ups|
 |"suggestedDocument"|Documents|
 |"document"|Documents|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |saleId|int|Sale ID: The database ID of the sale record| x |
@@ -94,6 +92,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd|  |
 |appointmentInstance/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
 |appointmentInstance/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
+|appointmentInstance/duration| *None* |Duration: The duration of the chat session|  |
 |appointmentInstance/visibleFor| *None* |Visible for|  |
 |appointmentInstance/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |appointmentInstance/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -1342,11 +1341,14 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuide?$select=appointmentInstance/userGroup,appointmentInstance/contact/streetAddress/formattedAddress,appointmentInstance/contact/restrictionAddress/line2,appointmentInstance/contact/contactAssociate/userName,appointmentInstance/contact/contactUdef/SuperOffice:5
+GET /api/v1/archive/SaleGuide?$select=appointmentInstance/contact/NumberOfNotCompletedTicketsInPeriod,appointmentInstance/contact/saintDirection,appointmentInstance/person/email/emailId,appointmentInstance/person/personExtra/x_person_float,appointmentInstance/person/withdrawnEmarketingConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

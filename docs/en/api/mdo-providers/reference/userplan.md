@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "userplan"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,9 +15,10 @@ so.envir:
 ---
 
 # "userplan" MDO List
-
 List provider for the UserPlan in the module license table.
 Returns all user plans except the one specified by additional-info "exclude_id"
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.UserPlanProvider">UserPlanProvider</see> class.
 The name of the MDO list is 'userplan'.
@@ -27,6 +28,10 @@ The name of the MDO list is 'userplan'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Exclude the given user-plan by id| exclude_id|1234|
+
+
+
+
 
 ## Sample Request
 
@@ -39,7 +44,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("userplan", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -57,6 +61,7 @@ foreach (var item in listProvider.RootItems) {
 |129|ServicePREM||ten-service|
 |131|Marketing||ten-marketing|
 |132|SalesPREM-ServicePREM-Marketing||ten-salesservicemarketing|
+
 
 ## Related MDO Lists
 

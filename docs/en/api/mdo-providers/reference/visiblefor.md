@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "visiblefor"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "visiblefor" MDO List
-
 List provider for the VisibleFor dropdown control. Items are of type associate, usergroup or all, with
 a separate id space for each type. The current associate, its primary and secondary groups, and 'all' are
 the returned elements. MDO list sorting preferences for the UserGroup list are respected.
@@ -40,6 +39,10 @@ The name of the MDO list is 'visiblefor'.
 |-----|-----|------|
 |Comma separated list of associate ids| |123,234,34|
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -51,7 +54,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("visiblefor", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -67,6 +69,7 @@ foreach (var item in listProvider.RootItems) {
 |17|Sal0||17|
 |-2|Salg||2|
 |-2147483648|All||-2147483648|
+
 
 ## Related MDO Lists
 

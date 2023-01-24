@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "allpersonsearch"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "allpersonsearch" MDO List
-
 Provider for selecting a Person, including search on contacts that match as well as persons. this provider will
 return a mix of contact and person records. The type is indicated in the Type property of the item, and the contact
 ID is always in the extraInfo.
@@ -37,6 +36,9 @@ Type = "Person"
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AllPersonListSearchProvider">AllPersonListSearchProvider</see> class.
 The name of the MDO list is 'allpersonsearch'.
 
+
+
+
 ## Sample Request
 
 ```http!
@@ -48,7 +50,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("allpersonsearch", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -62,6 +63,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "formfolder"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,8 +15,9 @@ so.envir:
 ---
 
 # "formfolder" MDO List
-
 EjCategoryProvider creates a flat or tree list based on the table: EJ_CATEGORY
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.FormFolderProvider">FormFolderProvider</see> class.
 The name of the MDO list is 'formfolder'.
@@ -29,6 +30,10 @@ The name of the MDO list is 'formfolder'.
 
 Separator: &
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -40,7 +45,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("formfolder", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -54,6 +58,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |-1|(No Selection)|||
+
 
 ## Related MDO Lists
 

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteConnector"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,15 +20,13 @@ so.envir:
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.QuoteConnectorProvider">SuperOffice.CRM.ArchiveLists.QuoteConnectorProvider</see> inside NetServer's SODatabase assembly.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"connector"|[??Connector]|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |name| *None* |Name: Name (from code) of the Quote Connector| x |
 |className| *None* |Class name (C#: The name of C# type that implements the Quote Connector| x |
 |assemblyName| *None* |Assembly name: Name of the DLL ('assembly') the Quote Connector has been loaded from| x |
@@ -47,4 +45,7 @@ Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

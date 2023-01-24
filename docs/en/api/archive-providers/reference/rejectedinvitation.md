@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "RejectedInvitation"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,20 +25,18 @@ A rejected invitation is one that has been rejected or deleted by you, and is no
 This is an optional entity and is fetched only if the user checks the corresponding box.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"rejected"|Show declined|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |invitationTypeIcon| *None* |Invitation type icon|  |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|icon|string|Category: Displays the icon for an activity type| x |
+|icon|listAny|Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity| x |
@@ -77,6 +75,7 @@ This is an optional entity and is fetched only if the user checks the correspond
 |invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
+|duration|timeSpan|Duration: The duration of the chat session|  |
 |invitationStatusIcon| *None* |Status icon for the invitation| x |
 |invitationStatus| *None* |Status: Status| x |
 |visibleFor|listAny|Visible for|  |
@@ -561,7 +560,7 @@ This is an optional entity and is fetched only if the user checks the correspond
 |project/project/textId|int|Text ID| x |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|sale/icon|string|Category: Displays the icon for an activity type| x |
+|sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |sale/time| *None* |Time: Time|  |
 |sale/type|listAny|Type: Displays the type of an activity| x |
@@ -689,11 +688,14 @@ This is an optional entity and is fetched only if the user checks the correspond
 ## Sample
 
 ```http!
-GET /api/v1/archive/RejectedInvitation?$select=who,person/personBusiness,person/personAddress/state,sale/who,sale/saleUdef/SuperOffice:3
+GET /api/v1/archive/RejectedInvitation?$select=contact/postAddress/wgs84longitude,sale/hasStakeholders,sale/activeErpLinks,sale/associate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "preferencesection"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "preferencesection" MDO List
-
 MDO Provider that retrieves a list of preference sections
 
 Preferences are described in the prefdesc table. This provider will retrieve descriptions for all sections.
@@ -24,6 +23,9 @@ Each item contains the programmatic section name in the extraInfo field.
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PreferenceSectionProvider">PreferenceSectionProvider</see> class.
 The name of the MDO list is 'preferencesection'.
+
+
+
 
 ## Sample Request
 
@@ -36,7 +38,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("preferencesection", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,24 +53,25 @@ foreach (var item in listProvider.RootItems) {
 |1000003|Customer Centre password policy||ccAuthentication|
 |1000013|Statistics||DataCollection|
 |1000024|Default values||Defaults|
-|1000058|Diary||DiaryView|
-|1000083|Filter Dialog||FilterDialog|
-|1000085|Freetext search||Freetext|
-|1000093|Functions||Functions|
-|1000147|E-mail||Mail|
-|1000209|Marketing||Mailing|
-|1000214|Grouped lists||MDOList|
-|1000285|Web Services||NetServices|
-|1000304|Notifications via popup||notification|
-|1000312|Notifications via e-mail||notificationEmail|
-|1000320|Notifications via SMS||notificationSms|
-|1000336|Contact||Person|
-|1000355|Mobile CRM||PocketTasks|
-|1000359|Request||request|
-|1000378|Sale||Sale|
-|1000395|SuperOffice Service system settings||serviceSettings|
-|1000420|Service outbox||serviceSMTP|
-|1000426|SMS configuration||sms|
+|1000059|Diary||DiaryView|
+|1000084|Filter Dialog||FilterDialog|
+|1000086|Freetext search||Freetext|
+|1000094|Functions||Functions|
+|1000148|E-mail||Mail|
+|1000210|Marketing||Mailing|
+|1000215|Grouped lists||MDOList|
+|1000512|Data mirroring||Mirroring|
+|1000286|Web Services||NetServices|
+|1000305|Notifications via popup||notification|
+|1000313|Notifications via e-mail||notificationEmail|
+|1000321|Notifications via SMS||notificationSms|
+|1000337|Contact||Person|
+|1000356|Mobile CRM||PocketTasks|
+|1000360|Request||request|
+|1000379|Sale||Sale|
+|1000396|SuperOffice Service system settings||serviceSettings|
+|1000422|Service outbox||serviceSMTP|
+
 
 ## Related MDO Lists
 

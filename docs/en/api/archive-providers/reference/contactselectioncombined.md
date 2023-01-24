@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ContactSelectionCombined"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,16 +22,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Implementation of the provider for the combined selection
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"staticContact"|Static company|
 |"staticPerson"|Static contact|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -403,6 +401,7 @@ Implementation of the provider for the combined selection
 |appointment/invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd|  |
 |appointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
 |appointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
+|appointment/duration| *None* |Duration: The duration of the chat session|  |
 |appointment/visibleFor| *None* |Visible for|  |
 |appointment/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |appointment/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -1065,6 +1064,7 @@ Implementation of the provider for the combined selection
 |personAppointment/invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd|  |
 |personAppointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
+|personAppointment/duration| *None* |Duration: The duration of the chat session|  |
 |personAppointment/visibleFor| *None* |Visible for|  |
 |personAppointment/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |personAppointment/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -1114,11 +1114,14 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=contactAssociate/assocTooltip,sourceRelation/contactNoMail,sale/associate/credentialType,appointment/appointmentUdef/SuperOffice:4,appointment/appointment/description
+GET /api/v1/archive/ContactSelectionCombined?$select=country,streetAddress/zip,NumberOfActivities,sourceRelation/contactNoMail,targetRelation/countryId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

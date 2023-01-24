@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SelectionDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,15 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Selection selection archive using the selectionId as criterionmapping.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"selection"|Selection|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |selectionId|int|Selection ID: The database ID of the selection| x |
@@ -89,11 +87,14 @@ Selection selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicSelectionSingleCriteriaGroup?$select=lastLoadedByFullName,selectionAssociate/fullName
+GET /api/v1/archive/SelectionDynamicSelectionSingleCriteriaGroup?$select=selectionAssociate/credentialType,lastLoadedByFullName,selectionAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ContactPersonSelectionV2"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,18 +22,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 This is the archive Provider for the Selection contact/person archive.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"staticContact"|Static company|
 |"staticPerson"|Static contact|
 |"contact"|Company|
 |"person"|Contact|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -405,6 +403,7 @@ This is the archive Provider for the Selection contact/person archive.
 |appointment/invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |appointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
 |appointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
+|appointment/duration| *None* |Duration: The duration of the chat session|  |
 |appointment/visibleFor| *None* |Visible for|  |
 |appointment/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1067,6 +1066,7 @@ This is the archive Provider for the Selection contact/person archive.
 |personAppointment/invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |personAppointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
+|personAppointment/duration| *None* |Duration: The duration of the chat session|  |
 |personAppointment/visibleFor| *None* |Visible for|  |
 |personAppointment/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published| x |
 |personAppointment/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1118,11 +1118,14 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=targetRelation/contactNoMail,sale/saleId,document/associate/associateDbId,document/documentUdef/SuperOffice:2,rank
+GET /api/v1/archive/ContactPersonSelectionV2?$select=streetAddress/formattedAddress,sale/salePublish/publishedFrom,appointment/recordTypeText,appointment/appointmentPublish/publishedFrom,appointment/appointmentUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

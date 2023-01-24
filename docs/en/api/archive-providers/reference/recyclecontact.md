@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "RecycleContact"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,16 +20,14 @@ so.envir:
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.RecycleContactsProvider">SuperOffice.CRM.ArchiveLists.RecycleContactsProvider</see> inside NetServer's SODatabase assembly.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"contact"|Company|
 |"forAllUsers"|View deleted companies for all users|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |contactId|int|Company ID: Database ID of company| x |
@@ -206,11 +204,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecycleContact?$select=restrictionAddress/wgs84latitude,contactAssociate/personEmail,contactUdef/SuperOffice:6
+GET /api/v1/archive/RecycleContact?$select=contactUdef/SuperOffice:4,streetAddress/line1,contactAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

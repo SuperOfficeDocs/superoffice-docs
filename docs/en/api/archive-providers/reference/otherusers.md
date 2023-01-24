@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "OtherUsers"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,22 +23,20 @@ Concrete provider for 'Other' Users - System and Anonymous user accounts. See <s
 the actual functionality of the provider.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"all"|All|
 |"superoffice_system-user-cal"|[System user]|
 |"expired"|Expired|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |userplan| *None* |User plan: User plan (licence)|  |
 |canLogin|bool|Can log in: Can log in|  |
-|SuperOffice\_system-user-cal| *None* |System user: Allows log in to NetServer|  |
+|superoffice\_system-user-cal| *None* |System user: Allows log in to NetServer|  |
 |associateDbId|associate|ID| x |
 |role|listAny|Role : Role| x |
 |assocName|associate|User ID : User ID| x |
@@ -63,4 +61,7 @@ Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

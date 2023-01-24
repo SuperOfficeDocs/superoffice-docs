@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "freetextsearchentity"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,14 +15,18 @@ so.envir:
 ---
 
 # "freetextsearchentity" MDO List
-
 List provider that returns the entities supported by free text search. The extraInfo field contains the
 programmatic table name, which can be used as input for the OwnerEntityName restriction of the
 <see cref="T:SuperOffice.CRM.ArchiveLists.FreetextCountProvider" />. The ID of each item is the table number
 corresponding to the entity, and can also be used as a restriction value.
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.FreetextSearchEntityProvider">FreetextSearchEntityProvider</see> class.
 The name of the MDO list is 'freetextsearchentity'.
+
+
+
 
 ## Sample Request
 
@@ -35,7 +39,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("freetextsearchentity", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -55,6 +58,7 @@ foreach (var item in listProvider.RootItems) {
 |10|Document||document|
 |13|Sale||sale|
 |23|Selection||selection|
+
 
 ## Related MDO Lists
 

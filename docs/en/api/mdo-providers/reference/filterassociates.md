@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "filterassociates"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,12 @@ so.envir:
 ---
 
 # "filterassociates" MDO List
-
 Associate list for the Filter dialog. This associate list differs from the standard list in two ways:
 a) It contains even former employees (you may wnat to filter in our out their activites, even though they have gone);
 and b) It is of type Selectable, with the currently selected
 associates marked as such.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.FilterAssociateProvider">FilterAssociateProvider</see> class.
 The name of the MDO list is 'filterassociates'.
@@ -34,6 +35,10 @@ The name of the MDO list is 'filterassociates'.
 
 Separator: ;
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -45,7 +50,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("filterassociates", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -79,6 +83,7 @@ foreach (var item in listProvider.RootItems) {
 |86|Johan Jensen|||
 |87|Kjell Jensen|||
 |81|Listadm Listadm|||
+
 
 ## Related MDO Lists
 

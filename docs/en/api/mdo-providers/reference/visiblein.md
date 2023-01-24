@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "visiblein"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "visiblein" MDO List
-
 Visible in list for web panels.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.VisibleInProvider">VisibleInProvider</see> class.
 The name of the MDO list is 'visiblein'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("visiblein", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -62,10 +65,9 @@ foreach (var item in listProvider.RootItems) {
 |12|Dialog - Document dialog|||
 |48|Dialog - Quote dialog|||
 |52|Dialog - Product dialog|||
-|24|Task - Dialog for follow-ups|||
-|26|Task - Document dialog|||
-|49|Task - Quote dialog|||
-|25|Task - Sale dialog|||
+|1|Menu - Toolbox menu|||
+|3|Menu - View menu|||
+
 
 ## Related MDO Lists
 

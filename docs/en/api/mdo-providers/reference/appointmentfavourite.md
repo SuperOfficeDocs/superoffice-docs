@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "appointmentfavourite"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "appointmentfavourite" MDO List
-
 MDO list provider for Favourites
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AppointmentFavouriteListProvider">AppointmentFavouriteListProvider</see> class.
 The name of the MDO list is 'appointmentfavourite'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("appointmentfavourite", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -46,6 +49,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

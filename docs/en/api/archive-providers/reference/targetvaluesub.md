@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TargetValueSub"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,15 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Archive of TargetValue - used by .
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"targetValue"|[targetValue]|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |targetValue|int|!!Target value: !!Target value|  |
@@ -41,8 +39,13 @@ Archive of TargetValue - used by .
 |targetYear|int|!!TargetYear: !!TargetYear|  |
 |targetCurrency|listAny|Currency: The currency of the sale|  |
 |targetPeriod|date|Date: Displays start date of a follow-up / sale date of a sale|  |
-|targetPeriodType|int|!!targetPeriodType: !!targetPeriodType|  |
-|targetAssignmentId|int|!!targetPeriodType: !!targetPeriodType|  |
+|targetPeriodType|int|targetPeriodType: targetPeriodType|  |
+|targetAssignmentId|int|targetAssignmentId: targetAssignmentId|  |
+|targetDimensionEntityType|listAny|!!targetDimensionEntityType: !!targetDimensionEntityType|  |
+|targetDimensionMeasurementUnit|listAny|!!targetDimensionMeasurementUnit: !!targetDimensionMeasurementUnit|  |
+|targetDimensionListField|string|!!targetDimensionListField: !!targetDimensionListField|  |
+|targetAssignmentDimensionItemId|intArray|!!targetAssignmentDimensionItemId: !!targetAssignmentDimensionItemId|  |
+|targetDimensionTargetTypeName|listAny|!!targetDimensionTargetTypeName: !!targetDimensionTargetTypeName|  |
 |associate/firstName|string|First name: Displays the contact's first name| x |
 |associate/lastName|string|Last name: Displays the contact's last name| x |
 |associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -385,11 +388,14 @@ Archive of TargetValue - used by .
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValueSub?$select=targetPeriod,contact/restrictionPostalAddress/wgs84longitude,contact/contactSupportPerson/personUpdatedByFullName
+GET /api/v1/archive/TargetValueSub?$select=contact/contactPhone/formattedNumber,contact/contactAssociate/mrMrs,contact/contactSupportAssociate/mrMrs,contact/contactSupportPerson/personUdef/SuperOffice:11,contact/contactSupportPerson/withdrawnEmarketingConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

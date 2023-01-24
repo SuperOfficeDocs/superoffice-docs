@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleStakeholder"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,17 +20,15 @@ so.envir:
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.SaleStakeholderProvider">SuperOffice.CRM.ArchiveLists.SaleStakeholderProvider</see> inside NetServer's SODatabase assembly.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"salestakeholder"|[Sale Stakeholder]|
 |"retired"|Former employees|
 |"stop"|Companies flagged with Stop|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |saleStakeholderId|int|Stakeholder ID: Database ID of the stakeholder row| x |
@@ -413,11 +411,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStakeholder?$select=person/hasInterests,person/personCountryId,person/rank,contact/updatedBy
+GET /api/v1/archive/SaleStakeholder?$select=person/lastName,person/personAssociate/ejUserId,contact/streetAddress/zip,contact/restrictionAddress/county,contact/contactAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FreetextPerson"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,15 +32,13 @@ Freetext search will limit the number of hits to the first 1000. This clipping i
 as well as before any ORDER BY, are applied.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"person"|Contact|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |searchwords|string|Search word: One or more words to be used in free text search|  |
@@ -871,7 +869,7 @@ as well as before any ORDER BY, are applied.
 |projectMembers/project/textId|int|Text ID| x |
 |projectMembers/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |personAppointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|personAppointment/icon|string|Category: Displays the icon for an activity type| x |
+|personAppointment/icon|listAny|Category: Displays the icon for an activity type| x |
 |personAppointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |personAppointment/time| *None* |Time: Time|  |
 |personAppointment/type|listAny|Type: Displays the type of an activity| x |
@@ -910,6 +908,7 @@ as well as before any ORDER BY, are applied.
 |personAppointment/invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |personAppointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
+|personAppointment/duration|timeSpan|Duration: The duration of the chat session|  |
 |personAppointment/visibleFor|listAny|Visible for|  |
 |personAppointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |personAppointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -959,11 +958,14 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=personUrl/URLDescription,personTargetRelation/personCountryId,personAssociate/contactName,personAssociate/role,personContact/contactSupportPerson/personExtra/x_person_request_relation
+GET /api/v1/archive/FreetextPerson?$select=personExtra/x_person_shorttext_list,personExtra/y_rental/x_end,correspondingAssociate/userName,personContact/searchPhone/formattedNumber,personContact/restrictionAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

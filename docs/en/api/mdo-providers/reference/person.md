@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "person"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,8 +15,9 @@ so.envir:
 ---
 
 # "person" MDO List
-
 List of persons from the Archive provider
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PersonListProvider">PersonListProvider</see> class.
 The name of the MDO list is 'person'.
@@ -26,6 +27,10 @@ The name of the MDO list is 'person'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Restrict results to selection memebers.| selection_id|23|
+
+
+
+
 
 ## Sample Request
 
@@ -38,7 +43,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("person", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -72,6 +76,7 @@ foreach (var item in listProvider.RootItems) {
 |22|Arjan Abelsen|||
 |139|Ärle Älström|||
 |19|Arne Arnesen|||
+
 
 ## Related MDO Lists
 

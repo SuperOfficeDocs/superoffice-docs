@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteLineDynamicSelectionV2"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,15 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 QuoteLine selection archive with OR-able selection groups. Each group is represented with the <see cref="T:SuperOffice.CRM.ArchiveLists.Archive.QuoteLineSelectionDynamicProviderSingleCriteriaGroup" />.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"quoteLine"|[Dynamic quoteline]|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -129,7 +127,7 @@ QuoteLine selection archive with OR-able selection groups. Each group is represe
 |alternative/version/quote/connectionId|int|DB-ID: Database ID| x |
 |alternative/version/quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
 |alternative/version/quote/sale/completed|bool|Sale - Completed: Displays a checkbox showing if an appointment is completed| x |
-|alternative/version/quote/sale/icon|string|Sale - Category: Displays the icon for an activity type| x |
+|alternative/version/quote/sale/icon|listAny|Sale - Category: Displays the icon for an activity type| x |
 |alternative/version/quote/sale/date|date|Sale - Date: Displays start date of a follow-up / sale date of a sale| x |
 |alternative/version/quote/sale/time| *None* |Sale - Time: Time|  |
 |alternative/version/quote/sale/type|listAny|Sale - Type: Displays the type of an activity| x |
@@ -720,11 +718,14 @@ QuoteLine selection archive with OR-able selection groups. Each group is represe
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelectionV2?$select=PriceUnitSubscriptionUnit,alternative/version/quote/sale/person/personExtra/x_person_longtext,alternative/version/quote/sale/person/personAssociate/firstName,alternative/version/quote/sale/contact/phone/formattedNumber,alternative/version/quote/sale/contact/contactAssociate/title
+GET /api/v1/archive/QuoteLineDynamicSelectionV2?$select=alternative/vatInfo,alternative/version/quote/sale/person/portraitThumbnail,alternative/version/quote/sale/person/correspondingAssociate/lastName,alternative/version/quote/sale/contact/postAddress/state,alternative/version/quote/sale/contact/contactAssociate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

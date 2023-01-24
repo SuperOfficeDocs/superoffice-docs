@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FreetextSale"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,20 +32,18 @@ Freetext search will limit the number of hits to the first 1000. This clipping i
 as well as before any ORDER BY, are applied.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"sale"|Sale|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |searchwords|string|Search word: One or more words to be used in free text search|  |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|icon|string|Category: Displays the icon for an activity type| x |
+|icon|listAny|Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity| x |
@@ -1078,11 +1076,14 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSale?$select=person/personAssociate/associateDbId,contact/nameDepartment,contact/streetAddress/zip,contact/contactUdef/SuperOffice:12,contact/contactExtra/x_contact_integer
+GET /api/v1/archive/FreetextSale?$select=person/personRegisteredDate,contact/contactAssociate/usergroup,project/projectAssociate/contactDepartment,project/NumberOfNotCompletedActivitiesInPeriod,project/LastDoBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+
