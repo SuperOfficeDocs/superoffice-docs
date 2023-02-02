@@ -19,7 +19,7 @@ Templates are displayed as items in the **Email - Template** list and you can ad
 
 1. Enter the required name of the item in the **Template name** field.
 
-2. In the **Template type** field, select the type of template you are creating. Select **Normal** if you want the template to be available in **Inbox**. You also have the option to make the template available as a quote template, an [order confirmation template]][3], or a [privacy confirmation template][4].
+2. In the **Template type** field, select the type of template you are creating. Select **Normal** if you want the template to be available in **Inbox**. You also have the option to make the template available as a quote template, an [order confirmation template][3], or a [privacy confirmation template][4].
 
 3. If you wish, you can choose where to store the document template, in the **Store template in** list.
 

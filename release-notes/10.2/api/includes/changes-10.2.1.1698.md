@@ -1,9 +1,10 @@
 ---
-uid: version_10.2.1.1517_changes
-so.date: 1/23/2023
+uid: version_10.2.1.1698_changes
+so.date: 2/2/2023
+generated: 1
 ---
 
-# Changes from v10.1.9.1223 and v10.2.1.1517
+# Changes from v10.1.9.1223 and v10.2.1.1698
 
 ## Web Services
 
@@ -2018,6 +2019,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `LogExceptionError(String, Exception, String, Object[])`
   * Method `LogExceptionWarning(String, Exception, String, Object[])`
+  * Method `StartOperation(String, IDictionary<String, String>)`
 
 #### SuperOffice.Exceptions.DirectInvokeAjaxServiceException is Modified
 
