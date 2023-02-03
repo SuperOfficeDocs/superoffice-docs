@@ -18,10 +18,10 @@ so.topic: reference
 ## New MDO Providers
 
 * [Related data fields][3]
-* [Task Menu][4]
+* [Task menu][4]
 * [Task menu destination][5]
 * [Task menu group][6]
-* [URL lencoding][7]
+* [URL encoding][7]
 
 ## New web service methods
 
