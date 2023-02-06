@@ -25,14 +25,14 @@ How request handling progresses will vary from request to request.
 * [Add message][8]
 * [Edit message][9]
 
-Different companies have different routines for request handling and can use SuperOffice Service in different ways. Below we have set up two scenarios showing some of the available options.
+Different companies have different routines for request handling and can use SuperOffice Requests in different ways. Below we have set up two scenarios showing some of the available options.
 
 ## Scenario 1: The customer submits the request by email
 
 1. The customer writes an email to support@company.com or fills out a form in a user-support portal.
 2. The customer receives [automatic acknowledgement][11] of receipt of the enquiry.
-3. The enquiry from the customer is automatically registered as a request in SuperOffice Service.
-4. The request ends up with a request handler in SuperOffice Service. See [Assign requests][12] and [Find requests][13].
+3. The enquiry from the customer is automatically registered as a request in SuperOffice CRM.
+4. The request ends up with a request handler in SuperOffice CRM. See [Assign requests][12] and [Find requests][13].
 5. The request handler reads through the request.
 6. The request handler is unable to fulfil the request on their own and does one of the following:
     * [Asks a colleague][2].
@@ -53,7 +53,7 @@ Different companies have different routines for request handling and can use Sup
 ## <a id="ai" />Efficient handling of requests using AI
 
 > [!NOTE]
-> AI services require a separate licence. SuperOffice AI is cloud only and is a separate add-on.
+> AI services require a separate license. SuperOffice AI is cloud only and is a separate add-on.
 
 The introduction of Artificial Intelligence (AI) in SuperOffice 10 gives request handlers / support agents a new set of smart tools to make their workday more efficient.
 
@@ -69,11 +69,11 @@ If you receive a message in a language you cannot read, you can click the **Tran
 
 (is the customer happy or angry?)
 
-If this function is active, incoming email requests are analyzed to determine the "mood" of the customer. An emoticon below the message will indicate the detected sentiment (happy, unhappy or neutral).
+If this function is active, incoming email requests are analysed to determine the "mood" of the customer. An emoticon below the message will indicate the detected sentiment (happy, unhappy or neutral).
 
-### Automatic categorization
+### Automatic categorisation
 
-Save time by letting the system categorize requests for you. If this function is active, incoming email requests are analyzed to determine the best category for each request. In the footer of a request, you will see the category suggested by the system. Click the category link to update the request with the suggested category.
+Save time by letting the system categorise requests for you. If this function is active, incoming email requests are analysed to determine the best category for each request. In the footer of a request, you will see the category suggested by the system. Click the category link to update the request with the suggested category.
 
 <!-- Referenced links -->
 [1]: accept.md
