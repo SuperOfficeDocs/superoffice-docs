@@ -17,9 +17,8 @@ language: en
 In general, it is not recommended to delete a request. However, you may have to delete a request to comply with your company's privacy policy. All messages and attachments/files linked to the request are also deleted.
 
 1. [Open the request you want to delete][1].
-2. Click ![icon][img1] and select **Edit request**.
-3. Click the **Delete** button in the lower right corner.
-4. Click **OK**.
+2. Click the ![icon][img1] **Task** button and select **Delete**.
+3. Confirm whether you really want to delete the request by clicking **Yes** or **No**.
 
 > [!NOTE]
 > The request is not deleted from the database immediately. The status of the request is set to Deleted, so it is still possible to open and edit the request. The request will then be permanently deleted from the database after x days (system setting).
