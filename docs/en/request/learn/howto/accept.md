@@ -16,7 +16,7 @@ This is particularly relevant for unassigned requests (those without a defined o
 1. [Open the request][1].
 2. Accept:
 
-    * Click the ![icon][img1] **Actions** button and select **Accept request**. Or,
+    * Click the ![icon][img1] **Task** button and select **Accept**. Or,
     * In the **Owner** field, select yourself.
 
 [!include[Get next request in queue](includes/howto-get-next-request.md)]
