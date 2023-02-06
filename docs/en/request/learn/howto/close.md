@@ -11,15 +11,9 @@ language: en
 
 # Close requests
 
-After responding to the request, you can set its status to **Closed**. This can be done in different ways:
-
-* When you send the final [request to a customer][1], you can also select **Closed** under **Status** in the **Properties** tab.
-* You can [open a request][2] at any time and select **Closed** in the **Status** list.
-* If you [forward the request to an external party][3], who will handle and complete the request, you can select **Close request**.
+After responding to the request, you can set its status to **Closed** by selecting **Closed** in the **Status** list.
 
 <!-- Referenced links -->
-[1]: reply.md
-[2]: ../index.md#open
-[3]: forward.md
+
 
 <!-- Referenced images -->
