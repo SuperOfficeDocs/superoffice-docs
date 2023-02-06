@@ -9,40 +9,40 @@ so.topic: howto
 language: en
 ---
 
-# Add requests to the favorites list
+# Add requests to the favourites list
 
-In SuperOffice Service there is a favorites list, you can add requests you want to remind yourself to follow up.
+In SuperOffice there is a favourites list where you can add requests you want to remind yourself to follow up.
 
 > [!TIP]
-> You can also add contacts, companies, selections and mailings to your [favorites][1]. These favorites can be accessed by clicking the relevant icon in the Navigator and clicking ![icon][img3].
+> You can also add contacts, companies, selections and mailings to your [favourites][1]. These favourites can be accessed by clicking the relevant icon in the Navigator and clicking ![icon][img3].
 
 ## Add one request
 
 1. [Open the request][3].
-2. Click the favorites icon ![icon][img1] in the request header. The star turns yellow ![icon][img2], and the request is instantly added to favorites. You do not have to click **Save**.
+2. Click the favourites icon ![icon][img1] in the request header. The star turns yellow ![icon][img2], and the request is instantly added to favourites. You do not have to click **Save**.
 
 > [!TIP]
-> Before [transferring responsibility][2] for the request to someone else, it is a good idea to add it to your favorites list, to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field.
+> Before [transferring responsibility][2] for the request to someone else, it is a good idea to add it to your favourites list, to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field.
 
 ## Add multiple requests
 
 1. Search for the relevant requests.
-2. Click the checkbox next to each request you want to add to the favorites list.
-3. Click ![icon][img5] in the lower left corner of the list.
-4. Select **Batch management** > **Add to my favorites**.
+2. Select the requests you want to add to the favourites list by holding down Ctrl and clicking them.
+3. Click ![icon][img5] **Task** in the lower left corner of the screen.
+4. Select **Add to my favourites**.
 
-## View the favorites list
+## View the favourites list
 
 Do one of the following:
 
 * Select **Requests** in the Navigator, and click ![icon][img3].
-* Select **Requests** in the Navigator, and select **My favorites**.
-* Go to **Dashboard**, click the list button ![icon][img6] next to the title of a panel, and select **My favorites**.
+* Select **Requests** in the Navigator, and select **My favourites**.
+* Go to **Dashboard**, click the list button ![icon][img6] next to the title of a panel, and select **My favourites**.
 
-## Remove requests from the favorites list
+## Remove requests from the favourites list
 
 1. Open the request.
-2. Click the favorites icon ![icon][img2] in the request header. The icon changes to ![icon][img1].
+2. Click the favourites icon ![icon][img2] in the request header. The icon changes to ![icon][img1].
 
 <!-- Referenced links -->
 [1]: ../../../learn/getting-started/fav.md
