@@ -1,6 +1,6 @@
 ---
 uid: help-en-request-fav
-title:  Add requests to the favorites list
+title:  Add requests to the favourites list
 description:  Add requests to the favorites list
 author: HanneGunnarsson
 so.date: 06.29.2022
