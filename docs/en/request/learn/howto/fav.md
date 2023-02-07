@@ -2,7 +2,7 @@
 uid: help-en-request-fav
 title:  Add requests to the favorites list
 description:  Add requests to the favorites list
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: request, fav
 so.topic: howto
