@@ -2,7 +2,7 @@
 uid: help-en-request-split
 title: Split requests
 description: Split requests
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: request
 so.topic: help

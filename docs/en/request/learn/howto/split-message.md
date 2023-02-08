@@ -2,7 +2,7 @@
 uid: help-en-request-message-split
 title: Split message
 description: Split message
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: request
 so.topic: howto
