@@ -25,12 +25,13 @@ You can add a message to several requests in a single operation. For example, if
     * **Close request**: Check this box to close all selected requests in one operation.
     * **Access level**: The access level for the message you are adding. If you select **External**, the message is visible on the selected requests in SuperOffice Customer Centre.
     * Write your message in the text area in the middle of the screen.
-    * If you want to add a reply template or an answer from the FAQ, you can click [icon][img2] and select **FAQ** or **Reply template**. From this list box, you can select a reply template from the reply template hierarchy. If the template is available in several languages, you must select the correct language.
+    * **Insert**: Click the list button ![icon][img2], and select what to insert in the message. You can add a reply template, an FAQ entry, a previous message, or an attachment. Optional: You can also [add reply templates in other languages][1]. Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used.
 
 5. Click **Reply** when you are finished.
 
 <!-- Referenced links -->
+[1]: ../../../service/reply-templates/learn/new-language.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
-[img2]: 
+[img2]: ../../../../../common/icons/dropdown-arrow.png

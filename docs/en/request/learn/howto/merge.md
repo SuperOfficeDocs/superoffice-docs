@@ -47,4 +47,3 @@ The request IDs that were overwritten will no longer be available in favourites 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/select-all.png
