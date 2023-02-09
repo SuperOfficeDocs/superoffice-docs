@@ -18,7 +18,7 @@ so.version: 10.2
 ## Details of new features
 
 * 10.2.1: Task menu list, Custom tasks, Preferences, Batch management, Document preview with meta data
-* 10.2.2: Email domain validation
+* 10.2.2: Marketing Email domain validation, From name in mailing
 
 <!-- Referenced links -->
 
