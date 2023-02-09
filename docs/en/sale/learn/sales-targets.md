@@ -5,7 +5,7 @@ description: Sales targets
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: Service
-so.topic: help
+so.topic: help, online
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 > [!NOTE]
 > **Licenses**
-> This feature requires the Sales Premium licence.
+> This feature requires the Sales Premium licence for **ONLINE** customers.
 > The following functions are only available with the Sales Targets Unlimited licence in addition to the Sales Premium licence:
 >
 > * Adding additional target types (dimensions)
