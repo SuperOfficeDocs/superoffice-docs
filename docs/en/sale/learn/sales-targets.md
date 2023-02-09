@@ -12,8 +12,10 @@ language: en
 # Targets
 
 > [!NOTE]
-> **Licenses**
-> This feature requires the Sales Premium licence for **ONLINE** customers. (Not available for Onsite customers.)
+>**ONLINE** customers only. (Not available for Onsite customers.)
+>
+>**Licenses**
+> This feature requires the Sales Premium licence.
 > The following functions are only available with the Sales Targets Unlimited licence in addition to the Sales Premium licence:
 >
 > * Adding additional target types (dimensions)
