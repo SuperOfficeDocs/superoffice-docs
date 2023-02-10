@@ -3,7 +3,7 @@ uid: help-en-request-reply-batch
 title: Add a message to multiple requests
 description: Add a message to multiple requests
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.10.2023
 keywords: request
 so.topic: help
 language: en

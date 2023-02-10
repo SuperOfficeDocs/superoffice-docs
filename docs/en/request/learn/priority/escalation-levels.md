@@ -15,7 +15,7 @@ For each priority you can define one or more escalation levels, so that the syst
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
-## Define new levels in Settings and maintenance
+## How to define new levels
 
 1. Go to the **Priorities** screen: Click the **Requests** button in the navigator. Then select the **Priorities** tab.
 
@@ -36,6 +36,9 @@ For each priority you can define one or more escalation levels, so that the syst
 1. Under **Send reply template**, you can define who should receive an email and SMS when this escalation level is triggered.
 
     Select the checkboxes for **Email** or **SMS** next to each recipient, and select the relevant reply template. If you select **Others**, you must enter the relevant email addresses (use commas) and phone numbers in the fields below.
+
+    > [!NOTE]
+    > If the **Send reply template by SMS to** tab is not displayed, this means that SMS has not been enabled for the licence you are using. Contact your system administrator for more information.
 
 1. Click **Save**.
 

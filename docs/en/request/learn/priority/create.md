@@ -3,7 +3,7 @@ uid: help-en-request-priority-create
 title: Create priority
 description: Create priority
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.10.2023
 keywords: request, priority
 so.topic: howto
 so.audience: settings
@@ -22,7 +22,6 @@ The default priorities included with the system are **High**, **Medium** and **L
 1. Go to the **Priorities** screen.
 
     * In Settings and maintenance: Click the **Requests** button in the navigator. Then select the **Priorities** tab.
-    * In Service: Select ![icon][img1] > **Priorities**.
 
 1. Click the **Add** / **New priority** button.
 
@@ -99,4 +98,3 @@ The default priorities included with the system are **High**, **Medium** and **L
 [1]: escalation-levels.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png

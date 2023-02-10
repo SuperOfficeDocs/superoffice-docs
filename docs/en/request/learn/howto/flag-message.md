@@ -3,7 +3,7 @@ uid: help-en-request-message-flag
 title: Keep track of messages
 description: Keep track of messages
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.10.2023
 keywords: request, message, flag
 so.topic: howto
 language: en
@@ -31,5 +31,5 @@ To make it easier to find and sort multiple messages in a request, you can flag 
 [1]: ../index.md#open
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/service/message-flag-off.png
-[img2]: ../../../../media/icons/service/message-flag-on.png
+[img1]: ../../../../../common/icons/flag-off.png
+[img2]: ../../../../../common/icons/flag-on.png
