@@ -77,7 +77,7 @@ Your administrator can [add and customize project guides][1] for you.
 [2]: ../../company/learn/create.md
 [3]: ../../conntact/learn/create.md
 [4]: merge-delete-company-contact.md
-[5]: ../../search-options/selections/howto/bulk-update.md
+[5]: ../../search-options/selections/learn/howto/bulk-update.md
 [9]: recycle-bin.md
 [6]:
 

@@ -27,10 +27,10 @@ Deleted companies and contacts are by default kept in the recycle bin for 14 day
 * [Merge or delete companies and contacts][3]
 
 <!-- Referenced links -->
-[1]: ../howto/restore-deleted-companies-and-contacts.md
+[1]: restore-deleted-companies-and-contacts.md
 [2]:
 [3]:
 
 <!-- Referenced images -->
-[img1]: media/
-[img2]: media/
+[img1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/recycle-bin-personal-settings.png
+[img2]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/recycle-bin.png

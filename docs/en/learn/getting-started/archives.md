@@ -111,7 +111,7 @@ You can group the information in an archive by all the fields/columns in the arc
 <!-- Referenced links -->
 [1]: changing-column-view.md
 [2]:
-[3]: ../../search-options/selections/index.md
+[3]: ../../search-options/ selections/learn/index.md
 [4]: use-filters-in-section-tabs.md
 [5]: sections-tabs-grouping-lists.md
 

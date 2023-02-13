@@ -86,7 +86,7 @@ Watch this video to learn how to do a typical search and modify it by adding new
 [4]: ../../learn/getting-started/fav.md
 [5]: using-history-list.md
 [6]: using-search-criteria.md
-[7]: selections/create/index.md
+[7]: ../selections/learn/create/index.md
 
 <!-- Referenced images -->
 [img1]: media/search-find-fastsearcher.png

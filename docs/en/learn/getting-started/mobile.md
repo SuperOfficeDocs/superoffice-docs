@@ -42,10 +42,10 @@ Mobile CRM gives you access to your entire SuperOffice CRM system on your smartp
 1. Follow the instructions to configure it.
 1. Log in and start using it.
 
-Mobile CRM is free to download from:
+Mobile CRM is free to download:
 
-* Download SuperOffice mobile CRM in Apple App store
-* Download SuperOffice mobile CRM in Google Play
+* [Download SuperOffice mobile CRM in Apple App store][6]
+* [Download SuperOffice mobile CRM in Google Play][7]
 
 > [!NOTE]
 > Before we launched SuperOffice CRM version 9, our app was called SuperOffice Pocket CRM. This app is still operational (not supported with NetServer 10.0 or higher) and used by users on SuperOffice CRM version 8.5 or lower.
@@ -71,6 +71,8 @@ A short PDF guide to show how you can use Mobile CRM: [Quick Guide for Mobile CR
 [4]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-configure-notifications-on-the-mobile-crm-app/
 [5]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-caller-id-for-mobile-crm/
 [2]:
+[6]: https://apps.apple.com/us/app/superoffice-mobile-crm/id1516435957
+[7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 
 <!-- Referenced images -->
-[img1]:
+[img1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/mobile-crm/mobile-crm-gif-prev-02.gif
