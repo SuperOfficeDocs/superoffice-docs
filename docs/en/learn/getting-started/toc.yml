@@ -16,7 +16,7 @@ items:
     href: main-screen/global-buttons.md
   - name: Side panels
     href: main-screen/side-panel.md
-  - name: Resizing screen elements
+  - name: Resize screen elements
     href: resizing-screen-elements.md
   - name: Note and Notepad
     href: notes.md
@@ -25,9 +25,20 @@ items:
 - name: Preferences
   href: preferences.md
 - name: WebTools
-  href: ../../document//learn/web-tools.md
+  href: ../../document/learn/web-tools.md
 - name: Edit email signature
   href: edit-email-signature.md
-
+- name: Connect email and documents
+  href: connect-email-and-documents.md
+- name: Organize and filter your archives
+  href: archives.md
+- name: Basic tasks
+  href: basic-tasks.md
+- name: Recycle bin
+  href: recycle-bin.md
+- name: Mobile access
+  href: mobile.md
+- name: Merge or delete companies and contacts
+  href: merge-delete-company-contact.md
 - name: Technical requirements
   href: technical-requirements.md

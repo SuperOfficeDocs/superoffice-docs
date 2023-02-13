@@ -100,7 +100,7 @@ Shows a preview of a selected activity, project, contact, project member or sele
 Shows a summary of information about the current project in the **Project** screen.
 
 > [!TIP]
-> To view other projects, without having to switch projects in the **Project** screen, click the arrow ( ![icon][img3] ) next to the product name to open the [history list][1]
+> To view other projects, without having to switch projects in the **Project** screen, click the arrow ( ![icon][img3] ) next to the product name to open the [history list][1].
 
 ## Project members
 
@@ -114,7 +114,7 @@ Shows a list of project members in the current project in the **Project** screen
 Shows a summary of information about the current sale in the **Sale** screen.
 
 > [!TIP]
-> To view other sales, without having to switch sales in the **Sale** screen, click the arrow ( ![icon][img3] ) next to the name of the sale to open the [history list][1]
+> To view other sales, without having to switch sales in the **Sale** screen, click the arrow ( ![icon][img3] ) next to the name of the sale to open the [history list][1].
 
 [How to use the side panel efficiently for sales][10]
 
@@ -147,7 +147,7 @@ In SuperOffice Settings and maintenance, you can also define your own views for 
 [8]: ../fav.md
 [9]: ../notes.md
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
-[10]: ../../sale/learn/use-side-panel.md
+[10]: ../../../sale/learn/use-side-panel.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-left.png

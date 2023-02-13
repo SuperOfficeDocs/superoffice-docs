@@ -109,11 +109,11 @@ You can group the information in an archive by all the fields/columns in the arc
 * [Work with dynamic and static selections][3]
 
 <!-- Referenced links -->
-[1]: ../howto/changing-column-view.md
+[1]: changing-column-view.md
 [2]:
-[3]: ../search-options/selections/index.md
-[4]: ../howto/use-filters-in-section-tabs.md
-[5]: ../howto/sections-tabs-grouping-lists.md
+[3]: ../../search-options/selections/index.md
+[4]: use-filters-in-section-tabs.md
+[5]: sections-tabs-grouping-lists.md
 
 <!-- Referenced images -->
 [img1]: media/archives-enable-filter.png

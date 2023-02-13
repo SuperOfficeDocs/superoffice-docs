@@ -73,4 +73,4 @@ A short PDF guide to show how you can use Mobile CRM: [Quick Guide for Mobile CR
 [2]:
 
 <!-- Referenced images -->
-[img1]: media/
+[img1]:

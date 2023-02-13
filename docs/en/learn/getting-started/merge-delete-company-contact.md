@@ -58,4 +58,5 @@ On the selection, click on the Task button and select one of the wanted Delete f
 [6]: ../search-options/selections/howto/deleting-companies-permanently.md
 [7]: ../getting-started/recycle-bin.md
 [8]: ../search-options/selections/index.md
+
 <!-- Referenced images -->

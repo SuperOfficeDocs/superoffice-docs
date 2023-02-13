@@ -24,7 +24,7 @@ To use SuperOffice CRM, you must be assigned a user account that is unique for y
 
 ## What is my user ID?
 
-For online and web users the user ID is your email address.
+For online and web users, the user ID is your email address.
 
 Windows users must use their assigned user name.
 

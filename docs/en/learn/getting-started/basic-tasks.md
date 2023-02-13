@@ -73,13 +73,14 @@ Your administrator can [add and customize project guides][1] for you.
 * Create a project
 
 <!-- Referenced links -->
-[1]: ../project/project-guide/create.md
-[2]: ../company/create.md
-[3]: ../person/create.md
-[4]: ../howto/merge-delete-company-contact.md
-[5]: ../search-options/selections/howto/bulk-update.md
+[1]: ../../project/learn/project-guide/create.md
+[2]: ../../company/learn/create.md
+[3]: ../../conntact/learn/create.md
+[4]: merge-delete-company-contact.md
+[5]: ../../search-options/selections/howto/bulk-update.md
 [9]: recycle-bin.md
 [6]:
+
 <!-- Referenced images -->
 [img1]: media/diary.png
 [img2]: media/projects.png
