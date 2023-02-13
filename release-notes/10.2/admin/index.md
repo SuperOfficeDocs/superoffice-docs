@@ -12,7 +12,7 @@ so.topic: reference
 # New and improved Settings and maintenance
 
 * [Task menu list items (10.2.1)][1]
-* [Email domain validation (10.2.1)][2]
+* [Email domain validation (10.2.2)][2]
 
 <!-- Referenced links-->
 [1]: 10.2.1-update.md
