@@ -4,7 +4,7 @@ title: Navigate in diary
 description: Navigate in diary
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: diary, follow-up
 so.topic: help
 language: en
 ---

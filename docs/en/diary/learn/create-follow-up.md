@@ -4,7 +4,7 @@ title: Add follow-ups (appointments, tasks and phone calls)
 description: Add follow-ups (appointments, tasks and phone calls)
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
+keywords: diary, follow-up
 so.topic: help
 language: en
 ---

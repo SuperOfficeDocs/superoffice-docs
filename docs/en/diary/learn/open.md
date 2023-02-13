@@ -4,7 +4,7 @@ title: View diary
 description: View your own or other's diary or a group view.
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: diary, follow-up
 so.topic: help
 language: en
 ---

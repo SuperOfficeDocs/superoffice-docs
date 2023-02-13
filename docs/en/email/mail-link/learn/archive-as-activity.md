@@ -1,10 +1,10 @@
 ---
 uid: help-en-mail-link-archive-as-activity
 title: Archive email as activity
-description: Archive email as activity
+description: Saving an email directly as a task, an appointment or a phone-call in your SuperOffice diary will ensure that you never forget to follow up on a customer or query.
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Mail Link
+so.date: 02.10.2023
+keywords: Mail Link, email
 so.topic: howto
 language: en
 ---
@@ -12,6 +12,10 @@ language: en
 # Create activity from an email
 
 If you receive an email requesting you to take action, you can convert the email into an activity in SuperOffice CRM.
+
+![Use Mail link in Outlook to convert an email into an activity in SuperOffice CRM -screenshot][img1]
+
+## Steps
 
 1. Select the email(s) you would like to archive as an activity.
 
@@ -59,3 +63,4 @@ If you receive an email requesting you to take action, you can convert the email
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
+[img1]: media/email-maillink-create-activity.png

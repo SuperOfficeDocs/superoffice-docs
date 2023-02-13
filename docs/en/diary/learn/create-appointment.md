@@ -1,11 +1,11 @@
 ---
 uid: help-en-appointment-create
-title: Creating appointments
-description: Creating appointments
+title: Create appointment
+description: Creating appointments and scheduling all meetings and activities in your SuperOffice Diary help you to always have a complete overview of what’s happening, build up solid communication history, and keep your colleagues informed. This how-to guide will help you create appointments and see the different types of activity options available.
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+so.date: 02.10.2023
+keywords: diary, follow-up
+so.topic: howto
 language: en
 ---
 
@@ -40,10 +40,23 @@ Do one of the following:
 > [!NOTE]
 > If you create the appointment from the **View** tab (see [The View tab][1]), you can choose to have the **Participants** dialog automatically filled out with the members of the view. To set this option, go to ![icon][img2] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
+## Related content
+
+* [Appointment][6]
+* [Activities][4]
+* [Notifications / alarms][5]
+* [Delete an activity][7]
+* [Create a video meeting from the SuperOffice diary][8]
+
 <!-- Referenced links -->
 [1]: screen/view.md
 [2]: screen/dialog-for-followups.md
 [3]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
+[4]: ../../learn/activity/index.md
+[7]: ../../learn/activity/delete-activities-contact.md
+[5]: set-alarm.md
+[6]: appointment.md
+[8]: video-meetings.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

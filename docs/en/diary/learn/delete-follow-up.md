@@ -4,7 +4,7 @@ title: Delete follow-up using the Diary
 description: Delete follow-up using the Diary
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: diary, follow-up
 so.topic: help
 language: en
 ---

@@ -1,10 +1,10 @@
 ---
 uid: help-en-mail-link-archive-attachment
 title: Archive attachments
-description: Archive attachments
+description: If you would like to save an email attachment but not the email itself in SuperOffice CRM, you can archive the attachment as a document.
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Mail Link
+keywords: Mail Link, email, attachment
 so.topic: howto
 language: en
 ---
@@ -12,6 +12,10 @@ language: en
 # Archive attachments
 
 If the attachment is the only part of the email you would like to keep for future reference, it is possible to archive an attachment to an email in your mail client inbox to SuperOffice CRM. Follow these steps:
+
+![Use Mail Link in Outlook to archive an email attachment in your inbox to SuperOffice CRM -screenshot][img1]
+
+## Steps
 
 1. Select the email that contains the attachment(s) you want to archive.
 
@@ -56,3 +60,4 @@ If the attachment is the only part of the email you would like to keep for futur
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
+[img1]: media/email-maillink-archive-attachment.png

@@ -4,7 +4,7 @@ title: Day tab
 description: Day tab
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: diary, follow-up
 so.topic: help
 language: en
 ---

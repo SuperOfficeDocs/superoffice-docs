@@ -1,17 +1,24 @@
 ---
 uid: help-en-invitation-add-participant
 title: Add participants to follow-ups
-description: Add participants to follow-ups
+description: Inviting contacts to an appointment can be done in different ways, depending on whether it’s an internal or an external person, or a resource, such as a meeting room or special equipment. This how-to guide will show how you to add participants to an appointment.
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+so.date: 02.10.2023
+keywords: diary, follow-up, invitation, participant
+so.topic: howto
 language: en
 ---
 
 # Add participants and resources to follow-ups
 
 When you create a follow-up that concerns other people, you can add them as participants to the follow-up. You can also book your organization’s conference rooms and equipment. People who are available as participants are defined in SuperOffice Settings and maintenance.
+
+Invite a contact to an appointment from the participants tab by clicking the **Add** button.
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.webm]
+
+## Steps
 
 1. Open the **Appointment**, **Task** or **Phone Call** dialog and [enter the required information][2].
 
@@ -57,9 +64,16 @@ External participants are notified via email (if you selected this alternative i
 
 To manually accept or decline an invitation on behalf of someone, select the name in the list and click the **Toggle Status** button once to insert a green tick to show that the invitation was accepted, or click twice to insert a red cross for a declined invitation.
 
+## Related content
+
+* [Create appointments][3]
+* [Join a video meeting][4]
+
 <!-- Referenced links -->
 [1]: index.md#status
 [2]: ../screen/dialog-for-followups.md
+[3]: ../appointment.md
+[4]: ../video-meetings.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png

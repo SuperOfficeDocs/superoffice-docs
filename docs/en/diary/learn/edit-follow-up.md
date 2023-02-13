@@ -4,7 +4,7 @@ title: Editing follow-ups
 description: Editing follow-ups
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
+keywords: diary, follow-up
 so.topic: help
 language: en
 ---

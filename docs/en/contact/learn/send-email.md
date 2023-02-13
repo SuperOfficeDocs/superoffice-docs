@@ -1,11 +1,11 @@
 ---
 uid: help-en-contact-send-email
-title: contact send email
-description: contact send email
+title: Send email to a contact
+description: Sending emails via SuperOffice CRM makes it easier to share and store all your customer communication in one place.
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 02.10.2023
 keywords: person, contact
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -23,6 +23,7 @@ You can prepare an email from both the **Contact** screen and the **Company** sc
     * Click the **Task** button ( ![icon][img1] ) and select **Send email**.
 
     A message to the specified recipient is then opened in your default email program.
+
 1. Write the email.
 1. Go to (#send) below.
 
@@ -41,9 +42,11 @@ You can prepare an email from both the **Contact** screen and the **Company** sc
 
 ## Send
 
+![Find the contact, right click and then select Send e-mail from the menu -screenshot][img2]
+
 1. Send the email by clicking one of the following buttons:
 
-    * **Send:** The email is sent and available in the Activities section tab.
+    * **Send:** The email is sent and available in the **Activities** section tab.
     * **Send and archive:** The email is sent and saved as a document.
 
 1. If you selected **Send and archive**, the **Document** dialog opens when you send the email. Add information in this dialog as necessary (see [The Document dialog][1]).
@@ -55,3 +58,4 @@ You can prepare an email from both the **Contact** screen and the **Company** sc
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
+[img2]: media/email-send-email.png

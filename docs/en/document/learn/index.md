@@ -1,9 +1,9 @@
 ---
 uid: help-en-document
 title: Work with documents
-description: Work with documents
+description: Storing all documents in one place helps you and your team to access up-to-date information and stay in control of customer relations. This how-to guide will show you how you can create and store documents in SuperOffice CRM, and how you can send and receive documents directly in your CRM solution.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.10.2023
 keywords: document
 so.topic: help
 language: en
@@ -52,6 +52,7 @@ To ensure that you can communicate with your clients in their own language (wher
 * [Send documents][5]
 * [Delete documents][6]
 * [Check in/out documents][7]
+* [Save email attachment][8]
 
 <!-- Referenced links -->
 [1]: open.md
@@ -61,6 +62,7 @@ To ensure that you can communicate with your clients in their own language (wher
 [5]: send-as-email.md
 [6]: delete.md
 [7]: lock.md
+[8]:
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

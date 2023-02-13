@@ -4,7 +4,7 @@ title: Change the end time for a follow-up in the Diary
 description: Change the end time for a follow-up in the Diary
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: diary, follow-up
 so.topic: help
 language: en
 ---

@@ -75,4 +75,4 @@ A short PDF guide to show how you can use Mobile CRM: [Quick Guide for Mobile CR
 [7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/mobile-crm/mobile-crm-gif-prev-02.gif
+[img1]: media/mobile-crm-gif-prev-02.gif

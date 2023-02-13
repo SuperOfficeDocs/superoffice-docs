@@ -1,11 +1,11 @@
 ---
 uid: help-en-diary
 title: Diary
-description: Diary
+description: The SuperOffice Diary is the heart of your CRM system. These how-to guides will help you learn how to work with the diary.
 author: SuperOffice RnD
-so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+so.date: 02.10.2023
+keywords: diary
+so.topic: concept
 language: en
 ---
 
@@ -13,9 +13,13 @@ language: en
 
 The diary in SuperOffice CRM is used much like a filofax and has separate pages for every day, week and month.
 
+![Keep track of all your appointments and tasks by registering them in your diary -screenshot][img1]
+
 The diary is a useful tool when you want to plan and perform different types of tasks. From the diary, you can view, edit and delete [activities][16].
 
 You also get a [list of sales][13] to work on, using the **Sales** section tab in the **Diary** screen.
+
+Regular use of the diary helps you to automatically connect and share appointments and activities linked to a contact or a company, allowing you and your team to effortlessly stay on track and work productively.
 
 ## Work with follow-ups
 
@@ -48,6 +52,7 @@ Follow-ups are closely linked to the **Diary** screen, and some functions apply 
 * [Copy follow-up to the Diary][21]
 * [Print][5]
 * [Delete follow-up][17]
+* [Video meetings][23]
 
 <!-- Referenced links -->
 [1]: appointment.md
@@ -72,5 +77,7 @@ Follow-ups are closely linked to the **Diary** screen, and some functions apply 
 [20]: change-end-time.md
 [21]: copy-follow-up.md
 [22]: screen/dialog-for-followups.md
+[23]: video-meetings.md
 
 <!-- Referenced images -->
+[img1]: media/diary.png

@@ -4,7 +4,7 @@ title: Creating follow-ups with your associates
 description: Creating follow-ups with your associates
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
+keywords: diary, follow-up
 so.topic: help
 language: en
 ---
