@@ -1,0 +1,18 @@
+---
+title: Services84.PreviewsAgent SOAP
+uid: Services84-Previews-soap
+generated: 1
+---
+
+# Services84 Previews SOAP
+
+SOAP request and response examples, and WSDL files for **Remote/Services84/Previews.svc**
+
+Handled by the <see cref="T:SuperOffice.Services84.IPreviewsAgent">SuperOffice.Services84.IPreviewsAgent</see> interface.
+
+
+
+Download [WSDL file for Services84/Previews](../Services84-Previews.md) if you need to generate your own proxy code.
+
+* [GetPreview](GetPreview.md)
+

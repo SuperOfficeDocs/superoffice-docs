@@ -1,0 +1,270 @@
+items:
+  - name: Welcome
+    href: index.md
+  - name: Get started
+    href: getting-started/toc.yml
+  - name: Learn the basics
+    items:
+    - name: Favourites
+      href: getting-started/fav.md
+    - name: Delete an element
+      href: getting-started/deleting-elements.md
+    - name: Restore deleted companies and contacts
+      href: getting-started/restore-deleted-companies-and-contacts.md
+    - name: Duplicates
+      href: getting-started/duplicates.md
+    - name: Refresh data
+      href: getting-started/refresh-data.md
+    - name: Bulk update
+      href: getting-started/bulk-update.md
+    - name: Tooltip
+      href: getting-started/info-box.md
+    - name: Visibility
+      href: ../admin/user-management/learn/visibility.md
+    - name: Work with the Section tabs
+      href: getting-started/section-tabs.md
+      items:
+      - name: Sorting lists
+        href: getting-started/sorting-lists.md
+      - name: Changing the column view
+        href: getting-started/changing-column-view.md
+      - name: Use column filters in the section tabs
+        href: getting-started/use-column-filters-in-section-tabs.md
+      - name: Adjusting column widths
+        href: getting-started/adjusting-column-widths.md
+      - name: Grouping lists
+        href: getting-started/sections-tabs-grouping-lists.md
+      - name: Use filters in the section tabs
+        href: getting-started/use-filters-in-section-tabs.md
+      - name: Filter activities and sales
+        href: getting-started/using-filter-function-contact.md
+      - name: Export section tabs
+        href: getting-started/export-archives.md
+      - name: Adjusting views in Settings and maintenance
+        href: getting-started/adjusting-views.md
+    - name: Work with activities
+      href: activity/toc.yml
+  
+    - name: Language and translation
+      href: ../globalization-and-localization/learn/toc.yml
+  
+    - name: External applications and URL addresses
+      href: getting-started/external-applications-and-url-addresses.md
+
+  - name: Search options
+    href: ../search-options/learn/toc.yml
+  - name: Dashboard
+    href: ../dashboard/learn/toc.yml
+  - name: Company
+    href: ../company/learn/toc.yml
+  - name: Contact
+    href: ../contact/learn/toc.yml
+  - name: Diary
+    href: ../diary/learn/toc.yml
+  - name: Document
+    href: ../document/learn/toc.yml
+  - name: Email
+    href: ../email/learn/toc.yml
+  - name: Sale
+    href: ../sale/learn/toc.yml
+  - name: Project
+    href: ../project/learn/toc.yml
+  - name: Requests
+    href: ../request/learn/toc.yml
+  - name: Selection
+    href: ../search-options/selection/learn/toc.yml
+  - name: Chat
+    href: ../chat/learn/toc.yml
+  - name: Reports
+    href: ../reports/learn/toc.yml
+  - name: Marketing
+    href: ../marketing/learn/toc.yml
+  - name: Forms
+    href: ../marketing/forms/learn/toc.yml
+
+  - name: Knowledge Base
+    href: ../request/learn/screen/knowledge-base.md
+    items:
+    - name: FAQ
+      href: ../faq/learn/toc.yml
+    - name: Reply templates
+      href: ../service/reply-templates/learn/toc.yml
+    - name: Email addresses
+      href: ../email/service/learn/kb-aliases/toc.yml
+    - name: External documents
+      href: ../request/learn/external-document.md
+
+  - name: SAINT (Sales intelligence)
+    href: ../sale/saint/learn/toc.yml
+
+  - name: Customisation
+    href: customization.yml
+    items:
+    - name: Lists
+      href: ../admin/lists/learn/toc.yml
+    - name: Preferences
+      href: ../admin/preferences/learn/toc.yml
+    - name: Privacy
+      href: ../security/privacy/learn/toc.yml
+    - name: Quote/Sync
+      href: ../quote/learn/quote-sync/toc.yml  
+
+    - name: Workflow
+      items:
+      - name: Sales guide
+        href: ../sale/learn/screen/sales-guide-admin.md
+        items:
+        - name: Create new sales guide
+          href: ../sale/learn/sales-guide/create.md
+        - name: Edit sales guide
+          href: ../sale/learn/sales-guide/edit.md
+        - name: Deactivate sales guide
+          href: ../sale/learn/sales-guide/deactivate.md
+      - name: Project guide
+        href: ../project/learn/screen/project-guide-admin.md
+        items:
+        - name: Create new project guide
+          href: ../project/learn/project-guide/create.md
+        - name: Edit project guide
+          href: ../project/learn/project-guide/edit.md
+        - name: Deactivate project guide
+          href: ../project/learn/project-guide/deactivate.md
+
+    - name: Custom objects
+      href: ../custom-objects/learn/toc.yml
+
+    - name: User interface
+      items:
+      - name: Screen designer
+        href: ../ui/screen-designer/learn/toc.yml
+
+    - name: Options
+      href: ../admin/options/learn/toc.yml
+
+    - name: Chat
+      href: ../chat/learn/admin/index.md
+      items:
+      - name: Create a chat channel
+        href: ../chat/learn/admin/channel-create.md
+      - name: Add JavaScript for your website
+        href: ../chat/learn/admin/add-javascript.md
+
+    - name: CRMScript
+      href: ../automation/crmscript/learn/toc.yml
+
+    - name: Requests
+      items:
+      - name: Categories
+        href: ../request/learn/category/index.md
+        items:
+        - name: Create category
+          href: ../request/learn/category/create.md
+        - name: Delete category
+          href: ../request/learn/category/delete.md
+      - name: Priorities
+        href: ../request/learn/priority/index.md
+        items:
+        - name: Create priority
+          href: ../request/learn/priority/create.md
+        - name: Delete priority
+          href: ../request/learn/priority/delete.md
+        - name: Create escalation levels
+          href: ../request/learn/priority/escalation-levels.md
+      - name: Request status
+        href: ../request/learn/status/index.md
+        items:
+        - name: Create request status
+          href: ../request/learn/status/create.md
+        - name: Delete request status
+          href: ../request/learn/status/delete.md
+      - name: Email
+        href: ../email/service/learn/toc.yml
+      - name: System templates
+        href: ../request/learn/screen/system-templates.md
+
+    - name: Customer center
+      href: ../service/customer-center/learn/toc.yml
+
+    - name: System design
+      href: ../ui/blogic/learn/toc.yml
+
+    - name: SAINT (Sales intelligence)
+      href: ../sale/saint/learn/admin/toc.yml
+      topicHref: ../sale/saint/learn/admin/index.md
+
+    - name: Onsite
+      items:
+      - name: Data Exchange
+        href: ../automation/crmscript/learn/screen/data-exchange.md
+      - name: SOAP overview
+        href: ../admin/learn/screen/soap-config.md
+      - name: Configure SOAP interface
+        href: ../admin/learn/configure-soap.md
+
+  - name: Administration and system settings
+    href: administration.yml
+    items:
+    - name: User management
+      href: ../admin/user-management/learn/toc.yml
+    - name: Licenses
+      href: ../admin/license/learn/toc.yml
+    - name: Import
+      href: ../admin/import/learn/toc.yml
+    - name: System events
+      href: ../admin/learn/system-events.md
+      items:
+      - name: Add system event
+        href: ../admin/learn/add-system-event.md
+
+    - name: AI services
+      href: ../ai/learn/toc.yml
+
+  - name: Windows client settings
+    href: ../onsite/win-client/learn/toc.yml
+
+  - name: Service client
+    items:
+    - name: Personal settings in Service
+      href: ../service/settings/learn/personal-settings/toc.yml
+    - name: Search in Service
+      href: ../search-options/learn/in-service/index.md
+      items:
+      - name: Customize presentation
+        href: ../search-options/learn/in-service/customize-presentation.md
+      - name: Use QuickSearch
+        href: ../search-options/learn/in-service/quick-search.md
+      - name: Search for contents in the knowledge base
+        href: ../search-options/learn/in-service/search-kb.md
+      - name: Search in the Navigator
+        href: ../search-options/learn/in-service/in-navigator.md
+    - name: Person
+      href: customers/person/toc.yml
+    - name: Company
+      href: customers/company/toc.yml
+    - name: Documents
+      href: ../document/learn/in-service/toc.yml
+      topicHref: ../document/learn/in-service/index.md
+
+    - name: Statistics in Service
+      href: ../dashboard/learn/in-service/statistics/toc.yml
+      topicHref: ../dashboard/learn/in-service/statistics/index.md
+
+    - name: Selection
+      href: ../search-options/selection/learn/in-service/toc.yml
+      topicHref: ../search-options/selection/learn/in-service/index.md
+
+    - name: Invoice
+      href: ../request/learn/invoice/toc.yml
+      topicHref: ../request/learn/invoice/index.md
+
+    - name: System settings
+      items:
+      - name: Users screen
+        href: ../admin/user-management/learn/screen/users-screen-service.md  
+      - name: System design
+        items:
+        - name: Web panels
+          href: ../ui/web-panels/learn/index.md
+        - name: Elements
+          href: ../ui/screen-designer/learn/elements.md
+  

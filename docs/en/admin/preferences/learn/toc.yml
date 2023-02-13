@@ -1,0 +1,41 @@
+items:
+- name: Overview
+  href: index.md
+- name: Preferences
+  href: preferences-tab/index.md
+- name: Active settings
+  href: preferences-tab/active-settings.md
+  items:
+  - name: Work with preferences
+    items:
+    - name: Add preference
+      href: preferences-tab/adding-preference-settings.md
+    - name: Edit preference
+      href: preferences-tab/editing-preference-settings.md
+    - name: Delete preference
+      href: preferences-tab/deleting-preference-settings.md
+    - name: View preferences
+      href: preferences-tab/viewing-preferences-in-superoffice-crm.md
+  - name: Levels for preferences
+    href: preferences-tab/levels-for-preference-settings.md
+    items:
+    - name: Displaying different levels
+      href: preferences-tab/displaying-different-levels.md
+- name: Global preferences
+  href: global-preferences.md
+  items:
+    - name: System settings for Requests
+      href: ../../../service/settings/learn/toc.yml
+
+- name: Video meetings
+  href: video-meetings/index.md
+  items:
+  - name: Configure video meetings
+    href: video-meetings/configure-video-meetings.md
+  - name: Email setup for video meetings
+    href: video-meetings/email-setup-in-superoffice.md
+- name: Document library
+  href: document-library.md
+  items:
+  - name: Configure SharePoint document library
+    href: configure-sharepoint-document-library.md

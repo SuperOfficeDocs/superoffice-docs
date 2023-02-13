@@ -1,29 +1,25 @@
-### YamlMime:ManagedReference
 items:
-- name: Docs
-  items:
-  - name: Admin
-    href: admin/toc.yml
-    topicHref: admin/overview.md
-  - name: AI services
-    href: ai-services/toc.yml
-  - name: Online Apps
-    href: apps/toc.yml
-  - name: Automation
-    href: automation/toc.yml
-  - name: Developer portal
-    href: developer-portal/toc.yml
-  - name: Email
-    href: email/toc.yml
-  - name: Document
-    href: document/toc.yml
-  - name: CRM Online
-    href: online/toc.yml
-  - name: Onsite
-    href: onsite/toc.yml
-  - name: Mobile
-    href: mobile/toc.yml
-  - name: Security
-    href: security/toc.yml
-  - name: Service
-    href: service/toc.yml
+- name: User guide
+  topicHref: en/learn/index.md
+- name: Company
+  topicHref: en/company/index.yml
+- name: Contact
+  topicHref: en/contact/index.yml
+- name: Diary
+  topicHref: en/diary/index.yml
+- name: Document
+  topicHref: en/document/index.yml
+- name: Email
+  topicHref: en/email/index.yml
+- name: Project
+  topicHref: en/project/index.yml
+- name: Request
+  topicHref: en/request/index.yml
+- name: Sale
+  topicHref: en/sale/index.yml
+- name: CRM Online
+  topicHref: en/online/index.yml
+- name: CRM Onsite
+  topicHref: en/onsite/index.yml
+- name: Developer Guide
+  topicHref: en/api/overview/index.md

@@ -1,0 +1,9 @@
+items:
+  - name: View invoice data for company
+    href: for-company.md
+  - name: View invoice data for contact
+    href: for-contact.md
+  - name: Create invoice types
+    href: create-type.md
+  - name: Delete invoice types
+    href: delete-type.md

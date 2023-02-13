@@ -1,0 +1,197 @@
+### YamlMime:Category
+
+title: CRM Onsite
+summary: Welcome to the area where you can find relevant links to all things related to installation, upgrade, and migration.
+brand: devdocs
+
+metadata:
+  title: Set up SuperOffice successfully
+  description: "Learn about SuperOffice Onsite installation, configuration, upgrade, and migration."
+  so.product: onsite
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 02.02.2022
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: "System requirements"
+      itemType: reference
+      url: requirements/index.md
+    # Card
+    - title: "Setup guide"
+      itemType: reference
+      url: install/guide.md
+    # Card
+    - title: "Installation guide (Web)"
+      itemType: overview
+      url: install/index.yml      
+    # Card
+    - title: "Customer Service"
+      itemType: overview
+      url: ../service/index.yml
+    # Card
+    - title: "SuperOffice mobile"
+      itemType: learn
+      url: ../mobile/index.yml
+    # Card
+    - title: "Release notes"
+      itemType: whats-new
+      url: ../../../release-notes/index.md
+    # Card
+    - title: "Software downloads"
+      itemType: download
+      url: https://community.superoffice.com/en/product-releases/release-notes/
+      # Card
+    - title: "Automation"
+      itemType: overview
+      url: ../automation/index.yml
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "Get SuperOffice up and running" # < 60 chars (optional)
+  summary: "Regardless of whether this is your first installation or an upgrade, security is essential."
+  items:
+    # Card
+      - title: Security
+        summary: Security in onsite SuperOffice installations
+        links:
+          - url: security/index.md
+            itemType: overview
+            text: Intro
+          - url: security/secure-deployment-guide.md
+            itemType: how-to-guide
+            text: Secure deployment guide
+          - url: security/deployment-scenarios.md
+            itemType: deploy
+            text: Deployment scenarios
+    # Card
+      - title: Install
+        summary: Install SuperOffice
+        links:
+          - url: install/guide.md
+            itemType: how-to-guide
+            text: Setup guide
+          - url: install/iis/index.md
+            itemType: get-started
+            text: IIS web server
+          - url: install/database/create-ms-sql-server-db.md
+            itemType: how-to-guide
+            text: Create MS SQL Server database
+          - url: install/database/create-oracle-db.md
+            itemType: how-to-guide
+            text: Create Oracle database
+          - url: install/server/silent-serversetup.md
+            itemType: how-to-guide
+            text: Install SuperOffice server (silent)
+          - url: install/web-client/index.md
+            itemType: how-to-guide
+            text: Web client
+          - url: ../service/install/index.md
+            itemType: how-to-guide
+            text: Service
+    # Card
+      - title: Upgrade
+        summary: Upgrade your onsite SuperOffice installation
+        links:
+          - url: upgrade/to-9/index.md
+            itemType: how-to-guide
+            text: To version 9 or 10       
+          - url: upgrade/to-81/index.md
+            itemType: how-to-guide
+            text: To version 8.1 - 8.5
+          - url: upgrade/75-to-8/index.md
+            itemType: how-to-guide
+            text: To version 8.0
+      # Card
+      - title: Migrate to CRM online
+        summary: Take SuperOffice to the cloud
+        links:
+          - url: ../online/migrate/index.md
+            itemType: how-to-guide
+            text: "Migration guide"
+          - url: ../email/service/migrate.md
+            itemType: concept
+            text: "Migrating Service mailboxes"
+          - url: ../online/system-requirements.md
+            itemType: reference
+            text: System requirements for SuperOffice CRM Online
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: Resources # < 60 chars (optional)
+      summary: "System requirements, compatibility, config, and debug" # < 160 chars (optional)
+      items:
+      # Card
+      - title: System requirements
+        links:
+          - url: requirements/index.md
+            text: Intro
+          - url: requirements/crm-server.md
+            text: CRM Server
+          - url: requirements/iis.md
+            text: IIS web server
+          - url: requirements/web-client.md
+            text: Web client
+      # Card
+      - title: Compatibility
+        links:
+          - url: compatibility/index.md
+            text: Intro
+          - url: compatibility/server-os.md
+            text: Server OS
+          - url: compatibility/client-os.md
+            text: Client OS
+          - url: compatibility/database.md
+            text: Database
+          - url: compatibility/browser.md
+            text: Browser
+          - url: compatibility/ms-office.md
+            text: MS Office
+      # Card
+      - title: Config and ini files
+        links:
+          - url: ../travel/travel-gateway/remotetravel-ini.md
+            text: Remotetravel.ini
+          - url: ../service/config/index.md
+            text: Service config
+          - url: install/database/sotables-ini.md
+            text: Sotables.ini
+          - url: install/win-client/souser-ini.md
+            text: Souser.ini
+          - url: install/win-client/superoffice-config.md
+            text: Superoffice.config
+          - url: install/win-client/superoffice-ini.md
+            text: Superoffice.ini
+          - url: ../travel/travel-gateway/username-ini.md
+            text: Username.ini
+          - url: ../api/config/index.md
+            text: Web.config
+          - url: ../online/cookies.md
+            text: Cookies
+      # Card
+      - title: Debug
+        links:
+        - url: debug/web-client.md
+          text: Web client
+        - url: ../service/log-files.md
+          text: Service (log files)
+        - url: reporter/debug.md
+          text: Reporter
+        - url: debug/win-client.md
+          text: Windows client
+        - url: ../webtools/debug.md
+          text: WebTools
+        - url: ../email/mail-link/debug.md
+          text: Outlook Mail Link
+        - url: ../document/ribbons/enable-debug.md
+          text: Ribbons
+  # footer (optional)
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

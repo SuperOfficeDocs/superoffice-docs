@@ -1,0 +1,7 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Drag and drop editor
+    href: drag-and-drop/toc.yml
+  - name: Old editor
+    href: old/toc.yml

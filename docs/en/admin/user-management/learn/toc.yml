@@ -1,0 +1,58 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Users screen
+    href: screen/index.md
+    items:
+    - name: Associates tab
+      href: screen/associates-tab.md
+    - name: Other users tab
+      href: screen/other-users-tab.md
+    - name: Our companies tab
+      href: screen/our-companies-tab.md
+    - name: User licenses tab
+      href: screen/user-licences-tab.md
+    - name: User groups tab
+      href: screen/user-groups-tab.md
+  - name: Add user
+    items:
+    - name: Add SuperOffice user
+      href: add-associate.md
+    - name: Add anonymous or system user
+      href: add-other-user.md
+    - name: Import users from AD
+      href: import-users.md
+
+  - name: Edit user
+    href: update-user.md
+  - name: Move user
+    href: move-user.md
+  - name: Delete user
+    href: delete-user.md
+  - name: Edit logon rights for other users
+    href: edit-logon-rights-for-other-users.md
+  - name: Log users off
+    href: ../../../onsite/win-client/learn/logging-users-off.md
+  - name: Add company in Our companies
+    href: add-our-companies.md
+  - name: Delete company in Our companies
+    href: delete-our-companies.md
+  - name: Create user group
+    href: create-user-group.md
+  - name: Delete user group
+    href: delete-user-group.md
+  - name: Role
+    href: role/toc.yml
+
+  - name: User settings for Service users
+    items:
+    - name: User information
+      href: ../../../service/settings/learn/personal-settings/user-info.md
+    - name: Category membership
+      href: ../../../service/settings/learn/personal-settings/category-membership.md
+    - name: Other groups
+      href: ../../../service/settings/learn/personal-settings/other-groups.md
+    - name: Password
+      href: ../../../service/settings/learn/password.md
+    - name: Extra fields
+      href: ../../../service/settings/learn/personal-settings/extra-fields.md

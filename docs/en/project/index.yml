@@ -1,0 +1,169 @@
+### YamlMime:Category
+
+title: Project
+summary: Welcome to the Project area where you can find relevant links to all things related to projects and project guides.
+brand: devdocs
+
+metadata:
+  title: Project
+  description: "Project and project guides"
+  so.product: superoffice
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 04.26.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: User guide
+      itemType: reference
+      url: learn/index.md
+    # Card
+    - title: Template variables
+      itemType: reference
+      url: ../document/templates/variables/from-project-card.md
+    # Card
+    - title: Project table
+      itemType: reference
+      url: ../database/tables/project.md
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+  # Card
+    - title: Learn the essentials
+      summary: ""
+      links:
+      - text: Organize files and activities in projects
+        itemType: learn
+        url: https://community.superoffice.com/en/learning/user-guide/project/
+      - text: Create project
+        itemType: learn
+        url: https://community.superoffice.com/en/learning/user-guide/project/create-projects/
+
+    # Card
+    - title: Videos
+      summary: ""
+      links:
+      - text: How to add project member to projet
+        itemType: video
+        url: https://www.youtube.com/watch?v=IaCy_2xwG6c
+      - text: How to link document to project
+        itemType: video
+        url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
+      - text: How to add appointment to project
+        itemType: video
+        url: https://www.youtube.com/watch?v=YQr5B5IU7XY&t=1s
+
+    # Card
+    - title: Configuration options
+      summary: ""
+      links:
+        - text: User preferences
+          itemType: reference
+          url: ../admin/user-preferences/index.md
+        - text: Lists - Project status
+          itemType: how-to-guide
+          url: ../admin/lists/learn/project-status.md
+        - text: Lists - Project type status
+          itemType: how-to-guide
+          url: ../admin/lists/learn/project-type.md
+
+    # Card
+    - title: UI options
+      summary: ""
+      links:
+      - text: Web panels
+        itemType: overview
+        url: ../ui/web-panels/index.md
+      - text: SoProtocol
+        itemType: concept
+        url: ../ui/soprotocol/index.md
+
+    # Card
+    - title: Data options
+      summary: ""
+      links:
+      - text: Custom fields
+        itemType: overview
+        url: ../custom-objects/overview.md
+      - text: How to add user-defined fields
+        itemType: video
+        url: https://www.youtube.com/watch?v=SpeZVxpxeMM
+      - text: UdprojectSmall table
+        itemType: reference
+        url: ../database/tables/udprojectsmall.md
+      - text: UdprojectLarge table
+        itemType: reference
+        url: ../database/tables/udprojectlarge.md
+
+    # Card
+    - title: Actions options
+      summary: ""
+      links:
+      - text: Overview
+        itemType: overview
+        url: ../automation/index.yml
+      - text: Triggers
+        itemType: concept
+        url: ../automation/trigger/index.md
+      - text: Webhooks - project events
+        itemType: reference
+        url: ../automation/webhook/reference/project-events.md
+      - text: Webhooks - project member events
+        itemType: reference
+        url: ../automation/webhook/reference/project-member-events.md
+      - text: Zapier
+        itemType: reference
+        url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+
+    # Card
+    - title: API options
+      summary: ""
+      links:
+      - text: CRMScript
+        itemType: concept
+        url: howto/crmscript/index.md
+      - text: NetServer
+        itemType: overview
+        url: howto/index.md
+
+    # Card
+    - title: Database options
+      summary: ""
+      links:
+      - text: Project table
+        itemType: reference
+        url: ../database/tables/project.md
+      - text: ProjectMember table
+        itemType: reference
+        url: ../database/tables/projectmember.md
+      - text: ProjStatus table
+        itemType: reference
+        url: ../database/tables/projstatus.md
+      - text: ProjType table
+        itemType: reference
+        url: ../database/tables/projtype.md
+      - text: Associate table
+        itemType: reference
+        url: ../database/tables/associate.md
+      - text: UserGroup table
+        itemType: reference
+        url: ../database/tables/usergroup.md
+      - text: Appointment table
+        itemType: reference
+        url: ../database/tables/appointment.md
+      - text: UdprojectSmall table
+        itemType: reference
+        url: ../database/tables/udprojectsmall.md
+      - text: UdprojectLarge table
+        itemType: reference
+        url: ../database/tables/udprojectlarge.md

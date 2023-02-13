@@ -1,0 +1,200 @@
+### YamlMime:Category
+
+title: Search options
+summary: Welcome to the Search area where you can find relevant links to all things related to search, find, and, selection
+brand: devdocs
+
+metadata:
+  title: Search
+  description: "Learn about search, selection, find, the CRMScript SearchEngine, and search APIs."
+  so.product: superoffice
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 02.02.2022
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: Search options (in the UI)
+      itemType: reference
+      url: learn/index.md
+    # Card
+    - title: User guide for selections
+      itemType: reference
+      url: selection/learn/index.md
+    # Card
+    - title: Template variables
+      itemType: reference
+      url: ../document/templates/variables/for-selections.md
+    # Card
+    - title: Selection table
+      itemType: reference
+      url: ../database/tables/selection.md
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+  # Card
+    - title: Learn the essentials
+      summary: ""
+      links:
+      - text: How to search for information
+        itemType: learn
+        url: https://community.superoffice.com/en/learning/user-guide/selections/
+      - text: How to use a typical search
+        itemType: learn
+        url: https://community.superoffice.com/en/learning/user-guide/selections/typical-search/
+      - text: How to create a search and save it as a selection
+        itemType: learn
+        url: https://community.superoffice.com/en/learning/user-guide/selections/save-search-as-selection/
+      - text: How to create a dynamic selection
+        itemType: learn
+        url: https://community.superoffice.com/en/learning/user-guide/selections/dynamic-static-selections/
+      - text: How to broaden a search using the "OR" function
+        itemType: learn
+        url: https://community.superoffice.com/en/learning/user-guide/selections/or-search-function/
+
+    # Card
+    - title: Videos
+      summary: ""
+      links:
+      - text: How to find and do a typical search
+        itemType: video
+        url: https://www.youtube.com/watch?v=gx-vXm-b_7g&t=4s
+      - text: How to broaden a search using or as a search criterion
+        itemType: video
+        url: https://www.youtube.com/watch?v=Z-fSLJSdp2k
+      - text: How to create a new search and save it as a new selection
+        itemType: video
+        url: https://www.youtube.com/watch?v=b1YsCcHwz-o
+
+    # Card
+    - title: Configuration options
+      summary: ""
+      links:
+        - text: User preference for free-text search
+          itemType: reference
+          url: ../admin/user-preferences/reference/freetext.md
+        - text: Enable free-text search
+          itemType: how-to-guide
+          url: ../admin/options/learn/freetext-search/enable.md
+        - text: Specify search criteria
+          itemType: how-to-guide
+          url: ../admin/options/learn/freetext-search/specifying-search-criteria.md
+        - text: Stopwords
+          itemType: how-to-guide
+          url: ../admin/options/learn/freetext-search/stopwords.md
+        - text: Regenerate the free-text index
+          itemType: how-to-guide
+          url: ../admin/options/learn/freetext-search/regenerating-freetext-index.md
+
+    # Card
+    - title: UI options
+      summary: ""
+      links:
+      - text: Web panels
+        itemType: overview
+        url: ../ui/web-panels/index.md
+      - text: SoProtocol
+        itemType: concept
+        url: ../ui/soprotocol/index.md
+
+    # Card
+    - title: Data options
+      summary: ""
+      links:
+      - text: Custom fields
+        itemType: overview
+        url: ../custom-objects/overview.md
+      - text: How to add user-defined fields
+        itemType: video
+        url: https://www.youtube.com/watch?v=SpeZVxpxeMM
+
+    # Card
+    - title: Actions options
+      summary: ""
+      links:
+      - text: Overview
+        itemType: overview
+        url: ../automation/index.yml
+      - text: Triggers
+        itemType: concept
+        url: ../automation/trigger/index.md
+      - text: Zapier
+        itemType: reference
+        url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+
+    # Card
+    - title: API options
+      summary: ""
+      links:
+      - text: CRMScript SearchEngine class
+        itemType: concept
+        url: ../automation/crmscript/searchengine/index.md
+      - text: Script-based selections
+        itemType: tutorial
+        url: ../automation/crmscript/tutorials/script-based-selections.md
+      - text: NetServer Archive agents
+        itemType: overview
+        url: ../api/search/iarchiveagent/index.md
+      - text: NetServer IFindAgent
+        itemType: overview
+        url: ../api/search/ifindagent/index.md
+      - text: REST Web API search
+        itemType: overview
+        url: ../api/search/odata/index.md
+      - text: NetServer web services
+        itemType: how-to-guide
+        url: ../api/search/selection/services/add-member-to-static-selection-services.md
+      - text: NetServer archive providers
+        itemType: how-to-guide
+        url: ../api/search/selection/archive/get-selection-members-provider.md
+      - text: NetServer entities
+        itemType: how-to-guide
+        url: ../api/search/selection/entity/add-member-to-static-selection-entities.md
+      - text: NetServer OSQL
+        itemType: how-to-guide
+        url: ../api/search/selection/osql/add-member-to-static-selection-osql.md
+      - text: Raw SQL
+        itemType: how-to-guide
+        url: ../api/search/selection/sql/add-person-to-selection.md
+
+    # Card
+    - title: Database options
+      summary: ""
+      links:
+      - text: Selection table
+        itemType: reference
+        url: ../database/tables/selection.md
+      - text: SelectionMember table
+        itemType: reference
+        url: ../database/tables/selectionmember.md
+      - text: Associate table
+        itemType: reference
+        url: ../database/tables/associate.md
+      - text: UserGroup table
+        itemType: reference
+        url: ../database/tables/usergroup.md
+      - text: VisibleFor table
+        itemType: reference
+        url: ../database/tables/visiblefor.md
+      - text: SearchCat table
+        itemType: reference
+        url: ../database/tables/searchcat.md
+      - text: FreetextIndex table
+        itemType: reference
+        url: ../database/tables/freetextindex.md
+      - text: FreetextWords table
+        itemType: reference
+        url: ../database/tables/freetextwords.md
+      - text: FreetextStopwords table
+        itemType: reference
+        url: ../database/tables/freetextstopwords.md

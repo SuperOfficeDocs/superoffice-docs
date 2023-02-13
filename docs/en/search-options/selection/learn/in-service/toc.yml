@@ -1,0 +1,23 @@
+items:
+  - name: Create a selection based on search criteria
+    href: create-from-search.md
+  - name: Create a dynamic selection
+    href: create-dynamic.md
+  - name: Create a script-based selection
+    href: create-script-based.md
+  - name: Create a static selection
+    href: create-static.md
+  - name: Create a combined selection
+    href: create-combined.md
+  - name: List selections
+    href: list.md
+  - name: Update a selection
+    href: update.md
+  - name: Edit a selection
+    href: edit.md
+  - name: Manage columns in selections
+    href: manage-columns.md
+  - name: Delete a selection or its records
+    href: delete.md
+  - name: Administrate folders of selections
+    href: manage-folders.md

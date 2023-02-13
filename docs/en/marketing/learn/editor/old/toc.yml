@@ -1,0 +1,13 @@
+items:
+- name: Overview
+  href: index.md
+- name: Edit paragraph
+  href: edit-paragraph.md
+- name: Insert images
+  href: insert-image.md
+- name: Use template variables
+  href: add-template-variable.md
+- name: Add link to display message in browser
+  href: add-link-to-display-message-in-browser.md
+- name: Customise message for display on mobile devices
+  href: customize-for-mobile.md

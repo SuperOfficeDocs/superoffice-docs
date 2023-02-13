@@ -1,0 +1,27 @@
+---
+title: Services86.FreeTextAgent SOAP
+uid: Services86-FreeText-soap
+generated: 1
+---
+
+# Services86 FreeText SOAP
+
+SOAP request and response examples, and WSDL files for **Remote/Services86/FreeText.svc**
+
+Handled by the <see cref="T:SuperOffice.Services86.IFreeTextAgent">SuperOffice.Services86.IFreeTextAgent</see> interface.
+
+
+
+Download [WSDL file for Services86/FreeText](../Services86-FreeText.md) if you need to generate your own proxy code.
+
+* [AddWords](AddWords.md)
+* [DeleteStopWordsById](DeleteStopWordsById.md)
+* [GetStatus](GetStatus.md)
+* [GetStopWordList](GetStopWordList.md)
+* [GetSuggestedStopWords](GetSuggestedStopWords.md)
+* [RegenerateIndex](RegenerateIndex.md)
+* [SetAutoEnableTravelAreas](SetAutoEnableTravelAreas.md)
+* [SetEnabled](SetEnabled.md)
+* [SetMultiWordOperator](SetMultiWordOperator.md)
+* [SetSingleWordOperator](SetSingleWordOperator.md)
+

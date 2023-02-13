@@ -1,0 +1,11 @@
+items:
+- name: Overview
+  href: index.md
+- name: Add new layout
+  href: add-new-layout.md
+- name: Edit layout - Main cards
+  href: edit-layout.md
+- name: Edit layout - Archives (section tabs)
+  href: edit-layout-archives.md
+- name: Elements
+  href: elements.md

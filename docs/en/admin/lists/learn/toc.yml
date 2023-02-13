@@ -1,0 +1,120 @@
+items:
+- name: Overview
+  href: index.md
+- name: Items
+  href: items.md
+  items:
+  - name: Add items
+    href: adding-items.md
+  - name: Edit items
+    href: editing-items.md
+  - name: Delete items
+    href: deleting-items.md
+  - name: Duplicates
+    href: duplicates.md
+- name: Grouping and filtering
+  href: organize/index.md
+  items:
+  - name: User group filtering
+    href: organize/user-group-filtering.md
+  - name: Headings
+    href: organize/headings.md
+    items:
+    - name: Groupe items under headings
+      href: organize/grouping-items-under-headings.md
+    - name: Add headings
+      href: organize/adding-headings.md
+    - name: Change and delete headings
+      href: organize/headings-editing-and-deleting.md
+  - name: Deleted items and headings
+    href: organize/deleted-items-and-headings.md
+- name: Specialised lists
+  href: specialized-lists.md
+  items:
+  - name: Document template
+    href: document-template.md
+    items:
+    - name: Edit standard templates
+      href: using-standard-templates.md
+    - name: Create document template
+      href: creating-template-document.md
+    - name: Add template
+      href: add-template.md
+    - name: Replace existing template
+      href: replace-existing-template.md
+    - name: Document templates in multiple languages
+      href: ../../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+  - name: Email template
+    href: email-template.md
+    items:
+    - name: Add email template
+      href: add-email-template.md
+  - name: Follow-up type
+    href: follow-up-type.md
+    items:
+    - name: Add follow-up type
+      href: adding-items-to-follow-up-type-list.md
+
+  - name: Sale
+    items:
+    - name: Sale stage
+      href: ../../../sale/learn/screen/sale-stage.md
+    - name: Add sale stage
+      href: sale-stage.md
+    - name: Sale type, stages, quote
+      href: ../../../sale/learn/screen/sales-type-for-stages.md
+    - name: Add sales type
+      href: sale-type.md
+    - name: Add sale amount class
+      href: sale-amount-class.md
+
+  - name: Project
+    items:
+    - name: Project status
+      href: ../../../project/learn/screen/project-status-admin.md
+    - name: Add project status
+      href: project-status.md
+    - name: Project type
+      href: ../../../project/learn/screen/project-type-admin.md
+    - name: Add project type
+      href: project-type.md
+
+  - name: General
+    items:
+    - name: Country
+      href: country.md
+    - name: Add country
+      href: add-items-to-country-list.md
+    - name: Currency
+      href: currency.md
+    - name: Add currency
+      href: adding-items-to-currency-list.md
+    - name: Relation
+      href: relation.md
+    - name: Add relation
+      href: adding-items-to-relation-list.md
+    - name: Resource
+      href: resource.md
+    - name: Add resource
+      href: adding-items-to-resource-list.md
+    - name: GUI web panel
+      href: web-panel.md
+      items:
+      - name: Add web panel
+        href: web-panel-add-item.md
+    - name: Task menu
+      href: add-items-to-task-menu.md
+    - name: GUI application list
+      href: application.md
+      items:
+      - name: Add application
+        href: adding-external-applications-to-application-list.md
+
+- name: User-defined lists
+  items:
+  - name: Add user-defined list
+    href: adding-user-defined-lists.md
+  - name: Edit list name and description
+    href: editing-lists-name-and-description.md
+  - name: Delete user-defined list
+    href: deleting-user-defined-lists.md

@@ -1,0 +1,27 @@
+items:
+- name: Overview
+  href: index.md
+- name: Chat screen
+  href: screen/index.md
+- name: View chat statistics
+  href: statistics.md
+- name: Work with chat
+  items:
+  - name: Respond to a chat
+    href: respond.md
+  - name: Link chat to existing contact
+    href: link-to-person.md
+  - name: Create new contact
+    href: create-contact.md
+  - name: Create request in chat
+    href: create-request.md
+  - name: Create quick reply
+    href: create-quick-reply.md
+  - name: Send FAQ, reply template and quick reply in chat
+    href: send-faq-or-reply-template.md
+  - name: Send files in chat
+    href: send-files.md
+  - name: Transfer chat to another agent
+    href: transfer-to-agent.md
+  - name: Using the chat function from the customer's perspective
+    href: as-customer.md

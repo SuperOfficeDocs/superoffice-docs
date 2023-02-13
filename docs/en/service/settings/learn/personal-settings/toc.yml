@@ -1,0 +1,21 @@
+items:
+- name: User information
+  href: /service/settings/learn/personal-settings/user-info.md
+- name: Category membership
+  href: /service/settings/learn/personal-settings/category-membership.md
+- name: Other groups
+  href: /service/settings/learn/personal-settings/other-groups.md
+- name: Password
+  href: /service/settings/learn/password.md
+- name: Extra fields
+  href: /service/settings/learn/personal-settings/extra-fields.md
+- name: Overview
+  href: index.md
+- name: Signature
+  href: signature.md
+- name: Interface
+  href: interface.md
+- name: Preferences
+  href: preferences.md
+- name: Notification
+  href: notification.md

@@ -37,8 +37,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: 351-migrate-en-user-and-admin-help
-          # ref: main
+          ref: main
 
       - name: Create en-changes zip
         shell: pwsh
@@ -64,7 +63,7 @@ jobs:
         with:
           # The arguments for the `git add` command (see the paragraph below for more info)
           # Default: '.'
-          add: 'user-guide'
+          add: '*/learn/**'
 
           # The name of the user that will be displayed as the author of the commit.
           # Default: depends on the default_author input
@@ -72,7 +71,7 @@ jobs:
 
           # The email of the user that will be displayed as the author of the commit.
           # Default: depends on the default_author input
-          author_email: mail@example.com
+          author_email: sdk@superoffice.com
 
           # Additional arguments for the git commit command. The --message argument is already set by the message input.
           # Default: ''
@@ -84,7 +83,7 @@ jobs:
 
           # The email of the custom committer you want to use, if different from the author of the commit.
           # Default: the email of the author (set with either author_email or default_author)
-          committer_email: mail@example.com
+          committer_email: sdk@superoffice.com
 
           # The local path to the directory where your repository is located. You should use actions/checkout first to set it up.
           # Default: '.'

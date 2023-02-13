@@ -7,6 +7,7 @@ so.date: 04.04.2022
 
 ## Versions
 
+* [10.2][6]
 * [10.1][5]
 * [10.0][4]
 * [9.2][1]
@@ -37,6 +38,7 @@ so.date: 04.04.2022
 [3]: 8.5/index.md
 [4]: 10.0/index.md
 [5]: 10.1/index.md
+[6]: 10.2/index.md
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png

@@ -1,0 +1,17 @@
+items:
+  - name: Manage status monitors
+    href: manage-status-monitors.md
+  - name: Create new status
+    href: create-status.md
+  - name: Edit description for status
+    href: edit-status.md
+  - name: Restore deleted status
+    href: restore-status.md
+  - name: Default follow-up type for status
+    href: select-default-follow-up-type-for-status.md
+  - name: Image for status
+    href: select-image-for-status.md
+  - name: Period length
+    href: select-period-length.md
+  - name: Status criteria
+    href: select-status-criteria.md
