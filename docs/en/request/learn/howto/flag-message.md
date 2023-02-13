@@ -23,9 +23,9 @@ To make it easier to find and sort multiple messages in a request, you can flag 
 
 ## Filtering messages
 
-1.[Open the request][1].
-2. Click the **Messages** tab.
-3. In the lower right corner, click the filter list and select a filter. The messages are filtered.
+1. [Open the request][1].
+2. Click the **Show...** button in the top right corner.
+3. Select the wanted filter, the number of messages (x) indicates how. The messages are filtered based on your filter option.
 
 <!-- Referenced links -->
 [1]: ../index.md#open

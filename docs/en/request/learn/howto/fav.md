@@ -35,7 +35,7 @@ In SuperOffice there is a favourites list where you can add requests you want to
 
 Do the following:
 
-* Select **Requests** in the Navigator, and click ![icon][img3] **My favourites**.
+* Select **Requests** in the Navigator, and click ![icon][img3] .
 
 ## Remove requests from the favourites list
 
