@@ -3,7 +3,7 @@ uid: help-en-request-close
 title: Close a request
 description: How to close a request in SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.14.2023
 keywords: request
 so.topic: howto
 language: en
@@ -14,6 +14,5 @@ language: en
 After responding to the request, you can set its status to **Closed** by selecting **Closed** in the **Status** list.
 
 <!-- Referenced links -->
-
 
 <!-- Referenced images -->
