@@ -12,6 +12,8 @@ so.topic: reference
 # New and improved SuperOffice Mobile CRM
 
 * [Custom tasks in Mobile CRM (10.2.1)][1]
+* [Custom tasks with CRMScript (10.2.2)][2]
 
 <!-- Referenced links-->
 [1]: 10.2.1-update.md
+[2]: 10.2.2-update.md

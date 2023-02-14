@@ -16,9 +16,11 @@ so.client: online
 
 * SuperOffice Online tenant
   * AAD Authentication of SuperOffice Admin (see [IDP authentication][2] for more info).
+  * Soon you will not be able to continue to set up the integration until ALL users with user plan use IDP (see "Requirements - To use it" below)
 
 * Microsoft 365 for business subscription
   * If you don't have a Microsoft 365 subscription, you have to sign up for one at Microsoft.
+  * Soon you will not be able to continue to set up the integration until ALL users with user plan must be in the same Azure AD subscription (see "Requirements - To use it" below)
 
 * A SharePoint site with document library for storing documents and document library for storing templates.
 
@@ -31,8 +33,9 @@ so.client: online
 
 ## To use it
 
-* All users must use **Sign in with Microsoft** in SuperOffice Online (AAD).
+* ALL users with user plan must use **Sign in with Microsoft** in SuperOffice Online (AAD).
   * AAD Authentication of users (see [IDP authentication][2] for more info).
+* ALL users with user plan must be in the same Azure AD subscription as the one used during set up
 
 > [!NOTE]
 > No support for moving documents to other SharePoint sites, only within the same site.
