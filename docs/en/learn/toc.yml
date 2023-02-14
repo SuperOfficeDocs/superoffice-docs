@@ -110,6 +110,8 @@ items:
           href: ../request/learn/category/create.md
         - name: Delete category
           href: ../request/learn/category/delete.md
+        - name: Automatic assignment
+          href: ../request/learn/howto/assign.md
       - name: Tags
         href: ../request/learn/tags.md
       - name: Priorities

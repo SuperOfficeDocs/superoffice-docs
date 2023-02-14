@@ -3,7 +3,7 @@ uid: help-en-request-merge
 title: Merge requests
 description: Merge requests
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.14.2023
 keywords: request
 so.topic: howto
 language: en
@@ -14,25 +14,25 @@ language: en
 You can merge two or more requests. For example, if multiple contacts in the same company have reported the same technical issue (via phone, web forms and email), you can merge these requests into one request to process. Contacts and messages from all merged requests will be kept.
 
 > [!NOTE]
-> You can also search for and select requests to merge from the search results screen. Then click ![icon][img1] in the lower left corner and select **Batch management**> **Merge**.
+> You can also search for and select requests to merge from a request list or the search results screen. Then click ![icon][img1] in the lower left corner and select **Merge requests** in the **Manage** section. Use the drag & drop function to change the request in the two different fields.
 
 **Steps:**
 
 1. [Open one of the requests][1] you want to merge.
 
-2. Click ![icon][img1] and select **Merge**. A screen opens, showing the fields that must be merged. Now you need to find the request to merge with this one.
+1. Click ![icon][img1] and select **Merge requests**. The **Merge request** dialog opens, showing the fields that must be merged. Now you need to find the request to merge with the one in the field for **Merge request(s) into**.
 
-3. In the search field, start typing a request name or enter a request ID. Enter **%** to display all requests.
+1. In the search field for **Merge request(s)**, start typing a request name or enter a request ID. Enter **%** to display all requests.
 
-4. Select a request from the list of search results. The selected request opens in a new column in the table.
+1. Select a request from the list of search results. The selected request opens in a new column in the table.
 
-5. To add more requests, repeat the previous steps.
+1. To add more requests to the field for **Merge request(s)**, repeat the previous steps.
 
-6. For each row (field) in the table, you must select which request data should be kept. Click ![icon][img2] **Choose** to select all fields in a column. The unselected data in this table will be overwritten.
+1. ?In the yellow section the overview of the result of the merge:
     * Messages from all merged requests will be kept.
     * Contacts from all merged requests will be kept, and the main contact will be inherited from the selected request ID.
 
-7. Click **OK**. The requests are merged.
+1. Click **Merge**. The requests are merged.
 
 The request IDs that were overwritten will no longer be available in favorites and history lists and regular search. If you enter an overwritten request ID in the [quick search][2] field, you are redirected to the merged request.
 
@@ -51,4 +51,3 @@ The request IDs that were overwritten will no longer be available in favorites a
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/select-all.png

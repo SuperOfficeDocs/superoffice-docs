@@ -3,7 +3,7 @@ uid: help-en-request-create
 title: ticket newTicket
 description: ticket newTicket
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.14.2023
 keywords: request
 so.topic: help
 language: en
@@ -15,19 +15,20 @@ A request can arrive in the system via an email from the customer, or you can re
 
 ## Workflow
 
-1. Select **Requests** > **New request**.
+1. Select ![icon][img8] **+New** > **Request**.
 
-2. When you create a new request, the **To** field has the following uses:
+1. Add the **Request title** that will explain the content of the request.
+1. When you create a new request, the **To/Search for contact** field has the following uses:
 
     * By default, the contact(s) entered here will also be the contact(s) for the new request.
     * Contact(s) entered here will receive the message (in the **Message** tab) by email (even if the access level of the message is set to **Internal**).
     * If you enter more than one contact, the first contact is the main contact for the request. You can click and drag the contacts to change the order.
 
-    In the **To** field, start typing the name (or phone number) of the contact. In the list of search results, use the up/down arrow keys on your keyboard to select a contact and press **ENTER**.
+    In the **To/Search for contact** field, start typing the name (or phone number) of the contact. In the list of search results, use the up/down arrow keys on your keyboard to select a contact and press **ENTER**. Or use your mouse cursor to select the contact.
 
     <details><summary>What if the person is not a registered contact?</summary>
 
-    To register a new contact, click ![icon][img1] in the **Contacts** field in the **Properties** tab.
+    To [create a new contact][10], click ![icon][img8] **+New** and **Contact**.
 
     Optionally, enter an email address to add a recipient without registering them in the system. In this case, they will not be added as contacts for the request.
     </details>
@@ -35,19 +36,17 @@ A request can arrive in the system via an email from the customer, or you can re
     > [!NOTE]
     > You can leave this field empty if you do not want to send the message to anyone, but then you must enter the contact in the **Contacts** field in the **Properties** tab.
 
-3. Optional: Click the **Cc/Bcc** button on the far right to add contacts as copy or blind copy.
+1. Optional: Click the **Cc/Bcc** button on the far right to add contacts as copy or blind copy.
 
-4. Go to the **Properties** tab and enter request information like title, [category][10], priority and status. See [Properties](#properties).
+1. Go to the **Sidepanel** and enter request information like title, [category][9], priority and status.
 
-5. Go to the **Message** tab and enter the actual [message](#message) you want to add to the request.
+1. Go to the **Messages** tab and enter the actual [message](#message) you want to add to the request.
 
-6. Go to the **Invoice information** tab and [enter any invoice lines](#invoice-information).
+1. Go to the **Extra fields** tab and enter information in any available [extra fields](#extra-fields).
 
-7. Go to the **Extra fields** tab and enter information in any available [extra fields](#extra-fields).
+1. Click **OK** to save the request. See also [Autosave](#autosave).
 
-8. Click **OK** to save the request. See also [Autosave](#autosave).
-
-## Properties
+## Details
 
 Here you enter information to correctly assign and prioritize the request.
 
@@ -82,7 +81,7 @@ Here you enter information to correctly assign and prioritize the request.
 
 * Automatically add message recipients as request contacts: This checkbox is selected by default for new requests, so any recipients you add in the **To** field when creating the request, will also be added as contacts for the request. The contacts are added when you click **OK**.
 
-## <a id="message" />Message
+## <a id="message" />Messages
 
 > [!NOTE]
 > To send the message to someone, add recipients in the **To** field above the tabs. To make the message available for the contact via SuperOffice Customer Centre, set the access level (for the message) to **External**.
@@ -102,18 +101,6 @@ The section at the bottom contains the following options:
 
 > [!NOTE]
 > The default request signature will be added to the message. You can edit the signature directly or
-
-## <a id="invoice" />Invoice information
-
-> [!NOTE]
-> The invoice feature is only available if you have registered [invoice types][8] and have the required feature toggle.
-
-Here you can add invoice lines as internal information for the request.
-
-1. In the list box at the top left, select the type of invoice. The price is updated in accordance with the invoice you select.
-2. In the **Description** field, enter a more detailed description of what the invoice line relates to.
-3. In the next fields, enter the unit price, quantity, any discount (percent or amount) and the date.
-4. Click ![icon][img1] to add the invoice line.
 
 ## Extra fields
 
@@ -140,7 +127,7 @@ The autosave feature is activated by default when you view and edit requests and
 
 ## What would you like to do now?
 
-* [Process requests][9]
+* [Process requests][8]
 
 <!-- Referenced links -->
 [3]: ../priority/escalation-levels.md
@@ -148,9 +135,9 @@ The autosave feature is activated by default when you view and edit requests and
 [5]: ../../../learn/customers/person/create.md
 [6]: ../../../ui/blogic/learn/screen-properties.md
 [7]: ../../../service/reply-templates/learn/new-language.md
-[8]: ../invoice/index.md
-[9]: index.md
-[10]: ../category/index.md
+[8]: index.md
+[9]: ../category/index.md
+[10]: ../../../contact/learn/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
@@ -160,3 +147,4 @@ The autosave feature is activated by default when you view and edit requests and
 [img5]: ../../../../../common/icons/stop.png
 [img6]: ../../../../../common/icons/play.png
 [img7]: ../../../../../common/icons/timespan.png
+[img8]: ../../../../media/icons/new.png
