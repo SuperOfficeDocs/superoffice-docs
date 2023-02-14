@@ -1,27 +1,26 @@
 ---
 uid: help-en-gmail-link
 title: SuperOffice Gmail Link
-description: SuperOffice Gmail Link
+description: SuperOffice Gmail Link app connects your Gmail account to SuperOffice CRM and helps you work more productively with emails.
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Gmail Link
+so.date: 02.14.2023
+keywords: Gmail Link, email
 so.topic: concept
 language: en
 ---
 
 # SuperOffice Gmail Link
 
-SuperOffice Gmail Link is a plug-in that links the Google Gmail client with SuperOffice CRM and/or SuperOffice Service. This means that among other things, you can:
+SuperOffice Gmail Link is a plug-in that links the Google Gmail client with SuperOffice. This means that among other things, you can:
 
-* Archive emails and attachments as documents in SuperOffice CRM.
-* Create activities in SuperOffice CRM based on emails in Gmail.
-* Create requests in SuperOffice Service based on emails in Gmail.
-* Look up senders in SuperOffice.
-
-To install SuperOffice Gmail Link, go to the [SuperOffice App Store][1].
+* Archive incoming and outgoing emails and attachments from your Gmail account as documents in SuperOffice.
+* Create diary activities in SuperOffice based on emails in Gmail.
+* Create requests based on emails in Gmail.
+* Look up senders in SuperOffice: easy-to-follow wizards that help you create a new company, contact or email address in your SuperOffice CRM database, if the sender is not unknown.
 
 ## What would you like to do now?
 
+* [Enable SuperOffice Gmail Link][1]
 * [Archive incoming email][3]
 * [Archive outgoing email][4]
 * [Archive attachments][2]
@@ -31,7 +30,7 @@ To install SuperOffice Gmail Link, go to the [SuperOffice App Store][1].
 * [Edit Gmail Link settings][8]
 
 <!-- Referenced links -->
-[1]: http://online.superoffice.com/appstore/superoffice-as/superoffice-gmail-link
+[1]: install.md
 [2]: archive-attachments.md
 [3]: email-archive-incoming.md
 [4]: email-archive-outgoing.md

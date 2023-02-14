@@ -1,8 +1,8 @@
 items:
 - name: Overview
   href: index.md
-- name: First time you log in
-  href: first-login.md
+- name: Set up
+  href: setup.md
 - name: Inbox options
   href: inbox-options.md
 - name: View email message
