@@ -32,4 +32,4 @@ To connect SuperOffice for Outlook, go to our [App Store][1] and follow the inst
 [1]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/user-superoffice-outlook-sidepanel.png
+[img1]: media/user-superoffice-outlook-sidepanel.png

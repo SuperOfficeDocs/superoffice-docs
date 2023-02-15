@@ -39,4 +39,4 @@ Documents within the library inherit the permission from the library itself.
 [2]:
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/globalassets/user--admin/learning/admin-guide/system-preferences/admin-preferences-documentlibrary-sharepoint-permissions.png
+[img1]: media/admin-preferences-documentlibrary-sharepoint-permissions.png

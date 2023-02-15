@@ -90,7 +90,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 
 **Sales:**
 
-![Example - screenshot][img2]
+![Example -screenshot][img2]
 
 **Service:**
 

@@ -3,9 +3,9 @@ uid: help-en-find-dialog
 title: Find dialog
 description: Find dialog
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.15.2023
 keywords: CRM
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -44,6 +44,17 @@ To search for records and data in SuperOffice CRM, use the **Find** screen.
 > [!TIP]
 > If, for example, you want to search for all companies, you can use the percent sign (%) when [entering search criteria][3] for **Company**.
 
+## Broaden your search using the OR function
+
+The Find feature allows you to perform a search by combining search criteria with the value operator “OR” between them. This way you can search for two sets of independent data and save it in one selection.
+
+Let’s take a look at some practical examples of how you can use the OR function. You can search for all customers who bought “Product A” and customers who didn’t buy “Product B” to boost your cross-sales. Or you can search for all large customers based in Liverpool or Manchester, so you can contact them about an upcoming event in one of these cities.
+
+Watch this video to learn how to create a search using the OR function (video length - 4:08):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/Z-fSLJSdp2k]
+
 ## Work with search results
 
 After following the above steps, and search results are displayed in the **Results** tab, you have several options available:
@@ -52,7 +63,16 @@ After following the above steps, and search results are displayed in the **Resul
 
 * **Display a record in the side panel:** Use the [side panel][4] to quickly browse through the search results. If you have searched for contact, select **Contacts** in the list at the top of the side panel. You can then click on each contact in the **Results** tab to preview them.
 
-* **Perform tasks on the search results:** The **Task** button contains tasks such as sending emails, mass-editing and exporting. Which tasks are displayed depends on what type of records are displayed. See [Perform tasks using selections][7].
+* **Perform tasks on the search results:** The **Task** button contains tasks such as:
+
+  * Send a mailing and create activities
+  * Manage the information in your selection
+  * Print out or export your data
+  * Delete the information in your selection from your CRM database
+
+    ![A list of possible tasks you can use your search result for -screenshot][img10]
+
+    Which tasks are displayed depends on what type of records are displayed. [Read more][7]
 
 * **Add records to a selection:** Click the **Save as selection** button. See [Create selections][8].
 
@@ -326,3 +346,4 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 [img7]: ../../../../common/icons/singlecolour/person.png
 [img8]: ../../../../common/icons/singlecolour/project.png
 [img9]: ../../../../common/icons/singlecolour/appointment.png
+[img10]: media/task-menu.png

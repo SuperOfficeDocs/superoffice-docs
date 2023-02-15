@@ -1,15 +1,20 @@
 ---
 uid: help-en-dashboard-tile-add
 title: Add tile/edit layout in dashboard
-description: Dashboard Add tiles / Edit layout
+description: If you don't find the tile you need among the set of pre-defined tiles in SuperOffice Dashboard, you can always create your own. In this how-to guide, you’ll learn how to create a dashboard tile.
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 02.14.2023
 keywords: dashboard
 so.topic: howto
 language: en
 ---
 
 # Add tile / edit layout in dashboard
+
+Watch this video or the steps below to learn how to create your own dashboard tile (video length – 7:20):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/zoAuq0IK_6k]
 
 To add a tile to a dashboard:
 
@@ -18,6 +23,11 @@ To add a tile to a dashboard:
 2. Select the dashboard you want to edit.
 
 3. Click the **Task** button, and select **Add tile / Edit layout**. On the right side of the selected dashboard, the **Add tile / Edit layout** section is displayed.
+
+    ![Select tile type -screenshot][img1]
+
+    > [!NOTE]
+    > If the **Layout** tab and the fields are disabled, this means you do not have sufficient user rights. Please contact your administrator to get the right access.
 
 4. In the **Show tiles for** list, select the type of records you want to use, for instance companies, follow-ups or sales. Relevant tiles are displayed in the **Library** and **Selections** tabs below:
 
@@ -45,14 +55,31 @@ To add a tile to a dashboard:
 
 9. Click **Done**.
 
+## The dataset tab
+
+The tab for Dataset will show the criteria overview like you are used to in Find and Selection. The different criteria you select here will filter the wanted data for your tile.
+
+You have various edit options for your dashboard tiles, including the Source of the data
+
+## The layout tab
+
+The tab for Layout gives you a lot of possibilities to fine-tune the visual look of the tile. If you are happy with the layout of a tile, you can also duplicate the tile to change the dataset behind without changing the layout.
+
+Choose the wanted chart type and the settings needed. The output of the tile is shown on the right side
+
 ## Related topics
 
 * [Edit a tile][1]
 * [Remove a tile][3]
+* [Read more about criteria][4]
+* [The Find screen][5]
 
 <!-- Referenced links -->
 [1]: edit-tile.md
 [2]: ../../search-options/selection/learn/howto/display-as-charts.md
 [3]: remove-tile.md
+[4]: ../../search-options/learn/using-search-criteria.md
+[5]: ../../search-options/learn/find-dialog.md
 
 <!-- Referenced images -->
+[img1]: media/dashboard-add-tile-sale.png

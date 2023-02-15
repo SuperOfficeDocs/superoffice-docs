@@ -55,7 +55,7 @@ On the selection, click on the Task button and select one of the wanted Delete f
 [5]: ../../person/learn/delete.md
 [3]: ../../company/learn/merge-companies.md
 [4]: ../../company/learn/delete.md
-[6]: ../../search-options/selections/learn/howto/deleting-companies-permanently.md
+[6]: ../../search-options/selections/learn/howto/mass-delete.md
 [8]: ../../search-options/selections/learn/index.md
 [7]: recycle-bin.md
 

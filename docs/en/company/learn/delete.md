@@ -29,7 +29,7 @@ language: en
 
 <!-- Referenced links -->
 [2]: ../../learn/getting-started/restore-deleted-companies-and-contacts.md
-[3]: ../../search-options/selection/learn/howto/deleting-companies-permanently.md
+[3]: ../../search-options/selection/learn/howto/mass-delete.md
 [4]: merge-companies.md
 
 <!-- Referenced images -->

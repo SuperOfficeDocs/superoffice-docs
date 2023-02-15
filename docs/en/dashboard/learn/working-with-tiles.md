@@ -1,7 +1,7 @@
 ---
 uid: help-en-dashboard-tiles
 title: Working with tiles
-description: Working with dashboard tiles
+description: It's the data that lies behind the tiles that makes a dashboard useful. In this how-to guide, you’ll learn how to access the information in your dashboard, so that you can get a clear overview and prioritize your next steps better.
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: dashboard
@@ -12,6 +12,8 @@ language: en
 # Working with tiles
 
 A dashboard can consist of any number of tiles. Each tile contains a graphical or numerical representation of SuperOffice data.
+
+It is the data that lies behind the tiles that makes a dashboard useful. Learn how to access the information in your dashboard, so that you can get a clear overview and prioritize your next steps better.
 
 ## View tiles and data
 
@@ -24,6 +26,10 @@ A dashboard can consist of any number of tiles. Each tile contains a graphical o
 * Click ![icon][img1] in the header of a tile and select **View in full screen** to open the tile in full screen. Useful for tiles with much content.
 
 ### Examine underlying data
+
+Follow the steps in this GIF or the steps below to see how you can access the data behind the tiles:
+
+![Reveal the data behind your graph with dashboard drill down -screenshot][img2]
 
 1. Open the **Dashboard** screen.
 
@@ -54,13 +60,18 @@ Click ![icon][img1] in the header of a tile to access the following options:
 
 ## Related topics
 
+* [Add a new dashboard][1]
 * [Edit a tile][2]
 * [Remove a tile][3]
+* [Use dashboards to manage your sales pipeline][5]
 
 <!-- Referenced links -->
+[1]: create.md
 [2]: edit-tile.md
 [3]: remove-tile.md
 [4]: ../../search-options/selection/learn/update/add-members-to-static.md
+[5]:
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/context-menu.png
+[img2]: media/10-drill-down.gif

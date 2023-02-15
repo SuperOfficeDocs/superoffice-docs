@@ -50,4 +50,4 @@ To set up SharePoint as your document library in SuperOffice, you need:
 [3]: https://community.superoffice.com/no/learning/best-practices-tips/standard-crm/sharepoint-integration/
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/globalassets/user--admin/learning/admin-guide/system-preferences/admin-preferences-documentlibrary.png
+[img1]: media/admin-preferences-documentlibrary.png

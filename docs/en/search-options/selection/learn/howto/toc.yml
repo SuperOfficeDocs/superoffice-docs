@@ -20,4 +20,4 @@ items:
   - name: Export to Excel
     href: export-to-excel.md
   - name: Delete records permanently
-    href: deleting-companies-permanently.md
+    href: mass-delete.md

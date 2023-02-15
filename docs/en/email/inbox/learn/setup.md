@@ -88,8 +88,8 @@ Some email providers, such as Gmail, will block login attempts from unknown apps
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/personal-settings-small.png
-[img2]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/connect-email--documents/getstarted-contact-mycontactcard.png
-[img3]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/connect-email--documents/getstarted-inbox-login.png
-[img4]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/connect-email--documents/so-inbox-advanced-settings.png
-[img5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/connect-email--documents/email-options-general.png
-[img6]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/connect-email--documents/email-options-account.png
+[img2]: media/getstarted-contact-mycontactcard.png
+[img3]: media/getstarted-inbox-login.png
+[img4]: media/so-inbox-advanced-settings.png
+[img5]: media/email-options-general.png
+[img6]: media/email-options-account.png
