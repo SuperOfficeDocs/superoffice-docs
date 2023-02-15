@@ -15,7 +15,6 @@ language: en
 
 1. Go to the **SOAP** screen.
     * In Settings and maintenance: Click the **Requests** button in the navigator. Then select the **SOAP** tab.
-    * In Service: Select ![icon][img2] **System settings** > **SOAP**.
 
 2. In the **Port** list, select the required access type.
 
@@ -32,4 +31,3 @@ language: en
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/delete-circle-red.png
-[img2]: ../../../media/icons/settings-small.png

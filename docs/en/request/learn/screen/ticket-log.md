@@ -9,7 +9,7 @@ so.topic: concept
 language: en
 ---
 
-# Request log
+# Change log
 
 This screen shows the log for this request. All events are recorded, including when they occurred, what happened and who was responsible.
 
