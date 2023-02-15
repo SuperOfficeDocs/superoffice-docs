@@ -26,6 +26,7 @@ CRMScript is a language under continuos improvements. Some changes might alter t
 | 1     |                       | Obsolete                                                |
 | 2     | version 6 and earlier | Compatibility layer added for later versions            |
 | 3     | version 7 and later   | No compatibility layer. Must specify the correct table. |
+| 4     | version 10.2.2 and later   | No compatibility layer. |
 
 > [!CAUTION]
 > The compatibility layer will transform some pre-7 database tables to their current equivalents. **This will affect performance!**
