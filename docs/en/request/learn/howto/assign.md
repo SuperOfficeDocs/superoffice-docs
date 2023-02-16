@@ -2,7 +2,7 @@
 uid: help-en-request-assign
 title: Assignment methods
 description: Assignment methods for requests
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: request
 so.topic: concept
@@ -32,7 +32,7 @@ A request handler with category administration rights can specify the assignment
 2. Select the required category.
 3. Select the **Assignment method** tab.
 4. Select the appropriate options.
-5. Click **OK**.
+5. Click **Save**.
 
 ## Example
 

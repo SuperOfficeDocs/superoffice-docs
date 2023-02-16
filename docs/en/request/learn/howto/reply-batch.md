@@ -15,11 +15,11 @@ You can add a message to several requests in a single operation. For example, if
 
 1. In the request list, select the relevant requests.
 
-2. Click the ![icon][img1] **Task** button in the lower left corner of the request list.
+1. Click the ![icon][img1] **Task** button in the lower left corner of the request list.
 
-3. Select **Reply to customers**.
+1. Select **Reply to customers**.
 
-4. The **Reply to customers** screen opens up, where you have the following options:
+1. The **Reply to customers** screen opens up, where you have the following options:
 
     * **Send copy to customer (only external requests)**: If enabled, then the message will also be sent by email to the contacts linked to the selected external requests.
     * **Close request**: Check this box to close all selected requests in one operation.
@@ -27,7 +27,7 @@ You can add a message to several requests in a single operation. For example, if
     * Write your message in the text area in the middle of the screen.
     * **Insert**: Click the list button ![icon][img2], and select what to insert in the message. You can add a reply template, an FAQ entry, a previous message, or an attachment. Optional: You can also [add reply templates in other languages][1]. Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used.
 
-5. Click **Reply** when you are finished.
+1. Click **Reply** when you are finished.
 
 <!-- Referenced links -->
 [1]: ../../../service/reply-templates/learn/new-language.md

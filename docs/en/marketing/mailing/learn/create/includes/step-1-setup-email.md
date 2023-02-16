@@ -5,7 +5,12 @@ The first step in creating an email mailing, is called **Setup**. Here you can s
 
 2. Enter the subject of the email in the **Email subject** field.
 
-3. In the **From** list, select **Always use** and enter the sender's email address in the field below to use the same sender for all mailings. You can also choose a sales contact or support contact as the sender, if one is defined for this recipient. Enter an email address to be used if no sales contact or support contact is available.
+3. The **From** section includes several fields:
+   * Set a rule for the From addresses for your mailings. **Always use** means that your emails will be sent from the email address you specify. **Use our contact where specified, otherwise use** means that your mailings will be sent from your registered email address. If the Our contact address has an email domain that has not been validated, the mailing will automatically be sent from the address specified in the **Otherwise use** field.
+   * Specify the email address you want to send from and select the domain. The available From domains will show in the dropdown list **Choose mail domain**.
+
+    > [!NOTE]
+    > If the global email validation preference has not been activated, you will be able to set any email address and domain as the From address. The system will notify you that the domain cannot be found during the SPF lookup. This means that your email address will likely end up in the receiver’s SPAM folder.
 
 4. In the **Reply to** list, you have the same options as above. In addition, you can select **Use "From" as reply address**. Any replies will then be sent to the sender.
 

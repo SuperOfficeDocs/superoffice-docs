@@ -2,7 +2,7 @@
 uid: help-en-request-category
 title: Categories
 description: Categories
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: request, category
 so.topic: concept
@@ -13,7 +13,7 @@ language: en
 
 All requests belong to a category, and each category has its own rules that define how requests are processed in the system.
 
-Typically, the higher-level categories will correspond to the organization's departments, while subcategories will correspond to areas of responsibility and/or logical structures within a department. Subcategories could also be the products that the company sells.
+Typically, the higher-level categories will correspond to the organisation's departments, while subcategories will correspond to areas of responsibility and/or logical structures within a department. Subcategories could also be the products that the company sells.
 
 For example, main categories for User Support, Development, Sales and Invoicing - and subcategories in these for each of the products that are sold.
 
@@ -28,8 +28,6 @@ Users can be added as members in the categories individually or via the user gro
 ## Where can I find the categories?
 
 * **In Settings and maintenance:** Select **Requests** in the navigator and then the **Categories** tab.
-
-* **In Service:** Select ![icon][img1] **System settings** > **Categories**
 
 The categories are arranged in a tree structure.
 
@@ -50,4 +48,3 @@ The categories are arranged in a tree structure.
 [6]: ../find.md#category
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png

@@ -2,7 +2,7 @@
 uid: help-en-request-howto
 title: Request management
 description: Request management
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: request
 so.topic: concept
@@ -30,25 +30,25 @@ Different companies have different routines for request handling and can use Sup
 ## Scenario 1: The customer submits the request by email
 
 1. The customer writes an email to support@company.com or fills out a form in a user-support portal.
-2. The customer receives [automatic acknowledgement][11] of receipt of the enquiry.
-3. The enquiry from the customer is automatically registered as a request in SuperOffice CRM.
-4. The request ends up with a request handler in SuperOffice CRM. See [Assign requests][12] and [Find requests][13].
-5. The request handler reads through the request.
-6. The request handler is unable to fulfil the request on their own and does one of the following:
+1. The customer receives [automatic acknowledgement][11] of receipt of the enquiry.
+1. The enquiry from the customer is automatically registered as a request in SuperOffice CRM.
+1. The request ends up with a request handler in SuperOffice CRM. See [Assign requests][12] and [Find requests][13].
+1. The request handler reads through the request.
+1. The request handler is unable to fulfil the request on their own and does one of the following:
     * [Asks a colleague][2].
     * [Gets help from outside][3].
-7. The request handler [sends a response to the customer][4].
-8. The request handler [closes the request][7] and proceeds to deal with other requests.
+1. The request handler [sends a response to the customer][4].
+1. The request handler [closes the request][7] and proceeds to deal with other requests.
 
 ## Scenario 2: The customer calls the request handler
 
 1. The customer has a problem with a product and calls user-support.
-2. The request handler who answers the call [registers the request][14].
-3. The request handler is unable to fulfil the request on their own and does one of the following:
+1. The request handler who answers the call [registers the request][14].
+1. The request handler is unable to fulfil the request on their own and does one of the following:
     * [Asks a colleague][2].
     * [Gets help from outside][3].
-4. The request handler [sends a response to the customer][4].
-5. The request handler [closes the request][7] and proceeds to deal with other requests.
+1. The request handler [sends a response to the customer][4].
+1. The request handler [closes the request][7] and proceeds to deal with other requests.
 
 ## <a id="ai" />Efficient handling of requests using AI
 

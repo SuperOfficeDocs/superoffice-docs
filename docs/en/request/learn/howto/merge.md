@@ -20,15 +20,15 @@ You can merge two or more requests. For example, if multiple contacts in the sam
 
 1. [Open one of the requests][1] you want to merge.
 
-2. Click the ![icon][img1] **Task** button and select **Merge**. A screen opens, showing the fields that must be merged. Now you need to find the request to merge with this one.
+1. Click the ![icon][img1] **Task** button and select **Merge**. A screen opens, showing the fields that must be merged. Now you need to find the request to merge with this one.
 
-3. In the search field, start typing a request name or enter a request ID. Enter **%** to display all requests.
+1. In the search field, start typing a request name or enter a request ID. Enter **%** to display all requests.
 
-4. Select a request from the list of search results.
+1. Select a request from the list of search results.
 
-5. To add more requests, repeat the previous steps.
+1. To add more requests, repeat the previous steps.
 
-6. Click **Merge**. The requests are merged.
+1. Click **Merge**. The requests are merged.
 
 The request IDs that were overwritten will no longer be available in favourites and history lists and regular search. If you enter an overwritten request ID in the [quick search][2] field, you are redirected to the merged request.
 

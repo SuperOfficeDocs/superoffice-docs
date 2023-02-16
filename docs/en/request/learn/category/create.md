@@ -2,7 +2,7 @@
 uid: help-en-request-category-create
 title: Create category
 description: Create category
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: request, category
 so.topic: howto
@@ -15,7 +15,6 @@ language: en
 1. Go to the **Categories** screen.
 
     * In Settings and maintenance: Click the **Requests** button in the navigator. Then select the **Categories** tab.
-    * In Service: Select ![icon][img2] > **Categories**.
 
 1. Click the **Add** button.
 
@@ -39,14 +38,14 @@ language: en
 
     * **Take ownership when replying**: If checked, the user who replies to a request in this category is set as the owner of the request.
 
-    * **Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences][1], unless you select **User-defined**.
-
     * **Default status for new request**: Here you choose the default status to appear in the **Request** screen. This setting will override [user preferences][1], unless you select **User-defined**.
 
-    * **Merge outbound emails for this category with reply template**: Select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance.
+    * **Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences][1], unless you select **User-defined**.
+
+    * **Merge outbound e-mails for this category with reply template**: Select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance.
 
         > [!NOTE]
-        >  In Service, go to the **Reply template** tab to set this property.
+        >  In SuperOffice CRM Requests, go to the **Reply template** tab to set this property.
 
         * Check **Apply to subcategories** if you want the selected reply template to also be used for any subcategories. This assumes however that the template is not overridden by settings made in the subcategories.
 
@@ -67,7 +66,7 @@ language: en
         * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
         * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests** > **Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue][3]).
 
-    * **Only assign to logged in users**: Assigns requests only to users who are logged in to SuperOffice Service.
+    * **Only assign to active users**: Assigns requests only to users who are logged in to SuperOffice.
 
     * **Assign to category administrator if no one is available**: Assigns requests to the category manager if no other users are available.
 
@@ -75,9 +74,9 @@ language: en
 
     * **Assign to our service contact if available**: If the relevant company or contact has a request handler specified as **Our contact**, and this user is available, the request is assigned to this user. If **Our contact** is not specified, or the user is not available, the request is assigned in accordance with the usual assignment rules.
 
-    * **Duration of sticky request** / **Assignment quarantine**: Enter the number of minutes for which you want to override assignment and assign all requests from the same customer to one user. In this way, you can ensure that when customers send two requests in a row to the same email address, the requests go to the same request handler. If you enter -1, this functionality is disabled and all requests will be assigned in accordance with the usual assignment rules.
+    * **Assignment quarantine**: Enter the number of minutes for which you want to override assignment and assign all requests from the same customer to one user. In this way, you can ensure that when customers send two requests in a row to the same email address, the requests go to the same request handler. If you enter -1, this functionality is disabled and all requests will be assigned in accordance with the usual assignment rules.
 
-1. Click **OK**. The category is created.
+1. Click **Save**. The category is created.
 
 ## What would you like to do now?
 

@@ -17,12 +17,12 @@ A request can arrive in the system via an email from the customer, or you can re
 
 1. Select **New** > **Request**.
 
-2. In the **Title** field, give the request a descriptive name for the request.
+1. In the **Title** field, give the request a descriptive name for the request.
 
-3. Add a contact in the **Search for contact** field.
+1. Add a contact in the **Search for contact** field.
    Don't want to add a contact? You can create a ticket without adding a contact and add this information later, if you are in a hurry.
 
-4. When you create a new request, the **To** field has the following uses:
+1. When you create a new request, the **To** field has the following uses:
 
     * By default, the contact(s) entered here will also be the contact(s) for the new request.
     * Contact(s) entered here will receive the message (in the **Message** tab) by email (even if the access level of the message is set to **Internal**).
@@ -40,15 +40,15 @@ A request can arrive in the system via an email from the customer, or you can re
     > [!NOTE]
     > You can leave this field empty if you do not want to send the message to anyone.
 
-5. Optional: Click the **Cc/Bcc** button on the far right to add contacts as copy or blind copy.
+1. Optional: Click the **Cc/Bcc** button on the far right to add contacts as copy or blind copy.
 
-6. Go to the **Properties panel** on the right-hand side of the screen and enter request information like status, owner, [category][10], priority, access level and tags. See [Properties](#properties).
+1. Go to the **Properties panel** on the right-hand side of the screen and enter request iformation like status, owner, [category][10], priority, access level and tags. See [Properties](#properties).
 
-7. Go to the **Messages** tab and enter the actual [message](#message) you want to add to the request.
+1. Go to the **Messages** tab and enter the actual [message](#message) you want to add to the request.
 
-8. Go to the **Invoice information** tab and [enter any invoice lines](#invoice-information).
+1. Go to the **Invoice information** tab and [enter any invoice lines](#invoice-information).
 
-9. Click **Save** to save the request. See also [Autosave](#autosave).
+1. Click **Save** to save the request. See also [Autosave](#autosave).
 
 ## Properties
 
@@ -104,9 +104,9 @@ The section at the bottom contains the following options:
 Here you can add invoice lines as internal information for the request.
 
 1. In the list box at the top left, select the type of invoice. The price is updated in accordance with the invoice you select.
-2. In the **Description** field, enter a more detailed description of what the invoice line relates to.
-3. In the next fields, enter the unit price, quantity, any discount (percent or amount) and the date.
-4. Click ![icon][img1] to add the invoice line.
+1. In the **Description** field, enter a more detailed description of what the invoice line relates to.
+1. In the next fields, enter the unit price, quantity, any discount (percent or amount) and the date.
+1. Click ![icon][img1] to add the invoice line.
 
 ## Extra fields
 
